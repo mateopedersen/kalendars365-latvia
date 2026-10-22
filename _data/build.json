@@ -1,8 +1,8 @@
 {
-  "asset_version": "53cf738684b99157",
-  "sha256": "53cf738684b99157826f1afb1cc4228defb4c4fb4d38435ce2870ef98dea8106",
+  "asset_version": "f5988e75aaf6da06",
+  "sha256": "f5988e75aaf6da060a5727dd1422540f8ead42b9ed1837ec3b9ae252eeb2542b",
   "files": {
-    "assets/app.js": "8c4d574b7aea573f12aacb4e3944349e610aafedc49a13ce9d26b95fcb97c2f0",
+    "assets/app.js": "708873c3023f158a3fd84a2c763840dfa4082a42a0e18cdf79a33e8c15a0f85c",
     "assets/calendar-core.js": "745629db341adef3e44b5c935ffea74bae8d7aa61236abb8bb6430e7d17d6126",
     "assets/calendar-data.json": "10a34aceae78f28133e69d79dca45aa906859c066c22c6b011cfaef5b54250d5",
     "assets/favicon.svg": "e7a94b3759f478d7138734cb5da5434e85ef913df4decf893725e16ab2757751",

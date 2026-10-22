@@ -35,3 +35,7 @@ Visitor events, notes, tasks and uploaded photos stay in the browser. JSON backu
 - Canonical WWW redirect is active: host www.kalendars365.lv → HTTPS kalendars365.lv with the original path and query, HTTP301. The single free rule is scoped to that host only.
 
 - DM Sans release68b41a9 published at Cloudflare deployment913be9a6-b36c-4ad2-bd35-d6dc53071834; GitHub run39768276332 succeeded. Production font and light-only migration confirmed in the browser. Personal-print title correction follows with unchanged default225scene content.
+
+## Static font/media cache refresh
+
+When changing an existing downloadable file or social-card URL, verify the bare public URL as well as a versioned fetch. The owned zone can retain old CDN binaries after a Pages deployment. For the DM Sans update, custom prefix purge was scoped only to kalendars365.lv/downloads/ and kalendars365.lv/assets/og/. The complete follow-up621-route/1,313-request audit passed with zero mismatches. Do not use an account-wide or unrelated-domain purge. Browser application scripts use content-version query strings; local calendar data is preserved across font updates.

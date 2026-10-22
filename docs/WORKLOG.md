@@ -27,3 +27,9 @@ User replaced the earlier Garet choice with DM Sans everywhere. Downloaded the o
 ### Personal print headline regression found in browser QA
 
 An optional headline changed the filename but was absent from non-named print pages. All13types now display it, with actual DM Sans width fitting in PDF and Canvas.390custom scenes (13types×15designs×2orientations) pass, including80-character Latvian names and photos. All225prebuilt sceneJSONs and rendered text sizes remain unchanged. Real browser downloads verified photo position0.75, zoom1.5, one embedded photo,600ppi WebP dimensions/sRGB and the honest59ppi-photo warning. Newfont and personalization checks added to CI.
+
+### Live font cache and mobile startup verification
+
+Final49e83b8 production audit passed621routes and1,313asset/download requests after selective cache purges for only /downloads/ and /assets/og/. An initial audit correctly caught450stale Garet binary lengths; the narrow purge fixed every file. The bare2027PDF was downloaded and compared byte-for-byte with the DM Sans source. Real personalized2030PDF/WebP downloads passed actualfont/title/sRGB/600ppi checks with zero browser console errors and unchanged CSP.
+
+Lighthouse99mobile/100desktop home,99annual and99gallery; all accessibility/best-practices/SEO100. The first mobile home run71 and work run90 exposed startup variability; preserve them as baselines. Removed unused formatter construction and calendar-sidebar work from non-calendar pages. Existing48frontend and2,551planning checks pass. Final post-optimization measurements follow publication.
