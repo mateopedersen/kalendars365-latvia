@@ -40,3 +40,9 @@ Root created the daily editorial automation for 03:10 Europe/Istanbul: prepare t
 ## Garet and light-only release
 
 Garet Book/Heavy replace earlier fonts in the UI, favicon outlines, all225PDF/WebPpairs and621routeOGimages plus24fallbackcards. All225filesets independently verified;39,181actual-font text commands checked. Dark-mode rules, system-preference listener and controls removed;47frontendchecks include safe migration and visible-event accessible labels. Work/leave/date tools render initial markup before scripts:2,551planningassertions and11SSRroutechecks pass. Cloudflare _headers/_redirects inclusion is now audited.
+
+## DM Sans final revision
+
+The latest user instruction supersedes the previous Garet font choice. DM Sans now covers all625HTML documents, the favicon,225PDF/WebP pairs and645social images. Full self-hosted WOFF2:54,284bytes, including all original characters and weights100–1000. All225PDFs embed the actual DMSans-Regular/Bold fonts;9,360scenes and1,884,081text commands pass font/glyph/bounds checks. All675print/raster/preview files open and decode. Largest artifact1,008,512bytes; full PDF/WebP total102,735,275bytes. Build audit:621matrix routes,580indexable,41noindex,625HTML,1,974files,160,144,662bytes,zeroerrors.
+
+Ruby3,155assertions,JSdate7,158,frontend48,planning2,551and480Latvian ICU comparisons pass. The initial Garet-era scores above are historical baselines. Final DM Sans live and performance evidence is recorded separately after publication. Seven responsive widths320/375/430/768/1024/1448/1920show only DM Sans text and no horizontal page overflow.

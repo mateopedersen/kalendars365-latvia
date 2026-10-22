@@ -6,7 +6,7 @@ Latvian responsive dashboard with five calendar views; Riga-local today/time; ho
 
 ## Completed automated checks
 
-`node test/frontend_test.cjs`: **47 passing checks** as of 2026-10-22. Covers ICS round-trip, UTF-8 line folding, Riga/UTC time conversion, invalid dates, strict recurrence limits, January 31 and leap-day COUNT, timed UTC UNTIL, exclusive DTEND, repeating multi-day duration, edit metadata preservation, diacritic/typo search, ISO-year boundaries, and two USNO solar-time spot checks.
+`node test/frontend_test.cjs`: **48 passing checks** as of 2026-10-22. Covers ICS round-trip, UTF-8 line folding, Riga/UTC time conversion, invalid dates, strict recurrence limits, January 31 and leap-day COUNT, timed UTC UNTIL, exclusive DTEND, repeating multi-day duration, edit metadata preservation, diacritic/typo search, ISO-year boundaries, and two USNO solar-time spot checks.
 
 Parent-run Lighthouse mobile v3: **performance 99, accessibility 100, best practices 100, SEO 100**, **CLS 0**, simulated **LCP 2.0 seconds**. Earlier v2 was 87/100/100/100 before the smaller mobile hero source. Earlier accessibility and layout failures were corrected: no aria-pressed on body, persistent search label, readable other-month/footer colors, space reserved before calendar rendering. A production compressed response should be measured separately; this is not a claim of field Core Web Vitals.
 
@@ -60,8 +60,12 @@ Per the later user instruction, all dark-mode styling and controls were removed.
 
 ## Current test totals and typography review
 
-Current frontend suite: 47 checks. Planning suite: 2,551 assertions, plus 11 route hydration/SSR integration checks reported by the print/planning agent. UI font declarations in style.css, pages.css and typography.css specify Garet or inherit; no alternate named UI font remains. Garet Book/Heavy credits and the bundled licence link are included in the sources-page generator. Decorative/system glyph fallback for symbols is separate from named body text fonts.
+Current frontend suite: 48 checks. Planning suite: 2,551 assertions, plus 11 route hydration/SSR integration checks reported by the print/planning agent. UI font declarations in style.css, pages.css and typography.css specify DM Sans or inherit; no alternate named UI font remains. DM Sans credits and the bundled OFL licence link are included in the sources-page generator. Decorative/system glyph fallback for symbols is separate from named body text fonts.
 
 ## CSP compatibility review
 
 Current policy permits the actual implementation paths: same-origin script and font fetches; local photo data URLs and blob images; inline generated CSS; browser blob downloads. Print does not create workers, fetch data URLs, or embed an object/iframe. The bundled pdf-lib contains no dynamic-code constructor; fontkit has a Function.prototype.bind fallback that is unused where native bind exists. A separate Node VM check disabled both string and WebAssembly code generation, loaded the unchanged browser bundles, embedded the actual Garet Book font, and generated a 7,318-byte Unicode PDF successfully. This confirms the library path does not require unsafe-eval in supported modern runtimes; it complements, rather than replaces, the final browser check with deployed response headers. No security policy relaxation was made.
+
+## Calendar initialization optimization
+
+Date labels reuse ICU formatters and a bounded cache; Riga date/time formatters are reused. Month/week/year renders take one today snapshot, and per-year holiday lists are cached and invalidated when verified data arrives. Unchanged calendar/sidebar HTML is not replaced after the data fetch, preserving focus and avoiding a second full DOM layout. Current core holiday fallback and published data were compared for 2026–2031 and match on date/title/dayOff, so the initial visible calendar remains accurate. Routes without a live calendar or name/moon/work widget no longer fetch unused calendar JSON; print generation still fetches its own required data. Visible date/event sequences now begin day-button accessible names; print-design cards use their visible text as the accessible name. No initial content was deliberately delayed and reserved geometry remains unchanged.

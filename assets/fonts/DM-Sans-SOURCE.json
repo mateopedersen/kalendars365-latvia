@@ -1,0 +1,27 @@
+{
+  "family": "DM Sans",
+  "source": "https://github.com/google/fonts/tree/main/ofl/dmsans",
+  "sourceSha256": "8cd08d97e89c24d0aa92edd2f0f4c8ee6195eee9b7c9f154865a58b02f0c1c0d",
+  "license": "SIL OFL 1.1",
+  "opticalSize": 14,
+  "webWeights": "100–1000 variable; full original character coverage",
+  "files": {
+    "DM-Sans-Regular.ttf": {
+      "bytes": 56904,
+      "sha256": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93"
+    },
+    "DM-Sans-OFL.txt": {
+      "bytes": 4482,
+      "sha256": "9af36190332437f5ecd09974de43c1f7c77a310a996cdd8ceb25628b458840e1"
+    },
+    "DM-Sans-Bold.ttf": {
+      "bytes": 56800,
+      "sha256": "6193c6c4a9aeb329610cd1991a7c93c1d0d93100fc9901cd43b83ccbdda9cca7"
+    },
+    "DM-Sans.woff2": {
+      "bytes": 54284,
+      "sha256": "b2473c5097bc87bc282928cb6c4dbfc3ecca6931eed84217ffbd9ca2a26e3adc"
+    }
+  },
+  "LatvianCharactersVerified": "ĀāČčĒēĢģĪīĶķĻļŅņŠšŪūŽž"
+}

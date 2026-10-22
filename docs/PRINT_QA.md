@@ -5,7 +5,7 @@ Pārbaudes datums: 2026-10-22. Gala rezultātu skaits un katra faila pārbaudes 
 ## Izpildījums
 
 - Vienota milimetros aprakstīta lapa tiek zīmēta kā vektoru PDF un kā WebP. PDF nav ekrānuzņēmums.
-- Iegultie īstie Garet Book un Garet Heavy fonti nodrošina latviešu diakritiskās zīmes un atlasāmu tekstu. Avots un licence: assets/fonts/Garet-LICENSE.txt, Spacetype Free Fonts EULA 1.0. Atļauta lietošana tīmeklī, rastra/vektoru attēlos un fontu iegulšana dokumentos.
+- Iegultie īstie DM Sans Regular un DM Sans Bold fonti nodrošina latviešu diakritiskās zīmes un atlasāmu tekstu. Avots un pārbaudītie failu nospiedumi: `assets/fonts/DM-Sans-SOURCE.json`; licence: `assets/fonts/DM-Sans-OFL.txt` (SIL Open Font License 1.1).
 - A4 vertikāli: 210 × 297 mm un 4961 × 7016 pikseļi. A4 horizontāli: 297 × 210 mm un 7016 × 4961 pikseļi. Izšķirtspēja aprēķināta no fiziskā papīra izmēra un 600 ppi.
 - Sagatavotajiem WebP failiem ir sRGB ICC profils. Pārlūkā veidotie WebP izmanto Canvas sRGB krāstelpu; ICC profila iekļaušana ir atkarīga no pārlūka.
 - Katram failam ir drošā apakšējā malā ievietots `Kalendārs365 · kalendars365.lv` zīmols. Domēna esamību īpašnieka Cloudflare kontā pārbaudīja projekta galvenais aģents.
@@ -26,7 +26,7 @@ Visas pārējās kombinācijas tiek reāli izveidotas lietotāja pārlūkā pēc
 ## Veiktās pārbaudes
 
 - `test/print.test.cjs`: 9360 lapu ainas (4 gadi × 12 mēneši × 13 saimes × 15 dizaini); nederīgi ievaddati; 2028. gada 29. februāris; 2029. gada februāris bez 29. datuma; zīmols un skaitliskas koordinātas.
-- Visu 195 saimes/dizaina kombināciju teksta robežas pārbaudītas ar faktisko iegulto fontu platumiem. Teksts ārpus lapas nav atrasts.
+- `test/print_fonts_test.cjs`: 9 360 ainas un 1 884 081 teksta komanda pārbaudīta ar faktiskajiem DM Sans metriskajiem datiem. Trūkstošu glifu un teksta ārpus lapas platuma nav. Ieraksts: `docs/PRINT_FONT_RESULTS.json`.
 - `scripts/verify_print.py`: atver katru PDF, pārbauda vienu A4 lapu, iegultos TrueType fontus, latviešu tekstu, zīmolu, atver katru WebP, pārbauda pilnu pikseļu izmēru un ICC profilu, renderē katru PDF un salīdzina tā izskatu ar atbilstošo WebP.
 - Pārbaudes attēli glabājas projekta darba mapē `../qa-print/`. 15 dizainu kontaktlapa tiek veidota no 2029. gada gada kalendāriem.
 
@@ -41,18 +41,18 @@ Visas pārējās kombinācijas tiek reāli izveidotas lietotāja pārlūkā pēc
 
 ## Atkārtošana
 
-Izpildiet `node test/print.test.cjs`, tad `node scripts/generate_print.cjs`, pēc tam `python scripts/verify_print.py`. Drukas atkarības instalē ar `npm install --prefix scripts` un `pip install -r scripts/print-requirements.txt`; bibliotēkas `pdf-lib` un `fontkit` jau ir lokāli iekļautas projektā. Pārlūka darbībai nav vajadzīga neviena ārēja API vai CDN. `--resume` atkārtoti izmanto failu tikai tad, ja sakrīt datu, zīmēšanas koda, abu faktisko fontu failu un konkrētās konfigurācijas SHA-256 nospiedums. Veca fonta WebP netiek savienots ar jauna fonta PDF arī --pdf-only režīmā.
+Izpildiet `node test/print.test.cjs` un `node test/print_fonts_test.cjs`, tad `node scripts/generate_print.cjs`, pēc tam `python scripts/verify_print.py`. Drukas atkarības instalē ar `npm install --prefix scripts` un `pip install -r scripts/print-requirements.txt`; bibliotēkas `pdf-lib` un `fontkit` jau ir lokāli iekļautas projektā. Pārlūka darbībai nav vajadzīga neviena ārēja API vai CDN. `--resume` atkārtoti izmanto failu tikai tad, ja sakrīt datu, zīmēšanas koda, abu faktisko fontu failu un konkrētās konfigurācijas SHA-256 nospiedums. Veca fonta WebP netiek savienots ar jauna fonta PDF arī --pdf-only režīmā.
 
 ## Gala rezultāts
 
-Garet gala partija: 225 no 225 PDF/WebP pāriem pārbaudīti veiksmīgi. Visi 225 PDF atvērti un renderēti; visi 225 WebP un 225 mazie priekšskatījumi pilnībā dekodēti. Visos PDF pārbaudīti tieši iegultie Garet Book un Garet Heavy fonti. Pārbaudīts A4 fiziskais izmērs, patiesie 600 ppi pikseļi, sRGB profils, atlasāms latviešu teksts, iegultie fonti, zīmols un visu glifu atrašanās lapas robežās.
+DM Sans gala partija: 225 no 225 PDF/WebP pāriem pārbaudīti veiksmīgi. Visi 225 PDF atvērti un renderēti; visi 225 WebP un 225 mazie priekšskatījumi pilnībā dekodēti. Visos PDF pārbaudīti tieši iegultie DMSans-Regular un DMSans-Bold fonti. Pārbaudīts A4 fiziskais izmērs, patiesie 600 ppi pikseļi, sRGB profils, atlasāms latviešu teksts, zīmols un visu glifu atrašanās lapas robežās.
 
-Lejupielāžu mapē: 225 PDF + 225 WebP + 225 mazi priekšskatījumi + 1 manifests = 676 faili. Lielākais fails: 983 786 baiti, zem Cloudflare Pages 25 MiB robežas. PDF un pilnā izmēra WebP kopējais apjoms: 101 123 218 baiti.
+Lejupielāžu mapē: 225 PDF + 225 WebP + 225 mazi priekšskatījumi + 1 manifests = 676 faili. Lielākais fails: 1 008 512 baiti, zem Cloudflare Pages 25 MiB robežas. PDF un pilnā izmēra WebP kopējais apjoms: 102 735 275 baiti.
 
-Maksimālā pāra vidējā pelēktoņu atšķirība pēc vienāda izmēra renderēšanas: 2.314 no 255. Šī ir renderētāju vizuālā salīdzināšana, nevis apgalvojums par bitu identiskumu. Galīgā 15 dizainu kontaktlapa apskatīta vizuāli. Pārlūka lejupielāžu testus veic vietnes saskarnes testu uzdevums.
+Maksimālā pāra vidējā pelēktoņu atšķirība pēc vienāda izmēra renderēšanas: 1.690 no 255. Tā ir renderētāju vizuālā salīdzināšana, nevis apgalvojums par bitu identiskumu. Galīgā 15 dizainu kontaktlapa apskatīta vizuāli; visas kompozīcijas un pareizās latviešu diakritiskās zīmes saglabātas. Pārlūka lejupielāžu testus veic vietnes saskarnes testu uzdevums.
 
-## Garet pārbaudes
+## DM Sans pārbaudes
 
-2026-10-22 fontu migrācijas priekšpārbaude: 39 181 teksta komandas visās 195 saimes/dizaina kombinācijās pārbaudītas ar faktiskajiem Garet fontu metriskajiem datiem. Trūkstošu glifu nav; teksta platums nepārsniedz lapas robežas. verify_print.py tagad noraida PDF, kura iegultā fonta nosaukums nesatur Garet. Sociālo kartīšu ģenerators prasa abus Garet failus un vairs neizvēlas nejaušu TTF vai sistēmas fontu. Galīgais pilnās partijas rezultāts ir jaunākajā PRINT_RESULTS.json; fontu izmaiņas nav tikai pārlūka CSS nomaiņa.
+2026-10-22: 9 360 ainas, 1 884 081 teksta komanda un 540 unikālas teksta/fonta kombinācijas pārbaudītas ar faktiskajiem DM Sans fontu datiem. Abiem fontiem ir visas latviešu diakritiskās zīmes. Canvas pārbaudes rindas „Kalendārs365 ĀāĢģ Žž” platums atšķiras no fontkit aprēķina mazāk par 0,00005 pikseļiem pie 100 px izmēra; tādējādi pārbaudīta arī īstā Regular un Bold fonta izvēle rastra zīmēšanā.
 
-Sociālās kartītes: 621 maršruta WebP un 24 PNG rezerves kartītes pārveidotas ar Garet Heavy / Book. Visām 645 pārbaudīti 1200 × 630 izmēri, pilna dekodēšana, virsraksta robežas un SHA-256. Faktisko fontu un attēlu nospiedumi ir docs/OG_RESULTS.json. Garet lejupielāžu kontaktlapa pēc pilnās partijas vizuāli apskatīta; saglabātas visas 15 kompozīcijas.
+`verify_print.py` noraida PDF, kura iegultā fonta nosaukums neatbilst DM Sans. Pilnās partijas rezultāts ir `PRINT_RESULTS.json`; fontu maiņa ietver visas 225 PDF/WebP versijas un priekšskatījumus, nevis tikai vietnes CSS. Atsevišķā sociālo kartīšu pārbaude dokumentēta `docs/OG_RESULTS.json`.

@@ -1,12 +1,12 @@
-"""Generate every social card with the same genuine Garet fonts as the site."""
+"""Generate every social card with the same genuine DM Sans fonts as the site."""
 from PIL import Image, ImageDraw, ImageFont
 import json, pathlib, hashlib
 
 root = pathlib.Path(__file__).resolve().parents[1]
 routes = json.loads((root / 'docs/route-manifest.json').read_text())
-book = root / 'assets/fonts/Garet-Book.ttf'
-heavy = root / 'assets/fonts/Garet-Heavy.ttf'
-assert book.is_file() and heavy.is_file(), 'The licensed Garet fonts are required.'
+book = root / 'assets/fonts/DM-Sans-Regular.ttf'
+heavy = root / 'assets/fonts/DM-Sans-Bold.ttf'
+assert book.is_file() and heavy.is_file(), 'The licensed DM Sans fonts are required.'
 target = root / 'assets/og'
 target.mkdir(exist_ok=True)
 results = []
@@ -50,7 +50,7 @@ def render(title, output, url):
     with Image.open(output) as check:
         check.load()
         assert check.size == (1200, 630)
-    results.append({'url': url, 'path': str(output.relative_to(root)), 'title': title, 'font': 'Garet Heavy / Book', 'titleSize': size, 'titleBounds': bounds, 'width': 1200, 'height': 630, 'sha256': hashlib.sha256(output.read_bytes()).hexdigest()})
+    results.append({'url': url, 'path': str(output.relative_to(root)), 'title': title, 'font': 'DM Sans Bold / Regular', 'titleSize': size, 'titleBounds': bounds, 'width': 1200, 'height': 630, 'sha256': hashlib.sha256(output.read_bytes()).hexdigest()})
 
 for route in routes:
     render(route['title'], target / (hashlib.sha1(route['url'].encode()).hexdigest()[:16] + '.webp'), route['url'])
@@ -62,6 +62,6 @@ for output in sorted(fallbacks):
     route = next((item for item in routes if item['family'] == output.stem), home)
     render(route['title'], output, route['url'])
 
-report = {'routeCards': len(routes), 'fallbackCards': len(fallbacks), 'passed': len(results), 'fonts': {path.name: hashlib.sha256(path.read_bytes()).hexdigest() for path in (book, heavy)}, 'checks': ['actual Garet input fonts', '1200x630 dimensions', 'full image decode', 'title bounds', 'SHA256'], 'files': results}
+report = {'routeCards': len(routes), 'fallbackCards': len(fallbacks), 'passed': len(results), 'fonts': {path.name: hashlib.sha256(path.read_bytes()).hexdigest() for path in (book, heavy)}, 'checks': ['actual DM Sans input fonts', '1200x630 dimensions', 'full image decode', 'title bounds', 'SHA256'], 'files': results}
 (root / 'docs/OG_RESULTS.json').write_text(json.dumps(report, ensure_ascii=False, indent=2))
-print(f'PASS {len(routes)} Garet social route cards + {len(fallbacks)} fallbacks; dimensions, decode and title bounds checked.')
+print(f'PASS {len(routes)} DM Sans social route cards + {len(fallbacks)} fallbacks; dimensions, decode and title bounds checked.')

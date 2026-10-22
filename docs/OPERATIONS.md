@@ -28,6 +28,8 @@ Visitor events, notes, tasks and uploaded photos stay in the browser. JSON backu
 - GitHub main a544829 deployed as 1a95a81e-ab72-454d-8280-fe1f2b10c023 before the Garet update. CI passed.
 - DNS migration at the owned Latvia root only: previous A @ 2.57.91.91 → CNAME @ kalendars365-latvia.pages.dev; automatic TTL.
 - Cloudflare build cache enabled. Zone RUM disabled; verified live HTML contains neither data-cf-beacon nor static.cloudflareinsights.com. Pages Web Analytics remains disabled.
-- Latest user instruction replaces the earlier dark-mode requirement: Garet throughout, light theme only. Legacy appearance preferences are removed without deleting calendar data.
-- Garet Book/Heavy obtained from https://www.1001fonts.com/download/garet.zip, the Type Forward-authored free package, with the bundled Spacetype foundry Free Fonts EULA version 1.0 (April 2020). The license explicitly permits unlimited website use, application/document embedding and conversion to webfont formats. Original glyphs and font names are unchanged. Full WOFF2 conversion; all Latvian letters verified.
+- Latest user instruction: DM Sans throughout, light theme only. Legacy appearance preferences are removed without deleting calendar data.
+- DM Sans is self-hosted from the official Google Fonts distribution under the bundled SIL Open Font License1.1. The full-character WOFF2 retains weights100–1000 at optical size14; PDF and image rendering use actual regular400 and bold700 static instances. All Latvian letters verified. File hashes and provenance are in assets/fonts/DM-Sans-SOURCE.json.
 - Jekyll now explicitly includes _headers and _redirects; the shared CSS is embedded at build time to avoid blocking stylesheet round trips.
+
+- Canonical WWW redirect is active: host www.kalendars365.lv → HTTPS kalendars365.lv with the original path and query, HTTP301. The single free rule is scoped to that host only.

@@ -1,0 +1,1 @@
+{"passed":true,"scenes":9360,"textCommands":1884081,"uniqueFontStrings":540,"fonts":["DMSans-Regular","DMSans-Bold"],"checks":["actual DM Sans font identity","Latvian glyph coverage","all scene text glyph coverage","actual-font horizontal bounds"]}

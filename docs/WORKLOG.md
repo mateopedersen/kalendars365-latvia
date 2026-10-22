@@ -19,3 +19,7 @@
 ## 2026-10-22 — production and final typography change
 
 Published main a544829 to Cloudflare Pages; attached owned kalendars365.lv and verified Active SSL. Full live audit:621routes+863assets+450PDF/WebPdownloads pass. Found and disabled zone RUM injection, preserving no-analytics behavior; build cache enabled. User then requested Garet everywhere and complete dark-mode removal. Integrated genuine free Garet Book/Heavy with bundled license, WOFF2 preloads, inline CSS and complete PDF/WebP/OG regeneration. Fixed work/leave/date tools' initial layout shift with shared server-rendered markup; corrected font-induced320px overflow. All225Garetpairs and allOGcards verified. Added explicit Jekyll inclusion and auditing of Cloudflare headers/redirects.
+
+## 2026-10-22 — DM Sans user revision
+
+User replaced the earlier Garet choice with DM Sans everywhere. Downloaded the official Google Fonts variable source and bundled SIL OFL1.1; generated a54,284-byte full-character webfont and genuine static regular/bold print instances. Updated all interface font declarations and favicon outlines; removed Garet font files. All225DM Sans print pairs and645social assets regenerated and verified. Actual-font preflight passes9,360scenes and1,884,081text commands;625HTMLdocuments all use DM Sans. Kept light-only mode and safe migration. Reduced duplicate calendar rendering/date formatting; repaired annual-calendar contrast, heading levels and mobile touch targets.

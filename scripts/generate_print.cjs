@@ -5,8 +5,8 @@ const {createCanvas,GlobalFonts}=dependency('@napi-rs/canvas');
 const sharp=dependency('sharp');sharp.concurrency(1);sharp.cache({memory:24,files:0,items:12});
 const root=path.resolve(__dirname,'..'),P=require(path.join(root,'assets/print.js'));
 const PDFLib=require(path.join(root,'assets/vendor/pdf-lib.min.js')),fontkit=require(path.join(root,'assets/vendor/fontkit.umd.min.js'));
-const regular=fs.readFileSync(path.join(root,'assets/fonts/Garet-Book.ttf')),bold=fs.readFileSync(path.join(root,'assets/fonts/Garet-Heavy.ttf'));
-GlobalFonts.register(regular,'K365 Garet');GlobalFonts.register(bold,'K365 Garet');
+const regular=fs.readFileSync(path.join(root,'assets/fonts/DM-Sans-Regular.ttf')),bold=fs.readFileSync(path.join(root,'assets/fonts/DM-Sans-Bold.ttf'));
+GlobalFonts.register(regular,'K365 DM Sans');GlobalFonts.register(bold,'K365 DM Sans');
 let data={};try{data=JSON.parse(fs.readFileSync(path.join(root,'assets/calendar-data.json')))}catch{}
 data={holidays:data.holidays||[],names:data.names||[],moon:data.moon||[]};
 const sourceFingerprint=crypto.createHash('sha256').update(JSON.stringify(data)).update(fs.readFileSync(path.join(root,'assets/print.js'))).update(regular).update(bold).digest('hex');
@@ -16,7 +16,7 @@ const args=new Set(process.argv.slice(2));
 const extras=['weekly','daily','lunar','blank','work','family','shift','school','named','lunar-year','work-year'].map(type=>({type,year:2028,month:2,week:9,date:'2028-02-29',name:type==='named'?'Emīlija':''}));
 const tasks=[...configurations,...extras].flatMap(config=>(args.has('--quick')?[1]:Array.from({length:15},(_,i)=>i+1)).map(design=>({config,design})));
 const records=[];let cursor=0;fs.mkdirSync(path.join(root,'downloads'),{recursive:true});
-const writeManifest=complete=>fs.writeFileSync(path.join(root,'downloads/manifest.json'),JSON.stringify({complete,createdAt:new Date().toISOString(),source:'assets/print.js shared vector scene',dataSha256:crypto.createHash('sha256').update(JSON.stringify(data)).digest('hex'),font:'Garet Book / Heavy (Spacetype Free Fonts EULA 1.0)',items:records.slice().sort((a,b)=>a.taskIndex-b.taskIndex).map(({taskIndex,...r})=>r)},null,2));
+const writeManifest=complete=>fs.writeFileSync(path.join(root,'downloads/manifest.json'),JSON.stringify({complete,createdAt:new Date().toISOString(),source:'assets/print.js shared vector scene',dataSha256:crypto.createHash('sha256').update(JSON.stringify(data)).digest('hex'),font:'DM Sans Regular / Bold (SIL Open Font License 1.1)',items:records.slice().sort((a,b)=>a.taskIndex-b.taskIndex).map(({taskIndex,...r})=>r)},null,2));
 const save=(file,bytes)=>{fs.writeFileSync(file+'.tmp',bytes);fs.renameSync(file+'.tmp',file);};
 async function worker(){
 while(cursor<tasks.length){

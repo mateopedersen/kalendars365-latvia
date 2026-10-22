@@ -25,7 +25,7 @@ def verify_one(item):
         desc=f.get('/FontDescriptor');assert desc
         desc=desc.get_object();assert '/FontFile2' in desc or '/FontFile3' in desc
         embedded.append(str(f.get('/BaseFont')))
-        assert 'Garet' in embedded[-1], (pdf, 'Expected actual embedded Garet font', embedded[-1])
+        assert 'DMSans' in embedded[-1].replace('-', '').replace(' ', ''), (pdf, 'Expected actual embedded DM Sans font', embedded[-1])
     im=Image.open(webp);assert im.format=='WEBP';assert im.size==(item['width'],item['height']);assert im.info.get('icc_profile');im.load()
     preview=Image.open(root/item['preview'].lstrip('/'));preview.load()
     assert preview.format=='WEBP' and preview.width==300
@@ -59,12 +59,12 @@ def main():
     for item in results:
         if item['year']!=2029 or item['type']!='yearly':continue
         render=Image.open(qa/(pathlib.Path(item['pdf']).stem+'.png'))
-        small=ImageOps.contain(render,(280,370));card=Image.new('RGB',(300,410),'#eeeeee');card.paste(small,((300-small.width)//2,10));ImageDraw.Draw(card).text((12,385),f"{item['design']:02} {item['name']}",fill='#222222',font=ImageFont.truetype(str(root/'assets/fonts/Garet-Book.ttf'),13));thumbs.append(card)
+        small=ImageOps.contain(render,(280,370));card=Image.new('RGB',(300,410),'#eeeeee');card.paste(small,((300-small.width)//2,10));ImageDraw.Draw(card).text((12,385),f"{item['design']:02} {item['name']}",fill='#222222',font=ImageFont.truetype(str(root/'assets/fonts/DM-Sans-Regular.ttf'),13));thumbs.append(card)
     if thumbs:
         contact=Image.new('RGB',(300*5,410*math.ceil(len(thumbs)/5)),'white')
         for i,t in enumerate(thumbs):contact.paste(t,((i%5)*300,(i//5)*410))
         contact.save(qa/'15-designs-contact-sheet.jpg',quality=90)
-    (root/'docs/PRINT_RESULTS.json').write_text(json.dumps({'passed':len(results),'checks':['A4 MediaBox','embedded Garet Book/Heavy TrueType fonts','Latvian Unicode text','brand signature','real 600 ppi pixel dimensions','sRGB ICC','PDF render','glyph bounds','shared scene PDF/WebP pixel comparison','preview decode and aspect ratio'],'files':results},ensure_ascii=False,indent=2))
+    (root/'docs/PRINT_RESULTS.json').write_text(json.dumps({'passed':len(results),'checks':['A4 MediaBox','embedded DM Sans Regular/Bold TrueType fonts','Latvian Unicode text','brand signature','real 600 ppi pixel dimensions','sRGB ICC','PDF render','glyph bounds','shared scene PDF/WebP pixel comparison','preview decode and aspect ratio'],'files':results},ensure_ascii=False,indent=2))
     print(f"PASS {len(results)} matched PDF/WebP pairs; every PDF opened/rendered and every WebP decoded; fonts/Unicode/A4/600ppi/sRGB verified.",flush=True)
 
 if __name__=='__main__':main()
