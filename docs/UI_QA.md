@@ -1,0 +1,43 @@
+# Frontend verification and handoff
+
+## Implemented behavior
+
+Latvian responsive dashboard with five calendar views; Riga-local today/time; holiday and historical name-day data; events with daily/weekly/monthly/yearly recurrence; tasks; per-day notes; local backup/restore; ICS import/export; theme and consent controls; local search with Latvian diacritic normalization and one-edit typo matching. The print dialog supports 15 designs, 13 calendar types, PDF/WebP, photo position/zoom and low-resolution photo warnings. Route widgets read the page family and nearest print section context.
+
+## Completed automated checks
+
+`node test/frontend_test.cjs`: **41 passing checks** as of 2026-10-22. Covers ICS round-trip, UTF-8 line folding, Riga/UTC time conversion, invalid dates, strict recurrence limits, January 31 and leap-day COUNT, timed UTC UNTIL, exclusive DTEND, repeating multi-day duration, edit metadata preservation, diacritic/typo search, ISO-year boundaries, and two USNO solar-time spot checks.
+
+Parent-run Lighthouse mobile v2: **performance 87, accessibility 100, best practices 100, SEO 100**, CLS approximately **0.000194**, simulated LCP 4.0 seconds on the uncompressed localhost server. This result preceded the final smaller mobile hero source. Earlier accessibility and layout failures were corrected: no aria-pressed on body, persistent search label, readable other-month/footer colors, space reserved before calendar rendering. A production compressed response should be measured separately; this is not a claim of field Core Web Vitals.
+
+## Completed browser checks
+
+An earlier local preview was exercised through the documented browser UI. Created, edited and deleted a recurring personal event containing `<svg onload=alert(1)>`; text remained literal. Notes and a task survived a reload. All five calendar views rendered the saved event. Test-only records were removed. A form input called `id` originally shadowed the form element ID and prevented save interception; it was renamed to `eventId`, and save/reload behavior was verified afterward.
+
+Full Jekyll preview at port 8888 was checked at exact CSS widths **320, 375, 430, 768, 1024, 1448, 1920**: document width equaled scroll width at each size. Screenshots are in the delivery `outputs/screenshots/` directory. These screenshots precede the final uniform six-row grid, compact desktop sizing and performance fixes, so a final pass should refresh them. Width checks used CDP device metrics with deviceScaleFactor 1; native Retina screenshots were not reliable for exact sizing.
+
+After the interrupted turn, this child agent's browser inventory became empty. The root agent still has a working browser and owns the remaining pass below. No final PDF/WebP browser download or dark-mode screenshot is claimed here.
+
+## Exact remaining browser flow
+
+Use the compiled preview `http://127.0.0.1:8888/` after rebuilding latest assets, or the deployed URL after verifying its asset-version meta is current. UI tests create disposable local-only records.
+
+1. **Home and accessibility**: read the latest page state; reject nonessential cookie choice if shown. `body` must not have `aria-pressed`. `.header-search` has accessible label `Meklēt datumu, vārdu vai rīku`. Use `button[data-view="month"]`, `week`, `day`, `list`, `year`; month has six rows and year has 12 mini-months. Calendar day buttons are `[data-date="YYYY-MM-DD"]`. `.add-event` opens the form.
+2. **Save/reload**: `#event-form [name=title]`, `date`, `time`, `repeat`, `interval`, `until`, `description`; submit the form's primary button. Save must keep the page URL and show the event. Notes use `#notes`; task form `#task-form [name=task]`. Reload and inspect both. Edit via `[data-edit-event]`; delete via `[data-delete-event]`; task delete `[data-delete-task]`.
+3. **Search**: `.header-search` opens modal; `#site-search-form [name=q]`; enter `janis`, then `kalendrs`. Results should be real internal links. Exact named pages also exist for available data.
+4. **PDF download**: navigate `/pdf-kalendari/2029/februaris/`. Wait for 15 `.design-card` elements. Start `tab.playwright.waitForEvent('download', {timeoutMs:60000})`, click `[data-quick-print="pdf"][data-design-id="1"]`, await download and its `.path()`. The status should say the file is ready. Verify actual PDF magic/one page using local file tools.
+5. **WebP download**: repeat with `[data-quick-print="webp"][data-design-id="1"]`, allowing up to 60 seconds. Verify downloaded dimensions with a local image library; expected A4 4961×7016 or 7016×4961.
+6. **Photo customize**: click `[data-design="1"]` or a `data-action="customize"` button. Form is `#print-form`; `name=photo` accepts JPEG/PNG/WebP. Use documented filechooser API with a known task asset. `#photo-controls` becomes visible. Range controls are `photoX`, `photoY`, `photoZoom`; sliders should change image framing. Generate a PDF and inspect photo/low-resolution warning if applicable. Calendar type choices include `lunar-year` and `work-year`. Changing year/month must synchronize the date and preserve valid 29th/30th/31st days.
+7. **Date tool**: `/datumu-kalkulators/`, `.date-calculator [name=from]`=`2029-02-01`, `[name=to]`=`2029-03-01`; plain day difference is 28. Workday mode explicitly includes both endpoints. Root's new planning.js widgets need their own final check.
+8. **Name days**: `/varda-dienas/`; historical VVC 2018 notice remains visible. `Jānis` and `Janis` search should match the same name. Names are not claimed to be the fully reconciled 2026 edition.
+9. **Sun**: `/saullekts-saulriets/riga/`; `#sun-form [name=date]`=`2027-06-21`, submit → 04:29 and 22:22 Riga (within rounding), then `2027-12-21` → 09:00 and 15:43.
+10. **Theme**: footer `[data-action=theme]` toggles light/dark. Inspect home and an inner content page at 375 and 1448 px; restore original preference when done. Settings also provide system theme.
+11. **Screenshots**: refresh all seven requested widths, recording DOM `html.clientWidth` and `html.scrollWidth`. Save actual PNG via CDP `Page.captureScreenshot` after setting device metrics. Clear device metrics and reset browser viewport afterward. Check logs for new errors. Keep the working preview tab available only if useful to root.
+
+## Supported ICS scope
+
+Import accepts date and timed events, standard daily/weekly/monthly/yearly interval/count/until recurrence, optional location/description/end time, and multi-day spans. Unsupported BYDAY/BYMONTH-style recurrence modifiers, exception dates and DURATION are explicitly rejected before merging any events; existing records remain unchanged. It is a focused personal calendar importer, not a full arbitrary RFC 5545 scheduling implementation. Single timed events from UTC or other zones are normalized to Riga. Cross-zone recurring events are explicitly rejected with guidance to export in Europe/Riga or as separate occurrences, avoiding silent daylight-saving drift.
+
+## Data and output cautions
+
+Name-day data is a verified 2018 VVC snapshot with a visible provenance notice. Later school holidays and dates awaiting primary confirmation remain labeled by the data/content layer. Solar times are approximate astronomical calculations, not weather. Local storage is device/browser-specific. The print engine and its generated artifacts have independent sibling-agent verification.

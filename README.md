@@ -1,2 +1,32 @@
-# kalendars365-latvia
-Kalendārs365 — Latvijas kalendāri un plānotāji 2027–2030. Ruby, Jekyll un Cloudflare Pages.
+# Kalendārs365 — Latvijas kalendāri 2027–2030
+
+Independent Latvian calendar and planning site, built with Ruby 4.0.8, Jekyll 4.4.1 and browser JavaScript. Published through Cloudflare Pages from this repository. Operator: Mateo Pedersen, kalendars365@gmail.com.
+
+## Build
+
+```sh
+bundle install
+bundle exec ruby scripts/generate.rb
+bundle exec jekyll build
+bundle exec ruby scripts/audit.rb
+```
+
+Cloudflare build command: `bundle exec ruby scripts/generate.rb && bundle exec jekyll build`; output directory `_site`; environment `RUBY_VERSION=4.0.8`.
+
+## Verify
+
+```sh
+bundle exec ruby test/date_test.rb
+node test/date_core_test.cjs
+node test/date_l10n_test.cjs
+node test/frontend_test.cjs
+node test/planning_test.cjs
+node test/print.test.cjs
+ruby scripts/verify_daily.rb
+```
+
+The repository contains the real downloadable PDF/WebP files. Regeneration uses `scripts/generate_print.cjs` and the dependencies declared in `scripts/package.json` / `scripts/print-requirements.txt`. `scripts/verify_print.py` opens and checks the files.
+
+See `STATUS.md`, `docs/SOURCES.md`, `docs/DATA_AUDIT.md`, `docs/PRINT_QA.md`, `docs/TEST_RESULTS.md` and `docs/WORKLOG.md` for evidence and known limits. Personal calendar data stays in the visitor's browser; no account or server database is required.
+
+Data is not uniformly complete: name days are explicitly marked as the official 2018 snapshot, unverified future school terms are withheld, and affected routes are noindex. Astrology is entertainment, with dated AI-assisted original editorial content and a freshness guard. No search-ranking or universal performance guarantee is made.

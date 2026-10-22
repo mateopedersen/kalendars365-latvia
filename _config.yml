@@ -1,0 +1,12 @@
+title: Kalendārs365
+url: https://kalendars365.lv
+baseurl: ''
+lang: lv
+locale: lv_LV
+timezone: Europe/Riga
+owner: Mateo Pedersen
+email: kalendars365@gmail.com
+permalink: pretty
+markdown: kramdown
+exclude: [vendor, scripts, test, lib, docs, Gemfile, Gemfile.lock, README.md, STATUS.md, node_modules, package.json, package-lock.json, downloads/qa]
+keep_files: []

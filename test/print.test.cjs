@@ -1,0 +1,35 @@
+const assert=require('node:assert/strict'),P=require('../assets/print.js');
+let count=0;
+for(const year of [2027,2028,2029,2030])for(let month=1;month<=12;month++)for(const type of P.types)for(let design=1;design<=15;design++){
+  const scene=P.buildScene({type,year,month,design,name:'Emīlija Ģertrūde',date:`${year}-${String(month).padStart(2,'0')}-01`});
+  assert.ok([210,297].includes(scene.width));assert.equal(scene.width+scene.height,507);
+  assert.ok(scene.commands.some(c=>c.text?.includes('Kalendārs365 · kalendars365.lv')));
+  for(const c of scene.commands)for(const key of ['x','y','w','h','size','r'])if(c[key]!==undefined)assert.ok(Number.isFinite(c[key]));
+  assert.ok(scene.commands.filter(c=>c.op==='text').length>8);count++;
+}
+assert.equal(P.designs.filter(d=>d.mode==='melnbalts').length,5);
+assert.throws(()=>P.buildScene({year:2030,month:2,date:'2030-02-29'}));
+assert.throws(()=>P.buildScene({year:2029,design:16}));
+assert.throws(()=>P.buildScene({name:'x'.repeat(81)}));
+const feb=P.buildScene({year:2028,month:2,type:'monthly'});assert.ok(feb.commands.some(c=>c.text==='29'));
+const nonleap=P.buildScene({year:2029,month:2,type:'monthly'});assert.equal(nonleap.commands.filter(c=>c.text==='29').length,0);
+const data=require('../assets/calendar-data.json');
+const festival=P.buildScene({year:2028,month:7,type:'monthly'},data);
+assert.equal(festival.commands.find(c=>c.text==='10').color,'#8b1d34','2028 festival substitute day must be highlighted');
+const historicalName=P.buildScene({year:2028,type:'named',name:'Emīlija'},data);
+assert.ok(historicalName.commands.some(c=>c.text?.includes('22.05. (VVC 2018)')),'Historical name-day must include source edition');
+const daily=P.buildScene({year:2028,month:2,type:'daily',date:'2028-02-29'});
+assert.ok(daily.commands.some(c=>c.text==='2028. gada 29. februāris'));
+const boundary=P.buildScene({type:'weekly',year:2027,week:53,date:'2027-01-01'});
+assert.ok(boundary.commands.some(c=>c.text==='2026 · 53. nedēļa'));
+assert.ok(boundary.commands.some(c=>c.text==='28.12.'));
+const end=P.buildScene({type:'weekly',year:2030,date:'2030-12-31'});
+assert.ok(end.commands.some(c=>c.text==='2031 · 1. nedēļa'));
+assert.throws(()=>P.buildScene({type:'weekly',year:2030,week:53}));
+const moonYear=P.buildScene({type:'lunar-year',year:2028},data);
+assert.ok(moonYear.commands.filter(c=>c.op==='circle').length>=data.moon.filter(m=>m.date.startsWith('2028')).length);
+assert.ok(moonYear.commands.some(c=>c.text==='Mēness fāzes · USNO · Europe/Riga'));
+const workYear=P.buildScene({type:'work-year',year:2028},data);
+assert.equal(workYear.commands.filter(c=>/ d\.d\.$/.test(c.text||'')).length,12);
+assert.throws(()=>P.buildScene({name:'Test 😀'}));
+console.log(`PASS ${count} print scenes, 15 designs, ${P.types.length} families, 4 years, 48 months; invalid-input, ISO boundary, leap-day, lunar and work-year checks.`);

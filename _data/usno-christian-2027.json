@@ -1,0 +1,53 @@
+{
+  "apiversion": "4.0.1", 
+  "data": [
+    {
+      "day": 10, 
+      "month": 2, 
+      "observance": "Ash Wednesday", 
+      "year": 2027
+    }, 
+    {
+      "day": 21, 
+      "month": 3, 
+      "observance": "Palm Sunday", 
+      "year": 2027
+    }, 
+    {
+      "day": 26, 
+      "month": 3, 
+      "observance": "Good Friday", 
+      "year": 2027
+    }, 
+    {
+      "day": 28, 
+      "month": 3, 
+      "observance": "Easter", 
+      "year": 2027
+    }, 
+    {
+      "day": 6, 
+      "month": 5, 
+      "observance": "Ascension Day", 
+      "year": 2027
+    }, 
+    {
+      "day": 16, 
+      "month": 5, 
+      "observance": "Whit Sunday -- Pentecost", 
+      "year": 2027
+    }, 
+    {
+      "day": 23, 
+      "month": 5, 
+      "observance": "Trinity Sunday", 
+      "year": 2027
+    }, 
+    {
+      "day": 28, 
+      "month": 11, 
+      "observance": "First Sunday in Advent", 
+      "year": 2027
+    }
+  ]
+}

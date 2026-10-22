@@ -1,0 +1,25 @@
+name: Verify Latvia calendar
+on: [push, pull_request]
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '4.0.8'
+          bundler-cache: true
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - run: node test/date_core_test.cjs
+      - run: node test/date_l10n_test.cjs
+      - run: node test/frontend_test.cjs
+      - run: node test/planning_test.cjs
+      - run: node test/print.test.cjs
+      - run: ruby scripts/generate.rb
+      - run: bundle exec ruby test/date_test.rb
+      - run: bundle exec jekyll build --trace
+      - run: ruby scripts/audit.rb
