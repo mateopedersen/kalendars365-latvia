@@ -7,19 +7,31 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: ruby/setup-ruby@v1
-        with:
-          ruby-version: '4.0.8'
-          bundler-cache: true
       - uses: actions/setup-node@v4
         with:
           node-version: '24'
+      - uses: actions/cache@v4
+        with:
+          path: |
+            node_modules/.cache/ruby-runtime
+            node_modules/.cache/bundle
+          key: ${{ runner.os }}-${{ runner.arch }}-ruby-4.0.8-${{ hashFiles('scripts/bootstrap-ruby.sh') }}-${{ hashFiles('Gemfile.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-${{ runner.arch }}-ruby-4.0.8-${{ hashFiles('scripts/bootstrap-ruby.sh') }}-
+      - name: Install Ruby compilation headers
+        run: sudo apt-get update && sudo apt-get install -y build-essential libssl-dev libyaml-dev libreadline-dev zlib1g-dev libffi-dev pkg-config
+      - name: Build with verified Ruby 4.0.8
+        run: bash scripts/cloudflare-build.sh
       - run: node test/date_core_test.cjs
       - run: node test/date_l10n_test.cjs
       - run: node test/frontend_test.cjs
       - run: node test/planning_test.cjs
       - run: node test/print.test.cjs
-      - run: ruby scripts/generate.rb
-      - run: bundle exec ruby test/date_test.rb
-      - run: bundle exec jekyll build --trace
-      - run: ruby scripts/audit.rb
+      - name: Verify Ruby calculations and built pages
+        shell: bash
+        run: |
+          source scripts/bootstrap-ruby.sh
+          export BUNDLE_PATH="$PWD/node_modules/.cache/bundle"
+          export BUNDLE_FROZEN=true
+          bundle _4.0.20_ exec ruby test/date_test.rb
+          ruby scripts/audit.rb

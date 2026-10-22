@@ -10,7 +10,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: ruby/setup-ruby@v1
-        with:
-          ruby-version: '4.0.8'
-      - run: ruby scripts/verify_daily.rb
+      # This check uses only Ruby's standard JSON/Date libraries, no Gemfile.
+      - run: /usr/bin/ruby -v
+      - run: /usr/bin/ruby scripts/verify_daily.rb
