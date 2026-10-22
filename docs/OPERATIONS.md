@@ -33,3 +33,5 @@ Visitor events, notes, tasks and uploaded photos stay in the browser. JSON backu
 - Jekyll now explicitly includes _headers and _redirects; the shared CSS is embedded at build time to avoid blocking stylesheet round trips.
 
 - Canonical WWW redirect is active: host www.kalendars365.lv → HTTPS kalendars365.lv with the original path and query, HTTP301. The single free rule is scoped to that host only.
+
+- DM Sans release68b41a9 published at Cloudflare deployment913be9a6-b36c-4ad2-bd35-d6dc53071834; GitHub run39768276332 succeeded. Production font and light-only migration confirmed in the browser. Personal-print title correction follows with unchanged default225scene content.

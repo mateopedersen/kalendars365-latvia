@@ -15,7 +15,7 @@ Production: https://kalendars365.lv/ — Cloudflare Pages, Active domain with SS
 - Cloudflare security headers, daily content freshness checks, versioned assets and enabled build cache. Zone RUM and Pages Web Analytics disabled.
 
 ## Executed evidence
-All 621 live routes and 1,313 live assets/downloads passed before the DM Sans update; release verification is repeated after that update. Ruby 3,155 assertions; JS date 7,158; frontend 48; planning 2,551; print 9,360 scene combinations. All225DM Sans pairs opened/rendered/decoded and matched. Actual-font preflight passed9,360scenes and1,884,081text commands. See docs/TEST_RESULTS.md, DATA_AUDIT.md, PRINT_QA.md, UI_QA.md and ACCEPTANCE_AUDIT.md.
+DM Sans revision68b41a9 is live; GitHub verification succeeded. Final HTTP/Lighthouse audit follows the personal-print-title correction. Ruby 3,155 assertions; JS date 7,158; frontend 48; planning 2,551; print 9,360 scene combinations. All225DM Sans pairs opened/rendered/decoded and matched. Actual-font preflight passed9,360scenes and1,884,081text commands. See docs/TEST_RESULTS.md, DATA_AUDIT.md, PRINT_QA.md, UI_QA.md and ACCEPTANCE_AUDIT.md.
 
 ## Explicit limits
 Names use an identified official 2018 snapshot; the current edition and extended list are not verified. Future school terms await official verification. No independent native Latvian editor certification. Print uses RGB and A4. Original daily content automation is active at 03:10 Europe/Istanbul and requires the computer and Codex app running; stale content is hidden. There is no field Core Web Vitals history for this new site; measured lab scores are recorded separately, with no guaranteed100 claim.

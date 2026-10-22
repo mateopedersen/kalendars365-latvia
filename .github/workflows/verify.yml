@@ -27,6 +27,8 @@ jobs:
       - run: node test/frontend_test.cjs
       - run: node test/planning_test.cjs
       - run: node test/print.test.cjs
+      - run: node test/print_fonts_test.cjs
+      - run: node test/print_personalization_test.cjs
       - name: Verify Ruby calculations and built pages
         shell: bash
         run: |

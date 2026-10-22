@@ -56,3 +56,7 @@ Maksimālā pāra vidējā pelēktoņu atšķirība pēc vienāda izmēra render
 2026-10-22: 9 360 ainas, 1 884 081 teksta komanda un 540 unikālas teksta/fonta kombinācijas pārbaudītas ar faktiskajiem DM Sans fontu datiem. Abiem fontiem ir visas latviešu diakritiskās zīmes. Canvas pārbaudes rindas „Kalendārs365 ĀāĢģ Žž” platums atšķiras no fontkit aprēķina mazāk par 0,00005 pikseļiem pie 100 px izmēra; tādējādi pārbaudīta arī īstā Regular un Bold fonta izvēle rastra zīmēšanā.
 
 `verify_print.py` noraida PDF, kura iegultā fonta nosaukums neatbilst DM Sans. Pilnās partijas rezultāts ir `PRINT_RESULTS.json`; fontu maiņa ietver visas 225 PDF/WebP versijas un priekšskatījumus, nevis tikai vietnes CSS. Atsevišķā sociālo kartīšu pārbaude dokumentēta `docs/OG_RESULTS.json`.
+
+## Personīgais virsraksts
+
+Neobligātais vārds vai virsraksts ir redzams visās 13 drukas saimēs. Ārpus kalendāra ar vārdu tas ir atsevišķā rindā virs fotoattēla vai satura. PDF un Canvas izmanto faktiskā iegultā DM Sans fonta platumu, lai arī 80 rakstzīmju teksts paliktu paredzētajā laukumā. `node test/print_personalization_test.cjs` pārbauda 390 ainas: 13 saimes, 15 dizaini un abas orientācijas, ieskaitot garu latviešu tekstu un fotoattēla atstarpi. Izveidotā mēneša PDF tekstā pārbaudīts tieši „Ģirts un Žanete”; PDF un Canvas attēli apskatīti vizuāli. Visu 225 saglabāto paraugu ainu JSON un faktiskie teksta izmēri ir identiski iepriekšējai versijai, tāpēc šim personalizācijas labojumam atkārtota paraugu ģenerēšana nav vajadzīga. Rezultāts: `PRINT_PERSONALIZATION_RESULTS.json`.

@@ -75,6 +75,11 @@
     if(d===13){rect(0,0,12,H,accent);left=21;text(title,left,27,9,accent,true);['Rīts','Diena','Vakars','Nakts'].forEach((s,i)=>{rect(left+i*35,38,32,8,i%2?pale:'#f0f2f4');text(s,left+3+i*35,43.5,2.5,ink);});top=56;}
     if(d===14){text('KALENDĀRS365',left,17,3,ink,true);text(title,left,33,9,ink,true);ln(left,42,W-right,42,ink,.8);top=53;right=55;}
     if(d===15){ornament(left,9,W-left-right,9);text(title,W/2,34,9,accent,true,'center');text('LAIKS SVĒTKIEM. VIETA IKDIENAI.',W/2,43,2.5,accent,false,'center');top=55;ornament(left,H-17,W-left-right,8);bottom=H-28;}
+    if(o.name&&o.type!=='named'){
+      text(o.name,left,top,4,accent,true);
+      Object.assign(commands[commands.length-1],{maxWidth:W-left-right,role:'personal-headline'});
+      top+=10;
+    }
     if(o.photo){commands.push({op:'image',src:o.photo,x:left,y:top,w:W-left-right,h:landscape?32:42});top+=landscape?38:48;}
     if(o.type==='named'&&o.name){const found=(data.names||[]).filter(n=>n.name?.toLocaleLowerCase('lv')===o.name.toLocaleLowerCase('lv')&&n.kind==='traditional');const nameday=found.length?` · Vārda diena: ${found.map(n=>`${n.day}.${String(n.month).padStart(2,'0')}.`).join(', ')}${found[0].edition?` (VVC ${found[0].edition})`:''}`:'';text(`${o.year}. gada kalendārs${nameday}`,left,top-3,3,muted);top+=3;}
     if(o.type==='lunar-year')text('Mēness fāzes · USNO · Europe/Riga',left,top-5,2.4,muted);
@@ -139,6 +144,18 @@
     S.filename=slug(`${period}-${o.type==='yearly'?'kalendars':o.type==='lunar-year'?'meness-kalendars':o.type==='work-year'?'darba-dienu-kalendars':labels[o.type]}${o.name?'-'+o.name:''}-${String(d).padStart(2,'0')}`);
     return S;
   }
+  // Measure in the renderer's embedded font, so long personal text stays inside its header.
+  function fittedTextSize(scene,c,widthAtSize){
+    let maxWidth=c.maxWidth;
+    if(scene.options.type==='named'&&scene.options.name&&c.text===scene.options.name){
+      const W=scene.width,d=scene.options.design;
+      const edge=d===2?W*.49:d===7?W*.60:d===9?W-65:d===10?W-84:d===8?W-18:W-14;
+      maxWidth=c.align==='center'?W-28:edge-c.x;
+    }
+    if(!maxWidth)return c.size;
+    const width=widthAtSize(c.text,c.size);
+    return width>maxWidth?c.size*maxWidth/width:c.size;
+  }
   function canvasPaint(scene,canvas,images={}) {
     const width=Math.round(scene.width/25.4*600),height=Math.round(scene.height/25.4*600);canvas.width=width;canvas.height=height;
     const ctx=canvas.getContext('2d');if(!ctx)throw Error('Šajā ierīcē attēlu nevar izveidot. Izvēlieties PDF.');ctx.setTransform(width/scene.width,0,0,height/scene.height,0,0);
@@ -147,7 +164,7 @@
       if(c.op==='line'){ctx.beginPath();ctx.moveTo(c.x1,c.y1);ctx.lineTo(c.x2,c.y2);ctx.stroke();}
       if(c.op==='circle'){ctx.beginPath();ctx.arc(c.x,c.y,c.r,0,Math.PI*2);if(c.fill)ctx.fill();if(c.stroke)ctx.stroke();}
       if(c.op==='poly'){ctx.beginPath();c.pts.forEach((p,i)=>i?ctx.lineTo(...p):ctx.moveTo(...p));ctx.closePath();if(c.fill)ctx.fill();if(c.stroke)ctx.stroke();}
-      if(c.op==='text'){ctx.fillStyle=c.color;ctx.font=`${c.bold?'bold ':''}${c.size}px "K365 DM Sans"`;ctx.textAlign=c.align;ctx.fillText(c.text,c.x,c.y);}
+      if(c.op==='text'){ctx.fillStyle=c.color;ctx.font=`${c.bold?'bold ':''}${c.size}px "K365 DM Sans"`;const size=fittedTextSize(scene,c,()=>ctx.measureText(c.text).width);ctx.font=`${c.bold?'bold ':''}${size}px "K365 DM Sans"`;ctx.textAlign=c.align;ctx.fillText(c.text,c.x,c.y);}
       if(c.op==='image'&&images[c.src]){const im=images[c.src],ratio=Math.max(c.w/im.width,c.h/im.height),iw=im.width*ratio,ih=im.height*ratio;ctx.save();ctx.beginPath();ctx.rect(c.x,c.y,c.w,c.h);ctx.clip();ctx.drawImage(im,c.x+(c.w-iw)/2,c.y+(c.h-ih)/2,iw,ih);ctx.restore();}
     }return {width,height};
   }
@@ -160,7 +177,7 @@
       if(c.op==='line')page.drawLine({start:{x:c.x1*k,y:(scene.height-c.y1)*k},end:{x:c.x2*k,y:(scene.height-c.y2)*k},color:rgb(c.color),thickness:c.lw*k});
       if(c.op==='circle')page.drawCircle({x:c.x*k,y:(scene.height-c.y)*k,size:c.r*k,...st});
       if(c.op==='poly'){const p=c.pts.map((v,i)=>`${i?'L':'M'} ${v[0]*k} ${v[1]*k}`).join(' ')+' Z';page.drawSvgPath(p,{x:0,y:scene.height*k,...st});}
-      if(c.op==='text'){const f=fonts[c.bold?1:0],size=c.size*k,w=f.widthOfTextAtSize(c.text,size),x=c.x*k-(c.align==='right'?w:c.align==='center'?w/2:0);page.drawText(c.text,{x,y:(scene.height-c.y)*k,size,font:f,color:rgb(c.color)});}
+      if(c.op==='text'){const f=fonts[c.bold?1:0],size=fittedTextSize(scene,c,(t,s)=>f.widthOfTextAtSize(t,s*k)/k)*k,w=f.widthOfTextAtSize(c.text,size),x=c.x*k-(c.align==='right'?w:c.align==='center'?w/2:0);page.drawText(c.text,{x,y:(scene.height-c.y)*k,size,font:f,color:rgb(c.color)});}
       if(c.op==='image'&&images[c.src]){let im=images[c.src];if(im.bytes){const embedded=im.mime==='image/jpeg'?await doc.embedJpg(im.bytes):await doc.embedPng(im.bytes);page.drawImage(embedded,{x:c.x*k,y:(scene.height-c.y-c.h)*k,width:c.w*k,height:c.h*k});}}
     }
     return doc.save();
@@ -185,5 +202,5 @@
     if(o.download!==false){const url=URL.createObjectURL(blob),a=document.createElement('a');a.href=url;a.download=filename;a.click();setTimeout(()=>URL.revokeObjectURL(url),60000);}
     return {filename,blob,width,height,scene,photoPpi,warning:photoPpi!==null&&photoPpi<600?`Fotoattēla faktiskā izšķirtspēja pēc izgriešanas: ${photoPpi} ppi (zem 600 ppi).`:null};
   }
-  return {designs,types,labels,options,buildScene,canvasPaint,pdfBytes,generate};
+  return {designs,types,labels,options,buildScene,fittedTextSize,canvasPaint,pdfBytes,generate};
 });

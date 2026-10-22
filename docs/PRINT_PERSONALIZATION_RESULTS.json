@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "storedScenesByteIdenticalToPreviousRevision": 225,
+  "storedTextSizesUnchanged": true,
+  "customScenes": 390,
+  "types": 13,
+  "designs": 15,
+  "orientations": 2,
+  "maxNameLength": 80,
+  "checks": [
+    "exact Latvian title in every type",
+    "actual DM Sans width in both renderers",
+    "title above local photo",
+    "all text remains inside page",
+    "actual generated PDF text extraction",
+    "PDF and Canvas visual inspection"
+  ],
+  "regenerationRequired": false
+}

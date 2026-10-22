@@ -23,3 +23,7 @@ Published main a544829 to Cloudflare Pages; attached owned kalendars365.lv and v
 ## 2026-10-22 — DM Sans user revision
 
 User replaced the earlier Garet choice with DM Sans everywhere. Downloaded the official Google Fonts variable source and bundled SIL OFL1.1; generated a54,284-byte full-character webfont and genuine static regular/bold print instances. Updated all interface font declarations and favicon outlines; removed Garet font files. All225DM Sans print pairs and645social assets regenerated and verified. Actual-font preflight passes9,360scenes and1,884,081text commands;625HTMLdocuments all use DM Sans. Kept light-only mode and safe migration. Reduced duplicate calendar rendering/date formatting; repaired annual-calendar contrast, heading levels and mobile touch targets.
+
+### Personal print headline regression found in browser QA
+
+An optional headline changed the filename but was absent from non-named print pages. All13types now display it, with actual DM Sans width fitting in PDF and Canvas.390custom scenes (13types×15designs×2orientations) pass, including80-character Latvian names and photos. All225prebuilt sceneJSONs and rendered text sizes remain unchanged. Real browser downloads verified photo position0.75, zoom1.5, one embedded photo,600ppi WebP dimensions/sRGB and the honest59ppi-photo warning. Newfont and personalization checks added to CI.

@@ -1,6 +1,6 @@
 {
-  "asset_version": "2194b66376e78577",
-  "sha256": "2194b66376e785774508702af4c88afacefa403c5617e73ef6b0eb3c4caf6195",
+  "asset_version": "53cf738684b99157",
+  "sha256": "53cf738684b99157826f1afb1cc4228defb4c4fb4d38435ce2870ef98dea8106",
   "files": {
     "assets/app.js": "8c4d574b7aea573f12aacb4e3944349e610aafedc49a13ce9d26b95fcb97c2f0",
     "assets/calendar-core.js": "745629db341adef3e44b5c935ffea74bae8d7aa61236abb8bb6430e7d17d6126",
@@ -660,7 +660,7 @@
     "assets/pages.css": "79ec37e4cb40282d3561ec4a3ee1359a0553a625659de1e5804686cc0c24bba0",
     "assets/pages.js": "c7fedf43831d5c7bf5c25f27b32a3a264002b8fd8ebc8ebd2e5ab1fc75a85629",
     "assets/planning.js": "5b4feaf80c1b29aa24b89c58bbea4a82b3dbbd6014221a6b3023fe7b0f05ed85",
-    "assets/print.js": "f16811fee316b15a1ac03fa8139f824397812fa8b146a2e116049ac4d1539708",
+    "assets/print.js": "93366e5bec809518c450d4e9ef521d59aac4acd6451a7a675784ef1953e3213f",
     "assets/riga-illustration.svg": "f0ac2f65129524651c31942ff9b799bafc6d74b0ba894b50c288f2fec406ed44",
     "assets/riga-panorama-1600.webp": "b4131c778f27bc3de4d9cbea085823e93d41c6550c8a6a39dfe49dd334d751d2",
     "assets/riga-panorama-640.webp": "bd8de1c223a07c3159a9fc72e75d2809115e9b8b090b86d98405e48b4f55efb5",
