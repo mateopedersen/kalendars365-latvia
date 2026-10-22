@@ -5,6 +5,7 @@ require 'fileutils'
 require 'cgi'
 require 'yaml'
 require 'digest'
+require 'open3'
 ROOT = File.expand_path('..', __dir__)
 Dir.chdir(ROOT)
 ENV['TZ'] = 'Europe/Riga'
@@ -19,9 +20,32 @@ LAW = 'https://likumi.lv/ta/id/72608-par-svetku-atceres-un-atzimejamam-dienam'
 ROUTES = JSON.parse(File.read('_data/routes.json'))
 DATA = File.exist?('assets/calendar-data.json') ? JSON.parse(File.read('assets/calendar-data.json')) : {}
 HOLIDAYS = DATA.fetch('holidays', [])
+planning_json, planning_error, planning_status = Open3.capture3(ENV.fetch('NODE', 'node'), 'scripts/render_planning.cjs')
+abort "Planning prerender failed: #{planning_error}" unless planning_status.success?
+PLANNING_MARKUP = JSON.parse(planning_json).freeze
 def h(s); CGI.escapeHTML(s.to_s); end
 def a(url,label,klass=''); "<a class=\"#{klass}\" href=\"#{h(url)}\">#{h(label)}</a>"; end
-def widget(type); return '<section data-planning="leave"></section>' if type=='leave'; "<section class=\"widget-panel\" data-widget=\"#{type}\"></section>"; end
+def planning_panel(type,year=2027)
+ "<section data-planning=\"#{type}\" data-server-rendered=\"true\">#{PLANNING_MARKUP.fetch(type).fetch(year.to_s)}</section>"
+end
+def calculator_markup(work=false)
+ '<section class="tool-panel"><h2>Aprēķiniet laiku saviem plāniem</h2><form class="date-calculator"><div class="date-pair"><label>Sākuma datums<input type="date" name="from" required></label><label>Beigu datums<input type="date" name="to" required></label></div><div class="field-grid"><label class="check-label"><input type="checkbox" name="work" '+(work ? 'checked' : '')+'>Skaitīt tikai darba dienas</label><label class="check-label"><input type="checkbox" name="six">Sešu dienu darba nedēļa</label></div><button class="primary">Aprēķināt</button><output class="tool-result" aria-live="polite"></output></form><p class="print-hint">Dienu starpība neietver sākuma datumu. Darba dienu aprēķins ietver abus datumus un izslēdz Latvijas svētku brīvdienas. Darbdienu pārcelšana un jūsu darba devēja īpašie noteikumi jāņem vērā atsevišķi.</p></section><section class="tool-panel"><h2>Pieskaitīt vai atņemt dienas</h2><form class="date-add-form"><div class="field-grid"><label>Datums<input type="date" name="date" data-riga-today value="'+Date.today.iso8601+'" required></label><label>Dienu skaits<input type="number" name="days" value="30" min="-36500" max="36500" required></label></div><button>Aprēķināt datumu</button><output class="tool-result" aria-live="polite"></output></form></section>'
+end
+def work_widget(year)
+ rows=(1..12).map do |month|
+  days=(Date.new(year,month,1)..Date.new(year,month,-1)).to_a
+  off=days.count{|d|HOLIDAYS.any?{|h|h['date']==d.iso8601&&h['dayOff']}}
+  work=days.count{|d|d.cwday<6&&!HOLIDAYS.any?{|h|h['date']==d.iso8601&&h['dayOff']}}
+  '<tr><th scope="row">'+a("/darba-dienu-kalendars/#{year}/#{SLUGS[month-1]}/",MONTHS[month-1])+"</th><td>#{days.length}</td><td>#{work}</td><td>#{off}</td><td>#{days.length-work}</td></tr>"
+ end.join
+ '<section class="widget-panel" data-server-rendered="work"><section class="tool-panel"><h2>'+year.to_s+'. gada darba un atpūtas dienas</h2><div class="table-scroll"><table class="data-table"><thead><tr><th scope="col">Mēnesis</th><th scope="col">Dienas</th><th scope="col">Darba dienas</th><th scope="col">Svētku dienas</th><th scope="col">Brīvdienas</th></tr></thead><tbody>'+rows+'</tbody></table></div><p class="print-hint">Pamataprēķins: pirmdiena–piektdiena, bez oficiālajām svētku brīvdienām. Valsts noteikta darbdienu pārcelšana nav piemērota. Svētku un nedēļas atpūtas dienas var pārklāties.</p></section><div>'+calculator_markup(true)+'</div></section>'
+end
+def widget(type,year=2027)
+ return planning_panel('leave',year) if type=='leave'
+ return work_widget(year) if type=='work'
+ return '<section class="widget-panel" data-server-rendered="calculator">'+calculator_markup+'</section>' if %w[calculator date].include?(type)
+ "<section class=\"widget-panel\" data-widget=\"#{type}\"></section>"
+end
 def card(title,body); "<section class=\"content-card\"><h2>#{h(title)}</h2>#{body}</section>"; end
 def year_links(prefix); "<nav class=\"year-pills\" aria-label=\"Gada izvēle\">#{(2027..2030).map{|y|a("/#{prefix}/#{y}/",y.to_s)}.join}</nav>"; end
 def month_links(y,prefix='kalendars'); "<div class=\"link-grid\">#{(1..12).map{|m|a("/#{prefix}/#{y}/#{SLUGS[m-1]}/",MONTHS[m-1].capitalize,'link-card')}.join}</div>"; end
@@ -66,7 +90,7 @@ TRUST={
 'privatuma-politika'=>['Tavi plāni paliek tavā ierīcē.','Notikumi, uzdevumi, piezīmes un iestatījumi tiek saglabāti pārlūka lokālajā krātuvē. Tie netiek nosūtīti Kalendārs365 serverim. Izdzēšot pārlūka datus, šī informācija var pazust; pirms tam lejupielādē JSON dublējumu.','Vietnes darbība un saziņa','Vietni piegādā Cloudflare. Pieprasījumu apstrādei tiek izmantota tehniskā informācija, piemēram, IP adrese. Nosūtot e-pastu uz kalendars365@gmail.com, ziņa nonāk Gmail pakalpojumā. Saziņas datus izmantojam atbildes sniegšanai; dzēšanu vari pieprasīt tajā pašā adresē. Pārzinis: Mateo Pedersen. Šobrīd vietnē nav reklāmu vai trešo pušu analītikas.'],
 'sikdatnu-politika'=>['Izvēle bez slēptas izsekošanas.','Vietne neizmanto reklāmas un analītikas sīkdatnes. Plānotāja dati un saskarnes izvēles glabājas lokāli pārlūkā. Privātuma izvēli vari mainīt iestatījumos.','Kontrole ir tavās rokās','Vari pieņemt vai noraidīt papildu sīkdatnes; pašlaik neviena šāda tehnoloģija nav aktivizēta. Izvēle neierobežo kalendāra funkcijas. Datu dzēšana ir pieejama iestatījumos, un dublējumu vari saglabāt savā ierīcē.'],
 'lietošanas-noteikumi'=>['Lieto pārdomāti. Plāno droši.','Kalendāri ir informatīvi plānošanas rīki. Pirms darba laika, skolas vai ceļojumu lēmumiem pārbaudi attiecīgo iestāžu paziņojumus un savas darbavietas kārtību. Aprēķinu pieņēmumi ir norādīti pie rīka.','Personīgais saturs un lejupielādes','Augšupielādē tikai attēlus, kurus drīksti izmantot. Personīgās fotogrāfijas tiek apstrādātas tavā ierīcē. Astroloģiskais saturs ir izklaide un pašrefleksija, nevis zinātniska prognoze vai profesionāls padoms. Par konstatētu kļūdu raksti uzturētājam Mateo Pedersen.'],
-'pieklustamiba'=>['Kalendārs dažādiem lietotājiem.','Vietni veidojam ar semantisku HTML, tastatūras vadību, redzamu fokusu, gaišo un tumšo režīmu. Darbojas saite pārejai uz galveno saturu un formas lauku nosaukumi.','Palīdzi novērst šķēršļus','Ja kāda darbība nav pieejama, nosūti lapas adresi, ierīces un pārlūka aprakstu uz kalendars365@gmail.com. Atbilstību WCAG standartam neapgalvojam bez pilna neatkarīga audita.'],
+'pieklustamiba'=>['Kalendārs dažādiem lietotājiem.','Vietni veidojam ar semantisku HTML, tastatūras vadību, redzamu fokusu un skaidru gaišo saskarni. Darbojas saite pārejai uz galveno saturu un formas lauku nosaukumi.','Palīdzi novērst šķēršļus','Ja kāda darbība nav pieejama, nosūti lapas adresi, ierīces un pārlūka aprakstu uz kalendars365@gmail.com. Atbilstību WCAG standartam neapgalvojam bez pilna neatkarīga audita.'],
 'labojumi'=>['Precizitāte sākas ar pārbaudi.','Pamanīji nepareizu datumu, vārda dienu vai formulējumu? Atsūti lapas adresi, pareizo informāciju un, ja iespējams, saiti uz sākotnējo avotu.','Kā labojam','Pārbaudām norādīto avotu, precizējam kopīgo datu kopu un atkārtoti veidojam ar to saistītos kalendārus. Izmaiņas glabājam publiskā projekta versiju vēsturē. Nepārbaudīti datumi netiek pasniegti kā oficiāli.']}.freeze
 
 def title_for(r)
@@ -115,7 +139,7 @@ ROUTES.each do |r|
   body=year_links(f=='memorial_year' ? 'atceres-dienas' : 'svetku-dienas')+metrics(y,m)+card('Datumi un dienu veidi',holiday_table(y,m,f=='memorial_year'))+month_links(y,'svetku-dienas')+source_panel('Atceres diena pati par sevi nav brīvdiena.')
  elsif %w[work_year work_month long_weekends].include?(f)
   rows=(m ? [m] : (1..12).to_a).map{|n|"<tr><td>#{a("/darba-dienu-kalendars/#{y}/#{SLUGS[n-1]}/",MONTHS[n-1])}</td><td>#{Date.new(y,n,-1).day}</td><td>#{(Date.new(y,n,1)..Date.new(y,n,-1)).count{|d|d.cwday<6&&!HOLIDAYS.any?{|v|v['date']==d.iso8601&&v['dayOff']}}}</td></tr>"}.join
-  body=year_links('darba-dienu-kalendars')+metrics(y,m)+(f=='long_weekends' ? widget('leave') : '<section data-planning="work"></section>')+widget('work')+card('Mēnešu pārskats','<table class="data-table"><thead><tr><th>Mēnesis</th><th>Kalendāra dienas</th><th>Darba dienas*</th></tr></thead><tbody>'+rows+'</tbody></table>')+print_panel(m ? 'work' : 'work-year',y,m)+source_panel('Darba laika aprēķinā jāpārbauda Darba likuma 133. un 135. pants, pirms svētkiem saīsinātais laiks un darba devēja noteikumi.')
+  body=year_links('darba-dienu-kalendars')+metrics(y,m)+(f=='long_weekends' ? widget('leave',y) : planning_panel('work',y))+widget('work',y)+card('Mēnešu pārskats','<table class="data-table"><thead><tr><th>Mēnesis</th><th>Kalendāra dienas</th><th>Darba dienas*</th></tr></thead><tbody>'+rows+'</tbody></table>')+print_panel(m ? 'work' : 'work-year',y,m)+source_panel('Darba laika aprēķinā jāpārbauda Darba likuma 133. un 135. pants, pirms svētkiem saīsinātais laiks un darba devēja noteikumi.')
  elsif %w[lunar_month lunar_year].include?(f)
   phases=DATA.fetch('moon',[]).select{|v|v['date'].to_s.start_with?(m ? format('%04d-%02d',y,m) : y.to_s)}
   noindex=phases.empty?;reason='moon_source_pending' if noindex
@@ -142,9 +166,9 @@ ROUTES.each do |r|
  elsif slug=='kontakti'
   body='<div class="contact-layout"><section><span class="eyebrow">Raksti mums</span><h2>Labs kalendārs kļūst labāks ar sarunu.</h2><p>Projekta uzturētājs: <strong>Mateo Pedersen</strong></p>'+a('mailto:kalendars365@gmail.com','kalendars365@gmail.com','contact-email')+'<p>Norādi lapas adresi un apraksti jautājumu. Neiekļauj savu privāto kalendāru vai sensitīvus datus.</p></section>'+card('Īss ceļš līdz precizējumam','<ol><li>Atver lapu, kurā redzi problēmu.</li><li>Pievieno datumu un avota saiti.</li><li>Nosūti ziņu ar savu e-pasta lietotni.</li></ol>'+a('mailto:kalendars365@gmail.com?subject=Kalendars365%20jautajums','Atvērt e-pasta lietotni','primary-button'))+'</div>'
  elsif slug=='avoti-un-metodika'
-  body=card('Kalendāra aprēķini','<p>Gregora kalendārs, ISO 8601 nedēļas, pirmdiena kā nedēļas pirmā diena. Europe/Riga laika josla. Viena datu kopa baro kalendārus un drukājamos failus.</p>')+card('Oficiālie avoti','<ul>'+DATA.fetch('sources',[]).map{|s|"<li>#{a(s['url']||s['URL']||'#',s['title']||s['name']||s['id'])} — #{h({'verified'=>'Pārbaudīts','snapshot'=>'Vēsturiska versija','pending'=>'Pārbaude turpinās','snapshot_verified'=>'Pārbaudīta arhīva versija'}.fetch(s['status'],'Avota statuss norādīts aprakstā'))}</li>"}.join+'</ul>')+source_panel+card('Attēli un licences','<p id="atteli">Rīgas panorāma: Marcin Szala (Pudelek), 2011. '+a('https://commons.wikimedia.org/wiki/File:Riga_and_Daugava_-_panorama.jpg','Oriģinālais attēls')+' · '+a('https://creativecommons.org/licenses/by-sa/3.0/','CC BY-SA 3.0')+'. Vietnei izveidotas samazinātas WebP kopijas; tās pieejamas ar to pašu licenci. Interfeisā attēls var tikt apgriezts. Dekoratīvās ilustrācijas veidotas šim projektam.</p>')+card('Pārbaudes robežas','<p>Automatizēti datumu, izvades un valodas paraugu testi neaizstāj neatkarīgu jurista vai dzimtās valodas redaktora pārbaudi. Jauna avota publikācija var mainīt nākotnes datus.</p>')
+  body=card('Kalendāra aprēķini','<p>Gregora kalendārs, ISO 8601 nedēļas, pirmdiena kā nedēļas pirmā diena. Europe/Riga laika josla. Viena datu kopa baro kalendārus un drukājamos failus.</p>')+card('Oficiālie avoti','<ul>'+DATA.fetch('sources',[]).map{|s|"<li>#{a(s['url']||s['URL']||'#',s['title']||s['name']||s['id'])} — #{h({'verified'=>'Pārbaudīts','snapshot'=>'Vēsturiska versija','pending'=>'Pārbaude turpinās','snapshot_verified'=>'Pārbaudīta arhīva versija'}.fetch(s['status'],'Avota statuss norādīts aprakstā'))}</li>"}.join+'</ul>')+source_panel+card('Attēli un licences','<p id="atteli">Rīgas panorāma: Marcin Szala (Pudelek), 2011. '+a('https://commons.wikimedia.org/wiki/File:Riga_and_Daugava_-_panorama.jpg','Oriģinālais attēls')+' · '+a('https://creativecommons.org/licenses/by-sa/3.0/','CC BY-SA 3.0')+'. Vietnei izveidotas samazinātas WebP kopijas; tās pieejamas ar to pašu licenci. Interfeisā attēls var tikt apgriezts. Dekoratīvās ilustrācijas veidotas šim projektam.</p>')+card('Burtveidols un licence','<p>Vietnē un drukājamajos kalendāros izmantots Garet Book un Garet Heavy. Dizaina autori: Stan Partalev un Mirela Belova, Type Forward. '+a('https://typeforward.com/typefaces/garet/','Garet oficiālā lapa')+' · '+a('/assets/fonts/Garet-LICENSE.txt','Fontu pakotnes licence — Spacetype Free Fonts EULA 1.0')+'. Fonti tiek ielādēti no šīs vietnes servera.</p>')+card('Pārbaudes robežas','<p>Automatizēti datumu, izvades un valodas paraugu testi neaizstāj neatkarīgu jurista vai dzimtās valodas redaktora pārbaudi. Jauna avota publikācija var mainīt nākotnes datus.</p>')
  elsif TOOL_INFO.key?(slug)
-  t=TOOL_INFO[slug];body="<p class=\"lead\">#{h(t[1])}</p>"+(slug=='darba-laika-kalendars' ? '<section data-planning="work"></section>' : '')+widget(t[0])+source_panel
+  t=TOOL_INFO[slug];body="<p class=\"lead\">#{h(t[1])}</p>"+(slug=='darba-laika-kalendars' ? planning_panel('work',y) : '')+widget(t[0],y)+source_panel
  elsif %w[tukss-kalendars izveidot-kalendaru gimenes-kalendars stundu-saraksts dzimsanas-dienu-kalendars].include?(slug)
   type={'tukss-kalendars'=>'blank','gimenes-kalendars'=>'family','stundu-saraksts'=>'school','dzimsanas-dienu-kalendars'=>'named'}[slug]||'monthly';body=print_panel(type,2027)+card('Personīgi. Privāti. Izdrukājami.','<p>Izvēlies gadu, mēnesi, dizainu un vārdu. Fotoattēli netiek augšupielādēti serverī. A4 izmēra attēla izveide var prasīt vairāk atmiņas; uzgaidi, līdz fails ir gatavs.</p>')
  elsif %w[dienas-kalendars dienas-planotajs].include?(slug)
@@ -160,7 +184,7 @@ ROUTES.each do |r|
   children=ROUTES.select{|s|s['Page family']=='hub'&&s['URL path']!='/' } if children.empty?
   body='<div class="link-grid">'+children.map{|s|a(s['URL path'],title_for(s),'link-card')}.join+'</div>'
   body+=widget('moon') if slug=='meness-kalendars'
-  body+='<section data-planning="work"></section>'+widget('work') if slug=='darba-dienu-kalendars'
+  body+=planning_panel('work',y)+widget('work',y) if slug=='darba-dienu-kalendars'
  end
  desc="#{title}. #{m ? "#{Date.new(y,m,-1).day} dienas, ISO nedēļas un izvēlētā mēneša plānošana." : 'Pārskatāmi datumi, plānošanas rīki un saites uz avotiem.'} Kalendārs365 Latvijai." if desc.empty?
  front={'layout'=>'default','title'=>title,'description'=>desc,'permalink'=>p,'family'=>f,'year'=>(r['Year'].empty? ? nil : y),'month'=>m,'week'=>week,'calendar_name'=>(f=='name_calendar' ? r['Latvian title/topic'] : nil),'view'=>(f=='iso_week' ? 'week' : f=='year' ? 'year' : nil),'noindex'=>noindex,'og_image'=>"/assets/og/#{Digest::SHA1.hexdigest(p)[0,16]}.webp"}

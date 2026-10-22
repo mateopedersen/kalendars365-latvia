@@ -147,7 +147,7 @@
       if(c.op==='line'){ctx.beginPath();ctx.moveTo(c.x1,c.y1);ctx.lineTo(c.x2,c.y2);ctx.stroke();}
       if(c.op==='circle'){ctx.beginPath();ctx.arc(c.x,c.y,c.r,0,Math.PI*2);if(c.fill)ctx.fill();if(c.stroke)ctx.stroke();}
       if(c.op==='poly'){ctx.beginPath();c.pts.forEach((p,i)=>i?ctx.lineTo(...p):ctx.moveTo(...p));ctx.closePath();if(c.fill)ctx.fill();if(c.stroke)ctx.stroke();}
-      if(c.op==='text'){ctx.fillStyle=c.color;ctx.font=`${c.bold?'bold ':''}${c.size}px "K365 Noto"`;ctx.textAlign=c.align;ctx.fillText(c.text,c.x,c.y);}
+      if(c.op==='text'){ctx.fillStyle=c.color;ctx.font=`${c.bold?'bold ':''}${c.size}px "K365 Garet"`;ctx.textAlign=c.align;ctx.fillText(c.text,c.x,c.y);}
       if(c.op==='image'&&images[c.src]){const im=images[c.src],ratio=Math.max(c.w/im.width,c.h/im.height),iw=im.width*ratio,ih=im.height*ratio;ctx.save();ctx.beginPath();ctx.rect(c.x,c.y,c.w,c.h);ctx.clip();ctx.drawImage(im,c.x+(c.w-iw)/2,c.y+(c.h-ih)/2,iw,ih);ctx.restore();}
     }return {width,height};
   }
@@ -168,11 +168,11 @@
   let loadPromise;
   async function loadBrowser(){
     if(loadPromise)return loadPromise;
-    loadPromise=(async()=>{const load=src=>new Promise((resolve,reject)=>{const s=document.createElement('script');s.src=src;s.onload=resolve;s.onerror=()=>reject(Error('Neizdevās ielādēt drukas moduli.'));document.head.appendChild(s);});
+    loadPromise=(async()=>{const version=document.querySelector('meta[name=asset-version]')?.content;const assetURL=src=>version?src+'?v='+encodeURIComponent(version):src;const load=src=>new Promise((resolve,reject)=>{const s=document.createElement('script');s.src=assetURL(src);s.onload=resolve;s.onerror=()=>reject(Error('Neizdevās ielādēt drukas moduli.'));document.head.appendChild(s);});
       if(!globalThis.PDFLib)await load('/assets/vendor/pdf-lib.min.js');if(!globalThis.fontkit)await load('/assets/vendor/fontkit.umd.min.js');
-      const [regular,bold]=await Promise.all(['Regular','Bold'].map(async style=>{const r=await fetch(`/assets/fonts/NotoSans-${style}.ttf`);if(!r.ok)throw Error('Neizdevās ielādēt drukas fontu.');return new Uint8Array(await r.arrayBuffer());}));
-      await Promise.all([[regular,'normal'],[bold,'bold']].map(async([bytes,weight])=>{const f=new FontFace('K365 Noto',bytes,{weight});await f.load();document.fonts.add(f);}));
-      const r=await fetch('/assets/calendar-data.json');let data=r.ok?await r.json():{};return {regular,bold,data};
+      const [regular,bold]=await Promise.all(['Book','Heavy'].map(async style=>{const r=await fetch(assetURL(`/assets/fonts/Garet-${style}.ttf`));if(!r.ok)throw Error('Neizdevās ielādēt drukas fontu.');return new Uint8Array(await r.arrayBuffer());}));
+      await Promise.all([[regular,'normal'],[bold,'bold']].map(async([bytes,weight])=>{const f=new FontFace('K365 Garet',bytes,{weight});await f.load();document.fonts.add(f);}));
+      const r=await fetch(assetURL('/assets/calendar-data.json'));let data=r.ok?await r.json():{};return {regular,bold,data};
     })().catch(e=>{loadPromise=null;throw e;});return loadPromise;
   }
   async function generate(input={}){

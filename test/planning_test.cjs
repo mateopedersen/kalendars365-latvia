@@ -17,4 +17,18 @@ assert.throws(()=>P.period('2026-12-31','2027-01-01'));checks++;
 assert.throws(()=>P.suggestions(2030,-1));checks++;
 assert.throws(()=>P.overrides('2028-02-30',false));checks++;
 const imported=parseICS(P.calendarFile(['2028-07-11','2028-07-12']));ok(imported.length===2);ok(imported.every(x=>x.title==='Atvaļinājuma plāns'));
+// Initial HTML has useful results before JavaScript and matches the chosen year.
+for(const year of [2027,2028,2029,2030]){
+ const initial=P.initialMarkup('work',year),expected=P.period(`${year}-01-01`,`${year}-12-31`);
+ ok(initial.includes(`value="${year}-01-01"`)&&initial.includes(`value="${year}-12-31"`));
+ ok(initial.includes(`<b>${expected.work}</b><span>Darba dienas</span>`));
+ ok(initial.includes(`<b>${expected.hours}</b><span>Darba stundas</span>`));
+ ok(initial.includes('class="planning-form"')&&initial.includes('data-csv'));
+ const leave=P.initialMarkup('leave',year),periods=P.suggestions(year,3);
+ ok(leave.includes(`<option selected>${year}</option>`));
+ ok((leave.match(/class="leave-card"/g)||[]).length===periods.length);
+ ok(leave.includes(C.dateLabel(periods[0].start))&&leave.includes(C.dateLabel(periods[0].end)));
+}
+assert.throws(()=>P.initialMarkup('work',2026));checks++;
+assert.throws(()=>P.initialMarkup('other',2028));checks++;
 console.log(`Planning: ${checks} assertions passed; exhaustive longest-interval comparisons across 4 years, 2 workweeks, 6 budgets.`);

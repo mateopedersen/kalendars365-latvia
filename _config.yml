@@ -10,3 +10,5 @@ permalink: pretty
 markdown: kramdown
 exclude: [vendor, scripts, test, lib, docs, Gemfile, Gemfile.lock, README.md, STATUS.md, node_modules, package.json, package-lock.json, downloads/qa]
 keep_files: []
+
+include: [_headers, _redirects]

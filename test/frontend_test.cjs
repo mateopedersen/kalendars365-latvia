@@ -1,5 +1,5 @@
 const assert = require('node:assert/strict');
-const {parseICS, exportICS, occurs, mergeEditedEvent, printDateFor, normalize, nearWord, isoWeek, solarTime} = require('../assets/app.js');
+const {parseICS, exportICS, occurs, mergeEditedEvent, printDateFor, retireAppearancePreference, calendarDayLabel, normalize, nearWord, isoWeek, solarTime} = require('../assets/app.js');
 let checks = 0;
 function check(name, fn) { fn(); checks++; console.log('PASS '+name); }
 const events = [{id:'qa-1',date:'2029-02-28',time:'09:30',title:'Jāņa sapulce, Rīga; ĀČĒĢĪĶĻŅŠŪŽ',description:'Rinda 1\nRinda 2\\beigas',category:'work',repeat:'weekly',interval:2,until:'2029-05-01'}, {id:'qa-2',date:'2028-02-29',time:'',title:'Garā diena',category:'family',repeat:'yearly'}];
@@ -49,4 +49,7 @@ check('Cross-zone recurrence rejects rather than drifting across DST',()=>assert
 check('Quick print uses selected print year instead of today year',()=>assert.equal(printDateFor({type:'daily',year:2027},'2026-10-22'),'2027-10-22'));
 check('ISO week print preserves Monday in previous calendar year',()=>assert.equal(printDateFor({type:'weekly',year:2030,isoYear:2030,isoWeek:1},'2026-10-22'),'2029-12-31'));
 check('Print date preserves valid day31 and clamps leap day only when needed',()=>{assert.equal(printDateFor({type:'daily',year:2029,month:1},'2028-01-31'),'2029-01-31');assert.equal(printDateFor({type:'daily',year:2030},'2028-02-29'),'2030-02-28');});
+check('Legacy appearance preference is removed without losing calendar data',()=>{const events=[{id:'keep',date:'2029-01-01',title:'Saglabāt'}],input={events,notes:{'2029-01-01':'Piezīme'},tasks:[],theme:'dark',layers:['personal']};const result=retireAppearancePreference(input);assert(result.changed);assert(!Object.hasOwn(result.record,'theme'));assert.deepEqual(result.record,{events,notes:input.notes,tasks:[],layers:['personal']});assert.equal(input.theme,'dark');});
+check('Appearance migration is idempotent and does not request a second save',()=>{const clean=retireAppearancePreference({theme:'system',events:[]}).record;const again=retireAppearancePreference(clean);assert(!again.changed);assert.equal(again.record,clean);});
+check('Calendar accessible label contains visible holiday and timed event text',()=>{const label=calendarDayLabel('2029-01-01',[{title:'Jaungada diena',time:''},{title:'Jāņa sapulce',time:'09:30'},{title:'Trešais',time:''}]);assert(label.includes('Jaungada diena'));assert(label.includes('09:30 Jāņa sapulce'));assert(label.includes('+1'));});
 console.log(JSON.stringify({status:'passed',checks}));

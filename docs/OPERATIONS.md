@@ -21,3 +21,13 @@ The repository's GitHub Actions workflow independently builds and tests Linux. A
 ## Personal data
 
 Visitor events, notes, tasks and uploaded photos stay in the browser. JSON backups are user-controlled. No user-event database or account synchronization is provisioned. Keep the privacy copy aligned with any future analytics, advertising or server feature.
+
+## Production release and latest UI steering
+
+- Verified production HTTPS: https://kalendars365.lv/ (2026-10-22); Cloudflare custom domain is Active with SSL enabled.
+- GitHub main a544829 deployed as 1a95a81e-ab72-454d-8280-fe1f2b10c023 before the Garet update. CI passed.
+- DNS migration at the owned Latvia root only: previous A @ 2.57.91.91 → CNAME @ kalendars365-latvia.pages.dev; automatic TTL.
+- Cloudflare build cache enabled. Zone RUM disabled; verified live HTML contains neither data-cf-beacon nor static.cloudflareinsights.com. Pages Web Analytics remains disabled.
+- Latest user instruction replaces the earlier dark-mode requirement: Garet throughout, light theme only. Legacy appearance preferences are removed without deleting calendar data.
+- Garet Book/Heavy obtained from https://www.1001fonts.com/download/garet.zip, the Type Forward-authored free package, with the bundled Spacetype foundry Free Fonts EULA version 1.0 (April 2020). The license explicitly permits unlimited website use, application/document embedding and conversion to webfont formats. Original glyphs and font names are unchanged. Full WOFF2 conversion; all Latvian letters verified.
+- Jekyll now explicitly includes _headers and _redirects; the shared CSS is embedded at build time to avoid blocking stylesheet round trips.

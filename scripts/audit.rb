@@ -32,6 +32,13 @@ manifest.each do |r|
  rows<<[r['url'],r['family'],r['indexable'],faults.empty? ? 'pass' : 'fail',faults.uniq.join('; ')]
  errors.concat(faults.map{|x|"#{r['url']}: #{x}"})
 end
+%w[_headers _redirects].each do |file|
+ errors << "missing Cloudflare configuration #{file}" unless File.file?("_site/#{file}")
+end
+if File.file?('_site/_headers')
+ headers=File.read('_site/_headers')
+ errors << 'missing CSP policy' unless headers.include?("Content-Security-Policy: default-src 'self'")
+end
 xml=File.read('_site/sitemap.xml');locs=xml.scan(/<loc>(.*?)<\/loc>/).flatten
 expected=manifest.select{|r|r['indexable']}.map{|r|'https://kalendars365.lv'+r['url']}
 errors << 'sitemap differs' unless locs.sort==expected.sort

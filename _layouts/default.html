@@ -2,6 +2,8 @@
 <html lang="lv">
 <head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="preload" href="/assets/fonts/Garet-Book.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/fonts/Garet-Heavy.woff2" as="font" type="font/woff2" crossorigin>
 <title>{{ page.title | escape }} | Kalendārs365</title>
 <meta name="description" content="{{ page.description | escape }}">
 <meta name="robots" content="{% if page.noindex %}noindex,follow{% else %}index,follow{% endif %}">
@@ -10,7 +12,7 @@
 <meta property="og:title" content="{{ page.title | escape }}"><meta property="og:description" content="{{ page.description | escape }}"><meta property="og:url" content="{{ page.url | absolute_url }}"><meta property="og:image" content="{{ page.og_image | default: '/assets/og/home.png' | absolute_url }}"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:image:alt" content="{{ page.title | escape }} — Kalendārs365">
 <meta name="asset-version" content="{{ site.data.build.asset_version }}">
 <meta name="twitter:card" content="summary_large_image"><meta name="theme-color" content="#751d2d">
-<link rel="icon" href="/assets/favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="/assets/style.css?v={{ site.data.build.asset_version }}"><link rel="stylesheet" href="/assets/pages.css?v={{ site.data.build.asset_version }}">
+<link rel="icon" href="/assets/favicon.svg" type="image/svg+xml"><style>{{ "style.css,pages.css,typography.css" | inline_styles }}</style>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","name":{{ page.title | jsonify }},"description":{{ page.description | jsonify }},"url":{{ page.url | absolute_url | jsonify }},"inLanguage":"lv-LV","isPartOf":{"@type":"WebSite","name":"Kalendārs365","url":{{ site.url | jsonify }}},"publisher":{"@type":"Person","name":"Mateo Pedersen","email":"kalendars365@gmail.com"}}</script>
 <script defer src="/assets/calendar-core.js?v={{ site.data.build.asset_version }}"></script><script defer src="/assets/app.js?v={{ site.data.build.asset_version }}"></script><script defer src="/assets/pages.js?v={{ site.data.build.asset_version }}"></script>
 {% if page.url != "/" %}<script defer src="/assets/planning.js?v={{ site.data.build.asset_version }}"></script>{% endif %}
