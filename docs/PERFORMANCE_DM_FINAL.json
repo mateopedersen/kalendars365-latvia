@@ -1,0 +1,130 @@
+{
+  "site": "https://kalendars365.lv/",
+  "sourceCommit": "2006b8fa9bf4ab809b8f55ff667cba9e438991d6",
+  "assetVersion": "f5988e75aaf6da06",
+  "testedScenarios": 5,
+  "allDisplayedCategoryScores100": true,
+  "scope": "Measured Lighthouse lab scenarios only; not a field CWV history or all621-page performance guarantee. Earlier runs and startup baselines are preserved.",
+  "results": [
+    {
+      "page": "home-mobile",
+      "label": "Ana sayfa · mobil",
+      "url": "https://kalendars365.lv/",
+      "fetchTime": "2026-10-22T11:44:04.762Z",
+      "lighthouseVersion": "13.5.0",
+      "assetVersion": "f5988e75aaf6da06",
+      "scores": {
+        "performance": 100,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "metrics": {
+        "first-contentful-paint": 1124.0965,
+        "largest-contentful-paint": 1631.0965,
+        "total-blocking-time": 18,
+        "cumulative-layout-shift": 0.0002379492136208864
+      },
+      "htmlReport": "performance/lighthouse-dm-final-home-mobile.report.html",
+      "jsonReport": "performance/lighthouse-dm-final-home-mobile.report.json",
+      "jsonSha256": "15abb9cc217ed05635f004bf95186ddf56025f6a7dd2a2a569b7a4d660b22425",
+      "warnings": []
+    },
+    {
+      "page": "home-desktop",
+      "label": "Ana sayfa · masaüstü",
+      "url": "https://kalendars365.lv/",
+      "fetchTime": "2026-10-22T11:44:15.477Z",
+      "lighthouseVersion": "13.5.0",
+      "assetVersion": "f5988e75aaf6da06",
+      "scores": {
+        "performance": 100,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "metrics": {
+        "first-contentful-paint": 269.885,
+        "largest-contentful-paint": 537.77,
+        "total-blocking-time": 0,
+        "cumulative-layout-shift": 0.010592837025362638
+      },
+      "htmlReport": "performance/lighthouse-dm-final-home-desktop.report.html",
+      "jsonReport": "performance/lighthouse-dm-final-home-desktop.report.json",
+      "jsonSha256": "6d2e78c52ca92f8eb249559dc6fa3def74c953dcf6e5b92d7aaaead4e5acb469",
+      "warnings": []
+    },
+    {
+      "page": "work-mobile",
+      "label": "Çalışma aracı · mobil",
+      "url": "https://kalendars365.lv/darba-laika-kalendars/",
+      "fetchTime": "2026-10-22T11:44:32.185Z",
+      "lighthouseVersion": "13.5.0",
+      "assetVersion": "f5988e75aaf6da06",
+      "scores": {
+        "performance": 100,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "metrics": {
+        "first-contentful-paint": 1035.414,
+        "largest-contentful-paint": 1921.828,
+        "total-blocking-time": 13,
+        "cumulative-layout-shift": 0.009922527359644401
+      },
+      "htmlReport": "performance/lighthouse-dm-final-work-mobile.report.html",
+      "jsonReport": "performance/lighthouse-dm-final-work-mobile.report.json",
+      "jsonSha256": "ccb1ad87f17948a80a8b8cf3a818d4a1ab2a54f903bc0fce2617560cba9d176b",
+      "warnings": []
+    },
+    {
+      "page": "year-mobile",
+      "label": "2029 takvimi · mobil",
+      "url": "https://kalendars365.lv/kalendars/2029/",
+      "fetchTime": "2026-10-22T11:44:44.271Z",
+      "lighthouseVersion": "13.5.0",
+      "assetVersion": "f5988e75aaf6da06",
+      "scores": {
+        "performance": 100,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "metrics": {
+        "first-contentful-paint": 1009.7235000000001,
+        "largest-contentful-paint": 1905.4470000000001,
+        "total-blocking-time": 0,
+        "cumulative-layout-shift": 0
+      },
+      "htmlReport": "performance/lighthouse-dm-final-year-mobile.report.html",
+      "jsonReport": "performance/lighthouse-dm-final-year-mobile.report.json",
+      "jsonSha256": "821022f157507594340deb0fdb387c98ff5ae56c12a2da061b85f4d6deca2dfd",
+      "warnings": []
+    },
+    {
+      "page": "gallery-mobile",
+      "label": "Şubat 2029 PDF galerisi · mobil",
+      "url": "https://kalendars365.lv/pdf-kalendari/2029/februaris/",
+      "fetchTime": "2026-10-22T11:44:55.623Z",
+      "lighthouseVersion": "13.5.0",
+      "assetVersion": "f5988e75aaf6da06",
+      "scores": {
+        "performance": 100,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "metrics": {
+        "first-contentful-paint": 989.07,
+        "largest-contentful-paint": 1288.14,
+        "total-blocking-time": 0,
+        "cumulative-layout-shift": 0
+      },
+      "htmlReport": "performance/lighthouse-dm-final-gallery-mobile.report.html",
+      "jsonReport": "performance/lighthouse-dm-final-gallery-mobile.report.json",
+      "jsonSha256": "a9f46277471348f270870c82b33d3dba99bc7e34f9681b41eb034610576f9fe7",
+      "warnings": []
+    }
+  ]
+}

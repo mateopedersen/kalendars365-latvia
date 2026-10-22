@@ -39,3 +39,7 @@ Visitor events, notes, tasks and uploaded photos stay in the browser. JSON backu
 ## Static font/media cache refresh
 
 When changing an existing downloadable file or social-card URL, verify the bare public URL as well as a versioned fetch. The owned zone can retain old CDN binaries after a Pages deployment. For the DM Sans update, custom prefix purge was scoped only to kalendars365.lv/downloads/ and kalendars365.lv/assets/og/. The complete follow-up621-route/1,313-request audit passed with zero mismatches. Do not use an account-wide or unrelated-domain purge. Browser application scripts use content-version query strings; local calendar data is preserved across font updates.
+
+## Final DM Sans production verification — 2026-10-22
+
+Source2006b8f / asset f5988e75aaf6da06 / Cloudflare9f8f57ae-83c3-47b9-ba5f-5721262088af; GitHub CI39772050369 succeeded. All621routes,863assets and450download files pass. No Garet HTML references or external scripts; security headers present on621routes. All5final Lighthouse scenarios (home mobile/desktop, work tool mobile,2029calendar mobile,2029February print gallery mobile) score100performance/accessibility/best-practices/SEO. Mobile home FCP1.1s,LCP1.6s,TBT20ms,CLS0. These are lab measurements for the named scenarios, not a field-history or all621-page guarantee. Earlier startup baselines remain recorded. Detailed machine-readable results: PERFORMANCE_DM_FINAL.json. Actual personalized2030PDF/WebP downloads and final DM Sans screenshots were verified. No paid resource or unrelated-domain change.
