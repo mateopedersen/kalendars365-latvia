@@ -49,11 +49,11 @@ k365_bootstrap_ruby() {
     (
       set -e
       trap 'rm -rf "$k365_build_dir"' EXIT
-      tar -xzf "$k365_archive" -C "$k365_build_dir"
-      cd "$k365_build_dir/ruby-4.0.8"
-      ./configure --prefix="$k365_prefix" --disable-install-doc
-      make -j2
-      make install
+      tar -xzf "$k365_archive" -C "$k365_build_dir" || exit 1
+      cd "$k365_build_dir/ruby-4.0.8" || exit 1
+      ./configure --prefix="$k365_prefix" --disable-install-doc || exit 1
+      make -j2 || exit 1
+      make install || exit 1
     ) || return 1
   fi
 

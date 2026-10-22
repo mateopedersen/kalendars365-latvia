@@ -22,6 +22,7 @@ The print manifest contains 225 PDFs, 225 matching WebPs, 225 previews and one m
 
 - Initial mobile Lighthouse baseline (`../lighthouse-mobile.json`, 2026-10-22 09:36:55 UTC): performance 76, accessibility 86, best practices 100, SEO 100; LCP 4.0 s, CLS 0.234, TBT 40 ms. Frontend is producing a subsequent result; consult final UI QA rather than treating the baseline as the final score. There is no field Core Web Vitals history for this new site.
 - Subsequent observed run (`../lighthouse-mobile-v2.json`, 2026-10-22 09:45:47 UTC): performance87, accessibility100, best practices100, SEO100; FCP1.4s, LCP4.0s, TBT60ms, CLS0. This is a local lab result; final UI QA identifies the release run.
+- Latest observed mobile run (`../lighthouse-mobile-v3.json`, 2026-10-22 09:58:24 UTC): performance 99, accessibility 100, best practices 100, SEO 100; FCP 1.4 s, LCP 2.0 s, TBT 20 ms, CLS 0. This supersedes the earlier local baselines for the tested revision; live-site and field results remain unverified.
 - Remote CI, deployed HTTPS routes, real HTTP404, cold-cache updates, browser network/privacy checks and full interaction evidence must be recorded separately by the root/frontend tasks.
 - Latest VVC traditional/extended CSV reconciliation is incomplete. The 1,013 traditional names are an explicitly labeled official 2018 snapshot. PMLP 2025 popularity order remains independently unconfirmed.
 - Native Latvian proofreading, real mailbox delivery and independent full WCAG 2.2 AA certification have not been performed.
@@ -29,3 +30,9 @@ The print manifest contains 225 PDFs, 225 matching WebPs, 225 previews and one m
 - A4 WebP output has true 600 ppi pixel dimensions. This does not increase the actual detail of a low-resolution uploaded photograph.
 
 See `ACCEPTANCE_AUDIT.md` for the full original 58-criterion review. Preserve these distinctions when adding final deployment and UI evidence.
+
+## Final navigation and daily-maintenance additions
+
+Static annual/monthly calendar dates now link to `/?date=YYYY-MM-DD&view=day`, including adjacent 2026/2031 dates. Full Latvian date labels are attached for assistive technology; links inherit their cell colors and preserve grid dimensions. All 1,743 generated annual date links were checked for matching target/date, labels and both boundary years.
+
+Root created the daily editorial automation for 03:10 Europe/Istanbul: prepare twelve original dated entries, validate and publish through the project workflow. It is a local desktop automation and requires the computer and app to be running. If it cannot run, the site hides stale content instead of relabeling it.

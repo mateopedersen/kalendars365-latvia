@@ -15,3 +15,5 @@
 /* Reserve the month grid and category row before the first script paint. */
 #calendar-view:empty{min-height:434px}#category-filters:empty{min-height:28px}.site-footer .brand-number{color:var(--brand)}.photo-preview-frame{height:180px;overflow:hidden;border-radius:6px;background:var(--canvas);margin:12px 0}.photo-preview-frame .preview-photo{display:block;width:100%;height:100%;max-height:none;margin:0;object-fit:cover;border-radius:0}.photo-adjustments input{width:100%;padding:0;accent-color:var(--brand)}
 @media(min-width:1650px){#calendar-view:empty{min-height:518px}}@media(min-width:1121px) and (max-width:1649px){#calendar-view:empty{min-height:374px}}@media(min-width:851px) and (max-width:1120px){#calendar-view:empty{min-height:494px}}@media(min-width:681px) and (max-width:850px){#calendar-view:empty{min-height:428px}}@media(max-width:680px){#calendar-view:empty{min-height:409px}#category-filters:empty{min-height:31px}}@media(max-width:370px){#calendar-view:empty{min-height:361px}}
+
+[data-theme=dark] .calendar-table .other-month{color:#b3aeb9}

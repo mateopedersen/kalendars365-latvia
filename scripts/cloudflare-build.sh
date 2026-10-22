@@ -1,5 +1,8 @@
 #!/usr/bin/env bash
 set -euo pipefail
+export LANG=C.UTF-8
+export LC_ALL=C.UTF-8
+export RUBYOPT=-EUTF-8:UTF-8
 cd "$(dirname "${BASH_SOURCE[0]}")/.."
 source scripts/bootstrap-ruby.sh
 

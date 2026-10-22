@@ -35,7 +35,7 @@ def holiday_table(y,m=nil,memorial=false)
 end
 def calendar(y,m,mini=false)
  first=Date.new(y,m,1); last=Date.new(y,m,-1); start=first-(first.cwday-1); ending=last+(7-last.cwday)
- rows=(start..ending).each_slice(7).map{|week|'<tr><th scope="row">'+a(format('/nedelas-kalendars/%d/%02d/',week[3].cwyear,week[3].cweek),week[3].cweek)+'</th>'+week.map{|d|holiday=HOLIDAYS.any?{|z|z['date']==d.iso8601&&z['dayOff']}; "<td class=\"#{d.month!=m ? 'outside' : ''} #{d.cwday>5 ? 'weekend' : ''} #{holiday ? 'holiday' : ''}\"><time datetime=\"#{d.iso8601}\">#{d.day}</time></td>"}.join+'</tr>'}.join
+ rows=(start..ending).each_slice(7).map{|week|'<tr><th scope="row">'+a(format('/nedelas-kalendars/%d/%02d/',week[3].cwyear,week[3].cweek),week[3].cweek)+'</th>'+week.map{|d|holiday=HOLIDAYS.any?{|z|z['date']==d.iso8601&&z['dayOff']}; label="#{d.year}. gada #{d.day}. #{MONTHS[d.month-1]}"; "<td class=\"#{d.month!=m ? 'outside' : ''} #{d.cwday>5 ? 'weekend' : ''} #{holiday ? 'holiday' : ''}\"><a class=\"calendar-date-link\" href=\"/?date=#{d.iso8601}&amp;view=day\" aria-label=\"#{h(label)}\" style=\"display:block;color:inherit;text-decoration:none\"><time datetime=\"#{d.iso8601}\">#{d.day}</time></a></td>"}.join+'</tr>'}.join
  "<section class=\"#{mini ? 'mini-calendar' : 'static-calendar'}\"><h3>#{a("/kalendars/#{y}/#{SLUGS[m-1]}/",MONTHS[m-1].capitalize)}</h3><table><thead><tr><th scope=\"col\">Ned.</th>#{DAYS.map{|d|"<th scope=\"col\">#{d}</th>"}.join}</tr></thead><tbody>#{rows}</tbody></table></section>"
 end
 def source_panel(extra='')
@@ -163,7 +163,7 @@ ROUTES.each do |r|
   body+='<section data-planning="work"></section>'+widget('work') if slug=='darba-dienu-kalendars'
  end
  desc="#{title}. #{m ? "#{Date.new(y,m,-1).day} dienas, ISO nedēļas un izvēlētā mēneša plānošana." : 'Pārskatāmi datumi, plānošanas rīki un saites uz avotiem.'} Kalendārs365 Latvijai." if desc.empty?
- front={'layout'=>'default','title'=>title,'description'=>desc,'permalink'=>p,'family'=>f,'year'=>(r['Year'].empty? ? nil : y),'month'=>m,'week'=>week,'name'=>(f=='name_calendar' ? r['Latvian title/topic'] : nil),'view'=>(f=='iso_week' ? 'week' : f=='year' ? 'year' : nil),'noindex'=>noindex,'og_image'=>"/assets/og/#{Digest::SHA1.hexdigest(p)[0,16]}.webp"}
+ front={'layout'=>'default','title'=>title,'description'=>desc,'permalink'=>p,'family'=>f,'year'=>(r['Year'].empty? ? nil : y),'month'=>m,'week'=>week,'calendar_name'=>(f=='name_calendar' ? r['Latvian title/topic'] : nil),'view'=>(f=='iso_week' ? 'week' : f=='year' ? 'year' : nil),'noindex'=>noindex,'og_image'=>"/assets/og/#{Digest::SHA1.hexdigest(p)[0,16]}.webp"}
  content=p=='/' ? body : "<div class=\"page-shell\"><nav class=\"breadcrumbs\" aria-label=\"Atrašanās vieta\">#{a('/','Sākums')} <span>/</span> #{a('/visi-riki/','Kalendāri un rīki')}</nav><header class=\"page-heading\"><span class=\"eyebrow\">LATVIJA · KALENDĀRS365</span><h1>#{h(title)}</h1></header>#{body}<nav class=\"related-links\">#{a('/kalendars/2027/','2027. gada kalendārs')}#{a('/kalendars/2028/','2028. gada kalendārs')}#{a('/kalendars/2029/','2029. gada kalendārs')}#{a('/kalendars/2030/','2030. gada kalendārs')}#{a('/visi-riki/','Visi rīki')}</nav></div>"
  path=p=='/' ? 'index.html' : "generated#{p}index.html";FileUtils.mkdir_p(File.dirname(path));File.write(path,front.to_yaml+"---\n"+content)
  # A rebuild alone does not change lastmod. Only meaningful page content does.

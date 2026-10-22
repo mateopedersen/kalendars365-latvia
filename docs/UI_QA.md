@@ -41,3 +41,11 @@ Import accepts date and timed events, standard daily/weekly/monthly/yearly inter
 ## Data and output cautions
 
 Name-day data is a verified 2018 VVC snapshot with a visible provenance notice. Later school holidays and dates awaiting primary confirmation remain labeled by the data/content layer. Solar times are approximate astronomical calculations, not weather. Local storage is device/browser-specific. The print engine and its generated artifacts have independent sibling-agent verification.
+
+## Root final browser pass (2026-10-22)
+
+Actual PDF and WebP controls on `/pdf-kalendari/2029/februaris/` downloaded real files. Inspection confirmed one-page A4 PDF with readable Latvian text and matching 4961×7016 WebP. This exposed Jekyll's reserved `page.name` fallback (`index.html`) in the filename; the page variable was renamed `calendar_name` and the full build/audit passed afterward.
+
+The leave tool was exercised for year2028 with zero vacation days: correctly returned Easter April14–17, Christmas December23–26, and four three-day intervals including the verified festival compensation July8–10. Work-hour tool default2027 returned252days/2009hours/7shortened days. Theme toggle was verified via native browser click, producing both dark/light DOM states and confirmation text. Final seven-width DOM checks again found no horizontal page overflow. Some screenshots captured while emulating mobile input need explicit theme filename reconciliation before delivery.
+
+Latest local mobile Lighthouse v3 after smaller hero: performance99/accessibility100/best-practices100/SEO100, LCP2.0s, CLS0. Live-domain measurement is separate and pending.

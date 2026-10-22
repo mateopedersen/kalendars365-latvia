@@ -16,7 +16,7 @@
 {% if page.url != "/" %}<script defer src="/assets/planning.js?v={{ site.data.build.asset_version }}"></script>{% endif %}
 {% if page.url != "/" %}<script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Sākums","item":{{ site.url | jsonify }}},{"@type":"ListItem","position":2,"name":{{ page.title | jsonify }},"item":{{ page.url | absolute_url | jsonify }}}]}</script>{% endif %}
 </head>
-<body data-family="{{ page.family }}" data-year="{{ page.year }}" data-month="{{ page.month }}" data-week="{{ page.week }}" data-name="{{ page.name | escape }}" data-view="{{ page.view }}">
+<body data-family="{{ page.family }}" data-year="{{ page.year }}" data-month="{{ page.month }}" data-week="{{ page.week }}" data-name="{{ page.calendar_name | escape }}" data-view="{{ page.view }}">
 {% include header.html %}
 <main id="main">{{ content }}</main>
 {% include footer.html %}
