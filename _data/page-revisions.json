@@ -52,12 +52,12 @@
     "lastmod": "2026-10-22"
   },
   "/darba-dienu-kalendars/": {
-    "sha256": "b41d61c80671b49f646f71afd5e3cfc0b307c987b07680c14e72ea6c24cde9e9",
-    "lastmod": "2026-10-26"
+    "sha256": "7ebbac7578f8abb627cafe631c9644f9eeb09f380e1f8aa70f5d5bd635956a27",
+    "lastmod": "2026-10-27"
   },
   "/darba-laika-kalendars/": {
-    "sha256": "93b9b80c515ca4f8c4c2460e4e1f7cd260204bf28d3de8983cadea1017f6f0e4",
-    "lastmod": "2026-10-26"
+    "sha256": "15b2ebc8f9af0a8851c606d3877e3cf62be9174dd46dae90086dc4deea92014f",
+    "lastmod": "2026-10-27"
   },
   "/atvalinajuma-planotajs/": {
     "sha256": "12c5c5456d0d0b19522b80bd5721ea5e9935b8d50c8bf550e7a0f6b02ccb8f1a",
@@ -68,8 +68,8 @@
     "lastmod": "2026-10-22"
   },
   "/datumu-kalkulators/": {
-    "sha256": "750b46d7708a332fb39f04cf13b83886047cc9345e2a18b30fda5fdeafeecac7",
-    "lastmod": "2026-10-26"
+    "sha256": "36be279458fd64a97017b93687fdc2459a585a6c598840b3f5dc7f14d7edc992",
+    "lastmod": "2026-10-27"
   },
   "/dienu-skaititajs/": {
     "sha256": "606006ae759c56ad96dd9be0afd00059c03c2d8ebc03a1ec50449396e13e26c1",
@@ -204,8 +204,8 @@
     "lastmod": "2026-10-22"
   },
   "/darba-dienu-kalendars/2027/": {
-    "sha256": "f79e216f5d952aebd74f2226c3b31395160948a9b63ef8e6abdb816a3b071298",
-    "lastmod": "2026-10-26"
+    "sha256": "63708d201c1004912871e4842638b640ad5dfce4098b9ccaa387239036cee5a0",
+    "lastmod": "2026-10-27"
   },
   "/svetku-dienas/2027/": {
     "sha256": "336c83d3230ae709ab6b0e9305136bbeb8a76f657e11936710885ac374b0293c",
@@ -216,8 +216,8 @@
     "lastmod": "2026-10-22"
   },
   "/garas-brivdienas/2027/": {
-    "sha256": "2c08e9806c8938f0e8695136785213606038e01d79337a778062433069d64ba0",
-    "lastmod": "2026-10-26"
+    "sha256": "377b78d33fd0f959ca8033131a7612e96839327e1ba88c4b7909d068fbcfadd4",
+    "lastmod": "2026-10-27"
   },
   "/skolas-brivlaiki/2027/": {
     "sha256": "5e624ed813fa2bea7829ad31bd484f6ece014698c685a3a2f3c3002ddbe0f575",
@@ -232,8 +232,8 @@
     "lastmod": "2026-10-22"
   },
   "/darba-dienu-kalendars/2027/janvaris/": {
-    "sha256": "0d53efd749e8e303d5cd59cd83b285d5dabb93a51a8f467b917467b130bba271",
-    "lastmod": "2026-10-26"
+    "sha256": "8fac97b89069d79bb94f368c57135ee384b8edbd68540e8ef15c68275a449097",
+    "lastmod": "2026-10-27"
   },
   "/svetku-dienas/2027/janvaris/": {
     "sha256": "20ad16a6035226556cf546c1e6115163130ddf9c85bcda0cad770d74ebddc37b",
@@ -252,8 +252,8 @@
     "lastmod": "2026-10-22"
   },
   "/darba-dienu-kalendars/2027/februaris/": {
-    "sha256": "8fe6eea0a1534f9bc1a64d911459618e3ae64398b44061cfd714d0663f06088b",
-    "lastmod": "2026-10-26"
+    "sha256": "c75dff0ecbaeafae4c3915cea9bf75052b79714175f8c2b8e7eef92d2fdc510d",
+    "lastmod": "2026-10-27"
   },
   "/svetku-dienas/2027/februaris/": {
     "sha256": "fe16a08eb924b36c72ecb4a83cf3d581f27faeabc9daa526a79002e453723c77",
@@ -272,8 +272,8 @@
     "lastmod": "2026-10-22"
   },
   "/darba-dienu-kalendars/2027/marts/": {
-    "sha256": "ebb2fa2a52a11f0d0edeebe9498545793c97c5b14f0f3359aed2bd7b7e4a2219",
-    "lastmod": "2026-10-26"
+    "sha256": "a6eaa0e418efaf85c129522ff405327509e595c1c4f49c6483f4a564c5f1d674",
+    "lastmod": "2026-10-27"
   },
   "/svetku-dienas/2027/marts/": {
     "sha256": "7bc55d3d678f18aee7978cfb28ed707feaea12b5595882a5a9d04eadfa6a4469",
@@ -292,8 +292,8 @@
     "lastmod": "2026-10-22"
   },
   "/darba-dienu-kalendars/2027/aprilis/": {
-    "sha256": "ca21fd499e97a7d2354f49bc3d0bd6a123c2898fd716ef352250840075b04375",
-    "lastmod": "2026-10-26"
+    "sha256": "f17891bcb47ba56e0dfb0a2c5e7de458da5a079f6a23213783373ac08fe41b39",
+    "lastmod": "2026-10-27"
   },
   "/svetku-dienas/2027/aprilis/": {
     "sha256": "67b508517f9b313ba6c78d2b0dbad3b952ad0b8adb1868d0c462768091e7558f",
@@ -312,8 +312,8 @@
     "lastmod": "2026-10-22"
   },
   "/darba-dienu-kalendars/2027/maijs/": {
-    "sha256": "762e6c4e003aac23cf151a40eb9b20e70583c13147f2f23d194fcb1cbd7a4ccd",
-    "lastmod": "2026-10-26"
+    "sha256": "2ce26b1b9b21546c15c37c5f6806868543b4e8fdde8bfda46917336d8549c550",
+    "lastmod": "2026-10-27"
   },
   "/svetku-dienas/2027/maijs/": {
     "sha256": "a87b7e5915e109ba721cae88c91e0b4e1cdb9a7519cd28dbe27eeff06b641ed9",
@@ -332,8 +332,8 @@
     "lastmod": "2026-10-22"
   },
   "/darba-dienu-kalendars/2027/junijs/": {
-    "sha256": "1b6e49fc62c9dbcbb24a8a4a0eddd01e46ff93bb3712be8e0cf09b68784a4b7d",
-    "lastmod": "2026-10-26"
+    "sha256": "ced1aaf0462d3182a0a9c737fb7090cb966b9ed4369cf66f34ffa06e335a178d",
+    "lastmod": "2026-10-27"
   },
   "/svetku-dienas/2027/junijs/": {
     "sha256": "558d62e88ac67cfa22bb7f4b16228652affd4aa6b2fda6c7601909392f8c7f7e",
@@ -352,8 +352,8 @@
     "lastmod": "2026-10-22"
   },
   "/darba-dienu-kalendars/2027/julijs/": {
-    "sha256": "fd6461b5dfb15b1f0d31a3788b9e95dc57909183b97b3dc4be770bd792b6d314",
-    "lastmod": "2026-10-26"
+    "sha256": "3fd3ae29a3233048f859159a1b964628f1b480e44d7435080daf205ada813d59",
+    "lastmod": "2026-10-27"
   },
   "/svetku-dienas/2027/julijs/": {
     "sha256": "e73aecadc3aa9d69a0685618c9d74802e8e66c69ed8f8e1146c94798babc6c09",
@@ -372,8 +372,8 @@
     "lastmod": "2026-10-22"
   },
   "/darba-dienu-kalendars/2027/augusts/": {
-    "sha256": "1d19b998d7690e77288d94d7c01c9ead3e2da597533d6ef29aadeb28c2653913",
-    "lastmod": "2026-10-26"
+    "sha256": "f19013c728e067b9597ca9d3646eb102fccf41b2dab31a43554dd7afca630b78",
+    "lastmod": "2026-10-27"
   },
   "/svetku-dienas/2027/augusts/": {
     "sha256": "22aef50d4310e9dbb07adae683629d881e579e92b6ed5d567ddaaa9b3e2288e0",
@@ -392,8 +392,8 @@
     "lastmod": "2026-10-22"
   },
   "/darba-dienu-kalendars/2027/septembris/": {
-    "sha256": "8c9cfc780879891101a26f05d24f03d852ee8cf5dd991d1850f847116cb31afa",
-    "lastmod": "2026-10-26"
+    "sha256": "2cec8dfce98e0acd73edff1ae6009fef33488f27b8880ea618a64e8e89167c5b",
+    "lastmod": "2026-10-27"
   },
   "/svetku-dienas/2027/septembris/": {
     "sha256": "d86b6c05a0de81b74eed09063e62c4610c20d7342f21cfacbcb8b4483effa646",
@@ -412,8 +412,8 @@
     "lastmod": "2026-10-22"
   },
   "/darba-dienu-kalendars/2027/oktobris/": {
-    "sha256": "4199cfb8185b7db54d451fb8239e46ebb61e278df941f5344b4278d8b9ab26a0",
-    "lastmod": "2026-10-26"
+    "sha256": "5f0788aeeee8608a275d9adda766a67a36257126f5524fd3efc277bff1b6c4cf",
+    "lastmod": "2026-10-27"
   },
   "/svetku-dienas/2027/oktobris/": {
     "sha256": "f03c454bdb7e77667fbb3e90732bbbaa3649c2ec288bca8b3c136306d400c75c",
@@ -432,8 +432,8 @@
     "lastmod": "2026-10-22"
   },
   "/darba-dienu-kalendars/2027/novembris/": {
-    "sha256": "3f263240955507f592825bbe506d82b28b3f65660e44799151323d1de29a4f21",
-    "lastmod": "2026-10-26"
+    "sha256": "f8e89f4f9e14f359d34fb7cd90583fb3d86ff98baa38e4e2a6e449dfd3ba9310",
+    "lastmod": "2026-10-27"
   },
   "/svetku-dienas/2027/novembris/": {
     "sha256": "3ecb181b4fac2629e7fdcc9ed776182a75062c0f5d300860fbd4031838029b11",
@@ -452,8 +452,8 @@
     "lastmod": "2026-10-22"
   },
   "/darba-dienu-kalendars/2027/decembris/": {
-    "sha256": "6dd3a0e2caf385ad106890cdbd6f3d2b7e41689e216458c5b726fe5cd855afdc",
-    "lastmod": "2026-10-26"
+    "sha256": "7963366510c38ec85dd0812ac4cc389a8be781698534c7ed1217aa895f2aa07d",
+    "lastmod": "2026-10-27"
   },
   "/svetku-dienas/2027/decembris/": {
     "sha256": "d87370ed55930c9dd904c69f83717fa7a90170eea4310031134c59feee073750",
@@ -692,8 +692,8 @@
     "lastmod": "2026-10-22"
   },
   "/darba-dienu-kalendars/2028/": {
-    "sha256": "88b9d7904d95770eb8c40c529f2797679e524f1c19f2d90a6bb90d86ff09c344",
-    "lastmod": "2026-10-26"
+    "sha256": "3059ea20a84d182bedd1a3448392f38feb833f550e6151fd98dc9553d904c1f1",
+    "lastmod": "2026-10-27"
   },
   "/svetku-dienas/2028/": {
     "sha256": "ff856b9a598d6885bc34d8f6ab9c181cfc373f0561db858e8823483b3e7c434f",
@@ -704,8 +704,8 @@
     "lastmod": "2026-10-22"
   },
   "/garas-brivdienas/2028/": {
-    "sha256": "a8b36228857eed73b863fe5e4077a0d34eaac20a64e77a1a851cf48a96d845be",
-    "lastmod": "2026-10-26"
+    "sha256": "f49eb908c94fec7a1b31cc1d30600678875ab5345dddbc29fb16c6233c83b121",
+    "lastmod": "2026-10-27"
   },
   "/skolas-brivlaiki/2028/": {
     "sha256": "13ba72fc04c6042c16b4d127e2caa39b4c93b36a931d77dbe746247abab99feb",
@@ -720,8 +720,8 @@
     "lastmod": "2026-10-22"
   },
   "/darba-dienu-kalendars/2028/janvaris/": {
-    "sha256": "1d03c94da52b7dfc1aa286f3d27954458dc9bb318f649b7c38515a903584d924",
-    "lastmod": "2026-10-26"
+    "sha256": "3635ea3112d26e453969d9760e981e894e54ddc4c22ea67a7977b5d576baf6b9",
+    "lastmod": "2026-10-27"
   },
   "/svetku-dienas/2028/janvaris/": {
     "sha256": "4e4af76b187748e0a2633fb8e3e4451eb0e198b0a27bc4f356a8b6915491980f",
@@ -740,8 +740,8 @@
     "lastmod": "2026-10-22"
   },
   "/darba-dienu-kalendars/2028/februaris/": {
-    "sha256": "a71482f1cbca304e130fe0d584ba153fb29f5a84afbe66317c6632f6853e4e8d",
-    "lastmod": "2026-10-26"
+    "sha256": "ad26009883a429df2420ab828d8608baf0db47147dbccd6a94b7add19192bc0e",
+    "lastmod": "2026-10-27"
   },
   "/svetku-dienas/2028/februaris/": {
     "sha256": "b2c16006c6fb8e25981d200bfcf56025817110e222aaa182183a54b12c765079",
@@ -760,8 +760,8 @@
     "lastmod": "2026-10-22"
   },
   "/darba-dienu-kalendars/2028/marts/": {
-    "sha256": "1ab4233eddc9e1ef086069786d3f5f5081686e653664c432b71f6b8b53e2446b",
-    "lastmod": "2026-10-26"
+    "sha256": "31135b63709db923ccc9da83100109be297e88170585d32271497a38857e15c2",
+    "lastmod": "2026-10-27"
   },
   "/svetku-dienas/2028/marts/": {
     "sha256": "3dfa36df1562627d3a15e4585489a8a6835d2d6472c1717a5b5a142fb2cdfb3d",
@@ -780,8 +780,8 @@
     "lastmod": "2026-10-22"
   },
   "/darba-dienu-kalendars/2028/aprilis/": {
-    "sha256": "f6e432c6363d53ceecb4771b3e837c525a9428d8c20521c749621d0d90ad8d80",
-    "lastmod": "2026-10-26"
+    "sha256": "757bb81112e83f7507c4358f4761a7f31b2ba1ea02566fc3fcf6e43ae2da2123",
+    "lastmod": "2026-10-27"
   },
   "/svetku-dienas/2028/aprilis/": {
     "sha256": "961abf3c3ebd38cf535bdffc4d0e161dec1721c48a461dad818b287211acb717",
@@ -800,8 +800,8 @@
     "lastmod": "2026-10-22"
   },
   "/darba-dienu-kalendars/2028/maijs/": {
-    "sha256": "7df6abe7f10f3b938fa87769760b26b900ab358c77183a396584f9be8a308452",
-    "lastmod": "2026-10-26"
+    "sha256": "8c2415bf806b8db5280f44bf934bf7754328ab26a5c619f14fb52a9037ab20ab",
+    "lastmod": "2026-10-27"
   },
   "/svetku-dienas/2028/maijs/": {
     "sha256": "a0a4fee494bf8e9112a559eee382a1c06783a370a177ecf73c042ba2f807a877",
@@ -820,8 +820,8 @@
     "lastmod": "2026-10-22"
   },
   "/darba-dienu-kalendars/2028/junijs/": {
-    "sha256": "ecb32cd7efabca88e6f12e9fd46461a11e0ba25dc1e5e3921da9079a88d8c117",
-    "lastmod": "2026-10-26"
+    "sha256": "2aaf79af1e163543eaae7173e6de3a0f2dd81b1f3b756172ad16036b4c9326f4",
+    "lastmod": "2026-10-27"
   },
   "/svetku-dienas/2028/junijs/": {
     "sha256": "5d16ce9e37acdc8f1bf798a440112809267aea4669784a8f1ec2f9f964478734",
@@ -840,8 +840,8 @@
     "lastmod": "2026-10-22"
   },
   "/darba-dienu-kalendars/2028/julijs/": {
-    "sha256": "e4d005dca032edbe960779507627a664fc93756a0e66ea96782241a48a93b73a",
-    "lastmod": "2026-10-26"
+    "sha256": "d56dae902889a121dc14b177f690a791a7cd1a7c714ea474ff8a43c25afbb8fe",
+    "lastmod": "2026-10-27"
   },
   "/svetku-dienas/2028/julijs/": {
     "sha256": "c41852e84639e6e76718d93896f691acefb9b174eab3e4b4fa94b9bbae0163e5",
@@ -860,8 +860,8 @@
     "lastmod": "2026-10-22"
   },
   "/darba-dienu-kalendars/2028/augusts/": {
-    "sha256": "3af000baedcfcdc7e45d3809c9af6c8c9a4ee119f1eb12ed2f0e03543e758b06",
-    "lastmod": "2026-10-26"
+    "sha256": "8d2d783b4babd8243ec5a7dcf8fcec08d50be9b7eeb05ec239a6fda6f2b57dac",
+    "lastmod": "2026-10-27"
   },
   "/svetku-dienas/2028/augusts/": {
     "sha256": "c5ecac89cd07d94086c621e6bc20f2308c80305788d38f44e12c3431f122b62a",
@@ -880,8 +880,8 @@
     "lastmod": "2026-10-22"
   },
   "/darba-dienu-kalendars/2028/septembris/": {
-    "sha256": "e68c36b84dc3c42b2c43ceb5581aca3cdbb90954ca506d5adb63afa280a3c3ec",
-    "lastmod": "2026-10-26"
+    "sha256": "df50cd07695042129720172e3354b7d64d11d5188e870ba5af7d6031538c040a",
+    "lastmod": "2026-10-27"
   },
   "/svetku-dienas/2028/septembris/": {
     "sha256": "b832eb7603232efeedefb3c67feb67616e4862b233f1c3de9f37b7c714eed9b9",
@@ -900,8 +900,8 @@
     "lastmod": "2026-10-22"
   },
   "/darba-dienu-kalendars/2028/oktobris/": {
-    "sha256": "1590af104969e696419adf39b21cb97d303e07cb6fee30d3afa775aea7cb1414",
-    "lastmod": "2026-10-26"
+    "sha256": "cf46c6bf586d2fc3ec4e260be187221cb47d5eabcc06dbf92e01e225c79a291b",
+    "lastmod": "2026-10-27"
   },
   "/svetku-dienas/2028/oktobris/": {
     "sha256": "a72cb9b5e1fa1e91ef6a907bface92a6c445ad1720925a82e75160a51af78b35",
@@ -920,8 +920,8 @@
     "lastmod": "2026-10-22"
   },
   "/darba-dienu-kalendars/2028/novembris/": {
-    "sha256": "52a4bb7ead23238715c3076d535294058bfe41258908ee022902a93e57151ff9",
-    "lastmod": "2026-10-26"
+    "sha256": "6200854524b83c0e5bd625421afd9ffaa2894945a488cf5256f0e33eaea28aba",
+    "lastmod": "2026-10-27"
   },
   "/svetku-dienas/2028/novembris/": {
     "sha256": "e7fe75c3f94283a4e9332903cc4d48eae7b73dd181b2baf012e2d9cbf97508b3",
@@ -940,8 +940,8 @@
     "lastmod": "2026-10-22"
   },
   "/darba-dienu-kalendars/2028/decembris/": {
-    "sha256": "852f57750ef1eb025b311cc4c12f7a42b7daef18ff4e4cb4d7648c5b5abfb75c",
-    "lastmod": "2026-10-26"
+    "sha256": "31beaea739d6f60ae5dddcf5e78ad21b15a46ed67555a2a06ce4b4dfc794de33",
+    "lastmod": "2026-10-27"
   },
   "/svetku-dienas/2028/decembris/": {
     "sha256": "fb113da34d68b02fe9eef6a9aca37bd9db9597e83d06ea6a9a4c6fd5ac472e37",
@@ -1180,8 +1180,8 @@
     "lastmod": "2026-10-22"
   },
   "/darba-dienu-kalendars/2029/": {
-    "sha256": "a8d1788de9f0aec7f2ce2917a7e197e17316b90f5011c0e3dc2f72bddd38aad6",
-    "lastmod": "2026-10-26"
+    "sha256": "2ccd542ca7683955624a146e686080409ba155d3624f4e1af79ff963056892bb",
+    "lastmod": "2026-10-27"
   },
   "/svetku-dienas/2029/": {
     "sha256": "743c0a17f6bcf712dc27ad9c936091bfb69d31734b1a4df3e163df14bd496283",
@@ -1192,8 +1192,8 @@
     "lastmod": "2026-10-22"
   },
   "/garas-brivdienas/2029/": {
-    "sha256": "09e660a2e7344d3b6122d0d9c3e63f3f1afe65fa8fc85e358921e194d3548b59",
-    "lastmod": "2026-10-26"
+    "sha256": "1d2a11cea2f1bb12d0a10a2fcdc9fed16bf87c0e015816778e0654845a30b4e9",
+    "lastmod": "2026-10-27"
   },
   "/skolas-brivlaiki/2029/": {
     "sha256": "07a71550266ed7531add33762a2b8f65120737042b3924b1609be2425bfac788",
@@ -1208,8 +1208,8 @@
     "lastmod": "2026-10-22"
   },
   "/darba-dienu-kalendars/2029/janvaris/": {
-    "sha256": "611013dcae965bc0e82d89d93c3921a04dcf40416b79caa69037a371556069eb",
-    "lastmod": "2026-10-26"
+    "sha256": "5ac1150534df34b6dde37575ec81cf28d9d863584cab26a008cdd41cb6aec0dd",
+    "lastmod": "2026-10-27"
   },
   "/svetku-dienas/2029/janvaris/": {
     "sha256": "500ff207062c91bea74333658495f517bbac00dbc3bc655a718712bb1a679ec9",
@@ -1228,8 +1228,8 @@
     "lastmod": "2026-10-22"
   },
   "/darba-dienu-kalendars/2029/februaris/": {
-    "sha256": "0e0d310bd2f1c0cc7e2ebfed37f2550dc5403ad3ff8b57d7ed7e466f7c090c60",
-    "lastmod": "2026-10-26"
+    "sha256": "ab810f46c382bd69592e5388f762b6be569a4070b373f161c42800f2feb27103",
+    "lastmod": "2026-10-27"
   },
   "/svetku-dienas/2029/februaris/": {
     "sha256": "06d76c36a36fd069325ddf03949d8c7e7bc394123ab500931d28b8676ac986e0",
@@ -1248,8 +1248,8 @@
     "lastmod": "2026-10-22"
   },
   "/darba-dienu-kalendars/2029/marts/": {
-    "sha256": "20ca77228973964b613a6fe06a46023b6eb6f8551201820f24aebbbde0a969f4",
-    "lastmod": "2026-10-26"
+    "sha256": "c8f01c1d5b2f47c8a7d4cff713ba69b55b0c5a307dc5644844e1e9bbe728be82",
+    "lastmod": "2026-10-27"
   },
   "/svetku-dienas/2029/marts/": {
     "sha256": "e38a58da5052e9d891a17f42eacf7186e67d2609ad6dc63823a7b765c8dc7ead",
@@ -1268,8 +1268,8 @@
     "lastmod": "2026-10-22"
   },
   "/darba-dienu-kalendars/2029/aprilis/": {
-    "sha256": "24e32836aff0737dd45443a4abf8859aab0f3da7e9254224fa5525eb89eb763c",
-    "lastmod": "2026-10-26"
+    "sha256": "f76e52008ecf3ae4ed2f8c542d256a64d8154811fb650f4b4506cb27b74b807b",
+    "lastmod": "2026-10-27"
   },
   "/svetku-dienas/2029/aprilis/": {
     "sha256": "4f3a40db55253d51e24a79773a8e19ad6b5412ce360939d43d7ddfa20a456473",
@@ -1288,8 +1288,8 @@
     "lastmod": "2026-10-22"
   },
   "/darba-dienu-kalendars/2029/maijs/": {
-    "sha256": "bd39d2406c10933fd24be97a4ffcecb932ddb89f924ceab89f83177d11473a03",
-    "lastmod": "2026-10-26"
+    "sha256": "496c54b357bb3a4ed04aa7a98268d35596c0b79e1624e5a2910bf4f9543e4887",
+    "lastmod": "2026-10-27"
   },
   "/svetku-dienas/2029/maijs/": {
     "sha256": "0bb5aa83014c4a35d1deb4e93f83fdcfc6ed54b2a8118bdd00c8e239d32138e1",
@@ -1308,8 +1308,8 @@
     "lastmod": "2026-10-22"
   },
   "/darba-dienu-kalendars/2029/junijs/": {
-    "sha256": "5167f11d7795dc4c51150fa50d7301382fd8fdfe3d786730d7fd7c7320f7ada6",
-    "lastmod": "2026-10-26"
+    "sha256": "1d3f29c92a38989aed027fc4c551c324d9b0dce0791decaa51e555a0bea79019",
+    "lastmod": "2026-10-27"
   },
   "/svetku-dienas/2029/junijs/": {
     "sha256": "fcc13c71a200c06ebe407dd974548fb37c5249f254a55b07a19a8014d4fee3e1",
@@ -1328,8 +1328,8 @@
     "lastmod": "2026-10-22"
   },
   "/darba-dienu-kalendars/2029/julijs/": {
-    "sha256": "947b9f800179cbb0f6710fcc81b291eb5b232084e3e49b0f85ce121d650eee01",
-    "lastmod": "2026-10-26"
+    "sha256": "368bf9263a4fb82db9987aefba93b1dccb71ca6f28670c3185882012c3a43068",
+    "lastmod": "2026-10-27"
   },
   "/svetku-dienas/2029/julijs/": {
     "sha256": "57b611d7b9421eeae4eeed014f9c743f1725daa01af4c0d0d548e727da9f08f7",
@@ -1348,8 +1348,8 @@
     "lastmod": "2026-10-22"
   },
   "/darba-dienu-kalendars/2029/augusts/": {
-    "sha256": "48e5a16fce69aef950c6fd3bc9931ff49e2d64ea24feb84f1f46681d806e2fea",
-    "lastmod": "2026-10-26"
+    "sha256": "5835e3e387de8037db79ce7b5a05f2b0440733f26d9d44b05cd7bf1847c3dedb",
+    "lastmod": "2026-10-27"
   },
   "/svetku-dienas/2029/augusts/": {
     "sha256": "d18da92ac38732c759b2ffd6336d8385548bb881e4aa596963371bd35c65d6e2",
@@ -1368,8 +1368,8 @@
     "lastmod": "2026-10-22"
   },
   "/darba-dienu-kalendars/2029/septembris/": {
-    "sha256": "725e40fc9838e5cd7e7603aed13027e639d5810886cc84bea8c99386b0ceb6bf",
-    "lastmod": "2026-10-26"
+    "sha256": "34ddc3cf2e2c538f645288dc2ca358f9f2885f970c0821e78bfe3bc37c6d7af4",
+    "lastmod": "2026-10-27"
   },
   "/svetku-dienas/2029/septembris/": {
     "sha256": "f5d231eab9b561bcefae23be56ee0e175cc898aa618991b31dc80ffddc9b4c97",
@@ -1388,8 +1388,8 @@
     "lastmod": "2026-10-22"
   },
   "/darba-dienu-kalendars/2029/oktobris/": {
-    "sha256": "3be12cf2f7c5feeb135d78a247a02fac32d2202e5ee5fc5768982ea98cf8cd29",
-    "lastmod": "2026-10-26"
+    "sha256": "2282c544706810910de5870e9880928f3c2e8b0437dfaef1248eea5459094bcd",
+    "lastmod": "2026-10-27"
   },
   "/svetku-dienas/2029/oktobris/": {
     "sha256": "a0c443a5999fd38482b1193e3496a31eace10bc686f49e0893864e15697facd0",
@@ -1408,8 +1408,8 @@
     "lastmod": "2026-10-22"
   },
   "/darba-dienu-kalendars/2029/novembris/": {
-    "sha256": "37c219f3df86f7ce82c82ca8fdccb99383df6a5dfc3bfa586020b487ce368797",
-    "lastmod": "2026-10-26"
+    "sha256": "8f859b1203eab4c7f6cc18b13bff37a3fb47c47d44baf12071f9da1a0cfcb717",
+    "lastmod": "2026-10-27"
   },
   "/svetku-dienas/2029/novembris/": {
     "sha256": "c4094733e8ab8a8f247048e46aab44d345be946b09e6182eb4f6851dbbfecb6d",
@@ -1428,8 +1428,8 @@
     "lastmod": "2026-10-22"
   },
   "/darba-dienu-kalendars/2029/decembris/": {
-    "sha256": "ff886d11c1a22b46486b9e7ac362653eb8cde64c19c16d70f382952403356b65",
-    "lastmod": "2026-10-26"
+    "sha256": "3bb87d931d268403bd92f8c0d9ba13dc672a5e9c6e8ae0e7eaa035fa6b350a18",
+    "lastmod": "2026-10-27"
   },
   "/svetku-dienas/2029/decembris/": {
     "sha256": "69cb9abd57bd9175f22260afcd9b50edc0d591bb80c4f038a9e28814d5ba1bfa",
@@ -1668,8 +1668,8 @@
     "lastmod": "2026-10-22"
   },
   "/darba-dienu-kalendars/2030/": {
-    "sha256": "eb51501353a0ff093f7c4cf456f2b2ecdee1139c015a9595fea945d7d7ee12c4",
-    "lastmod": "2026-10-26"
+    "sha256": "359aeab6727a8544ca32f3e7a3b443e7ddc288cffef5c35ad7edf81fcb8fff89",
+    "lastmod": "2026-10-27"
   },
   "/svetku-dienas/2030/": {
     "sha256": "cd257c1291516c9fc023fdfc53dadbeb25bca4de0c8af1a958808fd6920b6f1a",
@@ -1680,8 +1680,8 @@
     "lastmod": "2026-10-22"
   },
   "/garas-brivdienas/2030/": {
-    "sha256": "41051525c105d70d176aa22a3b294d3c3f965c9fe6532027154ee2537a863a16",
-    "lastmod": "2026-10-26"
+    "sha256": "b7264307d0b06e1c1f39bc38cbc1d123521ca403ac5ccb47238c510c9ff30397",
+    "lastmod": "2026-10-27"
   },
   "/skolas-brivlaiki/2030/": {
     "sha256": "88648c8cb4efe0dbf96f1353b9c9a0a8ba4b9a64e75e445ead79ea6d4756f4b6",
@@ -1696,8 +1696,8 @@
     "lastmod": "2026-10-22"
   },
   "/darba-dienu-kalendars/2030/janvaris/": {
-    "sha256": "22809e707468bb4d72c397043519d592c7a4f729cc075116df793e1093d61283",
-    "lastmod": "2026-10-26"
+    "sha256": "9fb43d01ba0a6630e726e0d60e567719324ec47e7689f3cf1b9f831c7098e730",
+    "lastmod": "2026-10-27"
   },
   "/svetku-dienas/2030/janvaris/": {
     "sha256": "2b0b45382f5fc175f9d7ac5d04abdea3f3ca065fc16cf1b44b3cf4a02ed50ae8",
@@ -1716,8 +1716,8 @@
     "lastmod": "2026-10-22"
   },
   "/darba-dienu-kalendars/2030/februaris/": {
-    "sha256": "27eb50df9e3efe7168a9710964e6e4405ef063a0abdeb7fcf47fa728c485fd3f",
-    "lastmod": "2026-10-26"
+    "sha256": "f866dccb7845e944b3bab5823e16e400ecdc0bcee545b6d3e240c2daecabfb72",
+    "lastmod": "2026-10-27"
   },
   "/svetku-dienas/2030/februaris/": {
     "sha256": "4e5f1e2ee66221446bb1b9f2d81172c790755b69daa7325aa295aaccdf5f9ebb",
@@ -1736,8 +1736,8 @@
     "lastmod": "2026-10-22"
   },
   "/darba-dienu-kalendars/2030/marts/": {
-    "sha256": "4786690e9f2becdda51c4079bef328869f436afd8c12ecfa7c84787f9a8260bc",
-    "lastmod": "2026-10-26"
+    "sha256": "13b603760322ca94abdf729021087d35e8e88b4795fa8e1300352e8a2d04d679",
+    "lastmod": "2026-10-27"
   },
   "/svetku-dienas/2030/marts/": {
     "sha256": "943ab2a92b997f9c11b29e4c21ba4e3f67954f563765826b1033438dc96c3c9c",
@@ -1756,8 +1756,8 @@
     "lastmod": "2026-10-22"
   },
   "/darba-dienu-kalendars/2030/aprilis/": {
-    "sha256": "8ca70fe84f8756b8e75ee41a3722bfc6c555dd89c46f6872644d4dd5a73bf1e6",
-    "lastmod": "2026-10-26"
+    "sha256": "bec2011a7ee2f62556ad98a49da49f97b64d82ca8b7d8bc0032d8b7f1f806dac",
+    "lastmod": "2026-10-27"
   },
   "/svetku-dienas/2030/aprilis/": {
     "sha256": "89280d69f92beed2fecd387591683ff3d9726264bae807c5c9e6f6e872b9136d",
@@ -1776,8 +1776,8 @@
     "lastmod": "2026-10-22"
   },
   "/darba-dienu-kalendars/2030/maijs/": {
-    "sha256": "e71eb085b74efdab40be185134608e4512218f8144523a7e65ffd06ca93c0117",
-    "lastmod": "2026-10-26"
+    "sha256": "1beef36f2f291d2c0546dc3ba9999f7afd147a76144bd412873fd7be7c119c79",
+    "lastmod": "2026-10-27"
   },
   "/svetku-dienas/2030/maijs/": {
     "sha256": "70840f08712f1ab045a8d6d31dbbd1f7241638ef4899915da59c83fcbff57744",
@@ -1796,8 +1796,8 @@
     "lastmod": "2026-10-22"
   },
   "/darba-dienu-kalendars/2030/junijs/": {
-    "sha256": "01a5fac92c7cce69d7e244d542e4bd78291eadaa52585246d2682cc9245247e8",
-    "lastmod": "2026-10-26"
+    "sha256": "3720fa56861c8d5f1100ed20bff5790638984d67094aa39dd007012d47b90dcf",
+    "lastmod": "2026-10-27"
   },
   "/svetku-dienas/2030/junijs/": {
     "sha256": "5c368ad8345db6b1d1df66b89fbd8455787cbfa3b44bfe3fc31d9128d37619a3",
@@ -1816,8 +1816,8 @@
     "lastmod": "2026-10-22"
   },
   "/darba-dienu-kalendars/2030/julijs/": {
-    "sha256": "03b7be46ed5bfa2027d3b9e364a94822ff75636202716b453f75172396fd3b2c",
-    "lastmod": "2026-10-26"
+    "sha256": "050b1c0295db5345d39310d38d18b3ed02d3f525e3e03c7285f1ec89dfc2c424",
+    "lastmod": "2026-10-27"
   },
   "/svetku-dienas/2030/julijs/": {
     "sha256": "26c508e0fa51882ff2454f3209c26da90f27c70c8c90197a2831db68df32142a",
@@ -1836,8 +1836,8 @@
     "lastmod": "2026-10-22"
   },
   "/darba-dienu-kalendars/2030/augusts/": {
-    "sha256": "84bf0a80bdf98da252b12ce0d27780ac4e26c66eaa8d429c095a2a4cce435020",
-    "lastmod": "2026-10-26"
+    "sha256": "b32258226ed08a41372607bfd7c8f63810296e603bb0fef2886156220e49d7f9",
+    "lastmod": "2026-10-27"
   },
   "/svetku-dienas/2030/augusts/": {
     "sha256": "7999e97db87489f1ce141d5a25794fa508c28700c1ba2811dab10a583e280562",
@@ -1856,8 +1856,8 @@
     "lastmod": "2026-10-22"
   },
   "/darba-dienu-kalendars/2030/septembris/": {
-    "sha256": "ba1f85ae38dba3bd5e9ad1f769333a4d097ea96113139c43941ace114d451995",
-    "lastmod": "2026-10-26"
+    "sha256": "ca85b58d00e254aa83d61d4c769b0b0094b9f326f3fd786b4b737d128a55f5c0",
+    "lastmod": "2026-10-27"
   },
   "/svetku-dienas/2030/septembris/": {
     "sha256": "ce77cc8bd380e3e9131031be701cc5394faf6a8c99145cef8d6dfb5ee960bbce",
@@ -1876,8 +1876,8 @@
     "lastmod": "2026-10-22"
   },
   "/darba-dienu-kalendars/2030/oktobris/": {
-    "sha256": "65b329e7a2c7c6eaefaa93c0656d8eda11ed715e692e33867818ab56014717f1",
-    "lastmod": "2026-10-26"
+    "sha256": "c4668b2cd5141a0e09cc2ef81ccac550375afda5d4393cbf00c4afedad38322c",
+    "lastmod": "2026-10-27"
   },
   "/svetku-dienas/2030/oktobris/": {
     "sha256": "c7cb6232b69d39ea1910ca79309c62cd615c2a1a669c347d517848ed07e3df32",
@@ -1896,8 +1896,8 @@
     "lastmod": "2026-10-22"
   },
   "/darba-dienu-kalendars/2030/novembris/": {
-    "sha256": "5279ceafb3f1a0c165656f0a56e4108098e1c6884c62f9c46f57b0611a05875c",
-    "lastmod": "2026-10-26"
+    "sha256": "4312343a44526d1e2c077de27385e03f57ae778c37ae75570929d30759ed54b5",
+    "lastmod": "2026-10-27"
   },
   "/svetku-dienas/2030/novembris/": {
     "sha256": "49cac0f5d561cd2f850b88a724f9235347ae97992285002dddad23127816bbc2",
@@ -1916,8 +1916,8 @@
     "lastmod": "2026-10-22"
   },
   "/darba-dienu-kalendars/2030/decembris/": {
-    "sha256": "61c365dc0ef7d506133752d65708c9bfdee9832d962cc6e190d524458d6f08e1",
-    "lastmod": "2026-10-26"
+    "sha256": "40bd5fd0453832ac53c825966cda7b0bf69a4c37ecea9a794c5e803de256eadd",
+    "lastmod": "2026-10-27"
   },
   "/svetku-dienas/2030/decembris/": {
     "sha256": "a7f7b099afc3dd8da815cf8795d1201c5e2144f031cc51d96a110bc3beebafc8",

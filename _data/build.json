@@ -1,6 +1,6 @@
 {
-  "asset_version": "4a7a4159b0254b46",
-  "sha256": "4a7a4159b0254b46f18621ae6cb1550832ab144fbe2f0ac8bfa49fac727e54c6",
+  "asset_version": "677820dba7836857",
+  "sha256": "677820dba7836857b171ed9ac6f2715d70fe66ca6c69223e6a8d7ba5930915a4",
   "files": {
     "assets/app.js": "708873c3023f158a3fd84a2c763840dfa4082a42a0e18cdf79a33e8c15a0f85c",
     "assets/calendar-core.js": "745629db341adef3e44b5c935ffea74bae8d7aa61236abb8bb6430e7d17d6126",
@@ -11,7 +11,7 @@
     "assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93",
     "assets/fonts/DM-Sans-SOURCE.json": "1ccb76048359c82d881f9cc7db2d81aabac60b2302e3838f7ce1563ddde54b89",
     "assets/fonts/DM-Sans.woff2": "b2473c5097bc87bc282928cb6c4dbfc3ecca6931eed84217ffbd9ca2a26e3adc",
-    "assets/horoscopes.json": "485a5995d9997bdab5dd8031abf5fcaf7f35aed4d86fcdfb36ed929ac9303b75",
+    "assets/horoscopes.json": "a24b0590cdd90764685c92f4327189587bb3e1e0a201c1b5040ea4449284324a",
     "assets/og/004115452928cc22.webp": "b7016c74b7f0671a727db3d255fbfb9ccedf03bc040a9563ead20c8a403ce673",
     "assets/og/00e1c6dfa71f43fc.webp": "c2f80ac0cb53e21dd4e5eb16910044b4c529ef7fdf0add8d18260e7028d5b15e",
     "assets/og/014468e642545ea6.webp": "9b305fc0e0654d323fe3cce5509fd161c06f703254d7685ce0a4c00de7889ab8",
@@ -664,7 +664,7 @@
     "assets/riga-illustration.svg": "f0ac2f65129524651c31942ff9b799bafc6d74b0ba894b50c288f2fec406ed44",
     "assets/riga-panorama-1600.webp": "b4131c778f27bc3de4d9cbea085823e93d41c6550c8a6a39dfe49dd334d751d2",
     "assets/riga-panorama-640.webp": "bd8de1c223a07c3159a9fc72e75d2809115e9b8b090b86d98405e48b4f55efb5",
-    "assets/search-index.json": "581ee820962270d2c9a91db4f019dbd4f0109e03ee1b4db0496bd2a85a37d4ad",
+    "assets/search-index.json": "61fdba1b93588bebb1ed67a249224a4ed75b205e86205f6c04de2e807b37c301",
     "assets/style.css": "67f5367d81491667ec4717c75fc98696c8c8aebb77464a61ba409ab33da856af",
     "assets/typography.css": "54d0d35664ffad3e3031d9c15a2bcf6a6fde7b7cf71313925231441981250939",
     "assets/vendor/fontkit-NOTICE.txt": "6c9f8351fd0c8521f2b7bebe33cfe7a6ca86407a423dc5d80eae57a358e2436c",
