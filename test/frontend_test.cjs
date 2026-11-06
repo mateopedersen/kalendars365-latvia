@@ -13,6 +13,20 @@ check('Recurring fortnightly event skips alternate week',()=>assert(!occurs(even
 check('Recurring event respects UNTIL',()=>assert(!occurs(events[0],'2029-05-09')));
 check('Leap-day yearly recurrence',()=>assert(occurs(events[1],'2032-02-29')&&!occurs(events[1],'2029-02-28')));
 check('COUNT recurrence limit',()=>{const e={date:'2029-01-01',repeat:'daily',interval:2,count:3};assert(occurs(e,'2029-01-05'));assert(!occurs(e,'2029-01-07'));});
+check('Malformed restored recurrence fields stay bounded and numeric',()=>{
+  const e={date:'2029-01-01',title:'Test',repeat:'monthly',interval:-1,count:'bad'};
+  assert(occurs(e,'2029-02-01'));
+  assert(occurs({...e,interval:'2',count:'2'},'2029-03-01'));
+  assert(!occurs({...e,interval:'2',count:'2'},'2029-05-01'));
+  assert(!exportICS([e]).includes('COUNT=bad'));
+});
+check('Restored text and calendar times cannot add raw ICS properties',()=>{
+  const date='2029-01-01', marker='X-K365-TEST';
+  const exported=exportICS([{date,title:'Test\r'+marker+':inert'}]);
+  assert(exported.includes('SUMMARY:Test\\n'+marker+':inert'));
+  assert(!exported.includes('\r'+marker+':'));
+  assert(!exportICS([{date,title:'Invalid time',time:'08:30\r\n'+marker+':inert'}]).includes(marker));
+});
 check('Multi-day all-day interval excludes DTEND',()=>{const e={date:'2029-01-01',endDate:'2029-01-04',repeat:'none',time:''};assert(occurs(e,'2029-01-03'));assert(!occurs(e,'2029-01-04'));});
 check('Latvian diacritic insensitive search',()=>assert.equal(normalize('Jānis Ēriks Rīga'),'janis eriks riga'));
 check('One typo search insertion/deletion/substitution',()=>{assert(nearWord('kalendars','kalendrs'));assert(nearWord('janis','jannis'));assert(nearWord('rigs','riga'));assert(!nearWord('riga','tallinn'));});
