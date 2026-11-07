@@ -6,7 +6,7 @@ export RUBYOPT=-EUTF-8:UTF-8
 cd "$(dirname "${BASH_SOURCE[0]}")/.."
 source scripts/bootstrap-ruby.sh
 
-# The platform's initial Ruby only starts the build; the site uses 4.0.8.
+# The platform's initial Ruby only starts the build; the site uses 4.0.9.
 ruby -v
 ruby -ropenssl -rpsych -e 'puts "OpenSSL and Psych loaded successfully"'
 if ! gem list --local --installed bundler --version 4.0.20 >/dev/null; then
