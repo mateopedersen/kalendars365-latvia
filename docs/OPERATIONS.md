@@ -8,9 +8,11 @@ Ruby 4.0.8 was released on 2026-10-22 and was initially absent from Cloudflare/G
 
 ## Daily editorial content
 
-The desktop app scheduled task **Kalendārs365 günlük özgün içerik** is active at 03:10 Europe/Istanbul. It returns to the implementation chat, checks the live Europe/Riga date, authors twelve new Latvian texts when missing, validates them, commits only the relevant files and verifies the Cloudflare publication. It must never relabel or rotate old text. The public text discloses AI assistance, entertainment status and absence of an individual birth-chart calculation.
+On 2026-11-08 the owner authorized a repair of today's edition only. Twelve genuinely new Latvian texts were authored and reviewed; older prose was not relabeled or rotated. The public disclosure retains AI assistance, entertainment status and the absence of an individual birth-chart calculation.
 
-This is a local scheduled task: **the computer and desktop app must be running**. It is not an always-on Cloudflare Worker. The GitHub scheduled workflow independently detects stale content at 01:30 UTC. The site suppresses stale readings instead of displaying them as current. No paid API or background server was created. This hosting-independent editorial availability limitation is explicit.
+The former desktop authoring task is no longer registered. The owner explicitly declined recreating a recurring task during this repair. No new scheduled authoring task, paid API or background server was installed. Future daily editions therefore require a separately authorized authoring and publication action; do not describe automatic daily authoring as active.
+
+The existing GitHub scheduled workflow independently checks freshness at 01:30 UTC and remains enabled. The site suppresses stale readings instead of displaying them as current. Keep both controls: a future missing edition must be reported honestly, not repaired by changing the date on old text.
 
 ## Local maintenance
 
