@@ -152,7 +152,7 @@ jobs:
           ACTUAL_CODEQL_VERSION: ${{ steps.init.outputs.codeql-version }}
         run: |
           test "$ACTUAL_CODEQL_VERSION" = '2.27.4'
-      - name: Analyze all default queries without uploading results
+      - name: Analyze all default queries with the reviewed upload gate
         id: analyze
         uses: github/codeql-action/analyze@33d7b85da1a04171e211befe2c739303b9a4c066 # Official v4.39.3
         with:
@@ -197,7 +197,7 @@ jobs:
               total += count
               print(f'{file.name}: {count} results; SHA-256 {hashlib.sha256(data).hexdigest()}')
           with open(os.environ['GITHUB_STEP_SUMMARY'], 'a') as summary:
-              summary.write(f"### CodeQL transport pilot: {os.environ['EXPECTED_LANGUAGE']}\n")
+              summary.write(f"### Verified CodeQL analysis: {os.environ['EXPECTED_LANGUAGE']}\n")
               summary.write(f'CLI 2.27.4; {len(files)} SARIF file(s); {total} findings. SARIF upload enabled: {os.environ["UPLOAD_ENABLED"]}; database upload disabled.\n')
               summary.write('A successful pilot demonstrates completed analysis, not absence of vulnerabilities.\n')
           PY
