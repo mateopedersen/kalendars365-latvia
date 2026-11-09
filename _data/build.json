@@ -1,6 +1,6 @@
 {
-  "asset_version": "306250927fea8a2f",
-  "sha256": "306250927fea8a2f133cc7df9f4786bcac8207b851ecb0ced53e65c0e3f8cd68",
+  "asset_version": "5a1f0cbbdbd16cd9",
+  "sha256": "5a1f0cbbdbd16cd9014529a6ef00851712568c3995c2b2378c5f31177c810986",
   "files": {
     "assets/app.js": "708873c3023f158a3fd84a2c763840dfa4082a42a0e18cdf79a33e8c15a0f85c",
     "assets/calendar-core.js": "745629db341adef3e44b5c935ffea74bae8d7aa61236abb8bb6430e7d17d6126",
@@ -665,7 +665,7 @@
     "assets/riga-panorama-1600.webp": "b4131c778f27bc3de4d9cbea085823e93d41c6550c8a6a39dfe49dd334d751d2",
     "assets/riga-panorama-640.webp": "bd8de1c223a07c3159a9fc72e75d2809115e9b8b090b86d98405e48b4f55efb5",
     "assets/search-index.json": "243bdde8165b2521c75647d4fbd1e8cc72f63d92d11203c2730cb492cc8f46ff",
-    "assets/style.css": "67f5367d81491667ec4717c75fc98696c8c8aebb77464a61ba409ab33da856af",
+    "assets/style.css": "0a8053f7e9f41d1c3e001d259c320bdbcbf5bdf0bc5ee1e0141e72c1ba3479c5",
     "assets/typography.css": "54d0d35664ffad3e3031d9c15a2bcf6a6fde7b7cf71313925231441981250939",
     "assets/vendor/fontkit-NOTICE.txt": "6c9f8351fd0c8521f2b7bebe33cfe7a6ca86407a423dc5d80eae57a358e2436c",
     "assets/vendor/fontkit.umd.min.js": "d8df561b9fba98e24f2e5130e40948809281bbbc55a20c412359f1a0a5eb35a6",
