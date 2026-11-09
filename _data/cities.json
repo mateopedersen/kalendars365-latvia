@@ -1,0 +1,3783 @@
+{
+  "verifiedAt": "2026-11-09",
+  "officialListSource": "https://likumi.lv/ta/id/315654-administrativo-teritoriju-un-apdzivoto-vietu-likums",
+  "statusChangeSource": "https://saeima.lv/en/news/saeima-news/36055-saeima-approves-city-status-for-carnikava",
+  "listSource": "https://en.wikipedia.org/wiki/List_of_cities_and_towns_in_Latvia",
+  "coordinateSource": "Wikidata P625; each city links its own record",
+  "count": 82,
+  "notes": "Latvia has 82 cities/towns after Carnikava gained city status on 22 August 2026. All use Europe/Riga. Photographs are archival city views, not live cameras.",
+  "cities": [
+    {
+      "id": "riga",
+      "name": "Rīga",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Rīga",
+      "lat": 56.9475,
+      "lon": 24.106944,
+      "timeZone": "Europe/Riga",
+      "wikidataId": "Q1773",
+      "coordinateSource": "https://www.wikidata.org/wiki/Q1773",
+      "photo": {
+        "src": "/assets/cities/riga-960.webp",
+        "srcset": "/assets/cities/riga-480.webp 480w, /assets/cities/riga-960.webp 960w",
+        "alt": "Rīgas vecpilsētas jumti un Daugava, skats no Svētā Pētera baznīcas",
+        "author": "Diego Delso",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Vistas_desde_la_iglesia_de_San_Pedro,_Riga,_Letonia,_2012-08-07,_DD_12.JPG",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Vistas_desde_la_iglesia_de_San_Pedro%2C_Riga%2C_Letonia%2C_2012-08-07%2C_DD_12.JPG",
+        "commonsFile": "Vistas desde la iglesia de San Pedro, Riga, Letonia, 2012-08-07, DD 12.JPG",
+        "description": "View of Riga from St. Peter's church, Latvia",
+        "derivative": "Resized and converted to WebP; display crop may apply.",
+        "files": {
+          "960": {
+            "width": 960,
+            "height": 623,
+            "bytes": 184148,
+            "sha256": "26228d2eeaf99c5e5c40b975a2d263a55f940c3f4771141c8c59469c94ca9630"
+          },
+          "480": {
+            "width": 480,
+            "height": 312,
+            "bytes": 48808,
+            "sha256": "82242b92bd2e8dd60fce994ce6f619ca9a782a167de811e9f3f64855fc50a4ef"
+          }
+        },
+        "width": 960,
+        "height": 623,
+        "reviewedAt": "2026-11-09",
+        "visualObservation": "Rīgas vecpilsētas jumti un Daugava, skats no Svētā Pētera baznīcas",
+        "reviewEvidence": "contact-sheets/01.jpg",
+        "downloadedFrom": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/Vistas_desde_la_iglesia_de_San_Pedro%2C_Riga%2C_Letonia%2C_2012-08-07%2C_DD_12.JPG/960px-Vistas_desde_la_iglesia_de_San_Pedro%2C_Riga%2C_Letonia%2C_2012-08-07%2C_DD_12.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "downloadedSourceSha256": "6c8282dfcf148bc8b3dcc81f1f7ab21a69c44e8a5793c58befa613725476fbfb",
+        "reviewedDerivativeSha256": "26228d2eeaf99c5e5c40b975a2d263a55f940c3f4771141c8c59469c94ca9630"
+      },
+      "photoSelectionSource": "https://www.wikidata.org/wiki/Q1773#P18"
+    },
+    {
+      "id": "daugavpils",
+      "name": "Daugavpils",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Daugavpils",
+      "lat": 55.871389,
+      "lon": 26.516111,
+      "timeZone": "Europe/Riga",
+      "wikidataId": "Q80021",
+      "coordinateSource": "https://www.wikidata.org/wiki/Q80021",
+      "photo": {
+        "src": "/assets/cities/daugavpils-960.webp",
+        "srcset": "/assets/cities/daugavpils-480.webp 480w, /assets/cities/daugavpils-960.webp 960w",
+        "alt": "Daugavpils luterāņu baznīca pilsētas ielu krustojumā",
+        "author": "Ivo Kruusamägi",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Daugavpils_luter%C4%81%C5%86u_bazn%C4%ABca_01.JPG",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/88/Daugavpils_luter%C4%81%C5%86u_bazn%C4%ABca_01.JPG",
+        "commonsFile": "Daugavpils luterāņu baznīca 01.JPG",
+        "description": "This is a photo of cultural heritage monument of Latvia number",
+        "derivative": "Resized and converted to WebP; display crop may apply.",
+        "files": {
+          "960": {
+            "width": 960,
+            "height": 638,
+            "bytes": 87534,
+            "sha256": "5ce34eff567dcbee98492543c2077f6de1d6b5eadeee34bcb950057bda6b0e39"
+          },
+          "480": {
+            "width": 480,
+            "height": 319,
+            "bytes": 25046,
+            "sha256": "eebf72a8c5b0620036853a2098956629d9e01d8d59a91bd3c51ad7bd65d1e2c4"
+          }
+        },
+        "width": 960,
+        "height": 638,
+        "reviewedAt": "2026-11-09",
+        "visualObservation": "Daugavpils luterāņu baznīca pilsētas ielu krustojumā",
+        "reviewEvidence": "contact-sheets/01.jpg",
+        "downloadedFrom": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Daugavpils_luter%C4%81%C5%86u_bazn%C4%ABca_01.JPG/960px-Daugavpils_luter%C4%81%C5%86u_bazn%C4%ABca_01.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "downloadedSourceSha256": "972fdf5644b586f89123e366e542523c5b7f16e84058ed6a92ef34eb57d6535d",
+        "reviewedDerivativeSha256": "5ce34eff567dcbee98492543c2077f6de1d6b5eadeee34bcb950057bda6b0e39"
+      },
+      "photoSelectionSource": "https://www.wikidata.org/wiki/Q80021#P18"
+    },
+    {
+      "id": "liepaja",
+      "name": "Liepāja",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Liepāja",
+      "lat": 56.508333,
+      "lon": 21.011111,
+      "timeZone": "Europe/Riga",
+      "wikidataId": "Q167668",
+      "coordinateSource": "https://www.wikidata.org/wiki/Q167668",
+      "photo": {
+        "src": "/assets/cities/liepaja-960.webp",
+        "srcset": "/assets/cities/liepaja-480.webp 480w, /assets/cities/liepaja-960.webp 960w",
+        "alt": "Liepājas centrs un Svētā Jāzepa katedrāle skatā no augšas",
+        "author": "Edgars Šulcs",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Liepajas_Sveta_Jazepa_Romas_katolu_katedrale_2.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Liepajas_Sveta_Jazepa_Romas_katolu_katedrale_2.jpg",
+        "commonsFile": "Liepajas Sveta Jazepa Romas katolu katedrale 2.jpg",
+        "description": "This is a photo of cultural heritage monument of Latvia number",
+        "derivative": "Resized and converted to WebP; display crop may apply.",
+        "files": {
+          "960": {
+            "width": 960,
+            "height": 719,
+            "bytes": 212464,
+            "sha256": "271dd89b9f655b6e0e7f1b24a8e9e82277e3710c61fe3acc9a11f9f455131f9c"
+          },
+          "480": {
+            "width": 480,
+            "height": 360,
+            "bytes": 51494,
+            "sha256": "2f38ad210ff28acc1290b42bb821f321c394d1b63909d24ac070940adaece636"
+          }
+        },
+        "width": 960,
+        "height": 719,
+        "reviewedAt": "2026-11-09",
+        "visualObservation": "Liepājas centrs un Svētā Jāzepa katedrāle skatā no augšas",
+        "reviewEvidence": "contact-sheets/01.jpg",
+        "downloadedFrom": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Liepajas_Sveta_Jazepa_Romas_katolu_katedrale_2.jpg/960px-Liepajas_Sveta_Jazepa_Romas_katolu_katedrale_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "downloadedSourceSha256": "cbab7aecd4132187d9f22588a1d7f0d4d61b58d16cff2fe572f2fc6c6243b13f",
+        "reviewedDerivativeSha256": "271dd89b9f655b6e0e7f1b24a8e9e82277e3710c61fe3acc9a11f9f455131f9c"
+      },
+      "photoSelectionSource": "https://www.wikidata.org/wiki/Q167668#P18"
+    },
+    {
+      "id": "jelgava",
+      "name": "Jelgava",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Jelgava",
+      "lat": 56.652222,
+      "lon": 23.724444,
+      "timeZone": "Europe/Riga",
+      "wikidataId": "Q179830",
+      "coordinateSource": "https://www.wikidata.org/wiki/Q179830",
+      "photo": {
+        "src": "/assets/cities/jelgava-960.webp",
+        "srcset": "/assets/cities/jelgava-480.webp 480w, /assets/cities/jelgava-960.webp 960w",
+        "alt": "Jelgavas pilsētas ēkas un baznīcu torņi starp zaļiem kokiem",
+        "author": "Igors Jefimovs",
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jelgava_aerial_view.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/02/Jelgava_aerial_view.jpg",
+        "commonsFile": "Jelgava aerial view.jpg",
+        "description": "Aerial View of Jelgava. Academia Petrina, St. Simeon and Anna Orthodox Church (left), Catholic Church (right). Photo taken from air balloon.",
+        "derivative": "Resized and converted to WebP; display crop may apply.",
+        "files": {
+          "960": {
+            "width": 960,
+            "height": 720,
+            "bytes": 191388,
+            "sha256": "1aaf6bf51cbfdc07aefbfc4701989bcf73a50fbd5f7cf078a278f57437b2c90a"
+          },
+          "480": {
+            "width": 480,
+            "height": 360,
+            "bytes": 48494,
+            "sha256": "1540d15e9975d9a908269bf7ef2ab31eab252dee50aaa9c03430c00d0c47f217"
+          }
+        },
+        "width": 960,
+        "height": 720,
+        "reviewedAt": "2026-11-09",
+        "visualObservation": "Jelgavas pilsētas ēkas un baznīcu torņi starp zaļiem kokiem",
+        "reviewEvidence": "contact-sheets/01.jpg",
+        "downloadedFrom": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Jelgava_aerial_view.jpg/960px-Jelgava_aerial_view.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "downloadedSourceSha256": "1d16c7174f5be457ed6087b3049b6bc37112d4b884be8234ef6420ab04fac4f1",
+        "reviewedDerivativeSha256": "1aaf6bf51cbfdc07aefbfc4701989bcf73a50fbd5f7cf078a278f57437b2c90a"
+      },
+      "photoSelectionSource": "https://www.wikidata.org/wiki/Q179830#P18"
+    },
+    {
+      "id": "jurmala",
+      "name": "Jūrmala",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Jūrmala",
+      "lat": 56.972222,
+      "lon": 23.796944,
+      "timeZone": "Europe/Riga",
+      "wikidataId": "Q178382",
+      "coordinateSource": "https://www.wikidata.org/wiki/Q178382",
+      "photo": {
+        "src": "/assets/cities/jurmala-960.webp",
+        "srcset": "/assets/cities/jurmala-480.webp 480w, /assets/cities/jurmala-960.webp 960w",
+        "alt": "Emīlijas Rācenes peldu iestādes ēka Jūrmalas pludmalē",
+        "author": "Raul Cortez999",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Emilija_Racene_Former_Establishment,_Jurmala,_Latvia.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Emilija_Racene_Former_Establishment%2C_Jurmala%2C_Latvia.jpg",
+        "commonsFile": "Emilija Racene Former Establishment, Jurmala, Latvia.jpg",
+        "description": "Emīlija Rācene Former Establishment, Jūrmala, Latvia",
+        "derivative": "Resized and converted to WebP; display crop may apply.",
+        "files": {
+          "960": {
+            "width": 960,
+            "height": 639,
+            "bytes": 204638,
+            "sha256": "d3a4976e84dbc21aaa4c48cc601ec496ae377787565f96e94d2b9038c0e1fbfb"
+          },
+          "480": {
+            "width": 480,
+            "height": 320,
+            "bytes": 50238,
+            "sha256": "e910ca83cdfd1ee81204cf364a4e92807c139393cdb35c957328a9faec8ee084"
+          }
+        },
+        "width": 960,
+        "height": 639,
+        "reviewedAt": "2026-11-09",
+        "visualObservation": "Emīlijas Rācenes peldu iestādes ēka Jūrmalas pludmalē",
+        "reviewEvidence": "contact-sheets/01.jpg",
+        "downloadedFrom": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Emilija_Racene_Former_Establishment%2C_Jurmala%2C_Latvia.jpg/960px-Emilija_Racene_Former_Establishment%2C_Jurmala%2C_Latvia.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "downloadedSourceSha256": "554316db1662f2055a7d046eadf01c641a9c228448fb9ddccf95b9153aad9cb0",
+        "reviewedDerivativeSha256": "d3a4976e84dbc21aaa4c48cc601ec496ae377787565f96e94d2b9038c0e1fbfb"
+      },
+      "photoSelectionSource": "https://www.wikidata.org/wiki/Q178382#P18"
+    },
+    {
+      "id": "ventspils",
+      "name": "Ventspils",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Ventspils",
+      "lat": 57.389722,
+      "lon": 21.564444,
+      "timeZone": "Europe/Riga",
+      "wikidataId": "Q104036",
+      "coordinateSource": "https://www.wikidata.org/wiki/Q104036",
+      "photo": {
+        "src": "/assets/cities/ventspils-960.webp",
+        "srcset": "/assets/cities/ventspils-480.webp 480w, /assets/cities/ventspils-960.webp 960w",
+        "alt": "Ventspils Livonijas ordeņa pils un ostas krastmala skatā no augšas",
+        "author": "Edgars Šulcs",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ventspils_viduslaiku_pils_5.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Ventspils_viduslaiku_pils_5.jpg",
+        "commonsFile": "Ventspils viduslaiku pils 5.jpg",
+        "description": "This is a photo of cultural heritage monument of Latvia number",
+        "derivative": "Resized and converted to WebP; display crop may apply.",
+        "files": {
+          "960": {
+            "width": 960,
+            "height": 720,
+            "bytes": 227024,
+            "sha256": "640bfd25d952ff42072665969f47e869d984f2617fc6f3e58dbaa549b5028293"
+          },
+          "480": {
+            "width": 480,
+            "height": 360,
+            "bytes": 54552,
+            "sha256": "e3cd81af92a886e78a3d0c31d409cc012ffbee392e4a7fc109080ba60a242692"
+          }
+        },
+        "width": 960,
+        "height": 720,
+        "reviewedAt": "2026-11-09",
+        "visualObservation": "Ventspils Livonijas ordeņa pils un ostas krastmala skatā no augšas",
+        "reviewEvidence": "contact-sheets/01.jpg",
+        "downloadedFrom": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/Ventspils_viduslaiku_pils_5.jpg/960px-Ventspils_viduslaiku_pils_5.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "downloadedSourceSha256": "015ed14a2b3ad53cb2f13d2fdf1dc16dc2ca35762ba3cafcfc9a89e58c786a15",
+        "reviewedDerivativeSha256": "640bfd25d952ff42072665969f47e869d984f2617fc6f3e58dbaa549b5028293"
+      },
+      "photoSelectionSource": "https://www.wikidata.org/wiki/Q104036#P18"
+    },
+    {
+      "id": "rezekne",
+      "name": "Rēzekne",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Rēzekne",
+      "lat": 56.506667,
+      "lon": 27.330833,
+      "timeZone": "Europe/Riga",
+      "wikidataId": "Q180379",
+      "coordinateSource": "https://www.wikidata.org/wiki/Q180379",
+      "photo": {
+        "src": "/assets/cities/rezekne-960.webp",
+        "srcset": "/assets/cities/rezekne-480.webp 479w, /assets/cities/rezekne-960.webp 960w",
+        "alt": "Rēzeknes pilsēta, zaļie kvartāli un ezers skatā no gaisa",
+        "author": "ogre11",
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:R%C4%93zekne_no_gaisa_-_ogre11_-_Panoramio.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/10/R%C4%93zekne_no_gaisa_-_ogre11_-_Panoramio.jpg",
+        "commonsFile": "Rēzekne no gaisa - ogre11 - Panoramio.jpg",
+        "description": "Rēzekne no gaisa",
+        "derivative": "Resized and converted to WebP; display crop may apply.",
+        "files": {
+          "960": {
+            "width": 960,
+            "height": 517,
+            "bytes": 180770,
+            "sha256": "ae3c4d026a57867b9ce5cba4d9b0569de67275ea182c83d7385917e7a01694c8"
+          },
+          "480": {
+            "width": 479,
+            "height": 258,
+            "bytes": 47548,
+            "sha256": "36eb7635a56bb00bb164fffe7919c66ec604e0431dfa0cb18909ae2e116e5b42"
+          }
+        },
+        "width": 960,
+        "height": 517,
+        "reviewedAt": "2026-11-09",
+        "visualObservation": "Rēzeknes pilsēta, zaļie kvartāli un ezers skatā no gaisa",
+        "reviewEvidence": "contact-sheets/replacements.jpg",
+        "downloadedFrom": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/R%C4%93zekne_no_gaisa_-_ogre11_-_Panoramio.jpg/960px-R%C4%93zekne_no_gaisa_-_ogre11_-_Panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "downloadedSourceSha256": "f0b85aa0d3377de2ac41f0309468cc356dda97195e55c1c394b3555915c5a86a",
+        "reviewedDerivativeSha256": "ae3c4d026a57867b9ce5cba4d9b0569de67275ea182c83d7385917e7a01694c8"
+      },
+      "photoSelectionSource": "https://commons.wikimedia.org/wiki/Category:Views_of_Rēzekne"
+    },
+    {
+      "id": "valmiera",
+      "name": "Valmiera",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Valmiera",
+      "lat": 57.538056,
+      "lon": 25.423056,
+      "timeZone": "Europe/Riga",
+      "wikidataId": "Q108037",
+      "coordinateSource": "https://www.wikidata.org/wiki/Q108037",
+      "photo": {
+        "src": "/assets/cities/valmiera-960.webp",
+        "srcset": "/assets/cities/valmiera-480.webp 480w, /assets/cities/valmiera-960.webp 960w",
+        "alt": "Valmieras Svētā Sīmaņa baznīca koku ieskautā laukumā",
+        "author": "AgrisR",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Church_of_Saint_Simon_in_Valmiera_(1).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Church_of_Saint_Simon_in_Valmiera_%281%29.jpg",
+        "commonsFile": "Church of Saint Simon in Valmiera (1).jpg",
+        "description": "Church of Saint Simon in Valmiera in 2016",
+        "derivative": "Resized and converted to WebP; display crop may apply.",
+        "files": {
+          "960": {
+            "width": 960,
+            "height": 702,
+            "bytes": 241546,
+            "sha256": "c300c05ba220b37c912bef449029e772022ef60e42dce4ed5bd74b325af08395"
+          },
+          "480": {
+            "width": 480,
+            "height": 351,
+            "bytes": 58666,
+            "sha256": "f420246409af436927cc64b3bc3365fabafe0b3f9776d6bd9fad2d2cba0180d7"
+          }
+        },
+        "width": 960,
+        "height": 702,
+        "reviewedAt": "2026-11-09",
+        "visualObservation": "Valmieras Svētā Sīmaņa baznīca koku ieskautā laukumā",
+        "reviewEvidence": "contact-sheets/01.jpg",
+        "downloadedFrom": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/Church_of_Saint_Simon_in_Valmiera_%281%29.jpg/960px-Church_of_Saint_Simon_in_Valmiera_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "downloadedSourceSha256": "091fd48b69cbd8d502b14773dba1b0800908b276d2f1a374bdbe790f29b96823",
+        "reviewedDerivativeSha256": "c300c05ba220b37c912bef449029e772022ef60e42dce4ed5bd74b325af08395"
+      },
+      "photoSelectionSource": "https://www.wikidata.org/wiki/Q108037#P18"
+    },
+    {
+      "id": "ogre",
+      "name": "Ogre",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Ogre,_Latvia",
+      "lat": 56.816944,
+      "lon": 24.604722,
+      "timeZone": "Europe/Riga",
+      "wikidataId": "Q731915",
+      "coordinateSource": "https://www.wikidata.org/wiki/Q731915",
+      "photo": {
+        "src": "/assets/cities/ogre-960.webp",
+        "srcset": "/assets/cities/ogre-480.webp 480w, /assets/cities/ogre-960.webp 960w",
+        "alt": "Ogres dzīvojamie kvartāli un dzelzceļš skatā no augšas",
+        "author": "ogre11",
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ogre3.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Ogre3.jpg",
+        "commonsFile": "Ogre3.jpg",
+        "description": "Ogre. View on the city",
+        "derivative": "Resized and converted to WebP; display crop may apply.",
+        "files": {
+          "960": {
+            "width": 960,
+            "height": 640,
+            "bytes": 208326,
+            "sha256": "314105fba9676793aaccad8102411cd682314110a132e0cefd10ace7fdee30f0"
+          },
+          "480": {
+            "width": 480,
+            "height": 320,
+            "bytes": 54232,
+            "sha256": "0f0bc191571fcfca3dc9e8ef55e40f70e2244a07621c158a0e52c6ffa5b01552"
+          }
+        },
+        "width": 960,
+        "height": 640,
+        "reviewedAt": "2026-11-09",
+        "visualObservation": "Ogres dzīvojamie kvartāli un dzelzceļš skatā no augšas",
+        "reviewEvidence": "contact-sheets/01.jpg",
+        "downloadedFrom": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/Ogre3.jpg/960px-Ogre3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "downloadedSourceSha256": "dee5f0bc9e9004509395972237a6e6c9fe5756080cce433489af847ccd8657ff",
+        "reviewedDerivativeSha256": "314105fba9676793aaccad8102411cd682314110a132e0cefd10ace7fdee30f0"
+      },
+      "photoSelectionSource": "https://www.wikidata.org/wiki/Q731915#P18"
+    },
+    {
+      "id": "jekabpils",
+      "name": "Jēkabpils",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Jēkabpils",
+      "lat": 56.4975,
+      "lon": 25.866389,
+      "timeZone": "Europe/Riga",
+      "wikidataId": "Q191120",
+      "coordinateSource": "https://www.wikidata.org/wiki/Q191120",
+      "photo": {
+        "src": "/assets/cities/jekabpils-960.webp",
+        "srcset": "/assets/cities/jekabpils-480.webp 480w, /assets/cities/jekabpils-960.webp 960w",
+        "alt": "Pulkstenis Jēkabpils Vecpilsētas laukumā",
+        "author": "Modris Frikmanis",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:J%C4%93kabpils_pils%C4%93tas_laukums.JPG",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f5/J%C4%93kabpils_pils%C4%93tas_laukums.JPG",
+        "commonsFile": "Jēkabpils pilsētas laukums.JPG",
+        "description": "Jēkabpils Vecpilsētas laukuma pulkstenis 2007. gada 13. oktobrī.",
+        "derivative": "Resized and converted to WebP; display crop may apply.",
+        "files": {
+          "960": {
+            "width": 960,
+            "height": 720,
+            "bytes": 86974,
+            "sha256": "673eeff8dd0eeb305bbcbc245eeba0008c829a0afafd207ada1056533c9ae731"
+          },
+          "480": {
+            "width": 480,
+            "height": 360,
+            "bytes": 28798,
+            "sha256": "a0317d144542b222a206200661ef0e2a580921bc74c05276730a3563e92742b6"
+          }
+        },
+        "width": 960,
+        "height": 720,
+        "reviewedAt": "2026-11-09",
+        "visualObservation": "Pulkstenis Jēkabpils Vecpilsētas laukumā",
+        "reviewEvidence": "contact-sheets/01.jpg",
+        "downloadedFrom": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/J%C4%93kabpils_pils%C4%93tas_laukums.JPG/960px-J%C4%93kabpils_pils%C4%93tas_laukums.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "downloadedSourceSha256": "935519828e517da418cf8a882baf5fb88b372d8b2f3e3819c688a3aaa698203f",
+        "reviewedDerivativeSha256": "673eeff8dd0eeb305bbcbc245eeba0008c829a0afafd207ada1056533c9ae731"
+      },
+      "photoSelectionSource": "https://www.wikidata.org/wiki/Q191120#P18"
+    },
+    {
+      "id": "adazi",
+      "name": "Ādaži",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Ādaži",
+      "lat": 57.076944,
+      "lon": 24.323611,
+      "timeZone": "Europe/Riga",
+      "wikidataId": "Q336006",
+      "coordinateSource": "https://www.wikidata.org/wiki/Q336006",
+      "photo": {
+        "src": "/assets/cities/adazi-960.webp",
+        "srcset": "/assets/cities/adazi-480.webp 480w, /assets/cities/adazi-960.webp 960w",
+        "alt": "Ādažu centrs, Gaujas līkums un apkārtējā ainava skatā no augšas",
+        "author": "Ilze Filipova",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Adazu_centrs_no_augsas_foto_Ilze_Filipova.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Adazu_centrs_no_augsas_foto_Ilze_Filipova.jpg",
+        "commonsFile": "Adazu centrs no augsas foto Ilze Filipova.jpg",
+        "description": "Ādažu centrs no augšas",
+        "derivative": "Resized and converted to WebP; display crop may apply.",
+        "files": {
+          "960": {
+            "width": 960,
+            "height": 639,
+            "bytes": 299820,
+            "sha256": "da093367f58fea4b58146566ab997c08810a4dbee265a67652957b2f579de397"
+          },
+          "480": {
+            "width": 480,
+            "height": 320,
+            "bytes": 70168,
+            "sha256": "e7d71f24260e7c21ee3599d96121b05f0199d20b90b5d6f58e4f183b01f1c90e"
+          }
+        },
+        "width": 960,
+        "height": 639,
+        "reviewedAt": "2026-11-09",
+        "visualObservation": "Ādažu centrs, Gaujas līkums un apkārtējā ainava skatā no augšas",
+        "reviewEvidence": "contact-sheets/01.jpg",
+        "downloadedFrom": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/Adazu_centrs_no_augsas_foto_Ilze_Filipova.jpg/960px-Adazu_centrs_no_augsas_foto_Ilze_Filipova.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "downloadedSourceSha256": "5c8e114ba531d4e67ab3bb0f917f0ce76e861251e41027143e86d099201732bc",
+        "reviewedDerivativeSha256": "da093367f58fea4b58146566ab997c08810a4dbee265a67652957b2f579de397"
+      },
+      "photoSelectionSource": "https://www.wikidata.org/wiki/Q336006#P18"
+    },
+    {
+      "id": "ainazi",
+      "name": "Ainaži",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Ainaži",
+      "lat": 57.863611,
+      "lon": 24.358611,
+      "timeZone": "Europe/Riga",
+      "wikidataId": "Q405931",
+      "coordinateSource": "https://www.wikidata.org/wiki/Q405931",
+      "photo": {
+        "src": "/assets/cities/ainazi-960.webp",
+        "srcset": "/assets/cities/ainazi-480.webp 480w, /assets/cities/ainazi-960.webp 960w",
+        "alt": "Ainažu Ziemeļu mols un smilšainais jūras krasts",
+        "author": "HendrixEesti",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Aina%C5%BEi_North_Pier_4.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Aina%C5%BEi_North_Pier_4.jpg",
+        "commonsFile": "Ainaži North Pier 4.jpg",
+        "description": "North Pier, Ainaži, Latvia",
+        "derivative": "Resized and converted to WebP; display crop may apply.",
+        "files": {
+          "960": {
+            "width": 960,
+            "height": 720,
+            "bytes": 106720,
+            "sha256": "bcbd03d4a39ceb74f9d3605788121b5f29f808cfa5bbe034a9bdbe7e6992bb6c"
+          },
+          "480": {
+            "width": 480,
+            "height": 360,
+            "bytes": 29094,
+            "sha256": "46c1405c19db805d121c21af39a18c347e962ce7038dcadaa17b5b9af5ad76d0"
+          }
+        },
+        "width": 960,
+        "height": 720,
+        "reviewedAt": "2026-11-09",
+        "visualObservation": "Ainažu Ziemeļu mols un smilšainais jūras krasts",
+        "reviewEvidence": "contact-sheets/01.jpg",
+        "downloadedFrom": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/Aina%C5%BEi_North_Pier_4.jpg/960px-Aina%C5%BEi_North_Pier_4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "downloadedSourceSha256": "c0003dc40fe10d3ff4fa19ba10c26262a315e18588ec7acf9bfc96faf3cefddf",
+        "reviewedDerivativeSha256": "bcbd03d4a39ceb74f9d3605788121b5f29f808cfa5bbe034a9bdbe7e6992bb6c"
+      },
+      "photoSelectionSource": "https://www.wikidata.org/wiki/Q405931#P18"
+    },
+    {
+      "id": "aizkraukle",
+      "name": "Aizkraukle",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Aizkraukle",
+      "lat": 56.600833,
+      "lon": 25.255,
+      "timeZone": "Europe/Riga",
+      "wikidataId": "Q411715",
+      "coordinateSource": "https://www.wikidata.org/wiki/Q411715",
+      "photo": {
+        "src": "/assets/cities/aizkraukle-960.webp",
+        "srcset": "/assets/cities/aizkraukle-480.webp 479w, /assets/cities/aizkraukle-960.webp 960w",
+        "alt": "Lāčplēša iela un dzīvojamās ēkas Aizkrauklē",
+        "author": "Kulmalukko",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Aizkraukle,_L%C4%81%C4%8Dpl%C4%93%C5%A1a_iela.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/58/Aizkraukle%2C_L%C4%81%C4%8Dpl%C4%93%C5%A1a_iela.jpg",
+        "commonsFile": "Aizkraukle, Lāčplēša iela.jpg",
+        "description": "A road in Aizkraukle",
+        "derivative": "Resized and converted to WebP; display crop may apply.",
+        "files": {
+          "960": {
+            "width": 960,
+            "height": 449,
+            "bytes": 65468,
+            "sha256": "1fe8f9712a8dc33dfab1932a215ef5a2287f04a2e118d4c60879a060a7caa4f6"
+          },
+          "480": {
+            "width": 479,
+            "height": 224,
+            "bytes": 18618,
+            "sha256": "9131c5c67a58406cd4066605859d36892e5efbd884485734e5849eebf6a58f0a"
+          }
+        },
+        "width": 960,
+        "height": 449,
+        "reviewedAt": "2026-11-09",
+        "visualObservation": "Lāčplēša iela un dzīvojamās ēkas Aizkrauklē",
+        "reviewEvidence": "contact-sheets/01.jpg",
+        "downloadedFrom": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/Aizkraukle%2C_L%C4%81%C4%8Dpl%C4%93%C5%A1a_iela.jpg/960px-Aizkraukle%2C_L%C4%81%C4%8Dpl%C4%93%C5%A1a_iela.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "downloadedSourceSha256": "57e7b5b97724661e58a46f8b93523845bf478e62687b0e9c6852623b1b10942b",
+        "reviewedDerivativeSha256": "1fe8f9712a8dc33dfab1932a215ef5a2287f04a2e118d4c60879a060a7caa4f6"
+      },
+      "photoSelectionSource": "https://www.wikidata.org/wiki/Q411715#P18"
+    },
+    {
+      "id": "aizpute",
+      "name": "Aizpute",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Aizpute",
+      "lat": 56.721111,
+      "lon": 21.601667,
+      "timeZone": "Europe/Riga",
+      "wikidataId": "Q411723",
+      "coordinateSource": "https://www.wikidata.org/wiki/Q411723",
+      "photo": {
+        "src": "/assets/cities/aizpute-960.webp",
+        "srcset": "/assets/cities/aizpute-480.webp 480w, /assets/cities/aizpute-960.webp 960w",
+        "alt": "Tebras upe un apstādījumi Aizputē",
+        "author": "Jānis Sedols (first uploaded by lv:User:Kikos )",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tebras_upes_d%C4%AB%C4%B7is_Aizput%C4%93.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Tebras_upes_d%C4%AB%C4%B7is_Aizput%C4%93.jpg",
+        "commonsFile": "Tebras upes dīķis Aizputē.jpg",
+        "description": "Tebra River in Aizpute (view from Liepājas street)",
+        "derivative": "Resized and converted to WebP; display crop may apply.",
+        "files": {
+          "960": {
+            "width": 960,
+            "height": 720,
+            "bytes": 121444,
+            "sha256": "16d2ff48aea3263fff561227de1114deefb618ab4bc05e6ed3d069f1651acd91"
+          },
+          "480": {
+            "width": 480,
+            "height": 360,
+            "bytes": 38546,
+            "sha256": "469be7282f92eaf0502a8bb6f7345e70b0a7893829db7464d091cb656533112d"
+          }
+        },
+        "width": 960,
+        "height": 720,
+        "reviewedAt": "2026-11-09",
+        "visualObservation": "Tebras upe un apstādījumi Aizputē",
+        "reviewEvidence": "contact-sheets/01.jpg",
+        "downloadedFrom": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/Tebras_upes_d%C4%AB%C4%B7is_Aizput%C4%93.jpg/960px-Tebras_upes_d%C4%AB%C4%B7is_Aizput%C4%93.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "downloadedSourceSha256": "ddac8387f6c9a3751f3c032fa2ed8c56aff2f12f73a1ec8c6d8718387f984ac4",
+        "reviewedDerivativeSha256": "16d2ff48aea3263fff561227de1114deefb618ab4bc05e6ed3d069f1651acd91"
+      },
+      "photoSelectionSource": "https://www.wikidata.org/wiki/Q411723#P18"
+    },
+    {
+      "id": "akniste",
+      "name": "Aknīste",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Aknīste",
+      "lat": 56.162222,
+      "lon": 25.741111,
+      "timeZone": "Europe/Riga",
+      "wikidataId": "Q420333",
+      "coordinateSource": "https://www.wikidata.org/wiki/Q420333",
+      "photo": {
+        "src": "/assets/cities/akniste-960.webp",
+        "srcset": "/assets/cities/akniste-480.webp 479w, /assets/cities/akniste-960.webp 960w",
+        "alt": "Aknīstes skolas ēka ar zālienu un kokiem",
+        "author": "Aleksandrs Timofejevs",
+        "license": "CC0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Akniste7.JPG",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Akniste7.JPG",
+        "commonsFile": "Akniste7.JPG",
+        "description": "school",
+        "derivative": "Resized and converted to WebP; display crop may apply.",
+        "files": {
+          "960": {
+            "width": 960,
+            "height": 541,
+            "bytes": 120946,
+            "sha256": "9f425ab446954a44e6adfc9347b194153b986cb58a82fd9e94f2cca6f1ba14c3"
+          },
+          "480": {
+            "width": 479,
+            "height": 270,
+            "bytes": 33536,
+            "sha256": "1e2ba5a0ea93a0b5b611e3a26b0bfe4f957b10f2ea8c8bc547d311f19f86e5a6"
+          }
+        },
+        "width": 960,
+        "height": 541,
+        "reviewedAt": "2026-11-09",
+        "visualObservation": "Aknīstes skolas ēka ar zālienu un kokiem",
+        "reviewEvidence": "contact-sheets/01.jpg",
+        "downloadedFrom": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Akniste7.JPG/960px-Akniste7.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "downloadedSourceSha256": "2e43d5eb9b2485507aaca9886c02ca37cdba650f7504b068200af6e5771de3ce",
+        "reviewedDerivativeSha256": "9f425ab446954a44e6adfc9347b194153b986cb58a82fd9e94f2cca6f1ba14c3"
+      },
+      "photoSelectionSource": "https://www.wikidata.org/wiki/Q420333#P18"
+    },
+    {
+      "id": "aloja",
+      "name": "Aloja",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Aloja,_Latvia",
+      "lat": 57.766944,
+      "lon": 24.882778,
+      "timeZone": "Europe/Riga",
+      "wikidataId": "Q659019",
+      "coordinateSource": "https://www.wikidata.org/wiki/Q659019",
+      "photo": {
+        "src": "/assets/cities/aloja-960.webp",
+        "srcset": "/assets/cities/aloja-480.webp 480w, /assets/cities/aloja-960.webp 960w",
+        "alt": "Alojas luterāņu baznīca ar baltām sienām un zaļu torņa smaili",
+        "author": "Ivo Kruusamägi",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Aloja_evangeelne_luteriusu_kirik.JPG",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/50/Aloja_evangeelne_luteriusu_kirik.JPG",
+        "commonsFile": "Aloja evangeelne luteriusu kirik.JPG",
+        "description": "Aloja evangeelne luteriusu kirik",
+        "derivative": "Resized and converted to WebP; display crop may apply.",
+        "files": {
+          "960": {
+            "width": 960,
+            "height": 720,
+            "bytes": 149380,
+            "sha256": "a0c4b6f93c87aed60ec87f996ed806615931b13f5235fb8a7cea0b65bd483850"
+          },
+          "480": {
+            "width": 480,
+            "height": 360,
+            "bytes": 36176,
+            "sha256": "cdf2af152c11f6bb8207d4633c00f9276ec51833c9db02c3f51305298a4eb997"
+          }
+        },
+        "width": 960,
+        "height": 720,
+        "reviewedAt": "2026-11-09",
+        "visualObservation": "Alojas luterāņu baznīca ar baltām sienām un zaļu torņa smaili",
+        "reviewEvidence": "contact-sheets/01.jpg",
+        "downloadedFrom": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Aloja_evangeelne_luteriusu_kirik.JPG/960px-Aloja_evangeelne_luteriusu_kirik.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "downloadedSourceSha256": "318858f2819e42a9b0853ef10f3c38660ec083c751c0379ed0d05398a8535761",
+        "reviewedDerivativeSha256": "a0c4b6f93c87aed60ec87f996ed806615931b13f5235fb8a7cea0b65bd483850"
+      },
+      "photoSelectionSource": "https://www.wikidata.org/wiki/Q659019#P18"
+    },
+    {
+      "id": "aluksne",
+      "name": "Alūksne",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Alūksne",
+      "lat": 57.423889,
+      "lon": 27.050278,
+      "timeZone": "Europe/Riga",
+      "wikidataId": "Q291333",
+      "coordinateSource": "https://www.wikidata.org/wiki/Q291333",
+      "photo": {
+        "src": "/assets/cities/aluksne-960.webp",
+        "srcset": "/assets/cities/aluksne-480.webp 480w, /assets/cities/aluksne-960.webp 640w",
+        "alt": "Alūksnes Jaunā pils ar torņiem un zālienu priekšplānā",
+        "author": "User Exxu on de.wikipedia",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:AluksneNeuesSchloss.png",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/90/AluksneNeuesSchloss.png",
+        "commonsFile": "AluksneNeuesSchloss.png",
+        "description": "The New Castle in Alūksne, Lettland",
+        "derivative": "Resized and converted to WebP; display crop may apply.",
+        "files": {
+          "960": {
+            "width": 640,
+            "height": 480,
+            "bytes": 43084,
+            "sha256": "d848a7f5f219895678f77d6e9381440bcad9961ecebaeb99c56112eb873407f7"
+          },
+          "480": {
+            "width": 480,
+            "height": 360,
+            "bytes": 26630,
+            "sha256": "c573f2743761356ba0947c358ede5146d4213e80e19696849f371f2230356e38"
+          }
+        },
+        "width": 640,
+        "height": 480,
+        "reviewedAt": "2026-11-09",
+        "visualObservation": "Alūksnes Jaunā pils ar torņiem un zālienu priekšplānā",
+        "reviewEvidence": "contact-sheets/02.jpg",
+        "downloadedFrom": "https://upload.wikimedia.org/wikipedia/commons/9/90/AluksneNeuesSchloss.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "downloadedSourceSha256": "e9aeb563fd4d3e52431ab949a298a54af36923e397643ccdaace4cfe98b7a17c",
+        "reviewedDerivativeSha256": "d848a7f5f219895678f77d6e9381440bcad9961ecebaeb99c56112eb873407f7"
+      },
+      "photoSelectionSource": "https://www.wikidata.org/wiki/Q291333#P18"
+    },
+    {
+      "id": "ape",
+      "name": "Ape",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Ape,_Latvia",
+      "lat": 57.539167,
+      "lon": 26.692778,
+      "timeZone": "Europe/Riga",
+      "wikidataId": "Q618119",
+      "coordinateSource": "https://www.wikidata.org/wiki/Q618119",
+      "photo": {
+        "src": "/assets/cities/ape-960.webp",
+        "srcset": "/assets/cities/ape-480.webp 480w, /assets/cities/ape-960.webp 960w",
+        "alt": "Apes centra iela ar vēsturiskām ēkām",
+        "author": "Ingvar Pärnamäe",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ape_centrs.JPG",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Ape_centrs.JPG",
+        "commonsFile": "Ape centrs.JPG",
+        "description": "Ape, Latvia",
+        "derivative": "Resized and converted to WebP; display crop may apply.",
+        "files": {
+          "960": {
+            "width": 960,
+            "height": 552,
+            "bytes": 120398,
+            "sha256": "125f6adf72f90228057acf6ed23701a8a5288d1091b359e6b1e30f0ddb979d48"
+          },
+          "480": {
+            "width": 480,
+            "height": 276,
+            "bytes": 28636,
+            "sha256": "6274912b8d042fa9ffaab5f57030be8baae7cb0c9e9a5937a1f65dc3da7cc051"
+          }
+        },
+        "width": 960,
+        "height": 552,
+        "reviewedAt": "2026-11-09",
+        "visualObservation": "Apes centra iela ar vēsturiskām ēkām",
+        "reviewEvidence": "contact-sheets/02.jpg",
+        "downloadedFrom": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/Ape_centrs.JPG/960px-Ape_centrs.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "downloadedSourceSha256": "733a4e07fbc226810a7a9f00abfb47470c483ee1849b25b3bea18565d60d35b4",
+        "reviewedDerivativeSha256": "125f6adf72f90228057acf6ed23701a8a5288d1091b359e6b1e30f0ddb979d48"
+      },
+      "photoSelectionSource": "https://www.wikidata.org/wiki/Q618119#P18"
+    },
+    {
+      "id": "auce",
+      "name": "Auce",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Auce",
+      "lat": 56.461111,
+      "lon": 22.894167,
+      "timeZone": "Europe/Riga",
+      "wikidataId": "Q758578",
+      "coordinateSource": "https://www.wikidata.org/wiki/Q758578",
+      "photo": {
+        "src": "/assets/cities/auce-960.webp",
+        "srcset": "/assets/cities/auce-480.webp 480w, /assets/cities/auce-960.webp 909w",
+        "alt": "Raiņa iela Aucē ar vēsturisku ķieģeļu ēku",
+        "author": "Aldonis",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Auce,_Rai%C5%86a_iela_(P96,_P104).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Auce%2C_Rai%C5%86a_iela_%28P96%2C_P104%29.jpg",
+        "commonsFile": "Auce, Raiņa iela (P96, P104).jpg",
+        "description": "Raiņa Street, Auce (Roads P96, P104)",
+        "derivative": "Resized and converted to WebP; display crop may apply.",
+        "files": {
+          "960": {
+            "width": 909,
+            "height": 682,
+            "bytes": 54650,
+            "sha256": "ba2ca32a8e37a91e7a04d3e99e86096b2775e3dad00f6fabcf197d18301f728e"
+          },
+          "480": {
+            "width": 480,
+            "height": 360,
+            "bytes": 18922,
+            "sha256": "52ef97a7db417c5d68664a101915cc19ad1eea936983a87826d2e1aa0e331593"
+          }
+        },
+        "width": 909,
+        "height": 682,
+        "reviewedAt": "2026-11-09",
+        "visualObservation": "Raiņa iela Aucē ar vēsturisku ķieģeļu ēku",
+        "reviewEvidence": "contact-sheets/02.jpg",
+        "downloadedFrom": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Auce%2C_Rai%C5%86a_iela_%28P96%2C_P104%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "downloadedSourceSha256": "b92dfcaa7cca8ed07961daac4274bd530186bc5a84a61d16ebe0cae78fe9192c",
+        "reviewedDerivativeSha256": "ba2ca32a8e37a91e7a04d3e99e86096b2775e3dad00f6fabcf197d18301f728e"
+      },
+      "photoSelectionSource": "https://www.wikidata.org/wiki/Q758578#P18"
+    },
+    {
+      "id": "baldone",
+      "name": "Baldone",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Baldone",
+      "lat": 56.7425,
+      "lon": 24.390833,
+      "timeZone": "Europe/Riga",
+      "wikidataId": "Q789351",
+      "coordinateSource": "https://www.wikidata.org/wiki/Q789351",
+      "photo": {
+        "src": "/assets/cities/baldone-960.webp",
+        "srcset": "/assets/cities/baldone-480.webp 480w, /assets/cities/baldone-960.webp 960w",
+        "alt": "Baldones Baltā pils un tās parks",
+        "author": "Kikos",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Balt%C4%81_pils.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/87/Balt%C4%81_pils.jpg",
+        "commonsFile": "Baltā pils.jpg",
+        "description": "Baldones Baltās pils parks",
+        "derivative": "Resized and converted to WebP; display crop may apply.",
+        "files": {
+          "960": {
+            "width": 960,
+            "height": 540,
+            "bytes": 131880,
+            "sha256": "06ce3f46f96ea1404418740d6035b2656c1db080d4c2defcbb4bceeddf273e4d"
+          },
+          "480": {
+            "width": 480,
+            "height": 270,
+            "bytes": 32542,
+            "sha256": "aa47fae218e8c9286a9d3397775db534173a5fa5e9ba2afc9b81f56c8781607b"
+          }
+        },
+        "width": 960,
+        "height": 540,
+        "reviewedAt": "2026-11-09",
+        "visualObservation": "Baldones Baltā pils un tās parks",
+        "reviewEvidence": "contact-sheets/02.jpg",
+        "downloadedFrom": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Balt%C4%81_pils.jpg/960px-Balt%C4%81_pils.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "downloadedSourceSha256": "d5a51201fa760b1952fcecfbaa8918b0e581f34469e647cb3cc94cd088056482",
+        "reviewedDerivativeSha256": "06ce3f46f96ea1404418740d6035b2656c1db080d4c2defcbb4bceeddf273e4d"
+      },
+      "photoSelectionSource": "https://www.wikidata.org/wiki/Q789351#P18"
+    },
+    {
+      "id": "balozi",
+      "name": "Baloži",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Baloži",
+      "lat": 56.875,
+      "lon": 24.119444,
+      "timeZone": "Europe/Riga",
+      "wikidataId": "Q757043",
+      "coordinateSource": "https://www.wikidata.org/wiki/Q757043",
+      "photo": {
+        "src": "/assets/cities/balozi-960.webp",
+        "srcset": "/assets/cities/balozi-480.webp 480w, /assets/cities/balozi-960.webp 960w",
+        "alt": "Rīgas iela Baložos ar apstādījumiem un dzīvojamām ēkām",
+        "author": "Gvido Pētersons",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:R%C4%ABgas_iela_Balo%C5%BEos_-_panoramio.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/07/R%C4%ABgas_iela_Balo%C5%BEos_-_panoramio.jpg",
+        "commonsFile": "Rīgas iela Baložos - panoramio.jpg",
+        "description": "Rīgas iela Baložos",
+        "derivative": "Resized and converted to WebP; display crop may apply.",
+        "files": {
+          "960": {
+            "width": 960,
+            "height": 720,
+            "bytes": 172620,
+            "sha256": "bf083ae3461a2234069e7f996c392a122f30d9b9756f3649e2758614c76e0860"
+          },
+          "480": {
+            "width": 480,
+            "height": 360,
+            "bytes": 43434,
+            "sha256": "58f6736655be8a0ec4fc285c90eb3b511428aee8974c44349aa777dff424cff7"
+          }
+        },
+        "width": 960,
+        "height": 720,
+        "reviewedAt": "2026-11-09",
+        "visualObservation": "Rīgas iela Baložos ar apstādījumiem un dzīvojamām ēkām",
+        "reviewEvidence": "contact-sheets/02.jpg",
+        "downloadedFrom": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/R%C4%ABgas_iela_Balo%C5%BEos_-_panoramio.jpg/960px-R%C4%ABgas_iela_Balo%C5%BEos_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "downloadedSourceSha256": "754cf7f57c00b76edd4186911b90514fd14f0b1ed2f33d9e39aa963e7aa26816",
+        "reviewedDerivativeSha256": "bf083ae3461a2234069e7f996c392a122f30d9b9756f3649e2758614c76e0860"
+      },
+      "photoSelectionSource": "https://www.wikidata.org/wiki/Q757043#P18"
+    },
+    {
+      "id": "balvi",
+      "name": "Balvi",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Balvi",
+      "lat": 57.129167,
+      "lon": 27.266667,
+      "timeZone": "Europe/Riga",
+      "wikidataId": "Q218402",
+      "coordinateSource": "https://www.wikidata.org/wiki/Q218402",
+      "photo": {
+        "src": "/assets/cities/balvi-960.webp",
+        "srcset": "/assets/cities/balvi-480.webp 480w, /assets/cities/balvi-960.webp 960w",
+        "alt": "Bērzpils iela Balvos ar gājēju pāreju un gaišām ēkām",
+        "author": "Anakes",
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%D0%A3%D0%BB._%D0%91%D0%B5%D1%80%D0%B7%D0%BF%D0%B8%D0%BB%D1%81,_%D0%91%D0%B0%D0%BB%D0%B2%D0%B8_(P47).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5a/%D0%A3%D0%BB._%D0%91%D0%B5%D1%80%D0%B7%D0%BF%D0%B8%D0%BB%D1%81%2C_%D0%91%D0%B0%D0%BB%D0%B2%D0%B8_%28P47%29.jpg",
+        "commonsFile": "Ул. Берзпилс, Балви (P47).jpg",
+        "description": "Bērzpils Street in Balvi (Road P47)",
+        "derivative": "Resized and converted to WebP; display crop may apply.",
+        "files": {
+          "960": {
+            "width": 960,
+            "height": 720,
+            "bytes": 139464,
+            "sha256": "d4081708ab5394463a261d7c8c246ce5755e7803c32b6d6a1f37f04fbe45fc48"
+          },
+          "480": {
+            "width": 480,
+            "height": 360,
+            "bytes": 35244,
+            "sha256": "b47993eab82def933c255e708ec9f7901a975792fb72bc8549b67a3ccd65f3e5"
+          }
+        },
+        "width": 960,
+        "height": 720,
+        "reviewedAt": "2026-11-09",
+        "visualObservation": "Bērzpils iela Balvos ar gājēju pāreju un gaišām ēkām",
+        "reviewEvidence": "contact-sheets/02.jpg",
+        "downloadedFrom": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/%D0%A3%D0%BB._%D0%91%D0%B5%D1%80%D0%B7%D0%BF%D0%B8%D0%BB%D1%81%2C_%D0%91%D0%B0%D0%BB%D0%B2%D0%B8_%28P47%29.jpg/960px-%D0%A3%D0%BB._%D0%91%D0%B5%D1%80%D0%B7%D0%BF%D0%B8%D0%BB%D1%81%2C_%D0%91%D0%B0%D0%BB%D0%B2%D0%B8_%28P47%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "downloadedSourceSha256": "f4a3d139f36006ebe8a93a1a11fe758f6b9cb1107c24c3a353fc120bbf50b33c",
+        "reviewedDerivativeSha256": "d4081708ab5394463a261d7c8c246ce5755e7803c32b6d6a1f37f04fbe45fc48"
+      },
+      "photoSelectionSource": "https://www.wikidata.org/wiki/Q218402#P18"
+    },
+    {
+      "id": "bauska",
+      "name": "Bauska",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Bauska",
+      "lat": 56.406667,
+      "lon": 24.1875,
+      "timeZone": "Europe/Riga",
+      "wikidataId": "Q498256",
+      "coordinateSource": "https://www.wikidata.org/wiki/Q498256",
+      "photo": {
+        "src": "/assets/cities/bauska-960.webp",
+        "srcset": "/assets/cities/bauska-480.webp 480w, /assets/cities/bauska-960.webp 960w",
+        "alt": "Bauskas pils Mūsas krastā",
+        "author": "Daarznieks",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:3_Bauskas-pils-9apr04.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4e/3_Bauskas-pils-9apr04.jpg",
+        "commonsFile": "3 Bauskas-pils-9apr04.jpg",
+        "description": "Bauska Castle from the opposite bank of Mūša River , Latvia .",
+        "derivative": "Resized and converted to WebP; display crop may apply.",
+        "files": {
+          "960": {
+            "width": 960,
+            "height": 708,
+            "bytes": 204096,
+            "sha256": "747a24c9e7457303fadcfbd13e32961d0508fdcb112506c90553e84b963f7a3b"
+          },
+          "480": {
+            "width": 480,
+            "height": 354,
+            "bytes": 44710,
+            "sha256": "e68506bb1a820c0d392d451423d2492b4897aad57600e116cbe296d8f2eb87aa"
+          }
+        },
+        "width": 960,
+        "height": 708,
+        "reviewedAt": "2026-11-09",
+        "visualObservation": "Bauskas pils Mūsas krastā",
+        "reviewEvidence": "contact-sheets/02.jpg",
+        "downloadedFrom": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/3_Bauskas-pils-9apr04.jpg/960px-3_Bauskas-pils-9apr04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "downloadedSourceSha256": "0f08deb1d082a78cba5893137aae1b0a645ba32dc96b2854ce48195f9f3ed0b9",
+        "reviewedDerivativeSha256": "747a24c9e7457303fadcfbd13e32961d0508fdcb112506c90553e84b963f7a3b"
+      },
+      "photoSelectionSource": "https://www.wikidata.org/wiki/Q498256#P18"
+    },
+    {
+      "id": "broceni",
+      "name": "Brocēni",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Brocēni",
+      "lat": 56.683333,
+      "lon": 22.566389,
+      "timeZone": "Europe/Riga",
+      "wikidataId": "Q840836",
+      "coordinateSource": "https://www.wikidata.org/wiki/Q840836",
+      "photo": {
+        "src": "/assets/cities/broceni-960.webp",
+        "srcset": "/assets/cities/broceni-480.webp 480w, /assets/cities/broceni-960.webp 960w",
+        "alt": "Brocēnu pilsētas ēkas aiz ezera",
+        "author": "mikroskops",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Skats_uz_Broc%C4%93niem_-_mikroskops_-_Panoramio.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Skats_uz_Broc%C4%93niem_-_mikroskops_-_Panoramio.jpg",
+        "commonsFile": "Skats uz Brocēniem - mikroskops - Panoramio.jpg",
+        "description": "skats uz Brocēniem",
+        "derivative": "Resized and converted to WebP; display crop may apply.",
+        "files": {
+          "960": {
+            "width": 960,
+            "height": 720,
+            "bytes": 114778,
+            "sha256": "dae99eb5c1895c386eb47836247ce9806068e7fee7a747ecfa7e1e116055c03c"
+          },
+          "480": {
+            "width": 480,
+            "height": 360,
+            "bytes": 27270,
+            "sha256": "51bb83d53292cca2add46e46218341e1e77e6a4c80cf167686d9bd50c1864261"
+          }
+        },
+        "width": 960,
+        "height": 720,
+        "reviewedAt": "2026-11-09",
+        "visualObservation": "Brocēnu pilsētas ēkas aiz ezera",
+        "reviewEvidence": "contact-sheets/02.jpg",
+        "downloadedFrom": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Skats_uz_Broc%C4%93niem_-_mikroskops_-_Panoramio.jpg/960px-Skats_uz_Broc%C4%93niem_-_mikroskops_-_Panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "downloadedSourceSha256": "fbf8f78552bb669c6bdf0244256f400fc92dfe541a4e7d5545ca59ecb79e4472",
+        "reviewedDerivativeSha256": "dae99eb5c1895c386eb47836247ce9806068e7fee7a747ecfa7e1e116055c03c"
+      },
+      "photoSelectionSource": "https://www.wikidata.org/wiki/Q840836#P18"
+    },
+    {
+      "id": "carnikava",
+      "name": "Carnikava",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Carnikava",
+      "lat": 57.133333,
+      "lon": 24.283333,
+      "timeZone": "Europe/Riga",
+      "wikidataId": "Q1044023",
+      "coordinateSource": "https://www.wikidata.org/wiki/Q1044023",
+      "photo": {
+        "src": "/assets/cities/carnikava-960.webp",
+        "srcset": "/assets/cities/carnikava-480.webp 479w, /assets/cities/carnikava-960.webp 960w",
+        "alt": "Carnikavas dzelzceļa stacijas koka ēka",
+        "author": "ScAvenger (Jānis Vilniņš)",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Carnikavas_stacija_03_(cropped).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Carnikavas_stacija_03_%28cropped%29.jpg",
+        "commonsFile": "Carnikavas stacija 03 (cropped).jpg",
+        "description": "Carnikavas stacijas ēka",
+        "derivative": "Resized and converted to WebP; display crop may apply.",
+        "files": {
+          "960": {
+            "width": 960,
+            "height": 653,
+            "bytes": 196046,
+            "sha256": "5ed211b2225fc5cfcd3b1ef6371892b9d39629ec0fbf03a1789269fefbb14bbd"
+          },
+          "480": {
+            "width": 479,
+            "height": 326,
+            "bytes": 48354,
+            "sha256": "f03637ee74021fbf08e83fdac6b5d224a6c11322842c1f15ce449078f5d2547a"
+          }
+        },
+        "width": 960,
+        "height": 653,
+        "reviewedAt": "2026-11-09",
+        "visualObservation": "Carnikavas dzelzceļa stacijas koka ēka",
+        "reviewEvidence": "contact-sheets/02.jpg",
+        "downloadedFrom": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/Carnikavas_stacija_03_%28cropped%29.jpg/960px-Carnikavas_stacija_03_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "downloadedSourceSha256": "3398f44f95b32a1b262572623167bccdb8153ee9b46993dd047d4c9f9fa95836",
+        "reviewedDerivativeSha256": "5ed211b2225fc5cfcd3b1ef6371892b9d39629ec0fbf03a1789269fefbb14bbd"
+      },
+      "photoSelectionSource": "https://www.wikidata.org/wiki/Q1044023#P18"
+    },
+    {
+      "id": "cesis",
+      "name": "Cēsis",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Cēsis",
+      "lat": 57.313056,
+      "lon": 25.274722,
+      "timeZone": "Europe/Riga",
+      "wikidataId": "Q107582",
+      "coordinateSource": "https://www.wikidata.org/wiki/Q107582",
+      "photo": {
+        "src": "/assets/cities/cesis-960.webp",
+        "srcset": "/assets/cities/cesis-480.webp 480w, /assets/cities/cesis-960.webp 960w",
+        "alt": "Cēsu vecpilsētas jumti un baznīcas tornis skatā no augšas",
+        "author": "Guntars Mednis",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Skats_no_Vidzemes_koncertz%C4%81le_C%C4%93sis_jumta_-_panoramio_(2).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/27/Skats_no_Vidzemes_koncertz%C4%81le_C%C4%93sis_jumta_-_panoramio_%282%29.jpg",
+        "commonsFile": "Skats no Vidzemes koncertzāle Cēsis jumta - panoramio (2).jpg",
+        "description": "Skats no Vidzemes koncertzāle Cēsis jumta",
+        "derivative": "Resized and converted to WebP; display crop may apply.",
+        "files": {
+          "960": {
+            "width": 960,
+            "height": 640,
+            "bytes": 124966,
+            "sha256": "fa5b4f75dfd608df73441b0040cf5a38d054f9d79d96fe09ab1e4732505b1830"
+          },
+          "480": {
+            "width": 480,
+            "height": 320,
+            "bytes": 32456,
+            "sha256": "99263759e4ff68d6da6c74e207cbddb57d0324bb1a140c14dccf254de05529a1"
+          }
+        },
+        "width": 960,
+        "height": 640,
+        "reviewedAt": "2026-11-09",
+        "visualObservation": "Cēsu vecpilsētas jumti un baznīcas tornis skatā no augšas",
+        "reviewEvidence": "contact-sheets/02.jpg",
+        "downloadedFrom": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/Skats_no_Vidzemes_koncertz%C4%81le_C%C4%93sis_jumta_-_panoramio_%282%29.jpg/960px-Skats_no_Vidzemes_koncertz%C4%81le_C%C4%93sis_jumta_-_panoramio_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "downloadedSourceSha256": "4c5cfc2b505825be4fec017af7543310aaebdc66f3b7ab705b57092996928dd0",
+        "reviewedDerivativeSha256": "fa5b4f75dfd608df73441b0040cf5a38d054f9d79d96fe09ab1e4732505b1830"
+      },
+      "photoSelectionSource": "https://www.wikidata.org/wiki/Q107582#P18"
+    },
+    {
+      "id": "cesvaine",
+      "name": "Cesvaine",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Cesvaine",
+      "lat": 56.968333,
+      "lon": 26.306667,
+      "timeZone": "Europe/Riga",
+      "wikidataId": "Q757050",
+      "coordinateSource": "https://www.wikidata.org/wiki/Q757050",
+      "photo": {
+        "src": "/assets/cities/cesvaine-960.webp",
+        "srcset": "/assets/cities/cesvaine-480.webp 480w, /assets/cities/cesvaine-960.webp 960w",
+        "alt": "Cesvaines pils ar akmens fasādi un torņiem",
+        "author": "ScAvenger (Jānis Vilniņš)",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cesvaines_pils_2012.JPG",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Cesvaines_pils_2012.JPG",
+        "commonsFile": "Cesvaines pils 2012.JPG",
+        "description": "This is a photo of cultural heritage monument of Latvia number",
+        "derivative": "Resized and converted to WebP; display crop may apply.",
+        "files": {
+          "960": {
+            "width": 960,
+            "height": 727,
+            "bytes": 226292,
+            "sha256": "9f936d8ae903ddf3e2728d57bf9f57b8f35320a2267005a16784c64b4a2d7fd4"
+          },
+          "480": {
+            "width": 480,
+            "height": 364,
+            "bytes": 55838,
+            "sha256": "71d93a1816b9f379979cae08a6fe6562e1f809a8f472a10d3194e2c0c5630896"
+          }
+        },
+        "width": 960,
+        "height": 727,
+        "reviewedAt": "2026-11-09",
+        "visualObservation": "Cesvaines pils ar akmens fasādi un torņiem",
+        "reviewEvidence": "contact-sheets/02.jpg",
+        "downloadedFrom": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Cesvaines_pils_2012.JPG/960px-Cesvaines_pils_2012.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "downloadedSourceSha256": "610c90959c7a0cb7211b639374e3931c7c7666498d499ca957e23c97500dcea7",
+        "reviewedDerivativeSha256": "9f936d8ae903ddf3e2728d57bf9f57b8f35320a2267005a16784c64b4a2d7fd4"
+      },
+      "photoSelectionSource": "https://www.wikidata.org/wiki/Q757050#P18"
+    },
+    {
+      "id": "dagda",
+      "name": "Dagda",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Dagda,_Latvia",
+      "lat": 56.094722,
+      "lon": 27.536944,
+      "timeZone": "Europe/Riga",
+      "wikidataId": "Q757101",
+      "coordinateSource": "https://www.wikidata.org/wiki/Q757101",
+      "photo": {
+        "src": "/assets/cities/dagda-960.webp",
+        "srcset": "/assets/cities/dagda-480.webp 480w, /assets/cities/dagda-960.webp 960w",
+        "alt": "Dagdas pašvaldības ēka pie pilsētas laukuma",
+        "author": "kikos64",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dagdas_novada_dome.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/33/Dagdas_novada_dome.jpg",
+        "commonsFile": "Dagdas novada dome.jpg",
+        "description": "Dagdas novada dome",
+        "derivative": "Resized and converted to WebP; display crop may apply.",
+        "files": {
+          "960": {
+            "width": 960,
+            "height": 540,
+            "bytes": 138876,
+            "sha256": "88e051801d0eac6592f25e6e88e6f4c18bd838c0d0296da61dac81c381f7af1f"
+          },
+          "480": {
+            "width": 480,
+            "height": 270,
+            "bytes": 35084,
+            "sha256": "02ab4525d8562864fec84619c4c9af66f490966990396761ce7b2273981a8628"
+          }
+        },
+        "width": 960,
+        "height": 540,
+        "reviewedAt": "2026-11-09",
+        "visualObservation": "Dagdas pašvaldības ēka pie pilsētas laukuma",
+        "reviewEvidence": "contact-sheets/02.jpg",
+        "downloadedFrom": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Dagdas_novada_dome.jpg/960px-Dagdas_novada_dome.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "downloadedSourceSha256": "c22ddd69434f3cc48d83f7e315b015cf13c86604ee6f2830b4980976f65a97d4",
+        "reviewedDerivativeSha256": "88e051801d0eac6592f25e6e88e6f4c18bd838c0d0296da61dac81c381f7af1f"
+      },
+      "photoSelectionSource": "https://www.wikidata.org/wiki/Q757101#P18"
+    },
+    {
+      "id": "dobele",
+      "name": "Dobele",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Dobele",
+      "lat": 56.625833,
+      "lon": 23.281111,
+      "timeZone": "Europe/Riga",
+      "wikidataId": "Q729447",
+      "coordinateSource": "https://www.wikidata.org/wiki/Q729447",
+      "photo": {
+        "src": "/assets/cities/dobele-960.webp",
+        "srcset": "/assets/cities/dobele-480.webp 480w, /assets/cities/dobele-960.webp 960w",
+        "alt": "Dobeles centra panorāma ar dīķi un apstādījumiem",
+        "author": "PROP1001",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dobeles_panor%C4%81ma_1.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/14/Dobeles_panor%C4%81ma_1.jpg",
+        "commonsFile": "Dobeles panorāma 1.jpg",
+        "description": "Dobeles panorāma",
+        "derivative": "Resized and converted to WebP; display crop may apply.",
+        "files": {
+          "960": {
+            "width": 960,
+            "height": 640,
+            "bytes": 153300,
+            "sha256": "382bee03714312f0c8c4532b99a8c44530284e61d02da0eae9c4dfc6ed3fdc97"
+          },
+          "480": {
+            "width": 480,
+            "height": 320,
+            "bytes": 36884,
+            "sha256": "57630d3715c9bacfc92d96465e5c15ea65259051daa3a3da71665db55f8c41ce"
+          }
+        },
+        "width": 960,
+        "height": 640,
+        "reviewedAt": "2026-11-09",
+        "visualObservation": "Dobeles centra panorāma ar dīķi un apstādījumiem",
+        "reviewEvidence": "contact-sheets/02.jpg",
+        "downloadedFrom": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/Dobeles_panor%C4%81ma_1.jpg/960px-Dobeles_panor%C4%81ma_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "downloadedSourceSha256": "e219ea4eb4f0c7a4518e43ca59ac43e520632336ce999178e3c3936b5bac30c2",
+        "reviewedDerivativeSha256": "382bee03714312f0c8c4532b99a8c44530284e61d02da0eae9c4dfc6ed3fdc97"
+      },
+      "photoSelectionSource": "https://www.wikidata.org/wiki/Q729447#P18"
+    },
+    {
+      "id": "durbe",
+      "name": "Durbe",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Durbe",
+      "lat": 56.588333,
+      "lon": 21.368889,
+      "timeZone": "Europe/Riga",
+      "wikidataId": "Q840801",
+      "coordinateSource": "https://www.wikidata.org/wiki/Q840801",
+      "photo": {
+        "src": "/assets/cities/durbe-960.webp",
+        "srcset": "/assets/cities/durbe-480.webp 480w, /assets/cities/durbe-960.webp 960w",
+        "alt": "Durbes luterāņu baznīca ar sarkanu jumtu",
+        "author": "Ainars Brūvelis",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Durbe_ev.luth_church_-_panoramio.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Durbe_ev.luth_church_-_panoramio.jpg",
+        "commonsFile": "Durbe ev.luth church - panoramio.jpg",
+        "description": "Durbe ev.luth church",
+        "derivative": "Resized and converted to WebP; display crop may apply.",
+        "files": {
+          "960": {
+            "width": 960,
+            "height": 720,
+            "bytes": 172712,
+            "sha256": "ac3d69f64393dfdcb20757109e7d2dcbfd24918678d3526ffa95e35f211c5be1"
+          },
+          "480": {
+            "width": 480,
+            "height": 360,
+            "bytes": 43552,
+            "sha256": "a1eb24ecc2b260bd754648f4b013aa87073bdd9577b95d3be06f7285f121b300"
+          }
+        },
+        "width": 960,
+        "height": 720,
+        "reviewedAt": "2026-11-09",
+        "visualObservation": "Durbes luterāņu baznīca ar sarkanu jumtu",
+        "reviewEvidence": "contact-sheets/02.jpg",
+        "downloadedFrom": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Durbe_ev.luth_church_-_panoramio.jpg/960px-Durbe_ev.luth_church_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "downloadedSourceSha256": "d7e1e5733d6d1d330c830b50c151b169265b25573ab6a7dde6c80fb48be7caa2",
+        "reviewedDerivativeSha256": "ac3d69f64393dfdcb20757109e7d2dcbfd24918678d3526ffa95e35f211c5be1"
+      },
+      "photoSelectionSource": "https://www.wikidata.org/wiki/Q840801#P18"
+    },
+    {
+      "id": "grobina",
+      "name": "Grobiņa",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Grobiņa",
+      "lat": 56.5375,
+      "lon": 21.1675,
+      "timeZone": "Europe/Riga",
+      "wikidataId": "Q757049",
+      "coordinateSource": "https://www.wikidata.org/wiki/Q757049",
+      "photo": {
+        "src": "/assets/cities/grobina-960.webp",
+        "srcset": "/assets/cities/grobina-480.webp 480w, /assets/cities/grobina-960.webp 960w",
+        "alt": "Grobiņas iela un baptistu draudzes lūgšanu nams",
+        "author": "aldonis",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Grobi%C5%86as_baptistu_draudzes_l%C5%ABg%C5%A1anu_nams_1999.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/80/Grobi%C5%86as_baptistu_draudzes_l%C5%ABg%C5%A1anu_nams_1999.jpg",
+        "commonsFile": "Grobiņas baptistu draudzes lūgšanu nams 1999.jpg",
+        "description": "Grobiņa Baptist Congregation Prayer Center",
+        "derivative": "Resized and converted to WebP; display crop may apply.",
+        "files": {
+          "960": {
+            "width": 960,
+            "height": 638,
+            "bytes": 62744,
+            "sha256": "204bb3453c25766d163886da4a9ade18f220a6d94fec2de74fc980ac620b21bd"
+          },
+          "480": {
+            "width": 480,
+            "height": 319,
+            "bytes": 24240,
+            "sha256": "73a8690d662aa298a54d61c7acb933185234756a54186f1013130f8b28054b90"
+          }
+        },
+        "width": 960,
+        "height": 638,
+        "reviewedAt": "2026-11-09",
+        "visualObservation": "Grobiņas iela un baptistu draudzes lūgšanu nams",
+        "reviewEvidence": "contact-sheets/02.jpg",
+        "downloadedFrom": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/Grobi%C5%86as_baptistu_draudzes_l%C5%ABg%C5%A1anu_nams_1999.jpg/960px-Grobi%C5%86as_baptistu_draudzes_l%C5%ABg%C5%A1anu_nams_1999.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "downloadedSourceSha256": "b10594416602b988ab4a406611c5e90d922cbc00ccb11a546a65611234d7d374",
+        "reviewedDerivativeSha256": "204bb3453c25766d163886da4a9ade18f220a6d94fec2de74fc980ac620b21bd"
+      },
+      "photoSelectionSource": "https://www.wikidata.org/wiki/Q757049#P18"
+    },
+    {
+      "id": "gulbene",
+      "name": "Gulbene",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Gulbene",
+      "lat": 57.175,
+      "lon": 26.756389,
+      "timeZone": "Europe/Riga",
+      "wikidataId": "Q753010",
+      "coordinateSource": "https://www.wikidata.org/wiki/Q753010",
+      "photo": {
+        "src": "/assets/cities/gulbene-960.webp",
+        "srcset": "/assets/cities/gulbene-480.webp 480w, /assets/cities/gulbene-960.webp 960w",
+        "alt": "Vecgulbenes muižas ēka un zaļš zāliens",
+        "author": "VaverovaNada",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gulbene_035,_opraven%C3%A1_%C4%8D%C3%A1st_z%C3%A1mesk%C3%A9ho_komplexu.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/44/Gulbene_035%2C_opraven%C3%A1_%C4%8D%C3%A1st_z%C3%A1mesk%C3%A9ho_komplexu.jpg",
+        "commonsFile": "Gulbene 035, opravená část zámeského komplexu.jpg",
+        "description": "Vecgulbene estate former riding arena",
+        "derivative": "Resized and converted to WebP; display crop may apply.",
+        "files": {
+          "960": {
+            "width": 960,
+            "height": 720,
+            "bytes": 193462,
+            "sha256": "c3f5e0d68b24bd7d128fd990cfc5a83934f73fdff0913403281983851f9b6763"
+          },
+          "480": {
+            "width": 480,
+            "height": 360,
+            "bytes": 50206,
+            "sha256": "4fde17f27e656afe1896844278be1d14d07819c377433658503fd274cd5d1d4d"
+          }
+        },
+        "width": 960,
+        "height": 720,
+        "reviewedAt": "2026-11-09",
+        "visualObservation": "Vecgulbenes muižas ēka un zaļš zāliens",
+        "reviewEvidence": "contact-sheets/02.jpg",
+        "downloadedFrom": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/Gulbene_035%2C_opraven%C3%A1_%C4%8D%C3%A1st_z%C3%A1mesk%C3%A9ho_komplexu.jpg/960px-Gulbene_035%2C_opraven%C3%A1_%C4%8D%C3%A1st_z%C3%A1mesk%C3%A9ho_komplexu.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "downloadedSourceSha256": "40e8282ed5cd191892820997b2c91e99daa8a2b026077e6c085c8ad19e9ed2e8",
+        "reviewedDerivativeSha256": "c3f5e0d68b24bd7d128fd990cfc5a83934f73fdff0913403281983851f9b6763"
+      },
+      "photoSelectionSource": "https://www.wikidata.org/wiki/Q753010#P18"
+    },
+    {
+      "id": "iecava",
+      "name": "Iecava",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Iecava",
+      "lat": 56.6,
+      "lon": 24.2,
+      "timeZone": "Europe/Riga",
+      "wikidataId": "Q1023764",
+      "coordinateSource": "https://www.wikidata.org/wiki/Q1023764",
+      "photo": {
+        "src": "/assets/cities/iecava-960.webp",
+        "srcset": "/assets/cities/iecava-480.webp 480w, /assets/cities/iecava-960.webp 960w",
+        "alt": "Iecavas pilsētas centrs pavasarī skatā no augšas",
+        "author": "Jānis Katkevičs",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Iecava.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Iecava.jpg",
+        "commonsFile": "Iecava.jpg",
+        "description": "Iecavas pilsēta pavasarī",
+        "derivative": "Resized and converted to WebP; display crop may apply.",
+        "files": {
+          "960": {
+            "width": 960,
+            "height": 720,
+            "bytes": 253188,
+            "sha256": "0f6fc4060b0aac09d3c64305018cf5de7b01940e2e1bdc48ec0bdcaf7961cb3d"
+          },
+          "480": {
+            "width": 480,
+            "height": 360,
+            "bytes": 64302,
+            "sha256": "4e7d55a057640e87b62844cd3dfb2f4cdfde576b90387b94abacd96a713e6fd0"
+          }
+        },
+        "width": 960,
+        "height": 720,
+        "reviewedAt": "2026-11-09",
+        "visualObservation": "Iecavas pilsētas centrs pavasarī skatā no augšas",
+        "reviewEvidence": "contact-sheets/03.jpg",
+        "downloadedFrom": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Iecava.jpg/960px-Iecava.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "downloadedSourceSha256": "4583c592d623f4fcffc11040b91bbb96df20a29505d686d8effd4751de796667",
+        "reviewedDerivativeSha256": "0f6fc4060b0aac09d3c64305018cf5de7b01940e2e1bdc48ec0bdcaf7961cb3d"
+      },
+      "photoSelectionSource": "https://www.wikidata.org/wiki/Q1023764#P18"
+    },
+    {
+      "id": "ikskile",
+      "name": "Ikšķile",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Ikšķile",
+      "lat": 56.836667,
+      "lon": 24.496389,
+      "timeZone": "Europe/Riga",
+      "wikidataId": "Q753029",
+      "coordinateSource": "https://www.wikidata.org/wiki/Q753029",
+      "photo": {
+        "src": "/assets/cities/ikskile-960.webp",
+        "srcset": "/assets/cities/ikskile-480.webp 480w, /assets/cities/ikskile-960.webp 960w",
+        "alt": "Skolas iela Ikšķilē ar satiksmes apli un pilsētas ēkām",
+        "author": "Dāvis Kļaviņš",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Skolas_iela,_Ik%C5%A1%C4%B7ile,_16.05.2013.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/72/Skolas_iela%2C_Ik%C5%A1%C4%B7ile%2C_16.05.2013.jpg",
+        "commonsFile": "Skolas iela, Ikšķile, 16.05.2013.jpg",
+        "description": "Skolas iela, 16.05.2013.",
+        "derivative": "Resized and converted to WebP; display crop may apply.",
+        "files": {
+          "960": {
+            "width": 960,
+            "height": 640,
+            "bytes": 137798,
+            "sha256": "f8df9a8174e1b8fa793c89d6afad074322a4271d96a9358757285ca483b7001b"
+          },
+          "480": {
+            "width": 480,
+            "height": 320,
+            "bytes": 32940,
+            "sha256": "1e3433c722e625cf08f98015701770f0c2b09cbee0c29c08862fb21964c204c1"
+          }
+        },
+        "width": 960,
+        "height": 640,
+        "reviewedAt": "2026-11-09",
+        "visualObservation": "Skolas iela Ikšķilē ar satiksmes apli un pilsētas ēkām",
+        "reviewEvidence": "contact-sheets/03.jpg",
+        "downloadedFrom": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/Skolas_iela%2C_Ik%C5%A1%C4%B7ile%2C_16.05.2013.jpg/960px-Skolas_iela%2C_Ik%C5%A1%C4%B7ile%2C_16.05.2013.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "downloadedSourceSha256": "872cd379b5703a36e16d774fb37be6a6bb30dfe1780fdd752a9ddaa2de35678e",
+        "reviewedDerivativeSha256": "f8df9a8174e1b8fa793c89d6afad074322a4271d96a9358757285ca483b7001b"
+      },
+      "photoSelectionSource": "https://www.wikidata.org/wiki/Q753029#P18"
+    },
+    {
+      "id": "ilukste",
+      "name": "Ilūkste",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Ilūkste",
+      "lat": 55.978056,
+      "lon": 26.296667,
+      "timeZone": "Europe/Riga",
+      "wikidataId": "Q580373",
+      "coordinateSource": "https://www.wikidata.org/wiki/Q580373",
+      "photo": {
+        "src": "/assets/cities/ilukste-960.webp",
+        "srcset": "/assets/cities/ilukste-480.webp 480w, /assets/cities/ilukste-960.webp 960w",
+        "alt": "Ilūkstes centrs ar baznīcu, soliņiem un puķu dobēm",
+        "author": "Modris Putns",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Il%C5%ABkste,_Il%C5%ABkstes_pils%C4%93ta,_Latvia_-_panoramio_(2).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/73/Il%C5%ABkste%2C_Il%C5%ABkstes_pils%C4%93ta%2C_Latvia_-_panoramio_%282%29.jpg",
+        "commonsFile": "Ilūkste, Ilūkstes pilsēta, Latvia - panoramio (2).jpg",
+        "description": "Ilūkste, Ilūkstes pilsēta, Latvia",
+        "derivative": "Resized and converted to WebP; display crop may apply.",
+        "files": {
+          "960": {
+            "width": 960,
+            "height": 643,
+            "bytes": 193906,
+            "sha256": "b1ba174c7413e0da15d2dc718ef9629738f3e50d7334d76222efdd0c1d078415"
+          },
+          "480": {
+            "width": 480,
+            "height": 322,
+            "bytes": 45054,
+            "sha256": "b5b9eac8afd584495a692f3867293c4b2a8a1459dd929248baacc4af7af9a725"
+          }
+        },
+        "width": 960,
+        "height": 643,
+        "reviewedAt": "2026-11-09",
+        "visualObservation": "Ilūkstes centrs ar baznīcu, soliņiem un puķu dobēm",
+        "reviewEvidence": "contact-sheets/03.jpg",
+        "downloadedFrom": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Il%C5%ABkste%2C_Il%C5%ABkstes_pils%C4%93ta%2C_Latvia_-_panoramio_%282%29.jpg/960px-Il%C5%ABkste%2C_Il%C5%ABkstes_pils%C4%93ta%2C_Latvia_-_panoramio_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "downloadedSourceSha256": "4abd81e909e64a42c3f86e7e733cb84e54757a6798e7c89be32ef851abd17b54",
+        "reviewedDerivativeSha256": "b1ba174c7413e0da15d2dc718ef9629738f3e50d7334d76222efdd0c1d078415"
+      },
+      "photoSelectionSource": "https://www.wikidata.org/wiki/Q580373#P18"
+    },
+    {
+      "id": "jaunjelgava",
+      "name": "Jaunjelgava",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Jaunjelgava",
+      "lat": 56.6175,
+      "lon": 25.081389,
+      "timeZone": "Europe/Riga",
+      "wikidataId": "Q835771",
+      "coordinateSource": "https://www.wikidata.org/wiki/Q835771",
+      "photo": {
+        "src": "/assets/cities/jaunjelgava-960.webp",
+        "srcset": "/assets/cities/jaunjelgava-480.webp 480w, /assets/cities/jaunjelgava-960.webp 960w",
+        "alt": "Lauvas skulptūra un vēsturiskā domes ēka Jaunjelgavā",
+        "author": "Dāvis Kļaviņš",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lauvas_skulpt%C5%ABra_Vecpils%C4%93tas_park%C4%81_un_Jaunjelgavas_pils%C4%93tas_dome,_23.05.2020.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/88/Lauvas_skulpt%C5%ABra_Vecpils%C4%93tas_park%C4%81_un_Jaunjelgavas_pils%C4%93tas_dome%2C_23.05.2020.jpg",
+        "commonsFile": "Lauvas skulptūra Vecpilsētas parkā un Jaunjelgavas pilsētas dome, 23.05.2020.jpg",
+        "description": "This is a photo of cultural heritage monument of Latvia number",
+        "derivative": "Resized and converted to WebP; display crop may apply.",
+        "files": {
+          "960": {
+            "width": 960,
+            "height": 636,
+            "bytes": 214012,
+            "sha256": "317f6bbe0e476776c474fc6528d64f31b2b0f21306bf1815bf74e4b760f448fb"
+          },
+          "480": {
+            "width": 480,
+            "height": 318,
+            "bytes": 53666,
+            "sha256": "5e0d0ae886115905e95b03bc3af8cc69d071689357f323fafb5d01dcc6b5b092"
+          }
+        },
+        "width": 960,
+        "height": 636,
+        "reviewedAt": "2026-11-09",
+        "visualObservation": "Lauvas skulptūra un vēsturiskā domes ēka Jaunjelgavā",
+        "reviewEvidence": "contact-sheets/03.jpg",
+        "downloadedFrom": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Lauvas_skulpt%C5%ABra_Vecpils%C4%93tas_park%C4%81_un_Jaunjelgavas_pils%C4%93tas_dome%2C_23.05.2020.jpg/960px-Lauvas_skulpt%C5%ABra_Vecpils%C4%93tas_park%C4%81_un_Jaunjelgavas_pils%C4%93tas_dome%2C_23.05.2020.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "downloadedSourceSha256": "e1d10715503be2c6f6722d4f452d983e5cebc5e92318280edbd3a1ea7bd1ac5b",
+        "reviewedDerivativeSha256": "317f6bbe0e476776c474fc6528d64f31b2b0f21306bf1815bf74e4b760f448fb"
+      },
+      "photoSelectionSource": "https://www.wikidata.org/wiki/Q835771#P18"
+    },
+    {
+      "id": "kandava",
+      "name": "Kandava",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Kandava",
+      "lat": 57.036389,
+      "lon": 22.776111,
+      "timeZone": "Europe/Riga",
+      "wikidataId": "Q849152",
+      "coordinateSource": "https://www.wikidata.org/wiki/Q849152",
+      "photo": {
+        "src": "/assets/cities/kandava-960.webp",
+        "srcset": "/assets/cities/kandava-480.webp 480w, /assets/cities/kandava-960.webp 960w",
+        "alt": "Kandavas vecpilsētas jumti zaļā ainavā skatā no augšas",
+        "author": "Inārs Švarcs",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kandava._Kurzeme._Latvija_2.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/95/Kandava._Kurzeme._Latvija_2.jpg",
+        "commonsFile": "Kandava. Kurzeme. Latvija 2.jpg",
+        "description": "Skats uz vecpilsētu.",
+        "derivative": "Resized and converted to WebP; display crop may apply.",
+        "files": {
+          "960": {
+            "width": 960,
+            "height": 542,
+            "bytes": 208682,
+            "sha256": "a83036bfbd863c5a7a0ba79aab4bf096606d676aba550de09dd33c5fb48d6c2a"
+          },
+          "480": {
+            "width": 480,
+            "height": 271,
+            "bytes": 52226,
+            "sha256": "849c67a1d26151bdd8b077d94142eed83b8d691a9466df986c0182548475511f"
+          }
+        },
+        "width": 960,
+        "height": 542,
+        "reviewedAt": "2026-11-09",
+        "visualObservation": "Kandavas vecpilsētas jumti zaļā ainavā skatā no augšas",
+        "reviewEvidence": "contact-sheets/03.jpg",
+        "downloadedFrom": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Kandava._Kurzeme._Latvija_2.jpg/960px-Kandava._Kurzeme._Latvija_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "downloadedSourceSha256": "39a0ea801d87373867da4218eb812e930bccca33d40190f06a093ab097bbae65",
+        "reviewedDerivativeSha256": "a83036bfbd863c5a7a0ba79aab4bf096606d676aba550de09dd33c5fb48d6c2a"
+      },
+      "photoSelectionSource": "https://www.wikidata.org/wiki/Q849152#P18"
+    },
+    {
+      "id": "karsava",
+      "name": "Kārsava",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Kārsava",
+      "lat": 56.786667,
+      "lon": 27.673889,
+      "timeZone": "Europe/Riga",
+      "wikidataId": "Q849147",
+      "coordinateSource": "https://www.wikidata.org/wiki/Q849147",
+      "photo": {
+        "src": "/assets/cities/karsava-960.webp",
+        "srcset": "/assets/cities/karsava-480.webp 480w, /assets/cities/karsava-960.webp 960w",
+        "alt": "Kārsavas katoļu baznīca ar kokiem un laukumu priekšplānā",
+        "author": "Karlis",
+        "license": "CC0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Katholische_Kirche_K%C4%81rsava.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Katholische_Kirche_K%C4%81rsava.jpg",
+        "commonsFile": "Katholische Kirche Kārsava.jpg",
+        "description": "catholic church in Kārsava, Latvia",
+        "derivative": "Resized and converted to WebP; display crop may apply.",
+        "files": {
+          "960": {
+            "width": 960,
+            "height": 720,
+            "bytes": 137866,
+            "sha256": "dd3d4d0535ca4d185a144eecb53764552155b5c9aebe6856d41fc9035aa4be9e"
+          },
+          "480": {
+            "width": 480,
+            "height": 360,
+            "bytes": 32704,
+            "sha256": "96778a3ef75b25defb4ac3b5e3f3f296933866ac3ca4a9fa556cc4dfe9d86a18"
+          }
+        },
+        "width": 960,
+        "height": 720,
+        "reviewedAt": "2026-11-09",
+        "visualObservation": "Kārsavas katoļu baznīca ar kokiem un laukumu priekšplānā",
+        "reviewEvidence": "contact-sheets/03.jpg",
+        "downloadedFrom": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Katholische_Kirche_K%C4%81rsava.jpg/960px-Katholische_Kirche_K%C4%81rsava.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "downloadedSourceSha256": "973fc9306e00f9e16b892fa46ab0c0e164cd1c8f0cbbc061526503bda891df19",
+        "reviewedDerivativeSha256": "dd3d4d0535ca4d185a144eecb53764552155b5c9aebe6856d41fc9035aa4be9e"
+      },
+      "photoSelectionSource": "https://www.wikidata.org/wiki/Q849147#P18"
+    },
+    {
+      "id": "koknese",
+      "name": "Koknese",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Koknese",
+      "lat": 56.65,
+      "lon": 25.433333,
+      "timeZone": "Europe/Riga",
+      "wikidataId": "Q504681",
+      "coordinateSource": "https://www.wikidata.org/wiki/Q504681",
+      "photo": {
+        "src": "/assets/cities/koknese-960.webp",
+        "srcset": "/assets/cities/koknese-480.webp 480w, /assets/cities/koknese-960.webp 960w",
+        "alt": "Kokneses pilsdrupas Daugavas krastā",
+        "author": "Daarznieks",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:12_Kokneses-pils-no-pret-kr-29sep07.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d3/12_Kokneses-pils-no-pret-kr-29sep07.jpg",
+        "commonsFile": "12 Kokneses-pils-no-pret-kr-29sep07.jpg",
+        "description": "Ruins of Koknese medieval castle from the opposite bank of Daugava",
+        "derivative": "Resized and converted to WebP; display crop may apply.",
+        "files": {
+          "960": {
+            "width": 960,
+            "height": 634,
+            "bytes": 186958,
+            "sha256": "58d0f72b45445cb2e82069a6bacbbcfbcd6a90eeb960bb264f50428bc99c94b2"
+          },
+          "480": {
+            "width": 480,
+            "height": 317,
+            "bytes": 42764,
+            "sha256": "dc69aab487cf0732e6524cc0ed80e3fc7a1ee1427e95fe6ccfb13929fe4ef9a4"
+          }
+        },
+        "width": 960,
+        "height": 634,
+        "reviewedAt": "2026-11-09",
+        "visualObservation": "Kokneses pilsdrupas Daugavas krastā",
+        "reviewEvidence": "contact-sheets/03.jpg",
+        "downloadedFrom": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/12_Kokneses-pils-no-pret-kr-29sep07.jpg/960px-12_Kokneses-pils-no-pret-kr-29sep07.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "downloadedSourceSha256": "abebffdff8853e1bd62be27803d333340408179f54fd13425bd702074ad04d9e",
+        "reviewedDerivativeSha256": "58d0f72b45445cb2e82069a6bacbbcfbcd6a90eeb960bb264f50428bc99c94b2"
+      },
+      "photoSelectionSource": "https://www.wikidata.org/wiki/Q504681#P18"
+    },
+    {
+      "id": "kraslava",
+      "name": "Krāslava",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Krāslava",
+      "lat": 55.895556,
+      "lon": 27.164444,
+      "timeZone": "Europe/Riga",
+      "wikidataId": "Q638592",
+      "coordinateSource": "https://www.wikidata.org/wiki/Q638592",
+      "photo": {
+        "src": "/assets/cities/kraslava-960.webp",
+        "srcset": "/assets/cities/kraslava-480.webp 480w, /assets/cities/kraslava-960.webp 960w",
+        "alt": "Krāslavas pilsētas centrs ar laukumu un gaišām ēkām",
+        "author": "bontrager",
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kraslava_(pilsetas_centrs).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/17/Kraslava_%28pilsetas_centrs%29.jpg",
+        "commonsFile": "Kraslava (pilsetas centrs).jpg",
+        "description": "Krasław , centrum miasta",
+        "derivative": "Resized and converted to WebP; display crop may apply.",
+        "files": {
+          "960": {
+            "width": 960,
+            "height": 438,
+            "bytes": 103682,
+            "sha256": "34947d24cff2101b397aa788cb62ccad14e5f763cf8b36bbf7efa1729dbc0298"
+          },
+          "480": {
+            "width": 480,
+            "height": 219,
+            "bytes": 22476,
+            "sha256": "7fbd9bc2eb50e32043a414ff8e1f8563e2469be73ca1b1ac3122d67d95ce9a04"
+          }
+        },
+        "width": 960,
+        "height": 438,
+        "reviewedAt": "2026-11-09",
+        "visualObservation": "Krāslavas pilsētas centrs ar laukumu un gaišām ēkām",
+        "reviewEvidence": "contact-sheets/03.jpg",
+        "downloadedFrom": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Kraslava_%28pilsetas_centrs%29.jpg/960px-Kraslava_%28pilsetas_centrs%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "downloadedSourceSha256": "1d3e1a53ab650a63d29fb89f4ce4ce27611b55e410dec5235503947b914b2591",
+        "reviewedDerivativeSha256": "34947d24cff2101b397aa788cb62ccad14e5f763cf8b36bbf7efa1729dbc0298"
+      },
+      "photoSelectionSource": "https://www.wikidata.org/wiki/Q638592#P18"
+    },
+    {
+      "id": "kuldiga",
+      "name": "Kuldīga",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Kuldīga",
+      "lat": 56.967222,
+      "lon": 21.97,
+      "timeZone": "Europe/Riga",
+      "wikidataId": "Q155281",
+      "coordinateSource": "https://www.wikidata.org/wiki/Q155281",
+      "photo": {
+        "src": "/assets/cities/kuldiga-960.webp",
+        "srcset": "/assets/cities/kuldiga-480.webp 480w, /assets/cities/kuldiga-960.webp 960w",
+        "alt": "Kuldīgas ķieģeļu tilts pār Ventu",
+        "author": "Inārs Švarcs",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kuld%C4%ABga,_Kurzeme,_Latvija.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Kuld%C4%ABga%2C_Kurzeme%2C_Latvija.jpg",
+        "commonsFile": "Kuldīga, Kurzeme, Latvija.jpg",
+        "description": "Tilts savieno Ventas abus krastus.Eiropā garākais ķieģeļu tilts.",
+        "derivative": "Resized and converted to WebP; display crop may apply.",
+        "files": {
+          "960": {
+            "width": 960,
+            "height": 543,
+            "bytes": 128120,
+            "sha256": "bf1d09d9b3d7298995cb36f1c2f1361713fe6a671d11e6728b75f20a0411e320"
+          },
+          "480": {
+            "width": 480,
+            "height": 272,
+            "bytes": 30400,
+            "sha256": "0134205e07c330b42cbaac4bc9f6281459821db9d8c411c6e709210e3603fd6a"
+          }
+        },
+        "width": 960,
+        "height": 543,
+        "reviewedAt": "2026-11-09",
+        "visualObservation": "Kuldīgas ķieģeļu tilts pār Ventu",
+        "reviewEvidence": "contact-sheets/03.jpg",
+        "downloadedFrom": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Kuld%C4%ABga%2C_Kurzeme%2C_Latvija.jpg/960px-Kuld%C4%ABga%2C_Kurzeme%2C_Latvija.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "downloadedSourceSha256": "929cbcd4c1de817066baa4d95b1456abffd1f35cc0d78affaf218139096cf818",
+        "reviewedDerivativeSha256": "bf1d09d9b3d7298995cb36f1c2f1361713fe6a671d11e6728b75f20a0411e320"
+      },
+      "photoSelectionSource": "https://www.wikidata.org/wiki/Q155281#P18"
+    },
+    {
+      "id": "kegums",
+      "name": "Ķegums",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Ķegums",
+      "lat": 56.744444,
+      "lon": 24.721389,
+      "timeZone": "Europe/Riga",
+      "wikidataId": "Q344621",
+      "coordinateSource": "https://www.wikidata.org/wiki/Q344621",
+      "photo": {
+        "src": "/assets/cities/kegums-960.webp",
+        "srcset": "/assets/cities/kegums-480.webp 480w, /assets/cities/kegums-960.webp 960w",
+        "alt": "Ķeguma baznīca ar sarkanu jumtu un apstādījumiem",
+        "author": "Laima Gūtmane (simka…",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%C4%B6egums_church.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/26/%C4%B6egums_church.jpg",
+        "commonsFile": "Ķegums church.jpg",
+        "description": "Ķegums church",
+        "derivative": "Resized and converted to WebP; display crop may apply.",
+        "files": {
+          "960": {
+            "width": 960,
+            "height": 640,
+            "bytes": 118022,
+            "sha256": "41d9360edc2fa6c1f7f2d6f9a06baef4147b71f9b7c6506dadf5dd25c47091a7"
+          },
+          "480": {
+            "width": 480,
+            "height": 320,
+            "bytes": 31354,
+            "sha256": "0c4aa8b51a2bba7a1179aadd3687d6327d6b7698c5938ac6d877ed0f4c7736a8"
+          }
+        },
+        "width": 960,
+        "height": 640,
+        "reviewedAt": "2026-11-09",
+        "visualObservation": "Ķeguma baznīca ar sarkanu jumtu un apstādījumiem",
+        "reviewEvidence": "contact-sheets/03.jpg",
+        "downloadedFrom": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/%C4%B6egums_church.jpg/960px-%C4%B6egums_church.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "downloadedSourceSha256": "7257ee4f9e96a76f9dfcf25cc44d74e8a09d89185f40e3679fcf711e295bbfd3",
+        "reviewedDerivativeSha256": "41d9360edc2fa6c1f7f2d6f9a06baef4147b71f9b7c6506dadf5dd25c47091a7"
+      },
+      "photoSelectionSource": "https://www.wikidata.org/wiki/Q344621#P18"
+    },
+    {
+      "id": "kekava",
+      "name": "Ķekava",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Ķekava",
+      "lat": 56.82662,
+      "lon": 24.23,
+      "timeZone": "Europe/Riga",
+      "wikidataId": "Q344608",
+      "coordinateSource": "https://www.wikidata.org/wiki/Q344608",
+      "photo": {
+        "src": "/assets/cities/kekava-960.webp",
+        "srcset": "/assets/cities/kekava-480.webp 480w, /assets/cities/kekava-960.webp 960w",
+        "alt": "Doles-Ķekavas Svētās Annas baznīca",
+        "author": "J. Sedols",
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%C4%B6ekavas_bazn%C4%ABca.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/79/%C4%B6ekavas_bazn%C4%ABca.jpg",
+        "commonsFile": "Ķekavas baznīca.jpg",
+        "description": "Dole-Ķekava Saint Anne Evangelical Lutheran Church",
+        "derivative": "Resized and converted to WebP; display crop may apply.",
+        "files": {
+          "960": {
+            "width": 960,
+            "height": 720,
+            "bytes": 63162,
+            "sha256": "68696263813e432e65d0a42d86a9bc08d334f8c34f296c3bc983be2f222f8d66"
+          },
+          "480": {
+            "width": 480,
+            "height": 360,
+            "bytes": 23080,
+            "sha256": "4c9c3afc53fb851aee0f7d49e64486f267795abf5aa36f3b01723c1f3bdea2e7"
+          }
+        },
+        "width": 960,
+        "height": 720,
+        "reviewedAt": "2026-11-09",
+        "visualObservation": "Doles-Ķekavas Svētās Annas baznīca",
+        "reviewEvidence": "contact-sheets/03.jpg",
+        "downloadedFrom": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/%C4%B6ekavas_bazn%C4%ABca.jpg/960px-%C4%B6ekavas_bazn%C4%ABca.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "downloadedSourceSha256": "05df3b7c1f612888983ca463934b3170dac5886718772eb3c222a86d0e9317b0",
+        "reviewedDerivativeSha256": "68696263813e432e65d0a42d86a9bc08d334f8c34f296c3bc983be2f222f8d66"
+      },
+      "photoSelectionSource": "https://www.wikidata.org/wiki/Q344608#P18"
+    },
+    {
+      "id": "lielvarde",
+      "name": "Lielvārde",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Lielvārde",
+      "lat": 56.7175,
+      "lon": 24.810556,
+      "timeZone": "Europe/Riga",
+      "wikidataId": "Q597346",
+      "coordinateSource": "https://www.wikidata.org/wiki/Q597346",
+      "photo": {
+        "src": "/assets/cities/lielvarde-960.webp",
+        "srcset": "/assets/cities/lielvarde-480.webp 480w, /assets/cities/lielvarde-960.webp 960w",
+        "alt": "Andreja Pumpura Lielvārdes muzeja ēka starp kokiem",
+        "author": "Jindřich Běťák",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Andreja_Pumpura_Lielvardes_muzejs.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/46/Andreja_Pumpura_Lielvardes_muzejs.jpg",
+        "commonsFile": "Andreja Pumpura Lielvardes muzejs.jpg",
+        "description": "Budova muzea básníka Andreje Pumpura v Lielvárde",
+        "derivative": "Resized and converted to WebP; display crop may apply.",
+        "files": {
+          "960": {
+            "width": 960,
+            "height": 692,
+            "bytes": 244050,
+            "sha256": "201e7ecf03a186c55d4371898c5a2c551be8a472ead347275b2841be857a3768"
+          },
+          "480": {
+            "width": 480,
+            "height": 346,
+            "bytes": 59804,
+            "sha256": "41d325bc49c32320bf1a8ed0ffa2c0269b0b812fe8f5f6b0927f0f4f4d84dea1"
+          }
+        },
+        "width": 960,
+        "height": 692,
+        "reviewedAt": "2026-11-09",
+        "visualObservation": "Andreja Pumpura Lielvārdes muzeja ēka starp kokiem",
+        "reviewEvidence": "contact-sheets/03.jpg",
+        "downloadedFrom": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/Andreja_Pumpura_Lielvardes_muzejs.jpg/960px-Andreja_Pumpura_Lielvardes_muzejs.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "downloadedSourceSha256": "70d13162313a272a2a990a5e1b867cfe93b92f44fa2ff0c18652c32f400ddb4b",
+        "reviewedDerivativeSha256": "201e7ecf03a186c55d4371898c5a2c551be8a472ead347275b2841be857a3768"
+      },
+      "photoSelectionSource": "https://www.wikidata.org/wiki/Q597346#P18"
+    },
+    {
+      "id": "ligatne",
+      "name": "Līgatne",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Līgatne",
+      "lat": 57.233611,
+      "lon": 25.039722,
+      "timeZone": "Europe/Riga",
+      "wikidataId": "Q853761",
+      "coordinateSource": "https://www.wikidata.org/wiki/Q853761",
+      "photo": {
+        "src": "/assets/cities/ligatne-960.webp",
+        "srcset": "/assets/cities/ligatne-480.webp 479w, /assets/cities/ligatne-960.webp 960w",
+        "alt": "Līgatnes kultūras centrs un bibliotēka pie zaļa laukuma",
+        "author": "Ivars Indāns",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:L%C4%ABgantnes_Kult%C5%ABras_centrs_un_bibliot%C4%93ka._L%C4%ABgatne_Culture_centre_and_Library._June,_2015_-_panoramio.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f3/L%C4%ABgantnes_Kult%C5%ABras_centrs_un_bibliot%C4%93ka._L%C4%ABgatne_Culture_centre_and_Library._June%2C_2015_-_panoramio.jpg",
+        "commonsFile": "Līgantnes Kultūras centrs un bibliotēka. Līgatne Culture centre and Library. June, 2015 - panoramio.jpg",
+        "description": "Līgantnes Kultūras centrs un bibliotēka. Līgatne Culture centre and Library. June, 2015",
+        "derivative": "Resized and converted to WebP; display crop may apply.",
+        "files": {
+          "960": {
+            "width": 960,
+            "height": 625,
+            "bytes": 245458,
+            "sha256": "8c0d4e264199209c9539a6cdbf4e26e808b1109e1f9507e663a0cac11b05f5e0"
+          },
+          "480": {
+            "width": 479,
+            "height": 312,
+            "bytes": 54284,
+            "sha256": "71f5763a5d7a1a71e928ba2e366d596aedebe2aec41a8a7f4c29cc710bb1a3a3"
+          }
+        },
+        "width": 960,
+        "height": 625,
+        "reviewedAt": "2026-11-09",
+        "visualObservation": "Līgatnes kultūras centrs un bibliotēka pie zaļa laukuma",
+        "reviewEvidence": "contact-sheets/03.jpg",
+        "downloadedFrom": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/L%C4%ABgantnes_Kult%C5%ABras_centrs_un_bibliot%C4%93ka._L%C4%ABgatne_Culture_centre_and_Library._June%2C_2015_-_panoramio.jpg/960px-L%C4%ABgantnes_Kult%C5%ABras_centrs_un_bibliot%C4%93ka._L%C4%ABgatne_Culture_centre_and_Library._June%2C_2015_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "downloadedSourceSha256": "2ab08a7d6eee8f4ca88706340f5286554e51f663fbcaedc18ce15c11ee4ce854",
+        "reviewedDerivativeSha256": "8c0d4e264199209c9539a6cdbf4e26e808b1109e1f9507e663a0cac11b05f5e0"
+      },
+      "photoSelectionSource": "https://www.wikidata.org/wiki/Q853761#P18"
+    },
+    {
+      "id": "limbazi",
+      "name": "Limbaži",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Limbaži",
+      "lat": 57.514722,
+      "lon": 24.713056,
+      "timeZone": "Europe/Riga",
+      "wikidataId": "Q166684",
+      "coordinateSource": "https://www.wikidata.org/wiki/Q166684",
+      "photo": {
+        "src": "/assets/cities/limbazi-960.webp",
+        "srcset": "/assets/cities/limbazi-480.webp 480w, /assets/cities/limbazi-960.webp 960w",
+        "alt": "Limbažu vecpilsētas laukums ar vēsturiskām ēkām",
+        "author": "Laima Gūtmane (simka)",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Limba%C5%BEu_vecpils%C4%93ta.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Limba%C5%BEu_vecpils%C4%93ta.jpg",
+        "commonsFile": "Limbažu vecpilsēta.jpg",
+        "description": "Limbaži Old town",
+        "derivative": "Resized and converted to WebP; display crop may apply.",
+        "files": {
+          "960": {
+            "width": 960,
+            "height": 640,
+            "bytes": 157036,
+            "sha256": "c470d301fbb9ec4da78da7aad4110eff9052aed68da8677ef3ce9a762b2cd283"
+          },
+          "480": {
+            "width": 480,
+            "height": 320,
+            "bytes": 40162,
+            "sha256": "26c9f8c96e7fb590a631c5ae9c10b1a09e3492d50a77e7cdce393749cd5430b2"
+          }
+        },
+        "width": 960,
+        "height": 640,
+        "reviewedAt": "2026-11-09",
+        "visualObservation": "Limbažu vecpilsētas laukums ar vēsturiskām ēkām",
+        "reviewEvidence": "contact-sheets/03.jpg",
+        "downloadedFrom": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Limba%C5%BEu_vecpils%C4%93ta.jpg/960px-Limba%C5%BEu_vecpils%C4%93ta.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "downloadedSourceSha256": "19c7dc067177408da8ede5f2c2c7367ee4ab13f8da1fdd0b5bf8722d185a8d90",
+        "reviewedDerivativeSha256": "c470d301fbb9ec4da78da7aad4110eff9052aed68da8677ef3ce9a762b2cd283"
+      },
+      "photoSelectionSource": "https://www.wikidata.org/wiki/Q166684#P18"
+    },
+    {
+      "id": "livani",
+      "name": "Līvāni",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Līvāni",
+      "lat": 56.353889,
+      "lon": 26.176111,
+      "timeZone": "Europe/Riga",
+      "wikidataId": "Q849156",
+      "coordinateSource": "https://www.wikidata.org/wiki/Q849156",
+      "photo": {
+        "src": "/assets/cities/livani-960.webp",
+        "srcset": "/assets/cities/livani-480.webp 480w, /assets/cities/livani-960.webp 960w",
+        "alt": "Līvānu centra iela ar ēkām un kokiem",
+        "author": "Martins Smits",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:L%C4%ABv%C4%81ni_center_-_panoramio.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5a/L%C4%ABv%C4%81ni_center_-_panoramio.jpg",
+        "commonsFile": "Līvāni center - panoramio.jpg",
+        "description": "Līvāni center",
+        "derivative": "Resized and converted to WebP; display crop may apply.",
+        "files": {
+          "960": {
+            "width": 960,
+            "height": 640,
+            "bytes": 145472,
+            "sha256": "a22a1bec452a2fba8504acb564a77721b5b0ff6239bd6a487c763981ac8074e9"
+          },
+          "480": {
+            "width": 480,
+            "height": 320,
+            "bytes": 39706,
+            "sha256": "2c1f37993a480f28de714b3d1fa63f960770477e498cfacfe70542e0c91b9fd7"
+          }
+        },
+        "width": 960,
+        "height": 640,
+        "reviewedAt": "2026-11-09",
+        "visualObservation": "Līvānu centra iela ar ēkām un kokiem",
+        "reviewEvidence": "contact-sheets/03.jpg",
+        "downloadedFrom": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/L%C4%ABv%C4%81ni_center_-_panoramio.jpg/960px-L%C4%ABv%C4%81ni_center_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "downloadedSourceSha256": "2d58ebea30b3f538da65eb34b892f70dfd2ba33cd1424abca2cbde5a40f78a83",
+        "reviewedDerivativeSha256": "a22a1bec452a2fba8504acb564a77721b5b0ff6239bd6a487c763981ac8074e9"
+      },
+      "photoSelectionSource": "https://www.wikidata.org/wiki/Q849156#P18"
+    },
+    {
+      "id": "lubana",
+      "name": "Lubāna",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Lubāna",
+      "lat": 56.901667,
+      "lon": 26.722778,
+      "timeZone": "Europe/Riga",
+      "wikidataId": "Q844477",
+      "coordinateSource": "https://www.wikidata.org/wiki/Q844477",
+      "photo": {
+        "src": "/assets/cities/lubana-960.webp",
+        "srcset": "/assets/cities/lubana-480.webp 480w, /assets/cities/lubana-960.webp 960w",
+        "alt": "Oskara Kalpaka iela Lubānā skatā no augšas",
+        "author": "Tropakristina",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lub%C4%81na,_Oskara_Kalpaka_iela.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/82/Lub%C4%81na%2C_Oskara_Kalpaka_iela.jpg",
+        "commonsFile": "Lubāna, Oskara Kalpaka iela.jpg",
+        "description": "Lubāna, Oskara Kalpaka iela",
+        "derivative": "Resized and converted to WebP; display crop may apply.",
+        "files": {
+          "960": {
+            "width": 960,
+            "height": 539,
+            "bytes": 156920,
+            "sha256": "f22795d347bed1b30394f26078db5b990fd1a83d24e33b89ad101afefefd17b7"
+          },
+          "480": {
+            "width": 480,
+            "height": 270,
+            "bytes": 37724,
+            "sha256": "74406d8c67890f16f8ba652b341aed877445d05cadf379ae5755402f010b742e"
+          }
+        },
+        "width": 960,
+        "height": 539,
+        "reviewedAt": "2026-11-09",
+        "visualObservation": "Oskara Kalpaka iela Lubānā skatā no augšas",
+        "reviewEvidence": "contact-sheets/03.jpg",
+        "downloadedFrom": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Lub%C4%81na%2C_Oskara_Kalpaka_iela.jpg/960px-Lub%C4%81na%2C_Oskara_Kalpaka_iela.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "downloadedSourceSha256": "709c42eb38a0ebca5760b15e2dbe4eacb0b14949b61896d4b32229e00d709d48",
+        "reviewedDerivativeSha256": "f22795d347bed1b30394f26078db5b990fd1a83d24e33b89ad101afefefd17b7"
+      },
+      "photoSelectionSource": "https://www.wikidata.org/wiki/Q844477#P18"
+    },
+    {
+      "id": "ludza",
+      "name": "Ludza",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Ludza",
+      "lat": 56.543889,
+      "lon": 27.721111,
+      "timeZone": "Europe/Riga",
+      "wikidataId": "Q744259",
+      "coordinateSource": "https://www.wikidata.org/wiki/Q744259",
+      "photo": {
+        "src": "/assets/cities/ludza-960.webp",
+        "srcset": "/assets/cities/ludza-480.webp 480w, /assets/cities/ludza-960.webp 960w",
+        "alt": "Ludzas vecpilsētas jumti un pilsdrupas",
+        "author": "Joostik Pieter Joost Lemmens",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ludza_Panorama.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Ludza_Panorama.jpg",
+        "commonsFile": "Ludza Panorama.jpg",
+        "description": "Ludza, Latvia",
+        "derivative": "Resized and converted to WebP; display crop may apply.",
+        "files": {
+          "960": {
+            "width": 960,
+            "height": 720,
+            "bytes": 143418,
+            "sha256": "4d1821464cb9c894a99967b8379393aea276403038f115ad672b804041a048bb"
+          },
+          "480": {
+            "width": 480,
+            "height": 360,
+            "bytes": 36696,
+            "sha256": "195f9913bb37834955e8e1a086cbeadc0a49b6d67cbb8becfe05230e9a6f4964"
+          }
+        },
+        "width": 960,
+        "height": 720,
+        "reviewedAt": "2026-11-09",
+        "visualObservation": "Ludzas vecpilsētas jumti un pilsdrupas",
+        "reviewEvidence": "contact-sheets/04.jpg",
+        "downloadedFrom": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/Ludza_Panorama.jpg/960px-Ludza_Panorama.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "downloadedSourceSha256": "b6b555c2ca6cec1badaff1d7c48ccc1cc888107c5fc1f1fce438e778e03302e5",
+        "reviewedDerivativeSha256": "4d1821464cb9c894a99967b8379393aea276403038f115ad672b804041a048bb"
+      },
+      "photoSelectionSource": "https://www.wikidata.org/wiki/Q744259#P18"
+    },
+    {
+      "id": "madona",
+      "name": "Madona",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Madona,_Latvia",
+      "lat": 56.854167,
+      "lon": 26.220556,
+      "timeZone": "Europe/Riga",
+      "wikidataId": "Q586048",
+      "coordinateSource": "https://www.wikidata.org/wiki/Q586048",
+      "photo": {
+        "src": "/assets/cities/madona-960.webp",
+        "srcset": "/assets/cities/madona-480.webp 480w, /assets/cities/madona-960.webp 960w",
+        "alt": "Madonas pilsētas centrs skatā no augšas",
+        "author": "The original uploader was Apogs88 at Latvian Wikipedia .",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Madona_Stad.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/88/Madona_Stad.jpg",
+        "commonsFile": "Madona Stad.jpg",
+        "description": "Skats uz Madonu no Saieta nama. 2006. gada 28. aprīlī.",
+        "derivative": "Resized and converted to WebP; display crop may apply.",
+        "files": {
+          "960": {
+            "width": 960,
+            "height": 720,
+            "bytes": 76696,
+            "sha256": "9a864769885bfb2ffa34e86785dd45d88b79e4ee4428241131bef394636c825a"
+          },
+          "480": {
+            "width": 480,
+            "height": 360,
+            "bytes": 22924,
+            "sha256": "e1ab23f1822ccdb233ffbe1ff450bec63c587e926801325e1f73263307867401"
+          }
+        },
+        "width": 960,
+        "height": 720,
+        "reviewedAt": "2026-11-09",
+        "visualObservation": "Madonas pilsētas centrs skatā no augšas",
+        "reviewEvidence": "contact-sheets/04.jpg",
+        "downloadedFrom": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Madona_Stad.jpg/960px-Madona_Stad.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "downloadedSourceSha256": "314e14f82cd996f60126a03700d1cfc3fbb811412c06f577d27cf4a086819ebf",
+        "reviewedDerivativeSha256": "9a864769885bfb2ffa34e86785dd45d88b79e4ee4428241131bef394636c825a"
+      },
+      "photoSelectionSource": "https://www.wikidata.org/wiki/Q586048#P18"
+    },
+    {
+      "id": "mazsalaca",
+      "name": "Mazsalaca",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Mazsalaca",
+      "lat": 57.866667,
+      "lon": 25.05,
+      "timeZone": "Europe/Riga",
+      "wikidataId": "Q844468",
+      "coordinateSource": "https://www.wikidata.org/wiki/Q844468",
+      "photo": {
+        "src": "/assets/cities/mazsalaca-960.webp",
+        "srcset": "/assets/cities/mazsalaca-480.webp 480w, /assets/cities/mazsalaca-960.webp 960w",
+        "alt": "Baznīcas iela Mazsalacā ar ķieģeļu un koka ēkām",
+        "author": "Pudelek (Marcin Szala)",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bazn%C4%ABcas_iela_(Mazsalaca).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/ff/Bazn%C4%ABcas_iela_%28Mazsalaca%29.jpg",
+        "commonsFile": "Baznīcas iela (Mazsalaca).jpg",
+        "description": "Baznīcas iela, Mazsalaca",
+        "derivative": "Resized and converted to WebP; display crop may apply.",
+        "files": {
+          "960": {
+            "width": 960,
+            "height": 720,
+            "bytes": 115814,
+            "sha256": "b1a09fb900a1337093631a81480daf2b5914db383d027780ba1004429e55846f"
+          },
+          "480": {
+            "width": 480,
+            "height": 360,
+            "bytes": 30270,
+            "sha256": "19af0e71afc9e2b613ee86c5c65a2023cc79c96da5ba9af2325c4aa4c0658ed2"
+          }
+        },
+        "width": 960,
+        "height": 720,
+        "reviewedAt": "2026-11-09",
+        "visualObservation": "Baznīcas iela Mazsalacā ar ķieģeļu un koka ēkām",
+        "reviewEvidence": "contact-sheets/04.jpg",
+        "downloadedFrom": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Bazn%C4%ABcas_iela_%28Mazsalaca%29.jpg/960px-Bazn%C4%ABcas_iela_%28Mazsalaca%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "downloadedSourceSha256": "e0aa7d1c039a83df9a4fd829b26e4cf0c76541a89506f7b813ce3fd615b8ce2f",
+        "reviewedDerivativeSha256": "b1a09fb900a1337093631a81480daf2b5914db383d027780ba1004429e55846f"
+      },
+      "photoSelectionSource": "https://www.wikidata.org/wiki/Q844468#P18"
+    },
+    {
+      "id": "marupe",
+      "name": "Mārupe",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Mārupe",
+      "lat": 56.906944,
+      "lon": 24.0575,
+      "timeZone": "Europe/Riga",
+      "wikidataId": "Q987175",
+      "coordinateSource": "https://www.wikidata.org/wiki/Q987175",
+      "photo": {
+        "src": "/assets/cities/marupe-960.webp",
+        "srcset": "/assets/cities/marupe-480.webp 480w, /assets/cities/marupe-960.webp 960w",
+        "alt": "Mārupes dzīvojamās ēkas pie Zeltrītu ielas",
+        "author": "Egilus",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:M%C4%81rupe,_near_Zeltr%C4%ABtu_street_(houses_N10,_4,_2,_8).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a9/M%C4%81rupe%2C_near_Zeltr%C4%ABtu_street_%28houses_N10%2C_4%2C_2%2C_8%29.jpg",
+        "commonsFile": "Mārupe, near Zeltrītu street (houses N10, 4, 2, 8).jpg",
+        "description": "Mārupe, near Zeltrītu street (houses N10, 4, 2, 8)",
+        "derivative": "Resized and converted to WebP; display crop may apply.",
+        "files": {
+          "960": {
+            "width": 960,
+            "height": 619,
+            "bytes": 193904,
+            "sha256": "015d244f08ffa5555733dbfbc63b364c588d902935285cb9b92b743d5801c19c"
+          },
+          "480": {
+            "width": 480,
+            "height": 310,
+            "bytes": 45232,
+            "sha256": "45964573b10aabc2a81a9a376ddb2a642f8ad392f212adc3e09d7cc7fbc4e159"
+          }
+        },
+        "width": 960,
+        "height": 619,
+        "reviewedAt": "2026-11-09",
+        "visualObservation": "Mārupes dzīvojamās ēkas pie Zeltrītu ielas",
+        "reviewEvidence": "contact-sheets/04.jpg",
+        "downloadedFrom": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/M%C4%81rupe%2C_near_Zeltr%C4%ABtu_street_%28houses_N10%2C_4%2C_2%2C_8%29.jpg/960px-M%C4%81rupe%2C_near_Zeltr%C4%ABtu_street_%28houses_N10%2C_4%2C_2%2C_8%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "downloadedSourceSha256": "18b605572e807416f612fe154fb4ac135ed1f7a21cd88cb16bd0e2f324fc6133",
+        "reviewedDerivativeSha256": "015d244f08ffa5555733dbfbc63b364c588d902935285cb9b92b743d5801c19c"
+      },
+      "photoSelectionSource": "https://www.wikidata.org/wiki/Q987175#P18"
+    },
+    {
+      "id": "olaine",
+      "name": "Olaine",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Olaine",
+      "lat": 56.784444,
+      "lon": 23.936944,
+      "timeZone": "Europe/Riga",
+      "wikidataId": "Q249715",
+      "coordinateSource": "https://www.wikidata.org/wiki/Q249715",
+      "photo": {
+        "src": "/assets/cities/olaine-960.webp",
+        "srcset": "/assets/cities/olaine-480.webp 480w, /assets/cities/olaine-960.webp 960w",
+        "alt": "Olaines pirmās vidusskolas ēka un laukums tās priekšā",
+        "author": "Treisijs",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Olaines_1._vidusskola.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Olaines_1._vidusskola.jpg",
+        "commonsFile": "Olaines 1. vidusskola.jpg",
+        "description": "Olaines 1. vidusskola",
+        "derivative": "Resized and converted to WebP; display crop may apply.",
+        "files": {
+          "960": {
+            "width": 960,
+            "height": 540,
+            "bytes": 128060,
+            "sha256": "f92cec85075787511c9e9d19d31638ca1cb188c39a3c49b48465b74108c1d8fe"
+          },
+          "480": {
+            "width": 480,
+            "height": 270,
+            "bytes": 26878,
+            "sha256": "7586063212552aeda3c8943159ad66c30d1d93cf85cd636b6f5fa106d03f8a9f"
+          }
+        },
+        "width": 960,
+        "height": 540,
+        "reviewedAt": "2026-11-09",
+        "visualObservation": "Olaines pirmās vidusskolas ēka un laukums tās priekšā",
+        "reviewEvidence": "contact-sheets/04.jpg",
+        "downloadedFrom": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/Olaines_1._vidusskola.jpg/960px-Olaines_1._vidusskola.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "downloadedSourceSha256": "1bf2021a55398571493f870ccc676939cca8aea1a42061b431bf2d217fdf313a",
+        "reviewedDerivativeSha256": "f92cec85075787511c9e9d19d31638ca1cb188c39a3c49b48465b74108c1d8fe"
+      },
+      "photoSelectionSource": "https://www.wikidata.org/wiki/Q249715#P18"
+    },
+    {
+      "id": "pavilosta",
+      "name": "Pāvilosta",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Pāvilosta",
+      "lat": 56.887778,
+      "lon": 21.184167,
+      "timeZone": "Europe/Riga",
+      "wikidataId": "Q840717",
+      "coordinateSource": "https://www.wikidata.org/wiki/Q840717",
+      "photo": {
+        "src": "/assets/cities/pavilosta-960.webp",
+        "srcset": "/assets/cities/pavilosta-480.webp 480w, /assets/cities/pavilosta-960.webp 960w",
+        "alt": "Pāvilostas iela ar koka namiem un Latvijas karogiem",
+        "author": "Bruno Rijsman",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Baltic_Coast_Trail_(May-June_2019,_Latvia)_-_337_(49991628627).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/02/Baltic_Coast_Trail_%28May-June_2019%2C_Latvia%29_-_337_%2849991628627%29.jpg",
+        "commonsFile": "Baltic Coast Trail (May-June 2019, Latvia) - 337 (49991628627).jpg",
+        "description": "Baltic Coast Trail (May-June 2019, Latvia) - 337",
+        "derivative": "Resized and converted to WebP; display crop may apply.",
+        "files": {
+          "960": {
+            "width": 960,
+            "height": 640,
+            "bytes": 122176,
+            "sha256": "e683916250eed71c8281c7b20825448d362d27a99c1fcf3a8e73f37bba216b43"
+          },
+          "480": {
+            "width": 480,
+            "height": 320,
+            "bytes": 35222,
+            "sha256": "705acc9da90b994b5ddcf3ab63bcb7a785bcfc003835eb7344bbd86f9fd30e91"
+          }
+        },
+        "width": 960,
+        "height": 640,
+        "reviewedAt": "2026-11-09",
+        "visualObservation": "Pāvilostas iela ar koka namiem un Latvijas karogiem",
+        "reviewEvidence": "contact-sheets/04.jpg",
+        "downloadedFrom": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Baltic_Coast_Trail_%28May-June_2019%2C_Latvia%29_-_337_%2849991628627%29.jpg/960px-Baltic_Coast_Trail_%28May-June_2019%2C_Latvia%29_-_337_%2849991628627%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "downloadedSourceSha256": "f4926b244a667033eee4337e6f461eaf5e6137548c62234723ccaefdd0e3a5d5",
+        "reviewedDerivativeSha256": "e683916250eed71c8281c7b20825448d362d27a99c1fcf3a8e73f37bba216b43"
+      },
+      "photoSelectionSource": "https://www.wikidata.org/wiki/Q840717#P18"
+    },
+    {
+      "id": "piltene",
+      "name": "Piltene",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Piltene",
+      "lat": 57.225556,
+      "lon": 21.676111,
+      "timeZone": "Europe/Riga",
+      "wikidataId": "Q838491",
+      "coordinateSource": "https://www.wikidata.org/wiki/Q838491",
+      "photo": {
+        "src": "/assets/cities/piltene-960.webp",
+        "srcset": "/assets/cities/piltene-480.webp 480w, /assets/cities/piltene-960.webp 960w",
+        "alt": "Piltenes pilsdrupas un baznīcas tornis",
+        "author": "original download by Kikos , transferred to the Commons by Furfur",
+        "license": "CC BY-SA 3.0 de",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Piltenes_pilsdrupas_un_bazn%C4%ABca.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Piltenes_pilsdrupas_un_bazn%C4%ABca.jpg",
+        "commonsFile": "Piltenes pilsdrupas un baznīca.jpg",
+        "description": "Piltene/Pilten in Kurland",
+        "derivative": "Resized and converted to WebP; display crop may apply.",
+        "files": {
+          "960": {
+            "width": 960,
+            "height": 720,
+            "bytes": 189546,
+            "sha256": "476e7501272dcfa99ed8d382e96f11ad309fd574f0484b218431db8c419a9a8b"
+          },
+          "480": {
+            "width": 480,
+            "height": 360,
+            "bytes": 53216,
+            "sha256": "8bba649384c56b9d7df75cf12d19890a4ba2210488f30937be6ba9274fc2ad29"
+          }
+        },
+        "width": 960,
+        "height": 720,
+        "reviewedAt": "2026-11-09",
+        "visualObservation": "Piltenes pilsdrupas un baznīcas tornis",
+        "reviewEvidence": "contact-sheets/04.jpg",
+        "downloadedFrom": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/Piltenes_pilsdrupas_un_bazn%C4%ABca.jpg/960px-Piltenes_pilsdrupas_un_bazn%C4%ABca.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "downloadedSourceSha256": "f533b21cf3079b825a4dbb04580e81d0667bfc8a8e404e50706e215a17794b95",
+        "reviewedDerivativeSha256": "476e7501272dcfa99ed8d382e96f11ad309fd574f0484b218431db8c419a9a8b"
+      },
+      "photoSelectionSource": "https://www.wikidata.org/wiki/Q838491#P18"
+    },
+    {
+      "id": "plavinas",
+      "name": "Pļaviņas",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Pļaviņas",
+      "lat": 56.616111,
+      "lon": 25.721667,
+      "timeZone": "Europe/Riga",
+      "wikidataId": "Q567747",
+      "coordinateSource": "https://www.wikidata.org/wiki/Q567747",
+      "photo": {
+        "src": "/assets/cities/plavinas-960.webp",
+        "srcset": "/assets/cities/plavinas-480.webp 480w, /assets/cities/plavinas-960.webp 960w",
+        "alt": "Pļaviņu baznīca un pilsētas kvartāli skatā no augšas",
+        "author": "Edgars Šulcs",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:P%C4%BCavi%C5%86u_luter%C4%81%C5%86u_bazn%C4%ABca_(3).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/55/P%C4%BCavi%C5%86u_luter%C4%81%C5%86u_bazn%C4%ABca_%283%29.jpg",
+        "commonsFile": "Pļaviņu luterāņu baznīca (3).jpg",
+        "description": "This is a photo of cultural heritage monument of Latvia number",
+        "derivative": "Resized and converted to WebP; display crop may apply.",
+        "files": {
+          "960": {
+            "width": 960,
+            "height": 720,
+            "bytes": 216408,
+            "sha256": "2abca54db697336974984090c1235cc19ad986852b84720422d5585a5b9cd833"
+          },
+          "480": {
+            "width": 480,
+            "height": 360,
+            "bytes": 54934,
+            "sha256": "3fc5f17517555bb882f86062dc6867956b6fe68f952f8197cb38f0bf53fb9060"
+          }
+        },
+        "width": 960,
+        "height": 720,
+        "reviewedAt": "2026-11-09",
+        "visualObservation": "Pļaviņu baznīca un pilsētas kvartāli skatā no augšas",
+        "reviewEvidence": "contact-sheets/04.jpg",
+        "downloadedFrom": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/P%C4%BCavi%C5%86u_luter%C4%81%C5%86u_bazn%C4%ABca_%283%29.jpg/960px-P%C4%BCavi%C5%86u_luter%C4%81%C5%86u_bazn%C4%ABca_%283%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "downloadedSourceSha256": "1071f6c2354f178d49ba0768901c3aa60e1a50880cea1b667078adcf92f77372",
+        "reviewedDerivativeSha256": "2abca54db697336974984090c1235cc19ad986852b84720422d5585a5b9cd833"
+      },
+      "photoSelectionSource": "https://www.wikidata.org/wiki/Q567747#P18"
+    },
+    {
+      "id": "preili",
+      "name": "Preiļi",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Preiļi",
+      "lat": 56.294167,
+      "lon": 26.724722,
+      "timeZone": "Europe/Riga",
+      "wikidataId": "Q858476",
+      "coordinateSource": "https://www.wikidata.org/wiki/Q858476",
+      "photo": {
+        "src": "/assets/cities/preili-960.webp",
+        "srcset": "/assets/cities/preili-480.webp 480w, /assets/cities/preili-960.webp 960w",
+        "alt": "Preiļu katoļu baznīca aiz rudens kokiem",
+        "author": "Julo",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Preili_kosciol.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/52/Preili_kosciol.jpg",
+        "commonsFile": "Preili kosciol.jpg",
+        "description": "Prele - kościół rzymskokatolicki p.w. NMP",
+        "derivative": "Resized and converted to WebP; display crop may apply.",
+        "files": {
+          "960": {
+            "width": 960,
+            "height": 727,
+            "bytes": 263750,
+            "sha256": "0f2cae8274f68377f278837dc2480f017f2ca228d5e6e708f65955ff5e9a4296"
+          },
+          "480": {
+            "width": 480,
+            "height": 364,
+            "bytes": 60556,
+            "sha256": "6b48e6ee922533e2bfd4a53671bd8c68bb6a4359a860db831e5a9afa6bd4fd18"
+          }
+        },
+        "width": 960,
+        "height": 727,
+        "reviewedAt": "2026-11-09",
+        "visualObservation": "Preiļu katoļu baznīca aiz rudens kokiem",
+        "reviewEvidence": "contact-sheets/04.jpg",
+        "downloadedFrom": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/Preili_kosciol.jpg/960px-Preili_kosciol.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "downloadedSourceSha256": "756c94bdbad7622024f014b7f473d35fcb4ae9d19c45e55063a24c4ef5b3bf7e",
+        "reviewedDerivativeSha256": "0f2cae8274f68377f278837dc2480f017f2ca228d5e6e708f65955ff5e9a4296"
+      },
+      "photoSelectionSource": "https://www.wikidata.org/wiki/Q858476#P18"
+    },
+    {
+      "id": "priekule",
+      "name": "Priekule",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Priekule,_Latvia",
+      "lat": 56.447222,
+      "lon": 21.593333,
+      "timeZone": "Europe/Riga",
+      "wikidataId": "Q908683",
+      "coordinateSource": "https://www.wikidata.org/wiki/Q908683",
+      "photo": {
+        "src": "/assets/cities/priekule-960.webp",
+        "srcset": "/assets/cities/priekule-480.webp 480w, /assets/cities/priekule-960.webp 960w",
+        "alt": "Vēsturiskie vārti Priekulē ar puķu dobēm priekšplānā",
+        "author": "Prometejs",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gates_at_The_Evening.JPG",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/87/Gates_at_The_Evening.JPG",
+        "commonsFile": "Gates at The Evening.JPG",
+        "description": "This is a photo of cultural heritage monument of Latvia number",
+        "derivative": "Resized and converted to WebP; display crop may apply.",
+        "files": {
+          "960": {
+            "width": 960,
+            "height": 636,
+            "bytes": 143816,
+            "sha256": "4746de3955792e30656a4955cc6924813a5484ff0cf5a1503089d6c4f825402c"
+          },
+          "480": {
+            "width": 480,
+            "height": 318,
+            "bytes": 39516,
+            "sha256": "7a3060493d7064c68c0ea15566292232058df06fbbe030290f0a2032948f5ead"
+          }
+        },
+        "width": 960,
+        "height": 636,
+        "reviewedAt": "2026-11-09",
+        "visualObservation": "Vēsturiskie vārti Priekulē ar puķu dobēm priekšplānā",
+        "reviewEvidence": "contact-sheets/04.jpg",
+        "downloadedFrom": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Gates_at_The_Evening.JPG/960px-Gates_at_The_Evening.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "downloadedSourceSha256": "c79d184be3656fe81014454894bd59373d0f4cd98ae507aa0ed7a5485de397d1",
+        "reviewedDerivativeSha256": "4746de3955792e30656a4955cc6924813a5484ff0cf5a1503089d6c4f825402c"
+      },
+      "photoSelectionSource": "https://www.wikidata.org/wiki/Q908683#P18"
+    },
+    {
+      "id": "rujiena",
+      "name": "Rūjiena",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Rūjiena",
+      "lat": 57.896944,
+      "lon": 25.326111,
+      "timeZone": "Europe/Riga",
+      "wikidataId": "Q765976",
+      "coordinateSource": "https://www.wikidata.org/wiki/Q765976",
+      "photo": {
+        "src": "/assets/cities/rujiena-960.webp",
+        "srcset": "/assets/cities/rujiena-480.webp 480w, /assets/cities/rujiena-960.webp 960w",
+        "alt": "Rūjienas pašvaldības ēka un pilsētas iela",
+        "author": "J. Sedols",
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:R%C5%ABjienas_pils%C4%93tas_dome_2000-08-05_-_panoramio.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b2/R%C5%ABjienas_pils%C4%93tas_dome_2000-08-05_-_panoramio.jpg",
+        "commonsFile": "Rūjienas pilsētas dome 2000-08-05 - panoramio.jpg",
+        "description": "Rūjienas pilsētas dome, 2000-08-05",
+        "derivative": "Resized and converted to WebP; display crop may apply.",
+        "files": {
+          "960": {
+            "width": 960,
+            "height": 720,
+            "bytes": 124648,
+            "sha256": "0afbf733ca9d16a3f2cd11dc538f432f1cd457b51af47573be4a486d2a0d32a2"
+          },
+          "480": {
+            "width": 480,
+            "height": 360,
+            "bytes": 41072,
+            "sha256": "ab63d7501e8a41783aea03a684ef12a18b67145aa286f4840381f2c3e51471ab"
+          }
+        },
+        "width": 960,
+        "height": 720,
+        "reviewedAt": "2026-11-09",
+        "visualObservation": "Rūjienas pašvaldības ēka un pilsētas iela",
+        "reviewEvidence": "contact-sheets/04.jpg",
+        "downloadedFrom": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/R%C5%ABjienas_pils%C4%93tas_dome_2000-08-05_-_panoramio.jpg/960px-R%C5%ABjienas_pils%C4%93tas_dome_2000-08-05_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "downloadedSourceSha256": "04530b4458af43ba0b3978d5da2d62df7ef3fe3d62594b5dd1df09e90eb88cb8",
+        "reviewedDerivativeSha256": "0afbf733ca9d16a3f2cd11dc538f432f1cd457b51af47573be4a486d2a0d32a2"
+      },
+      "photoSelectionSource": "https://www.wikidata.org/wiki/Q765976#P18"
+    },
+    {
+      "id": "sabile",
+      "name": "Sabile",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Sabile",
+      "lat": 57.045833,
+      "lon": 22.572778,
+      "timeZone": "Europe/Riga",
+      "wikidataId": "Q650475",
+      "coordinateSource": "https://www.wikidata.org/wiki/Q650475",
+      "photo": {
+        "src": "/assets/cities/sabile-960.webp",
+        "srcset": "/assets/cities/sabile-480.webp 480w, /assets/cities/sabile-960.webp 960w",
+        "alt": "Sabiles pilsēta zaļā Abavas senlejas ainavā",
+        "author": "Ainars Brūvelis",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sabile_-_panoramio_(2).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/32/Sabile_-_panoramio_%282%29.jpg",
+        "commonsFile": "Sabile - panoramio (2).jpg",
+        "description": "Sabile",
+        "derivative": "Resized and converted to WebP; display crop may apply.",
+        "files": {
+          "960": {
+            "width": 960,
+            "height": 720,
+            "bytes": 121552,
+            "sha256": "4d9b393c75be2ea615f48584fc7738857ee152ad783d7868d6fd0f75aa506e6a"
+          },
+          "480": {
+            "width": 480,
+            "height": 360,
+            "bytes": 38886,
+            "sha256": "050e9a9f91f5af98c70ec8b9575158698367486941804b989ffc452dceb3416d"
+          }
+        },
+        "width": 960,
+        "height": 720,
+        "reviewedAt": "2026-11-09",
+        "visualObservation": "Sabiles pilsēta zaļā Abavas senlejas ainavā",
+        "reviewEvidence": "contact-sheets/04.jpg",
+        "downloadedFrom": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Sabile_-_panoramio_%282%29.jpg/960px-Sabile_-_panoramio_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "downloadedSourceSha256": "de135baf0a4e145a224fca6a1ae03d05d27355484eda65afed4727bde58420f3",
+        "reviewedDerivativeSha256": "4d9b393c75be2ea615f48584fc7738857ee152ad783d7868d6fd0f75aa506e6a"
+      },
+      "photoSelectionSource": "https://www.wikidata.org/wiki/Q650475#P18"
+    },
+    {
+      "id": "salacgriva",
+      "name": "Salacgrīva",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Salacgrīva",
+      "lat": 57.749444,
+      "lon": 24.358611,
+      "timeZone": "Europe/Riga",
+      "wikidataId": "Q659665",
+      "coordinateSource": "https://www.wikidata.org/wiki/Q659665",
+      "photo": {
+        "src": "/assets/cities/salacgriva-960.webp",
+        "srcset": "/assets/cities/salacgriva-480.webp 480w, /assets/cities/salacgriva-960.webp 960w",
+        "alt": "Vēsturiskās koka un ķieģeļu ēkas Salacgrīvā",
+        "author": "Otto Magnus",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:J%C5%ABras_iela_4_un_R%C4%ABgas_iela_8.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/06/J%C5%ABras_iela_4_un_R%C4%ABgas_iela_8.jpg",
+        "commonsFile": "Jūras iela 4 un Rīgas iela 8.jpg",
+        "description": "Jūras iela 4 un Rīgas iela 8, Salacgrīva",
+        "derivative": "Resized and converted to WebP; display crop may apply.",
+        "files": {
+          "960": {
+            "width": 960,
+            "height": 720,
+            "bytes": 113640,
+            "sha256": "fbc2e2e3158dad13bee5948e285d28381215f02b9d745fa71d3dc09e80126384"
+          },
+          "480": {
+            "width": 480,
+            "height": 360,
+            "bytes": 27152,
+            "sha256": "dc31cd88caedb4a13acf5570cdbb2aa09141860360404eed5a273db1228a8e0d"
+          }
+        },
+        "width": 960,
+        "height": 720,
+        "reviewedAt": "2026-11-09",
+        "visualObservation": "Vēsturiskās koka un ķieģeļu ēkas Salacgrīvā",
+        "reviewEvidence": "contact-sheets/04.jpg",
+        "downloadedFrom": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/J%C5%ABras_iela_4_un_R%C4%ABgas_iela_8.jpg/960px-J%C5%ABras_iela_4_un_R%C4%ABgas_iela_8.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "downloadedSourceSha256": "599981d993b592cfea27f5eb7c189ce7f7f901967561ba511a90fac49f51ec59",
+        "reviewedDerivativeSha256": "fbc2e2e3158dad13bee5948e285d28381215f02b9d745fa71d3dc09e80126384"
+      },
+      "photoSelectionSource": "https://www.wikidata.org/wiki/Q659665#P18"
+    },
+    {
+      "id": "salaspils",
+      "name": "Salaspils",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Salaspils",
+      "lat": 56.861389,
+      "lon": 24.35,
+      "timeZone": "Europe/Riga",
+      "wikidataId": "Q732986",
+      "coordinateSource": "https://www.wikidata.org/wiki/Q732986",
+      "photo": {
+        "src": "/assets/cities/salaspils-960.webp",
+        "srcset": "/assets/cities/salaspils-480.webp 480w, /assets/cities/salaspils-960.webp 640w",
+        "alt": "Salaspils dzīvojamie kvartāli un stadions skatā no augšas",
+        "author": "ogre11",
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Salaspils_-_ogre11_-_Panoramio.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/85/Salaspils_-_ogre11_-_Panoramio.jpg",
+        "commonsFile": "Salaspils - ogre11 - Panoramio.jpg",
+        "description": "Salaspils",
+        "derivative": "Resized and converted to WebP; display crop may apply.",
+        "files": {
+          "960": {
+            "width": 640,
+            "height": 425,
+            "bytes": 86686,
+            "sha256": "4489111bc77bcecc83907ffa787d2f2a968e77461ef9a1cca1d6eae0314f9028"
+          },
+          "480": {
+            "width": 480,
+            "height": 319,
+            "bytes": 50504,
+            "sha256": "7f374a1e786f2bca21e068a66a5d5dc0069492cb6fb2caa3d80cde7a0b666c71"
+          }
+        },
+        "width": 640,
+        "height": 425,
+        "reviewedAt": "2026-11-09",
+        "visualObservation": "Salaspils dzīvojamie kvartāli un stadions skatā no augšas",
+        "reviewEvidence": "contact-sheets/04.jpg",
+        "downloadedFrom": "https://upload.wikimedia.org/wikipedia/commons/8/85/Salaspils_-_ogre11_-_Panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "downloadedSourceSha256": "f782a2437ddbe95535b3eb007405a6865c08fad5d5c2f63a92d3c1f4bbf90776",
+        "reviewedDerivativeSha256": "4489111bc77bcecc83907ffa787d2f2a968e77461ef9a1cca1d6eae0314f9028"
+      },
+      "photoSelectionSource": "https://www.wikidata.org/wiki/Q732986#P18"
+    },
+    {
+      "id": "saldus",
+      "name": "Saldus",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Saldus",
+      "lat": 56.666667,
+      "lon": 22.493611,
+      "timeZone": "Europe/Riga",
+      "wikidataId": "Q744247",
+      "coordinateSource": "https://www.wikidata.org/wiki/Q744247",
+      "photo": {
+        "src": "/assets/cities/saldus-960.webp",
+        "srcset": "/assets/cities/saldus-480.webp 480w, /assets/cities/saldus-960.webp 960w",
+        "alt": "Saldus centra laukums ar apstādījumiem un vēsturiskām ēkām",
+        "author": "Modris Putns",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Saldus_-_panoramio_(1).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Saldus_-_panoramio_%281%29.jpg",
+        "commonsFile": "Saldus - panoramio (1).jpg",
+        "description": "Saldus",
+        "derivative": "Resized and converted to WebP; display crop may apply.",
+        "files": {
+          "960": {
+            "width": 960,
+            "height": 476,
+            "bytes": 86950,
+            "sha256": "f63ecab7c3a4c400996b9f7fdc8831bd8f9e1478f4c08e5be0c78bce168fc445"
+          },
+          "480": {
+            "width": 480,
+            "height": 238,
+            "bytes": 23426,
+            "sha256": "e7ae54d7af279aa273870e2ae8affd4fc99ba3e200ecf40ac438768c3cd2ce20"
+          }
+        },
+        "width": 960,
+        "height": 476,
+        "reviewedAt": "2026-11-09",
+        "visualObservation": "Saldus centra laukums ar apstādījumiem un vēsturiskām ēkām",
+        "reviewEvidence": "contact-sheets/04.jpg",
+        "downloadedFrom": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Saldus_-_panoramio_%281%29.jpg/960px-Saldus_-_panoramio_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "downloadedSourceSha256": "3474e5190860f878c6faba553166400bfca0aed09e37359e69f57805d28d6c38",
+        "reviewedDerivativeSha256": "f63ecab7c3a4c400996b9f7fdc8831bd8f9e1478f4c08e5be0c78bce168fc445"
+      },
+      "photoSelectionSource": "https://www.wikidata.org/wiki/Q744247#P18"
+    },
+    {
+      "id": "saulkrasti",
+      "name": "Saulkrasti",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Saulkrasti",
+      "lat": 57.263611,
+      "lon": 24.416389,
+      "timeZone": "Europe/Riga",
+      "wikidataId": "Q840823",
+      "coordinateSource": "https://www.wikidata.org/wiki/Q840823",
+      "photo": {
+        "src": "/assets/cities/saulkrasti-960.webp",
+        "srcset": "/assets/cities/saulkrasti-480.webp 480w, /assets/cities/saulkrasti-960.webp 960w",
+        "alt": "Inčupes ieteka jūrā un Saulkrastu pludmale",
+        "author": "User Exxu on de.wikipedia",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:SaulkrastiIncupeDelta.png",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/86/SaulkrastiIncupeDelta.png",
+        "commonsFile": "SaulkrastiIncupeDelta.png",
+        "description": "Delta of the river Incupe at saulkrasti, Latvia",
+        "derivative": "Resized and converted to WebP; display crop may apply.",
+        "files": {
+          "960": {
+            "width": 960,
+            "height": 720,
+            "bytes": 90724,
+            "sha256": "72b8b6bfc74b6d58e84a65ba7aba6db9ef4d79666f76f3ba9d82042546082b8e"
+          },
+          "480": {
+            "width": 480,
+            "height": 360,
+            "bytes": 27634,
+            "sha256": "bb594cb9ecbd97e1225ebdb18f2dce010a6ec5dde8b10a5e1fef7bdd13afba27"
+          }
+        },
+        "width": 960,
+        "height": 720,
+        "reviewedAt": "2026-11-09",
+        "visualObservation": "Inčupes ieteka jūrā un Saulkrastu pludmale",
+        "reviewEvidence": "contact-sheets/04.jpg",
+        "downloadedFrom": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/SaulkrastiIncupeDelta.png/960px-SaulkrastiIncupeDelta.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "downloadedSourceSha256": "ae0ece1e2ce4be27c62eef0210879c17c8398fd82492161267e6682641631ea6",
+        "reviewedDerivativeSha256": "72b8b6bfc74b6d58e84a65ba7aba6db9ef4d79666f76f3ba9d82042546082b8e"
+      },
+      "photoSelectionSource": "https://www.wikidata.org/wiki/Q840823#P18"
+    },
+    {
+      "id": "seda",
+      "name": "Seda",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Seda,_Latvia",
+      "lat": 57.650556,
+      "lon": 25.751111,
+      "timeZone": "Europe/Riga",
+      "wikidataId": "Q578527",
+      "coordinateSource": "https://www.wikidata.org/wiki/Q578527",
+      "photo": {
+        "src": "/assets/cities/seda-960.webp",
+        "srcset": "/assets/cities/seda-480.webp 480w, /assets/cities/seda-960.webp 960w",
+        "alt": "Sedas skolas ēka ar gaišu fasādi un kolonām",
+        "author": "Jindřich Běťák",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Seda_-_%C5%A1kola.JPG",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Seda_-_%C5%A1kola.JPG",
+        "commonsFile": "Seda - škola.JPG",
+        "description": "School in Seda, Latvia",
+        "derivative": "Resized and converted to WebP; display crop may apply.",
+        "files": {
+          "960": {
+            "width": 960,
+            "height": 608,
+            "bytes": 129098,
+            "sha256": "cbcd04b37c2efd97015b6251dd6c13226a74d4cbd9516df111d022b05dfd9dc6"
+          },
+          "480": {
+            "width": 480,
+            "height": 304,
+            "bytes": 29372,
+            "sha256": "d5eff9e2410ce9ccfeb3057238b4f3f5bc22ec3c7a6a3d569d4d526887484d56"
+          }
+        },
+        "width": 960,
+        "height": 608,
+        "reviewedAt": "2026-11-09",
+        "visualObservation": "Sedas skolas ēka ar gaišu fasādi un kolonām",
+        "reviewEvidence": "contact-sheets/05.jpg",
+        "downloadedFrom": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/Seda_-_%C5%A1kola.JPG/960px-Seda_-_%C5%A1kola.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "downloadedSourceSha256": "9f9f7fe41332af4296b6e03f5e8b044545b77d14c07aad734ccf2b6aba4c7d02",
+        "reviewedDerivativeSha256": "cbcd04b37c2efd97015b6251dd6c13226a74d4cbd9516df111d022b05dfd9dc6"
+      },
+      "photoSelectionSource": "https://www.wikidata.org/wiki/Q578527#P18"
+    },
+    {
+      "id": "sigulda",
+      "name": "Sigulda",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Sigulda",
+      "lat": 57.153889,
+      "lon": 24.854444,
+      "timeZone": "Europe/Riga",
+      "wikidataId": "Q465698",
+      "coordinateSource": "https://www.wikidata.org/wiki/Q465698",
+      "photo": {
+        "src": "/assets/cities/sigulda-960.webp",
+        "srcset": "/assets/cities/sigulda-480.webp 479w, /assets/cities/sigulda-960.webp 960w",
+        "alt": "Siguldas Jaunā pils ar zālienu un kokiem",
+        "author": "PIERRE ANDRE LECLERCQ",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_new_Sigulda_castle_(2).JPG",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bd/The_new_Sigulda_castle_%282%29.JPG",
+        "commonsFile": "The new Sigulda castle (2).JPG",
+        "description": "Le nouveau Château de Sigulda , Sigulda , Latvia Lettonie .",
+        "derivative": "Resized and converted to WebP; display crop may apply.",
+        "files": {
+          "960": {
+            "width": 960,
+            "height": 601,
+            "bytes": 191324,
+            "sha256": "909cbada153463de7f9b130eac44a993d8512ac15ed9ef419961dc91f105b221"
+          },
+          "480": {
+            "width": 479,
+            "height": 300,
+            "bytes": 46656,
+            "sha256": "cd7fe5db0a1e44bbd7f253633a2d9ca6f2b19b447ff7467dcd9ff5a396e4e4c5"
+          }
+        },
+        "width": 960,
+        "height": 601,
+        "reviewedAt": "2026-11-09",
+        "visualObservation": "Siguldas Jaunā pils ar zālienu un kokiem",
+        "reviewEvidence": "contact-sheets/05.jpg",
+        "downloadedFrom": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/The_new_Sigulda_castle_%282%29.JPG/960px-The_new_Sigulda_castle_%282%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "downloadedSourceSha256": "0b542eeb126859164a553ba49a192aa332673de41f4f2ba1bf1c4e0971b2d523",
+        "reviewedDerivativeSha256": "909cbada153463de7f9b130eac44a993d8512ac15ed9ef419961dc91f105b221"
+      },
+      "photoSelectionSource": "https://www.wikidata.org/wiki/Q465698#P18"
+    },
+    {
+      "id": "skrunda",
+      "name": "Skrunda",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Skrunda",
+      "lat": 56.675556,
+      "lon": 22.016389,
+      "timeZone": "Europe/Riga",
+      "wikidataId": "Q267871",
+      "coordinateSource": "https://www.wikidata.org/wiki/Q267871",
+      "photo": {
+        "src": "/assets/cities/skrunda-960.webp",
+        "srcset": "/assets/cities/skrunda-480.webp 480w, /assets/cities/skrunda-960.webp 960w",
+        "alt": "Skrundas baznīca starp kokiem",
+        "author": "J. Sedols",
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Skrundas_bazn%C4%ABca_2000-05-13.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Skrundas_bazn%C4%ABca_2000-05-13.jpg",
+        "commonsFile": "Skrundas baznīca 2000-05-13.jpg",
+        "description": "Skrundas baznīca 2000-05-13",
+        "derivative": "Resized and converted to WebP; display crop may apply.",
+        "files": {
+          "960": {
+            "width": 960,
+            "height": 720,
+            "bytes": 162408,
+            "sha256": "51cbdd10a6a8f79270f946be086fa9769c44143bd90a924dc22615280666decb"
+          },
+          "480": {
+            "width": 480,
+            "height": 360,
+            "bytes": 47364,
+            "sha256": "e853ba66367ed6a3bf3602e3c6f4e948be4c9965de0ba20ba84b7a15549e033a"
+          }
+        },
+        "width": 960,
+        "height": 720,
+        "reviewedAt": "2026-11-09",
+        "visualObservation": "Skrundas baznīca starp kokiem",
+        "reviewEvidence": "contact-sheets/05.jpg",
+        "downloadedFrom": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/Skrundas_bazn%C4%ABca_2000-05-13.jpg/960px-Skrundas_bazn%C4%ABca_2000-05-13.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "downloadedSourceSha256": "25b4be093e207f4b89080c52f8b8c61b92f2e5e3f0e3ad4379c792fd5596c1a1",
+        "reviewedDerivativeSha256": "51cbdd10a6a8f79270f946be086fa9769c44143bd90a924dc22615280666decb"
+      },
+      "photoSelectionSource": "https://www.wikidata.org/wiki/Q267871#P18"
+    },
+    {
+      "id": "smiltene",
+      "name": "Smiltene",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Smiltene",
+      "lat": 57.424167,
+      "lon": 25.906389,
+      "timeZone": "Europe/Riga",
+      "wikidataId": "Q840806",
+      "coordinateSource": "https://www.wikidata.org/wiki/Q840806",
+      "photo": {
+        "src": "/assets/cities/smiltene-960.webp",
+        "srcset": "/assets/cities/smiltene-480.webp 480w, /assets/cities/smiltene-960.webp 960w",
+        "alt": "Baznīcas laukums Smiltenē ar puķu dobēm un baznīcu",
+        "author": "Uldis Osis",
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Smiltene._Bazn%C4%ABcas_laukums_(Church_square).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/04/Smiltene._Bazn%C4%ABcas_laukums_%28Church_square%29.jpg",
+        "commonsFile": "Smiltene. Baznīcas laukums (Church square).jpg",
+        "description": "Smiltene. Baznīcas laukums",
+        "derivative": "Resized and converted to WebP; display crop may apply.",
+        "files": {
+          "960": {
+            "width": 960,
+            "height": 719,
+            "bytes": 215258,
+            "sha256": "9da1b97dee959b5494756f66828bb101470d4f3dd06988a87d1e7389a4f798a9"
+          },
+          "480": {
+            "width": 480,
+            "height": 360,
+            "bytes": 49554,
+            "sha256": "88193c2a7b6885e29e8c5d5d35832ba454a2c140fd6de453f340c4b8b82be041"
+          }
+        },
+        "width": 960,
+        "height": 719,
+        "reviewedAt": "2026-11-09",
+        "visualObservation": "Baznīcas laukums Smiltenē ar puķu dobēm un baznīcu",
+        "reviewEvidence": "contact-sheets/05.jpg",
+        "downloadedFrom": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/Smiltene._Bazn%C4%ABcas_laukums_%28Church_square%29.jpg/960px-Smiltene._Bazn%C4%ABcas_laukums_%28Church_square%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "downloadedSourceSha256": "3366d94f87617af2b2e00bc4969d68a226c59efba6c37b2e4e81466492d4778b",
+        "reviewedDerivativeSha256": "9da1b97dee959b5494756f66828bb101470d4f3dd06988a87d1e7389a4f798a9"
+      },
+      "photoSelectionSource": "https://www.wikidata.org/wiki/Q840806#P18"
+    },
+    {
+      "id": "staicele",
+      "name": "Staicele",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Staicele",
+      "lat": 57.835556,
+      "lon": 24.7475,
+      "timeZone": "Europe/Riga",
+      "wikidataId": "Q844464",
+      "coordinateSource": "https://www.wikidata.org/wiki/Q844464",
+      "photo": {
+        "src": "/assets/cities/staicele-960.webp",
+        "srcset": "/assets/cities/staicele-480.webp 480w, /assets/cities/staicele-960.webp 960w",
+        "alt": "Staiceles iela ar krāsainām koka mājām",
+        "author": "Līga Landsberga",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Staicele,_Staiceles_pils%C4%93ta,_LV-4043,_Latvia_-_panoramio.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/32/Staicele%2C_Staiceles_pils%C4%93ta%2C_LV-4043%2C_Latvia_-_panoramio.jpg",
+        "commonsFile": "Staicele, Staiceles pilsēta, LV-4043, Latvia - panoramio.jpg",
+        "description": "Staicele, Staiceles pilsēta, LV-4043, Latvia",
+        "derivative": "Resized and converted to WebP; display crop may apply.",
+        "files": {
+          "960": {
+            "width": 960,
+            "height": 720,
+            "bytes": 226936,
+            "sha256": "2421266e4e0de67ab459dc0ca22dd64b89739b3e0c9194456da3605b47277945"
+          },
+          "480": {
+            "width": 480,
+            "height": 360,
+            "bytes": 55090,
+            "sha256": "a14851126f55574bec21ca3dc2b77a3297968d434d790cc64217566344ac9419"
+          }
+        },
+        "width": 960,
+        "height": 720,
+        "reviewedAt": "2026-11-09",
+        "visualObservation": "Staiceles iela ar krāsainām koka mājām",
+        "reviewEvidence": "contact-sheets/05.jpg",
+        "downloadedFrom": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Staicele%2C_Staiceles_pils%C4%93ta%2C_LV-4043%2C_Latvia_-_panoramio.jpg/960px-Staicele%2C_Staiceles_pils%C4%93ta%2C_LV-4043%2C_Latvia_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "downloadedSourceSha256": "d9c32009864346d3984a671b5987a46114e0379278b56699efe8ecd7a140a687",
+        "reviewedDerivativeSha256": "2421266e4e0de67ab459dc0ca22dd64b89739b3e0c9194456da3605b47277945"
+      },
+      "photoSelectionSource": "https://www.wikidata.org/wiki/Q844464#P18"
+    },
+    {
+      "id": "stende",
+      "name": "Stende",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Stende",
+      "lat": 57.145,
+      "lon": 22.534722,
+      "timeZone": "Europe/Riga",
+      "wikidataId": "Q909654",
+      "coordinateSource": "https://www.wikidata.org/wiki/Q909654",
+      "photo": {
+        "src": "/assets/cities/stende-960.webp",
+        "srcset": "/assets/cities/stende-480.webp 480w, /assets/cities/stende-960.webp 960w",
+        "alt": "Stendes iela un vēsturiska ēka ar sarkanu jumtu",
+        "author": "Modris Putns",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Stendes_pils%C4%93ta_-_panoramio.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/36/Stendes_pils%C4%93ta_-_panoramio.jpg",
+        "commonsFile": "Stendes pilsēta - panoramio.jpg",
+        "description": "Stendes pilsēta",
+        "derivative": "Resized and converted to WebP; display crop may apply.",
+        "files": {
+          "960": {
+            "width": 960,
+            "height": 720,
+            "bytes": 168026,
+            "sha256": "21f1438e88f3ba1b9c64607a079cdf7172b1ae2c4fc9062fe797695649007699"
+          },
+          "480": {
+            "width": 480,
+            "height": 360,
+            "bytes": 41698,
+            "sha256": "0195e60aca3d6278a101beeea234bdf2f65661a2d369f52dd54bc96f63653948"
+          }
+        },
+        "width": 960,
+        "height": 720,
+        "reviewedAt": "2026-11-09",
+        "visualObservation": "Stendes iela un vēsturiska ēka ar sarkanu jumtu",
+        "reviewEvidence": "contact-sheets/05.jpg",
+        "downloadedFrom": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Stendes_pils%C4%93ta_-_panoramio.jpg/960px-Stendes_pils%C4%93ta_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "downloadedSourceSha256": "68ccf586e2c24ab8bab313afe42c0adbf9977e6f9499b30b2d8ecc7f32964147",
+        "reviewedDerivativeSha256": "21f1438e88f3ba1b9c64607a079cdf7172b1ae2c4fc9062fe797695649007699"
+      },
+      "photoSelectionSource": "https://www.wikidata.org/wiki/Q909654#P18"
+    },
+    {
+      "id": "strenci",
+      "name": "Strenči",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Strenči",
+      "lat": 57.627222,
+      "lon": 25.685,
+      "timeZone": "Europe/Riga",
+      "wikidataId": "Q851399",
+      "coordinateSource": "https://www.wikidata.org/wiki/Q851399",
+      "photo": {
+        "src": "/assets/cities/strenci-960.webp",
+        "srcset": "/assets/cities/strenci-480.webp 480w, /assets/cities/strenci-960.webp 960w",
+        "alt": "Rīgas iela Strenčos ar ķieģeļu un koka ēkām",
+        "author": "Liekņa",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:R%C4%ABgas_iela_Stren%C4%8Dos.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f5/R%C4%ABgas_iela_Stren%C4%8Dos.jpg",
+        "commonsFile": "Rīgas iela Strenčos.jpg",
+        "description": "Rīgas street in Strenči, Latvia",
+        "derivative": "Resized and converted to WebP; display crop may apply.",
+        "files": {
+          "960": {
+            "width": 960,
+            "height": 640,
+            "bytes": 180442,
+            "sha256": "04867aa6c7a2599b2f93e0f777913c2455d1069bab17daed2bbba75e44b4070b"
+          },
+          "480": {
+            "width": 480,
+            "height": 320,
+            "bytes": 45208,
+            "sha256": "3d01d015e5e1e6964f9fc9b032ceea5999cac1841f4f23d5c20d45637f1f1254"
+          }
+        },
+        "width": 960,
+        "height": 640,
+        "reviewedAt": "2026-11-09",
+        "visualObservation": "Rīgas iela Strenčos ar ķieģeļu un koka ēkām",
+        "reviewEvidence": "contact-sheets/05.jpg",
+        "downloadedFrom": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/R%C4%ABgas_iela_Stren%C4%8Dos.jpg/960px-R%C4%ABgas_iela_Stren%C4%8Dos.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "downloadedSourceSha256": "a02e57ab9e1d8d57a0a7c68b15f427ddde8053217c19a3672db8276aaf3a1197",
+        "reviewedDerivativeSha256": "04867aa6c7a2599b2f93e0f777913c2455d1069bab17daed2bbba75e44b4070b"
+      },
+      "photoSelectionSource": "https://www.wikidata.org/wiki/Q851399#P18"
+    },
+    {
+      "id": "subate",
+      "name": "Subate",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Subate",
+      "lat": 56.003611,
+      "lon": 25.905556,
+      "timeZone": "Europe/Riga",
+      "wikidataId": "Q60044",
+      "coordinateSource": "https://www.wikidata.org/wiki/Q60044",
+      "photo": {
+        "src": "/assets/cities/subate-960.webp",
+        "srcset": "/assets/cities/subate-480.webp 480w, /assets/cities/subate-960.webp 960w",
+        "alt": "Subates Tirgus laukums ar kokiem un vēsturisku apbūvi",
+        "author": "Dāvis Kļaviņš",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tirgus_laukuma_apb%C5%ABve,_30.05.2015.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Tirgus_laukuma_apb%C5%ABve%2C_30.05.2015.jpg",
+        "commonsFile": "Tirgus laukuma apbūve, 30.05.2015.jpg",
+        "description": "This is a photo of cultural heritage monument of Latvia number",
+        "derivative": "Resized and converted to WebP; display crop may apply.",
+        "files": {
+          "960": {
+            "width": 960,
+            "height": 544,
+            "bytes": 118698,
+            "sha256": "1cb659128078f4e81c99b2d629ab61f3267017290b400932ae5a207bd9160d11"
+          },
+          "480": {
+            "width": 480,
+            "height": 272,
+            "bytes": 29704,
+            "sha256": "20c2859c8714fcad2fa2f4c46ac6882e8947cac886cb7a3c8fd2131a76205b8c"
+          }
+        },
+        "width": 960,
+        "height": 544,
+        "reviewedAt": "2026-11-09",
+        "visualObservation": "Subates Tirgus laukums ar kokiem un vēsturisku apbūvi",
+        "reviewEvidence": "contact-sheets/05.jpg",
+        "downloadedFrom": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Tirgus_laukuma_apb%C5%ABve%2C_30.05.2015.jpg/960px-Tirgus_laukuma_apb%C5%ABve%2C_30.05.2015.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "downloadedSourceSha256": "38d1cb40496dee7c214edc11876ac500efd6b1911844355b84916d510656bfe3",
+        "reviewedDerivativeSha256": "1cb659128078f4e81c99b2d629ab61f3267017290b400932ae5a207bd9160d11"
+      },
+      "photoSelectionSource": "https://www.wikidata.org/wiki/Q60044#P18"
+    },
+    {
+      "id": "talsi",
+      "name": "Talsi",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Talsi",
+      "lat": 57.244722,
+      "lon": 22.588889,
+      "timeZone": "Europe/Riga",
+      "wikidataId": "Q520405",
+      "coordinateSource": "https://www.wikidata.org/wiki/Q520405",
+      "photo": {
+        "src": "/assets/cities/talsi-960.webp",
+        "srcset": "/assets/cities/talsi-480.webp 480w, /assets/cities/talsi-960.webp 960w",
+        "alt": "Talsu pilsētas ēkas un baznīca ezera krastā",
+        "author": "Chmee2",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Talsi_panorama.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Talsi_panorama.jpg",
+        "commonsFile": "Talsi panorama.jpg",
+        "description": "Talsi town in Latvia. Panorama",
+        "derivative": "Resized and converted to WebP; display crop may apply.",
+        "files": {
+          "960": {
+            "width": 960,
+            "height": 720,
+            "bytes": 146622,
+            "sha256": "378b431cc83d72bf3e77a00505f062cf62c1b16a59355ba243d9d67224d78de4"
+          },
+          "480": {
+            "width": 480,
+            "height": 360,
+            "bytes": 32308,
+            "sha256": "b7d8c35d4c1423380b83e6b5b30c3d49592cf0b2ec08fe1f035108be15d892d2"
+          }
+        },
+        "width": 960,
+        "height": 720,
+        "reviewedAt": "2026-11-09",
+        "visualObservation": "Talsu pilsētas ēkas un baznīca ezera krastā",
+        "reviewEvidence": "contact-sheets/05.jpg",
+        "downloadedFrom": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/Talsi_panorama.jpg/960px-Talsi_panorama.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "downloadedSourceSha256": "6bcdf613ff26d892197337d135bfd799cb1059959abb4d0c0e7bbc3078282095",
+        "reviewedDerivativeSha256": "378b431cc83d72bf3e77a00505f062cf62c1b16a59355ba243d9d67224d78de4"
+      },
+      "photoSelectionSource": "https://www.wikidata.org/wiki/Q520405#P18"
+    },
+    {
+      "id": "tukums",
+      "name": "Tukums",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Tukums",
+      "lat": 56.966889,
+      "lon": 23.153,
+      "timeZone": "Europe/Riga",
+      "wikidataId": "Q636935",
+      "coordinateSource": "https://www.wikidata.org/wiki/Q636935",
+      "photo": {
+        "src": "/assets/cities/tukums-960.webp",
+        "srcset": "/assets/cities/tukums-480.webp 480w, /assets/cities/tukums-960.webp 960w",
+        "alt": "Tukuma centrs ar akmeni, puķu dobēm un vēsturiskām ēkām",
+        "author": "Dezidor",
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tukums_(37).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/51/Tukums_%2837%29.jpg",
+        "commonsFile": "Tukums (37).jpg",
+        "description": "Tukums",
+        "derivative": "Resized and converted to WebP; display crop may apply.",
+        "files": {
+          "960": {
+            "width": 960,
+            "height": 720,
+            "bytes": 253618,
+            "sha256": "3c71e6e9fdcd75f57d15ef1a0b38cd889408941350e23cb11cff525c463c1801"
+          },
+          "480": {
+            "width": 480,
+            "height": 360,
+            "bytes": 61254,
+            "sha256": "d143d09c0a66a18eded42c08aebe856f24ac866a63718898ce3092a908328aa5"
+          }
+        },
+        "width": 960,
+        "height": 720,
+        "reviewedAt": "2026-11-09",
+        "visualObservation": "Tukuma centrs ar akmeni, puķu dobēm un vēsturiskām ēkām",
+        "reviewEvidence": "contact-sheets/05.jpg",
+        "downloadedFrom": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Tukums_%2837%29.jpg/960px-Tukums_%2837%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "downloadedSourceSha256": "a1622d54d90ea761a1005dc8da41f2d3812ec8b47e00c61778b2aeea2ba2a13b",
+        "reviewedDerivativeSha256": "3c71e6e9fdcd75f57d15ef1a0b38cd889408941350e23cb11cff525c463c1801"
+      },
+      "photoSelectionSource": "https://www.wikidata.org/wiki/Q636935#P18"
+    },
+    {
+      "id": "valdemarpils",
+      "name": "Valdemārpils",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Valdemārpils",
+      "lat": 57.370556,
+      "lon": 22.591944,
+      "timeZone": "Europe/Riga",
+      "wikidataId": "Q846341",
+      "coordinateSource": "https://www.wikidata.org/wiki/Q846341",
+      "photo": {
+        "src": "/assets/cities/valdemarpils-960.webp",
+        "srcset": "/assets/cities/valdemarpils-480.webp 480w, /assets/cities/valdemarpils-960.webp 960w",
+        "alt": "Valdemārpils ēkas un baznīca skatā no augšas",
+        "author": "Edgars Šulcs",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Valdemarpils_luteranu_baznica_2.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/df/Valdemarpils_luteranu_baznica_2.jpg",
+        "commonsFile": "Valdemarpils luteranu baznica 2.jpg",
+        "description": "This is a photo of cultural heritage monument of Latvia number",
+        "derivative": "Resized and converted to WebP; display crop may apply.",
+        "files": {
+          "960": {
+            "width": 960,
+            "height": 720,
+            "bytes": 208954,
+            "sha256": "50fdd80941ce69268e9517eaaba411110d3cc2629f33631d9e9078cc86244ee2"
+          },
+          "480": {
+            "width": 480,
+            "height": 360,
+            "bytes": 51056,
+            "sha256": "a87e9959df72fa9f9fa0144b18980a96d9c65ce25d713a1afe7f63f5cfb96941"
+          }
+        },
+        "width": 960,
+        "height": 720,
+        "reviewedAt": "2026-11-09",
+        "visualObservation": "Valdemārpils ēkas un baznīca skatā no augšas",
+        "reviewEvidence": "contact-sheets/05.jpg",
+        "downloadedFrom": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Valdemarpils_luteranu_baznica_2.jpg/960px-Valdemarpils_luteranu_baznica_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "downloadedSourceSha256": "2b9aaee26195056c0a5d56c3c6b40f2e7667a101319fa5813cfc662ef952215d",
+        "reviewedDerivativeSha256": "50fdd80941ce69268e9517eaaba411110d3cc2629f33631d9e9078cc86244ee2"
+      },
+      "photoSelectionSource": "https://www.wikidata.org/wiki/Q846341#P18"
+    },
+    {
+      "id": "valka",
+      "name": "Valka",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Valka",
+      "lat": 57.775278,
+      "lon": 26.021389,
+      "timeZone": "Europe/Riga",
+      "wikidataId": "Q323774",
+      "coordinateSource": "https://www.wikidata.org/wiki/Q323774",
+      "photo": {
+        "src": "/assets/cities/valka-960.webp",
+        "srcset": "/assets/cities/valka-480.webp 480w, /assets/cities/valka-960.webp 960w",
+        "alt": "Valkas baznīca un apstādījumi",
+        "author": "Laima Gutmane",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:2020_08_Valka_Valga_(10).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/42/2020_08_Valka_Valga_%2810%29.jpg",
+        "commonsFile": "2020 08 Valka Valga (10).jpg",
+        "description": "This is a photo of cultural heritage monument of Latvia number",
+        "derivative": "Resized and converted to WebP; display crop may apply.",
+        "files": {
+          "960": {
+            "width": 960,
+            "height": 640,
+            "bytes": 200430,
+            "sha256": "e6c24cde0105d86d6b3c73732c9ea526292134bbe30e2747f4b940225a9a5892"
+          },
+          "480": {
+            "width": 480,
+            "height": 320,
+            "bytes": 49638,
+            "sha256": "3812f53e73684849b02016ffdd3e5ee911b4a31252098d1a22196341f06d253a"
+          }
+        },
+        "width": 960,
+        "height": 640,
+        "reviewedAt": "2026-11-09",
+        "visualObservation": "Valkas baznīca un apstādījumi",
+        "reviewEvidence": "contact-sheets/05.jpg",
+        "downloadedFrom": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/2020_08_Valka_Valga_%2810%29.jpg/960px-2020_08_Valka_Valga_%2810%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "downloadedSourceSha256": "4ae07f713e8f622dc5f32bfa6fca08fd5c012d5396a86ac07308d2ff8526ddea",
+        "reviewedDerivativeSha256": "e6c24cde0105d86d6b3c73732c9ea526292134bbe30e2747f4b940225a9a5892"
+      },
+      "photoSelectionSource": "https://www.wikidata.org/wiki/Q323774#P18"
+    },
+    {
+      "id": "vangazi",
+      "name": "Vangaži",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Vangaži",
+      "lat": 57.091944,
+      "lon": 24.548611,
+      "timeZone": "Europe/Riga",
+      "wikidataId": "Q849832",
+      "coordinateSource": "https://www.wikidata.org/wiki/Q849832",
+      "photo": {
+        "src": "/assets/cities/vangazi-960.webp",
+        "srcset": "/assets/cities/vangazi-480.webp 480w, /assets/cities/vangazi-960.webp 960w",
+        "alt": "Vangažu baznīca ar dzeltenu fasādi starp kokiem",
+        "author": "J. Sedols",
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Vanga%C5%BEu_bazn%C4%ABca_2000-12-10.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/27/Vanga%C5%BEu_bazn%C4%ABca_2000-12-10.jpg",
+        "commonsFile": "Vangažu baznīca 2000-12-10.jpg",
+        "description": "Vangažu baznīca 2000-12-10",
+        "derivative": "Resized and converted to WebP; display crop may apply.",
+        "files": {
+          "960": {
+            "width": 960,
+            "height": 720,
+            "bytes": 225160,
+            "sha256": "7cd9ca65ce0108dbf3197109b169f76ec77ca89a244bc4225dc12cab6930cb64"
+          },
+          "480": {
+            "width": 480,
+            "height": 360,
+            "bytes": 67886,
+            "sha256": "d3433c10a822885f22a3d7269837f30454097a7c0661b6ea7b97e796b25d13b9"
+          }
+        },
+        "width": 960,
+        "height": 720,
+        "reviewedAt": "2026-11-09",
+        "visualObservation": "Vangažu baznīca ar dzeltenu fasādi starp kokiem",
+        "reviewEvidence": "contact-sheets/05.jpg",
+        "downloadedFrom": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/Vanga%C5%BEu_bazn%C4%ABca_2000-12-10.jpg/960px-Vanga%C5%BEu_bazn%C4%ABca_2000-12-10.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "downloadedSourceSha256": "b70473a2496f866d04cc9d8f1a962fa91cf5cbeafdfd539e5ca6098d3ea7c971",
+        "reviewedDerivativeSha256": "7cd9ca65ce0108dbf3197109b169f76ec77ca89a244bc4225dc12cab6930cb64"
+      },
+      "photoSelectionSource": "https://www.wikidata.org/wiki/Q849832#P18"
+    },
+    {
+      "id": "varaklani",
+      "name": "Varakļāni",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Varakļāni",
+      "lat": 56.607778,
+      "lon": 26.755,
+      "timeZone": "Europe/Riga",
+      "wikidataId": "Q849141",
+      "coordinateSource": "https://www.wikidata.org/wiki/Q849141",
+      "photo": {
+        "src": "/assets/cities/varaklani-960.webp",
+        "srcset": "/assets/cities/varaklani-480.webp 480w, /assets/cities/varaklani-960.webp 960w",
+        "alt": "Varakļānu pils un zāliens tās priekšā",
+        "author": "ScAvenger (Jānis Vilniņš)",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Varak%C4%BC%C4%81nu_pils_2015.JPG",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Varak%C4%BC%C4%81nu_pils_2015.JPG",
+        "commonsFile": "Varakļānu pils 2015.JPG",
+        "description": "This is a photo of cultural heritage monument of Latvia number",
+        "derivative": "Resized and converted to WebP; display crop may apply.",
+        "files": {
+          "960": {
+            "width": 960,
+            "height": 522,
+            "bytes": 113026,
+            "sha256": "168569fec0243d95dc631e0156ef65281d8c4f4c99de1582a2971c1c596239da"
+          },
+          "480": {
+            "width": 480,
+            "height": 261,
+            "bytes": 26938,
+            "sha256": "44c77a2837f9e0207c899715f0c9dba66e5c887a2b94cf708dd803608365350e"
+          }
+        },
+        "width": 960,
+        "height": 522,
+        "reviewedAt": "2026-11-09",
+        "visualObservation": "Varakļānu pils un zāliens tās priekšā",
+        "reviewEvidence": "contact-sheets/05.jpg",
+        "downloadedFrom": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/Varak%C4%BC%C4%81nu_pils_2015.JPG/960px-Varak%C4%BC%C4%81nu_pils_2015.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "downloadedSourceSha256": "2a9660592070cb20018d43685daa4f3cba3d6ffbc02f580c5aa1ac428675ecae",
+        "reviewedDerivativeSha256": "168569fec0243d95dc631e0156ef65281d8c4f4c99de1582a2971c1c596239da"
+      },
+      "photoSelectionSource": "https://www.wikidata.org/wiki/Q849141#P18"
+    },
+    {
+      "id": "viesite",
+      "name": "Viesīte",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Viesīte",
+      "lat": 56.345278,
+      "lon": 25.556944,
+      "timeZone": "Europe/Riga",
+      "wikidataId": "Q641220",
+      "coordinateSource": "https://www.wikidata.org/wiki/Q641220",
+      "photo": {
+        "src": "/assets/cities/viesite-960.webp",
+        "srcset": "/assets/cities/viesite-480.webp 480w, /assets/cities/viesite-960.webp 960w",
+        "alt": "Viesītes kultūras pils un apsniguši apstādījumi",
+        "author": "Roalds",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Viesites_kulturas_pils.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/50/Viesites_kulturas_pils.jpg",
+        "commonsFile": "Viesites kulturas pils.jpg",
+        "description": "Viesītes kultūras pils",
+        "derivative": "Resized and converted to WebP; display crop may apply.",
+        "files": {
+          "960": {
+            "width": 960,
+            "height": 638,
+            "bytes": 68828,
+            "sha256": "e379570b7cea38962491bf5ef5e6ee2fcd5d1d74578a4e6be8959d9d92cf0b89"
+          },
+          "480": {
+            "width": 480,
+            "height": 319,
+            "bytes": 19206,
+            "sha256": "acddf1b18aba19516bc8f3183322771c0cdb635f2266e372f88c0afd8ef4bd54"
+          }
+        },
+        "width": 960,
+        "height": 638,
+        "reviewedAt": "2026-11-09",
+        "visualObservation": "Viesītes kultūras pils un apsniguši apstādījumi",
+        "reviewEvidence": "contact-sheets/replacements.jpg",
+        "downloadedFrom": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Viesites_kulturas_pils.jpg/960px-Viesites_kulturas_pils.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "downloadedSourceSha256": "330d94367d3454efc7e8d9bc6a70c70ed2fb9f7e7d6ca04c2a0e0f541acb9704",
+        "reviewedDerivativeSha256": "e379570b7cea38962491bf5ef5e6ee2fcd5d1d74578a4e6be8959d9d92cf0b89"
+      },
+      "photoSelectionSource": "https://commons.wikimedia.org/wiki/Category:Buildings_in_Viesīte"
+    },
+    {
+      "id": "vilaka",
+      "name": "Viļaka",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Viļaka",
+      "lat": 57.184167,
+      "lon": 27.672222,
+      "timeZone": "Europe/Riga",
+      "wikidataId": "Q26441",
+      "coordinateSource": "https://www.wikidata.org/wiki/Q26441",
+      "photo": {
+        "src": "/assets/cities/vilaka-960.webp",
+        "srcset": "/assets/cities/vilaka-480.webp 480w, /assets/cities/vilaka-960.webp 960w",
+        "alt": "Viļakas ceļš un pilsētas baznīcu torņi tālumā",
+        "author": "Biafra",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Vilaka_no_Semenovas.JPG",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/28/Vilaka_no_Semenovas.JPG",
+        "commonsFile": "Vilaka no Semenovas.JPG",
+        "description": "Viļaka from Semenova village, Latvia",
+        "derivative": "Resized and converted to WebP; display crop may apply.",
+        "files": {
+          "960": {
+            "width": 960,
+            "height": 654,
+            "bytes": 122014,
+            "sha256": "78f166d56fa01de71cbe51c39d77e45706253ab586d4010f86536f5003a47025"
+          },
+          "480": {
+            "width": 480,
+            "height": 327,
+            "bytes": 29238,
+            "sha256": "5143c2361aa39f4d8f3ee73ca51e294448c6f5ae8e80ea600c0cd2eb7be54fa2"
+          }
+        },
+        "width": 960,
+        "height": 654,
+        "reviewedAt": "2026-11-09",
+        "visualObservation": "Viļakas ceļš un pilsētas baznīcu torņi tālumā",
+        "reviewEvidence": "contact-sheets/05.jpg",
+        "downloadedFrom": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/Vilaka_no_Semenovas.JPG/960px-Vilaka_no_Semenovas.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "downloadedSourceSha256": "0bb825281c84d5df409104448a3ec19c0db785f2587d55dc4237e757ec82538c",
+        "reviewedDerivativeSha256": "78f166d56fa01de71cbe51c39d77e45706253ab586d4010f86536f5003a47025"
+      },
+      "photoSelectionSource": "https://www.wikidata.org/wiki/Q26441#P18"
+    },
+    {
+      "id": "vilani",
+      "name": "Viļāni",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Viļāni",
+      "lat": 56.552778,
+      "lon": 26.925278,
+      "timeZone": "Europe/Riga",
+      "wikidataId": "Q836513",
+      "coordinateSource": "https://www.wikidata.org/wiki/Q836513",
+      "photo": {
+        "src": "/assets/cities/vilani-960.webp",
+        "srcset": "/assets/cities/vilani-480.webp 480w, /assets/cities/vilani-960.webp 960w",
+        "alt": "Viļānu Svētā Miķeļa baznīca un klosteris ar skulptūru priekšplānā",
+        "author": "Laima Gūtmane (simka…",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:St._Mi%C4%B7e%C4%BCa_Church_and_Monastery_in_Vi%C4%BC%C4%81ni_-_panoramio.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c3/St._Mi%C4%B7e%C4%BCa_Church_and_Monastery_in_Vi%C4%BC%C4%81ni_-_panoramio.jpg",
+        "commonsFile": "St. Miķeļa Church and Monastery in Viļāni - panoramio.jpg",
+        "description": "St. Miķeļa Church and Monastery in Viļāni",
+        "derivative": "Resized and converted to WebP; display crop may apply.",
+        "files": {
+          "960": {
+            "width": 960,
+            "height": 640,
+            "bytes": 144110,
+            "sha256": "0dd2544bc871f04927fa3ff5399c0bfeb517c1b2a49b7acaab9fad2879f08fdb"
+          },
+          "480": {
+            "width": 480,
+            "height": 320,
+            "bytes": 37796,
+            "sha256": "209e3c44439fd124899852724e9317ba517f1259d3ad0a1f7d6b5f2fb3b19709"
+          }
+        },
+        "width": 960,
+        "height": 640,
+        "reviewedAt": "2026-11-09",
+        "visualObservation": "Viļānu Svētā Miķeļa baznīca un klosteris ar skulptūru priekšplānā",
+        "reviewEvidence": "contact-sheets/06.jpg",
+        "downloadedFrom": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/St._Mi%C4%B7e%C4%BCa_Church_and_Monastery_in_Vi%C4%BC%C4%81ni_-_panoramio.jpg/960px-St._Mi%C4%B7e%C4%BCa_Church_and_Monastery_in_Vi%C4%BC%C4%81ni_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "downloadedSourceSha256": "7ce2873ddacfcf128d11563e496c86869284888ebea7c3dd80542f257745401b",
+        "reviewedDerivativeSha256": "0dd2544bc871f04927fa3ff5399c0bfeb517c1b2a49b7acaab9fad2879f08fdb"
+      },
+      "photoSelectionSource": "https://www.wikidata.org/wiki/Q836513#P18"
+    },
+    {
+      "id": "zilupe",
+      "name": "Zilupe",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Zilupe",
+      "lat": 56.385556,
+      "lon": 28.1225,
+      "timeZone": "Europe/Riga",
+      "wikidataId": "Q203375",
+      "coordinateSource": "https://www.wikidata.org/wiki/Q203375",
+      "photo": {
+        "src": "/assets/cities/zilupe-960.webp",
+        "srcset": "/assets/cities/zilupe-480.webp 480w, /assets/cities/zilupe-960.webp 960w",
+        "alt": "Zilupes katoļu baznīca aiz žoga un kokiem",
+        "author": "J. Sedols",
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Zilupes_kato%C4%BCu_bazn%C4%ABca_2000-07-22.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/25/Zilupes_kato%C4%BCu_bazn%C4%ABca_2000-07-22.jpg",
+        "commonsFile": "Zilupes katoļu baznīca 2000-07-22.jpg",
+        "description": "Zalupes katoļu baznīca 2000-07-22",
+        "derivative": "Resized and converted to WebP; display crop may apply.",
+        "files": {
+          "960": {
+            "width": 960,
+            "height": 720,
+            "bytes": 215290,
+            "sha256": "03ca57d9e11b56d84d4e6a13ce1e6573c312f6c94b1959b94bd059a3f5bee592"
+          },
+          "480": {
+            "width": 480,
+            "height": 360,
+            "bytes": 63848,
+            "sha256": "21b1dba9a1be867ae6f4a1896d736efa513126f3a3b93b10e0f5d879c27e7d92"
+          }
+        },
+        "width": 960,
+        "height": 720,
+        "reviewedAt": "2026-11-09",
+        "visualObservation": "Zilupes katoļu baznīca aiz žoga un kokiem",
+        "reviewEvidence": "contact-sheets/06.jpg",
+        "downloadedFrom": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/Zilupes_kato%C4%BCu_bazn%C4%ABca_2000-07-22.jpg/960px-Zilupes_kato%C4%BCu_bazn%C4%ABca_2000-07-22.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "downloadedSourceSha256": "d70af23186d3c29150937268652ed14bbf7c5601c88ddee86ca37e39d60c9d61",
+        "reviewedDerivativeSha256": "03ca57d9e11b56d84d4e6a13ce1e6573c312f6c94b1959b94bd059a3f5bee592"
+      },
+      "photoSelectionSource": "https://www.wikidata.org/wiki/Q203375#P18"
+    }
+  ]
+}

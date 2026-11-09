@@ -1,0 +1,8 @@
+{"features":[
+{"icon":"school","title":"Skola un mācību gads","description":"Mācību laiks, skolas brīvlaiki un stundu saraksts. Atrodi svarīgos datumus saviem plāniem.","url":"/skolas-brivlaiki/","cta":"Atvērt skolas kalendāru"},
+{"icon":"gift","title":"Latvijas svētki un tradīcijas","description":"Valsts svētki, atceres dienas un gadskārtu tradīcijas. Zini, ko svinam un kad atpūšamies.","url":"/svetki-un-tradicijas/","cta":"Iepazīt Latvijas svētkus"},
+{"icon":"sprout","title":"Katram vārdam sava diena","description":"Atrodi vārda dienu un iepriecini kādu ar apsveikumu. Sarakstam ir norādīta avota versija.","url":"/varda-dienas/","cta":"Apskatīt vārda dienas"},
+{"icon":"moon","title":"Debesis virs Latvijas","description":"Mēness fāzes, Saules laiki tavā pilsētā un astronomiskie gadalaiki vienuviet.","url":"/astronomiskais-kalendars/","cta":"Izpētīt astronomisko kalendāru"},
+{"icon":"family","title":"Ģimenes nedēļa","description":"Kopīgi notikumi, darbi un ikdienas plāni. Izveido pārskatāmu kalendāru visai ģimenei.","url":"/gimenes-kalendars/","cta":"Atvērt ģimenes kalendāru"},
+{"icon":"vacation","title":"Atvaļinājums un brīvdienas","description":"Savieno svētku dienas un nedēļas nogales ar atvaļinājumu. Salīdzini sev piemērotākos datumus.","url":"/atvalinajuma-planotajs/","cta":"Plānot savu atvaļinājumu"}
+]}

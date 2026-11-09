@@ -1,9 +1,9 @@
 {
-  "matrix_routes": 621,
-  "html_files": 625,
-  "indexable": 580,
+  "matrix_routes": 694,
+  "html_files": 698,
+  "indexable": 653,
   "noindex": 41,
-  "total_files": 1974,
-  "total_bytes": 160146675,
+  "total_files": 1539,
+  "total_bytes": 141467490,
   "errors": []
 }
