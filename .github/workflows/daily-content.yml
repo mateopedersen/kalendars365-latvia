@@ -1,7 +1,6 @@
 name: Verify daily editorial freshness
 on:
-  schedule:
-    - cron: '30 1 * * *'
+  # Owner requests updates on demand; keep explicit manual validation.
   workflow_dispatch:
 permissions:
   contents: read
