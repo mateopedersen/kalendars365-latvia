@@ -1,9 +1,9 @@
 {
-  "asset_version": "db4560dc73a8098b",
-  "sha256": "db4560dc73a8098b41c319defad2807bf3e002cdb9d3bfa171f11432fd5cf167",
+  "asset_version": "239ba2b5ccb23859",
+  "sha256": "239ba2b5ccb23859daf8f983328a4dd2c5be69997f7e64cf54ff82056c9c5465",
   "files": {
     "assets/a3-gallery.css": "1889edd3db55a0a1473cc6711268699d2b19129115f3ab0f59d11f1aa9374c37",
-    "assets/app.js": "d7b964bf02afc974308c924c92e2a8ed8e8d3f076134a8d4addd559cf5fa5a71",
+    "assets/app.js": "7950f8a5438494e3a8ed43e42a7ae6a73368b9e4a5717ff689d610c7cc65ec09",
     "assets/astronomy/earth-apollo17.webp": "dea132e5e8949d97de1697f74dc88923f92a7d9fbea793acc495c9d8dda35361",
     "assets/astronomy/earth-disc.jpg": "fbaf12217e34e6ea9eeeb7dd3e3d8674ef655ab632b28a8331e525d5c827cfc4",
     "assets/astronomy/earth-disc.webp": "d50e8950f83fd994415decbd282d39c0dc45dfead6c54d243df2350af33a486b",
@@ -1007,7 +1007,7 @@
     "assets/riga-panorama-640.webp": "bd8de1c223a07c3159a9fc72e75d2809115e9b8b090b86d98405e48b4f55efb5",
     "assets/search-core.js": "23e3ecc2f5aa8dd8b481ec0692ee088e38991e2ffa957f90e334d34eaa894aa5",
     "assets/search-index.json": "5b1a9999b3b46933ad2583868c68747ff6a55a4e2fda133907d44fa210367bdb",
-    "assets/search.css": "de8a052b8018332667ef6e2c3eb89ca41aa49b2df3fa6d6dab0f17a0b29ad9b8",
+    "assets/search.css": "5f4536dbaf20c41ed63d0792935ab214cc9a72428e0147d1abea6bc978ee6e57",
     "assets/sky-core.mjs": "e2df4e273b03d5722744f6f4659569f2a478480048357487b8aed0b0d8efce0d",
     "assets/sky-ui.mjs": "e7fb3469b0ffb9c3e64a72933d8a1fefdf5feca1a61602935d35a216e5b4a230",
     "assets/sky.css": "2a6ac620f0815931211aa7c9b43b6be11abbe03b1f3b627a6f2dc796ffc77e50",

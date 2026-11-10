@@ -11,9 +11,9 @@
           <input id="recovery-query" type="search" name="q" maxlength="180" required autocomplete="off" aria-controls="recovery-results" aria-expanded="false" placeholder="Kalendārs, svētki vai vārda diena…">
           <button type="submit">Meklēt <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 12h15m-6-6 6 6-6 6" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
         </form>
-        <div id="recovery-results" class="search-results recovery-results" data-preview="true" aria-label="Meklēšanas ieteikumi" hidden></div>
+        <div id="recovery-results" class="search-results recovery-results inline-search-results" data-preview="true" aria-label="Meklēšanas ieteikumi" hidden></div>
       </div>
-      <nav class="recovery-quick" aria-label="Ātrā meklēšana"><span>Ātri atrast</span><a href="/meklesana/?q=sv%C4%93tki">Svētki</a><a href="/meklesana/?q=M%C4%93ness+kalend%C4%81rs">Mēness kalendārs</a><a href="/meklesana/?q=skolas+br%C4%ABvlaiki">Skolas brīvlaiki</a></nav>
+      <nav class="recovery-quick" aria-label="Ātrā meklēšana"><span>Ātri atrast</span><button type="button" data-search-query="Svētki">Svētki</button><button type="button" data-search-query="Mēness kalendārs">Mēness kalendārs</button><button type="button" data-search-query="Skolas brīvlaiki">Skolas brīvlaiki</button></nav>
       <div class="recovery-actions"><a class="recovery-primary" href="/kalendars/"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><rect x="3" y="5" width="18" height="16" rx="3"/><path d="M7 2v6m10-6v6M3 11h18m-13 4h2m4 0h2m-8 3h2" stroke-linecap="round"/></svg>Atvērt kalendāru</a><a class="recovery-secondary" href="/">Uz sākumlapu <span aria-hidden="true">↗</span></a></div>
     </div>
     <figure class="recovery-visual" aria-label="Kalendārs365 ilustrācija: pazudusi lapa, jauns sākums">
