@@ -25,6 +25,7 @@ jobs:
       - run: node test/date_core_test.cjs
       - run: node test/date_l10n_test.cjs
       - run: node test/frontend_test.cjs
+      - run: node test/import_safety_test.cjs
       - run: node test/search.test.cjs
       - run: node test/hubs.test.cjs
       - run: node test/sky_test.mjs
