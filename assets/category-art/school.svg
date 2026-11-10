@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 260" role="img" aria-labelledby="title desc">
+  <title id="title">Mācību gada kalendārs</title>
+  <desc id="desc">Oriģināla telpiska ilustrācija tēmai “Mācību gada kalendārs”.</desc>
+  <defs>
+    <linearGradient id="primary" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#527b94"/><stop offset=".55" stop-color="#527b94"/><stop offset="1" stop-color="#304b68"/></linearGradient>
+    <linearGradient id="side" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#304b68"/><stop offset="1" stop-color="#242430"/></linearGradient>
+    <linearGradient id="accent" x1=".1" y1="0" x2=".9" y2="1"><stop stop-color="#fff9e8"/><stop offset=".48" stop-color="#b94a5b"/><stop offset="1" stop-color="#304b68"/></linearGradient>
+    <linearGradient id="paper" x1="0" y1="0" x2=".9" y2="1"><stop stop-color="#fffefb"/><stop offset=".72" stop-color="#fffaf0"/><stop offset="1" stop-color="#dfd1c2"/></linearGradient>
+    <radialGradient id="glow"><stop stop-color="#b94a5b" stop-opacity=".34"/><stop offset="1" stop-color="#b94a5b" stop-opacity="0"/></radialGradient>
+    <filter id="shadow" x="-25%" y="-25%" width="150%" height="170%"><feDropShadow dx="0" dy="11" stdDeviation="8" flood-color="#29212e" flood-opacity=".26"/></filter>
+  </defs>
+  <circle cx="160" cy="127" r="116" fill="url(#glow)"/>
+  <ellipse cx="160" cy="132" rx="112" ry="63" transform="rotate(-16 160 132)" fill="none" stroke="#527b94" stroke-opacity=".17" stroke-width="2"/>
+  <circle cx="249" cy="78" r="5" fill="#b94a5b"/><circle cx="76" cy="171" r="3" fill="#527b94" opacity=".7"/>
+  <g filter="url(#shadow)"><path d="m68 81 81 13 11 120-84-20Z" fill="url(#side)"/><path d="m160 94 81-14v102l-81 31Z" fill="url(#primary)"/><path d="m77 70 78 13 5 117-72-16Z" fill="url(#paper)" stroke="#fff" stroke-width="3"/><path d="m160 83 73-13v102l-73 28Z" fill="#fff7e8" stroke="#fff" stroke-width="3"/><path d="M159 85v115" stroke="url(#accent)" stroke-width="7"/><path d="m91 103 53 9m-51 16 53 9m-50 16 52 9m32-45 43-8m-42 24 42-8m-40 24 40-8" stroke="#ad9e8e" stroke-width="3" stroke-linecap="round"/></g>
+</svg>

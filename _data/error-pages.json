@@ -1,0 +1,74 @@
+{
+  "404": {
+    "title": "Lapa nav atrasta",
+    "description": "Šī Kalendāra365 lapa nav atrasta. Atgriezies kalendārā, atrodi plānošanas rīku vai meklē vajadzīgo tēmu.",
+    "noindex": true,
+    "eyebrow": "KĻŪDA 404",
+    "h1": "Šī lapa nav atrasta.",
+    "lead": "Adrese var būt mainījusies, vai arī saite vairs nav aktuāla. Kalendārs un pārējie rīki ir tepat.",
+    "primaryAction": {
+      "label": "Atvērt kalendāru",
+      "href": "/"
+    },
+    "secondaryAction": {
+      "label": "Apskatīt visus rīkus",
+      "href": "/visi-riki/"
+    },
+    "searchLabel": "Meklēt vietnē",
+    "searchPlaceholder": "Datums, vārds vai rīks…",
+    "suggestionHeading": "Kurp dosimies tālāk?",
+    "suggestions": [
+      {
+        "label": "Latvijas svētku dienas",
+        "href": "/svetku-dienas/",
+        "description": "Atrodi svētku datumus un brīvdienas."
+      },
+      {
+        "label": "Vārda dienas",
+        "href": "/varda-dienas/",
+        "description": "Meklē vārdu vai atver mēneša sarakstu."
+      },
+      {
+        "label": "Datumu kalkulators",
+        "href": "/datumu-kalkulators/",
+        "description": "Saskaiti dienas starp diviem datumiem."
+      }
+    ],
+    "contactText": "Ja uz šo lapu veda saite Kalendārā365, vari paziņot par kļūdu.",
+    "contactAction": {
+      "label": "Ziņot par saiti",
+      "href": "mailto:kalendars365@gmail.com?subject=Kalend%C4%81rs365%3A%20nedarbojas%20saite"
+    },
+    "implementationNotes": [
+      "Serve a real HTTP 404 for unknown routes; do not redirect every missing page to the homepage with 200.",
+      "Use noindex,follow. Keep a working visible search form or use the existing search dialog.",
+      "Do not present a fictitious lost personal event as the cause of an unknown URL."
+    ]
+  },
+  "500": {
+    "title": "Lapu šobrīd neizdevās atvērt",
+    "description": "Kalendāra365 lapu šobrīd neizdevās atvērt. Mēģini vēlreiz pēc brīža vai atgriezies sākumlapā.",
+    "noindex": true,
+    "eyebrow": "KĻŪDA 500",
+    "h1": "Plānos gadījies pārtraukums.",
+    "lead": "Šobrīd šo lapu neizdevās atvērt. Mēģini vēlreiz pēc brīža vai atgriezies kalendārā.",
+    "primaryAction": {
+      "label": "Mēģināt vēlreiz",
+      "action": "reload"
+    },
+    "secondaryAction": {
+      "label": "Atvērt sākumlapu",
+      "href": "/"
+    },
+    "contactText": "Ja kļūda atkārtojas, uzraksti, kuru lapu mēģināji atvērt un kas notika pirms kļūdas.",
+    "contactAction": {
+      "label": "Paziņot par kļūdu",
+      "href": "mailto:kalendars365@gmail.com?subject=Kalend%C4%81rs365%3A%20lapas%20k%C4%BC%C5%ABda"
+    },
+    "implementationNotes": [
+      "A static /500.html demonstration can have 200, but it must be noindex; an actual server error should retain its 5xx status.",
+      "A retry control must actually retry. Do not label a homepage link as a retry button.",
+      "Do not claim that every possible error is harmless or that personal data is guaranteed intact."
+    ]
+  }
+}

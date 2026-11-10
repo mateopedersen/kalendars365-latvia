@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 260" role="img" aria-labelledby="title desc">
+  <title id="title">Darba dienu kalendārs</title>
+  <desc id="desc">Oriģināla telpiska ilustrācija tēmai “Darba dienu kalendārs”.</desc>
+  <defs>
+    <linearGradient id="primary" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#8b674f"/><stop offset=".55" stop-color="#8b674f"/><stop offset="1" stop-color="#52413d"/></linearGradient>
+    <linearGradient id="side" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#52413d"/><stop offset="1" stop-color="#242430"/></linearGradient>
+    <linearGradient id="accent" x1=".1" y1="0" x2=".9" y2="1"><stop stop-color="#fff9e8"/><stop offset=".48" stop-color="#d39858"/><stop offset="1" stop-color="#52413d"/></linearGradient>
+    <linearGradient id="paper" x1="0" y1="0" x2=".9" y2="1"><stop stop-color="#fffefb"/><stop offset=".72" stop-color="#f9e8cf"/><stop offset="1" stop-color="#dfd1c2"/></linearGradient>
+    <radialGradient id="glow"><stop stop-color="#d39858" stop-opacity=".34"/><stop offset="1" stop-color="#d39858" stop-opacity="0"/></radialGradient>
+    <filter id="shadow" x="-25%" y="-25%" width="150%" height="170%"><feDropShadow dx="0" dy="11" stdDeviation="8" flood-color="#29212e" flood-opacity=".26"/></filter>
+  </defs>
+  <circle cx="160" cy="127" r="116" fill="url(#glow)"/>
+  <ellipse cx="160" cy="132" rx="112" ry="63" transform="rotate(-16 160 132)" fill="none" stroke="#8b674f" stroke-opacity=".17" stroke-width="2"/>
+  <circle cx="249" cy="78" r="5" fill="#d39858"/><circle cx="76" cy="171" r="3" fill="#8b674f" opacity=".7"/>
+  <g filter="url(#shadow)"><path d="M101 88V73q0-14 14-14h91q14 0 14 14v15" fill="none" stroke="url(#side)" stroke-width="14"/><path d="M83 99q0-12 12-12h130q12 0 12 12v93q0 12-12 12H95q-12 0-12-12Z" fill="url(#primary)"/><path d="M83 108h154v28H83Z" fill="url(#side)"/><rect x="146" y="108" width="29" height="31" rx="5" fill="url(#accent)"/><path d="M105 164h110" stroke="#fff4dc" stroke-width="5" stroke-linecap="round" opacity=".35"/></g>
+</svg>

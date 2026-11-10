@@ -6,6 +6,11 @@ require 'cgi'
 require 'yaml'
 require 'digest'
 require 'open3'
+require 'uri'
+require_relative 'occasion_components'
+require_relative 'garden_components'
+require_relative 'organizer_components'
+require_relative 'latvia_components'
 ROOT = File.expand_path('..', __dir__)
 Dir.chdir(ROOT)
 ENV['TZ'] = 'Europe/Riga'
@@ -21,12 +26,34 @@ ROUTES = JSON.parse(File.read('_data/routes.json'))
 DATA = File.exist?('assets/calendar-data.json') ? JSON.parse(File.read('assets/calendar-data.json')) : {}
 HOLIDAYS = DATA.fetch('holidays', [])
 CITIES = JSON.parse(File.read('_data/cities.json')).fetch('cities')
+EDITORIAL = JSON.parse(File.read('_data/editorial-metadata.json')).fetch('routes').to_h{|r|[r.fetch('url'),r]}
+HOROSCOPE_PROFILES = JSON.parse(File.read('_data/horoscope/profiles.json')).fetch('profiles')
+zodiac_art_build, zodiac_art_error, zodiac_art_status = Open3.capture3(ENV.fetch('NODE', 'node'), 'scripts/build_zodiac_art.mjs')
+abort "Zodiac artwork build failed: #{zodiac_art_error}" unless zodiac_art_status.success?
+category_art_build, category_art_error, category_art_status = Open3.capture3('ruby', 'scripts/build_category_art.rb')
+abort "Category artwork build failed: #{category_art_error}" unless category_art_status.success?
+FileUtils.cp('lib/vendor/astronomy.mjs', 'assets/vendor/astronomy-engine.mjs')
+FileUtils.cp('lib/vendor/LICENSE-astronomy-engine.txt', 'assets/vendor/LICENSE-astronomy-engine.txt')
+LATVIA_EXTRA = JSON.parse(File.read('_data/latvia-extra-pages.json'))
+LATVIA_VERIFIED = JSON.parse(File.read('_data/latvia-verified-data.json'))
+LATVIA_EXTRA_PAGES = (LATVIA_EXTRA.fetch('directTargets') + [LATVIA_EXTRA.fetch('educationPage')] + LATVIA_EXTRA.fetch('culturalPages')).to_h { |item| [item.fetch('url'), item] }
+horoscope_build, horoscope_build_error, horoscope_build_status = Open3.capture3(ENV.fetch('NODE', 'node'), 'scripts/build_horoscope_data.mjs')
+abort "Horoscope data build failed: #{horoscope_build_error}" unless horoscope_build_status.success?
+horoscope_snapshot_json, horoscope_snapshot_error, horoscope_snapshot_status = Open3.capture3(ENV.fetch('NODE', 'node'), 'scripts/render_horoscope_snapshot.mjs')
+abort "Horoscope snapshot failed: #{horoscope_snapshot_error}" unless horoscope_snapshot_status.success?
+HOROSCOPE_SNAPSHOT = JSON.parse(horoscope_snapshot_json).freeze
+HOROSCOPE_DAY = HOROSCOPE_SNAPSHOT.fetch('edition').fetch('date')
+astronomy_build, astronomy_error, astronomy_status = Open3.capture3(ENV.fetch('NODE', 'node'), 'scripts/build_latvia_astronomy.mjs')
+abort "Latvia astronomy build failed: #{astronomy_error}" unless astronomy_status.success?
+File.write('assets/horoscopes.json', JSON.generate(HOROSCOPE_SNAPSHOT.fetch('edition')))
 planning_json, planning_error, planning_status = Open3.capture3(ENV.fetch('NODE', 'node'), 'scripts/render_planning.cjs')
 abort "Planning prerender failed: #{planning_error}" unless planning_status.success?
 PLANNING_MARKUP = JSON.parse(planning_json).freeze
 def h(s); CGI.escapeHTML(s.to_s); end
 def icon_for(url)
  case url
+ when /privatum|sikdatnu/ then 'shield'
+ when /kontakti|par-projektu|avoti/ then 'info'
  when /meness|pilnmeness|jaunmeness|astronom/ then 'moon'
  when /saullekts|gadalaiki/ then 'sun'
  when /skola|stundu/ then 'school'
@@ -38,10 +65,99 @@ def icon_for(url)
  when /kalkulator|skaititajs/ then 'calculator'
  when /pdf/ then 'print'
  when /horoskop|zodiaka/ then 'star'
+ when /sejas|darza/ then 'sprout'
  else 'calendar'
  end
 end
 def ui_icon(name); %(<svg class="icon" aria-hidden="true"><use href="#i-#{name}"/></svg>); end
+def visual_family(family, url = '')
+ case family
+ when 'sun_city','sky_hub' then 'sun'
+ when 'moon_city','lunar_year','lunar_month' then 'moon'
+ when 'garden','garden_month' then 'garden'
+ when 'horoscope' then 'zodiac'
+ when 'school_academic','school_year_calendar' then 'school'
+ when 'work_year','work_month','long_weekends' then 'work'
+ when 'holiday_year','holiday_month' then 'holiday'
+ when 'memorial_year' then 'memorial'
+ when 'latvia_cultural','occasion' then 'culture'
+ when 'latvia_special' then 'astronomy'
+ when 'city_photos' then 'city'
+ when 'name_calendar','name_day_month' then 'names'
+ when 'print_index','print_month' then 'print'
+ when 'iso_week','week_index' then 'week'
+ when 'year','calendar_month','month_index' then 'calendar'
+ else
+  url_visual = url.to_s
+  case url_visual
+  when /privacy|legal|terms|cookie|privatum|sikdatnu|lietošanas/ then 'privacy'
+  when /about|contact|source|edit|par-projektu|kontakti|avoti|labojumi/ then 'about'
+  when /meness|pilnmeness|jaunmeness|mēness/ then 'moon'
+  when /saullekts|saulriets|gadalaiki|dienas-garums/ then 'sun'
+  when /horoskop|zodiak/ then 'zodiac'
+  when /skola|stundu|macibu/ then 'school'
+  when /svetki|atceres|tradici/ then 'holiday'
+  when /darba|mainu/ then 'work'
+  when /gimenes|dzimsanas|family|birthday/ then 'family'
+  when /sejas|darza/ then 'garden'
+  when /varda/ then 'names'
+  when /pdf|print/ then 'print'
+  when /atvalinajuma|garas-brivdienas|kalkulator|skaititajs|visi-riki|planotajs|riki/ then 'tools'
+  else 'calendar'
+  end
+ end
+end
+def visual_icon(family)
+ {'sun'=>'sun','moon'=>'moon','garden'=>'garden','zodiac'=>'star','school'=>'school','work'=>'briefcase','culture'=>'gift','holiday'=>'gift','memorial'=>'flower','astronomy'=>'star','city'=>'pin','names'=>'sprout','print'=>'print','week'=>'week','calendar'=>'calendar','family'=>'family','tools'=>'calculator','privacy'=>'shield','about'=>'info'}.fetch(family,'calendar')
+end
+def hero_context(family,url,year,month,slug)
+ if %w[sun_city moon_city].include?(family)
+  city=CITIES.find{|item|item['id']==slug}
+  "#{city ? city['name'] : 'Latvija'} · Europe/Riga"
+ elsif %w[garden garden_month].include?(family)
+  'Latvijas audzēšanas apstākļi'
+ elsif family=='horoscope'
+  '12 zodiaka zīmes · dienas lasījums'
+ elsif %w[occasion latvia_cultural memorial_year holiday_year holiday_month latvia_special].include?(family)
+  'Latvijas svētki · atceres · tradīcijas'
+ elsif %w[school_academic school_year_calendar].include?(family)
+  'Latvijas mācību gada kalendārs'
+ elsif year && month
+  "#{year}. gads · #{MONTHS[month-1]}"
+ elsif year
+  "#{year}. gada kalendārs Latvijai"
+ elsif url.start_with?('/privatuma','/sikdatnu')
+  'Vienkārši un pārskatāmi privātuma noteikumi'
+ else
+  'Latvijas datumi · Europe/Riga'
+ end
+end
+def page_heading_markup(family,url,heading,description,year,month,slug)
+ visual=visual_family(family,url)
+ symbol=visual_icon(visual)
+ context=hero_context(family,url,year,month,slug)
+ %(<header class="page-heading page-heading--#{h(visual)}"><div class="page-heading-copy"><span class="eyebrow">LATVIJA · KALENDĀRS365</span><h1><span class="page-heading-mark">#{ui_icon(icon_for(url))}</span><span>#{h(heading)}</span></h1><p class="page-heading-deck">#{h(description)}</p><span class="page-heading-context">#{ui_icon(symbol)}<span>#{h(context)}</span></span></div><div class="page-heading-art" aria-hidden="true"><img class="page-heading-art-icon" src="/assets/category-art/#{h(visual)}.svg" alt="" width="320" height="260" loading="eager" decoding="async"><span class="page-heading-art-chip">#{h(context)}</span></div></header>)
+end
+
+def phase_svg(name, date, index)
+ phase = case name
+ when /Jaunmēness/i then 0.02
+ when /Pirmais ceturksnis/i then 0.25
+ when /Pilnmēness/i then 0.50
+ when /Pēdējais ceturksnis/i then 0.75
+ else 0.12
+ end
+ radius=40; cx=50; cy=50; cosine=Math.cos(phase*2*Math::PI); waxing=phase<0.5
+ term=[0.8,cosine.abs*radius].max; outer=waxing ? 1 : 0
+ inner=cosine>0 ? (waxing ? 0 : 1) : (waxing ? 1 : 0)
+ ident="moon-#{date.to_s.gsub(/[^0-9]/,'')}-#{index}"
+ path="M #{cx} #{cy-radius} A #{radius} #{radius} 0 0 #{outer} #{cx} #{cy+radius} A #{term.round(2)} #{radius} 0 0 #{inner} #{cx} #{cy-radius} Z"
+ %(<svg class="phase-moon" viewBox="0 0 100 100" role="img" aria-label="#{h(name)} Mēness fāze"><defs><radialGradient id="#{ident}-lit" cx=".32" cy=".22"><stop stop-color="#fffef4"/><stop offset=".58" stop-color="#e8dfc9"/><stop offset="1" stop-color="#b8ac97"/></radialGradient><radialGradient id="#{ident}-shade" cx=".68" cy=".72"><stop stop-color="#596073"/><stop offset=".72" stop-color="#303548"/><stop offset="1" stop-color="#171c2e"/></radialGradient><filter id="#{ident}-shadow" x="-45%" y="-45%" width="190%" height="190%"><feDropShadow dx="0" dy="5" stdDeviation="4" flood-color="#252132" flood-opacity=".32"/></filter><clipPath id="#{ident}-clip"><circle cx="50" cy="50" r="40"/></clipPath></defs><g filter="url(##{ident}-shadow)"><circle cx="50" cy="50" r="40" fill="url(##{ident}-shade)"/><path d="#{path}" fill="url(##{ident}-lit)"/><g clip-path="url(##{ident}-clip)" fill="#8c877c" opacity=".28"><circle cx="34" cy="32" r="5"/><circle cx="66" cy="39" r="7"/><circle cx="42" cy="64" r="8"/><circle cx="70" cy="67" r="4"/><circle cx="56" cy="22" r="2.5"/></g><circle cx="50" cy="50" r="40" fill="none" stroke="#fff8e8" stroke-opacity=".75" stroke-width="1.6"/><path d="M24 24C30 15 43 10 54 11" fill="none" stroke="#fff" stroke-opacity=".45" stroke-width="2" stroke-linecap="round"/></g></svg>)
+end
+def zodiac_art(profile,klass='zodiac-index-symbol',size=80)
+ slug=profile.fetch('slug')
+ %(<img class="#{h(klass)}" src="/assets/zodiac/#{h(slug)}.svg" alt="" aria-hidden="true" width="#{size}" height="#{size}" loading="eager" decoding="async">)
+end
 def a(url,label,klass=''); %(<a class="#{klass}" href="#{h(url)}">#{klass=='link-card' ? ui_icon(icon_for(url)) : ''}#{h(label)}</a>); end
 def planning_panel(type,year=2027)
  "<section data-planning=\"#{type}\" data-server-rendered=\"true\">#{PLANNING_MARKUP.fetch(type).fetch(year.to_s)}</section>"
@@ -59,13 +175,14 @@ def work_widget(year)
  '<section class="widget-panel" data-server-rendered="work"><section class="tool-panel"><h2>'+year.to_s+'. gada darba un atpūtas dienas</h2><div class="table-scroll"><table class="data-table"><thead><tr><th scope="col">Mēnesis</th><th scope="col">Dienas</th><th scope="col">Darba dienas</th><th scope="col">Svētku dienas</th><th scope="col">Brīvdienas</th></tr></thead><tbody>'+rows+'</tbody></table></div><p class="print-hint">Pamataprēķins: pirmdiena–piektdiena, bez oficiālajām svētku brīvdienām. Valsts noteikta darbdienu pārcelšana nav piemērota. Svētku un nedēļas atpūtas dienas var pārklāties.</p></section><div>'+calculator_markup(true)+'</div></section>'
 end
 def widget(type,year=2027)
+ return '{% include sky-tool.html %}' if type=='sun'
  return planning_panel('leave',year) if type=='leave'
  return work_widget(year) if type=='work'
  return '<section class="widget-panel" data-server-rendered="calculator">'+calculator_markup+'</section>' if %w[calculator date].include?(type)
  "<section class=\"widget-panel\" data-widget=\"#{type}\"></section>"
 end
 def card(title,body); "<section class=\"content-card\"><h2>#{h(title)}</h2>#{body}</section>"; end
-def year_links(prefix); "<nav class=\"year-pills\" aria-label=\"Gada izvēle\">#{(2027..2030).map{|y|a("/#{prefix}/#{y}/",y.to_s)}.join}</nav>"; end
+def year_links(prefix); "<nav class=\"year-pills\" aria-label=\"Gada izvēle\">#{(2026..2030).map{|y|a("/#{prefix}/#{y}/",y.to_s)}.join}</nav>"; end
 def month_links(y,prefix='kalendars'); "<div class=\"link-grid\">#{(1..12).map{|m|a("/#{prefix}/#{y}/#{SLUGS[m-1]}/",MONTHS[m-1].capitalize,'link-card')}.join}</div>"; end
 def dates(y,m=nil)
  HOLIDAYS.select{|v|v['date'].to_s.start_with?(m ? format('%04d-%02d',y,m) : y.to_s)}
@@ -121,6 +238,7 @@ def title_for(r)
  when 'work_month' then "Darba dienas #{y}. gada #{GEN[m-1]} mēnesī"
  when 'holiday_month' then "Svētku dienas #{y}. gada #{GEN[m-1]} mēnesī"
  when 'print_month' then "#{y}. gada #{GEN[m-1]} kalendārs PDF un WebP formātā"
+ when 'moon_city' then "Mēness lēkts un riets — #{t}"
  when 'sun_city' then "Saullēkts un saulriets — #{t}"
  when 'name_calendar' then "Kalendārs ar vārdu #{t}"
  when 'month_index' then "#{y}. gada mēnešu kalendāri"
@@ -132,6 +250,7 @@ def title_for(r)
  when 'memorial_year' then "#{y}. gada atceres dienas"
  when 'long_weekends' then "#{y}. gada garās brīvdienas"
  when 'school_year_calendar' then "Skolas brīvlaiki #{y}. gadā"
+ when 'latvia_cultural', 'latvia_special' then t
  else t
  end
 end
@@ -143,7 +262,27 @@ ROUTES.each do |r|
  noindex=false;reason='ready';body='';desc=''
  if p=='/'
   body='{% include app.html %}'
-  desc='Latvijas kalendārs, svētku dienas un ikdienas plānošana. 2027.–2030. gada kalendāri, personīgie notikumi un lejupielādējami PDF.'
+  desc='Latvijas kalendārs, svētku dienas un ikdienas plānošana. 2026.–2030. gada kalendāri, personīgie notikumi un lejupielādējami PDF.'
+ elsif f=='garden'
+  if slug=='sejas-kalendars'
+   title='Sējas un stādīšanas kalendārs Latvijā'
+   heading=title
+   desc='Latvijas dārzeņu sējas un stādīšanas orientieri, avoti, salnu un augsnes apstākļi. Izveido personiskus atgādinājumus savam dārzam.'
+   body=garden_hub_markup
+  else
+   crop=GARDEN_CROPS[slug]
+   if crop
+    title=crop.fetch('title');heading=crop.fetch('h1');desc=crop.fetch('description');body=garden_profile_markup(crop)
+   else
+    noindex=true;reason='garden_profile_missing';body='<section class="content-card"><h2>Šī dārzeņa apraksts nav pieejams.</h2><p>Atver sējas kalendāra pārskatu.</p>'+a('/sejas-kalendars/','Sējas kalendārs')+'</section>'
+   end
+  end
+ elsif f=='garden_month'
+  locative=GARDEN_MONTH_LOCATIVE[m-1]
+  title="Sējas kalendārs #{locative}"
+  heading="Dārza darbi #{locative}"
+  desc="#{GARDEN_MONTHS[m-1]} sējas un stādīšanas orientieri Latvijā. Pārbaudi avotos norādītos augsnes, šķirnes un salnu nosacījumus."
+  body=garden_hub_markup(m)
  elsif f=='year'
   body=year_links('kalendars')+metrics(y)+"<div class=\"year-calendar-grid\">#{(1..12).map{|n|calendar(y,n,true)}.join}</div>"+print_panel('yearly',y)+card('Svētki un atzīmējamās dienas',holiday_table(y))+source_panel
  elsif %w[calendar_month iso_week].include?(f)
@@ -162,44 +301,105 @@ ROUTES.each do |r|
  elsif %w[lunar_month lunar_year].include?(f)
   phases=DATA.fetch('moon',[]).select{|v|v['date'].to_s.start_with?(m ? format('%04d-%02d',y,m) : y.to_s)}
   noindex=phases.empty?;reason='moon_source_pending' if noindex
-  body=year_links('meness-kalendars')+widget('moon')+card('Galvenās Mēness fāzes','<div class="phase-list">'+phases.map{|z|"<article><span class=\"moon-dot\">◐</span><time>#{h(z['date'])} #{h(z['time'])}</time><b>#{h(z['phase'])}</b></article>"}.join+'</div>')+month_links(y,'meness-kalendars')+print_panel(m ? 'lunar' : 'lunar-year',y,m)+source_panel('Avots: USNO. Precīzs fāzes brīdis ir astronomisks notikums; dienas apgaismotā daļa mainās nepārtraukti.')
+  body=if m
+   lunar_month_markup(y,m)+print_panel('lunar',y,m)+source_panel('Redzamā Mēness diska apgaismojums un virziena leņķis tiek aprēķināts izvēlētās pilsētas koordinātām plkst. 12.00 Europe/Riga laikā ar Astronomy Engine DE421 efemerīdām. Mēness lēkta un rieta brīžus aprēķina lokāls novērotāja modelis, ņemot vērā Mēness diska malu un atmosfēras refrakciju. Galveno fāžu precīzie brīži ņemti no USNO, bet virsmas attēla mozaīka — no NASA LRO/LROC.')
+  else
+   lunar_year_markup(y)
+  end
  elsif %w[school_academic school_year_calendar].include?(f)
-  school=DATA.fetch('school',[]); matching=school.select{|s| f=='school_academic' ? s['academicYear']==slug.split('-').then{|v| v[0]+'-20'+v[1]} : (s['start'].start_with?(y.to_s)||s['end'].start_with?(y.to_s))}
-  noindex=matching.empty? || f=='school_year_calendar';reason='school_dates_pending' if noindex
-  body='<div class="notice"><b>'+(noindex ? 'Datumi vēl nav apstiprināti šajā datu kopā.' : 'Oficiāli publicētie datumi')+'</b><p>Neizmantojam iepriekšējā gada datumus kā nākamā gada prognozi. Pārbaudi arī savas skolas paziņojumus.</p></div>'+card('Mācību gada plānošana',matching.map{|s|"<p>#{h(s['title']||s['name'])} · #{h(s['start']||s['start_date'])}–#{h(s['end']||s['end_date'])}</p>"}.join)+widget('countdown')+print_panel('school',y)+source_panel
+  school_years = {'2026-27'=>'2026./2027.','2027-28'=>'2027./2028.','2028-29'=>'2028./2029.','2029-30'=>'2029./2030.','2030-31'=>'2030./2031.'}
+  if f == 'school_academic' && slug == '2026-27'
+   body=school_calendar_markup+widget('countdown')+print_panel('school',2027)
+  else
+   noindex=true;reason='school_dates_pending'
+   academic_slug = f == 'school_academic' ? slug : (y <= 2026 ? '2026-27' : "#{y}-#{(y+1).to_s[-2,2]}")
+   academic_label = school_years[academic_slug] || "#{y}./#{y+1}."
+   body="<section class=\"content-card school-pending\"><p class=\"eyebrow\">#{h(academic_label)} mācību gads</p><h2>Oficiālais brīvlaiku grafiks vēl nav publicēts</h2><p>Šajā lapā nav apstiprinātu datumu. Iepriekšējā mācību gada brīvlaikus nepārceļam uz nākamo gadu. Tiklīdz grafiku publicēs Izglītības un zinātnes ministrija, šeit būs norādīta datumu kopa un tās pirmavots.</p><p>Pašlaik publicētais grafiks: #{a('/skolas-brivlaiki/2026-27/','2026./2027. mācību gada skolas brīvlaiki')}.</p></section>"+card('Izvēlies mācību gadu','<div class="link-grid">'+school_years.map{|year,label|a("/skolas-brivlaiki/#{year}/","#{label} mācību gads",'link-card')}.join+'</div>')+verified_sources_panel(['school-2027'],'Skolas datumi attiecas tikai uz attiecīgo oficiāli publicēto mācību gadu; nākamo gadu termiņi netiek prognozēti.')
+  end
  elsif %w[name_calendar name_day_month].include?(f)
   names=DATA.fetch('names',[]);matching=f=='name_calendar' ? names.select{|n|n['name']==r['Latvian title/topic']} : names.select{|n|n['month'].to_i==m}
   noindex=matching.empty? || !DATA.fetch('assumptions',{}).fetch('namesComplete',false);reason='name_source_pending' if noindex
   body=(noindex ? '<div class="notice">Vārda dienas datums vēl nav pārbaudīts oficiālajā sarakstā. Personalizētu kalendāru vari izveidot bez vārda dienas atzīmes.</div>' : card('Vārda diena',matching.map{|n|"<p>#{h(n['name'])} · #{n['day']}. #{MONTHS[n['month'].to_i-1]}</p>"}.join))+widget('names')+(f=='name_calendar' ? print_panel('named',2027,nil,r['Latvian title/topic']) : '')+source_panel('Kalendārvārdu avots: Valsts valodas centrs. Pie katra ieraksta norādīta avota versija. Vēsturiskā saraksta salīdzināšana ar jaunāko izdevumu vēl turpinās; pilnu aktuālā saraksta pārklājumu neapgalvojam.')
+ elsif f=='sky_hub'
+  body='{% include sky-tool.html kind="moon" %}'+'<section class="sun-city-options"><h2>Mēness laiki visās Latvijas pilsētās</h2><div class="link-grid">'+CITIES.map{|c|a('/meness-lekts-un-riets/'+c['id']+'/',c['name'],'link-card')}.join+'</div></section>'
+ elsif f=='moon_city'
+  body='{% include sky-tool.html kind="moon" %}'+source_panel('Mēness fāzes apgaismojums ir aprēķināts izvēlētās dienas plkst. 12.00 Europe/Riga laikā. Lēkts un riets atkarīgs no pilsētas koordinātām.')
  elsif f=='sun_city'
   city=CITIES.find{|c|c['id']==slug}
   desc="Saullēkts, saulriets un dienas garums pilsētā #{city.fetch('name')}. Europe/Riga laiks un aptuvens astronomisks aprēķins pilsētas centram."
   body=widget('sun')+card('Kā lasīt Saules laikus','<p>Aprēķins attiecas uz pilsētas koordinātām un standarta horizontu. Vietējais reljefs, laikapstākļi un atmosfēras laušana var mainīt novērojumu. Laiks parādīts Europe/Riga joslā.</p>')+source_panel
  elsif f=='horoscope'
-  body="<section class=\"horoscope-card\" data-sign=\"#{slug}\"><span class=\"eyebrow\">Izklaide un pašrefleksija</span><h2>#{h(r['Latvian title/topic'])}: dienas pārdomas</h2><div data-horoscope=\"#{slug}\"></div><p class=\"fineprint\">Astroloģijai nav zinātniski pierādīta prognozēšanas pamata. Šis teksts nav veselības, finanšu vai attiecību lēmumu ieteikums.</p></section>"+widget('zodiac')
+  profile=HOROSCOPE_PROFILES.find{|item|item['slug']==slug}
+  if profile
+   issue=HOROSCOPE_SNAPSHOT.fetch('dailyMarkup').fetch(slug)
+   body="<section class=\"horoscope-page\" data-sign=\"#{h(slug)}\"><div class=\"horoscope-daily-feature\"><!--K365-HOROSCOPE-BEGIN:#{h(slug)}--><div data-horoscope-view=\"#{h(slug)}\" data-edition-date=\"#{HOROSCOPE_DAY}\">#{issue}</div><!--K365-HOROSCOPE-END:#{h(slug)}--></div>#{HOROSCOPE_SNAPSHOT.fetch('profileMarkup').fetch(slug)}</section>"
+  else
+   noindex=true;reason='horoscope_profile_missing';body='<section class="content-card"><h2>Zīmes apraksts nav pieejams.</h2>'+a('/horoskops/','Horoskopu pārskats')+'</section>'
+  end
+ elsif f=='latvia_cultural'
+  article=LATVIA_EXTRA_PAGES[p]
+  if article
+   body=cultural_page_markup(article);desc=article['description'];noindex=false;reason='ready'
+  else
+   body='<section class="content-card"><p>Šīs kultūras tēmas saturs vēl tiek pārbaudīts.</p></section>';noindex=true;reason='culture_source_pending'
+  end
+ elsif f=='latvia_special'
+  if p.start_with?('/atceres-dienas/')
+   month_index=SLUGS.index(slug)
+   if month_index
+    title="Atceres un atzīmējamās dienas #{GARDEN_MONTH_LOCATIVE[month_index]}"
+    heading=title
+    desc="Latvijas atceres un atzīmējamo dienu datumi #{GARDEN_MONTH_LOCATIVE[month_index]}. Pārbaudi gadam atbilstošo ierakstu un tā juridisko statusu."
+    body=memorial_month_markup(month_index+1)+verified_sources_panel(['holiday-law'],'Atceres diena pati par sevi nav likumā noteikta brīvdiena.')
+   else
+    noindex=true;reason='memorial_month_missing';body='<p>Šī mēneša saraksts nav pieejams.</p>'
+   end
+  else
+   extra_page=LATVIA_EXTRA_PAGES[p]
+   body=latvia_special_markup(p,extra_page)
+   desc=extra_page['description'] if extra_page
+   noindex=true;reason='latvia_special_missing' unless extra_page || %w[nozimigas-dienas].include?(slug)
+  end
  elsif f=='occasion'
   article=JSON.parse(File.read('_data/occasions.json')).find{|x|x['slug']==slug}
   noindex=article.nil? || !article['verified'];reason='editorial_review_pending' if noindex
-  body=article ? '<article class="occasion-article">'+article['bodyHtml']+'</article>'+card('Plāno savu svētku laiku',year_links('svetku-dienas')+widget('countdown')) : source_panel('Šīs tēmas apraksts vēl tiek pārbaudīts.')
+  body=article ? occasion_page(article,JSON.parse(File.read('_data/occasions.json'))) : source_panel('Šīs tēmas apraksts vēl tiek pārbaudīts.')
   desc=article['description'] if article
  elsif TRUST.key?(slug)
   t=TRUST[slug];body="<p class=\"lead\">#{h(t[0])}</p><div class=\"editorial-grid\">#{card('Kas jāzina',"<p>#{h(t[1])}</p>")}#{card(t[2],"<p>#{h(t[3])}</p>")}</div>"+card('Sazinies ar uzturētāju',a('mailto:kalendars365@gmail.com','kalendars365@gmail.com')+'<p>Mateo Pedersen · Kalendārs365</p>')
  elsif slug=='kontakti'
   body='<div class="contact-layout"><section><span class="eyebrow">Raksti mums</span><h2>Labs kalendārs kļūst labāks ar sarunu.</h2><p>Projekta uzturētājs: <strong>Mateo Pedersen</strong></p>'+a('mailto:kalendars365@gmail.com','kalendars365@gmail.com','contact-email')+'<p>Norādi lapas adresi un apraksti jautājumu. Neiekļauj savu privāto kalendāru vai sensitīvus datus.</p></section>'+card('Īss ceļš līdz precizējumam','<ol><li>Atver lapu, kurā redzi problēmu.</li><li>Pievieno datumu un avota saiti.</li><li>Nosūti ziņu ar savu e-pasta lietotni.</li></ol>'+a('mailto:kalendars365@gmail.com?subject=Kalendars365%20jautajums','Atvērt e-pasta lietotni','primary-button'))+'</div>'
  elsif slug=='avoti-un-metodika'
-  body=card('Kalendāra aprēķini','<p>Gregora kalendārs, ISO 8601 nedēļas, pirmdiena kā nedēļas pirmā diena. Europe/Riga laika josla. Viena datu kopa baro kalendārus un drukājamos failus.</p>')+card('Oficiālie avoti','<ul>'+DATA.fetch('sources',[]).map{|s|"<li>#{a(s['url']||s['URL']||'#',s['title']||s['name']||s['id'])} — #{h({'verified'=>'Pārbaudīts','snapshot'=>'Vēsturiska versija','pending'=>'Pārbaude turpinās','snapshot_verified'=>'Pārbaudīta arhīva versija'}.fetch(s['status'],'Avota statuss norādīts aprakstā'))}</li>"}.join+'</ul>')+source_panel+card('Attēli un licences','<p id="atteli">Rīgas panorāma: Marcin Szala (Pudelek), 2011. '+a('https://commons.wikimedia.org/wiki/File:Riga_and_Daugava_-_panorama.jpg','Oriģinālais attēls')+' · '+a('https://creativecommons.org/licenses/by-sa/3.0/','CC BY-SA 3.0')+'. Vietnei izveidotas samazinātas WebP kopijas; tās pieejamas ar to pašu licenci. Interfeisā attēls var tikt apgriezts. Pilsētu kartē izmantotas 82 atsevišķas īstu pilsētu fotogrāfijas. '+a('/pilsetas-un-fotografijas/','Visu fotogrāfiju autori un licences')+'. Interfeisa materiālie SVG pielāgoti Koledar365 dizaina saimei.</p>')+card('Burtveidols un licence','<p>Vietnes interfeiss izmanto Avenir vai Avenir Next, ja tas ir instalēts apmeklētāja ierīcē; citādi tiek izmantots sistēmas sans-serif fonts. Licencēti Avenir failu dati netiek izplatīti. Sociālajās kartītēs un drukājamajos kalendāros izmantots DM Sans Regular un DM Sans Bold. Dizains: Colophon Foundry; autortiesības: The DM Sans Project Authors. '+a('https://github.com/google/fonts/tree/main/ofl/dmsans','DM Sans — oficiālais Google Fonts avots')+' · '+a('/assets/fonts/DM-Sans-OFL.txt','SIL Open Font License 1.1')+'. Fonti tiek ielādēti no šīs vietnes servera; fontu pieprasījumi netiek sūtīti Google serveriem.</p>')+card('Pārbaudes robežas','<p>Automatizēti datumu, izvades un valodas paraugu testi neaizstāj neatkarīgu jurista vai dzimtās valodas redaktora pārbaudi. Jauna avota publikācija var mainīt nākotnes datus.</p>')
+  body=card('Kalendāra aprēķini','<p>Gregora kalendārs, ISO 8601 nedēļas, pirmdiena kā nedēļas pirmā diena. Europe/Riga laika josla. Viena datu kopa baro kalendārus un drukājamos failus.</p>')+card('Oficiālie avoti','<ul>'+DATA.fetch('sources',[]).map{|s|"<li>#{a(s['url']||s['URL']||'#',s['title']||s['name']||s['id'])} — #{h({'verified'=>'Pārbaudīts','snapshot'=>'Vēsturiska versija','pending'=>'Pārbaude turpinās','snapshot_verified'=>'Pārbaudīta arhīva versija'}.fetch(s['status'],'Avota statuss norādīts aprakstā'))}</li>"}.join+'</ul>')+source_panel+card('Attēli un licences','<p id="atteli">Rīgas panorāma: Marcin Szala (Pudelek), 2011. '+a('https://commons.wikimedia.org/wiki/File:Riga_and_Daugava_-_panorama.jpg','Oriģinālais attēls')+' · '+a('https://creativecommons.org/licenses/by-sa/3.0/','CC BY-SA 3.0')+'. Vietnei izveidotas samazinātas WebP kopijas; tās pieejamas ar to pašu licenci. Interfeisā attēls var tikt apgriezts. Pilsētu kartē izmantotas 82 atsevišķas īstu pilsētu fotogrāfijas. '+a('/pilsetas-un-fotografijas/','Visu fotogrāfiju autori un licences')+'. Saskarnes ilustrācijas izstrādātas Kalendāram365.</p>')+card('Burtveidols un licence','<p>Vietnes interfeiss izmanto Avenir vai Avenir Next, ja tas ir instalēts apmeklētāja ierīcē; citādi tiek izmantots sistēmas sans-serif fonts. Licencēti Avenir failu dati netiek izplatīti. Sociālajās kartītēs un drukājamajos kalendāros izmantots DM Sans Regular un DM Sans Bold. Dizains: Colophon Foundry; autortiesības: The DM Sans Project Authors. '+a('https://github.com/google/fonts/tree/main/ofl/dmsans','DM Sans — oficiālais Google Fonts avots')+' · '+a('/assets/fonts/DM-Sans-OFL.txt','SIL Open Font License 1.1')+'. Fonti tiek ielādēti no šīs vietnes servera; fontu pieprasījumi netiek sūtīti Google serveriem.</p>')+card('Pārbaudes robežas','<p>Automatizēti datumu, izvades un valodas paraugu testi neaizstāj neatkarīgu jurista vai dzimtās valodas redaktora pārbaudi. Jauna avota publikācija var mainīt nākotnes datus.</p>')
  elsif TOOL_INFO.key?(slug)
   t=TOOL_INFO[slug];body="<p class=\"lead\">#{h(t[1])}</p>"+(slug=='darba-laika-kalendars' ? planning_panel('work',y) : '')+widget(t[0],y)+source_panel
- elsif %w[tukss-kalendars izveidot-kalendaru gimenes-kalendars stundu-saraksts dzimsanas-dienu-kalendars].include?(slug)
-  type={'tukss-kalendars'=>'blank','gimenes-kalendars'=>'family','stundu-saraksts'=>'school','dzimsanas-dienu-kalendars'=>'named'}[slug]||'monthly';body=print_panel(type,2027)+card('Personīgi. Privāti. Izdrukājami.','<p>Izvēlies gadu, mēnesi, dizainu un vārdu. Fotoattēli netiek augšupielādēti serverī. A4 izmēra attēla izveide var prasīt vairāk atmiņas; uzgaidi, līdz fails ir gatavs.</p>')
+ elsif slug=='gimenes-kalendars'
+  body=family_planner_markup
+ elsif slug=='stundu-saraksts'
+  body=timetable_planner_markup
+ elsif %w[tukss-kalendars izveidot-kalendaru dzimsanas-dienu-kalendars].include?(slug)
+  type={'tukss-kalendars'=>'blank','dzimsanas-dienu-kalendars'=>'named'}[slug]||'monthly';body=print_panel(type,2027)+card('Personīgi. Privāti. Izdrukājami.','<p>Izvēlies gadu, mēnesi, dizainu un vārdu. Fotoattēli netiek augšupielādēti serverī. A4 izmēra attēla izveide var prasīt vairāk atmiņas; uzgaidi, līdz fails ir gatavs.</p>')
  elsif %w[dienas-kalendars dienas-planotajs].include?(slug)
   body='{% include app.html %}'+print_panel('daily',2027)
- elsif %w[horoskops zodiaka-zimes].include?(slug)
-  body=widget('zodiac')+'<div class="link-grid">'+ROUTES.select{|s|s['Page family']=='horoscope'}.map{|s|a(s['URL path'],s['Latvian title/topic'],'link-card')}.join+'</div><p>Saturs paredzēts izklaidei. Dienas pārdomām ir konkrēts publicēšanas datums; novecojušu tekstu nerādām kā šodienas horoskopu.</p>'
+ elsif slug=='zodiaka-zimes'
+  cards=HOROSCOPE_PROFILES.map do |profile|
+   element=profile.fetch('element');name=profile.fetch('name');sign_slug=profile.fetch('slug')
+   %(<article class="zodiac-index-card">#{zodiac_art(profile,'zodiac-index-symbol',80)}<div class="zodiac-index-heading"><span class="eyebrow">#{h(element.fetch('label'))} · #{h(profile.fetch('modality').fetch('label'))}</span><h2>#{h(name)}</h2></div><p>#{h(profile.fetch('summary'))}</p>#{a("/horoskops/#{h(sign_slug)}/","Atvērt #{h(profile.fetch('genitive').downcase)} horoskopu →")}</article>)
+  end.join
+  method=JSON.parse(File.read('_data/horoscope/method.json'))
+  body=%(<section class="zodiac-index"><p class="lead">Iepazīsti 12 populārās Rietumu tropiskā zodiaka zīmes, to simbolus, elementus un tradicionālo simboliku.</p><div class="zodiac-index-grid">#{cards}</div>)+card('Kā lasīt zīmju aprakstus',"<p>#{h(method.fetch('selectionExplanation'))}</p><p>#{h(method.fetch('astronomyNotice'))}</p><p>#{h(method.fetch('shortDisclosure'))}</p>")+a('/horoskops/','Lasīt šodienas horoskopu →','primary-button')+'</section>'
+ elsif slug=='horoskops'
+  body=widget('zodiac')+"<!--K365-HOROSCOPE-BEGIN:collection--><section data-horoscope-collection data-edition-date=\"#{HOROSCOPE_DAY}\">#{HOROSCOPE_SNAPSHOT.fetch('collectionMarkup')}</section><!--K365-HOROSCOPE-END:collection-->"+card(HOROSCOPE_PROFILES.first['seo']['title'].split(':').first,'<p>'+h(JSON.parse(File.read('_data/horoscope/method.json')).fetch('selectionExplanation'))+'</p><p>'+h(JSON.parse(File.read('_data/horoscope/method.json')).fetch('astronomyNotice'))+'</p><p>'+h(JSON.parse(File.read('_data/horoscope/method.json')).fetch('shortDisclosure'))+'</p>')+'<div class="link-grid">'+ROUTES.select{|s|s['Page family']=='horoscope'}.map{|s|a(s['URL path'],s['Latvian title/topic'],'link-card')}.join+'</div>'
  elsif slug=='meklesana'
   noindex=true;reason='internal_search';body=widget('search')
  elsif %w[gadalaiki astronomiskais-kalendars].include?(slug)
   noindex=DATA.fetch('seasons',[]).empty?;reason='season_ephemeris_pending' if noindex;body=card('Meteoroloģiskie un astronomiskie gadalaiki','<p>Meteoroloģiskais pavasaris sākas 1. martā, vasara — 1. jūnijā, rudens — 1. septembrī, ziema — 1. decembrī. Astronomiskās robežas nosaka ekvinokcijas un saulgrieži; to precīzos brīžus pievienojam tikai no pārbaudīta efemerīdu avota.</p>')+card('Astronomiskie gadalaiki Rīgas laikā','<div class="phase-list">'+DATA.fetch('seasons',[]).map{|z|"<article><b>#{h(z['event']||z['title'])}</b><time>#{h(z['date'])} #{h(z['time'])}</time></article>"}.join+'</div>')+widget('sun')+widget('moon')
+ elsif slug=='skolas-brivlaiki'
+  title='Skolas brīvlaiki Latvijā';heading=title;desc='Latvijas skolēnu oficiālie brīvlaiki, mācību semestru datumi un klašu beigu termiņi. Katram mācību gadam norādīts atsevišķs avots.'
+  body=school_calendar_markup+card('Mācību gadi','<div class="link-grid">'+[['2026-27','2026./2027.'],['2027-28','2027./2028.'],['2028-29','2028./2029.'],['2029-30','2029./2030.'],['2030-31','2030./2031.']].map{|year,label|a("/skolas-brivlaiki/#{year}/","#{label} mācību gads",'link-card')}.join+'</div>')
+ elsif slug=='meness-kalendars'
+  noindex=DATA.fetch('moon',[]).empty?;reason='moon_source_pending' if noindex
+  body=lunar_year_index_markup
  else
   children=ROUTES.select{|s|s['URL path']!=p&&s['URL path'].start_with?(p)&&s['URL path'].split('/').length<=p.split('/').length+1}
   children=ROUTES.select{|s|s['Page family']=='hub'&&s['URL path']!='/' } if children.empty?
@@ -207,12 +407,29 @@ ROUTES.each do |r|
   body+=widget('moon') if slug=='meness-kalendars'
   body+=planning_panel('work',y)+widget('work',y) if slug=='darba-dienu-kalendars'
  end
+ editorial=EDITORIAL[p] || {}
+ if p=='/nozimigas-dienas/'
+  title='Nozīmīgas dienas Latvijā';heading='Nozīmīgas dienas Latvijā';desc='Latvijas svētku dienas, gadskārtu notikumi un citas avotos pārbaudītas kultūras tēmas. Pārbaudi datumu un atšķir to no likumā noteiktas brīvdienas.'
+ end
+ heading=editorial.fetch('h1',title)
+ title=editorial.fetch('title',title)
+ desc=editorial.fetch('description',desc)
+ if f=='horoscope' && (profile=HOROSCOPE_PROFILES.find{|item|item['slug']==slug})
+  title=profile.fetch('seo').fetch('title');heading="#{profile.fetch('genitive')} horoskops";desc=profile.fetch('seo').fetch('description')
+ elsif slug=='horoskops'
+  collection_seo=JSON.parse(File.read('_data/horoscope/method.json')).fetch('collectionSeo')
+  title=collection_seo.fetch('title');heading='Dienas horoskops latviešu valodā';desc=collection_seo.fetch('description')
+ elsif slug=='zodiaka-zimes'
+  title='Zodiaka zīmes: nosaukumi un simbolika';heading='12 zodiaka zīmes un to elementi';desc='Iepazīsti Aunu, Vērsi, Dvīņus un pārējās zodiaka zīmes, to elementus un simbolisko nozīmi. Dienas horoskopi katrai zīmei.'
+ end
  desc="#{title}. #{m ? "#{Date.new(y,m,-1).day} dienas, ISO nedēļas un izvēlētā mēneša plānošana." : 'Pārskatāmi datumi, plānošanas rīki un saites uz avotiem.'} Kalendārs365 Latvijai." if desc.empty?
- front={'layout'=>'default','title'=>title,'description'=>desc,'permalink'=>p,'family'=>f,'year'=>(r['Year'].empty? ? nil : y),'month'=>m,'week'=>week,'calendar_name'=>(f=='name_calendar' ? r['Latvian title/topic'] : nil),'view'=>(f=='iso_week' ? 'week' : f=='year' ? 'year' : nil),'noindex'=>noindex,'og_image'=>"/assets/og/#{Digest::SHA1.hexdigest(p)[0,16]}.webp"}
+ front={'layout'=>'default','title'=>title,'description'=>desc,'permalink'=>p,'family'=>f,'city_id'=>(%w[sun_city moon_city].include?(f) ? slug : nil),'year'=>(r['Year'].empty? ? nil : y),'month'=>m,'week'=>week,'calendar_name'=>(f=='name_calendar' ? r['Latvian title/topic'] : nil),'view'=>(f=='iso_week' ? 'week' : f=='year' ? 'year' : nil),'noindex'=>noindex,'og_image'=>(File.file?("assets/og/#{Digest::SHA1.hexdigest(p)[0,16]}.webp") ? "/assets/og/#{Digest::SHA1.hexdigest(p)[0,16]}.webp" : File.file?("assets/og/#{f}.png") ? "/assets/og/#{f}.png" : '/assets/og/home.png')}
+ front.delete_if{|_,value|value.nil?}
  if slug=='saullekts-saulriets'
   body += '<section class="sun-city-options"><h2>Saules laiki visās Latvijas pilsētās</h2><div class="link-grid">'+CITIES.map{|c|a('/saullekts-saulriets/'+c['id']+'/',c['name'],'link-card')}.join+'</div></section>'
  end
- content=p=='/' ? body : "<div class=\"page-shell\"><nav class=\"breadcrumbs\" aria-label=\"Atrašanās vieta\">#{a('/','Sākums')} <span>/</span> #{a('/visi-riki/','Kalendāri un rīki')}</nav><header class=\"page-heading\"><span class=\"eyebrow\">LATVIJA · KALENDĀRS365</span><h1>#{ui_icon(icon_for(p))}#{h(title)}</h1></header>#{body}<nav class=\"related-links\">#{a('/kalendars/2027/','2027. gada kalendārs')}#{a('/kalendars/2028/','2028. gada kalendārs')}#{a('/kalendars/2029/','2029. gada kalendārs')}#{a('/kalendars/2030/','2030. gada kalendārs')}#{a('/visi-riki/','Visi rīki')}</nav></div>"
+ visual=visual_family(f,p)
+ content=p=='/' ? body : "<div class=\"page-shell page-shell--#{h(f)} page-shell--visual-#{h(visual)}\"><nav class=\"breadcrumbs\" aria-label=\"Atrašanās vieta\">#{breadcrumb_markup(p,title)}</nav>#{page_heading_markup(f,p,heading,desc,y,m,slug)}#{body}<nav class=\"related-links\">#{a('/kalendars/2026/','2026. gada kalendārs')}#{a('/kalendars/2027/','2027. gada kalendārs')}#{a('/kalendars/2028/','2028. gada kalendārs')}#{a('/kalendars/2029/','2029. gada kalendārs')}#{a('/kalendars/2030/','2030. gada kalendārs')}#{a('/visi-riki/','Visi rīki')}</nav></div>"
  path=p=='/' ? 'index.html' : "generated#{p}index.html";FileUtils.mkdir_p(File.dirname(path));File.write(path,front.to_yaml+"---\n"+content)
  # A rebuild alone does not change lastmod. Only meaningful page content does.
  content_hash = Digest::SHA256.hexdigest(JSON.generate([title,desc,body]))
@@ -222,20 +439,20 @@ ROUTES.each do |r|
  manifest << {url:p,title:title,family:f,indexable:!noindex,status:reason,description:desc,lastmod:lastmod}
 end
 # ISO boundary weeks are valid support routes; absent from the four-year matrix.
-[[2026,53],[2031,1]].each do |y,w|
- path="generated/nedelas-kalendars/#{y}/#{format('%02d',w)}/index.html";FileUtils.mkdir_p(File.dirname(path));File.write(path,{'layout'=>'default','title'=>"#{y}. gada #{w}. nedēļa",'description'=>'ISO nedēļa pie kalendārā gada robežas.','permalink'=>"/nedelas-kalendars/#{y}/#{format('%02d',w)}/",'family'=>'iso_week','year'=>y,'week'=>w,'noindex'=>true}.to_yaml+"---\n<div class=\"page-shell\"><h1>#{y}. gada #{w}. nedēļa</h1>{% include app.html %}</div>")
+[[2031,1]].each do |y,w|
+ path="generated/nedelas-kalendars/#{y}/#{format('%02d',w)}/index.html";FileUtils.mkdir_p(File.dirname(path));File.write(path,{'layout'=>'default','title'=>"#{y}. gada #{w}. nedēļa",'description'=>'Apskati 2031. gada ISO 1. nedēļas datumus, kas sākas 2030. gada decembra pēdējās dienās.','permalink'=>"/nedelas-kalendars/#{y}/#{format('%02d',w)}/",'family'=>'iso_week','year'=>y,'week'=>w,'noindex'=>true}.to_yaml+"---\n<div class=\"page-shell\"><h1>#{y}. gada #{w}. nedēļa</h1>{% include app.html %}</div>")
 end
-File.write('404.html',{'layout'=>'default','title'=>'Lapa nav atrasta','description'=>'Atgriezies kalendārā vai atrodi vajadzīgo rīku.','permalink'=>'/404.html','noindex'=>true}.to_yaml+"---\n<section class=\"error-page\"><span>404</span><h1>Šī diena kalendārā nav ierakstīta.</h1><p>Lapas adrese, iespējams, ir mainījusies. Izvēlies savu nākamo soli.</p>#{a('/','Atvērt kalendāru','primary-button')} #{a('/visi-riki/','Apskatīt visus rīkus')}</section>")
-File.write('500.html',{'layout'=>'default','title'=>'Īslaicīga kļūda','description'=>'Lūdzu, mēģini vēlreiz.','permalink'=>'/500.html','noindex'=>true}.to_yaml+"---\n<section class=\"error-page\"><span>500</span><h1>Plānos gadījies pārtraukums.</h1><p>Lūdzu, mēģini vēlreiz pēc brīža.</p>#{a('/','Atvērt kalendāru','primary-button')}</section>")
-manifest << {url:'/pilsetas-un-fotografijas/',title:'Latvijas pilsētas, fotogrāfijas un licences',family:'city_photos',indexable:true,status:'ready',description:'82 Latvijas pilsētu īstās fotogrāfijas, autori un atvērtās licences.',lastmod:revision_date}
+File.write('404.html',{'layout'=>'default','title'=>'Lapa nav atrasta','description'=>'Šo lapu neizdevās atrast. Atver Latvijas kalendāru, meklē svētku dienas vai izvēlies kādu no plānošanas rīkiem.','permalink'=>'/404.html','noindex'=>true}.to_yaml+"---\n<section class=\"error-page\"><span>404</span><h1>Šī diena kalendārā nav ierakstīta.</h1><p>Lapas adrese, iespējams, ir mainījusies. Izvēlies savu nākamo soli.</p>#{a('/','Atvērt kalendāru','primary-button')} #{a('/visi-riki/','Apskatīt visus rīkus')}</section>")
+File.write('500.html',{'layout'=>'default','title'=>'Īslaicīga kļūda','description'=>'Kalendāra lapa īslaicīgi nav pieejama. Pamēģini vēlreiz vai atver Latvijas kalendāra sākumlapu.','permalink'=>'/500.html','noindex'=>true}.to_yaml+"---\n<section class=\"error-page\"><span>500</span><h1>Plānos gadījies pārtraukums.</h1><p>Lūdzu, mēģini vēlreiz pēc brīža.</p>#{a('/','Atvērt kalendāru','primary-button')}</section>")
+manifest << {url:'/pilsetas-un-fotografijas/',title:'Latvijas vietu un svētku fotogrāfijas: avoti un licences',family:'city_photos',indexable:true,status:'ready',description:'82 Latvijas pilsētu, 42 svētku foto un 9 valsts augstskolu fotogrāfijas ar norādītiem autoriem, avota failiem un licencēm.',lastmod:revision_date}
 File.write('assets/search-index.json',JSON.generate(manifest.select{|r|r[:indexable]}))
 File.write('docs/route-manifest.json',JSON.pretty_generate(manifest))
 File.write('_data/page-revisions.json',JSON.pretty_generate(page_revisions)+"\n")
 File.write('sitemap.xml',"---\nlayout: null\n---\n<?xml version=\"1.0\" encoding=\"UTF-8\"?><urlset xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">"+manifest.select{|r|r[:indexable]}.map{|r|"<url><loc>{{ site.url }}#{h(r[:url])}</loc><lastmod>#{r[:lastmod]}</lastmod></url>"}.join+'</urlset>')
 File.write('robots.txt',"---\nlayout: null\n---\nUser-agent: *\nAllow: /\nSitemap: {{ site.url }}/sitemap.xml\n")
-File.write('_redirects',"/avoti/ /avoti-un-metodika/ 301\n/sikdatnes/ /sikdatnu-politika/ 301\n/lietošanas-noteikumi /lietošanas-noteikumi/ 301\n/lietosanas-noteikumi/ /lietošanas-noteikumi/ 301\n")
+File.write('_redirects',"/avoti/ /avoti-un-metodika/ 301\n/sikdatnes/ /sikdatnu-politika/ 301\n/lietošanas-noteikumi /lietošanas-noteikumi/ 301\n/lietosanas-noteikumi/ /lietošanas-noteikumi/ 301\n/darba-dienu-kalkulators/ /darba-laika-kalendars/ 301\n")
 # Serialize the shared city catalog as JavaScript before hashing assets.
-public_cities = CITIES.map{|c| c.slice('id','name','lat','lon','timeZone').merge('photo'=>c.fetch('photo').slice('src','srcset','alt','author','license'))}
+public_cities = CITIES.map{|c| c.slice('id','name','locative','lat','lon','timeZone').merge('photo'=>c.fetch('photo').slice('src','srcset','alt','author','license'))}
 File.write('assets/cities.js', 'window.K365Cities = '+JSON.generate(public_cities)+";\n")
 # Content-addressed global asset revision; local user data is never involved.
 asset_files = (Dir.glob('assets/**/*').select{|path|File.file?(path)} + ['downloads/manifest.json'].select{|path|File.file?(path)}).sort

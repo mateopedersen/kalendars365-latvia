@@ -1,8 +1,86 @@
 ---
 layout: default
-title: Latvijas pilsētas, fotogrāfijas un licences
-description: Visas 82 Latvijas pilsētas, to fotogrāfiju autori, avoti un atvērtās licences. Pilsētu laiks un Saules aprēķinu metodika.
+title: "Latvijas vietu un svētku fotogrāfijas: avoti un licences"
+description: Latvijas pilsētu, svētku un augstskolu fotogrāfijas ar autoriem, avota failiem un licencēm. Pārbaudi arī koordinātu un astronomisko aprēķinu avotus.
 permalink: /pilsetas-un-fotografijas/
 family: city_photos
 ---
-<div class="page-shell"><nav class="breadcrumbs" aria-label="Atrašanās vieta"><a href="/">Sākums</a><span>/</span><span>Fotogrāfijas un licences</span></nav><header class="page-heading"><span class="eyebrow">LATVIJA · AVOTI UN ATTĒLI</span><h1><svg class="icon" aria-hidden="true"><use href="#i-image"/></svg>82 pilsētas. Īsti Latvijas skati.</h1></header><section class="content-card"><h2>Izvēlies savu pilsētu</h2><p>Kalendārā vari izvēlēties jebkuru no 82 Latvijas pilsētām. Carnikavai pilsētas statuss piešķirts no 2026. gada 22. augusta — <a href="https://saeima.lv/en/news/saeima-news/36055-saeima-approves-city-status-for-carnikava">Saeimas paziņojums</a> un <a href="{{ site.data.cities.officialListSource }}">spēkā esošais likums</a>.</p><p>Visā Latvijā ir vienāda laika josla — Europe/Riga (EET ziemā, EEST vasarā). Fotogrāfijas ir arhīva attēli; tās nav tiešraides kameras un nerāda pašreizējos laikapstākļus. Saules laiki tiek aptuveni aprēķināti katras pilsētas centra koordinātām.</p><p class="fineprint">Attēli iegūti no Wikimedia Commons. Tiem izveidotas mazākas WebP kopijas, un saskarnē iespējams kadrējums. Katras fotogrāfijas licence attiecas arī uz tās atbilstošajām kopijām. Zemāk norādīts autors, avota fails un licence. Pilsētu koordinātu avots: Wikidata P625. Pārbaudīts 2026. gada 9. novembrī.</p></section><div class="photo-catalog">{% for city in site.data.cities.cities %}<article id="{{ city.id }}"><img src="{{ city.photo.src }}" srcset="{{ city.photo.srcset }}" sizes="(max-width: 700px) 94vw, (max-width: 900px) 44vw, 31vw" alt="{{ city.photo.alt | escape }}" width="{{ city.photo.width }}" height="{{ city.photo.height }}" loading="lazy"><div><h2><a href="/saullekts-saulriets/{{ city.id }}/">{{ city.name }}</a></h2><p>{{ city.photo.author | escape }} · <a href="{{ city.photo.licenseUrl | escape }}">{{ city.photo.license | escape }}</a></p><p><a href="{{ city.photo.sourceUrl | escape }}">Avota fotogrāfija Wikimedia Commons</a> · <a href="{{ city.photo.src }}">WebP kopija</a></p><small>{{ city.lat }}, {{ city.lon }} · {{ city.timeZone }} · <a href="{{ city.coordinateSource }}">Koordinātu avots</a></small></div></article>{% endfor %}</div></div>
+<div class="page-shell">
+  <nav class="breadcrumbs" aria-label="Atrašanās vieta"><a href="/">Sākums</a><span>/</span><span>Fotogrāfijas un licences</span></nav>
+  <header class="page-heading">
+    <div class="page-heading-copy"><span class="eyebrow">LATVIJA · AVOTI UN ATTĒLI</span><h1><span class="page-heading-mark" aria-hidden="true"><svg class="icon"><use href="#i-image"/></svg></span>Latvijas vietu un svētku fotogrāfijas</h1><p class="page-heading-deck">Īstas Latvijas pilsētu, svētku un augstskolu fotogrāfijas ar pārbaudāmiem avotiem un attēlu licencēm.</p></div>
+    {% assign hero_city = site.data.cities.cities | first %}{% assign hero_photo = hero_city.photo %}
+    <figure class="page-heading-art photo-license-hero-art"><img src="{{ hero_photo.src }}" alt="" width="{{ hero_photo.width }}" height="{{ hero_photo.height }}" fetchpriority="high"><figcaption class="page-heading-art-chip">{{ hero_city.name }} · foto</figcaption></figure>
+  </header>
+
+  <nav class="photo-license-nav" aria-label="Fotogrāfiju katalogs">
+    <a href="#pilsetas-fotografijas">82 pilsētas <span>autori un licences</span></a>
+    <a href="#svetku-fotografijas">Latvijas svētki <span>42 atšķirīgi foto</span></a>
+    <a href="#augstskolu-fotografijas">Augstskolas <span>9 licencēti foto</span></a>
+  </nav>
+
+  <section class="content-card" id="pilsetas-fotografijas">
+    <h2>82 Latvijas pilsētas</h2>
+    <p>Kalendārā vari izvēlēties jebkuru no 82 Latvijas pilsētām. Carnikavai pilsētas statuss piešķirts no 2026. gada 22. augusta — <a href="https://saeima.lv/en/news/saeima-news/36055-saeima-approves-city-status-for-carnikava">Saeimas paziņojums</a> un <a href="{{ site.data.cities.officialListSource }}">spēkā esošais likums</a>.</p>
+    <p>Visā Latvijā ir vienāda laika josla — Europe/Riga (EET ziemā, EEST vasarā). Pilsētu fotogrāfijas ir arhīva attēli, nevis tiešraides kameras vai pašreizējo laikapstākļu attēlojums. Saules laiki tiek aprēķināti katras pilsētas centra koordinātām.</p>
+    <p class="fineprint">Pilsētu fotogrāfijas iegūtas no Wikimedia Commons. Tām izveidotas mazākas WebP kopijas; saskarnē iespējams kadrējums. Katrai fotogrāfijai norādīts autors, avota fails, licence un koordinātu atsauce. Pilsētu koordinātu avots: Wikidata P625. Pārbaudīts 2026. gada 9. novembrī.</p>
+  </section>
+
+  <div class="photo-catalog">
+    {% for city in site.data.cities.cities %}
+    <article id="{{ city.id }}">
+      <img src="{{ city.photo.src }}" srcset="{{ city.photo.srcset }}" sizes="(max-width: 700px) 94vw, (max-width: 900px) 44vw, 31vw" alt="{{ city.photo.alt | escape }}" width="{{ city.photo.width }}" height="{{ city.photo.height }}" loading="lazy">
+      <div><h2><a href="/saullekts-saulriets/{{ city.id }}/">{{ city.name }}</a></h2><p>{{ city.photo.author | escape }} · <a href="{{ city.photo.licenseUrl | escape }}">{{ city.photo.license | escape }}</a></p><p><a href="{{ city.photo.sourceUrl | escape }}">Avota fotogrāfija Wikimedia Commons</a> · <a href="{{ city.photo.src }}">WebP kopija</a></p><small>{{ city.lat }}, {{ city.lon }} · {{ city.timeZone }} · <a href="{{ city.coordinateSource }}">Koordinātu avots</a></small></div>
+    </article>
+    {% endfor %}
+  </div>
+
+  <section class="content-card university-photo-credits occasion-photo-credits" id="svetku-fotografijas">
+    <div class="university-photo-heading"><div><span class="eyebrow">LATVIJAS SVĒTKI UN ATCERES DIENAS</span><h2>Īstas svētku fotogrāfijas, norādīti autori</h2><p>Svētku un atceres dienu lapās izmantotas 42 atšķirīgas dokumentālas fotogrāfijas. Katrā kartītē ir attēla autors, licences noteikumi un saite uz oriģinālo avota failu. Vietnes attēli ir lokāli WebP atvasinājumi, nevis ārēja attēlu plūsma.</p></div></div>
+    <div class="photo-catalog university-photo-catalog occasion-photo-catalog">
+      {% assign occasion_photo_groups = site.data.occasions | group_by_exp: "occasion", "occasion.photo.id" %}
+      {% for group in occasion_photo_groups %}
+      {% assign occasion = group.items.first %}
+      {% assign photo = occasion.photo %}
+      <article id="occasion-photo-{{ photo.id }}">
+        <img src="{{ photo.src }}" srcset="{{ photo.srcset }}" sizes="(max-width: 700px) 94vw, (max-width: 900px) 44vw, 31vw" alt="{{ photo.alt | escape }}" width="{{ photo.width }}" height="{{ photo.height }}" loading="lazy" decoding="async">
+        <div><h3>{{ occasion.title }}</h3><p>{{ photo.caption | escape }}</p><p>{{ photo.author | escape }} · <a href="{{ photo.licenseUrl | escape }}" target="_blank" rel="noopener">{{ photo.license | escape }}</a></p><p><a href="{{ photo.sourceUrl | escape }}" target="_blank" rel="noopener">Oriģinālais attēla avots Wikimedia Commons ↗</a></p></div>
+      </article>
+      {% endfor %}
+    </div>
+    <p class="fineprint">Vienas un tās pašas fotogrāfijas, kas izmantotas vairākām tematiskām dienām, katalogā parādītas vienu reizi. Atvērtas licences nosacījumi katram darbam var atšķirties; tās jāievēro, attēlu kopīgojot vai pārpublicējot.</p>
+  </section>
+
+  <section class="content-card university-photo-credits" id="augstskolu-fotografijas">
+    <div class="university-photo-heading"><div><span class="eyebrow">VALSTS AUGSTSKOLU KALENDĀRI</span><h2>Augstskolu fotogrāfijas un licences</h2><p>Pieejamajiem attēliem šeit norādīts fotogrāfs, oriģinālais Wikimedia Commons fails un licence. Atvērtie attēli ir arī katras augstskolas 2026./2027. gada studiju kalendāra kartītē.</p></div><a class="link-card" href="/studiju-kalendars/#university-directory">Atvērt augstskolu kalendārus <span aria-hidden="true">→</span></a></div>
+    <div class="photo-catalog university-photo-catalog">
+      {% for calendar in site.data.university-calendars.calendars %}
+      {% if calendar.photo %}
+      <article id="university-photo-{{ calendar.id }}">
+        <img src="{{ calendar.photo.src }}" alt="{{ calendar.photo.alt | escape }}" width="960" height="560" loading="lazy" decoding="async">
+        <div><h3>{{ calendar.institution }}</h3><p>{{ calendar.photo.caption | escape }}</p><p><a href="{{ calendar.photo.pageUrl | escape }}" target="_blank" rel="noopener">{{ calendar.photo.author | escape }} · oriģinālais attēls Commons</a></p><p><a href="{{ calendar.photo.licenseUrl | escape }}" target="_blank" rel="noopener">{{ calendar.photo.license | escape }} · licences noteikumi</a></p></div>
+      </article>
+      {% endif %}
+      {% endfor %}
+      {% for institution in site.data.university-calendars.stateUniversities %}
+      {% if institution.photo %}
+      <article id="university-photo-{{ institution.id }}">
+        <img src="{{ institution.photo.src }}" alt="{{ institution.photo.alt | escape }}" width="960" height="560" loading="lazy" decoding="async">
+        <div><h3>{{ institution.name }}</h3><p>{{ institution.photo.caption | escape }}</p><p><a href="{{ institution.photo.pageUrl | escape }}" target="_blank" rel="noopener">{{ institution.photo.author | escape }} · oriģinālais attēls Commons</a></p><p><a href="{{ institution.photo.licenseUrl | escape }}" target="_blank" rel="noopener">{{ institution.photo.license | escape }} · licences noteikumi</a></p></div>
+      </article>
+      {% elsif institution.id == "lka" %}
+      <article class="photo-license-pending" id="university-photo-lka">
+        <div class="photo-license-pending__art" aria-hidden="true"><span>RĪGA · MIERA IELA 58A</span><strong>Tabakas fabrikas kvartāls</strong></div>
+        <div><h3>{{ institution.name }}</h3><p>Akadēmijas jaunais TabFab kvartāls atrodas Miera ielā 58a. Oficiālajā lapā ir aktuāls foto, bet atvērtu tālākizmantošanas licenci neizdevās apstiprināt, tāpēc attēlu šeit nepārpublicējam.</p><p><a href="https://www.lka.edu.lv/lv/par-akademiju/attistiba/tabakas-fabrika/" target="_blank" rel="noopener">Skatīt akadēmijas oficiālo TabFab lapu ↗</a></p><small>Foto publicēšanai gaida tiesību turētāja atļauju vai pārbaudītu atvērtu licenci.</small></div>
+      </article>
+      {% elsif institution.id == "naa" %}
+      <article class="photo-license-pending" id="university-photo-naa">
+        <div class="photo-license-pending__art" aria-hidden="true"><span>RĪGA · EZERMALAS IELA</span><strong>Nacionālā aizsardzības akadēmija</strong></div>
+        <div><h3>{{ institution.name }}</h3><p>Akadēmijas oficiālajā lapā ir institūcijas attēli, taču to atvērtu tālākizmantošanas licenci neizdevās apstiprināt. Autortiesību statusu neuzminam un attēlu šeit nepārpublicējam.</p><p><a href="https://www.naa.mil.lv/lv" target="_blank" rel="noopener">Skatīt akadēmijas oficiālo lapu ↗</a></p><small>Foto publicēšanai gaida tiesību turētāja atļauju vai pārbaudītu atvērtu licenci.</small></div>
+      </article>
+      {% endif %}
+      {% endfor %}
+    </div>
+    <p class="fineprint">Deviņām augstskolām ir publicēts attēls ar pārbaudāmu Commons licenci. LKA un NAA fotogrāfijas pašlaik netiek kopētas: oficiālas fotogrāfijas atrašana pati par sevi nepiešķir tiesības to pārpublicēt. Ja tiek saņemta atļauja vai atrasts atvērts avota fails, šīs kartītes var papildināt.</p>
+  </section>
+</div>

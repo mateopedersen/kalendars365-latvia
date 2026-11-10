@@ -31,7 +31,7 @@ for(let year=2027;year<=2030;year++){
   equal(C.holidays(year).sort((a,b)=>JSON.stringify(a).localeCompare(JSON.stringify(b))),rows.sort((a,b)=>JSON.stringify(a).localeCompare(JSON.stringify(b))));
 }
 for(const s of data.seasons){equal(C.todayRiga(new Date(s.utc)),s.date);equal(new Intl.DateTimeFormat('en-GB',{timeZone:'Europe/Riga',hour:'2-digit',minute:'2-digit',hour12:false}).format(new Date(s.utc)),s.time);}
-equal(data.seasons.filter(s=>s.phenomenon==='Solstice').length,8);
+equal(data.seasons.filter(s=>s.phenomenon==='Solstice').length,10);
 equal(C.monthGrid(2027,1).flatMap(w=>w.days).find(d=>d.date==='2026-12-31').holiday[0].title,'Vecgada diena');
 const leapMoon=data.moon.find(m=>m.utc==='2027-02-20T23:23:00Z');equal(leapMoon.date,'2027-02-21');equal(leapMoon.time,'01:23');
 for(const m of data.moon){equal(C.todayRiga(new Date(m.utc)),m.date);assert.ok(/^[0-2]\d:[0-5]\d$/.test(m.time));checks++;}

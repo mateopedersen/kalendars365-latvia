@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 260" role="img" aria-labelledby="title desc">
+  <title id="title">Saules laiki</title>
+  <desc id="desc">Oriģināla telpiska ilustrācija tēmai “Saules laiki”.</desc>
+  <defs>
+    <linearGradient id="primary" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#e7a341"/><stop offset=".55" stop-color="#e7a341"/><stop offset="1" stop-color="#a84934"/></linearGradient>
+    <linearGradient id="side" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#a84934"/><stop offset="1" stop-color="#242430"/></linearGradient>
+    <linearGradient id="accent" x1=".1" y1="0" x2=".9" y2="1"><stop stop-color="#fff9e8"/><stop offset=".48" stop-color="#f8d68c"/><stop offset="1" stop-color="#a84934"/></linearGradient>
+    <linearGradient id="paper" x1="0" y1="0" x2=".9" y2="1"><stop stop-color="#fffefb"/><stop offset=".72" stop-color="#fff6dd"/><stop offset="1" stop-color="#dfd1c2"/></linearGradient>
+    <radialGradient id="glow"><stop stop-color="#f8d68c" stop-opacity=".34"/><stop offset="1" stop-color="#f8d68c" stop-opacity="0"/></radialGradient>
+    <filter id="shadow" x="-25%" y="-25%" width="150%" height="170%"><feDropShadow dx="0" dy="11" stdDeviation="8" flood-color="#29212e" flood-opacity=".26"/></filter>
+  </defs>
+  <circle cx="160" cy="127" r="116" fill="url(#glow)"/>
+  <ellipse cx="160" cy="132" rx="112" ry="63" transform="rotate(-16 160 132)" fill="none" stroke="#e7a341" stroke-opacity=".17" stroke-width="2"/>
+  <circle cx="249" cy="78" r="5" fill="#f8d68c"/><circle cx="76" cy="171" r="3" fill="#e7a341" opacity=".7"/>
+  <g stroke="url(#accent)" stroke-width="9" stroke-linecap="round"><path d="M160 31v24m0 122v24M57 116h25m156 0h25M87 43l17 19m112 108 17 19m-1-146-18 19m-95 100-18 19"/></g><circle cx="160" cy="116" r="68" fill="url(#primary)" filter="url(#shadow)"/><path d="M122 94c15-25 41-34 68-28" stroke="#fff7dc" stroke-width="9" stroke-linecap="round" opacity=".72"/><circle cx="136" cy="105" r="6" fill="#fff7dc"/>
+</svg>

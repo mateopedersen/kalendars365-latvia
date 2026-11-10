@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 260" role="img" aria-labelledby="title desc">
+  <title id="title">Latvijas kultūras gadskārtas</title>
+  <desc id="desc">Oriģināla telpiska ilustrācija tēmai “Latvijas kultūras gadskārtas”.</desc>
+  <defs>
+    <linearGradient id="primary" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#a13a40"/><stop offset=".55" stop-color="#a13a40"/><stop offset="1" stop-color="#701f30"/></linearGradient>
+    <linearGradient id="side" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#701f30"/><stop offset="1" stop-color="#242430"/></linearGradient>
+    <linearGradient id="accent" x1=".1" y1="0" x2=".9" y2="1"><stop stop-color="#fff9e8"/><stop offset=".48" stop-color="#e8d8bd"/><stop offset="1" stop-color="#701f30"/></linearGradient>
+    <linearGradient id="paper" x1="0" y1="0" x2=".9" y2="1"><stop stop-color="#fffefb"/><stop offset=".72" stop-color="#fff8ec"/><stop offset="1" stop-color="#dfd1c2"/></linearGradient>
+    <radialGradient id="glow"><stop stop-color="#e8d8bd" stop-opacity=".34"/><stop offset="1" stop-color="#e8d8bd" stop-opacity="0"/></radialGradient>
+    <filter id="shadow" x="-25%" y="-25%" width="150%" height="170%"><feDropShadow dx="0" dy="11" stdDeviation="8" flood-color="#29212e" flood-opacity=".26"/></filter>
+  </defs>
+  <circle cx="160" cy="127" r="116" fill="url(#glow)"/>
+  <ellipse cx="160" cy="132" rx="112" ry="63" transform="rotate(-16 160 132)" fill="none" stroke="#a13a40" stroke-opacity=".17" stroke-width="2"/>
+  <circle cx="249" cy="78" r="5" fill="#e8d8bd"/><circle cx="76" cy="171" r="3" fill="#a13a40" opacity=".7"/>
+  <g transform="rotate(-8 160 130)" filter="url(#shadow)"><rect x="70" y="80" width="182" height="98" rx="15" fill="#f5e7d1"/><path d="M75 91h172v19H75zm0 56h172v19H75z" fill="url(#primary)"/><path d="M75 119h172v19H75z" fill="#fff8ec"/><path d="m96 129 12-12 12 12-12 12zm42 0 12-12 12 12-12 12zm42 0 12-12 12 12-12 12z" fill="url(#accent)"/><path d="M81 88h159" stroke="#fff" stroke-width="4" opacity=".7"/></g>
+</svg>

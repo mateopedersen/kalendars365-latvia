@@ -1,6 +1,14 @@
 # Datu un aprēķinu audits
 
-Pārbaude: 2026-10-22. Mērķa periods: 2027-01-01–2030-12-31. Rezultāti attiecas uz šajā repozitorijā saglabāto versiju, nevis uz garantētu nākotnes normatīvo aktu stāvokli.
+Atjaunināts: 2026-11-10. Kalendāra pamatkodola mērķa periods: 2027-01-01–2030-12-31. Atsevišķās astronomijas tabulas un pilsētu rīki aptver 2026.–2030. gadu. Rezultāti attiecas uz šajā repozitorijā saglabāto versiju, nevis garantētu nākotnes normatīvo aktu stāvokli.
+
+## Pievienotās Latvijas versijas pārbaudes
+
+Pēc sākotnējās 2026-10-22 datu pārbaudes reģistrā pievienoti 998 vietnes maršruti. No 391 sākotnējās URL matricas ieraksta 390 ir tieši lokāli galamērķi, viens — apzināts novirzījums, un nav neatrisinātu galamērķu. Jaunais maršrutu audits atrada 943 indeksējamus un 55 `noindex` maršrutus.
+
+Pilsētu katalogā ir 82 Latvijas apdzīvotas vietas un lokāli attēli ar avota/licences metadatiem; to 164 WebP variantu kontrolsummas pārbaudītas. Horoskopa galapunkts pēc `Europe/Riga` datuma veido visus 12 zīmju ierakstus no latviešu valodas satura bankas. Vietējā izveide nepierāda ārējo API pieejamību; tā pārbaudīta atsevišķi dzīvajā vidē.
+
+Jaunajā 2026.–2030. gada astronomijas datu kopā ir 248 Mēness fāžu un 30 gadalaiku notikumi. Sējas kalendāram ir 16 dārzeņu profili un 12 mēnešu plāni. Atceres/svētku tēmu pamatkopā ir 48 avotos pārbaudīti ieraksti; klāt nāk vēl 14 atsevišķas Latvijas kultūras tēmu lapas. Šie tematiskie raksti nav tas pats, kas visu Latvijas likumā minēto datumu pilnīga juridiska pāratestēšana.
 
 ## Paketes izskatītais apjoms
 

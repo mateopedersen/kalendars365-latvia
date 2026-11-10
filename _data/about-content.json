@@ -1,0 +1,112 @@
+{
+  "url": "/par-projektu/",
+  "title": "Par projektu un tā avotiem",
+  "h1": "Kalendārs Latvijas ikdienai.",
+  "description": "Iepazīsti Kalendāru365: Latvijas kalendāru un plānošanas vietni ar norādītiem avotiem, īstām pilsētu fotogrāfijām un privātiem plāniem tavā ierīcē.",
+  "eyebrow": "PAR KALENDĀRU365",
+  "intro": [
+    "Dažas dienas atzīmējam gadu iepriekš. Citas sākas ar vienu piezīmi. Kalendārs365 palīdz pārskatīt abus — Latvijas svētkus un personīgos plānus, kas piepilda tavu ikdienu.",
+    "Te vari atvērt gada vai mēneša kalendāru, atrast vārda dienu, salīdzināt atvaļinājuma iespējas un sagatavot kalendāru drukāšanai. Vietne ir veidota Latvijas datumiem, valodai un laika joslai."
+  ],
+  "primaryAction": {
+    "label": "Atvērt kalendāru",
+    "href": "/kalendars/"
+  },
+  "secondaryAction": {
+    "label": "Iepazīties ar avotiem",
+    "href": "/avoti-un-metodika/"
+  },
+  "principles": [
+    {
+      "title": "Latvijas datumi",
+      "body": "Valsts svētki, atceres un atzīmējamās dienas ir atsevišķas kategorijas. Kalendārā var redzēt, vai konkrētā diena ir arī svētku brīvdiena."
+    },
+    {
+      "title": "Avoti līdzās saturam",
+      "body": "Pie datiem norādīti to avoti un pārbaudes robežas. Nākotnes datumi netiek aizpildīti ar minējumiem, ja oficiāls kalendārs vēl nav publicēts."
+    },
+    {
+      "title": "Vieta taviem plāniem",
+      "body": "Personīgos notikumus, uzdevumus un piezīmes vari glabāt savā pārlūkā. Lai pārceltu tos uz citu ierīci, saglabā un atjauno dublējumu."
+    }
+  ],
+  "sections": [
+    {
+      "heading": "No gada pārskata līdz šodienai",
+      "paragraphs": [
+        "Gada kalendārs palīdz ieraudzīt kopainu. Mēneša, nedēļas un dienas skati ļauj pievērsties konkrētam laikam. Darba dienu un datumu kalkulatori palīdz salīdzināt periodus, bet plānotājā vari pierakstīt to, ko nevēlies aizmirst.",
+        "Drukājamam kalendāram vari izvēlēties dizainu, pievienot personīgu virsrakstu vai savu fotoattēlu un sagatavot PDF vai WebP failu. Faila veidošana notiek tavā ierīcē."
+      ]
+    },
+    {
+      "heading": "Datumiem ir nozīme un avots",
+      "paragraphs": [
+        "Svētku dienu pamatā ir Latvijas normatīvie akti. Skolas brīvlaikiem un vārda dienām svarīgs ir arī konkrētais publicētais avots un tā versija. Ja informācija vēl tiek pārbaudīta, tas ir norādīts pie satura.",
+        "Saules un Mēness informācija ir astronomiska. Precīzs Mēness fāzes brīdis un aptuvens saullēkta vai saulrieta laiks ir atšķirīgi dati ar atšķirīgu aprēķina metodi. Savukārt horoskopu saturs ir paredzēts izklaidei un pašrefleksijai."
+      ],
+      "links": [
+        {
+          "label": "Datu avoti un aprēķinu metodika",
+          "href": "/avoti-un-metodika/"
+        }
+      ]
+    },
+    {
+      "heading": "Īsti skati no Latvijas pilsētām",
+      "paragraphs": [
+        "Izvēlies savu pilsētu un apskati tai atbilstošu fotogrāfiju. Katram attēlam ir norādīts autors, avota fails un licence. Tās ir arhīva fotogrāfijas, kas palīdz atpazīt vietu; tās nerāda pašreizējos laikapstākļus.",
+        "Visā Latvijā ir viena laika josla. Pilsētas izvēle maina attēlu un astronomisko aprēķinu koordinātas, savukārt pulkstenis rāda Latvijas vietējo laiku."
+      ],
+      "links": [
+        {
+          "label": "Pilsētu fotogrāfijas un licences",
+          "href": "/pilsetas-un-fotografijas/"
+        }
+      ]
+    },
+    {
+      "heading": "Tavs kalendārs paliek pie tevis",
+      "paragraphs": [
+        "Kalendāra personīgo ierakstu izmantošanai nav vajadzīgs konts. Notikumi, uzdevumi, piezīmes un izvēles tiek saglabātas šīs ierīces pārlūkā un netiek sinhronizētas ar citām ierīcēm.",
+        "Pirms pārlūka datu dzēšanas vai ierīces maiņas saglabā dublējumu. Piezīmju un notikumu glabāšana pārlūkā neaizstāj tavu datu rezerves kopiju."
+      ],
+      "links": [
+        {
+          "label": "Kā tiek izmantoti dati",
+          "href": "/privatuma-politika/"
+        }
+      ]
+    }
+  ],
+  "contact": {
+    "eyebrow": "PROJEKTA UZTURĒTĀJS",
+    "heading": "Mateo Pedersen",
+    "paragraph": "Kalendārs365 ir neatkarīgs projekts. Ja pamani neprecizitāti vai vēlies ierosināt noderīgu uzlabojumu, uzraksti un pievieno konkrētās lapas adresi.",
+    "email": "kalendars365@gmail.com",
+    "actionLabel": "Rakstīt par Kalendāru365"
+  },
+  "faq": [
+    {
+      "question": "Vai Kalendārs365 ir valsts iestādes vietne?",
+      "answer": "Nē. Kalendārs365 ir neatkarīgs kalendāru un plānošanas projekts. Pie datiem ir norādīti izmantotie oficiālie avoti."
+    },
+    {
+      "question": "Vai mani notikumi parādīsies citā ierīcē?",
+      "answer": "Personīgie ieraksti tiek glabāti konkrētās ierīces pārlūkā. Lai tos pārceltu, izmanto dublējuma vai kalendāra eksporta un importa iespējas."
+    },
+    {
+      "question": "Kāpēc dažiem nākotnes datumiem ir piezīme par avotu?",
+      "answer": "Ne visus nākamo gadu datumus publicē vienlaikus. Ja oficiāla avota vēl nav vai informācija tiek pārbaudīta, tas ir norādīts pie attiecīgā satura."
+    },
+    {
+      "question": "Kāpēc pilsētām ir viens pulksteņa laiks, bet atšķirīgi Saules laiki?",
+      "answer": "Latvijā ir viena laika josla. Saules lēkta un rieta laiks ir atkarīgs arī no vietas koordinātām, tādēļ tas pilsētās atšķiras."
+    }
+  ],
+  "evidenceNotes": [
+    "Repository _includes/app.html and assets/app.js implement local personal data, ICS and JSON export/import.",
+    "scripts/generate.rb links source and status notices; photos have per-image attribution in _data/cities.json.",
+    "Operator name and contact are the existing verified project data. No invented residence, credentials, team size, founding date or professional expertise is claimed.",
+    "Moon-specific wording must track the implemented astronomy module; this text does not certify numerical accuracy."
+  ]
+}

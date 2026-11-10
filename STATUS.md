@@ -1,23 +1,28 @@
-# Kalendārs365 — release status
+# Kalendārs365 — pašreizējais laidiena statuss
 
-Updated 2026-10-22. Public repository: https://github.com/mateopedersen/kalendars365-latvia.
-Production: https://kalendars365.lv/ — Cloudflare Pages, Active domain with SSL.
+Atjaunināts 2026-11-10. Repozitorijs: https://github.com/mateopedersen/kalendars365-latvia. Publiskā vietne: https://kalendars365.lv/ — Cloudflare Pages. Šajā darba kopijā veiktās izmaiņas vēl gaida publicēšanu; šeit netiek apgalvots, ka tās jau ir dzīvajā vidē.
 
-## Implemented and tested
-- Ruby 4.0.8 / Jekyll 4.4.1; all 621 supplied matrix routes, 625 HTML documents including boundary and error pages.
-- 580 indexable routes; 41 intentionally noindex pending current name/school verification or utility-only use.
-- Four complete years, 198 USNO Moon phases, 24 season events, 28 sourced occasion articles.
-- Responsive five-view calendar, local events/tasks/notes, recurrence, JSON backups, ICS import/export and search.
-- Date, workday/hour, leave optimization, shift, solar, zodiac and countdown tools; initial work/leave/date tool content rendered in HTML.
-- 15 print designs, 13 families, 225 actual PDF/WebP pairs plus previews. Vector PDF with embedded DM Sans; A4 WebP 600 ppi.
-- Latest user change: DM Sans throughout the UI, print library and social cards; light theme only. Dark styles and controls removed; old preferences migrated safely.
-- Source methodology, operator/contact, privacy, cookie, accessibility and error pages; metadata, social images, canonical/sitemap and structured data.
-- Cloudflare security headers, daily content freshness checks, versioned assets and enabled build cache. Zone RUM and Pages Web Analytics disabled.
+## Pašreizējās versijas lokālā pārbaude
 
-## Executed evidence
-Production2006b8f / asset f5988e75aaf6da06 is live, Cloudflare deployment9f8f57ae-83c3-47b9-ba5f-5721262088af. GitHub CI39772050369 succeeded. All621routes and1,313assets/downloads pass; all5final Lighthouse scenarios score100in all4categories. Ruby 3,155 assertions; JS date 7,158; frontend 48; planning 2,551; print 9,360 scene combinations. All225DM Sans pairs opened/rendered/decoded and matched. Actual-font preflight passed9,360scenes and1,884,081text commands. See docs/TEST_RESULTS.md, DATA_AUDIT.md, PRINT_QA.md, UI_QA.md and ACCEPTANCE_AUDIT.md.
+- Jekyll izveide un maršrutu audits: 998 reģistra maršruti, 943 indeksējami, 55 ar `noindex`; ģenerēti 1001 HTML faili un 2007 kopējie faili (364 270 458 baiti), audita kļūdu nav.
+- 391 sākotnējās URL matricas ieraksts: 390 tieši atveramas vietējās lapas un viens pastāvīgs novirzījums; galamērķu trūkumu nav.
+- 82 Latvijas pilsētas/ apdzīvotas vietas; pilsētu attēlu 164 lokālie varianti pārbaudīti pēc kontrolsummām. Visiem izmantota `Europe/Riga` laika josla.
+- Fotogrāfiju un licenču katalogā ir 82 pilsētu avoti, 42 unikālas svētku/atceres dienu fotogrāfijas un 9 ar atvērtu licenci pārbaudīti augstskolu attēli; 2 augstskolu foto netiek pārpublicēti, kamēr nav apstiprinātas tiesības.
+- Astronomijas tabulās: 2026.–2030. gadam 248 Mēness fāzes notikumi un 30 gadalaiku notikumi. Saullēkta, saulrieta un aptumsuma aprēķinu ceļi pārbaudīti atsevišķi.
+- 48 avotos balstītas svētku un atceres lapas, vēl 14 Latvijas kultūras tēmu lapas, 16 dārzeņu profili un 12 mēnešu sējas plāni.
+- Dienas horoskopa API ģenerē 12 zīmju izdevumu pēc `Europe/Riga` datuma; GitHub Actions ik dienu pārbauda, vai publiskā API atgriež šodienas datumu un pilnus ierakstus.
+- Sīkāka pārbaudes tabula un ierobežojumi ir `docs/TEST_RESULTS.md`; datu robežas un avotu piezīmes — `docs/DATA_AUDIT.md` un `docs/OCCASION_RESEARCH.md`.
 
-## Explicit limits
-Names use an identified official 2018 snapshot; the current edition and extended list are not verified. Future school terms await official verification. No independent native Latvian editor certification. Print uses RGB and A4. The former daily authoring task is not currently registered. The owner authorized only the 2026-11-08 original edition repair and declined a new recurring task; the unchanged freshness check and stale-content hiding remain active. There is no field Core Web Vitals history for this new site; measured lab scores are recorded separately, with no guaranteed100 claim.
+## Publicēšanas stāvoklis
 
-Existing Lithuania/Slovenia projects remain untouched. Operator: Mateo Pedersen, kalendars365@gmail.com. No paid resource created.
+Pirms šī laidiena nosūtīšanas uz `main` un pārbaudes publiskajā vidē nav norādīts jauns commit, Cloudflare izvietojuma ID vai GitHub Actions izpildes ID. Tos šeit aizpilda tikai pēc faktiskas publicēšanas un HTTPS pārbaudes.
+
+## Zināmie ierobežojumi
+
+- 55 maršruti ir `noindex` satura pārbaudes vai īpaša lietojuma dēļ; tie nav kļūdaini izlaisti no sitemap.
+- Vārdu dienu katalogs saglabā skaidri norādīto VVC 2018. gada tradicionālo izdevumu, nevis nepārbaudītu apgalvojumu par aktuālu pilno sarakstu. Nākamo mācību gadu brīvlaiki netiek minēti kā oficiāli, kamēr nav atbilstoša avota.
+- Horoskops ir izklaides teksts un astronomisko datu simboliska atlase; tā nav zinātniski pamatota prognoze. Teksti sagatavoti latviski ar MI palīdzību, un dzimtās valodas redaktors tos nav neatkarīgi apstiprinājis.
+- Saules laiki ir ephemerīdu aprēķini ar norādītu horizonta modeli; tie nav novērojuma garantija. Laikapstākļu attēlojums ir atkarīgs no ārējā prognozes pakalpojuma pieejamības.
+- Nav veikta neatkarīga juridista, profesionāla meteorologa vai dzimtās latviešu valodas redaktora sertifikācija.
+
+Iepriekšējā Lietuvas un Slovēnijas projekta izmaiņas nav šī laidiena daļa.

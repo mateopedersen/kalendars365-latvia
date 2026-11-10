@@ -73,13 +73,14 @@ class CalendarDateTest < Minitest::Test
   end
   def test_published_data_structure
     data=JSON.parse(File.read(File.expand_path('../assets/calendar-data.json',__dir__)))
-    assert_equal 198,data['moon'].length
+    assert_equal 248,data['moon'].length
+    assert_equal 50,data['moon'].count { |r| r['date'].start_with?('2026-') }
     assert_equal [49,50,49,50],(2027..2030).map { |y| data['moon'].count { |r| r['date'].start_with?(y.to_s) } }
     assert_equal 4,data['school'].length
     assert data['school'].all? { |r| r['status']=='verified' && r['academicYear']=='2026-2027' }
     assert data['schoolYears'].drop(1).all? { |r| r['status']=='pending' }
-    assert_equal 24,data['seasons'].length
-    assert_equal 8,data['seasons'].count { |s| s['phenomenon']=='Solstice' }
+    assert_equal 30,data['seasons'].length
+    assert_equal 10,data['seasons'].count { |s| s['phenomenon']=='Solstice' }
     assert_equal 1013,data['names'].length
     assert data['names'].all? { |r| r['edition']=='2018' && !r['currentEditionVerified'] }
     refute data['assumptions']['namesComplete']

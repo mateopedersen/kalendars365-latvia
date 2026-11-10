@@ -1,0 +1,64 @@
+{
+  "footer": {
+    "summary": "Latvijas kalendāri, svētki un ikdienas plāni. Atrodi laiku tam, kas tev svarīgs.",
+    "localData": "Tavi notikumi un piezīmes paliek šajā ierīcē.",
+    "groups": {
+      "calendars": "Kalendāri",
+      "tools": "Plānošanas rīki",
+      "about": "Par Kalendāru365"
+    },
+    "contactLabel": "Sazinies ar mums"
+  },
+  "corrections": {
+    "h1": "Labojumi un precizējumi",
+    "intro": "Ja pamani nepareizu datumu, nosaukumu vai aprēķinu, uzraksti uz kalendars365@gmail.com. Konkrēta lapas adrese un avota saite palīdzēs pārbaudīt informāciju.",
+    "steps": [
+      "Pievieno tās lapas adresi, kurā pamanīji problēmu.",
+      "Norādi konkrēto datumu vai lauku un īsi apraksti neprecizitāti.",
+      "Ja iespējams, pievieno oficiāla avota saiti."
+    ],
+    "privacyNote": "Ziņojumā nav jāiekļauj personīgie kalendāra ieraksti vai cita privāta informācija.",
+    "action": "Paziņot par neprecizitāti"
+  },
+  "accessibility": {
+    "h1": "Piekļūstamība",
+    "intro": "Kalendāru un tā vadīklas vari lietot arī ar tastatūru. Pie datumiem un darbībām ir pievienoti teksta nosaukumi, bet aktīvā vadīkla ir redzama ar fokusa iezīmējumu.",
+    "features": [
+      {
+        "title": "Pāriet uz saturu",
+        "text": "Lapas sākumā pieejama saite, kas ļauj izlaist navigāciju un nonākt pie galvenā satura."
+      },
+      {
+        "title": "Datumu izvēle ar tastatūru",
+        "text": "Interaktīvajā kalendārā pārvietojies starp datumiem ar bulttaustiņiem. Apstiprini izvēli ar Enter."
+      },
+      {
+        "title": "Teksta nosaukumi",
+        "text": "Ikonu pogām un formas laukiem ir aprakstoši nosaukumi. Informācija par dienu netiek nodota tikai ar krāsu."
+      },
+      {
+        "title": "Mazāk kustības",
+        "text": "Ja ierīcē ieslēgta samazinātas kustības izvēle, saskarne ierobežo dekoratīvās pārejas."
+      }
+    ],
+    "contactText": "Ja kādu darbību nevari veikt, uzraksti uz kalendars365@gmail.com. Norādi lapas adresi, darbību un izmantoto pārlūku vai palīgtehnoloģiju.",
+    "scopeNote": "This content describes implemented affordances; it is not a formal WCAG conformance certificate. Retain only features verified by root browser QA."
+  },
+  "sourceStatus": {
+    "verified": "Avots pārbaudīts",
+    "snapshot": "Norādīta avota versija",
+    "pending": "Informācija vēl tiek pārbaudīta",
+    "notPublished": "Oficiālie datumi vēl nav publicēti",
+    "history": "Vēsturiska avota versija"
+  },
+  "privacySnippets": {
+    "localCalendar": "Personīgie notikumi, uzdevumi, piezīmes un izvēles tiek saglabātas šīs ierīces pārlūkā. Tie netiek automātiski sinhronizēti ar citām ierīcēm.",
+    "backup": "Pirms pārlūka datu dzēšanas vai ierīces maiņas saglabā dublējumu. Dublējuma failā ir tavi personīgie ieraksti.",
+    "photos": "Izvēlētais personīgais fotoattēls tiek izmantots kalendāra faila sagatavošanai tavā ierīcē.",
+    "hosting": "Vietni piegādā Cloudflare. Vietnes pieprasījumu apstrādei tiek izmantota arī tehniskā informācija, piemēram, IP adrese.",
+    "email": "Nosūtot e-pastu uz kalendars365@gmail.com, ziņa tiek apstrādāta e-pasta pakalpojumā. Projekta uzturētājs ir Mateo Pedersen.",
+    "implementationNote": "Review these snippets against the final deployed architecture. New weather or other remote services may require their own truthful data-flow disclosure. Do not publish a claim of zero server-side data processing."
+  },
+  "astronomySourceNote": "Aprēķins attiecas uz izvēlētās pilsētas centra koordinātām un standarta horizontu. Reljefs un atmosfēra var mainīt novēroto laiku. Laiks parādīts Latvijas laika joslā.",
+  "nameSourceNote": "Pie vārda dienu saraksta norādīta izmantotā Valsts valodas centra avota versija. Ja informācija vēl tiek pārbaudīta, tas ir redzams pie satura."
+}

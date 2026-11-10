@@ -1,0 +1,2718 @@
+{
+  "schemaVersion": 1,
+  "checkedAt": "2026-11-10",
+  "scope": "Latvijas dati un pirmavoti; šis fails pats par sevi nav publicēšanas apliecinājums.",
+  "sources": [
+    {
+      "id": "vsaa-faq",
+      "title": "Par pabalstiem un atlīdzībām",
+      "url": "https://www.vsaa.gov.lv/lv/par-pabalstiem-un-atlidzibam",
+      "publisherScope": "Valsts sociālās apdrošināšanas aģentūra",
+      "checkedAt": "2026-11-10",
+      "verification": "Official source read via web search/open",
+      "notes": "Regular date follows individual decision; first payment can differ. Recheck before publishing dated exceptions."
+    },
+    {
+      "id": "vsaa-holidays-2025",
+      "title": "VSAA pakalpojumu izmaksa pirms svētkiem un brīvdienām",
+      "url": "https://www.vsaa.gov.lv/lv/jaunums/vsaa-pakalpojumu-izmaksa-pirms-svetkiem-un-brivdienam",
+      "publisherScope": "VSAA",
+      "checkedAt": "2026-11-10",
+      "verification": "Official source read via web search/open",
+      "publishedAt": "2025-12-17",
+      "notes": "Historical example only; never reuse as a future annual timetable."
+    },
+    {
+      "id": "vsaa-parent-payments",
+      "title": "Pabalstu saņemšanas secība un izmaksas",
+      "url": "https://www.vsaa.gov.lv/lv/media/7703/download?attachment=",
+      "publisherScope": "VSAA",
+      "checkedAt": "2026-11-10",
+      "verification": "Official source read via web search/open",
+      "notes": "Payment timing depends on benefit type; amounts and eligibility are outside this research."
+    },
+    {
+      "id": "exam-2027",
+      "title": "Par valsts pārbaudes darbu norises laiku 2026./2027. mācību gadā",
+      "url": "https://likumi.lv/ta/id/371024-par-valsts-parbaudes-darbu-norises-laiku-20262027-macibu-gada",
+      "publisherScope": "Izglītības un zinātnes ministrija; Latvijas Vēstnesis",
+      "checkedAt": "2026-11-10",
+      "verification": "Official source read via web search/open",
+      "publishedAt": "2026-09-17",
+      "notes": "Decision 1-4e/26/236 effective 2026-09-18. Earlier Cabinet text 370905 did not enter force."
+    },
+    {
+      "id": "exam-programs",
+      "title": "Valsts pārbaudes darbu programmas",
+      "url": "https://www.viaa.gov.lv/lv/valsts-parbaudes-darbu-programmas",
+      "publisherScope": "Valsts izglītības attīstības aģentūra",
+      "checkedAt": "2026-11-10",
+      "verification": "Official source read via web search/open",
+      "notes": "Page showed 2026/27 materials, updated 2026-11-05. Program, subject/level and annual authority must remain attached."
+    },
+    {
+      "id": "school-2027",
+      "title": "Noteikumi par 2026./2027. mācību gada un mācību semestru sākuma un beigu laiku un brīvdienu laiku",
+      "url": "https://likumi.lv/ta/id/365210-noteikumi-par-20262027-macibu-gada-un-macibu-semestru-sakuma-un-beigu-laiku-un-brivdienu-laiku",
+      "publisherScope": "Ministru kabinets; Latvijas Vēstnesis",
+      "checkedAt": "2026-11-10",
+      "verification": "Official source read via web search/open",
+      "publishedAt": "2025-12-18",
+      "notes": "MK 768 adopted 2025-12-16; effective 2025-12-19 through 2027-08-31. Grade-specific end dates and local exceptions apply."
+    },
+    {
+      "id": "lu-2027",
+      "title": "2026/2027 Academic year calendar",
+      "url": "https://www.lu.lv/en/studies/study-process/academic-calendar/2026/2027-academic-year-calendar/",
+      "publisherScope": "Latvijas Universitāte",
+      "checkedAt": "2026-11-10",
+      "verification": "Official source read via web search/open",
+      "notes": "General study calendar. Public website should translate labels into Latvian; source language does not change site locale."
+    },
+    {
+      "id": "lu-doctoral-2027",
+      "title": "Academic year calendar: doctoral studies",
+      "url": "https://doktorantura.lu.lv/en/study-and-research/doctoral-studies/academic-year-calendar/",
+      "publisherScope": "LU Doktorantūras skola",
+      "checkedAt": "2026-11-10",
+      "verification": "Official source read via web search/open",
+      "notes": "Distinct doctoral calendar; do not merge into general student calendar."
+    },
+    {
+      "id": "rtu-2027",
+      "title": "Studiju gada kalendārs",
+      "url": "https://www.rtu.lv/lv/studijas/studiju-gada-kalendars",
+      "publisherScope": "Rīgas Tehniskā universitāte",
+      "checkedAt": "2026-11-10",
+      "verification": "Official source read via web search/open",
+      "notes": "General 2026/27 semester calendar; programme/subdivision timetables may differ."
+    },
+    {
+      "id": "rsu-2027",
+      "title": "2026./2027. akadēmiskā gada kalendārs",
+      "url": "https://www.rsu.lv/akademiskais-kalendars/26",
+      "publisherScope": "Rīgas Stradiņa universitāte",
+      "checkedAt": "2026-11-10",
+      "verification": "Official source read via web search/open",
+      "notes": "Programme/year exceptions are significant: MF 6th year, final-year bachelor/master and doctoral students."
+    },
+    {
+      "id": "rtu-maritime",
+      "title": "Studiju kalendārs",
+      "url": "https://www.rtu.lv/lv/lja/studijas-lja/studiju-kalendars",
+      "publisherScope": "RTU Latvijas Jūras akadēmija",
+      "checkedAt": "2026-11-10",
+      "verification": "Official source read via web search/open",
+      "notes": "Page links 2026/27 calendar. Attachment dates not extracted; link only, no invented schedule."
+    },
+    {
+      "id": "dst-latvia",
+      "title": "29. martā notiks pāreja uz vasaras laiku",
+      "url": "https://www.em.gov.lv/lv/jaunums/29-marta-notiks-pareja-uz-vasaras-laiku",
+      "publisherScope": "Ekonomikas ministrija",
+      "checkedAt": "2026-11-10",
+      "verification": "Official source read via web search/open",
+      "publishedAt": "2026-03-27",
+      "notes": "MK 1010: March last Sunday 03:00 forward, October last Sunday 04:00 backward. Abolition has not been adopted."
+    },
+    {
+      "id": "dst-rule",
+      "title": "Noteikumi par pāreju uz vasaras laiku",
+      "url": "https://likumi.lv/ta/id/220215",
+      "publisherScope": "Ministru kabinets; Latvijas Vēstnesis",
+      "checkedAt": "2026-11-10",
+      "verification": "Official source read via web search/open",
+      "publishedAt": "2010-10-28",
+      "notes": "MK1010 adopted 2010-10-26. Current consolidated legal rule; standard time GMT+2, summer transition as stated in EM announcement."
+    },
+    {
+      "id": "leap-usno",
+      "title": "Leap Years",
+      "url": "https://aa.usno.navy.mil/faq/leap_years",
+      "publisherScope": "U.S. Naval Observatory",
+      "checkedAt": "2026-11-10",
+      "verification": "Official source read via web search/open",
+      "notes": "Gregorian rule; ordinal day is a civil-date calculation, independent of daylight-saving day length."
+    },
+    {
+      "id": "usno-services",
+      "title": "Data Services",
+      "url": "https://aa.usno.navy.mil/data/index",
+      "publisherScope": "U.S. Naval Observatory",
+      "checkedAt": "2026-11-10",
+      "verification": "Official source read via web search/open",
+      "notes": "Includes official rise/set/daylength, moon phase, seasons, eclipse and UKHO portal links."
+    },
+    {
+      "id": "usno-api",
+      "title": "Astronomical Applications API v4.0.1",
+      "url": "https://aa.usno.navy.mil/data/api",
+      "publisherScope": "U.S. Naval Observatory",
+      "checkedAt": "2026-11-10",
+      "verification": "Official source read via web search/open",
+      "notes": "coords input latitude,longitude; GeoJSON output longitude,latitude. dst=true is U.S. DST. Phase time Universal Time. Eclipse local time UT1. Solar local documentation says 2017–2024, while live form says 2017–2026: verify returned data/range."
+    },
+    {
+      "id": "usno-solar-local",
+      "title": "Solar Eclipse Computer",
+      "url": "https://aa.usno.navy.mil/data/SolarEclipses",
+      "publisherScope": "U.S. Naval Observatory",
+      "checkedAt": "2026-11-10",
+      "verification": "Official source read via web search/open",
+      "notes": "Live form says local circumstances 2017–2026; accepts arbitrary coordinates. No 2027 local API claim is justified by this read."
+    },
+    {
+      "id": "usno-lunar-local",
+      "title": "Lunar Eclipse Computer",
+      "url": "https://aa.usno.navy.mil/data/LunarEclipse",
+      "publisherScope": "U.S. Naval Observatory",
+      "checkedAt": "2026-11-10",
+      "verification": "Official source read via web search/open",
+      "notes": "Official local computation source; obtain event and horizon results for each Latvian coordinate before labelling local visibility."
+    },
+    {
+      "id": "nasa-solar",
+      "title": "Solar Eclipses: 2021–2030",
+      "url": "https://eclipse.gsfc.nasa.gov/SEdecade/SEdecade2021.html",
+      "publisherScope": "NASA GSFC / Fred Espenak",
+      "checkedAt": "2026-11-10",
+      "verification": "Official source read via web search/open",
+      "notes": "Greatest-eclipse column is TD, not UTC. Global type/magnitude is not local Latvia type/obscuration. Attribution requested: Eclipse Predictions by Fred Espenak, NASA’s GSFC."
+    },
+    {
+      "id": "nasa-lunar",
+      "title": "Lunar Eclipses: 2021–2030",
+      "url": "https://eclipse.gsfc.nasa.gov/LEdecade/LEdecade2021.html",
+      "publisherScope": "NASA GSFC / Fred Espenak",
+      "checkedAt": "2026-11-10",
+      "verification": "Official source read via web search/open",
+      "notes": "Greatest-eclipse column is TD. Local visibility/contact phases depend on Moon altitude and rise/set. A world-region label is insufficient for a city claim."
+    },
+    {
+      "id": "nasa-perseids",
+      "title": "Perseids Meteor Shower",
+      "url": "https://science.nasa.gov/solar-system/meteors-meteorites/perseids/",
+      "publisherScope": "NASA Science",
+      "checkedAt": "2026-11-10",
+      "verification": "Official source read via web search/open",
+      "notes": "Current table explicitly 2026; 109P/Swift-Tuttle, Perseus radiant, mid-August. Do not extrapolate exact annual hours or rates to all Latvian visitors."
+    },
+    {
+      "id": "nasa-sky-2026-08",
+      "title": "What’s Up: August 2026 Skywatching Tips from NASA",
+      "url": "https://science.nasa.gov/solar-system/whats-up-august-2026-skywatching-tips-from-nasa/",
+      "publisherScope": "NASA Science",
+      "checkedAt": "2026-11-10",
+      "verification": "Official source read via web search/open",
+      "publishedAt": "2026-07-31",
+      "notes": "Annual 2026 guidance, not a confirmed 2027 peak."
+    },
+    {
+      "id": "garden-di-guide",
+      "title": "Vēsturiskais un mūsdienu dārzs. Rokasgrāmata tūrisma uzņēmējam",
+      "url": "https://www.darzkopibasinstituts.lv/sites/dobele/files/files/articles/RokasgramataDarzi2018_lv.pdf",
+      "publisherScope": "Dārzkopības institūts",
+      "checkedAt": "2026-11-10",
+      "verification": "Official source read via web search/open",
+      "publishedAt": "2018",
+      "notes": "Pages 20–22 contain seasonal crop guidance. Approximate windows, not a weather forecast. Older professional nutrient/pesticide recommendations are not imported."
+    },
+    {
+      "id": "garden-di-april",
+      "title": "Stāstam par aprīlī darāmajiem darbiem un dārzeņu sēšanu",
+      "url": "https://www.darzkopibasinstituts.lv/lv/raksts/2020-04-06/stastam-par-aprili-daramajiem-darbiem-un-darzenu-sesanu",
+      "publisherScope": "Dārzkopības institūts",
+      "checkedAt": "2026-11-10",
+      "verification": "Official source read via web search/open",
+      "publishedAt": "2020-04-06",
+      "notes": "Researcher guidance ties field sowing to soil warmth/dryness; crop-specific frost/temperature thresholds."
+    },
+    {
+      "id": "garden-vaad-tomato",
+      "title": "Latvijā audzējamu kultūraugu audzēšanas vadlīnijas: tomāti un paprika",
+      "url": "https://integretaaudzesana.vaad.gov.lv/lv/media/888/download?attachment=",
+      "publisherScope": "Zemkopības ministrija / Valsts augu aizsardzības dienests",
+      "checkedAt": "2026-11-10",
+      "verification": "Official source read via web search/open",
+      "publishedAt": "2015-11-12",
+      "notes": "Order167 appendix14; pp13–15 seedling/field timing. Use agronomic climate facts, not old pesticide lists."
+    },
+    {
+      "id": "climate-may",
+      "title": "Maija klimatiskais raksturojums",
+      "url": "https://klimats.meteo.lv/klimats_latvija/menesu_klimatiskais_raksturojums/maijs/",
+      "publisherScope": "Latvijas Vides, ģeoloģijas un meteoroloģijas centrs",
+      "checkedAt": "2026-11-10",
+      "verification": "Official source read via web search/open",
+      "notes": "Typical phenology and frost averages, not a safe last-frost date for every garden."
+    },
+    {
+      "id": "climate-august",
+      "title": "Augusta klimatiskais raksturojums",
+      "url": "https://klimats.meteo.lv/klimats_latvija/menesu_klimatiskais_raksturojums/augusts/",
+      "publisherScope": "LVĢMC",
+      "checkedAt": "2026-11-10",
+      "verification": "Official source read via web search/open",
+      "notes": "West coast has warmer late-summer nights; early autumn frost can occur inland in some years."
+    },
+    {
+      "id": "climate-spring-coast",
+      "title": "Fenoloģiskais apskats: ievas 2023",
+      "url": "https://klimats.meteo.lv/operativais_klimats/fenologiskie_apskati/2023/ievas/",
+      "publisherScope": "LVĢMC",
+      "checkedAt": "2026-11-10",
+      "verification": "Official source read via web search/open",
+      "publishedAt": "2023",
+      "notes": "Kolka spring phenology later than country mean; do not use a universal earlier-sowing coastal offset."
+    },
+    {
+      "id": "climate-2023",
+      "title": "Fenoloģiskais apskats 2023",
+      "url": "https://klimats.meteo.lv/operativais_klimats/fenologiskie_apskati/2023/gads/",
+      "publisherScope": "LVĢMC",
+      "checkedAt": "2026-11-10",
+      "verification": "Official source read via web search/open",
+      "publishedAt": "2023",
+      "notes": "Late frost in early June demonstrates annual/local risk; historical evidence, not a current forecast."
+    },
+    {
+      "id": "holiday-law",
+      "title": "Par svētku, atceres un atzīmējamām dienām",
+      "url": "https://likumi.lv/ta/id/72608-par-svetku-un-atceres-dienam",
+      "publisherScope": "Latvijas Republikas tiesību akti",
+      "checkedAt": "2026-11-10",
+      "verification": "Official source read via web search/open",
+      "notes": "Current consolidated official text; public holiday, commemoration and international/cultural observance must not be conflated."
+    },
+    {
+      "id": "workdays-2026",
+      "title": "Par darba dienu pārcelšanu 2026. gadā",
+      "url": "https://likumi.lv/ta/id/361161-par-bdarba-dienu-parcelsanub-2026-gada",
+      "publisherScope": "Ministru kabinets; Latvijas Vēstnesis",
+      "checkedAt": "2026-11-10",
+      "verification": "Official source read via web search/open",
+      "publishedAt": "2025-06-13",
+      "notes": "MK330. Mandatory specified state-budget institutions with Mon–Fri five-day week; recommended to municipalities, businesses and organisations."
+    },
+    {
+      "id": "martini",
+      "title": "Mārtiņi",
+      "url": "https://epupa.valoda.lv/martini/",
+      "publisherScope": "Latviešu valodas aģentūra: e-PUPA",
+      "checkedAt": "2026-11-10",
+      "verification": "Official source read via web search/open",
+      "notes": "Nov10; traditional autumn-work end/winter threshold. Folklore beliefs are cultural material, not scientific forecasts."
+    },
+    {
+      "id": "mikeli",
+      "title": "Miķeļi",
+      "url": "https://epupa.valoda.lv/mikeli/",
+      "publisherScope": "Latviešu valodas aģentūra: e-PUPA",
+      "checkedAt": "2026-11-10",
+      "verification": "Official source read via web search/open",
+      "notes": "Sep29 traditional harvest observance. It is not the actual astronomical equinox instant."
+    },
+    {
+      "id": "meteni-dictionary",
+      "title": "Metenis, Meteņi",
+      "url": "https://epupa.valoda.lv/metenis-meteni/",
+      "publisherScope": "Latviešu valodas aģentūra: e-PUPA",
+      "checkedAt": "2026-11-10",
+      "verification": "Official source read via web search/open",
+      "notes": "Entry presents Feb6 convention and an Easter-relative model (56 days). Do not flatten differing traditions into one universal computed date."
+    },
+    {
+      "id": "meteni-museum",
+      "title": "Meteņu jeb Vastlāvju ķekatas lībiešu tradīcijā",
+      "url": "https://www.lebm.gov.lv/lv/jaunums/metenu-jeb-vastlavju-kekatas-libiesu-tradicija",
+      "publisherScope": "Latvijas Etnogrāfiskais brīvdabas muzejs",
+      "checkedAt": "2026-11-10",
+      "verification": "Official source read via web search/open",
+      "publishedAt": "2025-03-04",
+      "notes": "Museum describes Livonian Vastlāvji before Lent; 2025 example is Mar4. Distinguish cultural/tradition-specific model from all-Latvia date."
+    },
+    {
+      "id": "meteni-turaida",
+      "title": "Piesakies programmai “Meteņi Turaidā”",
+      "url": "https://tmr.gov.lv/lv/jaunums/piesakies-programmai-meteni-turaida",
+      "publisherScope": "Turaidas muzejrezervāts",
+      "checkedAt": "2026-11-10",
+      "verification": "Official source read via web search/open",
+      "notes": "Original institution programme; use as cultural evidence, not as future event availability."
+    },
+    {
+      "id": "valentine-museum",
+      "title": "Mīlestības dienā LNRMM aicina iepazīt radošuma un mīlas pasauli",
+      "url": "https://www.km.gov.lv/lv/jaunums/milestibas-diena-lnrmm-aicina-iepazit-radosuma-un-milas-pasauli",
+      "publisherScope": "Kultūras ministrija / Latvijas Nacionālais rakstniecības un mūzikas muzejs",
+      "checkedAt": "2026-11-10",
+      "verification": "Official source read via web search/open",
+      "publishedAt": "2026-02-05",
+      "notes": "Programme for Feb14,2026 confirms modern local cultural usage, not an ancient Latvian national holiday."
+    },
+    {
+      "id": "catholic-calendar",
+      "title": "Liturģiskais kalendārs",
+      "url": "https://katolis.lv/liturgiskais-kalendars/",
+      "publisherScope": "Latvijas Romas katoļu baznīcas informācijas centrs",
+      "checkedAt": "2026-11-10",
+      "verification": "Official source read via web search/open",
+      "notes": "Catholic scope: Jan6 Epiphany; Aug15 Assumption; Nov2 departed faithful. Religious obligation does not establish state work-free day."
+    },
+    {
+      "id": "advent",
+      "title": "Septiņi soļi tuvāk Dievam",
+      "url": "https://katolis.lv/2016/12/septini-soli-tuvak-dievam/",
+      "publisherScope": "Latvijas Romas katoļu baznīcas informācijas centrs",
+      "checkedAt": "2026-11-10",
+      "verification": "Official source read via web search/open",
+      "publishedAt": "2016-12-05",
+      "notes": "Four Sundays before Christmas; final may be Dec24. Do not assign a fixed Nov date."
+    },
+    {
+      "id": "palm-sunday",
+      "title": "Lielā nedēļa",
+      "url": "https://katolis.lv/liela-nedela/",
+      "publisherScope": "Latvijas Romas katoļu baznīcas informācijas centrs",
+      "checkedAt": "2026-11-10",
+      "verification": "Official source read via web search/open",
+      "notes": "Palm/Pūpolu Sunday starts Holy Week one week before Easter; use specified confession/calendar."
+    },
+    {
+      "id": "lutheran-year",
+      "title": "Baznīcas gads",
+      "url": "https://lelb.lv/baznicas-gads",
+      "publisherScope": "Latvijas Evaņģēliski luteriskā baznīca",
+      "checkedAt": "2026-11-10",
+      "verification": "Official source read via web search/open",
+      "notes": "Church year begins first Advent/fourth Sunday before Christmas; Mūžības/Mirušo piemiņas context."
+    },
+    {
+      "id": "lutheran-memorial",
+      "title": "Mirušo piemiņas diena jeb Mūžības svētdiena",
+      "url": "https://kristusdraudze.lelb.lv/news2print.php?id=765",
+      "publisherScope": "Rīgas Kristus evaņģēliski luteriskā draudze",
+      "checkedAt": "2026-11-10",
+      "verification": "Official source read via web search/open",
+      "publishedAt": "2012",
+      "notes": "Lutheran date is last Sunday before first Advent; different from Catholic Nov2. Scope remains explicit."
+    },
+    {
+      "id": "un-holocaust",
+      "title": "International Day of Commemoration in memory of the victims of the Holocaust",
+      "url": "https://www.un.org/en/observances/commemoration-holocaust-victims-day",
+      "publisherScope": "United Nations",
+      "checkedAt": "2026-11-10",
+      "verification": "Official source read via web search/open",
+      "notes": "UN annual observance on 27 January. Distinct from Latvia’s statutory 4 July commemoration of the genocide of the Jewish people."
+    },
+    {
+      "id": "coe-languages",
+      "title": "26 September – European Day of Languages",
+      "url": "https://www.coe.int/en/web/portal/26-september-european-day-languages",
+      "publisherScope": "Council of Europe",
+      "checkedAt": "2026-11-10",
+      "verification": "Official source read via web search/open",
+      "notes": "Annual 26 September observance established by the Council of Europe Committee of Ministers."
+    },
+    {
+      "id": "eu-totalitarian-remembrance",
+      "title": "European Day of Remembrance for Victims of all Totalitarian and Authoritarian Regimes",
+      "url": "https://www.europarl.europa.eu/thinktank/en/document/EPRS_ATA%282022%29733610",
+      "publisherScope": "European Parliament Research Service",
+      "checkedAt": "2026-11-10",
+      "verification": "Official source read via web search/open",
+      "notes": "European Parliament marked 23 August in 2009; Latvia law also lists 23 August as a remembrance day."
+    },
+    {
+      "id": "unesco-mother-language",
+      "title": "International Mother Language Day",
+      "url": "https://www.unesco.org/en/days/mother-language?hub=66691",
+      "publisherScope": "UNESCO",
+      "checkedAt": "2026-11-10",
+      "verification": "Official source read via web search/open",
+      "notes": "Annual observance on 21 February; yearly themes and programmes change."
+    },
+    {
+      "id": "unesco-world-book",
+      "title": "World Book and Copyright Day",
+      "url": "https://www.unesco.org/en/days/world-book-and-copyright?hub=66646",
+      "publisherScope": "UNESCO",
+      "checkedAt": "2026-11-10",
+      "verification": "Official source read via web search/open",
+      "notes": "UNESCO observes the day each year on 23 April. World Book Capital and campaign information changes by year."
+    },
+    {
+      "id": "un-world-environment",
+      "title": "World Environment Day",
+      "url": "https://www.unep.org/international-days",
+      "publisherScope": "United Nations Environment Programme",
+      "checkedAt": "2026-11-10",
+      "verification": "Official source read via web search/open",
+      "notes": "Recurring global observance on 5 June. Host country and annual campaign theme are not carried into later years."
+    },
+    {
+      "id": "un-world-children",
+      "title": "World Children’s Day",
+      "url": "https://www.un.org/en/observances/world-childrens-day",
+      "publisherScope": "United Nations / UNICEF",
+      "checkedAt": "2026-11-10",
+      "verification": "Official source read via web search/open",
+      "notes": "Annual observance on 20 November; the date marks adoption of the Convention on the Rights of the Child."
+    },
+    {
+      "id": "un-water-day",
+      "title": "World Water Day",
+      "url": "https://www.unwater.org/our-work/world-water-day",
+      "publisherScope": "UN-Water",
+      "checkedAt": "2026-11-10",
+      "verification": "Official source read via web search/open",
+      "notes": "Annual UN observance on 22 March. Annual themes change."
+    },
+    {
+      "id": "world-animal-day",
+      "title": "About World Animal Day",
+      "url": "https://www.worldanimalday.org.uk/about/",
+      "publisherScope": "World Animal Day / Naturewatch Foundation",
+      "checkedAt": "2026-11-10",
+      "verification": "Official source read via web search/open",
+      "notes": "The organiser marks the annual day on 4 October. It is not a statutory Latvian holiday."
+    },
+    {
+      "id": "latvian-halloween-example",
+      "title": "Ģimenes diena “Dabas tumšā puse” (31.10.2026.)",
+      "url": "https://dabasmuzejs.lv/lv/aktualitates/gimenes-diena-dabas-tumsa-puse",
+      "publisherScope": "Latvijas Nacionālais dabas muzejs",
+      "checkedAt": "2026-11-10",
+      "verification": "Official source read via web search/open",
+      "notes": "One Latvian museum programme for 31 October 2026; this event listing does not establish a future programme or national tradition."
+    },
+    {
+      "id": "catholic-st-nicholas",
+      "title": "Svētais Nikolajs",
+      "url": "https://katolis.lv/svetais-nikolajs/",
+      "publisherScope": "Latvijas Romas katoļu baznīcas Rīgas arhidiecēzes sabiedriskais medijs",
+      "checkedAt": "2026-11-10",
+      "verification": "Official source read via web search/open",
+      "notes": "Latvian Catholic source places Saint Nicholas Day on 6 December; this is a religious-calendar scope, not a national holiday."
+    },
+    {
+      "id": "un-mother-earth",
+      "title": "Background – Mother Earth Day",
+      "url": "https://www.un.org/en/observances/earth-day/background",
+      "publisherScope": "United Nations",
+      "checkedAt": "2026-11-10",
+      "verification": "Official source read via web search/open",
+      "notes": "UN General Assembly designated 22 April as International Mother Earth Day. Keep distinct from 5 June World Environment Day."
+    },
+    {
+      "id": "halloween-reference",
+      "title": "Halloween",
+      "url": "https://learnenglish.britishcouncil.org/free-resources/general/magazine-zone/halloween",
+      "publisherScope": "British Council",
+      "checkedAt": "2026-11-10",
+      "verification": "Official source read via web search/open",
+      "notes": "Education source gives 31 October as the date; it does not establish Halloween as a Latvian statutory holiday or traditional observance."
+    },
+    {
+      "id": "un-bee-day",
+      "title": "World Bee Day",
+      "url": "https://www.un.org/en/events/beeday/",
+      "publisherScope": "Food and Agriculture Organization of the United Nations",
+      "checkedAt": "2026-11-10",
+      "verification": "Official source read via web search/open",
+      "notes": "UN-designated annual observance on 20 May; use the page for the date and pollinator-awareness scope."
+    }
+  ],
+  "paymentModel": {
+    "sourceIds": [
+      "vsaa-faq",
+      "vsaa-parent-payments",
+      "vsaa-holidays-2025"
+    ],
+    "universalMonthlyPaymentDate": false,
+    "officialRecurringNationalTableFound": false,
+    "regularDateSource": "Individuālais VSAA lēmums",
+    "intro": "Pensijas un pabalstus Latvijā neizmaksā visiem vienā datumā. Regulārās izmaksas datums ir norādīts VSAA lēmumā; pirmais maksājums var pienākt citā dienā.",
+    "rules": [
+      {
+        "fact": "Pēc pirmās izmaksas turpmāk izmanto lēmumā norādīto regulāro datumu.",
+        "sourceId": "vsaa-faq"
+      },
+      {
+        "fact": "Vecāku pabalstu un bērna kopšanas pabalstu izmaksā par iepriekšējo kalendāra mēnesi.",
+        "sourceId": "vsaa-parent-payments"
+      },
+      {
+        "fact": "Ģimenes valsts pabalstu izmaksā par kārtējo mēnesi.",
+        "sourceId": "vsaa-parent-payments"
+      },
+      {
+        "fact": "Vienreizējiem maksājumiem nevar piešķirt visiem kopīgu mēneša datumu.",
+        "sourceId": "vsaa-parent-payments"
+      },
+      {
+        "fact": "Pirmssvētku izmaksu paziņojumos var atšķirties banku pārskaitījumu un piegādes mājās datumi.",
+        "sourceId": "vsaa-holidays-2025"
+      }
+    ],
+    "ui": {
+      "personalDateLabel": "Mans VSAA lēmumā norādītais datums",
+      "reminderLabel": "Personīgs atgādinājums",
+      "reminderNote": "Šis ir tavs atgādinājums, nevis VSAA apstiprināts maksājuma datums.",
+      "officialNewsLabel": "Pārbaudīt jaunākos VSAA paziņojumus",
+      "unknownDateLabel": "Datums jāskatās tavā VSAA lēmumā."
+    },
+    "forbiddenBehavior": [
+      "No fixed Slovenia-style national pay date or countdown",
+      "Do not re-label a historical VSAA announcement as a future schedule",
+      "Do not infer eligibility/amounts or a bank arrival guarantee",
+      "Do not send personal decision data to analytics"
+    ]
+  },
+  "education": {
+    "academicYear": "2026./2027.",
+    "dateStatus": "Official published",
+    "examAuthority": {
+      "sourceId": "exam-2027",
+      "decisionNumber": "1-4e/26/236",
+      "adopted": "2026-09-17",
+      "effective": "2026-09-18",
+      "supersededNotInForceUrl": "https://likumi.lv/ta/id/370905-noteikumi-par-valsts-parbaudes-darbu-norises-laiku-2026-2027-macibu-gada"
+    },
+    "exams": [
+      {
+        "scope": "Vispārējā izglītība",
+        "grade": 6,
+        "subject": "Tekstpratība",
+        "kind": "Monitoringa darbs",
+        "session": "Pamatlaiks",
+        "sourceId": "exam-2027",
+        "clause": "3.1",
+        "dates": [
+          "2027-02-22"
+        ]
+      },
+      {
+        "scope": "Vispārējā izglītība",
+        "grade": 6,
+        "subject": "Tekstpratība",
+        "kind": "Monitoringa darbs",
+        "session": "Attaisnota kavējuma norise",
+        "sourceId": "exam-2027",
+        "clause": "4.1",
+        "start": "2027-02-23",
+        "end": "2027-03-15"
+      },
+      {
+        "scope": "Vispārējā izglītība",
+        "grade": 3,
+        "subject": "Dabaszinātņu pratība",
+        "kind": "Monitoringa darbs",
+        "session": "Pamatlaiks",
+        "sourceId": "exam-2027",
+        "clause": "3.2",
+        "dates": [
+          "2027-02-23"
+        ]
+      },
+      {
+        "scope": "Vispārējā izglītība",
+        "grade": 3,
+        "subject": "Dabaszinātņu pratība",
+        "kind": "Monitoringa darbs",
+        "session": "Attaisnota kavējuma norise",
+        "sourceId": "exam-2027",
+        "clause": "4.2",
+        "start": "2027-02-24",
+        "end": "2027-03-16"
+      },
+      {
+        "scope": "Vispārējā izglītība",
+        "grade": 2,
+        "subject": "Vienotas skolas ieviešanas rezultāti",
+        "kind": "Monitoringa darbs",
+        "session": "Pamatlaiks",
+        "sourceId": "exam-2027",
+        "clause": "3.3",
+        "dates": [
+          "2027-02-24"
+        ]
+      },
+      {
+        "scope": "Vispārējā izglītība",
+        "grade": 2,
+        "subject": "Vienotas skolas ieviešanas rezultāti",
+        "kind": "Monitoringa darbs",
+        "session": "Attaisnota kavējuma norise",
+        "sourceId": "exam-2027",
+        "clause": "4.3",
+        "start": "2027-02-25",
+        "end": "2027-03-17"
+      },
+      {
+        "scope": "Vispārējā izglītība",
+        "grade": 6,
+        "subject": "Dabaszinātņu pratība",
+        "kind": "Monitoringa darbs",
+        "session": "Pamatlaiks",
+        "sourceId": "exam-2027",
+        "clause": "3.4",
+        "dates": [
+          "2027-02-25"
+        ]
+      },
+      {
+        "scope": "Vispārējā izglītība",
+        "grade": 6,
+        "subject": "Dabaszinātņu pratība",
+        "kind": "Monitoringa darbs",
+        "session": "Attaisnota kavējuma norise",
+        "sourceId": "exam-2027",
+        "clause": "4.4",
+        "start": "2027-02-26",
+        "end": "2027-03-18"
+      },
+      {
+        "scope": "Vispārējā izglītība",
+        "grade": 5,
+        "subject": "Vienotas skolas ieviešanas rezultāti",
+        "kind": "Monitoringa darbs",
+        "session": "Pamatlaiks",
+        "sourceId": "exam-2027",
+        "clause": "3.5",
+        "dates": [
+          "2027-02-26"
+        ]
+      },
+      {
+        "scope": "Vispārējā izglītība",
+        "grade": 5,
+        "subject": "Vienotas skolas ieviešanas rezultāti",
+        "kind": "Monitoringa darbs",
+        "session": "Attaisnota kavējuma norise",
+        "sourceId": "exam-2027",
+        "clause": "4.5",
+        "start": "2027-03-01",
+        "end": "2027-03-19"
+      },
+      {
+        "scope": "Vispārējā izglītība",
+        "grade": 3,
+        "subject": "Tekstpratība",
+        "kind": "Monitoringa darbs",
+        "session": "Pamatlaiks",
+        "sourceId": "exam-2027",
+        "clause": "3.6",
+        "dates": [
+          "2027-03-01"
+        ]
+      },
+      {
+        "scope": "Vispārējā izglītība",
+        "grade": 3,
+        "subject": "Tekstpratība",
+        "kind": "Monitoringa darbs",
+        "session": "Attaisnota kavējuma norise",
+        "sourceId": "exam-2027",
+        "clause": "4.6",
+        "start": "2027-03-02",
+        "end": "2027-03-22"
+      },
+      {
+        "scope": "Vispārējā izglītība",
+        "grade": 6,
+        "subject": "Rēķinpratība",
+        "kind": "Monitoringa darbs",
+        "session": "Pamatlaiks",
+        "sourceId": "exam-2027",
+        "clause": "3.7",
+        "dates": [
+          "2027-03-02"
+        ]
+      },
+      {
+        "scope": "Vispārējā izglītība",
+        "grade": 6,
+        "subject": "Rēķinpratība",
+        "kind": "Monitoringa darbs",
+        "session": "Attaisnota kavējuma norise",
+        "sourceId": "exam-2027",
+        "clause": "4.7",
+        "start": "2027-03-03",
+        "end": "2027-03-23"
+      },
+      {
+        "scope": "Vispārējā izglītība",
+        "grade": 8,
+        "subject": "Vienotas skolas ieviešanas rezultāti",
+        "kind": "Monitoringa darbs",
+        "session": "Pamatlaiks",
+        "sourceId": "exam-2027",
+        "clause": "3.8",
+        "dates": [
+          "2027-03-03"
+        ]
+      },
+      {
+        "scope": "Vispārējā izglītība",
+        "grade": 8,
+        "subject": "Vienotas skolas ieviešanas rezultāti",
+        "kind": "Monitoringa darbs",
+        "session": "Attaisnota kavējuma norise",
+        "sourceId": "exam-2027",
+        "clause": "4.8",
+        "start": "2027-03-04",
+        "end": "2027-03-24"
+      },
+      {
+        "scope": "Vispārējā izglītība",
+        "grade": 3,
+        "subject": "Rēķinpratība",
+        "kind": "Monitoringa darbs",
+        "session": "Pamatlaiks",
+        "sourceId": "exam-2027",
+        "clause": "3.9",
+        "dates": [
+          "2027-03-04"
+        ]
+      },
+      {
+        "scope": "Vispārējā izglītība",
+        "grade": 3,
+        "subject": "Rēķinpratība",
+        "kind": "Monitoringa darbs",
+        "session": "Attaisnota kavējuma norise",
+        "sourceId": "exam-2027",
+        "clause": "4.9",
+        "start": "2027-03-05",
+        "end": "2027-03-25"
+      },
+      {
+        "scope": "Vispārējā pamatizglītība",
+        "grade": 9,
+        "subject": "Angļu valoda",
+        "kind": "Monitoringa darbs",
+        "session": "Pamatlaiks",
+        "sourceId": "exam-2027",
+        "clause": "5.1",
+        "dates": [
+          "2027-04-06"
+        ],
+        "part": "Rakstu daļa"
+      },
+      {
+        "scope": "Vispārējā pamatizglītība",
+        "grade": 9,
+        "subject": "Angļu valoda",
+        "kind": "Monitoringa darbs",
+        "session": "Pamatlaiks",
+        "sourceId": "exam-2027",
+        "clause": "5.1",
+        "start": "2027-04-06",
+        "end": "2027-04-30",
+        "part": "Mutvārdu daļa"
+      },
+      {
+        "scope": "Vispārējā pamatizglītība",
+        "grade": 9,
+        "subject": "Angļu valoda",
+        "kind": "Monitoringa darbs",
+        "session": "Attaisnota kavējuma norise",
+        "sourceId": "exam-2027",
+        "clause": "7.1.1",
+        "dates": [
+          "2027-04-27"
+        ],
+        "part": "Rakstu daļa"
+      },
+      {
+        "scope": "Vispārējā pamatizglītība",
+        "grade": 9,
+        "subject": "Angļu valoda",
+        "kind": "Monitoringa darbs",
+        "session": "Attaisnota kavējuma norise",
+        "sourceId": "exam-2027",
+        "clause": "7.1.1",
+        "start": "2027-04-06",
+        "end": "2027-04-30",
+        "part": "Mutvārdu daļa"
+      },
+      {
+        "scope": "Vispārējā pamatizglītība",
+        "grade": 9,
+        "subject": "Vācu valoda",
+        "kind": "Monitoringa darbs",
+        "session": "Pamatlaiks",
+        "sourceId": "exam-2027",
+        "clause": "5.2",
+        "dates": [
+          "2027-04-06"
+        ],
+        "part": "Rakstu daļa"
+      },
+      {
+        "scope": "Vispārējā pamatizglītība",
+        "grade": 9,
+        "subject": "Vācu valoda",
+        "kind": "Monitoringa darbs",
+        "session": "Pamatlaiks",
+        "sourceId": "exam-2027",
+        "clause": "5.2",
+        "start": "2027-04-06",
+        "end": "2027-04-30",
+        "part": "Mutvārdu daļa"
+      },
+      {
+        "scope": "Vispārējā pamatizglītība",
+        "grade": 9,
+        "subject": "Vācu valoda",
+        "kind": "Monitoringa darbs",
+        "session": "Attaisnota kavējuma norise",
+        "sourceId": "exam-2027",
+        "clause": "7.1.2",
+        "dates": [
+          "2027-04-27"
+        ],
+        "part": "Rakstu daļa"
+      },
+      {
+        "scope": "Vispārējā pamatizglītība",
+        "grade": 9,
+        "subject": "Vācu valoda",
+        "kind": "Monitoringa darbs",
+        "session": "Attaisnota kavējuma norise",
+        "sourceId": "exam-2027",
+        "clause": "7.1.2",
+        "start": "2027-04-06",
+        "end": "2027-04-30",
+        "part": "Mutvārdu daļa"
+      },
+      {
+        "scope": "Vispārējā pamatizglītība",
+        "grade": 9,
+        "subject": "Franču valoda",
+        "kind": "Monitoringa darbs",
+        "session": "Pamatlaiks",
+        "sourceId": "exam-2027",
+        "clause": "5.3",
+        "dates": [
+          "2027-04-06"
+        ],
+        "part": "Rakstu daļa"
+      },
+      {
+        "scope": "Vispārējā pamatizglītība",
+        "grade": 9,
+        "subject": "Franču valoda",
+        "kind": "Monitoringa darbs",
+        "session": "Pamatlaiks",
+        "sourceId": "exam-2027",
+        "clause": "5.3",
+        "start": "2027-04-06",
+        "end": "2027-04-30",
+        "part": "Mutvārdu daļa"
+      },
+      {
+        "scope": "Vispārējā pamatizglītība",
+        "grade": 9,
+        "subject": "Franču valoda",
+        "kind": "Monitoringa darbs",
+        "session": "Attaisnota kavējuma norise",
+        "sourceId": "exam-2027",
+        "clause": "7.1.3",
+        "dates": [
+          "2027-04-27"
+        ],
+        "part": "Rakstu daļa"
+      },
+      {
+        "scope": "Vispārējā pamatizglītība",
+        "grade": 9,
+        "subject": "Franču valoda",
+        "kind": "Monitoringa darbs",
+        "session": "Attaisnota kavējuma norise",
+        "sourceId": "exam-2027",
+        "clause": "7.1.3",
+        "start": "2027-04-06",
+        "end": "2027-04-30",
+        "part": "Mutvārdu daļa"
+      },
+      {
+        "scope": "Vispārējā pamatizglītība",
+        "grade": 9,
+        "subject": "Latviešu valoda",
+        "kind": "Centralizētais eksāmens",
+        "session": "Pamatlaiks",
+        "sourceId": "exam-2027",
+        "clause": "6.1",
+        "dates": [
+          "2027-05-20"
+        ],
+        "part": "Rakstu daļa"
+      },
+      {
+        "scope": "Vispārējā pamatizglītība",
+        "grade": 9,
+        "subject": "Latviešu valoda",
+        "kind": "Centralizētais eksāmens",
+        "session": "Pamatlaiks",
+        "sourceId": "exam-2027",
+        "clause": "6.1",
+        "dates": [
+          "2027-05-17",
+          "2027-05-18",
+          "2027-05-19",
+          "2027-05-20"
+        ],
+        "part": "Mutvārdu daļa"
+      },
+      {
+        "scope": "Vispārējā pamatizglītība",
+        "grade": 9,
+        "subject": "Matemātika",
+        "kind": "Centralizētais eksāmens",
+        "session": "Pamatlaiks",
+        "sourceId": "exam-2027",
+        "clause": "6.2",
+        "dates": [
+          "2027-05-25"
+        ]
+      },
+      {
+        "scope": "Vispārējā pamatizglītība",
+        "grade": 9,
+        "subject": "Dabaszinātņu joma",
+        "kind": "Centralizētais eksāmens",
+        "session": "Pamatlaiks",
+        "sourceId": "exam-2027",
+        "clause": "6.3",
+        "dates": [
+          "2027-06-02"
+        ]
+      },
+      {
+        "scope": "Vispārējā pamatizglītība",
+        "grade": 9,
+        "subject": "Latviešu valoda",
+        "kind": "Centralizētais eksāmens",
+        "session": "Attaisnota kavējuma norise",
+        "sourceId": "exam-2027",
+        "clause": "7.2",
+        "dates": [
+          "2027-06-07"
+        ],
+        "part": "Rakstu un mutvārdu daļa"
+      },
+      {
+        "scope": "Vispārējā pamatizglītība",
+        "grade": 9,
+        "subject": "Matemātika",
+        "kind": "Centralizētais eksāmens",
+        "session": "Attaisnota kavējuma norise",
+        "sourceId": "exam-2027",
+        "clause": "7.3",
+        "dates": [
+          "2027-06-09"
+        ]
+      },
+      {
+        "scope": "Vispārējā pamatizglītība",
+        "grade": 9,
+        "subject": "Dabaszinātņu joma",
+        "kind": "Centralizētais eksāmens",
+        "session": "Attaisnota kavējuma norise",
+        "sourceId": "exam-2027",
+        "clause": "7.4",
+        "dates": [
+          "2027-06-11"
+        ]
+      },
+      {
+        "scope": "Vispārējā vidējā izglītība",
+        "subject": "Dabaszinības",
+        "level": "Vispārīgais",
+        "kind": "Centralizētais eksāmens",
+        "session": "Pamatlaiks",
+        "sourceId": "exam-2027",
+        "clause": "8.1",
+        "dates": [
+          "2027-05-21"
+        ]
+      },
+      {
+        "scope": "Vispārējā vidējā izglītība",
+        "subject": "Fizika",
+        "level": "Optimālais",
+        "kind": "Centralizētais eksāmens",
+        "session": "Pamatlaiks",
+        "sourceId": "exam-2027",
+        "clause": "8.2",
+        "dates": [
+          "2027-05-17"
+        ]
+      },
+      {
+        "scope": "Vispārējā vidējā izglītība",
+        "subject": "Bioloģija",
+        "level": "Optimālais",
+        "kind": "Centralizētais eksāmens",
+        "session": "Pamatlaiks",
+        "sourceId": "exam-2027",
+        "clause": "8.2",
+        "dates": [
+          "2027-05-19"
+        ]
+      },
+      {
+        "scope": "Vispārējā vidējā izglītība",
+        "subject": "Ķīmija",
+        "level": "Optimālais",
+        "kind": "Centralizētais eksāmens",
+        "session": "Pamatlaiks",
+        "sourceId": "exam-2027",
+        "clause": "8.2",
+        "dates": [
+          "2027-05-21"
+        ]
+      },
+      {
+        "scope": "Vispārējā vidējā izglītība",
+        "subject": "Matemātika",
+        "level": "Optimālais",
+        "kind": "Centralizētais eksāmens",
+        "session": "Pamatlaiks",
+        "sourceId": "exam-2027",
+        "clause": "8.2",
+        "dates": [
+          "2027-05-24"
+        ]
+      },
+      {
+        "scope": "Vispārējā vidējā izglītība",
+        "subject": "Latviešu valoda",
+        "level": "Optimālais",
+        "kind": "Centralizētais eksāmens",
+        "session": "Pamatlaiks",
+        "sourceId": "exam-2027",
+        "clause": "8.2",
+        "dates": [
+          "2027-05-26"
+        ],
+        "part": "Rakstu daļa"
+      },
+      {
+        "scope": "Vispārējā vidējā izglītība",
+        "subject": "Angļu valoda",
+        "level": "Optimālais",
+        "kind": "Centralizētais eksāmens",
+        "session": "Pamatlaiks",
+        "sourceId": "exam-2027",
+        "clause": "8.2",
+        "dates": [
+          "2027-06-01"
+        ],
+        "part": "Rakstu daļa"
+      },
+      {
+        "scope": "Vispārējā vidējā izglītība",
+        "subject": "Vācu valoda",
+        "level": "Optimālais",
+        "kind": "Centralizētais eksāmens",
+        "session": "Pamatlaiks",
+        "sourceId": "exam-2027",
+        "clause": "8.2",
+        "dates": [
+          "2027-06-04"
+        ],
+        "part": "Rakstu un mutvārdu daļa"
+      },
+      {
+        "scope": "Vispārējā vidējā izglītība",
+        "subject": "Franču valoda",
+        "level": "Optimālais",
+        "kind": "Centralizētais eksāmens",
+        "session": "Pamatlaiks",
+        "sourceId": "exam-2027",
+        "clause": "8.2",
+        "dates": [
+          "2027-06-04"
+        ],
+        "part": "Rakstu un mutvārdu daļa"
+      },
+      {
+        "scope": "Vispārējā vidējā izglītība",
+        "subject": "Vēsture",
+        "level": "Augstākais",
+        "kind": "Centralizētais eksāmens",
+        "session": "Pamatlaiks",
+        "sourceId": "exam-2027",
+        "clause": "8.3",
+        "dates": [
+          "2027-05-10"
+        ]
+      },
+      {
+        "scope": "Vispārējā vidējā izglītība",
+        "subject": "Dizains un tehnoloģijas",
+        "level": "Augstākais",
+        "kind": "Centralizētais eksāmens",
+        "session": "Pamatlaiks",
+        "sourceId": "exam-2027",
+        "clause": "8.3",
+        "dates": [
+          "2027-05-12"
+        ]
+      },
+      {
+        "scope": "Vispārējā vidējā izglītība",
+        "subject": "Sociālās zinātnes",
+        "level": "Augstākais",
+        "kind": "Centralizētais eksāmens",
+        "session": "Pamatlaiks",
+        "sourceId": "exam-2027",
+        "clause": "8.3",
+        "dates": [
+          "2027-05-14"
+        ]
+      },
+      {
+        "scope": "Vispārējā vidējā izglītība",
+        "subject": "Fizika",
+        "level": "Augstākais",
+        "kind": "Centralizētais eksāmens",
+        "session": "Pamatlaiks",
+        "sourceId": "exam-2027",
+        "clause": "8.3",
+        "dates": [
+          "2027-05-17"
+        ]
+      },
+      {
+        "scope": "Vispārējā vidējā izglītība",
+        "subject": "Bioloģija",
+        "level": "Augstākais",
+        "kind": "Centralizētais eksāmens",
+        "session": "Pamatlaiks",
+        "sourceId": "exam-2027",
+        "clause": "8.3",
+        "dates": [
+          "2027-05-19"
+        ]
+      },
+      {
+        "scope": "Vispārējā vidējā izglītība",
+        "subject": "Ķīmija",
+        "level": "Augstākais",
+        "kind": "Centralizētais eksāmens",
+        "session": "Pamatlaiks",
+        "sourceId": "exam-2027",
+        "clause": "8.3",
+        "dates": [
+          "2027-05-21"
+        ]
+      },
+      {
+        "scope": "Vispārējā vidējā izglītība",
+        "subject": "Matemātika",
+        "level": "Augstākais",
+        "kind": "Centralizētais eksāmens",
+        "session": "Pamatlaiks",
+        "sourceId": "exam-2027",
+        "clause": "8.3",
+        "dates": [
+          "2027-05-24"
+        ]
+      },
+      {
+        "scope": "Vispārējā vidējā izglītība",
+        "subject": "Latviešu valoda un literatūra",
+        "level": "Augstākais",
+        "kind": "Centralizētais eksāmens",
+        "session": "Pamatlaiks",
+        "sourceId": "exam-2027",
+        "clause": "8.3",
+        "dates": [
+          "2027-05-26"
+        ]
+      },
+      {
+        "scope": "Vispārējā vidējā izglītība",
+        "subject": "Angļu valoda",
+        "level": "Augstākais",
+        "kind": "Centralizētais eksāmens",
+        "session": "Pamatlaiks",
+        "sourceId": "exam-2027",
+        "clause": "8.3",
+        "dates": [
+          "2027-06-01"
+        ],
+        "part": "Rakstu daļa"
+      },
+      {
+        "scope": "Vispārējā vidējā izglītība",
+        "subject": "Vācu valoda",
+        "level": "Augstākais",
+        "kind": "Centralizētais eksāmens",
+        "session": "Pamatlaiks",
+        "sourceId": "exam-2027",
+        "clause": "8.3",
+        "dates": [
+          "2027-06-04"
+        ],
+        "part": "Rakstu un mutvārdu daļa"
+      },
+      {
+        "scope": "Vispārējā vidējā izglītība",
+        "subject": "Franču valoda",
+        "level": "Augstākais",
+        "kind": "Centralizētais eksāmens",
+        "session": "Pamatlaiks",
+        "sourceId": "exam-2027",
+        "clause": "8.3",
+        "dates": [
+          "2027-06-04"
+        ],
+        "part": "Rakstu un mutvārdu daļa"
+      },
+      {
+        "scope": "Vispārējā vidējā izglītība",
+        "subject": "Kultūra un māksla",
+        "level": "Augstākais",
+        "kind": "Centralizētais eksāmens",
+        "session": "Pamatlaiks",
+        "sourceId": "exam-2027",
+        "clause": "8.3",
+        "dates": [
+          "2027-06-07"
+        ]
+      },
+      {
+        "scope": "Vispārējā vidējā izglītība",
+        "subject": "Programmēšana",
+        "level": "Augstākais",
+        "kind": "Centralizētais eksāmens",
+        "session": "Pamatlaiks",
+        "sourceId": "exam-2027",
+        "clause": "8.3",
+        "dates": [
+          "2027-06-09"
+        ]
+      },
+      {
+        "scope": "Vispārējā vidējā izglītība",
+        "subject": "Ģeogrāfija",
+        "level": "Augstākais",
+        "kind": "Centralizētais eksāmens",
+        "session": "Pamatlaiks",
+        "sourceId": "exam-2027",
+        "clause": "8.3",
+        "dates": [
+          "2027-06-11"
+        ]
+      },
+      {
+        "scope": "Vispārējā vidējā izglītība",
+        "subject": "Latviešu valoda",
+        "level": "Optimālais",
+        "kind": "Centralizētais eksāmens",
+        "session": "Pamatlaiks",
+        "sourceId": "exam-2027",
+        "clause": "8.2.5",
+        "dates": [
+          "2027-05-26",
+          "2027-05-27",
+          "2027-05-28"
+        ],
+        "part": "Mutvārdu daļa"
+      },
+      {
+        "scope": "Vispārējā vidējā izglītība",
+        "subject": "Angļu valoda",
+        "level": "Optimālais",
+        "kind": "Centralizētais eksāmens",
+        "session": "Pamatlaiks",
+        "sourceId": "exam-2027",
+        "clause": "8.2.6.1",
+        "dates": [
+          "2027-06-01",
+          "2027-06-02",
+          "2027-06-03"
+        ],
+        "part": "Mutvārdu daļa"
+      },
+      {
+        "scope": "Vispārējā vidējā izglītība",
+        "subject": "Angļu valoda",
+        "level": "Augstākais",
+        "kind": "Centralizētais eksāmens",
+        "session": "Pamatlaiks",
+        "sourceId": "exam-2027",
+        "clause": "8.3.9.1",
+        "dates": [
+          "2027-06-03",
+          "2027-06-04"
+        ],
+        "part": "Mutvārdu daļa"
+      },
+      {
+        "scope": "Vispārējā vidējā izglītība",
+        "subject": "Dabaszinības",
+        "level": "Vispārīgais",
+        "kind": "Centralizētais eksāmens",
+        "session": "Attaisnota kavējuma norise",
+        "sourceId": "exam-2027",
+        "clause": "9.1",
+        "dates": [
+          "2027-06-14"
+        ]
+      },
+      {
+        "scope": "Vispārējā vidējā izglītība",
+        "subject": "Ķīmija",
+        "level": "Optimālais",
+        "kind": "Centralizētais eksāmens",
+        "session": "Attaisnota kavējuma norise",
+        "sourceId": "exam-2027",
+        "clause": "9.2",
+        "dates": [
+          "2027-06-14"
+        ]
+      },
+      {
+        "scope": "Vispārējā vidējā izglītība",
+        "subject": "Latviešu valoda",
+        "level": "Optimālais",
+        "kind": "Centralizētais eksāmens",
+        "session": "Attaisnota kavējuma norise",
+        "sourceId": "exam-2027",
+        "clause": "9.2",
+        "dates": [
+          "2027-06-15"
+        ],
+        "part": "Rakstu un mutvārdu daļa"
+      },
+      {
+        "scope": "Vispārējā vidējā izglītība",
+        "subject": "Fizika",
+        "level": "Optimālais",
+        "kind": "Centralizētais eksāmens",
+        "session": "Attaisnota kavējuma norise",
+        "sourceId": "exam-2027",
+        "clause": "9.2",
+        "dates": [
+          "2027-06-16"
+        ]
+      },
+      {
+        "scope": "Vispārējā vidējā izglītība",
+        "subject": "Angļu valoda",
+        "level": "Optimālais",
+        "kind": "Centralizētais eksāmens",
+        "session": "Attaisnota kavējuma norise",
+        "sourceId": "exam-2027",
+        "clause": "9.2",
+        "dates": [
+          "2027-06-17"
+        ],
+        "part": "Rakstu un mutvārdu daļa"
+      },
+      {
+        "scope": "Vispārējā vidējā izglītība",
+        "subject": "Matemātika",
+        "level": "Optimālais",
+        "kind": "Centralizētais eksāmens",
+        "session": "Attaisnota kavējuma norise",
+        "sourceId": "exam-2027",
+        "clause": "9.2",
+        "dates": [
+          "2027-06-21"
+        ]
+      },
+      {
+        "scope": "Vispārējā vidējā izglītība",
+        "subject": "Bioloģija",
+        "level": "Optimālais",
+        "kind": "Centralizētais eksāmens",
+        "session": "Attaisnota kavējuma norise",
+        "sourceId": "exam-2027",
+        "clause": "9.2",
+        "dates": [
+          "2027-06-22"
+        ]
+      },
+      {
+        "scope": "Vispārējā vidējā izglītība",
+        "subject": "Vācu valoda",
+        "level": "Optimālais",
+        "kind": "Centralizētais eksāmens",
+        "session": "Attaisnota kavējuma norise",
+        "sourceId": "exam-2027",
+        "clause": "9.2",
+        "part": "Rakstu un mutvārdu daļa",
+        "dateOptions": [
+          "2027-06-17",
+          "2027-07-06"
+        ],
+        "dateOptionsMeaning": "Alternatīvi norises datumi, nevis nepārtraukts periods."
+      },
+      {
+        "scope": "Vispārējā vidējā izglītība",
+        "subject": "Franču valoda",
+        "level": "Optimālais",
+        "kind": "Centralizētais eksāmens",
+        "session": "Attaisnota kavējuma norise",
+        "sourceId": "exam-2027",
+        "clause": "9.2",
+        "part": "Rakstu un mutvārdu daļa",
+        "dateOptions": [
+          "2027-06-17",
+          "2027-07-06"
+        ],
+        "dateOptionsMeaning": "Alternatīvi norises datumi, nevis nepārtraukts periods."
+      },
+      {
+        "scope": "Vispārējā vidējā izglītība",
+        "subject": "Ķīmija",
+        "level": "Augstākais",
+        "kind": "Centralizētais eksāmens",
+        "session": "Attaisnota kavējuma norise",
+        "sourceId": "exam-2027",
+        "clause": "9.3",
+        "dates": [
+          "2027-06-14"
+        ]
+      },
+      {
+        "scope": "Vispārējā vidējā izglītība",
+        "subject": "Latviešu valoda un literatūra",
+        "level": "Augstākais",
+        "kind": "Centralizētais eksāmens",
+        "session": "Attaisnota kavējuma norise",
+        "sourceId": "exam-2027",
+        "clause": "9.3",
+        "dates": [
+          "2027-06-15"
+        ]
+      },
+      {
+        "scope": "Vispārējā vidējā izglītība",
+        "subject": "Fizika",
+        "level": "Augstākais",
+        "kind": "Centralizētais eksāmens",
+        "session": "Attaisnota kavējuma norise",
+        "sourceId": "exam-2027",
+        "clause": "9.3",
+        "dates": [
+          "2027-06-16"
+        ]
+      },
+      {
+        "scope": "Vispārējā vidējā izglītība",
+        "subject": "Angļu valoda",
+        "level": "Augstākais",
+        "kind": "Centralizētais eksāmens",
+        "session": "Attaisnota kavējuma norise",
+        "sourceId": "exam-2027",
+        "clause": "9.3",
+        "dates": [
+          "2027-06-17"
+        ],
+        "part": "Rakstu un mutvārdu daļa"
+      },
+      {
+        "scope": "Vispārējā vidējā izglītība",
+        "subject": "Sociālās zinātnes",
+        "level": "Augstākais",
+        "kind": "Centralizētais eksāmens",
+        "session": "Attaisnota kavējuma norise",
+        "sourceId": "exam-2027",
+        "clause": "9.3",
+        "dates": [
+          "2027-06-18"
+        ]
+      },
+      {
+        "scope": "Vispārējā vidējā izglītība",
+        "subject": "Matemātika",
+        "level": "Augstākais",
+        "kind": "Centralizētais eksāmens",
+        "session": "Attaisnota kavējuma norise",
+        "sourceId": "exam-2027",
+        "clause": "9.3",
+        "dates": [
+          "2027-06-21"
+        ]
+      },
+      {
+        "scope": "Vispārējā vidējā izglītība",
+        "subject": "Bioloģija",
+        "level": "Augstākais",
+        "kind": "Centralizētais eksāmens",
+        "session": "Attaisnota kavējuma norise",
+        "sourceId": "exam-2027",
+        "clause": "9.3",
+        "dates": [
+          "2027-06-22"
+        ]
+      },
+      {
+        "scope": "Vispārējā vidējā izglītība",
+        "subject": "Programmēšana",
+        "level": "Augstākais",
+        "kind": "Centralizētais eksāmens",
+        "session": "Attaisnota kavējuma norise",
+        "sourceId": "exam-2027",
+        "clause": "9.3",
+        "dates": [
+          "2027-06-28"
+        ]
+      },
+      {
+        "scope": "Vispārējā vidējā izglītība",
+        "subject": "Vēsture",
+        "level": "Augstākais",
+        "kind": "Centralizētais eksāmens",
+        "session": "Attaisnota kavējuma norise",
+        "sourceId": "exam-2027",
+        "clause": "9.3",
+        "dates": [
+          "2027-06-29"
+        ]
+      },
+      {
+        "scope": "Vispārējā vidējā izglītība",
+        "subject": "Kultūra un māksla",
+        "level": "Augstākais",
+        "kind": "Centralizētais eksāmens",
+        "session": "Attaisnota kavējuma norise",
+        "sourceId": "exam-2027",
+        "clause": "9.3",
+        "dates": [
+          "2027-06-30"
+        ]
+      },
+      {
+        "scope": "Vispārējā vidējā izglītība",
+        "subject": "Dizains un tehnoloģijas",
+        "level": "Augstākais",
+        "kind": "Centralizētais eksāmens",
+        "session": "Attaisnota kavējuma norise",
+        "sourceId": "exam-2027",
+        "clause": "9.3",
+        "dates": [
+          "2027-07-01"
+        ]
+      },
+      {
+        "scope": "Vispārējā vidējā izglītība",
+        "subject": "Ģeogrāfija",
+        "level": "Augstākais",
+        "kind": "Centralizētais eksāmens",
+        "session": "Attaisnota kavējuma norise",
+        "sourceId": "exam-2027",
+        "clause": "9.3",
+        "dates": [
+          "2027-07-05"
+        ]
+      },
+      {
+        "scope": "Vispārējā vidējā izglītība",
+        "subject": "Vācu valoda",
+        "level": "Augstākais",
+        "kind": "Centralizētais eksāmens",
+        "session": "Attaisnota kavējuma norise",
+        "sourceId": "exam-2027",
+        "clause": "9.3",
+        "part": "Rakstu un mutvārdu daļa",
+        "dateOptions": [
+          "2027-06-17",
+          "2027-07-06"
+        ],
+        "dateOptionsMeaning": "Alternatīvi norises datumi, nevis nepārtraukts periods."
+      },
+      {
+        "scope": "Vispārējā vidējā izglītība",
+        "subject": "Franču valoda",
+        "level": "Augstākais",
+        "kind": "Centralizētais eksāmens",
+        "session": "Attaisnota kavējuma norise",
+        "sourceId": "exam-2027",
+        "clause": "9.3",
+        "part": "Rakstu un mutvārdu daļa",
+        "dateOptions": [
+          "2027-06-17",
+          "2027-07-06"
+        ],
+        "dateOptionsMeaning": "Alternatīvi norises datumi, nevis nepārtraukts periods."
+      },
+      {
+        "scope": "Profesionālā vidējā izglītība",
+        "subject": "Matemātika",
+        "level": "Vispārīgais",
+        "kind": "Centralizētais eksāmens",
+        "session": "Pamatlaiks",
+        "sourceId": "exam-2027",
+        "clause": "10.1",
+        "dates": [
+          "2027-05-24"
+        ]
+      },
+      {
+        "scope": "Profesionālā vidējā izglītība",
+        "subject": "Matemātika",
+        "level": "Vispārīgais",
+        "kind": "Centralizētais eksāmens",
+        "session": "Attaisnota kavējuma norise",
+        "sourceId": "exam-2027",
+        "clause": "11.1",
+        "dates": [
+          "2027-06-21"
+        ]
+      }
+    ],
+    "professionalProgrammeReuse": {
+      "sourceId": "exam-2027",
+      "clauses": [
+        "10.2",
+        "10.3",
+        "11.2",
+        "11.3"
+      ],
+      "fact": "Profesionālās vidējās izglītības optimālā un augstākā līmeņa vispārizglītojošo priekšmetu eksāmeni notiek attiecīgo vispārējās vidējās izglītības līmeņu datumos.",
+      "applyFilter": "Reuse matching level/session rows while preserving professional programme scope, not a second independent announcement."
+    },
+    "extraordinaryAdditionalSession": {
+      "sourceId": "exam-2027",
+      "clause": "2",
+      "dates": null,
+      "status": "Separate ministerial order required; do not invent a third session."
+    },
+    "school": {
+      "sourceId": "school-2027",
+      "start": "2026-09-01",
+      "endByGrade": {
+        "1–8, 10–11": "2027-05-31",
+        "9": "2027-06-11",
+        "12": "2027-06-18"
+      },
+      "firstSemester": {
+        "start": "2026-09-01",
+        "end": "2026-12-18"
+      },
+      "secondSemesterStart": "2027-01-04",
+      "breaks": [
+        {
+          "label": "Rudens brīvdienas",
+          "start": "2026-10-19",
+          "end": "2026-10-23"
+        },
+        {
+          "label": "Ziemas brīvdienas",
+          "start": "2026-12-21",
+          "end": "2027-01-01"
+        },
+        {
+          "label": "Pavasara brīvdienas",
+          "start": "2027-03-08",
+          "end": "2027-03-12"
+        },
+        {
+          "label": "Vasaras brīvdienas",
+          "start": "2027-06-01",
+          "end": "2027-08-31",
+          "scope": "1.–8. un 10.–11. klasei"
+        }
+      ],
+      "localExceptions": [
+        "1. klasei vienu papildu brīvdienu nedēļu otrajā semestrī nosaka skola.",
+        "Neparedzētu būtisku mācību pārtraukumu gadījumā iespējams tiesību aktā atļauts vietējs mācību gada pagarinājums."
+      ],
+      "inclusiveRanges": true
+    },
+    "universities": [
+      {
+        "id": "lu",
+        "name": "Latvijas Universitāte",
+        "sourceId": "lu-2027",
+        "scope": "Vispārējais studiju kalendārs; programmas īpašie noteikumi jāpārbauda atsevišķi.",
+        "events": [
+          {
+            "label": "Rudens semestra sākums",
+            "start": "2026-08-31"
+          },
+          {
+            "label": "Reģistrācijas nedēļa",
+            "start": "2026-08-24",
+            "end": "2026-08-30"
+          },
+          {
+            "label": "Rudens semestra studijas",
+            "start": "2026-08-31",
+            "end": "2026-12-20"
+          },
+          {
+            "label": "Ziemassvētku un Jaungada brīvdienas",
+            "start": "2026-12-21",
+            "end": "2027-01-03"
+          },
+          {
+            "label": "Individuālās studijas un eksāmeni",
+            "start": "2027-01-04",
+            "end": "2027-01-30"
+          },
+          {
+            "label": "Pavasara semestra reģistrācija",
+            "start": "2027-02-02",
+            "end": "2027-02-07"
+          },
+          {
+            "label": "Pavasara semestra sākums",
+            "start": "2027-02-08"
+          },
+          {
+            "label": "Lieldienu brīvdienas",
+            "start": "2027-03-22",
+            "end": "2027-03-29"
+          },
+          {
+            "label": "Individuālās studijas un eksāmeni",
+            "start": "2027-06-07",
+            "end": "2027-07-04"
+          },
+          {
+            "label": "Studijas vasaras semestrī",
+            "start": "2027-07-05",
+            "end": "2027-08-29",
+            "scope": "Tikai tad, ja to paredz studiju programma."
+          }
+        ]
+      },
+      {
+        "id": "lu-doktorantura",
+        "name": "LU doktorantūra",
+        "sourceId": "lu-doctoral-2027",
+        "scope": "Doktorantūras studijas; nav vispārējā LU studentu kalendāra aizstājējs.",
+        "events": [
+          {
+            "label": "Rudens reģistrācija",
+            "start": "2026-09-28",
+            "end": "2026-10-04"
+          },
+          {
+            "label": "Studiju un pētniecības periods",
+            "start": "2026-10-05",
+            "end": "2027-02-21"
+          },
+          {
+            "label": "Pavasara reģistrācija",
+            "start": "2027-02-22",
+            "end": "2027-02-28"
+          },
+          {
+            "label": "Studiju un pētniecības periods",
+            "start": "2027-03-01",
+            "end": "2027-08-01"
+          },
+          {
+            "label": "Vasaras brīvdienas",
+            "start": "2027-08-02",
+            "end": "2027-08-29"
+          },
+          {
+            "label": "Studiju un pētniecības periods",
+            "start": "2027-08-30",
+            "end": "2027-09-26"
+          }
+        ]
+      },
+      {
+        "id": "rtu",
+        "name": "Rīgas Tehniskā universitāte",
+        "sourceId": "rtu-2027",
+        "scope": "Vispārējais 2026./2027. studiju gada kalendārs; nodarbību grafiks un struktūrvienību izņēmumi jāpārbauda RTU.",
+        "events": [
+          {
+            "label": "Ievadnodarbības jaunajiem studentiem",
+            "start": "2026-08-31"
+          },
+          {
+            "label": "Rudens semestris",
+            "start": "2026-08-31",
+            "end": "2027-01-24"
+          },
+          {
+            "label": "Ziemas brīvdienas",
+            "start": "2026-12-28",
+            "end": "2027-01-03"
+          },
+          {
+            "label": "Pavasara semestris",
+            "start": "2027-01-25",
+            "end": "2027-06-20"
+          },
+          {
+            "label": "Pavasara brīvdienas",
+            "start": "2027-03-22",
+            "end": "2027-03-29"
+          },
+          {
+            "label": "Vasaras semestris",
+            "start": "2027-06-28",
+            "end": "2027-08-22"
+          }
+        ]
+      },
+      {
+        "id": "rsu",
+        "name": "Rīgas Stradiņa universitāte",
+        "sourceId": "rsu-2027",
+        "scope": "Datumi atšķiras pēc studiju programmas un kursa. MF = Medicīnas fakultāte.",
+        "events": [
+          {
+            "label": "Rudens semestris",
+            "start": "2026-09-01",
+            "end": "2027-01-24",
+            "scope": "Visiem, izņemot MF 6. kursu; doktorantūrai atsevišķs semestra beigu datums."
+          },
+          {
+            "label": "Rudens semestris MF 6. kursam",
+            "start": "2026-08-24",
+            "end": "2027-01-24",
+            "scope": "MF 6. kurss"
+          },
+          {
+            "label": "Ziemas brīvdienas",
+            "start": "2026-12-24",
+            "end": "2027-01-03"
+          },
+          {
+            "label": "Brīvā nedēļa",
+            "start": "2027-01-25",
+            "end": "2027-01-31"
+          },
+          {
+            "label": "Rudens semestra beigas doktorantūrā",
+            "start": "2027-02-28",
+            "scope": "Doktorantūra"
+          },
+          {
+            "label": "Pavasara semestris",
+            "start": "2027-02-01",
+            "end": "2027-06-27",
+            "scope": "Izņemot bakalaura un maģistra programmu noslēguma studiju gadus."
+          },
+          {
+            "label": "Pavasara semestris noslēguma studiju gadā",
+            "start": "2027-02-01",
+            "end": "2027-05-30",
+            "scope": "Bakalaura un maģistra programmu noslēguma studiju gadi."
+          },
+          {
+            "label": "Pavasara brīvdienas",
+            "start": "2027-03-22",
+            "end": "2027-03-29",
+            "scope": "Izņemot MF 6. kursu."
+          },
+          {
+            "label": "Pavasara brīvdienas MF 6. kursam",
+            "start": "2027-03-26",
+            "end": "2027-03-29",
+            "scope": "MF 6. kurss"
+          }
+        ]
+      }
+    ],
+    "futurePublicationGuard": "For any unverified academic year, do not infer dates from the previous year. Keep pending/noindex until the exact scope and current official instrument are attached.",
+    "certificateIssueDates": null,
+    "certificateIssueDatesStatus": "Not verified in this research; check VIAA separately before displaying."
+  },
+  "gardening": {
+    "intro": "Sējas kalendārs palīdz saplānot darbus, taču īsto brīdi nosaka augsnes siltums un mitrums, salnu risks, šķirne un audzēšanas vieta. Vienā Latvijas pusē piemēroti apstākļi var iestāties vēlāk nekā citā.",
+    "crops": [
+      {
+        "id": "burkani",
+        "name": "Burkāni",
+        "actions": [
+          {
+            "kind": "Sēja laukā",
+            "months": [
+              4,
+              5,
+              6
+            ],
+            "window": "Aprīlis–jūnijs",
+            "condition": "Apžuvusi augsne; sējai izvēlas ražas mērķim atbilstošu šķirni.",
+            "datePrecision": "Orientējošs periods, nevis precīzs datums."
+          }
+        ],
+        "sourceIds": [
+          "garden-di-guide",
+          "garden-di-april"
+        ],
+        "note": "Agrīno un glabāšanai paredzēto šķirņu sējas laiks var atšķirties.",
+        "harvestWindow": null,
+        "harvestWindowStatus": "Atkarīgs no šķirnes un faktiskās gatavības; vienots datums nav noteikts."
+      },
+      {
+        "id": "galda-bietes",
+        "name": "Galda bietes",
+        "actions": [
+          {
+            "kind": "Sēja laukā",
+            "months": [
+              4,
+              5,
+              6
+            ],
+            "window": "Aprīlis–jūnijs",
+            "condition": "Augsne vismaz 8–10 °C; sargā dīgstus no salnām.",
+            "datePrecision": "Orientējošs periods, nevis precīzs datums."
+          }
+        ],
+        "sourceIds": [
+          "garden-di-guide",
+          "garden-di-april"
+        ],
+        "note": "Mēneša sākums pats par sevi nenozīmē, ka augsne pietiekami iesilusi.",
+        "harvestWindow": null,
+        "harvestWindowStatus": "Atkarīgs no šķirnes un faktiskās gatavības; vienots datums nav noteikts."
+      },
+      {
+        "id": "redisi",
+        "name": "Redīsi",
+        "actions": [
+          {
+            "kind": "Sēja laukā",
+            "months": [
+              4
+            ],
+            "window": "Aprīļa sākums",
+            "condition": "Sējai piemērota, apžuvusi augsne.",
+            "datePrecision": "Orientējošs periods, nevis precīzs datums."
+          },
+          {
+            "kind": "Sēja rudens ražai",
+            "months": [
+              8
+            ],
+            "window": "Augusta otrā puse",
+            "condition": "Saglabā vienmērīgu mitrumu.",
+            "datePrecision": "Orientējošs periods, nevis precīzs datums."
+          }
+        ],
+        "sourceIds": [
+          "garden-di-guide"
+        ],
+        "note": "Sēja iespējama arī siltumnīcā; lauka un siltumnīcas termiņi nav viens grafiks.",
+        "harvestWindow": null,
+        "harvestWindowStatus": "Atkarīgs no šķirnes un faktiskās gatavības; vienots datums nav noteikts."
+      },
+      {
+        "id": "saknu-selerijas",
+        "name": "Sakņu selerijas",
+        "actions": [
+          {
+            "kind": "Sēja dēstiem",
+            "months": [
+              3
+            ],
+            "window": "Marta vidus",
+            "condition": "Audzē dēstus piemērotā gaismā un siltumā.",
+            "datePrecision": "Orientējošs periods, nevis precīzs datums."
+          },
+          {
+            "kind": "Dēstu izstādīšana",
+            "months": [
+              5
+            ],
+            "window": "Maija otrā puse",
+            "condition": "Izvērtē vietējos laikapstākļus.",
+            "datePrecision": "Orientējošs periods, nevis precīzs datums."
+          }
+        ],
+        "sourceIds": [
+          "garden-di-guide"
+        ],
+        "note": "Ilgs veģetācijas periods; gatavību vērtē pēc šķirnes.",
+        "harvestWindow": null,
+        "harvestWindowStatus": "Atkarīgs no šķirnes un faktiskās gatavības; vienots datums nav noteikts."
+      },
+      {
+        "id": "sipoli",
+        "name": "Sīpoli",
+        "actions": [
+          {
+            "kind": "Sēja laukā",
+            "months": [
+              4
+            ],
+            "window": "Aprīlis",
+            "condition": "No sēklas audzējamiem sīpoliem – apžuvusi, iesilusi augsne.",
+            "datePrecision": "Orientējošs periods, nevis precīzs datums."
+          },
+          {
+            "kind": "Ģimenes sīpolu stādīšana",
+            "months": [
+              5
+            ],
+            "window": "Maija pirmā dekāde",
+            "condition": "Stāda ar sīpoliem, nevis pārnes sējas termiņu.",
+            "datePrecision": "Orientējošs periods, nevis precīzs datums."
+          }
+        ],
+        "sourceIds": [
+          "garden-di-guide",
+          "garden-di-april"
+        ],
+        "note": "Atsevišķi jāparāda sēklas un stādāmie sīpoli.",
+        "harvestWindow": null,
+        "harvestWindowStatus": "Atkarīgs no šķirnes un faktiskās gatavības; vienots datums nav noteikts."
+      },
+      {
+        "id": "kiploki",
+        "name": "Ķiploki",
+        "actions": [
+          {
+            "kind": "Vasaras ķiploku stādīšana",
+            "months": [
+              3,
+              4,
+              5
+            ],
+            "window": "Pavasarī",
+            "condition": "Tiklīdz augsne gatava apstrādei.",
+            "datePrecision": "Orientējošs periods, nevis precīzs datums."
+          },
+          {
+            "kind": "Ziemas ķiploku stādīšana",
+            "months": [
+              10
+            ],
+            "window": "Oktobra pirmā un otrā dekāde",
+            "condition": "Izvērtē konkrētā rudens apstākļus.",
+            "datePrecision": "Orientējošs periods, nevis precīzs datums."
+          }
+        ],
+        "sourceIds": [
+          "garden-di-guide"
+        ],
+        "note": "Ziemas un vasaras ķiploki ir atšķirīgi plāni. Ziemas ķiploku novākšanai avots norāda jūlija otro un trešo dekādi.",
+        "harvestWindow": null,
+        "harvestWindowStatus": "Atkarīgs no šķirnes un faktiskās gatavības; vienots datums nav noteikts."
+      },
+      {
+        "id": "puravi",
+        "name": "Puravi",
+        "actions": [
+          {
+            "kind": "Dēstu izstādīšana",
+            "months": [
+              5
+            ],
+            "window": "Maija otrā un trešā dekāde",
+            "condition": "Izmanto apmēram 50–60 dienas audzētus dēstus.",
+            "datePrecision": "Orientējošs periods, nevis precīzs datums."
+          }
+        ],
+        "sourceIds": [
+          "garden-di-guide"
+        ],
+        "note": "Sējas intervālu iegūst atpakaļ no plānotās izstādīšanas; nepasniedz to kā atsevišķu oficiālu datumu.",
+        "harvestWindow": null,
+        "harvestWindowStatus": "Atkarīgs no šķirnes un faktiskās gatavības; vienots datums nav noteikts."
+      },
+      {
+        "id": "zirni",
+        "name": "Zirņi",
+        "actions": [
+          {
+            "kind": "Sēja laukā",
+            "months": [
+              4
+            ],
+            "window": "Aprīļa sākums",
+            "condition": "Augsne gatava sējai; svarīgs mitrums.",
+            "datePrecision": "Orientējošs periods, nevis precīzs datums."
+          }
+        ],
+        "sourceIds": [
+          "garden-di-guide",
+          "garden-di-april"
+        ],
+        "note": "Tautas paruna par gada simto dienu nav obligāts agronomisks datums.",
+        "harvestWindow": null,
+        "harvestWindowStatus": "Atkarīgs no šķirnes un faktiskās gatavības; vienots datums nav noteikts."
+      },
+      {
+        "id": "pupinas",
+        "name": "Dārza pupiņas",
+        "actions": [
+          {
+            "kind": "Sēja laukā",
+            "months": [
+              5
+            ],
+            "window": "Maija otrā un trešā dekāde",
+            "condition": "Augsne iesilusi līdz 10–12 °C; nepastāv salnu risks.",
+            "datePrecision": "Orientējošs periods, nevis precīzs datums."
+          }
+        ],
+        "sourceIds": [
+          "garden-di-guide"
+        ],
+        "note": "Nesajauc salnu jutīgās pupiņas ar aukstumizturīgākām dārza pupām.",
+        "harvestWindow": null,
+        "harvestWindowStatus": "Atkarīgs no šķirnes un faktiskās gatavības; vienots datums nav noteikts."
+      },
+      {
+        "id": "gurki",
+        "name": "Gurķi",
+        "actions": [
+          {
+            "kind": "Sēja laukā",
+            "months": [
+              5
+            ],
+            "window": "Maija otrā dekāde kā avota orientieris",
+            "condition": "Siltumprasīgs augs; vietējais salnu risks un augsnes siltums jāvērtē pirms sējas.",
+            "datePrecision": "Orientējošs periods, nevis precīzs datums."
+          }
+        ],
+        "sourceIds": [
+          "garden-di-guide",
+          "climate-2023"
+        ],
+        "note": "Vēlā un aukstā pavasarī sēju atliek; šis nav visai Latvijai drošs kalendāra solījums.",
+        "harvestWindow": null,
+        "harvestWindowStatus": "Atkarīgs no šķirnes un faktiskās gatavības; vienots datums nav noteikts."
+      },
+      {
+        "id": "salati",
+        "name": "Salāti",
+        "actions": [
+          {
+            "kind": "Sēja",
+            "months": [
+              4
+            ],
+            "window": "Aprīlis",
+            "condition": "Izvēlas agrīnai audzēšanai piemērotu šķirni.",
+            "datePrecision": "Orientējošs periods, nevis precīzs datums."
+          },
+          {
+            "kind": "Dēstu izstādīšana",
+            "months": [
+              4
+            ],
+            "window": "No aprīļa vidus",
+            "condition": "Vietējie apstākļi piemēroti; sargā no sala.",
+            "datePrecision": "Orientējošs periods, nevis precīzs datums."
+          }
+        ],
+        "sourceIds": [
+          "garden-di-april"
+        ],
+        "note": "Ražas nepārtrauktībai sēju var atkārtot; karstuma un šķirnes ietekme paliek būtiska.",
+        "harvestWindow": null,
+        "harvestWindowStatus": "Atkarīgs no šķirnes un faktiskās gatavības; vienots datums nav noteikts."
+      },
+      {
+        "id": "dilles",
+        "name": "Dilles",
+        "actions": [
+          {
+            "kind": "Sēja laukā",
+            "months": [
+              4
+            ],
+            "window": "Aprīļa pirmā dekāde",
+            "condition": "Apstrādāta augsne un vienmērīgs mitrums.",
+            "datePrecision": "Orientējošs periods, nevis precīzs datums."
+          }
+        ],
+        "sourceIds": [
+          "garden-di-guide"
+        ],
+        "note": "Atkārtotu sēju pielāgo izmantojumam un faktiskajiem apstākļiem.",
+        "harvestWindow": null,
+        "harvestWindowStatus": "Atkarīgs no šķirnes un faktiskās gatavības; vienots datums nav noteikts."
+      },
+      {
+        "id": "spinati",
+        "name": "Spināti",
+        "actions": [
+          {
+            "kind": "Sēja laukā",
+            "months": [
+              4
+            ],
+            "window": "Aprīlis",
+            "condition": "Augsne gatava sējai.",
+            "datePrecision": "Orientējošs periods, nevis precīzs datums."
+          }
+        ],
+        "sourceIds": [
+          "garden-di-april"
+        ],
+        "note": "Šis avots pamato pavasara, nevis automātiski visu vasaras mēnešu sēju.",
+        "harvestWindow": null,
+        "harvestWindowStatus": "Atkarīgs no šķirnes un faktiskās gatavības; vienots datums nav noteikts."
+      },
+      {
+        "id": "kartupeli",
+        "name": "Kartupeļi",
+        "actions": [
+          {
+            "kind": "Stādīšana",
+            "months": [
+              4,
+              5
+            ],
+            "window": "Aprīļa beigas–maijs",
+            "condition": "Apstrādei gatava, iesilusi augsne; jāvērtē sadīgušo augu salnu risks.",
+            "datePrecision": "Orientējošs periods, nevis precīzs datums."
+          }
+        ],
+        "sourceIds": [
+          "garden-di-guide",
+          "climate-may"
+        ],
+        "note": "Institūta agrīnais orientieris un LVĢMC fenoloģiskais vidējais atšķiras; izvēles noteicējs ir vietējie apstākļi, nevis vienots datums.",
+        "harvestWindow": null,
+        "harvestWindowStatus": "Atkarīgs no šķirnes un faktiskās gatavības; vienots datums nav noteikts."
+      },
+      {
+        "id": "kaposti",
+        "name": "Kāposti",
+        "actions": [
+          {
+            "kind": "Sēja dēstiem",
+            "months": [
+              4
+            ],
+            "window": "Aprīlis",
+            "condition": "Sēja neapkurinātā siltumnīcā, kad tajā ir piemēroti apstākļi.",
+            "datePrecision": "Orientējošs periods, nevis precīzs datums."
+          }
+        ],
+        "sourceIds": [
+          "garden-di-april"
+        ],
+        "note": "Galviņkāpostu šķirņu agrīnums un audzēšanas veids nosaka izstādīšanu; nepievieno nepārbaudītu universālu ražas grafiku.",
+        "harvestWindow": null,
+        "harvestWindowStatus": "Atkarīgs no šķirnes un faktiskās gatavības; vienots datums nav noteikts."
+      },
+      {
+        "id": "tomati",
+        "name": "Tomāti",
+        "actions": [
+          {
+            "kind": "Sēja dēstiem laukam",
+            "months": [
+              4,
+              5
+            ],
+            "window": "Apmēram 35–45 dienas pirms plānotās izstādīšanas",
+            "condition": "Sējas laiku aprēķina no paredzētās vietas un apstākļiem.",
+            "datePrecision": "Orientējošs periods, nevis precīzs datums."
+          },
+          {
+            "kind": "Dēstu izstādīšana laukā",
+            "months": [
+              6
+            ],
+            "window": "Jūnija sākums vai vidus",
+            "condition": "Vairs nedraud salnas; augsne vismaz 14–15 °C.",
+            "datePrecision": "Orientējošs periods, nevis precīzs datums."
+          }
+        ],
+        "sourceIds": [
+          "garden-vaad-tomato"
+        ],
+        "note": "Siltumnīcas un lauka grafiki ir atšķirīgi; apkure, šķirne un augsnes temperatūra maina laiku.",
+        "harvestWindow": null,
+        "harvestWindowStatus": "Atkarīgs no šķirnes un faktiskās gatavības; vienots datums nav noteikts."
+      }
+    ],
+    "regions": [
+      {
+        "id": "piekraste",
+        "label": "Piekraste",
+        "sourceIds": [
+          "climate-august",
+          "climate-spring-coast"
+        ],
+        "note": "Jūras tuvumā rudens naktis mēdz būt siltākas, bet pavasara attīstība var kavēties. Piekraste nav automātisks pamats sēt agrāk.",
+        "fixedDayOffset": null
+      },
+      {
+        "id": "iekszeme",
+        "label": "Iekšzeme",
+        "sourceIds": [
+          "climate-may",
+          "climate-2023"
+        ],
+        "note": "Vietās ar aukstāku mikroklimatu salnu risks jāvērtē atsevišķi; arī jūnija sākumā atsevišķos gados iespējamas salnas.",
+        "fixedDayOffset": null
+      }
+    ],
+    "climateGuard": "Klimata vidējie rādītāji nav konkrētās sezonas prognoze. Pirms jutīgu kultūru sējas vai izstādīšanas pārbaudi vietējo prognozi un augsni.",
+    "lunarClaims": "Mēness fāžu tabulu var parādīt kā atsevišķu astronomisku informāciju. Šie avoti nepamato apgalvojumu, ka konkrēta Mēness diena garantē labāku ražu.",
+    "monthlyTaskModel": "Filter verified action.months by selected month, retain condition/window labels, distinguish field/greenhouse/seedling actions. Do not generate precise auspicious days."
+  },
+  "clockChange": {
+    "sourceId": "dst-latvia",
+    "legalRuleSourceId": "dst-rule",
+    "rows": [
+      {
+        "year": 2026,
+        "startDate": "2026-03-29",
+        "startBefore": "03:00",
+        "startAfter": "04:00",
+        "endDate": "2026-10-25",
+        "endBefore": "04:00",
+        "endAfter": "03:00",
+        "timezone": "Europe/Riga",
+        "status": "Official 2026 announcement",
+        "sourceId": "dst-latvia"
+      },
+      {
+        "year": 2027,
+        "startDate": "2027-03-28",
+        "startBefore": "03:00",
+        "startAfter": "04:00",
+        "endDate": "2027-10-31",
+        "endBefore": "04:00",
+        "endAfter": "03:00",
+        "timezone": "Europe/Riga",
+        "status": "Derived from current legal rule; recheck for changes",
+        "sourceId": "dst-latvia"
+      },
+      {
+        "year": 2028,
+        "startDate": "2028-03-26",
+        "startBefore": "03:00",
+        "startAfter": "04:00",
+        "endDate": "2028-10-29",
+        "endBefore": "04:00",
+        "endAfter": "03:00",
+        "timezone": "Europe/Riga",
+        "status": "Derived from current legal rule; recheck for changes",
+        "sourceId": "dst-latvia"
+      },
+      {
+        "year": 2029,
+        "startDate": "2029-03-25",
+        "startBefore": "03:00",
+        "startAfter": "04:00",
+        "endDate": "2029-10-28",
+        "endBefore": "04:00",
+        "endAfter": "03:00",
+        "timezone": "Europe/Riga",
+        "status": "Derived from current legal rule; recheck for changes",
+        "sourceId": "dst-latvia"
+      },
+      {
+        "year": 2030,
+        "startDate": "2030-03-31",
+        "startBefore": "03:00",
+        "startAfter": "04:00",
+        "endDate": "2030-10-27",
+        "endBefore": "04:00",
+        "endAfter": "03:00",
+        "timezone": "Europe/Riga",
+        "status": "Derived from current legal rule; recheck for changes",
+        "sourceId": "dst-latvia"
+      }
+    ],
+    "copy": "Pavasarī pulksteni pagriež vienu stundu uz priekšu, rudenī — vienu stundu atpakaļ. Latvijā pāreja notiek marta un oktobra pēdējā svētdienā.",
+    "state": "Current rule still applies; future abolition is not adopted.",
+    "cityClockFact": {
+      "sourceId": "dst-rule",
+      "text": "Visās Latvijas pilsētās ir viena laika josla. Pilsētas izvēle maina saullēkta, saulrieta un Mēness lēkta un rieta laikus, nevis valsts pulksteņa laiku.",
+      "standardOffset": "UTC+02:00",
+      "summerOffset": "UTC+03:00",
+      "timezone": "Europe/Riga"
+    }
+  },
+  "gregorianCalendar": {
+    "sourceId": "leap-usno",
+    "leapRule": "year % 400 == 0 or (year % 4 == 0 and year % 100 != 0)",
+    "leapDays": 366,
+    "commonDays": 365,
+    "examples": [
+      {
+        "year": 2026,
+        "isLeap": false
+      },
+      {
+        "year": 2027,
+        "isLeap": false
+      },
+      {
+        "year": 2028,
+        "isLeap": true
+      },
+      {
+        "year": 2100,
+        "isLeap": false
+      },
+      {
+        "year": 2000,
+        "isLeap": true
+      }
+    ],
+    "dayOfYearFormula": "1 + civil-date ordinal difference from January 1 in the same Gregorian year",
+    "daysRemainingFormula": "daysInYear - dayOfYear (excludes selected day)",
+    "timezone": "Europe/Riga for default today; selected calendar date independent of viewer timezone",
+    "dstGuard": "Never divide local-midnight millisecond difference by 86400000 across DST. Use civil date arithmetic.",
+    "validation": "Reject invalid dates such as 2027-02-29; do not normalise them silently."
+  },
+  "workdays2026": {
+    "sourceIds": [
+      "holiday-law",
+      "workdays-2026"
+    ],
+    "transferPairs": [
+      {
+        "from": "2026-01-02",
+        "to": "2026-01-17"
+      },
+      {
+        "from": "2026-06-22",
+        "to": "2026-06-27"
+      }
+    ],
+    "mandatoryScope": "No valsts budžeta finansētas institūcijas ar piecu dienu darba nedēļu no pirmdienas līdz piektdienai.",
+    "otherEmployers": "Rīkojums pārējām pašvaldībām, komersantiem un organizācijām to iesaka; nepārvērst ieteikumu par universālu obligātu grafiku.",
+    "calculatorDefaults": "Show Mon–Fri standard mode; offer clearly labelled transferred-workday mode and custom schedule. Count inclusion of start/end explicitly."
+  },
+  "astronomy": {
+    "sourceIds": [
+      "usno-services",
+      "usno-api",
+      "usno-solar-local",
+      "usno-lunar-local",
+      "nasa-solar",
+      "nasa-lunar",
+      "nasa-perseids",
+      "nasa-sky-2026-08"
+    ],
+    "localCityDataStatus": "Sources and calculation requirements verified; no city-specific eclipse contact result has been computed in this research.",
+    "requiredInputs": [
+      "Verified Latvian city latitude and longitude",
+      "Observer elevation or documented sea-level assumption",
+      "Event contact instants in correctly identified timescale",
+      "Europe/Riga IANA timezone on event date",
+      "Sun/Moon altitude and horizon at each contact",
+      "Partial/total/annular/penumbral type and visibility for selected location"
+    ],
+    "rules": [
+      "NASA global TD maximum is not UTC or a city local maximum. Apply a documented time-scale conversion before local formatting.",
+      "Global total solar eclipse does not mean total eclipse in Latvia. Compute local contacts and obscuration.",
+      "For lunar eclipse local visibility combine phase/contact instants with local Moon rise/set and altitude.",
+      "If an event phase is below horizon label it unavailable; do not present every global phase as visible.",
+      "USNO dst=true follows U.S. rules. Use dst=false plus the correct offset or UTC and IANA Europe/Riga conversion for Latvia.",
+      "USNO API input coords are latitude,longitude; GeoJSON coordinates are longitude,latitude.",
+      "NASA/USNO catalogue or prediction does not predict clouds or guarantee observation.",
+      "Explicitly identify the selected city; preserve no-rise/no-set/null results instead of fabricating times."
+    ],
+    "solarGlobalDateCandidates": [
+      {
+        "date": "2026-02-17",
+        "globalType": "Annular",
+        "sourceId": "nasa-solar",
+        "latviaVisibility": "Not calculated here",
+        "dateBasis": "NASA catalogue date of the TD greatest-eclipse instant, not a converted Latvian civil date."
+      },
+      {
+        "date": "2026-08-12",
+        "globalType": "Total",
+        "sourceId": "nasa-solar",
+        "latviaVisibility": "Not calculated here",
+        "dateBasis": "NASA catalogue date of the TD greatest-eclipse instant, not a converted Latvian civil date."
+      },
+      {
+        "date": "2027-02-06",
+        "globalType": "Annular",
+        "sourceId": "nasa-solar",
+        "latviaVisibility": "Not calculated here",
+        "dateBasis": "NASA catalogue date of the TD greatest-eclipse instant, not a converted Latvian civil date."
+      },
+      {
+        "date": "2027-08-02",
+        "globalType": "Total",
+        "sourceId": "nasa-solar",
+        "latviaVisibility": "Not calculated here",
+        "dateBasis": "NASA catalogue date of the TD greatest-eclipse instant, not a converted Latvian civil date."
+      },
+      {
+        "date": "2028-01-26",
+        "globalType": "Annular",
+        "sourceId": "nasa-solar",
+        "latviaVisibility": "Not calculated here",
+        "dateBasis": "NASA catalogue date of the TD greatest-eclipse instant, not a converted Latvian civil date."
+      },
+      {
+        "date": "2028-07-22",
+        "globalType": "Total",
+        "sourceId": "nasa-solar",
+        "latviaVisibility": "Not calculated here",
+        "dateBasis": "NASA catalogue date of the TD greatest-eclipse instant, not a converted Latvian civil date."
+      },
+      {
+        "date": "2029-01-14",
+        "globalType": "Partial",
+        "sourceId": "nasa-solar",
+        "latviaVisibility": "Not calculated here",
+        "dateBasis": "NASA catalogue date of the TD greatest-eclipse instant, not a converted Latvian civil date."
+      },
+      {
+        "date": "2029-06-12",
+        "globalType": "Partial",
+        "sourceId": "nasa-solar",
+        "latviaVisibility": "Not calculated here",
+        "dateBasis": "NASA catalogue date of the TD greatest-eclipse instant, not a converted Latvian civil date."
+      },
+      {
+        "date": "2029-07-11",
+        "globalType": "Partial",
+        "sourceId": "nasa-solar",
+        "latviaVisibility": "Not calculated here",
+        "dateBasis": "NASA catalogue date of the TD greatest-eclipse instant, not a converted Latvian civil date."
+      },
+      {
+        "date": "2029-12-05",
+        "globalType": "Partial",
+        "sourceId": "nasa-solar",
+        "latviaVisibility": "Not calculated here",
+        "dateBasis": "NASA catalogue date of the TD greatest-eclipse instant, not a converted Latvian civil date."
+      },
+      {
+        "date": "2030-06-01",
+        "globalType": "Annular",
+        "sourceId": "nasa-solar",
+        "latviaVisibility": "Not calculated here",
+        "dateBasis": "NASA catalogue date of the TD greatest-eclipse instant, not a converted Latvian civil date."
+      },
+      {
+        "date": "2030-11-25",
+        "globalType": "Total",
+        "sourceId": "nasa-solar",
+        "latviaVisibility": "Not calculated here",
+        "dateBasis": "NASA catalogue date of the TD greatest-eclipse instant, not a converted Latvian civil date."
+      }
+    ],
+    "lunarGlobalDateCandidates": [
+      {
+        "date": "2026-03-03",
+        "globalType": "Total",
+        "sourceId": "nasa-lunar",
+        "latviaVisibility": "Not calculated here",
+        "dateBasis": "NASA catalogue date of the TD greatest-eclipse instant, not a converted Latvian civil date."
+      },
+      {
+        "date": "2026-08-28",
+        "globalType": "Partial",
+        "sourceId": "nasa-lunar",
+        "latviaVisibility": "Not calculated here",
+        "dateBasis": "NASA catalogue date of the TD greatest-eclipse instant, not a converted Latvian civil date."
+      },
+      {
+        "date": "2027-02-20",
+        "globalType": "Penumbral",
+        "sourceId": "nasa-lunar",
+        "latviaVisibility": "Not calculated here",
+        "dateBasis": "NASA catalogue date of the TD greatest-eclipse instant, not a converted Latvian civil date."
+      },
+      {
+        "date": "2027-07-18",
+        "globalType": "Penumbral",
+        "sourceId": "nasa-lunar",
+        "latviaVisibility": "Not calculated here",
+        "dateBasis": "NASA catalogue date of the TD greatest-eclipse instant, not a converted Latvian civil date."
+      },
+      {
+        "date": "2027-08-17",
+        "globalType": "Penumbral",
+        "sourceId": "nasa-lunar",
+        "latviaVisibility": "Not calculated here",
+        "dateBasis": "NASA catalogue date of the TD greatest-eclipse instant, not a converted Latvian civil date."
+      },
+      {
+        "date": "2028-01-12",
+        "globalType": "Partial",
+        "sourceId": "nasa-lunar",
+        "latviaVisibility": "Not calculated here",
+        "dateBasis": "NASA catalogue date of the TD greatest-eclipse instant, not a converted Latvian civil date."
+      },
+      {
+        "date": "2028-07-06",
+        "globalType": "Partial",
+        "sourceId": "nasa-lunar",
+        "latviaVisibility": "Not calculated here",
+        "dateBasis": "NASA catalogue date of the TD greatest-eclipse instant, not a converted Latvian civil date."
+      },
+      {
+        "date": "2028-12-31",
+        "globalType": "Total",
+        "sourceId": "nasa-lunar",
+        "latviaVisibility": "Not calculated here",
+        "dateBasis": "NASA catalogue date of the TD greatest-eclipse instant, not a converted Latvian civil date."
+      },
+      {
+        "date": "2029-06-26",
+        "globalType": "Total",
+        "sourceId": "nasa-lunar",
+        "latviaVisibility": "Not calculated here",
+        "dateBasis": "NASA catalogue date of the TD greatest-eclipse instant, not a converted Latvian civil date."
+      },
+      {
+        "date": "2029-12-20",
+        "globalType": "Total",
+        "sourceId": "nasa-lunar",
+        "latviaVisibility": "Not calculated here",
+        "dateBasis": "NASA catalogue date of the TD greatest-eclipse instant, not a converted Latvian civil date."
+      },
+      {
+        "date": "2030-06-15",
+        "globalType": "Partial",
+        "sourceId": "nasa-lunar",
+        "latviaVisibility": "Not calculated here",
+        "dateBasis": "NASA catalogue date of the TD greatest-eclipse instant, not a converted Latvian civil date."
+      },
+      {
+        "date": "2030-12-09",
+        "globalType": "Penumbral",
+        "sourceId": "nasa-lunar",
+        "latviaVisibility": "Not calculated here",
+        "dateBasis": "NASA catalogue date of the TD greatest-eclipse instant, not a converted Latvian civil date."
+      }
+    ],
+    "perseids": {
+      "sourceIds": [
+        "nasa-perseids",
+        "nasa-sky-2026-08"
+      ],
+      "parentBody": "109P/Swift–Tuttle",
+      "radiant": "Perseja zvaigznājs",
+      "typicalSeason": "Augustā, ar maksimumu parasti mēneša vidū.",
+      "verifiedAnnualViewingNights": [
+        {
+          "year": 2026,
+          "startDate": "2026-08-12",
+          "endDate": "2026-08-13",
+          "precision": "NASA annual observing guidance, not a computed Latvian city peak instant."
+        }
+      ],
+      "unverifiedFuturePeakInstants": null,
+      "futureGuard": "Do not repeat the 2026 peak as a confirmed 2027–2030 exact date/hour. Attach a year-specific primary prediction, or label a clearly documented model estimate.",
+      "visibleRatePerHour": null,
+      "rateReason": "Rates depend on radiant height, sky darkness, Moon, weather and annual activity; ZHR is not a visitor guarantee.",
+      "intro": "Perseīdas ir meteoru plūsma, ko saista ar komētu 109P/Swift–Tuttle. Latvijā tās vēro augustā, izvēloties tumšu vietu un skaidru nakti; redzamību ietekmē arī Mēness gaisma."
+    },
+    "apiRangeCaveat": "USNO local solar documentation says 2017–2024, live form 2017–2026; do not assume 2027 support without a successful validated result. USNO-linked UKHO portal advertises 1501–2100 eclipse circumstances.",
+    "localDateGuard": "For maxima near UTC midnight, the Latvian calendar day may be the next day. In particular, do not label the NASA 2027-02-20 lunar TD catalogue date as the local Riga maximum date without conversion."
+  }
+}

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 260" role="img" aria-labelledby="title desc">
+  <title id="title">Ģimenes kalendārs</title>
+  <desc id="desc">Oriģināla telpiska ilustrācija tēmai “Ģimenes kalendārs”.</desc>
+  <defs>
+    <linearGradient id="primary" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#bb8069"/><stop offset=".55" stop-color="#bb8069"/><stop offset="1" stop-color="#79515c"/></linearGradient>
+    <linearGradient id="side" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#79515c"/><stop offset="1" stop-color="#242430"/></linearGradient>
+    <linearGradient id="accent" x1=".1" y1="0" x2=".9" y2="1"><stop stop-color="#fff9e8"/><stop offset=".48" stop-color="#7c9a84"/><stop offset="1" stop-color="#79515c"/></linearGradient>
+    <linearGradient id="paper" x1="0" y1="0" x2=".9" y2="1"><stop stop-color="#fffefb"/><stop offset=".72" stop-color="#fff3e5"/><stop offset="1" stop-color="#dfd1c2"/></linearGradient>
+    <radialGradient id="glow"><stop stop-color="#7c9a84" stop-opacity=".34"/><stop offset="1" stop-color="#7c9a84" stop-opacity="0"/></radialGradient>
+    <filter id="shadow" x="-25%" y="-25%" width="150%" height="170%"><feDropShadow dx="0" dy="11" stdDeviation="8" flood-color="#29212e" flood-opacity=".26"/></filter>
+  </defs>
+  <circle cx="160" cy="127" r="116" fill="url(#glow)"/>
+  <ellipse cx="160" cy="132" rx="112" ry="63" transform="rotate(-16 160 132)" fill="none" stroke="#bb8069" stroke-opacity=".17" stroke-width="2"/>
+  <circle cx="249" cy="78" r="5" fill="#7c9a84"/><circle cx="76" cy="171" r="3" fill="#bb8069" opacity=".7"/>
+  <g filter="url(#shadow)"><path d="M54 207q3-52 53-58 48 7 51 58Z" fill="url(#primary)"/><circle cx="107" cy="111" r="31" fill="url(#accent)"/><path d="M144 209q4-69 52-75 51 6 56 75Z" fill="url(#side)"/><circle cx="196" cy="118" r="34" fill="#e6b27c"/><path d="M132 205q1-44 28-53 27 9 30 53Z" fill="url(#accent)"/><circle cx="160" cy="132" r="23" fill="#f1c18b"/><path d="M95 83q12-21 30-11 12 7 15 22-23-10-45 1m83-11q15-19 34-8 13 8 16 25-24-13-49 0" fill="#51434b"/></g>
+</svg>

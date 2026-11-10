@@ -1,0 +1,411 @@
+{
+  "checked": "2026-11-10",
+  "articles": 48,
+  "preservedSlugs": 28,
+  "newArticles": 20,
+  "ordinaryYearPublicHolidayDateOccurrences": 15,
+  "ordinaryYearCommemorationAndObservanceDateOccurrences": 33,
+  "conditionalFestivalDays": 1,
+  "historicalNonRecurringNotes": 2,
+  "uniquePhotos": 42,
+  "localPhotoFiles": 84,
+  "photoBytes": 8422722,
+  "thematicPhotos": 25,
+  "occasionArchivePhotos": 17,
+  "coverage": [
+    {
+      "title": "Jaungada diena",
+      "sampleDate": "2027-01-01",
+      "type": "holiday",
+      "dayOff": true,
+      "articleSlug": "jaungada-diena",
+      "lawSection": 1
+    },
+    {
+      "title": "1991. gada barikāžu aizstāvju atceres diena",
+      "sampleDate": "2027-01-20",
+      "type": "commemoration",
+      "dayOff": false,
+      "articleSlug": "barikazu-aizstavju-atceres-diena",
+      "lawSection": 2
+    },
+    {
+      "title": "Latvijas Republikas starptautiskās (de jure) atzīšanas diena",
+      "sampleDate": "2027-01-26",
+      "type": "observance",
+      "dayOff": false,
+      "articleSlug": "latvijas-de-jure-atzisanas-diena",
+      "lawSection": 2
+    },
+    {
+      "title": "Starptautiskā nevalstisko organizāciju diena",
+      "sampleDate": "2027-02-27",
+      "type": "observance",
+      "dayOff": false,
+      "articleSlug": "starptautiska-nevalstisko-organizaciju-diena",
+      "lawSection": 2
+    },
+    {
+      "title": "Nacionālo partizānu bruņotās pretošanās atceres diena",
+      "sampleDate": "2027-03-02",
+      "type": "commemoration",
+      "dayOff": false,
+      "articleSlug": "nacionalo-partizanu-pretosanas-atceres-diena",
+      "lawSection": 2
+    },
+    {
+      "title": "Starptautiskā sieviešu diena",
+      "sampleDate": "2027-03-08",
+      "type": "observance",
+      "dayOff": false,
+      "articleSlug": "starptautiska-sieviesu-diena",
+      "lawSection": 2
+    },
+    {
+      "title": "Nacionālās pretošanās kustības piemiņas diena",
+      "sampleDate": "2027-03-17",
+      "type": "commemoration",
+      "dayOff": false,
+      "articleSlug": "nacionalas-pretosanas-kustibas-pieminas-diena",
+      "lawSection": 2
+    },
+    {
+      "title": "Komunistiskā genocīda upuru piemiņas diena",
+      "sampleDate": "2027-03-25",
+      "type": "commemoration",
+      "dayOff": false,
+      "articleSlug": "komunistiska-genocida-upuru-pieminas-diena",
+      "lawSection": 2
+    },
+    {
+      "title": "Lielā Piektdiena",
+      "sampleDate": "2027-03-26",
+      "type": "holiday",
+      "dayOff": true,
+      "articleSlug": "liela-piektdiena",
+      "lawSection": 1
+    },
+    {
+      "title": "Pirmās Lieldienas",
+      "sampleDate": "2027-03-28",
+      "type": "holiday",
+      "dayOff": true,
+      "articleSlug": "lieldienas",
+      "lawSection": 1
+    },
+    {
+      "title": "Otrās Lieldienas",
+      "sampleDate": "2027-03-29",
+      "type": "holiday",
+      "dayOff": true,
+      "articleSlug": "lieldienas",
+      "lawSection": 1
+    },
+    {
+      "title": "Latgales kongresa diena",
+      "sampleDate": "2027-04-27",
+      "type": "observance",
+      "dayOff": false,
+      "articleSlug": "latgales-kongresa-diena",
+      "lawSection": 2
+    },
+    {
+      "title": "Darba svētki; Latvijas Republikas Satversmes sapulces sasaukšanas diena",
+      "sampleDate": "2027-05-01",
+      "type": "holiday",
+      "dayOff": true,
+      "articleSlug": "darba-svetki",
+      "lawSection": 1
+    },
+    {
+      "title": "Latvijas Republikas Neatkarības atjaunošanas diena",
+      "sampleDate": "2027-05-04",
+      "type": "holiday",
+      "dayOff": true,
+      "articleSlug": "neatkaribas-atjaunosanas-diena",
+      "lawSection": 1
+    },
+    {
+      "title": "Nacisma sagrāves diena un Otrā pasaules kara upuru piemiņas diena",
+      "sampleDate": "2027-05-08",
+      "type": "commemoration",
+      "dayOff": false,
+      "articleSlug": "nacisma-sagraves-un-otra-pasaules-kara-upuru-pieminas-diena",
+      "lawSection": 2
+    },
+    {
+      "title": "Mātes diena",
+      "sampleDate": "2027-05-09",
+      "type": "holiday",
+      "dayOff": true,
+      "articleSlug": "mates-diena",
+      "lawSection": 1
+    },
+    {
+      "title": "Eiropas diena",
+      "sampleDate": "2027-05-09",
+      "type": "observance",
+      "dayOff": false,
+      "articleSlug": "eiropas-diena",
+      "lawSection": 2
+    },
+    {
+      "title": "Starptautiskā ģimenes diena",
+      "sampleDate": "2027-05-15",
+      "type": "observance",
+      "dayOff": false,
+      "articleSlug": "starptautiska-gimenes-diena",
+      "lawSection": 2
+    },
+    {
+      "title": "Vasarsvētki",
+      "sampleDate": "2027-05-16",
+      "type": "holiday",
+      "dayOff": true,
+      "articleSlug": "vasarsvetki",
+      "lawSection": 1
+    },
+    {
+      "title": "Ugunsdzēsēju un glābēju diena",
+      "sampleDate": "2027-05-17",
+      "type": "observance",
+      "dayOff": false,
+      "articleSlug": "ugunsdzeseju-un-glabeju-diena",
+      "lawSection": 2
+    },
+    {
+      "title": "Starptautiskā bērnu aizsardzības diena",
+      "sampleDate": "2027-06-01",
+      "type": "observance",
+      "dayOff": false,
+      "articleSlug": "bernu-aizsardzibas-diena",
+      "lawSection": 2
+    },
+    {
+      "title": "Komunistiskā genocīda upuru piemiņas diena",
+      "sampleDate": "2027-06-14",
+      "type": "commemoration",
+      "dayOff": false,
+      "articleSlug": "komunistiska-genocida-upuru-pieminas-diena",
+      "lawSection": 2
+    },
+    {
+      "title": "Latvijas Republikas okupācijas diena",
+      "sampleDate": "2027-06-17",
+      "type": "commemoration",
+      "dayOff": false,
+      "articleSlug": "latvijas-republikas-okupacijas-diena",
+      "lawSection": 2
+    },
+    {
+      "title": "Medicīnas darbinieku diena",
+      "sampleDate": "2027-06-20",
+      "type": "observance",
+      "dayOff": false,
+      "articleSlug": "medicinas-darbinieku-diena",
+      "lawSection": 2
+    },
+    {
+      "title": "Varoņu piemiņas diena (Cēsu kaujas atceres diena)",
+      "sampleDate": "2027-06-22",
+      "type": "commemoration",
+      "dayOff": false,
+      "articleSlug": "varonu-pieminas-diena",
+      "lawSection": 2
+    },
+    {
+      "title": "Līgo diena",
+      "sampleDate": "2027-06-23",
+      "type": "holiday",
+      "dayOff": true,
+      "articleSlug": "ligo-diena",
+      "lawSection": 1
+    },
+    {
+      "title": "Jāņu diena",
+      "sampleDate": "2027-06-24",
+      "type": "holiday",
+      "dayOff": true,
+      "articleSlug": "janu-diena",
+      "lawSection": 1
+    },
+    {
+      "title": "Ebreju tautas genocīda upuru piemiņas diena",
+      "sampleDate": "2027-07-04",
+      "type": "commemoration",
+      "dayOff": false,
+      "articleSlug": "ebreju-tautas-genocida-upuru-pieminas-diena",
+      "lawSection": 2
+    },
+    {
+      "title": "Jūras svētku diena",
+      "sampleDate": "2027-07-10",
+      "type": "observance",
+      "dayOff": false,
+      "articleSlug": "juras-svetku-diena",
+      "lawSection": 2
+    },
+    {
+      "title": "Latvijas brīvības cīnītāju piemiņas diena",
+      "sampleDate": "2027-08-11",
+      "type": "commemoration",
+      "dayOff": false,
+      "articleSlug": "latvijas-brivibas-cinitaju-pieminas-diena",
+      "lawSection": 2
+    },
+    {
+      "title": "Konstitucionālā likuma “Par Latvijas Republikas valstisko statusu” pieņemšanas diena",
+      "sampleDate": "2027-08-21",
+      "type": "observance",
+      "dayOff": false,
+      "articleSlug": "konstitucionala-likuma-pienemsanas-diena",
+      "lawSection": 2
+    },
+    {
+      "title": "Staļinisma un nacisma upuru atceres diena",
+      "sampleDate": "2027-08-23",
+      "type": "commemoration",
+      "dayOff": false,
+      "articleSlug": "stalinisma-un-nacisma-upuru-atceres-diena",
+      "lawSection": 2
+    },
+    {
+      "title": "Zinību diena",
+      "sampleDate": "2027-09-01",
+      "type": "observance",
+      "dayOff": false,
+      "articleSlug": "zinibu-diena",
+      "lawSection": 2
+    },
+    {
+      "title": "Tēva diena",
+      "sampleDate": "2027-09-12",
+      "type": "observance",
+      "dayOff": false,
+      "articleSlug": "tevu-diena",
+      "lawSection": 2
+    },
+    {
+      "title": "Baltu vienības diena",
+      "sampleDate": "2027-09-22",
+      "type": "observance",
+      "dayOff": false,
+      "articleSlug": "baltu-vienibas-diena",
+      "lawSection": 2
+    },
+    {
+      "title": "Starptautiskā senioru diena",
+      "sampleDate": "2027-10-01",
+      "type": "observance",
+      "dayOff": false,
+      "articleSlug": "starptautiska-senioru-diena",
+      "lawSection": 2
+    },
+    {
+      "title": "Skolotāju diena",
+      "sampleDate": "2027-10-05",
+      "type": "observance",
+      "dayOff": false,
+      "articleSlug": "skolotaju-diena",
+      "lawSection": 2
+    },
+    {
+      "title": "Valsts valodas diena",
+      "sampleDate": "2027-10-15",
+      "type": "observance",
+      "dayOff": false,
+      "articleSlug": "valsts-valodas-diena",
+      "lawSection": 2
+    },
+    {
+      "title": "Robežsargu diena",
+      "sampleDate": "2027-11-07",
+      "type": "observance",
+      "dayOff": false,
+      "articleSlug": "robezsargu-diena",
+      "lawSection": 2
+    },
+    {
+      "title": "Lāčplēša diena",
+      "sampleDate": "2027-11-11",
+      "type": "commemoration",
+      "dayOff": false,
+      "articleSlug": "lacplesa-diena",
+      "lawSection": 2
+    },
+    {
+      "title": "Latvijas Republikas Proklamēšanas diena",
+      "sampleDate": "2027-11-18",
+      "type": "holiday",
+      "dayOff": true,
+      "articleSlug": "latvijas-republikas-proklamesanas-diena",
+      "lawSection": 1
+    },
+    {
+      "title": "2013. gada 21. novembra traģēdijas atceres diena",
+      "sampleDate": "2027-11-21",
+      "type": "commemoration",
+      "dayOff": false,
+      "articleSlug": "zolitudes-tragedijas-atceres-diena",
+      "lawSection": 2
+    },
+    {
+      "title": "Pret latviešu tautu vērstā totalitārā komunistiskā režīma genocīda upuru piemiņas diena",
+      "sampleDate": "2027-12-05",
+      "type": "commemoration",
+      "dayOff": false,
+      "articleSlug": "totalitara-komunistiska-rezima-genocida-upuru-pieminas-diena",
+      "lawSection": 2
+    },
+    {
+      "title": "Policijas darbinieku diena",
+      "sampleDate": "2027-12-05",
+      "type": "observance",
+      "dayOff": false,
+      "articleSlug": "policijas-darbinieku-diena",
+      "lawSection": 2
+    },
+    {
+      "title": "Ziemassvētku vakars",
+      "sampleDate": "2027-12-24",
+      "type": "holiday",
+      "dayOff": true,
+      "articleSlug": "ziemassvetki",
+      "lawSection": 1
+    },
+    {
+      "title": "Pirmie Ziemassvētki",
+      "sampleDate": "2027-12-25",
+      "type": "holiday",
+      "dayOff": true,
+      "articleSlug": "ziemassvetki",
+      "lawSection": 1
+    },
+    {
+      "title": "Otrie Ziemassvētki",
+      "sampleDate": "2027-12-26",
+      "type": "holiday",
+      "dayOff": true,
+      "articleSlug": "ziemassvetki",
+      "lawSection": 1
+    },
+    {
+      "title": "Vecgada diena",
+      "sampleDate": "2027-12-31",
+      "type": "holiday",
+      "dayOff": true,
+      "articleSlug": "vecgada-diena",
+      "lawSection": 1
+    },
+    {
+      "title": "Vispārējo latviešu Dziesmu un deju svētku noslēguma diena",
+      "sampleDate": "2028-07-09",
+      "type": "holiday",
+      "dayOff": true,
+      "articleSlug": "dziesmu-un-deju-svetki",
+      "lawSection": 1,
+      "status": "conditional; confirmed 2028 period only"
+    }
+  ],
+  "errors": []
+}

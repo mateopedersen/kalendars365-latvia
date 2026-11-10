@@ -1,4 +1,25 @@
-# Executed test results
+# Current Latvia release checks — 2026-11-10
+
+These results cover the current local source revision after the photo-license catalog and page-heading refinement. Build, route audit, and the existing test suite passed. Public HTTPS behavior is recorded separately after deployment, not inferred from the local server.
+
+| Check | Result | Scope |
+|---|---|---|
+| Jekyll generation and static route audit | PASS, 0 audit errors | 998 route records; 943 indexable, 55 noindex; 1001 HTML files, 2007 total files, 364,270,458 bytes. |
+| Reference URL map | PASS | 391 reference paths; 390 direct local destinations and 1 redirect; no missing destination. |
+| Latvia city/photos | PASS | 82 city records, 164 WebP photo files checksum-verified, 82 solar routes. |
+| Photo sources and rights catalog | PASS | Rendered page contains all 82 city records, 42 unique occasion photos with original-source links, and 11 state-university cards: 9 licensed photos and 2 explicit rights-pending placeholders. University directory anchor resolves. One imported author-field licensing blurb was removed from the Easter photo credit. |
+| JavaScript calendar core | PASS: 7270 checks | 1461 dates, 48 months, 208 ISO weeks, 248 Moon phase entries, Riga timezone. |
+| Ruby calendar core | PASS: 8 tests, 3156 assertions | Holiday classifications, workday rules, date boundaries, and yearly calculations. |
+| Latvian date formatting | PASS: 240 samples / 480 comparisons | ICU/CLDR date and weekday formatting; this is automated locale comparison, not native-speaker review. |
+| Frontend utilities | PASS: 50 checks | ICS, event/date behavior, labeling, escaping, and utility edge cases. |
+| Work/leave planner | PASS: 2551 assertions | Multi-year and interval edge cases, two workweek patterns, six leave budgets. |
+| Print rendering | PASS: 9360 scenes | Font-bound and layout checks across supported print combinations. |
+| Solar/lunar calculations | PASS | Riga DST/IANA behavior, USNO solar fixtures, 82 Latvia city coordinates, leap-month case; a separate assertion covers the corrected degrees conversion. |
+| Daily horoscope snapshot | PASS: 12 dated signs for 2026-11-10 | `Europe/Riga`, required daily sections, current date; public API must still be checked after deployment. |
+
+The local browser review covered the homepage, 12-sign guide, gardening pages, cultural pages, sunrise/sunset simulation, lunar month layout, and the updated photo-license page. Its page-heading layout and photo/license attribution issue were corrected. A clean automated audit does not establish that every possible browser/device state is bug-free.
+
+## Historical baseline — 2026-10-22
 
 Checked on 2026-10-22. These are executed local checks, not claims of complete browser, language, accessibility or production certification. Final suite and build results were confirmed by the root task after integrating the agents' changes.
 

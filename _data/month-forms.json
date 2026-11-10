@@ -1,0 +1,88 @@
+{
+  "months": [
+    {
+      "number": 1,
+      "slug": "janvaris",
+      "nominative": "janvāris",
+      "genitive": "janvāra",
+      "locative": "janvārī"
+    },
+    {
+      "number": 2,
+      "slug": "februaris",
+      "nominative": "februāris",
+      "genitive": "februāra",
+      "locative": "februārī"
+    },
+    {
+      "number": 3,
+      "slug": "marts",
+      "nominative": "marts",
+      "genitive": "marta",
+      "locative": "martā"
+    },
+    {
+      "number": 4,
+      "slug": "aprilis",
+      "nominative": "aprīlis",
+      "genitive": "aprīļa",
+      "locative": "aprīlī"
+    },
+    {
+      "number": 5,
+      "slug": "maijs",
+      "nominative": "maijs",
+      "genitive": "maija",
+      "locative": "maijā"
+    },
+    {
+      "number": 6,
+      "slug": "junijs",
+      "nominative": "jūnijs",
+      "genitive": "jūnija",
+      "locative": "jūnijā"
+    },
+    {
+      "number": 7,
+      "slug": "julijs",
+      "nominative": "jūlijs",
+      "genitive": "jūlija",
+      "locative": "jūlijā"
+    },
+    {
+      "number": 8,
+      "slug": "augusts",
+      "nominative": "augusts",
+      "genitive": "augusta",
+      "locative": "augustā"
+    },
+    {
+      "number": 9,
+      "slug": "septembris",
+      "nominative": "septembris",
+      "genitive": "septembra",
+      "locative": "septembrī"
+    },
+    {
+      "number": 10,
+      "slug": "oktobris",
+      "nominative": "oktobris",
+      "genitive": "oktobra",
+      "locative": "oktobrī"
+    },
+    {
+      "number": 11,
+      "slug": "novembris",
+      "nominative": "novembris",
+      "genitive": "novembra",
+      "locative": "novembrī"
+    },
+    {
+      "number": 12,
+      "slug": "decembris",
+      "nominative": "decembris",
+      "genitive": "decembra",
+      "locative": "decembrī"
+    }
+  ]
+}

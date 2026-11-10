@@ -1,0 +1,3017 @@
+{
+  "schemaVersion": 1,
+  "locale": "lv-LV",
+  "country": "Latvija",
+  "sources": [
+    {
+      "id": "garden-di-guide",
+      "title": "Vēsturiskais un mūsdienu dārzs. Rokasgrāmata tūrisma uzņēmējam",
+      "url": "https://www.darzkopibasinstituts.lv/sites/dobele/files/files/articles/RokasgramataDarzi2018_lv.pdf",
+      "publisherScope": "Dārzkopības institūts",
+      "publishedAt": "2018",
+      "checkedAt": "2026-11-10",
+      "verification": "Official source read via web search/open",
+      "notes": "Pages 20–22 contain seasonal crop guidance. Approximate windows, not a weather forecast. Older professional nutrient/pesticide recommendations are not imported."
+    },
+    {
+      "id": "garden-di-april",
+      "title": "Stāstam par aprīlī darāmajiem darbiem un dārzeņu sēšanu",
+      "url": "https://www.darzkopibasinstituts.lv/lv/raksts/2020-04-06/stastam-par-aprili-daramajiem-darbiem-un-darzenu-sesanu",
+      "publisherScope": "Dārzkopības institūts",
+      "publishedAt": "2020-04-06",
+      "checkedAt": "2026-11-10",
+      "verification": "Official source read via web search/open",
+      "notes": "Researcher guidance ties field sowing to soil warmth/dryness; crop-specific frost/temperature thresholds."
+    },
+    {
+      "id": "garden-vaad-tomato",
+      "title": "Latvijā audzējamu kultūraugu audzēšanas vadlīnijas: tomāti un paprika",
+      "url": "https://integretaaudzesana.vaad.gov.lv/lv/media/888/download?attachment=",
+      "publisherScope": "Zemkopības ministrija / Valsts augu aizsardzības dienests",
+      "publishedAt": "2015-11-12",
+      "checkedAt": "2026-11-10",
+      "verification": "Official source read via web search/open",
+      "notes": "Order167 appendix14; pp13–15 seedling/field timing. Use agronomic climate facts, not old pesticide lists."
+    },
+    {
+      "id": "climate-may",
+      "title": "Maija klimatiskais raksturojums",
+      "url": "https://klimats.meteo.lv/klimats_latvija/menesu_klimatiskais_raksturojums/maijs/",
+      "publisherScope": "Latvijas Vides, ģeoloģijas un meteoroloģijas centrs",
+      "publishedAt": null,
+      "checkedAt": "2026-11-10",
+      "verification": "Official source read via web search/open",
+      "notes": "Typical phenology and frost averages, not a safe last-frost date for every garden."
+    },
+    {
+      "id": "climate-august",
+      "title": "Augusta klimatiskais raksturojums",
+      "url": "https://klimats.meteo.lv/klimats_latvija/menesu_klimatiskais_raksturojums/augusts/",
+      "publisherScope": "LVĢMC",
+      "publishedAt": null,
+      "checkedAt": "2026-11-10",
+      "verification": "Official source read via web search/open",
+      "notes": "West coast has warmer late-summer nights; early autumn frost can occur inland in some years."
+    },
+    {
+      "id": "climate-spring-coast",
+      "title": "Fenoloģiskais apskats: ievas 2023",
+      "url": "https://klimats.meteo.lv/operativais_klimats/fenologiskie_apskati/2023/ievas/",
+      "publisherScope": "LVĢMC",
+      "publishedAt": "2023",
+      "checkedAt": "2026-11-10",
+      "verification": "Official source read via web search/open",
+      "notes": "Kolka spring phenology later than country mean; do not use a universal earlier-sowing coastal offset."
+    },
+    {
+      "id": "climate-2023",
+      "title": "Fenoloģiskais apskats 2023",
+      "url": "https://klimats.meteo.lv/operativais_klimats/fenologiskie_apskati/2023/gads/",
+      "publisherScope": "LVĢMC",
+      "publishedAt": "2023",
+      "checkedAt": "2026-11-10",
+      "verification": "Official source read via web search/open",
+      "notes": "Late frost in early June demonstrates annual/local risk; historical evidence, not a current forecast."
+    },
+    {
+      "id": "vaad-umbels",
+      "title": "Čemurziežu dzimtas dārzeņi un garšaugi: audzēšanas vadlīnijas",
+      "url": "https://integretaaudzesana.vaad.gov.lv/lv/media/39/download?attachment=",
+      "publisherScope": "Valsts augu aizsardzības dienests",
+      "publishedAt": null,
+      "publisher": "Zemkopības ministrija / Valsts augu aizsardzības dienests",
+      "checkedAt": "2026-11-10",
+      "documentYear": 2015,
+      "readSections": [
+        {
+          "section": "Burkāni: VI. Ražas novākšana",
+          "pdfPageIndices": [
+            27
+          ],
+          "facts": "Early harvest late June/July; storage crops September/October; Nantes maturity from rounded root tip."
+        },
+        {
+          "section": "Selerijas: I., III. un VI. nodaļa",
+          "pdfPageIndices": [
+            45,
+            47,
+            48,
+            56
+          ],
+          "facts": "Different root/leaf/stalk forms; seedlings due long season; light germination; cold/bolting; root harvest September/October."
+        },
+        {
+          "section": "Dilles: III., IV. un VI. nodaļa",
+          "pdfPageIndices": [
+            71,
+            76
+          ],
+          "facts": "Successive sowings 2–3 weeks; latest early August conditional on frost; weed/moisture care; field harvest 55–60 days after sowing and green-rosette stage."
+        }
+      ],
+      "notes": "One PDF covers three selected crops; growth-period definitions are not blindly converted into universal harvest countdowns.",
+      "scope": "Agronomic facts for Latvia. Old pesticide, fertiliser-dose and statutory-compliance recommendations are not imported."
+    },
+    {
+      "id": "vaad-beets",
+      "title": "Galda bietes: audzēšanas vadlīnijas",
+      "url": "https://integretaaudzesana.vaad.gov.lv/lv/media/38/download?attachment=",
+      "publisherScope": "Valsts augu aizsardzības dienests",
+      "publishedAt": null,
+      "publisher": "Zemkopības ministrija / Valsts augu aizsardzības dienests",
+      "checkedAt": "2026-11-10",
+      "documentYear": 2015,
+      "readSections": [
+        {
+          "section": "II.–IV. nodaļa",
+          "pdfPageIndices": [
+            8,
+            10,
+            11
+          ],
+          "facts": "Loose soil; sowing at soil8–10C; seedlings frost sensitive; variety-dependent sowing/growth duration; weed care."
+        },
+        {
+          "section": "VI. Ražas novākšana",
+          "pdfPageIndices": [
+            24
+          ],
+          "facts": "Immediate-use harvest follows required product size; storage roots before frost; exclude diseased/damaged roots."
+        }
+      ],
+      "notes": "120–150 days is described as a vegetation period, without an explicit start event; no exact sow-to-harvest timer is inferred.",
+      "scope": "Agronomic facts for Latvia. Old pesticide, fertiliser-dose and statutory-compliance recommendations are not imported."
+    },
+    {
+      "id": "vaad-potatoes",
+      "title": "Kartupeļi: audzēšanas vadlīnijas",
+      "url": "https://integretaaudzesana.vaad.gov.lv/lv/media/37/download?attachment=",
+      "publisherScope": "Valsts augu aizsardzības dienests",
+      "publishedAt": null,
+      "publisher": "Zemkopības ministrija / Valsts augu aizsardzības dienests",
+      "checkedAt": "2026-11-10",
+      "documentYear": 2015,
+      "readSections": [
+        {
+          "section": "VI. Ražas novākšana, kvalitāte un glabāšana",
+          "pdfPageIndices": [
+            24,
+            25
+          ],
+          "facts": "Storage maturity: haulm death, firm skin, tubers separate from stolons; plan main harvest completion in September; avoid mechanical damage."
+        }
+      ],
+      "notes": "Early new-potato harvest is not equated to storage maturity. No chemical haulm destruction or old pesticide recommendation imported.",
+      "scope": "Agronomic facts for Latvia. Old pesticide, fertiliser-dose and statutory-compliance recommendations are not imported."
+    },
+    {
+      "id": "vaad-cucurbits",
+      "title": "Ķirbjaugi atklātā laukā un gurķi segtajās platībās",
+      "url": "https://integretaaudzesana.vaad.gov.lv/lv/media/28/download?attachment=",
+      "publisherScope": "Valsts augu aizsardzības dienests",
+      "publishedAt": null,
+      "publisher": "Zemkopības ministrija / Valsts augu aizsardzības dienests",
+      "checkedAt": "2026-11-10",
+      "documentYear": 2015,
+      "readSections": [
+        {
+          "section": "III.–IV. nodaļa: atklātais lauks",
+          "pdfPageIndices": [
+            8,
+            9
+          ],
+          "facts": "Direct sow late May in soil above15C; seedlings after spring frost, about early June; keep root ball intact; moisture and careful weeding."
+        },
+        {
+          "section": "VI. Ražas novākšana: atklātais lauks",
+          "pdfPageIndices": [
+            23,
+            24
+          ],
+          "facts": "Technical maturity: variety size/shape, tender skin and immature seeds; pick every1–3 days once cropping."
+        },
+        {
+          "section": "VI. Ražas novākšana: segtās platības",
+          "pdfPageIndices": [
+            49
+          ],
+          "facts": "Greenhouse picking repeated according to maturity; not one annual harvest date."
+        }
+      ],
+      "notes": "This more detailed guide refines the shorter DI handbook May-second-decade shorthand. A soil/frost guard must override a calendar-only suggestion.",
+      "scope": "Agronomic facts for Latvia. Old pesticide, fertiliser-dose and statutory-compliance recommendations are not imported."
+    },
+    {
+      "id": "vaad-leafy",
+      "title": "Lapu dārzeņi atklātā laukā un segtajās platībās",
+      "url": "https://www.zm.gov.lv/lv/media/762/download?attachment=",
+      "publisherScope": "Valsts augu aizsardzības dienests",
+      "publishedAt": null,
+      "publisher": "Zemkopības ministrija / Valsts augu aizsardzības dienests",
+      "checkedAt": "2026-11-10",
+      "documentYear": 2015,
+      "readSections": [
+        {
+          "section": "I. nodaļa: augu maiņa un šķirnes",
+          "pdfPageIndices": [
+            5,
+            6,
+            7
+          ],
+          "facts": "April-mid/late lettuce transplants can harvest late May/early June; different lettuce types; spinach varieties by season; greenhouse midsummer overheating risk."
+        },
+        {
+          "section": "III. Sēšana",
+          "pdfPageIndices": [
+            9,
+            10,
+            13
+          ],
+          "facts": "Lettuce transplants from mid-April; keep rosette above soil; spinach direct sowing; summer heat harms quality; autumn sowing only suitable types."
+        },
+        {
+          "section": "VI. Ražas novākšana",
+          "pdfPageIndices": [
+            23
+          ],
+          "facts": "Lettuce harvest dry, cool quickly, do not crush; spinach at5–6 leaves."
+        }
+      ],
+      "notes": "Original VAAD-hosted mirror /media/27 timed out; the identical ministry-hosted document was read. No UK climate dates used.",
+      "scope": "Agronomic facts for Latvia. Old pesticide, fertiliser-dose and statutory-compliance recommendations are not imported."
+    },
+    {
+      "id": "vaad-alliums",
+      "title": "Sīpolaugi: sīpoli, ķiploki un puravi atklātā laukā",
+      "url": "https://integretaaudzesana.vaad.gov.lv/lv/media/23/download?attachment=",
+      "publisherScope": "Valsts augu aizsardzības dienests",
+      "publishedAt": null,
+      "publisher": "Zemkopības ministrija / Valsts augu aizsardzības dienests",
+      "checkedAt": "2026-11-10",
+      "documentYear": 2015,
+      "readSections": [
+        {
+          "section": "III. Sēšana, stādīšana",
+          "pdfPageIndices": [
+            9,
+            11
+          ],
+          "facts": "Onions from direct seed/seedlings/sets; seedling leek50–60days; leek planting broader than single May window."
+        },
+        {
+          "section": "VI. Sīpoli",
+          "pdfPageIndices": [
+            24,
+            25
+          ],
+          "facts": "Bulbs usually late August/September by cultivar and season;60–80% tops down/wilting; dry with ventilation."
+        },
+        {
+          "section": "VI. Ķiploki, puravi",
+          "pdfPageIndices": [
+            26
+          ],
+          "facts": "Winter garlic late July/August; spring August/September; yellowing/dry stem base, distinct cloves not yet splitting; leeks late summer through late autumn, older leaves yellow."
+        }
+      ],
+      "notes": "DI handbook winter garlic July second/third decade and this guide late July/August vary; present a range and actual maturity, not a contradictory fixed day.",
+      "scope": "Agronomic facts for Latvia. Old pesticide, fertiliser-dose and statutory-compliance recommendations are not imported."
+    },
+    {
+      "id": "vaad-crucifers",
+      "title": "Krustziežu dzimtas dārzeņi: audzēšanas vadlīnijas",
+      "url": "https://integretaaudzesana.vaad.gov.lv/lv/media/36/download?attachment=",
+      "publisherScope": "Valsts augu aizsardzības dienests",
+      "publishedAt": null,
+      "publisher": "Zemkopības ministrija / Valsts augu aizsardzības dienests",
+      "checkedAt": "2026-11-10",
+      "documentYear": 2015,
+      "readSections": [
+        {
+          "section": "III. Stādīšana un sēšana uz lauka",
+          "pdfPageIndices": [
+            15,
+            16
+          ],
+          "facts": "Cabbage planting varies by earliness; harden seedlings; transplant3–5true leaves. Radish early thawed-soil sowing, pause early summer, resume later summer."
+        },
+        {
+          "section": "IV. Kopšana",
+          "pdfPageIndices": [
+            17
+          ],
+          "facts": "Careful weed control; maintain moisture; protect fragile leaves."
+        },
+        {
+          "section": "VI. Ražas novākšana",
+          "pdfPageIndices": [
+            40,
+            41
+          ],
+          "facts": "Cabbage maturity from cultivar head shape/colour/firmness; storage crop before frost. Radish roots formed and slightly above soil; repeated passes4–5days apart."
+        }
+      ],
+      "notes": "The cabbage profile means headed white/red cabbage, not a shared harvest rule for broccoli, Brussels sprouts and cauliflower.",
+      "scope": "Agronomic facts for Latvia. Old pesticide, fertiliser-dose and statutory-compliance recommendations are not imported."
+    },
+    {
+      "id": "rhs-french-beans",
+      "title": "How to grow French beans",
+      "url": "https://www.rhs.org.uk/vegetables/french-beans/grow-your-own",
+      "publisherScope": "Valsts augu aizsardzības dienests",
+      "publishedAt": null,
+      "publisher": "Royal Horticultural Society",
+      "checkedAt": "2026-11-10",
+      "readSections": [
+        {
+          "section": "Harvesting; Pruning and Training",
+          "facts": "Immature pods snap easily before visible seed bulges; climbing/dwarf forms differ and climbing forms need supports."
+        }
+      ],
+      "scope": "Only botanical crop-form and pod-maturity guidance. UK sowing/planting dates are NOT transferred to Latvia.",
+      "notes": "Latvian DI provides local sowing and frost conditions; RHS supplies the specific fresh-pod maturity distinction missing from the short Latvian handbook."
+    }
+  ],
+  "common": {
+    "regionalGuidance": {
+      "id": "latvia-regions",
+      "heading": "Piekraste un iekšzeme",
+      "paragraphs": [
+        {
+          "text": "Piekrastei nav viena noteikuma “sēj agrāk”. Jūras tuvumā pavasara augu attīstība var kavēties, savukārt vasaras beigās un rudenī naktis mēdz būt siltākas.",
+          "sourceIds": [
+            "climate-spring-coast",
+            "climate-august"
+          ]
+        },
+        {
+          "text": "Iekšzemē un aukstās ieplakās vērtē sava dārza mikroklimatu. Latvijā atsevišķos gados salnas novērotas arī jūnija sākumā.",
+          "sourceIds": [
+            "climate-2023"
+          ]
+        }
+      ],
+      "fixedDayOffset": null
+    },
+    "yearlyFrostGuard": {
+      "id": "frost-guard",
+      "heading": "Datums nav laikapstākļu prognoze",
+      "paragraphs": [
+        {
+          "text": "Pirms sējas vai izstādīšanas pārbaudi vietējo prognozi, augsnes mitrumu un siltumu. Klimata vidējie rādītāji nenosaka drošu pēdējās salnas dienu katram dārzam.",
+          "sourceIds": [
+            "climate-may",
+            "climate-2023"
+          ]
+        }
+      ],
+      "exactLastFrostDate": null
+    },
+    "plannerLabels": {
+      "seed": "Sēklas",
+      "seedling": "Dēsti",
+      "sets": "Stādāmie sīpoli",
+      "cloves": "Ķiploku daiviņas",
+      "tubers": "Sēklas kartupeļi",
+      "field": "Atklātā laukā",
+      "unheatedGreenhouse": "Neapkurinātā siltumnīcā",
+      "heatedGreenhouse": "Apkurinātā siltumnīcā",
+      "sowing": "Sēja",
+      "transplanting": "Dēstu izstādīšana",
+      "planting": "Stādīšana",
+      "care": "Kopšana",
+      "harvest": "Ražas novākšana",
+      "checkRipeness": "Pārbaudi gatavību",
+      "estimatedWindow": "Orientējošs periods",
+      "varietyRequired": "Norādi šķirni",
+      "noUniversalDay": "Vienota precīza datuma nav",
+      "customInterval": "Intervāls no tavas šķirnes apraksta",
+      "localOnly": "Saglabāts šajā ierīcē",
+      "frostCheck": "Pārbaudi salnu risku"
+    },
+    "implementationRules": [
+      "Only text fields and Latvian labels are public copy; internal evidence notes are not UI paragraphs.",
+      "Retain preservedCalendarActions exactly for provenance. Add source-aware refinements instead of silently replacing conflicting records.",
+      "A source-derived harvest day range is an inspection reminder, not guaranteed ready-to-pick status.",
+      "daysFromSowing=null means no verified universal range. Never fill null with a guess or use sowing months as harvest months.",
+      "Do not substitute seedling age, germination time, time between repeat sowings or picking interval for time to first harvest.",
+      "Plant autumn garlic in year N; associate harvest with year N+1.",
+      "For user-supplied variety duration record the exact start event: sowing/emergence/transplanting. Do not mislabel its provenance as verified national data.",
+      "Show open field/unheated/heated greenhouse scopes separately; no universal regional day offsets.",
+      "Use original plant SVGs supplied by the asset task; no stock-photo or copied SVG requirements added here.",
+      "No lunar phase causality or guaranteed yield claims.",
+      "2015 agronomy documents are used for sowing/growth/maturity only; old pesticide names, doses and regulatory thresholds are excluded."
+    ]
+  },
+  "crops": [
+    {
+      "id": "burkani",
+      "name": "Burkāni",
+      "canonical": "/sejas-kalendars/burkani/",
+      "title": "Burkānu audzēšana: sēja, kopšana un raža",
+      "h1": "Burkānu audzēšana Latvijā",
+      "description": "Burkānu sēja un kopšana Latvijā: augsnes apstākļi, agrā un glabāšanai paredzētā raža, kā arī pazīmes, pēc kurām vērtēt gatavību.",
+      "intro": {
+        "text": "Burkāniem vispirms izvēlies ražas mērķi: agrīnus sakņaugus vasarai vai šķirni glabāšanai. Šī izvēle maina sējas un novākšanas plānu.",
+        "sourceIds": [
+          "garden-di-april",
+          "vaad-umbels"
+        ]
+      },
+      "scope": "Latvijas mazdārzs; precīzu laiku pielāgo šķirnei un faktiskajiem apstākļiem.",
+      "sections": [
+        {
+          "id": "sakums",
+          "heading": "Kas jāzina pirms sējas",
+          "paragraphs": [
+            {
+              "text": "Burkāniem vispirms izvēlies ražas mērķi: agrīnus sakņaugus vasarai vai šķirni glabāšanai. Šī izvēle maina sējas un novākšanas plānu.",
+              "sourceIds": [
+                "garden-di-april",
+                "vaad-umbels"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "material",
+          "heading": "Sēklas vai dēsti",
+          "paragraphs": [
+            {
+              "text": "Plānā paredzēta sēklu sēja dobē. Dziļi sagatavota augsne un mitrums ir īpaši svarīgi sadīgšanai.",
+              "sourceIds": [
+                "garden-di-april"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "vieta",
+          "heading": "Audzēšanas vieta",
+          "paragraphs": [
+            {
+              "text": "Lauka dobi sagatavo, kad augsne apžuvusi. Ļoti mitru vai vēl sasalušu dobi neapstrādā tikai tāpēc, ka pienācis aprīlis.",
+              "sourceIds": [
+                "garden-di-april"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "laiks",
+          "heading": "Kad sēt un stādīt",
+          "paragraphs": [
+            {
+              "text": "Saglabā aprīļa–jūnija sējas orientieri, to pielāgojot izvēlētajai šķirnei un augsnes stāvoklim. Aukstā augsnē sadīgšana būs lēnāka.",
+              "sourceIds": [
+                "garden-di-guide",
+                "garden-di-april"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "kopsana",
+          "heading": "Kopšana",
+          "paragraphs": [
+            {
+              "text": "Līdz sadīgšanai nepieļauj sēklas gultnes izkalšanu; turpini vērot mitrumu arī sakņu veidošanās laikā.",
+              "sourceIds": [
+                "garden-di-april",
+                "garden-di-guide"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "gataviba",
+          "heading": "Kad raža ir gatava",
+          "paragraphs": [
+            {
+              "text": "Izmēģinājumam izcel dažas saknes. Nantes tipa šķirnēm gatavību raksturo izveidojies noapaļots saknes gals; citiem tipiem ievēro šķirnes raksturojumu.",
+              "sourceIds": [
+                "vaad-umbels"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "kludas",
+          "heading": "No kā izvairīties",
+          "paragraphs": [
+            {
+              "text": "Nesapludini agrās un glabājamās ražas termiņu. Novācot izvairies no sakņu laušanas un sasitumiem.",
+              "sourceIds": [
+                "vaad-umbels"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "planotajs",
+          "heading": "Piezīme plānotājam",
+          "paragraphs": [
+            {
+              "text": "Saglabā šķirni, sējas datumu un ražas mērķi. Ražas atgādinājumu veido kā sakņu pārbaudi, nevis vienu obligātu datumu.",
+              "sourceIds": [
+                "vaad-umbels"
+              ]
+            }
+          ]
+        }
+      ],
+      "preservedCalendarActions": [
+        {
+          "kind": "Sēja laukā",
+          "months": [
+            4,
+            5,
+            6
+          ],
+          "window": "Aprīlis–jūnijs",
+          "condition": "Apžuvusi augsne; sējai izvēlas ražas mērķim atbilstošu šķirni.",
+          "datePrecision": "Orientējošs periods, nevis precīzs datums."
+        }
+      ],
+      "calendarRefinements": [],
+      "soilAndTemperature": [
+        {
+          "label": "Sēklu dīgšanas sākums",
+          "value": "3–4 °C",
+          "scope": "Nav optimālās dīgšanas temperatūras vai tūlītējas sadīgšanas solījums.",
+          "sourceId": "garden-di-april"
+        }
+      ],
+      "harvest": {
+        "readinessBasis": "Saknes attīstība un šķirnes tips",
+        "periods": [
+          {
+            "label": "Agrīnām šķirnēm: no jūnija beigām un jūlijā",
+            "months": [
+              6,
+              7
+            ],
+            "sourceIds": [
+              "vaad-umbels"
+            ],
+            "precision": "Orientējoši; nav garantēts ikgadējs datums.",
+            "scope": "Agrīnā raža"
+          },
+          {
+            "label": "Glabāšanai paredzētām vēlākām šķirnēm: septembris–oktobris",
+            "months": [
+              9,
+              10
+            ],
+            "sourceIds": [
+              "vaad-umbels"
+            ],
+            "precision": "Orientējoši; nav garantēts ikgadējs datums.",
+            "scope": "Glabāšanas raža"
+          }
+        ],
+        "daysFromSowing": null
+      },
+      "sourceIds": [
+        "garden-di-april",
+        "garden-di-guide",
+        "vaad-umbels"
+      ],
+      "publicConfidence": "Avotos pamatoti orientieri, nevis laikapstākļu vai ražas garantija.",
+      "editorialFactNotes": [],
+      "regionalGuidanceRef": "latvia-regions",
+      "yearlyFrostGuardRef": "frost-guard",
+      "exactAnnualDate": null
+    },
+    {
+      "id": "galda-bietes",
+      "name": "Galda bietes",
+      "canonical": "/sejas-kalendars/galda-bietes/",
+      "title": "Galda biešu audzēšana: sēja, kopšana un raža",
+      "h1": "Galda biešu audzēšana Latvijā",
+      "description": "Kad sēt galda bietes Latvijā, kā sargāt dīgstus no salnām un kad novākt ražu svaigam patēriņam vai glabāšanai.",
+      "intro": {
+        "text": "Galda biešu sējai vajadzīgs vairāk siltuma nekā pirmajiem aukstumizturīgajiem sējumiem. Ražas laiku vērtē pēc šķirnes un izmantošanas.",
+        "sourceIds": [
+          "garden-di-april",
+          "vaad-beets"
+        ]
+      },
+      "scope": "Latvijas mazdārzs; precīzu laiku pielāgo šķirnei un faktiskajiem apstākļiem.",
+      "sections": [
+        {
+          "id": "sakums",
+          "heading": "Kas jāzina pirms sējas",
+          "paragraphs": [
+            {
+              "text": "Galda biešu sējai vajadzīgs vairāk siltuma nekā pirmajiem aukstumizturīgajiem sējumiem. Ražas laiku vērtē pēc šķirnes un izmantošanas.",
+              "sourceIds": [
+                "garden-di-april",
+                "vaad-beets"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "material",
+          "heading": "Sēklas vai dēsti",
+          "paragraphs": [
+            {
+              "text": "Šis plāns ir tiešajai sējai dobē. Sēklas izvieto atbilstoši paredzētajam sakņu lielumam un šķirnes norādēm.",
+              "sourceIds": [
+                "vaad-beets"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "vieta",
+          "heading": "Audzēšanas vieta",
+          "paragraphs": [
+            {
+              "text": "Izvēlies irdenu, nesablīvētu dobi. Pavasara apstrādi sāc pēc augsnes tehniskās gatavības, nevis viena kalendāra datuma.",
+              "sourceIds": [
+                "vaad-beets"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "laiks",
+          "heading": "Kad sēt un stādīt",
+          "paragraphs": [
+            {
+              "text": "Aprīļa–jūnija logā sēj tad, kad augsne iesilusi līdz 8–10 °C. Jūnija sējai vajadzīga atbilstoši agrīna šķirne; dīgstus sargā no salnām.",
+              "sourceIds": [
+                "garden-di-guide",
+                "vaad-beets"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "kopsana",
+          "heading": "Kopšana",
+          "paragraphs": [
+            {
+              "text": "Laikus ierobežo nezāles un pārbaudi sējuma attīstību. Barības vielu daudzumu nepārņem no vispārīgas tabulas bez augsnes novērtējuma.",
+              "sourceIds": [
+                "vaad-beets"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "gataviba",
+          "heading": "Kad raža ir gatava",
+          "paragraphs": [
+            {
+              "text": "Svaigam patēriņam saknes vāc, kad sasniegts vēlamais izmērs. Glabāšanai paredzēto ražu novāc pirms salnām un atlasi veselās saknes.",
+              "sourceIds": [
+                "vaad-beets"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "kludas",
+          "heading": "No kā izvairīties",
+          "paragraphs": [
+            {
+              "text": "Nesteidz sēt aukstā augsnē un neuzskati katru jūnija šķirni par derīgu ilgai glabāšanai.",
+              "sourceIds": [
+                "vaad-beets"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "planotajs",
+          "heading": "Piezīme plānotājam",
+          "paragraphs": [
+            {
+              "text": "Pieraksti sējas datumu, šķirnes agrīnumu un to, vai ražu gribi lietot uzreiz vai glabāt.",
+              "sourceIds": [
+                "vaad-beets"
+              ]
+            }
+          ]
+        }
+      ],
+      "preservedCalendarActions": [
+        {
+          "kind": "Sēja laukā",
+          "months": [
+            4,
+            5,
+            6
+          ],
+          "window": "Aprīlis–jūnijs",
+          "condition": "Augsne vismaz 8–10 °C; sargā dīgstus no salnām.",
+          "datePrecision": "Orientējošs periods, nevis precīzs datums."
+        }
+      ],
+      "calendarRefinements": [],
+      "soilAndTemperature": [
+        {
+          "label": "Augsne sējai",
+          "value": "8–10 °C",
+          "scope": "Dīgsti joprojām jutīgi pret salnām.",
+          "sourceId": "vaad-beets"
+        }
+      ],
+      "harvest": {
+        "readinessBasis": "Vēlamais saknes izmērs un izmantošanas mērķis",
+        "periods": [
+          {
+            "label": "Glabāšanai: pirms vietējām rudens salnām",
+            "months": null,
+            "sourceIds": [
+              "vaad-beets"
+            ],
+            "precision": "Orientējoši; nav garantēts ikgadējs datums."
+          }
+        ],
+        "daysFromSowing": null,
+        "growthPeriodSource": {
+          "valueDays": [
+            120,
+            150
+          ],
+          "label": "Avotā minēts šķirnei atkarīgs veģetācijas periods.",
+          "sourceId": "vaad-beets",
+          "calculationAllowed": false,
+          "reason": "Nav skaidri noteikts skaitīšanas sākuma notikums; nepārvērst par universālu sējas dienas taimeri."
+        }
+      },
+      "sourceIds": [
+        "garden-di-guide",
+        "garden-di-april",
+        "vaad-beets"
+      ],
+      "publicConfidence": "Avotos pamatoti orientieri, nevis laikapstākļu vai ražas garantija.",
+      "editorialFactNotes": [],
+      "regionalGuidanceRef": "latvia-regions",
+      "yearlyFrostGuardRef": "frost-guard",
+      "exactAnnualDate": null
+    },
+    {
+      "id": "redisi",
+      "name": "Redīsi",
+      "canonical": "/sejas-kalendars/redisi/",
+      "title": "Redīsu audzēšana: sēja, kopšana un raža",
+      "h1": "Redīsu audzēšana Latvijā",
+      "description": "Redīsu sēja pavasarī un vasaras otrajā pusē, kopšanas nosacījumi un gatavības pazīmes Latvijas dārzam.",
+      "intro": {
+        "text": "Redīsu plānā atšķir pavasara un rudens ražu. Nepārtraukta vasaras sēja nav automātiski piemērota katrai šķirnei.",
+        "sourceIds": [
+          "vaad-crucifers"
+        ]
+      },
+      "scope": "Latvijas mazdārzs; precīzu laiku pielāgo šķirnei un faktiskajiem apstākļiem.",
+      "sections": [
+        {
+          "id": "sakums",
+          "heading": "Kas jāzina pirms sējas",
+          "paragraphs": [
+            {
+              "text": "Redīsu plānā atšķir pavasara un rudens ražu. Nepārtraukta vasaras sēja nav automātiski piemērota katrai šķirnei.",
+              "sourceIds": [
+                "vaad-crucifers"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "material",
+          "heading": "Sēklas vai dēsti",
+          "paragraphs": [
+            {
+              "text": "Sēj sēklas tieši sagatavotajā dobē. Sēja dēstiem šajā kalendāra modelī nav paredzēta.",
+              "sourceIds": [
+                "vaad-crucifers"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "vieta",
+          "heading": "Audzēšanas vieta",
+          "paragraphs": [
+            {
+              "text": "Lauka sēju sāc, kad augsne atkususi un sagatavojama. Siltumnīcas apstākļus vērtē atsevišķi no āra dobes.",
+              "sourceIds": [
+                "vaad-crucifers",
+                "garden-di-april"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "laiks",
+          "heading": "Kad sēt un stādīt",
+          "paragraphs": [
+            {
+              "text": "Esošais orientieris ir aprīļa sākums un augusta otrā puse. Detalizētā vadlīnija iesaka sēju pārtraukt vasaras sākumā un atsākt vasaras otrajā pusē.",
+              "sourceIds": [
+                "garden-di-guide",
+                "vaad-crucifers"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "kopsana",
+          "heading": "Kopšana",
+          "paragraphs": [
+            {
+              "text": "Uzturi dobi bez konkurējošām nezālēm un sausumā seko mitrumam. Darbojies uzmanīgi, saudzējot augus.",
+              "sourceIds": [
+                "vaad-crucifers"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "gataviba",
+          "heading": "Kad raža ir gatava",
+          "paragraphs": [
+            {
+              "text": "Vāc, kad saknes pilnīgi izveidojušās un nedaudz redzamas virs augsnes. Dobē raža var ienākties nevienmērīgi.",
+              "sourceIds": [
+                "vaad-crucifers"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "kludas",
+          "heading": "No kā izvairīties",
+          "paragraphs": [
+            {
+              "text": "Neievadi vienu “gatavs pēc 20 dienām” termiņu visām šķirnēm un sezonām; novērtē saknes.",
+              "sourceIds": [
+                "vaad-crucifers"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "planotajs",
+          "heading": "Piezīme plānotājam",
+          "paragraphs": [
+            {
+              "text": "Pavasara un augusta sējas saglabā atsevišķi, lai atgādinājumi nesajauc abas ražas.",
+              "sourceIds": [
+                "garden-di-guide"
+              ]
+            }
+          ]
+        }
+      ],
+      "preservedCalendarActions": [
+        {
+          "kind": "Sēja laukā",
+          "months": [
+            4
+          ],
+          "window": "Aprīļa sākums",
+          "condition": "Sējai piemērota, apžuvusi augsne.",
+          "datePrecision": "Orientējošs periods, nevis precīzs datums."
+        },
+        {
+          "kind": "Sēja rudens ražai",
+          "months": [
+            8
+          ],
+          "window": "Augusta otrā puse",
+          "condition": "Saglabā vienmērīgu mitrumu.",
+          "datePrecision": "Orientējošs periods, nevis precīzs datums."
+        }
+      ],
+      "calendarRefinements": [],
+      "soilAndTemperature": [],
+      "harvest": {
+        "readinessBasis": "Izveidojusies sakne",
+        "periods": [],
+        "daysFromSowing": null,
+        "inspectionIntervalDays": {
+          "value": [
+            4,
+            5
+          ],
+          "meaning": "Avotā aprakstīti atkārtoti novākšanas paņēmieni; tas NAV dienu skaits no sējas.",
+          "sourceId": "vaad-crucifers"
+        }
+      },
+      "sourceIds": [
+        "garden-di-guide",
+        "garden-di-april",
+        "vaad-crucifers"
+      ],
+      "publicConfidence": "Avotos pamatoti orientieri, nevis laikapstākļu vai ražas garantija.",
+      "editorialFactNotes": [],
+      "regionalGuidanceRef": "latvia-regions",
+      "yearlyFrostGuardRef": "frost-guard",
+      "exactAnnualDate": null
+    },
+    {
+      "id": "saknu-selerijas",
+      "name": "Sakņu selerijas",
+      "canonical": "/sejas-kalendars/saknu-selerijas/",
+      "title": "Sakņu seleriju audzēšana: sēja, kopšana un raža",
+      "h1": "Sakņu seleriju audzēšana Latvijā",
+      "description": "Sakņu seleriju dēsti, izstādīšana un rudens raža Latvijā. Nošķir sakņu selerijas no kātu un lapu šķirnēm.",
+      "intro": {
+        "text": "Sakņu selerijām ir gara audzēšanas sezona. Izvēlies tieši sakņu seleriju šķirni — kātu un lapu selerijām ražas mērķis ir cits.",
+        "sourceIds": [
+          "vaad-umbels"
+        ]
+      },
+      "scope": "Latvijas mazdārzs; precīzu laiku pielāgo šķirnei un faktiskajiem apstākļiem.",
+      "sections": [
+        {
+          "id": "sakums",
+          "heading": "Kas jāzina pirms sējas",
+          "paragraphs": [
+            {
+              "text": "Sakņu selerijām ir gara audzēšanas sezona. Izvēlies tieši sakņu seleriju šķirni — kātu un lapu selerijām ražas mērķis ir cits.",
+              "sourceIds": [
+                "vaad-umbels"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "material",
+          "heading": "Sēklas vai dēsti",
+          "paragraphs": [
+            {
+              "text": "Audzē no dēstiem. Sīkajām sēklām dīgšanai vajadzīga gaisma; tās neapber ar biezu augsnes kārtu.",
+              "sourceIds": [
+                "vaad-umbels"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "vieta",
+          "heading": "Audzēšanas vieta",
+          "paragraphs": [
+            {
+              "text": "Dobi izvēlies labi izgaismotu un sargā jaunos augus no pavasara aukstuma. Atšķir dēstu audzēšanas vietu no pastāvīgās dobes.",
+              "sourceIds": [
+                "vaad-umbels"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "laiks",
+          "heading": "Kad sēt un stādīt",
+          "paragraphs": [
+            {
+              "text": "Saglabā sēju dēstiem marta vidū un izstādīšanu maija otrajā pusē. Pirms izstādīšanas pārbaudi aukstuma un salnu risku.",
+              "sourceIds": [
+                "garden-di-guide",
+                "vaad-umbels"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "kopsana",
+          "heading": "Kopšana",
+          "paragraphs": [
+            {
+              "text": "Sausā laikā nodrošini mitrumu. Mēslošanu pielāgo augsnes novērtējumam; kopšanā saudzē augošo sakni.",
+              "sourceIds": [
+                "garden-di-guide",
+                "vaad-umbels"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "gataviba",
+          "heading": "Kad raža ir gatava",
+          "paragraphs": [
+            {
+              "text": "Sakņu ražu novāc septembrī vai oktobrī atbilstoši šķirnei. Izcel saknes saudzīgi un nepieļauj iegriezumus un sasitumus.",
+              "sourceIds": [
+                "vaad-umbels"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "kludas",
+          "heading": "No kā izvairīties",
+          "paragraphs": [
+            {
+              "text": "Neizmanto kātu seleriju novākšanas kritērijus sakņu selerijām un nesteidz dēstus ilgstošā aukstumā.",
+              "sourceIds": [
+                "vaad-umbels"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "planotajs",
+          "heading": "Piezīme plānotājam",
+          "paragraphs": [
+            {
+              "text": "Dēstu sējas un lauka izstādīšanas datumu glabā atsevišķi. Abus nedrīkst izmantot kā vienādu ražas aprēķina sākumu.",
+              "sourceIds": [
+                "vaad-umbels"
+              ]
+            }
+          ]
+        }
+      ],
+      "preservedCalendarActions": [
+        {
+          "kind": "Sēja dēstiem",
+          "months": [
+            3
+          ],
+          "window": "Marta vidus",
+          "condition": "Audzē dēstus piemērotā gaismā un siltumā.",
+          "datePrecision": "Orientējošs periods, nevis precīzs datums."
+        },
+        {
+          "kind": "Dēstu izstādīšana",
+          "months": [
+            5
+          ],
+          "window": "Maija otrā puse",
+          "condition": "Izvērtē vietējos laikapstākļus.",
+          "datePrecision": "Orientējošs periods, nevis precīzs datums."
+        }
+      ],
+      "calendarRefinements": [],
+      "soilAndTemperature": [],
+      "harvest": {
+        "readinessBasis": "Attīstīta sakne un šķirnes sezona",
+        "periods": [
+          {
+            "label": "Septembris–oktobris",
+            "months": [
+              9,
+              10
+            ],
+            "sourceIds": [
+              "vaad-umbels"
+            ],
+            "precision": "Orientējoši; nav garantēts ikgadējs datums."
+          }
+        ],
+        "daysFromSowing": null
+      },
+      "sourceIds": [
+        "garden-di-guide",
+        "vaad-umbels"
+      ],
+      "publicConfidence": "Avotos pamatoti orientieri, nevis laikapstākļu vai ražas garantija.",
+      "editorialFactNotes": [
+        "DI īsais ceļvedis un detalizētā seleriju vadlīnija min atšķirīgus veģetācijas ilguma diapazonus. Profilā saglabātas audzēšanas darbības un pamatotais rudens periods, bet universāls dienu skaits netiek piedāvāts."
+      ],
+      "regionalGuidanceRef": "latvia-regions",
+      "yearlyFrostGuardRef": "frost-guard",
+      "exactAnnualDate": null
+    },
+    {
+      "id": "sipoli",
+      "name": "Sīpoli",
+      "canonical": "/sejas-kalendars/sipoli/",
+      "title": "Sīpolu audzēšana: sēja, kopšana un raža",
+      "h1": "Sīpolu audzēšana Latvijā",
+      "description": "Sīpolu sēja, dēsti un stādāmie sīpoli Latvijā. Uzzini, kā atšķiras audzēšanas sākums un pēc kā vērtēt glabājamās ražas gatavību.",
+      "intro": {
+        "text": "Sīpolus var audzēt no sēklām, dēstiem vai sīksīpoliem. Plānotājā vispirms izvēlies sākuma materiālu, jo viena darbība neaizstāj pārējās.",
+        "sourceIds": [
+          "vaad-alliums"
+        ]
+      },
+      "scope": "Latvijas mazdārzs; precīzu laiku pielāgo šķirnei un faktiskajiem apstākļiem.",
+      "sections": [
+        {
+          "id": "sakums",
+          "heading": "Kas jāzina pirms sējas",
+          "paragraphs": [
+            {
+              "text": "Sīpolus var audzēt no sēklām, dēstiem vai sīksīpoliem. Plānotājā vispirms izvēlies sākuma materiālu, jo viena darbība neaizstāj pārējās.",
+              "sourceIds": [
+                "vaad-alliums"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "material",
+          "heading": "Sēklas vai dēsti",
+          "paragraphs": [
+            {
+              "text": "Tiešajai sējai izmanto atbilstošu šķirni; garākas sezonas šķirnēm iespējams dēstu ceļš. Ģimenes sīpolus stāda ar sīpoliem.",
+              "sourceIds": [
+                "vaad-alliums",
+                "garden-di-guide"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "vieta",
+          "heading": "Audzēšanas vieta",
+          "paragraphs": [
+            {
+              "text": "Sākot laukā, augsnei jābūt apstrādājamai. Dēstiem pirms pārvietošanas ārā vajadzīga pakāpeniska pieradināšana.",
+              "sourceIds": [
+                "vaad-alliums"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "laiks",
+          "heading": "Kad sēt un stādīt",
+          "paragraphs": [
+            {
+              "text": "Esošajā plānā sēklu sēja ir aprīlī, ģimenes sīpolu stādīšana — maija sākumā. Dēstu audzēšanai vadlīnijā aprakstīta marta sēja segtās platībās.",
+              "sourceIds": [
+                "garden-di-april",
+                "garden-di-guide",
+                "vaad-alliums"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "kopsana",
+          "heading": "Kopšana",
+          "paragraphs": [
+            {
+              "text": "Sēklu sadīgšanai uzturi mitrumu. Nobriedušo ražu apžāvē ar labu gaisa piekļuvi; slapju ražu uzreiz nenoslēdz glabāšanai.",
+              "sourceIds": [
+                "garden-di-april",
+                "vaad-alliums"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "gataviba",
+          "heading": "Kad raža ir gatava",
+          "paragraphs": [
+            {
+              "text": "Glabājamos sīpolus vāc, kad lielākā daļa lakstu nogūlusies un sāk vīst. Datumu ietekmē šķirne un sezona.",
+              "sourceIds": [
+                "vaad-alliums"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "kludas",
+          "heading": "No kā izvairīties",
+          "paragraphs": [
+            {
+              "text": "Nesajauc loku griešanu ar sīpolgalvu gatavību un nepārnes sīksīpolu stādīšanas dienu uz sēklu paciņu.",
+              "sourceIds": [
+                "garden-di-guide",
+                "vaad-alliums"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "planotajs",
+          "heading": "Piezīme plānotājam",
+          "paragraphs": [
+            {
+              "text": "Pieraksti “sēklas”, “dēsti” vai “stādāmie sīpoli” un atsevišķi norādi, vai plāno lokus vai galviņas.",
+              "sourceIds": [
+                "vaad-alliums"
+              ]
+            }
+          ]
+        }
+      ],
+      "preservedCalendarActions": [
+        {
+          "kind": "Sēja laukā",
+          "months": [
+            4
+          ],
+          "window": "Aprīlis",
+          "condition": "No sēklas audzējamiem sīpoliem – apžuvusi, iesilusi augsne.",
+          "datePrecision": "Orientējošs periods, nevis precīzs datums."
+        },
+        {
+          "kind": "Ģimenes sīpolu stādīšana",
+          "months": [
+            5
+          ],
+          "window": "Maija pirmā dekāde",
+          "condition": "Stāda ar sīpoliem, nevis pārnes sējas termiņu.",
+          "datePrecision": "Orientējošs periods, nevis precīzs datums."
+        }
+      ],
+      "calendarRefinements": [],
+      "soilAndTemperature": [],
+      "harvest": {
+        "readinessBasis": "Lakstu nogulšanās un vīšana",
+        "periods": [
+          {
+            "label": "Parasti augusta beigas–septembris",
+            "months": [
+              8,
+              9
+            ],
+            "sourceIds": [
+              "vaad-alliums"
+            ],
+            "precision": "Orientējoši; nav garantēts ikgadējs datums.",
+            "scope": "Nobrieduši glabājamie sīpoli; nav loku ražas grafiks."
+          }
+        ],
+        "daysFromSowing": null
+      },
+      "sourceIds": [
+        "garden-di-april",
+        "garden-di-guide",
+        "vaad-alliums"
+      ],
+      "publicConfidence": "Avotos pamatoti orientieri, nevis laikapstākļu vai ražas garantija.",
+      "editorialFactNotes": [],
+      "regionalGuidanceRef": "latvia-regions",
+      "yearlyFrostGuardRef": "frost-guard",
+      "exactAnnualDate": null
+    },
+    {
+      "id": "kiploki",
+      "name": "Ķiploki",
+      "canonical": "/sejas-kalendars/kiploki/",
+      "title": "Ķiploku audzēšana: sēja, kopšana un raža",
+      "h1": "Ķiploku audzēšana Latvijā",
+      "description": "Ziemas un vasaras ķiploku stādīšana un ražas gatavība Latvijā. Katram veidam saglabā atsevišķu sezonas plānu.",
+      "intro": {
+        "text": "Ķiplokiem izveido divus plānus: rudenī stādāmajiem ziemas un pavasarī stādāmajiem vasaras ķiplokiem. To novākšanas logi atšķiras.",
+        "sourceIds": [
+          "garden-di-guide",
+          "vaad-alliums"
+        ]
+      },
+      "scope": "Latvijas mazdārzs; precīzu laiku pielāgo šķirnei un faktiskajiem apstākļiem.",
+      "sections": [
+        {
+          "id": "sakums",
+          "heading": "Kas jāzina pirms sējas",
+          "paragraphs": [
+            {
+              "text": "Ķiplokiem izveido divus plānus: rudenī stādāmajiem ziemas un pavasarī stādāmajiem vasaras ķiplokiem. To novākšanas logi atšķiras.",
+              "sourceIds": [
+                "garden-di-guide",
+                "vaad-alliums"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "material",
+          "heading": "Sēklas vai dēsti",
+          "paragraphs": [
+            {
+              "text": "Šajā plānā stāda veselas daiviņas. Nejauc tās ar sēklu vai gaisa sīpoliņu pavairošanas atšķirīgo ciklu.",
+              "sourceIds": [
+                "garden-di-guide"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "vieta",
+          "heading": "Audzēšanas vieta",
+          "paragraphs": [
+            {
+              "text": "Stādi sagatavotā dobē. Pavasara stādīšanu saista ar augsnes gatavību apstrādei; rudens darbu pielāgo konkrētajai sezonai.",
+              "sourceIds": [
+                "garden-di-guide"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "laiks",
+          "heading": "Kad sēt un stādīt",
+          "paragraphs": [
+            {
+              "text": "Ziemas ķiplokiem saglabā oktobra pirmās divas dekādes, vasaras ķiplokiem — piemērotu pavasara laiku. Tā nav viena precīza diena visai Latvijai.",
+              "sourceIds": [
+                "garden-di-guide"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "kopsana",
+          "heading": "Kopšana",
+          "paragraphs": [
+            {
+              "text": "Vēro augus un, ja audzē ziednešus veidojošus ķiplokus galviņu ieguvei, savlaicīgi izņem ziednešus. Pēc novākšanas ražu labi apžāvē.",
+              "sourceIds": [
+                "garden-di-guide",
+                "vaad-alliums"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "gataviba",
+          "heading": "Kad raža ir gatava",
+          "paragraphs": [
+            {
+              "text": "Pārbaudi dažus augus: stublāja lejasdaļa dzeltē un žūst, daiviņas ir skaidri izveidojušās, bet galviņa vēl nav sākusi izjukt.",
+              "sourceIds": [
+                "vaad-alliums"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "kludas",
+          "heading": "No kā izvairīties",
+          "paragraphs": [
+            {
+              "text": "Negaidi, līdz galviņas sadalās. Nokavēta novākšana pasliktina uzglabāšanos.",
+              "sourceIds": [
+                "vaad-alliums"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "planotajs",
+          "heading": "Piezīme plānotājam",
+          "paragraphs": [
+            {
+              "text": "Rudens stādījumam sasaisti stādīšanas gadu ar nākamās vasaras ražu; atgādinājumā obligāti saglabā ķiploku veidu.",
+              "sourceIds": [
+                "garden-di-guide",
+                "vaad-alliums"
+              ]
+            }
+          ]
+        }
+      ],
+      "preservedCalendarActions": [
+        {
+          "kind": "Vasaras ķiploku stādīšana",
+          "months": [
+            3,
+            4,
+            5
+          ],
+          "window": "Pavasarī",
+          "condition": "Tiklīdz augsne gatava apstrādei.",
+          "datePrecision": "Orientējošs periods, nevis precīzs datums."
+        },
+        {
+          "kind": "Ziemas ķiploku stādīšana",
+          "months": [
+            10
+          ],
+          "window": "Oktobra pirmā un otrā dekāde",
+          "condition": "Izvērtē konkrētā rudens apstākļus.",
+          "datePrecision": "Orientējošs periods, nevis precīzs datums."
+        }
+      ],
+      "calendarRefinements": [],
+      "soilAndTemperature": [],
+      "harvest": {
+        "readinessBasis": "Stublāja lejasdaļas žūšana un izveidojušās, neatdalījušās daiviņas",
+        "periods": [
+          {
+            "label": "Ziemas ķiploki: jūlijs–augusts",
+            "months": [
+              7,
+              8
+            ],
+            "sourceIds": [
+              "garden-di-guide",
+              "vaad-alliums"
+            ],
+            "precision": "Orientējoši; nav garantēts ikgadējs datums.",
+            "scope": "Atšķirīgi avoti un šķirnes dod atšķirīgu sezonas logu."
+          },
+          {
+            "label": "Vasaras ķiploki: augusts–septembris",
+            "months": [
+              8,
+              9
+            ],
+            "sourceIds": [
+              "vaad-alliums"
+            ],
+            "precision": "Orientējoši; nav garantēts ikgadējs datums."
+          }
+        ],
+        "daysFromSowing": null
+      },
+      "sourceIds": [
+        "garden-di-guide",
+        "vaad-alliums"
+      ],
+      "publicConfidence": "Avotos pamatoti orientieri, nevis laikapstākļu vai ražas garantija.",
+      "editorialFactNotes": [
+        "Ražas logs jūlijs–augusts apzināti ietver DI un VAAD atšķirīgos ziemas ķiploku orientierus; priekšroka faktiskajai gatavībai."
+      ],
+      "regionalGuidanceRef": "latvia-regions",
+      "yearlyFrostGuardRef": "frost-guard",
+      "exactAnnualDate": null
+    },
+    {
+      "id": "puravi",
+      "name": "Puravi",
+      "canonical": "/sejas-kalendars/puravi/",
+      "title": "Puravu audzēšana: sēja, kopšana un raža",
+      "h1": "Puravu audzēšana Latvijā",
+      "description": "Puravu dēsti, izstādīšana un vēlā raža Latvijā. Pārbaudi šķirnes sezonu un atšķir dēstu vecumu no laika līdz novākšanai.",
+      "intro": {
+        "text": "Puravu ražas ilgumu nosaka šķirne. Vasaras un rudens lietošanai neizvēlies vienu kopīgu novākšanas datumu.",
+        "sourceIds": [
+          "vaad-alliums"
+        ]
+      },
+      "scope": "Latvijas mazdārzs; precīzu laiku pielāgo šķirnei un faktiskajiem apstākļiem.",
+      "sections": [
+        {
+          "id": "sakums",
+          "heading": "Kas jāzina pirms sējas",
+          "paragraphs": [
+            {
+              "text": "Puravu ražas ilgumu nosaka šķirne. Vasaras un rudens lietošanai neizvēlies vienu kopīgu novākšanas datumu.",
+              "sourceIds": [
+                "vaad-alliums"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "material",
+          "heading": "Sēklas vai dēsti",
+          "paragraphs": [
+            {
+              "text": "Parastajā plānā izmanto iepriekš izaudzētus dēstus; apmēram 50–60 dienas attiecas uz dēstu audzēšanu, nevis pilno ražas ciklu.",
+              "sourceIds": [
+                "garden-di-guide",
+                "vaad-alliums"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "vieta",
+          "heading": "Audzēšanas vieta",
+          "paragraphs": [
+            {
+              "text": "Lauka stādīšanai dēstus iepriekš salaisti un pārvieto piemērotos apstākļos. Aukstumizturība neatceļ konkrētās šķirnes un sezonas izvērtējumu.",
+              "sourceIds": [
+                "vaad-alliums"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "laiks",
+          "heading": "Kad sēt un stādīt",
+          "paragraphs": [
+            {
+              "text": "Esošais maija otrās un trešās dekādes logs paliek sākuma orientieris. Detalizētā vadlīnija apraksta arī plašāku periodu atkarībā no audzēšanas plāna.",
+              "sourceIds": [
+                "garden-di-guide",
+                "vaad-alliums"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "kopsana",
+          "heading": "Kopšana",
+          "paragraphs": [
+            {
+              "text": "Kopšanā seko mitrumam un barības vielu nodrošinājumam; mēslojumu pielāgo augsnes novērtējumam. Novācot nesasit un nesaloki stublājus.",
+              "sourceIds": [
+                "vaad-alliums"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "gataviba",
+          "heading": "Kad raža ir gatava",
+          "paragraphs": [
+            {
+              "text": "Ražu vāc no vasaras beigām līdz vēlam rudenim, bieži oktobrī. Viena pazīme ir vecāko lapu dzeltēšana; ņem vērā arī šķirnes paredzēto novākšanas laiku.",
+              "sourceIds": [
+                "vaad-alliums"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "kludas",
+          "heading": "No kā izvairīties",
+          "paragraphs": [
+            {
+              "text": "Neuzskati dēstu 50–60 dienu vecumu par ražas termiņu un neglabā novāktos stublājus saliektus.",
+              "sourceIds": [
+                "vaad-alliums"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "planotajs",
+          "heading": "Piezīme plānotājam",
+          "paragraphs": [
+            {
+              "text": "Glabā gan dēstu sējas, gan izstādīšanas datumu. Ražas logam izvēlies konkrētās šķirnes rudens vai vasaras plānu.",
+              "sourceIds": [
+                "vaad-alliums"
+              ]
+            }
+          ]
+        }
+      ],
+      "preservedCalendarActions": [
+        {
+          "kind": "Dēstu izstādīšana",
+          "months": [
+            5
+          ],
+          "window": "Maija otrā un trešā dekāde",
+          "condition": "Izmanto apmēram 50–60 dienas audzētus dēstus.",
+          "datePrecision": "Orientējošs periods, nevis precīzs datums."
+        }
+      ],
+      "calendarRefinements": [],
+      "soilAndTemperature": [],
+      "harvest": {
+        "readinessBasis": "Šķirnes sezona, izveidojies stublājs, vecāko lapu dzeltēšana",
+        "periods": [
+          {
+            "label": "Vasaras beigas–vēls rudens; bieži oktobris",
+            "months": [
+              8,
+              9,
+              10,
+              11
+            ],
+            "sourceIds": [
+              "vaad-alliums"
+            ],
+            "precision": "Orientējoši; nav garantēts ikgadējs datums.",
+            "monthMapping": "Vasaras beigu/vēla rudens sezonas attēlojums; nav visu mēnešu garantija."
+          }
+        ],
+        "daysFromSowing": null
+      },
+      "sourceIds": [
+        "garden-di-guide",
+        "vaad-alliums"
+      ],
+      "publicConfidence": "Avotos pamatoti orientieri, nevis laikapstākļu vai ražas garantija.",
+      "editorialFactNotes": [],
+      "regionalGuidanceRef": "latvia-regions",
+      "yearlyFrostGuardRef": "frost-guard",
+      "exactAnnualDate": null
+    },
+    {
+      "id": "zirni",
+      "name": "Zirņi",
+      "canonical": "/sejas-kalendars/zirni/",
+      "title": "Zirņu audzēšana: sēja, kopšana un raža",
+      "h1": "Zirņu audzēšana Latvijā",
+      "description": "Zirņu sēja un zaļās ražas plānošana Latvijā: agra pavasara augsne, mitrums, balsti un atšķirība starp svaigu un nobriedušu ražu.",
+      "intro": {
+        "text": "Zirņi ir piemēroti agrākai pavasara sējai nekā salnu jutīgās pupiņas. Svaigam patēriņam tos vāc pirms pilnīgas sēklu nobriešanas.",
+        "sourceIds": [
+          "garden-di-april",
+          "garden-di-guide"
+        ]
+      },
+      "scope": "Latvijas mazdārzs; precīzu laiku pielāgo šķirnei un faktiskajiem apstākļiem.",
+      "sections": [
+        {
+          "id": "sakums",
+          "heading": "Kas jāzina pirms sējas",
+          "paragraphs": [
+            {
+              "text": "Zirņi ir piemēroti agrākai pavasara sējai nekā salnu jutīgās pupiņas. Svaigam patēriņam tos vāc pirms pilnīgas sēklu nobriešanas.",
+              "sourceIds": [
+                "garden-di-april",
+                "garden-di-guide"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "material",
+          "heading": "Sēklas vai dēsti",
+          "paragraphs": [
+            {
+              "text": "Sēj sēklas dobē. Ja sēklas pirms sējas mērcētas, pēc tam īpaši rūpīgi nepieļauj augsnes izkalšanu.",
+              "sourceIds": [
+                "garden-di-april"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "vieta",
+          "heading": "Audzēšanas vieta",
+          "paragraphs": [
+            {
+              "text": "Dobei jābūt gatavai apstrādei un ar pietiekamu mitrumu. Mitra, auksta un pārmitra augsne nav viens un tas pats.",
+              "sourceIds": [
+                "garden-di-april"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "laiks",
+          "heading": "Kad sēt un stādīt",
+          "paragraphs": [
+            {
+              "text": "Saglabā aprīļa sākuma orientieri, vērtējot konkrētā pavasara augsni. Gada simtā diena ir tautas orientieris, nevis obligāta sējas prasība.",
+              "sourceIds": [
+                "garden-di-guide",
+                "garden-di-april"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "kopsana",
+          "heading": "Kopšana",
+          "paragraphs": [
+            {
+              "text": "Uzturi mitrumu un šķirnēm, kurām tas vajadzīgs, sagatavo balstus. Vēro sējuma attīstību.",
+              "sourceIds": [
+                "garden-di-april",
+                "garden-di-guide"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "gataviba",
+          "heading": "Kad raža ir gatava",
+          "paragraphs": [
+            {
+              "text": "Zaļajai ražai neatstāj sēklas līdz pilnīgam sausam briedumam. Ēdamām pākstīm un lobāmajiem zirņiem jāievēro atšķirīgās šķirnes norādes.",
+              "sourceIds": [
+                "garden-di-guide"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "kludas",
+          "heading": "No kā izvairīties",
+          "paragraphs": [
+            {
+              "text": "Nepārnes pupiņu siltuma prasības uz zirņiem un nesajauc zaļos zirnīšus ar sausu sēklu ražu.",
+              "sourceIds": [
+                "garden-di-april",
+                "garden-di-guide"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "planotajs",
+          "heading": "Piezīme plānotājam",
+          "paragraphs": [
+            {
+              "text": "Ieraksti šķirni un ražas mērķi; bez pārbaudīta šķirnes intervāla plānotājs nerāda izdomātu gatavības dienu.",
+              "sourceIds": [
+                "garden-di-guide"
+              ]
+            }
+          ]
+        }
+      ],
+      "preservedCalendarActions": [
+        {
+          "kind": "Sēja laukā",
+          "months": [
+            4
+          ],
+          "window": "Aprīļa sākums",
+          "condition": "Augsne gatava sējai; svarīgs mitrums.",
+          "datePrecision": "Orientējošs periods, nevis precīzs datums."
+        }
+      ],
+      "calendarRefinements": [],
+      "soilAndTemperature": [
+        {
+          "label": "Sēklu dīgšanas sākums",
+          "value": "1–2 °C",
+          "scope": "Sējas lēmumā joprojām jāvērtē mitrums un augsnes gatavība.",
+          "sourceId": "garden-di-april"
+        }
+      ],
+      "harvest": {
+        "readinessBasis": "Svaigam patēriņam pirms pilnīgas sēklu nobriešanas",
+        "periods": [],
+        "daysFromSowing": null
+      },
+      "sourceIds": [
+        "garden-di-april",
+        "garden-di-guide"
+      ],
+      "publicConfidence": "Avotos pamatoti orientieri, nevis laikapstākļu vai ražas garantija.",
+      "editorialFactNotes": [],
+      "regionalGuidanceRef": "latvia-regions",
+      "yearlyFrostGuardRef": "frost-guard",
+      "exactAnnualDate": null
+    },
+    {
+      "id": "pupinas",
+      "name": "Dārza pupiņas",
+      "canonical": "/sejas-kalendars/pupinas/",
+      "title": "Dārza pupiņu audzēšana: sēja, kopšana un raža",
+      "h1": "Dārza pupiņu audzēšana Latvijā",
+      "description": "Dārza pupiņu sēja Latvijā: silta augsne, salnu risks, krūmu un kāršu formas, kā arī pākšu un sauso sēklu ražas atšķirība.",
+      "intro": {
+        "text": "Dārza pupiņas ir salnu jutīgas. Izvēlies, vai audzēsi jaunām ēdamām pākstīm vai nobriedušām sausām sēklām.",
+        "sourceIds": [
+          "garden-di-guide",
+          "rhs-french-beans"
+        ]
+      },
+      "scope": "Latvijas mazdārzs; precīzu laiku pielāgo šķirnei un faktiskajiem apstākļiem.",
+      "sections": [
+        {
+          "id": "sakums",
+          "heading": "Kas jāzina pirms sējas",
+          "paragraphs": [
+            {
+              "text": "Dārza pupiņas ir salnu jutīgas. Izvēlies, vai audzēsi jaunām ēdamām pākstīm vai nobriedušām sausām sēklām.",
+              "sourceIds": [
+                "garden-di-guide",
+                "rhs-french-beans"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "material",
+          "heading": "Sēklas vai dēsti",
+          "paragraphs": [
+            {
+              "text": "Plānā paredzēta sēklu sēja. Krūmu un kāršu formas nošķir, jo augstajām formām vajadzīgi balsti.",
+              "sourceIds": [
+                "rhs-french-beans"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "vieta",
+          "heading": "Audzēšanas vieta",
+          "paragraphs": [
+            {
+              "text": "Āra dobē nesteidzies pēc pirmās siltās dienas. Augsnei jābūt iesilušai un dīgstiem jāpārdzīvo periods bez salnām.",
+              "sourceIds": [
+                "garden-di-guide"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "laiks",
+          "heading": "Kad sēt un stādīt",
+          "paragraphs": [
+            {
+              "text": "Saglabā maija otrās un trešās dekādes logu ar augsnes 10–12 °C nosacījumu. Aukstā pavasarī šo darbu atliek.",
+              "sourceIds": [
+                "garden-di-guide"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "kopsana",
+          "heading": "Kopšana",
+          "paragraphs": [
+            {
+              "text": "Augstajām formām balstus sagatavo laikus. Pākšu ražu pārbaudi regulāri, lai iecerētās jaunās pākstis nepāraug.",
+              "sourceIds": [
+                "rhs-french-beans"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "gataviba",
+          "heading": "Kad raža ir gatava",
+          "paragraphs": [
+            {
+              "text": "Pākšu pupiņām vāc vēl maigas, viegli lūstošas pākstis pirms izteiktiem sēklu izciļņiem. Sauso sēklu ražai sagaida pākšu nobriešanu un dzeltēšanu.",
+              "sourceIds": [
+                "rhs-french-beans",
+                "garden-di-guide"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "kludas",
+          "heading": "No kā izvairīties",
+          "paragraphs": [
+            {
+              "text": "Neattiecini dārza pupu agrā pavasara sēju uz salnu jutīgajām pupiņām. Pākšu ražai negaidi pilnīgu sēklu briedumu.",
+              "sourceIds": [
+                "garden-di-guide",
+                "rhs-french-beans"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "planotajs",
+          "heading": "Piezīme plānotājam",
+          "paragraphs": [
+            {
+              "text": "Atsevišķi atzīmē auga formu un produktu. Ārvalstu pākšu gatavības pazīmes nenozīmē, ka ārvalstu sējas datumi der Latvijai.",
+              "sourceIds": [
+                "rhs-french-beans",
+                "garden-di-guide"
+              ]
+            }
+          ]
+        }
+      ],
+      "preservedCalendarActions": [
+        {
+          "kind": "Sēja laukā",
+          "months": [
+            5
+          ],
+          "window": "Maija otrā un trešā dekāde",
+          "condition": "Augsne iesilusi līdz 10–12 °C; nepastāv salnu risks.",
+          "datePrecision": "Orientējošs periods, nevis precīzs datums."
+        }
+      ],
+      "calendarRefinements": [],
+      "soilAndTemperature": [
+        {
+          "label": "Augsne lauka sējai",
+          "value": "10–12 °C",
+          "scope": "Nepastāv salnu risks; nav universāls agrākais datums.",
+          "sourceId": "garden-di-guide"
+        }
+      ],
+      "harvest": {
+        "readinessBasis": "Divi dažādi produkti: jaunas pākstis vai nobriedušas sausās sēklas",
+        "periods": [],
+        "daysFromSowing": null
+      },
+      "sourceIds": [
+        "garden-di-guide",
+        "rhs-french-beans"
+      ],
+      "publicConfidence": "Avotos pamatoti orientieri, nevis laikapstākļu vai ražas garantija.",
+      "editorialFactNotes": [
+        "RHS izmantots tikai pākšu gatavības un auga formas atšķirībai. Apvienotās Karalistes sējas kalendārs netiek kopēts."
+      ],
+      "regionalGuidanceRef": "latvia-regions",
+      "yearlyFrostGuardRef": "frost-guard",
+      "exactAnnualDate": null
+    },
+    {
+      "id": "gurki",
+      "name": "Gurķi",
+      "canonical": "/sejas-kalendars/gurki/",
+      "title": "Gurķu audzēšana: sēja, kopšana un raža",
+      "h1": "Gurķu audzēšana Latvijā",
+      "description": "Gurķu sēja un stādīšana Latvijā: silta augsne, sala jutīgi dēsti, atsevišķs siltumnīcas plāns un regulāra pakāpeniska augļu novākšana.",
+      "intro": {
+        "text": "Gurķiem atšķir lauka un siltumnīcas plānu. Dēsti ļauj sākt audzēšanu segumā, bet tas pats par sevi nenozīmē, ka ārā jau ir droši.",
+        "sourceIds": [
+          "vaad-cucurbits"
+        ]
+      },
+      "scope": "Latvijas mazdārzs; precīzu laiku pielāgo šķirnei un faktiskajiem apstākļiem.",
+      "sections": [
+        {
+          "id": "sakums",
+          "heading": "Kas jāzina pirms sējas",
+          "paragraphs": [
+            {
+              "text": "Gurķiem atšķir lauka un siltumnīcas plānu. Dēsti ļauj sākt audzēšanu segumā, bet tas pats par sevi nenozīmē, ka ārā jau ir droši.",
+              "sourceIds": [
+                "vaad-cucurbits"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "material",
+          "heading": "Sēklas vai dēsti",
+          "paragraphs": [
+            {
+              "text": "Vari sēt dobē vai audzēt dēstus podiņos. Izstādi ar neskartu sakņu kamolu; pārauguši vai traumēti dēsti ieaug sliktāk.",
+              "sourceIds": [
+                "vaad-cucurbits"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "vieta",
+          "heading": "Audzēšanas vieta",
+          "paragraphs": [
+            {
+              "text": "Lauka dobē svarīga ir iesilusi augsne un beigušās salnas. Siltumnīcā atsevišķi vērtē nakts siltumu un faktisko augsnes temperatūru.",
+              "sourceIds": [
+                "vaad-cucurbits"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "laiks",
+          "heading": "Kad sēt un stādīt",
+          "paragraphs": [
+            {
+              "text": "Īsā DI ceļveža maija vidus atzīmi papildina detalizētā vadlīnija: tieša sēja laukā maija beigās siltā augsnē, dēstu izstādīšana pēc salnām ap jūnija sākumu.",
+              "sourceIds": [
+                "garden-di-guide",
+                "vaad-cucurbits"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "kopsana",
+          "heading": "Kopšana",
+          "paragraphs": [
+            {
+              "text": "Nodrošini mitrumu un ravējot saudzē saknes. Lielu nezāļu izraušana blakus augam var traumēt sakņu sistēmu.",
+              "sourceIds": [
+                "vaad-cucurbits"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "gataviba",
+          "heading": "Kad raža ir gatava",
+          "paragraphs": [
+            {
+              "text": "Vāc šķirnei atbilstoša izmēra augļus ar vēl maigu mizu un neizveidotām cietām sēklām. Raža ienākas pakāpeniski.",
+              "sourceIds": [
+                "vaad-cucurbits"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "kludas",
+          "heading": "No kā izvairīties",
+          "paragraphs": [
+            {
+              "text": "Neizstādi tikai tāpēc, ka pienācis maijs, un nejauc ražas vākšanas intervālu ar dienām līdz pirmajam auglim.",
+              "sourceIds": [
+                "vaad-cucurbits"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "planotajs",
+          "heading": "Piezīme plānotājam",
+          "paragraphs": [
+            {
+              "text": "Lauku un siltumnīcu saglabā atsevišķi. Plānotā datumā vispirms parādi augsnes un salnu pārbaudi.",
+              "sourceIds": [
+                "vaad-cucurbits"
+              ]
+            }
+          ]
+        }
+      ],
+      "preservedCalendarActions": [
+        {
+          "kind": "Sēja laukā",
+          "months": [
+            5
+          ],
+          "window": "Maija otrā dekāde kā avota orientieris",
+          "condition": "Siltumprasīgs augs; vietējais salnu risks un augsnes siltums jāvērtē pirms sējas.",
+          "datePrecision": "Orientējošs periods, nevis precīzs datums."
+        }
+      ],
+      "calendarRefinements": [
+        {
+          "label": "Tieša sēja laukā",
+          "months": [
+            5
+          ],
+          "condition": "Maija pēdējās dienas; augsne silta, salnu risks izvērtēts.",
+          "sourceIds": [
+            "vaad-cucurbits"
+          ],
+          "precision": "Orientējošs periods; piemērotību nosaka faktiskie apstākļi."
+        },
+        {
+          "label": "Dēstu izstādīšana laukā",
+          "months": [
+            6
+          ],
+          "condition": "Pēc pavasara salnām, parasti jūnija sākumā.",
+          "sourceIds": [
+            "vaad-cucurbits"
+          ],
+          "precision": "Orientējošs periods; piemērotību nosaka faktiskie apstākļi."
+        }
+      ],
+      "soilAndTemperature": [
+        {
+          "label": "Augsne tiešai lauka sējai",
+          "value": ">15 °C",
+          "scope": "Avota dīgšanas sākuma nosacījums; vēl jāpārbauda salnu risks.",
+          "sourceId": "vaad-cucurbits"
+        }
+      ],
+      "harvest": {
+        "readinessBasis": "Šķirnei raksturīgs lielums, maiga miza un nenobriedušas sēklas",
+        "periods": [],
+        "daysFromSowing": null,
+        "pickingIntervalDays": {
+          "value": [
+            1,
+            3
+          ],
+          "sourceId": "vaad-cucurbits",
+          "meaning": "Atkārtota augļu vākšana ražošanas laikā; nevis laiks no sējas līdz pirmajai ražai."
+        }
+      },
+      "sourceIds": [
+        "garden-di-guide",
+        "vaad-cucurbits"
+      ],
+      "publicConfidence": "Avotos pamatoti orientieri, nevis laikapstākļu vai ražas garantija.",
+      "editorialFactNotes": [
+        "Esošā maija otrās dekādes darbība saglabāta nemainīta izcelsmes laukā. Lietotāja plānam priekšroka detalizētās vadlīnijas augsnes/salnu nosacījumam un atsevišķai sējas/dēstu loģikai."
+      ],
+      "regionalGuidanceRef": "latvia-regions",
+      "yearlyFrostGuardRef": "frost-guard",
+      "exactAnnualDate": null
+    },
+    {
+      "id": "salati",
+      "name": "Salāti",
+      "canonical": "/sejas-kalendars/salati/",
+      "title": "Salātu audzēšana: sēja, kopšana un raža",
+      "h1": "Salātu audzēšana Latvijā",
+      "description": "Salātu sēja un dēsti Latvijas dārzā. Pielāgo šķirni sezonai, nepārkarsē siltumnīcu un novāc atbilstoši lapu vai galviņu tipam.",
+      "intro": {
+        "text": "Lapu un galviņsalātiem ražas gatavība nav vienāda. Izvēlies arī sezonai piemērotu šķirni, īpaši vasaras siltumnīcai.",
+        "sourceIds": [
+          "vaad-leafy"
+        ]
+      },
+      "scope": "Latvijas mazdārzs; precīzu laiku pielāgo šķirnei un faktiskajiem apstākļiem.",
+      "sections": [
+        {
+          "id": "sakums",
+          "heading": "Kas jāzina pirms sējas",
+          "paragraphs": [
+            {
+              "text": "Lapu un galviņsalātiem ražas gatavība nav vienāda. Izvēlies arī sezonai piemērotu šķirni, īpaši vasaras siltumnīcai.",
+              "sourceIds": [
+                "vaad-leafy"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "material",
+          "heading": "Sēklas vai dēsti",
+          "paragraphs": [
+            {
+              "text": "Var audzēt dēstus un pēc tam stādīt dobē. Stādot neapber lapu rozetes pamatni ar zemi.",
+              "sourceIds": [
+                "vaad-leafy"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "vieta",
+          "heading": "Audzēšanas vieta",
+          "paragraphs": [
+            {
+              "text": "Salāti der pavasara siltumnīcas apritei, taču vasaras vidū tur var būt pārāk karsti. Lauka un siltumnīcas vietu izvēlies atsevišķi.",
+              "sourceIds": [
+                "vaad-leafy"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "laiks",
+          "heading": "Kad sēt un stādīt",
+          "paragraphs": [
+            {
+              "text": "Saglabā aprīļa sēju un izstādīšanu no aprīļa vidus, ja apstākļi piemēroti. Agrīnajai sējai izvēlies atbilstošu šķirni un izvērtē salnu aizsardzību.",
+              "sourceIds": [
+                "garden-di-april",
+                "vaad-leafy"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "kopsana",
+          "heading": "Kopšana",
+          "paragraphs": [
+            {
+              "text": "Uzturi vienmērīgu mitrumu. Karstumā seko pārkaršanai; novākto ražu nesaspied un ātri novieto vēsumā.",
+              "sourceIds": [
+                "garden-di-april",
+                "vaad-leafy"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "gataviba",
+          "heading": "Kad raža ir gatava",
+          "paragraphs": [
+            {
+              "text": "Gatavību vērtē pēc salātu tipa: izveidojusies lapu rozete vai šķirnei raksturīga galviņa. Vāc sausus augus, karstumā — vēsākajā dienas daļā.",
+              "sourceIds": [
+                "vaad-leafy"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "kludas",
+          "heading": "No kā izvairīties",
+          "paragraphs": [
+            {
+              "text": "Neapber rozetes centru un nesolī vienādu augšanas ātrumu pavasarī un karstā vasarā.",
+              "sourceIds": [
+                "vaad-leafy"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "planotajs",
+          "heading": "Piezīme plānotājam",
+          "paragraphs": [
+            {
+              "text": "Ražas nepārtrauktībai veido vairākas atsevišķas sējas vai stādīšanas partijas. Katram ierakstam norādi sezonai piemēroto šķirni.",
+              "sourceIds": [
+                "garden-di-april",
+                "vaad-leafy"
+              ]
+            }
+          ]
+        }
+      ],
+      "preservedCalendarActions": [
+        {
+          "kind": "Sēja",
+          "months": [
+            4
+          ],
+          "window": "Aprīlis",
+          "condition": "Izvēlas agrīnai audzēšanai piemērotu šķirni.",
+          "datePrecision": "Orientējošs periods, nevis precīzs datums."
+        },
+        {
+          "kind": "Dēstu izstādīšana",
+          "months": [
+            4
+          ],
+          "window": "No aprīļa vidus",
+          "condition": "Vietējie apstākļi piemēroti; sargā no sala.",
+          "datePrecision": "Orientējošs periods, nevis precīzs datums."
+        }
+      ],
+      "calendarRefinements": [],
+      "soilAndTemperature": [],
+      "harvest": {
+        "readinessBasis": "Lapu vai galviņsalātu tips un šķirne",
+        "periods": [
+          {
+            "label": "Maija beigas–jūnija sākums",
+            "months": [
+              5,
+              6
+            ],
+            "sourceIds": [
+              "vaad-leafy"
+            ],
+            "precision": "Orientējoši; nav garantēts ikgadējs datums.",
+            "scope": "Avota piemērs dēstiem, kas laukā izstādīti aprīļa vidū vai beigās; nav visu sējumu grafiks."
+          }
+        ],
+        "daysFromSowing": null
+      },
+      "sourceIds": [
+        "garden-di-april",
+        "vaad-leafy"
+      ],
+      "publicConfidence": "Avotos pamatoti orientieri, nevis laikapstākļu vai ražas garantija.",
+      "editorialFactNotes": [],
+      "regionalGuidanceRef": "latvia-regions",
+      "yearlyFrostGuardRef": "frost-guard",
+      "exactAnnualDate": null
+    },
+    {
+      "id": "dilles",
+      "name": "Dilles",
+      "canonical": "/sejas-kalendars/dilles/",
+      "title": "Diļļu audzēšana: sēja, kopšana un raža",
+      "h1": "Diļļu audzēšana Latvijā",
+      "description": "Diļļu sēja un zaļumu raža Latvijā: atkārtotas sējas, mitrums un avotā norādītais orientieris no sējas līdz ražai atklātā laukā.",
+      "intro": {
+        "text": "Svaigiem zaļumiem un konservēšanai izvēlas atšķirīgu ražas mērķi. Zaļumu novākšana nav sēklu vai nobriedušu čemuru raža.",
+        "sourceIds": [
+          "vaad-umbels"
+        ]
+      },
+      "scope": "Latvijas mazdārzs; precīzu laiku pielāgo šķirnei un faktiskajiem apstākļiem.",
+      "sections": [
+        {
+          "id": "sakums",
+          "heading": "Kas jāzina pirms sējas",
+          "paragraphs": [
+            {
+              "text": "Svaigiem zaļumiem un konservēšanai izvēlas atšķirīgu ražas mērķi. Zaļumu novākšana nav sēklu vai nobriedušu čemuru raža.",
+              "sourceIds": [
+                "vaad-umbels"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "material",
+          "heading": "Sēklas vai dēsti",
+          "paragraphs": [
+            {
+              "text": "Šajā kalendārā dilles sēj tieši dobē. Izvēlies piemērotu šķirni un katrai sējai veido savu ierakstu.",
+              "sourceIds": [
+                "vaad-umbels"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "vieta",
+          "heading": "Audzēšanas vieta",
+          "paragraphs": [
+            {
+              "text": "Dobei vajadzīga mitrumu nodrošinoša, sagatavota augsne. Siltumnīcas aprite nav automātiski tas pats āra dienu skaits.",
+              "sourceIds": [
+                "garden-di-guide",
+                "vaad-umbels"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "laiks",
+          "heading": "Kad sēt un stādīt",
+          "paragraphs": [
+            {
+              "text": "Saglabā aprīļa sākuma sēju. Detalizētā vadlīnija pieļauj atkārtotas sējas ar 2–3 nedēļu intervālu, bet pēdējo sēju saista ar atlikušā bezsalnu laika ilgumu.",
+              "sourceIds": [
+                "garden-di-guide",
+                "vaad-umbels"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "kopsana",
+          "heading": "Kopšana",
+          "paragraphs": [
+            {
+              "text": "Laisti pēc vajadzības un ierobežo nezāles, saudzīgi irdinot rindstarpas.",
+              "sourceIds": [
+                "vaad-umbels"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "gataviba",
+          "heading": "Kad raža ir gatava",
+          "paragraphs": [
+            {
+              "text": "Zaļumiem avotā raksturota izaugusi lapu rozete, nevis sauss sēklu čemurs. Vāc sausā laikā un nepieļauj novākto zaļumu savīšanu.",
+              "sourceIds": [
+                "vaad-umbels"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "kludas",
+          "heading": "No kā izvairīties",
+          "paragraphs": [
+            {
+              "text": "Neizmanto zaļumu 55–60 dienu orientieri sēklu ražai un nevēlo sēju bez vietējā rudens salnu izvērtējuma.",
+              "sourceIds": [
+                "vaad-umbels"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "planotajs",
+          "heading": "Piezīme plānotājam",
+          "paragraphs": [
+            {
+              "text": "Plānotājs pēc sējas var atgādināt pārbaudīt zaļumu gatavību 55.–60. dienā. Faktiskā auga attīstība ir svarīgāka par atgādinājumu.",
+              "sourceIds": [
+                "vaad-umbels"
+              ]
+            }
+          ]
+        }
+      ],
+      "preservedCalendarActions": [
+        {
+          "kind": "Sēja laukā",
+          "months": [
+            4
+          ],
+          "window": "Aprīļa pirmā dekāde",
+          "condition": "Apstrādāta augsne un vienmērīgs mitrums.",
+          "datePrecision": "Orientējošs periods, nevis precīzs datums."
+        }
+      ],
+      "calendarRefinements": [],
+      "soilAndTemperature": [],
+      "harvest": {
+        "readinessBasis": "Zaļumu lapu rozete; ražas mērķis jānorāda",
+        "periods": [],
+        "daysFromSowing": {
+          "min": 55,
+          "max": 60,
+          "basis": "Sēja",
+          "scope": "Atklāta lauka diļļu zaļumu raža vadlīnijas apstākļos.",
+          "sourceId": "vaad-umbels",
+          "status": "Orientējošs pārbaudes intervāls, nevis gatavības garantija."
+        }
+      },
+      "sourceIds": [
+        "garden-di-guide",
+        "vaad-umbels"
+      ],
+      "publicConfidence": "Avotos pamatoti orientieri, nevis laikapstākļu vai ražas garantija.",
+      "editorialFactNotes": [
+        "Precīzi nodalīts no sējas līdz zaļumu ražai norādītais intervāls un avota atkārtoto sēju starplaiks; nevienu nedrīkst sajaukt ar sēklu ražu."
+      ],
+      "regionalGuidanceRef": "latvia-regions",
+      "yearlyFrostGuardRef": "frost-guard",
+      "exactAnnualDate": null
+    },
+    {
+      "id": "spinati",
+      "name": "Spināti",
+      "canonical": "/sejas-kalendars/spinati/",
+      "title": "Spinātu audzēšana: sēja, kopšana un raža",
+      "h1": "Spinātu audzēšana Latvijā",
+      "description": "Spinātu sēja un lapu raža Latvijā: pavasara dobe, sezonai piemērota šķirne, siltumnīcas karstums un gatavības pazīmes.",
+      "intro": {
+        "text": "Spinātu plānā izvēlies sezonai paredzētu šķirni. Pavasara, vasaras un pārziemināšanas šķirnes nav savstarpēji aizvietojamas bez izvērtējuma.",
+        "sourceIds": [
+          "vaad-leafy"
+        ]
+      },
+      "scope": "Latvijas mazdārzs; precīzu laiku pielāgo šķirnei un faktiskajiem apstākļiem.",
+      "sections": [
+        {
+          "id": "sakums",
+          "heading": "Kas jāzina pirms sējas",
+          "paragraphs": [
+            {
+              "text": "Spinātu plānā izvēlies sezonai paredzētu šķirni. Pavasara, vasaras un pārziemināšanas šķirnes nav savstarpēji aizvietojamas bez izvērtējuma.",
+              "sourceIds": [
+                "vaad-leafy"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "material",
+          "heading": "Sēklas vai dēsti",
+          "paragraphs": [
+            {
+              "text": "Šajā plānā izmanto tiešo sēju dobē vai siltumnīcas augsnē. Nesajauc to ar salātu dēstu izstādīšanas darbību.",
+              "sourceIds": [
+                "vaad-leafy"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "vieta",
+          "heading": "Audzēšanas vieta",
+          "paragraphs": [
+            {
+              "text": "Pavasarī spinātus var audzēt arī pirms siltummīlošām kultūrām siltumnīcā. Vasaras karstums un sausums samazina lapu kvalitāti.",
+              "sourceIds": [
+                "vaad-leafy"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "laiks",
+          "heading": "Kad sēt un stādīt",
+          "paragraphs": [
+            {
+              "text": "Esošais pavasara orientieris ir aprīlis. Rudens sējai vajadzīga piemērota agrīna šķirne un atsevišķs vietējās sezonas plāns.",
+              "sourceIds": [
+                "garden-di-april",
+                "vaad-leafy"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "kopsana",
+          "heading": "Kopšana",
+          "paragraphs": [
+            {
+              "text": "Seko mitrumam un lapu stāvoklim, siltumnīcā novērs pārkaršanu. Pēc novākšanas lapas drīz novieto vēsumā.",
+              "sourceIds": [
+                "vaad-leafy"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "gataviba",
+          "heading": "Kad raža ir gatava",
+          "paragraphs": [
+            {
+              "text": "Vadlīnija kā novākšanas stadiju norāda 5–6 lapas. Pārbaudi pašu augu, jo lapu veidošanās ātrumu maina sezona un šķirne.",
+              "sourceIds": [
+                "vaad-leafy"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "kludas",
+          "heading": "No kā izvairīties",
+          "paragraphs": [
+            {
+              "text": "Neieplāno visu vasaru vienai pavasara šķirnei un negaidi izdomātu vienādu dienu skaitu katram sējumam.",
+              "sourceIds": [
+                "vaad-leafy"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "planotajs",
+          "heading": "Piezīme plānotājam",
+          "paragraphs": [
+            {
+              "text": "Saglabā sezonas un audzēšanas vietas izvēli. Ražas atgādinājumā prasi pārbaudīt lapu skaitu.",
+              "sourceIds": [
+                "vaad-leafy"
+              ]
+            }
+          ]
+        }
+      ],
+      "preservedCalendarActions": [
+        {
+          "kind": "Sēja laukā",
+          "months": [
+            4
+          ],
+          "window": "Aprīlis",
+          "condition": "Augsne gatava sējai.",
+          "datePrecision": "Orientējošs periods, nevis precīzs datums."
+        }
+      ],
+      "calendarRefinements": [
+        {
+          "label": "Rudens sēja piemērotai agrīnai šķirnei",
+          "months": [
+            8,
+            9
+          ],
+          "condition": "Avotā minēts augusts un septembra sākums; jāpaspēj vietējā sezonā.",
+          "sourceIds": [
+            "vaad-leafy"
+          ],
+          "precision": "Orientējošs periods; piemērotību nosaka faktiskie apstākļi."
+        }
+      ],
+      "soilAndTemperature": [],
+      "harvest": {
+        "readinessBasis": "5–6 lapu stadija",
+        "periods": [],
+        "daysFromSowing": null,
+        "sourceId": "vaad-leafy"
+      },
+      "sourceIds": [
+        "garden-di-april",
+        "vaad-leafy"
+      ],
+      "publicConfidence": "Avotos pamatoti orientieri, nevis laikapstākļu vai ražas garantija.",
+      "editorialFactNotes": [],
+      "regionalGuidanceRef": "latvia-regions",
+      "yearlyFrostGuardRef": "frost-guard",
+      "exactAnnualDate": null
+    },
+    {
+      "id": "kartupeli",
+      "name": "Kartupeļi",
+      "canonical": "/sejas-kalendars/kartupeli/",
+      "title": "Kartupeļu audzēšana: sēja, kopšana un raža",
+      "h1": "Kartupeļu audzēšana Latvijā",
+      "description": "Kartupeļu stādīšana un ražas novākšana Latvijā: sēklas bumbuļi, augsnes gatavība un atšķirība starp agriem un glabājamiem kartupeļiem.",
+      "intro": {
+        "text": "Agrai ēšanai un ziemas glabāšanai kartupeļus novāc atšķirīgā gatavībā. Šķirni un lietojumu atzīmē jau pirms stādīšanas.",
+        "sourceIds": [
+          "vaad-potatoes"
+        ]
+      },
+      "scope": "Latvijas mazdārzs; precīzu laiku pielāgo šķirnei un faktiskajiem apstākļiem.",
+      "sections": [
+        {
+          "id": "sakums",
+          "heading": "Kas jāzina pirms sējas",
+          "paragraphs": [
+            {
+              "text": "Agrai ēšanai un ziemas glabāšanai kartupeļus novāc atšķirīgā gatavībā. Šķirni un lietojumu atzīmē jau pirms stādīšanas.",
+              "sourceIds": [
+                "vaad-potatoes"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "material",
+          "heading": "Sēklas vai dēsti",
+          "paragraphs": [
+            {
+              "text": "Šī plāna sākuma materiāls ir sēklas kartupeļu bumbuļi, nevis botānisko sēklu paciņa.",
+              "sourceIds": [
+                "garden-di-guide"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "vieta",
+          "heading": "Audzēšanas vieta",
+          "paragraphs": [
+            {
+              "text": "Stādi iesilušā, apstrādei gatavā augsnē. Ļoti agrā stādījumā jāņem vērā sadīgušo augu salnu risks.",
+              "sourceIds": [
+                "garden-di-guide",
+                "climate-may"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "laiks",
+          "heading": "Kad sēt un stādīt",
+          "paragraphs": [
+            {
+              "text": "Saglabā aprīļa beigu–maija logu, vērtējot vietējo augsni. Klimata vidējais stādīšanas laiks nav drošības garantija katram dārzam.",
+              "sourceIds": [
+                "garden-di-guide",
+                "climate-may"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "kopsana",
+          "heading": "Kopšana",
+          "paragraphs": [
+            {
+              "text": "Vēro stādījumu un novācot saudzē bumbuļus. Glabāšanai atlasīto ražu nesasit un ļauj tai apžūt piemērotos apstākļos.",
+              "sourceIds": [
+                "vaad-potatoes"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "gataviba",
+          "heading": "Kad raža ir gatava",
+          "paragraphs": [
+            {
+              "text": "Glabāšanas gatavību raksturo atmiruši laksti, izturīga bumbuļa miziņa un viegla atdalīšanās no stolona. Agriem ēšanas kartupeļiem šis nav tas pats mērķis.",
+              "sourceIds": [
+                "vaad-potatoes"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "kludas",
+          "heading": "No kā izvairīties",
+          "paragraphs": [
+            {
+              "text": "Nepieņem, ka jebkurš izrakts jauns bumbulis jau ir gatavs ilgai glabāšanai. Nepārnes vienu ražas datumu uz visām šķirnēm.",
+              "sourceIds": [
+                "vaad-potatoes"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "planotajs",
+          "heading": "Piezīme plānotājam",
+          "paragraphs": [
+            {
+              "text": "Ieraksti stādīšanu un lietojumu “agrai ēšanai” vai “glabāšanai”; pamatražai atgādini pārbaudīt miziņas noturību.",
+              "sourceIds": [
+                "vaad-potatoes"
+              ]
+            }
+          ]
+        }
+      ],
+      "preservedCalendarActions": [
+        {
+          "kind": "Stādīšana",
+          "months": [
+            4,
+            5
+          ],
+          "window": "Aprīļa beigas–maijs",
+          "condition": "Apstrādei gatava, iesilusi augsne; jāvērtē sadīgušo augu salnu risks.",
+          "datePrecision": "Orientējošs periods, nevis precīzs datums."
+        }
+      ],
+      "calendarRefinements": [],
+      "soilAndTemperature": [],
+      "harvest": {
+        "readinessBasis": "Glabāšanas ražai — nobriedusi miziņa un lakstu atmiršana",
+        "periods": [
+          {
+            "label": "Pamatražas novākšanu plāno pabeigt septembrī",
+            "months": [
+              9
+            ],
+            "sourceIds": [
+              "vaad-potatoes"
+            ],
+            "precision": "Orientējoši; nav garantēts ikgadējs datums.",
+            "scope": "Pamatraža Latvijas apstākļos; agrās ēšanas ražai atsevišķs plāns."
+          }
+        ],
+        "daysFromSowing": null
+      },
+      "sourceIds": [
+        "garden-di-guide",
+        "climate-may",
+        "vaad-potatoes"
+      ],
+      "publicConfidence": "Avotos pamatoti orientieri, nevis laikapstākļu vai ražas garantija.",
+      "editorialFactNotes": [],
+      "regionalGuidanceRef": "latvia-regions",
+      "yearlyFrostGuardRef": "frost-guard",
+      "exactAnnualDate": null
+    },
+    {
+      "id": "kaposti",
+      "name": "Kāposti",
+      "canonical": "/sejas-kalendars/kaposti/",
+      "title": "Galviņkāpostu audzēšana: sēja, kopšana un raža",
+      "h1": "Galviņkāpostu audzēšana Latvijā",
+      "description": "Galviņkāpostu dēsti, stādīšana un ražas gatavība Latvijā. Atšķir agrīnas un glabājamas šķirnes un vērtē galviņas blīvumu.",
+      "intro": {
+        "text": "Šis profils attiecas uz galviņkāpostiem. Brokoļiem, ziedkāpostiem un Briseles kāpostiem vajadzīgi savi ražas noteikumi.",
+        "sourceIds": [
+          "vaad-crucifers"
+        ]
+      },
+      "scope": "Galvenokārt baltie un sarkanie galviņkāposti; citiem kāpostaugiem vajadzīgs atsevišķs profils.",
+      "sections": [
+        {
+          "id": "sakums",
+          "heading": "Kas jāzina pirms sējas",
+          "paragraphs": [
+            {
+              "text": "Šis profils attiecas uz galviņkāpostiem. Brokoļiem, ziedkāpostiem un Briseles kāpostiem vajadzīgi savi ražas noteikumi.",
+              "sourceIds": [
+                "vaad-crucifers"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "material",
+          "heading": "Sēklas vai dēsti",
+          "paragraphs": [
+            {
+              "text": "Parastajā plānā izaudzē dēstus. Pirms izstādīšanas segumā augušos dēstus norūdi; vadlīnija galviņkāpostiem norāda 3–5 īstās lapas.",
+              "sourceIds": [
+                "vaad-crucifers"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "vieta",
+          "heading": "Audzēšanas vieta",
+          "paragraphs": [
+            {
+              "text": "Dēstu siltumnīca un pastāvīgā lauka dobe ir atšķirīgi posmi. Agrā stādījumā jāvērtē salnu aizsardzība.",
+              "sourceIds": [
+                "vaad-crucifers"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "laiks",
+          "heading": "Kad sēt un stādīt",
+          "paragraphs": [
+            {
+              "text": "Aprīļa sējas orientieri sasaisti ar šķirnes agrīnumu. Detalizētajā vadlīnijā agrīno un vēlo galviņkāpostu izstādīšanas logi atšķiras.",
+              "sourceIds": [
+                "garden-di-april",
+                "vaad-crucifers"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "kopsana",
+          "heading": "Kopšana",
+          "paragraphs": [
+            {
+              "text": "Sausumā nodrošini mitrumu un uzmanīgi ierobežo nezāles. Kopšanas darbos nelauz trauslās lapas.",
+              "sourceIds": [
+                "vaad-crucifers"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "gataviba",
+          "heading": "Kad raža ir gatava",
+          "paragraphs": [
+            {
+              "text": "Agrīno ražu vāc pakāpeniski, kad galviņas forma, krāsa un blīvums atbilst šķirnei. Glabājamos vēlos galviņkāpostus vēlams novākt pirms salnām.",
+              "sourceIds": [
+                "vaad-crucifers"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "kludas",
+          "heading": "No kā izvairīties",
+          "paragraphs": [
+            {
+              "text": "Nelieto vienu kopīgu “kāpostu” ražas datumu visai krustziežu grupai un neglabā stipri apsalušas galvas kā neapsalušu ražu.",
+              "sourceIds": [
+                "vaad-crucifers"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "planotajs",
+          "heading": "Piezīme plānotājam",
+          "paragraphs": [
+            {
+              "text": "Ieraksti galviņkāpostu šķirni, agrīnumu un lietojumu. Aprīļa sējas ieraksts pats vēl nenosaka stādīšanas vai ražas dienu.",
+              "sourceIds": [
+                "vaad-crucifers"
+              ]
+            }
+          ]
+        }
+      ],
+      "preservedCalendarActions": [
+        {
+          "kind": "Sēja dēstiem",
+          "months": [
+            4
+          ],
+          "window": "Aprīlis",
+          "condition": "Sēja neapkurinātā siltumnīcā, kad tajā ir piemēroti apstākļi.",
+          "datePrecision": "Orientējošs periods, nevis precīzs datums."
+        }
+      ],
+      "calendarRefinements": [],
+      "soilAndTemperature": [],
+      "harvest": {
+        "readinessBasis": "Šķirnei raksturīga galviņas forma, krāsa un blīvums",
+        "periods": [
+          {
+            "label": "Vēlā glabāšanas raža: pirms salnām",
+            "months": null,
+            "sourceIds": [
+              "vaad-crucifers"
+            ],
+            "precision": "Orientējoši; nav garantēts ikgadējs datums."
+          }
+        ],
+        "daysFromSowing": null
+      },
+      "sourceIds": [
+        "garden-di-april",
+        "vaad-crucifers"
+      ],
+      "publicConfidence": "Avotos pamatoti orientieri, nevis laikapstākļu vai ražas garantija.",
+      "editorialFactNotes": [],
+      "regionalGuidanceRef": "latvia-regions",
+      "yearlyFrostGuardRef": "frost-guard",
+      "exactAnnualDate": null
+    },
+    {
+      "id": "tomati",
+      "name": "Tomāti",
+      "canonical": "/sejas-kalendars/tomati/",
+      "title": "Tomātu audzēšana: sēja, kopšana un raža",
+      "h1": "Tomātu audzēšana Latvijā",
+      "description": "Tomātu dēsti un izstādīšana Latvijas apstākļos. Atšķir lauku no siltumnīcas, pārbaudi augsnes siltumu un augļu gatavību.",
+      "intro": {
+        "text": "Tomātu plānā vispirms norādi lauku vai siltumnīcu un šķirni. Apkurināta siltumnīca nav salīdzināma ar parastu āra dobi.",
+        "sourceIds": [
+          "garden-vaad-tomato"
+        ]
+      },
+      "scope": "Latvijas mazdārzs; precīzu laiku pielāgo šķirnei un faktiskajiem apstākļiem.",
+      "sections": [
+        {
+          "id": "sakums",
+          "heading": "Kas jāzina pirms sējas",
+          "paragraphs": [
+            {
+              "text": "Tomātu plānā vispirms norādi lauku vai siltumnīcu un šķirni. Apkurināta siltumnīca nav salīdzināma ar parastu āra dobi.",
+              "sourceIds": [
+                "garden-vaad-tomato"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "material",
+          "heading": "Sēklas vai dēsti",
+          "paragraphs": [
+            {
+              "text": "Latvijas lauka audzēšanai izmanto dēstus. Sējas laiku plāno atpakaļ no iespējamiem izstādīšanas apstākļiem, nevis viena datuma visiem.",
+              "sourceIds": [
+                "garden-vaad-tomato"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "vieta",
+          "heading": "Audzēšanas vieta",
+          "paragraphs": [
+            {
+              "text": "Laukā izstādi, kad vairs nedraud salnas un augsne iesilusi. Siltumnīcai jānovērtē tās segums, apkure un nakts temperatūra.",
+              "sourceIds": [
+                "garden-vaad-tomato"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "laiks",
+          "heading": "Kad sēt un stādīt",
+          "paragraphs": [
+            {
+              "text": "Lauka dēstiem avots apraksta apmēram 35–45 dienu audzēšanu un izstādīšanu jūnija sākumā vai vidū piemērotā laikā. Tas nav dienu skaits līdz tomātu ražai.",
+              "sourceIds": [
+                "garden-vaad-tomato"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "kopsana",
+          "heading": "Kopšana",
+          "paragraphs": [
+            {
+              "text": "Uzturi piemērotu mitrumu un mikroklimatu. Balstīšanu un auga veidošanu pielāgo izvēlētajam augšanas tipam.",
+              "sourceIds": [
+                "garden-vaad-tomato"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "gataviba",
+          "heading": "Kad raža ir gatava",
+          "paragraphs": [
+            {
+              "text": "Pilngatavībā auglim ir šķirnei raksturīgā krāsa un garša — ne visām šķirnēm tā ir sarkana. Krāsoties sākušu augļu novākšana nogatavināšanai ir atsevišķs mērķis.",
+              "sourceIds": [
+                "garden-vaad-tomato"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "kludas",
+          "heading": "No kā izvairīties",
+          "paragraphs": [
+            {
+              "text": "Nepārvērt dēstu audzēšanas ilgumu ražas taimerī un neizmanto sarkanu krāsu kā visu šķirņu gatavības noteikumu.",
+              "sourceIds": [
+                "garden-vaad-tomato"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "planotajs",
+          "heading": "Piezīme plānotājam",
+          "paragraphs": [
+            {
+              "text": "Glabā sējas un izstādīšanas datumus atsevišķi. Pārvietošanas atgādinājumā vispirms pārbaudi salnas un augsnes siltumu.",
+              "sourceIds": [
+                "garden-vaad-tomato"
+              ]
+            }
+          ]
+        }
+      ],
+      "preservedCalendarActions": [
+        {
+          "kind": "Sēja dēstiem laukam",
+          "months": [
+            4,
+            5
+          ],
+          "window": "Apmēram 35–45 dienas pirms plānotās izstādīšanas",
+          "condition": "Sējas laiku aprēķina no paredzētās vietas un apstākļiem.",
+          "datePrecision": "Orientējošs periods, nevis precīzs datums."
+        },
+        {
+          "kind": "Dēstu izstādīšana laukā",
+          "months": [
+            6
+          ],
+          "window": "Jūnija sākums vai vidus",
+          "condition": "Vairs nedraud salnas; augsne vismaz 14–15 °C.",
+          "datePrecision": "Orientējošs periods, nevis precīzs datums."
+        }
+      ],
+      "calendarRefinements": [],
+      "soilAndTemperature": [
+        {
+          "label": "Augsne pirms izstādīšanas laukā",
+          "value": "Vismaz 14–15 °C",
+          "scope": "Papildus jābeidzas salnu riskam; optimālā temperatūra avotā norādīta atsevišķi.",
+          "sourceId": "garden-vaad-tomato"
+        }
+      ],
+      "harvest": {
+        "readinessBasis": "Šķirnei raksturīga pilngatavības krāsa; nogatavināšanai izvēlas atsevišķu stadiju",
+        "periods": [],
+        "daysFromSowing": null,
+        "seedlingDurationDays": {
+          "min": 35,
+          "max": 45,
+          "sourceId": "garden-vaad-tomato",
+          "scope": "Avota aprīļa/maija lauka dēstu audzēšanas piemērs; NAV laiks līdz ražai."
+        }
+      },
+      "sourceIds": [
+        "garden-vaad-tomato"
+      ],
+      "publicConfidence": "Avotos pamatoti orientieri, nevis laikapstākļu vai ražas garantija.",
+      "editorialFactNotes": [],
+      "regionalGuidanceRef": "latvia-regions",
+      "yearlyFrostGuardRef": "frost-guard",
+      "exactAnnualDate": null
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "locale": "lv-LV",
+  "title": "Kā top dienas horoskopa teksts",
+  "shortDisclosure": "Dienas izklaides teksts tiek automātiski salikts no oriģinālas, ar mākslīgā intelekta palīdzību sagatavotas latviešu tekstu bankas. Astronomiskie aprēķini ir atlases dati, nevis astroloģijas pierādījums.",
+  "editorialDisclosure": "Tekstu banka ir oriģināli sagatavota latviešu valodā ar mākslīgā intelekta palīdzību. Automātiskā dienas izdevuma veidošanā tiek izvēlēti bankas teksti un dienas piezīme; katrai zīmei ir arī savs simboliskais profils.",
+  "selectionExplanation": "Dienas datums tiek noteikts Europe/Riga laika joslā. Aprēķinātās Saules un Mēness pozīcijas tiek izmantotas, izvēloties izklaides teksta variantus. Šī atlase nav individuālas dzimšanas kartes interpretācija.",
+  "astronomyNotice": "Saules un Mēness pozīciju aprēķins ir astronomisks apraksts. Tas nepierāda astroloģisku ietekmi uz cilvēka raksturu, attiecībām vai dzīves notikumiem. Teksta tēmas izmanto simbolisku, nevis zinātniski apstiprinātu saikni ar zodiaka zīmēm.",
+  "profileNotice": "Zīmju elementi un kvalitātes šeit raksturo populārās Rietumu astroloģijas simboliku. Profili nav personības vērtējumi un nenosaka, kādam cilvēkam jābūt vai kas ar viņu notiks.",
+  "entertainmentNotice": "Horoskops ir izklaides lasāmviela un aicinājums pārdomāt nelielas ikdienas izvēles. Tas negarantē nākotnes notikumus un nav pamats veselības, finanšu vai citiem nozīmīgiem lēmumiem.",
+  "wellbeingNotice": "Sadaļa “Ikdienas ritms” pievēršas parastām pauzēm, apkārtējai videi un ērtām nodarbju pārejām. Tajā nav diagnožu, ārstēšanas vai veselības rezultātu solījumu.",
+  "editionLabel": "Dienas izdevums",
+  "archiveLabel": "Iepriekšējais izdevums",
+  "profileLabel": "Zīmes simboliskais profils",
+  "sectionLabels": {
+    "overview": "Dienas noskaņa",
+    "love": "Attiecības",
+    "work": "Darbs un ieceres",
+    "wellbeing": "Ikdienas ritms",
+    "thought": "Doma dienai"
+  },
+  "profileSectionLabels": {
+    "profile": "Par zīmes simboliku",
+    "strengths": "Simboliskās stiprās puses",
+    "balance": "Līdzsvaram",
+    "dating": "Iepazīšanās",
+    "love": "Attiecības",
+    "work": "Darbs",
+    "everydayRhythm": "Ikdienas ritms"
+  },
+  "collectionSeo": {
+    "title": "Horoskops: 12 zodiaka zīmes un dienas tēmas",
+    "description": "Atrodi savas zodiaka zīmes dienas izklaides tekstu latviešu valodā. Attiecību, darba un ikdienas tēmas ar skaidru automātiskās atlases aprakstu.",
+    "keywords": [
+      "dienas horoskops",
+      "horoskops latviski",
+      "zodiaka zīmes",
+      "zīmju simbolika"
+    ],
+    "canonicalPath": "/horoskops/",
+    "language": "lv-LV"
+  },
+  "editorial": {
+    "originalLanguage": "lv-LV",
+    "aiAssisted": true,
+    "nativeEditorReviewed": false,
+    "expertAuthorClaim": false,
+    "externalSourceTextCopied": false
+  }
+}

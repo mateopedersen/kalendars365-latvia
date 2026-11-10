@@ -1,0 +1,273 @@
+{
+  "profiles": 12,
+  "themes": 36,
+  "paragraphs": 144,
+  "thoughts": 36,
+  "closings": 24,
+  "paragraphWordRange": [
+    36,
+    43
+  ],
+  "thoughtWordRange": [
+    10,
+    13
+  ],
+  "uniqueParagraphs": 144,
+  "uniqueThoughts": 36,
+  "wordCounts": {
+    "sakartots-sakums": {
+      "overview": 37,
+      "love": 36,
+      "work": 39,
+      "wellbeing": 37,
+      "thought": 10
+    },
+    "saruna-bez-steigas": {
+      "overview": 41,
+      "love": 38,
+      "work": 38,
+      "wellbeing": 38,
+      "thought": 10
+    },
+    "viena-lieta-lidz-galam": {
+      "overview": 39,
+      "love": 38,
+      "work": 39,
+      "wellbeing": 37,
+      "thought": 10
+    },
+    "vieta-jaunai-idejai": {
+      "overview": 39,
+      "love": 37,
+      "work": 38,
+      "wellbeing": 37,
+      "thought": 10
+    },
+    "mazais-drosmes-solis": {
+      "overview": 39,
+      "love": 38,
+      "work": 40,
+      "wellbeing": 38,
+      "thought": 10
+    },
+    "skaidras-robezas": {
+      "overview": 41,
+      "love": 39,
+      "work": 39,
+      "wellbeing": 39,
+      "thought": 10
+    },
+    "pacietibas-ritms": {
+      "overview": 40,
+      "love": 39,
+      "work": 39,
+      "wellbeing": 38,
+      "thought": 11
+    },
+    "kopigs-darbs": {
+      "overview": 42,
+      "love": 40,
+      "work": 39,
+      "wellbeing": 39,
+      "thought": 10
+    },
+    "prieks-detalas": {
+      "overview": 41,
+      "love": 39,
+      "work": 39,
+      "wellbeing": 38,
+      "thought": 10
+    },
+    "atbrivota-vieta": {
+      "overview": 40,
+      "love": 40,
+      "work": 39,
+      "wellbeing": 39,
+      "thought": 10
+    },
+    "uzklausit-lidz-galam": {
+      "overview": 40,
+      "love": 40,
+      "work": 39,
+      "wellbeing": 40,
+      "thought": 10
+    },
+    "vieglaks-plans": {
+      "overview": 40,
+      "love": 39,
+      "work": 39,
+      "wellbeing": 40,
+      "thought": 10
+    },
+    "pamanit-paveikto": {
+      "overview": 42,
+      "love": 39,
+      "work": 39,
+      "wellbeing": 39,
+      "thought": 13
+    },
+    "ierastais-cita-gaisma": {
+      "overview": 41,
+      "love": 39,
+      "work": 40,
+      "wellbeing": 39,
+      "thought": 10
+    },
+    "pardomats-jautajums": {
+      "overview": 40,
+      "love": 39,
+      "work": 40,
+      "wellbeing": 40,
+      "thought": 10
+    },
+    "dasna-uzmaniba": {
+      "overview": 40,
+      "love": 39,
+      "work": 40,
+      "wellbeing": 40,
+      "thought": 11
+    },
+    "savs-darba-temps": {
+      "overview": 41,
+      "love": 39,
+      "work": 40,
+      "wellbeing": 40,
+      "thought": 10
+    },
+    "pareja-starp-lietam": {
+      "overview": 40,
+      "love": 39,
+      "work": 41,
+      "wellbeing": 39,
+      "thought": 10
+    },
+    "speles-telpa": {
+      "overview": 39,
+      "love": 40,
+      "work": 40,
+      "wellbeing": 39,
+      "thought": 10
+    },
+    "solijums-sev": {
+      "overview": 39,
+      "love": 40,
+      "work": 40,
+      "wellbeing": 40,
+      "thought": 11
+    },
+    "parbaudit-pienemumu": {
+      "overview": 40,
+      "love": 41,
+      "work": 40,
+      "wellbeing": 40,
+      "thought": 10
+    },
+    "klusaks-fons": {
+      "overview": 40,
+      "love": 40,
+      "work": 38,
+      "wellbeing": 40,
+      "thought": 10
+    },
+    "noderiga-sadarbiba": {
+      "overview": 40,
+      "love": 39,
+      "work": 39,
+      "wellbeing": 40,
+      "thought": 10
+    },
+    "nepabeigtais-melnraksts": {
+      "overview": 40,
+      "love": 41,
+      "work": 39,
+      "wellbeing": 40,
+      "thought": 10
+    },
+    "laiks-vienkarsajam": {
+      "overview": 41,
+      "love": 40,
+      "work": 39,
+      "wellbeing": 40,
+      "thought": 11
+    },
+    "atgriezties-pie-galvena": {
+      "overview": 40,
+      "love": 39,
+      "work": 40,
+      "wellbeing": 41,
+      "thought": 10
+    },
+    "mazs-parkartojums": {
+      "overview": 40,
+      "love": 39,
+      "work": 39,
+      "wellbeing": 39,
+      "thought": 11
+    },
+    "silta-pateiciba": {
+      "overview": 40,
+      "love": 41,
+      "work": 40,
+      "wellbeing": 40,
+      "thought": 10
+    },
+    "atlauja-nezinat": {
+      "overview": 40,
+      "love": 40,
+      "work": 39,
+      "wellbeing": 39,
+      "thought": 10
+    },
+    "vairak-vietas-izvelei": {
+      "overview": 40,
+      "love": 40,
+      "work": 40,
+      "wellbeing": 40,
+      "thought": 10
+    },
+    "rupigs-noslegums": {
+      "overview": 40,
+      "love": 40,
+      "work": 40,
+      "wellbeing": 40,
+      "thought": 11
+    },
+    "diena-ar-rezerves-soli": {
+      "overview": 43,
+      "love": 40,
+      "work": 40,
+      "wellbeing": 39,
+      "thought": 10
+    },
+    "ista-briza-pauze": {
+      "overview": 40,
+      "love": 40,
+      "work": 40,
+      "wellbeing": 39,
+      "thought": 11
+    },
+    "ieraudzit-savu-ieguldijumu": {
+      "overview": 41,
+      "love": 40,
+      "work": 41,
+      "wellbeing": 40,
+      "thought": 10
+    },
+    "skaidra-valoda": {
+      "overview": 42,
+      "love": 40,
+      "work": 41,
+      "wellbeing": 41,
+      "thought": 11
+    },
+    "saglabat-zinkaribu": {
+      "overview": 40,
+      "love": 40,
+      "work": 41,
+      "wellbeing": 39,
+      "thought": 11
+    }
+  },
+  "errors": [],
+  "nativeEditorReviewed": false
+}

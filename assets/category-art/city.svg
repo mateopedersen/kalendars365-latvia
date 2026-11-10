@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 260" role="img" aria-labelledby="title desc">
+  <title id="title">Latvijas pilsētas</title>
+  <desc id="desc">Oriģināla telpiska ilustrācija tēmai “Latvijas pilsētas”.</desc>
+  <defs>
+    <linearGradient id="primary" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#49847b"/><stop offset=".55" stop-color="#49847b"/><stop offset="1" stop-color="#31545e"/></linearGradient>
+    <linearGradient id="side" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#31545e"/><stop offset="1" stop-color="#242430"/></linearGradient>
+    <linearGradient id="accent" x1=".1" y1="0" x2=".9" y2="1"><stop stop-color="#fff9e8"/><stop offset=".48" stop-color="#d89457"/><stop offset="1" stop-color="#31545e"/></linearGradient>
+    <linearGradient id="paper" x1="0" y1="0" x2=".9" y2="1"><stop stop-color="#fffefb"/><stop offset=".72" stop-color="#fff4dc"/><stop offset="1" stop-color="#dfd1c2"/></linearGradient>
+    <radialGradient id="glow"><stop stop-color="#d89457" stop-opacity=".34"/><stop offset="1" stop-color="#d89457" stop-opacity="0"/></radialGradient>
+    <filter id="shadow" x="-25%" y="-25%" width="150%" height="170%"><feDropShadow dx="0" dy="11" stdDeviation="8" flood-color="#29212e" flood-opacity=".26"/></filter>
+  </defs>
+  <circle cx="160" cy="127" r="116" fill="url(#glow)"/>
+  <ellipse cx="160" cy="132" rx="112" ry="63" transform="rotate(-16 160 132)" fill="none" stroke="#49847b" stroke-opacity=".17" stroke-width="2"/>
+  <circle cx="249" cy="78" r="5" fill="#d89457"/><circle cx="76" cy="171" r="3" fill="#49847b" opacity=".7"/>
+  <path d="M43 190q30-26 60-6 21-48 53-10 29-49 62-7 26-28 58-1v48H43Z" fill="#54836e"/><path d="M49 189h42v-53h31v53h15v-74h37v74h18v-45h29v45h49v27H49Z" fill="url(#primary)" filter="url(#shadow)"/><path d="m133 115 19-17 20 17zm44 0 15-17 18 17z" fill="url(#accent)"/><path d="M155 115V84h11v31m-8-31h5l-3-17Z" fill="url(#accent)"/><g fill="#f3d29a"><path d="M59 153h8v12h-8zm19 0h8v12h-8zm40-4h7v11h-7zm28-27h8v13h-8zm24 0h8v13h-8zm37 36h8v11h-8zm19 0h8v11h-8z"/></g><path d="M34 211q65-20 130 0t130 0" stroke="#a9d0c4" stroke-width="8" stroke-linecap="round"/>
+</svg>

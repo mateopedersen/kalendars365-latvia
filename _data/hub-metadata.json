@@ -1,0 +1,234 @@
+{
+  "pages": {
+    "/": {
+      "title": "Latvijas kalendārs, svētki un plānotājs",
+      "h1": "Latvijas kalendārs taviem plāniem.",
+      "description": "Latvijas kalendāri, svētku un vārda dienas, personīgie notikumi un rīki ikdienai. Izvēlies pilsētu, plāno dienu un veido kalendāru drukāšanai."
+    },
+    "/kalendars/": {
+      "title": "Latvijas kalendāri 2027–2030",
+      "h1": "Kalendāri Latvijai",
+      "description": "Atver 2027.–2030. gada kalendārus ar Latvijas svētku dienām un ISO nedēļu numuriem. Izvēlies gada, mēneša vai nedēļas pārskatu."
+    },
+    "/menesa-kalendars/": {
+      "title": "Mēneša kalendāri Latvijai",
+      "h1": "Mēneša kalendārs",
+      "description": "Izvēlies gadu un mēnesi, pārskati Latvijas svētku dienas un atver vajadzīgā datuma plānu. Pieejami 2027.–2030. gada mēnešu kalendāri."
+    },
+    "/nedelas-kalendars/": {
+      "title": "Nedēļas kalendāri un ISO nedēļu numuri",
+      "h1": "Nedēļas kalendārs",
+      "description": "Atrodi vajadzīgo ISO nedēļu un tās datumus. Nedēļas pārskats sākas pirmdienā un palīdz vienuviet pārskatīt darba un personīgos notikumus."
+    },
+    "/dienas-kalendars/": {
+      "title": "Dienas kalendārs un notikumi",
+      "h1": "Dienas kalendārs",
+      "description": "Izvēlies datumu un pārskati dienas notikumus, uzdevumus un piezīmes. Personīgos ierakstus vari glabāt savā pārlūkā un izdrukāt dienas plānu."
+    },
+    "/pdf-kalendari/": {
+      "title": "Kalendāri drukāšanai: PDF un WebP",
+      "h1": "PDF kalendāri",
+      "description": "Izvēlies 2027.–2030. gada kalendāru drukāšanai. Pieejami 15 dizaini PDF un WebP formātā, gada un mēneša izkārtojumi un personalizēšana."
+    },
+    "/tukss-kalendars/": {
+      "title": "Tukšs kalendārs drukāšanai",
+      "h1": "Tukšs kalendārs",
+      "description": "Sagatavo tukšu kalendāru saviem ierakstiem. Izvēlies gadu, mēnesi un dizainu, pielāgo virsrakstu un lejupielādē PDF vai WebP failu."
+    },
+    "/svetku-dienas/": {
+      "title": "Latvijas svētku dienas un brīvdienas",
+      "h1": "Latvijas svētku dienas",
+      "description": "Latvijas svētku dienas, atceres un atzīmējamās dienas vienuviet. Pārbaudi datumus, brīvdienu statusu un norādītos oficiālos avotus."
+    },
+    "/atceres-dienas/": {
+      "title": "Latvijas atceres un atzīmējamās dienas",
+      "h1": "Atceres dienas",
+      "description": "Latvijas atceres un atzīmējamo dienu datumi un to nozīme. Atšķir šīs dienas no likumā noteiktajām svētku brīvdienām."
+    },
+    "/svetki-un-tradicijas/": {
+      "title": "Latvijas svētki un tradīcijas",
+      "h1": "Svētki un tradīcijas Latvijā",
+      "description": "Iepazīsti Latvijas valsts svētkus, gadskārtu tradīcijas un atceres dienas. Atrodi datumus, skaidrojumus un katras tēmas avotus."
+    },
+    "/varda-dienas/": {
+      "title": "Vārda dienas Latvijā un vārdu kalendārs",
+      "h1": "Vārda dienas",
+      "description": "Meklē vārda dienu pēc vārda vai mēneša. Iepazīsties ar norādīto Valsts valodas centra saraksta versiju un informācijas pārbaudes statusu."
+    },
+    "/kalendars-ar-vardu/": {
+      "title": "Kalendārs ar vārdu un personīgu virsrakstu",
+      "h1": "Kalendārs ar vārdu",
+      "description": "Izveido kalendāru ar savu vārdu, fotoattēlu vai personīgu virsrakstu. Izvēlies dizainu un sagatavo PDF vai WebP failu savā ierīcē."
+    },
+    "/skolas-brivlaiki/": {
+      "title": "Skolas brīvlaiki Latvijā",
+      "h1": "Skolas brīvlaiki Latvijā",
+      "description": "Pārskati Latvijas skolēnu brīvlaiku un mācību gada datumus. Pie katra perioda norādīts avots vai tas, ka oficiālie datumi vēl nav publicēti."
+    },
+    "/darba-dienu-kalendars/": {
+      "title": "Darba dienu kalendārs Latvijai",
+      "h1": "Darba dienu kalendārs",
+      "description": "Pārskati darba dienu, nedēļas nogaļu un svētku brīvdienu skaitu Latvijā. Izvēlies gadu un mēnesi un pārbaudi aprēķina pieņēmumus."
+    },
+    "/darba-laika-kalendars/": {
+      "title": "Darba laika kalendārs un aprēķins",
+      "h1": "Darba laika kalendārs",
+      "description": "Aprēķini darba dienas izvēlētajā periodā un pielāgo darba nedēļu. Pārbaudi svētku dienu ietekmi un atsevišķi ievēro pārceltās darba dienas."
+    },
+    "/atvalinajuma-planotajs/": {
+      "title": "Atvaļinājuma plānotājs Latvijai",
+      "h1": "Atvaļinājuma plānotājs",
+      "description": "Savieno Latvijas svētku dienas un nedēļas nogales ar atvaļinājumu. Salīdzini atpūtas periodus un tiem vajadzīgo atvaļinājuma darba dienu skaitu."
+    },
+    "/garas-brivdienas/": {
+      "title": "Garās brīvdienas Latvijā 2027–2030",
+      "h1": "Garās brīvdienas",
+      "description": "Atrodi garās brīvdienas un atvaļinājuma iespējas 2027.–2030. gadā. Salīdzini svētku dienu un nedēļas nogaļu kombinācijas Latvijā."
+    },
+    "/datumu-kalkulators/": {
+      "title": "Datumu kalkulators: dienas starp datumiem",
+      "h1": "Datumu kalkulators",
+      "description": "Aprēķini dienu vai darba dienu skaitu starp datumiem. Pieskaiti vai atņem dienas un pārbaudi, vai aprēķinā iekļauts sākuma un beigu datums."
+    },
+    "/dienu-skaititajs/": {
+      "title": "Dienu skaitītājs līdz izvēlētam datumam",
+      "h1": "Dienu skaitītājs",
+      "description": "Uzzini, cik dienu atlicis līdz svētkiem, atvaļinājumam vai citam notikumam. Izvēlies datumu un piešķir savai laika atskaitei nosaukumu."
+    },
+    "/nedelu-numuri/": {
+      "title": "ISO nedēļu numuri un datumi",
+      "h1": "Nedēļu numuri",
+      "description": "Atrodi ISO nedēļas numuru un tās sākuma un beigu datumu. Pārskati gada nedēļas un to, kā nedēļu numerācija darbojas gadumijā."
+    },
+    "/mainu-grafiks/": {
+      "title": "Maiņu grafiks un darba cikls",
+      "h1": "Maiņu grafiks",
+      "description": "Izveido darba un brīvdienu ciklu no izvēlēta sākuma datuma. Pārskati maiņu grafiku, pielāgo cikla garumu un izdrukā rezultātu."
+    },
+    "/stundu-saraksts/": {
+      "title": "Stundu saraksts drukāšanai",
+      "h1": "Stundu saraksts",
+      "description": "Sagatavo pārskatāmu stundu sarakstu un plānu mācību nedēļai. Izvēlies kalendāra dizainu, pievieno virsrakstu un lejupielādē savu failu."
+    },
+    "/dienas-planotajs/": {
+      "title": "Dienas plānotājs ar notikumiem un piezīmēm",
+      "h1": "Dienas plānotājs",
+      "description": "Saplāno savu dienu ar notikumiem, uzdevumiem un piezīmēm. Ieraksti paliek tavā pārlūkā; dienas plānu vari sagatavot arī drukāšanai."
+    },
+    "/gimenes-kalendars/": {
+      "title": "Ģimenes kalendārs un kopīgi plāni",
+      "h1": "Ģimenes kalendārs",
+      "description": "Izveido ģimenes kalendāru ikdienas notikumiem un kopīgiem plāniem. Izvēlies dizainu, pievieno savu virsrakstu vai fotoattēlu un izdrukā kalendāru."
+    },
+    "/dzimsanas-dienu-kalendars/": {
+      "title": "Dzimšanas dienu kalendārs",
+      "h1": "Dzimšanas dienu kalendārs",
+      "description": "Izveido personīgu kalendāru nozīmīgiem datumiem un apsveikumiem. Izvēlies dizainu un virsrakstu un sagatavo PDF vai WebP failu."
+    },
+    "/meness-kalendars/": {
+      "title": "Mēness kalendārs Latvijai",
+      "h1": "Mēness kalendārs",
+      "description": "Pārskati jaunmēness, pilnmēness un ceturkšņu brīžus pēc ASV Jūras observatorijas datiem. Datumi un laiki parādīti Latvijas laika joslā."
+    },
+    "/meness-fazes/": {
+      "title": "Mēness fāzes un to precīzie brīži",
+      "h1": "Mēness fāzes",
+      "description": "Jaunmēness, pilnmēness un Mēness ceturkšņu datumi un laiki Latvijā. Izvēlies gadu un apskati katra astronomiskā notikuma brīdi."
+    },
+    "/pilnmeness/": {
+      "title": "Pilnmēness datumi un laiki Latvijā",
+      "h1": "Pilnmēness",
+      "description": "Atrodi pilnmēness datumus un precīzos brīžus Latvijas laika joslā. Pārskati gadu un mēnešu datus ar norādītu astronomisko avotu."
+    },
+    "/jaunmeness/": {
+      "title": "Jaunmēness datumi un laiki Latvijā",
+      "h1": "Jaunmēness",
+      "description": "Atrodi jaunmēness datumus un precīzos brīžus Latvijas laika joslā. Pārskati gadu un mēnešu datus ar norādītu astronomisko avotu."
+    },
+    "/saullekts-saulriets/": {
+      "title": "Saullēkts un saulriets Latvijas pilsētās",
+      "h1": "Saullēkts un saulriets",
+      "description": "Izvēlies Latvijas pilsētu un datumu un aprēķini aptuvenu saullēkta, saulrieta un dienas garumu. Laiki parādīti Europe/Riga laika joslā."
+    },
+    "/gadalaiki/": {
+      "title": "Gadalaiki: ekvinokcijas un saulgrieži",
+      "h1": "Gadalaiki",
+      "description": "Salīdzini meteoroloģisko un astronomisko gadalaiku sākumu. Pārskati ekvinokciju un saulgriežu precīzos brīžus Latvijas laikā."
+    },
+    "/astronomiskais-kalendars/": {
+      "title": "Astronomiskais kalendārs Latvijai",
+      "h1": "Astronomiskais kalendārs",
+      "description": "Saules laiki, Mēness fāzes, ekvinokcijas un saulgrieži vienuviet. Pārskati astronomiskos datumus un to vietējos laikus Latvijā."
+    },
+    "/izveidot-kalendaru/": {
+      "title": "Izveido savu kalendāru: PDF un WebP",
+      "h1": "Izveido savu kalendāru",
+      "description": "Izvēlies kalendāra veidu un dizainu, pievieno vārdu vai savu fotoattēlu. Sagatavo personalizētu PDF vai WebP failu tieši savā ierīcē."
+    },
+    "/horoskops/": {
+      "title": "Horoskopi un zodiaka zīmes",
+      "h1": "Horoskops",
+      "description": "Izvēlies zodiaka zīmi un apskati izklaidējošas dienas pārdomas ar norādītu publicēšanas datumu. Pieejams arī zodiaka zīmes kalkulators."
+    },
+    "/zodiaka-zimes/": {
+      "title": "Zodiaka zīmes un to datumi",
+      "h1": "Zodiaka zīmes",
+      "description": "Iepazīsti 12 tradicionālās Rietumu zodiaka zīmes un to datumu robežas. Atrodi zīmi pēc dzimšanas mēneša un dienas."
+    },
+    "/horoskopa-zimes-kalkulators/": {
+      "title": "Zodiaka zīmes kalkulators",
+      "h1": "Zodiaka zīmes kalkulators",
+      "description": "Ievadi dzimšanas datumu un atrodi tradicionālo Rietumu zodiaka zīmi. Robeždatumos Saules atrašanās vietas noteikšanai vajadzīgs precīzāks aprēķins."
+    },
+    "/visi-riki/": {
+      "title": "Visi kalendāri un plānošanas rīki",
+      "h1": "Visi rīki",
+      "description": "Atrodi kalendārus, datumu kalkulatorus un plānošanas rīkus vienuviet. Svētku un vārda dienas, Saules laiki, Mēness fāzes un personīgi plāni Latvijai."
+    },
+    "/meklesana/": {
+      "title": "Meklēšana vietnē",
+      "h1": "Meklē Kalendārā365",
+      "description": "Meklē vajadzīgo kalendāru, datumu, vārda dienu vai plānošanas rīku Kalendārā365. Vari rakstīt arī bez garumzīmēm un mīkstinājuma zīmēm."
+    },
+    "/par-projektu/": {
+      "title": "Par projektu un tā avotiem",
+      "h1": "Kalendārs Latvijas ikdienai.",
+      "description": "Iepazīsti Kalendāru365: Latvijas kalendāru un plānošanas vietni ar norādītiem avotiem, īstām pilsētu fotogrāfijām un privātiem plāniem tavā ierīcē."
+    },
+    "/kontakti/": {
+      "title": "Kontakti un ierosinājumi",
+      "h1": "Sazinies ar Kalendāru365",
+      "description": "Nosūti jautājumu, ierosinājumu vai paziņojumu par kļūdu Kalendāra365 uzturētājam. Apraksti problēmu un pievieno konkrētās lapas adresi."
+    },
+    "/privatuma-politika/": {
+      "title": "Privātuma politika un personīgie plāni",
+      "h1": "Privātuma politika",
+      "description": "Uzzini, kā Kalendārs365 glabā personīgos notikumus, piezīmes un iestatījumus un kā tiek apstrādāti vietnes pieprasījumi un saziņas dati."
+    },
+    "/sikdatnu-politika/": {
+      "title": "Sīkdatnes un vietējā krātuve",
+      "h1": "Sīkdatnes un vietējā krātuve",
+      "description": "Skaidrojums par Kalendāra365 pārlūkā saglabātajām izvēlēm un personīgajiem plāniem. Pārvaldi izvēles un uzzini, kā izveidot datu dublējumu."
+    },
+    "/lietošanas-noteikumi/": {
+      "title": "Lietošanas noteikumi",
+      "h1": "Lietošanas noteikumi",
+      "description": "Iepazīsties ar Kalendāra365 lietošanas noteikumiem, aprēķinu ierobežojumiem, personīgo datu glabāšanu un attēlu licencēm."
+    },
+    "/avoti-un-metodika/": {
+      "title": "Kalendāra datu avoti un metodika",
+      "h1": "Avoti un metodika",
+      "description": "Kalendāra365 oficiālie datu avoti un aprēķinu skaidrojumi: Latvijas svētki, vārda dienas, Mēness fāzes, Saules laiki un drukājamie faili."
+    },
+    "/labojumi/": {
+      "title": "Kļūdu ziņošana un precizējumi",
+      "h1": "Labojumi un precizējumi",
+      "description": "Pamani nepareizu datumu, nosaukumu vai aprēķinu? Uzzini, kā paziņot par kļūdu Kalendārā365 un kādu informāciju pievienot ziņai."
+    },
+    "/pieklustamiba/": {
+      "title": "Piekļūstamība un lietošana ar tastatūru",
+      "h1": "Piekļūstamība",
+      "description": "Uzzini par Kalendāra365 lietošanu ar tastatūru, datumu un vadīklu nosaukumiem un iespējām ziņot par piekļūstamības problēmu."
+    }
+  }
+}

@@ -4,7 +4,7 @@ const planning = require('../assets/planning.js');
 const markup = {};
 for (const kind of ['work', 'leave']) {
   markup[kind] = {};
-  for (let year = 2027; year <= 2030; year++) {
+  for (let year = 2026; year <= 2030; year++) {
     markup[kind][year] = planning.initialMarkup(kind, year);
   }
 }

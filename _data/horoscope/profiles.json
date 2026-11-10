@@ -1,0 +1,511 @@
+{
+  "version": 1,
+  "locale": "lv-LV",
+  "profiles": [
+    {
+      "slug": "auns",
+      "name": "Auns",
+      "genitive": "Auna",
+      "symbol": "♈",
+      "element": {
+        "key": "fire",
+        "label": "Uguns"
+      },
+      "modality": {
+        "key": "cardinal",
+        "label": "Kardināla"
+      },
+      "profile": "Populārajā astroloģijā Auna tēls simbolizē sākumu, iniciatīvu un gatavību iesaistīties. Tas ir stāsts par pirmo soli, nevis pierādīts cilvēka rakstura apraksts. Šo simboliku var izmantot kā ierosinājumu pamanīt, kur ikdienā noder skaidrs nodoms un kur labāk dot sev vēl mazliet laika.",
+      "summary": "Auna simboliskais stāsts aicina uzsākt ar skaidru nodomu un saglabāt uzmanību arī pēc pirmā entuziasma.",
+      "strengths": "Auna tēlam tradicionāli piedēvē uzņēmību un tiešumu. Ikdienas pārdomās tas var kļūt par pamudinājumu nosaukt ieceri un izmēģināt nelielu pirmo darbību.",
+      "balance": "Sākuma enerģiju simboliski līdzsvaro pacietība. Pirms steidzīgas atbildes vari noskaidrot vienu detaļu un pārliecināties, ka esi sadzirdējis arī otru cilvēku.",
+      "dating": "Iepazīstoties vari sākt ar vienkāršu, atvērtu jautājumu. Sarunai palīdz interese par atbildi, ne tikai drosme pateikt savu domu.",
+      "love": "Attiecību ikdienā noder skaidri vārdi un vieta otra skatījumam. Neliels kopīgs plāns var būt labs sarunas sākums bez vajadzības kaut ko pierādīt.",
+      "work": "Darba tēmā Auna simbolika saistās ar uzsākšanu. Izvēlies pārskatāmu uzdevuma daļu, nosauc gaidīto rezultātu un atstāj laiku arī pabeigšanai.",
+      "everydayRhythm": "Dienas ritmā vari pārmaiņus ieplānot darbošanos un īsu atelpu. Pāreja starp diviem darbiem palīdz pamanīt, ko vēlies darīt tālāk.",
+      "locale": "lv-LV",
+      "tradition": "Populārās Rietumu astroloģijas simbolika",
+      "seo": {
+        "title": "Auna horoskops: dienas tēmas un zīmes simbolika",
+        "description": "Auna simboliskais stāsts aicina uzsākt ar skaidru nodomu un saglabāt uzmanību arī pēc pirmā entuziasma. Dienas izklaides teksts, attiecību un ikdienas pārdomas.",
+        "keywords": [
+          "auns",
+          "auna horoskops",
+          "dienas horoskops",
+          "zodiaka zīme"
+        ],
+        "canonicalPath": "/horoskops/auns/",
+        "language": "lv-LV"
+      },
+      "editorial": {
+        "originalLanguage": "lv-LV",
+        "aiAssisted": true,
+        "nativeEditorReviewed": false,
+        "claims": "symbolic_entertainment"
+      }
+    },
+    {
+      "slug": "versis",
+      "name": "Vērsis",
+      "genitive": "Vērša",
+      "symbol": "♉",
+      "element": {
+        "key": "earth",
+        "label": "Zeme"
+      },
+      "modality": {
+        "key": "fixed",
+        "label": "Fiksēta"
+      },
+      "profile": "Vērša tēlu populārajā astroloģijā saista ar noturību, vienkāršām vērtībām un sajūtamu ikdienas pamatu. Tā ir simboliska valoda, nevis metode personības noteikšanai. Šajā stāstā uzmanība pievērsta lietām, kuras iespējams kopt soli pa solim, un prasmei pamanīt, kad ieradumam vajadzīgs neliels pielāgojums.",
+      "summary": "Vērša simbolikā satiekas pacietība, rūpība un prieks par vienkāršām, taustāmām ikdienas lietām.",
+      "strengths": "Tradicionālajā Vērša tēlā izcelta izturība un uzticamība. Ikdienā šis motīvs var atgādināt par regulāru uzmanību darbam, kuru gribas saglabāt.",
+      "balance": "Stabilitāti papildina elastība. Ja ierastā kārtība vairs neder, vari mainīt vienu tās daļu, nesteidzoties pārkārtot visu uzreiz.",
+      "dating": "Iepazīšanās sarunā noder nesteidzīgs temps un konkrēta interese. Vari pajautāt par vietu, nodarbi vai ikdienas prieku, ko otrs labprāt piemin.",
+      "love": "Kopā būšanu var izteikt arī ar vienkāršu uzmanību: atcerēties iepriekšējo sarunu, pajautāt par dienu vai vienoties par mierīgu kopīgu brīdi.",
+      "work": "Darba ieceri sadali secīgos soļos. Vērša simboliskais motīvs atgādina, ka rūpīgi veikta neliela daļa var būt vērtīgāka par neskaidru steigu.",
+      "everydayRhythm": "Ierastajam ritmam vari pievienot mazu svaiguma devu. Pārkārto vienu darba virsmas stūri vai izvēlies citu vietu īsai atelpai.",
+      "locale": "lv-LV",
+      "tradition": "Populārās Rietumu astroloģijas simbolika",
+      "seo": {
+        "title": "Vērša horoskops: dienas tēmas un zīmes simbolika",
+        "description": "Vērša simbolikā satiekas pacietība, rūpība un prieks par vienkāršām, taustāmām ikdienas lietām. Dienas izklaides teksts, attiecību un ikdienas pārdomas.",
+        "keywords": [
+          "vērsis",
+          "vērša horoskops",
+          "dienas horoskops",
+          "zodiaka zīme"
+        ],
+        "canonicalPath": "/horoskops/versis/",
+        "language": "lv-LV"
+      },
+      "editorial": {
+        "originalLanguage": "lv-LV",
+        "aiAssisted": true,
+        "nativeEditorReviewed": false,
+        "claims": "symbolic_entertainment"
+      }
+    },
+    {
+      "slug": "dvini",
+      "name": "Dvīņi",
+      "genitive": "Dvīņu",
+      "symbol": "♊",
+      "element": {
+        "key": "air",
+        "label": "Gaiss"
+      },
+      "modality": {
+        "key": "mutable",
+        "label": "Mainīga"
+      },
+      "profile": "Dvīņu tēls populārajā astroloģijā apzīmē ziņkārību, valodu un dažādu skatpunktu satikšanos. Tas nav zinātnisks cilvēka spēju vai uzvedības vērtējums. Simbolisko stāstu var lasīt kā aicinājumu uzdot labu jautājumu, dalīties idejā un pēc tam izvēlēties, kurai domai veltīt ilgāku uzmanību.",
+      "summary": "Dvīņu simbolika pievēršas sarunām, jaunām idejām un prasmei starp daudzām iespējām atrast vienu skaidru domu.",
+      "strengths": "Dvīņu tradicionālajā tēlā izcelta interese un saziņas vieglums. Šis motīvs var iedrošināt noskaidrot nepazīstamu jēdzienu vai uzklausīt citu pieredzi.",
+      "balance": "Dažādību līdzsvaro uzmanības noturēšana. Pieraksti blakus idejas, lai tās nepazustu, bet pašreizējam darbam atstāj vienu pārskatāmu galveno jautājumu.",
+      "dating": "Sarunas sākumam vari izmantot kopīgu novērojumu. Uzdod jautājumu, kuru patiešām gribi izpētīt, un necenties aizpildīt katru klusuma brīdi.",
+      "love": "Vārdi palīdz, ja tie atstāj vietu arī atbildei. Kopīgā sarunā vari pārjautāt, ko otrs domājis, pirms pievieno savu interpretāciju.",
+      "work": "Ideju apmaiņai noder īss pieraksts: jautājums, iespējamā pieeja un nākamā darbība. Tā saruna iegūst turpinājumu arī pēc tikšanās beigām.",
+      "everydayRhythm": "Starp jaunu iespaidu posmiem atvēli brīdi to sakārtošanai. Viena īsa piezīme var palīdzēt atcerēties, kuru domu vēlēsies turpināt.",
+      "locale": "lv-LV",
+      "tradition": "Populārās Rietumu astroloģijas simbolika",
+      "seo": {
+        "title": "Dvīņu horoskops: dienas tēmas un zīmes simbolika",
+        "description": "Dvīņu simbolika pievēršas sarunām, jaunām idejām un prasmei starp daudzām iespējām atrast vienu skaidru domu. Dienas izklaides teksts, attiecību un ikdienas pārdomas.",
+        "keywords": [
+          "dvīņi",
+          "dvīņu horoskops",
+          "dienas horoskops",
+          "zodiaka zīme"
+        ],
+        "canonicalPath": "/horoskops/dvini/",
+        "language": "lv-LV"
+      },
+      "editorial": {
+        "originalLanguage": "lv-LV",
+        "aiAssisted": true,
+        "nativeEditorReviewed": false,
+        "claims": "symbolic_entertainment"
+      }
+    },
+    {
+      "slug": "vezis",
+      "name": "Vēzis",
+      "genitive": "Vēža",
+      "symbol": "♋",
+      "element": {
+        "key": "water",
+        "label": "Ūdens"
+      },
+      "modality": {
+        "key": "cardinal",
+        "label": "Kardināla"
+      },
+      "profile": "Populārajā astroloģijā Vēža tēlu saista ar piederību, atmiņām un rūpēm par sev nozīmīgo. Šī ir simboliska tradīcija, nevis secinājums par konkrēta cilvēka jūtām. Tās ikdienas motīvs aicina pamanīt, kas rada mājīgumu, un izteikt vajadzības skaidri, negaidot, ka citi tās uzminēs.",
+      "summary": "Vēža simboliskais stāsts pievērš uzmanību piederībai, siltai saziņai un mazām lietām, kas rada māju sajūtu.",
+      "strengths": "Vēža tēlā tradicionāli izcelta vērība pret noskaņu un saiknēm. Ikdienas pārdomās tas var rosināt atcerēties cilvēku vai lietu, kam vēlies pievērsties.",
+      "balance": "Rūpes par citiem papildina skaidri izteikta paša vēlme. Vari pateikt, kas tev šobrīd būtu ērti, nepieņemot, ka otra atbilde jau zināma.",
+      "dating": "Iepazīstoties vari izvēlēties sarunu par vienkāršu pieredzi vai iemīļotu nodarbi. Personiskumu nav nepieciešams steigties palielināt jau pirmajā tikšanās reizē.",
+      "love": "Siltumu var parādīt ar uzmanīgu jautājumu vai atcerētu detaļu. Vienlaikus atstāj otram iespēju pateikt, kādu kopā būšanu viņš šobrīd vēlas.",
+      "work": "Darba vidē noder saprotama kārtība un vienošanās. Pirms palīdzēt kolēģim, noskaidro vajadzīgo rezultātu un to, kura daļa patiešām ir tavā pārziņā.",
+      "everydayRhythm": "Dienā vari saglabāt vienu pazīstamu pieturas punktu: īsu pierakstu, sakārtotu vietu vai mierīgu pāreju pēc darba. Izvēlies sev piemērotu formu.",
+      "locale": "lv-LV",
+      "tradition": "Populārās Rietumu astroloģijas simbolika",
+      "seo": {
+        "title": "Vēža horoskops: dienas tēmas un zīmes simbolika",
+        "description": "Vēža simboliskais stāsts pievērš uzmanību piederībai, siltai saziņai un mazām lietām, kas rada māju sajūtu. Dienas izklaides teksts, attiecību un ikdienas pārdomas.",
+        "keywords": [
+          "vēzis",
+          "vēža horoskops",
+          "dienas horoskops",
+          "zodiaka zīme"
+        ],
+        "canonicalPath": "/horoskops/vezis/",
+        "language": "lv-LV"
+      },
+      "editorial": {
+        "originalLanguage": "lv-LV",
+        "aiAssisted": true,
+        "nativeEditorReviewed": false,
+        "claims": "symbolic_entertainment"
+      }
+    },
+    {
+      "slug": "lauva",
+      "name": "Lauva",
+      "genitive": "Lauvas",
+      "symbol": "♌",
+      "element": {
+        "key": "fire",
+        "label": "Uguns"
+      },
+      "modality": {
+        "key": "fixed",
+        "label": "Fiksēta"
+      },
+      "profile": "Lauvas tēls populārajā astroloģijā simbolizē radošu pašizpausmi, sirsnību un vēlmi iesaistīties ar pilnu uzmanību. Tas nav pierādīts rakstura portrets vai solījums par panākumiem. Šo tēlu var izmantot pārdomām par to, ko gribas radīt, parādīt un dalīt ar citiem, saglabājot vietu arī viņu balsīm.",
+      "summary": "Lauvas simbolikā izcelta radoša izpausme, sirsnīgs žests un prieks dalīties ar to, kas pašam ir nozīmīgs.",
+      "strengths": "Tradicionālajā Lauvas tēlā sastopams dāsnums un vēlme iedvesmot. Ikdienā šis motīvs var pārtapt konkrētā atzinībā par cita cilvēka ieguldījumu.",
+      "balance": "Pašizpausmi līdzsvaro interese par atbildi. Pēc savas idejas izklāsta vari pajautāt, ko tajā pamana citi, un dot laiku viņu domām.",
+      "dating": "Iepazīstoties vari dalīties ar patiesi iemīļotu tēmu. Saruna kļūst dzīvāka, ja atļauj otram parādīt arī viņa aizrautību.",
+      "love": "Nelielam sirsnīgam žestam nav jābūt iespaidīgam. Pajautā, kas otram sagādātu prieku, un dod vietu kopīgam brīdim bez skatītājiem.",
+      "work": "Radošu ieceri vari parādīt ar vienu piemēru vai melnrakstu. Skaidri nosaukts mērķis palīdz saprast, par kuru daļu šoreiz vēlies saņemt atsauksmi.",
+      "everydayRhythm": "Atvēli dienā vietu kādai paša izvēlētai nodarbei. Zīmējums, melodija vai pāris rindiņu piezīmē var kļūt par nelielu radošu pieturu.",
+      "locale": "lv-LV",
+      "tradition": "Populārās Rietumu astroloģijas simbolika",
+      "seo": {
+        "title": "Lauvas horoskops: dienas tēmas un zīmes simbolika",
+        "description": "Lauvas simbolikā izcelta radoša izpausme, sirsnīgs žests un prieks dalīties ar to, kas pašam ir nozīmīgs. Dienas izklaides teksts, attiecību un ikdienas pārdomas.",
+        "keywords": [
+          "lauva",
+          "lauvas horoskops",
+          "dienas horoskops",
+          "zodiaka zīme"
+        ],
+        "canonicalPath": "/horoskops/lauva/",
+        "language": "lv-LV"
+      },
+      "editorial": {
+        "originalLanguage": "lv-LV",
+        "aiAssisted": true,
+        "nativeEditorReviewed": false,
+        "claims": "symbolic_entertainment"
+      }
+    },
+    {
+      "slug": "jaunava",
+      "name": "Jaunava",
+      "genitive": "Jaunavas",
+      "symbol": "♍",
+      "element": {
+        "key": "earth",
+        "label": "Zeme"
+      },
+      "modality": {
+        "key": "mutable",
+        "label": "Mainīga"
+      },
+      "profile": "Jaunavas tēlu populārajā astroloģijā saista ar vērību, praktisku palīdzību un vēlmi saprast, kā lietas darbojas. Tas nav zinātnisks personības apraksts. Simboliskais motīvs aicina atrast noderīgu detaļu, taču atcerēties arī kopainu un brīdi, kad paveiktais jau ir pietiekams pašreizējam mērķim.",
+      "summary": "Jaunavas simboliskais stāsts izceļ rūpīgu novērojumu un praktisku soli, kas padara ikdienas uzdevumu saprotamāku.",
+      "strengths": "Tradicionālajā Jaunavas tēlā uzsvērta precizitāte un spēja pamanīt uzlabojumu. Šis motīvs var noderēt, sakārtojot vienu bieži lietotu darba paņēmienu.",
+      "balance": "Rūpību papildina samērīgs mērķis. Pirms vēl vienas pārbaudes vari pajautāt, vai tā mainīs rezultātu, vai tikai paildzinās jau paveiktu darbu.",
+      "dating": "Iepazīšanās sarunā noder uzmanība pret dzirdēto. Atceries kādu otru interesējošu detaļu, bet nepadari tikšanos par jautājumu vai kritēriju sarakstu.",
+      "love": "Praktiska palīdzība ir vērtīga, ja tā tiešām vajadzīga. Vispirms pajautā, ko otrs vēlētos, un atstāj vietu arī vienkāršai kopā būšanai.",
+      "work": "Uzdevumam vari nosaukt gatavības pazīmes. Īss saraksts palīdz pabeigt būtisko un neļaut mazai detaļai aizņemt visu tai neparedzēto laiku.",
+      "everydayRhythm": "Izvēlies vienu nelielu lietu, ko sakārtot, un ieplāno arī atelpu. Visai dienai nav jākļūst par nepārtrauktu labojumu projektu.",
+      "locale": "lv-LV",
+      "tradition": "Populārās Rietumu astroloģijas simbolika",
+      "seo": {
+        "title": "Jaunavas horoskops: dienas tēmas un zīmes simbolika",
+        "description": "Jaunavas simboliskais stāsts izceļ rūpīgu novērojumu un praktisku soli, kas padara ikdienas uzdevumu saprotamāku. Dienas izklaides teksts, attiecību un ikdienas pārdomas.",
+        "keywords": [
+          "jaunava",
+          "jaunavas horoskops",
+          "dienas horoskops",
+          "zodiaka zīme"
+        ],
+        "canonicalPath": "/horoskops/jaunava/",
+        "language": "lv-LV"
+      },
+      "editorial": {
+        "originalLanguage": "lv-LV",
+        "aiAssisted": true,
+        "nativeEditorReviewed": false,
+        "claims": "symbolic_entertainment"
+      }
+    },
+    {
+      "slug": "svari",
+      "name": "Svari",
+      "genitive": "Svaru",
+      "symbol": "♎",
+      "element": {
+        "key": "air",
+        "label": "Gaiss"
+      },
+      "modality": {
+        "key": "cardinal",
+        "label": "Kardināla"
+      },
+      "profile": "Svaru tēls populārajā astroloģijā simbolizē savstarpēju attiecību, samēra un dažādu skatpunktu izsvēršanas tēmas. Tas nenosaka konkrēta cilvēka raksturu vai attiecību iznākumu. Šo simboliku var izmantot kā atgādinājumu uzklausīt abas puses un reizē pamanīt, ko pats vēlies pateikt vai izvēlēties nelielā ikdienas jautājumā.",
+      "summary": "Svaru simbolikā uzmanība pievērsta sarunas līdzsvaram, savstarpējai cieņai un skaidri izteiktai paša izvēlei.",
+      "strengths": "Tradicionālajā Svaru tēlā izcelta takta izjūta un interese par sadarbību. Ikdienā šis motīvs var palīdzēt saprotami formulēt kopīgu jautājumu.",
+      "balance": "Līdzsvars ne vienmēr nozīmē visiem vienādu atbildi. Vari nosaukt savu vienkāršo priekšroku un pēc tam noskaidrot, kā to saskaņot ar citiem.",
+      "dating": "Iepazīstoties vari piedāvāt vienkāršu sarunas virzienu, atstājot otram izvēli to turpināt. Nav nepieciešams uzreiz radīt nevainojamu iespaidu.",
+      "love": "Kopīgam ikdienas plānam palīdz konkrēti jautājumi: ko darīsim, kad un kādā tempā. Vienlaikus vari atļaut atšķirīgām gaumēm palikt atšķirīgām.",
+      "work": "Sadarbībā noskaidro, kurā jautājumā jāvienojas un kur iespējams strādāt patstāvīgi. Skaidras atbildības palīdz saglabāt vietu gan sarunai, gan darbam.",
+      "everydayRhythm": "Dienas plānā vari līdzās pienākumam ielikt patīkamu pieturu. Neliela vides vai nodarbes maiņa ļauj pašam izvēlēties ērtāku ritmu.",
+      "locale": "lv-LV",
+      "tradition": "Populārās Rietumu astroloģijas simbolika",
+      "seo": {
+        "title": "Svaru horoskops: dienas tēmas un zīmes simbolika",
+        "description": "Svaru simbolikā uzmanība pievērsta sarunas līdzsvaram, savstarpējai cieņai un skaidri izteiktai paša izvēlei. Dienas izklaides teksts, attiecību un ikdienas pārdomas.",
+        "keywords": [
+          "svari",
+          "svaru horoskops",
+          "dienas horoskops",
+          "zodiaka zīme"
+        ],
+        "canonicalPath": "/horoskops/svari/",
+        "language": "lv-LV"
+      },
+      "editorial": {
+        "originalLanguage": "lv-LV",
+        "aiAssisted": true,
+        "nativeEditorReviewed": false,
+        "claims": "symbolic_entertainment"
+      }
+    },
+    {
+      "slug": "skorpions",
+      "name": "Skorpions",
+      "genitive": "Skorpiona",
+      "symbol": "♏",
+      "element": {
+        "key": "water",
+        "label": "Ūdens"
+      },
+      "modality": {
+        "key": "fixed",
+        "label": "Fiksēta"
+      },
+      "profile": "Skorpiona tēls populārajā astroloģijā saistīts ar iedziļināšanos, uzmanību pret būtisko un jautājumiem par uzticēšanos. Tā ir simboliska tradīcija, nevis cilvēka nodomu nolasīšanas paņēmiens. Šo stāstu var izmantot, lai pārdomātu, kam vēlies veltīt pilnāku uzmanību un kur vajadzīgs vienkāršs precizējošs jautājums.",
+      "summary": "Skorpiona simboliskais stāsts aicina iedziļināties būtiskajā un nošķirt paša pieņēmumu no tā, kas tiešām pateikts.",
+      "strengths": "Tradicionālajā Skorpiona tēlā izcelta noturīga interese un vērība. Ikdienas motīvs var palīdzēt izpētīt vienu jautājumu līdz saprotamam nākamajam solim.",
+      "balance": "Iedziļināšanos līdzsvaro atklāts precizējums. Ja kaut kas palicis neskaidrs, vari pajautāt tieši, nemēģinot no klusuma izveidot gatavu secinājumu.",
+      "dating": "Iepazīšanās sarunā vari būt ieinteresēts, atstājot otram izvēli par personiskuma pakāpi. Uzticēšanās nav pārbaude, kas jāiztur pirmajā tikšanās reizē.",
+      "love": "Ikdienas tuvībai var noderēt godīgs, mierīgs teikums par šībrīža sajūtu vai vēlmi. Otram nav jāuzmin viss, ko vēl neesi pateicis.",
+      "work": "Sarežģītam uzdevumam nosauc vienu galveno jautājumu un savāc tam vajadzīgās detaļas. Atsevišķi pieraksti to, kas vēl tikai jānoskaidro.",
+      "everydayRhythm": "Pēc ilgākas koncentrēšanās vari apzināti nomainīt nodarbi. Vienkāršs sadzīves darbs vai īsa atelpa palīdz izveidot pāreju starp diviem posmiem.",
+      "locale": "lv-LV",
+      "tradition": "Populārās Rietumu astroloģijas simbolika",
+      "seo": {
+        "title": "Skorpiona horoskops: dienas tēmas un zīmes simbolika",
+        "description": "Skorpiona simboliskais stāsts aicina iedziļināties būtiskajā un nošķirt paša pieņēmumu no tā, kas tiešām pateikts. Dienas izklaides teksts, attiecību un ikdienas pārdomas.",
+        "keywords": [
+          "skorpions",
+          "skorpiona horoskops",
+          "dienas horoskops",
+          "zodiaka zīme"
+        ],
+        "canonicalPath": "/horoskops/skorpions/",
+        "language": "lv-LV"
+      },
+      "editorial": {
+        "originalLanguage": "lv-LV",
+        "aiAssisted": true,
+        "nativeEditorReviewed": false,
+        "claims": "symbolic_entertainment"
+      }
+    },
+    {
+      "slug": "strelnieks",
+      "name": "Strēlnieks",
+      "genitive": "Strēlnieka",
+      "symbol": "♐",
+      "element": {
+        "key": "fire",
+        "label": "Uguns"
+      },
+      "modality": {
+        "key": "mutable",
+        "label": "Mainīga"
+      },
+      "profile": "Strēlnieka tēls populārajā astroloģijā simbolizē plašāku redzesloku, jēgas meklējumus un vēlmi iepazīt nepazīstamo. Tas nav pareģojums par ceļojumiem vai pierādīts rakstura vērtējums. Šī simbolika var rosināt uzdot jautājumu par kopainu un pārvērst lielāku interesi vienā īstenojamā ikdienas darbībā.",
+      "summary": "Strēlnieka simbolikā satiekas ziņkārība par plašāko pasauli un vēlme saprast, kāpēc izvēlētā nodarbe ir nozīmīga.",
+      "strengths": "Tradicionālajā Strēlnieka tēlā izcelta atvērtība un ideju plašums. Ikdienā šis motīvs var kļūt par interesi iepazīt atšķirīgu pieredzi.",
+      "balance": "Plašajai iecerei noder konkrēts mērogs. Izvēlies vienu jautājumu, ko patiešām iespējams izpētīt, pirms pievieno plānam vēl vairāk virzienu.",
+      "dating": "Iepazīstoties vari pajautāt, ko otrs labprāt iemācītos vai izmēģinātu. Sarunai palīdz interese par pieredzi, nevis vajadzība pārliecināt par savu skatījumu.",
+      "love": "Kopīgai ikdienai var pievienot nelielu jaunu iespaidu. Piedāvā vienkāršu variantu un pajautā, kāda nodarbe šobrīd būtu patīkama arī otram.",
+      "work": "Pirms ķerties pie detaļām, nosauc uzdevuma jēgu. Pēc tam izvēlies mazu, pārbaudāmu soli, kas lielāko ieceri padara saprotamu arī citiem.",
+      "everydayRhythm": "Jaunam iespaidam nav jābūt tālam braucienam. Vari atvērt nepazīstamu grāmatas nodaļu vai pievērst uzmanību kādai ikdienā nepamanītai vietas detaļai.",
+      "locale": "lv-LV",
+      "tradition": "Populārās Rietumu astroloģijas simbolika",
+      "seo": {
+        "title": "Strēlnieka horoskops: dienas tēmas un zīmes simbolika",
+        "description": "Strēlnieka simbolikā satiekas ziņkārība par plašāko pasauli un vēlme saprast, kāpēc izvēlētā nodarbe ir nozīmīga. Dienas izklaides teksts, attiecību un ikdienas pārdomas.",
+        "keywords": [
+          "strēlnieks",
+          "strēlnieka horoskops",
+          "dienas horoskops",
+          "zodiaka zīme"
+        ],
+        "canonicalPath": "/horoskops/strelnieks/",
+        "language": "lv-LV"
+      },
+      "editorial": {
+        "originalLanguage": "lv-LV",
+        "aiAssisted": true,
+        "nativeEditorReviewed": false,
+        "claims": "symbolic_entertainment"
+      }
+    },
+    {
+      "slug": "mezazis",
+      "name": "Mežāzis",
+      "genitive": "Mežāža",
+      "symbol": "♑",
+      "element": {
+        "key": "earth",
+        "label": "Zeme"
+      },
+      "modality": {
+        "key": "cardinal",
+        "label": "Kardināla"
+      },
+      "profile": "Mežāža tēlu populārajā astroloģijā saista ar atbildību, uzbūvi un ilgākā laikā veidotu darbu. Tas nav apgalvojums par cilvēka vērtību, spēju vai nākotnes sasniegumiem. Simboliskais stāsts aicina atrast reālistisku nākamo pakāpienu un atcerēties, ka paša izvēlētajā plānā drīkst paredzēt arī atelpu.",
+      "summary": "Mežāža simboliskais stāsts pievēršas pārskatāmam plānam, atbildībai un nelieliem, secīgiem soļiem.",
+      "strengths": "Tradicionālajā Mežāža tēlā uzsvērta mērķtiecība un rūpīga uzbūve. Ikdienas pārdomās tas var palīdzēt nosaukt vienu pienākumu un tā izpildes robežas.",
+      "balance": "Atbildību papildina samērīgs apjoms. Vari pārskatīt, ko iespējams paveikt pašreizējā laikā, un neuzskatīt atelpu par nepabeigtu uzdevumu.",
+      "dating": "Iepazīstoties vari parādīt savu interesi ar konkrētu uzmanību. Vienkārša saruna par iemīļotu nodarbi atstāj vairāk vietas otram nekā gatavs spriedums.",
+      "love": "Kopīgus ikdienas darbus palīdz saskaņot īsa vienošanās. Atvēli vietu arī sarunai vai kopīgai nodarbei, kurai nav noteikta rezultāta.",
+      "work": "Darba plānā atšķir vajadzīgo no vēlamā. Nosauc tuvāko pārskatāmo posmu un laiku, kad novērtēsi, ko tam vēl vajag.",
+      "everydayRhythm": "Dienu vari sadalīt dažos skaidros posmos, atstājot starp tiem brīvu vietu. Plāns kalpo ikdienai, un to drīkst pielāgot gaitā.",
+      "locale": "lv-LV",
+      "tradition": "Populārās Rietumu astroloģijas simbolika",
+      "seo": {
+        "title": "Mežāža horoskops: dienas tēmas un zīmes simbolika",
+        "description": "Mežāža simboliskais stāsts pievēršas pārskatāmam plānam, atbildībai un nelieliem, secīgiem soļiem. Dienas izklaides teksts, attiecību un ikdienas pārdomas.",
+        "keywords": [
+          "mežāzis",
+          "mežāža horoskops",
+          "dienas horoskops",
+          "zodiaka zīme"
+        ],
+        "canonicalPath": "/horoskops/mezazis/",
+        "language": "lv-LV"
+      },
+      "editorial": {
+        "originalLanguage": "lv-LV",
+        "aiAssisted": true,
+        "nativeEditorReviewed": false,
+        "claims": "symbolic_entertainment"
+      }
+    },
+    {
+      "slug": "udensvirs",
+      "name": "Ūdensvīrs",
+      "genitive": "Ūdensvīra",
+      "symbol": "♒",
+      "element": {
+        "key": "air",
+        "label": "Gaiss"
+      },
+      "modality": {
+        "key": "fixed",
+        "label": "Fiksēta"
+      },
+      "profile": "Ūdensvīra tēls populārajā astroloģijā simbolizē neatkarīgu skatpunktu, jaunas pieejas un interesi par kopīgo. Tas nav pierādījums cilvēka oriģinalitātei vai nākotnes lomai. Šo simboliku var izmantot kā ierosinājumu pamanīt citu risinājumu, izstāstīt to saprotami un noskaidrot, kam tas praktiski noderētu.",
+      "summary": "Ūdensvīra simbolikā izcelts svaigs skatījums un vēlme atrast savienojumu starp paša ideju un kopīgu vajadzību.",
+      "strengths": "Tradicionālajā Ūdensvīra tēlā sastopama patstāvība un interese par neierastu pieeju. Ikdienā tas var rosināt izmēģināt vienu mazu paņēmiena maiņu.",
+      "balance": "Neparastai idejai noder saprotams piemērs. Pirms pieņemt, ka citi redz to pašu, izstāsti ieceri ikdienas vārdos un pajautā par praktisko pusi.",
+      "dating": "Iepazīstoties vari dalīties ar savādu, bet patiesu interesi. Atstāj vietu arī atšķirīgam skatījumam, nepārvēršot sarunu par domu sacensību.",
+      "love": "Attiecību ikdienā var būt vieta gan kopīgai iecerei, gan katra paša nodarbei. Pajautā, kāds līdzsvars šobrīd ir ērts jums abiem.",
+      "work": "Jaunu darba paņēmienu vari parādīt ar nelielu izmēģinājumu. Nosauc, kas tajā mainās un kādu ikdienas jautājumu gribi padarīt vienkāršāku.",
+      "everydayRhythm": "Vienu ierastu darbību vari paskatīt no cita rakursa. Saglabā pārējai dienai pazīstamu kārtību, lai jaunā ideja nepaņem visu uzmanību.",
+      "locale": "lv-LV",
+      "tradition": "Populārās Rietumu astroloģijas simbolika",
+      "seo": {
+        "title": "Ūdensvīra horoskops: dienas tēmas un zīmes simbolika",
+        "description": "Ūdensvīra simbolikā izcelts svaigs skatījums un vēlme atrast savienojumu starp paša ideju un kopīgu vajadzību. Dienas izklaides teksts, attiecību un ikdienas pārdomas.",
+        "keywords": [
+          "ūdensvīrs",
+          "ūdensvīra horoskops",
+          "dienas horoskops",
+          "zodiaka zīme"
+        ],
+        "canonicalPath": "/horoskops/udensvirs/",
+        "language": "lv-LV"
+      },
+      "editorial": {
+        "originalLanguage": "lv-LV",
+        "aiAssisted": true,
+        "nativeEditorReviewed": false,
+        "claims": "symbolic_entertainment"
+      }
+    },
+    {
+      "slug": "zivis",
+      "name": "Zivis",
+      "genitive": "Zivju",
+      "symbol": "♓",
+      "element": {
+        "key": "water",
+        "label": "Ūdens"
+      },
+      "modality": {
+        "key": "mutable",
+        "label": "Mainīga"
+      },
+      "profile": "Zivju tēlu populārajā astroloģijā saista ar iztēli, līdzjušanu un sajūtu niansēm. Šī ir simboliska valoda, nevis spēja nolasīt citu domas vai paredzēt notikumus. To var izmantot kā ierosinājumu pamanīt radošu domu un atrast tai vienkāršu, izsakāmu vai izdarāmu formu ikdienā.",
+      "summary": "Zivju simboliskais stāsts pievērš uzmanību iztēlei, uzmanīgai attieksmei un skaidrai formai paša iecerei.",
+      "strengths": "Tradicionālajā Zivju tēlā izcelta atsaucība un radoša iztēle. Ikdienā šis motīvs var kļūt par vērīgu novērojumu vai nelielu paša radītu darbu.",
+      "balance": "Iespaidus līdzsvaro konkrētība. Vari pierakstīt, ko patiešām dzirdēji vai vēlies izdarīt, lai sajūta nepārvērstos nepārbaudītā pieņēmumā.",
+      "dating": "Iepazīstoties vari izvēlēties vienkāršu jautājumu un ļaut atbildei būt negaidītai. Nav nepieciešams sarunai iepriekš izdomāt pilnu turpinājumu.",
+      "love": "Uzmanību otram papildina paša skaidri izteikta vēlme. Kopīga mūzikas klausīšanās, saruna vai mierīga nodarbe var kļūt par vienkāršu tikšanās punktu.",
+      "work": "Radošu domu vari pārvērst melnrakstā, piemērā vai īsā plānā. Viena redzama forma palīdz paskaidrot to, kas pagaidām bijis tikai iecerē.",
+      "everydayRhythm": "Starp iespaidiem vari atvēlēt brīdi bez jaunas informācijas. Pieraksti vienu svarīgu domu un ļauj pārējām pagaidām palikt nepabeigtām.",
+      "locale": "lv-LV",
+      "tradition": "Populārās Rietumu astroloģijas simbolika",
+      "seo": {
+        "title": "Zivju horoskops: dienas tēmas un zīmes simbolika",
+        "description": "Zivju simboliskais stāsts pievērš uzmanību iztēlei, uzmanīgai attieksmei un skaidrai formai paša iecerei. Dienas izklaides teksts, attiecību un ikdienas pārdomas.",
+        "keywords": [
+          "zivis",
+          "zivju horoskops",
+          "dienas horoskops",
+          "zodiaka zīme"
+        ],
+        "canonicalPath": "/horoskops/zivis/",
+        "language": "lv-LV"
+      },
+      "editorial": {
+        "originalLanguage": "lv-LV",
+        "aiAssisted": true,
+        "nativeEditorReviewed": false,
+        "claims": "symbolic_entertainment"
+      }
+    }
+  ],
+  "profileNotice": "Zīmju apraksti izmanto populārās Rietumu astroloģijas simboliku. Tie nav personības vērtējums un neparedz konkrētu dzīves notikumu iznākumu."
+}

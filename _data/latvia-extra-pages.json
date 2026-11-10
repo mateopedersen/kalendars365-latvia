@@ -1,0 +1,1031 @@
+{
+  "checkedAt": "2026-11-10",
+  "directTargets": [
+    {
+      "url": "/gada-diena/",
+      "family": "gada-diena",
+      "title": "Gada diena: kura diena ir šodien?",
+      "h1": "Gada diena",
+      "description": "Uzzini izvēlētā datuma kārtas numuru gadā un to, cik dienu līdz gada beigām atlicis. Aprēķins ņem vērā arī garos gadus.",
+      "intro": "Izvēlies datumu, lai redzētu tā kārtas numuru gadā. Šodienas datumu rāda pēc Latvijas laika. Atlikušo dienu skaitā izvēlēto dienu neieskaita.",
+      "sourceIds": [
+        "leap-usno"
+      ]
+    },
+    {
+      "url": "/darba-dienu-kalendars/2026/",
+      "family": "darba-dienu-kalendars",
+      "title": "Darba dienu kalendārs 2026. gadam",
+      "h1": "Darba dienu kalendārs 2026. gadam",
+      "description": "2026. gada darba dienas, svētku dienas un pārceltās darba dienas Latvijā. Atsevišķi apskati standarta un pārcelto dienu grafiku.",
+      "intro": "Plāno gadu ar Latvijas svētku un darba dienām. Pārcelto darba dienu režīmam ir noteikts piemērošanas loks; savam darba devējam raksturīgo grafiku pārbaudi atsevišķi.",
+      "sourceIds": [
+        "holiday-law",
+        "workdays-2026"
+      ]
+    },
+    {
+      "url": "/dienas-garums/",
+      "family": "dienas-garums",
+      "title": "Dienas garums Latvijas pilsētās",
+      "h1": "Dienas garums Latvijā",
+      "description": "Apskati dienas garumu, saullēktu un saulrietu izvēlētā Latvijas pilsētā. Salīdzini, kā gaišais laiks mainās gada gaitā.",
+      "intro": "Izvēlies pilsētu un datumu, lai salīdzinātu laiku starp saullēktu un saulrietu. Aprēķinātie laiki attiecas uz norādītajām koordinātām; vietējais horizonts var atšķirties.",
+      "sourceIds": [
+        "usno-services",
+        "usno-api"
+      ]
+    },
+    {
+      "url": "/pensiju-izmaksas/",
+      "family": "pensiju-izmaksas",
+      "title": "Pensiju izmaksas Latvijā: kā pārbaudīt datumu",
+      "h1": "Pensiju izmaksas Latvijā",
+      "description": "Uzzini, kur atrast savu pensijas izmaksas datumu un kā pārbaudīt VSAA ziņas par izmaksām pirms svētkiem. Viena datuma visiem nav.",
+      "intro": "Regulārās pensijas izmaksas datums jāskatās savā VSAA lēmumā. Pirmais maksājums var pienākt citā dienā, bet pirms svētkiem izmaiņas jāpārbauda aktuālajā VSAA paziņojumā.",
+      "sourceIds": [
+        "vsaa-faq",
+        "vsaa-holidays-2025"
+      ]
+    },
+    {
+      "url": "/pabalstu-izmaksas/",
+      "family": "pabalstu-izmaksas",
+      "title": "Pabalstu izmaksas Latvijā: datumi un VSAA lēmums",
+      "h1": "Pabalstu izmaksas Latvijā",
+      "description": "Pārbaudi, kā VSAA nosaka pabalsta izmaksas datumu un par kuru mēnesi veic maksājumu. Datums atkarīgs no pabalsta un lēmuma.",
+      "intro": "Pabalstu izmaksas kārtība atšķiras pēc pabalsta veida. Regulāro datumu meklē VSAA lēmumā, savukārt ziņas par pirmssvētku izmaiņām — jaunākajos aģentūras paziņojumos.",
+      "sourceIds": [
+        "vsaa-faq",
+        "vsaa-parent-payments",
+        "vsaa-holidays-2025"
+      ]
+    },
+    {
+      "url": "/darba-dienu-kalkulators/",
+      "family": "darba-dienu-kalkulators",
+      "title": "Darba dienu kalkulators Latvijai",
+      "h1": "Darba dienu kalkulators",
+      "description": "Aprēķini darba dienas starp diviem datumiem, ņemot vērā Latvijas svētku dienas, izvēlēto darba nedēļu un pārcelto dienu režīmu.",
+      "intro": "Norādi sākuma un beigu datumu un izvēlies savu darba nedēļu. Aprēķina iestatījumos redzams, vai iekļauta sākuma un beigu diena un kā piemēro pārceltās darba dienas.",
+      "sourceIds": [
+        "holiday-law",
+        "workdays-2026"
+      ]
+    },
+    {
+      "url": "/kalendars/2026/decembris/",
+      "family": "kalendars",
+      "title": "2026. gada decembra kalendārs",
+      "h1": "2026. gada decembra kalendārs",
+      "description": "Apskati 2026. gada kalendāru decembrī ar Latvijas svētku dienām un nedēļu numuriem. Atver arī blakus mēnešus vai visa gada pārskatu.",
+      "intro": "2026. gada kalendārs decembrī ar dienu izvietojumu pa nedēļām. Svētku dienu atzīmes balstītas Latvijas kalendārā; darba dienu pārcelšana ir atsevišķs iestatījums.",
+      "sourceIds": [
+        "holiday-law",
+        "leap-usno"
+      ]
+    },
+    {
+      "url": "/kalendars/2026/",
+      "family": "kalendars",
+      "title": "2026. gada kalendārs",
+      "h1": "2026. gada kalendārs",
+      "description": "2026. gada kalendārs ar visiem mēnešiem, Latvijas svētku dienām un nedēļu numuriem. Atver mēneša skatu vai sagatavo kalendāru drukai.",
+      "intro": "Viss 2026. gads vienā pārskatā. Izvēlies mēnesi, pārbaudi Latvijas svētku dienas vai sagatavo sev piemērotu kalendāra izdruku.",
+      "sourceIds": [
+        "holiday-law",
+        "leap-usno"
+      ]
+    },
+    {
+      "url": "/kalendars/2026/novembris/",
+      "family": "kalendars",
+      "title": "2026. gada novembra kalendārs",
+      "h1": "2026. gada novembra kalendārs",
+      "description": "Apskati 2026. gada kalendāru novembrī ar Latvijas svētku dienām un nedēļu numuriem. Atver arī blakus mēnešus vai visa gada pārskatu.",
+      "intro": "2026. gada kalendārs novembrī ar dienu izvietojumu pa nedēļām. Svētku dienu atzīmes balstītas Latvijas kalendārā; darba dienu pārcelšana ir atsevišķs iestatījums.",
+      "sourceIds": [
+        "holiday-law",
+        "leap-usno"
+      ]
+    },
+    {
+      "url": "/kalendars/2026/oktobris/",
+      "family": "kalendars",
+      "title": "2026. gada oktobra kalendārs",
+      "h1": "2026. gada oktobra kalendārs",
+      "description": "Apskati 2026. gada kalendāru oktobrī ar Latvijas svētku dienām un nedēļu numuriem. Atver arī blakus mēnešus vai visa gada pārskatu.",
+      "intro": "2026. gada kalendārs oktobrī ar dienu izvietojumu pa nedēļām. Svētku dienu atzīmes balstītas Latvijas kalendārā; darba dienu pārcelšana ir atsevišķs iestatījums.",
+      "sourceIds": [
+        "holiday-law",
+        "leap-usno"
+      ]
+    },
+    {
+      "url": "/meness-kalendars/2026/decembris/",
+      "family": "meness-kalendars",
+      "title": "Mēness kalendārs 2026. gada decembrī",
+      "h1": "Mēness kalendārs 2026. gada decembrī",
+      "description": "Mēness fāzes 2026. gada decembrī un to datumi pēc Latvijas laika. Pilsētas izvēle nosaka vietējos Mēness lēkta un rieta aprēķinus.",
+      "intro": "Apskati Mēness fāzes 2026. gada decembrī. Fāzes iestāšanās ir kopīgs astronomisks brīdis, bet vietējais datums un Mēness lēkts un riets jāvērtē izvēlētajā laika joslā un vietā.",
+      "sourceIds": [
+        "usno-api",
+        "usno-services"
+      ]
+    },
+    {
+      "url": "/meness-kalendars/2026/",
+      "family": "meness-kalendars",
+      "title": "Mēness kalendārs 2026. gadam",
+      "h1": "Mēness kalendārs 2026. gadam",
+      "description": "2026. gada Mēness fāzes pēc Latvijas laika: jauns Mēness, pirmais ceturksnis, pilnmēness un pēdējais ceturksnis.",
+      "intro": "Apskati Mēness fāžu gada pārskatu. Brīžus rāda pēc Latvijas laika, savukārt lēkta un rieta laiki ir atkarīgi no izvēlētās pilsētas koordinātām.",
+      "sourceIds": [
+        "usno-api",
+        "usno-services"
+      ]
+    },
+    {
+      "url": "/meness-kalendars/2026/novembris/",
+      "family": "meness-kalendars",
+      "title": "Mēness kalendārs 2026. gada novembrī",
+      "h1": "Mēness kalendārs 2026. gada novembrī",
+      "description": "Mēness fāzes 2026. gada novembrī un to datumi pēc Latvijas laika. Pilsētas izvēle nosaka vietējos Mēness lēkta un rieta aprēķinus.",
+      "intro": "Apskati Mēness fāzes 2026. gada novembrī. Fāzes iestāšanās ir kopīgs astronomisks brīdis, bet vietējais datums un Mēness lēkts un riets jāvērtē izvēlētajā laika joslā un vietā.",
+      "sourceIds": [
+        "usno-api",
+        "usno-services"
+      ]
+    },
+    {
+      "url": "/meness-kalendars/2026/oktobris/",
+      "family": "meness-kalendars",
+      "title": "Mēness kalendārs 2026. gada oktobrī",
+      "h1": "Mēness kalendārs 2026. gada oktobrī",
+      "description": "Mēness fāzes 2026. gada oktobrī un to datumi pēc Latvijas laika. Pilsētas izvēle nosaka vietējos Mēness lēkta un rieta aprēķinus.",
+      "intro": "Apskati Mēness fāzes 2026. gada oktobrī. Fāzes iestāšanās ir kopīgs astronomisks brīdis, bet vietējais datums un Mēness lēkts un riets jāvērtē izvēlētajā laika joslā un vietā.",
+      "sourceIds": [
+        "usno-api",
+        "usno-services"
+      ]
+    },
+    {
+      "url": "/meness-aptumsums/",
+      "family": "meness-aptumsums",
+      "title": "Mēness aptumsumi un to redzamība Latvijā",
+      "h1": "Mēness aptumsumi",
+      "description": "Apskati Mēness aptumsumu datumus un uzzini, kā to redzamība atkarīga no izvēlētās Latvijas pilsētas un Mēness atrašanās virs horizonta.",
+      "intro": "Mēness aptumsums ir redzams tikai tajās vietās un fāzēs, kurās Mēness atrodas virs horizonta. Pasaules aptumsuma datums viens pats nenosaka, ko varēs redzēt izvēlētajā Latvijas pilsētā.",
+      "sourceIds": [
+        "nasa-lunar",
+        "usno-lunar-local"
+      ]
+    },
+    {
+      "url": "/perseidas/",
+      "family": "perseidas",
+      "title": "Perseīdas Latvijā: kad un kā vērot meteorus",
+      "h1": "Perseīdas Latvijā",
+      "description": "Uzzini, kas ir Perseīdas un kas jāņem vērā, izvēloties augusta nakti meteoru vērošanai Latvijā: tumsa, Mēness un laikapstākļi.",
+      "intro": "Perseīdu meteoru plūsma saistīta ar komētu 109P/Swift–Tuttle. Vērošanai izvēlies tumšu vietu ar plašu skatu uz debesīm; spožs Mēness un mākoņi var būtiski samazināt redzamo meteoru skaitu.",
+      "sourceIds": [
+        "nasa-perseids",
+        "nasa-sky-2026-08"
+      ]
+    },
+    {
+      "url": "/atceres-dienas/aprilis/",
+      "family": "atceres-dienas",
+      "title": "Atceres un atzīmējamās dienas aprīlī",
+      "h1": "Atceres un atzīmējamās dienas aprīlī",
+      "description": "Latvijas likumā noteiktās atceres un atzīmējamās dienas aprīlī. Pārbaudi datumu un dienas nozīmi, nejaucot tās ar brīvdienām.",
+      "intro": "Apskati aprīlī noteiktās atceres un atzīmējamās dienas. Šīs dienas nav automātiski brīvdienas; katram ierakstam saglabā norādi uz Latvijas tiesību aktu.",
+      "sourceIds": [
+        "holiday-law"
+      ]
+    },
+    {
+      "url": "/atceres-dienas/augusts/",
+      "family": "atceres-dienas",
+      "title": "Atceres un atzīmējamās dienas augustā",
+      "h1": "Atceres un atzīmējamās dienas augustā",
+      "description": "Latvijas likumā noteiktās atceres un atzīmējamās dienas augustā. Pārbaudi datumu un dienas nozīmi, nejaucot tās ar brīvdienām.",
+      "intro": "Apskati augustā noteiktās atceres un atzīmējamās dienas. Šīs dienas nav automātiski brīvdienas; katram ierakstam saglabā norādi uz Latvijas tiesību aktu.",
+      "sourceIds": [
+        "holiday-law"
+      ]
+    },
+    {
+      "url": "/atceres-dienas/decembris/",
+      "family": "atceres-dienas",
+      "title": "Atceres un atzīmējamās dienas decembrī",
+      "h1": "Atceres un atzīmējamās dienas decembrī",
+      "description": "Latvijas likumā noteiktās atceres un atzīmējamās dienas decembrī. Pārbaudi datumu un dienas nozīmi, nejaucot tās ar brīvdienām.",
+      "intro": "Apskati decembrī noteiktās atceres un atzīmējamās dienas. Šīs dienas nav automātiski brīvdienas; katram ierakstam saglabā norādi uz Latvijas tiesību aktu.",
+      "sourceIds": [
+        "holiday-law"
+      ]
+    },
+    {
+      "url": "/atceres-dienas/februaris/",
+      "family": "atceres-dienas",
+      "title": "Atceres un atzīmējamās dienas februārī",
+      "h1": "Atceres un atzīmējamās dienas februārī",
+      "description": "Latvijas likumā noteiktās atceres un atzīmējamās dienas februārī. Pārbaudi datumu un dienas nozīmi, nejaucot tās ar brīvdienām.",
+      "intro": "Apskati februārī noteiktās atceres un atzīmējamās dienas. Šīs dienas nav automātiski brīvdienas; katram ierakstam saglabā norādi uz Latvijas tiesību aktu.",
+      "sourceIds": [
+        "holiday-law"
+      ]
+    },
+    {
+      "url": "/atceres-dienas/janvaris/",
+      "family": "atceres-dienas",
+      "title": "Atceres un atzīmējamās dienas janvārī",
+      "h1": "Atceres un atzīmējamās dienas janvārī",
+      "description": "Latvijas likumā noteiktās atceres un atzīmējamās dienas janvārī. Pārbaudi datumu un dienas nozīmi, nejaucot tās ar brīvdienām.",
+      "intro": "Apskati janvārī noteiktās atceres un atzīmējamās dienas. Šīs dienas nav automātiski brīvdienas; katram ierakstam saglabā norādi uz Latvijas tiesību aktu.",
+      "sourceIds": [
+        "holiday-law"
+      ]
+    },
+    {
+      "url": "/atceres-dienas/julijs/",
+      "family": "atceres-dienas",
+      "title": "Atceres un atzīmējamās dienas jūlijā",
+      "h1": "Atceres un atzīmējamās dienas jūlijā",
+      "description": "Latvijas likumā noteiktās atceres un atzīmējamās dienas jūlijā. Pārbaudi datumu un dienas nozīmi, nejaucot tās ar brīvdienām.",
+      "intro": "Apskati jūlijā noteiktās atceres un atzīmējamās dienas. Šīs dienas nav automātiski brīvdienas; katram ierakstam saglabā norādi uz Latvijas tiesību aktu.",
+      "sourceIds": [
+        "holiday-law"
+      ]
+    },
+    {
+      "url": "/atceres-dienas/junijs/",
+      "family": "atceres-dienas",
+      "title": "Atceres un atzīmējamās dienas jūnijā",
+      "h1": "Atceres un atzīmējamās dienas jūnijā",
+      "description": "Latvijas likumā noteiktās atceres un atzīmējamās dienas jūnijā. Pārbaudi datumu un dienas nozīmi, nejaucot tās ar brīvdienām.",
+      "intro": "Apskati jūnijā noteiktās atceres un atzīmējamās dienas. Šīs dienas nav automātiski brīvdienas; katram ierakstam saglabā norādi uz Latvijas tiesību aktu.",
+      "sourceIds": [
+        "holiday-law"
+      ]
+    },
+    {
+      "url": "/atceres-dienas/maijs/",
+      "family": "atceres-dienas",
+      "title": "Atceres un atzīmējamās dienas maijā",
+      "h1": "Atceres un atzīmējamās dienas maijā",
+      "description": "Latvijas likumā noteiktās atceres un atzīmējamās dienas maijā. Pārbaudi datumu un dienas nozīmi, nejaucot tās ar brīvdienām.",
+      "intro": "Apskati maijā noteiktās atceres un atzīmējamās dienas. Šīs dienas nav automātiski brīvdienas; katram ierakstam saglabā norādi uz Latvijas tiesību aktu.",
+      "sourceIds": [
+        "holiday-law"
+      ]
+    },
+    {
+      "url": "/atceres-dienas/marts/",
+      "family": "atceres-dienas",
+      "title": "Atceres un atzīmējamās dienas martā",
+      "h1": "Atceres un atzīmējamās dienas martā",
+      "description": "Latvijas likumā noteiktās atceres un atzīmējamās dienas martā. Pārbaudi datumu un dienas nozīmi, nejaucot tās ar brīvdienām.",
+      "intro": "Apskati martā noteiktās atceres un atzīmējamās dienas. Šīs dienas nav automātiski brīvdienas; katram ierakstam saglabā norādi uz Latvijas tiesību aktu.",
+      "sourceIds": [
+        "holiday-law"
+      ]
+    },
+    {
+      "url": "/atceres-dienas/novembris/",
+      "family": "atceres-dienas",
+      "title": "Atceres un atzīmējamās dienas novembrī",
+      "h1": "Atceres un atzīmējamās dienas novembrī",
+      "description": "Latvijas likumā noteiktās atceres un atzīmējamās dienas novembrī. Pārbaudi datumu un dienas nozīmi, nejaucot tās ar brīvdienām.",
+      "intro": "Apskati novembrī noteiktās atceres un atzīmējamās dienas. Šīs dienas nav automātiski brīvdienas; katram ierakstam saglabā norādi uz Latvijas tiesību aktu.",
+      "sourceIds": [
+        "holiday-law"
+      ]
+    },
+    {
+      "url": "/atceres-dienas/oktobris/",
+      "family": "atceres-dienas",
+      "title": "Atceres un atzīmējamās dienas oktobrī",
+      "h1": "Atceres un atzīmējamās dienas oktobrī",
+      "description": "Latvijas likumā noteiktās atceres un atzīmējamās dienas oktobrī. Pārbaudi datumu un dienas nozīmi, nejaucot tās ar brīvdienām.",
+      "intro": "Apskati oktobrī noteiktās atceres un atzīmējamās dienas. Šīs dienas nav automātiski brīvdienas; katram ierakstam saglabā norādi uz Latvijas tiesību aktu.",
+      "sourceIds": [
+        "holiday-law"
+      ]
+    },
+    {
+      "url": "/atceres-dienas/septembris/",
+      "family": "atceres-dienas",
+      "title": "Atceres un atzīmējamās dienas septembrī",
+      "h1": "Atceres un atzīmējamās dienas septembrī",
+      "description": "Latvijas likumā noteiktās atceres un atzīmējamās dienas septembrī. Pārbaudi datumu un dienas nozīmi, nejaucot tās ar brīvdienām.",
+      "intro": "Apskati septembrī noteiktās atceres un atzīmējamās dienas. Šīs dienas nav automātiski brīvdienas; katram ierakstam saglabā norādi uz Latvijas tiesību aktu.",
+      "sourceIds": [
+        "holiday-law"
+      ]
+    },
+    {
+      "url": "/svetku-dienas/2026/",
+      "family": "svetku-dienas",
+      "title": "Svētku dienas Latvijā 2026. gadā",
+      "h1": "Svētku dienas Latvijā 2026. gadā",
+      "description": "Latvijas 2026. gada svētku dienas ar datumiem un nedēļas dienām. Pārbaudi brīvdienas un atsevišķi atzīmētās pārceltās darba dienas.",
+      "intro": "Apskati likumā noteiktās svētku dienas 2026. gadā. Atceres un kultūras dienas ir atsevišķs saturs; pārceltās darba dienas jāvērtē pēc to piemērošanas noteikumiem.",
+      "sourceIds": [
+        "holiday-law",
+        "workdays-2026"
+      ]
+    },
+    {
+      "url": "/pulkstena-pargriesana/",
+      "family": "pulkstena-pargriesana",
+      "title": "Pulksteņa pagriešana Latvijā: vasaras un ziemas laiks",
+      "h1": "Pulksteņa pagriešana Latvijā",
+      "description": "Kad Latvijā maina laiku un kurā virzienā pagriezt pulksteni? Apskati pāreju datumus un Latvijas laika joslu Europe/Riga.",
+      "intro": "Pavasarī pulksteni pagriež vienu stundu uz priekšu, bet rudenī — vienu stundu atpakaļ. Spēkā esošā kārtība paredz pāreju marta un oktobra pēdējā svētdienā.",
+      "sourceIds": [
+        "dst-latvia"
+      ]
+    },
+    {
+      "url": "/garais-gads/",
+      "family": "garais-gads",
+      "title": "Garais gads: noteikums un gadu pārbaude",
+      "h1": "Garais gads",
+      "description": "Pārbaudi, vai izvēlētais gads ir garais gads, un uzzini, kā Gregora kalendārā nosaka gadus ar 29. februāri un 366 dienām.",
+      "intro": "Garajā gadā februārim ir 29 dienas, bet visam gadam — 366. Pārbaude ievēro arī gadsimtu izņēmumu: ar dalāmību ar četri vien nepietiek.",
+      "sourceIds": [
+        "leap-usno"
+      ]
+    },
+    {
+      "url": "/sejas-kalendars/",
+      "family": "sejas-kalendars",
+      "title": "Sējas kalendārs Latvijai: dārzeņi un dārza darbi",
+      "h1": "Sējas kalendārs Latvijai",
+      "description": "Plāno 16 dārzeņu sēju un stādīšanu pēc sezonas, audzēšanas vietas un augsnes apstākļiem. Salnu risks ir svarīgāks par kalendāra datumu.",
+      "intro": "Izvēlies mēnesi un kultūru, lai atrastu orientējošu darbu laiku un nosacījumus. Piekraste, iekšzeme, siltumnīca un konkrētā dārza mikroklimats var prasīt atšķirīgu darbu sākumu.",
+      "sourceIds": [
+        "garden-di-guide",
+        "garden-di-april",
+        "garden-vaad-tomato",
+        "climate-may",
+        "climate-august"
+      ]
+    },
+    {
+      "url": "/skolas-kalendars/",
+      "family": "skolas-kalendars",
+      "title": "Skolas kalendārs 2026./2027. mācību gadam",
+      "h1": "Skolas kalendārs 2026./2027. mācību gadam",
+      "description": "2026./2027. mācību gada semestri un skolēnu brīvdienas Latvijā. Apskati atšķirīgos mācību gada beigu datumus pa klašu grupām.",
+      "intro": "Skolas kalendārā apkopoti valsts noteiktie semestri un brīvdienas. Mācību gada beigu datums atšķiras pa klašu grupām, bet pirmās klases papildu brīvdienu nedēļu nosaka skola.",
+      "sourceIds": [
+        "school-2027",
+        "exam-2027"
+      ]
+    },
+    {
+      "url": "/saules-aptumsums/",
+      "family": "saules-aptumsums",
+      "title": "Saules aptumsumi un to redzamība Latvijā",
+      "h1": "Saules aptumsumi",
+      "description": "Apskati Saules aptumsumu datumus un to, kā izvēlētās Latvijas pilsētas koordinātas ietekmē redzamo fāzi un aptumsuma laikus.",
+      "intro": "Tas, ka pasaulē notiek pilns Saules aptumsums, nenozīmē pilnu aptumsumu Latvijā. Vietējai redzamībai jāņem vērā pilsētas koordinātas, Saulei jāatrodas virs horizonta un jāaprēķina vietējās fāzes.",
+      "sourceIds": [
+        "nasa-solar",
+        "usno-solar-local"
+      ]
+    },
+    {
+      "url": "/studiju-kalendars/",
+      "family": "studiju-kalendars",
+      "title": "Studiju kalendāri Latvijā 2026./2027. gadam",
+      "h1": "Studiju kalendāri Latvijā",
+      "description": "Salīdzini LU, RTU un RSU publicētos 2026./2027. studiju gada datumus. Pārbaudi semestrus, brīvdienas un programmu izņēmumus.",
+      "intro": "Latvijas augstskolām nav viena kopīga studiju gada grafika. Izvēlies augstskolu un pārbaudi, vai publicētie datumi attiecas uz tavu studiju programmu un kursu.",
+      "sourceIds": [
+        "lu-2027",
+        "lu-doctoral-2027",
+        "rtu-2027",
+        "rsu-2027"
+      ]
+    },
+    {
+      "url": "/nedelas-kalendars/2026/",
+      "family": "nedelas-kalendars",
+      "title": "Nedēļu kalendārs 2026. gadam",
+      "h1": "Nedēļu kalendārs 2026. gadam",
+      "description": "2026. gada nedēļu numuri un datumu intervāli vienā pārskatā. Nedēļas sākas pirmdienā; pie gada robežas redzams pilns datums.",
+      "intro": "Apskati nedēļas un to sākuma un beigu datumus. Nedēļas numurs ir saistīts ar nedēļu gadu, tāpēc gada sākumā un beigās jāņem vērā arī blakus gada datumi.",
+      "sourceIds": [
+        "leap-usno"
+      ]
+    },
+    {
+      "url": "/redakcijas-politika/",
+      "family": "redakcijas-politika",
+      "title": "Redakcijas politika un datu pārbaude",
+      "h1": "Redakcijas politika",
+      "description": "Kā Kalendārs365 izvēlas avotus, nošķir oficiālus datumus no aprēķiniem un labo pamanītas kļūdas Latvijas kalendāra datos.",
+      "intro": "Kalendārs365 datumus sasaista ar to avotu un piemērošanas jomu. Oficiāls lēmums, astronomisks aprēķins un tradīcijas apraksts ir dažādi informācijas veidi, tāpēc tos apzīmē atsevišķi.",
+      "sourceIds": []
+    }
+  ],
+  "educationPage": {
+    "url": "/valsts-parbaudes-darbi/",
+    "title": "Valsts pārbaudes darbi 2026./2027. mācību gadā",
+    "h1": "Valsts pārbaudes darbi 2026./2027. mācību gadā",
+    "description": "2027. gada centralizēto eksāmenu un monitoringa darbu datumi Latvijā. Filtrē pēc klases, priekšmeta, līmeņa un norises laika.",
+    "intro": "Izvēlies klasi, izglītības programmu un priekšmetu. Kalendārā atsevišķi redzami monitoringa darbi, centralizētie eksāmeni, rakstu un mutvārdu daļas un norise attaisnota kavējuma gadījumā.",
+    "sourceIds": [
+      "exam-2027",
+      "exam-programs"
+    ],
+    "filters": [
+      "Mācību gads",
+      "Klase",
+      "Izglītības programma",
+      "Priekšmets",
+      "Apguves līmenis",
+      "Pamatlaiks",
+      "Attaisnota kavējuma norise"
+    ]
+  },
+  "culturalPages": [
+    {
+      "url": "/svetki-un-tradicijas/valentina-diena/",
+      "title": "Valentīndiena: datums un Mīlestības diena Latvijā",
+      "h1": "Valentīndiena: datums un Mīlestības diena Latvijā",
+      "description": "Valentīndienu atzīmē 14. februārī. Uzzini par Mīlestības dienu Latvijas kultūras norisēs un atšķir pastāvīgo datumu no pasākumu grafika.",
+      "intro": "Valentīndiena ir 14. februārī atzīmēta Mīlestības diena. Latvijas muzeji tai velta arī literatūras, vēstuļu un attiecību stāstus; konkrētu pasākumu norisi ik gadu izziņo to rīkotāji.",
+      "dateModel": {
+        "type": "fixed",
+        "month": 2,
+        "day": 14
+      },
+      "sourceIds": [
+        "valentine-museum",
+        "holiday-law"
+      ],
+      "factNotes": [
+        "Mūsdienu kultūras norise; nepasniegt kā senu latviešu gadskārtu.",
+        "2026. gada muzeja programma nepierāda, ka tas pats pasākums notiks 2027. gadā."
+      ],
+      "isStatutoryWorkFreeHoliday": false
+    },
+    {
+      "url": "/svetki-un-tradicijas/martindiena/",
+      "title": "Mārtiņi: 10. novembris un latviešu tradīcijas",
+      "h1": "Mārtiņi: 10. novembris un latviešu tradīcijas",
+      "description": "Mārtiņus atzīmē 10. novembrī. Iepazīsti rudens darbu noslēguma un maskošanās tradīcijas, nodalot svētku dienu no tirgu norises.",
+      "intro": "Mārtiņus latviešu gadskārtā saista ar rudens darbu noslēgumu un ziemas tuvošanos. To datums ir 10. novembris, bet Mārtiņu tirgi un muzeju programmas var notikt citā tuvējā dienā.",
+      "dateModel": {
+        "type": "fixed",
+        "month": 11,
+        "day": 10
+      },
+      "sourceIds": [
+        "martini",
+        "holiday-law"
+      ],
+      "factNotes": [
+        "Tradīcijas apraksts nav meteoroloģiska ziemas sākuma prognoze.",
+        "Pasākumu datumus glabāt atsevišķi no gadskārtas datuma."
+      ],
+      "isStatutoryWorkFreeHoliday": false
+    },
+    {
+      "url": "/svetki-un-tradicijas/mikeli/",
+      "title": "Miķeļi: 29. septembris un ražas laika tradīcijas",
+      "h1": "Miķeļi: 29. septembris un ražas laika tradīcijas",
+      "description": "Miķeļi ir 29. septembrī atzīmēti ražas laika svētki. Uzzini par Miķeļu nozīmi un to atšķirību no astronomiskās rudens ekvinokcijas.",
+      "intro": "Miķeļi 29. septembrī iezīmē tradicionālo ražas laika noslēgumu. Miķeļu tirgus var notikt tuvākajā nedēļas nogalē; astronomiskā rudens ekvinokcija ir atsevišķs aprēķināms brīdis.",
+      "dateModel": {
+        "type": "fixed",
+        "month": 9,
+        "day": 29
+      },
+      "sourceIds": [
+        "mikeli",
+        "usno-services",
+        "holiday-law"
+      ],
+      "factNotes": [
+        "e-PUPA lieto tradicionālo apzīmējumu rudens saulgriežu svētki; astronomiskā ekvinokcija nav 29. septembra sinonīms.",
+        "Ticējumus pasniegt kā folkloru, nevis drošu ražas vai laikapstākļu prognozi."
+      ],
+      "isStatutoryWorkFreeHoliday": false
+    },
+    {
+      "url": "/svetki-un-tradicijas/meteni/",
+      "title": "Meteņi: pavasara gaidīšana un svinēšanas laiki",
+      "h1": "Meteņi: pavasara gaidīšana un svinēšanas laiki",
+      "description": "Iepazīsti Meteņu tradīcijas un atšķirīgos svinēšanas laikus. Gadskārtas, kristīgā kalendāra un konkrēta pasākuma datums var nesakrist.",
+      "intro": "Meteņi ir pavasara gaidīšanas laiks ar ciemošanos, maskošanos un kopīgām izdarībām. Avotos un dažādu novadu tradīcijās to svinēšanas laiki atšķiras, tāpēc pasākuma datums jāskatās rīkotāja paziņojumā.",
+      "dateModel": {
+        "type": "multiple-traditions",
+        "singleNationalDate": null,
+        "fixedConvention": {
+          "month": 2,
+          "day": 6,
+          "sourceId": "meteni-dictionary"
+        },
+        "easterRelativeConventionStatus": "Do not choose one universal offset: e-PUPA records 56 days, museum Livonian account describes eve of Lent.",
+        "eventDate": "Only organiser announcement."
+      },
+      "sourceIds": [
+        "meteni-dictionary",
+        "meteni-museum",
+        "meteni-turaida",
+        "holiday-law"
+      ],
+      "factNotes": [
+        "Dažādās tradīcijas nav jāsapludina vienā automātiskā datumā.",
+        "Brīvdabas muzeja 2025. gada lībiešu piemērs ir 4. marts, pirms Pelnu trešdienas; tas nav universāls datums visiem turpmākajiem gadiem.",
+        "Neatveidot Slovēnijas Pust kā identisku Latvijas valsts svētku dienu."
+      ],
+      "isStatutoryWorkFreeHoliday": false
+    },
+    {
+      "url": "/svetki-un-tradicijas/advente/",
+      "title": "Advente: četras svētdienas pirms Ziemassvētkiem",
+      "h1": "Advente: četras svētdienas pirms Ziemassvētkiem",
+      "description": "Apskati Adventes svētdienu datumus un uzzini, kā nosaka pirmo Adventi. Pirmā Advente ik gadu nav vienā novembra datumā.",
+      "intro": "Advente ir Kristus dzimšanas svētku gaidīšanas laiks, ko iezīmē četras svētdienas. Pirmās Adventes datums mainās; ceturtā Adventes svētdiena var sakrist ar 24. decembri.",
+      "dateModel": {
+        "type": "gregorian-relative",
+        "rule": "Four Sundays preceding December 25; fourth may be December 24. First Advent falls November 27–December 3.",
+        "confessionScope": "Rietumu kristīgā tradīcija"
+      },
+      "sourceIds": [
+        "advent",
+        "lutheran-year",
+        "usno-api",
+        "holiday-law"
+      ],
+      "factNotes": [
+        "Nenosaukt 1. decembri vai 1. novembra pēdējo svētdienu par nemainīgu pirmo Adventi.",
+        "Liturģiskā gada sākums nav 1. janvāris."
+      ],
+      "isStatutoryWorkFreeHoliday": false
+    },
+    {
+      "url": "/svetki-un-tradicijas/pupolu-svetdiena/",
+      "title": "Pūpolu svētdiena: datums un Lielās nedēļas sākums",
+      "h1": "Pūpolu svētdiena: datums un Lielās nedēļas sākums",
+      "description": "Pūpolu svētdiena ir nedēļu pirms Lieldienām. Uzzini, kā tās datums mainās un kāpēc jānorāda izmantotais baznīcas kalendārs.",
+      "intro": "Pūpolu jeb Palmu svētdiena ievada Lielo nedēļu un ir vienu nedēļu pirms Lieldienām. Datuma aprēķinam jāizmanto norādītās kristīgās tradīcijas Lieldienu kalendārs.",
+      "dateModel": {
+        "type": "easter-relative",
+        "offsetDays": -7,
+        "confessionScope": "Rietumu kristīgā tradīcija; citām konfesijām datums jāpārbauda atsevišķi."
+      },
+      "sourceIds": [
+        "palm-sunday",
+        "usno-api",
+        "holiday-law"
+      ],
+      "factNotes": [
+        "Nejaukt ar Pelnu trešdienu vai Meteņiem.",
+        "Svētku nozīmi skaidrot neitrāli; neapgalvot vienādu datumu visām konfesijām."
+      ],
+      "isStatutoryWorkFreeHoliday": false
+    },
+    {
+      "url": "/svetki-un-tradicijas/zvaigznes-diena/",
+      "title": "Zvaigznes diena: 6. janvāris un tradīcija",
+      "h1": "Zvaigznes diena: 6. janvāris un tradīcija",
+      "description": "Zvaigznes dienu jeb Triju Ķēniņu dienu Rietumu kristīgajā tradīcijā atzīmē 6. janvārī. Apskati datumu un tā reliģisko kontekstu.",
+      "intro": "Zvaigznes diena jeb Triju Ķēniņu diena Rietumu kristīgajā kalendārā ir 6. janvārī. Katoļu liturģijā tā ir Kunga parādīšanās svētku diena.",
+      "dateModel": {
+        "type": "fixed",
+        "month": 1,
+        "day": 6,
+        "confessionScope": "Rietumu kristīgā tradīcija"
+      },
+      "sourceIds": [
+        "catholic-calendar",
+        "holiday-law"
+      ],
+      "factNotes": [
+        "Baznīcas obligātas svinības nenozīmē likumā noteiktu valsts brīvdienu.",
+        "Nesapludināt dažādu kalendāru Ziemassvētkus ar 6. janvāra datumu."
+      ],
+      "isStatutoryWorkFreeHoliday": false
+    },
+    {
+      "url": "/svetki-un-tradicijas/jaunavas-marijas-debesbrauksanas-svetki/",
+      "title": "Jaunavas Marijas debesīs uzņemšanas svētki",
+      "h1": "Jaunavas Marijas debesīs uzņemšanas svētki",
+      "description": "Jaunavas Marijas debesīs uzņemšanas svētkus katoļu kalendārā svin 15. augustā. Pārbaudi datumu un atšķir to no Jēzus Debeskāpšanas dienas.",
+      "intro": "Jaunavas Marijas debesīs uzņemšanas svētki katoļu liturģiskajā kalendārā ir 15. augustā. Konkrētu dievkalpojumu un svētceļojumu programmas jāskatās attiecīgā gada rīkotāju paziņojumos.",
+      "dateModel": {
+        "type": "fixed",
+        "month": 8,
+        "day": 15,
+        "confessionScope": "Katoļu baznīca"
+      },
+      "sourceIds": [
+        "catholic-calendar",
+        "holiday-law"
+      ],
+      "factNotes": [
+        "Nejaukt ar Jēzus Debeskāpšanas dienu 40. dienā pēc Lieldienām.",
+        "15. augusts nav automātiski valsts brīvdiena; neveidot neizziņotu Aglonas pasākumu sarakstu."
+      ],
+      "isStatutoryWorkFreeHoliday": false
+    },
+    {
+      "url": "/svetki-un-tradicijas/miruso-pieminas-diena/",
+      "title": "Mirušo piemiņas dienas: katoļu un luterāņu kalendārs",
+      "h1": "Mirušo piemiņas dienas: katoļu un luterāņu kalendārs",
+      "description": "Katoļu Visu ticīgo mirušo piemiņas diena ir 2. novembrī; luterāņu Mūžības svētdiena ir pirms pirmās Adventes. Apskati atšķirību.",
+      "intro": "Mirušo piemiņas dienu datumi atšķiras pēc baznīcas tradīcijas. Katoļu kalendārā Visu ticīgo mirušo piemiņas diena ir 2. novembrī, bet luterāņu Mūžības svētdiena — svētdienā pirms pirmās Adventes.",
+      "dateModel": {
+        "type": "confession-specific",
+        "variants": [
+          {
+            "name": "Visu ticīgo mirušo piemiņas diena",
+            "scope": "Katoļu baznīca",
+            "month": 11,
+            "day": 2
+          },
+          {
+            "name": "Mūžības svētdiena",
+            "scope": "Luterāņu baznīca",
+            "rule": "First Advent minus seven days"
+          }
+        ]
+      },
+      "sourceIds": [
+        "catholic-calendar",
+        "lutheran-memorial",
+        "holiday-law"
+      ],
+      "factNotes": [
+        "Neuzrādīt vienu universālu datumu abām tradīcijām.",
+        "Kapusvētku un svecīšu vakaru vietējie datumi nav automātiski viens no šiem diviem datumiem."
+      ],
+      "isStatutoryWorkFreeHoliday": false
+    },
+    {
+      "url": "/svetki-un-tradicijas/pavasara-ekvinokcija/",
+      "title": "Pavasara ekvinokcija: astronomiskais brīdis Latvijā",
+      "h1": "Pavasara ekvinokcija: astronomiskais brīdis Latvijā",
+      "description": "Uzzini, kas ir pavasara ekvinokcija un kā tās brīdi rāda pēc Latvijas laika. Astronomisko notikumu nošķir no gadskārtu svētkiem.",
+      "intro": "Ekvinokcija ir astronomisks brīdis, kuru nosaka Zemes un Saules savstarpējais stāvoklis. Tā datumu un laiku Latvijā rāda, pārrēķinot pārbaudīto notikuma brīdi laika joslā Europe/Riga.",
+      "dateModel": {
+        "type": "astronomical",
+        "typicalMonths": [
+          3
+        ],
+        "fixedDate": null,
+        "timezone": "Europe/Riga"
+      },
+      "sourceIds": [
+        "usno-services",
+        "usno-api"
+      ],
+      "factNotes": [
+        "Datumu un laiku aprēķina konkrētajam gadam; neizmanto vienu nemainīgu datumu.",
+        "Nesolīt precīzi 12 stundu dienu visās pilsētās; ja skaidro dienas un nakts faktiskā ilguma atšķirību, pievieno pārbaudītu definīcijas avotu."
+      ],
+      "isStatutoryWorkFreeHoliday": null
+    },
+    {
+      "url": "/svetki-un-tradicijas/rudens-ekvinokcija/",
+      "title": "Rudens ekvinokcija: astronomiskais brīdis Latvijā",
+      "h1": "Rudens ekvinokcija: astronomiskais brīdis Latvijā",
+      "description": "Uzzini, kas ir rudens ekvinokcija un kā tās brīdi rāda pēc Latvijas laika. Astronomisko notikumu nošķir no gadskārtu svētkiem.",
+      "intro": "Ekvinokcija ir astronomisks brīdis, kuru nosaka Zemes un Saules savstarpējais stāvoklis. Tā datumu un laiku Latvijā rāda, pārrēķinot pārbaudīto notikuma brīdi laika joslā Europe/Riga.",
+      "dateModel": {
+        "type": "astronomical",
+        "typicalMonths": [
+          9
+        ],
+        "fixedDate": null,
+        "timezone": "Europe/Riga"
+      },
+      "sourceIds": [
+        "usno-services",
+        "usno-api"
+      ],
+      "factNotes": [
+        "Datumu un laiku aprēķina konkrētajam gadam; neizmanto vienu nemainīgu datumu.",
+        "Nesolīt precīzi 12 stundu dienu visās pilsētās; ja skaidro dienas un nakts faktiskā ilguma atšķirību, pievieno pārbaudītu definīcijas avotu."
+      ],
+      "isStatutoryWorkFreeHoliday": null
+    },
+    {
+      "url": "/svetki-un-tradicijas/holokausta-upuru-pieminas-diena/",
+      "title": "Holokausta upuru piemiņas diena: 27. janvāris un Latvijas 4. jūlijs",
+      "h1": "Holokausta upuru piemiņas diena Latvijā un pasaulē",
+      "description": "Salīdzini ANO 27. janvāra Holokausta upuru piemiņas dienu ar Latvijas likumā noteikto Ebreju tautas genocīda upuru piemiņas dienu 4. jūlijā.",
+      "intro": "ANO 27. janvārī piemin Holokausta upurus starptautiskā līmenī. Latvijā likumā noteikta atsevišķa Ebreju tautas genocīda upuru piemiņas diena — 4. jūlijā. Šīs dienas nav savstarpēji aizstājamas; neviena no tām nav automātiski jāuztver kā darba brīvdiena.",
+      "dateModel": {
+        "type": "fixed",
+        "month": 1,
+        "day": 27
+      },
+      "sourceIds": [
+        "un-holocaust",
+        "holiday-law"
+      ],
+      "factNotes": [
+        "Starptautisko un Latvijas datumu tvērums ir atšķirīgs.",
+        "Saglabā cieņpilnu, faktos balstītu piemiņas kontekstu."
+      ],
+      "isStatutoryWorkFreeHoliday": false,
+      "dateNote": "ANO noteiktais starptautiskais piemiņas datums. Latvijas likumā noteiktā piemiņas diena ir redzama atsevišķi zemāk.",
+      "localDate": {
+        "month": 7,
+        "day": 4
+      },
+      "localDateNote": "Latvijas likuma 2. pantā 4. jūlijs noteikts kā Ebreju tautas genocīda upuru piemiņas diena. Tā ir atceres diena, nevis likumā noteikta svētku diena."
+    },
+    {
+      "url": "/svetki-un-tradicijas/eiropas-valodu-diena/",
+      "title": "Eiropas Valodu diena: 26. septembris un valodu daudzveidība",
+      "h1": "Eiropas Valodu diena",
+      "description": "Eiropas Valodu diena ir 26. septembrī. Uzzini par Eiropas Padomes iniciatīvu, valodu daudzveidību un pasākumiem Latvijā.",
+      "intro": "Eiropas Valodu dienu atzīmē 26. septembrī. Eiropas Padomes ierosinātā ikgadējā norise pievērš uzmanību valodu un kultūru daudzveidībai; Latvijas pasākumu programmu publicē to rīkotāji.",
+      "dateModel": {
+        "type": "fixed",
+        "month": 9,
+        "day": 26
+      },
+      "sourceIds": [
+        "coe-languages"
+      ],
+      "factNotes": [
+        "Eiropas Padome noteica 26. septembri par ikgadēju Eiropas Valodu dienu.",
+        "Konkrētas Latvijas darbnīcas un pasākumu laiki katru gadu jāpārbauda pie rīkotājiem."
+      ],
+      "isStatutoryWorkFreeHoliday": false
+    },
+    {
+      "url": "/svetki-un-tradicijas/totalitaro-rezimu-upuru-pieminas-diena/",
+      "title": "Staļinisma un nacisma upuru atceres diena: 23. augusts",
+      "h1": "Staļinisma un nacisma upuru atceres diena",
+      "description": "23. augustā Latvijā piemin staļinisma un nacisma upurus. Apskati Latvijas likuma datumu un Eiropas atceres dienas kontekstu.",
+      "intro": "Latvijas likumā 23. augusts ir Staļinisma un nacisma upuru atceres diena. Tajā pašā datumā Eiropas līmenī piemin visu totalitāro un autoritāro režīmu upurus. Abi formulējumi jālasa savā vēsturiskajā un juridiskajā tvērumā.",
+      "dateModel": {
+        "type": "fixed",
+        "month": 8,
+        "day": 23
+      },
+      "sourceIds": [
+        "holiday-law",
+        "eu-totalitarian-remembrance"
+      ],
+      "factNotes": [
+        "Latvijas atceres dienas nosaukums ir norādīts pēc spēkā esošā likuma.",
+        "Atceres diena nav tas pats, kas likumā noteikta darba brīvdiena."
+      ],
+      "isStatutoryWorkFreeHoliday": false
+    },
+    {
+      "url": "/svetki-un-tradicijas/dzimtas-valodas-diena/",
+      "title": "Starptautiskā dzimtās valodas diena: 21. februāris",
+      "h1": "Starptautiskā dzimtās valodas diena",
+      "description": "Starptautisko dzimtās valodas dienu atzīmē 21. februārī. Uzzini par UNESCO dienas ieceri un valodu daudzveidības nozīmi Latvijā.",
+      "intro": "UNESCO izveidoto Starptautisko dzimtās valodas dienu atzīmē 21. februārī. Tās tēma ir valodu daudzveidība un mācīšanās dzimtajā valodā; ikgadējās kampaņas saturs mainās.",
+      "dateModel": {
+        "type": "fixed",
+        "month": 2,
+        "day": 21
+      },
+      "sourceIds": [
+        "unesco-mother-language"
+      ],
+      "factNotes": [
+        "Dzimtās valodas diena ir starptautiska atzīmējamā diena, nevis Latvijas valsts svētku diena.",
+        "Latvijas valodu un kultūras kontekstu skaidrot ar vietējiem avotiem, nevis pārnest citu valstu jubilejas."
+      ],
+      "isStatutoryWorkFreeHoliday": false
+    },
+    {
+      "url": "/svetki-un-tradicijas/helovins/",
+      "title": "Helovīns Latvijā: 31. oktobra datums un vietējie pasākumi",
+      "h1": "Helovīns Latvijā",
+      "description": "Helovīna datums ir 31. oktobris. Uzzini, kā to atšķirt no Latvijas Veļu laika un Mārtiņu tradīcijām un kur pārbaudīt vietējos pasākumus.",
+      "intro": "Helovīnu atzīmē 31. oktobrī. Latvijā muzeji un rīkotāji šajā datumā var piedāvāt atsevišķas tematiskas norises, taču Helovīns nav likumā noteikta brīvdiena un nav tas pats, kas latviešu Veļu laiks vai Mārtiņi.",
+      "dateModel": {
+        "type": "fixed",
+        "month": 10,
+        "day": 31
+      },
+      "sourceIds": [
+        "halloween-reference",
+        "latvian-halloween-example",
+        "holiday-law",
+        "martini"
+      ],
+      "factNotes": [
+        "Latvijas Nacionālā dabas muzeja 2026. gada 31. oktobra ģimenes pasākums ir tikai konkrētā gada piemērs; nākamā gada programmu jāpārbauda no jauna.",
+        "Latvijas Veļu laiku un Mārtiņus apraksti atsevišķi, nesapludinot tos ar Helovīnu."
+      ],
+      "isStatutoryWorkFreeHoliday": false,
+      "dateNote": "Mūsdienu starptautiskās kultūras kalendāra datums. Helovīns nav Latvijas likumā noteikta brīvdiena.",
+      "relatedPages": [
+        {
+          "url": "/svetki-un-tradicijas/martindiena/",
+          "title": "Mārtiņi: Latvijas gadskārtu tradīcija"
+        }
+      ]
+    },
+    {
+      "url": "/svetki-un-tradicijas/pasaules-gramatu-diena/",
+      "title": "Pasaules grāmatu un autortiesību diena: 23. aprīlis",
+      "h1": "Pasaules grāmatu un autortiesību diena",
+      "description": "UNESCO Pasaules grāmatu un autortiesību diena ir 23. aprīlī. Apskati datumu un ikgadējo lasīšanas veicināšanas iniciatīvu.",
+      "intro": "UNESCO Pasaules grāmatu un autortiesību dienu atzīmē 23. aprīlī. Tā pievērš uzmanību grāmatām, lasīšanai un autortiesībām; UNESCO ikgadējie projekti un Pasaules grāmatu galvaspilsēta mainās.",
+      "dateModel": {
+        "type": "fixed",
+        "month": 4,
+        "day": 23
+      },
+      "sourceIds": [
+        "unesco-world-book"
+      ],
+      "factNotes": [
+        "UNESCO 2026. gada Pasaules grāmatu galvaspilsēta bija Rabāta; šo gadu nedrīkst automātiski pārnest uz citiem gadiem."
+      ],
+      "isStatutoryWorkFreeHoliday": false
+    },
+    {
+      "url": "/svetki-un-tradicijas/pasaules-vides-diena/",
+      "title": "Pasaules vides diena: 5. jūnijs",
+      "h1": "Pasaules vides diena",
+      "description": "Pasaules vides dienu atzīmē 5. jūnijā. Apskati ANO Vides programmas ikgadējo vides kampaņu un pārbaudi katra gada tēmu atsevišķi.",
+      "intro": "ANO Vides programmas Pasaules vides diena ir 5. jūnijā. Tās ikgadējā tēma un rīkotājvalsts mainās, tāpēc nākamā gada kampaņas saturu nedrīkst uzminēt pēc iepriekšējā gada.",
+      "dateModel": {
+        "type": "fixed",
+        "month": 6,
+        "day": 5
+      },
+      "sourceIds": [
+        "un-world-environment"
+      ],
+      "factNotes": [
+        "Šī ir starptautiska atzīmējamā diena; tā pati par sevi Latvijā nav brīvdiena.",
+        "Kampaņas tēma un rīkotājvalsts jāatjauno tikai pēc UNEP paziņojuma."
+      ],
+      "isStatutoryWorkFreeHoliday": false
+    },
+    {
+      "url": "/svetki-un-tradicijas/pasaules-bernu-diena/",
+      "title": "Pasaules bērnu diena: 20. novembris",
+      "h1": "Pasaules bērnu diena",
+      "description": "Pasaules bērnu dienu atzīmē 20. novembrī, pieminot ANO Bērnu tiesību konvencijas pieņemšanu un bērnu līdzdalību.",
+      "intro": "Pasaules bērnu diena ir UNICEF globāla rīcības diena 20. novembrī. Datums saistīts ar ANO Bērnu tiesību konvencijas pieņemšanu; Latvijas likumā atsevišķi noteikta Starptautiskā bērnu aizsardzības diena 1. jūnijā.",
+      "dateModel": {
+        "type": "fixed",
+        "month": 11,
+        "day": 20
+      },
+      "sourceIds": [
+        "un-world-children",
+        "holiday-law"
+      ],
+      "factNotes": [
+        "20. novembra Pasaules bērnu diena un 1. jūnija Starptautiskā bērnu aizsardzības diena ir divi atšķirīgi kalendāra ieraksti.",
+        "Latvijas 1. jūnija atzīmējamā diena nav automātiski brīvdiena."
+      ],
+      "isStatutoryWorkFreeHoliday": false,
+      "relatedPages": [
+        {
+          "url": "/svetki-un-tradicijas/bernu-aizsardzibas-diena/",
+          "title": "Starptautiskā bērnu aizsardzības diena Latvijā"
+        }
+      ]
+    },
+    {
+      "url": "/svetki-un-tradicijas/pasaules-udens-diena/",
+      "title": "Pasaules ūdens diena: 22. marts",
+      "h1": "Pasaules ūdens diena",
+      "description": "Pasaules ūdens diena ir 22. martā. Uzzini par ANO–Ūdens ikgadējo dienu un atjauno mainīgo kampaņas tēmu tikai no oficiāla avota.",
+      "intro": "ANO–Ūdens Pasaules ūdens dienu rīko 22. martā. Tās mērķis ir pievērst uzmanību saldūdens nozīmei un ūdens pieejamībai; kampaņas tēma katru gadu mainās.",
+      "dateModel": {
+        "type": "fixed",
+        "month": 3,
+        "day": 22
+      },
+      "sourceIds": [
+        "un-water-day"
+      ],
+      "factNotes": [
+        "Lapas kalendāra datums ir nemainīgs; tematisko kampaņu saturu atjaunina atbilstoši oficiālajam paziņojumam."
+      ],
+      "isStatutoryWorkFreeHoliday": false
+    },
+    {
+      "url": "/svetki-un-tradicijas/pasaules-dzivnieku-diena/",
+      "title": "Pasaules dzīvnieku diena: 4. oktobris",
+      "h1": "Pasaules dzīvnieku diena",
+      "description": "Pasaules dzīvnieku dienu rīko 4. oktobrī. Pārbaudi oficiālā rīkotāja ikgadējo tēmu un nošķir to no Latvijas brīvdienu kalendāra.",
+      "intro": "Pasaules dzīvnieku dienu ik gadu atzīmē 4. oktobrī. Tās rīkotājs aicina pievērst uzmanību dzīvnieku labturībai un aizsardzībai. Datums nav iekļauts Latvijas likumā noteikto svētku dienu sarakstā.",
+      "dateModel": {
+        "type": "fixed",
+        "month": 10,
+        "day": 4
+      },
+      "sourceIds": [
+        "world-animal-day",
+        "holiday-law"
+      ],
+      "factNotes": [
+        "Organizāciju un vietējo pasākumu programmas var mainīties katru gadu.",
+        "Pasaules dzīvnieku diena nav Latvijas valsts svētku diena."
+      ],
+      "isStatutoryWorkFreeHoliday": false
+    },
+    {
+      "url": "/svetki-un-tradicijas/pavasara-tradicijas/",
+      "title": "Pavasara tradīcijas Latvijā: Meteņi, Lieldienas un ekvinokcija",
+      "h1": "Pavasara tradīcijas Latvijā",
+      "description": "Iepazīsti Meteņu tradīcijas, Latvijas Lieldienu datumus un pavasara ekvinokciju. Gadskārtu, baznīcas un astronomiskos kalendārus turi atsevišķi.",
+      "intro": "Latvijas pavasara kalendārā līdzās pastāv Meteņu gadskārta, kristīgo tradīciju Lieldienas un astronomiskais pavasara ekvinokcijas brīdis. Tiem nav viena kopīga datuma: Meteņu laiki atšķiras pēc tradīcijas, Lieldienas aprēķina pēc konfesijas kalendāra, bet ekvinokcija ir astronomisks notikums.",
+      "dateModel": {
+        "type": "latvian-spring",
+        "rule": "Pavasara tradīcijām nav viena kopīga Latvijas datuma. Atver katru kalendāru atsevišķi un ievēro tajā norādīto tradīciju vai aprēķina principu."
+      },
+      "sourceIds": [
+        "meteni-dictionary",
+        "meteni-museum",
+        "palm-sunday",
+        "usno-api",
+        "holiday-law"
+      ],
+      "factNotes": [
+        "Neimportē citu valstu pavasara masku dienu kā Latvijas nacionālu datumu.",
+        "Lieldienu datumu kalendārs norāda tās baznīcas kalendāra tvērumu."
+      ],
+      "isStatutoryWorkFreeHoliday": false
+    },
+    {
+      "url": "/svetki-un-tradicijas/sveta-nikolaja-diena/",
+      "title": "Svētā Nikolaja diena: 6. decembris katoļu kalendārā",
+      "h1": "Svētā Nikolaja diena Latvijā",
+      "description": "Latvijas katoļu avotā Svētā Nikolaja diena norādīta 6. decembrī. Uzzini par datumu un reliģiskās tradīcijas tvērumu.",
+      "intro": "Svētā Nikolaja dienu atzīmē 6. decembrī Rietumu kristīgajā tradīcijā. Latvijas katoļu avots skaidro svētā piemiņu; dāvanu paražas ir atšķirīgas dažādās valstīs un nav automātiski piedēvējamas visām Latvijas ģimenēm.",
+      "dateModel": {
+        "type": "fixed",
+        "month": 12,
+        "day": 6
+      },
+      "sourceIds": [
+        "catholic-st-nicholas",
+        "catholic-calendar"
+      ],
+      "factNotes": [
+        "Reliģisks piemiņas datums; tas nav Latvijas valsts svētku vai vispārēja darba brīvdiena."
+      ],
+      "isStatutoryWorkFreeHoliday": false
+    },
+    {
+      "url": "/svetki-un-tradicijas/pasaules-bisu-diena/",
+      "title": "Pasaules bišu diena: 20. maijs",
+      "h1": "Pasaules bišu diena",
+      "description": "Pasaules bišu diena ir 20. maijā. Apskati ANO noteikto datumu un apputeksnētāju nozīmi Latvijas dārziem un dabai.",
+      "intro": "Pasaules bišu dienu ANO noteica 20. maijā. Tā atgādina par bitēm un citiem apputeksnētājiem; datums pats par sevi nav apgalvojums par vietējiem ziedēšanas vai dravas darbu termiņiem.",
+      "dateModel": {
+        "type": "fixed",
+        "month": 5,
+        "day": 20
+      },
+      "sourceIds": [
+        "un-bee-day",
+        "garden-di-guide"
+      ],
+      "factNotes": [
+        "Apputeksnētāju aktivitāte ir atkarīga no sugas, laikapstākļiem un vietējās sezonas.",
+        "Pasaules bišu diena nav Latvijas likumā noteikta svētku diena."
+      ],
+      "isStatutoryWorkFreeHoliday": false
+    },
+    {
+      "url": "/svetki-un-tradicijas/zemes-diena/",
+      "title": "Zemes diena: 22. aprīlis un Starptautiskā Mātes Zemes diena",
+      "h1": "Zemes diena Latvijā",
+      "description": "ANO Starptautiskā Mātes Zemes diena ir 22. aprīlī. Apskati datumu un atšķir to no Pasaules vides dienas 5. jūnijā.",
+      "intro": "ANO 22. aprīli noteikusi par Starptautisko Mātes Zemes dienu. Tā ir atsevišķa atzīmējamā diena no Pasaules vides dienas 5. jūnijā; vietējās dabas aktivitātes publicē to rīkotāji.",
+      "dateModel": {
+        "type": "fixed",
+        "month": 4,
+        "day": 22
+      },
+      "sourceIds": [
+        "un-mother-earth",
+        "un-world-environment"
+      ],
+      "factNotes": [
+        "22. aprīlis un 5. jūnijs ir divi atšķirīgi starptautiski datumi.",
+        "ANO 2026. gada programma vai kampaņas tēma nav automātiski piemērojama vēlākajiem gadiem."
+      ],
+      "isStatutoryWorkFreeHoliday": false
+    }
+  ]
+}

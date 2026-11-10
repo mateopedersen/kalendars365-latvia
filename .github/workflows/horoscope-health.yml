@@ -1,0 +1,35 @@
+name: Daily horoscope freshness
+
+on:
+  schedule:
+    - cron: '35 4 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  verify-today:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Confirm Riga date and twelve daily editions
+        run: |
+          node --input-type=module <<'NODE'
+          const url = 'https://kalendars365.lv/api/horoskops/dienas';
+          const response = await fetch(url, { headers: { accept: 'application/json' }, cache: 'no-store' });
+          if (!response.ok) throw new Error(`Daily horoscope endpoint returned ${response.status}`);
+          const edition = await response.json();
+          const parts = new Intl.DateTimeFormat('en-CA', {
+            timeZone: 'Europe/Riga', year: 'numeric', month: '2-digit', day: '2-digit'
+          }).formatToParts(new Date());
+          const today = `${parts.find(x => x.type === 'year').value}-${parts.find(x => x.type === 'month').value}-${parts.find(x => x.type === 'day').value}`;
+          if (edition.date !== today) throw new Error(`Expected ${today}, received ${edition.date}`);
+          if (edition.timeZone !== 'Europe/Riga') throw new Error(`Unexpected time zone: ${edition.timeZone}`);
+          if (Object.keys(edition.entries ?? {}).length !== 12) throw new Error('Expected all twelve signs');
+          for (const [sign, entry] of Object.entries(edition.entries)) {
+            if (entry.date !== today || !entry.overview || !entry.love || !entry.work || !entry.wellbeing) {
+              throw new Error(`Incomplete daily edition for ${sign}`);
+            }
+          }
+          console.log(`Verified ${today}, Europe/Riga, ${Object.keys(edition.entries).length} signs.`);
+          NODE
