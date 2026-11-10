@@ -8,7 +8,7 @@ Ruby 4.0.8 was released on 2026-10-22 and was initially absent from Cloudflare/G
 
 ## Daily editorial content
 
-The owner has now authorized daily automatic publication. `.github/workflows/daily-content.yml` runs at 22:15 UTC (00:15 in Latvia during winter time; 01:15 during summer time), rebuilds the dated edition from the original Latvian text bank, verifies all twelve signs against `Europe/Riga`, and commits the generated pages so the main-branch Cloudflare build can publish them. It also supports manual dispatch.
+The owner has now authorized daily automatic publication. `.github/workflows/daily-content.yml` runs at 22:15 UTC (00:15 in Latvia during winter time; 01:15 during summer time), rebuilds the dated edition from the original Latvian text bank, verifies all twelve signs against `Europe/Riga`, and commits the date-bound data so the main-branch Cloudflare build can regenerate and publish the rendered pages. It also supports manual dispatch.
 
 This is a deterministic selection from the site's original, AI-assisted Latvian text bank using the Riga date and astronomical context. It does not call a paid external horoscope-writing API or claim a fresh human-edited article each day. The public disclosure keeps the entertainment status, AI assistance, and absence of an individual birth-chart calculation explicit.
 
