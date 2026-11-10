@@ -11,7 +11,8 @@ let data={};try{data=JSON.parse(fs.readFileSync(path.join(root,'assets/calendar-
 data={holidays:data.holidays||[],names:data.names||[],moon:data.moon||[]};
 const sourceFingerprint=crypto.createHash('sha256').update(JSON.stringify(data)).update(fs.readFileSync(path.join(root,'assets/print.js'))).update(regular).update(bold).digest('hex');
 let previous=[];try{previous=JSON.parse(fs.readFileSync(path.join(root,'downloads/manifest.json'))).items||[];}catch{}
-const configurations=[{type:'yearly',year:2027},{type:'yearly',year:2029},{type:'monthly',year:2029,month:2},{type:'monthly',year:2030,month:2}];
+// Annual 2027–2030 assets are supplied as the reviewed A3 collection in downloads/gada-a3.
+const configurations=[{type:'monthly',year:2029,month:2},{type:'monthly',year:2030,month:2}];
 const args=new Set(process.argv.slice(2));
 const extras=['weekly','daily','lunar','blank','work','family','shift','school','named','lunar-year','work-year'].map(type=>({type,year:2028,month:2,week:9,date:'2028-02-29',name:type==='named'?'Emīlija':''}));
 const tasks=[...configurations,...extras].flatMap(config=>(args.has('--quick')?[1]:Array.from({length:15},(_,i)=>i+1)).map(design=>({config,design})));

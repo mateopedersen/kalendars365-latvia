@@ -1,7 +1,8 @@
 {
-  "asset_version": "bbbba732f294c971",
-  "sha256": "bbbba732f294c9711a917f21d088f1c13c805e2b250c3381601536922b2523e6",
+  "asset_version": "e700ce2c6d3a13af",
+  "sha256": "e700ce2c6d3a13af22bbf5b067500816996a5f4d494d6738d5c5c63537269808",
   "files": {
+    "assets/a3-gallery.css": "1889edd3db55a0a1473cc6711268699d2b19129115f3ab0f59d11f1aa9374c37",
     "assets/app.js": "1f3bb3f0e81453d28b3b29cc154e7b2b470fe10d1f54fee44c56de413ef17191",
     "assets/astronomy/earth-apollo17.webp": "dea132e5e8949d97de1697f74dc88923f92a7d9fbea793acc495c9d8dda35361",
     "assets/astronomy/earth-disc.jpg": "fbaf12217e34e6ea9eeeb7dd3e3d8674ef655ab632b28a8331e525d5c827cfc4",
@@ -1042,7 +1043,8 @@
     "assets/zodiac/versis.svg": "59b32ed5c657bdddbaf26c60824972e92921a195f40c103fa8a1db43eed9da14",
     "assets/zodiac/vezis.svg": "2375d49b03fbb73e251561f61982dbc370e343ae87123123892d5c8737724955",
     "assets/zodiac/zivis.svg": "8b94af2b23da100e0b0a85433ecfce3a0d8974293d46b19d47ecec3869788c37",
-    "downloads/manifest.json": "0c0bd9c5dcc4d117cac89ea36dd590263995ca219d64c8f5b790d7fc1835340a",
+    "downloads/gada-a3/manifest.json": "ab5cc334c16fd24f06a40884f62df9ce9b26b88462bdfacb65e6522d10c0003f",
+    "downloads/manifest.json": "8ffa4ae69aa0f05f74e889eb65a6d7949b6e9adc48e281dc3306c3a6319693d0",
     "downloads/meness/manifest.json": "ee06a549ac5edf191cf97227898d2a3a4305f1fb3749259bbc6e3ea200ea90e8"
   }
 }

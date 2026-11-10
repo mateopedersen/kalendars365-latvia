@@ -225,6 +225,18 @@ end
 def print_panel(type, y, m=nil, name=nil)
  "<section class=\"content-card print-section\" data-print-type=\"#{type}\" data-print-year=\"#{y}\" data-print-month=\"#{m}\" data-print-name=\"#{h(name)}\"><h2>Kalendārs uz papīra. Tavā stilā.</h2><p>Izvēlies vienu no 15 kompozīcijām. PDF ar vektoru tekstu vai atbilstošs A4 attēls 600 ppi izšķirtspējā. Faila veidošana notiek tavā ierīcē.</p>#{widget('print')}</section>"
 end
+def a3_year_gallery(year)
+  return '' unless (2027..2030).cover?(year)
+  items=JSON.parse(File.read('downloads/gada-a3/manifest.json')).fetch('items').select{|item|item['year']==year}.sort_by{|item|item['design']}
+  raise "A3 year #{year} missing designs" unless items.length==15
+  arrow='<svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12m-5-5 5 5 5-5M4 17v4h16v-4"/></svg>'
+  cards=items.map do |item|
+    orientation=item['orientation']=='portrait' ? 'Vertikāli' : 'Horizontāli'
+    holiday=item['holidays'] ? 'Ar svētku dienām' : 'Bez svētku atzīmēm'
+    %(<article class="a3-design-card"><a class="a3-design-preview" href="#{h(item['image'])}" target="_blank" rel="noopener" aria-label="Atvērt #{h(item['title'])} priekšskatījumu"><img src="#{h(item['preview'])}" width="400" height="560" loading="lazy" alt="#{year}. gada kalendārs: #{h(item['title'])}"><span>#{format('%02d',item['design'])} / 15</span></a><div class="a3-design-copy"><h3>#{h(item['title'])}</h3><p>A3 · #{orientation} · #{holiday}</p><div class="a3-design-actions"><a href="#{h(item['pdf'])}" download><img src="/assets/file-pdf.svg" alt="" width="24" height="24"><span>PDF</span>#{arrow}</a><a href="#{h(item['image'])}" download><img src="/assets/file-image.svg" alt="" width="24" height="24"><span>Attēls</span>#{arrow}</a></div></div></article>)
+  end.join
+  %(<section class="a3-year-gallery" id="gada-a3-kalendari"><div class="a3-gallery-heading"><div><span class="eyebrow">#{year} · LATVIJAS KALENDĀRS</span><h2>15 kalendāri A3 drukai</h2><p>Izvēlies dizainu un saglabā PDF vai attēlu 600 dpi izšķirtspējā.</p></div><span class="a3-gallery-badge">15 dizaini · A3</span></div><div class="a3-design-grid">#{cards}</div><p class="a3-gallery-note">Katrs kalendārs ietver visu #{year}. gadu. Dizainiem bez svētku atzīmēm datumi paliek redzami. <a href="/avoti-un-metodika/">Datumu avoti un metodika</a>.</p></section>)
+end
 def metrics(y,m=nil)
  first=Date.new(y,m||1,1); last=m ? Date.new(y,m,-1) : Date.new(y,12,31)
  days=(first..last).to_a; work=days.count{|d|d.cwday<6&&!HOLIDAYS.any?{|x|x['date']==d.iso8601&&x['dayOff']}}
@@ -306,7 +318,7 @@ ROUTES.each do |r|
   desc="#{GARDEN_MONTHS[m-1]} sējas un stādīšanas orientieri Latvijā. Pārbaudi avotos norādītos augsnes, šķirnes un salnu nosacījumus."
   body=garden_hub_markup(m)
  elsif f=='year'
-  body=year_links('kalendars')+metrics(y)+"<div class=\"year-calendar-grid\">#{(1..12).map{|n|calendar(y,n,true)}.join}</div>"+print_panel('yearly',y)+card('Svētki un atzīmējamās dienas',holiday_table(y))+source_panel
+  body=year_links('kalendars')+metrics(y)+"<div class=\"year-calendar-grid\">#{(1..12).map{|n|calendar(y,n,true)}.join}</div>"+(a3_year_gallery(y).empty? ? print_panel('yearly',y) : a3_year_gallery(y))+card('Svētki un atzīmējamās dienas',holiday_table(y))+source_panel
  elsif %w[calendar_month iso_week].include?(f)
   body='{% include app.html %}'+card('Kalendārs drukai',f=='calendar_month' ? calendar(y,m) : "<p>#{Date.commercial(y,week,1).strftime('%d.%m.%Y.')}–#{Date.commercial(y,week,7).strftime('%d.%m.%Y.')}</p>")+print_panel(f=='iso_week' ? 'weekly' : 'monthly',y,m)+source_panel
  elsif f=='month_index'
@@ -314,7 +326,7 @@ ROUTES.each do |r|
  elsif f=='week_index'
   body=year_links('nedelas-kalendars')+'<div class="link-grid">'+(1..Date.new(y,12,28).cweek).map{|w|a(format('/nedelas-kalendars/%d/%02d/',y,w),"#{w}. nedēļa · #{Date.commercial(y,w).strftime('%d.%m.')}–#{Date.commercial(y,w,7).strftime('%d.%m.')}",'link-card')}.join+'</div>'+source_panel
  elsif %w[print_index print_month].include?(f)
-  body=year_links('pdf-kalendari')+(m ? calendar(y,m) : month_links(y,'pdf-kalendari'))+print_panel(m ? 'monthly' : 'yearly',y,m)+source_panel
+  body=year_links('pdf-kalendari')+(m ? calendar(y,m) : month_links(y,'pdf-kalendari'))+(m ? print_panel('monthly',y,m) : (a3_year_gallery(y).empty? ? print_panel('yearly',y) : a3_year_gallery(y)))+source_panel
  elsif %w[holiday_month holiday_year memorial_year].include?(f)
   body=year_links(f=='memorial_year' ? 'atceres-dienas' : 'svetku-dienas')+metrics(y,m)+card('Datumi un dienu veidi',holiday_table(y,m,f=='memorial_year'))+month_links(y,'svetku-dienas')+source_panel('Atceres diena pati par sevi nav brīvdiena.')
  elsif %w[work_year work_month long_weekends].include?(f)
@@ -478,7 +490,7 @@ File.write('_redirects',"/avoti/ /avoti-un-metodika/ 301\n/sikdatnes/ /sikdatnu-
 public_cities = CITIES.map{|c| c.slice('id','name','locative','lat','lon','timeZone').merge('photo'=>c.fetch('photo').slice('src','srcset','alt','author','license'))}
 File.write('assets/cities.js', 'window.K365Cities = '+JSON.generate(public_cities)+";\n")
 # Content-addressed global asset revision; local user data is never involved.
-asset_files = (Dir.glob('assets/**/*').select{|path|File.file?(path)} + ['downloads/manifest.json','downloads/meness/manifest.json'].select{|path|File.file?(path)}).sort
+asset_files = (Dir.glob('assets/**/*').select{|path|File.file?(path)} + ['downloads/manifest.json','downloads/meness/manifest.json','downloads/gada-a3/manifest.json'].select{|path|File.file?(path)}).sort
 asset_hashes = asset_files.to_h{|path|[path,Digest::SHA256.file(path).hexdigest]}
 asset_sha256 = Digest::SHA256.hexdigest(JSON.generate(asset_hashes))
 File.write('_data/build.json',JSON.pretty_generate({asset_version:asset_sha256[0,16],sha256:asset_sha256,files:asset_hashes})+"\n")
