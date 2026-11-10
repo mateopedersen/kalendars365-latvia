@@ -15,7 +15,7 @@ Atjaunināts 2026-11-10. Repozitorijs: https://github.com/mateopedersen/kalendar
 
 ## Publicēšanas stāvoklis
 
-* Pēdējais `main` commit: [`07c537d`](https://github.com/mateopedersen/kalendars365-latvia/commit/07c537daa5844c9fad71b6c73f49b9a8b89bd459) — ikdienas horoskopa ģenerētais izdevums.
+* Pēdējā horoskopa izdevuma datu commit: [`07c537d`](https://github.com/mateopedersen/kalendars365-latvia/commit/07c537daa5844c9fad71b6c73f49b9a8b89bd459) — ģenerētais ikdienas izdevums.
 * Koda/ēkas pārbaude: [GitHub Actions 42778877651](https://github.com/mateopedersen/kalendars365-latvia/actions/runs/42778877651) — `Verify Latvia calendar`, sekmīgi pie `3233a31`.
 * Ikdienas izdevuma ģenerēšana, Riga datums un 12 zīmes: [GitHub Actions 42778877739](https://github.com/mateopedersen/kalendars365-latvia/actions/runs/42778877739) — sekmīgi; izveidoja `07c537d`.
 * CodeQL pārbaude: [GitHub Actions 42778877907](https://github.com/mateopedersen/kalendars365-latvia/actions/runs/42778877907) — sekmīgi.
