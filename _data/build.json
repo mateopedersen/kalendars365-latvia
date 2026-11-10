@@ -1,6 +1,6 @@
 {
-  "asset_version": "f805358cdc2ec9e5",
-  "sha256": "f805358cdc2ec9e501b0a76a96a97b44667847a08cd0dc6391e6bf590935802a",
+  "asset_version": "d395eae4e21383ac",
+  "sha256": "d395eae4e21383ace2420e96ad2d9bd96ed5a1ab0e745a6db0a27006c7a5b6f5",
   "files": {
     "assets/app.js": "08d6a2560aa4638a9b1614a2fc4b4e89d03fdbae556c392d51ee3cf5ae9606a7",
     "assets/brand-calendar.svg": "024357c658846878c7037c13e4d8083d24a57b5375eece99416daf269993c514",
@@ -1001,6 +1001,7 @@
     "assets/zodiac/udensvirs.svg": "8b3dcb01451e0573ae7d20dc317ef6425a7fbf8c04e593f1e5206efb7c58cedf",
     "assets/zodiac/versis.svg": "59b32ed5c657bdddbaf26c60824972e92921a195f40c103fa8a1db43eed9da14",
     "assets/zodiac/vezis.svg": "2375d49b03fbb73e251561f61982dbc370e343ae87123123892d5c8737724955",
-    "assets/zodiac/zivis.svg": "8b94af2b23da100e0b0a85433ecfce3a0d8974293d46b19d47ecec3869788c37"
+    "assets/zodiac/zivis.svg": "8b94af2b23da100e0b0a85433ecfce3a0d8974293d46b19d47ecec3869788c37",
+    "downloads/manifest.json": "0c0bd9c5dcc4d117cac89ea36dd590263995ca219d64c8f5b790d7fc1835340a"
   }
 }
