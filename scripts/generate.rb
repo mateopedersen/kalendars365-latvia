@@ -76,7 +76,8 @@ end
 def ui_icon(name); %(<svg class="icon" aria-hidden="true"><use href="#i-#{name}"/></svg>); end
 def visual_family(family, url = '')
  case family
- when 'sun_city','sky_hub' then 'sun'
+ when 'sun_city' then 'sun'
+ when 'sky_hub' then url.include?('meness') ? 'moon' : 'sun'
  when 'moon_city','lunar_year','lunar_month' then 'moon'
  when 'garden','garden_month' then 'garden'
  when 'horoscope' then 'zodiac'
@@ -107,23 +108,32 @@ def visual_family(family, url = '')
   case url_visual
   when /privacy|legal|terms|cookie|privatum|sikdatnu|lietošanas/ then 'privacy'
   when /about|contact|source|edit|par-projektu|kontakti|avoti|labojumi/ then 'about'
+  when /astronom|aptums|perseidas/ then 'astronomy'
+  when /meness-fazes/ then 'phases'
   when /meness|pilnmeness|jaunmeness|mēness/ then 'moon'
-  when /saullekts|saulriets|gadalaiki|dienas-garums/ then 'sun'
+  when /gadalaiki/ then 'seasons'
+  when /saullekts|saulriets|dienas-garums/ then 'sun'
   when /horoskop|zodiak/ then 'zodiac'
-  when /skola|stundu|studiju|macibu|parbaudes/ then 'school'
-  when /svetki|atceres|tradici/ then 'holiday'
-  when /darba|mainu/ then 'work'
+  when /stundu-saraksts/ then 'timetable'
+  when /skola|studiju|macibu|parbaudes/ then 'school'
+  when /atceres/ then 'memorial'
+  when /svetk|tradici/ then 'holiday'
+  when /mainu/ then 'shift'
+  when /darba/ then 'work'
   when /gimenes|dzimsanas|family|birthday/ then 'family'
   when /sejas|darza/ then 'garden'
   when /varda/ then 'names'
   when /pdf|print/ then 'print'
+  when /nedelas-kalendars/ then 'week'
+  when /atvalinajuma/ then 'vacation'
+  when /visi-riki/ then 'alltools'
   when /atvalinajuma|garas-brivdienas|kalkulator|skaititajs|visi-riki|planotajs|riki/ then 'tools'
   else 'calendar'
   end
  end
 end
 def visual_icon(family)
- {'sun'=>'sun','moon'=>'moon','garden'=>'garden','zodiac'=>'star','school'=>'school','work'=>'briefcase','culture'=>'gift','holiday'=>'gift','memorial'=>'flower','astronomy'=>'star','city'=>'pin','names'=>'sprout','print'=>'print','week'=>'week','calendar'=>'calendar','family'=>'family','tools'=>'calculator','privacy'=>'shield','about'=>'info'}.fetch(family,'calendar')
+ {'phases'=>'moon-phases','seasons'=>'seasons','timetable'=>'timetable','shift'=>'shift','vacation'=>'vacation','alltools'=>'alltools','sun'=>'sun','moon'=>'moon','garden'=>'garden','zodiac'=>'star','school'=>'school','work'=>'briefcase','culture'=>'gift','holiday'=>'gift','memorial'=>'flower','astronomy'=>'star','city'=>'pin','names'=>'sprout','print'=>'print','week'=>'week','calendar'=>'calendar','family'=>'family','tools'=>'calculator','privacy'=>'shield','about'=>'info'}.fetch(family,'calendar')
 end
 def hero_context(family,url,year,month,slug)
  if family=='latvia_special'

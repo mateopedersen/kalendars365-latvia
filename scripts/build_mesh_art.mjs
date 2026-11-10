@@ -55,7 +55,7 @@ function model(k){
 switch(k){
 
 case'phases':for(let i=0;i<4;i++){let x=-.9+i*.6;sphere(x,0,0,.25,.25,.25,i===0?C.dark:'#b5bdc4');if(i===1||i===3)sphere(x+(i===1?-.09:.09),0,.14,.19,.25,.16,C.dark);}break;
-case'seasons':box(0,-.45,0,.14,1.4,.14,C.terra);for(let [x,y,c]of [[-.42,.3,C.green],[.42,.3,C.gold],[-.42,.88,'#c98491'],[.42,.88,'#b3c7d4']])sphere(x,y,0,.4,.36,.24,c);break;
+case'seasons':tube([[0,-.95,0],[0,.7,0]],.055,C.terra);tube([[0,-.1,0],[-.5,.34,0]],.025,C.terra);tube([[0,.2,0],[.48,.65,0]],.025,C.terra);petal(-.52,.29,.02,.62,.22,2.3,C.green);petal(.38,.55,.02,.57,.23,.7,C.gold,.18);for(let i=0;i<6;i++)petal(-.2,.83,.03,.28,.10,i*Math.PI/3,'#c9869e');sphere(-.2,.83,.12,.075,.075,.05,C.gold);for(let i=0;i<3;i++){let a=i*Math.PI/3;tube([[.48-Math.cos(a)*.23,1.02-Math.sin(a)*.23,.04],[.48+Math.cos(a)*.23,1.02+Math.sin(a)*.23,.04]],.018,'#9abccc');}break;
 case'timetable':box(0,0,0,2.1,1.5,.18,C.navy);box(0,0,.12,1.95,1.35,.06,C.paper);for(let i=0;i<5;i++)for(let j=0;j<4;j++)box(-.76+i*.38,.47-j*.31,.18,.28,.2,.05,[C.wine,C.gold,C.green,C.navy][(i+j)%4]);break;
 case'shift':clock(-.48,.3,0,.59,9,0);clock(.48,-.3,.12,.59,17,0);tube([[-.75,-.55,.0],[-.45,-.83,.0],[0,-.9,.0]],.035,C.gold);tube([[.1,-.77,0],[0,-.9,0],[-.12,-1.01,0]],.035,C.gold);break;
 case'vacation':bevelBox(0,-.1,0,1.4,1.65,.65,.12,C.green);box(0,.87,0,.62,.32,.2,C.gold);for(let x of [-.52,.52]){sphere(x,-1,0,.12,.12,.12,C.dark);box(x,-.1,.37,.08,1.45,.08,C.gold);}break;

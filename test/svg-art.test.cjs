@@ -6,3 +6,6 @@ for(const dir of dirs)for(const file of fs.readdirSync(dir).filter(f=>f.endsWith
 assert(total<14*1024*1024,'SVG category library size budget');
 for(const id of ['moon','phases','astronomy'])assert(fs.readFileSync(`assets/category-art/${id}.svg`,'utf8').includes('data:image/jpeg;base64,'),id+' portable embedded photo');
 console.log(`${count} category, zodiac and garden SVG files: size, finite geometry, frame bounds and portable photos passed.`);
+
+for(const [url,model] of Object.entries({'svetku-dienas':'holiday','atceres-dienas':'memorial','astronomiskais-kalendars':'astronomy','meness-lekts-un-riets':'moon','meness-fazes':'phases','gadalaiki':'seasons','stundu-saraksts':'timetable','mainu-grafiks':'shift','atvalinajuma-planotajs':'vacation','visi-riki':'alltools','nedelas-kalendars':'week'})){assert(fs.readFileSync('_site/'+url+'/index.html','utf8').includes('page-heading--'+model),url+' topic-specific hero');}
+console.log('Eleven main category pages use their own subject-specific artwork.');

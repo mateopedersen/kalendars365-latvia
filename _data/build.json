@@ -1,6 +1,6 @@
 {
-  "asset_version": "35950a49f9d90a97",
-  "sha256": "35950a49f9d90a972d7607f9423270ef85e3c4502f22bbd79fc3a7979015f2de",
+  "asset_version": "9a8505ede3fe2806",
+  "sha256": "9a8505ede3fe280654a208695e99ef361eaa135fa00160bd3d66c7fc66752a1f",
   "files": {
     "assets/app.js": "1f3bb3f0e81453d28b3b29cc154e7b2b470fe10d1f54fee44c56de413ef17191",
     "assets/astronomy/earth-apollo17.webp": "dea132e5e8949d97de1697f74dc88923f92a7d9fbea793acc495c9d8dda35361",
@@ -47,7 +47,7 @@
     "assets/category-art/print.svg": "755be7262fe3f3ffbcaeda0248770fd77bc6eb49e276a8d68c6b708cb510e6df",
     "assets/category-art/privacy.svg": "92f168c48ca7af06e9fd1c2eb947677a8c965d3879668823bdb1a8a2d16ab3e4",
     "assets/category-art/school.svg": "9c7002dde1ee2656b8ad82447dd63b691204095282090c70afc147b9a4463436",
-    "assets/category-art/seasons.svg": "1ae18d89c192a8cbe8964012305e3afb7c6d25990ac0b019a3dc95f26948e359",
+    "assets/category-art/seasons.svg": "ea3a4d0f592c1ba0045910e5bc88decef7e6d3417aa9174a3eb5cd9de812536d",
     "assets/category-art/shift.svg": "b73e19b9359a6ed45153d6c60622c4583b41fca58956bb5087562367204f49d4",
     "assets/category-art/sun.svg": "d8b6414f85e26971fd3e27ad448b71f86a64184e6bbf12bd88c34e9af498d6f2",
     "assets/category-art/sunrise.svg": "9b6bbfac86f01d0797daede93d3d0145a701a2332fcdf90fabcec587f9455829",
@@ -1028,7 +1028,7 @@
     "assets/vendor/pdf-lib.min.js": "0f9a5cad07941f0826586c94e089d89b918c46e5c17cf2d5a3c6f666e3bc694f",
     "assets/vendor/suncalc-LICENSE.txt": "e8881f5d09f1f3c5e0e6ad4c2120521bad1079246a2af84d756af8ab1a53da3c",
     "assets/vendor/suncalc-v2.1.3.mjs": "f5ed04fe2800abc16aa0857563ef462fb4d36b67cfb203db34f0f132b9dc216d",
-    "assets/visual-polish.css": "dc81802d7b6567259f716daf7ad0cb76c666cf7644067ca50d4eef7a87dac5f0",
+    "assets/visual-polish.css": "2a43d9012e85b62253acd41c2f0ecad2fb6d47a6bd84edb6ba25ef8e767ce409",
     "assets/weather.js": "b5f640e3992b798f42bc7a46eaa905d71e3549872c1aeba467b5255bac605e51",
     "assets/zodiac/auns.svg": "0d10fbe642f9751d1cbf9f1bd88c5e8b3b38406d5e3063b53ca2b49648bf4cbd",
     "assets/zodiac/dvini.svg": "7cd00fde90ff5a2219aa6200a04f853b2138645837b25f605c52aa45a6c6b40b",
