@@ -1,0 +1,2869 @@
+{
+  "pdfs": 260,
+  "images": 260,
+  "pages": 260,
+  "moonDiscs": 14608,
+  "minimumEmbeddedMoonDpi": 684.46,
+  "results": [
+    {
+      "stem": "meness-kalendars-2028-janvaris-nakts",
+      "pages": 1,
+      "moons": 31,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        4961,
+        7016
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2028-janvaris-gaisma",
+      "pages": 1,
+      "moons": 31,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        4961,
+        7016
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2028-janvaris-piezimes",
+      "pages": 1,
+      "moons": 31,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        7016,
+        4961
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2028-janvaris-nedelas",
+      "pages": 1,
+      "moons": 31,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        7016,
+        4961
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2028-gadam-atlants",
+      "pages": 1,
+      "moons": 366,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        9921,
+        7016
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2028-gadam-menesi",
+      "pages": 1,
+      "moons": 366,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        7016,
+        9921
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2028-gadam-nakts",
+      "pages": 1,
+      "moons": 366,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        9921,
+        7016
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2028-gadam-cikli",
+      "pages": 1,
+      "moons": 366,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        7016,
+        9921
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2026-janvaris-nakts",
+      "pages": 1,
+      "moons": 31,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        4961,
+        7016
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2026-janvaris-gaisma",
+      "pages": 1,
+      "moons": 31,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        4961,
+        7016
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2026-janvaris-piezimes",
+      "pages": 1,
+      "moons": 31,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        7016,
+        4961
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2026-janvaris-nedelas",
+      "pages": 1,
+      "moons": 31,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        7016,
+        4961
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2026-februaris-nakts",
+      "pages": 1,
+      "moons": 28,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        4961,
+        7016
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2026-februaris-gaisma",
+      "pages": 1,
+      "moons": 28,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        4961,
+        7016
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2026-februaris-piezimes",
+      "pages": 1,
+      "moons": 28,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        7016,
+        4961
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2026-februaris-nedelas",
+      "pages": 1,
+      "moons": 28,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        7016,
+        4961
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2026-marts-nakts",
+      "pages": 1,
+      "moons": 31,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        4961,
+        7016
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2026-marts-gaisma",
+      "pages": 1,
+      "moons": 31,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        4961,
+        7016
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2026-marts-piezimes",
+      "pages": 1,
+      "moons": 31,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        7016,
+        4961
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2026-marts-nedelas",
+      "pages": 1,
+      "moons": 31,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        7016,
+        4961
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2026-aprilis-nakts",
+      "pages": 1,
+      "moons": 30,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        4961,
+        7016
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2026-aprilis-gaisma",
+      "pages": 1,
+      "moons": 30,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        4961,
+        7016
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2026-aprilis-piezimes",
+      "pages": 1,
+      "moons": 30,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        7016,
+        4961
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2026-aprilis-nedelas",
+      "pages": 1,
+      "moons": 30,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        7016,
+        4961
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2026-maijs-nakts",
+      "pages": 1,
+      "moons": 31,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        4961,
+        7016
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2026-maijs-gaisma",
+      "pages": 1,
+      "moons": 31,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        4961,
+        7016
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2026-maijs-piezimes",
+      "pages": 1,
+      "moons": 31,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        7016,
+        4961
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2026-maijs-nedelas",
+      "pages": 1,
+      "moons": 31,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        7016,
+        4961
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2026-junijs-nakts",
+      "pages": 1,
+      "moons": 30,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        4961,
+        7016
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2026-junijs-gaisma",
+      "pages": 1,
+      "moons": 30,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        4961,
+        7016
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2026-junijs-piezimes",
+      "pages": 1,
+      "moons": 30,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        7016,
+        4961
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2026-junijs-nedelas",
+      "pages": 1,
+      "moons": 30,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        7016,
+        4961
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2026-julijs-nakts",
+      "pages": 1,
+      "moons": 31,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        4961,
+        7016
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2026-julijs-gaisma",
+      "pages": 1,
+      "moons": 31,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        4961,
+        7016
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2026-julijs-piezimes",
+      "pages": 1,
+      "moons": 31,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        7016,
+        4961
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2026-julijs-nedelas",
+      "pages": 1,
+      "moons": 31,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        7016,
+        4961
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2026-augusts-nakts",
+      "pages": 1,
+      "moons": 31,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        4961,
+        7016
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2026-augusts-gaisma",
+      "pages": 1,
+      "moons": 31,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        4961,
+        7016
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2026-augusts-piezimes",
+      "pages": 1,
+      "moons": 31,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        7016,
+        4961
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2026-augusts-nedelas",
+      "pages": 1,
+      "moons": 31,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        7016,
+        4961
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2026-septembris-nakts",
+      "pages": 1,
+      "moons": 30,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        4961,
+        7016
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2026-septembris-gaisma",
+      "pages": 1,
+      "moons": 30,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        4961,
+        7016
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2026-septembris-piezimes",
+      "pages": 1,
+      "moons": 30,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        7016,
+        4961
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2026-septembris-nedelas",
+      "pages": 1,
+      "moons": 30,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        7016,
+        4961
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2026-oktobris-nakts",
+      "pages": 1,
+      "moons": 31,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        4961,
+        7016
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2026-oktobris-gaisma",
+      "pages": 1,
+      "moons": 31,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        4961,
+        7016
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2026-oktobris-piezimes",
+      "pages": 1,
+      "moons": 31,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        7016,
+        4961
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2026-oktobris-nedelas",
+      "pages": 1,
+      "moons": 31,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        7016,
+        4961
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2026-novembris-nakts",
+      "pages": 1,
+      "moons": 30,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        4961,
+        7016
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2026-novembris-gaisma",
+      "pages": 1,
+      "moons": 30,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        4961,
+        7016
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2026-novembris-piezimes",
+      "pages": 1,
+      "moons": 30,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        7016,
+        4961
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2026-novembris-nedelas",
+      "pages": 1,
+      "moons": 30,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        7016,
+        4961
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2026-decembris-nakts",
+      "pages": 1,
+      "moons": 31,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        4961,
+        7016
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2026-decembris-gaisma",
+      "pages": 1,
+      "moons": 31,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        4961,
+        7016
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2026-decembris-piezimes",
+      "pages": 1,
+      "moons": 31,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        7016,
+        4961
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2026-decembris-nedelas",
+      "pages": 1,
+      "moons": 31,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        7016,
+        4961
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2027-janvaris-nakts",
+      "pages": 1,
+      "moons": 31,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        4961,
+        7016
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2027-janvaris-gaisma",
+      "pages": 1,
+      "moons": 31,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        4961,
+        7016
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2027-janvaris-piezimes",
+      "pages": 1,
+      "moons": 31,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        7016,
+        4961
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2027-janvaris-nedelas",
+      "pages": 1,
+      "moons": 31,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        7016,
+        4961
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2027-februaris-nakts",
+      "pages": 1,
+      "moons": 28,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        4961,
+        7016
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2027-februaris-gaisma",
+      "pages": 1,
+      "moons": 28,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        4961,
+        7016
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2027-februaris-piezimes",
+      "pages": 1,
+      "moons": 28,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        7016,
+        4961
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2027-februaris-nedelas",
+      "pages": 1,
+      "moons": 28,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        7016,
+        4961
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2027-marts-nakts",
+      "pages": 1,
+      "moons": 31,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        4961,
+        7016
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2027-marts-gaisma",
+      "pages": 1,
+      "moons": 31,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        4961,
+        7016
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2027-marts-piezimes",
+      "pages": 1,
+      "moons": 31,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        7016,
+        4961
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2027-marts-nedelas",
+      "pages": 1,
+      "moons": 31,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        7016,
+        4961
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2027-aprilis-nakts",
+      "pages": 1,
+      "moons": 30,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        4961,
+        7016
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2027-aprilis-gaisma",
+      "pages": 1,
+      "moons": 30,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        4961,
+        7016
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2027-aprilis-piezimes",
+      "pages": 1,
+      "moons": 30,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        7016,
+        4961
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2027-aprilis-nedelas",
+      "pages": 1,
+      "moons": 30,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        7016,
+        4961
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2027-maijs-nakts",
+      "pages": 1,
+      "moons": 31,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        4961,
+        7016
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2027-maijs-gaisma",
+      "pages": 1,
+      "moons": 31,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        4961,
+        7016
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2027-maijs-piezimes",
+      "pages": 1,
+      "moons": 31,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        7016,
+        4961
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2027-maijs-nedelas",
+      "pages": 1,
+      "moons": 31,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        7016,
+        4961
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2027-junijs-nakts",
+      "pages": 1,
+      "moons": 30,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        4961,
+        7016
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2027-junijs-gaisma",
+      "pages": 1,
+      "moons": 30,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        4961,
+        7016
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2027-junijs-piezimes",
+      "pages": 1,
+      "moons": 30,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        7016,
+        4961
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2027-junijs-nedelas",
+      "pages": 1,
+      "moons": 30,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        7016,
+        4961
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2027-julijs-nakts",
+      "pages": 1,
+      "moons": 31,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        4961,
+        7016
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2027-julijs-gaisma",
+      "pages": 1,
+      "moons": 31,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        4961,
+        7016
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2027-julijs-piezimes",
+      "pages": 1,
+      "moons": 31,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        7016,
+        4961
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2027-julijs-nedelas",
+      "pages": 1,
+      "moons": 31,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        7016,
+        4961
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2027-augusts-nakts",
+      "pages": 1,
+      "moons": 31,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        4961,
+        7016
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2027-augusts-gaisma",
+      "pages": 1,
+      "moons": 31,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        4961,
+        7016
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2027-augusts-piezimes",
+      "pages": 1,
+      "moons": 31,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        7016,
+        4961
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2027-augusts-nedelas",
+      "pages": 1,
+      "moons": 31,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        7016,
+        4961
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2027-septembris-nakts",
+      "pages": 1,
+      "moons": 30,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        4961,
+        7016
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2027-septembris-gaisma",
+      "pages": 1,
+      "moons": 30,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        4961,
+        7016
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2027-septembris-piezimes",
+      "pages": 1,
+      "moons": 30,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        7016,
+        4961
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2027-septembris-nedelas",
+      "pages": 1,
+      "moons": 30,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        7016,
+        4961
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2027-oktobris-nakts",
+      "pages": 1,
+      "moons": 31,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        4961,
+        7016
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2027-oktobris-gaisma",
+      "pages": 1,
+      "moons": 31,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        4961,
+        7016
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2027-oktobris-piezimes",
+      "pages": 1,
+      "moons": 31,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        7016,
+        4961
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2027-oktobris-nedelas",
+      "pages": 1,
+      "moons": 31,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        7016,
+        4961
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2027-novembris-nakts",
+      "pages": 1,
+      "moons": 30,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        4961,
+        7016
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2027-novembris-gaisma",
+      "pages": 1,
+      "moons": 30,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        4961,
+        7016
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2027-novembris-piezimes",
+      "pages": 1,
+      "moons": 30,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        7016,
+        4961
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2027-novembris-nedelas",
+      "pages": 1,
+      "moons": 30,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        7016,
+        4961
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2027-decembris-nakts",
+      "pages": 1,
+      "moons": 31,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        4961,
+        7016
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2027-decembris-gaisma",
+      "pages": 1,
+      "moons": 31,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        4961,
+        7016
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2027-decembris-piezimes",
+      "pages": 1,
+      "moons": 31,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        7016,
+        4961
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2027-decembris-nedelas",
+      "pages": 1,
+      "moons": 31,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        7016,
+        4961
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2028-februaris-nakts",
+      "pages": 1,
+      "moons": 29,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        4961,
+        7016
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2028-februaris-gaisma",
+      "pages": 1,
+      "moons": 29,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        4961,
+        7016
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2028-februaris-piezimes",
+      "pages": 1,
+      "moons": 29,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        7016,
+        4961
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2028-februaris-nedelas",
+      "pages": 1,
+      "moons": 29,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        7016,
+        4961
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2028-marts-nakts",
+      "pages": 1,
+      "moons": 31,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        4961,
+        7016
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2028-marts-gaisma",
+      "pages": 1,
+      "moons": 31,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        4961,
+        7016
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2028-marts-piezimes",
+      "pages": 1,
+      "moons": 31,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        7016,
+        4961
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2028-marts-nedelas",
+      "pages": 1,
+      "moons": 31,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        7016,
+        4961
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2028-aprilis-nakts",
+      "pages": 1,
+      "moons": 30,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        4961,
+        7016
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2028-aprilis-gaisma",
+      "pages": 1,
+      "moons": 30,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        4961,
+        7016
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2028-aprilis-piezimes",
+      "pages": 1,
+      "moons": 30,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        7016,
+        4961
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2028-aprilis-nedelas",
+      "pages": 1,
+      "moons": 30,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        7016,
+        4961
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2028-maijs-nakts",
+      "pages": 1,
+      "moons": 31,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        4961,
+        7016
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2028-maijs-gaisma",
+      "pages": 1,
+      "moons": 31,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        4961,
+        7016
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2028-maijs-piezimes",
+      "pages": 1,
+      "moons": 31,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        7016,
+        4961
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2028-maijs-nedelas",
+      "pages": 1,
+      "moons": 31,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        7016,
+        4961
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2028-junijs-nakts",
+      "pages": 1,
+      "moons": 30,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        4961,
+        7016
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2028-junijs-gaisma",
+      "pages": 1,
+      "moons": 30,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        4961,
+        7016
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2028-junijs-piezimes",
+      "pages": 1,
+      "moons": 30,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        7016,
+        4961
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2028-junijs-nedelas",
+      "pages": 1,
+      "moons": 30,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        7016,
+        4961
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2028-julijs-nakts",
+      "pages": 1,
+      "moons": 31,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        4961,
+        7016
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2028-julijs-gaisma",
+      "pages": 1,
+      "moons": 31,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        4961,
+        7016
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2028-julijs-piezimes",
+      "pages": 1,
+      "moons": 31,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        7016,
+        4961
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2028-julijs-nedelas",
+      "pages": 1,
+      "moons": 31,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        7016,
+        4961
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2028-augusts-nakts",
+      "pages": 1,
+      "moons": 31,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        4961,
+        7016
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2028-augusts-gaisma",
+      "pages": 1,
+      "moons": 31,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        4961,
+        7016
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2028-augusts-piezimes",
+      "pages": 1,
+      "moons": 31,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        7016,
+        4961
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2028-augusts-nedelas",
+      "pages": 1,
+      "moons": 31,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        7016,
+        4961
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2028-septembris-nakts",
+      "pages": 1,
+      "moons": 30,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        4961,
+        7016
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2028-septembris-gaisma",
+      "pages": 1,
+      "moons": 30,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        4961,
+        7016
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2028-septembris-piezimes",
+      "pages": 1,
+      "moons": 30,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        7016,
+        4961
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2028-septembris-nedelas",
+      "pages": 1,
+      "moons": 30,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        7016,
+        4961
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2028-oktobris-nakts",
+      "pages": 1,
+      "moons": 31,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        4961,
+        7016
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2028-oktobris-gaisma",
+      "pages": 1,
+      "moons": 31,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        4961,
+        7016
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2028-oktobris-piezimes",
+      "pages": 1,
+      "moons": 31,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        7016,
+        4961
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2028-oktobris-nedelas",
+      "pages": 1,
+      "moons": 31,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        7016,
+        4961
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2028-novembris-nakts",
+      "pages": 1,
+      "moons": 30,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        4961,
+        7016
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2028-novembris-gaisma",
+      "pages": 1,
+      "moons": 30,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        4961,
+        7016
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2028-novembris-piezimes",
+      "pages": 1,
+      "moons": 30,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        7016,
+        4961
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2028-novembris-nedelas",
+      "pages": 1,
+      "moons": 30,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        7016,
+        4961
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2028-decembris-nakts",
+      "pages": 1,
+      "moons": 31,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        4961,
+        7016
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2028-decembris-gaisma",
+      "pages": 1,
+      "moons": 31,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        4961,
+        7016
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2028-decembris-piezimes",
+      "pages": 1,
+      "moons": 31,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        7016,
+        4961
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2028-decembris-nedelas",
+      "pages": 1,
+      "moons": 31,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        7016,
+        4961
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2029-janvaris-nakts",
+      "pages": 1,
+      "moons": 31,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        4961,
+        7016
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2029-janvaris-gaisma",
+      "pages": 1,
+      "moons": 31,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        4961,
+        7016
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2029-janvaris-piezimes",
+      "pages": 1,
+      "moons": 31,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        7016,
+        4961
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2029-janvaris-nedelas",
+      "pages": 1,
+      "moons": 31,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        7016,
+        4961
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2029-februaris-nakts",
+      "pages": 1,
+      "moons": 28,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        4961,
+        7016
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2029-februaris-gaisma",
+      "pages": 1,
+      "moons": 28,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        4961,
+        7016
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2029-februaris-piezimes",
+      "pages": 1,
+      "moons": 28,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        7016,
+        4961
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2029-februaris-nedelas",
+      "pages": 1,
+      "moons": 28,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        7016,
+        4961
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2029-marts-nakts",
+      "pages": 1,
+      "moons": 31,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        4961,
+        7016
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2029-marts-gaisma",
+      "pages": 1,
+      "moons": 31,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        4961,
+        7016
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2029-marts-piezimes",
+      "pages": 1,
+      "moons": 31,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        7016,
+        4961
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2029-marts-nedelas",
+      "pages": 1,
+      "moons": 31,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        7016,
+        4961
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2029-aprilis-nakts",
+      "pages": 1,
+      "moons": 30,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        4961,
+        7016
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2029-aprilis-gaisma",
+      "pages": 1,
+      "moons": 30,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        4961,
+        7016
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2029-aprilis-piezimes",
+      "pages": 1,
+      "moons": 30,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        7016,
+        4961
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2029-aprilis-nedelas",
+      "pages": 1,
+      "moons": 30,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        7016,
+        4961
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2029-maijs-nakts",
+      "pages": 1,
+      "moons": 31,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        4961,
+        7016
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2029-maijs-gaisma",
+      "pages": 1,
+      "moons": 31,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        4961,
+        7016
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2029-maijs-piezimes",
+      "pages": 1,
+      "moons": 31,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        7016,
+        4961
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2029-maijs-nedelas",
+      "pages": 1,
+      "moons": 31,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        7016,
+        4961
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2029-junijs-nakts",
+      "pages": 1,
+      "moons": 30,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        4961,
+        7016
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2029-junijs-gaisma",
+      "pages": 1,
+      "moons": 30,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        4961,
+        7016
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2029-junijs-piezimes",
+      "pages": 1,
+      "moons": 30,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        7016,
+        4961
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2029-junijs-nedelas",
+      "pages": 1,
+      "moons": 30,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        7016,
+        4961
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2029-julijs-nakts",
+      "pages": 1,
+      "moons": 31,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        4961,
+        7016
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2029-julijs-gaisma",
+      "pages": 1,
+      "moons": 31,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        4961,
+        7016
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2029-julijs-piezimes",
+      "pages": 1,
+      "moons": 31,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        7016,
+        4961
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2029-julijs-nedelas",
+      "pages": 1,
+      "moons": 31,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        7016,
+        4961
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2029-augusts-nakts",
+      "pages": 1,
+      "moons": 31,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        4961,
+        7016
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2029-augusts-gaisma",
+      "pages": 1,
+      "moons": 31,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        4961,
+        7016
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2029-augusts-piezimes",
+      "pages": 1,
+      "moons": 31,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        7016,
+        4961
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2029-augusts-nedelas",
+      "pages": 1,
+      "moons": 31,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        7016,
+        4961
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2029-septembris-nakts",
+      "pages": 1,
+      "moons": 30,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        4961,
+        7016
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2029-septembris-gaisma",
+      "pages": 1,
+      "moons": 30,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        4961,
+        7016
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2029-septembris-piezimes",
+      "pages": 1,
+      "moons": 30,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        7016,
+        4961
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2029-septembris-nedelas",
+      "pages": 1,
+      "moons": 30,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        7016,
+        4961
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2029-oktobris-nakts",
+      "pages": 1,
+      "moons": 31,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        4961,
+        7016
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2029-oktobris-gaisma",
+      "pages": 1,
+      "moons": 31,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        4961,
+        7016
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2029-oktobris-piezimes",
+      "pages": 1,
+      "moons": 31,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        7016,
+        4961
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2029-oktobris-nedelas",
+      "pages": 1,
+      "moons": 31,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        7016,
+        4961
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2029-novembris-nakts",
+      "pages": 1,
+      "moons": 30,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        4961,
+        7016
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2029-novembris-gaisma",
+      "pages": 1,
+      "moons": 30,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        4961,
+        7016
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2029-novembris-piezimes",
+      "pages": 1,
+      "moons": 30,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        7016,
+        4961
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2029-novembris-nedelas",
+      "pages": 1,
+      "moons": 30,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        7016,
+        4961
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2029-decembris-nakts",
+      "pages": 1,
+      "moons": 31,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        4961,
+        7016
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2029-decembris-gaisma",
+      "pages": 1,
+      "moons": 31,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        4961,
+        7016
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2029-decembris-piezimes",
+      "pages": 1,
+      "moons": 31,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        7016,
+        4961
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2029-decembris-nedelas",
+      "pages": 1,
+      "moons": 31,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        7016,
+        4961
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2030-janvaris-nakts",
+      "pages": 1,
+      "moons": 31,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        4961,
+        7016
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2030-janvaris-gaisma",
+      "pages": 1,
+      "moons": 31,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        4961,
+        7016
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2030-janvaris-piezimes",
+      "pages": 1,
+      "moons": 31,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        7016,
+        4961
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2030-janvaris-nedelas",
+      "pages": 1,
+      "moons": 31,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        7016,
+        4961
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2030-februaris-nakts",
+      "pages": 1,
+      "moons": 28,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        4961,
+        7016
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2030-februaris-gaisma",
+      "pages": 1,
+      "moons": 28,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        4961,
+        7016
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2030-februaris-piezimes",
+      "pages": 1,
+      "moons": 28,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        7016,
+        4961
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2030-februaris-nedelas",
+      "pages": 1,
+      "moons": 28,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        7016,
+        4961
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2030-marts-nakts",
+      "pages": 1,
+      "moons": 31,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        4961,
+        7016
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2030-marts-gaisma",
+      "pages": 1,
+      "moons": 31,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        4961,
+        7016
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2030-marts-piezimes",
+      "pages": 1,
+      "moons": 31,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        7016,
+        4961
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2030-marts-nedelas",
+      "pages": 1,
+      "moons": 31,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        7016,
+        4961
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2030-aprilis-nakts",
+      "pages": 1,
+      "moons": 30,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        4961,
+        7016
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2030-aprilis-gaisma",
+      "pages": 1,
+      "moons": 30,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        4961,
+        7016
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2030-aprilis-piezimes",
+      "pages": 1,
+      "moons": 30,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        7016,
+        4961
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2030-aprilis-nedelas",
+      "pages": 1,
+      "moons": 30,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        7016,
+        4961
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2030-maijs-nakts",
+      "pages": 1,
+      "moons": 31,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        4961,
+        7016
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2030-maijs-gaisma",
+      "pages": 1,
+      "moons": 31,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        4961,
+        7016
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2030-maijs-piezimes",
+      "pages": 1,
+      "moons": 31,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        7016,
+        4961
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2030-maijs-nedelas",
+      "pages": 1,
+      "moons": 31,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        7016,
+        4961
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2030-junijs-nakts",
+      "pages": 1,
+      "moons": 30,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        4961,
+        7016
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2030-junijs-gaisma",
+      "pages": 1,
+      "moons": 30,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        4961,
+        7016
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2030-junijs-piezimes",
+      "pages": 1,
+      "moons": 30,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        7016,
+        4961
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2030-junijs-nedelas",
+      "pages": 1,
+      "moons": 30,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        7016,
+        4961
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2030-julijs-nakts",
+      "pages": 1,
+      "moons": 31,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        4961,
+        7016
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2030-julijs-gaisma",
+      "pages": 1,
+      "moons": 31,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        4961,
+        7016
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2030-julijs-piezimes",
+      "pages": 1,
+      "moons": 31,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        7016,
+        4961
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2030-julijs-nedelas",
+      "pages": 1,
+      "moons": 31,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        7016,
+        4961
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2030-augusts-nakts",
+      "pages": 1,
+      "moons": 31,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        4961,
+        7016
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2030-augusts-gaisma",
+      "pages": 1,
+      "moons": 31,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        4961,
+        7016
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2030-augusts-piezimes",
+      "pages": 1,
+      "moons": 31,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        7016,
+        4961
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2030-augusts-nedelas",
+      "pages": 1,
+      "moons": 31,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        7016,
+        4961
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2030-septembris-nakts",
+      "pages": 1,
+      "moons": 30,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        4961,
+        7016
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2030-septembris-gaisma",
+      "pages": 1,
+      "moons": 30,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        4961,
+        7016
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2030-septembris-piezimes",
+      "pages": 1,
+      "moons": 30,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        7016,
+        4961
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2030-septembris-nedelas",
+      "pages": 1,
+      "moons": 30,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        7016,
+        4961
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2030-oktobris-nakts",
+      "pages": 1,
+      "moons": 31,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        4961,
+        7016
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2030-oktobris-gaisma",
+      "pages": 1,
+      "moons": 31,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        4961,
+        7016
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2030-oktobris-piezimes",
+      "pages": 1,
+      "moons": 31,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        7016,
+        4961
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2030-oktobris-nedelas",
+      "pages": 1,
+      "moons": 31,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        7016,
+        4961
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2030-novembris-nakts",
+      "pages": 1,
+      "moons": 30,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        4961,
+        7016
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2030-novembris-gaisma",
+      "pages": 1,
+      "moons": 30,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        4961,
+        7016
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2030-novembris-piezimes",
+      "pages": 1,
+      "moons": 30,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        7016,
+        4961
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2030-novembris-nedelas",
+      "pages": 1,
+      "moons": 30,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        7016,
+        4961
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2030-decembris-nakts",
+      "pages": 1,
+      "moons": 31,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        4961,
+        7016
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2030-decembris-gaisma",
+      "pages": 1,
+      "moons": 31,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        4961,
+        7016
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2030-decembris-piezimes",
+      "pages": 1,
+      "moons": 31,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        7016,
+        4961
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2030-decembris-nedelas",
+      "pages": 1,
+      "moons": 31,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        7016,
+        4961
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2026-gadam-atlants",
+      "pages": 1,
+      "moons": 365,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        9921,
+        7016
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2026-gadam-menesi",
+      "pages": 1,
+      "moons": 365,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        7016,
+        9921
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2026-gadam-nakts",
+      "pages": 1,
+      "moons": 365,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        9921,
+        7016
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2026-gadam-cikli",
+      "pages": 1,
+      "moons": 365,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        7016,
+        9921
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2027-gadam-atlants",
+      "pages": 1,
+      "moons": 365,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        9921,
+        7016
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2027-gadam-menesi",
+      "pages": 1,
+      "moons": 365,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        7016,
+        9921
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2027-gadam-nakts",
+      "pages": 1,
+      "moons": 365,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        9921,
+        7016
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2027-gadam-cikli",
+      "pages": 1,
+      "moons": 365,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        7016,
+        9921
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2029-gadam-atlants",
+      "pages": 1,
+      "moons": 365,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        9921,
+        7016
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2029-gadam-menesi",
+      "pages": 1,
+      "moons": 365,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        7016,
+        9921
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2029-gadam-nakts",
+      "pages": 1,
+      "moons": 365,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        9921,
+        7016
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2029-gadam-cikli",
+      "pages": 1,
+      "moons": 365,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        7016,
+        9921
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2030-gadam-atlants",
+      "pages": 1,
+      "moons": 365,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        9921,
+        7016
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2030-gadam-menesi",
+      "pages": 1,
+      "moons": 365,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        7016,
+        9921
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2030-gadam-nakts",
+      "pages": 1,
+      "moons": 365,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        9921,
+        7016
+      ],
+      "exifDpi": 600
+    },
+    {
+      "stem": "meness-kalendars-2030-gadam-cikli",
+      "pages": 1,
+      "moons": 365,
+      "embeddedFonts": 2,
+      "imagePixels": [
+        7016,
+        9921
+      ],
+      "exifDpi": 600
+    }
+  ]
+}

@@ -131,6 +131,22 @@ def study_calendar_markup
   %(<section class="university-calendar-intro"><div><span class="eyebrow">LATVIJAS AUGSTSKOLAS</span><h2>2026./2027. studiju gads</h2><p>Apkopoti augstskolu oficiālie semestru, sesiju un brīvlaiku periodi. Katras programmas grafiks var atšķirties, tāpēc svarīgo datumu pārbaudi arī savas augstskolas avotā.</p></div><div class="university-source-badge"><strong>#{data.fetch('calendars').length} publicēti grafiki</strong><span>9 no 11 iestādēm · LU doktorantūras grafiks uzrādīts atsevišķi</span></div></section><section class="university-directory" id="university-directory"><div class="university-directory-heading"><div><span class="eyebrow">IZVĒLIES IESTĀDI</span><h2>Latvijas valsts augstskolas</h2></div><a href="#{h(directory.fetch('registerUrl'))}" target="_blank" rel="noopener">Pilns AIKA reģistrs ↗</a></div><nav aria-label="Latvijas augstskolu kalendāri" class="university-directory-grid">#{university_directory}</nav><p class="university-directory-source">Saraksts: <a href="#{h(directory.fetch('url'))}" target="_blank" rel="noopener">#{h(directory.fetch('title'))} ↗</a>. Šis ir valsts augstskolu saraksts; pilnā AIKA reģistrā ir arī privātās augstskolas un koledžas.</p></section><section class="study-calendar-grid" aria-label="Augstskolu studiju kalendāri">#{calendar_cards}#{pending_cards}</section><aside class="university-calendar-notes"><h2>Kā lasīt datumus</h2><ul>#{data.fetch('notes').map { |note| "<li>#{h(note)}</li>" }.join}</ul></aside>)
 end
 
+def lunar_print_gallery(year, month=nil)
+  path = 'downloads/meness/manifest.json'
+  return '' unless File.file?(path)
+  items = JSON.parse(File.read(path)).fetch('items').select { |item| item['year'] == year && item['month'] == month }.sort_by { |item| item['design'] }
+  raise "Incomplete lunar prints for #{year}/#{month}" unless items.length == 4
+  arrow = '<svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12m-5-5 5 5 5-5M4 16v5h16v-5"/></svg>'
+  file_icon = '<img src="/assets/file-pdf.svg" width="26" height="26" alt="" aria-hidden="true">'
+  image_icon = '<img src="/assets/file-image.svg" width="26" height="26" alt="" aria-hidden="true">'
+  cards = items.map do |item|
+    orientation = item['orientation'] == 'portrait' ? 'Vertikāli' : 'Horizontāli'
+    mb = format('%.1f', item['pdfBytes'] / 1_000_000.0).tr('.', ',')
+    %(<article class="moon-print-card"><a class="moon-print-preview" href="#{h(item['image'])}" target="_blank" rel="noopener" aria-label="Priekšskatīt: #{h(item['name'])}"><img src="#{h(item['preview'])}" alt="#{h(item['name'])} · #{month ? h(MONTHS[month-1])+' ' : ''}#{year}. gada Mēness kalendārs" width="#{item['width']}" height="#{item['height']}" loading="lazy"><span>Priekšskatīt ↗</span></a><div class="moon-print-details"><h3>#{h(item['name'])}</h3><p>#{item['paper']} · #{orientation} · 600 dpi</p><div class="moon-print-downloads"><a href="#{h(item['pdf'])}" download aria-label="Lejupielādēt PDF: #{h(item['name'])}">#{file_icon}<span>PDF</span>#{arrow}</a><a href="#{h(item['image'])}" download aria-label="Lejupielādēt attēlu: #{h(item['name'])}">#{image_icon}<span>Attēls</span>#{arrow}</a></div><small>PDF #{mb} MB · Attēls #{item['width']} × #{item['height']} px</small></div></article>)
+  end.join
+  %(<section class="moon-print-section" id="meness-drukai" aria-labelledby="moon-print-title"><header class="moon-print-heading"><div><span class="eyebrow">SAGLABĀ UN IZDRUKĀ</span><h2 id="moon-print-title">#{month ? 'Mēneša' : 'Gada'} Mēness kalendārs drukai</h2><p>Četri dizaini. PDF vai augstas izšķirtspējas attēls.</p></div><span class="moon-print-quality">600 dpi</span></header><div class="moon-print-grid">#{cards}</div><p class="moon-print-note">Mēness izskats aprēķināts katrai dienai plkst. 12.00 pēc Latvijas laika; debess ziemeļi augšā. Virsma: <a href="https://svs.gsfc.nasa.gov/4720/" target="_blank" rel="noopener">NASA SVS / LRO / LROC</a>. <a href="/avoti-un-metodika/">Aprēķinu avoti</a>.</p></section>)
+end
+
 def lunar_month_markup(year, month)
   data = JSON.parse(File.read('assets/calendar-data.json'))
   all_phases = data.fetch('moon', [])
@@ -165,7 +181,7 @@ def lunar_month_markup(year, month)
   city_options = CITIES.map { |city| %(<option value="#{h(city['id'])}"#{city['id'] == 'riga' ? ' selected' : ''}>#{h(city['name'])}</option>) }.join
   phases_json = JSON.generate(phases)
   %(<section class="lunar-page" data-lunar-calendar data-lunar-year="#{year}" data-lunar-month="#{month}" data-lunar-source="/assets/moon-lro-mosaic.jpg">
-    <div class="lunar-action-banner"><span class="lunar-action-icon" aria-hidden="true">↓</span><div><strong>Mēness mēneša pārskatu vari izdrukāt vai saglabāt PDF formātā.</strong><p>Izvēlies dienu kalendārā, lai apskatītu tās aprēķināto fāzi un apgaismojumu.</p></div><button type="button" data-lunar-print>Drukāt mēnesi ↓</button></div>
+    <div class="lunar-action-banner"><span class="lunar-action-icon" aria-hidden="true">↓</span><div><strong>Mēness kalendārs PDF un attēla formātā.</strong><p>Četras drukas veidnes 600 dpi kvalitātē.</p></div><a class="lunar-template-link" href="#meness-drukai">Drukas veidnes ↓</a></div>
     <nav class="lunar-month-nav" aria-label="Mēneša navigācija">#{previous_link}#{a(year_path, 'Gada pārskats', 'lunar-nav-button lunar-nav-year')}#{next_link}</nav>
     <div class="lunar-calendar-layout">
       <section class="lunar-calendar-card" aria-label="#{h(MONTHS[month - 1])} #{year}. gada Mēness kalendārs">

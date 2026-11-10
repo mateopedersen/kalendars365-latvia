@@ -324,9 +324,9 @@ ROUTES.each do |r|
   phases=DATA.fetch('moon',[]).select{|v|v['date'].to_s.start_with?(m ? format('%04d-%02d',y,m) : y.to_s)}
   noindex=phases.empty?;reason='moon_source_pending' if noindex
   body=if m
-   lunar_month_markup(y,m)+print_panel('lunar',y,m)+source_panel('Redzamā Mēness diska apgaismojums un virziena leņķis tiek aprēķināts izvēlētās pilsētas koordinātām plkst. 12.00 Europe/Riga laikā ar Astronomy Engine DE421 efemerīdām. Mēness lēkta un rieta brīžus aprēķina lokāls novērotāja modelis, ņemot vērā Mēness diska malu un atmosfēras refrakciju. Galveno fāžu precīzie brīži ņemti no USNO, bet virsmas attēla mozaīka — no NASA LRO/LROC.')
+   lunar_month_markup(y,m)+lunar_print_gallery(y,m)+source_panel('Redzamā Mēness diska apgaismojums un virziena leņķis tiek aprēķināts izvēlētās pilsētas koordinātām plkst. 12.00 Europe/Riga laikā ar Astronomy Engine DE421 efemerīdām. Mēness lēkta un rieta brīžus aprēķina lokāls novērotāja modelis, ņemot vērā Mēness diska malu un atmosfēras refrakciju. Galveno fāžu precīzie brīži ņemti no USNO, bet virsmas attēla mozaīka — no NASA LRO/LROC.')
   else
-   lunar_year_markup(y)
+   lunar_year_markup(y)+lunar_print_gallery(y)
   end
  elsif %w[school_academic school_year_calendar].include?(f)
   school_years = {'2026-27'=>'2026./2027.','2027-28'=>'2027./2028.','2028-29'=>'2028./2029.','2029-30'=>'2029./2030.','2030-31'=>'2030./2031.'}
@@ -478,7 +478,7 @@ File.write('_redirects',"/avoti/ /avoti-un-metodika/ 301\n/sikdatnes/ /sikdatnu-
 public_cities = CITIES.map{|c| c.slice('id','name','locative','lat','lon','timeZone').merge('photo'=>c.fetch('photo').slice('src','srcset','alt','author','license'))}
 File.write('assets/cities.js', 'window.K365Cities = '+JSON.generate(public_cities)+";\n")
 # Content-addressed global asset revision; local user data is never involved.
-asset_files = (Dir.glob('assets/**/*').select{|path|File.file?(path)} + ['downloads/manifest.json'].select{|path|File.file?(path)}).sort
+asset_files = (Dir.glob('assets/**/*').select{|path|File.file?(path)} + ['downloads/manifest.json','downloads/meness/manifest.json'].select{|path|File.file?(path)}).sort
 asset_hashes = asset_files.to_h{|path|[path,Digest::SHA256.file(path).hexdigest]}
 asset_sha256 = Digest::SHA256.hexdigest(JSON.generate(asset_hashes))
 File.write('_data/build.json',JSON.pretty_generate({asset_version:asset_sha256[0,16],sha256:asset_sha256,files:asset_hashes})+"\n")

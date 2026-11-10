@@ -1,0 +1,17 @@
+{
+  "credit": "NASA’s Scientific Visualization Studio / LRO / LROC",
+  "source": "https://svs.gsfc.nasa.gov/4720/",
+  "originalUrl": "https://svs.gsfc.nasa.gov/vis/a000000/a004700/a004720/lroc_color_poles_4k.tif",
+  "originalSha256": "918649a7f8ed2f1329b2cd95bb0d25483befdcb60ae1a66db681a637cc21344f",
+  "mapVersion": 2019,
+  "dimensions": [
+    4096,
+    2048
+  ],
+  "file": "lib/lroc-color-4k.jpg",
+  "sha256": "45c3980cbacd916cb63071d083cf8a3df9f8060c7702b44f5a134d4c51cbbf4c",
+  "derivative": "RGB JPEG, quality 100, no chroma subsampling. Spherical rendering in calendar at calculated daily illumination and IAU body rotation.",
+  "rightsUrl": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+  "checkedAt": "2026-11-10",
+  "calculation": "Geocentric sky-north-up view, local noon Europe/Riga, Astronomy Engine. Exact main phase instants: USNO. Future days are calculated illustrations, not observed photographs."
+}

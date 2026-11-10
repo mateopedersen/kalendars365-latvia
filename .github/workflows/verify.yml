@@ -36,6 +36,7 @@ jobs:
       - run: node test/print.test.cjs
       - run: node test/print_fonts_test.cjs
       - run: node test/print_personalization_test.cjs
+      - run: node test/lunar-prints.test.mjs
       - name: Verify Ruby calculations and built pages
         shell: bash
         run: |
