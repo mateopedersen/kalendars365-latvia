@@ -14,7 +14,31 @@ function calendar(week=false){box(0,0,0,1.95,1.85,.3,C.paper);box(0,.62,.19,1.95
 function leaf(x,y,z,side=1){sphere(x,y,z,.49,.19,.1,C.green);tube([[x-side*.4,y-.05,z+.07],[x,y+.03,z+.11],[x+side*.4,y+.07,z+.07]],.012,'#a1ba80');}
 function model(k){
 switch(k){
-case'calendar':calendar();break;case'week':calendar(true);box(.8,-.75,.42,.25,.7,.2,C.gold);break;
+
+case'phases':for(let i=0;i<4;i++){let x=-.9+i*.6;sphere(x,0,0,.25,.25,.25,i===0?C.dark:'#b5bdc4');if(i===1||i===3)sphere(x+(i===1?-.09:.09),0,.14,.19,.25,.16,C.dark);}break;
+case'seasons':box(0,-.45,0,.14,1.4,.14,C.terra);for(let [x,y,c]of [[-.42,.3,C.green],[.42,.3,C.gold],[-.42,.88,'#c98491'],[.42,.88,'#b3c7d4']])sphere(x,y,0,.4,.36,.24,c);break;
+case'timetable':box(0,0,0,2.1,1.5,.18,C.navy);box(0,0,.12,1.95,1.35,.06,C.paper);for(let i=0;i<5;i++)for(let j=0;j<4;j++)box(-.76+i*.38,.47-j*.31,.18,.28,.2,.05,[C.wine,C.gold,C.green,C.navy][(i+j)%4]);break;
+case'shift':for(let [x,y]of [[-.5,.35],[.5,-.35]]){sphere(x,y,0,.56,.56,.18,C.navy);sphere(x,y,.17,.48,.48,.05,C.paper);tube([[x,y,.25],[x,y+.3,.25]],.022,C.wine);tube([[x,y,.27],[x+.25,y,.27]],.022,C.gold);}break;
+case'vacation':box(0,-.1,0,1.4,1.65,.65,C.green);box(0,.87,0,.62,.32,.2,C.gold);for(let x of [-.52,.52]){sphere(x,-1,0,.12,.12,.12,C.dark);box(x,-.1,.37,.08,1.45,.08,C.gold);}break;
+case'alltools':box(-.48,-.45,.12,.8,.8,.8,C.wine);sphere(.45,.4,0,.52,.52,.52,C.gold);ring(-.4,.65,0,.42,.08,C.green);box(.6,-.7,0,.6,.45,.65,C.navy);break;
+case'sunrise':sphere(0,.2,0,.65,.65,.65,C.gold);box(0,-.62,.25,2.2,.12,1.2,'#7ca9ad');for(let i=0;i<3;i++)box(0,-.54,.6-i*.27,1.8-i*.3,.02,.07,C.paper);break;
+case'pdf':book();box(0,-.35,.31,1.5,.52,.12,C.wine);tube([[.48,.55,.35],[.48,.1,.35],[.3,.28,.35],[.48,.1,.35],[.66,.28,.35]],.028,C.gold);break;
+case'webp':box(0,0,0,2,1.55,.22,C.paper);box(0,0,.15,1.8,1.35,.08,'#9dbcc9');sphere(.52,.4,.24,.16,.16,.04,C.gold);face([[-.85,-.6,.24],[.1,.5,.24],[.8,-.6,.24]],C.green,[0,0,1]);face([[-.2,-.6,.28],[.5,.12,.28],[.86,-.6,.28]],C.navy,[0,0,1]);break;
+case'planner':box(0,-.1,0,2.15,1.45,.22,C.paper);for(let i=0;i<3;i++)box(-.63+i*.63,-.1,.15,.48,.98,.06,[C.wine,C.green,C.gold][i]);break;
+
+case'month-1':for(let i=0;i<6;i++){let a=i*Math.PI/3,x=Math.cos(a),y=Math.sin(a);tube([[0,0,0],[x,y,0]],.035,'#94bacb');for(let d of [-1,1])tube([[x*.58,y*.58,0],[x*.76-y*.25*d,y*.76+x*.25*d,0]],.025,C.paper);}break;
+case'month-2':for(let x of [-.42,.42]){sphere(x,-.1,0,.32,.62,.22,C.wine);sphere(x+(x<0?.28:-.28),.15,.05,.15,.27,.16,C.wine);box(x,-.65,.02,.62,.22,.4,C.paper);}break;
+case'month-3':tube([[0,-.9,0],[0,.5,0],[.35,.65,0],[.55,.3,0]],.035,C.green);leaf(-.35,-.6,0);sphere(.55,.18,0,.19,.27,.17,C.paper);break;
+case'month-4':for(let [x,y,c]of [[-.55,-.2,C.wine],[.05,.25,C.gold],[.6,-.25,C.green]]){sphere(x,y,0,.34,.51,.34,c);ring(x,y,0,.31,.025,C.paper);}break;
+case'month-5':tube([[0,-.9,0],[0,.3,0]],.035,C.green);leaf(.4,-.5,0);for(let i=0;i<6;i++){let a=i*Math.PI/3;sphere(Math.cos(a)*.38,.3+Math.sin(a)*.38,0,.25,.25,.12,'#cd859b');}sphere(0,.3,.1,.21,.21,.12,C.gold);break;
+case'month-6':ring(0,0,0,.72,.07,C.green);for(let i=0;i<10;i++){let a=i*Math.PI/5;sphere(Math.cos(a)*.75,Math.sin(a)*.75,0,.24,.16,.1,i%2?C.green:'#81a16b');}for(let x of [-.2,.2])sphere(x,-.72,.18,.11,.15,.09,C.gold);break;
+case'month-7':for(let [x,y]of [[-.4,.3],[0,.6],[.4,.3],[-.2,-.1],[.2,-.1],[0,-.5]])sphere(x,y,0,.26,.26,.26,C.wine);leaf(-.45,.85,0);break;
+case'month-8':for(let x of [-.5,0,.5]){tube([[x,-1,0],[x,.7,0]],.025,C.gold);for(let j=0;j<5;j++)for(let d of [-1,1])sphere(x+d*.1,-.25+j*.2,0,.12,.17,.075,'#d9ad60');}break;
+case'month-9':book(-.3,-.1,0);sphere(.55,-.5,.4,.43,.4,.36,C.wine);tube([[.55,-.14,.4],[.6,.05,.4]],.025,C.terra);leaf(.8,.02,.4);break;
+case'month-10':for(let i=0;i<7;i++){let a=i*Math.PI*2/7;sphere(Math.cos(a)*.38,0,Math.sin(a)*.3,.36,.66,.36,'#cb7e3b');}tube([[0,.5,0],[.08,.9,0]],.07,C.green);break;
+case'month-11':for(let x of [-.4,.4]){box(x,-.2,0,.45,1.05,.45,C.paper);box(x,-.1,.25,.47,.2,.05,C.wine);sphere(x,.55,0,.1,.23,.08,C.gold);}break;
+case'month-12':for(let [y,r]of [[-.5,.78],[0,.58],[.45,.4],[.8,.19]])sphere(0,y,0,r,.31,r*.45,C.green);for(let [x,y]of [[-.4,-.4],[.3,-.1],[-.15,.4]])sphere(x,y,.28,.09,.09,.09,C.gold);box(0,-.95,0,.17,.3,.17,C.terra);break;
+case'calendar':calendar();break;case'week':box(0,0,0,2.2,1.35,.2,C.navy);for(let i=0;i<7;i++){box(-.9+i*.3,0,.15,.24,1.12,.07,i===5||i===6?C.wine:C.paper);box(-.9+i*.3,.36,.2,.18,.16,.05,C.gold);}break;
 case'sun':sphere(0,0,0,.69,.69,.69,C.gold);for(let i=0;i<12;i++){let a=i*Math.PI/6;sphere(Math.cos(a)*1.04,Math.sin(a)*1.04,0,.095,.095,.13,'#e0a74c');}break;
 case'moon':sphere(0,0,0,.91,.91,.91,'#b5bdc4');for(let [x,y,r]of [[-.4,.25,.14],[.21,.36,.19],[.36,-.3,.13],[-.22,-.45,.2],[.02,-.02,.09]])sphere(x,y,Math.sqrt(Math.max(.1,.82-x*x-y*y))-.035,r,r,.035,'#8c969f');break;
 case'garden':box(0,-.65,0,1.2,.67,1,C.terra);sphere(0,-.28,0,.61,.08,.51,'#514039');tube([[0,-.25,0],[0,.25,0],[.06,.88,0]],.035,C.green);leaf(-.4,.35,.05);leaf(.43,.7,0,-1);break;
@@ -36,5 +60,7 @@ case'privacy':sphere(0,0,0,.9,1.05,.22,C.wine);ring(0,.32,.3,.28,.07,C.gold);box
 }
 function shade(hex,n,p){let rgb=hex.match(/\w\w/g).map(x=>parseInt(x,16)),l=unit([-.55,.8,1.3]);let diff=Math.max(0,n.reduce((s,x,i)=>s+x*l[i],0)),spec=Math.pow(Math.max(0,n.reduce((s,x,i)=>s+x*unit([-.25,.4,2])[i],0)),24)*.34;return '#'+rgb.map(v=>Math.round(Math.max(0,Math.min(255,v*(.36+.67*diff)+255*spec)))).map(x=>x.toString(16).padStart(2,'0')).join('');}
 function render(k){faces=[];model(k);let out=faces.map(f=>{let v=f.v.map(camera),n=camera(f.n);return {...f,v,n,depth:v.reduce((s,p)=>s+p[2],0)/v.length};}).filter(f=>f.n[2]>-.05).sort((a,b)=>a.depth-b.depth).map(f=>{let c=shade(f.color,f.n);return '<polygon points="'+f.v.map(([x,y,z])=>(160+x*90).toFixed(2)+','+(132-y*90).toFixed(2)).join(' ')+'" fill="'+c+'" stroke="'+c+'" stroke-width=".3" stroke-linejoin="round"/>';}).join('');return '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 260" role="img" aria-labelledby="title desc"><title id="title">'+labels[k]+'</title><desc id="desc">Oriģināls trīsdimensiju modelis ar aprēķinātu perspektīvu un studijas apgaismojumu.</desc><defs><radialGradient id="floor"><stop stop-color="#383039" stop-opacity=".23"/><stop offset="1" stop-color="#383039" stop-opacity="0"/></radialGradient></defs><ellipse cx="163" cy="225" rx="106" ry="17" fill="url(#floor)"/>'+out+'</svg>';}
+Object.assign(labels,{phases:'Mēness fāžu cikls',seasons:'Četri gadalaiki',timetable:'Stundu saraksts',shift:'Maiņu grafiks',vacation:'Atvaļinājuma plānotājs',alltools:'Visi rīki',sunrise:'Saullēkts un saulriets',pdf:'PDF kalendārs',webp:'WebP attēls',planner:'Kalendāri un plānošana'});
+for(let [i,n] of ['Janvāris','Februāris','Marts','Aprīlis','Maijs','Jūnijs','Jūlijs','Augusts','Septembris','Oktobris','Novembris','Decembris'].entries())labels['month-'+(i+1)]=n;
 fs.mkdirSync('assets/category-art',{recursive:true});for(let k of Object.keys(labels))fs.writeFileSync('assets/category-art/'+k+'.svg',render(k));
-console.log('Built 19 category models from 3D geometry.');
+console.log('Built '+Object.keys(labels).length+' distinct category models from 3D geometry.');

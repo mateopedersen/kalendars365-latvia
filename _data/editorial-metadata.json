@@ -57,9 +57,9 @@
     {
       "url": "/pdf-kalendari/",
       "family": "hub",
-      "title": "Kalendāri drukāšanai: PDF un WebP",
+      "title": "Kalendāri drukāšanai: PDF un attēli",
       "h1": "PDF kalendāri",
-      "description": "Izvēlies 2027.–2030. gada kalendāru drukāšanai. Pieejami 15 dizaini PDF un WebP formātā, gada un mēneša izkārtojumi un personalizēšana.",
+      "description": "Izvēlies 2027.–2030. gada kalendāru drukāšanai. Pieejami 15 dizaini PDF un attēli formātā, gada un mēneša izkārtojumi un personalizēšana.",
       "indexable": true,
       "status": "ready",
       "note": null
@@ -69,7 +69,7 @@
       "family": "hub",
       "title": "Tukšs kalendārs drukāšanai",
       "h1": "Tukšs kalendārs",
-      "description": "Sagatavo tukšu kalendāru saviem ierakstiem. Izvēlies gadu, mēnesi un dizainu, pielāgo virsrakstu un lejupielādē PDF vai WebP failu.",
+      "description": "Sagatavo tukšu kalendāru saviem ierakstiem. Izvēlies gadu, mēnesi un dizainu, pielāgo virsrakstu un lejupielādē PDF vai attēlu failu.",
       "indexable": true,
       "status": "ready",
       "note": null
@@ -119,7 +119,7 @@
       "family": "hub",
       "title": "Kalendārs ar vārdu un personīgu virsrakstu",
       "h1": "Kalendārs ar vārdu",
-      "description": "Izveido kalendāru ar savu vārdu, fotoattēlu vai personīgu virsrakstu. Izvēlies dizainu un sagatavo PDF vai WebP failu savā ierīcē.",
+      "description": "Izveido kalendāru ar savu vārdu, fotoattēlu vai personīgu virsrakstu. Izvēlies dizainu un sagatavo PDF vai attēlu failu savā ierīcē.",
       "indexable": true,
       "status": "ready",
       "note": null
@@ -249,7 +249,7 @@
       "family": "hub",
       "title": "Dzimšanas dienu kalendārs",
       "h1": "Dzimšanas dienu kalendārs",
-      "description": "Izveido personīgu kalendāru nozīmīgiem datumiem un apsveikumiem. Izvēlies dizainu un virsrakstu un sagatavo PDF vai WebP failu.",
+      "description": "Izveido personīgu kalendāru nozīmīgiem datumiem un apsveikumiem. Izvēlies dizainu un virsrakstu un sagatavo PDF vai attēlu failu.",
       "indexable": true,
       "status": "ready",
       "note": null
@@ -327,9 +327,9 @@
     {
       "url": "/izveidot-kalendaru/",
       "family": "hub",
-      "title": "Izveido savu kalendāru: PDF un WebP",
+      "title": "Izveido savu kalendāru: PDF un attēli",
       "h1": "Izveido savu kalendāru",
-      "description": "Izvēlies kalendāra veidu un dizainu, pievieno vārdu vai savu fotoattēlu. Sagatavo personalizētu PDF vai WebP failu tieši savā ierīcē.",
+      "description": "Izvēlies kalendāra veidu un dizainu, pievieno vārdu vai savu fotoattēlu. Sagatavo personalizētu PDF vai attēlu failu tieši savā ierīcē.",
       "indexable": true,
       "status": "ready",
       "note": null
@@ -469,7 +469,7 @@
       "family": "year",
       "title": "2027. gada kalendārs",
       "h1": "2027. gada kalendārs",
-      "description": "2027. gada kalendārs ar Latvijas svētku dienām un ISO nedēļu numuriem. Atver mēnešu pārskatus un izvēlies PDF vai WebP kalendāru drukāšanai.",
+      "description": "2027. gada kalendārs ar Latvijas svētku dienām un ISO nedēļu numuriem. Atver mēnešu pārskatus un izvēlies PDF vai attēlu kalendāru drukāšanai.",
       "indexable": true,
       "status": "ready",
       "note": null
@@ -499,7 +499,7 @@
       "family": "print_index",
       "title": "2027. gada kalendāri drukāšanai",
       "h1": "2027. gada kalendāri drukāšanai",
-      "description": "2027. gada kalendāri PDF un WebP formātā. Izvēlies gada vai mēneša izkārtojumu, vienu no 15 dizainiem un personalizē savu kalendāru.",
+      "description": "2027. gada kalendāri PDF un attēli formātā. Izvēlies gada vai mēneša izkārtojumu, vienu no 15 dizainiem un personalizē savu kalendāru.",
       "indexable": true,
       "status": "ready",
       "note": null
@@ -607,9 +607,9 @@
     {
       "url": "/pdf-kalendari/2027/janvaris/",
       "family": "print_month",
-      "title": "2027. gada janvāra kalendārs PDF un WebP formātā",
-      "h1": "2027. gada janvāra kalendārs PDF un WebP formātā",
-      "description": "Izvēlies 2027. gada janvāra kalendāru drukāšanai. Pieejami PDF un WebP faili, 15 dizaini un iespēja pievienot personīgu virsrakstu vai fotoattēlu.",
+      "title": "2027. gada janvāra kalendārs PDF un attēli formātā",
+      "h1": "2027. gada janvāra kalendārs PDF un attēli formātā",
+      "description": "Izvēlies 2027. gada janvāra kalendāru drukāšanai. Pieejami PDF un attēli faili, 15 dizaini un iespēja pievienot personīgu virsrakstu vai fotoattēlu.",
       "indexable": true,
       "status": "ready",
       "note": null
@@ -657,9 +657,9 @@
     {
       "url": "/pdf-kalendari/2027/februaris/",
       "family": "print_month",
-      "title": "2027. gada februāra kalendārs PDF un WebP formātā",
-      "h1": "2027. gada februāra kalendārs PDF un WebP formātā",
-      "description": "Izvēlies 2027. gada februāra kalendāru drukāšanai. Pieejami PDF un WebP faili, 15 dizaini un iespēja pievienot personīgu virsrakstu vai fotoattēlu.",
+      "title": "2027. gada februāra kalendārs PDF un attēli formātā",
+      "h1": "2027. gada februāra kalendārs PDF un attēli formātā",
+      "description": "Izvēlies 2027. gada februāra kalendāru drukāšanai. Pieejami PDF un attēli faili, 15 dizaini un iespēja pievienot personīgu virsrakstu vai fotoattēlu.",
       "indexable": true,
       "status": "ready",
       "note": null
@@ -707,9 +707,9 @@
     {
       "url": "/pdf-kalendari/2027/marts/",
       "family": "print_month",
-      "title": "2027. gada marta kalendārs PDF un WebP formātā",
-      "h1": "2027. gada marta kalendārs PDF un WebP formātā",
-      "description": "Izvēlies 2027. gada marta kalendāru drukāšanai. Pieejami PDF un WebP faili, 15 dizaini un iespēja pievienot personīgu virsrakstu vai fotoattēlu.",
+      "title": "2027. gada marta kalendārs PDF un attēli formātā",
+      "h1": "2027. gada marta kalendārs PDF un attēli formātā",
+      "description": "Izvēlies 2027. gada marta kalendāru drukāšanai. Pieejami PDF un attēli faili, 15 dizaini un iespēja pievienot personīgu virsrakstu vai fotoattēlu.",
       "indexable": true,
       "status": "ready",
       "note": null
@@ -757,9 +757,9 @@
     {
       "url": "/pdf-kalendari/2027/aprilis/",
       "family": "print_month",
-      "title": "2027. gada aprīļa kalendārs PDF un WebP formātā",
-      "h1": "2027. gada aprīļa kalendārs PDF un WebP formātā",
-      "description": "Izvēlies 2027. gada aprīļa kalendāru drukāšanai. Pieejami PDF un WebP faili, 15 dizaini un iespēja pievienot personīgu virsrakstu vai fotoattēlu.",
+      "title": "2027. gada aprīļa kalendārs PDF un attēli formātā",
+      "h1": "2027. gada aprīļa kalendārs PDF un attēli formātā",
+      "description": "Izvēlies 2027. gada aprīļa kalendāru drukāšanai. Pieejami PDF un attēli faili, 15 dizaini un iespēja pievienot personīgu virsrakstu vai fotoattēlu.",
       "indexable": true,
       "status": "ready",
       "note": null
@@ -807,9 +807,9 @@
     {
       "url": "/pdf-kalendari/2027/maijs/",
       "family": "print_month",
-      "title": "2027. gada maija kalendārs PDF un WebP formātā",
-      "h1": "2027. gada maija kalendārs PDF un WebP formātā",
-      "description": "Izvēlies 2027. gada maija kalendāru drukāšanai. Pieejami PDF un WebP faili, 15 dizaini un iespēja pievienot personīgu virsrakstu vai fotoattēlu.",
+      "title": "2027. gada maija kalendārs PDF un attēli formātā",
+      "h1": "2027. gada maija kalendārs PDF un attēli formātā",
+      "description": "Izvēlies 2027. gada maija kalendāru drukāšanai. Pieejami PDF un attēli faili, 15 dizaini un iespēja pievienot personīgu virsrakstu vai fotoattēlu.",
       "indexable": true,
       "status": "ready",
       "note": null
@@ -857,9 +857,9 @@
     {
       "url": "/pdf-kalendari/2027/junijs/",
       "family": "print_month",
-      "title": "2027. gada jūnija kalendārs PDF un WebP formātā",
-      "h1": "2027. gada jūnija kalendārs PDF un WebP formātā",
-      "description": "Izvēlies 2027. gada jūnija kalendāru drukāšanai. Pieejami PDF un WebP faili, 15 dizaini un iespēja pievienot personīgu virsrakstu vai fotoattēlu.",
+      "title": "2027. gada jūnija kalendārs PDF un attēli formātā",
+      "h1": "2027. gada jūnija kalendārs PDF un attēli formātā",
+      "description": "Izvēlies 2027. gada jūnija kalendāru drukāšanai. Pieejami PDF un attēli faili, 15 dizaini un iespēja pievienot personīgu virsrakstu vai fotoattēlu.",
       "indexable": true,
       "status": "ready",
       "note": null
@@ -907,9 +907,9 @@
     {
       "url": "/pdf-kalendari/2027/julijs/",
       "family": "print_month",
-      "title": "2027. gada jūlija kalendārs PDF un WebP formātā",
-      "h1": "2027. gada jūlija kalendārs PDF un WebP formātā",
-      "description": "Izvēlies 2027. gada jūlija kalendāru drukāšanai. Pieejami PDF un WebP faili, 15 dizaini un iespēja pievienot personīgu virsrakstu vai fotoattēlu.",
+      "title": "2027. gada jūlija kalendārs PDF un attēli formātā",
+      "h1": "2027. gada jūlija kalendārs PDF un attēli formātā",
+      "description": "Izvēlies 2027. gada jūlija kalendāru drukāšanai. Pieejami PDF un attēli faili, 15 dizaini un iespēja pievienot personīgu virsrakstu vai fotoattēlu.",
       "indexable": true,
       "status": "ready",
       "note": null
@@ -957,9 +957,9 @@
     {
       "url": "/pdf-kalendari/2027/augusts/",
       "family": "print_month",
-      "title": "2027. gada augusta kalendārs PDF un WebP formātā",
-      "h1": "2027. gada augusta kalendārs PDF un WebP formātā",
-      "description": "Izvēlies 2027. gada augusta kalendāru drukāšanai. Pieejami PDF un WebP faili, 15 dizaini un iespēja pievienot personīgu virsrakstu vai fotoattēlu.",
+      "title": "2027. gada augusta kalendārs PDF un attēli formātā",
+      "h1": "2027. gada augusta kalendārs PDF un attēli formātā",
+      "description": "Izvēlies 2027. gada augusta kalendāru drukāšanai. Pieejami PDF un attēli faili, 15 dizaini un iespēja pievienot personīgu virsrakstu vai fotoattēlu.",
       "indexable": true,
       "status": "ready",
       "note": null
@@ -1007,9 +1007,9 @@
     {
       "url": "/pdf-kalendari/2027/septembris/",
       "family": "print_month",
-      "title": "2027. gada septembra kalendārs PDF un WebP formātā",
-      "h1": "2027. gada septembra kalendārs PDF un WebP formātā",
-      "description": "Izvēlies 2027. gada septembra kalendāru drukāšanai. Pieejami PDF un WebP faili, 15 dizaini un iespēja pievienot personīgu virsrakstu vai fotoattēlu.",
+      "title": "2027. gada septembra kalendārs PDF un attēli formātā",
+      "h1": "2027. gada septembra kalendārs PDF un attēli formātā",
+      "description": "Izvēlies 2027. gada septembra kalendāru drukāšanai. Pieejami PDF un attēli faili, 15 dizaini un iespēja pievienot personīgu virsrakstu vai fotoattēlu.",
       "indexable": true,
       "status": "ready",
       "note": null
@@ -1057,9 +1057,9 @@
     {
       "url": "/pdf-kalendari/2027/oktobris/",
       "family": "print_month",
-      "title": "2027. gada oktobra kalendārs PDF un WebP formātā",
-      "h1": "2027. gada oktobra kalendārs PDF un WebP formātā",
-      "description": "Izvēlies 2027. gada oktobra kalendāru drukāšanai. Pieejami PDF un WebP faili, 15 dizaini un iespēja pievienot personīgu virsrakstu vai fotoattēlu.",
+      "title": "2027. gada oktobra kalendārs PDF un attēli formātā",
+      "h1": "2027. gada oktobra kalendārs PDF un attēli formātā",
+      "description": "Izvēlies 2027. gada oktobra kalendāru drukāšanai. Pieejami PDF un attēli faili, 15 dizaini un iespēja pievienot personīgu virsrakstu vai fotoattēlu.",
       "indexable": true,
       "status": "ready",
       "note": null
@@ -1107,9 +1107,9 @@
     {
       "url": "/pdf-kalendari/2027/novembris/",
       "family": "print_month",
-      "title": "2027. gada novembra kalendārs PDF un WebP formātā",
-      "h1": "2027. gada novembra kalendārs PDF un WebP formātā",
-      "description": "Izvēlies 2027. gada novembra kalendāru drukāšanai. Pieejami PDF un WebP faili, 15 dizaini un iespēja pievienot personīgu virsrakstu vai fotoattēlu.",
+      "title": "2027. gada novembra kalendārs PDF un attēli formātā",
+      "h1": "2027. gada novembra kalendārs PDF un attēli formātā",
+      "description": "Izvēlies 2027. gada novembra kalendāru drukāšanai. Pieejami PDF un attēli faili, 15 dizaini un iespēja pievienot personīgu virsrakstu vai fotoattēlu.",
       "indexable": true,
       "status": "ready",
       "note": null
@@ -1157,9 +1157,9 @@
     {
       "url": "/pdf-kalendari/2027/decembris/",
       "family": "print_month",
-      "title": "2027. gada decembra kalendārs PDF un WebP formātā",
-      "h1": "2027. gada decembra kalendārs PDF un WebP formātā",
-      "description": "Izvēlies 2027. gada decembra kalendāru drukāšanai. Pieejami PDF un WebP faili, 15 dizaini un iespēja pievienot personīgu virsrakstu vai fotoattēlu.",
+      "title": "2027. gada decembra kalendārs PDF un attēli formātā",
+      "h1": "2027. gada decembra kalendārs PDF un attēli formātā",
+      "description": "Izvēlies 2027. gada decembra kalendāru drukāšanai. Pieejami PDF un attēli faili, 15 dizaini un iespēja pievienot personīgu virsrakstu vai fotoattēlu.",
       "indexable": true,
       "status": "ready",
       "note": null
@@ -1689,7 +1689,7 @@
       "family": "year",
       "title": "2028. gada kalendārs",
       "h1": "2028. gada kalendārs",
-      "description": "2028. gada kalendārs ar Latvijas svētku dienām un ISO nedēļu numuriem. Atver mēnešu pārskatus un izvēlies PDF vai WebP kalendāru drukāšanai.",
+      "description": "2028. gada kalendārs ar Latvijas svētku dienām un ISO nedēļu numuriem. Atver mēnešu pārskatus un izvēlies PDF vai attēlu kalendāru drukāšanai.",
       "indexable": true,
       "status": "ready",
       "note": null
@@ -1719,7 +1719,7 @@
       "family": "print_index",
       "title": "2028. gada kalendāri drukāšanai",
       "h1": "2028. gada kalendāri drukāšanai",
-      "description": "2028. gada kalendāri PDF un WebP formātā. Izvēlies gada vai mēneša izkārtojumu, vienu no 15 dizainiem un personalizē savu kalendāru.",
+      "description": "2028. gada kalendāri PDF un attēli formātā. Izvēlies gada vai mēneša izkārtojumu, vienu no 15 dizainiem un personalizē savu kalendāru.",
       "indexable": true,
       "status": "ready",
       "note": null
@@ -1827,9 +1827,9 @@
     {
       "url": "/pdf-kalendari/2028/janvaris/",
       "family": "print_month",
-      "title": "2028. gada janvāra kalendārs PDF un WebP formātā",
-      "h1": "2028. gada janvāra kalendārs PDF un WebP formātā",
-      "description": "Izvēlies 2028. gada janvāra kalendāru drukāšanai. Pieejami PDF un WebP faili, 15 dizaini un iespēja pievienot personīgu virsrakstu vai fotoattēlu.",
+      "title": "2028. gada janvāra kalendārs PDF un attēli formātā",
+      "h1": "2028. gada janvāra kalendārs PDF un attēli formātā",
+      "description": "Izvēlies 2028. gada janvāra kalendāru drukāšanai. Pieejami PDF un attēli faili, 15 dizaini un iespēja pievienot personīgu virsrakstu vai fotoattēlu.",
       "indexable": true,
       "status": "ready",
       "note": null
@@ -1877,9 +1877,9 @@
     {
       "url": "/pdf-kalendari/2028/februaris/",
       "family": "print_month",
-      "title": "2028. gada februāra kalendārs PDF un WebP formātā",
-      "h1": "2028. gada februāra kalendārs PDF un WebP formātā",
-      "description": "Izvēlies 2028. gada februāra kalendāru drukāšanai. Pieejami PDF un WebP faili, 15 dizaini un iespēja pievienot personīgu virsrakstu vai fotoattēlu.",
+      "title": "2028. gada februāra kalendārs PDF un attēli formātā",
+      "h1": "2028. gada februāra kalendārs PDF un attēli formātā",
+      "description": "Izvēlies 2028. gada februāra kalendāru drukāšanai. Pieejami PDF un attēli faili, 15 dizaini un iespēja pievienot personīgu virsrakstu vai fotoattēlu.",
       "indexable": true,
       "status": "ready",
       "note": null
@@ -1927,9 +1927,9 @@
     {
       "url": "/pdf-kalendari/2028/marts/",
       "family": "print_month",
-      "title": "2028. gada marta kalendārs PDF un WebP formātā",
-      "h1": "2028. gada marta kalendārs PDF un WebP formātā",
-      "description": "Izvēlies 2028. gada marta kalendāru drukāšanai. Pieejami PDF un WebP faili, 15 dizaini un iespēja pievienot personīgu virsrakstu vai fotoattēlu.",
+      "title": "2028. gada marta kalendārs PDF un attēli formātā",
+      "h1": "2028. gada marta kalendārs PDF un attēli formātā",
+      "description": "Izvēlies 2028. gada marta kalendāru drukāšanai. Pieejami PDF un attēli faili, 15 dizaini un iespēja pievienot personīgu virsrakstu vai fotoattēlu.",
       "indexable": true,
       "status": "ready",
       "note": null
@@ -1977,9 +1977,9 @@
     {
       "url": "/pdf-kalendari/2028/aprilis/",
       "family": "print_month",
-      "title": "2028. gada aprīļa kalendārs PDF un WebP formātā",
-      "h1": "2028. gada aprīļa kalendārs PDF un WebP formātā",
-      "description": "Izvēlies 2028. gada aprīļa kalendāru drukāšanai. Pieejami PDF un WebP faili, 15 dizaini un iespēja pievienot personīgu virsrakstu vai fotoattēlu.",
+      "title": "2028. gada aprīļa kalendārs PDF un attēli formātā",
+      "h1": "2028. gada aprīļa kalendārs PDF un attēli formātā",
+      "description": "Izvēlies 2028. gada aprīļa kalendāru drukāšanai. Pieejami PDF un attēli faili, 15 dizaini un iespēja pievienot personīgu virsrakstu vai fotoattēlu.",
       "indexable": true,
       "status": "ready",
       "note": null
@@ -2027,9 +2027,9 @@
     {
       "url": "/pdf-kalendari/2028/maijs/",
       "family": "print_month",
-      "title": "2028. gada maija kalendārs PDF un WebP formātā",
-      "h1": "2028. gada maija kalendārs PDF un WebP formātā",
-      "description": "Izvēlies 2028. gada maija kalendāru drukāšanai. Pieejami PDF un WebP faili, 15 dizaini un iespēja pievienot personīgu virsrakstu vai fotoattēlu.",
+      "title": "2028. gada maija kalendārs PDF un attēli formātā",
+      "h1": "2028. gada maija kalendārs PDF un attēli formātā",
+      "description": "Izvēlies 2028. gada maija kalendāru drukāšanai. Pieejami PDF un attēli faili, 15 dizaini un iespēja pievienot personīgu virsrakstu vai fotoattēlu.",
       "indexable": true,
       "status": "ready",
       "note": null
@@ -2077,9 +2077,9 @@
     {
       "url": "/pdf-kalendari/2028/junijs/",
       "family": "print_month",
-      "title": "2028. gada jūnija kalendārs PDF un WebP formātā",
-      "h1": "2028. gada jūnija kalendārs PDF un WebP formātā",
-      "description": "Izvēlies 2028. gada jūnija kalendāru drukāšanai. Pieejami PDF un WebP faili, 15 dizaini un iespēja pievienot personīgu virsrakstu vai fotoattēlu.",
+      "title": "2028. gada jūnija kalendārs PDF un attēli formātā",
+      "h1": "2028. gada jūnija kalendārs PDF un attēli formātā",
+      "description": "Izvēlies 2028. gada jūnija kalendāru drukāšanai. Pieejami PDF un attēli faili, 15 dizaini un iespēja pievienot personīgu virsrakstu vai fotoattēlu.",
       "indexable": true,
       "status": "ready",
       "note": null
@@ -2127,9 +2127,9 @@
     {
       "url": "/pdf-kalendari/2028/julijs/",
       "family": "print_month",
-      "title": "2028. gada jūlija kalendārs PDF un WebP formātā",
-      "h1": "2028. gada jūlija kalendārs PDF un WebP formātā",
-      "description": "Izvēlies 2028. gada jūlija kalendāru drukāšanai. Pieejami PDF un WebP faili, 15 dizaini un iespēja pievienot personīgu virsrakstu vai fotoattēlu.",
+      "title": "2028. gada jūlija kalendārs PDF un attēli formātā",
+      "h1": "2028. gada jūlija kalendārs PDF un attēli formātā",
+      "description": "Izvēlies 2028. gada jūlija kalendāru drukāšanai. Pieejami PDF un attēli faili, 15 dizaini un iespēja pievienot personīgu virsrakstu vai fotoattēlu.",
       "indexable": true,
       "status": "ready",
       "note": null
@@ -2177,9 +2177,9 @@
     {
       "url": "/pdf-kalendari/2028/augusts/",
       "family": "print_month",
-      "title": "2028. gada augusta kalendārs PDF un WebP formātā",
-      "h1": "2028. gada augusta kalendārs PDF un WebP formātā",
-      "description": "Izvēlies 2028. gada augusta kalendāru drukāšanai. Pieejami PDF un WebP faili, 15 dizaini un iespēja pievienot personīgu virsrakstu vai fotoattēlu.",
+      "title": "2028. gada augusta kalendārs PDF un attēli formātā",
+      "h1": "2028. gada augusta kalendārs PDF un attēli formātā",
+      "description": "Izvēlies 2028. gada augusta kalendāru drukāšanai. Pieejami PDF un attēli faili, 15 dizaini un iespēja pievienot personīgu virsrakstu vai fotoattēlu.",
       "indexable": true,
       "status": "ready",
       "note": null
@@ -2227,9 +2227,9 @@
     {
       "url": "/pdf-kalendari/2028/septembris/",
       "family": "print_month",
-      "title": "2028. gada septembra kalendārs PDF un WebP formātā",
-      "h1": "2028. gada septembra kalendārs PDF un WebP formātā",
-      "description": "Izvēlies 2028. gada septembra kalendāru drukāšanai. Pieejami PDF un WebP faili, 15 dizaini un iespēja pievienot personīgu virsrakstu vai fotoattēlu.",
+      "title": "2028. gada septembra kalendārs PDF un attēli formātā",
+      "h1": "2028. gada septembra kalendārs PDF un attēli formātā",
+      "description": "Izvēlies 2028. gada septembra kalendāru drukāšanai. Pieejami PDF un attēli faili, 15 dizaini un iespēja pievienot personīgu virsrakstu vai fotoattēlu.",
       "indexable": true,
       "status": "ready",
       "note": null
@@ -2277,9 +2277,9 @@
     {
       "url": "/pdf-kalendari/2028/oktobris/",
       "family": "print_month",
-      "title": "2028. gada oktobra kalendārs PDF un WebP formātā",
-      "h1": "2028. gada oktobra kalendārs PDF un WebP formātā",
-      "description": "Izvēlies 2028. gada oktobra kalendāru drukāšanai. Pieejami PDF un WebP faili, 15 dizaini un iespēja pievienot personīgu virsrakstu vai fotoattēlu.",
+      "title": "2028. gada oktobra kalendārs PDF un attēli formātā",
+      "h1": "2028. gada oktobra kalendārs PDF un attēli formātā",
+      "description": "Izvēlies 2028. gada oktobra kalendāru drukāšanai. Pieejami PDF un attēli faili, 15 dizaini un iespēja pievienot personīgu virsrakstu vai fotoattēlu.",
       "indexable": true,
       "status": "ready",
       "note": null
@@ -2327,9 +2327,9 @@
     {
       "url": "/pdf-kalendari/2028/novembris/",
       "family": "print_month",
-      "title": "2028. gada novembra kalendārs PDF un WebP formātā",
-      "h1": "2028. gada novembra kalendārs PDF un WebP formātā",
-      "description": "Izvēlies 2028. gada novembra kalendāru drukāšanai. Pieejami PDF un WebP faili, 15 dizaini un iespēja pievienot personīgu virsrakstu vai fotoattēlu.",
+      "title": "2028. gada novembra kalendārs PDF un attēli formātā",
+      "h1": "2028. gada novembra kalendārs PDF un attēli formātā",
+      "description": "Izvēlies 2028. gada novembra kalendāru drukāšanai. Pieejami PDF un attēli faili, 15 dizaini un iespēja pievienot personīgu virsrakstu vai fotoattēlu.",
       "indexable": true,
       "status": "ready",
       "note": null
@@ -2377,9 +2377,9 @@
     {
       "url": "/pdf-kalendari/2028/decembris/",
       "family": "print_month",
-      "title": "2028. gada decembra kalendārs PDF un WebP formātā",
-      "h1": "2028. gada decembra kalendārs PDF un WebP formātā",
-      "description": "Izvēlies 2028. gada decembra kalendāru drukāšanai. Pieejami PDF un WebP faili, 15 dizaini un iespēja pievienot personīgu virsrakstu vai fotoattēlu.",
+      "title": "2028. gada decembra kalendārs PDF un attēli formātā",
+      "h1": "2028. gada decembra kalendārs PDF un attēli formātā",
+      "description": "Izvēlies 2028. gada decembra kalendāru drukāšanai. Pieejami PDF un attēli faili, 15 dizaini un iespēja pievienot personīgu virsrakstu vai fotoattēlu.",
       "indexable": true,
       "status": "ready",
       "note": null
@@ -2909,7 +2909,7 @@
       "family": "year",
       "title": "2029. gada kalendārs",
       "h1": "2029. gada kalendārs",
-      "description": "2029. gada kalendārs ar Latvijas svētku dienām un ISO nedēļu numuriem. Atver mēnešu pārskatus un izvēlies PDF vai WebP kalendāru drukāšanai.",
+      "description": "2029. gada kalendārs ar Latvijas svētku dienām un ISO nedēļu numuriem. Atver mēnešu pārskatus un izvēlies PDF vai attēlu kalendāru drukāšanai.",
       "indexable": true,
       "status": "ready",
       "note": null
@@ -2939,7 +2939,7 @@
       "family": "print_index",
       "title": "2029. gada kalendāri drukāšanai",
       "h1": "2029. gada kalendāri drukāšanai",
-      "description": "2029. gada kalendāri PDF un WebP formātā. Izvēlies gada vai mēneša izkārtojumu, vienu no 15 dizainiem un personalizē savu kalendāru.",
+      "description": "2029. gada kalendāri PDF un attēli formātā. Izvēlies gada vai mēneša izkārtojumu, vienu no 15 dizainiem un personalizē savu kalendāru.",
       "indexable": true,
       "status": "ready",
       "note": null
@@ -3047,9 +3047,9 @@
     {
       "url": "/pdf-kalendari/2029/janvaris/",
       "family": "print_month",
-      "title": "2029. gada janvāra kalendārs PDF un WebP formātā",
-      "h1": "2029. gada janvāra kalendārs PDF un WebP formātā",
-      "description": "Izvēlies 2029. gada janvāra kalendāru drukāšanai. Pieejami PDF un WebP faili, 15 dizaini un iespēja pievienot personīgu virsrakstu vai fotoattēlu.",
+      "title": "2029. gada janvāra kalendārs PDF un attēli formātā",
+      "h1": "2029. gada janvāra kalendārs PDF un attēli formātā",
+      "description": "Izvēlies 2029. gada janvāra kalendāru drukāšanai. Pieejami PDF un attēli faili, 15 dizaini un iespēja pievienot personīgu virsrakstu vai fotoattēlu.",
       "indexable": true,
       "status": "ready",
       "note": null
@@ -3097,9 +3097,9 @@
     {
       "url": "/pdf-kalendari/2029/februaris/",
       "family": "print_month",
-      "title": "2029. gada februāra kalendārs PDF un WebP formātā",
-      "h1": "2029. gada februāra kalendārs PDF un WebP formātā",
-      "description": "Izvēlies 2029. gada februāra kalendāru drukāšanai. Pieejami PDF un WebP faili, 15 dizaini un iespēja pievienot personīgu virsrakstu vai fotoattēlu.",
+      "title": "2029. gada februāra kalendārs PDF un attēli formātā",
+      "h1": "2029. gada februāra kalendārs PDF un attēli formātā",
+      "description": "Izvēlies 2029. gada februāra kalendāru drukāšanai. Pieejami PDF un attēli faili, 15 dizaini un iespēja pievienot personīgu virsrakstu vai fotoattēlu.",
       "indexable": true,
       "status": "ready",
       "note": null
@@ -3147,9 +3147,9 @@
     {
       "url": "/pdf-kalendari/2029/marts/",
       "family": "print_month",
-      "title": "2029. gada marta kalendārs PDF un WebP formātā",
-      "h1": "2029. gada marta kalendārs PDF un WebP formātā",
-      "description": "Izvēlies 2029. gada marta kalendāru drukāšanai. Pieejami PDF un WebP faili, 15 dizaini un iespēja pievienot personīgu virsrakstu vai fotoattēlu.",
+      "title": "2029. gada marta kalendārs PDF un attēli formātā",
+      "h1": "2029. gada marta kalendārs PDF un attēli formātā",
+      "description": "Izvēlies 2029. gada marta kalendāru drukāšanai. Pieejami PDF un attēli faili, 15 dizaini un iespēja pievienot personīgu virsrakstu vai fotoattēlu.",
       "indexable": true,
       "status": "ready",
       "note": null
@@ -3197,9 +3197,9 @@
     {
       "url": "/pdf-kalendari/2029/aprilis/",
       "family": "print_month",
-      "title": "2029. gada aprīļa kalendārs PDF un WebP formātā",
-      "h1": "2029. gada aprīļa kalendārs PDF un WebP formātā",
-      "description": "Izvēlies 2029. gada aprīļa kalendāru drukāšanai. Pieejami PDF un WebP faili, 15 dizaini un iespēja pievienot personīgu virsrakstu vai fotoattēlu.",
+      "title": "2029. gada aprīļa kalendārs PDF un attēli formātā",
+      "h1": "2029. gada aprīļa kalendārs PDF un attēli formātā",
+      "description": "Izvēlies 2029. gada aprīļa kalendāru drukāšanai. Pieejami PDF un attēli faili, 15 dizaini un iespēja pievienot personīgu virsrakstu vai fotoattēlu.",
       "indexable": true,
       "status": "ready",
       "note": null
@@ -3247,9 +3247,9 @@
     {
       "url": "/pdf-kalendari/2029/maijs/",
       "family": "print_month",
-      "title": "2029. gada maija kalendārs PDF un WebP formātā",
-      "h1": "2029. gada maija kalendārs PDF un WebP formātā",
-      "description": "Izvēlies 2029. gada maija kalendāru drukāšanai. Pieejami PDF un WebP faili, 15 dizaini un iespēja pievienot personīgu virsrakstu vai fotoattēlu.",
+      "title": "2029. gada maija kalendārs PDF un attēli formātā",
+      "h1": "2029. gada maija kalendārs PDF un attēli formātā",
+      "description": "Izvēlies 2029. gada maija kalendāru drukāšanai. Pieejami PDF un attēli faili, 15 dizaini un iespēja pievienot personīgu virsrakstu vai fotoattēlu.",
       "indexable": true,
       "status": "ready",
       "note": null
@@ -3297,9 +3297,9 @@
     {
       "url": "/pdf-kalendari/2029/junijs/",
       "family": "print_month",
-      "title": "2029. gada jūnija kalendārs PDF un WebP formātā",
-      "h1": "2029. gada jūnija kalendārs PDF un WebP formātā",
-      "description": "Izvēlies 2029. gada jūnija kalendāru drukāšanai. Pieejami PDF un WebP faili, 15 dizaini un iespēja pievienot personīgu virsrakstu vai fotoattēlu.",
+      "title": "2029. gada jūnija kalendārs PDF un attēli formātā",
+      "h1": "2029. gada jūnija kalendārs PDF un attēli formātā",
+      "description": "Izvēlies 2029. gada jūnija kalendāru drukāšanai. Pieejami PDF un attēli faili, 15 dizaini un iespēja pievienot personīgu virsrakstu vai fotoattēlu.",
       "indexable": true,
       "status": "ready",
       "note": null
@@ -3347,9 +3347,9 @@
     {
       "url": "/pdf-kalendari/2029/julijs/",
       "family": "print_month",
-      "title": "2029. gada jūlija kalendārs PDF un WebP formātā",
-      "h1": "2029. gada jūlija kalendārs PDF un WebP formātā",
-      "description": "Izvēlies 2029. gada jūlija kalendāru drukāšanai. Pieejami PDF un WebP faili, 15 dizaini un iespēja pievienot personīgu virsrakstu vai fotoattēlu.",
+      "title": "2029. gada jūlija kalendārs PDF un attēli formātā",
+      "h1": "2029. gada jūlija kalendārs PDF un attēli formātā",
+      "description": "Izvēlies 2029. gada jūlija kalendāru drukāšanai. Pieejami PDF un attēli faili, 15 dizaini un iespēja pievienot personīgu virsrakstu vai fotoattēlu.",
       "indexable": true,
       "status": "ready",
       "note": null
@@ -3397,9 +3397,9 @@
     {
       "url": "/pdf-kalendari/2029/augusts/",
       "family": "print_month",
-      "title": "2029. gada augusta kalendārs PDF un WebP formātā",
-      "h1": "2029. gada augusta kalendārs PDF un WebP formātā",
-      "description": "Izvēlies 2029. gada augusta kalendāru drukāšanai. Pieejami PDF un WebP faili, 15 dizaini un iespēja pievienot personīgu virsrakstu vai fotoattēlu.",
+      "title": "2029. gada augusta kalendārs PDF un attēli formātā",
+      "h1": "2029. gada augusta kalendārs PDF un attēli formātā",
+      "description": "Izvēlies 2029. gada augusta kalendāru drukāšanai. Pieejami PDF un attēli faili, 15 dizaini un iespēja pievienot personīgu virsrakstu vai fotoattēlu.",
       "indexable": true,
       "status": "ready",
       "note": null
@@ -3447,9 +3447,9 @@
     {
       "url": "/pdf-kalendari/2029/septembris/",
       "family": "print_month",
-      "title": "2029. gada septembra kalendārs PDF un WebP formātā",
-      "h1": "2029. gada septembra kalendārs PDF un WebP formātā",
-      "description": "Izvēlies 2029. gada septembra kalendāru drukāšanai. Pieejami PDF un WebP faili, 15 dizaini un iespēja pievienot personīgu virsrakstu vai fotoattēlu.",
+      "title": "2029. gada septembra kalendārs PDF un attēli formātā",
+      "h1": "2029. gada septembra kalendārs PDF un attēli formātā",
+      "description": "Izvēlies 2029. gada septembra kalendāru drukāšanai. Pieejami PDF un attēli faili, 15 dizaini un iespēja pievienot personīgu virsrakstu vai fotoattēlu.",
       "indexable": true,
       "status": "ready",
       "note": null
@@ -3497,9 +3497,9 @@
     {
       "url": "/pdf-kalendari/2029/oktobris/",
       "family": "print_month",
-      "title": "2029. gada oktobra kalendārs PDF un WebP formātā",
-      "h1": "2029. gada oktobra kalendārs PDF un WebP formātā",
-      "description": "Izvēlies 2029. gada oktobra kalendāru drukāšanai. Pieejami PDF un WebP faili, 15 dizaini un iespēja pievienot personīgu virsrakstu vai fotoattēlu.",
+      "title": "2029. gada oktobra kalendārs PDF un attēli formātā",
+      "h1": "2029. gada oktobra kalendārs PDF un attēli formātā",
+      "description": "Izvēlies 2029. gada oktobra kalendāru drukāšanai. Pieejami PDF un attēli faili, 15 dizaini un iespēja pievienot personīgu virsrakstu vai fotoattēlu.",
       "indexable": true,
       "status": "ready",
       "note": null
@@ -3547,9 +3547,9 @@
     {
       "url": "/pdf-kalendari/2029/novembris/",
       "family": "print_month",
-      "title": "2029. gada novembra kalendārs PDF un WebP formātā",
-      "h1": "2029. gada novembra kalendārs PDF un WebP formātā",
-      "description": "Izvēlies 2029. gada novembra kalendāru drukāšanai. Pieejami PDF un WebP faili, 15 dizaini un iespēja pievienot personīgu virsrakstu vai fotoattēlu.",
+      "title": "2029. gada novembra kalendārs PDF un attēli formātā",
+      "h1": "2029. gada novembra kalendārs PDF un attēli formātā",
+      "description": "Izvēlies 2029. gada novembra kalendāru drukāšanai. Pieejami PDF un attēli faili, 15 dizaini un iespēja pievienot personīgu virsrakstu vai fotoattēlu.",
       "indexable": true,
       "status": "ready",
       "note": null
@@ -3597,9 +3597,9 @@
     {
       "url": "/pdf-kalendari/2029/decembris/",
       "family": "print_month",
-      "title": "2029. gada decembra kalendārs PDF un WebP formātā",
-      "h1": "2029. gada decembra kalendārs PDF un WebP formātā",
-      "description": "Izvēlies 2029. gada decembra kalendāru drukāšanai. Pieejami PDF un WebP faili, 15 dizaini un iespēja pievienot personīgu virsrakstu vai fotoattēlu.",
+      "title": "2029. gada decembra kalendārs PDF un attēli formātā",
+      "h1": "2029. gada decembra kalendārs PDF un attēli formātā",
+      "description": "Izvēlies 2029. gada decembra kalendāru drukāšanai. Pieejami PDF un attēli faili, 15 dizaini un iespēja pievienot personīgu virsrakstu vai fotoattēlu.",
       "indexable": true,
       "status": "ready",
       "note": null
@@ -4129,7 +4129,7 @@
       "family": "year",
       "title": "2030. gada kalendārs",
       "h1": "2030. gada kalendārs",
-      "description": "2030. gada kalendārs ar Latvijas svētku dienām un ISO nedēļu numuriem. Atver mēnešu pārskatus un izvēlies PDF vai WebP kalendāru drukāšanai.",
+      "description": "2030. gada kalendārs ar Latvijas svētku dienām un ISO nedēļu numuriem. Atver mēnešu pārskatus un izvēlies PDF vai attēlu kalendāru drukāšanai.",
       "indexable": true,
       "status": "ready",
       "note": null
@@ -4159,7 +4159,7 @@
       "family": "print_index",
       "title": "2030. gada kalendāri drukāšanai",
       "h1": "2030. gada kalendāri drukāšanai",
-      "description": "2030. gada kalendāri PDF un WebP formātā. Izvēlies gada vai mēneša izkārtojumu, vienu no 15 dizainiem un personalizē savu kalendāru.",
+      "description": "2030. gada kalendāri PDF un attēli formātā. Izvēlies gada vai mēneša izkārtojumu, vienu no 15 dizainiem un personalizē savu kalendāru.",
       "indexable": true,
       "status": "ready",
       "note": null
@@ -4267,9 +4267,9 @@
     {
       "url": "/pdf-kalendari/2030/janvaris/",
       "family": "print_month",
-      "title": "2030. gada janvāra kalendārs PDF un WebP formātā",
-      "h1": "2030. gada janvāra kalendārs PDF un WebP formātā",
-      "description": "Izvēlies 2030. gada janvāra kalendāru drukāšanai. Pieejami PDF un WebP faili, 15 dizaini un iespēja pievienot personīgu virsrakstu vai fotoattēlu.",
+      "title": "2030. gada janvāra kalendārs PDF un attēli formātā",
+      "h1": "2030. gada janvāra kalendārs PDF un attēli formātā",
+      "description": "Izvēlies 2030. gada janvāra kalendāru drukāšanai. Pieejami PDF un attēli faili, 15 dizaini un iespēja pievienot personīgu virsrakstu vai fotoattēlu.",
       "indexable": true,
       "status": "ready",
       "note": null
@@ -4317,9 +4317,9 @@
     {
       "url": "/pdf-kalendari/2030/februaris/",
       "family": "print_month",
-      "title": "2030. gada februāra kalendārs PDF un WebP formātā",
-      "h1": "2030. gada februāra kalendārs PDF un WebP formātā",
-      "description": "Izvēlies 2030. gada februāra kalendāru drukāšanai. Pieejami PDF un WebP faili, 15 dizaini un iespēja pievienot personīgu virsrakstu vai fotoattēlu.",
+      "title": "2030. gada februāra kalendārs PDF un attēli formātā",
+      "h1": "2030. gada februāra kalendārs PDF un attēli formātā",
+      "description": "Izvēlies 2030. gada februāra kalendāru drukāšanai. Pieejami PDF un attēli faili, 15 dizaini un iespēja pievienot personīgu virsrakstu vai fotoattēlu.",
       "indexable": true,
       "status": "ready",
       "note": null
@@ -4367,9 +4367,9 @@
     {
       "url": "/pdf-kalendari/2030/marts/",
       "family": "print_month",
-      "title": "2030. gada marta kalendārs PDF un WebP formātā",
-      "h1": "2030. gada marta kalendārs PDF un WebP formātā",
-      "description": "Izvēlies 2030. gada marta kalendāru drukāšanai. Pieejami PDF un WebP faili, 15 dizaini un iespēja pievienot personīgu virsrakstu vai fotoattēlu.",
+      "title": "2030. gada marta kalendārs PDF un attēli formātā",
+      "h1": "2030. gada marta kalendārs PDF un attēli formātā",
+      "description": "Izvēlies 2030. gada marta kalendāru drukāšanai. Pieejami PDF un attēli faili, 15 dizaini un iespēja pievienot personīgu virsrakstu vai fotoattēlu.",
       "indexable": true,
       "status": "ready",
       "note": null
@@ -4417,9 +4417,9 @@
     {
       "url": "/pdf-kalendari/2030/aprilis/",
       "family": "print_month",
-      "title": "2030. gada aprīļa kalendārs PDF un WebP formātā",
-      "h1": "2030. gada aprīļa kalendārs PDF un WebP formātā",
-      "description": "Izvēlies 2030. gada aprīļa kalendāru drukāšanai. Pieejami PDF un WebP faili, 15 dizaini un iespēja pievienot personīgu virsrakstu vai fotoattēlu.",
+      "title": "2030. gada aprīļa kalendārs PDF un attēli formātā",
+      "h1": "2030. gada aprīļa kalendārs PDF un attēli formātā",
+      "description": "Izvēlies 2030. gada aprīļa kalendāru drukāšanai. Pieejami PDF un attēli faili, 15 dizaini un iespēja pievienot personīgu virsrakstu vai fotoattēlu.",
       "indexable": true,
       "status": "ready",
       "note": null
@@ -4467,9 +4467,9 @@
     {
       "url": "/pdf-kalendari/2030/maijs/",
       "family": "print_month",
-      "title": "2030. gada maija kalendārs PDF un WebP formātā",
-      "h1": "2030. gada maija kalendārs PDF un WebP formātā",
-      "description": "Izvēlies 2030. gada maija kalendāru drukāšanai. Pieejami PDF un WebP faili, 15 dizaini un iespēja pievienot personīgu virsrakstu vai fotoattēlu.",
+      "title": "2030. gada maija kalendārs PDF un attēli formātā",
+      "h1": "2030. gada maija kalendārs PDF un attēli formātā",
+      "description": "Izvēlies 2030. gada maija kalendāru drukāšanai. Pieejami PDF un attēli faili, 15 dizaini un iespēja pievienot personīgu virsrakstu vai fotoattēlu.",
       "indexable": true,
       "status": "ready",
       "note": null
@@ -4517,9 +4517,9 @@
     {
       "url": "/pdf-kalendari/2030/junijs/",
       "family": "print_month",
-      "title": "2030. gada jūnija kalendārs PDF un WebP formātā",
-      "h1": "2030. gada jūnija kalendārs PDF un WebP formātā",
-      "description": "Izvēlies 2030. gada jūnija kalendāru drukāšanai. Pieejami PDF un WebP faili, 15 dizaini un iespēja pievienot personīgu virsrakstu vai fotoattēlu.",
+      "title": "2030. gada jūnija kalendārs PDF un attēli formātā",
+      "h1": "2030. gada jūnija kalendārs PDF un attēli formātā",
+      "description": "Izvēlies 2030. gada jūnija kalendāru drukāšanai. Pieejami PDF un attēli faili, 15 dizaini un iespēja pievienot personīgu virsrakstu vai fotoattēlu.",
       "indexable": true,
       "status": "ready",
       "note": null
@@ -4567,9 +4567,9 @@
     {
       "url": "/pdf-kalendari/2030/julijs/",
       "family": "print_month",
-      "title": "2030. gada jūlija kalendārs PDF un WebP formātā",
-      "h1": "2030. gada jūlija kalendārs PDF un WebP formātā",
-      "description": "Izvēlies 2030. gada jūlija kalendāru drukāšanai. Pieejami PDF un WebP faili, 15 dizaini un iespēja pievienot personīgu virsrakstu vai fotoattēlu.",
+      "title": "2030. gada jūlija kalendārs PDF un attēli formātā",
+      "h1": "2030. gada jūlija kalendārs PDF un attēli formātā",
+      "description": "Izvēlies 2030. gada jūlija kalendāru drukāšanai. Pieejami PDF un attēli faili, 15 dizaini un iespēja pievienot personīgu virsrakstu vai fotoattēlu.",
       "indexable": true,
       "status": "ready",
       "note": null
@@ -4617,9 +4617,9 @@
     {
       "url": "/pdf-kalendari/2030/augusts/",
       "family": "print_month",
-      "title": "2030. gada augusta kalendārs PDF un WebP formātā",
-      "h1": "2030. gada augusta kalendārs PDF un WebP formātā",
-      "description": "Izvēlies 2030. gada augusta kalendāru drukāšanai. Pieejami PDF un WebP faili, 15 dizaini un iespēja pievienot personīgu virsrakstu vai fotoattēlu.",
+      "title": "2030. gada augusta kalendārs PDF un attēli formātā",
+      "h1": "2030. gada augusta kalendārs PDF un attēli formātā",
+      "description": "Izvēlies 2030. gada augusta kalendāru drukāšanai. Pieejami PDF un attēli faili, 15 dizaini un iespēja pievienot personīgu virsrakstu vai fotoattēlu.",
       "indexable": true,
       "status": "ready",
       "note": null
@@ -4667,9 +4667,9 @@
     {
       "url": "/pdf-kalendari/2030/septembris/",
       "family": "print_month",
-      "title": "2030. gada septembra kalendārs PDF un WebP formātā",
-      "h1": "2030. gada septembra kalendārs PDF un WebP formātā",
-      "description": "Izvēlies 2030. gada septembra kalendāru drukāšanai. Pieejami PDF un WebP faili, 15 dizaini un iespēja pievienot personīgu virsrakstu vai fotoattēlu.",
+      "title": "2030. gada septembra kalendārs PDF un attēli formātā",
+      "h1": "2030. gada septembra kalendārs PDF un attēli formātā",
+      "description": "Izvēlies 2030. gada septembra kalendāru drukāšanai. Pieejami PDF un attēli faili, 15 dizaini un iespēja pievienot personīgu virsrakstu vai fotoattēlu.",
       "indexable": true,
       "status": "ready",
       "note": null
@@ -4717,9 +4717,9 @@
     {
       "url": "/pdf-kalendari/2030/oktobris/",
       "family": "print_month",
-      "title": "2030. gada oktobra kalendārs PDF un WebP formātā",
-      "h1": "2030. gada oktobra kalendārs PDF un WebP formātā",
-      "description": "Izvēlies 2030. gada oktobra kalendāru drukāšanai. Pieejami PDF un WebP faili, 15 dizaini un iespēja pievienot personīgu virsrakstu vai fotoattēlu.",
+      "title": "2030. gada oktobra kalendārs PDF un attēli formātā",
+      "h1": "2030. gada oktobra kalendārs PDF un attēli formātā",
+      "description": "Izvēlies 2030. gada oktobra kalendāru drukāšanai. Pieejami PDF un attēli faili, 15 dizaini un iespēja pievienot personīgu virsrakstu vai fotoattēlu.",
       "indexable": true,
       "status": "ready",
       "note": null
@@ -4767,9 +4767,9 @@
     {
       "url": "/pdf-kalendari/2030/novembris/",
       "family": "print_month",
-      "title": "2030. gada novembra kalendārs PDF un WebP formātā",
-      "h1": "2030. gada novembra kalendārs PDF un WebP formātā",
-      "description": "Izvēlies 2030. gada novembra kalendāru drukāšanai. Pieejami PDF un WebP faili, 15 dizaini un iespēja pievienot personīgu virsrakstu vai fotoattēlu.",
+      "title": "2030. gada novembra kalendārs PDF un attēli formātā",
+      "h1": "2030. gada novembra kalendārs PDF un attēli formātā",
+      "description": "Izvēlies 2030. gada novembra kalendāru drukāšanai. Pieejami PDF un attēli faili, 15 dizaini un iespēja pievienot personīgu virsrakstu vai fotoattēlu.",
       "indexable": true,
       "status": "ready",
       "note": null
@@ -4817,9 +4817,9 @@
     {
       "url": "/pdf-kalendari/2030/decembris/",
       "family": "print_month",
-      "title": "2030. gada decembra kalendārs PDF un WebP formātā",
-      "h1": "2030. gada decembra kalendārs PDF un WebP formātā",
-      "description": "Izvēlies 2030. gada decembra kalendāru drukāšanai. Pieejami PDF un WebP faili, 15 dizaini un iespēja pievienot personīgu virsrakstu vai fotoattēlu.",
+      "title": "2030. gada decembra kalendārs PDF un attēli formātā",
+      "h1": "2030. gada decembra kalendārs PDF un attēli formātā",
+      "description": "Izvēlies 2030. gada decembra kalendāru drukāšanai. Pieejami PDF un attēli faili, 15 dizaini un iespēja pievienot personīgu virsrakstu vai fotoattēlu.",
       "indexable": true,
       "status": "ready",
       "note": null
@@ -6019,7 +6019,7 @@
       "family": "name_calendar",
       "title": "Kalendārs ar vārdu «Emīlija»",
       "h1": "Kalendārs ar vārdu «Emīlija»",
-      "description": "Izveido kalendāru ar vārdu «Emīlija». Izvēlies dizainu, pievieno personīgu virsrakstu vai savu fotoattēlu un lejupielādē PDF vai WebP failu.",
+      "description": "Izveido kalendāru ar vārdu «Emīlija». Izvēlies dizainu, pievieno personīgu virsrakstu vai savu fotoattēlu un lejupielādē PDF vai attēlu failu.",
       "indexable": false,
       "status": "name_source_pending",
       "note": "Keep existing review/noindex gates; this copy does not certify pending source data."
@@ -6029,7 +6029,7 @@
       "family": "name_calendar",
       "title": "Kalendārs ar vārdu «Teodors»",
       "h1": "Kalendārs ar vārdu «Teodors»",
-      "description": "Izveido kalendāru ar vārdu «Teodors». Izvēlies dizainu, pievieno personīgu virsrakstu vai savu fotoattēlu un lejupielādē PDF vai WebP failu.",
+      "description": "Izveido kalendāru ar vārdu «Teodors». Izvēlies dizainu, pievieno personīgu virsrakstu vai savu fotoattēlu un lejupielādē PDF vai attēlu failu.",
       "indexable": false,
       "status": "name_source_pending",
       "note": "Keep existing review/noindex gates; this copy does not certify pending source data."
@@ -6039,7 +6039,7 @@
       "family": "name_calendar",
       "title": "Kalendārs ar vārdu «Sofija»",
       "h1": "Kalendārs ar vārdu «Sofija»",
-      "description": "Izveido kalendāru ar vārdu «Sofija». Izvēlies dizainu, pievieno personīgu virsrakstu vai savu fotoattēlu un lejupielādē PDF vai WebP failu.",
+      "description": "Izveido kalendāru ar vārdu «Sofija». Izvēlies dizainu, pievieno personīgu virsrakstu vai savu fotoattēlu un lejupielādē PDF vai attēlu failu.",
       "indexable": false,
       "status": "name_source_pending",
       "note": "Keep existing review/noindex gates; this copy does not certify pending source data."
@@ -6049,7 +6049,7 @@
       "family": "name_calendar",
       "title": "Kalendārs ar vārdu «Marks»",
       "h1": "Kalendārs ar vārdu «Marks»",
-      "description": "Izveido kalendāru ar vārdu «Marks». Izvēlies dizainu, pievieno personīgu virsrakstu vai savu fotoattēlu un lejupielādē PDF vai WebP failu.",
+      "description": "Izveido kalendāru ar vārdu «Marks». Izvēlies dizainu, pievieno personīgu virsrakstu vai savu fotoattēlu un lejupielādē PDF vai attēlu failu.",
       "indexable": false,
       "status": "name_source_pending",
       "note": "Keep existing review/noindex gates; this copy does not certify pending source data."
@@ -6059,7 +6059,7 @@
       "family": "name_calendar",
       "title": "Kalendārs ar vārdu «Amēlija»",
       "h1": "Kalendārs ar vārdu «Amēlija»",
-      "description": "Izveido kalendāru ar vārdu «Amēlija». Izvēlies dizainu, pievieno personīgu virsrakstu vai savu fotoattēlu un lejupielādē PDF vai WebP failu.",
+      "description": "Izveido kalendāru ar vārdu «Amēlija». Izvēlies dizainu, pievieno personīgu virsrakstu vai savu fotoattēlu un lejupielādē PDF vai attēlu failu.",
       "indexable": false,
       "status": "name_source_pending",
       "note": "Keep existing review/noindex gates; this copy does not certify pending source data."
@@ -6069,7 +6069,7 @@
       "family": "name_calendar",
       "title": "Kalendārs ar vārdu «Olivers»",
       "h1": "Kalendārs ar vārdu «Olivers»",
-      "description": "Izveido kalendāru ar vārdu «Olivers». Izvēlies dizainu, pievieno personīgu virsrakstu vai savu fotoattēlu un lejupielādē PDF vai WebP failu.",
+      "description": "Izveido kalendāru ar vārdu «Olivers». Izvēlies dizainu, pievieno personīgu virsrakstu vai savu fotoattēlu un lejupielādē PDF vai attēlu failu.",
       "indexable": false,
       "status": "name_source_pending",
       "note": "Keep existing review/noindex gates; this copy does not certify pending source data."
@@ -6079,7 +6079,7 @@
       "family": "name_calendar",
       "title": "Kalendārs ar vārdu «Emma»",
       "h1": "Kalendārs ar vārdu «Emma»",
-      "description": "Izveido kalendāru ar vārdu «Emma». Izvēlies dizainu, pievieno personīgu virsrakstu vai savu fotoattēlu un lejupielādē PDF vai WebP failu.",
+      "description": "Izveido kalendāru ar vārdu «Emma». Izvēlies dizainu, pievieno personīgu virsrakstu vai savu fotoattēlu un lejupielādē PDF vai attēlu failu.",
       "indexable": false,
       "status": "name_source_pending",
       "note": "Keep existing review/noindex gates; this copy does not certify pending source data."
@@ -6089,7 +6089,7 @@
       "family": "name_calendar",
       "title": "Kalendārs ar vārdu «Kārlis»",
       "h1": "Kalendārs ar vārdu «Kārlis»",
-      "description": "Izveido kalendāru ar vārdu «Kārlis». Izvēlies dizainu, pievieno personīgu virsrakstu vai savu fotoattēlu un lejupielādē PDF vai WebP failu.",
+      "description": "Izveido kalendāru ar vārdu «Kārlis». Izvēlies dizainu, pievieno personīgu virsrakstu vai savu fotoattēlu un lejupielādē PDF vai attēlu failu.",
       "indexable": false,
       "status": "name_source_pending",
       "note": "Keep existing review/noindex gates; this copy does not certify pending source data."
@@ -6099,7 +6099,7 @@
       "family": "name_calendar",
       "title": "Kalendārs ar vārdu «Alise»",
       "h1": "Kalendārs ar vārdu «Alise»",
-      "description": "Izveido kalendāru ar vārdu «Alise». Izvēlies dizainu, pievieno personīgu virsrakstu vai savu fotoattēlu un lejupielādē PDF vai WebP failu.",
+      "description": "Izveido kalendāru ar vārdu «Alise». Izvēlies dizainu, pievieno personīgu virsrakstu vai savu fotoattēlu un lejupielādē PDF vai attēlu failu.",
       "indexable": false,
       "status": "name_source_pending",
       "note": "Keep existing review/noindex gates; this copy does not certify pending source data."
@@ -6109,7 +6109,7 @@
       "family": "name_calendar",
       "title": "Kalendārs ar vārdu «Gustavs»",
       "h1": "Kalendārs ar vārdu «Gustavs»",
-      "description": "Izveido kalendāru ar vārdu «Gustavs». Izvēlies dizainu, pievieno personīgu virsrakstu vai savu fotoattēlu un lejupielādē PDF vai WebP failu.",
+      "description": "Izveido kalendāru ar vārdu «Gustavs». Izvēlies dizainu, pievieno personīgu virsrakstu vai savu fotoattēlu un lejupielādē PDF vai attēlu failu.",
       "indexable": false,
       "status": "name_source_pending",
       "note": "Keep existing review/noindex gates; this copy does not certify pending source data."
@@ -6119,7 +6119,7 @@
       "family": "name_calendar",
       "title": "Kalendārs ar vārdu «Anna»",
       "h1": "Kalendārs ar vārdu «Anna»",
-      "description": "Izveido kalendāru ar vārdu «Anna». Izvēlies dizainu, pievieno personīgu virsrakstu vai savu fotoattēlu un lejupielādē PDF vai WebP failu.",
+      "description": "Izveido kalendāru ar vārdu «Anna». Izvēlies dizainu, pievieno personīgu virsrakstu vai savu fotoattēlu un lejupielādē PDF vai attēlu failu.",
       "indexable": false,
       "status": "name_source_pending",
       "note": "Keep existing review/noindex gates; this copy does not certify pending source data."
@@ -6129,7 +6129,7 @@
       "family": "name_calendar",
       "title": "Kalendārs ar vārdu «Roberts»",
       "h1": "Kalendārs ar vārdu «Roberts»",
-      "description": "Izveido kalendāru ar vārdu «Roberts». Izvēlies dizainu, pievieno personīgu virsrakstu vai savu fotoattēlu un lejupielādē PDF vai WebP failu.",
+      "description": "Izveido kalendāru ar vārdu «Roberts». Izvēlies dizainu, pievieno personīgu virsrakstu vai savu fotoattēlu un lejupielādē PDF vai attēlu failu.",
       "indexable": false,
       "status": "name_source_pending",
       "note": "Keep existing review/noindex gates; this copy does not certify pending source data."
@@ -6139,7 +6139,7 @@
       "family": "name_calendar",
       "title": "Kalendārs ar vārdu «Nora»",
       "h1": "Kalendārs ar vārdu «Nora»",
-      "description": "Izveido kalendāru ar vārdu «Nora». Izvēlies dizainu, pievieno personīgu virsrakstu vai savu fotoattēlu un lejupielādē PDF vai WebP failu.",
+      "description": "Izveido kalendāru ar vārdu «Nora». Izvēlies dizainu, pievieno personīgu virsrakstu vai savu fotoattēlu un lejupielādē PDF vai attēlu failu.",
       "indexable": false,
       "status": "name_source_pending",
       "note": "Keep existing review/noindex gates; this copy does not certify pending source data."
@@ -6149,7 +6149,7 @@
       "family": "name_calendar",
       "title": "Kalendārs ar vārdu «Jēkabs»",
       "h1": "Kalendārs ar vārdu «Jēkabs»",
-      "description": "Izveido kalendāru ar vārdu «Jēkabs». Izvēlies dizainu, pievieno personīgu virsrakstu vai savu fotoattēlu un lejupielādē PDF vai WebP failu.",
+      "description": "Izveido kalendāru ar vārdu «Jēkabs». Izvēlies dizainu, pievieno personīgu virsrakstu vai savu fotoattēlu un lejupielādē PDF vai attēlu failu.",
       "indexable": false,
       "status": "name_source_pending",
       "note": "Keep existing review/noindex gates; this copy does not certify pending source data."
@@ -6159,7 +6159,7 @@
       "family": "name_calendar",
       "title": "Kalendārs ar vārdu «Marta»",
       "h1": "Kalendārs ar vārdu «Marta»",
-      "description": "Izveido kalendāru ar vārdu «Marta». Izvēlies dizainu, pievieno personīgu virsrakstu vai savu fotoattēlu un lejupielādē PDF vai WebP failu.",
+      "description": "Izveido kalendāru ar vārdu «Marta». Izvēlies dizainu, pievieno personīgu virsrakstu vai savu fotoattēlu un lejupielādē PDF vai attēlu failu.",
       "indexable": false,
       "status": "name_source_pending",
       "note": "Keep existing review/noindex gates; this copy does not certify pending source data."
@@ -6169,7 +6169,7 @@
       "family": "name_calendar",
       "title": "Kalendārs ar vārdu «Ričards»",
       "h1": "Kalendārs ar vārdu «Ričards»",
-      "description": "Izveido kalendāru ar vārdu «Ričards». Izvēlies dizainu, pievieno personīgu virsrakstu vai savu fotoattēlu un lejupielādē PDF vai WebP failu.",
+      "description": "Izveido kalendāru ar vārdu «Ričards». Izvēlies dizainu, pievieno personīgu virsrakstu vai savu fotoattēlu un lejupielādē PDF vai attēlu failu.",
       "indexable": false,
       "status": "name_source_pending",
       "note": "Keep existing review/noindex gates; this copy does not certify pending source data."
@@ -6179,7 +6179,7 @@
       "family": "name_calendar",
       "title": "Kalendārs ar vārdu «Olīvija»",
       "h1": "Kalendārs ar vārdu «Olīvija»",
-      "description": "Izveido kalendāru ar vārdu «Olīvija». Izvēlies dizainu, pievieno personīgu virsrakstu vai savu fotoattēlu un lejupielādē PDF vai WebP failu.",
+      "description": "Izveido kalendāru ar vārdu «Olīvija». Izvēlies dizainu, pievieno personīgu virsrakstu vai savu fotoattēlu un lejupielādē PDF vai attēlu failu.",
       "indexable": false,
       "status": "name_source_pending",
       "note": "Keep existing review/noindex gates; this copy does not certify pending source data."
@@ -6189,7 +6189,7 @@
       "family": "name_calendar",
       "title": "Kalendārs ar vārdu «Emīls»",
       "h1": "Kalendārs ar vārdu «Emīls»",
-      "description": "Izveido kalendāru ar vārdu «Emīls». Izvēlies dizainu, pievieno personīgu virsrakstu vai savu fotoattēlu un lejupielādē PDF vai WebP failu.",
+      "description": "Izveido kalendāru ar vārdu «Emīls». Izvēlies dizainu, pievieno personīgu virsrakstu vai savu fotoattēlu un lejupielādē PDF vai attēlu failu.",
       "indexable": false,
       "status": "name_source_pending",
       "note": "Keep existing review/noindex gates; this copy does not certify pending source data."
@@ -6199,7 +6199,7 @@
       "family": "name_calendar",
       "title": "Kalendārs ar vārdu «Estere»",
       "h1": "Kalendārs ar vārdu «Estere»",
-      "description": "Izveido kalendāru ar vārdu «Estere». Izvēlies dizainu, pievieno personīgu virsrakstu vai savu fotoattēlu un lejupielādē PDF vai WebP failu.",
+      "description": "Izveido kalendāru ar vārdu «Estere». Izvēlies dizainu, pievieno personīgu virsrakstu vai savu fotoattēlu un lejupielādē PDF vai attēlu failu.",
       "indexable": false,
       "status": "name_source_pending",
       "note": "Keep existing review/noindex gates; this copy does not certify pending source data."
@@ -6209,7 +6209,7 @@
       "family": "name_calendar",
       "title": "Kalendārs ar vārdu «Everts»",
       "h1": "Kalendārs ar vārdu «Everts»",
-      "description": "Izveido kalendāru ar vārdu «Everts». Izvēlies dizainu, pievieno personīgu virsrakstu vai savu fotoattēlu un lejupielādē PDF vai WebP failu.",
+      "description": "Izveido kalendāru ar vārdu «Everts». Izvēlies dizainu, pievieno personīgu virsrakstu vai savu fotoattēlu un lejupielādē PDF vai attēlu failu.",
       "indexable": false,
       "status": "name_source_pending",
       "note": "Keep existing review/noindex gates; this copy does not certify pending source data."

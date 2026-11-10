@@ -107,3 +107,26 @@
 /* Keep model detail readable in navigation and compact actions. */
 .site-header nav .icon{width:26px;height:26px;min-width:26px}.secondary-nav .icon{width:25px;height:25px;min-width:25px}
 @media(max-width:600px){.site-header nav .icon{width:23px;height:23px;min-width:23px}.secondary-nav .icon{width:23px;height:23px;min-width:23px}}
+
+/* A single card boundary, a quiet preview selector, and two distinct file actions. */
+.design-card{display:flex;flex-direction:column;overflow:hidden;padding:0!important;border:1px solid var(--line);border-radius:20px;background:var(--surface)}
+.design-card>button[data-design]{display:block;width:100%;border:0!important;border-radius:0!important;background:transparent!important;padding:16px!important;box-shadow:none!important;text-align:left}
+.design-card>button[data-design]:focus-visible{outline:3px solid var(--brand);outline-offset:-4px}
+.design-card h3{margin:14px 0 5px!important;font-size:20px;line-height:1.25;overflow-wrap:anywhere}
+.design-card>button[data-design]>p{margin:0;color:var(--muted);font-size:13px}
+.design-card>.actions{display:grid!important;grid-template-columns:1fr 1fr;gap:10px!important;padding:14px!important;margin:0!important;border-top:1px solid var(--line);background:var(--surface)}
+.design-card>.actions>button{display:flex!important;align-items:center;justify-content:center;gap:8px;width:100%;min-width:0;min-height:52px!important;padding:9px!important;margin:0!important;border:1px solid var(--line)!important;border-radius:12px!important;background:#fff!important;box-shadow:none!important;font-size:15px;font-weight:750}
+.design-card>.actions>button:hover{border-color:var(--brand)!important;background:#fbf3f5!important}
+.design-card>.actions>button>.icon{width:30px!important;height:30px!important;flex:none}
+
+.print-gallery-panel,.print-section [data-widget="print"]{border:0!important;background:transparent!important;padding:0!important;border-radius:0!important;box-shadow:none!important}
+.design-gallery{display:grid!important;grid-template-columns:repeat(4,minmax(0,1fr))!important;gap:18px!important}
+@media(max-width:1200px){.design-gallery{grid-template-columns:repeat(3,minmax(0,1fr))!important}}
+@media(max-width:900px){.design-gallery{grid-template-columns:repeat(2,minmax(0,1fr))!important}}
+@media(max-width:560px){.design-gallery{grid-template-columns:minmax(0,1fr)!important}}
+
+.design-card>.actions>button{gap:6px!important;flex-wrap:nowrap!important}
+.design-card>.actions>button>.download-arrow{width:17px;height:17px;min-width:17px;margin-left:auto}
+.design-card>.actions>button>.icon{width:29px!important;height:29px!important}
+
+#calendar-month{max-width:150px;min-width:112px}#print-form button[name="format"]{display:inline-flex;align-items:center;justify-content:center;gap:9px}#print-form button[name="format"] .icon{width:29px;height:29px}#print-form .download-arrow{width:18px;height:18px}

@@ -51,6 +51,8 @@ abort "Planning prerender failed: #{planning_error}" unless planning_status.succ
 PLANNING_MARKUP = JSON.parse(planning_json).freeze
 def h(s); CGI.escapeHTML(s.to_s); end
 def icon_for(url)
+ month_index=%w[janvaris februaris marts aprilis maijs junijs julijs augusts septembris oktobris novembris decembris].index(url.to_s.split('/').reject(&:empty?).last)
+ return "month-#{month_index+1}" if month_index
  case url
  when /privatum|sikdatnu/ then 'shield'
  when /kontakti|par-projektu|avoti/ then 'info'
@@ -214,7 +216,7 @@ def source_panel(extra='')
  '<aside class="source-panel"><strong>Avoti un pārbaude</strong><p>Datumi aprēķināti pēc Gregora kalendāra; nedēļas sākas pirmdienā. Svētku dienas un atceres dienas ir dažādas kategorijas. '+extra+'</p>'+a(LAW,'Likums „Par svētku, atceres un atzīmējamām dienām”')+' · '+a('/avoti-un-metodika/','Avoti un metodika')+'</aside>'
 end
 def print_panel(type, y, m=nil, name=nil)
- "<section class=\"content-card print-section\" data-print-type=\"#{type}\" data-print-year=\"#{y}\" data-print-month=\"#{m}\" data-print-name=\"#{h(name)}\"><h2>Kalendārs uz papīra. Tavā stilā.</h2><p>Izvēlies vienu no 15 kompozīcijām. PDF ar vektoru tekstu vai atbilstošs A4 WebP attēls 600 ppi izšķirtspējā. Faila veidošana notiek tavā ierīcē.</p>#{widget('print')}</section>"
+ "<section class=\"content-card print-section\" data-print-type=\"#{type}\" data-print-year=\"#{y}\" data-print-month=\"#{m}\" data-print-name=\"#{h(name)}\"><h2>Kalendārs uz papīra. Tavā stilā.</h2><p>Izvēlies vienu no 15 kompozīcijām. PDF ar vektoru tekstu vai atbilstošs A4 attēls 600 ppi izšķirtspējā. Faila veidošana notiek tavā ierīcē.</p>#{widget('print')}</section>"
 end
 def metrics(y,m=nil)
  first=Date.new(y,m||1,1); last=m ? Date.new(y,m,-1) : Date.new(y,12,31)
@@ -244,13 +246,13 @@ TRUST={
 def title_for(r)
  f=r['Page family'];y=r['Year'].to_i;m=(SLUGS.index(r['URL path'].split('/').last)||-1)+1;t=r['Latvian title/topic'];p=r['URL path']
  case f
- when 'year' then "#{y}. gada kalendārs"
+ when 'year' then "Kalendārs #{y}"
  when 'calendar_month' then "#{y}. gada #{GEN[m-1]} kalendārs"
  when 'iso_week' then "#{y}. gada #{p.split('/').last.to_i}. nedēļa"
  when 'lunar_month' then "#{y}. gada #{GEN[m-1]} Mēness kalendārs"
  when 'work_month' then "Darba dienas #{y}. gada #{GEN[m-1]} mēnesī"
  when 'holiday_month' then "Svētku dienas #{y}. gada #{GEN[m-1]} mēnesī"
- when 'print_month' then "#{y}. gada #{GEN[m-1]} kalendārs PDF un WebP formātā"
+ when 'print_month' then "#{y}. gada #{GEN[m-1]} kalendārs PDF un attēli formātā"
  when 'moon_city' then "Mēness lēkts un riets — #{t}"
  when 'sun_city' then "Saullēkts un saulriets — #{t}"
  when 'name_calendar' then "Kalendārs ar vārdu #{t}"
@@ -426,6 +428,7 @@ ROUTES.each do |r|
  end
  heading=editorial.fetch('h1',title)
  title=editorial.fetch('title',title)
+ title="Kalendārs #{y}" if f=='year'
  desc=editorial.fetch('description',desc)
  if f=='horoscope' && (profile=HOROSCOPE_PROFILES.find{|item|item['slug']==slug})
   title=profile.fetch('seo').fetch('title');heading="#{profile.fetch('genitive')} horoskops";desc=profile.fetch('seo').fetch('description')

@@ -825,7 +825,7 @@
     "indexable": true,
     "status": "ready",
     "description": "Izvēlies datumu un pārskati dienas notikumus, uzdevumus un piezīmes. Personīgos ierakstus vari glabāt savā pārlūkā un izdrukāt dienas plānu.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/dienas-planotajs/",
@@ -834,7 +834,7 @@
     "indexable": true,
     "status": "ready",
     "description": "Saplāno savu dienu ar notikumiem, uzdevumiem un piezīmēm. Ieraksti paliek tavā pārlūkā; dienas plānu vari sagatavot arī drukāšanai.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/dienu-skaititajs/",
@@ -851,8 +851,8 @@
     "family": "hub",
     "indexable": true,
     "status": "ready",
-    "description": "Izveido personīgu kalendāru nozīmīgiem datumiem un apsveikumiem. Izvēlies dizainu un virsrakstu un sagatavo PDF vai WebP failu.",
-    "lastmod": "2026-11-09"
+    "description": "Izveido personīgu kalendāru nozīmīgiem datumiem un apsveikumiem. Izvēlies dizainu un virsrakstu un sagatavo PDF vai attēlu failu.",
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/gada-diena/",
@@ -1063,12 +1063,12 @@
   },
   {
     "url": "/izveidot-kalendaru/",
-    "title": "Izveido savu kalendāru: PDF un WebP",
+    "title": "Izveido savu kalendāru: PDF un attēli",
     "family": "hub",
     "indexable": true,
     "status": "ready",
-    "description": "Izvēlies kalendāra veidu un dizainu, pievieno vārdu vai savu fotoattēlu. Sagatavo personalizētu PDF vai WebP failu tieši savā ierīcē.",
-    "lastmod": "2026-11-09"
+    "description": "Izvēlies kalendāra veidu un dizainu, pievieno vārdu vai savu fotoattēlu. Sagatavo personalizētu PDF vai attēlu failu tieši savā ierīcē.",
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/jaunmeness/",
@@ -1085,7 +1085,7 @@
     "family": "hub",
     "indexable": true,
     "status": "ready",
-    "description": "Izveido kalendāru ar savu vārdu, fotoattēlu vai personīgu virsrakstu. Izvēlies dizainu un sagatavo PDF vai WebP failu savā ierīcē.",
+    "description": "Izveido kalendāru ar savu vārdu, fotoattēlu vai personīgu virsrakstu. Izvēlies dizainu un sagatavo PDF vai attēlu failu savā ierīcē.",
     "lastmod": "2026-11-10"
   },
   {
@@ -1094,8 +1094,8 @@
     "family": "name_calendar",
     "indexable": false,
     "status": "name_source_pending",
-    "description": "Izveido kalendāru ar vārdu «Alise». Izvēlies dizainu, pievieno personīgu virsrakstu vai savu fotoattēlu un lejupielādē PDF vai WebP failu.",
-    "lastmod": "2026-11-09"
+    "description": "Izveido kalendāru ar vārdu «Alise». Izvēlies dizainu, pievieno personīgu virsrakstu vai savu fotoattēlu un lejupielādē PDF vai attēlu failu.",
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/kalendars-ar-vardu/amelija/",
@@ -1103,8 +1103,8 @@
     "family": "name_calendar",
     "indexable": false,
     "status": "name_source_pending",
-    "description": "Izveido kalendāru ar vārdu «Amēlija». Izvēlies dizainu, pievieno personīgu virsrakstu vai savu fotoattēlu un lejupielādē PDF vai WebP failu.",
-    "lastmod": "2026-11-09"
+    "description": "Izveido kalendāru ar vārdu «Amēlija». Izvēlies dizainu, pievieno personīgu virsrakstu vai savu fotoattēlu un lejupielādē PDF vai attēlu failu.",
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/kalendars-ar-vardu/anna/",
@@ -1112,8 +1112,8 @@
     "family": "name_calendar",
     "indexable": false,
     "status": "name_source_pending",
-    "description": "Izveido kalendāru ar vārdu «Anna». Izvēlies dizainu, pievieno personīgu virsrakstu vai savu fotoattēlu un lejupielādē PDF vai WebP failu.",
-    "lastmod": "2026-11-09"
+    "description": "Izveido kalendāru ar vārdu «Anna». Izvēlies dizainu, pievieno personīgu virsrakstu vai savu fotoattēlu un lejupielādē PDF vai attēlu failu.",
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/kalendars-ar-vardu/emilija/",
@@ -1121,8 +1121,8 @@
     "family": "name_calendar",
     "indexable": false,
     "status": "name_source_pending",
-    "description": "Izveido kalendāru ar vārdu «Emīlija». Izvēlies dizainu, pievieno personīgu virsrakstu vai savu fotoattēlu un lejupielādē PDF vai WebP failu.",
-    "lastmod": "2026-11-09"
+    "description": "Izveido kalendāru ar vārdu «Emīlija». Izvēlies dizainu, pievieno personīgu virsrakstu vai savu fotoattēlu un lejupielādē PDF vai attēlu failu.",
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/kalendars-ar-vardu/emils/",
@@ -1130,8 +1130,8 @@
     "family": "name_calendar",
     "indexable": false,
     "status": "name_source_pending",
-    "description": "Izveido kalendāru ar vārdu «Emīls». Izvēlies dizainu, pievieno personīgu virsrakstu vai savu fotoattēlu un lejupielādē PDF vai WebP failu.",
-    "lastmod": "2026-11-09"
+    "description": "Izveido kalendāru ar vārdu «Emīls». Izvēlies dizainu, pievieno personīgu virsrakstu vai savu fotoattēlu un lejupielādē PDF vai attēlu failu.",
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/kalendars-ar-vardu/emma/",
@@ -1139,8 +1139,8 @@
     "family": "name_calendar",
     "indexable": false,
     "status": "name_source_pending",
-    "description": "Izveido kalendāru ar vārdu «Emma». Izvēlies dizainu, pievieno personīgu virsrakstu vai savu fotoattēlu un lejupielādē PDF vai WebP failu.",
-    "lastmod": "2026-11-09"
+    "description": "Izveido kalendāru ar vārdu «Emma». Izvēlies dizainu, pievieno personīgu virsrakstu vai savu fotoattēlu un lejupielādē PDF vai attēlu failu.",
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/kalendars-ar-vardu/estere/",
@@ -1148,8 +1148,8 @@
     "family": "name_calendar",
     "indexable": false,
     "status": "name_source_pending",
-    "description": "Izveido kalendāru ar vārdu «Estere». Izvēlies dizainu, pievieno personīgu virsrakstu vai savu fotoattēlu un lejupielādē PDF vai WebP failu.",
-    "lastmod": "2026-11-09"
+    "description": "Izveido kalendāru ar vārdu «Estere». Izvēlies dizainu, pievieno personīgu virsrakstu vai savu fotoattēlu un lejupielādē PDF vai attēlu failu.",
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/kalendars-ar-vardu/everts/",
@@ -1157,8 +1157,8 @@
     "family": "name_calendar",
     "indexable": false,
     "status": "name_source_pending",
-    "description": "Izveido kalendāru ar vārdu «Everts». Izvēlies dizainu, pievieno personīgu virsrakstu vai savu fotoattēlu un lejupielādē PDF vai WebP failu.",
-    "lastmod": "2026-11-09"
+    "description": "Izveido kalendāru ar vārdu «Everts». Izvēlies dizainu, pievieno personīgu virsrakstu vai savu fotoattēlu un lejupielādē PDF vai attēlu failu.",
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/kalendars-ar-vardu/gustavs/",
@@ -1166,8 +1166,8 @@
     "family": "name_calendar",
     "indexable": false,
     "status": "name_source_pending",
-    "description": "Izveido kalendāru ar vārdu «Gustavs». Izvēlies dizainu, pievieno personīgu virsrakstu vai savu fotoattēlu un lejupielādē PDF vai WebP failu.",
-    "lastmod": "2026-11-09"
+    "description": "Izveido kalendāru ar vārdu «Gustavs». Izvēlies dizainu, pievieno personīgu virsrakstu vai savu fotoattēlu un lejupielādē PDF vai attēlu failu.",
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/kalendars-ar-vardu/jekabs/",
@@ -1175,8 +1175,8 @@
     "family": "name_calendar",
     "indexable": false,
     "status": "name_source_pending",
-    "description": "Izveido kalendāru ar vārdu «Jēkabs». Izvēlies dizainu, pievieno personīgu virsrakstu vai savu fotoattēlu un lejupielādē PDF vai WebP failu.",
-    "lastmod": "2026-11-09"
+    "description": "Izveido kalendāru ar vārdu «Jēkabs». Izvēlies dizainu, pievieno personīgu virsrakstu vai savu fotoattēlu un lejupielādē PDF vai attēlu failu.",
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/kalendars-ar-vardu/karlis/",
@@ -1184,8 +1184,8 @@
     "family": "name_calendar",
     "indexable": false,
     "status": "name_source_pending",
-    "description": "Izveido kalendāru ar vārdu «Kārlis». Izvēlies dizainu, pievieno personīgu virsrakstu vai savu fotoattēlu un lejupielādē PDF vai WebP failu.",
-    "lastmod": "2026-11-09"
+    "description": "Izveido kalendāru ar vārdu «Kārlis». Izvēlies dizainu, pievieno personīgu virsrakstu vai savu fotoattēlu un lejupielādē PDF vai attēlu failu.",
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/kalendars-ar-vardu/marks/",
@@ -1193,8 +1193,8 @@
     "family": "name_calendar",
     "indexable": false,
     "status": "name_source_pending",
-    "description": "Izveido kalendāru ar vārdu «Marks». Izvēlies dizainu, pievieno personīgu virsrakstu vai savu fotoattēlu un lejupielādē PDF vai WebP failu.",
-    "lastmod": "2026-11-09"
+    "description": "Izveido kalendāru ar vārdu «Marks». Izvēlies dizainu, pievieno personīgu virsrakstu vai savu fotoattēlu un lejupielādē PDF vai attēlu failu.",
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/kalendars-ar-vardu/marta/",
@@ -1202,8 +1202,8 @@
     "family": "name_calendar",
     "indexable": false,
     "status": "name_source_pending",
-    "description": "Izveido kalendāru ar vārdu «Marta». Izvēlies dizainu, pievieno personīgu virsrakstu vai savu fotoattēlu un lejupielādē PDF vai WebP failu.",
-    "lastmod": "2026-11-09"
+    "description": "Izveido kalendāru ar vārdu «Marta». Izvēlies dizainu, pievieno personīgu virsrakstu vai savu fotoattēlu un lejupielādē PDF vai attēlu failu.",
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/kalendars-ar-vardu/nora/",
@@ -1211,8 +1211,8 @@
     "family": "name_calendar",
     "indexable": false,
     "status": "name_source_pending",
-    "description": "Izveido kalendāru ar vārdu «Nora». Izvēlies dizainu, pievieno personīgu virsrakstu vai savu fotoattēlu un lejupielādē PDF vai WebP failu.",
-    "lastmod": "2026-11-09"
+    "description": "Izveido kalendāru ar vārdu «Nora». Izvēlies dizainu, pievieno personīgu virsrakstu vai savu fotoattēlu un lejupielādē PDF vai attēlu failu.",
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/kalendars-ar-vardu/olivers/",
@@ -1220,8 +1220,8 @@
     "family": "name_calendar",
     "indexable": false,
     "status": "name_source_pending",
-    "description": "Izveido kalendāru ar vārdu «Olivers». Izvēlies dizainu, pievieno personīgu virsrakstu vai savu fotoattēlu un lejupielādē PDF vai WebP failu.",
-    "lastmod": "2026-11-09"
+    "description": "Izveido kalendāru ar vārdu «Olivers». Izvēlies dizainu, pievieno personīgu virsrakstu vai savu fotoattēlu un lejupielādē PDF vai attēlu failu.",
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/kalendars-ar-vardu/olivija/",
@@ -1229,8 +1229,8 @@
     "family": "name_calendar",
     "indexable": false,
     "status": "name_source_pending",
-    "description": "Izveido kalendāru ar vārdu «Olīvija». Izvēlies dizainu, pievieno personīgu virsrakstu vai savu fotoattēlu un lejupielādē PDF vai WebP failu.",
-    "lastmod": "2026-11-09"
+    "description": "Izveido kalendāru ar vārdu «Olīvija». Izvēlies dizainu, pievieno personīgu virsrakstu vai savu fotoattēlu un lejupielādē PDF vai attēlu failu.",
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/kalendars-ar-vardu/ricards/",
@@ -1238,8 +1238,8 @@
     "family": "name_calendar",
     "indexable": false,
     "status": "name_source_pending",
-    "description": "Izveido kalendāru ar vārdu «Ričards». Izvēlies dizainu, pievieno personīgu virsrakstu vai savu fotoattēlu un lejupielādē PDF vai WebP failu.",
-    "lastmod": "2026-11-09"
+    "description": "Izveido kalendāru ar vārdu «Ričards». Izvēlies dizainu, pievieno personīgu virsrakstu vai savu fotoattēlu un lejupielādē PDF vai attēlu failu.",
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/kalendars-ar-vardu/roberts/",
@@ -1247,8 +1247,8 @@
     "family": "name_calendar",
     "indexable": false,
     "status": "name_source_pending",
-    "description": "Izveido kalendāru ar vārdu «Roberts». Izvēlies dizainu, pievieno personīgu virsrakstu vai savu fotoattēlu un lejupielādē PDF vai WebP failu.",
-    "lastmod": "2026-11-09"
+    "description": "Izveido kalendāru ar vārdu «Roberts». Izvēlies dizainu, pievieno personīgu virsrakstu vai savu fotoattēlu un lejupielādē PDF vai attēlu failu.",
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/kalendars-ar-vardu/sofija/",
@@ -1256,8 +1256,8 @@
     "family": "name_calendar",
     "indexable": false,
     "status": "name_source_pending",
-    "description": "Izveido kalendāru ar vārdu «Sofija». Izvēlies dizainu, pievieno personīgu virsrakstu vai savu fotoattēlu un lejupielādē PDF vai WebP failu.",
-    "lastmod": "2026-11-09"
+    "description": "Izveido kalendāru ar vārdu «Sofija». Izvēlies dizainu, pievieno personīgu virsrakstu vai savu fotoattēlu un lejupielādē PDF vai attēlu failu.",
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/kalendars-ar-vardu/teodors/",
@@ -1265,8 +1265,8 @@
     "family": "name_calendar",
     "indexable": false,
     "status": "name_source_pending",
-    "description": "Izveido kalendāru ar vārdu «Teodors». Izvēlies dizainu, pievieno personīgu virsrakstu vai savu fotoattēlu un lejupielādē PDF vai WebP failu.",
-    "lastmod": "2026-11-09"
+    "description": "Izveido kalendāru ar vārdu «Teodors». Izvēlies dizainu, pievieno personīgu virsrakstu vai savu fotoattēlu un lejupielādē PDF vai attēlu failu.",
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/kalendars/",
@@ -1279,11 +1279,11 @@
   },
   {
     "url": "/kalendars/2026/",
-    "title": "2026. gada kalendārs",
+    "title": "Kalendārs 2026",
     "family": "year",
     "indexable": true,
     "status": "ready",
-    "description": "2026. gada kalendārs. Pārskatāmi datumi, plānošanas rīki un saites uz avotiem. Kalendārs365 Latvijai.",
+    "description": "Kalendārs 2026. Pārskatāmi datumi, plānošanas rīki un saites uz avotiem. Kalendārs365 Latvijai.",
     "lastmod": "2026-11-10"
   },
   {
@@ -1396,11 +1396,11 @@
   },
   {
     "url": "/kalendars/2027/",
-    "title": "2027. gada kalendārs",
+    "title": "Kalendārs 2027",
     "family": "year",
     "indexable": true,
     "status": "ready",
-    "description": "2027. gada kalendārs ar Latvijas svētku dienām un ISO nedēļu numuriem. Atver mēnešu pārskatus un izvēlies PDF vai WebP kalendāru drukāšanai.",
+    "description": "2027. gada kalendārs ar Latvijas svētku dienām un ISO nedēļu numuriem. Atver mēnešu pārskatus un izvēlies PDF vai attēlu kalendāru drukāšanai.",
     "lastmod": "2026-11-10"
   },
   {
@@ -1410,7 +1410,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2027. gada aprīļa kalendārs: 30 dienas, Latvijas svētku dienas un ISO nedēļu numuri. Atver datumu vai sagatavo mēneša kalendāru drukāšanai.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/kalendars/2027/augusts/",
@@ -1419,7 +1419,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2027. gada augusta kalendārs: 31 diena, Latvijas svētku dienas un ISO nedēļu numuri. Atver datumu vai sagatavo mēneša kalendāru drukāšanai.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/kalendars/2027/decembris/",
@@ -1428,7 +1428,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2027. gada decembra kalendārs: 31 diena, Latvijas svētku dienas un ISO nedēļu numuri. Atver datumu vai sagatavo mēneša kalendāru drukāšanai.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/kalendars/2027/februaris/",
@@ -1437,7 +1437,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2027. gada februāra kalendārs: 28 dienas, Latvijas svētku dienas un ISO nedēļu numuri. Atver datumu vai sagatavo mēneša kalendāru drukāšanai.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/kalendars/2027/janvaris/",
@@ -1446,7 +1446,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2027. gada janvāra kalendārs: 31 diena, Latvijas svētku dienas un ISO nedēļu numuri. Atver datumu vai sagatavo mēneša kalendāru drukāšanai.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/kalendars/2027/julijs/",
@@ -1455,7 +1455,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2027. gada jūlija kalendārs: 31 diena, Latvijas svētku dienas un ISO nedēļu numuri. Atver datumu vai sagatavo mēneša kalendāru drukāšanai.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/kalendars/2027/junijs/",
@@ -1464,7 +1464,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2027. gada jūnija kalendārs: 30 dienas, Latvijas svētku dienas un ISO nedēļu numuri. Atver datumu vai sagatavo mēneša kalendāru drukāšanai.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/kalendars/2027/maijs/",
@@ -1473,7 +1473,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2027. gada maija kalendārs: 31 diena, Latvijas svētku dienas un ISO nedēļu numuri. Atver datumu vai sagatavo mēneša kalendāru drukāšanai.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/kalendars/2027/marts/",
@@ -1482,7 +1482,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2027. gada marta kalendārs: 31 diena, Latvijas svētku dienas un ISO nedēļu numuri. Atver datumu vai sagatavo mēneša kalendāru drukāšanai.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/kalendars/2027/novembris/",
@@ -1491,7 +1491,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2027. gada novembra kalendārs: 30 dienas, Latvijas svētku dienas un ISO nedēļu numuri. Atver datumu vai sagatavo mēneša kalendāru drukāšanai.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/kalendars/2027/oktobris/",
@@ -1500,7 +1500,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2027. gada oktobra kalendārs: 31 diena, Latvijas svētku dienas un ISO nedēļu numuri. Atver datumu vai sagatavo mēneša kalendāru drukāšanai.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/kalendars/2027/septembris/",
@@ -1509,15 +1509,15 @@
     "indexable": true,
     "status": "ready",
     "description": "2027. gada septembra kalendārs: 30 dienas, Latvijas svētku dienas un ISO nedēļu numuri. Atver datumu vai sagatavo mēneša kalendāru drukāšanai.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/kalendars/2028/",
-    "title": "2028. gada kalendārs",
+    "title": "Kalendārs 2028",
     "family": "year",
     "indexable": true,
     "status": "ready",
-    "description": "2028. gada kalendārs ar Latvijas svētku dienām un ISO nedēļu numuriem. Atver mēnešu pārskatus un izvēlies PDF vai WebP kalendāru drukāšanai.",
+    "description": "2028. gada kalendārs ar Latvijas svētku dienām un ISO nedēļu numuriem. Atver mēnešu pārskatus un izvēlies PDF vai attēlu kalendāru drukāšanai.",
     "lastmod": "2026-11-10"
   },
   {
@@ -1527,7 +1527,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2028. gada aprīļa kalendārs: 30 dienas, Latvijas svētku dienas un ISO nedēļu numuri. Atver datumu vai sagatavo mēneša kalendāru drukāšanai.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/kalendars/2028/augusts/",
@@ -1536,7 +1536,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2028. gada augusta kalendārs: 31 diena, Latvijas svētku dienas un ISO nedēļu numuri. Atver datumu vai sagatavo mēneša kalendāru drukāšanai.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/kalendars/2028/decembris/",
@@ -1545,7 +1545,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2028. gada decembra kalendārs: 31 diena, Latvijas svētku dienas un ISO nedēļu numuri. Atver datumu vai sagatavo mēneša kalendāru drukāšanai.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/kalendars/2028/februaris/",
@@ -1554,7 +1554,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2028. gada februāra kalendārs: 29 dienas, Latvijas svētku dienas un ISO nedēļu numuri. Atver datumu vai sagatavo mēneša kalendāru drukāšanai.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/kalendars/2028/janvaris/",
@@ -1563,7 +1563,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2028. gada janvāra kalendārs: 31 diena, Latvijas svētku dienas un ISO nedēļu numuri. Atver datumu vai sagatavo mēneša kalendāru drukāšanai.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/kalendars/2028/julijs/",
@@ -1572,7 +1572,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2028. gada jūlija kalendārs: 31 diena, Latvijas svētku dienas un ISO nedēļu numuri. Atver datumu vai sagatavo mēneša kalendāru drukāšanai.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/kalendars/2028/junijs/",
@@ -1581,7 +1581,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2028. gada jūnija kalendārs: 30 dienas, Latvijas svētku dienas un ISO nedēļu numuri. Atver datumu vai sagatavo mēneša kalendāru drukāšanai.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/kalendars/2028/maijs/",
@@ -1590,7 +1590,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2028. gada maija kalendārs: 31 diena, Latvijas svētku dienas un ISO nedēļu numuri. Atver datumu vai sagatavo mēneša kalendāru drukāšanai.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/kalendars/2028/marts/",
@@ -1599,7 +1599,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2028. gada marta kalendārs: 31 diena, Latvijas svētku dienas un ISO nedēļu numuri. Atver datumu vai sagatavo mēneša kalendāru drukāšanai.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/kalendars/2028/novembris/",
@@ -1608,7 +1608,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2028. gada novembra kalendārs: 30 dienas, Latvijas svētku dienas un ISO nedēļu numuri. Atver datumu vai sagatavo mēneša kalendāru drukāšanai.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/kalendars/2028/oktobris/",
@@ -1617,7 +1617,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2028. gada oktobra kalendārs: 31 diena, Latvijas svētku dienas un ISO nedēļu numuri. Atver datumu vai sagatavo mēneša kalendāru drukāšanai.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/kalendars/2028/septembris/",
@@ -1626,15 +1626,15 @@
     "indexable": true,
     "status": "ready",
     "description": "2028. gada septembra kalendārs: 30 dienas, Latvijas svētku dienas un ISO nedēļu numuri. Atver datumu vai sagatavo mēneša kalendāru drukāšanai.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/kalendars/2029/",
-    "title": "2029. gada kalendārs",
+    "title": "Kalendārs 2029",
     "family": "year",
     "indexable": true,
     "status": "ready",
-    "description": "2029. gada kalendārs ar Latvijas svētku dienām un ISO nedēļu numuriem. Atver mēnešu pārskatus un izvēlies PDF vai WebP kalendāru drukāšanai.",
+    "description": "2029. gada kalendārs ar Latvijas svētku dienām un ISO nedēļu numuriem. Atver mēnešu pārskatus un izvēlies PDF vai attēlu kalendāru drukāšanai.",
     "lastmod": "2026-11-10"
   },
   {
@@ -1644,7 +1644,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2029. gada aprīļa kalendārs: 30 dienas, Latvijas svētku dienas un ISO nedēļu numuri. Atver datumu vai sagatavo mēneša kalendāru drukāšanai.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/kalendars/2029/augusts/",
@@ -1653,7 +1653,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2029. gada augusta kalendārs: 31 diena, Latvijas svētku dienas un ISO nedēļu numuri. Atver datumu vai sagatavo mēneša kalendāru drukāšanai.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/kalendars/2029/decembris/",
@@ -1662,7 +1662,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2029. gada decembra kalendārs: 31 diena, Latvijas svētku dienas un ISO nedēļu numuri. Atver datumu vai sagatavo mēneša kalendāru drukāšanai.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/kalendars/2029/februaris/",
@@ -1671,7 +1671,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2029. gada februāra kalendārs: 28 dienas, Latvijas svētku dienas un ISO nedēļu numuri. Atver datumu vai sagatavo mēneša kalendāru drukāšanai.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/kalendars/2029/janvaris/",
@@ -1680,7 +1680,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2029. gada janvāra kalendārs: 31 diena, Latvijas svētku dienas un ISO nedēļu numuri. Atver datumu vai sagatavo mēneša kalendāru drukāšanai.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/kalendars/2029/julijs/",
@@ -1689,7 +1689,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2029. gada jūlija kalendārs: 31 diena, Latvijas svētku dienas un ISO nedēļu numuri. Atver datumu vai sagatavo mēneša kalendāru drukāšanai.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/kalendars/2029/junijs/",
@@ -1698,7 +1698,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2029. gada jūnija kalendārs: 30 dienas, Latvijas svētku dienas un ISO nedēļu numuri. Atver datumu vai sagatavo mēneša kalendāru drukāšanai.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/kalendars/2029/maijs/",
@@ -1707,7 +1707,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2029. gada maija kalendārs: 31 diena, Latvijas svētku dienas un ISO nedēļu numuri. Atver datumu vai sagatavo mēneša kalendāru drukāšanai.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/kalendars/2029/marts/",
@@ -1716,7 +1716,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2029. gada marta kalendārs: 31 diena, Latvijas svētku dienas un ISO nedēļu numuri. Atver datumu vai sagatavo mēneša kalendāru drukāšanai.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/kalendars/2029/novembris/",
@@ -1725,7 +1725,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2029. gada novembra kalendārs: 30 dienas, Latvijas svētku dienas un ISO nedēļu numuri. Atver datumu vai sagatavo mēneša kalendāru drukāšanai.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/kalendars/2029/oktobris/",
@@ -1734,7 +1734,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2029. gada oktobra kalendārs: 31 diena, Latvijas svētku dienas un ISO nedēļu numuri. Atver datumu vai sagatavo mēneša kalendāru drukāšanai.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/kalendars/2029/septembris/",
@@ -1743,15 +1743,15 @@
     "indexable": true,
     "status": "ready",
     "description": "2029. gada septembra kalendārs: 30 dienas, Latvijas svētku dienas un ISO nedēļu numuri. Atver datumu vai sagatavo mēneša kalendāru drukāšanai.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/kalendars/2030/",
-    "title": "2030. gada kalendārs",
+    "title": "Kalendārs 2030",
     "family": "year",
     "indexable": true,
     "status": "ready",
-    "description": "2030. gada kalendārs ar Latvijas svētku dienām un ISO nedēļu numuriem. Atver mēnešu pārskatus un izvēlies PDF vai WebP kalendāru drukāšanai.",
+    "description": "2030. gada kalendārs ar Latvijas svētku dienām un ISO nedēļu numuriem. Atver mēnešu pārskatus un izvēlies PDF vai attēlu kalendāru drukāšanai.",
     "lastmod": "2026-11-10"
   },
   {
@@ -1761,7 +1761,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2030. gada aprīļa kalendārs: 30 dienas, Latvijas svētku dienas un ISO nedēļu numuri. Atver datumu vai sagatavo mēneša kalendāru drukāšanai.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/kalendars/2030/augusts/",
@@ -1770,7 +1770,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2030. gada augusta kalendārs: 31 diena, Latvijas svētku dienas un ISO nedēļu numuri. Atver datumu vai sagatavo mēneša kalendāru drukāšanai.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/kalendars/2030/decembris/",
@@ -1779,7 +1779,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2030. gada decembra kalendārs: 31 diena, Latvijas svētku dienas un ISO nedēļu numuri. Atver datumu vai sagatavo mēneša kalendāru drukāšanai.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/kalendars/2030/februaris/",
@@ -1788,7 +1788,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2030. gada februāra kalendārs: 28 dienas, Latvijas svētku dienas un ISO nedēļu numuri. Atver datumu vai sagatavo mēneša kalendāru drukāšanai.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/kalendars/2030/janvaris/",
@@ -1797,7 +1797,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2030. gada janvāra kalendārs: 31 diena, Latvijas svētku dienas un ISO nedēļu numuri. Atver datumu vai sagatavo mēneša kalendāru drukāšanai.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/kalendars/2030/julijs/",
@@ -1806,7 +1806,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2030. gada jūlija kalendārs: 31 diena, Latvijas svētku dienas un ISO nedēļu numuri. Atver datumu vai sagatavo mēneša kalendāru drukāšanai.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/kalendars/2030/junijs/",
@@ -1815,7 +1815,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2030. gada jūnija kalendārs: 30 dienas, Latvijas svētku dienas un ISO nedēļu numuri. Atver datumu vai sagatavo mēneša kalendāru drukāšanai.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/kalendars/2030/maijs/",
@@ -1824,7 +1824,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2030. gada maija kalendārs: 31 diena, Latvijas svētku dienas un ISO nedēļu numuri. Atver datumu vai sagatavo mēneša kalendāru drukāšanai.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/kalendars/2030/marts/",
@@ -1833,7 +1833,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2030. gada marta kalendārs: 31 diena, Latvijas svētku dienas un ISO nedēļu numuri. Atver datumu vai sagatavo mēneša kalendāru drukāšanai.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/kalendars/2030/novembris/",
@@ -1842,7 +1842,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2030. gada novembra kalendārs: 30 dienas, Latvijas svētku dienas un ISO nedēļu numuri. Atver datumu vai sagatavo mēneša kalendāru drukāšanai.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/kalendars/2030/oktobris/",
@@ -1851,7 +1851,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2030. gada oktobra kalendārs: 31 diena, Latvijas svētku dienas un ISO nedēļu numuri. Atver datumu vai sagatavo mēneša kalendāru drukāšanai.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/kalendars/2030/septembris/",
@@ -1860,7 +1860,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2030. gada septembra kalendārs: 30 dienas, Latvijas svētku dienas un ISO nedēļu numuri. Atver datumu vai sagatavo mēneša kalendāru drukāšanai.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/kontakti/",
@@ -3831,7 +3831,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2027. gada 1. ISO nedēļa: 04.01.2027.–10.01.2027. Pārskati nedēļas datumus un plāno savus notikumus.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/nedelas-kalendars/2027/02/",
@@ -3840,7 +3840,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2027. gada 2. ISO nedēļa: 11.01.2027.–17.01.2027. Pārskati nedēļas datumus un plāno savus notikumus.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/nedelas-kalendars/2027/03/",
@@ -3849,7 +3849,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2027. gada 3. ISO nedēļa: 18.01.2027.–24.01.2027. Pārskati nedēļas datumus un plāno savus notikumus.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/nedelas-kalendars/2027/04/",
@@ -3858,7 +3858,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2027. gada 4. ISO nedēļa: 25.01.2027.–31.01.2027. Pārskati nedēļas datumus un plāno savus notikumus.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/nedelas-kalendars/2027/05/",
@@ -3867,7 +3867,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2027. gada 5. ISO nedēļa: 01.02.2027.–07.02.2027. Pārskati nedēļas datumus un plāno savus notikumus.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/nedelas-kalendars/2027/06/",
@@ -3876,7 +3876,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2027. gada 6. ISO nedēļa: 08.02.2027.–14.02.2027. Pārskati nedēļas datumus un plāno savus notikumus.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/nedelas-kalendars/2027/07/",
@@ -3885,7 +3885,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2027. gada 7. ISO nedēļa: 15.02.2027.–21.02.2027. Pārskati nedēļas datumus un plāno savus notikumus.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/nedelas-kalendars/2027/08/",
@@ -3894,7 +3894,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2027. gada 8. ISO nedēļa: 22.02.2027.–28.02.2027. Pārskati nedēļas datumus un plāno savus notikumus.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/nedelas-kalendars/2027/09/",
@@ -3903,7 +3903,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2027. gada 9. ISO nedēļa: 01.03.2027.–07.03.2027. Pārskati nedēļas datumus un plāno savus notikumus.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/nedelas-kalendars/2027/10/",
@@ -3912,7 +3912,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2027. gada 10. ISO nedēļa: 08.03.2027.–14.03.2027. Pārskati nedēļas datumus un plāno savus notikumus.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/nedelas-kalendars/2027/11/",
@@ -3921,7 +3921,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2027. gada 11. ISO nedēļa: 15.03.2027.–21.03.2027. Pārskati nedēļas datumus un plāno savus notikumus.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/nedelas-kalendars/2027/12/",
@@ -3930,7 +3930,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2027. gada 12. ISO nedēļa: 22.03.2027.–28.03.2027. Pārskati nedēļas datumus un plāno savus notikumus.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/nedelas-kalendars/2027/13/",
@@ -3939,7 +3939,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2027. gada 13. ISO nedēļa: 29.03.2027.–04.04.2027. Pārskati nedēļas datumus un plāno savus notikumus.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/nedelas-kalendars/2027/14/",
@@ -3948,7 +3948,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2027. gada 14. ISO nedēļa: 05.04.2027.–11.04.2027. Pārskati nedēļas datumus un plāno savus notikumus.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/nedelas-kalendars/2027/15/",
@@ -3957,7 +3957,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2027. gada 15. ISO nedēļa: 12.04.2027.–18.04.2027. Pārskati nedēļas datumus un plāno savus notikumus.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/nedelas-kalendars/2027/16/",
@@ -3966,7 +3966,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2027. gada 16. ISO nedēļa: 19.04.2027.–25.04.2027. Pārskati nedēļas datumus un plāno savus notikumus.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/nedelas-kalendars/2027/17/",
@@ -3975,7 +3975,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2027. gada 17. ISO nedēļa: 26.04.2027.–02.05.2027. Pārskati nedēļas datumus un plāno savus notikumus.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/nedelas-kalendars/2027/18/",
@@ -3984,7 +3984,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2027. gada 18. ISO nedēļa: 03.05.2027.–09.05.2027. Pārskati nedēļas datumus un plāno savus notikumus.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/nedelas-kalendars/2027/19/",
@@ -3993,7 +3993,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2027. gada 19. ISO nedēļa: 10.05.2027.–16.05.2027. Pārskati nedēļas datumus un plāno savus notikumus.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/nedelas-kalendars/2027/20/",
@@ -4002,7 +4002,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2027. gada 20. ISO nedēļa: 17.05.2027.–23.05.2027. Pārskati nedēļas datumus un plāno savus notikumus.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/nedelas-kalendars/2027/21/",
@@ -4011,7 +4011,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2027. gada 21. ISO nedēļa: 24.05.2027.–30.05.2027. Pārskati nedēļas datumus un plāno savus notikumus.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/nedelas-kalendars/2027/22/",
@@ -4020,7 +4020,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2027. gada 22. ISO nedēļa: 31.05.2027.–06.06.2027. Pārskati nedēļas datumus un plāno savus notikumus.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/nedelas-kalendars/2027/23/",
@@ -4029,7 +4029,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2027. gada 23. ISO nedēļa: 07.06.2027.–13.06.2027. Pārskati nedēļas datumus un plāno savus notikumus.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/nedelas-kalendars/2027/24/",
@@ -4038,7 +4038,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2027. gada 24. ISO nedēļa: 14.06.2027.–20.06.2027. Pārskati nedēļas datumus un plāno savus notikumus.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/nedelas-kalendars/2027/25/",
@@ -4047,7 +4047,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2027. gada 25. ISO nedēļa: 21.06.2027.–27.06.2027. Pārskati nedēļas datumus un plāno savus notikumus.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/nedelas-kalendars/2027/26/",
@@ -4056,7 +4056,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2027. gada 26. ISO nedēļa: 28.06.2027.–04.07.2027. Pārskati nedēļas datumus un plāno savus notikumus.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/nedelas-kalendars/2027/27/",
@@ -4065,7 +4065,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2027. gada 27. ISO nedēļa: 05.07.2027.–11.07.2027. Pārskati nedēļas datumus un plāno savus notikumus.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/nedelas-kalendars/2027/28/",
@@ -4074,7 +4074,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2027. gada 28. ISO nedēļa: 12.07.2027.–18.07.2027. Pārskati nedēļas datumus un plāno savus notikumus.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/nedelas-kalendars/2027/29/",
@@ -4083,7 +4083,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2027. gada 29. ISO nedēļa: 19.07.2027.–25.07.2027. Pārskati nedēļas datumus un plāno savus notikumus.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/nedelas-kalendars/2027/30/",
@@ -4092,7 +4092,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2027. gada 30. ISO nedēļa: 26.07.2027.–01.08.2027. Pārskati nedēļas datumus un plāno savus notikumus.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/nedelas-kalendars/2027/31/",
@@ -4101,7 +4101,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2027. gada 31. ISO nedēļa: 02.08.2027.–08.08.2027. Pārskati nedēļas datumus un plāno savus notikumus.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/nedelas-kalendars/2027/32/",
@@ -4110,7 +4110,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2027. gada 32. ISO nedēļa: 09.08.2027.–15.08.2027. Pārskati nedēļas datumus un plāno savus notikumus.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/nedelas-kalendars/2027/33/",
@@ -4119,7 +4119,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2027. gada 33. ISO nedēļa: 16.08.2027.–22.08.2027. Pārskati nedēļas datumus un plāno savus notikumus.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/nedelas-kalendars/2027/34/",
@@ -4128,7 +4128,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2027. gada 34. ISO nedēļa: 23.08.2027.–29.08.2027. Pārskati nedēļas datumus un plāno savus notikumus.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/nedelas-kalendars/2027/35/",
@@ -4137,7 +4137,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2027. gada 35. ISO nedēļa: 30.08.2027.–05.09.2027. Pārskati nedēļas datumus un plāno savus notikumus.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/nedelas-kalendars/2027/36/",
@@ -4146,7 +4146,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2027. gada 36. ISO nedēļa: 06.09.2027.–12.09.2027. Pārskati nedēļas datumus un plāno savus notikumus.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/nedelas-kalendars/2027/37/",
@@ -4155,7 +4155,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2027. gada 37. ISO nedēļa: 13.09.2027.–19.09.2027. Pārskati nedēļas datumus un plāno savus notikumus.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/nedelas-kalendars/2027/38/",
@@ -4164,7 +4164,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2027. gada 38. ISO nedēļa: 20.09.2027.–26.09.2027. Pārskati nedēļas datumus un plāno savus notikumus.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/nedelas-kalendars/2027/39/",
@@ -4173,7 +4173,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2027. gada 39. ISO nedēļa: 27.09.2027.–03.10.2027. Pārskati nedēļas datumus un plāno savus notikumus.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/nedelas-kalendars/2027/40/",
@@ -4182,7 +4182,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2027. gada 40. ISO nedēļa: 04.10.2027.–10.10.2027. Pārskati nedēļas datumus un plāno savus notikumus.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/nedelas-kalendars/2027/41/",
@@ -4191,7 +4191,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2027. gada 41. ISO nedēļa: 11.10.2027.–17.10.2027. Pārskati nedēļas datumus un plāno savus notikumus.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/nedelas-kalendars/2027/42/",
@@ -4200,7 +4200,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2027. gada 42. ISO nedēļa: 18.10.2027.–24.10.2027. Pārskati nedēļas datumus un plāno savus notikumus.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/nedelas-kalendars/2027/43/",
@@ -4209,7 +4209,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2027. gada 43. ISO nedēļa: 25.10.2027.–31.10.2027. Pārskati nedēļas datumus un plāno savus notikumus.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/nedelas-kalendars/2027/44/",
@@ -4218,7 +4218,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2027. gada 44. ISO nedēļa: 01.11.2027.–07.11.2027. Pārskati nedēļas datumus un plāno savus notikumus.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/nedelas-kalendars/2027/45/",
@@ -4227,7 +4227,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2027. gada 45. ISO nedēļa: 08.11.2027.–14.11.2027. Pārskati nedēļas datumus un plāno savus notikumus.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/nedelas-kalendars/2027/46/",
@@ -4236,7 +4236,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2027. gada 46. ISO nedēļa: 15.11.2027.–21.11.2027. Pārskati nedēļas datumus un plāno savus notikumus.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/nedelas-kalendars/2027/47/",
@@ -4245,7 +4245,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2027. gada 47. ISO nedēļa: 22.11.2027.–28.11.2027. Pārskati nedēļas datumus un plāno savus notikumus.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/nedelas-kalendars/2027/48/",
@@ -4254,7 +4254,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2027. gada 48. ISO nedēļa: 29.11.2027.–05.12.2027. Pārskati nedēļas datumus un plāno savus notikumus.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/nedelas-kalendars/2027/49/",
@@ -4263,7 +4263,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2027. gada 49. ISO nedēļa: 06.12.2027.–12.12.2027. Pārskati nedēļas datumus un plāno savus notikumus.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/nedelas-kalendars/2027/50/",
@@ -4272,7 +4272,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2027. gada 50. ISO nedēļa: 13.12.2027.–19.12.2027. Pārskati nedēļas datumus un plāno savus notikumus.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/nedelas-kalendars/2027/51/",
@@ -4281,7 +4281,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2027. gada 51. ISO nedēļa: 20.12.2027.–26.12.2027. Pārskati nedēļas datumus un plāno savus notikumus.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/nedelas-kalendars/2027/52/",
@@ -4290,7 +4290,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2027. gada 52. ISO nedēļa: 27.12.2027.–02.01.2028. Pārskati nedēļas datumus un plāno savus notikumus.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/nedelas-kalendars/2028/",
@@ -4308,7 +4308,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2028. gada 1. ISO nedēļa: 03.01.2028.–09.01.2028. Pārskati nedēļas datumus un plāno savus notikumus.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/nedelas-kalendars/2028/02/",
@@ -4317,7 +4317,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2028. gada 2. ISO nedēļa: 10.01.2028.–16.01.2028. Pārskati nedēļas datumus un plāno savus notikumus.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/nedelas-kalendars/2028/03/",
@@ -4326,7 +4326,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2028. gada 3. ISO nedēļa: 17.01.2028.–23.01.2028. Pārskati nedēļas datumus un plāno savus notikumus.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/nedelas-kalendars/2028/04/",
@@ -4335,7 +4335,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2028. gada 4. ISO nedēļa: 24.01.2028.–30.01.2028. Pārskati nedēļas datumus un plāno savus notikumus.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/nedelas-kalendars/2028/05/",
@@ -4344,7 +4344,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2028. gada 5. ISO nedēļa: 31.01.2028.–06.02.2028. Pārskati nedēļas datumus un plāno savus notikumus.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/nedelas-kalendars/2028/06/",
@@ -4353,7 +4353,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2028. gada 6. ISO nedēļa: 07.02.2028.–13.02.2028. Pārskati nedēļas datumus un plāno savus notikumus.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/nedelas-kalendars/2028/07/",
@@ -4362,7 +4362,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2028. gada 7. ISO nedēļa: 14.02.2028.–20.02.2028. Pārskati nedēļas datumus un plāno savus notikumus.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/nedelas-kalendars/2028/08/",
@@ -4371,7 +4371,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2028. gada 8. ISO nedēļa: 21.02.2028.–27.02.2028. Pārskati nedēļas datumus un plāno savus notikumus.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/nedelas-kalendars/2028/09/",
@@ -4380,7 +4380,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2028. gada 9. ISO nedēļa: 28.02.2028.–05.03.2028. Pārskati nedēļas datumus un plāno savus notikumus.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/nedelas-kalendars/2028/10/",
@@ -4389,7 +4389,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2028. gada 10. ISO nedēļa: 06.03.2028.–12.03.2028. Pārskati nedēļas datumus un plāno savus notikumus.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/nedelas-kalendars/2028/11/",
@@ -4398,7 +4398,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2028. gada 11. ISO nedēļa: 13.03.2028.–19.03.2028. Pārskati nedēļas datumus un plāno savus notikumus.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/nedelas-kalendars/2028/12/",
@@ -4407,7 +4407,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2028. gada 12. ISO nedēļa: 20.03.2028.–26.03.2028. Pārskati nedēļas datumus un plāno savus notikumus.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/nedelas-kalendars/2028/13/",
@@ -4416,7 +4416,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2028. gada 13. ISO nedēļa: 27.03.2028.–02.04.2028. Pārskati nedēļas datumus un plāno savus notikumus.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/nedelas-kalendars/2028/14/",
@@ -4425,7 +4425,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2028. gada 14. ISO nedēļa: 03.04.2028.–09.04.2028. Pārskati nedēļas datumus un plāno savus notikumus.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/nedelas-kalendars/2028/15/",
@@ -4434,7 +4434,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2028. gada 15. ISO nedēļa: 10.04.2028.–16.04.2028. Pārskati nedēļas datumus un plāno savus notikumus.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/nedelas-kalendars/2028/16/",
@@ -4443,7 +4443,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2028. gada 16. ISO nedēļa: 17.04.2028.–23.04.2028. Pārskati nedēļas datumus un plāno savus notikumus.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/nedelas-kalendars/2028/17/",
@@ -4452,7 +4452,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2028. gada 17. ISO nedēļa: 24.04.2028.–30.04.2028. Pārskati nedēļas datumus un plāno savus notikumus.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/nedelas-kalendars/2028/18/",
@@ -4461,7 +4461,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2028. gada 18. ISO nedēļa: 01.05.2028.–07.05.2028. Pārskati nedēļas datumus un plāno savus notikumus.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/nedelas-kalendars/2028/19/",
@@ -4470,7 +4470,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2028. gada 19. ISO nedēļa: 08.05.2028.–14.05.2028. Pārskati nedēļas datumus un plāno savus notikumus.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/nedelas-kalendars/2028/20/",
@@ -4479,7 +4479,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2028. gada 20. ISO nedēļa: 15.05.2028.–21.05.2028. Pārskati nedēļas datumus un plāno savus notikumus.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/nedelas-kalendars/2028/21/",
@@ -4488,7 +4488,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2028. gada 21. ISO nedēļa: 22.05.2028.–28.05.2028. Pārskati nedēļas datumus un plāno savus notikumus.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/nedelas-kalendars/2028/22/",
@@ -4497,7 +4497,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2028. gada 22. ISO nedēļa: 29.05.2028.–04.06.2028. Pārskati nedēļas datumus un plāno savus notikumus.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/nedelas-kalendars/2028/23/",
@@ -4506,7 +4506,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2028. gada 23. ISO nedēļa: 05.06.2028.–11.06.2028. Pārskati nedēļas datumus un plāno savus notikumus.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/nedelas-kalendars/2028/24/",
@@ -4515,7 +4515,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2028. gada 24. ISO nedēļa: 12.06.2028.–18.06.2028. Pārskati nedēļas datumus un plāno savus notikumus.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/nedelas-kalendars/2028/25/",
@@ -4524,7 +4524,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2028. gada 25. ISO nedēļa: 19.06.2028.–25.06.2028. Pārskati nedēļas datumus un plāno savus notikumus.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/nedelas-kalendars/2028/26/",
@@ -4533,7 +4533,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2028. gada 26. ISO nedēļa: 26.06.2028.–02.07.2028. Pārskati nedēļas datumus un plāno savus notikumus.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/nedelas-kalendars/2028/27/",
@@ -4542,7 +4542,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2028. gada 27. ISO nedēļa: 03.07.2028.–09.07.2028. Pārskati nedēļas datumus un plāno savus notikumus.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/nedelas-kalendars/2028/28/",
@@ -4551,7 +4551,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2028. gada 28. ISO nedēļa: 10.07.2028.–16.07.2028. Pārskati nedēļas datumus un plāno savus notikumus.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/nedelas-kalendars/2028/29/",
@@ -4560,7 +4560,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2028. gada 29. ISO nedēļa: 17.07.2028.–23.07.2028. Pārskati nedēļas datumus un plāno savus notikumus.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/nedelas-kalendars/2028/30/",
@@ -4569,7 +4569,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2028. gada 30. ISO nedēļa: 24.07.2028.–30.07.2028. Pārskati nedēļas datumus un plāno savus notikumus.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/nedelas-kalendars/2028/31/",
@@ -4578,7 +4578,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2028. gada 31. ISO nedēļa: 31.07.2028.–06.08.2028. Pārskati nedēļas datumus un plāno savus notikumus.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/nedelas-kalendars/2028/32/",
@@ -4587,7 +4587,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2028. gada 32. ISO nedēļa: 07.08.2028.–13.08.2028. Pārskati nedēļas datumus un plāno savus notikumus.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/nedelas-kalendars/2028/33/",
@@ -4596,7 +4596,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2028. gada 33. ISO nedēļa: 14.08.2028.–20.08.2028. Pārskati nedēļas datumus un plāno savus notikumus.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/nedelas-kalendars/2028/34/",
@@ -4605,7 +4605,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2028. gada 34. ISO nedēļa: 21.08.2028.–27.08.2028. Pārskati nedēļas datumus un plāno savus notikumus.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/nedelas-kalendars/2028/35/",
@@ -4614,7 +4614,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2028. gada 35. ISO nedēļa: 28.08.2028.–03.09.2028. Pārskati nedēļas datumus un plāno savus notikumus.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/nedelas-kalendars/2028/36/",
@@ -4623,7 +4623,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2028. gada 36. ISO nedēļa: 04.09.2028.–10.09.2028. Pārskati nedēļas datumus un plāno savus notikumus.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/nedelas-kalendars/2028/37/",
@@ -4632,7 +4632,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2028. gada 37. ISO nedēļa: 11.09.2028.–17.09.2028. Pārskati nedēļas datumus un plāno savus notikumus.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/nedelas-kalendars/2028/38/",
@@ -4641,7 +4641,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2028. gada 38. ISO nedēļa: 18.09.2028.–24.09.2028. Pārskati nedēļas datumus un plāno savus notikumus.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/nedelas-kalendars/2028/39/",
@@ -4650,7 +4650,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2028. gada 39. ISO nedēļa: 25.09.2028.–01.10.2028. Pārskati nedēļas datumus un plāno savus notikumus.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/nedelas-kalendars/2028/40/",
@@ -4659,7 +4659,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2028. gada 40. ISO nedēļa: 02.10.2028.–08.10.2028. Pārskati nedēļas datumus un plāno savus notikumus.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/nedelas-kalendars/2028/41/",
@@ -4668,7 +4668,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2028. gada 41. ISO nedēļa: 09.10.2028.–15.10.2028. Pārskati nedēļas datumus un plāno savus notikumus.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/nedelas-kalendars/2028/42/",
@@ -4677,7 +4677,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2028. gada 42. ISO nedēļa: 16.10.2028.–22.10.2028. Pārskati nedēļas datumus un plāno savus notikumus.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/nedelas-kalendars/2028/43/",
@@ -4686,7 +4686,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2028. gada 43. ISO nedēļa: 23.10.2028.–29.10.2028. Pārskati nedēļas datumus un plāno savus notikumus.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/nedelas-kalendars/2028/44/",
@@ -4695,7 +4695,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2028. gada 44. ISO nedēļa: 30.10.2028.–05.11.2028. Pārskati nedēļas datumus un plāno savus notikumus.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/nedelas-kalendars/2028/45/",
@@ -4704,7 +4704,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2028. gada 45. ISO nedēļa: 06.11.2028.–12.11.2028. Pārskati nedēļas datumus un plāno savus notikumus.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/nedelas-kalendars/2028/46/",
@@ -4713,7 +4713,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2028. gada 46. ISO nedēļa: 13.11.2028.–19.11.2028. Pārskati nedēļas datumus un plāno savus notikumus.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/nedelas-kalendars/2028/47/",
@@ -4722,7 +4722,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2028. gada 47. ISO nedēļa: 20.11.2028.–26.11.2028. Pārskati nedēļas datumus un plāno savus notikumus.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/nedelas-kalendars/2028/48/",
@@ -4731,7 +4731,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2028. gada 48. ISO nedēļa: 27.11.2028.–03.12.2028. Pārskati nedēļas datumus un plāno savus notikumus.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/nedelas-kalendars/2028/49/",
@@ -4740,7 +4740,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2028. gada 49. ISO nedēļa: 04.12.2028.–10.12.2028. Pārskati nedēļas datumus un plāno savus notikumus.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/nedelas-kalendars/2028/50/",
@@ -4749,7 +4749,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2028. gada 50. ISO nedēļa: 11.12.2028.–17.12.2028. Pārskati nedēļas datumus un plāno savus notikumus.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/nedelas-kalendars/2028/51/",
@@ -4758,7 +4758,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2028. gada 51. ISO nedēļa: 18.12.2028.–24.12.2028. Pārskati nedēļas datumus un plāno savus notikumus.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/nedelas-kalendars/2028/52/",
@@ -4767,7 +4767,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2028. gada 52. ISO nedēļa: 25.12.2028.–31.12.2028. Pārskati nedēļas datumus un plāno savus notikumus.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/nedelas-kalendars/2029/",
@@ -4785,7 +4785,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2029. gada 1. ISO nedēļa: 01.01.2029.–07.01.2029. Pārskati nedēļas datumus un plāno savus notikumus.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/nedelas-kalendars/2029/02/",
@@ -4794,7 +4794,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2029. gada 2. ISO nedēļa: 08.01.2029.–14.01.2029. Pārskati nedēļas datumus un plāno savus notikumus.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/nedelas-kalendars/2029/03/",
@@ -4803,7 +4803,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2029. gada 3. ISO nedēļa: 15.01.2029.–21.01.2029. Pārskati nedēļas datumus un plāno savus notikumus.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/nedelas-kalendars/2029/04/",
@@ -4812,7 +4812,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2029. gada 4. ISO nedēļa: 22.01.2029.–28.01.2029. Pārskati nedēļas datumus un plāno savus notikumus.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/nedelas-kalendars/2029/05/",
@@ -4821,7 +4821,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2029. gada 5. ISO nedēļa: 29.01.2029.–04.02.2029. Pārskati nedēļas datumus un plāno savus notikumus.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/nedelas-kalendars/2029/06/",
@@ -4830,7 +4830,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2029. gada 6. ISO nedēļa: 05.02.2029.–11.02.2029. Pārskati nedēļas datumus un plāno savus notikumus.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/nedelas-kalendars/2029/07/",
@@ -4839,7 +4839,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2029. gada 7. ISO nedēļa: 12.02.2029.–18.02.2029. Pārskati nedēļas datumus un plāno savus notikumus.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/nedelas-kalendars/2029/08/",
@@ -4848,7 +4848,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2029. gada 8. ISO nedēļa: 19.02.2029.–25.02.2029. Pārskati nedēļas datumus un plāno savus notikumus.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/nedelas-kalendars/2029/09/",
@@ -4857,7 +4857,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2029. gada 9. ISO nedēļa: 26.02.2029.–04.03.2029. Pārskati nedēļas datumus un plāno savus notikumus.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/nedelas-kalendars/2029/10/",
@@ -4866,7 +4866,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2029. gada 10. ISO nedēļa: 05.03.2029.–11.03.2029. Pārskati nedēļas datumus un plāno savus notikumus.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/nedelas-kalendars/2029/11/",
@@ -4875,7 +4875,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2029. gada 11. ISO nedēļa: 12.03.2029.–18.03.2029. Pārskati nedēļas datumus un plāno savus notikumus.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/nedelas-kalendars/2029/12/",
@@ -4884,7 +4884,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2029. gada 12. ISO nedēļa: 19.03.2029.–25.03.2029. Pārskati nedēļas datumus un plāno savus notikumus.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/nedelas-kalendars/2029/13/",
@@ -4893,7 +4893,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2029. gada 13. ISO nedēļa: 26.03.2029.–01.04.2029. Pārskati nedēļas datumus un plāno savus notikumus.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/nedelas-kalendars/2029/14/",
@@ -4902,7 +4902,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2029. gada 14. ISO nedēļa: 02.04.2029.–08.04.2029. Pārskati nedēļas datumus un plāno savus notikumus.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/nedelas-kalendars/2029/15/",
@@ -4911,7 +4911,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2029. gada 15. ISO nedēļa: 09.04.2029.–15.04.2029. Pārskati nedēļas datumus un plāno savus notikumus.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/nedelas-kalendars/2029/16/",
@@ -4920,7 +4920,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2029. gada 16. ISO nedēļa: 16.04.2029.–22.04.2029. Pārskati nedēļas datumus un plāno savus notikumus.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/nedelas-kalendars/2029/17/",
@@ -4929,7 +4929,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2029. gada 17. ISO nedēļa: 23.04.2029.–29.04.2029. Pārskati nedēļas datumus un plāno savus notikumus.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/nedelas-kalendars/2029/18/",
@@ -4938,7 +4938,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2029. gada 18. ISO nedēļa: 30.04.2029.–06.05.2029. Pārskati nedēļas datumus un plāno savus notikumus.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/nedelas-kalendars/2029/19/",
@@ -4947,7 +4947,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2029. gada 19. ISO nedēļa: 07.05.2029.–13.05.2029. Pārskati nedēļas datumus un plāno savus notikumus.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/nedelas-kalendars/2029/20/",
@@ -4956,7 +4956,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2029. gada 20. ISO nedēļa: 14.05.2029.–20.05.2029. Pārskati nedēļas datumus un plāno savus notikumus.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/nedelas-kalendars/2029/21/",
@@ -4965,7 +4965,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2029. gada 21. ISO nedēļa: 21.05.2029.–27.05.2029. Pārskati nedēļas datumus un plāno savus notikumus.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/nedelas-kalendars/2029/22/",
@@ -4974,7 +4974,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2029. gada 22. ISO nedēļa: 28.05.2029.–03.06.2029. Pārskati nedēļas datumus un plāno savus notikumus.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/nedelas-kalendars/2029/23/",
@@ -4983,7 +4983,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2029. gada 23. ISO nedēļa: 04.06.2029.–10.06.2029. Pārskati nedēļas datumus un plāno savus notikumus.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/nedelas-kalendars/2029/24/",
@@ -4992,7 +4992,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2029. gada 24. ISO nedēļa: 11.06.2029.–17.06.2029. Pārskati nedēļas datumus un plāno savus notikumus.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/nedelas-kalendars/2029/25/",
@@ -5001,7 +5001,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2029. gada 25. ISO nedēļa: 18.06.2029.–24.06.2029. Pārskati nedēļas datumus un plāno savus notikumus.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/nedelas-kalendars/2029/26/",
@@ -5010,7 +5010,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2029. gada 26. ISO nedēļa: 25.06.2029.–01.07.2029. Pārskati nedēļas datumus un plāno savus notikumus.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/nedelas-kalendars/2029/27/",
@@ -5019,7 +5019,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2029. gada 27. ISO nedēļa: 02.07.2029.–08.07.2029. Pārskati nedēļas datumus un plāno savus notikumus.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/nedelas-kalendars/2029/28/",
@@ -5028,7 +5028,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2029. gada 28. ISO nedēļa: 09.07.2029.–15.07.2029. Pārskati nedēļas datumus un plāno savus notikumus.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/nedelas-kalendars/2029/29/",
@@ -5037,7 +5037,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2029. gada 29. ISO nedēļa: 16.07.2029.–22.07.2029. Pārskati nedēļas datumus un plāno savus notikumus.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/nedelas-kalendars/2029/30/",
@@ -5046,7 +5046,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2029. gada 30. ISO nedēļa: 23.07.2029.–29.07.2029. Pārskati nedēļas datumus un plāno savus notikumus.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/nedelas-kalendars/2029/31/",
@@ -5055,7 +5055,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2029. gada 31. ISO nedēļa: 30.07.2029.–05.08.2029. Pārskati nedēļas datumus un plāno savus notikumus.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/nedelas-kalendars/2029/32/",
@@ -5064,7 +5064,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2029. gada 32. ISO nedēļa: 06.08.2029.–12.08.2029. Pārskati nedēļas datumus un plāno savus notikumus.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/nedelas-kalendars/2029/33/",
@@ -5073,7 +5073,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2029. gada 33. ISO nedēļa: 13.08.2029.–19.08.2029. Pārskati nedēļas datumus un plāno savus notikumus.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/nedelas-kalendars/2029/34/",
@@ -5082,7 +5082,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2029. gada 34. ISO nedēļa: 20.08.2029.–26.08.2029. Pārskati nedēļas datumus un plāno savus notikumus.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/nedelas-kalendars/2029/35/",
@@ -5091,7 +5091,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2029. gada 35. ISO nedēļa: 27.08.2029.–02.09.2029. Pārskati nedēļas datumus un plāno savus notikumus.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/nedelas-kalendars/2029/36/",
@@ -5100,7 +5100,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2029. gada 36. ISO nedēļa: 03.09.2029.–09.09.2029. Pārskati nedēļas datumus un plāno savus notikumus.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/nedelas-kalendars/2029/37/",
@@ -5109,7 +5109,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2029. gada 37. ISO nedēļa: 10.09.2029.–16.09.2029. Pārskati nedēļas datumus un plāno savus notikumus.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/nedelas-kalendars/2029/38/",
@@ -5118,7 +5118,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2029. gada 38. ISO nedēļa: 17.09.2029.–23.09.2029. Pārskati nedēļas datumus un plāno savus notikumus.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/nedelas-kalendars/2029/39/",
@@ -5127,7 +5127,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2029. gada 39. ISO nedēļa: 24.09.2029.–30.09.2029. Pārskati nedēļas datumus un plāno savus notikumus.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/nedelas-kalendars/2029/40/",
@@ -5136,7 +5136,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2029. gada 40. ISO nedēļa: 01.10.2029.–07.10.2029. Pārskati nedēļas datumus un plāno savus notikumus.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/nedelas-kalendars/2029/41/",
@@ -5145,7 +5145,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2029. gada 41. ISO nedēļa: 08.10.2029.–14.10.2029. Pārskati nedēļas datumus un plāno savus notikumus.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/nedelas-kalendars/2029/42/",
@@ -5154,7 +5154,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2029. gada 42. ISO nedēļa: 15.10.2029.–21.10.2029. Pārskati nedēļas datumus un plāno savus notikumus.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/nedelas-kalendars/2029/43/",
@@ -5163,7 +5163,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2029. gada 43. ISO nedēļa: 22.10.2029.–28.10.2029. Pārskati nedēļas datumus un plāno savus notikumus.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/nedelas-kalendars/2029/44/",
@@ -5172,7 +5172,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2029. gada 44. ISO nedēļa: 29.10.2029.–04.11.2029. Pārskati nedēļas datumus un plāno savus notikumus.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/nedelas-kalendars/2029/45/",
@@ -5181,7 +5181,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2029. gada 45. ISO nedēļa: 05.11.2029.–11.11.2029. Pārskati nedēļas datumus un plāno savus notikumus.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/nedelas-kalendars/2029/46/",
@@ -5190,7 +5190,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2029. gada 46. ISO nedēļa: 12.11.2029.–18.11.2029. Pārskati nedēļas datumus un plāno savus notikumus.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/nedelas-kalendars/2029/47/",
@@ -5199,7 +5199,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2029. gada 47. ISO nedēļa: 19.11.2029.–25.11.2029. Pārskati nedēļas datumus un plāno savus notikumus.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/nedelas-kalendars/2029/48/",
@@ -5208,7 +5208,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2029. gada 48. ISO nedēļa: 26.11.2029.–02.12.2029. Pārskati nedēļas datumus un plāno savus notikumus.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/nedelas-kalendars/2029/49/",
@@ -5217,7 +5217,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2029. gada 49. ISO nedēļa: 03.12.2029.–09.12.2029. Pārskati nedēļas datumus un plāno savus notikumus.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/nedelas-kalendars/2029/50/",
@@ -5226,7 +5226,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2029. gada 50. ISO nedēļa: 10.12.2029.–16.12.2029. Pārskati nedēļas datumus un plāno savus notikumus.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/nedelas-kalendars/2029/51/",
@@ -5235,7 +5235,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2029. gada 51. ISO nedēļa: 17.12.2029.–23.12.2029. Pārskati nedēļas datumus un plāno savus notikumus.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/nedelas-kalendars/2029/52/",
@@ -5244,7 +5244,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2029. gada 52. ISO nedēļa: 24.12.2029.–30.12.2029. Pārskati nedēļas datumus un plāno savus notikumus.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/nedelas-kalendars/2030/",
@@ -5262,7 +5262,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2030. gada 1. ISO nedēļa: 31.12.2029.–06.01.2030. Pārskati nedēļas datumus un plāno savus notikumus.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/nedelas-kalendars/2030/02/",
@@ -5271,7 +5271,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2030. gada 2. ISO nedēļa: 07.01.2030.–13.01.2030. Pārskati nedēļas datumus un plāno savus notikumus.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/nedelas-kalendars/2030/03/",
@@ -5280,7 +5280,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2030. gada 3. ISO nedēļa: 14.01.2030.–20.01.2030. Pārskati nedēļas datumus un plāno savus notikumus.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/nedelas-kalendars/2030/04/",
@@ -5289,7 +5289,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2030. gada 4. ISO nedēļa: 21.01.2030.–27.01.2030. Pārskati nedēļas datumus un plāno savus notikumus.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/nedelas-kalendars/2030/05/",
@@ -5298,7 +5298,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2030. gada 5. ISO nedēļa: 28.01.2030.–03.02.2030. Pārskati nedēļas datumus un plāno savus notikumus.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/nedelas-kalendars/2030/06/",
@@ -5307,7 +5307,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2030. gada 6. ISO nedēļa: 04.02.2030.–10.02.2030. Pārskati nedēļas datumus un plāno savus notikumus.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/nedelas-kalendars/2030/07/",
@@ -5316,7 +5316,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2030. gada 7. ISO nedēļa: 11.02.2030.–17.02.2030. Pārskati nedēļas datumus un plāno savus notikumus.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/nedelas-kalendars/2030/08/",
@@ -5325,7 +5325,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2030. gada 8. ISO nedēļa: 18.02.2030.–24.02.2030. Pārskati nedēļas datumus un plāno savus notikumus.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/nedelas-kalendars/2030/09/",
@@ -5334,7 +5334,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2030. gada 9. ISO nedēļa: 25.02.2030.–03.03.2030. Pārskati nedēļas datumus un plāno savus notikumus.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/nedelas-kalendars/2030/10/",
@@ -5343,7 +5343,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2030. gada 10. ISO nedēļa: 04.03.2030.–10.03.2030. Pārskati nedēļas datumus un plāno savus notikumus.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/nedelas-kalendars/2030/11/",
@@ -5352,7 +5352,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2030. gada 11. ISO nedēļa: 11.03.2030.–17.03.2030. Pārskati nedēļas datumus un plāno savus notikumus.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/nedelas-kalendars/2030/12/",
@@ -5361,7 +5361,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2030. gada 12. ISO nedēļa: 18.03.2030.–24.03.2030. Pārskati nedēļas datumus un plāno savus notikumus.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/nedelas-kalendars/2030/13/",
@@ -5370,7 +5370,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2030. gada 13. ISO nedēļa: 25.03.2030.–31.03.2030. Pārskati nedēļas datumus un plāno savus notikumus.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/nedelas-kalendars/2030/14/",
@@ -5379,7 +5379,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2030. gada 14. ISO nedēļa: 01.04.2030.–07.04.2030. Pārskati nedēļas datumus un plāno savus notikumus.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/nedelas-kalendars/2030/15/",
@@ -5388,7 +5388,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2030. gada 15. ISO nedēļa: 08.04.2030.–14.04.2030. Pārskati nedēļas datumus un plāno savus notikumus.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/nedelas-kalendars/2030/16/",
@@ -5397,7 +5397,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2030. gada 16. ISO nedēļa: 15.04.2030.–21.04.2030. Pārskati nedēļas datumus un plāno savus notikumus.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/nedelas-kalendars/2030/17/",
@@ -5406,7 +5406,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2030. gada 17. ISO nedēļa: 22.04.2030.–28.04.2030. Pārskati nedēļas datumus un plāno savus notikumus.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/nedelas-kalendars/2030/18/",
@@ -5415,7 +5415,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2030. gada 18. ISO nedēļa: 29.04.2030.–05.05.2030. Pārskati nedēļas datumus un plāno savus notikumus.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/nedelas-kalendars/2030/19/",
@@ -5424,7 +5424,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2030. gada 19. ISO nedēļa: 06.05.2030.–12.05.2030. Pārskati nedēļas datumus un plāno savus notikumus.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/nedelas-kalendars/2030/20/",
@@ -5433,7 +5433,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2030. gada 20. ISO nedēļa: 13.05.2030.–19.05.2030. Pārskati nedēļas datumus un plāno savus notikumus.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/nedelas-kalendars/2030/21/",
@@ -5442,7 +5442,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2030. gada 21. ISO nedēļa: 20.05.2030.–26.05.2030. Pārskati nedēļas datumus un plāno savus notikumus.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/nedelas-kalendars/2030/22/",
@@ -5451,7 +5451,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2030. gada 22. ISO nedēļa: 27.05.2030.–02.06.2030. Pārskati nedēļas datumus un plāno savus notikumus.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/nedelas-kalendars/2030/23/",
@@ -5460,7 +5460,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2030. gada 23. ISO nedēļa: 03.06.2030.–09.06.2030. Pārskati nedēļas datumus un plāno savus notikumus.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/nedelas-kalendars/2030/24/",
@@ -5469,7 +5469,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2030. gada 24. ISO nedēļa: 10.06.2030.–16.06.2030. Pārskati nedēļas datumus un plāno savus notikumus.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/nedelas-kalendars/2030/25/",
@@ -5478,7 +5478,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2030. gada 25. ISO nedēļa: 17.06.2030.–23.06.2030. Pārskati nedēļas datumus un plāno savus notikumus.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/nedelas-kalendars/2030/26/",
@@ -5487,7 +5487,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2030. gada 26. ISO nedēļa: 24.06.2030.–30.06.2030. Pārskati nedēļas datumus un plāno savus notikumus.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/nedelas-kalendars/2030/27/",
@@ -5496,7 +5496,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2030. gada 27. ISO nedēļa: 01.07.2030.–07.07.2030. Pārskati nedēļas datumus un plāno savus notikumus.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/nedelas-kalendars/2030/28/",
@@ -5505,7 +5505,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2030. gada 28. ISO nedēļa: 08.07.2030.–14.07.2030. Pārskati nedēļas datumus un plāno savus notikumus.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/nedelas-kalendars/2030/29/",
@@ -5514,7 +5514,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2030. gada 29. ISO nedēļa: 15.07.2030.–21.07.2030. Pārskati nedēļas datumus un plāno savus notikumus.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/nedelas-kalendars/2030/30/",
@@ -5523,7 +5523,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2030. gada 30. ISO nedēļa: 22.07.2030.–28.07.2030. Pārskati nedēļas datumus un plāno savus notikumus.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/nedelas-kalendars/2030/31/",
@@ -5532,7 +5532,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2030. gada 31. ISO nedēļa: 29.07.2030.–04.08.2030. Pārskati nedēļas datumus un plāno savus notikumus.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/nedelas-kalendars/2030/32/",
@@ -5541,7 +5541,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2030. gada 32. ISO nedēļa: 05.08.2030.–11.08.2030. Pārskati nedēļas datumus un plāno savus notikumus.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/nedelas-kalendars/2030/33/",
@@ -5550,7 +5550,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2030. gada 33. ISO nedēļa: 12.08.2030.–18.08.2030. Pārskati nedēļas datumus un plāno savus notikumus.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/nedelas-kalendars/2030/34/",
@@ -5559,7 +5559,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2030. gada 34. ISO nedēļa: 19.08.2030.–25.08.2030. Pārskati nedēļas datumus un plāno savus notikumus.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/nedelas-kalendars/2030/35/",
@@ -5568,7 +5568,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2030. gada 35. ISO nedēļa: 26.08.2030.–01.09.2030. Pārskati nedēļas datumus un plāno savus notikumus.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/nedelas-kalendars/2030/36/",
@@ -5577,7 +5577,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2030. gada 36. ISO nedēļa: 02.09.2030.–08.09.2030. Pārskati nedēļas datumus un plāno savus notikumus.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/nedelas-kalendars/2030/37/",
@@ -5586,7 +5586,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2030. gada 37. ISO nedēļa: 09.09.2030.–15.09.2030. Pārskati nedēļas datumus un plāno savus notikumus.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/nedelas-kalendars/2030/38/",
@@ -5595,7 +5595,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2030. gada 38. ISO nedēļa: 16.09.2030.–22.09.2030. Pārskati nedēļas datumus un plāno savus notikumus.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/nedelas-kalendars/2030/39/",
@@ -5604,7 +5604,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2030. gada 39. ISO nedēļa: 23.09.2030.–29.09.2030. Pārskati nedēļas datumus un plāno savus notikumus.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/nedelas-kalendars/2030/40/",
@@ -5613,7 +5613,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2030. gada 40. ISO nedēļa: 30.09.2030.–06.10.2030. Pārskati nedēļas datumus un plāno savus notikumus.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/nedelas-kalendars/2030/41/",
@@ -5622,7 +5622,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2030. gada 41. ISO nedēļa: 07.10.2030.–13.10.2030. Pārskati nedēļas datumus un plāno savus notikumus.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/nedelas-kalendars/2030/42/",
@@ -5631,7 +5631,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2030. gada 42. ISO nedēļa: 14.10.2030.–20.10.2030. Pārskati nedēļas datumus un plāno savus notikumus.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/nedelas-kalendars/2030/43/",
@@ -5640,7 +5640,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2030. gada 43. ISO nedēļa: 21.10.2030.–27.10.2030. Pārskati nedēļas datumus un plāno savus notikumus.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/nedelas-kalendars/2030/44/",
@@ -5649,7 +5649,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2030. gada 44. ISO nedēļa: 28.10.2030.–03.11.2030. Pārskati nedēļas datumus un plāno savus notikumus.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/nedelas-kalendars/2030/45/",
@@ -5658,7 +5658,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2030. gada 45. ISO nedēļa: 04.11.2030.–10.11.2030. Pārskati nedēļas datumus un plāno savus notikumus.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/nedelas-kalendars/2030/46/",
@@ -5667,7 +5667,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2030. gada 46. ISO nedēļa: 11.11.2030.–17.11.2030. Pārskati nedēļas datumus un plāno savus notikumus.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/nedelas-kalendars/2030/47/",
@@ -5676,7 +5676,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2030. gada 47. ISO nedēļa: 18.11.2030.–24.11.2030. Pārskati nedēļas datumus un plāno savus notikumus.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/nedelas-kalendars/2030/48/",
@@ -5685,7 +5685,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2030. gada 48. ISO nedēļa: 25.11.2030.–01.12.2030. Pārskati nedēļas datumus un plāno savus notikumus.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/nedelas-kalendars/2030/49/",
@@ -5694,7 +5694,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2030. gada 49. ISO nedēļa: 02.12.2030.–08.12.2030. Pārskati nedēļas datumus un plāno savus notikumus.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/nedelas-kalendars/2030/50/",
@@ -5703,7 +5703,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2030. gada 50. ISO nedēļa: 09.12.2030.–15.12.2030. Pārskati nedēļas datumus un plāno savus notikumus.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/nedelas-kalendars/2030/51/",
@@ -5712,7 +5712,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2030. gada 51. ISO nedēļa: 16.12.2030.–22.12.2030. Pārskati nedēļas datumus un plāno savus notikumus.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/nedelas-kalendars/2030/52/",
@@ -5721,7 +5721,7 @@
     "indexable": true,
     "status": "ready",
     "description": "2030. gada 52. ISO nedēļa: 23.12.2030.–29.12.2030. Pārskati nedēļas datumus un plāno savus notikumus.",
-    "lastmod": "2026-11-09"
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/nedelu-numuri/",
@@ -5761,11 +5761,11 @@
   },
   {
     "url": "/pdf-kalendari/",
-    "title": "Kalendāri drukāšanai: PDF un WebP",
+    "title": "Kalendāri drukāšanai: PDF un attēli",
     "family": "hub",
     "indexable": true,
     "status": "ready",
-    "description": "Izvēlies 2027.–2030. gada kalendāru drukāšanai. Pieejami 15 dizaini PDF un WebP formātā, gada un mēneša izkārtojumi un personalizēšana.",
+    "description": "Izvēlies 2027.–2030. gada kalendāru drukāšanai. Pieejami 15 dizaini PDF un attēli formātā, gada un mēneša izkārtojumi un personalizēšana.",
     "lastmod": "2026-11-10"
   },
   {
@@ -5779,110 +5779,110 @@
   },
   {
     "url": "/pdf-kalendari/2026/aprilis/",
-    "title": "2026. gada aprīļa kalendārs PDF un WebP formātā",
+    "title": "2026. gada aprīļa kalendārs PDF un attēli formātā",
     "family": "print_month",
     "indexable": true,
     "status": "ready",
-    "description": "2026. gada aprīļa kalendārs PDF un WebP formātā. 30 dienas, ISO nedēļas un izvēlētā mēneša plānošana. Kalendārs365 Latvijai.",
+    "description": "2026. gada aprīļa kalendārs PDF un attēli formātā. 30 dienas, ISO nedēļas un izvēlētā mēneša plānošana. Kalendārs365 Latvijai.",
     "lastmod": "2026-11-10"
   },
   {
     "url": "/pdf-kalendari/2026/augusts/",
-    "title": "2026. gada augusta kalendārs PDF un WebP formātā",
+    "title": "2026. gada augusta kalendārs PDF un attēli formātā",
     "family": "print_month",
     "indexable": true,
     "status": "ready",
-    "description": "2026. gada augusta kalendārs PDF un WebP formātā. 31 dienas, ISO nedēļas un izvēlētā mēneša plānošana. Kalendārs365 Latvijai.",
+    "description": "2026. gada augusta kalendārs PDF un attēli formātā. 31 dienas, ISO nedēļas un izvēlētā mēneša plānošana. Kalendārs365 Latvijai.",
     "lastmod": "2026-11-10"
   },
   {
     "url": "/pdf-kalendari/2026/decembris/",
-    "title": "2026. gada decembra kalendārs PDF un WebP formātā",
+    "title": "2026. gada decembra kalendārs PDF un attēli formātā",
     "family": "print_month",
     "indexable": true,
     "status": "ready",
-    "description": "2026. gada decembra kalendārs PDF un WebP formātā. 31 dienas, ISO nedēļas un izvēlētā mēneša plānošana. Kalendārs365 Latvijai.",
+    "description": "2026. gada decembra kalendārs PDF un attēli formātā. 31 dienas, ISO nedēļas un izvēlētā mēneša plānošana. Kalendārs365 Latvijai.",
     "lastmod": "2026-11-10"
   },
   {
     "url": "/pdf-kalendari/2026/februaris/",
-    "title": "2026. gada februāra kalendārs PDF un WebP formātā",
+    "title": "2026. gada februāra kalendārs PDF un attēli formātā",
     "family": "print_month",
     "indexable": true,
     "status": "ready",
-    "description": "2026. gada februāra kalendārs PDF un WebP formātā. 28 dienas, ISO nedēļas un izvēlētā mēneša plānošana. Kalendārs365 Latvijai.",
+    "description": "2026. gada februāra kalendārs PDF un attēli formātā. 28 dienas, ISO nedēļas un izvēlētā mēneša plānošana. Kalendārs365 Latvijai.",
     "lastmod": "2026-11-10"
   },
   {
     "url": "/pdf-kalendari/2026/janvaris/",
-    "title": "2026. gada janvāra kalendārs PDF un WebP formātā",
+    "title": "2026. gada janvāra kalendārs PDF un attēli formātā",
     "family": "print_month",
     "indexable": true,
     "status": "ready",
-    "description": "2026. gada janvāra kalendārs PDF un WebP formātā. 31 dienas, ISO nedēļas un izvēlētā mēneša plānošana. Kalendārs365 Latvijai.",
+    "description": "2026. gada janvāra kalendārs PDF un attēli formātā. 31 dienas, ISO nedēļas un izvēlētā mēneša plānošana. Kalendārs365 Latvijai.",
     "lastmod": "2026-11-10"
   },
   {
     "url": "/pdf-kalendari/2026/julijs/",
-    "title": "2026. gada jūlija kalendārs PDF un WebP formātā",
+    "title": "2026. gada jūlija kalendārs PDF un attēli formātā",
     "family": "print_month",
     "indexable": true,
     "status": "ready",
-    "description": "2026. gada jūlija kalendārs PDF un WebP formātā. 31 dienas, ISO nedēļas un izvēlētā mēneša plānošana. Kalendārs365 Latvijai.",
+    "description": "2026. gada jūlija kalendārs PDF un attēli formātā. 31 dienas, ISO nedēļas un izvēlētā mēneša plānošana. Kalendārs365 Latvijai.",
     "lastmod": "2026-11-10"
   },
   {
     "url": "/pdf-kalendari/2026/junijs/",
-    "title": "2026. gada jūnija kalendārs PDF un WebP formātā",
+    "title": "2026. gada jūnija kalendārs PDF un attēli formātā",
     "family": "print_month",
     "indexable": true,
     "status": "ready",
-    "description": "2026. gada jūnija kalendārs PDF un WebP formātā. 30 dienas, ISO nedēļas un izvēlētā mēneša plānošana. Kalendārs365 Latvijai.",
+    "description": "2026. gada jūnija kalendārs PDF un attēli formātā. 30 dienas, ISO nedēļas un izvēlētā mēneša plānošana. Kalendārs365 Latvijai.",
     "lastmod": "2026-11-10"
   },
   {
     "url": "/pdf-kalendari/2026/maijs/",
-    "title": "2026. gada maija kalendārs PDF un WebP formātā",
+    "title": "2026. gada maija kalendārs PDF un attēli formātā",
     "family": "print_month",
     "indexable": true,
     "status": "ready",
-    "description": "2026. gada maija kalendārs PDF un WebP formātā. 31 dienas, ISO nedēļas un izvēlētā mēneša plānošana. Kalendārs365 Latvijai.",
+    "description": "2026. gada maija kalendārs PDF un attēli formātā. 31 dienas, ISO nedēļas un izvēlētā mēneša plānošana. Kalendārs365 Latvijai.",
     "lastmod": "2026-11-10"
   },
   {
     "url": "/pdf-kalendari/2026/marts/",
-    "title": "2026. gada marta kalendārs PDF un WebP formātā",
+    "title": "2026. gada marta kalendārs PDF un attēli formātā",
     "family": "print_month",
     "indexable": true,
     "status": "ready",
-    "description": "2026. gada marta kalendārs PDF un WebP formātā. 31 dienas, ISO nedēļas un izvēlētā mēneša plānošana. Kalendārs365 Latvijai.",
+    "description": "2026. gada marta kalendārs PDF un attēli formātā. 31 dienas, ISO nedēļas un izvēlētā mēneša plānošana. Kalendārs365 Latvijai.",
     "lastmod": "2026-11-10"
   },
   {
     "url": "/pdf-kalendari/2026/novembris/",
-    "title": "2026. gada novembra kalendārs PDF un WebP formātā",
+    "title": "2026. gada novembra kalendārs PDF un attēli formātā",
     "family": "print_month",
     "indexable": true,
     "status": "ready",
-    "description": "2026. gada novembra kalendārs PDF un WebP formātā. 30 dienas, ISO nedēļas un izvēlētā mēneša plānošana. Kalendārs365 Latvijai.",
+    "description": "2026. gada novembra kalendārs PDF un attēli formātā. 30 dienas, ISO nedēļas un izvēlētā mēneša plānošana. Kalendārs365 Latvijai.",
     "lastmod": "2026-11-10"
   },
   {
     "url": "/pdf-kalendari/2026/oktobris/",
-    "title": "2026. gada oktobra kalendārs PDF un WebP formātā",
+    "title": "2026. gada oktobra kalendārs PDF un attēli formātā",
     "family": "print_month",
     "indexable": true,
     "status": "ready",
-    "description": "2026. gada oktobra kalendārs PDF un WebP formātā. 31 dienas, ISO nedēļas un izvēlētā mēneša plānošana. Kalendārs365 Latvijai.",
+    "description": "2026. gada oktobra kalendārs PDF un attēli formātā. 31 dienas, ISO nedēļas un izvēlētā mēneša plānošana. Kalendārs365 Latvijai.",
     "lastmod": "2026-11-10"
   },
   {
     "url": "/pdf-kalendari/2026/septembris/",
-    "title": "2026. gada septembra kalendārs PDF un WebP formātā",
+    "title": "2026. gada septembra kalendārs PDF un attēli formātā",
     "family": "print_month",
     "indexable": true,
     "status": "ready",
-    "description": "2026. gada septembra kalendārs PDF un WebP formātā. 30 dienas, ISO nedēļas un izvēlētā mēneša plānošana. Kalendārs365 Latvijai.",
+    "description": "2026. gada septembra kalendārs PDF un attēli formātā. 30 dienas, ISO nedēļas un izvēlētā mēneša plānošana. Kalendārs365 Latvijai.",
     "lastmod": "2026-11-10"
   },
   {
@@ -5891,115 +5891,115 @@
     "family": "print_index",
     "indexable": true,
     "status": "ready",
-    "description": "2027. gada kalendāri PDF un WebP formātā. Izvēlies gada vai mēneša izkārtojumu, vienu no 15 dizainiem un personalizē savu kalendāru.",
+    "description": "2027. gada kalendāri PDF un attēli formātā. Izvēlies gada vai mēneša izkārtojumu, vienu no 15 dizainiem un personalizē savu kalendāru.",
     "lastmod": "2026-11-10"
   },
   {
     "url": "/pdf-kalendari/2027/aprilis/",
-    "title": "2027. gada aprīļa kalendārs PDF un WebP formātā",
+    "title": "2027. gada aprīļa kalendārs PDF un attēli formātā",
     "family": "print_month",
     "indexable": true,
     "status": "ready",
-    "description": "Izvēlies 2027. gada aprīļa kalendāru drukāšanai. Pieejami PDF un WebP faili, 15 dizaini un iespēja pievienot personīgu virsrakstu vai fotoattēlu.",
+    "description": "Izvēlies 2027. gada aprīļa kalendāru drukāšanai. Pieejami PDF un attēli faili, 15 dizaini un iespēja pievienot personīgu virsrakstu vai fotoattēlu.",
     "lastmod": "2026-11-10"
   },
   {
     "url": "/pdf-kalendari/2027/augusts/",
-    "title": "2027. gada augusta kalendārs PDF un WebP formātā",
+    "title": "2027. gada augusta kalendārs PDF un attēli formātā",
     "family": "print_month",
     "indexable": true,
     "status": "ready",
-    "description": "Izvēlies 2027. gada augusta kalendāru drukāšanai. Pieejami PDF un WebP faili, 15 dizaini un iespēja pievienot personīgu virsrakstu vai fotoattēlu.",
+    "description": "Izvēlies 2027. gada augusta kalendāru drukāšanai. Pieejami PDF un attēli faili, 15 dizaini un iespēja pievienot personīgu virsrakstu vai fotoattēlu.",
     "lastmod": "2026-11-10"
   },
   {
     "url": "/pdf-kalendari/2027/decembris/",
-    "title": "2027. gada decembra kalendārs PDF un WebP formātā",
+    "title": "2027. gada decembra kalendārs PDF un attēli formātā",
     "family": "print_month",
     "indexable": true,
     "status": "ready",
-    "description": "Izvēlies 2027. gada decembra kalendāru drukāšanai. Pieejami PDF un WebP faili, 15 dizaini un iespēja pievienot personīgu virsrakstu vai fotoattēlu.",
+    "description": "Izvēlies 2027. gada decembra kalendāru drukāšanai. Pieejami PDF un attēli faili, 15 dizaini un iespēja pievienot personīgu virsrakstu vai fotoattēlu.",
     "lastmod": "2026-11-10"
   },
   {
     "url": "/pdf-kalendari/2027/februaris/",
-    "title": "2027. gada februāra kalendārs PDF un WebP formātā",
+    "title": "2027. gada februāra kalendārs PDF un attēli formātā",
     "family": "print_month",
     "indexable": true,
     "status": "ready",
-    "description": "Izvēlies 2027. gada februāra kalendāru drukāšanai. Pieejami PDF un WebP faili, 15 dizaini un iespēja pievienot personīgu virsrakstu vai fotoattēlu.",
+    "description": "Izvēlies 2027. gada februāra kalendāru drukāšanai. Pieejami PDF un attēli faili, 15 dizaini un iespēja pievienot personīgu virsrakstu vai fotoattēlu.",
     "lastmod": "2026-11-10"
   },
   {
     "url": "/pdf-kalendari/2027/janvaris/",
-    "title": "2027. gada janvāra kalendārs PDF un WebP formātā",
+    "title": "2027. gada janvāra kalendārs PDF un attēli formātā",
     "family": "print_month",
     "indexable": true,
     "status": "ready",
-    "description": "Izvēlies 2027. gada janvāra kalendāru drukāšanai. Pieejami PDF un WebP faili, 15 dizaini un iespēja pievienot personīgu virsrakstu vai fotoattēlu.",
+    "description": "Izvēlies 2027. gada janvāra kalendāru drukāšanai. Pieejami PDF un attēli faili, 15 dizaini un iespēja pievienot personīgu virsrakstu vai fotoattēlu.",
     "lastmod": "2026-11-10"
   },
   {
     "url": "/pdf-kalendari/2027/julijs/",
-    "title": "2027. gada jūlija kalendārs PDF un WebP formātā",
+    "title": "2027. gada jūlija kalendārs PDF un attēli formātā",
     "family": "print_month",
     "indexable": true,
     "status": "ready",
-    "description": "Izvēlies 2027. gada jūlija kalendāru drukāšanai. Pieejami PDF un WebP faili, 15 dizaini un iespēja pievienot personīgu virsrakstu vai fotoattēlu.",
+    "description": "Izvēlies 2027. gada jūlija kalendāru drukāšanai. Pieejami PDF un attēli faili, 15 dizaini un iespēja pievienot personīgu virsrakstu vai fotoattēlu.",
     "lastmod": "2026-11-10"
   },
   {
     "url": "/pdf-kalendari/2027/junijs/",
-    "title": "2027. gada jūnija kalendārs PDF un WebP formātā",
+    "title": "2027. gada jūnija kalendārs PDF un attēli formātā",
     "family": "print_month",
     "indexable": true,
     "status": "ready",
-    "description": "Izvēlies 2027. gada jūnija kalendāru drukāšanai. Pieejami PDF un WebP faili, 15 dizaini un iespēja pievienot personīgu virsrakstu vai fotoattēlu.",
+    "description": "Izvēlies 2027. gada jūnija kalendāru drukāšanai. Pieejami PDF un attēli faili, 15 dizaini un iespēja pievienot personīgu virsrakstu vai fotoattēlu.",
     "lastmod": "2026-11-10"
   },
   {
     "url": "/pdf-kalendari/2027/maijs/",
-    "title": "2027. gada maija kalendārs PDF un WebP formātā",
+    "title": "2027. gada maija kalendārs PDF un attēli formātā",
     "family": "print_month",
     "indexable": true,
     "status": "ready",
-    "description": "Izvēlies 2027. gada maija kalendāru drukāšanai. Pieejami PDF un WebP faili, 15 dizaini un iespēja pievienot personīgu virsrakstu vai fotoattēlu.",
+    "description": "Izvēlies 2027. gada maija kalendāru drukāšanai. Pieejami PDF un attēli faili, 15 dizaini un iespēja pievienot personīgu virsrakstu vai fotoattēlu.",
     "lastmod": "2026-11-10"
   },
   {
     "url": "/pdf-kalendari/2027/marts/",
-    "title": "2027. gada marta kalendārs PDF un WebP formātā",
+    "title": "2027. gada marta kalendārs PDF un attēli formātā",
     "family": "print_month",
     "indexable": true,
     "status": "ready",
-    "description": "Izvēlies 2027. gada marta kalendāru drukāšanai. Pieejami PDF un WebP faili, 15 dizaini un iespēja pievienot personīgu virsrakstu vai fotoattēlu.",
+    "description": "Izvēlies 2027. gada marta kalendāru drukāšanai. Pieejami PDF un attēli faili, 15 dizaini un iespēja pievienot personīgu virsrakstu vai fotoattēlu.",
     "lastmod": "2026-11-10"
   },
   {
     "url": "/pdf-kalendari/2027/novembris/",
-    "title": "2027. gada novembra kalendārs PDF un WebP formātā",
+    "title": "2027. gada novembra kalendārs PDF un attēli formātā",
     "family": "print_month",
     "indexable": true,
     "status": "ready",
-    "description": "Izvēlies 2027. gada novembra kalendāru drukāšanai. Pieejami PDF un WebP faili, 15 dizaini un iespēja pievienot personīgu virsrakstu vai fotoattēlu.",
+    "description": "Izvēlies 2027. gada novembra kalendāru drukāšanai. Pieejami PDF un attēli faili, 15 dizaini un iespēja pievienot personīgu virsrakstu vai fotoattēlu.",
     "lastmod": "2026-11-10"
   },
   {
     "url": "/pdf-kalendari/2027/oktobris/",
-    "title": "2027. gada oktobra kalendārs PDF un WebP formātā",
+    "title": "2027. gada oktobra kalendārs PDF un attēli formātā",
     "family": "print_month",
     "indexable": true,
     "status": "ready",
-    "description": "Izvēlies 2027. gada oktobra kalendāru drukāšanai. Pieejami PDF un WebP faili, 15 dizaini un iespēja pievienot personīgu virsrakstu vai fotoattēlu.",
+    "description": "Izvēlies 2027. gada oktobra kalendāru drukāšanai. Pieejami PDF un attēli faili, 15 dizaini un iespēja pievienot personīgu virsrakstu vai fotoattēlu.",
     "lastmod": "2026-11-10"
   },
   {
     "url": "/pdf-kalendari/2027/septembris/",
-    "title": "2027. gada septembra kalendārs PDF un WebP formātā",
+    "title": "2027. gada septembra kalendārs PDF un attēli formātā",
     "family": "print_month",
     "indexable": true,
     "status": "ready",
-    "description": "Izvēlies 2027. gada septembra kalendāru drukāšanai. Pieejami PDF un WebP faili, 15 dizaini un iespēja pievienot personīgu virsrakstu vai fotoattēlu.",
+    "description": "Izvēlies 2027. gada septembra kalendāru drukāšanai. Pieejami PDF un attēli faili, 15 dizaini un iespēja pievienot personīgu virsrakstu vai fotoattēlu.",
     "lastmod": "2026-11-10"
   },
   {
@@ -6008,115 +6008,115 @@
     "family": "print_index",
     "indexable": true,
     "status": "ready",
-    "description": "2028. gada kalendāri PDF un WebP formātā. Izvēlies gada vai mēneša izkārtojumu, vienu no 15 dizainiem un personalizē savu kalendāru.",
+    "description": "2028. gada kalendāri PDF un attēli formātā. Izvēlies gada vai mēneša izkārtojumu, vienu no 15 dizainiem un personalizē savu kalendāru.",
     "lastmod": "2026-11-10"
   },
   {
     "url": "/pdf-kalendari/2028/aprilis/",
-    "title": "2028. gada aprīļa kalendārs PDF un WebP formātā",
+    "title": "2028. gada aprīļa kalendārs PDF un attēli formātā",
     "family": "print_month",
     "indexable": true,
     "status": "ready",
-    "description": "Izvēlies 2028. gada aprīļa kalendāru drukāšanai. Pieejami PDF un WebP faili, 15 dizaini un iespēja pievienot personīgu virsrakstu vai fotoattēlu.",
+    "description": "Izvēlies 2028. gada aprīļa kalendāru drukāšanai. Pieejami PDF un attēli faili, 15 dizaini un iespēja pievienot personīgu virsrakstu vai fotoattēlu.",
     "lastmod": "2026-11-10"
   },
   {
     "url": "/pdf-kalendari/2028/augusts/",
-    "title": "2028. gada augusta kalendārs PDF un WebP formātā",
+    "title": "2028. gada augusta kalendārs PDF un attēli formātā",
     "family": "print_month",
     "indexable": true,
     "status": "ready",
-    "description": "Izvēlies 2028. gada augusta kalendāru drukāšanai. Pieejami PDF un WebP faili, 15 dizaini un iespēja pievienot personīgu virsrakstu vai fotoattēlu.",
+    "description": "Izvēlies 2028. gada augusta kalendāru drukāšanai. Pieejami PDF un attēli faili, 15 dizaini un iespēja pievienot personīgu virsrakstu vai fotoattēlu.",
     "lastmod": "2026-11-10"
   },
   {
     "url": "/pdf-kalendari/2028/decembris/",
-    "title": "2028. gada decembra kalendārs PDF un WebP formātā",
+    "title": "2028. gada decembra kalendārs PDF un attēli formātā",
     "family": "print_month",
     "indexable": true,
     "status": "ready",
-    "description": "Izvēlies 2028. gada decembra kalendāru drukāšanai. Pieejami PDF un WebP faili, 15 dizaini un iespēja pievienot personīgu virsrakstu vai fotoattēlu.",
+    "description": "Izvēlies 2028. gada decembra kalendāru drukāšanai. Pieejami PDF un attēli faili, 15 dizaini un iespēja pievienot personīgu virsrakstu vai fotoattēlu.",
     "lastmod": "2026-11-10"
   },
   {
     "url": "/pdf-kalendari/2028/februaris/",
-    "title": "2028. gada februāra kalendārs PDF un WebP formātā",
+    "title": "2028. gada februāra kalendārs PDF un attēli formātā",
     "family": "print_month",
     "indexable": true,
     "status": "ready",
-    "description": "Izvēlies 2028. gada februāra kalendāru drukāšanai. Pieejami PDF un WebP faili, 15 dizaini un iespēja pievienot personīgu virsrakstu vai fotoattēlu.",
+    "description": "Izvēlies 2028. gada februāra kalendāru drukāšanai. Pieejami PDF un attēli faili, 15 dizaini un iespēja pievienot personīgu virsrakstu vai fotoattēlu.",
     "lastmod": "2026-11-10"
   },
   {
     "url": "/pdf-kalendari/2028/janvaris/",
-    "title": "2028. gada janvāra kalendārs PDF un WebP formātā",
+    "title": "2028. gada janvāra kalendārs PDF un attēli formātā",
     "family": "print_month",
     "indexable": true,
     "status": "ready",
-    "description": "Izvēlies 2028. gada janvāra kalendāru drukāšanai. Pieejami PDF un WebP faili, 15 dizaini un iespēja pievienot personīgu virsrakstu vai fotoattēlu.",
+    "description": "Izvēlies 2028. gada janvāra kalendāru drukāšanai. Pieejami PDF un attēli faili, 15 dizaini un iespēja pievienot personīgu virsrakstu vai fotoattēlu.",
     "lastmod": "2026-11-10"
   },
   {
     "url": "/pdf-kalendari/2028/julijs/",
-    "title": "2028. gada jūlija kalendārs PDF un WebP formātā",
+    "title": "2028. gada jūlija kalendārs PDF un attēli formātā",
     "family": "print_month",
     "indexable": true,
     "status": "ready",
-    "description": "Izvēlies 2028. gada jūlija kalendāru drukāšanai. Pieejami PDF un WebP faili, 15 dizaini un iespēja pievienot personīgu virsrakstu vai fotoattēlu.",
+    "description": "Izvēlies 2028. gada jūlija kalendāru drukāšanai. Pieejami PDF un attēli faili, 15 dizaini un iespēja pievienot personīgu virsrakstu vai fotoattēlu.",
     "lastmod": "2026-11-10"
   },
   {
     "url": "/pdf-kalendari/2028/junijs/",
-    "title": "2028. gada jūnija kalendārs PDF un WebP formātā",
+    "title": "2028. gada jūnija kalendārs PDF un attēli formātā",
     "family": "print_month",
     "indexable": true,
     "status": "ready",
-    "description": "Izvēlies 2028. gada jūnija kalendāru drukāšanai. Pieejami PDF un WebP faili, 15 dizaini un iespēja pievienot personīgu virsrakstu vai fotoattēlu.",
+    "description": "Izvēlies 2028. gada jūnija kalendāru drukāšanai. Pieejami PDF un attēli faili, 15 dizaini un iespēja pievienot personīgu virsrakstu vai fotoattēlu.",
     "lastmod": "2026-11-10"
   },
   {
     "url": "/pdf-kalendari/2028/maijs/",
-    "title": "2028. gada maija kalendārs PDF un WebP formātā",
+    "title": "2028. gada maija kalendārs PDF un attēli formātā",
     "family": "print_month",
     "indexable": true,
     "status": "ready",
-    "description": "Izvēlies 2028. gada maija kalendāru drukāšanai. Pieejami PDF un WebP faili, 15 dizaini un iespēja pievienot personīgu virsrakstu vai fotoattēlu.",
+    "description": "Izvēlies 2028. gada maija kalendāru drukāšanai. Pieejami PDF un attēli faili, 15 dizaini un iespēja pievienot personīgu virsrakstu vai fotoattēlu.",
     "lastmod": "2026-11-10"
   },
   {
     "url": "/pdf-kalendari/2028/marts/",
-    "title": "2028. gada marta kalendārs PDF un WebP formātā",
+    "title": "2028. gada marta kalendārs PDF un attēli formātā",
     "family": "print_month",
     "indexable": true,
     "status": "ready",
-    "description": "Izvēlies 2028. gada marta kalendāru drukāšanai. Pieejami PDF un WebP faili, 15 dizaini un iespēja pievienot personīgu virsrakstu vai fotoattēlu.",
+    "description": "Izvēlies 2028. gada marta kalendāru drukāšanai. Pieejami PDF un attēli faili, 15 dizaini un iespēja pievienot personīgu virsrakstu vai fotoattēlu.",
     "lastmod": "2026-11-10"
   },
   {
     "url": "/pdf-kalendari/2028/novembris/",
-    "title": "2028. gada novembra kalendārs PDF un WebP formātā",
+    "title": "2028. gada novembra kalendārs PDF un attēli formātā",
     "family": "print_month",
     "indexable": true,
     "status": "ready",
-    "description": "Izvēlies 2028. gada novembra kalendāru drukāšanai. Pieejami PDF un WebP faili, 15 dizaini un iespēja pievienot personīgu virsrakstu vai fotoattēlu.",
+    "description": "Izvēlies 2028. gada novembra kalendāru drukāšanai. Pieejami PDF un attēli faili, 15 dizaini un iespēja pievienot personīgu virsrakstu vai fotoattēlu.",
     "lastmod": "2026-11-10"
   },
   {
     "url": "/pdf-kalendari/2028/oktobris/",
-    "title": "2028. gada oktobra kalendārs PDF un WebP formātā",
+    "title": "2028. gada oktobra kalendārs PDF un attēli formātā",
     "family": "print_month",
     "indexable": true,
     "status": "ready",
-    "description": "Izvēlies 2028. gada oktobra kalendāru drukāšanai. Pieejami PDF un WebP faili, 15 dizaini un iespēja pievienot personīgu virsrakstu vai fotoattēlu.",
+    "description": "Izvēlies 2028. gada oktobra kalendāru drukāšanai. Pieejami PDF un attēli faili, 15 dizaini un iespēja pievienot personīgu virsrakstu vai fotoattēlu.",
     "lastmod": "2026-11-10"
   },
   {
     "url": "/pdf-kalendari/2028/septembris/",
-    "title": "2028. gada septembra kalendārs PDF un WebP formātā",
+    "title": "2028. gada septembra kalendārs PDF un attēli formātā",
     "family": "print_month",
     "indexable": true,
     "status": "ready",
-    "description": "Izvēlies 2028. gada septembra kalendāru drukāšanai. Pieejami PDF un WebP faili, 15 dizaini un iespēja pievienot personīgu virsrakstu vai fotoattēlu.",
+    "description": "Izvēlies 2028. gada septembra kalendāru drukāšanai. Pieejami PDF un attēli faili, 15 dizaini un iespēja pievienot personīgu virsrakstu vai fotoattēlu.",
     "lastmod": "2026-11-10"
   },
   {
@@ -6125,115 +6125,115 @@
     "family": "print_index",
     "indexable": true,
     "status": "ready",
-    "description": "2029. gada kalendāri PDF un WebP formātā. Izvēlies gada vai mēneša izkārtojumu, vienu no 15 dizainiem un personalizē savu kalendāru.",
+    "description": "2029. gada kalendāri PDF un attēli formātā. Izvēlies gada vai mēneša izkārtojumu, vienu no 15 dizainiem un personalizē savu kalendāru.",
     "lastmod": "2026-11-10"
   },
   {
     "url": "/pdf-kalendari/2029/aprilis/",
-    "title": "2029. gada aprīļa kalendārs PDF un WebP formātā",
+    "title": "2029. gada aprīļa kalendārs PDF un attēli formātā",
     "family": "print_month",
     "indexable": true,
     "status": "ready",
-    "description": "Izvēlies 2029. gada aprīļa kalendāru drukāšanai. Pieejami PDF un WebP faili, 15 dizaini un iespēja pievienot personīgu virsrakstu vai fotoattēlu.",
+    "description": "Izvēlies 2029. gada aprīļa kalendāru drukāšanai. Pieejami PDF un attēli faili, 15 dizaini un iespēja pievienot personīgu virsrakstu vai fotoattēlu.",
     "lastmod": "2026-11-10"
   },
   {
     "url": "/pdf-kalendari/2029/augusts/",
-    "title": "2029. gada augusta kalendārs PDF un WebP formātā",
+    "title": "2029. gada augusta kalendārs PDF un attēli formātā",
     "family": "print_month",
     "indexable": true,
     "status": "ready",
-    "description": "Izvēlies 2029. gada augusta kalendāru drukāšanai. Pieejami PDF un WebP faili, 15 dizaini un iespēja pievienot personīgu virsrakstu vai fotoattēlu.",
+    "description": "Izvēlies 2029. gada augusta kalendāru drukāšanai. Pieejami PDF un attēli faili, 15 dizaini un iespēja pievienot personīgu virsrakstu vai fotoattēlu.",
     "lastmod": "2026-11-10"
   },
   {
     "url": "/pdf-kalendari/2029/decembris/",
-    "title": "2029. gada decembra kalendārs PDF un WebP formātā",
+    "title": "2029. gada decembra kalendārs PDF un attēli formātā",
     "family": "print_month",
     "indexable": true,
     "status": "ready",
-    "description": "Izvēlies 2029. gada decembra kalendāru drukāšanai. Pieejami PDF un WebP faili, 15 dizaini un iespēja pievienot personīgu virsrakstu vai fotoattēlu.",
+    "description": "Izvēlies 2029. gada decembra kalendāru drukāšanai. Pieejami PDF un attēli faili, 15 dizaini un iespēja pievienot personīgu virsrakstu vai fotoattēlu.",
     "lastmod": "2026-11-10"
   },
   {
     "url": "/pdf-kalendari/2029/februaris/",
-    "title": "2029. gada februāra kalendārs PDF un WebP formātā",
+    "title": "2029. gada februāra kalendārs PDF un attēli formātā",
     "family": "print_month",
     "indexable": true,
     "status": "ready",
-    "description": "Izvēlies 2029. gada februāra kalendāru drukāšanai. Pieejami PDF un WebP faili, 15 dizaini un iespēja pievienot personīgu virsrakstu vai fotoattēlu.",
+    "description": "Izvēlies 2029. gada februāra kalendāru drukāšanai. Pieejami PDF un attēli faili, 15 dizaini un iespēja pievienot personīgu virsrakstu vai fotoattēlu.",
     "lastmod": "2026-11-10"
   },
   {
     "url": "/pdf-kalendari/2029/janvaris/",
-    "title": "2029. gada janvāra kalendārs PDF un WebP formātā",
+    "title": "2029. gada janvāra kalendārs PDF un attēli formātā",
     "family": "print_month",
     "indexable": true,
     "status": "ready",
-    "description": "Izvēlies 2029. gada janvāra kalendāru drukāšanai. Pieejami PDF un WebP faili, 15 dizaini un iespēja pievienot personīgu virsrakstu vai fotoattēlu.",
+    "description": "Izvēlies 2029. gada janvāra kalendāru drukāšanai. Pieejami PDF un attēli faili, 15 dizaini un iespēja pievienot personīgu virsrakstu vai fotoattēlu.",
     "lastmod": "2026-11-10"
   },
   {
     "url": "/pdf-kalendari/2029/julijs/",
-    "title": "2029. gada jūlija kalendārs PDF un WebP formātā",
+    "title": "2029. gada jūlija kalendārs PDF un attēli formātā",
     "family": "print_month",
     "indexable": true,
     "status": "ready",
-    "description": "Izvēlies 2029. gada jūlija kalendāru drukāšanai. Pieejami PDF un WebP faili, 15 dizaini un iespēja pievienot personīgu virsrakstu vai fotoattēlu.",
+    "description": "Izvēlies 2029. gada jūlija kalendāru drukāšanai. Pieejami PDF un attēli faili, 15 dizaini un iespēja pievienot personīgu virsrakstu vai fotoattēlu.",
     "lastmod": "2026-11-10"
   },
   {
     "url": "/pdf-kalendari/2029/junijs/",
-    "title": "2029. gada jūnija kalendārs PDF un WebP formātā",
+    "title": "2029. gada jūnija kalendārs PDF un attēli formātā",
     "family": "print_month",
     "indexable": true,
     "status": "ready",
-    "description": "Izvēlies 2029. gada jūnija kalendāru drukāšanai. Pieejami PDF un WebP faili, 15 dizaini un iespēja pievienot personīgu virsrakstu vai fotoattēlu.",
+    "description": "Izvēlies 2029. gada jūnija kalendāru drukāšanai. Pieejami PDF un attēli faili, 15 dizaini un iespēja pievienot personīgu virsrakstu vai fotoattēlu.",
     "lastmod": "2026-11-10"
   },
   {
     "url": "/pdf-kalendari/2029/maijs/",
-    "title": "2029. gada maija kalendārs PDF un WebP formātā",
+    "title": "2029. gada maija kalendārs PDF un attēli formātā",
     "family": "print_month",
     "indexable": true,
     "status": "ready",
-    "description": "Izvēlies 2029. gada maija kalendāru drukāšanai. Pieejami PDF un WebP faili, 15 dizaini un iespēja pievienot personīgu virsrakstu vai fotoattēlu.",
+    "description": "Izvēlies 2029. gada maija kalendāru drukāšanai. Pieejami PDF un attēli faili, 15 dizaini un iespēja pievienot personīgu virsrakstu vai fotoattēlu.",
     "lastmod": "2026-11-10"
   },
   {
     "url": "/pdf-kalendari/2029/marts/",
-    "title": "2029. gada marta kalendārs PDF un WebP formātā",
+    "title": "2029. gada marta kalendārs PDF un attēli formātā",
     "family": "print_month",
     "indexable": true,
     "status": "ready",
-    "description": "Izvēlies 2029. gada marta kalendāru drukāšanai. Pieejami PDF un WebP faili, 15 dizaini un iespēja pievienot personīgu virsrakstu vai fotoattēlu.",
+    "description": "Izvēlies 2029. gada marta kalendāru drukāšanai. Pieejami PDF un attēli faili, 15 dizaini un iespēja pievienot personīgu virsrakstu vai fotoattēlu.",
     "lastmod": "2026-11-10"
   },
   {
     "url": "/pdf-kalendari/2029/novembris/",
-    "title": "2029. gada novembra kalendārs PDF un WebP formātā",
+    "title": "2029. gada novembra kalendārs PDF un attēli formātā",
     "family": "print_month",
     "indexable": true,
     "status": "ready",
-    "description": "Izvēlies 2029. gada novembra kalendāru drukāšanai. Pieejami PDF un WebP faili, 15 dizaini un iespēja pievienot personīgu virsrakstu vai fotoattēlu.",
+    "description": "Izvēlies 2029. gada novembra kalendāru drukāšanai. Pieejami PDF un attēli faili, 15 dizaini un iespēja pievienot personīgu virsrakstu vai fotoattēlu.",
     "lastmod": "2026-11-10"
   },
   {
     "url": "/pdf-kalendari/2029/oktobris/",
-    "title": "2029. gada oktobra kalendārs PDF un WebP formātā",
+    "title": "2029. gada oktobra kalendārs PDF un attēli formātā",
     "family": "print_month",
     "indexable": true,
     "status": "ready",
-    "description": "Izvēlies 2029. gada oktobra kalendāru drukāšanai. Pieejami PDF un WebP faili, 15 dizaini un iespēja pievienot personīgu virsrakstu vai fotoattēlu.",
+    "description": "Izvēlies 2029. gada oktobra kalendāru drukāšanai. Pieejami PDF un attēli faili, 15 dizaini un iespēja pievienot personīgu virsrakstu vai fotoattēlu.",
     "lastmod": "2026-11-10"
   },
   {
     "url": "/pdf-kalendari/2029/septembris/",
-    "title": "2029. gada septembra kalendārs PDF un WebP formātā",
+    "title": "2029. gada septembra kalendārs PDF un attēli formātā",
     "family": "print_month",
     "indexable": true,
     "status": "ready",
-    "description": "Izvēlies 2029. gada septembra kalendāru drukāšanai. Pieejami PDF un WebP faili, 15 dizaini un iespēja pievienot personīgu virsrakstu vai fotoattēlu.",
+    "description": "Izvēlies 2029. gada septembra kalendāru drukāšanai. Pieejami PDF un attēli faili, 15 dizaini un iespēja pievienot personīgu virsrakstu vai fotoattēlu.",
     "lastmod": "2026-11-10"
   },
   {
@@ -6242,115 +6242,115 @@
     "family": "print_index",
     "indexable": true,
     "status": "ready",
-    "description": "2030. gada kalendāri PDF un WebP formātā. Izvēlies gada vai mēneša izkārtojumu, vienu no 15 dizainiem un personalizē savu kalendāru.",
+    "description": "2030. gada kalendāri PDF un attēli formātā. Izvēlies gada vai mēneša izkārtojumu, vienu no 15 dizainiem un personalizē savu kalendāru.",
     "lastmod": "2026-11-10"
   },
   {
     "url": "/pdf-kalendari/2030/aprilis/",
-    "title": "2030. gada aprīļa kalendārs PDF un WebP formātā",
+    "title": "2030. gada aprīļa kalendārs PDF un attēli formātā",
     "family": "print_month",
     "indexable": true,
     "status": "ready",
-    "description": "Izvēlies 2030. gada aprīļa kalendāru drukāšanai. Pieejami PDF un WebP faili, 15 dizaini un iespēja pievienot personīgu virsrakstu vai fotoattēlu.",
+    "description": "Izvēlies 2030. gada aprīļa kalendāru drukāšanai. Pieejami PDF un attēli faili, 15 dizaini un iespēja pievienot personīgu virsrakstu vai fotoattēlu.",
     "lastmod": "2026-11-10"
   },
   {
     "url": "/pdf-kalendari/2030/augusts/",
-    "title": "2030. gada augusta kalendārs PDF un WebP formātā",
+    "title": "2030. gada augusta kalendārs PDF un attēli formātā",
     "family": "print_month",
     "indexable": true,
     "status": "ready",
-    "description": "Izvēlies 2030. gada augusta kalendāru drukāšanai. Pieejami PDF un WebP faili, 15 dizaini un iespēja pievienot personīgu virsrakstu vai fotoattēlu.",
+    "description": "Izvēlies 2030. gada augusta kalendāru drukāšanai. Pieejami PDF un attēli faili, 15 dizaini un iespēja pievienot personīgu virsrakstu vai fotoattēlu.",
     "lastmod": "2026-11-10"
   },
   {
     "url": "/pdf-kalendari/2030/decembris/",
-    "title": "2030. gada decembra kalendārs PDF un WebP formātā",
+    "title": "2030. gada decembra kalendārs PDF un attēli formātā",
     "family": "print_month",
     "indexable": true,
     "status": "ready",
-    "description": "Izvēlies 2030. gada decembra kalendāru drukāšanai. Pieejami PDF un WebP faili, 15 dizaini un iespēja pievienot personīgu virsrakstu vai fotoattēlu.",
+    "description": "Izvēlies 2030. gada decembra kalendāru drukāšanai. Pieejami PDF un attēli faili, 15 dizaini un iespēja pievienot personīgu virsrakstu vai fotoattēlu.",
     "lastmod": "2026-11-10"
   },
   {
     "url": "/pdf-kalendari/2030/februaris/",
-    "title": "2030. gada februāra kalendārs PDF un WebP formātā",
+    "title": "2030. gada februāra kalendārs PDF un attēli formātā",
     "family": "print_month",
     "indexable": true,
     "status": "ready",
-    "description": "Izvēlies 2030. gada februāra kalendāru drukāšanai. Pieejami PDF un WebP faili, 15 dizaini un iespēja pievienot personīgu virsrakstu vai fotoattēlu.",
+    "description": "Izvēlies 2030. gada februāra kalendāru drukāšanai. Pieejami PDF un attēli faili, 15 dizaini un iespēja pievienot personīgu virsrakstu vai fotoattēlu.",
     "lastmod": "2026-11-10"
   },
   {
     "url": "/pdf-kalendari/2030/janvaris/",
-    "title": "2030. gada janvāra kalendārs PDF un WebP formātā",
+    "title": "2030. gada janvāra kalendārs PDF un attēli formātā",
     "family": "print_month",
     "indexable": true,
     "status": "ready",
-    "description": "Izvēlies 2030. gada janvāra kalendāru drukāšanai. Pieejami PDF un WebP faili, 15 dizaini un iespēja pievienot personīgu virsrakstu vai fotoattēlu.",
+    "description": "Izvēlies 2030. gada janvāra kalendāru drukāšanai. Pieejami PDF un attēli faili, 15 dizaini un iespēja pievienot personīgu virsrakstu vai fotoattēlu.",
     "lastmod": "2026-11-10"
   },
   {
     "url": "/pdf-kalendari/2030/julijs/",
-    "title": "2030. gada jūlija kalendārs PDF un WebP formātā",
+    "title": "2030. gada jūlija kalendārs PDF un attēli formātā",
     "family": "print_month",
     "indexable": true,
     "status": "ready",
-    "description": "Izvēlies 2030. gada jūlija kalendāru drukāšanai. Pieejami PDF un WebP faili, 15 dizaini un iespēja pievienot personīgu virsrakstu vai fotoattēlu.",
+    "description": "Izvēlies 2030. gada jūlija kalendāru drukāšanai. Pieejami PDF un attēli faili, 15 dizaini un iespēja pievienot personīgu virsrakstu vai fotoattēlu.",
     "lastmod": "2026-11-10"
   },
   {
     "url": "/pdf-kalendari/2030/junijs/",
-    "title": "2030. gada jūnija kalendārs PDF un WebP formātā",
+    "title": "2030. gada jūnija kalendārs PDF un attēli formātā",
     "family": "print_month",
     "indexable": true,
     "status": "ready",
-    "description": "Izvēlies 2030. gada jūnija kalendāru drukāšanai. Pieejami PDF un WebP faili, 15 dizaini un iespēja pievienot personīgu virsrakstu vai fotoattēlu.",
+    "description": "Izvēlies 2030. gada jūnija kalendāru drukāšanai. Pieejami PDF un attēli faili, 15 dizaini un iespēja pievienot personīgu virsrakstu vai fotoattēlu.",
     "lastmod": "2026-11-10"
   },
   {
     "url": "/pdf-kalendari/2030/maijs/",
-    "title": "2030. gada maija kalendārs PDF un WebP formātā",
+    "title": "2030. gada maija kalendārs PDF un attēli formātā",
     "family": "print_month",
     "indexable": true,
     "status": "ready",
-    "description": "Izvēlies 2030. gada maija kalendāru drukāšanai. Pieejami PDF un WebP faili, 15 dizaini un iespēja pievienot personīgu virsrakstu vai fotoattēlu.",
+    "description": "Izvēlies 2030. gada maija kalendāru drukāšanai. Pieejami PDF un attēli faili, 15 dizaini un iespēja pievienot personīgu virsrakstu vai fotoattēlu.",
     "lastmod": "2026-11-10"
   },
   {
     "url": "/pdf-kalendari/2030/marts/",
-    "title": "2030. gada marta kalendārs PDF un WebP formātā",
+    "title": "2030. gada marta kalendārs PDF un attēli formātā",
     "family": "print_month",
     "indexable": true,
     "status": "ready",
-    "description": "Izvēlies 2030. gada marta kalendāru drukāšanai. Pieejami PDF un WebP faili, 15 dizaini un iespēja pievienot personīgu virsrakstu vai fotoattēlu.",
+    "description": "Izvēlies 2030. gada marta kalendāru drukāšanai. Pieejami PDF un attēli faili, 15 dizaini un iespēja pievienot personīgu virsrakstu vai fotoattēlu.",
     "lastmod": "2026-11-10"
   },
   {
     "url": "/pdf-kalendari/2030/novembris/",
-    "title": "2030. gada novembra kalendārs PDF un WebP formātā",
+    "title": "2030. gada novembra kalendārs PDF un attēli formātā",
     "family": "print_month",
     "indexable": true,
     "status": "ready",
-    "description": "Izvēlies 2030. gada novembra kalendāru drukāšanai. Pieejami PDF un WebP faili, 15 dizaini un iespēja pievienot personīgu virsrakstu vai fotoattēlu.",
+    "description": "Izvēlies 2030. gada novembra kalendāru drukāšanai. Pieejami PDF un attēli faili, 15 dizaini un iespēja pievienot personīgu virsrakstu vai fotoattēlu.",
     "lastmod": "2026-11-10"
   },
   {
     "url": "/pdf-kalendari/2030/oktobris/",
-    "title": "2030. gada oktobra kalendārs PDF un WebP formātā",
+    "title": "2030. gada oktobra kalendārs PDF un attēli formātā",
     "family": "print_month",
     "indexable": true,
     "status": "ready",
-    "description": "Izvēlies 2030. gada oktobra kalendāru drukāšanai. Pieejami PDF un WebP faili, 15 dizaini un iespēja pievienot personīgu virsrakstu vai fotoattēlu.",
+    "description": "Izvēlies 2030. gada oktobra kalendāru drukāšanai. Pieejami PDF un attēli faili, 15 dizaini un iespēja pievienot personīgu virsrakstu vai fotoattēlu.",
     "lastmod": "2026-11-10"
   },
   {
     "url": "/pdf-kalendari/2030/septembris/",
-    "title": "2030. gada septembra kalendārs PDF un WebP formātā",
+    "title": "2030. gada septembra kalendārs PDF un attēli formātā",
     "family": "print_month",
     "indexable": true,
     "status": "ready",
-    "description": "Izvēlies 2030. gada septembra kalendāru drukāšanai. Pieejami PDF un WebP faili, 15 dizaini un iespēja pievienot personīgu virsrakstu vai fotoattēlu.",
+    "description": "Izvēlies 2030. gada septembra kalendāru drukāšanai. Pieejami PDF un attēli faili, 15 dizaini un iespēja pievienot personīgu virsrakstu vai fotoattēlu.",
     "lastmod": "2026-11-10"
   },
   {
@@ -8699,8 +8699,8 @@
     "family": "hub",
     "indexable": true,
     "status": "ready",
-    "description": "Sagatavo tukšu kalendāru saviem ierakstiem. Izvēlies gadu, mēnesi un dizainu, pielāgo virsrakstu un lejupielādē PDF vai WebP failu.",
-    "lastmod": "2026-11-09"
+    "description": "Sagatavo tukšu kalendāru saviem ierakstiem. Izvēlies gadu, mēnesi un dizainu, pielāgo virsrakstu un lejupielādē PDF vai attēlu failu.",
+    "lastmod": "2026-11-10"
   },
   {
     "url": "/valsts-parbaudes-darbi/",

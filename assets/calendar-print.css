@@ -1,0 +1,31 @@
+#calendar-print-sheet{display:none}
+@page calendar-sheet{size:A4 portrait;margin:0}
+@media print{
+ body.calendar-printing{background:#fff!important;margin:0!important;padding:0!important;min-width:0!important}
+ body.calendar-printing>:not(#calendar-print-sheet){display:none!important}
+ body.calendar-printing::after,body.calendar-printing::before{display:none!important;content:none!important}
+ #calendar-print-sheet{display:block!important;page:calendar-sheet;width:210mm;padding:10mm;box-sizing:border-box;color:#17171c;background:#fff;font-family:var(--font-ui);print-color-adjust:exact;-webkit-print-color-adjust:exact}
+ #calendar-print-sheet h1{font-size:18pt;line-height:1.2;text-align:center;margin:0 0 6mm;padding:0}
+ #calendar-print-sheet .calendar-table{width:100%;table-layout:fixed;border-collapse:collapse;break-inside:avoid}
+ #calendar-print-sheet .calendar-table th{height:8mm;padding:2mm 1mm;font-size:9pt}
+ #calendar-print-sheet .calendar-table td{height:var(--print-week-height);padding:0;border:1px solid #c8c4c4;vertical-align:top}
+ #calendar-print-sheet .calendar-table th:first-child,#calendar-print-sheet .week-number{width:8mm}
+ #calendar-print-sheet .day-button{display:flex;flex-direction:column;align-items:stretch;justify-content:flex-start;width:100%;height:auto!important;min-height:0!important;padding:2mm;background:transparent;border:0;border-radius:0;box-shadow:none;text-align:left;color:inherit;gap:1mm}
+ #calendar-print-sheet .date-number{font-size:11pt;line-height:1.2;width:auto;height:auto;min-width:0;background:none!important;color:#202027!important;border:0;box-shadow:none;align-self:flex-end}
+ #calendar-print-sheet .day-event{display:flex!important;gap:1mm;white-space:normal;overflow:visible;height:auto;font-size:7.5pt;line-height:1.22;margin:0}
+ #calendar-print-sheet .event-label{display:block!important;white-space:normal!important;text-overflow:clip!important;overflow:visible!important;-webkit-line-clamp:unset!important;max-height:none!important;overflow-wrap:anywhere;font-size:7.5pt;line-height:1.22}
+ #calendar-print-sheet .dot{display:none!important}
+ #calendar-print-sheet .other-month{opacity:1!important;color:#666!important}
+ #calendar-print-sheet .selected-day,#calendar-print-sheet .is-today{outline:none!important;box-shadow:none!important}
+ #calendar-print-sheet button{font-family:inherit}
+ #calendar-print-sheet .year-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:4mm}
+ #calendar-print-sheet .mini-month{break-inside:avoid;padding:2mm;border:1px solid #ddd}
+ #calendar-print-sheet .mini-month h3{font-size:11pt;margin:0 0 2mm}
+ #calendar-print-sheet .mini-grid{display:grid;grid-template-columns:repeat(7,1fr);gap:0}
+ #calendar-print-sheet .mini-grid>*{font-size:8pt;min-height:5mm;padding:1mm;border:0;box-shadow:none}
+ #calendar-print-sheet .week-view{display:grid;grid-template-columns:1fr;gap:2mm}
+ #calendar-print-sheet .week-day{min-height:0;break-inside:avoid;padding:2mm}
+ #calendar-print-sheet .text-button,#calendar-print-sheet .event-actions{display:none!important}
+}
+
+@media print{#calendar-print-sheet .holiday .date-number{color:#8c1937!important}#calendar-print-sheet .is-today{background:#fff!important}}

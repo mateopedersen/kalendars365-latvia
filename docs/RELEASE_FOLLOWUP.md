@@ -7,3 +7,12 @@
 - Local build: 998 routes, 943 indexable, 55 noindex; 1001 HTML files; static audit errors: 0. Existing frontend 50 checks and locale 480 comparisons passed.
 - A visible-text scan of all generated HTML checked distinctive Slovenian residues. This automated/editorial work is not a claim of independent native-language certification.
 - Two university photographs remain unpublished because reuse rights were not verified. No substitute city photo is presented as a campus.
+
+## Print, individual month art and search appearance
+
+- Browser printing creates a dedicated calendar sheet, hides every other body section, displays full event labels and restores the normal page afterwards. Browser PDF verification: November 2026, 42 day cells, one A4 page; no metrics and no horizontal overflow.
+- Twelve month-specific 3D models replace generic printer/calendar icons on all month links. Related but different menu tools now have distinct models (weekly planner, shift clock, timetable, phases, seasons, sunrise, astronomy, names and vacations).
+- Download cards use one boundary and responsive 4/3/2/1-column layout; all 30 PDF/WebP buttons have format-specific SVGs.
+- Every HTML page uses topic-first titles with the pipe brand separator. Year example: Kalendārs 2027 | Kalendārs365. Open Graph and Twitter titles match.
+- Stable 48/96/180/192 PNG, multi-resolution ICO and SVG favicon assets, plus homepage WebSite name schema. Google display is determined by Google's crawl and processing.
+- 3015 presentation assertions passed across 1001 HTML files, favicon dimensions and unique month hashes. Existing 50 frontend assertions passed.

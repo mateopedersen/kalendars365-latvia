@@ -23,14 +23,14 @@ family: city_photos
     <h2>82 Latvijas pilsētas</h2>
     <p>Kalendārā vari izvēlēties jebkuru no 82 Latvijas pilsētām. Carnikavai pilsētas statuss piešķirts no 2026. gada 22. augusta — <a href="https://saeima.lv/en/news/saeima-news/36055-saeima-approves-city-status-for-carnikava">Saeimas paziņojums</a> un <a href="{{ site.data.cities.officialListSource }}">spēkā esošais likums</a>.</p>
     <p>Visā Latvijā ir vienāda laika josla — Europe/Riga (EET ziemā, EEST vasarā). Pilsētu fotogrāfijas ir arhīva attēli, nevis tiešraides kameras vai pašreizējo laikapstākļu attēlojums. Saules laiki tiek aprēķināti katras pilsētas centra koordinātām.</p>
-    <p class="fineprint">Pilsētu fotogrāfijas iegūtas no Wikimedia Commons. Tām izveidotas mazākas WebP kopijas; saskarnē iespējams kadrējums. Katrai fotogrāfijai norādīts autors, avota fails, licence un koordinātu atsauce. Pilsētu koordinātu avots: Wikidata P625. Pārbaudīts 2026. gada 9. novembrī.</p>
+    <p class="fineprint">Pilsētu fotogrāfijas iegūtas no Wikimedia Commons. Tām izveidotas mazākas Attēla kopijas; saskarnē iespējams kadrējums. Katrai fotogrāfijai norādīts autors, avota fails, licence un koordinātu atsauce. Pilsētu koordinātu avots: Wikidata P625. Pārbaudīts 2026. gada 9. novembrī.</p>
   </section>
 
   <div class="photo-catalog">
     {% for city in site.data.cities.cities %}
     <article id="{{ city.id }}">
       <img src="{{ city.photo.src }}" srcset="{{ city.photo.srcset }}" sizes="(max-width: 700px) 94vw, (max-width: 900px) 44vw, 31vw" alt="{{ city.photo.alt | escape }}" width="{{ city.photo.width }}" height="{{ city.photo.height }}" loading="lazy">
-      <div><h2><a href="/saullekts-saulriets/{{ city.id }}/">{{ city.name }}</a></h2><p>{{ city.photo.author | escape }} · <a href="{{ city.photo.licenseUrl | escape }}">{{ city.photo.license | escape }}</a></p><p><a href="{{ city.photo.sourceUrl | escape }}">Avota fotogrāfija Wikimedia Commons</a> · <a href="{{ city.photo.src }}">WebP kopija</a></p><small>{{ city.lat }}, {{ city.lon }} · {{ city.timeZone }} · <a href="{{ city.coordinateSource }}">Koordinātu avots</a></small></div>
+      <div><h2><a href="/saullekts-saulriets/{{ city.id }}/">{{ city.name }}</a></h2><p>{{ city.photo.author | escape }} · <a href="{{ city.photo.licenseUrl | escape }}">{{ city.photo.license | escape }}</a></p><p><a href="{{ city.photo.sourceUrl | escape }}">Avota fotogrāfija Wikimedia Commons</a> · <a href="{{ city.photo.src }}">Attēla kopija</a></p><small>{{ city.lat }}, {{ city.lon }} · {{ city.timeZone }} · <a href="{{ city.coordinateSource }}">Koordinātu avots</a></small></div>
     </article>
     {% endfor %}
   </div>
