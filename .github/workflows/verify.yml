@@ -28,6 +28,7 @@ jobs:
       - run: node test/sky_test.mjs
       - run: node test/astronomy-reference.test.mjs
       - run: node test/celestial-media.test.mjs
+      - run: node test/svg-art.test.cjs
       - run: node test/observations.test.mjs
       - run: node test/horoscope-edge.test.mjs
       - run: node test/presentation.test.cjs

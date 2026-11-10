@@ -1,5 +1,5 @@
 import fs from 'node:fs';
-const photo=name=>'data:image/webp;base64,'+fs.readFileSync(`assets/astronomy/${name}-disc.webp`).toString('base64');
+const photo=name=>'data:image/jpeg;base64,'+fs.readFileSync(`assets/astronomy/${name}-disc.jpg`).toString('base64');
 const defs='<defs><filter id="shadow" x="-40%" y="-40%" width="180%" height="190%"><feDropShadow dx="0" dy="9" stdDeviation="9" flood-color="#17202e" flood-opacity=".25"/></filter><clipPath id="disc"><circle cx="0" cy="0" r="1"/></clipPath></defs>';
 function disc(name,x,y,r,shade=''){return `<g transform="translate(${x} ${y})" filter="url(#shadow)"><g transform="scale(${r})" clip-path="url(#disc)"><image href="${photo(name)}" x="-1" y="-1" width="2" height="2"/>${shade}</g></g>`;}
 for(const [name,content] of [

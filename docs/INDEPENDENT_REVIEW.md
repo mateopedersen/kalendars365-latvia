@@ -29,3 +29,7 @@ W3C, otomatik araçların tek başına erişilebilirlik uygunluğunu belirleyeme
 - W3C erişilebilirlik değerlendirmesi: https://www.w3.org/WAI/test-evaluate/
 - Letonya DVI çerez ve gizlilik rehberi: https://www.dvi.gov.lv/lv/sikdatnes-un-privatuma-politika
 - Unicode CLDR Letonca: https://unicode.org/cldr/charts/49/summary/lv.html
+
+## SVG ortak motor düzeltmesi
+
+70 kategori/burç/bitki SVG dosyası ve beş marka/dosya SVG’si gerçek raster çıktılarıyla yan yana incelendi. Büyük taban yüzeylerinin ön ayrıntıları kapatması düzeltildi; saat kadranındaki dilim ve takvimdeki eksik kutucuk sorunlarının nedeni buydu. Oval yüzey normalleri, malzeme parlaklığı ve çerçeveye sığdırma düzeltildi. Hediye için halkalar yerine kurdele yüzeyleri; yeni açık kitap, buket, kalkan, saat, meşe yaprağı ve konik ağaç modelleri eklendi. Tekrarlanan küçük çizgi parçalarının geometri ağırlığı azaltıldı. Fotoğraf SVG’leri JPEG gömülü görüntü ile taşınabilir hale getirildi. Yeni boyut/çerçeve/sayısal değer kontrolleri tekrar büyüyen veya kesilen modelleri engeller. Bu kontroller fotoğraf gerçekçiliği garantisi değildir.
