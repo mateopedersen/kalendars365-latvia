@@ -153,7 +153,7 @@ def lunar_month_markup(year, month)
     label = "#{day}. #{MONTHS[month - 1]} #{year}."
     %(<button type="button" class="lunar-day#{date.cwday > 5 ? ' is-weekend' : ''}#{event ? ' has-exact-phase' : ''}" data-lunar-day="#{key}" aria-pressed="false" aria-label="#{h(label)} · Mēness apgaismojums tiek aprēķināts izvēlētajam datumam" title="#{h([event && "#{event['phase']} · #{event['time']} Rīgas laikā", holiday && (holiday['title'] || holiday['name'])].compact.join(' · '))}"><span class="lunar-day-number">#{day}</span><canvas class="lunar-day-moon" width="90" height="90" data-moon-canvas data-moon-date="#{key}" aria-hidden="true"></canvas><span class="lunar-day-percent" data-lunar-percent>—%</span>#{phase_mark}#{holiday_mark}</button>)
   end
-  day_names = %w[P. O. T. C. Pk. S. Sv.].map { |name| %(<span class="lunar-weekday" role="columnheader">#{name}</span>) }.join
+  day_names = %w[P. O. T. C. Pk. S. Sv.].map { |name| %(<span class="lunar-weekday">#{name}</span>) }.join
   month_slug = SLUGS[month - 1]
   previous_date = start_date << 1
   next_date = start_date >> 1
@@ -170,8 +170,8 @@ def lunar_month_markup(year, month)
     <div class="lunar-calendar-layout">
       <section class="lunar-calendar-card" aria-label="#{h(MONTHS[month - 1])} #{year}. gada Mēness kalendārs">
         <header class="lunar-calendar-heading"><div><span class="eyebrow">MĒNESS CIKLS · EUROPE/RIGA</span><h2>#{h(MONTHS[month - 1].capitalize)} #{year}</h2></div><span class="lunar-calendar-clock" data-lunar-local-label>Plkst. 12.00 · Rīga</span></header>
-        <div class="lunar-weekdays" role="row">#{day_names}</div>
-        <div class="lunar-day-grid" role="grid" aria-label="#{h(MONTHS[month - 1])} kalendāra dienas">#{(blanks + days).join}</div>
+        <div class="lunar-weekdays" aria-hidden="true">#{day_names}</div>
+        <div class="lunar-day-grid" role="group" aria-label="#{h(MONTHS[month - 1])} kalendāra dienas">#{(blanks + days).join}</div>
         <div class="lunar-legend"><span><i class="lunar-legend-phase"></i> Precīzs fāzes brīdis</span><span><i class="lunar-legend-holiday"></i> Latvijas brīvdiena</span></div>
       </section>
       <aside class="lunar-detail-card" data-lunar-detail aria-live="polite" aria-label="Izvēlētās dienas Mēness fāze">
@@ -188,6 +188,11 @@ def lunar_month_markup(year, month)
   </section>)
 end
 
+def lunar_cover(year)
+  key = {2026=>'moon-apollo8-earthrise',2027=>'moon-apollo17',2028=>'moon-keeler',2029=>'moon-bruce',2030=>'moon-artemis-earthrise'}.fetch(year, 'moon-apollo17')
+  JSON.parse(File.read('_data/astronomy-photos.json')).fetch('photos').find { |photo| photo['id'] == key }
+end
+
 def lunar_year_markup(year)
   data = JSON.parse(File.read('assets/calendar-data.json'))
   phases = data.fetch('moon', []).select { |event| event['date'].start_with?(year.to_s) }
@@ -200,7 +205,8 @@ def lunar_year_markup(year)
     %(<a class="lunar-year-month" href="#{path}"><span class="lunar-month-index">#{format('%02d', month)}</span><strong>#{h(MONTHS[month - 1].capitalize)}</strong><span>#{Date.new(year, month, -1).day} dienas</span><small>#{new_moons} jaunmēness · #{full_moons} pilnmēness</small><b>Atvērt mēnesi <i aria-hidden="true">↗</i></b></a>)
   end.join
   days = Date.gregorian_leap?(year) ? 366 : 365
-  %(<section class="lunar-year-page" data-lunar-year-overview><nav class="lunar-year-switch" aria-label="Gada izvēle">#{(2027..2030).map { |item| a("/meness-kalendars/#{item}/", item.to_s, item == year ? 'is-current' : '') }.join}</nav><header class="lunar-year-hero"><img src="/assets/moon-lro-mosaic.jpg" alt="" aria-hidden="true" width="1024" height="1024"><div class="lunar-year-hero-copy"><span class="eyebrow">GADA MĒNESS PĀRSKATS · LATVIJA</span><h2>#{year}</h2><p>#{days} dienas · #{phases.length} precīzi galveno fāžu brīži</p><a href="#lunar-months-#{year}">Izvēlies mēnesi ↓</a></div><span class="lunar-year-source">NASA · LRO / LROC</span></header><section class="lunar-year-months" id="lunar-months-#{year}"><div class="lunar-year-section-heading"><div><span class="eyebrow">Dienu pa dienai</span><h2>Izvēlies mēnesi</h2></div><p>Atver kalendāru, lai izvēlētos jebkuru dienu un apskatītu tās Mēness fāzi.</p></div><div class="lunar-year-grid">#{months}</div></section><p class="lunar-year-credit">Mēness virsmas fotomozaīka: <a href="https://svs.gsfc.nasa.gov/5001/" target="_blank" rel="noopener">NASA Scientific Visualization Studio · LRO/LROC</a>. Fāžu aprēķinu brīžus publicē <a href="https://aa.usno.navy.mil/data/api" target="_blank" rel="noopener">ASV Jūras observatorija (USNO)</a>.</p></section>)
+  cover = lunar_cover(year)
+  %(<section class="lunar-year-page" data-lunar-year-overview><nav class="lunar-year-switch" aria-label="Gada izvēle">#{(2027..2030).map { |item| a("/meness-kalendars/#{item}/", item.to_s, item == year ? 'is-current' : '') }.join}</nav><header class="lunar-year-hero" data-cover="#{h(cover['id'])}"><img src="#{h(cover['src'])}" alt="#{h(cover['alt'])}" width="#{cover['width']}" height="#{cover['height']}"><div class="lunar-year-hero-copy"><span class="eyebrow">GADA MĒNESS PĀRSKATS · LATVIJA</span><h2>#{year}</h2><p>#{days} dienas · #{phases.length} precīzi galveno fāžu brīži</p><a href="#lunar-months-#{year}">Izvēlies mēnesi ↓</a></div><span class="lunar-year-source">#{h(cover['credit'])}</span></header><section class="lunar-year-months" id="lunar-months-#{year}"><div class="lunar-year-section-heading"><div><span class="eyebrow">Dienu pa dienai</span><h2>Izvēlies mēnesi</h2></div><p>Atver kalendāru, lai izvēlētos jebkuru dienu un apskatītu tās Mēness fāzi.</p></div><div class="lunar-year-grid">#{months}</div></section><p class="lunar-year-credit">Vākiem izmantotas īstas NASA Apollo un Artemis I misiju fotogrāfijas. Tās ir vēsturiskas vāka ilustrācijas, nevis attiecīgā nākotnes gada uzņēmumi. <a href="/pilsetas-un-fotografijas/#astronomijas-fotografijas">Katra attēla avots un izmantošanas noteikumi</a>. Fāžu aprēķinu brīžus publicē <a href="https://aa.usno.navy.mil/data/api" target="_blank" rel="noopener">ASV Jūras observatorija (USNO)</a>.</p></section>)
 end
 
 def lunar_year_index_markup
@@ -208,9 +214,10 @@ def lunar_year_index_markup
   years = data.fetch('moon', []).map { |event| Date.parse(event['date']).year }.uniq.sort
   cards = years.map do |year|
     phases = data.fetch('moon', []).select { |event| event['date'].start_with?(year.to_s) }
-    %(<article class="lunar-year-card"><a class="lunar-year-card-image" href="/meness-kalendars/#{year}/" aria-label="Atvērt #{year}. gada Mēness pārskatu"><img src="/assets/moon-lro-mosaic.jpg" alt="" loading="lazy" width="1024" height="1024"><span>NASA · LRO / LROC</span><b>#{year}</b></a><div class="lunar-year-card-body"><p>#{Date.gregorian_leap?(year) ? 366 : 365} dienas <i></i> #{phases.length} precīzi fāžu brīži</p><a href="/meness-kalendars/#{year}/" class="lunar-year-open">Atvērt gada pārskatu <span aria-hidden="true">↗</span></a><h3>Izvēlies mēnesi</h3><nav aria-label="#{year}. gada mēneši" class="lunar-year-mini-months">#{(1..12).map { |month| a("/meness-kalendars/#{year}/#{SLUGS[month - 1]}/", format('%02d %s', month, MONTHS[month - 1].capitalize)) }.join}</nav></div></article>)
+    cover = lunar_cover(year)
+    %(<article class="lunar-year-card"><a class="lunar-year-card-image" data-cover="#{h(cover['id'])}" href="/meness-kalendars/#{year}/" aria-label="Atvērt #{year}. gada Mēness pārskatu"><img src="#{h(cover['src'])}" alt="#{h(cover['alt'])}" loading="lazy" width="#{cover['width']}" height="#{cover['height']}"><span>#{h(cover['credit'])}</span><b>#{year}</b></a><div class="lunar-year-card-body"><p>#{Date.gregorian_leap?(year) ? 366 : 365} dienas <i></i> #{phases.length} precīzi fāžu brīži</p><a href="/meness-kalendars/#{year}/" class="lunar-year-open">Atvērt gada pārskatu <span aria-hidden="true">↗</span></a><h3>Izvēlies mēnesi</h3><nav aria-label="#{year}. gada mēneši" class="lunar-year-mini-months">#{(1..12).map { |month| a("/meness-kalendars/#{year}/#{SLUGS[month - 1]}/", format('%02d %s', month, MONTHS[month - 1].capitalize)) }.join}</nav></div></article>)
   end.join
-  %(<section class="lunar-year-index"><p class="lead">Izvēlies gadu, tad mēnesi. Katrā kalendāra dienā redzams attiecīgā datuma aprēķinātais Mēness apgaismojums; pieskaries dienai, lai atvērtu plašāku skatu.</p><div class="lunar-year-index-grid">#{cards}</div><p class="lunar-year-credit">Mēness virsmas fotomozaīka: <a href="https://svs.gsfc.nasa.gov/5001/" target="_blank" rel="noopener">NASA Scientific Visualization Studio · LRO/LROC</a>. Precīzie fāžu brīži: <a href="https://aa.usno.navy.mil/data/api" target="_blank" rel="noopener">USNO</a>.</p></section>)
+  %(<section class="lunar-year-index"><p class="lead">Izvēlies gadu, tad mēnesi. Katrā kalendāra dienā redzams attiecīgā datuma aprēķinātais Mēness apgaismojums; pieskaries dienai, lai atvērtu plašāku skatu.</p><div class="lunar-year-index-grid">#{cards}</div><p class="lunar-year-credit">Vākiem izmantotas īstas NASA Apollo un Artemis I misiju fotogrāfijas. Tās ir vēsturiskas vāka ilustrācijas, nevis attiecīgā nākotnes gada uzņēmumi. <a href="/pilsetas-un-fotografijas/#astronomijas-fotografijas">Katra attēla avots un izmantošanas noteikumi</a>. Precīzie fāžu brīži: <a href="https://aa.usno.navy.mil/data/api" target="_blank" rel="noopener">USNO</a>.</p></section>)
 end
 
 def observance_collection_markup

@@ -1,0 +1,110 @@
+[
+  {
+    "city": "riga",
+    "date": "2027-06-21",
+    "tz": 3,
+    "source": "https://aa.usno.navy.mil/api/rstt/oneday?date=2027-06-21&coords=56.9475%2C24.106944&tz=3",
+    "file": "_data/reference/astronomy/riga-2027-06-21.json",
+    "sha256": "981381229f8b40522ecd7fbdc209bcd54e3191406c49f7e31f5033766ac7f7b4",
+    "checkedAt": "2026-11-10"
+  },
+  {
+    "city": "riga",
+    "date": "2027-12-21",
+    "tz": 2,
+    "source": "https://aa.usno.navy.mil/api/rstt/oneday?date=2027-12-21&coords=56.9475%2C24.106944&tz=2",
+    "file": "_data/reference/astronomy/riga-2027-12-21.json",
+    "sha256": "6c78869b3101511db14639f3925fe9196adb20826c860a3319bf370a06fbe8f1",
+    "checkedAt": "2026-11-10"
+  },
+  {
+    "city": "liepaja",
+    "date": "2027-03-21",
+    "tz": 2,
+    "source": "https://aa.usno.navy.mil/api/rstt/oneday?date=2027-03-21&coords=56.508333%2C21.011111&tz=2",
+    "file": "_data/reference/astronomy/liepaja-2027-03-21.json",
+    "sha256": "8c6e701f6ae5b1ddd933645ce8e4151202ed534cd51cc9909798be622ffc60d4",
+    "checkedAt": "2026-11-10"
+  },
+  {
+    "city": "daugavpils",
+    "date": "2027-09-23",
+    "tz": 3,
+    "source": "https://aa.usno.navy.mil/api/rstt/oneday?date=2027-09-23&coords=55.871389%2C26.516111&tz=3",
+    "file": "_data/reference/astronomy/daugavpils-2027-09-23.json",
+    "sha256": "d42300228cfd2dfc37027cf1ecd60564ede521bcdbe3465ab9adb34ff3170458",
+    "checkedAt": "2026-11-10"
+  },
+  {
+    "city": "riga",
+    "date": "2028-02-29",
+    "tz": 2,
+    "source": "https://aa.usno.navy.mil/api/rstt/oneday?date=2028-02-29&coords=56.9475%2C24.106944&tz=2",
+    "file": "_data/reference/astronomy/riga-2028-02-29.json",
+    "sha256": "a712ed0e30c7367a098e1ce6942adeb9123cefe9e596dfdc467c848a83b34659",
+    "checkedAt": "2026-11-10"
+  },
+  {
+    "city": "ventspils",
+    "date": "2028-06-21",
+    "tz": 3,
+    "source": "https://aa.usno.navy.mil/api/rstt/oneday?date=2028-06-21&coords=57.389722%2C21.564444&tz=3",
+    "file": "_data/reference/astronomy/ventspils-2028-06-21.json",
+    "sha256": "f4f569d4c054f3c0acf3a6acc239adabdbbf99f15e42927efa2bd1579e5d3f21",
+    "checkedAt": "2026-11-10"
+  },
+  {
+    "city": "aluksne",
+    "date": "2028-12-21",
+    "tz": 2,
+    "source": "https://aa.usno.navy.mil/api/rstt/oneday?date=2028-12-21&coords=57.423889%2C27.050278&tz=2",
+    "file": "_data/reference/astronomy/aluksne-2028-12-21.json",
+    "sha256": "c3ef6b79add84ef9f452adae8237f5fdbed90709fd4ea5afe2bd5447689bed3e",
+    "checkedAt": "2026-11-10"
+  },
+  {
+    "city": "daugavpils",
+    "date": "2029-01-01",
+    "tz": 2,
+    "source": "https://aa.usno.navy.mil/api/rstt/oneday?date=2029-01-01&coords=55.871389%2C26.516111&tz=2",
+    "file": "_data/reference/astronomy/daugavpils-2029-01-01.json",
+    "sha256": "b30b704c463fd97fa98dda68d548da37a7a8d0b80bc946fe1beb8d18dbf52f03",
+    "checkedAt": "2026-11-10"
+  },
+  {
+    "city": "liepaja",
+    "date": "2029-07-01",
+    "tz": 3,
+    "source": "https://aa.usno.navy.mil/api/rstt/oneday?date=2029-07-01&coords=56.508333%2C21.011111&tz=3",
+    "file": "_data/reference/astronomy/liepaja-2029-07-01.json",
+    "sha256": "301774deca109ea8d2a7f8d77eb5a30dacd90a5537b558b19410d36acb14096e",
+    "checkedAt": "2026-11-10"
+  },
+  {
+    "city": "riga",
+    "date": "2030-04-01",
+    "tz": 3,
+    "source": "https://aa.usno.navy.mil/api/rstt/oneday?date=2030-04-01&coords=56.9475%2C24.106944&tz=3",
+    "file": "_data/reference/astronomy/riga-2030-04-01.json",
+    "sha256": "51695750ed4ec85141eb682d63e2a050ee06599e8fa94af349eec560c72de94d",
+    "checkedAt": "2026-11-10"
+  },
+  {
+    "city": "zilupe",
+    "date": "2030-06-21",
+    "tz": 3,
+    "source": "https://aa.usno.navy.mil/api/rstt/oneday?date=2030-06-21&coords=56.385556%2C28.1225&tz=3",
+    "file": "_data/reference/astronomy/zilupe-2030-06-21.json",
+    "sha256": "4bc5a0be6f4180ee02405e5101ad2aebead400381fde14947a33e0e6aeb91522",
+    "checkedAt": "2026-11-10"
+  },
+  {
+    "city": "ainazi",
+    "date": "2030-12-21",
+    "tz": 2,
+    "source": "https://aa.usno.navy.mil/api/rstt/oneday?date=2030-12-21&coords=57.863611%2C24.358611&tz=2",
+    "file": "_data/reference/astronomy/ainazi-2030-12-21.json",
+    "sha256": "bb3827276b4917b95e0b6282bc5d21350d04fc4f61c6dde23531751a78185a02",
+    "checkedAt": "2026-11-10"
+  }
+]

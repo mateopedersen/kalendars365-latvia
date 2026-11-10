@@ -1,0 +1,394 @@
+{
+  "checkedAt": "2026-11-10",
+  "tool": "axe-core 4.14.0",
+  "mode": "WCAG A/AA 2.0/2.1/2.2 rules; reduced motion; desktop rendered pages",
+  "scope": "Automated rules on representative pages, with incomplete checks recorded. Not a certification.",
+  "results": [
+    {
+      "path": "/_site/",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "aria-prohibited-attr",
+          "count": 2
+        },
+        {
+          "id": "color-contrast",
+          "count": 42
+        }
+      ],
+      "passes": 29
+    },
+    {
+      "path": "/_site/atceres-dienas/2026/",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "count": 39
+        }
+      ],
+      "passes": 22
+    },
+    {
+      "path": "/_site/atceres-dienas/aprilis/",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "count": 17
+        }
+      ],
+      "passes": 24
+    },
+    {
+      "path": "/_site/darba-dienu-kalendars/2026/",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "count": 40
+        }
+      ],
+      "passes": 29
+    },
+    {
+      "path": "/_site/darba-dienu-kalendars/2026/aprilis/",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "count": 40
+        }
+      ],
+      "passes": 29
+    },
+    {
+      "path": "/_site/garas-brivdienas/2027/",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "count": 32
+        }
+      ],
+      "passes": 29
+    },
+    {
+      "path": "/_site/horoskops/auns/",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "count": 28
+        }
+      ],
+      "passes": 23
+    },
+    {
+      "path": "/_site/kalendars-ar-vardu/alise/",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "count": 23
+        }
+      ],
+      "passes": 24
+    },
+    {
+      "path": "/_site/kalendars/2026/",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "count": 32
+        }
+      ],
+      "passes": 24
+    },
+    {
+      "path": "/_site/kalendars/2026/aprilis/",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "aria-prohibited-attr",
+          "count": 2
+        },
+        {
+          "id": "color-contrast",
+          "count": 38
+        }
+      ],
+      "passes": 30
+    },
+    {
+      "path": "/_site/menesa-kalendars/2026/",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "count": 33
+        }
+      ],
+      "passes": 20
+    },
+    {
+      "path": "/_site/meness-kalendars/2026/",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "count": 78
+        }
+      ],
+      "passes": 21
+    },
+    {
+      "path": "/_site/meness-kalendars/2026/aprilis/",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "count": 111
+        }
+      ],
+      "passes": 29
+    },
+    {
+      "path": "/_site/meness-lekts-un-riets/",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "count": 113
+        }
+      ],
+      "passes": 30
+    },
+    {
+      "path": "/_site/meness-lekts-un-riets/adazi/",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "count": 36
+        }
+      ],
+      "passes": 30
+    },
+    {
+      "path": "/_site/nedelas-kalendars/2026/",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "count": 71
+        }
+      ],
+      "passes": 20
+    },
+    {
+      "path": "/_site/nedelas-kalendars/2026/01/",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "aria-prohibited-attr",
+          "count": 2
+        },
+        {
+          "id": "color-contrast",
+          "count": 39
+        }
+      ],
+      "passes": 27
+    },
+    {
+      "path": "/_site/pdf-kalendari/2026/",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "count": 35
+        }
+      ],
+      "passes": 21
+    },
+    {
+      "path": "/_site/pdf-kalendari/2026/aprilis/",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "count": 23
+        }
+      ],
+      "passes": 24
+    },
+    {
+      "path": "/_site/saullekts-saulriets/adazi/",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "count": 38
+        }
+      ],
+      "passes": 30
+    },
+    {
+      "path": "/_site/sejas-kalendars/",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "count": 40
+        }
+      ],
+      "passes": 27
+    },
+    {
+      "path": "/_site/sejas-kalendars/menesis/aprilis/",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "count": 36
+        }
+      ],
+      "passes": 27
+    },
+    {
+      "path": "/_site/skolas-brivlaiki/2026-27/",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "count": 44
+        }
+      ],
+      "passes": 25
+    },
+    {
+      "path": "/_site/skolas-brivlaiki/2027/",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "count": 27
+        }
+      ],
+      "passes": 22
+    },
+    {
+      "path": "/_site/svetki-un-tradicijas/advente/",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "count": 25
+        }
+      ],
+      "passes": 22
+    },
+    {
+      "path": "/_site/svetki-un-tradicijas/baltu-vienibas-diena/",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "count": 17
+        }
+      ],
+      "passes": 23
+    },
+    {
+      "path": "/_site/svetku-dienas/2026/",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "count": 39
+        }
+      ],
+      "passes": 22
+    },
+    {
+      "path": "/_site/svetku-dienas/2026/aprilis/",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "count": 39
+        }
+      ],
+      "passes": 22
+    },
+    {
+      "path": "/_site/varda-dienas/aprilis/",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "count": 18
+        }
+      ],
+      "passes": 23
+    },
+    {
+      "path": "/_site/pilsetas-un-fotografijas/",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "count": 41
+        }
+      ],
+      "passes": 21
+    },
+    {
+      "path": "/_site/meness-kalendars/",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "count": 23
+        }
+      ],
+      "passes": 21
+    },
+    {
+      "path": "/_site/studiju-kalendars/",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "count": 51
+        }
+      ],
+      "passes": 23
+    },
+    {
+      "path": "/_site/privatuma-politika/",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "count": 20
+        }
+      ],
+      "passes": 20
+    },
+    {
+      "path": "/_site/404.html",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "count": 12
+        }
+      ],
+      "passes": 20
+    }
+  ]
+}

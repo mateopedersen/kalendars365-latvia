@@ -1,0 +1,13 @@
+{
+  "checkedAt": "2026-11-10",
+  "pages": 1001,
+  "criteria": [
+    "lv document language",
+    "single main landmark",
+    "single h1",
+    "img alt attributes",
+    "unique HTML ids"
+  ],
+  "issues": [],
+  "scope": "Static markup checks; not full WCAG conformance or native editorial approval."
+}

@@ -1,0 +1,203 @@
+{
+  "checkedAt": "2026-11-10",
+  "checks": 268,
+  "usnoCityDateSamples": 12,
+  "phaseEvents": 198,
+  "maxSunErrorSeconds": 26,
+  "maxMoonErrorSeconds": 31,
+  "maxIlluminationErrorPercentagePoints": 0.48,
+  "maxPhaseErrorSeconds": 78,
+  "samples": [
+    {
+      "city": "riga",
+      "date": "2027-06-21",
+      "tz": 3,
+      "source": "https://aa.usno.navy.mil/api/rstt/oneday?date=2027-06-21&coords=56.9475%2C24.106944&tz=3",
+      "file": "_data/reference/astronomy/riga-2027-06-21.json",
+      "sha256": "981381229f8b40522ecd7fbdc209bcd54e3191406c49f7e31f5033766ac7f7b4",
+      "checkedAt": "2026-11-10",
+      "errors": {
+        "sunrise": 5.2,
+        "sunset": 22.3,
+        "moonset": 7.5
+      },
+      "illuminationError": 0.04
+    },
+    {
+      "city": "riga",
+      "date": "2027-12-21",
+      "tz": 2,
+      "source": "https://aa.usno.navy.mil/api/rstt/oneday?date=2027-12-21&coords=56.9475%2C24.106944&tz=2",
+      "file": "_data/reference/astronomy/riga-2027-12-21.json",
+      "sha256": "6c78869b3101511db14639f3925fe9196adb20826c860a3319bf370a06fbe8f1",
+      "checkedAt": "2026-11-10",
+      "errors": {
+        "sunrise": 16.4,
+        "sunset": 15.7,
+        "moonrise": 11.9,
+        "moonset": 18.6
+      },
+      "illuminationError": 0.27
+    },
+    {
+      "city": "liepaja",
+      "date": "2027-03-21",
+      "tz": 2,
+      "source": "https://aa.usno.navy.mil/api/rstt/oneday?date=2027-03-21&coords=56.508333%2C21.011111&tz=2",
+      "file": "_data/reference/astronomy/liepaja-2027-03-21.json",
+      "sha256": "8c6e701f6ae5b1ddd933645ce8e4151202ed534cd51cc9909798be622ffc60d4",
+      "checkedAt": "2026-11-10",
+      "errors": {
+        "sunrise": 26.2,
+        "sunset": 13.1,
+        "moonrise": 4.7,
+        "moonset": 10.2
+      },
+      "illuminationError": 0.43
+    },
+    {
+      "city": "daugavpils",
+      "date": "2027-09-23",
+      "tz": 3,
+      "source": "https://aa.usno.navy.mil/api/rstt/oneday?date=2027-09-23&coords=55.871389%2C26.516111&tz=3",
+      "file": "_data/reference/astronomy/daugavpils-2027-09-23.json",
+      "sha256": "d42300228cfd2dfc37027cf1ecd60564ede521bcdbe3465ab9adb34ff3170458",
+      "checkedAt": "2026-11-10",
+      "errors": {
+        "sunrise": 23.6,
+        "sunset": 17.7,
+        "moonrise": 10.5,
+        "moonset": 2.6
+      },
+      "illuminationError": 0.25
+    },
+    {
+      "city": "riga",
+      "date": "2028-02-29",
+      "tz": 2,
+      "source": "https://aa.usno.navy.mil/api/rstt/oneday?date=2028-02-29&coords=56.9475%2C24.106944&tz=2",
+      "file": "_data/reference/astronomy/riga-2028-02-29.json",
+      "sha256": "a712ed0e30c7367a098e1ce6942adeb9123cefe9e596dfdc467c848a83b34659",
+      "checkedAt": "2026-11-10",
+      "errors": {
+        "sunrise": 7.5,
+        "sunset": 3.4,
+        "moonrise": 13.2,
+        "moonset": 22.2
+      },
+      "illuminationError": 0.04
+    },
+    {
+      "city": "ventspils",
+      "date": "2028-06-21",
+      "tz": 3,
+      "source": "https://aa.usno.navy.mil/api/rstt/oneday?date=2028-06-21&coords=57.389722%2C21.564444&tz=3",
+      "file": "_data/reference/astronomy/ventspils-2028-06-21.json",
+      "sha256": "f4f569d4c054f3c0acf3a6acc239adabdbbf99f15e42927efa2bd1579e5d3f21",
+      "checkedAt": "2026-11-10",
+      "errors": {
+        "sunrise": 20.5,
+        "sunset": 18,
+        "moonrise": 8.1,
+        "moonset": 21.7
+      },
+      "illuminationError": 0.48
+    },
+    {
+      "city": "aluksne",
+      "date": "2028-12-21",
+      "tz": 2,
+      "source": "https://aa.usno.navy.mil/api/rstt/oneday?date=2028-12-21&coords=57.423889%2C27.050278&tz=2",
+      "file": "_data/reference/astronomy/aluksne-2028-12-21.json",
+      "sha256": "c3ef6b79add84ef9f452adae8237f5fdbed90709fd4ea5afe2bd5447689bed3e",
+      "checkedAt": "2026-11-10",
+      "errors": {
+        "sunrise": 5.8,
+        "sunset": 18,
+        "moonrise": 20.8,
+        "moonset": 12.2
+      },
+      "illuminationError": 0.33
+    },
+    {
+      "city": "daugavpils",
+      "date": "2029-01-01",
+      "tz": 2,
+      "source": "https://aa.usno.navy.mil/api/rstt/oneday?date=2029-01-01&coords=55.871389%2C26.516111&tz=2",
+      "file": "_data/reference/astronomy/daugavpils-2029-01-01.json",
+      "sha256": "b30b704c463fd97fa98dda68d548da37a7a8d0b80bc946fe1beb8d18dbf52f03",
+      "checkedAt": "2026-11-10",
+      "errors": {
+        "sunrise": 13.4,
+        "sunset": 13.7,
+        "moonrise": 5.1,
+        "moonset": 30.1
+      },
+      "illuminationError": 0.37
+    },
+    {
+      "city": "liepaja",
+      "date": "2029-07-01",
+      "tz": 3,
+      "source": "https://aa.usno.navy.mil/api/rstt/oneday?date=2029-07-01&coords=56.508333%2C21.011111&tz=3",
+      "file": "_data/reference/astronomy/liepaja-2029-07-01.json",
+      "sha256": "301774deca109ea8d2a7f8d77eb5a30dacd90a5537b558b19410d36acb14096e",
+      "checkedAt": "2026-11-10",
+      "errors": {
+        "sunrise": 20.3,
+        "sunset": 17.6,
+        "moonset": 17.6
+      },
+      "illuminationError": 0.25
+    },
+    {
+      "city": "riga",
+      "date": "2030-04-01",
+      "tz": 3,
+      "source": "https://aa.usno.navy.mil/api/rstt/oneday?date=2030-04-01&coords=56.9475%2C24.106944&tz=3",
+      "file": "_data/reference/astronomy/riga-2030-04-01.json",
+      "sha256": "51695750ed4ec85141eb682d63e2a050ee06599e8fa94af349eec560c72de94d",
+      "checkedAt": "2026-11-10",
+      "errors": {
+        "sunrise": 19.7,
+        "sunset": 5,
+        "moonrise": 23.2,
+        "moonset": 24.3
+      },
+      "illuminationError": 0.46
+    },
+    {
+      "city": "zilupe",
+      "date": "2030-06-21",
+      "tz": 3,
+      "source": "https://aa.usno.navy.mil/api/rstt/oneday?date=2030-06-21&coords=56.385556%2C28.1225&tz=3",
+      "file": "_data/reference/astronomy/zilupe-2030-06-21.json",
+      "sha256": "4bc5a0be6f4180ee02405e5101ad2aebead400381fde14947a33e0e6aeb91522",
+      "checkedAt": "2026-11-10",
+      "errors": {
+        "sunrise": 18.1,
+        "sunset": 1,
+        "moonrise": 21.5,
+        "moonset": 10.6
+      },
+      "illuminationError": 0.23
+    },
+    {
+      "city": "ainazi",
+      "date": "2030-12-21",
+      "tz": 2,
+      "source": "https://aa.usno.navy.mil/api/rstt/oneday?date=2030-12-21&coords=57.863611%2C24.358611&tz=2",
+      "file": "_data/reference/astronomy/ainazi-2030-12-21.json",
+      "sha256": "bb3827276b4917b95e0b6282bc5d21350d04fc4f61c6dde23531751a78185a02",
+      "checkedAt": "2026-11-10",
+      "errors": {
+        "sunrise": 11.3,
+        "sunset": 25.8,
+        "moonrise": 31.2,
+        "moonset": 16.1
+      },
+      "illuminationError": 0.42
+    }
+  ],
+  "scope": "External primary-source numerical comparison; not an independent astronomer certification."
+}

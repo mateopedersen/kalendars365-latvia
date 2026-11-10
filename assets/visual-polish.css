@@ -130,3 +130,29 @@
 .design-card>.actions>button>.icon{width:29px!important;height:29px!important}
 
 #calendar-month{max-width:150px;min-width:112px}#print-form button[name="format"]{display:inline-flex;align-items:center;justify-content:center;gap:9px}#print-form button[name="format"] .icon{width:29px;height:29px}#print-form .download-arrow{width:18px;height:18px}
+
+/* Readability corrections verified against rendered WCAG contrast checks. */
+:root{--muted:#596170}
+#city-daylight,.calendar-table th,.calendar-table .week-number,.calendar-table .week-number a,.calendar-table .week-num,.calendar-table .week-num a,.eyebrow{color:#536071}
+.calendar-table .other-month .date-number,.calendar-table .outside .date-number{color:#596170;opacity:1}
+.consent-banner a,.cookie-banner a,#consent-banner a,.page-content p a,.tool-panel p a{text-decoration:underline;text-underline-offset:.18em}
+:focus-visible{outline:3px solid #751d2d;outline-offset:3px}
+.station-observation{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:8px 14px;margin:0 0 16px;padding:15px 16px;border:1px solid #d8d5d3;border-radius:16px;background:linear-gradient(135deg,#fff,#f4f1ec);color:#29343b;overflow-wrap:anywhere}
+.station-observation>div{min-width:0}.station-observation strong{display:block;font-size:14px}.station-observation>#station-observation-value{font-size:22px;font-variant-numeric:tabular-nums;white-space:nowrap;align-self:center}.station-eyebrow{display:block;margin-bottom:5px;font-size:9px;font-weight:800;letter-spacing:.13em;color:#536071}.station-observation p,.station-observation small{grid-column:1/-1;margin:0;color:#4f5a65;font-size:11px;line-height:1.6}.station-observation a{text-decoration:underline;text-underline-offset:2px}.station-observation[data-state=unavailable]{background:#f5f3ef}
+@media(prefers-reduced-motion:reduce){*,*:before,*:after{animation:none!important;transition:none!important;scroll-behavior:auto!important}}
+
+#city-card #city-daylight,.section-heading .eyebrow,.breadcrumbs [aria-current=page]{color:#536071}
+.page-heading--moon .page-heading-art-icon,.page-heading--astronomy .page-heading-art-icon{width:100%;height:100%;max-height:290px;object-fit:contain;filter:none;transform:none}
+.astronomy-photo-license-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,240px),1fr));gap:18px}.astronomy-photo-license-grid figure{margin:0;overflow:hidden;border:1px solid #ded7d4;border-radius:16px;background:#fff}.astronomy-photo-license-grid img{display:block;width:100%;height:190px;object-fit:cover;background:#04070b}.astronomy-photo-license-grid figcaption{padding:16px;font-size:12px;line-height:1.65}.astronomy-photo-license-grid figcaption p{font-size:12px}.astronomy-photo-license-grid a{text-decoration:underline}
+
+.breadcrumbs>span,.lunar-calendar-heading .lunar-calendar-clock{color:#536071}
+.sky-intro .sky-overline{color:#805363}
+.garden-section-heading .eyebrow{color:#814457}.garden-section-heading>p,.garden-filter-note,.garden-crop-copy .garden-source-links,.garden-crop-copy .garden-season-note{color:#63545c}
+.garden-crop-copy .garden-source-links,.garden-crop-copy .garden-season-note{font-size:11px}
+.occasion-page .section-heading>span,.section-heading>span{color:#764354}
+.occasion-page article small,.occasion-related article small,.related-occasion-grid article small{color:#5e535a}
+.study-calendar-card figcaption,.study-calendar-card .study-event-kind{color:#5c535a}.study-calendar-card .study-event-kind{font-size:10px}
+.page-shell p a{text-decoration:underline;text-underline-offset:.17em}
+.photo-catalog a,.page-shell li>a{display:inline-flex;align-items:center;min-height:24px;max-width:100%;overflow-wrap:anywhere}
+
+.occasion-dates .section-heading>span,.occasion-year-cards small{color:#674b58}

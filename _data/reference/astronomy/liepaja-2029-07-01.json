@@ -1,0 +1,63 @@
+{
+  "apiversion": "4.0.1", 
+  "geometry": {
+    "coordinates": [
+      21.011111, 
+      56.508333
+    ], 
+    "type": "Point"
+  }, 
+  "properties": {
+    "data": {
+      "closestphase": {
+        "day": 3, 
+        "month": 7, 
+        "phase": "Last Quarter", 
+        "time": "20:57", 
+        "year": 2029
+      }, 
+      "curphase": "Waning Gibbous", 
+      "day": 1, 
+      "day_of_week": "Sunday", 
+      "fracillum": "72%", 
+      "isdst": false, 
+      "label": null, 
+      "month": 7, 
+      "moondata": [
+        {
+          "phen": "Upper Transit", 
+          "time": "05:38"
+        }, 
+        {
+          "phen": "Set", 
+          "time": "11:35"
+        }
+      ], 
+      "sundata": [
+        {
+          "phen": "Begin Civil Twilight", 
+          "time": "03:47"
+        }, 
+        {
+          "phen": "Rise", 
+          "time": "04:51"
+        }, 
+        {
+          "phen": "Upper Transit", 
+          "time": "13:40"
+        }, 
+        {
+          "phen": "Set", 
+          "time": "22:29"
+        }, 
+        {
+          "phen": "End Civil Twilight", 
+          "time": "23:32"
+        }
+      ], 
+      "tz": 3.0, 
+      "year": 2029
+    }
+  }, 
+  "type": "Feature"
+}

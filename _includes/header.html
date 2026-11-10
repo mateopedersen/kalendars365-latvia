@@ -10,7 +10,7 @@
     <span class="country"><span class="latvian-flag" aria-hidden="true"></span>Latvija</span>
   </div>
   <nav class="secondary-nav" aria-label="Kalendāri un rīki">
-    <div class="nav-years"><a class="nav-years-label" href="/kalendars/"><svg class="icon" aria-hidden="true"><use href="#i-calendar"/></svg><span>Kalendāri</span></a>{% for year in (2027..2030) %}<a href="/kalendars/{{ year }}/">{{ year }}</a>{% endfor %}</div>
+    <div class="nav-years"><a class="nav-years-label" href="/kalendars/" aria-label="Gada kalendāri"><svg class="icon" aria-hidden="true"><use href="#i-calendar"/></svg><span>Kalendāri</span></a>{% for year in (2027..2030) %}<a href="/kalendars/{{ year }}/">{{ year }}</a>{% endfor %}</div>
     <a class="nav-shortcut" href="/pdf-kalendari/"><svg class="icon" aria-hidden="true"><use href="#i-print"/></svg>PDF kalendāri</a>
     <a class="nav-shortcut" href="/darba-dienu-kalendars/"><svg class="icon" aria-hidden="true"><use href="#i-briefcase"/></svg>Darba dienas</a>
     <a class="nav-shortcut" href="/datumu-kalkulators/"><svg class="icon" aria-hidden="true"><use href="#i-calculator"/></svg>Datumu kalkulators</a>

@@ -64,3 +64,14 @@ button.lunar-day.is-weekend:not(.is-selected){background:linear-gradient(155deg,
   button.lunar-day{min-height:23mm;padding:1mm;border:1px solid #cbd3dc;border-radius:2mm;box-shadow:none;break-inside:avoid}
   .lunar-day-number{font-size:10pt}.lunar-day-moon{width:12mm;height:12mm;filter:none}.lunar-day-percent{font-size:8pt}.lunar-phase-mark,.lunar-holiday-mark{font-size:6pt}
 }
+
+/* Historical mission photographs are covers; lunar-day canvases retain the physical model. */
+.lunar-year-card-image,.lunar-year-hero{background:#05090f}
+.lunar-year-card-image>img,.lunar-year-hero>img{opacity:1;filter:none}
+.lunar-year-card-image:after,.lunar-year-hero:after{background:linear-gradient(90deg,#05090fe6 0%,#05090f80 42%,#05090f05 78%),linear-gradient(0deg,#05090f70,transparent 65%)}
+.lunar-year-card-image[data-cover=moon-apollo17]>img,.lunar-year-hero[data-cover=moon-apollo17]>img{inset:0 0 0 auto;width:66%;height:100%;object-fit:contain;object-position:right center}
+.lunar-year-card-image[data-cover=moon-keeler]>img,.lunar-year-hero[data-cover=moon-keeler]>img{object-position:center 45%}
+.lunar-year-card-image[data-cover=moon-artemis-earthrise]>img,.lunar-year-hero[data-cover=moon-artemis-earthrise]>img{object-position:center 68%}
+.page-heading--moon .page-heading-art-icon,.page-heading--astronomy .page-heading-art-icon{width:100%;height:100%;max-height:290px;object-fit:contain;filter:none;transform:none}
+.astronomy-photo-license-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,240px),1fr));gap:18px}.astronomy-photo-license-grid figure{margin:0;overflow:hidden;border:1px solid #ded7d4;border-radius:16px;background:#fff}.astronomy-photo-license-grid img{display:block;width:100%;height:190px;object-fit:cover;background:#04070b}.astronomy-photo-license-grid figcaption{padding:16px;font-size:12px;line-height:1.65}.astronomy-photo-license-grid figcaption p{font-size:12px}.astronomy-photo-license-grid a{text-decoration:underline}
+.lunar-year-card-image[data-cover=moon-apollo8-earthrise]>img,.lunar-year-hero[data-cover=moon-apollo8-earthrise]>img{inset:0 0 0 auto;width:76%;height:100%;object-fit:contain;object-position:right center}
