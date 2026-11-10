@@ -1,6 +1,6 @@
 {
-  "asset_version": "3bc32174a5f36c1d",
-  "sha256": "3bc32174a5f36c1d5862ae80c6cf34896f3e065f8f76b701ef6f662ea7048f0a",
+  "asset_version": "9b043e04b69dd2f7",
+  "sha256": "9b043e04b69dd2f7ead73ca3fc4a8ef7e0c31d9363137f234724911191c06816",
   "files": {
     "assets/app.js": "1f3bb3f0e81453d28b3b29cc154e7b2b470fe10d1f54fee44c56de413ef17191",
     "assets/astronomy/earth-apollo17.webp": "dea132e5e8949d97de1697f74dc88923f92a7d9fbea793acc495c9d8dda35361",
@@ -39,7 +39,7 @@
     "assets/category-art/month-9.svg": "e304ac011745c137b26821a5f77c0c22d979eadd610a49a40ca7945095084273",
     "assets/category-art/moon.svg": "a22d1f1f0ada46c273f13cf54419d76760b083b27c188c627c3c032f0e7389c3",
     "assets/category-art/names.svg": "4083b2441e45e369cbb2d5516c71271bfe080c4c11c221de6d440cd086150e93",
-    "assets/category-art/pdf.svg": "bcc1e9bbaa6dbc09a0cd8054d3d67e10e1ea703dc3c681f34355fc26780d4124",
+    "assets/category-art/pdf.svg": "625ad1c5d640288101276f9fea7bccc88cbe9ee858b7adfd538d72f1fcdfe5ae",
     "assets/category-art/phases.svg": "19b1dba28694615e5221a1c8b01fa94b6779bc1e0bef3e418a1e23f5e68f0d7a",
     "assets/category-art/planner.svg": "f4a5ea0685b4a296810c6d01d394eb75330928c7ad75b8f16cbc82cf126c5d6d",
     "assets/category-art/print.svg": "7dbcdb88880ddb4206fbd7726e096f53228fb27921f3260f9f70b4308a4ab2ca",

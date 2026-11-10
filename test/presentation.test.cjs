@@ -6,6 +6,7 @@ for(const f of walk('_site').filter(x=>x.endsWith('.html'))){
  assert.ok(title?.endsWith(' | Kalendārs365'),f+' title suffix');
  assert.ok(!/ [-–—·] /.test(title),f+' title separator');
  assert.ok(s.includes('sizes="96x96" href="/assets/favicon-96.png"'),f+' favicon');count+=3;
+ const staleArt=[...s.matchAll(/src="(\/assets\/(?:category-art|zodiac)\/[^"]+)"/g)].filter(m=>!m[1].includes('?v='));assert.equal(staleArt.length,0,f+' versioned category art');count++;
 }
 const hub=fs.readFileSync('_site/pdf-kalendari/2027/index.html','utf8'),months=[...hub.matchAll(/<use href="#i-month-(\d+)"/g)].map(x=>Number(x[1]));
 assert.deepEqual([...new Set(months)].sort((a,b)=>a-b),Array.from({length:12},(_,i)=>i+1));count++;

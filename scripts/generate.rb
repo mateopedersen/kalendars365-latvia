@@ -153,7 +153,7 @@ def page_heading_markup(family,url,heading,description,year,month,slug)
  visual=visual_family(family,url)
  symbol=visual_icon(visual)
  context=hero_context(family,url,year,month,slug)
- %(<header class="page-heading page-heading--#{h(visual)}"><div class="page-heading-copy"><span class="eyebrow">LATVIJA · KALENDĀRS365</span><h1><span class="page-heading-mark">#{ui_icon(icon_for(url))}</span><span>#{h(heading)}</span></h1><p class="page-heading-deck">#{h(description)}</p><span class="page-heading-context">#{ui_icon(symbol)}<span>#{h(context)}</span></span></div><div class="page-heading-art" aria-hidden="true"><img class="page-heading-art-icon" src="/assets/category-art/#{h(visual)}.svg" alt="" width="320" height="260" loading="eager" decoding="async"><span class="page-heading-art-chip">#{h(context)}</span></div></header>)
+ %(<header class="page-heading page-heading--#{h(visual)}"><div class="page-heading-copy"><span class="eyebrow">LATVIJA · KALENDĀRS365</span><h1><span class="page-heading-mark">#{ui_icon(icon_for(url))}</span><span>#{h(heading)}</span></h1><p class="page-heading-deck">#{h(description)}</p><span class="page-heading-context">#{ui_icon(symbol)}<span>#{h(context)}</span></span></div><div class="page-heading-art" aria-hidden="true"><img class="page-heading-art-icon" src="/assets/category-art/#{h(visual)}.svg?v={{ site.data.build.asset_version }}" alt="" width="320" height="260" loading="eager" decoding="async"><span class="page-heading-art-chip">#{h(context)}</span></div></header>)
 end
 
 def phase_svg(name, date, index)
@@ -168,7 +168,7 @@ def phase_svg(name, date, index)
 end
 def zodiac_art(profile,klass='zodiac-index-symbol',size=80)
  slug=profile.fetch('slug')
- %(<img class="#{h(klass)}" src="/assets/zodiac/#{h(slug)}.svg" alt="" aria-hidden="true" width="#{size}" height="#{size}" loading="eager" decoding="async">)
+ %(<img class="#{h(klass)}" src="/assets/zodiac/#{h(slug)}.svg?v={{ site.data.build.asset_version }}" alt="" aria-hidden="true" width="#{size}" height="#{size}" loading="eager" decoding="async">)
 end
 def a(url,label,klass=''); %(<a class="#{klass}" href="#{h(url)}">#{klass=='link-card' ? ui_icon(icon_for(url)) : ''}#{h(label)}</a>); end
 def planning_panel(type,year=2027)
