@@ -3,7 +3,7 @@ module CalendarInlineStyles
   def inline_styles(names)
     site = @context.registers[:site]
     names.split(',').map do |name|
-      raise ArgumentError, 'Unknown stylesheet' unless %w[style.css pages.css typography.css experience.css sky.css garden.css horoscope.css organizers.css extra-tools.css universities.css lunar.css a3-gallery.css visual-polish.css calendar-print.css].include?(name)
+      raise ArgumentError, 'Unknown stylesheet' unless %w[style.css pages.css typography.css experience.css sky.css garden.css horoscope.css organizers.css extra-tools.css universities.css lunar.css a3-gallery.css search.css visual-polish.css calendar-print.css].include?(name)
       File.read(File.join(site.source, 'assets', name), encoding: 'UTF-8')
     end.join("\n")
   end

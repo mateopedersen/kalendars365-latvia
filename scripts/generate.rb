@@ -477,10 +477,21 @@ end
 [[2031,1]].each do |y,w|
  path="generated/nedelas-kalendars/#{y}/#{format('%02d',w)}/index.html";FileUtils.mkdir_p(File.dirname(path));File.write(path,{'layout'=>'default','title'=>"#{y}. gada #{w}. nedēļa",'description'=>'Apskati 2031. gada ISO 1. nedēļas datumus, kas sākas 2030. gada decembra pēdējās dienās.','permalink'=>"/nedelas-kalendars/#{y}/#{format('%02d',w)}/",'family'=>'iso_week','year'=>y,'week'=>w,'noindex'=>true}.to_yaml+"---\n<div class=\"page-shell\"><h1>#{y}. gada #{w}. nedēļa</h1>{% include app.html %}</div>")
 end
-File.write('404.html',{'layout'=>'default','title'=>'Lapa nav atrasta','description'=>'Šo lapu neizdevās atrast. Atver Latvijas kalendāru, meklē svētku dienas vai izvēlies kādu no plānošanas rīkiem.','permalink'=>'/404.html','noindex'=>true}.to_yaml+"---\n<section class=\"error-page\"><span>404</span><h1>Šī diena kalendārā nav ierakstīta.</h1><p>Lapas adrese, iespējams, ir mainījusies. Izvēlies savu nākamo soli.</p>#{a('/','Atvērt kalendāru','primary-button')} #{a('/visi-riki/','Apskatīt visus rīkus')}</section>")
+File.write('404.html',{'layout'=>'default','title'=>'Lapa nav atrasta','description'=>'Atrodi vajadzīgo Latvijas kalendāru, svētku dienu vai plānošanas rīku.','permalink'=>'/404.html','family'=>'not_found','noindex'=>true}.to_yaml+"---\n{% include not-found.html %}")
 File.write('500.html',{'layout'=>'default','title'=>'Īslaicīga kļūda','description'=>'Kalendāra lapa īslaicīgi nav pieejama. Pamēģini vēlreiz vai atver Latvijas kalendāra sākumlapu.','permalink'=>'/500.html','noindex'=>true}.to_yaml+"---\n<section class=\"error-page\"><span>500</span><h1>Plānos gadījies pārtraukums.</h1><p>Lūdzu, mēģini vēlreiz pēc brīža.</p>#{a('/','Atvērt kalendāru','primary-button')}</section>")
 manifest << {url:'/pilsetas-un-fotografijas/',title:'Latvijas vietu un svētku fotogrāfijas: avoti un licences',family:'city_photos',indexable:true,status:'ready',description:'82 Latvijas pilsētu, 42 svētku foto un 9 valsts augstskolu fotogrāfijas ar norādītiem autoriem, avota failiem un licencēm.',lastmod:revision_date}
-File.write('assets/search-index.json',JSON.generate(manifest.select{|r|r[:indexable]}))
+search_pages=manifest.select{|r|r[:indexable]}.map do |page|
+ city=CITIES.find{|c|page[:url].end_with?("/#{c['id']}/")}
+ page.merge(keywords: city ? city['name'] : '')
+end
+DATA.fetch('names',[]).each do |name|
+ search_pages << {url:'/varda-dienas/?q='+URI.encode_www_form_component(name['name']),title:name['name'],kind:'Vārda diena',description:"#{name['day']}. #{GEN[name['month'].to_i-1]} · Vārda diena (VVC 2018)",keywords:"vārda diena vārdi #{MONTHS[name['month'].to_i-1]}"}
+end
+DATA.fetch('holidays',[]).each do |holiday|
+ date=Date.parse(holiday['date'])
+ search_pages << {url:"/kalendars/#{date.year}/#{SLUGS[date.month-1]}/?date=#{date.iso8601}",title:"#{holiday['title']} #{date.year}",kind:'Kalendāra diena',description:"#{date.day}. #{GEN[date.month-1]} #{date.year} · #{holiday['dayOff'] ? 'Brīvdiena' : 'Atzīmējama diena'}",keywords:"svētki #{date.day} #{MONTHS[date.month-1]} #{date.iso8601}"}
+end
+File.write('assets/search-index.json',JSON.generate(search_pages))
 File.write('docs/route-manifest.json',JSON.pretty_generate(manifest))
 File.write('_data/page-revisions.json',JSON.pretty_generate(page_revisions)+"\n")
 File.write('sitemap.xml',"---\nlayout: null\n---\n<?xml version=\"1.0\" encoding=\"UTF-8\"?><urlset xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">"+manifest.select{|r|r[:indexable]}.map{|r|"<url><loc>{{ site.url }}#{h(r[:url])}</loc><lastmod>#{r[:lastmod]}</lastmod></url>"}.join+'</urlset>')
