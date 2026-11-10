@@ -2,7 +2,7 @@
 
 def hub_date(value)
   date = Date.parse(value)
-  "#{date.day}. #{GEN[date.month - 1]} #{date.year}."
+  "#{date.year}. gada #{date.day}. #{MONTHS[date.month - 1]}"
 end
 
 def calendar_hub_markup
