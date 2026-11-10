@@ -1,4 +1,5 @@
 import {mkdir, readFile, writeFile} from 'node:fs/promises';
+import {createHash} from 'node:crypto';
 import {fileURLToPath} from 'node:url';
 import {dirname, join} from 'node:path';
 
@@ -49,5 +50,7 @@ function render(profile) {
 
 const output=join(root,'assets','zodiac');
 await mkdir(output,{recursive:true});
-for (const profile of profiles) await writeFile(join(output,`${profile.slug}.svg`),render(profile));
+const versions={};
+for (const profile of profiles) {const svg=render(profile);await writeFile(join(output,`${profile.slug}.svg`),svg);versions[profile.slug]=createHash('sha256').update(svg).digest('hex').slice(0,16);}
+await writeFile(join(root,'lib','zodiac-versions.mjs'),'export const zodiacVersions = '+JSON.stringify(versions)+';\n');
 console.log(`Built ${profiles.length} original zodiac medallions.`);
