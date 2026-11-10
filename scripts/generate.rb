@@ -56,7 +56,7 @@ def icon_for(url)
  when /kontakti|par-projektu|avoti/ then 'info'
  when /meness|pilnmeness|jaunmeness|astronom/ then 'moon'
  when /saullekts|gadalaiki/ then 'sun'
- when /skola|stundu/ then 'school'
+ when /skola|stundu|studiju|macibu|parbaudes/ then 'school'
  when /gimenes/ then 'family'
  when /atvalinajuma|garas-brivdienas/ then 'vacation'
  when /svetki|svetku|atceres/ then 'gift'
@@ -81,7 +81,18 @@ def visual_family(family, url = '')
  when 'holiday_year','holiday_month' then 'holiday'
  when 'memorial_year' then 'memorial'
  when 'latvia_cultural','occasion' then 'culture'
- when 'latvia_special' then 'astronomy'
+ when 'latvia_special'
+  case url
+  when /atceres/ then 'memorial'
+  when /skolas|studiju|parbaudes/ then 'school'
+  when /pabalstu|pensiju/ then 'work'
+  when /redakcijas/ then 'about'
+  when /dienas-garums/ then 'sun'
+  when /gada-diena|garais-gads/ then 'calendar'
+  when /pulkstena/ then 'tools'
+  when /nozimigas/ then 'culture'
+  else 'astronomy'
+  end
  when 'city_photos' then 'city'
  when 'name_calendar','name_day_month' then 'names'
  when 'print_index','print_month' then 'print'
@@ -95,7 +106,7 @@ def visual_family(family, url = '')
   when /meness|pilnmeness|jaunmeness|mēness/ then 'moon'
   when /saullekts|saulriets|gadalaiki|dienas-garums/ then 'sun'
   when /horoskop|zodiak/ then 'zodiac'
-  when /skola|stundu|macibu/ then 'school'
+  when /skola|stundu|studiju|macibu|parbaudes/ then 'school'
   when /svetki|atceres|tradici/ then 'holiday'
   when /darba|mainu/ then 'work'
   when /gimenes|dzimsanas|family|birthday/ then 'family'
@@ -111,7 +122,9 @@ def visual_icon(family)
  {'sun'=>'sun','moon'=>'moon','garden'=>'garden','zodiac'=>'star','school'=>'school','work'=>'briefcase','culture'=>'gift','holiday'=>'gift','memorial'=>'flower','astronomy'=>'star','city'=>'pin','names'=>'sprout','print'=>'print','week'=>'week','calendar'=>'calendar','family'=>'family','tools'=>'calculator','privacy'=>'shield','about'=>'info'}.fetch(family,'calendar')
 end
 def hero_context(family,url,year,month,slug)
- if %w[sun_city moon_city].include?(family)
+ if family=='latvia_special'
+  {'school'=>'Latvijas mācību un studiju datumi','memorial'=>'Latvijas atceres dienas','work'=>'Latvijas maksājumu kalendārs','about'=>'Avoti un redakcionālie principi','sun'=>'Saules laiki Latvijā','calendar'=>'Latvijas datumi · Europe/Riga','tools'=>'Latvijas laiks · Europe/Riga','culture'=>'Latvijas svētki un tradīcijas','astronomy'=>'Debesu notikumi Latvijā'}.fetch(visual_family(family,url))
+ elsif %w[sun_city moon_city].include?(family)
   city=CITIES.find{|item|item['id']==slug}
   "#{city ? city['name'] : 'Latvija'} · Europe/Riga"
  elsif %w[garden garden_month].include?(family)

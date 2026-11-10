@@ -1,7 +1,11 @@
-import {dateKey} from '../../../assets/sky-core.mjs';
+import {dateKey,dayBounds} from '../../../assets/sky-core.mjs';
 import {checkEditionDate,createEdition,renderCollectionMarkup,renderDailyMarkup} from '../../../lib/horoscope-edition.mjs';
 
-const json=(body,status=200)=>Response.json(body,{status,headers:{'Cache-Control':status===200?'public, max-age=60, s-maxage=900':'no-store','X-Content-Type-Options':'nosniff','X-Robots-Tag':'noindex'}});
+export function editionCacheControl(now=new Date()) {
+  const remaining=Math.max(0,Math.floor((dayBounds(dateKey(now)).end-now)/1000));
+  return 'public, max-age='+Math.min(60,remaining)+', s-maxage='+Math.min(900,remaining)+', must-revalidate';
+}
+const json=(body,status=200)=>Response.json(body,{status,headers:{'Cache-Control':status===200?editionCacheControl():'no-store','X-Content-Type-Options':'nosniff','X-Robots-Tag':'noindex'}});
 
 export async function onRequestGet({request}) {
   const url=new URL(request.url),today=dateKey(),requested=url.searchParams.get('date')||today;

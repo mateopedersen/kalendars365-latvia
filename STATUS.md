@@ -1,6 +1,6 @@
 # Kalendārs365 — pašreizējais laidiena statuss
 
-Atjaunināts 2026-11-10. Repozitorijs: https://github.com/mateopedersen/kalendars365-latvia. Publiskā vietne: https://kalendars365.lv/ — Cloudflare Pages. Galvenā Letonijas laidiena saturs un ikdienas horoskopa publicēšana pārbaudīta publiskajā vidē.
+Atjaunināts 2026-11-10. Repozitorijs: https://github.com/mateopedersen/kalendars365-latvia. Publiskā vietne: https://kalendars365.lv/ — Cloudflare Pages. Galvenā Latvijas laidiena saturs un ikdienas horoskopa publicēšana pārbaudīta publiskajā vidē.
 
 ## Pašreizējās versijas lokālā pārbaude
 

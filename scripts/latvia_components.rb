@@ -117,11 +117,14 @@ def study_calendar_markup
   end.join
   pending_cards = data.fetch('stateUniversities').select { |item| item['calendarStatus'] == 'not-found' }.map do |institution|
     photo = institution['photo'] ? photo_markup.call(institution['photo']) : %(<div class="study-pending-art" aria-hidden="true"><span>#{h(institution.fetch('city'))}</span><span>2026 — 27</span></div>)
-    %(<article class="study-calendar-card study-calendar-card--pending" id="study-#{h(institution.fetch('id'))}">#{photo}<div class="study-calendar-card-body"><span class="study-calendar-type">Akadēmiskais grafiks</span><h2>#{h(institution.fetch('name'))}</h2><p>Pārbaudītajā oficiālajā lapā 2026./2027. gada atsevišķs brīvlaiku kalendārs nav atrasts. Iepriekšējā gada datumus šeit nepārceļam.</p><p class="source-inline"><a href="#{h(institution.fetch('url'))}" target="_blank" rel="noopener">Pārbaudīt augstskolas oficiālo lapu ↗</a></p></div></article>)
+    confirmed = institution.fetch('confirmedDates', []).map { |event| %(<li><time datetime="#{h(event.fetch('start'))}">#{Date.parse(event.fetch('start')).strftime('%d.%m.%Y.')}</time><span>#{h(event.fetch('label'))}</span></li>) }.join
+    source = institution['dateSource']
+    source_link = source ? %(<a href="#{h(source.fetch('url'))}" target="_blank" rel="noopener">#{h(source.fetch('title'))} ↗</a>) : ''
+    %(<article class="study-calendar-card study-calendar-card--pending" id="study-#{h(institution.fetch('id'))}">#{photo}<div class="study-calendar-card-body"><span class="study-calendar-type">2026./2027. · pārbaudīti publiskie datumi</span><h2>#{h(institution.fetch('name'))}</h2><ul class="study-event-list">#{confirmed}</ul><p class="source-inline">Avots: #{source_link}</p><p>Šie ir studiju uzsākšanas un ievadpasākumu datumi. Atsevišķs publisks brīvlaiku grafiks nav atrasts; šie notikumi nav atzīmēti kā brīvdienas. Precīzu programmas grafiku pārbaudi studiju daļā.</p><p class="source-inline"><a href="#{h(institution.fetch('url'))}" target="_blank" rel="noopener">Augstskolas oficiālā lapa ↗</a></p></div></article>)
   end.join
   university_directory = data.fetch('stateUniversities').map do |institution|
     href = institution['calendarId'] ? "#study-#{institution.fetch('calendarId')}" : "#study-#{institution.fetch('id')}"
-    status = institution['calendarStatus'] == 'not-found' ? 'Kalendārs nav atrasts' : 'Atvērt grafiku'
+    status = institution['calendarStatus'] == 'not-found' ? 'Apstiprinātie datumi' : 'Atvērt grafiku'
     %(<a class="university-directory-link" href="#{h(href)}"><span>#{h(institution.fetch('name'))}<small>#{h(institution.fetch('city'))}</small></span><b>#{h(status)} →</b></a>)
   end.join
   directory = data.fetch('directorySource')

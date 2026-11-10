@@ -8,154 +8,709 @@
     "checkedAt": "2026-11-10"
   },
   "stateUniversities": [
-    {"id":"lu","name":"Latvijas Universitāte","city":"Rīga","url":"https://www.lu.lv/","calendarId":"lu"},
-    {"id":"rtu","name":"Rīgas Tehniskā universitāte","city":"Rīga","url":"https://www.rtu.lv/","calendarId":"rtu"},
-    {"id":"via","name":"Vidzemes Augstskola","city":"Valmiera","url":"https://va.lv/","calendarId":"via"},
-    {"id":"venta","name":"Ventspils Augstskola","city":"Ventspils","url":"https://www.venta.lv/","calendarStatus":"not-found","photo":{"src":"/assets/universities/venta.jpg","caption":"Ventspils Augstskolas ēka","alt":"Ventspils Augstskolas ēka Inženieru ielā","author":"Katyushka","license":"CC BY-SA 3.0","licenseUrl":"https://creativecommons.org/licenses/by-sa/3.0/","pageUrl":"https://commons.wikimedia.org/wiki/File:Ventspils_University_College,_May_2014.jpg"}},
-    {"id":"du","name":"Daugavpils Universitāte","city":"Daugavpils","url":"https://du.lv/","calendarId":"du"},
-    {"id":"jvlma","name":"Jāzepa Vītola Latvijas Mūzikas akadēmija","city":"Rīga","url":"https://www.jvlma.lv/","calendarId":"jvlma"},
-    {"id":"lbtu","name":"Latvijas Biozinātņu un tehnoloģiju universitāte","city":"Jelgava","url":"https://www.lbtu.lv/","calendarId":"lbtu"},
-    {"id":"rsu","name":"Rīgas Stradiņa universitāte","city":"Rīga","url":"https://www.rsu.lv/","calendarId":"rsu"},
-    {"id":"lka","name":"Latvijas Kultūras akadēmija","city":"Rīga","url":"https://www.lka.edu.lv/","calendarId":"lka"},
-    {"id":"lma","name":"Latvijas Mākslas akadēmija","city":"Rīga","url":"https://www.lma.lv/","calendarId":"lma"},
-    {"id":"naa","name":"Latvijas Nacionālā aizsardzības akadēmija","city":"Rīga","url":"https://www.naa.mil.lv/lv/studijas","calendarStatus":"not-found"}
+    {
+      "id": "lu",
+      "name": "Latvijas Universitāte",
+      "city": "Rīga",
+      "url": "https://www.lu.lv/",
+      "calendarId": "lu"
+    },
+    {
+      "id": "rtu",
+      "name": "Rīgas Tehniskā universitāte",
+      "city": "Rīga",
+      "url": "https://www.rtu.lv/",
+      "calendarId": "rtu"
+    },
+    {
+      "id": "via",
+      "name": "Vidzemes Augstskola",
+      "city": "Valmiera",
+      "url": "https://va.lv/",
+      "calendarId": "via"
+    },
+    {
+      "id": "venta",
+      "name": "Ventspils Augstskola",
+      "city": "Ventspils",
+      "url": "https://www.venta.lv/",
+      "calendarStatus": "not-found",
+      "photo": {
+        "src": "/assets/universities/venta.jpg",
+        "caption": "Ventspils Augstskolas ēka",
+        "alt": "Ventspils Augstskolas ēka Inženieru ielā",
+        "author": "Katyushka",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Ventspils_University_College,_May_2014.jpg"
+      },
+      "confirmedDates": [
+        {
+          "start": "2026-08-31",
+          "label": "Pirmkursnieku rallijs"
+        },
+        {
+          "start": "2026-09-01",
+          "label": "Studiju gada atklāšana · plkst. 12.00"
+        }
+      ],
+      "dateSource": {
+        "url": "https://www.venta.lv/1-septembri-atklasim-jauno-studiju-gadu",
+        "title": "VeA 2026./2027. studiju gada atklāšana"
+      }
+    },
+    {
+      "id": "du",
+      "name": "Daugavpils Universitāte",
+      "city": "Daugavpils",
+      "url": "https://du.lv/",
+      "calendarId": "du"
+    },
+    {
+      "id": "jvlma",
+      "name": "Jāzepa Vītola Latvijas Mūzikas akadēmija",
+      "city": "Rīga",
+      "url": "https://www.jvlma.lv/",
+      "calendarId": "jvlma"
+    },
+    {
+      "id": "lbtu",
+      "name": "Latvijas Biozinātņu un tehnoloģiju universitāte",
+      "city": "Jelgava",
+      "url": "https://www.lbtu.lv/",
+      "calendarId": "lbtu"
+    },
+    {
+      "id": "rsu",
+      "name": "Rīgas Stradiņa universitāte",
+      "city": "Rīga",
+      "url": "https://www.rsu.lv/",
+      "calendarId": "rsu"
+    },
+    {
+      "id": "lka",
+      "name": "Latvijas Kultūras akadēmija",
+      "city": "Rīga",
+      "url": "https://www.lka.edu.lv/",
+      "calendarId": "lka"
+    },
+    {
+      "id": "lma",
+      "name": "Latvijas Mākslas akadēmija",
+      "city": "Rīga",
+      "url": "https://www.lma.lv/",
+      "calendarId": "lma"
+    },
+    {
+      "id": "naa",
+      "name": "Latvijas Nacionālā aizsardzības akadēmija",
+      "city": "Rīga",
+      "url": "https://www.naa.mil.lv/lv/studijas",
+      "calendarStatus": "not-found",
+      "confirmedDates": [
+        {
+          "start": "2026-08-24",
+          "label": "Imatrikulācija īsā cikla programmā"
+        },
+        {
+          "start": "2027-02-15",
+          "label": "Imatrikulācija pirmā cikla programmās"
+        }
+      ],
+      "dateSource": {
+        "url": "https://www.naa.mil.lv/lv/uznemsanas-noteikumi",
+        "title": "NAA uzņemšanas noteikumi 2026./2027. gadam · 10. punkts"
+      }
+    }
   ],
   "calendars": [
     {
-      "id":"lu","institution":"Latvijas Universitāte","scope":"Vispārējais studiju kalendārs. Atsevišķām fakultātēm un studiju programmām var būt savi grafiki.",
-      "source":{"title":"2026/2027 Academic year calendar","url":"https://www.lu.lv/en/studies/study-process/academic-calendar/2026/2027-academic-year-calendar/"},
-      "photo":{"src":"/assets/universities/lu.jpg","caption":"Latvijas Universitātes centrālā ēka","alt":"Latvijas Universitātes centrālās ēkas fasāde Rīgā","author":"Evita wiki","license":"CC BY-SA 4.0","licenseUrl":"https://creativecommons.org/licenses/by-sa/4.0/","pageUrl":"https://commons.wikimedia.org/wiki/File:Latvijas_Universit%C4%81tes_centr%C4%81l%C4%81_%C4%93ka.JPG"},
-      "events":[
-        {"kind":"registration","label":"Rudens reģistrācijas nedēļa","start":"2026-08-24","end":"2026-08-30"},
-        {"kind":"study","label":"Rudens semestra studijas","start":"2026-08-31","end":"2026-12-20"},
-        {"kind":"holiday","label":"Ziemassvētku un Jaungada brīvdienas","start":"2026-12-21","end":"2027-01-03"},
-        {"kind":"exam","label":"Individuālās studijas un eksāmenu sesija","start":"2027-01-04","end":"2027-01-30"},
-        {"kind":"registration","label":"Pavasara semestra reģistrācijas nedēļa","start":"2027-02-02","end":"2027-02-07"},
-        {"kind":"study","label":"Pavasara semestra studijas","start":"2027-02-08","end":"2027-03-21"},
-        {"kind":"holiday","label":"Lieldienu brīvdienas","start":"2027-03-22","end":"2027-03-29"},
-        {"kind":"study","label":"Pavasara semestra studijas","start":"2027-03-30","end":"2027-06-06"},
-        {"kind":"exam","label":"Individuālās studijas un eksāmenu sesija","start":"2027-06-07","end":"2027-07-04"},
-        {"kind":"study","label":"Vasaras studijas, ja paredz studiju programma","start":"2027-07-05","end":"2027-08-29","scope":"Tikai programmās, kurām paredzētas vasaras studijas."}
+      "id": "lu",
+      "institution": "Latvijas Universitāte",
+      "scope": "Vispārējais studiju kalendārs. Atsevišķām fakultātēm un studiju programmām var būt savi grafiki.",
+      "source": {
+        "title": "2026/2027 Academic year calendar",
+        "url": "https://www.lu.lv/en/studies/study-process/academic-calendar/2026/2027-academic-year-calendar/"
+      },
+      "photo": {
+        "src": "/assets/universities/lu.jpg",
+        "caption": "Latvijas Universitātes centrālā ēka",
+        "alt": "Latvijas Universitātes centrālās ēkas fasāde Rīgā",
+        "author": "Evita wiki",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Latvijas_Universit%C4%81tes_centr%C4%81l%C4%81_%C4%93ka.JPG"
+      },
+      "events": [
+        {
+          "kind": "registration",
+          "label": "Rudens reģistrācijas nedēļa",
+          "start": "2026-08-24",
+          "end": "2026-08-30"
+        },
+        {
+          "kind": "study",
+          "label": "Rudens semestra studijas",
+          "start": "2026-08-31",
+          "end": "2026-12-20"
+        },
+        {
+          "kind": "holiday",
+          "label": "Ziemassvētku un Jaungada brīvdienas",
+          "start": "2026-12-21",
+          "end": "2027-01-03"
+        },
+        {
+          "kind": "exam",
+          "label": "Individuālās studijas un eksāmenu sesija",
+          "start": "2027-01-04",
+          "end": "2027-01-30"
+        },
+        {
+          "kind": "registration",
+          "label": "Pavasara semestra reģistrācijas nedēļa",
+          "start": "2027-02-02",
+          "end": "2027-02-07"
+        },
+        {
+          "kind": "study",
+          "label": "Pavasara semestra studijas",
+          "start": "2027-02-08",
+          "end": "2027-03-21"
+        },
+        {
+          "kind": "holiday",
+          "label": "Lieldienu brīvdienas",
+          "start": "2027-03-22",
+          "end": "2027-03-29"
+        },
+        {
+          "kind": "study",
+          "label": "Pavasara semestra studijas",
+          "start": "2027-03-30",
+          "end": "2027-06-06"
+        },
+        {
+          "kind": "exam",
+          "label": "Individuālās studijas un eksāmenu sesija",
+          "start": "2027-06-07",
+          "end": "2027-07-04"
+        },
+        {
+          "kind": "study",
+          "label": "Vasaras studijas, ja paredz studiju programma",
+          "start": "2027-07-05",
+          "end": "2027-08-29",
+          "scope": "Tikai programmās, kurām paredzētas vasaras studijas."
+        }
       ]
     },
     {
-      "id":"lu-doctoral","institution":"LU Doktorantūras skola","scope":"Doktorantūras studiju un pētniecības grafiks; tas neaizstāj LU vispārējo kalendāru.",
-      "source":{"title":"Academic year calendar: doctoral studies","url":"https://doktorantura.lu.lv/en/study-and-research/doctoral-studies/academic-year-calendar/"},
-      "events":[
-        {"kind":"registration","label":"Rudens reģistrācijas nedēļa","start":"2026-09-28","end":"2026-10-04"},
-        {"kind":"study","label":"Studijas un pētniecība","start":"2026-10-05","end":"2027-02-21"},
-        {"kind":"registration","label":"Pavasara reģistrācijas nedēļa","start":"2027-02-22","end":"2027-02-28"},
-        {"kind":"study","label":"Studijas un pētniecība","start":"2027-03-01","end":"2027-08-01"},
-        {"kind":"holiday","label":"Vasaras brīvdienas","start":"2027-08-02","end":"2027-08-29"},
-        {"kind":"study","label":"Studijas un pētniecība","start":"2027-08-30","end":"2027-09-26"}
+      "id": "lu-doctoral",
+      "institution": "LU Doktorantūras skola",
+      "scope": "Doktorantūras studiju un pētniecības grafiks; tas neaizstāj LU vispārējo kalendāru.",
+      "source": {
+        "title": "Academic year calendar: doctoral studies",
+        "url": "https://doktorantura.lu.lv/en/study-and-research/doctoral-studies/academic-year-calendar/"
+      },
+      "events": [
+        {
+          "kind": "registration",
+          "label": "Rudens reģistrācijas nedēļa",
+          "start": "2026-09-28",
+          "end": "2026-10-04"
+        },
+        {
+          "kind": "study",
+          "label": "Studijas un pētniecība",
+          "start": "2026-10-05",
+          "end": "2027-02-21"
+        },
+        {
+          "kind": "registration",
+          "label": "Pavasara reģistrācijas nedēļa",
+          "start": "2027-02-22",
+          "end": "2027-02-28"
+        },
+        {
+          "kind": "study",
+          "label": "Studijas un pētniecība",
+          "start": "2027-03-01",
+          "end": "2027-08-01"
+        },
+        {
+          "kind": "holiday",
+          "label": "Vasaras brīvdienas",
+          "start": "2027-08-02",
+          "end": "2027-08-29"
+        },
+        {
+          "kind": "study",
+          "label": "Studijas un pētniecība",
+          "start": "2027-08-30",
+          "end": "2027-09-26"
+        }
       ]
     },
     {
-      "id":"rtu","institution":"Rīgas Tehniskā universitāte","scope":"Vispārējais studiju gada kalendārs; fakultāšu, programmu un nodarbību grafiki var atšķirties.",
-      "source":{"title":"RTU studiju gada kalendārs","url":"https://www.rtu.lv/lv/studijas/studiju-gada-kalendars"},
-      "photo":{"src":"/assets/universities/rtu.jpg","caption":"RTU galvenā pilsētiņa Ķīpsalā","alt":"Rīgas Tehniskās universitātes galvenās pilsētiņas fasāde Ķīpsalā","author":"Rīgas pašvaldības aģentūra Rīgas investīciju un tūrisma aģentūra","license":"CC BY 4.0","licenseUrl":"https://creativecommons.org/licenses/by/4.0/","pageUrl":"https://commons.wikimedia.org/wiki/File:Riga_Technical_University.jpg"},
-      "events":[
-        {"kind":"study","label":"Rudens semestris","start":"2026-08-31","end":"2027-01-24"},
-        {"kind":"holiday","label":"Ziemas brīvdienas","start":"2026-12-28","end":"2027-01-03"},
-        {"kind":"study","label":"Pavasara semestris","start":"2027-01-25","end":"2027-03-21"},
-        {"kind":"holiday","label":"Pavasara brīvdienas","start":"2027-03-22","end":"2027-03-29"},
-        {"kind":"study","label":"Pavasara semestris","start":"2027-03-30","end":"2027-06-20"},
-        {"kind":"study","label":"Vasaras semestris","start":"2027-06-28","end":"2027-08-22"}
+      "id": "rtu",
+      "institution": "Rīgas Tehniskā universitāte",
+      "scope": "Vispārējais studiju gada kalendārs; fakultāšu, programmu un nodarbību grafiki var atšķirties.",
+      "source": {
+        "title": "RTU studiju gada kalendārs",
+        "url": "https://www.rtu.lv/lv/studijas/studiju-gada-kalendars"
+      },
+      "photo": {
+        "src": "/assets/universities/rtu.jpg",
+        "caption": "RTU galvenā pilsētiņa Ķīpsalā",
+        "alt": "Rīgas Tehniskās universitātes galvenās pilsētiņas fasāde Ķīpsalā",
+        "author": "Rīgas pašvaldības aģentūra Rīgas investīciju un tūrisma aģentūra",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Riga_Technical_University.jpg"
+      },
+      "events": [
+        {
+          "kind": "study",
+          "label": "Rudens semestris",
+          "start": "2026-08-31",
+          "end": "2027-01-24"
+        },
+        {
+          "kind": "holiday",
+          "label": "Ziemas brīvdienas",
+          "start": "2026-12-28",
+          "end": "2027-01-03"
+        },
+        {
+          "kind": "study",
+          "label": "Pavasara semestris",
+          "start": "2027-01-25",
+          "end": "2027-03-21"
+        },
+        {
+          "kind": "holiday",
+          "label": "Pavasara brīvdienas",
+          "start": "2027-03-22",
+          "end": "2027-03-29"
+        },
+        {
+          "kind": "study",
+          "label": "Pavasara semestris",
+          "start": "2027-03-30",
+          "end": "2027-06-20"
+        },
+        {
+          "kind": "study",
+          "label": "Vasaras semestris",
+          "start": "2027-06-28",
+          "end": "2027-08-22"
+        }
       ]
     },
     {
-      "id":"rsu","institution":"Rīgas Stradiņa universitāte","scope":"Grafiks atšķiras pēc studiju programmas un kursa; Medicīnas fakultātes 6. kursam un studiju noslēguma gadiem ir atsevišķi izņēmumi.",
-      "source":{"title":"RSU akadēmiskais kalendārs 2026/2027","url":"https://www.rsu.lv/akademiskais-kalendars/26"},
-      "photo":{"src":"/assets/universities/rsu.jpg","caption":"Rīgas Stradiņa universitātes galvenā ēka","alt":"Rīgas Stradiņa universitātes galvenās ēkas fasāde","author":"Rīgas pašvaldības aģentūra Rīgas investīciju un tūrisma aģentūra","license":"CC BY 4.0","licenseUrl":"https://creativecommons.org/licenses/by/4.0/","pageUrl":"https://commons.wikimedia.org/wiki/File:RSU-campus.jpg"},
-      "events":[
-        {"kind":"holiday","label":"Ziemas brīvlaiks","start":"2026-12-24","end":"2027-01-03"},
-        {"kind":"holiday","label":"Brīvā nedēļa","start":"2027-01-25","end":"2027-01-31"},
-        {"kind":"holiday","label":"Pavasara brīvlaiks","start":"2027-03-22","end":"2027-03-29","scope":"Visiem, izņemot Medicīnas fakultātes 6. kursu."},
-        {"kind":"holiday","label":"Pavasara brīvlaiks","start":"2027-03-26","end":"2027-03-29","scope":"Medicīnas fakultātes 6. kurss."}
+      "id": "rsu",
+      "institution": "Rīgas Stradiņa universitāte",
+      "scope": "Grafiks atšķiras pēc studiju programmas un kursa; Medicīnas fakultātes 6. kursam un studiju noslēguma gadiem ir atsevišķi izņēmumi.",
+      "source": {
+        "title": "RSU akadēmiskais kalendārs 2026/2027",
+        "url": "https://www.rsu.lv/akademiskais-kalendars/26"
+      },
+      "photo": {
+        "src": "/assets/universities/rsu.jpg",
+        "caption": "Rīgas Stradiņa universitātes galvenā ēka",
+        "alt": "Rīgas Stradiņa universitātes galvenās ēkas fasāde",
+        "author": "Rīgas pašvaldības aģentūra Rīgas investīciju un tūrisma aģentūra",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:RSU-campus.jpg"
+      },
+      "events": [
+        {
+          "kind": "holiday",
+          "label": "Ziemas brīvlaiks",
+          "start": "2026-12-24",
+          "end": "2027-01-03"
+        },
+        {
+          "kind": "holiday",
+          "label": "Brīvā nedēļa",
+          "start": "2027-01-25",
+          "end": "2027-01-31"
+        },
+        {
+          "kind": "holiday",
+          "label": "Pavasara brīvlaiks",
+          "start": "2027-03-22",
+          "end": "2027-03-29",
+          "scope": "Visiem, izņemot Medicīnas fakultātes 6. kursu."
+        },
+        {
+          "kind": "holiday",
+          "label": "Pavasara brīvlaiks",
+          "start": "2027-03-26",
+          "end": "2027-03-29",
+          "scope": "Medicīnas fakultātes 6. kurss."
+        }
       ]
     },
     {
-      "id":"du","institution":"Daugavpils Universitāte","scope":"Oficiālajā kalendārā studiju, pārbaudījumu un brīvlaika periodi norādīti atsevišķi.",
-      "source":{"title":"DU 2026/2027. studiju gada akadēmiskais kalendārs","url":"https://du.lv/en/studies/academic-calendar/"},
-      "photo":{"src":"/assets/universities/du.jpg","caption":"Daugavpils Universitātes galvenā fasāde","alt":"Daugavpils Universitātes galvenās ēkas fasāde","author":"Alma Pater","license":"CC BY-SA 3.0","licenseUrl":"https://creativecommons.org/licenses/by-sa/3.0/","pageUrl":"https://commons.wikimedia.org/wiki/File:Daugavpils_University.JPG"},
-      "events":[
-        {"kind":"study","label":"Rudens semestra studijas","start":"2026-09-01","end":"2026-12-20"},
-        {"kind":"exam","label":"Pārbaudījumu un gala eksāmenu laiks","start":"2026-12-21","end":"2027-01-12"},
-        {"kind":"holiday","label":"Ziemas brīvlaiks","start":"2027-01-13","end":"2027-01-24"},
-        {"kind":"study","label":"Pavasara semestra studijas","start":"2027-01-25","end":"2027-05-16"},
-        {"kind":"exam","label":"Pārbaudījumu un gala eksāmenu laiks","start":"2027-05-17","end":"2027-06-16"}
+      "id": "du",
+      "institution": "Daugavpils Universitāte",
+      "scope": "Oficiālajā kalendārā studiju, pārbaudījumu un brīvlaika periodi norādīti atsevišķi.",
+      "source": {
+        "title": "DU 2026/2027. studiju gada akadēmiskais kalendārs",
+        "url": "https://du.lv/en/studies/academic-calendar/"
+      },
+      "photo": {
+        "src": "/assets/universities/du.jpg",
+        "caption": "Daugavpils Universitātes galvenā fasāde",
+        "alt": "Daugavpils Universitātes galvenās ēkas fasāde",
+        "author": "Alma Pater",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Daugavpils_University.JPG"
+      },
+      "events": [
+        {
+          "kind": "study",
+          "label": "Rudens semestra studijas",
+          "start": "2026-09-01",
+          "end": "2026-12-20"
+        },
+        {
+          "kind": "exam",
+          "label": "Pārbaudījumu un gala eksāmenu laiks",
+          "start": "2026-12-21",
+          "end": "2027-01-12"
+        },
+        {
+          "kind": "holiday",
+          "label": "Ziemas brīvlaiks",
+          "start": "2027-01-13",
+          "end": "2027-01-24"
+        },
+        {
+          "kind": "study",
+          "label": "Pavasara semestra studijas",
+          "start": "2027-01-25",
+          "end": "2027-05-16"
+        },
+        {
+          "kind": "exam",
+          "label": "Pārbaudījumu un gala eksāmenu laiks",
+          "start": "2027-05-17",
+          "end": "2027-06-16"
+        }
       ]
     },
     {
-      "id":"lbtu","institution":"Latvijas Biozinātņu un tehnoloģiju universitāte","scope":"Brīvlaiku un studiju periodu organizācija seko studiju plānam; moduļu un nepilna laika grafikiem ir atšķirības.",
-      "source":{"title":"LBTU nodarbību grafiki un 2026/2027 studiju gada iedalījums","url":"https://www.lbtu.lv/lv/nodarbibu-grafiki"},
-      "photo":{"src":"/assets/universities/lbtu.jpg","caption":"Jelgavas pils, LBTU vēsturiskais komplekss","alt":"Jelgavas pils pie Lielupes","author":"Dejelnieks","license":"CC BY 4.0","licenseUrl":"https://creativecommons.org/licenses/by/4.0/","pageUrl":"https://commons.wikimedia.org/wiki/File:JelgavaPalace2024.jpg"},
-      "events":[
-        {"kind":"study","label":"Rudens semestra studijas","start":"2026-09-01","end":"2026-12-21"},
-        {"kind":"exam","label":"Individuālās studijas un pārbaudījumi","start":"2026-12-22","end":"2027-01-22"},
-        {"kind":"holiday","label":"Ziemas brīvlaiks","start":"2027-01-25","end":"2027-01-31"},
-        {"kind":"study","label":"Pavasara semestra studijas","start":"2027-02-01","end":"2027-05-21"},
-        {"kind":"exam","label":"Individuālās studijas un pārbaudījumi","start":"2027-05-24","end":"2027-06-18"},
-        {"kind":"holiday","label":"Vasaras brīvlaiks","start":"2027-06-19","end":"2027-08-30"}
+      "id": "lbtu",
+      "institution": "Latvijas Biozinātņu un tehnoloģiju universitāte",
+      "scope": "Brīvlaiku un studiju periodu organizācija seko studiju plānam; moduļu un nepilna laika grafikiem ir atšķirības.",
+      "source": {
+        "title": "LBTU nodarbību grafiki un 2026/2027 studiju gada iedalījums",
+        "url": "https://www.lbtu.lv/lv/nodarbibu-grafiki"
+      },
+      "photo": {
+        "src": "/assets/universities/lbtu.jpg",
+        "caption": "Jelgavas pils, LBTU vēsturiskais komplekss",
+        "alt": "Jelgavas pils pie Lielupes",
+        "author": "Dejelnieks",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:JelgavaPalace2024.jpg"
+      },
+      "events": [
+        {
+          "kind": "study",
+          "label": "Rudens semestra studijas",
+          "start": "2026-09-01",
+          "end": "2026-12-21"
+        },
+        {
+          "kind": "exam",
+          "label": "Individuālās studijas un pārbaudījumi",
+          "start": "2026-12-22",
+          "end": "2027-01-22"
+        },
+        {
+          "kind": "holiday",
+          "label": "Ziemas brīvlaiks",
+          "start": "2027-01-25",
+          "end": "2027-01-31"
+        },
+        {
+          "kind": "study",
+          "label": "Pavasara semestra studijas",
+          "start": "2027-02-01",
+          "end": "2027-05-21"
+        },
+        {
+          "kind": "exam",
+          "label": "Individuālās studijas un pārbaudījumi",
+          "start": "2027-05-24",
+          "end": "2027-06-18"
+        },
+        {
+          "kind": "holiday",
+          "label": "Vasaras brīvlaiks",
+          "start": "2027-06-19",
+          "end": "2027-08-30"
+        }
       ]
     },
     {
-      "id":"via","institution":"Vidzemes Augstskola","scope":"Kalendārais grafiks nosaka semestra periodu un datumus, kad lekcijas netiek plānotas; atsevišķi pasākumi nav automātiski brīvlaiks.",
-      "source":{"title":"ViA studiju kalendārais grafiks 2026./2027. akadēmiskajam gadam","url":"https://va.lv/images/2024/Studiju%20grupa/Citi%20studiju%20procesi/ViA_studiju_kalen_grafiks_2026-2027-APST-red25052026.pdf"},
-      "photo":{"src":"/assets/universities/via.jpg","caption":"Vidzemes Augstskolas galvenā ēka Valmierā","alt":"Vidzemes Augstskolas galvenā ēka Valmierā ziemā","author":"Katyushka","license":"CC BY-SA 3.0","licenseUrl":"https://creativecommons.org/licenses/by-sa/3.0/","pageUrl":"https://commons.wikimedia.org/wiki/File:Vidzeme_University_of_Applied_Sciences.jpg"},
-      "events":[
-        {"kind":"study","label":"Rudens semestris","start":"2026-09-01","end":"2027-01-24"},
-        {"kind":"holiday","label":"Ziemas brīvlaiks","start":"2026-12-23","end":"2027-01-03"},
-        {"kind":"study","label":"Pavasara semestris","start":"2027-02-08","end":"2027-06-30"},
-        {"kind":"holiday","label":"Lielā piektdiena","start":"2027-03-26"},
-        {"kind":"holiday","label":"Pirmās Lieldienas","start":"2027-03-28"},
-        {"kind":"holiday","label":"Otrās Lieldienas","start":"2027-03-29"},
-        {"kind":"holiday","label":"Latvijas Republikas Neatkarības atjaunošanas diena","start":"2027-05-04"},
-        {"kind":"holiday","label":"Līgo diena un Jāņu diena","start":"2027-06-23","end":"2027-06-24"}
+      "id": "via",
+      "institution": "Vidzemes Augstskola",
+      "scope": "Kalendārais grafiks nosaka semestra periodu un datumus, kad lekcijas netiek plānotas; atsevišķi pasākumi nav automātiski brīvlaiks.",
+      "source": {
+        "title": "ViA studiju kalendārais grafiks 2026./2027. akadēmiskajam gadam",
+        "url": "https://va.lv/images/2024/Studiju%20grupa/Citi%20studiju%20procesi/ViA_studiju_kalen_grafiks_2026-2027-APST-red25052026.pdf"
+      },
+      "photo": {
+        "src": "/assets/universities/via.jpg",
+        "caption": "Vidzemes Augstskolas galvenā ēka Valmierā",
+        "alt": "Vidzemes Augstskolas galvenā ēka Valmierā ziemā",
+        "author": "Katyushka",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Vidzeme_University_of_Applied_Sciences.jpg"
+      },
+      "events": [
+        {
+          "kind": "study",
+          "label": "Rudens semestris",
+          "start": "2026-09-01",
+          "end": "2027-01-24"
+        },
+        {
+          "kind": "holiday",
+          "label": "Ziemas brīvlaiks",
+          "start": "2026-12-23",
+          "end": "2027-01-03"
+        },
+        {
+          "kind": "study",
+          "label": "Pavasara semestris",
+          "start": "2027-02-08",
+          "end": "2027-06-30"
+        },
+        {
+          "kind": "holiday",
+          "label": "Lielā piektdiena",
+          "start": "2027-03-26"
+        },
+        {
+          "kind": "holiday",
+          "label": "Pirmās Lieldienas",
+          "start": "2027-03-28"
+        },
+        {
+          "kind": "holiday",
+          "label": "Otrās Lieldienas",
+          "start": "2027-03-29"
+        },
+        {
+          "kind": "holiday",
+          "label": "Latvijas Republikas Neatkarības atjaunošanas diena",
+          "start": "2027-05-04"
+        },
+        {
+          "kind": "holiday",
+          "label": "Līgo diena un Jāņu diena",
+          "start": "2027-06-23",
+          "end": "2027-06-24"
+        }
       ]
     },
     {
-      "id":"lka","institution":"Latvijas Kultūras akadēmija","scope":"Bakalaura pārbaudījumu sesijas un akadēmiskās izcilības nedēļas nav pielīdzināmas brīvlaikam. Maģistra programmu pārbaudījumi var notikt studiju laikā.",
-      "source":{"title":"LKA studiju kalendārs 2026./2027. gadam","url":"https://www.lka.edu.lv/lv/akademijas-studentiem/studiju-process/sk/"},
-      "events":[
-        {"kind":"registration","label":"Rudens reģistrācijas nedēļa","start":"2026-08-24","end":"2026-08-30"},
-        {"kind":"study","label":"Rudens semestra studijas","start":"2026-08-31","end":"2026-12-20"},
-        {"kind":"exam","label":"Bakalaura programmu ziemas sesija","start":"2026-12-21","end":"2027-01-24"},
-        {"kind":"registration","label":"Pavasara reģistrācijas nedēļa","start":"2027-01-25","end":"2027-01-31"},
-        {"kind":"study","label":"Pavasara semestra studijas","start":"2027-02-01","end":"2027-05-23"},
-        {"kind":"exam","label":"Bakalaura programmu vasaras sesija","start":"2027-05-24","end":"2027-06-20"}
+      "id": "lka",
+      "institution": "Latvijas Kultūras akadēmija",
+      "scope": "Bakalaura pārbaudījumu sesijas un akadēmiskās izcilības nedēļas nav pielīdzināmas brīvlaikam. Maģistra programmu pārbaudījumi var notikt studiju laikā.",
+      "source": {
+        "title": "LKA studiju kalendārs 2026./2027. gadam",
+        "url": "https://www.lka.edu.lv/lv/akademijas-studentiem/studiju-process/sk/"
+      },
+      "events": [
+        {
+          "kind": "registration",
+          "label": "Rudens reģistrācijas nedēļa",
+          "start": "2026-08-24",
+          "end": "2026-08-30"
+        },
+        {
+          "kind": "study",
+          "label": "Rudens semestra studijas",
+          "start": "2026-08-31",
+          "end": "2026-12-20"
+        },
+        {
+          "kind": "exam",
+          "label": "Bakalaura programmu ziemas sesija",
+          "start": "2026-12-21",
+          "end": "2027-01-24"
+        },
+        {
+          "kind": "registration",
+          "label": "Pavasara reģistrācijas nedēļa",
+          "start": "2027-01-25",
+          "end": "2027-01-31"
+        },
+        {
+          "kind": "study",
+          "label": "Pavasara semestra studijas",
+          "start": "2027-02-01",
+          "end": "2027-05-23"
+        },
+        {
+          "kind": "exam",
+          "label": "Bakalaura programmu vasaras sesija",
+          "start": "2027-05-24",
+          "end": "2027-06-20"
+        }
       ]
     },
     {
-      "id":"lma","institution":"Latvijas Mākslas akadēmija","scope":"Akadēmiskajā kalendārā nodalītas studijas, eksāmeni un valsts svētku dienas.",
-      "source":{"title":"Latvijas Mākslas akadēmijas akadēmiskais kalendārs 2026/2027","url":"https://www.lma.lv/en/studies/academic-calendar-"},
-      "photo":{"src":"/assets/universities/lma.jpg","caption":"Latvijas Mākslas akadēmijas vēsturiskā ēka","alt":"Latvijas Mākslas akadēmijas vēsturiskā ēka Rīgā","author":"Paul Bischoff","license":"Public domain","licenseUrl":"https://commons.wikimedia.org/wiki/Commons:Licensing","pageUrl":"https://commons.wikimedia.org/wiki/File:Riga_makslas_akademija_academy_of_art.jpg"},
-      "events":[
-        {"kind":"study","label":"Rudens semestris","start":"2026-08-31","end":"2027-01-13"},
-        {"kind":"holiday","label":"Ziemas brīvdienas","start":"2026-12-19","end":"2027-01-03"},
-        {"kind":"exam","label":"Rudens semestra eksāmeni","start":"2026-11-30","end":"2026-12-18"},
-        {"kind":"exam","label":"Rudens semestra eksāmeni","start":"2027-01-04","end":"2027-01-13"},
-        {"kind":"study","label":"Pavasara semestris","start":"2027-01-18","end":"2027-05-21"},
-        {"kind":"exam","label":"Pavasara semestra eksāmeni","start":"2027-04-26","end":"2027-05-21"},
-        {"kind":"holiday","label":"Lielā piektdiena","start":"2027-03-26"},
-        {"kind":"holiday","label":"Pirmās Lieldienas","start":"2027-03-28"},
-        {"kind":"holiday","label":"Otrās Lieldienas","start":"2027-03-29"},
-        {"kind":"holiday","label":"Latvijas Republikas Neatkarības atjaunošanas diena","start":"2027-05-04"}
+      "id": "lma",
+      "institution": "Latvijas Mākslas akadēmija",
+      "scope": "Akadēmiskajā kalendārā nodalītas studijas, eksāmeni un valsts svētku dienas.",
+      "source": {
+        "title": "Latvijas Mākslas akadēmijas akadēmiskais kalendārs 2026/2027",
+        "url": "https://www.lma.lv/en/studies/academic-calendar-"
+      },
+      "photo": {
+        "src": "/assets/universities/lma.jpg",
+        "caption": "Latvijas Mākslas akadēmijas vēsturiskā ēka",
+        "alt": "Latvijas Mākslas akadēmijas vēsturiskā ēka Rīgā",
+        "author": "Paul Bischoff",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Licensing",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Riga_makslas_akademija_academy_of_art.jpg"
+      },
+      "events": [
+        {
+          "kind": "study",
+          "label": "Rudens semestris",
+          "start": "2026-08-31",
+          "end": "2027-01-13"
+        },
+        {
+          "kind": "holiday",
+          "label": "Ziemas brīvdienas",
+          "start": "2026-12-19",
+          "end": "2027-01-03"
+        },
+        {
+          "kind": "exam",
+          "label": "Rudens semestra eksāmeni",
+          "start": "2026-11-30",
+          "end": "2026-12-18"
+        },
+        {
+          "kind": "exam",
+          "label": "Rudens semestra eksāmeni",
+          "start": "2027-01-04",
+          "end": "2027-01-13"
+        },
+        {
+          "kind": "study",
+          "label": "Pavasara semestris",
+          "start": "2027-01-18",
+          "end": "2027-05-21"
+        },
+        {
+          "kind": "exam",
+          "label": "Pavasara semestra eksāmeni",
+          "start": "2027-04-26",
+          "end": "2027-05-21"
+        },
+        {
+          "kind": "holiday",
+          "label": "Lielā piektdiena",
+          "start": "2027-03-26"
+        },
+        {
+          "kind": "holiday",
+          "label": "Pirmās Lieldienas",
+          "start": "2027-03-28"
+        },
+        {
+          "kind": "holiday",
+          "label": "Otrās Lieldienas",
+          "start": "2027-03-29"
+        },
+        {
+          "kind": "holiday",
+          "label": "Latvijas Republikas Neatkarības atjaunošanas diena",
+          "start": "2027-05-04"
+        }
       ]
     },
     {
-      "id":"jvlma","institution":"Jāzepa Vītola Latvijas Mūzikas akadēmija","scope":"Studiju kalendārā norādīti arī prakses, patstāvīgā darba un svētku dienu periodi; skolēnu brīvlaiki nav JVLMA brīvlaiki.",
-      "source":{"title":"JVLMA 2026./2027. akadēmiskā gada studiju kalendārs","url":"https://www.jvlma.lv/data/doc_studiju_procesu_reglamentejosie_ieksejie_normativie_akti/studiju-kalendars-2026-2027-31082026.pdf"},
-      "photo":{"src":"/assets/universities/jvlma.jpg","caption":"Jāzepa Vītola Latvijas Mūzikas akadēmijas ēka","alt":"Jāzepa Vītola Latvijas Mūzikas akadēmijas ēka Rīgā","author":"Smig","license":"CC BY-SA 3.0","licenseUrl":"https://creativecommons.org/licenses/by-sa/3.0/","pageUrl":"https://commons.wikimedia.org/wiki/File:Latvian_Academy_of_Music.JPG"},
-      "events":[
-        {"kind":"study","label":"Rudens semestris","start":"2026-09-07","end":"2027-01-24"},
-        {"kind":"exam","label":"Patstāvīgais darbs un pārbaudījumi","start":"2026-12-21","end":"2027-01-24"},
-        {"kind":"holiday","label":"Ziemas brīvlaiks","start":"2027-01-25","end":"2027-01-31"},
-        {"kind":"study","label":"Pavasara semestris","start":"2027-02-01","end":"2027-06-20"},
-        {"kind":"holiday","label":"Lielā piektdiena","start":"2027-03-26"},
-        {"kind":"holiday","label":"Otrās Lieldienas","start":"2027-03-29"},
-        {"kind":"exam","label":"Patstāvīgais darbs un pārbaudījumi","start":"2027-05-17","end":"2027-06-20"},
-        {"kind":"holiday","label":"Vasaras brīvlaiks","start":"2027-06-21","end":"2027-09-01"}
+      "id": "jvlma",
+      "institution": "Jāzepa Vītola Latvijas Mūzikas akadēmija",
+      "scope": "Studiju kalendārā norādīti arī prakses, patstāvīgā darba un svētku dienu periodi; skolēnu brīvlaiki nav JVLMA brīvlaiki.",
+      "source": {
+        "title": "JVLMA 2026./2027. akadēmiskā gada studiju kalendārs",
+        "url": "https://www.jvlma.lv/data/doc_studiju_procesu_reglamentejosie_ieksejie_normativie_akti/studiju-kalendars-2026-2027-31082026.pdf"
+      },
+      "photo": {
+        "src": "/assets/universities/jvlma.jpg",
+        "caption": "Jāzepa Vītola Latvijas Mūzikas akadēmijas ēka",
+        "alt": "Jāzepa Vītola Latvijas Mūzikas akadēmijas ēka Rīgā",
+        "author": "Smig",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Latvian_Academy_of_Music.JPG"
+      },
+      "events": [
+        {
+          "kind": "study",
+          "label": "Rudens semestris",
+          "start": "2026-09-07",
+          "end": "2027-01-24"
+        },
+        {
+          "kind": "exam",
+          "label": "Patstāvīgais darbs un pārbaudījumi",
+          "start": "2026-12-21",
+          "end": "2027-01-24"
+        },
+        {
+          "kind": "holiday",
+          "label": "Ziemas brīvlaiks",
+          "start": "2027-01-25",
+          "end": "2027-01-31"
+        },
+        {
+          "kind": "study",
+          "label": "Pavasara semestris",
+          "start": "2027-02-01",
+          "end": "2027-06-20"
+        },
+        {
+          "kind": "holiday",
+          "label": "Lielā piektdiena",
+          "start": "2027-03-26"
+        },
+        {
+          "kind": "holiday",
+          "label": "Otrās Lieldienas",
+          "start": "2027-03-29"
+        },
+        {
+          "kind": "exam",
+          "label": "Patstāvīgais darbs un pārbaudījumi",
+          "start": "2027-05-17",
+          "end": "2027-06-20"
+        },
+        {
+          "kind": "holiday",
+          "label": "Vasaras brīvlaiks",
+          "start": "2027-06-21",
+          "end": "2027-09-01"
+        }
       ]
     }
   ],
