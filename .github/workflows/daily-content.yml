@@ -1,14 +1,58 @@
-name: Verify daily editorial freshness
+name: Publish daily Latvian horoscope edition
+
 on:
-  # Owner requests updates on demand; keep explicit manual validation.
+  schedule:
+    # 00:15 in Latvia during winter and 01:15 during summer time.
+    - cron: '15 22 * * *'
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/daily-content.yml'
+      - 'scripts/generate.rb'
+      - 'scripts/build_horoscope_data.mjs'
+      - 'scripts/render_horoscope_snapshot.mjs'
+      - 'scripts/verify_daily.rb'
+      - 'lib/horoscope-edition.mjs'
+      - 'assets/sky-core.mjs'
+      - 'assets/horoscope-data.mjs'
+      - '_data/horoscope/**'
+
 permissions:
-  contents: read
+  contents: write
+
+concurrency:
+  group: daily-horoscope-edition
+  cancel-in-progress: false
+
 jobs:
-  freshness:
+  publish:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
-      # This check uses only Ruby's standard JSON/Date libraries, no Gemfile.
-      - run: /usr/bin/ruby -v
-      - run: /usr/bin/ruby scripts/verify_daily.rb
+        with:
+          ref: main
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
+        with:
+          node-version: '24.22.1'
+      - name: Generate Latvia's dated edition
+        env:
+          TZ: Europe/Riga
+          NODE: node
+        run: ruby scripts/generate.rb
+      - name: Verify date and all twelve signs
+        env:
+          TZ: Europe/Riga
+        run: ruby scripts/verify_daily.rb
+      - name: Publish generated pages for Cloudflare Pages
+        shell: bash
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -A -- 404.html 500.html _data/build.json _data/page-revisions.json assets/cities.js assets/horoscope-data.mjs assets/horoscopes.json assets/search-index.json docs/route-manifest.json generated robots.txt sitemap.xml
+          if git diff --cached --quiet; then
+            echo 'The current Europe/Riga edition is already published.'
+            exit 0
+          fi
+          git commit -m 'Publish daily Latvian horoscope edition'
+          git push origin HEAD:main

@@ -8,11 +8,11 @@ Ruby 4.0.8 was released on 2026-10-22 and was initially absent from Cloudflare/G
 
 ## Daily editorial content
 
-On 2026-11-08 the owner authorized a repair of today's edition only. Twelve genuinely new Latvian texts were authored and reviewed; older prose was not relabeled or rotated. The public disclosure retains AI assistance, entertainment status and the absence of an individual birth-chart calculation.
+The owner has now authorized daily automatic publication. `.github/workflows/daily-content.yml` runs at 22:15 UTC (00:15 in Latvia during winter time; 01:15 during summer time), rebuilds the dated edition from the original Latvian text bank, verifies all twelve signs against `Europe/Riga`, and commits the generated pages so the main-branch Cloudflare build can publish them. It also supports manual dispatch.
 
-The former desktop authoring task is no longer registered. The owner explicitly declined recreating a recurring task during this repair. No new scheduled authoring task, paid API or background server was installed. Future daily editions therefore require a separately authorized authoring and publication action; do not describe automatic daily authoring as active.
+This is a deterministic selection from the site's original, AI-assisted Latvian text bank using the Riga date and astronomical context. It does not call a paid external horoscope-writing API or claim a fresh human-edited article each day. The public disclosure keeps the entertainment status, AI assistance, and absence of an individual birth-chart calculation explicit.
 
-The existing GitHub scheduled workflow independently checks freshness at 01:30 UTC and remains enabled. The site suppresses stale readings instead of displaying them as current. Keep both controls: a future missing edition must be reported honestly, not repaired by changing the date on old text.
+The separate scheduled freshness check at 04:35 UTC verifies the public API after the daily build window. A missing or stale edition must fail visibly; it must never relabel yesterday's text as today's. The health check validates the live API but does not create content.
 
 ## Local maintenance
 
