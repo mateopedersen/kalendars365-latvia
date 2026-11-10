@@ -19,6 +19,18 @@ These results cover the current local source revision after the photo-license ca
 
 The local browser review covered the homepage, 12-sign guide, gardening pages, cultural pages, sunrise/sunset simulation, lunar month layout, and the updated photo-license page. Its page-heading layout and photo/license attribution issue were corrected. A clean automated audit does not establish that every possible browser/device state is bug-free.
 
+## Production verification — 2026-11-10
+
+| Check | Result | Evidence |
+|---|---|---|
+| Public pages and error handling | PASS | HTTPS 200 for `/`, photo/license catalog, study calendar, January 2028 lunar month, Kuldīga sun page, Virgo horoscope, and Līgo page. A nonexistent path returns HTTP 404 and the Latvian not-found title. |
+| Horoscope API | PASS | `/api/horoskops/dienas` returns `2026-11-10`, `Europe/Riga`, and 12 complete sign entries. Daily publication workflow run [42778877739](https://github.com/mateopedersen/kalendars365-latvia/actions/runs/42778877739) succeeded and created commit `07c537d`. |
+| City weather API | PASS | `/api/laikapstakli?city=kuldiga` returns HTTP 200 with the MET Norway forecast source. Forecast data is not a live radar observation. |
+| Live asset revision | PASS | Public `asset-version` is `d395eae4e21383ac`, matching `_data/build.json` on main. All 1,001 local asset checksums recorded in the manifest match. |
+| GitHub CI | PASS | [Verify Latvia calendar run 42778877651](https://github.com/mateopedersen/kalendars365-latvia/actions/runs/42778877651) succeeded for release code commit `3233a31`; CodeQL run [42778877907](https://github.com/mateopedersen/kalendars365-latvia/actions/runs/42778877907) succeeded. The subsequent `07c537d` bot commit contains date-bound generated metadata, validated by the daily workflow. |
+
+The public domain and deployed content were checked directly. A Cloudflare deployment UUID was not exposed by the available GitHub or public-host checks, so none is asserted here.
+
 ## Historical baseline — 2026-10-22
 
 Checked on 2026-10-22. These are executed local checks, not claims of complete browser, language, accessibility or production certification. Final suite and build results were confirmed by the root task after integrating the agents' changes.
