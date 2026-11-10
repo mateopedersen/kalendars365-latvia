@@ -1,10 +1,10 @@
 {
-  "matrix_routes": 998,
-  "html_files": 1001,
-  "indexable": 943,
+  "matrix_routes": 876,
+  "html_files": 879,
+  "indexable": 821,
   "noindex": 55,
-  "total_files": 5671,
-  "total_bytes": 2231317015,
+  "total_files": 5552,
+  "total_bytes": 2203320772,
   "errors": [
 
   ]

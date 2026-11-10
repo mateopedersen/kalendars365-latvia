@@ -11,7 +11,8 @@ assert(manifest.complete);assert.equal(manifest.items.length,260);
 assert.equal(new Set(manifest.items.map(i=>i.fingerprint)).size,1,'every print uses the same reviewed renderer');
 const allHashes=new Set();
 let files=0;
-for(let year=2026;year<=2030;year++)for(const month of [null,...Array.from({length:12},(_,i)=>i+1)]){
+assert(!fs.existsSync('_site/meness-kalendars/2026/index.html'));
+for(let year=2027;year<=2030;year++)for(const month of [null,...Array.from({length:12},(_,i)=>i+1)]){
   const items=manifest.items.filter(i=>i.year===year&&i.month===month);
   assert.equal(items.length,4,`${year}/${month}: four designs`);
   assert.equal(new Set(items.map(i=>i.design)).size,4);
@@ -50,4 +51,4 @@ for(const s of read('_data/reference/astronomy/manifest.json')){
  const error=Math.abs(lunarPrintDay(s.date).fraction-parseFloat(official.fracillum)/100);
  assert(error<.01,`${s.date}: USNO illumination error ${error}`);maxUsno=Math.max(maxUsno,error);
 }
-console.log(JSON.stringify({files,dates,monthlyPages:60,annualPages:5,designsPerPage:4,maxFractionDifference:maxFraction,maxLibrationDifferenceDegrees:maxLibration,maxUsnoDifferencePercentagePoints:maxUsno*100}));
+console.log(JSON.stringify({files,dates,monthlyPages:48,annualPages:4,designsPerPage:4,maxFractionDifference:maxFraction,maxLibrationDifferenceDegrees:maxLibration,maxUsnoDifferencePercentagePoints:maxUsno*100}));

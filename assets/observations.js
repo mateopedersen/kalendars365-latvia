@@ -1,14 +1,18 @@
 (()=>{'use strict';
- const select=document.getElementById('city-select'),panel=document.getElementById('station-observation');if(!select||!panel)return;
- const title=document.getElementById('station-observation-title'),value=document.getElementById('station-observation-value'),detail=document.getElementById('station-observation-detail');
- const number=new Intl.NumberFormat('lv-LV',{maximumFractionDigits:1}),time=new Intl.DateTimeFormat('lv-LV',{timeZone:'Europe/Riga',day:'numeric',month:'long',hour:'2-digit',minute:'2-digit',hourCycle:'h23'});
- let generation=0,timer;
- async function update(){const token=++generation,city=select.value;clearTimeout(timer);panel.dataset.state='loading';title.textContent='Tuvākās stacijas mērījums';value.textContent='—';detail.textContent='Ielādē LVĢMC novērojumus…';
-  try{const r=await fetch(`/api/noverojumi/?city=${encodeURIComponent(city)}`,{cache:'no-store',signal:AbortSignal.timeout(13000)}),data=await r.json();if(token!==generation)return;
-   const o=data.observation;if(!r.ok||!o||!Number.isFinite(o.temperature)||Date.now()-Date.parse(o.observedAt)>10800000)throw Error('Unavailable');
-   panel.dataset.state='available';title.textContent=`Stacija: ${o.stationName}`;value.textContent=`${number.format(o.temperature)} °C`;detail.textContent=`Stundas vidējā temperatūra · ${number.format(o.distanceKm)} km no pilsētas centra. Stundas sākums: ${time.format(new Date(o.observedAt))} (Latvijas laiks).`;
-  }catch{if(token!==generation)return;panel.dataset.state='unavailable';title.textContent='Stacijas mērījums nav pieejams';value.textContent='—';detail.textContent='Nav saņemts derīgs mērījums pēdējās 3 stundās līdz 50 km attālumā. Prognoze ir parādīta atsevišķi.';}
-  timer=setTimeout(update,10*60*1000);
- }
- select.addEventListener('change',update);document.addEventListener('visibilitychange',()=>{if(!document.hidden)update();});update();
+const select=document.getElementById('city-select'),panel=document.getElementById('station-observation');
+if(!select||!panel)return;
+const title=document.getElementById('station-observation-title'),value=document.getElementById('station-observation-value'),detail=document.getElementById('station-observation-detail');
+const number=new Intl.NumberFormat('lv-LV',{maximumFractionDigits:1}),time=new Intl.DateTimeFormat('lv-LV',{timeZone:'Europe/Riga',day:'numeric',month:'long',hour:'2-digit',minute:'2-digit',hourCycle:'h23'});
+const TTL=3*60*1000,cache=new Map(),pending=new Map(),prefix='k365:observation:';
+let generation=0,timer;
+function cached(city){let row=cache.get(city);if(!row){try{row=JSON.parse(sessionStorage.getItem(prefix+city)||'null');if(row)cache.set(city,row);}catch{}}return row&&Date.now()-row.savedAt<TTL&&valid(row.data)?row:null;}
+function valid(data){const o=data?.observation;return !!o&&Number.isFinite(o.temperature)&&Number.isFinite(Date.parse(o.observedAt))&&Date.now()-Date.parse(o.observedAt)<10800000;}
+function load(city){if(pending.has(city))return pending.get(city);const task=fetch(`/api/noverojumi/?city=${encodeURIComponent(city)}`,{cache:'no-store',signal:AbortSignal.timeout(12000)}).then(async response=>{const data=await response.json().catch(()=>({}));if(!response.ok||!valid(data))throw Error('Stacijas dati nav pieejami');const row={data,savedAt:Date.now()};cache.set(city,row);try{sessionStorage.setItem(prefix+city,JSON.stringify(row));}catch{}return data;}).finally(()=>pending.delete(city));pending.set(city,task);return task;}
+function showLoading(city){panel.dataset.state='loading';title.textContent=`Ielādē ${city} stacijas datus…`;value.textContent='';detail.textContent='Jaunākais tuvākās stacijas mērījums.';}
+function showUnavailable(){panel.dataset.state='unavailable';title.textContent='Stacijas mērījums nav pieejams';value.textContent='';detail.textContent='Nav saņemts derīgs mērījums pēdējās 3 stundās līdz 50 km attālumā. Prognoze ir parādīta atsevišķi.';}
+function render(data){const o=data.observation;panel.dataset.state='available';title.textContent=`Stacija: ${o.stationName}`;value.textContent=`${number.format(o.temperature)} °C`;detail.textContent=`Stundas vidējā temperatūra · ${number.format(o.distanceKm)} km no pilsētas centra. Stundas sākums: ${time.format(new Date(o.observedAt))} (Latvijas laiks).`;}
+function update(){const token=++generation,city=select.value,cityName=select.selectedOptions[0]?.textContent||city;clearTimeout(timer);const row=cached(city);if(row){render(row.data);timer=setTimeout(update,Math.max(1000,TTL-(Date.now()-row.savedAt)));return;}showLoading(cityName);load(city).then(data=>{if(token!==generation||city!==select.value)return;render(data);timer=setTimeout(update,TTL);}).catch(()=>{if(token!==generation||city!==select.value)return;showUnavailable();timer=setTimeout(update,60*1000);});}
+async function warm(){const ids=['riga','daugavpils','liepaja','jelgava','jurmala','ventspils','rezekne','valmiera'].filter(id=>id!==select.value&&!cached(id));for(let i=0;i<ids.length;i+=2){await Promise.allSettled(ids.slice(i,i+2).map(load));}}
+select.addEventListener('change',update);document.addEventListener('visibilitychange',()=>{if(!document.hidden)update();});update();
+if('requestIdleCallback' in window)window.requestIdleCallback(warm,{timeout:2500});else setTimeout(warm,1500);
 })();

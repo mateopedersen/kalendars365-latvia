@@ -1,0 +1,83 @@
+/* The Latvian city card keeps its factual data, with a clearer visual hierarchy. */
+#city-card{border:1px solid #e5d7d8;box-shadow:0 16px 42px #4f263019,0 2px 8px #4f26300a}
+#city-card .today-heading{background:linear-gradient(115deg,#711d35 0%,#922743 62%,#a03951 100%);color:#fff;border-bottom:1px solid #f2b4be55}
+#city-card .today-heading h2{color:#fff}
+#city-card .today-heading>.icon{width:36px;height:36px;filter:drop-shadow(0 3px 4px #270c1955)}
+#city-card .today-eyebrow{color:#f4c8cf;letter-spacing:.14em}
+#city-card .today-live{color:#fff;font-size:11px;font-weight:750;align-self:center;margin-top:0;padding:5px 9px;border:1px solid #ffd9df55;border-radius:999px;background:#fff2}
+#city-card .today-live i{width:7px;height:7px;background:#ffd98c;box-shadow:0 0 0 3px #ffd98c30,0 0 9px #ffd98c}
+#city-card figure.city-photo figcaption{padding:35px 17px 14px;font-size:15px;font-weight:780;background:linear-gradient(transparent,#1b1828dd)}
+#city-card figure.city-photo figcaption>a{width:32px;height:32px;background:#fff3;backdrop-filter:blur(5px)}
+#city-card .today-body{background:linear-gradient(155deg,#fffefd 0%,#fdf8f5 100%)}
+#city-card .today-date{font-size:14px;font-weight:760;color:#5c3140;margin-bottom:12px;line-height:1.35}
+#city-card .clock-row{position:relative;display:grid;grid-template-columns:62px minmax(0,1fr);align-items:center;gap:11px;padding:13px 14px;margin:0 0 18px;border:1px solid #e0bdc8;border-left:4px solid #8f2444;border-radius:17px;background:linear-gradient(130deg,#fffdfa,#f9ecf1);box-shadow:0 9px 22px #5b20331a;overflow:hidden}
+#city-card .clock-row:after{content:none}
+#city-card .city-clock{position:relative;z-index:1;width:62px;height:62px;filter:drop-shadow(0 5px 5px #572c3a32)}
+#city-card .clock-digital{position:relative;z-index:1;min-width:0;display:grid;gap:2px}#city-card .clock-digital>div{display:flex;align-items:baseline;gap:5px;min-width:0;white-space:nowrap}
+#city-card .clock-caption{font-size:9px;letter-spacing:.11em;color:#895168;margin-bottom:2px}
+#city-card #riga-time{font-size:36px;font-weight:820;line-height:1;color:#4a2435;letter-spacing:-.06em;text-shadow:none;white-space:nowrap}
+#city-card #city-clock-seconds{color:#95536a;font-size:12px;font-weight:700;font-variant-numeric:tabular-nums}
+#city-card .clock-zone{position:static;justify-self:start;margin-top:2px;background:#f1e1e7;border:1px solid #dfc0ca;color:#71324a;border-radius:6px;padding:2px 6px;font-size:9px}
+#city-card .city-picker>label{font-size:10px;letter-spacing:.13em;color:#713748;font-weight:800}
+#city-card .city-select-shell{background:#fff;border-radius:13px;box-shadow:0 4px 12px #4b1e2b0a}
+#city-card .city-select-shell select{min-height:54px;height:54px;padding-left:47px;border:1px solid #d9bec7;border-radius:13px;font-size:18px;color:#32262d;transition:border-color .15s,box-shadow .15s}
+#city-card .city-select-shell select:focus-visible{outline:2px solid #8f2444;outline-offset:2px}
+#city-card .city-select-shell>.icon{top:13px;left:12px;width:27px;height:27px}
+#city-card .city-select-shell>span{top:13px;font-size:19px}
+#city-card .city-time-note{color:#6f5961;font-size:11px;margin-top:7px}
+#city-card .weather-summary{grid-template-columns:51px minmax(0,1fr) auto;gap:10px;min-height:105px;margin-top:16px;padding:14px;border:1px solid #e8c9bd;border-radius:16px;background:radial-gradient(circle at 0 0,#fff5de,transparent 42%),linear-gradient(120deg,#fffaf2,#f9e8ed);box-shadow:0 8px 18px #814d3914}
+#city-card .weather-summary .weather-summary-icon{width:49px;height:49px}
+#city-card .weather-summary-eyebrow{font-size:9px;letter-spacing:.09em;color:#8f4d5f}
+#city-card .weather-summary-copy>strong{font-size:17px;line-height:1.16;color:#4e2536}
+#city-card .weather-summary-details{font-size:11px;color:#755d64}
+#city-card .weather-temperature{font-size:30px;line-height:1;color:#76273e;letter-spacing:-.06em}
+#city-card .weather-updated{font-size:10px;color:#76545f}
+#city-card .station-observation{position:relative;grid-template-columns:minmax(0,1fr) auto;gap:8px 12px;margin:12px 0 16px;padding:15px 16px;border:1px solid #d7c6c7;border-radius:16px;background:linear-gradient(145deg,#fff,#f8f2ef);box-shadow:0 7px 17px #4d29300b}
+#city-card .station-eyebrow{font-size:9px;letter-spacing:.13em;color:#8c5b69}
+#city-card #station-observation-title{font-size:16px;line-height:1.25;color:#2e2930}
+#city-card #station-observation-value{font-size:27px;color:#6e233d}
+#city-card .station-observation p{font-size:11px;line-height:1.45}
+#city-card .station-observation small{font-size:10px;line-height:1.45}
+#city-card .station-observation a{color:#8d2542}
+#city-card .city-sun-panel{padding:13px 14px 10px;border:1px solid #e6d4c8;border-radius:16px;background:linear-gradient(145deg,#fffaf3,#fff6f7);box-shadow:0 7px 16px #7e394314}
+#city-card .city-sun-title{display:flex;justify-content:space-between;align-items:center;gap:8px;color:#7d384c;font-size:10px;font-weight:820;letter-spacing:.1em}
+#city-card .city-sun-title span:last-child{color:#8a6a73;font-size:9px;font-weight:650;letter-spacing:0}
+#city-card .city-sun-visual{display:block;width:100%;height:auto;margin:9px 0 4px;max-height:104px}
+#city-card .city-sun-visual[data-phase="night"] #city-sun-orb,#city-card .city-sun-visual[data-phase="night"] #city-sun-orb-glow{opacity:.35}
+#city-card .city-sun{margin:0;padding:0;border:0;gap:8px}
+#city-card .city-sun>div{min-width:0;gap:5px}
+#city-card .city-sun .icon{width:32px;height:32px;flex:none}
+#city-card .city-sun span{font-size:10px;color:#795a63}
+#city-card .city-sun strong{font-size:21px;line-height:1.1;color:#40252e}
+#city-card .city-daylight{margin:10px 0 4px;text-align:center;font-size:11px;color:#6f5360}
+#city-card .city-sun-link{min-height:30px;border-top:1px solid #ebd7d0;padding-top:7px;margin-top:7px;font-size:11px;color:#8f2444}
+#city-card .city-moon-block{margin-top:17px;padding:13px 14px;border:1px solid #ded5df;border-radius:16px;background:linear-gradient(135deg,#f5f3fa,#fff9f6)}
+#city-card .city-moon-heading>span{color:#40344a;font-size:13px}
+#city-card .city-moon-heading b{color:#6e385d}
+#city-card .city-moon-times{gap:8px}
+#city-card .city-moon-block>a{color:#8f2444}
+#city-card .today-name-block{margin-top:15px;padding:13px 14px;border:1px solid #ecd4d9;border-radius:14px;background:#fff9f8}
+#city-card .today-name-block>a{font-size:13px;color:#7c2440}
+#city-card .today-names{margin:6px 0 0;font-size:13px;line-height:1.5;color:#493c43;max-height:none;overflow:visible;overflow-wrap:anywhere;white-space:normal}
+#city-card .city-credits-link{margin-top:11px;color:#7b5362;text-decoration:underline;text-underline-offset:3px}
+@media (max-width:420px){#city-card .clock-row{grid-template-columns:52px minmax(0,1fr);gap:8px;padding:11px}#city-card .city-clock{width:52px;height:52px}#city-card #riga-time{font-size:31px}#city-card .weather-summary{grid-template-columns:42px minmax(0,1fr) auto;gap:7px;padding:10px}#city-card .weather-summary .weather-summary-icon{width:42px;height:42px}#city-card .weather-temperature{font-size:25px}#city-card .station-observation{padding:12px}#city-card #station-observation-value{font-size:23px}}
+@media (prefers-reduced-motion:reduce){#city-card .city-select-shell select{transition:none}}
+
+#city-card .today-name-block{min-height:0;height:auto;overflow:visible}
+#city-card .today-name-block>a{min-width:0;align-items:flex-start;line-height:1.3;overflow-wrap:anywhere}
+#city-card .today-name-block .icon{flex:none}
+#city-card .clock-row *{min-width:0}
+
+/* Forecast and station details remain readable in the narrow sidebar. */
+#city-card .weather-summary{grid-template-columns:46px minmax(0,1fr);grid-template-rows:auto auto auto;align-items:start;gap:5px 11px;min-width:0}
+#city-card .weather-summary .weather-summary-icon{grid-column:1;grid-row:1/3;width:46px;height:46px;align-self:center}
+#city-card .weather-summary-copy{grid-column:2;grid-row:1;min-width:0}
+#city-card .weather-summary-copy>strong,#city-card .weather-summary-details,#city-card .weather-summary-eyebrow{overflow-wrap:anywhere}
+#city-card .weather-temperature{grid-column:2;grid-row:2;font-size:26px;justify-self:start}
+#city-card .weather-updated{grid-column:1/-1;grid-row:3;min-height:0;margin-top:4px;font-size:10px;line-height:1.35}
+#city-card .weather-summary[data-weather=unavailable] .weather-temperature{display:none}
+#city-card .weather-summary[data-weather=unavailable] .weather-art-cloud{display:block}
+#city-card .station-observation[data-state=unavailable]>div{grid-column:1/-1}
+#city-card .station-observation[data-state=unavailable]>#station-observation-value{display:none}
+#city-card .station-observation p,#city-card .station-observation small{overflow-wrap:anywhere}
+@media (max-width:420px){#city-card .weather-summary{grid-template-columns:40px minmax(0,1fr)}#city-card .weather-summary .weather-summary-icon{width:40px;height:40px}}

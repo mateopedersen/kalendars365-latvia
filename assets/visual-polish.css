@@ -161,3 +161,41 @@
 
 /* Header navigation uses one deliberate hover marker below each link. */
 .site-header a:hover,.site-header a:focus-visible{text-decoration:none}
+
+/* Let long Latvian observance names determine the calendar row height. */
+@media screen and (min-width: 701px) {
+  .calendar-table td:not(.week-number) {
+    height: auto;
+    min-height: 104px;
+  }
+  .calendar-table td:not(.week-number) .day-button {
+    height: auto;
+    min-height: 104px;
+    padding: 8px 6px 9px;
+  }
+  .calendar-table .day-event {
+    flex: 0 0 auto;
+    align-items: flex-start;
+    min-width: 0;
+    width: 100%;
+    overflow: visible;
+    white-space: normal;
+    text-overflow: clip;
+  }
+  .calendar-table .event-label {
+    display: block;
+    overflow: visible;
+    -webkit-line-clamp: unset;
+    max-height: none;
+    font-size: 10px;
+    line-height: 1.32;
+    hyphens: auto;
+    overflow-wrap: break-word;
+    white-space: normal;
+    text-overflow: clip;
+  }
+}
+
+/* Shared card labels can grow with translated or longer Latvian text. */
+.nav-directory .directory-link-copy strong{overflow:visible;text-overflow:clip;white-space:normal;overflow-wrap:anywhere}
+.nav-directory a.nav-directory-link,.link-grid .link-card,.holiday-card,.content-card,.tool-panel{min-width:0;overflow-wrap:break-word}

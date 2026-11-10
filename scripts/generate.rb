@@ -11,6 +11,7 @@ require_relative 'occasion_components'
 require_relative 'garden_components'
 require_relative 'organizer_components'
 require_relative 'latvia_components'
+require_relative 'hub_components'
 ROOT = File.expand_path('..', __dir__)
 Dir.chdir(ROOT)
 ENV['TZ'] = 'Europe/Riga'
@@ -204,7 +205,7 @@ def widget(type,year=2027)
  "<section class=\"widget-panel\" data-widget=\"#{type}\"></section>"
 end
 def card(title,body); "<section class=\"content-card\"><h2>#{h(title)}</h2>#{body}</section>"; end
-def year_links(prefix); "<nav class=\"year-pills\" aria-label=\"Gada izvēle\">#{(2026..2030).map{|y|a("/#{prefix}/#{y}/",y.to_s)}.join}</nav>"; end
+def year_links(prefix); "<nav class=\"year-pills\" aria-label=\"Gada izvēle\">#{(2027..2030).map{|y|a("/#{prefix}/#{y}/",y.to_s)}.join}</nav>"; end
 def month_links(y,prefix='kalendars'); "<div class=\"link-grid\">#{(1..12).map{|m|a("/#{prefix}/#{y}/#{SLUGS[m-1]}/",MONTHS[m-1].capitalize,'link-card')}.join}</div>"; end
 def dates(y,m=nil)
  HOLIDAYS.select{|v|v['date'].to_s.start_with?(m ? format('%04d-%02d',y,m) : y.to_s)}
@@ -216,7 +217,7 @@ def holiday_table(y,m=nil,memorial=false)
 end
 def calendar(y,m,mini=false)
  first=Date.new(y,m,1); last=Date.new(y,m,-1); start=first-(first.cwday-1); ending=last+(7-last.cwday)
- rows=(start..ending).each_slice(7).map{|week|'<tr><th scope="row">'+a(format('/nedelas-kalendars/%d/%02d/',week[3].cwyear,week[3].cweek),week[3].cweek)+'</th>'+week.map{|d|holiday=HOLIDAYS.any?{|z|z['date']==d.iso8601&&z['dayOff']}; label="#{d.year}. gada #{d.day}. #{MONTHS[d.month-1]}"; "<td class=\"#{d.month!=m ? 'outside' : ''} #{d.cwday>5 ? 'weekend' : ''} #{holiday ? 'holiday' : ''}\"><a class=\"calendar-date-link\" href=\"/?date=#{d.iso8601}&amp;view=day\" aria-label=\"#{h(label)}\" style=\"display:block;color:inherit;text-decoration:none\"><time datetime=\"#{d.iso8601}\">#{d.day}</time></a></td>"}.join+'</tr>'}.join
+ rows=(start..ending).each_slice(7).map{|week|'<tr><th scope="row">'+a(week[3].cwyear >= 2027 ? format('/nedelas-kalendars/%d/%02d/',week[3].cwyear,week[3].cweek) : "/?date=#{week.first.iso8601}&view=week",week[3].cweek)+'</th>'+week.map{|d|holiday=HOLIDAYS.any?{|z|z['date']==d.iso8601&&z['dayOff']}; label="#{d.year}. gada #{d.day}. #{MONTHS[d.month-1]}"; "<td class=\"#{d.month!=m ? 'outside' : ''} #{d.cwday>5 ? 'weekend' : ''} #{holiday ? 'holiday' : ''}\"><a class=\"calendar-date-link\" href=\"/?date=#{d.iso8601}&amp;view=day\" aria-label=\"#{h(label)}\" style=\"display:block;color:inherit;text-decoration:none\"><time datetime=\"#{d.iso8601}\">#{d.day}</time></a></td>"}.join+'</tr>'}.join
  "<section class=\"#{mini ? 'mini-calendar' : 'static-calendar'}\"><h2>#{a("/kalendars/#{y}/#{SLUGS[m-1]}/",MONTHS[m-1].capitalize)}</h2><table><thead><tr><th scope=\"col\">Ned.</th>#{DAYS.map{|d|"<th scope=\"col\">#{d}</th>"}.join}</tr></thead><tbody>#{rows}</tbody></table></section>"
 end
 def source_panel(extra='')
@@ -308,7 +309,7 @@ ROUTES.each do |r|
  noindex=false;reason='ready';body='';desc=''
  if p=='/'
   body='{% include app.html %}'
-  desc='Latvijas kalendārs, svētku dienas un ikdienas plānošana. 2026.–2030. gada kalendāri, personīgie notikumi un lejupielādējami PDF.'
+  desc='Latvijas kalendārs, svētku dienas un ikdienas plānošana. 2027.–2030. gada kalendāri, personīgie notikumi un lejupielādējami PDF.'
  elsif f=='garden'
   if slug=='sejas-kalendars'
    title='Sējas un stādīšanas kalendārs Latvijā'
@@ -353,15 +354,11 @@ ROUTES.each do |r|
    lunar_year_markup(y)+lunar_print_gallery(y)
   end
  elsif %w[school_academic school_year_calendar].include?(f)
-  school_years = {'2026-27'=>'2026./2027.','2027-28'=>'2027./2028.','2028-29'=>'2028./2029.','2029-30'=>'2029./2030.','2030-31'=>'2030./2031.'}
-  if f == 'school_academic' && slug == '2026-27'
-   body=school_calendar_markup+widget('countdown')+print_panel('school',2027)
-  else
-   noindex=true;reason='school_dates_pending'
-   academic_slug = f == 'school_academic' ? slug : (y <= 2026 ? '2026-27' : "#{y}-#{(y+1).to_s[-2,2]}")
-   academic_label = school_years[academic_slug] || "#{y}./#{y+1}."
-   body="<section class=\"content-card school-pending\"><p class=\"eyebrow\">#{h(academic_label)} mācību gads</p><h2>Oficiālais brīvlaiku grafiks vēl nav publicēts</h2><p>Šajā lapā nav apstiprinātu datumu. Iepriekšējā mācību gada brīvlaikus nepārceļam uz nākamo gadu. Tiklīdz grafiku publicēs Izglītības un zinātnes ministrija, šeit būs norādīta datumu kopa un tās pirmavots.</p><p>Pašlaik publicētais grafiks: #{a('/skolas-brivlaiki/2026-27/','2026./2027. mācību gada skolas brīvlaiki')}.</p></section>"+card('Izvēlies mācību gadu','<div class="link-grid">'+school_years.map{|year,label|a("/skolas-brivlaiki/#{year}/","#{label} mācību gads",'link-card')}.join+'</div>')+verified_sources_panel(['school-2027'],'Skolas datumi attiecas tikai uz attiecīgo oficiāli publicēto mācību gadu; nākamo gadu termiņi netiek prognozēti.')
-  end
+  school_years = {'2027-28'=>'2027./2028.','2028-29'=>'2028./2029.','2029-30'=>'2029./2030.','2030-31'=>'2030./2031.'}
+  noindex=true;reason='school_dates_pending'
+  academic_slug = f == 'school_academic' ? slug : "#{y}-#{(y+1).to_s[-2,2]}"
+  academic_label = school_years[academic_slug] || "#{y}./#{y+1}."
+  body="<section class=\"content-card school-pending\"><p class=\"eyebrow\">#{h(academic_label)} mācību gads</p><h2>Oficiālais brīvlaiku grafiks vēl nav publicēts</h2><p>Šajā lapā nav apstiprinātu datumu. Iepriekšējā mācību gada brīvlaikus nepārceļam uz nākamo gadu. Tiklīdz grafiku publicēs Izglītības un zinātnes ministrija, šeit būs norādīta datumu kopa un tās pirmavots.</p></section>"+card('Izvēlies mācību gadu','<div class="link-grid">'+school_years.map{|year,label|a("/skolas-brivlaiki/#{year}/","#{label} mācību gads",'link-card')}.join+'</div>')+verified_sources_panel(['school-2027'],'Skolas datumi attiecas tikai uz attiecīgo oficiāli publicēto mācību gadu; nākamo gadu termiņi netiek prognozēti.')
  elsif %w[name_calendar name_day_month].include?(f)
   names=DATA.fetch('names',[]);matching=f=='name_calendar' ? names.select{|n|n['name']==r['Latvian title/topic']} : names.select{|n|n['month'].to_i==m}
   noindex=matching.empty? || !DATA.fetch('assumptions',{}).fetch('namesComplete',false);reason='name_source_pending' if noindex
@@ -440,9 +437,13 @@ ROUTES.each do |r|
   noindex=true;reason='internal_search';body=widget('search')
  elsif %w[gadalaiki astronomiskais-kalendars].include?(slug)
   noindex=DATA.fetch('seasons',[]).empty?;reason='season_ephemeris_pending' if noindex;body=card('Meteoroloģiskie un astronomiskie gadalaiki','<p>Meteoroloģiskais pavasaris sākas 1. martā, vasara — 1. jūnijā, rudens — 1. septembrī, ziema — 1. decembrī. Astronomiskās robežas nosaka ekvinokcijas un saulgrieži; to precīzos brīžus pievienojam tikai no pārbaudīta efemerīdu avota.</p>')+card('Astronomiskie gadalaiki Rīgas laikā','<div class="phase-list">'+DATA.fetch('seasons',[]).map{|z|"<article><b>#{h(z['event']||z['title'])}</b><time>#{h(z['date'])} #{h(z['time'])}</time></article>"}.join+'</div>')+widget('sun')+widget('moon')
+ elsif slug=='kalendars'
+  body=calendar_hub_markup
+ elsif slug=='svetku-dienas'
+  body=holiday_hub_markup
  elsif slug=='skolas-brivlaiki'
   title='Skolas brīvlaiki Latvijā';heading=title;desc='Latvijas skolēnu oficiālie brīvlaiki, mācību semestru datumi un klašu beigu termiņi. Katram mācību gadam norādīts atsevišķs avots.'
-  body=school_calendar_markup+card('Mācību gadi','<div class="link-grid">'+[['2026-27','2026./2027.'],['2027-28','2027./2028.'],['2028-29','2028./2029.'],['2029-30','2029./2030.'],['2030-31','2030./2031.']].map{|year,label|a("/skolas-brivlaiki/#{year}/","#{label} mācību gads",'link-card')}.join+'</div>')
+  body=school_hub_markup
  elsif slug=='meness-kalendars'
   noindex=DATA.fetch('moon',[]).empty?;reason='moon_source_pending' if noindex
   body=lunar_year_index_markup
@@ -479,7 +480,7 @@ ROUTES.each do |r|
   body += '<section class="sun-city-options"><h2>Saules laiki visās Latvijas pilsētās</h2><div class="link-grid">'+CITIES.map{|c|a('/saullekts-saulriets/'+c['id']+'/',c['name'],'link-card')}.join+'</div></section>'
  end
  visual=visual_family(f,p)
- content=p=='/' ? body : "<div class=\"page-shell page-shell--#{h(f)} page-shell--visual-#{h(visual)}\"><nav class=\"breadcrumbs\" aria-label=\"Atrašanās vieta\">#{breadcrumb_markup(p,title)}</nav>#{page_heading_markup(f,p,heading,desc,y,m,slug)}#{body}<nav class=\"related-links\">#{a('/kalendars/2026/','2026. gada kalendārs')}#{a('/kalendars/2027/','2027. gada kalendārs')}#{a('/kalendars/2028/','2028. gada kalendārs')}#{a('/kalendars/2029/','2029. gada kalendārs')}#{a('/kalendars/2030/','2030. gada kalendārs')}#{a('/visi-riki/','Visi rīki')}</nav></div>"
+ content=p=='/' ? body : "<div class=\"page-shell page-shell--#{h(f)} page-shell--visual-#{h(visual)}\"><nav class=\"breadcrumbs\" aria-label=\"Atrašanās vieta\">#{breadcrumb_markup(p,title)}</nav>#{page_heading_markup(f,p,heading,desc,y,m,slug)}#{body}<nav class=\"related-links\">#{a('/kalendars/2027/','2027. gada kalendārs')}#{a('/kalendars/2028/','2028. gada kalendārs')}#{a('/kalendars/2029/','2029. gada kalendārs')}#{a('/kalendars/2030/','2030. gada kalendārs')}#{a('/visi-riki/','Visi rīki')}</nav></div>"
  path=p=='/' ? 'index.html' : "generated#{p}index.html";FileUtils.mkdir_p(File.dirname(path));File.write(path,front.to_yaml+"---\n"+content)
  # A rebuild alone does not change lastmod. Only meaningful page content does.
  content_hash = Digest::SHA256.hexdigest(JSON.generate([title,desc,body]))
@@ -504,6 +505,7 @@ DATA.fetch('names',[]).each do |name|
 end
 DATA.fetch('holidays',[]).each do |holiday|
  date=Date.parse(holiday['date'])
+  next if date.year < 2027
  search_pages << {url:"/kalendars/#{date.year}/#{SLUGS[date.month-1]}/?date=#{date.iso8601}",title:"#{holiday['title']} #{date.year}",kind:'Kalendāra diena',description:"#{date.day}. #{GEN[date.month-1]} #{date.year} · #{holiday['dayOff'] ? 'Brīvdiena' : 'Atzīmējama diena'}",keywords:"svētki #{date.day} #{MONTHS[date.month-1]} #{date.iso8601}"}
 end
 File.write('assets/search-index.json',JSON.generate(search_pages))

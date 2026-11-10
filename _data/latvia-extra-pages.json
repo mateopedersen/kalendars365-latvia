@@ -13,18 +13,6 @@
       ]
     },
     {
-      "url": "/darba-dienu-kalendars/2026/",
-      "family": "darba-dienu-kalendars",
-      "title": "Darba dienu kalendārs 2026. gadam",
-      "h1": "Darba dienu kalendārs 2026. gadam",
-      "description": "2026. gada darba dienas, svētku dienas un pārceltās darba dienas Latvijā. Atsevišķi apskati standarta un pārcelto dienu grafiku.",
-      "intro": "Plāno gadu ar Latvijas svētku un darba dienām. Pārcelto darba dienu režīmam ir noteikts piemērošanas loks; savam darba devējam raksturīgo grafiku pārbaudi atsevišķi.",
-      "sourceIds": [
-        "holiday-law",
-        "workdays-2026"
-      ]
-    },
-    {
       "url": "/dienas-garums/",
       "family": "dienas-garums",
       "title": "Dienas garums Latvijas pilsētās",
@@ -71,102 +59,6 @@
       "sourceIds": [
         "holiday-law",
         "workdays-2026"
-      ]
-    },
-    {
-      "url": "/kalendars/2026/decembris/",
-      "family": "kalendars",
-      "title": "2026. gada decembra kalendārs",
-      "h1": "2026. gada decembra kalendārs",
-      "description": "Apskati 2026. gada kalendāru decembrī ar Latvijas svētku dienām un nedēļu numuriem. Atver arī blakus mēnešus vai visa gada pārskatu.",
-      "intro": "2026. gada kalendārs decembrī ar dienu izvietojumu pa nedēļām. Svētku dienu atzīmes balstītas Latvijas kalendārā; darba dienu pārcelšana ir atsevišķs iestatījums.",
-      "sourceIds": [
-        "holiday-law",
-        "leap-usno"
-      ]
-    },
-    {
-      "url": "/kalendars/2026/",
-      "family": "kalendars",
-      "title": "2026. gada kalendārs",
-      "h1": "2026. gada kalendārs",
-      "description": "2026. gada kalendārs ar visiem mēnešiem, Latvijas svētku dienām un nedēļu numuriem. Atver mēneša skatu vai sagatavo kalendāru drukai.",
-      "intro": "Viss 2026. gads vienā pārskatā. Izvēlies mēnesi, pārbaudi Latvijas svētku dienas vai sagatavo sev piemērotu kalendāra izdruku.",
-      "sourceIds": [
-        "holiday-law",
-        "leap-usno"
-      ]
-    },
-    {
-      "url": "/kalendars/2026/novembris/",
-      "family": "kalendars",
-      "title": "2026. gada novembra kalendārs",
-      "h1": "2026. gada novembra kalendārs",
-      "description": "Apskati 2026. gada kalendāru novembrī ar Latvijas svētku dienām un nedēļu numuriem. Atver arī blakus mēnešus vai visa gada pārskatu.",
-      "intro": "2026. gada kalendārs novembrī ar dienu izvietojumu pa nedēļām. Svētku dienu atzīmes balstītas Latvijas kalendārā; darba dienu pārcelšana ir atsevišķs iestatījums.",
-      "sourceIds": [
-        "holiday-law",
-        "leap-usno"
-      ]
-    },
-    {
-      "url": "/kalendars/2026/oktobris/",
-      "family": "kalendars",
-      "title": "2026. gada oktobra kalendārs",
-      "h1": "2026. gada oktobra kalendārs",
-      "description": "Apskati 2026. gada kalendāru oktobrī ar Latvijas svētku dienām un nedēļu numuriem. Atver arī blakus mēnešus vai visa gada pārskatu.",
-      "intro": "2026. gada kalendārs oktobrī ar dienu izvietojumu pa nedēļām. Svētku dienu atzīmes balstītas Latvijas kalendārā; darba dienu pārcelšana ir atsevišķs iestatījums.",
-      "sourceIds": [
-        "holiday-law",
-        "leap-usno"
-      ]
-    },
-    {
-      "url": "/meness-kalendars/2026/decembris/",
-      "family": "meness-kalendars",
-      "title": "Mēness kalendārs 2026. gada decembrī",
-      "h1": "Mēness kalendārs 2026. gada decembrī",
-      "description": "Mēness fāzes 2026. gada decembrī un to datumi pēc Latvijas laika. Pilsētas izvēle nosaka vietējos Mēness lēkta un rieta aprēķinus.",
-      "intro": "Apskati Mēness fāzes 2026. gada decembrī. Fāzes iestāšanās ir kopīgs astronomisks brīdis, bet vietējais datums un Mēness lēkts un riets jāvērtē izvēlētajā laika joslā un vietā.",
-      "sourceIds": [
-        "usno-api",
-        "usno-services"
-      ]
-    },
-    {
-      "url": "/meness-kalendars/2026/",
-      "family": "meness-kalendars",
-      "title": "Mēness kalendārs 2026. gadam",
-      "h1": "Mēness kalendārs 2026. gadam",
-      "description": "2026. gada Mēness fāzes pēc Latvijas laika: jauns Mēness, pirmais ceturksnis, pilnmēness un pēdējais ceturksnis.",
-      "intro": "Apskati Mēness fāžu gada pārskatu. Brīžus rāda pēc Latvijas laika, savukārt lēkta un rieta laiki ir atkarīgi no izvēlētās pilsētas koordinātām.",
-      "sourceIds": [
-        "usno-api",
-        "usno-services"
-      ]
-    },
-    {
-      "url": "/meness-kalendars/2026/novembris/",
-      "family": "meness-kalendars",
-      "title": "Mēness kalendārs 2026. gada novembrī",
-      "h1": "Mēness kalendārs 2026. gada novembrī",
-      "description": "Mēness fāzes 2026. gada novembrī un to datumi pēc Latvijas laika. Pilsētas izvēle nosaka vietējos Mēness lēkta un rieta aprēķinus.",
-      "intro": "Apskati Mēness fāzes 2026. gada novembrī. Fāzes iestāšanās ir kopīgs astronomisks brīdis, bet vietējais datums un Mēness lēkts un riets jāvērtē izvēlētajā laika joslā un vietā.",
-      "sourceIds": [
-        "usno-api",
-        "usno-services"
-      ]
-    },
-    {
-      "url": "/meness-kalendars/2026/oktobris/",
-      "family": "meness-kalendars",
-      "title": "Mēness kalendārs 2026. gada oktobrī",
-      "h1": "Mēness kalendārs 2026. gada oktobrī",
-      "description": "Mēness fāzes 2026. gada oktobrī un to datumi pēc Latvijas laika. Pilsētas izvēle nosaka vietējos Mēness lēkta un rieta aprēķinus.",
-      "intro": "Apskati Mēness fāzes 2026. gada oktobrī. Fāzes iestāšanās ir kopīgs astronomisks brīdis, bet vietējais datums un Mēness lēkts un riets jāvērtē izvēlētajā laika joslā un vietā.",
-      "sourceIds": [
-        "usno-api",
-        "usno-services"
       ]
     },
     {
@@ -326,18 +218,6 @@
       ]
     },
     {
-      "url": "/svetku-dienas/2026/",
-      "family": "svetku-dienas",
-      "title": "Svētku dienas Latvijā 2026. gadā",
-      "h1": "Svētku dienas Latvijā 2026. gadā",
-      "description": "Latvijas 2026. gada svētku dienas ar datumiem un nedēļas dienām. Pārbaudi brīvdienas un atsevišķi atzīmētās pārceltās darba dienas.",
-      "intro": "Apskati likumā noteiktās svētku dienas 2026. gadā. Atceres un kultūras dienas ir atsevišķs saturs; pārceltās darba dienas jāvērtē pēc to piemērošanas noteikumiem.",
-      "sourceIds": [
-        "holiday-law",
-        "workdays-2026"
-      ]
-    },
-    {
       "url": "/pulkstena-pargriesana/",
       "family": "pulkstena-pargriesana",
       "title": "Pulksteņa pagriešana Latvijā: vasaras un ziemas laiks",
@@ -410,17 +290,6 @@
         "lu-doctoral-2027",
         "rtu-2027",
         "rsu-2027"
-      ]
-    },
-    {
-      "url": "/nedelas-kalendars/2026/",
-      "family": "nedelas-kalendars",
-      "title": "Nedēļu kalendārs 2026. gadam",
-      "h1": "Nedēļu kalendārs 2026. gadam",
-      "description": "2026. gada nedēļu numuri un datumu intervāli vienā pārskatā. Nedēļas sākas pirmdienā; pie gada robežas redzams pilns datums.",
-      "intro": "Apskati nedēļas un to sākuma un beigu datumus. Nedēļas numurs ir saistīts ar nedēļu gadu, tāpēc gada sākumā un beigās jāņem vērā arī blakus gada datumi.",
-      "sourceIds": [
-        "leap-usno"
       ]
     },
     {

@@ -30,7 +30,7 @@ end
 def memorial_month_markup(month)
   records = HOLIDAYS.select do |item|
     date = Date.parse(item['date'])
-    date.month == month && date.year.between?(2026, 2030) && item['dayOff'] == false
+    date.month == month && date.year.between?(2027, 2030) && item['dayOff'] == false
   end.sort_by { |item| item['date'] }
   if records.empty?
     return '<section class="content-card"><p>Avotā nav šim periodam atzīmētu ierakstu.</p></section>'
@@ -41,7 +41,7 @@ def memorial_month_markup(month)
     type = { 'commemoration' => 'Atceres diena', 'observance' => 'Atzīmējama diena', 'holiday' => 'Svētku diena' }.fetch(item['type'], item['type'])
     %(<tr><td><time datetime="#{date.iso8601}">#{date.strftime('%d.%m.%Y.')}</time></td><td>#{day}</td><td>#{h(item['title'] || item['name'])}</td><td>#{type}</td></tr>)
   end.join
-  %(<section class="content-card"><p>Datumi uzskaitīti tikai pēc publicētajiem ierakstiem par 2026.–2030. gadu. Šajā lapā atceres un atzīmējamās dienas netiek pasniegtas kā brīvdienas.</p><div class="table-scroll"><table class="data-table"><thead><tr><th>Datums</th><th>Diena</th><th>Notikums</th><th>Kategorija</th></tr></thead><tbody>#{rows}</tbody></table></div></section>)
+  %(<section class="content-card"><p>Datumi uzskaitīti tikai pēc publicētajiem ierakstiem par 2027.–2030. gadu. Šajā lapā atceres un atzīmējamās dienas netiek pasniegtas kā brīvdienas.</p><div class="table-scroll"><table class="data-table"><thead><tr><th>Datums</th><th>Diena</th><th>Notikums</th><th>Kategorija</th></tr></thead><tbody>#{rows}</tbody></table></div></section>)
 end
 
 def day_of_year_markup
@@ -175,7 +175,7 @@ def lunar_month_markup(year, month)
   next_date = start_date >> 1
   previous_path = "/meness-kalendars/#{previous_date.year}/#{SLUGS[previous_date.month - 1]}/"
   next_path = "/meness-kalendars/#{next_date.year}/#{SLUGS[next_date.month - 1]}/"
-  previous_link = previous_date.year >= 2026 ? a(previous_path, '← Iepriekšējais mēnesis', 'lunar-nav-button') : %(<span class="lunar-nav-button is-disabled" aria-disabled="true" title="Pieejamie Mēness kalendāri sākas 2026. gadā">← Iepriekšējais mēnesis</span>)
+  previous_link = previous_date.year >= 2027 ? a(previous_path, '← Iepriekšējais mēnesis', 'lunar-nav-button') : %(<span class="lunar-nav-button is-disabled" aria-disabled="true" title="Pieejamie Mēness kalendāri sākas 2027. gadā">← Iepriekšējais mēnesis</span>)
   next_link = next_date.year <= 2030 ? a(next_path, 'Nākamais mēnesis →', 'lunar-nav-button') : %(<span class="lunar-nav-button is-disabled" aria-disabled="true" title="Pieejamie Mēness kalendāri beidzas 2030. gadā">Nākamais mēnesis →</span>)
   year_path = "/meness-kalendars/#{year}/"
   city_options = CITIES.map { |city| %(<option value="#{h(city['id'])}"#{city['id'] == 'riga' ? ' selected' : ''}>#{h(city['name'])}</option>) }.join
@@ -227,7 +227,7 @@ end
 
 def lunar_year_index_markup
   data = JSON.parse(File.read('assets/calendar-data.json'))
-  years = data.fetch('moon', []).map { |event| Date.parse(event['date']).year }.uniq.sort
+  years = data.fetch('moon', []).map { |event| Date.parse(event['date']).year }.uniq.sort.select { |year| year >= 2027 }
   cards = years.map do |year|
     phases = data.fetch('moon', []).select { |event| event['date'].start_with?(year.to_s) }
     cover = lunar_cover(year)
@@ -257,13 +257,13 @@ def cultural_page_markup(article)
   intro = %(<p class="lead">#{h(article['intro'])}</p>)
   date_markup = case model['type']
   when 'fixed'
-    years = (2026..2030).map do |year|
+    years = (2027..2030).map do |year|
       date = Date.new(year, model['month'], model['day'])
       %(<article class="holiday-card"><time datetime="#{date.iso8601}">#{date.day}. #{h(GARDEN_MONTH_LOCATIVE[date.month - 1])} #{year}. gadā</time><small>#{%w[Svētdiena Pirmdiena Otrdiena Trešdiena Ceturtdiena Piektdiena Sestdiena][date.wday]}</small></article>)
     end.join
     local_date = article['localDate']
     local_markup = if local_date
-      local_years = (2026..2030).map do |year|
+      local_years = (2027..2030).map do |year|
         date = Date.new(year, local_date['month'], local_date['day'])
         %(<article class="holiday-card"><time datetime="#{date.iso8601}">#{date.day}. #{h(GARDEN_MONTH_LOCATIVE[date.month - 1])} #{year}. gadā</time><small>#{%w[Svētdiena Pirmdiena Otrdiena Trešdiena Ceturtdiena Piektdiena Sestdiena][date.wday]}</small></article>)
       end.join
@@ -304,7 +304,7 @@ def astronomy_event_markup(slug)
   when 'lunar' then ['Mēness aptumsumi', 'Globāla aptumsuma fāze nav automātiski redzama Latvijā. Pilsētas skatā redzami tikai virs horizonta esošie intervāli.', %w[nasa-lunar usno-lunar-local]]
   else ['Perseīdu novērošanas naktis', 'Augusta vidus ir plānošanas periods, nevis precīzs ikgadējs maksimums vai garantēts meteoru skaits.', %w[nasa-perseids nasa-sky-2026-08]]
   end
-  year_options = (2026..2030).map { |year| %(<option value="#{year}"#{year == Date.today.year ? ' selected' : ''}>#{year}</option>) }.join
+  year_options = (2027..2030).map { |year| %(<option value="#{year}"#{year == [Date.today.year, 2027].max ? ' selected' : ''}>#{year}</option>) }.join
   city_options = CITIES.map { |city| %(<option value="#{h(city['id'])}"#{city['id'] == 'riga' ? ' selected' : ''}>#{h(city['name'])}</option>) }.join
   %(<section class="tool-panel extra-tool astronomy-event-tool" data-astronomy-tool="#{kind}" data-source="/assets/latvia-astronomy.json"><div class="astronomy-controls"><label>Pilsēta Latvijā<select data-astro-city>#{city_options}</select></label><label>Gads<select data-astro-year>#{year_options}</select></label><button type="button" data-astro-export>Lejupielādēt pilsētas notikumus (.ics)</button></div><p data-astro-status class="muted" role="status">Ielādē aprēķinātos datus…</p><div data-astro-results class="astronomy-event-list"></div><p class="print-hint">#{h(description)} Novērojamību var mainīt reljefs, ēkas, augstums, atmosfēra un mākoņi. Aprēķins izmanto pilsētas centra koordinātas, 0 m augstumu, standarta refrakciju un plakanu, neaizsegtu horizontu.</p></section>)+verified_sources_panel(source_ids,'Aprēķinu dzinējs un time-zone modelis norādīts pie atvērtiem datiem; globāls kataloga tips nav pielīdzināts lokālai novērojamībai.')
 end

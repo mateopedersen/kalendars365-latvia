@@ -26,6 +26,7 @@ jobs:
       - run: node test/date_l10n_test.cjs
       - run: node test/frontend_test.cjs
       - run: node test/search.test.cjs
+      - run: node test/hubs.test.cjs
       - run: node test/sky_test.mjs
       - run: node test/astronomy-reference.test.mjs
       - run: node test/celestial-media.test.mjs

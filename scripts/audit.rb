@@ -26,7 +26,7 @@ manifest.each do |r|
   next if target.empty? || !target.start_with?('/') || target.start_with?('//')
   target=URI::DEFAULT_PARSER.unescape(target)
   candidates=["_site#{target}","_site#{target}index.html","_site#{target}/index.html"]
-  next if target.start_with?('/nedelas-kalendars/2026/')||target.start_with?('/nedelas-kalendars/2031/')
+  next if target.start_with?('/nedelas-kalendars/2031/')
   faults << "missing internal #{target}" unless candidates.any?{|c|File.file?(c)}
  end
  rows<<[r['url'],r['family'],r['indexable'],faults.empty? ? 'pass' : 'fail',faults.uniq.join('; ')]
