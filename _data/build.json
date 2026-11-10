@@ -1,6 +1,6 @@
 {
-  "asset_version": "239ba2b5ccb23859",
-  "sha256": "239ba2b5ccb23859daf8f983328a4dd2c5be69997f7e64cf54ff82056c9c5465",
+  "asset_version": "395063a86ede895e",
+  "sha256": "395063a86ede895e91e2cdd5c07f6b395febe24b2d7316f23dcfcc35763694f8",
   "files": {
     "assets/a3-gallery.css": "1889edd3db55a0a1473cc6711268699d2b19129115f3ab0f59d11f1aa9374c37",
     "assets/app.js": "7950f8a5438494e3a8ed43e42a7ae6a73368b9e4a5717ff689d610c7cc65ec09",
@@ -1006,7 +1006,7 @@
     "assets/riga-panorama-1600.webp": "b4131c778f27bc3de4d9cbea085823e93d41c6550c8a6a39dfe49dd334d751d2",
     "assets/riga-panorama-640.webp": "bd8de1c223a07c3159a9fc72e75d2809115e9b8b090b86d98405e48b4f55efb5",
     "assets/search-core.js": "23e3ecc2f5aa8dd8b481ec0692ee088e38991e2ffa957f90e334d34eaa894aa5",
-    "assets/search-index.json": "5b1a9999b3b46933ad2583868c68747ff6a55a4e2fda133907d44fa210367bdb",
+    "assets/search-index.json": "f139961b4d9438eb14683e43dbcbbf3a84645a488670e03e13204f5a03460ea7",
     "assets/search.css": "5f4536dbaf20c41ed63d0792935ab214cc9a72428e0147d1abea6bc978ee6e57",
     "assets/sky-core.mjs": "e2df4e273b03d5722744f6f4659569f2a478480048357487b8aed0b0d8efce0d",
     "assets/sky-ui.mjs": "e7fb3469b0ffb9c3e64a72933d8a1fefdf5feca1a61602935d35a216e5b4a230",
@@ -1031,7 +1031,7 @@
     "assets/vendor/pdf-lib.min.js": "0f9a5cad07941f0826586c94e089d89b918c46e5c17cf2d5a3c6f666e3bc694f",
     "assets/vendor/suncalc-LICENSE.txt": "e8881f5d09f1f3c5e0e6ad4c2120521bad1079246a2af84d756af8ab1a53da3c",
     "assets/vendor/suncalc-v2.1.3.mjs": "f5ed04fe2800abc16aa0857563ef462fb4d36b67cfb203db34f0f132b9dc216d",
-    "assets/visual-polish.css": "2a43d9012e85b62253acd41c2f0ecad2fb6d47a6bd84edb6ba25ef8e767ce409",
+    "assets/visual-polish.css": "eeba1f51ec248889dbe322a4f85af7693da619a70193ca4d1c8ca70161bcad70",
     "assets/weather.js": "b5f640e3992b798f42bc7a46eaa905d71e3549872c1aeba467b5255bac605e51",
     "assets/zodiac/auns.svg": "0d10fbe642f9751d1cbf9f1bd88c5e8b3b38406d5e3063b53ca2b49648bf4cbd",
     "assets/zodiac/dvini.svg": "7cd00fde90ff5a2219aa6200a04f853b2138645837b25f605c52aa45a6c6b40b",
@@ -1046,7 +1046,8 @@
     "assets/zodiac/vezis.svg": "2375d49b03fbb73e251561f61982dbc370e343ae87123123892d5c8737724955",
     "assets/zodiac/zivis.svg": "8b94af2b23da100e0b0a85433ecfce3a0d8974293d46b19d47ecec3869788c37",
     "downloads/gada-a3/manifest.json": "ab5cc334c16fd24f06a40884f62df9ce9b26b88462bdfacb65e6522d10c0003f",
-    "downloads/manifest.json": "8ffa4ae69aa0f05f74e889eb65a6d7949b6e9adc48e281dc3306c3a6319693d0",
+    "downloads/manifest.json": "37651c6da40eb9ab6c6f8cba4864c31eb244b628fa4c88f6e6ff984976d50e8b",
+    "downloads/menesa-a3/manifest.json": "c5dbb98a8a86c3ccd63f72342c3005f4a4ca2105d754bfd1a3eaabaad6cfdc50",
     "downloads/meness/manifest.json": "ee06a549ac5edf191cf97227898d2a3a4305f1fb3749259bbc6e3ea200ea90e8"
   }
 }
