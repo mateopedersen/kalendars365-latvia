@@ -105,22 +105,80 @@ function exportICS(events){const lines=['BEGIN:VCALENDAR','VERSION:2.0','PRODID:
   lines.push('END:VEVENT');
  }
  lines.push('END:VCALENDAR');return lines.map(foldICS).join('\r\n')+'\r\n'}
+const recurrenceMod=(value,modulus)=>(value%modulus+modulus)%modulus;
+function recurrenceGcd(a,b){while(b){const next=a%b;a=b;b=next}return a}
+function recurrenceInverse(a,modulus){
+ let value=recurrenceMod(a,modulus),old=modulus,x=1,previous=0;
+ while(value){const q=Math.floor(old/value);[old,value]=[value,old-q*value];[previous,x]=[x,previous-q*x]}
+ return recurrenceMod(previous,modulus)
+}
+function recurrenceFirstResidue(start,step,residue,modulus){
+ const divisor=recurrenceGcd(step,modulus),delta=recurrenceMod(residue-start,modulus);
+ if(delta%divisor)return null;
+ const period=modulus/divisor;
+ return period===1?0:recurrenceMod(delta/divisor*recurrenceInverse(step/divisor,period),period)
+}
+function recurrenceResidueCount(start,step,count,residue,modulus){
+ const first=recurrenceFirstResidue(start,step,residue,modulus);
+ return first===null||first>=count?0:1+Math.floor((count-1-first)/(modulus/recurrenceGcd(step,modulus)))
+}
+function recurrenceLeapCount(year,step,count){
+ return recurrenceResidueCount(year,step,count,0,4)-recurrenceResidueCount(year,step,count,0,100)+recurrenceResidueCount(year,step,count,0,400)
+}
+function recurrenceValidCount(start,repeat,interval,count){
+ const day=start.getUTCDate(),month=start.getUTCMonth(),year=start.getUTCFullYear();
+ if(repeat==='yearly')return month===1&&day===29?recurrenceLeapCount(year,interval,count):count;
+ if(day<=28)return count;
+ const ordinal=year*12+month;
+ if(day===31)return [0,2,4,6,7,9,11].reduce((sum,m)=>sum+recurrenceResidueCount(ordinal,interval,count,m,12),0);
+ const firstFebruary=recurrenceFirstResidue(ordinal,interval,1,12);
+ if(firstFebruary===null||firstFebruary>=count)return count;
+ const period=12/recurrenceGcd(interval,12),februaries=1+Math.floor((count-1-firstFebruary)/period);
+ if(day===30)return count-februaries;
+ const firstYear=Math.floor((ordinal+firstFebruary*interval)/12),yearStep=interval*period/12;
+ return count-februaries+recurrenceLeapCount(firstYear,yearStep,februaries)
+}
 function occurs(e,date,includeSpan=true){
  const start=parse(e.date),d=parse(date);if(!start||!d)return false;
- if(includeSpan&&e.repeat&&e.repeat!=='none'&&parse(e.endDate)){const span=Math.round((parse(e.endDate)-start)/DAY)-(e.time&&e.endTime!=='00:00'?0:1),available=Math.min(span,Math.round((d-start)/DAY));for(let offset=1;offset<=available;offset++)if(occurs(e,iso(plus(d,-offset)),false))return true}
- if((e.until&&date>e.until)||(e.until===date&&e.untilTime&&e.time&&(e.time.length===5?e.time+':00':e.time)>e.untilTime))return false;
- if(e.date===date)return true;
- if(e.endDate&&date>e.date&&(e.time&&e.endTime!=='00:00'?date<=e.endDate:date<e.endDate)&&(!e.repeat||e.repeat==='none'))return true;
- if(!e.repeat||e.repeat==='none'||date<e.date)return false;
- let n,valid=false;const diff=Math.round((d-start)/DAY),interval=recurrenceNumber(e.interval,1),limit=recurrenceNumber(e.count,0);
- if(e.repeat==='daily'){n=diff;valid=n%interval===0}
- else if(e.repeat==='weekly'){n=diff/7;valid=Number.isInteger(n)&&n%interval===0}
- else if(e.repeat==='monthly'){n=(d.getUTCFullYear()-start.getUTCFullYear())*12+d.getUTCMonth()-start.getUTCMonth();valid=d.getUTCDate()===start.getUTCDate()&&n%interval===0}
- else if(e.repeat==='yearly'){n=d.getUTCFullYear()-start.getUTCFullYear();valid=d.getUTCMonth()===start.getUTCMonth()&&d.getUTCDate()===start.getUTCDate()&&n%interval===0}
- if(!valid||!limit)return valid;
- if(e.repeat==='daily'||e.repeat==='weekly')return n/interval<limit;
- let count=0;for(let offset=0;offset<=n;offset+=interval){const candidate=e.repeat==='monthly'?new Date(Date.UTC(start.getUTCFullYear(),start.getUTCMonth()+offset,start.getUTCDate())):new Date(Date.UTC(start.getUTCFullYear()+offset,start.getUTCMonth(),start.getUTCDate()));if(candidate.getUTCDate()===start.getUTCDate()&&(e.repeat==='monthly'||candidate.getUTCMonth()===start.getUTCMonth()))count++;if(count>limit)return false}
- return count<=limit
+ let upper=d;
+ if(e.until){
+  const until=parse(e.until);if(!until)return false;
+  const beforeStartTime=e.time&&compactICSTime(e.untilTime)&&compactICSTime(e.time)>compactICSTime(e.untilTime);
+  const last=beforeStartTime?plus(until,-1):until;
+  if(last<upper)upper=last;
+ }
+ if(upper<start)return false;
+ const end=(includeSpan||!e.repeat||e.repeat==='none')?parse(e.endDate):null;
+ const span=end?Math.max(0,Math.round((end-start)/DAY)-(e.time&&compactICSTime(e.endTime)!=='000000'?0:1)):0;
+ const repeat=['daily','weekly','monthly','yearly'].includes(e.repeat)?e.repeat:'none';
+ if(repeat==='none')return d<=upper&&d>=start&&d<=plus(start,span);
+ const lower=new Date(Math.max(start.getTime(),d.getTime()-span*DAY));
+ if(upper<lower)return false;
+ const interval=recurrenceNumber(e.interval,1),limit=recurrenceNumber(e.count,0);
+ if(repeat==='daily'||repeat==='weekly'){
+  const step=interval*(repeat==='weekly'?7:1);
+  let slot=Math.floor((upper-start)/DAY/step);
+  if(limit)slot=Math.min(slot,limit-1);
+  return slot>=0&&plus(start,slot*step)>=lower;
+ }
+ const monthly=repeat==='monthly';
+ let slot=Math.floor((monthly?(upper.getUTCFullYear()-start.getUTCFullYear())*12+upper.getUTCMonth()-start.getUTCMonth():upper.getUTCFullYear()-start.getUTCFullYear())/interval);
+ const candidate=n=>monthly?new Date(Date.UTC(start.getUTCFullYear(),start.getUTCMonth()+n*interval,start.getUTCDate())):new Date(Date.UTC(start.getUTCFullYear()+n*interval,start.getUTCMonth(),start.getUTCDate()));
+ if(slot<0)return false;
+ if(candidate(slot)>upper)slot--;
+ if(slot<0)return false;
+ if(limit&&recurrenceValidCount(start,repeat,interval,slot+1)>limit){
+  let low=0,high=slot;
+  while(low<high){const mid=Math.floor((low+high)/2);if(recurrenceValidCount(start,repeat,interval,mid+1)>=limit)high=mid;else low=mid+1}
+  slot=low;
+ }
+ // Gregorian dates repeat every 4800 months or 400 years. No scan depends on elapsed days.
+ const cycle=(monthly?4800:400)/recurrenceGcd(interval,monthly?4800:400);
+ for(let checked=0;slot>=0&&checked<cycle;slot--,checked++){
+  const current=candidate(slot);
+  if(current.getUTCDate()===start.getUTCDate()&&(monthly||current.getUTCMonth()===start.getUTCMonth())&&current<=upper)return current>=lower;
+ }
+ return false
 }
 function mergeEditedEvent(previous,changes){
  const event={...previous,...changes};if(!previous)return event;

@@ -1,9 +1,9 @@
 {
-  "asset_version": "4081380b5d4e0f36",
-  "sha256": "4081380b5d4e0f361cbcb58c7880216ff9213e6999c3def2047c24dff63cdbf5",
+  "asset_version": "f5287f6f6a65a34a",
+  "sha256": "f5287f6f6a65a34a04f8434a34b36d7b028e8c4bb9811169047fcda1ee30d127",
   "files": {
     "assets/a3-gallery.css": "1889edd3db55a0a1473cc6711268699d2b19129115f3ab0f59d11f1aa9374c37",
-    "assets/app.js": "1ddbc25f56eb41615e8c1285d4e0a595f284a295d15e981f2daa1ddb588da04d",
+    "assets/app.js": "15faa4ab7606fca98c7b95890df16beb8d528806b5e07478677dbf4e1c1dd3cc",
     "assets/astronomy/earth-apollo17.webp": "dea132e5e8949d97de1697f74dc88923f92a7d9fbea793acc495c9d8dda35361",
     "assets/astronomy/earth-disc.jpg": "fbaf12217e34e6ea9eeeb7dd3e3d8674ef655ab632b28a8331e525d5c827cfc4",
     "assets/astronomy/earth-disc.webp": "d50e8950f83fd994415decbd282d39c0dc45dfead6c54d243df2350af33a486b",
@@ -1210,7 +1210,7 @@
     "assets/og/year.png": "4a1dce5111570402ec99abfc9de64656d7d3fe2ab5130773bf9fea3d930aa9e5",
     "assets/organizer-core.js": "573f6792eb2510af981b10a76f20e5639f9c0f1bb25c06d78dbaa4d0f33292cf",
     "assets/organizers.css": "c678589564e28ea75f7aa39633dfd02df8e88044a283467eb555b5bfbc3ad0bb",
-    "assets/organizers.js": "e2c862a2cceaa9ee6d96de982e84b4bfa9d0b38c5bf5e22c41df49947273d318",
+    "assets/organizers.js": "bd7e0dc070fe095750438cfa1c3f2af48f98da6ad8225d91da1910ffe541f046",
     "assets/page-reading.css": "79be7f73f43026cfe41b76e9871a4df00f7dcda43d14195bd1c7621cdae86080",
     "assets/pages.css": "041e0b8a980268e099e2f10b01dcd5dcaba00cd5382b4c523d64fb254d86c9f8",
     "assets/pages.js": "01cc52df6730d8104d64370a39a79c771cea2f48fdf39d737ebd6c300b4795b2",
