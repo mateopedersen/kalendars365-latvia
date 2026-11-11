@@ -53,6 +53,16 @@ test('the published creator contains one editor, six controls and only Latvian i
   assert(html.includes('/assets/studio/studio.mjs?v='));assert(!/Ustvarite|Predloge|Postavitev|Slovenski|Slovenščina|Prenesi|KOLEDAR365/.test(html));assert(html.includes('600 dpi'));
 });
 
+test('the home creator card navigates directly to the full editor without JavaScript',()=>{
+  const html=fs.readFileSync('_site/index.html','utf8');
+  const card=html.match(/<a\b([^>]*\bclass="[^"]*\bhero-create\b[^"]*"[^>]*)>([\s\S]*?)<\/a>/);
+  assert(card,'The home creator must be a native navigation link');
+  assert.match(card[1],/\bhref="\/izveidot-kalendaru\/"/);
+  assert.doesNotMatch(card[1],/data-action=/);
+  assert.match(card[2],/Izveido savu kalendāru/);
+  assert.doesNotMatch(html,/<button\b[^>]*\bclass="[^"]*\bhero-create\b/);
+});
+
 test('month navigation stays within published years',()=>{
  assert.deepEqual(moveMonth({year:2027,month:1},-1),{year:2027,month:1});
  assert.deepEqual(moveMonth({year:2030,month:12},1),{year:2030,month:12});
