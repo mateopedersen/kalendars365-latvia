@@ -276,7 +276,7 @@ class PageReadingNotes
     examples=[first,last].compact.uniq { |r| r['date'] }.map { |r| "#{date_label(r['date'])} — #{weekday(r['date'])}" }.join('; ')
     status=article['dayOff'] ? 'Svētku brīvdienas statusu pārbaudi attiecīgā datuma ierakstā un tiesību aktā.' : 'Šī tēma pati par sevi nenozīmē vispārēju Latvijas darba brīvdienu.'
     reminder=first ? "Personiska plāna piemērs tēmai «#{article['title']}»: atskaites datums ir #{date_label(first['date'])}, bet vienas nedēļas sagatavošanās atgādinājums — #{date_label(Date.parse(first['date'])-7)}. Tas nav rīkotāja izziņots pasākuma grafiks." : 'Pasākuma sagatavošanās atgādinājumu piesaisti pārbaudītam rīkotāja datumam.'
-    {'heading'=>article['title']+': kalendāra ieraksts savā plānā','paragraphs'=>["«#{article['title']}» pārskatā atrodamas šādas datumu robežas: #{examples}. Viena temata nedēļas diena gadu gaitā var mainīties, tāpēc ierakstu nesaglabā kā nemainīgu nedēļas dienu. #{status}",reminder+' Dalībai pievieno norises vietu, sākuma laiku un programmas saiti atsevišķi no kalendārā norādītā nosaukuma.'],'icon'=>article['type']=='commemoration' ? 'memorial' : 'culture','sources'=>article.fetch('sourceUrls').uniq.first(3).map { |u| link(u,'Tēmas pirmavots') },'related'=>[link('/svetki-un-tradicijas/','Citi svētki un tradīcijas'),link('/dienu-skaititajs/','Atgādinājuma datuma plāns')],'basis'=>{'slug'=>article['slug'],'dates'=>dates.map { |r| r['date'] }}}
+    {'heading'=>article['title']+': kalendāra ieraksts savā plānā','paragraphs'=>["«#{article['title']}» pārskatā atrodamas šādas datumu robežas: #{examples}. Viena temata nedēļas diena gadu gaitā var mainīties, tāpēc ierakstu nesaglabā kā nemainīgu nedēļas dienu. #{status}",reminder+' Dalībai pievieno norises vietu, sākuma laiku un programmas saiti atsevišķi no kalendārā norādītā nosaukuma.'],'icon'=>article['type']=='commemoration' ? 'memorial' : 'culture','sources'=>[],'related'=>TRADITION_LINKING.tools(article['slug']).map { |tool| link(tool['url'],tool['label']) },'basis'=>{'slug'=>article['slug'],'dates'=>dates.map { |r| r['date'] }}}
   end
   def cultural_note(article)
     dates=(2027..2030).flat_map { |y| @cultural_dates.call(article,y) }.sort_by { |row| row['date'] }
@@ -288,8 +288,9 @@ class PageReadingNotes
       "Tēmas «#{article['title']}» aprēķināto vai fiksēto datumu piemēri 2027.–2030. gada tvērumā: #{examples}. Tie ir kalendāra atskaites datumi, nevis automātiski apstiprināta pasākumu programma. #{article['isStatutoryWorkFreeHoliday'] ? 'Darba brīvdienas statusam nolasāms arī konkrētais tiesiskais pamats.' : 'No šī temata nosaukuma nevar secināt vispārēju darba brīvdienu Latvijā.'}"
     end
     fact=article.fetch('factNotes').first
-    p2="Plānojot «#{article['title']}», ievēro šo atšķirību: #{fact} Kalendāra piezīmē atsevišķi pieraksti izvēlēto norisi un tās avotu, lai gadskārtējais nosaukums netiktu sajaukts ar vienas vietas vai konfesijas programmu. Salīdzināšanai atver arī saistīto tradīciju vai astronomisko pārskatu."
-    {'heading'=>'Datuma pamats un personīgā plāna izvēle','paragraphs'=>[p1,p2],'icon'=>'culture','sources'=>source(article['sourceIds']),'related'=>[link('/svetki-un-tradicijas/','Tradīciju pārskats'),link('/gadalaiki/','Astronomiskie gadalaiki')],'basis'=>{'dateModel'=>model['type'],'dates'=>dates.map { |r| r['date'] }}}
+    p2="Plānojot «#{article['title']}», ievēro šo atšķirību: #{fact} Kalendāra piezīmē atsevišķi pieraksti izvēlēto norisi un tās avotu, lai gadskārtējais nosaukums netiktu sajaukts ar vienas vietas vai konfesijas programmu. Salīdzini arī šajā lapā norādītās saistītās tēmas un pirmavotus."
+    slug=article.fetch('url').split('/').last
+    {'heading'=>'Datuma pamats un personīgā plāna izvēle','paragraphs'=>[p1,p2],'icon'=>'culture','sources'=>[],'related'=>TRADITION_LINKING.tools(slug).map { |tool| link(tool['url'],tool['label']) },'basis'=>{'dateModel'=>model['type'],'dates'=>dates.map { |r| r['date'] }}}
   end
   def garden_month_note(month)
     active=@garden.fetch('crops').select { |c| @garden_actions.call(c).any? { |a| %w[sow plant].include?(a['task']) && Array(a['months']).include?(month) } }

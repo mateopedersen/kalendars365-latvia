@@ -251,20 +251,22 @@ def cultural_calendar_dates(article,year)
 end
 
 def cultural_page_markup(article)
+  slug = article.fetch('url').split('/').last
   model = article['dateModel'] || {}
-  sources = article['sourceIds'] || []
-  intro = %(<p class="lead">#{h(article['intro'])}</p>)
+  intro = %(<p class="lead">#{tradition_text_markup(slug,article['intro'],'intro')}</p>)+tradition_context_markup(slug)
   date_markup = case model['type']
   when 'fixed'
     years = (2027..2030).map do |year|
       date = Date.new(year, model['month'], model['day'])
-      %(<article class="holiday-card"><time datetime="#{date.iso8601}">#{year}. gada #{date.day}. #{h(MONTHS[date.month - 1])}</time><small>#{%w[Svētdiena Pirmdiena Otrdiena Trešdiena Ceturtdiena Piektdiena Sestdiena][date.wday]}</small></article>)
+      label=%(<time datetime="#{date.iso8601}">#{year}. gada #{date.day}. #{h(MONTHS[date.month - 1])}</time>)
+      %(<article class="holiday-card">#{tradition_date_link(date,label)}<small>#{%w[Svētdiena Pirmdiena Otrdiena Trešdiena Ceturtdiena Piektdiena Sestdiena][date.wday]}</small></article>)
     end.join
     local_date = article['localDate']
     local_markup = if local_date
       local_years = (2027..2030).map do |year|
         date = Date.new(year, local_date['month'], local_date['day'])
-        %(<article class="holiday-card"><time datetime="#{date.iso8601}">#{year}. gada #{date.day}. #{h(MONTHS[date.month - 1])}</time><small>#{%w[Svētdiena Pirmdiena Otrdiena Trešdiena Ceturtdiena Piektdiena Sestdiena][date.wday]}</small></article>)
+        label=%(<time datetime="#{date.iso8601}">#{year}. gada #{date.day}. #{h(MONTHS[date.month - 1])}</time>)
+        %(<article class="holiday-card">#{tradition_date_link(date,label)}<small>#{%w[Svētdiena Pirmdiena Otrdiena Trešdiena Ceturtdiena Piektdiena Sestdiena][date.wday]}</small></article>)
       end.join
       %(<h3>Atsevišķi: Latvijas piemiņas diena</h3><div class="holiday-card-grid">#{local_years}</div><p>#{h(article['localDateNote'])}</p>)
     else
@@ -282,7 +284,8 @@ def cultural_page_markup(article)
   when 'astronomical','gregorian-relative','easter-relative','confession-specific'
     rows=(2027..2030).flat_map { |year| cultural_calendar_dates(article,year) }.map do |event|
       date=Date.parse(event['date'])
-      %(<article class="holiday-card"><time datetime="#{h(event['utc']||event['date'])}">#{date.year}. gada #{date.day}. #{h(MONTHS[date.month-1])}#{event['time'] ? " · #{h(event['time'])} · Latvijas laiks" : ''}</time><strong>#{h(event['title'])}</strong>#{event['scope'] ? "<small>#{h(event['scope'])}</small>" : ''}</article>)
+      label=%(<time datetime="#{h(event['utc']||event['date'])}">#{date.year}. gada #{date.day}. #{h(MONTHS[date.month-1])}#{event['time'] ? " · #{h(event['time'])} · Latvijas laiks" : ''}</time>)
+      %(<article class="holiday-card">#{tradition_date_link(date,label)}<strong>#{h(event['title'])}</strong>#{event['scope'] ? "<small>#{h(event['scope'])}</small>" : ''}</article>)
     end.join
     note=model['type']=='astronomical' ? 'Ekvinokcija ir precīzs astronomisks brīdis, nevis nemainīgs kalendāra datums.' : 'Datumi attiecas uz katrā ierakstā norādīto tradīciju vai konfesiju; tie nav automātiski vispārējas svētku brīvdienas.'
     %(<section class="content-card"><h2>Datumi 2027.–2030. gadā</h2><div class="holiday-card-grid">#{rows}</div><p>#{h(note)}</p></section>)
@@ -290,13 +293,10 @@ def cultural_page_markup(article)
     note = model['rule'] || model['easterRelativeConventionStatus'] || model['confessionScope'] || 'Datums ir atkarīgs no kalendāra noteikuma vai tradīcijas; vienu vispārēju Latvijas datumu neizdomājam.'
     %(<section class="content-card"><h2>Datuma noteikums un tā tvērums</h2><p>#{h(note)}</p><p>Pasākuma rīkotāja publicētais datums var atšķirties no tradīcijas kalendārā lietotā datuma.</p></section>)
   end
-  notes = (article['factNotes'] || []).map { |note| "<li>#{h(note)}</li>" }.join
+  notes = (article['factNotes'] || []).each_with_index.map { |note,index| "<li>#{tradition_text_markup(slug,note,"factNotes[#{index}]")}</li>" }.join
   extra = notes.empty? ? '' : %(<section class="content-card"><h2>Precizējumi</h2><ul>#{notes}</ul></section>)
-  local_links = Array(article['relatedPages']).map do |item|
-    %(<a class="link-card" href="#{h(item['url'])}"><strong>#{h(item['title'])}</strong><span>Atvērt saistīto Latvijas kalendāra lapu</span></a>)
-  end.join
-  related = local_links.empty? ? '' : %(<section class="content-card"><h2>Saistītās Latvijas kalendāra tēmas</h2><div class="link-grid">#{local_links}</div></section>)
-  intro + date_markup + extra + related + verified_sources_panel(sources, 'Pasākumu norises grafiks nav tas pats, kas pastāvīgais svētku vai tradīcijas datums.')
+  sources=%(<aside class="source-panel tradition-source-panel">#{tradition_sources_markup(slug)}<p>Pasākumu norises grafiks nav tas pats, kas pastāvīgais svētku vai tradīcijas datums.</p>#{a('/avoti-un-metodika/','Avoti un metodika →')}</aside>)
+  intro + date_markup + extra + sources + tradition_related_markup(slug)
 end
 
 def astronomy_event_markup(slug)

@@ -1,0 +1,3803 @@
+{
+  "version": 1,
+  "checkedAt": "2026-11-11",
+  "scope": "Curated topic relationships and source links; existing dates and holiday status are unchanged.",
+  "topics": {
+    "jaungada-diena": {
+      "context": [
+        {
+          "text": "Gadu mijā "
+        },
+        {
+          "topic": "vecgada-diena",
+          "label": "Vecgada diena"
+        },
+        {
+          "text": " un Jaungada diena ir divi atsevišķi svētku datumi. Savukārt janvāra "
+        },
+        {
+          "topic": "zvaigznes-diena",
+          "label": "Zvaigznes dienai"
+        },
+        {
+          "text": " ir sava reliģiskā nozīme un cits darba dienas statuss."
+        }
+      ],
+      "inline": [
+        {
+          "field": "intro",
+          "exactText": "Vecgada diena",
+          "topic": "vecgada-diena"
+        }
+      ],
+      "related": [
+        "vecgada-diena",
+        "ziemassvetki",
+        "zvaigznes-diena"
+      ],
+      "tools": [
+        {
+          "url": "/nedelu-numuri/",
+          "label": "ISO nedēļu numuri",
+          "reason": "Pārbaudi, kuram ISO nedēļu gadam pieder 1. janvāris."
+        },
+        {
+          "url": "/darba-dienu-kalendars/",
+          "label": "Darba dienas un stundas",
+          "reason": "Apskati 1. janvāra ietekmi uz izvēlētā gada darba dienām."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://likumi.lv/ta/id/72608-par-svetku-atceres-un-atzimejamam-dienam",
+          "title": "Likums «Par svētku, atceres un atzīmējamām dienām»"
+        }
+      ]
+    },
+    "liela-piektdiena": {
+      "context": [
+        {
+          "topic": "pupolu-svetdiena",
+          "label": "Pūpolu svētdiena"
+        },
+        {
+          "text": " ievada Lielo nedēļu, bet Lielā Piektdiena ir divas dienas pirms "
+        },
+        {
+          "topic": "lieldienas",
+          "label": "Pirmajām Lieldienām"
+        },
+        {
+          "text": ". Vēlāk šajā pašā Lieldienu ciklā aprēķina arī "
+        },
+        {
+          "topic": "vasarsvetki",
+          "label": "Vasarsvētkus"
+        },
+        {
+          "text": "."
+        }
+      ],
+      "inline": [
+        {
+          "field": "intro",
+          "exactText": "Lieldienām",
+          "topic": "lieldienas"
+        }
+      ],
+      "related": [
+        "lieldienas",
+        "pupolu-svetdiena",
+        "vasarsvetki"
+      ],
+      "tools": [
+        {
+          "url": "/datumu-kalkulators/",
+          "label": "Datumu kalkulators",
+          "reason": "Salīdzini dienu attālumu līdz attiecīgā gada Lieldienām."
+        },
+        {
+          "url": "/darba-dienu-kalendars/",
+          "label": "Darba dienas un stundas",
+          "reason": "Pārbaudi svētku un pirmssvētku darba laiku Lieldienu posmā."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://likumi.lv/ta/id/72608-par-svetku-atceres-un-atzimejamam-dienam",
+          "title": "Likums «Par svētku, atceres un atzīmējamām dienām»"
+        },
+        {
+          "url": "https://aa.usno.navy.mil/data/christian_observances",
+          "title": "Rietumu kristīgo svētku datumu aprēķins"
+        },
+        {
+          "url": "https://likumi.lv/ta/id/26019-darba-likums",
+          "title": "Darba likuma noteikumi par darbu svētkos"
+        }
+      ]
+    },
+    "lieldienas": {
+      "context": [
+        {
+          "topic": "liela-piektdiena",
+          "label": "Lielā Piektdiena"
+        },
+        {
+          "text": " un abas Lieldienas veido saistītu svētku posmu. Plašākā "
+        },
+        {
+          "topic": "pavasara-tradicijas",
+          "label": "pavasara tradīciju"
+        },
+        {
+          "text": " pārskatā tās var salīdzināt ar Meteņiem un ekvinokciju, saglabājot katra notikuma atšķirīgo datuma noteikšanas principu."
+        }
+      ],
+      "inline": [
+        {
+          "field": "factNotes[2].text",
+          "exactText": "Lielo Piektdienu",
+          "topic": "liela-piektdiena"
+        }
+      ],
+      "related": [
+        "liela-piektdiena",
+        "pupolu-svetdiena",
+        "vasarsvetki",
+        "pavasara-tradicijas"
+      ],
+      "tools": [
+        {
+          "url": "/darba-dienu-kalendars/",
+          "label": "Darba dienas un stundas",
+          "reason": "Apskati Lielās Piektdienas un abu Lieldienu ietekmi uz darba grafiku."
+        },
+        {
+          "url": "/skolas-kalendars/",
+          "label": "Skolas kalendārs",
+          "reason": "Salīdzini Lieldienu datumus ar oficiāli noteikto skolas kalendāru."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://likumi.lv/ta/id/72608-par-svetku-atceres-un-atzimejamam-dienam",
+          "title": "Likums «Par svētku, atceres un atzīmējamām dienām»"
+        },
+        {
+          "url": "https://aa.usno.navy.mil/data/christian_observances",
+          "title": "Rietumu kristīgo svētku datumu aprēķins"
+        },
+        {
+          "url": "https://aa.usno.navy.mil/faq/easter",
+          "title": "Kā nosaka Lieldienu datumu"
+        }
+      ]
+    },
+    "darba-svetki": {
+      "context": [
+        {
+          "text": "1. maija divi nosaukumi nenozīmē divas brīvdienas. "
+        },
+        {
+          "topic": "neatkaribas-atjaunosanas-diena",
+          "label": "4. maija neatkarības atjaunošanas diena"
+        },
+        {
+          "text": " ir cits svētku datums, bet "
+        },
+        {
+          "topic": "latvijas-republikas-proklamesanas-diena",
+          "label": "18. novembra valsts dibināšanas gadadiena"
+        },
+        {
+          "text": " palīdz nošķirt atsevišķos valstiskuma notikumus."
+        }
+      ],
+      "inline": [],
+      "related": [
+        "neatkaribas-atjaunosanas-diena",
+        "latvijas-republikas-proklamesanas-diena",
+        "latvijas-de-jure-atzisanas-diena"
+      ],
+      "tools": [
+        {
+          "url": "/darba-dienu-kalendars/",
+          "label": "Darba dienas un stundas",
+          "reason": "Aprēķinā 1. maiju ieskaita vienreiz, lai gan datumam ir divi nosaukumi."
+        },
+        {
+          "url": "/menesa-kalendars/",
+          "label": "Mēneša kalendārs",
+          "reason": "Pārskati 1. un 4. maija novietojumu attiecīgā gada nedēļā."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://likumi.lv/ta/id/72608-par-svetku-atceres-un-atzimejamam-dienam",
+          "title": "Likums «Par svētku, atceres un atzīmējamām dienām»"
+        },
+        {
+          "url": "https://likumi.lv/ta/id/26019-darba-likums",
+          "title": "Darba likuma noteikumi par darbu svētkos"
+        }
+      ]
+    },
+    "neatkaribas-atjaunosanas-diena": {
+      "context": [
+        {
+          "topic": "latvijas-republikas-proklamesanas-diena",
+          "label": "18. novembris"
+        },
+        {
+          "text": " ir valsts dibināšanas gadadiena, bet 4. maijs — neatkarības atjaunošanas diena. Ar to saistītais "
+        },
+        {
+          "topic": "konstitucionala-likuma-pienemsanas-diena",
+          "label": "1991. gada 21. augusts"
+        },
+        {
+          "text": " ir atsevišķs vēsturisks notikums, kad izbeidza pārejas periodu."
+        }
+      ],
+      "inline": [
+        {
+          "field": "factNotes[2].text",
+          "exactText": "Darba svētki",
+          "topic": "darba-svetki"
+        },
+        {
+          "field": "intro",
+          "exactText": "valsts dibināšanu",
+          "topic": "latvijas-republikas-proklamesanas-diena"
+        },
+        {
+          "field": "factNotes[3].text",
+          "exactText": "21. augusta konstitucionālais likums",
+          "topic": "konstitucionala-likuma-pienemsanas-diena"
+        }
+      ],
+      "related": [
+        "latvijas-republikas-proklamesanas-diena",
+        "konstitucionala-likuma-pienemsanas-diena",
+        "darba-svetki",
+        "barikazu-aizstavju-atceres-diena"
+      ],
+      "tools": [
+        {
+          "url": "/darba-dienu-kalendars/",
+          "label": "Darba dienas un stundas",
+          "reason": "Pārbaudi 4. maija un likumā paredzētās aizstājošās brīvdienas aprēķinu."
+        },
+        {
+          "url": "/dienas-kalendars/",
+          "label": "Dienas kalendārs",
+          "reason": "Apskati izvēlētā gada 4. maija dienas ierakstus."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://likumi.lv/ta/id/72608-par-svetku-atceres-un-atzimejamam-dienam",
+          "title": "Likums «Par svētku, atceres un atzīmējamām dienām»"
+        },
+        {
+          "url": "https://likumi.lv/ta/id/75539-par-latvijas-republikas-neatkaribas-atjaunosanu",
+          "title": "1990. gada 4. maija deklarācija"
+        },
+        {
+          "url": "https://www.mfa.gov.lv/lv/latvijas-neatkaribas-atjaunosanas-starptautiska-atzisana-1991gada",
+          "title": "Neatkarības atjaunošanas starptautiskā atzīšana"
+        }
+      ]
+    },
+    "mates-diena": {
+      "context": [
+        {
+          "topic": "starptautiska-gimenes-diena",
+          "label": "Starptautiskā ģimenes diena"
+        },
+        {
+          "text": " un "
+        },
+        {
+          "topic": "tevu-diena",
+          "label": "Tēva diena"
+        },
+        {
+          "text": " pievēršas citām ģimenes kalendāra tēmām. 2027. gadā Mātes diena sakrīt ar "
+        },
+        {
+          "topic": "eiropas-diena",
+          "label": "Eiropas dienu"
+        },
+        {
+          "text": ", tomēr abi datuma ieraksti saglabā savu nozīmi un statusu."
+        }
+      ],
+      "inline": [
+        {
+          "field": "factNotes[2].text",
+          "exactText": "Eiropas dienu",
+          "topic": "eiropas-diena"
+        }
+      ],
+      "related": [
+        "tevu-diena",
+        "starptautiska-gimenes-diena",
+        "eiropas-diena"
+      ],
+      "tools": [
+        {
+          "url": "/gimenes-kalendars/",
+          "label": "Ģimenes kalendārs",
+          "reason": "Atzīmē sev piemērotu tikšanos, zvanu vai apsveikumu."
+        },
+        {
+          "url": "/menesa-kalendars/",
+          "label": "Mēneša kalendārs",
+          "reason": "Pārbaudi konkrētā gada maija otro svētdienu."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://likumi.lv/ta/id/72608-par-svetku-atceres-un-atzimejamam-dienam",
+          "title": "Likums «Par svētku, atceres un atzīmējamām dienām»"
+        }
+      ]
+    },
+    "vasarsvetki": {
+      "context": [
+        {
+          "text": "Vasarsvētku datumu aprēķina no "
+        },
+        {
+          "topic": "lieldienas",
+          "label": "Lieldienu svētdienas"
+        },
+        {
+          "text": ". Arī "
+        },
+        {
+          "topic": "liela-piektdiena",
+          "label": "Lielā Piektdiena"
+        },
+        {
+          "text": " pieder Lieldienu ciklam, taču abu svētku novietojums nedēļā un brīvdienu uzskaite atšķiras."
+        }
+      ],
+      "inline": [
+        {
+          "field": "intro",
+          "exactText": "Lieldienas",
+          "topic": "lieldienas"
+        }
+      ],
+      "related": [
+        "lieldienas",
+        "liela-piektdiena",
+        "pupolu-svetdiena"
+      ],
+      "tools": [
+        {
+          "url": "/datumu-kalkulators/",
+          "label": "Datumu kalkulators",
+          "reason": "Salīdzini Lieldienu svētdienu un 49 dienas vēlāko Vasarsvētku datumu."
+        },
+        {
+          "url": "/darba-dienu-kalendars/",
+          "label": "Darba dienas un stundas",
+          "reason": "Pārbaudi svētdienas svētku statusu, nepievienojot automātisku pirmdienas brīvdienu."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://likumi.lv/ta/id/72608-par-svetku-atceres-un-atzimejamam-dienam",
+          "title": "Likums «Par svētku, atceres un atzīmējamām dienām»"
+        },
+        {
+          "url": "https://aa.usno.navy.mil/data/christian_observances",
+          "title": "Rietumu kristīgo svētku datumu aprēķins"
+        },
+        {
+          "url": "https://katolis.lv/vasarsvetki-sveta-gara-nosutisana/",
+          "title": "Vasarsvētku nozīme katoļu tradīcijā"
+        }
+      ]
+    },
+    "ligo-diena": {
+      "context": [
+        {
+          "text": "Līgo vakars turpinās naktī uz "
+        },
+        {
+          "topic": "janu-diena",
+          "label": "Jāņu dienu"
+        },
+        {
+          "text": ", bet kalendārā 23. un 24. jūnijs ir atsevišķi svētku datumi. "
+        },
+        {
+          "topic": "vasaras-saulgriezi",
+          "label": "Vasaras saulgrieži"
+        },
+        {
+          "text": " ir astronomisks brīdis, kas katru gadu nav 23. jūnijā."
+        }
+      ],
+      "inline": [
+        {
+          "field": "intro",
+          "exactText": "Jāņu diena",
+          "topic": "janu-diena"
+        },
+        {
+          "field": "factNotes[2].text",
+          "exactText": "saulgrieži",
+          "topic": "saulgriezi"
+        },
+        {
+          "field": "factNotes[2].text",
+          "exactText": "vasaras saulgrieži",
+          "topic": "vasaras-saulgriezi"
+        }
+      ],
+      "related": [
+        "janu-diena",
+        "vasaras-saulgriezi",
+        "saulgriezi"
+      ],
+      "tools": [
+        {
+          "url": "/saullekts-saulriets/",
+          "label": "Saullēkts un saulriets",
+          "reason": "Apskati svinību vietas saulrietu un nākamā rīta saullēktu."
+        },
+        {
+          "url": "/darba-dienu-kalendars/",
+          "label": "Darba dienas un stundas",
+          "reason": "Pārbaudi 23. un 24. jūnija ietekmi uz savu darba grafiku."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://likumi.lv/ta/id/72608-par-svetku-atceres-un-atzimejamam-dienam",
+          "title": "Likums «Par svētku, atceres un atzīmējamām dienām»"
+        },
+        {
+          "url": "https://www.latvia.travel/lv/ligo-svinesanas-tradicijas",
+          "title": "Līgo un Jāņu svinēšanas tradīcijas"
+        },
+        {
+          "url": "https://aa.usno.navy.mil/data/Earth_Seasons",
+          "title": "Saulgriežu un ekvinokciju aprēķins"
+        }
+      ]
+    },
+    "janu-diena": {
+      "context": [
+        {
+          "text": "Jāņu dienai priekšā ir "
+        },
+        {
+          "topic": "ligo-diena",
+          "label": "Līgo diena"
+        },
+        {
+          "text": " ar vakara un nakts svinībām. Abus fiksētos datumus nošķir no "
+        },
+        {
+          "topic": "vasaras-saulgriezi",
+          "label": "vasaras saulgriežu"
+        },
+        {
+          "text": " precīzā astronomiskā brīža."
+        }
+      ],
+      "inline": [
+        {
+          "field": "intro",
+          "exactText": "Līgo dienas",
+          "topic": "ligo-diena"
+        }
+      ],
+      "related": [
+        "ligo-diena",
+        "vasaras-saulgriezi",
+        "dziesmu-un-deju-svetki"
+      ],
+      "tools": [
+        {
+          "url": "/gimenes-kalendars/",
+          "label": "Ģimenes kalendārs",
+          "reason": "Atzīmē kopīgo Jāņu tikšanos un katra dalībnieka laiku."
+        },
+        {
+          "url": "/darba-dienu-kalendars/",
+          "label": "Darba dienas un stundas",
+          "reason": "Apskati 24. jūnija statusu bez nepamatotas papildu pirmdienas brīvdienas."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://likumi.lv/ta/id/72608-par-svetku-atceres-un-atzimejamam-dienam",
+          "title": "Likums «Par svētku, atceres un atzīmējamām dienām»"
+        },
+        {
+          "url": "https://www.latvia.travel/lv/latvijas-garsas",
+          "title": "Latvijas svētku ēdienu tradīcijas"
+        }
+      ]
+    },
+    "dziesmu-un-deju-svetki": {
+      "context": [
+        {
+          "topic": "ligo-diena",
+          "label": "Līgo"
+        },
+        {
+          "text": " un "
+        },
+        {
+          "topic": "janu-diena",
+          "label": "Jāņi"
+        },
+        {
+          "text": " ir citas Latvijas vasaras svinību tēmas ar saviem datumiem un paražām. To kalendāra ieraksti neaizstāj Vispārējo dziesmu un deju svētku apstiprināto norises laiku un organizatoru programmu."
+        }
+      ],
+      "inline": [],
+      "related": [
+        "ligo-diena",
+        "janu-diena",
+        "valsts-valodas-diena",
+        "baltu-vienibas-diena"
+      ],
+      "tools": [
+        {
+          "url": "/menesa-kalendars/",
+          "label": "Mēneša kalendārs",
+          "reason": "Apskati apstiprinātā 2028. gada svētku perioda novietojumu jūnijā un jūlijā."
+        },
+        {
+          "url": "/darba-dienu-kalendars/",
+          "label": "Darba dienas un stundas",
+          "reason": "Nošķir svētku noslēguma dienu un papildu brīvdienu no visa pasākumu perioda."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://likumi.lv/ta/id/72608-par-svetku-atceres-un-atzimejamam-dienam",
+          "title": "Likums «Par svētku, atceres un atzīmējamām dienām»"
+        },
+        {
+          "url": "https://likumi.lv/ta/id/367734-par-xxviii-visparejo-latviesu-dziesmu-un-xviiideju-svetku-norises-laiku",
+          "title": "2028. gada Dziesmu un deju svētku norises laiks"
+        },
+        {
+          "url": "https://www.km.gov.lv/lv/jaunums/nakamie-visparejie-latviesu-dziesmu-un-deju-svetki-notiks-2028-gada-vasara",
+          "title": "Kultūras ministrija par 2028. gada Dziesmu un deju svētkiem"
+        }
+      ]
+    },
+    "latvijas-republikas-proklamesanas-diena": {
+      "context": [
+        {
+          "topic": "lacplesa-diena",
+          "label": "Lāčplēša diena"
+        },
+        {
+          "text": " ir atceres diena nedēļu pirms valsts dibināšanas gadadienas. Arī "
+        },
+        {
+          "topic": "neatkaribas-atjaunosanas-diena",
+          "label": "4. maija neatkarības atjaunošana"
+        },
+        {
+          "text": " ir cits notikums: vēsturiskā saikne nesapludina datumus vai to statusu."
+        }
+      ],
+      "inline": [
+        {
+          "field": "intro",
+          "exactText": "neatkarības atjaunošanas dienas",
+          "topic": "neatkaribas-atjaunosanas-diena"
+        }
+      ],
+      "related": [
+        "neatkaribas-atjaunosanas-diena",
+        "lacplesa-diena",
+        "latvijas-de-jure-atzisanas-diena",
+        "latgales-kongresa-diena"
+      ],
+      "tools": [
+        {
+          "url": "/darba-dienu-kalendars/",
+          "label": "Darba dienas un stundas",
+          "reason": "Pārbaudi 18. novembra aizstājošo brīvdienu un pirmssvētku stundas."
+        },
+        {
+          "url": "/dienas-kalendars/",
+          "label": "Dienas kalendārs",
+          "reason": "Atver attiecīgā gada valsts svētku dienas pārskatu."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://likumi.lv/ta/id/72608-par-svetku-atceres-un-atzimejamam-dienam",
+          "title": "Likums «Par svētku, atceres un atzīmējamām dienām»"
+        },
+        {
+          "url": "https://www.president.lv/lv/vesture",
+          "title": "Latvijas vēstures nozīmīgie datumi"
+        },
+        {
+          "url": "https://likumi.lv/ta/id/26019-darba-likums",
+          "title": "Darba likuma noteikumi par darbu svētkos"
+        }
+      ]
+    },
+    "ziemassvetki": {
+      "context": [
+        {
+          "topic": "advente",
+          "label": "Adventes četras svētdienas"
+        },
+        {
+          "text": " iezīmē Ziemassvētku gaidīšanas laiku. Savukārt "
+        },
+        {
+          "topic": "ziemas-saulgriezi",
+          "label": "ziemas saulgrieži"
+        },
+        {
+          "text": " ir atsevišķs astronomisks brīdis un nepārvieto 24., 25. vai 26. decembra svētku datumus."
+        }
+      ],
+      "inline": [
+        {
+          "field": "factNotes[2].text",
+          "exactText": "ziemas saulgrieži",
+          "topic": "ziemas-saulgriezi"
+        }
+      ],
+      "related": [
+        "advente",
+        "ziemas-saulgriezi",
+        "zvaigznes-diena",
+        "sveta-nikolaja-diena"
+      ],
+      "tools": [
+        {
+          "url": "/gimenes-kalendars/",
+          "label": "Ģimenes kalendārs",
+          "reason": "Saskaņo ģimenes tikšanās dažādajās Ziemassvētku dienās."
+        },
+        {
+          "url": "/darba-dienu-kalendars/",
+          "label": "Darba dienas un stundas",
+          "reason": "Pārbaudi visu trīs svētku datumu vietu darba nedēļā."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://likumi.lv/ta/id/72608-par-svetku-atceres-un-atzimejamam-dienam",
+          "title": "Likums «Par svētku, atceres un atzīmējamām dienām»"
+        },
+        {
+          "url": "https://www.latvia.travel/lv/latvijas-garsas",
+          "title": "Latvijas svētku ēdienu tradīcijas"
+        },
+        {
+          "url": "https://aa.usno.navy.mil/data/Earth_Seasons",
+          "title": "Saulgriežu un ekvinokciju aprēķins"
+        }
+      ]
+    },
+    "vecgada-diena": {
+      "context": [
+        {
+          "text": "Vecgada dienai tūlīt seko "
+        },
+        {
+          "topic": "jaungada-diena",
+          "label": "Jaungada diena"
+        },
+        {
+          "text": ", tādēļ gadu mijas kalendārs aptver abus gadus. Iepriekšējie "
+        },
+        {
+          "topic": "ziemassvetki",
+          "label": "Ziemassvētku datumi"
+        },
+        {
+          "text": " paliek atsevišķas svētku dienas ar savu vietu darba nedēļā."
+        }
+      ],
+      "inline": [
+        {
+          "field": "intro",
+          "exactText": "Jaungada dienas",
+          "topic": "jaungada-diena"
+        }
+      ],
+      "related": [
+        "jaungada-diena",
+        "ziemassvetki",
+        "zvaigznes-diena"
+      ],
+      "tools": [
+        {
+          "url": "/nedelu-numuri/",
+          "label": "ISO nedēļu numuri",
+          "reason": "Pārbaudi, vai 31. decembris jau pieder nākamā ISO gada pirmajai nedēļai."
+        },
+        {
+          "url": "/gada-diena/",
+          "label": "Dienas numurs gadā",
+          "reason": "Apskati 31. decembra kā gada pēdējās dienas kārtas numuru."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://likumi.lv/ta/id/72608-par-svetku-atceres-un-atzimejamam-dienam",
+          "title": "Likums «Par svētku, atceres un atzīmējamām dienām»"
+        },
+        {
+          "url": "https://likumi.lv/ta/id/26019-darba-likums",
+          "title": "Darba likuma noteikumi par darbu svētkos"
+        }
+      ]
+    },
+    "lacplesa-diena": {
+      "context": [
+        {
+          "topic": "varonu-pieminas-diena",
+          "label": "Cēsu kauju atceres diena"
+        },
+        {
+          "text": " un "
+        },
+        {
+          "topic": "latvijas-brivibas-cinitaju-pieminas-diena",
+          "label": "Latvijas brīvības cīnītāju piemiņas diena"
+        },
+        {
+          "text": " pievēršas citiem neatkarības izcīnīšanas notikumiem. Savukārt "
+        },
+        {
+          "topic": "latvijas-republikas-proklamesanas-diena",
+          "label": "18. novembris"
+        },
+        {
+          "text": " ir valsts dibināšanas gadadiena ar svētku dienas statusu."
+        }
+      ],
+      "inline": [],
+      "related": [
+        "latvijas-brivibas-cinitaju-pieminas-diena",
+        "varonu-pieminas-diena",
+        "latvijas-republikas-proklamesanas-diena"
+      ],
+      "tools": [
+        {
+          "url": "/atceres-dienas/",
+          "label": "Atceres dienu kalendārs",
+          "reason": "Salīdzini Latvijas atceres un atzīmējamo dienu datumus."
+        },
+        {
+          "url": "/dienas-kalendars/",
+          "label": "Dienas kalendārs",
+          "reason": "Pārbaudi 11. novembra nedēļas dienu un pārējos kalendāra ierakstus."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://likumi.lv/ta/id/72608-par-svetku-atceres-un-atzimejamam-dienam",
+          "title": "Likums «Par svētku, atceres un atzīmējamām dienām»"
+        },
+        {
+          "url": "https://www.president.lv/lv/jaunums/valsts-prezidenta-uzruna-militaraja-parade-par-godu-lacplesa-dienai",
+          "title": "Valsts prezidenta uzruna Lāčplēša dienā",
+          "note": "2013. gada Valsts prezidenta uzruna."
+        }
+      ]
+    },
+    "barikazu-aizstavju-atceres-diena": {
+      "context": [
+        {
+          "text": "1991. gada janvāra atcere ir saistīta ar Latvijas neatkarības aizstāvēšanu. "
+        },
+        {
+          "topic": "neatkaribas-atjaunosanas-diena",
+          "label": "4. maija deklarācija"
+        },
+        {
+          "text": " un "
+        },
+        {
+          "topic": "konstitucionala-likuma-pienemsanas-diena",
+          "label": "21. augusta konstitucionālais likums"
+        },
+        {
+          "text": " rāda citus neatkarības atjaunošanas posmus, kurus kalendārā saglabā atsevišķi."
+        }
+      ],
+      "inline": [],
+      "related": [
+        "neatkaribas-atjaunosanas-diena",
+        "konstitucionala-likuma-pienemsanas-diena",
+        "nacionalas-pretosanas-kustibas-pieminas-diena"
+      ],
+      "tools": [
+        {
+          "url": "/atceres-dienas/",
+          "label": "Atceres dienu kalendārs",
+          "reason": "Salīdzini Latvijas atceres un atzīmējamo dienu datumus."
+        },
+        {
+          "url": "/dienas-kalendars/",
+          "label": "Dienas kalendārs",
+          "reason": "Apskati 20. janvāra vietu nedēļā pirms piemiņas pasākuma laika pārbaudes."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://likumi.lv/ta/id/72608-par-svetku-atceres-un-atzimejamam-dienam",
+          "title": "Likums «Par svētku, atceres un atzīmējamām dienām»"
+        },
+        {
+          "url": "https://barikades.lv/atskats-uz-barikazu-32-gadadienas-atceres-pasakumiem/",
+          "title": "Barikāžu atceres pasākumi 2023. gadā",
+          "note": "2023. gada atceres pasākumu piemērs."
+        }
+      ]
+    },
+    "komunistiska-genocida-upuru-pieminas-diena": {
+      "context": [
+        {
+          "text": "25. marts un 14. jūnijs attiecas uz divām atsevišķām deportācijām. "
+        },
+        {
+          "topic": "totalitara-komunistiska-rezima-genocida-upuru-pieminas-diena",
+          "label": "Decembra pirmās svētdienas piemiņas diena"
+        },
+        {
+          "text": " ir vēl cits datums; arī "
+        },
+        {
+          "topic": "latvijas-republikas-okupacijas-diena",
+          "label": "Latvijas Republikas okupācijas dienu"
+        },
+        {
+          "text": " 17. jūnijā nesapludina ar deportāciju upuru piemiņu."
+        }
+      ],
+      "inline": [],
+      "related": [
+        "totalitara-komunistiska-rezima-genocida-upuru-pieminas-diena",
+        "latvijas-republikas-okupacijas-diena",
+        "stalinisma-un-nacisma-upuru-atceres-diena"
+      ],
+      "tools": [
+        {
+          "url": "/atceres-dienas/",
+          "label": "Atceres dienu kalendārs",
+          "reason": "Salīdzini Latvijas atceres un atzīmējamo dienu datumus."
+        },
+        {
+          "url": "/dienas-kalendars/",
+          "label": "Dienas kalendārs",
+          "reason": "Apskati 25. marta un 14. jūnija dienas atsevišķi; divi ieraksti nav dublikāts."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://likumi.lv/ta/id/72608-par-svetku-atceres-un-atzimejamam-dienam",
+          "title": "Likums «Par svētku, atceres un atzīmējamām dienām»"
+        },
+        {
+          "url": "https://okupacijasmuzejs.lv/storage/Padomju-deport%C4%81cijas---att%C4%81lin%C4%81ti_86dd0c5d-ef75-4b54-a197-f8c720b0b720.pdf",
+          "title": "Okupācijas muzeja materiāls par deportācijām"
+        }
+      ]
+    },
+    "latgales-kongresa-diena": {
+      "context": [
+        {
+          "text": "Latgales kongresa nozīmi ceļā uz valsts veidošanos var skatīt līdzās "
+        },
+        {
+          "topic": "latvijas-republikas-proklamesanas-diena",
+          "label": "Latvijas Republikas proklamēšanai"
+        },
+        {
+          "text": ". Reģiona identitātes tēmu papildina "
+        },
+        {
+          "topic": "valsts-valodas-diena",
+          "label": "Valsts valodas dienas"
+        },
+        {
+          "text": " skaidrojums par valodu, saglabājot abu dienu atšķirīgos datumus un vēsturisko pamatu."
+        }
+      ],
+      "inline": [],
+      "related": [
+        "latvijas-republikas-proklamesanas-diena",
+        "valsts-valodas-diena",
+        "baltu-vienibas-diena"
+      ],
+      "tools": [
+        {
+          "url": "/dienas-kalendars/",
+          "label": "Dienas kalendārs",
+          "reason": "Atrodi 27. aprīli izvēlētā gada kalendārā, nošķirot datumu no pasākuma programmas."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://likumi.lv/ta/id/72608-par-svetku-atceres-un-atzimejamam-dienam",
+          "title": "Likums «Par svētku, atceres un atzīmējamām dienām»"
+        },
+        {
+          "url": "https://www.saeima.lv/lv/aktualitates/27019-saeima-par-atzimejamo-dienu-nosaka-latgales-kongresa-dienu/",
+          "title": "Saeima par Latgales kongresa dienu"
+        }
+      ]
+    },
+    "eiropas-diena": {
+      "context": [
+        {
+          "topic": "nacisma-sagraves-un-otra-pasaules-kara-upuru-pieminas-diena",
+          "label": "8. maija Otrā pasaules kara upuru piemiņa"
+        },
+        {
+          "text": " un 9. maija Eiropas diena ir atšķirīgi ieraksti. Eiropas sadarbības tēmu citā aspektā turpina "
+        },
+        {
+          "topic": "eiropas-valodu-diena",
+          "label": "Eiropas Valodu diena"
+        },
+        {
+          "text": " 26. septembrī."
+        }
+      ],
+      "inline": [
+        {
+          "field": "factNotes[2].text",
+          "exactText": "Mātes diena",
+          "topic": "mates-diena"
+        }
+      ],
+      "related": [
+        "eiropas-valodu-diena",
+        "nacisma-sagraves-un-otra-pasaules-kara-upuru-pieminas-diena",
+        "mates-diena"
+      ],
+      "tools": [
+        {
+          "url": "/dienas-kalendars/",
+          "label": "Dienas kalendārs",
+          "reason": "Apskati visus 9. maija ierakstus, arī gadus, kad datums sakrīt ar Mātes dienu."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://likumi.lv/ta/id/72608-par-svetku-atceres-un-atzimejamam-dienam",
+          "title": "Likums «Par svētku, atceres un atzīmējamām dienām»"
+        },
+        {
+          "url": "https://european-union.europa.eu/principles-countries-history/europe-day_lv",
+          "title": "Eiropas diena Eiropas Savienībā"
+        }
+      ]
+    },
+    "bernu-aizsardzibas-diena": {
+      "context": [
+        {
+          "topic": "pasaules-bernu-diena",
+          "label": "Pasaules bērnu diena"
+        },
+        {
+          "text": " 20. novembrī un 1. jūnija Bērnu aizsardzības diena ir divi atsevišķi ieraksti. "
+        },
+        {
+          "topic": "zinibu-diena",
+          "label": "Zinību diena"
+        },
+        {
+          "text": " savukārt atgādina par skolas gaitām; nevienu no šiem datumiem nevar izmantot visu klašu brīvlaika noteikšanai."
+        }
+      ],
+      "inline": [],
+      "related": [
+        "pasaules-bernu-diena",
+        "starptautiska-gimenes-diena",
+        "zinibu-diena"
+      ],
+      "tools": [
+        {
+          "url": "/skolas-kalendars/",
+          "label": "Skolas kalendārs",
+          "reason": "Pārbaudi vasaras brīvlaika un mācību gada beigu datumus konkrētajai klasei."
+        },
+        {
+          "url": "/gimenes-kalendars/",
+          "label": "Ģimenes kalendārs",
+          "reason": "Saskaņo bērnu un vecāku personīgos notikumus."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://likumi.lv/ta/id/72608-par-svetku-atceres-un-atzimejamam-dienam",
+          "title": "Likums «Par svētku, atceres un atzīmējamām dienām»"
+        },
+        {
+          "url": "https://likumi.lv/ta/id/365210-noteikumi-par-20262027-macibu-gada-un-macibu-semestru-sakuma-un-beigu-laiku-un-brivdienu-laiku",
+          "title": "2026./2027. mācību gada noteikumi",
+          "note": "Attiecas uz 2026./2027. mācību gadu."
+        }
+      ]
+    },
+    "zinibu-diena": {
+      "context": [
+        {
+          "text": "Mācību gada gaitās "
+        },
+        {
+          "topic": "skolotaju-diena",
+          "label": "Skolotāju dienai"
+        },
+        {
+          "text": " ir savs 5. oktobra datums. "
+        },
+        {
+          "topic": "bernu-aizsardzibas-diena",
+          "label": "Bērnu aizsardzības diena"
+        },
+        {
+          "text": " 1. jūnijā tāpat kā Zinību diena pati par sevi neaizstāj konkrētās skolas un mācību gada grafiku."
+        }
+      ],
+      "inline": [],
+      "related": [
+        "skolotaju-diena",
+        "bernu-aizsardzibas-diena",
+        "pasaules-gramatu-diena"
+      ],
+      "tools": [
+        {
+          "url": "/skolas-kalendars/",
+          "label": "Skolas kalendārs",
+          "reason": "Noskaidro attiecīgā mācību gada sākumu, beigas un brīvlaikus."
+        },
+        {
+          "url": "/stundu-saraksts/",
+          "label": "Stundu saraksts",
+          "reason": "Pieraksti pirmo stundu un klašu tikšanās laikus pēc skolas paziņojuma."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://likumi.lv/ta/id/72608-par-svetku-atceres-un-atzimejamam-dienam",
+          "title": "Likums «Par svētku, atceres un atzīmējamām dienām»"
+        }
+      ]
+    },
+    "tevu-diena": {
+      "context": [
+        {
+          "text": "Latvijas Tēva dienas datumu nosaka septembra otrā svētdiena, bet "
+        },
+        {
+          "topic": "mates-diena",
+          "label": "Mātes dienu"
+        },
+        {
+          "text": " — maija otrā svētdiena. "
+        },
+        {
+          "topic": "starptautiska-gimenes-diena",
+          "label": "Starptautiskā ģimenes diena"
+        },
+        {
+          "text": " ir vēl viens atsevišķs datums ģimenes attiecību un savstarpējā atbalsta tēmai."
+        }
+      ],
+      "inline": [],
+      "related": [
+        "mates-diena",
+        "starptautiska-gimenes-diena",
+        "starptautiska-senioru-diena"
+      ],
+      "tools": [
+        {
+          "url": "/gimenes-kalendars/",
+          "label": "Ģimenes kalendārs",
+          "reason": "Atzīmē kopīgu nodarbi vai tikšanos sev un ģimenei piemērotā laikā."
+        },
+        {
+          "url": "/menesa-kalendars/",
+          "label": "Mēneša kalendārs",
+          "reason": "Pārbaudi septembra otrās svētdienas datumu izvēlētajā gadā."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://likumi.lv/ta/id/72608-par-svetku-atceres-un-atzimejamam-dienam",
+          "title": "Likums «Par svētku, atceres un atzīmējamām dienām»"
+        }
+      ]
+    },
+    "baltu-vienibas-diena": {
+      "context": [
+        {
+          "text": "Baltu vienības diena pievēršas Latvijas un Lietuvas tuvībai un Saules kaujas piemiņai. "
+        },
+        {
+          "topic": "valsts-valodas-diena",
+          "label": "Valsts valodas diena"
+        },
+        {
+          "text": " un "
+        },
+        {
+          "topic": "eiropas-valodu-diena",
+          "label": "Eiropas Valodu diena"
+        },
+        {
+          "text": " piedāvā citus skatpunktus uz valodu un kultūras identitāti, nevis aizstāj šo vēsturisko datumu."
+        }
+      ],
+      "inline": [],
+      "related": [
+        "latgales-kongresa-diena",
+        "valsts-valodas-diena",
+        "eiropas-valodu-diena"
+      ],
+      "tools": [
+        {
+          "url": "/dienas-kalendars/",
+          "label": "Dienas kalendārs",
+          "reason": "Pārbaudi 22. septembra nedēļas dienu, pirms atsevišķi noskaidro pasākumu norisi."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://likumi.lv/ta/id/72608-par-svetku-atceres-un-atzimejamam-dienam",
+          "title": "Likums «Par svētku, atceres un atzīmējamām dienām»"
+        },
+        {
+          "url": "https://www.saeima.lv/lv/aktualitates/33845-saeimas-priekssedetaja-pakroja-baltu-vienibas-diena-atgadina-par-baltu-tautu-speku/",
+          "title": "Saeima par Baltu vienības dienu"
+        }
+      ]
+    },
+    "valsts-valodas-diena": {
+      "context": [
+        {
+          "topic": "dzimtas-valodas-diena",
+          "label": "Starptautiskā dzimtās valodas diena"
+        },
+        {
+          "text": " un "
+        },
+        {
+          "topic": "eiropas-valodu-diena",
+          "label": "Eiropas Valodu diena"
+        },
+        {
+          "text": " pievēršas valodām citā tvērumā. Latvijas Valsts valodas dienas pamats un 15. oktobra datums paliek atsevišķs no šīm starptautiskajām norisēm."
+        }
+      ],
+      "inline": [],
+      "related": [
+        "eiropas-valodu-diena",
+        "dzimtas-valodas-diena",
+        "pasaules-gramatu-diena"
+      ],
+      "tools": [
+        {
+          "url": "/dienas-kalendars/",
+          "label": "Dienas kalendārs",
+          "reason": "Apskati 15. oktobra ierakstu ar latviskiem mēneša un nedēļas dienas nosaukumiem."
+        },
+        {
+          "url": "/menesa-kalendars/",
+          "label": "Mēneša kalendārs",
+          "reason": "Pārbaudi dabisku datuma pierakstu izvēlētā mēneša pārskatā."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://likumi.lv/ta/id/72608-par-svetku-atceres-un-atzimejamam-dienam",
+          "title": "Likums «Par svētku, atceres un atzīmējamām dienām»"
+        },
+        {
+          "url": "https://valoda.lv/wp-content/uploads/2025/10/VVD_Saskaiti-valodu_LVA_2025.pdf",
+          "title": "Valsts valodas dienas materiāls “Saskaiti valodu!”",
+          "note": "2025. gada Valsts valodas dienas materiāls."
+        }
+      ]
+    },
+    "skolotaju-diena": {
+      "context": [
+        {
+          "topic": "zinibu-diena",
+          "label": "Zinību diena"
+        },
+        {
+          "text": " un Skolotāju diena ir atšķirīgi mācību gada ieraksti. Lasīšanas tēmai veltīta "
+        },
+        {
+          "topic": "pasaules-gramatu-diena",
+          "label": "Pasaules grāmatu un autortiesību diena"
+        },
+        {
+          "text": ", bet tā nenosaka skolas svinību grafiku vai Latvijas Skolotāju dienas datumu."
+        }
+      ],
+      "inline": [],
+      "related": [
+        "zinibu-diena",
+        "pasaules-gramatu-diena",
+        "dzimtas-valodas-diena"
+      ],
+      "tools": [
+        {
+          "url": "/skolas-kalendars/",
+          "label": "Skolas kalendārs",
+          "reason": "Apskati Skolotāju dienu līdzās attiecīgā mācību gada termiņiem."
+        },
+        {
+          "url": "/stundu-saraksts/",
+          "label": "Stundu saraksts",
+          "reason": "Ieraksti skolas izziņotā apsveikuma vai sarīkojuma faktisko laiku."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://likumi.lv/ta/id/72608-par-svetku-atceres-un-atzimejamam-dienam",
+          "title": "Likums «Par svētku, atceres un atzīmējamām dienām»"
+        },
+        {
+          "url": "https://www.saeima.lv/lv/aktualitates/33373-skolotaju-dienu-turpmak-atzimes-5-oktobri/",
+          "title": "Saeima par Skolotāju dienu 5. oktobrī"
+        }
+      ]
+    },
+    "starptautiska-sieviesu-diena": {
+      "context": [
+        {
+          "text": "Sieviešu un meiteņu sasniegumu atzīšana ir 8. marta tēma. Sabiedriskās līdzdalības jautājumus var turpināt "
+        },
+        {
+          "topic": "starptautiska-nevalstisko-organizaciju-diena",
+          "label": "Nevalstisko organizāciju dienas"
+        },
+        {
+          "text": " lapā, bet "
+        },
+        {
+          "topic": "pasaules-bernu-diena",
+          "label": "Pasaules bērnu diena"
+        },
+        {
+          "text": " atsevišķi pievēršas bērnu tiesībām."
+        }
+      ],
+      "inline": [],
+      "related": [
+        "starptautiska-nevalstisko-organizaciju-diena",
+        "pasaules-bernu-diena",
+        "bernu-aizsardzibas-diena"
+      ],
+      "tools": [
+        {
+          "url": "/dienas-kalendars/",
+          "label": "Dienas kalendārs",
+          "reason": "Apskati 8. marta vietu nedēļā un pievieno sev būtiskas sarunas faktisko laiku."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://likumi.lv/ta/id/72608-par-svetku-atceres-un-atzimejamam-dienam",
+          "title": "Likums «Par svētku, atceres un atzīmējamām dienām»"
+        },
+        {
+          "url": "https://www.unwomen.org/en/get-involved/international-womens-day",
+          "title": "UN Women par Starptautisko sieviešu dienu"
+        }
+      ]
+    },
+    "saulgriezi": {
+      "context": [
+        {
+          "text": "Gada ciklā "
+        },
+        {
+          "topic": "vasaras-saulgriezi",
+          "label": "vasaras saulgrieži"
+        },
+        {
+          "text": " un "
+        },
+        {
+          "topic": "ziemas-saulgriezi",
+          "label": "ziemas saulgrieži"
+        },
+        {
+          "text": " ir divi atsevišķi astronomiski brīži. "
+        },
+        {
+          "topic": "pavasara-ekvinokcija",
+          "label": "Pavasara ekvinokcija"
+        },
+        {
+          "text": " pieder citam gadalaiku maiņas notikumu pārim."
+        }
+      ],
+      "inline": [
+        {
+          "field": "factNotes[2].text",
+          "exactText": "ziemas saulgrieži",
+          "topic": "ziemas-saulgriezi"
+        }
+      ],
+      "related": [
+        "vasaras-saulgriezi",
+        "ziemas-saulgriezi",
+        "pavasara-ekvinokcija",
+        "rudens-ekvinokcija"
+      ],
+      "tools": [
+        {
+          "url": "/gadalaiki/",
+          "label": "Astronomisko gadalaiku sākumi",
+          "reason": "Salīdzini visu četru astronomisko gadalaiku sākuma brīžus."
+        },
+        {
+          "url": "/saullekts-saulriets/",
+          "label": "Saullēkts un saulriets",
+          "reason": "Apskati izvēlētās pilsētas dienas gaismu, kas nav pats saulgriežu brīdis."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://aa.usno.navy.mil/data/Earth_Seasons",
+          "title": "Saulgriežu un ekvinokciju aprēķins"
+        },
+        {
+          "url": "https://spaceplace.nasa.gov/seasons/en/",
+          "title": "NASA skaidrojums par gadalaikiem"
+        }
+      ]
+    },
+    "vasaras-saulgriezi": {
+      "context": [
+        {
+          "topic": "ligo-diena",
+          "label": "Līgo diena"
+        },
+        {
+          "text": " ir 23. jūnijā, bet "
+        },
+        {
+          "topic": "janu-diena",
+          "label": "Jāņu diena"
+        },
+        {
+          "text": " — 24. jūnijā. Vasaras saulgriežu precīzais brīdis šos fiksētos svētku datumus nepārvieto; gada otrā pusē atsevišķi aprēķina "
+        },
+        {
+          "topic": "ziemas-saulgriezi",
+          "label": "ziemas saulgriežus"
+        },
+        {
+          "text": "."
+        }
+      ],
+      "inline": [
+        {
+          "field": "factNotes[2].text",
+          "exactText": "Līgo",
+          "topic": "ligo-diena"
+        },
+        {
+          "field": "factNotes[2].text",
+          "exactText": "Jāņu diena",
+          "topic": "janu-diena"
+        },
+        {
+          "field": "intro",
+          "exactText": "saulgrieži",
+          "topic": "saulgriezi"
+        }
+      ],
+      "related": [
+        "ligo-diena",
+        "janu-diena",
+        "ziemas-saulgriezi",
+        "saulgriezi"
+      ],
+      "tools": [
+        {
+          "url": "/saullekts-saulriets/",
+          "label": "Saullēkts un saulriets",
+          "reason": "Salīdzini saulgriežu laika saullēktu un saulrietu savā pilsētā."
+        },
+        {
+          "url": "/gadalaiki/",
+          "label": "Astronomisko gadalaiku sākumi",
+          "reason": "Apskati astronomiskās vasaras sākumu līdzās pārējo gadalaiku sākumiem."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://aa.usno.navy.mil/data/Earth_Seasons",
+          "title": "Saulgriežu un ekvinokciju aprēķins"
+        },
+        {
+          "url": "https://spaceplace.nasa.gov/seasons/en/",
+          "title": "NASA skaidrojums par gadalaikiem"
+        }
+      ]
+    },
+    "ziemas-saulgriezi": {
+      "context": [
+        {
+          "topic": "ziemassvetki",
+          "label": "Ziemassvētku vakars un abas svētku dienas"
+        },
+        {
+          "text": " saglabā 24.–26. decembra datumus neatkarīgi no saulgriežu brīža. Arī "
+        },
+        {
+          "topic": "advente",
+          "label": "Advente"
+        },
+        {
+          "text": " ir kristīgā kalendāra gaidīšanas laiks ar savu svētdienu noteikumu."
+        }
+      ],
+      "inline": [
+        {
+          "field": "factNotes[2].text",
+          "exactText": "Ziemassvētku vakars",
+          "topic": "ziemassvetki"
+        },
+        {
+          "field": "intro",
+          "exactText": "saulgrieži",
+          "topic": "saulgriezi"
+        }
+      ],
+      "related": [
+        "ziemassvetki",
+        "vasaras-saulgriezi",
+        "advente",
+        "saulgriezi"
+      ],
+      "tools": [
+        {
+          "url": "/saullekts-saulriets/",
+          "label": "Saullēkts un saulriets",
+          "reason": "Noskaidro savas pilsētas īsās dienas saullēkta un saulrieta laiku."
+        },
+        {
+          "url": "/gadalaiki/",
+          "label": "Astronomisko gadalaiku sākumi",
+          "reason": "Salīdzini astronomiskās ziemas sākuma brīdi ar citiem gadalaikiem."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://aa.usno.navy.mil/data/Earth_Seasons",
+          "title": "Saulgriežu un ekvinokciju aprēķins"
+        },
+        {
+          "url": "https://spaceplace.nasa.gov/seasons/en/",
+          "title": "NASA skaidrojums par gadalaikiem"
+        }
+      ]
+    },
+    "zolitudes-tragedijas-atceres-diena": {
+      "context": [
+        {
+          "text": "Zolitūdes traģēdijas upuru piemiņai saglabā konkrēto 21. novembra datumu. Baznīcu "
+        },
+        {
+          "topic": "miruso-pieminas-diena",
+          "label": "mirušo piemiņas dienas"
+        },
+        {
+          "text": " nosaka pēc katras konfesijas tradīcijas; tās neaizstāj šo notikuma gadadienu."
+        }
+      ],
+      "inline": [],
+      "related": [
+        "miruso-pieminas-diena"
+      ],
+      "tools": [
+        {
+          "url": "/atceres-dienas/",
+          "label": "Atceres dienu kalendārs",
+          "reason": "Salīdzini Latvijas atceres un atzīmējamo dienu datumus."
+        },
+        {
+          "url": "/dienas-kalendars/",
+          "label": "Dienas kalendārs",
+          "reason": "Apskati 21. novembra datumu, saglabājot piemiņas ieraksta pilno nosaukumu."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://likumi.lv/ta/id/72608-par-svetku-atceres-un-atzimejamam-dienam",
+          "title": "Likums «Par svētku, atceres un atzīmējamām dienām»"
+        },
+        {
+          "url": "https://www.riga.lv/lv/jaunums/pasvaldiba-21-novembri-izkars-karogus-zolitudes-tragedijas-upuru-pieminai",
+          "title": "Rīgas pašvaldība par Zolitūdes traģēdijas piemiņu",
+          "note": "Pašvaldības 2022. gada atceres piemērs."
+        },
+        {
+          "url": "https://www.riga.lv/lv/notikums/21-novembri-piemines-zolitudes-tragedija-cietusos",
+          "title": "Zolitūdes traģēdijas desmitgades piemiņas pasākums",
+          "note": "2023. gada pasākuma apraksts."
+        }
+      ]
+    },
+    "ebreju-tautas-genocida-upuru-pieminas-diena": {
+      "context": [
+        {
+          "topic": "holokausta-upuru-pieminas-diena",
+          "label": "Starptautiskā Holokausta upuru piemiņas diena"
+        },
+        {
+          "text": " ir 27. janvārī, bet Latvijas 4. jūlija piemiņas dienai ir savs nosaukums un datums. "
+        },
+        {
+          "topic": "nacisma-sagraves-un-otra-pasaules-kara-upuru-pieminas-diena",
+          "label": "8. maija Otrā pasaules kara upuru piemiņa"
+        },
+        {
+          "text": " aptver citu atceres kontekstu."
+        }
+      ],
+      "inline": [],
+      "related": [
+        "holokausta-upuru-pieminas-diena",
+        "nacisma-sagraves-un-otra-pasaules-kara-upuru-pieminas-diena",
+        "stalinisma-un-nacisma-upuru-atceres-diena"
+      ],
+      "tools": [
+        {
+          "url": "/atceres-dienas/",
+          "label": "Atceres dienu kalendārs",
+          "reason": "Salīdzini Latvijas atceres un atzīmējamo dienu datumus."
+        },
+        {
+          "url": "/dienas-kalendars/",
+          "label": "Dienas kalendārs",
+          "reason": "Atver 4. jūlija dienas pārskatu, nejaucot šo datumu ar 27. janvāri."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://likumi.lv/ta/id/72608-par-svetku-atceres-un-atzimejamam-dienam",
+          "title": "Likums «Par svētku, atceres un atzīmējamām dienām»"
+        },
+        {
+          "url": "https://okupacijasmuzejs.lv/lv/aktualitates/4-julijs-ebreju-tautas-genocida-upuru-pieminas-diena-latvija",
+          "title": "Okupācijas muzejs par 4. jūlija piemiņas dienu"
+        },
+        {
+          "url": "https://www.president.lv/lv/jaunums/valsts-prezidents-piedalas-ebreju-genocida-upuru-pieminas-pasakuma",
+          "title": "4. jūlija piemiņa Valsts prezidenta skatījumā",
+          "note": "2018. gada piemiņas pasākuma apraksts."
+        }
+      ]
+    },
+    "juras-svetku-diena": {
+      "context": [
+        {
+          "text": "Jūras svētku piekrastes tradīcijas nav tas pats, kas "
+        },
+        {
+          "topic": "pasaules-udens-diena",
+          "label": "Pasaules ūdens dienas"
+        },
+        {
+          "text": " uzmanība saldūdenim un tā pieejamībai. Arī "
+        },
+        {
+          "topic": "pasaules-vides-diena",
+          "label": "Pasaules vides dienai"
+        },
+        {
+          "text": " ir atsevišķs datums un ikgadēja kampaņa, nevis Jūras svētku programma."
+        }
+      ],
+      "inline": [],
+      "related": [
+        "pasaules-udens-diena",
+        "pasaules-vides-diena",
+        "vasaras-saulgriezi"
+      ],
+      "tools": [
+        {
+          "url": "/saullekts-saulriets/",
+          "label": "Saullēkts un saulriets",
+          "reason": "Apskati piekrastes pilsētas dienas gaismu izvēlētajā svētku datumā."
+        },
+        {
+          "url": "/menesa-kalendars/",
+          "label": "Mēneša kalendārs",
+          "reason": "Noskaidro konkrētā gada jūlija otrās sestdienas datumu."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://likumi.lv/ta/id/72608-par-svetku-atceres-un-atzimejamam-dienam",
+          "title": "Likums «Par svētku, atceres un atzīmējamām dienām»"
+        },
+        {
+          "url": "https://www.latvia.travel/lv/latvijas-piekrastes-magija",
+          "title": "Jūras svētki Latvijas piekrastē"
+        }
+      ]
+    },
+    "konstitucionala-likuma-pienemsanas-diena": {
+      "context": [
+        {
+          "text": "21. augusta konstitucionālais likums izbeidza "
+        },
+        {
+          "topic": "neatkaribas-atjaunosanas-diena",
+          "label": "4. maija deklarācijā"
+        },
+        {
+          "text": " noteikto pārejas periodu. "
+        },
+        {
+          "topic": "barikazu-aizstavju-atceres-diena",
+          "label": "Barikāžu aizstāvju atceres diena"
+        },
+        {
+          "text": " attiecas uz citu 1991. gada posmu — janvāra notikumiem."
+        }
+      ],
+      "inline": [],
+      "related": [
+        "neatkaribas-atjaunosanas-diena",
+        "barikazu-aizstavju-atceres-diena",
+        "latvijas-de-jure-atzisanas-diena",
+        "latvijas-republikas-proklamesanas-diena"
+      ],
+      "tools": [
+        {
+          "url": "/dienas-kalendars/",
+          "label": "Dienas kalendārs",
+          "reason": "Apskati 21. augusta atzīmējamo dienu atsevišķi no tuvākajām atceres dienām."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://likumi.lv/ta/id/72608-par-svetku-atceres-un-atzimejamam-dienam",
+          "title": "Likums «Par svētku, atceres un atzīmējamām dienām»"
+        },
+        {
+          "url": "https://likumi.lv/ta/id/69512-par-latvijas-republikas-valstisko-statusu",
+          "title": "1991. gada 21. augusta konstitucionālais likums"
+        },
+        {
+          "url": "https://www.mfa.gov.lv/lv/latvijas-neatkaribas-atjaunosanas-starptautiska-atzisana-1991gada",
+          "title": "Neatkarības atjaunošanas starptautiskā atzīšana"
+        }
+      ]
+    },
+    "latvijas-republikas-okupacijas-diena": {
+      "context": [
+        {
+          "topic": "komunistiska-genocida-upuru-pieminas-diena",
+          "label": "25. marta un 14. jūnija deportāciju upuru piemiņa"
+        },
+        {
+          "text": " ir saistīta ar citiem notikumiem nekā 17. jūnija okupācijas atcere. "
+        },
+        {
+          "topic": "nacionalas-pretosanas-kustibas-pieminas-diena",
+          "label": "Nacionālās pretošanās kustības piemiņas diena"
+        },
+        {
+          "text": " savukārt pievēršas pretošanās dalībniekiem un neatkarības atjaunošanas centieniem."
+        }
+      ],
+      "inline": [],
+      "related": [
+        "komunistiska-genocida-upuru-pieminas-diena",
+        "nacionalas-pretosanas-kustibas-pieminas-diena",
+        "neatkaribas-atjaunosanas-diena",
+        "stalinisma-un-nacisma-upuru-atceres-diena"
+      ],
+      "tools": [
+        {
+          "url": "/atceres-dienas/",
+          "label": "Atceres dienu kalendārs",
+          "reason": "Salīdzini Latvijas atceres un atzīmējamo dienu datumus."
+        },
+        {
+          "url": "/dienas-kalendars/",
+          "label": "Dienas kalendārs",
+          "reason": "Pārbaudi 17. jūnija kalendāra ierakstu, neapvienojot to ar 14. jūniju."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://likumi.lv/ta/id/72608-par-svetku-atceres-un-atzimejamam-dienam",
+          "title": "Likums «Par svētku, atceres un atzīmējamām dienām»"
+        },
+        {
+          "url": "https://okupacijasmuzejs.lv/lv/aktualitates/17-junijs-latvijas-republikas-okupacijas-diena",
+          "title": "Okupācijas muzejs par 17. jūniju"
+        }
+      ]
+    },
+    "latvijas-de-jure-atzisanas-diena": {
+      "context": [
+        {
+          "text": "Latvijas "
+        },
+        {
+          "topic": "latvijas-republikas-proklamesanas-diena",
+          "label": "proklamēšana 18. novembrī"
+        },
+        {
+          "text": " un starptautiskā atzīšana de jure ir atšķirīgas gadadienas. "
+        },
+        {
+          "topic": "neatkaribas-atjaunosanas-diena",
+          "label": "Neatkarības atjaunošanas diena"
+        },
+        {
+          "text": " papildina valstiskuma nepārtrauktības stāstu ar citu notikumu un datumu."
+        }
+      ],
+      "inline": [
+        {
+          "field": "factNotes[0].text",
+          "exactText": "18. novembrī",
+          "topic": "latvijas-republikas-proklamesanas-diena"
+        }
+      ],
+      "related": [
+        "latvijas-republikas-proklamesanas-diena",
+        "neatkaribas-atjaunosanas-diena",
+        "konstitucionala-likuma-pienemsanas-diena"
+      ],
+      "tools": [
+        {
+          "url": "/dienas-kalendars/",
+          "label": "Dienas kalendārs",
+          "reason": "Atrodi 26. janvāra atzīmējamo dienu izvēlētajā gadā."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://likumi.lv/ta/id/72608-par-svetku-atceres-un-atzimejamam-dienam",
+          "title": "Likums «Par svētku, atceres un atzīmējamām dienām»"
+        },
+        {
+          "url": "https://www.mfa.gov.lv/lv/latvijas-starptautiskajai-atzisanai-90-gadi",
+          "title": "Ārlietu ministrija par Latvijas de iure atzīšanu"
+        }
+      ]
+    },
+    "latvijas-brivibas-cinitaju-pieminas-diena": {
+      "context": [
+        {
+          "topic": "varonu-pieminas-diena",
+          "label": "Varoņu piemiņas diena 22. jūnijā"
+        },
+        {
+          "text": " un "
+        },
+        {
+          "topic": "lacplesa-diena",
+          "label": "Lāčplēša diena 11. novembrī"
+        },
+        {
+          "text": " ir saistītas ar citiem neatkarības izcīnīšanas notikumiem. 11. augusta saikne ar kara noslēgumu un miera līgumu saglabājas kā atsevišķa piemiņas tēma."
+        }
+      ],
+      "inline": [],
+      "related": [
+        "lacplesa-diena",
+        "varonu-pieminas-diena",
+        "latvijas-republikas-proklamesanas-diena"
+      ],
+      "tools": [
+        {
+          "url": "/atceres-dienas/",
+          "label": "Atceres dienu kalendārs",
+          "reason": "Salīdzini Latvijas atceres un atzīmējamo dienu datumus."
+        },
+        {
+          "url": "/dienas-kalendars/",
+          "label": "Dienas kalendārs",
+          "reason": "Apskati 11. augusta nedēļas dienu pirms konkrētas ceremonijas laika pārbaudes."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://likumi.lv/ta/id/72608-par-svetku-atceres-un-atzimejamam-dienam",
+          "title": "Likums «Par svētku, atceres un atzīmējamām dienām»"
+        },
+        {
+          "url": "https://www.president.lv/en/article/official-event-be-held-riga-castle-mark-100th-anniversary-signing-latvia-russia-peace-treaty",
+          "title": "Miera līguma simtgades atcere Rīgas pilī",
+          "note": "2020. gada simtgades pasākuma apraksts."
+        }
+      ]
+    },
+    "medicinas-darbinieku-diena": {
+      "context": [
+        {
+          "text": "Medicīnas darbinieku diena pateicas par ārstēšanas un aprūpes darbu. "
+        },
+        {
+          "topic": "ugunsdzeseju-un-glabeju-diena",
+          "label": "Ugunsdzēsēju un glābēju dienai"
+        },
+        {
+          "text": " ir cits profesionālais tvērums, bet "
+        },
+        {
+          "topic": "starptautiska-senioru-diena",
+          "label": "Senioru diena"
+        },
+        {
+          "text": " pievēršas vecāka gadagājuma cilvēku pieredzei, līdzdalībai un tiesībām."
+        }
+      ],
+      "inline": [],
+      "related": [
+        "ugunsdzeseju-un-glabeju-diena",
+        "starptautiska-senioru-diena",
+        "policijas-darbinieku-diena"
+      ],
+      "tools": [
+        {
+          "url": "/dienas-kalendars/",
+          "label": "Dienas kalendārs",
+          "reason": "Pārbaudi jūnija trešās svētdienas datumu, atsevišķi noskaidrojot iestādes darba laiku."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://likumi.lv/ta/id/72608-par-svetku-atceres-un-atzimejamam-dienam",
+          "title": "Likums «Par svētku, atceres un atzīmējamām dienām»"
+        },
+        {
+          "url": "https://www.siva.gov.lv/lv/jaunums/15-junijs-medicinas-darbinieku-diena",
+          "title": "SIVA par Medicīnas darbinieku dienu",
+          "note": "Aģentūras 2025. gada apsveikums."
+        },
+        {
+          "url": "https://www.liepajasslimnica.lv/index.php/zinas/sveicam-medicinas-darbinieku-diena",
+          "title": "Liepājas slimnīca par Medicīnas darbinieku dienu",
+          "note": "Slimnīcas 2026. gada apsveikums."
+        }
+      ]
+    },
+    "nacionalo-partizanu-pretosanas-atceres-diena": {
+      "context": [
+        {
+          "topic": "nacionalas-pretosanas-kustibas-pieminas-diena",
+          "label": "17. marta Nacionālās pretošanās kustības piemiņas diena"
+        },
+        {
+          "text": " aptver plašāku pretošanās darbību loku nekā 2. marta bruņotās pretošanās atcere. "
+        },
+        {
+          "topic": "latvijas-republikas-okupacijas-diena",
+          "label": "Latvijas Republikas okupācijas diena"
+        },
+        {
+          "text": " palīdz nošķirt okupācijas sākuma piemiņu no pretošanās dalībnieku godināšanas."
+        }
+      ],
+      "inline": [],
+      "related": [
+        "nacionalas-pretosanas-kustibas-pieminas-diena",
+        "latvijas-republikas-okupacijas-diena",
+        "komunistiska-genocida-upuru-pieminas-diena"
+      ],
+      "tools": [
+        {
+          "url": "/atceres-dienas/",
+          "label": "Atceres dienu kalendārs",
+          "reason": "Salīdzini Latvijas atceres un atzīmējamo dienu datumus."
+        },
+        {
+          "url": "/dienas-kalendars/",
+          "label": "Dienas kalendārs",
+          "reason": "Atrodi 2. marta atceres datumu, pirms noskaidro Stompaku vietas vai pasākuma pieejamību."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://likumi.lv/ta/id/72608-par-svetku-atceres-un-atzimejamam-dienam",
+          "title": "Likums «Par svētku, atceres un atzīmējamām dienām»"
+        },
+        {
+          "url": "https://www.mod.gov.lv/lv/zinas/aizsardzibas-ministrs-apmekles-baznicas-bunkura-un-nacionalo-partizanu-pieminas-plaksnes",
+          "title": "Aizsardzības ministrija par Stompaku kauju"
+        }
+      ]
+    },
+    "nacionalas-pretosanas-kustibas-pieminas-diena": {
+      "context": [
+        {
+          "topic": "nacionalo-partizanu-pretosanas-atceres-diena",
+          "label": "2. marta nacionālo partizānu atceres diena"
+        },
+        {
+          "text": " pievēršas bruņotajai pretošanās kustībai. "
+        },
+        {
+          "topic": "barikazu-aizstavju-atceres-diena",
+          "label": "Barikāžu aizstāvju atcere"
+        },
+        {
+          "text": " ir vēl cita neatkarības aizstāvēšanas tēma; katram ierakstam saglabā tā konkrēto vēsturisko nozīmi."
+        }
+      ],
+      "inline": [],
+      "related": [
+        "nacionalo-partizanu-pretosanas-atceres-diena",
+        "latvijas-republikas-okupacijas-diena",
+        "barikazu-aizstavju-atceres-diena"
+      ],
+      "tools": [
+        {
+          "url": "/atceres-dienas/",
+          "label": "Atceres dienu kalendārs",
+          "reason": "Salīdzini Latvijas atceres un atzīmējamo dienu datumus."
+        },
+        {
+          "url": "/dienas-kalendars/",
+          "label": "Dienas kalendārs",
+          "reason": "Pārbaudi 17. marta datumu un nedēļas dienu, neatvasinot no tā pasākuma sākuma laiku."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://likumi.lv/ta/id/72608-par-svetku-atceres-un-atzimejamam-dienam",
+          "title": "Likums «Par svētku, atceres un atzīmējamām dienām»"
+        },
+        {
+          "url": "https://www.president.lv/lv/jaunums/valsts-prezidents-godina-nacionalas-pretosanas-kustibas-dalibnieku-pieminu-un-aizdedz-sveciti-pie-brivibas-pieminekla",
+          "title": "Nacionālās pretošanās piemiņa 17. martā",
+          "note": "2020. gada piemiņas pasākuma apraksts."
+        }
+      ]
+    },
+    "nacisma-sagraves-un-otra-pasaules-kara-upuru-pieminas-diena": {
+      "context": [
+        {
+          "topic": "eiropas-diena",
+          "label": "Eiropas diena 9. maijā"
+        },
+        {
+          "text": " ir cits notikums nekā 8. maija kara upuru piemiņa. Arī "
+        },
+        {
+          "topic": "ebreju-tautas-genocida-upuru-pieminas-diena",
+          "label": "4. jūlija Ebreju tautas genocīda upuru piemiņas diena"
+        },
+        {
+          "text": " saglabā savu konkrēto Latvijas atceres datumu un nosaukumu."
+        }
+      ],
+      "inline": [
+        {
+          "field": "factNotes[2].text",
+          "exactText": "Eiropas dienu",
+          "topic": "eiropas-diena"
+        }
+      ],
+      "related": [
+        "eiropas-diena",
+        "ebreju-tautas-genocida-upuru-pieminas-diena",
+        "holokausta-upuru-pieminas-diena",
+        "stalinisma-un-nacisma-upuru-atceres-diena"
+      ],
+      "tools": [
+        {
+          "url": "/atceres-dienas/",
+          "label": "Atceres dienu kalendārs",
+          "reason": "Salīdzini Latvijas atceres un atzīmējamo dienu datumus."
+        },
+        {
+          "url": "/dienas-kalendars/",
+          "label": "Dienas kalendārs",
+          "reason": "Apskati 8. maija atceres ierakstu atsevišķi no nākamās dienas kalendāra."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://likumi.lv/ta/id/72608-par-svetku-atceres-un-atzimejamam-dienam",
+          "title": "Likums «Par svētku, atceres un atzīmējamām dienām»"
+        },
+        {
+          "url": "https://likumi.lv/ta/id/312031",
+          "title": "Saeimas deklarācija par okupāciju un kara vēsturi"
+        }
+      ]
+    },
+    "policijas-darbinieku-diena": {
+      "context": [
+        {
+          "topic": "robezsargu-diena",
+          "label": "Robežsargu diena"
+        },
+        {
+          "text": " un "
+        },
+        {
+          "topic": "ugunsdzeseju-un-glabeju-diena",
+          "label": "Ugunsdzēsēju un glābēju diena"
+        },
+        {
+          "text": " godina citus dienestus ar savu darba jomu un vēsturi. Šie atsevišķie profesionālie datumi nenosaka vienotu publisko pasākumu programmu vai pakalpojumu darba laiku."
+        }
+      ],
+      "inline": [],
+      "related": [
+        "robezsargu-diena",
+        "ugunsdzeseju-un-glabeju-diena",
+        "medicinas-darbinieku-diena"
+      ],
+      "tools": [
+        {
+          "url": "/dienas-kalendars/",
+          "label": "Dienas kalendārs",
+          "reason": "Apskati 5. decembra profesionālās dienas ierakstu, nošķirot to no dienesta darba kārtības."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://likumi.lv/ta/id/72608-par-svetku-atceres-un-atzimejamam-dienam",
+          "title": "Likums «Par svētku, atceres un atzīmējamām dienām»"
+        },
+        {
+          "url": "https://www.saeima.lv/lv/aktualitates/23935-konceptuali-atbalsta-policistu-un-robezsargu-profesionalo-svetku-nostiprinasanu-likuma/",
+          "title": "Saeima par policistu un robežsargu svētku vēsturi",
+          "note": "2015. gada ziņa par likuma grozījumu ieceri."
+        }
+      ]
+    },
+    "totalitara-komunistiska-rezima-genocida-upuru-pieminas-diena": {
+      "context": [
+        {
+          "topic": "komunistiska-genocida-upuru-pieminas-diena",
+          "label": "25. marts un 14. jūnijs"
+        },
+        {
+          "text": " nav šī decembra piemiņas datuma dublikāti. Arī "
+        },
+        {
+          "topic": "stalinisma-un-nacisma-upuru-atceres-diena",
+          "label": "23. augusta Staļinisma un nacisma upuru atcerei"
+        },
+        {
+          "text": " ir savs datums un plašāks abu režīmu piemiņas tvērums."
+        }
+      ],
+      "inline": [
+        {
+          "field": "intro",
+          "exactText": "25. martam un 14. jūnijam",
+          "topic": "komunistiska-genocida-upuru-pieminas-diena"
+        }
+      ],
+      "related": [
+        "komunistiska-genocida-upuru-pieminas-diena",
+        "stalinisma-un-nacisma-upuru-atceres-diena",
+        "latvijas-republikas-okupacijas-diena"
+      ],
+      "tools": [
+        {
+          "url": "/atceres-dienas/",
+          "label": "Atceres dienu kalendārs",
+          "reason": "Salīdzini Latvijas atceres un atzīmējamo dienu datumus."
+        },
+        {
+          "url": "/dienas-kalendars/",
+          "label": "Dienas kalendārs",
+          "reason": "Pārbaudi attiecīgā gada decembra pirmās svētdienas datumu."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://likumi.lv/ta/id/72608-par-svetku-atceres-un-atzimejamam-dienam",
+          "title": "Likums «Par svētku, atceres un atzīmējamām dienām»"
+        },
+        {
+          "url": "https://www.vestnesis.lv/ta/id/12853",
+          "title": "2000. gada aicinājums pieminēt genocīdu pret latviešiem",
+          "note": "2000. gadā publicēts vēsturisks aicinājums."
+        }
+      ]
+    },
+    "robezsargu-diena": {
+      "context": [
+        {
+          "topic": "policijas-darbinieku-diena",
+          "label": "Policijas darbinieku diena"
+        },
+        {
+          "text": " un "
+        },
+        {
+          "topic": "ugunsdzeseju-un-glabeju-diena",
+          "label": "Ugunsdzēsēju un glābēju diena"
+        },
+        {
+          "text": " pievēršas citiem drošības dienestiem. Robežsargu dienas vēsture un datums paliek atsevišķi no katra no šiem profesionālajiem ierakstiem."
+        }
+      ],
+      "inline": [],
+      "related": [
+        "policijas-darbinieku-diena",
+        "ugunsdzeseju-un-glabeju-diena",
+        "lacplesa-diena"
+      ],
+      "tools": [
+        {
+          "url": "/dienas-kalendars/",
+          "label": "Dienas kalendārs",
+          "reason": "Atrodi 7. novembra atzīmējamo dienu, konkrēta dienesta norisi pārbaudot tā programmā."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://likumi.lv/ta/id/72608-par-svetku-atceres-un-atzimejamam-dienam",
+          "title": "Likums «Par svētku, atceres un atzīmējamām dienām»"
+        },
+        {
+          "url": "https://www.vrk.rs.gov.lv/lv/jaunums/ka-1919-gada-7-novembris-kluva-par-robezsargu-dienu-1",
+          "title": "Robežsargu dienas vēsture"
+        }
+      ]
+    },
+    "starptautiska-nevalstisko-organizaciju-diena": {
+      "context": [
+        {
+          "text": "NVO darbs var skart sociālus un vides jautājumus. "
+        },
+        {
+          "topic": "pasaules-vides-diena",
+          "label": "Pasaules vides diena"
+        },
+        {
+          "text": " un "
+        },
+        {
+          "topic": "pasaules-bernu-diena",
+          "label": "Pasaules bērnu diena"
+        },
+        {
+          "text": " ir divas konkrētas tēmas šādu jautājumu izziņai, katra ar savu datumu un organizatoru norisēm."
+        }
+      ],
+      "inline": [],
+      "related": [
+        "pasaules-vides-diena",
+        "pasaules-bernu-diena",
+        "starptautiska-senioru-diena",
+        "starptautiska-sieviesu-diena"
+      ],
+      "tools": [
+        {
+          "url": "/dienas-kalendars/",
+          "label": "Dienas kalendārs",
+          "reason": "Atzīmē konkrētās organizācijas izziņoto sarunu vai brīvprātīgā darba laiku."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://likumi.lv/ta/id/72608-par-svetku-atceres-un-atzimejamam-dienam",
+          "title": "Likums «Par svētku, atceres un atzīmējamām dienām»"
+        },
+        {
+          "url": "https://www.saeima.lv/lv/aktualitates/34407-saeima-27-februari-noteic-par-starptautisko-nevalstisko-organizaciju-dienu/",
+          "title": "Saeima par Starptautisko nevalstisko organizāciju dienu"
+        }
+      ]
+    },
+    "starptautiska-senioru-diena": {
+      "context": [
+        {
+          "text": "Paaudžu tikšanās ir saistīta ar "
+        },
+        {
+          "topic": "starptautiska-gimenes-diena",
+          "label": "Ģimenes dienas"
+        },
+        {
+          "text": " kopā būšanas tēmu. "
+        },
+        {
+          "topic": "starptautiska-nevalstisko-organizaciju-diena",
+          "label": "Nevalstisko organizāciju diena"
+        },
+        {
+          "text": " savukārt dod plašāku pilsoniskās līdzdalības skatpunktu līdzās Senioru dienas uzmanībai pieredzei un tiesībām."
+        }
+      ],
+      "inline": [],
+      "related": [
+        "starptautiska-gimenes-diena",
+        "medicinas-darbinieku-diena",
+        "starptautiska-nevalstisko-organizaciju-diena"
+      ],
+      "tools": [
+        {
+          "url": "/gimenes-kalendars/",
+          "label": "Ģimenes kalendārs",
+          "reason": "Saskaņo paaudžu tikšanos, sarunu vai palīdzību ikdienas darbā."
+        },
+        {
+          "url": "/dienas-kalendars/",
+          "label": "Dienas kalendārs",
+          "reason": "Pārbaudi 1. oktobra dienas ierakstu, neuztverot to par pensijas izmaksas datumu."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://likumi.lv/ta/id/72608-par-svetku-atceres-un-atzimejamam-dienam",
+          "title": "Likums «Par svētku, atceres un atzīmējamām dienām»"
+        },
+        {
+          "url": "https://www.un.org/en/observances/older-persons-day",
+          "title": "ANO par Starptautisko senioru dienu"
+        }
+      ]
+    },
+    "starptautiska-gimenes-diena": {
+      "context": [
+        {
+          "topic": "mates-diena",
+          "label": "Mātes dienai"
+        },
+        {
+          "text": " un "
+        },
+        {
+          "topic": "tevu-diena",
+          "label": "Tēva dienai"
+        },
+        {
+          "text": " ir savi Latvijas datuma noteikumi. "
+        },
+        {
+          "topic": "starptautiska-senioru-diena",
+          "label": "Senioru diena"
+        },
+        {
+          "text": " papildina ģimenes attiecību tēmu ar paaudžu pieredzi un līdzdalību; 15. maijs šos ierakstus neaizstāj."
+        }
+      ],
+      "inline": [],
+      "related": [
+        "mates-diena",
+        "tevu-diena",
+        "starptautiska-senioru-diena",
+        "valentina-diena"
+      ],
+      "tools": [
+        {
+          "url": "/gimenes-kalendars/",
+          "label": "Ģimenes kalendārs",
+          "reason": "Savieno kopīgo laiku ar katra cilvēka skolas un darba grafiku."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://likumi.lv/ta/id/72608-par-svetku-atceres-un-atzimejamam-dienam",
+          "title": "Likums «Par svētku, atceres un atzīmējamām dienām»"
+        },
+        {
+          "url": "https://www.un.org/en/observances/international-day-of-families",
+          "title": "ANO par Starptautisko ģimenes dienu"
+        }
+      ]
+    },
+    "stalinisma-un-nacisma-upuru-atceres-diena": {
+      "context": [
+        {
+          "topic": "totalitaro-rezimu-upuru-pieminas-diena",
+          "label": "23. augusta Latvijas un Eiropas atceres formulējumu skaidrojums"
+        },
+        {
+          "text": " palīdz nošķirt to tvērumu. "
+        },
+        {
+          "topic": "komunistiska-genocida-upuru-pieminas-diena",
+          "label": "25. marts un 14. jūnijs"
+        },
+        {
+          "text": " paliek atsevišķi deportāciju upuru piemiņas datumi; arī Baltijas ceļa atceri nošķir no 1939. gada pakta vēstures."
+        }
+      ],
+      "inline": [
+        {
+          "field": "intro",
+          "exactText": "Staļinisma un nacisma upuru atceres diena",
+          "topic": "totalitaro-rezimu-upuru-pieminas-diena"
+        }
+      ],
+      "related": [
+        "totalitaro-rezimu-upuru-pieminas-diena",
+        "komunistiska-genocida-upuru-pieminas-diena",
+        "ebreju-tautas-genocida-upuru-pieminas-diena",
+        "totalitara-komunistiska-rezima-genocida-upuru-pieminas-diena"
+      ],
+      "tools": [
+        {
+          "url": "/atceres-dienas/",
+          "label": "Atceres dienu kalendārs",
+          "reason": "Salīdzini Latvijas atceres un atzīmējamo dienu datumus."
+        },
+        {
+          "url": "/dienas-kalendars/",
+          "label": "Dienas kalendārs",
+          "reason": "Apskati 23. augusta atceres ierakstu, nesapludinot vēsturiskos notikumus."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://likumi.lv/ta/id/72608-par-svetku-atceres-un-atzimejamam-dienam",
+          "title": "Likums «Par svētku, atceres un atzīmējamām dienām»"
+        },
+        {
+          "url": "https://likumi.lv/ta/id/312031",
+          "title": "Saeimas deklarācija par okupāciju un kara vēsturi"
+        },
+        {
+          "url": "https://www.president.lv/lv/vesture",
+          "title": "Latvijas vēstures nozīmīgie datumi"
+        }
+      ]
+    },
+    "ugunsdzeseju-un-glabeju-diena": {
+      "context": [
+        {
+          "topic": "policijas-darbinieku-diena",
+          "label": "Policijas darbinieku diena"
+        },
+        {
+          "text": " un "
+        },
+        {
+          "topic": "medicinas-darbinieku-diena",
+          "label": "Medicīnas darbinieku diena"
+        },
+        {
+          "text": " pievēršas citām profesionālām darba jomām. Ugunsdzēsēju un glābēju diena saglabā savu 17. maija datumu un saikni ar Latvijas ugunsdzēsības vēsturi."
+        }
+      ],
+      "inline": [],
+      "related": [
+        "policijas-darbinieku-diena",
+        "medicinas-darbinieku-diena",
+        "robezsargu-diena"
+      ],
+      "tools": [
+        {
+          "url": "/dienas-kalendars/",
+          "label": "Dienas kalendārs",
+          "reason": "Atrodi 17. maiju, aktuālo muzeja vai dienesta pasākuma laiku pārbaudot pie rīkotāja."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://likumi.lv/ta/id/72608-par-svetku-atceres-un-atzimejamam-dienam",
+          "title": "Likums «Par svētku, atceres un atzīmējamām dienām»"
+        },
+        {
+          "url": "https://www.vugd.gov.lv/lv/vesture",
+          "title": "Ugunsdzēsības dienesta vēsture"
+        }
+      ]
+    },
+    "varonu-pieminas-diena": {
+      "context": [
+        {
+          "topic": "lacplesa-diena",
+          "label": "Lāčplēša diena"
+        },
+        {
+          "text": " un "
+        },
+        {
+          "topic": "latvijas-brivibas-cinitaju-pieminas-diena",
+          "label": "Latvijas brīvības cīnītāju piemiņas diena"
+        },
+        {
+          "text": " attiecas uz citiem neatkarības izcīnīšanas notikumiem. Cēsu kauju atcere 22. jūnijā saglabā savu nozīmi arī tad, kad kalendārā tai tūlīt seko Līgo un Jāņu svētki."
+        }
+      ],
+      "inline": [],
+      "related": [
+        "latvijas-brivibas-cinitaju-pieminas-diena",
+        "lacplesa-diena",
+        "latvijas-republikas-proklamesanas-diena"
+      ],
+      "tools": [
+        {
+          "url": "/atceres-dienas/",
+          "label": "Atceres dienu kalendārs",
+          "reason": "Salīdzini Latvijas atceres un atzīmējamo dienu datumus."
+        },
+        {
+          "url": "/dienas-kalendars/",
+          "label": "Dienas kalendārs",
+          "reason": "Pārbaudi 22. jūnija atceres datumu, nepiešķirot tam nākamo dienu svētku statusu."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://likumi.lv/ta/id/72608-par-svetku-atceres-un-atzimejamam-dienam",
+          "title": "Likums «Par svētku, atceres un atzīmējamām dienām»"
+        },
+        {
+          "url": "https://www.mod.gov.lv/lv/zinas/aizsardzibas-nozare-visa-latvija-svinigi-atzimes-varonu-pieminas-dienu",
+          "title": "Aizsardzības ministrija par Varoņu piemiņas dienu",
+          "note": "2021. gada atceres piemērs."
+        },
+        {
+          "url": "https://neredzigobiblioteka.lv/junijs-cesu-filiale/",
+          "title": "Cēsu bibliotēkas atceres materiāls 2023. gadā",
+          "note": "Bibliotēkas 2023. gada materiāls."
+        }
+      ]
+    },
+    "valentina-diena": {
+      "context": [
+        {
+          "text": "Valentīndienas attiecību tēmu var skatīt līdzās "
+        },
+        {
+          "topic": "starptautiska-gimenes-diena",
+          "label": "Starptautiskajai ģimenes dienai"
+        },
+        {
+          "text": ". "
+        },
+        {
+          "topic": "mates-diena",
+          "label": "Mātes dienai"
+        },
+        {
+          "text": " un "
+        },
+        {
+          "topic": "tevu-diena",
+          "label": "Tēva dienai"
+        },
+        {
+          "text": " ir cita, konkrētām ģimenes attiecībām veltīta nozīme un savi Latvijas datumi."
+        }
+      ],
+      "inline": [],
+      "related": [
+        "starptautiska-gimenes-diena",
+        "mates-diena",
+        "tevu-diena"
+      ],
+      "tools": [
+        {
+          "url": "/gimenes-kalendars/",
+          "label": "Ģimenes kalendārs",
+          "reason": "Ieraksti kopīgi norunātu tikšanos vai pasākuma faktisko laiku."
+        },
+        {
+          "url": "/dienas-kalendars/",
+          "label": "Dienas kalendārs",
+          "reason": "Pārbaudi 14. februāra nedēļas dienu."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.km.gov.lv/lv/jaunums/milestibas-diena-lnrmm-aicina-iepazit-radosuma-un-milas-pasauli",
+          "title": "Mīlestības dienas programma Rakstniecības un mūzikas muzejā",
+          "note": "2026. gada muzeja programmas piemērs."
+        },
+        {
+          "url": "https://likumi.lv/ta/id/72608-par-svetku-atceres-un-atzimejamam-dienam",
+          "title": "Likums «Par svētku, atceres un atzīmējamām dienām»"
+        }
+      ]
+    },
+    "martindiena": {
+      "context": [
+        {
+          "topic": "mikeli",
+          "label": "Miķeļi"
+        },
+        {
+          "text": " pievēršas ražas laika noslēgumam, bet Mārtiņus saista ar ziemas tuvošanos. "
+        },
+        {
+          "topic": "ziemas-saulgriezi",
+          "label": "Astronomiskie ziemas saulgrieži"
+        },
+        {
+          "text": " un "
+        },
+        {
+          "topic": "helovins",
+          "label": "Helovīns"
+        },
+        {
+          "text": " ir atšķirīgi notikumi, kurus nepielīdzina Mārtiņu tradīcijai."
+        }
+      ],
+      "inline": [],
+      "related": [
+        "mikeli",
+        "meteni",
+        "ziemas-saulgriezi",
+        "helovins"
+      ],
+      "tools": [
+        {
+          "url": "/gadalaiki/",
+          "label": "Astronomisko gadalaiku sākumi",
+          "reason": "Salīdzini tradicionālo ziemas sākumu ar astronomisko gadalaiku robežām."
+        },
+        {
+          "url": "/menesa-kalendars/",
+          "label": "Mēneša kalendārs",
+          "reason": "Apskati 10. novembri un atsevišķi ieplāno rīkotāja izziņoto tirgus datumu."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://epupa.valoda.lv/martini/",
+          "title": "Mārtiņi e-PUPA vārdnīcā"
+        },
+        {
+          "url": "https://likumi.lv/ta/id/72608-par-svetku-atceres-un-atzimejamam-dienam",
+          "title": "Likums «Par svētku, atceres un atzīmējamām dienām»"
+        }
+      ]
+    },
+    "mikeli": {
+      "context": [
+        {
+          "text": "29. septembra Miķeļi nav tas pats, kas "
+        },
+        {
+          "topic": "rudens-ekvinokcija",
+          "label": "rudens ekvinokcijas"
+        },
+        {
+          "text": " precīzais astronomiskais brīdis. Vēlākajā gadskārtā "
+        },
+        {
+          "topic": "martindiena",
+          "label": "Mārtiņi"
+        },
+        {
+          "text": " jau pievēršas rudens darbu noslēgumam un ziemas tuvošanās laikam."
+        }
+      ],
+      "inline": [
+        {
+          "field": "intro",
+          "exactText": "rudens ekvinokcija",
+          "topic": "rudens-ekvinokcija"
+        }
+      ],
+      "related": [
+        "martindiena",
+        "rudens-ekvinokcija",
+        "meteni"
+      ],
+      "tools": [
+        {
+          "url": "/gadalaiki/",
+          "label": "Astronomisko gadalaiku sākumi",
+          "reason": "Pārbaudi astronomiskā rudens sākuma brīdi atsevišķi no 29. septembra."
+        },
+        {
+          "url": "/sejas-kalendars/",
+          "label": "Sējas un stādīšanas kalendārs",
+          "reason": "Salīdzini ražas tradīciju ar praktisku dārza darbu informāciju pēc vietējiem apstākļiem."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://epupa.valoda.lv/mikeli/",
+          "title": "Miķeļi e-PUPA vārdnīcā"
+        },
+        {
+          "url": "https://aa.usno.navy.mil/data/Earth_Seasons",
+          "title": "Astronomiskās rudens ekvinokcijas aprēķins"
+        },
+        {
+          "url": "https://likumi.lv/ta/id/72608-par-svetku-atceres-un-atzimejamam-dienam",
+          "title": "Likums «Par svētku, atceres un atzīmējamām dienām»"
+        }
+      ]
+    },
+    "meteni": {
+      "context": [
+        {
+          "topic": "pavasara-tradicijas",
+          "label": "Pavasara tradīciju pārskats"
+        },
+        {
+          "text": " palīdz nošķirt Meteņu dažādos svinēšanas laikus no "
+        },
+        {
+          "topic": "lieldienas",
+          "label": "Lieldienu"
+        },
+        {
+          "text": " kalendāra. "
+        },
+        {
+          "topic": "pupolu-svetdiena",
+          "label": "Pūpolu svētdiena"
+        },
+        {
+          "text": " ir cits ieraksts ar savu noteiktu vietu Lieldienu ciklā."
+        }
+      ],
+      "inline": [],
+      "related": [
+        "pavasara-tradicijas",
+        "lieldienas",
+        "pupolu-svetdiena",
+        "martindiena"
+      ],
+      "tools": [
+        {
+          "url": "/menesa-kalendars/",
+          "label": "Mēneša kalendārs",
+          "reason": "Ieraksti konkrētā rīkotāja publicēto Meteņu pasākuma datumu."
+        },
+        {
+          "url": "/gadalaiki/",
+          "label": "Astronomisko gadalaiku sākumi",
+          "reason": "Nošķir pavasara gaidīšanas gadskārtu no astronomiskā pavasara sākuma."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://epupa.valoda.lv/metenis-meteni/",
+          "title": "Meteņi e-PUPA vārdnīcā"
+        },
+        {
+          "url": "https://www.lebm.gov.lv/lv/jaunums/metenu-jeb-vastlavju-kekatas-libiesu-tradicija",
+          "title": "Meteņi lībiešu tradīcijā"
+        },
+        {
+          "url": "https://tmr.gov.lv/lv/jaunums/piesakies-programmai-meteni-turaida",
+          "title": "Meteņu tradīcijas Turaidas muzejā",
+          "note": "2025. gada muzeja programmas apraksts."
+        },
+        {
+          "url": "https://likumi.lv/ta/id/72608-par-svetku-atceres-un-atzimejamam-dienam",
+          "title": "Likums «Par svētku, atceres un atzīmējamām dienām»"
+        }
+      ]
+    },
+    "advente": {
+      "context": [
+        {
+          "text": "Adventes četras svētdienas ved uz "
+        },
+        {
+          "topic": "ziemassvetki",
+          "label": "Ziemassvētkiem"
+        },
+        {
+          "text": ". Luterāņu "
+        },
+        {
+          "topic": "miruso-pieminas-diena",
+          "label": "Mūžības svētdienu"
+        },
+        {
+          "text": " savukārt nosaka pirms pirmās Adventes, tādēļ abu ierakstu datuma noteikumi ir saistīti, bet nozīme atšķiras."
+        }
+      ],
+      "inline": [],
+      "related": [
+        "ziemassvetki",
+        "miruso-pieminas-diena",
+        "sveta-nikolaja-diena",
+        "zvaigznes-diena"
+      ],
+      "tools": [
+        {
+          "url": "/menesa-kalendars/",
+          "label": "Mēneša kalendārs",
+          "reason": "Pārskati attiecīgā gada četras Adventes svētdienas."
+        },
+        {
+          "url": "/datumu-kalkulators/",
+          "label": "Datumu kalkulators",
+          "reason": "Salīdzini ceturtās Adventes svētdienu ar 24. un 25. decembri."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://katolis.lv/2016/12/septini-soli-tuvak-dievam/",
+          "title": "Adventa laika skaidrojums"
+        },
+        {
+          "url": "https://lelb.lv/baznicas-gads",
+          "title": "Luterāņu baznīcas gads"
+        },
+        {
+          "url": "https://aa.usno.navy.mil/data/christian_observances",
+          "title": "Rietumu kristīgo svētku datumu aprēķins"
+        },
+        {
+          "url": "https://likumi.lv/ta/id/72608-par-svetku-atceres-un-atzimejamam-dienam",
+          "title": "Likums «Par svētku, atceres un atzīmējamām dienām»"
+        }
+      ]
+    },
+    "pupolu-svetdiena": {
+      "context": [
+        {
+          "text": "Pūpolu svētdiena ir vienu nedēļu pirms "
+        },
+        {
+          "topic": "lieldienas",
+          "label": "Lieldienām"
+        },
+        {
+          "text": " un ievada Lielo nedēļu, kurā ir arī "
+        },
+        {
+          "topic": "liela-piektdiena",
+          "label": "Lielā Piektdiena"
+        },
+        {
+          "text": ". "
+        },
+        {
+          "topic": "meteni",
+          "label": "Meteņi"
+        },
+        {
+          "text": " ir atsevišķa tradīcija ar dažādiem svinēšanas laikiem."
+        }
+      ],
+      "inline": [
+        {
+          "field": "intro",
+          "exactText": "Lieldienām",
+          "topic": "lieldienas"
+        },
+        {
+          "field": "factNotes[0]",
+          "exactText": "Meteņiem",
+          "topic": "meteni"
+        }
+      ],
+      "related": [
+        "lieldienas",
+        "liela-piektdiena",
+        "meteni",
+        "pavasara-tradicijas"
+      ],
+      "tools": [
+        {
+          "url": "/datumu-kalkulators/",
+          "label": "Datumu kalkulators",
+          "reason": "Pārbaudi septiņu dienu attālumu līdz attiecīgās tradīcijas Lieldienām."
+        },
+        {
+          "url": "/dienas-kalendars/",
+          "label": "Dienas kalendārs",
+          "reason": "Apskati konkrētā gada Pūpolu svētdienas datumu."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://katolis.lv/liela-nedela/",
+          "title": "Lielā nedēļa un Pūpolu svētdiena"
+        },
+        {
+          "url": "https://aa.usno.navy.mil/data/christian_observances",
+          "title": "Rietumu kristīgo svētku datumu aprēķins"
+        },
+        {
+          "url": "https://likumi.lv/ta/id/72608-par-svetku-atceres-un-atzimejamam-dienam",
+          "title": "Likums «Par svētku, atceres un atzīmējamām dienām»"
+        }
+      ]
+    },
+    "zvaigznes-diena": {
+      "context": [
+        {
+          "topic": "ziemassvetki",
+          "label": "Ziemassvētkiem"
+        },
+        {
+          "text": " un "
+        },
+        {
+          "topic": "advente",
+          "label": "Adventei"
+        },
+        {
+          "text": " ir savs kristīgā kalendāra konteksts. Zvaigznes dienas 6. janvāra reliģisko datumu nošķir arī no "
+        },
+        {
+          "topic": "jaungada-diena",
+          "label": "Jaungada dienas"
+        },
+        {
+          "text": ", kurai Latvijā ir vispārējas svētku dienas statuss."
+        }
+      ],
+      "inline": [],
+      "related": [
+        "ziemassvetki",
+        "advente",
+        "jaungada-diena",
+        "jaunavas-marijas-debesbrauksanas-svetki"
+      ],
+      "tools": [
+        {
+          "url": "/dienas-kalendars/",
+          "label": "Dienas kalendārs",
+          "reason": "Apskati 6. janvāra datumu, saglabājot šeit norādīto Rietumu kristīgās tradīcijas tvērumu."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://katolis.lv/liturgiskais-kalendars/",
+          "title": "Katoļu liturģiskais kalendārs"
+        },
+        {
+          "url": "https://likumi.lv/ta/id/72608-par-svetku-atceres-un-atzimejamam-dienam",
+          "title": "Likums «Par svētku, atceres un atzīmējamām dienām»"
+        }
+      ]
+    },
+    "jaunavas-marijas-debesbrauksanas-svetki": {
+      "context": [
+        {
+          "text": "Šie 15. augusta svētki nav Jēzus Debeskāpšanas diena, kuras datumu saista ar "
+        },
+        {
+          "topic": "lieldienas",
+          "label": "Lieldienām"
+        },
+        {
+          "text": ". Arī "
+        },
+        {
+          "topic": "zvaigznes-diena",
+          "label": "Zvaigznes dienas"
+        },
+        {
+          "text": " skaidrojumā būtisks ir norādītās kristīgās tradīcijas tvērums, nevis pieņēmums par vienu visu konfesiju kalendāru."
+        }
+      ],
+      "inline": [
+        {
+          "field": "factNotes[0]",
+          "exactText": "Lieldienām",
+          "topic": "lieldienas"
+        }
+      ],
+      "related": [
+        "lieldienas",
+        "zvaigznes-diena",
+        "advente"
+      ],
+      "tools": [
+        {
+          "url": "/dienas-kalendars/",
+          "label": "Dienas kalendārs",
+          "reason": "Atrodi 15. augusta datumu pirms aktuālās dievkalpojumu vai svētceļojuma programmas pārbaudes."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://katolis.lv/liturgiskais-kalendars/",
+          "title": "Katoļu liturģiskais kalendārs"
+        },
+        {
+          "url": "https://likumi.lv/ta/id/72608-par-svetku-atceres-un-atzimejamam-dienam",
+          "title": "Likums «Par svētku, atceres un atzīmējamām dienām»"
+        }
+      ]
+    },
+    "miruso-pieminas-diena": {
+      "context": [
+        {
+          "text": "Luterāņu Mūžības svētdienas datums ir saistīts ar "
+        },
+        {
+          "topic": "advente",
+          "label": "pirmās Adventes"
+        },
+        {
+          "text": " laiku. Savukārt "
+        },
+        {
+          "topic": "helovins",
+          "label": "Helovīns"
+        },
+        {
+          "text": " ir cita kultūras norise, un "
+        },
+        {
+          "topic": "zolitudes-tragedijas-atceres-diena",
+          "label": "Zolitūdes traģēdijas atceres diena"
+        },
+        {
+          "text": " ir konkrēta notikuma gadadiena; šos datumus nesapludina ar konfesiju mirušo piemiņu."
+        }
+      ],
+      "inline": [
+        {
+          "field": "intro",
+          "exactText": "pirmās Adventes",
+          "topic": "advente"
+        }
+      ],
+      "related": [
+        "advente",
+        "helovins",
+        "zolitudes-tragedijas-atceres-diena"
+      ],
+      "tools": [
+        {
+          "url": "/dienas-kalendars/",
+          "label": "Dienas kalendārs",
+          "reason": "Apskati katras konfesijas piemiņas datumu atsevišķi un pārbaudi vietējo norisi pie draudzes."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://katolis.lv/liturgiskais-kalendars/",
+          "title": "Katoļu liturģiskais kalendārs"
+        },
+        {
+          "url": "https://kristusdraudze.lelb.lv/news2print.php?id=765",
+          "title": "Draudzes raksts par Mūžības svētdienu",
+          "note": "Draudzes vietnē pārpublicēts raksts."
+        },
+        {
+          "url": "https://likumi.lv/ta/id/72608-par-svetku-atceres-un-atzimejamam-dienam",
+          "title": "Likums «Par svētku, atceres un atzīmējamām dienām»"
+        }
+      ]
+    },
+    "pavasara-ekvinokcija": {
+      "context": [
+        {
+          "topic": "rudens-ekvinokcija",
+          "label": "Rudens ekvinokcija"
+        },
+        {
+          "text": " ir otrs šāda veida astronomisks brīdis gadā. "
+        },
+        {
+          "topic": "pavasara-tradicijas",
+          "label": "Pavasara tradīciju"
+        },
+        {
+          "text": " datumi rodas pēc citiem principiem, bet "
+        },
+        {
+          "topic": "vasaras-saulgriezi",
+          "label": "vasaras saulgrieži"
+        },
+        {
+          "text": " iezīmē citu Zemes un Saules gada cikla pagrieziena punktu."
+        }
+      ],
+      "inline": [],
+      "related": [
+        "rudens-ekvinokcija",
+        "pavasara-tradicijas",
+        "vasaras-saulgriezi",
+        "saulgriezi"
+      ],
+      "tools": [
+        {
+          "url": "/gadalaiki/",
+          "label": "Astronomisko gadalaiku sākumi",
+          "reason": "Apskati pavasara sākuma brīdi līdzās pārējo astronomisko gadalaiku robežām."
+        },
+        {
+          "url": "/saullekts-saulriets/",
+          "label": "Saullēkts un saulriets",
+          "reason": "Pārbaudi vietējo saullēktu, saulrietu un faktisko gaismas ilgumu."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://aa.usno.navy.mil/data/Earth_Seasons",
+          "title": "Ekvinokciju datumu un laika aprēķins"
+        }
+      ]
+    },
+    "rudens-ekvinokcija": {
+      "context": [
+        {
+          "topic": "mikeli",
+          "label": "Miķeļu"
+        },
+        {
+          "text": " 29. septembra tradīcija ir atsevišķa no rudens ekvinokcijas. Gada otrā pusē pēc tam seko "
+        },
+        {
+          "topic": "ziemas-saulgriezi",
+          "label": "ziemas saulgrieži"
+        },
+        {
+          "text": ", bet "
+        },
+        {
+          "topic": "pavasara-ekvinokcija",
+          "label": "pavasara ekvinokcija"
+        },
+        {
+          "text": " veido otru ekvinokcijas notikumu gadā."
+        }
+      ],
+      "inline": [],
+      "related": [
+        "pavasara-ekvinokcija",
+        "mikeli",
+        "ziemas-saulgriezi"
+      ],
+      "tools": [
+        {
+          "url": "/gadalaiki/",
+          "label": "Astronomisko gadalaiku sākumi",
+          "reason": "Salīdzini astronomiskā rudens robežu ar ziemas un pārējo gadalaiku sākumiem."
+        },
+        {
+          "url": "/saullekts-saulriets/",
+          "label": "Saullēkts un saulriets",
+          "reason": "Apskati vietējo dienas gaismu ap ekvinokcijas datumu."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://aa.usno.navy.mil/data/Earth_Seasons",
+          "title": "Ekvinokciju datumu un laika aprēķins"
+        }
+      ]
+    },
+    "holokausta-upuru-pieminas-diena": {
+      "context": [
+        {
+          "text": "Latvijas "
+        },
+        {
+          "topic": "ebreju-tautas-genocida-upuru-pieminas-diena",
+          "label": "Ebreju tautas genocīda upuru piemiņas diena"
+        },
+        {
+          "text": " ir 4. jūlijā, nevis 27. janvārī. "
+        },
+        {
+          "topic": "nacisma-sagraves-un-otra-pasaules-kara-upuru-pieminas-diena",
+          "label": "Otrā pasaules kara upuru piemiņai 8. maijā"
+        },
+        {
+          "text": " ir vēl cits atceres tvērums; neviens no šiem ierakstiem neaizstāj pārējos."
+        }
+      ],
+      "inline": [
+        {
+          "field": "intro",
+          "exactText": "Ebreju tautas genocīda upuru piemiņas diena",
+          "topic": "ebreju-tautas-genocida-upuru-pieminas-diena"
+        }
+      ],
+      "related": [
+        "ebreju-tautas-genocida-upuru-pieminas-diena",
+        "nacisma-sagraves-un-otra-pasaules-kara-upuru-pieminas-diena",
+        "totalitaro-rezimu-upuru-pieminas-diena"
+      ],
+      "tools": [
+        {
+          "url": "/dienas-kalendars/",
+          "label": "Dienas kalendārs",
+          "reason": "Apskati 27. janvāri atsevišķi no Latvijas 4. jūlija piemiņas datuma."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.un.org/en/observances/commemoration-holocaust-victims-day",
+          "title": "ANO par Holokausta upuru piemiņas dienu"
+        },
+        {
+          "url": "https://likumi.lv/ta/id/72608-par-svetku-atceres-un-atzimejamam-dienam",
+          "title": "Likums «Par svētku, atceres un atzīmējamām dienām»"
+        }
+      ]
+    },
+    "eiropas-valodu-diena": {
+      "context": [
+        {
+          "topic": "dzimtas-valodas-diena",
+          "label": "Dzimtās valodas diena"
+        },
+        {
+          "text": " pievēršas valodu daudzveidībai un mācībām dzimtajā valodā. "
+        },
+        {
+          "topic": "valsts-valodas-diena",
+          "label": "Valsts valodas diena"
+        },
+        {
+          "text": " savukārt skaidro Latvijas atsevišķo 15. oktobra datumu un tā juridisko pamatu."
+        }
+      ],
+      "inline": [],
+      "related": [
+        "dzimtas-valodas-diena",
+        "valsts-valodas-diena",
+        "eiropas-diena"
+      ],
+      "tools": [
+        {
+          "url": "/dienas-kalendars/",
+          "label": "Dienas kalendārs",
+          "reason": "Atrodi 26. septembri, konkrētas valodu darbnīcas laiku pārbaudot pie tās rīkotāja."
+        },
+        {
+          "url": "/stundu-saraksts/",
+          "label": "Stundu saraksts",
+          "reason": "Ieraksti jau apstiprinātu valodu mācību vai darbnīcas laiku."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://valoda.lv/projekti/eiropas-valodu-dienas-pasakumi/",
+          "title": "Eiropas Valodu diena Latvijā",
+          "note": "Latviešu valodas aģentūras skaidrojums un pasākumu arhīvs."
+        }
+      ]
+    },
+    "totalitaro-rezimu-upuru-pieminas-diena": {
+      "context": [
+        {
+          "text": "Latvijas "
+        },
+        {
+          "topic": "stalinisma-un-nacisma-upuru-atceres-diena",
+          "label": "Staļinisma un nacisma upuru atceres dienas"
+        },
+        {
+          "text": " ieraksts saglabā likumā lietoto nosaukumu. Eiropas plašāko formulējumu nesapludina ar atsevišķajiem "
+        },
+        {
+          "topic": "komunistiska-genocida-upuru-pieminas-diena",
+          "label": "deportāciju upuru piemiņas datumiem"
+        },
+        {
+          "text": " vai "
+        },
+        {
+          "topic": "holokausta-upuru-pieminas-diena",
+          "label": "27. janvāra Holokausta upuru piemiņu"
+        },
+        {
+          "text": "."
+        }
+      ],
+      "inline": [
+        {
+          "field": "intro",
+          "exactText": "Staļinisma un nacisma upuru atceres diena",
+          "topic": "stalinisma-un-nacisma-upuru-atceres-diena"
+        }
+      ],
+      "related": [
+        "stalinisma-un-nacisma-upuru-atceres-diena",
+        "komunistiska-genocida-upuru-pieminas-diena",
+        "holokausta-upuru-pieminas-diena"
+      ],
+      "tools": [
+        {
+          "url": "/dienas-kalendars/",
+          "label": "Dienas kalendārs",
+          "reason": "Apskati 23. augusta ierakstu, nosaukumu un tvērumu salīdzinot atsevišķi no datuma."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://likumi.lv/ta/id/72608-par-svetku-atceres-un-atzimejamam-dienam",
+          "title": "Likums «Par svētku, atceres un atzīmējamām dienām»"
+        },
+        {
+          "url": "https://www.europarl.europa.eu/thinktank/en/document/EPRS_ATA%282022%29733610",
+          "title": "Eiropas Parlaments par totalitāro režīmu upuru piemiņu"
+        }
+      ]
+    },
+    "dzimtas-valodas-diena": {
+      "context": [
+        {
+          "topic": "eiropas-valodu-diena",
+          "label": "Eiropas Valodu dienai"
+        },
+        {
+          "text": " un "
+        },
+        {
+          "topic": "valsts-valodas-diena",
+          "label": "Valsts valodas dienai"
+        },
+        {
+          "text": " ir citi datumi un savs tvērums. "
+        },
+        {
+          "topic": "pasaules-gramatu-diena",
+          "label": "Pasaules grāmatu un autortiesību diena"
+        },
+        {
+          "text": " papildina valodas tēmu ar lasīšanu un grāmatām."
+        }
+      ],
+      "inline": [],
+      "related": [
+        "eiropas-valodu-diena",
+        "valsts-valodas-diena",
+        "pasaules-gramatu-diena",
+        "skolotaju-diena"
+      ],
+      "tools": [
+        {
+          "url": "/dienas-kalendars/",
+          "label": "Dienas kalendārs",
+          "reason": "Pārbaudi 21. februāra vietu nedēļā, aktuālo kampaņas saturu noskaidrojot atsevišķi."
+        },
+        {
+          "url": "/stundu-saraksts/",
+          "label": "Stundu saraksts",
+          "reason": "Atzīmē konkrētu dzimtās valodas mācību vai sarunas laiku."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.unesco.org/en/days/mother-language",
+          "title": "UNESCO par Starptautisko dzimtās valodas dienu"
+        }
+      ]
+    },
+    "helovins": {
+      "context": [
+        {
+          "topic": "martindiena",
+          "label": "Mārtiņi"
+        },
+        {
+          "text": " ir atsevišķa latviešu gadskārtu tradīcija, un arī konfesiju "
+        },
+        {
+          "topic": "miruso-pieminas-diena",
+          "label": "mirušo piemiņas dienas"
+        },
+        {
+          "text": " nosaka pēc citiem kalendāriem. Helovīna 31. oktobra norises neaizstāj nevienu no šīm tradīcijām."
+        }
+      ],
+      "inline": [
+        {
+          "field": "intro",
+          "exactText": "Mārtiņi",
+          "topic": "martindiena"
+        }
+      ],
+      "related": [
+        "martindiena",
+        "miruso-pieminas-diena",
+        "mikeli"
+      ],
+      "tools": [
+        {
+          "url": "/dienas-kalendars/",
+          "label": "Dienas kalendārs",
+          "reason": "Apskati 31. oktobra datumu, konkrētās norises laiku pārbaudot pie rīkotāja."
+        },
+        {
+          "url": "/menesa-kalendars/",
+          "label": "Mēneša kalendārs",
+          "reason": "Salīdzini oktobra beigas ar tuvējām, tomēr atšķirīgām novembra tradīcijām."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://dabasmuzejs.lv/lv/aktualitates/gimenes-diena-dabas-tumsa-puse",
+          "title": "Dabas muzeja pasākums 2026. gada 31. oktobrī",
+          "note": "Muzeja 2026. gada programma."
+        },
+        {
+          "url": "https://likumi.lv/ta/id/72608-par-svetku-atceres-un-atzimejamam-dienam",
+          "title": "Likums «Par svētku, atceres un atzīmējamām dienām»"
+        },
+        {
+          "url": "https://epupa.valoda.lv/veli/",
+          "title": "Veļu laiks latviešu tradīcijās"
+        }
+      ]
+    },
+    "pasaules-gramatu-diena": {
+      "context": [
+        {
+          "text": "Grāmatu un lasīšanas tēma sasaucas ar "
+        },
+        {
+          "topic": "valsts-valodas-diena",
+          "label": "Valsts valodas dienā"
+        },
+        {
+          "text": " minēto valodas lietojumu. "
+        },
+        {
+          "topic": "dzimtas-valodas-diena",
+          "label": "Dzimtās valodas diena"
+        },
+        {
+          "text": " pievieno mācīšanās skatpunktu, bet tās 21. februāra datums ir atsevišķs no 23. aprīļa."
+        }
+      ],
+      "inline": [],
+      "related": [
+        "valsts-valodas-diena",
+        "dzimtas-valodas-diena",
+        "skolotaju-diena"
+      ],
+      "tools": [
+        {
+          "url": "/stundu-saraksts/",
+          "label": "Stundu saraksts",
+          "reason": "Ieraksti lasīšanas nodarbes vai rīkotāja apstiprinātas bibliotēkas tikšanās laiku."
+        },
+        {
+          "url": "/dienas-kalendars/",
+          "label": "Dienas kalendārs",
+          "reason": "Pārbaudi 23. aprīļa nedēļas dienu."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.unesco.org/en/days/world-book-and-copyright",
+          "title": "UNESCO par Pasaules grāmatu un autortiesību dienu"
+        }
+      ]
+    },
+    "pasaules-vides-diena": {
+      "context": [
+        {
+          "topic": "zemes-diena",
+          "label": "Zemes diena 22. aprīlī"
+        },
+        {
+          "text": " nav 5. jūnija Pasaules vides diena. "
+        },
+        {
+          "topic": "pasaules-udens-diena",
+          "label": "Pasaules ūdens diena"
+        },
+        {
+          "text": " un "
+        },
+        {
+          "topic": "pasaules-bisu-diena",
+          "label": "Pasaules bišu diena"
+        },
+        {
+          "text": " izceļ konkrētākas dabas tēmas ar saviem datumiem un norisēm."
+        }
+      ],
+      "inline": [],
+      "related": [
+        "zemes-diena",
+        "pasaules-udens-diena",
+        "pasaules-bisu-diena",
+        "pasaules-dzivnieku-diena"
+      ],
+      "tools": [
+        {
+          "url": "/dienas-kalendars/",
+          "label": "Dienas kalendārs",
+          "reason": "Atrodi 5. jūniju un atsevišķi pievieno attiecīgā gada izziņoto pasākumu."
+        },
+        {
+          "url": "/saullekts-saulriets/",
+          "label": "Saullēkts un saulriets",
+          "reason": "Āra norisei noskaidro izvēlētās vietas dienas gaismu."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.un.org/en/observances/environment-day/background",
+          "title": "ANO par Pasaules vides dienas vēsturi"
+        }
+      ]
+    },
+    "pasaules-bernu-diena": {
+      "context": [
+        {
+          "text": "Latvijas "
+        },
+        {
+          "topic": "bernu-aizsardzibas-diena",
+          "label": "Starptautiskā bērnu aizsardzības diena"
+        },
+        {
+          "text": " ir 1. jūnijā, savukārt UNICEF Pasaules bērnu diena — 20. novembrī. "
+        },
+        {
+          "topic": "starptautiska-gimenes-diena",
+          "label": "Ģimenes diena"
+        },
+        {
+          "text": " pievēršas savstarpējam atbalstam, taču tai ir vēl cits kalendāra datums."
+        }
+      ],
+      "inline": [
+        {
+          "field": "intro",
+          "exactText": "Starptautiskā bērnu aizsardzības diena",
+          "topic": "bernu-aizsardzibas-diena"
+        }
+      ],
+      "related": [
+        "bernu-aizsardzibas-diena",
+        "starptautiska-gimenes-diena",
+        "zinibu-diena"
+      ],
+      "tools": [
+        {
+          "url": "/gimenes-kalendars/",
+          "label": "Ģimenes kalendārs",
+          "reason": "Atzīmē ģimenes sarunu vai organizatora izziņotu bērniem veltītu norisi."
+        },
+        {
+          "url": "/dienas-kalendars/",
+          "label": "Dienas kalendārs",
+          "reason": "Apskati 20. novembri atsevišķi no 1. jūnija."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.un.org/en/observances/world-childrens-day",
+          "title": "ANO par Pasaules bērnu dienu"
+        },
+        {
+          "url": "https://likumi.lv/ta/id/72608-par-svetku-atceres-un-atzimejamam-dienam",
+          "title": "Likums «Par svētku, atceres un atzīmējamām dienām»"
+        }
+      ]
+    },
+    "pasaules-udens-diena": {
+      "context": [
+        {
+          "text": "Saldūdens nozīme un pieejamība ir Pasaules ūdens dienas tēma. "
+        },
+        {
+          "topic": "pasaules-vides-diena",
+          "label": "Pasaules vides diena"
+        },
+        {
+          "text": " un "
+        },
+        {
+          "topic": "zemes-diena",
+          "label": "Zemes diena"
+        },
+        {
+          "text": " ir plašākas, tomēr atsevišķas starptautiskās norises ar citiem datumiem."
+        }
+      ],
+      "inline": [],
+      "related": [
+        "pasaules-vides-diena",
+        "zemes-diena",
+        "juras-svetku-diena"
+      ],
+      "tools": [
+        {
+          "url": "/dienas-kalendars/",
+          "label": "Dienas kalendārs",
+          "reason": "Atrodi 22. martu un pievieno tikai izziņotas konkrētā gada kampaņas norises."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.un.org/en/observances/water-day/background",
+          "title": "ANO par Pasaules ūdens dienu"
+        }
+      ]
+    },
+    "pasaules-dzivnieku-diena": {
+      "context": [
+        {
+          "topic": "pasaules-bisu-diena",
+          "label": "Pasaules bišu diena"
+        },
+        {
+          "text": " īpaši pievēršas bitēm un citiem apputeksnētājiem. "
+        },
+        {
+          "topic": "pasaules-vides-diena",
+          "label": "Pasaules vides diena"
+        },
+        {
+          "text": " aptver plašākus vides jautājumus; neviena no tām neaizstāj 4. oktobra dzīvnieku labturības un aizsardzības tēmu."
+        }
+      ],
+      "inline": [],
+      "related": [
+        "pasaules-bisu-diena",
+        "pasaules-vides-diena",
+        "zemes-diena"
+      ],
+      "tools": [
+        {
+          "url": "/dienas-kalendars/",
+          "label": "Dienas kalendārs",
+          "reason": "Pārbaudi 4. oktobra datumu, organizāciju aktuālo programmu noskaidrojot atsevišķi."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.worldanimalday.org/about-us/",
+          "title": "Pasaules dzīvnieku dienas mērķis un vēsture"
+        },
+        {
+          "url": "https://likumi.lv/ta/id/72608-par-svetku-atceres-un-atzimejamam-dienam",
+          "title": "Likums «Par svētku, atceres un atzīmējamām dienām»"
+        }
+      ]
+    },
+    "pavasara-tradicijas": {
+      "context": [
+        {
+          "topic": "meteni",
+          "label": "Meteņus"
+        },
+        {
+          "text": " dažādās tradīcijās svin atšķirīgos laikos, "
+        },
+        {
+          "topic": "lieldienas",
+          "label": "Lieldienas"
+        },
+        {
+          "text": " aprēķina pēc norādītās kristīgās tradīcijas kalendāra, bet "
+        },
+        {
+          "topic": "pavasara-ekvinokcija",
+          "label": "pavasara ekvinokcija"
+        },
+        {
+          "text": " ir precīzs astronomisks brīdis. Šie trīs datuma noteikšanas principi paliek atsevišķi."
+        }
+      ],
+      "inline": [
+        {
+          "field": "intro",
+          "exactText": "Lieldienas",
+          "topic": "lieldienas"
+        },
+        {
+          "field": "intro",
+          "exactText": "Meteņu",
+          "topic": "meteni"
+        },
+        {
+          "field": "intro",
+          "exactText": "pavasara ekvinokcijas",
+          "topic": "pavasara-ekvinokcija"
+        }
+      ],
+      "related": [
+        "meteni",
+        "lieldienas",
+        "pavasara-ekvinokcija",
+        "pupolu-svetdiena"
+      ],
+      "tools": [
+        {
+          "url": "/gadalaiki/",
+          "label": "Astronomisko gadalaiku sākumi",
+          "reason": "Apskati astronomisko pavasara sākumu, atsevišķi saglabājot tradīciju datumus."
+        },
+        {
+          "url": "/menesa-kalendars/",
+          "label": "Mēneša kalendārs",
+          "reason": "Pārskati izvēlēto pavasara mēnesi un ieraksti konkrēta rīkotāja norisi."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://epupa.valoda.lv/metenis-meteni/",
+          "title": "Meteņi e-PUPA vārdnīcā"
+        },
+        {
+          "url": "https://www.lebm.gov.lv/lv/jaunums/metenu-jeb-vastlavju-kekatas-libiesu-tradicija",
+          "title": "Meteņi lībiešu tradīcijā"
+        },
+        {
+          "url": "https://aa.usno.navy.mil/data/christian_observances",
+          "title": "Rietumu kristīgo svētku datumu aprēķins"
+        },
+        {
+          "url": "https://aa.usno.navy.mil/data/Earth_Seasons",
+          "title": "Saulgriežu un ekvinokciju aprēķins"
+        }
+      ]
+    },
+    "sveta-nikolaja-diena": {
+      "context": [
+        {
+          "text": "Svētā Nikolaja dienu kalendārā var skatīt līdzās "
+        },
+        {
+          "topic": "advente",
+          "label": "Adventei"
+        },
+        {
+          "text": " un "
+        },
+        {
+          "topic": "ziemassvetki",
+          "label": "Ziemassvētkiem"
+        },
+        {
+          "text": ", saglabājot katras tradīcijas datumu un nozīmi. Svētā Nikolaja piemiņas datums pats par sevi neapliecina vienādas dāvanu paražas visās Latvijas ģimenēs."
+        }
+      ],
+      "inline": [],
+      "related": [
+        "advente",
+        "ziemassvetki",
+        "zvaigznes-diena"
+      ],
+      "tools": [
+        {
+          "url": "/dienas-kalendars/",
+          "label": "Dienas kalendārs",
+          "reason": "Atrodi 6. decembra piemiņas datumu, nepārnesot citu valstu dāvanu paražas uz visām Latvijas ģimenēm."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://katolis.lv/svetais-nikolajs/",
+          "title": "Svētā Nikolaja piemiņa"
+        },
+        {
+          "url": "https://katolis.lv/liturgiskais-kalendars/",
+          "title": "Katoļu liturģiskais kalendārs"
+        }
+      ]
+    },
+    "pasaules-bisu-diena": {
+      "context": [
+        {
+          "topic": "pasaules-vides-diena",
+          "label": "Pasaules vides dienai"
+        },
+        {
+          "text": " ir plašāks ikgadējās kampaņas tvērums, bet "
+        },
+        {
+          "topic": "pasaules-dzivnieku-diena",
+          "label": "Pasaules dzīvnieku diena"
+        },
+        {
+          "text": " pievēršas labturībai un aizsardzībai. Bišu dienas 20. maijs pats par sevi nenosaka vietējos ziedēšanas vai dravas darbu termiņus."
+        }
+      ],
+      "inline": [],
+      "related": [
+        "pasaules-dzivnieku-diena",
+        "pasaules-vides-diena",
+        "zemes-diena"
+      ],
+      "tools": [
+        {
+          "url": "/sejas-kalendars/",
+          "label": "Sējas un stādīšanas kalendārs",
+          "reason": "Pavasara dārza darbu informāciju salīdzini ar augsni un vietējiem apstākļiem, nevis tikai 20. maija datumu."
+        },
+        {
+          "url": "/dienas-kalendars/",
+          "label": "Dienas kalendārs",
+          "reason": "Atrodi 20. maiju un atsevišķi pārbaudi konkrēto norisi."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.fao.org/world-bee-day/en",
+          "title": "FAO par Pasaules bišu dienu"
+        }
+      ]
+    },
+    "zemes-diena": {
+      "context": [
+        {
+          "topic": "pasaules-vides-diena",
+          "label": "Pasaules vides diena"
+        },
+        {
+          "text": " ir 5. jūnijā, tāpēc to nesapludina ar 22. aprīļa Zemes dienu. "
+        },
+        {
+          "topic": "pasaules-udens-diena",
+          "label": "Ūdens diena"
+        },
+        {
+          "text": " un "
+        },
+        {
+          "topic": "pasaules-bisu-diena",
+          "label": "Bišu diena"
+        },
+        {
+          "text": " katra izceļ savu konkrēto dabas tēmu."
+        }
+      ],
+      "inline": [
+        {
+          "field": "intro",
+          "exactText": "Pasaules vides dienas",
+          "topic": "pasaules-vides-diena"
+        }
+      ],
+      "related": [
+        "pasaules-vides-diena",
+        "pasaules-udens-diena",
+        "pasaules-bisu-diena"
+      ],
+      "tools": [
+        {
+          "url": "/dienas-kalendars/",
+          "label": "Dienas kalendārs",
+          "reason": "Apskati 22. aprīli atsevišķi no 5. jūnija vides dienas."
+        },
+        {
+          "url": "/saullekts-saulriets/",
+          "label": "Saullēkts un saulriets",
+          "reason": "Āra dabas norisei pārbaudi dienas gaismas laikus izvēlētajā vietā."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.un.org/en/observances/earth-day/background",
+          "title": "ANO par Starptautiskās Mātes Zemes dienas vēsturi"
+        },
+        {
+          "url": "https://www.un.org/en/observances/environment-day/background",
+          "title": "Pasaules vides diena 5. jūnijā"
+        }
+      ]
+    }
+  }
+}

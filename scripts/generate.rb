@@ -7,6 +7,7 @@ require 'yaml'
 require 'digest'
 require 'open3'
 require 'uri'
+require_relative 'tradition_links'
 require_relative 'occasion_components'
 require_relative 'garden_components'
 require_relative 'garden_experience_components'
@@ -74,6 +75,8 @@ FileUtils.cp('lib/vendor/astronomy.mjs', 'assets/vendor/astronomy-engine.mjs')
 FileUtils.cp('lib/vendor/LICENSE-astronomy-engine.txt', 'assets/vendor/LICENSE-astronomy-engine.txt')
 LATVIA_EXTRA = JSON.parse(File.read('_data/latvia-extra-pages.json'))
 LATVIA_VERIFIED = JSON.parse(File.read('_data/latvia-verified-data.json'))
+OCCASIONS = JSON.parse(File.read('_data/occasions.json'))
+TRADITION_LINKING = TraditionLinks.new(entries:JSON.parse(File.read('_data/tradition-links.json')),occasions:OCCASIONS,cultural:LATVIA_EXTRA.fetch('culturalPages'),routes:ROUTES)
 LATVIA_EXTRA_PAGES = (LATVIA_EXTRA.fetch('directTargets') + [LATVIA_EXTRA.fetch('educationPage')] + LATVIA_EXTRA.fetch('culturalPages')).to_h { |item| [item.fetch('url'), item] }
 horoscope_build, horoscope_build_error, horoscope_build_status = Open3.capture3(ENV.fetch('NODE', 'node'), 'scripts/build_horoscope_data.mjs')
 abort "Horoscope data build failed: #{horoscope_build_error}" unless horoscope_build_status.success?

@@ -23844,35 +23844,20 @@
       "heading": "Datuma pamats un personīgā plāna izvēle",
       "paragraphs": [
         "Tēmas «Advente: četras svētdienas pirms Ziemassvētkiem» aprēķināto vai fiksēto datumu piemēri 2027.–2030. gada tvērumā: 2027. gada 28. novembris (svētdiena; 1. adventes svētdiena, Rietumu kristīgā tradīcija); 2030. gada 22. decembris (svētdiena; 4. adventes svētdiena, Rietumu kristīgā tradīcija). Tie ir kalendāra atskaites datumi, nevis automātiski apstiprināta pasākumu programma. No šī temata nosaukuma nevar secināt vispārēju darba brīvdienu Latvijā.",
-        "Plānojot «Advente: četras svētdienas pirms Ziemassvētkiem», ievēro šo atšķirību: Pirmā adventes svētdiena ir no 27. novembra līdz 3. decembrim. Kalendāra piezīmē atsevišķi pieraksti izvēlēto norisi un tās avotu, lai gadskārtējais nosaukums netiktu sajaukts ar vienas vietas vai konfesijas programmu. Salīdzināšanai atver arī saistīto tradīciju vai astronomisko pārskatu."
+        "Plānojot «Advente: četras svētdienas pirms Ziemassvētkiem», ievēro šo atšķirību: Pirmā adventes svētdiena ir no 27. novembra līdz 3. decembrim. Kalendāra piezīmē atsevišķi pieraksti izvēlēto norisi un tās avotu, lai gadskārtējais nosaukums netiktu sajaukts ar vienas vietas vai konfesijas programmu. Salīdzini arī šajā lapā norādītās saistītās tēmas un pirmavotus."
       ],
       "icon": "culture",
       "sources": [
-        {
-          "url": "https://katolis.lv/2016/12/septini-soli-tuvak-dievam/",
-          "title": "Septiņi soļi tuvāk Dievam"
-        },
-        {
-          "url": "https://lelb.lv/baznicas-gads",
-          "title": "Baznīcas gads"
-        },
-        {
-          "url": "https://aa.usno.navy.mil/data/api",
-          "title": "Astronomical Applications API v4.0.1"
-        },
-        {
-          "url": "https://likumi.lv/ta/id/72608-par-svetku-un-atceres-dienam",
-          "title": "Par svētku, atceres un atzīmējamām dienām"
-        }
+
       ],
       "related": [
         {
-          "url": "/svetki-un-tradicijas/",
-          "title": "Tradīciju pārskats"
+          "url": "/menesa-kalendars/",
+          "title": "Mēneša kalendārs"
         },
         {
-          "url": "/gadalaiki/",
-          "title": "Astronomiskie gadalaiki"
+          "url": "/datumu-kalkulators/",
+          "title": "Datumu kalkulators"
         }
       ],
       "basis": {
@@ -23905,23 +23890,12 @@
       ],
       "icon": "culture",
       "sources": [
-        {
-          "url": "https://likumi.lv/ta/id/72608-par-svetku-atceres-un-atzimejamam-dienam",
-          "title": "Tēmas pirmavots"
-        },
-        {
-          "url": "https://saeima.lv/lv/aktualitates/saeimas-zinas/33845-saeimas-priekssedetaja-pakroja-baltu-vienibas-diena-atgadina-par-baltu-tautu-speku",
-          "title": "Tēmas pirmavots"
-        }
+
       ],
       "related": [
         {
-          "url": "/svetki-un-tradicijas/",
-          "title": "Citi svētki un tradīcijas"
-        },
-        {
-          "url": "/dienu-skaititajs/",
-          "title": "Atgādinājuma datuma plāns"
+          "url": "/dienas-kalendars/",
+          "title": "Dienas kalendārs"
         }
       ],
       "basis": {
@@ -23942,23 +23916,16 @@
       ],
       "icon": "memorial",
       "sources": [
-        {
-          "url": "https://likumi.lv/ta/id/72608-par-svetku-atceres-un-atzimejamam-dienam",
-          "title": "Tēmas pirmavots"
-        },
-        {
-          "url": "https://barikades.lv/atskats-uz-barikazu-32-gadadienas-atceres-pasakumiem/",
-          "title": "Tēmas pirmavots"
-        }
+
       ],
       "related": [
         {
-          "url": "/svetki-un-tradicijas/",
-          "title": "Citi svētki un tradīcijas"
+          "url": "/atceres-dienas/",
+          "title": "Atceres dienu kalendārs"
         },
         {
-          "url": "/dienu-skaititajs/",
-          "title": "Atgādinājuma datuma plāns"
+          "url": "/dienas-kalendars/",
+          "title": "Dienas kalendārs"
         }
       ],
       "basis": {
@@ -23979,23 +23946,16 @@
       ],
       "icon": "culture",
       "sources": [
-        {
-          "url": "https://likumi.lv/ta/id/72608-par-svetku-atceres-un-atzimejamam-dienam",
-          "title": "Tēmas pirmavots"
-        },
-        {
-          "url": "https://likumi.lv/ta/id/365210-noteikumi-par-20262027-macibu-gada-un-macibu-semestru-sakuma-un-beigu-laiku-un-brivdienu-laiku",
-          "title": "Tēmas pirmavots"
-        }
+
       ],
       "related": [
         {
-          "url": "/svetki-un-tradicijas/",
-          "title": "Citi svētki un tradīcijas"
+          "url": "/skolas-kalendars/",
+          "title": "Skolas kalendārs"
         },
         {
-          "url": "/dienu-skaititajs/",
-          "title": "Atgādinājuma datuma plāns"
+          "url": "/gimenes-kalendars/",
+          "title": "Ģimenes kalendārs"
         }
       ],
       "basis": {
@@ -24016,23 +23976,16 @@
       ],
       "icon": "culture",
       "sources": [
-        {
-          "url": "https://likumi.lv/ta/id/72608-par-svetku-atceres-un-atzimejamam-dienam",
-          "title": "Tēmas pirmavots"
-        },
-        {
-          "url": "https://likumi.lv/ta/id/26019-darba-likums",
-          "title": "Tēmas pirmavots"
-        }
+
       ],
       "related": [
         {
-          "url": "/svetki-un-tradicijas/",
-          "title": "Citi svētki un tradīcijas"
+          "url": "/darba-dienu-kalendars/",
+          "title": "Darba dienas un stundas"
         },
         {
-          "url": "/dienu-skaititajs/",
-          "title": "Atgādinājuma datuma plāns"
+          "url": "/menesa-kalendars/",
+          "title": "Mēneša kalendārs"
         }
       ],
       "basis": {
@@ -24053,27 +24006,16 @@
       ],
       "icon": "culture",
       "sources": [
-        {
-          "url": "https://likumi.lv/ta/id/72608-par-svetku-atceres-un-atzimejamam-dienam",
-          "title": "Tēmas pirmavots"
-        },
-        {
-          "url": "https://likumi.lv/ta/id/367734-par-xxviii-visparejo-latviesu-dziesmu-un-xviiideju-svetku-norises-laiku",
-          "title": "Tēmas pirmavots"
-        },
-        {
-          "url": "https://www.km.gov.lv/lv/jaunums/nakamie-visparejie-latviesu-dziesmu-un-deju-svetki-notiks-2028-gada-vasara",
-          "title": "Tēmas pirmavots"
-        }
+
       ],
       "related": [
         {
-          "url": "/svetki-un-tradicijas/",
-          "title": "Citi svētki un tradīcijas"
+          "url": "/menesa-kalendars/",
+          "title": "Mēneša kalendārs"
         },
         {
-          "url": "/dienu-skaititajs/",
-          "title": "Atgādinājuma datuma plāns"
+          "url": "/darba-dienu-kalendars/",
+          "title": "Darba dienas un stundas"
         }
       ],
       "basis": {
@@ -24092,27 +24034,16 @@
       ],
       "icon": "memorial",
       "sources": [
-        {
-          "url": "https://likumi.lv/ta/id/72608-par-svetku-atceres-un-atzimejamam-dienam",
-          "title": "Tēmas pirmavots"
-        },
-        {
-          "url": "https://okupacijasmuzejs.lv/lv/aktualitates/4-julijs-ebreju-tautas-genocida-upuru-pieminas-diena-latvija",
-          "title": "Tēmas pirmavots"
-        },
-        {
-          "url": "https://www.president.lv/lv/jaunums/valsts-prezidents-piedalas-ebreju-genocida-upuru-pieminas-pasakuma",
-          "title": "Tēmas pirmavots"
-        }
+
       ],
       "related": [
         {
-          "url": "/svetki-un-tradicijas/",
-          "title": "Citi svētki un tradīcijas"
+          "url": "/atceres-dienas/",
+          "title": "Atceres dienu kalendārs"
         },
         {
-          "url": "/dienu-skaititajs/",
-          "title": "Atgādinājuma datuma plāns"
+          "url": "/dienas-kalendars/",
+          "title": "Dienas kalendārs"
         }
       ],
       "basis": {
@@ -24133,23 +24064,12 @@
       ],
       "icon": "culture",
       "sources": [
-        {
-          "url": "https://likumi.lv/ta/id/72608-par-svetku-atceres-un-atzimejamam-dienam",
-          "title": "Tēmas pirmavots"
-        },
-        {
-          "url": "https://european-union.europa.eu/principles-countries-history/europe-day_en?prefLang=uk",
-          "title": "Tēmas pirmavots"
-        }
+
       ],
       "related": [
         {
-          "url": "/svetki-un-tradicijas/",
-          "title": "Citi svētki un tradīcijas"
-        },
-        {
-          "url": "/dienu-skaititajs/",
-          "title": "Atgādinājuma datuma plāns"
+          "url": "/dienas-kalendars/",
+          "title": "Dienas kalendārs"
         }
       ],
       "basis": {
@@ -24170,23 +24090,16 @@
       ],
       "icon": "culture",
       "sources": [
-        {
-          "url": "https://likumi.lv/ta/id/72608-par-svetku-atceres-un-atzimejamam-dienam",
-          "title": "Tēmas pirmavots"
-        },
-        {
-          "url": "https://www.latvia.travel/en/flavours-latvia",
-          "title": "Tēmas pirmavots"
-        }
+
       ],
       "related": [
         {
-          "url": "/svetki-un-tradicijas/",
-          "title": "Citi svētki un tradīcijas"
+          "url": "/gimenes-kalendars/",
+          "title": "Ģimenes kalendārs"
         },
         {
-          "url": "/dienu-skaititajs/",
-          "title": "Atgādinājuma datuma plāns"
+          "url": "/darba-dienu-kalendars/",
+          "title": "Darba dienas un stundas"
         }
       ],
       "basis": {
@@ -24203,27 +24116,16 @@
       "heading": "Datuma pamats un personīgā plāna izvēle",
       "paragraphs": [
         "Tēmas «Jaunavas Marijas debesīs uzņemšanas svētki» aprēķināto vai fiksēto datumu piemēri 2027.–2030. gada tvērumā: 2027. gada 15. augusts (svētdiena); 2030. gada 15. augusts (ceturtdiena). Tie ir kalendāra atskaites datumi, nevis automātiski apstiprināta pasākumu programma. No šī temata nosaukuma nevar secināt vispārēju darba brīvdienu Latvijā.",
-        "Plānojot «Jaunavas Marijas debesīs uzņemšanas svētki», ievēro šo atšķirību: Jaunavas Marijas debesīs uzņemšanas svētki atšķiras no Jēzus Debeskāpšanas dienas, ko svin 40. dienā pēc Lieldienām. Kalendāra piezīmē atsevišķi pieraksti izvēlēto norisi un tās avotu, lai gadskārtējais nosaukums netiktu sajaukts ar vienas vietas vai konfesijas programmu. Salīdzināšanai atver arī saistīto tradīciju vai astronomisko pārskatu."
+        "Plānojot «Jaunavas Marijas debesīs uzņemšanas svētki», ievēro šo atšķirību: Jaunavas Marijas debesīs uzņemšanas svētki atšķiras no Jēzus Debeskāpšanas dienas, ko svin 40. dienā pēc Lieldienām. Kalendāra piezīmē atsevišķi pieraksti izvēlēto norisi un tās avotu, lai gadskārtējais nosaukums netiktu sajaukts ar vienas vietas vai konfesijas programmu. Salīdzini arī šajā lapā norādītās saistītās tēmas un pirmavotus."
       ],
       "icon": "culture",
       "sources": [
-        {
-          "url": "https://katolis.lv/liturgiskais-kalendars/",
-          "title": "Liturģiskais kalendārs"
-        },
-        {
-          "url": "https://likumi.lv/ta/id/72608-par-svetku-un-atceres-dienam",
-          "title": "Par svētku, atceres un atzīmējamām dienām"
-        }
+
       ],
       "related": [
         {
-          "url": "/svetki-un-tradicijas/",
-          "title": "Tradīciju pārskats"
-        },
-        {
-          "url": "/gadalaiki/",
-          "title": "Astronomiskie gadalaiki"
+          "url": "/dienas-kalendars/",
+          "title": "Dienas kalendārs"
         }
       ],
       "basis": {
@@ -24244,19 +24146,16 @@
       ],
       "icon": "culture",
       "sources": [
-        {
-          "url": "https://likumi.lv/ta/id/72608-par-svetku-atceres-un-atzimejamam-dienam",
-          "title": "Tēmas pirmavots"
-        }
+
       ],
       "related": [
         {
-          "url": "/svetki-un-tradicijas/",
-          "title": "Citi svētki un tradīcijas"
+          "url": "/nedelu-numuri/",
+          "title": "ISO nedēļu numuri"
         },
         {
-          "url": "/dienu-skaititajs/",
-          "title": "Atgādinājuma datuma plāns"
+          "url": "/darba-dienu-kalendars/",
+          "title": "Darba dienas un stundas"
         }
       ],
       "basis": {
@@ -24277,23 +24176,16 @@
       ],
       "icon": "culture",
       "sources": [
-        {
-          "url": "https://likumi.lv/ta/id/72608-par-svetku-atceres-un-atzimejamam-dienam",
-          "title": "Tēmas pirmavots"
-        },
-        {
-          "url": "https://www.latvia.travel/lv/latvijas-piekrastes-magija",
-          "title": "Tēmas pirmavots"
-        }
+
       ],
       "related": [
         {
-          "url": "/svetki-un-tradicijas/",
-          "title": "Citi svētki un tradīcijas"
+          "url": "/saullekts-saulriets/",
+          "title": "Saullēkts un saulriets"
         },
         {
-          "url": "/dienu-skaititajs/",
-          "title": "Atgādinājuma datuma plāns"
+          "url": "/menesa-kalendars/",
+          "title": "Mēneša kalendārs"
         }
       ],
       "basis": {
@@ -24314,23 +24206,16 @@
       ],
       "icon": "memorial",
       "sources": [
-        {
-          "url": "https://likumi.lv/ta/id/72608-par-svetku-atceres-un-atzimejamam-dienam",
-          "title": "Tēmas pirmavots"
-        },
-        {
-          "url": "https://okupacijasmuzejs.lv/storage/Padomju-deport%C4%81cijas---att%C4%81lin%C4%81ti_86dd0c5d-ef75-4b54-a197-f8c720b0b720.pdf",
-          "title": "Tēmas pirmavots"
-        }
+
       ],
       "related": [
         {
-          "url": "/svetki-un-tradicijas/",
-          "title": "Citi svētki un tradīcijas"
+          "url": "/atceres-dienas/",
+          "title": "Atceres dienu kalendārs"
         },
         {
-          "url": "/dienu-skaititajs/",
-          "title": "Atgādinājuma datuma plāns"
+          "url": "/dienas-kalendars/",
+          "title": "Dienas kalendārs"
         }
       ],
       "basis": {
@@ -24355,23 +24240,12 @@
       ],
       "icon": "culture",
       "sources": [
-        {
-          "url": "https://likumi.lv/ta/id/72608-par-svetku-atceres-un-atzimejamam-dienam",
-          "title": "Tēmas pirmavots"
-        },
-        {
-          "url": "https://www.mfa.gov.lv/lv/latvijas-neatkaribas-atjaunosanas-starptautiska-atzisana-1991gada",
-          "title": "Tēmas pirmavots"
-        }
+
       ],
       "related": [
         {
-          "url": "/svetki-un-tradicijas/",
-          "title": "Citi svētki un tradīcijas"
-        },
-        {
-          "url": "/dienu-skaititajs/",
-          "title": "Atgādinājuma datuma plāns"
+          "url": "/dienas-kalendars/",
+          "title": "Dienas kalendārs"
         }
       ],
       "basis": {
@@ -24392,23 +24266,16 @@
       ],
       "icon": "memorial",
       "sources": [
-        {
-          "url": "https://likumi.lv/ta/id/72608-par-svetku-atceres-un-atzimejamam-dienam",
-          "title": "Tēmas pirmavots"
-        },
-        {
-          "url": "https://www.president.lv/lv/jaunums/valsts-prezidenta-uzruna-militaraja-parade-par-godu-lacplesa-dienai",
-          "title": "Tēmas pirmavots"
-        }
+
       ],
       "related": [
         {
-          "url": "/svetki-un-tradicijas/",
-          "title": "Citi svētki un tradīcijas"
+          "url": "/atceres-dienas/",
+          "title": "Atceres dienu kalendārs"
         },
         {
-          "url": "/dienu-skaititajs/",
-          "title": "Atgādinājuma datuma plāns"
+          "url": "/dienas-kalendars/",
+          "title": "Dienas kalendārs"
         }
       ],
       "basis": {
@@ -24429,23 +24296,12 @@
       ],
       "icon": "culture",
       "sources": [
-        {
-          "url": "https://likumi.lv/ta/id/72608-par-svetku-atceres-un-atzimejamam-dienam",
-          "title": "Tēmas pirmavots"
-        },
-        {
-          "url": "https://www.saeima.lv/lv/aktualitates/saeimas-zinas/27019-saeima-par-atzimejamo-dienu-nosaka-latgales-kongresa-dienu",
-          "title": "Tēmas pirmavots"
-        }
+
       ],
       "related": [
         {
-          "url": "/svetki-un-tradicijas/",
-          "title": "Citi svētki un tradīcijas"
-        },
-        {
-          "url": "/dienu-skaititajs/",
-          "title": "Atgādinājuma datuma plāns"
+          "url": "/dienas-kalendars/",
+          "title": "Dienas kalendārs"
         }
       ],
       "basis": {
@@ -24466,23 +24322,16 @@
       ],
       "icon": "memorial",
       "sources": [
-        {
-          "url": "https://likumi.lv/ta/id/72608-par-svetku-atceres-un-atzimejamam-dienam",
-          "title": "Tēmas pirmavots"
-        },
-        {
-          "url": "https://www.president.lv/en/article/official-event-be-held-riga-castle-mark-100th-anniversary-signing-latvia-russia-peace-treaty",
-          "title": "Tēmas pirmavots"
-        }
+
       ],
       "related": [
         {
-          "url": "/svetki-un-tradicijas/",
-          "title": "Citi svētki un tradīcijas"
+          "url": "/atceres-dienas/",
+          "title": "Atceres dienu kalendārs"
         },
         {
-          "url": "/dienu-skaititajs/",
-          "title": "Atgādinājuma datuma plāns"
+          "url": "/dienas-kalendars/",
+          "title": "Dienas kalendārs"
         }
       ],
       "basis": {
@@ -24503,23 +24352,12 @@
       ],
       "icon": "culture",
       "sources": [
-        {
-          "url": "https://likumi.lv/ta/id/72608-par-svetku-atceres-un-atzimejamam-dienam",
-          "title": "Tēmas pirmavots"
-        },
-        {
-          "url": "https://www.mfa.gov.lv/lv/latvijas-starptautiskajai-atzisanai-90-gadi",
-          "title": "Tēmas pirmavots"
-        }
+
       ],
       "related": [
         {
-          "url": "/svetki-un-tradicijas/",
-          "title": "Citi svētki un tradīcijas"
-        },
-        {
-          "url": "/dienu-skaititajs/",
-          "title": "Atgādinājuma datuma plāns"
+          "url": "/dienas-kalendars/",
+          "title": "Dienas kalendārs"
         }
       ],
       "basis": {
@@ -24540,23 +24378,16 @@
       ],
       "icon": "memorial",
       "sources": [
-        {
-          "url": "https://likumi.lv/ta/id/72608-par-svetku-atceres-un-atzimejamam-dienam",
-          "title": "Tēmas pirmavots"
-        },
-        {
-          "url": "https://okupacijasmuzejs.lv/lv/aktualitates/17-junijs-latvijas-republikas-okupacijas-diena",
-          "title": "Tēmas pirmavots"
-        }
+
       ],
       "related": [
         {
-          "url": "/svetki-un-tradicijas/",
-          "title": "Citi svētki un tradīcijas"
+          "url": "/atceres-dienas/",
+          "title": "Atceres dienu kalendārs"
         },
         {
-          "url": "/dienu-skaititajs/",
-          "title": "Atgādinājuma datuma plāns"
+          "url": "/dienas-kalendars/",
+          "title": "Dienas kalendārs"
         }
       ],
       "basis": {
@@ -24577,27 +24408,16 @@
       ],
       "icon": "culture",
       "sources": [
-        {
-          "url": "https://likumi.lv/ta/id/72608-par-svetku-atceres-un-atzimejamam-dienam",
-          "title": "Tēmas pirmavots"
-        },
-        {
-          "url": "https://likumi.lv/ta/id/75539-par-latvijas-republikas-neatkaribas-atjaunosanu",
-          "title": "Tēmas pirmavots"
-        },
-        {
-          "url": "https://likumi.lv/ta/id/26019-darba-likums",
-          "title": "Tēmas pirmavots"
-        }
+
       ],
       "related": [
         {
-          "url": "/svetki-un-tradicijas/",
-          "title": "Citi svētki un tradīcijas"
+          "url": "/darba-dienu-kalendars/",
+          "title": "Darba dienas un stundas"
         },
         {
-          "url": "/dienu-skaititajs/",
-          "title": "Atgādinājuma datuma plāns"
+          "url": "/dienas-kalendars/",
+          "title": "Dienas kalendārs"
         }
       ],
       "basis": {
@@ -24620,27 +24440,16 @@
       ],
       "icon": "culture",
       "sources": [
-        {
-          "url": "https://likumi.lv/ta/id/72608-par-svetku-atceres-un-atzimejamam-dienam",
-          "title": "Tēmas pirmavots"
-        },
-        {
-          "url": "https://aa.usno.navy.mil/data/api.html",
-          "title": "Tēmas pirmavots"
-        },
-        {
-          "url": "https://likumi.lv/ta/id/26019-darba-likums",
-          "title": "Tēmas pirmavots"
-        }
+
       ],
       "related": [
         {
-          "url": "/svetki-un-tradicijas/",
-          "title": "Citi svētki un tradīcijas"
+          "url": "/datumu-kalkulators/",
+          "title": "Datumu kalkulators"
         },
         {
-          "url": "/dienu-skaititajs/",
-          "title": "Atgādinājuma datuma plāns"
+          "url": "/darba-dienu-kalendars/",
+          "title": "Darba dienas un stundas"
         }
       ],
       "basis": {
@@ -24661,23 +24470,16 @@
       ],
       "icon": "culture",
       "sources": [
-        {
-          "url": "https://likumi.lv/ta/id/72608-par-svetku-atceres-un-atzimejamam-dienam",
-          "title": "Tēmas pirmavots"
-        },
-        {
-          "url": "https://aa.usno.navy.mil/data/api.html",
-          "title": "Tēmas pirmavots"
-        }
+
       ],
       "related": [
         {
-          "url": "/svetki-un-tradicijas/",
-          "title": "Citi svētki un tradīcijas"
+          "url": "/darba-dienu-kalendars/",
+          "title": "Darba dienas un stundas"
         },
         {
-          "url": "/dienu-skaititajs/",
-          "title": "Atgādinājuma datuma plāns"
+          "url": "/skolas-kalendars/",
+          "title": "Skolas kalendārs"
         }
       ],
       "basis": {
@@ -24702,27 +24504,16 @@
       ],
       "icon": "culture",
       "sources": [
-        {
-          "url": "https://likumi.lv/ta/id/72608-par-svetku-atceres-un-atzimejamam-dienam",
-          "title": "Tēmas pirmavots"
-        },
-        {
-          "url": "https://www.latvia.travel/en/culture-and-traditions-latvia",
-          "title": "Tēmas pirmavots"
-        },
-        {
-          "url": "https://aa.usno.navy.mil/data/api.html",
-          "title": "Tēmas pirmavots"
-        }
+
       ],
       "related": [
         {
-          "url": "/svetki-un-tradicijas/",
-          "title": "Citi svētki un tradīcijas"
+          "url": "/saullekts-saulriets/",
+          "title": "Saullēkts un saulriets"
         },
         {
-          "url": "/dienu-skaititajs/",
-          "title": "Atgādinājuma datuma plāns"
+          "url": "/darba-dienu-kalendars/",
+          "title": "Darba dienas un stundas"
         }
       ],
       "basis": {
@@ -24739,27 +24530,20 @@
       "heading": "Datuma pamats un personīgā plāna izvēle",
       "paragraphs": [
         "Tēmas «Mārtiņi: 10. novembris un latviešu tradīcijas» aprēķināto vai fiksēto datumu piemēri 2027.–2030. gada tvērumā: 2027. gada 10. novembris (trešdiena); 2030. gada 10. novembris (svētdiena). Tie ir kalendāra atskaites datumi, nevis automātiski apstiprināta pasākumu programma. No šī temata nosaukuma nevar secināt vispārēju darba brīvdienu Latvijā.",
-        "Plānojot «Mārtiņi: 10. novembris un latviešu tradīcijas», ievēro šo atšķirību: Mārtiņi iezīmē tradicionālo ziemas sākumu; faktiskie laikapstākļi katru gadu atšķiras. Kalendāra piezīmē atsevišķi pieraksti izvēlēto norisi un tās avotu, lai gadskārtējais nosaukums netiktu sajaukts ar vienas vietas vai konfesijas programmu. Salīdzināšanai atver arī saistīto tradīciju vai astronomisko pārskatu."
+        "Plānojot «Mārtiņi: 10. novembris un latviešu tradīcijas», ievēro šo atšķirību: Mārtiņi iezīmē tradicionālo ziemas sākumu; faktiskie laikapstākļi katru gadu atšķiras. Kalendāra piezīmē atsevišķi pieraksti izvēlēto norisi un tās avotu, lai gadskārtējais nosaukums netiktu sajaukts ar vienas vietas vai konfesijas programmu. Salīdzini arī šajā lapā norādītās saistītās tēmas un pirmavotus."
       ],
       "icon": "culture",
       "sources": [
-        {
-          "url": "https://epupa.valoda.lv/martini/",
-          "title": "Mārtiņi"
-        },
-        {
-          "url": "https://likumi.lv/ta/id/72608-par-svetku-un-atceres-dienam",
-          "title": "Par svētku, atceres un atzīmējamām dienām"
-        }
+
       ],
       "related": [
         {
-          "url": "/svetki-un-tradicijas/",
-          "title": "Tradīciju pārskats"
+          "url": "/gadalaiki/",
+          "title": "Astronomisko gadalaiku sākumi"
         },
         {
-          "url": "/gadalaiki/",
-          "title": "Astronomiskie gadalaiki"
+          "url": "/menesa-kalendars/",
+          "title": "Mēneša kalendārs"
         }
       ],
       "basis": {
@@ -24780,19 +24564,16 @@
       ],
       "icon": "culture",
       "sources": [
-        {
-          "url": "https://likumi.lv/ta/id/72608-par-svetku-atceres-un-atzimejamam-dienam",
-          "title": "Tēmas pirmavots"
-        }
+
       ],
       "related": [
         {
-          "url": "/svetki-un-tradicijas/",
-          "title": "Citi svētki un tradīcijas"
+          "url": "/gimenes-kalendars/",
+          "title": "Ģimenes kalendārs"
         },
         {
-          "url": "/dienu-skaititajs/",
-          "title": "Atgādinājuma datuma plāns"
+          "url": "/menesa-kalendars/",
+          "title": "Mēneša kalendārs"
         }
       ],
       "basis": {
@@ -24813,27 +24594,12 @@
       ],
       "icon": "culture",
       "sources": [
-        {
-          "url": "https://likumi.lv/ta/id/72608-par-svetku-atceres-un-atzimejamam-dienam",
-          "title": "Tēmas pirmavots"
-        },
-        {
-          "url": "https://www.siva.gov.lv/lv/jaunums/15-junijs-medicinas-darbinieku-diena",
-          "title": "Tēmas pirmavots"
-        },
-        {
-          "url": "https://www.liepajasslimnica.lv/index.php/zinas/sveicam-medicinas-darbinieku-diena",
-          "title": "Tēmas pirmavots"
-        }
+
       ],
       "related": [
         {
-          "url": "/svetki-un-tradicijas/",
-          "title": "Citi svētki un tradīcijas"
-        },
-        {
-          "url": "/dienu-skaititajs/",
-          "title": "Atgādinājuma datuma plāns"
+          "url": "/dienas-kalendars/",
+          "title": "Dienas kalendārs"
         }
       ],
       "basis": {
@@ -24850,35 +24616,20 @@
       "heading": "Datuma pamats un personīgā plāna izvēle",
       "paragraphs": [
         "«Meteņi: pavasara gaidīšana un svinēšanas laiki» nav attēlots kā viens visiem Latvijas notikumiem obligāts datums. Pasākuma datumu izziņo tā rīkotājs. Pirms saglabā personīgu plānu, izvēlies, uz kuru tradīciju vai konkrēto pasākumu tas attiecas.",
-        "Plānojot «Meteņi: pavasara gaidīšana un svinēšanas laiki», ievēro šo atšķirību: Meteņu svinēšanas laiki dažādos novados un tradīcijās atšķiras. Kalendāra piezīmē atsevišķi pieraksti izvēlēto norisi un tās avotu, lai gadskārtējais nosaukums netiktu sajaukts ar vienas vietas vai konfesijas programmu. Salīdzināšanai atver arī saistīto tradīciju vai astronomisko pārskatu."
+        "Plānojot «Meteņi: pavasara gaidīšana un svinēšanas laiki», ievēro šo atšķirību: Meteņu svinēšanas laiki dažādos novados un tradīcijās atšķiras. Kalendāra piezīmē atsevišķi pieraksti izvēlēto norisi un tās avotu, lai gadskārtējais nosaukums netiktu sajaukts ar vienas vietas vai konfesijas programmu. Salīdzini arī šajā lapā norādītās saistītās tēmas un pirmavotus."
       ],
       "icon": "culture",
       "sources": [
-        {
-          "url": "https://epupa.valoda.lv/metenis-meteni/",
-          "title": "Metenis, Meteņi"
-        },
-        {
-          "url": "https://www.lebm.gov.lv/lv/jaunums/metenu-jeb-vastlavju-kekatas-libiesu-tradicija",
-          "title": "Meteņu jeb Vastlāvju ķekatas lībiešu tradīcijā"
-        },
-        {
-          "url": "https://tmr.gov.lv/lv/jaunums/piesakies-programmai-meteni-turaida",
-          "title": "Piesakies programmai “Meteņi Turaidā”"
-        },
-        {
-          "url": "https://likumi.lv/ta/id/72608-par-svetku-un-atceres-dienam",
-          "title": "Par svētku, atceres un atzīmējamām dienām"
-        }
+
       ],
       "related": [
         {
-          "url": "/svetki-un-tradicijas/",
-          "title": "Tradīciju pārskats"
+          "url": "/menesa-kalendars/",
+          "title": "Mēneša kalendārs"
         },
         {
           "url": "/gadalaiki/",
-          "title": "Astronomiskie gadalaiki"
+          "title": "Astronomisko gadalaiku sākumi"
         }
       ],
       "basis": {
@@ -24892,31 +24643,20 @@
       "heading": "Datuma pamats un personīgā plāna izvēle",
       "paragraphs": [
         "Tēmas «Miķeļi: 29. septembris un ražas laika tradīcijas» aprēķināto vai fiksēto datumu piemēri 2027.–2030. gada tvērumā: 2027. gada 29. septembris (trešdiena); 2030. gada 29. septembris (svētdiena). Tie ir kalendāra atskaites datumi, nevis automātiski apstiprināta pasākumu programma. No šī temata nosaukuma nevar secināt vispārēju darba brīvdienu Latvijā.",
-        "Plānojot «Miķeļi: 29. septembris un ražas laika tradīcijas», ievēro šo atšķirību: Miķeļu tradicionālais datums ir 29. septembris; astronomiskās rudens ekvinokcijas brīdis tiek norādīts atsevišķi. Kalendāra piezīmē atsevišķi pieraksti izvēlēto norisi un tās avotu, lai gadskārtējais nosaukums netiktu sajaukts ar vienas vietas vai konfesijas programmu. Salīdzināšanai atver arī saistīto tradīciju vai astronomisko pārskatu."
+        "Plānojot «Miķeļi: 29. septembris un ražas laika tradīcijas», ievēro šo atšķirību: Miķeļu tradicionālais datums ir 29. septembris; astronomiskās rudens ekvinokcijas brīdis tiek norādīts atsevišķi. Kalendāra piezīmē atsevišķi pieraksti izvēlēto norisi un tās avotu, lai gadskārtējais nosaukums netiktu sajaukts ar vienas vietas vai konfesijas programmu. Salīdzini arī šajā lapā norādītās saistītās tēmas un pirmavotus."
       ],
       "icon": "culture",
       "sources": [
-        {
-          "url": "https://epupa.valoda.lv/mikeli/",
-          "title": "Miķeļi"
-        },
-        {
-          "url": "https://aa.usno.navy.mil/data/index",
-          "title": "Data Services"
-        },
-        {
-          "url": "https://likumi.lv/ta/id/72608-par-svetku-un-atceres-dienam",
-          "title": "Par svētku, atceres un atzīmējamām dienām"
-        }
+
       ],
       "related": [
         {
-          "url": "/svetki-un-tradicijas/",
-          "title": "Tradīciju pārskats"
+          "url": "/gadalaiki/",
+          "title": "Astronomisko gadalaiku sākumi"
         },
         {
-          "url": "/gadalaiki/",
-          "title": "Astronomiskie gadalaiki"
+          "url": "/sejas-kalendars/",
+          "title": "Sējas un stādīšanas kalendārs"
         }
       ],
       "basis": {
@@ -24933,31 +24673,16 @@
       "heading": "Datuma pamats un personīgā plāna izvēle",
       "paragraphs": [
         "Tēmas «Mirušo piemiņas dienas: katoļu un luterāņu kalendārs» aprēķināto vai fiksēto datumu piemēri 2027.–2030. gada tvērumā: 2027. gada 2. novembris (otrdiena; Visu ticīgo mirušo piemiņas diena, Katoļu baznīca); 2030. gada 24. novembris (svētdiena; Mūžības svētdiena, Luterāņu baznīca). Tie ir kalendāra atskaites datumi, nevis automātiski apstiprināta pasākumu programma. No šī temata nosaukuma nevar secināt vispārēju darba brīvdienu Latvijā.",
-        "Plānojot «Mirušo piemiņas dienas: katoļu un luterāņu kalendārs», ievēro šo atšķirību: Katoļu un luterāņu kalendāros mirušo piemiņas datumi atšķiras. Kalendāra piezīmē atsevišķi pieraksti izvēlēto norisi un tās avotu, lai gadskārtējais nosaukums netiktu sajaukts ar vienas vietas vai konfesijas programmu. Salīdzināšanai atver arī saistīto tradīciju vai astronomisko pārskatu."
+        "Plānojot «Mirušo piemiņas dienas: katoļu un luterāņu kalendārs», ievēro šo atšķirību: Katoļu un luterāņu kalendāros mirušo piemiņas datumi atšķiras. Kalendāra piezīmē atsevišķi pieraksti izvēlēto norisi un tās avotu, lai gadskārtējais nosaukums netiktu sajaukts ar vienas vietas vai konfesijas programmu. Salīdzini arī šajā lapā norādītās saistītās tēmas un pirmavotus."
       ],
       "icon": "culture",
       "sources": [
-        {
-          "url": "https://katolis.lv/liturgiskais-kalendars/",
-          "title": "Liturģiskais kalendārs"
-        },
-        {
-          "url": "https://kristusdraudze.lelb.lv/news2print.php?id=765",
-          "title": "Mirušo piemiņas diena jeb Mūžības svētdiena"
-        },
-        {
-          "url": "https://likumi.lv/ta/id/72608-par-svetku-un-atceres-dienam",
-          "title": "Par svētku, atceres un atzīmējamām dienām"
-        }
+
       ],
       "related": [
         {
-          "url": "/svetki-un-tradicijas/",
-          "title": "Tradīciju pārskats"
-        },
-        {
-          "url": "/gadalaiki/",
-          "title": "Astronomiskie gadalaiki"
+          "url": "/dienas-kalendars/",
+          "title": "Dienas kalendārs"
         }
       ],
       "basis": {
@@ -24982,23 +24707,16 @@
       ],
       "icon": "memorial",
       "sources": [
-        {
-          "url": "https://likumi.lv/ta/id/72608-par-svetku-atceres-un-atzimejamam-dienam",
-          "title": "Tēmas pirmavots"
-        },
-        {
-          "url": "https://www.president.lv/lv/jaunums/valsts-prezidents-godina-nacionalas-pretosanas-kustibas-dalibnieku-pieminu-un-aizdedz-sveciti-pie-brivibas-pieminekla",
-          "title": "Tēmas pirmavots"
-        }
+
       ],
       "related": [
         {
-          "url": "/svetki-un-tradicijas/",
-          "title": "Citi svētki un tradīcijas"
+          "url": "/atceres-dienas/",
+          "title": "Atceres dienu kalendārs"
         },
         {
-          "url": "/dienu-skaititajs/",
-          "title": "Atgādinājuma datuma plāns"
+          "url": "/dienas-kalendars/",
+          "title": "Dienas kalendārs"
         }
       ],
       "basis": {
@@ -25019,23 +24737,16 @@
       ],
       "icon": "memorial",
       "sources": [
-        {
-          "url": "https://likumi.lv/ta/id/72608-par-svetku-atceres-un-atzimejamam-dienam",
-          "title": "Tēmas pirmavots"
-        },
-        {
-          "url": "https://www.mod.gov.lv/en/node/10348",
-          "title": "Tēmas pirmavots"
-        }
+
       ],
       "related": [
         {
-          "url": "/svetki-un-tradicijas/",
-          "title": "Citi svētki un tradīcijas"
+          "url": "/atceres-dienas/",
+          "title": "Atceres dienu kalendārs"
         },
         {
-          "url": "/dienu-skaititajs/",
-          "title": "Atgādinājuma datuma plāns"
+          "url": "/dienas-kalendars/",
+          "title": "Dienas kalendārs"
         }
       ],
       "basis": {
@@ -25056,23 +24767,16 @@
       ],
       "icon": "memorial",
       "sources": [
-        {
-          "url": "https://likumi.lv/ta/id/72608-par-svetku-atceres-un-atzimejamam-dienam",
-          "title": "Tēmas pirmavots"
-        },
-        {
-          "url": "https://likumi.lv/ta/id/312031",
-          "title": "Tēmas pirmavots"
-        }
+
       ],
       "related": [
         {
-          "url": "/svetki-un-tradicijas/",
-          "title": "Citi svētki un tradīcijas"
+          "url": "/atceres-dienas/",
+          "title": "Atceres dienu kalendārs"
         },
         {
-          "url": "/dienu-skaititajs/",
-          "title": "Atgādinājuma datuma plāns"
+          "url": "/dienas-kalendars/",
+          "title": "Dienas kalendārs"
         }
       ],
       "basis": {
@@ -25093,27 +24797,16 @@
       ],
       "icon": "culture",
       "sources": [
-        {
-          "url": "https://likumi.lv/ta/id/72608-par-svetku-atceres-un-atzimejamam-dienam",
-          "title": "Tēmas pirmavots"
-        },
-        {
-          "url": "https://likumi.lv/ta/id/75539-par-latvijas-republikas-neatkaribas-atjaunosanu",
-          "title": "Tēmas pirmavots"
-        },
-        {
-          "url": "https://www.mfa.gov.lv/lv/latvijas-neatkaribas-atjaunosanas-starptautiska-atzisana-1991gada",
-          "title": "Tēmas pirmavots"
-        }
+
       ],
       "related": [
         {
-          "url": "/svetki-un-tradicijas/",
-          "title": "Citi svētki un tradīcijas"
+          "url": "/darba-dienu-kalendars/",
+          "title": "Darba dienas un stundas"
         },
         {
-          "url": "/dienu-skaititajs/",
-          "title": "Atgādinājuma datuma plāns"
+          "url": "/dienas-kalendars/",
+          "title": "Dienas kalendārs"
         }
       ],
       "basis": {
@@ -25131,27 +24824,20 @@
       "heading": "Datuma pamats un personīgā plāna izvēle",
       "paragraphs": [
         "Tēmas «Pavasara ekvinokcija: astronomiskais brīdis Latvijā» aprēķināto vai fiksēto datumu piemēri 2027.–2030. gada tvērumā: 2027. gada 20. marts (sestdiena; Pavasara ekvinokcija); 2030. gada 20. marts (trešdiena; Pavasara ekvinokcija). Tie ir kalendāra atskaites datumi, nevis automātiski apstiprināta pasākumu programma. No šī temata nosaukuma nevar secināt vispārēju darba brīvdienu Latvijā.",
-        "Plānojot «Pavasara ekvinokcija: astronomiskais brīdis Latvijā», ievēro šo atšķirību: Ekvinokcijas brīdis katru gadu tiek noteikts atsevišķi un parādīts pēc Latvijas laika. Kalendāra piezīmē atsevišķi pieraksti izvēlēto norisi un tās avotu, lai gadskārtējais nosaukums netiktu sajaukts ar vienas vietas vai konfesijas programmu. Salīdzināšanai atver arī saistīto tradīciju vai astronomisko pārskatu."
+        "Plānojot «Pavasara ekvinokcija: astronomiskais brīdis Latvijā», ievēro šo atšķirību: Ekvinokcijas brīdis katru gadu tiek noteikts atsevišķi un parādīts pēc Latvijas laika. Kalendāra piezīmē atsevišķi pieraksti izvēlēto norisi un tās avotu, lai gadskārtējais nosaukums netiktu sajaukts ar vienas vietas vai konfesijas programmu. Salīdzini arī šajā lapā norādītās saistītās tēmas un pirmavotus."
       ],
       "icon": "culture",
       "sources": [
-        {
-          "url": "https://aa.usno.navy.mil/data/index",
-          "title": "Data Services"
-        },
-        {
-          "url": "https://aa.usno.navy.mil/data/api",
-          "title": "Astronomical Applications API v4.0.1"
-        }
+
       ],
       "related": [
         {
-          "url": "/svetki-un-tradicijas/",
-          "title": "Tradīciju pārskats"
+          "url": "/gadalaiki/",
+          "title": "Astronomisko gadalaiku sākumi"
         },
         {
-          "url": "/gadalaiki/",
-          "title": "Astronomiskie gadalaiki"
+          "url": "/saullekts-saulriets/",
+          "title": "Saullēkts un saulriets"
         }
       ],
       "basis": {
@@ -25172,23 +24858,12 @@
       ],
       "icon": "culture",
       "sources": [
-        {
-          "url": "https://likumi.lv/ta/id/72608-par-svetku-atceres-un-atzimejamam-dienam",
-          "title": "Tēmas pirmavots"
-        },
-        {
-          "url": "https://www.saeima.lv/lv/aktualitates/saeimas-zinas/23935-konceptuali-atbalsta-policistu-un-robezsargu-profesionalo-svetku-nostiprinasanu-likuma",
-          "title": "Tēmas pirmavots"
-        }
+
       ],
       "related": [
         {
-          "url": "/svetki-un-tradicijas/",
-          "title": "Citi svētki un tradīcijas"
-        },
-        {
-          "url": "/dienu-skaititajs/",
-          "title": "Atgādinājuma datuma plāns"
+          "url": "/dienas-kalendars/",
+          "title": "Dienas kalendārs"
         }
       ],
       "basis": {
@@ -25205,31 +24880,20 @@
       "heading": "Datuma pamats un personīgā plāna izvēle",
       "paragraphs": [
         "Tēmas «Pūpolu svētdiena: datums un Lielās nedēļas sākums» aprēķināto vai fiksēto datumu piemēri 2027.–2030. gada tvērumā: 2027. gada 21. marts (svētdiena; Pūpolu svētdiena: datums un Lielās nedēļas sākums, Rietumu kristīgā tradīcija; citām konfesijām datums jāpārbauda atsevišķi.); 2030. gada 14. aprīlis (svētdiena; Pūpolu svētdiena: datums un Lielās nedēļas sākums, Rietumu kristīgā tradīcija; citām konfesijām datums jāpārbauda atsevišķi.). Tie ir kalendāra atskaites datumi, nevis automātiski apstiprināta pasākumu programma. No šī temata nosaukuma nevar secināt vispārēju darba brīvdienu Latvijā.",
-        "Plānojot «Pūpolu svētdiena: datums un Lielās nedēļas sākums», ievēro šo atšķirību: Pūpolu svētdiena ir vienu nedēļu pirms Lieldienām; tā atšķiras no Pelnu trešdienas un Meteņiem. Kalendāra piezīmē atsevišķi pieraksti izvēlēto norisi un tās avotu, lai gadskārtējais nosaukums netiktu sajaukts ar vienas vietas vai konfesijas programmu. Salīdzināšanai atver arī saistīto tradīciju vai astronomisko pārskatu."
+        "Plānojot «Pūpolu svētdiena: datums un Lielās nedēļas sākums», ievēro šo atšķirību: Pūpolu svētdiena ir vienu nedēļu pirms Lieldienām; tā atšķiras no Pelnu trešdienas un Meteņiem. Kalendāra piezīmē atsevišķi pieraksti izvēlēto norisi un tās avotu, lai gadskārtējais nosaukums netiktu sajaukts ar vienas vietas vai konfesijas programmu. Salīdzini arī šajā lapā norādītās saistītās tēmas un pirmavotus."
       ],
       "icon": "culture",
       "sources": [
-        {
-          "url": "https://katolis.lv/liela-nedela/",
-          "title": "Lielā nedēļa"
-        },
-        {
-          "url": "https://aa.usno.navy.mil/data/api",
-          "title": "Astronomical Applications API v4.0.1"
-        },
-        {
-          "url": "https://likumi.lv/ta/id/72608-par-svetku-un-atceres-dienam",
-          "title": "Par svētku, atceres un atzīmējamām dienām"
-        }
+
       ],
       "related": [
         {
-          "url": "/svetki-un-tradicijas/",
-          "title": "Tradīciju pārskats"
+          "url": "/datumu-kalkulators/",
+          "title": "Datumu kalkulators"
         },
         {
-          "url": "/gadalaiki/",
-          "title": "Astronomiskie gadalaiki"
+          "url": "/dienas-kalendars/",
+          "title": "Dienas kalendārs"
         }
       ],
       "basis": {
@@ -25250,23 +24914,12 @@
       ],
       "icon": "culture",
       "sources": [
-        {
-          "url": "https://likumi.lv/ta/id/72608-par-svetku-atceres-un-atzimejamam-dienam",
-          "title": "Tēmas pirmavots"
-        },
-        {
-          "url": "https://www.vrk.rs.gov.lv/lv/jaunums/ka-1919-gada-7-novembris-kluva-par-robezsargu-dienu-1",
-          "title": "Tēmas pirmavots"
-        }
+
       ],
       "related": [
         {
-          "url": "/svetki-un-tradicijas/",
-          "title": "Citi svētki un tradīcijas"
-        },
-        {
-          "url": "/dienu-skaititajs/",
-          "title": "Atgādinājuma datuma plāns"
+          "url": "/dienas-kalendars/",
+          "title": "Dienas kalendārs"
         }
       ],
       "basis": {
@@ -25283,27 +24936,20 @@
       "heading": "Datuma pamats un personīgā plāna izvēle",
       "paragraphs": [
         "Tēmas «Rudens ekvinokcija: astronomiskais brīdis Latvijā» aprēķināto vai fiksēto datumu piemēri 2027.–2030. gada tvērumā: 2027. gada 23. septembris (ceturtdiena; Rudens ekvinokcija); 2030. gada 23. septembris (pirmdiena; Rudens ekvinokcija). Tie ir kalendāra atskaites datumi, nevis automātiski apstiprināta pasākumu programma. No šī temata nosaukuma nevar secināt vispārēju darba brīvdienu Latvijā.",
-        "Plānojot «Rudens ekvinokcija: astronomiskais brīdis Latvijā», ievēro šo atšķirību: Ekvinokcijas brīdis katru gadu tiek noteikts atsevišķi un parādīts pēc Latvijas laika. Kalendāra piezīmē atsevišķi pieraksti izvēlēto norisi un tās avotu, lai gadskārtējais nosaukums netiktu sajaukts ar vienas vietas vai konfesijas programmu. Salīdzināšanai atver arī saistīto tradīciju vai astronomisko pārskatu."
+        "Plānojot «Rudens ekvinokcija: astronomiskais brīdis Latvijā», ievēro šo atšķirību: Ekvinokcijas brīdis katru gadu tiek noteikts atsevišķi un parādīts pēc Latvijas laika. Kalendāra piezīmē atsevišķi pieraksti izvēlēto norisi un tās avotu, lai gadskārtējais nosaukums netiktu sajaukts ar vienas vietas vai konfesijas programmu. Salīdzini arī šajā lapā norādītās saistītās tēmas un pirmavotus."
       ],
       "icon": "culture",
       "sources": [
-        {
-          "url": "https://aa.usno.navy.mil/data/index",
-          "title": "Data Services"
-        },
-        {
-          "url": "https://aa.usno.navy.mil/data/api",
-          "title": "Astronomical Applications API v4.0.1"
-        }
+
       ],
       "related": [
         {
-          "url": "/svetki-un-tradicijas/",
-          "title": "Tradīciju pārskats"
+          "url": "/gadalaiki/",
+          "title": "Astronomisko gadalaiku sākumi"
         },
         {
-          "url": "/gadalaiki/",
-          "title": "Astronomiskie gadalaiki"
+          "url": "/saullekts-saulriets/",
+          "title": "Saullēkts un saulriets"
         }
       ],
       "basis": {
@@ -25324,27 +24970,16 @@
       ],
       "icon": "culture",
       "sources": [
-        {
-          "url": "https://likumi.lv/ta/id/72608-par-svetku-atceres-un-atzimejamam-dienam",
-          "title": "Tēmas pirmavots"
-        },
-        {
-          "url": "https://aa.usno.navy.mil/data/api.html",
-          "title": "Tēmas pirmavots"
-        },
-        {
-          "url": "https://spaceplace.nasa.gov/seasons/en/",
-          "title": "Tēmas pirmavots"
-        }
+
       ],
       "related": [
         {
-          "url": "/svetki-un-tradicijas/",
-          "title": "Citi svētki un tradīcijas"
+          "url": "/gadalaiki/",
+          "title": "Astronomisko gadalaiku sākumi"
         },
         {
-          "url": "/dienu-skaititajs/",
-          "title": "Atgādinājuma datuma plāns"
+          "url": "/saullekts-saulriets/",
+          "title": "Saullēkts un saulriets"
         }
       ],
       "basis": {
@@ -25369,23 +25004,16 @@
       ],
       "icon": "culture",
       "sources": [
-        {
-          "url": "https://likumi.lv/ta/id/72608-par-svetku-atceres-un-atzimejamam-dienam",
-          "title": "Tēmas pirmavots"
-        },
-        {
-          "url": "https://www.saeima.lv/lv/aktualitates/saeimas-zinas/33373-skolotaju-dienu-turpmak-atzimes-5-oktobri?phrase=k8.Saeima",
-          "title": "Tēmas pirmavots"
-        }
+
       ],
       "related": [
         {
-          "url": "/svetki-un-tradicijas/",
-          "title": "Citi svētki un tradīcijas"
+          "url": "/skolas-kalendars/",
+          "title": "Skolas kalendārs"
         },
         {
-          "url": "/dienu-skaititajs/",
-          "title": "Atgādinājuma datuma plāns"
+          "url": "/stundu-saraksts/",
+          "title": "Stundu saraksts"
         }
       ],
       "basis": {
@@ -25406,27 +25034,16 @@
       ],
       "icon": "memorial",
       "sources": [
-        {
-          "url": "https://likumi.lv/ta/id/72608-par-svetku-atceres-un-atzimejamam-dienam",
-          "title": "Tēmas pirmavots"
-        },
-        {
-          "url": "https://likumi.lv/ta/id/312031",
-          "title": "Tēmas pirmavots"
-        },
-        {
-          "url": "https://www.president.lv/en/history",
-          "title": "Tēmas pirmavots"
-        }
+
       ],
       "related": [
         {
-          "url": "/svetki-un-tradicijas/",
-          "title": "Citi svētki un tradīcijas"
+          "url": "/atceres-dienas/",
+          "title": "Atceres dienu kalendārs"
         },
         {
-          "url": "/dienu-skaititajs/",
-          "title": "Atgādinājuma datuma plāns"
+          "url": "/dienas-kalendars/",
+          "title": "Dienas kalendārs"
         }
       ],
       "basis": {
@@ -25447,23 +25064,12 @@
       ],
       "icon": "culture",
       "sources": [
-        {
-          "url": "https://likumi.lv/ta/id/72608-par-svetku-atceres-un-atzimejamam-dienam",
-          "title": "Tēmas pirmavots"
-        },
-        {
-          "url": "https://www.un.org/en/observances/international-day-of-families",
-          "title": "Tēmas pirmavots"
-        }
+
       ],
       "related": [
         {
-          "url": "/svetki-un-tradicijas/",
-          "title": "Citi svētki un tradīcijas"
-        },
-        {
-          "url": "/dienu-skaititajs/",
-          "title": "Atgādinājuma datuma plāns"
+          "url": "/gimenes-kalendars/",
+          "title": "Ģimenes kalendārs"
         }
       ],
       "basis": {
@@ -25484,23 +25090,12 @@
       ],
       "icon": "culture",
       "sources": [
-        {
-          "url": "https://likumi.lv/ta/id/72608-par-svetku-atceres-un-atzimejamam-dienam",
-          "title": "Tēmas pirmavots"
-        },
-        {
-          "url": "https://www.saeima.lv/lv/aktualitates/saeimas-zinas/34407-saeima-27-februari-noteic-par-starptautisko-nevalstisko-organizaciju-dienu",
-          "title": "Tēmas pirmavots"
-        }
+
       ],
       "related": [
         {
-          "url": "/svetki-un-tradicijas/",
-          "title": "Citi svētki un tradīcijas"
-        },
-        {
-          "url": "/dienu-skaititajs/",
-          "title": "Atgādinājuma datuma plāns"
+          "url": "/dienas-kalendars/",
+          "title": "Dienas kalendārs"
         }
       ],
       "basis": {
@@ -25521,23 +25116,16 @@
       ],
       "icon": "culture",
       "sources": [
-        {
-          "url": "https://likumi.lv/ta/id/72608-par-svetku-atceres-un-atzimejamam-dienam",
-          "title": "Tēmas pirmavots"
-        },
-        {
-          "url": "https://www.un.org/en/observances/older-persons-day",
-          "title": "Tēmas pirmavots"
-        }
+
       ],
       "related": [
         {
-          "url": "/svetki-un-tradicijas/",
-          "title": "Citi svētki un tradīcijas"
+          "url": "/gimenes-kalendars/",
+          "title": "Ģimenes kalendārs"
         },
         {
-          "url": "/dienu-skaititajs/",
-          "title": "Atgādinājuma datuma plāns"
+          "url": "/dienas-kalendars/",
+          "title": "Dienas kalendārs"
         }
       ],
       "basis": {
@@ -25558,23 +25146,12 @@
       ],
       "icon": "culture",
       "sources": [
-        {
-          "url": "https://likumi.lv/ta/id/72608-par-svetku-atceres-un-atzimejamam-dienam",
-          "title": "Tēmas pirmavots"
-        },
-        {
-          "url": "https://www.unwomen.org/en/get-involved/international-womens-day",
-          "title": "Tēmas pirmavots"
-        }
+
       ],
       "related": [
         {
-          "url": "/svetki-un-tradicijas/",
-          "title": "Citi svētki un tradīcijas"
-        },
-        {
-          "url": "/dienu-skaititajs/",
-          "title": "Atgādinājuma datuma plāns"
+          "url": "/dienas-kalendars/",
+          "title": "Dienas kalendārs"
         }
       ],
       "basis": {
@@ -25595,19 +25172,16 @@
       ],
       "icon": "culture",
       "sources": [
-        {
-          "url": "https://likumi.lv/ta/id/72608-par-svetku-atceres-un-atzimejamam-dienam",
-          "title": "Tēmas pirmavots"
-        }
+
       ],
       "related": [
         {
-          "url": "/svetki-un-tradicijas/",
-          "title": "Citi svētki un tradīcijas"
+          "url": "/gimenes-kalendars/",
+          "title": "Ģimenes kalendārs"
         },
         {
-          "url": "/dienu-skaititajs/",
-          "title": "Atgādinājuma datuma plāns"
+          "url": "/menesa-kalendars/",
+          "title": "Mēneša kalendārs"
         }
       ],
       "basis": {
@@ -25628,23 +25202,16 @@
       ],
       "icon": "memorial",
       "sources": [
-        {
-          "url": "https://likumi.lv/ta/id/72608-par-svetku-atceres-un-atzimejamam-dienam",
-          "title": "Tēmas pirmavots"
-        },
-        {
-          "url": "https://www.vestnesis.lv/ta/id/12853",
-          "title": "Tēmas pirmavots"
-        }
+
       ],
       "related": [
         {
-          "url": "/svetki-un-tradicijas/",
-          "title": "Citi svētki un tradīcijas"
+          "url": "/atceres-dienas/",
+          "title": "Atceres dienu kalendārs"
         },
         {
-          "url": "/dienu-skaititajs/",
-          "title": "Atgādinājuma datuma plāns"
+          "url": "/dienas-kalendars/",
+          "title": "Dienas kalendārs"
         }
       ],
       "basis": {
@@ -25665,23 +25232,12 @@
       ],
       "icon": "culture",
       "sources": [
-        {
-          "url": "https://likumi.lv/ta/id/72608-par-svetku-atceres-un-atzimejamam-dienam",
-          "title": "Tēmas pirmavots"
-        },
-        {
-          "url": "https://www.vugd.gov.lv/lv/vesture",
-          "title": "Tēmas pirmavots"
-        }
+
       ],
       "related": [
         {
-          "url": "/svetki-un-tradicijas/",
-          "title": "Citi svētki un tradīcijas"
-        },
-        {
-          "url": "/dienu-skaititajs/",
-          "title": "Atgādinājuma datuma plāns"
+          "url": "/dienas-kalendars/",
+          "title": "Dienas kalendārs"
         }
       ],
       "basis": {
@@ -25698,27 +25254,20 @@
       "heading": "Datuma pamats un personīgā plāna izvēle",
       "paragraphs": [
         "Tēmas «Valentīndiena: datums un Mīlestības diena Latvijā» aprēķināto vai fiksēto datumu piemēri 2027.–2030. gada tvērumā: 2027. gada 14. februāris (svētdiena); 2030. gada 14. februāris (ceturtdiena). Tie ir kalendāra atskaites datumi, nevis automātiski apstiprināta pasākumu programma. No šī temata nosaukuma nevar secināt vispārēju darba brīvdienu Latvijā.",
-        "Plānojot «Valentīndiena: datums un Mīlestības diena Latvijā», ievēro šo atšķirību: Valentīndiena Latvijā ir mūsdienu kultūras tradīcija. Kalendāra piezīmē atsevišķi pieraksti izvēlēto norisi un tās avotu, lai gadskārtējais nosaukums netiktu sajaukts ar vienas vietas vai konfesijas programmu. Salīdzināšanai atver arī saistīto tradīciju vai astronomisko pārskatu."
+        "Plānojot «Valentīndiena: datums un Mīlestības diena Latvijā», ievēro šo atšķirību: Valentīndiena Latvijā ir mūsdienu kultūras tradīcija. Kalendāra piezīmē atsevišķi pieraksti izvēlēto norisi un tās avotu, lai gadskārtējais nosaukums netiktu sajaukts ar vienas vietas vai konfesijas programmu. Salīdzini arī šajā lapā norādītās saistītās tēmas un pirmavotus."
       ],
       "icon": "culture",
       "sources": [
-        {
-          "url": "https://www.km.gov.lv/lv/jaunums/milestibas-diena-lnrmm-aicina-iepazit-radosuma-un-milas-pasauli",
-          "title": "Mīlestības dienā LNRMM aicina iepazīt radošuma un mīlas pasauli"
-        },
-        {
-          "url": "https://likumi.lv/ta/id/72608-par-svetku-un-atceres-dienam",
-          "title": "Par svētku, atceres un atzīmējamām dienām"
-        }
+
       ],
       "related": [
         {
-          "url": "/svetki-un-tradicijas/",
-          "title": "Tradīciju pārskats"
+          "url": "/gimenes-kalendars/",
+          "title": "Ģimenes kalendārs"
         },
         {
-          "url": "/gadalaiki/",
-          "title": "Astronomiskie gadalaiki"
+          "url": "/dienas-kalendars/",
+          "title": "Dienas kalendārs"
         }
       ],
       "basis": {
@@ -25739,23 +25288,16 @@
       ],
       "icon": "culture",
       "sources": [
-        {
-          "url": "https://likumi.lv/ta/id/72608-par-svetku-atceres-un-atzimejamam-dienam",
-          "title": "Tēmas pirmavots"
-        },
-        {
-          "url": "https://valoda.lv/wp-content/uploads/2025/10/VVD_Saskaiti-valodu_LVA_2025.pdf",
-          "title": "Tēmas pirmavots"
-        }
+
       ],
       "related": [
         {
-          "url": "/svetki-un-tradicijas/",
-          "title": "Citi svētki un tradīcijas"
+          "url": "/dienas-kalendars/",
+          "title": "Dienas kalendārs"
         },
         {
-          "url": "/dienu-skaititajs/",
-          "title": "Atgādinājuma datuma plāns"
+          "url": "/menesa-kalendars/",
+          "title": "Mēneša kalendārs"
         }
       ],
       "basis": {
@@ -25776,23 +25318,16 @@
       ],
       "icon": "memorial",
       "sources": [
-        {
-          "url": "https://likumi.lv/ta/id/72608-par-svetku-atceres-un-atzimejamam-dienam",
-          "title": "Tēmas pirmavots"
-        },
-        {
-          "url": "https://neredzigobiblioteka.lv/junijs-cesu-filiale/",
-          "title": "Tēmas pirmavots"
-        }
+
       ],
       "related": [
         {
-          "url": "/svetki-un-tradicijas/",
-          "title": "Citi svētki un tradīcijas"
+          "url": "/atceres-dienas/",
+          "title": "Atceres dienu kalendārs"
         },
         {
-          "url": "/dienu-skaititajs/",
-          "title": "Atgādinājuma datuma plāns"
+          "url": "/dienas-kalendars/",
+          "title": "Dienas kalendārs"
         }
       ],
       "basis": {
@@ -25813,27 +25348,16 @@
       ],
       "icon": "culture",
       "sources": [
-        {
-          "url": "https://likumi.lv/ta/id/72608-par-svetku-atceres-un-atzimejamam-dienam",
-          "title": "Tēmas pirmavots"
-        },
-        {
-          "url": "https://aa.usno.navy.mil/data/api.html",
-          "title": "Tēmas pirmavots"
-        },
-        {
-          "url": "https://spaceplace.nasa.gov/seasons/en/",
-          "title": "Tēmas pirmavots"
-        }
+
       ],
       "related": [
         {
-          "url": "/svetki-un-tradicijas/",
-          "title": "Citi svētki un tradīcijas"
+          "url": "/saullekts-saulriets/",
+          "title": "Saullēkts un saulriets"
         },
         {
-          "url": "/dienu-skaititajs/",
-          "title": "Atgādinājuma datuma plāns"
+          "url": "/gadalaiki/",
+          "title": "Astronomisko gadalaiku sākumi"
         }
       ],
       "basis": {
@@ -25854,23 +25378,16 @@
       ],
       "icon": "culture",
       "sources": [
-        {
-          "url": "https://likumi.lv/ta/id/72608-par-svetku-atceres-un-atzimejamam-dienam",
-          "title": "Tēmas pirmavots"
-        },
-        {
-          "url": "https://aa.usno.navy.mil/data/api.html",
-          "title": "Tēmas pirmavots"
-        }
+
       ],
       "related": [
         {
-          "url": "/svetki-un-tradicijas/",
-          "title": "Citi svētki un tradīcijas"
+          "url": "/datumu-kalkulators/",
+          "title": "Datumu kalkulators"
         },
         {
-          "url": "/dienu-skaititajs/",
-          "title": "Atgādinājuma datuma plāns"
+          "url": "/darba-dienu-kalendars/",
+          "title": "Darba dienas un stundas"
         }
       ],
       "basis": {
@@ -25891,23 +25408,16 @@
       ],
       "icon": "culture",
       "sources": [
-        {
-          "url": "https://likumi.lv/ta/id/72608-par-svetku-atceres-un-atzimejamam-dienam",
-          "title": "Tēmas pirmavots"
-        },
-        {
-          "url": "https://likumi.lv/ta/id/26019-darba-likums",
-          "title": "Tēmas pirmavots"
-        }
+
       ],
       "related": [
         {
-          "url": "/svetki-un-tradicijas/",
-          "title": "Citi svētki un tradīcijas"
+          "url": "/nedelu-numuri/",
+          "title": "ISO nedēļu numuri"
         },
         {
-          "url": "/dienu-skaititajs/",
-          "title": "Atgādinājuma datuma plāns"
+          "url": "/gada-diena/",
+          "title": "Dienas numurs gadā"
         }
       ],
       "basis": {
@@ -25928,27 +25438,16 @@
       ],
       "icon": "culture",
       "sources": [
-        {
-          "url": "https://likumi.lv/ta/id/72608-par-svetku-atceres-un-atzimejamam-dienam",
-          "title": "Tēmas pirmavots"
-        },
-        {
-          "url": "https://aa.usno.navy.mil/data/api.html",
-          "title": "Tēmas pirmavots"
-        },
-        {
-          "url": "https://spaceplace.nasa.gov/seasons/en/",
-          "title": "Tēmas pirmavots"
-        }
+
       ],
       "related": [
         {
-          "url": "/svetki-un-tradicijas/",
-          "title": "Citi svētki un tradīcijas"
+          "url": "/saullekts-saulriets/",
+          "title": "Saullēkts un saulriets"
         },
         {
-          "url": "/dienu-skaititajs/",
-          "title": "Atgādinājuma datuma plāns"
+          "url": "/gadalaiki/",
+          "title": "Astronomisko gadalaiku sākumi"
         }
       ],
       "basis": {
@@ -25969,27 +25468,16 @@
       ],
       "icon": "culture",
       "sources": [
-        {
-          "url": "https://likumi.lv/ta/id/72608-par-svetku-atceres-un-atzimejamam-dienam",
-          "title": "Tēmas pirmavots"
-        },
-        {
-          "url": "https://www.latvia.travel/en/flavours-latvia",
-          "title": "Tēmas pirmavots"
-        },
-        {
-          "url": "https://aa.usno.navy.mil/data/api.html",
-          "title": "Tēmas pirmavots"
-        }
+
       ],
       "related": [
         {
-          "url": "/svetki-un-tradicijas/",
-          "title": "Citi svētki un tradīcijas"
+          "url": "/gimenes-kalendars/",
+          "title": "Ģimenes kalendārs"
         },
         {
-          "url": "/dienu-skaititajs/",
-          "title": "Atgādinājuma datuma plāns"
+          "url": "/darba-dienu-kalendars/",
+          "title": "Darba dienas un stundas"
         }
       ],
       "basis": {
@@ -26018,19 +25506,16 @@
       ],
       "icon": "culture",
       "sources": [
-        {
-          "url": "https://likumi.lv/ta/id/72608-par-svetku-atceres-un-atzimejamam-dienam",
-          "title": "Tēmas pirmavots"
-        }
+
       ],
       "related": [
         {
-          "url": "/svetki-un-tradicijas/",
-          "title": "Citi svētki un tradīcijas"
+          "url": "/skolas-kalendars/",
+          "title": "Skolas kalendārs"
         },
         {
-          "url": "/dienu-skaititajs/",
-          "title": "Atgādinājuma datuma plāns"
+          "url": "/stundu-saraksts/",
+          "title": "Stundu saraksts"
         }
       ],
       "basis": {
@@ -26051,27 +25536,16 @@
       ],
       "icon": "memorial",
       "sources": [
-        {
-          "url": "https://likumi.lv/ta/id/72608-par-svetku-atceres-un-atzimejamam-dienam",
-          "title": "Tēmas pirmavots"
-        },
-        {
-          "url": "https://www.riga.lv/lv/jaunums/pasvaldiba-21-novembri-izkars-karogus-zolitudes-tragedijas-upuru-pieminai",
-          "title": "Tēmas pirmavots"
-        },
-        {
-          "url": "https://www.riga.lv/lv/notikums/21-novembri-piemines-zolitudes-tragedija-cietusos",
-          "title": "Tēmas pirmavots"
-        }
+
       ],
       "related": [
         {
-          "url": "/svetki-un-tradicijas/",
-          "title": "Citi svētki un tradīcijas"
+          "url": "/atceres-dienas/",
+          "title": "Atceres dienu kalendārs"
         },
         {
-          "url": "/dienu-skaititajs/",
-          "title": "Atgādinājuma datuma plāns"
+          "url": "/dienas-kalendars/",
+          "title": "Dienas kalendārs"
         }
       ],
       "basis": {
@@ -26088,27 +25562,16 @@
       "heading": "Datuma pamats un personīgā plāna izvēle",
       "paragraphs": [
         "Tēmas «Zvaigznes diena: 6. janvāris un tradīcija» aprēķināto vai fiksēto datumu piemēri 2027.–2030. gada tvērumā: 2027. gada 6. janvāris (trešdiena); 2030. gada 6. janvāris (svētdiena). Tie ir kalendāra atskaites datumi, nevis automātiski apstiprināta pasākumu programma. No šī temata nosaukuma nevar secināt vispārēju darba brīvdienu Latvijā.",
-        "Plānojot «Zvaigznes diena: 6. janvāris un tradīcija», ievēro šo atšķirību: Zvaigznes diena ir reliģisku svētku diena; Latvijā tā nav vispārēja darba brīvdiena. Kalendāra piezīmē atsevišķi pieraksti izvēlēto norisi un tās avotu, lai gadskārtējais nosaukums netiktu sajaukts ar vienas vietas vai konfesijas programmu. Salīdzināšanai atver arī saistīto tradīciju vai astronomisko pārskatu."
+        "Plānojot «Zvaigznes diena: 6. janvāris un tradīcija», ievēro šo atšķirību: Zvaigznes diena ir reliģisku svētku diena; Latvijā tā nav vispārēja darba brīvdiena. Kalendāra piezīmē atsevišķi pieraksti izvēlēto norisi un tās avotu, lai gadskārtējais nosaukums netiktu sajaukts ar vienas vietas vai konfesijas programmu. Salīdzini arī šajā lapā norādītās saistītās tēmas un pirmavotus."
       ],
       "icon": "culture",
       "sources": [
-        {
-          "url": "https://katolis.lv/liturgiskais-kalendars/",
-          "title": "Liturģiskais kalendārs"
-        },
-        {
-          "url": "https://likumi.lv/ta/id/72608-par-svetku-un-atceres-dienam",
-          "title": "Par svētku, atceres un atzīmējamām dienām"
-        }
+
       ],
       "related": [
         {
-          "url": "/svetki-un-tradicijas/",
-          "title": "Tradīciju pārskats"
-        },
-        {
-          "url": "/gadalaiki/",
-          "title": "Astronomiskie gadalaiki"
+          "url": "/dienas-kalendars/",
+          "title": "Dienas kalendārs"
         }
       ],
       "basis": {
@@ -28180,27 +27643,16 @@
       "heading": "Datuma pamats un personīgā plāna izvēle",
       "paragraphs": [
         "Tēmas «Holokausta upuru piemiņas diena: 27. janvāris un Latvijas 4. jūlijs» aprēķināto vai fiksēto datumu piemēri 2027.–2030. gada tvērumā: 2027. gada 27. janvāris (trešdiena); 2030. gada 27. janvāris (svētdiena). Tie ir kalendāra atskaites datumi, nevis automātiski apstiprināta pasākumu programma. No šī temata nosaukuma nevar secināt vispārēju darba brīvdienu Latvijā.",
-        "Plānojot «Holokausta upuru piemiņas diena: 27. janvāris un Latvijas 4. jūlijs», ievēro šo atšķirību: Starptautiskās un Latvijas piemiņas dienas datumi un nosaukumi atšķiras. Kalendāra piezīmē atsevišķi pieraksti izvēlēto norisi un tās avotu, lai gadskārtējais nosaukums netiktu sajaukts ar vienas vietas vai konfesijas programmu. Salīdzināšanai atver arī saistīto tradīciju vai astronomisko pārskatu."
+        "Plānojot «Holokausta upuru piemiņas diena: 27. janvāris un Latvijas 4. jūlijs», ievēro šo atšķirību: Starptautiskās un Latvijas piemiņas dienas datumi un nosaukumi atšķiras. Kalendāra piezīmē atsevišķi pieraksti izvēlēto norisi un tās avotu, lai gadskārtējais nosaukums netiktu sajaukts ar vienas vietas vai konfesijas programmu. Salīdzini arī šajā lapā norādītās saistītās tēmas un pirmavotus."
       ],
       "icon": "culture",
       "sources": [
-        {
-          "url": "https://www.un.org/en/observances/commemoration-holocaust-victims-day",
-          "title": "Starptautiskā Holokausta upuru piemiņas diena"
-        },
-        {
-          "url": "https://likumi.lv/ta/id/72608-par-svetku-un-atceres-dienam",
-          "title": "Par svētku, atceres un atzīmējamām dienām"
-        }
+
       ],
       "related": [
         {
-          "url": "/svetki-un-tradicijas/",
-          "title": "Tradīciju pārskats"
-        },
-        {
-          "url": "/gadalaiki/",
-          "title": "Astronomiskie gadalaiki"
+          "url": "/dienas-kalendars/",
+          "title": "Dienas kalendārs"
         }
       ],
       "basis": {
@@ -28217,23 +27669,20 @@
       "heading": "Datuma pamats un personīgā plāna izvēle",
       "paragraphs": [
         "Tēmas «Eiropas Valodu diena: 26. septembris un valodu daudzveidība» aprēķināto vai fiksēto datumu piemēri 2027.–2030. gada tvērumā: 2027. gada 26. septembris (svētdiena); 2030. gada 26. septembris (ceturtdiena). Tie ir kalendāra atskaites datumi, nevis automātiski apstiprināta pasākumu programma. No šī temata nosaukuma nevar secināt vispārēju darba brīvdienu Latvijā.",
-        "Plānojot «Eiropas Valodu diena: 26. septembris un valodu daudzveidība», ievēro šo atšķirību: Eiropas Padome noteica 26. septembri par ikgadēju Eiropas Valodu dienu. Kalendāra piezīmē atsevišķi pieraksti izvēlēto norisi un tās avotu, lai gadskārtējais nosaukums netiktu sajaukts ar vienas vietas vai konfesijas programmu. Salīdzināšanai atver arī saistīto tradīciju vai astronomisko pārskatu."
+        "Plānojot «Eiropas Valodu diena: 26. septembris un valodu daudzveidība», ievēro šo atšķirību: Eiropas Padome noteica 26. septembri par ikgadēju Eiropas Valodu dienu. Kalendāra piezīmē atsevišķi pieraksti izvēlēto norisi un tās avotu, lai gadskārtējais nosaukums netiktu sajaukts ar vienas vietas vai konfesijas programmu. Salīdzini arī šajā lapā norādītās saistītās tēmas un pirmavotus."
       ],
       "icon": "culture",
       "sources": [
-        {
-          "url": "https://www.coe.int/en/web/portal/26-september-european-day-languages",
-          "title": "26. septembris — Eiropas Valodu diena"
-        }
+
       ],
       "related": [
         {
-          "url": "/svetki-un-tradicijas/",
-          "title": "Tradīciju pārskats"
+          "url": "/dienas-kalendars/",
+          "title": "Dienas kalendārs"
         },
         {
-          "url": "/gadalaiki/",
-          "title": "Astronomiskie gadalaiki"
+          "url": "/stundu-saraksts/",
+          "title": "Stundu saraksts"
         }
       ],
       "basis": {
@@ -28250,27 +27699,16 @@
       "heading": "Datuma pamats un personīgā plāna izvēle",
       "paragraphs": [
         "Tēmas «Staļinisma un nacisma upuru atceres diena: 23. augusts» aprēķināto vai fiksēto datumu piemēri 2027.–2030. gada tvērumā: 2027. gada 23. augusts (pirmdiena); 2030. gada 23. augusts (piektdiena). Tie ir kalendāra atskaites datumi, nevis automātiski apstiprināta pasākumu programma. No šī temata nosaukuma nevar secināt vispārēju darba brīvdienu Latvijā.",
-        "Plānojot «Staļinisma un nacisma upuru atceres diena: 23. augusts», ievēro šo atšķirību: Latvijas atceres dienas nosaukums ir norādīts pēc spēkā esošā likuma. Kalendāra piezīmē atsevišķi pieraksti izvēlēto norisi un tās avotu, lai gadskārtējais nosaukums netiktu sajaukts ar vienas vietas vai konfesijas programmu. Salīdzināšanai atver arī saistīto tradīciju vai astronomisko pārskatu."
+        "Plānojot «Staļinisma un nacisma upuru atceres diena: 23. augusts», ievēro šo atšķirību: Latvijas atceres dienas nosaukums ir norādīts pēc spēkā esošā likuma. Kalendāra piezīmē atsevišķi pieraksti izvēlēto norisi un tās avotu, lai gadskārtējais nosaukums netiktu sajaukts ar vienas vietas vai konfesijas programmu. Salīdzini arī šajā lapā norādītās saistītās tēmas un pirmavotus."
       ],
       "icon": "culture",
       "sources": [
-        {
-          "url": "https://likumi.lv/ta/id/72608-par-svetku-un-atceres-dienam",
-          "title": "Par svētku, atceres un atzīmējamām dienām"
-        },
-        {
-          "url": "https://www.europarl.europa.eu/thinktank/en/document/EPRS_ATA%282022%29733610",
-          "title": "Eiropas totalitāro un autoritāro režīmu upuru piemiņas diena"
-        }
+
       ],
       "related": [
         {
-          "url": "/svetki-un-tradicijas/",
-          "title": "Tradīciju pārskats"
-        },
-        {
-          "url": "/gadalaiki/",
-          "title": "Astronomiskie gadalaiki"
+          "url": "/dienas-kalendars/",
+          "title": "Dienas kalendārs"
         }
       ],
       "basis": {
@@ -28287,23 +27725,20 @@
       "heading": "Datuma pamats un personīgā plāna izvēle",
       "paragraphs": [
         "Tēmas «Starptautiskā dzimtās valodas diena: 21. februāris» aprēķināto vai fiksēto datumu piemēri 2027.–2030. gada tvērumā: 2027. gada 21. februāris (svētdiena); 2030. gada 21. februāris (ceturtdiena). Tie ir kalendāra atskaites datumi, nevis automātiski apstiprināta pasākumu programma. No šī temata nosaukuma nevar secināt vispārēju darba brīvdienu Latvijā.",
-        "Plānojot «Starptautiskā dzimtās valodas diena: 21. februāris», ievēro šo atšķirību: Dzimtās valodas diena ir starptautiska atzīmējamā diena. Latvijā tā nav vispārēja darba brīvdiena. Kalendāra piezīmē atsevišķi pieraksti izvēlēto norisi un tās avotu, lai gadskārtējais nosaukums netiktu sajaukts ar vienas vietas vai konfesijas programmu. Salīdzināšanai atver arī saistīto tradīciju vai astronomisko pārskatu."
+        "Plānojot «Starptautiskā dzimtās valodas diena: 21. februāris», ievēro šo atšķirību: Dzimtās valodas diena ir starptautiska atzīmējamā diena. Latvijā tā nav vispārēja darba brīvdiena. Kalendāra piezīmē atsevišķi pieraksti izvēlēto norisi un tās avotu, lai gadskārtējais nosaukums netiktu sajaukts ar vienas vietas vai konfesijas programmu. Salīdzini arī šajā lapā norādītās saistītās tēmas un pirmavotus."
       ],
       "icon": "culture",
       "sources": [
-        {
-          "url": "https://www.unesco.org/en/days/mother-language?hub=66691",
-          "title": "Starptautiskā dzimtās valodas diena"
-        }
+
       ],
       "related": [
         {
-          "url": "/svetki-un-tradicijas/",
-          "title": "Tradīciju pārskats"
+          "url": "/dienas-kalendars/",
+          "title": "Dienas kalendārs"
         },
         {
-          "url": "/gadalaiki/",
-          "title": "Astronomiskie gadalaiki"
+          "url": "/stundu-saraksts/",
+          "title": "Stundu saraksts"
         }
       ],
       "basis": {
@@ -28320,35 +27755,20 @@
       "heading": "Datuma pamats un personīgā plāna izvēle",
       "paragraphs": [
         "Tēmas «Helovīns Latvijā: 31. oktobra datums un vietējie pasākumi» aprēķināto vai fiksēto datumu piemēri 2027.–2030. gada tvērumā: 2027. gada 31. oktobris (svētdiena); 2030. gada 31. oktobris (ceturtdiena). Tie ir kalendāra atskaites datumi, nevis automātiski apstiprināta pasākumu programma. No šī temata nosaukuma nevar secināt vispārēju darba brīvdienu Latvijā.",
-        "Plānojot «Helovīns Latvijā: 31. oktobra datums un vietējie pasākumi», ievēro šo atšķirību: Helovīna pasākumu programmas katru gadu jāpārbauda pie rīkotājiem. Kalendāra piezīmē atsevišķi pieraksti izvēlēto norisi un tās avotu, lai gadskārtējais nosaukums netiktu sajaukts ar vienas vietas vai konfesijas programmu. Salīdzināšanai atver arī saistīto tradīciju vai astronomisko pārskatu."
+        "Plānojot «Helovīns Latvijā: 31. oktobra datums un vietējie pasākumi», ievēro šo atšķirību: Helovīna pasākumu programmas katru gadu jāpārbauda pie rīkotājiem. Kalendāra piezīmē atsevišķi pieraksti izvēlēto norisi un tās avotu, lai gadskārtējais nosaukums netiktu sajaukts ar vienas vietas vai konfesijas programmu. Salīdzini arī šajā lapā norādītās saistītās tēmas un pirmavotus."
       ],
       "icon": "culture",
       "sources": [
-        {
-          "url": "https://learnenglish.britishcouncil.org/free-resources/general/magazine-zone/halloween",
-          "title": "Halloween"
-        },
-        {
-          "url": "https://dabasmuzejs.lv/lv/aktualitates/gimenes-diena-dabas-tumsa-puse",
-          "title": "Ģimenes diena “Dabas tumšā puse” (31.10.2026.)"
-        },
-        {
-          "url": "https://likumi.lv/ta/id/72608-par-svetku-un-atceres-dienam",
-          "title": "Par svētku, atceres un atzīmējamām dienām"
-        },
-        {
-          "url": "https://epupa.valoda.lv/martini/",
-          "title": "Mārtiņi"
-        }
+
       ],
       "related": [
         {
-          "url": "/svetki-un-tradicijas/",
-          "title": "Tradīciju pārskats"
+          "url": "/dienas-kalendars/",
+          "title": "Dienas kalendārs"
         },
         {
-          "url": "/gadalaiki/",
-          "title": "Astronomiskie gadalaiki"
+          "url": "/menesa-kalendars/",
+          "title": "Mēneša kalendārs"
         }
       ],
       "basis": {
@@ -28365,23 +27785,20 @@
       "heading": "Datuma pamats un personīgā plāna izvēle",
       "paragraphs": [
         "Tēmas «Pasaules grāmatu un autortiesību diena: 23. aprīlis» aprēķināto vai fiksēto datumu piemēri 2027.–2030. gada tvērumā: 2027. gada 23. aprīlis (piektdiena); 2030. gada 23. aprīlis (otrdiena). Tie ir kalendāra atskaites datumi, nevis automātiski apstiprināta pasākumu programma. No šī temata nosaukuma nevar secināt vispārēju darba brīvdienu Latvijā.",
-        "Plānojot «Pasaules grāmatu un autortiesību diena: 23. aprīlis», ievēro šo atšķirību: Pasaules grāmatu dienu atzīmē 23. aprīlī. UNESCO Pasaules grāmatu galvaspilsēta ir atsevišķa ikgadēja programma. Kalendāra piezīmē atsevišķi pieraksti izvēlēto norisi un tās avotu, lai gadskārtējais nosaukums netiktu sajaukts ar vienas vietas vai konfesijas programmu. Salīdzināšanai atver arī saistīto tradīciju vai astronomisko pārskatu."
+        "Plānojot «Pasaules grāmatu un autortiesību diena: 23. aprīlis», ievēro šo atšķirību: Pasaules grāmatu dienu atzīmē 23. aprīlī. UNESCO Pasaules grāmatu galvaspilsēta ir atsevišķa ikgadēja programma. Kalendāra piezīmē atsevišķi pieraksti izvēlēto norisi un tās avotu, lai gadskārtējais nosaukums netiktu sajaukts ar vienas vietas vai konfesijas programmu. Salīdzini arī šajā lapā norādītās saistītās tēmas un pirmavotus."
       ],
       "icon": "culture",
       "sources": [
-        {
-          "url": "https://www.unesco.org/en/days/world-book-and-copyright?hub=66646",
-          "title": "Pasaules grāmatu un autortiesību diena"
-        }
+
       ],
       "related": [
         {
-          "url": "/svetki-un-tradicijas/",
-          "title": "Tradīciju pārskats"
+          "url": "/stundu-saraksts/",
+          "title": "Stundu saraksts"
         },
         {
-          "url": "/gadalaiki/",
-          "title": "Astronomiskie gadalaiki"
+          "url": "/dienas-kalendars/",
+          "title": "Dienas kalendārs"
         }
       ],
       "basis": {
@@ -28398,23 +27815,20 @@
       "heading": "Datuma pamats un personīgā plāna izvēle",
       "paragraphs": [
         "Tēmas «Pasaules vides diena: 5. jūnijs» aprēķināto vai fiksēto datumu piemēri 2027.–2030. gada tvērumā: 2027. gada 5. jūnijs (sestdiena); 2030. gada 5. jūnijs (trešdiena). Tie ir kalendāra atskaites datumi, nevis automātiski apstiprināta pasākumu programma. No šī temata nosaukuma nevar secināt vispārēju darba brīvdienu Latvijā.",
-        "Plānojot «Pasaules vides diena: 5. jūnijs», ievēro šo atšķirību: Šī ir starptautiska atzīmējamā diena; Latvijā tā nav vispārēja darba brīvdiena. Kalendāra piezīmē atsevišķi pieraksti izvēlēto norisi un tās avotu, lai gadskārtējais nosaukums netiktu sajaukts ar vienas vietas vai konfesijas programmu. Salīdzināšanai atver arī saistīto tradīciju vai astronomisko pārskatu."
+        "Plānojot «Pasaules vides diena: 5. jūnijs», ievēro šo atšķirību: Šī ir starptautiska atzīmējamā diena; Latvijā tā nav vispārēja darba brīvdiena. Kalendāra piezīmē atsevišķi pieraksti izvēlēto norisi un tās avotu, lai gadskārtējais nosaukums netiktu sajaukts ar vienas vietas vai konfesijas programmu. Salīdzini arī šajā lapā norādītās saistītās tēmas un pirmavotus."
       ],
       "icon": "culture",
       "sources": [
-        {
-          "url": "https://www.unep.org/international-days",
-          "title": "Pasaules vides diena"
-        }
+
       ],
       "related": [
         {
-          "url": "/svetki-un-tradicijas/",
-          "title": "Tradīciju pārskats"
+          "url": "/dienas-kalendars/",
+          "title": "Dienas kalendārs"
         },
         {
-          "url": "/gadalaiki/",
-          "title": "Astronomiskie gadalaiki"
+          "url": "/saullekts-saulriets/",
+          "title": "Saullēkts un saulriets"
         }
       ],
       "basis": {
@@ -28431,27 +27845,20 @@
       "heading": "Datuma pamats un personīgā plāna izvēle",
       "paragraphs": [
         "Tēmas «Pasaules bērnu diena: 20. novembris» aprēķināto vai fiksēto datumu piemēri 2027.–2030. gada tvērumā: 2027. gada 20. novembris (sestdiena); 2030. gada 20. novembris (trešdiena). Tie ir kalendāra atskaites datumi, nevis automātiski apstiprināta pasākumu programma. No šī temata nosaukuma nevar secināt vispārēju darba brīvdienu Latvijā.",
-        "Plānojot «Pasaules bērnu diena: 20. novembris», ievēro šo atšķirību: 20. novembra Pasaules bērnu diena un 1. jūnija Starptautiskā bērnu aizsardzības diena ir divi atšķirīgi kalendāra ieraksti. Kalendāra piezīmē atsevišķi pieraksti izvēlēto norisi un tās avotu, lai gadskārtējais nosaukums netiktu sajaukts ar vienas vietas vai konfesijas programmu. Salīdzināšanai atver arī saistīto tradīciju vai astronomisko pārskatu."
+        "Plānojot «Pasaules bērnu diena: 20. novembris», ievēro šo atšķirību: 20. novembra Pasaules bērnu diena un 1. jūnija Starptautiskā bērnu aizsardzības diena ir divi atšķirīgi kalendāra ieraksti. Kalendāra piezīmē atsevišķi pieraksti izvēlēto norisi un tās avotu, lai gadskārtējais nosaukums netiktu sajaukts ar vienas vietas vai konfesijas programmu. Salīdzini arī šajā lapā norādītās saistītās tēmas un pirmavotus."
       ],
       "icon": "culture",
       "sources": [
-        {
-          "url": "https://www.un.org/en/observances/world-childrens-day",
-          "title": "Pasaules bērnu diena"
-        },
-        {
-          "url": "https://likumi.lv/ta/id/72608-par-svetku-un-atceres-dienam",
-          "title": "Par svētku, atceres un atzīmējamām dienām"
-        }
+
       ],
       "related": [
         {
-          "url": "/svetki-un-tradicijas/",
-          "title": "Tradīciju pārskats"
+          "url": "/gimenes-kalendars/",
+          "title": "Ģimenes kalendārs"
         },
         {
-          "url": "/gadalaiki/",
-          "title": "Astronomiskie gadalaiki"
+          "url": "/dienas-kalendars/",
+          "title": "Dienas kalendārs"
         }
       ],
       "basis": {
@@ -28468,23 +27875,16 @@
       "heading": "Datuma pamats un personīgā plāna izvēle",
       "paragraphs": [
         "Tēmas «Pasaules ūdens diena: 22. marts» aprēķināto vai fiksēto datumu piemēri 2027.–2030. gada tvērumā: 2027. gada 22. marts (pirmdiena); 2030. gada 22. marts (piektdiena). Tie ir kalendāra atskaites datumi, nevis automātiski apstiprināta pasākumu programma. No šī temata nosaukuma nevar secināt vispārēju darba brīvdienu Latvijā.",
-        "Plānojot «Pasaules ūdens diena: 22. marts», ievēro šo atšķirību: Pasaules ūdens dienas datums ir 22. marts; ikgadējās kampaņas tēma var mainīties. Kalendāra piezīmē atsevišķi pieraksti izvēlēto norisi un tās avotu, lai gadskārtējais nosaukums netiktu sajaukts ar vienas vietas vai konfesijas programmu. Salīdzināšanai atver arī saistīto tradīciju vai astronomisko pārskatu."
+        "Plānojot «Pasaules ūdens diena: 22. marts», ievēro šo atšķirību: Pasaules ūdens dienas datums ir 22. marts; ikgadējās kampaņas tēma var mainīties. Kalendāra piezīmē atsevišķi pieraksti izvēlēto norisi un tās avotu, lai gadskārtējais nosaukums netiktu sajaukts ar vienas vietas vai konfesijas programmu. Salīdzini arī šajā lapā norādītās saistītās tēmas un pirmavotus."
       ],
       "icon": "culture",
       "sources": [
-        {
-          "url": "https://www.unwater.org/our-work/world-water-day",
-          "title": "Pasaules ūdens diena"
-        }
+
       ],
       "related": [
         {
-          "url": "/svetki-un-tradicijas/",
-          "title": "Tradīciju pārskats"
-        },
-        {
-          "url": "/gadalaiki/",
-          "title": "Astronomiskie gadalaiki"
+          "url": "/dienas-kalendars/",
+          "title": "Dienas kalendārs"
         }
       ],
       "basis": {
@@ -28501,27 +27901,16 @@
       "heading": "Datuma pamats un personīgā plāna izvēle",
       "paragraphs": [
         "Tēmas «Pasaules dzīvnieku diena: 4. oktobris» aprēķināto vai fiksēto datumu piemēri 2027.–2030. gada tvērumā: 2027. gada 4. oktobris (pirmdiena); 2030. gada 4. oktobris (piektdiena). Tie ir kalendāra atskaites datumi, nevis automātiski apstiprināta pasākumu programma. No šī temata nosaukuma nevar secināt vispārēju darba brīvdienu Latvijā.",
-        "Plānojot «Pasaules dzīvnieku diena: 4. oktobris», ievēro šo atšķirību: Organizāciju un vietējo pasākumu programmas var mainīties katru gadu. Kalendāra piezīmē atsevišķi pieraksti izvēlēto norisi un tās avotu, lai gadskārtējais nosaukums netiktu sajaukts ar vienas vietas vai konfesijas programmu. Salīdzināšanai atver arī saistīto tradīciju vai astronomisko pārskatu."
+        "Plānojot «Pasaules dzīvnieku diena: 4. oktobris», ievēro šo atšķirību: Organizāciju un vietējo pasākumu programmas var mainīties katru gadu. Kalendāra piezīmē atsevišķi pieraksti izvēlēto norisi un tās avotu, lai gadskārtējais nosaukums netiktu sajaukts ar vienas vietas vai konfesijas programmu. Salīdzini arī šajā lapā norādītās saistītās tēmas un pirmavotus."
       ],
       "icon": "culture",
       "sources": [
-        {
-          "url": "https://www.worldanimalday.org.uk/about/",
-          "title": "Par Pasaules dzīvnieku dienu"
-        },
-        {
-          "url": "https://likumi.lv/ta/id/72608-par-svetku-un-atceres-dienam",
-          "title": "Par svētku, atceres un atzīmējamām dienām"
-        }
+
       ],
       "related": [
         {
-          "url": "/svetki-un-tradicijas/",
-          "title": "Tradīciju pārskats"
-        },
-        {
-          "url": "/gadalaiki/",
-          "title": "Astronomiskie gadalaiki"
+          "url": "/dienas-kalendars/",
+          "title": "Dienas kalendārs"
         }
       ],
       "basis": {
@@ -28538,39 +27927,20 @@
       "heading": "Datuma pamats un personīgā plāna izvēle",
       "paragraphs": [
         "«Pavasara tradīcijas Latvijā: Meteņi, Lieldienas un ekvinokcija» nav attēlots kā viens visiem Latvijas notikumiem obligāts datums. Pavasara tradīcijām nav viena kopīga Latvijas datuma. Atver katru kalendāru atsevišķi un ievēro tajā norādīto tradīciju vai aprēķina principu. Pirms saglabā personīgu plānu, izvēlies, uz kuru tradīciju vai konkrēto pasākumu tas attiecas.",
-        "Plānojot «Pavasara tradīcijas Latvijā: Meteņi, Lieldienas un ekvinokcija», ievēro šo atšķirību: Pavasara tradīcijas un pasākumu norises laiki dažādos Latvijas novados var atšķirties. Kalendāra piezīmē atsevišķi pieraksti izvēlēto norisi un tās avotu, lai gadskārtējais nosaukums netiktu sajaukts ar vienas vietas vai konfesijas programmu. Salīdzināšanai atver arī saistīto tradīciju vai astronomisko pārskatu."
+        "Plānojot «Pavasara tradīcijas Latvijā: Meteņi, Lieldienas un ekvinokcija», ievēro šo atšķirību: Pavasara tradīcijas un pasākumu norises laiki dažādos Latvijas novados var atšķirties. Kalendāra piezīmē atsevišķi pieraksti izvēlēto norisi un tās avotu, lai gadskārtējais nosaukums netiktu sajaukts ar vienas vietas vai konfesijas programmu. Salīdzini arī šajā lapā norādītās saistītās tēmas un pirmavotus."
       ],
       "icon": "culture",
       "sources": [
-        {
-          "url": "https://epupa.valoda.lv/metenis-meteni/",
-          "title": "Metenis, Meteņi"
-        },
-        {
-          "url": "https://www.lebm.gov.lv/lv/jaunums/metenu-jeb-vastlavju-kekatas-libiesu-tradicija",
-          "title": "Meteņu jeb Vastlāvju ķekatas lībiešu tradīcijā"
-        },
-        {
-          "url": "https://katolis.lv/liela-nedela/",
-          "title": "Lielā nedēļa"
-        },
-        {
-          "url": "https://aa.usno.navy.mil/data/api",
-          "title": "Astronomical Applications API v4.0.1"
-        },
-        {
-          "url": "https://likumi.lv/ta/id/72608-par-svetku-un-atceres-dienam",
-          "title": "Par svētku, atceres un atzīmējamām dienām"
-        }
+
       ],
       "related": [
         {
-          "url": "/svetki-un-tradicijas/",
-          "title": "Tradīciju pārskats"
+          "url": "/gadalaiki/",
+          "title": "Astronomisko gadalaiku sākumi"
         },
         {
-          "url": "/gadalaiki/",
-          "title": "Astronomiskie gadalaiki"
+          "url": "/menesa-kalendars/",
+          "title": "Mēneša kalendārs"
         }
       ],
       "basis": {
@@ -28584,27 +27954,16 @@
       "heading": "Datuma pamats un personīgā plāna izvēle",
       "paragraphs": [
         "Tēmas «Svētā Nikolaja diena: 6. decembris katoļu kalendārā» aprēķināto vai fiksēto datumu piemēri 2027.–2030. gada tvērumā: 2027. gada 6. decembris (pirmdiena); 2030. gada 6. decembris (piektdiena). Tie ir kalendāra atskaites datumi, nevis automātiski apstiprināta pasākumu programma. No šī temata nosaukuma nevar secināt vispārēju darba brīvdienu Latvijā.",
-        "Plānojot «Svētā Nikolaja diena: 6. decembris katoļu kalendārā», ievēro šo atšķirību: Reliģisks piemiņas datums; tas nav Latvijas valsts svētku vai vispārēja darba brīvdiena. Kalendāra piezīmē atsevišķi pieraksti izvēlēto norisi un tās avotu, lai gadskārtējais nosaukums netiktu sajaukts ar vienas vietas vai konfesijas programmu. Salīdzināšanai atver arī saistīto tradīciju vai astronomisko pārskatu."
+        "Plānojot «Svētā Nikolaja diena: 6. decembris katoļu kalendārā», ievēro šo atšķirību: Reliģisks piemiņas datums; tas nav Latvijas valsts svētku vai vispārēja darba brīvdiena. Kalendāra piezīmē atsevišķi pieraksti izvēlēto norisi un tās avotu, lai gadskārtējais nosaukums netiktu sajaukts ar vienas vietas vai konfesijas programmu. Salīdzini arī šajā lapā norādītās saistītās tēmas un pirmavotus."
       ],
       "icon": "culture",
       "sources": [
-        {
-          "url": "https://katolis.lv/svetais-nikolajs/",
-          "title": "Svētais Nikolajs"
-        },
-        {
-          "url": "https://katolis.lv/liturgiskais-kalendars/",
-          "title": "Liturģiskais kalendārs"
-        }
+
       ],
       "related": [
         {
-          "url": "/svetki-un-tradicijas/",
-          "title": "Tradīciju pārskats"
-        },
-        {
-          "url": "/gadalaiki/",
-          "title": "Astronomiskie gadalaiki"
+          "url": "/dienas-kalendars/",
+          "title": "Dienas kalendārs"
         }
       ],
       "basis": {
@@ -28621,27 +27980,20 @@
       "heading": "Datuma pamats un personīgā plāna izvēle",
       "paragraphs": [
         "Tēmas «Pasaules bišu diena: 20. maijs» aprēķināto vai fiksēto datumu piemēri 2027.–2030. gada tvērumā: 2027. gada 20. maijs (ceturtdiena); 2030. gada 20. maijs (pirmdiena). Tie ir kalendāra atskaites datumi, nevis automātiski apstiprināta pasākumu programma. No šī temata nosaukuma nevar secināt vispārēju darba brīvdienu Latvijā.",
-        "Plānojot «Pasaules bišu diena: 20. maijs», ievēro šo atšķirību: Apputeksnētāju aktivitāte ir atkarīga no sugas, laikapstākļiem un vietējās sezonas. Kalendāra piezīmē atsevišķi pieraksti izvēlēto norisi un tās avotu, lai gadskārtējais nosaukums netiktu sajaukts ar vienas vietas vai konfesijas programmu. Salīdzināšanai atver arī saistīto tradīciju vai astronomisko pārskatu."
+        "Plānojot «Pasaules bišu diena: 20. maijs», ievēro šo atšķirību: Apputeksnētāju aktivitāte ir atkarīga no sugas, laikapstākļiem un vietējās sezonas. Kalendāra piezīmē atsevišķi pieraksti izvēlēto norisi un tās avotu, lai gadskārtējais nosaukums netiktu sajaukts ar vienas vietas vai konfesijas programmu. Salīdzini arī šajā lapā norādītās saistītās tēmas un pirmavotus."
       ],
       "icon": "culture",
       "sources": [
-        {
-          "url": "https://www.un.org/en/events/beeday/",
-          "title": "Pasaules bišu diena"
-        },
-        {
-          "url": "https://www.darzkopibasinstituts.lv/sites/dobele/files/files/articles/RokasgramataDarzi2018_lv.pdf",
-          "title": "Vēsturiskais un mūsdienu dārzs. Rokasgrāmata tūrisma uzņēmējam"
-        }
+
       ],
       "related": [
         {
-          "url": "/svetki-un-tradicijas/",
-          "title": "Tradīciju pārskats"
+          "url": "/sejas-kalendars/",
+          "title": "Sējas un stādīšanas kalendārs"
         },
         {
-          "url": "/gadalaiki/",
-          "title": "Astronomiskie gadalaiki"
+          "url": "/dienas-kalendars/",
+          "title": "Dienas kalendārs"
         }
       ],
       "basis": {
@@ -28658,27 +28010,20 @@
       "heading": "Datuma pamats un personīgā plāna izvēle",
       "paragraphs": [
         "Tēmas «Zemes diena: 22. aprīlis un Starptautiskā Mātes Zemes diena» aprēķināto vai fiksēto datumu piemēri 2027.–2030. gada tvērumā: 2027. gada 22. aprīlis (ceturtdiena); 2030. gada 22. aprīlis (pirmdiena). Tie ir kalendāra atskaites datumi, nevis automātiski apstiprināta pasākumu programma. No šī temata nosaukuma nevar secināt vispārēju darba brīvdienu Latvijā.",
-        "Plānojot «Zemes diena: 22. aprīlis un Starptautiskā Mātes Zemes diena», ievēro šo atšķirību: Zemes dienu atzīmē 22. aprīlī, bet Pasaules vides dienu — 5. jūnijā. Kalendāra piezīmē atsevišķi pieraksti izvēlēto norisi un tās avotu, lai gadskārtējais nosaukums netiktu sajaukts ar vienas vietas vai konfesijas programmu. Salīdzināšanai atver arī saistīto tradīciju vai astronomisko pārskatu."
+        "Plānojot «Zemes diena: 22. aprīlis un Starptautiskā Mātes Zemes diena», ievēro šo atšķirību: Zemes dienu atzīmē 22. aprīlī, bet Pasaules vides dienu — 5. jūnijā. Kalendāra piezīmē atsevišķi pieraksti izvēlēto norisi un tās avotu, lai gadskārtējais nosaukums netiktu sajaukts ar vienas vietas vai konfesijas programmu. Salīdzini arī šajā lapā norādītās saistītās tēmas un pirmavotus."
       ],
       "icon": "culture",
       "sources": [
-        {
-          "url": "https://www.un.org/en/observances/earth-day/background",
-          "title": "Starptautiskās Mātes Zemes dienas vēsture"
-        },
-        {
-          "url": "https://www.unep.org/international-days",
-          "title": "Pasaules vides diena"
-        }
+
       ],
       "related": [
         {
-          "url": "/svetki-un-tradicijas/",
-          "title": "Tradīciju pārskats"
+          "url": "/dienas-kalendars/",
+          "title": "Dienas kalendārs"
         },
         {
-          "url": "/gadalaiki/",
-          "title": "Astronomiskie gadalaiki"
+          "url": "/saullekts-saulriets/",
+          "title": "Saullēkts un saulriets"
         }
       ],
       "basis": {
