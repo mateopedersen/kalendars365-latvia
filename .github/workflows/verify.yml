@@ -21,6 +21,11 @@ jobs:
       - name: Install Ruby compilation headers
         shell: bash
         run: |
+          # Check the actual compiler and Ruby extension headers, not optional meta-packages.
+          if command -v cc >/dev/null && command -v make >/dev/null && command -v pkg-config >/dev/null && pkg-config --exists openssl yaml-0.1 zlib libffi; then
+            echo 'Ruby compiler and required extension headers are already available.'
+            exit 0
+          fi
           packages=(build-essential libssl-dev libyaml-dev libreadline-dev zlib1g-dev libffi-dev pkg-config)
           missing=()
           for package in "${packages[@]}"; do
