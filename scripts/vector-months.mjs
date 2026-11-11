@@ -5,7 +5,8 @@ export const monthSubjects = ['Apsarmojis egles zars un ledus kristāls','Čieku
 const f = n => Number(n.toFixed(2));
 const path = (d, fill, extra='') => `<path d="${d}" fill="${fill}" ${extra}/>`;
 const stroke = (d, color, width=1, opacity=1) => path(d,'none',`stroke="${color}" stroke-width="${width}" opacity="${opacity}" stroke-linecap="round" stroke-linejoin="round"`);
-const group = (x,y,scale,angle,body) => `<g transform="translate(${x} ${y}) rotate(${angle}) scale(${scale})">${body}</g>`;
+// Bound floating-point precision so ARM and x86 builds emit identical geometry.
+const group = (x,y,scale,angle,body) => `<g transform="translate(${f(x)} ${f(y)}) rotate(${f(angle)}) scale(${f(scale)})">${body}</g>`;
 const circle = (x,y,r,fill,extra='') => `<circle cx="${f(x)}" cy="${f(y)}" r="${r}" fill="${fill}" ${extra}/>`;
 const ellipse = (x,y,rx,ry,fill,extra='') => `<ellipse cx="${f(x)}" cy="${f(y)}" rx="${f(rx)}" ry="${f(ry)}" fill="${fill}" ${extra}/>`;
 const material = (id,name) => `url(#${id}-m-${name})`;
@@ -116,7 +117,7 @@ function lilac(id,x,y,s=1,a=0,rows=7) {
   return group(x,y,s,a,body);
 }
 function daisy(id,x,y,s=1,a=0) {
-  let body='';for(let k=0;k<13;k++)body+=`<ellipse cx="0" cy="-18" rx="4.6" ry="17" fill="${material(id,'petal')}" stroke="#d8dfcf" stroke-width=".4" transform="rotate(${k*360/13})"/>`;
+  let body='';for(let k=0;k<13;k++)body+=`<ellipse cx="0" cy="-18" rx="4.6" ry="17" fill="${material(id,'petal')}" stroke="#d8dfcf" stroke-width=".4" transform="rotate(${f(k*360/13)})"/>`;
   body+=circle(0,0,10,material(id,'gold'));
   for(let i=0;i<18;i++){const angle=i*2.3999,r=Math.sqrt(i/18)*8;body+=circle(Math.cos(angle)*r,Math.sin(angle)*r,.75,i%2?'#e4c06d':'#886c38','opacity=".65"');}
   return group(x,y,s,a,body);
@@ -128,7 +129,7 @@ function berry(id,x,y,s=1,a=0) {
     for(let j=0;j<count;j++){
       const xx=(j-(count-1)/2)*width*1.55/count+(row%2?1.5:-1.5);
       body+=ellipse(xx+.4,yy+.6,1.3,2.3,'#742c3e','opacity=".48"');
-      body+=ellipse(xx,yy,0.7,1.6,'#f4d58f',`transform="rotate(${xx*.8} ${f(xx)} ${yy})"`);
+      body+=ellipse(xx,yy,0.7,1.6,'#f4d58f',`transform="rotate(${f(xx*.8)} ${f(xx)} ${f(yy)})"`);
     }
   }
   body+=stroke('M-21-9Q-25 5-13 23','#ffd8c7',1.6,.4);
@@ -193,7 +194,7 @@ function ribbon(id,x,y,s=1,a=0) {
 }
 function bauble(id,x,y,r=44,type='berry') {
   let body=circle(0,0,r,material(id,type),'stroke="#694e4c" stroke-width=".45"');
-  body+=ellipse(-r*.31,-r*.36,r*.23,r*.4,'#fff9ee',`opacity=".38" transform="rotate(32 ${-r*.31} ${-r*.36})"`);
+  body+=ellipse(-r*.31,-r*.36,r*.23,r*.4,'#fff9ee',`opacity=".38" transform="rotate(32 ${f(-r*.31)} ${f(-r*.36)})"`);
   body+=stroke(`M${f(-r*.67)} ${f(-r*.2)}A${f(r*.73)} ${f(r*.73)} 0 0 1 ${f(-r*.09)} ${f(-r*.75)}`,'#fff8e8',1.7,.75);
   body+=path(`M-9 ${-r-5}h18l1 9h-20Z`,material(id,'gold'))+ellipse(0,-r-8,5,6,'none',`stroke="${material(id,'gold')}" stroke-width="1.8"`);
   body+=stroke(`M-5 ${-r-3}v5m5-5v5m5-5v5`,'#fff0bd',.8,.8);

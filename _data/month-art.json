@@ -47,8 +47,8 @@
       "composition": 1,
       "file": "/assets/category-vector/month-2027-4.svg",
       "kind": "original-vector",
-      "sha256": "ab168f17b560a63f1d2154ecf249d6a432961a3c39f52d27c9ce00fe4c071898",
-      "bytes": 10260
+      "sha256": "330c84f840bc8b555f52cb70721b0954f2de0853766d2aa4a065609f797772f9",
+      "bytes": 10258
     },
     {
       "id": "month-2027-5",
@@ -59,8 +59,8 @@
       "composition": 1,
       "file": "/assets/category-vector/month-2027-5.svg",
       "kind": "original-vector",
-      "sha256": "469adee0693b2da6402b703a1bb9d80fabcc77292d1798c8a29b21497ac2255d",
-      "bytes": 19003
+      "sha256": "7eacab453faca97471b1033adbf1a6c43b2817f8ddb215ec087d57b4e1f006cc",
+      "bytes": 18933
     },
     {
       "id": "month-2027-6",
@@ -71,8 +71,8 @@
       "composition": 1,
       "file": "/assets/category-vector/month-2027-6.svg",
       "kind": "original-vector",
-      "sha256": "d60219c52fef7a3ff6ae5a2bc3dfe1deb8183de43fb093e0401510ea972dd7ce",
-      "bytes": 21436
+      "sha256": "6e3e81a50361ec974a90ddd51c6149193a45f6b26070abf79c2988b444118fa3",
+      "bytes": 20911
     },
     {
       "id": "month-2027-7",
@@ -83,8 +83,8 @@
       "composition": 1,
       "file": "/assets/category-vector/month-2027-7.svg",
       "kind": "original-vector",
-      "sha256": "8c9f3291d6b8ebe2f0a210a9204d0482f4e5164a4edfa4b976ba89764b4cb895",
-      "bytes": 27483
+      "sha256": "c35bf02ecade08ccf5b46c7f57831f48b33215c13f8c1dbc26081ba8865102b3",
+      "bytes": 26559
     },
     {
       "id": "month-2027-8",
@@ -143,8 +143,8 @@
       "composition": 1,
       "file": "/assets/category-vector/month-2027-12.svg",
       "kind": "original-vector",
-      "sha256": "195897ee9670f8deefd9961334a5c03c037deaf340b82f18a3596f9a8b3046ff",
-      "bytes": 41295
+      "sha256": "4b3b2e87557b59f2abd14863bc9f605b4e340a43f906afe37355662e3505375d",
+      "bytes": 41282
     },
     {
       "id": "month-2028-1",
@@ -155,8 +155,8 @@
       "composition": 2,
       "file": "/assets/category-vector/month-2028-1.svg",
       "kind": "original-vector",
-      "sha256": "35966fbe0e3b13c72b779698ace6803377812fe62188175087bbdd4d883aee0c",
-      "bytes": 27166
+      "sha256": "5f345438fdeecfc5e32f1303be40e61a529fdd41035f622bd2be2980b1d4029e",
+      "bytes": 27152
     },
     {
       "id": "month-2028-2",
@@ -191,8 +191,8 @@
       "composition": 2,
       "file": "/assets/category-vector/month-2028-4.svg",
       "kind": "original-vector",
-      "sha256": "10a167775959e5badb132f52d4507b388c90c9918f735f5d7a428a7614ddcb80",
-      "bytes": 13232
+      "sha256": "21b7145da6f18183a7f1bd7b45aaa4a775571cb91f07949aa4bc184ebe9df8f4",
+      "bytes": 13229
     },
     {
       "id": "month-2028-5",
@@ -203,8 +203,8 @@
       "composition": 2,
       "file": "/assets/category-vector/month-2028-5.svg",
       "kind": "original-vector",
-      "sha256": "f879adac656d50cf1515b9ecdbc41613177fad7df2bc855b7da3561e30a00c23",
-      "bytes": 28876
+      "sha256": "a8a3dbe25ccb978a1ae8b49b0685d9dbc13b4919725073d7a7137cfdbd5c3186",
+      "bytes": 28736
     },
     {
       "id": "month-2028-6",
@@ -215,8 +215,8 @@
       "composition": 2,
       "file": "/assets/category-vector/month-2028-6.svg",
       "kind": "original-vector",
-      "sha256": "ce8e1325b0d186b8cd270e3cb03fb70f84824bff3b1cbb2fe7b38d240d874359",
-      "bytes": 26396
+      "sha256": "943a9fd08d41f270d9081e9d163149e7b40b01df3f722fb15484eaae875d1765",
+      "bytes": 25687
     },
     {
       "id": "month-2028-7",
@@ -227,8 +227,8 @@
       "composition": 2,
       "file": "/assets/category-vector/month-2028-7.svg",
       "kind": "original-vector",
-      "sha256": "15841825266bd782a2b78cbe35af17cd4453a437f67892cde53be8fe7177d3a4",
-      "bytes": 27484
+      "sha256": "d8d5dea83741fda91b8a53ecab97fc6d3f9217e6bc541fb5869f8a2ab73d3113",
+      "bytes": 26560
     },
     {
       "id": "month-2028-8",
@@ -239,8 +239,8 @@
       "composition": 2,
       "file": "/assets/category-vector/month-2028-8.svg",
       "kind": "original-vector",
-      "sha256": "16c072c44b392e4fb3c83f7c411881e78be1145edaf850a7c6d63d8b8cca2d19",
-      "bytes": 36973
+      "sha256": "b8c0c76d4553bfcd6390ec5ba852ea51a76d9157fd4e828c4d4613a580a6e693",
+      "bytes": 36959
     },
     {
       "id": "month-2028-9",
@@ -299,8 +299,8 @@
       "composition": 3,
       "file": "/assets/category-vector/month-2029-1.svg",
       "kind": "original-vector",
-      "sha256": "be24d9d0f8320780d9739931780e0f160ba47df9c5f96f6ce07ab26835165cf9",
-      "bytes": 29542
+      "sha256": "26f150701b52bce0493ba2ab0422feedc891a4ab6e11eea6151ac54f0ff85722",
+      "bytes": 29514
     },
     {
       "id": "month-2029-2",
@@ -335,8 +335,8 @@
       "composition": 3,
       "file": "/assets/category-vector/month-2029-4.svg",
       "kind": "original-vector",
-      "sha256": "dbd8b592024806b596d34404516bc0d8761055069a589deed24a50ce0e08c2eb",
-      "bytes": 11089
+      "sha256": "a0d3c7a1f68630b03dd145c9c4f8a839ba19e93d82e590a5b043f5a44eb1ea13",
+      "bytes": 11073
     },
     {
       "id": "month-2029-5",
@@ -347,8 +347,8 @@
       "composition": 3,
       "file": "/assets/category-vector/month-2029-5.svg",
       "kind": "original-vector",
-      "sha256": "9524960c5ad58492e463c9e2819ce9b7c48802e9598d1ddb70f5bd9d108b7a8e",
-      "bytes": 26234
+      "sha256": "95115e0431e5b2451ec7b102c023b1e5be87b22f3e53206ae7735509bc6523cc",
+      "bytes": 26094
     },
     {
       "id": "month-2029-6",
@@ -359,8 +359,8 @@
       "composition": 3,
       "file": "/assets/category-vector/month-2029-6.svg",
       "kind": "original-vector",
-      "sha256": "88e260ddbe2e7b352eb714ec33663fcd0c41f1f296efa713f635bdcd08d1d370",
-      "bytes": 16139
+      "sha256": "40d6eae8e26c3c2f716ae4b36d662f93dca187dd26940ca06ec3266881cfe396",
+      "bytes": 15853
     },
     {
       "id": "month-2029-7",
@@ -371,8 +371,8 @@
       "composition": 3,
       "file": "/assets/category-vector/month-2029-7.svg",
       "kind": "original-vector",
-      "sha256": "fba69311188fd36903155914b1a4e5bdf747a154e132296ccba010c6fd75015a",
-      "bytes": 20856
+      "sha256": "dc124f64935f9923f0e44dcc90b3c876455ff67f85a867b17bc563afd27ee2bd",
+      "bytes": 20240
     },
     {
       "id": "month-2029-8",
@@ -431,8 +431,8 @@
       "composition": 3,
       "file": "/assets/category-vector/month-2029-12.svg",
       "kind": "original-vector",
-      "sha256": "f28480691453ba1d7502738ba6c0da90c7cd3ddf37d3967f7d0f70c61c9b0d25",
-      "bytes": 43004
+      "sha256": "c356bdc73843d47347660c47797e0b80804900e8582b2201d05c006f66710d75",
+      "bytes": 42991
     },
     {
       "id": "month-2030-1",
@@ -443,8 +443,8 @@
       "composition": 4,
       "file": "/assets/category-vector/month-2030-1.svg",
       "kind": "original-vector",
-      "sha256": "070bc8e95c0e08a36461f8623ff850e1ce82ece837623e3c5512257d33f289d9",
-      "bytes": 29544
+      "sha256": "d9e757b35f64328bc5d86e33929ff6753e4f88cf30a2511f7918b209b9776fee",
+      "bytes": 29516
     },
     {
       "id": "month-2030-2",
@@ -479,8 +479,8 @@
       "composition": 4,
       "file": "/assets/category-vector/month-2030-4.svg",
       "kind": "original-vector",
-      "sha256": "fe1ec544da31bbf2e6bd0a13440321831477316d2d5e461e3d18a5fee7c8173c",
-      "bytes": 13232
+      "sha256": "0191142623280687c927e82dd9d3cf32a4b4d33dd02466f2d2a06aa719b3eeb6",
+      "bytes": 13229
     },
     {
       "id": "month-2030-5",
@@ -491,8 +491,8 @@
       "composition": 4,
       "file": "/assets/category-vector/month-2030-5.svg",
       "kind": "original-vector",
-      "sha256": "4f5cfd702a95f93e4b3432ba25a517433a8c1289fbc6c6aaa93b2710c3bdd170",
-      "bytes": 38744
+      "sha256": "4c0725fff23108205f93c9e3effd6ea25769e460c434e5394a2dbae2f30996c9",
+      "bytes": 38534
     },
     {
       "id": "month-2030-6",
@@ -503,8 +503,8 @@
       "composition": 4,
       "file": "/assets/category-vector/month-2030-6.svg",
       "kind": "original-vector",
-      "sha256": "6ebbc3873be02d693ed9c32e58affb2ca2052bae48a56d7e064b57a184d9159d",
-      "bytes": 24124
+      "sha256": "8f901292aa1ccff8ace11b0e3ea0c7e59af289848bc333207163c882217af5b5",
+      "bytes": 23479
     },
     {
       "id": "month-2030-7",
@@ -515,8 +515,8 @@
       "composition": 4,
       "file": "/assets/category-vector/month-2030-7.svg",
       "kind": "original-vector",
-      "sha256": "5640cdabac9b8d4c4a756e8ce997bebbfcfcc10d8209507c4ee12c475f5db9ff",
-      "bytes": 34111
+      "sha256": "1d0c634c21eeda8535c52ce20ce4957d63eba598475c1f2e618e74300e04829b",
+      "bytes": 32879
     },
     {
       "id": "month-2030-8",
@@ -527,8 +527,8 @@
       "composition": 4,
       "file": "/assets/category-vector/month-2030-8.svg",
       "kind": "original-vector",
-      "sha256": "eee5bce1a4d40f21b35ce31df855ee31c35bdad1f51ac8edf4dbfe2d11d63832",
-      "bytes": 44492
+      "sha256": "3e9a85210b758a98480f7867fadd0f4956872e604de2fa774800e33fac2849a2",
+      "bytes": 44464
     },
     {
       "id": "month-2030-9",

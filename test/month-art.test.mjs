@@ -15,6 +15,7 @@ test('all 48 year/month drawings exist, are distinct and match their source-boun
     assert.equal(hash(svg),item.sha256);assert.equal(Buffer.byteLength(svg),item.bytes);assert(item.bytes<80000);
     assert(svg.includes('>'+item.label+'</title>'));
     assert.doesNotMatch(svg,/<(?:image|foreignObject|script)\b|data:image|\b(?:NaN|Infinity|undefined)\b|\son\w+=/);
+    assert.doesNotMatch(svg,/\d+\.\d{6,}/,'Unbounded floating-point coordinates in '+key);
     const names=[...svg.matchAll(/\bid="([^"]+)"/g)].map(m=>m[1]);assert.equal(names.length,new Set(names).size);
     for(const ref of svg.matchAll(/url\(#([^\)]+)\)/g))assert(names.includes(ref[1]),key+' '+ref[1]);
     // Titles, IDs and year tags cannot make a repeated composition count as unique.

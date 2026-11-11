@@ -287,32 +287,32 @@
       "label": "Aprīlis",
       "file": "/assets/category-vector/month-4.svg",
       "kind": "original-vector",
-      "sha256": "a6b50fc2739bf3ead4e7c52bf902fa760152c8b48ab877298cb941aa05d12145",
-      "bytes": 10035
+      "sha256": "6308f5506d2ee8c11ab7e9720565458ef1a0da5e8e3618e1ae3b8a0b763fda51",
+      "bytes": 10033
     },
     {
       "id": "month-5",
       "label": "Maijs",
       "file": "/assets/category-vector/month-5.svg",
       "kind": "original-vector",
-      "sha256": "808f02c1ce81ee9ef59c3960b3cdf86d32a4af52f83472bccd12c3056e7e0932",
-      "bytes": 18398
+      "sha256": "3011b2bf8c08111a0c7b114c50dd9f59e732a31f25b387d5e9bf5d79fecfefad",
+      "bytes": 18328
     },
     {
       "id": "month-6",
       "label": "Jūnijs",
       "file": "/assets/category-vector/month-6.svg",
       "kind": "original-vector",
-      "sha256": "ada57225aa3443f141e75386912abb88db3bfec0cc096bb0ba53a16131e65b0e",
-      "bytes": 21071
+      "sha256": "4e3cb2a8b5a86f49f7d010f4235c2fdb44d6ac99354b74863c9148ce5a953157",
+      "bytes": 20546
     },
     {
       "id": "month-7",
       "label": "Jūlijs",
       "file": "/assets/category-vector/month-7.svg",
       "kind": "original-vector",
-      "sha256": "e59e81b05eb48a7f6b703376d46bb34af3944ed6e673afe5e613dad49e1256b4",
-      "bytes": 27208
+      "sha256": "71da0d00602e5836a807c049b093d80d315d9c7bc02f88ae24d0c7799b8f747a",
+      "bytes": 26284
     },
     {
       "id": "month-8",
@@ -351,8 +351,8 @@
       "label": "Decembris",
       "file": "/assets/category-vector/month-12.svg",
       "kind": "original-vector",
-      "sha256": "cd744dac05f7e00fbf7abb9ba4bc8a0b189ea47f4f0da917cd3e93f22185703f",
-      "bytes": 40085
+      "sha256": "0698857f9516504ec08b2b1bda577156017a1f6b06adc49df796231e05e1457b",
+      "bytes": 40072
     }
   ]
 }
