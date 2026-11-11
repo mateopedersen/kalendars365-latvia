@@ -81,9 +81,11 @@ class CalendarDateTest < Minitest::Test
     assert data['schoolYears'].drop(1).all? { |r| r['status']=='pending' }
     assert_equal 30,data['seasons'].length
     assert_equal 10,data['seasons'].count { |s| s['phenomenon']=='Solstice' }
-    assert_equal 1013,data['names'].length
-    assert data['names'].all? { |r| r['edition']=='2018' && !r['currentEditionVerified'] }
-    refute data['assumptions']['namesComplete']
+    assert_equal 5652,data['names'].length
+    assert_equal 1032,data['names'].count { |r| r['kind']=='traditional' }
+    assert_equal 4620,data['names'].count { |r| r['kind']=='extended' }
+    assert data['names'].all? { |r| r['edition']=='2026' && r['currentEditionVerified'] }
+    assert data['assumptions']['namesComplete']
     %w[Emīlija Teodors Sofija Marks Amēlija Olivers Emma Kārlis Alise Gustavs Anna Roberts Nora Jēkabs Marta Ričards Olīvija Emīls Estere Everts].each { |name| assert data['names'].any? { |r| r['name']==name } }
   end
   def test_cross_year_month_grid_overlays
