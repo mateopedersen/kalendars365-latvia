@@ -1,6 +1,6 @@
 /* High-contrast identity and tool discovery, while retaining the site palette. */
 .page-shell{max-width:1450px;padding:26px clamp(18px,3.5vw,48px) 58px}
-.breadcrumbs{gap:11px;margin-bottom:17px;font-size:12px;color:#7a7380}
+.breadcrumbs{gap:11px;margin-bottom:17px;font-size:13px;color:#5e5360;font-weight:550}
 .page-heading{--hero-a:#fffaf2;--hero-b:#f5e8e1;--hero-ink:#7b2036;position:relative;display:grid;grid-template-columns:minmax(0,1fr) minmax(190px,28%);align-items:center;gap:clamp(18px,4vw,50px);min-height:230px;margin:0 0 30px;padding:clamp(22px,3.3vw,42px);overflow:hidden;border:1px solid #e5d5cf;border-top:4px solid var(--brand);border-radius:25px;background:radial-gradient(ellipse at 7% 0,#fff 0,transparent 52%),linear-gradient(112deg,var(--hero-a),var(--hero-b));box-shadow:0 16px 42px #3f23260c}
 .page-heading:after{position:absolute;right:17%;top:-140px;width:350px;height:350px;border:1px solid #a55a5e13;border-radius:50%;box-shadow:0 0 0 27px #a55a5e08,0 0 0 56px #a55a5e05;content:"";pointer-events:none}
 .page-heading-copy{position:relative;z-index:1;min-width:0}
