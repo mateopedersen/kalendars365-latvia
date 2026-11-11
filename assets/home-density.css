@@ -56,3 +56,11 @@
   .home-more .section-heading > a { max-width: none; font-size: 13px; white-space: nowrap; }
   .home-tool .home-tool-bottom { gap: 8px 12px; }
 }
+
+/* Independent sections below the first screen retain their content and print layout. */
+@media screen {
+ .home-page .home-useful,.home-page .home-more,.home-page .page-reading,.home-page .site-footer { content-visibility:auto;contain-intrinsic-block-size:auto 650px; }
+}
+@media print {
+ .home-page .home-useful,.home-page .home-more,.home-page .page-reading,.home-page .site-footer { content-visibility:visible;contain:none; }
+}

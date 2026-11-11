@@ -1,7 +1,7 @@
 /* Shared privacy card: the same choices and local consent record on every page. */
 body.consent-open{padding-bottom:var(--consent-space,190px)}
 .consent-banner{position:fixed;isolation:isolate;z-index:95;inset:auto 20px max(18px,env(safe-area-inset-bottom));width:auto;max-width:1240px;margin-inline:auto;padding:22px 24px;display:grid;grid-template-columns:88px minmax(0,1fr) 352px;align-items:center;gap:22px;background:radial-gradient(ellipse at 0 100%,#f7e9db80,transparent 42%),linear-gradient(115deg,#fffefa,#fffaf6);border:1px solid #dac1bd;border-radius:24px;color:#352d34;box-shadow:0 18px 60px #42253326,0 3px 12px #4225330a,inset 0 1px 0 #fff;font-family:var(--font-ui);max-height:calc(100vh - 24px);max-height:calc(100dvh - 24px);overflow:auto;overscroll-behavior:contain;scrollbar-width:thin;animation:consent-arrive .35s cubic-bezier(.22,.7,.3,1) both}
-.consent-banner[hidden]{display:none!important}
+.consent-banner[hidden],html[data-consent-saved] .consent-banner{display:none!important}
 .consent-banner:before{content:"";position:absolute;top:0;left:32px;width:94px;height:2px;border-radius:0 0 3px 3px;background:linear-gradient(90deg,#9b5267,#cba383,transparent)}
 .consent-art{display:grid;place-items:center;position:relative;width:88px;height:100px;align-self:center}
 .consent-art:before{content:"";position:absolute;width:86px;height:86px;border-radius:50%;background:radial-gradient(circle at 35% 25%,#fffaf1,#f0e0d5);border:1px solid #fff;box-shadow:0 0 0 6px #eadacf30,inset 0 0 20px #fff8;z-index:-1}

@@ -49,8 +49,8 @@ test('school hub uses verified dates, distinct licensed Latvia photos and class 
     assert.equal(hash(photo.source), photo.sourceSha256);
     for (const file of photo.files) assert.equal(hash(file.src), file.sha256);
   }
-  assert.equal((page.match(/<link[^>]+rel="preload"[^>]+as="image"[^>]+imagesrcset=/g) || []).length, 1, 'Only one school photo preloads');
-  assert.ok(page.includes(`imagesrcset="${photos[0].srcset}"`));
+  assert.equal((page.match(/<link[^>]+rel="preload"[^>]+as="image"[^>]+imagesrcset=/g) || []).length, 0, 'Offscreen school cards do not compete with the hero');
+  assert.equal((page.match(/class="hub-school-photo"[^]*?<img[^>]+loading="lazy"/g)||[]).length,4);
   assert.match(page, /<img[^>]+class="[^"]*v2-scene-photo[^>]+fetchpriority="high"/);
   const sourceBytes = photos.reduce((total, photo) => total + fs.statSync(path.join(root, photo.source)).size, 0);
   const cardBytes = photos.reduce((total, photo) => total + photo.files.at(-1).bytes, 0);

@@ -58,6 +58,11 @@ DATA['sources'].each do |source|
 end
 File.write('assets/calendar-data.json', JSON.generate(DATA))
 File.write('_data/calendar.json', JSON.pretty_generate(DATA)+"\n")
+# Browser views use the same reviewed records without repeated per-name provenance.
+runtime = DATA.merge('names'=>DATA.fetch('names').map { |n| n.select { |k,_v| %w[name month day kind].include?(k) } })
+File.write('assets/calendar-runtime.json', JSON.generate(runtime))
+summary = runtime.merge('names'=>runtime.fetch('names').select { |n| n['kind']=='traditional' })
+File.write('assets/calendar-summary.json', JSON.generate(summary))
 HOLIDAYS = DATA.fetch('holidays', [])
 CITIES = JSON.parse(File.read('_data/cities.json')).fetch('cities')
 EDITORIAL = JSON.parse(File.read('_data/editorial-metadata.json')).fetch('routes').to_h{|r|[r.fetch('url'),r]}

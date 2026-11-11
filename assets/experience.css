@@ -47,7 +47,7 @@ h1,h2,h3,h4{font-family:inherit;letter-spacing:-.45px}h2{font-weight:750}a{text-
 .weather-art-sun,.weather-art-moon,.weather-art-cloud,.weather-art-rain,.weather-art-snow,.weather-art-bolt{display:none}
 .weather-art-sun circle,.weather-art-moon circle:first-child{filter:drop-shadow(0 2px 2px #6b4d3428)}
 .weather-art-cloud{transform-box:fill-box;transform-origin:center;animation:forecast-cloud-float 5.5s ease-in-out infinite alternate}
-.weather-art-rain .rain-drop{stroke-dasharray:3 4;animation:forecast-rain-run .7s linear infinite}
+.weather-art-rain .rain-drop{stroke-dasharray:none;transform-box:fill-box;will-change:transform,opacity;animation:forecast-rain-run .9s linear infinite}
 .weather-art-rain .rain-drop-b{animation-delay:-.24s}.weather-art-rain .rain-drop-c{animation-delay:-.48s}
 .weather-art-snow .snow-flake{animation:forecast-snow-drift 3s ease-in-out infinite alternate}
 .weather-art-snow .snow-b{animation-delay:-1s}.weather-art-snow .snow-c{animation-delay:-2s}
@@ -72,7 +72,7 @@ h1,h2,h3,h4{font-family:inherit;letter-spacing:-.45px}h2{font-weight:750}a{text-
 .weather-summary[data-weather=night] .weather-summary-icon,.weather-summary[data-weather=partly-night] .weather-summary-icon{color:#68749b}
 .weather-summary[data-weather=rain] .weather-summary-icon,.weather-summary[data-weather=storm] .weather-summary-icon,.weather-summary[data-weather=snow] .weather-summary-icon,.weather-summary[data-weather=fog] .weather-summary-icon{color:#667c9c}
 @keyframes forecast-cloud-float{from{translate:-1px 1px}to{translate:2px -1px}}
-@keyframes forecast-rain-run{to{stroke-dashoffset:-14}}
+@keyframes forecast-rain-run{0%{transform:translate(2px,-4px);opacity:0}20%,75%{opacity:1}100%{transform:translate(-2px,5px);opacity:0}}
 @keyframes forecast-snow-drift{from{transform:translateY(-1px)}to{transform:translateY(3px)}}
 @keyframes forecast-bolt-glow{0%,100%{opacity:.82}50%{opacity:1;filter:drop-shadow(0 0 3px #edc35d)}}
 @media(prefers-reduced-motion:reduce){.weather-art-cloud,.weather-art-rain .rain-drop,.weather-art-snow .snow-flake,.weather-art-bolt{animation:none!important}}

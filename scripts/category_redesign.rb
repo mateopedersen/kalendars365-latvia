@@ -19,7 +19,7 @@ CATEGORY_V2 = {
 
 def v2_photo(id,klass='',alt='')
  mapped={'monthly'=>'calendar','weekly'=>'week','ring-planner'=>'planner','desk-tools'=>'alltools','clock'=>'shift','flowers'=>'names','family'=>'family','ligo'=>'culture','school'=>'school','summer'=>'sunrise','winter'=>'moon','autumn'=>'seasons','jurmala'=>'vacation','independence'=>'names'}.fetch(id,id)
- %(<img class="#{klass} v2-illustration" src="/assets/category-vector/#{mapped}.svg?v={{ site.data.build.asset_version }}" alt="#{h(alt)}" width="640" height="520" decoding="async"#{klass.include?('v2-scene-photo') ? ' fetchpriority="high"' : ''}>)
+ %(<img class="#{klass} v2-illustration" src="/assets/category-vector/#{mapped}.svg?v={{ site.data.build.asset_version }}" alt="#{h(alt)}" width="640" height="520" decoding="#{klass.include?('v2-scene-photo') ? 'sync' : 'async'}"#{klass.include?('v2-scene-photo') ? ' loading="eager" fetchpriority="high"' : ''}>)
 end
 
 def v2_calendar_scene(week=false)
