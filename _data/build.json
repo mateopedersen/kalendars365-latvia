@@ -1,6 +1,6 @@
 {
-  "asset_version": "0064ef5f22e05977",
-  "sha256": "0064ef5f22e0597789850077409665a3ff5a63f9836b2e704cb0e7b91a3ba59a",
+  "asset_version": "212f0b9abd7c0808",
+  "sha256": "212f0b9abd7c08081b3ced3a03340e0796ec728884a04e054df41a054cdeb6b9",
   "files": {
     "assets/a3-gallery.css": "1889edd3db55a0a1473cc6711268699d2b19129115f3ab0f59d11f1aa9374c37",
     "assets/app.js": "15faa4ab7606fca98c7b95890df16beb8d528806b5e07478677dbf4e1c1dd3cc",
@@ -155,7 +155,7 @@
     "assets/category-photos/timetable.svg": "a90426d65886845b620bb34fd99b87197a452baeef69d554f658583238974351",
     "assets/category-photos/vacation.svg": "fc49ecf66b6a9d09771a3725c6771733a5f745851945e83c120821fb8034ed23",
     "assets/category-photos/week.svg": "9e1a46d40881a38dc820d7c8f212f2b179df6429754117ebe767f0bf1b9b514a",
-    "assets/category-redesign.css": "57439ce71d8f268354e3f8aafae7ea8811be8241a718e28551bf1e5a29b26731",
+    "assets/category-redesign.css": "8af0b72922f79069d6a911ab29d2cae02f84c4c7988851a67896b172c3014abc",
     "assets/category-redesign.mjs": "78506862873ed9d2fe90f8f399fe864cc72f2cbb2e9e4c4a0098e2fd0b59b465",
     "assets/category-tools.mjs": "1e4ab66364d7b0a8fb3c4df74bfd25e3077f0a5241c4d4d3304690e1ae79c2e5",
     "assets/category-vector/about.svg": "c6a0c4551ab9d32f2bcb4cbf772a66a4099ae9ccebd0964ab8b835f29ddf7134",

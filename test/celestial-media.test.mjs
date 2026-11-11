@@ -11,3 +11,11 @@ for(let year=2027;year<=2030;year++){const html=fs.readFileSync(`_site/meness-ka
 assert.equal(new Set(covers).size,4);
 for(const id of ['moon','phases','astronomy']){const svg=fs.readFileSync(`assets/category-art/${id}.svg`,'utf8');assert(!svg.includes('<image'));assert(svg.includes('vektoru ilustrācija'));}
 console.log('Celestial media: six traced NASA photos, four unique published year covers and three original vector illustrations verified.');
+
+const lunarHome=fs.readFileSync('_site/meness-kalendars/index.html','utf8');
+const hero=lunarHome.match(/<figure class="v2-lunar-photograph">([\s\S]*?)<\/figure>/)?.[1];
+assert(hero,'Moon calendar introduction must use a real documented photograph');
+const apollo=photos.find(p=>p.id==='moon-apollo17');
+assert(hero.includes(apollo.src+'?v=')&&hero.includes(apollo.source));
+assert(hero.includes('/pilsetas-un-fotografijas/#astronomijas-fotografijas'));
+assert(!hero.includes('/category-vector/')&&!lunarHome.includes('Mēness · oriģināla vektoru ilustrācija'));

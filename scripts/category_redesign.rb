@@ -47,7 +47,8 @@ def category_v2_scene(slug,cfg)
  when 'varda-dienas'
   v2_photo('flowers','v2-scene-photo')+'<div class="v2-name-letter"><span class="v2-paper-kicker">VĀRDA DIENAS LATVIJĀ</span><strong>Atceries<br>savējos.</strong><a href="#category-workspace">Atrast vārdu <span>↗</span></a></div>'
  when 'meness-kalendars'
-  '<img class="v2-lunar-landscape" src="/assets/category-vector/phases.svg" alt="" width="960" height="640"><div class="v2-lunar-orb"><img src="/assets/category-vector/moon.svg" alt="" width="360" height="360"></div><span class="v2-mission-label">Mēness · oriģināla vektoru ilustrācija</span>'
+  photo = lunar_cover(2027)
+  %(<figure class="v2-lunar-photograph"><img src="#{h(photo.fetch('src'))}?v={{ site.data.build.asset_version }}" alt="#{h(photo.fetch('alt'))}" width="#{photo.fetch('width')}" height="#{photo.fetch('height')}" fetchpriority="high" decoding="async"><figcaption>#{h(photo.fetch('credit'))} · 19.12.1972. <span>#{a(photo.fetch('source'),'Foto avots')} · #{a('/pilsetas-un-fotografijas/#astronomijas-fotografijas','Izmantošanas noteikumi')}</span></figcaption></figure>)
  when 'meness-fazes'
   '<div class="v2-phase-arc">'+%w[new first full last].each_with_index.map{|phase,i|%(<div><img src="/assets/category-vector/phase-#{phase}.svg" alt="" width="160" height="160"><small>#{['Jaunmēness','Pirmais ceturksnis','Pilnmēness','Pēdējais ceturksnis'][i]}</small></div>)}.join+'</div><span class="v2-mission-label">Mēness cikls · ilustratīvs zīmējums</span>'
  when 'astronomiskais-kalendars'
