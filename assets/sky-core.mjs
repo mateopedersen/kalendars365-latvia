@@ -26,7 +26,10 @@ export function addDays(value, days) {
 }
 export function rigaInstant(value,hour=0,minute=0){return zonedInstant(value,hour,minute,TIME_ZONE);}
 export function zonedInstant(value, hour=0, minute=0, zone=TIME_ZONE) {
-  const date=parseDate(value),desired=Date.UTC(date.getUTCFullYear(),date.getUTCMonth(),date.getUTCDate(),hour,minute);
+  return instantForDate(parseDate(value),hour,minute,zone);
+}
+function instantForDate(date,hour,minute,zone){
+  const desired=Date.UTC(date.getUTCFullYear(),date.getUTCMonth(),date.getUTCDate(),hour,minute);
   let stamp=desired;
   for(let i=0;i<4;i++) {
     const p=Object.fromEntries(partsFor(zone).formatToParts(new Date(stamp)).map(p=>[p.type,p.value]));
@@ -36,7 +39,8 @@ export function zonedInstant(value, hour=0, minute=0, zone=TIME_ZONE) {
   return new Date(stamp);
 }
 export function dayBounds(value,zone=TIME_ZONE) {
-  return {start:zonedInstant(value,0,0,zone),end:zonedInstant(addDays(value,1),0,0,zone)};
+  const date=parseDate(value);
+  return {start:instantForDate(date,0,0,zone),end:instantForDate(new Date(date.getTime()+DAY),0,0,zone)};
 }
 export function formatTime(date,zone=TIME_ZONE) {
   const formatter=zone===TIME_ZONE?timeFormatter:new Intl.DateTimeFormat('lv-LV',{timeZone:zone,hour:'2-digit',minute:'2-digit',hourCycle:'h23'});
@@ -53,7 +57,7 @@ export function citySky(value, city) {
   parseDate(value);
   if(!Number.isFinite(city.lat)||!Number.isFinite(city.lon)||Math.abs(city.lat)>90||Math.abs(city.lon)>180) throw new RangeError('Nederīgas pilsētas koordinātas.');
   const zone=city.timeZone||TIME_ZONE;
-  const key=`${value}|${city.lat}|${city.lon}|${zone}`;if(cache.has(key))return cache.get(key);
+  const key=`${value}|${city.id}|${city.lat}|${city.lon}|${zone}`;if(cache.has(key))return cache.get(key);
   const {start,end}=dayBounds(value,zone),fields=['sunrise','sunset','dawn','dusk','nauticalDawn','nauticalDusk','nightEnd','night','solarNoon','nadir','goldenMorningStart','goldenHourEnd','goldenHour','goldenEveningEnd'];
   const collected=Object.fromEntries(fields.map(k=>[k,[]])),rises=[],sets=[];
   // UTC windows are filtered to the actual IANA civil day: DST days can be 23/25h.

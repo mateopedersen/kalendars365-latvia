@@ -1,0 +1,22 @@
+<div class="sun-experience" data-sun-experience>
+  <figure class="sun-stage" data-sun-stage aria-label="Izvēlētās pilsētas 3D karte un aprēķinātā Saules gaisma">
+    <img class="sun-stage-fallback" data-sun-photo src="{{ sky_city.photo.src }}" alt="{{ sky_city.photo.alt | escape }}" width="960" height="600" loading="lazy">
+    <div class="sun-map" data-sun-map aria-label="Interaktīva 3D pilsētas karte"></div>
+    <div class="sun-stage-top"><span class="sun-stage-badge"><i></i><span data-sun-mode>Gatavo 3D skatu</span></span><span data-sun-light>Dienasgaisma</span></div>
+    <div class="sun-stage-caption"><span class="sun-stage-kicker">PILSĒTA · GAISMA · LAIKS</span><strong data-sun-city>{{ sky_city.name }}</strong><span data-sun-coordinates></span></div>
+    <div class="sun-view-status" data-sun-view-status></div>
+    <div class="sun-map-tools" role="group" aria-label="3D skata vadība">
+      <button type="button" data-sun-rotate="-30" aria-label="Pagriezt skatu pa kreisi par 30 grādiem"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 10a8 8 0 1 1 2 9M4 4v6h6"/></svg></button>
+      <button type="button" data-sun-follow aria-pressed="true" title="Pagriezt kameru Saules virzienā">Sekot Saulei</button>
+      <button type="button" data-sun-rotate="30" aria-label="Pagriezt skatu pa labi par 30 grādiem"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 10a8 8 0 1 0-2 9m2-15v6h-6"/></svg></button>
+    </div>
+  </figure>
+  <div class="sun-scene-meta"><span data-sun-bearing>Skats uz dienvidiem</span><span data-sun-render-status role="status">Ielādē pilsētas karti…</span><button type="button" data-sun-retry hidden>Mēģināt vēlreiz</button></div>
+  <div class="sun-moments" role="group" aria-label="Izvēlies dienas brīdi">
+    <button type="button" data-sun-moment="sunrise"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 17h18M5 21h14M7 17a5 5 0 0 1 10 0M12 3v5m-3-2 3-3 3 3M3 11l2 2m16-2-2 2"/></svg><span>Saullēkts<small data-sun-moment-time="sunrise">—</small></span></button>
+    <button type="button" data-sun-moment="solarNoon"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M2 12h2m16 0h2M5 5l1.5 1.5m11 11L19 19M5 19l1.5-1.5m11-11L19 5"/></svg><span>Pusdienlaiks<small data-sun-moment-time="solarNoon">—</small></span></button>
+    <button type="button" data-sun-moment="sunset"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 17h18M5 21h14M7 17a5 5 0 0 1 10 0M12 3v5m-3-2 3 3 3-3M3 11l2 2m16-2-2 2"/></svg><span>Saulriets<small data-sun-moment-time="sunset">—</small></span></button>
+    <button type="button" data-sun-moment="dusk"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 15a8 8 0 0 1-11-11A8.5 8.5 0 1 0 20 15Z"/><path d="m18 3 .5 2 2 .5-2 .5-.5 2-.5-2-2-.5 2-.5Z"/></svg><span>Vakara krēsla<small data-sun-moment-time="dusk">—</small></span></button>
+  </div>
+  <p class="sun-scene-note">Reālas ielas un ēku kontūras no OpenStreetMap. Ēku augstumi ir aptuveni; gaisma ir aprēķināta, nevis tiešraides laikapstākļi. <a href="#sky-model">Par 3D modeli</a></p>
+</div>

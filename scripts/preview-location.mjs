@@ -10,8 +10,10 @@ const fixture=process.argv.includes('--fixture')?arg('--fixture'):null;
 const fixtures={jurmala:{country:'LV',city:'Jurmala',latitude:'56.97',longitude:'23.80',timezone:'Europe/Riga'},'new-york':{country:'US',city:'New York',latitude:'40.71',longitude:'-74.01',timezone:'America/New_York'}};
 if(fixture&&!fixtures[fixture])throw Error('Unknown local fixture');
 const root=path.resolve('_site'),types={'.html':'text/html; charset=utf-8','.js':'text/javascript; charset=utf-8','.mjs':'text/javascript; charset=utf-8','.json':'application/json; charset=utf-8','.css':'text/css; charset=utf-8','.svg':'image/svg+xml','.webp':'image/webp','.jpg':'image/jpeg','.png':'image/png','.ico':'image/x-icon','.woff2':'font/woff2','.pdf':'application/pdf'};
+const csp=process.argv.includes('--csp')?(await readFile('_headers','utf8')).split('\n').find(line=>line.trim().startsWith('Content-Security-Policy:'))?.trim().slice('Content-Security-Policy:'.length).trim():null;
 http.createServer(async(req,res)=>{
  try{
+  if(csp)res.setHeader('Content-Security-Policy',csp);
   const url=new URL(req.url,`http://127.0.0.1:${port}`),route=url.pathname.replace(/\/$/,'');
   const handler={'/api/atrasanas-vieta':location,'/api/laikapstakli':weather,'/api/noverojumi':observation}[route];
   if(handler){const request=new Request(url,{headers:req.headers});if(fixture)Object.defineProperty(request,'cf',{value:fixtures[fixture]});const reply=await handler({request});res.writeHead(reply.status,Object.fromEntries(reply.headers));res.end(Buffer.from(await reply.arrayBuffer()));return;}

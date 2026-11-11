@@ -1,0 +1,15 @@
+MapLibre GL JS 6.17.0
+Official project: https://github.com/maplibre/maplibre-gl-js/releases/tag/v6.17.0
+Registry: https://registry.npmjs.org/maplibre-gl/6.17.0
+Archive: https://registry.npmjs.org/maplibre-gl/-/maplibre-gl-6.17.0.tgz
+Archive SHA-512 integrity verified before extraction:
+sha512-2chIZwpLGenoUQOcnm9Pk4SLbA8ppNFq8jlpXiq9vcYm3Y1wJ3fc82FL0GLwBaPYJCLzPv/mC46KEupVov75rQ==
+
+SHA-256 of unmodified distribution files:
+e02cb08c572fd0950a75343cd558099c2a1dbbaf67f26b0c96f115431962d1ae  maplibre-gl.mjs
+73d7a024a4efe1a46e49db193e18cfe33271e3ecc652ec7542c281a4ef5f0f04  maplibre-gl-worker.mjs
+a90798a1953017790e590f7e1bd35ff103a8a4263972cb47290b78adf86f8c20  maplibre-gl.css
+ee5fc05a0677eaf69601d2c7db0d9ecd6cc27c3abc1d0733bc9ed34707cf8ef2  LICENSE.txt
+
+BSD-3-Clause; full notices and embedded dependency licenses in LICENSE.txt.
+Imported 2026-11-11. Source-map files are not required for rendering.
