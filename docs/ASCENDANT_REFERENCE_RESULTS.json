@@ -1,0 +1,20 @@
+{
+  "date": "2026-11-11",
+  "samples": 1492,
+  "latviaSamples": 492,
+  "worldSamples": 1000,
+  "maxErrorArcseconds": 4.784417964401655,
+  "maxLatviaErrorArcseconds": 1.0986479527218762,
+  "toleranceArcseconds": 10,
+  "reference": {
+    "engine": "Swiss Ephemeris",
+    "version": "2.10.03",
+    "wrapper": "pyswisseph 2.10.3.2",
+    "method": "houses_ex, tropical, equal houses, ascmc[0]",
+    "source": "https://www.astro.com/swisseph/swephprg.htm",
+    "seed": 365,
+    "scope": "Independent numerical oracle only; no Swiss code shipped in the product."
+  },
+  "fixtureSha256": "ea00732d581f9fa242e1319ed4fdf0d9cdd85f025194caa0d54a883be19b191a",
+  "scope": "Numerical regression comparison, not expert certification or an absolute accuracy guarantee."
+}

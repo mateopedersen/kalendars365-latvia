@@ -1,0 +1,903 @@
+{
+  "schemaVersion": 1,
+  "scope": "Reviewed links inside explanatory prose. No footer, menu, card, or keyword-wide replacements.",
+  "maxLinksPerNote": 4,
+  "maxLinksPerParagraph": 2,
+  "pages": {
+    "/": [
+      {
+        "text": "Latvijas svētku dienas",
+        "url": "/svetku-dienas/"
+      },
+      {
+        "text": "vārda dienas",
+        "url": "/varda-dienas/"
+      },
+      {
+        "text": "izveido savu",
+        "url": "/izveidot-kalendaru/"
+      }
+    ],
+    "/kalendars/": [
+      {
+        "text": "kurā februārī ir 29 dienas",
+        "url": "/blogs/garais-gads-2028-februaris/"
+      },
+      {
+        "text": "drukas veidnes",
+        "url": "/pdf-kalendari/"
+      },
+      {
+        "text": "nedēļas pārskatu",
+        "url": "/nedelas-kalendars/"
+      }
+    ],
+    "/menesa-kalendars/": [
+      {
+        "text": "ISO nedēļu numuri",
+        "url": "/blogs/iso-nedelu-numuri-kalendara/"
+      },
+      {
+        "text": "lejupielādētais kalendārs",
+        "url": "/pdf-kalendari/"
+      },
+      {
+        "text": "gada pārskatu",
+        "url": "/kalendars/"
+      }
+    ],
+    "/nedelas-kalendars/": [
+      {
+        "text": "ISO nedēļa",
+        "url": "/blogs/iso-nedelu-numuri-kalendara/"
+      },
+      {
+        "text": "Mēneša skatu",
+        "url": "/menesa-kalendars/"
+      }
+    ],
+    "/nedelu-numuri/": [
+      {
+        "text": "decembra pēdējās un janvāra pirmajās dienās",
+        "url": "/blogs/iso-nedelu-numuri-kalendara/"
+      },
+      {
+        "text": "nedēļu pārskatos",
+        "url": "/nedelas-kalendars/"
+      }
+    ],
+    "/pdf-kalendari/": [
+      {
+        "text": "Mēness kalendāriem",
+        "url": "/meness-kalendars/"
+      },
+      {
+        "text": "drukas dialoga iestatījumi",
+        "url": "/blogs/personigs-kalendars-fotografijas-druka/"
+      }
+    ],
+    "/izveidot-kalendaru/": [
+      {
+        "text": "Attēla apgriezumu",
+        "url": "/blogs/personigs-kalendars-fotografijas-druka/"
+      },
+      {
+        "text": "Latvijas svētku atzīmes",
+        "url": "/svetku-dienas/"
+      }
+    ],
+    "/tukss-kalendars/": [
+      {
+        "text": "nedēļas izkārtojums",
+        "url": "/nedelas-kalendars/"
+      },
+      {
+        "text": "vairāku cilvēku darbus",
+        "url": "/blogs/gimenes-kalendars-nedelas-planosana/"
+      }
+    ],
+    "/dienas-kalendars/": [
+      {
+        "text": "Dienas piezīme",
+        "url": "/dienas-planotajs/"
+      },
+      {
+        "text": "vairākas dienas",
+        "url": "/datumu-kalkulators/"
+      }
+    ],
+    "/dienas-planotajs/": [
+      {
+        "text": "kopīgai plānošanai",
+        "url": "/blogs/gimenes-kalendars-nedelas-planosana/"
+      },
+      {
+        "text": "Tikšanās ievieto notikumos",
+        "url": "/dienas-kalendars/"
+      }
+    ],
+    "/dzimsanas-dienu-kalendars/": [
+      {
+        "text": "kalendārvārdu sarakstā",
+        "url": "/varda-dienas/"
+      },
+      {
+        "text": "ģimenes kalendārā",
+        "url": "/gimenes-kalendars/"
+      },
+      {
+        "text": "29. februāra dzimšanas dienai",
+        "url": "/blogs/garais-gads-2028-februaris/"
+      }
+    ],
+    "/kalendars-ar-vardu/": [
+      {
+        "text": "tradicionālajā vai paplašinātajā sarakstā",
+        "url": "/blogs/varda-dienas-tradicionalais-paplasinatais-saraksts/"
+      },
+      {
+        "text": "dzimšanas dienu",
+        "url": "/dzimsanas-dienu-kalendars/"
+      },
+      {
+        "text": "personīgais noformējums",
+        "url": "/izveidot-kalendaru/"
+      }
+    ],
+    "/datumu-kalkulators/": [
+      {
+        "text": "2028. gada 28. februāra",
+        "url": "/kalendars/2028/februaris/"
+      },
+      {
+        "text": "darba dienas",
+        "url": "/darba-dienu-kalendars/"
+      },
+      {
+        "text": "atvaļinājumam nepieciešamās dienas",
+        "url": "/atvalinajuma-planotajs/"
+      }
+    ],
+    "/darba-dienu-kalendars/": [
+      {
+        "text": "aprēķina modelis",
+        "url": "/blogs/darba-dienas-un-stundas-ka-skaitit/"
+      },
+      {
+        "text": "atceres dienām",
+        "url": "/atceres-dienas/"
+      },
+      {
+        "text": "cikla veidotāju",
+        "url": "/mainu-grafiks/"
+      }
+    ],
+    "/darba-laika-kalendars/": [
+      {
+        "text": "individuālais režīms",
+        "url": "/mainu-grafiks/"
+      },
+      {
+        "text": "svētku brīvdienām",
+        "url": "/svetku-dienas/"
+      },
+      {
+        "text": "ievades pieņēmumus",
+        "url": "/blogs/darba-dienas-un-stundas-ka-skaitit/"
+      }
+    ],
+    "/atvalinajuma-planotajs/": [
+      {
+        "text": "garāko atpūtu",
+        "url": "/garas-brivdienas/"
+      },
+      {
+        "text": "darba nedēļas izvēli",
+        "url": "/blogs/darba-dienas-un-stundas-ka-skaitit/"
+      }
+    ],
+    "/garas-brivdienas/": [
+      {
+        "text": "svētku brīvdiena",
+        "url": "/svetku-dienas/"
+      },
+      {
+        "text": "atvaļinājuma plānotājā",
+        "url": "/atvalinajuma-planotajs/"
+      },
+      {
+        "text": "maiņu grafiku",
+        "url": "/mainu-grafiks/"
+      }
+    ],
+    "/mainu-grafiks/": [
+      {
+        "text": "Darba laika uzskaitei",
+        "url": "/blogs/darba-dienas-un-stundas-ka-skaitit/"
+      },
+      {
+        "text": "atvaļinājuma saskaņošanai",
+        "url": "/atvalinajuma-planotajs/"
+      }
+    ],
+    "/gimenes-kalendars/": [
+      {
+        "text": "aizvešanu un sagaidīšanu",
+        "url": "/blogs/gimenes-kalendars-nedelas-planosana/"
+      },
+      {
+        "text": "nodarbības laiks",
+        "url": "/stundu-saraksts/"
+      }
+    ],
+    "/stundu-saraksts/": [
+      {
+        "text": "Skolas brīvlaiki",
+        "url": "/skolas-brivlaiki/"
+      },
+      {
+        "text": "augstskolas jaunāko paziņojumu",
+        "url": "/studiju-kalendars/"
+      }
+    ],
+    "/skolas-brivlaiki/": [
+      {
+        "text": "klašu grupu",
+        "url": "/blogs/skolas-brivlaiki-2027-gimenes-plans/"
+      },
+      {
+        "text": "universitāšu ziemas vai vasaras pārtraukuma datumi",
+        "url": "/studiju-kalendars/"
+      }
+    ],
+    "/skolas-kalendars/": [
+      {
+        "text": "brīvlaiku periodus",
+        "url": "/skolas-brivlaiki/"
+      },
+      {
+        "text": "pārbaudes darbu grafiku",
+        "url": "/valsts-parbaudes-darbi/"
+      }
+    ],
+    "/studiju-kalendars/": [
+      {
+        "text": "lekciju periods, eksāmenu sesija un brīvlaiks",
+        "url": "/blogs/studiju-kalendars-sesija-un-brivlaiks/"
+      }
+    ],
+    "/valsts-parbaudes-darbi/": [
+      {
+        "text": "Sagatavošanās plānā",
+        "url": "/stundu-saraksts/"
+      },
+      {
+        "text": "mācību gadu",
+        "url": "/skolas-kalendars/"
+      }
+    ],
+    "/svetku-dienas/": [
+      {
+        "text": "atceres dienas",
+        "url": "/atceres-dienas/"
+      },
+      {
+        "text": "Lieldienu cikla datumi",
+        "url": "/svetki-un-tradicijas/lieldienas/"
+      },
+      {
+        "text": "darba laika plānā",
+        "url": "/darba-dienu-kalendars/"
+      }
+    ],
+    "/atceres-dienas/": [
+      {
+        "text": "svētku brīvdienām",
+        "url": "/svetku-dienas/"
+      },
+      {
+        "text": "pasākumu programma",
+        "url": "/svetki-un-tradicijas/"
+      }
+    ],
+    "/nozimigas-dienas/": [
+      {
+        "text": "kultūras tradīcijas",
+        "url": "/svetki-un-tradicijas/"
+      },
+      {
+        "text": "ģimenes plānam",
+        "url": "/gimenes-kalendars/"
+      }
+    ],
+    "/svetki-un-tradicijas/": [
+      {
+        "text": "Lieldienām",
+        "url": "/svetki-un-tradicijas/lieldienas/"
+      },
+      {
+        "text": "rudens ekvinokcija",
+        "url": "/gadalaiki/#season-autumn"
+      },
+      {
+        "text": "Miķeļi",
+        "url": "/svetki-un-tradicijas/mikeli/"
+      }
+    ],
+    "/varda-dienas/": [
+      {
+        "text": "Tradicionālais kalendārvārdu saraksts un paplašinātais saraksts",
+        "url": "/blogs/varda-dienas-tradicionalais-paplasinatais-saraksts/"
+      },
+      {
+        "text": "Personīgā apsveikumu plānā",
+        "url": "/gimenes-kalendars/"
+      }
+    ],
+    "/meness-kalendars/": [
+      {
+        "text": "vietējais pulksteņa laiks un reizēm kalendāra datums",
+        "url": "/blogs/meness-fazes-un-vietejais-laiks/"
+      },
+      {
+        "text": "Mēness lēkts, riets",
+        "url": "/meness-lekts-un-riets/"
+      }
+    ],
+    "/meness-fazes/": [
+      {
+        "text": "konkrētu astronomisko brīdi",
+        "url": "/blogs/meness-fazes-un-vietejais-laiks/"
+      },
+      {
+        "text": "dienu kalendāru",
+        "url": "/meness-kalendars/"
+      }
+    ],
+    "/pilnmeness/": [
+      {
+        "text": "Pilnmēness ir viens aprēķināts brīdis",
+        "url": "/blogs/meness-fazes-un-vietejais-laiks/"
+      },
+      {
+        "text": "Mēness lēktu, rietu",
+        "url": "/meness-lekts-un-riets/"
+      },
+      {
+        "text": "Saules laikiem",
+        "url": "/saullekts-saulriets/"
+      }
+    ],
+    "/jaunmeness/": [
+      {
+        "text": "precīzo fāzes laiku",
+        "url": "/meness-fazes/"
+      },
+      {
+        "text": "Mēness lēkta un rieta laikiem",
+        "url": "/meness-lekts-un-riets/"
+      }
+    ],
+    "/meness-lekts-un-riets/": [
+      {
+        "text": "Attēla apgaismojuma procents",
+        "url": "/blogs/meness-fazes-un-vietejais-laiks/"
+      }
+    ],
+    "/saullekts-saulriets/": [
+      {
+        "text": "Rīgā",
+        "url": "/saullekts-saulriets/riga/"
+      },
+      {
+        "text": "Liepājā",
+        "url": "/saullekts-saulriets/liepaja/"
+      },
+      {
+        "text": "zeltainās stundas",
+        "url": "/blogs/zelta-stunda-latvija-fotoplanosana/"
+      },
+      {
+        "text": "Dienas garums",
+        "url": "/dienas-garums/"
+      }
+    ],
+    "/dienas-garums/": [
+      {
+        "text": "sezonas maiņu",
+        "url": "/blogs/ziemas-dienas-garums-latvija/"
+      },
+      {
+        "text": "Pulksteņa pāreja",
+        "url": "/pulkstena-pargriesana/"
+      },
+      {
+        "text": "saullēkta un saulrieta",
+        "url": "/saullekts-saulriets/"
+      }
+    ],
+    "/gadalaiki/": [
+      {
+        "text": "atšķirīgi gadalaiku sākumi",
+        "url": "/blogs/rudens-latvija-gadalaiki-un-izbraucieni/"
+      },
+      {
+        "text": "Dārza darbus",
+        "url": "/blogs/pavasara-seja-latvija-darza-plans/"
+      },
+      {
+        "text": "tradīciju aprakstus",
+        "url": "/svetki-un-tradicijas/"
+      }
+    ],
+    "/astronomiskais-kalendars/": [
+      {
+        "text": "Mēness fāzes",
+        "url": "/meness-kalendars/"
+      },
+      {
+        "text": "Meteorplūsmas sezonas",
+        "url": "/blogs/perseidas-latvija-noverojumu-plans/"
+      },
+      {
+        "text": "aptumsuma katalogs",
+        "url": "/meness-aptumsums/"
+      }
+    ],
+    "/meness-aptumsums/": [
+      {
+        "text": "Mēness lēkta",
+        "url": "/meness-lekts-un-riets/"
+      },
+      {
+        "text": "vietējo datumu",
+        "url": "/blogs/meness-fazes-un-vietejais-laiks/"
+      }
+    ],
+    "/perseidas/": [
+      {
+        "text": "salīdzini vairākas piemērotas naktis",
+        "url": "/blogs/perseidas-latvija-noverojumu-plans/"
+      },
+      {
+        "text": "Mēness laikus",
+        "url": "/meness-lekts-un-riets/"
+      }
+    ],
+    "/sejas-kalendars/": [
+      {
+        "text": "Pavasara sējas plānā",
+        "url": "/blogs/pavasara-seja-latvija-darza-plans/"
+      },
+      {
+        "text": "Tomātu sēju un izstādīšanu",
+        "url": "/blogs/tomatu-seja-un-izstadisana-latvija/"
+      }
+    ],
+    "/garais-gads/": [
+      {
+        "text": "2028., kurā februārim ir 29 dienas",
+        "url": "/blogs/garais-gads-2028-februaris/"
+      },
+      {
+        "text": "29. februārī",
+        "url": "/kalendars/2028/februaris/"
+      },
+      {
+        "text": "datumu starpības",
+        "url": "/datumu-kalkulators/"
+      }
+    ],
+    "/gada-diena/": [
+      {
+        "text": "ISO nedēļa",
+        "url": "/nedelu-numuri/"
+      },
+      {
+        "text": "29. februāris",
+        "url": "/blogs/garais-gads-2028-februaris/"
+      },
+      {
+        "text": "datumu kalkulators",
+        "url": "/datumu-kalkulators/"
+      }
+    ],
+    "/pulkstena-pargriesana/": [
+      {
+        "text": "Saullēkta pulksteņa laika",
+        "url": "/blogs/saullekts-saulriets-latvijas-pilsetas/"
+      },
+      {
+        "text": "dienas garuma",
+        "url": "/dienas-garums/"
+      }
+    ],
+    "/horoskopa-zimes-kalkulators/": [
+      {
+        "text": "zodiaka zīmju simboliku",
+        "url": "/zodiaka-zimes/"
+      },
+      {
+        "text": "pulksteņa pārejas",
+        "url": "/pulkstena-pargriesana/"
+      }
+    ],
+    "/horoskops/": [
+      {
+        "text": "astronomijas kalendāru",
+        "url": "/astronomiskais-kalendars/"
+      },
+      {
+        "text": "nelielu uzdevumu",
+        "url": "/dienas-planotajs/"
+      }
+    ],
+    "/zodiaka-zimes/": [
+      {
+        "text": "Dzimšanas datuma kalkulators",
+        "url": "/horoskopa-zimes-kalkulators/"
+      },
+      {
+        "text": "dienas plānošanai",
+        "url": "/dienas-planotajs/"
+      }
+    ],
+    "/svetki-un-tradicijas/ligo-diena/": [
+      {
+        "text": "vienas nedēļas sagatavošanās atgādinājums",
+        "url": "/blogs/ligo-un-jani-planosana-latvija/"
+      },
+      {
+        "text": "2027. gada 23. jūnijs",
+        "url": "/kalendars/2027/junijs/"
+      }
+    ],
+    "/svetki-un-tradicijas/janu-diena/": [
+      {
+        "text": "vienas nedēļas sagatavošanās atgādinājums",
+        "url": "/blogs/ligo-un-jani-planosana-latvija/"
+      },
+      {
+        "text": "2027. gada 24. jūnijs",
+        "url": "/kalendars/2027/junijs/"
+      }
+    ],
+    "/svetki-un-tradicijas/lieldienas/": [
+      {
+        "text": "vienas nedēļas sagatavošanās atgādinājums",
+        "url": "/blogs/lieldienas-2027-datumi-un-plani/"
+      },
+      {
+        "text": "2027. gada 28. marts",
+        "url": "/kalendars/2027/marts/"
+      }
+    ],
+    "/svetki-un-tradicijas/latvijas-republikas-proklamesanas-diena/": [
+      {
+        "text": "Svētku brīvdienas statusu",
+        "url": "/blogs/latvijas-svetku-dienas-2027-planosana/"
+      },
+      {
+        "text": "2027. gada 18. novembris",
+        "url": "/kalendars/2027/novembris/"
+      }
+    ],
+    "/svetki-un-tradicijas/mikeli/": [
+      {
+        "text": "astronomiskās rudens ekvinokcijas brīdis",
+        "url": "/blogs/rudens-latvija-gadalaiki-un-izbraucieni/"
+      }
+    ],
+    "/svetki-un-tradicijas/ziemas-saulgriezi/": [
+      {
+        "text": "vienas nedēļas sagatavošanās atgādinājums",
+        "url": "/blogs/ziemas-dienas-garums-latvija/"
+      }
+    ],
+    "/sejas-kalendars/tomati/": [
+      {
+        "text": "Tomātu sējai un izstādīšanai",
+        "url": "/blogs/tomatu-seja-un-izstadisana-latvija/"
+      }
+    ],
+    "/sejas-kalendars/burkani/": [
+      {
+        "text": "vietas sējas un pārbaudes pieraksts",
+        "url": "/blogs/pavasara-seja-latvija-darza-plans/"
+      }
+    ]
+  },
+  "families": {
+    "calendar_month": [
+      {
+        "text": "ISO nedēļas",
+        "url": "/nedelu-numuri/"
+      },
+      {
+        "text": "svētku brīvdienu",
+        "url": "%{holiday_url}"
+      },
+      {
+        "text": "pamatdarbadienu skaits",
+        "url": "%{work_url}"
+      },
+      {
+        "text": "2028. gada 29. februāris",
+        "url": "/blogs/garais-gads-2028-februaris/",
+        "year": 2028
+      },
+      {
+        "text": "drukas veidni",
+        "url": "%{print_url}"
+      }
+    ],
+    "year": [
+      {
+        "text": "ISO nedēļu gads",
+        "url": "/blogs/iso-nedelu-numuri-kalendara/"
+      },
+      {
+        "text": "svētku brīvdienu",
+        "url": "%{holiday_url}"
+      },
+      {
+        "text": "darbadienu skaits",
+        "url": "%{work_url}"
+      }
+    ],
+    "month_index": [
+      {
+        "text": "februārī ir 29 dienas",
+        "url": "/blogs/garais-gads-2028-februaris/",
+        "year": 2028
+      },
+      {
+        "text": "drukas veidnēm",
+        "url": "%{print_url}"
+      },
+      {
+        "text": "nākamā mēneša sākumu",
+        "url": "%{calendar_url}"
+      }
+    ],
+    "iso_week": [
+      {
+        "text": "nedēļu numerācijas kārtību",
+        "url": "/blogs/iso-nedelu-numuri-kalendara/"
+      },
+      {
+        "text": "svētku brīvdienu",
+        "url": "%{holiday_url}"
+      },
+      {
+        "text": "maiņās",
+        "url": "/mainu-grafiks/"
+      }
+    ],
+    "week_index": [
+      {
+        "text": "nedēļu gadā",
+        "url": "/blogs/iso-nedelu-numuri-kalendara/"
+      },
+      {
+        "text": "mēneša kalendāru",
+        "url": "%{calendar_url}"
+      }
+    ],
+    "print_month": [
+      {
+        "text": "PDF un Attēls pogas",
+        "url": "/blogs/personigs-kalendars-fotografijas-druka/"
+      },
+      {
+        "text": "datumu izkārtojums",
+        "url": "%{calendar_url}"
+      },
+      {
+        "text": "svētku brīvdienu",
+        "url": "%{holiday_url}"
+      }
+    ],
+    "print_index": [
+      {
+        "text": "PDF un Attēls pogas",
+        "url": "/blogs/personigs-kalendars-fotografijas-druka/"
+      },
+      {
+        "text": "datumu izkārtojums",
+        "url": "%{calendar_url}"
+      },
+      {
+        "text": "svētku brīvdienu",
+        "url": "%{holiday_url}"
+      }
+    ],
+    "lunar_month": [
+      {
+        "text": "galveno Mēness fāžu brīžu",
+        "url": "/meness-fazes/"
+      },
+      {
+        "text": "diska apgaismojums",
+        "url": "/blogs/meness-fazes-un-vietejais-laiks/"
+      },
+      {
+        "text": "vietējos lēkta un rieta aprēķinus",
+        "url": "/meness-lekts-un-riets/"
+      }
+    ],
+    "lunar_year": [
+      {
+        "text": "galveno Mēness fāžu brīžu",
+        "url": "/meness-fazes/"
+      },
+      {
+        "text": "Fāžu cikls",
+        "url": "/blogs/meness-fazes-un-vietejais-laiks/"
+      }
+    ],
+    "work_month": [
+      {
+        "text": "pirmdienas–piektdienas bāze",
+        "url": "/blogs/darba-dienas-un-stundas-ka-skaitit/"
+      },
+      {
+        "text": "maiņu grafiks",
+        "url": "/mainu-grafiks/"
+      },
+      {
+        "text": "svētku brīvdienu",
+        "url": "%{holiday_url}"
+      }
+    ],
+    "work_year": [
+      {
+        "text": "pirmdienas–piektdienas bāze",
+        "url": "/blogs/darba-dienas-un-stundas-ka-skaitit/"
+      },
+      {
+        "text": "maiņu grafiks",
+        "url": "/mainu-grafiks/"
+      },
+      {
+        "text": "svētku brīvdienu",
+        "url": "%{holiday_url}"
+      }
+    ],
+    "holiday_year": [
+      {
+        "text": "svētku datumi",
+        "url": "/blogs/latvijas-svetku-dienas-2027-planosana/",
+        "year": 2027
+      },
+      {
+        "text": "atvaļinājuma plānam",
+        "url": "/atvalinajuma-planotajs/"
+      },
+      {
+        "text": "darba dienu",
+        "url": "%{work_url}"
+      }
+    ],
+    "holiday_month": [
+      {
+        "text": "svētku datumi",
+        "url": "/blogs/latvijas-svetku-dienas-2027-planosana/",
+        "year": 2027
+      },
+      {
+        "text": "atvaļinājuma plānam",
+        "url": "/atvalinajuma-planotajs/"
+      },
+      {
+        "text": "brīvu darba dienu",
+        "url": "%{work_url}"
+      }
+    ],
+    "memorial_year": [
+      {
+        "text": "brīvu darba dienu",
+        "url": "%{work_url}"
+      },
+      {
+        "text": "svētku brīvdienu",
+        "url": "%{holiday_url}"
+      }
+    ],
+    "long_weekends": [
+      {
+        "text": "atvaļinājuma darba dienu skaits",
+        "url": "/blogs/atvalinajums-2027-garas-brivdienas/",
+        "year": 2027
+      },
+      {
+        "text": "nedēļas modeļa",
+        "url": "/atvalinajuma-planotajs/"
+      },
+      {
+        "text": "svētku brīvdienu",
+        "url": "%{holiday_url}"
+      }
+    ],
+    "sun_city": [
+      {
+        "text": "standarta horizontā",
+        "url": "/blogs/saullekts-saulriets-latvijas-pilsetas/"
+      },
+      {
+        "text": "Dienas garuma salīdzinājuma piemērs",
+        "url": "/dienas-garums/"
+      }
+    ],
+    "moon_city": [
+      {
+        "text": "Diska fāze pati par sevi",
+        "url": "/blogs/meness-fazes-un-vietejais-laiks/"
+      },
+      {
+        "text": "Europe/Riga",
+        "url": "/pulkstena-pargriesana/"
+      }
+    ],
+    "name_calendar": [
+      {
+        "text": "tradicionālais un paplašinātais kalendārs",
+        "url": "/blogs/varda-dienas-tradicionalais-paplasinatais-saraksts/"
+      },
+      {
+        "text": "Dzimšanas dienu",
+        "url": "/dzimsanas-dienu-kalendars/"
+      }
+    ],
+    "name_day_month": [
+      {
+        "text": "tradicionālā saraksta ierakstu",
+        "url": "/blogs/varda-dienas-tradicionalais-paplasinatais-saraksts/"
+      },
+      {
+        "text": "personīgu atgādinājumu",
+        "url": "/gimenes-kalendars/"
+      }
+    ],
+    "garden_month": [
+      {
+        "text": "augsnes vai salnu nosacījumi",
+        "url": "/blogs/pavasara-seja-latvija-darza-plans/"
+      },
+      {
+        "text": "faktiskā darba dienu",
+        "url": "/dienas-kalendars/"
+      }
+    ],
+    "occasion": [
+      {
+        "text": "Svētku brīvdienas statusu",
+        "url": "/svetku-dienas/"
+      },
+      {
+        "text": "sākuma laiku",
+        "url": "/dienas-kalendars/"
+      }
+    ],
+    "latvia_cultural": [
+      {
+        "text": "darba brīvdienu Latvijā",
+        "url": "/svetku-dienas/"
+      },
+      {
+        "text": "Kalendāra piezīmē",
+        "url": "/dienas-kalendars/"
+      }
+    ],
+    "horoscope": [
+      {
+        "text": "zīmes apraksts",
+        "url": "/zodiaka-zimes/"
+      },
+      {
+        "text": "vienu darbību un datumu",
+        "url": "/dienas-planotajs/"
+      }
+    ]
+  }
+}

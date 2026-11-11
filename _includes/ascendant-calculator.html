@@ -1,0 +1,51 @@
+{% assign ascendant_catalog = site.data['ascendant-places'] %}
+<section class="ascendant-calculator" id="ascendenta-kalkulators" data-ascendant-calculator aria-labelledby="ascendant-title">
+  <header class="ascendant-heading">
+    <div><span class="ascendant-eyebrow">DZIMŠANAS BRĪDIS · TROPISKAIS ZODIAKS</span><h2 id="ascendant-title">Kāda ir tava uzlecošā zīme?</h2><p>Aprēķini ascendentu pēc dzimšanas datuma, precīza pulksteņa laika un vietas.</p></div>
+    <span class="ascendant-private"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 10V7a5 5 0 0 1 10 0v3M6 10h12v11H6zM12 14v3"/></svg>Dati paliek tavā pārlūkā</span>
+  </header>
+  <div class="ascendant-layout">
+    <form class="ascendant-form" novalidate autocomplete="off">
+      <div class="ascendant-step"><span>01</span><h3>Dzimšanas datums un laiks</h3></div>
+      <div class="ascendant-fields">
+        <label for="ascendant-date">Dzimšanas datums<input id="ascendant-date" name="birthDate" type="date" min="1900-01-01" max="2100-12-31" required aria-describedby="ascendant-time-help"></label>
+        <label for="ascendant-time">Vietējais laiks<input id="ascendant-time" name="birthTime" type="time" step="1" required aria-describedby="ascendant-time-help"></label>
+      </div>
+      <p class="ascendant-hint" id="ascendant-time-help">Ievadi dzimšanas vietā reģistrēto pulksteņa laiku. Vasaras laiku pielāgosim automātiski.</p>
+      <div class="ascendant-step"><span>02</span><h3>Dzimšanas vieta</h3></div>
+      <div class="ascendant-fields ascendant-place-fields">
+        <label for="ascendant-country">Valsts<select id="ascendant-country" name="country">{% for country in ascendant_catalog.countries %}<option value="{{ country.code }}"{% if country.code == 'LV' %} selected{% endif %}>{{ country.name | escape }}</option>{% endfor %}</select></label>
+        <div class="ascendant-city-field"><label for="ascendant-city">Pilsēta</label><input id="ascendant-city" name="city" type="text" autocomplete="off" spellcheck="false" placeholder="Sāc rakstīt pilsētas nosaukumu" role="combobox" aria-autocomplete="list" aria-expanded="false" aria-controls="ascendant-city-options" aria-describedby="ascendant-place-status"><ul id="ascendant-city-options" class="ascendant-city-options" role="listbox" aria-label="Dzimšanas pilsētas" hidden></ul></div>
+      </div>
+      <p class="ascendant-place-status ascendant-hint" id="ascendant-place-status" role="status">Izvēlies dzimšanas pilsētu. Latvijā pieejamas visas 82 pilsētas.</p>
+      <button type="button" class="ascendant-retry" data-ascendant-retry hidden>Mēģināt ielādēt pilsētas vēlreiz</button>
+      <label class="ascendant-check"><input name="manual" type="checkbox"><span>Ievadīt koordinātas un laika joslu pašam</span></label>
+      <div class="ascendant-manual" data-ascendant-manual hidden>
+        <div class="ascendant-fields"><label for="ascendant-lat">Platums, grādi<input id="ascendant-lat" name="latitude" type="text" inputmode="decimal" placeholder="56,9475"></label><label for="ascendant-lon">Garums, grādi<input id="ascendant-lon" name="longitude" type="text" inputmode="decimal" placeholder="24,1069"></label></div>
+        <label for="ascendant-zone">IANA laika josla<input id="ascendant-zone" name="timeZone" type="text" list="ascendant-zones" autocomplete="off" spellcheck="false" placeholder="Europe/Riga"></label><datalist id="ascendant-zones"></datalist>
+        <p class="ascendant-hint">Ziemeļi un austrumi ir pozitīvi, dienvidi un rietumi negatīvi. Izvēlies vietas vēsturisko laika joslu, nevis pašreizējo UTC nobīdi.</p>
+      </div>
+      <div class="ascendant-step"><span>03</span><h3>Laika precizitāte</h3></div>
+      <label for="ascendant-uncertainty">Iespējamā dzimšanas laika kļūda<select id="ascendant-uncertainty" name="uncertainty"><option value="0">Lietot ievadīto laiku</option><option value="1">± 1 minūte</option><option value="5">± 5 minūtes</option><option value="15">± 15 minūtes</option><option value="30">± 30 minūtes</option><option value="60">± 1 stunda</option></select></label>
+      <fieldset class="ascendant-fold" data-ascendant-fold hidden><legend>Šis pulksteņa laiks tajā dienā atkārtojas</legend><p>Pārejot uz ziemas laiku vai mainot laika joslu, viens laiks var būt divos atšķirīgos brīžos. Izvēlies dzimšanas ierakstam atbilstošo variantu.</p><div data-ascendant-fold-options></div></fieldset>
+      <p class="ascendant-error" data-ascendant-error role="alert" hidden></p>
+      <div class="ascendant-actions"><button type="submit" class="ascendant-submit"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="m12 4 2.6 5.4L20 12l-5.4 2.6L12 20l-2.6-5.4L4 12l5.4-2.6z"/></svg><span>Aprēķināt ascendentu</span></button><button type="reset" class="ascendant-reset">Notīrīt</button></div>
+      <p class="ascendant-hint ascendant-feedback" data-ascendant-feedback role="status"></p>
+      <noscript><p class="ascendant-error">Lai aprēķinātu ascendentu tavā ierīcē, ieslēdz JavaScript.</p></noscript>
+    </form>
+    <div class="ascendant-summary">
+      <div class="ascendant-wheel" data-ascendant-wheel aria-hidden="true">{% include ascendant-wheel.svg %}</div>
+      <div class="ascendant-intro" data-ascendant-intro><span class="ascendant-eyebrow">ASCENDENTS · ASC</span><h3>Tavs dzimšanas brīdis zodiaka aplī.</h3><p>Ascendents ir ekliptikas punkts, kas dzimšanas brīdī atrodas pie austrumu horizonta. Tā zīme var atšķirties no tavas Saules zīmes.</p><p class="ascendant-hint">Ja dzimšanas laiks nav zināms, droši noteikt ascendentu nevar.</p></div>
+      <section class="ascendant-result" data-ascendant-result aria-labelledby="ascendant-result-title" hidden tabindex="-1">
+        <span class="ascendant-eyebrow">TAVS ASCENDENTS</span>
+        <div class="ascendant-result-heading"><img src="/assets/zodiac/auns.svg?v={{ site.data.build.asset_version }}" data-ascendant-sign-image width="76" height="76" alt="" hidden><div><h3 id="ascendant-result-title" data-ascendant-sign></h3><p class="ascendant-degree" data-ascendant-degree></p></div></div>
+        <p class="ascendant-result-note" data-ascendant-stability></p>
+        <dl class="ascendant-facts" data-ascendant-facts></dl>
+        <a class="ascendant-result-link" data-ascendant-sign-link href="/zodiaka-zimes/">Iepazīt šīs zīmes simboliku <span aria-hidden="true">↗</span></a>
+        <p class="ascendant-hint">Astroloģiskā interpretācija ir izklaide, nevis zinātniski pamatots personības novērtējums.</p>
+      </section>
+    </div>
+  </div>
+  <details class="ascendant-method"><summary>Kā notiek aprēķins un cik precīzs tas ir?</summary><div class="ascendant-method-grid"><div><h3>Debess ģeometrija</h3><p>Izmantojam tropisko zodiaku: 12 vienādus 30° sektorus no pavasara ekvinokcijas punkta. Aprēķinām patiesās ekliptikas un ģeometriskā austrumu horizonta krustpunktu pēc <a href="https://github.com/cosinekitty/astronomy">Astronomy Engine</a> zvaigžņu laika un ekliptikas slīpuma. Zīmju sektori nav astronomisko zvaigznāju robežas.</p><p>Rezultātu rāda līdz loka minūtei. Ļoti tuvu zīmes robežai izšķirošs var būt precīzāks dzimšanas laiks. Polu tuvumā aprēķins ir īpaši jutīgs; pašos polos to nenosakām.</p></div><div><h3>Laika joslas un vietas</h3><p>Vēsturiskā vasaras laika pārejas ir ņemtas no <a href="https://www.iana.org/time-zones">IANA laika joslu datiem</a> <span data-ascendant-tz-version>2026f</span>. Neesošu laiku noraidām, bet atkārtotam laikam piedāvājam abus variantus. Pirms 1970. gada ieraksti atsevišķās vietās var būt nepilnīgi; salīdzini tos ar dzimšanas dokumentiem.</p><p>Latvijas 82 pilsētu koordinātas ir no <a href="/avoti-un-metodika/">vietnes pilsētu kataloga</a>. Citām valstīm izmantojam <a href="https://www.geonames.org/">GeoNames</a> lielāko pilsētu katalogu (<a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>). Ja mazāka vieta nav sarakstā, ievadi tās koordinātas un laika joslu pats.</p></div></div><p>Pieejamais dzimšanas datumu diapazons ir 1900.–2100. gads. Nākotnes laika joslas balstās uz pašlaik publicētajiem noteikumiem; likumu izmaiņas vēlāk var tos mainīt. UTC izmantots kā UT1 tuvinājums. Pie ļoti tuvas zīmes robežas astronomiskā modeļa un vēsturisko datu nenoteiktība var ietekmēt zīmes izvēli.</p></details>
+  <script type="application/json" data-ascendant-places>{{ ascendant_catalog | jsonify }}</script>
+</section>

@@ -37,6 +37,21 @@ test('all rendered articles contain their contextual anchors, curated related to
  }
 });
 
+test('related topic photos resolve to existing responsive derivatives for every topic',()=>{
+ let count=0;
+ for(const id of Object.keys(registry)){
+  const related=block(htmlFor(id),'related');
+  for(const image of related.matchAll(/<img\b[^>]*>/g)){
+   const src=image[0].match(/\bsrc="([^"]*)"/)?.[1];
+   assert(src?.startsWith('/assets/'),id+' related photo source');
+   assert(fs.existsSync('_site'+src),id+' '+src);
+   assert.match(image[0],/\bsrcset="[^\"]+"/,id+' responsive related photo');
+   count++;
+  }
+ }
+ assert(count>150,'Related cards must retain their photos across the whole directory');
+});
+
 test('reader-facing primary sources are named, unique and synchronized with the topic directory data',()=>{
  const directory=read('assets/category-data.json').articles;assert.equal(directory.length,73);
  for(const [id,e] of Object.entries(registry)){

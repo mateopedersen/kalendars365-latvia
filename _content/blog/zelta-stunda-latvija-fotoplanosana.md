@@ -10,7 +10,7 @@ Ja iespējams, apskati vietu iepriekš. Pievērs uzmanību kokiem, ēkām un tam
 
 ## Pārbaudi pareizo pilsētu un datumu
 
-Saulrieta laiks mainās katru dienu un atšķiras starp pilsētām. Rīgas tabula nav precīzs aizstājējs Liepājas piekrastei vai Latvijas austrumu daļai. Izvēlies tuvāko vietu un saglabā datumu kopā ar laiku. Ja iecere pārcelta par vairākām nedēļām, aprēķinu pārbaudi no jauna.
+Saulrieta laiks mainās katru dienu un atšķiras starp pilsētām. [Rīgas tabula](/saullekts-saulriets/riga/) nav precīzs aizstājējs [Liepājas piekrastei](/saullekts-saulriets/liepaja/) vai Latvijas austrumu daļai. Izvēlies tuvāko vietu un saglabā datumu kopā ar laiku. Ja iecere pārcelta par vairākām nedēļām, aprēķinu pārbaudi no jauna.
 
 Tabulā redzamais saulriets attiecas uz [aprēķina horizontu](https://aa.usno.navy.mil/faq/RST_defs). Ja tavā kompozīcijā priekšā ir augsta ēka, tiešā saules gaisma var pazust agrāk. Tāpēc ierašanās tieši saulrieta minūtē var būt par vēlu. Ieplāno laiku vietas atrašanai, tehnikas sagatavošanai un dažiem izmēģinājuma kadriem pirms galvenā brīža.
 
@@ -34,7 +34,7 @@ Izveido īsu sarakstu ar dažām iecerētām kompozīcijām, nevis mēģini iepr
 
 ## Saulriets nav obligāts fotografēšanas noslēgums
 
-Pēc Saules pazušanas zem horizonta turpinās krēsla, un gaismas raksturs mainās. Tas var būt piemērots citai noskaņai, taču atkarīgs no konkrētajiem apstākļiem. Neuzskati šo posmu par vienādu visos gadalaikos. Latvijas vasaras vakars un rudens vakars var piedāvāt ļoti atšķirīgu darba ilgumu un temperatūru.
+Pēc Saules pazušanas zem horizonta turpinās krēsla, un gaismas raksturs mainās. Tas var būt piemērots citai noskaņai, taču atkarīgs no konkrētajiem apstākļiem. Neuzskati šo posmu par vienādu visos gadalaikos. [Latvijas vasaras vakars un rudens vakars](/gadalaiki/) var piedāvāt ļoti atšķirīgu darba ilgumu un temperatūru.
 
 Atgriešanās ceļu ieplāno atsevišķi, īpaši nepazīstamā vietā. Zināms maršruts un piemērots aprīkojums palīdz nepārvērst vakara fotografēšanu steidzīgā nokļūšanā mājās. Ja kopā ir citi cilvēki, paziņo, kad paredzēta izbraukšana, un saskaņo izmaiņas, nevis pieņem, ka visi gaidīs neierobežoti ilgi.
 
@@ -48,6 +48,4 @@ Ja izmēģinājums nav iespējams, saglabā plašāku rezervi un mazāku iecerē
 
 Pēc fotografēšanas pieraksti datumu, vietu, ierašanās laiku un to, kad tiešā gaisma pazuda aiz vietējā šķēršļa. Šāds neliels pieraksts palīdzēs nākamajā reizē labāk interpretēt astronomisko tabulu. Nevajag no viena vakara izveidot universālu noteikumu, bet konkrēta vietas pieredze ir vērtīgs papildinājums.
 
-[Saullēkta un saulrieta rīkā](/saullekts-saulriets/) pārbaudi sākuma datus, pēc tam saglabā ieceri savā [mēneša kalendārā](/kalendars/). Ja plāno foto dāvanu, gatavo attēlu vari izmantot [kalendāra veidotājā](/izveidot-kalendaru/). Labākais grafiks ir tāds, kurā ir laiks gan sagatavoties, gan pamanīt neplānotu, skaistu gaismu.
-
-Saistītie ceļveži: [Personīgs kalendārs ar fotogrāfijām: no ieceres līdz izdrukai](/blogs/personigs-kalendars-fotografijas-druka/).
+[Saullēkta un saulrieta rīkā](/saullekts-saulriets/) pārbaudi sākuma datus, pēc tam saglabā ieceri savā [mēneša kalendārā](/menesa-kalendars/). Ja plāno [foto dāvanu](/blogs/personigs-kalendars-fotografijas-druka/), gatavo attēlu vari izmantot [kalendāra veidotājā](/izveidot-kalendaru/). Labākais grafiks ir tāds, kurā ir laiks gan sagatavoties, gan pamanīt neplānotu, skaistu gaismu.

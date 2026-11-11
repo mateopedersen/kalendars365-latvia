@@ -15,9 +15,9 @@ og_image_height: 630
 og_image_alt: 'Rudens Latvijā: gadalaiku robežas un pārdomāts izbrauciens | Kalendārs365
   Latvijai'
 ---
-Rudens plāns Latvijā var ietvert pastaigu, īsu braucienu, dārza darbus un atgriešanos pie regulārā mācību ritma. Taču vārds “rudens” ne vienmēr nozīmē vienu precīzu sākuma brīdi. Kalendāra mēneši, astronomiskais gadalaiks un faktiskie laikapstākļi apraksta sezonu no atšķirīgiem skatpunktiem.
+Rudens plāns Latvijā var ietvert pastaigu, īsu braucienu, dārza darbus un atgriešanos pie regulārā mācību ritma. Taču vārds “rudens” ne vienmēr nozīmē vienu precīzu sākuma brīdi. [Kalendāra mēneši, astronomiskais gadalaiks](/gadalaiki/) un faktiskie laikapstākļi apraksta sezonu no atšķirīgiem skatpunktiem.
 
-Lai izvēlētos izbraucienu, nevajag vienā datumā mēģināt atrast gan garantēti krāsainas lapas, gan sausu taku, gan noteiktu temperatūru. Noderīgāk ir apvienot konkrēta datuma dienasgaismu, vietas informāciju un aktuālo prognozi. Šeit aprakstīts elastīgs paņēmiens, kas palīdz saplānot rudens dienu bez nepamatotiem solījumiem par dabas izskatu.
+Lai izvēlētos izbraucienu, nevajag vienā datumā mēģināt atrast gan garantēti krāsainas lapas, gan sausu taku, gan noteiktu temperatūru. Noderīgāk ir apvienot konkrēta datuma [dienasgaismu](/dienas-garums/), vietas informāciju un aktuālo prognozi. Šeit aprakstīts elastīgs paņēmiens, kas palīdz saplānot rudens dienu bez nepamatotiem solījumiem par dabas izskatu.
 
 ## Atšķir gadalaika definīcijas
 {: #section-1}
@@ -29,7 +29,7 @@ Faktiskais laiks var mainīties neatkarīgi no šīm robežām. Silta diena pēc
 ## Lapu krāsas nav rezervējams notikums
 {: #section-2}
 
-Ainavas izskatu ietekmē vieta, koku sugas un sezonas apstākļi. Tāpēc kalendārā nevar godīgi garantēt vienu universālu Latvijas lapu krāsu maksimuma dienu. Ja brauciena galvenais mērķis ir konkrēta ainava, apskati jaunāko informāciju un, ja iespējams, atstāj iespēju pārcelt izvēlēto dienu.
+Ainavas izskatu ietekmē vieta, koku sugas un sezonas apstākļi. Tāpēc kalendārā nevar godīgi garantēt vienu universālu Latvijas lapu krāsu maksimuma dienu. Ja braucienā vēlies izmantot [zeltainās stundas gaismu](/blogs/zelta-stunda-latvija-fotoplanosana/), apskati jaunāko informāciju un, ja iespējams, atstāj iespēju pārcelt izvēlēto dienu.
 
 Arhīva foto var palīdzēt saprast vietas raksturu, bet tas neapstiprina šīs nedēļas skatu. Pārbaudi attēla uzņemšanas kontekstu un nejauc to ar aktuālu novērojumu. Plānam var būt arī citi pievilcīgi elementi: pastaiga, arhitektūra vai mierīga tikšanās. Tad diena nezaudē jēgu, ja krāsas nav tieši tādas kā ilustrācijā.
 
@@ -43,7 +43,7 @@ Saulrieta laiks nav solījums par pilnīgi vienādu redzamību visur. Mežā, re
 ## Pārbaudi vietas aktuālo informāciju
 {: #section-4}
 
-Pirms brauciena apskati oficiālo informāciju par takas, muzeja vai cita objekta pieejamību. Darba laiks, remonts un sezonāla slēgšana nav nolasāmi no vispārējā kalendāra. Ja objekts ir visas dienas galvenā iecere, pārbaudi to tieši pie uzturētāja, nevis tikai senā ceļojuma aprakstā vai lietotāju [fotogrāfijās](/blogs/zelta-stunda-latvija-fotoplanosana/).
+Pirms brauciena apskati oficiālo informāciju par takas, muzeja vai cita objekta pieejamību. Darba laiks, remonts un sezonāla slēgšana nav nolasāmi no vispārējā kalendāra. Ja objekts ir visas dienas galvenā iecere, pārbaudi to tieši pie uzturētāja, nevis tikai senā ceļojuma aprakstā vai lietotāju fotogrāfijās.
 
 Saglabā vienu galveno un vienu vienkāršu rezerves variantu. Ja āra daļa jāsaīsina, var noderēt iepriekš pārbaudīta telpu vieta vai īsāks maršruts. Rezerves plānam nav jābūt tikpat pilnam kā galvenajam; pietiek ar skaidru iespēju, kas nepievieno lieku steigu vai nepārbaudītu nokļūšanu.
 
@@ -73,4 +73,4 @@ Pēc tam pievieno vienu vietu pauzei un vienu variantu, ja laiks pasliktinās. T
 
 Pēc brauciena atzīmē datumu, maršrutu, faktisko ilgumu un vienu praktisku atziņu. Piemēram, kura ieeja bija ērta vai cik laika prasīja ceļš. Šāda pieredze vēlāk noder vairāk nekā tikai foto bez vietas un datuma. Vienlaikus saglabā piesardzību: nākamā gada apstākļi var būt citādi.
 
-[Gadalaiku lapā](/gadalaiki/) apskati astronomiskos notikumus, [saullēkta un saulrieta rīkā](/saullekts-saulriets/) pārbaudi izvēlēto dienu, bet [ģimenes kalendārā](/gimenes-kalendars/) saskaņo kopīgo laiku. Labs rudens izbrauciens sākas ar reālu dienas garumu un saprotamu maršrutu, saglabājot vietu tam, kāda daba būs tieši šoreiz.
+Gadalaiku lapā apskati astronomiskos notikumus un atsevišķi [Miķeļu datumu](/svetki-un-tradicijas/mikeli/), [saullēkta un saulrieta rīkā](/saullekts-saulriets/) pārbaudi izvēlēto dienu, bet [ģimenes kalendārā](/gimenes-kalendars/) saskaņo kopīgo laiku. Labs rudens izbrauciens sākas ar reālu dienas garumu un saprotamu maršrutu, saglabājot vietu tam, kāda daba būs tieši šoreiz.

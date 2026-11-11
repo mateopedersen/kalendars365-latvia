@@ -41,7 +41,7 @@ def category_v2_scene(slug,cfg)
  when 'gimenes-kalendars'
   v2_photo('family','v2-scene-photo')+'<div class="v2-floating-note"><span class="v2-paper-kicker">JŪSU KOPĪGAIS PLĀNS</span><strong>Katram sava krāsa.</strong><div class="v2-people-colors"><i></i><i></i><i></i><i></i><i></i></div><span>Notikumi · maltītes · pirkumi</span></div>'
  when 'stundu-saraksts'
-  v2_photo('ring-planner','v2-scene-photo')+'<div class="v2-floating-note"><span class="v2-paper-kicker">MĀCĪBU NEDĒĻA</span><strong>Priekšmets. Telpa. Laiks.</strong><div class="v2-subject-bars"><i></i><i></i><i></i></div><span>Tavs saraksts, bez izdomātām stundām.</span></div>'
+  v2_photo('ring-planner','v2-scene-photo')+'<div class="v2-floating-note"><span class="v2-paper-kicker">MĀCĪBU NEDĒĻA</span><strong>Priekšmets. Telpa. Laiks.</strong><div class="v2-subject-bars"><i></i><i></i><i></i></div><span>Pielāgo sarakstu savām mācībām.</span></div>'
  when 'mainu-grafiks'
   v2_photo('clock','v2-scene-backdrop')+'<div class="v2-shift-wheel"><span class="v2-paper-kicker">IZVĒLIES SAVU RITMU</span><strong>D / N / B / B</strong><div><span>Diena</span><span>Nakts</span><span>Brīvs</span><span>Brīvs</span></div><p>Maiņu secības piemērs</p></div>'
  when 'varda-dienas'

@@ -59,7 +59,8 @@ test('every page has source-bound critical CSS and reuses its full stylesheet wi
   const activeHead=head.replace(/<noscript>[\s\S]*?<\/noscript>/g,'');
   const styles=[...activeHead.matchAll(/<link rel="stylesheet" href="([^\"]+)"/g)].map(m=>m[1]);
   assert.equal(styles.length,1,p.url);
-  assert.ok(activeHead.includes('data-critical-deferred'),p.url);assert.ok(activeHead.includes('/assets/critical-css-loader.js?v='),p.url);
+  assert.ok(!activeHead.includes('data-critical-deferred'),p.url);assert.ok(!activeHead.includes('/assets/critical-css-loader.js?v='),p.url);
+  assert.ok(activeHead.includes(`<link rel="stylesheet" href="${styles[0]}">`),p.url+' must apply the complete stylesheet on first render');
   const name=styles[0];assert.equal(name,critical[1],p.url);assert.match(name,/^\/static\/css\/[a-f0-9]{24}\.css$/);
   if(!bundles.has(name))bundles.set(name,read('_site'+name));
   assert.ok(name.includes(crypto.createHash('sha256').update(bundles.get(name)).digest('hex').slice(0,24)),p.url);

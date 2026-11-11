@@ -13,18 +13,7 @@ def verified_sources_panel(ids, note = '')
 end
 
 def breadcrumb_markup(path, current_title)
-  parents = ROUTES.select do |route|
-    url = route['URL path']
-    url != path && url != '/' && path.start_with?(url) && url.end_with?('/')
-  end.sort_by { |route| route['URL path'].length }
-  items = [a('/', 'Sākums')]
-  parents.each do |route|
-    editorial = EDITORIAL[route['URL path']] || {}
-    label = editorial['h1'] || editorial['title'] || title_for(route)
-    items << a(route['URL path'], label)
-  end
-  items << %(<span aria-current="page">#{h(current_title)}</span>)
-  items.join(' <span aria-hidden="true">/</span> ')
+  '{% include breadcrumbs.html %}'
 end
 
 def memorial_month_markup(month)

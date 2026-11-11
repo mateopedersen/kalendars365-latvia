@@ -6760,7 +6760,7 @@
       "url": "/gadalaiki/",
       "title": "Gadalaiki: ekvinokcijas un saulgrieži",
       "family": "hub",
-      "src": "/assets/social-cards/v2/aa7e1dafc9a960d7-2d7d0770197b.jpg",
+      "src": "/assets/social-cards/v2/aa7e1dafc9a960d7-235c1ba489a0.jpg",
       "width": 1200,
       "height": 630,
       "type": "image/jpeg",
@@ -6837,15 +6837,15 @@
         "/assets/calendar-data.json": "f0a7090ccc87587d8da0f5428887d8d38d2b71653bdbd9ac25ab5519f63147b3",
         "/assets/fonts/DM-Sans-Bold.ttf": "6193c6c4a9aeb329610cd1991a7c93c1d0d93100fc9901cd43b83ccbdda9cca7",
         "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93",
-        "/assets/season-scenes/autumn.svg": "0375e3056a3fd072ed773c19744945372c5662c173d2849d9a0053450a0272bf",
-        "/assets/season-scenes/spring.svg": "480a1140f6dc60b0f75e1e723b78a48eee0326766b521b508682db84d44b5648",
-        "/assets/season-scenes/summer.svg": "3ab73d7bacc07695eccd8e6186b038ffafe665444bf8a920a29bec1300fb94b1",
-        "/assets/season-scenes/winter.svg": "3b4a0cc258fff57badc2e0b84fae5b1a2f118e56dd31b4dc46e6387f984b9ed6"
+        "/assets/season-scenes/autumn.svg": "041c54d3241d3617696a35df4a7de3db5ccfdee3237a40bd6cac1bf03c9b50b0",
+        "/assets/season-scenes/spring.svg": "2c29463f0a5fe532599259c8245ab8205ab74d602b612953c78136c2dd90eb3c",
+        "/assets/season-scenes/summer.svg": "53c2ce09a71e19af7c6cbddef32c23abb72d1cd7ab696f2c419da4e6e35202ad",
+        "/assets/season-scenes/winter.svg": "cf2bdcfcea82ff4b3ec9aa0a2d19b6fd5347f4608c3e4b1e57bba3a6af7ed8b6"
       },
-      "panelSha256": "bb0a9db75cc52768bd7cec793dbd7ff23e679604c8653fed7f3e2318137f0516",
-      "pixelSha256": "2d7d0770197b4dee9a6b5fa933b8dde7e37ebbd571869e1d1481ec8e1a9477a0",
-      "sha256": "379d7e0cf7e7d31a4d3b8e8fee5047d0dddbc8e1619f25902582897751f3bd06",
-      "bytes": 115116,
+      "panelSha256": "a97f2b87d32dc3139c1ff3fd48073f3e13788e476d5d8086b0d8f47ec81fe3ea",
+      "pixelSha256": "235c1ba489a0925973baf905db7671c24302ff79acb96566c4c5c8a0e00b162c",
+      "sha256": "cd758cb9fcdc39fbf165c63354440c62161c7d808ff92fa7dac00e2e977576e6",
+      "bytes": 121429,
       "semanticFacts": {}
     },
     "/garais-gads/": {
@@ -7391,37 +7391,44 @@
     },
     "/horoskopa-zimes-kalkulators/": {
       "url": "/horoskopa-zimes-kalkulators/",
-      "title": "Zodiaka zīmes kalkulators",
+      "title": "Ascendenta un zodiaka zīmes kalkulators",
       "family": "hub",
-      "src": "/assets/social-cards/v2/72fc65a7d2541d9a-699c3f3375c0.jpg",
+      "src": "/assets/social-cards/v2/72fc65a7d2541d9a-1aec7147e111.jpg",
       "width": 1200,
       "height": 630,
       "type": "image/jpeg",
-      "alt": "Zodiaka zīmes kalkulators | Kalendārs365 Latvijai",
+      "alt": "Ascendenta un zodiaka zīmes kalkulators | Kalendārs365 Latvijai",
       "design": "zodiac",
       "kicker": "ZODIAKA SIMBOLIKA",
       "subtitle": "Iedvesma katrai dienai",
       "year": 2027,
       "month": null,
       "titleLayout": {
-        "text": "Zodiaka zīmes kalkulators",
+        "text": "Ascendenta un zodiaka zīmes kalkulators",
         "size": 55,
         "lines": [
-          "Zodiaka zīmes",
+          "Ascendenta un",
+          "zodiaka zīmes",
           "kalkulators"
         ],
         "bounds": [
           [
             60.0,
             184.0,
-            441.0,
-            225.0
+            467.5,
+            224.5
           ],
           [
             60.0,
             248.0,
+            437.0,
+            289.0
+          ],
+          [
+            60.0,
+            311.5,
             359.5,
-            288.5
+            352.0
           ]
         ],
         "region": [
@@ -7465,9 +7472,9 @@
         "/assets/tools-art/horoscope.svg": "0b0322aa24edf25a8d5f454a74fd3e7146c7f1ffa970893261d4bae73aed2bb5"
       },
       "panelSha256": "25d31b64550fdebc78a3a42c5f50180299856fd7116217f532f706c9e815c8a4",
-      "pixelSha256": "699c3f3375c05790d2e37a252f605543772b20826137e59ff8ecc3e9218db3e0",
-      "sha256": "beb9e9aefeabb0c58f99b030102b11d1c6a445d08bd2d98a3480f1d5462e2fa4",
-      "bytes": 95699,
+      "pixelSha256": "1aec7147e111eb1facc1055f542ea4e32bb55410e6c7ba73bb988cab8c71192e",
+      "sha256": "699795c52fdb3357f1694269145013038d6e699891f8eec0f4b336ed083f3890",
+      "bytes": 104807,
       "semanticFacts": {}
     },
     "/horoskops/": {
@@ -67347,7 +67354,7 @@
       "url": "/sejas-kalendars/menesis/aprilis/",
       "title": "Sējas kalendārs aprīlī",
       "family": "garden_month",
-      "src": "/assets/social-cards/v2/dbf09c1ac0f53923-8d43c0de72b8.jpg",
+      "src": "/assets/social-cards/v2/dbf09c1ac0f53923-1ed528816e9e.jpg",
       "width": 1200,
       "height": 630,
       "type": "image/jpeg",
@@ -67414,19 +67421,19 @@
         "/assets/calendar-data.json": "f0a7090ccc87587d8da0f5428887d8d38d2b71653bdbd9ac25ab5519f63147b3",
         "/assets/fonts/DM-Sans-Bold.ttf": "6193c6c4a9aeb329610cd1991a7c93c1d0d93100fc9901cd43b83ccbdda9cca7",
         "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93",
-        "/assets/season-scenes/spring.svg": "480a1140f6dc60b0f75e1e723b78a48eee0326766b521b508682db84d44b5648"
+        "/assets/season-scenes/spring.svg": "2c29463f0a5fe532599259c8245ab8205ab74d602b612953c78136c2dd90eb3c"
       },
-      "panelSha256": "2057388ea4e08f0d8d126168b9c752336fcb07989e752745901f87ab6601b0b1",
-      "pixelSha256": "8d43c0de72b86a4b59bc17f7dbe44bab510524c757c67824a433ad225a6ba994",
-      "sha256": "392e11619200eaa4125bd469f8ffdcc50875c55492b7154955382e4a8ab7bff3",
-      "bytes": 90185,
+      "panelSha256": "c96aff986fc4bfb9829ea04fca6cb046a894d0575b4eeea18980910e157438dd",
+      "pixelSha256": "1ed528816e9ec2745e52a93302b7ff96c449287c43a74d0fd4aae2b1c908720b",
+      "sha256": "a1972cc0d3f06a3752c37897cf8c1483c0a0913bfd6d2f9ae5833fd545feaeb9",
+      "bytes": 89249,
       "semanticFacts": {}
     },
     "/sejas-kalendars/menesis/augusts/": {
       "url": "/sejas-kalendars/menesis/augusts/",
       "title": "Sējas kalendārs augustā",
       "family": "garden_month",
-      "src": "/assets/social-cards/v2/8d2786fa1cf95cc9-01f1973c335f.jpg",
+      "src": "/assets/social-cards/v2/8d2786fa1cf95cc9-ffa8c0efc04a.jpg",
       "width": 1200,
       "height": 630,
       "type": "image/jpeg",
@@ -67493,19 +67500,19 @@
         "/assets/calendar-data.json": "f0a7090ccc87587d8da0f5428887d8d38d2b71653bdbd9ac25ab5519f63147b3",
         "/assets/fonts/DM-Sans-Bold.ttf": "6193c6c4a9aeb329610cd1991a7c93c1d0d93100fc9901cd43b83ccbdda9cca7",
         "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93",
-        "/assets/season-scenes/summer.svg": "3ab73d7bacc07695eccd8e6186b038ffafe665444bf8a920a29bec1300fb94b1"
+        "/assets/season-scenes/summer.svg": "53c2ce09a71e19af7c6cbddef32c23abb72d1cd7ab696f2c419da4e6e35202ad"
       },
-      "panelSha256": "cd36eafbdd158bd77beb9d6a3dce32553a76cce5af8957a9a176f124316966da",
-      "pixelSha256": "01f1973c335fa16bdeb1fe710002c23725710dff764a2fe757a6dd5583f27c24",
-      "sha256": "74a50d4130fe5810b65953b3946a44d761c8ef62f14a96188a6197ac346a5105",
-      "bytes": 95939,
+      "panelSha256": "04797961a3d3d8be3fd5ac2bfaf9b4725fd74cab84a2a5abd8e502ee8fb71600",
+      "pixelSha256": "ffa8c0efc04ae13c0234c6510aa49152a546c22aadc57b27ab1b8ac822064d24",
+      "sha256": "a036d1402f322729973bd23b42b498a6fb875b32bd1a4272d3e04f1ff909e026",
+      "bytes": 90372,
       "semanticFacts": {}
     },
     "/sejas-kalendars/menesis/decembris/": {
       "url": "/sejas-kalendars/menesis/decembris/",
       "title": "Sējas kalendārs decembrī",
       "family": "garden_month",
-      "src": "/assets/social-cards/v2/6e243fe52df991d9-ca07ecd70cff.jpg",
+      "src": "/assets/social-cards/v2/6e243fe52df991d9-f165af782ac6.jpg",
       "width": 1200,
       "height": 630,
       "type": "image/jpeg",
@@ -67572,19 +67579,19 @@
         "/assets/calendar-data.json": "f0a7090ccc87587d8da0f5428887d8d38d2b71653bdbd9ac25ab5519f63147b3",
         "/assets/fonts/DM-Sans-Bold.ttf": "6193c6c4a9aeb329610cd1991a7c93c1d0d93100fc9901cd43b83ccbdda9cca7",
         "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93",
-        "/assets/season-scenes/winter.svg": "3b4a0cc258fff57badc2e0b84fae5b1a2f118e56dd31b4dc46e6387f984b9ed6"
+        "/assets/season-scenes/winter.svg": "cf2bdcfcea82ff4b3ec9aa0a2d19b6fd5347f4608c3e4b1e57bba3a6af7ed8b6"
       },
-      "panelSha256": "709110e3626de4ed43591ad28920e96df3c98c14e81a5bc5b20208feacefe904",
-      "pixelSha256": "ca07ecd70cff7664db0c8806cef3dc7791aaf958b8bf4592d6e70c24ef772dfa",
-      "sha256": "05e07654a53fc502a8eab1dcdd7c625ea55d5c712604fa98dffd5d4a17c62720",
-      "bytes": 85336,
+      "panelSha256": "24c68d2a4d419a7f6af05114edf178c992d4bcd56d62ec98ff602d2405613e1d",
+      "pixelSha256": "f165af782ac6c1633b058b3a0ccf98293de9d612938bd17238123c7645d6252e",
+      "sha256": "b41a3096251343114118d585746b36870614a1f0078fabd850bc97727afd8387",
+      "bytes": 91887,
       "semanticFacts": {}
     },
     "/sejas-kalendars/menesis/februaris/": {
       "url": "/sejas-kalendars/menesis/februaris/",
       "title": "Sējas kalendārs februārī",
       "family": "garden_month",
-      "src": "/assets/social-cards/v2/d50afcaab8889b26-c8db7cae089a.jpg",
+      "src": "/assets/social-cards/v2/d50afcaab8889b26-3696c9602b03.jpg",
       "width": 1200,
       "height": 630,
       "type": "image/jpeg",
@@ -67651,19 +67658,19 @@
         "/assets/calendar-data.json": "f0a7090ccc87587d8da0f5428887d8d38d2b71653bdbd9ac25ab5519f63147b3",
         "/assets/fonts/DM-Sans-Bold.ttf": "6193c6c4a9aeb329610cd1991a7c93c1d0d93100fc9901cd43b83ccbdda9cca7",
         "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93",
-        "/assets/season-scenes/winter.svg": "3b4a0cc258fff57badc2e0b84fae5b1a2f118e56dd31b4dc46e6387f984b9ed6"
+        "/assets/season-scenes/winter.svg": "cf2bdcfcea82ff4b3ec9aa0a2d19b6fd5347f4608c3e4b1e57bba3a6af7ed8b6"
       },
-      "panelSha256": "e2b64baafef0851b9d184ddfb395400b7c3412058eb5cdf10f144616d30228e4",
-      "pixelSha256": "c8db7cae089a083d683020508a7fd9859251581c11f7f6c133be520a53de4b63",
-      "sha256": "1c936f5b2227581db27f40efc243fe1cc92e55698ff8d684618bd395837f3424",
-      "bytes": 84025,
+      "panelSha256": "1a818b0c0296fb03228a82361ad97a952dd2145624d64d2fdd152e9bc4d16c8c",
+      "pixelSha256": "3696c9602b039070a738732d7e92d51ef0fd36d0ed8f6e40de5de753fb01ed27",
+      "sha256": "5e658e8cda405f1ec235292edafcc7d1c00e05b8c5967d35b488317ef8efb212",
+      "bytes": 90540,
       "semanticFacts": {}
     },
     "/sejas-kalendars/menesis/janvaris/": {
       "url": "/sejas-kalendars/menesis/janvaris/",
       "title": "Sējas kalendārs janvārī",
       "family": "garden_month",
-      "src": "/assets/social-cards/v2/99f99c3dce1ab888-9c7acf11b651.jpg",
+      "src": "/assets/social-cards/v2/99f99c3dce1ab888-d085ed3157c2.jpg",
       "width": 1200,
       "height": 630,
       "type": "image/jpeg",
@@ -67730,19 +67737,19 @@
         "/assets/calendar-data.json": "f0a7090ccc87587d8da0f5428887d8d38d2b71653bdbd9ac25ab5519f63147b3",
         "/assets/fonts/DM-Sans-Bold.ttf": "6193c6c4a9aeb329610cd1991a7c93c1d0d93100fc9901cd43b83ccbdda9cca7",
         "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93",
-        "/assets/season-scenes/winter.svg": "3b4a0cc258fff57badc2e0b84fae5b1a2f118e56dd31b4dc46e6387f984b9ed6"
+        "/assets/season-scenes/winter.svg": "cf2bdcfcea82ff4b3ec9aa0a2d19b6fd5347f4608c3e4b1e57bba3a6af7ed8b6"
       },
-      "panelSha256": "0b65fc2bcbb78de051c356eb932dc9f82300ed84c985624c1b20f9d9791a0349",
-      "pixelSha256": "9c7acf11b6512e53a94e927cdfcdc7e97c6546a54aa74dc29db53a6d53fec0dd",
-      "sha256": "d9e1c5bdc6b468203754a5f4d15956d5561374ece6f1e9a917198c4489884a6d",
-      "bytes": 83211,
+      "panelSha256": "0579511bc75d6f640d095ad55f189bcc1ef3b08ddbb5b072d17a88ed4f83392f",
+      "pixelSha256": "d085ed3157c27abeca1f1502d4046f651f5a90d96bd925003f4dcb2c7a6b9409",
+      "sha256": "711fdbf1b65210f44aa630ba671b8ab763faa1a9676cde0419d90c8c665e70a2",
+      "bytes": 89739,
       "semanticFacts": {}
     },
     "/sejas-kalendars/menesis/julijs/": {
       "url": "/sejas-kalendars/menesis/julijs/",
       "title": "Sējas kalendārs jūlijā",
       "family": "garden_month",
-      "src": "/assets/social-cards/v2/acbd0e79c14c3267-9a0d83490bb8.jpg",
+      "src": "/assets/social-cards/v2/acbd0e79c14c3267-a10bb47ce17f.jpg",
       "width": 1200,
       "height": 630,
       "type": "image/jpeg",
@@ -67809,19 +67816,19 @@
         "/assets/calendar-data.json": "f0a7090ccc87587d8da0f5428887d8d38d2b71653bdbd9ac25ab5519f63147b3",
         "/assets/fonts/DM-Sans-Bold.ttf": "6193c6c4a9aeb329610cd1991a7c93c1d0d93100fc9901cd43b83ccbdda9cca7",
         "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93",
-        "/assets/season-scenes/summer.svg": "3ab73d7bacc07695eccd8e6186b038ffafe665444bf8a920a29bec1300fb94b1"
+        "/assets/season-scenes/summer.svg": "53c2ce09a71e19af7c6cbddef32c23abb72d1cd7ab696f2c419da4e6e35202ad"
       },
-      "panelSha256": "4a935ddaafdaff9237103d66dc59150c573e14a5a57ec731599a92128100bdbc",
-      "pixelSha256": "9a0d83490bb80b87ccca23691b2127dcf48346b31aecb7d77206cc577d8413d1",
-      "sha256": "c2eae41dc1fdd2b4680dd5a5e232215c48896985dbae48e76fc47f46e0939b3b",
-      "bytes": 92926,
+      "panelSha256": "ddba208b2a71664b065555a9cff3dffc572b44d2ca171087028aabe02a4adfcd",
+      "pixelSha256": "a10bb47ce17f255edfef3395ae8399756000c488789a2bcd76bcb90cd5aad57c",
+      "sha256": "2a232b183d7555fe5a12d571e4cc46e8d2ab5d0828cb486aea93c3a35ecd40c6",
+      "bytes": 87318,
       "semanticFacts": {}
     },
     "/sejas-kalendars/menesis/junijs/": {
       "url": "/sejas-kalendars/menesis/junijs/",
       "title": "Sējas kalendārs jūnijā",
       "family": "garden_month",
-      "src": "/assets/social-cards/v2/ece21efc1dafbd37-b9fae7204683.jpg",
+      "src": "/assets/social-cards/v2/ece21efc1dafbd37-45a70b184df5.jpg",
       "width": 1200,
       "height": 630,
       "type": "image/jpeg",
@@ -67888,19 +67895,19 @@
         "/assets/calendar-data.json": "f0a7090ccc87587d8da0f5428887d8d38d2b71653bdbd9ac25ab5519f63147b3",
         "/assets/fonts/DM-Sans-Bold.ttf": "6193c6c4a9aeb329610cd1991a7c93c1d0d93100fc9901cd43b83ccbdda9cca7",
         "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93",
-        "/assets/season-scenes/summer.svg": "3ab73d7bacc07695eccd8e6186b038ffafe665444bf8a920a29bec1300fb94b1"
+        "/assets/season-scenes/summer.svg": "53c2ce09a71e19af7c6cbddef32c23abb72d1cd7ab696f2c419da4e6e35202ad"
       },
-      "panelSha256": "41a547b021027279619408981e331edce57c80364f7469c3dd608612a7ff4739",
-      "pixelSha256": "b9fae720468305a8e0814aab061ecb522e6683143fac53210d2eb53a7eda41c7",
-      "sha256": "81f276881052e9523feeb7cf8825747b34aa0c9c89c51019f98af0fc92dcf170",
-      "bytes": 93643,
+      "panelSha256": "99228df8320bd85bf91ff88ce4d3a99ffe1d217c378eb30eb914d80509243713",
+      "pixelSha256": "45a70b184df5b89468a5abe0137dcee4ecefc0d2ef01026c56e607ad8868f21d",
+      "sha256": "25678f10cd7351fa8224e3a786356df0d8ab1c4cd32f771858f5fc16896ee20a",
+      "bytes": 88093,
       "semanticFacts": {}
     },
     "/sejas-kalendars/menesis/maijs/": {
       "url": "/sejas-kalendars/menesis/maijs/",
       "title": "Sējas kalendārs maijā",
       "family": "garden_month",
-      "src": "/assets/social-cards/v2/7774ffd2b2647503-5190e5674502.jpg",
+      "src": "/assets/social-cards/v2/7774ffd2b2647503-01b8451f0616.jpg",
       "width": 1200,
       "height": 630,
       "type": "image/jpeg",
@@ -67967,19 +67974,19 @@
         "/assets/calendar-data.json": "f0a7090ccc87587d8da0f5428887d8d38d2b71653bdbd9ac25ab5519f63147b3",
         "/assets/fonts/DM-Sans-Bold.ttf": "6193c6c4a9aeb329610cd1991a7c93c1d0d93100fc9901cd43b83ccbdda9cca7",
         "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93",
-        "/assets/season-scenes/spring.svg": "480a1140f6dc60b0f75e1e723b78a48eee0326766b521b508682db84d44b5648"
+        "/assets/season-scenes/spring.svg": "2c29463f0a5fe532599259c8245ab8205ab74d602b612953c78136c2dd90eb3c"
       },
-      "panelSha256": "c4cb86797650d059f757bcc194dbe8303a755adf8d285cd3483b73f31ea0814b",
-      "pixelSha256": "5190e5674502ef24622699e58233e028f5ca867a9c1ffbd0d2d84d36ff50305e",
-      "sha256": "e7395c63c7062f28c0a70a794957b411b534341cbb61744833119e6d625ea202",
-      "bytes": 90957,
+      "panelSha256": "d4ed93681498d17ab831a4ec844eb6591f0ac3a17cb7ed43f7bec3caae03d1c4",
+      "pixelSha256": "01b8451f061606e21ac10bb56520926e7cbdf476cf8c264355e1702bbb8a0cf7",
+      "sha256": "bbaef67fd22c1556d0be2eb0d71df56ee71cf621c5a2e659c0a1848135d51eae",
+      "bytes": 90046,
       "semanticFacts": {}
     },
     "/sejas-kalendars/menesis/marts/": {
       "url": "/sejas-kalendars/menesis/marts/",
       "title": "Sējas kalendārs martā",
       "family": "garden_month",
-      "src": "/assets/social-cards/v2/a4893e35083f1680-490a5b4a5373.jpg",
+      "src": "/assets/social-cards/v2/a4893e35083f1680-64334aab95b7.jpg",
       "width": 1200,
       "height": 630,
       "type": "image/jpeg",
@@ -68046,19 +68053,19 @@
         "/assets/calendar-data.json": "f0a7090ccc87587d8da0f5428887d8d38d2b71653bdbd9ac25ab5519f63147b3",
         "/assets/fonts/DM-Sans-Bold.ttf": "6193c6c4a9aeb329610cd1991a7c93c1d0d93100fc9901cd43b83ccbdda9cca7",
         "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93",
-        "/assets/season-scenes/spring.svg": "480a1140f6dc60b0f75e1e723b78a48eee0326766b521b508682db84d44b5648"
+        "/assets/season-scenes/spring.svg": "2c29463f0a5fe532599259c8245ab8205ab74d602b612953c78136c2dd90eb3c"
       },
-      "panelSha256": "3bc7b6b60530dae54a2122b6940a32d19b7979897728d6efdc67cae2027e622a",
-      "pixelSha256": "490a5b4a5373196ffc30beeec9e81e3150e88c460ade5d507e9e083d20df45bf",
-      "sha256": "c68c4793edd5bbebf9954a8f621fb0c213c3cefdc13ce46b41d990aee406a802",
-      "bytes": 90919,
+      "panelSha256": "b05d491a001d8cb398a82f77e730bbce5df19cc9b6ca33712cf4219746f8b2cd",
+      "pixelSha256": "64334aab95b7aba9e4b9f41a4cb9e5ddba1459afc848f9908fd5b3ba11a6e605",
+      "sha256": "967ada06f029663e71a8b3eb9a0605531788c2643d00573a2403cf1d0ac927fd",
+      "bytes": 89975,
       "semanticFacts": {}
     },
     "/sejas-kalendars/menesis/novembris/": {
       "url": "/sejas-kalendars/menesis/novembris/",
       "title": "Sējas kalendārs novembrī",
       "family": "garden_month",
-      "src": "/assets/social-cards/v2/ad9852b3ccbae51c-0be54fed9b2d.jpg",
+      "src": "/assets/social-cards/v2/ad9852b3ccbae51c-d26cd078fd77.jpg",
       "width": 1200,
       "height": 630,
       "type": "image/jpeg",
@@ -68125,19 +68132,19 @@
         "/assets/calendar-data.json": "f0a7090ccc87587d8da0f5428887d8d38d2b71653bdbd9ac25ab5519f63147b3",
         "/assets/fonts/DM-Sans-Bold.ttf": "6193c6c4a9aeb329610cd1991a7c93c1d0d93100fc9901cd43b83ccbdda9cca7",
         "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93",
-        "/assets/season-scenes/autumn.svg": "0375e3056a3fd072ed773c19744945372c5662c173d2849d9a0053450a0272bf"
+        "/assets/season-scenes/autumn.svg": "041c54d3241d3617696a35df4a7de3db5ccfdee3237a40bd6cac1bf03c9b50b0"
       },
-      "panelSha256": "d5d805e9718c89e1fca112608f0726f0f34391018f7e48ea24c4d09839fa4ff4",
-      "pixelSha256": "0be54fed9b2d43466611842503761fafd308c4f214b6f0ecdee31c05f1722d48",
-      "sha256": "3339ea9663b0c577642ac4e9bf240efe6e4eb2493d8f04612d2f3af8e99b4c70",
-      "bytes": 96031,
+      "panelSha256": "ea338063db5bf3f7b8669cba09b94bc334f781f1c5b25d7251584b44bac03d5b",
+      "pixelSha256": "d26cd078fd774504f7d2b90fbd7bf19991f231f9af09f17845d13e060376f4c3",
+      "sha256": "9fcc318ebb92e1d66df9e03d477b83d452adc3c36ed5d563776f91f00a610ec8",
+      "bytes": 104224,
       "semanticFacts": {}
     },
     "/sejas-kalendars/menesis/oktobris/": {
       "url": "/sejas-kalendars/menesis/oktobris/",
       "title": "Sējas kalendārs oktobrī",
       "family": "garden_month",
-      "src": "/assets/social-cards/v2/b4ca84b14ad3ec01-9d4f5a813430.jpg",
+      "src": "/assets/social-cards/v2/b4ca84b14ad3ec01-0513652179b8.jpg",
       "width": 1200,
       "height": 630,
       "type": "image/jpeg",
@@ -68204,19 +68211,19 @@
         "/assets/calendar-data.json": "f0a7090ccc87587d8da0f5428887d8d38d2b71653bdbd9ac25ab5519f63147b3",
         "/assets/fonts/DM-Sans-Bold.ttf": "6193c6c4a9aeb329610cd1991a7c93c1d0d93100fc9901cd43b83ccbdda9cca7",
         "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93",
-        "/assets/season-scenes/autumn.svg": "0375e3056a3fd072ed773c19744945372c5662c173d2849d9a0053450a0272bf"
+        "/assets/season-scenes/autumn.svg": "041c54d3241d3617696a35df4a7de3db5ccfdee3237a40bd6cac1bf03c9b50b0"
       },
-      "panelSha256": "49873f1b050d585620f0f77bbc845dfbd6ca80d1f0c2c203d9128f8aa1ecd06d",
-      "pixelSha256": "9d4f5a8134301d546d57f5d3d72157cf99482e08ee7f4e3a0d3125b43ed41737",
-      "sha256": "4a8fe74d5cb2e861a6664d85a4e46e933ebfb04566b67b34eb06f3da3f2f2da6",
-      "bytes": 94733,
+      "panelSha256": "2ed60cd1a6298f736ce6cb42e141bab4d089f7d35098a1b63eb420b9d553dc01",
+      "pixelSha256": "0513652179b82bb2f29eb7e8fe20cfb16a6e467c01c1c82f619222dabdc32fa1",
+      "sha256": "e9282fafaa13b8de3189ed7c89f15fca2680076158801d00799908db00d98bf6",
+      "bytes": 102944,
       "semanticFacts": {}
     },
     "/sejas-kalendars/menesis/septembris/": {
       "url": "/sejas-kalendars/menesis/septembris/",
       "title": "Sējas kalendārs septembrī",
       "family": "garden_month",
-      "src": "/assets/social-cards/v2/93649804692f99ff-5a649882f862.jpg",
+      "src": "/assets/social-cards/v2/93649804692f99ff-4032290f038d.jpg",
       "width": 1200,
       "height": 630,
       "type": "image/jpeg",
@@ -68283,12 +68290,12 @@
         "/assets/calendar-data.json": "f0a7090ccc87587d8da0f5428887d8d38d2b71653bdbd9ac25ab5519f63147b3",
         "/assets/fonts/DM-Sans-Bold.ttf": "6193c6c4a9aeb329610cd1991a7c93c1d0d93100fc9901cd43b83ccbdda9cca7",
         "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93",
-        "/assets/season-scenes/autumn.svg": "0375e3056a3fd072ed773c19744945372c5662c173d2849d9a0053450a0272bf"
+        "/assets/season-scenes/autumn.svg": "041c54d3241d3617696a35df4a7de3db5ccfdee3237a40bd6cac1bf03c9b50b0"
       },
-      "panelSha256": "7ffe4ac786c913faa852e2420281c4a60c363e16fc2d1c5bd3f05062eb82dbae",
-      "pixelSha256": "5a649882f862bca60c6019b04fdc707ae58b64161634f780c44b68b08ce421d8",
-      "sha256": "5a2033a76d21cc091bfde7785decd7e7966cc43754b543b1b6a79d536cbf0a12",
-      "bytes": 97608,
+      "panelSha256": "1fe13ff0f7cb239cb4dd4b2080038e67c04bbda9e3a53e7f1612a2b0c61b1b22",
+      "pixelSha256": "4032290f038db3c2f77b543d084f436ab4dfc7bfca77c0d7099c4dfe5ef06681",
+      "sha256": "7e5a10a39f74726e13426fbd4418b7a34e20a6e16f2aab6192b06c989be1383d",
+      "bytes": 105809,
       "semanticFacts": {}
     },
     "/sejas-kalendars/pupinas/": {

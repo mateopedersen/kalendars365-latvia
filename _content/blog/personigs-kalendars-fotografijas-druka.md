@@ -1,6 +1,6 @@
-Personīgs fotokalendārs ir vienlaikus attēls un ikdienas instruments. Skaista fotogrāfija var piesaistīt skatienu, taču kalendāram joprojām jāļauj ātri atrast datumu un ierakstīt vajadzīgo. Veidojot savu lapu, svarīgi līdzsvarot attēla vietu, burtu lielumu, krāsas un reālo papīra izmēru.
+[Personīgs fotokalendārs](/izveidot-kalendaru/) ir vienlaikus attēls un ikdienas instruments. Skaista fotogrāfija var piesaistīt skatienu, taču kalendāram joprojām jāļauj ātri atrast datumu un ierakstīt vajadzīgo. Veidojot savu lapu, svarīgi līdzsvarot attēla vietu, burtu lielumu, krāsas un reālo papīra izmēru.
 
-Nav nepieciešams sākt ar sarežģītu maketu. Izvēlies vienu mēnesi vai vienu gada pārskatu, nosaki tā lietošanas vietu un sagatavo pirmo pārbaudes izdruku. Tikai pēc tam veido visu komplektu. Šāda secība palīdz laikus pamanīt sīkus datumus, neērtu attēla griezumu vai pārāk blīvas piezīmes.
+Nav nepieciešams sākt ar sarežģītu maketu. Izvēlies vienu mēnesi vai vienu [gada pārskatu](/pdf-kalendari/), nosaki tā lietošanas vietu un sagatavo pirmo pārbaudes izdruku. Tikai pēc tam veido visu komplektu. Šāda secība palīdz laikus pamanīt sīkus datumus, neērtu attēla griezumu vai pārāk blīvas piezīmes.
 
 ## Sāc ar lietošanas mērķi
 
@@ -28,7 +28,7 @@ Krāsu izvēlies tā, lai teksts atšķirtos no fona. Svētku atzīmei var izman
 
 ## Pievieno tikai vajadzīgos notikumus
 
-Dzimšanas dienas, ceļojumi un atgādinājumi var padarīt lapu personīgu, taču katrai rūtiņai ir ierobežota vieta. Izmanto īsu nosaukumu un svarīgāko laiku. Plašāku aprakstu glabā atsevišķi, nevis samazini visu tekstu līdz grūti salasāmam izmēram. Ja vajag daudz ierakstu, piemērotāka ir mēneša veidne.
+Dzimšanas dienas, ceļojumi un atgādinājumi var padarīt lapu personīgu, taču katrai rūtiņai ir ierobežota vieta. Izmanto īsu nosaukumu un svarīgāko laiku. Plašāku aprakstu glabā atsevišķi, nevis samazini visu tekstu līdz grūti salasāmam izmēram. Ja vajag daudz ierakstu, piemērotāka ir [mēneša veidne](/menesa-kalendars/).
 
 Pārbaudi, vai notikuma datums ir izvēlēts pareizajā gadā. Kopējot iepriekšējā gada lapu, nedēļas diena un atkārtojumi var mainīties. Īpaša uzmanība vajadzīga [29. februārim](/blogs/garais-gads-2028-februaris/) un notikumiem, kuru datumu nosaka pēc nedēļas dienas. Personīgā kalendārā neievieto liekus sensitīvus datus, īpaši ja to dāvini vai fotografē.
 
@@ -48,4 +48,4 @@ Ja vajadzīgs lielāks teksts, vispirms samazini dekoratīvo elementu aizņemto 
 
 Saglabā izvēlētos iestatījumus un oriģinālo attēlu atsevišķi no gatavās lejupielādes. Ja rīks piedāvā projekta eksportu, izmanto to un pārbaudi, vai vēlāk vari projektu atvērt. Gatavs attēls ir ērts izplatīšanai, bet ne vienmēr satur visu informāciju, kas vajadzīga rediģēšanai.
 
-[Kalendāra veidotājā](/izveidot-kalendaru/) sāc ar vienu pārbaudāmu maketu, bet [PDF kalendāru lapā](/pdf-kalendari/) salīdzini gatavas alternatīvas. Noslēgumā pārbaudi datumus, attēla griezumu un reālo izdruku. Labs personīgais kalendārs ir tāds, ko ir patīkami skatīt un viegli lietot katru dienu.
+Kalendāra veidotājā sāc ar vienu pārbaudāmu maketu, bet PDF kalendāru lapā salīdzini gatavas alternatīvas. Noslēgumā pārbaudi datumus, attēla griezumu un reālo izdruku. Labs personīgais kalendārs ir tāds, ko ir patīkami skatīt un viegli lietot katru dienu.

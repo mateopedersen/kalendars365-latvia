@@ -28,4 +28,18 @@ test('blog index remains a full HTML catalog with accessible in-place filters an
  const html=read('_site/blogs/index.html');assert.equal((html.match(/data-blog-card /g)||[]).length,20);assert.ok(html.includes('data-blog-library'));assert.ok(html.includes('aria-live="polite"'));assert.ok(html.includes('aria-pressed="true"'));assert.ok(html.includes('/assets/blog.js'));const script=read('assets/blog.js');assert.ok(script.includes('event.preventDefault()'));assert.ok(script.includes("normalize('NFD')"));assert.doesNotMatch(script,/fetch\(|window\.open|location\.(?:href|assign)/);assert.ok(read('_site/index.html').includes('href="/blogs/"'));
 });
 
-test('each guide links to two other articles, tools and a contextual primary source',()=>{for(const p of blog.posts){const body=read('_content/blog/'+p.slug+'.md');assert.ok((body.match(/\]\(\/blogs\//g)||[]).length>=2,p.slug);assert.ok((body.match(/\]\(https:\/\//g)||[]).length>=1,p.slug);}const html=read('_site/blogs/index.html');const urls=[...html.matchAll(/class="journal-(?:card-image|feature-image)" href="([^"]+)"/g)].map(m=>m[1]);assert.equal(urls.length,20);assert.equal(new Set(urls).size,20);});
+test('each guide links to two other articles, tools and a contextual primary source',()=>{
+ for(const p of blog.posts){const body=read('_content/blog/'+p.slug+'.md');assert.ok((body.match(/\]\(\/blogs\//g)||[]).length>=2,p.slug);assert.ok((body.match(/\]\(https:\/\//g)||[]).length>=1,p.slug);}
+ const html=read('_site/blogs/index.html');
+ const cards=[...html.matchAll(/<article class="journal-(?:card|feature)"[\s\S]*?<\/article>/g)].map(m=>m[0]);
+ assert.equal(cards.length,20);
+ // The title anchor also makes the image clickable; ordinary cards keep one
+ // descriptive focus target instead of repeating image/title/CTA links.
+ const urls=cards.map(card=>{
+  const title=card.match(/<h[23]><a href="([^"]+)"/);assert.ok(title,'Missing crawlable article title');
+  assert.ok(blog.posts.some(post=>post.url===title[1]),title[1]);
+  if(card.startsWith('<article class="journal-card"'))assert.equal((card.match(/<a\b/g)||[]).length,1,title[1]);
+  return title[1];
+ });
+ assert.equal(new Set(urls).size,20);
+});

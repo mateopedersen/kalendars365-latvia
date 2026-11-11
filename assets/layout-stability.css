@@ -80,15 +80,22 @@
   }
 }
 
-/* Let useful cards fill the short calendar column, rather than extending one sidebar. */
+/* Keep the next-holidays card in the calendar's own flow. Spanning sidebars
+   must not distribute their extra height between the calendar and this card. */
+@media screen {
+  #calendar-app.dashboard > .calendar-column > .upcoming-card { margin: 14px 0 0; }
+}
 @media screen and (min-width: 901px) {
   #calendar-app.dashboard:has(> .left-column) {
-    grid-template-rows: min-content auto;
+    grid-template-rows: auto;
   }
-  #calendar-app.dashboard:has(> .left-column) > .left-column { display: contents; }
-  #calendar-app.dashboard:has(> .left-column) > .left-column > #city-card {
+  #calendar-app.dashboard:has(> .left-column) > .left-column {
+    display: flex;
     grid-column: 1;
-    grid-row: 1 / span 2;
+    grid-row: 1;
+    align-self: start;
+  }
+  #calendar-app.dashboard:has(> .left-column) > .left-column > #city-card {
     align-self: start;
   }
   #calendar-app.dashboard:has(> .left-column) > .calendar-column {
@@ -96,22 +103,20 @@
     grid-row: 1;
     min-width: 0;
   }
-  #calendar-app.dashboard:has(> .left-column) > .left-column > .upcoming-card {
-    grid-column: 2;
-    grid-row: 2;
-    align-self: start;
-  }
   #calendar-app.dashboard:has(> .left-column) > .right-column {
     grid-column: 3;
-    grid-row: 1 / span 2;
+    grid-row: 1;
     align-self: start;
     min-width: 0;
   }
 }
 @media screen and (min-width: 901px) and (max-width: 1200px) {
+  #calendar-app.dashboard:has(> .left-column) {
+    grid-template-columns: 255px minmax(0, 1fr);
+  }
   #calendar-app.dashboard:has(> .left-column) > .right-column {
     grid-column: 1 / -1;
-    grid-row: 3;
+    grid-row: 2;
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 14px;
@@ -188,6 +193,9 @@
   .editorial-grid { gap: 14px; margin-block: 20px; }
   .page-shell > .useful-panel { margin-block: 20px; }
 }
+@media screen and (max-width: 680px) {
+  #calendar-app.dashboard > .calendar-column > .upcoming-card h2 { font-size: 16px; }
+}
 @media screen and (max-width: 620px) {
   .lunar-phase-mark, .lunar-holiday-mark { font-size: 8px; }
   #calendar-app.dashboard:has(> .left-column) > .right-column { grid-template-columns: minmax(0, 1fr); }
@@ -197,6 +205,7 @@
 /* Print the calendar as one complete sheet, including six-week months. */
 @media print {
   html, body { background: #fff !important; }
+  #calendar-app.dashboard .upcoming-card { display: none !important; }
   .skip-link { display: none !important; }
   #calendar-print-sheet .calendar-table :is(td, th) {
     border: 1px solid #c8c4c4 !important;

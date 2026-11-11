@@ -31,7 +31,7 @@ Pievērs uzmanību arī avota datumam. Veca drukāta kalendāra ieraksts nav aut
 
 Tradicionālais saraksts ir tas, ko visbiežāk redz īsajā ikdienas kalendāra ierakstā pie datuma. Tas palīdz ātri pamanīt pazīstamās vārda dienas, nepadarot katru rūtiņu pārlieku blīvu. Taču īss pārskats nav pilnīgs visu iespējamo personvārdu katalogs un nevar atbildēt uz katru jautājumu par retu vārdu.
 
-Ja sākumlapā pie šodienas datuma neredzi meklēto vārdu, atver pilno meklēšanu. Nav vajadzības no tā uzreiz secināt, ka vārdam nav neviena ieraksta vai ka cilvēks līdz šim svinējis nepareizi. Vispirms noskaidro, kurš saraksts konkrētajā skatā tiek parādīts un vai iespējams ieslēgt papildu ierakstus.
+Ja sākumlapā pie šodienas datuma neredzi meklēto vārdu, atver [pilno meklēšanu](/varda-dienas/). Nav vajadzības no tā uzreiz secināt, ka vārdam nav neviena ieraksta vai ka cilvēks līdz šim svinējis nepareizi. Vispirms noskaidro, kurš saraksts konkrētajā skatā tiek parādīts un vai iespējams ieslēgt papildu ierakstus.
 
 ## Paplašinātais saraksts
 {: #section-3}
@@ -52,7 +52,7 @@ Ja ir vairāki līdzīgi vārdi, salīdzini tos burtu pa burtam. Viena vārda lo
 
 [Personīgajā plānā](/blogs/gimenes-kalendars-nedelas-planosana/) pievieno cilvēka vārdu, datumu un īsu piezīmi par to, kā vēlies apsveikt. Vienam pietiek ar ziņu, citam var noderēt laikus sagatavota kartīte. Ja plāno sūtīt pa pastu, atsevišķi ieraksti sagatavošanas un nosūtīšanas dienu, nevis tikai pašu vārda dienu.
 
-Saglabā tikai nepieciešamo informāciju un pārdomā, ar ko kalendāru kopīgo. Kopīgai darba telpai nav vajadzīgi cilvēku privātie kontakti vai personiskās piezīmes. Drukātā sarakstā var pietikt ar vārdu un datumu. Privātu kalendāra ierakstu saturu nevajag ievietot publiskā atsauksmē vai kļūdas pieteikumā.
+Saglabā tikai [nepieciešamo informāciju](/privatuma-politika/) un pārdomā, ar ko kalendāru kopīgo. Kopīgai darba telpai nav vajadzīgi cilvēku privātie kontakti vai personiskās piezīmes. Drukātā sarakstā var pietikt ar vārdu un datumu; [personīgam kalendāram](/kalendars-ar-vardu/) var pievienot arī saņēmēja vārdu. Privātu kalendāra ierakstu saturu nevajag ievietot publiskā atsauksmē vai kļūdas pieteikumā.
 
 ## Kā pārbaudīt nesakritību
 {: #section-6}
@@ -73,4 +73,4 @@ Pirms apsveikumu sarakstu pārkopē nākamajam gadam, apskati tā aktualitāti. 
 
 Reizi mēnesī apskati tuvāko cilvēku datumus un izvēlies, kuriem vajadzīga sagatavošanās. Nav jāpievieno vienāds atgādinājums visiem rezultātiem, kurus meklētājs atrod. Pārāk daudz paziņojumu drīz kļūst par fonu, bet neliels, personisks saraksts paliek praktisks un viegli uzturams.
 
-Sāc ar [vārda dienu meklētāju](/varda-dienas/) un apskati saraksta norādi pie rezultāta. Tad pievieno izvēlēto datumu [ģimenes kalendāram](/gimenes-kalendars/) vai savai [mēneša izdrukai](/blogs/personigs-kalendars-fotografijas-druka/). Saglabā cilvēka pareizo vārda rakstību un piešķir ierakstam sev noderīgu atgādinājumu. Labi sagatavots apsveikums sākas ar uzmanību pret konkrēto cilvēku.
+Sāc ar vārda dienu meklētāju un apskati saraksta norādi pie rezultāta. Tad pievieno izvēlēto datumu [ģimenes kalendāram](/gimenes-kalendars/) vai savai [mēneša izdrukai](/blogs/personigs-kalendars-fotografijas-druka/). Saglabā cilvēka pareizo vārda rakstību un piešķir ierakstam sev noderīgu atgādinājumu. Labi sagatavots apsveikums sākas ar uzmanību pret konkrēto cilvēku.

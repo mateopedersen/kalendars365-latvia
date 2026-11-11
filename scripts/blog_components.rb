@@ -17,7 +17,9 @@ module BlogComponents
       count=word_count(raw)
       raise "Article length #{brief['slug']}: #{count}" unless (750..1000).cover?(count)
       toc=[]
-      body=raw.gsub(/^## (.+)$/) do
+      # A Latvian paragraph can begin with "2027. gada ...". Markdown would
+      # consume the year as an ordered-list marker rather than article text.
+      body=raw.gsub(/^([12]\d{3})\.(?=\s)/) { "#{Regexp.last_match(1)}\\." }.gsub(/^## (.+)$/) do
         title=Regexp.last_match(1);id="section-#{toc.length+1}"
         toc << {'id'=>id,'title'=>title}
         "## #{title}\n{: ##{id}}"

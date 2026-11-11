@@ -1,0 +1,368 @@
+{
+  "icons": [
+    {
+      "id": "facebook",
+      "provider": "Simple Icons",
+      "version": "16.37.0",
+      "source": "https://about.meta.com/brand/resources/facebook/logo",
+      "license": "CC0-1.0"
+    },
+    {
+      "id": "whatsapp",
+      "provider": "Simple Icons",
+      "version": "16.37.0",
+      "source": "https://about.meta.com/brand/resources/whatsapp/whatsapp-brand",
+      "license": "CC0-1.0"
+    },
+    {
+      "id": "telegram",
+      "provider": "Simple Icons",
+      "version": "16.37.0",
+      "source": "https://telegram.org/tour/screenshots",
+      "license": "CC0-1.0"
+    },
+    {
+      "id": "draugiem",
+      "provider": "Simple Icons",
+      "version": "16.37.0",
+      "source": "https://www.frype.com/applications/dev/docs/logos/",
+      "license": "CC0-1.0"
+    },
+    {
+      "id": "x",
+      "provider": "Simple Icons",
+      "version": "16.37.0",
+      "source": "https://x.com",
+      "license": "CC0-1.0"
+    },
+    {
+      "id": "linkedin",
+      "provider": "Kalendārs365 name monogram",
+      "license": "Original vector"
+    },
+    {
+      "id": "pinterest",
+      "provider": "Simple Icons",
+      "version": "16.37.0",
+      "source": "https://business.pinterest.com/en/brand-guidelines",
+      "license": "CC0-1.0"
+    },
+    {
+      "id": "bluesky",
+      "provider": "Simple Icons",
+      "version": "16.37.0",
+      "source": "https://bsky.social/about/blog/press-faq",
+      "license": "CC0-1.0"
+    },
+    {
+      "id": "threads",
+      "provider": "Simple Icons",
+      "version": "16.37.0",
+      "source": "https://www.meta.com/brand/resources/instagram/threads",
+      "license": "CC0-1.0"
+    },
+    {
+      "id": "reddit",
+      "provider": "Simple Icons",
+      "version": "16.37.0",
+      "source": "https://www.redditinc.com/brand",
+      "license": "CC0-1.0"
+    },
+    {
+      "id": "mastodon",
+      "provider": "Simple Icons",
+      "version": "16.37.0",
+      "source": "https://github.com/mastodon/mastodon/blob/7ccf7a73f1c47a8c03712c39f7c591e837cf6d08/app/javascript/images/logo-symbol-icon.svg",
+      "license": "CC0-1.0"
+    },
+    {
+      "id": "tumblr",
+      "provider": "Simple Icons",
+      "version": "16.37.0",
+      "source": "https://www.tumblr.com/logo",
+      "license": "CC0-1.0"
+    },
+    {
+      "id": "instagram",
+      "provider": "Simple Icons",
+      "version": "16.37.0",
+      "source": "https://about.meta.com/brand/resources/instagram",
+      "license": "CC0-1.0"
+    },
+    {
+      "id": "tiktok",
+      "provider": "Simple Icons",
+      "version": "16.37.0",
+      "source": "https://tiktok.com",
+      "license": "CC0-1.0"
+    },
+    {
+      "id": "snapchat",
+      "provider": "Simple Icons",
+      "version": "16.37.0",
+      "source": "https://www.snapchat.com/brand-guidelines",
+      "license": "CC0-1.0"
+    },
+    {
+      "id": "vk",
+      "provider": "Simple Icons",
+      "version": "16.37.0",
+      "source": "https://vk.com/brand",
+      "license": "CC0-1.0"
+    },
+    {
+      "id": "ok",
+      "provider": "Simple Icons",
+      "version": "16.37.0",
+      "source": "https://insideok.ru/brandbook",
+      "license": "CC0-1.0"
+    },
+    {
+      "id": "weibo",
+      "provider": "Simple Icons",
+      "version": "16.37.0",
+      "source": "https://en.wikipedia.org/wiki/Sina_Weibo",
+      "license": "CC0-1.0"
+    },
+    {
+      "id": "wechat",
+      "provider": "Simple Icons",
+      "version": "16.37.0",
+      "source": "https://wechat.design/tool/brand",
+      "license": "CC0-1.0"
+    },
+    {
+      "id": "qq",
+      "provider": "Kalendārs365 name monogram",
+      "license": "Original vector"
+    },
+    {
+      "id": "qzone",
+      "provider": "Simple Icons",
+      "version": "16.37.0",
+      "source": "https://qzone.qq.com",
+      "license": "CC0-1.0"
+    },
+    {
+      "id": "line",
+      "provider": "Simple Icons",
+      "version": "16.37.0",
+      "source": "https://line.me/en/logo",
+      "license": "CC0-1.0"
+    },
+    {
+      "id": "kakaotalk",
+      "provider": "Simple Icons",
+      "version": "16.37.0",
+      "source": "https://commons.wikimedia.org/wiki/File:KakaoTalk_logo.svg",
+      "license": "CC0-1.0"
+    },
+    {
+      "id": "band",
+      "provider": "Simple Icons",
+      "version": "16.37.0",
+      "source": "https://developers.naver.com/docs/login/bi/bi.md",
+      "license": "CC0-1.0"
+    },
+    {
+      "id": "naver",
+      "provider": "Simple Icons",
+      "version": "16.37.0",
+      "source": "https://developers.naver.com/docs/login/bi/bi.md",
+      "license": "CC0-1.0"
+    },
+    {
+      "id": "messenger",
+      "provider": "Simple Icons",
+      "version": "16.37.0",
+      "source": "https://about.meta.com/brand/resources/facebook/messenger-icon",
+      "license": "CC0-1.0"
+    },
+    {
+      "id": "signal",
+      "provider": "Simple Icons",
+      "version": "16.37.0",
+      "source": "https://signal.org/brand",
+      "license": "CC0-1.0"
+    },
+    {
+      "id": "viber",
+      "provider": "Simple Icons",
+      "version": "16.37.0",
+      "source": "https://www.viber.com/brand-center",
+      "license": "CC0-1.0"
+    },
+    {
+      "id": "discord",
+      "provider": "Simple Icons",
+      "version": "16.37.0",
+      "source": "https://discord.com/branding",
+      "license": "CC0-1.0"
+    },
+    {
+      "id": "slack",
+      "provider": "Kalendārs365 name monogram",
+      "license": "Original vector"
+    },
+    {
+      "id": "teams",
+      "provider": "Kalendārs365 name monogram",
+      "license": "Original vector"
+    },
+    {
+      "id": "googlechat",
+      "provider": "Simple Icons",
+      "version": "16.37.0",
+      "source": "https://support.google.com/chat/answer/9455386",
+      "license": "CC0-1.0"
+    },
+    {
+      "id": "gmail",
+      "provider": "Simple Icons",
+      "version": "16.37.0",
+      "source": "https://fonts.gstatic.com/s/i/productlogos/gmail_2020q4/v8/192px.svg",
+      "license": "CC0-1.0"
+    },
+    {
+      "id": "outlook",
+      "provider": "Kalendārs365 name monogram",
+      "license": "Original vector"
+    },
+    {
+      "id": "yahoo",
+      "provider": "Kalendārs365 name monogram",
+      "license": "Original vector"
+    },
+    {
+      "id": "email",
+      "provider": "Kalendārs365",
+      "license": "Original vector"
+    },
+    {
+      "id": "wordpress",
+      "provider": "Simple Icons",
+      "version": "16.37.0",
+      "source": "https://wordpress.org/about/logos",
+      "license": "CC0-1.0"
+    },
+    {
+      "id": "blogger",
+      "provider": "Simple Icons",
+      "version": "16.37.0",
+      "source": "https://www.blogger.com",
+      "license": "CC0-1.0"
+    },
+    {
+      "id": "medium",
+      "provider": "Simple Icons",
+      "version": "16.37.0",
+      "source": "https://medium.design/logos-and-brand-guidelines-f1a01a733592",
+      "license": "CC0-1.0"
+    },
+    {
+      "id": "substack",
+      "provider": "Simple Icons",
+      "version": "16.37.0",
+      "source": "https://on.substack.com",
+      "license": "CC0-1.0"
+    },
+    {
+      "id": "flipboard",
+      "provider": "Simple Icons",
+      "version": "16.37.0",
+      "source": "https://about.flipboard.com/brand-guidelines",
+      "license": "CC0-1.0"
+    },
+    {
+      "id": "hackernews",
+      "provider": "Simple Icons",
+      "version": "16.37.0",
+      "source": "https://www.ycombinator.com/press",
+      "license": "CC0-1.0"
+    },
+    {
+      "id": "raindrop",
+      "provider": "Kalendārs365 name monogram",
+      "license": "Original vector"
+    },
+    {
+      "id": "instapaper",
+      "provider": "Simple Icons",
+      "version": "16.37.0",
+      "source": "https://www.instapaper.com",
+      "license": "CC0-1.0"
+    },
+    {
+      "id": "pinboard",
+      "provider": "Simple Icons",
+      "version": "16.37.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Feedbin-Icon-share-pinboard.svg",
+      "license": "CC0-1.0"
+    },
+    {
+      "id": "notion",
+      "provider": "Simple Icons",
+      "version": "16.37.0",
+      "source": "https://www.notion.so",
+      "license": "CC0-1.0"
+    },
+    {
+      "id": "evernote",
+      "provider": "Simple Icons",
+      "version": "16.37.0",
+      "source": "https://evernote.com/about-us",
+      "license": "CC0-1.0"
+    },
+    {
+      "id": "onenote",
+      "provider": "Kalendārs365 name monogram",
+      "license": "Original vector"
+    },
+    {
+      "id": "native",
+      "provider": "Kalendārs365",
+      "license": "Original vector"
+    },
+    {
+      "id": "copy-link",
+      "provider": "Kalendārs365",
+      "license": "Original vector"
+    },
+    {
+      "id": "copy-text",
+      "provider": "Kalendārs365",
+      "license": "Original vector"
+    },
+    {
+      "id": "download",
+      "provider": "Kalendārs365",
+      "license": "Original vector"
+    },
+    {
+      "id": "qr",
+      "provider": "Kalendārs365",
+      "license": "Original vector"
+    },
+    {
+      "id": "markdown",
+      "provider": "Simple Icons",
+      "version": "16.37.0",
+      "source": "https://github.com/dcurtis/markdown-mark/tree/360a3657fef7f6ad0b303296a95ad52985caa0d3",
+      "license": "CC0-1.0"
+    },
+    {
+      "id": "embed",
+      "provider": "Kalendārs365",
+      "license": "Original vector"
+    }
+  ],
+  "source": "tooling/sharing/build-assets.mjs",
+  "spriteSha256": "de215eb94da6a1d6277a6a438a7bb309521d63afbb20a8cd30920e210e5a0899",
+  "qr": {
+    "name": "qrcode-generator",
+    "version": "2.0.4",
+    "license": "MIT",
+    "source": "https://github.com/kazuhikoarase/qrcode-generator",
+    "sha256": "ea91d7118a5395289170da848b7c6758b996163bfbccf312591ab65a4911b7c0"
+  }
+}

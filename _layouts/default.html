@@ -1,6 +1,7 @@
 <!doctype html>
 <html lang="lv">
 <head>
+{% assign internal_catalog = site.data['internal-navigation'] %}{% assign current_navigation = internal_catalog.pages[page.url] %}
 {% assign has_city_card = false %}{% if content contains 'id="city-select"' %}{% assign has_city_card = true %}{% endif %}
 {% assign has_sky_tool = false %}{% if content contains 'data-sky-tool' %}{% assign has_sky_tool = true %}{% endif %}
 {% assign has_generic_category = false %}{% if page.category and page.url != '/skolas-brivlaiki/' and page.url != '/atvalinajuma-planotajs/' and page.url != '/svetki-un-tradicijas/' and page.url != '/visi-riki/' %}{% assign has_generic_category = true %}{% endif %}
@@ -35,7 +36,7 @@
 {% if page.family == "horoscope" or page.url == "/horoskops/" or page.url == "/zodiaka-zimes/" %}<script defer src="/assets/pages.js?v={{ site.data.build.asset_version }}"></script>{% endif %}
 {% if page.url == "/gimenes-kalendars/" or page.url == "/stundu-saraksts/" %}<script defer src="/assets/organizer-core.js?v={{ site.data.build.asset_version }}"></script><script defer src="/assets/organizers.js?v={{ site.data.build.asset_version }}"></script>{% endif %}
 {% if page.family == "latvia_special" or page.family == "latvia_cultural" %}<script defer src="/assets/extra-tools.js?v={{ site.data.build.asset_version }}"></script>{% endif %}
-{% if page.url != "/" %}<script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Sākums","item":{{ site.url | jsonify }}},{"@type":"ListItem","position":2,"name":{{ page.title | jsonify }},"item":{{ page.url | absolute_url | jsonify }}}]}</script>{% endif %}
+{% if page.url != "/" and current_navigation.breadcrumbs.size > 1 %}<script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{% for crumb in current_navigation.breadcrumbs %}{"@type":"ListItem","position":{{ forloop.index }},"name":{{ crumb.title | jsonify }},"item":{{ crumb.url | absolute_url | jsonify }}}{% unless forloop.last %},{% endunless %}{% endfor %}]}</script>{% endif %}
 {% if page.url == "/izveidot-kalendaru/" %}<link rel="stylesheet" href="/assets/studio/studio.css?v={{ site.data.build.asset_version }}"><link rel="stylesheet" href="/assets/studio/skin.css?v={{ site.data.build.asset_version }}"><script type="module" src="/assets/studio/studio.mjs?v={{ site.data.build.asset_version }}"></script>{% endif %}
 {% if page.category %}<style>{{ "category-experience.css,category-redesign.css" | inline_styles }}</style>{% endif %}{% if page.url == '/nedelas-kalendars/' or page.url == '/gimenes-kalendars/' or page.url == '/mainu-grafiks/' or page.url == '/stundu-saraksts/' %}<style>{{ "weekly-planner.css" | inline_styles }}</style>{% endif %}{% if has_generic_category %}<script defer src="/assets/category-core.js?v={{ site.data.build.asset_version }}"></script><script type="module" src="/assets/category-tools.mjs?v={{ site.data.build.asset_version }}"></script><script type="module" src="/assets/category-redesign.mjs?v={{ site.data.build.asset_version }}"></script><script type="module" src="/assets/category-advanced.mjs?v={{ site.data.build.asset_version }}"></script>{% endif %}
 {% if page.url == '/svetki-un-tradicijas/' or page.family == 'latvia_cultural' or page.family == 'occasion' %}<style>{{ "traditions-guide.css" | inline_styles }}</style>{% endif %}
@@ -43,6 +44,7 @@
 {% if page.useful %}<link rel="stylesheet" href="/assets/useful-pages.css?v={{ site.data.build.asset_version }}">{% unless page.category %}<script defer src="/assets/category-core.js?v={{ site.data.build.asset_version }}"></script>{% endunless %}<script type="module" src="/assets/useful-pages.mjs?v={{ site.data.build.asset_version }}"></script>{% endif %}
 {% if page.family == 'not_found' or page.family == 'temporary_error' %}<script defer src="/assets/recovery-tools.js?v={{ site.data.build.asset_version }}"></script>{% endif %}
 <style>{{ "consent.css" | inline_styles }}</style>
+<style>{{ "share-entry.css" | inline_styles }}</style>
 <style>{{ "layout-stability.css" | inline_styles }}</style>
 {% if page.calendar_collection %}<style>{{ "calendar-collection.css" | inline_styles }}</style><script defer src="/assets/calendar-collection.js?v={{ site.data.build.asset_version }}"></script>{% endif %}
 <style>{{ "footer.css" | inline_styles }}</style>
@@ -50,6 +52,8 @@
 <style>{{ "control-consistency.css" | inline_styles }}</style>
 {% if page.url == '/visi-riki/' %}<style>{{ "tools-directory.css" | inline_styles }}</style><script type="module" src="/assets/tools-directory.mjs?v={{ site.data.build.asset_version }}"></script>{% endif %}
 {% if page.url == '/gadalaiki/' %}<style>{{ "season-scenes.css" | inline_styles }}</style>{% endif %}
+{% if content contains 'data-ascendant-calculator' %}<style>{{ "ascendant.css" | inline_styles }}</style><script type="module" src="/assets/ascendant-ui.mjs?v={{ site.data.build.asset_version }}"></script>{% endif %}
+<style>{{ "internal-navigation.css" | inline_styles }}</style>
 {% if page.url == '/atvalinajuma-planotajs/' %}<style>{{ "vacation-planner.css" | inline_styles }}</style><script defer src="/assets/category-core.js?v={{ site.data.build.asset_version }}"></script><script type="module" src="/assets/vacation-planner.mjs?v={{ site.data.build.asset_version }}"></script>{% endif %}
 {% if page.url == "/" %}<style>{{ "home-density.css" | inline_styles }}</style>{% endif %}
 {% if page.family == 'blog_index' or page.family == 'blog_article' or page.url == '/par-projektu/' or page.url == '/pilsetas-un-fotografijas/' %}<style>{{ "blog.css" | inline_styles }}</style>{% endif %}
@@ -61,6 +65,7 @@
 </head>
 <body class="{% if page.url == '/' %}home-page{% else %}site-page{% endif %}" data-family="{{ page.family }}" data-category="{{ page.category }}" data-year="{{ page.year }}" data-month="{{ page.month }}" data-week="{{ page.week }}" data-name="{{ page.calendar_name | escape }}" data-view="{{ page.view }}">
 {% include header.html %}
-<main id="main">{{ content }}{% if page.reading_notes != false %}{% include page-guide.html %}{% endif %}</main>
+<main id="main">{{ content }}{% if page.reading_notes != false %}{% include page-guide.html %}{% endif %}{% include internal-navigation.html %}</main>
 {% include footer.html %}
+{% include sharing.html %}
 </body></html>

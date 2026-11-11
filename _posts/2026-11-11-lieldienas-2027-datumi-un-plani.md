@@ -15,9 +15,9 @@ og_image_height: 630
 og_image_alt: 'Lieldienas 2027. gadā: datumi, brīvdienas un ģimenes plāns | Kalendārs365
   Latvijai'
 ---
-Lieldienas kalendārā katru gadu jāmeklē no jauna. Atšķirībā no svētkiem ar nemainīgu mēneša datumu tās pārvietojas starp martu un aprīli. Tādēļ ģimenes tikšanās, īsu ceļojumu vai bērnu nodarbību plānu nevajag vienkārši pārkopēt no iepriekšējā pavasara. Vispirms pārbaudi konkrēto gadu un tikai pēc tam izvēlies pārējās detaļas.
+[Lieldienas kalendārā](/svetki-un-tradicijas/lieldienas/) katru gadu jāmeklē no jauna. Atšķirībā no svētkiem ar nemainīgu mēneša datumu tās pārvietojas starp martu un aprīli. Tādēļ ģimenes tikšanās, īsu ceļojumu vai bērnu nodarbību plānu nevajag vienkārši pārkopēt no iepriekšējā pavasara. Vispirms pārbaudi konkrēto gadu un tikai pēc tam izvēlies pārējās detaļas.
 
-2027. gadā Lielā piektdiena ir 26. martā, Pirmās Lieldienas 28. martā un Otrās Lieldienas 29. martā. Šie ir kalendāra atskaites punkti, nevis norāde uz pavasara laikapstākļiem. Marta beigu pasākumam var noderēt gan āra iecere, gan vienkāršs telpu variants, kuru iespējams izmantot bez steigas.
+[2027. gadā Lielā piektdiena](/svetku-dienas/2027/marts/) ir 26. martā, Pirmās Lieldienas 28. martā un Otrās Lieldienas 29. martā. Šie ir kalendāra atskaites punkti, nevis norāde uz pavasara laikapstākļiem. Marta beigu pasākumam var noderēt gan āra iecere, gan vienkāršs telpu variants, kuru iespējams izmantot bez steigas.
 
 ## Kāpēc datums mainās
 {: #section-1}
@@ -38,7 +38,7 @@ Cilvēkam ar parastu darba nedēļu no pirmdienas līdz piektdienai Lielā piekt
 
 [Skolēnu pavasara brīvlaiks](/blogs/skolas-brivlaiki-2027-gimenes-plans/) nav obligāti tās pašas dienas, kurās iekrīt Lieldienas. 2026./2027. mācību gadam valsts noteiktais pavasara brīvlaiks ir no 8. līdz 12. martam. Tas ir agrāk nekā 2027. gada Lieldienu nedēļas nogale. Šo atšķirību ir svarīgi pamanīt pirms ilgākas ģimenes atpūtas plānošanas.
 
-Pārbaudi arī klasi un skolas paziņojumus. Pirmklasnieku papildu brīvlaiks un konkrētu programmu norises var prasīt atsevišķu ierakstu. Ja pasākumā piedalās studenti, viņu grafiku meklē augstskolas akadēmiskajā kalendārā. Viena ģimenes svinību diena var sakrist ar dažādiem mācību un darba pienākumiem.
+Pārbaudi arī klasi un skolas paziņojumus. Pirmklasnieku papildu brīvlaiks un konkrētu programmu norises var prasīt atsevišķu ierakstu. Ja pasākumā piedalās studenti, viņu grafiku meklē [augstskolas akadēmiskajā kalendārā](/studiju-kalendars/). Viena ģimenes svinību diena var sakrist ar dažādiem mācību un darba pienākumiem.
 
 ## Sadaliet sagatavošanos pa dienām
 {: #section-4}

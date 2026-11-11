@@ -1,0 +1,45 @@
+{
+  "checkedAt": "2026-11-11",
+  "state": "local_only",
+  "preview": "http://127.0.0.1:4007/horoskops/#ascendenta-kalkulators",
+  "assetVersion": "642eb1332af3ad90",
+  "automatedTests": {
+    "passed": 218,
+    "failed": 0
+  },
+  "htmlPages": 900,
+  "auditErrors": 0,
+  "independentNumericalSamples": 1492,
+  "timezoneOracleCases": 13,
+  "responsiveWidths": [
+    320,
+    390,
+    768,
+    1024,
+    1366
+  ],
+  "overflowFindings": 0,
+  "birthDataNetworkRequestsObserved": 0,
+  "unchangedAcceptedDownloads": true,
+  "screenshots": {
+    "desktop": "after.png",
+    "mobileResult": "mobile-result.png",
+    "before": "before-detail.png"
+  },
+  "browserChecks": [
+    "required date/time",
+    "diacritic-insensitive city suggestions",
+    "keyboard ArrowUp/ArrowDown and Enter",
+    "Riga daylight-saving gap rejected",
+    "Riga autumn fold requires explicit choice; both variants produce distinct degrees",
+    "New York birth place / UTC conversion",
+    "manual coordinates and invalid time zone",
+    "Riga historical seconds in 1900",
+    "time uncertainty warns about multiple signs",
+    "reset and stale-result clearing",
+    "city changes update manual coordinates",
+    "site search discovers the calculator",
+    "final local page has no browser console errors"
+  ],
+  "scope": "Numerical and browser verification, not independent expert certification or an absolute accuracy guarantee."
+}

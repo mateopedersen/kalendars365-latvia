@@ -1,0 +1,15 @@
+{
+  "name": "kalendars365-ascendant-build",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node build.mjs"
+  },
+  "dependencies": {
+    "moment": "2.31.0",
+    "moment-timezone": "0.6.6"
+  },
+  "devDependencies": {
+    "esbuild": "0.28.2"
+  }
+}

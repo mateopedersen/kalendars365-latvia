@@ -18,13 +18,14 @@ export function applyCriticalCss(html,css,href,processor=createCriticalProcessor
  const critical=processor.extract(html).css;
  if(!critical||critical.includes('</style'))throw Error('Invalid extracted stylesheet.');
  const digest=crypto.createHash('sha256').update(critical).digest('hex');
- const version=html.match(/<meta name="asset-version" content="([^"]+)"/)?.[1];
- if(!version)throw Error('Missing asset version.');
+ // Runtime widgets can introduce elements not present in the SSR snapshot.
+ // The complete sheet must participate in the first render; a print-media
+ // swap activated by a deferred script paints incomplete widget layouts first.
+ // Retain the source-bound inline subset and the cacheable family bundle,
+ // but let the browser apply the complete cascade before painting or running
+ // deferred/module widgets. No JavaScript or hidden-body gate is required.
  const replacement=`<style data-critical-source="${href}" data-critical-sha="${digest}">${critical}</style>`+
-  `<link rel="preload" as="style" href="${href}">`+
-  `<link rel="stylesheet" href="${href}" media="print" data-critical-deferred data-critical-media="all">`+
-  `<noscript>${original}</noscript>`+
-  `<script defer src="/assets/critical-css-loader.js?v=${version}"></script>`;
+  original;
  return {html:html.replace(original,replacement),criticalBytes:Buffer.byteLength(critical)};
 }
 async function htmlFiles(dir){const result=[];for(const entry of await fs.readdir(dir,{withFileTypes:true})){if(entry.name==='downloads')continue;const file=path.join(dir,entry.name);if(entry.isDirectory())result.push(...await htmlFiles(file));else if(entry.name.endsWith('.html'))result.push(file);}return result;}

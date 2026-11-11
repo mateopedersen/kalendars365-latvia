@@ -15,7 +15,7 @@ og_image_height: 630
 og_image_alt: 'Pavasara sēja Latvijā: plāns pēc augsnes, ne tikai datuma | Kalendārs365
   Latvijai'
 ---
-Pavasara sējas kalendārs ir noderīgs orientieris, taču Latvijas dārzā to nevajag uztvert kā pavēli konkrētā datumā ielikt zemē visas sēklas. Augsnes stāvoklis, vieta, kultūra un audzēšanas paņēmiens var būt svarīgāki par mēneša skaitli. Vienā gadā dārzs kļūst gatavs agrāk, citā pēc slapja vai vēsa laika jāpagaida.
+[Pavasara sējas kalendārs](/sejas-kalendars/) ir noderīgs orientieris, taču Latvijas dārzā to nevajag uztvert kā pavēli konkrētā datumā ielikt zemē visas sēklas. Augsnes stāvoklis, vieta, kultūra un audzēšanas paņēmiens var būt svarīgāki par mēneša skaitli. Vienā gadā dārzs kļūst gatavs agrāk, citā pēc slapja vai vēsa laika jāpagaida.
 
 Praktisks plāns apvieno aptuvenu sezonas logu ar novērojumiem uz vietas. Tas palīdz laikus sagatavot materiālus, nepārsteidzoties ar sēju un nesajaucot stādu audzēšanu telpās ar izstādīšanu ārā. Zemāk piedāvātā secība ir plānošanas pamats, ko pielāgot konkrētās šķirnes norādēm un sava dārza apstākļiem.
 
@@ -36,21 +36,21 @@ Sagatavošana var notikt agrāk nekā sēja. Tā nav zaudēta diena, ja augsne v
 ## Aukstumizturība nav universāla atļauja
 {: #section-3}
 
-Dažas kultūras ir piemērotākas agrākai sējai nekā siltumprasīgas kultūras, taču tas neatceļ augsnes un laika novērtēšanu. [Dārzkopības institūta pavasara materiālos](https://www.darzkopibasinstituts.lv/lv/raksts/2020-04-06/stastam-par-aprili-daramajiem-darbiem-un-darzenu-sesanu) uzsvērta atšķirīgu kultūru un audzēšanas apstākļu nozīme. Vienkāršs mēneša nosaukums nepasaka, vai konkrētā dobe ir pietiekami sagatavota un piemērota darbam.
+Dažas kultūras ir piemērotākas agrākai sējai nekā siltumprasīgas kultūras, taču tas neatceļ augsnes un laika novērtēšanu. [Dārzkopības institūta pavasara materiālos](https://www.darzkopibasinstituts.lv/lv/raksts/2020-04-06/stastam-par-aprili-daramajiem-darbiem-un-darzenu-sesanu) uzsvērta atšķirīgu kultūru un audzēšanas apstākļu nozīme. Arī [aprīļa sējas darbus](/sejas-kalendars/menesis/aprilis/) salīdzini ar kultūras prasībām un augsnes stāvokli. Vienkāršs mēneša nosaukums nepasaka, vai konkrētā dobe ir pietiekami sagatavota un piemērota darbam.
 
 Ja sēj vairākas kultūras, neveido vienu kopīgu ierakstu “iesēt visu”. Katram augam atstāj atsevišķu rindu ar audzēšanas vietu un nosacījumu, kuru pārbaudīt. Tad būs skaidrs, ko var darīt šonedēļ un ko vēlāk. Tas arī atvieglo kļūdu analīzi, ja kāds sējums attīstās citādi nekā gaidīts.
 
 ## Burkāniem vajadzīgs savs ieraksts
 {: #section-4}
 
-Burkānu sējai pievērs uzmanību augsnes sagatavošanai un mitrumam dīgšanas posmā. Vispārīgs kalendārs nevar noteikt tavas dobes faktisko stāvokli. Pirms sējas apskati virskārtu un plāno turpmāko kopšanu, nevis atzīmē tikai vienu veiksmīgi izdarītu darbību un aizmirsti par sējumu līdz ražas laikam.
+[Burkānu sējai](/sejas-kalendars/burkani/) pievērs uzmanību augsnes sagatavošanai un mitrumam dīgšanas posmā. Vispārīgs kalendārs nevar noteikt tavas dobes faktisko stāvokli. Pirms sējas apskati virskārtu un plāno turpmāko kopšanu, nevis atzīmē tikai vienu veiksmīgi izdarītu darbību un aizmirsti par sējumu līdz ražas laikam.
 
 Pie ieraksta pievieno šķirni, dobes vietu un faktisko sējas datumu. Ja plāno vairākus nelielus sējumus, sadali tos atsevišķi. Pēc tam varēsi salīdzināt rezultātu, nesajaucot, kurā rindā kas iesēts. Fotogrāfija ar etiķeti vai īsa shēma reizēm ir noderīgāka nekā gara, bet neskaidra piezīme.
 
 ## Dēstu vietu aprēķini pirms sēšanas
 {: #section-5}
 
-Agri iesēti augi telpās vēlāk prasīs vietu, gaismu un kopšanu. Pirms piepildi visus traukus, apskati, kur tie atradīsies pēc dažām nedēļām. Palodzes sākotnējais brīvais laukums var radīt pārāk optimistisku iespaidu, jo stādi aug un aizņem vairāk vietas. Izvēlies daudzumu, ko vari reāli aprūpēt.
+Agri iesēti augi telpās vēlāk prasīs vietu, gaismu un kopšanu. [Tomātu dēstiem](/sejas-kalendars/tomati/) pārbaudi kultūras aprakstu, bet [sējas un izstādīšanas plānu](/blogs/tomatu-seja-un-izstadisana-latvija/) pielāgo audzēšanas vietai. Pirms piepildi visus traukus, apskati, kur tie atradīsies pēc dažām nedēļām. Palodzes sākotnējais brīvais laukums var radīt pārāk optimistisku iespaidu, jo stādi aug un aizņem vairāk vietas. Izvēlies daudzumu, ko vari reāli aprūpēt.
 
 Sēšanas prieks nav jāvērtē pēc maksimālā trauku skaita. Neliels, skaidri marķēts komplekts palīdz labāk sekot attīstībai. Ja plāno dalīties ar stādiem, vienojies par to iepriekš. Kalendārā pieraksti arī pārstādīšanu un paredzamo izstādīšanas pārbaudi, saglabājot rezervi laikapstākļu izmaiņām.
 
@@ -71,8 +71,6 @@ Ja darbs jāpārceļ, saglabā īsu iemeslu, piemēram, pārāk mitra augsne vai
 ## Veido savu sezonas atmiņu
 {: #section-8}
 
-Reizi nedēļā pieraksti dažus faktus: kas iesēts, kas sadīdzis un kas jādara tālāk. Nodali novērojumu no secinājuma. “Dīgsti parādījās šonedēļ” ir novērojums, bet iespējamais kavēšanās iemesls vēl var būt tikai pieņēmums. Šī atšķirība palīdz nepārvērst vienu gadījumu nepamatotā universālā noteikumā.
+Reizi nedēļā pieraksti dažus faktus: kas iesēts, kas sadīdzis un kas jādara tālāk. Nodali novērojumu no secinājuma. Ja dārza plānā izmanto arī [Mēness fāzes](/blogs/meness-fazes-un-vietejais-laiks/), tās vērtē atsevišķi no augsnes gatavības. “Dīgsti parādījās šonedēļ” ir novērojums, bet iespējamais kavēšanās iemesls vēl var būt tikai pieņēmums. Šī atšķirība palīdz nepārvērst vienu gadījumu nepamatotā universālā noteikumā.
 
-[Sējas kalendārā](/sejas-kalendars/) izvēlies kultūru un mēnesi, pēc tam salīdzini ieteikto logu ar savu vietu un sēklu norādēm. Izmanto kalendāru kā kontrolsarakstu, nevis automātisku lēmumu. Skaidri ierakstīts faktiskais darbs un nosacījumi ar laiku kļūs par visnoderīgāko tieši tava dārza rokasgrāmatu.
-
-Saistītie ceļveži: [Tomātu sēja un izstādīšana Latvijā: kā veidot savu grafiku](/blogs/tomatu-seja-un-izstadisana-latvija/) · [Mēness fāzes Latvijas laikā: brīdis, attēls un redzamība](/blogs/meness-fazes-un-vietejais-laiks/).
+Sējas kalendārā izvēlies konkrētā mēneša darbus un kultūru, pēc tam salīdzini ieteikto logu ar savu vietu un sēklu norādēm. Izmanto kalendāru kā kontrolsarakstu, nevis automātisku lēmumu. Skaidri ierakstīts faktiskais darbs un nosacījumi ar laiku kļūs par visnoderīgāko tieši tava dārza rokasgrāmatu.

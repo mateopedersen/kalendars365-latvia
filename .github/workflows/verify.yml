@@ -67,6 +67,12 @@ jobs:
       - run: node --test test/location.test.mjs
       - run: node test/city-switch.test.cjs
       - run: node test/horoscope-edge.test.mjs
+      - run: node --test test/ascendant.test.mjs
+      - run: node --test test/internal-navigation.test.mjs
+      - run: node --test test/functional-regressions.test.mjs
+      - run: node --test test/editorial-links.test.mjs
+      - run: python3 scripts/audit_editorial_links.py --site _site --output /tmp/kalendars-editorial-links.json --strict
+      - run: python3 scripts/audit_internal_links.py --site _site --output /tmp/kalendars-internal-links.json --strict
       - run: node test/presentation.test.cjs
       - run: node test/planning_test.cjs
       - run: node test/print.test.cjs
@@ -88,6 +94,8 @@ jobs:
       - run: node --test test/school-planner.test.mjs
       - run: node --test test/solar-directory-chart.test.mjs test/sun-scene.test.mjs
       - run: node --test test/social-covers.test.cjs
+      - run: npm ci --prefix tooling/sharing --ignore-scripts --no-audit --no-fund
+      - run: node --test test/sharing.test.mjs
       - run: node --test test/tradition-photo-headers.test.mjs test/traditions-guide.test.mjs
       - name: Verify Ruby calculations and built pages
         shell: bash

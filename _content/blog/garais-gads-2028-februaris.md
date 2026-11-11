@@ -1,6 +1,6 @@
-2028. gada februārī ir 29 dienas. Papildu datums ir neliels, bet pamanāms atgādinājums, ka mūsu kalendārs ir vienošanās par laika uzskaiti, kas jāsaskaņo ar Zemes kustību ap Sauli. Ikdienā šo sarežģīto attiecību gandrīz nejūtam, līdz jāplāno februāra termiņš, dzimšanas diena vai gada salīdzinājums.
+[2028. gada februārī](/kalendars/2028/februaris/) ir 29 dienas. Papildu datums ir neliels, bet pamanāms atgādinājums, ka mūsu kalendārs ir vienošanās par laika uzskaiti, kas jāsaskaņo ar Zemes kustību ap Sauli. Ikdienā šo sarežģīto attiecību gandrīz nejūtam, līdz jāplāno februāra termiņš, dzimšanas diena vai gada salīdzinājums.
 
-Garais gads nenozīmē tikai vienu papildu rūtiņu izdrukā. Tas maina datumu novietojumu nedēļā un prasa uzmanību atkārtotiem ierakstiem. Šeit apskatīsim gan vienkāršo noteikumu, gan praktiskās pārbaudes, kas palīdz izveidot korektu personīgo vai darba kalendāru 2028. gadam.
+Garais gads nenozīmē tikai vienu papildu rūtiņu izdrukā. Tas maina [datumu novietojumu nedēļā](/blogs/iso-nedelu-numuri-kalendara/) un prasa uzmanību atkārtotiem ierakstiem. Šeit apskatīsim gan [vienkāršo noteikumu](/garais-gads/), gan praktiskās pārbaudes, kas palīdz izveidot korektu personīgo vai darba kalendāru 2028. gadam.
 
 ## Noteikums ar svarīgu izņēmumu
 
@@ -12,7 +12,7 @@ Garais gads nenozīmē tikai vienu papildu rūtiņu izdrukā. Tas maina datumu n
 
 2028. gada 29. februāris ir otrdiena. Pirmdienai, 28. februārim, seko otrdiena ar papildu datumu, un tikai pēc tam trešdiena, 1. marts. Ja kalendāru zīmē no iepriekšējā gada parauga, šī pāreja ir obligāti jāpārbauda, citādi nepareizi izkārtosies viss pavasaris un atlikušais gads.
 
-Atver februāri un martu blakus. Pārliecinies, ka nedēļa turpinās bez pārtraukuma un mēneša pēdējās dienas netiek parādītas divreiz kā pilnvērtīgi atsevišķi notikumi. Blakus mēneša pelēkie datumi ir navigācijas palīgs, nevis papildu dienas, kas jāieskaita februāra kopsummā.
+Atver februāri un [martu](/kalendars/2028/marts/) blakus. Pārliecinies, ka nedēļa turpinās bez pārtraukuma un mēneša pēdējās dienas netiek parādītas divreiz kā pilnvērtīgi atsevišķi notikumi. Blakus mēneša pelēkie datumi ir navigācijas palīgs, nevis papildu dienas, kas jāieskaita februāra kopsummā.
 
 ## Kā salīdzināt divus gadus
 
@@ -22,7 +22,7 @@ Ja veido pārskatu tabulā, pieraksti izmantoto periodu: viss kalendārais gads,
 
 ## Atkārtoti notikumi prasa izvēli
 
-Dzimšanas dienai vai citam personīgam notikumam 29. februārī jāizlemj, kā to atgādināt parastajos gados. Dažādās lietotnēs šāds ieraksts var tikt apstrādāts atšķirīgi. Personīgai svinēšanai cilvēks var izvēlēties sev ērtu dienu, bet oficiāliem termiņiem jāskatās attiecīgais regulējums vai līguma nosacījumi.
+[Dzimšanas dienai](/dzimsanas-dienu-kalendars/) vai citam personīgam notikumam 29. februārī jāizlemj, kā to atgādināt parastajos gados. Dažādās lietotnēs šāds ieraksts var tikt apstrādāts atšķirīgi. Personīgai svinēšanai cilvēks var izvēlēties sev ērtu dienu, bet oficiāliem termiņiem jāskatās attiecīgais regulējums vai līguma nosacījumi.
 
 Pārbaudi atkārtojuma priekšskatījumu vairākus gadus uz priekšu. Neuzticies tikai pirmajam saglabātajam datumam. Ja lietotne piedāvā “katru gadu” bez skaidrojuma, izveido testa ierakstu un apskati nākamo parasto gadu. Šādi vari laikus pamanīt pazudušu atgādinājumu, negaidot pašu svarīgo dienu.
 
@@ -30,13 +30,13 @@ Pārbaudi atkārtojuma priekšskatījumu vairākus gadus uz priekšu. Neuzticies
 
 Pieskaitīt vienu mēnesi un pieskaitīt trīsdesmit dienas nav viens un tas pats. Februārī atšķirība kļūst īpaši redzama. Ja personīgā plānā termiņš rakstīts “pēc mēneša”, precizē, vai domāts attiecīgais nākamā mēneša datums vai konkrēts dienu skaits. Aprēķina rīkam ir vajadzīga skaidra darbība.
 
-Datumu starpībā atšķiras arī tas, vai ieskaiti sākuma un beigu dienu. Pastaigu izaicinājuma dalībnieks var gribēt skaitīt abas, bet laika intervāla aprēķinā parasti mēra attālumu starp diviem datumiem. Pirms dalīšanās ar rezultātu pieraksti izvēlēto pieņēmumu, lai otrs cilvēks var aprēķinu atkārtot.
+[Datumu starpībā](/datumu-kalkulators/) atšķiras arī tas, vai ieskaiti sākuma un beigu dienu. Pastaigu izaicinājuma dalībnieks var gribēt skaitīt abas, bet laika intervāla aprēķinā parasti mēra attālumu starp diviem datumiem. Pirms dalīšanās ar rezultātu pieraksti izvēlēto pieņēmumu, lai otrs cilvēks var aprēķinu atkārtot.
 
 ## Pārbaudi drukāto februāra lapu
 
 Papildu diena nedrīkst pazust pārāk stingra maketa dēļ. Drukas priekšskatījumā apskati pēdējo nedēļas rindu, datumu 29 un pāreju uz martu. Ja lapā ir piezīmju vieta, tā nedrīkst pārklāt dienu rūtiņas. Numuriem jāpaliek salasāmiem arī pēc papīra izmēram atbilstošas mērogošanas.
 
-Gada pārskatā pārbaudi februāra nosaukumu un kopējo izkārtojumu, bet mēneša veidnē arī vietu ierakstiem. Liels dekoratīvs virsraksts nav ieguvums, ja praktiski svarīgajai dienai paliek pārāk maz vietas. Pirmo izmēģinājuma izdruku ir vērts salīdzināt ar ekrāna kalendāru, nevis ar vecā gada lapu.
+Gada pārskatā pārbaudi februāra nosaukumu un kopējo izkārtojumu, bet [mēneša veidnē](/pdf-kalendari/2028/februaris/) arī vietu ierakstiem. Liels dekoratīvs virsraksts nav ieguvums, ja praktiski svarīgajai dienai paliek pārāk maz vietas. Pirmo izmēģinājuma izdruku ir vērts salīdzināt ar ekrāna kalendāru, nevis ar vecā gada lapu.
 
 ## Praktiska pārbaude savam plānam
 
@@ -48,6 +48,4 @@ Ja veido atkārtotu gada atgādinājumu, iepriekš pieraksti vēlamo uzvedību p
 
 29. februārim nav obligāti jāpiešķir liels simbolisks uzdevums. Tas var būt parasts darba vai atpūtas datums. Ja vēlies, vari to izmantot nelielai pārskatīšanai: kuras gada ieceres vēl ir aktuālas, kas jau mainījies un kur plānā vajadzīga brīvāka vieta.
 
-Atver [2028. gada februāri](/kalendars/2028/februaris/) un [gada pārskatu](/kalendars/2028/), bet konkrētu intervālu pārbaudi [datumu kalkulatorā](/datumu-kalkulators/). Svarīgākais ir korekts datums, skaidrs skaitīšanas princips un pārbaudīta pāreja uz nākamo mēnesi. Tad papildu diena nekļūst par papildu kļūdas avotu.
-
-Saistītie ceļveži: [ISO nedēļu numuri: kā nepazaudēt datumu gadu mijā](/blogs/iso-nedelu-numuri-kalendara/).
+Atver 2028. gada februāri un [gada pārskatu](/kalendars/2028/), bet konkrētu intervālu pārbaudi datumu kalkulatorā. Svarīgākais ir korekts datums, skaidrs skaitīšanas princips un pārbaudīta pāreja uz nākamo mēnesi. Tad papildu diena nekļūst par papildu kļūdas avotu.

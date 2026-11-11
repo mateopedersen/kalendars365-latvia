@@ -1,0 +1,22 @@
+{
+  "retrieved": "2026-11-11",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "files": {
+    "cities15000.zip": {
+      "url": "https://download.geonames.org/export/dump/cities15000.zip",
+      "bytes": 3367206,
+      "sha256": "2bbf3f840aa5dcc7704e2b72e37146f0a4c939191a1ccbf4199f6b8c4041f29f"
+    },
+    "readme.txt": {
+      "url": "https://download.geonames.org/export/dump/readme.txt",
+      "bytes": 8843,
+      "sha256": "b1957379b6c1242c700c98ac9a8aa0a09f56c3c0a50ee72175527005f48ef2c5"
+    },
+    "admin1CodesASCII.txt": {
+      "url": "https://download.geonames.org/export/dump/admin1CodesASCII.txt",
+      "bytes": 151571,
+      "sha256": "2e4867f5397acb056ea26377601b57af37cb4c81399770225018e9e439e91ad3"
+    }
+  }
+}

@@ -5,6 +5,7 @@ import path from 'node:path';
 import {onRequestGet as location} from '../functions/api/atrasanas-vieta.js';
 import {onRequestGet as weather} from '../functions/api/laikapstakli.js';
 import {onRequestGet as observation} from '../functions/api/noverojumi.js';
+import {onRequestGet as horoscope} from '../functions/api/horoskops/dienas.js';
 const arg=name=>process.argv[process.argv.indexOf(name)+1],port=Number(arg('--port'))||4002;
 const fixture=process.argv.includes('--fixture')?arg('--fixture'):null;
 const fixtures={jurmala:{country:'LV',city:'Jurmala',latitude:'56.97',longitude:'23.80',timezone:'Europe/Riga'},'new-york':{country:'US',city:'New York',latitude:'40.71',longitude:'-74.01',timezone:'America/New_York'}};
@@ -15,7 +16,7 @@ http.createServer(async(req,res)=>{
  try{
   if(csp)res.setHeader('Content-Security-Policy',csp);
   const url=new URL(req.url,`http://127.0.0.1:${port}`),route=url.pathname.replace(/\/$/,'');
-  const handler={'/api/atrasanas-vieta':location,'/api/laikapstakli':weather,'/api/noverojumi':observation}[route];
+  const handler={'/api/atrasanas-vieta':location,'/api/laikapstakli':weather,'/api/noverojumi':observation,'/api/horoskops/dienas':horoscope}[route];
   if(handler){const request=new Request(url,{headers:req.headers});if(fixture)Object.defineProperty(request,'cf',{value:fixtures[fixture]});const reply=await handler({request});res.writeHead(reply.status,Object.fromEntries(reply.headers));res.end(Buffer.from(await reply.arrayBuffer()));return;}
   let file=path.resolve(root,'.'+decodeURIComponent(url.pathname));if(!file.startsWith(root+path.sep)&&file!==root){res.writeHead(403);res.end();return;}
   try{if((await stat(file)).isDirectory())file=path.join(file,'index.html');}catch{file=path.join(root,'404.html');res.statusCode=404;}

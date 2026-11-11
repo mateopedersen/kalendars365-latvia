@@ -17,7 +17,7 @@ og_image_alt: 'Īsās ziemas dienas Latvijā: kā ieplānot gaišo laiku | Kalen
 ---
 Latvijas ziemā dienasgaisma kļūst par īpaši pamanāmu plānošanas resursu. Pastaigu, braucienu vai darbu ārā bieži gribas pārcelt uz to dienas daļu, kurā ir gaišāks. Lai tas izdotos, noder nevis aptuvens priekšstats par “ziemas pēcpusdienu”, bet konkrētas pilsētas saullēkta un saulrieta laiki izvēlētajā datumā.
 
-Dienas garums nav tas pats, kas saulaina laika ilgums. Apmākusies diena var būt gaiša ilgāk par subjektīvi pamanīto, bet tiešā Saule aiz ēkām var pazust ātrāk. Šis raksts palīdz nodalīt [astronomisko](/blogs/rudens-latvija-gadalaiki-un-izbraucieni/) intervālu no laikapstākļiem un pārvērst abus vienkāršā, ikdienā izmantojamā plānā.
+[Dienas garums](/dienas-garums/) nav tas pats, kas saulaina laika ilgums. Apmākusies diena var būt gaiša ilgāk par subjektīvi pamanīto, bet tiešā Saule aiz ēkām var pazust ātrāk. Šis raksts palīdz nodalīt [astronomisko](/blogs/rudens-latvija-gadalaiki-un-izbraucieni/) intervālu no laikapstākļiem un pārvērst abus vienkāršā, ikdienā izmantojamā plānā.
 
 ## Ko parāda dienas garuma skaitlis
 {: #section-1}
@@ -29,7 +29,7 @@ Ja salīdzini vairākus avotus, pārbaudi aprēķina definīciju un koordinātas
 ## Saulgrieži ir atskaites punkts
 {: #section-2}
 
-Ziemas saulgrieži ziemeļu puslodē saistīti ar gada īsāko dienasgaismas posmu, taču precīzu datumu un brīdi pārbauda konkrētajam gadam. Tas nenozīmē, ka visās Latvijas pilsētās ir vienāds lēkts un riets. Vietējās koordinātas joprojām ietekmē aprēķinu un to, kā rezultāts izskatās pulkstenī.
+[Ziemas saulgrieži](/svetki-un-tradicijas/ziemas-saulgriezi/) ziemeļu puslodē saistīti ar gada īsāko dienasgaismas posmu, taču precīzu datumu un brīdi pārbauda konkrētajam gadam. Tas nenozīmē, ka visās Latvijas pilsētās ir vienāds lēkts un riets. Vietējās koordinātas joprojām ietekmē aprēķinu un to, kā rezultāts izskatās pulkstenī.
 
 Arī [agrākais saulriets un vēlākais saullēkts](https://aa.usno.navy.mil/faq/rs_solstices) ne vienmēr iekrīt tieši saulgriežu dienā. Tāpēc dažas dienas var rasties iespaids, ka vakars jau mainās, bet rīts vēl ne. Lai saprastu tendenci, apskati vairāku nedēļu tabulu, nevis mēģini visu izsecināt no diviem atsevišķiem rītiem.
 
@@ -43,7 +43,7 @@ Darba dienā var noderēt īsāks posms dienas vidū, ja tavs ritms un iespējas
 ## Pārbaudi galamērķi, nevis tikai dzīvesvietu
 {: #section-4}
 
-Ja brauc uz citu Latvijas vietu, izvēlies tās koordinātām atbilstošu pilsētu. Vienotā laika josla nenozīmē vienādu saullēktu visā valstī. Atšķirība var būt svarīga, ja iecere saistīta ar rīta gaismu vai īsu pēcpusdienas logu. Saglabā rezultātu kopā ar vietu un datumu.
+Ja brauc uz citu Latvijas vietu, izvēlies tās koordinātām atbilstošu pilsētu. Vienotā laika josla nenozīmē [vienādu saullēktu visā valstī](/blogs/saullekts-saulriets-latvijas-pilsetas/). Atšķirība var būt svarīga, ja iecere saistīta ar rīta gaismu vai īsu pēcpusdienas logu. Saglabā rezultātu kopā ar vietu un datumu.
 
 Automātiski noteikta atrašanās vieta var būt aptuvena, īpaši lietojot VPN vai ceļojot. Pārbaudi redzamo pilsētas nosaukumu un vajadzības gadījumā izvēlies to pats. Ja rīks saglabā manuālo izvēli, nākamajā apmeklējumā tā var palikt spēkā. Tas ir ērti, ja zini, kuru vietu plāno, bet prasa nelielu uzmanību.
 

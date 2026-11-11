@@ -28,9 +28,9 @@ Tādēļ nav pareizi sākt skaitīt ar pirmo kalendārā redzamo janvāra rūti�
 ## Piemērs ar 2027. gada sākumu
 {: #section-2}
 
-2027. gada 1. janvāris ir piektdiena un pieder 2026. gada 53. ISO nedēļai. Pirmdien, 4. janvārī, sākas 2027. gada pirmā ISO nedēļa. Abi pieraksti ir savstarpēji saderīgi: datums var būt 2027. gadā, bet nedēļas numuram pievienotais gads vēl ir 2026.
+2027\. gada 1. janvāris ir piektdiena un pieder 2026. gada 53. ISO nedēļai. Pirmdien, 4. janvārī, sākas [2027. gada pirmā ISO nedēļa](/nedelas-kalendars/2027/01/). Abi pieraksti ir savstarpēji saderīgi: datums var būt 2027. gadā, bet nedēļas numuram pievienotais gads vēl ir 2026.
 
-Ja komandā plāno darbu “2027. gada pirmajā nedēļā”, norādi arī datumu intervālu. Cilvēks, kurš skatās uz mēneša pirmo rindu, citādi var saprast pavisam citu periodu. Īsa piebilde ar pirmdienas un svētdienas datumu ir daudz vērtīgāka par vēlāku strīdu par numuru.
+Ja komandā plāno darbu “2027. gada pirmajā nedēļā”, norādi arī datumu intervālu. Cilvēks, kurš skatās uz [mēneša pirmo rindu](/kalendars/2027/janvaris/), citādi var saprast pavisam citu periodu. Īsa piebilde ar pirmdienas un svētdienas datumu ir daudz vērtīgāka par vēlāku strīdu par numuru.
 
 ## Piemērs ar decembra beigām
 {: #section-3}
@@ -44,21 +44,21 @@ Gada pārskatā tas nav iemesls pārcelt dienas uz citu mēnesi vai paslēpt tā
 
 Kalendārais gads nav vesels skaits septiņu dienu nedēļu. Parastā gadā ir 365 dienas, bet [garajā gadā](/blogs/garais-gads-2028-februaris/) 366. Robeždienu novietojums nosaka, vai ISO nedēļu gadā būs 52 vai 53 nedēļas. Tas nenozīmē, ka garā gada februāris vienmēr automātiski rada 53. nedēļu.
 
-Praktiskai lietošanai nevajag mēģināt atcerēties garu gadu sarakstu. Atver konkrētā gada kalendāru un apskati janvāra sākumu un decembra beigas. Ja veido savu tabulu, izmanto ISO noteikumiem atbilstošu funkciju un pārbaudi robežgadījumus, nevis tikai kādu datumu jūlijā.
+Praktiskai lietošanai nevajag mēģināt atcerēties garu gadu sarakstu. Atver [konkrētā gada kalendāru](/kalendars/) un apskati janvāra sākumu un decembra beigas. Ja veido savu tabulu, izmanto ISO noteikumiem atbilstošu funkciju un pārbaudi robežgadījumus, nevis tikai kādu datumu jūlijā.
 
 ## Kā pierakstīt termiņu saprotami
 {: #section-5}
 
 Iekšējā plānā var lietot, piemēram, “2027. gada 1. ISO nedēļa, no 4. līdz 10. janvārim”. Saņēmējam uzreiz ir redzams gan numurs, gan intervāls. Ja vajadzīga konkrēta piegādes diena, pievieno pilnu datumu un laiku; nedēļas apzīmējums pats par sevi nenosaka precīzu izpildes brīdi.
 
-Daloties ar tabulu ārpus savas komandas, paskaidro, ka nedēļa sākas pirmdienā. Dažādās lietotnēs un valstīs nedēļas sākuma iestatījumi var atšķirties. Ekrānuzņēmumā redzama rinda vēl negarantē, ka otram cilvēkam ieslēgta tā pati numerācijas sistēma vai laika josla.
+Daloties ar tabulu ārpus savas komandas, paskaidro, ka nedēļa sākas pirmdienā. Lietojot [dažādus kalendārus](/nedelu-numuri/), nedēļas sākuma iestatījumi var atšķirties. Ekrānuzņēmumā redzama rinda vēl negarantē, ka otram cilvēkam ieslēgta tā pati numerācijas sistēma vai laika josla.
 
 ## Nedēļas numurs nav darba dienu skaits
 {: #section-6}
 
 Vienā ISO nedēļā var būt gan svētki, gan pārceltas darba dienas, gan individuāls maiņu grafiks. Numurs apraksta septiņu dienu periodu, nevis apmaksājamās stundas. Tāpēc [darba dienu aprēķinam](/blogs/darba-dienas-un-stundas-ka-skaitit/) nepieciešams vēl viens informācijas slānis ar Latvijas svētkiem un konkrētās darbavietas nosacījumiem.
 
-Arī mācību semestra nedēļas numurs ne vienmēr ir ISO numurs. Augstskola var skaitīt pirmo studiju nedēļu no semestra sākuma. Ja dokumentā rakstīts tikai “piektā nedēļa”, pārbaudi dokumenta leģendu un akadēmisko kalendāru. Vienāda vārda lietošana vēl nenozīmē vienādu sākumpunktu.
+Arī mācību semestra nedēļas numurs ne vienmēr ir ISO numurs. Augstskola var skaitīt pirmo studiju nedēļu no semestra sākuma. Ja dokumentā rakstīts tikai “piektā nedēļa”, pārbaudi dokumenta leģendu un [akadēmisko kalendāru](/studiju-kalendars/). Vienāda vārda lietošana vēl nenozīmē vienādu sākumpunktu.
 
 ## Neliels nedēļas numura pārbaudes uzdevums
 {: #section-7}
@@ -72,4 +72,4 @@ Ja dalies ar grafiku, palūdz otram cilvēkam pēc ieraksta atrast konkrētu dar
 
 Izvēlies trīs kontroles datumus: janvāra pirmās dienas, vienu vasaras pirmdienu un decembra pēdējās dienas. Salīdzini nedēļas numuru un tai piesaistīto gadu. Tad apskati izdruku, lai numuru aile nesaplūst ar pirmdienas datumu un ir salasāma arī bez krāsām.
 
-[Kalendāru pārskatā](/kalendars/) vari salīdzināt vairākus gadus, bet [nedēļas kalendārā](/nedelas-kalendars/) atvērt konkrēto periodu. Saglabā ieradumu koplietotos termiņos rakstīt arī datumu intervālu. Tas prasa vienu papildu rindiņu, toties palīdz izvairīties no kļūdām gada maiņā un padara plānu saprotamu arī cilvēkam, kurš ISO noteikumus ikdienā nelieto.
+Kalendāru pārskatā vari salīdzināt vairākus gadus, bet [nedēļas kalendārā](/nedelas-kalendars/) atvērt konkrēto periodu. Saglabā ieradumu koplietotos termiņos rakstīt arī datumu intervālu. Tas prasa vienu papildu rindiņu, toties palīdz izvairīties no kļūdām gada maiņā un padara plānu saprotamu arī cilvēkam, kurš ISO noteikumus ikdienā nelieto.

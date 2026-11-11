@@ -1,4 +1,4 @@
 <article class="journal-card" data-blog-card data-category="{{ include.post.category }}" data-title="{{ include.post.title | escape }}" data-search="{{ include.post.description | escape }}">
-  <a class="journal-card-image" href="{{ include.post.url }}" aria-label="{{ include.post.title | escape }}">{% include blog-photo.html photo=include.post.photo %}<span class="journal-category">{{ include.post.category }}</span></a>
-  <div class="journal-card-copy"><div class="journal-meta"><span>{{ include.post.readingMinutes }} min lasīšanai</span><span>Silvis Balodis</span></div><h3><a href="{{ include.post.url }}">{{ include.post.title }}</a></h3><p>{{ include.post.description }}</p><a class="journal-read" href="{{ include.post.url }}">Lasīt rakstu <span aria-hidden="true">↗</span></a></div>
+  <div class="journal-card-image">{% include blog-photo.html photo=include.post.photo %}<span class="journal-category">{{ include.post.category }}</span></div>
+  <div class="journal-card-copy"><div class="journal-meta"><span>{{ include.post.readingMinutes }} min lasīšanai</span><span>Silvis Balodis</span></div><h3><a href="{{ include.post.url }}">{{ include.post.title }}</a></h3><p>{{ include.post.description }}</p><span class="journal-read" aria-hidden="true">Lasīt rakstu <span>↗</span></span></div>
 </article>

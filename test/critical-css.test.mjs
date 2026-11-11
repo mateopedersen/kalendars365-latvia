@@ -9,8 +9,18 @@ test('critical extraction preserves source order, privacy choices and all print 
  const html=`<html><head><meta name="asset-version" content="test"><link rel="stylesheet" href="${href}"></head><body><p>Hello</p></body></html>`;
  const result=applyCriticalCss(html,css,href),critical=result.html.match(/<style[^>]*>([\s\S]*?)<\/style>/)[1];
  assert(critical.includes('--ink'));assert(!critical.includes('.unused'));assert(critical.includes('data-consent-saved'));assert(critical.includes('.calendar-hidden'));assert(critical.includes('.not-in-dom'));assert(critical.indexOf('color:var(--ink)')<critical.indexOf('color:purple'));
- assert(result.html.includes(`href="${href}" media="print" data-critical-deferred`));assert(result.html.includes(`<noscript><link rel="stylesheet" href="${href}"></noscript>`));assert(result.html.includes('src="/assets/critical-css-loader.js?v=test"'));assert(!/\sonload=/.test(result.html));
+ assert(result.html.includes(`<link rel="stylesheet" href="${href}">`));assert(!result.html.includes('data-critical-deferred'));assert(!result.html.includes('critical-css-loader'));assert(!result.html.includes('<noscript>'));assert(!/\sonload=/.test(result.html));
  assert.equal(css.includes('.unused'),true,'Original source is preserved');
+});
+test('runtime-only controls receive the complete stylesheet before first paint, without a script or body gate',()=>{
+ const css='.existing{color:red}.runtime-controls{display:grid;grid-template-columns:1fr 1fr;gap:12px}.runtime-controls button{min-height:44px}';
+ const html=`<html><head><link rel="stylesheet" href="${href}"><script defer src="/assets/widget.js"></script><script type="module" src="/assets/widget.mjs"></script></head><body><main class="existing">Ready</main></body></html>`;
+ const result=applyCriticalCss(html,css,href).html,head=result.split('</head>')[0],critical=result.match(/<style[^>]*>([\s\S]*?)<\/style>/)[1];
+ assert(!critical.includes('.runtime-controls'),'SSR extraction cannot anticipate runtime markup');
+ assert(head.includes(`<link rel="stylesheet" href="${href}">`),'A matching head stylesheet blocks painting until the full cascade is ready');
+ assert(head.indexOf(`<link rel="stylesheet" href="${href}">`)<head.indexOf('<script defer'));
+ assert(!/media="print"|data-critical-deferred|critical-css-loader|visibility\s*:\s*hidden|opacity\s*:\s*0/.test(result));
+ assert.equal((head.match(/rel="stylesheet"/g)||[]).length,1);
 });
 test('one compiled stylesheet can safely extract different pages',()=>{
  const css='.a{color:red}.b{color:blue}',processor=createCriticalProcessor(css,href);

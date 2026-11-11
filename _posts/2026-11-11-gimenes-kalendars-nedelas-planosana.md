@@ -15,16 +15,16 @@ og_image_height: 630
 og_image_alt: 'Ģimenes nedēļas kalendārs: mazāk pārpratumu, skaidrāki plāni | Kalendārs365
   Latvijai'
 ---
-Ģimenes kalendārs ir kopīga vienošanās par laiku. Tas palīdz saprast, kurš kuru sagaidīs, kad vajadzīga palīdzība un kura pēcpusdiena jau ir aizņemta. Lai tas darbotos, nav vajadzīga sarežģīta sistēma vai desmitiem krāsu. Vajadzīgi skaidri ieraksti, viena uzticama versija un ieradums to īsi pārrunāt.
+[Ģimenes kalendārs](/gimenes-kalendars/) ir kopīga vienošanās par laiku. Tas palīdz saprast, kurš kuru sagaidīs, kad vajadzīga palīdzība un kura pēcpusdiena jau ir aizņemta. Lai tas darbotos, nav vajadzīga sarežģīta sistēma vai desmitiem krāsu. Vajadzīgi skaidri ieraksti, viena uzticama versija un ieradums to īsi pārrunāt.
 
-Lielākā kļūda ir pārvērst kopīgo kalendāru par vienam cilvēkam uzkrautu atmiņas darbu. Ja visi tikai jautā, bet viens visu glabā galvā, glīta lapa problēmu neatrisinās. Tāpēc sāc ar pienākumu sadalījumu un tikai tad izvēlies izdrukas dizainu vai digitālo skatu.
+Lielākā kļūda ir pārvērst kopīgo kalendāru par vienam cilvēkam uzkrautu atmiņas darbu. Ja visi tikai jautā, bet viens visu glabā galvā, glīta lapa problēmu neatrisinās. Tāpēc sāc ar pienākumu sadalījumu un tikai tad izvēlies [izdrukas dizainu](/blogs/personigs-kalendars-fotografijas-druka/) vai digitālo skatu.
 
 ## Izvēlies vienu galveno vietu
 {: #section-1}
 
 Vienojieties, kur atrodas aktuālais plāns: pie sienas, kopīgā ierīcē vai citā visiem pieejamā vietā. Papildu piezīmes var būt dažādas, bet izmaiņām jānonāk vienā galvenajā pārskatā. Pretējā gadījumā [skolas ziņa](https://www.izm.gov.lv/lv/jaunums/apstiprinati-20262027-macibu-gada-sakuma-beigu-un-brivdienu-laiki) paliek vienā sarakstē, ārsta laiks otrā un darba izmaiņas tikai kāda atmiņā.
 
-Izvēloties [digitālu rīku](/blogs/personigs-kalendars-fotografijas-druka/), pārbaudi, kā tas glabā informāciju. Kalendārs365 personīgie plāni tiek saglabāti izmantotajā pārlūkā; tas nav automātiski sinhronizēts ģimenes konts. Ja gribi plānu parādīt citā ierīcē, izmanto atbilstošu eksportu vai izdruku un pārbaudi, vai jaunākā versija tiešām ir pieejama arī pārējiem.
+Izvēloties digitālu rīku, pārbaudi, kā tas glabā informāciju. Kalendārs365 personīgie plāni tiek saglabāti izmantotajā pārlūkā; tas nav automātiski sinhronizēts ģimenes konts. Ja gribi plānu parādīt citā ierīcē, izmanto atbilstošu eksportu vai izdruku un pārbaudi, vai jaunākā versija tiešām ir pieejama arī pārējiem.
 
 ## Ierakstam jāatbild uz trim jautājumiem
 {: #section-2}
@@ -36,7 +36,7 @@ Atšķir pasākuma sākumu no izbraukšanas laika. Ja nodarbība sākas sešos, 
 ## Nedēļas sarunai pietiek ar īsu formātu
 {: #section-3}
 
-Izvēlieties atkārtojamu brīdi, kad apskatāt nākamās septiņas dienas. Vispirms pārbaudiet nemaināmos laikus, pēc tam sadaliet nokļūšanu un mājas darbus. Noslēgumā katrs pasaka vienu lietu, kurai vajadzīgs atbalsts. Šāda secība palīdz nepazust garā sarunā par visām iespējamām nākotnes problēmām.
+Izvēlieties atkārtojamu brīdi, kad apskatāt nākamās septiņas dienas. Vispirms salīdziniet [skolas brīvlaiku](/blogs/skolas-brivlaiki-2027-gimenes-plans/) un pieaugušo [maiņu grafiku](/mainu-grafiks/) ar nemaināmajiem laikiem, pēc tam sadaliet nokļūšanu un mājas darbus. Noslēgumā katrs pasaka vienu lietu, kurai vajadzīgs atbalsts. Šāda secība palīdz nepazust garā sarunā par visām iespējamām nākotnes problēmām.
 
 Ja plāns mainās nedēļas vidū, nav jāgaida nākamā kopīgā saruna. Atjauno konkrēto ierakstu un paziņo tiem, kurus izmaiņa skar. Taču saglabā īso iknedēļas pārbaudi, jo tā palīdz pamanīt arī lietas, par kurām neviens vēl nav iedomājies uzrakstīt ziņu.
 
@@ -73,6 +73,4 @@ Ja kāds ģimenes loceklis kalendāru nelasa, noskaidro iemeslu. Varbūt teksts 
 
 Pēc dažām nedēļām pajautā, kuri ieraksti palīdzēja un kuri palika neskaidri. Varbūt vajadzīgi īsāki nosaukumi, lielāka izdruka vai cita vieta uz sienas. Maini pa vienai lietai, lai varētu saprast, kas patiešām uzlabo lietošanu. Nav jāveido jauna sistēma katru svētdienu.
 
-[Ģimenes kalendārā](/gimenes-kalendars/) sāc ar vienu parastu nedēļu, nevis uzreiz visu gadu. Pievieno tikai zināmos laikus, sadali atbildību un pārbaudi izdruku kopā ar pārējiem. Kad šis pamats ir saprotams, vari pievienot brīvlaikus, svētkus un ilgākas ieceres, saglabājot vienu skaidru, dzīvei pielāgojamu plānu.
-
-Saistītie ceļveži: [Skolas brīvlaiki 2027. gadā: ko pārbaudīt ģimenes kalendārā](/blogs/skolas-brivlaiki-2027-gimenes-plans/).
+Ģimenes kalendārā sāc ar vienu parastu nedēļu, nevis uzreiz visu gadu. Pievieno tikai zināmos laikus, sadali atbildību un pārbaudi izdruku kopā ar pārējiem. Kad šis pamats ir saprotams, vari pievienot brīvlaikus, svētkus un ilgākas ieceres, saglabājot vienu skaidru, dzīvei pielāgojamu plānu.

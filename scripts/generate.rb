@@ -29,11 +29,13 @@ require_relative 'useful_pages'
 require_relative 'calendar_collection_components'
 require_relative 'page_reading_notes'
 require_relative 'blog_components'
+require_relative 'internal_navigation'
 ROOT = File.expand_path('..', __dir__)
 Dir.chdir(ROOT)
 ENV['TZ'] = 'Europe/Riga'
 revision_date = Date.today.iso8601
 previous_revisions = File.exist?('_data/page-revisions.json') ? JSON.parse(File.read('_data/page-revisions.json')) : {}
+previous_prose = File.exist?('_data/page-guides.json') ? JSON.parse(File.read('_data/page-guides.json')).fetch('pages',{}) : {}
 page_revisions = {}
 MONTHS = %w[janvāris februāris marts aprīlis maijs jūnijs jūlijs augusts septembris oktobris novembris decembris].freeze
 GEN = %w[janvāra februāra marta aprīļa maija jūnija jūlija augusta septembra oktobra novembra decembra].freeze
@@ -275,6 +277,7 @@ def work_widget(year)
  '<section class="widget-panel" data-server-rendered="work"><section class="tool-panel"><h2>'+year.to_s+'. gada darba un atpūtas dienas</h2><div class="table-scroll"><table class="data-table"><thead><tr><th scope="col">Mēnesis</th><th scope="col">Dienas</th><th scope="col">Darba dienas</th><th scope="col">Svētku dienas</th><th scope="col">Brīvdienas</th></tr></thead><tbody>'+rows+'</tbody></table></div><p class="print-hint">Pamataprēķins: pirmdiena–piektdiena, bez oficiālajām svētku brīvdienām. Valsts noteikta darbdienu pārcelšana nav piemērota. Svētku un nedēļas atpūtas dienas var pārklāties.</p></section><div>'+calculator_markup(true)+'</div></section>'
 end
 def widget(type,year=2027)
+ return '{% include ascendant-calculator.html %}<section class="widget-panel" data-widget="zodiac"></section>' if type=='zodiac'
  return '{% include sky-tool.html %}' if type=='sun'
  return planning_panel('leave',year) if type=='leave'
  return work_widget(year) if type=='work'
@@ -463,7 +466,7 @@ ROUTES.each do |r|
   profile=HOROSCOPE_PROFILES.find{|item|item['slug']==slug}
   if profile
    issue=HOROSCOPE_SNAPSHOT.fetch('dailyMarkup').fetch(slug)
-   body="<section class=\"horoscope-page\" data-sign=\"#{h(slug)}\"><div class=\"horoscope-daily-feature\"><!--K365-HOROSCOPE-BEGIN:#{h(slug)}--><div data-horoscope-view=\"#{h(slug)}\" data-edition-date=\"#{HOROSCOPE_DAY}\">#{issue}</div><!--K365-HOROSCOPE-END:#{h(slug)}--></div>#{HOROSCOPE_SNAPSHOT.fetch('profileMarkup').fetch(slug)}</section>"
+   body="<section class=\"horoscope-page\" data-sign=\"#{h(slug)}\"><div class=\"horoscope-daily-feature\"><!--K365-HOROSCOPE-BEGIN:#{h(slug)}--><div data-horoscope-view=\"#{h(slug)}\" data-edition-date=\"#{HOROSCOPE_DAY}\">#{issue}</div><!--K365-HOROSCOPE-END:#{h(slug)}--></div>#{HOROSCOPE_SNAPSHOT.fetch('profileMarkup').fetch(slug)}"+card('Saules zīme un ascendents','<p>Uzlecošo zīmi nosaka precīzs dzimšanas laiks un vieta. Tā var atšķirties no tavas Saules zīmes.</p>'+a('/horoskops/#ascendenta-kalkulators','Aprēķināt savu ascendentu →','primary-button'))+'</section>'
   else
    noindex=true;reason='horoscope_profile_missing';body='<section class="content-card"><h2>Zīmes apraksts nav pieejams.</h2>'+a('/horoskops/','Horoskopu pārskats')+'</section>'
   end
@@ -529,7 +532,7 @@ ROUTES.each do |r|
    %(<article class="zodiac-index-card">#{zodiac_art(profile,'zodiac-index-symbol',80)}<div class="zodiac-index-heading"><span class="eyebrow">#{h(element.fetch('label'))} · #{h(profile.fetch('modality').fetch('label'))}</span><h2>#{h(name)}</h2></div><p>#{h(profile.fetch('summary'))}</p>#{a("/horoskops/#{h(sign_slug)}/","Atvērt #{h(profile.fetch('genitive').downcase)} horoskopu →")}</article>)
   end.join
   method=JSON.parse(File.read('_data/horoscope/method.json'))
-  body=%(<section class="zodiac-index"><p class="lead">Iepazīsti 12 populārās Rietumu tropiskā zodiaka zīmes, to simbolus, elementus un tradicionālo simboliku.</p><div class="zodiac-index-grid">#{cards}</div>)+card('Kā lasīt zīmju aprakstus',"<p>#{h(method.fetch('selectionExplanation'))}</p><p>#{h(method.fetch('astronomyNotice'))}</p><p>#{h(method.fetch('shortDisclosure'))}</p>")+a('/horoskops/','Lasīt šodienas horoskopu →','primary-button')+'</section>'
+  body=%(<section class="zodiac-index"><p class="lead">Iepazīsti 12 populārās Rietumu tropiskā zodiaka zīmes, to simbolus, elementus un tradicionālo simboliku.</p>)+a('/horoskops/#ascendenta-kalkulators','Uzzināt savu ascendentu →','primary-button')+%(<div class="zodiac-index-grid">#{cards}</div>)+card('Kā lasīt zīmju aprakstus',"<p>#{h(method.fetch('selectionExplanation'))}</p><p>#{h(method.fetch('astronomyNotice'))}</p><p>#{h(method.fetch('shortDisclosure'))}</p>")+a('/horoskops/','Lasīt šodienas horoskopu →','primary-button')+'</section>'
  elsif slug=='horoskops'
   body=widget('zodiac')+"<!--K365-HOROSCOPE-BEGIN:collection--><section data-horoscope-collection data-edition-date=\"#{HOROSCOPE_DAY}\">#{HOROSCOPE_SNAPSHOT.fetch('collectionMarkup')}</section><!--K365-HOROSCOPE-END:collection-->"+card(HOROSCOPE_PROFILES.first['seo']['title'].split(':').first,'<p>'+h(JSON.parse(File.read('_data/horoscope/method.json')).fetch('selectionExplanation'))+'</p><p>'+h(JSON.parse(File.read('_data/horoscope/method.json')).fetch('astronomyNotice'))+'</p><p>'+h(JSON.parse(File.read('_data/horoscope/method.json')).fetch('shortDisclosure'))+'</p>')+'<div class="link-grid">'+ROUTES.select{|s|s['Page family']=='horoscope'}.map{|s|a(s['URL path'],s['Latvian title/topic'],'link-card')}.join+'</div>'
  elsif slug=='meklesana'
@@ -580,6 +583,10 @@ ROUTES.each do |r|
  elsif slug=='zodiaka-zimes'
   title='Zodiaka zīmes: nosaukumi un simbolika';heading='12 zodiaka zīmes un to elementi';desc='Iepazīsti Aunu, Vērsi, Dvīņus un pārējās zodiaka zīmes, to elementus un simbolisko nozīmi. Dienas horoskopi katrai zīmei.'
  end
+ if slug=='horoskopa-zimes-kalkulators'
+  title='Ascendenta un zodiaka zīmes kalkulators';heading='Ascendenta un zodiaka zīmes kalkulators'
+  desc='Aprēķini ascendentu pēc dzimšanas datuma, precīza laika un vietas. Vēsturiskās laika joslas, vasaras laiks un zodiaka zīmes latviski.'
+ end
  desc="#{title}. #{m ? "#{Date.new(y,m,-1).day} #{Date.new(y,m,-1).day == 31 ? 'diena' : 'dienas'}, ISO nedēļas un izvēlētā mēneša plānošana." : 'Pārskatāmi datumi, plānošanas rīki un saites uz avotiem.'} Kalendārs365 Latvijai." if desc.empty?
  front={'layout'=>'default','title'=>title,'description'=>desc,'permalink'=>p,'family'=>f,'city_id'=>(%w[sun_city moon_city].include?(f) ? slug : nil),'year'=>(r['Year'].empty? ? nil : y),'month'=>m,'week'=>week,'calendar_name'=>(f=='name_calendar' ? r['Latvian title/topic'] : nil),'view'=>(f=='iso_week' ? 'week' : f=='year' ? 'year' : nil),'noindex'=>noindex,'og_image'=>(File.file?("assets/og/#{Digest::SHA1.hexdigest(p)[0,16]}.webp") ? "/assets/og/#{Digest::SHA1.hexdigest(p)[0,16]}.webp" : '/assets/og/home.png')}
  front.delete_if{|_,value|value.nil?}
@@ -614,7 +621,7 @@ ROUTES.each do |r|
  elsif slug=='izveidot-kalendaru'
   content="<div class=\"page-shell page-shell--studio\"><nav class=\"breadcrumbs\" aria-label=\"Atrašanās vieta\">#{breadcrumb_markup(p,title)}</nav>#{body}</div>"
  else
- content=p=='/' ? body : "<div class=\"page-shell page-shell--#{h(f)} page-shell--visual-#{h(visual)}#{front['calendar_collection'] ? ' page-shell--calendar-collection' : ''}\"><nav class=\"breadcrumbs\" aria-label=\"Atrašanās vieta\">#{breadcrumb_markup(p,title)}</nav>#{page_heading_markup(f,p,heading,desc,y,m,slug)}#{body}<nav class=\"related-links\">#{a('/kalendars/2027/','2027. gada kalendārs')}#{a('/kalendars/2028/','2028. gada kalendārs')}#{a('/kalendars/2029/','2029. gada kalendārs')}#{a('/kalendars/2030/','2030. gada kalendārs')}#{a('/visi-riki/','Visi rīki')}</nav></div>"
+ content=p=='/' ? body : "<div class=\"page-shell page-shell--#{h(f)} page-shell--visual-#{h(visual)}#{front['calendar_collection'] ? ' page-shell--calendar-collection' : ''}\"><nav class=\"breadcrumbs\" aria-label=\"Atrašanās vieta\">#{breadcrumb_markup(p,title)}</nav>#{page_heading_markup(f,p,heading,desc,y,m,slug)}#{body}</div>"
  end
  path=p=='/' ? 'index.html' : "generated#{p}index.html";FileUtils.mkdir_p(File.dirname(path));File.write(path,front.to_yaml+"---\n"+content)
  # A rebuild alone does not change lastmod. Only meaningful page content does.
@@ -644,10 +651,35 @@ manifest << {url:'/pilsetas-un-fotografijas/',title:'Fotogrāfijas un licences',
 end
 File.write('_data/page-guides.json',JSON.pretty_generate({schemaVersion:1,locale:'lv-LV',editorial:{aiAssisted:true,nativeEditorReviewed:false},pages:READING_NOTES.pages})+"\n")
 manifest.concat(BlogComponents.generate(ROOT))
+navigation_records=manifest+[
+ {url:'/404.html',title:'Lapa nav atrasta',family:'not_found',indexable:false},
+ {url:'/500.html',title:'Īslaicīga kļūda',family:'temporary_error',indexable:false},
+ {url:'/nedelas-kalendars/2031/01/',title:'2031. gada 1. nedēļa',family:'iso_week',indexable:false}
+]
+internal_navigation=InternalNavigation.new(records:navigation_records,notes:READING_NOTES.pages,
+ blogs:JSON.parse(File.read('_data/blog.json')).fetch('posts'),
+ crops:JSON.parse(File.read('_data/garden-crops.json')).fetch('crops'),garden_actions:method(:garden_calendar_actions))
+internal_navigation.write
+File.write('_data/page-guides.json',JSON.pretty_generate({schemaVersion:1,locale:'lv-LV',editorial:{aiAssisted:true,nativeEditorReviewed:false},pages:READING_NOTES.pages})+"\n")
+manifest.each do |record|
+ url=record[:url];plan=internal_navigation.pages.fetch(url)
+ navigation_hash=Digest::SHA256.hexdigest(JSON.generate(plan))
+ prior=previous_revisions.fetch(url,{})
+ prose=READING_NOTES.pages.dig(url,'linkedParagraphs')
+ prose_hash=Digest::SHA256.hexdigest(JSON.generate(prose))
+ previous_prose_hash=prior['proseLinksSha256'] || Digest::SHA256.hexdigest(JSON.generate(previous_prose.dig(url,'linkedParagraphs')))
+ record[:lastmod]=revision_date if prior['navigationSha256']!=navigation_hash || prose_hash!=previous_prose_hash
+ page_revisions[url]||={sha256:Digest::SHA256.hexdigest(JSON.generate(record)),lastmod:record[:lastmod]}
+ page_revisions[url][:navigationSha256]=navigation_hash
+ page_revisions[url][:proseLinksSha256]=prose_hash
+ page_revisions[url][:lastmod]=record[:lastmod]
+end
 # Owner-excluded information pages remain useful in the site's own search.
 search_pages=manifest.select{|r|r[:indexable] || r[:status]=='owner_noindex'}.map do |page|
  city=CITIES.find{|c|page[:url].end_with?("/#{c['id']}/")}
- page.merge(keywords: city ? city['name'] : '')
+ keywords=city ? city['name'] : ''
+ keywords+=' ascendents ascendenta uzlecošā zīme ascendant rising sign dzimšanas laiks' if page[:url]=='/horoskopa-zimes-kalkulators/'
+ page.merge(keywords: keywords)
 end
 DATA.fetch('names',[]).each do |name|
  search_pages << {url:'/varda-dienas/?q='+URI.encode_www_form_component(name['name']),title:name['name'],kind:'Vārda diena',nameKind:name['kind'],description:"#{name['day']}. #{MONTHS[name['month'].to_i-1]} · Vārda diena (VVC #{name['edition']})",keywords:"vārda diena vārdi #{MONTHS[name['month'].to_i-1]}"}
@@ -666,6 +698,11 @@ File.write('_redirects',"/avoti/ /avoti-un-metodika/ 301\n/sikdatnes/ /sikdatnu-
 # Serialize the shared city catalog as JavaScript before hashing assets.
 public_cities = CITIES.map{|c| c.slice('id','name','locative','lat','lon','timeZone').merge('photo'=>c.fetch('photo').slice('src','srcset','alt','author','license'))}
 File.write('assets/cities.js', 'window.K365Cities = '+JSON.generate(public_cities)+";\n")
+# Public sharing catalog uses the same reviewed covers and their photo credits.
+share_catalog=JSON.parse(File.read('_data/social-images.json')).fetch('pages').transform_values do |row|
+ {title:row.fetch('title'),image:row.fetch('src'),credits:row.fetch('sources').map{|photo|[photo['author']||photo['credit'],photo['license']].compact.join(' · ')}.join(' · ')}
+end
+File.write('assets/share-pages.json',JSON.generate(share_catalog))
 # Content-addressed global asset revision; local user data is never involved.
 asset_files = (Dir.glob('assets/**/*').select{|path|File.file?(path)} + ['downloads/manifest.json','downloads/meness/manifest.json','downloads/gada-a3/manifest.json','downloads/menesa-a3/manifest.json'].select{|path|File.file?(path)}).sort
 asset_hashes = asset_files.to_h{|path|[path,Digest::SHA256.file(path).hexdigest]}

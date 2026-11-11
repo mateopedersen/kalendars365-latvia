@@ -156,7 +156,7 @@
   "/skolas-kalendars/": {
     "heading": "Vienā plānā salīdzini mācības un brīvlaikus",
     "paragraphs": [
-      "Skolas kalendārā ir svarīgi kopā nolasit semestra sākumu, mācību beigas un brīvlaiku periodus. Atšķirīgs termiņš konkrētai klasei nav kļūda, ja tas ir norādīts oficiālajā regulējumā. Veidojot personīgo plānu, pievieno arī savas skolas paziņotās norises, kuras nav valsts kopējā kalendārā.",
+      "Skolas kalendārā ir svarīgi kopā nolasīt semestra sākumu, mācību beigas un brīvlaiku periodus. Atšķirīgs termiņš konkrētai klasei nav kļūda, ja tas ir norādīts oficiālajā regulējumā. Veidojot personīgo plānu, pievieno arī savas skolas paziņotās norises, kuras nav valsts kopējā kalendārā.",
       "Eksāmens vai konsultācija var notikt ārpus ierastā stundu saraksta. Tāpēc ceļojuma vai nometnes plānu salīdzini gan ar brīvlaiku, gan pārbaudes darbu grafiku. Šeit norādītais mācību gads un pirmavots nosaka datu tvērumu; nepublicētu nākamā gada termiņu nevar secināt tikai pēc līdzīga iepriekšējā gada izkārtojuma."
     ]
   },
@@ -164,7 +164,7 @@
     "heading": "Studiju pārtraukumu pārbaudi savā programmā",
     "paragraphs": [
       "Augstskolas akadēmiskajā kalendārā lekciju periods, eksāmenu sesija un brīvlaiks ir dažādi posmi. Kalendārs var atšķirties pamatstudijām, doktorantūrai vai atsevišķai programmai. Vispirms izvēlies augstskolu, tad pārbaudi avotā norādīto studiju gadu un to studentu grupu, uz kuru attiecas publicētie datumi.",
-      "Brīva nedēļa no lekcijām var būt paredzēta praksei, pārbaudījumiem vai patstāvīgajam darbam. Plānojot darbu vai prombūtni, atver augstskolas oriģinālo dokumentu un salīdzini to ar savas fakultātes paziņojumiem. Augstskolas fotogrāfija palīdz atpazīt vietu, bet datumu apstiprinājums ir piesaistīts akadēmiskajam avotam, nevis attēlam."
+      "Brīva nedēļa no lekcijām var būt paredzēta praksei, pārbaudījumiem vai patstāvīgajam darbam. Plānojot darbu vai prombūtni, atver augstskolas oriģinālo dokumentu un salīdzini to ar savas fakultātes paziņojumiem. Semestru, sesiju un brīvlaiku datumus meklē pie attiecīgās augstskolas norādītajā akadēmiskajā kalendārā."
     ]
   },
   "/valsts-parbaudes-darbi/": {
@@ -296,8 +296,8 @@
   "/sejas-kalendars/": {
     "heading": "Latvijas dārza plāns sākas ar apstākļiem",
     "paragraphs": [
-      "Sējas kalendārā vispirms izvēlies mēnesi un kultūraugu, tad nolasi, uz kādu audzēšanas vietu attiecas orientieris. Lauks, neapkurināta siltumnīca un apkurināta siltumnīca nav savstarpēji aizstājami apstākļi. Sēklu paciņas šķirnes apraksts, augsnes gatavība un vietējā prognoze palīdz izlemt, vai konkrētais darbs tavā dārzā jau ir aktuāls.",
-      "Veido savu pierakstu ar šķirni, sējas vai stādīšanas dienu un novēroto augsnes stāvokli. Ražas atgādinājumu izmanto kā gatavības pārbaudi, nevis garantētu novākšanas datumu. Piekraste ne vienmēr nozīmē agrāku pavasara sēju; Latvijas dārzu mikroklimats atšķiras, tādēļ kalendāra mēnesis nevar aizstāt salnu un faktiskā siltuma pārbaudi."
+      "Sējas kalendārā vispirms izvēlies mēnesi un kultūraugu, tad nolasi, uz kādu audzēšanas vietu attiecas orientieris. Lauks, neapkurināta siltumnīca un apkurināta siltumnīca nav savstarpēji aizstājami apstākļi. Sēklu paciņas šķirnes apraksts, augsnes gatavība un vietējā prognoze palīdz izlemt, vai konkrētais darbs tavā dārzā jau ir aktuāls. Pavasara sējas plānā nodali dēstu audzēšanu no sējas tieši dobē.",
+      "Veido savu pierakstu ar šķirni, sējas vai stādīšanas dienu un novēroto augsnes stāvokli. Ražas atgādinājumu izmanto kā gatavības pārbaudi, nevis garantētu novākšanas datumu. Piekraste ne vienmēr nozīmē agrāku pavasara sēju; Latvijas dārzu mikroklimats atšķiras, tādēļ kalendāra mēnesis nevar aizstāt salnu un faktiskā siltuma pārbaudi. Tomātu sēju un izstādīšanu plāno atsevišķi atbilstoši audzēšanas vietai."
     ]
   },
   "/gada-diena/": {
@@ -324,7 +324,7 @@
   "/pensiju-izmaksas/": {
     "heading": "Izmaksas datumu nosaka individuālais lēmums",
     "paragraphs": [
-      "Pensijas saņemšanas plānam vispirms izmanto savā lēmumā vai pakalpojuma informācijā norādīto izmaksas kārtību. Vispārīgs kalendārs nezina tavu individuālo datumu, saņemšanas veidu vai piešķiršanas lēmumu. Tāpēc vietnē nav vienas visiem saņēmējiem izdomātas ikmēneša izmaksu dienas.",
+      "Pensijas saņemšanas plānam vispirms izmanto savā lēmumā vai pakalpojuma informācijā norādīto izmaksas kārtību. Vispārīgs kalendārs nezina tavu individuālo datumu, saņemšanas veidu vai piešķiršanas lēmumu. Savu izmaksas datumu precizē VSAA pakalpojumā vai pie attiecīgā pakalpojuma sniedzēja.",
       "Ja ierastais datums ir svētku tuvumā, pārbaudi attiecīgā perioda VSAA paziņojumu un savu saņemšanas kanālu. Iepriekšējā gada ziņa par agrāku izmaksu nav nākamā gada grafiks. Personisku atgādinājumu vari saglabāt pēc pārbaudīta datuma, neievadot publiskā rīkā personas kodu, bankas informāciju vai lēmuma saturu."
     ]
   },
@@ -352,8 +352,8 @@
   "/horoskopa-zimes-kalkulators/": {
     "heading": "Ko nosaka dzimšanas datuma kalkulators",
     "paragraphs": [
-      "Šis kalkulators sasaista dzimšanas mēnesi un dienu ar tradicionālā Rietumu zodiaka datumu intervālu. Tas nav pilnas dzimšanas kartes aprēķins: dzimšanas vieta, precīzā stunda un individuālas Saules pārejas brīdis netiek izmantoti. Īpaši pie intervālu robežām rezultātu lasi kā vienkāršota kalendāra iedalījumu.",
-      "Ievadi derīgu datumu un pēc rezultāta atver attiecīgās zīmes simbolisko aprakstu. 29. februāris pastāv tikai garajos gados, tāpēc datuma pārbaude ir daļa no korektas ievades. Zīmes nosaukums nenosaka piemērotību darbam, attiecībām vai profesionālu lēmumu; tas šeit kalpo izklaidei un pašrefleksijai."
+      "Saules zīmes kalkulators sasaista dzimšanas mēnesi un dienu ar tradicionālā Rietumu zodiaka datumu intervālu. Atsevišķais ascendenta aprēķins izmanto arī dzimšanas vietu, precīzu vietējo laiku un attiecīgā datuma laika joslu. Tie ir divi dažādi aprēķini: Saules zīmi nedrīkst uzskatīt par ascendentu. Dzimšanas laiku ievadi tā, kā tas pierakstīts avotā, un pārbaudi izvēlēto vietu.",
+      "Ascendenta nozīmi aplūko kopā ar zodiaka zīmju simboliku, nevis kā pierādītu personības vai nākotnes vērtējumu. Ja vietējais laiks nav viennozīmīgs pulksteņa pārejas dēļ, pārbaudi kalkulatora piedāvāto precizējumu. Rezultāts šeit kalpo izklaidei un pašrefleksijai; veselības, darba vai naudas lēmumiem tas nav profesionāls pamatojums."
     ]
   },
   "/visi-riki/": {
@@ -423,14 +423,14 @@
     "heading": "Pārbaudi plānu pirms nozīmīga lēmuma",
     "paragraphs": [
       "Kalendāra pārskats palīdz atrast un salīdzināt datumus, taču lēmuma pamatam jāatbilst konkrētajai situācijai. Darba plānam nepieciešams darba režīms un darba devēja kārtība, mācībām attiecīgā gada iestādes paziņojums, bet pasākumam rīkotāja programma. Vispārīga pārskata datums nevar aizstāt individuālu apstiprinājumu.",
-      "Personīgajās veidnēs pievieno tikai tādus attēlus un datus, kurus drīksti izmantot attiecīgajam mērķim. Vietnes fotogrāfiju un ārēju astronomijas attēlu licences ir atsevišķas no tavu paša failu tiesībām. Pirms lejupielādes izdrukāšanas vai tālākas izplatīšanas pārbaudi konkrētā satura norādījumus un avotu."
+      "Personīgajās veidnēs pievieno tikai tādus attēlus un datus, kurus drīksti izmantot attiecīgajam mērķim. Vietnes fotogrāfiju un ārēju astronomijas attēlu licences ir atsevišķas no tavu paša failu tiesībām. Pirms faila drukāšanas vai tālākas izplatīšanas pārbaudi konkrētā satura norādījumus un avotu."
     ]
   },
   "/pieklustamiba/": {
     "heading": "Pārskatāma navigācija un konkrēts kļūdas ziņojums",
     "paragraphs": [
       "Vietnes lietošanā noder pārejas saite uz galveno saturu, formas lauku nosaukumi un redzama tastatūras fokusa atzīme. Datumu nozīmei nevajadzētu būt atkarīgai tikai no krāsas: nedēļas dienas, datumi un notikumu nosaukumi ļauj pārskatīt kalendāru arī citā lasīšanas veidā. Drukas izkārtojums ir atsevišķs no interaktīvās ekrāna saskarnes.",
-      "Ja kādu darbību nevari pabeigt, apraksti konkrēto soli un lapu, nevis tikai vispārīgi norādi uz problēmu. Piemini izmantoto ierīci, pārlūku un, ja vajadzīgs, palīgtehnoloģiju; privāti notikumu dati nav jāsūta. Šāds ziņojums palīdz pārbaudīt šķērsli, neuzdodot vietnes iekšējos testus par neatkarīgu piekļūstamības sertifikāciju."
+      "Ja kādu darbību nevari pabeigt, apraksti konkrēto soli un lapu, nevis tikai vispārīgi norādi uz problēmu. Piemini izmantoto ierīci, pārlūku un, ja vajadzīgs, palīgtehnoloģiju; privāti notikumu dati nav jāsūta. Konkrēts piemērs palīdz atrast kļūdu un pārbaudīt, vai labojums atrisina problēmu."
     ]
   },
   "/pilsetas-un-fotografijas/": {

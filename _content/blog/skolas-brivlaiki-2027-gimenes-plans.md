@@ -1,4 +1,4 @@
-Skolas brīvlaiks ir vairāk nekā datumi, kuros nav parasto mācību stundu. Ģimenei tas var nozīmēt citu dienas ritmu, nepieciešamu pieskatīšanu, braucienu vai laiku bez ierastajām nodarbībām. Lai plāns būtu uzticams, jāņem vērā ne tikai kalendārais gads, bet arī mācību gads un skolēna klase.
+[Skolas brīvlaiks](/skolas-brivlaiki/) ir vairāk nekā datumi, kuros nav parasto mācību stundu. Ģimenei tas var nozīmēt citu dienas ritmu, nepieciešamu pieskatīšanu, braucienu vai laiku bez ierastajām nodarbībām. Lai plāns būtu uzticams, jāņem vērā ne tikai kalendārais gads, bet arī mācību gads un skolēna klase.
 
 2027. gada janvāris pieder 2026./2027. mācību gadam, savukārt rudens jau nākamajam. Tādēļ vienas apstiprinātas tabulas datumus nevar automātiski attiecināt uz visu gadu. Pārskatā atsevišķi nodali publicēto informāciju no vēl neizziņotajiem termiņiem un vienmēr pārbaudi arī pašas skolas paziņojumus.
 
@@ -16,7 +16,7 @@ Pirmās klases papildu brīvlaiku otrajā semestrī nosaka skola atbilstoši not
 
 ## Eksāmenu laiks ir atsevišķs slānis
 
-Mācību gada noslēgums, valsts pārbaudes darbs un personīgā sagatavošanās nav viens ieraksts. Eksāmenu grafikam var būt precizējumi, tādēļ pārbaudi jaunāko Izglītības un zinātnes ministrijas un attiecīgo iestāžu informāciju. Vecāka ekrānuzņēmuma datums var izskatīties ticams, bet būt zaudējis aktualitāti.
+Mācību gada noslēgums, [valsts pārbaudes darbs](/valsts-parbaudes-darbi/) un personīgā sagatavošanās nav viens ieraksts. Eksāmenu grafikam var būt precizējumi, tādēļ pārbaudi jaunāko Izglītības un zinātnes ministrijas un attiecīgo iestāžu informāciju. Vecāka ekrānuzņēmuma datums var izskatīties ticams, bet būt zaudējis aktualitāti.
 
 Plānā atsevišķi ieraksti eksāmenu, nepieciešamo ierašanās laiku un sagatavošanās posmu. Precīzos organizatoriskos norādījumus saņem no skolas. Kalendāra rīks var palīdzēt sadalīt laiku, taču tas neapstiprina telpu, atļautos materiālus vai konkrēta skolēna pārbaudījuma kārtību. Šīs detaļas jāsalīdzina ar aktuālo oficiālo paziņojumu.
 
@@ -34,9 +34,9 @@ Ja izvēlaties nometni vai darbnīcu, pārbaudi organizatora informāciju, vecum
 
 ## Atstāj daļu laika brīvu
 
-Pārtraukumam no skolas nav obligāti jākļūst par citu pilnu stundu sarakstu. Iekļauj mierīgus rītus, pastaigu un izvēles iespēju, nevis katru dienu aizpildi ar braucieniem. Bērna paša ieceres ir vērts uzklausīt pirms kopīgā plāna pabeigšanas; tās var būt vienkāršākas par pieaugušo sagatavoto programmu.
+Pārtraukumam no skolas nav obligāti jākļūst par [citu pilnu stundu sarakstu](/stundu-saraksts/). Iekļauj mierīgus rītus, pastaigu un izvēles iespēju, nevis katru dienu aizpildi ar braucieniem. Bērna paša ieceres ir vērts uzklausīt pirms kopīgā plāna pabeigšanas; tās var būt vienkāršākas par pieaugušo sagatavoto programmu.
 
-Ģimenes kalendārā izmanto dažus saprotamus apzīmējumus, nevis daudz līdzīgu krāsu. Pie pārmaiņām atjauno vienu kopīgo versiju un paziņo iesaistītajiem. Ja vecvecākiem ērtāka ir izdruka, sagatavo īsu lapu ar datumiem, adresēm un kontaktu. Privātas sarakstes detaļas un lieki personas dati nav nepieciešami.
+[Ģimenes kalendārā](/gimenes-kalendars/) izmanto dažus saprotamus apzīmējumus, nevis daudz līdzīgu krāsu. Pie pārmaiņām atjauno vienu kopīgo versiju un paziņo iesaistītajiem. Ja vecvecākiem ērtāka ir izdruka, sagatavo īsu lapu ar datumiem, adresēm un kontaktu. Privātas sarakstes detaļas un lieki personas dati nav nepieciešami.
 
 ## Izveido brīvlaika pārbaudes kartīti
 
@@ -48,4 +48,4 @@ Pirms sākas pārtraukums, noskaidro arī interešu nodarbību kārtību. Skolas
 
 Īpaši uzmanīgi pārbaudi nākamā mācību gada rudens datumus. Ja oficiālie noteikumi vēl nav publicēti, vecā gada atkārtojums ir pieņēmums, nevis apstiprinājums. Elastīga iecere šādā brīdī ir lietderīgāka par neatceļamu rezervāciju, kuras vienīgais pamats ir līdzīgs pagājušā gada kalendārs.
 
-[Skolas brīvlaiku lapā](/skolas-brivlaiki/) atver atbilstošo mācību gadu, salīdzini avota norādi un pēc tam pievieno apstiprināto intervālu [ģimenes kalendāram](/gimenes-kalendars/). Pie katra pagaidu plāna atstāj atzīmi par precizēšanu. Tādējādi kopīgajā pārskatā vienmēr būs redzams, kas ir zināms un kas vēl jānoskaidro.
+Skolas brīvlaiku lapā atver atbilstošo mācību gadu, salīdzini avota norādi un pēc tam pievieno apstiprināto intervālu ģimenes kalendāram. Pie katra pagaidu plāna atstāj atzīmi par precizēšanu. Tādējādi kopīgajā pārskatā vienmēr būs redzams, kas ir zināms un kas vēl jānoskaidro.

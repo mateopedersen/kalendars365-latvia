@@ -357,9 +357,9 @@
     {
       "url": "/horoskopa-zimes-kalkulators/",
       "family": "hub",
-      "title": "Zodiaka zīmes kalkulators",
-      "h1": "Zodiaka zīmes kalkulators",
-      "description": "Ievadi dzimšanas datumu un atrodi tradicionālo Rietumu zodiaka zīmi. Robeždatumos Saules atrašanās vietas noteikšanai vajadzīgs precīzāks aprēķins.",
+      "title": "Ascendenta un zodiaka zīmes kalkulators",
+      "h1": "Ascendenta un zodiaka zīmes kalkulators",
+      "description": "Aprēķini ascendentu pēc dzimšanas datuma, precīza laika un vietas. Vēsturiskās laika joslas, vasaras laiks un zodiaka zīmes latviski.",
       "indexable": true,
       "status": "ready",
       "note": null

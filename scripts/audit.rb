@@ -21,6 +21,12 @@ manifest.each do |r|
  canonical=html[/<link rel="canonical" href="([^"]+)"/,1]; faults << 'missing canonical' unless canonical && URI::DEFAULT_PARSER.unescape(CGI.unescapeHTML(canonical))=="https://kalendars365.lv#{r['url']}"
  noindex=html.include?('content="noindex,follow"');faults << 'index mismatch' if noindex==r['indexable']
  html.scan(/<script type="application\/ld\+json">(.*?)<\/script>/m).flatten.each{|j|begin;JSON.parse(j);rescue;faults << 'invalid JSONLD';end}
+ html.scan(/<img\b[^>]*>/mi).each do |image|
+  src=image[/\bsrc\s*=\s*(["'])(.*?)\1/m,2]
+  # An absent source can be a hidden upload preview; an empty URL must never
+  # be emitted as a static photo derivative.
+  faults << 'empty image source' if src && CGI.unescapeHTML(src).strip.empty?
+ end
  html.scan(/(?:href|src)="([^"]+)"/).flatten.each do |raw|
   target=CGI.unescapeHTML(raw.split(/[?#]/).first.to_s)
   next if target.empty? || !target.start_with?('/') || target.start_with?('//')

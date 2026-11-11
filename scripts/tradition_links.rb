@@ -126,9 +126,9 @@ end
 
 def tradition_related_markup(slug)
   cards = TRADITION_LINKING.related(slug).map do |item|
-    photo = item['photo']
+    photo = item['photo'] && tradition_cover(item.fetch('photo'))
     visual = if photo
-      %(<img src="#{h(photo['src'])}" alt="#{h(photo['alt'])}" loading="lazy" width="480" height="300">)
+      %(<img src="#{h(photo.fetch('src'))}" srcset="#{h(photo.fetch('srcset'))}" sizes="(max-width: 700px) 46vw, (max-width: 900px) 44vw, 23vw" alt="#{h(photo.fetch('alt'))}" loading="lazy" decoding="async" width="#{photo.fetch('width')}" height="#{photo.fetch('height')}">)
     else
       art = item.fetch('illustration')
       %(<img class="tradition-related-illustration" src="#{h(art.fetch('src'))}?v={{ site.data.build.asset_version }}" alt="#{h(art.fetch('alt'))}" width="640" height="360" loading="lazy">)

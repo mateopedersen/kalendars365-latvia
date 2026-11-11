@@ -5,42 +5,70 @@
     {
       "key": "spring",
       "title": "Pavasaris",
-      "alt": "Pavasara ainava ar bērzu pumpuriem, jaunām lapām, strautu un sniegpulkstenītēm · vektoru ilustrācija",
+      "tagline": "Ziedi un jaunās lapas",
+      "motif": "blossoming-orchard",
+      "alt": "Ziedoša ābele, sniegpulkstenītes un krokusi pie pavasara strauta · vektoru ilustrācija",
+      "cues": [
+        "ābeļziedi",
+        "sniegpulkstenītes",
+        "krokusi"
+      ],
       "src": "/assets/season-scenes/spring.svg",
       "width": 600,
       "height": 500,
-      "bytes": 98278,
-      "sha256": "480a1140f6dc60b0f75e1e723b78a48eee0326766b521b508682db84d44b5648"
+      "bytes": 52762,
+      "sha256": "2c29463f0a5fe532599259c8245ab8205ab74d602b612953c78136c2dd90eb3c"
     },
     {
       "key": "summer",
       "title": "Vasara",
-      "alt": "Vasaras ainava ar kuplu ozolu, zaļu bērzu, ziedošu pļavu un dzidru strautu · vektoru ilustrācija",
+      "tagline": "Saule un Baltijas jūra",
+      "motif": "baltic-beach",
+      "alt": "Saulaina Baltijas jūras pludmale ar saulessargu, kāpām un koka laipu · vektoru ilustrācija",
+      "cues": [
+        "saule",
+        "jūra",
+        "saulessargs"
+      ],
       "src": "/assets/season-scenes/summer.svg",
       "width": 600,
       "height": 500,
-      "bytes": 232320,
-      "sha256": "3ab73d7bacc07695eccd8e6186b038ffafe665444bf8a920a29bec1300fb94b1"
+      "bytes": 15716,
+      "sha256": "53c2ce09a71e19af7c6cbddef32c23abb72d1cd7ab696f2c419da4e6e35202ad"
     },
     {
       "key": "autumn",
       "title": "Rudens",
-      "alt": "Rudens ainava ar zeltainu bērzu, vara krāsas ozola lapām un kritušu lapu segu · vektoru ilustrācija",
+      "tagline": "Krāsainas lapas un raža",
+      "motif": "autumn-woodland",
+      "alt": "Vara un zelta lapu mežs, sēņu grozs un krītošas kļavu lapas · vektoru ilustrācija",
+      "cues": [
+        "rudens lapas",
+        "sēņu grozs",
+        "ozolzīles"
+      ],
       "src": "/assets/season-scenes/autumn.svg",
       "width": 600,
       "height": 500,
-      "bytes": 236088,
-      "sha256": "0375e3056a3fd072ed773c19744945372c5662c173d2849d9a0053450a0272bf"
+      "bytes": 54273,
+      "sha256": "041c54d3241d3617696a35df4a7de3db5ccfdee3237a40bd6cac1bf03c9b50b0"
     },
     {
       "key": "winter",
       "title": "Ziema",
-      "alt": "Ziemas ainava ar apsnigušu egli, kailiem koku zariem un apledojušu strautu · vektoru ilustrācija",
+      "tagline": "Sniegs un ziemas miers",
+      "motif": "snowy-cottage",
+      "alt": "Apsnigusi koka mājiņa ar siltiem logiem, baltām eglēm un ledus dīķi · vektoru ilustrācija",
+      "cues": [
+        "apsnigta mājiņa",
+        "sniegotas egles",
+        "ledus"
+      ],
       "src": "/assets/season-scenes/winter.svg",
       "width": 600,
       "height": 500,
-      "bytes": 36746,
-      "sha256": "3b4a0cc258fff57badc2e0b84fae5b1a2f118e56dd31b4dc46e6387f984b9ed6"
+      "bytes": 17265,
+      "sha256": "cf2bdcfcea82ff4b3ec9aa0a2d19b6fd5347f4608c3e4b1e57bba3a6af7ed8b6"
     }
   ]
 }

@@ -1,4 +1,4 @@
-Studentam vārds “brīvlaiks” var nozīmēt pavisam ko citu nekā skolēnam. Lekciju pārtraukumā var turpināties patstāvīgie darbi, prakse, pārbaudījumi vai gatavošanās sesijai. Lai plānotu darbu, braucienu un atpūtu, jāskatās konkrētās augstskolas akadēmiskais kalendārs un savas programmas norādījumi, nevis tikai vispārējā svētku tabula.
+Studentam vārds “brīvlaiks” var nozīmēt pavisam ko citu nekā skolēnam. Lekciju pārtraukumā var turpināties patstāvīgie darbi, prakse, pārbaudījumi vai gatavošanās sesijai. Lai plānotu darbu, braucienu un atpūtu, jāskatās [konkrētās augstskolas akadēmiskais kalendārs](/studiju-kalendars/) un savas programmas norādījumi, nevis tikai vispārējā svētku tabula.
 
 Studiju kalendārs kļūst noderīgs tad, kad tajā kopā redzami institūcijas noteiktie posmi un paša studenta reālie termiņi. Šeit aprakstīts, kā tos savienot vienā pārskatā, nepārvēršot katru semestra dienu par vienādu steidzamu uzdevumu un neatstājot svarīgu informāciju vairākās savstarpēji pretrunīgās piezīmēs.
 
@@ -12,7 +12,7 @@ Arī vienas iestādes informācijā var būt lapas apmaiņas studentiem, pilna l
 
 Pirmais slānis ir semestru, sesiju un oficiālo pārtraukumu robežas. Otrais ir kursu konkrētie pārbaudījumi, darbu iesniegšana un konsultācijas. Trešais ir laiks, ko tu atvēli sagatavošanās darbiem, ceļam un atpūtai. Tikai šo slāņu kopums rāda, vai konkrētā nedēļa patiesībā ir brīva.
 
-Lielajā gada skatā atzīmē tikai posmu robežas. Mēneša un nedēļas skatā pievieno precīzos darbus. Ja viss tiek ierakstīts vienā nelielā gada rūtiņā, virsraksti kļūst nesalasāmi un svarīgais pazūd. Arī digitālā plānā noder īss nosaukums, skaidrs termiņš un saite uz īsto uzdevuma aprakstu.
+Lielajā gada skatā atzīmē tikai posmu robežas. [Mēneša un nedēļas skatā](/nedelas-kalendars/) pievieno precīzos darbus. Ja viss tiek ierakstīts vienā nelielā gada rūtiņā, virsraksti kļūst nesalasāmi un svarīgais pazūd. Arī digitālā plānā noder īss nosaukums, skaidrs termiņš un saite uz īsto uzdevuma aprakstu.
 
 ## Sesiju sadali atpakaļ no termiņa
 
@@ -24,7 +24,7 @@ Pirms iesniegšanas atstāj rezervi failu pārbaudei un tehniskām aizķerēm. P
 
 Ja strādā paralēli studijām, kopīgajā pārskatā ievieto faktisko [darba grafiku](/blogs/darba-dienas-un-stundas-ka-skaitit/), nevis tikai vēlamo pieejamību. Tad kļūst redzams, kur pārklājas maiņa, lekcija un ceļš. Darba devējam un pasniedzējam var būt vajadzīga savlaicīga saziņa; kalendāra ieraksts pats par sevi nevienu atbrīvojumu nenodrošina.
 
-Saskaņojot izmaiņas, nosauc konkrētu datumu un vajadzīgo risinājumu. “Man tuvojas sesija” ir plašs paziņojums, bet noteikts pārbaudījuma laiks un iepriekš piedāvāts maiņas variants palīdz sarunai. Vienošanās rezultātu atjauno savā plānā, lai vecais grafiks nepaliek kā šķietami spēkā esoša alternatīva.
+Saskaņojot izmaiņas, nosauc konkrētu datumu un vajadzīgo risinājumu. “Man tuvojas sesija” ir plašs paziņojums, bet noteikts pārbaudījuma laiks un iepriekš piedāvāts [maiņas variants](/mainu-grafiks/) palīdz sarunai. Vienošanās rezultātu atjauno savā plānā, lai vecais grafiks nepaliek kā šķietami spēkā esoša alternatīva.
 
 ## Neaizmirsti praksi un īpašos termiņus
 
@@ -48,4 +48,4 @@ Pēc nedēļas salīdzini plānoto ar faktisko. Ja viena darbība aizņēma ilg�
 
 Reizi nedēļā salīdzini kalendāru ar studiju vidi un jaunajiem iestādes paziņojumiem. Noņem atceltos ierakstus, precizē telpas un savlaicīgi pārsūti izmaiņas tiem, ar kuriem plāns kopīgs. Ja izmanto [izdruku](/blogs/personigs-kalendars-fotografijas-druka/), ieraksti tās sagatavošanas datumu, lai atšķirtu to no agrākas lapas uz galda.
 
-[Skolas un augstskolu pārskatā](/skolas-brivlaiki/) meklē saiti uz savu iestādi, bet [stundu sarakstā](/stundu-saraksts/) veido praktisko nedēļas ritmu. Izvēloties programmu, oficiālu informāciju par iestādēm un studiju programmām pārbaudi AIKA e-platformā. Kalendāra plānošana palīdz organizēt darbu, bet neaizstāj programmas akadēmiskās prasības vai oficiālu lēmumu par studiju statusu.
+[Augstskolu kalendāru sarakstā](/skolas-brivlaiki/#augstskolas) meklē saiti uz savu iestādi, bet [stundu sarakstā](/stundu-saraksts/) veido praktisko nedēļas ritmu. Izvēloties programmu, oficiālu informāciju par iestādēm un studiju programmām pārbaudi AIKA e-platformā. Kalendāra plānošana palīdz organizēt darbu, bet neaizstāj programmas akadēmiskās prasības vai oficiālu lēmumu par studiju statusu.

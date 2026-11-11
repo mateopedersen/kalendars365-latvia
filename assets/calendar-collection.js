@@ -32,9 +32,11 @@ if(typeof window==='object'&&typeof document==='object')(()=>{'use strict';
   const state=window.K365?.getState();if(!state||navigating)return;
   calendar.querySelectorAll('#calendar-year option').forEach(option=>{if(Number(option.value)<2027||Number(option.value)>2030)option.remove();});
   for(const [action,direction] of [['prev',-1],['next',1]])calendar.querySelector(`[data-action="${action}"]`).disabled=!api.step(state.shown,state.view,direction);
-  const next=api.destination('kalendars',state);if(!next)return;
-  if(state.view!=='year'&&Number(state.shown.slice(0,4))===year&&Number(state.shown.slice(5,7))===month)return;
-  const target=new URL(next,location.origin);target.searchParams.set('date',state.selected||state.shown);if(state.view!=='year')target.searchParams.set('view',state.view);target.hash=state.view==='year'?'':'calendar-app';navigating=true;location.assign(target.href);
+  const next=api.destination('kalendars',state)||'/';
+  // Keep initialization idempotent when the selected month or year already
+  // matches this collection's period.
+  if(next===api.path('kalendars',year,month))return;
+  const target=new URL(next,location.origin);target.searchParams.set('date',state.selected||state.shown);if(state.view!=='year'||next==='/')target.searchParams.set('view',state.view);target.hash=state.view==='year'?'':'calendar-app';navigating=true;location.assign(target.href);
  }
  calendar.querySelectorAll('[data-action="prev"],[data-action="next"]').forEach(button=>button.addEventListener('click',event=>{const state=window.K365?.getState();if(state&&!api.step(state.shown,state.view,button.dataset.action==='prev'?-1:1)){event.preventDefault();event.stopPropagation();}}));
  calendar.querySelector('[data-action="today"]').addEventListener('click',event=>{event.preventDefault();event.stopPropagation();const today=window.K365?.rigaNow?.()||new Intl.DateTimeFormat('en-CA',{timeZone:'Europe/Riga',year:'numeric',month:'2-digit',day:'2-digit'}).format(new Date());const target=api.path('kalendars',Number(today.slice(0,4)),Number(today.slice(5,7)))||'/';location.assign(target+'?date='+encodeURIComponent(today)+'&view=month#calendar-app');});

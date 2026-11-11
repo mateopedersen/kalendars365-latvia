@@ -15,7 +15,7 @@ og_image_height: 630
 og_image_alt: 'Tomātu sēja un izstādīšana Latvijā: kā veidot savu grafiku | Kalendārs365
   Latvijai'
 ---
-Tomātu audzēšanas plāns sākas agrāk par izstādīšanu siltumnīcā vai dobē, taču tas nenozīmē, ka visiem jāsteidzas sēt vienā ziemas datumā. Piemērots grafiks ir atkarīgs no šķirnes, audzēšanas vietas, stādu apstākļiem un plānotās izstādīšanas. Latvijā īpaši svarīgi nesajaukt apkurinātu vidi, neapkurinātu siltumnīcu un atklātu lauku.
+[Tomātu audzēšanas plāns](/sejas-kalendars/tomati/) sākas agrāk par izstādīšanu siltumnīcā vai dobē, taču tas nenozīmē, ka visiem jāsteidzas sēt vienā ziemas datumā. Piemērots grafiks ir atkarīgs no šķirnes, audzēšanas vietas, stādu apstākļiem un plānotās izstādīšanas. Latvijā īpaši svarīgi nesajaukt apkurinātu vidi, neapkurinātu siltumnīcu un atklātu lauku.
 
 Šis ceļvedis palīdz sakārtot lēmumu secību. Tas nepiedāvā vienu garantētu sējas dienu visiem dārziem, jo tādas nav. Konkrētās šķirnes norādes un aktuālie apstākļi jāsavieno ar [sezonas kalendāru](/blogs/pavasara-seja-latvija-darza-plans/), nevis jāaizvieto ar dekoratīvu atzīmi vienā mēneša rūtiņā.
 
@@ -73,4 +73,4 @@ Ja nākamajā sezonā kaut ko maini, pieraksti pašu izmaiņu, nevis tikai gala 
 
 Sezonas beigās saglabā īsu kopsavilkumu par faktisko sēju, izstādīšanu un vietas apstākļiem. Pieraksti arī to, ko nākamreiz gribi mainīt: mazāku daudzumu, citu marķējumu vai ērtāku kopšanas grafiku. Nepārvērt vienu sezonu solījumā, ka konkrēta metode vienādi strādās katrā gadā un vietā.
 
-[Sējas kalendārā](/sejas-kalendars/) meklē tomātu kultūras aprakstu un nošķir stādu audzēšanu no izstādīšanas. Pievieno faktiskos datumus savam [mēneša plānam](/kalendars/) un saglabā šķirnes norādes blakus. Labs tomātu grafiks ir pārbaudāma secība ar vietu pielāgošanai, nevis sacensība par visagrāko iespējamo sējas dienu.
+Sējas kalendārā pārbaudi [izvēlētā mēneša darbus](/sejas-kalendars/) un nošķir stādu audzēšanu no izstādīšanas. Pievieno faktiskos datumus savam [mēneša plānam](/menesa-kalendars/) un saglabā šķirnes norādes blakus. Labs tomātu grafiks ir pārbaudāma secība ar vietu pielāgošanai, nevis sacensība par visagrāko iespējamo sējas dienu.

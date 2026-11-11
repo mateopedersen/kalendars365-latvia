@@ -8,7 +8,7 @@ useful: true
 noindex: true
 ---
 <div class="page-shell">
-  <nav class="breadcrumbs" aria-label="Atrašanās vieta"><a href="/">Sākums</a><span>/</span><span>Fotogrāfijas un licences</span></nav>
+  <nav class="breadcrumbs" aria-label="Atrašanās vieta">{% include breadcrumbs.html %}</nav>
   <header class="page-heading">
     <div class="page-heading-copy"><span class="eyebrow">LATVIJA · AVOTI UN ATTĒLI</span><h1><span class="page-heading-mark" aria-hidden="true"><svg class="icon"><use href="#i-image"/></svg></span>Fotogrāfijas un licences</h1><p class="page-heading-deck">Latvijas pilsētu, svētku un augstskolu attēli, kultūraugu fotogrāfijas un astronomijas attēlu avoti.</p></div>
     {% assign hero_city = site.data.cities.cities | first %}{% assign hero_photo = hero_city.photo %}
@@ -63,7 +63,7 @@ noindex: true
   {% include day-photo-credits.html %}
 
   <section class="content-card university-photo-credits" id="augstskolu-fotografijas">
-    <div class="university-photo-heading"><div><span class="eyebrow">VALSTS AUGSTSKOLU KALENDĀRI</span><h2>Augstskolu fotogrāfijas, emblēmas un licences</h2><p>Pieejamajiem attēliem šeit norādīts fotogrāfs, oriģinālais avota fails un lietošanas nosacījumi. Atvērtie attēli ir arī katras augstskolas 2026./2027. gada studiju kalendāra kartītē.</p></div><a class="link-card" href="/studiju-kalendars/#university-directory">Atvērt augstskolu kalendārus <span aria-hidden="true">→</span></a></div>
+    <div class="university-photo-heading"><div><span class="eyebrow">VALSTS AUGSTSKOLU KALENDĀRI</span><h2>Augstskolu fotogrāfijas, emblēmas un licences</h2><p>Pieejamajiem attēliem šeit norādīts fotogrāfs, oriģinālais avota fails un lietošanas nosacījumi. Atvērtie attēli ir arī katras augstskolas 2026./2027. gada studiju kalendāra kartītē.</p></div><a class="link-card" href="/studiju-kalendars/#augstskolas">Atvērt augstskolu kalendārus <span aria-hidden="true">→</span></a></div>
     <div class="photo-catalog university-photo-catalog">
       {% for calendar in site.data.university-calendars.calendars %}
       {% if calendar.photo %}

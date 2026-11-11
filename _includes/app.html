@@ -7,8 +7,6 @@
 <div class="dashboard" id="calendar-app">
   <aside class="left-column">
     {% include city-card.html %}
-    <section class="card upcoming-card"><div class="card-heading"><h2><svg class="icon" aria-hidden="true"><use href="#i-calendar"/></svg>Tuvākie svētki</h2><a href="/svetku-dienas/">Visi svētki →</a></div><div id="upcoming-holidays"><p class="muted">Ielādējam svētku dienas…</p></div></section>
-
   </aside>
   <section class="calendar-column" aria-label="Interaktīvais kalendārs">
     <div class="metrics"><div><svg class="icon"><use href="#i-week"/></svg><span><strong id="metric-week">—</strong>ISO nedēļa</span></div><div><svg class="icon"><use href="#i-plan"/></svg><span><strong id="metric-day">—</strong>Gada diena</span></div><div><svg class="icon"><use href="#i-calendar"/></svg><span><strong id="metric-month">—</strong>Dienas mēnesī</span></div></div>
@@ -17,6 +15,7 @@
     <div id="category-filters" class="category-filters" role="group" aria-label="Notikumu kategorija"></div>
     <div id="calendar-view" aria-live="polite"></div>
     <div class="calendar-footer"><div class="calendar-legend"><span><i class="dot"></i>Šodien</span><span><i class="dot pale"></i>Svētki</span></div><div class="actions"><button data-action="print"><svg class="icon"><use href="#i-print"/></svg>Drukāt</button><button data-action="export-ics"><svg class="icon"><use href="#i-download"/></svg>Eksportēt ICS</button></div></div></div>
+    <section class="card upcoming-card"><div class="card-heading"><h2><svg class="icon" aria-hidden="true"><use href="#i-calendar"/></svg>Tuvākie svētki</h2><a href="/svetku-dienas/">Visi svētki →</a></div><div id="upcoming-holidays"><p class="muted">Ielādējam svētku dienas…</p></div></section>
   </section>
   <aside class="right-column">
     <section class="card day-plan"><div class="card-heading"><h2><svg class="icon" aria-hidden="true"><use href="#i-check"/></svg>Mana diena</h2></div><p id="selected-day-label" class="muted"></p><div id="day-events"></div><button class="day-plan-add" data-action="add-event"><svg class="icon" aria-hidden="true"><use href="#i-plus"/></svg>Pievienot notikumu</button></section>

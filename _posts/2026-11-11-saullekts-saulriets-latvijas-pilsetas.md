@@ -14,7 +14,7 @@ og_image_width: 1200
 og_image_height: 630
 og_image_alt: Kāpēc saullēkts Rīgā un Liepājā nav vienā laikā | Kalendārs365 Latvijai
 ---
-Visā Latvijā pulkstenis rāda vienas laika joslas laiku, tomēr Saule dažādās pilsētās nelec un neriet vienā minūtē. Rīga, Liepāja un Daugavpils atrodas dažādās koordinātās, tāpēc vienam datumam aprēķinātie notikumu laiki atšķiras. Tā ir normāla ģeogrāfiska atšķirība, nevis kļūda pulkstenī vai laika joslas izvēlē.
+Visā Latvijā pulkstenis rāda vienas laika joslas laiku, tomēr Saule dažādās pilsētās nelec un neriet vienā minūtē. [Rīga](/saullekts-saulriets/riga/), Liepāja un Daugavpils atrodas dažādās koordinātās, tāpēc vienam datumam aprēķinātie notikumu laiki atšķiras. Tā ir normāla ģeogrāfiska atšķirība, nevis kļūda pulkstenī vai laika joslas izvēlē.
 
 Saullēkta tabula palīdz plānot rīta pastaigu, [fotografēšanu](/blogs/zelta-stunda-latvija-fotoplanosana/) vai darbu ārā, taču ir svarīgi saprast, ko tieši tā rāda. Aprēķināts notikuma laiks nav solījums, ka Saule tajā pašā minūtē būs redzama aiz kokiem vai māju jumtiem. Vietējais horizonts un laikapstākļi rada papildu nosacījumus.
 
@@ -23,7 +23,7 @@ Saullēkta tabula palīdz plānot rīta pastaigu, [fotografēšanu](/blogs/zelta
 
 Laika josla nosaka, kā notikuma brīdi pieraksta pulkstenī. Koordinātas nosaka, kā Saules kustība attiecas pret konkrēto vietu. Divās Latvijas pilsētās var būt vienāds pulksteņa rādījums, bet atšķirīgs Saules augstums un atšķirīgs brīdis, kad tā šķērso aprēķina horizontu.
 
-Tāpēc pilsētas izvēle rīkā nav tikai fona fotogrāfijas maiņa. Tai jāmaina aprēķina atrašanās vieta. Ja interesē piekraste pie Liepājas, izvēlies Liepāju vai tuvāko piedāvāto punktu, nevis saglabā Rīgu pēc noklusējuma. Aptuvens pilsētas centra aprēķins joprojām nav precīzas vietas mērījums konkrētā pagalmā.
+Tāpēc pilsētas izvēle rīkā nav tikai fona fotogrāfijas maiņa. Tai jāmaina aprēķina atrašanās vieta. Ja interesē piekraste pie Liepājas, izvēlies [Liepāju](/saullekts-saulriets/liepaja/) vai tuvāko piedāvāto punktu, nevis saglabā Rīgu pēc noklusējuma. Aptuvens pilsētas centra aprēķins joprojām nav precīzas vietas mērījums konkrētā pagalmā.
 
 ## Austrumi un rietumi
 {: #section-2}
@@ -42,7 +42,7 @@ Pilsētā Saule var pazust aiz ēkas vēl pirms tabulā norādītā rieta. Meža
 ## Krēsla nav tas pats, kas dienas garums
 {: #section-4}
 
-Dienas garums parasti raksturo intervālu no saullēkta līdz saulrietam. Gaisma nepazūd uzreiz pēc šī intervāla beigām. Krēslas laikā debesis vēl var būt gaišas, un tās ilgums mainās atkarībā no vietas un gadalaika. To nevajag sajaukt ar pašu dienasgaismas intervālu tabulā.
+Dienas garums parasti raksturo intervālu no saullēkta līdz saulrietam. Gaisma nepazūd uzreiz pēc šī intervāla beigām. [Krēslas laikā](/dienas-garums/) debesis vēl var būt gaišas, un tās ilgums mainās atkarībā no vietas un gadalaika. To nevajag sajaukt ar pašu dienasgaismas intervālu tabulā.
 
 Praktiskam pasākumam nosaki, kāda gaisma ir vajadzīga. Pastaigai pa zināmu pilsētas maršrutu un detalizēta darba veikšanai ārā var būt atšķirīgas vajadzības. Neizmanto vienu saulrieta minūti kā universālu atbildi uz visiem gaismas jautājumiem. Apskati apstākļus, apkārtnes apgaismojumu un sava plāna rezervi.
 
@@ -51,7 +51,7 @@ Praktiskam pasākumam nosaki, kāda gaisma ir vajadzīga. Pastaigai pa zināmu p
 
 Latvijā Saules ceļa sezonālās izmaiņas ir labi pamanāmas. Vasarā intervāls starp lēktu un rietu ir ievērojami garāks nekā ziemā. Tāpēc vienu ierastu pulksteņa laiku nevar visu gadu izmantot kā norādi uz līdzīgu apgaismojumu. Darbs pēc sešiem vakarā jūnijā un decembrī notiek ļoti atšķirīgā gaismā.
 
-Plānojot vairākus mēnešus uz priekšu, atver izvēlētā mēneša tabulu. Pievērs uzmanību arī laika pārejām un pareizajam Latvijas vietējā laika attēlojumam. No cita avota pārņemta UTC stunda bez pārveidošanas var būt kļūdaina tavam ikdienas plānam, pat ja pats astronomiskais brīdis avotā ir korekts.
+Plānojot vairākus mēnešus uz priekšu, atver izvēlētā mēneša tabulu. Pievērs uzmanību arī [laika pārejām](/pulkstena-pargriesana/) un pareizajam Latvijas vietējā laika attēlojumam. No cita avota pārņemta UTC stunda bez pārveidošanas var būt kļūdaina tavam ikdienas plānam, pat ja pats astronomiskais brīdis avotā ir korekts.
 
 ## Laikapstākļi ir atsevišķa informācija
 {: #section-6}

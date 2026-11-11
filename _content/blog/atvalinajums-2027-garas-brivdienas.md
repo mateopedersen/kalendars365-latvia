@@ -1,6 +1,6 @@
-Garās brīvdienas ir iespēja apvienot nedēļas nogali, svētkus un saskaņotu atvaļinājumu. Taču lielākais brīvo dienu skaits ne vienmēr nozīmē labāko atpūtu. Jāņem vērā darba grafiks, ģimenes iespējas, ceļš un tas, cik daudz no izvēlētā perioda patiešām paliek sev vēlamajām nodarbēm.
+[Garās brīvdienas](/garas-brivdienas/2027/) ir iespēja apvienot nedēļas nogali, svētkus un saskaņotu atvaļinājumu. Taču lielākais brīvo dienu skaits ne vienmēr nozīmē labāko atpūtu. Jāņem vērā darba grafiks, ģimenes iespējas, ceļš un tas, cik daudz no izvēlētā perioda patiešām paliek sev vēlamajām nodarbēm.
 
-2027. gada kalendārs piedāvā vairākus dažādus variantus. Tos ir vērts salīdzināt kā konkrētus datumu intervālus, nevis paļauties uz vispārīgu solījumu par “izdevīgāko atvaļinājumu”. Šeit aprakstīts plānošanas paņēmiens piecu dienu darba nedēļai; faktiskās [atvaļinājuma tiesības](https://likumi.lv/ta/id/26019-darba-likums) un saskaņošana jāvērtē atbilstoši savai situācijai.
+[2027. gada kalendārs](/kalendars/2027/) piedāvā vairākus dažādus variantus. Tos ir vērts salīdzināt kā konkrētus datumu intervālus, nevis paļauties uz vispārīgu solījumu par “izdevīgāko atvaļinājumu”. Šeit aprakstīts plānošanas paņēmiens piecu dienu darba nedēļai; faktiskās [atvaļinājuma tiesības](https://likumi.lv/ta/id/26019-darba-likums) un saskaņošana jāvērtē atbilstoši savai situācijai.
 
 ## Sāc ar pieejamo laiku
 
@@ -10,9 +10,9 @@ Nedalies ar gatavu rezervācijas plānu, pirms iesaistītie nav apstiprinājuši
 
 ## Pavasara varianti 2027. gadā
 
-Lielā piektdiena 26. martā un Otrās [Lieldienas](/blogs/lieldienas-2027-datumi-un-plani/) 29. martā atrodas abpus nedēļas nogalei. Savukārt 4. maijs iekrīt otrdienā. Ja parastā darba nedēļā iespējams saskaņot pirmdienu, var izveidoties cits atpūtas intervāls nekā tad, ja brīva ir tikai pati svētku diena.
+Lielā piektdiena 26. martā un Otrās [Lieldienas](/blogs/lieldienas-2027-datumi-un-plani/) 29. martā atrodas abpus nedēļas nogalei. Savukārt [4. maijs](/svetku-dienas/2027/maijs/) iekrīt otrdienā. Ja parastā darba nedēļā iespējams saskaņot pirmdienu, var izveidoties cits atpūtas intervāls nekā tad, ja brīva ir tikai pati svētku diena.
 
-Šos divus variantus salīdzini pēc vienādiem kritērijiem. Cik dienu jāizmanto atvaļinājumam, cik ilgs ir kopējais intervāls un cik laika aizņem ceļš? Pievieno arī ģimenes mācību grafiku: 2027. gada pavasara skolas brīvlaiks nav tas pats periods, kurā iekrīt Lieldienas. Šī atšķirība var mainīt visu izvēli.
+Šos divus variantus salīdzini pēc vienādiem kritērijiem. Cik [atvaļinājuma dienu](/atvalinajuma-planotajs/) jāizmanto, cik ilgs ir kopējais intervāls un cik laika aizņem ceļš? Pievieno arī ģimenes mācību grafiku: [2027. gada pavasara skolas brīvlaiks](/blogs/skolas-brivlaiki-2027-gimenes-plans/) nav tas pats periods, kurā iekrīt Lieldienas. Šī atšķirība var mainīt visu izvēli.
 
 ## Vasaras un novembra savienojumi
 
@@ -48,4 +48,4 @@ Pēc salīdzinājuma atstāj tikai vienu galveno ieceri un vienu vienkāršu rez
 
 Vienā rindā ieraksti datumu intervālu, nepieciešamās saskaņojamās darba dienas un savu galveno ieceri. Blakus izveido otru variantu ar tādu pašu struktūru. Kad abi aprakstīti vienādi, kļūst vieglāk pamanīt, kurš ir ērtāks, nevis tikai matemātiski garāks.
 
-[Atvaļinājuma plānotājā](/atvalinajuma-planotajs/) izpēti iespējamos intervālus, [svētku pārskatā](/svetku-dienas/) pārbaudi datumus, bet [darba dienu kalendārā](/darba-dienu-kalendars/) izlasi aprēķina pieņēmumus. Galīgo personīgo plānu pielāgo savam grafikam. Laba atpūta sākas ar skaidru vienošanos un pietiekamu laika rezervi, nevis ar garāko iekrāsoto joslu.
+Atvaļinājuma plānotājā izpēti iespējamos intervālus, [svētku pārskatā](/svetku-dienas/) pārbaudi datumus, bet [darba dienu kalendārā](/darba-dienu-kalendars/) izlasi aprēķina pieņēmumus. Galīgo personīgo plānu pielāgo savam grafikam. Laba atpūta sākas ar skaidru vienošanos un pietiekamu laika rezervi, nevis ar garāko iekrāsoto joslu.

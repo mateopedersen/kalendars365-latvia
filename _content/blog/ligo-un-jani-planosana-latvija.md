@@ -1,4 +1,4 @@
-Līgo vakars un Jāņu diena Latvijas kalendārā ir divi blakus esoši, taču atšķirīgi datumi: 23. un 24. jūnijs. Ap tiem veidojas braucieni uz laukiem, satikšanās ar draugiem, ēdienu gatavošana un vasaras vakara ieceres. Labs plāns palīdz vairāk laika atstāt kopā būšanai, nevis pēdējā brīža sarakstiem.
+[Līgo vakars](/svetki-un-tradicijas/ligo-diena/) un [Jāņu diena](/svetki-un-tradicijas/janu-diena/) Latvijas kalendārā ir divi blakus esoši, taču atšķirīgi datumi: 23. un 24. jūnijs. Ap tiem veidojas braucieni uz laukiem, satikšanās ar draugiem, ēdienu gatavošana un vasaras vakara ieceres. Labs plāns palīdz vairāk laika atstāt kopā būšanai, nevis pēdējā brīža sarakstiem.
 
 [Tradīcijas](https://www.latvia.travel/en/culture-and-traditions-latvia) katrā [ģimenē](/blogs/gimenes-kalendars-nedelas-planosana/) un novadā var atšķirties. Šeit nav vienas pareizās svinēšanas receptes. Tā vietā piedāvāts praktisks ceļš no kalendāra datuma līdz saprotamam pasākuma plānam, ņemot vērā ceļu, dienasgaismu, viesus un to, ka Latvijas vasaras laikapstākļus nevar pasūtīt kopā ar svētku cienastu.
 
@@ -6,11 +6,11 @@ Līgo vakars un Jāņu diena Latvijas kalendārā ir divi blakus esoši, taču a
 
 Līgo dienas un Jāņu dienas datumi ir noteikti kalendārā. Astronomiskais vasaras saulgriežu brīdis ir atsevišķs notikums, kuru aprēķina katram gadam. Tāpēc nevajag jebkuru 23. jūnija vakaru automātiski saukt par precīzo astronomisko saulgriežu mirkli. Kultūras svētkiem un debess notikumam ir saistība, bet atšķirīga datumu noteikšanas loģika.
 
-Ja pasākuma aprakstā gribi pieminēt saulgriežus, pārbaudi konkrētā gada gadalaiku datus un laika joslu. Savukārt ielūgumā galvenais ir nepārprotams tikšanās datums un vietējais laiks. Viesim nav jārisina astronomisks uzdevums, lai saprastu, kurā vakarā atbraukt un vai paredzēta palikšana pa nakti.
+Ja pasākuma aprakstā gribi pieminēt saulgriežus, pārbaudi [konkrētā gada gadalaiku datus](/gadalaiki/) un laika joslu. Savukārt ielūgumā galvenais ir nepārprotams tikšanās datums un vietējais laiks. Viesim nav jārisina astronomisks uzdevums, lai saprastu, kurā vakarā atbraukt un vai paredzēta palikšana pa nakti.
 
 ## Apskati 2027. gada nedēļu
 
-2027. gada 23. jūnijs ir trešdiena, bet 24. jūnijs ceturtdiena. Ja ikdienā strādā no pirmdienas līdz piektdienai, pārbaudi, kas paredzēts piektdienā pēc svētkiem. Tā nav automātiski brīva tikai tāpēc, ka atrodas starp svētku dienu un nedēļas nogali.
+[2027. gada 23. jūnijs](/kalendars/2027/junijs/) ir trešdiena, bet 24. jūnijs ceturtdiena. Ja ikdienā strādā no pirmdienas līdz piektdienai, pārbaudi, kas paredzēts piektdienā pēc svētkiem. Tā nav automātiski brīva tikai tāpēc, ka atrodas starp svētku dienu un nedēļas nogali.
 
 Pirms rezervē naktsmītni vairākām naktīm, saskaņo atvaļinājumu un pārējo braucēju iespējas. Kopīgajā kalendārā ieraksti arī izbraukšanas un atgriešanās dienu. Tās var atšķirties no paša svinību datuma, īpaši tad, ja kāds pievienojas vēlāk vai nākamajā rītā dodas uz darbu.
 
@@ -22,7 +22,7 @@ Tradicionāls cienasts, piemēram, Jāņu siers ar ķimenēm, var būt viens no 
 
 ## Dienasgaisma palīdz izvēlēties secību
 
-Vasaras vakars ir garš, tomēr [saulrieta laiks](/blogs/saullekts-saulriets-latvijas-pilsetas/) atšķiras atkarībā no vietas un datuma. Rīgas aprēķinu nevajag izmantot kā precīzu norādi pasākumam Liepājā vai Alūksnē. Izvēlies tuvāko pilsētu, apskati saulrietu un ieplāno fotografēšanos vai pastaigu ar pietiekamu laika rezervi.
+Vasaras vakars ir garš, tomēr [saulrieta laiks](/blogs/saullekts-saulriets-latvijas-pilsetas/) atšķiras atkarībā no vietas un datuma. Rīgas aprēķinu nevajag izmantot kā precīzu norādi pasākumam [Liepājā](/saullekts-saulriets/liepaja/) vai Alūksnē. Izvēlies tuvāko pilsētu, apskati saulrietu un ieplāno fotografēšanos vai pastaigu ar pietiekamu laika rezervi.
 
 Saulriets nav slēdzis, kas vienā mirklī nodzēš visu gaismu. Pēc tā turpinās krēsla, bet mākoņi, koki un reljefs maina to, cik gaiša šķiet konkrētā vieta. Āra nodarbēm saglabā elastīgu secību: ja debesis ir piemērotas agrāk, nevajag gaidīt tikai vienu iepriekš pierakstītu minūti.
 
