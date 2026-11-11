@@ -43,6 +43,7 @@ jobs:
       - run: node test/svg-art.test.cjs
       - run: node --test test/month-art.test.mjs
       - run: node --test test/tradition-links.test.mjs
+      - run: node --test test/tradition-cards.test.mjs
       - run: node test/observations.test.mjs
       - run: node --test test/location.test.mjs
       - run: node test/city-switch.test.cjs

@@ -1,0 +1,102 @@
+{
+  "valentina-diena": {
+    "src": "/assets/traditions/valentina-diena.svg",
+    "alt": "Sirds, zīda lente un personiska vēstule"
+  },
+  "martindiena": {
+    "src": "/assets/traditions/martindiena.svg",
+    "alt": "Koka maska, spalvas un rudens labības vārpas"
+  },
+  "mikeli": {
+    "src": "/assets/traditions/mikeli.svg",
+    "alt": "Ražas grozs ar āboliem, ķirbi un labības vārpām"
+  },
+  "meteni": {
+    "src": "/assets/traditions/meteni.svg",
+    "alt": "Meteņu maska ar krāsainām lentēm un sniega zīmēm"
+  },
+  "advente": {
+    "src": "/assets/traditions/advente.svg",
+    "alt": "Adventes vainags ar četrām svecēm"
+  },
+  "pupolu-svetdiena": {
+    "src": "/assets/traditions/pupolu-svetdiena.svg",
+    "alt": "Pūpolzari, kas sasieti ar karmīnsarkanu lenti"
+  },
+  "zvaigznes-diena": {
+    "src": "/assets/traditions/zvaigznes-diena.svg",
+    "alt": "Astoņstaru zvaigzne virs mierīgas ziemas nakts"
+  },
+  "jaunavas-marijas-debesbrauksanas-svetki": {
+    "src": "/assets/traditions/jaunavas-marijas-debesbrauksanas-svetki.svg",
+    "alt": "Balta lilija un baznīcas arka"
+  },
+  "miruso-pieminas-diena": {
+    "src": "/assets/traditions/miruso-pieminas-diena.svg",
+    "alt": "Piemiņas svece stikla lukturī un balti ziedi"
+  },
+  "pavasara-ekvinokcija": {
+    "src": "/assets/traditions/pavasara-ekvinokcija.svg",
+    "alt": "Zemes un Saules shēma ar pavasara lapām"
+  },
+  "rudens-ekvinokcija": {
+    "src": "/assets/traditions/rudens-ekvinokcija.svg",
+    "alt": "Zemes dienas un nakts līdzsvars ar rudens lapām"
+  },
+  "holokausta-upuru-pieminas-diena": {
+    "src": "/assets/traditions/holokausta-upuru-pieminas-diena.svg",
+    "alt": "Balti piemiņas ziedi uz tumša akmens"
+  },
+  "eiropas-valodu-diena": {
+    "src": "/assets/traditions/eiropas-valodu-diena.svg",
+    "alt": "Atvērtas valodu grāmatas un savstarpēji saistīti dialoga burbuļi"
+  },
+  "totalitaro-rezimu-upuru-pieminas-diena": {
+    "src": "/assets/traditions/totalitaro-rezimu-upuru-pieminas-diena.svg",
+    "alt": "Melna piemiņas lente un sveces gaisma"
+  },
+  "dzimtas-valodas-diena": {
+    "src": "/assets/traditions/dzimtas-valodas-diena.svg",
+    "alt": "Atvērta grāmata, runas zīme un sakņu motīvs"
+  },
+  "helovins": {
+    "src": "/assets/traditions/helovins.svg",
+    "alt": "Rudens ķirbis ar izgrieztu seju un lapu"
+  },
+  "pasaules-gramatu-diena": {
+    "src": "/assets/traditions/pasaules-gramatu-diena.svg",
+    "alt": "Grāmatu kaudze, atvērta lappuse un zeltains grāmatzīmes pavediens"
+  },
+  "pasaules-vides-diena": {
+    "src": "/assets/traditions/pasaules-vides-diena.svg",
+    "alt": "Ozols, zaļas lapas un mierīga ainava"
+  },
+  "pasaules-bernu-diena": {
+    "src": "/assets/traditions/pasaules-bernu-diena.svg",
+    "alt": "Trīs bērnu figūras, rotaļu klucīši un saules loks"
+  },
+  "pasaules-udens-diena": {
+    "src": "/assets/traditions/pasaules-udens-diena.svg",
+    "alt": "Ūdens piliens un koncentriski viļņi"
+  },
+  "pasaules-dzivnieku-diena": {
+    "src": "/assets/traditions/pasaules-dzivnieku-diena.svg",
+    "alt": "Suņa, kaķa un putna silueti"
+  },
+  "pavasara-tradicijas": {
+    "src": "/assets/traditions/pavasara-tradicijas.svg",
+    "alt": "Krāsotas olas, pavasara ziedi un jauni asni"
+  },
+  "sveta-nikolaja-diena": {
+    "src": "/assets/traditions/sveta-nikolaja-diena.svg",
+    "alt": "Svētā Nikolaja tradīcijas kurpe un zvaigzne"
+  },
+  "pasaules-bisu-diena": {
+    "src": "/assets/traditions/pasaules-bisu-diena.svg",
+    "alt": "Bite virs medus šūnām un pļavas zieda"
+  },
+  "zemes-diena": {
+    "src": "/assets/traditions/zemes-diena.svg",
+    "alt": "Zemeslode ar zaļām lapām un aizsargājošu plaukstu motīvu"
+  }
+}

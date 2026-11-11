@@ -12,6 +12,7 @@ class TraditionLinks
 
   def initialize(entries:, occasions:, cultural:, routes:)
     @entries = entries.fetch('topics')
+    @illustrations = JSON.parse(File.read('_data/tradition-illustrations.json'))
     @routes = routes.map { |route| route.fetch('URL path') }
     @topics = occasions.to_h do |item|
       [item.fetch('slug'), item.merge('url'=>PREFIX+item.fetch('slug')+'/', 'label'=>item.fetch('title'))]
@@ -19,7 +20,12 @@ class TraditionLinks
     cultural.each do |item|
       slug = item.fetch('url').split('/').last
       raise "Duplicate tradition topic: #{slug}" if @topics.key?(slug)
-      @topics[slug] = item.merge('slug'=>slug, 'label'=>item.fetch('h1').split(':').first, 'type'=>'culture')
+      @topics[slug] = item.merge('slug'=>slug, 'label'=>item.fetch('h1').split(':').first, 'type'=>'culture', 'illustration'=>@illustrations.fetch(slug))
+    end
+    expected_art = cultural.map { |item| item.fetch('url').split('/').last }.sort
+    raise 'Cultural illustration coverage differs from catalog' unless @illustrations.keys.sort == expected_art
+    @illustrations.each do |slug, art|
+      raise "Missing topic illustration: #{slug}" unless art.fetch('src') == "/assets/traditions/#{slug}.svg" && File.file?(art['src'].delete_prefix('/')) && !art.fetch('alt').strip.empty?
     end
     validate!
   end
@@ -116,8 +122,8 @@ def tradition_related_markup(slug)
     visual = if photo
       %(<img src="#{h(photo['src'])}" alt="#{h(photo['alt'])}" loading="lazy" width="480" height="300">)
     else
-      icon = item.dig('dateModel','type')=='astronomical' ? 'astronomy' : 'gift'
-      %(<span class="tradition-related-art" aria-hidden="true">#{ui_icon(icon)}</span>)
+      art = item.fetch('illustration')
+      %(<img class="tradition-related-illustration" src="#{h(art.fetch('src'))}?v={{ site.data.build.asset_version }}" alt="#{h(art.fetch('alt'))}" width="640" height="360" loading="lazy">)
     end
     %(<a href="#{h(item['url'])}">#{visual}<span>#{h(item['label'])}<b aria-hidden="true">→</b></span></a>)
   end.join
