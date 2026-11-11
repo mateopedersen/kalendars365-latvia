@@ -10,6 +10,9 @@ date: '2026-11-11'
 reading_notes: false
 blog_slug: skolas-brivlaiki-2027-gimenes-plans
 og_image: "/assets/blog/school-960.webp"
+og_image_width: 960
+og_image_height: 540
+og_image_alt: Olaines pirmās vidusskolas ēka un laukums ziemā.
 ---
 Skolas brīvlaiks ir vairāk nekā datumi, kuros nav parasto mācību stundu. Ģimenei tas var nozīmēt citu dienas ritmu, nepieciešamu pieskatīšanu, braucienu vai laiku bez ierastajām nodarbībām. Lai plāns būtu uzticams, jāņem vērā ne tikai kalendārais gads, bet arī mācību gads un skolēna klase.
 

@@ -10,6 +10,9 @@ date: '2026-11-11'
 reading_notes: false
 blog_slug: studiju-kalendars-sesija-un-brivlaiks
 og_image: "/assets/blog/university-1200.webp"
+og_image_width: 1200
+og_image_height: 865
+og_image_alt: Latvijas Universitātes centrālās ēkas fasāde Rīgā
 ---
 Studentam vārds “brīvlaiks” var nozīmēt pavisam ko citu nekā skolēnam. Lekciju pārtraukumā var turpināties patstāvīgie darbi, prakse, pārbaudījumi vai gatavošanās sesijai. Lai plānotu darbu, braucienu un atpūtu, jāskatās konkrētās augstskolas akadēmiskais kalendārs un savas programmas norādījumi, nevis tikai vispārējā svētku tabula.
 

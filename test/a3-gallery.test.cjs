@@ -1,4 +1,5 @@
 const assert=require('node:assert/strict'),fs=require('node:fs'),crypto=require('node:crypto');
+const previews=JSON.parse(fs.readFileSync('_data/preview-images.json')).images;
 const manifest=JSON.parse(fs.readFileSync('downloads/gada-a3/manifest.json'));
 assert.equal(manifest.items.length,60);
 for(const year of [2027,2028,2029,2030]){
@@ -8,7 +9,7 @@ for(const year of [2027,2028,2029,2030]){
   const html=fs.readFileSync(route,'utf8');
   assert.equal((html.match(/class="a3-design-card"/g)||[]).length,15,route);
   assert.equal((html.match(/<span>Attēls<\/span>/g)||[]).length,15,route);
-  for(const row of designs)for(const key of ['pdf','image','preview'])assert(html.includes(row[key]),`${route}: ${row[key]}`);
+  for(const row of designs){for(const key of ['pdf','image'])assert(html.includes(row[key]),`${route}: ${row[key]}`);const preview=previews[row.preview];assert(preview&&html.includes(preview.src)&&html.includes(preview.srcset),`${route}: responsive preview`);}
  }
  for(const row of designs){
   assert.equal(row.dpi,600);

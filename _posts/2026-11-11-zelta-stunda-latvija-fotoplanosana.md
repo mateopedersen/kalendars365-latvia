@@ -10,6 +10,9 @@ date: '2026-11-11'
 reading_notes: false
 blog_slug: zelta-stunda-latvija-fotoplanosana
 og_image: "/assets/blog/summer-960.webp"
+og_image_width: 960
+og_image_height: 720
+og_image_alt: Saule pie horizonta un akmeņaina Baltijas jūras piekraste.
 ---
 Zeltainā stunda ir ērts nosaukums gaismas apstākļiem ap laiku, kad Saule atrodas zemu virs horizonta. Tomēr tā nav garantēta tieši sešdesmit minūšu gara josla, kas visās Latvijas vietās sākas vienā laikā. Gadalaiks, mākoņi, apkārtne un izvēlētais skata virziens var būtiski mainīt rezultātu.
 

@@ -10,6 +10,10 @@ date: '2026-11-11'
 reading_notes: false
 blog_slug: latvijas-svetku-dienas-2027-planosana
 og_image: "/assets/blog/flag-780.webp"
+og_image_width: 780
+og_image_height: 574
+og_image_alt: Vējā plīvojošs Latvijas karmīnsarkanbaltsarkanais karogs pret zilām
+  debesīm.
 ---
 Latvijas svētku kalendārs ir labs [gada plānošanas](/blogs/atvalinajums-2027-garas-brivdienas/) sākumpunkts, tomēr ar sarkani iekrāsotu datumu vien nepietiek. Ir jāatšķir svētku diena, atceres diena, parasta nedēļas nogale un darbavietā saskaņots atvaļinājums. Šīs atšķirības palīdz saprast, cik ilgs atpūtas posms patiesībā būs pieejams un kuros datumos vēl vajadzīga vienošanās ar darba devēju.
 

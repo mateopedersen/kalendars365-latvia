@@ -10,6 +10,9 @@ date: '2026-11-11'
 reading_notes: false
 blog_slug: tomatu-seja-un-izstadisana-latvija
 og_image: "/assets/blog/tomatoes-960.webp"
+og_image_width: 960
+og_image_height: 798
+og_image_alt: Nogatavojušies sarkani tomāti ar kātiņiem
 ---
 Tomātu audzēšanas plāns sākas agrāk par izstādīšanu siltumnīcā vai dobē, taču tas nenozīmē, ka visiem jāsteidzas sēt vienā ziemas datumā. Piemērots grafiks ir atkarīgs no šķirnes, audzēšanas vietas, stādu apstākļiem un plānotās izstādīšanas. Latvijā īpaši svarīgi nesajaukt apkurinātu vidi, neapkurinātu siltumnīcu un atklātu lauku.
 

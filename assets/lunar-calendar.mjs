@@ -162,7 +162,7 @@ if (root) {
     if (phaseNode) phaseNode.textContent = label;
     if (percentNode) percentNode.textContent = percent;
     if (localLabel) localLabel.textContent = 'Plkst. 12.00 · ' + (city?.locative || city?.name || 'Rīga');
-    if (descriptionNode) descriptionNode.textContent = displayDate(value) + ' plkst. 12.00 ' + (city?.locative || city?.name || 'Rīgā') + ' redzama ' + label.toLocaleLowerCase('lv-LV') + ' fāze; apgaismota ' + percent + ' redzamā diska.';
+    if (descriptionNode) descriptionNode.textContent = displayDate(value) + ' plkst. 12.00 ' + (city?.locative || city?.name || 'Rīgā') + '. Fāze: ' + label + '. Apgaismotā daļa: ' + percent + '.';
     if (moonCanvas) {
       moonCanvas.setAttribute('aria-label', 'Mēness virsmas fotomozaīka ar ' + label.toLocaleLowerCase('lv-LV') + ' fāzes apgaismojumu, ' + displayDate(value) + ', ' + percent + ' apgaismots');
       paintMoon(moonCanvas, value);
@@ -219,14 +219,19 @@ if (root) {
     updateDetail(value, true);
   }
 
+  let initialRender;
   function onReady() {
-    source.decode().catch(() => {}).finally(() => { updateCells(); updateDetail(selected, false); });
+    if (!initialRender) initialRender = source.decode().catch(() => {}).then(() => {
+      updateCells();
+      updateDetail(selected, false);
+    });
+    return initialRender;
   }
 
   root.addEventListener('click', event => {
     const dayButton = event.target.closest('[data-lunar-day]');
     if (dayButton) openDay(dayButton.dataset.lunarDay);
-    if (event.target.closest('[data-lunar-print]')) window.print();
+    if (event.target.closest('[data-lunar-print]')) onReady().then(() => window.print());
   });
   root.addEventListener('keydown', event => {
     const button = event.target.closest('[data-lunar-day]');
@@ -250,6 +255,14 @@ if (root) {
   source.addEventListener('error', () => {
     root.querySelectorAll('[data-moon-canvas]').forEach(canvas => canvas.setAttribute('aria-label', 'Mēness attēlu nevarēja ielādēt'));
   }, { once: true });
-  if (source.complete && source.naturalWidth) onReady();
-  else source.addEventListener('load', onReady, { once: true });
+  // Enhance the offscreen calendar as it approaches the reader; print still prepares every cell.
+  if ('IntersectionObserver' in window) {
+    const observer = new IntersectionObserver(entries => {
+      if (entries.some(entry => entry.isIntersecting)) { observer.disconnect(); onReady(); }
+    }, { rootMargin: '200px 0px' });
+    observer.observe(root);
+  } else onReady();
+  window.addEventListener('beforeprint', () => {
+    if (source.complete && source.naturalWidth) { updateCells(); updateDetail(selected, false); }
+  });
 }

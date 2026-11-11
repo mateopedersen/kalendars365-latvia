@@ -3,10 +3,19 @@
   Referrer-Policy: strict-origin-when-cross-origin
   Permissions-Policy: camera=(), microphone=(), geolocation=()
   Content-Security-Policy: default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; font-src 'self'; connect-src 'self' https://tiles.openfreemap.org; worker-src 'self'; object-src 'none'; base-uri 'self'; frame-ancestors 'none'; form-action 'self' mailto:
-/assets/*
+/assets/:file
   Cache-Control: public, max-age=3600
 /downloads/*
   Cache-Control: public, max-age=86400
 
 /assets/fonts/*.woff2
+  Cache-Control: public, max-age=31536000, immutable
+
+/static/css/*
+  Cache-Control: public, max-age=31536000, immutable
+
+/assets/cities/*
+  Cache-Control: public, max-age=604800
+
+/assets/calendar-previews/*
   Cache-Control: public, max-age=31536000, immutable

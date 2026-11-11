@@ -2,6 +2,7 @@ const assert=require('node:assert/strict');
 const fs=require('node:fs');
 const crypto=require('node:crypto');
 const months=['janvaris','februaris','marts','aprilis','maijs','junijs','julijs','augusts','septembris','oktobris','novembris','decembris'];
+const previews=JSON.parse(fs.readFileSync('_data/preview-images.json')).images;
 const manifest=JSON.parse(fs.readFileSync('downloads/menesa-a3/manifest.json'));
 assert.equal(manifest.sourceZipSha256,'e2d8512fef538b2d3412ebca6e7c088883d82b4a1ae7e2e7fd0b7b4ac5b978ee');
 assert.equal(manifest.items.length,720);
@@ -15,7 +16,7 @@ for(let year=2027;year<=2030;year++)for(let month=1;month<=12;month++){
   assert.equal((html.match(/class="a3-design-card"/g)||[]).length,15,route);
   assert.equal((html.match(/<span>Attēls<\/span>/g)||[]).length,15,route);
   assert(!html.includes('data-print-type="monthly"'),route+' old generator');
-  for(const row of items)for(const key of ['pdf','image','preview'])assert(html.includes(row[key]),`${route} ${row[key]}`);
+  for(const row of items){for(const key of ['pdf','image'])assert(html.includes(row[key]),`${route} ${row[key]}`);const preview=previews[row.preview];assert(preview&&html.includes(preview.src)&&html.includes(preview.srcset),`${route}: responsive preview`);}
   pages++;
  }
  for(const row of items){

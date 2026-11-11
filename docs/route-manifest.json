@@ -687,7 +687,7 @@
     "url": "/dienas-garums/",
     "title": "Dienas garums Latvijā",
     "family": "latvia_special",
-    "indexable": false,
+    "indexable": true,
     "status": "ready",
     "description": "Apskati dienas garumu, saullēktu un saulrietu izvēlētā Latvijas pilsētā. Salīdzini, kā gaišais laiks mainās gada gaitā.",
     "lastmod": "2026-11-11"
@@ -732,7 +732,7 @@
     "url": "/gada-diena/",
     "title": "Gada diena",
     "family": "latvia_special",
-    "indexable": false,
+    "indexable": true,
     "status": "ready",
     "description": "Uzzini izvēlētā datuma kārtas numuru gadā un to, cik dienu līdz gada beigām atlicis. Aprēķins ņem vērā arī garos gadus.",
     "lastmod": "2026-11-11"
@@ -750,7 +750,7 @@
     "url": "/garais-gads/",
     "title": "Garais gads",
     "family": "latvia_special",
-    "indexable": false,
+    "indexable": true,
     "status": "ready",
     "description": "Pārbaudi, vai izvēlētais gads ir garais gads, un uzzini, kā Gregora kalendārā nosaka gadus ar 29. februāri un 366 dienām.",
     "lastmod": "2026-11-11"
@@ -1713,7 +1713,7 @@
     "url": "/meness-aptumsums/",
     "title": "Mēness aptumsumi",
     "family": "latvia_special",
-    "indexable": false,
+    "indexable": true,
     "status": "ready",
     "description": "Apskati Mēness aptumsumu datumus un uzzini, kā to redzamība atkarīga no izvēlētās Latvijas pilsētas un Mēness atrašanās virs horizonta.",
     "lastmod": "2026-11-11"
@@ -4881,7 +4881,7 @@
     "url": "/nozimigas-dienas/",
     "title": "Nozīmīgas dienas Latvijā",
     "family": "latvia_special",
-    "indexable": false,
+    "indexable": true,
     "status": "ready",
     "description": "Latvijas svētku dienas, gadskārtu notikumi un citas avotos pārbaudītas kultūras tēmas. Pārbaudi datumu un atšķir to no likumā noteiktas brīvdienas.",
     "lastmod": "2026-11-11"
@@ -4890,7 +4890,7 @@
     "url": "/pabalstu-izmaksas/",
     "title": "Pabalstu izmaksas Latvijā",
     "family": "latvia_special",
-    "indexable": false,
+    "indexable": true,
     "status": "ready",
     "description": "Pārbaudi, kā VSAA nosaka pabalsta izmaksas datumu un par kuru mēnesi veic maksājumu. Datums atkarīgs no pabalsta un lēmuma.",
     "lastmod": "2026-11-11"
@@ -5385,7 +5385,7 @@
     "url": "/pensiju-izmaksas/",
     "title": "Pensiju izmaksas Latvijā",
     "family": "latvia_special",
-    "indexable": false,
+    "indexable": true,
     "status": "ready",
     "description": "Uzzini, kur atrast savu pensijas izmaksas datumu un kā pārbaudīt VSAA ziņas par izmaksām pirms svētkiem. Viena datuma visiem nav.",
     "lastmod": "2026-11-11"
@@ -5394,7 +5394,7 @@
     "url": "/perseidas/",
     "title": "Perseīdas Latvijā",
     "family": "latvia_special",
-    "indexable": false,
+    "indexable": true,
     "status": "ready",
     "description": "Uzzini, kas ir Perseīdas un kas jāņem vērā, izvēloties augusta nakti meteoru vērošanai Latvijā: tumsa, Mēness un laikapstākļi.",
     "lastmod": "2026-11-11"
@@ -5430,7 +5430,7 @@
     "url": "/pulkstena-pargriesana/",
     "title": "Pulksteņa pagriešana Latvijā",
     "family": "latvia_special",
-    "indexable": false,
+    "indexable": true,
     "status": "ready",
     "description": "Kad Latvijā maina laiku un kurā virzienā pagriezt pulksteni? Apskati pāreju datumus un Latvijas laika joslu Europe/Riga.",
     "lastmod": "2026-11-11"
@@ -5439,7 +5439,7 @@
     "url": "/redakcijas-politika/",
     "title": "Redakcijas politika",
     "family": "latvia_special",
-    "indexable": false,
+    "indexable": true,
     "status": "ready",
     "description": "Kā Kalendārs365 izvēlas avotus, nošķir oficiālus datumus no aprēķiniem un labo pamanītas kļūdas Latvijas kalendāra datos.",
     "lastmod": "2026-11-11"
@@ -5448,7 +5448,7 @@
     "url": "/saules-aptumsums/",
     "title": "Saules aptumsumi",
     "family": "latvia_special",
-    "indexable": false,
+    "indexable": true,
     "status": "ready",
     "description": "Apskati Saules aptumsumu datumus un to, kā izvēlētās Latvijas pilsētas koordinātas ietekmē redzamo fāzi un aptumsuma laikus.",
     "lastmod": "2026-11-11"
@@ -6555,7 +6555,7 @@
     "url": "/skolas-kalendars/",
     "title": "Skolas kalendārs 2026./2027. mācību gadam",
     "family": "latvia_special",
-    "indexable": false,
+    "indexable": true,
     "status": "ready",
     "description": "2026./2027. mācību gada semestri un skolēnu brīvdienas Latvijā. Apskati atšķirīgos mācību gada beigu datumus pa klašu grupām.",
     "lastmod": "2026-11-11"
@@ -6564,7 +6564,7 @@
     "url": "/studiju-kalendars/",
     "title": "Studiju kalendāri Latvijā",
     "family": "latvia_special",
-    "indexable": false,
+    "indexable": true,
     "status": "ready",
     "description": "Latvijas valsts augstskolu 2026./2027. studiju datumi: semestri, sesijas, brīvdienas un programmu izņēmumi ar oficiālajiem avotiem.",
     "lastmod": "2026-11-11"
@@ -7608,7 +7608,7 @@
     "url": "/valsts-parbaudes-darbi/",
     "title": "Valsts pārbaudes darbi 2026./2027. mācību gadā",
     "family": "latvia_special",
-    "indexable": false,
+    "indexable": true,
     "status": "ready",
     "description": "2027. gada centralizēto eksāmenu un monitoringa darbu datumi Latvijā. Filtrē pēc klases, priekšmeta, līmeņa un norises laika.",
     "lastmod": "2026-11-11"

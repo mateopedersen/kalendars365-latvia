@@ -14,7 +14,9 @@
   }
   function updatePhoto(){
    const current=++photoVersion,photo=city.photo||{src:'/assets/category-vector/earth.svg',srcset:'',alt:'Zemes ilustrācija — aptuveni noteiktā pilsēta'};
-   figure.classList.toggle('is-location-illustration',!!city.external);figure.classList.add('is-loading');status.textContent='Ielādē attēlu…';status.hidden=false;image.hidden=true;
+   figure.classList.toggle('is-location-illustration',!!city.external);
+   if(image.getAttribute('src')===photo.src&&(image.getAttribute('srcset')||'')===(photo.srcset||'')&&image.complete&&image.naturalWidth){image.alt=photo.alt;return;}
+   figure.classList.add('is-loading');status.textContent='Ielādē attēlu…';status.hidden=false;
    const pending=new Image();pending.sizes=image.sizes;pending.srcset=photo.srcset||'';pending.src=photo.src;
    pending.onload=()=>{if(current!==photoVersion)return;image.alt=photo.alt;image.srcset=photo.srcset||'';image.src=photo.src;image.hidden=false;figure.classList.remove('is-loading');status.hidden=true;};
    pending.onerror=()=>{if(current!==photoVersion)return;image.hidden=true;figure.classList.remove('is-loading');status.textContent='Attēlu nevar ielādēt. Mēģini vēlreiz.';status.hidden=false;};

@@ -10,6 +10,9 @@ date: '2026-11-11'
 reading_notes: false
 blog_slug: pavasara-seja-latvija-darza-plans
 og_image: "/assets/blog/carrots-960.webp"
+og_image_width: 960
+og_image_height: 544
+og_image_alt: Burkānu saišķis ar zaļiem lakstiem
 ---
 Pavasara sējas kalendārs ir noderīgs orientieris, taču Latvijas dārzā to nevajag uztvert kā pavēli konkrētā datumā ielikt zemē visas sēklas. Augsnes stāvoklis, vieta, kultūra un audzēšanas paņēmiens var būt svarīgāki par mēneša skaitli. Vienā gadā dārzs kļūst gatavs agrāk, citā pēc slapja vai vēsa laika jāpagaida.
 

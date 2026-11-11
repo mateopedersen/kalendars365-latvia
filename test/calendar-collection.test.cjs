@@ -2,6 +2,7 @@ const test=require('node:test');
 const assert=require('node:assert/strict');
 const fs=require('node:fs');
 const core=require('../assets/calendar-collection.js');
+const previews=JSON.parse(fs.readFileSync('_data/preview-images.json')).images;
 const months=['janvaris','februaris','marts','aprilis','maijs','junijs','julijs','augusts','septembris','oktobris','novembris','decembris'];
 const kinds=['kalendars','pdf-kalendari','meness-kalendars'];
 
@@ -33,7 +34,7 @@ test('all 156 year/month pages put the correct downloads first and expose every 
 test('all download controls remain date-bound, complete and available on disk',()=>{
  for(const [file,kind] of [['downloads/gada-a3/manifest.json','kalendars'],['downloads/menesa-a3/manifest.json','kalendars'],['downloads/meness/manifest.json','meness-kalendars']]){
   const items=JSON.parse(fs.readFileSync(file)).items;
-  for(const item of items.filter(row=>row.year>=2027&&row.year<=2030)){const html=fs.readFileSync('_site'+core.path(kind,item.year,item.month??null)+'index.html','utf8');for(const key of ['pdf','image','preview']){assert(html.includes(item[key]));assert(fs.statSync('.'+item[key]).isFile());}}
+  for(const item of items.filter(row=>row.year>=2027&&row.year<=2030)){const html=fs.readFileSync('_site'+core.path(kind,item.year,item.month??null)+'index.html','utf8');for(const key of ['pdf','image']){assert(html.includes(item[key]));assert(fs.statSync('.'+item[key]).isFile());}assert(fs.statSync('.'+item.preview).isFile());assert(html.includes(previews[item.preview].src));assert(html.includes(previews[item.preview].srcset));}
  }
 });
 

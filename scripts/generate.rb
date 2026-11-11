@@ -8,6 +8,8 @@ require 'digest'
 require 'open3'
 require 'uri'
 require_relative 'tradition_links'
+require_relative 'preview_components'
+include PreviewComponents
 require_relative 'occasion_components'
 require_relative 'garden_components'
 require_relative 'garden_experience_components'
@@ -296,7 +298,7 @@ def a3_year_gallery(year)
   cards=items.each_with_index.map do |item,index|
     orientation=item['orientation']=='portrait' ? 'Vertikāli' : 'Horizontāli'
     holiday=item['holidays'] ? 'Ar svētku dienām' : 'Bez svētku atzīmēm'
-    %(<article class="a3-design-card"><a class="a3-design-preview" href="#{h(item['image'])}" target="_blank" rel="noopener" aria-label="Atvērt #{h(item['title'])} priekšskatījumu"><img src="#{h(item['preview'])}" width="#{item['width']}" height="#{item['height']}" loading="#{index<3 ? 'eager' : 'lazy'}"#{index==0 ? ' fetchpriority="high"' : ''} alt="#{year}. gada kalendārs: #{h(item['title'])}"><span>#{format('%02d',item['design'])} / 15</span></a><div class="a3-design-copy"><h3>#{h(item['title'])}</h3><p>A3 · #{orientation} · #{holiday}</p><div class="a3-design-actions"><a href="#{h(item['pdf'])}" download><img src="/assets/file-pdf.svg" alt="" width="24" height="24"><span>PDF</span>#{arrow}</a><a href="#{h(item['image'])}" download><img src="/assets/file-image.svg" alt="" width="24" height="24"><span>Attēls</span>#{arrow}</a></div></div></article>)
+    %(<article class="a3-design-card"><a class="a3-design-preview" href="#{h(item['image'])}" target="_blank" rel="noopener" aria-label="Atvērt #{h(item['title'])} priekšskatījumu">#{preview_image(item, alt: "#{year}. gada kalendārs: #{item['title']}", loading: index<3 ? 'eager' : 'lazy', priority: index==0)}<span>#{format('%02d',item['design'])} / 15</span></a><div class="a3-design-copy"><h3>#{h(item['title'])}</h3><p>A3 · #{orientation} · #{holiday}</p><div class="a3-design-actions"><a href="#{h(item['pdf'])}" download><img src="/assets/file-pdf.svg" alt="" width="24" height="24"><span>PDF</span>#{arrow}</a><a href="#{h(item['image'])}" download><img src="/assets/file-image.svg" alt="" width="24" height="24"><span>Attēls</span>#{arrow}</a></div></div></article>)
   end.join
   %(<section class="a3-year-gallery" id="gada-a3-kalendari"><div class="a3-gallery-heading"><div><span class="eyebrow">#{year} · LATVIJAS KALENDĀRS</span><h2>15 kalendāri A3 drukai</h2><p>Izvēlies dizainu un saglabā PDF vai attēlu 600 dpi izšķirtspējā.</p></div><span class="a3-gallery-badge">15 dizaini · A3</span></div><div class="a3-design-grid">#{cards}</div><p class="a3-gallery-note">Katrs kalendārs ietver visu #{year}. gadu. Dizainiem bez svētku atzīmēm datumi paliek redzami. <a href="/avoti-un-metodika/">Datumu avoti un metodika</a>.</p></section>)
 end
@@ -308,7 +310,7 @@ def a3_month_gallery(year,month)
   cards=items.each_with_index.map do |item,index|
     orientation=item['orientation']=='portrait' ? 'Vertikāli' : 'Horizontāli'
     holiday=item['holidays'] ? 'Ar svētku dienām' : 'Bez svētku atzīmēm'
-    %(<article class="a3-design-card"><a class="a3-design-preview" href="#{h(item['image'])}" target="_blank" rel="noopener" aria-label="Atvērt #{h(item['title'])} priekšskatījumu"><img src="#{h(item['preview'])}" width="#{item['width']}" height="#{item['height']}" loading="#{index<3 ? 'eager' : 'lazy'}"#{index==0 ? ' fetchpriority="high"' : ''} alt="#{year}. gada #{GEN[month-1]} kalendārs: #{h(item['title'])}"><span>#{format('%02d',item['design'])} / 15</span></a><div class="a3-design-copy"><h3>#{h(item['title'])}</h3><p>A3 · #{orientation} · #{holiday}</p><div class="a3-design-actions"><a href="#{h(item['pdf'])}" download><img src="/assets/file-pdf.svg" alt="" width="24" height="24"><span>PDF</span>#{arrow}</a><a href="#{h(item['image'])}" download><img src="/assets/file-image.svg" alt="" width="24" height="24"><span>Attēls</span>#{arrow}</a></div></div></article>)
+    %(<article class="a3-design-card"><a class="a3-design-preview" href="#{h(item['image'])}" target="_blank" rel="noopener" aria-label="Atvērt #{h(item['title'])} priekšskatījumu">#{preview_image(item, alt: "#{year}. gada #{GEN[month-1]} kalendārs: #{item['title']}", loading: index<3 ? 'eager' : 'lazy', priority: index==0)}<span>#{format('%02d',item['design'])} / 15</span></a><div class="a3-design-copy"><h3>#{h(item['title'])}</h3><p>A3 · #{orientation} · #{holiday}</p><div class="a3-design-actions"><a href="#{h(item['pdf'])}" download><img src="/assets/file-pdf.svg" alt="" width="24" height="24"><span>PDF</span>#{arrow}</a><a href="#{h(item['image'])}" download><img src="/assets/file-image.svg" alt="" width="24" height="24"><span>Attēls</span>#{arrow}</a></div></div></article>)
   end.join
   %(<section class="a3-year-gallery a3-month-gallery" id="menesa-a3-kalendari"><div class="a3-gallery-heading"><div><span class="eyebrow">#{year} · #{MONTHS[month-1].upcase} · LATVIJA</span><h2>15 #{GEN[month-1]} kalendāri A3 drukai</h2><p>Izvēlies dizainu un saglabā PDF vai attēlu 600 dpi izšķirtspējā.</p></div><span class="a3-gallery-badge">15 dizaini · A3</span></div><div class="a3-design-grid">#{cards}</div><p class="a3-gallery-note">Katrs fails rāda tikai #{year}. gada #{GEN[month-1]} mēnesi. Daļā dizainu svētku dienas nav atzīmētas. <a href="/avoti-un-metodika/">Datumu avoti un metodika</a>.</p></section>)
 end
@@ -474,7 +476,10 @@ ROUTES.each do |r|
    extra_page=LATVIA_EXTRA_PAGES[p]
    body=latvia_special_markup(p,extra_page)
    desc=extra_page['description'] if extra_page
-   noindex=true;reason='latvia_special_missing' unless extra_page || %w[nozimigas-dienas].include?(slug)
+   unless extra_page || %w[nozimigas-dienas].include?(slug)
+    noindex=true
+    reason='latvia_special_missing'
+   end
   end
  elsif f=='occasion'
   article=JSON.parse(File.read('_data/occasions.json')).find{|x|x['slug']==slug}
@@ -563,7 +568,7 @@ ROUTES.each do |r|
   title='Zodiaka zīmes: nosaukumi un simbolika';heading='12 zodiaka zīmes un to elementi';desc='Iepazīsti Aunu, Vērsi, Dvīņus un pārējās zodiaka zīmes, to elementus un simbolisko nozīmi. Dienas horoskopi katrai zīmei.'
  end
  desc="#{title}. #{m ? "#{Date.new(y,m,-1).day} #{Date.new(y,m,-1).day == 31 ? 'diena' : 'dienas'}, ISO nedēļas un izvēlētā mēneša plānošana." : 'Pārskatāmi datumi, plānošanas rīki un saites uz avotiem.'} Kalendārs365 Latvijai." if desc.empty?
- front={'layout'=>'default','title'=>title,'description'=>desc,'permalink'=>p,'family'=>f,'city_id'=>(%w[sun_city moon_city].include?(f) ? slug : nil),'year'=>(r['Year'].empty? ? nil : y),'month'=>m,'week'=>week,'calendar_name'=>(f=='name_calendar' ? r['Latvian title/topic'] : nil),'view'=>(f=='iso_week' ? 'week' : f=='year' ? 'year' : nil),'noindex'=>noindex,'og_image'=>(File.file?("assets/og/#{Digest::SHA1.hexdigest(p)[0,16]}.webp") ? "/assets/og/#{Digest::SHA1.hexdigest(p)[0,16]}.webp" : File.file?("assets/og/#{f}.png") ? "/assets/og/#{f}.png" : '/assets/og/home.png')}
+ front={'layout'=>'default','title'=>title,'description'=>desc,'permalink'=>p,'family'=>f,'city_id'=>(%w[sun_city moon_city].include?(f) ? slug : nil),'year'=>(r['Year'].empty? ? nil : y),'month'=>m,'week'=>week,'calendar_name'=>(f=='name_calendar' ? r['Latvian title/topic'] : nil),'view'=>(f=='iso_week' ? 'week' : f=='year' ? 'year' : nil),'noindex'=>noindex,'og_image'=>(File.file?("assets/og/#{Digest::SHA1.hexdigest(p)[0,16]}.webp") ? "/assets/og/#{Digest::SHA1.hexdigest(p)[0,16]}.webp" : '/assets/og/home.png')}
  front.delete_if{|_,value|value.nil?}
  front['calendar_collection']=true if CALENDAR_COLLECTION_FAMILIES.include?(f)
  if slug=='saullekts-saulriets'

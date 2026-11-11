@@ -10,6 +10,9 @@ date: '2026-11-11'
 reading_notes: false
 blog_slug: iso-nedelu-numuri-kalendara
 og_image: "/assets/blog/monthly-960.webp"
+og_image_width: 960
+og_image_height: 643
+og_image_alt: Atvērts papīra mēneša kalendārs ar rokraksta piezīmēm.
 ---
 Nedēļas numurs ir īss veids, kā vienoties par termiņu, piegādi vai nodarbību plānu. Tomēr pieraksts “pirmā nedēļa” var kļūt neskaidrs tieši tad, kad tas šķiet visvienkāršākais: gadu mijā. Janvāra sākuma diena reizēm pieder iepriekšējā gada pēdējai [ISO nedēļai](https://www.iso.org/iso-8601-date-and-time-format.html), bet decembra beigas jau nākamā gada pirmajai nedēļai.
 

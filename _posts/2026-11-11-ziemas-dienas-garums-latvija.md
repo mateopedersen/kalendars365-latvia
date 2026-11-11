@@ -10,6 +10,9 @@ date: '2026-11-11'
 reading_notes: false
 blog_slug: ziemas-dienas-garums-latvija
 og_image: "/assets/blog/winter-960.webp"
+og_image_width: 960
+og_image_height: 720
+og_image_alt: Apsniguši koki un Rīgas Kristus Piedzimšanas katedrāle.
 ---
 Latvijas ziemā dienasgaisma kļūst par īpaši pamanāmu plānošanas resursu. Pastaigu, braucienu vai darbu ārā bieži gribas pārcelt uz to dienas daļu, kurā ir gaišāks. Lai tas izdotos, noder nevis aptuvens priekšstats par “ziemas pēcpusdienu”, bet konkrētas pilsētas saullēkta un saulrieta laiki izvēlētajā datumā.
 

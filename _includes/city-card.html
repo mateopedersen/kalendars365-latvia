@@ -1,7 +1,7 @@
 {% assign default_city = site.data.cities.cities | where: 'id', 'riga' | first %}
 <section class="card today-card" data-location-state="detecting" id="city-card" aria-labelledby="city-card-title">
   <div class="today-heading"><svg class="icon" aria-hidden="true"><use href="#i-pin"/></svg><div><span class="today-eyebrow">ŠEIT UN TAGAD</span><h2 id="city-card-title">Šodien Latvijā</h2></div><span class="today-live"><i></i>Tagad</span></div>
-  <figure class="city-photo"><img id="city-photo" src="{{ default_city.photo.src | default: '/assets/riga-panorama-640.webp' }}"{% if default_city.photo.srcset %} srcset="{{ default_city.photo.srcset }}"{% endif %} sizes="(max-width: 650px) 100vw, 320px" alt="{{ default_city.photo.alt | default: 'Rīgas panorāma pie Daugavas' | escape }}" width="960" height="600" fetchpriority="high"><figcaption><span id="city-photo-caption">Rīga, Latvija</span><a id="city-credit" href="/pilsetas-un-fotografijas/#riga" aria-label="Fotogrāfijas autors un licence"><svg class="icon" aria-hidden="true"><use href="#i-info"/></svg></a></figcaption></figure>
+  <figure class="city-photo is-location-illustration"><img id="city-photo" src="/assets/category-vector/earth.svg" sizes="(max-width: 650px) calc(100vw - 48px), 320px" alt="Zemes ilustrācija" width="960" height="600" fetchpriority="high"><figcaption><span id="city-photo-caption">Nosaka pilsētu…</span><a id="city-credit" href="/pilsetas-un-fotografijas/#category-vectors" aria-label="Ilustrācijas avots"><svg class="icon" aria-hidden="true"><use href="#i-info"/></svg></a></figcaption></figure>
   <div class="today-body">
     <p id="today-date" class="today-date"></p>
     <div class="clock-row">

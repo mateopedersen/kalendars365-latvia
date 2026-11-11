@@ -10,6 +10,9 @@ date: '2026-11-11'
 reading_notes: false
 blog_slug: garais-gads-2028-februaris
 og_image: "/assets/blog/clock-960.webp"
+og_image_width: 960
+og_image_height: 1438
+og_image_alt: Rokā turēts mehānisks modinātājpulkstenis virs darba galda.
 ---
 2028. gada februārī ir 29 dienas. Papildu datums ir neliels, bet pamanāms atgādinājums, ka mūsu kalendārs ir vienošanās par laika uzskaiti, kas jāsaskaņo ar Zemes kustību ap Sauli. Ikdienā šo sarežģīto attiecību gandrīz nejūtam, līdz jāplāno februāra termiņš, dzimšanas diena vai gada salīdzinājums.
 

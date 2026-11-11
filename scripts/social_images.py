@@ -59,7 +59,7 @@ for route in routes:
 home = next(route for route in routes if route['url'] == '/')
 fallbacks = set(target.glob('*.png')) | {target / 'home.png'}
 for output in sorted(fallbacks):
-    route = next((item for item in routes if item['family'] == output.stem), home)
+    route = home  # Neutral legacy fallback: never name a different city, day or year.
     render(route['title'], output, route['url'])
 
 report = {'routeCards': len(routes), 'fallbackCards': len(fallbacks), 'passed': len(results), 'fonts': {path.name: hashlib.sha256(path.read_bytes()).hexdigest() for path in (book, heavy)}, 'checks': ['actual DM Sans input fonts', '1200x630 dimensions', 'full image decode', 'title bounds', 'SHA256'], 'files': results}

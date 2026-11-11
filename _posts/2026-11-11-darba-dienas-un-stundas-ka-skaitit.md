@@ -10,6 +10,9 @@ date: '2026-11-11'
 reading_notes: false
 blog_slug: darba-dienas-un-stundas-ka-skaitit
 og_image: "/assets/blog/calculator-960.webp"
+og_image_width: 960
+og_image_height: 640
+og_image_alt: Zinātniskā kalkulatora ciparu un matemātisko funkciju taustiņu tuvplāns.
 ---
 Darba dienu skaitītājs var ātri parādīt rezultātu, bet rezultāta jēga ir atkarīga no pieņēmumiem. Vai nedēļas nogales ir sestdiena un svētdiena? Vai atskaita Latvijas [svētku brīvdienas](/blogs/latvijas-svetku-dienas-2027-planosana/)? Vai ieskaita sākuma datumu? Bez šīm atbildēm divi atšķirīgi skaitļi var būt pareizi diviem atšķirīgiem uzdevumiem.
 

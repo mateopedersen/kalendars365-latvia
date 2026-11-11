@@ -22,7 +22,7 @@ module BlogComponents
       end
       photo=photos.fetch(brief.fetch('photoKey'))
       post=brief.merge('url'=>"/blogs/#{brief.fetch('slug')}/",'wordCount'=>count,'readingMinutes'=>(count/180.0).ceil,'photo'=>photo,'toc'=>toc,'sources'=>brief.fetch('sourceIds').map{|key|sources.fetch(key)})
-      front={'layout'=>'blog-post','family'=>'blog_article','permalink'=>post['url'],'title'=>post['title'],'description'=>post['description'],'author'=>owner.fetch('name'),'date'=>post['date'],'reading_notes'=>false,'blog_slug'=>post['slug'],'og_image'=>photo['src']}
+      front={'layout'=>'blog-post','family'=>'blog_article','permalink'=>post['url'],'title'=>post['title'],'description'=>post['description'],'author'=>owner.fetch('name'),'date'=>post['date'],'reading_notes'=>false,'blog_slug'=>post['slug'],'og_image'=>photo['src'],'og_image_width'=>photo['width'],'og_image_height'=>photo['height'],'og_image_alt'=>photo['alt']}
       path=File.join(root,"_posts/#{post['date']}-#{post['slug']}.md")
       FileUtils.mkdir_p(File.dirname(path));File.write(path,front.to_yaml+"---\n"+body)
       post
