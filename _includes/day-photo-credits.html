@@ -1,0 +1,14 @@
+<section class="content-card university-photo-credits occasion-photo-credits" id="dienu-fotografijas">
+  <div class="university-photo-heading"><div><span class="eyebrow">KATRAI DIENAI SAVS ATTĒLS</span><h2>Atsevišķu dienu fotoattēli un licences</h2><p>Šie attēli aizstāj vairākās tēmās atkārtotos foto. Katras dienas ievadā un ceļveža kartītē izmantots viens un tas pats attēls. Fotogrāfijas ir arhīva vai tematiski attēli; citās valstīs uzņemti foto nav pasniegti kā Latvijas svētku dokumentācija.</p><p>Vietnē izmantotas samazinātas WebP kopijas un 16:9 kadrējums. Oriģinālā darba autors un licence saglabāti; CC BY-SA pielāgojumiem piemērojama attiecīgā kopīgošanas licence.</p></div></div>
+  <div class="photo-catalog university-photo-catalog occasion-photo-catalog">
+    {% assign catalog = site.data['occasion-photo-overrides'] %}
+    {% for photo in catalog.photos %}
+    {% assign cover = site.data['tradition-covers'][photo.id] %}
+    {% assign usage = site.data['tradition-photo-usage'][photo.id] | first %}
+    <article id="occasion-photo-{{ photo.id }}">
+      <img src="{{ cover.src }}" srcset="{{ cover.srcset }}" sizes="(max-width: 700px) 90vw, (max-width: 1000px) 44vw, 30vw" alt="{{ photo.alt | escape }}" width="{{ cover.width }}" height="{{ cover.height }}" loading="lazy" decoding="async">
+      <div><h3><a href="/svetki-un-tradicijas/{{ photo.slug }}/">{{ usage.title | escape }}</a></h3><p>{{ photo.caption | escape }}</p><p>{{ photo.author | escape }} · <a href="{{ photo.licenseUrl | escape }}" target="_blank" rel="noopener">{{ photo.license | escape }}</a></p><p><a href="{{ photo.sourceUrl | escape }}" target="_blank" rel="noopener">Oriģinālais fails un licences informācija Wikimedia Commons ↗</a> · <a href="{{ cover.src }}">Vietnes kopija</a></p><small>{{ cover.transform | escape }} · avots pārbaudīts 11.11.2026.</small></div>
+    </article>
+    {% endfor %}
+  </div>
+</section>

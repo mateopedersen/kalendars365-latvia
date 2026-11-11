@@ -1,0 +1,187 @@
+{
+  "version": 1,
+  "reviewedAt": "2026-11-11",
+  "photos": [
+    {
+      "slug": "mates-diena",
+      "id": "day-mates-diena",
+      "title": "File:Mother and child smiling.jpg",
+      "alt": "Smaidoša māte ar bērnu gaišā kapucē",
+      "caption": "Māte ar bērnu — tematisks Mātes dienas attēls. Arhīva fotogrāfija.",
+      "author": "20masum",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mother_and_child_smiling.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Mother_and_child_smiling.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "downloadedFrom": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Mother_and_child_smiling.jpg/1280px-Mother_and_child_smiling.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "sourceWidth": 6000,
+      "sourceHeight": 4000,
+      "sourceCopy": "docs/sources/day-photos-2026-11-11/mates-diena.jpg",
+      "sourceSha256": "3601c8244a1e4b9c6cc18b7e6f3879a7201690045a908306cdd7d09c9cdc8fe5",
+      "retrievedAt": "2026-11-11",
+      "visualReview": {
+        "date": "2026-11-11",
+        "evidence": "Smaidoša māte ar bērnu gaišā kapucē",
+        "sourceSha256": "3601c8244a1e4b9c6cc18b7e6f3879a7201690045a908306cdd7d09c9cdc8fe5"
+      },
+      "coverCenter": [
+        0.5,
+        0.12
+      ]
+    },
+    {
+      "slug": "tevu-diena",
+      "id": "day-tevu-diena",
+      "title": "File:Father and child 1.jpg",
+      "alt": "Tēvs nes bērnu sev uz pleciem",
+      "caption": "Tēvs ar bērnu Japānā — tematisks Tēva dienas attēls. Arhīva foto no 1985. gada ceļojuma.",
+      "author": "Marie-Sophie Mejan",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Father_and_child_1.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Father_and_child_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "downloadedFrom": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/Father_and_child_1.jpg/1280px-Father_and_child_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "sourceWidth": 4954,
+      "sourceHeight": 3384,
+      "sourceCopy": "docs/sources/day-photos-2026-11-11/tevu-diena.jpg",
+      "sourceSha256": "53d5c5869590ca993d1c9c819d299f74933de8e2bc7a94f5012b0a91e81f8beb",
+      "retrievedAt": "2026-11-11",
+      "visualReview": {
+        "date": "2026-11-11",
+        "evidence": "Tēvs nes bērnu sev uz pleciem",
+        "sourceSha256": "53d5c5869590ca993d1c9c819d299f74933de8e2bc7a94f5012b0a91e81f8beb"
+      },
+      "coverCenter": [
+        0.5,
+        0.12
+      ]
+    },
+    {
+      "slug": "skolotaju-diena",
+      "id": "day-skolotaju-diena",
+      "title": "File:A public high school teacher in a classroom in the United States 08.jpg",
+      "alt": "Skolotājs kopā ar skolēnu grupu klasē",
+      "caption": "Skolotājs un skolēni ASV vidusskolā — tematisks Skolotāju dienas attēls, nevis Latvijas pasākuma foto.",
+      "author": "Harrison Keely",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:A_public_high_school_teacher_in_a_classroom_in_the_United_States_08.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e6/A_public_high_school_teacher_in_a_classroom_in_the_United_States_08.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "downloadedFrom": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/A_public_high_school_teacher_in_a_classroom_in_the_United_States_08.jpg/1280px-A_public_high_school_teacher_in_a_classroom_in_the_United_States_08.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "sourceWidth": 3993,
+      "sourceHeight": 2995,
+      "sourceCopy": "docs/sources/day-photos-2026-11-11/skolotaju-diena.jpg",
+      "sourceSha256": "f2bcae5390b26b292ba1e9c209b472dbcae0d222cc3262e67e10a3996e02aa2e",
+      "retrievedAt": "2026-11-11",
+      "visualReview": {
+        "date": "2026-11-11",
+        "evidence": "Skolotājs kopā ar skolēnu grupu klasē",
+        "sourceSha256": "f2bcae5390b26b292ba1e9c209b472dbcae0d222cc3262e67e10a3996e02aa2e"
+      },
+      "coverCenter": [
+        0.5,
+        0.12
+      ]
+    },
+    {
+      "slug": "valsts-valodas-diena",
+      "id": "day-valsts-valodas-diena",
+      "title": "File:Latvian dictionaries.jpg",
+      "alt": "Latviešu valodas divvalodu vārdnīcu muguriņas",
+      "caption": "Latviešu valodas vārdnīcas grāmatnīcā Rīgā; tematisks Valsts valodas dienas attēls.",
+      "author": "LA2",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Latvian_dictionaries.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Latvian_dictionaries.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "downloadedFrom": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Latvian_dictionaries.jpg/1280px-Latvian_dictionaries.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "sourceWidth": 3264,
+      "sourceHeight": 2448,
+      "sourceCopy": "docs/sources/day-photos-2026-11-11/valsts-valodas-diena.jpg",
+      "sourceSha256": "db9eeb9d173c1392ebda6200aae3c3e5bb901554382c6726b50d77837e28464f",
+      "retrievedAt": "2026-11-11",
+      "visualReview": {
+        "date": "2026-11-11",
+        "evidence": "Latviešu valodas divvalodu vārdnīcu muguriņas",
+        "sourceSha256": "db9eeb9d173c1392ebda6200aae3c3e5bb901554382c6726b50d77837e28464f"
+      }
+    },
+    {
+      "slug": "vasaras-saulgriezi",
+      "id": "day-vasaras-saulgriezi",
+      "title": "File:June 2013. Beautiful Latvia - panoramio (1).jpg",
+      "alt": "Saulrieta krāsas virs ūdens un koku siluetiem Latvijā",
+      "caption": "Saulriets Latvijā 2013. gada jūnijā. Vasaras tematisks attēls, nevis astronomiskā saulgriežu brīža novērojums.",
+      "author": "Ainars Brūvelis",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:June_2013._Beautiful_Latvia_-_panoramio_(1).jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3e/June_2013._Beautiful_Latvia_-_panoramio_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "downloadedFrom": "https://upload.wikimedia.org/wikipedia/commons/3/3e/June_2013._Beautiful_Latvia_-_panoramio_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "sourceWidth": 1200,
+      "sourceHeight": 900,
+      "sourceCopy": "docs/sources/day-photos-2026-11-11/vasaras-saulgriezi.jpg",
+      "sourceSha256": "d28c900c9c36612948d30263f6543716e2bd6e7823001604d0ed369bd3cb168c",
+      "retrievedAt": "2026-11-11",
+      "visualReview": {
+        "date": "2026-11-11",
+        "evidence": "Saulrieta krāsas virs ūdens un koku siluetiem Latvijā",
+        "sourceSha256": "d28c900c9c36612948d30263f6543716e2bd6e7823001604d0ed369bd3cb168c"
+      }
+    },
+    {
+      "slug": "latvijas-republikas-okupacijas-diena",
+      "id": "day-latvijas-republikas-okupacijas-diena",
+      "title": "File:2017-07-29-Corner house in Riga-JonasR.jpg",
+      "alt": "Stūra mājas gaišā stūra fasāde Rīgā",
+      "caption": "Stūra māja Rīgā, bijusī padomju drošības dienesta ēka. 2017. gada arhīva foto okupācijas vēstures tēmai.",
+      "author": "Jonas Rogowski",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:2017-07-29-Corner_house_in_Riga-JonasR.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bb/2017-07-29-Corner_house_in_Riga-JonasR.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "downloadedFrom": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/2017-07-29-Corner_house_in_Riga-JonasR.jpg/1280px-2017-07-29-Corner_house_in_Riga-JonasR.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "sourceWidth": 4250,
+      "sourceHeight": 2821,
+      "sourceCopy": "docs/sources/day-photos-2026-11-11/latvijas-republikas-okupacijas-diena.jpg",
+      "sourceSha256": "62f3be2d42159ab8ec7e76eb619d903c1c5678d2b15b1c4e3e0dc0923fe54015",
+      "retrievedAt": "2026-11-11",
+      "visualReview": {
+        "date": "2026-11-11",
+        "evidence": "Stūra mājas gaišā stūra fasāde Rīgā",
+        "sourceSha256": "62f3be2d42159ab8ec7e76eb619d903c1c5678d2b15b1c4e3e0dc0923fe54015"
+      },
+      "coverCenter": [
+        0.5,
+        0.12
+      ]
+    },
+    {
+      "slug": "vecgada-diena",
+      "id": "day-vecgada-diena",
+      "title": "File:Champagne pouring.jpg",
+      "alt": "Šampanieša liešana glāzēs pie svētku galda",
+      "caption": "Svētku dzēriena liešana glāzēs — tematisks Vecgada vakara attēls, nevis konkrēta Latvijas pasākuma dokumentācija.",
+      "author": "L.C. Nøttaasen",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Champagne_pouring.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Champagne_pouring.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "downloadedFrom": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Champagne_pouring.jpg/1280px-Champagne_pouring.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "sourceWidth": 4288,
+      "sourceHeight": 2848,
+      "sourceCopy": "docs/sources/day-photos-2026-11-11/vecgada-diena.jpg",
+      "sourceSha256": "51adab61a84262939598a47328efd8df669e20bf9f34e0e68acc80d039410407",
+      "retrievedAt": "2026-11-11",
+      "visualReview": {
+        "date": "2026-11-11",
+        "evidence": "Šampanieša liešana glāzēs pie svētku galda",
+        "sourceSha256": "51adab61a84262939598a47328efd8df669e20bf9f34e0e68acc80d039410407"
+      },
+      "coverCenter": [
+        0.5,
+        0.5
+      ]
+    }
+  ]
+}

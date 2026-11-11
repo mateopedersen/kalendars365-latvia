@@ -9,10 +9,10 @@ author: Silvis Balodis
 date: '2026-11-11'
 reading_notes: false
 blog_slug: saullekts-saulriets-latvijas-pilsetas
-og_image: "/assets/blog/riga-960.webp"
-og_image_width: 960
-og_image_height: 623
-og_image_alt: Rīgas vecpilsētas jumti un Daugava, skats no Svētā Pētera baznīcas
+og_image: "/assets/social-cards/v2/3a74caefebb96732-a9bab30bb74f.jpg"
+og_image_width: 1200
+og_image_height: 630
+og_image_alt: Kāpēc saullēkts Rīgā un Liepājā nav vienā laikā | Kalendārs365 Latvijai
 ---
 Visā Latvijā pulkstenis rāda vienas laika joslas laiku, tomēr Saule dažādās pilsētās nelec un neriet vienā minūtē. Rīga, Liepāja un Daugavpils atrodas dažādās koordinātās, tāpēc vienam datumam aprēķinātie notikumu laiki atšķiras. Tā ir normāla ģeogrāfiska atšķirība, nevis kļūda pulkstenī vai laika joslas izvēlē.
 

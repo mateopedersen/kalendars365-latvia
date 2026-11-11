@@ -26,7 +26,7 @@ if(typeof window==='object'&&typeof document==='object')(()=>{'use strict';
   root.querySelectorAll('.calendar-collection-sidebar a,.collection-period-nav a').forEach(link=>{const url=new URL(link.href);if(url.pathname.startsWith('/meness-kalendars/')){url.searchParams.set('city',selected);link.href=url.href;}});
  }
  carryLunarCity();root.querySelector('[data-lunar-city]')?.addEventListener('change',carryLunarCity);
- const calendar=root.querySelector('.collection-calendar-app');if(!calendar)return;
+ const calendar=root.querySelector('.collection-calendar-app'),calendarTitle=calendar?.querySelector('#calendar-title');if(!calendarTitle)return;
  let navigating=false;
  function updatePeriod(){
   const state=window.K365?.getState();if(!state||navigating)return;
@@ -38,5 +38,5 @@ if(typeof window==='object'&&typeof document==='object')(()=>{'use strict';
  }
  calendar.querySelectorAll('[data-action="prev"],[data-action="next"]').forEach(button=>button.addEventListener('click',event=>{const state=window.K365?.getState();if(state&&!api.step(state.shown,state.view,button.dataset.action==='prev'?-1:1)){event.preventDefault();event.stopPropagation();}}));
  calendar.querySelector('[data-action="today"]').addEventListener('click',event=>{event.preventDefault();event.stopPropagation();const today=window.K365?.rigaNow?.()||new Intl.DateTimeFormat('en-CA',{timeZone:'Europe/Riga',year:'numeric',month:'2-digit',day:'2-digit'}).format(new Date());const target=api.path('kalendars',Number(today.slice(0,4)),Number(today.slice(5,7)))||'/';location.assign(target+'?date='+encodeURIComponent(today)+'&view=month#calendar-app');});
- new MutationObserver(updatePeriod).observe(calendar.querySelector('#calendar-title'),{childList:true,subtree:true});updatePeriod();
+ new MutationObserver(updatePeriod).observe(calendarTitle,{childList:true,subtree:true});updatePeriod();
 })();

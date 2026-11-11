@@ -1,0 +1,218 @@
+[
+  {
+    "url": "/menesa-kalendars/",
+    "title": "Mēneša kalendārs",
+    "description": "Pārskati mēneša datumus, Latvijas svētku dienas un savus notikumus. Pievieno piezīmes izvēlētajai dienai.",
+    "image": "calendar",
+    "kind": "calendar",
+    "art": "month",
+    "artDescription": "Galda kalendārs ar metāla spirālēm un dienu režģi"
+  },
+  {
+    "url": "/nedelas-kalendars/",
+    "title": "Nedēļas kalendārs",
+    "description": "Saplāno nedēļu un pārskati katras dienas darāmo. Izvēlies sev piemērotu noformējumu un saglabā plānu drukāšanai.",
+    "image": "week",
+    "kind": "calendar",
+    "art": "week",
+    "artDescription": "Septiņu dienu plāns ar atsevišķām pierakstu slejām"
+  },
+  {
+    "url": "/kalendars/",
+    "title": "Gada kalendāri",
+    "description": "Salīdzini mēnešus, svētku datumus un ISO nedēļu numurus. Pieejami kalendāri 2027., 2028., 2029. un 2030. gadam.",
+    "image": "planner",
+    "kind": "calendar",
+    "art": "year",
+    "artDescription": "Gada kalendārs ar vairāku mēnešu pārskatu"
+  },
+  {
+    "url": "/izveidot-kalendaru/",
+    "title": "Izveido savu kalendāru",
+    "description": "Izveido kalendāru ar savām fotogrāfijām, krāsām un svarīgiem datumiem. Pārbaudi izkārtojumu priekšskatījumā un saglabā drukai.",
+    "image": "calendar",
+    "kind": "personal",
+    "art": "maker",
+    "artDescription": "Kalendāra lapa ar ainavas zīmējumu un zīmuli"
+  },
+  {
+    "url": "/gimenes-kalendars/",
+    "title": "Ģimenes kalendārs",
+    "description": "Pārskati ģimenes notikumus, saplāno maltītes un veido pirkumu sarakstu. Katram ģimenes loceklim vari piešķirt savu krāsu.",
+    "image": "family",
+    "kind": "personal",
+    "art": "family",
+    "artDescription": "Kopīgs ģimenes plāns ar trim krāsu slejām"
+  },
+  {
+    "url": "/atvalinajuma-planotajs/",
+    "title": "Atvaļinājuma plānotājs",
+    "description": "Salīdzini atpūtas periodus un aprēķini vajadzīgās atvaļinājuma dienas. Pielāgo darba grafiku un savu dienu budžetu.",
+    "image": "vacation",
+    "kind": "work",
+    "art": "vacation",
+    "artDescription": "Ceļojumu koferis ar reljefu virsmu un bagāžas birku"
+  },
+  {
+    "url": "/mainu-grafiks/",
+    "title": "Maiņu grafiks",
+    "description": "Izveido dienas un nakts maiņu ciklu ar brīvajām dienām. Pielāgo atsevišķus datumus un saglabā savu grafiku drukai.",
+    "image": "shift",
+    "kind": "work",
+    "art": "shift",
+    "artDescription": "Metāla pulkstenis ar nakts maiņas simbolu"
+  },
+  {
+    "url": "/darba-dienu-kalendars/",
+    "title": "Darba dienu kalendārs",
+    "description": "Saskaiti darba dienas un stundas izvēlētajā periodā. Aprēķinā ņem vērā Latvijas svētku brīvdienas un savu darba grafiku.",
+    "image": "calculator",
+    "kind": "work",
+    "art": "work",
+    "artDescription": "Darba stundu kalkulators kopā ar nedēļas plānu"
+  },
+  {
+    "url": "/datumu-kalkulators/",
+    "title": "Datumu kalkulators",
+    "description": "Noskaidro dienu skaitu starp diviem datumiem vai pieskaiti dienas sākuma datumam. Pārbaudi vajadzīgo termiņu vienā vietā.",
+    "image": "calculator",
+    "kind": "work",
+    "art": "calculator",
+    "artDescription": "Kalkulators ar taustiņiem un datumu saskaitīšanas piemēru"
+  },
+  {
+    "url": "/dienu-skaititajs/",
+    "title": "Dienu skaitītājs",
+    "description": "Uzzini, cik dienu atlicis līdz ceļojumam, svētkiem vai citam notikumam. Izvēlies datumu un piešķir atskaitei savu nosaukumu.",
+    "image": "shift",
+    "kind": "personal",
+    "art": "countdown",
+    "artDescription": "Smilšu pulkstenis stikla un metāla ietvarā"
+  },
+  {
+    "url": "/varda-dienas/",
+    "title": "Vārda dienas",
+    "description": "Atrodi vārda dienu pēc vārda vai datuma. Salīdzini tradicionālā un paplašinātā Valsts valodas centra saraksta ierakstus.",
+    "image": "names",
+    "kind": "personal",
+    "art": "names",
+    "artDescription": "Ziedu pušķis apsveikuma aploksnē"
+  },
+  {
+    "url": "/svetki-un-tradicijas/",
+    "title": "Svētki un tradīcijas",
+    "description": "Iepazīsti Latvijas svētku un gadskārtu nozīmi. Atrodi datumus, tradīciju aprakstus un avotus, kas palīdz saprast katru dienu.",
+    "image": "holiday",
+    "kind": "calendar",
+    "art": "traditions",
+    "artDescription": "Lapu vainags ar karmīna un zelta lentēm"
+  },
+  {
+    "url": "/svetku-dienas/",
+    "title": "Svētku brīvdienas",
+    "description": "Pārskati Latvijas svētku brīvdienas un to vietu gada kalendārā. Atšķir brīvās dienas no atceres un citām atzīmējamām dienām.",
+    "image": "latvia-days",
+    "kind": "calendar",
+    "art": "holidays",
+    "artDescription": "Latvijas karogs ar auduma kroku zīmējumu"
+  },
+  {
+    "url": "/skolas-brivlaiki/",
+    "title": "Skolas brīvlaiki",
+    "description": "Pārbaudi skolu brīvlaikus un atrodi augstskolu publicētos studiju periodus. Pie datumiem norādīti avoti un publicēšanas statuss.",
+    "image": "school",
+    "kind": "school",
+    "art": "school",
+    "artDescription": "Mugursoma ar grāmatu un metāla rāvējslēdzēju"
+  },
+  {
+    "url": "/stundu-saraksts/",
+    "title": "Stundu saraksts",
+    "description": "Saliec vienā plānā mācību stundas, telpas un skolotājus. Pievieno mājasdarbus, pārbaudi laiku pārklāšanos un sagatavo izdruku.",
+    "image": "timetable",
+    "kind": "school",
+    "art": "timetable",
+    "artDescription": "Stundu saraksts ar krāsainām priekšmetu rindām"
+  },
+  {
+    "url": "/studiju-kalendars/",
+    "title": "Studiju kalendārs",
+    "description": "Atrodi augstskolas publicētos semestru un eksāmenu periodus. Atver oriģinālo avotu, lai pārbaudītu savas studiju programmas grafiku.",
+    "image": "school",
+    "kind": "school",
+    "art": "study",
+    "artDescription": "Atvērta grāmata un absolventa cepure"
+  },
+  {
+    "url": "/saullekts-saulriets/",
+    "title": "Saullēkts un saulriets",
+    "description": "Izvēlies Latvijas pilsētu un datumu, lai apskatītu saullēktu, saulrietu un dienas garumu. Salīdzini gaismas stundas dažādos mēnešos.",
+    "image": "sunrise",
+    "kind": "nature",
+    "art": "sunrise",
+    "artDescription": "Saule virs ūdens ar gaismas atspīdumu"
+  },
+  {
+    "url": "/meness-kalendars/",
+    "title": "Mēness kalendārs",
+    "description": "Apskati katras dienas aprēķināto Mēness apgaismojumu. Atver vajadzīgo mēnesi un izvēlies Mēness kalendāru drukāšanai.",
+    "image": "moon",
+    "kind": "nature",
+    "art": "moon",
+    "artDescription": "Mēness disks ar krāteriem un apgaismojuma gradientu"
+  },
+  {
+    "url": "/meness-fazes/",
+    "title": "Mēness fāzes",
+    "description": "Atrodi jaunmēness, pilnmēness un ceturkšņu precīzos brīžus Latvijas laikā. Atlasītos fāžu datumus vari saglabāt savā kalendārā.",
+    "image": "phases",
+    "kind": "nature",
+    "art": "phases",
+    "artDescription": "Trīs atšķirīgi apgaismoti Mēness diski"
+  },
+  {
+    "url": "/gadalaiki/",
+    "title": "Gadalaiki",
+    "description": "Noskaidro ekvinokciju un saulgriežu laikus. Salīdzini astronomisko gadalaiku sākumus ar kalendāro iedalījumu un Latvijas temperatūras gadalaikiem.",
+    "image": "seasons",
+    "kind": "nature",
+    "art": "seasons",
+    "artDescription": "Koks ar četru gadalaiku lapotnes toņiem"
+  },
+  {
+    "url": "/astronomiskais-kalendars/",
+    "title": "Astronomiskais kalendārs",
+    "description": "Pārskati Mēness fāzes, aptumsumus un citus debess notikumus. Izvēlies pilsētu un pārbaudi, kuri notikumi tajā ir redzami.",
+    "image": "astronomy",
+    "kind": "nature",
+    "art": "astronomy",
+    "artDescription": "Zeme ar kontinentu un mākoņu zīmējumu, līdzās Mēness"
+  },
+  {
+    "url": "/sejas-kalendars/",
+    "title": "Sējas un stādīšanas kalendārs",
+    "description": "Atrodi sēšanas un stādīšanas ieteikumus Latvijas apstākļiem. Izvēlies mēnesi vai augu un pārskati veicamos dārza darbus.",
+    "image": "garden",
+    "kind": "nature",
+    "art": "garden",
+    "artDescription": "Stāds podā ar lapu dzīslām un auga birku"
+  },
+  {
+    "url": "/pdf-kalendari/",
+    "title": "Kalendāri drukai",
+    "description": "Izvēlies gada vai mēneša kalendāra noformējumu. Lejupielādē PDF vai augstas izšķirtspējas attēlu un sagatavo to drukāšanai.",
+    "image": "planner",
+    "kind": "calendar",
+    "art": "print",
+    "artDescription": "Printeris ar kalendāra lapu"
+  },
+  {
+    "url": "/horoskops/",
+    "title": "Dienas horoskops",
+    "description": "Izvēlies savu zodiaka zīmi un izlasi tās dienas horoskopu. Apraksti paredzēti izklaidei un personīgām pārdomām.",
+    "image": "zodiac",
+    "kind": "personal",
+    "art": "horoscope",
+    "artDescription": "Zvaigžņu kompasa disks metāliskā ietvarā"
+  }
+]

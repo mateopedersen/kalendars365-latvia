@@ -1,0 +1,2951 @@
+{
+  "tradition-valentina-diena": {
+    "src": "/assets/tradition-covers/tradition-valentina-diena-7ac002846784-640.webp",
+    "width": 640,
+    "height": 360,
+    "bytes": 47408,
+    "sha256": "7ac002846784c11ab5ae176d838d4a7cfcb9db75c5d1370bfe2b19611d04ac46",
+    "quality": 80,
+    "srcset": "/assets/tradition-covers/tradition-valentina-diena-37bee9d246f2-320.webp 320w, /assets/tradition-covers/tradition-valentina-diena-7ac002846784-640.webp 640w, /assets/tradition-covers/tradition-valentina-diena-4e4d5aecc52c-960.webp 960w, /assets/tradition-covers/tradition-valentina-diena-36c7cbb4c58a-1280.webp 1280w",
+    "files": [
+      {
+        "src": "/assets/tradition-covers/tradition-valentina-diena-37bee9d246f2-320.webp",
+        "width": 320,
+        "height": 180,
+        "bytes": 14728,
+        "sha256": "37bee9d246f2fd2ec5b951711fd349fae21f8efe29ce03433d8633ebff40b0f6",
+        "quality": 80
+      },
+      {
+        "src": "/assets/tradition-covers/tradition-valentina-diena-7ac002846784-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 47408,
+        "sha256": "7ac002846784c11ab5ae176d838d4a7cfcb9db75c5d1370bfe2b19611d04ac46",
+        "quality": 80
+      },
+      {
+        "src": "/assets/tradition-covers/tradition-valentina-diena-4e4d5aecc52c-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 92070,
+        "sha256": "4e4d5aecc52cd747ed9854f89c05f96c1facb68bf3f7f8a9fbd648b01d49aa1b",
+        "quality": 80
+      },
+      {
+        "src": "/assets/tradition-covers/tradition-valentina-diena-36c7cbb4c58a-1280.webp",
+        "width": 1280,
+        "height": 720,
+        "bytes": 150792,
+        "sha256": "36c7cbb4c58a83a06fa7dea474d174985e28e6ba0cdd06ec7f550094136cdfef",
+        "quality": 80
+      }
+    ],
+    "sourceSha256": "de741410b97e91ed53a5367020763e40fc0e204cac47369cf5260c9dc7abe04b",
+    "transform": "16:9 kadrējums; samazināts WebP attēls"
+  },
+  "tradition-martindiena": {
+    "src": "/assets/tradition-covers/tradition-martindiena-c02435aa3ceb-640.webp",
+    "width": 640,
+    "height": 360,
+    "bytes": 33126,
+    "sha256": "c02435aa3ceb43961d7f2ed0e33c51bf622c666e009d99733d4f5878dd636dea",
+    "quality": 80,
+    "srcset": "/assets/tradition-covers/tradition-martindiena-ad9de4832d16-320.webp 320w, /assets/tradition-covers/tradition-martindiena-c02435aa3ceb-640.webp 640w, /assets/tradition-covers/tradition-martindiena-c8f48f2c0c1a-960.webp 960w, /assets/tradition-covers/tradition-martindiena-0adf4a85cf4d-1007.webp 1007w",
+    "files": [
+      {
+        "src": "/assets/tradition-covers/tradition-martindiena-ad9de4832d16-320.webp",
+        "width": 320,
+        "height": 180,
+        "bytes": 9902,
+        "sha256": "ad9de4832d1665f0edab628245d8bd9c971eb992937294bcaf426ec24048ed8c",
+        "quality": 80
+      },
+      {
+        "src": "/assets/tradition-covers/tradition-martindiena-c02435aa3ceb-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 33126,
+        "sha256": "c02435aa3ceb43961d7f2ed0e33c51bf622c666e009d99733d4f5878dd636dea",
+        "quality": 80
+      },
+      {
+        "src": "/assets/tradition-covers/tradition-martindiena-c8f48f2c0c1a-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 72516,
+        "sha256": "c8f48f2c0c1a25d08ba09a99187c960a55ec3948cb7f66d488e888c63a789336",
+        "quality": 80
+      },
+      {
+        "src": "/assets/tradition-covers/tradition-martindiena-0adf4a85cf4d-1007.webp",
+        "width": 1007,
+        "height": 566,
+        "bytes": 83400,
+        "sha256": "0adf4a85cf4d551db0e8cd05ef93fe02b8c6584855d001410484ad612150a7e0",
+        "quality": 80
+      }
+    ],
+    "sourceSha256": "083c5b0318e34419f2cf830cff822beb76fb5d83efe1ade2a9734d042f8c8e54",
+    "transform": "16:9 kadrējums; samazināts WebP attēls"
+  },
+  "tradition-mikeli": {
+    "src": "/assets/tradition-covers/tradition-mikeli-b0c710f1d552-640.webp",
+    "width": 640,
+    "height": 360,
+    "bytes": 70812,
+    "sha256": "b0c710f1d552b0a03138a886f0be7b431c76cf64a61ab5c17556125516e141ed",
+    "quality": 80,
+    "srcset": "/assets/tradition-covers/tradition-mikeli-4ad01bad4c4c-320.webp 320w, /assets/tradition-covers/tradition-mikeli-b0c710f1d552-640.webp 640w, /assets/tradition-covers/tradition-mikeli-87fdc14c8ee8-960.webp 960w, /assets/tradition-covers/tradition-mikeli-e441fdcbdd01-1280.webp 1280w",
+    "files": [
+      {
+        "src": "/assets/tradition-covers/tradition-mikeli-4ad01bad4c4c-320.webp",
+        "width": 320,
+        "height": 180,
+        "bytes": 17564,
+        "sha256": "4ad01bad4c4cec9fc4cff8c5fc91eda16aa09ff8bb9821792437bbf11a49f77c",
+        "quality": 80
+      },
+      {
+        "src": "/assets/tradition-covers/tradition-mikeli-b0c710f1d552-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 70812,
+        "sha256": "b0c710f1d552b0a03138a886f0be7b431c76cf64a61ab5c17556125516e141ed",
+        "quality": 80
+      },
+      {
+        "src": "/assets/tradition-covers/tradition-mikeli-87fdc14c8ee8-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 159606,
+        "sha256": "87fdc14c8ee8181a147f56ad515ad054059a05117baa84e81fccc9afb0389cb4",
+        "quality": 80
+      },
+      {
+        "src": "/assets/tradition-covers/tradition-mikeli-e441fdcbdd01-1280.webp",
+        "width": 1280,
+        "height": 720,
+        "bytes": 228112,
+        "sha256": "e441fdcbdd01efccf94609d55a5d061dad683255f980ca9b49719388d55911f7",
+        "quality": 72
+      }
+    ],
+    "sourceSha256": "5f3b42733c36c49743771e24f92962f8d0b0bf3ec0313a91497aaf87731c1973",
+    "transform": "16:9 kadrējums; samazināts WebP attēls"
+  },
+  "tradition-meteni": {
+    "src": "/assets/tradition-covers/tradition-meteni-b09bf49acb18-640.webp",
+    "width": 640,
+    "height": 360,
+    "bytes": 63512,
+    "sha256": "b09bf49acb182f927ea0d763497ade7613c03adb48a46580b6442c54f4181929",
+    "quality": 80,
+    "srcset": "/assets/tradition-covers/tradition-meteni-578f29396542-320.webp 320w, /assets/tradition-covers/tradition-meteni-b09bf49acb18-640.webp 640w, /assets/tradition-covers/tradition-meteni-d28b2ea70566-960.webp 960w, /assets/tradition-covers/tradition-meteni-dd988af5ac7f-1280.webp 1280w",
+    "files": [
+      {
+        "src": "/assets/tradition-covers/tradition-meteni-578f29396542-320.webp",
+        "width": 320,
+        "height": 180,
+        "bytes": 15966,
+        "sha256": "578f293965422155ba25e6d4acddd6524cad3712f157e04dc5ef11509567c039",
+        "quality": 80
+      },
+      {
+        "src": "/assets/tradition-covers/tradition-meteni-b09bf49acb18-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 63512,
+        "sha256": "b09bf49acb182f927ea0d763497ade7613c03adb48a46580b6442c54f4181929",
+        "quality": 80
+      },
+      {
+        "src": "/assets/tradition-covers/tradition-meteni-d28b2ea70566-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 144272,
+        "sha256": "d28b2ea7056642520f0400e07af3a0cafb726651fdde62e97bef90493b1e3cbd",
+        "quality": 80
+      },
+      {
+        "src": "/assets/tradition-covers/tradition-meteni-dd988af5ac7f-1280.webp",
+        "width": 1280,
+        "height": 720,
+        "bytes": 218346,
+        "sha256": "dd988af5ac7f10a99d691e1e086ec586b16556194e0fea296383759d2caa82fa",
+        "quality": 72
+      }
+    ],
+    "sourceSha256": "6223eeb8cb126f3a3cb006bbee0b73e8503f053c96e611435aad3eaa80061bf6",
+    "transform": "16:9 kadrējums; samazināts WebP attēls"
+  },
+  "tradition-advente": {
+    "src": "/assets/tradition-covers/tradition-advente-835e3991e044-640.webp",
+    "width": 640,
+    "height": 360,
+    "bytes": 45684,
+    "sha256": "835e3991e044b7cf05b0513ea6a81b97c3749f0c649178f829a47d9d0ac6faaf",
+    "quality": 80,
+    "srcset": "/assets/tradition-covers/tradition-advente-141bad8facca-320.webp 320w, /assets/tradition-covers/tradition-advente-835e3991e044-640.webp 640w, /assets/tradition-covers/tradition-advente-bb9ab74f500f-960.webp 960w, /assets/tradition-covers/tradition-advente-734de418845b-1280.webp 1280w",
+    "files": [
+      {
+        "src": "/assets/tradition-covers/tradition-advente-141bad8facca-320.webp",
+        "width": 320,
+        "height": 180,
+        "bytes": 12524,
+        "sha256": "141bad8facca5d6953b99c547b0dcbf15c176798db242e2553bea861a802f6b7",
+        "quality": 80
+      },
+      {
+        "src": "/assets/tradition-covers/tradition-advente-835e3991e044-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 45684,
+        "sha256": "835e3991e044b7cf05b0513ea6a81b97c3749f0c649178f829a47d9d0ac6faaf",
+        "quality": 80
+      },
+      {
+        "src": "/assets/tradition-covers/tradition-advente-bb9ab74f500f-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 100352,
+        "sha256": "bb9ab74f500fa9d6f7dc4653af57f2931ca475f4c0f29d123a952c45a34464e0",
+        "quality": 80
+      },
+      {
+        "src": "/assets/tradition-covers/tradition-advente-734de418845b-1280.webp",
+        "width": 1280,
+        "height": 720,
+        "bytes": 175920,
+        "sha256": "734de418845b0f386e242f1325e019c84e6073a256344df843bfd50dcd59eeba",
+        "quality": 80
+      }
+    ],
+    "sourceSha256": "e412019c272075f98eb57370ceef92b1398423823c132f9e6b24c56c76ae53bd",
+    "transform": "16:9 kadrējums; samazināts WebP attēls"
+  },
+  "tradition-pupolu-svetdiena": {
+    "src": "/assets/tradition-covers/tradition-pupolu-svetdiena-9a0aa8c5a152-640.webp",
+    "width": 640,
+    "height": 360,
+    "bytes": 17870,
+    "sha256": "9a0aa8c5a152b20008a21c246e40cd85a937f9b79e898022d01dfc0382a55bc0",
+    "quality": 80,
+    "srcset": "/assets/tradition-covers/tradition-pupolu-svetdiena-fc2fdbc50e30-320.webp 320w, /assets/tradition-covers/tradition-pupolu-svetdiena-9a0aa8c5a152-640.webp 640w, /assets/tradition-covers/tradition-pupolu-svetdiena-9a23817b405b-960.webp 960w, /assets/tradition-covers/tradition-pupolu-svetdiena-66f097b08663-1280.webp 1280w",
+    "files": [
+      {
+        "src": "/assets/tradition-covers/tradition-pupolu-svetdiena-fc2fdbc50e30-320.webp",
+        "width": 320,
+        "height": 180,
+        "bytes": 4356,
+        "sha256": "fc2fdbc50e30e654ec5426805bc77aef7c91319a25ecee141ceb90f942412af5",
+        "quality": 80
+      },
+      {
+        "src": "/assets/tradition-covers/tradition-pupolu-svetdiena-9a0aa8c5a152-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 17870,
+        "sha256": "9a0aa8c5a152b20008a21c246e40cd85a937f9b79e898022d01dfc0382a55bc0",
+        "quality": 80
+      },
+      {
+        "src": "/assets/tradition-covers/tradition-pupolu-svetdiena-9a23817b405b-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 43730,
+        "sha256": "9a23817b405b093c1551ae933c8a2c7b6ee2740b788c140b4c18cf16cfbcc598",
+        "quality": 80
+      },
+      {
+        "src": "/assets/tradition-covers/tradition-pupolu-svetdiena-66f097b08663-1280.webp",
+        "width": 1280,
+        "height": 720,
+        "bytes": 78962,
+        "sha256": "66f097b086634dff47261271cf27cb633614a942e26497ea2bd00b8d48eec540",
+        "quality": 80
+      }
+    ],
+    "sourceSha256": "a03b774ce2eb2cd34cd7e255975f3966c11ea2e01a98ef683f15cb9dfa64cd44",
+    "transform": "16:9 kadrējums; samazināts WebP attēls"
+  },
+  "tradition-zvaigznes-diena": {
+    "src": "/assets/tradition-covers/tradition-zvaigznes-diena-5958437231b6-640.webp",
+    "width": 640,
+    "height": 360,
+    "bytes": 39214,
+    "sha256": "5958437231b62a73542b2865a2674dce971f8ebfd49b2b6eebe0596a7283e888",
+    "quality": 80,
+    "srcset": "/assets/tradition-covers/tradition-zvaigznes-diena-f8421171e063-320.webp 320w, /assets/tradition-covers/tradition-zvaigznes-diena-5958437231b6-640.webp 640w, /assets/tradition-covers/tradition-zvaigznes-diena-20142e55a032-960.webp 960w, /assets/tradition-covers/tradition-zvaigznes-diena-cf6fefc48497-1280.webp 1280w",
+    "files": [
+      {
+        "src": "/assets/tradition-covers/tradition-zvaigznes-diena-f8421171e063-320.webp",
+        "width": 320,
+        "height": 180,
+        "bytes": 11966,
+        "sha256": "f8421171e0630038ab7f9a92954528c8c9c5b3d8d25439028c245d1319662b5e",
+        "quality": 80
+      },
+      {
+        "src": "/assets/tradition-covers/tradition-zvaigznes-diena-5958437231b6-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 39214,
+        "sha256": "5958437231b62a73542b2865a2674dce971f8ebfd49b2b6eebe0596a7283e888",
+        "quality": 80
+      },
+      {
+        "src": "/assets/tradition-covers/tradition-zvaigznes-diena-20142e55a032-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 83166,
+        "sha256": "20142e55a0329cbbdb15be1216958e95a99cde8779a0241c2133095fbecf3630",
+        "quality": 80
+      },
+      {
+        "src": "/assets/tradition-covers/tradition-zvaigznes-diena-cf6fefc48497-1280.webp",
+        "width": 1280,
+        "height": 720,
+        "bytes": 139292,
+        "sha256": "cf6fefc48497c688b9a759c8a087d23d590ed895d466a52e63f200aacb197741",
+        "quality": 80
+      }
+    ],
+    "sourceSha256": "3c609d7cc0dc52a744dca1bb7e7b1911a76441b982b05ad968d2944d8c84971b",
+    "transform": "16:9 kadrējums; samazināts WebP attēls"
+  },
+  "tradition-jaunavas-marijas-debesbrauksanas-svetki": {
+    "src": "/assets/tradition-covers/tradition-jaunavas-marijas-debesbrauksanas-svetki-9c577bfe0705-640.webp",
+    "width": 640,
+    "height": 360,
+    "bytes": 25850,
+    "sha256": "9c577bfe0705b0b7823038a56df3d93a3ca4ab205e4456d5f3a10b8d8c46fc32",
+    "quality": 80,
+    "srcset": "/assets/tradition-covers/tradition-jaunavas-marijas-debesbrauksanas-svetki-d641c5d5b28e-320.webp 320w, /assets/tradition-covers/tradition-jaunavas-marijas-debesbrauksanas-svetki-9c577bfe0705-640.webp 640w, /assets/tradition-covers/tradition-jaunavas-marijas-debesbrauksanas-svetki-53d9a1b0867f-960.webp 960w, /assets/tradition-covers/tradition-jaunavas-marijas-debesbrauksanas-svetki-6cd392d79ebb-1280.webp 1280w",
+    "files": [
+      {
+        "src": "/assets/tradition-covers/tradition-jaunavas-marijas-debesbrauksanas-svetki-d641c5d5b28e-320.webp",
+        "width": 320,
+        "height": 180,
+        "bytes": 8468,
+        "sha256": "d641c5d5b28e4f92d53376e3df0487210e2d1a243efffe02ccdf32037cff8a4b",
+        "quality": 80
+      },
+      {
+        "src": "/assets/tradition-covers/tradition-jaunavas-marijas-debesbrauksanas-svetki-9c577bfe0705-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 25850,
+        "sha256": "9c577bfe0705b0b7823038a56df3d93a3ca4ab205e4456d5f3a10b8d8c46fc32",
+        "quality": 80
+      },
+      {
+        "src": "/assets/tradition-covers/tradition-jaunavas-marijas-debesbrauksanas-svetki-53d9a1b0867f-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 52242,
+        "sha256": "53d9a1b0867fcffc7009378c2b73782bfb006a1a0ecc36e31c56099baefcd6ab",
+        "quality": 80
+      },
+      {
+        "src": "/assets/tradition-covers/tradition-jaunavas-marijas-debesbrauksanas-svetki-6cd392d79ebb-1280.webp",
+        "width": 1280,
+        "height": 720,
+        "bytes": 87532,
+        "sha256": "6cd392d79ebbaf3e5bedad0e942dad4b64c66c70db387be2ed1693d3a9b1df8b",
+        "quality": 80
+      }
+    ],
+    "sourceSha256": "894f70124135d98212052f6f80706fd564082e52f1590d1082bf97cfeaeb8bb8",
+    "transform": "16:9 kadrējums; samazināts WebP attēls"
+  },
+  "tradition-miruso-pieminas-diena": {
+    "src": "/assets/tradition-covers/tradition-miruso-pieminas-diena-2244ca867eac-640.webp",
+    "width": 640,
+    "height": 360,
+    "bytes": 38916,
+    "sha256": "2244ca867eac1003a01e3deb8bc5aad5a2ae5790bd0c6eae8c887f25be6303df",
+    "quality": 80,
+    "srcset": "/assets/tradition-covers/tradition-miruso-pieminas-diena-c47c8ff872e1-320.webp 320w, /assets/tradition-covers/tradition-miruso-pieminas-diena-2244ca867eac-640.webp 640w, /assets/tradition-covers/tradition-miruso-pieminas-diena-3c5097e22385-960.webp 960w, /assets/tradition-covers/tradition-miruso-pieminas-diena-3a0332d24fea-1280.webp 1280w",
+    "files": [
+      {
+        "src": "/assets/tradition-covers/tradition-miruso-pieminas-diena-c47c8ff872e1-320.webp",
+        "width": 320,
+        "height": 180,
+        "bytes": 12144,
+        "sha256": "c47c8ff872e178c0481d15a1541d3bebf111d55ed63917e706fd3a0bd3dae805",
+        "quality": 80
+      },
+      {
+        "src": "/assets/tradition-covers/tradition-miruso-pieminas-diena-2244ca867eac-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 38916,
+        "sha256": "2244ca867eac1003a01e3deb8bc5aad5a2ae5790bd0c6eae8c887f25be6303df",
+        "quality": 80
+      },
+      {
+        "src": "/assets/tradition-covers/tradition-miruso-pieminas-diena-3c5097e22385-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 77316,
+        "sha256": "3c5097e223858d904f12ef494efdd4bc0c82debe09f4c62b8780ac57798c7e0f",
+        "quality": 80
+      },
+      {
+        "src": "/assets/tradition-covers/tradition-miruso-pieminas-diena-3a0332d24fea-1280.webp",
+        "width": 1280,
+        "height": 720,
+        "bytes": 124672,
+        "sha256": "3a0332d24fea063a1ced2897be62755f5a5d8b60f1bd1601f4cc221a5a2efcaa",
+        "quality": 80
+      }
+    ],
+    "sourceSha256": "5305f5e71a3f26a25221af7d7a26740506b002c061a8df93736b4ab7a94d12e0",
+    "transform": "16:9 kadrējums; samazināts WebP attēls"
+  },
+  "tradition-pavasara-ekvinokcija": {
+    "src": "/assets/tradition-covers/tradition-pavasara-ekvinokcija-8466fe02ba17-640.webp",
+    "width": 640,
+    "height": 360,
+    "bytes": 79324,
+    "sha256": "8466fe02ba172b5467b0d7b14489afbedd81bf2110764876e8dc1a2f3abe5a01",
+    "quality": 80,
+    "srcset": "/assets/tradition-covers/tradition-pavasara-ekvinokcija-dde79f939062-320.webp 320w, /assets/tradition-covers/tradition-pavasara-ekvinokcija-8466fe02ba17-640.webp 640w, /assets/tradition-covers/tradition-pavasara-ekvinokcija-e129b8740abf-960.webp 960w, /assets/tradition-covers/tradition-pavasara-ekvinokcija-69c63901cfeb-1280.webp 1280w",
+    "files": [
+      {
+        "src": "/assets/tradition-covers/tradition-pavasara-ekvinokcija-dde79f939062-320.webp",
+        "width": 320,
+        "height": 180,
+        "bytes": 20774,
+        "sha256": "dde79f939062981d76d678d9ba4b3f9dbdd68b70fb873a6a768fe612b690da36",
+        "quality": 80
+      },
+      {
+        "src": "/assets/tradition-covers/tradition-pavasara-ekvinokcija-8466fe02ba17-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 79324,
+        "sha256": "8466fe02ba172b5467b0d7b14489afbedd81bf2110764876e8dc1a2f3abe5a01",
+        "quality": 80
+      },
+      {
+        "src": "/assets/tradition-covers/tradition-pavasara-ekvinokcija-e129b8740abf-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 162390,
+        "sha256": "e129b8740abfb7ddb078153ab9065957d505ce7b57069d949d3139c56a743eac",
+        "quality": 80
+      },
+      {
+        "src": "/assets/tradition-covers/tradition-pavasara-ekvinokcija-69c63901cfeb-1280.webp",
+        "width": 1280,
+        "height": 720,
+        "bytes": 257272,
+        "sha256": "69c63901cfeb85da7cbbe70f9a764a4ea88175b05e0c0754d84828d9dccb6d71",
+        "quality": 80
+      }
+    ],
+    "sourceSha256": "f7257c314d0b20ef351c08fa9c24cec7e9d06dfa38b65f0cb2f65144c1d1a394",
+    "transform": "16:9 kadrējums; samazināts WebP attēls"
+  },
+  "tradition-rudens-ekvinokcija": {
+    "src": "/assets/tradition-covers/tradition-rudens-ekvinokcija-7dab4e4b6fe7-640.webp",
+    "width": 640,
+    "height": 360,
+    "bytes": 62514,
+    "sha256": "7dab4e4b6fe78a82ea8e592523552b2a327e9d17ab705e4556b1ffd4f1f1f82e",
+    "quality": 80,
+    "srcset": "/assets/tradition-covers/tradition-rudens-ekvinokcija-23ba9886f7a8-320.webp 320w, /assets/tradition-covers/tradition-rudens-ekvinokcija-7dab4e4b6fe7-640.webp 640w, /assets/tradition-covers/tradition-rudens-ekvinokcija-f7a00dc62b47-960.webp 960w, /assets/tradition-covers/tradition-rudens-ekvinokcija-e8fcbccbb1a0-1280.webp 1280w",
+    "files": [
+      {
+        "src": "/assets/tradition-covers/tradition-rudens-ekvinokcija-23ba9886f7a8-320.webp",
+        "width": 320,
+        "height": 180,
+        "bytes": 13958,
+        "sha256": "23ba9886f7a8f5fb42d7ce126844b3201ae010eaa0ee2dd654c6570a8b5f97df",
+        "quality": 80
+      },
+      {
+        "src": "/assets/tradition-covers/tradition-rudens-ekvinokcija-7dab4e4b6fe7-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 62514,
+        "sha256": "7dab4e4b6fe78a82ea8e592523552b2a327e9d17ab705e4556b1ffd4f1f1f82e",
+        "quality": 80
+      },
+      {
+        "src": "/assets/tradition-covers/tradition-rudens-ekvinokcija-f7a00dc62b47-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 150032,
+        "sha256": "f7a00dc62b4766c1300fddb31fba2cdef22df741aea16261adde85f296702bf9",
+        "quality": 80
+      },
+      {
+        "src": "/assets/tradition-covers/tradition-rudens-ekvinokcija-e8fcbccbb1a0-1280.webp",
+        "width": 1280,
+        "height": 720,
+        "bytes": 216762,
+        "sha256": "e8fcbccbb1a0dee2e65a3c4f887da42fbbed44f43c8d9a523a6a415bed48797b",
+        "quality": 72
+      }
+    ],
+    "sourceSha256": "95cec5f582b60ede3f7a7b981d62f2220d86bf17f651733521cbe02a329610e7",
+    "transform": "16:9 kadrējums; samazināts WebP attēls"
+  },
+  "tradition-holokausta-upuru-pieminas-diena": {
+    "src": "/assets/tradition-covers/tradition-holokausta-upuru-pieminas-diena-3543f9edc38b-640.webp",
+    "width": 640,
+    "height": 360,
+    "bytes": 74816,
+    "sha256": "3543f9edc38b9f710f9ca27d80dc55944336788443a191d73889fc274eadfa3b",
+    "quality": 80,
+    "srcset": "/assets/tradition-covers/tradition-holokausta-upuru-pieminas-diena-ec10cc27d4ac-320.webp 320w, /assets/tradition-covers/tradition-holokausta-upuru-pieminas-diena-3543f9edc38b-640.webp 640w, /assets/tradition-covers/tradition-holokausta-upuru-pieminas-diena-1ae4b0ddf108-960.webp 960w, /assets/tradition-covers/tradition-holokausta-upuru-pieminas-diena-037fd94e0a0d-1280.webp 1280w",
+    "files": [
+      {
+        "src": "/assets/tradition-covers/tradition-holokausta-upuru-pieminas-diena-ec10cc27d4ac-320.webp",
+        "width": 320,
+        "height": 180,
+        "bytes": 18170,
+        "sha256": "ec10cc27d4acc88ae015c0deba3027502a4a75ae86099ff447d56a59212f098d",
+        "quality": 80
+      },
+      {
+        "src": "/assets/tradition-covers/tradition-holokausta-upuru-pieminas-diena-3543f9edc38b-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 74816,
+        "sha256": "3543f9edc38b9f710f9ca27d80dc55944336788443a191d73889fc274eadfa3b",
+        "quality": 80
+      },
+      {
+        "src": "/assets/tradition-covers/tradition-holokausta-upuru-pieminas-diena-1ae4b0ddf108-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 169574,
+        "sha256": "1ae4b0ddf108b356cfd926beb59c7f64e85b72f45eb6f229a7f9b05ed369c494",
+        "quality": 80
+      },
+      {
+        "src": "/assets/tradition-covers/tradition-holokausta-upuru-pieminas-diena-037fd94e0a0d-1280.webp",
+        "width": 1280,
+        "height": 720,
+        "bytes": 258374,
+        "sha256": "037fd94e0a0d52fcf7193ee485024fe329bbc1359de6424a1d9e19c044ea72b7",
+        "quality": 72
+      }
+    ],
+    "sourceSha256": "0876c52816faa9d3bf20589abea322c2352d58d25bb15bd0a1cc974291ff4fe6",
+    "transform": "16:9 kadrējums; samazināts WebP attēls"
+  },
+  "tradition-eiropas-valodu-diena": {
+    "src": "/assets/tradition-covers/tradition-eiropas-valodu-diena-ebd5e709142d-640.webp",
+    "width": 640,
+    "height": 360,
+    "bytes": 34368,
+    "sha256": "ebd5e709142d9b340996b31d5b9ea1e1b1d13919480b1548d9626d18882a8582",
+    "quality": 80,
+    "srcset": "/assets/tradition-covers/tradition-eiropas-valodu-diena-d031e6e407e6-320.webp 320w, /assets/tradition-covers/tradition-eiropas-valodu-diena-ebd5e709142d-640.webp 640w, /assets/tradition-covers/tradition-eiropas-valodu-diena-9cbf13f01ce1-960.webp 960w, /assets/tradition-covers/tradition-eiropas-valodu-diena-9e966da8c506-1280.webp 1280w",
+    "files": [
+      {
+        "src": "/assets/tradition-covers/tradition-eiropas-valodu-diena-d031e6e407e6-320.webp",
+        "width": 320,
+        "height": 180,
+        "bytes": 11070,
+        "sha256": "d031e6e407e693cc629881ccc6dac7948e9e9617bfd90c24bd9c5665796950fc",
+        "quality": 80
+      },
+      {
+        "src": "/assets/tradition-covers/tradition-eiropas-valodu-diena-ebd5e709142d-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 34368,
+        "sha256": "ebd5e709142d9b340996b31d5b9ea1e1b1d13919480b1548d9626d18882a8582",
+        "quality": 80
+      },
+      {
+        "src": "/assets/tradition-covers/tradition-eiropas-valodu-diena-9cbf13f01ce1-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 71862,
+        "sha256": "9cbf13f01ce1d0f97c622fce67817d8f6c3a4590b1bab602521820e3252e2169",
+        "quality": 80
+      },
+      {
+        "src": "/assets/tradition-covers/tradition-eiropas-valodu-diena-9e966da8c506-1280.webp",
+        "width": 1280,
+        "height": 720,
+        "bytes": 131626,
+        "sha256": "9e966da8c50632d15d2de32583e9878f53057f7eb1fbc4eb39023162edd92163",
+        "quality": 80
+      }
+    ],
+    "sourceSha256": "a82c64381cf9d04f5960ee1930ed4d75665f721aa441e170faa3d0b927aa87ca",
+    "transform": "16:9 kadrējums; samazināts WebP attēls"
+  },
+  "language": {
+    "src": "/assets/tradition-covers/language-3568e5678764-640.webp",
+    "width": 640,
+    "height": 360,
+    "bytes": 24962,
+    "sha256": "3568e5678764686a34f1ec20efb5efb4edfd7c957e6eda8bb752d59f8e51da92",
+    "quality": 80,
+    "srcset": "/assets/tradition-covers/language-d3cd7c8e6629-320.webp 320w, /assets/tradition-covers/language-3568e5678764-640.webp 640w, /assets/tradition-covers/language-89468de86579-960.webp 960w, /assets/tradition-covers/language-e7b598ed97f6-1280.webp 1280w",
+    "files": [
+      {
+        "src": "/assets/tradition-covers/language-d3cd7c8e6629-320.webp",
+        "width": 320,
+        "height": 180,
+        "bytes": 7808,
+        "sha256": "d3cd7c8e6629e8cd736b8f98a3495bdaf63684e8b1448e5355df6b32fce97f70",
+        "quality": 80
+      },
+      {
+        "src": "/assets/tradition-covers/language-3568e5678764-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 24962,
+        "sha256": "3568e5678764686a34f1ec20efb5efb4edfd7c957e6eda8bb752d59f8e51da92",
+        "quality": 80
+      },
+      {
+        "src": "/assets/tradition-covers/language-89468de86579-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 50876,
+        "sha256": "89468de865795ce6f907b0463300934264fba9b3d9d1d3d3cd2ef01df215c569",
+        "quality": 80
+      },
+      {
+        "src": "/assets/tradition-covers/language-e7b598ed97f6-1280.webp",
+        "width": 1280,
+        "height": 720,
+        "bytes": 88420,
+        "sha256": "e7b598ed97f6719a86bf18936b766f3856242f67ace8f1c1c1a180b8bdd6de4d",
+        "quality": 80
+      }
+    ],
+    "sourceSha256": "909232439f714fec566c3bdc41db842dc3c8e7163799af20633c783d0e090fd7",
+    "transform": "16:9 kadrējums; samazināts WebP attēls"
+  },
+  "tradition-helovins": {
+    "src": "/assets/tradition-covers/tradition-helovins-d48fd2dc342c-640.webp",
+    "width": 640,
+    "height": 360,
+    "bytes": 8542,
+    "sha256": "d48fd2dc342c16b57b74c50f1875e332b0fb9d174af98d4ea62192c539f05348",
+    "quality": 80,
+    "srcset": "/assets/tradition-covers/tradition-helovins-675edd875cf1-320.webp 320w, /assets/tradition-covers/tradition-helovins-d48fd2dc342c-640.webp 640w, /assets/tradition-covers/tradition-helovins-d22eb0a718a6-960.webp 960w, /assets/tradition-covers/tradition-helovins-ab5c0c05841a-1024.webp 1024w",
+    "files": [
+      {
+        "src": "/assets/tradition-covers/tradition-helovins-675edd875cf1-320.webp",
+        "width": 320,
+        "height": 180,
+        "bytes": 3926,
+        "sha256": "675edd875cf1d698a9f938a19c09abab87c543903faad398f266d2d16f8f6a89",
+        "quality": 80
+      },
+      {
+        "src": "/assets/tradition-covers/tradition-helovins-d48fd2dc342c-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 8542,
+        "sha256": "d48fd2dc342c16b57b74c50f1875e332b0fb9d174af98d4ea62192c539f05348",
+        "quality": 80
+      },
+      {
+        "src": "/assets/tradition-covers/tradition-helovins-d22eb0a718a6-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 13632,
+        "sha256": "d22eb0a718a631a8f8d6c78ea7aeccd37b7022666b3a1881bdae7720cbeb0df4",
+        "quality": 80
+      },
+      {
+        "src": "/assets/tradition-covers/tradition-helovins-ab5c0c05841a-1024.webp",
+        "width": 1024,
+        "height": 576,
+        "bytes": 14746,
+        "sha256": "ab5c0c05841a3516d096136324992e1678a72888b07b41ad23e534542461625e",
+        "quality": 80
+      }
+    ],
+    "sourceSha256": "78b100c3ac0f5bb70a5d94dae26e072604bc5d068f330eafb37dac7019e37554",
+    "transform": "16:9 kadrējums; samazināts WebP attēls"
+  },
+  "tradition-pasaules-gramatu-diena": {
+    "src": "/assets/tradition-covers/tradition-pasaules-gramatu-diena-f8d83774fd7f-640.webp",
+    "width": 640,
+    "height": 360,
+    "bytes": 62352,
+    "sha256": "f8d83774fd7fac68d0c5bbfb08916c32af7ee3725a9353f9d470558ade717932",
+    "quality": 80,
+    "srcset": "/assets/tradition-covers/tradition-pasaules-gramatu-diena-d88f469b0b47-320.webp 320w, /assets/tradition-covers/tradition-pasaules-gramatu-diena-f8d83774fd7f-640.webp 640w, /assets/tradition-covers/tradition-pasaules-gramatu-diena-de6ffa490f42-960.webp 960w, /assets/tradition-covers/tradition-pasaules-gramatu-diena-c9848d5e317e-1280.webp 1280w",
+    "files": [
+      {
+        "src": "/assets/tradition-covers/tradition-pasaules-gramatu-diena-d88f469b0b47-320.webp",
+        "width": 320,
+        "height": 180,
+        "bytes": 17672,
+        "sha256": "d88f469b0b471eb09ad9099bd48a01ff052491d849ce891d552f4637bccf9920",
+        "quality": 80
+      },
+      {
+        "src": "/assets/tradition-covers/tradition-pasaules-gramatu-diena-f8d83774fd7f-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 62352,
+        "sha256": "f8d83774fd7fac68d0c5bbfb08916c32af7ee3725a9353f9d470558ade717932",
+        "quality": 80
+      },
+      {
+        "src": "/assets/tradition-covers/tradition-pasaules-gramatu-diena-de6ffa490f42-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 127008,
+        "sha256": "de6ffa490f4210dddb63d872005d2c9539e53e551b05f6f9759fd602e7c4b1a4",
+        "quality": 80
+      },
+      {
+        "src": "/assets/tradition-covers/tradition-pasaules-gramatu-diena-c9848d5e317e-1280.webp",
+        "width": 1280,
+        "height": 720,
+        "bytes": 210256,
+        "sha256": "c9848d5e317ed34e8f669a8943fd4e1080e5d2e61b43256d7fd0514de8bf403e",
+        "quality": 80
+      }
+    ],
+    "sourceSha256": "9070b17cbc1ea13d3e3948301df4dc84533e33b7b46867f25ed42ea57a6a70a3",
+    "transform": "16:9 kadrējums; samazināts WebP attēls"
+  },
+  "tradition-pasaules-vides-diena": {
+    "src": "/assets/tradition-covers/tradition-pasaules-vides-diena-823843211c84-640.webp",
+    "width": 640,
+    "height": 360,
+    "bytes": 83348,
+    "sha256": "823843211c842a1c64935d73b4d94fc7b0334d565a2bcdadfb0094b8c5b25af7",
+    "quality": 80,
+    "srcset": "/assets/tradition-covers/tradition-pasaules-vides-diena-42197e016383-320.webp 320w, /assets/tradition-covers/tradition-pasaules-vides-diena-823843211c84-640.webp 640w, /assets/tradition-covers/tradition-pasaules-vides-diena-84b887abc899-960.webp 960w, /assets/tradition-covers/tradition-pasaules-vides-diena-762e7e7ea8cd-1280.webp 1280w",
+    "files": [
+      {
+        "src": "/assets/tradition-covers/tradition-pasaules-vides-diena-42197e016383-320.webp",
+        "width": 320,
+        "height": 180,
+        "bytes": 18678,
+        "sha256": "42197e0163838b4d677cd3dff448de42662554dfc65386d986e48201f4a0b6a7",
+        "quality": 80
+      },
+      {
+        "src": "/assets/tradition-covers/tradition-pasaules-vides-diena-823843211c84-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 83348,
+        "sha256": "823843211c842a1c64935d73b4d94fc7b0334d565a2bcdadfb0094b8c5b25af7",
+        "quality": 80
+      },
+      {
+        "src": "/assets/tradition-covers/tradition-pasaules-vides-diena-84b887abc899-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 168484,
+        "sha256": "84b887abc89963bdbade2b87c2be10e823f78a301dface1472a5d4db17b3a771",
+        "quality": 72
+      },
+      {
+        "src": "/assets/tradition-covers/tradition-pasaules-vides-diena-762e7e7ea8cd-1280.webp",
+        "width": 1280,
+        "height": 720,
+        "bytes": 258454,
+        "sha256": "762e7e7ea8cdce184bbeb44bc02ee37495d5ef540d5a6294af4aad15e09d3e16",
+        "quality": 50
+      }
+    ],
+    "sourceSha256": "e0845289ec53a38d480f66cface67ba5859f003b267a7f567c8435b5852e88c0",
+    "transform": "16:9 kadrējums; samazināts WebP attēls"
+  },
+  "tradition-pasaules-bernu-diena": {
+    "src": "/assets/tradition-covers/tradition-pasaules-bernu-diena-6fb59e1bb9cc-640.webp",
+    "width": 640,
+    "height": 360,
+    "bytes": 63158,
+    "sha256": "6fb59e1bb9cce8919ecce2f2ea60c3551bfa3ea3e47831ecb56e091c8d3e5889",
+    "quality": 80,
+    "srcset": "/assets/tradition-covers/tradition-pasaules-bernu-diena-14c5e7d6b8d5-320.webp 320w, /assets/tradition-covers/tradition-pasaules-bernu-diena-6fb59e1bb9cc-640.webp 640w, /assets/tradition-covers/tradition-pasaules-bernu-diena-6ab34feb7808-960.webp 960w, /assets/tradition-covers/tradition-pasaules-bernu-diena-378aa9ebf44e-1280.webp 1280w",
+    "files": [
+      {
+        "src": "/assets/tradition-covers/tradition-pasaules-bernu-diena-14c5e7d6b8d5-320.webp",
+        "width": 320,
+        "height": 180,
+        "bytes": 15138,
+        "sha256": "14c5e7d6b8d5032986e68eb9e1ac9a425159f3c0099fd8e24f0f22c54b56c588",
+        "quality": 80
+      },
+      {
+        "src": "/assets/tradition-covers/tradition-pasaules-bernu-diena-6fb59e1bb9cc-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 63158,
+        "sha256": "6fb59e1bb9cce8919ecce2f2ea60c3551bfa3ea3e47831ecb56e091c8d3e5889",
+        "quality": 80
+      },
+      {
+        "src": "/assets/tradition-covers/tradition-pasaules-bernu-diena-6ab34feb7808-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 143968,
+        "sha256": "6ab34feb7808e0b47de5cf354d1d744f2314bbdc84c63921998f4619483cad70",
+        "quality": 80
+      },
+      {
+        "src": "/assets/tradition-covers/tradition-pasaules-bernu-diena-378aa9ebf44e-1280.webp",
+        "width": 1280,
+        "height": 720,
+        "bytes": 245896,
+        "sha256": "378aa9ebf44e9df2c2737af4a23858da74f6c26fd0ae0b49d7cb74d4e0352eee",
+        "quality": 80
+      }
+    ],
+    "sourceSha256": "e8c1e24f2b21e190ca6bc448762f143aa85f344cfe81d11af101a3c5e04f1855",
+    "transform": "16:9 kadrējums; samazināts WebP attēls"
+  },
+  "tradition-pasaules-udens-diena": {
+    "src": "/assets/tradition-covers/tradition-pasaules-udens-diena-806c49321806-640.webp",
+    "width": 640,
+    "height": 360,
+    "bytes": 34730,
+    "sha256": "806c493218060ca3302a8cb15033d156a48edbe0e44e110f7f5044ffc75c4895",
+    "quality": 80,
+    "srcset": "/assets/tradition-covers/tradition-pasaules-udens-diena-a5c3d533d39b-320.webp 320w, /assets/tradition-covers/tradition-pasaules-udens-diena-806c49321806-640.webp 640w, /assets/tradition-covers/tradition-pasaules-udens-diena-721504b5fcd4-960.webp 960w, /assets/tradition-covers/tradition-pasaules-udens-diena-383175b5e373-1280.webp 1280w",
+    "files": [
+      {
+        "src": "/assets/tradition-covers/tradition-pasaules-udens-diena-a5c3d533d39b-320.webp",
+        "width": 320,
+        "height": 180,
+        "bytes": 9324,
+        "sha256": "a5c3d533d39bf52fc397b35fbb7c686ba31a7dfea16cc4f4a90ebb862f6eb5e7",
+        "quality": 80
+      },
+      {
+        "src": "/assets/tradition-covers/tradition-pasaules-udens-diena-806c49321806-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 34730,
+        "sha256": "806c493218060ca3302a8cb15033d156a48edbe0e44e110f7f5044ffc75c4895",
+        "quality": 80
+      },
+      {
+        "src": "/assets/tradition-covers/tradition-pasaules-udens-diena-721504b5fcd4-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 78862,
+        "sha256": "721504b5fcd434d02c010ce7a271cfa360d428defd37af04bdab670a7b363169",
+        "quality": 80
+      },
+      {
+        "src": "/assets/tradition-covers/tradition-pasaules-udens-diena-383175b5e373-1280.webp",
+        "width": 1280,
+        "height": 720,
+        "bytes": 141404,
+        "sha256": "383175b5e373eabc8d743c948ecbc69cb69f79ee931111c7bd22f3ed8b02cf9f",
+        "quality": 80
+      }
+    ],
+    "sourceSha256": "a5d305e23b8d580916af18ae6c2e8117c36e4b0793cc295b8cb38a5f4d59ba1a",
+    "transform": "16:9 kadrējums; samazināts WebP attēls"
+  },
+  "tradition-pasaules-dzivnieku-diena": {
+    "src": "/assets/tradition-covers/tradition-pasaules-dzivnieku-diena-37eecc83eb75-640.webp",
+    "width": 640,
+    "height": 360,
+    "bytes": 17944,
+    "sha256": "37eecc83eb752d2107d3f666828c09a30b8786d3e7309ac1c3803e6a79d73967",
+    "quality": 80,
+    "srcset": "/assets/tradition-covers/tradition-pasaules-dzivnieku-diena-5d88e5f73a12-320.webp 320w, /assets/tradition-covers/tradition-pasaules-dzivnieku-diena-37eecc83eb75-640.webp 640w, /assets/tradition-covers/tradition-pasaules-dzivnieku-diena-037f1209d857-653.webp 653w",
+    "files": [
+      {
+        "src": "/assets/tradition-covers/tradition-pasaules-dzivnieku-diena-5d88e5f73a12-320.webp",
+        "width": 320,
+        "height": 180,
+        "bytes": 5622,
+        "sha256": "5d88e5f73a12082e483658a8e3e31fff7ea94aac9785c4b367999871b0566e02",
+        "quality": 80
+      },
+      {
+        "src": "/assets/tradition-covers/tradition-pasaules-dzivnieku-diena-37eecc83eb75-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 17944,
+        "sha256": "37eecc83eb752d2107d3f666828c09a30b8786d3e7309ac1c3803e6a79d73967",
+        "quality": 80
+      },
+      {
+        "src": "/assets/tradition-covers/tradition-pasaules-dzivnieku-diena-037f1209d857-653.webp",
+        "width": 653,
+        "height": 367,
+        "bytes": 18418,
+        "sha256": "037f1209d8579f85edf5c230cd45e69626b13f74ffcbe72fbf499866696ac0de",
+        "quality": 80
+      }
+    ],
+    "sourceSha256": "41fe479438348d3a50328db26727fed6d8969aa2aa5e6ed1a73abd7cb35b2c00",
+    "transform": "16:9 kadrējums; samazināts WebP attēls"
+  },
+  "tradition-pavasara-tradicijas": {
+    "src": "/assets/tradition-covers/tradition-pavasara-tradicijas-31d71d84a05a-640.webp",
+    "width": 640,
+    "height": 360,
+    "bytes": 51094,
+    "sha256": "31d71d84a05ad0e0afc30a9168ab57348bfa046932ee2f960d93aa9905bf21cd",
+    "quality": 80,
+    "srcset": "/assets/tradition-covers/tradition-pavasara-tradicijas-3f7f3f41680d-320.webp 320w, /assets/tradition-covers/tradition-pavasara-tradicijas-31d71d84a05a-640.webp 640w, /assets/tradition-covers/tradition-pavasara-tradicijas-c48e741db1e7-960.webp 960w, /assets/tradition-covers/tradition-pavasara-tradicijas-bd282009cff3-1024.webp 1024w",
+    "files": [
+      {
+        "src": "/assets/tradition-covers/tradition-pavasara-tradicijas-3f7f3f41680d-320.webp",
+        "width": 320,
+        "height": 180,
+        "bytes": 14602,
+        "sha256": "3f7f3f41680d581644e28566cf0751dc57350d6880af9f384de73fc9273b5108",
+        "quality": 80
+      },
+      {
+        "src": "/assets/tradition-covers/tradition-pavasara-tradicijas-31d71d84a05a-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 51094,
+        "sha256": "31d71d84a05ad0e0afc30a9168ab57348bfa046932ee2f960d93aa9905bf21cd",
+        "quality": 80
+      },
+      {
+        "src": "/assets/tradition-covers/tradition-pavasara-tradicijas-c48e741db1e7-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 111094,
+        "sha256": "c48e741db1e7642f13578970655f74bd106a9634381dc275edad6a1c33c556b1",
+        "quality": 80
+      },
+      {
+        "src": "/assets/tradition-covers/tradition-pavasara-tradicijas-bd282009cff3-1024.webp",
+        "width": 1024,
+        "height": 576,
+        "bytes": 123492,
+        "sha256": "bd282009cff33fd587ca6e77a9e44d4479c23c844df7ab0a5b1aa064368d7216",
+        "quality": 80
+      }
+    ],
+    "sourceSha256": "f37f72806918c91fdcf0e84b45284f03c02efdb060633c36c8fa39567c84f1b8",
+    "transform": "16:9 kadrējums; samazināts WebP attēls"
+  },
+  "tradition-sveta-nikolaja-diena": {
+    "src": "/assets/tradition-covers/tradition-sveta-nikolaja-diena-052c7882115c-640.webp",
+    "width": 640,
+    "height": 360,
+    "bytes": 30036,
+    "sha256": "052c7882115c1fb555a370f5931557dc202fd27362dc707a7d2f07fa4f190502",
+    "quality": 80,
+    "srcset": "/assets/tradition-covers/tradition-sveta-nikolaja-diena-a9d1eec1d22e-320.webp 320w, /assets/tradition-covers/tradition-sveta-nikolaja-diena-052c7882115c-640.webp 640w, /assets/tradition-covers/tradition-sveta-nikolaja-diena-ee3f80a05792-960.webp 960w, /assets/tradition-covers/tradition-sveta-nikolaja-diena-78180df5ac7f-1280.webp 1280w",
+    "files": [
+      {
+        "src": "/assets/tradition-covers/tradition-sveta-nikolaja-diena-a9d1eec1d22e-320.webp",
+        "width": 320,
+        "height": 180,
+        "bytes": 8442,
+        "sha256": "a9d1eec1d22ed4a30e38cec10b54de020336fb84a99d77ad1f46927a0225e30e",
+        "quality": 80
+      },
+      {
+        "src": "/assets/tradition-covers/tradition-sveta-nikolaja-diena-052c7882115c-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 30036,
+        "sha256": "052c7882115c1fb555a370f5931557dc202fd27362dc707a7d2f07fa4f190502",
+        "quality": 80
+      },
+      {
+        "src": "/assets/tradition-covers/tradition-sveta-nikolaja-diena-ee3f80a05792-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 58198,
+        "sha256": "ee3f80a05792548f7cc8a57ffba4a9ddc04cfc684c9fcb786ffdd9e7b313d5f3",
+        "quality": 80
+      },
+      {
+        "src": "/assets/tradition-covers/tradition-sveta-nikolaja-diena-78180df5ac7f-1280.webp",
+        "width": 1280,
+        "height": 720,
+        "bytes": 92036,
+        "sha256": "78180df5ac7f37c882dda3286b0a1c570c75930ee03857c8ae0328c0265f5b09",
+        "quality": 80
+      }
+    ],
+    "sourceSha256": "7563cb423dba47c85119389270b4675a8ac0841e5ada69f347bc7a9a99cb7e06",
+    "transform": "16:9 kadrējums; samazināts WebP attēls"
+  },
+  "tradition-pasaules-bisu-diena": {
+    "src": "/assets/tradition-covers/tradition-pasaules-bisu-diena-36f7d26ae62d-640.webp",
+    "width": 640,
+    "height": 360,
+    "bytes": 25514,
+    "sha256": "36f7d26ae62d6e1b30c55b6f9d4463a5fe5f19aa271e8ab03b72800a24fa4a4f",
+    "quality": 80,
+    "srcset": "/assets/tradition-covers/tradition-pasaules-bisu-diena-c0be5c41949b-320.webp 320w, /assets/tradition-covers/tradition-pasaules-bisu-diena-36f7d26ae62d-640.webp 640w, /assets/tradition-covers/tradition-pasaules-bisu-diena-a3d610209e56-960.webp 960w, /assets/tradition-covers/tradition-pasaules-bisu-diena-d69d64266226-1280.webp 1280w",
+    "files": [
+      {
+        "src": "/assets/tradition-covers/tradition-pasaules-bisu-diena-c0be5c41949b-320.webp",
+        "width": 320,
+        "height": 180,
+        "bytes": 7994,
+        "sha256": "c0be5c41949ba10971c376181a344cdbfcc5ec29f04885d8493933b978cddfcf",
+        "quality": 80
+      },
+      {
+        "src": "/assets/tradition-covers/tradition-pasaules-bisu-diena-36f7d26ae62d-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 25514,
+        "sha256": "36f7d26ae62d6e1b30c55b6f9d4463a5fe5f19aa271e8ab03b72800a24fa4a4f",
+        "quality": 80
+      },
+      {
+        "src": "/assets/tradition-covers/tradition-pasaules-bisu-diena-a3d610209e56-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 52942,
+        "sha256": "a3d610209e56934d54d0ef047bed6d026d9a5b78c9087da37cca83419654a8b5",
+        "quality": 80
+      },
+      {
+        "src": "/assets/tradition-covers/tradition-pasaules-bisu-diena-d69d64266226-1280.webp",
+        "width": 1280,
+        "height": 720,
+        "bytes": 90278,
+        "sha256": "d69d64266226a422696bac78ac09c0700e32f57d4c2d40578b20f7afa326f324",
+        "quality": 80
+      }
+    ],
+    "sourceSha256": "eac11f5dbd9805e0e674cb409afd929c48d03c000d83655d3f6558dc6e1d8246",
+    "transform": "16:9 kadrējums; samazināts WebP attēls"
+  },
+  "tradition-zemes-diena": {
+    "src": "/assets/tradition-covers/tradition-zemes-diena-a901bbec8506-640.webp",
+    "width": 640,
+    "height": 360,
+    "bytes": 24614,
+    "sha256": "a901bbec850625dd1817b78b231d7d0082509b228b186e457b42dcbeb0cefbfd",
+    "quality": 80,
+    "srcset": "/assets/tradition-covers/tradition-zemes-diena-06b681f8ea5b-320.webp 320w, /assets/tradition-covers/tradition-zemes-diena-a901bbec8506-640.webp 640w, /assets/tradition-covers/tradition-zemes-diena-422ff1e82894-960.webp 960w, /assets/tradition-covers/tradition-zemes-diena-d8ed24c10007-1280.webp 1280w",
+    "files": [
+      {
+        "src": "/assets/tradition-covers/tradition-zemes-diena-06b681f8ea5b-320.webp",
+        "width": 320,
+        "height": 180,
+        "bytes": 6860,
+        "sha256": "06b681f8ea5b13af89476cab64078fd527aa5bed17807190570b427f05234127",
+        "quality": 80
+      },
+      {
+        "src": "/assets/tradition-covers/tradition-zemes-diena-a901bbec8506-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 24614,
+        "sha256": "a901bbec850625dd1817b78b231d7d0082509b228b186e457b42dcbeb0cefbfd",
+        "quality": 80
+      },
+      {
+        "src": "/assets/tradition-covers/tradition-zemes-diena-422ff1e82894-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 52590,
+        "sha256": "422ff1e8289477057b48e9fb55a83970d5f72cd2074feeb806bd608c72c82597",
+        "quality": 80
+      },
+      {
+        "src": "/assets/tradition-covers/tradition-zemes-diena-d8ed24c10007-1280.webp",
+        "width": 1280,
+        "height": 720,
+        "bytes": 90556,
+        "sha256": "d8ed24c10007e36799e8698d02407ea41c08c5d1ccdc8e302fb209e2620f870e",
+        "quality": 80
+      }
+    ],
+    "sourceSha256": "3f55578a3c58509029c6a1ec88c683199f585ea9ffe974efd4265aec314156fb",
+    "transform": "Samazināts attēls uz tumša fona; proporcijas saglabātas"
+  },
+  "tradition-totalitaro-rezimu-upuru-pieminas-diena": {
+    "src": "/assets/tradition-covers/tradition-totalitaro-rezimu-upuru-pieminas-diena-b25445d1d898-640.webp",
+    "width": 640,
+    "height": 360,
+    "bytes": 68152,
+    "sha256": "b25445d1d898198b9a91581f94cbece1a86cfe90c822bf349cdce7033ce4b937",
+    "quality": 80,
+    "srcset": "/assets/tradition-covers/tradition-totalitaro-rezimu-upuru-pieminas-diena-f7475cab3dfb-320.webp 320w, /assets/tradition-covers/tradition-totalitaro-rezimu-upuru-pieminas-diena-b25445d1d898-640.webp 640w, /assets/tradition-covers/tradition-totalitaro-rezimu-upuru-pieminas-diena-4011b4137789-960.webp 960w, /assets/tradition-covers/tradition-totalitaro-rezimu-upuru-pieminas-diena-296d95ca0e5c-1280.webp 1280w",
+    "files": [
+      {
+        "src": "/assets/tradition-covers/tradition-totalitaro-rezimu-upuru-pieminas-diena-f7475cab3dfb-320.webp",
+        "width": 320,
+        "height": 180,
+        "bytes": 16610,
+        "sha256": "f7475cab3dfbdb234b9ea6a03cf0e7db3c33163ab7cd1dd06c8dc736a88e31c4",
+        "quality": 80
+      },
+      {
+        "src": "/assets/tradition-covers/tradition-totalitaro-rezimu-upuru-pieminas-diena-b25445d1d898-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 68152,
+        "sha256": "b25445d1d898198b9a91581f94cbece1a86cfe90c822bf349cdce7033ce4b937",
+        "quality": 80
+      },
+      {
+        "src": "/assets/tradition-covers/tradition-totalitaro-rezimu-upuru-pieminas-diena-4011b4137789-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 155374,
+        "sha256": "4011b41377898b62dc39d0a5040cb49719eb6cd4ca0b2edd6be2ffccfcfd1ad3",
+        "quality": 80
+      },
+      {
+        "src": "/assets/tradition-covers/tradition-totalitaro-rezimu-upuru-pieminas-diena-296d95ca0e5c-1280.webp",
+        "width": 1280,
+        "height": 720,
+        "bytes": 232712,
+        "sha256": "296d95ca0e5cf3cc01e8c963a90cb6473d7e3c1a2a86ce81c3f3acd025d5bc41",
+        "quality": 72
+      }
+    ],
+    "sourceSha256": "a1e51eefd8fdc8085dce537ba3e86c6d7903c3ce5ef4abbb2b0a04cce12818e1",
+    "transform": "16:9 kadrējums; samazināts WebP attēls"
+  },
+  "day-mates-diena": {
+    "src": "/assets/tradition-covers/day-mates-diena-8d1213a512fd-640.webp",
+    "width": 640,
+    "height": 360,
+    "bytes": 22372,
+    "sha256": "8d1213a512fda7d9a6b878f3a44df188db0068e09342cb417b42ea86a044bf3e",
+    "quality": 80,
+    "srcset": "/assets/tradition-covers/day-mates-diena-77aeee200a2c-320.webp 320w, /assets/tradition-covers/day-mates-diena-8d1213a512fd-640.webp 640w, /assets/tradition-covers/day-mates-diena-ee3250be65c3-960.webp 960w, /assets/tradition-covers/day-mates-diena-37a888841ce0-1280.webp 1280w",
+    "files": [
+      {
+        "src": "/assets/tradition-covers/day-mates-diena-77aeee200a2c-320.webp",
+        "width": 320,
+        "height": 180,
+        "bytes": 8296,
+        "sha256": "77aeee200a2c105486a20ed0151a5c9291520101f138304515f7e525909c63a7",
+        "quality": 80
+      },
+      {
+        "src": "/assets/tradition-covers/day-mates-diena-8d1213a512fd-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 22372,
+        "sha256": "8d1213a512fda7d9a6b878f3a44df188db0068e09342cb417b42ea86a044bf3e",
+        "quality": 80
+      },
+      {
+        "src": "/assets/tradition-covers/day-mates-diena-ee3250be65c3-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 41648,
+        "sha256": "ee3250be65c3a279050fa38f9d80186d49973f8d59091a217de2cd83849b66eb",
+        "quality": 80
+      },
+      {
+        "src": "/assets/tradition-covers/day-mates-diena-37a888841ce0-1280.webp",
+        "width": 1280,
+        "height": 720,
+        "bytes": 66416,
+        "sha256": "37a888841ce0b3713be8103f906eda0e33be2f60219bd4f1054bf75957b2ef40",
+        "quality": 80
+      }
+    ],
+    "sourceSha256": "3601c8244a1e4b9c6cc18b7e6f3879a7201690045a908306cdd7d09c9cdc8fe5",
+    "transform": "16:9 kadrējums; samazināts WebP attēls"
+  },
+  "day-tevu-diena": {
+    "src": "/assets/tradition-covers/day-tevu-diena-a9fd8318c5f7-640.webp",
+    "width": 640,
+    "height": 360,
+    "bytes": 13792,
+    "sha256": "a9fd8318c5f762d006bb4ec18834c5fa90d932eca1d9cf79e3f9eb4161d6eb97",
+    "quality": 80,
+    "srcset": "/assets/tradition-covers/day-tevu-diena-73c19cf5a7bb-320.webp 320w, /assets/tradition-covers/day-tevu-diena-a9fd8318c5f7-640.webp 640w, /assets/tradition-covers/day-tevu-diena-07c3cc35500a-960.webp 960w, /assets/tradition-covers/day-tevu-diena-14ee69e5266c-1280.webp 1280w",
+    "files": [
+      {
+        "src": "/assets/tradition-covers/day-tevu-diena-73c19cf5a7bb-320.webp",
+        "width": 320,
+        "height": 180,
+        "bytes": 5548,
+        "sha256": "73c19cf5a7bbb838b63f13e88ece2415aa860924f898b0fbfa433aeb3b893d20",
+        "quality": 80
+      },
+      {
+        "src": "/assets/tradition-covers/day-tevu-diena-a9fd8318c5f7-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 13792,
+        "sha256": "a9fd8318c5f762d006bb4ec18834c5fa90d932eca1d9cf79e3f9eb4161d6eb97",
+        "quality": 80
+      },
+      {
+        "src": "/assets/tradition-covers/day-tevu-diena-07c3cc35500a-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 24670,
+        "sha256": "07c3cc35500a24cb0a74c3a3202e4ecc5b5e1458ac95faf4531effddf68cb6dd",
+        "quality": 80
+      },
+      {
+        "src": "/assets/tradition-covers/day-tevu-diena-14ee69e5266c-1280.webp",
+        "width": 1280,
+        "height": 720,
+        "bytes": 50130,
+        "sha256": "14ee69e5266c7f04ca0a6f1c41aeb6d7be0d5cd0bc88352720e56f15ef8333af",
+        "quality": 80
+      }
+    ],
+    "sourceSha256": "53d5c5869590ca993d1c9c819d299f74933de8e2bc7a94f5012b0a91e81f8beb",
+    "transform": "16:9 kadrējums; samazināts WebP attēls"
+  },
+  "day-skolotaju-diena": {
+    "src": "/assets/tradition-covers/day-skolotaju-diena-1862eefdfd5a-640.webp",
+    "width": 640,
+    "height": 360,
+    "bytes": 34088,
+    "sha256": "1862eefdfd5a50ba2819d54408ee888bf76fc07a0de7c86b9bc1ffaf1f0c210c",
+    "quality": 80,
+    "srcset": "/assets/tradition-covers/day-skolotaju-diena-d54616dbfe67-320.webp 320w, /assets/tradition-covers/day-skolotaju-diena-1862eefdfd5a-640.webp 640w, /assets/tradition-covers/day-skolotaju-diena-93bbbea60c70-960.webp 960w, /assets/tradition-covers/day-skolotaju-diena-56768b9f29e0-1280.webp 1280w",
+    "files": [
+      {
+        "src": "/assets/tradition-covers/day-skolotaju-diena-d54616dbfe67-320.webp",
+        "width": 320,
+        "height": 180,
+        "bytes": 11048,
+        "sha256": "d54616dbfe677c2790650dbcb9862b3a0a77cf85c08bc8a4cbaa4b546d3779a5",
+        "quality": 80
+      },
+      {
+        "src": "/assets/tradition-covers/day-skolotaju-diena-1862eefdfd5a-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 34088,
+        "sha256": "1862eefdfd5a50ba2819d54408ee888bf76fc07a0de7c86b9bc1ffaf1f0c210c",
+        "quality": 80
+      },
+      {
+        "src": "/assets/tradition-covers/day-skolotaju-diena-93bbbea60c70-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 66102,
+        "sha256": "93bbbea60c70ab7e70a0bd122431b0e6a3697437b1c2fd0577e48a318f4b99d2",
+        "quality": 80
+      },
+      {
+        "src": "/assets/tradition-covers/day-skolotaju-diena-56768b9f29e0-1280.webp",
+        "width": 1280,
+        "height": 720,
+        "bytes": 107496,
+        "sha256": "56768b9f29e033f0b427c3b32791a750d4889ab67072871a3016c36218625d52",
+        "quality": 80
+      }
+    ],
+    "sourceSha256": "f2bcae5390b26b292ba1e9c209b472dbcae0d222cc3262e67e10a3996e02aa2e",
+    "transform": "16:9 kadrējums; samazināts WebP attēls"
+  },
+  "day-valsts-valodas-diena": {
+    "src": "/assets/tradition-covers/day-valsts-valodas-diena-7077ea8a70fd-640.webp",
+    "width": 640,
+    "height": 360,
+    "bytes": 28092,
+    "sha256": "7077ea8a70fd3829be20c9e7d33d790da15b56e41c0ca32749ffc8fd7e35e12b",
+    "quality": 80,
+    "srcset": "/assets/tradition-covers/day-valsts-valodas-diena-f0a28aeb7e95-320.webp 320w, /assets/tradition-covers/day-valsts-valodas-diena-7077ea8a70fd-640.webp 640w, /assets/tradition-covers/day-valsts-valodas-diena-8c5a2209f360-960.webp 960w, /assets/tradition-covers/day-valsts-valodas-diena-b9bddcd0c233-1280.webp 1280w",
+    "files": [
+      {
+        "src": "/assets/tradition-covers/day-valsts-valodas-diena-f0a28aeb7e95-320.webp",
+        "width": 320,
+        "height": 180,
+        "bytes": 10634,
+        "sha256": "f0a28aeb7e95415a8c34a8a4aee413355260784ff4234e998be8c0362c74b3fb",
+        "quality": 80
+      },
+      {
+        "src": "/assets/tradition-covers/day-valsts-valodas-diena-7077ea8a70fd-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 28092,
+        "sha256": "7077ea8a70fd3829be20c9e7d33d790da15b56e41c0ca32749ffc8fd7e35e12b",
+        "quality": 80
+      },
+      {
+        "src": "/assets/tradition-covers/day-valsts-valodas-diena-8c5a2209f360-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 47376,
+        "sha256": "8c5a2209f360391ececad3fd29c63fe876d235be464363ef9c1442e614c7854d",
+        "quality": 80
+      },
+      {
+        "src": "/assets/tradition-covers/day-valsts-valodas-diena-b9bddcd0c233-1280.webp",
+        "width": 1280,
+        "height": 720,
+        "bytes": 71546,
+        "sha256": "b9bddcd0c233d31ed5dcaead2d655aef8fc56e3aa54618e22401309c11d0697c",
+        "quality": 80
+      }
+    ],
+    "sourceSha256": "db9eeb9d173c1392ebda6200aae3c3e5bb901554382c6726b50d77837e28464f",
+    "transform": "16:9 kadrējums; samazināts WebP attēls"
+  },
+  "day-vasaras-saulgriezi": {
+    "src": "/assets/tradition-covers/day-vasaras-saulgriezi-c14c58906a6d-640.webp",
+    "width": 640,
+    "height": 360,
+    "bytes": 27582,
+    "sha256": "c14c58906a6d23a91880db83830eecb6993c4868b3e758a7ca94cf4015f9c810",
+    "quality": 80,
+    "srcset": "/assets/tradition-covers/day-vasaras-saulgriezi-9f207a9198df-320.webp 320w, /assets/tradition-covers/day-vasaras-saulgriezi-c14c58906a6d-640.webp 640w, /assets/tradition-covers/day-vasaras-saulgriezi-6470ec5db8c0-960.webp 960w, /assets/tradition-covers/day-vasaras-saulgriezi-89a2e68a2640-1200.webp 1200w",
+    "files": [
+      {
+        "src": "/assets/tradition-covers/day-vasaras-saulgriezi-9f207a9198df-320.webp",
+        "width": 320,
+        "height": 180,
+        "bytes": 9538,
+        "sha256": "9f207a9198df015a4436a592cd0bedca648d374425a7f48b85e3faad108dd21c",
+        "quality": 80
+      },
+      {
+        "src": "/assets/tradition-covers/day-vasaras-saulgriezi-c14c58906a6d-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 27582,
+        "sha256": "c14c58906a6d23a91880db83830eecb6993c4868b3e758a7ca94cf4015f9c810",
+        "quality": 80
+      },
+      {
+        "src": "/assets/tradition-covers/day-vasaras-saulgriezi-6470ec5db8c0-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 51050,
+        "sha256": "6470ec5db8c03873cc14910d865f89f1882bda4adae0562d48c3a95a103f35ff",
+        "quality": 80
+      },
+      {
+        "src": "/assets/tradition-covers/day-vasaras-saulgriezi-89a2e68a2640-1200.webp",
+        "width": 1200,
+        "height": 675,
+        "bytes": 70952,
+        "sha256": "89a2e68a264082f11d249da8157f132b9acbde38498d3cfe1e27c32a1aabe0da",
+        "quality": 80
+      }
+    ],
+    "sourceSha256": "d28c900c9c36612948d30263f6543716e2bd6e7823001604d0ed369bd3cb168c",
+    "transform": "16:9 kadrējums; samazināts WebP attēls"
+  },
+  "day-latvijas-republikas-okupacijas-diena": {
+    "src": "/assets/tradition-covers/day-latvijas-republikas-okupacijas-diena-59c4747ad2e4-640.webp",
+    "width": 640,
+    "height": 360,
+    "bytes": 43752,
+    "sha256": "59c4747ad2e432779456cdaceed624a5b83f2bff4ba5c460e006874f220a69f7",
+    "quality": 80,
+    "srcset": "/assets/tradition-covers/day-latvijas-republikas-okupacijas-diena-82cd4537eb29-320.webp 320w, /assets/tradition-covers/day-latvijas-republikas-okupacijas-diena-59c4747ad2e4-640.webp 640w, /assets/tradition-covers/day-latvijas-republikas-okupacijas-diena-705b56e4bf0e-960.webp 960w, /assets/tradition-covers/day-latvijas-republikas-okupacijas-diena-579657425365-1280.webp 1280w",
+    "files": [
+      {
+        "src": "/assets/tradition-covers/day-latvijas-republikas-okupacijas-diena-82cd4537eb29-320.webp",
+        "width": 320,
+        "height": 180,
+        "bytes": 12416,
+        "sha256": "82cd4537eb2976388523ab101e9e4e04403b47f5613ba5f3b1b720879ed07157",
+        "quality": 80
+      },
+      {
+        "src": "/assets/tradition-covers/day-latvijas-republikas-okupacijas-diena-59c4747ad2e4-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 43752,
+        "sha256": "59c4747ad2e432779456cdaceed624a5b83f2bff4ba5c460e006874f220a69f7",
+        "quality": 80
+      },
+      {
+        "src": "/assets/tradition-covers/day-latvijas-republikas-okupacijas-diena-705b56e4bf0e-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 90546,
+        "sha256": "705b56e4bf0e12250fa5d8931718258bd1b4b3d78bd33ab2280d8775276ecce6",
+        "quality": 80
+      },
+      {
+        "src": "/assets/tradition-covers/day-latvijas-republikas-okupacijas-diena-579657425365-1280.webp",
+        "width": 1280,
+        "height": 720,
+        "bytes": 146316,
+        "sha256": "57965742536506774dc6157ad08cf5accd3993db5ac1580b5d7ecd601f324d38",
+        "quality": 80
+      }
+    ],
+    "sourceSha256": "62f3be2d42159ab8ec7e76eb619d903c1c5678d2b15b1c4e3e0dc0923fe54015",
+    "transform": "16:9 kadrējums; samazināts WebP attēls"
+  },
+  "day-vecgada-diena": {
+    "src": "/assets/tradition-covers/day-vecgada-diena-5021f9ffaf5b-640.webp",
+    "width": 640,
+    "height": 360,
+    "bytes": 30616,
+    "sha256": "5021f9ffaf5b26a4ae60eb442a62e7a2005b621017ae7b6e8edf1e9e2b3da3e1",
+    "quality": 80,
+    "srcset": "/assets/tradition-covers/day-vecgada-diena-c3358ae328f8-320.webp 320w, /assets/tradition-covers/day-vecgada-diena-5021f9ffaf5b-640.webp 640w, /assets/tradition-covers/day-vecgada-diena-8cc9668678bb-960.webp 960w, /assets/tradition-covers/day-vecgada-diena-baf283554895-1280.webp 1280w",
+    "files": [
+      {
+        "src": "/assets/tradition-covers/day-vecgada-diena-c3358ae328f8-320.webp",
+        "width": 320,
+        "height": 180,
+        "bytes": 10260,
+        "sha256": "c3358ae328f84bcdac168c43d8bb3016f8974fc4a201994b1bc4254914249e16",
+        "quality": 80
+      },
+      {
+        "src": "/assets/tradition-covers/day-vecgada-diena-5021f9ffaf5b-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 30616,
+        "sha256": "5021f9ffaf5b26a4ae60eb442a62e7a2005b621017ae7b6e8edf1e9e2b3da3e1",
+        "quality": 80
+      },
+      {
+        "src": "/assets/tradition-covers/day-vecgada-diena-8cc9668678bb-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 57808,
+        "sha256": "8cc9668678bb581e00514f6a81b0a69e93082a45d900297e04ccf8d5a595892b",
+        "quality": 80
+      },
+      {
+        "src": "/assets/tradition-covers/day-vecgada-diena-baf283554895-1280.webp",
+        "width": 1280,
+        "height": 720,
+        "bytes": 92128,
+        "sha256": "baf283554895c21093b43ed096aeacbd201be5a0b9fce82f6cfd3a7dea5eb6df",
+        "quality": 80
+      }
+    ],
+    "sourceSha256": "51adab61a84262939598a47328efd8df669e20bf9f34e0e68acc80d039410407",
+    "transform": "16:9 kadrējums; samazināts WebP attēls"
+  },
+  "newyear": {
+    "src": "/assets/tradition-covers/newyear-0fcceaf86712-640.webp",
+    "width": 640,
+    "height": 360,
+    "bytes": 35322,
+    "sha256": "0fcceaf867127212e0af745a897b750eda99e6b74248fad8bf8cc5d1bd460285",
+    "quality": 80,
+    "srcset": "/assets/tradition-covers/newyear-6fa4ca8c8922-320.webp 320w, /assets/tradition-covers/newyear-0fcceaf86712-640.webp 640w, /assets/tradition-covers/newyear-e84166b34c36-960.webp 960w",
+    "files": [
+      {
+        "src": "/assets/tradition-covers/newyear-6fa4ca8c8922-320.webp",
+        "width": 320,
+        "height": 180,
+        "bytes": 10240,
+        "sha256": "6fa4ca8c8922d61b6526b16024228fc817064a060e6ac267ff4d4c4ebdd6f391",
+        "quality": 80
+      },
+      {
+        "src": "/assets/tradition-covers/newyear-0fcceaf86712-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 35322,
+        "sha256": "0fcceaf867127212e0af745a897b750eda99e6b74248fad8bf8cc5d1bd460285",
+        "quality": 80
+      },
+      {
+        "src": "/assets/tradition-covers/newyear-e84166b34c36-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 78788,
+        "sha256": "e84166b34c36b5eb377aa2fa788db1520743475ca3d5fe262435532eac690610",
+        "quality": 80
+      }
+    ],
+    "sourceSha256": "2c2beecdbf175290e9b500f1077af58c7196fa3d7782649cb33c5930d55a2eae",
+    "transform": "16:9 kadrējums; samazināts WebP attēls"
+  },
+  "goodfriday": {
+    "src": "/assets/tradition-covers/goodfriday-3e57b1d111f8-640.webp",
+    "width": 640,
+    "height": 360,
+    "bytes": 51648,
+    "sha256": "3e57b1d111f83380fd2246064a35895ecb9653d7a0aa9a44547970b5d8ecc949",
+    "quality": 80,
+    "srcset": "/assets/tradition-covers/goodfriday-a21a5f3bacfe-320.webp 320w, /assets/tradition-covers/goodfriday-3e57b1d111f8-640.webp 640w, /assets/tradition-covers/goodfriday-c3f1a61be6cd-960.webp 960w",
+    "files": [
+      {
+        "src": "/assets/tradition-covers/goodfriday-a21a5f3bacfe-320.webp",
+        "width": 320,
+        "height": 180,
+        "bytes": 13686,
+        "sha256": "a21a5f3bacfe2637c32ae1182ce63853058d8bc7f6d6e523181eeada93063190",
+        "quality": 80
+      },
+      {
+        "src": "/assets/tradition-covers/goodfriday-3e57b1d111f8-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 51648,
+        "sha256": "3e57b1d111f83380fd2246064a35895ecb9653d7a0aa9a44547970b5d8ecc949",
+        "quality": 80
+      },
+      {
+        "src": "/assets/tradition-covers/goodfriday-c3f1a61be6cd-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 126346,
+        "sha256": "c3f1a61be6cd3462a04fb4b35358257bcc1e527138c8ef9627231be00cd75b58",
+        "quality": 80
+      }
+    ],
+    "sourceSha256": "0700d5b098546ffe824ad8b8493fc4fdded9532830dea8c4ff90d921c609f9e4",
+    "transform": "16:9 kadrējums; samazināts WebP attēls"
+  },
+  "easter": {
+    "src": "/assets/tradition-covers/easter-72bc9c94bd12-640.webp",
+    "width": 640,
+    "height": 360,
+    "bytes": 69538,
+    "sha256": "72bc9c94bd12454d914b6330a208daa0c4476ce2b1e659abf8af2282c14b50ff",
+    "quality": 80,
+    "srcset": "/assets/tradition-covers/easter-bd37d844c6a9-320.webp 320w, /assets/tradition-covers/easter-72bc9c94bd12-640.webp 640w, /assets/tradition-covers/easter-183a52566db9-960.webp 960w",
+    "files": [
+      {
+        "src": "/assets/tradition-covers/easter-bd37d844c6a9-320.webp",
+        "width": 320,
+        "height": 180,
+        "bytes": 17746,
+        "sha256": "bd37d844c6a9c6f4eaa9490a987a8d5946327fa9ea31c8fc754eda8a49cd2b4e",
+        "quality": 80
+      },
+      {
+        "src": "/assets/tradition-covers/easter-72bc9c94bd12-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 69538,
+        "sha256": "72bc9c94bd12454d914b6330a208daa0c4476ce2b1e659abf8af2282c14b50ff",
+        "quality": 80
+      },
+      {
+        "src": "/assets/tradition-covers/easter-183a52566db9-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 143616,
+        "sha256": "183a52566db9cd0aa0cb4ed2f14a541c78a9da3f9dfb5c1f4e0c79ce8278cb97",
+        "quality": 80
+      }
+    ],
+    "sourceSha256": "b9258feaa951ad064661b891e6e711825202646b5a11e854ac6ddc27a11d653f",
+    "transform": "16:9 kadrējums; samazināts WebP attēls"
+  },
+  "labour": {
+    "src": "/assets/tradition-covers/labour-eeabbb8034d1-640.webp",
+    "width": 640,
+    "height": 360,
+    "bytes": 65728,
+    "sha256": "eeabbb8034d179954a36b68bec0969dbad133f3028f8d3957b4dba50c04d7a50",
+    "quality": 80,
+    "srcset": "/assets/tradition-covers/labour-7059077bdbea-320.webp 320w, /assets/tradition-covers/labour-eeabbb8034d1-640.webp 640w, /assets/tradition-covers/labour-5faff78ad031-960.webp 960w",
+    "files": [
+      {
+        "src": "/assets/tradition-covers/labour-7059077bdbea-320.webp",
+        "width": 320,
+        "height": 180,
+        "bytes": 18238,
+        "sha256": "7059077bdbea84e387239f7994fa975256b4256c3a396ea047ce234e31daf37a",
+        "quality": 80
+      },
+      {
+        "src": "/assets/tradition-covers/labour-eeabbb8034d1-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 65728,
+        "sha256": "eeabbb8034d179954a36b68bec0969dbad133f3028f8d3957b4dba50c04d7a50",
+        "quality": 80
+      },
+      {
+        "src": "/assets/tradition-covers/labour-5faff78ad031-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 134130,
+        "sha256": "5faff78ad031297b2fbc4e9eb5445e8fbff61ce511214708937527a1b7c5f051",
+        "quality": 80
+      }
+    ],
+    "sourceSha256": "d603d927454cfe17e359e30eb37e652fab735c89fed7f129bd7b4b8d97acde71",
+    "transform": "16:9 kadrējums; samazināts WebP attēls"
+  },
+  "independence": {
+    "src": "/assets/tradition-covers/independence-c0aaf9448b96-640.webp",
+    "width": 640,
+    "height": 360,
+    "bytes": 29286,
+    "sha256": "c0aaf9448b9615bbd702b9d8074f9cf0fe50ae329382e8c416dec93f531113c8",
+    "quality": 80,
+    "srcset": "/assets/tradition-covers/independence-3905b29348ee-320.webp 320w, /assets/tradition-covers/independence-c0aaf9448b96-640.webp 640w, /assets/tradition-covers/independence-b9b99a8baee8-960.webp 960w",
+    "files": [
+      {
+        "src": "/assets/tradition-covers/independence-3905b29348ee-320.webp",
+        "width": 320,
+        "height": 180,
+        "bytes": 11166,
+        "sha256": "3905b29348ee35ce333aa1f14c0dc4025bebf244905c8e8159f58b26254a4540",
+        "quality": 80
+      },
+      {
+        "src": "/assets/tradition-covers/independence-c0aaf9448b96-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 29286,
+        "sha256": "c0aaf9448b9615bbd702b9d8074f9cf0fe50ae329382e8c416dec93f531113c8",
+        "quality": 80
+      },
+      {
+        "src": "/assets/tradition-covers/independence-b9b99a8baee8-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 51880,
+        "sha256": "b9b99a8baee85b66698ca42591d317de320e2e8165b3c3497caaa7a865c933ad",
+        "quality": 80
+      }
+    ],
+    "sourceSha256": "90ce1ff9f127f0028bace2788b489a2d394d3b3e6e5704c795f17f14df3a190b",
+    "transform": "16:9 kadrējums; samazināts WebP attēls"
+  },
+  "family": {
+    "src": "/assets/tradition-covers/family-8bf2a563cc91-640.webp",
+    "width": 640,
+    "height": 360,
+    "bytes": 61872,
+    "sha256": "8bf2a563cc917908c70d09dbe2c4b1b21d81a309dd3d630b447a085155ca0723",
+    "quality": 80,
+    "srcset": "/assets/tradition-covers/family-257be0073a16-320.webp 320w, /assets/tradition-covers/family-8bf2a563cc91-640.webp 640w, /assets/tradition-covers/family-d55f20e6c06c-960.webp 960w",
+    "files": [
+      {
+        "src": "/assets/tradition-covers/family-257be0073a16-320.webp",
+        "width": 320,
+        "height": 180,
+        "bytes": 19812,
+        "sha256": "257be0073a16fd5562ee3b0e599a350d703a5847dbebdb2477243263fe18d090",
+        "quality": 80
+      },
+      {
+        "src": "/assets/tradition-covers/family-8bf2a563cc91-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 61872,
+        "sha256": "8bf2a563cc917908c70d09dbe2c4b1b21d81a309dd3d630b447a085155ca0723",
+        "quality": 80
+      },
+      {
+        "src": "/assets/tradition-covers/family-d55f20e6c06c-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 110148,
+        "sha256": "d55f20e6c06c1ed7c1b78ff8bbd30e36557333d1563f2d53cd64e03711936427",
+        "quality": 80
+      }
+    ],
+    "sourceSha256": "9428f61ae46fe9186a6218edb3e031a2b7b6581b8f8e733346c248bd14186697",
+    "transform": "16:9 kadrējums; samazināts WebP attēls"
+  },
+  "pentecost": {
+    "src": "/assets/tradition-covers/pentecost-4c876243d171-640.webp",
+    "width": 640,
+    "height": 360,
+    "bytes": 40894,
+    "sha256": "4c876243d171cefe14f9c42091315526838d395946ae070c2b732e71fe6b5df8",
+    "quality": 80,
+    "srcset": "/assets/tradition-covers/pentecost-e39e24978066-320.webp 320w, /assets/tradition-covers/pentecost-4c876243d171-640.webp 640w, /assets/tradition-covers/pentecost-818b764b13a4-960.webp 960w",
+    "files": [
+      {
+        "src": "/assets/tradition-covers/pentecost-e39e24978066-320.webp",
+        "width": 320,
+        "height": 180,
+        "bytes": 11880,
+        "sha256": "e39e2497806652e80c8d7f77cf77bd020afb6e4f9b7e3c91f04ba061ce9c042e",
+        "quality": 80
+      },
+      {
+        "src": "/assets/tradition-covers/pentecost-4c876243d171-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 40894,
+        "sha256": "4c876243d171cefe14f9c42091315526838d395946ae070c2b732e71fe6b5df8",
+        "quality": 80
+      },
+      {
+        "src": "/assets/tradition-covers/pentecost-818b764b13a4-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 85594,
+        "sha256": "818b764b13a4f4fb68bc78147b76d8dbbe99ed8e571dfb5d32555501b372c2eb",
+        "quality": 80
+      }
+    ],
+    "sourceSha256": "dc7d7c4b55e9b7e807da9a0c329c20497c3d28ff511d959b0d43433eb2125bc3",
+    "transform": "16:9 kadrējums; samazināts WebP attēls"
+  },
+  "ligo": {
+    "src": "/assets/tradition-covers/ligo-6a2122e312d9-640.webp",
+    "width": 640,
+    "height": 360,
+    "bytes": 26074,
+    "sha256": "6a2122e312d91f4767a4c3e1b7136289a301eb9ec633152dfceb971630a7bfc7",
+    "quality": 80,
+    "srcset": "/assets/tradition-covers/ligo-216cb427db9b-320.webp 320w, /assets/tradition-covers/ligo-6a2122e312d9-640.webp 640w, /assets/tradition-covers/ligo-e1d8cbe9515a-960.webp 960w",
+    "files": [
+      {
+        "src": "/assets/tradition-covers/ligo-216cb427db9b-320.webp",
+        "width": 320,
+        "height": 180,
+        "bytes": 5394,
+        "sha256": "216cb427db9b58e09048eaa779617b131d22b48677364a7ee6d0b300667ed1a9",
+        "quality": 80
+      },
+      {
+        "src": "/assets/tradition-covers/ligo-6a2122e312d9-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 26074,
+        "sha256": "6a2122e312d91f4767a4c3e1b7136289a301eb9ec633152dfceb971630a7bfc7",
+        "quality": 80
+      },
+      {
+        "src": "/assets/tradition-covers/ligo-e1d8cbe9515a-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 66988,
+        "sha256": "e1d8cbe9515a136b3b0a8748e8853b311a31dda5b4050482dde39e07864e519d",
+        "quality": 80
+      }
+    ],
+    "sourceSha256": "7025af0ab74fd065dd3f312f5c29fe93163620818f99c8d01bebe6e48505fc62",
+    "transform": "16:9 kadrējums; samazināts WebP attēls"
+  },
+  "jani": {
+    "src": "/assets/tradition-covers/jani-800876283579-640.webp",
+    "width": 640,
+    "height": 360,
+    "bytes": 26280,
+    "sha256": "8008762835796aea68df947bb3d05994c0b46b0d7ec2583d3bbc882028207c9b",
+    "quality": 80,
+    "srcset": "/assets/tradition-covers/jani-1324bff100d4-320.webp 320w, /assets/tradition-covers/jani-800876283579-640.webp 640w, /assets/tradition-covers/jani-c10823d25540-960.webp 960w",
+    "files": [
+      {
+        "src": "/assets/tradition-covers/jani-1324bff100d4-320.webp",
+        "width": 320,
+        "height": 180,
+        "bytes": 7748,
+        "sha256": "1324bff100d464fba73dcdc2b41369dc3a9171be516dbea1b06cc74ec617512d",
+        "quality": 80
+      },
+      {
+        "src": "/assets/tradition-covers/jani-800876283579-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 26280,
+        "sha256": "8008762835796aea68df947bb3d05994c0b46b0d7ec2583d3bbc882028207c9b",
+        "quality": 80
+      },
+      {
+        "src": "/assets/tradition-covers/jani-c10823d25540-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 52004,
+        "sha256": "c10823d2554075486d7d780ad5e55fe7f41b9840f51b2f4c7c02e5f7e1f9963a",
+        "quality": 80
+      }
+    ],
+    "sourceSha256": "18e25fe7c9104044347db9fc287069986a78487bea4b2872952492e251370daf",
+    "transform": "16:9 kadrējums; samazināts WebP attēls"
+  },
+  "songfestival": {
+    "src": "/assets/tradition-covers/songfestival-88921a620d9d-640.webp",
+    "width": 640,
+    "height": 360,
+    "bytes": 51216,
+    "sha256": "88921a620d9d8b55f5e00d3421e577a7cb71da7ae04ff4c4a38f63c4ac3885c0",
+    "quality": 80,
+    "srcset": "/assets/tradition-covers/songfestival-71ea0c065eb5-320.webp 320w, /assets/tradition-covers/songfestival-88921a620d9d-640.webp 640w, /assets/tradition-covers/songfestival-c2e1307ed771-960.webp 960w",
+    "files": [
+      {
+        "src": "/assets/tradition-covers/songfestival-71ea0c065eb5-320.webp",
+        "width": 320,
+        "height": 180,
+        "bytes": 14228,
+        "sha256": "71ea0c065eb5c5ca6bcb77f9249020530e33ee1fc6b8b596e5960d8fea6cfb7e",
+        "quality": 80
+      },
+      {
+        "src": "/assets/tradition-covers/songfestival-88921a620d9d-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 51216,
+        "sha256": "88921a620d9d8b55f5e00d3421e577a7cb71da7ae04ff4c4a38f63c4ac3885c0",
+        "quality": 80
+      },
+      {
+        "src": "/assets/tradition-covers/songfestival-c2e1307ed771-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 107630,
+        "sha256": "c2e1307ed77188f2f14d5ca0ff4b53b5a1470cfd3d0a9fee4368235909dc7a00",
+        "quality": 80
+      }
+    ],
+    "sourceSha256": "140cc7e7d84fc6a402fabf41e12d10b3009cf8169bb47ab83297d33784f702e5",
+    "transform": "16:9 kadrējums; samazināts WebP attēls"
+  },
+  "november18": {
+    "src": "/assets/tradition-covers/november18-6b1f67943c80-640.webp",
+    "width": 640,
+    "height": 360,
+    "bytes": 36638,
+    "sha256": "6b1f67943c803e930c8195f5e519a6d093eb9bff8b920a52f3cded898b20b722",
+    "quality": 80,
+    "srcset": "/assets/tradition-covers/november18-995978512ac6-320.webp 320w, /assets/tradition-covers/november18-6b1f67943c80-640.webp 640w, /assets/tradition-covers/november18-cb7a425db689-960.webp 960w",
+    "files": [
+      {
+        "src": "/assets/tradition-covers/november18-995978512ac6-320.webp",
+        "width": 320,
+        "height": 180,
+        "bytes": 13486,
+        "sha256": "995978512ac6ed48bda669e1e422c8eb1ec2477f1a40fbe07158b28ecbce2120",
+        "quality": 80
+      },
+      {
+        "src": "/assets/tradition-covers/november18-6b1f67943c80-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 36638,
+        "sha256": "6b1f67943c803e930c8195f5e519a6d093eb9bff8b920a52f3cded898b20b722",
+        "quality": 80
+      },
+      {
+        "src": "/assets/tradition-covers/november18-cb7a425db689-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 66346,
+        "sha256": "cb7a425db689fd2dab7d78f99af68fd7172937508cef51b1b0d7f049757cf0e2",
+        "quality": 80
+      }
+    ],
+    "sourceSha256": "2eafffbc3d7ae0ff4671d8c32c050d4e7adc63108e8e9a4136d3774c9f64c6af",
+    "transform": "16:9 kadrējums; samazināts WebP attēls"
+  },
+  "christmas": {
+    "src": "/assets/tradition-covers/christmas-1d88e52234c8-640.webp",
+    "width": 640,
+    "height": 360,
+    "bytes": 52842,
+    "sha256": "1d88e52234c843b92c18b61d87c45984535788b5328f842878528c8f5a6e781d",
+    "quality": 80,
+    "srcset": "/assets/tradition-covers/christmas-eefd4d7c0e52-320.webp 320w, /assets/tradition-covers/christmas-1d88e52234c8-640.webp 640w, /assets/tradition-covers/christmas-d694b1f89c4e-960.webp 960w",
+    "files": [
+      {
+        "src": "/assets/tradition-covers/christmas-eefd4d7c0e52-320.webp",
+        "width": 320,
+        "height": 180,
+        "bytes": 12654,
+        "sha256": "eefd4d7c0e523374ca5637266664d6423b6b7c4957438c08efb446137182741c",
+        "quality": 80
+      },
+      {
+        "src": "/assets/tradition-covers/christmas-1d88e52234c8-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 52842,
+        "sha256": "1d88e52234c843b92c18b61d87c45984535788b5328f842878528c8f5a6e781d",
+        "quality": 80
+      },
+      {
+        "src": "/assets/tradition-covers/christmas-d694b1f89c4e-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 116704,
+        "sha256": "d694b1f89c4e728266a9aa4c93f766efd726bb72051316c6a2f1d7c8d5926ed8",
+        "quality": 80
+      }
+    ],
+    "sourceSha256": "2faa9204e0b1834acb340aaf866d97348cb858a45d4fb8572caead6f811ebc12",
+    "transform": "16:9 kadrējums; samazināts WebP attēls"
+  },
+  "lacplesis": {
+    "src": "/assets/tradition-covers/lacplesis-8f9ba27c9d79-640.webp",
+    "width": 640,
+    "height": 360,
+    "bytes": 33084,
+    "sha256": "8f9ba27c9d791c4e5bbedf97271563c5958e087cf28076f2e9cdc5f22deeb24a",
+    "quality": 80,
+    "srcset": "/assets/tradition-covers/lacplesis-d072bc193470-320.webp 320w, /assets/tradition-covers/lacplesis-8f9ba27c9d79-640.webp 640w, /assets/tradition-covers/lacplesis-44f8c268e74a-960.webp 960w",
+    "files": [
+      {
+        "src": "/assets/tradition-covers/lacplesis-d072bc193470-320.webp",
+        "width": 320,
+        "height": 180,
+        "bytes": 8916,
+        "sha256": "d072bc193470f718a1a2fc08f05d6626398cf30a37f12225e26ad44f747bb0a9",
+        "quality": 80
+      },
+      {
+        "src": "/assets/tradition-covers/lacplesis-8f9ba27c9d79-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 33084,
+        "sha256": "8f9ba27c9d791c4e5bbedf97271563c5958e087cf28076f2e9cdc5f22deeb24a",
+        "quality": 80
+      },
+      {
+        "src": "/assets/tradition-covers/lacplesis-44f8c268e74a-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 93518,
+        "sha256": "44f8c268e74add3e35823b5e76c56bb3c8f4e05412e13aa3e0c76b558679ea82",
+        "quality": 80
+      }
+    ],
+    "sourceSha256": "b372c2c3348bded72276917808d7f49da13dd0385f5e73d5824a188b5e53012f",
+    "transform": "16:9 kadrējums; samazināts WebP attēls"
+  },
+  "barricades": {
+    "src": "/assets/tradition-covers/barricades-233b1898ffe2-640.webp",
+    "width": 640,
+    "height": 360,
+    "bytes": 38040,
+    "sha256": "233b1898ffe2df3596dbe18fda5af38baa296f3da88f41d5a0714fce52eea616",
+    "quality": 80,
+    "srcset": "/assets/tradition-covers/barricades-995423303289-320.webp 320w, /assets/tradition-covers/barricades-233b1898ffe2-640.webp 640w, /assets/tradition-covers/barricades-2bc16298d73c-960.webp 960w",
+    "files": [
+      {
+        "src": "/assets/tradition-covers/barricades-995423303289-320.webp",
+        "width": 320,
+        "height": 180,
+        "bytes": 14066,
+        "sha256": "99542330328977acc34514f1ccb5ee106f2b36ae5c281d4577e48ab5298ddb4f",
+        "quality": 80
+      },
+      {
+        "src": "/assets/tradition-covers/barricades-233b1898ffe2-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 38040,
+        "sha256": "233b1898ffe2df3596dbe18fda5af38baa296f3da88f41d5a0714fce52eea616",
+        "quality": 80
+      },
+      {
+        "src": "/assets/tradition-covers/barricades-2bc16298d73c-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 67498,
+        "sha256": "2bc16298d73c3c7f1a569d8e1de4b87767d26e4d45b401b7e60aed0e5fe0634e",
+        "quality": 80
+      }
+    ],
+    "sourceSha256": "7d2e80ae18e516cdf503b7694dd4f494a4f711e3bb943bfd7d57c68abe76c4f8",
+    "transform": "16:9 kadrējums; samazināts WebP attēls"
+  },
+  "deportations": {
+    "src": "/assets/tradition-covers/deportations-578a7ef5827a-640.webp",
+    "width": 640,
+    "height": 360,
+    "bytes": 26314,
+    "sha256": "578a7ef5827a99a74ae153cd346db2408ca61a9df75b4229d00f9f13d422585a",
+    "quality": 80,
+    "srcset": "/assets/tradition-covers/deportations-8b6b3deee383-320.webp 320w, /assets/tradition-covers/deportations-578a7ef5827a-640.webp 640w, /assets/tradition-covers/deportations-739078211923-960.webp 960w",
+    "files": [
+      {
+        "src": "/assets/tradition-covers/deportations-8b6b3deee383-320.webp",
+        "width": 320,
+        "height": 180,
+        "bytes": 10590,
+        "sha256": "8b6b3deee383172cb61c68ba04e6092fe276c1f74706762e3d68a226bacec2b8",
+        "quality": 80
+      },
+      {
+        "src": "/assets/tradition-covers/deportations-578a7ef5827a-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 26314,
+        "sha256": "578a7ef5827a99a74ae153cd346db2408ca61a9df75b4229d00f9f13d422585a",
+        "quality": 80
+      },
+      {
+        "src": "/assets/tradition-covers/deportations-739078211923-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 44158,
+        "sha256": "73907821192361b7e4eedd58c8b275c35b87a8583efbc60356c23e9539458a44",
+        "quality": 80
+      }
+    ],
+    "sourceSha256": "1d82757b7d1df6a88f104ffc0ee36af94c07d4226d322c2ed41f8e54f3202f37",
+    "transform": "16:9 kadrējums; samazināts WebP attēls"
+  },
+  "latgale": {
+    "src": "/assets/tradition-covers/latgale-c6d5bb6044b2-640.webp",
+    "width": 640,
+    "height": 360,
+    "bytes": 26570,
+    "sha256": "c6d5bb6044b20e50cafce8f7687110bfc6bb0f88d7c8151bdfc58e6f1374f1e8",
+    "quality": 80,
+    "srcset": "/assets/tradition-covers/latgale-1c3e74ce07e5-320.webp 320w, /assets/tradition-covers/latgale-c6d5bb6044b2-640.webp 640w, /assets/tradition-covers/latgale-5cc88095d9d6-960.webp 960w",
+    "files": [
+      {
+        "src": "/assets/tradition-covers/latgale-1c3e74ce07e5-320.webp",
+        "width": 320,
+        "height": 180,
+        "bytes": 10168,
+        "sha256": "1c3e74ce07e57c0a8bb4c50e4c2723fc05f547b26ecc27aafa47c95276e0a3be",
+        "quality": 80
+      },
+      {
+        "src": "/assets/tradition-covers/latgale-c6d5bb6044b2-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 26570,
+        "sha256": "c6d5bb6044b20e50cafce8f7687110bfc6bb0f88d7c8151bdfc58e6f1374f1e8",
+        "quality": 80
+      },
+      {
+        "src": "/assets/tradition-covers/latgale-5cc88095d9d6-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 46178,
+        "sha256": "5cc88095d9d61cc5c5c596edfecb8578ed90a51f07526a2bdc2681675f28f657",
+        "quality": 80
+      }
+    ],
+    "sourceSha256": "f995e3536b75004cb6447a49d44502f90df94aa28dba9d79ed142d00d64616d0",
+    "transform": "16:9 kadrējums; samazināts WebP attēls"
+  },
+  "europe": {
+    "src": "/assets/tradition-covers/europe-7834e3728cd9-640.webp",
+    "width": 640,
+    "height": 360,
+    "bytes": 48798,
+    "sha256": "7834e3728cd9da10cd884f429ea8a7aa372c7d5ea93f5d687ef301f728a04c94",
+    "quality": 80,
+    "srcset": "/assets/tradition-covers/europe-d30d005203d1-320.webp 320w, /assets/tradition-covers/europe-7834e3728cd9-640.webp 640w, /assets/tradition-covers/europe-eff1715b8b53-960.webp 960w",
+    "files": [
+      {
+        "src": "/assets/tradition-covers/europe-d30d005203d1-320.webp",
+        "width": 320,
+        "height": 180,
+        "bytes": 14776,
+        "sha256": "d30d005203d1089ac20a76227199ee332f49b954763ccfc8059ff920958fbf1f",
+        "quality": 80
+      },
+      {
+        "src": "/assets/tradition-covers/europe-7834e3728cd9-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 48798,
+        "sha256": "7834e3728cd9da10cd884f429ea8a7aa372c7d5ea93f5d687ef301f728a04c94",
+        "quality": 80
+      },
+      {
+        "src": "/assets/tradition-covers/europe-eff1715b8b53-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 104178,
+        "sha256": "eff1715b8b53adda17c0dfee454d5fb44fbe02809c55900af5f584be6573b6a0",
+        "quality": 80
+      }
+    ],
+    "sourceSha256": "cc31f75246dac4bce2bfb1dbabe37aea77f667828223f36ad7779b0ed5f1f04e",
+    "transform": "16:9 kadrējums; samazināts WebP attēls"
+  },
+  "children": {
+    "src": "/assets/tradition-covers/children-f1fd54135dd8-640.webp",
+    "width": 640,
+    "height": 360,
+    "bytes": 53630,
+    "sha256": "f1fd54135dd8993a0365ea969a689acaa54849a47fec5d3b84d798da64d78895",
+    "quality": 80,
+    "srcset": "/assets/tradition-covers/children-bf0985212325-320.webp 320w, /assets/tradition-covers/children-f1fd54135dd8-640.webp 640w, /assets/tradition-covers/children-c2c275e3d5c6-960.webp 960w",
+    "files": [
+      {
+        "src": "/assets/tradition-covers/children-bf0985212325-320.webp",
+        "width": 320,
+        "height": 180,
+        "bytes": 17110,
+        "sha256": "bf0985212325e48c1f9ed1d28056c2fdb19972019aca5fe7af631fb4f9f2165c",
+        "quality": 80
+      },
+      {
+        "src": "/assets/tradition-covers/children-f1fd54135dd8-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 53630,
+        "sha256": "f1fd54135dd8993a0365ea969a689acaa54849a47fec5d3b84d798da64d78895",
+        "quality": 80
+      },
+      {
+        "src": "/assets/tradition-covers/children-c2c275e3d5c6-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 100148,
+        "sha256": "c2c275e3d5c6dd4c1f11c7bc46c689423211cbc3377644fedcfb2b3f5ad53e3c",
+        "quality": 80
+      }
+    ],
+    "sourceSha256": "296c7f72c08ffcf39244c35030b416c89c7183aa01166f0850436a625021b6fd",
+    "transform": "16:9 kadrējums; samazināts WebP attēls"
+  },
+  "school": {
+    "src": "/assets/tradition-covers/school-671bbd2845c3-640.webp",
+    "width": 640,
+    "height": 360,
+    "bytes": 43946,
+    "sha256": "671bbd2845c334d9caa0542eeb3c216d1874422e7d94e426257723caabc675c0",
+    "quality": 80,
+    "srcset": "/assets/tradition-covers/school-15c99f812a7f-320.webp 320w, /assets/tradition-covers/school-671bbd2845c3-640.webp 640w, /assets/tradition-covers/school-470d8dd2eb84-960.webp 960w",
+    "files": [
+      {
+        "src": "/assets/tradition-covers/school-15c99f812a7f-320.webp",
+        "width": 320,
+        "height": 180,
+        "bytes": 9664,
+        "sha256": "15c99f812a7f6971e1f154c71c074d352777649c8fa9d0d9e1b850e2f0f1bc52",
+        "quality": 80
+      },
+      {
+        "src": "/assets/tradition-covers/school-671bbd2845c3-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 43946,
+        "sha256": "671bbd2845c334d9caa0542eeb3c216d1874422e7d94e426257723caabc675c0",
+        "quality": 80
+      },
+      {
+        "src": "/assets/tradition-covers/school-470d8dd2eb84-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 113196,
+        "sha256": "470d8dd2eb845d71eb7316446fdcc60661b846cc22d7a8c8d9fda580a1209301",
+        "quality": 80
+      }
+    ],
+    "sourceSha256": "f92cec85075787511c9e9d19d31638ca1cb188c39a3c49b48465b74108c1d8fe",
+    "transform": "16:9 kadrējums; samazināts WebP attēls"
+  },
+  "balticunity": {
+    "src": "/assets/tradition-covers/balticunity-36457a758b18-640.webp",
+    "width": 640,
+    "height": 360,
+    "bytes": 24228,
+    "sha256": "36457a758b1884fc0b15c2072802138d2c0d52e076ac1721ad008314ef2ee5a1",
+    "quality": 80,
+    "srcset": "/assets/tradition-covers/balticunity-d6ece1a809ff-320.webp 320w, /assets/tradition-covers/balticunity-36457a758b18-640.webp 640w, /assets/tradition-covers/balticunity-87d323a32c06-960.webp 960w",
+    "files": [
+      {
+        "src": "/assets/tradition-covers/balticunity-d6ece1a809ff-320.webp",
+        "width": 320,
+        "height": 180,
+        "bytes": 7712,
+        "sha256": "d6ece1a809ffeb01923718c12a2d6dcb64f55f6846a22393b595639dfb176234",
+        "quality": 80
+      },
+      {
+        "src": "/assets/tradition-covers/balticunity-36457a758b18-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 24228,
+        "sha256": "36457a758b1884fc0b15c2072802138d2c0d52e076ac1721ad008314ef2ee5a1",
+        "quality": 80
+      },
+      {
+        "src": "/assets/tradition-covers/balticunity-87d323a32c06-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 54172,
+        "sha256": "87d323a32c06dd21d5ecdd33438e3f2f91290775a05981b11c0f18c29caf334c",
+        "quality": 80
+      }
+    ],
+    "sourceSha256": "2571dd70bfe0b9f038910d4de57a3958a857a9b1dd323f00ddb57347994cf870",
+    "transform": "16:9 kadrējums; samazināts WebP attēls"
+  },
+  "women": {
+    "src": "/assets/tradition-covers/women-214df1c74500-640.webp",
+    "width": 640,
+    "height": 360,
+    "bytes": 63142,
+    "sha256": "214df1c745005b751164cef37747e9fad22a0a3115c5282e1dd02f70476f4b3d",
+    "quality": 80,
+    "srcset": "/assets/tradition-covers/women-18f93eaaf53c-320.webp 320w, /assets/tradition-covers/women-214df1c74500-640.webp 640w, /assets/tradition-covers/women-685701d4b3eb-960.webp 960w",
+    "files": [
+      {
+        "src": "/assets/tradition-covers/women-18f93eaaf53c-320.webp",
+        "width": 320,
+        "height": 180,
+        "bytes": 16404,
+        "sha256": "18f93eaaf53c29ea8d42f6aae9b614571208c582db00674647a3cb05b57c41f5",
+        "quality": 80
+      },
+      {
+        "src": "/assets/tradition-covers/women-214df1c74500-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 63142,
+        "sha256": "214df1c745005b751164cef37747e9fad22a0a3115c5282e1dd02f70476f4b3d",
+        "quality": 80
+      },
+      {
+        "src": "/assets/tradition-covers/women-685701d4b3eb-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 134838,
+        "sha256": "685701d4b3ebc849f9879016d59455618d1cce0c95630873f56a3234f0b1419e",
+        "quality": 80
+      }
+    ],
+    "sourceSha256": "1c03f37ecc983e2121154ff4cf7c89971cfa85eb7147aba9bd7d4109325d9dda",
+    "transform": "16:9 kadrējums; samazināts WebP attēls"
+  },
+  "summer": {
+    "src": "/assets/tradition-covers/summer-d3606507b276-640.webp",
+    "width": 640,
+    "height": 360,
+    "bytes": 20294,
+    "sha256": "d3606507b2761386fe56fccc224cd18370dda1633b3c6b5573e62931c6fa26f1",
+    "quality": 80,
+    "srcset": "/assets/tradition-covers/summer-fa40e128edb7-320.webp 320w, /assets/tradition-covers/summer-d3606507b276-640.webp 640w, /assets/tradition-covers/summer-5e9e22e6c3d2-960.webp 960w",
+    "files": [
+      {
+        "src": "/assets/tradition-covers/summer-fa40e128edb7-320.webp",
+        "width": 320,
+        "height": 180,
+        "bytes": 4946,
+        "sha256": "fa40e128edb79e434aa69d1cf23515c11dad9cf0f768a7f9dca0ee45b6915bf8",
+        "quality": 80
+      },
+      {
+        "src": "/assets/tradition-covers/summer-d3606507b276-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 20294,
+        "sha256": "d3606507b2761386fe56fccc224cd18370dda1633b3c6b5573e62931c6fa26f1",
+        "quality": 80
+      },
+      {
+        "src": "/assets/tradition-covers/summer-5e9e22e6c3d2-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 42748,
+        "sha256": "5e9e22e6c3d204fa3dd5e54a216fdd3618e9c45766c4062b5a9093c75379e644",
+        "quality": 80
+      }
+    ],
+    "sourceSha256": "d10054b3fc91d9731ff72df7d3ba31b7194163f70d8a7d6244f15ee0a9cbe824",
+    "transform": "16:9 kadrējums; samazināts WebP attēls"
+  },
+  "winter": {
+    "src": "/assets/tradition-covers/winter-593485997c42-640.webp",
+    "width": 640,
+    "height": 360,
+    "bytes": 55988,
+    "sha256": "593485997c420b0f64ad53d62a75c110c185d5b2976cd3729ad76c82fce0d90c",
+    "quality": 80,
+    "srcset": "/assets/tradition-covers/winter-16e9f2bade64-320.webp 320w, /assets/tradition-covers/winter-593485997c42-640.webp 640w, /assets/tradition-covers/winter-cd4e023f87fc-960.webp 960w",
+    "files": [
+      {
+        "src": "/assets/tradition-covers/winter-16e9f2bade64-320.webp",
+        "width": 320,
+        "height": 180,
+        "bytes": 12550,
+        "sha256": "16e9f2bade64afd65c5e24584cea90519335914943bb2300b8d223c01f6f53e0",
+        "quality": 80
+      },
+      {
+        "src": "/assets/tradition-covers/winter-593485997c42-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 55988,
+        "sha256": "593485997c420b0f64ad53d62a75c110c185d5b2976cd3729ad76c82fce0d90c",
+        "quality": 80
+      },
+      {
+        "src": "/assets/tradition-covers/winter-cd4e023f87fc-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 134514,
+        "sha256": "cd4e023f87fc2afe32dfa0c8ffd0b63205d1dcf027bcec054775ce21a6e46fc5",
+        "quality": 80
+      }
+    ],
+    "sourceSha256": "8d66f0daa79503eb23a388e1b3655c1221213cc095a2b64bcf6aba4fcf3c8691",
+    "transform": "16:9 kadrējums; samazināts WebP attēls"
+  },
+  "november21": {
+    "src": "/assets/tradition-covers/november21-44699da4b524-640.webp",
+    "width": 640,
+    "height": 360,
+    "bytes": 55834,
+    "sha256": "44699da4b524a670c36776910b2a669d671e4c2c4a671515a347a5bb8c71c525",
+    "quality": 80,
+    "srcset": "/assets/tradition-covers/november21-b3f588378c9f-320.webp 320w, /assets/tradition-covers/november21-44699da4b524-640.webp 640w, /assets/tradition-covers/november21-39fca328832d-960.webp 960w",
+    "files": [
+      {
+        "src": "/assets/tradition-covers/november21-b3f588378c9f-320.webp",
+        "width": 320,
+        "height": 180,
+        "bytes": 14132,
+        "sha256": "b3f588378c9f2f71faa2d34346735cd81ff716fb8737053c1b994b2412534519",
+        "quality": 80
+      },
+      {
+        "src": "/assets/tradition-covers/november21-44699da4b524-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 55834,
+        "sha256": "44699da4b524a670c36776910b2a669d671e4c2c4a671515a347a5bb8c71c525",
+        "quality": 80
+      },
+      {
+        "src": "/assets/tradition-covers/november21-39fca328832d-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 128256,
+        "sha256": "39fca328832d709de5205da7f8667df782f34e2ab3e7925664a3da378c4adf3d",
+        "quality": 80
+      }
+    ],
+    "sourceSha256": "46771483afc5d8d0e8ed336f1621632300ca1f6be9c838b0ed57b25a1eafcc53",
+    "transform": "16:9 kadrējums; samazināts WebP attēls"
+  },
+  "holocaust": {
+    "src": "/assets/tradition-covers/holocaust-4d0c8a83e145-640.webp",
+    "width": 640,
+    "height": 360,
+    "bytes": 82152,
+    "sha256": "4d0c8a83e145fbdcd31673e88869b4949344fe758d29c18a0ee27610afa4b907",
+    "quality": 80,
+    "srcset": "/assets/tradition-covers/holocaust-d6c21f9d022b-320.webp 320w, /assets/tradition-covers/holocaust-4d0c8a83e145-640.webp 640w, /assets/tradition-covers/holocaust-c1f37503e394-960.webp 960w",
+    "files": [
+      {
+        "src": "/assets/tradition-covers/holocaust-d6c21f9d022b-320.webp",
+        "width": 320,
+        "height": 180,
+        "bytes": 18710,
+        "sha256": "d6c21f9d022b3d2a1ef102179df036e031abc3121ac8ca096313fb6e69133be7",
+        "quality": 80
+      },
+      {
+        "src": "/assets/tradition-covers/holocaust-4d0c8a83e145-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 82152,
+        "sha256": "4d0c8a83e145fbdcd31673e88869b4949344fe758d29c18a0ee27610afa4b907",
+        "quality": 80
+      },
+      {
+        "src": "/assets/tradition-covers/holocaust-c1f37503e394-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 164518,
+        "sha256": "c1f37503e3943275b1c691ec8b31b4ed9fbf305e9daf459ad8ea638e2745c3a5",
+        "quality": 72
+      }
+    ],
+    "sourceSha256": "d89eae1f79259645def049dfae882d3edcfb12c40315c3a6dec4e9301f98b3eb",
+    "transform": "16:9 kadrējums; samazināts WebP attēls"
+  },
+  "sea": {
+    "src": "/assets/tradition-covers/sea-8e457985b6c5-640.webp",
+    "width": 640,
+    "height": 360,
+    "bytes": 25860,
+    "sha256": "8e457985b6c588bf29b406363cdeeeddcbc71d5baf35183745e670f0ee05be8f",
+    "quality": 80,
+    "srcset": "/assets/tradition-covers/sea-fac284fae632-320.webp 320w, /assets/tradition-covers/sea-8e457985b6c5-640.webp 640w, /assets/tradition-covers/sea-4e725b0d0260-800.webp 800w",
+    "files": [
+      {
+        "src": "/assets/tradition-covers/sea-fac284fae632-320.webp",
+        "width": 320,
+        "height": 180,
+        "bytes": 9356,
+        "sha256": "fac284fae63238ad2ef06007da41a34eed7583e4de862c3d170a50c2d9d84867",
+        "quality": 80
+      },
+      {
+        "src": "/assets/tradition-covers/sea-8e457985b6c5-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 25860,
+        "sha256": "8e457985b6c588bf29b406363cdeeeddcbc71d5baf35183745e670f0ee05be8f",
+        "quality": 80
+      },
+      {
+        "src": "/assets/tradition-covers/sea-4e725b0d0260-800.webp",
+        "width": 800,
+        "height": 450,
+        "bytes": 35996,
+        "sha256": "4e725b0d0260082dd1994f0ba81a8baa66817009693e4b687e1be5347467d2cc",
+        "quality": 80
+      }
+    ],
+    "sourceSha256": "59c6426608512bb4e1e61ef5e11fd314724e500527f52f08491e28854f8a7e47",
+    "transform": "16:9 kadrējums; samazināts WebP attēls"
+  },
+  "constitution": {
+    "src": "/assets/tradition-covers/constitution-558bb24194f2-640.webp",
+    "width": 640,
+    "height": 360,
+    "bytes": 60148,
+    "sha256": "558bb24194f24456fd3d97ef5d2a8050bb97a4cd3f06df623e3f0c76bbfdcc9e",
+    "quality": 80,
+    "srcset": "/assets/tradition-covers/constitution-6f58e2bca1db-320.webp 320w, /assets/tradition-covers/constitution-558bb24194f2-640.webp 640w, /assets/tradition-covers/constitution-d2e936028f14-960.webp 960w",
+    "files": [
+      {
+        "src": "/assets/tradition-covers/constitution-6f58e2bca1db-320.webp",
+        "width": 320,
+        "height": 180,
+        "bytes": 17562,
+        "sha256": "6f58e2bca1db6c20e8256b13abb51daa15f8accd05f04de7ce79ca403cf082ca",
+        "quality": 80
+      },
+      {
+        "src": "/assets/tradition-covers/constitution-558bb24194f2-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 60148,
+        "sha256": "558bb24194f24456fd3d97ef5d2a8050bb97a4cd3f06df623e3f0c76bbfdcc9e",
+        "quality": 80
+      },
+      {
+        "src": "/assets/tradition-covers/constitution-d2e936028f14-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 122942,
+        "sha256": "d2e936028f148d10e49fa430cef4428af2cb21b2c03dcb6b3d06526f06bed96b",
+        "quality": 80
+      }
+    ],
+    "sourceSha256": "8af8fd872d9fc43f22fb8e407dcb37420cffa82aa089f24f10670c7a4844604c",
+    "transform": "16:9 kadrējums; samazināts WebP attēls"
+  },
+  "occupation": {
+    "src": "/assets/tradition-covers/occupation-0a8776ca37e7-640.webp",
+    "width": 640,
+    "height": 360,
+    "bytes": 33766,
+    "sha256": "0a8776ca37e71bb85e3bdf4de993cd9434f33a132e374019815b32f4a5fd3989",
+    "quality": 80,
+    "srcset": "/assets/tradition-covers/occupation-eb8cc49926e8-320.webp 320w, /assets/tradition-covers/occupation-0a8776ca37e7-640.webp 640w, /assets/tradition-covers/occupation-015460c23c2b-960.webp 960w",
+    "files": [
+      {
+        "src": "/assets/tradition-covers/occupation-eb8cc49926e8-320.webp",
+        "width": 320,
+        "height": 180,
+        "bytes": 7906,
+        "sha256": "eb8cc49926e81dffa08e11c243610d68439d892cd4cac618007516a8ebb07143",
+        "quality": 80
+      },
+      {
+        "src": "/assets/tradition-covers/occupation-0a8776ca37e7-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 33766,
+        "sha256": "0a8776ca37e71bb85e3bdf4de993cd9434f33a132e374019815b32f4a5fd3989",
+        "quality": 80
+      },
+      {
+        "src": "/assets/tradition-covers/occupation-015460c23c2b-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 75894,
+        "sha256": "015460c23c2b3ea4c019dbb8638e32ec38b23bb2a9bd165d5758c79673a99e60",
+        "quality": 80
+      }
+    ],
+    "sourceSha256": "e7e3aae084a6dcb3d47025a917afc72cd0ff5f84a3ed75b911955f61f8d2e4df",
+    "transform": "16:9 kadrējums; samazināts WebP attēls"
+  },
+  "dejure": {
+    "src": "/assets/tradition-covers/dejure-501b096176ce-640.webp",
+    "width": 640,
+    "height": 360,
+    "bytes": 68874,
+    "sha256": "501b096176ce4cf11b09292d12f5159eb0547877d3b0b5f06db80633a30907fc",
+    "quality": 80,
+    "srcset": "/assets/tradition-covers/dejure-6d9588bc858e-320.webp 320w, /assets/tradition-covers/dejure-501b096176ce-640.webp 640w, /assets/tradition-covers/dejure-9b63bf0cd211-960.webp 960w",
+    "files": [
+      {
+        "src": "/assets/tradition-covers/dejure-6d9588bc858e-320.webp",
+        "width": 320,
+        "height": 180,
+        "bytes": 18224,
+        "sha256": "6d9588bc858efef5ee76c666be815cb10d01b303d1d1b4185c64a9ffea077557",
+        "quality": 80
+      },
+      {
+        "src": "/assets/tradition-covers/dejure-501b096176ce-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 68874,
+        "sha256": "501b096176ce4cf11b09292d12f5159eb0547877d3b0b5f06db80633a30907fc",
+        "quality": 80
+      },
+      {
+        "src": "/assets/tradition-covers/dejure-9b63bf0cd211-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 147326,
+        "sha256": "9b63bf0cd211a575bf90d6966e3e83621cdb9623ca1deaa405822b63d814a711",
+        "quality": 80
+      }
+    ],
+    "sourceSha256": "10673dfdfcad0eeca8cdd41370b6386ba19784b0d50250bd588be82e7cac594d",
+    "transform": "16:9 kadrējums; samazināts WebP attēls"
+  },
+  "freedom": {
+    "src": "/assets/tradition-covers/freedom-dc4470406a77-640.webp",
+    "width": 640,
+    "height": 360,
+    "bytes": 73800,
+    "sha256": "dc4470406a7744cb6e3787fc8390e9ef5be2096d75abaa48008fe2deb75e6957",
+    "quality": 80,
+    "srcset": "/assets/tradition-covers/freedom-cc737d634d68-320.webp 320w, /assets/tradition-covers/freedom-dc4470406a77-640.webp 640w, /assets/tradition-covers/freedom-21eb7653a333-960.webp 960w",
+    "files": [
+      {
+        "src": "/assets/tradition-covers/freedom-cc737d634d68-320.webp",
+        "width": 320,
+        "height": 180,
+        "bytes": 15340,
+        "sha256": "cc737d634d68a4bbfcf09a1d432b148a4ead5bb00601b367f5f3419a095ff8e0",
+        "quality": 80
+      },
+      {
+        "src": "/assets/tradition-covers/freedom-dc4470406a77-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 73800,
+        "sha256": "dc4470406a7744cb6e3787fc8390e9ef5be2096d75abaa48008fe2deb75e6957",
+        "quality": 80
+      },
+      {
+        "src": "/assets/tradition-covers/freedom-21eb7653a333-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 159706,
+        "sha256": "21eb7653a333bff90f5e82b7101deac969b2a808876898415a252cffddcd361f",
+        "quality": 72
+      }
+    ],
+    "sourceSha256": "c3ff6f9adaa6543ee4247433f7572dbced8741d4917059d00cbae6aba0e68848",
+    "transform": "16:9 kadrējums; samazināts WebP attēls"
+  },
+  "doctors": {
+    "src": "/assets/tradition-covers/doctors-69012131ee30-640.webp",
+    "width": 640,
+    "height": 360,
+    "bytes": 58942,
+    "sha256": "69012131ee30db437c5f9d546417bedff5dda9da005c6a0fe52d056386e26171",
+    "quality": 80,
+    "srcset": "/assets/tradition-covers/doctors-1e2f8a774bcb-320.webp 320w, /assets/tradition-covers/doctors-69012131ee30-640.webp 640w, /assets/tradition-covers/doctors-a4e393c9a41f-960.webp 960w",
+    "files": [
+      {
+        "src": "/assets/tradition-covers/doctors-1e2f8a774bcb-320.webp",
+        "width": 320,
+        "height": 180,
+        "bytes": 14766,
+        "sha256": "1e2f8a774bcb96219dcbc7ae2329a49e05919356ef10b47b67893e40a7a5334e",
+        "quality": 80
+      },
+      {
+        "src": "/assets/tradition-covers/doctors-69012131ee30-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 58942,
+        "sha256": "69012131ee30db437c5f9d546417bedff5dda9da005c6a0fe52d056386e26171",
+        "quality": 80
+      },
+      {
+        "src": "/assets/tradition-covers/doctors-a4e393c9a41f-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 139112,
+        "sha256": "a4e393c9a41f9e32bcb9adeee9a610f7d944cb71748b91e54902231b7cc4b427",
+        "quality": 80
+      }
+    ],
+    "sourceSha256": "d6321f7a504ef91d812547f4afc153b28f1758500238f1ea1dd33bf3df01aea4",
+    "transform": "16:9 kadrējums; samazināts WebP attēls"
+  },
+  "partisans": {
+    "src": "/assets/tradition-covers/partisans-df14d8957a21-640.webp",
+    "width": 640,
+    "height": 360,
+    "bytes": 85424,
+    "sha256": "df14d8957a21cd6c3efa65a98bbfde6e2122d527a5ebc5c5108f1dcd3331c069",
+    "quality": 64,
+    "srcset": "/assets/tradition-covers/partisans-7546af470a85-320.webp 320w, /assets/tradition-covers/partisans-df14d8957a21-640.webp 640w, /assets/tradition-covers/partisans-3f44eb4e7c53-960.webp 960w",
+    "files": [
+      {
+        "src": "/assets/tradition-covers/partisans-7546af470a85-320.webp",
+        "width": 320,
+        "height": 180,
+        "bytes": 23492,
+        "sha256": "7546af470a8523d7cc6110d68f4ff89d1fa398b3aebca115ba4d9c18924520de",
+        "quality": 80
+      },
+      {
+        "src": "/assets/tradition-covers/partisans-df14d8957a21-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 85424,
+        "sha256": "df14d8957a21cd6c3efa65a98bbfde6e2122d527a5ebc5c5108f1dcd3331c069",
+        "quality": 64
+      },
+      {
+        "src": "/assets/tradition-covers/partisans-3f44eb4e7c53-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 188448,
+        "sha256": "3f44eb4e7c53e31d782a4fe5794c045f5bca2f7a042da2b4bd0efd6e1d12f7c4",
+        "quality": 50
+      }
+    ],
+    "sourceSha256": "66191d1ca647f8086b35e52bc360ca350c5cb9070afe72969f1c804e0b2f9509",
+    "transform": "16:9 kadrējums; samazināts WebP attēls"
+  },
+  "resistance": {
+    "src": "/assets/tradition-covers/resistance-de2a2fa1d5e2-640.webp",
+    "width": 640,
+    "height": 360,
+    "bytes": 54734,
+    "sha256": "de2a2fa1d5e29860f6d0b04453c927587cbf72daac6967fb60827fc527f2616f",
+    "quality": 80,
+    "srcset": "/assets/tradition-covers/resistance-e9332febc26b-320.webp 320w, /assets/tradition-covers/resistance-de2a2fa1d5e2-640.webp 640w, /assets/tradition-covers/resistance-e1275248952d-960.webp 960w",
+    "files": [
+      {
+        "src": "/assets/tradition-covers/resistance-e9332febc26b-320.webp",
+        "width": 320,
+        "height": 180,
+        "bytes": 11308,
+        "sha256": "e9332febc26bca222ea21e48d1059a6f110ea2406d0fa3d002d826a011044c62",
+        "quality": 80
+      },
+      {
+        "src": "/assets/tradition-covers/resistance-de2a2fa1d5e2-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 54734,
+        "sha256": "de2a2fa1d5e29860f6d0b04453c927587cbf72daac6967fb60827fc527f2616f",
+        "quality": 80
+      },
+      {
+        "src": "/assets/tradition-covers/resistance-e1275248952d-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 127604,
+        "sha256": "e1275248952d193f3cf6ec848950976d0547490e47437ac923cbcb228f72a13b",
+        "quality": 80
+      }
+    ],
+    "sourceSha256": "6db134d660b49d1bb7600f87956123315ead5e8a25183bdf5402c359fee48d73",
+    "transform": "16:9 kadrējums; samazināts WebP attēls"
+  },
+  "wwii": {
+    "src": "/assets/tradition-covers/wwii-7ac19e2b0425-640.webp",
+    "width": 640,
+    "height": 360,
+    "bytes": 49384,
+    "sha256": "7ac19e2b04255e6a7c20580c1765db73726cd20024c516e603300af86aeb0023",
+    "quality": 80,
+    "srcset": "/assets/tradition-covers/wwii-0f5d3606e8a3-320.webp 320w, /assets/tradition-covers/wwii-7ac19e2b0425-640.webp 640w, /assets/tradition-covers/wwii-4db1ad9fcadd-960.webp 960w",
+    "files": [
+      {
+        "src": "/assets/tradition-covers/wwii-0f5d3606e8a3-320.webp",
+        "width": 320,
+        "height": 180,
+        "bytes": 11578,
+        "sha256": "0f5d3606e8a355f6c77b6d89521056815583f6cbdbaeb8da315e2c84fd58964d",
+        "quality": 80
+      },
+      {
+        "src": "/assets/tradition-covers/wwii-7ac19e2b0425-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 49384,
+        "sha256": "7ac19e2b04255e6a7c20580c1765db73726cd20024c516e603300af86aeb0023",
+        "quality": 80
+      },
+      {
+        "src": "/assets/tradition-covers/wwii-4db1ad9fcadd-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 121124,
+        "sha256": "4db1ad9fcadd3e809948b541add1fa15898dd2d8796e5bee322c6e88cee449db",
+        "quality": 80
+      }
+    ],
+    "sourceSha256": "59b4623cd8886a1cd12181eb1a547e5f7166a42bd9ff03643450b13382adf197",
+    "transform": "16:9 kadrējums; samazināts WebP attēls"
+  },
+  "police": {
+    "src": "/assets/tradition-covers/police-4d0cce5a9d08-640.webp",
+    "width": 640,
+    "height": 360,
+    "bytes": 20878,
+    "sha256": "4d0cce5a9d08ba14c4e941b7caea01c0d1be7ea209c3a640ae11b8530182965f",
+    "quality": 80,
+    "srcset": "/assets/tradition-covers/police-2fb6d4266425-320.webp 320w, /assets/tradition-covers/police-4d0cce5a9d08-640.webp 640w, /assets/tradition-covers/police-ac9de63c462a-960.webp 960w",
+    "files": [
+      {
+        "src": "/assets/tradition-covers/police-2fb6d4266425-320.webp",
+        "width": 320,
+        "height": 180,
+        "bytes": 8848,
+        "sha256": "2fb6d42664255670a614f48b7b7b3b3f23dc87d72b78e781dae7f3b24aae2082",
+        "quality": 80
+      },
+      {
+        "src": "/assets/tradition-covers/police-4d0cce5a9d08-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 20878,
+        "sha256": "4d0cce5a9d08ba14c4e941b7caea01c0d1be7ea209c3a640ae11b8530182965f",
+        "quality": 80
+      },
+      {
+        "src": "/assets/tradition-covers/police-ac9de63c462a-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 34950,
+        "sha256": "ac9de63c462a286c725ace894a2611db30ad0a98b2024aea9d0e28a26231bb4c",
+        "quality": 80
+      }
+    ],
+    "sourceSha256": "17860cd1c0b1f9b42884fd6abedaae852609f0f5d7d127cca0b919a19a5b1fe4",
+    "transform": "16:9 kadrējums; samazināts WebP attēls"
+  },
+  "border": {
+    "src": "/assets/tradition-covers/border-dbd9479fe70b-640.webp",
+    "width": 640,
+    "height": 360,
+    "bytes": 25876,
+    "sha256": "dbd9479fe70b91b1ad4a5dba770eb72bd10df99603dd9052333a9f02e166003e",
+    "quality": 80,
+    "srcset": "/assets/tradition-covers/border-a4e76b387857-320.webp 320w, /assets/tradition-covers/border-dbd9479fe70b-640.webp 640w, /assets/tradition-covers/border-93d3f11b9192-960.webp 960w",
+    "files": [
+      {
+        "src": "/assets/tradition-covers/border-a4e76b387857-320.webp",
+        "width": 320,
+        "height": 180,
+        "bytes": 9014,
+        "sha256": "a4e76b3878578b15b96485d9d2a987402533ac2d2c4597eb1f1b17f15ba1c478",
+        "quality": 80
+      },
+      {
+        "src": "/assets/tradition-covers/border-dbd9479fe70b-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 25876,
+        "sha256": "dbd9479fe70b91b1ad4a5dba770eb72bd10df99603dd9052333a9f02e166003e",
+        "quality": 80
+      },
+      {
+        "src": "/assets/tradition-covers/border-93d3f11b9192-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 48768,
+        "sha256": "93d3f11b919243c7a9485b6bd24cb7c2d3a8a527e73302c79563caf5146d0493",
+        "quality": 80
+      }
+    ],
+    "sourceSha256": "841010809bbf289c8e27fee2ddd6d658d3d774175dd4591bfcb2d87e7dcee207",
+    "transform": "16:9 kadrējums; samazināts WebP attēls"
+  },
+  "ngo": {
+    "src": "/assets/tradition-covers/ngo-459881872788-640.webp",
+    "width": 640,
+    "height": 360,
+    "bytes": 23516,
+    "sha256": "459881872788e0277b4e4dfdf05600357c147d42e0176e4f327b4ed3a010256b",
+    "quality": 80,
+    "srcset": "/assets/tradition-covers/ngo-5435cccfad0a-320.webp 320w, /assets/tradition-covers/ngo-459881872788-640.webp 640w, /assets/tradition-covers/ngo-a947214c726d-960.webp 960w",
+    "files": [
+      {
+        "src": "/assets/tradition-covers/ngo-5435cccfad0a-320.webp",
+        "width": 320,
+        "height": 180,
+        "bytes": 8666,
+        "sha256": "5435cccfad0a8c6bd71d431a34bdda479b79b9c52589b12def65dcd680928236",
+        "quality": 80
+      },
+      {
+        "src": "/assets/tradition-covers/ngo-459881872788-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 23516,
+        "sha256": "459881872788e0277b4e4dfdf05600357c147d42e0176e4f327b4ed3a010256b",
+        "quality": 80
+      },
+      {
+        "src": "/assets/tradition-covers/ngo-a947214c726d-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 46294,
+        "sha256": "a947214c726d370485f16d49547b476a6de57145eef6d3d2825a7892da27c847",
+        "quality": 80
+      }
+    ],
+    "sourceSha256": "14b02b666cd3759474d91c76fcb45a3537f4928e07837954584d6c113aba41d1",
+    "transform": "16:9 kadrējums; samazināts WebP attēls"
+  },
+  "seniors": {
+    "src": "/assets/tradition-covers/seniors-cad327fb2aa2-640.webp",
+    "width": 640,
+    "height": 360,
+    "bytes": 36344,
+    "sha256": "cad327fb2aa2eaf970add6c4f24b3105869e5d4e08fa6b1cebbeb42ac17f75e4",
+    "quality": 80,
+    "srcset": "/assets/tradition-covers/seniors-721dedd20ff5-320.webp 320w, /assets/tradition-covers/seniors-cad327fb2aa2-640.webp 640w, /assets/tradition-covers/seniors-de24f0c8e568-960.webp 960w",
+    "files": [
+      {
+        "src": "/assets/tradition-covers/seniors-721dedd20ff5-320.webp",
+        "width": 320,
+        "height": 180,
+        "bytes": 12452,
+        "sha256": "721dedd20ff5c2606fffe48e4066ea03f1fec3e8a6870329ffd0b90ee78d523a",
+        "quality": 80
+      },
+      {
+        "src": "/assets/tradition-covers/seniors-cad327fb2aa2-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 36344,
+        "sha256": "cad327fb2aa2eaf970add6c4f24b3105869e5d4e08fa6b1cebbeb42ac17f75e4",
+        "quality": 80
+      },
+      {
+        "src": "/assets/tradition-covers/seniors-de24f0c8e568-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 66448,
+        "sha256": "de24f0c8e5687466bd8db2d10640bdb4acef22e773e17d641125d21ee3d3bb17",
+        "quality": 80
+      }
+    ],
+    "sourceSha256": "0329d5971c00a5f2ec0af48e9c5497902d408d3542f102bc40548331d2102ddf",
+    "transform": "16:9 kadrējums; samazināts WebP attēls"
+  },
+  "blackribbon": {
+    "src": "/assets/tradition-covers/blackribbon-ac3c5c54947e-640.webp",
+    "width": 640,
+    "height": 360,
+    "bytes": 26948,
+    "sha256": "ac3c5c54947e7c424364cedb1c83864c7c4e18619b546122d48bc03b6cb032bd",
+    "quality": 80,
+    "srcset": "/assets/tradition-covers/blackribbon-d94aa6ea277a-320.webp 320w, /assets/tradition-covers/blackribbon-ac3c5c54947e-640.webp 640w, /assets/tradition-covers/blackribbon-39730a020ea9-836.webp 836w",
+    "files": [
+      {
+        "src": "/assets/tradition-covers/blackribbon-d94aa6ea277a-320.webp",
+        "width": 320,
+        "height": 180,
+        "bytes": 8994,
+        "sha256": "d94aa6ea277ad1e2e2064e8b160879f37ad014275f3c6a8fbb69965d0910fcfc",
+        "quality": 80
+      },
+      {
+        "src": "/assets/tradition-covers/blackribbon-ac3c5c54947e-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 26948,
+        "sha256": "ac3c5c54947e7c424364cedb1c83864c7c4e18619b546122d48bc03b6cb032bd",
+        "quality": 80
+      },
+      {
+        "src": "/assets/tradition-covers/blackribbon-39730a020ea9-836.webp",
+        "width": 836,
+        "height": 470,
+        "bytes": 42784,
+        "sha256": "39730a020ea9257a51036644bf67c4a4cd0397346c03d9511d06d41ec0c39089",
+        "quality": 80
+      }
+    ],
+    "sourceSha256": "8dc617449e6bac3417924fd8e01fe57a7498c6914c4e98c4ce933f295e396e1f",
+    "transform": "16:9 kadrējums; samazināts WebP attēls"
+  },
+  "firefighters": {
+    "src": "/assets/tradition-covers/firefighters-419a56017169-640.webp",
+    "width": 640,
+    "height": 360,
+    "bytes": 51562,
+    "sha256": "419a560171694ff0a052f355d15983af3208965588b7b5541cc46d82f3a995ae",
+    "quality": 80,
+    "srcset": "/assets/tradition-covers/firefighters-76c8259bc29a-320.webp 320w, /assets/tradition-covers/firefighters-419a56017169-640.webp 640w, /assets/tradition-covers/firefighters-72282540b954-960.webp 960w",
+    "files": [
+      {
+        "src": "/assets/tradition-covers/firefighters-76c8259bc29a-320.webp",
+        "width": 320,
+        "height": 180,
+        "bytes": 13262,
+        "sha256": "76c8259bc29a6a7bf0c355d4df034927818258c88b9800b9142ade56c87c96f4",
+        "quality": 80
+      },
+      {
+        "src": "/assets/tradition-covers/firefighters-419a56017169-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 51562,
+        "sha256": "419a560171694ff0a052f355d15983af3208965588b7b5541cc46d82f3a995ae",
+        "quality": 80
+      },
+      {
+        "src": "/assets/tradition-covers/firefighters-72282540b954-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 114466,
+        "sha256": "72282540b95488698bb9472568272b1247021e430be56cb053adf5bee7dd0e5b",
+        "quality": 80
+      }
+    ],
+    "sourceSha256": "326b8aaaa9f1a782473b3cc6929566f02606b0087c0925e3a6fcbd1b863cedca",
+    "transform": "16:9 kadrējums; samazināts WebP attēls"
+  },
+  "cesisbattle": {
+    "src": "/assets/tradition-covers/cesisbattle-70252c34e11c-640.webp",
+    "width": 640,
+    "height": 360,
+    "bytes": 75546,
+    "sha256": "70252c34e11c19c0378650883a65edd6c160e2a8a9a65893b5a78a7a31bd475f",
+    "quality": 80,
+    "srcset": "/assets/tradition-covers/cesisbattle-a5e53c1afe57-320.webp 320w, /assets/tradition-covers/cesisbattle-70252c34e11c-640.webp 640w, /assets/tradition-covers/cesisbattle-1341894a9601-960.webp 960w",
+    "files": [
+      {
+        "src": "/assets/tradition-covers/cesisbattle-a5e53c1afe57-320.webp",
+        "width": 320,
+        "height": 180,
+        "bytes": 16834,
+        "sha256": "a5e53c1afe571ba392892d9419f0ef43811c11ef67a0859cde0f16a898682c18",
+        "quality": 80
+      },
+      {
+        "src": "/assets/tradition-covers/cesisbattle-70252c34e11c-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 75546,
+        "sha256": "70252c34e11c19c0378650883a65edd6c160e2a8a9a65893b5a78a7a31bd475f",
+        "quality": 80
+      },
+      {
+        "src": "/assets/tradition-covers/cesisbattle-1341894a9601-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 154150,
+        "sha256": "1341894a9601c81f98e4393125f1c57adf61e8c3c08587de82d93263335357a4",
+        "quality": 72
+      }
+    ],
+    "sourceSha256": "872926234bedb2ab14ef9d475cc45a38acbe4690d5c0a7c816bcdeacdeab1440",
+    "transform": "16:9 kadrējums; samazināts WebP attēls"
+  }
+}

@@ -1,0 +1,15 @@
+<section class="content-card university-photo-credits occasion-photo-credits" id="tradiciju-fotografijas">
+  <div class="university-photo-heading"><div><span class="eyebrow">TRADĪCIJAS UN TEMATISKĀS DIENAS</span><h2>25 tēmu fotoattēli, to autori un licences</h2><p>Šie attēli papildina svētku un tradīciju ceļvedi un attiecīgo tēmu lapas. Fotogrāfijas ir arhīva vai tematiski attēli, nevis nākamo gadu pasākumu dokumentācija. Ja foto uzņemts ārpus Latvijas, tas norādīts aprakstā.</p><p>Attēli samazināti un pārvērsti WebP formātā; kartītēm izmantots 16:9 kadrējums. Zemes fotogrāfijai saglabātas proporcijas uz tumša fona. Šie pielāgojumi nemaina sākotnējo licenci. CC BY-SA darbu pielāgojumiem piemērojama attiecīgā kopīgošanas licence.</p></div></div>
+  <div class="photo-catalog university-photo-catalog occasion-photo-catalog">
+    {% assign catalog = site.data['tradition-photos'] %}
+    {% for photo in catalog.photos %}
+    {% assign cover = site.data['tradition-covers'][photo.id] %}
+    {% unless photo.existingCredit %}
+    <article id="occasion-photo-{{ photo.id }}">
+      <img src="{{ cover.src }}" srcset="{{ cover.srcset }}" sizes="(max-width: 700px) 90vw, (max-width: 1000px) 44vw, 30vw" alt="{{ photo.alt | escape }}" width="{{ cover.width }}" height="{{ cover.height }}" loading="lazy" decoding="async">
+      <div><h3><a href="/svetki-un-tradicijas/{{ photo.slug }}/">{{ photo.alt | escape }}</a></h3><p>{{ photo.caption | escape }}</p><p>{{ photo.author | escape }} · <a href="{{ photo.licenseUrl | escape }}" target="_blank" rel="noopener">{{ photo.license | escape }}</a></p><p><a href="{{ photo.sourceUrl | escape }}" target="_blank" rel="noopener">Oriģinālais fails un licences informācija Wikimedia Commons ↗</a> · <a href="{{ cover.src }}">Vietnē izmantotā kopija</a></p><small>{{ cover.transform | escape }} · avots pārbaudīts 11.11.2026.</small></div>
+    </article>
+    {% else %}<p>Starptautiskās dzimtās valodas dienas attēls: <a href="#occasion-photo-language">Dainu skapis — autors, avots un licence kopīgajā ierakstā</a>.</p>{% endunless %}
+    {% endfor %}
+  </div>
+</section>

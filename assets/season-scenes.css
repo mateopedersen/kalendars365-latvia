@@ -1,0 +1,25 @@
+/* Dedicated seasonal miniatures, with no shared monthly-symbol stand-ins. */
+.category-v2 .v2-hero--seasons .v2-hero-scene{height:auto;padding:20px;background:radial-gradient(ellipse at 30% 12%,#fffcf6,#ede3d9)}
+.season-hero-gallery{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));width:100%;gap:12px;align-self:stretch}
+.season-hero-tile{display:flex;flex-direction:column;min-width:0;justify-content:center;padding:5px 9px 12px;border:1px solid #fff9;border-radius:17px;background:linear-gradient(145deg,#ffffffe0,#f6efe5b8);box-shadow:0 5px 15px #59302d0b;color:#643346;text-decoration:none;transition:transform .18s,border-color .18s,box-shadow .18s}
+.season-hero-tile:hover{transform:translateY(-2px);border-color:#cda3a7;box-shadow:0 10px 18px #59302d14;text-decoration:none}
+.season-hero-tile>img{display:block;width:100%;height:auto;min-height:0;aspect-ratio:6/5;object-fit:contain}
+.season-hero-tile>span{display:flex;align-items:center;justify-content:space-between;gap:10px;padding:0 9px;font-size:15px;font-weight:700;line-height:1.35}
+.season-hero-tile b{font-size:17px;font-weight:500;color:#a57777}
+.category-v2 .season-card{scroll-margin-top:18px;display:flex;flex-direction:column;min-width:0;background:#fffdf9}
+.category-v2 .season-card>img{display:block;width:100%;height:auto;aspect-ratio:6/5;object-fit:contain;border-bottom:1px solid #eee5dc;background:radial-gradient(ellipse at 36% 22%,#fffefa,#f2ebdf)}
+.category-v2 .season-card--spring>img{background:radial-gradient(ellipse at 36% 22%,#fffef7,#e8ecdf)}
+.category-v2 .season-card--summer>img{background:radial-gradient(ellipse at 36% 22%,#fffdf2,#f1e7cd)}
+.category-v2 .season-card--autumn>img{background:radial-gradient(ellipse at 36% 22%,#fffaf3,#efdfce)}
+.category-v2 .season-card--winter>img{background:radial-gradient(ellipse at 36% 22%,#f9fcfb,#dfe9ed)}
+.category-v2 .season-card>div{flex:1;padding:22px;min-width:0}
+.category-v2 .season-card h3{font-size:clamp(25px,2.4vw,31px);margin:6px 0 15px;line-height:1.2}
+.category-v2 .season-card time{font-size:14px;line-height:1.65;font-weight:650}
+.category-v2 .season-card small{line-height:1.55;overflow-wrap:anywhere}
+.category-v2 .season-card .category-photo-caption{margin-top:16px;padding-top:12px;border-top:1px solid #eee2da}
+@media(max-width:1100px) and (min-width:701px){.category-v2 .season-photographic-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:900px){.category-v2 .v2-hero--seasons .v2-hero-scene{min-height:0;padding:15px}.season-hero-gallery{gap:10px}.season-hero-tile{padding-bottom:11px}.season-hero-tile>span{font-size:14px}.category-v2 .season-card>div{padding:20px}}
+@media(max-width:700px){.category-v2 .season-photographic-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:13px}.category-v2 .season-card>div{padding:17px}.category-v2 .season-card h3{font-size:25px}.category-v2 .season-card time{font-size:13px}}
+@media(max-width:480px){.category-v2 .season-photographic-grid{grid-template-columns:1fr}.season-hero-tile{border-radius:13px;padding:3px 3px 10px}.season-hero-tile>span{padding:0 7px;font-size:13px}.category-v2 .season-card>div{padding:22px}.category-v2 .season-card time{font-size:15px}.category-v2 .season-card h3{font-size:31px}}
+@media(prefers-reduced-motion:reduce){.season-hero-tile{transition:none}}
+@media print{.season-hero-gallery{display:none}.category-v2 .season-card{break-inside:avoid}.category-v2 .season-card>img{max-height:40mm}}

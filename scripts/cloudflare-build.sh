@@ -18,3 +18,4 @@ export BUNDLE_FROZEN=true
 bundle _4.0.20_ install --jobs 2 --retry 3
 bundle _4.0.20_ exec ruby scripts/generate.rb
 JEKYLL_ENV=production bundle _4.0.20_ exec jekyll build --trace
+node --test test/social-covers.test.cjs

@@ -6,7 +6,7 @@ import {traditionCard} from '../assets/tradition-cards.mjs';
 import K from '../assets/category-core.js';
 const read = file => JSON.parse(fs.readFileSync(file, 'utf8'));
 
-test('all 25 cultural topics have distinct local vector artwork instead of the generic gift', () => {
+test('archived vector artwork for the 25 cultural topics stays intact', () => {
   const topics = read('_data/latvia-extra-pages.json').culturalPages;
   const art = read('_data/tradition-illustrations.json');
   assert.equal(topics.length, 25);

@@ -1,0 +1,216 @@
+{
+  "version": 1,
+  "source": "scripts/build_astronomy_event_art.mjs",
+  "orientation": "Northern hemisphere standard phase diagrams; illustrations are not topocentric sky simulations.",
+  "references": [
+    "https://science.nasa.gov/moon/moon-phases/",
+    "https://starchild.gsfc.nasa.gov/docs/StarChild/solar_system_level2/moonlight.html",
+    "https://aa.usno.navy.mil/faq/moon_phases"
+  ],
+  "artworks": [
+    {
+      "key": "moon-new",
+      "title": "Jaunmēness",
+      "description": "Tumšs Mēness disks jaunmēnesī.",
+      "kind": "phase",
+      "variant": "new",
+      "litSide": "none",
+      "file": "/assets/astronomy-events/moon-new.svg",
+      "bytes": 23916,
+      "sha256": "eaf1aee7aff50a490af0ceb0ef8de66be8e5648ac364c419ef2901a62b4fb924"
+    },
+    {
+      "key": "moon-first",
+      "title": "Pirmais ceturksnis",
+      "description": "Mēness labā puse apgaismota ziemeļu puslodes standarta skatā.",
+      "kind": "phase",
+      "variant": "first",
+      "litSide": "right",
+      "file": "/assets/astronomy-events/moon-first.svg",
+      "bytes": 24142,
+      "sha256": "c01ac3ad29bd1ca7b5813c1d15544460c64bff18c3653a1131ee0c867f8354af"
+    },
+    {
+      "key": "moon-full",
+      "title": "Pilnmēness",
+      "description": "Pilnībā apgaismots Mēness disks.",
+      "kind": "phase",
+      "variant": "full",
+      "litSide": "both",
+      "file": "/assets/astronomy-events/moon-full.svg",
+      "bytes": 23914,
+      "sha256": "4a9757a59bd29edabbfb1961f3954e5d67e0ffbbe8936166176ec94872e9e6a8"
+    },
+    {
+      "key": "moon-last",
+      "title": "Pēdējais ceturksnis",
+      "description": "Mēness kreisā puse apgaismota ziemeļu puslodes standarta skatā.",
+      "kind": "phase",
+      "variant": "last",
+      "litSide": "left",
+      "file": "/assets/astronomy-events/moon-last.svg",
+      "bytes": 24069,
+      "sha256": "4f41475df03ebbf1f2a71df608d1d2ef0ea25dfedcf2c84b1c4d1f950044b6fb"
+    },
+    {
+      "key": "solar-partial",
+      "title": "Daļējs Saules aptumsums",
+      "description": "Ilustratīvs Saules aptumsuma veida attēls.",
+      "kind": "solar",
+      "variant": "partial",
+      "file": "/assets/astronomy-events/solar-partial.svg",
+      "bytes": 6842,
+      "sha256": "86abde8878b9b95d907caf2af5ab666677ef3304af49d43821e2bfea0e145d25"
+    },
+    {
+      "key": "solar-annular",
+      "title": "Gredzenveida Saules aptumsums",
+      "description": "Ilustratīvs Saules aptumsuma veida attēls.",
+      "kind": "solar",
+      "variant": "annular",
+      "file": "/assets/astronomy-events/solar-annular.svg",
+      "bytes": 6848,
+      "sha256": "b86d53f60fc83c04ff1368ba6b3d252fcc04b8d1111ce1e552b4a251f566a110"
+    },
+    {
+      "key": "solar-total",
+      "title": "Pilns Saules aptumsums",
+      "description": "Ilustratīvs Saules aptumsuma veida attēls.",
+      "kind": "solar",
+      "variant": "total",
+      "file": "/assets/astronomy-events/solar-total.svg",
+      "bytes": 8425,
+      "sha256": "a8836c9aa5ae32284780d013090bfc7c0f608ff15f996120cc7d895456f51158"
+    },
+    {
+      "key": "lunar-penumbral",
+      "title": "Pusēnas Mēness aptumsums",
+      "description": "Ilustratīvs Mēness aptumsuma veida attēls.",
+      "kind": "lunar",
+      "variant": "penumbral",
+      "file": "/assets/astronomy-events/lunar-penumbral.svg",
+      "bytes": 24720,
+      "sha256": "13a6b2f5f1e07090da9f542e139ee79985f97d382ebc7f5bb465de2f12537cc5"
+    },
+    {
+      "key": "lunar-partial",
+      "title": "Daļējs Mēness aptumsums",
+      "description": "Ilustratīvs Mēness aptumsuma veida attēls.",
+      "kind": "lunar",
+      "variant": "partial",
+      "file": "/assets/astronomy-events/lunar-partial.svg",
+      "bytes": 24463,
+      "sha256": "4b12d6988f1dfc5b2a466e7fddfca714c3f1b2d8d4b9bec9bdacfb13f1f08519"
+    },
+    {
+      "key": "lunar-total",
+      "title": "Pilns Mēness aptumsums",
+      "description": "Ilustratīvs Mēness aptumsuma veida attēls.",
+      "kind": "lunar",
+      "variant": "total",
+      "file": "/assets/astronomy-events/lunar-total.svg",
+      "bytes": 24221,
+      "sha256": "c91a3ee817a6b4efc966134ed4fd963479177b4721e9d10324ac7a764444bb09"
+    },
+    {
+      "key": "season-spring",
+      "title": "Pavasara ekvinokcija",
+      "description": "Zemes un Saules sezonāla vektoru kompozīcija.",
+      "kind": "season",
+      "variant": "spring",
+      "file": "/assets/astronomy-events/season-spring.svg",
+      "bytes": 7410,
+      "sha256": "dc393008fc114c749834a134a5aca3ab3ed6006bfe0600e56c8b9aeced6ab86e"
+    },
+    {
+      "key": "season-summer",
+      "title": "Vasaras saulgrieži",
+      "description": "Zemes un Saules sezonāla vektoru kompozīcija.",
+      "kind": "season",
+      "variant": "summer",
+      "file": "/assets/astronomy-events/season-summer.svg",
+      "bytes": 6481,
+      "sha256": "4f26bc6314a046251f1decd5ed1c05c26fb8d370dbf89ccb252f924c316f1ae3"
+    },
+    {
+      "key": "season-autumn",
+      "title": "Rudens ekvinokcija",
+      "description": "Zemes un Saules sezonāla vektoru kompozīcija.",
+      "kind": "season",
+      "variant": "autumn",
+      "file": "/assets/astronomy-events/season-autumn.svg",
+      "bytes": 6474,
+      "sha256": "3145c1bf8474e50a9d6d2561f24b38d62609bb482d7c33e79b97710b9856454a"
+    },
+    {
+      "key": "season-winter",
+      "title": "Ziemas saulgrieži",
+      "description": "Zemes un Saules sezonāla vektoru kompozīcija.",
+      "kind": "season",
+      "variant": "winter",
+      "file": "/assets/astronomy-events/season-winter.svg",
+      "bytes": 8271,
+      "sha256": "4d98a69c3cb50100aece788780ff80ccf43f298ce9b4a6610b1389b774d27af1"
+    },
+    {
+      "key": "perihelion",
+      "title": "Perihēlijs",
+      "description": "Zeme orbītas tuvākajā punktā Saulei. Shēma nav mērogā.",
+      "kind": "season",
+      "variant": "perihelion",
+      "file": "/assets/astronomy-events/perihelion.svg",
+      "bytes": 6278,
+      "sha256": "4d707baaab1a5f0ef772a44d942ad4805ac56ffee8fc39744ea1614d47e5d9c6"
+    },
+    {
+      "key": "aphelion",
+      "title": "Afēlijs",
+      "description": "Zeme orbītas tālākajā punktā no Saules. Shēma nav mērogā.",
+      "kind": "season",
+      "variant": "aphelion",
+      "file": "/assets/astronomy-events/aphelion.svg",
+      "bytes": 6237,
+      "sha256": "4c953370209bedeae928a3866e6204a648072d73e3c1ed64d78696fa7e7dd636"
+    },
+    {
+      "key": "perseids",
+      "title": "Perseīdu novērošanas nakts",
+      "description": "Meteoru pēdu ilustrācija virs nakts ainavas.",
+      "kind": "meteor",
+      "variant": "perseids",
+      "file": "/assets/astronomy-events/perseids.svg",
+      "bytes": 5686,
+      "sha256": "a58a871d239d4d4f8d8dae13b5a94fd9ed4aec1e5dc74ceb271ca6e2e0467c12"
+    },
+    {
+      "key": "sunrise",
+      "title": "Saules ceļš",
+      "description": "Saules un horizonta ilustrācija.",
+      "kind": "tool",
+      "variant": "sunrise",
+      "file": "/assets/astronomy-events/sunrise.svg",
+      "bytes": 5193,
+      "sha256": "e4b2a351c78263d94b09dc8eb3a80b928900bd5f4c2d3848f6e8defb5d351630"
+    },
+    {
+      "key": "moon-overview",
+      "title": "Mēness cikls",
+      "description": "Četri atšķirīgi galvenie Mēness fāžu veidi.",
+      "kind": "tool",
+      "variant": "moon-overview",
+      "file": "/assets/astronomy-events/moon-overview.svg",
+      "bytes": 5778,
+      "sha256": "3e7a6b56e61adb4c10f3a5ec4c505cb16be32919055177cd63960eb891954000"
+    },
+    {
+      "key": "observatory",
+      "title": "Astronomisko notikumu ceļvedis",
+      "description": "Teleskops un nakts debesis.",
+      "kind": "tool",
+      "variant": "observatory",
+      "file": "/assets/astronomy-events/observatory.svg",
+      "bytes": 5852,
+      "sha256": "a866e0cf54cee64a954eb9f2f6952a0b4f4453d15882a228741e5063f01e3c8d"
+    }
+  ]
+}

@@ -48,3 +48,31 @@
 .v2-hero--lunar .v2-hero-scene{background:#04060a}.v2-lunar-photograph{position:absolute;inset:0;margin:0;padding:20px 22px 18px;display:grid;grid-template-rows:minmax(0,1fr) auto;gap:12px}.v2-lunar-photograph>img{display:block;width:100%;height:100%;min-width:0;min-height:0;object-fit:contain}.v2-lunar-photograph>figcaption{font-size:11px;line-height:1.7;color:#dedbe1;text-align:center;font-weight:500}.v2-lunar-photograph>figcaption span{display:block}.v2-lunar-photograph a{color:#f3d9b0;text-underline-offset:3px}.v2-lunar-photograph a:focus-visible{outline:2px solid #f3d9b0;outline-offset:3px}@media(max-width:620px){.v2-hero--lunar .v2-hero-scene{height:300px;min-height:300px}.v2-lunar-photograph{padding:14px 16px 15px;gap:10px}.v2-lunar-photograph>figcaption{font-size:11px}}
 
 @media(max-width:360px){.category-v2 .lunar-year-mini-months{grid-template-columns:repeat(2,minmax(0,1fr))}}
+
+/* Keep event-specific artwork visible on every screen width. */
+.category-page--astronomiskais-kalendars .v2-astronomy-observatory{display:block;width:min(100%,355px);height:auto;margin:auto;filter:drop-shadow(0 15px 16px #22152c22)}
+.category-page--astronomiskais-kalendars .astronomy-feature{grid-template-columns:190px minmax(0,1fr)}
+.category-page--astronomiskais-kalendars .astronomy-feature>img{width:190px;height:190px}
+.category-page--astronomiskais-kalendars .astronomy-timeline-row{grid-template-columns:110px 104px minmax(0,1fr) 128px;gap:22px;padding:19px 25px}
+.category-page--astronomiskais-kalendars .astronomy-timeline-row>img{display:block;width:96px;height:96px;object-fit:contain}
+.category-page--astronomiskais-kalendars .astronomy-timeline-row>div{min-width:0;overflow-wrap:anywhere}
+.category-page--astronomiskais-kalendars .astronomy-timeline-row>a{grid-column:4}
+@media(max-width:1000px){.category-page--astronomiskais-kalendars .astronomy-timeline-row{grid-template-columns:90px 82px minmax(0,1fr);gap:17px}.category-page--astronomiskais-kalendars .astronomy-timeline-row>time{grid-column:1;grid-row:1/3}.category-page--astronomiskais-kalendars .astronomy-timeline-row>img{grid-column:2;grid-row:1/3;width:80px;height:80px}.category-page--astronomiskais-kalendars .astronomy-timeline-row>div{grid-column:3;grid-row:1}.category-page--astronomiskais-kalendars .astronomy-timeline-row>a{grid-column:3;grid-row:2;text-align:left}}
+@media(max-width:620px){.category-page--astronomiskais-kalendars .astronomy-feature{grid-template-columns:76px minmax(0,1fr);gap:14px;padding:20px 16px}.category-page--astronomiskais-kalendars .astronomy-feature>img{width:76px;height:76px}.category-page--astronomiskais-kalendars .astronomy-timeline-row{grid-template-columns:64px minmax(0,1fr);gap:9px 13px;padding:18px 14px}.category-page--astronomiskais-kalendars .astronomy-timeline-row>img{grid-column:1;grid-row:1/4;width:64px;height:64px;align-self:start}.category-page--astronomiskais-kalendars .astronomy-timeline-row>time{grid-column:2;grid-row:1;font-size:12px;line-height:1.5}.category-page--astronomiskais-kalendars .astronomy-timeline-row>div{grid-column:2;grid-row:2}.category-page--astronomiskais-kalendars .astronomy-timeline-row>a{grid-column:2;grid-row:3}.category-page--astronomiskais-kalendars .astronomy-timeline-row h3{font-size:19px;line-height:1.3}}
+
+/* A clear, comfortably sized action for each astronomy event. */
+.category-page--astronomiskais-kalendars .astronomy-timeline-row>.astronomy-event-link{
+ display:inline-flex;align-items:center;justify-content:center;justify-self:end;gap:9px;
+ min-width:126px;min-height:44px;padding:9px 13px;border:1px solid #d8b9c4;border-radius:12px;
+ background:linear-gradient(145deg,#fffdfb,#f7edf0);color:#7c2945;
+ font-family:'Avenir Next',Avenir,'DM Sans',system-ui,sans-serif;font-size:15px;font-weight:700;line-height:1.35;letter-spacing:.1px;
+ text-decoration:none;white-space:nowrap;box-shadow:0 2px 5px #69283f0a;
+ transition:background-color .16s ease,border-color .16s ease,box-shadow .16s ease;
+}
+.category-page--astronomiskais-kalendars .astronomy-event-link-icon{display:inline-flex;align-items:center;justify-content:center;flex:0 0 24px;width:24px;height:24px;border-radius:50%;background:#eedee5;color:#8c3553;transition:background-color .16s ease,color .16s ease}
+.category-page--astronomiskais-kalendars .astronomy-event-link-icon svg{display:block;flex:none}
+.category-page--astronomiskais-kalendars .astronomy-timeline-row>.astronomy-event-link:hover{background:#f5e5eb;border-color:#ad6a80;box-shadow:0 3px 8px #69283f14}
+.category-page--astronomiskais-kalendars .astronomy-event-link:hover .astronomy-event-link-icon{background:#842c49;color:#fff}
+.category-page--astronomiskais-kalendars .astronomy-timeline-row>.astronomy-event-link:focus-visible{outline:3px solid #9c536e;outline-offset:3px}
+@media(max-width:1000px){.category-page--astronomiskais-kalendars .astronomy-timeline-row>.astronomy-event-link{justify-self:start}}
+@media(prefers-reduced-motion:reduce){.category-page--astronomiskais-kalendars .astronomy-timeline-row>.astronomy-event-link,.category-page--astronomiskais-kalendars .astronomy-event-link-icon{transition:none}}

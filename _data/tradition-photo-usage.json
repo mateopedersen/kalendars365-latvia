@@ -1,0 +1,440 @@
+{
+  "newyear": [
+    {
+      "title": "Jaungada diena",
+      "url": "/svetki-un-tradicijas/jaungada-diena/"
+    }
+  ],
+  "goodfriday": [
+    {
+      "title": "Lielā Piektdiena",
+      "url": "/svetki-un-tradicijas/liela-piektdiena/"
+    }
+  ],
+  "easter": [
+    {
+      "title": "Lieldienas",
+      "url": "/svetki-un-tradicijas/lieldienas/"
+    }
+  ],
+  "labour": [
+    {
+      "title": "Darba svētki",
+      "url": "/svetki-un-tradicijas/darba-svetki/"
+    }
+  ],
+  "independence": [
+    {
+      "title": "Neatkarības atjaunošanas diena",
+      "url": "/svetki-un-tradicijas/neatkaribas-atjaunosanas-diena/"
+    }
+  ],
+  "day-mates-diena": [
+    {
+      "title": "Mātes diena",
+      "url": "/svetki-un-tradicijas/mates-diena/"
+    }
+  ],
+  "pentecost": [
+    {
+      "title": "Vasarsvētki",
+      "url": "/svetki-un-tradicijas/vasarsvetki/"
+    }
+  ],
+  "ligo": [
+    {
+      "title": "Līgo diena",
+      "url": "/svetki-un-tradicijas/ligo-diena/"
+    }
+  ],
+  "jani": [
+    {
+      "title": "Jāņu diena",
+      "url": "/svetki-un-tradicijas/janu-diena/"
+    }
+  ],
+  "songfestival": [
+    {
+      "title": "Dziesmu un deju svētki",
+      "url": "/svetki-un-tradicijas/dziesmu-un-deju-svetki/"
+    }
+  ],
+  "november18": [
+    {
+      "title": "Latvijas Republikas Proklamēšanas diena",
+      "url": "/svetki-un-tradicijas/latvijas-republikas-proklamesanas-diena/"
+    }
+  ],
+  "christmas": [
+    {
+      "title": "Ziemassvētki",
+      "url": "/svetki-un-tradicijas/ziemassvetki/"
+    }
+  ],
+  "day-vecgada-diena": [
+    {
+      "title": "Vecgada diena",
+      "url": "/svetki-un-tradicijas/vecgada-diena/"
+    }
+  ],
+  "lacplesis": [
+    {
+      "title": "Lāčplēša diena",
+      "url": "/svetki-un-tradicijas/lacplesa-diena/"
+    }
+  ],
+  "barricades": [
+    {
+      "title": "Barikāžu aizstāvju atceres diena",
+      "url": "/svetki-un-tradicijas/barikazu-aizstavju-atceres-diena/"
+    }
+  ],
+  "deportations": [
+    {
+      "title": "Komunistiskā genocīda upuru piemiņas diena",
+      "url": "/svetki-un-tradicijas/komunistiska-genocida-upuru-pieminas-diena/"
+    }
+  ],
+  "latgale": [
+    {
+      "title": "Latgales kongresa diena",
+      "url": "/svetki-un-tradicijas/latgales-kongresa-diena/"
+    }
+  ],
+  "europe": [
+    {
+      "title": "Eiropas diena",
+      "url": "/svetki-un-tradicijas/eiropas-diena/"
+    }
+  ],
+  "children": [
+    {
+      "title": "Bērnu aizsardzības diena",
+      "url": "/svetki-un-tradicijas/bernu-aizsardzibas-diena/"
+    }
+  ],
+  "school": [
+    {
+      "title": "Zinību diena",
+      "url": "/svetki-un-tradicijas/zinibu-diena/"
+    }
+  ],
+  "day-tevu-diena": [
+    {
+      "title": "Tēva diena",
+      "url": "/svetki-un-tradicijas/tevu-diena/"
+    }
+  ],
+  "balticunity": [
+    {
+      "title": "Baltu vienības diena",
+      "url": "/svetki-un-tradicijas/baltu-vienibas-diena/"
+    }
+  ],
+  "day-valsts-valodas-diena": [
+    {
+      "title": "Valsts valodas diena",
+      "url": "/svetki-un-tradicijas/valsts-valodas-diena/"
+    }
+  ],
+  "day-skolotaju-diena": [
+    {
+      "title": "Skolotāju diena",
+      "url": "/svetki-un-tradicijas/skolotaju-diena/"
+    }
+  ],
+  "women": [
+    {
+      "title": "Starptautiskā sieviešu diena",
+      "url": "/svetki-un-tradicijas/starptautiska-sieviesu-diena/"
+    }
+  ],
+  "summer": [
+    {
+      "title": "Saulgrieži",
+      "url": "/svetki-un-tradicijas/saulgriezi/"
+    }
+  ],
+  "day-vasaras-saulgriezi": [
+    {
+      "title": "Vasaras saulgrieži",
+      "url": "/svetki-un-tradicijas/vasaras-saulgriezi/"
+    }
+  ],
+  "winter": [
+    {
+      "title": "Ziemas saulgrieži",
+      "url": "/svetki-un-tradicijas/ziemas-saulgriezi/"
+    }
+  ],
+  "november21": [
+    {
+      "title": "2013. gada 21. novembra traģēdijas atceres diena",
+      "url": "/svetki-un-tradicijas/zolitudes-tragedijas-atceres-diena/"
+    }
+  ],
+  "holocaust": [
+    {
+      "title": "Ebreju tautas genocīda upuru piemiņas diena",
+      "url": "/svetki-un-tradicijas/ebreju-tautas-genocida-upuru-pieminas-diena/"
+    }
+  ],
+  "sea": [
+    {
+      "title": "Jūras svētku diena",
+      "url": "/svetki-un-tradicijas/juras-svetku-diena/"
+    }
+  ],
+  "constitution": [
+    {
+      "title": "Konstitucionālā likuma “Par Latvijas Republikas valstisko statusu” pieņemšanas diena",
+      "url": "/svetki-un-tradicijas/konstitucionala-likuma-pienemsanas-diena/"
+    }
+  ],
+  "day-latvijas-republikas-okupacijas-diena": [
+    {
+      "title": "Latvijas Republikas okupācijas diena",
+      "url": "/svetki-un-tradicijas/latvijas-republikas-okupacijas-diena/"
+    }
+  ],
+  "dejure": [
+    {
+      "title": "Latvijas Republikas starptautiskās (de jure) atzīšanas diena",
+      "url": "/svetki-un-tradicijas/latvijas-de-jure-atzisanas-diena/"
+    }
+  ],
+  "freedom": [
+    {
+      "title": "Latvijas brīvības cīnītāju piemiņas diena",
+      "url": "/svetki-un-tradicijas/latvijas-brivibas-cinitaju-pieminas-diena/"
+    }
+  ],
+  "doctors": [
+    {
+      "title": "Medicīnas darbinieku diena",
+      "url": "/svetki-un-tradicijas/medicinas-darbinieku-diena/"
+    }
+  ],
+  "partisans": [
+    {
+      "title": "Nacionālo partizānu bruņotās pretošanās atceres diena",
+      "url": "/svetki-un-tradicijas/nacionalo-partizanu-pretosanas-atceres-diena/"
+    }
+  ],
+  "resistance": [
+    {
+      "title": "Nacionālās pretošanās kustības piemiņas diena",
+      "url": "/svetki-un-tradicijas/nacionalas-pretosanas-kustibas-pieminas-diena/"
+    }
+  ],
+  "wwii": [
+    {
+      "title": "Nacisma sagrāves diena un Otrā pasaules kara upuru piemiņas diena",
+      "url": "/svetki-un-tradicijas/nacisma-sagraves-un-otra-pasaules-kara-upuru-pieminas-diena/"
+    }
+  ],
+  "police": [
+    {
+      "title": "Policijas darbinieku diena",
+      "url": "/svetki-un-tradicijas/policijas-darbinieku-diena/"
+    }
+  ],
+  "occupation": [
+    {
+      "title": "Pret latviešu tautu vērstā totalitārā komunistiskā režīma genocīda upuru piemiņas diena",
+      "url": "/svetki-un-tradicijas/totalitara-komunistiska-rezima-genocida-upuru-pieminas-diena/"
+    }
+  ],
+  "border": [
+    {
+      "title": "Robežsargu diena",
+      "url": "/svetki-un-tradicijas/robezsargu-diena/"
+    }
+  ],
+  "ngo": [
+    {
+      "title": "Starptautiskā nevalstisko organizāciju diena",
+      "url": "/svetki-un-tradicijas/starptautiska-nevalstisko-organizaciju-diena/"
+    }
+  ],
+  "seniors": [
+    {
+      "title": "Starptautiskā senioru diena",
+      "url": "/svetki-un-tradicijas/starptautiska-senioru-diena/"
+    }
+  ],
+  "family": [
+    {
+      "title": "Starptautiskā ģimenes diena",
+      "url": "/svetki-un-tradicijas/starptautiska-gimenes-diena/"
+    }
+  ],
+  "blackribbon": [
+    {
+      "title": "Staļinisma un nacisma upuru atceres diena",
+      "url": "/svetki-un-tradicijas/stalinisma-un-nacisma-upuru-atceres-diena/"
+    }
+  ],
+  "firefighters": [
+    {
+      "title": "Ugunsdzēsēju un glābēju diena",
+      "url": "/svetki-un-tradicijas/ugunsdzeseju-un-glabeju-diena/"
+    }
+  ],
+  "cesisbattle": [
+    {
+      "title": "Varoņu piemiņas diena (Cēsu kaujas atceres diena)",
+      "url": "/svetki-un-tradicijas/varonu-pieminas-diena/"
+    }
+  ],
+  "tradition-valentina-diena": [
+    {
+      "title": "Valentīndiena: datums un Mīlestības diena Latvijā",
+      "url": "/svetki-un-tradicijas/valentina-diena/"
+    }
+  ],
+  "tradition-martindiena": [
+    {
+      "title": "Mārtiņi: 10. novembris un latviešu tradīcijas",
+      "url": "/svetki-un-tradicijas/martindiena/"
+    }
+  ],
+  "tradition-mikeli": [
+    {
+      "title": "Miķeļi: 29. septembris un ražas laika tradīcijas",
+      "url": "/svetki-un-tradicijas/mikeli/"
+    }
+  ],
+  "tradition-meteni": [
+    {
+      "title": "Meteņi: pavasara gaidīšana un svinēšanas laiki",
+      "url": "/svetki-un-tradicijas/meteni/"
+    }
+  ],
+  "tradition-advente": [
+    {
+      "title": "Advente: četras svētdienas pirms Ziemassvētkiem",
+      "url": "/svetki-un-tradicijas/advente/"
+    }
+  ],
+  "tradition-pupolu-svetdiena": [
+    {
+      "title": "Pūpolu svētdiena: datums un Lielās nedēļas sākums",
+      "url": "/svetki-un-tradicijas/pupolu-svetdiena/"
+    }
+  ],
+  "tradition-zvaigznes-diena": [
+    {
+      "title": "Zvaigznes diena: 6. janvāris un tradīcija",
+      "url": "/svetki-un-tradicijas/zvaigznes-diena/"
+    }
+  ],
+  "tradition-jaunavas-marijas-debesbrauksanas-svetki": [
+    {
+      "title": "Jaunavas Marijas debesīs uzņemšanas svētki",
+      "url": "/svetki-un-tradicijas/jaunavas-marijas-debesbrauksanas-svetki/"
+    }
+  ],
+  "tradition-miruso-pieminas-diena": [
+    {
+      "title": "Mirušo piemiņas dienas: katoļu un luterāņu kalendārs",
+      "url": "/svetki-un-tradicijas/miruso-pieminas-diena/"
+    }
+  ],
+  "tradition-pavasara-ekvinokcija": [
+    {
+      "title": "Pavasara ekvinokcija: astronomiskais brīdis Latvijā",
+      "url": "/svetki-un-tradicijas/pavasara-ekvinokcija/"
+    }
+  ],
+  "tradition-rudens-ekvinokcija": [
+    {
+      "title": "Rudens ekvinokcija: astronomiskais brīdis Latvijā",
+      "url": "/svetki-un-tradicijas/rudens-ekvinokcija/"
+    }
+  ],
+  "tradition-holokausta-upuru-pieminas-diena": [
+    {
+      "title": "Holokausta upuru piemiņas diena Latvijā un pasaulē",
+      "url": "/svetki-un-tradicijas/holokausta-upuru-pieminas-diena/"
+    }
+  ],
+  "tradition-eiropas-valodu-diena": [
+    {
+      "title": "Eiropas Valodu diena",
+      "url": "/svetki-un-tradicijas/eiropas-valodu-diena/"
+    }
+  ],
+  "tradition-totalitaro-rezimu-upuru-pieminas-diena": [
+    {
+      "title": "Staļinisma un nacisma upuru atceres diena",
+      "url": "/svetki-un-tradicijas/totalitaro-rezimu-upuru-pieminas-diena/"
+    }
+  ],
+  "language": [
+    {
+      "title": "Starptautiskā dzimtās valodas diena",
+      "url": "/svetki-un-tradicijas/dzimtas-valodas-diena/"
+    }
+  ],
+  "tradition-helovins": [
+    {
+      "title": "Helovīns Latvijā",
+      "url": "/svetki-un-tradicijas/helovins/"
+    }
+  ],
+  "tradition-pasaules-gramatu-diena": [
+    {
+      "title": "Pasaules grāmatu un autortiesību diena",
+      "url": "/svetki-un-tradicijas/pasaules-gramatu-diena/"
+    }
+  ],
+  "tradition-pasaules-vides-diena": [
+    {
+      "title": "Pasaules vides diena",
+      "url": "/svetki-un-tradicijas/pasaules-vides-diena/"
+    }
+  ],
+  "tradition-pasaules-bernu-diena": [
+    {
+      "title": "Pasaules bērnu diena",
+      "url": "/svetki-un-tradicijas/pasaules-bernu-diena/"
+    }
+  ],
+  "tradition-pasaules-udens-diena": [
+    {
+      "title": "Pasaules ūdens diena",
+      "url": "/svetki-un-tradicijas/pasaules-udens-diena/"
+    }
+  ],
+  "tradition-pasaules-dzivnieku-diena": [
+    {
+      "title": "Pasaules dzīvnieku diena",
+      "url": "/svetki-un-tradicijas/pasaules-dzivnieku-diena/"
+    }
+  ],
+  "tradition-pavasara-tradicijas": [
+    {
+      "title": "Pavasara tradīcijas Latvijā",
+      "url": "/svetki-un-tradicijas/pavasara-tradicijas/"
+    }
+  ],
+  "tradition-sveta-nikolaja-diena": [
+    {
+      "title": "Svētā Nikolaja diena Latvijā",
+      "url": "/svetki-un-tradicijas/sveta-nikolaja-diena/"
+    }
+  ],
+  "tradition-pasaules-bisu-diena": [
+    {
+      "title": "Pasaules bišu diena",
+      "url": "/svetki-un-tradicijas/pasaules-bisu-diena/"
+    }
+  ],
+  "tradition-zemes-diena": [
+    {
+      "title": "Zemes diena Latvijā",
+      "url": "/svetki-un-tradicijas/zemes-diena/"
+    }
+  ]
+}

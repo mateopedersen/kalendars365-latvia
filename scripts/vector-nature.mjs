@@ -1,7 +1,7 @@
 /* Original, entirely vector category illustrations. No pixels or external images. */
 const esc=s=>String(s).replace(/[^a-zA-Z0-9_-]/g,'-');
 
-function earthDisc(key,cx,cy,r){
+export function earthDisc(key,cx,cy,r){
  const p=esc(key),k=r/110;
  const coasts=[
   // North America at the western limb: coastal inlets remain individually curved.

@@ -52,3 +52,5 @@
 @media(max-width:900px){.photo-license-nav{grid-template-columns:repeat(2,minmax(0,1fr))}.university-photo-catalog{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:650px){.university-photo-heading{align-items:stretch;flex-direction:column}.university-photo-heading>.link-card{max-width:none;width:100%}.university-photo-catalog{grid-template-columns:1fr}.university-photo-catalog img,.university-photo-catalog .photo-license-pending__art{height:185px}.photo-license-nav{grid-template-columns:1fr;gap:8px}.photo-license-nav>a{padding:12px 14px}}
 @media print{.university-photo-catalog{grid-template-columns:repeat(3,minmax(0,1fr));gap:8px}.university-photo-catalog article{break-inside:avoid}.university-photo-catalog img,.university-photo-catalog .photo-license-pending__art{height:95px}.university-photo-catalog article>div{padding:8px}.university-photo-heading>.link-card{display:none}}
+
+.university-photo-catalog .university-official-emblem{object-fit:contain!important;background:#fffaf5;padding:20px}

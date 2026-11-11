@@ -215,6 +215,23 @@
           "sha256": "aee029cede24614b15619dafa7da893962dd2ee89c23605a2e04fb32aa4a7491"
         }
       ]
+    },
+    {
+      "source": "/assets/universities/naa-emblem.svg",
+      "sourceSha256": "3a2a3dcaa95014b16f4702f2fc084499283b083279a21345ecc04a53a9949485",
+      "src": "/assets/universities/naa-emblem.svg",
+      "srcset": "/assets/universities/naa-emblem.svg 385w",
+      "width": 385,
+      "height": 500,
+      "files": [
+        {
+          "src": "/assets/universities/naa-emblem.svg",
+          "width": 385,
+          "height": 500,
+          "bytes": 27992,
+          "sha256": "3a2a3dcaa95014b16f4702f2fc084499283b083279a21345ecc04a53a9949485"
+        }
+      ]
     }
   ]
 }

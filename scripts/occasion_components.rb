@@ -1,6 +1,6 @@
 # Original photo-led Latvian observance pages. Source metadata stays attached.
 def occasion_page(article, _all=nil)
-  slug=article.fetch('slug');photo=article.fetch('photo');type=article['type']
+  slug=article.fetch('slug');type=article['type']
   status=article['dayOff'] ? 'Svētku brīvdiena' : type=='commemoration' ? 'Atceres diena' : type=='astronomy' ? 'Astronomisks notikums' : 'Atzīmējamā diena'
   dates=article.fetch('dates',[])
   cards=(2027..2030).map do |year|
@@ -20,9 +20,8 @@ def occasion_page(article, _all=nil)
   tool=TRADITION_LINKING.tools(slug).first
   <<~HTML
     <article class="occasion-story">
-      <section class="occasion-opening">
-        <div class="occasion-opening-copy"><span class="occasion-status">#{ui_icon(type=='astronomy' ? 'sun':'gift')}#{h(status)}</span><h2>#{h(article.fetch('dateRule',{}).fetch('label',article['title']))}</h2><p>#{tradition_text_markup(slug,article['intro']||article['description'],'intro')}</p><div class="occasion-actions">#{a('#datumi','Skatīt datumus','button primary')}#{a(tool.fetch('url'),tool.fetch('label'),'button')}</div></div>
-        <figure><img src="#{h(photo['src'])}" srcset="#{h(photo['srcset'])}" sizes="(max-width: 800px) 95vw, 650px" alt="#{h(photo['alt'])}" width="#{photo['width']}" height="#{photo['height']}" fetchpriority="high"><figcaption>#{h(photo['caption'])}<span>#{h(photo['author'])} · #{a(photo['licenseUrl'],photo['license'])} · #{a(photo['sourceUrl'],'Avota fotogrāfija')}</span></figcaption></figure>
+      <section class="occasion-opening occasion-opening--text">
+        <div class="occasion-opening-copy"><span class="occasion-status">#{ui_icon(type=='astronomy' ? 'sun':'gift')}#{h(status)}</span><h2>#{h(article.fetch('dateRule',{}).fetch('label',article['title']))}</h2><p>#{tradition_text_markup(slug,article['intro']||article['description'],'intro')}</p><div class="occasion-actions">#{a(tool.fetch('url'),tool.fetch('label'),'button')}</div></div>
       </section>
       #{tradition_context_markup(slug)}
       <section class="occasion-dates" id="datumi"><div class="section-heading"><div><span class="eyebrow">PLĀNO LAIKUS</span><h2>Datumi 2027.–2030. gadā</h2></div><span>#{h(status)}</span></div><div class="occasion-year-cards">#{cards}</div></section>

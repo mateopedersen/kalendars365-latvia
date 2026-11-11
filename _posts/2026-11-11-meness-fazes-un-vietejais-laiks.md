@@ -9,10 +9,11 @@ author: Silvis Balodis
 date: '2026-11-11'
 reading_notes: false
 blog_slug: meness-fazes-un-vietejais-laiks
-og_image: "/assets/blog/moon-512.webp"
-og_image_width: 512
-og_image_height: 512
-og_image_alt: Mēness virsma Apollo 17 misijas arhīva fotogrāfijā
+og_image: "/assets/social-cards/v2/559be67046052d3f-548f90cfb42e.jpg"
+og_image_width: 1200
+og_image_height: 630
+og_image_alt: 'Mēness fāzes Latvijas laikā: brīdis, attēls un redzamība | Kalendārs365
+  Latvijai'
 ---
 Mēness kalendārā bieži vienā lapā redzams datums, fāzes nosaukums, apgaismojuma procents un pievilcīgs Mēness attēls. Šie elementi ir saistīti, bet neapraksta pilnīgi vienu lietu. Lai saprastu, ko gaidīt debesīs Latvijā, jāatšķir galvenās fāzes precīzais brīdis no dienas attēla un no tā, vai Mēness konkrētajā vietā ir virs horizonta.
 

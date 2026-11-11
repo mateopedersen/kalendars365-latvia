@@ -9,10 +9,11 @@ author: Silvis Balodis
 date: '2026-11-11'
 reading_notes: false
 blog_slug: gimenes-kalendars-nedelas-planosana
-og_image: "/assets/blog/family-960.webp"
-og_image_width: 960
-og_image_height: 640
-og_image_alt: Piecu cilvēku ģimenes portrets zaļā dārzā.
+og_image: "/assets/social-cards/v2/5516442194e15912-10999d5babfb.jpg"
+og_image_width: 1200
+og_image_height: 630
+og_image_alt: 'Ģimenes nedēļas kalendārs: mazāk pārpratumu, skaidrāki plāni | Kalendārs365
+  Latvijai'
 ---
 Ģimenes kalendārs ir kopīga vienošanās par laiku. Tas palīdz saprast, kurš kuru sagaidīs, kad vajadzīga palīdzība un kura pēcpusdiena jau ir aizņemta. Lai tas darbotos, nav vajadzīga sarežģīta sistēma vai desmitiem krāsu. Vajadzīgi skaidri ieraksti, viena uzticama versija un ieradums to īsi pārrunāt.
 

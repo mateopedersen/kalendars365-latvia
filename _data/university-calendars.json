@@ -120,6 +120,17 @@
       "dateSource": {
         "url": "https://www.naa.mil.lv/lv/uznemsanas-noteikumi",
         "title": "NAA uzņemšanas noteikumi 2026./2027. gadam · 10. punkts"
+      },
+      "photo": {
+        "kind": "emblem",
+        "src": "/assets/universities/naa-emblem.svg",
+        "caption": "Latvijas Nacionālās aizsardzības akadēmijas oficiālā emblēma. Attēls izmantots akadēmijas identificēšanai.",
+        "alt": "Latvijas Nacionālās aizsardzības akadēmijas emblēma ar vairogu, zobenu, trim zvaigznēm un uzrakstu NAA 1992",
+        "author": "Latvijas Aizsardzības ministrija",
+        "license": "Publiskais īpašums",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Nacion%C4%81l%C4%81_aizsardz%C4%ABbas_akad%C4%93mija_emblem.svg#Licensing",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Nacion%C4%81l%C4%81_aizsardz%C4%ABbas_akad%C4%93mija_emblem.svg",
+        "officialUrl": "https://www.naa.mil.lv/lv/kontakti"
       }
     }
   ],

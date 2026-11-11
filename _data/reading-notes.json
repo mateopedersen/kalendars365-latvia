@@ -112,10 +112,10 @@
     ]
   },
   "/atvalinajuma-planotajs/": {
-    "heading": "Salīdzini atpūtas periodu ar atvaļinājuma dienām",
+    "heading": "Pārvērt atpūtas ieceri pārskatāmā plānā",
     "paragraphs": [
-      "Ilgāks atpūtas periods ne vienmēr nozīmē tikpat daudz atvaļinājuma darba dienu. Izvēlies sākuma un beigu datumu, tad salīdzini nedēļas nogales, likumā noteiktās svētku brīvdienas un tās darba dienas, kurām būtu vajadzīgs atvaļinājums. Gada izvēle ir būtiska, jo vieni un tie paši svētki dažādos gados iekrīt citās nedēļas dienās.",
-      "Pēc salīdzinājuma pārbaudi plānu pret savu darba režīmu un darba devēja apstiprinājumu. Piecu dienu nedēļas piemērs nav automātiski piemērojams maiņu darbam, un oficiāli pārcelta darba diena var mainīt izdevīgāko intervālu. Ceļojuma datumus un neatceļamus pirkumus sasaisti ar apstiprinātu atvaļinājumu, nevis tikai kalendārā redzamu iespēju."
+      "Sāc ar darbā pieejamo atvaļinājuma darba dienu skaitu. Ieteikumos vari salīdzināt garāko atpūtu ar periodiem, kam vajadzīgs mazāk dienu no tava budžeta. Ja ceļojuma datumi jau ir zināmi, ievadi tos aprēķinā vai atlasi gada kalendārā. Pievienotā perioda darba dienas uzreiz samazina atlikumu; citu gadu plāni saglabājas atsevišķi.",
+      "Pirms datumu saskaņošanas pārbaudi darba nedēļas izvēli un darba devēja noteiktās izmaiņas grafikā. Papildu darba un brīvās dienas var mainīt aprēķinu. Kalendāra failā vari saglabāt tikai tās dienas, kurās vajadzīgs atvaļinājums, vai visu atpūtas periodu. CSV failā ir rediģējama tabula, bet drukas skatā — tava gada plāna pārskats."
     ]
   },
   "/garas-brivdienas/": {
@@ -129,21 +129,21 @@
     "heading": "Maiņu cikla sākums nosaka visu turpmāko grafiku",
     "paragraphs": [
       "Maiņu grafikā ievadi ne tikai secību, bet arī datumu, kurā sākas tās pirmais posms. Ja cikls ir divas darba dienas un divas brīvas dienas, katrs ceturtais datums noslēdz vienu atkārtojumu. Nepareizs sākuma datums nobīda visu grafiku, pat ja pati darba un atpūtas dienu secība ir ievadīta pareizi.",
-      "Pirms grafika saglabāšanas salīdzini pirmo ciklu ar jau zināmu darba nedēļu un apskati arī mēneša robežu. Svētku diena kalendārā pati nepārraksta tavu maiņu ciklu. Virsstundas, darba laika uzskaite un darba devēja izmaiņas ir atsevišķi jautājumi; veidotais cikls ir personīgs plānošanas pārskats."
+      "Pirms grafika saglabāšanas salīdzini pirmo ciklu ar zināmiem darba datumiem un pārbaudi mēneša robežu. Svētku diena pati nepārraksta maiņu ciklu. Drukai vari izvēlēties mēneša režģi, maiņu tabulu, laika līniju vai dienu kartītes. PDF un attēlā saglabājas atlasītais mēnesis, laiki, pauzes un personīgie labojumi; pilnas piezīmes turpinās pielikumā. Darba laika uzskaitei un atvaļinājuma saskaņošanai izmanto darba devēja apstiprināto grafiku."
     ]
   },
   "/gimenes-kalendars/": {
-    "heading": "Kopīgs pārskats bez neskaidriem ierakstiem",
+    "heading": "Par ko vienoties pirms nedēļas sākuma",
     "paragraphs": [
-      "Ģimenes plānā katram notikumam pievieno cilvēku un skaidru darbību: piemēram, kura nodarbība sākas un kurš par to atbild. Tas palīdz atšķirt kopīgus pasākumus no viena ģimenes locekļa personīgā grafika. Skolas brīvlaikus un universitātes semestra pārtraukumu nepievieno kā vienu kopīgu termiņu, jo to avoti un datumi var atšķirties.",
-      "Kopīgam plānam vari izmantot izdruku vai piemērotu notikumu eksportu. Šīs vietnes pārlūka krātuve pati neveido sinhronizētu kontu visām ģimenes ierīcēm: otrā tālrunī tavs lokālais plāns automātiski neparādīsies. Pārnesot datus, pārbaudi gan saņēmējus, gan privāto piezīmju saturu un saglabā sev dublējumu."
+      "Pirms nedēļas sākuma salīdziniet tikšanās laikus ar ceļā pavadāmo laiku. Nodarbība vienā pilsētas pusē un darbs otrā var prasīt atsevišķu vienošanos par aizvešanu un sagaidīšanu. Ieraksta nosaukumā lieto konkrētu darbību; ar vārdu «skola» vien nepietiek, lai citi zinātu, kas un kad jāpaveic.",
+      "Atstājiet arī neplānotu laiku. Nedēļas beigās izrunājiet, kurš plāns izdevās un ko vajadzētu pārcelt vai vienkāršot. Paveikta darba atzīme palīdz pārskatīt izdarīto; regulāru ierakstu turpiniet tikai tik ilgi, cik tas atbilst jūsu ikdienai. Ja mainās nodarbības laiks vai pienākumu sadalījums, labojiet sākotnējo ierakstu."
     ]
   },
   "/stundu-saraksts/": {
-    "heading": "Stundu saraksts, kuru var viegli nolasit",
+    "heading": "Stundu saraksts, kuru var viegli nolasīt",
     "paragraphs": [
-      "Stundu sarakstā vispirms vienojies par nedēļas dienām un stundu laikiem, pēc tam pievieno mācību priekšmetus un telpas. Īss priekšmeta nosaukums atstāj vietu kabinetam vai skolotāja iniciāļiem. Ja mācības notiek pēc mainīgām nedēļām, virsrakstā norādi, uz kuru nedēļu vai periodu attiecas konkrētā lapa.",
-      "Pirms izdrukas salīdzini pirmo un pēdējo nodarbību katrā dienā, kā arī garākos ierakstus. Vispārīgs saraksta veidotājs nepārzina skolas neplānotas izmaiņas, aizvietošanas vai individuālas konsultācijas. Brīvlaiku pārskatu izmanto līdzās sarakstam, bet jaunāko mācību organizāciju pārbaudi savas skolas paziņojumos."
+      "Mācību stundas un termiņi ir atšķirīgi ieraksti. Stunda atkārtojas izvēlētajā nedēļas dienā norādītajā mācību periodā, savukārt mājasdarbs, pārbaudes darbs vai projekts ir piesaistīts konkrētam datumam. Paveiktu uzdevumu vari atzīmēt, saglabājot to sarakstā. Mainot nedēļu, drukas priekšskatījums atlasa tikai attiecīgos ierakstus.",
+      "Ja mainās nodarbības laiks vai telpa, atver tās labošanu. Iepriekšējo periodu noslēdz ar atbilstošu beigu datumu un jaunajam grafikam pievieno atsevišķu ierakstu. Skolas brīvlaiki un stundu aizvietošana netiek piemēroti automātiski. Pirms svarīgas nodarbības salīdzini savu plānu ar skolas vai augstskolas jaunāko paziņojumu."
     ]
   },
   "/skolas-brivlaiki/": {
@@ -357,10 +357,10 @@
     ]
   },
   "/visi-riki/": {
-    "heading": "Izvēlies rīku pēc uzdevuma",
+    "heading": "Izvēlies rīku savam uzdevumam",
     "paragraphs": [
-      "Ja jautājums ir “cik dienu?”, sāc ar datumu kalkulatoru vai dienu skaitītāju. Ja svarīgi darba un atpūtas posmi, izvēlies darba dienu kalendāru, maiņu grafiku vai atvaļinājuma plānotāju. Savukārt personiska izdruka, stundu saraksts un ģimenes kalendārs risina atšķirīgus noformējuma un ikdienas organizēšanas uzdevumus.",
-      "Rīku rezultāti ir noderīgi tad, ja saproti to ievadi: datumu robežas, gadu, pilsētu vai darba nedēļas modeli. Pēc aprēķina pārbaudi šos pieņēmumus un izvēlies vajadzīgo saglabāšanas veidu. PDF un attēls saglabā lapas izskatu, ICS pārnes notikumus, bet personīgā plānotāja dublējums palīdz atjaunot lokāli glabātos datus."
+      "Ja vēlies pārskatīt datumus vai sagatavot izdruku, atver gada, mēneša vai nedēļas kalendāru. Savu noformējumu vari izveidot kalendāra veidotājā. Dienu starpību un nākamo datumu aprēķina datumu kalkulators, savukārt darba dienu kalendārs ņem vērā izvēlēto darba grafiku un Latvijas svētku brīvdienas.",
+      "Ikdienas plāniem izvēlies ģimenes kalendāru, stundu sarakstu vai maiņu grafiku. Pirms kopīgas atpūtas salīdzini atvaļinājuma plānu ar skolu brīvlaikiem. Ja interesē daba, atrodi savas pilsētas Saules laikus, Mēness fāzes vai sējas ieteikumus. Saglabātie rīki palīdzēs nākamreiz atgriezties pie biežāk izmantotajām iespējām."
     ]
   },
   "/meklesana/": {

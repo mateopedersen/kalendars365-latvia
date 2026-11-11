@@ -1,0 +1,8 @@
+<section class="content-card" id="kopigosanas-vaki">
+  <span class="eyebrow">KALENDĀRS365 · KOPĪGOŠANAS ATTĒLI</span>
+  <h2>Katras lapas kopīgošanas vāks</h2>
+  <p>Kalendārs365 kopīgošanas vākiem veidots atsevišķs makets katrai lapai. Kalendāru datumi, ISO nedēļas un Mēness apgaismojums ir piesaistīti attiecīgajam periodam. Pilsētu un svētku fotogrāfijas ir arhīva attēli, nevis tiešraides novērojumi.</p>
+  <p>Mēness disku tekstūrai izmantota vēsturiskā NASA Apollo 17 fotogrāfija; apgaismojums aprēķināts atsevišķi. Nākotnes dienu attēli nav šajās dienās uzņemtas fotogrāfijas. Vāku sagatavošanā izmantots kadrējums, krāsu pārklājumi, samazināšana un oriģināls teksta un datu makets. Fotogrāfiju autori un licences saglabājas arī šajos pielāgojumos. NASA neapstiprina un nereklamē šo vietni.</p>
+  {% assign cover_credits = site.data['social-cover-credits'] %}
+  <details><summary>Kopīgošanas vāku fotogrāfiju avoti un licences</summary><div class="table-scroll"><table class="data-table"><thead><tr><th>Fotogrāfija un autors</th><th>Licence vai izmantošanas noteikumi</th><th>Izmantots vākos</th></tr></thead><tbody>{% for photo in cover_credits.photos %}<tr><td><a href="{{ photo.sourceUrl | escape }}">{{ photo.author | default: photo.credit | escape }} ↗</a></td><td><a href="{{ photo.licenseUrl | default: photo.sourceUrl | escape }}">{{ photo.license | escape }}</a></td><td>{{ photo.covers.size }}</td></tr>{% endfor %}</tbody></table></div></details>
+</section>

@@ -9,10 +9,11 @@ author: Silvis Balodis
 date: '2026-11-11'
 reading_notes: false
 blog_slug: personigs-kalendars-fotografijas-druka
-og_image: "/assets/blog/burgundy-planner-960.webp"
-og_image_width: 960
-og_image_height: 638
-og_image_alt: Bordo plānotājs ar dzeltenu zīmuli.
+og_image: "/assets/social-cards/v2/fb2fa958352e76d0-760690932d26.jpg"
+og_image_width: 1200
+og_image_height: 630
+og_image_alt: 'Personīgs kalendārs ar fotogrāfijām: no ieceres līdz izdrukai | Kalendārs365
+  Latvijai'
 ---
 Personīgs fotokalendārs ir vienlaikus attēls un ikdienas instruments. Skaista fotogrāfija var piesaistīt skatienu, taču kalendāram joprojām jāļauj ātri atrast datumu un ierakstīt vajadzīgo. Veidojot savu lapu, svarīgi līdzsvarot attēla vietu, burtu lielumu, krāsas un reālo papīra izmēru.
 

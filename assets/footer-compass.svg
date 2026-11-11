@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 300" role="img" aria-labelledby="footer-map-title footer-map-desc">
+<title id="footer-map-title">Brīvdienu kompass</title><desc id="footer-map-desc">Telpiska salocīta karte ar taku, sauli, eglēm un misiņa kompasu. Oriģināla Kalendārs365 vektoru ilustrācija.</desc>
+<defs>
+<linearGradient id="fc-paper" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fffdf1"/><stop offset=".6" stop-color="#ece6d1"/><stop offset="1" stop-color="#c8c1a9"/></linearGradient>
+<linearGradient id="fc-fold"><stop stop-color="#dad6bf"/><stop offset="1" stop-color="#fdf7e5"/></linearGradient>
+<linearGradient id="fc-green" x2=".8" y2="1"><stop stop-color="#a2bba1"/><stop offset="1" stop-color="#547e6b"/></linearGradient>
+<linearGradient id="fc-water" x2=".7" y2="1"><stop stop-color="#b5d7d2"/><stop offset="1" stop-color="#508e92"/></linearGradient>
+<linearGradient id="fc-gold" x2=".8" y2="1"><stop stop-color="#fff2c4"/><stop offset=".25" stop-color="#d7b56e"/><stop offset=".55" stop-color="#f4db98"/><stop offset="1" stop-color="#9b733f"/></linearGradient>
+<radialGradient id="fc-sun" cx=".3" cy=".23" r=".8"><stop stop-color="#fff4c9"/><stop offset=".45" stop-color="#efc372"/><stop offset="1" stop-color="#bd8043"/></radialGradient>
+<radialGradient id="fc-dial" cx=".3" cy=".2" r=".85"><stop stop-color="#fffef3"/><stop offset="1" stop-color="#d2d4c5"/></radialGradient>
+<linearGradient id="fc-pine" x2="1" y2=".8"><stop stop-color="#739c82"/><stop offset=".5" stop-color="#3c6a59"/><stop offset="1" stop-color="#254b44"/></linearGradient>
+<filter id="fc-soft" x="-30%" y="-100%" width="160%" height="300%"><feGaussianBlur stdDeviation="5"/></filter>
+<filter id="fc-object" x="-30%" y="-40%" width="160%" height="190%"><feDropShadow dx="2" dy="7" stdDeviation="4" flood-color="#46343a" flood-opacity=".16"/></filter>
+</defs>
+<ellipse cx="181" cy="257" rx="134" ry="12" fill="#664e46" opacity=".14" filter="url(#fc-soft)"/>
+<circle cx="254" cy="66" r="36" fill="url(#fc-sun)"/>
+<path d="M254 18v-9m48 57h9m-57 48v9m-48-57h-9m23-34-7-7m75 7 7-7m-7 75 7 7" fill="none" stroke="#d3a460" stroke-width="1.5" stroke-linecap="round" opacity=".65"/>
+<g filter="url(#fc-object)">
+<path d="m39 157 78-45 63 30 68-31 70 52-3 68-76 25-63-26-70 26-69-36Z" fill="#9a9988"/>
+<path d="m39 151 78-45 63 30 68-31 70 52-3 67-76 25-63-26-70 26-69-36Z" fill="url(#fc-paper)" stroke="#b9baa8" stroke-width="1"/>
+<path d="m117 106 63 30-4 87-70 26Z" fill="url(#fc-fold)"/>
+<path d="m248 105 70 52-3 67-76 25Z" fill="#f6f0d9"/>
+<path d="m49 154 66-37-8 87-59 21Z" fill="#e4e8d2"/>
+<path d="m127 122 44 20-3 69-52 20Z" fill="#d5dbc0"/>
+<path d="m188 141 51-23-7 107-46-19Z" fill="#dce3c8"/>
+<path d="m255 121 51 37-2 51-55 20Z" fill="#e5e9cf"/>
+<path d="m53 174 20-27 37-18-3 37-17-1-16 20-23 13Z" fill="url(#fc-green)" opacity=".75"/>
+<path d="m126 162 24-10 20 9-2 39-48 18Z" fill="url(#fc-green)" opacity=".66"/>
+<path d="m190 151 47-22-3 40-24 17-22-8Z" fill="url(#fc-green)" opacity=".65"/>
+<path d="m251 152 29 2 25 23-2 21-53 18Z" fill="url(#fc-green)" opacity=".6"/>
+<path d="M55 202c33-21 22-21 49-27l67 14 35-13c24-18 43-14 82-2l16 6v11c-32-24-56-26-81-10l-52 20-66-14c-19 1-26 7-50 26Z" fill="url(#fc-water)"/>
+<path d="M55 207c22-16 29-20 49-25l67 13 41-15c25-16 47-17 88 3" fill="none" stroke="#eef8e7" stroke-width="1.5" opacity=".65"/>
+<path d="M75 163q14-21 31-19l62 15 40-10q28-27 68-1" fill="none" stroke="#8a3b53" stroke-width="3" stroke-linecap="round" stroke-dasharray="3 6"/>
+<path d="m117 106-11 143m74-113-4 87m72-118-9 144" fill="none" stroke="#a4aa93" stroke-width="1" opacity=".7"/>
+<path d="m118 108-9 137m73-107-4 82m72-112-9 136" fill="none" stroke="#fffdf0" stroke-width="1.2" opacity=".8"/>
+<ellipse cx="75" cy="164" rx="7" ry="4" fill="#81304a"/><ellipse cx="275" cy="148" rx="7" ry="4" fill="#81304a"/>
+</g>
+<g transform="translate(84 143)" filter="url(#fc-object)"><path d="M-3 5v-67h6V5Z" fill="#795f49"/><path d="M0-105-19-67l8-1-18 29 13-1-24 36Q-1 9 38-2L16-37l10-1L10-67l9 1Z" fill="url(#fc-pine)"/><path d="M0-99-8-65-4-41-12-9" fill="none" stroke="#bdd1a2" stroke-width="1.4" opacity=".45"/></g>
+<g transform="translate(125 125) scale(.65)"><path d="M-3 5v-67h6V5Z" fill="#795f49"/><path d="M0-105-19-67l8-1-18 29 13-1-24 36Q-1 9 38-2L16-37l10-1L10-67l9 1Z" fill="url(#fc-pine)"/></g>
+<g transform="translate(263 216) rotate(-13)" filter="url(#fc-object)">
+<ellipse cy="7" rx="48" ry="45" fill="#8a6b46"/><circle r="48" fill="url(#fc-gold)" stroke="#b89962" stroke-width="1"/><circle r="40" fill="url(#fc-dial)" stroke="#947b56" stroke-width="1.2"/>
+<g fill="none" stroke="#64726c" stroke-width="1.2"><path d="M0-35v5m0 60v5M-35 0h5m60 0h5M-25-25l4 4m42 42 4 4m-50 0 4-4m42-42 4-4"/></g>
+<path d="m0-30 12 31L0 28-11-1Z" fill="#ebe5ca" stroke="#b2b59d" stroke-width=".6"/><path d="M0-30 12 1 0 7-11-1Z" fill="#902d4e"/><path d="m0 7 12-6L0 28Z" fill="#64766e"/><circle r="4" fill="url(#fc-gold)"/><path d="M-34-11A36 36 0 0 1 9-35" fill="none" stroke="#fffef1" stroke-width="2" opacity=".75"/>
+</g>
+</svg>

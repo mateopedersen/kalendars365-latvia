@@ -5,6 +5,7 @@ description: Latvijas pilsētu, svētku un augstskolu, kā arī kultūraugu foto
 permalink: /pilsetas-un-fotografijas/
 family: city_photos
 useful: true
+noindex: true
 ---
 <div class="page-shell">
   <nav class="breadcrumbs" aria-label="Atrašanās vieta"><a href="/">Sākums</a><span>/</span><span>Fotogrāfijas un licences</span></nav>
@@ -14,11 +15,13 @@ useful: true
     <figure class="page-heading-art photo-license-hero-art"><img src="{{ hero_photo.src }}" alt="" width="{{ hero_photo.width }}" height="{{ hero_photo.height }}" fetchpriority="high"><figcaption class="page-heading-art-chip">{{ hero_city.name }} · foto</figcaption></figure>
   </header>
 
+  {% include social-cover-credits.html %}
   <section class="content-card" id="astronomijas-fotografijas"><span class="eyebrow">NASA · APOLLO · ARTEMIS</span><h2>Īsti Mēness un Zemes attēli</h2><p>Mēness kalendāra ievadā un gadu vākiem izmantotas vēsturiskas NASA misiju fotogrāfijas. Ievada attēlā redzama Apollo 17 apkalpes 1972. gada 19. decembra Mēness fotogrāfija. Pārējās saskarnes kategoriju ilustrācijas ir oriģināli vektoru zīmējumi. Fotogrāfijas nav attiecīgā nākotnes gada vai izvēlētās pilsētas novērojumi. Dienas fāzes attēlo atsevišķs astronomisks modelis ar LRO virsmas fotomozaīku.</p><div class="astronomy-photo-license-grid">{% for photo in site.data.astronomy-photos.photos %}<figure><img src="{{ photo.src }}" alt="{{ photo.alt }}" width="{{ photo.width }}" height="{{ photo.height }}" loading="lazy"><figcaption><strong>{{ photo.credit }}</strong><p>{{ photo.alt }}</p><a href="{{ photo.source }}">Oriģinālā attēla avots</a> · <a href="{{ photo.rightsUrl }}">NASA izmantošanas noteikumi</a><p>Vietnes kopija ir samazināta; disku ilustrācijas ir izgrieztas no atbilstošā oriģināla. NASA neapstiprina un nereklamē šo vietni.</p></figcaption></figure>{% endfor %}</div></section>
   <section class="content-card" id="meness-drukas-atteli"><h2>Mēness kalendāru drukas attēli</h2><p>PDF un attēlu veidnēs izmantota NASA Scientific Visualization Studio <a href="https://svs.gsfc.nasa.gov/4720/">CGI Moon Kit LROC virsmas krāsu karte</a> (2019. gada izlaidums, 4096 × 2048 pikseļi). Karte veidota no Lunar Reconnaissance Orbiter kameru datiem. Katrai dienai aprēķināts savs Saules apgaismojums un Mēness pagrieziens; šīs ir aprēķinātas ilustrācijas, nevis nākotnē uzņemtas fotogrāfijas. Attēlojums ir ģeocentrisks, ar debess ziemeļiem augšā, plkst. 12.00 pēc Latvijas laika. Avota attēla pielāgošana: sfēriska projekcija, apgaismojums un drukas makets. Kredīts: NASA’s Scientific Visualization Studio / LRO / LROC. <a href="https://www.nasa.gov/nasa-brand-center/images-and-media/">NASA attēlu izmantošanas noteikumi</a>; NASA neapstiprina un nereklamē šo vietni.</p></section>
   <nav class="photo-license-nav" aria-label="Fotogrāfiju katalogs">
     <a href="#pilsetas-fotografijas">82 pilsētas <span>autori un licences</span></a>
     <a href="#svetku-fotografijas">Latvijas svētki <span>42 atšķirīgi foto</span></a>
+    <a href="#tradiciju-fotografijas">Tradīciju un tematiskās dienas <span>25 īstas fotogrāfijas</span></a><a href="#dienu-fotografijas">Katrai dienai savs attēls <span>7 papildu fotogrāfijas</span></a>
     <a href="#augstskolu-fotografijas">Augstskolas <span>9 licencēti foto</span></a>
     <a href="#garden-photos">Dārzeņu kultūras <span>16 īstas fotogrāfijas</span></a><a href="#category-vectors">Kategoriju ilustrācijas <span>oriģināli vektoru zīmējumi</span></a>
   </nav>
@@ -46,46 +49,45 @@ useful: true
       {% for group in occasion_photo_groups %}
       {% assign occasion = group.items.first %}
       {% assign photo = occasion.photo %}
+      {% assign active_usage = site.data['tradition-photo-usage'][photo.id] | first %}
       <article id="occasion-photo-{{ photo.id }}">
         <img src="{{ photo.src }}" srcset="{{ photo.srcset }}" sizes="(max-width: 700px) 94vw, (max-width: 900px) 44vw, 31vw" alt="{{ photo.alt | escape }}" width="{{ photo.width }}" height="{{ photo.height }}" loading="lazy" decoding="async">
-        <div><h3>{{ occasion.title }}</h3><p>{{ photo.caption | escape }}</p><p>{{ photo.author | escape }} · <a href="{{ photo.licenseUrl | escape }}" target="_blank" rel="noopener">{{ photo.license | escape }}</a></p><p><a href="{{ photo.sourceUrl | escape }}" target="_blank" rel="noopener">Oriģinālais attēla avots Wikimedia Commons ↗</a></p></div>
+        <div><h3>{{ active_usage.title | default: occasion.title }}</h3><p>{{ photo.caption | escape }}</p><p>{{ photo.author | escape }} · <a href="{{ photo.licenseUrl | escape }}" target="_blank" rel="noopener">{{ photo.license | escape }}</a></p><p><a href="{{ photo.sourceUrl | escape }}" target="_blank" rel="noopener">Oriģinālais attēla avots Wikimedia Commons ↗</a></p></div>
       </article>
       {% endfor %}
     </div>
-    <p class="fineprint">Vienas un tās pašas fotogrāfijas, kas izmantotas vairākām tematiskām dienām, katalogā parādītas vienu reizi. Atvērtas licences nosacījumi katram darbam var atšķirties; tās jāievēro, attēlu kopīgojot vai pārpublicējot.</p>
+    <p class="fineprint">Ceļveža kartītēm izveidots 16:9 kadrējums un vairākas samazinātas WebP kopijas; sākotnējā licence saglabāta. Vienas un tās pašas fotogrāfijas, kas izmantotas vairākām tematiskām dienām, katalogā parādītas vienu reizi. Atvērtas licences nosacījumi katram darbam var atšķirties; tās jāievēro, attēlu kopīgojot vai pārpublicējot.</p>
   </section>
 
+  {% include tradition-photo-credits.html %}
+  {% include day-photo-credits.html %}
+
   <section class="content-card university-photo-credits" id="augstskolu-fotografijas">
-    <div class="university-photo-heading"><div><span class="eyebrow">VALSTS AUGSTSKOLU KALENDĀRI</span><h2>Augstskolu fotogrāfijas un licences</h2><p>Pieejamajiem attēliem šeit norādīts fotogrāfs, oriģinālais Wikimedia Commons fails un licence. Atvērtie attēli ir arī katras augstskolas 2026./2027. gada studiju kalendāra kartītē.</p></div><a class="link-card" href="/studiju-kalendars/#university-directory">Atvērt augstskolu kalendārus <span aria-hidden="true">→</span></a></div>
+    <div class="university-photo-heading"><div><span class="eyebrow">VALSTS AUGSTSKOLU KALENDĀRI</span><h2>Augstskolu fotogrāfijas, emblēmas un licences</h2><p>Pieejamajiem attēliem šeit norādīts fotogrāfs, oriģinālais avota fails un lietošanas nosacījumi. Atvērtie attēli ir arī katras augstskolas 2026./2027. gada studiju kalendāra kartītē.</p></div><a class="link-card" href="/studiju-kalendars/#university-directory">Atvērt augstskolu kalendārus <span aria-hidden="true">→</span></a></div>
     <div class="photo-catalog university-photo-catalog">
       {% for calendar in site.data.university-calendars.calendars %}
       {% if calendar.photo %}
       <article id="university-photo-{{ calendar.id }}">
         <img src="{{ calendar.photo.src }}" alt="{{ calendar.photo.alt | escape }}" width="960" height="560" loading="lazy" decoding="async">
-        <div><h3>{{ calendar.institution }}</h3><p>{{ calendar.photo.caption | escape }}</p><p><a href="{{ calendar.photo.pageUrl | escape }}" target="_blank" rel="noopener">{{ calendar.photo.author | escape }} · oriģinālais attēls Commons</a></p><p><a href="{{ calendar.photo.licenseUrl | escape }}" target="_blank" rel="noopener">{{ calendar.photo.license | escape }} · licences noteikumi</a></p></div>
+        <div><h3>{{ calendar.institution }}</h3><p>{{ calendar.photo.caption | escape }}</p><p><a href="{{ calendar.photo.pageUrl | escape }}" target="_blank" rel="noopener">{{ calendar.photo.author | escape }} · attēla avots</a></p><p><a href="{{ calendar.photo.licenseUrl | escape }}" target="_blank" rel="noopener">{{ calendar.photo.license | escape }} · licences noteikumi</a></p></div>
       </article>
       {% endif %}
       {% endfor %}
       {% for institution in site.data.university-calendars.stateUniversities %}
       {% if institution.photo %}
       <article id="university-photo-{{ institution.id }}">
-        <img src="{{ institution.photo.src }}" alt="{{ institution.photo.alt | escape }}" width="960" height="560" loading="lazy" decoding="async">
-        <div><h3>{{ institution.name }}</h3><p>{{ institution.photo.caption | escape }}</p><p><a href="{{ institution.photo.pageUrl | escape }}" target="_blank" rel="noopener">{{ institution.photo.author | escape }} · oriģinālais attēls Commons</a></p><p><a href="{{ institution.photo.licenseUrl | escape }}" target="_blank" rel="noopener">{{ institution.photo.license | escape }} · licences noteikumi</a></p></div>
+        <img{% if institution.photo.kind == "emblem" %} class="university-official-emblem"{% endif %} src="{{ institution.photo.src }}" alt="{{ institution.photo.alt | escape }}" width="960" height="560" loading="lazy" decoding="async">
+        <div><h3>{{ institution.name }}</h3><p>{{ institution.photo.caption | escape }}</p><p><a href="{{ institution.photo.pageUrl | escape }}" target="_blank" rel="noopener">{{ institution.photo.author | escape }} · attēla avots</a></p><p><a href="{{ institution.photo.licenseUrl | escape }}" target="_blank" rel="noopener">{{ institution.photo.license | escape }} · lietošanas nosacījumi</a></p>{% if institution.photo.officialUrl %}<p><a href="{{ institution.photo.officialUrl | escape }}" target="_blank" rel="noopener">Akadēmijas oficiālā vietne ↗</a></p>{% endif %}</div>
       </article>
       {% elsif institution.id == "lka" %}
       <article class="photo-license-pending" id="university-photo-lka">
         <div class="photo-license-pending__art" aria-hidden="true"><span>RĪGA · MIERA IELA 58A</span><strong>Tabakas fabrikas kvartāls</strong></div>
         <div><h3>{{ institution.name }}</h3><p>Akadēmijas jaunais TabFab kvartāls atrodas Miera ielā 58a. Oficiālajā lapā ir aktuāls foto, bet atvērtu tālākizmantošanas licenci neizdevās apstiprināt, tāpēc attēlu šeit nepārpublicējam.</p><p><a href="https://www.lka.edu.lv/lv/par-akademiju/attistiba/tabakas-fabrika/" target="_blank" rel="noopener">Skatīt akadēmijas oficiālo TabFab lapu ↗</a></p><small>Foto publicēšanai gaida tiesību turētāja atļauju vai pārbaudītu atvērtu licenci.</small></div>
       </article>
-      {% elsif institution.id == "naa" %}
-      <article class="photo-license-pending" id="university-photo-naa">
-        <div class="photo-license-pending__art" aria-hidden="true"><span>RĪGA · EZERMALAS IELA</span><strong>Nacionālā aizsardzības akadēmija</strong></div>
-        <div><h3>{{ institution.name }}</h3><p>Akadēmijas oficiālajā lapā ir institūcijas attēli, taču to atvērtu tālākizmantošanas licenci neizdevās apstiprināt. Autortiesību statusu neuzminam un attēlu šeit nepārpublicējam.</p><p><a href="https://www.naa.mil.lv/lv" target="_blank" rel="noopener">Skatīt akadēmijas oficiālo lapu ↗</a></p><small>Foto publicēšanai gaida tiesību turētāja atļauju vai pārbaudītu atvērtu licenci.</small></div>
-      </article>
       {% endif %}
       {% endfor %}
     </div>
-    <p class="fineprint">Deviņām augstskolām ir publicēts attēls ar pārbaudāmu Commons licenci. LKA un NAA fotogrāfijas pašlaik netiek kopētas: oficiālas fotogrāfijas atrašana pati par sevi nepiešķir tiesības to pārpublicēt. Ja tiek saņemta atļauja vai atrasts atvērts avota fails, šīs kartītes var papildināt.</p>
+    <p class="fineprint">Deviņu augstskolu fotogrāfijām norādīti pārbaudāmi avoti un licences. NAA kartītē izmantota akadēmijas oficiālā emblēma, kuras avots ir Latvijas Aizsardzības ministrija. Oficiālā zīme izmantota iestādes identificēšanai; tā nenozīmē akadēmijas atbalstu šai vietnei. LKA ēkas fotogrāfijai vēl nepieciešama pārbaudīta pārpublicēšanas atļauja.</p>
   </section>
 </div>
 {% include garden-photo-credits.html %}

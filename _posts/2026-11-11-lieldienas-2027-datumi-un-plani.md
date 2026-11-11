@@ -9,10 +9,11 @@ author: Silvis Balodis
 date: '2026-11-11'
 reading_notes: false
 blog_slug: lieldienas-2027-datumi-un-plani
-og_image: "/assets/blog/easter-960.webp"
-og_image_width: 960
-og_image_height: 655
-og_image_alt: Olas, sīpolu mizas un audums Lieldienu olu krāsošanai
+og_image: "/assets/social-cards/v2/21da5662a7bfeda8-99dd790e73c6.jpg"
+og_image_width: 1200
+og_image_height: 630
+og_image_alt: 'Lieldienas 2027. gadā: datumi, brīvdienas un ģimenes plāns | Kalendārs365
+  Latvijai'
 ---
 Lieldienas kalendārā katru gadu jāmeklē no jauna. Atšķirībā no svētkiem ar nemainīgu mēneša datumu tās pārvietojas starp martu un aprīli. Tādēļ ģimenes tikšanās, īsu ceļojumu vai bērnu nodarbību plānu nevajag vienkārši pārkopēt no iepriekšējā pavasara. Vispirms pārbaudi konkrēto gadu un tikai pēc tam izvēlies pārējās detaļas.
 

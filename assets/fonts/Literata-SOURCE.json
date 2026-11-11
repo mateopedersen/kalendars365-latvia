@@ -1,0 +1,10 @@
+{
+  "family": "Literata",
+  "source": "https://github.com/google/fonts/tree/main/ofl/literata",
+  "license": "SIL Open Font License 1.1",
+  "instance": {
+    "wght": 600,
+    "opsz": 36
+  },
+  "sha256": "432494006220eb5d01c807d9a67c8607b1f4d3b045ccafb52a3e6ff6140e2ece"
+}

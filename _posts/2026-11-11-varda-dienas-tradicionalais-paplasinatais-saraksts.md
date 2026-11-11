@@ -9,10 +9,11 @@ author: Silvis Balodis
 date: '2026-11-11'
 reading_notes: false
 blog_slug: varda-dienas-tradicionalais-paplasinatais-saraksts
-og_image: "/assets/blog/flowers-960.webp"
-og_image_width: 960
-og_image_height: 1380
-og_image_alt: Sarkanas magones stikla vāzē.
+og_image: "/assets/social-cards/v2/bf7cc3ef6014ffac-2bdf3b227037.jpg"
+og_image_width: 1200
+og_image_height: 630
+og_image_alt: 'Vārda dienas: kā atšķirt tradicionālo un paplašināto sarakstu | Kalendārs365
+  Latvijai'
 ---
 Vārda diena Latvijas ikdienā ir neliels, bet personisks kalendāra notikums. To pamana darbavietā, atceras ģimenē vai izmanto kā iemeslu īsai apsveikuma ziņai. Meklējot savu vai tuvinieka vārdu, tomēr var rasties jautājums: kāpēc vienā sarakstā tas ir redzams, bet citā nav?
 

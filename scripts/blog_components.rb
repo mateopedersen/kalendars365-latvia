@@ -8,6 +8,8 @@ module BlogComponents
     briefs=JSON.parse(File.read(File.join(root,'_data/blog-posts.json'))).fetch('posts')
     photos=JSON.parse(File.read(File.join(root,'_data/blog-photos.json'))).fetch('photos').to_h{|p|[p.fetch('id'),p]}
     sources=JSON.parse(File.read(File.join(root,'_data/blog-sources.json')))
+    covers_path=File.join(root,'_data/social-images.json')
+    covers=File.exist?(covers_path) ? JSON.parse(File.read(covers_path)).fetch('pages') : {}
     owner=JSON.parse(File.read(File.join(root,'_data/owner.json')))
     raise 'Expected 20 blog articles' unless briefs.length==20
     posts=briefs.map do |brief|
@@ -23,6 +25,9 @@ module BlogComponents
       photo=photos.fetch(brief.fetch('photoKey'))
       post=brief.merge('url'=>"/blogs/#{brief.fetch('slug')}/",'wordCount'=>count,'readingMinutes'=>(count/180.0).ceil,'photo'=>photo,'toc'=>toc,'sources'=>brief.fetch('sourceIds').map{|key|sources.fetch(key)})
       front={'layout'=>'blog-post','family'=>'blog_article','permalink'=>post['url'],'title'=>post['title'],'description'=>post['description'],'author'=>owner.fetch('name'),'date'=>post['date'],'reading_notes'=>false,'blog_slug'=>post['slug'],'og_image'=>photo['src'],'og_image_width'=>photo['width'],'og_image_height'=>photo['height'],'og_image_alt'=>photo['alt']}
+      if (cover=covers[post['url']])
+        front.merge!('og_image'=>cover.fetch('src'),'og_image_width'=>cover.fetch('width'),'og_image_height'=>cover.fetch('height'),'og_image_alt'=>cover.fetch('alt'))
+      end
       path=File.join(root,"_posts/#{post['date']}-#{post['slug']}.md")
       FileUtils.mkdir_p(File.dirname(path));File.write(path,front.to_yaml+"---\n"+body)
       post

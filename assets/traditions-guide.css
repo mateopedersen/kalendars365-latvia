@@ -1,0 +1,54 @@
+/* Photographic topic directory. Media, text and controls have independent bounds. */
+.category-v2 [data-traditions-guide] .tradition-story-grid{gap:24px;align-items:stretch}
+.category-v2 [data-traditions-guide] .tradition-story{min-width:0;overflow:hidden;background:#fffdfa}
+.category-v2 [data-traditions-guide] .tradition-story[hidden],.category-v2 [data-traditions-guide] [hidden]{display:none!important}
+.category-v2 [data-traditions-guide] .tradition-story-media{height:auto;aspect-ratio:16/9;flex:none;overflow:hidden;background:#f0eae4}
+.category-v2 [data-traditions-guide] .tradition-story-media img{display:block;width:100%;height:100%;max-width:100%;object-fit:cover;transition:transform .3s ease}
+.category-v2 [data-traditions-guide] .tradition-story-media:hover img{transform:scale(1.025)}
+.category-v2 [data-traditions-guide] .tradition-story-copy{padding:22px;min-width:0;gap:12px}
+.category-v2 [data-traditions-guide] .tradition-story h3{font-size:22px;line-height:1.27;margin:0;overflow-wrap:anywhere}
+.category-v2 [data-traditions-guide] .tradition-tag{font-size:10px;line-height:1.4;font-weight:700;color:#7c3149;padding:6px 9px;letter-spacing:.08em}
+.category-v2 [data-traditions-guide] .tradition-story h3 a{color:#2f2830;font-weight:750}
+.category-v2 [data-traditions-guide] .tradition-story-copy>p{font-size:15px;line-height:1.65;margin:0;color:#5d5356}
+.category-v2 [data-traditions-guide] .tradition-card-dates{font-size:14px;line-height:1.5;font-weight:650;color:#8d2944}
+.category-v2 [data-traditions-guide] .category-photo-caption{display:block;font-size:13px;line-height:1.55;color:#6d6266;padding-top:12px;border-top:1px solid #eee3de}
+.category-v2 [data-traditions-guide] .category-photo-caption a{display:block;width:fit-content;min-height:24px;padding-top:4px;color:#87233e;text-decoration:underline;text-underline-offset:3px}
+.category-v2 [data-traditions-guide] .tradition-more{font-size:14px;min-height:32px;margin-top:auto;padding-top:10px}
+.category-v2 [data-traditions-guide] .category-result-bar{gap:12px;flex-wrap:wrap;margin:20px 0}
+.category-v2 [data-traditions-guide] .category-result-bar p{margin:0;font-weight:650}
+.category-v2 [data-traditions-guide] .traditions-empty{padding:24px;border:1px solid #e4d0d5;border-radius:16px;background:#fff8f5}
+.tradition-topic-photo{margin:24px 0 32px;border:1px solid #e5d7d1;border-radius:20px;overflow:hidden;background:#fffdfa}
+.tradition-topic-photo>img{display:block;width:100%;height:auto;aspect-ratio:16/9;object-fit:cover}
+.tradition-topic-photo figcaption{padding:16px 20px;font-size:14px;line-height:1.6;color:#5b5056}
+.tradition-topic-photo figcaption span{display:block;margin-top:6px;font-size:12px}
+.category-page--svetki-un-tradicijas .v2-tradition-hero-photo{margin:0;height:100%;position:relative;isolation:isolate}
+.category-page--svetki-un-tradicijas .v2-tradition-hero-photo>img{display:block;width:100%;height:100%;object-fit:cover}
+.category-page--svetki-un-tradicijas .v2-tradition-hero-photo:after{content:"";position:absolute;inset:35% 0 0;background:linear-gradient(transparent,#241914dc);z-index:0}
+.category-page--svetki-un-tradicijas .v2-tradition-hero-photo figcaption{position:absolute;bottom:22px;left:24px;right:24px;color:white;z-index:1;font-size:12px;line-height:1.5}
+.category-page--svetki-un-tradicijas .v2-tradition-hero-photo figcaption strong{display:block;font-size:28px;line-height:1.2;margin-bottom:10px;color:white}
+.category-page--svetki-un-tradicijas .v2-tradition-hero-photo figcaption a{color:#fff;text-decoration:underline}
+.page-shell .page-heading.tradition-photo-hero{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.05fr);align-items:stretch;gap:0;padding:0;margin:0 0 28px;min-height:0;border:1px solid #e2d3cd;border-radius:24px;overflow:hidden;background:#fffdfa}
+.tradition-photo-hero .tradition-hero-copy{min-width:0;padding:36px 38px;display:flex;flex-direction:column;align-items:flex-start;justify-content:center}
+.tradition-photo-hero .eyebrow{font-size:11px;color:#865163;letter-spacing:.14em;line-height:1.5;margin:0 0 18px}
+.tradition-photo-hero .tradition-hero-status{display:inline-block;font-size:12px;font-weight:700;line-height:1.4;padding:7px 11px;background:#f3e7eb;color:#7c2943;border-radius:8px;margin-bottom:16px}
+.page-shell .tradition-photo-hero h1{display:block;color:#292630;font-size:clamp(32px,3.4vw,52px);line-height:1.08;letter-spacing:-.035em;margin:0 0 20px;overflow-wrap:anywhere;max-width:100%}
+.page-shell .tradition-photo-hero[data-long-title="true"] h1{font-size:clamp(30px,3vw,42px);line-height:1.12}
+.tradition-photo-hero .tradition-hero-description{font-size:17px;line-height:1.65;color:#655761;margin:0 0 24px;max-width:64ch}
+.tradition-photo-hero .tradition-hero-actions{display:flex;flex-wrap:wrap;align-items:center;gap:12px 20px;margin-top:4px}
+.tradition-photo-hero .tradition-hero-actions a{font-size:14px;font-weight:650;white-space:normal;min-height:44px;display:inline-flex;align-items:center;line-height:1.4}
+.page-shell .tradition-photo-hero .tradition-topic-photo{margin:0;border:0;border-left:1px solid #e2d3cd;border-radius:0;min-width:0;align-self:stretch;background:#faf5f0;display:flex;flex-direction:column}
+.tradition-photo-hero .tradition-topic-photo>img{width:100%;height:auto;aspect-ratio:16/9;object-fit:cover;display:block;flex:none;max-width:100%}
+.tradition-photo-hero .tradition-topic-photo figcaption{padding:16px 22px;font-size:13px;line-height:1.6;color:#584d54;overflow-wrap:anywhere}
+.tradition-photo-hero .tradition-topic-photo figcaption span{font-size:12px;margin-top:8px}
+.tradition-photo-hero .tradition-topic-photo figcaption a{display:inline-block;min-height:24px;padding-top:3px;color:#81223e;text-underline-offset:3px}
+.occasion-story .occasion-opening.occasion-opening--text{display:block}
+.occasion-opening--text .occasion-opening-copy{max-width:1050px}
+.page-reading-heading.page-reading-heading--text{display:block;min-height:0;padding-left:0}
+.page-reading-heading--text .eyebrow{display:block;margin-bottom:10px}
+.page-reading-heading--text h2{margin-top:0}
+@media(max-width:900px){.page-shell .page-heading.tradition-photo-hero{grid-template-columns:minmax(0,1fr);border-radius:19px}.page-shell .tradition-photo-hero .tradition-topic-photo{grid-row:1;border-left:0;border-bottom:1px solid #e2d3cd}.tradition-photo-hero .tradition-hero-copy{grid-row:2;padding:28px 24px}.page-shell .tradition-photo-hero h1{font-size:clamp(30px,6vw,44px)}.tradition-photo-hero .tradition-hero-description{font-size:16px}.tradition-photo-hero .tradition-topic-photo figcaption{padding:14px 18px}.tradition-photo-hero .eyebrow{margin-bottom:14px}}
+@media(max-width:360px){.tradition-photo-hero .tradition-hero-copy{padding:24px 18px}.page-shell .tradition-photo-hero h1{font-size:29px}.tradition-photo-hero .tradition-hero-actions{gap:10px}.tradition-photo-hero .tradition-hero-actions a{font-size:13px}}
+#traditions-print-sheet{display:none}
+@media(max-width:620px){.category-v2 [data-traditions-guide] .tradition-story-copy{padding:18px}.category-v2 [data-traditions-guide] .tradition-story h3{font-size:21px}.category-page--svetki-un-tradicijas .v2-tradition-hero-photo figcaption{left:20px;right:20px;bottom:16px}.category-page--svetki-un-tradicijas .v2-tradition-hero-photo figcaption strong{font-size:24px}}
+@media(prefers-reduced-motion:reduce){.category-v2 [data-traditions-guide] .tradition-story-media img{transition:none}}
+@media print{@page{size:A4 portrait;margin:12mm}body.traditions-printing>*:not(#traditions-print-sheet){display:none!important}body.traditions-printing #traditions-print-sheet{display:block!important;color:#222;font:10pt/1.5 sans-serif}#traditions-print-sheet header{color:#81213b;font-weight:700}#traditions-print-sheet h1{font-size:22pt}#traditions-print-sheet article{break-inside:avoid;border-top:1px solid #ddd;padding:12pt 0}#traditions-print-sheet h2{font-size:14pt;margin:0 0 5pt}#traditions-print-sheet p{margin:4pt 0}#traditions-print-sheet small{overflow-wrap:anywhere}}

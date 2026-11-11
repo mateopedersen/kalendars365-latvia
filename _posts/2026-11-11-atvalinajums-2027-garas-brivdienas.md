@@ -9,10 +9,11 @@ author: Silvis Balodis
 date: '2026-11-11'
 reading_notes: false
 blog_slug: atvalinajums-2027-garas-brivdienas
-og_image: "/assets/blog/jurmala-960.webp"
-og_image_width: 960
-og_image_height: 639
-og_image_alt: Jūrmalas smilšu pludmale un vēsturiskā Emīlijas Rācenes peldu iestāde.
+og_image: "/assets/social-cards/v2/940da198556f629c-a89eea332463.jpg"
+og_image_width: 1200
+og_image_height: 630
+og_image_alt: 'Atvaļinājums 2027. gadā: kā salīdzināt garās brīvdienas | Kalendārs365
+  Latvijai'
 ---
 Garās brīvdienas ir iespēja apvienot nedēļas nogali, svētkus un saskaņotu atvaļinājumu. Taču lielākais brīvo dienu skaits ne vienmēr nozīmē labāko atpūtu. Jāņem vērā darba grafiks, ģimenes iespējas, ceļš un tas, cik daudz no izvēlētā perioda patiešām paliek sev vēlamajām nodarbēm.
 

@@ -225,3 +225,22 @@
     line-height: 1.1;
   }
 }
+
+/* Content-sized controls must wrap before shrinking below their readable width. */
+@media screen {
+  .breadcrumbs { flex-wrap: wrap; align-items: baseline; row-gap: 4px; }
+  .breadcrumbs > :last-child { min-width: 0; max-width: 100%; overflow-wrap: anywhere; }
+  .category-inline-form > label { flex: 1 1 150px; min-width: 0; }
+  .category-inline-form :is(input, select) { width: 100%; min-width: 0; max-width: 100%; }
+  .category-day-panel > .category-data-actions { margin: 0; padding-top: 0; }
+  .extra-tool .field-grid > * { min-width: 0; }
+  .extra-tool .field-grid button { max-width: 100%; white-space: normal; overflow-wrap: anywhere; }
+}
+@media screen and (max-width: 700px) {
+  .extra-tool .field-grid { grid-template-columns: minmax(0, 1fr); }
+}
+@media screen and (max-width: 600px) {
+  .category-v2 .category-inline-form { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px; padding: 18px; }
+  .category-inline-form > :is(button, p) { grid-column: 1 / -1; }
+  .category-inline-form > button { width: 100%; white-space: normal; }
+}

@@ -176,7 +176,7 @@
     "family": "hub",
     "indexable": true,
     "status": "ready",
-    "description": "Savieno Latvijas svētku dienas un nedēļas nogales ar atvaļinājumu. Salīdzini atpūtas periodus un tiem vajadzīgo atvaļinājuma darba dienu skaitu.",
+    "description": "Plāno atvaļinājumu 2027.–2030. gadam: aprēķini savus datumus, salīdzini periodus un seko darba dienu budžetam. Saglabā gada plānu un izdrukā to.",
     "lastmod": "2026-11-11"
   },
   {
@@ -802,11 +802,11 @@
   },
   {
     "url": "/gimenes-kalendars/",
-    "title": "Ģimenes kalendārs un kopīgi plāni",
+    "title": "Ģimenes kalendārs un 15 plānotāji drukai",
     "family": "hub",
     "indexable": true,
     "status": "ready",
-    "description": "Izveido ģimenes kalendāru ikdienas notikumiem un kopīgiem plāniem. Izvēlies dizainu, pievieno savu virsrakstu vai fotoattēlu un izdrukā kalendāru.",
+    "description": "Plāno ģimenes notikumus, mājas darbus un maltītes vienuviet. Izvēlies no 15 oriģināliem A4 dizainiem un saglabā PDF vai augstas kvalitātes attēlu.",
     "lastmod": "2026-11-11"
   },
   {
@@ -1652,7 +1652,7 @@
     "family": "hub",
     "indexable": true,
     "status": "ready",
-    "description": "Izveido darba un brīvdienu ciklu no izvēlēta sākuma datuma. Pārskati maiņu grafiku, pielāgo cikla garumu un izdrukā rezultātu.",
+    "description": "Veido savu maiņu grafiku 2027.–2030. gadam. Izvēlies no 15 drukas dizainiem un saglabā maiņu laikus, pauzes, stundas un piezīmes PDF vai attēlā.",
     "lastmod": "2026-11-11"
   },
   {
@@ -2953,11 +2953,11 @@
   },
   {
     "url": "/nedelas-kalendars/",
-    "title": "Nedēļas kalendāri un ISO nedēļu numuri",
+    "title": "Nedēļas kalendārs un 15 plānotāji drukai",
     "family": "hub",
     "indexable": true,
     "status": "ready",
-    "description": "Atrodi vajadzīgo ISO nedēļu un tās datumus. Nedēļas pārskats sākas pirmdienā un palīdz vienuviet pārskatīt darba un personīgos notikumus.",
+    "description": "Plāno savu nedēļu un izvēlies kādu no 15 oriģināliem A4 dizainiem. Saglabā PDF vai augstas kvalitātes attēlu ar saviem notikumiem un piezīmēm.",
     "lastmod": "2026-11-11"
   },
   {
@@ -7732,11 +7732,11 @@
   },
   {
     "url": "/visi-riki/",
-    "title": "Visi kalendāri un plānošanas rīki",
+    "title": "Kalendāri un plānošanas rīki",
     "family": "hub",
     "indexable": true,
     "status": "ready",
-    "description": "Atrodi kalendārus, datumu kalkulatorus un plānošanas rīkus vienuviet. Svētku un vārda dienas, Saules laiki, Mēness fāzes un personīgi plāni Latvijai.",
+    "description": "Atrodi kalendārus drukai, aprēķini dienas un plāno darbu, mācības vai atpūtu. Latvijas svētku datumi, skolu brīvlaiki, Saules laiki un Mēness fāzes.",
     "lastmod": "2026-11-11"
   },
   {
@@ -7878,8 +7878,8 @@
     "url": "/pilsetas-un-fotografijas/",
     "title": "Fotogrāfijas un licences",
     "family": "city_photos",
-    "indexable": true,
-    "status": "ready",
+    "indexable": false,
+    "status": "owner_noindex",
     "description": "82 Latvijas pilsētu, 42 svētku, 9 valsts augstskolu un 16 kultūraugu fotogrāfijas ar autoriem, avota failiem un licencēm.",
     "lastmod": "2026-11-11"
   },

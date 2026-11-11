@@ -13,16 +13,24 @@ class TraditionLinks
   def initialize(entries:, occasions:, cultural:, routes:)
     @entries = entries.fetch('topics')
     @illustrations = JSON.parse(File.read('_data/tradition-illustrations.json'))
+    @photos = JSON.parse(File.read('_data/tradition-photos.json')).fetch('photos').to_h { |photo| [photo.fetch('slug'),photo] }
+    overrides_file='_data/occasion-photo-overrides.json'
+    @photo_overrides=File.file?(overrides_file) ? JSON.parse(File.read(overrides_file)).fetch('photos').to_h { |photo| [photo.fetch('slug'),photo] } : {}
     @routes = routes.map { |route| route.fetch('URL path') }
     @topics = occasions.to_h do |item|
-      [item.fetch('slug'), item.merge('url'=>PREFIX+item.fetch('slug')+'/', 'label'=>item.fetch('title'))]
+      [item.fetch('slug'), item.merge('url'=>PREFIX+item.fetch('slug')+'/', 'label'=>item.fetch('title'), 'photo'=>@photo_overrides.fetch(item.fetch('slug'),item.fetch('photo')))]
     end
     cultural.each do |item|
       slug = item.fetch('url').split('/').last
       raise "Duplicate tradition topic: #{slug}" if @topics.key?(slug)
-      @topics[slug] = item.merge('slug'=>slug, 'label'=>item.fetch('h1').split(':').first, 'type'=>'culture', 'illustration'=>@illustrations.fetch(slug))
+      @topics[slug] = item.merge('slug'=>slug, 'label'=>item.fetch('h1').split(':').first, 'type'=>'culture', 'illustration'=>@illustrations.fetch(slug), 'photo'=>@photos.fetch(slug))
     end
     expected_art = cultural.map { |item| item.fetch('url').split('/').last }.sort
+    raise 'Unknown occasion photo override' unless (@photo_overrides.keys-occasions.map{|item|item.fetch('slug')}).empty?
+    raise 'Cultural photo coverage differs from catalog' unless @photos.keys.sort == expected_art
+    @photos.each do |slug, photo|
+      raise "Missing licensed topic photo: #{slug}" unless File.file?(photo.fetch('sourceCopy')) && photo.fetch('licenseUrl').start_with?('https://','http://') && !photo.fetch('author').empty? && !photo.fetch('alt').empty?
+    end
     raise 'Cultural illustration coverage differs from catalog' unless @illustrations.keys.sort == expected_art
     @illustrations.each do |slug, art|
       raise "Missing topic illustration: #{slug}" unless art.fetch('src') == "/assets/traditions/#{slug}.svg" && File.file?(art['src'].delete_prefix('/')) && !art.fetch('alt').strip.empty?

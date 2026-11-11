@@ -1,2 +1,6 @@
 *.pdf binary
 *.webp binary
+
+# Preserve the exact upstream license and checksum-bound university emblem.
+assets/fonts/Literata-OFL.txt -whitespace
+assets/universities/naa-emblem.svg -whitespace

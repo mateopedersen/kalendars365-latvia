@@ -15,10 +15,14 @@ require_relative 'garden_components'
 require_relative 'garden_experience_components'
 require_relative 'organizer_components'
 require_relative 'latvia_components'
+require_relative 'city_photo_components'
 require_relative 'hub_components'
 require_relative 'school_components'
 require_relative 'work_calendar_components'
+require_relative 'vacation_components'
+require_relative 'tools_directory_components'
 require_relative 'category_experience_components'
+require_relative 'traditions_guide_components'
 require_relative 'category_redesign'
 require_relative 'category_advanced_components'
 require_relative 'useful_pages'
@@ -37,6 +41,7 @@ SLUGS = %w[janvaris februaris marts aprilis maijs junijs julijs augusts septembr
 DAYS = %w[P. O. T. C. Pk. S. Sv.].freeze
 LAW = 'https://likumi.lv/ta/id/72608-par-svetku-atceres-un-atzimejamam-dienam'
 ROUTES = JSON.parse(File.read('_data/routes.json'))
+SOCIAL_COVERS = File.exist?('_data/social-images.json') ? JSON.parse(File.read('_data/social-images.json')).fetch('pages') : {}
 DATA = File.exist?('assets/calendar-data.json') ? JSON.parse(File.read('assets/calendar-data.json')) : {}
 CURRENT_NAMES = JSON.parse(File.read('_data/name-days-current.json'))
 DATA['names'] = CURRENT_NAMES.fetch('records').map { |n| n.merge('edition'=>CURRENT_NAMES.fetch('edition'),'source'=>n['kind']=='traditional' ? 'https://www.vvc.gov.lv/lv/media/20847/download?attachment=' : 'https://www.vvc.gov.lv/lv/media/20850/download?attachment=') }
@@ -75,6 +80,8 @@ celestial_art, celestial_error, celestial_status = Open3.capture3(ENV.fetch('NOD
 abort "Celestial photo art build failed: #{celestial_error}" unless celestial_status.success?
 vector_art, vector_error, vector_status = Open3.capture3(ENV.fetch('NODE', 'node'), 'scripts/build_category_vectors.mjs')
 abort "Vector artwork build failed: #{vector_error}" unless vector_status.success?
+season_art, season_error, season_status = Open3.capture3(ENV.fetch('NODE', 'node'), 'scripts/build_season_scenes.mjs')
+abort "Season landscape build failed: #{season_error}" unless season_status.success?
 photo_links, photo_links_error, photo_links_status = Open3.capture3(ENV.fetch('NODE', 'node'), 'scripts/link_category_vectors.cjs')
 abort "Photographic category links failed: #{photo_links_error}" unless photo_links_status.success?
 PHOTOGRAPHIC_ART = JSON.parse(File.read('_data/category-photos.json')).fetch('artworks').map { |item| item.fetch('id') }.freeze
@@ -222,6 +229,7 @@ def hero_context(family,url,year,month,slug)
  end
 end
 def page_heading_markup(family,url,heading,description,year,month,slug)
+ return tradition_photo_heading_markup(heading,description,url.split('/').last) if %w[occasion latvia_cultural].include?(family)
  return work_hero_markup(heading,description,year,month) if url.start_with?('/darba-dienu-kalendars/')
  return garden_heading_markup(heading,description,slug) if %w[garden garden_month].include?(family)
  visual=visual_family(family,url)
@@ -444,7 +452,7 @@ ROUTES.each do |r|
   noindex=matching.empty? || !DATA.fetch('assumptions',{}).fetch('namesComplete',false);reason='name_source_pending' if noindex
   body=(noindex ? '<div class="notice">Vārda dienas datums vēl nav pārbaudīts oficiālajā sarakstā. Personalizētu kalendāru vari izveidot bez vārda dienas atzīmes.</div>' : card('Vārda diena',matching.map{|n|"<p>#{h(n['name'])} · #{n['day']}. #{MONTHS[n['month'].to_i-1]}</p>"}.join))+widget('names')+(f=='name_calendar' ? print_panel('named',2027,nil,r['Latvian title/topic']) : '')+source_panel('Kalendārvārdu avots: Valsts valodas centra aktuālais tradicionālais un paplašinātais saraksts, pārbaudīts 2026. gada 10. novembrī. Vārdu rakstība saglabāta atbilstoši avotam; tradicionālie un paplašinātie ieraksti ir nodalīti.')
  elsif f=='sky_hub'
-  body='{% include sky-tool.html kind="moon" %}'+'<section class="sun-city-options"><h2>Mēness laiki visās Latvijas pilsētās</h2><div class="link-grid">'+CITIES.map{|c|a('/meness-lekts-un-riets/'+c['id']+'/',c['name'],'link-card')}.join+'</div></section>'
+  body='{% include sky-tool.html kind="moon" %}'+city_photo_directory('moon')
  elsif f=='moon_city'
   body='{% include sky-tool.html kind="moon" %}'+source_panel('Mēness fāzes apgaismojums ir aprēķināts izvēlētās dienas plkst. 12.00 Europe/Riga laikā. Lēkts un riets atkarīgs no pilsētas koordinātām.')
  elsif f=='sun_city'
@@ -575,9 +583,17 @@ ROUTES.each do |r|
  desc="#{title}. #{m ? "#{Date.new(y,m,-1).day} #{Date.new(y,m,-1).day == 31 ? 'diena' : 'dienas'}, ISO nedēļas un izvēlētā mēneša plānošana." : 'Pārskatāmi datumi, plānošanas rīki un saites uz avotiem.'} Kalendārs365 Latvijai." if desc.empty?
  front={'layout'=>'default','title'=>title,'description'=>desc,'permalink'=>p,'family'=>f,'city_id'=>(%w[sun_city moon_city].include?(f) ? slug : nil),'year'=>(r['Year'].empty? ? nil : y),'month'=>m,'week'=>week,'calendar_name'=>(f=='name_calendar' ? r['Latvian title/topic'] : nil),'view'=>(f=='iso_week' ? 'week' : f=='year' ? 'year' : nil),'noindex'=>noindex,'og_image'=>(File.file?("assets/og/#{Digest::SHA1.hexdigest(p)[0,16]}.webp") ? "/assets/og/#{Digest::SHA1.hexdigest(p)[0,16]}.webp" : '/assets/og/home.png')}
  front.delete_if{|_,value|value.nil?}
+ if %w[occasion latvia_cultural].include?(f)
+  day_photo=tradition_cover(tradition_photo_for(p.split('/').last))
+  social_photo=day_photo.fetch('files').max_by{|image|image.fetch('width')}
+  front['og_image']=social_photo.fetch('src');front['og_image_width']=social_photo.fetch('width');front['og_image_height']=social_photo.fetch('height');front['og_image_alt']=day_photo.fetch('alt')
+ end
+ if (cover=SOCIAL_COVERS[p])
+  front.merge!('og_image'=>cover.fetch('src'),'og_image_width'=>cover.fetch('width'),'og_image_height'=>cover.fetch('height'),'og_image_alt'=>cover.fetch('alt'))
+ end
  front['calendar_collection']=true if CALENDAR_COLLECTION_FAMILIES.include?(f)
  if slug=='saullekts-saulriets'
-  body += '<section class="sun-city-options"><h2>Saules laiki visās Latvijas pilsētās</h2><div class="link-grid">'+CITIES.map{|c|a('/saullekts-saulriets/'+c['id']+'/',c['name'],'link-card')}.join+'</div></section>'
+  body += city_photo_directory('sun')
  end
  if CATEGORY_EXPERIENCES.key?(slug) && p=="/#{slug}/"
   body=category_v2_finish(slug,category_advanced_controls(slug,category_body_markup(slug,body)))
@@ -603,7 +619,9 @@ ROUTES.each do |r|
  path=p=='/' ? 'index.html' : "generated#{p}index.html";FileUtils.mkdir_p(File.dirname(path));File.write(path,front.to_yaml+"---\n"+content)
  # A rebuild alone does not change lastmod. Only meaningful page content does.
  reading_note = READING_NOTES.for_route(r)
- content_hash = Digest::SHA256.hexdigest(JSON.generate([title,desc,body,reading_note]))
+ revision_content=[title,desc,body,reading_note]
+ revision_content << day_photo if %w[occasion latvia_cultural].include?(f)
+ content_hash = Digest::SHA256.hexdigest(JSON.generate(revision_content))
  previous_revision = previous_revisions.fetch(p,{})
  lastmod = previous_revision['sha256']==content_hash ? previous_revision['lastmod'] : revision_date
  page_revisions[p] = {sha256:content_hash,lastmod:lastmod}
@@ -618,13 +636,16 @@ end
 File.write('_includes/useful-license-tools.html',useful_pages_markup('/pilsetas-un-fotografijas/','city_photos','Fotogrāfijas un licences',''))
 File.write('404.html',{'layout'=>'default','title'=>'Lapa nav atrasta','description'=>'Atrodi vajadzīgo Latvijas kalendāru, svētku dienu vai plānošanas rīku.','permalink'=>'/404.html','family'=>'not_found','noindex'=>true}.to_yaml+"---\n{% include not-found.html %}")
 File.write('500.html',{'layout'=>'default','title'=>'Īslaicīga kļūda','description'=>'Lapa īslaicīgi nav pieejama. Mēģini vēlreiz vai atver Latvijas plānošanas rīkus.','permalink'=>'/500.html','family'=>'temporary_error','noindex'=>true}.to_yaml+"---\n{% include temporary-error.html %}")
-manifest << {url:'/pilsetas-un-fotografijas/',title:'Fotogrāfijas un licences',family:'city_photos',indexable:true,status:'ready',description:'82 Latvijas pilsētu, 42 svētku, 9 valsts augstskolu un 16 kultūraugu fotogrāfijas ar autoriem, avota failiem un licencēm.',lastmod:revision_date}
+photo_page_frontmatter = YAML.safe_load(File.read('pilsetas-un-fotografijas.html').split(/^---\s*$/,3).fetch(1))
+photo_page_indexable = !photo_page_frontmatter.fetch('noindex',false)
+manifest << {url:'/pilsetas-un-fotografijas/',title:'Fotogrāfijas un licences',family:'city_photos',indexable:photo_page_indexable,status:(photo_page_indexable ? 'ready' : 'owner_noindex'),description:'82 Latvijas pilsētu, 42 svētku, 9 valsts augstskolu un 16 kultūraugu fotogrāfijas ar autoriem, avota failiem un licencēm.',lastmod:revision_date}
 %w[/pilsetas-un-fotografijas/ /404.html /500.html].each do |url|
  READING_NOTES.for_route({'URL path'=>url,'Page family'=>'informational','Year'=>''})
 end
 File.write('_data/page-guides.json',JSON.pretty_generate({schemaVersion:1,locale:'lv-LV',editorial:{aiAssisted:true,nativeEditorReviewed:false},pages:READING_NOTES.pages})+"\n")
 manifest.concat(BlogComponents.generate(ROOT))
-search_pages=manifest.select{|r|r[:indexable]}.map do |page|
+# Owner-excluded information pages remain useful in the site's own search.
+search_pages=manifest.select{|r|r[:indexable] || r[:status]=='owner_noindex'}.map do |page|
  city=CITIES.find{|c|page[:url].end_with?("/#{c['id']}/")}
  page.merge(keywords: city ? city['name'] : '')
 end

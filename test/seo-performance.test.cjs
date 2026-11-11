@@ -7,6 +7,10 @@ const physical=url=>'_site'+url+(url.endsWith('/')?'index.html':'');
 function dimensions(file){
  const b=fs.readFileSync(file);
  if(b.subarray(1,4).toString()==='PNG')return[b.readUInt32BE(16),b.readUInt32BE(20)];
+ if(b[0]===0xff&&b[1]===0xd8){
+  let offset=2;while(offset<b.length){while(b[offset]===0xff)offset++;const marker=b[offset++];if(marker===0xd9||marker===0xda)break;const n=b.readUInt16BE(offset);if([0xc0,0xc1,0xc2].includes(marker))return[b.readUInt16BE(offset+5),b.readUInt16BE(offset+3)];offset+=n;}
+  throw new Error('Missing JPEG frame: '+file);
+ }
  assert.equal(b.subarray(8,12).toString(),'WEBP',file);
  const kind=b.subarray(12,16).toString();
  if(kind==='VP8X')return[1+b.readUIntLE(24,3),1+b.readUIntLE(27,3)];
@@ -26,15 +30,25 @@ test('ready pages are indexable, listed in the sitemap and discoverable through 
   }else assert.equal(meta(html,'robots'),'noindex,follow',p.url);
  }
 });
-test('all social image dimensions match their actual bytes and blog alt text follows its photo',()=>{
- const posts=new Map(json('_data/blog.json').posts.map(p=>[p.url,p]));
+test('all social covers are unique page-bound JPEGs and match their actual dimensions',()=>{
+ const covers=json('_data/social-images.json').pages,seen=new Set();
  for(const p of manifest){
   const html=read(physical(p.url)),image=meta(html,'og:image'),u=new URL(image);
   const file=path.join(root,'_site',decodeURIComponent(u.pathname));
   assert.deepEqual([Number(meta(html,'og:image:width')),Number(meta(html,'og:image:height'))],dimensions(file),p.url);
-  if(posts.has(p.url))assert.equal(meta(html,'og:image:alt').replaceAll('&amp;','&').replaceAll('&#39;',"'").replaceAll('&quot;','"'),posts.get(p.url).photo.alt,p.url);
+  assert.equal(image,'https://kalendars365.lv'+covers[p.url].src,p.url);assert.ok(!seen.has(image),p.url);seen.add(image);
+  assert.equal(meta(html,'og:image:type'),'image/jpeg',p.url);
+  assert.equal(meta(html,'og:image:alt').replaceAll('&amp;','&').replaceAll('&#39;',"'").replaceAll('&quot;','"'),covers[p.url].alt,p.url);
   assert.equal(meta(html,'twitter:image'),image,p.url);
  }
+});
+test('photo licensing page stays accessible and searchable while excluded from search engines',()=>{
+ const url='/pilsetas-un-fotografijas/',entry=manifest.find(p=>p.url===url);
+ assert.equal(entry.indexable,false);
+ assert.equal(meta(read(physical(url)),'robots'),'noindex,follow');
+ assert.ok(!read('_site/sitemap.xml').includes('<loc>https://kalendars365.lv'+url+'</loc>'));
+ assert.ok(json('assets/search-index.json').some(p=>p.url===url));
+ assert.ok(!/Disallow:\s*\/(?:\s|pilsetas-un-fotografijas(?:\/|\s))/.test(read('_site/robots.txt')));
 });
 test('every page has source-bound critical CSS and reuses its full stylesheet without unrelated scripts',()=>{
  const bundles=new Map();

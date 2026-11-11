@@ -12,7 +12,7 @@ def university_explorer_markup
     photo = calendars.find { |item| item['photo'] }&.fetch('photo') || institution['photo']
     image = photo && media.find { |item| item['source'] == photo['src'] }
     illustration = if image
-      %(<figure class="school-campus"><img src="#{h(image['src'])}" srcset="#{h(image['srcset'])}" sizes="(max-width:650px) calc(100vw - 36px), (max-width:1050px) 45vw, 420px" alt="#{h(photo['alt'])}" width="#{image['width']}" height="#{image['height']}" loading="lazy" decoding="async"><figcaption><a href="#{h(photo['pageUrl'])}" target="_blank" rel="noopener">#{h(photo['author'])}</a> · <a href="#{h(photo['licenseUrl'])}" target="_blank" rel="noopener">#{h(photo['license'])}</a></figcaption></figure>)
+      %(<figure class="school-campus#{photo['kind']=='emblem' ? ' school-campus--emblem' : ''}"><img src="#{h(image['src'])}" srcset="#{h(image['srcset'])}" sizes="(max-width:650px) calc(100vw - 36px), (max-width:1050px) 45vw, 420px" alt="#{h(photo['alt'])}" width="#{image['width']}" height="#{image['height']}" loading="lazy" decoding="async"><figcaption><a href="#{h(photo['pageUrl'])}" target="_blank" rel="noopener">#{h(photo['author'])}</a> · <a href="#{h(photo['licenseUrl'])}" target="_blank" rel="noopener">#{h(photo['license'])}</a></figcaption></figure>)
     else
       %(<div class="school-campus school-campus--identity"><span>#{ui_icon('school')}</span><strong>#{h(institution['name'])}</strong><a href="#{h(institution['url'])}" target="_blank" rel="noopener">Augstskolas oficiālā vietne ↗</a></div>)
     end

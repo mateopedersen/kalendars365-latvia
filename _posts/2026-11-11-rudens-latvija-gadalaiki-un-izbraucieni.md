@@ -9,10 +9,11 @@ author: Silvis Balodis
 date: '2026-11-11'
 reading_notes: false
 blog_slug: rudens-latvija-gadalaiki-un-izbraucieni
-og_image: "/assets/blog/autumn-960.webp"
-og_image_width: 960
-og_image_height: 720
-og_image_alt: Brūnām lapām klāta taka un kaili koki pie Gaujas rudenī.
+og_image: "/assets/social-cards/v2/2c3329080d2f393a-3fd1b2593073.jpg"
+og_image_width: 1200
+og_image_height: 630
+og_image_alt: 'Rudens Latvijā: gadalaiku robežas un pārdomāts izbrauciens | Kalendārs365
+  Latvijai'
 ---
 Rudens plāns Latvijā var ietvert pastaigu, īsu braucienu, dārza darbus un atgriešanos pie regulārā mācību ritma. Taču vārds “rudens” ne vienmēr nozīmē vienu precīzu sākuma brīdi. Kalendāra mēneši, astronomiskais gadalaiks un faktiskie laikapstākļi apraksta sezonu no atšķirīgiem skatpunktiem.
 

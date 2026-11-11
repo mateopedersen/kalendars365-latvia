@@ -196,7 +196,7 @@ def lunar_year_index_markup
   cards = years.map do |year|
     phases = data.fetch('moon', []).select { |event| event['date'].start_with?(year.to_s) }
     cover = lunar_cover(year)
-    %(<article class="lunar-year-card"><a class="lunar-year-card-image" data-cover="#{h(cover['id'])}" href="/meness-kalendars/#{year}/" aria-label="Atvērt #{year}. gada Mēness pārskatu"><img src="#{h(cover['src'])}" alt="#{h(cover['alt'])}" loading="lazy" width="#{cover['width']}" height="#{cover['height']}"><span>#{h(cover['credit'])}</span><b>#{year}</b></a><div class="lunar-year-card-body"><p>#{Date.gregorian_leap?(year) ? 366 : 365} dienas <i></i> #{phases.length} precīzi fāžu brīži</p><a href="/meness-kalendars/#{year}/" class="lunar-year-open">Atvērt gada pārskatu <span aria-hidden="true">↗</span></a><h3>Izvēlies mēnesi</h3><nav aria-label="#{year}. gada mēneši" class="lunar-year-mini-months">#{(1..12).map { |month| a("/meness-kalendars/#{year}/#{SLUGS[month - 1]}/", format('%02d %s', month, MONTHS[month - 1].capitalize)) }.join}</nav></div></article>)
+    %(<article class="lunar-year-card"><a class="lunar-year-card-image" data-cover="#{h(cover['id'])}" href="/meness-kalendars/#{year}/" aria-label="Atvērt #{year}. gada Mēness pārskatu"><img src="#{h(cover['src'])}" alt="#{h(cover['alt'])}" loading="lazy" width="#{cover['width']}" height="#{cover['height']}"><span>#{h(cover['credit'])}</span><b>#{year}</b></a><div class="lunar-year-card-body"><p>#{Date.gregorian_leap?(year) ? 366 : 365} dienas <i></i> #{phases.length} precīzi fāžu brīži</p><a href="/meness-kalendars/#{year}/" class="lunar-year-open">Atvērt gada pārskatu <span aria-hidden="true">↗</span></a><h3>Izvēlies mēnesi</h3><nav aria-label="#{year}. gada mēneši" class="lunar-year-mini-months">#{(1..12).map { |month| %(<a class="lunar-mini-month" href="/meness-kalendars/#{year}/#{SLUGS[month - 1]}/" aria-label="#{year}. gada #{h(GEN[month - 1])} Mēness kalendārs"><span class="lunar-mini-number" aria-hidden="true">#{format('%02d',month)}</span><i class="lunar-mini-divider" aria-hidden="true"></i><span class="lunar-mini-name">#{h(MONTHS[month - 1].capitalize)}</span></a>) }.join}</nav></div></article>)
   end.join
   %(<section class="lunar-year-index"><p class="lead">Izvēlies gadu, tad mēnesi. Katrā kalendāra dienā redzams attiecīgā datuma aprēķinātais Mēness apgaismojums; pieskaries dienai, lai atvērtu plašāku skatu.</p><div class="lunar-year-index-grid">#{cards}</div><p class="lunar-year-credit">Vākiem izmantotas īstas NASA Apollo un Artemis I misiju fotogrāfijas. Tās ir vēsturiskas misiju fotogrāfijas, nevis attiecīgajā nākotnes gadā uzņemti attēli. <a href="/pilsetas-un-fotografijas/#astronomijas-fotografijas">Katra attēla avots un izmantošanas noteikumi</a>. Precīzie fāžu brīži: <a href="https://aa.usno.navy.mil/data/api" target="_blank" rel="noopener">USNO</a>.</p></section>)
 end
@@ -296,7 +296,7 @@ def cultural_page_markup(article)
   notes = (article['factNotes'] || []).each_with_index.map { |note,index| "<li>#{tradition_text_markup(slug,note,"factNotes[#{index}]")}</li>" }.join
   extra = notes.empty? ? '' : %(<section class="content-card"><h2>Precizējumi</h2><ul>#{notes}</ul></section>)
   sources=%(<aside class="source-panel tradition-source-panel">#{tradition_sources_markup(slug)}<p>Pasākumu norises grafiks nav tas pats, kas pastāvīgais svētku vai tradīcijas datums.</p>#{a('/avoti-un-metodika/','Avoti un metodika →')}</aside>)
-  intro + date_markup + extra + sources + tradition_related_markup(slug)
+  intro + date_markup.sub('<section ', '<section id="datumi" ') + extra + sources + tradition_related_markup(slug)
 end
 
 def astronomy_event_markup(slug)
@@ -321,7 +321,7 @@ def latvia_special_markup(path, metadata)
   when 'pulkstena-pargriesana'
     clock_change_markup + verified_sources_panel(['dst-latvia'])
   when 'dienas-garums'
-    '{% include sky-tool.html %}' + %(<section class="sun-city-options"><h2>Dienas garums un Saules laiki 82 Latvijas pilsētās</h2><p>Visas pilsētas ir Europe/Riga laika joslā. Koordinātas maina aprēķinātos Saules laikus, bet pilsētas izvēle nemaina pulksteņa joslu.</p><div class="link-grid">#{CITIES.map { |city| a('/saullekts-saulriets/' + city['id'] + '/', city['name'], 'link-card') }.join}</div></section>) + verified_sources_panel(['usno-services','usno-api'])
+    '{% include sky-tool.html %}' + city_photo_directory('sun','Dienas garums un Saules laiki Latvijas pilsētās') + verified_sources_panel(['usno-services','usno-api'])
   when 'pensiju-izmaksas'
     %(<p class="lead">Latvijā nav vienas ikmēneša pensijas izmaksas dienas, ko varētu droši attiecināt uz visiem saņēmējiem. Pārbaudi savu VSAA lēmumu un izmanto privātu atgādinājumu.</p>#{payment_reminder_markup('pension')}#{verified_sources_panel(['vsaa-faq','vsaa-holidays-2025'],'Agrāks svētku izmaksas paziņojums ir tikai tā gada piemērs, nevis nākamā gada maksājumu kalendārs.')})
   when 'pabalstu-izmaksas'

@@ -1,0 +1,32 @@
+/* Weekly stationery gets a readable gallery without changing other planners. */
+.weekly-design-studio{background:#f2ece5;padding:clamp(18px,3vw,38px)}
+.weekly-design-studio .v2-block-heading h2{max-width:none}
+.weekly-design-studio .v2-block-heading p{font-size:15px;line-height:1.65;color:#625860}
+.weekly-design-studio .v2-design-grid{grid-template-columns:repeat(3,minmax(0,1fr));gap:22px}
+.weekly-design-studio .v2-design-tile{display:flex;flex-direction:column;background:#fffdfb;border-color:#dfcfca;border-radius:15px;transition:border-color .15s,box-shadow .15s,transform .15s}
+.weekly-design-studio .v2-design-tile:hover,.weekly-design-studio .v2-design-tile:focus-visible{border-color:#8a2e47;box-shadow:0 10px 24px #4a243519!important}
+.weekly-design-studio .v2-design-tile>span:first-child{background:#e9e5de;aspect-ratio:1.4142;padding:16px;display:flex;align-items:center;justify-content:center}
+.weekly-design-studio .v2-design-tile>span:first-child>img,.weekly-design-studio .v2-design-tile svg{display:block;width:100%;height:auto;box-shadow:0 5px 14px #34242b21}
+.weekly-design-studio .v2-design-tile>strong{font-size:16px;line-height:1.4;padding:18px 18px 7px}
+.weekly-design-studio .v2-design-tile>small{font-size:14px;font-weight:400;line-height:1.6;padding:0 18px 15px;color:#6d6269}
+.weekly-design-studio .v2-tile-action{font-size:13px;font-weight:700;color:#84263f;display:flex;justify-content:space-between;gap:12px;margin:auto 18px 0;padding:13px 0 16px;border-top:1px solid #eee2df;line-height:1.4}
+.weekly-design-studio .v2-tile-action b{font-size:17px}
+.weekly-design-studio [data-v2-preview-content]>svg{background:#fff;box-shadow:0 4px 18px #34242b22}
+.weekly-print-guide{display:grid;grid-template-columns:minmax(200px,.7fr) minmax(0,1.6fr);gap:clamp(24px,5vw,72px);padding:clamp(24px,4vw,48px) 0;border-bottom:1px solid #e0d2cc;margin:6px 0 30px}
+.weekly-print-guide h2{font-size:clamp(25px,2.8vw,36px);line-height:1.18;max-width:16ch;margin:10px 0}
+.weekly-print-guide p{font-size:16px;line-height:1.8;color:#5f5761;margin:0 0 16px}
+.weekly-print-guide p:last-child{margin-bottom:0}
+@media(max-width:1000px){.weekly-design-studio .v2-design-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}.weekly-print-guide{grid-template-columns:1fr;gap:18px}.weekly-print-guide h2{max-width:27ch}}
+@media(max-width:540px){.weekly-design-studio .v2-design-grid{grid-template-columns:1fr}.weekly-design-studio .v2-design-tile>strong{font-size:17px}.weekly-design-studio .v2-block-heading p{font-size:15px}.weekly-print-guide p{font-size:16px}.weekly-design-studio .v2-preview-downloads button{min-height:44px;font-size:15px;flex:1}.weekly-design-studio .v2-preview-bar strong{font-size:14px;line-height:1.5}}
+@media print{.weekly-print-guide{display:none!important}}
+
+@media print{#category-print-sheet.shift-planner-print .category-print-page{height:210mm;width:297mm}}
+@media(max-width:540px){.category-page--mainu-grafiks .category-export-buttons{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px;width:100%}.category-page--mainu-grafiks .category-export-buttons>button{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:44px;font-size:14px;padding:10px 12px}.category-page--mainu-grafiks .category-export-buttons>button:last-child{grid-column:1/-1}.category-page--mainu-grafiks .category-export-buttons img{flex:none}}
+
+@font-face{font-family:"K365 Literata";src:url('/assets/fonts/Literata-Display.woff2') format('woff2');font-display:swap}
+.school-design-studio .v2-design-tile>span:first-child{background:#e9e5df;padding:13px}
+.school-design-callout{display:flex;align-items:center;justify-content:space-between;gap:24px;padding:24px 28px;border:1px solid #decac6;border-left:4px solid #852843;background:#fbf5ee;border-radius:14px;margin:24px 0}
+.school-design-callout h2{font-size:23px;margin:8px 0;line-height:1.3}.school-design-callout p{margin:0;font-size:16px}.school-design-callout>a{white-space:normal;min-height:46px;display:inline-flex;align-items:center;gap:20px;flex:none}
+.category-page--stundu-saraksts .category-export-buttons{display:flex;flex-wrap:wrap;gap:10px}.category-page--stundu-saraksts .category-export-buttons>button{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:46px}
+@media(max-width:600px){.school-design-callout{align-items:stretch;flex-direction:column;padding:20px}.school-design-callout>a{justify-content:space-between}.category-page--stundu-saraksts .category-export-buttons{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));width:100%}.category-page--stundu-saraksts .category-export-buttons>button:last-child{grid-column:1/-1}}
+@media print{.school-design-callout{display:none!important}#category-print-sheet.school-planner-print .category-print-page{width:297mm!important;height:210mm!important}}

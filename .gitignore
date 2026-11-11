@@ -10,3 +10,5 @@ generated/
 
 __pycache__/
 *.pyc
+
+tooling/social-cards/cache/

@@ -9,10 +9,11 @@ author: Silvis Balodis
 date: '2026-11-11'
 reading_notes: false
 blog_slug: ligo-un-jani-planosana-latvija
-og_image: "/assets/blog/ligo-960.webp"
-og_image_width: 960
-og_image_height: 638
-og_image_alt: Līgo vakarā ar lāpu aizdedz augstā stabā paceltu pūdeli.
+og_image: "/assets/social-cards/v2/81379d999dd6c8bd-e582000c7de5.jpg"
+og_image_width: 1200
+og_image_height: 630
+og_image_alt: 'Līgo un Jāņi: svētku datumi un pārdomāts vasaras plāns | Kalendārs365
+  Latvijai'
 ---
 Līgo vakars un Jāņu diena Latvijas kalendārā ir divi blakus esoši, taču atšķirīgi datumi: 23. un 24. jūnijs. Ap tiem veidojas braucieni uz laukiem, satikšanās ar draugiem, ēdienu gatavošana un vasaras vakara ieceres. Labs plāns palīdz vairāk laika atstāt kopā būšanai, nevis pēdējā brīža sarakstiem.
 

@@ -16,9 +16,9 @@
       "description": "Izvēlies gadu un mēnesi, pārskati Latvijas svētku dienas un atver vajadzīgā datuma plānu. Pieejami 2027.–2030. gada mēnešu kalendāri."
     },
     "/nedelas-kalendars/": {
-      "title": "Nedēļas kalendāri un ISO nedēļu numuri",
+      "title": "Nedēļas kalendārs un 15 plānotāji drukai",
       "h1": "Nedēļas kalendārs",
-      "description": "Atrodi vajadzīgo ISO nedēļu un tās datumus. Nedēļas pārskats sākas pirmdienā un palīdz vienuviet pārskatīt darba un personīgos notikumus."
+      "description": "Plāno savu nedēļu un izvēlies kādu no 15 oriģināliem A4 dizainiem. Saglabā PDF vai augstas kvalitātes attēlu ar saviem notikumiem un piezīmēm."
     },
     "/dienas-kalendars/": {
       "title": "Dienas kalendārs un notikumi",
@@ -78,7 +78,7 @@
     "/atvalinajuma-planotajs/": {
       "title": "Atvaļinājuma plānotājs Latvijai",
       "h1": "Atvaļinājuma plānotājs",
-      "description": "Savieno Latvijas svētku dienas un nedēļas nogales ar atvaļinājumu. Salīdzini atpūtas periodus un tiem vajadzīgo atvaļinājuma darba dienu skaitu."
+      "description": "Plāno atvaļinājumu 2027.–2030. gadam: aprēķini savus datumus, salīdzini periodus un seko darba dienu budžetam. Saglabā gada plānu un izdrukā to."
     },
     "/garas-brivdienas/": {
       "title": "Garās brīvdienas Latvijā 2027–2030",
@@ -103,7 +103,7 @@
     "/mainu-grafiks/": {
       "title": "Maiņu grafiks un darba cikls",
       "h1": "Maiņu grafiks",
-      "description": "Izveido darba un brīvdienu ciklu no izvēlēta sākuma datuma. Pārskati maiņu grafiku, pielāgo cikla garumu un izdrukā rezultātu."
+      "description": "Veido savu maiņu grafiku 2027.–2030. gadam. Izvēlies no 15 drukas dizainiem un saglabā maiņu laikus, pauzes, stundas un piezīmes PDF vai attēlā."
     },
     "/stundu-saraksts/": {
       "title": "Stundu saraksts drukāšanai",
@@ -116,9 +116,9 @@
       "description": "Saplāno savu dienu ar notikumiem, uzdevumiem un piezīmēm. Ieraksti paliek tavā pārlūkā; dienas plānu vari sagatavot arī drukāšanai."
     },
     "/gimenes-kalendars/": {
-      "title": "Ģimenes kalendārs un kopīgi plāni",
+      "title": "Ģimenes kalendārs un 15 plānotāji drukai",
       "h1": "Ģimenes kalendārs",
-      "description": "Izveido ģimenes kalendāru ikdienas notikumiem un kopīgiem plāniem. Izvēlies dizainu, pievieno savu virsrakstu vai fotoattēlu un izdrukā kalendāru."
+      "description": "Plāno ģimenes notikumus, mājas darbus un maltītes vienuviet. Izvēlies no 15 oriģināliem A4 dizainiem un saglabā PDF vai augstas kvalitātes attēlu."
     },
     "/dzimsanas-dienu-kalendars/": {
       "title": "Dzimšanas dienu kalendārs",
@@ -230,5 +230,10 @@
       "h1": "Piekļūstamība",
       "description": "Uzzini par Kalendāra365 lietošanu ar tastatūru, datumu un vadīklu nosaukumiem un iespējām ziņot par piekļūstamības problēmu."
     }
+  },
+  "/visi-riki/": {
+    "title": "Kalendāri un plānošanas rīki",
+    "h1": "Kalendāri un plānošanas rīki",
+    "description": "Atrodi kalendārus drukai, aprēķini dienas un plāno darbu, mācības vai atpūtu. Latvijas svētku datumi, skolu brīvlaiki, Saules laiki un Mēness fāzes."
   }
 }

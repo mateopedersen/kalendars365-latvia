@@ -56,3 +56,8 @@
 @media print {
  .school-month-section,.school-universities,.school-planner,.school-sources,.school-explorer~.hub-section,.school-explorer~.v2-answers { content-visibility:visible;contain:none; }
 }
+
+.school-campus--emblem{background:linear-gradient(135deg,#fffdfa,#f4e9e2)}
+.school-campus--emblem>img{position:absolute;inset:20px 20px 44px;width:calc(100% - 40px);height:calc(100% - 64px);object-fit:contain}
+.school-campus--emblem figcaption{background:#f8f1eb;border-top:1px solid #e4d5cf;padding:7px 11px;color:#6c5360;font-size:10px}
+.school-campus--emblem figcaption a{color:#7c2b42}

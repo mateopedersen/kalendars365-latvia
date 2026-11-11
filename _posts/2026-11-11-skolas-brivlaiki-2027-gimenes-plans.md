@@ -9,10 +9,11 @@ author: Silvis Balodis
 date: '2026-11-11'
 reading_notes: false
 blog_slug: skolas-brivlaiki-2027-gimenes-plans
-og_image: "/assets/blog/school-960.webp"
-og_image_width: 960
-og_image_height: 540
-og_image_alt: Olaines pirmās vidusskolas ēka un laukums ziemā.
+og_image: "/assets/social-cards/v2/2a78eac6a01cd757-097462563426.jpg"
+og_image_width: 1200
+og_image_height: 630
+og_image_alt: 'Skolas brīvlaiki 2027. gadā: ko pārbaudīt ģimenes kalendārā | Kalendārs365
+  Latvijai'
 ---
 Skolas brīvlaiks ir vairāk nekā datumi, kuros nav parasto mācību stundu. Ģimenei tas var nozīmēt citu dienas ritmu, nepieciešamu pieskatīšanu, braucienu vai laiku bez ierastajām nodarbībām. Lai plāns būtu uzticams, jāņem vērā ne tikai kalendārais gads, bet arī mācību gads un skolēna klase.
 

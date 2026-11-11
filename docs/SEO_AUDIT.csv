@@ -874,7 +874,7 @@ url,family,indexable,result,errors
 /svetki-un-tradicijas/sveta-nikolaja-diena/,latvia_cultural,true,pass,""
 /svetki-un-tradicijas/pasaules-bisu-diena/,latvia_cultural,true,pass,""
 /svetki-un-tradicijas/zemes-diena/,latvia_cultural,true,pass,""
-/pilsetas-un-fotografijas/,city_photos,true,pass,""
+/pilsetas-un-fotografijas/,city_photos,false,pass,""
 /blogs/,blog_index,true,pass,""
 /blogs/latvijas-svetku-dienas-2027-planosana/,blog_article,true,pass,""
 /blogs/iso-nedelu-numuri-kalendara/,blog_article,true,pass,""
