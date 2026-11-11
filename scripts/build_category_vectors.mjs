@@ -2,6 +2,7 @@ import fs from 'node:fs';
 import crypto from 'node:crypto';
 import {planningArt} from './vector-planning.mjs';
 import {lifeArt,monthArt} from './vector-life.mjs';
+import {monthNames,monthSubjects} from './vector-months.mjs';
 import {natureArt,moonDisc} from './vector-nature.mjs';
 const names={calendar:'Mēneša kalendārs',week:'Nedēļas kalendārs',planner:'Personīgais plānotājs',family:'Ģimenes kalendārs',vacation:'Atvaļinājuma plānotājs',shift:'Maiņu grafiks',holiday:'Svētki',school:'Skola un mācības',timetable:'Stundu saraksts',alltools:'Visi rīki',calculator:'Datumu kalkulators',names:'Vārda dienas',culture:'Latvijas gadskārtas','latvia-days':'Latvijas dienas',memorial:'Atceres diena',privacy:'Privātums',about:'Par projektu',city:'Atrašanās vieta',moon:'Mēness kalendārs',phases:'Mēness fāzes',earth:'Zeme',astronomy:'Astronomiskais kalendārs',sun:'Saule',sunrise:'Saullēkts un saulriets',seasons:'Gadalaiki',garden:'Sējas un stādīšanas kalendārs',work:'Darba dienas',clock:'Laiks',pdf:'PDF lejupielāde',webp:'Attēla lejupielāde',print:'Kalendāru druka',zodiac:'Zodiaka zīmes'};
 const E=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&apos;'}[c]));
@@ -17,7 +18,7 @@ function defs(id,ice=false){const colors=ice?['#fbfeff','#c4dce5','#7fa4b6']:['#
 <filter id="${id}-soft" x="-50%" y="-100%" width="200%" height="300%"><feGaussianBlur stdDeviation="3.5"/></filter>
 </defs>`;}
 function body(name,id){return planningArt(name,id)||lifeArt(name,id)||natureArt(name,id);}
-function wrap(name,content,id,ice=false){return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 260" role="img" aria-labelledby="${id}-title ${id}-description"><title id="${id}-title">${E(names[name]||name)}</title><desc id="${id}-description">Kalendāram365 radīta oriģināla vektoru ilustrācija ar apjoma, gaismas un materiālu zīmējumu. Fotogrāfijas un pikseļu attēli nav izmantoti.</desc>${defs(id,ice)}${content}</svg>\n`;}
+function wrap(name,content,id,ice=false,title=names[name]||name){return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 260" role="img" aria-labelledby="${id}-title ${id}-description"><title id="${id}-title">${E(title)}</title><desc id="${id}-description">Kalendāram365 radīta oriģināla vektoru ilustrācija ar apjoma, gaismas un materiālu zīmējumu. Fotogrāfijas un pikseļu attēli nav izmantoti.</desc>${defs(id,ice)}${content}</svg>\n`;}
 const dir='assets/category-vector';fs.mkdirSync(dir,{recursive:true});const manifest=[];
 for(const [name,label] of Object.entries(names)){
  const id='kv-'+name,content=body(name,id);if(!content){if(['clock','pdf','webp','print'].includes(name))continue;throw Error('Missing vector subject '+name);}
@@ -38,6 +39,15 @@ for(let month=1;month<=12;month++){
  fs.writeFileSync(`${dir}/month-${month}.svg`,svg);fs.writeFileSync(`assets/category-art/month-${month}.svg`,svg);
  manifest.push({id:'month-'+month,label:['Janvāris','Februāris','Marts','Aprīlis','Maijs','Jūnijs','Jūlijs','Augusts','Septembris','Oktobris','Novembris','Decembris'][month-1],file:`/${dir}/month-${month}.svg`,kind:'original-vector',sha256:crypto.createHash('sha256').update(svg).digest('hex'),bytes:Buffer.byteLength(svg)});
 }
+const monthPeriods=[];
+for(let year=2027;year<=2030;year++)for(let month=1;month<=12;month++){
+ const name='month-'+year+'-'+month,id='kv-'+name,label=monthNames[month-1]+' '+year;
+ const svg=wrap('month-'+month,monthArt(month,id,year),id,false,label);
+ if(/<(?:image|foreignObject|script)\b|data:image|\b(?:NaN|Infinity|undefined)\b/.test(svg))throw Error('Invalid year/month artwork '+name);
+ const file=`/${dir}/${name}.svg`;fs.writeFileSync('.'+file,svg);
+ monthPeriods.push({id:name,year,month,label,subject:monthSubjects[month-1],composition:year-2027+1,file,kind:'original-vector',sha256:crypto.createHash('sha256').update(svg).digest('hex'),bytes:Buffer.byteLength(svg)});
+}
+fs.writeFileSync('_data/month-art.json',JSON.stringify({version:1,design:'Original seasonal botanical vectors with gradient-based depth; no embedded pixels',periods:monthPeriods},null,2)+'\n');
 for(const name of ['calendar','holiday','school']){const id='kv-nav-'+name;let content=body(name,id);content=content.replace(/#[0-9a-fA-F]{6}/g,color=>{const r=parseInt(color.slice(1,3),16),g=parseInt(color.slice(3,5),16),b=parseInt(color.slice(5,7),16);if(r>g*1.22&&r>b*.88){const l=(r+g+b)/3/255;const vals=[196+Math.round(l*50),220+Math.round(l*30),230+Math.round(l*23)].map(n=>Math.min(255,n).toString(16).padStart(2,'0'));return '#'+vals.join('');}return color;});fs.writeFileSync(`assets/nav-ice/${name}.svg`,wrap(name,content,id,true));}
 for(const [name,target] of [['pdf','file-pdf.svg'],['webp','file-image.svg']]){const id='kv-download-'+name,content=body(name,id);if(content)fs.writeFileSync('assets/'+target,wrap(name,content,id));}
 fs.writeFileSync('_data/category-vectors.json',JSON.stringify({version:2,design:'Original illustrated vectors; no embedded pixels',artworks:manifest},null,2)+'\n');

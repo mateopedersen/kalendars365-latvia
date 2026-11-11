@@ -8,7 +8,7 @@ for(const f of walk('_site').filter(x=>x.endsWith('.html'))){
  assert.ok(s.includes('sizes="96x96" href="/assets/favicon-96.png"'),f+' favicon');count+=3;
  const staleArt=[...s.matchAll(/src="(\/assets\/(?:category-art|zodiac)\/[^"]+)"/g)].filter(m=>!m[1].includes('?v='));assert.equal(staleArt.length,0,f+' versioned category art');count++;
 }
-const hub=fs.readFileSync('_site/pdf-kalendari/2027/index.html','utf8'),months=[...hub.matchAll(/<use href="#i-month-(\d+)"/g)].map(x=>Number(x[1]));
+const hub=fs.readFileSync('_site/pdf-kalendari/2027/index.html','utf8'),months=[...hub.matchAll(/src="\/assets\/category-vector\/month-2027-(\d+)\.svg\?v=/g)].map(x=>Number(x[1]));
 assert.deepEqual([...new Set(months)].sort((a,b)=>a-b),Array.from({length:12},(_,i)=>i+1));count++;
 const hashes=Array.from({length:12},(_,i)=>crypto.createHash('sha256').update(fs.readFileSync('assets/category-art/month-'+(i+1)+'.svg')).digest('hex'));
 assert.equal(new Set(hashes).size,12);count++;

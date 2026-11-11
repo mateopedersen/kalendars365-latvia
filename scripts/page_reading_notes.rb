@@ -71,7 +71,7 @@ class PageReadingNotes
       fewest=months.min_by { |m,n| n };most=months.max_by { |m,n| n }
       tail="Piecu dienu pamatnedēļā #{year}. gada darbadienu skaits pēc svētku brīvdienu atņemšanas ir #{s['workdays']}. Mēnešu salīdzinājumā #{MONTHS[fewest[0]-1]} dod #{fewest[1]}, bet #{MONTHS[most[0]-1]} — #{most[1]} šādas dienas. Vienādu rezultātu gadījumā šeit minēts pirmais mēnesis gada secībā. Individuālu slodzi un pārceltās darba dienas pārbaudi atsevišķi."
     end
-    {'heading'=>month ? "#{year}. gada #{GEN[month-1]} kalendāra skaidrojums" : "#{year}. gada izkārtojums un plānošana",'paragraphs'=>[anatomy,holiday_summary(first,last),tail],'icon'=>month ? "month-#{month}" : 'calendar','sources'=>source(['holidays']),'related'=>[link("/darba-dienu-kalendars/#{year}/",'Darba dienu pārskats'),link('/atvalinajuma-planotajs/','Atvaļinājuma plānotājs')],'basis'=>{'first'=>first.iso8601,'last'=>last.iso8601,'workdays'=>s['workdays'],'days'=>s['days'],'family'=>family}}
+    {'heading'=>month ? "#{year}. gada #{GEN[month-1]} kalendāra skaidrojums" : "#{year}. gada izkārtojums un plānošana",'paragraphs'=>[anatomy,holiday_summary(first,last),tail],'icon'=>month ? "month-#{year}-#{month}" : 'calendar','sources'=>source(['holidays']),'related'=>[link("/darba-dienu-kalendars/#{year}/",'Darba dienu pārskats'),link('/atvalinajuma-planotajs/','Atvaļinājuma plānotājs')],'basis'=>{'first'=>first.iso8601,'last'=>last.iso8601,'workdays'=>s['workdays'],'days'=>s['days'],'family'=>family}}
   end
   def print_note(year,month)
     first,last=period(year,month);s=stats(first,last)

@@ -263,96 +263,96 @@
       "label": "Janvāris",
       "file": "/assets/category-vector/month-1.svg",
       "kind": "original-vector",
-      "sha256": "ce453f1d0b0dd4f203b405b3b9ec307206216050d177d09c230b8e33535f66d3",
-      "bytes": 5992
+      "sha256": "8a5634f153642075fe81025972865a9eb5b0b250fe4b13c29b46d8e6022c8f08",
+      "bytes": 26392
     },
     {
       "id": "month-2",
       "label": "Februāris",
       "file": "/assets/category-vector/month-2.svg",
       "kind": "original-vector",
-      "sha256": "129b516121d7e41d362597eca268b3eebd567a183513440a77ebeb1eea772fd4",
-      "bytes": 9367
+      "sha256": "ab3d8b57559bfae8f3283ff802f711063ab03de4a3a350104f29e5c08a5c61c4",
+      "bytes": 34273
     },
     {
       "id": "month-3",
       "label": "Marts",
       "file": "/assets/category-vector/month-3.svg",
       "kind": "original-vector",
-      "sha256": "528722b4ee80bef8dadb73dcc91b67101b7333d4796d5c300c23ab3665c68ae8",
-      "bytes": 4645
+      "sha256": "c0ddb4f405536f1febb81bcaa114e97c786504cb2a85517aa5fa8f19aa0caeec",
+      "bytes": 9239
     },
     {
       "id": "month-4",
       "label": "Aprīlis",
       "file": "/assets/category-vector/month-4.svg",
       "kind": "original-vector",
-      "sha256": "20a88f5240291ef87c0b9f9170b7e6be93127e764d9ca75a8e6dd75a618ac0ae",
-      "bytes": 4817
+      "sha256": "a6b50fc2739bf3ead4e7c52bf902fa760152c8b48ab877298cb941aa05d12145",
+      "bytes": 10035
     },
     {
       "id": "month-5",
       "label": "Maijs",
       "file": "/assets/category-vector/month-5.svg",
       "kind": "original-vector",
-      "sha256": "1fdb00690c78d9daa0634a6d18fa411039a6112294c9827a087a525f2526f013",
-      "bytes": 5346
+      "sha256": "808f02c1ce81ee9ef59c3960b3cdf86d32a4af52f83472bccd12c3056e7e0932",
+      "bytes": 18398
     },
     {
       "id": "month-6",
       "label": "Jūnijs",
       "file": "/assets/category-vector/month-6.svg",
       "kind": "original-vector",
-      "sha256": "5982b3cbf6fd30c2a3b657a475e14988a4f36999eddb309da24923855c7c3944",
-      "bytes": 15495
+      "sha256": "ada57225aa3443f141e75386912abb88db3bfec0cc096bb0ba53a16131e65b0e",
+      "bytes": 21071
     },
     {
       "id": "month-7",
       "label": "Jūlijs",
       "file": "/assets/category-vector/month-7.svg",
       "kind": "original-vector",
-      "sha256": "7ec471ca68e57c6e8622a9463ce0cce22a2a37a6f564b64667e0a0c92536725a",
-      "bytes": 9390
+      "sha256": "e59e81b05eb48a7f6b703376d46bb34af3944ed6e673afe5e613dad49e1256b4",
+      "bytes": 27208
     },
     {
       "id": "month-8",
       "label": "Augusts",
       "file": "/assets/category-vector/month-8.svg",
       "kind": "original-vector",
-      "sha256": "3e42ea15183c5a8e4ebaa2cea0679f9bb2458485b56c1c2d018868bae424e9b2",
-      "bytes": 8032
+      "sha256": "9d08d8883bed6e0eb81fa369c7cae52e25c15259dbf9696952241f1e65ad2226",
+      "bytes": 28960
     },
     {
       "id": "month-9",
       "label": "Septembris",
       "file": "/assets/category-vector/month-9.svg",
       "kind": "original-vector",
-      "sha256": "2181248d9be5bf2f7d348281b364167f7335790bb3c167b35371d92051393ced",
-      "bytes": 4320
+      "sha256": "d9b2c8a6ffb877482753dd9f1687d85ddfcbea596ccbf1d92b6ed2f48b6afca2",
+      "bytes": 12323
     },
     {
       "id": "month-10",
       "label": "Oktobris",
       "file": "/assets/category-vector/month-10.svg",
       "kind": "original-vector",
-      "sha256": "84d8edc24597bd753cef8f1a52da495879db200ecee35f3e6a5f2868111bc9fc",
-      "bytes": 4183
+      "sha256": "fbb62632e4c25ade28463d45b18a278213b7568d0a4e2e7b842d7bf8d182a8ab",
+      "bytes": 14677
     },
     {
       "id": "month-11",
       "label": "Novembris",
       "file": "/assets/category-vector/month-11.svg",
       "kind": "original-vector",
-      "sha256": "9fa0e4d50eea51804ddbcfc97dc35007ebaeee2f4fda503466fec2e4b225de59",
-      "bytes": 6670
+      "sha256": "14629b27c4620c6d420aa2fac2ea9a389df3795c8c054f0f431d37e76a8232f5",
+      "bytes": 7783
     },
     {
       "id": "month-12",
       "label": "Decembris",
       "file": "/assets/category-vector/month-12.svg",
       "kind": "original-vector",
-      "sha256": "f7293d4549e9c1ad4b70bfacf4deeeb241a1ebe0a7fba33d7b50b26f7e75af80",
-      "bytes": 11376
+      "sha256": "cd744dac05f7e00fbf7abb9ba4bc8a0b189ea47f4f0da917cd3e93f22185703f",
+      "bytes": 40085
     }
   ]
 }

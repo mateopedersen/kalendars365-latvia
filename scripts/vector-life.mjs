@@ -292,20 +292,4 @@ function monthDecember(id){
  return `<defs><linearGradient id="${id}-fir" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#a2b69b"/><stop offset=".35" stop-color="#5e896e"/><stop offset=".72" stop-color="#336856"/><stop offset="1" stop-color="#214b3e"/></linearGradient><radialGradient id="${id}-bauble" cx="28%" cy="22%" r="90%"><stop stop-color="#f1ccd0"/><stop offset=".2" stop-color="#c3758e"/><stop offset=".48" stop-color="#9b3d5b"/><stop offset=".8" stop-color="#69233e"/><stop offset="1" stop-color="#431b31"/></radialGradient></defs>`+shade(id,163,233,96,6)+`<g filter="${material(id,'shadow')}"><path d="M74 215 240 54" stroke="#806245" stroke-width="5" stroke-linecap="round"/>${firSprig(id,94,196,44,79)}${firSprig(id,142,149,44,86)}${firSprig(id,192,101,44,67)}${stroke('M173 116Q181 113 186 126','#cab17a',1.4)}<ellipse cx="185" cy="129" rx="7" ry="8" fill="none" stroke="${material(id,'gold')}" stroke-width="2.7"/><path d="M174 134H196L198 145H172Z" fill="${material(id,'gold')}"/>${stroke('M177 136V142M182 136V142M187 136V142M192 136V142','#fff0bb',1,.8)}<circle cx="185" cy="184" r="42" fill="${material(id,'bauble')}"/><path d="M153 175C156 157 171 148 184 150" fill="none" stroke="#fce7df" stroke-width="3" stroke-linecap="round" opacity=".66"/><path d="M149 194Q186 213 221 191" fill="none" stroke="${material(id,'gold')}" stroke-width="3.3" opacity=".85"/><path d="M155 207Q185 221 210 205" fill="none" stroke="#bd788a" stroke-width="1" opacity=".45"/></g>`;
 }
 
-export function monthArt(month,id){
- switch(Number(month)){
-  case 1:return monthSnowflake(id);
-  case 2:return monthMittens(id);
-  case 3:return monthSnowdrop(id);
-  case 4:return monthUmbrella(id);
-  case 5:return monthLily(id);
-  case 6:return monthMidsummer(id);
-  case 7:return monthStrawberries(id);
-  case 8:return monthWheatApple(id);
-  case 9:return monthBooks(id);
-  case 10:return monthPumpkin(id);
-  case 11:return monthNovember(id);
-  case 12:return monthDecember(id);
-  default:return null;
- }
-}
+export {monthArt} from './vector-months.mjs';

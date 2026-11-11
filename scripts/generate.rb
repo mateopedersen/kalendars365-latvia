@@ -98,7 +98,10 @@ GARDEN_CALENDAR_DATA = JSON.parse(garden_calendar_json).freeze
 def h(s); CGI.escapeHTML(s.to_s); end
 def icon_for(url)
  month_index=%w[janvaris februaris marts aprilis maijs junijs julijs augusts septembris oktobris novembris decembris].index(url.to_s.split('/').reject(&:empty?).last)
- return "month-#{month_index+1}" if month_index
+ if month_index
+  period_year=url.to_s.split('/').find{|part|part.match?(/\A(?:2027|2028|2029|2030)\z/)}
+  return period_year ? "month-#{period_year}-#{month_index+1}" : "month-#{month_index+1}"
+ end
  case url
  when /privatum|sikdatnu/ then 'shield'
  when /kontakti|par-projektu|avoti/ then 'info'
@@ -117,7 +120,12 @@ def icon_for(url)
  else 'calendar'
  end
 end
-def ui_icon(name); %(<svg class="icon" aria-hidden="true"><use href="#i-#{name}"/></svg>); end
+def ui_icon(name)
+ if name.match?(/\Amonth-(?:(?:2027|2028|2029|2030)-)?(?:[1-9]|1[0-2])\z/)
+  return %(<img class="icon month-illustration" src="/assets/category-vector/#{h(name)}.svg?v={{ site.data.build.asset_version }}" alt="" aria-hidden="true" width="320" height="260" decoding="async" loading="lazy">)
+ end
+ %(<svg class="icon" aria-hidden="true"><use href="#i-#{name}"/></svg>)
+end
 def visual_family(family, url = '')
  case family
  when 'sun_city' then 'sun'
@@ -209,7 +217,8 @@ def page_heading_markup(family,url,heading,description,year,month,slug)
  visual=visual_family(family,url)
  symbol=visual_icon(visual)
  context=hero_context(family,url,year,month,slug)
- %(<header class="page-heading page-heading--#{h(visual)}"><div class="page-heading-copy"><span class="eyebrow">LATVIJA · KALENDĀRS365</span><h1><span class="page-heading-mark">#{ui_icon(icon_for(url))}</span><span>#{h(heading)}</span></h1><p class="page-heading-deck">#{h(description)}</p><span class="page-heading-context">#{ui_icon(symbol)}<span>#{h(context)}</span></span></div><div class="page-heading-art" aria-hidden="true"><img class="page-heading-art-icon" src="/assets/#{PHOTOGRAPHIC_ART.include?(visual) ? 'category-vector' : 'category-art'}/#{h(visual)}.svg?v={{ site.data.build.asset_version }}" alt="" width="320" height="260" loading="eager" decoding="async"><span class="page-heading-art-chip">#{h(context)}</span></div></header>)
+ art_name=family=='calendar_month' && year && month ? "month-#{year}-#{month}" : visual
+ %(<header class="page-heading page-heading--#{h(visual)}"><div class="page-heading-copy"><span class="eyebrow">LATVIJA · KALENDĀRS365</span><h1><span class="page-heading-mark">#{ui_icon(icon_for(url))}</span><span>#{h(heading)}</span></h1><p class="page-heading-deck">#{h(description)}</p><span class="page-heading-context">#{ui_icon(symbol)}<span>#{h(context)}</span></span></div><div class="page-heading-art" aria-hidden="true"><img class="page-heading-art-icon" src="/assets/#{PHOTOGRAPHIC_ART.include?(visual) ? 'category-vector' : 'category-art'}/#{h(art_name)}.svg?v={{ site.data.build.asset_version }}" alt="" width="320" height="260" loading="eager" decoding="async"><span class="page-heading-art-chip">#{h(context)}</span></div></header>)
 end
 
 def phase_svg(name, date, index)
@@ -226,7 +235,12 @@ def zodiac_art(profile,klass='zodiac-index-symbol',size=80)
  slug=profile.fetch('slug')
  %(<img class="#{h(klass)}" src="/assets/zodiac/#{h(slug)}.svg?v={{ site.data.build.asset_version }}" alt="" aria-hidden="true" width="#{size}" height="#{size}" loading="eager" decoding="async">)
 end
-def a(url,label,klass=''); %(<a class="#{klass}" href="#{h(url)}">#{klass=='link-card' ? ui_icon(icon_for(url)) : ''}#{h(label)}</a>); end
+def a(url,label,klass='')
+ symbol=klass=='link-card' ? icon_for(url) : nil
+ month_card=symbol && symbol.start_with?('month-')
+ classes=klass+(month_card ? ' month-link-card' : '')
+ %(<a class="#{classes}" href="#{h(url)}">#{symbol ? ui_icon(symbol) : ''}#{month_card ? '<span class="month-link-label">'+h(label)+'</span>' : h(label)}</a>)
+end
 def planning_panel(type,year=2027)
  "<section data-planning=\"#{type}\" data-server-rendered=\"true\">#{PLANNING_MARKUP.fetch(type).fetch(year.to_s)}</section>"
 end
@@ -251,7 +265,7 @@ def widget(type,year=2027)
 end
 def card(title,body); "<section class=\"content-card\"><h2>#{h(title)}</h2>#{body}</section>"; end
 def year_links(prefix); "<nav class=\"year-pills\" aria-label=\"Gada izvēle\">#{(2027..2030).map{|y|a("/#{prefix}/#{y}/",y.to_s)}.join}</nav>"; end
-def month_links(y,prefix='kalendars'); "<div class=\"link-grid\">#{(1..12).map{|m|a("/#{prefix}/#{y}/#{SLUGS[m-1]}/",MONTHS[m-1].capitalize,'link-card')}.join}</div>"; end
+def month_links(y,prefix='kalendars'); "<div class=\"link-grid month-link-grid\">#{(1..12).map{|m|a("/#{prefix}/#{y}/#{SLUGS[m-1]}/",MONTHS[m-1].capitalize,'link-card')}.join}</div>"; end
 def dates(y,m=nil)
  HOLIDAYS.select{|v|v['date'].to_s.start_with?(m ? format('%04d-%02d',y,m) : y.to_s)}
 end

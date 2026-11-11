@@ -31,7 +31,7 @@ def collection_mini_calendar(year, month, selected, prefix)
   %(<tr><th scope="row"><a href="#{h(CGI.unescapeHTML(week_link))}" aria-label="#{week[3].cwyear}. gada #{week[3].cweek}. nedēļa">#{week[3].cweek}</a></th>#{cells}</tr>)
  end.join
  title_path=collection_period_path(prefix,year,month)
- %(<section class="collection-mini-month#{selected==month ? ' is-current' : ''}" data-month="#{month}"><h3><a href="#{h(title_path)}"#{selected==month ? ' aria-current="page"' : ''}>#{ui_icon("month-#{month}")}<span>#{MONTHS[month-1].capitalize}</span><span class="collection-mini-arrow" aria-hidden="true">↗</span></a></h3><table aria-label="#{MONTHS[month-1].capitalize} #{year}"><thead><tr><th scope="col"><abbr title="ISO nedēļa">N.</abbr></th>#{DAYS.map{|day|"<th scope=\"col\">#{day}</th>"}.join}</tr></thead><tbody>#{rows}</tbody></table></section>)
+ %(<section class="collection-mini-month#{selected==month ? ' is-current' : ''}" data-month="#{month}"><h3><a href="#{h(title_path)}"#{selected==month ? ' aria-current="page"' : ''}>#{ui_icon("month-#{year}-#{month}")}<span>#{MONTHS[month-1].capitalize}</span><span class="collection-mini-arrow" aria-hidden="true">↗</span></a></h3><table aria-label="#{MONTHS[month-1].capitalize} #{year}"><thead><tr><th scope="col"><abbr title="ISO nedēļa">N.</abbr></th>#{DAYS.map{|day|"<th scope=\"col\">#{day}</th>"}.join}</tr></thead><tbody>#{rows}</tbody></table></section>)
 end
 
 def collection_explorer(year, month, family)
