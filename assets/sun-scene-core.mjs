@@ -11,15 +11,18 @@ export function compass(angle) {
   return ['Z', 'ZA', 'A', 'DA', 'D', 'DR', 'R', 'ZR'][Math.round(wrap(angle) / 45) % 8];
 }
 const refraction = h => 0.0002967 / Math.tan(Math.max(0, h) + 0.00312536 / (Math.max(0, h) + 0.08901179)) / RAD;
-export function discAltitude(apparentAltitude) {
-  // Recover geometric centre from SunCalc's apparent centre, then use the
-  // standard 34 arcmin horizon refraction underlying the -0.833° event model.
+export function geometricAltitude(apparentAltitude) {
+  // Invert the refraction correction in SunCalc's apparent centre altitude.
   let low = apparentAltitude - 1, high = apparentAltitude;
   for (let i = 0; i < 24; i++) {
     const mid = (low + high) / 2;
     if (mid + refraction(mid * RAD) < apparentAltitude) low = mid; else high = mid;
   }
-  const geometric = (low + high) / 2;
+  return (low + high) / 2;
+}
+export function discAltitude(apparentAltitude) {
+  // Standard 34 arcmin horizon refraction underlying the -0.833° event model.
+  const geometric = geometricAltitude(apparentAltitude);
   return geometric + (34 / 60) / (1 + Math.max(0, geometric) * 0.52);
 }
 export function projectSun(altitude, azimuth, bearing, pitch, width, height, fov = 36.86989765) {
@@ -43,12 +46,13 @@ const stops = [
 const rgb = hex => hex.match(/\w\w/g).map(x => parseInt(x, 16));
 const mix = (a, b, t) => '#' + rgb(a).map((v, i) => Math.round(v + (rgb(b)[i] - v) * t).toString(16).padStart(2, '0')).join('');
 export function atmosphere(altitude) {
+  const geometric = geometricAltitude(altitude);
   let lower = stops[0], upper = stops.at(-1);
   for (let i = 1; i < stops.length; i++) if (altitude < stops[i][0]) {lower = stops[i - 1]; upper = stops[i]; break;}
   const t = clamp((altitude - lower[0]) / (upper[0] - lower[0]));
   const colors = lower.slice(1).map((a, i) => mix(a, upper[i + 1], t));
   return Object.fromEntries(['sky', 'horizon', 'land', 'building', 'water', 'green', 'sun'].map((k, i) => [k, colors[i]]).concat([
     ['daylight', clamp((altitude + 12) / 22)],
-    ['label', altitude < -12 ? 'Nakts' : altitude < -6 ? 'Dziļā krēsla' : altitude < 0 ? 'Civilā krēsla' : altitude < 6 ? 'Zelta gaisma' : 'Dienasgaisma']
+    ['label', geometric < -18 ? 'Nakts' : geometric < -12 ? 'Astronomiskā krēsla' : geometric < -6 ? 'Nautiskā krēsla' : geometric < 0 ? 'Civilā krēsla' : geometric < 6 ? 'Zelta gaisma' : 'Dienasgaisma']
   ]));
 }

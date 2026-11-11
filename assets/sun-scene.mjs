@@ -118,7 +118,10 @@ export function createSunScene(root) {
   const state = {map: null, current: null, follow: true, cityId: null, ready: false};
   let started = false, visible = false, timer, paintTimer, lastPaint = 0;
   const reduced = matchMedia('(prefers-reduced-motion: reduce)');
+  const controls = enabled => root.querySelectorAll('.sun-map-tools button').forEach(button => {button.disabled = !enabled;});
+  controls(false);
   function fallback(message) {
+    controls(false);
     stage.dataset.ready = 'false'; stage.dataset.renderer = 'photo';
     q('[data-sun-mode]').textContent = 'Arhīva fotogrāfija';
     q('[data-sun-render-status]').textContent = message;
@@ -140,7 +143,11 @@ export function createSunScene(root) {
     q('[data-sun-light]').textContent = colors.label;
     if (state.cityId !== city.id) {
       state.cityId = city.id;
-      const photo = q('[data-sun-photo]'); photo.src = city.photo.src; photo.alt = city.photo.alt;
+      const photo = q('[data-sun-photo]');
+      photo.style.opacity = '0';
+      photo.onload = () => {if (state.current.city.id === city.id) photo.style.opacity = '1';};
+      photo.src = city.photo.src; photo.alt = city.photo.alt;
+      if (photo.complete && photo.naturalWidth) photo.style.opacity = '1';
       if (state.map) {
         stage.dataset.ready = 'false';
         q('[data-sun-render-status]').textContent = 'Ielādē ' + city.name + ' karti…';
@@ -171,6 +178,7 @@ export function createSunScene(root) {
   function showReady() {
     if (!state.map || !state.ready) return;
     clearTimeout(timer); stage.dataset.ready = 'true'; stage.dataset.renderer = 'maplibre';
+    controls(true);
     q('[data-sun-mode]').textContent = '3D pilsētas skats';
     const count = state.map.queryRenderedFeatures({layers: ['buildings']}).length;
     q('[data-sun-render-status]').textContent = count ? 'Īstas ēku kontūras · tuvināti augstumi' : 'Šajā skatā ēku dati ir nepilnīgi';

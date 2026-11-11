@@ -2,7 +2,7 @@ import {test} from 'node:test';
 import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
 import {citySky, dayBounds, sunPosition} from '../assets/sky-core.mjs';
-import {direction, compass, discAltitude, projectSun, atmosphere, SUN_RADIUS} from '../assets/sun-scene-core.mjs';
+import {direction, compass, discAltitude, geometricAltitude, projectSun, atmosphere, SUN_RADIUS} from '../assets/sun-scene-core.mjs';
 
 const {cities} = JSON.parse(readFileSync(new URL('../_data/cities.json', import.meta.url)));
 test('Solar directions use geographic north/east/up with a unit vector', () => {
@@ -31,6 +31,10 @@ test('The standard upper-limb contact agrees with rise/set events for every Latv
       const p = sunPosition(event, city);
       assert(Math.abs(discAltitude(p.altitude) + SUN_RADIUS) < .015, city.id + ' ' + date);
     }
+    for (const event of [sky.sun.dawn, sky.sun.dusk]) {
+      const p = sunPosition(event, city);
+      assert(Math.abs(geometricAltitude(p.altitude) + 6) < .015, city.id + ' civil twilight boundary');
+    }
     const night = sunPosition(sky.start, city);
     if (night.altitude < -1) assert(discAltitude(night.altitude) + SUN_RADIUS < 0);
   }
@@ -53,6 +57,8 @@ test('Atmosphere changes continuously through dawn/noon/night without permanent 
   assert.notEqual(atmosphere(40).sky, atmosphere(-18).sky);
   assert.equal(atmosphere(-18).daylight, 0);
   assert.equal(atmosphere(40).daylight, 1);
-  assert.equal(atmosphere(-10).label, 'Dziļā krēsla');
+  assert.equal(atmosphere(-10).label, 'Nautiskā krēsla');
+  assert.equal(atmosphere(-15).label, 'Astronomiskā krēsla');
+  assert.equal(atmosphere(-20).label, 'Nakts');
   for (let h = -90; h <= 90; h++) for (const key of ['sky','horizon','land','building','water','green','sun']) assert.match(atmosphere(h)[key], /^#[0-9a-f]{6}$/);
 });
