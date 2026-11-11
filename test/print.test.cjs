@@ -16,8 +16,8 @@ const nonleap=P.buildScene({year:2029,month:2,type:'monthly'});assert.equal(nonl
 const data=require('../assets/calendar-data.json');
 const festival=P.buildScene({year:2028,month:7,type:'monthly'},data);
 assert.equal(festival.commands.find(c=>c.text==='10').color,'#8b1d34','2028 festival substitute day must be highlighted');
-const historicalName=P.buildScene({year:2028,type:'named',name:'Emīlija'},data);
-assert.ok(historicalName.commands.some(c=>c.text?.includes('22.05. (VVC 2018)')),'Historical name-day must include source edition');
+const currentName=P.buildScene({year:2028,type:'named',name:'Emīlija'},data);
+assert.ok(currentName.commands.some(c=>c.text?.includes('22.05. (VVC 2026)')),'Verified name-day must include its current source edition');
 const daily=P.buildScene({year:2028,month:2,type:'daily',date:'2028-02-29'});
 assert.ok(daily.commands.some(c=>c.text==='2028. gada 29. februāris'));
 const boundary=P.buildScene({type:'weekly',year:2027,week:53,date:'2027-01-01'});

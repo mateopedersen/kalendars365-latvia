@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 260" role="img" aria-labelledby="kv-pdf-title kv-pdf-description"><title id="kv-pdf-title">PDF lejupielāde</title><desc id="kv-pdf-description">Kalendāram365 radīta oriģināla vektoru ilustrācija ar apjoma, gaismas un materiālu zīmējumu. Fotogrāfijas un pikseļu attēli nav izmantoti.</desc><defs>
+<linearGradient id="kv-pdf-paper" x1="0" y1="0" x2=".85" y2="1"><stop stop-color="#fffaf0"/><stop offset=".57" stop-color="#eee5d4"/><stop offset="1" stop-color="#b7ae9c"/></linearGradient>
+<linearGradient id="kv-pdf-wine" x1="0" y1="0" x2=".95" y2="1"><stop stop-color="#bf6a83"/><stop offset=".4" stop-color="#973f5a"/><stop offset="1" stop-color="#5d2036"/></linearGradient>
+<linearGradient id="kv-pdf-teal" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#8ec5b8"/><stop offset=".48" stop-color="#488c80"/><stop offset="1" stop-color="#24574f"/></linearGradient>
+<linearGradient id="kv-pdf-gold" x1="0" y1="0" x2=".8" y2="1"><stop stop-color="#fff2b7"/><stop offset=".22" stop-color="#d1aa5b"/><stop offset=".4" stop-color="#f1d68b"/><stop offset=".67" stop-color="#ad8439"/><stop offset="1" stop-color="#7b5b2c"/></linearGradient>
+<linearGradient id="kv-pdf-metal" x1="0" y1="0" x2="1" y2=".9"><stop stop-color="#fafdfb"/><stop offset=".2" stop-color="#c6d0d0"/><stop offset=".43" stop-color="#fbfcf3"/><stop offset=".6" stop-color="#9cabae"/><stop offset="1" stop-color="#4c636d"/></linearGradient>
+<linearGradient id="kv-pdf-ink" x1="0" y1="0" x2=".7" y2="1"><stop stop-color="#66747d"/><stop offset=".45" stop-color="#35424f"/><stop offset="1" stop-color="#17242f"/></linearGradient>
+<radialGradient id="kv-pdf-glass" cx="30%" cy="20%" r="85%"><stop stop-color="#fff" stop-opacity=".9"/><stop offset=".5" stop-color="#eaf5ed" stop-opacity=".3"/><stop offset="1" stop-color="#86a3ae" stop-opacity=".55"/></radialGradient>
+<filter id="kv-pdf-shadow" x="-35%" y="-35%" width="180%" height="190%"><feDropShadow dx="0" dy="6" stdDeviation="4" flood-color="#35262d" flood-opacity=".17"/></filter>
+<filter id="kv-pdf-soft" x="-50%" y="-100%" width="200%" height="300%"><feGaussianBlur stdDeviation="3.5"/></filter>
+</defs><ellipse cx="162" cy="227" rx="104" ry="10" fill="#49343d" opacity=".16" filter="url(#kv-pdf-soft)"/><g filter="url(#kv-pdf-shadow)">
+ <path d="M85 34Q85 26 95 28L191 36L232 81L236 207Q237 215 227 216L96 226Q87 227 87 218Z" fill="#a99f91"/>
+ <path d="M81 30Q81 23 91 25L187 33L229 79L232 203Q233 211 223 212L92 222Q83 222 83 214Z" fill="url(#kv-pdf-paper)" stroke="#bdb5a7" stroke-width="1"/>
+ <path d="M88 32L181 39L185 80Q185 88 193 89L223 92L226 201L91 213Z" fill="#fffaf0"/>
+ <path d="M187 33L229 79L195 83Q188 82 188 75Z" fill="#e3d7c2"/>
+ <path d="M187 33L197 73L229 79L196 83Q188 82 188 75Z" fill="#c1b39b" opacity=".6"/>
+ <path d="M187 33L195 73L229 79L194 77Z" fill="#fffdf6"/>
+ <path d="M99 99L201 106L201 146L99 139Z" fill="url(#kv-pdf-wine)"/>
+ <path d="M102 101L198 108" stroke="#d991ab" stroke-width="1.2" opacity=".7"/>
+ <text x="112" y="129" font-family="Arial,Helvetica,sans-serif" font-size="27" font-weight="700" letter-spacing="1" fill="#fff9ee" transform="rotate(4 112 129)">PDF</text>
+ <path d="M101 159L193 164M101 174L176 178M101 188L156 191" fill="none" stroke="#bdb4a6" stroke-width="2" stroke-linecap="round"/>
+ <path d="M87 215L221 205" stroke="#fdf8ea" stroke-width="1.4"/>
+ </g><g filter="url(#kv-pdf-shadow)">
+ <path d="M237 142H257V172H271L249 197L223 172H237Z" fill="#501a31" transform="translate(2 3)"/>
+ <path d="M237 142H257V172H271L247 196L223 172H237Z" fill="url(#kv-pdf-wine)" stroke="#8a3a55" stroke-width=".8"/>
+ <path d="M240 145H253M240 146V176H230L246 191" fill="none" stroke="#e5a7bd" stroke-opacity=".8" stroke-width="1.3" stroke-linecap="round"/>
+ <path d="M216 202V211H279V202" fill="none" stroke="url(#kv-pdf-metal)" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+ </g></svg>

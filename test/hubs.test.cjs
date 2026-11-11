@@ -40,9 +40,18 @@ test('school hub uses verified dates, distinct licensed Latvia photos and class 
     assert.ok(page.includes(item.start), item.label);
     assert.ok(page.includes(item.end), item.label);
   }
-  for (const ending of Object.values(school.endByGrade)) assert.ok(page.includes(`value="${ending}"`));
-  for (const photo of ['preili','iecava']) assert.ok(page.includes(`/assets/cities/${photo}-960.webp`));
-  for (const photo of ['winter','summer']) assert.ok(page.includes(`/assets/occasions/${photo}-960.webp`));
+  for (const ending of Object.values(school.endByGrade)) assert.ok(page.includes(ending));
+  const photos = JSON.parse(fs.readFileSync(path.join(root, '_data/school-break-images.json'), 'utf8')).photos;
+  const hash = file => require('node:crypto').createHash('sha256').update(fs.readFileSync(path.join(root, file))).digest('hex');
+  for (const photo of photos) {
+    assert.ok(page.includes(`src="${photo.src}"`));
+    assert.ok(page.includes(`imagesrcset="${photo.srcset}"`));
+    assert.equal(hash(photo.source), photo.sourceSha256);
+    for (const file of photo.files) assert.equal(hash(file.src), file.sha256);
+  }
+  const sourceBytes = photos.reduce((total, photo) => total + fs.statSync(path.join(root, photo.source)).size, 0);
+  const cardBytes = photos.reduce((total, photo) => total + photo.files.at(-1).bytes, 0);
+  assert.ok(cardBytes < sourceBytes * 0.5, 'School card photos should cost less than half the former transfer');
   assert.equal((page.match(/Ilustratīvs attēls/g) || []).length, 4);
   assert.ok(page.includes('365210-noteikumi-par-20262027'));
   assert.ok(page.includes('/studiju-kalendars/'));

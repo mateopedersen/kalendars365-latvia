@@ -1,9 +1,10 @@
 ---
 layout: default
 title: Īslaicīga kļūda
-description: Kalendāra lapa īslaicīgi nav pieejama. Pamēģini vēlreiz vai atver Latvijas
-  kalendāra sākumlapu.
+description: Lapa īslaicīgi nav pieejama. Mēģini vēlreiz vai atver Latvijas plānošanas
+  rīkus.
 permalink: "/500.html"
+family: temporary_error
 noindex: true
 ---
-<section class="error-page"><span>500</span><h1>Plānos gadījies pārtraukums.</h1><p>Lūdzu, mēģini vēlreiz pēc brīža.</p><a class="primary-button" href="/">Atvērt kalendāru</a></section>
+{% include temporary-error.html %}

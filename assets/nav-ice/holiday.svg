@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 260" role="img" aria-labelledby="kv-nav-holiday-title kv-nav-holiday-description"><title id="kv-nav-holiday-title">Svētki</title><desc id="kv-nav-holiday-description">Kalendāram365 radīta oriģināla vektoru ilustrācija ar apjoma, gaismas un materiālu zīmējumu. Fotogrāfijas un pikseļu attēli nav izmantoti.</desc><defs>
+<linearGradient id="kv-nav-holiday-paper" x1="0" y1="0" x2=".85" y2="1"><stop stop-color="#fbfeff"/><stop offset=".57" stop-color="#c4dce5"/><stop offset="1" stop-color="#7fa4b6"/></linearGradient>
+<linearGradient id="kv-nav-holiday-wine" x1="0" y1="0" x2=".95" y2="1"><stop stop-color="#fbfdff"/><stop offset=".4" stop-color="#dbeaf0"/><stop offset="1" stop-color="#87afc0"/></linearGradient>
+<linearGradient id="kv-nav-holiday-teal" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#8ec5b8"/><stop offset=".48" stop-color="#488c80"/><stop offset="1" stop-color="#24574f"/></linearGradient>
+<linearGradient id="kv-nav-holiday-gold" x1="0" y1="0" x2=".8" y2="1"><stop stop-color="#fff2b7"/><stop offset=".22" stop-color="#d1aa5b"/><stop offset=".4" stop-color="#f1d68b"/><stop offset=".67" stop-color="#ad8439"/><stop offset="1" stop-color="#7b5b2c"/></linearGradient>
+<linearGradient id="kv-nav-holiday-metal" x1="0" y1="0" x2="1" y2=".9"><stop stop-color="#fafdfb"/><stop offset=".2" stop-color="#c6d0d0"/><stop offset=".43" stop-color="#fbfcf3"/><stop offset=".6" stop-color="#9cabae"/><stop offset="1" stop-color="#4c636d"/></linearGradient>
+<linearGradient id="kv-nav-holiday-ink" x1="0" y1="0" x2=".7" y2="1"><stop stop-color="#66747d"/><stop offset=".45" stop-color="#35424f"/><stop offset="1" stop-color="#17242f"/></linearGradient>
+<radialGradient id="kv-nav-holiday-glass" cx="30%" cy="20%" r="85%"><stop stop-color="#fff" stop-opacity=".9"/><stop offset=".5" stop-color="#eaf5ed" stop-opacity=".3"/><stop offset="1" stop-color="#86a3ae" stop-opacity=".55"/></radialGradient>
+<filter id="kv-nav-holiday-shadow" x="-35%" y="-35%" width="180%" height="190%"><feDropShadow dx="0" dy="6" stdDeviation="4" flood-color="#35262d" flood-opacity=".17"/></filter>
+<filter id="kv-nav-holiday-soft" x="-50%" y="-100%" width="200%" height="300%"><feGaussianBlur stdDeviation="3.5"/></filter>
+</defs><ellipse cx="165" cy="230" rx="89" ry="8" fill="#d0e3eb" opacity=".15" filter="url(#kv-nav-holiday-soft)"/><g filter="url(#kv-nav-holiday-shadow)">
+ <path d="M75 109 191 139 254 112V196L191 225 75 199Z" fill="#cee2eb"/>
+ <path d="M75 109 191 139V225L83 201Q75 199 75 191Z" fill="url(#kv-nav-holiday-wine)"/>
+ <path d="M191 139 254 112V192Q254 197 248 200L191 225Z" fill="#cfe3eb"/>
+ <path d="M121 121 143 127V212L121 207Z" fill="url(#kv-nav-holiday-gold)"/>
+ <path d="M225 125 240 119V204L225 211Z" fill="#dceaf1"/>
+ <path d="M64 94 137 65 265 96 191 129Z" fill="url(#kv-nav-holiday-wine)"/>
+ <path d="M64 94 191 129V145L64 111Z" fill="#d6e7ee"/>
+ <path d="M191 129 265 96V111L191 145Z" fill="#cee2ea"/>
+ <path d="M112 75 134 67 262 98 241 108Z" fill="url(#kv-nav-holiday-gold)"/>
+ <path d="M121 109 192 80 215 86 143 116V132L121 126Z" fill="url(#kv-nav-holiday-gold)"/>
+ <path d="M65 95 191 130 264 97" fill="none" stroke="#ecf4f8" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" opacity="0.5"/>
+ <path d="M76 116V192Q76 198 83 200L188 224" fill="none" stroke="#e9f2f7" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" opacity="0.25"/>
+ <path d="M163 94C149 69 124 47 108 55 89 64 96 84 116 91 132 97 146 95 163 94ZM150 86C137 68 121 59 112 64 106 68 114 79 126 83 135 86 143 87 150 86Z" fill="url(#kv-nav-holiday-gold)" fill-rule="evenodd"/>
+ <path d="M160 94C177 59 200 43 215 56 234 72 212 93 160 94ZM172 85C188 65 204 58 208 64 216 74 192 83 172 85Z" fill="url(#kv-nav-holiday-gold)" fill-rule="evenodd"/>
+ <path d="M155 98C145 106 138 120 132 132L147 127 153 138C159 120 161 109 167 99Z" fill="url(#kv-nav-holiday-gold)"/>
+ <path d="M166 98C182 105 191 121 193 135L181 130 175 140C174 118 167 111 160 103Z" fill="url(#kv-nav-holiday-gold)"/>
+ <path d="M153 84Q163 79 173 86L174 99Q162 106 151 98Z" fill="url(#kv-nav-holiday-gold)"/>
+ <path d="M110 58C122 53 141 70 156 90M174 88C189 66 204 55 213 61" fill="none" stroke="#fff1b8" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" opacity="0.75"/>
+ <path d="M156 88Q162 85 168 89" fill="none" stroke="#fff8d7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity="0.7"/>
+ </g></svg>

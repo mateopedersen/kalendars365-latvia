@@ -660,7 +660,8 @@
         "reviewEvidence": "contact-sheets/01.jpg",
         "downloadedFrom": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/Tebras_upes_d%C4%AB%C4%B7is_Aizput%C4%93.jpg/960px-Tebras_upes_d%C4%AB%C4%B7is_Aizput%C4%93.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "downloadedSourceSha256": "ddac8387f6c9a3751f3c032fa2ed8c56aff2f12f73a1ec8c6d8718387f984ac4",
-        "reviewedDerivativeSha256": "16d2ff48aea3263fff561227de1114deefb618ab4bc05e6ed3d069f1651acd91"
+        "reviewedDerivativeSha256": "16d2ff48aea3263fff561227de1114deefb618ab4bc05e6ed3d069f1651acd91",
+        "creditLv": "Jānis Sedols; sākotnējais augšupielādētājs — Kikos"
       },
       "photoSelectionSource": "https://www.wikidata.org/wiki/Q411723#P18",
       "locative": "Aizputē"
@@ -2352,7 +2353,8 @@
         "reviewEvidence": "contact-sheets/04.jpg",
         "downloadedFrom": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Madona_Stad.jpg/960px-Madona_Stad.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "downloadedSourceSha256": "314e14f82cd996f60126a03700d1cfc3fbb811412c06f577d27cf4a086819ebf",
-        "reviewedDerivativeSha256": "9a864769885bfb2ffa34e86785dd45d88b79e4ee4428241131bef394636c825a"
+        "reviewedDerivativeSha256": "9a864769885bfb2ffa34e86785dd45d88b79e4ee4428241131bef394636c825a",
+        "creditLv": "Apogs88 — sākotnējais augšupielādētājs latviešu Vikipēdijā"
       },
       "photoSelectionSource": "https://www.wikidata.org/wiki/Q586048#P18",
       "locative": "Madonā"
@@ -2587,7 +2589,8 @@
         "reviewEvidence": "contact-sheets/04.jpg",
         "downloadedFrom": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/Piltenes_pilsdrupas_un_bazn%C4%ABca.jpg/960px-Piltenes_pilsdrupas_un_bazn%C4%ABca.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "downloadedSourceSha256": "f533b21cf3079b825a4dbb04580e81d0667bfc8a8e404e50706e215a17794b95",
-        "reviewedDerivativeSha256": "476e7501272dcfa99ed8d382e96f11ad309fd574f0484b218431db8c419a9a8b"
+        "reviewedDerivativeSha256": "476e7501272dcfa99ed8d382e96f11ad309fd574f0484b218431db8c419a9a8b",
+        "creditLv": "Sākotnēji augšupielādēja Kikos; uz Wikimedia Commons pārvietoja Furfur"
       },
       "photoSelectionSource": "https://www.wikidata.org/wiki/Q838491#P18",
       "locative": "Piltenē"

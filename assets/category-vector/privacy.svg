@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 260" role="img" aria-labelledby="kv-privacy-title kv-privacy-description"><title id="kv-privacy-title">Privātums</title><desc id="kv-privacy-description">Kalendāram365 radīta oriģināla vektoru ilustrācija ar apjoma, gaismas un materiālu zīmējumu. Fotogrāfijas un pikseļu attēli nav izmantoti.</desc><defs>
+<linearGradient id="kv-privacy-paper" x1="0" y1="0" x2=".85" y2="1"><stop stop-color="#fffaf0"/><stop offset=".57" stop-color="#eee5d4"/><stop offset="1" stop-color="#b7ae9c"/></linearGradient>
+<linearGradient id="kv-privacy-wine" x1="0" y1="0" x2=".95" y2="1"><stop stop-color="#bf6a83"/><stop offset=".4" stop-color="#973f5a"/><stop offset="1" stop-color="#5d2036"/></linearGradient>
+<linearGradient id="kv-privacy-teal" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#8ec5b8"/><stop offset=".48" stop-color="#488c80"/><stop offset="1" stop-color="#24574f"/></linearGradient>
+<linearGradient id="kv-privacy-gold" x1="0" y1="0" x2=".8" y2="1"><stop stop-color="#fff2b7"/><stop offset=".22" stop-color="#d1aa5b"/><stop offset=".4" stop-color="#f1d68b"/><stop offset=".67" stop-color="#ad8439"/><stop offset="1" stop-color="#7b5b2c"/></linearGradient>
+<linearGradient id="kv-privacy-metal" x1="0" y1="0" x2="1" y2=".9"><stop stop-color="#fafdfb"/><stop offset=".2" stop-color="#c6d0d0"/><stop offset=".43" stop-color="#fbfcf3"/><stop offset=".6" stop-color="#9cabae"/><stop offset="1" stop-color="#4c636d"/></linearGradient>
+<linearGradient id="kv-privacy-ink" x1="0" y1="0" x2=".7" y2="1"><stop stop-color="#66747d"/><stop offset=".45" stop-color="#35424f"/><stop offset="1" stop-color="#17242f"/></linearGradient>
+<radialGradient id="kv-privacy-glass" cx="30%" cy="20%" r="85%"><stop stop-color="#fff" stop-opacity=".9"/><stop offset=".5" stop-color="#eaf5ed" stop-opacity=".3"/><stop offset="1" stop-color="#86a3ae" stop-opacity=".55"/></radialGradient>
+<filter id="kv-privacy-shadow" x="-35%" y="-35%" width="180%" height="190%"><feDropShadow dx="0" dy="6" stdDeviation="4" flood-color="#35262d" flood-opacity=".17"/></filter>
+<filter id="kv-privacy-soft" x="-50%" y="-100%" width="200%" height="300%"><feGaussianBlur stdDeviation="3.5"/></filter>
+</defs><ellipse cx="161" cy="234" rx="78" ry="7" fill="#473039" opacity=".15" filter="url(#kv-privacy-soft)"/><g filter="url(#kv-privacy-shadow)"><path d="M160 27C188 46 220 51 247 54L244 119C241 173 202 209 160 235C118 209 79 173 76 119L73 54C106 51 132 47 160 27Z" fill="url(#kv-privacy-metal)"/>
+ <path d="M160 42C185 59 211 63 231 66L228 122C225 165 192 198 160 219C128 198 95 165 92 122L89 66C114 63 135 59 160 42Z" fill="url(#kv-privacy-wine)"/>
+ <path d="M160 48C132 65 107 68 95 70L98 120C101 156 123 183 140 196" fill="none" stroke="#f7ced4" stroke-width="2" opacity=".35"/>
+ <path d="M137 126V109C137 77 185 77 185 109V126" stroke="#543329" stroke-opacity=".2" stroke-width="15" fill="none"/>
+ <path d="M137 123V107C137 78 185 78 185 107V123" stroke="url(#kv-privacy-metal)" stroke-width="12" fill="none"/>
+ <path d="M135 107Q135 84 156 84" stroke="#fffdf0" stroke-width="2" opacity=".8" fill="none"/>
+ <rect x="124" y="119" width="75" height="65" rx="12" fill="#572736" opacity=".18" transform="translate(3 5)"/>
+ <rect x="123" y="117" width="75" height="65" rx="12" fill="url(#kv-privacy-gold)"/>
+ <path d="M132 122H188Q193 122 193 128" fill="none" stroke="#fff6ca" stroke-width="1.5" opacity=".75"/>
+ <path d="M161 139A7 7 0 1 0 161 153L157 166H166L162 153A7 7 0 0 0 161 139Z" fill="#72522c"/>
+ <path d="M125 170Q124 179 134 180H187" fill="none" stroke="#8a632e" stroke-width="1" opacity=".45"/>
+ </g></svg>

@@ -8,8 +8,10 @@ const dateFormatter = new Intl.DateTimeFormat('lv-LV', {timeZone:TIME_ZONE,year:
 const pad = n => String(n).padStart(2,'0');
 SunCalc.addTime(-4, 'goldenMorningStart', 'goldenEveningEnd');
 
-export function dateKey(date = new Date()) {
-  const p = Object.fromEntries(partsFormatter.formatToParts(date).map(p=>[p.type,p.value]));
+const zoneParts=new Map([[TIME_ZONE,partsFormatter]]);
+function partsFor(zone){if(!zoneParts.has(zone))zoneParts.set(zone,new Intl.DateTimeFormat('en-CA',{timeZone:zone,year:'numeric',month:'2-digit',day:'2-digit',hour:'2-digit',minute:'2-digit',second:'2-digit',hourCycle:'h23'}));return zoneParts.get(zone);}
+export function dateKey(date = new Date(),zone=TIME_ZONE) {
+  const p = Object.fromEntries(partsFor(zone).formatToParts(date).map(p=>[p.type,p.value]));
   return `${p.year}-${p.month}-${p.day}`;
 }
 export function parseDate(value) {
@@ -22,21 +24,23 @@ export function addDays(value, days) {
   const date=parseDate(value);date.setUTCDate(date.getUTCDate()+days);
   return date.toISOString().slice(0,10);
 }
-export function rigaInstant(value, hour=0, minute=0) {
+export function rigaInstant(value,hour=0,minute=0){return zonedInstant(value,hour,minute,TIME_ZONE);}
+export function zonedInstant(value, hour=0, minute=0, zone=TIME_ZONE) {
   const date=parseDate(value),desired=Date.UTC(date.getUTCFullYear(),date.getUTCMonth(),date.getUTCDate(),hour,minute);
   let stamp=desired;
   for(let i=0;i<4;i++) {
-    const p=Object.fromEntries(partsFormatter.formatToParts(new Date(stamp)).map(p=>[p.type,p.value]));
+    const p=Object.fromEntries(partsFor(zone).formatToParts(new Date(stamp)).map(p=>[p.type,p.value]));
     const displayed=Date.UTC(+p.year,+p.month-1,+p.day,+p.hour,+p.minute,+p.second);
     const correction=desired-displayed;stamp+=correction;if(!correction)break;
   }
   return new Date(stamp);
 }
-export function dayBounds(value) {
-  return {start:rigaInstant(value),end:rigaInstant(addDays(value,1))};
+export function dayBounds(value,zone=TIME_ZONE) {
+  return {start:zonedInstant(value,0,0,zone),end:zonedInstant(addDays(value,1),0,0,zone)};
 }
-export function formatTime(date) {
-  return date && Number.isFinite(new Date(date).getTime()) ? timeFormatter.format(new Date(Math.round(new Date(date).getTime()/60000)*60000)) : '—';
+export function formatTime(date,zone=TIME_ZONE) {
+  const formatter=zone===TIME_ZONE?timeFormatter:new Intl.DateTimeFormat('lv-LV',{timeZone:zone,hour:'2-digit',minute:'2-digit',hourCycle:'h23'});
+  return date && Number.isFinite(new Date(date).getTime()) ? formatter.format(new Date(Math.round(new Date(date).getTime()/60000)*60000)) : '—';
 }
 export function formatDate(value) { return dateFormatter.format(rigaInstant(value,12)); }
 export function phaseName(phase) {
@@ -48,8 +52,9 @@ const cache=new Map();
 export function citySky(value, city) {
   parseDate(value);
   if(!Number.isFinite(city.lat)||!Number.isFinite(city.lon)||Math.abs(city.lat)>90||Math.abs(city.lon)>180) throw new RangeError('Nederīgas pilsētas koordinātas.');
-  const key=`${value}|${city.lat}|${city.lon}`;if(cache.has(key))return cache.get(key);
-  const {start,end}=dayBounds(value),fields=['sunrise','sunset','dawn','dusk','nauticalDawn','nauticalDusk','nightEnd','night','solarNoon','nadir','goldenMorningStart','goldenHourEnd','goldenHour','goldenEveningEnd'];
+  const zone=city.timeZone||TIME_ZONE;
+  const key=`${value}|${city.lat}|${city.lon}|${zone}`;if(cache.has(key))return cache.get(key);
+  const {start,end}=dayBounds(value,zone),fields=['sunrise','sunset','dawn','dusk','nauticalDawn','nauticalDusk','nightEnd','night','solarNoon','nadir','goldenMorningStart','goldenHourEnd','goldenHour','goldenEveningEnd'];
   const collected=Object.fromEntries(fields.map(k=>[k,[]])),rises=[],sets=[];
   // UTC windows are filtered to the actual IANA civil day: DST days can be 23/25h.
   for(let stamp=Math.floor(start.getTime()/DAY)*DAY;stamp<end.getTime();stamp+=DAY) {
@@ -59,8 +64,8 @@ export function citySky(value, city) {
     if(moon.set>=start&&moon.set<end)sets.push(moon.set);
   }
   const sun=Object.fromEntries(fields.map(k=>[k,unique(collected[k])[0]||null]));
-  const illumination=SunCalc.getMoonIllumination(rigaInstant(value,12));
-  const result={date:value,cityId:city.id,timeZone:TIME_ZONE,start,end,sun,moon:{rises:unique(rises),sets:unique(sets),fraction:illumination.fraction,phase:illumination.phase,angle:illumination.angle,name:phaseName(illumination.phase)},daylightMinutes:sun.sunrise&&sun.sunset?Math.round((sun.sunset-sun.sunrise)/60000):null};
+  const illumination=SunCalc.getMoonIllumination(zonedInstant(value,12,0,zone));
+  const result={date:value,cityId:city.id,timeZone:zone,start,end,sun,moon:{rises:unique(rises),sets:unique(sets),fraction:illumination.fraction,phase:illumination.phase,angle:illumination.angle,name:phaseName(illumination.phase)},daylightMinutes:sun.sunrise&&sun.sunset?Math.round((sun.sunset-sun.sunrise)/60000):null};
   if(cache.size>400)cache.clear();cache.set(key,result);return result;
 }
 export function sunPosition(date, city) {

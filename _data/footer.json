@@ -1,0 +1,130 @@
+{
+  "groups": [
+    {
+      "title": "Kalendāri",
+      "icon": "calendar",
+      "links": [
+        {
+          "title": "Gada kalendāri",
+          "url": "/kalendars/"
+        },
+        {
+          "title": "Mēneša kalendāri",
+          "url": "/menesa-kalendars/"
+        },
+        {
+          "title": "Nedēļas kalendāri",
+          "url": "/nedelas-kalendars/"
+        },
+        {
+          "title": "PDF un attēli drukāšanai",
+          "url": "/pdf-kalendari/"
+        },
+        {
+          "title": "Tukšs kalendārs",
+          "url": "/tukss-kalendars/"
+        }
+      ]
+    },
+    {
+      "title": "Ikdienas plāni",
+      "icon": "planner",
+      "links": [
+        {
+          "title": "Datumu kalkulators",
+          "url": "/datumu-kalkulators/"
+        },
+        {
+          "title": "Darba dienu kalendārs",
+          "url": "/darba-dienu-kalendars/"
+        },
+        {
+          "title": "Atvaļinājuma plānotājs",
+          "url": "/atvalinajuma-planotajs/"
+        },
+        {
+          "title": "Ģimenes kalendārs",
+          "url": "/gimenes-kalendars/"
+        },
+        {
+          "title": "Maiņu grafiks",
+          "url": "/mainu-grafiks/"
+        }
+      ]
+    },
+    {
+      "title": "Latvijas dienas",
+      "icon": "latvia-days",
+      "links": [
+        {
+          "title": "Svētku dienas",
+          "url": "/svetku-dienas/"
+        },
+        {
+          "title": "Vārda dienas",
+          "url": "/varda-dienas/"
+        },
+        {
+          "title": "Garās brīvdienas",
+          "url": "/garas-brivdienas/"
+        },
+        {
+          "title": "Skolas brīvlaiki",
+          "url": "/skolas-brivlaiki/"
+        },
+        {
+          "title": "Studiju kalendāri",
+          "url": "/studiju-kalendars/"
+        }
+      ]
+    },
+    {
+      "title": "Saule un daba",
+      "icon": "astronomy",
+      "links": [
+        {
+          "title": "Saullēkts un saulriets",
+          "url": "/saullekts-saulriets/"
+        },
+        {
+          "title": "Mēness kalendārs",
+          "url": "/meness-kalendars/"
+        },
+        {
+          "title": "Mēness fāzes",
+          "url": "/meness-fazes/"
+        },
+        {
+          "title": "Gadalaiki",
+          "url": "/gadalaiki/"
+        },
+        {
+          "title": "Sējas un stādīšanas kalendārs",
+          "url": "/sejas-kalendars/"
+        }
+      ]
+    }
+  ],
+  "about": [
+    {
+      "title": "Par projektu",
+      "url": "/par-projektu/"
+    },
+    {
+      "title": "Blogs",
+      "url": "/blogs/"
+    },
+    {
+      "title": "Avoti un metodika",
+      "url": "/avoti-un-metodika/"
+    },
+    {
+      "title": "Fotogrāfijas un licences",
+      "url": "/pilsetas-un-fotografijas/"
+    },
+    {
+      "title": "Sazinies ar mums",
+      "url": "/kontakti/"
+    }
+  ]
+}

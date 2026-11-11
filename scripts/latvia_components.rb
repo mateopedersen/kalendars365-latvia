@@ -93,42 +93,7 @@ def exam_calendar_markup
 end
 
 def study_calendar_markup
-  data = JSON.parse(File.read('_data/university-calendars.json'))
-  calendars = data.fetch('calendars').to_h { |calendar| [calendar.fetch('id'), calendar] }
-  events_by_kind = { 'holiday' => 'Brīvlaiks / brīvdiena', 'study' => 'Studiju periods', 'exam' => 'Sesija / pārbaudījumi', 'registration' => 'Reģistrācija' }
-  date_label = lambda do |event|
-    first = Date.parse(event.fetch('start')).strftime('%d.%m.%Y.')
-    last = event['end'] && Date.parse(event['end']).strftime('%d.%m.%Y.')
-    last && last != first ? "#{first}–#{last}" : first
-  end
-  photo_markup = lambda do |photo|
-    next '' unless photo
-    license_link = %(<a href="#{h(photo.fetch('licenseUrl'))}" target="_blank" rel="noopener">#{h(photo.fetch('license'))}</a>)
-    %(<figure class="study-campus-photo"><img src="#{h(photo.fetch('src'))}" alt="#{h(photo.fetch('alt'))}" loading="lazy" decoding="async" width="960" height="560"><figcaption>#{h(photo.fetch('caption'))} · <a href="#{h(photo.fetch('pageUrl'))}" target="_blank" rel="noopener">#{h(photo.fetch('author'))} · Wikimedia Commons</a> · #{license_link}</figcaption></figure>)
-  end
-  calendar_cards = data.fetch('calendars').map do |calendar|
-    events = calendar.fetch('events').map do |event|
-      scope = event['scope'] ? %(<small class="study-event-scope">#{h(event['scope'])}</small>) : ''
-      kind = events_by_kind.fetch(event.fetch('kind'), 'Studiju kalendārs')
-      %(<li class="study-event study-event--#{h(event.fetch('kind'))}"><span class="study-event-kind">#{h(kind)}</span><time datetime="#{h(event.fetch('start'))}">#{h(date_label.call(event))}</time><strong>#{h(event.fetch('label'))}</strong>#{scope}</li>)
-    end.join
-    source = %(<a href="#{h(calendar.fetch('source').fetch('url'))}" target="_blank" rel="noopener">#{h(calendar.fetch('source').fetch('title'))} ↗</a>)
-    %(<article class="study-calendar-card" id="study-#{h(calendar.fetch('id'))}">#{photo_markup.call(calendar['photo'])}<div class="study-calendar-card-body"><div class="study-calendar-card-heading"><span class="study-calendar-type">2026./2027. · oficiālais kalendārs</span><h2>#{h(calendar.fetch('institution'))}</h2><p>#{h(calendar.fetch('scope'))}</p></div><ul class="study-event-list">#{events}</ul><p class="source-inline">Avots: #{source}</p></div></article>)
-  end.join
-  pending_cards = data.fetch('stateUniversities').select { |item| item['calendarStatus'] == 'not-found' }.map do |institution|
-    photo = institution['photo'] ? photo_markup.call(institution['photo']) : %(<div class="study-pending-art" aria-hidden="true"><span>#{h(institution.fetch('city'))}</span><span>2026 — 27</span></div>)
-    confirmed = institution.fetch('confirmedDates', []).map { |event| %(<li><time datetime="#{h(event.fetch('start'))}">#{Date.parse(event.fetch('start')).strftime('%d.%m.%Y.')}</time><span>#{h(event.fetch('label'))}</span></li>) }.join
-    source = institution['dateSource']
-    source_link = source ? %(<a href="#{h(source.fetch('url'))}" target="_blank" rel="noopener">#{h(source.fetch('title'))} ↗</a>) : ''
-    %(<article class="study-calendar-card study-calendar-card--pending" id="study-#{h(institution.fetch('id'))}">#{photo}<div class="study-calendar-card-body"><span class="study-calendar-type">2026./2027. · pārbaudīti publiskie datumi</span><h2>#{h(institution.fetch('name'))}</h2><ul class="study-event-list">#{confirmed}</ul><p class="source-inline">Avots: #{source_link}</p><p>Šie ir studiju uzsākšanas un ievadpasākumu datumi. Atsevišķs publisks brīvlaiku grafiks nav atrasts; šie notikumi nav atzīmēti kā brīvdienas. Precīzu programmas grafiku pārbaudi studiju daļā.</p><p class="source-inline"><a href="#{h(institution.fetch('url'))}" target="_blank" rel="noopener">Augstskolas oficiālā lapa ↗</a></p></div></article>)
-  end.join
-  university_directory = data.fetch('stateUniversities').map do |institution|
-    href = institution['calendarId'] ? "#study-#{institution.fetch('calendarId')}" : "#study-#{institution.fetch('id')}"
-    status = institution['calendarStatus'] == 'not-found' ? 'Apstiprinātie datumi' : 'Atvērt grafiku'
-    %(<a class="university-directory-link" href="#{h(href)}"><span>#{h(institution.fetch('name'))}<small>#{h(institution.fetch('city'))}</small></span><b>#{h(status)} →</b></a>)
-  end.join
-  directory = data.fetch('directorySource')
-  %(<section class="university-calendar-intro"><div><span class="eyebrow">LATVIJAS AUGSTSKOLAS</span><h2>2026./2027. studiju gads</h2><p>Apkopoti augstskolu oficiālie semestru, sesiju un brīvlaiku periodi. Katras programmas grafiks var atšķirties, tāpēc svarīgo datumu pārbaudi arī savas augstskolas avotā.</p></div><div class="university-source-badge"><strong>#{data.fetch('calendars').length} publicēti grafiki</strong><span>9 no 11 iestādēm · LU doktorantūras grafiks uzrādīts atsevišķi</span></div></section><section class="university-directory" id="university-directory"><div class="university-directory-heading"><div><span class="eyebrow">IZVĒLIES IESTĀDI</span><h2>Latvijas valsts augstskolas</h2></div><a href="#{h(directory.fetch('registerUrl'))}" target="_blank" rel="noopener">Pilns AIKA reģistrs ↗</a></div><nav aria-label="Latvijas augstskolu kalendāri" class="university-directory-grid">#{university_directory}</nav><p class="university-directory-source">Saraksts: <a href="#{h(directory.fetch('url'))}" target="_blank" rel="noopener">#{h(directory.fetch('title'))} ↗</a>. Šis ir valsts augstskolu saraksts; pilnā AIKA reģistrā ir arī privātās augstskolas un koledžas.</p></section><section class="study-calendar-grid" aria-label="Augstskolu studiju kalendāri">#{calendar_cards}#{pending_cards}</section><aside class="university-calendar-notes"><h2>Kā lasīt datumus</h2><ul>#{data.fetch('notes').map { |note| "<li>#{h(note)}</li>" }.join}</ul></aside>)
+  university_explorer_markup
 end
 
 def lunar_print_gallery(year, month=nil)
@@ -139,10 +104,10 @@ def lunar_print_gallery(year, month=nil)
   arrow = '<svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12m-5-5 5 5 5-5M4 16v5h16v-5"/></svg>'
   file_icon = '<img src="/assets/file-pdf.svg" width="26" height="26" alt="" aria-hidden="true">'
   image_icon = '<img src="/assets/file-image.svg" width="26" height="26" alt="" aria-hidden="true">'
-  cards = items.map do |item|
+  cards = items.each_with_index.map do |item,index|
     orientation = item['orientation'] == 'portrait' ? 'Vertikāli' : 'Horizontāli'
     mb = format('%.1f', item['pdfBytes'] / 1_000_000.0).tr('.', ',')
-    %(<article class="moon-print-card"><a class="moon-print-preview" href="#{h(item['image'])}" target="_blank" rel="noopener" aria-label="Priekšskatīt: #{h(item['name'])}"><img src="#{h(item['preview'])}" alt="#{h(item['name'])} · #{month ? h(MONTHS[month-1])+' ' : ''}#{year}. gada Mēness kalendārs" width="#{item['width']}" height="#{item['height']}" loading="lazy"><span>Priekšskatīt ↗</span></a><div class="moon-print-details"><h3>#{h(item['name'])}</h3><p>#{item['paper']} · #{orientation} · 600 dpi</p><div class="moon-print-downloads"><a href="#{h(item['pdf'])}" download aria-label="Lejupielādēt PDF: #{h(item['name'])}">#{file_icon}<span>PDF</span>#{arrow}</a><a href="#{h(item['image'])}" download aria-label="Lejupielādēt attēlu: #{h(item['name'])}">#{image_icon}<span>Attēls</span>#{arrow}</a></div><small>PDF #{mb} MB · Attēls #{item['width']} × #{item['height']} px</small></div></article>)
+    %(<article class="moon-print-card"><a class="moon-print-preview" href="#{h(item['image'])}" target="_blank" rel="noopener" aria-label="Priekšskatīt: #{h(item['name'])}"><img src="#{h(item['preview'])}" alt="#{h(item['name'])} · #{month ? h(MONTHS[month-1])+' ' : ''}#{year}. gada Mēness kalendārs" width="#{item['width']}" height="#{item['height']}" loading="#{index<2 ? 'eager' : 'lazy'}"#{index==0 ? ' fetchpriority="high"' : ''}><span>Priekšskatīt ↗</span></a><div class="moon-print-details"><h3>#{h(item['name'])}</h3><p>#{item['paper']} · #{orientation} · 600 dpi</p><div class="moon-print-downloads"><a href="#{h(item['pdf'])}" download aria-label="Lejupielādēt PDF: #{h(item['name'])}">#{file_icon}<span>PDF</span>#{arrow}</a><a href="#{h(item['image'])}" download aria-label="Lejupielādēt attēlu: #{h(item['name'])}">#{image_icon}<span>Attēls</span>#{arrow}</a></div><small>PDF #{mb} MB · Attēls #{item['width']} × #{item['height']} px</small></div></article>)
   end.join
   %(<section class="moon-print-section" id="meness-drukai" aria-labelledby="moon-print-title"><header class="moon-print-heading"><div><span class="eyebrow">SAGLABĀ UN IZDRUKĀ</span><h2 id="moon-print-title">#{month ? 'Mēneša' : 'Gada'} Mēness kalendārs drukai</h2><p>Četri dizaini. PDF vai augstas izšķirtspējas attēls.</p></div><span class="moon-print-quality">600 dpi</span></header><div class="moon-print-grid">#{cards}</div><p class="moon-print-note">Mēness izskats aprēķināts katrai dienai plkst. 12.00 pēc Latvijas laika; debess ziemeļi augšā. Virsma: <a href="https://svs.gsfc.nasa.gov/4720/" target="_blank" rel="noopener">NASA SVS / LRO / LROC</a>. <a href="/avoti-un-metodika/">Aprēķinu avoti</a>.</p></section>)
 end
@@ -251,6 +216,40 @@ def observance_collection_markup
   %(<section class="content-card"><p class="lead">Atrodi Latvijas svētku dienas, gadskārtu notikumus un citas nozīmīgas tēmas. Likumā noteiktās brīvdienas, piemiņas dienas un kultūras tradīcijas ir nodalītas pēc to faktiskā statusa.</p><label class="observance-filter-label">Meklēt nosaukumu<input type="search" data-observance-search placeholder="Meklē Latvijas svētku kalendārā"></label><h2>Latvijas svētki un atzīmējamās dienas</h2><div class="observance-grid" data-observance-grid>#{statutory_cards}#{cultural_cards}</div><p class="print-hint">Fotoattēlu paraksti norāda, vai redzams konkrētais notikums, vēsturisks arhīvs vai ilustratīvs attēls.</p></section>)
 end
 
+def advent_sundays(year)
+  last = Date.new(year,12,24)
+  last -= last.wday
+  (0..3).map { |i| last - 21 + 7*i }
+end
+
+def cultural_calendar_dates(article,year)
+  model=article.fetch('dateModel',{})
+  make=->(date,title,scope=nil) { {'date'=>date.iso8601,'title'=>title,'scope'=>scope}.compact }
+  case model['type']
+  when 'fixed'
+    [make.call(Date.new(year,model.fetch('month'),model.fetch('day')),article['h1'],model['confessionScope'])]
+  when 'gregorian-relative'
+    return [] unless article['url'].include?('/advente/')
+    advent_sundays(year).each_with_index.map { |date,i| make.call(date,"#{i+1}. adventes svētdiena",model['confessionScope']) }
+  when 'easter-relative'
+    easter=DATA.fetch('holidays').find { |r| r['date'].start_with?(year.to_s) && r['title']=='Pirmās Lieldienas' }
+    easter ? [make.call(Date.parse(easter['date'])+model.fetch('offsetDays'),article['h1'],model['confessionScope'])] : []
+  when 'confession-specific'
+    model.fetch('variants',[]).flat_map do |variant|
+      date=if variant['month'] && variant['day']
+        Date.new(year,variant['month'],variant['day'])
+      elsif variant['ruleId']=='advent-minus-seven-days'
+        advent_sundays(year).first-7
+      end
+      date ? [make.call(date,variant['name'],variant['scope'])] : []
+    end
+  when 'astronomical'
+    DATA.fetch('seasons',[]).select { |r| r['date'].start_with?(year.to_s) && model.fetch('typicalMonths',[]).include?(Date.parse(r['date']).month) && r['phenomenon']=='Equinox' }
+  else
+    []
+  end
+end
+
 def cultural_page_markup(article)
   model = article['dateModel'] || {}
   sources = article['sourceIds'] || []
@@ -259,13 +258,13 @@ def cultural_page_markup(article)
   when 'fixed'
     years = (2027..2030).map do |year|
       date = Date.new(year, model['month'], model['day'])
-      %(<article class="holiday-card"><time datetime="#{date.iso8601}">#{date.day}. #{h(GARDEN_MONTH_LOCATIVE[date.month - 1])} #{year}. gadā</time><small>#{%w[Svētdiena Pirmdiena Otrdiena Trešdiena Ceturtdiena Piektdiena Sestdiena][date.wday]}</small></article>)
+      %(<article class="holiday-card"><time datetime="#{date.iso8601}">#{year}. gada #{date.day}. #{h(MONTHS[date.month - 1])}</time><small>#{%w[Svētdiena Pirmdiena Otrdiena Trešdiena Ceturtdiena Piektdiena Sestdiena][date.wday]}</small></article>)
     end.join
     local_date = article['localDate']
     local_markup = if local_date
       local_years = (2027..2030).map do |year|
         date = Date.new(year, local_date['month'], local_date['day'])
-        %(<article class="holiday-card"><time datetime="#{date.iso8601}">#{date.day}. #{h(GARDEN_MONTH_LOCATIVE[date.month - 1])} #{year}. gadā</time><small>#{%w[Svētdiena Pirmdiena Otrdiena Trešdiena Ceturtdiena Piektdiena Sestdiena][date.wday]}</small></article>)
+        %(<article class="holiday-card"><time datetime="#{date.iso8601}">#{year}. gada #{date.day}. #{h(MONTHS[date.month - 1])}</time><small>#{%w[Svētdiena Pirmdiena Otrdiena Trešdiena Ceturtdiena Piektdiena Sestdiena][date.wday]}</small></article>)
       end.join
       %(<h3>Atsevišķi: Latvijas piemiņas diena</h3><div class="holiday-card-grid">#{local_years}</div><p>#{h(article['localDateNote'])}</p>)
     else
@@ -280,10 +279,13 @@ def cultural_page_markup(article)
       ['/gadalaiki/', 'Latvijas gadalaiku sākuma brīži']
     ].map { |url, title| %(<a class="link-card" href="#{url}"><strong>#{h(title)}</strong><span>Atvērt Latvijas kalendāra lapu</span></a>) }.join
     %(<section class="content-card"><h2>Pavasara notikumi Latvijā</h2><p>#{h(model['rule'])}</p><div class="link-grid">#{cards}</div><p>Gadskārtu paražas, kristīgo svētku datumi un astronomiskais ekvinokcijas brīdis pieder atšķirīgiem kalendāriem.</p></section>)
-  when 'astronomical'
-    events = DATA.fetch('seasons', []).select { |event| event['title'].to_s.include?(article['h1'].to_s.split(':').first) }
-    rows = events.map { |event| %(<article class="holiday-card"><time datetime="#{event['utc']}">#{h(event['date'])} · #{h(event['time'])} · Rīgas laiks</time><small>#{h(event['title'])}</small></article>) }.join
-    %(<section class="content-card"><h2>Precīzie astronomiskie brīži</h2><div class="holiday-card-grid">#{rows}</div><p>Ekvinokcija ir astronomisks brīdis, nevis nemainīgs kalendāra datums.</p></section>)
+  when 'astronomical','gregorian-relative','easter-relative','confession-specific'
+    rows=(2027..2030).flat_map { |year| cultural_calendar_dates(article,year) }.map do |event|
+      date=Date.parse(event['date'])
+      %(<article class="holiday-card"><time datetime="#{h(event['utc']||event['date'])}">#{date.year}. gada #{date.day}. #{h(MONTHS[date.month-1])}#{event['time'] ? " · #{h(event['time'])} · Latvijas laiks" : ''}</time><strong>#{h(event['title'])}</strong>#{event['scope'] ? "<small>#{h(event['scope'])}</small>" : ''}</article>)
+    end.join
+    note=model['type']=='astronomical' ? 'Ekvinokcija ir precīzs astronomisks brīdis, nevis nemainīgs kalendāra datums.' : 'Datumi attiecas uz katrā ierakstā norādīto tradīciju vai konfesiju; tie nav automātiski vispārējas svētku brīvdienas.'
+    %(<section class="content-card"><h2>Datumi 2027.–2030. gadā</h2><div class="holiday-card-grid">#{rows}</div><p>#{h(note)}</p></section>)
   else
     note = model['rule'] || model['easterRelativeConventionStatus'] || model['confessionScope'] || 'Datums ir atkarīgs no kalendāra noteikuma vai tradīcijas; vienu vispārēju Latvijas datumu neizdomājam.'
     %(<section class="content-card"><h2>Datuma noteikums un tā tvērums</h2><p>#{h(note)}</p><p>Pasākuma rīkotāja publicētais datums var atšķirties no tradīcijas kalendārā lietotā datuma.</p></section>)
@@ -306,7 +308,7 @@ def astronomy_event_markup(slug)
   end
   year_options = (2027..2030).map { |year| %(<option value="#{year}"#{year == [Date.today.year, 2027].max ? ' selected' : ''}>#{year}</option>) }.join
   city_options = CITIES.map { |city| %(<option value="#{h(city['id'])}"#{city['id'] == 'riga' ? ' selected' : ''}>#{h(city['name'])}</option>) }.join
-  %(<section class="tool-panel extra-tool astronomy-event-tool" data-astronomy-tool="#{kind}" data-source="/assets/latvia-astronomy.json"><div class="astronomy-controls"><label>Pilsēta Latvijā<select data-astro-city>#{city_options}</select></label><label>Gads<select data-astro-year>#{year_options}</select></label><button type="button" data-astro-export>Lejupielādēt pilsētas notikumus (.ics)</button></div><p data-astro-status class="muted" role="status">Ielādē aprēķinātos datus…</p><div data-astro-results class="astronomy-event-list"></div><p class="print-hint">#{h(description)} Novērojamību var mainīt reljefs, ēkas, augstums, atmosfēra un mākoņi. Aprēķins izmanto pilsētas centra koordinātas, 0 m augstumu, standarta refrakciju un plakanu, neaizsegtu horizontu.</p></section>)+verified_sources_panel(source_ids,'Aprēķinu dzinējs un time-zone modelis norādīts pie atvērtiem datiem; globāls kataloga tips nav pielīdzināts lokālai novērojamībai.')
+  %(<section class="tool-panel extra-tool astronomy-event-tool" data-astronomy-tool="#{kind}" data-source="/assets/latvia-astronomy.json"><div class="astronomy-controls"><label>Pilsēta Latvijā<select data-astro-city>#{city_options}</select></label><label>Gads<select data-astro-year>#{year_options}</select></label><button type="button" data-astro-export>Lejupielādēt pilsētas notikumus (.ics)</button></div><p data-astro-status class="muted" role="status">Ielādē aprēķinātos datus…</p><div data-astro-results class="astronomy-event-list"></div><p class="print-hint">#{h(description)} Novērojamību var mainīt reljefs, ēkas, augstums, atmosfēra un mākoņi. Aprēķins izmanto pilsētas centra koordinātas, 0 m augstumu, standarta refrakciju un plakanu, neaizsegtu horizontu.</p></section>)+verified_sources_panel(source_ids,'Aprēķinu dzinējs un laika joslas modelis norādīts pie atvērtiem datiem; globāls kataloga tips nav pielīdzināts lokālai novērojamībai.')
 end
 
 def latvia_special_markup(path, metadata)
@@ -335,7 +337,7 @@ def latvia_special_markup(path, metadata)
   when 'nozimigas-dienas'
     observance_collection_markup
   when 'redakcijas-politika'
-    %(<section class="editorial-policy-grid"><article class="content-card"><h2>Datums un avots ir sasaistīti</h2><p>Likuma noteiktu brīvdienu, piemiņas dienu, kultūras tradīciju, skolas termiņu un astronomisku notikumu statuss tiek glabāts atsevišķi. Avota neesamību neaizstājam ar minējumu.</p></article><article class="content-card"><h2>Nākotnes datumi</h2><p>Publicējam tikai attiecīgās iestādes izziņotus datumus vai skaidri marķētus aprēķinus pēc spēkā esoša noteikuma. Neizziņotu mācību gadu, VSAA maksājumu vai pasākumu datumus nepārceļam no iepriekšējā gada.</p></article><article class="content-card"><h2>Personīgs saturs</h2><p>Kalendāra un planotāju ieraksti tiek apstrādāti pārlūkā. Fotoattēlu, autoru, licences un attēla lomu norādām pie attēla, ja izmantojam ārēju vizuālu materiālu.</p></article><article class="content-card"><h2>Automātiski sagatavots saturs</h2><p>Dienas horoskops tiek automātiski atlasīts un rediģēts no paša Kalendāra365 tematiskā satura krājuma; tas nav individuāls astrologu padoms vai zinātniska prognoze. Automātiskās datumu maiņas un avotu pārbaudes aprakstītas pie attiecīgās funkcijas.</p></article></section><p>Par kļūdu vai precizējumu raksti <a href="mailto:kalendars365@gmail.com">kalendars365@gmail.com</a> un pievieno attiecīgo adresi un pirmavota saiti.</p>)
+    %(<section class="editorial-policy-grid"><article class="content-card"><h2>Datums un avots ir sasaistīti</h2><p>Likuma noteiktu brīvdienu, piemiņas dienu, kultūras tradīciju, skolas termiņu un astronomisku notikumu statuss tiek glabāts atsevišķi. Avota neesamību neaizstājam ar minējumu.</p></article><article class="content-card"><h2>Nākotnes datumi</h2><p>Publicējam tikai attiecīgās iestādes izziņotus datumus vai skaidri marķētus aprēķinus pēc spēkā esoša noteikuma. Neizziņotu mācību gadu, VSAA maksājumu vai pasākumu datumus nepārceļam no iepriekšējā gada.</p></article><article class="content-card"><h2>Personīgs saturs</h2><p>Kalendāra un plānotāju ieraksti tiek apstrādāti pārlūkā. Fotoattēlu, autoru, licences un attēla lomu norādām pie attēla, ja izmantojam ārēju vizuālu materiālu.</p></article><article class="content-card"><h2>Automātiski sagatavots saturs</h2><p>Dienas horoskops tiek automātiski atlasīts un rediģēts no paša Kalendāra365 tematiskā satura krājuma; tas nav individuāls astrologu padoms vai zinātniska prognoze. Automātiskās datumu maiņas un avotu pārbaudes aprakstītas pie attiecīgās funkcijas.</p></article></section><p>Par kļūdu vai precizējumu raksti <a href="mailto:kalendars365@gmail.com">kalendars365@gmail.com</a> un pievieno attiecīgo adresi un pirmavota saiti.</p>)
   when 'saules-aptumsums', 'meness-aptumsums', 'perseidas'
     astronomy_event_markup(slug)
   else

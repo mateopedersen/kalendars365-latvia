@@ -339,8 +339,8 @@
         "holiday-law"
       ],
       "factNotes": [
-        "Mūsdienu kultūras norise; nepasniegt kā senu latviešu gadskārtu.",
-        "2026. gada muzeja programma nepierāda, ka tas pats pasākums notiks 2027. gadā."
+        "Valentīndiena Latvijā ir mūsdienu kultūras tradīcija.",
+        "Pasākumu programmas un norises laiki katru gadu jāpārbauda pie rīkotājiem."
       ],
       "isStatutoryWorkFreeHoliday": false
     },
@@ -360,8 +360,8 @@
         "holiday-law"
       ],
       "factNotes": [
-        "Tradīcijas apraksts nav meteoroloģiska ziemas sākuma prognoze.",
-        "Pasākumu datumus glabāt atsevišķi no gadskārtas datuma."
+        "Mārtiņi iezīmē tradicionālo ziemas sākumu; faktiskie laikapstākļi katru gadu atšķiras.",
+        "Mārtiņu tirgu un citu pasākumu norises dienas var atšķirties no 10. novembra."
       ],
       "isStatutoryWorkFreeHoliday": false
     },
@@ -382,8 +382,8 @@
         "holiday-law"
       ],
       "factNotes": [
-        "e-PUPA lieto tradicionālo apzīmējumu rudens saulgriežu svētki; astronomiskā ekvinokcija nav 29. septembra sinonīms.",
-        "Ticējumus pasniegt kā folkloru, nevis drošu ražas vai laikapstākļu prognozi."
+        "Miķeļu tradicionālais datums ir 29. septembris; astronomiskās rudens ekvinokcijas brīdis tiek norādīts atsevišķi.",
+        "Ar Miķeļiem saistītie ticējumi ir folkloras daļa."
       ],
       "isStatutoryWorkFreeHoliday": false
     },
@@ -401,8 +401,8 @@
           "day": 6,
           "sourceId": "meteni-dictionary"
         },
-        "easterRelativeConventionStatus": "Do not choose one universal offset: e-PUPA records 56 days, museum Livonian account describes eve of Lent.",
-        "eventDate": "Only organiser announcement."
+        "easterRelativeConventionStatus": "Dažādos avotos Meteņu datums skaidrots atšķirīgi. e-PUPA min 56 dienas pirms Lieldienām, bet muzeja aprakstā par lībiešu tradīciju minēts gavēņa priekšvakars. Šīs tradīcijas neapvienojam vienā visai Latvijai obligātā datumā.",
+        "eventDate": "Pasākuma datumu izziņo tā rīkotājs."
       },
       "sourceIds": [
         "meteni-dictionary",
@@ -411,9 +411,8 @@
         "holiday-law"
       ],
       "factNotes": [
-        "Dažādās tradīcijas nav jāsapludina vienā automātiskā datumā.",
-        "Brīvdabas muzeja 2025. gada lībiešu piemērs ir 4. marts, pirms Pelnu trešdienas; tas nav universāls datums visiem turpmākajiem gadiem.",
-        "Neatveidot Slovēnijas Pust kā identisku Latvijas valsts svētku dienu."
+        "Meteņu svinēšanas laiki dažādos novados un tradīcijās atšķiras.",
+        "Konkrēta pasākuma datumu un programmu izziņo tā rīkotājs."
       ],
       "isStatutoryWorkFreeHoliday": false
     },
@@ -421,11 +420,11 @@
       "url": "/svetki-un-tradicijas/advente/",
       "title": "Advente: četras svētdienas pirms Ziemassvētkiem",
       "h1": "Advente: četras svētdienas pirms Ziemassvētkiem",
-      "description": "Apskati Adventes svētdienu datumus un uzzini, kā nosaka pirmo Adventi. Pirmā Advente ik gadu nav vienā novembra datumā.",
+      "description": "Apskati Adventes svētdienu datumus un uzzini, kā nosaka pirmo Adventi. Tās datums katru gadu mainās.",
       "intro": "Advente ir Kristus dzimšanas svētku gaidīšanas laiks, ko iezīmē četras svētdienas. Pirmās Adventes datums mainās; ceturtā Adventes svētdiena var sakrist ar 24. decembri.",
       "dateModel": {
         "type": "gregorian-relative",
-        "rule": "Four Sundays preceding December 25; fourth may be December 24. First Advent falls November 27–December 3.",
+        "rule": "Četras svētdienas pirms 25. decembra; ceturtā var būt arī 24. decembrī. Pirmā adventes svētdiena ir no 27. novembra līdz 3. decembrim.",
         "confessionScope": "Rietumu kristīgā tradīcija"
       },
       "sourceIds": [
@@ -435,8 +434,8 @@
         "holiday-law"
       ],
       "factNotes": [
-        "Nenosaukt 1. decembri vai 1. novembra pēdējo svētdienu par nemainīgu pirmo Adventi.",
-        "Liturģiskā gada sākums nav 1. janvāris."
+        "Pirmā adventes svētdiena ir no 27. novembra līdz 3. decembrim.",
+        "Rietumu kristīgajā tradīcijā ar pirmo Adventi sākas jaunais liturģiskais gads."
       ],
       "isStatutoryWorkFreeHoliday": false
     },
@@ -457,8 +456,8 @@
         "holiday-law"
       ],
       "factNotes": [
-        "Nejaukt ar Pelnu trešdienu vai Meteņiem.",
-        "Svētku nozīmi skaidrot neitrāli; neapgalvot vienādu datumu visām konfesijām."
+        "Pūpolu svētdiena ir vienu nedēļu pirms Lieldienām; tā atšķiras no Pelnu trešdienas un Meteņiem.",
+        "Šeit norādīti Rietumu kristīgās tradīcijas datumi. Citu konfesiju kalendāros datums var atšķirties."
       ],
       "isStatutoryWorkFreeHoliday": false
     },
@@ -479,8 +478,8 @@
         "holiday-law"
       ],
       "factNotes": [
-        "Baznīcas obligātas svinības nenozīmē likumā noteiktu valsts brīvdienu.",
-        "Nesapludināt dažādu kalendāru Ziemassvētkus ar 6. janvāra datumu."
+        "Zvaigznes diena ir reliģisku svētku diena; Latvijā tā nav vispārēja darba brīvdiena.",
+        "Šeit norādīts 6. janvāris pēc Rietumu kristīgās tradīcijas kalendāra."
       ],
       "isStatutoryWorkFreeHoliday": false
     },
@@ -501,8 +500,8 @@
         "holiday-law"
       ],
       "factNotes": [
-        "Nejaukt ar Jēzus Debeskāpšanas dienu 40. dienā pēc Lieldienām.",
-        "15. augusts nav automātiski valsts brīvdiena; neveidot neizziņotu Aglonas pasākumu sarakstu."
+        "Jaunavas Marijas debesīs uzņemšanas svētki atšķiras no Jēzus Debeskāpšanas dienas, ko svin 40. dienā pēc Lieldienām.",
+        "15. augusts Latvijā nav vispārēja darba brīvdiena. Aglonas svētku programmu izziņo attiecīgā gada rīkotāji."
       ],
       "isStatutoryWorkFreeHoliday": false
     },
@@ -524,7 +523,7 @@
           {
             "name": "Mūžības svētdiena",
             "scope": "Luterāņu baznīca",
-            "rule": "First Advent minus seven days"
+            "ruleId": "advent-minus-seven-days"
           }
         ]
       },
@@ -534,8 +533,8 @@
         "holiday-law"
       ],
       "factNotes": [
-        "Neuzrādīt vienu universālu datumu abām tradīcijām.",
-        "Kapusvētku un svecīšu vakaru vietējie datumi nav automātiski viens no šiem diviem datumiem."
+        "Katoļu un luterāņu kalendāros mirušo piemiņas datumi atšķiras.",
+        "Vietējo kapusvētku un svecīšu vakaru norises laiki jāskatās draudžu vai kapsētu paziņojumos."
       ],
       "isStatutoryWorkFreeHoliday": false
     },
@@ -558,8 +557,8 @@
         "usno-api"
       ],
       "factNotes": [
-        "Datumu un laiku aprēķina konkrētajam gadam; neizmanto vienu nemainīgu datumu.",
-        "Nesolīt precīzi 12 stundu dienu visās pilsētās; ja skaidro dienas un nakts faktiskā ilguma atšķirību, pievieno pārbaudītu definīcijas avotu."
+        "Ekvinokcijas brīdis katru gadu tiek noteikts atsevišķi un parādīts pēc Latvijas laika.",
+        "Ekvinokcija ir astronomisks brīdis; precīzs laiks starp saullēktu un saulrietu atkarīgs arī no vietas."
       ],
       "isStatutoryWorkFreeHoliday": null
     },
@@ -582,8 +581,8 @@
         "usno-api"
       ],
       "factNotes": [
-        "Datumu un laiku aprēķina konkrētajam gadam; neizmanto vienu nemainīgu datumu.",
-        "Nesolīt precīzi 12 stundu dienu visās pilsētās; ja skaidro dienas un nakts faktiskā ilguma atšķirību, pievieno pārbaudītu definīcijas avotu."
+        "Ekvinokcijas brīdis katru gadu tiek noteikts atsevišķi un parādīts pēc Latvijas laika.",
+        "Ekvinokcija ir astronomisks brīdis; precīzs laiks starp saullēktu un saulrietu atkarīgs arī no vietas."
       ],
       "isStatutoryWorkFreeHoliday": null
     },
@@ -603,8 +602,7 @@
         "holiday-law"
       ],
       "factNotes": [
-        "Starptautisko un Latvijas datumu tvērums ir atšķirīgs.",
-        "Saglabā cieņpilnu, faktos balstītu piemiņas kontekstu."
+        "Starptautiskās un Latvijas piemiņas dienas datumi un nosaukumi atšķiras."
       ],
       "isStatutoryWorkFreeHoliday": false,
       "dateNote": "ANO noteiktais starptautiskais piemiņas datums. Latvijas likumā noteiktā piemiņas diena ir redzama atsevišķi zemāk.",
@@ -670,8 +668,8 @@
         "unesco-mother-language"
       ],
       "factNotes": [
-        "Dzimtās valodas diena ir starptautiska atzīmējamā diena, nevis Latvijas valsts svētku diena.",
-        "Latvijas valodu un kultūras kontekstu skaidrot ar vietējiem avotiem, nevis pārnest citu valstu jubilejas."
+        "Dzimtās valodas diena ir starptautiska atzīmējamā diena. Latvijā tā nav vispārēja darba brīvdiena.",
+        "Latvijā šai dienai veltīto pasākumu saturu un programmu izziņo to rīkotāji."
       ],
       "isStatutoryWorkFreeHoliday": false
     },
@@ -693,8 +691,8 @@
         "martini"
       ],
       "factNotes": [
-        "Latvijas Nacionālā dabas muzeja 2026. gada 31. oktobra ģimenes pasākums ir tikai konkrētā gada piemērs; nākamā gada programmu jāpārbauda no jauna.",
-        "Latvijas Veļu laiku un Mārtiņus apraksti atsevišķi, nesapludinot tos ar Helovīnu."
+        "Helovīna pasākumu programmas katru gadu jāpārbauda pie rīkotājiem.",
+        "Latviešu Veļu laiks un Mārtiņi ir atsevišķas tradīcijas ar savu nozīmi un norisi."
       ],
       "isStatutoryWorkFreeHoliday": false,
       "dateNote": "Mūsdienu starptautiskās kultūras kalendāra datums. Helovīns nav Latvijas likumā noteikta brīvdiena.",
@@ -720,7 +718,7 @@
         "unesco-world-book"
       ],
       "factNotes": [
-        "UNESCO 2026. gada Pasaules grāmatu galvaspilsēta bija Rabāta; šo gadu nedrīkst automātiski pārnest uz citiem gadiem."
+        "Pasaules grāmatu dienu atzīmē 23. aprīlī. UNESCO Pasaules grāmatu galvaspilsēta ir atsevišķa ikgadēja programma."
       ],
       "isStatutoryWorkFreeHoliday": false
     },
@@ -739,8 +737,8 @@
         "un-world-environment"
       ],
       "factNotes": [
-        "Šī ir starptautiska atzīmējamā diena; tā pati par sevi Latvijā nav brīvdiena.",
-        "Kampaņas tēma un rīkotājvalsts jāatjauno tikai pēc UNEP paziņojuma."
+        "Šī ir starptautiska atzīmējamā diena; Latvijā tā nav vispārēja darba brīvdiena.",
+        "Attiecīgā gada kampaņas tēmu un rīkotājvalsti izziņo UNEP."
       ],
       "isStatutoryWorkFreeHoliday": false
     },
@@ -786,7 +784,7 @@
         "un-water-day"
       ],
       "factNotes": [
-        "Lapas kalendāra datums ir nemainīgs; tematisko kampaņu saturu atjaunina atbilstoši oficiālajam paziņojumam."
+        "Pasaules ūdens dienas datums ir 22. marts; ikgadējās kampaņas tēma var mainīties."
       ],
       "isStatutoryWorkFreeHoliday": false
     },
@@ -829,8 +827,8 @@
         "holiday-law"
       ],
       "factNotes": [
-        "Neimportē citu valstu pavasara masku dienu kā Latvijas nacionālu datumu.",
-        "Lieldienu datumu kalendārs norāda tās baznīcas kalendāra tvērumu."
+        "Pavasara tradīcijas un pasākumu norises laiki dažādos Latvijas novados var atšķirties.",
+        "Lieldienu datumi šajā vietnē norādīti pēc Rietumu kristīgās tradīcijas kalendāra."
       ],
       "isStatutoryWorkFreeHoliday": false
     },
@@ -891,8 +889,8 @@
         "un-world-environment"
       ],
       "factNotes": [
-        "22. aprīlis un 5. jūnijs ir divi atšķirīgi starptautiski datumi.",
-        "ANO 2026. gada programma vai kampaņas tēma nav automātiski piemērojama vēlākajiem gadiem."
+        "Zemes dienu atzīmē 22. aprīlī, bet Pasaules vides dienu — 5. jūnijā.",
+        "Ikgadējās kampaņas tēmu un programmu izziņo to rīkotāji."
       ],
       "isStatutoryWorkFreeHoliday": false
     }

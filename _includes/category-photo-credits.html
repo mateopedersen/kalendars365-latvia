@@ -1,0 +1,22 @@
+<details class="archived-photo-credits"><summary>Arhivēto saskarnes fotoattēlu licences</summary><section class="city-photo-credits page-shell" id="category-photos">
+  <span class="eyebrow">ARHĪVS · IEPRIEKŠĒJĀS VERSIJAS FOTOGRĀFIJAS</span>
+  <h2>Iepriekšējās saskarnes versijas foto avoti</h2>
+  <p>Iepriekšējās saskarnes versijas kategoriju attēli bija veidoti no fotogrāfijām, tās kadrējot, samazinot un ievietojot SVG kompozīcijās. Plānotāju attēli ir ilustratīvi — tie nav vietnes kalendāra dati vai attiecīgā gada Latvijas datumu pārskats. Fotogrāfiju uzņemšanas vieta netiek mainīta.</p>
+  <p>Mēness fāžu attēlā izmantotas ilustratīvas apgaismojuma maskas uz NASA fotogrāfijas. Zemes un Mēness kompozīcijas mērogs ir dekoratīvs. Saules attēls ir NASA/SDO attēls ultravioletajā joslā viltus krāsās. Šie attēli nav tiešraide vai izvēlētās pilsētas aktuāls novērojums.</p>
+  <div class="photo-catalog university-photo-catalog">
+  {% for artwork in site.data["category-photos"].artworks %}
+    <article id="category-photo-{{ artwork.id }}">
+      <img src="{{ artwork.svg }}" alt="{{ artwork.label | escape }}" width="320" height="260" loading="lazy">
+      <div>
+        <h3>{{ artwork.label | escape }}</h3>
+        <p>{{ artwork.changes | escape }}</p>
+        {% for source_id in artwork.sources %}
+          {% assign photo = site.data["category-photos"].sources | where: "id", source_id | first %}
+          <p><strong>{{ photo.author | escape }}</strong> · <a href="{{ photo.licenseUrl }}" target="_blank" rel="noopener">{{ photo.license | escape }}</a><br><a href="{{ photo.sourceUrl }}" target="_blank" rel="noopener">Avota lapa ↗</a> · <a href="{{ photo.originalUrl }}" target="_blank" rel="noopener">Oriģinālais attēls ↗</a></p>
+        {% endfor %}
+      </div>
+    </article>
+  {% endfor %}
+  </div>
+</section>
+</details>

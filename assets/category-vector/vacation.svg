@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 260" role="img" aria-labelledby="kv-vacation-title kv-vacation-description"><title id="kv-vacation-title">Atvaļinājuma plānotājs</title><desc id="kv-vacation-description">Kalendāram365 radīta oriģināla vektoru ilustrācija ar apjoma, gaismas un materiālu zīmējumu. Fotogrāfijas un pikseļu attēli nav izmantoti.</desc><defs>
+<linearGradient id="kv-vacation-paper" x1="0" y1="0" x2=".85" y2="1"><stop stop-color="#fffaf0"/><stop offset=".57" stop-color="#eee5d4"/><stop offset="1" stop-color="#b7ae9c"/></linearGradient>
+<linearGradient id="kv-vacation-wine" x1="0" y1="0" x2=".95" y2="1"><stop stop-color="#bf6a83"/><stop offset=".4" stop-color="#973f5a"/><stop offset="1" stop-color="#5d2036"/></linearGradient>
+<linearGradient id="kv-vacation-teal" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#8ec5b8"/><stop offset=".48" stop-color="#488c80"/><stop offset="1" stop-color="#24574f"/></linearGradient>
+<linearGradient id="kv-vacation-gold" x1="0" y1="0" x2=".8" y2="1"><stop stop-color="#fff2b7"/><stop offset=".22" stop-color="#d1aa5b"/><stop offset=".4" stop-color="#f1d68b"/><stop offset=".67" stop-color="#ad8439"/><stop offset="1" stop-color="#7b5b2c"/></linearGradient>
+<linearGradient id="kv-vacation-metal" x1="0" y1="0" x2="1" y2=".9"><stop stop-color="#fafdfb"/><stop offset=".2" stop-color="#c6d0d0"/><stop offset=".43" stop-color="#fbfcf3"/><stop offset=".6" stop-color="#9cabae"/><stop offset="1" stop-color="#4c636d"/></linearGradient>
+<linearGradient id="kv-vacation-ink" x1="0" y1="0" x2=".7" y2="1"><stop stop-color="#66747d"/><stop offset=".45" stop-color="#35424f"/><stop offset="1" stop-color="#17242f"/></linearGradient>
+<radialGradient id="kv-vacation-glass" cx="30%" cy="20%" r="85%"><stop stop-color="#fff" stop-opacity=".9"/><stop offset=".5" stop-color="#eaf5ed" stop-opacity=".3"/><stop offset="1" stop-color="#86a3ae" stop-opacity=".55"/></radialGradient>
+<filter id="kv-vacation-shadow" x="-35%" y="-35%" width="180%" height="190%"><feDropShadow dx="0" dy="6" stdDeviation="4" flood-color="#35262d" flood-opacity=".17"/></filter>
+<filter id="kv-vacation-soft" x="-50%" y="-100%" width="200%" height="300%"><feGaussianBlur stdDeviation="3.5"/></filter>
+</defs><ellipse cx="168" cy="230" rx="84" ry="7" fill="#473039" opacity=".15" filter="url(#kv-vacation-soft)"/><g filter="url(#kv-vacation-shadow)">
+ <path d="M135 64V39Q135 29 146 29H188Q198 29 198 40V65H188V42Q188 39 184 39H149Q145 39 145 43V65Z" fill="url(#kv-vacation-metal)"/>
+ <path d="M111 203V220Q111 228 119 228 128 228 128 220V204M202 209V223Q202 231 210 230 218 230 218 221V207" fill="url(#kv-vacation-ink)"/>
+ <path d="M105 64 129 53 232 62 208 74Z" fill="#8cb2a4"/>
+ <path d="M213 77 232 62Q242 62 242 76V188Q242 198 233 203L213 212Z" fill="#27564f"/>
+ <path d="M105 64 205 72Q216 73 216 85V199Q216 212 204 212L106 203Q95 202 95 190V77Q95 64 105 64Z" fill="url(#kv-vacation-teal)"/>
+ <path d="M108 69 203 77Q210 78 210 89V197Q210 204 202 205L107 197Q101 196 101 188V80Q101 71 108 69Z" fill="none" stroke="#b4d2c5" stroke-width="1.2" opacity=".55"/>
+ <path d="M215 85V198" stroke="#173e39" stroke-width="2"/>
+ <path d="M116 88V186" stroke="#133e39" stroke-width="6" opacity=".24" stroke-linecap="round"/><path d="M114 87V185" stroke="#cae0cc" stroke-width="1.3" opacity=".48" stroke-linecap="round"/><path d="M135 88V186" stroke="#133e39" stroke-width="6" opacity=".24" stroke-linecap="round"/><path d="M133 87V185" stroke="#cae0cc" stroke-width="1.3" opacity=".48" stroke-linecap="round"/><path d="M154 88V186" stroke="#133e39" stroke-width="6" opacity=".24" stroke-linecap="round"/><path d="M152 87V185" stroke="#cae0cc" stroke-width="1.3" opacity=".48" stroke-linecap="round"/><path d="M173 88V186" stroke="#133e39" stroke-width="6" opacity=".24" stroke-linecap="round"/><path d="M171 87V185" stroke="#cae0cc" stroke-width="1.3" opacity=".48" stroke-linecap="round"/><path d="M192 88V186" stroke="#133e39" stroke-width="6" opacity=".24" stroke-linecap="round"/><path d="M190 87V185" stroke="#cae0cc" stroke-width="1.3" opacity=".48" stroke-linecap="round"/>
+ <path d="M235 111Q240 111 240 117V147Q240 152 235 154L231 153V115Z" fill="url(#kv-vacation-ink)"/>
+ <path d="M151 74V83H164V75" fill="url(#kv-vacation-gold)"/>
+ <path d="M180 80Q171 94 177 111" fill="none" stroke="#b69a6e" stroke-width="2.2"/>
+ <g transform="rotate(8 181 133)"><rect x="167" y="110" width="32" height="45" rx="4" fill="url(#kv-vacation-paper)" stroke="#c3b28e"/><circle cx="183" cy="117" r="2.8" fill="#667b66"/><path d="M174 132H192M174 138H186" stroke="#9c8a70" stroke-width="1.5"/><path d="M174 145V151" stroke="#7f796e" stroke-width="1.6"/><path d="M178 145V151" stroke="#7f796e" stroke-width="1"/><path d="M181 145V151" stroke="#7f796e" stroke-width="1.6"/><path d="M185 145V151" stroke="#7f796e" stroke-width="1"/><path d="M189 145V151" stroke="#7f796e" stroke-width="1.6"/><path d="M192 145V151" stroke="#7f796e" stroke-width="1"/></g>
+ <ellipse cx="119" cy="221" rx="3" ry="5" fill="#85918d"/><ellipse cx="210" cy="224" rx="3" ry="5" fill="#85918d"/>
+ <path d="M130 57 228 65" fill="none" stroke="#d5e4d4" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" opacity="0.6"/>
+ </g></svg>

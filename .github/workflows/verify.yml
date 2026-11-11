@@ -27,11 +27,22 @@ jobs:
       - run: node test/frontend_test.cjs
       - run: node test/search.test.cjs
       - run: node test/hubs.test.cjs
+      - run: node test/school-experience.test.cjs
+      - run: node --test test/work-calendar.test.cjs
+      - run: node --test test/calendar-studio.test.mjs
+      - run: node --test test/category-photo-assets.test.cjs
+      - run: node --test test/category-experience.test.mjs
+      - run: node --test test/editorial-logic.test.mjs
+      - run: node --test test/category-advanced.test.mjs
+      - run: node --test test/useful-pages.test.mjs
+      - run: node --test test/garden-experience.test.cjs
       - run: node test/sky_test.mjs
       - run: node test/astronomy-reference.test.mjs
       - run: node test/celestial-media.test.mjs
       - run: node test/svg-art.test.cjs
       - run: node test/observations.test.mjs
+      - run: node --test test/location.test.mjs
+      - run: node test/city-switch.test.cjs
       - run: node test/horoscope-edge.test.mjs
       - run: node test/presentation.test.cjs
       - run: node test/planning_test.cjs
@@ -41,6 +52,9 @@ jobs:
       - run: node test/lunar-prints.test.mjs
       - run: node test/a3-gallery.test.cjs
       - run: node test/a3-month-gallery.test.cjs
+      - run: node --test test/calendar-collection.test.cjs
+      - run: node --test test/page-reading.test.mjs
+      - run: node --test test/blog.test.mjs
       - name: Verify Ruby calculations and built pages
         shell: bash
         run: |

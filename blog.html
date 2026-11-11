@@ -1,0 +1,22 @@
+---
+layout: default
+family: blog_index
+permalink: /blogs/
+title: 'Blogs: Latvijas kalendārs un ikdienas plāni'
+description: 'Praktiski raksti par Latvijas svētkiem, skolas un studiju kalendāriem, laika plānošanu, debesīm un dārzu. Autors Silvis Balodis.'
+reading_notes: false
+og_image: /assets/blog/riga-960.webp
+---
+{% assign journal = site.data.blog %}{% assign featured = journal.posts.first %}
+<div class="journal-shell">
+  <nav class="journal-breadcrumb" aria-label="Atrašanās vieta"><a href="/">Sākums</a><span aria-hidden="true">/</span><span>Blogs</span></nav>
+  <header class="journal-heading"><div><span class="journal-kicker"><span aria-hidden="true"></span> KALENDĀRA PIEZĪMES</span><h1>Vairāk skaidrības.<br><em>Vairāk laika sev.</em></h1><p>Latvijas datumi, ikdienas plāni un idejas, kuras vari izmantot uzreiz. Par svētkiem, debesīm un dārzu — ar praktiskiem piemēriem un avotiem.</p></div><a class="journal-editor" href="/par-projektu/#silvis-balodis"><span class="journal-avatar">SB</span><span><small>AUTORS UN VIETNES ĪPAŠNIEKS</small><strong>Silvis Balodis</strong><span>Iepazīsti Kalendāru365 ↗</span></span></a></header>
+
+  <section class="journal-library" aria-labelledby="journal-library-title" data-blog-library>
+    <div class="journal-library-heading"><div><span class="journal-kicker">IDEJAS TAVAM KALENDĀRAM</span><h2 id="journal-library-title">Atrodi sev noderīgo</h2></div><form role="search" class="journal-search" data-blog-search><label class="sr-only" for="journal-query">Meklēt bloga rakstos</label><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 5 5"/></svg><input id="journal-query" type="search" placeholder="Meklē tēmu, datumu vai ideju…" autocomplete="off" maxlength="150"><button type="submit">Meklēt</button></form></div>
+    <div class="journal-filter-row"><div class="journal-filters" role="group" aria-label="Rakstu tēmas">{% assign topics = 'Visi,Plānošana,Svētki,Debesis,Dārzs,Latvija' | split: ',' %}{% for topic in topics %}<button type="button" data-blog-topic="{{ topic }}" aria-pressed="{% if forloop.first %}true{% else %}false{% endif %}">{{ topic }}</button>{% endfor %}</div><p class="journal-result-count" role="status" aria-live="polite" data-blog-count>20 raksti</p></div>
+  <article class="journal-feature" data-blog-card data-category="{{ featured.category }}" data-title="{{ featured.title | escape }}" data-search="{{ featured.description | escape }}"><a class="journal-feature-image" href="{{ featured.url }}" aria-label="{{ featured.title | escape }}">{% include blog-photo.html photo=featured.photo sizes='(max-width: 800px) 100vw, 60vw' eager=true %}</a><div class="journal-feature-copy"><span class="journal-kicker">SĀC AR GADA PĀRSKATU</span><div class="journal-meta"><span>{{ featured.category }}</span><span>{{ featured.readingMinutes }} min lasīšanai</span></div><h2><a href="{{ featured.url }}">{{ featured.title }}</a></h2><p>{{ featured.description }}</p><a class="journal-solid-link" href="{{ featured.url }}">Lasīt rakstu <span aria-hidden="true">↗</span></a></div></article>
+    <div class="journal-grid">{% for post in journal.posts offset:1 %}{% include blog-card.html post=post %}{% endfor %}</div><div class="journal-empty" data-blog-empty hidden><h3>Šajā atlasē rakstu nav.</h3><p>Izmēģini īsāku vārdu vai apskati visas tēmas.</p><button type="button" data-blog-reset>Rādīt visus rakstus</button></div>
+  </section>
+  <aside class="journal-bottom-note"><span class="journal-avatar" aria-hidden="true">SB</span><div><h2>Lasāms skaidrojums. Praktisks nākamais solis.</h2><p>Rakstus sagatavo Silvis Balodis ar mākslīgā intelekta palīdzību. Datu avoti norādīti pie konkrētās tēmas; personīgie piemēri ir plānošanas ieteikumi. Uzzini, <a href="/par-projektu/">kā veidots projekts</a>.</p></div><a href="/blogs/feed.xml" class="journal-outline-link">RSS plūsma ↗</a></aside>
+</div>

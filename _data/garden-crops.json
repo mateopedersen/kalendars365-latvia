@@ -530,7 +530,11 @@
           ],
           "window": "Aprīlis–jūnijs",
           "condition": "Apžuvusi augsne; sējai izvēlas ražas mērķim atbilstošu šķirni.",
-          "datePrecision": "Orientējošs periods, nevis precīzs datums."
+          "datePrecision": "Orientējošs periods, nevis precīzs datums.",
+          "task": "sow",
+          "cultivation": [
+            "field"
+          ]
         }
       ],
       "calendarRefinements": [],
@@ -708,7 +712,11 @@
           ],
           "window": "Aprīlis–jūnijs",
           "condition": "Augsne vismaz 8–10 °C; sargā dīgstus no salnām.",
-          "datePrecision": "Orientējošs periods, nevis precīzs datums."
+          "datePrecision": "Orientējošs periods, nevis precīzs datums.",
+          "task": "sow",
+          "cultivation": [
+            "field"
+          ]
         }
       ],
       "calendarRefinements": [],
@@ -877,7 +885,11 @@
           ],
           "window": "Aprīļa sākums",
           "condition": "Sējai piemērota, apžuvusi augsne.",
-          "datePrecision": "Orientējošs periods, nevis precīzs datums."
+          "datePrecision": "Orientējošs periods, nevis precīzs datums.",
+          "task": "sow",
+          "cultivation": [
+            "field"
+          ]
         },
         {
           "kind": "Sēja rudens ražai",
@@ -886,7 +898,11 @@
           ],
           "window": "Augusta otrā puse",
           "condition": "Saglabā vienmērīgu mitrumu.",
-          "datePrecision": "Orientējošs periods, nevis precīzs datums."
+          "datePrecision": "Orientējošs periods, nevis precīzs datums.",
+          "task": "sow",
+          "cultivation": [
+            "field"
+          ]
         }
       ],
       "calendarRefinements": [],
@@ -1037,7 +1053,11 @@
           ],
           "window": "Marta vidus",
           "condition": "Audzē dēstus piemērotā gaismā un siltumā.",
-          "datePrecision": "Orientējošs periods, nevis precīzs datums."
+          "datePrecision": "Orientējošs periods, nevis precīzs datums.",
+          "task": "sow",
+          "cultivation": [
+            "seedlings"
+          ]
         },
         {
           "kind": "Dēstu izstādīšana",
@@ -1046,7 +1066,11 @@
           ],
           "window": "Maija otrā puse",
           "condition": "Izvērtē vietējos laikapstākļus.",
-          "datePrecision": "Orientējošs periods, nevis precīzs datums."
+          "datePrecision": "Orientējošs periods, nevis precīzs datums.",
+          "task": "plant",
+          "cultivation": [
+            "field"
+          ]
         }
       ],
       "calendarRefinements": [],
@@ -1205,7 +1229,11 @@
           ],
           "window": "Aprīlis",
           "condition": "No sēklas audzējamiem sīpoliem – apžuvusi, iesilusi augsne.",
-          "datePrecision": "Orientējošs periods, nevis precīzs datums."
+          "datePrecision": "Orientējošs periods, nevis precīzs datums.",
+          "task": "sow",
+          "cultivation": [
+            "field"
+          ]
         },
         {
           "kind": "Ģimenes sīpolu stādīšana",
@@ -1214,7 +1242,11 @@
           ],
           "window": "Maija pirmā dekāde",
           "condition": "Stāda ar sīpoliem, nevis pārnes sējas termiņu.",
-          "datePrecision": "Orientējošs periods, nevis precīzs datums."
+          "datePrecision": "Orientējošs periods, nevis precīzs datums.",
+          "task": "plant",
+          "cultivation": [
+            "field"
+          ]
         }
       ],
       "calendarRefinements": [],
@@ -1374,7 +1406,11 @@
           ],
           "window": "Pavasarī",
           "condition": "Tiklīdz augsne gatava apstrādei.",
-          "datePrecision": "Orientējošs periods, nevis precīzs datums."
+          "datePrecision": "Orientējošs periods, nevis precīzs datums.",
+          "task": "plant",
+          "cultivation": [
+            "field"
+          ]
         },
         {
           "kind": "Ziemas ķiploku stādīšana",
@@ -1383,7 +1419,11 @@
           ],
           "window": "Oktobra pirmā un otrā dekāde",
           "condition": "Izvērtē konkrētā rudens apstākļus.",
-          "datePrecision": "Orientējošs periods, nevis precīzs datums."
+          "datePrecision": "Orientējošs periods, nevis precīzs datums.",
+          "task": "plant",
+          "cultivation": [
+            "field"
+          ]
         }
       ],
       "calendarRefinements": [],
@@ -1402,7 +1442,7 @@
               "vaad-alliums"
             ],
             "precision": "Orientējoši; nav garantēts ikgadējs datums.",
-            "scope": "Atšķirīgi avoti un šķirnes dod atšķirīgu sezonas logu."
+            "scope": "Atšķirīgi avoti un šķirnes dod atšķirīgu sezonas logu. Raža no iepriekšējā rudenī stādītajiem ķiplokiem."
           },
           {
             "label": "Vasaras ķiploki: augusts–septembris",
@@ -1552,7 +1592,11 @@
           ],
           "window": "Maija otrā un trešā dekāde",
           "condition": "Izmanto apmēram 50–60 dienas audzētus dēstus.",
-          "datePrecision": "Orientējošs periods, nevis precīzs datums."
+          "datePrecision": "Orientējošs periods, nevis precīzs datums.",
+          "task": "plant",
+          "cultivation": [
+            "field"
+          ]
         }
       ],
       "calendarRefinements": [],
@@ -1712,7 +1756,11 @@
           ],
           "window": "Aprīļa sākums",
           "condition": "Augsne gatava sējai; svarīgs mitrums.",
-          "datePrecision": "Orientējošs periods, nevis precīzs datums."
+          "datePrecision": "Orientējošs periods, nevis precīzs datums.",
+          "task": "sow",
+          "cultivation": [
+            "field"
+          ]
         }
       ],
       "calendarRefinements": [],
@@ -1864,7 +1912,11 @@
           ],
           "window": "Maija otrā un trešā dekāde",
           "condition": "Augsne iesilusi līdz 10–12 °C; nepastāv salnu risks.",
-          "datePrecision": "Orientējošs periods, nevis precīzs datums."
+          "datePrecision": "Orientējošs periods, nevis precīzs datums.",
+          "task": "sow",
+          "cultivation": [
+            "field"
+          ]
         }
       ],
       "calendarRefinements": [],
@@ -2014,7 +2066,11 @@
           ],
           "window": "Maija otrā dekāde kā avota orientieris",
           "condition": "Siltumprasīgs augs; vietējais salnu risks un augsnes siltums jāvērtē pirms sējas.",
-          "datePrecision": "Orientējošs periods, nevis precīzs datums."
+          "datePrecision": "Orientējošs periods, nevis precīzs datums.",
+          "task": "sow",
+          "cultivation": [
+            "field"
+          ]
         }
       ],
       "calendarRefinements": [
@@ -2027,7 +2083,11 @@
           "sourceIds": [
             "vaad-cucurbits"
           ],
-          "precision": "Orientējošs periods; piemērotību nosaka faktiskie apstākļi."
+          "precision": "Orientējošs periods; piemērotību nosaka faktiskie apstākļi.",
+          "task": "sow",
+          "cultivation": [
+            "field"
+          ]
         },
         {
           "label": "Dēstu izstādīšana laukā",
@@ -2038,7 +2098,11 @@
           "sourceIds": [
             "vaad-cucurbits"
           ],
-          "precision": "Orientējošs periods; piemērotību nosaka faktiskie apstākļi."
+          "precision": "Orientējošs periods; piemērotību nosaka faktiskie apstākļi.",
+          "task": "plant",
+          "cultivation": [
+            "field"
+          ]
         }
       ],
       "soilAndTemperature": [
@@ -2197,7 +2261,12 @@
           ],
           "window": "Aprīlis",
           "condition": "Izvēlas agrīnai audzēšanai piemērotu šķirni.",
-          "datePrecision": "Orientējošs periods, nevis precīzs datums."
+          "datePrecision": "Orientējošs periods, nevis precīzs datums.",
+          "task": "sow",
+          "cultivation": [
+            "seedlings",
+            "greenhouse"
+          ]
         },
         {
           "kind": "Dēstu izstādīšana",
@@ -2206,10 +2275,79 @@
           ],
           "window": "No aprīļa vidus",
           "condition": "Vietējie apstākļi piemēroti; sargā no sala.",
-          "datePrecision": "Orientējošs periods, nevis precīzs datums."
+          "datePrecision": "Orientējošs periods, nevis precīzs datums.",
+          "task": "plant",
+          "cultivation": [
+            "field"
+          ]
         }
       ],
-      "calendarRefinements": [],
+      "calendarRefinements": [
+        {
+          "label": "Sēja apkurināmā siltumnīcā",
+          "task": "sow",
+          "months": [
+            1
+          ],
+          "window": "No janvāra ar papildapgaismojumu",
+          "condition": "Ziemas apritei vajadzīgs siltums un papildu gaisma; bez tās avots min marta sēju.",
+          "cultivation": [
+            "seedlings",
+            "greenhouse"
+          ],
+          "sourceIds": [
+            "vaad-leafy"
+          ]
+        },
+        {
+          "label": "Sēja neapkurināmā siltumnīcā",
+          "task": "sow",
+          "months": [
+            3
+          ],
+          "window": "No marta, kad piemēroti apstākļi",
+          "condition": "Dēstu sākumu pielāgo plānotajai izstādīšanai.",
+          "cultivation": [
+            "seedlings",
+            "greenhouse"
+          ],
+          "sourceIds": [
+            "vaad-leafy"
+          ]
+        },
+        {
+          "label": "Sēja siltumnīcas rudens apritei",
+          "task": "sow",
+          "months": [
+            8,
+            9
+          ],
+          "window": "Augusts–1. septembris",
+          "condition": "Atsevišķa rudens aprite, nevis vasaras sējas turpinājums.",
+          "cultivation": [
+            "seedlings",
+            "greenhouse"
+          ],
+          "sourceIds": [
+            "vaad-leafy"
+          ]
+        },
+        {
+          "label": "Dēstu izstādīšana siltumnīcā",
+          "task": "plant",
+          "months": [
+            9
+          ],
+          "window": "Septembris",
+          "condition": "Rudens/ziemas apritei ar piemērotiem apstākļiem segumā.",
+          "cultivation": [
+            "greenhouse"
+          ],
+          "sourceIds": [
+            "vaad-leafy"
+          ]
+        }
+      ],
       "soilAndTemperature": [],
       "harvest": {
         "readinessBasis": "Lapu vai galviņsalātu tips un šķirne",
@@ -2225,6 +2363,33 @@
             ],
             "precision": "Orientējoši; nav garantēts ikgadējs datums.",
             "scope": "Avota piemērs dēstiem, kas laukā izstādīti aprīļa vidū vai beigās; nav visu sējumu grafiks."
+          },
+          {
+            "label": "Siltumnīcas rudens aprite: oktobra beigas–novembra sākums",
+            "months": [
+              10,
+              11
+            ],
+            "cultivation": [
+              "greenhouse"
+            ],
+            "scope": "Attiecas uz avotā aprakstīto rudens sēju siltumnīcā.",
+            "sourceIds": [
+              "vaad-leafy"
+            ]
+          },
+          {
+            "label": "Vēlā siltumnīcas aprite: decembris",
+            "months": [
+              12
+            ],
+            "cultivation": [
+              "greenhouse"
+            ],
+            "scope": "Atsevišķa vēlās aprites iespēja piemērotā segumā, nevis lauka ražas solījums.",
+            "sourceIds": [
+              "vaad-leafy"
+            ]
           }
         ],
         "daysFromSowing": null
@@ -2237,7 +2402,8 @@
       "editorialFactNotes": [],
       "regionalGuidanceRef": "latvia-regions",
       "yearlyFrostGuardRef": "frost-guard",
-      "exactAnnualDate": null
+      "exactAnnualDate": null,
+      "calendarRefinementPolicy": "append"
     },
     {
       "id": "dilles",
@@ -2361,7 +2527,11 @@
           ],
           "window": "Aprīļa pirmā dekāde",
           "condition": "Apstrādāta augsne un vienmērīgs mitrums.",
-          "datePrecision": "Orientējošs periods, nevis precīzs datums."
+          "datePrecision": "Orientējošs periods, nevis precīzs datums.",
+          "task": "sow",
+          "cultivation": [
+            "field"
+          ]
         }
       ],
       "calendarRefinements": [],
@@ -2511,7 +2681,11 @@
           ],
           "window": "Aprīlis",
           "condition": "Augsne gatava sējai.",
-          "datePrecision": "Orientējošs periods, nevis precīzs datums."
+          "datePrecision": "Orientējošs periods, nevis precīzs datums.",
+          "task": "sow",
+          "cultivation": [
+            "field"
+          ]
         }
       ],
       "calendarRefinements": [
@@ -2525,7 +2699,11 @@
           "sourceIds": [
             "vaad-leafy"
           ],
-          "precision": "Orientējošs periods; piemērotību nosaka faktiskie apstākļi."
+          "precision": "Orientējošs periods; piemērotību nosaka faktiskie apstākļi.",
+          "task": "sow",
+          "cultivation": [
+            "field"
+          ]
         }
       ],
       "soilAndTemperature": [],
@@ -2543,7 +2721,8 @@
       "editorialFactNotes": [],
       "regionalGuidanceRef": "latvia-regions",
       "yearlyFrostGuardRef": "frost-guard",
-      "exactAnnualDate": null
+      "exactAnnualDate": null,
+      "calendarRefinementPolicy": "append"
     },
     {
       "id": "kartupeli",
@@ -2668,7 +2847,11 @@
           ],
           "window": "Aprīļa beigas–maijs",
           "condition": "Apstrādei gatava, iesilusi augsne; jāvērtē sadīgušo augu salnu risks.",
-          "datePrecision": "Orientējošs periods, nevis precīzs datums."
+          "datePrecision": "Orientējošs periods, nevis precīzs datums.",
+          "task": "plant",
+          "cultivation": [
+            "field"
+          ]
         }
       ],
       "calendarRefinements": [],
@@ -2822,7 +3005,12 @@
           ],
           "window": "Aprīlis",
           "condition": "Sēja neapkurinātā siltumnīcā, kad tajā ir piemēroti apstākļi.",
-          "datePrecision": "Orientējošs periods, nevis precīzs datums."
+          "datePrecision": "Orientējošs periods, nevis precīzs datums.",
+          "task": "sow",
+          "cultivation": [
+            "seedlings",
+            "greenhouse"
+          ]
         }
       ],
       "calendarRefinements": [],
@@ -2972,7 +3160,11 @@
           ],
           "window": "Apmēram 35–45 dienas pirms plānotās izstādīšanas",
           "condition": "Sējas laiku aprēķina no paredzētās vietas un apstākļiem.",
-          "datePrecision": "Orientējošs periods, nevis precīzs datums."
+          "datePrecision": "Orientējošs periods, nevis precīzs datums.",
+          "task": "sow",
+          "cultivation": [
+            "seedlings"
+          ]
         },
         {
           "kind": "Dēstu izstādīšana laukā",
@@ -2981,7 +3173,11 @@
           ],
           "window": "Jūnija sākums vai vidus",
           "condition": "Vairs nedraud salnas; augsne vismaz 14–15 °C.",
-          "datePrecision": "Orientējošs periods, nevis precīzs datums."
+          "datePrecision": "Orientējošs periods, nevis precīzs datums.",
+          "task": "plant",
+          "cultivation": [
+            "field"
+          ]
         }
       ],
       "calendarRefinements": [],

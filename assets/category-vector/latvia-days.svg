@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 260" role="img" aria-labelledby="kv-latvia-days-title kv-latvia-days-description"><title id="kv-latvia-days-title">Latvijas dienas</title><desc id="kv-latvia-days-description">Kalendāram365 radīta oriģināla vektoru ilustrācija ar apjoma, gaismas un materiālu zīmējumu. Fotogrāfijas un pikseļu attēli nav izmantoti.</desc><defs>
+<linearGradient id="kv-latvia-days-paper" x1="0" y1="0" x2=".85" y2="1"><stop stop-color="#fffaf0"/><stop offset=".57" stop-color="#eee5d4"/><stop offset="1" stop-color="#b7ae9c"/></linearGradient>
+<linearGradient id="kv-latvia-days-wine" x1="0" y1="0" x2=".95" y2="1"><stop stop-color="#bf6a83"/><stop offset=".4" stop-color="#973f5a"/><stop offset="1" stop-color="#5d2036"/></linearGradient>
+<linearGradient id="kv-latvia-days-teal" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#8ec5b8"/><stop offset=".48" stop-color="#488c80"/><stop offset="1" stop-color="#24574f"/></linearGradient>
+<linearGradient id="kv-latvia-days-gold" x1="0" y1="0" x2=".8" y2="1"><stop stop-color="#fff2b7"/><stop offset=".22" stop-color="#d1aa5b"/><stop offset=".4" stop-color="#f1d68b"/><stop offset=".67" stop-color="#ad8439"/><stop offset="1" stop-color="#7b5b2c"/></linearGradient>
+<linearGradient id="kv-latvia-days-metal" x1="0" y1="0" x2="1" y2=".9"><stop stop-color="#fafdfb"/><stop offset=".2" stop-color="#c6d0d0"/><stop offset=".43" stop-color="#fbfcf3"/><stop offset=".6" stop-color="#9cabae"/><stop offset="1" stop-color="#4c636d"/></linearGradient>
+<linearGradient id="kv-latvia-days-ink" x1="0" y1="0" x2=".7" y2="1"><stop stop-color="#66747d"/><stop offset=".45" stop-color="#35424f"/><stop offset="1" stop-color="#17242f"/></linearGradient>
+<radialGradient id="kv-latvia-days-glass" cx="30%" cy="20%" r="85%"><stop stop-color="#fff" stop-opacity=".9"/><stop offset=".5" stop-color="#eaf5ed" stop-opacity=".3"/><stop offset="1" stop-color="#86a3ae" stop-opacity=".55"/></radialGradient>
+<filter id="kv-latvia-days-shadow" x="-35%" y="-35%" width="180%" height="190%"><feDropShadow dx="0" dy="6" stdDeviation="4" flood-color="#35262d" flood-opacity=".17"/></filter>
+<filter id="kv-latvia-days-soft" x="-50%" y="-100%" width="200%" height="300%"><feGaussianBlur stdDeviation="3.5"/></filter>
+</defs><defs><linearGradient id="kv-latvia-days-flagfold" x1="0" x2="1"><stop stop-color="#fff" stop-opacity=".25"/><stop offset=".22" stop-color="#fff" stop-opacity=".05"/><stop offset=".47" stop-color="#180912" stop-opacity=".22"/><stop offset=".65" stop-color="#fff" stop-opacity=".14"/><stop offset="1" stop-color="#180912" stop-opacity=".12"/></linearGradient><clipPath id="kv-latvia-days-flagclip"><path d="M88 45C127 28 161 59 194 45C215 36 237 38 258 47V147C237 138 215 136 194 145C161 159 127 128 88 145Z"/></clipPath></defs><ellipse cx="151" cy="234" rx="106" ry="6" fill="#473039" opacity=".15" filter="url(#kv-latvia-days-soft)"/><g filter="url(#kv-latvia-days-shadow)">
+ <ellipse cx="86" cy="227" rx="32" ry="7" fill="url(#kv-latvia-days-metal)"/><path d="M80 211H91L96 225Q86 230 76 225Z" fill="url(#kv-latvia-days-metal)"/>
+ <rect x="82" y="30" width="8" height="191" rx="4" fill="url(#kv-latvia-days-metal)"/>
+ <circle cx="86" cy="27" r="8" fill="url(#kv-latvia-days-gold)"/>
+ <path d="M88 45C127 28 161 59 194 45C215 36 237 38 258 47V87C237 78 215 76 194 85C161 99 127 68 88 85Z" fill="#8b2b40"/><path d="M88 85C127 68 161 99 194 85C215 76 237 78 258 87V107C237 98 215 96 194 105C161 119 127 88 88 105Z" fill="#fcf9f2"/><path d="M88 105C127 88 161 119 194 105C215 96 237 98 258 107V147C237 138 215 136 194 145C161 159 127 128 88 145Z" fill="#8b2b40"/>
+ <rect x="88" y="23" width="172" height="140" fill="url(#kv-latvia-days-flagfold)" clip-path="url(#kv-latvia-days-flagclip)"/>
+ <path d="M89 47C127 31 161 61 194 47C215 38 237 40 257 49" fill="none" stroke="#d7a4ad" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" opacity="0.7"/>
+ <path d="M89 143C127 127 161 157 194 143C215 134 237 136 257 145" fill="none" stroke="#4a192a" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" opacity="0.5"/>
+ <path d="M91 46V144" stroke="#ede0c7" stroke-width="2" opacity=".6"/>
+ <circle cx="91" cy="52" r="2" fill="url(#kv-latvia-days-gold)"/><circle cx="91" cy="137" r="2" fill="url(#kv-latvia-days-gold)"/>
+ <path d="M84 39V208" fill="none" stroke="#fffef2" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" opacity="0.8"/>
+ </g></svg>

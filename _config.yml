@@ -4,11 +4,11 @@ baseurl: ''
 lang: lv
 locale: lv_LV
 timezone: Europe/Riga
-owner: Mateo Pedersen
+owner: Silvis Balodis
 email: kalendars365@gmail.com
 permalink: pretty
 markdown: kramdown
-exclude: [vendor, scripts, test, lib, docs, Gemfile, Gemfile.lock, README.md, STATUS.md, node_modules, package.json, package-lock.json, downloads/qa]
+exclude: [vendor, scripts, test, lib, docs, Gemfile, Gemfile.lock, README.md, STATUS.md, node_modules, package.json, package-lock.json, downloads/qa, assets/blog/sources]
 keep_files: []
 
 include: [_headers, _redirects]

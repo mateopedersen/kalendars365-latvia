@@ -1,24 +1,26 @@
 ---
 layout: default
-title: "Latvijas vietu un svētku fotogrāfijas: avoti un licences"
-description: Latvijas pilsētu, svētku un augstskolu fotogrāfijas ar autoriem, avota failiem un licencēm. Pārbaudi arī koordinātu un astronomisko aprēķinu avotus.
+title: "Fotogrāfijas un licences"
+description: Latvijas pilsētu, svētku un augstskolu, kā arī kultūraugu fotogrāfijas ar autoriem, avota failiem un licencēm.
 permalink: /pilsetas-un-fotografijas/
 family: city_photos
+useful: true
 ---
 <div class="page-shell">
   <nav class="breadcrumbs" aria-label="Atrašanās vieta"><a href="/">Sākums</a><span>/</span><span>Fotogrāfijas un licences</span></nav>
   <header class="page-heading">
-    <div class="page-heading-copy"><span class="eyebrow">LATVIJA · AVOTI UN ATTĒLI</span><h1><span class="page-heading-mark" aria-hidden="true"><svg class="icon"><use href="#i-image"/></svg></span>Latvijas vietu un svētku fotogrāfijas</h1><p class="page-heading-deck">Īstas Latvijas pilsētu, svētku un augstskolu fotogrāfijas ar pārbaudāmiem avotiem un attēlu licencēm.</p></div>
+    <div class="page-heading-copy"><span class="eyebrow">LATVIJA · AVOTI UN ATTĒLI</span><h1><span class="page-heading-mark" aria-hidden="true"><svg class="icon"><use href="#i-image"/></svg></span>Fotogrāfijas un licences</h1><p class="page-heading-deck">Latvijas pilsētu, svētku un augstskolu attēli, kultūraugu fotogrāfijas un astronomijas attēlu avoti.</p></div>
     {% assign hero_city = site.data.cities.cities | first %}{% assign hero_photo = hero_city.photo %}
     <figure class="page-heading-art photo-license-hero-art"><img src="{{ hero_photo.src }}" alt="" width="{{ hero_photo.width }}" height="{{ hero_photo.height }}" fetchpriority="high"><figcaption class="page-heading-art-chip">{{ hero_city.name }} · foto</figcaption></figure>
   </header>
 
-  <section class="content-card" id="astronomijas-fotografijas"><span class="eyebrow">NASA · APOLLO · ARTEMIS</span><h2>Īsti Mēness un Zemes attēli</h2><p>Gadu vākiem un astronomijas saskarnes ilustrācijām izmantotas vēsturiskas NASA misiju fotogrāfijas. Fotogrāfijas nav attiecīgā nākotnes gada vai izvēlētās pilsētas novērojumi. Dienas fāzes attēlo atsevišķs astronomisks modelis ar LRO virsmas fotomozaīku.</p><div class="astronomy-photo-license-grid">{% for photo in site.data.astronomy-photos.photos %}<figure><img src="{{ photo.src }}" alt="{{ photo.alt }}" width="{{ photo.width }}" height="{{ photo.height }}" loading="lazy"><figcaption><strong>{{ photo.credit }}</strong><p>{{ photo.alt }}</p><a href="{{ photo.source }}">Oriģinālā attēla avots</a> · <a href="{{ photo.rightsUrl }}">NASA izmantošanas noteikumi</a><p>Vietnes kopija ir samazināta; disku ilustrācijas ir izgrieztas no atbilstošā oriģināla. NASA neapstiprina un nereklamē šo vietni.</p></figcaption></figure>{% endfor %}</div></section>
+  <section class="content-card" id="astronomijas-fotografijas"><span class="eyebrow">NASA · APOLLO · ARTEMIS</span><h2>Īsti Mēness un Zemes attēli</h2><p>Gadu vākiem izmantotas vēsturiskas NASA misiju fotogrāfijas. Saskarnes kategoriju ilustrācijas tagad ir oriģināli vektoru zīmējumi. Fotogrāfijas nav attiecīgā nākotnes gada vai izvēlētās pilsētas novērojumi. Dienas fāzes attēlo atsevišķs astronomisks modelis ar LRO virsmas fotomozaīku.</p><div class="astronomy-photo-license-grid">{% for photo in site.data.astronomy-photos.photos %}<figure><img src="{{ photo.src }}" alt="{{ photo.alt }}" width="{{ photo.width }}" height="{{ photo.height }}" loading="lazy"><figcaption><strong>{{ photo.credit }}</strong><p>{{ photo.alt }}</p><a href="{{ photo.source }}">Oriģinālā attēla avots</a> · <a href="{{ photo.rightsUrl }}">NASA izmantošanas noteikumi</a><p>Vietnes kopija ir samazināta; disku ilustrācijas ir izgrieztas no atbilstošā oriģināla. NASA neapstiprina un nereklamē šo vietni.</p></figcaption></figure>{% endfor %}</div></section>
   <section class="content-card" id="meness-drukas-atteli"><h2>Mēness kalendāru drukas attēli</h2><p>PDF un attēlu veidnēs izmantota NASA Scientific Visualization Studio <a href="https://svs.gsfc.nasa.gov/4720/">CGI Moon Kit LROC virsmas krāsu karte</a> (2019. gada izlaidums, 4096 × 2048 pikseļi). Karte veidota no Lunar Reconnaissance Orbiter kameru datiem. Katrai dienai aprēķināts savs Saules apgaismojums un Mēness pagrieziens; šīs ir aprēķinātas ilustrācijas, nevis nākotnē uzņemtas fotogrāfijas. Attēlojums ir ģeocentrisks, ar debess ziemeļiem augšā, plkst. 12.00 pēc Latvijas laika. Avota attēla pielāgošana: sfēriska projekcija, apgaismojums un drukas makets. Kredīts: NASA’s Scientific Visualization Studio / LRO / LROC. <a href="https://www.nasa.gov/nasa-brand-center/images-and-media/">NASA attēlu izmantošanas noteikumi</a>; NASA neapstiprina un nereklamē šo vietni.</p></section>
   <nav class="photo-license-nav" aria-label="Fotogrāfiju katalogs">
     <a href="#pilsetas-fotografijas">82 pilsētas <span>autori un licences</span></a>
     <a href="#svetku-fotografijas">Latvijas svētki <span>42 atšķirīgi foto</span></a>
     <a href="#augstskolu-fotografijas">Augstskolas <span>9 licencēti foto</span></a>
+    <a href="#garden-photos">Dārzeņu kultūras <span>16 īstas fotogrāfijas</span></a><a href="#category-vectors">Kategoriju ilustrācijas <span>oriģināli vektoru zīmējumi</span></a>
   </nav>
 
   <section class="content-card" id="pilsetas-fotografijas">
@@ -32,7 +34,7 @@ family: city_photos
     {% for city in site.data.cities.cities %}
     <article id="{{ city.id }}">
       <img src="{{ city.photo.src }}" srcset="{{ city.photo.srcset }}" sizes="(max-width: 700px) 94vw, (max-width: 900px) 44vw, 31vw" alt="{{ city.photo.alt | escape }}" width="{{ city.photo.width }}" height="{{ city.photo.height }}" loading="lazy">
-      <div><h2><a href="/saullekts-saulriets/{{ city.id }}/">{{ city.name }}</a></h2><p>{{ city.photo.author | escape }} · <a href="{{ city.photo.licenseUrl | escape }}">{{ city.photo.license | escape }}</a></p><p><a href="{{ city.photo.sourceUrl | escape }}">Avota fotogrāfija Wikimedia Commons</a> · <a href="{{ city.photo.src }}">Attēla kopija</a></p><small>{{ city.lat }}, {{ city.lon }} · {{ city.timeZone }} · <a href="{{ city.coordinateSource }}">Koordinātu avots</a></small></div>
+      <div><h2><a href="/saullekts-saulriets/{{ city.id }}/">{{ city.name }}</a></h2><p>{{ city.photo.creditLv | default: city.photo.author | escape }} · <a href="{{ city.photo.licenseUrl | escape }}">{{ city.photo.license | escape }}</a></p><p><a href="{{ city.photo.sourceUrl | escape }}">Avota fotogrāfija Wikimedia Commons</a> · <a href="{{ city.photo.src }}">Attēla kopija</a></p><small>{{ city.lat }}, {{ city.lon }} · {{ city.timeZone }} · <a href="{{ city.coordinateSource }}">Koordinātu avots</a></small></div>
     </article>
     {% endfor %}
   </div>
@@ -86,3 +88,11 @@ family: city_photos
     <p class="fineprint">Deviņām augstskolām ir publicēts attēls ar pārbaudāmu Commons licenci. LKA un NAA fotogrāfijas pašlaik netiek kopētas: oficiālas fotogrāfijas atrašana pati par sevi nepiešķir tiesības to pārpublicēt. Ja tiek saņemta atļauja vai atrasts atvērts avota fails, šīs kartītes var papildināt.</p>
   </section>
 </div>
+{% include garden-photo-credits.html %}
+
+{% include category-vector-credits.html %}
+{% include category-photo-credits.html %}
+
+{% include useful-license-tools.html %}
+
+{% include blog-photo-credits.html %}

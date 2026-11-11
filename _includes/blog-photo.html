@@ -1,0 +1,1 @@
+<img src="{{ include.photo.src }}" srcset="{{ include.photo.srcset }}" sizes="{{ include.sizes | default: '(max-width: 700px) 100vw, 540px' }}" width="{{ include.photo.width }}" height="{{ include.photo.height }}" alt="{{ include.photo.alt | escape }}" {% if include.eager %}loading="eager" fetchpriority="high"{% else %}loading="lazy"{% endif %} decoding="async">

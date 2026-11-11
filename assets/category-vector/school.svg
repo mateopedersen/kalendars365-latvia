@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 260" role="img" aria-labelledby="kv-school-title kv-school-description"><title id="kv-school-title">Skola un mācības</title><desc id="kv-school-description">Kalendāram365 radīta oriģināla vektoru ilustrācija ar apjoma, gaismas un materiālu zīmējumu. Fotogrāfijas un pikseļu attēli nav izmantoti.</desc><defs>
+<linearGradient id="kv-school-paper" x1="0" y1="0" x2=".85" y2="1"><stop stop-color="#fffaf0"/><stop offset=".57" stop-color="#eee5d4"/><stop offset="1" stop-color="#b7ae9c"/></linearGradient>
+<linearGradient id="kv-school-wine" x1="0" y1="0" x2=".95" y2="1"><stop stop-color="#bf6a83"/><stop offset=".4" stop-color="#973f5a"/><stop offset="1" stop-color="#5d2036"/></linearGradient>
+<linearGradient id="kv-school-teal" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#8ec5b8"/><stop offset=".48" stop-color="#488c80"/><stop offset="1" stop-color="#24574f"/></linearGradient>
+<linearGradient id="kv-school-gold" x1="0" y1="0" x2=".8" y2="1"><stop stop-color="#fff2b7"/><stop offset=".22" stop-color="#d1aa5b"/><stop offset=".4" stop-color="#f1d68b"/><stop offset=".67" stop-color="#ad8439"/><stop offset="1" stop-color="#7b5b2c"/></linearGradient>
+<linearGradient id="kv-school-metal" x1="0" y1="0" x2="1" y2=".9"><stop stop-color="#fafdfb"/><stop offset=".2" stop-color="#c6d0d0"/><stop offset=".43" stop-color="#fbfcf3"/><stop offset=".6" stop-color="#9cabae"/><stop offset="1" stop-color="#4c636d"/></linearGradient>
+<linearGradient id="kv-school-ink" x1="0" y1="0" x2=".7" y2="1"><stop stop-color="#66747d"/><stop offset=".45" stop-color="#35424f"/><stop offset="1" stop-color="#17242f"/></linearGradient>
+<radialGradient id="kv-school-glass" cx="30%" cy="20%" r="85%"><stop stop-color="#fff" stop-opacity=".9"/><stop offset=".5" stop-color="#eaf5ed" stop-opacity=".3"/><stop offset="1" stop-color="#86a3ae" stop-opacity=".55"/></radialGradient>
+<filter id="kv-school-shadow" x="-35%" y="-35%" width="180%" height="190%"><feDropShadow dx="0" dy="6" stdDeviation="4" flood-color="#35262d" flood-opacity=".17"/></filter>
+<filter id="kv-school-soft" x="-50%" y="-100%" width="200%" height="300%"><feGaussianBlur stdDeviation="3.5"/></filter>
+</defs><ellipse cx="162" cy="227" rx="104" ry="10" fill="#49343d" opacity=".16" filter="url(#kv-school-soft)"/>
+ <g transform="rotate(16 263 120)" filter="url(#kv-school-shadow)"><path d="M257 47Q263 41 269 47L271 182L264 207L257 183Z" fill="url(#kv-school-gold)"/><path d="M257 47L262 45L264 182L257 183Z" fill="#e8c67e"/><path d="M263 46L267 47L271 182L266 185Z" fill="#bd8a40"/><path d="M257 182L271 182L264 207Z" fill="#dfc7a0"/><path d="M262 199L264 207L267 199Z" fill="#3b3840"/><path d="M257 49L269 49L269 63L257 63Z" fill="#c58b9d"/><path d="M257 63H269V71H257Z" fill="url(#kv-school-metal)"/></g>
+ <g filter="url(#kv-school-shadow)">
+ <path d="M36 69Q92 47 155 72Q206 42 262 58L269 201Q220 201 160 226Q111 205 46 216Z" fill="url(#kv-school-wine)"/>
+ <path d="M40 61Q94 47 155 72Q207 42 259 57L262 198Q214 197 160 221Q109 202 48 209Z" fill="#c3bdaf"/>
+ <path d="M42 57Q96 44 155 69Q207 40 256 54L258 193Q208 192 159 214Q108 194 48 202Z" fill="url(#kv-school-paper)" stroke="#c2baac" stroke-width=".8"/>
+ <path d="M46 48Q98 40 155 67L158 208Q105 184 53 193Z" fill="#fffaf0"/>
+ <path d="M155 67Q207 36 252 45L254 186Q206 181 158 208Z" fill="#f4ecd9"/>
+ <path d="M155 67L158 208" fill="none" stroke="#b9ac94" stroke-width="4" opacity=".4"/>
+ <path d="M158 68Q206 39 250 47" fill="none" stroke="#fffdf6" stroke-width="2"/>
+ <path d="M49 51Q99 43 152 68" fill="none" stroke="#fff" stroke-width="2"/>
+ <path d="M226 45L237 44L239 139L232 133L226 142Z" fill="url(#kv-school-wine)"/><path d="M229 46L231 46L232 132" stroke="#df9fb1" stroke-width=".8"/>
+ <path d="M59 84Q103 82 143 100" fill="none" stroke="#b8b0a1" stroke-width="1.4" stroke-linecap="round" opacity=".75"/><path d="M59.6 103Q103 101 143 119" fill="none" stroke="#b8b0a1" stroke-width="1.4" stroke-linecap="round" opacity=".75"/><path d="M60.2 122Q103 120 143 138" fill="none" stroke="#b8b0a1" stroke-width="1.4" stroke-linecap="round" opacity=".75"/><path d="M60.8 141Q103 139 143 157" fill="none" stroke="#b8b0a1" stroke-width="1.4" stroke-linecap="round" opacity=".75"/><path d="M61.4 160Q103 158 143 176" fill="none" stroke="#b8b0a1" stroke-width="1.4" stroke-linecap="round" opacity=".75"/>
+ <path d="M172 94Q208 76 239 76" fill="none" stroke="#beb19a" stroke-width="1.4" stroke-linecap="round" opacity=".75"/><path d="M172 113Q208 95 239.5 95" fill="none" stroke="#beb19a" stroke-width="1.4" stroke-linecap="round" opacity=".75"/><path d="M172 132Q208 114 240 114" fill="none" stroke="#beb19a" stroke-width="1.4" stroke-linecap="round" opacity=".75"/><path d="M172 151Q208 133 240.5 133" fill="none" stroke="#beb19a" stroke-width="1.4" stroke-linecap="round" opacity=".75"/><path d="M172 170Q208 152 241 152" fill="none" stroke="#beb19a" stroke-width="1.4" stroke-linecap="round" opacity=".75"/>
+ <path d="M52 197Q108 190 157 214Q208 190 258 194M50 203Q109 196 158 219Q211 197 261 200" fill="none" stroke="#e7ddca" stroke-width="1"/>
+ </g></svg>

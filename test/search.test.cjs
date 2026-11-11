@@ -6,6 +6,13 @@ assert.equal(S.dateIntent('31.02.2028',2026),null);assert.equal(S.dateIntent('18
 assert.equal(S.search(idx,'zzzzqqqqq').total,0);assert.equal(S.search(idx,'').total,0);
 for(const q of ['2027','2028 februaris','2029 PDF','2030 meness'])for(const r of S.search(idx,q).results)assert((r.title+' '+r.url).includes(q.match(/20\d{2}/)[0]),q);
 const names=JSON.parse(fs.readFileSync('assets/calendar-data.json')).names;
-for(const n of names)assert(S.search(idx,n.name,{limit:5}).results.some(r=>r.title===n.name),n.name);
+const indexedNames=new Set(idx.filter(r=>r.kind==='Vārda diena').map(r=>r.title));
+for(const n of names)assert(indexedNames.has(n.name),'Missing indexed name: '+n.name);
+const samples=names.filter((n,i)=>i%71===0||['Jānis','Janis','Emīlija','Olivers','Daniēls'].includes(n.name));
+for(const n of samples)assert(S.search(idx,n.name,{limit:5}).results.some(r=>r.title===n.name),n.name);
+assert.equal(S.search(idx,'Janis').results[0].title,'Janis','A distinct exact spelling precedes accent-folded alternatives');
 assert.equal(S.token('maiņu'),'mainu');assert.equal(S.token('mēneša'),'menesa');
-console.log(`Search: ${cases.length} ranked intents, ${names.length} names, strict years, dates, typos and diacritics passed.`);
+console.log(`Search: ${cases.length} ranked intents, ${names.length} indexed names, ${samples.length} distributed name queries, strict years, dates, typos and diacritics passed.`);
+
+assert(S.search(idx,'saullēkts Rīga').results.some(r=>r.family==='blog_article'),'Useful guides remain discoverable below the city tool');
+assert.equal(S.search(idx,'Kāpēc saullēkts Rīgā un Liepājā nav vienā laikā').results[0].family,'blog_article');

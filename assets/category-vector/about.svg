@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 260" role="img" aria-labelledby="kv-about-title kv-about-description"><title id="kv-about-title">Par projektu</title><desc id="kv-about-description">Kalendāram365 radīta oriģināla vektoru ilustrācija ar apjoma, gaismas un materiālu zīmējumu. Fotogrāfijas un pikseļu attēli nav izmantoti.</desc><defs>
+<linearGradient id="kv-about-paper" x1="0" y1="0" x2=".85" y2="1"><stop stop-color="#fffaf0"/><stop offset=".57" stop-color="#eee5d4"/><stop offset="1" stop-color="#b7ae9c"/></linearGradient>
+<linearGradient id="kv-about-wine" x1="0" y1="0" x2=".95" y2="1"><stop stop-color="#bf6a83"/><stop offset=".4" stop-color="#973f5a"/><stop offset="1" stop-color="#5d2036"/></linearGradient>
+<linearGradient id="kv-about-teal" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#8ec5b8"/><stop offset=".48" stop-color="#488c80"/><stop offset="1" stop-color="#24574f"/></linearGradient>
+<linearGradient id="kv-about-gold" x1="0" y1="0" x2=".8" y2="1"><stop stop-color="#fff2b7"/><stop offset=".22" stop-color="#d1aa5b"/><stop offset=".4" stop-color="#f1d68b"/><stop offset=".67" stop-color="#ad8439"/><stop offset="1" stop-color="#7b5b2c"/></linearGradient>
+<linearGradient id="kv-about-metal" x1="0" y1="0" x2="1" y2=".9"><stop stop-color="#fafdfb"/><stop offset=".2" stop-color="#c6d0d0"/><stop offset=".43" stop-color="#fbfcf3"/><stop offset=".6" stop-color="#9cabae"/><stop offset="1" stop-color="#4c636d"/></linearGradient>
+<linearGradient id="kv-about-ink" x1="0" y1="0" x2=".7" y2="1"><stop stop-color="#66747d"/><stop offset=".45" stop-color="#35424f"/><stop offset="1" stop-color="#17242f"/></linearGradient>
+<radialGradient id="kv-about-glass" cx="30%" cy="20%" r="85%"><stop stop-color="#fff" stop-opacity=".9"/><stop offset=".5" stop-color="#eaf5ed" stop-opacity=".3"/><stop offset="1" stop-color="#86a3ae" stop-opacity=".55"/></radialGradient>
+<filter id="kv-about-shadow" x="-35%" y="-35%" width="180%" height="190%"><feDropShadow dx="0" dy="6" stdDeviation="4" flood-color="#35262d" flood-opacity=".17"/></filter>
+<filter id="kv-about-soft" x="-50%" y="-100%" width="200%" height="300%"><feGaussianBlur stdDeviation="3.5"/></filter>
+</defs><ellipse cx="163" cy="230" rx="103" ry="8" fill="#473039" opacity=".15" filter="url(#kv-about-soft)"/><g filter="url(#kv-about-shadow)">
+ <path d="M69 68 215 55Q224 54 225 63L238 203Q239 211 229 212L82 224Q73 225 72 216L60 80Q59 70 69 68Z" fill="url(#kv-about-wine)"/>
+ <path d="M79 75 212 64 223 197 89 209Z" fill="#d8c9ad"/>
+ <path d="M75 72 209 62 220 194 86 207Z" fill="url(#kv-about-paper)"/>
+ <path d="M89 195 216 185M88 200 217 190" fill="none" stroke="#bdac92" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" opacity="0.65"/>
+ <g transform="rotate(-5 151 132)"><rect x="79" y="88" width="147" height="99" rx="10" fill="#c3b096" transform="translate(3 4)"/><rect x="79" y="88" width="147" height="99" rx="10" fill="url(#kv-about-paper)" stroke="#dbc9af"/>
+ <circle cx="119" cy="130" r="24" fill="url(#kv-about-teal)"/><circle cx="119" cy="123" r="8" fill="url(#kv-about-paper)"/><path d="M104 142C104 126 134 126 134 142Z" fill="url(#kv-about-paper)"/>
+ <path d="M157 112H209M157 123H199M157 144H208M157 154H191" stroke="#a08581" stroke-width="3" stroke-linecap="round"/>
+ <rect x="95" y="168" width="42" height="4" rx="2" fill="#af7883"/>
+ <circle cx="209" cy="169" r="5" fill="url(#kv-about-gold)"/></g>
+ <g transform="rotate(17 245 132)"><path d="M238 62Q246 58 252 63V190L245 218 238 190Z" fill="url(#kv-about-ink)"/><path d="M238 185H252L245 216Z" fill="url(#kv-about-gold)"/><path d="M243 203 245 217 247 203Z" fill="#323039"/><rect x="238" y="91" width="14" height="6" fill="url(#kv-about-gold)"/><path d="M241 64V176" stroke="#b7b5ac" stroke-width="1.5" opacity=".65"/><path d="M251 68H256V111" fill="none" stroke="url(#kv-about-gold)" stroke-width="3" stroke-linecap="round"/></g>
+ </g></svg>

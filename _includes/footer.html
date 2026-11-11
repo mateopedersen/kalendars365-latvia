@@ -1,5 +1,39 @@
-<footer class="site-footer"><div class="footer-top"><div class="footer-intro"><a class="brand" href="/" aria-label="Kalendārs365 sākumlapa"><span class="brand-mark">{% include brand-mark.html id="footer-brand" %}</span><span>Kalendārs<span class="brand-number">365</span></span></a><p>Latvijas kalendāri, svētki un ikdienas plāni. Atrodi laiku tam, kas tev svarīgs.</p></div><nav aria-label="Kalendāri"><h2>Kalendāri</h2><a href="/kalendars/">Gada un mēneša kalendāri</a><a href="/svetku-dienas/">Latvijas svētku dienas</a><a href="/meness-kalendars/">Mēness kalendārs</a><a href="/varda-dienas/">Vārda dienas</a></nav><nav aria-label="Plānošanas rīki"><h2>Plānošanas rīki</h2><a href="/saullekts-saulriets/">Saullēkts un saulriets</a><a href="/datumu-kalkulators/">Datumu kalkulators</a><a href="/atvalinajuma-planotajs/">Atvaļinājuma plānotājs</a><a href="/gimenes-kalendars/">Ģimenes kalendārs</a></nav><nav aria-label="Par projektu"><h2>Par Kalendāru365</h2><a href="/par-projektu/">Par projektu</a><a href="/avoti-un-metodika/">Avoti un metodika</a><a href="/pilsetas-un-fotografijas/">Fotogrāfijas un licences</a><a href="/privatuma-politika/">Privātuma politika</a><a href="/kontakti/">Sazinies ar mums</a><button class="text-button" data-action="consent">Sīkdatņu izvēle</button></nav></div><div class="footer-bottom"><small>© <span data-current-year>2026</span> Kalendārs365</small><span>Tavi notikumi un piezīmes paliek šajā ierīcē.</span></div></footer>
+<footer id="site-footer" class="site-footer footer-redesign">
+  <div class="footer-shell">
+    <div class="footer-welcome">
+      <div class="footer-story">
+        <a class="brand" href="/" aria-label="Kalendārs365 sākumlapa"><span class="brand-mark">{% include brand-mark.html id="footer-brand" %}</span><span>Kalendārs<span class="brand-number">365</span></span></a>
+        <p class="footer-tagline">Laiks tam, kas tev svarīgs.</p>
+        <p class="footer-description">Latvijas kalendāri, svētki un rīki pārdomātai ikdienai. Atrodi savu datumu, ieplāno atpūtu vai izveido ko personīgu.</p>
+      </div>
+      <a class="footer-create" href="/izveidot-kalendaru/">
+        <span class="footer-create-art" aria-hidden="true"><img src="/assets/category-vector/planner.svg?v={{ site.data.build.asset_version }}" width="320" height="260" alt="" loading="lazy"></span>
+        <span class="footer-create-copy"><small>TAVS LAIKS. TAVS STILS.</small><strong>Izveido savu kalendāru</strong><span>Tavas fotogrāfijas, krāsas un svarīgie datumi.</span><b>Atvērt veidotāju <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></b></span>
+      </a>
+    </div>
+    <nav class="footer-years" aria-label="Gada kalendāri no 2027. līdz 2030. gadam">
+      <div class="footer-years-heading"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><rect x="3" y="5" width="18" height="16" rx="3"/><path d="M7 3v4m10-4v4M3 10h18m-13 4h.01M12 14h.01M16 14h.01M8 17h.01M12 17h.01"/></svg><span>Atrodi savu gadu</span></div>
+      <div class="footer-year-links">{% assign footer_years = '2027,2028,2029,2030' | split: ',' %}{% for footer_year in footer_years %}<a href="/kalendars/{{ footer_year }}/">{{ footer_year }}<svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"/></svg></a>{% endfor %}</div>
+      <a class="footer-all-tools" href="/visi-riki/">Visi rīki <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></a>
+    </nav>
+    <div class="footer-directory">
+      {% for group in site.data.footer.groups %}<nav class="footer-link-group" aria-labelledby="footer-group-{{ forloop.index }}">
+        <h2 id="footer-group-{{ forloop.index }}"><span class="footer-category-art" aria-hidden="true"><img src="/assets/category-vector/{{ group.icon }}.svg?v={{ site.data.build.asset_version }}" alt="" width="320" height="260" loading="lazy"></span>{{ group.title }}</h2>
+        <ul>{% for link in group.links %}<li><a href="{{ link.url }}"{% if page.url == link.url %} aria-current="page"{% endif %}>{{ link.title }}<svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"/></svg></a></li>{% endfor %}</ul>
+      </nav>{% endfor %}
+    </div>
+    <div class="footer-about-row">
+      <div class="footer-local-note"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><rect x="5" y="10" width="14" height="11" rx="3"/><path d="M8 10V7a4 4 0 0 1 8 0v3m-4 5v2"/></svg><span>Tavi personīgie plāni paliek šajā ierīcē.</span></div>
+      <nav class="footer-about-links" aria-label="Par vietni">{% for link in site.data.footer.about %}<a href="{{ link.url }}">{{ link.title }}</a>{% endfor %}</nav>
+    </div>
+    <div class="footer-legal-row">
+      <small>© <span data-current-year>{{ site.time | date: '%Y' }}</span> Kalendārs365</small>
+      <nav class="footer-legal-links" aria-label="Privātums un piekļūstamība"><a href="/privatuma-politika/">Privātums</a><a href="/pieklustamiba/">Piekļūstamība</a><button type="button" class="text-button" data-action="consent"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M4 7h16M4 17h16"/><circle cx="9" cy="7" r="3"/><circle cx="15" cy="17" r="3"/></svg>Sīkdatņu izvēle</button></nav>
+      <a class="footer-back-top" href="#main">Uz augšu <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 19V5m-6 6 6-6 6 6"/></svg></a>
+    </div>
+  </div>
+</footer>
 <div id="toast" role="status" aria-live="polite" hidden></div>
 <dialog id="universal-dialog" aria-labelledby="dialog-title"><div class="dialog-heading"><h2 id="dialog-title"></h2><button class="icon-button" data-action="close-dialog" aria-label="Aizvērt">×</button></div><div id="dialog-content"></div></dialog>
 <input type="file" id="ics-file" accept=".ics,text/calendar" hidden><input type="file" id="backup-file" accept=".json,application/json" hidden>
-<aside class="consent-banner" id="consent-banner" aria-label="Sīkdatņu izvēle" hidden><div><strong>Jūsu plāni paliek jūsu ierīcē.</strong><p>Izmantojam tikai vietējo krātuvi kalendāram un izvēlēm. Analītikas vai reklāmas izsekotāju nav. <a href="/sikdatnu-politika/">Uzzināt vairāk</a></p></div><div class="actions"><button data-consent="necessary">Tikai nepieciešamās</button><button class="primary" data-consent="all">Pieņemt</button><button data-action="consent">Pārvaldīt</button></div></aside>
+{% include consent-banner.html %}

@@ -1,0 +1,460 @@
+{
+  "posts": [
+    {
+      "order": 1,
+      "slug": "latvijas-svetku-dienas-2027-planosana",
+      "title": "Latvijas svētku dienas 2027. gadā: kā plānot gadu",
+      "category": "Svētki",
+      "photoKey": "flag",
+      "description": "2027. gada svētku datumi, atceres dienu atšķirības un pārskatāms gada plāns Latvijas ikdienai.",
+      "related": [
+        "/svetku-dienas/2027/",
+        "/kalendars/2027/",
+        "/atvalinajuma-planotajs/"
+      ],
+      "sourceIds": [
+        "holidays",
+        "labor"
+      ],
+      "author": "Silvis Balodis",
+      "date": "2026-11-11",
+      "editorial": {
+        "aiAssisted": true,
+        "nativeEditorReviewed": false
+      }
+    },
+    {
+      "order": 2,
+      "slug": "iso-nedelu-numuri-kalendara",
+      "title": "ISO nedēļu numuri: kā nepazaudēt datumu gadu mijā",
+      "category": "Plānošana",
+      "photoKey": "monthly",
+      "description": "Nedēļu numerācijas skaidrojums ar 2027.–2030. gada robežu piemēriem un praktisku lietojumu darbā un mācībās.",
+      "related": [
+        "/nedelu-numuri/",
+        "/nedelas-kalendars/2027/"
+      ],
+      "sourceIds": [
+        "iso",
+        "usno-calendar"
+      ],
+      "author": "Silvis Balodis",
+      "date": "2026-11-11",
+      "editorial": {
+        "aiAssisted": true,
+        "nativeEditorReviewed": false
+      }
+    },
+    {
+      "order": 3,
+      "slug": "garais-gads-2028-februaris",
+      "title": "2028. gada 29. februāris: ko maina garais gads",
+      "category": "Plānošana",
+      "photoKey": "clock",
+      "description": "Papildu februāra diena, datumu starpības un atkārtojošos notikumu pārbaude 2028. gada plānā.",
+      "related": [
+        "/garais-gads/",
+        "/kalendars/2028/februaris/",
+        "/datumu-kalkulators/"
+      ],
+      "sourceIds": [
+        "leap",
+        "usno-calendar"
+      ],
+      "author": "Silvis Balodis",
+      "date": "2026-11-11",
+      "editorial": {
+        "aiAssisted": true,
+        "nativeEditorReviewed": false
+      }
+    },
+    {
+      "order": 4,
+      "slug": "ligo-un-jani-planosana-latvija",
+      "title": "Līgo un Jāņi: svētku datumi un pārdomāts vasaras plāns",
+      "category": "Svētki",
+      "photoKey": "ligo",
+      "description": "23. un 24. jūnija nozīme Latvijas kalendārā, atšķirība no astronomiskajiem saulgriežiem un gatavošanās svētkiem.",
+      "related": [
+        "/svetki-un-tradicijas/ligo-diena/",
+        "/svetki-un-tradicijas/janu-diena/",
+        "/saullekts-saulriets/"
+      ],
+      "sourceIds": [
+        "holidays",
+        "latvia-culture",
+        "latvia-food"
+      ],
+      "author": "Silvis Balodis",
+      "date": "2026-11-11",
+      "editorial": {
+        "aiAssisted": true,
+        "nativeEditorReviewed": false
+      }
+    },
+    {
+      "order": 5,
+      "slug": "lieldienas-2027-datumi-un-plani",
+      "title": "Lieldienas 2027. gadā: datumi, brīvdienas un ģimenes plāns",
+      "category": "Svētki",
+      "photoKey": "easter",
+      "description": "Lieldienu datumu noteikšana, 2027. gada marta brīvdienas un konkrēts sagatavošanās pārskats.",
+      "related": [
+        "/svetki-un-tradicijas/lieldienas/",
+        "/svetku-dienas/2027/marts/"
+      ],
+      "sourceIds": [
+        "holidays",
+        "usno-calendar",
+        "school"
+      ],
+      "author": "Silvis Balodis",
+      "date": "2026-11-11",
+      "editorial": {
+        "aiAssisted": true,
+        "nativeEditorReviewed": false
+      }
+    },
+    {
+      "order": 6,
+      "slug": "varda-dienas-tradicionalais-paplasinatais-saraksts",
+      "title": "Vārda dienas: kā atšķirt tradicionālo un paplašināto sarakstu",
+      "category": "Svētki",
+      "photoKey": "flowers",
+      "description": "Precīza vārda meklēšana, sarakstu versijas un personisks apsveikumu kalendārs bez datumu minēšanas.",
+      "related": [
+        "/varda-dienas/",
+        "/kalendars-ar-vardu/"
+      ],
+      "sourceIds": [
+        "vvc",
+        "vvc-data"
+      ],
+      "author": "Silvis Balodis",
+      "date": "2026-11-11",
+      "editorial": {
+        "aiAssisted": true,
+        "nativeEditorReviewed": false
+      }
+    },
+    {
+      "order": 7,
+      "slug": "skolas-brivlaiki-2027-gimenes-plans",
+      "title": "Skolas brīvlaiki 2027. gadā: ko pārbaudīt ģimenes kalendārā",
+      "category": "Plānošana",
+      "photoKey": "school",
+      "description": "Publicētie 2026./2027. mācību gada termiņi, klašu atšķirības un ģimenes prombūtnes plānošana.",
+      "related": [
+        "/skolas-brivlaiki/",
+        "/valsts-parbaudes-darbi/",
+        "/gimenes-kalendars/"
+      ],
+      "sourceIds": [
+        "school",
+        "school-law",
+        "exams"
+      ],
+      "author": "Silvis Balodis",
+      "date": "2026-11-11",
+      "editorial": {
+        "aiAssisted": true,
+        "nativeEditorReviewed": false
+      }
+    },
+    {
+      "order": 8,
+      "slug": "studiju-kalendars-sesija-un-brivlaiks",
+      "title": "Studiju kalendārs: lekcijas, sesija un īsts brīvlaiks",
+      "category": "Plānošana",
+      "photoKey": "university",
+      "description": "Kā lasīt Latvijas augstskolas akadēmisko kalendāru un salīdzināt to ar savas programmas pienākumiem.",
+      "related": [
+        "/studiju-kalendars/",
+        "/stundu-saraksts/"
+      ],
+      "sourceIds": [
+        "lu",
+        "rtu",
+        "aika"
+      ],
+      "author": "Silvis Balodis",
+      "date": "2026-11-11",
+      "editorial": {
+        "aiAssisted": true,
+        "nativeEditorReviewed": false
+      }
+    },
+    {
+      "order": 9,
+      "slug": "gimenes-kalendars-nedelas-planosana",
+      "title": "Ģimenes nedēļas kalendārs: mazāk pārpratumu, skaidrāki plāni",
+      "category": "Plānošana",
+      "photoKey": "family",
+      "description": "Praktiska vienas nedēļas plānošana ar atbildīgajiem, pārvietošanās laiku un privātu ierakstu pārvaldību.",
+      "related": [
+        "/gimenes-kalendars/",
+        "/dienas-planotajs/",
+        "/privatuma-politika/"
+      ],
+      "sourceIds": [
+        "school"
+      ],
+      "author": "Silvis Balodis",
+      "date": "2026-11-11",
+      "editorial": {
+        "aiAssisted": true,
+        "nativeEditorReviewed": false
+      }
+    },
+    {
+      "order": 10,
+      "slug": "darba-dienas-un-stundas-ka-skaitit",
+      "title": "Darba dienas un stundas: kā saprast kalendāra aprēķinu",
+      "category": "Plānošana",
+      "photoKey": "calculator",
+      "description": "Darba nedēļas modelis, svētku datumi, saīsinājumi un robežas, kurās kalendārs palīdz darba plānam.",
+      "related": [
+        "/darba-dienu-kalendars/",
+        "/darba-laika-kalendars/",
+        "/mainu-grafiks/"
+      ],
+      "sourceIds": [
+        "labor",
+        "holidays"
+      ],
+      "author": "Silvis Balodis",
+      "date": "2026-11-11",
+      "editorial": {
+        "aiAssisted": true,
+        "nativeEditorReviewed": false
+      }
+    },
+    {
+      "order": 11,
+      "slug": "atvalinajums-2027-garas-brivdienas",
+      "title": "Atvaļinājums 2027. gadā: kā salīdzināt garās brīvdienas",
+      "category": "Plānošana",
+      "photoKey": "jurmala",
+      "description": "Konkrēti 2027. gada intervālu piemēri un atšķirība starp atpūtas ilgumu un vajadzīgajām darba dienām.",
+      "related": [
+        "/atvalinajuma-planotajs/",
+        "/garas-brivdienas/2027/",
+        "/svetku-dienas/2027/"
+      ],
+      "sourceIds": [
+        "holidays",
+        "labor"
+      ],
+      "author": "Silvis Balodis",
+      "date": "2026-11-11",
+      "editorial": {
+        "aiAssisted": true,
+        "nativeEditorReviewed": false
+      }
+    },
+    {
+      "order": 12,
+      "slug": "personigs-kalendars-fotografijas-druka",
+      "title": "Personīgs kalendārs ar fotogrāfijām: no ieceres līdz izdrukai",
+      "category": "Plānošana",
+      "photoKey": "burgundy-planner",
+      "description": "Fotogrāfiju atlase, lasāms noformējums, PDF un attēla izvēle un drukas priekšskatījuma pārbaude.",
+      "related": [
+        "/izveidot-kalendaru/",
+        "/pdf-kalendari/",
+        "/pilsetas-un-fotografijas/"
+      ],
+      "sourceIds": [
+        "commons-license"
+      ],
+      "author": "Silvis Balodis",
+      "date": "2026-11-11",
+      "editorial": {
+        "aiAssisted": true,
+        "nativeEditorReviewed": false
+      }
+    },
+    {
+      "order": 13,
+      "slug": "saullekts-saulriets-latvijas-pilsetas",
+      "title": "Kāpēc saullēkts Rīgā un Liepājā nav vienā laikā",
+      "category": "Debesis",
+      "photoKey": "riga",
+      "description": "Viena Latvijas laika josla, atšķirīgas koordinātas un skaidrojums, kā izmantot Saules laikus ikdienā.",
+      "related": [
+        "/saullekts-saulriets/",
+        "/dienas-garums/"
+      ],
+      "sourceIds": [
+        "usno-day",
+        "usno-rise"
+      ],
+      "author": "Silvis Balodis",
+      "date": "2026-11-11",
+      "editorial": {
+        "aiAssisted": true,
+        "nativeEditorReviewed": false
+      }
+    },
+    {
+      "order": 14,
+      "slug": "meness-fazes-un-vietejais-laiks",
+      "title": "Mēness fāzes Latvijas laikā: brīdis, attēls un redzamība",
+      "category": "Debesis",
+      "photoKey": "moon",
+      "description": "Jaunmēness, pilnmēness un ceturkšņi, vietējā datuma nozīme un dienas attēlu atskaites laiks.",
+      "related": [
+        "/meness-kalendars/",
+        "/meness-fazes/",
+        "/meness-lekts-un-riets/"
+      ],
+      "sourceIds": [
+        "moon-phases",
+        "moon-nasa",
+        "usno-day"
+      ],
+      "author": "Silvis Balodis",
+      "date": "2026-11-11",
+      "editorial": {
+        "aiAssisted": true,
+        "nativeEditorReviewed": false
+      }
+    },
+    {
+      "order": 15,
+      "slug": "zelta-stunda-latvija-fotoplanosana",
+      "title": "Zeltainā stunda Latvijā: kā ieplānot fotografēšanas vakaru",
+      "category": "Debesis",
+      "photoKey": "summer",
+      "description": "Saules augstums, vietējais horizonts, krēsla un vienkāršs fotografēšanas plāns ar pārbaudāmiem laikiem.",
+      "related": [
+        "/saullekts-saulriets/",
+        "/gadalaiki/"
+      ],
+      "sourceIds": [
+        "usno-rise",
+        "usno-day"
+      ],
+      "author": "Silvis Balodis",
+      "date": "2026-11-11",
+      "editorial": {
+        "aiAssisted": true,
+        "nativeEditorReviewed": false
+      }
+    },
+    {
+      "order": 16,
+      "slug": "perseidas-latvija-noverojumu-plans",
+      "title": "Perseīdas Latvijā: kā izvēlēties novērojumu nakti",
+      "category": "Debesis",
+      "photoKey": "perseids",
+      "description": "Meteoru plūsmas sezona, Mēness gaisma, vietas izvēle un godīgs novērojuma plāns bez garantēta meteoru skaita.",
+      "related": [
+        "/perseidas/",
+        "/meness-kalendars/",
+        "/saullekts-saulriets/"
+      ],
+      "sourceIds": [
+        "perseids",
+        "meteor-facts",
+        "swift-tuttle"
+      ],
+      "author": "Silvis Balodis",
+      "date": "2026-11-11",
+      "editorial": {
+        "aiAssisted": true,
+        "nativeEditorReviewed": false
+      }
+    },
+    {
+      "order": 17,
+      "slug": "pavasara-seja-latvija-darza-plans",
+      "title": "Pavasara sēja Latvijā: plāns pēc augsnes, ne tikai datuma",
+      "category": "Dārzs",
+      "photoKey": "carrots",
+      "description": "Atklāta lauka un siltumnīcas atšķirības, sējas orientieri un lietderīgs personīgais dārza pieraksts.",
+      "related": [
+        "/sejas-kalendars/",
+        "/sejas-kalendars/menesis/aprilis/"
+      ],
+      "sourceIds": [
+        "garden-april",
+        "garden-guide"
+      ],
+      "author": "Silvis Balodis",
+      "date": "2026-11-11",
+      "editorial": {
+        "aiAssisted": true,
+        "nativeEditorReviewed": false
+      }
+    },
+    {
+      "order": 18,
+      "slug": "tomatu-seja-un-izstadisana-latvija",
+      "title": "Tomātu sēja un izstādīšana Latvijā: kā veidot savu grafiku",
+      "category": "Dārzs",
+      "photoKey": "tomatoes",
+      "description": "Šķirne, dēsti, audzēšanas vieta un salnu pārbaude vienā tomātu sezonas plānā.",
+      "related": [
+        "/sejas-kalendars/tomati/",
+        "/sejas-kalendars/"
+      ],
+      "sourceIds": [
+        "tomato-guide",
+        "garden-april"
+      ],
+      "author": "Silvis Balodis",
+      "date": "2026-11-11",
+      "editorial": {
+        "aiAssisted": true,
+        "nativeEditorReviewed": false
+      }
+    },
+    {
+      "order": 19,
+      "slug": "rudens-latvija-gadalaiki-un-izbraucieni",
+      "title": "Rudens Latvijā: gadalaiku robežas un pārdomāts izbrauciens",
+      "category": "Latvija",
+      "photoKey": "autumn",
+      "description": "Ekvinokcija, mainīgi dabas apstākļi un īsāka diena kā atšķirīgi atskaites punkti rudens nedēļas nogales plānam.",
+      "related": [
+        "/gadalaiki/",
+        "/svetki-un-tradicijas/mikeli/",
+        "/dienas-garums/"
+      ],
+      "sourceIds": [
+        "seasons"
+      ],
+      "author": "Silvis Balodis",
+      "date": "2026-11-11",
+      "editorial": {
+        "aiAssisted": true,
+        "nativeEditorReviewed": false
+      }
+    },
+    {
+      "order": 20,
+      "slug": "ziemas-dienas-garums-latvija",
+      "title": "Īsās ziemas dienas Latvijā: kā ieplānot gaišo laiku",
+      "category": "Latvija",
+      "photoKey": "winter",
+      "description": "Saullēkts, saulriets, krēsla un astronomiskie saulgrieži praktiskā Latvijas ziemas dienas plānā.",
+      "related": [
+        "/dienas-garums/",
+        "/saullekts-saulriets/",
+        "/gadalaiki/"
+      ],
+      "sourceIds": [
+        "usno-day",
+        "seasons",
+        "solstice-light"
+      ],
+      "author": "Silvis Balodis",
+      "date": "2026-11-11",
+      "editorial": {
+        "aiAssisted": true,
+        "nativeEditorReviewed": false
+      }
+    }
+  ]
+}

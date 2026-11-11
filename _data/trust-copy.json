@@ -56,7 +56,7 @@
     "backup": "Pirms pārlūka datu dzēšanas vai ierīces maiņas saglabā dublējumu. Dublējuma failā ir tavi personīgie ieraksti.",
     "photos": "Izvēlētais personīgais fotoattēls tiek izmantots kalendāra faila sagatavošanai tavā ierīcē.",
     "hosting": "Vietni piegādā Cloudflare. Vietnes pieprasījumu apstrādei tiek izmantota arī tehniskā informācija, piemēram, IP adrese.",
-    "email": "Nosūtot e-pastu uz kalendars365@gmail.com, ziņa tiek apstrādāta e-pasta pakalpojumā. Projekta uzturētājs ir Mateo Pedersen.",
+    "email": "Nosūtot e-pastu uz kalendars365@gmail.com, ziņa tiek apstrādāta e-pasta pakalpojumā. Projekta uzturētājs ir Silvis Balodis.",
     "implementationNote": "Review these snippets against the final deployed architecture. New weather or other remote services may require their own truthful data-flow disclosure. Do not publish a claim of zero server-side data processing."
   },
   "astronomySourceNote": "Aprēķins attiecas uz izvēlētās pilsētas centra koordinātām un standarta horizontu. Reljefs un atmosfēra var mainīt novēroto laiku. Laiks parādīts Latvijas laika joslā.",

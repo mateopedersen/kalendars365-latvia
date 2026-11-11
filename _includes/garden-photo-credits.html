@@ -1,0 +1,18 @@
+{% assign garden_photos = site.data["garden-photos"].photos %}
+<section class="city-photo-credits page-shell" id="garden-photos">
+  <h2>Dārzeņu un garšaugu fotogrāfijas</h2>
+  <p>Kultūraugu ilustrējošas fotogrāfijas. To uzņemšanas vieta nenosaka Latvijas audzēšanas periodus. Attēli ir samazināti un pārveidoti WebP formātā ar baltu ietvaru.</p>
+  <div class="photo-catalog university-photo-catalog">
+    {% for photo in garden_photos %}
+    <article id="garden-photo-{{ photo.cropId }}">
+      <img src="{{ photo.src }}" alt="{{ photo.alt | escape }}" width="320" height="240" loading="lazy">
+      <div>
+        <h3>{{ photo.alt | escape }}</h3>
+        <p>{{ photo.author | escape }} · <a href="{% if photo.licenseUrl != '' %}{{ photo.licenseUrl }}{% else %}https://creativecommons.org/publicdomain/mark/1.0/{% endif %}" target="_blank" rel="noopener">{{ photo.license | escape }}</a></p>
+        <p>{{ photo.changes | escape }}</p>
+        <p><a href="{{ photo.sourceUrl }}" target="_blank" rel="noopener">Oriģinālā avota lapa ↗</a> · <a href="{{ photo.originalUrl }}" target="_blank" rel="noopener">Avota pilnais attēls ↗</a></p>
+      </div>
+    </article>
+    {% endfor %}
+  </div>
+</section>

@@ -1,0 +1,10 @@
+{% assign reading_catalog = site.data['page-guides'] %}{% assign reading = reading_catalog.pages[page.url] %}
+{% if reading %}<section class="page-reading" aria-labelledby="page-reading-title" data-page-reading>
+  <div class="page-reading-inner">
+    <header class="page-reading-heading"><span class="page-reading-art" aria-hidden="true"><img src="/assets/category-vector/{{ reading.icon }}.svg?v={{ site.data.build.asset_version }}" width="320" height="260" alt="" loading="lazy"></span><span class="eyebrow">NODERĪGI ZINĀT</span><h2 id="page-reading-title">{{ reading.heading | escape }}</h2></header>
+    <div class="page-reading-copy">{% for paragraph in reading.paragraphs %}<p>{{ paragraph | escape }}</p>{% endfor %}
+      {% if reading.related.size > 0 %}<nav class="page-reading-related" aria-label="Saistītie skaidrojumi">{% for link in reading.related %}<a href="{{ link.url | escape }}">{{ link.title | escape }}<svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></a>{% endfor %}</nav>{% endif %}
+      {% if reading.sources.size > 0 %}<div class="page-reading-sources"><strong>Avoti un pārbaude</strong><ul>{% for link in reading.sources %}<li><a href="{{ link.url | escape }}">{{ link.title | escape }}</a></li>{% endfor %}</ul></div>{% endif %}
+    </div>
+  </div>
+</section>{% endif %}

@@ -24,6 +24,14 @@ The repository's GitHub Actions workflow independently builds and tests Linux. A
 
 Visitor events, notes, tasks and uploaded photos stay in the browser. JSON backups are user-controlled. No user-event database or account synchronization is provisioned. Keep the privacy copy aligned with any future analytics, advertising or server feature.
 
+## Visitor city personalization
+
+`/api/atrasanas-vieta/` reads Cloudflare `request.cf` city/country/coordinates/timezone, without forwarding or returning the visitor's IP. Never publicly cache this response: all browser/CDN cache headers use `no-store`. Latvian names resolve to the site's 82 canonical cities; unknown Latvian settlements use the nearest supported city within 75 km. Foreign cities need valid coordinates, country and IANA timezone; their coordinates are rounded to two decimals. Weather requests use those rounded coordinates through our own endpoint. Foreign places use an Earth illustration rather than an unrelated city photograph, and the Latvia-only observation panel is hidden.
+
+An explicit `kalendars365.city` browser preference wins over automatic lookup, including a late IP response. Automatic detections are not stored as permanent manual preferences. The “Pēc IP” control returns to automatic mode. Missing IP metadata, VPN inaccuracies, blocked storage or a failed endpoint leave a clearly disclosed Riga fallback with manual selection available. Browser GPS permissions are not requested.
+
+Static localhost cannot supply real Cloudflare geolocation. For a local API preview run `node scripts/preview-location.mjs --port 4000`; it honestly reports unavailable IP metadata. Named local fixtures are available only through the development server, for example `--port 4002 --fixture jurmala` and `--port 4003 --fixture new-york`. They are test scenarios, not verified real visitor locations. Production has no query-string fixture override. Revalidate actual IP selection on the Cloudflare deployment when publication is authorized.
+
 ## Production release and latest UI steering
 
 - Verified production HTTPS: https://kalendars365.lv/ (2026-10-22); Cloudflare custom domain is Active with SSL enabled.

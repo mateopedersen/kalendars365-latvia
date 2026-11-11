@@ -1,0 +1,815 @@
+{
+  "version": 1,
+  "sources": [
+    {
+      "id": "ring-planner",
+      "file": "/assets/category-photos/sources/ring-planner.jpg",
+      "sourceSha256": "20e9babedc325a4f527c092f52817a57cbb379a6b3490f36db7d36e148784b9b",
+      "sourceKind": "retrieved thumbnail",
+      "author": "Old Photo Profile",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Personal_organizer_with_metallic_ring_binder.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/56/Personal_organizer_with_metallic_ring_binder.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "downloadedFrom": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/Personal_organizer_with_metallic_ring_binder.jpg/960px-Personal_organizer_with_metallic_ring_binder.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "commonsFile": "Personal organizer with metallic ring binder.jpg",
+      "visualReview": {
+        "date": "2026-11-10",
+        "sourceSha256": "20e9babedc325a4f527c092f52817a57cbb379a6b3490f36db7d36e148784b9b",
+        "observation": "Atvērta plānotāja lapas ar līnijām un metāla gredzeniem."
+      }
+    },
+    {
+      "id": "burgundy-planner",
+      "file": "/assets/category-photos/sources/burgundy-planner.jpg",
+      "sourceSha256": "a9455838001f88bc180078f721fab60d4c5de9fb672079b1f4d64307c13253d4",
+      "sourceKind": "retrieved thumbnail",
+      "author": "Philippe Alès",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Agenda_et_crayon.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Agenda_et_crayon.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "downloadedFrom": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Agenda_et_crayon.jpg/960px-Agenda_et_crayon.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "commonsFile": "Agenda et crayon.jpg",
+      "visualReview": {
+        "date": "2026-11-10",
+        "sourceSha256": "a9455838001f88bc180078f721fab60d4c5de9fb672079b1f4d64307c13253d4",
+        "observation": "Bordo plānotājs ar dzeltenu zīmuli."
+      }
+    },
+    {
+      "id": "desk-tools",
+      "file": "/assets/category-photos/sources/desk-tools.png",
+      "sourceSha256": "83b26adff3ed7e91abf33b7dd6f443f751a10650df4f6fc083ea642c9606ae93",
+      "sourceKind": "retrieved thumbnail",
+      "author": "Rorybowman (talk)",
+      "license": "Public domain",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:FranklinPlanner.png",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0c/FranklinPlanner.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "downloadedFrom": "https://upload.wikimedia.org/wikipedia/commons/0/0c/FranklinPlanner.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "commonsFile": "FranklinPlanner.png",
+      "visualReview": {
+        "date": "2026-11-10",
+        "sourceSha256": "83b26adff3ed7e91abf33b7dd6f443f751a10650df4f6fc083ea642c9606ae93",
+        "observation": "Atvērts personīgais plānotājs, piezīmju lapas un pildspalva."
+      }
+    },
+    {
+      "id": "clock",
+      "file": "/assets/category-photos/sources/clock.jpg",
+      "sourceSha256": "15129857e0caa1cff61ac028a1e7362e23c6d882aaa956ee31e96af752b7a4ea",
+      "sourceKind": "retrieved thumbnail",
+      "author": "Shixart1985",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Close-up_of_a_woman_holding_an_alarm_clock.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/11/Close-up_of_a_woman_holding_an_alarm_clock.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "downloadedFrom": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Close-up_of_a_woman_holding_an_alarm_clock.jpg/960px-Close-up_of_a_woman_holding_an_alarm_clock.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "commonsFile": "Close-up of a woman holding an alarm clock.jpg",
+      "visualReview": {
+        "date": "2026-11-10",
+        "sourceSha256": "15129857e0caa1cff61ac028a1e7362e23c6d882aaa956ee31e96af752b7a4ea",
+        "observation": "Rokā turēts mehānisks modinātājpulkstenis virs darba galda."
+      }
+    },
+    {
+      "id": "monthly",
+      "file": "/assets/category-photos/sources/monthly.jpg",
+      "sourceSha256": "02848387617ddcd9c2b07ead7d8aec76ec580475299e97c723aacbf9014a8382",
+      "sourceKind": "retrieved thumbnail",
+      "author": "Eric Rothermel erothermel",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Monthly_schedule_(Unsplash).jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Monthly_schedule_%28Unsplash%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "downloadedFrom": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Monthly_schedule_%28Unsplash%29.jpg/960px-Monthly_schedule_%28Unsplash%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "commonsFile": "Monthly schedule (Unsplash).jpg",
+      "visualReview": {
+        "date": "2026-11-10",
+        "sourceSha256": "02848387617ddcd9c2b07ead7d8aec76ec580475299e97c723aacbf9014a8382",
+        "observation": "Atvērts papīra mēneša kalendārs ar rokraksta piezīmēm."
+      }
+    },
+    {
+      "id": "weekly",
+      "file": "/assets/category-photos/sources/weekly.jpg",
+      "sourceSha256": "fd9e589ea981bbf45536e58fc6a52430872ff3a2e09c963a6b6e6beeea6d9ace",
+      "sourceKind": "retrieved thumbnail",
+      "author": "Giulia Bertelli unpeusauvage",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Giulia_Bertelli_2016_(Unsplash).jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Giulia_Bertelli_2016_%28Unsplash%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "downloadedFrom": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/Giulia_Bertelli_2016_%28Unsplash%29.jpg/960px-Giulia_Bertelli_2016_%28Unsplash%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "commonsFile": "Giulia Bertelli 2016 (Unsplash).jpg",
+      "visualReview": {
+        "date": "2026-11-10",
+        "sourceSha256": "fd9e589ea981bbf45536e58fc6a52430872ff3a2e09c963a6b6e6beeea6d9ace",
+        "observation": "Atvērts plānotājs, zīmulis, klaviatūra un adījums uz koka galda."
+      }
+    },
+    {
+      "id": "sun",
+      "file": "/assets/category-photos/sources/sun.jpg",
+      "sourceSha256": "f5cb5f168142f9e53e1b373326a36e233910337e4f9c422cbce0328c8771a17b",
+      "sourceKind": "retrieved thumbnail",
+      "author": "NASA/SDO (AIA)",
+      "license": "Public domain",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_Sun_by_the_Atmospheric_Imaging_Assembly_of_NASA%27s_Solar_Dynamics_Observatory_-_20100819-02.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/25/The_Sun_by_the_Atmospheric_Imaging_Assembly_of_NASA%27s_Solar_Dynamics_Observatory_-_20100819-02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "downloadedFrom": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/The_Sun_by_the_Atmospheric_Imaging_Assembly_of_NASA%27s_Solar_Dynamics_Observatory_-_20100819-02.jpg/960px-The_Sun_by_the_Atmospheric_Imaging_Assembly_of_NASA%27s_Solar_Dynamics_Observatory_-_20100819-02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "commonsFile": "The Sun by the Atmospheric Imaging Assembly of NASA's Solar Dynamics Observatory - 20100819-02.jpg",
+      "visualReview": {
+        "date": "2026-11-10",
+        "sourceSha256": "f5cb5f168142f9e53e1b373326a36e233910337e4f9c422cbce0328c8771a17b",
+        "observation": "NASA/SDO AIA Saules uzņēmums 304 Å ultravioletajā joslā; viltus krāsu attēls."
+      }
+    },
+    {
+      "id": "flowers",
+      "file": "/assets/category-photos/sources/flowers.jpg",
+      "sourceSha256": "d8409360634e146312a234a04ed30ea57a004724be3e6c50de591407cee22f7b",
+      "sourceKind": "retrieved thumbnail",
+      "author": "George Chernilevsky",
+      "license": "Public domain",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Poppies_bouquet_2017_G1.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/74/Poppies_bouquet_2017_G1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "downloadedFrom": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Poppies_bouquet_2017_G1.jpg/960px-Poppies_bouquet_2017_G1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "commonsFile": "Poppies bouquet 2017 G1.jpg",
+      "visualReview": {
+        "date": "2026-11-10",
+        "sourceSha256": "d8409360634e146312a234a04ed30ea57a004724be3e6c50de591407cee22f7b",
+        "observation": "Sarkanas magones stikla vāzē."
+      }
+    },
+    {
+      "id": "autumn",
+      "file": "/assets/category-photos/sources/autumn.jpg",
+      "sourceSha256": "3a6b636d39638f5dce31074f8ccce690134f25cd69210bcb2a2c519486cdd76b",
+      "sourceKind": "retrieved thumbnail",
+      "author": "Toomas Tsamoot",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hiking_trail_on_the_bank_of_river_Gauja_near_Sigulda_-_panoramio.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Hiking_trail_on_the_bank_of_river_Gauja_near_Sigulda_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "downloadedFrom": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/Hiking_trail_on_the_bank_of_river_Gauja_near_Sigulda_-_panoramio.jpg/960px-Hiking_trail_on_the_bank_of_river_Gauja_near_Sigulda_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "commonsFile": "Hiking trail on the bank of river Gauja near Sigulda - panoramio.jpg",
+      "visualReview": {
+        "date": "2026-11-10",
+        "sourceSha256": "3a6b636d39638f5dce31074f8ccce690134f25cd69210bcb2a2c519486cdd76b",
+        "observation": "Brūnām lapām klāta taka un kaili koki pie Gaujas rudenī."
+      }
+    },
+    {
+      "id": "flag",
+      "file": "/assets/category-photos/sources/flag.jpg",
+      "sourceSha256": "2ddead242a432164aec3a4a72b5f1eb0030b15ded7ee9ec6b05b5c83d8fc869a",
+      "sourceKind": "retrieved thumbnail",
+      "author": "Xil",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Latvia_photo_01.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Flag_of_Latvia_photo_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "downloadedFrom": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Flag_of_Latvia_photo_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "commonsFile": "Flag of Latvia photo 01.jpg",
+      "visualReview": {
+        "date": "2026-11-10",
+        "sourceSha256": "2ddead242a432164aec3a4a72b5f1eb0030b15ded7ee9ec6b05b5c83d8fc869a",
+        "observation": "Vējā plīvojošs Latvijas karmīnsarkanbaltsarkanais karogs pret zilām debesīm."
+      }
+    },
+    {
+      "id": "family",
+      "file": "/assets/category-photos/sources/family.webp",
+      "sourceSha256": "9428f61ae46fe9186a6218edb3e031a2b7b6581b8f8e733346c248bd14186697",
+      "sourceKind": "existing licensed site derivative",
+      "author": "TKS",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gruzni%C5%86i-%C4%A3imene-1024x683.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/08/Gruzni%C5%86i-%C4%A3imene-1024x683.jpg",
+      "visualReview": {
+        "date": "2026-11-10",
+        "sourceSha256": "9428f61ae46fe9186a6218edb3e031a2b7b6581b8f8e733346c248bd14186697",
+        "observation": "Piecu cilvēku ģimenes portrets zaļā dārzā."
+      }
+    },
+    {
+      "id": "ligo",
+      "file": "/assets/category-photos/sources/ligo.webp",
+      "sourceSha256": "7025af0ab74fd065dd3f312f5c29fe93163620818f99c8d01bebe6e48505fc62",
+      "sourceKind": "existing licensed site derivative",
+      "author": "Heinrihsons",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:P%C5%ABdeles_iedeg%C5%A1ana.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8d/P%C5%ABdeles_iedeg%C5%A1ana.jpg",
+      "visualReview": {
+        "date": "2026-11-10",
+        "sourceSha256": "7025af0ab74fd065dd3f312f5c29fe93163620818f99c8d01bebe6e48505fc62",
+        "observation": "Līgo vakarā ar lāpu aizdedz augstā stabā paceltu pūdeli."
+      }
+    },
+    {
+      "id": "school",
+      "file": "/assets/category-photos/sources/school.webp",
+      "sourceSha256": "f92cec85075787511c9e9d19d31638ca1cb188c39a3c49b48465b74108c1d8fe",
+      "sourceKind": "existing licensed site derivative",
+      "author": "Treisijs",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Olaines_1._vidusskola.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Olaines_1._vidusskola.jpg",
+      "visualReview": {
+        "date": "2026-11-10",
+        "sourceSha256": "f92cec85075787511c9e9d19d31638ca1cb188c39a3c49b48465b74108c1d8fe",
+        "observation": "Olaines pirmās vidusskolas ēka un laukums ziemā."
+      }
+    },
+    {
+      "id": "summer",
+      "file": "/assets/category-photos/sources/summer.webp",
+      "sourceSha256": "d10054b3fc91d9731ff72df7d3ba31b7194163f70d8a7d6244f15ee0a9cbe824",
+      "sourceKind": "existing licensed site derivative",
+      "author": "Zanna Sulojeva",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Saulriets,_Vidzemes_Akme%C5%86ain%C4%81_j%C5%ABrmala.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Saulriets%2C_Vidzemes_Akme%C5%86ain%C4%81_j%C5%ABrmala.jpg",
+      "visualReview": {
+        "date": "2026-11-10",
+        "sourceSha256": "d10054b3fc91d9731ff72df7d3ba31b7194163f70d8a7d6244f15ee0a9cbe824",
+        "observation": "Saule pie horizonta un akmeņaina Baltijas jūras piekraste."
+      }
+    },
+    {
+      "id": "winter",
+      "file": "/assets/category-photos/sources/winter.webp",
+      "sourceSha256": "8d66f0daa79503eb23a388e1b3655c1221213cc095a2b64bcf6aba4fcf3c8691",
+      "sourceKind": "existing licensed site derivative",
+      "author": "Lee Vilenski",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Snowed_areas_of_Riga,_Latvia_(18092).jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Snowed_areas_of_Riga%2C_Latvia_%2818092%29.jpg",
+      "visualReview": {
+        "date": "2026-11-10",
+        "sourceSha256": "8d66f0daa79503eb23a388e1b3655c1221213cc095a2b64bcf6aba4fcf3c8691",
+        "observation": "Apsniguši koki un Rīgas Kristus Piedzimšanas katedrāle."
+      }
+    },
+    {
+      "id": "independence",
+      "file": "/assets/category-photos/sources/independence.webp",
+      "sourceSha256": "90ce1ff9f127f0028bace2788b489a2d394d3b3e6e5704c795f17f14df3a190b",
+      "sourceKind": "existing licensed site derivative",
+      "author": "Ieva Ābele / Saeima",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Latvijas_Republikas_neatkar%C4%ABbas_atjauno%C5%A1anas_diena_(51157235998).jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Latvijas_Republikas_neatkar%C4%ABbas_atjauno%C5%A1anas_diena_%2851157235998%29.jpg",
+      "visualReview": {
+        "date": "2026-11-10",
+        "sourceSha256": "90ce1ff9f127f0028bace2788b489a2d394d3b3e6e5704c795f17f14df3a190b",
+        "observation": "Pavasara ziedi pie Brīvības pieminekļa valsts svētku ceremonijā."
+      }
+    },
+    {
+      "id": "jurmala",
+      "file": "/assets/category-photos/sources/jurmala.webp",
+      "sourceSha256": "d3a4976e84dbc21aaa4c48cc601ec496ae377787565f96e94d2b9038c0e1fbfb",
+      "sourceKind": "existing licensed site derivative",
+      "author": "Raul Cortez999",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Emilija_Racene_Former_Establishment,_Jurmala,_Latvia.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Emilija_Racene_Former_Establishment%2C_Jurmala%2C_Latvia.jpg",
+      "visualReview": {
+        "date": "2026-11-10",
+        "sourceSha256": "d3a4976e84dbc21aaa4c48cc601ec496ae377787565f96e94d2b9038c0e1fbfb",
+        "observation": "Jūrmalas smilšu pludmale un vēsturiskā Emīlijas Rācenes peldu iestāde."
+      }
+    },
+    {
+      "id": "moon",
+      "file": "/assets/category-photos/sources/moon.jpg",
+      "sourceSha256": "e58b800663b8bd5418d18d45289a055ad633de2805fd5108a5ae0ba8b795ce86",
+      "sourceKind": "existing cropped NASA photo derivative",
+      "author": "NASA · Apollo 17",
+      "license": "NASA media usage guidelines",
+      "licenseUrl": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+      "sourceUrl": "https://images.nasa.gov/details/as17-152-23311",
+      "originalUrl": "https://images-assets.nasa.gov/image/as17-152-23311/as17-152-23311~medium.jpg",
+      "visualReview": {
+        "date": "2026-11-10",
+        "sourceSha256": "e58b800663b8bd5418d18d45289a055ad633de2805fd5108a5ae0ba8b795ce86",
+        "observation": "Apollo 17 fotogrāfijā redzamais Mēness disks ar krāteriem."
+      }
+    },
+    {
+      "id": "earth",
+      "file": "/assets/category-photos/sources/earth.jpg",
+      "sourceSha256": "fbaf12217e34e6ea9eeeb7dd3e3d8674ef655ab632b28a8331e525d5c827cfc4",
+      "sourceKind": "existing cropped NASA photo derivative",
+      "author": "NASA · Apollo 17",
+      "license": "NASA media usage guidelines",
+      "licenseUrl": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+      "sourceUrl": "https://images.nasa.gov/details/as17-148-22727",
+      "originalUrl": "https://images-assets.nasa.gov/image/as17-148-22727/as17-148-22727~medium.jpg",
+      "visualReview": {
+        "date": "2026-11-10",
+        "sourceSha256": "fbaf12217e34e6ea9eeeb7dd3e3d8674ef655ab632b28a8331e525d5c827cfc4",
+        "observation": "Apollo 17 Zemes fotogrāfijā redzama Āfrika, Antarktīda un balti mākoņi."
+      }
+    },
+    {
+      "id": "calculator",
+      "file": "/assets/category-photos/sources/calculator.jpg",
+      "sourceSha256": "c45f46ce890063df4079e75e3d943d2b57cdf3dd43636b64f26bca0cc22273c6",
+      "sourceKind": "retrieved thumbnail",
+      "author": "Jorge Franganillo",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Calculator.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/77/Calculator.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "downloadedFrom": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Calculator.jpg/960px-Calculator.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "commonsFile": "Calculator.jpg",
+      "visualReview": {
+        "date": "2026-11-10",
+        "sourceSha256": "c45f46ce890063df4079e75e3d943d2b57cdf3dd43636b64f26bca0cc22273c6",
+        "observation": "Zinātniskā kalkulatora ciparu un matemātisko funkciju taustiņu tuvplāns."
+      }
+    }
+  ],
+  "artworks": [
+    {
+      "id": "planner",
+      "label": "Kalendāri un plānošana",
+      "kind": "photo",
+      "sources": [
+        "burgundy-planner"
+      ],
+      "crop": [
+        0,
+        0.1,
+        1,
+        0.92
+      ],
+      "svg": "/assets/category-photos/planner.svg",
+      "thumbnail": "/assets/category-photos/planner.svg",
+      "changes": "Fotogrāfijas kadrējums, samazināšana un SVG kompozīcija. Fotogrāfija ilustrē kategoriju, nevis konkrētu datumu.",
+      "bytes": 13318,
+      "sha256": "4c0f04a9b8f30fd246360bac9855ec279be4b4f67e20fdff38352c3b5921a542",
+      "compositeLicense": "CC BY-SA 4.0",
+      "visualReview": {
+        "date": "2026-11-10",
+        "svgSha256": "4c0f04a9b8f30fd246360bac9855ec279be4b4f67e20fdff38352c3b5921a542",
+        "observation": "Bordo plānotājs ar dzeltenu zīmuli."
+      }
+    },
+    {
+      "id": "calendar",
+      "label": "Mēneša kalendārs",
+      "kind": "photo",
+      "sources": [
+        "monthly"
+      ],
+      "crop": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "svg": "/assets/category-photos/calendar.svg",
+      "thumbnail": "/assets/category-photos/calendar.svg",
+      "changes": "Fotogrāfijas kadrējums, samazināšana un SVG kompozīcija. Fotogrāfija ilustrē kategoriju, nevis konkrētu datumu.",
+      "bytes": 17902,
+      "sha256": "83d17c51cb63e2923f3e7d3cfcd2e1b9a75491c360fd87c4ae441e280ff52eb1",
+      "compositeLicense": "Source terms apply; original composition by Kalendārs365",
+      "visualReview": {
+        "date": "2026-11-10",
+        "svgSha256": "83d17c51cb63e2923f3e7d3cfcd2e1b9a75491c360fd87c4ae441e280ff52eb1",
+        "observation": "Atvērts papīra mēneša kalendārs ar rokraksta piezīmēm."
+      }
+    },
+    {
+      "id": "week",
+      "label": "Nedēļas kalendārs",
+      "kind": "photo",
+      "sources": [
+        "ring-planner"
+      ],
+      "crop": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "svg": "/assets/category-photos/week.svg",
+      "thumbnail": "/assets/category-photos/week.svg",
+      "changes": "Fotogrāfijas kadrējums, samazināšana un SVG kompozīcija. Fotogrāfija ilustrē kategoriju, nevis konkrētu datumu.",
+      "bytes": 28482,
+      "sha256": "9e1a46d40881a38dc820d7c8f212f2b179df6429754117ebe767f0bf1b9b514a",
+      "compositeLicense": "Source terms apply; original composition by Kalendārs365",
+      "visualReview": {
+        "date": "2026-11-10",
+        "svgSha256": "9e1a46d40881a38dc820d7c8f212f2b179df6429754117ebe767f0bf1b9b514a",
+        "observation": "Atvērta plānotāja lapas ar līnijām un metāla gredzeniem."
+      }
+    },
+    {
+      "id": "family",
+      "label": "Ģimenes kalendārs",
+      "kind": "photo",
+      "sources": [
+        "family"
+      ],
+      "crop": [
+        0,
+        0.08,
+        1,
+        0.96
+      ],
+      "svg": "/assets/category-photos/family.svg",
+      "thumbnail": "/assets/category-photos/family.svg",
+      "changes": "Fotogrāfijas kadrējums, samazināšana un SVG kompozīcija. Fotogrāfija ilustrē kategoriju, nevis konkrētu datumu.",
+      "bytes": 49603,
+      "sha256": "2012292391f3854706db538726981eaf6946074a496ed9db38c90696a239c53e",
+      "compositeLicense": "Source terms apply; original composition by Kalendārs365",
+      "visualReview": {
+        "date": "2026-11-10",
+        "svgSha256": "2012292391f3854706db538726981eaf6946074a496ed9db38c90696a239c53e",
+        "observation": "Piecu cilvēku ģimenes portrets zaļā dārzā."
+      }
+    },
+    {
+      "id": "vacation",
+      "label": "Atvaļinājuma plānotājs",
+      "kind": "photo",
+      "sources": [
+        "jurmala"
+      ],
+      "crop": [
+        0.02,
+        0.18,
+        1,
+        1
+      ],
+      "svg": "/assets/category-photos/vacation.svg",
+      "thumbnail": "/assets/category-photos/vacation.svg",
+      "changes": "Fotogrāfijas kadrējums, samazināšana un SVG kompozīcija. Fotogrāfija ilustrē kategoriju, nevis konkrētu datumu.",
+      "bytes": 56338,
+      "sha256": "fc49ecf66b6a9d09771a3725c6771733a5f745851945e83c120821fb8034ed23",
+      "compositeLicense": "CC BY-SA 4.0",
+      "visualReview": {
+        "date": "2026-11-10",
+        "svgSha256": "fc49ecf66b6a9d09771a3725c6771733a5f745851945e83c120821fb8034ed23",
+        "observation": "Jūrmalas smilšu pludmale un vēsturiskā Emīlijas Rācenes peldu iestāde."
+      }
+    },
+    {
+      "id": "shift",
+      "label": "Maiņu grafiks",
+      "kind": "photo",
+      "sources": [
+        "clock"
+      ],
+      "crop": [
+        0.2,
+        0.09,
+        0.78,
+        0.38
+      ],
+      "svg": "/assets/category-photos/shift.svg",
+      "thumbnail": "/assets/category-photos/shift.svg",
+      "changes": "Fotogrāfijas kadrējums, samazināšana un SVG kompozīcija. Fotogrāfija ilustrē kategoriju, nevis konkrētu datumu.",
+      "bytes": 20753,
+      "sha256": "4db4d4283e59ae149af2a667009150408c2c7f2a76432c30a4e4397f829997d3",
+      "compositeLicense": "Source terms apply; original composition by Kalendārs365",
+      "visualReview": {
+        "date": "2026-11-10",
+        "svgSha256": "4db4d4283e59ae149af2a667009150408c2c7f2a76432c30a4e4397f829997d3",
+        "observation": "Rokā turēts mehānisks modinātājpulkstenis virs darba galda."
+      }
+    },
+    {
+      "id": "latvia-days",
+      "label": "Latvijas dienas",
+      "kind": "photo",
+      "sources": [
+        "flag"
+      ],
+      "crop": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "svg": "/assets/category-photos/latvia-days.svg",
+      "thumbnail": "/assets/category-photos/latvia-days.svg",
+      "changes": "Fotogrāfijas kadrējums, samazināšana un SVG kompozīcija. Fotogrāfija ilustrē kategoriju, nevis konkrētu datumu.",
+      "bytes": 25548,
+      "sha256": "41ab72664f87e0916053b46bceb270d0eecf66775b6588940c49aa776f19fd92",
+      "compositeLicense": "CC BY-SA 4.0",
+      "visualReview": {
+        "date": "2026-11-10",
+        "svgSha256": "41ab72664f87e0916053b46bceb270d0eecf66775b6588940c49aa776f19fd92",
+        "observation": "Vējā plīvojošs Latvijas karmīnsarkanbaltsarkanais karogs pret zilām debesīm."
+      }
+    },
+    {
+      "id": "names",
+      "label": "Vārda dienas",
+      "kind": "photo",
+      "sources": [
+        "flowers"
+      ],
+      "crop": [
+        0.12,
+        0.02,
+        0.98,
+        0.93
+      ],
+      "svg": "/assets/category-photos/names.svg",
+      "thumbnail": "/assets/category-photos/names.svg",
+      "changes": "Fotogrāfijas kadrējums, samazināšana un SVG kompozīcija. Fotogrāfija ilustrē kategoriju, nevis konkrētu datumu.",
+      "bytes": 23522,
+      "sha256": "61e75ad5ae582d5cd1134c947e80aab6fc0128b30cac44e18e5eb10b9c4486c3",
+      "compositeLicense": "Source terms apply; original composition by Kalendārs365",
+      "visualReview": {
+        "date": "2026-11-10",
+        "svgSha256": "61e75ad5ae582d5cd1134c947e80aab6fc0128b30cac44e18e5eb10b9c4486c3",
+        "observation": "Sarkanas magones stikla vāzē."
+      }
+    },
+    {
+      "id": "holiday",
+      "label": "Svētki un tradīcijas",
+      "kind": "photo",
+      "sources": [
+        "ligo"
+      ],
+      "crop": [
+        0,
+        0.02,
+        1,
+        0.96
+      ],
+      "svg": "/assets/category-photos/holiday.svg",
+      "thumbnail": "/assets/category-photos/holiday.svg",
+      "changes": "Fotogrāfijas kadrējums, samazināšana un SVG kompozīcija. Fotogrāfija ilustrē kategoriju, nevis konkrētu datumu.",
+      "bytes": 23731,
+      "sha256": "f39f8ff86bbacaf4965c0bd26f250ab8a410c4b99b6c808d2663db8961aaab7c",
+      "compositeLicense": "CC BY-SA 4.0",
+      "visualReview": {
+        "date": "2026-11-10",
+        "svgSha256": "f39f8ff86bbacaf4965c0bd26f250ab8a410c4b99b6c808d2663db8961aaab7c",
+        "observation": "Līgo vakarā ar lāpu aizdedz augstā stabā paceltu pūdeli."
+      }
+    },
+    {
+      "id": "school",
+      "label": "Skolas brīvlaiki",
+      "kind": "photo",
+      "sources": [
+        "school"
+      ],
+      "crop": [
+        0.04,
+        0.15,
+        0.96,
+        0.88
+      ],
+      "svg": "/assets/category-photos/school.svg",
+      "thumbnail": "/assets/category-photos/school.svg",
+      "changes": "Fotogrāfijas kadrējums, samazināšana un SVG kompozīcija. Fotogrāfija ilustrē kategoriju, nevis konkrētu datumu.",
+      "bytes": 40299,
+      "sha256": "91a94819f652c3734be326badccc9301804900f770d022ce40250c1a9b2c23fa",
+      "compositeLicense": "CC BY-SA 4.0",
+      "visualReview": {
+        "date": "2026-11-10",
+        "svgSha256": "91a94819f652c3734be326badccc9301804900f770d022ce40250c1a9b2c23fa",
+        "observation": "Olaines pirmās vidusskolas ēka un laukums ziemā."
+      }
+    },
+    {
+      "id": "timetable",
+      "label": "Stundu saraksts",
+      "kind": "photo",
+      "sources": [
+        "desk-tools"
+      ],
+      "crop": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "svg": "/assets/category-photos/timetable.svg",
+      "thumbnail": "/assets/category-photos/timetable.svg",
+      "changes": "Fotogrāfijas kadrējums, samazināšana un SVG kompozīcija. Fotogrāfija ilustrē kategoriju, nevis konkrētu datumu.",
+      "bytes": 32309,
+      "sha256": "a90426d65886845b620bb34fd99b87197a452baeef69d554f658583238974351",
+      "compositeLicense": "Source terms apply; original composition by Kalendārs365",
+      "visualReview": {
+        "date": "2026-11-10",
+        "svgSha256": "a90426d65886845b620bb34fd99b87197a452baeef69d554f658583238974351",
+        "observation": "Atvērts personīgais plānotājs, piezīmju lapas un pildspalva."
+      }
+    },
+    {
+      "id": "alltools",
+      "label": "Visi rīki",
+      "kind": "photo",
+      "sources": [
+        "weekly"
+      ],
+      "crop": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "svg": "/assets/category-photos/alltools.svg",
+      "thumbnail": "/assets/category-photos/alltools.svg",
+      "changes": "Fotogrāfijas kadrējums, samazināšana un SVG kompozīcija. Fotogrāfija ilustrē kategoriju, nevis konkrētu datumu.",
+      "bytes": 41875,
+      "sha256": "4cbe278fbfc2ee85c23a69800e707a16b22dd79260005263500c35f7e66ea649",
+      "compositeLicense": "Source terms apply; original composition by Kalendārs365",
+      "visualReview": {
+        "date": "2026-11-10",
+        "svgSha256": "4cbe278fbfc2ee85c23a69800e707a16b22dd79260005263500c35f7e66ea649",
+        "observation": "Atvērts plānotājs, zīmulis, klaviatūra un adījums uz koka galda."
+      }
+    },
+    {
+      "id": "sun",
+      "label": "Saule un Mēness",
+      "kind": "disc",
+      "sources": [
+        "sun"
+      ],
+      "crop": [
+        0.08,
+        0.08,
+        0.92,
+        0.92
+      ],
+      "note": "NASA/SDO 304 Å ultravioletais attēls viltus krāsās; nav pašreizējās Saules tiešraide.",
+      "svg": "/assets/category-photos/sun.svg",
+      "thumbnail": "/assets/category-photos/sun.svg",
+      "changes": "Fotogrāfijas kadrējums, samazināšana un SVG kompozīcija. NASA/SDO 304 Å ultravioletais attēls viltus krāsās; nav pašreizējās Saules tiešraide.",
+      "bytes": 62747,
+      "sha256": "2518e9a7ce29d32be785a03f7ec983bd1273a6761da5687a1506dcb33482eadb",
+      "compositeLicense": "Source terms apply; original composition by Kalendārs365",
+      "visualReview": {
+        "date": "2026-11-10",
+        "svgSha256": "2518e9a7ce29d32be785a03f7ec983bd1273a6761da5687a1506dcb33482eadb",
+        "observation": "Spilgti oranžs strukturēts Saules disks no NASA/SDO ultravioletā uzņēmuma viltus krāsās."
+      }
+    },
+    {
+      "id": "sunrise",
+      "label": "Saullēkts un saulriets",
+      "kind": "photo",
+      "sources": [
+        "summer"
+      ],
+      "crop": [
+        0,
+        0.18,
+        1,
+        0.93
+      ],
+      "svg": "/assets/category-photos/sunrise.svg",
+      "thumbnail": "/assets/category-photos/sunrise.svg",
+      "changes": "Fotogrāfijas kadrējums, samazināšana un SVG kompozīcija. Fotogrāfija ilustrē kategoriju, nevis konkrētu datumu.",
+      "bytes": 22478,
+      "sha256": "c46bd28056d63dab9d41cba4da867040ad71db8e9c2a92ac0c85385959e25d87",
+      "compositeLicense": "CC BY-SA 4.0",
+      "visualReview": {
+        "date": "2026-11-10",
+        "svgSha256": "c46bd28056d63dab9d41cba4da867040ad71db8e9c2a92ac0c85385959e25d87",
+        "observation": "Saule pie horizonta un akmeņaina Baltijas jūras piekraste."
+      }
+    },
+    {
+      "id": "moon",
+      "label": "Mēness kalendārs",
+      "kind": "disc",
+      "sources": [
+        "moon"
+      ],
+      "crop": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "note": "Īsta Apollo 17 Mēness fotogrāfija; nav izvēlētā datuma novērojums.",
+      "svg": "/assets/category-photos/moon.svg",
+      "thumbnail": "/assets/category-photos/moon.svg",
+      "changes": "Fotogrāfijas kadrējums, samazināšana un SVG kompozīcija. Īsta Apollo 17 Mēness fotogrāfija; nav izvēlētā datuma novērojums.",
+      "bytes": 28747,
+      "sha256": "d04c3a17e13302b59a662c792b36e4dd2b5b54eb7c5998fbea112c225c1d48a5",
+      "compositeLicense": "Source terms apply; original composition by Kalendārs365",
+      "visualReview": {
+        "date": "2026-11-10",
+        "svgSha256": "d04c3a17e13302b59a662c792b36e4dd2b5b54eb7c5998fbea112c225c1d48a5",
+        "observation": "Pelēks Mēness disks ar krāteriem un tumšākiem virsmas apgabaliem."
+      }
+    },
+    {
+      "id": "phases",
+      "label": "Mēness fāzes",
+      "kind": "phases",
+      "sources": [
+        "moon"
+      ],
+      "note": "NASA Mēness foto ar ilustratīvām apgaismojuma maskām; nav konkrēta datuma fāžu attēli.",
+      "svg": "/assets/category-photos/phases.svg",
+      "thumbnail": "/assets/category-photos/phases.svg",
+      "changes": "Fotogrāfijas kadrējums, samazināšana un SVG kompozīcija. NASA Mēness foto ar ilustratīvām apgaismojuma maskām; nav konkrēta datuma fāžu attēli.",
+      "bytes": 24386,
+      "sha256": "1db5d36f02f7443534802db060163748b21cd1eaa582c698fc0b71bebb570bfc",
+      "compositeLicense": "Source terms apply; original composition by Kalendārs365",
+      "visualReview": {
+        "date": "2026-11-10",
+        "svgSha256": "1db5d36f02f7443534802db060163748b21cd1eaa582c698fc0b71bebb570bfc",
+        "observation": "Pieci Mēness foto diski tumšā laukā ar atšķirīgām ilustratīvām apgaismojuma maskām."
+      }
+    },
+    {
+      "id": "seasons",
+      "label": "Gadalaiki",
+      "kind": "seasons",
+      "sources": [
+        "independence",
+        "jurmala",
+        "autumn",
+        "winter"
+      ],
+      "note": "Četru sezonu ilustratīva Latvijas arhīva fotogrāfiju kolāža; nav viena gada laikapstākļu ieraksts.",
+      "svg": "/assets/category-photos/seasons.svg",
+      "thumbnail": "/assets/category-photos/seasons.svg",
+      "changes": "Fotogrāfijas kadrējums, samazināšana un SVG kompozīcija. Četru sezonu ilustratīva Latvijas arhīva fotogrāfiju kolāža; nav viena gada laikapstākļu ieraksts.",
+      "bytes": 75254,
+      "sha256": "f19a32c8ab5958b1ad85af6e7cbb240c54f4abb225eafaa4c955414efd7cddb7",
+      "compositeLicense": "CC BY-SA 4.0",
+      "visualReview": {
+        "date": "2026-11-10",
+        "svgSha256": "f19a32c8ab5958b1ad85af6e7cbb240c54f4abb225eafaa4c955414efd7cddb7",
+        "observation": "Četras fotogrāfijas: pavasara ziedi, Jūrmalas vasara, Gaujas rudens taka un sniegota Rīga."
+      }
+    },
+    {
+      "id": "astronomy",
+      "label": "Astronomiskais kalendārs",
+      "kind": "earthmoon",
+      "sources": [
+        "earth",
+        "moon"
+      ],
+      "note": "Divu NASA misijas fotogrāfiju kompozīcija. Mērogs un savstarpējais novietojums ir dekoratīvs, nevis novērojums vienā kadrā.",
+      "svg": "/assets/category-photos/astronomy.svg",
+      "thumbnail": "/assets/category-photos/astronomy.svg",
+      "changes": "Fotogrāfijas kadrējums, samazināšana un SVG kompozīcija. Divu NASA misijas fotogrāfiju kompozīcija. Mērogs un savstarpējais novietojums ir dekoratīvs, nevis novērojums vienā kadrā.",
+      "bytes": 65182,
+      "sha256": "580ad0eff9cc7f1b900b006e3653de57ca711ede2e4d7575d2dada6ef66953c7",
+      "compositeLicense": "Source terms apply; original composition by Kalendārs365",
+      "visualReview": {
+        "date": "2026-11-10",
+        "svgSha256": "580ad0eff9cc7f1b900b006e3653de57ca711ede2e4d7575d2dada6ef66953c7",
+        "observation": "Zemes disks ar mākoņiem un mazāks Mēness disks priekšplānā; dekoratīva kompozīcija."
+      }
+    },
+    {
+      "id": "calculator",
+      "label": "Datumu kalkulators",
+      "kind": "photo",
+      "sources": [
+        "calculator"
+      ],
+      "crop": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "svg": "/assets/category-photos/calculator.svg",
+      "thumbnail": "/assets/category-photos/calculator.svg",
+      "changes": "Īstas kalkulatora fotogrāfijas kadrējums, samazināšana un SVG kompozīcija.",
+      "bytes": 31266,
+      "sha256": "5332f836948fb4cc153fc2ad6c4659b67f2dd8b29cf170a4d8f991ef9eda098a",
+      "compositeLicense": "Source terms apply; original composition by Kalendārs365",
+      "visualReview": {
+        "date": "2026-11-10",
+        "svgSha256": "5332f836948fb4cc153fc2ad6c4659b67f2dd8b29cf170a4d8f991ef9eda098a",
+        "observation": "Ciparu un matemātisko funkciju taustiņu fotogrāfisks tuvplāns."
+      }
+    }
+  ]
+}

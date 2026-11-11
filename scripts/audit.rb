@@ -42,8 +42,15 @@ end
 xml=File.read('_site/sitemap.xml');locs=xml.scan(/<loc>(.*?)<\/loc>/).flatten
 expected=manifest.select{|r|r['indexable']}.map{|r|'https://kalendars365.lv'+r['url']}
 errors << 'sitemap differs' unless locs.sort==expected.sort
+search_rows=JSON.parse(File.read('assets/search-index.json'))
+search_rows.each do |entry|
+  target=URI::DEFAULT_PARSER.unescape(entry.fetch('url').split(/[?#]/).first)
+  next unless target.start_with?('/')
+  candidates=["_site#{target}","_site#{target}index.html","_site#{target}/index.html"]
+  errors << "search points to missing page: #{target}" unless candidates.any?{|file|File.file?(file)}
+end
 errors << 'Cloudflare file limit' if allfiles.length>20_000
 oversized=allfiles.select{|p|File.size(p)>25*1024*1024};errors.concat(oversized.map{|p|"oversized asset: #{p}"})
 CSV.open('docs/SEO_AUDIT.csv','w'){|csv|csv<<%w[url family indexable result errors];rows.each{|r|csv<<r}}
-summary={matrix_routes:manifest.length,html_files:allfiles.count{|p|p.end_with?('.html')},indexable:expected.length,noindex:manifest.length-expected.length,total_files:allfiles.length,total_bytes:allfiles.sum{|p|File.size(p)},errors:errors.uniq}
+summary={matrix_routes:manifest.length,html_files:allfiles.count{|p|p.end_with?('.html')},search_entries:search_rows.length,indexable:expected.length,noindex:manifest.length-expected.length,total_files:allfiles.length,total_bytes:allfiles.sum{|p|File.size(p)},errors:errors.uniq}
 File.write('docs/site-audit.json',JSON.pretty_generate(summary));puts JSON.pretty_generate(summary.merge(errors:errors.uniq.first(35)));exit(errors.empty? ? 0 : 1)

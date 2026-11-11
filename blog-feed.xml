@@ -1,0 +1,6 @@
+---
+layout: null
+permalink: /blogs/feed.xml
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Kalendārs365 blogs</title><link>{{ site.url }}/blogs/</link><description>Latvijas kalendārs, svētki un ikdienas plānošana.</description><language>lv-LV</language><atom:link href="{{ site.url }}/blogs/feed.xml" rel="self" type="application/rss+xml"/>{% for post in site.data.blog.posts %}<item><title>{{ post.title | xml_escape }}</title><link>{{ post.url | absolute_url }}</link><guid isPermaLink="true">{{ post.url | absolute_url }}</guid><pubDate>{{ post.date | date_to_rfc822 }}</pubDate><description>{{ post.description | xml_escape }}</description></item>{% endfor %}</channel></rss>

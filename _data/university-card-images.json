@@ -1,0 +1,220 @@
+{
+  "photos": [
+    {
+      "source": "/assets/universities/lu.jpg",
+      "sourceSha256": "031a1236b7a8968536f583e34f6edc7a7e3f1407abf08322f27619d519046001",
+      "src": "/assets/university-cards/lu-480.webp",
+      "srcset": "/assets/university-cards/lu-480.webp 480w, /assets/university-cards/lu-800.webp 800w",
+      "width": 800,
+      "height": 577,
+      "files": [
+        {
+          "src": "/assets/university-cards/lu-480.webp",
+          "width": 480,
+          "height": 346,
+          "bytes": 44056,
+          "sha256": "889376500b9419cebaf72ac543e1accd13e70d5585302fa2f01d5789d393a02a"
+        },
+        {
+          "src": "/assets/university-cards/lu-800.webp",
+          "width": 800,
+          "height": 577,
+          "bytes": 121038,
+          "sha256": "058296c81748db8549619a551c29abb1a6f06ca96f21345979f2c29e879591d6"
+        }
+      ]
+    },
+    {
+      "source": "/assets/universities/rtu.jpg",
+      "sourceSha256": "a05585e3fd8d171c2d35e5fc298218479c320d365294f30541a1ec49c98eda11",
+      "src": "/assets/university-cards/rtu-480.webp",
+      "srcset": "/assets/university-cards/rtu-480.webp 480w, /assets/university-cards/rtu-800.webp 800w",
+      "width": 800,
+      "height": 533,
+      "files": [
+        {
+          "src": "/assets/university-cards/rtu-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 24584,
+          "sha256": "fd41c92ea0e550c7c6b393a00b9cb7e285c23d297ee289dd687499257166b328"
+        },
+        {
+          "src": "/assets/university-cards/rtu-800.webp",
+          "width": 800,
+          "height": 533,
+          "bytes": 61492,
+          "sha256": "69cb2020efce4726197ac15cbb09d098a5d7cb28d9d0006fa44722cc9d74de52"
+        }
+      ]
+    },
+    {
+      "source": "/assets/universities/rsu.jpg",
+      "sourceSha256": "82c2c5cc1de7412b706d82bd4b6ebd762059bae76b58de9b32d99908a4941395",
+      "src": "/assets/university-cards/rsu-480.webp",
+      "srcset": "/assets/university-cards/rsu-480.webp 480w, /assets/university-cards/rsu-800.webp 800w",
+      "width": 800,
+      "height": 1200,
+      "files": [
+        {
+          "src": "/assets/university-cards/rsu-480.webp",
+          "width": 480,
+          "height": 720,
+          "bytes": 41678,
+          "sha256": "331affc7bf9c7869df6750eea4e18692344a067e7a3dca66ecfde504f075a3b5"
+        },
+        {
+          "src": "/assets/university-cards/rsu-800.webp",
+          "width": 800,
+          "height": 1200,
+          "bytes": 118492,
+          "sha256": "ba9c7c9891387cc7ea37bc0ab0c274f237d202a0e4a2eac4881a686105fd5fd7"
+        }
+      ]
+    },
+    {
+      "source": "/assets/universities/du.jpg",
+      "sourceSha256": "bfa56d82bca7d7e956b9a856d4e5ef4fc5b9b28ac3e77623b32b85f3776caace",
+      "src": "/assets/university-cards/du-480.webp",
+      "srcset": "/assets/university-cards/du-480.webp 480w, /assets/university-cards/du-800.webp 800w",
+      "width": 800,
+      "height": 600,
+      "files": [
+        {
+          "src": "/assets/university-cards/du-480.webp",
+          "width": 480,
+          "height": 360,
+          "bytes": 13728,
+          "sha256": "75e3da9cf58953db26e366180de170428b38d5e84e07554b10f8c8132c8af95b"
+        },
+        {
+          "src": "/assets/university-cards/du-800.webp",
+          "width": 800,
+          "height": 600,
+          "bytes": 30988,
+          "sha256": "6a70e7d5e5c6987509e9164de99089c539f9b18b77aecb1fadd0e1c4786aa304"
+        }
+      ]
+    },
+    {
+      "source": "/assets/universities/lbtu.jpg",
+      "sourceSha256": "998d26410b470799d641d00ebf300189888f5ecd07f344ad9fee5c462f607195",
+      "src": "/assets/university-cards/lbtu-480.webp",
+      "srcset": "/assets/university-cards/lbtu-480.webp 480w, /assets/university-cards/lbtu-800.webp 800w",
+      "width": 800,
+      "height": 450,
+      "files": [
+        {
+          "src": "/assets/university-cards/lbtu-480.webp",
+          "width": 480,
+          "height": 270,
+          "bytes": 18624,
+          "sha256": "5312bc54d13f1cbdab63c932540da5904725a5543618b89af7253850349148e6"
+        },
+        {
+          "src": "/assets/university-cards/lbtu-800.webp",
+          "width": 800,
+          "height": 450,
+          "bytes": 56078,
+          "sha256": "ff0381537158fc5e38d1892982b5964540e924cf8013bf24e02df0a702e0e723"
+        }
+      ]
+    },
+    {
+      "source": "/assets/universities/via.jpg",
+      "sourceSha256": "669f0fe500a1adb8d733c0df310f37c3895574a65c8605fcf48a71a5f189b89c",
+      "src": "/assets/university-cards/via-480.webp",
+      "srcset": "/assets/university-cards/via-480.webp 480w, /assets/university-cards/via-800.webp 800w",
+      "width": 800,
+      "height": 600,
+      "files": [
+        {
+          "src": "/assets/university-cards/via-480.webp",
+          "width": 480,
+          "height": 360,
+          "bytes": 11240,
+          "sha256": "37253ee8fbf1f6a16cc85c6391421f26f2d8f4a9e5d130cb361cab62b3d9f9dc"
+        },
+        {
+          "src": "/assets/university-cards/via-800.webp",
+          "width": 800,
+          "height": 600,
+          "bytes": 25938,
+          "sha256": "c8d09785a6b4c6d5417f91f9e34b9f726a95753d09cef6f7f175ccfd252fc2be"
+        }
+      ]
+    },
+    {
+      "source": "/assets/universities/lma.jpg",
+      "sourceSha256": "7a5a74d06d0ad7f77c274c6758bde44fc2387f120762565f6877f9e0e7dcaf33",
+      "src": "/assets/university-cards/lma-480.webp",
+      "srcset": "/assets/university-cards/lma-480.webp 480w, /assets/university-cards/lma-800.webp 800w",
+      "width": 800,
+      "height": 600,
+      "files": [
+        {
+          "src": "/assets/university-cards/lma-480.webp",
+          "width": 480,
+          "height": 360,
+          "bytes": 43264,
+          "sha256": "648b1a7e824c5a63700c450e8fd3e9649999831722964c599765f7f5400ac1b8"
+        },
+        {
+          "src": "/assets/university-cards/lma-800.webp",
+          "width": 800,
+          "height": 600,
+          "bytes": 121272,
+          "sha256": "6b6419e606c482844337d59bfcf6d840e54768a1c5eeca0a8bd75dc6878426b5"
+        }
+      ]
+    },
+    {
+      "source": "/assets/universities/jvlma.jpg",
+      "sourceSha256": "4fe01d3875fd77cb5e83e6900459effe2aff7bee81efa3d9742ee71f98d2db4f",
+      "src": "/assets/university-cards/jvlma-480.webp",
+      "srcset": "/assets/university-cards/jvlma-480.webp 480w, /assets/university-cards/jvlma-800.webp 800w",
+      "width": 800,
+      "height": 1200,
+      "files": [
+        {
+          "src": "/assets/university-cards/jvlma-480.webp",
+          "width": 480,
+          "height": 720,
+          "bytes": 53288,
+          "sha256": "db10f1cddcd2c52127560712050d520009e23ddd62669739b4b693fa8449bc1e"
+        },
+        {
+          "src": "/assets/university-cards/jvlma-800.webp",
+          "width": 800,
+          "height": 1200,
+          "bytes": 137334,
+          "sha256": "41f2b0d00624806d69ff2fd9ea4a860b1b6eb7c7a9377fbfc3f3d8a008379fa5"
+        }
+      ]
+    },
+    {
+      "source": "/assets/universities/venta.jpg",
+      "sourceSha256": "2c82bf5336b267bf72a1c4013b3308e90175536dea0ac51b0d90ea10b9135c85",
+      "src": "/assets/university-cards/venta-480.webp",
+      "srcset": "/assets/university-cards/venta-480.webp 480w, /assets/university-cards/venta-700.webp 700w",
+      "width": 700,
+      "height": 500,
+      "files": [
+        {
+          "src": "/assets/university-cards/venta-480.webp",
+          "width": 480,
+          "height": 343,
+          "bytes": 21682,
+          "sha256": "cc89eccb63832173752be471ea0389ab8d725871f72f687c3b71941ae00b929e"
+        },
+        {
+          "src": "/assets/university-cards/venta-700.webp",
+          "width": 700,
+          "height": 500,
+          "bytes": 41218,
+          "sha256": "aee029cede24614b15619dafa7da893962dd2ee89c23605a2e04fb32aa4a7491"
+        }
+      ]
+    }
+  ]
+}

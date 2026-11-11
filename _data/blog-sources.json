@@ -1,0 +1,114 @@
+{
+  "holidays": {
+    "title": "Latvijas svētku, atceres un atzīmējamo dienu likums",
+    "url": "https://likumi.lv/ta/id/72608-par-svetku-atceres-un-atzimejamam-dienam"
+  },
+  "labor": {
+    "title": "Darba likums",
+    "url": "https://likumi.lv/ta/id/26019-darba-likums"
+  },
+  "iso": {
+    "title": "ISO: datuma un laika pieraksts",
+    "url": "https://www.iso.org/iso-8601-date-and-time-format.html"
+  },
+  "usno-calendar": {
+    "title": "USNO: kalendāri un to principi",
+    "url": "https://aa.usno.navy.mil/faq/calendars"
+  },
+  "leap": {
+    "title": "USNO: garo gadu noteikumi",
+    "url": "https://aa.usno.navy.mil/faq/leap_years"
+  },
+  "latvia-culture": {
+    "title": "Latvia Travel: Latvijas kultūra un tradīcijas",
+    "url": "https://www.latvia.travel/en/culture-and-traditions-latvia"
+  },
+  "latvia-food": {
+    "title": "Latvia Travel: Latvijas garšas",
+    "url": "https://www.latvia.travel/en/flavours-latvia"
+  },
+  "vvc": {
+    "title": "VVC: Kalendārvārdu ekspertu komisija",
+    "url": "https://www.vvc.gov.lv/lv/kalendarvardu-ekspertu-komisija"
+  },
+  "vvc-data": {
+    "title": "VVC: tradicionālais un paplašinātais saraksts atvērtajos datos",
+    "url": "https://www.vvc.gov.lv/lv/jaunums/latviesu-tradicionalais-un-paplasinatais-kalendarvardu-saraksts-pieejams-csv-atverto-datu-formata"
+  },
+  "school": {
+    "title": "IZM: apstiprināts 2026./2027. mācību gada kalendārs",
+    "url": "https://www.izm.gov.lv/lv/jaunums/apstiprinati-20262027-macibu-gada-sakuma-beigu-un-brivdienu-laiki"
+  },
+  "school-law": {
+    "title": "Noteikumi par 2026./2027. mācību gadu",
+    "url": "https://likumi.lv/ta/id/365210-noteikumi-par-20262027-macibu-gada-un-macibu-semestru-sakuma-un-beigu-laiku-un-brivdienu-laiku"
+  },
+  "exams": {
+    "title": "IZM: precizēts valsts pārbaudes darbu grafiks",
+    "url": "https://www.izm.gov.lv/lv/jaunums/precizets-20262027-macibu-gada-valsts-parbaudes-darbu-grafiks"
+  },
+  "lu": {
+    "title": "Latvijas Universitātes 2026./2027. akadēmiskais kalendārs",
+    "url": "https://www.lu.lv/en/studies/study-process/academic-calendar/2026/2027-academic-year-calendar/"
+  },
+  "rtu": {
+    "title": "RTU: studiju gada kalendārs",
+    "url": "https://www.rtu.lv/lv/studijas/studiju-gada-kalendars"
+  },
+  "aika": {
+    "title": "AIKA: augstākās izglītības iestāžu reģistrs",
+    "url": "https://eplatforma.aika.lv/index.php?r=site/hei/list"
+  },
+  "usno-day": {
+    "title": "USNO: Saules un Mēness dati vienai dienai",
+    "url": "https://aa.usno.navy.mil/data/RS_OneDay"
+  },
+  "usno-rise": {
+    "title": "USNO: lēkta, rieta un krēslas definīcijas",
+    "url": "https://aa.usno.navy.mil/faq/RST_defs"
+  },
+  "moon-phases": {
+    "title": "USNO: galveno Mēness fāžu brīži",
+    "url": "https://aa.usno.navy.mil/data/MoonPhases"
+  },
+  "moon-nasa": {
+    "title": "NASA: kā veidojas Mēness fāzes",
+    "url": "https://science.nasa.gov/moon/moon-phases/"
+  },
+  "perseids": {
+    "title": "NASA: Perseīdu novērojumu sagatavošana",
+    "url": "https://science.nasa.gov/solar-system/skywatching/night-sky-network/prepare-for-perseids/"
+  },
+  "meteor-facts": {
+    "title": "NASA: meteori un meteorīti",
+    "url": "https://science.nasa.gov/solar-system/meteors-meteorites/"
+  },
+  "swift-tuttle": {
+    "title": "NASA: komēta 109P/Swift–Tuttle",
+    "url": "https://science.nasa.gov/solar-system/comets/109p-swift-tuttle/"
+  },
+  "garden-april": {
+    "title": "Dārzkopības institūts: aprīļa darbi un dārzeņu sēja",
+    "url": "https://www.darzkopibasinstituts.lv/lv/raksts/2020-04-06/stastam-par-aprili-daramajiem-darbiem-un-darzenu-sesanu"
+  },
+  "garden-guide": {
+    "title": "Dārzkopības institūts: rokasgrāmata dārziem",
+    "url": "https://www.darzkopibasinstituts.lv/sites/dobele/files/files/articles/RokasgramataDarzi2018_lv.pdf"
+  },
+  "tomato-guide": {
+    "title": "VAAD: tomāti atklātā laukā un segtajās platībās",
+    "url": "https://integretaaudzesana.vaad.gov.lv/lv/media/888/download?attachment="
+  },
+  "seasons": {
+    "title": "USNO: ekvinokcijas un saulgrieži",
+    "url": "https://aa.usno.navy.mil/data/Earth_Seasons"
+  },
+  "solstice-light": {
+    "title": "USNO: saullēkts un saulriets saulgriežu tuvumā",
+    "url": "https://aa.usno.navy.mil/faq/rs_solstices"
+  },
+  "commons-license": {
+    "title": "Wikimedia Commons: failu izmantošana un licences",
+    "url": "https://commons.wikimedia.org/wiki/Commons:Reusing_content_outside_Wikimedia"
+  }
+}

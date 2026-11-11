@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 260" role="img" aria-labelledby="kv-tools-title kv-tools-description"><title id="kv-tools-title">Visi rīki</title><desc id="kv-tools-description">Kalendāram365 radīta oriģināla vektoru ilustrācija ar apjoma, gaismas un materiālu zīmējumu. Fotogrāfijas un pikseļu attēli nav izmantoti.</desc><defs>
+<linearGradient id="kv-tools-paper" x1="0" y1="0" x2=".85" y2="1"><stop stop-color="#fffaf0"/><stop offset=".57" stop-color="#eee5d4"/><stop offset="1" stop-color="#b7ae9c"/></linearGradient>
+<linearGradient id="kv-tools-wine" x1="0" y1="0" x2=".95" y2="1"><stop stop-color="#bf6a83"/><stop offset=".4" stop-color="#973f5a"/><stop offset="1" stop-color="#5d2036"/></linearGradient>
+<linearGradient id="kv-tools-teal" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#8ec5b8"/><stop offset=".48" stop-color="#488c80"/><stop offset="1" stop-color="#24574f"/></linearGradient>
+<linearGradient id="kv-tools-gold" x1="0" y1="0" x2=".8" y2="1"><stop stop-color="#fff2b7"/><stop offset=".22" stop-color="#d1aa5b"/><stop offset=".4" stop-color="#f1d68b"/><stop offset=".67" stop-color="#ad8439"/><stop offset="1" stop-color="#7b5b2c"/></linearGradient>
+<linearGradient id="kv-tools-metal" x1="0" y1="0" x2="1" y2=".9"><stop stop-color="#fafdfb"/><stop offset=".2" stop-color="#c6d0d0"/><stop offset=".43" stop-color="#fbfcf3"/><stop offset=".6" stop-color="#9cabae"/><stop offset="1" stop-color="#4c636d"/></linearGradient>
+<linearGradient id="kv-tools-ink" x1="0" y1="0" x2=".7" y2="1"><stop stop-color="#66747d"/><stop offset=".45" stop-color="#35424f"/><stop offset="1" stop-color="#17242f"/></linearGradient>
+<radialGradient id="kv-tools-glass" cx="30%" cy="20%" r="85%"><stop stop-color="#fff" stop-opacity=".9"/><stop offset=".5" stop-color="#eaf5ed" stop-opacity=".3"/><stop offset="1" stop-color="#86a3ae" stop-opacity=".55"/></radialGradient>
+<filter id="kv-tools-shadow" x="-35%" y="-35%" width="180%" height="190%"><feDropShadow dx="0" dy="6" stdDeviation="4" flood-color="#35262d" flood-opacity=".17"/></filter>
+<filter id="kv-tools-soft" x="-50%" y="-100%" width="200%" height="300%"><feGaussianBlur stdDeviation="3.5"/></filter>
+</defs><ellipse cx="162" cy="227" rx="104" ry="10" fill="#49343d" opacity=".16" filter="url(#kv-tools-soft)"/>
+ <g filter="url(#kv-tools-shadow)">
+ <path d="M142 72L254 61L266 169L154 181Z" fill="#c4beaf"/>
+ <path d="M137 66L250 55L262 164L149 177Z" fill="url(#kv-tools-paper)" stroke="#c8bcad" stroke-width=".8"/>
+ <path d="M151 90L237 81M153 105L240 96M155 121L240 112M157 137L220 130" stroke="#c3b7a8" stroke-width="1.5" stroke-linecap="round"/>
+ <path d="M153 67L163 66L163 56Q157 51 153 58Z" fill="url(#kv-tools-gold)"/>
+ <path d="M61 54L70 50L114 159L105 163Z" fill="url(#kv-tools-gold)"/><path d="M61 54L62 39L70 50Z" fill="#ddc099"/><path d="M61 43L62 39L65 44Z" fill="#3d3540"/>
+ <path d="M94 39L104 39L106 161L95 161Z" fill="url(#kv-tools-teal)"/><path d="M95 39L103 39L103 54L95 54Z" fill="url(#kv-tools-metal)"/>
+ <path d="M125 63L134 68L108 170L98 166Z" fill="url(#kv-tools-wine)"/><path d="M125 63L131 51L134 68Z" fill="#dec5a2"/><path d="M129 55L131 51L132 57Z" fill="#3d3540"/>
+ <path d="M57 139Q60 127 99 127Q137 127 140 138L132 211Q129 224 98 224Q65 222 64 211Z" fill="url(#kv-tools-wine)"/>
+ <ellipse cx="99" cy="138" rx="42" ry="12" fill="#b36e83"/>
+ <ellipse cx="99" cy="138" rx="36" ry="8" fill="#59313f"/>
+ <path d="M63 145Q66 151 76 151L82 212Q82 218 72 214Z" fill="#cd8ca0" opacity=".38"/>
+ <path d="M129 146L123 215" stroke="#491e31" stroke-width="3" opacity=".35"/>
+ <path d="M67 208Q95 220 130 210" fill="none" stroke="#c28b9b" stroke-width="1" opacity=".8"/>
+ </g>
+ <defs><radialGradient id="kv-tools-desk-face" cx="34%" cy="23%" r="91%"><stop stop-color="#4c6571"/><stop offset=".65" stop-color="#283f4b"/><stop offset="1" stop-color="#172a34"/></radialGradient></defs>
+ <g filter="url(#kv-tools-shadow)"><circle cx="218" cy="181" r="46" fill="#32484c"/><circle cx="216" cy="177" r="46" fill="url(#kv-tools-metal)" stroke="#aebbb6" stroke-width=".7"/><circle cx="216" cy="177" r="39.1" fill="url(#kv-tools-desk-face)" stroke="#fff9e7" stroke-width="1.1500000000000001"/><path d="M216 143.42L216 149.86" stroke="#d9c494" stroke-width="2.3" stroke-linecap="round"/><path d="M232.79 147.92L231.18 150.71" stroke="#d9c494" stroke-width="1.3" stroke-linecap="round"/><path d="M245.08 160.21L242.29 161.82" stroke="#d9c494" stroke-width="1.3" stroke-linecap="round"/><path d="M249.58 177L243.14 177" stroke="#d9c494" stroke-width="2.3" stroke-linecap="round"/><path d="M245.08 193.79L242.29 192.18" stroke="#d9c494" stroke-width="1.3" stroke-linecap="round"/><path d="M232.79 206.08L231.18 203.29" stroke="#d9c494" stroke-width="1.3" stroke-linecap="round"/><path d="M216 210.58L216 204.14" stroke="#d9c494" stroke-width="2.3" stroke-linecap="round"/><path d="M199.21 206.08L200.82 203.29" stroke="#d9c494" stroke-width="1.3" stroke-linecap="round"/><path d="M186.92 193.79L189.71 192.18" stroke="#d9c494" stroke-width="1.3" stroke-linecap="round"/><path d="M182.42 177L188.86 177" stroke="#d9c494" stroke-width="2.3" stroke-linecap="round"/><path d="M186.92 160.21L189.71 161.82" stroke="#d9c494" stroke-width="1.3" stroke-linecap="round"/><path d="M199.21 147.92L200.82 150.71" stroke="#d9c494" stroke-width="1.3" stroke-linecap="round"/>
+ <path d="M216 177L202.66 166.88" stroke="#d7c697" stroke-width="4.37" stroke-linecap="round"/>
+ <path d="M216 177L233.94 160.44" stroke="#f4e5bd" stroke-width="2.806" stroke-linecap="round"/>
+ <path d="M205.88 157.22L229.8 198.62" stroke="#a74762" stroke-width="1.1500000000000001" stroke-linecap="round"/>
+ <circle cx="216" cy="177" r="3.22" fill="url(#kv-tools-wine)"/><circle cx="215.172" cy="175.988" r="1.196" fill="#f8dfe8"/>
+ <path d="M187.02 166.88A30.82 30.82 0 0 1 234.4 151.24" stroke="#fff" stroke-width="2.07" opacity=".56" fill="none" stroke-linecap="round"/>
+ </g>
+ <path d="M179 222L261 213" stroke="#5a4050" stroke-width="2.4" opacity=".17"/></svg>

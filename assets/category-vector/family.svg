@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 260" role="img" aria-labelledby="kv-family-title kv-family-description"><title id="kv-family-title">Ģimenes kalendārs</title><desc id="kv-family-description">Kalendāram365 radīta oriģināla vektoru ilustrācija ar apjoma, gaismas un materiālu zīmējumu. Fotogrāfijas un pikseļu attēli nav izmantoti.</desc><defs>
+<linearGradient id="kv-family-paper" x1="0" y1="0" x2=".85" y2="1"><stop stop-color="#fffaf0"/><stop offset=".57" stop-color="#eee5d4"/><stop offset="1" stop-color="#b7ae9c"/></linearGradient>
+<linearGradient id="kv-family-wine" x1="0" y1="0" x2=".95" y2="1"><stop stop-color="#bf6a83"/><stop offset=".4" stop-color="#973f5a"/><stop offset="1" stop-color="#5d2036"/></linearGradient>
+<linearGradient id="kv-family-teal" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#8ec5b8"/><stop offset=".48" stop-color="#488c80"/><stop offset="1" stop-color="#24574f"/></linearGradient>
+<linearGradient id="kv-family-gold" x1="0" y1="0" x2=".8" y2="1"><stop stop-color="#fff2b7"/><stop offset=".22" stop-color="#d1aa5b"/><stop offset=".4" stop-color="#f1d68b"/><stop offset=".67" stop-color="#ad8439"/><stop offset="1" stop-color="#7b5b2c"/></linearGradient>
+<linearGradient id="kv-family-metal" x1="0" y1="0" x2="1" y2=".9"><stop stop-color="#fafdfb"/><stop offset=".2" stop-color="#c6d0d0"/><stop offset=".43" stop-color="#fbfcf3"/><stop offset=".6" stop-color="#9cabae"/><stop offset="1" stop-color="#4c636d"/></linearGradient>
+<linearGradient id="kv-family-ink" x1="0" y1="0" x2=".7" y2="1"><stop stop-color="#66747d"/><stop offset=".45" stop-color="#35424f"/><stop offset="1" stop-color="#17242f"/></linearGradient>
+<radialGradient id="kv-family-glass" cx="30%" cy="20%" r="85%"><stop stop-color="#fff" stop-opacity=".9"/><stop offset=".5" stop-color="#eaf5ed" stop-opacity=".3"/><stop offset="1" stop-color="#86a3ae" stop-opacity=".55"/></radialGradient>
+<filter id="kv-family-shadow" x="-35%" y="-35%" width="180%" height="190%"><feDropShadow dx="0" dy="6" stdDeviation="4" flood-color="#35262d" flood-opacity=".17"/></filter>
+<filter id="kv-family-soft" x="-50%" y="-100%" width="200%" height="300%"><feGaussianBlur stdDeviation="3.5"/></filter>
+</defs><defs><radialGradient id="kv-family-skin" cx="32%" cy="25%" r="85%"><stop stop-color="#ffe2c2"/><stop offset=".48" stop-color="#edbb94"/><stop offset="1" stop-color="#b47d60"/></radialGradient><linearGradient id="kv-family-hair" x2=".8" y2="1"><stop stop-color="#72604e"/><stop offset=".5" stop-color="#443a34"/><stop offset="1" stop-color="#27282b"/></linearGradient></defs><ellipse cx="161" cy="230" rx="102" ry="9" fill="#473039" opacity=".15" filter="url(#kv-family-soft)"/><g filter="url(#kv-family-shadow)">
+ <path d="M76 136C76 119 91 110 107 109H124C142 111 151 125 153 143L152 198Q115 217 75 198Z" fill="url(#kv-family-wine)"/>
+ <path d="M171 136C171 119 187 108 201 108H216C235 111 245 127 246 145L244 198Q206 216 168 198Z" fill="url(#kv-family-teal)"/>
+ <path d="M105 96V116Q115 128 126 115V96Z" fill="url(#kv-family-skin)"/>
+ <path d="M198 95V116Q208 127 219 114V95Z" fill="url(#kv-family-skin)"/>
+ <ellipse cx="115" cy="77" rx="26" ry="32" fill="url(#kv-family-skin)"/>
+ <ellipse cx="208" cy="76" rx="26" ry="32" fill="url(#kv-family-skin)"/>
+ <path d="M90 82C80 56 94 36 114 37 139 36 148 56 138 79L133 66C122 66 109 58 105 52 104 67 98 76 90 82Z" fill="url(#kv-family-hair)"/>
+ <path d="M183 79C176 64 184 47 197 42 215 34 237 45 236 68L233 83 227 63C217 64 206 60 200 53 194 61 194 73 183 79Z" fill="url(#kv-family-hair)"/>
+ <path d="M97 61Q105 43 123 45M188 59Q203 40 224 52" fill="none" stroke="#b4a18b" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity="0.43"/>
+ <path d="M103 81h3M123 81h3M196 80h3M216 80h3" fill="none" stroke="#73514a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity="0.67"/>
+ <path d="M109 94Q115 98 122 94M202 93Q209 97 215 93" fill="none" stroke="#a7675a" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" opacity="0.65"/>
+ <path d="M94 126Q113 139 132 125M189 126Q208 138 228 125" fill="none" stroke="#f0d7c4" stroke-width="2" opacity=".24"/>
+ <path d="M79 154Q89 143 101 144L128 180 119 198Q87 186 79 169Z" fill="#a84f66"/>
+ <path d="M242 150Q233 142 223 146L194 182 202 198Q229 187 242 169Z" fill="#2e6e67"/>
+ <path d="M123 178C124 159 139 148 155 148H168C184 148 199 164 200 182L202 220Q160 240 119 218Z" fill="url(#kv-family-paper)"/>
+ <path d="M152 138V155Q160 164 170 154V138Z" fill="url(#kv-family-skin)"/>
+ <ellipse cx="161" cy="124" rx="23" ry="28" fill="url(#kv-family-skin)"/>
+ <path d="M139 128C129 109 140 92 159 92 181 91 189 110 183 126L177 112Q159 113 151 102 149 117 139 128Z" fill="url(#kv-family-hair)"/>
+ <path d="M146 111Q149 99 162 98" fill="none" stroke="#a4937b" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" opacity="0.5"/>
+ <path d="M150 128h2M169 128h2" fill="none" stroke="#6d4b42" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" opacity="0.65"/>
+ <path d="M155 140Q161 144 167 140" fill="none" stroke="#a7675a" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" opacity="0.7"/>
+ <path d="M141 159Q161 173 181 159" fill="none" stroke="#d2bfa1" stroke-width="2"/>
+ <path d="M135 184 131 217M189 184 193 219" fill="none" stroke="#d0c2aa" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" opacity="0.6"/>
+ <circle cx="161" cy="180" r="3.5" fill="url(#kv-family-gold)"/><circle cx="161" cy="197" r="3.5" fill="url(#kv-family-gold)"/>
+ </g></svg>

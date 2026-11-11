@@ -1,0 +1,116 @@
+[
+  {
+    "id": "vvc-traditional-current",
+    "sourceUrl": "https://www.vvc.gov.lv/lv/media/20847/download?attachment=",
+    "responseUrl": "https://www.vvc.gov.lv/lv/media/20847/download?attachment=",
+    "mime": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "lastModified": "Wed, 20 May 2026 10:48:43 GMT",
+    "downloadedAt": "2026-11-10T19:22:45.974691+00:00",
+    "bytes": 21171,
+    "sha256": "50311fb3b95746e00c8394dbf65dbc569728f54893369b398b7a1061d8eaa318",
+    "file": "vvc-traditional-current.xlsx"
+  },
+  {
+    "id": "vvc-extended-current",
+    "sourceUrl": "https://www.vvc.gov.lv/lv/media/20850/download?attachment=",
+    "responseUrl": "https://www.vvc.gov.lv/lv/media/20850/download?attachment=",
+    "mime": "text/csv; charset=UTF-8",
+    "lastModified": "Wed, 20 May 2026 10:48:38 GMT",
+    "downloadedAt": "2026-11-10T19:22:46.704981+00:00",
+    "bytes": 46715,
+    "sha256": "17d23b718f08e6ea2b4a6a870bf1f455eff0adf6c0d13410ee2c386746d9c4b4",
+    "file": "vvc-extended-current.csv"
+  },
+  {
+    "id": "ckan-traditional-current",
+    "sourceUrl": "https://data.gov.lv/dati/dataset/2a880497-a25b-4e59-990b-382ca155fb0c/resource/39d01c5b-6964-4e91-b05c-45e6fbf1b77a/download/latvieu-tradicionlo-vrdadienu-saraksts.csv",
+    "responseUrl": "https://data.gov.lv/dati/dataset/2a880497-a25b-4e59-990b-382ca155fb0c/resource/39d01c5b-6964-4e91-b05c-45e6fbf1b77a/download/latvieu-tradicionlo-vrdadienu-saraksts.csv",
+    "mime": "text/csv",
+    "lastModified": "Fri, 16 May 2025 12:58:37 GMT",
+    "downloadedAt": "2026-11-10T19:22:47.153377+00:00",
+    "bytes": 11648,
+    "sha256": "3ff7f67ca6ff59b568f5cd94f37082e683cd3dbb52061a7e6d262c57e7d66069",
+    "file": "ckan-traditional-current.csv"
+  },
+  {
+    "id": "ckan-extended-current",
+    "sourceUrl": "https://data.gov.lv/dati/dataset/2a880497-a25b-4e59-990b-382ca155fb0c/resource/549f6083-c28b-46b3-b401-538ccf83329f/download/paplaintais-kalendrvrdu-saraksts.csv",
+    "responseUrl": "https://data.gov.lv/dati/dataset/2a880497-a25b-4e59-990b-382ca155fb0c/resource/549f6083-c28b-46b3-b401-538ccf83329f/download/paplaintais-kalendrvrdu-saraksts.csv",
+    "mime": "text/csv",
+    "lastModified": "Mon, 16 Mar 2026 09:16:01 GMT",
+    "downloadedAt": "2026-11-10T19:22:47.702339+00:00",
+    "bytes": 46715,
+    "sha256": "17d23b718f08e6ea2b4a6a870bf1f455eff0adf6c0d13410ee2c386746d9c4b4",
+    "file": "ckan-extended-current.csv"
+  },
+  {
+    "id": "vvc-commission-page",
+    "sourceUrl": "https://www.vvc.gov.lv/lv/kalendarvardu-ekspertu-komisija",
+    "responseUrl": "https://www.vvc.gov.lv/lv/kalendarvardu-ekspertu-komisija",
+    "mime": "text/html; charset=UTF-8",
+    "downloadedAt": "2026-11-10T19:23:30.565136+00:00",
+    "bytes": 140484,
+    "sha256": "f430e56bfeb5fb306f9e0511352d0454df696f8073e3dab46a54a73cbbc1dadc",
+    "file": "vvc-commission-page.html"
+  },
+  {
+    "id": "decision-traditional-2025",
+    "sourceUrl": "https://www.vestnesis.lv/op/2025/95.1",
+    "responseUrl": "https://www.vestnesis.lv/op/2025/95.1",
+    "mime": "text/html; charset=UTF-8",
+    "downloadedAt": "2026-11-10T19:23:30.572931+00:00",
+    "bytes": 281631,
+    "sha256": "c13f0b59a2aba8c6a83b1879195ded41742dcbf6e4354ecf4b76cfed3aff7868",
+    "file": "decision-traditional-2025.html"
+  },
+  {
+    "id": "decision-extended-2025",
+    "sourceUrl": "https://www.vestnesis.lv/op/2025/95.2",
+    "responseUrl": "https://www.vestnesis.lv/op/2025/95.2",
+    "mime": "text/html; charset=UTF-8",
+    "downloadedAt": "2026-11-10T19:23:30.572976+00:00",
+    "bytes": 283813,
+    "sha256": "40195eeea96c5f3ec83465c684d5a6b279abd6dd21bf4d10b34e2b03fd699ffd",
+    "file": "decision-extended-2025.html"
+  },
+  {
+    "id": "decision-traditional-2022",
+    "sourceUrl": "https://www.vestnesis.lv/op/2022/57.20",
+    "responseUrl": "https://www.vestnesis.lv/op/2022/57.20",
+    "mime": "text/html; charset=UTF-8",
+    "downloadedAt": "2026-11-10T19:23:30.510645+00:00",
+    "bytes": 281713,
+    "sha256": "b36ccec5f35c1072990183f919d16dd7f59d58a8565bcb2d216d763a9bef271f",
+    "file": "decision-traditional-2022.html"
+  },
+  {
+    "id": "ckan-package-metadata",
+    "sourceUrl": "https://data.gov.lv/dati/api/3/action/package_show?id=2a880497-a25b-4e59-990b-382ca155fb0c",
+    "responseUrl": "https://data.gov.lv/dati/api/3/action/package_show?id=2a880497-a25b-4e59-990b-382ca155fb0c",
+    "mime": "application/json;charset=utf-8",
+    "downloadedAt": "2026-11-10T19:23:30.847258+00:00",
+    "bytes": 5109,
+    "sha256": "ad85c9ebc8c79718634e5fdb8a7bb73d418dfcbe9870ee1424abb01507385f8f",
+    "file": "ckan-package-metadata.json"
+  },
+  {
+    "id": "ckan-traditional-datastore",
+    "sourceUrl": "https://data.gov.lv/dati/api/3/action/datastore_search?resource_id=39d01c5b-6964-4e91-b05c-45e6fbf1b77a&limit=400",
+    "responseUrl": "https://data.gov.lv/dati/api/3/action/datastore_search?resource_id=39d01c5b-6964-4e91-b05c-45e6fbf1b77a&limit=400",
+    "mime": "application/json;charset=utf-8",
+    "downloadedAt": "2026-11-10T19:23:31.049862+00:00",
+    "bytes": 25754,
+    "sha256": "3a45576e306a7287fb1f7a0a69c5dcc7de34d8e0a6a48bb6dc99c381c58404b3",
+    "file": "ckan-traditional-datastore.json"
+  },
+  {
+    "id": "ckan-extended-datastore",
+    "sourceUrl": "https://data.gov.lv/dati/api/3/action/datastore_search?resource_id=549f6083-c28b-46b3-b401-538ccf83329f&limit=400",
+    "responseUrl": "https://data.gov.lv/dati/api/3/action/datastore_search?resource_id=549f6083-c28b-46b3-b401-538ccf83329f&limit=400",
+    "mime": "application/json;charset=utf-8",
+    "downloadedAt": "2026-11-10T19:23:31.135517+00:00",
+    "bytes": 61525,
+    "sha256": "88d8056aba571188785921f578e5fa7981dfe1f0cd2aebe66c2a0d4a90ca5082",
+    "file": "ckan-extended-datastore.json"
+  }
+]

@@ -81,3 +81,14 @@
 #city-card .station-observation[data-state=unavailable]>#station-observation-value{display:none}
 #city-card .station-observation p,#city-card .station-observation small{overflow-wrap:anywhere}
 @media (max-width:420px){#city-card .weather-summary{grid-template-columns:40px minmax(0,1fr)}#city-card .weather-summary .weather-summary-icon{width:40px;height:40px}}
+
+#city-card .city-location-controls{display:flex;align-items:center;gap:8px;margin:9px 0 0;min-width:0}
+#city-card #city-location-status{flex:1;min-width:0;margin:0;font-size:10px;line-height:1.5;color:#77616d;overflow-wrap:anywhere}
+#city-card #city-location-auto{display:inline-flex;align-items:center;justify-content:center;gap:5px;flex:none;padding:6px 9px;min-height:32px;border:1px solid #dfc7cd;border-radius:8px;background:#fffaf7;color:#82324a;font-size:11px;line-height:1.2;box-shadow:none}
+#city-card #city-location-auto:disabled{opacity:.6;cursor:wait}
+#city-card[data-location-state=detecting] .city-photo>img{visibility:hidden}
+#city-card .city-photo.is-location-illustration{background:radial-gradient(ellipse at 50% 30%,#fffdf6,#e5d9ce)}
+#city-card .city-photo.is-location-illustration>img{object-fit:contain;padding:20px 20px 35px}
+#city-card .city-sun-title>span:last-child{max-width:55%;overflow-wrap:anywhere;text-align:right}
+#city-card .city-sun-visual[data-phase=unavailable]{opacity:.35}
+#city-card #station-observation[hidden]{display:none!important}

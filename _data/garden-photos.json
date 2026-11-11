@@ -1,0 +1,644 @@
+{
+  "photos": [
+    {
+      "cropId": "burkani",
+      "title": "File:Vegetable-Carrot-Bundle-wStalks.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Vegetable-Carrot-Bundle-wStalks.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Vegetable-Carrot-Bundle-wStalks.jpg",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/Vegetable-Carrot-Bundle-wStalks.jpg/960px-Vegetable-Carrot-Bundle-wStalks.jpg",
+      "sourceFile": "/assets/garden/photos/sources/burkani.jpg",
+      "sourceSha256": "a9df9bc9d8c941073bab60c1bf054d799b53f52e8a6428d1f98b9bd75e99fc49",
+      "author": "Evan-Amos",
+      "credit": "Own work",
+      "license": "Public domain",
+      "licenseUrl": "",
+      "description": "A bundle of carrots with their stalks still attached. Bought from a farmers market in Brooklyn, from an independent farm.",
+      "alt": "Burkānu saišķis ar zaļiem lakstiem",
+      "src": "/assets/garden/photos/burkani-320.webp",
+      "large": "/assets/garden/photos/burkani-960.webp",
+      "srcset": "/assets/garden/photos/burkani-320.webp 320w, /assets/garden/photos/burkani-960.webp 960w",
+      "files": [
+        {
+          "src": "/assets/garden/photos/burkani-320.webp",
+          "width": 320,
+          "height": 240,
+          "bytes": 12078,
+          "sha256": "ce21c93ee02dd4c9241983ddbb1f88364883a27d6d667a3341357027ef61d6bd"
+        },
+        {
+          "src": "/assets/garden/photos/burkani-960.webp",
+          "width": 960,
+          "height": 720,
+          "bytes": 98424,
+          "sha256": "f9b6cef2deb72e33bb2afa1a5459d7de201b8b7c4356f130d3d7e239863d4b4e"
+        }
+      ],
+      "changes": "Samazināts izmērs, balts ietvars un WebP formāts.",
+      "visualReview": {
+        "date": "2026-11-10",
+        "sourceSha256": "a9df9bc9d8c941073bab60c1bf054d799b53f52e8a6428d1f98b9bd75e99fc49",
+        "observation": "Burkānu saišķis ar zaļiem lakstiem"
+      }
+    },
+    {
+      "cropId": "galda-bietes",
+      "title": "File:Detroitdarkredbeets.png",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Detroitdarkredbeets.png",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Detroitdarkredbeets.png",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/Detroitdarkredbeets.png/960px-Detroitdarkredbeets.png",
+      "sourceFile": "/assets/garden/photos/sources/galda-bietes.png",
+      "sourceSha256": "663d76c05c0fca017491ec8a3e2f2b601d22fc6d6ef5f9688c0ba135fbdff246",
+      "author": "BriannaWalther",
+      "credit": "Own work",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "description": "Detroit Dark Red Beets",
+      "alt": "Sarkanas galda bietes ar lapu kātiem",
+      "src": "/assets/garden/photos/galda-bietes-320.webp",
+      "large": "/assets/garden/photos/galda-bietes-960.webp",
+      "srcset": "/assets/garden/photos/galda-bietes-320.webp 320w, /assets/garden/photos/galda-bietes-960.webp 960w",
+      "files": [
+        {
+          "src": "/assets/garden/photos/galda-bietes-320.webp",
+          "width": 320,
+          "height": 240,
+          "bytes": 11648,
+          "sha256": "cc049e9fc11414f1ca336a470633525815c7041b16833059b0c406518c47f053"
+        },
+        {
+          "src": "/assets/garden/photos/galda-bietes-960.webp",
+          "width": 960,
+          "height": 720,
+          "bytes": 55514,
+          "sha256": "cb81dfdf4085c5384a605475a79959a39d8293fb94ce9c48623672f5209609b9"
+        }
+      ],
+      "changes": "Samazināts izmērs, balts ietvars un WebP formāts.",
+      "visualReview": {
+        "date": "2026-11-10",
+        "sourceSha256": "663d76c05c0fca017491ec8a3e2f2b601d22fc6d6ef5f9688c0ba135fbdff246",
+        "observation": "Sarkanas galda bietes ar lapu kātiem"
+      }
+    },
+    {
+      "cropId": "redisi",
+      "title": "File:Radish 3371103037 4ab07db0bf o.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Radish_3371103037_4ab07db0bf_o.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Radish_3371103037_4ab07db0bf_o.jpg",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Radish_3371103037_4ab07db0bf_o.jpg/960px-Radish_3371103037_4ab07db0bf_o.jpg",
+      "sourceFile": "/assets/garden/photos/sources/redisi.jpg",
+      "sourceSha256": "f48f7a8d66405585ba41676631bcdd360264f6be711e33813242c224651b8656",
+      "author": "Self, en:User:Jengod",
+      "credit": "Own work",
+      "license": "Public domain",
+      "licenseUrl": "",
+      "description": "Easter egg radishes, just harvested",
+      "alt": "Balti un sārti redīsi ar lapām",
+      "src": "/assets/garden/photos/redisi-320.webp",
+      "large": "/assets/garden/photos/redisi-960.webp",
+      "srcset": "/assets/garden/photos/redisi-320.webp 320w, /assets/garden/photos/redisi-960.webp 960w",
+      "files": [
+        {
+          "src": "/assets/garden/photos/redisi-320.webp",
+          "width": 320,
+          "height": 240,
+          "bytes": 14208,
+          "sha256": "8d66093ae174a017e589401272989a34e60f9afdc683ee5bf8911176d501441f"
+        },
+        {
+          "src": "/assets/garden/photos/redisi-960.webp",
+          "width": 960,
+          "height": 720,
+          "bytes": 102458,
+          "sha256": "11e31c5764542d6c253db6d0d1ae2b75b4fb8a0137e092c633707cf1a2e76b92"
+        }
+      ],
+      "changes": "Samazināts izmērs, balts ietvars un WebP formāts.",
+      "visualReview": {
+        "date": "2026-11-10",
+        "sourceSha256": "f48f7a8d66405585ba41676631bcdd360264f6be711e33813242c224651b8656",
+        "observation": "Balti un sārti redīsi ar lapām"
+      }
+    },
+    {
+      "cropId": "saknu-selerijas",
+      "title": "File:Céleri-rave-fendu.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:C%C3%A9leri-rave-fendu.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ec/C%C3%A9leri-rave-fendu.jpg",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/C%C3%A9leri-rave-fendu.jpg/960px-C%C3%A9leri-rave-fendu.jpg",
+      "sourceFile": "/assets/garden/photos/sources/saknu-selerijas.jpg",
+      "sourceSha256": "f0be179041c2e06018afb10dc929ab8b35a12d00381d15a650d7c2462697f249",
+      "author": "DocteurCosmos",
+      "credit": "Own work",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "description": "Celeriac",
+      "alt": "Pārgriezta sakņu selerija uz dēlīša",
+      "src": "/assets/garden/photos/saknu-selerijas-320.webp",
+      "large": "/assets/garden/photos/saknu-selerijas-960.webp",
+      "srcset": "/assets/garden/photos/saknu-selerijas-320.webp 320w, /assets/garden/photos/saknu-selerijas-960.webp 960w",
+      "files": [
+        {
+          "src": "/assets/garden/photos/saknu-selerijas-320.webp",
+          "width": 320,
+          "height": 240,
+          "bytes": 14800,
+          "sha256": "b93dbb4cc2d90b2ff3803ca5f0a4f5eef2daede09894bdedccb68f28fb16302d"
+        },
+        {
+          "src": "/assets/garden/photos/saknu-selerijas-960.webp",
+          "width": 960,
+          "height": 720,
+          "bytes": 83428,
+          "sha256": "1d9079f4283b70d66b0223be77c1a7279911debb1992d72f7bbdf4cd551dabd0"
+        }
+      ],
+      "changes": "Samazināts izmērs, balts ietvars un WebP formāts.",
+      "visualReview": {
+        "date": "2026-11-10",
+        "sourceSha256": "f0be179041c2e06018afb10dc929ab8b35a12d00381d15a650d7c2462697f249",
+        "observation": "Pārgriezta sakņu selerija uz dēlīša"
+      }
+    },
+    {
+      "cropId": "sipoli",
+      "title": "File:Mixed onions.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mixed_onions.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Mixed_onions.jpg",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/Mixed_onions.jpg/960px-Mixed_onions.jpg",
+      "sourceFile": "/assets/garden/photos/sources/sipoli.jpg",
+      "sourceSha256": "2e75d439c30f17b1abd3a670f467be2c78551bedd38e801b2d938dd01ce59053",
+      "author": "Colin",
+      "credit": "Own work",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "description": "Mixed onions: red and brown onions, with and without skin, whole and sliced and in rings.",
+      "alt": "Dzelteni un sarkani sīpoli, arī pārgriezti",
+      "src": "/assets/garden/photos/sipoli-320.webp",
+      "large": "/assets/garden/photos/sipoli-960.webp",
+      "srcset": "/assets/garden/photos/sipoli-320.webp 320w, /assets/garden/photos/sipoli-960.webp 960w",
+      "files": [
+        {
+          "src": "/assets/garden/photos/sipoli-320.webp",
+          "width": 320,
+          "height": 240,
+          "bytes": 8080,
+          "sha256": "0e9a0712ef206069b529d2d02fd6a8557170675e902609519700ca914f46e210"
+        },
+        {
+          "src": "/assets/garden/photos/sipoli-960.webp",
+          "width": 960,
+          "height": 720,
+          "bytes": 58698,
+          "sha256": "9ec8e83ab87efeeffd355ba3d73ce35738cd44d7d8dec7afda0d9a3186d7918f"
+        }
+      ],
+      "changes": "Samazināts izmērs, balts ietvars un WebP formāts.",
+      "visualReview": {
+        "date": "2026-11-10",
+        "sourceSha256": "2e75d439c30f17b1abd3a670f467be2c78551bedd38e801b2d938dd01ce59053",
+        "observation": "Dzelteni un sarkani sīpoli, arī pārgriezti"
+      }
+    },
+    {
+      "cropId": "kiploki",
+      "title": "File:Garlic bulbs and cloves.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Garlic_bulbs_and_cloves.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Garlic_bulbs_and_cloves.jpg",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9a/Garlic_bulbs_and_cloves.jpg/960px-Garlic_bulbs_and_cloves.jpg",
+      "sourceFile": "/assets/garden/photos/sources/kiploki.jpg",
+      "sourceSha256": "c5a409784b535aad8bf6bf959dc8dfde93b5536b48a91e2d27b8fa620349b223",
+      "author": "Ivar Leidus",
+      "credit": "Own work",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "description": "Garlic bulbs and cloves",
+      "alt": "Ķiploku galviņas un atdalītas daiviņas",
+      "src": "/assets/garden/photos/kiploki-320.webp",
+      "large": "/assets/garden/photos/kiploki-960.webp",
+      "srcset": "/assets/garden/photos/kiploki-320.webp 320w, /assets/garden/photos/kiploki-960.webp 960w",
+      "files": [
+        {
+          "src": "/assets/garden/photos/kiploki-320.webp",
+          "width": 320,
+          "height": 240,
+          "bytes": 10046,
+          "sha256": "64b473cc5a7940915198d22aefb6b8c5433e3d17823bff2a2ce221e9a9d7eeb7"
+        },
+        {
+          "src": "/assets/garden/photos/kiploki-960.webp",
+          "width": 960,
+          "height": 720,
+          "bytes": 77380,
+          "sha256": "cd6d9afaac4881ca7651e71d1f1d479b629edf4aab0a0dfdecac22a47cf150cb"
+        }
+      ],
+      "changes": "Samazināts izmērs, balts ietvars un WebP formāts.",
+      "visualReview": {
+        "date": "2026-11-10",
+        "sourceSha256": "c5a409784b535aad8bf6bf959dc8dfde93b5536b48a91e2d27b8fa620349b223",
+        "observation": "Ķiploku galviņas un atdalītas daiviņas"
+      }
+    },
+    {
+      "cropId": "puravi",
+      "title": "File:Leek on white background - 0947.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Leek_on_white_background_-_0947.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/63/Leek_on_white_background_-_0947.jpg",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/Leek_on_white_background_-_0947.jpg/960px-Leek_on_white_background_-_0947.jpg",
+      "sourceFile": "/assets/garden/photos/sources/puravi.jpg",
+      "sourceSha256": "8a422f4dc2e23fc7363462951f9217dd1f5090235eda274a88ca81cbea0671c3",
+      "author": "Amada44",
+      "credit": "Own work",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "description": "Leek on white background",
+      "alt": "Purava augs ar garām zaļām lapām",
+      "src": "/assets/garden/photos/puravi-320.webp",
+      "large": "/assets/garden/photos/puravi-960.webp",
+      "srcset": "/assets/garden/photos/puravi-320.webp 320w, /assets/garden/photos/puravi-960.webp 960w",
+      "files": [
+        {
+          "src": "/assets/garden/photos/puravi-320.webp",
+          "width": 320,
+          "height": 240,
+          "bytes": 3328,
+          "sha256": "ef3e9a9b5e22a480fdb4b46b9ceffc45c6035f78367c8391ff67a4ce03d4fb45"
+        },
+        {
+          "src": "/assets/garden/photos/puravi-960.webp",
+          "width": 960,
+          "height": 720,
+          "bytes": 15528,
+          "sha256": "840aecc9a08de2e28757903b84818bb9d4cd1c7e41abcbfdca8fef126adde380"
+        }
+      ],
+      "changes": "Samazināts izmērs, balts ietvars un WebP formāts.",
+      "visualReview": {
+        "date": "2026-11-10",
+        "sourceSha256": "8a422f4dc2e23fc7363462951f9217dd1f5090235eda274a88ca81cbea0671c3",
+        "observation": "Purava augs ar garām zaļām lapām"
+      }
+    },
+    {
+      "cropId": "zirni",
+      "title": "File:Doperwt rijserwt peulen Pisum sativum.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Doperwt_rijserwt_peulen_Pisum_sativum.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Doperwt_rijserwt_peulen_Pisum_sativum.jpg",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/Doperwt_rijserwt_peulen_Pisum_sativum.jpg/960px-Doperwt_rijserwt_peulen_Pisum_sativum.jpg",
+      "sourceFile": "/assets/garden/photos/sources/zirni.jpg",
+      "sourceSha256": "4ee9ff77600d0d061796389cd8e0388d19ef4512609e0788254b19072d71bc54",
+      "author": "Rasbak",
+      "credit": "Own work",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "description": "Green peas in a pod",
+      "alt": "Zaļas zirņu pākstis uz auga",
+      "src": "/assets/garden/photos/zirni-320.webp",
+      "large": "/assets/garden/photos/zirni-960.webp",
+      "srcset": "/assets/garden/photos/zirni-320.webp 320w, /assets/garden/photos/zirni-960.webp 960w",
+      "files": [
+        {
+          "src": "/assets/garden/photos/zirni-320.webp",
+          "width": 320,
+          "height": 240,
+          "bytes": 11848,
+          "sha256": "05b91ac3a2df0aa18f72e8e80c367ec100e1978c26009e60d29711d94c633f0f"
+        },
+        {
+          "src": "/assets/garden/photos/zirni-960.webp",
+          "width": 960,
+          "height": 720,
+          "bytes": 73490,
+          "sha256": "6443d77bff6a3797d1aaca001ef7f2c022a02d4d2027c7d879dc098ee60f255d"
+        }
+      ],
+      "changes": "Samazināts izmērs, balts ietvars un WebP formāts.",
+      "visualReview": {
+        "date": "2026-11-10",
+        "sourceSha256": "4ee9ff77600d0d061796389cd8e0388d19ef4512609e0788254b19072d71bc54",
+        "observation": "Zaļas zirņu pākstis uz auga"
+      }
+    },
+    {
+      "cropId": "pupinas",
+      "title": "File:38 - CIMG1598.JPG",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:38_-_CIMG1598.JPG",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4a/38_-_CIMG1598.JPG",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/38_-_CIMG1598.JPG/960px-38_-_CIMG1598.JPG",
+      "sourceFile": "/assets/garden/photos/sources/pupinas.jpg",
+      "sourceSha256": "0c5514be781292c144cd9bff552f567b243962f3a7d4d2d122769fd261eb775c",
+      "author": "Susan Slater",
+      "credit": "Own work",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "description": "french beans, green beans, haricot beans, string beans, common bean (Phaseolus vulgaris)",
+      "alt": "Svaigas zaļo pupiņu pākstis",
+      "src": "/assets/garden/photos/pupinas-320.webp",
+      "large": "/assets/garden/photos/pupinas-960.webp",
+      "srcset": "/assets/garden/photos/pupinas-320.webp 320w, /assets/garden/photos/pupinas-960.webp 960w",
+      "files": [
+        {
+          "src": "/assets/garden/photos/pupinas-320.webp",
+          "width": 320,
+          "height": 240,
+          "bytes": 29564,
+          "sha256": "8fd5fa7429ca910efff072aa4eb3adbd8d30d49c530777b209a37f089f34a114"
+        },
+        {
+          "src": "/assets/garden/photos/pupinas-960.webp",
+          "width": 960,
+          "height": 720,
+          "bytes": 268762,
+          "sha256": "fd3b191a6834204a227e351543b20769ab554b8683dc9735d1323bd5fbcc181b"
+        }
+      ],
+      "changes": "Samazināts izmērs, balts ietvars un WebP formāts.",
+      "visualReview": {
+        "date": "2026-11-10",
+        "sourceSha256": "0c5514be781292c144cd9bff552f567b243962f3a7d4d2d122769fd261eb775c",
+        "observation": "Svaigas zaļo pupiņu pākstis"
+      }
+    },
+    {
+      "cropId": "gurki",
+      "title": "File:ARS cucumber.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:ARS_cucumber.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/96/ARS_cucumber.jpg",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/ARS_cucumber.jpg/960px-ARS_cucumber.jpg",
+      "sourceFile": "/assets/garden/photos/sources/gurki.jpg",
+      "sourceSha256": "eb3c6bacebae0c4f90a79ba2ff81373072e20a9c3a6e7adab31877aecf6e4b10",
+      "author": "Stephen Ausmus, USDA ARS",
+      "credit": "This image was released by the Agricultural Research Service, the research agency of the United States Department of Agriculture, with the ID D730-30 (next).",
+      "license": "Public domain",
+      "licenseUrl": "",
+      "description": "Cucumber fruit developing on plants possessing multiple lateral branching, which is atypical of commercial cucumbers. This type of branching is important because increasing branch number increases yield potential.",
+      "alt": "Gurķu augļi un auga lapas",
+      "src": "/assets/garden/photos/gurki-320.webp",
+      "large": "/assets/garden/photos/gurki-960.webp",
+      "srcset": "/assets/garden/photos/gurki-320.webp 320w, /assets/garden/photos/gurki-960.webp 960w",
+      "files": [
+        {
+          "src": "/assets/garden/photos/gurki-320.webp",
+          "width": 320,
+          "height": 240,
+          "bytes": 15024,
+          "sha256": "14d7c1757fbc6e9bc4f32ef1308888ef97ac305f3b730cb70982a42cbae711ba"
+        },
+        {
+          "src": "/assets/garden/photos/gurki-960.webp",
+          "width": 960,
+          "height": 720,
+          "bytes": 115800,
+          "sha256": "31fb77da1abf97a8c3d91d6eedc20f1df3b149f51b188cb240bbdb488cc45524"
+        }
+      ],
+      "changes": "Samazināts izmērs, balts ietvars un WebP formāts.",
+      "visualReview": {
+        "date": "2026-11-10",
+        "sourceSha256": "eb3c6bacebae0c4f90a79ba2ff81373072e20a9c3a6e7adab31877aecf6e4b10",
+        "observation": "Gurķu augļi un auga lapas"
+      }
+    },
+    {
+      "cropId": "salati",
+      "title": "File:Iceberg lettuce in SB.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Iceberg_lettuce_in_SB.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/da/Iceberg_lettuce_in_SB.jpg",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/Iceberg_lettuce_in_SB.jpg/960px-Iceberg_lettuce_in_SB.jpg",
+      "sourceFile": "/assets/garden/photos/sources/salati.jpg",
+      "sourceSha256": "9a3382644101924cf63e7b36b0c4fcbe4926eb069bdd0040c3fcbb935bb7d05f",
+      "author": "en:User:Geographer",
+      "credit": "enwiki",
+      "license": "CC BY 1.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/1.0",
+      "description": "Close-up of an iceberg lettuce field in Northern Santa Barbara County (California, USA) between Santa Maria and Lompoc, on July 31, 2005.",
+      "alt": "Zaļas salātu galviņas dobē",
+      "src": "/assets/garden/photos/salati-320.webp",
+      "large": "/assets/garden/photos/salati-960.webp",
+      "srcset": "/assets/garden/photos/salati-320.webp 320w, /assets/garden/photos/salati-960.webp 960w",
+      "files": [
+        {
+          "src": "/assets/garden/photos/salati-320.webp",
+          "width": 320,
+          "height": 240,
+          "bytes": 39746,
+          "sha256": "fd8e4c3a9c7138b42099c2d39853588ae42ef3d4d1f1981a345d678a73fa4fdf"
+        },
+        {
+          "src": "/assets/garden/photos/salati-960.webp",
+          "width": 960,
+          "height": 720,
+          "bytes": 324646,
+          "sha256": "7529a23aa4467bf74022b1e1663a012d25bee4ce2c6e2c55d7e58677837fb50c"
+        }
+      ],
+      "changes": "Samazināts izmērs, balts ietvars un WebP formāts.",
+      "visualReview": {
+        "date": "2026-11-10",
+        "sourceSha256": "9a3382644101924cf63e7b36b0c4fcbe4926eb069bdd0040c3fcbb935bb7d05f",
+        "observation": "Zaļas salātu galviņas dobē"
+      }
+    },
+    {
+      "cropId": "dilles",
+      "title": "File:20141003Anethum graveolens.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:20141003Anethum_graveolens.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a7/20141003Anethum_graveolens.jpg",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/20141003Anethum_graveolens.jpg/960px-20141003Anethum_graveolens.jpg",
+      "sourceFile": "/assets/garden/photos/sources/dilles.jpg",
+      "sourceSha256": "8311b3957fbf8e45f6becbf359f7af6884afe6e0bc67ccd0c95d2f29539be451",
+      "author": "AnRo0002",
+      "credit": "Own work",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "description": "Verwilderter Dill (Anethum graveolens) nahe der Ostspange in Saarbrücken",
+      "alt": "Dilles ar dzeltenām ziedkopām",
+      "src": "/assets/garden/photos/dilles-320.webp",
+      "large": "/assets/garden/photos/dilles-960.webp",
+      "srcset": "/assets/garden/photos/dilles-320.webp 320w, /assets/garden/photos/dilles-960.webp 960w",
+      "files": [
+        {
+          "src": "/assets/garden/photos/dilles-320.webp",
+          "width": 320,
+          "height": 240,
+          "bytes": 25084,
+          "sha256": "30a799c83da3d3add50f821bfd3d57e706d80306ef1ec5f6f77891a7392e61ae"
+        },
+        {
+          "src": "/assets/garden/photos/dilles-960.webp",
+          "width": 960,
+          "height": 720,
+          "bytes": 144316,
+          "sha256": "f30a8f01246c63591d955c6324180e90790036b4cbcd02351974ee839869a8bb"
+        }
+      ],
+      "changes": "Samazināts izmērs, balts ietvars un WebP formāts.",
+      "visualReview": {
+        "date": "2026-11-10",
+        "sourceSha256": "8311b3957fbf8e45f6becbf359f7af6884afe6e0bc67ccd0c95d2f29539be451",
+        "observation": "Dilles ar dzeltenām ziedkopām"
+      }
+    },
+    {
+      "cropId": "spinati",
+      "title": "File:Spinach leaves.png",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Spinach_leaves.png",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Spinach_leaves.png",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Spinach_leaves.png/960px-Spinach_leaves.png",
+      "sourceFile": "/assets/garden/photos/sources/spinati.png",
+      "sourceSha256": "538496316f3e69c704918c662857b91d03dfaf11a1a6a1cd1c1bdb782f7b7ac4",
+      "author": "Tiia Monto",
+      "credit": "Own work",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "description": "Spinach leaves.",
+      "alt": "Svaigas zaļas spinātu lapas",
+      "src": "/assets/garden/photos/spinati-320.webp",
+      "large": "/assets/garden/photos/spinati-960.webp",
+      "srcset": "/assets/garden/photos/spinati-320.webp 320w, /assets/garden/photos/spinati-960.webp 960w",
+      "files": [
+        {
+          "src": "/assets/garden/photos/spinati-320.webp",
+          "width": 320,
+          "height": 240,
+          "bytes": 17652,
+          "sha256": "39c75cd2851df9475964740e2292e78499d3b4f944728038150c6fb38ad7509e"
+        },
+        {
+          "src": "/assets/garden/photos/spinati-960.webp",
+          "width": 960,
+          "height": 720,
+          "bytes": 94166,
+          "sha256": "1f174176c5f8b7186b6fa712c723e08290e87e7bd0fad2edc927b86b43d69d7b"
+        }
+      ],
+      "changes": "Samazināts izmērs, balts ietvars un WebP formāts.",
+      "visualReview": {
+        "date": "2026-11-10",
+        "sourceSha256": "538496316f3e69c704918c662857b91d03dfaf11a1a6a1cd1c1bdb782f7b7ac4",
+        "observation": "Svaigas zaļas spinātu lapas"
+      }
+    },
+    {
+      "cropId": "kartupeli",
+      "title": "File:Patates.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Patates.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Patates.jpg",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/Patates.jpg/960px-Patates.jpg",
+      "sourceFile": "/assets/garden/photos/sources/kartupeli.jpg",
+      "sourceSha256": "8475a764162fabc6738dc989e683842e8b2c9434f0370beb0900d9653887384a",
+      "author": "Scott Bauer, USDA ARS",
+      "credit": "This image was released by the Agricultural Research Service, the research agency of the United States Department of Agriculture, with the ID K9152-1 (next).",
+      "license": "Public domain",
+      "licenseUrl": "",
+      "description": "Different potato varieties. – The potato is the vegetable of choice in the United States. On average, Americans devour about 65 kg of them per year. New potato releases by ARS scientists give us even more choices of potatoes to eat.",
+      "alt": "Dažādu krāsu kartupeļu bumbuļi",
+      "src": "/assets/garden/photos/kartupeli-320.webp",
+      "large": "/assets/garden/photos/kartupeli-960.webp",
+      "srcset": "/assets/garden/photos/kartupeli-320.webp 320w, /assets/garden/photos/kartupeli-960.webp 960w",
+      "files": [
+        {
+          "src": "/assets/garden/photos/kartupeli-320.webp",
+          "width": 320,
+          "height": 240,
+          "bytes": 18232,
+          "sha256": "f5e841fd080d98e084ac8ebd0ad355a102d35a3e996eedcea6c784e3c3359f76"
+        },
+        {
+          "src": "/assets/garden/photos/kartupeli-960.webp",
+          "width": 960,
+          "height": 720,
+          "bytes": 191324,
+          "sha256": "fb84789064f4a9670c7c41d59125e37405e4f8b65fde052a71cbb6874ef17531"
+        }
+      ],
+      "changes": "Samazināts izmērs, balts ietvars un WebP formāts.",
+      "visualReview": {
+        "date": "2026-11-10",
+        "sourceSha256": "8475a764162fabc6738dc989e683842e8b2c9434f0370beb0900d9653887384a",
+        "observation": "Dažādu krāsu kartupeļu bumbuļi"
+      }
+    },
+    {
+      "cropId": "kaposti",
+      "title": "File:A halved head of white cabbage.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:A_halved_head_of_white_cabbage.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b3/A_halved_head_of_white_cabbage.jpg",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/A_halved_head_of_white_cabbage.jpg/960px-A_halved_head_of_white_cabbage.jpg",
+      "sourceFile": "/assets/garden/photos/sources/kaposti.jpg",
+      "sourceSha256": "d3190c359e23f59ec9509bcb56c6b119d660ae4b764dd42db8c52e8fd95c54dd",
+      "author": "Marc-Lautenbacher",
+      "credit": "Own work",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "description": "A head of white cabbage cut in half to make fresh sauerkraut on kitchen Table in sunlight.",
+      "alt": "Pārgriezta baltā galviņkāposta galviņa",
+      "src": "/assets/garden/photos/kaposti-320.webp",
+      "large": "/assets/garden/photos/kaposti-960.webp",
+      "srcset": "/assets/garden/photos/kaposti-320.webp 320w, /assets/garden/photos/kaposti-960.webp 960w",
+      "files": [
+        {
+          "src": "/assets/garden/photos/kaposti-320.webp",
+          "width": 320,
+          "height": 240,
+          "bytes": 9650,
+          "sha256": "9b1c7a4b375ff31d39f483fc5921f5e13c6bdc2396416530169141e57c4b9cfc"
+        },
+        {
+          "src": "/assets/garden/photos/kaposti-960.webp",
+          "width": 960,
+          "height": 720,
+          "bytes": 63698,
+          "sha256": "44fc6b585ea4e094f3353828cac85089738720079d05f87f779ecf7f9231177d"
+        }
+      ],
+      "changes": "Samazināts izmērs, balts ietvars un WebP formāts.",
+      "visualReview": {
+        "date": "2026-11-10",
+        "sourceSha256": "d3190c359e23f59ec9509bcb56c6b119d660ae4b764dd42db8c52e8fd95c54dd",
+        "observation": "Pārgriezta baltā galviņkāposta galviņa"
+      }
+    },
+    {
+      "cropId": "tomati",
+      "title": "File:Tomato je.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tomato_je.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/89/Tomato_je.jpg",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Tomato_je.jpg/960px-Tomato_je.jpg",
+      "sourceFile": "/assets/garden/photos/sources/tomati.jpg",
+      "sourceSha256": "687a7035409c220e828ac60215835aa8bf5f52bb8f86cd20033468106592f362",
+      "author": "Softeis",
+      "credit": "Own work",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "description": "Best Of Cheese Foods!\n\nTomato Burger\nTomato Pizza\nTomato Lasagna",
+      "alt": "Nogatavojušies sarkani tomāti ar kātiņiem",
+      "src": "/assets/garden/photos/tomati-320.webp",
+      "large": "/assets/garden/photos/tomati-960.webp",
+      "srcset": "/assets/garden/photos/tomati-320.webp 320w, /assets/garden/photos/tomati-960.webp 960w",
+      "files": [
+        {
+          "src": "/assets/garden/photos/tomati-320.webp",
+          "width": 320,
+          "height": 240,
+          "bytes": 6504,
+          "sha256": "e48ef3ce4c3b667657dad1bcf1e543e08faa24cdaba1cd3f27e02be1d160e2d1"
+        },
+        {
+          "src": "/assets/garden/photos/tomati-960.webp",
+          "width": 960,
+          "height": 720,
+          "bytes": 46422,
+          "sha256": "8c1c6c88c99f3d70cfdefbd0856e8b3dbf4b92fc23c668f9969f46a52c805ea3"
+        }
+      ],
+      "changes": "Samazināts izmērs, balts ietvars un WebP formāts.",
+      "visualReview": {
+        "date": "2026-11-10",
+        "sourceSha256": "687a7035409c220e828ac60215835aa8bf5f52bb8f86cd20033468106592f362",
+        "observation": "Nogatavojušies sarkani tomāti ar kātiņiem"
+      }
+    }
+  ]
+}

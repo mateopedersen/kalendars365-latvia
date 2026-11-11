@@ -1,0 +1,457 @@
+{
+  "/": {
+    "heading": "No datuma līdz pārdomātam dienas plānam",
+    "paragraphs": [
+      "Sāc ar jautājumu, ko vēlies ieplānot. Gada kalendārs palīdz salīdzināt mēnešus, mēneša skats atklāj nedēļu izkārtojumu, bet dienas skatā vari pievienot savus notikumus un piezīmes. Latvijas svētku brīvdienas, atceres dienas un vārda dienas ir atšķirīgi ieraksti: atceres datums pats par sevi nenozīmē brīvu darba dienu. Drukāšanai paredzētās 2027.–2030. gada veidnes atrodamas pie attiecīgā gada vai mēneša.",
+      "Pilsētas izvēle sasaista laikapstākļus un astronomijas aprēķinus ar konkrētu vietu. Automātiskais IP novērtējums ir aptuvens; ja tas neatbilst tavai atrašanās vietai, izvēlies pilsētu pats. Visām Latvijas pilsētām ir viena pulksteņa laika josla, taču saullēkta un saulrieta brīži atšķiras. Personīgie notikumi paliek šajā pārlūkā, tāpēc pirms ierīces maiņas saglabā datu dublējumu."
+    ]
+  },
+  "/kalendars/": {
+    "heading": "Kā izvēlēties piemērotu kalendāra pārskatu",
+    "paragraphs": [
+      "Gada pārskats ir piemērots ilgākiem plāniem: tajā vari salīdzināt svētku novietojumu, nedēļas nogales un vairāku mēnešu robežas. Piedāvājumā ir 2027., 2028., 2029. un 2030. gads. Īpaša uzmanība jāpievērš 2028. gadam, kurā februārī ir 29 dienas; iepriekšējā gada kalendāra izkārtojumu nevar vienkārši izmantot atkārtoti.",
+      "Atverot gadu vai mēnesi, vispirms redzēsi drukas veidnes. Kreisajā mēnešu izvēlnē katra diena ved uz atbilstošo datumu, bet nedēļas numurs atver nedēļas pārskatu. PDF izvēlies drukāšanai, savukārt Attēls ir piemērots saglabāšanai kā attēla fails. Svētku norādes vērtē kopā ar datuma veidu un avotu, ne tikai pēc iekrāsotas rūtiņas."
+    ]
+  },
+  "/menesa-kalendars/": {
+    "heading": "Mēnesis kā pārskatāma plānošanas vienība",
+    "paragraphs": [
+      "Mēneša skats parāda, kā konkrētā gada datumi sadalās pa nedēļām. Viena mēneša nosaukums nenozīmē vienādu izkārtojumu katru gadu: mainās sākuma nedēļas diena, ISO nedēļu numuri un daļa svētku datumu. Izvēlies vispirms gadu un pēc tam mēnesi, lai personīgais plāns un lejupielādētais kalendārs attiektos uz vienu periodu.",
+      "Mēneša sākuma un beigu rindās var būt arī blakus mēnešu datumi. Tie palīdz nepazaudēt pilnu nedēļu un ir atverami atsevišķi; gaišāks tonis norāda uz citu mēnesi. Plānojot vairāku dienu notikumu, pārbaudi abas mēneša robežas, bet pilnam gada kontekstam izmanto saiti uz gada pārskatu."
+    ]
+  },
+  "/nedelas-kalendars/": {
+    "heading": "Nedēļas numurs un kalendāra gads",
+    "paragraphs": [
+      "ISO nedēļa sākas pirmdienā un beidzas svētdienā. Pirmā nedēļa ir tā, kurā atrodas gada pirmā ceturtdiena, tāpēc janvāra sākuma datums var piederēt iepriekšējam nedēļu gadam. Piemēram, 2027. gada 1. janvāris ir 2026. gada 53. ISO nedēļā, lai gan pats datums jau pieder 2027. kalendāra gadam.",
+      "Pirms kopīga darba vai mācību plāna nosūtīšanas salīdzini nedēļas numuru ar tās pirmdienas un svētdienas datumu. Tas novērš pārpratumus gadu mijā un ļauj vienādi lasīt grafiku cilvēkiem, kuri ikdienā izmanto atšķirīgus kalendārus. Mēneša skatu izmanto termiņu apkārtnei, bet nedēļas skatu konkrētu dienu un uzdevumu secībai."
+    ]
+  },
+  "/nedelu-numuri/": {
+    "heading": "Kad noder ISO nedēļu numerācija",
+    "paragraphs": [
+      "Nedēļas numurs saīsina atsauci uz septiņu dienu periodu, piemēram, piegāžu, mācību vai maiņu plānā. Tomēr ar numuru vien nepietiek: 1. nedēļa atkārtojas katru gadu. Pieraksts ar nedēļu gadu un pirmdienas datumu ir precīzāks, īpaši decembra pēdējās un janvāra pirmajās dienās.",
+      "Gada pēdējās ISO nedēļas numuru var pārbaudīt pēc 28. decembra, kas vienmēr pieder sava nedēļu gada pēdējai nedēļai. 2027.–2030. gada nedēļu pārskatos iespējams pāriet uz pilnu datumu sarakstu. Ja nedēļa šķērso mēneša vai gada robežu, abi tās gali joprojām ir vienas un tās pašas ISO nedēļas daļa."
+    ]
+  },
+  "/pdf-kalendari/": {
+    "heading": "PDF vai attēls: izvēle pēc lietošanas mērķa",
+    "paragraphs": [
+      "PDF saglabā lapas fizisko izkārtojumu un ir ērts drukas dialogā. Attēls saglabā kalendāru augstas izšķirtspējas attēla failā, ko vari ievietot dokumentā vai apskatīt attēlu lietotnē. Pie veidnes vispirms pārbaudi gadu, mēnesi, papīra formātu un orientāciju; vienādi nosaukta gada un mēneša veidne nav viens un tas pats fails.",
+      "Gada un parasto mēnešu kolekcijās piedāvātas A3 veidnes, bet Mēness kalendāriem ir atsevišķi drukas izkārtojumi. Drukājot izvēlies failam atbilstošu papīru un vajadzības gadījumā iekļaušanu drukājamajā laukumā. Pārlūka galvenes, kājenes un lapas adrese nav kalendāra daļa; to parādīšanu nosaka drukas dialoga iestatījumi."
+    ]
+  },
+  "/izveidot-kalendaru/": {
+    "heading": "No savas fotogrāfijas līdz gatavam kalendāram",
+    "paragraphs": [
+      "Vispirms izvēlies gadu un veidni, pēc tam pievieno fotogrāfiju un personīgos datumus. Attēla apgriezumu pārbaudi pašā priekšskatījumā: horizontālā un vertikālā lapā viens foto var izskatīties atšķirīgi. Virsrakstam izmanto īsu formulējumu, lai tas nekonkurētu ar datumu režģi; garāku atgādinājumu ievieto pie attiecīgā datuma.",
+      "Pirms eksporta pārliecinies, ka izvēlēts īstais mēnesis vai viss gads un vajadzīgās Latvijas svētku atzīmes. PDF atver drukas priekšskatījumā ar tādu pašu papīra formātu un orientāciju, kāda norādīta veidotājā. Personīgie attēli tiek apstrādāti ierīcē; projektam saglabāts dublējums palīdz turpināt darbu vēlāk, nepaļaujoties tikai uz pārlūka krātuvi."
+    ]
+  },
+  "/tukss-kalendars/": {
+    "heading": "Brīva vieta saviem ierakstiem",
+    "paragraphs": [
+      "Tukšs kalendārs noder tad, ja svarīgākā ir vieta rokraksta piezīmēm, nevis gatavs pasākumu saraksts. Pirms lejupielādes izvēlies periodu un pārbaudi, vai redzami vajadzīgie datumi. Mēneša režģis ir piemērots termiņiem un tikšanās reizēm, bet nedēļas izkārtojums ļauj vairāk vietas atvēlēt katras dienas darbiem.",
+      "Izmanto vienu skaidru atzīmju sistēmu: piemēram, termiņus ieraksti pie datuma, bet papildu skaidrojumu atstāj piezīmju laukumā. Ja uz vienas lapas plāno vairāku cilvēku darbus, pie ieraksta pievieno iniciāļus. Pēc drukāšanas salīdzini pirmās un pēdējās nedēļas datumus, lai samazināts vai apgriezts izdrukas laukums nebūtu paslēpis kādu dienu."
+    ]
+  },
+  "/dienas-kalendars/": {
+    "heading": "Vienas dienas plāns ar skaidru prioritāti",
+    "paragraphs": [
+      "Dienas skatā vispirms pārbaudi izvēlēto datumu un pēc tam pievieno konkrētus notikumus. Atšķir tikšanos ar noteiktu sākuma laiku no visas dienas atgādinājuma: dzimšanas dienai nav jāaizņem viens nejauši izvēlēts dienas laiks. Ja pasākums ilgst vairākas dienas, pārbaudi arī tā beigu datumu.",
+      "Dienas piezīme noder īsam kontekstam, savukārt uzdevumu saraksts darbībām, kuras vēlies atzīmēt kā pabeigtas. Tādā veidā viens ieraksts neatkārtojas vairākās vietās un plānu ir vieglāk pārskatīt. Kalendāra dublējums saglabā personīgos ierakstus, bet ICS eksports ir paredzēts notikumu pārnešanai uz citu kalendāra lietotni."
+    ]
+  },
+  "/dienas-planotajs/": {
+    "heading": "Kā padarīt dienas sarakstu izpildāmu",
+    "paragraphs": [
+      "Dienas plānotājs ir pārskatāmāks, ja katram uzdevumam ir skaidra darbība. Ieraksts “nosūtīt pieteikumu” dod konkrētāku nākamo soli nekā plašs temats “pieteikumi”. Tikšanās ievieto notikumos, bet sagatavošanos tai atstāj uzdevumu sarakstā; tā redzēsi gan laika saistību, gan vēl paveicamo darbu.",
+      "Pārskatot dienas beigas, nepabeigtajam darbam piešķir jaunu datumu vai precizē tā apjomu. Dienas piezīmē vari saglabāt lēmumu un iemeslu, kāpēc plāns mainījās. Šie ieraksti paliek konkrētajā pārlūkā, tādēļ kopīgai plānošanai vai ierīces maiņai vispirms sagatavo atbilstošu eksportu vai datu dublējumu."
+    ]
+  },
+  "/dzimsanas-dienu-kalendars/": {
+    "heading": "Dzimšanas diena un vārda diena nav viens datums",
+    "paragraphs": [
+      "Dzimšanas dienu nosaka paša cilvēka dzimšanas datums, bet vārda dienu meklē atbilstošajā kalendārvārdu sarakstā. Ja plāno abus notikumus, saglabā tos atsevišķi un nosaukumā norādi, par kuru dienu ir runa. Tas ir īpaši noderīgi ģimenes kalendārā, kur vairākiem cilvēkiem var būt viens vārds.",
+      "29. februāra dzimšanas dienai pārbaudi atkārtošanas noteikumu: šāds datums nav katrā gadā. 2028. gada kalendārā tas ir pieejams, bet pārējos piedāvātajos gados aizstājēju nevajadzētu izvēlēties bez paša cilvēka vēlmes. Personiskam apsveikumu kalendāram izmanto tikai tādus vārdus un attēlus, kurus drīksti glabāt un kopīgot."
+    ]
+  },
+  "/kalendars-ar-vardu/": {
+    "heading": "Personīgs virsraksts ar pārbaudītu datumu",
+    "paragraphs": [
+      "Kalendārā ar vārdu personīgais noformējums un vārda dienas datums ir divas atšķirīgas izvēles. Virsrakstu vari pielāgot saņēmējam, bet vārda dienu vispirms pārbaudi Valsts valodas centra tradicionālajā vai paplašinātajā sarakstā. Vienam vārdam var būt vairāki ieraksti; kalendāra atzīmei jāatbilst izvēlētajam sarakstam.",
+      "Pirms drukāšanas pārbaudi diakritiskās zīmes, gadu un izvēlētās atzīmes. Ja vēlies pievienot arī dzimšanas dienu vai kopīgu jubileju, tā ir personīga kalendāra informācija, nevis oficiāla vārda diena. Īss virsraksts palīdz saglabāt skaidru izkārtojumu gan mazā priekšskatījumā, gan uz izdrukātas lapas."
+    ]
+  },
+  "/datumu-kalkulators/": {
+    "heading": "Ko tieši skaita datumu starpība",
+    "paragraphs": [
+      "Atšķirība starp diviem datumiem nav tas pats, kas abu galējo dienu ieskaitīšana. Piemēram, no 2028. gada 28. februāra līdz 1. martam ir divas dienas, jo starpā ir 29. februāris; ieskaitot arī sākuma dienu, kalendāra datumu ir trīs. Pirms rezultāta izmantošanas pārbaudi sākuma un beigu dienas izvēles.",
+      "Dienu, nedēļu un kalendāra mēnešu aprēķini atbild uz atšķirīgiem jautājumiem. Viens kalendāra mēnesis nav vienmēr 30 dienas, un kalendāra dienu skaits automātiski neizslēdz svētkus. Ja vēlies saskaitīt tikai darba dienas vai atvaļinājumam nepieciešamās dienas, izmanto attiecīgo darba dienu vai atvaļinājuma rīku."
+    ]
+  },
+  "/dienu-skaititajs/": {
+    "heading": "Atlikušās dienas un notikuma atgādinājums",
+    "paragraphs": [
+      "Dienu skaitītājs palīdz salīdzināt šodienu ar konkrētu notikuma datumu, piemēram, ceļojumu, jubileju vai pieteikuma termiņu. Norādi arī gadu: 1. jūnijs bez gada nav viennozīmīgs mērķis. Ja mērķis jau pagājis, rezultātu lasi kā pagājušo laiku, nevis gaidāmu notikumu.",
+      "Visas dienas notikumam pietiek ar datumu, bet pasākumam noteiktā stundā jāņem vērā arī laika josla. Atsevišķi izveidots ICS atgādinājums ļauj notikumu pievienot savai kalendāra lietotnei; paziņojumu laiku pēc importēšanas pārbaudi šīs lietotnes iestatījumos. Atvērta tīmekļa lapa pati par sevi neaizstāj ierīces kalendāra paziņojumu."
+    ]
+  },
+  "/darba-dienu-kalendars/": {
+    "heading": "Kalendāra darba dienas un tavs darba režīms",
+    "paragraphs": [
+      "Darba dienu pārskatā svarīgs ir izvēlētais aprēķina modelis. Piecu dienu nedēļa no pirmdienas līdz piektdienai dod vienu rezultātu, bet sešu dienu nedēļa vai personisks maiņu cikls citu. Latvijas svētku brīvdienas ir nodalītas no atceres dienām; visas atzīmētās dienas nevar vienādi atņemt no darba dienu skaita.",
+      "Pirms mēneša darba laika plāna izmantošanas pārbaudi stundas dienā, pirmssvētku saīsinājumus un konkrētajam gadam apstiprinātās pārceltās darba dienas. Pamatkalendāra skaitlis nav individuāla darba grafika apliecinājums. Maiņu darbam izmanto cikla veidotāju, bet noteikta datumu intervāla salīdzināšanai izvēlies darba dienu aprēķinu ar skaidri norādītām robežām."
+    ]
+  },
+  "/darba-laika-kalendars/": {
+    "heading": "No darba dienu skaita līdz stundu plānam",
+    "paragraphs": [
+      "Darba laika aprēķinam nepietiek tikai ar kalendāra mēneša garumu. Vispirms nosaki, kuras nedēļas dienas ir darba dienas, un pēc tam salīdzini tās ar svētku brīvdienām. Piemēram, astoņas stundas piecās darba dienās veido 40 stundu pamatu, taču svētki, saīsinājumi un individuālais režīms var mainīt konkrētā perioda rezultātu.",
+      "Ja aprēķinu izmanto atalgojuma vai darba grafika sagatavošanai, saglabā arī ievades pieņēmumus, ne tikai gala skaitli. Darba devēja apstiprinātais grafiks un piemērojamie noteikumi jāpārbauda atsevišķi. Kalendārs palīdz salīdzināt periodus, bet nepazīst tavas virsstundas, prombūtni vai vienošanās, ja tās nav ievadītas aprēķinā."
+    ]
+  },
+  "/atvalinajuma-planotajs/": {
+    "heading": "Salīdzini atpūtas periodu ar atvaļinājuma dienām",
+    "paragraphs": [
+      "Ilgāks atpūtas periods ne vienmēr nozīmē tikpat daudz atvaļinājuma darba dienu. Izvēlies sākuma un beigu datumu, tad salīdzini nedēļas nogales, likumā noteiktās svētku brīvdienas un tās darba dienas, kurām būtu vajadzīgs atvaļinājums. Gada izvēle ir būtiska, jo vieni un tie paši svētki dažādos gados iekrīt citās nedēļas dienās.",
+      "Pēc salīdzinājuma pārbaudi plānu pret savu darba režīmu un darba devēja apstiprinājumu. Piecu dienu nedēļas piemērs nav automātiski piemērojams maiņu darbam, un oficiāli pārcelta darba diena var mainīt izdevīgāko intervālu. Ceļojuma datumus un neatceļamus pirkumus sasaisti ar apstiprinātu atvaļinājumu, nevis tikai kalendārā redzamu iespēju."
+    ]
+  },
+  "/garas-brivdienas/": {
+    "heading": "Kad brīvdienas veido vienotu atpūtas posmu",
+    "paragraphs": [
+      "Garās brīvdienas rodas, ja svētku brīvdiena savienojas ar sestdienu un svētdienu vai ar personīgi izvēlētu atvaļinājumu. Piemēram, piektdienā vai pirmdienā iekrītoša svētku diena ierastā piecu dienu darba nedēļā var dot trīs secīgas brīvas dienas. Šādu secību pārbaudi attiecīgā gada kalendārā, nevis pēc pagājušā gada pieredzes.",
+      "Atšķir jau kalendārā esošu brīvu posmu no varianta, kam vajadzīgas papildu atvaļinājuma dienas. Pārskatā redzamais atpūtas ilgums neņem vērā neievadītu maiņu grafiku vai personiskās darba saistības. Izvēlēto posmu vari salīdzināt atvaļinājuma plānotājā un pēc tam pārrunāt konkrētos datumus savā darbavietā."
+    ]
+  },
+  "/mainu-grafiks/": {
+    "heading": "Maiņu cikla sākums nosaka visu turpmāko grafiku",
+    "paragraphs": [
+      "Maiņu grafikā ievadi ne tikai secību, bet arī datumu, kurā sākas tās pirmais posms. Ja cikls ir divas darba dienas un divas brīvas dienas, katrs ceturtais datums noslēdz vienu atkārtojumu. Nepareizs sākuma datums nobīda visu grafiku, pat ja pati darba un atpūtas dienu secība ir ievadīta pareizi.",
+      "Pirms grafika saglabāšanas salīdzini pirmo ciklu ar jau zināmu darba nedēļu un apskati arī mēneša robežu. Svētku diena kalendārā pati nepārraksta tavu maiņu ciklu. Virsstundas, darba laika uzskaite un darba devēja izmaiņas ir atsevišķi jautājumi; veidotais cikls ir personīgs plānošanas pārskats."
+    ]
+  },
+  "/gimenes-kalendars/": {
+    "heading": "Kopīgs pārskats bez neskaidriem ierakstiem",
+    "paragraphs": [
+      "Ģimenes plānā katram notikumam pievieno cilvēku un skaidru darbību: piemēram, kura nodarbība sākas un kurš par to atbild. Tas palīdz atšķirt kopīgus pasākumus no viena ģimenes locekļa personīgā grafika. Skolas brīvlaikus un universitātes semestra pārtraukumu nepievieno kā vienu kopīgu termiņu, jo to avoti un datumi var atšķirties.",
+      "Kopīgam plānam vari izmantot izdruku vai piemērotu notikumu eksportu. Šīs vietnes pārlūka krātuve pati neveido sinhronizētu kontu visām ģimenes ierīcēm: otrā tālrunī tavs lokālais plāns automātiski neparādīsies. Pārnesot datus, pārbaudi gan saņēmējus, gan privāto piezīmju saturu un saglabā sev dublējumu."
+    ]
+  },
+  "/stundu-saraksts/": {
+    "heading": "Stundu saraksts, kuru var viegli nolasit",
+    "paragraphs": [
+      "Stundu sarakstā vispirms vienojies par nedēļas dienām un stundu laikiem, pēc tam pievieno mācību priekšmetus un telpas. Īss priekšmeta nosaukums atstāj vietu kabinetam vai skolotāja iniciāļiem. Ja mācības notiek pēc mainīgām nedēļām, virsrakstā norādi, uz kuru nedēļu vai periodu attiecas konkrētā lapa.",
+      "Pirms izdrukas salīdzini pirmo un pēdējo nodarbību katrā dienā, kā arī garākos ierakstus. Vispārīgs saraksta veidotājs nepārzina skolas neplānotas izmaiņas, aizvietošanas vai individuālas konsultācijas. Brīvlaiku pārskatu izmanto līdzās sarakstam, bet jaunāko mācību organizāciju pārbaudi savas skolas paziņojumos."
+    ]
+  },
+  "/skolas-brivlaiki/": {
+    "heading": "Mācību gads nav tas pats, kas kalendāra gads",
+    "paragraphs": [
+      "Skolas gads aptver divus kalendāra gadus, tāpēc ziemas brīvdienu sākums un beigas var atrasties dažādos gados. Lasot brīvlaika ierakstu, pārbaudi mācību gadu, klašu grupu un abas perioda robežas. Oficiālie skolu brīvlaiku datumi nav automātiski universitāšu ziemas vai vasaras pārtraukuma datumi.",
+      "Šajā pārskatā publicētie termiņi ir nodalīti no vēl neizziņotiem nākamo gadu grafikiem. Ja nākamais mācību gads nav apstiprināts, iepriekšējā gada datumus nepārceļ uz priekšu kā faktu. Universitāšu sadaļā atver konkrētās augstskolas avotu un programmu; sesija, prakse un patstāvīgais darbs var aizpildīt laiku, kurā nenotiek lekcijas."
+    ]
+  },
+  "/skolas-kalendars/": {
+    "heading": "Vienā plānā salīdzini mācības un brīvlaikus",
+    "paragraphs": [
+      "Skolas kalendārā ir svarīgi kopā nolasit semestra sākumu, mācību beigas un brīvlaiku periodus. Atšķirīgs termiņš konkrētai klasei nav kļūda, ja tas ir norādīts oficiālajā regulējumā. Veidojot personīgo plānu, pievieno arī savas skolas paziņotās norises, kuras nav valsts kopējā kalendārā.",
+      "Eksāmens vai konsultācija var notikt ārpus ierastā stundu saraksta. Tāpēc ceļojuma vai nometnes plānu salīdzini gan ar brīvlaiku, gan pārbaudes darbu grafiku. Šeit norādītais mācību gads un pirmavots nosaka datu tvērumu; nepublicētu nākamā gada termiņu nevar secināt tikai pēc līdzīga iepriekšējā gada izkārtojuma."
+    ]
+  },
+  "/studiju-kalendars/": {
+    "heading": "Studiju pārtraukumu pārbaudi savā programmā",
+    "paragraphs": [
+      "Augstskolas akadēmiskajā kalendārā lekciju periods, eksāmenu sesija un brīvlaiks ir dažādi posmi. Kalendārs var atšķirties pamatstudijām, doktorantūrai vai atsevišķai programmai. Vispirms izvēlies augstskolu, tad pārbaudi avotā norādīto studiju gadu un to studentu grupu, uz kuru attiecas publicētie datumi.",
+      "Brīva nedēļa no lekcijām var būt paredzēta praksei, pārbaudījumiem vai patstāvīgajam darbam. Plānojot darbu vai prombūtni, atver augstskolas oriģinālo dokumentu un salīdzini to ar savas fakultātes paziņojumiem. Augstskolas fotogrāfija palīdz atpazīt vietu, bet datumu apstiprinājums ir piesaistīts akadēmiskajam avotam, nevis attēlam."
+    ]
+  },
+  "/valsts-parbaudes-darbi/": {
+    "heading": "Pārbaudes darba datums un tā norises nosacījumi",
+    "paragraphs": [
+      "Valsts pārbaudes darbu sarakstā pārbaudi klasi, mācību priekšmetu un mācību gadu. Pamatnorises datums, papildu termiņš un atsevišķa darba daļa var būt dažādi ieraksti. Vienam eksāmenam atvēlēts vairāku dienu logs nenozīmē, ka katrs skolēns ierodas visās šajās dienās; savu norisi precizē skolā.",
+      "Sagatavošanās plānā saglabā arī oficiālās programmas saiti un skolas norādīto ierašanās laiku. Vietnes pārskats palīdz sakārtot datumus, bet neaizstāj uzaicinājumu vai konkrēto organizēšanas kārtību. Ja nākamā mācību gada grafiks vēl nav publicēts, šī gada eksāmenu datumus neizmanto kā apstiprinātu nākotnes plānu."
+    ]
+  },
+  "/svetku-dienas/": {
+    "heading": "Svētku statuss un atpūtas diena",
+    "paragraphs": [
+      "Latvijas kalendārā līdzās pastāv svētku brīvdienas, atceres dienas un citas atzīmējamās dienas. Atšķirība ir praktiska: vārds “diena” nosaukumā nenosaka, vai ierastā darba nedēļā tā būs brīva. Pārskatā izvēlies gadu un nolasi datuma veidu kopā ar nedēļas dienu, pirms izmanto to atvaļinājuma vai darba laika plānā.",
+      "Daļa svētku ir fiksētā datumā, bet Lieldienu cikla datumi katru gadu mainās. Arī aizstājoša brīvdiena un darba dienas pārcelšana ir atšķirīgi mehānismi, ko nevar pieņemt visiem svētkiem vienādi. Konkrētā gada sarakstu salīdzini ar pirmavotu un savas darbavietas grafiku; kalendāra aprēķins neizveido individuālu darba devēja rīkojumu."
+    ]
+  },
+  "/atceres-dienas/": {
+    "heading": "Piemiņas datumu lasīšana kalendārā",
+    "paragraphs": [
+      "Atceres dienas kalendārā palīdz laikus pamanīt Latvijas vēsturei un sabiedrībai nozīmīgus datumus. Tās jāatšķir no svētku brīvdienām: piemiņas dienas ieraksts pats par sevi nemaina parastu darba vai mācību dienu. Izvēloties mēnesi vai gadu, salīdzini pilno nosaukumu, jo līdzīgi piemiņas temati var attiekties uz dažādiem notikumiem.",
+      "Ja plāno piedalīties piemiņas pasākumā, kalendāra datumu papildini ar rīkotāja paziņoto norises vietu un laiku. Valsts kalendāra datums nav pasākumu programma. Vēstures aprakstos izmantotie pirmavoti palīdz nošķirt notikuma nozīmi no mūsdienu vietējām norisēm, kuras ik gadu var mainīties."
+    ]
+  },
+  "/nozimigas-dienas/": {
+    "heading": "Nozīmīgs datums un konkrēts pasākums",
+    "paragraphs": [
+      "Nozīmīgo dienu pārskats apvieno dažādus iemeslus atcerēties datumu: valsts svētkus, piemiņu, starptautiskas tēmas un kultūras tradīcijas. Izmanto ieraksta veidu, lai saprastu tā nozīmi. Starptautiska diena vai populāra tradīcija nav automātiski Latvijas likumā noteikta darba brīvdiena.",
+      "Skolas, bibliotēkas vai ģimenes plānam pie izvēlētā datuma pieraksti konkrētu nodomu, piemēram, grāmatu sarunu vai piemiņas vietas apmeklējumu. Rīkotāja izziņota programma var notikt citā dienā nekā tēmas ikgadējais datums. Atver atsevišķo aprakstu, lai salīdzinātu datuma noteikumu, Latvijas kontekstu un avotus."
+    ]
+  },
+  "/svetki-un-tradicijas/": {
+    "heading": "Tradīciju kalendārs ar dažādiem datumu pamatiem",
+    "paragraphs": [
+      "Vienā svētku pārskatā satiekas valsts kalendārs, latviešu gadskārtu tradīcijas, reliģiski svētki un starptautiskas atzīmējamās dienas. Šiem datumiem nav vienāda izcelsme vai juridiskais statuss. Atsevišķajos aprakstos skaidrots, vai datums ir fiksēts, atkarīgs no Lieldienām, astronomiski aprēķināts vai saistīts ar konkrētu tradīciju.",
+      "Piemēram, rudens ekvinokcija un Miķeļi nav viens notikums, lai gan abi palīdz runāt par rudens laiku. Līdzīgi gada kalendārā norādīts svētku datums neaizstāj muzeja, draudzes vai pašvaldības pasākumu grafiku. Plānojot dalību, salīdzini vēsturisko vai kalendāro pamatu ar attiecīgā gada rīkotāja paziņojumu."
+    ]
+  },
+  "/varda-dienas/": {
+    "heading": "Tradicionālais un paplašinātais vārdu saraksts",
+    "paragraphs": [
+      "Meklējot vārda dienu, vispirms pārbaudi vārda precīzo rakstību un saraksta veidu. Tradicionālais kalendārvārdu saraksts un paplašinātais saraksts ir atšķirīgi avoti; papildu ieraksts nav automātiski tas pats, ko redzēsi katrā drukātā kalendārā. Rezultātā nolasāms datums un norāde uz izmantoto Valsts valodas centra sarakstu.",
+      "Ja vārdam ir vairāk nekā viens ieraksts, izvēli saglabā apzināti, nevis pieņem pirmo atrasto datumu par vienīgo iespējamo. Vārda diena nav dzimšanas dienas vai valsts svētku aizstājējs. Personīgā apsveikumu plānā vari pierakstīt saņēmēja izvēlēto datumu un izmantoto sarakstu, lai nākamajā gadā to nevajadzētu minēt no jauna."
+    ]
+  },
+  "/meness-kalendars/": {
+    "heading": "Mēness fāzes, apgaismojums un vietējais skats",
+    "paragraphs": [
+      "Galvenās Mēness fāzes ir astronomiski brīži: jaunmēness, pirmais ceturksnis, pilnmēness un pēdējais ceturksnis. Tie visā pasaulē notiek vienā brīdī, bet vietējais pulksteņa laiks un reizēm kalendāra datums atšķiras. Šeit fāžu laiki parādīti pēc Latvijas laika, savukārt dienu attēli ļauj salīdzināt diska apgaismojumu mēneša gaitā.",
+      "Mēness lēkts, riets un diska pagrieziens ir saistīti arī ar novērotāja vietu. Tāpēc pilsētas maiņa var mainīt vietējos rādījumus, nemainot pašu pilnmēness astronomisko brīdi. Atver konkrēto mēnesi, izvēlies dienu un nolasi laiku, kuram attēls aprēķināts. Drukas veidne ir fiksēts pārskats, nevis nepārtraukti atjaunināms debesu novērojums."
+    ]
+  },
+  "/meness-fazes/": {
+    "heading": "Kāpēc fāzes brīdis atšķiras no dienas attēla",
+    "paragraphs": [
+      "Fāžu sarakstā norādītais laiks apzīmē konkrētu astronomisko brīdi, savukārt dienas attēls rāda Mēnesi izvēlētajā atskaites laikā. Tāpēc pilnmēness dienas attēlā var būt redzams nedaudz mazāks par pilnīgi apgaismotu disku. Precīzajam brīdim izmanto fāžu tabulu, bet ikdienas formas salīdzināšanai dienu kalendāru.",
+      "Parasti vienā mēnesī redzami četri galvenie fāžu notikumi, tomēr kalendāra mēnesis nav vienāda garuma ar Mēness fāžu ciklu. Dažos mēnešos galveno notikumu ir pieci. Salīdzinot gadus, nolasi arī Rīgas laika norādi, jo UTC datums pie diennakts robežas var atšķirties no Latvijā pierakstītā datuma."
+    ]
+  },
+  "/pilnmeness/": {
+    "heading": "Pilnmēness datums nav visa nakts novērojuma plāns",
+    "paragraphs": [
+      "Pilnmēness ir viens aprēķināts brīdis, nevis vienādi definēta vesela diennakts. Kalendārā to piesaista vietējam datumam, bet gandrīz pilns disks ir redzams arī pirms un pēc šā brīža. Ja laiks norādīts dienā, tas nenozīmē, ka tieši tajā stundā Mēness no tavas atrašanās vietas būs virs horizonta.",
+      "Fotografēšanai vai pastaigai salīdzini pilnmēness brīdi ar izvēlētās pilsētas Mēness lēktu, rietu un Saules laikiem. Mākoņu sega, apbūve un reljefs nav ietverti fāzes datumā. Vairāku mēnešu salīdzināšanai izmanto gada fāžu sarakstu, bet vienas dienas vietējai situācijai pilsētas astronomijas rīku."
+    ]
+  },
+  "/jaunmeness/": {
+    "heading": "Jaunmēness un vakara debesu novērošana",
+    "paragraphs": [
+      "Jaunmēness brīdis raksturo Saules un Mēness ģeometrisko stāvokli. Tas nav solījums konkrētajā vakarā ieraudzīt plānu Mēness sirpi: sirpja redzamība ir atkarīga arī no laika pēc jaunmēness, horizonta un novērošanas apstākļiem. Tādēļ precīzo fāzes laiku un redzamā diska attēlu lasi kā atšķirīgus rādītājus.",
+      "Tumšāku debesu plānam salīdzini jaunmēness apkārtni ar Mēness lēkta un rieta laikiem, kā arī Saules radītās krēslas periodu. Latvijas vasaras gaišās naktis nepazūd tikai tāpēc, ka kalendārā ir jaunmēness. Konkrētas nakts izvēlē joprojām nepieciešama vietējā laika prognoze un piemērota novērošanas vieta."
+    ]
+  },
+  "/meness-lekts-un-riets/": {
+    "heading": "Kāpēc Mēness grafiks katrā pilsētā ir citāds",
+    "paragraphs": [
+      "Mēness lēkta un rieta aprēķinam ir vajadzīgs gan datums, gan novērotāja koordinātas. Latvijas pilsētās pulksteņa josla ir viena, tomēr austrumu un rietumu, kā arī ziemeļu un dienvidu izvietojums maina notikumu laikus. Izvēlies savu pilsētu, nevis pārņem Rīgas laiku tikai tāpēc, ka datums ir vienāds.",
+      "Atsevišķā vietējā diennaktī var nebūt Mēness lēkta vai rieta notikuma. Tas nav obligāti trūkstošs mērījums: notikums var atrasties iepriekšējā vai nākamajā datumā. Pārbaudi blakus dienas un atšķir šo situāciju no lietotnes kļūdas vai nepieejama avota. Attēla apgaismojuma procents pats par sevi nenorāda, vai Mēness šobrīd atrodas virs horizonta."
+    ]
+  },
+  "/saullekts-saulriets/": {
+    "heading": "Pilsētas laiks un Saules laiks",
+    "paragraphs": [
+      "Saullēkta un saulrieta tabulā izvēlies pilsētu un datumu. Rīgā, Liepājā un Daugavpilī pulkstenis rāda vienas laika joslas laiku, bet Saule pie horizonta parādās dažādos brīžos. Atšķirību izraisa vietas koordinātas; pilsētas izvēle nav atsevišķas Latvijas pulksteņa joslas izvēle.",
+      "Dienas garums šajā rīkā ir laiks starp aprēķināto saullēktu un saulrietu, nevis visu redzamās gaismas stundu skaits. Pirms saullēkta un pēc saulrieta vēl var būt krēsla. Fotografējot vai plānojot iziešanu dabā, salīdzini arī krēslas un zeltainās stundas rādījumus, bet reālo horizontu un mākoņus novērtē atsevišķi."
+    ]
+  },
+  "/dienas-garums/": {
+    "heading": "Dienas garuma salīdzinājums vienā vietā",
+    "paragraphs": [
+      "Dienas garumu salīdzini vienai un tai pašai pilsētai dažādos datumos, ja vēlies redzēt sezonas maiņu. Salīdzinot divas pilsētas vienā datumā, redzēsi vietas ģeogrāfijas ietekmi. Abi salīdzinājumi ir noderīgi, taču tie atbild uz atšķirīgiem jautājumiem un tos nevajadzētu sajaukt vienā secinājumā.",
+      "Pulksteņa pāreja uz vasaras vai ziemas laiku maina saullēkta un saulrieta pulksteņa pierakstu, nevis pati pagarina Saules atrašanos virs horizonta. Pastaigu plānam papildus dienas garumam skaties krēslu. Ēkas, mežs vai paugurs var aizsegt Sauli agrāk par modelī izmantoto atklāto horizontu."
+    ]
+  },
+  "/gadalaiki/": {
+    "heading": "Astronomiskais sākums un gadalaiks dabā",
+    "paragraphs": [
+      "Astronomiskos gadalaikus nodala ekvinokciju un saulgriežu brīži, kuru pulksteņa laiku Latvijai pārrēķina vietējā laika joslā. Tie nav katru gadu viena datuma un stundas notikumi. Meteoroloģisks mēnešu dalījums vai dabā novērota pavasara iestāšanās izmanto citu principu, tāpēc atšķirīgi gadalaiku sākumi nav savstarpēja pretruna.",
+      "Salīdzinot gadus, pārbaudi gan notikuma nosaukumu, gan laiku: perihēlijs nav pavasara ekvinokcija un nenosaka Latvijas vasaras sākumu. Dārza darbus saisti ar augsnes un laikapstākļu novērtējumu, nevis tikai astronomisko robežu. Kultūras gadskārtu svinībām izmanto atsevišķos tradīciju aprakstus un rīkotāju programmas."
+    ]
+  },
+  "/astronomiskais-kalendars/": {
+    "heading": "No astronomiska notikuma līdz vietējam novērojumam",
+    "paragraphs": [
+      "Astronomiskais kalendārs palīdz salīdzināt Mēness fāzes, Saules gada ciklu un citus debesu notikumus. Globāli aprēķināts notikums un tā redzamība Latvijā nav viens rādītājs. Novērojumam nepieciešams konkrēts datums, vieta, notikuma augstums virs horizonta un pietiekami labvēlīgi apstākļi.",
+      "Sāc ar precīzo notikuma brīdi un pārbaudi tā laika joslu, pēc tam pārej uz savas pilsētas Saules un Mēness laikiem. Meteorplūsmas sezonas nosaukums nav garantēts redzamo meteoru skaits, bet aptumsuma katalogs viens pats neapstiprina redzamību no Latvijas. Atsevišķajos rīkos aprēķini un novērojuma ierobežojumi ir nodalīti."
+    ]
+  },
+  "/meness-aptumsums/": {
+    "heading": "Globāls aptumsums un Latvijas vietējais laiks",
+    "paragraphs": [
+      "Mēness aptumsuma kataloga datums jālasa kopā ar izmantoto laika skalu un notikuma maksimumu. Brīdis ap UTC pusnakti Latvijā var attiekties jau uz nākamo kalendāra dienu. Pirms notikuma saglabāšanas plānā pārbaudi vietējo datumu un to, vai Mēness vajadzīgajā laikā ir virs tavas pilsētas horizonta.",
+      "Pusēnas, daļējs un pilns aptumsums atšķiras ar to, kā Mēness šķērso Zemes ēnu. Notikuma piederība katalogam neapsola vienādu skatu no visām vietām; daļa fāžu var norisināties pirms Mēness lēkta vai pēc rieta. Vietējo fāžu pārskats ir noderīgāks novērojuma plānam nekā tikai viens globālais datums."
+    ]
+  },
+  "/saules-aptumsums/": {
+    "heading": "Aptumsuma josla un izvēlētā novērotāja vieta",
+    "paragraphs": [
+      "Saules aptumsumu sarakstā globālais tips neapraksta visu Latvijas novērotāju pieredzi. Pilna vai gredzenveida aptumsuma centrālā josla var atrasties citā pasaules daļā, bet konkrētā Latvijas pilsētā notikums var būt daļējs vai nebūt redzams. Tāpēc redzamības apgalvojumam vajadzīgs vietējo apstākļu aprēķins, nevis tikai kataloga ieraksts.",
+      "Izvēloties pilsētu, salīdzini sākumu, maksimumu, beigas un Saules stāvokli virs horizonta. Kalendāra datums jāsaista ar Latvijā lietoto pulksteņa laiku. Aprēķinātais notikums neietver mākoņus vai novērošanas vietas aizsegumus; pasākumu programmas un īpašas novērošanas instrukcijas pārbaudi pie atbildīgajiem rīkotājiem."
+    ]
+  },
+  "/perseidas/": {
+    "heading": "Perseīdu nakts izvēle Latvijā",
+    "paragraphs": [
+      "Perseīdas ir ar komētu 109P/Swift–Tuttle saistīta meteoru plūsma, kuras vērošanu parasti plāno augustā. Vienas iepriekšējās sezonas maksimuma datumu un stundu nevar automātiski pārnest uz 2027.–2030. gadu. Katram gadam vajadzīgs atbilstošs avots, un tā laiks vēl jāpārrēķina Latvijas datumā.",
+      "Praktiski salīdzini vairākas piemērotas naktis, izvēlētās pilsētas Mēness laikus un mākoņu prognozi. Tumša vieta ar plašu debesu pārredzamību dod citu pieredzi nekā izgaismots pagalms, taču pat labvēlīgi apstākļi negarantē noteiktu meteoru skaitu stundā. Šeit nodalīti sezonas orientieri un konkrētam gadam pārbaudītas ziņas."
+    ]
+  },
+  "/sejas-kalendars/": {
+    "heading": "Latvijas dārza plāns sākas ar apstākļiem",
+    "paragraphs": [
+      "Sējas kalendārā vispirms izvēlies mēnesi un kultūraugu, tad nolasi, uz kādu audzēšanas vietu attiecas orientieris. Lauks, neapkurināta siltumnīca un apkurināta siltumnīca nav savstarpēji aizstājami apstākļi. Sēklu paciņas šķirnes apraksts, augsnes gatavība un vietējā prognoze palīdz izlemt, vai konkrētais darbs tavā dārzā jau ir aktuāls.",
+      "Veido savu pierakstu ar šķirni, sējas vai stādīšanas dienu un novēroto augsnes stāvokli. Ražas atgādinājumu izmanto kā gatavības pārbaudi, nevis garantētu novākšanas datumu. Piekraste ne vienmēr nozīmē agrāku pavasara sēju; Latvijas dārzu mikroklimats atšķiras, tādēļ kalendāra mēnesis nevar aizstāt salnu un faktiskā siltuma pārbaudi."
+    ]
+  },
+  "/gada-diena/": {
+    "heading": "Datuma kārtas numurs gada ietvaros",
+    "paragraphs": [
+      "Gada diena ir datuma kārtas numurs, sākot skaitīt ar 1. janvāri kā pirmo dienu. Tā nav ISO nedēļa vai atlikušais laiks līdz gada beigām. Piemēram, 2027. gada 1. marts ir gada 60. diena, bet 2028. gada 1. marts ir 61. diena, jo garajā gadā pirms marta ir arī 29. februāris.",
+      "Izvēlētās dienas numura un pēc tās atlikušo dienu skaita summai jāveido 365 vai 366. Izvēlēto datumu atlikušajās dienās otrreiz neieskaita. Šāds pārskats ir noderīgs gada progresam un datu salīdzināšanai, bet notikuma termiņam starp diviem konkrētiem datumiem ērtāks ir datumu kalkulators."
+    ]
+  },
+  "/garais-gads/": {
+    "heading": "29. februāris un atkārtojošies datumi",
+    "paragraphs": [
+      "Gregora kalendārā gads parasti ir garais, ja tas dalās ar četri, taču gadsimtu gadiem ir izņēmums: tiem jādalās arī ar 400. Tāpēc 2000. gads bija garais, bet 2100. gads tāds nebūs. Piedāvātajā 2027.–2030. gada periodā vienīgais garais gads ir 2028., kurā februārim ir 29 dienas un visam gadam 366 dienas.",
+      "Papildu diena ietekmē datumu starpības, gada dienu numurus un notikumu atkārtošanu. Ja jubileja ir 29. februārī, parastā gadā derīgs identisks datums nepastāv; personisku svinību aizstājēju izvēlas pats lietotājs. Kalendāra aprēķinā nederīgu 29. februāri nevajadzētu nemanāmi pasniegt kā īstu šā gada datumu."
+    ]
+  },
+  "/pulkstena-pargriesana/": {
+    "heading": "Pulksteņa pāreja un datuma aprēķini",
+    "paragraphs": [
+      "Latvijas vietējā laika pierakstam izmantota Europe/Riga laika josla, kurā piemēro datumam atbilstošo nobīdi. Pārejas diena var būt īsāka vai garāka par parastu 24 stundu diennakti. Tādēļ divu blakus kalendāra datumu atšķirību un starp tiem pagājušās stundas ne vienmēr var aizstāt vienu ar otru.",
+      "Plānojot starptautisku tikšanos, saglabā laika joslu kopā ar pulksteņa laiku, jo citā valstī pāreja var notikt citā datumā. Saullēkta pulksteņa laika lēciens pārejas nedēļā pats par sevi nenozīmē strauju astronomiskā dienas garuma izmaiņu. Nākotnes noteikumu izmaiņu gadījumā priekšroka dodama oficiālajam paziņojumam un atjauninātai laika joslu datu kopai."
+    ]
+  },
+  "/pensiju-izmaksas/": {
+    "heading": "Izmaksas datumu nosaka individuālais lēmums",
+    "paragraphs": [
+      "Pensijas saņemšanas plānam vispirms izmanto savā lēmumā vai pakalpojuma informācijā norādīto izmaksas kārtību. Vispārīgs kalendārs nezina tavu individuālo datumu, saņemšanas veidu vai piešķiršanas lēmumu. Tāpēc vietnē nav vienas visiem saņēmējiem izdomātas ikmēneša izmaksu dienas.",
+      "Ja ierastais datums ir svētku tuvumā, pārbaudi attiecīgā perioda VSAA paziņojumu un savu saņemšanas kanālu. Iepriekšējā gada ziņa par agrāku izmaksu nav nākamā gada grafiks. Personisku atgādinājumu vari saglabāt pēc pārbaudīta datuma, neievadot publiskā rīkā personas kodu, bankas informāciju vai lēmuma saturu."
+    ]
+  },
+  "/pabalstu-izmaksas/": {
+    "heading": "Pabalsta veids ir svarīgāks par vienu kopīgu datumu",
+    "paragraphs": [
+      "Dažādiem pabalstiem var būt atšķirīga piešķiršanas un izmaksas kārtība, un pirmā izmaksa var atšķirties no turpmākās periodiskās saņemšanas. Sāc ar konkrētā pabalsta nosaukumu un savu individuālo lēmumu. Vispārīga mēneša rūtiņa nevar apstiprināt, ka nauda noteiktā dienā būs pieejama katra saņēmēja kontā.",
+      "Pirms svētkiem salīdzini jaunāko VSAA informāciju ar savu ierasto saņemšanas kārtību. Vēsturisks paziņojums ir piemērs tam, kā tiek izziņotas izmaiņas, nevis atkārtojams 2027.–2030. gada solījums. Kalendārā vari atzīmēt dienu, kad pārbaudīt oficiālo ziņu, saglabājot privātus lēmuma un maksājuma datus ārpus kopīgojamām piezīmēm."
+    ]
+  },
+  "/horoskops/": {
+    "heading": "Simbolisks lasījums pārdomām, nevis pierādīta prognoze",
+    "paragraphs": [
+      "Horoskopu sadaļā piedāvātas Rietumu astroloģijas zīmju simboliskās tēmas un dienas pārdomu teksts. Šis saturs nav astronomisko notikumu aprēķins un nepierāda, kāds būs konkrēta cilvēka raksturs vai nākotne. Ja meklē Mēness fāzi vai saullēkta laiku, izmanto astronomijas kalendāru, nevis zodiaka interpretāciju.",
+      "Lasot dienas tēmu, izvēlies vienu īstenojamu domu, kuru vari pārbaudīt savā rīcībā: sarunas jautājumu, nelielu uzdevumu vai laiku atelpai. Saglabāta piezīme ļauj vēlāk salīdzināt savu pieredzi ar ieceri. Veselības, naudas vai citiem nozīmīgiem lēmumiem horoskopa tekstu neizmanto kā profesionālu pamatojumu."
+    ]
+  },
+  "/zodiaka-zimes/": {
+    "heading": "Zīmju nosaukumi un simbolu nozīme",
+    "paragraphs": [
+      "Divpadsmit zodiaka zīmju pārskats palīdz atrast zīmes latvisko nosaukumu, simbolu un populārās Rietumu astroloģijas aprakstu. Zīmes simbolika nav tas pats, kas astronomiska zvaigznāja precīzās robežas debesīs. Kalendāra zīmju iedalījumu un redzamos zvaigznājus nevajadzētu pasniegt kā vienu un to pašu aprēķinu.",
+      "Salīdzinot zīmju aprakstus, pievērs uzmanību tematam, nevis uztver tekstu kā pierādītu personības vērtējumu. Dzimšanas datuma kalkulators sniedz tradicionālā iedalījuma rezultātu, bet individuālais apraksts ir izklaides lasāmviela. Praktiskai dienas plānošanai blakus simboliskajai tēmai vari saglabāt savu, konkrēti izpildāmu ieceri."
+    ]
+  },
+  "/horoskopa-zimes-kalkulators/": {
+    "heading": "Ko nosaka dzimšanas datuma kalkulators",
+    "paragraphs": [
+      "Šis kalkulators sasaista dzimšanas mēnesi un dienu ar tradicionālā Rietumu zodiaka datumu intervālu. Tas nav pilnas dzimšanas kartes aprēķins: dzimšanas vieta, precīzā stunda un individuālas Saules pārejas brīdis netiek izmantoti. Īpaši pie intervālu robežām rezultātu lasi kā vienkāršota kalendāra iedalījumu.",
+      "Ievadi derīgu datumu un pēc rezultāta atver attiecīgās zīmes simbolisko aprakstu. 29. februāris pastāv tikai garajos gados, tāpēc datuma pārbaude ir daļa no korektas ievades. Zīmes nosaukums nenosaka piemērotību darbam, attiecībām vai profesionālu lēmumu; tas šeit kalpo izklaidei un pašrefleksijai."
+    ]
+  },
+  "/visi-riki/": {
+    "heading": "Izvēlies rīku pēc uzdevuma",
+    "paragraphs": [
+      "Ja jautājums ir “cik dienu?”, sāc ar datumu kalkulatoru vai dienu skaitītāju. Ja svarīgi darba un atpūtas posmi, izvēlies darba dienu kalendāru, maiņu grafiku vai atvaļinājuma plānotāju. Savukārt personiska izdruka, stundu saraksts un ģimenes kalendārs risina atšķirīgus noformējuma un ikdienas organizēšanas uzdevumus.",
+      "Rīku rezultāti ir noderīgi tad, ja saproti to ievadi: datumu robežas, gadu, pilsētu vai darba nedēļas modeli. Pēc aprēķina pārbaudi šos pieņēmumus un izvēlies vajadzīgo saglabāšanas veidu. PDF un attēls saglabā lapas izskatu, ICS pārnes notikumus, bet personīgā plānotāja dublējums palīdz atjaunot lokāli glabātos datus."
+    ]
+  },
+  "/meklesana/": {
+    "heading": "Kā formulēt meklējumu, kas aizved uz vajadzīgo lapu",
+    "paragraphs": [
+      "Sāc ar konkrētu nosaukumu vai vajadzību: mēnesi un gadu, svētku nosaukumu, cilvēka vārdu vai plānošanas rīku. Piemēram, “februāris 2028” nošķir mēneša kalendāru no citu gadu lapām, bet pilsētas nosaukums kopā ar “saullēkts” sašaurina astronomijas rezultātus. Galvenes meklētājā ieteikumi parādās turpat pie ievades.",
+      "Ja rezultāts ir pārāk plašs, pievieno gadu vai tēmu; ja nekas nav atrasts, izmēģini īsāku nosaukuma daļu un pārbaudi rakstību. Vārda dienu rezultātā nolasi arī saraksta veidu un datumu. Ja esi nonācis nepareizā saitē, meklēšana un kategoriju pārskati palīdz atrast aktuālo lapu, neminot jaunas adreses."
+    ]
+  },
+  "/par-projektu/": {
+    "heading": "Kā kalendāra aprēķins kļūst par lietojamu rīku",
+    "paragraphs": [
+      "Kalendārs365 apvieno divus uzdevumus: publisku datumu izskaidrošanu un personīgo ikdienas plānu veidošanu. Publisko daļu var pārbaudīt pēc norādītajiem avotiem, bet personīgos notikumus un piezīmes ievada pats lietotājs. Šī atšķirība palīdz saprast, kāpēc oficiāls svētku ieraksts un privāta jubileja kalendārā var būt redzami līdzās, nezaudējot savu izcelsmi.",
+      "Vietnes uzturētājs ir Silvis Balodis. Kalendārs nav valsts iestādes pakalpojums vai individuāla juridiska konsultācija, un nepublicēti datumi netiek aizvietoti ar izdomātiem termiņiem. Pamanītu kļūdu iespējams iesniegt kopā ar konkrētās lapas adresi un pirmavotu, lai labojums skartu arī ar kopīgo datu kopu saistītos pārskatus."
+    ]
+  },
+  "/avoti-un-metodika/": {
+    "heading": "Kā pārbaudīt rezultāta izcelsmi",
+    "paragraphs": [
+      "Pārbaudē sāc ar to, kāds ir datu veids. Svētku statuss jāmeklē attiecīgajā tiesību aktā, skolas brīvlaiks konkrētā mācību gada noteikumos, bet galvenais Mēness fāzes brīdis astronomiskajā avotā. Viena avota esamība sarakstā nenozīmē, ka tas apstiprina visas vietnes tēmas vai nākamā gada vēl nepublicētus datumus.",
+      "Aprēķiniem nozīmīga ir arī metode: nedēļas sākums, dienu ieskaitīšana, laika josla un novērotāja koordinātas. Ja salīdzinājums ar citu kalendāru atšķiras, vispirms salīdzini šos pieņēmumus un avota redakciju. Kļūdas ziņojumā norādi tieši salīdzinātos datumus un izmantoto avotu, lai varētu atšķirt datu kļūdu no atšķirīga aprēķina modeļa."
+    ]
+  },
+  "/redakcijas-politika/": {
+    "heading": "Aprēķināms fakts, avota ziņa un interpretācija",
+    "paragraphs": [
+      "Kalendāra datumi, ārēja avota publicēti termiņi un simboliski horoskopa teksti nav vienāda veida saturs. Datuma izkārtojumu var pārbaudīt ar kalendāra aprēķinu, nākamo skolas brīvlaiku apstiprina attiecīgais pirmavots, bet astroloģiskā interpretācija nav zinātniska prognoze. Šo robežu uzturam arī tad, ja tēmas saskarnē parādās līdzās.",
+      "Satura un programmatūras sagatavošanā izmantota automatizācija un mākslīgā intelekta palīdzība. Tas pats par sevi nav neatkarīga speciālista vai dzimtās valodas redaktora pārbaudes apliecinājums. Labojot kļūdu, būtiska ir pārbaudāma atsauce un atjaunināts saturs; nepamatotu kompetenci, sertifikāciju vai apstiprinājumu nepiedēvējam ne autoram, ne vietnei."
+    ]
+  },
+  "/kontakti/": {
+    "heading": "Ziņa, ar kuru iespējams kaut ko precizēt",
+    "paragraphs": [
+      "Visnoderīgākajā ziņā ir lapas adrese, konkrētais datums vai rīka nosaukums un īss apraksts, kas notika. Aprēķina problēmai pievieno ievades vērtības un gaidīto rezultātu; datuma precizējumam saiti uz sākotnējo dokumentu. Nav vajadzīgs sūtīt visu savu personīgo kalendāru, ja jautājumu var aprakstīt ar vienu piemēru.",
+      "Ziņas sagatavošanas forma palīdz sakārtot jautājumu, bet automātiski to nenosūta. Pārskati sagatavoto tekstu pirms nosūtīšanas savā e-pasta lietotnē. Par fotogrāfiju vai licenci norādi arī attēla sadaļu un avota saiti; tas palīdz atrast konkrēto darbu, nejaucot to ar citas pilsētas vai veidnes ilustrāciju."
+    ]
+  },
+  "/labojumi/": {
+    "heading": "Kā atšķirt kļūdu no atšķirīgas interpretācijas",
+    "paragraphs": [
+      "Datumu labojumam norādi gadu, mēnesi, dienu un avota redakciju. Ja runa ir par darba dienu skaitu, pievieno darba nedēļas un dienu robežu iestatījumus. Astronomijas salīdzinājumam nepieciešama arī pilsēta un laika josla: viena notikuma UTC un Latvijas pulksteņa pieraksts var atšķirties, lai gan pats brīdis ir viens.",
+      "Teksta vai saskarnes kļūdai pietiek ar lapas adresi un precīzu vietas aprakstu; ierīces un pārlūka nosaukums palīdz atkārtot darbību. Nepārbaudītu nākotnes termiņu neatzīmējam kā apstiprinātu tikai pēc analoģijas. Labojuma mērķis ir sakārtot sākotnējo datu pamatu, lai viena un tā pati kļūda neatkārtotos saistītajos kalendāros."
+    ]
+  },
+  "/privatuma-politika/": {
+    "heading": "Praktiska kontrole pār personīgo plānu",
+    "paragraphs": [
+      "Pārlūkā glabātie notikumi nav lietotāja konts ar automātisku sinhronizāciju. Citā ierīcē vai pēc pārlūka datu dzēšanas tie var nebūt pieejami, tāpēc svarīgu plānu saglabā dublējumā. Pirms faila kopīgošanas apskati tā saturu: notikuma nosaukums vai piezīme var atklāt vairāk personīgas informācijas nekā tikai datumu.",
+      "Pilsētas automātiska izvēle izmanto aptuvenu IP atrašanās vietas novērtējumu, nevis ierīces GPS atļauju. Manuāli izvēlēta pilsēta ir labāks risinājums, ja novērtējumu ietekmē VPN vai tīkla maršrutēšana. Laikapstākļu, saziņas un vietnes piegādes pakalpojumu datu apstrāde ir aprakstīta šajā politikā; priekšroka dodama konkrētajam pakalpojumam norādītajam tvērumam."
+    ]
+  },
+  "/sikdatnu-politika/": {
+    "heading": "Privātuma izvēle un pārlūka krātuve",
+    "paragraphs": [
+      "Sīkdatņu izvēles poga lapas apakšā ļauj atkārtoti atvērt privātuma iestatījumus. Piekrišanas saglabāšana, kalendāra notikumu glabāšana un datu dublējuma lejupielāde ir atšķirīgas darbības. Mainot privātuma izvēli, nevajadzētu pieņemt, ka līdz ar to ir izveidots personīgā kalendāra dublējums.",
+      "Pārlūka lokālās krātuves iztīrīšana var noņemt gan plānus, gan saglabātās izvēles. Ja vēlies pāriet uz citu ierīci, vispirms pārbaudi eksporta failu un pēc pārnešanas pārliecinies, ka vajadzīgie ieraksti tiešām ir atjaunoti. Pašlaik aktivizētās tehnoloģijas un to mērķi jālasa šajā politikā, nevis jāsecina tikai no pogas “Piekrītu”."
+    ]
+  },
+  "/lietošanas-noteikumi/": {
+    "heading": "Pārbaudi plānu pirms nozīmīga lēmuma",
+    "paragraphs": [
+      "Kalendāra pārskats palīdz atrast un salīdzināt datumus, taču lēmuma pamatam jāatbilst konkrētajai situācijai. Darba plānam nepieciešams darba režīms un darba devēja kārtība, mācībām attiecīgā gada iestādes paziņojums, bet pasākumam rīkotāja programma. Vispārīga pārskata datums nevar aizstāt individuālu apstiprinājumu.",
+      "Personīgajās veidnēs pievieno tikai tādus attēlus un datus, kurus drīksti izmantot attiecīgajam mērķim. Vietnes fotogrāfiju un ārēju astronomijas attēlu licences ir atsevišķas no tavu paša failu tiesībām. Pirms lejupielādes izdrukāšanas vai tālākas izplatīšanas pārbaudi konkrētā satura norādījumus un avotu."
+    ]
+  },
+  "/pieklustamiba/": {
+    "heading": "Pārskatāma navigācija un konkrēts kļūdas ziņojums",
+    "paragraphs": [
+      "Vietnes lietošanā noder pārejas saite uz galveno saturu, formas lauku nosaukumi un redzama tastatūras fokusa atzīme. Datumu nozīmei nevajadzētu būt atkarīgai tikai no krāsas: nedēļas dienas, datumi un notikumu nosaukumi ļauj pārskatīt kalendāru arī citā lasīšanas veidā. Drukas izkārtojums ir atsevišķs no interaktīvās ekrāna saskarnes.",
+      "Ja kādu darbību nevari pabeigt, apraksti konkrēto soli un lapu, nevis tikai vispārīgi norādi uz problēmu. Piemini izmantoto ierīci, pārlūku un, ja vajadzīgs, palīgtehnoloģiju; privāti notikumu dati nav jāsūta. Šāds ziņojums palīdz pārbaudīt šķērsli, neuzdodot vietnes iekšējos testus par neatkarīgu piekļūstamības sertifikāciju."
+    ]
+  },
+  "/pilsetas-un-fotografijas/": {
+    "heading": "Attēla avots un tā lietošanas tiesības",
+    "paragraphs": [
+      "Attēla autors, avota lapa un licence ir trīs atšķirīgas norādes. Samazināta vai apgriezta vietnes kopija nekļūst par jaunu darbu bez sākotnējās licences nosacījumiem. Ja vēlies izmantot fotogrāfiju citur, atver tieši tās avota ierakstu, pārbaudi autoru un attiecīgās licences prasības, nevis pārņem blakus esoša attēla informāciju.",
+      "Pilsētu un augstskolu fotogrāfijas ir vietu ilustrācijas, nevis tiešraides skats vai laikapstākļu mērījums. Astronomijas virsmas materiāliem un vietnei veidotajām vektoru ilustrācijām izcelsme ir norādīta atsevišķi. Licences jautājuma vai kļūdas gadījumā ziņojumā pievieno konkrētā attēla nosaukumu, sadaļu un avota saiti."
+    ]
+  },
+  "/404.html": {
+    "heading": "Atrodi vajadzīgo saturu arī pēc nepareizas saites",
+    "paragraphs": [
+      "Neatrasta adrese var būt novecojusi saite, pārrakstīšanās kļūda vai lapa, kura vairs nav pieejama. Meklē pēc satura nosaukuma, gada vai mēneša, nevis mēģini uzminēt adreses pierakstu. Kalendāru, svētku un rīku pārskati ļauj nonākt pie publicētā satura no skaidra sākumpunkta.",
+      "Ja šurp nonāci, nospiežot pašas vietnes saiti, ziņo par sākotnējo lapu un saites nosaukumu. Personīgais lokāli saglabātais plāns netiek dzēsts tikai tāpēc, ka atvērta nepareiza adrese. Lai to turpinātu, pārej uz sākumlapu vai attiecīgā perioda kalendāru."
+    ]
+  },
+  "/500.html": {
+    "heading": "Kā turpināt, ja lapa īslaicīgi nav pieejama",
+    "paragraphs": [
+      "Īslaicīga pieejamības kļūda nav tas pats, kas nepareizs kalendāra datums. Mēģini lapu atvērt vēlreiz un, ja problēma saglabājas, pārej uz kalendāru vai rīku pārskatu. Pirms pārlūka datu dzēšanas atceries, ka tajos var glabāties tavs personīgais plāns.",
+      "Ziņojumā par atkārtotu problēmu norādi lapas adresi, aptuveno laiku un darbību, kas kļūdu izraisīja. Nesūti paroles, bankas datus vai visu privāto kalendāru. Konkrēts, neliels piemērs palīdz atjaunot darbību un pārbaudīt rezultātu."
+    ]
+  }
+}

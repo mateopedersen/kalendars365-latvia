@@ -129,8 +129,8 @@
       "institution": "Latvijas Universitāte",
       "scope": "Vispārējais studiju kalendārs. Atsevišķām fakultātēm un studiju programmām var būt savi grafiki.",
       "source": {
-        "title": "2026/2027 Academic year calendar",
-        "url": "https://www.lu.lv/en/studies/study-process/academic-calendar/2026/2027-academic-year-calendar/"
+        "title": "2026./2027. akadēmiskā gada kalendārs",
+        "url": "https://www.lu.lv/studijas/studiju-celvedis/akademiskais-kalendars/2026/2027-akademiska-gada-kalendars/"
       },
       "photo": {
         "src": "/assets/universities/lu.jpg",
@@ -203,14 +203,15 @@
           "end": "2027-08-29",
           "scope": "Tikai programmās, kurām paredzētas vasaras studijas."
         }
-      ]
+      ],
+      "checkedAt": "2026-11-10"
     },
     {
       "id": "lu-doctoral",
       "institution": "LU Doktorantūras skola",
       "scope": "Doktorantūras studiju un pētniecības grafiks; tas neaizstāj LU vispārējo kalendāru.",
       "source": {
-        "title": "Academic year calendar: doctoral studies",
+        "title": "Doktorantūras akadēmiskā gada kalendārs",
         "url": "https://doktorantura.lu.lv/en/study-and-research/doctoral-studies/academic-year-calendar/"
       },
       "events": [
@@ -250,7 +251,8 @@
           "start": "2027-08-30",
           "end": "2027-09-26"
         }
-      ]
+      ],
+      "checkedAt": "2026-11-10"
     },
     {
       "id": "rtu",
@@ -306,12 +308,13 @@
           "start": "2027-06-28",
           "end": "2027-08-22"
         }
-      ]
+      ],
+      "checkedAt": "2026-11-10"
     },
     {
       "id": "rsu",
       "institution": "Rīgas Stradiņa universitāte",
-      "scope": "Grafiks atšķiras pēc studiju programmas un kursa; Medicīnas fakultātes 6. kursam un studiju noslēguma gadiem ir atsevišķi izņēmumi.",
+      "scope": "Vispārējais grafiks; Medicīnas fakultātes 6. kursam un noslēguma gadiem pārbaudi atsevišķos RSU ierakstus. Izņēmumi norādīti pie katra perioda.",
       "source": {
         "title": "RSU akadēmiskais kalendārs 2026/2027",
         "url": "https://www.rsu.lv/akademiskais-kalendars/26"
@@ -326,6 +329,20 @@
         "pageUrl": "https://commons.wikimedia.org/wiki/File:RSU-campus.jpg"
       },
       "events": [
+        {
+          "kind": "study",
+          "label": "Rudens semestris",
+          "start": "2026-09-01",
+          "end": "2027-01-24",
+          "scope": "Visiem, izņemot Medicīnas fakultātes 6. studiju gadu."
+        },
+        {
+          "kind": "study",
+          "label": "Pavasara semestris",
+          "start": "2027-02-01",
+          "end": "2027-06-27",
+          "scope": "Visiem, izņemot pēdējā gada pamatstudiju un maģistra programmu studentus."
+        },
         {
           "kind": "holiday",
           "label": "Ziemas brīvlaiks",
@@ -344,15 +361,9 @@
           "start": "2027-03-22",
           "end": "2027-03-29",
           "scope": "Visiem, izņemot Medicīnas fakultātes 6. kursu."
-        },
-        {
-          "kind": "holiday",
-          "label": "Pavasara brīvlaiks",
-          "start": "2027-03-26",
-          "end": "2027-03-29",
-          "scope": "Medicīnas fakultātes 6. kurss."
         }
-      ]
+      ],
+      "checkedAt": "2026-11-10"
     },
     {
       "id": "du",
@@ -402,12 +413,13 @@
           "start": "2027-05-17",
           "end": "2027-06-16"
         }
-      ]
+      ],
+      "checkedAt": "2026-11-10"
     },
     {
       "id": "lbtu",
       "institution": "Latvijas Biozinātņu un tehnoloģiju universitāte",
-      "scope": "Brīvlaiku un studiju periodu organizācija seko studiju plānam; moduļu un nepilna laika grafikiem ir atšķirības.",
+      "scope": "Studiju, sesiju un ziemas brīvlaika datumi no LBTU publicētā grafika. Vasaras brīvlaiks norādīts pēc studiju plāna; vienots datumu diapazons nav publicēts.",
       "source": {
         "title": "LBTU nodarbību grafiki un 2026/2027 studiju gada iedalījums",
         "url": "https://www.lbtu.lv/lv/nodarbibu-grafiki"
@@ -451,14 +463,9 @@
           "label": "Individuālās studijas un pārbaudījumi",
           "start": "2027-05-24",
           "end": "2027-06-18"
-        },
-        {
-          "kind": "holiday",
-          "label": "Vasaras brīvlaiks",
-          "start": "2027-06-19",
-          "end": "2027-08-30"
         }
-      ]
+      ],
+      "checkedAt": "2026-11-10"
     },
     {
       "id": "via",
@@ -522,7 +529,8 @@
           "start": "2027-06-23",
           "end": "2027-06-24"
         }
-      ]
+      ],
+      "checkedAt": "2026-11-10"
     },
     {
       "id": "lka",
@@ -569,7 +577,8 @@
           "start": "2027-05-24",
           "end": "2027-06-20"
         }
-      ]
+      ],
+      "checkedAt": "2026-11-10"
     },
     {
       "id": "lma",
@@ -645,7 +654,8 @@
           "label": "Latvijas Republikas Neatkarības atjaunošanas diena",
           "start": "2027-05-04"
         }
-      ]
+      ],
+      "checkedAt": "2026-11-10"
     },
     {
       "id": "jvlma",
@@ -711,12 +721,15 @@
           "start": "2027-06-21",
           "end": "2027-09-01"
         }
-      ]
+      ],
+      "checkedAt": "2026-11-10"
     }
   ],
   "notes": [
     "Pārskats ietver Izglītības un zinātnes ministrijas publicētajā sarakstā norādītās 11 valsts augstskolas; tas nav visu privāto augstskolu un koledžu pilns katalogs.",
     "Ventspils Augstskolas un Latvijas Nacionālās aizsardzības akadēmijas 2026./2027. gada publisku akadēmisko brīvlaiku grafiku pārbaudītajās oficiālajās lapās neatradām. Datumi netiek izsecināti no iepriekšējiem gadiem.",
-    "Atvaļinājumi, studiju pārtraukumi, sesija un lekcijām brīvās dienas dažādās programmās var atšķirties. Skatiet konkrētās augstskolas pirmavotu."
-  ]
+    "Atvaļinājumi, studiju pārtraukumi, sesija un lekcijām brīvās dienas dažādās programmās var atšķirties. Skatiet konkrētās augstskolas pirmavotu.",
+    "LBTU vasaras brīvlaika vienots datumu diapazons nav publicēts; ievēro savas programmas studiju plānu."
+  ],
+  "checkedAt": "2026-11-10"
 }

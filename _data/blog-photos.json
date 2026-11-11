@@ -1,0 +1,816 @@
+{
+  "photos": [
+    {
+      "id": "flag",
+      "sourceFile": "/assets/category-photos/sources/flag.jpg",
+      "sourceSha256": "2ddead242a432164aec3a4a72b5f1eb0030b15ded7ee9ec6b05b5c83d8fc869a",
+      "author": "Xil",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Latvia_photo_01.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Flag_of_Latvia_photo_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "alt": "Vējā plīvojošs Latvijas karmīnsarkanbaltsarkanais karogs pret zilām debesīm.",
+      "caption": "Vējā plīvojošs Latvijas karmīnsarkanbaltsarkanais karogs pret zilām debesīm. Arhīva fotogrāfija; tā nerāda pašreizējos apstākļus.",
+      "src": "/assets/blog/flag-780.webp",
+      "srcset": "/assets/blog/flag-640.webp 640w, /assets/blog/flag-780.webp 780w",
+      "width": 780,
+      "height": 574,
+      "files": [
+        {
+          "src": "/assets/blog/flag-640.webp",
+          "width": 640,
+          "height": 471,
+          "bytes": 29580,
+          "sha256": "71018a1f8e42e271959f1403567c6839d7cedea3429491028c6ec56fe7d013f3"
+        },
+        {
+          "src": "/assets/blog/flag-780.webp",
+          "width": 780,
+          "height": 574,
+          "bytes": 41060,
+          "sha256": "3807422f0b3a8800d802d15dde821d28d46038ad2ea0c0ebc0fde504558eadb5"
+        }
+      ],
+      "changes": "Samazināts izmērs un pārveidots WebP; kartītēs iespējams attēla apgriezums.",
+      "visualReview": {
+        "date": "2026-11-11",
+        "sourceSha256": "2ddead242a432164aec3a4a72b5f1eb0030b15ded7ee9ec6b05b5c83d8fc869a",
+        "observation": "Vējā plīvojošs Latvijas karmīnsarkanbaltsarkanais karogs pret zilām debesīm.",
+        "method": "Actual-pixel contact-sheet review; no subject identity inferred from filename."
+      }
+    },
+    {
+      "id": "monthly",
+      "sourceFile": "/assets/category-photos/sources/monthly.jpg",
+      "sourceSha256": "02848387617ddcd9c2b07ead7d8aec76ec580475299e97c723aacbf9014a8382",
+      "author": "Eric Rothermel erothermel",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Monthly_schedule_(Unsplash).jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Monthly_schedule_%28Unsplash%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "alt": "Atvērts papīra mēneša kalendārs ar rokraksta piezīmēm.",
+      "caption": "Atvērts papīra mēneša kalendārs ar rokraksta piezīmēm. Ilustratīva fotogrāfija.",
+      "src": "/assets/blog/monthly-960.webp",
+      "srcset": "/assets/blog/monthly-640.webp 640w, /assets/blog/monthly-960.webp 960w",
+      "width": 960,
+      "height": 643,
+      "files": [
+        {
+          "src": "/assets/blog/monthly-640.webp",
+          "width": 640,
+          "height": 429,
+          "bytes": 13014,
+          "sha256": "27c0476dc4412c8c8a5884bcd844e44ddb081099502445921b622422928de185"
+        },
+        {
+          "src": "/assets/blog/monthly-960.webp",
+          "width": 960,
+          "height": 643,
+          "bytes": 29598,
+          "sha256": "2aeca8a58f6ba548dd02501217172cc70c236f92750db38077f157c61ad0ad7b"
+        }
+      ],
+      "changes": "Samazināts izmērs un pārveidots WebP; kartītēs iespējams attēla apgriezums.",
+      "visualReview": {
+        "date": "2026-11-11",
+        "sourceSha256": "02848387617ddcd9c2b07ead7d8aec76ec580475299e97c723aacbf9014a8382",
+        "observation": "Atvērts papīra mēneša kalendārs ar rokraksta piezīmēm.",
+        "method": "Actual-pixel contact-sheet review; no subject identity inferred from filename."
+      }
+    },
+    {
+      "id": "clock",
+      "sourceFile": "/assets/category-photos/sources/clock.jpg",
+      "sourceSha256": "15129857e0caa1cff61ac028a1e7362e23c6d882aaa956ee31e96af752b7a4ea",
+      "author": "Shixart1985",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Close-up_of_a_woman_holding_an_alarm_clock.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/11/Close-up_of_a_woman_holding_an_alarm_clock.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "alt": "Rokā turēts mehānisks modinātājpulkstenis virs darba galda.",
+      "caption": "Rokā turēts mehānisks modinātājpulkstenis virs darba galda. Ilustratīva fotogrāfija.",
+      "src": "/assets/blog/clock-960.webp",
+      "srcset": "/assets/blog/clock-640.webp 640w, /assets/blog/clock-960.webp 960w",
+      "width": 960,
+      "height": 1438,
+      "files": [
+        {
+          "src": "/assets/blog/clock-640.webp",
+          "width": 640,
+          "height": 959,
+          "bytes": 28204,
+          "sha256": "bb3c1eaf8666da10b6eb3a6d00d8b7d34d9e0f74e3da45fae7e4fb5aec21f1be"
+        },
+        {
+          "src": "/assets/blog/clock-960.webp",
+          "width": 960,
+          "height": 1438,
+          "bytes": 52974,
+          "sha256": "c8542ce1b84eb4bd8f6a614469eff7623630d779aa08005bccf28125ab760578"
+        }
+      ],
+      "changes": "Samazināts izmērs un pārveidots WebP; kartītēs iespējams attēla apgriezums.",
+      "visualReview": {
+        "date": "2026-11-11",
+        "sourceSha256": "15129857e0caa1cff61ac028a1e7362e23c6d882aaa956ee31e96af752b7a4ea",
+        "observation": "Rokā turēts mehānisks modinātājpulkstenis virs darba galda.",
+        "method": "Actual-pixel contact-sheet review; no subject identity inferred from filename."
+      }
+    },
+    {
+      "id": "ligo",
+      "sourceFile": "/assets/category-photos/sources/ligo.webp",
+      "sourceSha256": "7025af0ab74fd065dd3f312f5c29fe93163620818f99c8d01bebe6e48505fc62",
+      "author": "Heinrihsons",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:P%C5%ABdeles_iedeg%C5%A1ana.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8d/P%C5%ABdeles_iedeg%C5%A1ana.jpg",
+      "alt": "Līgo vakarā ar lāpu aizdedz augstā stabā paceltu pūdeli.",
+      "caption": "Līgo vakarā ar lāpu aizdedz augstā stabā paceltu pūdeli. Arhīva fotogrāfija; tā nerāda pašreizējos apstākļus.",
+      "src": "/assets/blog/ligo-960.webp",
+      "srcset": "/assets/blog/ligo-640.webp 640w, /assets/blog/ligo-960.webp 960w",
+      "width": 960,
+      "height": 638,
+      "files": [
+        {
+          "src": "/assets/blog/ligo-640.webp",
+          "width": 640,
+          "height": 425,
+          "bytes": 30608,
+          "sha256": "3fd441222eee2ea605d85c28e19f8a9be74b946a234a59184cfd8dc88ff48ae1"
+        },
+        {
+          "src": "/assets/blog/ligo-960.webp",
+          "width": 960,
+          "height": 638,
+          "bytes": 91476,
+          "sha256": "6804eeace3ffcc84708043b06ea104be6d7fbc3973b56f5afce20dd0937a9064"
+        }
+      ],
+      "changes": "Samazināts izmērs un pārveidots WebP; kartītēs iespējams attēla apgriezums.",
+      "visualReview": {
+        "date": "2026-11-11",
+        "sourceSha256": "7025af0ab74fd065dd3f312f5c29fe93163620818f99c8d01bebe6e48505fc62",
+        "observation": "Līgo vakarā ar lāpu aizdedz augstā stabā paceltu pūdeli.",
+        "method": "Actual-pixel contact-sheet review; no subject identity inferred from filename."
+      }
+    },
+    {
+      "id": "flowers",
+      "sourceFile": "/assets/category-photos/sources/flowers.jpg",
+      "sourceSha256": "d8409360634e146312a234a04ed30ea57a004724be3e6c50de591407cee22f7b",
+      "author": "George Chernilevsky",
+      "license": "Public domain",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Poppies_bouquet_2017_G1.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/74/Poppies_bouquet_2017_G1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "alt": "Sarkanas magones stikla vāzē.",
+      "caption": "Sarkanas magones stikla vāzē. Ilustratīva fotogrāfija.",
+      "src": "/assets/blog/flowers-960.webp",
+      "srcset": "/assets/blog/flowers-640.webp 640w, /assets/blog/flowers-960.webp 960w",
+      "width": 960,
+      "height": 1380,
+      "files": [
+        {
+          "src": "/assets/blog/flowers-640.webp",
+          "width": 640,
+          "height": 920,
+          "bytes": 36336,
+          "sha256": "39da447c3a3469435a70ab3bdc42e7770c25672bed92b89937137c3106a947b9"
+        },
+        {
+          "src": "/assets/blog/flowers-960.webp",
+          "width": 960,
+          "height": 1380,
+          "bytes": 66658,
+          "sha256": "b2214bb44e82e209ce5b1ac5a4336917592e3192c8234f4928745cbcd93a3da6"
+        }
+      ],
+      "changes": "Samazināts izmērs un pārveidots WebP; kartītēs iespējams attēla apgriezums.",
+      "visualReview": {
+        "date": "2026-11-11",
+        "sourceSha256": "d8409360634e146312a234a04ed30ea57a004724be3e6c50de591407cee22f7b",
+        "observation": "Sarkanas magones stikla vāzē.",
+        "method": "Actual-pixel contact-sheet review; no subject identity inferred from filename."
+      }
+    },
+    {
+      "id": "school",
+      "sourceFile": "/assets/category-photos/sources/school.webp",
+      "sourceSha256": "f92cec85075787511c9e9d19d31638ca1cb188c39a3c49b48465b74108c1d8fe",
+      "author": "Treisijs",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Olaines_1._vidusskola.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Olaines_1._vidusskola.jpg",
+      "alt": "Olaines pirmās vidusskolas ēka un laukums ziemā.",
+      "caption": "Olaines pirmās vidusskolas ēka un laukums ziemā. Arhīva fotogrāfija; tā nerāda pašreizējos apstākļus.",
+      "src": "/assets/blog/school-960.webp",
+      "srcset": "/assets/blog/school-640.webp 640w, /assets/blog/school-960.webp 960w",
+      "width": 960,
+      "height": 540,
+      "files": [
+        {
+          "src": "/assets/blog/school-640.webp",
+          "width": 640,
+          "height": 360,
+          "bytes": 43946,
+          "sha256": "671bbd2845c334d9caa0542eeb3c216d1874422e7d94e426257723caabc675c0"
+        },
+        {
+          "src": "/assets/blog/school-960.webp",
+          "width": 960,
+          "height": 540,
+          "bytes": 113196,
+          "sha256": "470d8dd2eb845d71eb7316446fdcc60661b846cc22d7a8c8d9fda580a1209301"
+        }
+      ],
+      "changes": "Samazināts izmērs un pārveidots WebP; kartītēs iespējams attēla apgriezums.",
+      "visualReview": {
+        "date": "2026-11-11",
+        "sourceSha256": "f92cec85075787511c9e9d19d31638ca1cb188c39a3c49b48465b74108c1d8fe",
+        "observation": "Olaines pirmās vidusskolas ēka un laukums ziemā.",
+        "method": "Actual-pixel contact-sheet review; no subject identity inferred from filename."
+      }
+    },
+    {
+      "id": "family",
+      "sourceFile": "/assets/category-photos/sources/family.webp",
+      "sourceSha256": "9428f61ae46fe9186a6218edb3e031a2b7b6581b8f8e733346c248bd14186697",
+      "author": "TKS",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gruzni%C5%86i-%C4%A3imene-1024x683.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/08/Gruzni%C5%86i-%C4%A3imene-1024x683.jpg",
+      "alt": "Piecu cilvēku ģimenes portrets zaļā dārzā.",
+      "caption": "Piecu cilvēku ģimenes portrets zaļā dārzā. Ilustratīva fotogrāfija.",
+      "src": "/assets/blog/family-960.webp",
+      "srcset": "/assets/blog/family-640.webp 640w, /assets/blog/family-960.webp 960w",
+      "width": 960,
+      "height": 640,
+      "files": [
+        {
+          "src": "/assets/blog/family-640.webp",
+          "width": 640,
+          "height": 427,
+          "bytes": 75304,
+          "sha256": "488a548054085481de8eff0a46d551b392857ca070b2a5364bc2f1e7177c240a"
+        },
+        {
+          "src": "/assets/blog/family-960.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 137494,
+          "sha256": "04ad06f9c33fec028e66a8390b598c607912c6d464c7a2b738363bf264768932"
+        }
+      ],
+      "changes": "Samazināts izmērs un pārveidots WebP; kartītēs iespējams attēla apgriezums.",
+      "visualReview": {
+        "date": "2026-11-11",
+        "sourceSha256": "9428f61ae46fe9186a6218edb3e031a2b7b6581b8f8e733346c248bd14186697",
+        "observation": "Piecu cilvēku ģimenes portrets zaļā dārzā.",
+        "method": "Actual-pixel contact-sheet review; no subject identity inferred from filename."
+      }
+    },
+    {
+      "id": "calculator",
+      "sourceFile": "/assets/category-photos/sources/calculator.jpg",
+      "sourceSha256": "c45f46ce890063df4079e75e3d943d2b57cdf3dd43636b64f26bca0cc22273c6",
+      "author": "Jorge Franganillo",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Calculator.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/77/Calculator.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "alt": "Zinātniskā kalkulatora ciparu un matemātisko funkciju taustiņu tuvplāns.",
+      "caption": "Zinātniskā kalkulatora ciparu un matemātisko funkciju taustiņu tuvplāns. Ilustratīva fotogrāfija.",
+      "src": "/assets/blog/calculator-960.webp",
+      "srcset": "/assets/blog/calculator-640.webp 640w, /assets/blog/calculator-960.webp 960w",
+      "width": 960,
+      "height": 640,
+      "files": [
+        {
+          "src": "/assets/blog/calculator-640.webp",
+          "width": 640,
+          "height": 427,
+          "bytes": 25170,
+          "sha256": "57127e4cec3e096c9b36a759dcab5eac6cb9ab2b1bd5369bd05b67bbc8a11106"
+        },
+        {
+          "src": "/assets/blog/calculator-960.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 43860,
+          "sha256": "1511803676aff314befa978bc3a4128f1d348579a19da7463b55e0f7ef6eb7ec"
+        }
+      ],
+      "changes": "Samazināts izmērs un pārveidots WebP; kartītēs iespējams attēla apgriezums.",
+      "visualReview": {
+        "date": "2026-11-11",
+        "sourceSha256": "c45f46ce890063df4079e75e3d943d2b57cdf3dd43636b64f26bca0cc22273c6",
+        "observation": "Zinātniskā kalkulatora ciparu un matemātisko funkciju taustiņu tuvplāns.",
+        "method": "Actual-pixel contact-sheet review; no subject identity inferred from filename."
+      }
+    },
+    {
+      "id": "jurmala",
+      "sourceFile": "/assets/category-photos/sources/jurmala.webp",
+      "sourceSha256": "d3a4976e84dbc21aaa4c48cc601ec496ae377787565f96e94d2b9038c0e1fbfb",
+      "author": "Raul Cortez999",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Emilija_Racene_Former_Establishment,_Jurmala,_Latvia.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Emilija_Racene_Former_Establishment%2C_Jurmala%2C_Latvia.jpg",
+      "alt": "Jūrmalas smilšu pludmale un vēsturiskā Emīlijas Rācenes peldu iestāde.",
+      "caption": "Jūrmalas smilšu pludmale un vēsturiskā Emīlijas Rācenes peldu iestāde. Arhīva fotogrāfija; tā nerāda pašreizējos apstākļus.",
+      "src": "/assets/blog/jurmala-960.webp",
+      "srcset": "/assets/blog/jurmala-640.webp 640w, /assets/blog/jurmala-960.webp 960w",
+      "width": 960,
+      "height": 639,
+      "files": [
+        {
+          "src": "/assets/blog/jurmala-640.webp",
+          "width": 640,
+          "height": 426,
+          "bytes": 76994,
+          "sha256": "03c57910f58286991e985f947134473eed9ea21bd3a4a6d4b425b26947750d59"
+        },
+        {
+          "src": "/assets/blog/jurmala-960.webp",
+          "width": 960,
+          "height": 639,
+          "bytes": 178444,
+          "sha256": "a6f5b284035a5ea3e2f3d8d8e205b8d799053b77e4fe56fcd26e8455587e6bce"
+        }
+      ],
+      "changes": "Samazināts izmērs un pārveidots WebP; kartītēs iespējams attēla apgriezums.",
+      "visualReview": {
+        "date": "2026-11-11",
+        "sourceSha256": "d3a4976e84dbc21aaa4c48cc601ec496ae377787565f96e94d2b9038c0e1fbfb",
+        "observation": "Jūrmalas smilšu pludmale un vēsturiskā Emīlijas Rācenes peldu iestāde.",
+        "method": "Actual-pixel contact-sheet review; no subject identity inferred from filename."
+      }
+    },
+    {
+      "id": "burgundy-planner",
+      "sourceFile": "/assets/category-photos/sources/burgundy-planner.jpg",
+      "sourceSha256": "a9455838001f88bc180078f721fab60d4c5de9fb672079b1f4d64307c13253d4",
+      "author": "Philippe Alès",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Agenda_et_crayon.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Agenda_et_crayon.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "alt": "Bordo plānotājs ar dzeltenu zīmuli.",
+      "caption": "Bordo plānotājs ar dzeltenu zīmuli. Ilustratīva fotogrāfija.",
+      "src": "/assets/blog/burgundy-planner-960.webp",
+      "srcset": "/assets/blog/burgundy-planner-640.webp 640w, /assets/blog/burgundy-planner-960.webp 960w",
+      "width": 960,
+      "height": 638,
+      "files": [
+        {
+          "src": "/assets/blog/burgundy-planner-640.webp",
+          "width": 640,
+          "height": 425,
+          "bytes": 9026,
+          "sha256": "880787c3e2b3972bc8ea177025cdb30ee4c4608a202c625d8fb9287437c2e801"
+        },
+        {
+          "src": "/assets/blog/burgundy-planner-960.webp",
+          "width": 960,
+          "height": 638,
+          "bytes": 20646,
+          "sha256": "ee0a20bdbf4f2732c576812c22d796bd6f2b2453b29b23fb586067727cd2f327"
+        }
+      ],
+      "changes": "Samazināts izmērs un pārveidots WebP; kartītēs iespējams attēla apgriezums.",
+      "visualReview": {
+        "date": "2026-11-11",
+        "sourceSha256": "a9455838001f88bc180078f721fab60d4c5de9fb672079b1f4d64307c13253d4",
+        "observation": "Bordo plānotājs ar dzeltenu zīmuli.",
+        "method": "Actual-pixel contact-sheet review; no subject identity inferred from filename."
+      }
+    },
+    {
+      "id": "moon",
+      "sourceFile": "/assets/category-photos/sources/moon.jpg",
+      "sourceSha256": "e58b800663b8bd5418d18d45289a055ad633de2805fd5108a5ae0ba8b795ce86",
+      "author": "NASA · Apollo 17",
+      "license": "NASA media usage guidelines",
+      "licenseUrl": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+      "sourceUrl": "https://images.nasa.gov/details/as17-152-23311",
+      "originalUrl": "https://images-assets.nasa.gov/image/as17-152-23311/as17-152-23311~medium.jpg",
+      "alt": "Mēness virsma Apollo 17 misijas arhīva fotogrāfijā",
+      "caption": "Mēness virsma Apollo 17 misijas arhīva fotogrāfijā Arhīva fotogrāfija; tā nerāda pašreizējos apstākļus.",
+      "src": "/assets/blog/moon-512.webp",
+      "srcset": "/assets/blog/moon-512.webp 512w",
+      "width": 512,
+      "height": 512,
+      "files": [
+        {
+          "src": "/assets/blog/moon-512.webp",
+          "width": 512,
+          "height": 512,
+          "bytes": 25890,
+          "sha256": "300fd3e2ed2fcab7124928e0b232eec153cba5205ad618c34b431c132f42dae5"
+        }
+      ],
+      "changes": "Samazināts izmērs un pārveidots WebP; kartītēs iespējams attēla apgriezums.",
+      "visualReview": {
+        "date": "2026-11-11",
+        "sourceSha256": "e58b800663b8bd5418d18d45289a055ad633de2805fd5108a5ae0ba8b795ce86",
+        "observation": "Mēness virsma Apollo 17 misijas arhīva fotogrāfijā",
+        "method": "Actual-pixel contact-sheet review; no subject identity inferred from filename."
+      }
+    },
+    {
+      "id": "summer",
+      "sourceFile": "/assets/category-photos/sources/summer.webp",
+      "sourceSha256": "d10054b3fc91d9731ff72df7d3ba31b7194163f70d8a7d6244f15ee0a9cbe824",
+      "author": "Zanna Sulojeva",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Saulriets,_Vidzemes_Akme%C5%86ain%C4%81_j%C5%ABrmala.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Saulriets%2C_Vidzemes_Akme%C5%86ain%C4%81_j%C5%ABrmala.jpg",
+      "alt": "Saule pie horizonta un akmeņaina Baltijas jūras piekraste.",
+      "caption": "Saule pie horizonta un akmeņaina Baltijas jūras piekraste. Arhīva fotogrāfija; tā nerāda pašreizējos apstākļus.",
+      "src": "/assets/blog/summer-960.webp",
+      "srcset": "/assets/blog/summer-640.webp 640w, /assets/blog/summer-960.webp 960w",
+      "width": 960,
+      "height": 720,
+      "files": [
+        {
+          "src": "/assets/blog/summer-640.webp",
+          "width": 640,
+          "height": 480,
+          "bytes": 23186,
+          "sha256": "e0cfc68cdce0bb83bb755ecd727a6d3e4eab9da2029e394141ea8eeae7cd0202"
+        },
+        {
+          "src": "/assets/blog/summer-960.webp",
+          "width": 960,
+          "height": 720,
+          "bytes": 51526,
+          "sha256": "2d975fe42e1265f842696d842d9265ca31eb9160c0c407cbf0fbe0e17b6c0446"
+        }
+      ],
+      "changes": "Samazināts izmērs un pārveidots WebP; kartītēs iespējams attēla apgriezums.",
+      "visualReview": {
+        "date": "2026-11-11",
+        "sourceSha256": "d10054b3fc91d9731ff72df7d3ba31b7194163f70d8a7d6244f15ee0a9cbe824",
+        "observation": "Saule pie horizonta un akmeņaina Baltijas jūras piekraste.",
+        "method": "Actual-pixel contact-sheet review; no subject identity inferred from filename."
+      }
+    },
+    {
+      "id": "autumn",
+      "sourceFile": "/assets/category-photos/sources/autumn.jpg",
+      "sourceSha256": "3a6b636d39638f5dce31074f8ccce690134f25cd69210bcb2a2c519486cdd76b",
+      "author": "Toomas Tsamoot",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hiking_trail_on_the_bank_of_river_Gauja_near_Sigulda_-_panoramio.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Hiking_trail_on_the_bank_of_river_Gauja_near_Sigulda_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "alt": "Brūnām lapām klāta taka un kaili koki pie Gaujas rudenī.",
+      "caption": "Brūnām lapām klāta taka un kaili koki pie Gaujas rudenī. Arhīva fotogrāfija; tā nerāda pašreizējos apstākļus.",
+      "src": "/assets/blog/autumn-960.webp",
+      "srcset": "/assets/blog/autumn-640.webp 640w, /assets/blog/autumn-960.webp 960w",
+      "width": 960,
+      "height": 720,
+      "files": [
+        {
+          "src": "/assets/blog/autumn-640.webp",
+          "width": 640,
+          "height": 480,
+          "bytes": 106412,
+          "sha256": "dcd2236b8289539e73ac232d486a89c90d92edffa2c3dee66b488a7d654a0f0c"
+        },
+        {
+          "src": "/assets/blog/autumn-960.webp",
+          "width": 960,
+          "height": 720,
+          "bytes": 225046,
+          "sha256": "3fde0c1d0dbe936808e061204dfecac2a4cc93a5e058d866db71d861ca7822d5"
+        }
+      ],
+      "changes": "Samazināts izmērs un pārveidots WebP; kartītēs iespējams attēla apgriezums.",
+      "visualReview": {
+        "date": "2026-11-11",
+        "sourceSha256": "3a6b636d39638f5dce31074f8ccce690134f25cd69210bcb2a2c519486cdd76b",
+        "observation": "Brūnām lapām klāta taka un kaili koki pie Gaujas rudenī.",
+        "method": "Actual-pixel contact-sheet review; no subject identity inferred from filename."
+      }
+    },
+    {
+      "id": "winter",
+      "sourceFile": "/assets/category-photos/sources/winter.webp",
+      "sourceSha256": "8d66f0daa79503eb23a388e1b3655c1221213cc095a2b64bcf6aba4fcf3c8691",
+      "author": "Lee Vilenski",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Snowed_areas_of_Riga,_Latvia_(18092).jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Snowed_areas_of_Riga%2C_Latvia_%2818092%29.jpg",
+      "alt": "Apsniguši koki un Rīgas Kristus Piedzimšanas katedrāle.",
+      "caption": "Apsniguši koki un Rīgas Kristus Piedzimšanas katedrāle. Arhīva fotogrāfija; tā nerāda pašreizējos apstākļus.",
+      "src": "/assets/blog/winter-960.webp",
+      "srcset": "/assets/blog/winter-640.webp 640w, /assets/blog/winter-960.webp 960w",
+      "width": 960,
+      "height": 720,
+      "files": [
+        {
+          "src": "/assets/blog/winter-640.webp",
+          "width": 640,
+          "height": 480,
+          "bytes": 57990,
+          "sha256": "b64e9692050a7b08948a57e525cbd5814868fc933c610134df90839a311e389a"
+        },
+        {
+          "src": "/assets/blog/winter-960.webp",
+          "width": 960,
+          "height": 720,
+          "bytes": 146754,
+          "sha256": "b0b0e966e8bc4fe2d6af2c1f89782141c76fa49992eb39db34a077915e652888"
+        }
+      ],
+      "changes": "Samazināts izmērs un pārveidots WebP; kartītēs iespējams attēla apgriezums.",
+      "visualReview": {
+        "date": "2026-11-11",
+        "sourceSha256": "8d66f0daa79503eb23a388e1b3655c1221213cc095a2b64bcf6aba4fcf3c8691",
+        "observation": "Apsniguši koki un Rīgas Kristus Piedzimšanas katedrāle.",
+        "method": "Actual-pixel contact-sheet review; no subject identity inferred from filename."
+      }
+    },
+    {
+      "id": "ring-planner",
+      "sourceFile": "/assets/category-photos/sources/ring-planner.jpg",
+      "sourceSha256": "20e9babedc325a4f527c092f52817a57cbb379a6b3490f36db7d36e148784b9b",
+      "author": "Old Photo Profile",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Personal_organizer_with_metallic_ring_binder.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/56/Personal_organizer_with_metallic_ring_binder.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "alt": "Atvērta plānotāja lapas ar līnijām un metāla gredzeniem.",
+      "caption": "Atvērta plānotāja lapas ar līnijām un metāla gredzeniem. Ilustratīva fotogrāfija.",
+      "src": "/assets/blog/ring-planner-960.webp",
+      "srcset": "/assets/blog/ring-planner-640.webp 640w, /assets/blog/ring-planner-960.webp 960w",
+      "width": 960,
+      "height": 640,
+      "files": [
+        {
+          "src": "/assets/blog/ring-planner-640.webp",
+          "width": 640,
+          "height": 427,
+          "bytes": 28492,
+          "sha256": "f7eda8ae659d56766aeb77f8f40a17bbd24d4627af9b5fd24a953d4ea4d566b6"
+        },
+        {
+          "src": "/assets/blog/ring-planner-960.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 51684,
+          "sha256": "42d89b367bfbef0965f37494af09739fbaabd696cea64b4a06e5ef58637443bc"
+        }
+      ],
+      "changes": "Samazināts izmērs un pārveidots WebP; kartītēs iespējams attēla apgriezums.",
+      "visualReview": {
+        "date": "2026-11-11",
+        "sourceSha256": "20e9babedc325a4f527c092f52817a57cbb379a6b3490f36db7d36e148784b9b",
+        "observation": "Atvērta plānotāja lapas ar līnijām un metāla gredzeniem.",
+        "method": "Actual-pixel contact-sheet review; no subject identity inferred from filename."
+      }
+    },
+    {
+      "id": "easter",
+      "sourceFile": "/assets/occasions/easter-960.webp",
+      "sourceSha256": "b9258feaa951ad064661b891e6e711825202646b5a11e854ac6ddc27a11d653f",
+      "author": "Nicolas G. Mertens",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Easter_Eggs_in_Latvia_1.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Easter_Eggs_in_Latvia_1.jpg",
+      "alt": "Olas, sīpolu mizas un audums Lieldienu olu krāsošanai",
+      "caption": "Lieldienu olu krāsošanai sagatavotas olas un materiāli. Ilustratīva arhīva fotogrāfija.",
+      "src": "/assets/blog/easter-960.webp",
+      "srcset": "/assets/blog/easter-640.webp 640w, /assets/blog/easter-960.webp 960w",
+      "width": 960,
+      "height": 655,
+      "files": [
+        {
+          "src": "/assets/blog/easter-640.webp",
+          "width": 640,
+          "height": 437,
+          "bytes": 83518,
+          "sha256": "69c9ca9561919ed69bf344ecf4501199bd08e14a938b679a3af6645b71ba556f"
+        },
+        {
+          "src": "/assets/blog/easter-960.webp",
+          "width": 960,
+          "height": 655,
+          "bytes": 185418,
+          "sha256": "3adc31f68cba3991ac466facc5fd7c624ffd0a3a0589c9e7342f7a88db548922"
+        }
+      ],
+      "changes": "Samazināts izmērs un pārveidots WebP; kartītēs iespējams attēla apgriezums.",
+      "visualReview": {
+        "date": "2026-11-11",
+        "sourceSha256": "b9258feaa951ad064661b891e6e711825202646b5a11e854ac6ddc27a11d653f",
+        "observation": "Olas, sīpolu mizas un audums Lieldienu olu krāsošanai",
+        "method": "Actual-pixel contact-sheet review; no subject identity inferred from filename."
+      }
+    },
+    {
+      "id": "university",
+      "sourceFile": "/assets/universities/lu.jpg",
+      "sourceSha256": "031a1236b7a8968536f583e34f6edc7a7e3f1407abf08322f27619d519046001",
+      "author": "Evita wiki",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Latvijas_Universit%C4%81tes_centr%C4%81l%C4%81_%C4%93ka.JPG",
+      "originalUrl": null,
+      "alt": "Latvijas Universitātes centrālās ēkas fasāde Rīgā",
+      "caption": "Latvijas Universitātes centrālā ēka. Arhīva fotogrāfija, nevis konkrēta studiju gada attēls.",
+      "src": "/assets/blog/university-1200.webp",
+      "srcset": "/assets/blog/university-640.webp 640w, /assets/blog/university-1200.webp 1200w",
+      "width": 1200,
+      "height": 865,
+      "files": [
+        {
+          "src": "/assets/blog/university-640.webp",
+          "width": 640,
+          "height": 462,
+          "bytes": 88776,
+          "sha256": "d5d86d2af43a71e52b998b29438c9378f50adae2a3d8ef2275a23d1a5d74584d"
+        },
+        {
+          "src": "/assets/blog/university-1200.webp",
+          "width": 1200,
+          "height": 865,
+          "bytes": 299916,
+          "sha256": "f86e702ae297e8977e7c4dd3a58aa0b042151e9c6034b42808de4786e0e398fb"
+        }
+      ],
+      "changes": "Samazināts izmērs un pārveidots WebP; kartītēs iespējams attēla apgriezums.",
+      "visualReview": {
+        "date": "2026-11-11",
+        "sourceSha256": "031a1236b7a8968536f583e34f6edc7a7e3f1407abf08322f27619d519046001",
+        "observation": "Latvijas Universitātes centrālās ēkas fasāde Rīgā",
+        "method": "Actual-pixel contact-sheet review; no subject identity inferred from filename."
+      }
+    },
+    {
+      "id": "riga",
+      "sourceFile": "/assets/cities/riga-960.webp",
+      "sourceSha256": "26228d2eeaf99c5e5c40b975a2d263a55f940c3f4771141c8c59469c94ca9630",
+      "author": "Diego Delso",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Vistas_desde_la_iglesia_de_San_Pedro,_Riga,_Letonia,_2012-08-07,_DD_12.JPG",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Vistas_desde_la_iglesia_de_San_Pedro%2C_Riga%2C_Letonia%2C_2012-08-07%2C_DD_12.JPG",
+      "alt": "Rīgas vecpilsētas jumti un Daugava, skats no Svētā Pētera baznīcas",
+      "caption": "Rīgas vecpilsēta un Daugava. Arhīva skats; fotogrāfija nav saullēkta laika mērījums.",
+      "src": "/assets/blog/riga-960.webp",
+      "srcset": "/assets/blog/riga-640.webp 640w, /assets/blog/riga-960.webp 960w",
+      "width": 960,
+      "height": 623,
+      "files": [
+        {
+          "src": "/assets/blog/riga-640.webp",
+          "width": 640,
+          "height": 415,
+          "bytes": 71114,
+          "sha256": "e9b2db43ff5cc1b186cad81adab061d8fa80d333cc623b7467799d33bfe96e5c"
+        },
+        {
+          "src": "/assets/blog/riga-960.webp",
+          "width": 960,
+          "height": 623,
+          "bytes": 164008,
+          "sha256": "bffa0bb2190deafcfafdb95fcf10c1e611c4ddd56c77778c13bfcfd8069f7057"
+        }
+      ],
+      "changes": "Samazināts izmērs un pārveidots WebP; kartītēs iespējams attēla apgriezums.",
+      "visualReview": {
+        "date": "2026-11-11",
+        "sourceSha256": "26228d2eeaf99c5e5c40b975a2d263a55f940c3f4771141c8c59469c94ca9630",
+        "observation": "Rīgas vecpilsētas jumti un Daugava, skats no Svētā Pētera baznīcas",
+        "method": "Actual-pixel contact-sheet review; no subject identity inferred from filename."
+      }
+    },
+    {
+      "id": "carrots",
+      "sourceFile": "/assets/garden/photos/sources/burkani.jpg",
+      "sourceSha256": "a9df9bc9d8c941073bab60c1bf054d799b53f52e8a6428d1f98b9bd75e99fc49",
+      "author": "Evan-Amos",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/File:Vegetable-Carrot-Bundle-wStalks.jpg#Licensing",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Vegetable-Carrot-Bundle-wStalks.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Vegetable-Carrot-Bundle-wStalks.jpg",
+      "alt": "Burkānu saišķis ar zaļiem lakstiem",
+      "caption": "Burkānu saišķis ar zaļiem lakstiem. Ilustratīvs kultūrauga attēls, nevis konkrētā Latvijas dārza raža.",
+      "src": "/assets/blog/carrots-960.webp",
+      "srcset": "/assets/blog/carrots-640.webp 640w, /assets/blog/carrots-960.webp 960w",
+      "width": 960,
+      "height": 544,
+      "files": [
+        {
+          "src": "/assets/blog/carrots-640.webp",
+          "width": 640,
+          "height": 363,
+          "bytes": 37646,
+          "sha256": "d432ae2cb9f6ecdc71fb323cafde0c7ab840687fc423db3087bfc1f43f33e3b2"
+        },
+        {
+          "src": "/assets/blog/carrots-960.webp",
+          "width": 960,
+          "height": 544,
+          "bytes": 80480,
+          "sha256": "f91e7bd2939580fc51583e7d8ab02c282433233a8c57b72c5dfd64a34ede9c93"
+        }
+      ],
+      "changes": "Samazināts izmērs un pārveidots WebP; kartītēs iespējams attēla apgriezums.",
+      "visualReview": {
+        "date": "2026-11-11",
+        "sourceSha256": "a9df9bc9d8c941073bab60c1bf054d799b53f52e8a6428d1f98b9bd75e99fc49",
+        "observation": "Burkānu saišķis ar zaļiem lakstiem",
+        "method": "Actual-pixel contact-sheet review; no subject identity inferred from filename."
+      }
+    },
+    {
+      "id": "tomatoes",
+      "sourceFile": "/assets/garden/photos/sources/tomati.jpg",
+      "sourceSha256": "687a7035409c220e828ac60215835aa8bf5f52bb8f86cd20033468106592f362",
+      "author": "Softeis",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tomato_je.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/89/Tomato_je.jpg",
+      "alt": "Nogatavojušies sarkani tomāti ar kātiņiem",
+      "caption": "Nogatavojušies sarkani tomāti ar kātiņiem. Ilustratīvs kultūrauga attēls, nevis konkrētā Latvijas dārza raža.",
+      "src": "/assets/blog/tomatoes-960.webp",
+      "srcset": "/assets/blog/tomatoes-640.webp 640w, /assets/blog/tomatoes-960.webp 960w",
+      "width": 960,
+      "height": 798,
+      "files": [
+        {
+          "src": "/assets/blog/tomatoes-640.webp",
+          "width": 640,
+          "height": 532,
+          "bytes": 17740,
+          "sha256": "21371852d442aedec801b1f7d11f11fdc0d62ef53bf999bbad476347032768ba"
+        },
+        {
+          "src": "/assets/blog/tomatoes-960.webp",
+          "width": 960,
+          "height": 798,
+          "bytes": 43434,
+          "sha256": "af694dc8a42c43d7617906891b92aae132d8f53880b606e29c133c6c5a4755b4"
+        }
+      ],
+      "changes": "Samazināts izmērs un pārveidots WebP; kartītēs iespējams attēla apgriezums.",
+      "visualReview": {
+        "date": "2026-11-11",
+        "sourceSha256": "687a7035409c220e828ac60215835aa8bf5f52bb8f86cd20033468106592f362",
+        "observation": "Nogatavojušies sarkani tomāti ar kātiņiem",
+        "method": "Actual-pixel contact-sheet review; no subject identity inferred from filename."
+      }
+    },
+    {
+      "id": "perseids",
+      "sourceFile": "/assets/blog/sources/perseids.jpg",
+      "sourceSha256": "d083554d71c97a0a39b9736f991160c639848b2138aaa455caf23afb928c5c44",
+      "author": "NASA/Bill Ingalls",
+      "license": "No known copyright restrictions (Flickr Commons)",
+      "licenseUrl": "https://www.flickr.com/commons/usage/",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Perseid_Meteor_Shower_(29386554635).jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/41/Perseid_Meteor_Shower_%2829386554635%29.jpg",
+      "alt": "Meteora gaismas svītra zvaigžņotās debesīs virs tumšas kalnu un koku malas",
+      "caption": "30 sekunžu ekspozīcija Spruce Knob, Rietumvirdžīnijā, 2016. gada 12. augustā. NASA/Bill Ingalls. Tā nav Latvijā uzņemta fotogrāfija.",
+      "src": "/assets/blog/perseids-1200.webp",
+      "srcset": "/assets/blog/perseids-640.webp 640w, /assets/blog/perseids-1200.webp 1200w",
+      "width": 1200,
+      "height": 801,
+      "files": [
+        {
+          "src": "/assets/blog/perseids-640.webp",
+          "width": 640,
+          "height": 427,
+          "bytes": 21740,
+          "sha256": "3d2d7779e85a7eab7b4e60ef34cb2f5a940c244ff485173b9e7e8eb0f0f2db69"
+        },
+        {
+          "src": "/assets/blog/perseids-1200.webp",
+          "width": 1200,
+          "height": 801,
+          "bytes": 77942,
+          "sha256": "395c0d9b299d3eba8b3410e367c66d4e488e8bb53cb6155f076bc59975222d68"
+        }
+      ],
+      "changes": "Samazināts izmērs un pārveidots WebP; kartītēs iespējams attēla apgriezums.",
+      "visualReview": {
+        "date": "2026-11-11",
+        "sourceSha256": "d083554d71c97a0a39b9736f991160c639848b2138aaa455caf23afb928c5c44",
+        "observation": "Meteora gaismas svītra zvaigžņotās debesīs virs tumšas kalnu un koku malas",
+        "method": "Actual-pixel contact-sheet review; no subject identity inferred from filename."
+      }
+    }
+  ]
+}

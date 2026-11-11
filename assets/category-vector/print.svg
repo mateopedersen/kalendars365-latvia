@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 260" role="img" aria-labelledby="kv-print-title kv-print-description"><title id="kv-print-title">Kalendāru druka</title><desc id="kv-print-description">Kalendāram365 radīta oriģināla vektoru ilustrācija ar apjoma, gaismas un materiālu zīmējumu. Fotogrāfijas un pikseļu attēli nav izmantoti.</desc><defs>
+<linearGradient id="kv-print-paper" x1="0" y1="0" x2=".85" y2="1"><stop stop-color="#fffaf0"/><stop offset=".57" stop-color="#eee5d4"/><stop offset="1" stop-color="#b7ae9c"/></linearGradient>
+<linearGradient id="kv-print-wine" x1="0" y1="0" x2=".95" y2="1"><stop stop-color="#bf6a83"/><stop offset=".4" stop-color="#973f5a"/><stop offset="1" stop-color="#5d2036"/></linearGradient>
+<linearGradient id="kv-print-teal" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#8ec5b8"/><stop offset=".48" stop-color="#488c80"/><stop offset="1" stop-color="#24574f"/></linearGradient>
+<linearGradient id="kv-print-gold" x1="0" y1="0" x2=".8" y2="1"><stop stop-color="#fff2b7"/><stop offset=".22" stop-color="#d1aa5b"/><stop offset=".4" stop-color="#f1d68b"/><stop offset=".67" stop-color="#ad8439"/><stop offset="1" stop-color="#7b5b2c"/></linearGradient>
+<linearGradient id="kv-print-metal" x1="0" y1="0" x2="1" y2=".9"><stop stop-color="#fafdfb"/><stop offset=".2" stop-color="#c6d0d0"/><stop offset=".43" stop-color="#fbfcf3"/><stop offset=".6" stop-color="#9cabae"/><stop offset="1" stop-color="#4c636d"/></linearGradient>
+<linearGradient id="kv-print-ink" x1="0" y1="0" x2=".7" y2="1"><stop stop-color="#66747d"/><stop offset=".45" stop-color="#35424f"/><stop offset="1" stop-color="#17242f"/></linearGradient>
+<radialGradient id="kv-print-glass" cx="30%" cy="20%" r="85%"><stop stop-color="#fff" stop-opacity=".9"/><stop offset=".5" stop-color="#eaf5ed" stop-opacity=".3"/><stop offset="1" stop-color="#86a3ae" stop-opacity=".55"/></radialGradient>
+<filter id="kv-print-shadow" x="-35%" y="-35%" width="180%" height="190%"><feDropShadow dx="0" dy="6" stdDeviation="4" flood-color="#35262d" flood-opacity=".17"/></filter>
+<filter id="kv-print-soft" x="-50%" y="-100%" width="200%" height="300%"><feGaussianBlur stdDeviation="3.5"/></filter>
+</defs><ellipse cx="162" cy="227" rx="104" ry="10" fill="#49343d" opacity=".16" filter="url(#kv-print-soft)"/><g filter="url(#kv-print-shadow)">
+ <path d="M88 36L212 40L230 114L106 119Z" fill="#c6c1b2"/>
+ <path d="M84 30L208 34L223 106L100 111Z" fill="url(#kv-print-paper)" stroke="#c5bcac" stroke-width=".8"/>
+ <path d="M101 50L194 53M104 61L190 64M107 72L179 75" stroke="#c4bba9" stroke-width="1.8" stroke-linecap="round"/>
+ <path d="M60 93L250 87Q262 87 266 99L278 172Q281 188 266 191L69 206Q53 207 51 191L42 118Q39 102 60 93Z" fill="#1d4542"/>
+ <path d="M57 89L246 83Q258 83 261 96L272 166Q275 180 260 182L65 197Q51 198 49 184L40 112Q38 97 57 89Z" fill="url(#kv-print-teal)"/>
+ <path d="M57 89L246 83Q258 83 261 96L263 110L47 125L40 112Q38 97 57 89Z" fill="url(#kv-print-metal)"/>
+ <path d="M61 96L244 90L249 105L51 119Z" fill="#e8e8dd"/>
+ <path d="M103 99L220 95L216 106L103 113Z" fill="#314b49"/>
+ <path d="M61 129L260 115" stroke="#9fbbac" stroke-width="1.2" opacity=".55"/>
+ <path d="M76 143L242 132L246 152L80 164Z" fill="#173a38" stroke="#2b5750" stroke-width="1.2"/>
+ <path d="M84 146L235 136" stroke="#0f2828" stroke-width="4"/>
+ <path d="M76 163L247 151L252 199L82 211Z" fill="#244d47"/>
+ <path d="M85 164L238 153L243 191L91 203Z" fill="#46766a"/>
+ <path d="M110 148L219 141L223 202Q225 214 215 218L102 225Q96 223 99 214Z" fill="#b1ad9e"/>
+ <path d="M109 145L218 138L219 200Q221 211 211 214L99 221Q94 218 97 210Z" fill="url(#kv-print-paper)"/>
+ <path d="M111 160L200 154M110 173L201 167M108 186L183 181" stroke="#b4ad9e" stroke-width="1.7" stroke-linecap="round"/>
+ <path d="M106 198L173 193" stroke="#9c4a63" stroke-width="4" stroke-linecap="round"/>
+ <path d="M101 216L208 209" stroke="#fffdf3" stroke-width="1.1"/>
+ <path d="M71 196L75 207Q79 212 90 209L91 196M251 181L253 194Q258 199 269 193L267 182" fill="#1b3737"/>
+ <rect x="65" y="128" width="21" height="9" rx="3" fill="#244c47" transform="rotate(-4 65 128)"/>
+ <circle cx="247" cy="122" r="5" fill="#183f3b"/><circle cx="246.5" cy="121.5" r="3.3" fill="#b9cf9e"/><circle cx="245.7" cy="120.7" r="1" fill="#f9ffdc"/>
+ </g></svg>

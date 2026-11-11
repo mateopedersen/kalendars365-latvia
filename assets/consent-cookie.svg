@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" fill="none">
+ <defs>
+  <linearGradient id="base" x1="30" y1="18" x2="90" y2="107" gradientUnits="userSpaceOnUse"><stop stop-color="#fff0cb"/><stop offset=".48" stop-color="#e3b873"/><stop offset="1" stop-color="#bb8149"/></linearGradient>
+  <linearGradient id="edge" x1="33" y1="54" x2="106" y2="112" gradientUnits="userSpaceOnUse"><stop stop-color="#ba7e45"/><stop offset="1" stop-color="#82552f"/></linearGradient>
+  <linearGradient id="choc" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#7e4541"/><stop offset="1" stop-color="#432533"/></linearGradient>
+  <linearGradient id="shield" x1="80" y1="68" x2="117" y2="113" gradientUnits="userSpaceOnUse"><stop stop-color="#b44c65"/><stop offset="1" stop-color="#651e38"/></linearGradient>
+  <filter id="shadow" x="0" y="0" width="128" height="128" filterUnits="userSpaceOnUse"><feDropShadow dx="0" dy="6" stdDeviation="5" flood-color="#523526" flood-opacity=".2"/></filter>
+ </defs>
+ <ellipse cx="62" cy="112" rx="43" ry="6" fill="#5f3240" opacity=".09"/>
+ <g filter="url(#shadow)">
+  <path d="M89 24C94 33 89 44 79 45C80 55 89 61 98 59C103 66 110 69 115 68C115 94 94 113 67 114C36 115 14 93 13 66C12 37 33 17 59 15C72 14 82 18 89 24Z" fill="url(#edge)"/>
+  <path d="M87 18C91 29 86 38 76 40C78 50 86 55 97 53C100 60 106 64 113 62C112 88 92 107 65 107C36 107 14 87 14 60C14 32 36 11 63 11C72 11 80 13 87 18Z" fill="url(#base)" stroke="#c89353" stroke-width="1.1"/>
+  <path d="M66 17C42 14 22 34 20 55" stroke="#fff8df" stroke-width="3" stroke-linecap="round" opacity=".75"/>
+  <g fill="url(#choc)">
+   <path d="m40 30 10 2 2 11-12 2-4-8Z"/><path d="m68 54 11 3 1 11-10 3-5-10Z"/><path d="m29 64 10-3 7 9-4 9-12-1Z"/><path d="m54 85 10-3 6 9-3 10-13-2Z"/>
+  </g>
+  <g fill="#a86e39" opacity=".45"><circle cx="58" cy="27" r="2"/><circle cx="58" cy="51" r="2"/><circle cx="29" cy="47" r="1.6"/><circle cx="48" cy="58" r="1.5"/><circle cx="47" cy="87" r="1.8"/><circle cx="28" cy="86" r="1.5"/><circle cx="86" cy="82" r="1.7"/><circle cx="77" cy="95" r="1.5"/></g>
+  <path d="M96 72c6 5 13 7 20 8v16c0 13-8 21-20 25-12-4-20-12-20-25V80c7-1 14-3 20-8Z" fill="url(#shield)" stroke="#fff9ee" stroke-width="2"/>
+  <path d="m85 96 7 7 14-16" stroke="#fff8e9" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+ </g>
+</svg>

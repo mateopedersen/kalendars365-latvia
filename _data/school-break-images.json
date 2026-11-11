@@ -1,0 +1,108 @@
+{
+  "photos": [
+    {
+      "season": "autumn",
+      "source": "/assets/cities/preili-960.webp",
+      "sourceSha256": "0f2cae8274f68377f278837dc2480f017f2ca228d5e6e708f65955ff5e9a4296",
+      "src": "/assets/school-breaks/autumn-480.webp",
+      "srcset": "/assets/school-breaks/autumn-480.webp 480w, /assets/school-breaks/autumn-720.webp 720w",
+      "sizes": "(max-width:520px) calc(100vw - 36px), (max-width:1100px) calc((100vw - 70px) / 2), (min-width:1450px) 328px, calc((100vw - 120px) / 4)",
+      "width": 720,
+      "height": 545,
+      "files": [
+        {
+          "src": "/assets/school-breaks/autumn-480.webp",
+          "width": 480,
+          "height": 364,
+          "bytes": 43752,
+          "sha256": "405de6f7a64a564211a5967cdfb76342f7031568dfa52083ca5e282444ebb5a2"
+        },
+        {
+          "src": "/assets/school-breaks/autumn-720.webp",
+          "width": 720,
+          "height": 545,
+          "bytes": 102168,
+          "sha256": "b630423f88048aac5eceaabe7e9dd05788dea6aa88ca61a41a54efd73889556b"
+        }
+      ]
+    },
+    {
+      "season": "winter",
+      "source": "/assets/occasions/winter-960.webp",
+      "sourceSha256": "8d66f0daa79503eb23a388e1b3655c1221213cc095a2b64bcf6aba4fcf3c8691",
+      "src": "/assets/school-breaks/winter-480.webp",
+      "srcset": "/assets/school-breaks/winter-480.webp 480w, /assets/school-breaks/winter-720.webp 720w",
+      "sizes": "(max-width:520px) calc(100vw - 36px), (max-width:1100px) calc((100vw - 70px) / 2), (min-width:1450px) 328px, calc((100vw - 120px) / 4)",
+      "width": 720,
+      "height": 540,
+      "files": [
+        {
+          "src": "/assets/school-breaks/winter-480.webp",
+          "width": 480,
+          "height": 360,
+          "bytes": 26278,
+          "sha256": "b1baf9917d6e177f5ca55ebc918e885d746229ebcd2c964baae26e3b4b132248"
+        },
+        {
+          "src": "/assets/school-breaks/winter-720.webp",
+          "width": 720,
+          "height": 540,
+          "bytes": 63778,
+          "sha256": "45a1110429da063466ece444ebd6a5d54d12f56fa9c0288adb19c9093bba680e"
+        }
+      ]
+    },
+    {
+      "season": "spring",
+      "source": "/assets/cities/iecava-960.webp",
+      "sourceSha256": "0f6fc4060b0aac09d3c64305018cf5de7b01940e2e1bdc48ec0bdcaf7961cb3d",
+      "src": "/assets/school-breaks/spring-480.webp",
+      "srcset": "/assets/school-breaks/spring-480.webp 480w, /assets/school-breaks/spring-720.webp 720w",
+      "sizes": "(max-width:520px) calc(100vw - 36px), (max-width:1100px) calc((100vw - 70px) / 2), (min-width:1450px) 328px, calc((100vw - 120px) / 4)",
+      "width": 720,
+      "height": 540,
+      "files": [
+        {
+          "src": "/assets/school-breaks/spring-480.webp",
+          "width": 480,
+          "height": 360,
+          "bytes": 48216,
+          "sha256": "8b35613cdea6970ab687405965c833187bf02c0756fe7759573bd793aac8dfc8"
+        },
+        {
+          "src": "/assets/school-breaks/spring-720.webp",
+          "width": 720,
+          "height": 540,
+          "bytes": 106002,
+          "sha256": "9d2f8c83825dd7640f473d881f73cd920172fcf2f9c13e663a88468f46048823"
+        }
+      ]
+    },
+    {
+      "season": "summer",
+      "source": "/assets/occasions/summer-960.webp",
+      "sourceSha256": "d10054b3fc91d9731ff72df7d3ba31b7194163f70d8a7d6244f15ee0a9cbe824",
+      "src": "/assets/school-breaks/summer-480.webp",
+      "srcset": "/assets/school-breaks/summer-480.webp 480w, /assets/school-breaks/summer-720.webp 720w",
+      "sizes": "(max-width:520px) calc(100vw - 36px), (max-width:1100px) calc((100vw - 70px) / 2), (min-width:1450px) 328px, calc((100vw - 120px) / 4)",
+      "width": 720,
+      "height": 540,
+      "files": [
+        {
+          "src": "/assets/school-breaks/summer-480.webp",
+          "width": 480,
+          "height": 360,
+          "bytes": 10828,
+          "sha256": "568e155b3fd0c22e334c3cc59253a08824cb20230e3c294f7414e1af15d8e42f"
+        },
+        {
+          "src": "/assets/school-breaks/summer-720.webp",
+          "width": 720,
+          "height": 540,
+          "bytes": 23708,
+          "sha256": "0011c183a685c040d4c4c42e7aa39fa46484a2152f0bc30c63b178a6be8b3ad8"
+        }
+      ]
+    }
+  ]
+}

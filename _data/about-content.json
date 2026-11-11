@@ -79,8 +79,8 @@
     }
   ],
   "contact": {
-    "eyebrow": "PROJEKTA UZTURĒTĀJS",
-    "heading": "Mateo Pedersen",
+    "eyebrow": "VIETNES ĪPAŠNIEKS UN AUTORS",
+    "heading": "Silvis Balodis",
     "paragraph": "Kalendārs365 ir neatkarīgs projekts. Ja pamani neprecizitāti vai vēlies ierosināt noderīgu uzlabojumu, uzraksti un pievieno konkrētās lapas adresi.",
     "email": "kalendars365@gmail.com",
     "actionLabel": "Rakstīt par Kalendāru365"
@@ -106,7 +106,7 @@
   "evidenceNotes": [
     "Repository _includes/app.html and assets/app.js implement local personal data, ICS and JSON export/import.",
     "scripts/generate.rb links source and status notices; photos have per-image attribution in _data/cities.json.",
-    "Operator name and contact are the existing verified project data. No invented residence, credentials, team size, founding date or professional expertise is claimed.",
+    "Owner and author name supplied by the site owner in the 2026-11-11 request. Not an independently verified biography; no residence, credentials, team size or founding date asserted.",
     "Moon-specific wording must track the implemented astronomy module; this text does not certify numerical accuracy."
   ]
 }

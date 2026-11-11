@@ -1,0 +1,227 @@
+/* Shared flow corrections. Decorative clipping and print pagination stay local. */
+@media screen {
+  .widget-panel:has(> .tool-panel) {
+    padding: 0;
+    border: 0;
+    background: transparent;
+    box-shadow: none;
+    margin: 24px 0;
+  }
+  .widget-panel:has(> .tool-panel) > .tool-panel {
+    margin: 0 0 24px;
+  }
+  .widget-panel:has(> .tool-panel) > .tool-panel:last-child {
+    margin-bottom: 0;
+  }
+  .editorial-grid {
+    align-items: stretch;
+    gap: 20px;
+    margin-block: 24px;
+  }
+  .editorial-grid > .content-card {
+    height: auto;
+    margin: 0;
+    min-width: 0;
+  }
+  .page-shell > .horoscope-page { margin-bottom: 0; }
+  .page-shell > .useful-panel { margin-block: 24px; }
+
+  /* Keep all Latvian names readable; the tallest cell sets its week's height. */
+  .calendar-table td:not(.week-number) { height: auto; }
+  .calendar-table td:not(.week-number) .day-button {
+    height: auto;
+    min-height: 104px;
+    white-space: normal;
+  }
+  .calendar-table .day-event {
+    min-width: 0;
+    align-items: flex-start;
+    height: auto;
+  }
+  .calendar-table .event-label {
+    display: block;
+    max-height: none;
+    overflow: visible;
+    white-space: normal;
+    overflow-wrap: anywhere;
+    -webkit-line-clamp: unset;
+    -webkit-box-orient: initial;
+  }
+  .calendar-controls #calendar-month {
+    width: 140px;
+    min-width: 140px;
+    max-width: none;
+    padding-inline: 10px 30px;
+  }
+  .calendar-controls #calendar-year {
+    width: 94px;
+    min-width: 94px;
+    max-width: none;
+    padding-inline: 10px 26px;
+  }
+  .category-calendar-app > .calendar-column { grid-column: 1; grid-row: 1; }
+  .category-calendar-app > .category-day-panel { grid-column: 2; grid-row: 1; }
+  .category-calendar-app .view-tabs {
+    flex: 1 0 100%;
+    width: 100%;
+    max-width: 100%;
+  }
+  .category-calendar-app .view-tabs button { min-width: 0; }
+  button.lunar-day { height: auto; overflow: visible; }
+  .lunar-phase-mark, .lunar-holiday-mark {
+    width: 100%;
+    max-width: 100%;
+    white-space: normal;
+    overflow: visible;
+    text-overflow: clip;
+    overflow-wrap: anywhere;
+    line-height: 1.3;
+    font-size: 9px;
+  }
+}
+
+/* Let useful cards fill the short calendar column, rather than extending one sidebar. */
+@media screen and (min-width: 901px) {
+  #calendar-app.dashboard:has(> .left-column) {
+    grid-template-rows: min-content auto;
+  }
+  #calendar-app.dashboard:has(> .left-column) > .left-column { display: contents; }
+  #calendar-app.dashboard:has(> .left-column) > .left-column > #city-card {
+    grid-column: 1;
+    grid-row: 1 / span 2;
+    align-self: start;
+  }
+  #calendar-app.dashboard:has(> .left-column) > .calendar-column {
+    grid-column: 2;
+    grid-row: 1;
+    min-width: 0;
+  }
+  #calendar-app.dashboard:has(> .left-column) > .left-column > .upcoming-card {
+    grid-column: 2;
+    grid-row: 2;
+    align-self: start;
+  }
+  #calendar-app.dashboard:has(> .left-column) > .right-column {
+    grid-column: 3;
+    grid-row: 1 / span 2;
+    align-self: start;
+    min-width: 0;
+  }
+}
+@media screen and (min-width: 901px) and (max-width: 1200px) {
+  #calendar-app.dashboard:has(> .left-column) > .right-column {
+    grid-column: 1 / -1;
+    grid-row: 3;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 14px;
+  }
+  #calendar-app.dashboard:has(> .left-column) > .right-column > .layers-card { grid-column: 1 / -1; }
+  #calendar-app.dashboard:has(> .left-column) > .right-column .layer-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 6px 20px;
+  }
+}
+@media screen and (max-width: 900px) {
+  .category-calendar-app > .category-day-panel { grid-column: 1; grid-row: 2; }
+  #calendar-app.dashboard:has(> .left-column) > .right-column {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 14px;
+  }
+  #calendar-app.dashboard:has(> .left-column) > .right-column > .card {
+    grid-column: auto;
+    grid-row: auto;
+    min-width: 0;
+  }
+  #calendar-app.dashboard:has(> .left-column) > .right-column > :is(.day-plan, .local-tools, .layers-card) {
+    grid-column: 1 / -1;
+  }
+}
+@media screen and (max-width: 800px) {
+  .work-hero { grid-template-columns: minmax(0, 1fr); }
+  .work-hero-copy { min-width: 0; max-width: none; }
+}
+@media screen and (max-width: 740px) {
+  .studio-previewbar {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+    gap: 10px;
+    align-items: start;
+    padding: 12px;
+  }
+  .studio-previewbar > div:first-child { max-width: none; }
+  .studio-preview-actions {
+    width: 100%;
+    max-width: none;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    gap: 8px;
+  }
+  .studio-preview-actions .studio-icon-button {
+    width: 36px;
+    min-width: 36px;
+    flex: 0 0 36px;
+  }
+  .studio-preview-actions #studio-zoom {
+    width: auto;
+    max-width: none;
+    min-width: 0;
+    flex: 1 1 auto;
+  }
+  .studio-canvas:not(:fullscreen) .studio-artboard.studio-fit-mode {
+    height: clamp(280px, calc((100vw - 76px) / var(--studio-page-ratio, 1.414) + 48px), 620px);
+  }
+}
+@media screen and (max-width: 700px) {
+  .calendar-controls .view-tabs {
+    flex: 1 0 100%;
+    width: 100%;
+    max-width: 100%;
+  }
+  .calendar-table td:not(.week-number) .day-button {
+    min-height: 76px;
+    padding: 5px 3px 7px;
+  }
+  .calendar-table .event-label { font-size: 8px; line-height: 1.35; }
+  .editorial-grid { gap: 14px; margin-block: 20px; }
+  .page-shell > .useful-panel { margin-block: 20px; }
+}
+@media screen and (max-width: 620px) {
+  .lunar-phase-mark, .lunar-holiday-mark { font-size: 8px; }
+  #calendar-app.dashboard:has(> .left-column) > .right-column { grid-template-columns: minmax(0, 1fr); }
+  #calendar-app.dashboard:has(> .left-column) > .right-column > .card { grid-column: 1 / -1; }
+}
+
+/* Print the calendar as one complete sheet, including six-week months. */
+@media print {
+  html, body { background: #fff !important; }
+  .skip-link { display: none !important; }
+  #calendar-print-sheet .calendar-table :is(td, th) {
+    border: 1px solid #c8c4c4 !important;
+  }
+  body:has([data-lunar-calendar])::after { display: none !important; content: none !important; }
+  body:has([data-lunar-calendar]) .page-shell > :not([data-lunar-calendar], .calendar-collection-layout),
+  [data-lunar-calendar] > :not(.lunar-calendar-layout) { display: none !important; }
+  [data-lunar-calendar] .lunar-calendar-heading { margin: 0 0 4mm; }
+  [data-lunar-calendar] .lunar-calendar-heading h2 { margin-top: 2mm; font-size: 19pt; line-height: 1.15; }
+  [data-lunar-calendar] .lunar-day-grid {
+    height: 157mm;
+    grid-auto-rows: minmax(0, 1fr);
+    gap: 1.5mm;
+  }
+  [data-lunar-calendar] button.lunar-day {
+    min-height: 0;
+    height: 100%;
+    padding: 1mm;
+    gap: .35mm;
+  }
+  [data-lunar-calendar] .lunar-day-moon { width: 11mm; height: 11mm; }
+  [data-lunar-calendar] .lunar-day-number { font-size: 9pt; line-height: 1.1; }
+  [data-lunar-calendar] .lunar-day-percent { font-size: 7.5pt; line-height: 1.1; }
+  [data-lunar-calendar] :is(.lunar-phase-mark, .lunar-holiday-mark) {
+    font-size: 5.5pt;
+    line-height: 1.1;
+  }
+}

@@ -9,5 +9,5 @@ const covers=[];
 assert(!fs.existsSync('_site/meness-kalendars/2026/index.html'));
 for(let year=2027;year<=2030;year++){const html=fs.readFileSync(`_site/meness-kalendars/${year}/index.html`,'utf8');const cover=html.match(/class="lunar-year-hero" data-cover="([^"]+)"/);assert(cover,`${year} photo cover`);covers.push(cover[1]);assert(!html.includes('class="lunar-year-hero"><img src="/assets/moon-lro-mosaic.jpg"'));}
 assert.equal(new Set(covers).size,4);
-for(const id of ['moon','phases','astronomy']){const svg=fs.readFileSync(`assets/category-art/${id}.svg`,'utf8');assert(svg.includes('data:image/jpeg;base64,'));assert(svg.includes('NASA Apollo 17'));}
-console.log('Celestial media: six traced NASA photos, four unique published year covers and three photo-based SVGs verified.');
+for(const id of ['moon','phases','astronomy']){const svg=fs.readFileSync(`assets/category-art/${id}.svg`,'utf8');assert(!svg.includes('<image'));assert(svg.includes('vektoru ilustrācija'));}
+console.log('Celestial media: six traced NASA photos, four unique published year covers and three original vector illustrations verified.');
