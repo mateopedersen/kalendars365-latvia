@@ -1,6 +1,6 @@
 {
-  "asset_version": "7afdeffe5d0103e0",
-  "sha256": "7afdeffe5d0103e019d385c12c5d05e6b84f89dbbfe781cbdb69666d3f24fd91",
+  "asset_version": "ef4980816fce91ee",
+  "sha256": "ef4980816fce91eeb4522bcddf6b17de73f5af896f44caded2334d917fcf8602",
   "files": {
     "assets/a3-gallery.css": "1889edd3db55a0a1473cc6711268699d2b19129115f3ab0f59d11f1aa9374c37",
     "assets/app.js": "15faa4ab7606fca98c7b95890df16beb8d528806b5e07478677dbf4e1c1dd3cc",
@@ -424,8 +424,8 @@
     "assets/cities/zilupe-960.webp": "03ca57d9e11b56d84d4e6a13ce1e6573c312f6c94b1959b94bd059a3f5bee592",
     "assets/city-card-redesign.css": "d8b5128dfa069fdeb9825200be3fde82508657ba74e2fe410a3101191f05960d",
     "assets/city-card.js": "a061152ad835e11fb2150e8ee7a0f2fdbce002312ed042fb35557260b2f4067b",
-    "assets/consent-cookie.svg": "7112bb507f4955997eb207a24e0232e546a8ee21e1026248c1fe0d05bf6e27cf",
-    "assets/consent.css": "afe0e46a47143817e3107784869a0821c1a754d39f52717164899bdea4443340",
+    "assets/consent-cookie.svg": "d2fc25791274e53225036d60f8983167a04b1f07c3648923875ba03d93f00bdb",
+    "assets/consent.css": "290ca463d10303529575038b93aa7b8f49c88d8b8370d900a2b7c180926991d1",
     "assets/experience.css": "c39fd07a6ce67bdc36f988bb5cf3dda0e5478191acf16d23772863ec6d3ecbdf",
     "assets/extra-tools.css": "a0d4368de8473784920cdcf967d7db0035ed7a8489c24746459d5ac8edac4fff",
     "assets/extra-tools.js": "90a0b1b3903005c73ebe40ac7ef652ffda708137ad60bc090650e64becf60534",
