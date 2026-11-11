@@ -11,7 +11,7 @@ reading_notes: false
 blog_slug: iso-nedelu-numuri-kalendara
 og_image: "/assets/blog/monthly-960.webp"
 ---
-Nedēļas numurs ir īss veids, kā vienoties par termiņu, piegādi vai nodarbību plānu. Tomēr pieraksts “pirmā nedēļa” var kļūt neskaidrs tieši tad, kad tas šķiet visvienkāršākais: gadu mijā. Janvāra sākuma diena reizēm pieder iepriekšējā gada pēdējai [ISO nedēļa](https://www.iso.org/iso-8601-date-and-time-format.html)i, bet decembra beigas jau nākamā gada pirmajai nedēļai.
+Nedēļas numurs ir īss veids, kā vienoties par termiņu, piegādi vai nodarbību plānu. Tomēr pieraksts “pirmā nedēļa” var kļūt neskaidrs tieši tad, kad tas šķiet visvienkāršākais: gadu mijā. Janvāra sākuma diena reizēm pieder iepriekšējā gada pēdējai [ISO nedēļai](https://www.iso.org/iso-8601-date-and-time-format.html), bet decembra beigas jau nākamā gada pirmajai nedēļai.
 
 Lai nerastos pārpratumi, ir jāatšķir kalendārais gads no ISO nedēļas gada. Tie lielākoties sakrīt, taču dažās robežnedēļās atšķirība ir būtiska. Šis ceļvedis palīdzēs pārbaudīt numuru, saprotami pierakstīt termiņu un izmantot nedēļas skatu kopā ar parastu datumu, nevis tā vietā.
 

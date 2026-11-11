@@ -18,7 +18,7 @@ Garais gads nenozīmē tikai vienu papildu rūtiņu izdrukā. Tas maina datumu n
 ## Noteikums ar svarīgu izņēmumu
 {: #section-1}
 
-[Gregora kalendārā](https://aa.usno.navy.mil/faq/leap_years) gads parasti ir garais, ja tā skaitlis dalās ar četri. Tomēr gadi, kas dalās ar simt, ir izņēmums, ja vien tie nedalās arī ar četrsimt. Tāpēc 2000. gads bija garais, bet 2100. gads nebūs. Ar vienkāršu “katrs ceturtais” nepietiek visiem iespējamiem gadiem.
+[Gregora kalendārā](https://aa.usno.navy.mil/faq/leap_years) gads parasti ir garais, ja tā skaitlis dalās ar četri. Tomēr gadi, kas dalās ar simt, ir izņēmums, ja vien tie nedalās arī ar četrsimt. Tāpēc 2000. gads bija garais, bet 2100. gads nebūs. Ar vienkāršu “katrs ceturtais” nepietiek visiem iespējamajiem gadiem.
 
 2028. gadam šis izņēmums netraucē: tas dalās ar četri un nav gadsimta robežgads. Februārī ir 29 dienas, bet gadā kopumā 366. Janvāra, marta un pārējo mēnešu garums tādēļ nemainās. Papildu diena tiek ievietota vienā konkrētā mēnesī, nevis sadalīta pa visu gadu.
 

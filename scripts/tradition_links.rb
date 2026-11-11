@@ -133,5 +133,5 @@ end
 def tradition_date_link(date, label=nil)
   value = Date.parse(date.to_s)
   url = "/kalendars/#{value.year}/#{SLUGS[value.month-1]}/?date=#{value.iso8601}"
-  %(<a class="tradition-date-link" href="#{h(url)}" aria-label="Atvērt #{h(value.year.to_s+'. gada '+value.day.to_s+'. '+MONTHS[value.month-1])} kalendārā">#{label || %(<time datetime="#{value.iso8601}">#{h(value.day.to_s+'. '+MONTHS[value.month-1])}</time>)}</a>)
+  %(<a class="tradition-date-link" href="#{h(url)}" aria-label="Atvērt datumu kalendārā: #{h(value.year.to_s+'. gada '+value.day.to_s+'. '+MONTHS[value.month-1])}">#{label || %(<time datetime="#{value.iso8601}">#{h(value.day.to_s+'. '+MONTHS[value.month-1])}</time>)}</a>)
 end

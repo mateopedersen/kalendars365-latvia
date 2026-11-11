@@ -36,7 +36,7 @@ Neizdari secinājumu par ceļa segumu tikai pēc gaisa temperatūras vienā kart
 
 Pēc saulrieta nav vienas universālas minūtes, kurā visur iestājas vienāda tumsa. Krēslu ietekmē astronomiskie apstākļi, bet faktisko redzamību arī mākoņi un apkārtne. Pilsētas apgaismojums un atklāts lauks rada atšķirīgu pieredzi. Nosaki, kāda gaisma vajadzīga tieši tavai nodarbei un kāds aprīkojums būs nepieciešams.
 
-[Fotografēšanai](/blogs/zelta-stunda-latvija-fotoplanosana/) var noderēt arī laiks ap saulrietu, taču atgriešanās plāns jāveido neatkarīgi no vēlmes iegūt vēl vienu kadru. Iepriekš vienojies par beigu laiku, ja dodies kopā ar citiem. Atstāta rezerve ļauj mierīgāk reaģēt, ja maršruts vai apstākļi izrādās lēnāki, nekā sākumā domāts.
+[Fotografēšanai](/blogs/zelta-stunda-latvija-fotoplanosana/) var noderēt arī laiks ap saulrietu, taču atgriešanās plāns jāveido neatkarīgi no vēlmes iegūt vēl vienu kadru. Iepriekš vienojies par beigu laiku, ja dodies kopā ar citiem. Atstāta rezerve ļauj mierīgāk reaģēt, ja maršruta vai apstākļu dēļ ceļā jāpavada vairāk laika, nekā sākumā domāts.
 
 ## Salīdzini vienu maršrutu dažādos datumos
 

@@ -4,7 +4,7 @@ Skolas brīvlaiks ir vairāk nekā datumi, kuros nav parasto mācību stundu. Ģ
 
 ## Sāc ar oficiālo mācību gadu
 
-[2026./2027. mācību gada noteikumi](https://likumi.lv/ta/id/365210-noteikumi-par-20262027-macibu-gada-un-macibu-semestru-sakuma-un-beigu-laiku-un-brivdienu-laiku) paredz ziemas brīvlaiku no 2026. gada 21. decembra līdz 2027. gada 1. janvārim. Pavasara brīvlaiks noteikts no 2027. gada 8. līdz 12. martam. Šos datumus ir lietderīgi pievienot ģimenes plānam ar pilnu gadu, lai janvāra ieraksts nepaliktu atrauts no decembra sākuma.
+[2026./2027. mācību gada noteikumi](https://likumi.lv/ta/id/365210-noteikumi-par-20262027-macibu-gada-un-macibu-semestru-sakuma-un-beigu-laiku-un-brivdienu-laiku) paredz ziemas brīvlaiku no 2026. gada 21. decembra līdz 2027. gada 1. janvārim. Pavasara brīvlaiks noteikts no 2027. gada 8. līdz 12. martam. Šos datumus ir lietderīgi pievienot ģimenes plānam ar pilnu gadu, lai janvāra ieraksts nepaliktu atrauts no brīvlaika sākuma decembrī.
 
 Nedēļas nogales ap oficiālo intervālu var pagarināt sajūtamo atpūtas posmu, taču tās nemaina publicētā brīvlaika sākuma un beigu formulējumu. Ja veido savu izdruku, nošķir oficiālo mācību pārtraukumu no blakus esošajām sestdienām un svētdienām. Tas atvieglo pārbaudi un palīdz precīzi nodot informāciju otram vecākam.
 

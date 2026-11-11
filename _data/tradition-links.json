@@ -381,7 +381,7 @@
         {
           "url": "/datumu-kalkulators/",
           "label": "Datumu kalkulators",
-          "reason": "Salīdzini Lieldienu svētdienu un 49 dienas vēlāko Vasarsvētku datumu."
+          "reason": "Salīdzini Lieldienu svētdienu ar Vasarsvētku datumu, kas ir 49 dienas vēlāk."
         },
         {
           "url": "/darba-dienu-kalendars/",
@@ -1187,7 +1187,7 @@
           "label": "Eiropas Valodu diena"
         },
         {
-          "text": " pievēršas valodām citā tvērumā. Latvijas Valsts valodas dienas pamats un 15. oktobra datums paliek atsevišķs no šīm starptautiskajām norisēm."
+          "text": " pievēršas valodām citā tvērumā. Latvijas Valsts valodas dienas pamats un 15. oktobra datums paliek atsevišķi no šīm starptautiskajām norisēm."
         }
       ],
       "inline": [],

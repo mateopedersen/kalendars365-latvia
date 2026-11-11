@@ -20,7 +20,10 @@ test('every published page has two or three substantive notes with no duplicated
   const paragraphs=new Set();
   for(const [url,note] of Object.entries(notes)){
     assert.ok([2,3].includes(note.paragraphs.length),url);
-    assert.ok(note.paragraphs.join(' ').split(/\s+/).length>=60,url);
+    const words=note.paragraphs.join(' ').split(/\s+/).length;
+    // The homepage uses the concise introduction requested by the owner.
+    assert.ok(words>=(url==='/'?40:60),url);
+    if(url==='/')assert.ok(words<=80,'Keep the homepage introduction concise.');
     for(const text of note.paragraphs){
       assert.ok(!paragraphs.has(text),'duplicate paragraph: '+url);paragraphs.add(text);
       assert.doesNotMatch(text,/<[^>]+>|lorem ipsum|takvima|gezgininde|yerine|AdSense|koledar365|Slovenija|Slovenia/i,url);

@@ -62,7 +62,7 @@ Pārbaudi izvēlētā sabiedriskā transporta aktuālo kustības sarakstu un sv�
 
 Ielūguma melnrakstā ieraksti piecas lietas: kurā datumā pulcējaties, cikos var ierasties, kur ir tikšanās vieta, kas jāpaņem līdzi un kāds ir nakšņošanas plāns. Nosaukums “Jāņi pie mums” ir draudzīgs, taču pats neatbild uz šiem praktiskajiem jautājumiem. Vienu skaidru ziņu vēlāk ir viegli atvērt arī cilvēkam, kurš nav sekojis visai sarakstei.
 
-Pirms nosūtīšanas pārbaudi, vai adresē nav divdomības un vai viesi zina, kam paziņot par kavēšanos. Ja dalies ar kopīgu sarakstu, neievieto tajā svešus kontaktus bez vajadzības. Palūdz viesiem līdz noteiktai dienai apstiprināt dalību, lai var saplānot galdu un vietas. Atbildes apkopo vienā pārskatā, nevis atstāj vairākās privātās ziņās. Šis mazais organizatoriskais darbs ļauj svētku vakarā mazāk pārjautāt un vairāk laika veltīt pašai satikšanai, dziesmām, sarunām vai vienkārši atpūtai.
+Pirms nosūtīšanas pārbaudi, vai adresē nav divdomības un vai viesi zina, kam paziņot par kavēšanos. Ja dalies ar kopīgu sarakstu, neievieto tajā svešus kontaktus bez vajadzības. Palūdz viesiem līdz noteiktai dienai apstiprināt dalību, lai var saplānot galdu un vietas. Atbildes apkopo vienā pārskatā, nevis atstāj vairākās privātās ziņās. Šis mazais organizatoriskais darbs ļauj svētku vakarā mazāk pārjautāt un vairāk laika veltīt kopā būšanai, dziesmām, sarunām vai vienkārši atpūtai.
 
 ## Saglabā to, kas noderēs nākamgad
 {: #section-8}

@@ -463,7 +463,7 @@
         "nativeEditorReviewed": false
       },
       "url": "/blogs/lieldienas-2027-datumi-un-plani/",
-      "wordCount": 791,
+      "wordCount": 792,
       "readingMinutes": 5,
       "photo": {
         "id": "easter",
@@ -559,7 +559,7 @@
       "title": "Vārda dienas: kā atšķirt tradicionālo un paplašināto sarakstu",
       "category": "Svētki",
       "photoKey": "flowers",
-      "description": "Precīza vārda meklēšana, sarakstu versijas un personisks apsveikumu kalendārs bez datumu minēšanas.",
+      "description": "Precīza vārda meklēšana, sarakstu versijas un personisks apsveikumu kalendārs bez minējumiem par datumiem.",
       "related": [
         "/varda-dienas/",
         "/kalendars-ar-vardu/"
@@ -685,7 +685,7 @@
         "nativeEditorReviewed": false
       },
       "url": "/blogs/skolas-brivlaiki-2027-gimenes-plans/",
-      "wordCount": 806,
+      "wordCount": 807,
       "readingMinutes": 5,
       "photo": {
         "id": "school",
@@ -798,7 +798,7 @@
         "nativeEditorReviewed": false
       },
       "url": "/blogs/studiju-kalendars-sesija-un-brivlaiks/",
-      "wordCount": 799,
+      "wordCount": 804,
       "readingMinutes": 5,
       "photo": {
         "id": "university",
@@ -998,7 +998,7 @@
       "title": "Darba dienas un stundas: kā saprast kalendāra aprēķinu",
       "category": "Plānošana",
       "photoKey": "calculator",
-      "description": "Darba nedēļas modelis, svētku datumi, saīsinājumi un robežas, kurās kalendārs palīdz darba plānam.",
+      "description": "Darba nedēļas modelis, svētku datumi, saīsinātās darba dienas un kalendāra aprēķinu izmantošana darba plānošanā.",
       "related": [
         "/darba-dienu-kalendars/",
         "/darba-laika-kalendars/",
@@ -1015,7 +1015,7 @@
         "nativeEditorReviewed": false
       },
       "url": "/blogs/darba-dienas-un-stundas-ka-skaitit/",
-      "wordCount": 781,
+      "wordCount": 782,
       "readingMinutes": 5,
       "photo": {
         "id": "calculator",
@@ -1989,7 +1989,7 @@
         "nativeEditorReviewed": false
       },
       "url": "/blogs/rudens-latvija-gadalaiki-un-izbraucieni/",
-      "wordCount": 803,
+      "wordCount": 804,
       "readingMinutes": 5,
       "photo": {
         "id": "autumn",
@@ -2095,7 +2095,7 @@
         "nativeEditorReviewed": false
       },
       "url": "/blogs/ziemas-dienas-garums-latvija/",
-      "wordCount": 824,
+      "wordCount": 827,
       "readingMinutes": 5,
       "photo": {
         "id": "winter",
@@ -2187,6 +2187,6 @@
     }
   ],
   "count": 20,
-  "wordCount": 16007,
+  "wordCount": 16019,
   "publishedAt": "2026-11-11"
 }

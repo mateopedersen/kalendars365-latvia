@@ -1,0 +1,149 @@
+/* Shared controls: consistent geometry without changing card or print layouts. */
+@media screen {
+  :root {
+    --k365-control-size: 44px;
+    --k365-control-radius: 10px;
+    --k365-select-arrow: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='none'%3E%3Cpath d='m4 6 4 4 4-4' stroke='%237b354b' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+  }
+  html body select:not([multiple]):not([size]) {
+    appearance: none;
+    -webkit-appearance: none;
+    box-sizing: border-box;
+    padding-inline-end: 36px;
+    background-image: var(--k365-select-arrow);
+    background-repeat: no-repeat;
+    background-position: right 12px center;
+    background-size: 14px 14px;
+  }
+  .calendar-controls :is(#calendar-month, #calendar-year) { padding-inline-end: 36px; }
+  #city-card .city-select-shell select {
+    background-image: var(--k365-select-arrow);
+    background-repeat: no-repeat;
+    background-position: right 14px center;
+    background-size: 16px 16px;
+    padding-right: 42px;
+  }
+  #city-card .city-select-shell > span[aria-hidden] { display: none; }
+
+  #calendar-studio .studio-preview-actions {
+    align-items: center;
+    gap: 8px;
+    max-width: 100%;
+  }
+  #calendar-studio .studio-preview-actions :is(button, select) {
+    box-sizing: border-box;
+    height: 40px;
+    min-height: 40px;
+    margin: 0;
+    border-radius: var(--k365-control-radius);
+    line-height: 1.2;
+  }
+  #calendar-studio .studio-preview-actions .studio-icon-button {
+    width: 40px;
+    min-width: 40px;
+    flex: 0 0 40px;
+    padding: 0;
+    font-size: 22px;
+  }
+  #calendar-studio .studio-preview-actions .studio-icon { width: 18px; height: 18px; }
+  #calendar-studio #studio-fit { min-width: 80px; padding: 0 12px; font-size: 12px; }
+  #calendar-studio .studio-zoom { display: block; min-width: 0; margin: 0; }
+  #calendar-studio .studio-preview-actions #studio-zoom {
+    width: 112px;
+    max-width: 100%;
+    min-width: 0;
+    padding: 0 34px 0 10px;
+    font-size: 12px;
+    font-weight: 650;
+  }
+  #calendar-studio .studio-project-actions :is(button, summary),
+  #calendar-studio .studio-history button,
+  #calendar-studio .studio-layer-actions button { min-height: 40px; line-height: 1.2; }
+
+  .category-v2 .organizer-toolbar .actions { align-items: stretch; }
+  .category-v2 .organizer-toolbar .actions :is(button, select) {
+    min-height: 42px;
+    margin-block: 0;
+    border-radius: var(--k365-control-radius);
+  }
+  .category-v2 .organizer-toolbar .actions > label { display: flex; align-items: end; }
+  .category-v2 .organizer-toolbar .actions > label select { width: 100%; }
+
+  .category-month-toolbar,
+  .school-month-nav,
+  .work-calendar-nav { align-items: end; gap: 8px; }
+  .category-month-toolbar :is(button, select),
+  .school-month-nav :is(button, select),
+  .work-calendar-nav :is(button, select) {
+    height: var(--k365-control-size);
+    min-height: var(--k365-control-size);
+    margin-block: 0;
+    border-radius: var(--k365-control-radius);
+    line-height: 1.2;
+  }
+  .category-month-toolbar > button,
+  .school-month-nav > button:not(:last-child) {
+    min-width: var(--k365-control-size);
+    padding: 0 10px;
+  }
+  .work-calendar-nav > a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-height: var(--k365-control-size);
+    padding: 8px 12px;
+    border: 1px solid #ddc7cb;
+    border-radius: var(--k365-control-radius);
+    background: #fffdfa;
+    text-decoration: none;
+  }
+  .work-result-actions { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .work-result-actions > button { min-height: var(--k365-control-size); }
+
+  .sky-observatory .sky-date-controls :is(button, input) {
+    box-sizing: border-box;
+    height: var(--k365-control-size);
+    min-height: var(--k365-control-size);
+    margin: 0;
+    padding-block: 0;
+    line-height: 1.2;
+    border-radius: var(--k365-control-radius);
+  }
+  .sun-moments { grid-auto-rows: 1fr; }
+}
+@media screen and (max-width: 740px) {
+  #calendar-studio .studio-previewbar {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+    gap: 10px;
+  }
+  #calendar-studio .studio-previewbar > div:first-child { max-width: none; }
+  #calendar-studio .studio-preview-actions {
+    display: grid;
+    grid-template-columns: 40px 40px minmax(0, 1fr) 40px;
+    width: 100%;
+    max-width: none;
+  }
+  #calendar-studio .studio-preview-actions #studio-fit { display: none; }
+  #calendar-studio .studio-preview-actions #studio-zoom { width: 100%; }
+  .category-v2 .organizer-toolbar .actions > label { max-width: none; }
+}
+@media screen and (max-width: 620px) {
+  .work-result-actions { grid-template-columns: minmax(0, 1fr); }
+}
+@media screen and (max-width: 480px) {
+  .category-month-toolbar { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .category-month-toolbar > label { grid-row: 1; min-width: 0; }
+  .category-month-toolbar > button { grid-row: 2; width: 100%; }
+  .school-month-nav { display: grid; grid-template-columns: 44px minmax(0, 1fr) 44px; }
+  .school-month-nav > label { min-width: 0; }
+  .school-month-nav > button:last-child { grid-column: 1 / -1; width: 100%; }
+}
+@media screen and (forced-colors: active) {
+  html body select:not([multiple]):not([size]),
+  #city-card .city-select-shell select {
+    appearance: auto;
+    -webkit-appearance: auto;
+    background-image: none;
+  }
+}

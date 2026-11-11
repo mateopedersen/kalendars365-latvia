@@ -39,14 +39,14 @@ Ja plāns mainās nedēļas vidū, nav jāgaida nākamā kopīgā saruna. Atjaun
 ## Izmanto saprotamus apzīmējumus
 {: #section-4}
 
-Katram ģimenes loceklim var piešķirt vienu krāsu vai iniciāļus. Ar krāsu vien nepietiek: melnbaltā izdrukā vai cilvēkam, kurš to neatšķir, informācijai jāpaliek salasāmai. Blakus kopīgam notikumam skaidri ieraksti, ka tas attiecas uz visiem, nevis cer, ka to izskaidros īpašs rūtiņas tonis.
+Katram ģimenes loceklim var piešķirt vienu krāsu vai iniciāļus. Ar krāsu vien nepietiek: melnbaltā izdrukā vai cilvēkam, kurš to neatšķir, informācijai jāpaliek salasāmai. Blakus kopīgam notikumam skaidri ieraksti, ka tas attiecas uz visiem, nevis ceri, ka to izskaidros īpašs rūtiņas tonis.
 
 Mazākiem bērniem var palīdzēt dažas vienkāršas zīmes, taču nosaukumu vēlams saglabāt arī tekstā. Pārāk daudz simbolu prasa atsevišķu mācīšanos un ātri kļūst neskaidri. Laba leģenda ir īsa un atrodas blakus plānam. Ja apzīmējums regulāri jāskaidro no jauna, izvēlies vienkāršāku variantu.
 
 ## Atstāj vietu parastai ikdienai
 {: #section-5}
 
-Brīva rūtiņa nenozīmē, ka tajā obligāti jāieliek pasākums. Ikdienā vajadzīgs laiks ēdienreizēm, pārvietošanai, mantu kārtošanai un atpūtai. Ja šis laiks pazūd no plāna, pat šķietami neliels nodarbību skaits var radīt steigu. Pārskati dienu kā veselumu, nevis atsevišķu notikumu virkni.
+Brīva rūtiņa nenozīmē, ka tajā obligāti jāieliek pasākums. Ikdienā vajadzīgs laiks ēdienreizēm, ceļam, mantu kārtošanai un atpūtai. Ja šis laiks pazūd no plāna, pat šķietami neliels nodarbību skaits var radīt steigu. Pārskati dienu kā veselumu, nevis atsevišķu notikumu virkni.
 
 Iekļauj arī elastīgu posmu, kuru var izmantot atliktam darbam vai vienkārši atstāt brīvu. Nav vajadzības katru atpūtas brīdi nosaukt par uzdevumu. Mērķis ir redzēt reālo noslodzi, lai ģimene varētu saprātīgi izvēlēties, ko šonedēļ darīt un ko mierīgi pārcelt.
 

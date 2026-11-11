@@ -30,7 +30,7 @@ Saglabā vienu galveno un vienu vienkāršu rezerves variantu. Ja āra daļa jā
 
 Bērni, vecāki cilvēki un dažādi pārvietošanās paradumi nozīmē atšķirīgu tempu. Maršruta garums vien nepasaka tā grūtību. Pārbaudi segumu, pieejamību un iespēju atpūsties. Ja nepieciešama konkrēta piekļūstamība, meklē aktuālu vietas aprakstu vai sazinies ar uzturētāju, nevis izdari secinājumu tikai no skaista attēla.
 
-Kopīgajā plānā norādi tikšanās vietu, izbraukšanu un vēlamo atgriešanās laiku. Pieaugušajiem vienojieties, kurš atbild par praktiskajām lietām, lai tas automātiski nepaliek vienam cilvēkam. Īss līdzņemamo mantu saraksts palīdz vairāk nekā garš plāns, kurā aizmirsta vienkārša pauze vai iespēja mainīt slapjus apavus.
+Kopīgajā plānā norādi tikšanās vietu, izbraukšanu un vēlamo atgriešanās laiku. Vienojieties, kurš no pieaugušajiem atbild par praktiskajām lietām, lai tas automātiski nepaliek vienam cilvēkam. Īss līdzņemamo mantu saraksts palīdz vairāk nekā garš plāns, kurā aizmirsta vienkārša pauze vai iespēja mainīt slapjus apavus.
 
 ## Prognozi pārbaudi tuvāk braucienam
 
@@ -40,7 +40,7 @@ Ja apstākļi neatbilst iecerei, pārplāno. Tas nenozīmē, ka kalendārs nav n
 
 ## Vienas dienas maršruta darba lapa
 
-Uzraksti izbraukšanas laiku, paredzamo ierašanos, galveno pastaigas posmu un vēlamo atgriešanos. Blakus norādi saulrietu izvēlētajā vietā. Ja secība izskatās pārāk saspringta, saīsini maršrutu vēl pirms brauciena, nevis cer, ka visi posmi notiks ātrāk. Īpaši pārbaudi, cik laika vajag no stāvvietas līdz pašam izvēlētajam skatpunktam.
+Uzraksti izbraukšanas laiku, paredzamo ierašanos, galveno pastaigas posmu un vēlamo atgriešanos. Blakus norādi saulrietu izvēlētajā vietā. Ja secība izskatās pārāk saspringta, saīsini maršrutu vēl pirms brauciena, nevis ceri, ka visi posmi notiks ātrāk. Īpaši pārbaudi, cik laika vajag no stāvvietas līdz pašam izvēlētajam skatpunktam.
 
 Pēc tam pievieno vienu vietu pauzei un vienu variantu, ja laiks pasliktinās. Tas var būt arī lēmums agrāk atgriezties mājās; rezerves plānam nav obligāti jārada papildu izdevumi vai jauns tāls galamērķis. Ja brauc vairāki cilvēki, nosūti viņiem vienu īsu kopsavilkumu ar aktuālajiem datumiem un laikiem. Noņem vecās versijas vai skaidri pasaki, kura ir pēdējā. Skaidrs dienas ritms palīdz izbaudīt rudens ainavu arī tad, ja tā atšķiras no sākotnēji izvēlētās ilustrācijas un nav iespējams īstenot visas iecerētās pieturas.
 

@@ -12,7 +12,7 @@ Izvēlies atšķirīgus apzīmējumus: vienu svētku brīvdienām, otru atceres 
 
 2027. gada 1. janvāris ir piektdiena. Pavasarī Lielā piektdiena ir 26. martā, Pirmās Lieldienas 28. martā, bet Otrās Lieldienas 29. martā. Latvijas Republikas Neatkarības atjaunošanas diena, 4. maijs, iekrīt otrdienā. Šie datumi jau ļauj pamanīt vairākus atšķirīgus atpūtas posmus, taču starp tiem esošās darba dienas pašas no sevis nepazūd.
 
-Vasarā 23. jūnijs ir trešdiena un 24. jūnijs ceturtdiena. Rudenī 18. novembris ir ceturtdiena. Gada nogalē 24. un 31. decembris ir piektdienās. Mēneša skatā pārbaudi arī iepriekšējās un nākamās nedēļas saistības: ceļojuma gatavošanās, bērnu nodarbības un darba nodošana var prasīt laiku vēl pirms atpūtas sākuma.
+Vasarā 23. jūnijs ir trešdiena un 24. jūnijs ceturtdiena. Rudenī 18. novembris ir ceturtdiena. Gada nogalē 24. un 31. decembris ir piektdienās. Mēneša skatā pārbaudi arī iepriekšējās un nākamās nedēļas saistības: gatavošanās ceļojumam, bērnu nodarbības un darba nodošana var prasīt laiku vēl pirms atpūtas sākuma.
 
 ## Nepieņem, ka pirmdiena ir brīva
 

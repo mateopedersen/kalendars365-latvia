@@ -71,8 +71,14 @@
     return rows;
   }
   function todayRiga(now=new Date()){const parts=Object.fromEntries(new Intl.DateTimeFormat('en-CA',{timeZone:'Europe/Riga',year:'numeric',month:'2-digit',day:'2-digit'}).formatToParts(now).map(p=>[p.type,p.value]));return parts.year+'-'+parts.month+'-'+parts.day;}
+  const relativeDays=new Intl.RelativeTimeFormat('lv-LV',{numeric:'auto'});
+  function relativeDayLabel(days){
+    if(!Number.isSafeInteger(days))throw new RangeError('Dienu skaitam jābūt veselam skaitlim.');
+    const text=relativeDays.format(days,'day');
+    return text.charAt(0).toLocaleUpperCase('lv-LV')+text.slice(1);
+  }
   function dateLabel(value){const d=parseISO(value);return d.getUTCFullYear()+'. gada '+d.getUTCDate()+'. '+months[d.getUTCMonth()];}
   function dateInSentence(value){const d=parseISO(value);return d.getUTCFullYear()+'. gada '+d.getUTCDate()+'. '+monthsLocative[d.getUTCMonth()];}
-  return {parseISO,dateISO,addDays,weekday,isoWeek,easter,nthWeekday,holidays,isWorkday,diffDays,workdays,workHours,monthGrid,todayRiga,dateLabel,dateInSentence,months,monthsGenitive,monthsLocative,weekdays};
+  return {parseISO,dateISO,addDays,weekday,isoWeek,easter,nthWeekday,holidays,isWorkday,diffDays,workdays,workHours,monthGrid,todayRiga,relativeDayLabel,dateLabel,dateInSentence,months,monthsGenitive,monthsLocative,weekdays};
 });
 

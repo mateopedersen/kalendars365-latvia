@@ -5,7 +5,7 @@
   else root.K365Print = api;
 })(typeof globalThis !== 'undefined' ? globalThis : this, function() {
   'use strict';
-  const names = ['Karmīna klasika','Rīgas panorāma','Melnbalts arhīvs','Latvju rakstu josla','Mājīgs ģimenes plāns','Minimāls melnbalts','Dabas gadalaiki','Stingrais birojs','Mēness grafika','Ģeometriskais bordo','Skolas nedēļa','Smalkas līnijas','Maiņu maiņstrāva','Redaktora izkārtojums','Svētku ornaments'];
+  const names = ['Karmīna klasika','Rīgas panorāma','Melnbalts arhīvs','Latvju rakstu josla','Mājīgs ģimenes plāns','Minimāls melnbalts','Dabas gadalaiki','Stingrais birojs','Mēness grafika','Ģeometriskais bordo','Skolas nedēļa','Smalkas līnijas','Maiņu ritms','Redaktora izkārtojums','Svētku ornaments'];
   const designs = names.map((name,i)=>({id:i+1,name,mode:[3,6,8,12,14].includes(i+1)?'melnbalts':'krāsains',orientation:[2,5,7,8,11,13,15].includes(i+1)?'landscape':'portrait'}));
   const months = ['Janvāris','Februāris','Marts','Aprīlis','Maijs','Jūnijs','Jūlijs','Augusts','Septembris','Oktobris','Novembris','Decembris'];
   const genitive = ['janvāra','februāra','marta','aprīļa','maija','jūnija','jūlija','augusta','septembra','oktobra','novembra','decembra'];

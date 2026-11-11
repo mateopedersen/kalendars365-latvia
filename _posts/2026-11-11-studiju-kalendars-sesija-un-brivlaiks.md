@@ -25,7 +25,7 @@ Arī vienas iestādes informācijā var būt lapas apmaiņas studentiem, pilna l
 ## Nodali trīs laika slāņus
 {: #section-2}
 
-Pirmais slānis ir semestru, sesiju un oficiālo pārtraukumu robežas. Otrais ir kursu konkrētie pārbaudījumi, darbu iesniegšana un konsultācijas. Trešais ir tavs laiks gatavošanās darbam, pārvietošanās un atpūtai. Tikai šo slāņu kopums rāda, vai konkrētā nedēļa patiesībā ir brīva.
+Pirmais slānis ir semestru, sesiju un oficiālo pārtraukumu robežas. Otrais ir kursu konkrētie pārbaudījumi, darbu iesniegšana un konsultācijas. Trešais ir laiks, ko tu atvēli sagatavošanās darbiem, ceļam un atpūtai. Tikai šo slāņu kopums rāda, vai konkrētā nedēļa patiesībā ir brīva.
 
 Lielajā gada skatā atzīmē tikai posmu robežas. Mēneša un nedēļas skatā pievieno precīzos darbus. Ja viss tiek ierakstīts vienā nelielā gada rūtiņā, virsraksti kļūst nesalasāmi un svarīgais pazūd. Arī digitālā plānā noder īss nosaukums, skaidrs termiņš un saite uz īsto uzdevuma aprakstu.
 
@@ -46,7 +46,7 @@ Saskaņojot izmaiņas, nosauc konkrētu datumu un vajadzīgo risinājumu. “Man
 ## Neaizmirsti praksi un īpašos termiņus
 {: #section-5}
 
-Prakse, laboratorijas darbs, lauka nodarbība vai noslēguma darba aizstāvēšana var neiekļauties parastajā lekciju ritmā. Meklē tās atsevišķajos programmas dokumentos. Pievieno arī vietu un sagatavošanās prasības, ja tās vajadzīgas, taču neglabā publiski pieejamā kalendārā sensitīvu informāciju par citiem cilvēkiem vai darba vietu.
+Prakse, laboratorijas darbs, lauka nodarbība vai noslēguma darba aizstāvēšana var neiekļauties parastajā lekciju ritmā. Informāciju par šiem posmiem meklē atsevišķajos programmas dokumentos. Pievieno arī vietu un sagatavošanās prasības, ja tās vajadzīgas, taču neglabā publiski pieejamā kalendārā sensitīvu informāciju par citiem cilvēkiem vai darba vietu.
 
 Ja termiņš ir tikai provizorisks, atzīmē to kā provizorisku. Vēlāk saņemtais apstiprinājums jāiestrādā tajā pašā ierakstā, nevis jāveido vēl viena līdzīga rindiņa. Tā būs mazāka iespēja, ka dienas steigā atvērsi veco versiju vai nosūtīsi kursabiedram jau mainītu norises laiku.
 
@@ -62,7 +62,7 @@ Atstāj iespēju neplānotai dienai. Pēc intensīva posma var būt noderīgs mi
 
 Izvēlies vienu kursu un sadali tā tuvāko uzdevumu trīs posmos: sagatavošana, izpilde un pārbaude. Katram ieraksti konkrētu darbību, piemēram, atlasīt avotus vai pārskatīt atsauces, nevis visās dienās vienādu vārdu “mācīties”. Tā kļūst redzams, kur darbu iespējams pārcelt un kurš posms atkarīgs no iepriekšējā rezultāta.
 
-Pēc nedēļas salīdzini plānoto ar faktisko. Ja viena darbība aizņēma ilgāk, izmanto to kā nākamā plāna ievadi, nevis vienkārši pievieno vēl vienu neskaidru kavējuma atzīmi. Pārbaudi, vai pietika laika konsultācijai un vai bija zināms iesniegšanas formāts. Šāda neliela regulāra pielāgošana ir vērtīgāka par perfekti izskatīgu semestra tabulu, kuru neviens vairs neatver. Ja darbs ir grupā, nosauc vienu cilvēku, kas apkopo gala versiju, un saglabā kopīgo iesniegšanas termiņu redzamu visiem dalībniekiem, nevis tikai savā personīgajā kalendārā.
+Pēc nedēļas salīdzini plānoto ar faktisko. Ja viena darbība aizņēma ilgāk, ņem to vērā, veidojot nākamo plānu, nevis vienkārši pievieno vēl vienu neskaidru kavējuma atzīmi. Pārbaudi, vai pietika laika konsultācijai un vai bija zināms iesniegšanas formāts. Šāda neliela regulāra pielāgošana ir vērtīgāka par perfekti izskatīgu semestra tabulu, kuru neviens vairs neatver. Ja darbs ir grupā, nosauc vienu cilvēku, kas apkopo gala versiju, un saglabā kopīgo iesniegšanas termiņu redzamu visiem dalībniekiem, nevis tikai savā personīgajā kalendārā.
 
 ## Uzturi vienu pārbaudītu versiju
 {: #section-8}

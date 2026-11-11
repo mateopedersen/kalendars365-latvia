@@ -151,12 +151,12 @@ add('bernu-aizsardzibas-diena','Bērnu aizsardzības diena','1. jūnijs Latvijas
 ],[next(s['url'] for s in DATA['sources'] if s['id']=='school')],section('Pārbaudīts piemērs','2026./2027. mācību gadā vasaras brīvdienas no 1. jūnija līdz 31. augustam noteiktas 1.–8. un 10.–11. klasei. 9. un 12. klases mācību gada beigu datumi ir citi. Nākamo gadu datumus šeit neaizstājam ar iepriekšējā gada prognozi.'))
 
 add('zinibu-diena','Zinību diena','1. septembra atzīmējamā diena un konkrētā mācību gada sākuma pārbaude.',['Zinību diena'],[
- 'Zinību diena Latvijas kalendārā ir 1. septembrī. Tā ir atzīmējama diena, kuru plānotājā var izmantot kā atgādinājumu par skolas gaitām un jaunā mācību gada sagatavošanu. Šis ieraksts pats par sevi nav valsts noteikta brīvdiena vecākiem.',
+ 'Zinību diena Latvijas kalendārā ir 1. septembrī. Tā ir atzīmējama diena, kuru plānotājā var izmantot kā atgādinājumu par skolas gaitām un gatavošanos jaunajam mācību gadam. Šis ieraksts pats par sevi nav valsts noteikta brīvdiena vecākiem.',
  'Oficiālā Zinību diena un skolas organizētais svinīgais pasākums ir divas saistītas, bet atsevišķi pārbaudāmas lietas. Konkrētās skolas ierašanās laiku, klases tikšanos un pirmās mācību dienas norisi nosaka tās paziņojumi.'
 ],extra=section('Plānotājā ierakstāmais','Pieraksti bērna klasi, pasākuma laiku, ceļu uz skolu un vajadzīgās lietas. Ja 1. septembris iekrīt nedēļas nogalē, nepārvieto mācību gada sākumu pēc minējuma: vispirms pārbaudi attiecīgā gada noteikumus un skolas ziņu.'))
 
 add('tevu-diena','Tēva diena','Tēva diena Latvijā: septembra otrā svētdiena un datumi 2027.–2030. gadā.',['Tēva diena'],[
- 'Tēva dienu Latvijā atzīmē septembra otrajā svētdienā. Tāpēc Latvijai paredzētā kalendārā nevajag pārņemt citu valstu Tēva dienas datumu, kas var būt citā mēnesī. Šeit datums vienmēr aprēķināts no Latvijas likumā noteiktā principa.',
+ 'Tēva dienu Latvijā atzīmē septembra otrajā svētdienā. Tāpēc Latvijai paredzētā kalendārā nevajag pārņemt citu valstu Tēva dienas datumu, kas var būt citā mēnesī. Šeit datumu vienmēr aprēķina pēc Latvijas likumā noteiktā principa.',
  '2027. gadā Tēva diena ir 12. septembrī, 2028. gadā — 10. septembrī, 2029. gadā — 9. septembrī, 2030. gadā — 8. septembrī. Tā ir atzīmējama diena. Papildu pirmdienas brīvdiena šim datumam nav paredzēta.'
 ],extra=section('Personīgs atgādinājums','Ģimenes kalendārā vari atzīmēt tikšanos, apsveikumu vai kopīgi ieplānotu nodarbi. Šāds personīgs notikums papildina oficiālo datumu, bet nemaina tā juridisko statusu un netiek uzskatīts par publiska pasākuma programmu.'))
 

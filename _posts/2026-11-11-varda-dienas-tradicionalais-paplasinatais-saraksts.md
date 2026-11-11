@@ -4,7 +4,7 @@ family: blog_article
 permalink: "/blogs/varda-dienas-tradicionalais-paplasinatais-saraksts/"
 title: 'Vārda dienas: kā atšķirt tradicionālo un paplašināto sarakstu'
 description: Precīza vārda meklēšana, sarakstu versijas un personisks apsveikumu kalendārs
-  bez datumu minēšanas.
+  bez minējumiem par datumiem.
 author: Silvis Balodis
 date: '2026-11-11'
 reading_notes: false

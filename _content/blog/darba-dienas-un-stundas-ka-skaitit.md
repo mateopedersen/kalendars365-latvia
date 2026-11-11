@@ -1,6 +1,6 @@
 Darba dienu skaitītājs var ātri parādīt rezultātu, bet rezultāta jēga ir atkarīga no pieņēmumiem. Vai nedēļas nogales ir sestdiena un svētdiena? Vai atskaita Latvijas [svētku brīvdienas](/blogs/latvijas-svetku-dienas-2027-planosana/)? Vai ieskaita sākuma datumu? Bez šīm atbildēm divi atšķirīgi skaitļi var būt pareizi diviem atšķirīgiem uzdevumiem.
 
-Šis raksts palīdz saprast kalendāra aprēķinu, nevis noteikt konkrēta cilvēka darba samaksu vai aizstāt darba tiesību konsultāciju. Personīgais grafiks, pārceltas darba dienas, saīsinātas dienas un darba līguma nosacījumi var prasīt atsevišķu pārbaudi. Vispirms nosauc aprēķina mērķi, tikai tad izvēlies ievades.
+Šis raksts palīdz saprast kalendāra aprēķinu, nevis noteikt konkrēta cilvēka darba samaksu vai aizstāt darba tiesību konsultāciju. Personīgais grafiks, pārceltas darba dienas, saīsinātas dienas un darba līguma nosacījumi var prasīt atsevišķu pārbaudi. Vispirms nosauc aprēķina mērķi, tikai tad izvēlies ievadāmos datus.
 
 ## Sākumā definē darba nedēļu
 

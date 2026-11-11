@@ -7,10 +7,10 @@
   },
   "pages": {
     "/": {
-      "heading": "No datuma līdz pārdomātam dienas plānam",
+      "heading": "Vairāk laika tam, kas tev svarīgs",
       "paragraphs": [
-        "Sāc ar jautājumu, ko vēlies ieplānot. Gada kalendārs palīdz salīdzināt mēnešus, mēneša skats atklāj nedēļu izkārtojumu, bet dienas skatā vari pievienot savus notikumus un piezīmes. Latvijas svētku brīvdienas, atceres dienas un vārda dienas ir atšķirīgi ieraksti: atceres datums pats par sevi nenozīmē brīvu darba dienu. Drukāšanai paredzētās 2027.–2030. gada veidnes atrodamas pie attiecīgā gada vai mēneša.",
-        "Pilsētas izvēle sasaista laikapstākļus un astronomijas aprēķinus ar konkrētu vietu. Automātiskais IP novērtējums ir aptuvens; ja tas neatbilst tavai atrašanās vietai, izvēlies pilsētu pats. Visām Latvijas pilsētām ir viena pulksteņa laika josla, taču saullēkta un saulrieta brīži atšķiras. Personīgie notikumi paliek šajā pārlūkā, tāpēc pirms ierīces maiņas saglabā datu dublējumu."
+        "Atrodi svarīgākos datumus un ieplāno laiku sev. Pārskati Latvijas svētku dienas, brīvdienas un vārda dienas, salīdzini mēnešus un pievieno savus notikumus.",
+        "Plāno darbu, mācības un atpūtu vienuviet. Izvēlies 2027.–2030. gada kalendāru drukāšanai vai izveido savu — ar fotogrāfijām, sev tīkamām krāsām un īpašiem datumiem. PDF ir piemērots drukāšanai, bet attēlu vari ērti saglabāt vai nosūtīt citiem."
       ],
       "icon": "calendar",
       "sources": [
@@ -23217,7 +23217,7 @@
     "/sejas-kalendars/pupinas/": {
       "heading": "Pupiņu tipam un vietai jābūt redzamiem plānā",
       "paragraphs": [
-        "Pupiņu pierakstā norādi šķirni un augšanas tipu, lai krūmu un kāršu stādījumus nejauši neplānotu kā vienādus. Atšķir svaigu pākšu izmantošanu no sausu pupiņu ražas mērķa. Vajadzīgais audzēšanas vietas aprīkojums un gatavības pārbaude atkarīga no šīs izvēles, nevis tikai no kopīgā auga nosaukuma.",
+        "Pupiņu pierakstā norādi šķirni un augšanas tipu, lai krūmu un kāršu stādījumus nejauši neplānotu kā vienādus. Atšķir svaigu pākšu izmantošanu no sausu pupiņu ražas mērķa. Vajadzīgais audzēšanas vietas aprīkojums un gatavības pārbaude ir atkarīgi no šīs izvēles, nevis tikai no kopīgā auga nosaukuma.",
         "Sējas orientieri izmanto kopā ar augsnes siltuma un salnu riska novērtējumu. Atgādinājumā labāk ierakstīt “pārbaudīt apstākļus pupiņu sējai” nekā automātisku solījumu, ka viena Latvijas mēneša diena ir piemērota visur. Ražas novērojumus saglabā katrai šķirnei, lai atšķirīgus mērķus vēlāk varētu salīdzināt korekti."
       ],
       "icon": "garden",
@@ -23361,7 +23361,7 @@
     "/sejas-kalendars/sipoli/": {
       "heading": "Sīpolu plānā norādi stādāmā materiāla veidu",
       "paragraphs": [
-        "Ierakstam “sīpoli” pievieno, vai izmanto sēklas, dēstus vai stādāmos sīpolus. Šiem sākumiem nav vienāds darbu kalendārs, tāpēc tikai kopīgs auga nosaukums nepietiek precīzam plānam. Atšķir arī lokiem un nobriedušiem sīpoliem paredzēto audzēšanas mērķi, ja dobē izmanto abus variantus.",
+        "Ierakstam “sīpoli” pievieno, vai izmanto sēklas, dēstus vai stādāmos sīpolus. Šiem sākumiem nav vienāds darbu kalendārs, tāpēc precīzam plānam nepietiek tikai ar kopīgu auga nosaukumu. Atšķir arī lokiem un nobriedušiem sīpoliem paredzēto audzēšanas mērķi, ja dobē izmanto abus variantus.",
         "Ražas pārbaudē ņem vērā aprakstā norādītās brieduma pazīmes un to, kam raža paredzēta. Piezīme par faktisko novākšanas un apžāvēšanas posmu palīdz nesajaukt svaigi izmantoto daļu ar glabāšanai sagatavoto. Kalendāra logs ir sākumpunkts novērošanai, nevis iemesls novākt visu stādījumu vienā dienā neatkarīgi no attīstības."
       ],
       "icon": "garden",

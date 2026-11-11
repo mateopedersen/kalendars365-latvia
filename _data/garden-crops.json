@@ -746,7 +746,7 @@
             120,
             150
           ],
-          "label": "Avotā minēts šķirnei atkarīgs veģetācijas periods.",
+          "label": "Avotā minēts no šķirnes atkarīgs veģetācijas periods.",
           "sourceId": "vaad-beets",
           "calculationAllowed": false,
           "reason": "Nav skaidri noteikts skaitīšanas sākuma notikums; nepārvērst par universālu sējas dienas taimeri."
@@ -869,7 +869,7 @@
           "heading": "Piezīme plānotājam",
           "paragraphs": [
             {
-              "text": "Pavasara un augusta sējas saglabā atsevišķi, lai atgādinājumi nesajauc abas ražas.",
+              "text": "Pavasara un augusta sējas saglabā atsevišķi, lai atgādinājumi nesajauktu abas ražas.",
               "sourceIds": [
                 "garden-di-guide"
               ]
@@ -1025,7 +1025,7 @@
           "heading": "No kā izvairīties",
           "paragraphs": [
             {
-              "text": "Neizmanto kātu seleriju novākšanas kritērijus sakņu selerijām un nesteidz dēstus ilgstošā aukstumā.",
+              "text": "Neizmanto kātu seleriju novākšanas kritērijus sakņu selerijām un nesteidz izstādīt dēstus ilgstošā aukstumā.",
               "sourceIds": [
                 "vaad-umbels"
               ]
@@ -1639,7 +1639,7 @@
       "h1": "Zirņu audzēšana Latvijā",
       "description": "Zirņu sēja un zaļās ražas plānošana Latvijā: agra pavasara augsne, mitrums, balsti un atšķirība starp svaigu un nobriedušu ražu.",
       "intro": {
-        "text": "Zirņi ir piemēroti agrākai pavasara sējai nekā salnu jutīgās pupiņas. Svaigam patēriņam tos vāc pirms pilnīgas sēklu nobriešanas.",
+        "text": "Zirņi ir piemēroti agrākai pavasara sējai nekā pret salnām jutīgās pupiņas. Svaigam patēriņam tos vāc pirms pilnīgas sēklu nobriešanas.",
         "sourceIds": [
           "garden-di-april",
           "garden-di-guide"
@@ -1652,7 +1652,7 @@
           "heading": "Kas jāzina pirms sējas",
           "paragraphs": [
             {
-              "text": "Zirņi ir piemēroti agrākai pavasara sējai nekā salnu jutīgās pupiņas. Svaigam patēriņam tos vāc pirms pilnīgas sēklu nobriešanas.",
+              "text": "Zirņi ir piemēroti agrākai pavasara sējai nekā pret salnām jutīgās pupiņas. Svaigam patēriņam tos vāc pirms pilnīgas sēklu nobriešanas.",
               "sourceIds": [
                 "garden-di-april",
                 "garden-di-guide"
@@ -1795,7 +1795,7 @@
       "h1": "Dārza pupiņu audzēšana Latvijā",
       "description": "Dārza pupiņu sēja Latvijā: silta augsne, salnu risks, krūmu un kāršu formas, kā arī pākšu un sauso sēklu ražas atšķirība.",
       "intro": {
-        "text": "Dārza pupiņas ir salnu jutīgas. Izvēlies, vai audzēsi jaunām ēdamām pākstīm vai nobriedušām sausām sēklām.",
+        "text": "Dārza pupiņas ir jutīgas pret salnām. Izvēlies, vai audzēsi jaunām ēdamām pākstīm vai nobriedušām sausām sēklām.",
         "sourceIds": [
           "garden-di-guide",
           "rhs-french-beans"
@@ -1808,7 +1808,7 @@
           "heading": "Kas jāzina pirms sējas",
           "paragraphs": [
             {
-              "text": "Dārza pupiņas ir salnu jutīgas. Izvēlies, vai audzēsi jaunām ēdamām pākstīm vai nobriedušām sausām sēklām.",
+              "text": "Dārza pupiņas ir jutīgas pret salnām. Izvēlies, vai audzēsi jaunām ēdamām pākstīm vai nobriedušām sausām sēklām.",
               "sourceIds": [
                 "garden-di-guide",
                 "rhs-french-beans"
@@ -1857,7 +1857,7 @@
           "heading": "Kopšana",
           "paragraphs": [
             {
-              "text": "Augstajām formām balstus sagatavo laikus. Pākšu ražu pārbaudi regulāri, lai iecerētās jaunās pākstis nepāraug.",
+              "text": "Augstajām formām balstus sagatavo laikus. Pākšu ražu pārbaudi regulāri, lai iecerētās jaunās pākstis nepāraugtu.",
               "sourceIds": [
                 "rhs-french-beans"
               ]
@@ -1882,7 +1882,7 @@
           "heading": "No kā izvairīties",
           "paragraphs": [
             {
-              "text": "Neattiecini dārza pupu agrā pavasara sēju uz salnu jutīgajām pupiņām. Pākšu ražai negaidi pilnīgu sēklu briedumu.",
+              "text": "Neattiecini dārza pupu agrā pavasara sēju uz pret salnām jutīgajām pupiņām. Pākšu ražai negaidi pilnīgu sēklu briedumu.",
               "sourceIds": [
                 "garden-di-guide",
                 "rhs-french-beans"
@@ -1951,7 +1951,7 @@
       "canonical": "/sejas-kalendars/gurki/",
       "title": "Gurķu audzēšana: sēja, kopšana un raža",
       "h1": "Gurķu audzēšana Latvijā",
-      "description": "Gurķu sēja un stādīšana Latvijā: silta augsne, sala jutīgi dēsti, atsevišķs siltumnīcas plāns un regulāra pakāpeniska augļu novākšana.",
+      "description": "Gurķu sēja un stādīšana Latvijā: silta augsne, pret salu jutīgi dēsti, atsevišķs siltumnīcas plāns un regulāra pakāpeniska augļu novākšana.",
       "intro": {
         "text": "Gurķiem atšķir lauka un siltumnīcas plānu. Dēsti ļauj sākt audzēšanu segumā, bet tas pats par sevi nenozīmē, ka ārā jau ir droši.",
         "sourceIds": [
@@ -1989,7 +1989,7 @@
           "heading": "Audzēšanas vieta",
           "paragraphs": [
             {
-              "text": "Lauka dobē svarīga ir iesilusi augsne un beigušās salnas. Siltumnīcā atsevišķi vērtē nakts siltumu un faktisko augsnes temperatūru.",
+              "text": "Lauka dobē ir svarīgi, lai augsne būtu iesilusi un salnas būtu beigušās. Siltumnīcā atsevišķi vērtē nakts siltumu un faktisko augsnes temperatūru.",
               "sourceIds": [
                 "vaad-cucurbits"
               ]
@@ -2232,7 +2232,7 @@
           "heading": "No kā izvairīties",
           "paragraphs": [
             {
-              "text": "Neapber rozetes centru un nesolī vienādu augšanas ātrumu pavasarī un karstā vasarā.",
+              "text": "Neapber rozetes centru un nesoli vienādu augšanas ātrumu pavasarī un karstā vasarā.",
               "sourceIds": [
                 "vaad-leafy"
               ]
@@ -3119,7 +3119,7 @@
           "heading": "Kad raža ir gatava",
           "paragraphs": [
             {
-              "text": "Pilngatavībā auglim ir šķirnei raksturīgā krāsa un garša — ne visām šķirnēm tā ir sarkana. Krāsoties sākušu augļu novākšana nogatavināšanai ir atsevišķs mērķis.",
+              "text": "Pilngatavībā auglim ir šķirnei raksturīgā krāsa un garša — ne visām šķirnēm augļi ir sarkani. Krāsoties sākušu augļu novākšana nogatavināšanai ir atsevišķs mērķis.",
               "sourceIds": [
                 "garden-vaad-tomato"
               ]

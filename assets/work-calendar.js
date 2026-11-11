@@ -163,7 +163,7 @@
     if(!annual)return;
     document.getElementById('work-print-sheet')?.remove();
     const data=annual.months[month-1],sheet=document.createElement('section');sheet.id='work-print-sheet';sheet.className='work-print-sheet';
-    sheet.innerHTML=`<h1>${esc(capitalize(C.months[month-1]))} ${year}</h1><p>${esc(settingsNote())}</p><p><strong>${data.work} darba dienas · ${number(data.hours)} h · ${data.rest} brīvdienas</strong></p><div class="work-calendar-weekdays">${['P','O','T','C','Pk','S','Sv'].map(label=>`<b>${label}</b>`).join('')}</div><div class="work-calendar-grid">${calendarHTML(true)}</div>${$('.work-legend').outerHTML}<footer>Kalendārs365 · kalendars365.lv</footer>`;
+    sheet.innerHTML=`<h1>${esc(capitalize(C.months[month-1]))} ${year}</h1><p>${esc(settingsNote())}</p><p><strong>Darba dienu skaits: ${data.work} · ${number(data.hours)} h · Brīvdienu skaits: ${data.rest}</strong></p><div class="work-calendar-weekdays">${['P','O','T','C','Pk','S','Sv'].map(label=>`<b>${label}</b>`).join('')}</div><div class="work-calendar-grid">${calendarHTML(true)}</div>${$('.work-legend').outerHTML}<footer>Kalendārs365 · kalendars365.lv</footer>`;
     document.body.append(sheet);document.body.classList.add('work-printing');
   }
   function clearPrint(){document.body.classList.remove('work-printing');document.getElementById('work-print-sheet')?.remove();}

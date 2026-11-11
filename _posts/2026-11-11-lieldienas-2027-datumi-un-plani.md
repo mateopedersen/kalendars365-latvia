@@ -25,7 +25,7 @@ Praktiskā plānošanā pietiek izmantot pārbaudītu attiecīgā gada svētku s
 ## Pārbaudi brīvo dienu robežas
 {: #section-2}
 
-Cilvēkam ar parastu pirmdienas līdz piektdienas darba nedēļu Lielā piektdiena un Otrās Lieldienas savieno nedēļas nogali ilgākā atpūtas posmā. Taču maiņu darbs, dežūras un citi grafiki var būt atšķirīgi. Pirms saskaņojat lielu tikšanos, pajautā katram dalībniekam par viņa faktisko pieejamību.
+Cilvēkam ar parastu darba nedēļu no pirmdienas līdz piektdienai Lielā piektdiena un Otrās Lieldienas savieno nedēļas nogali ilgākā atpūtas posmā. Taču maiņu darbs, dežūras un citi grafiki var būt atšķirīgi. Pirms saskaņojat lielu tikšanos, pajautā katram dalībniekam par viņa faktisko pieejamību.
 
 [Kopīgajā plānā](/blogs/gimenes-kalendars-nedelas-planosana/) atzīmē, kura diena ir pasākumam un kura ceļam. Ja viesi ierodas sestdienā, bet kopīgās pusdienas ir svētdienā, abi ieraksti ir vajadzīgi. Līdzīgi atsevišķi jāpieraksta nakšņošana un atgriešanās, lai pēdējā dienā neizrādītos, ka visi domājuši par atšķirīgu izbraukšanas laiku.
 

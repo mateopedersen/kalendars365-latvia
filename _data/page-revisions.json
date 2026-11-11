@@ -1,6 +1,6 @@
 {
   "/": {
-    "sha256": "3d72d8291c91099d8a94bca8c3d6185a1b1a41a4eeeb905106e76856de688173",
+    "sha256": "d25e4240d05f0d6c16bf72b6b8539f22ff16b6e400145cc84c851fd3ca0f7d1d",
     "lastmod": "2026-11-11"
   },
   "/astronomiskais-kalendars/": {
@@ -76,7 +76,7 @@
     "lastmod": "2026-11-11"
   },
   "/atvalinajuma-planotajs/": {
-    "sha256": "8f907e3749f6550ba8ed0c44a37ce93018dfa582d03fe8d4c90b4896346c79a3",
+    "sha256": "20f6b1c042e486aded52e696efcf2202b5a3b804a930c5f438770e0762ff69fa",
     "lastmod": "2026-11-11"
   },
   "/avoti-un-metodika/": {
@@ -296,7 +296,7 @@
     "lastmod": "2026-11-11"
   },
   "/darba-laika-kalendars/": {
-    "sha256": "aa878e9025e3d3b2ff89f958947cac3fda3eedcf376d3cbe15e08bbd1bac8c2a",
+    "sha256": "f8c0a381bc47bea5094fe425f640a888c1f82b4bbaa425d6550ea29ce3927eae",
     "lastmod": "2026-11-11"
   },
   "/datumu-kalkulators/": {
@@ -336,23 +336,23 @@
     "lastmod": "2026-11-11"
   },
   "/garas-brivdienas/": {
-    "sha256": "d67a18bc0c5e692816205ae5c2c0ce8caa201789318ed1a7405c5868f3d29f2a",
+    "sha256": "3b1638351880bc53666af0b67aaedfe43f2309a7add36da9fbda3f7c9edd22b7",
     "lastmod": "2026-11-11"
   },
   "/garas-brivdienas/2027/": {
-    "sha256": "4806f7d1f069bcc83b074c23cc91ea3e72b1690e6d79a6b49ef16650c82cfee8",
+    "sha256": "793135f416e5e505dfa1a62914dcfc263a296f9c603b348da0db933364dd1496",
     "lastmod": "2026-11-11"
   },
   "/garas-brivdienas/2028/": {
-    "sha256": "45d2bdc241e9d1ef52e0306226328ed728c5f08e02a13f7bd4dc746a8fe2d35b",
+    "sha256": "4d9af9c67e2a8b53faba72ce5f7e82c035ae7693118dbb36cdc5d415c63c8e51",
     "lastmod": "2026-11-11"
   },
   "/garas-brivdienas/2029/": {
-    "sha256": "1d47b5b1a5a52e17abfed3e13e7fd6353fbe3e1b8da3f62d7a22dc89d39175e6",
+    "sha256": "cca966c5f3d3db6fc34328f3e22316af0a6dbe8f06c40262402a7c35c1ac09ae",
     "lastmod": "2026-11-11"
   },
   "/garas-brivdienas/2030/": {
-    "sha256": "c121acd4d56af3cf5ac0dee4e233066bca0e7e731de6d1cb055e18061d2ecdc3",
+    "sha256": "70b8013bcb6818043fe0f66a395f993963844e302e158662538eee8ea84d426f",
     "lastmod": "2026-11-11"
   },
   "/gimenes-kalendars/": {
@@ -364,7 +364,7 @@
     "lastmod": "2026-11-11"
   },
   "/horoskops/": {
-    "sha256": "20569ea4954d331c0798d721833e17bf9aabea9178b61c6978dc56fc6adb2469",
+    "sha256": "ed1cd897733738f7feb712b2889caa76d71bca19fd04a528bea20f1b1823772f",
     "lastmod": "2026-11-11"
   },
   "/horoskops/auns/": {
@@ -376,7 +376,7 @@
     "lastmod": "2026-11-11"
   },
   "/horoskops/jaunava/": {
-    "sha256": "dc4ae17c77c339e5459e579b0b3ba1e12ac85cd0df6f62e88ce8e65c8569181e",
+    "sha256": "ffd58615409cd5ff681b05e3f4f6c4f46bba234c9368769d18ca999d54bf44b8",
     "lastmod": "2026-11-11"
   },
   "/horoskops/lauva/": {
@@ -392,7 +392,7 @@
     "lastmod": "2026-11-11"
   },
   "/horoskops/strelnieks/": {
-    "sha256": "2480b69c3cce54433bbd4488071c9d754e1e19e8e77934abcd787c8ea0a43ea9",
+    "sha256": "a7021e4532f29e05a0a78d37da6f41052d3b93e9639df9ab62eb82ca132a01e5",
     "lastmod": "2026-11-11"
   },
   "/horoskops/svari/": {
@@ -408,7 +408,7 @@
     "lastmod": "2026-11-11"
   },
   "/horoskops/vezis/": {
-    "sha256": "539e3a30a8b56e1ae015a19570fefa9b4579bf31e519e3a2eebdf9efe9db34c9",
+    "sha256": "c2bd9881016bcc15a8e6d953d5649a779a7daf61c74f306147006f00b3617eaa",
     "lastmod": "2026-11-11"
   },
   "/horoskops/zivis/": {
@@ -420,7 +420,7 @@
     "lastmod": "2026-11-11"
   },
   "/jaunmeness/": {
-    "sha256": "8a2019489f1009e04c99fb389e858e1ec45e831ea89379a7aacd5f5106bb7cd5",
+    "sha256": "d96cff1a55b63fc54713f2786799d70ac7de32765956f0cd98fea078dff9ecaa",
     "lastmod": "2026-11-11"
   },
   "/kalendars-ar-vardu/": {
@@ -728,11 +728,11 @@
     "lastmod": "2026-11-11"
   },
   "/lietošanas-noteikumi/": {
-    "sha256": "8ac6008b4386efb35095a3d85619c155c222f56bbea6833d4e559824b2617e96",
+    "sha256": "c1b348eb18304da3977b218033c802e6ee73c68701fec600877904663266b0bc",
     "lastmod": "2026-11-11"
   },
   "/mainu-grafiks/": {
-    "sha256": "89da032a06e620f91eac3cd2b38197b74baac1352e41a9a26156f5a7e00f42cb",
+    "sha256": "f8959ad04b9f5cc864915f052c9dceefc21ae2e72f48cf874a604b75332098e1",
     "lastmod": "2026-11-11"
   },
   "/meklesana/": {
@@ -768,11 +768,11 @@
     "lastmod": "2026-11-11"
   },
   "/meness-kalendars/": {
-    "sha256": "6095aa61bed769c3dd1e8d26b7d02c8cf8dfa709a50fc516824364e16260da64",
+    "sha256": "68ab37de9a3cfd56e5c76e2146d48da89c81088a7794abe2e6461658d0475930",
     "lastmod": "2026-11-11"
   },
   "/meness-kalendars/2027/": {
-    "sha256": "d689a3ceaae70ecf1524ea3b73fed0b2c8e8f2726bea56fd32d9a025eca73504",
+    "sha256": "2ee8c360fe78fe86382de9c27a48cb85c31ec76eadabfcf7ce88a75dbd09575f",
     "lastmod": "2026-11-11"
   },
   "/meness-kalendars/2027/aprilis/": {
@@ -824,7 +824,7 @@
     "lastmod": "2026-11-11"
   },
   "/meness-kalendars/2028/": {
-    "sha256": "9bbb6246b9d87fcedd4ccae1241341aac2a16294b8434656876cac9a0bdb99a9",
+    "sha256": "560a9a585ac329884ea5e3434a4902478dc0f0364799e857afe0cb797826f437",
     "lastmod": "2026-11-11"
   },
   "/meness-kalendars/2028/aprilis/": {
@@ -876,7 +876,7 @@
     "lastmod": "2026-11-11"
   },
   "/meness-kalendars/2029/": {
-    "sha256": "f6d2eebd6a041b293fb43e43a41689b9c208f8f164b79318e7bc9b48c7941ec9",
+    "sha256": "d964436da68e728c6fccefd8b403e67001d2d41efadd6d8d50f3b8a8d551c401",
     "lastmod": "2026-11-11"
   },
   "/meness-kalendars/2029/aprilis/": {
@@ -928,7 +928,7 @@
     "lastmod": "2026-11-11"
   },
   "/meness-kalendars/2030/": {
-    "sha256": "b46132069ae0f2b7ea721ce8834c3332535d124b8de17e21c1bc87e997e659ef",
+    "sha256": "8407c64ac51dd4a8810d344ae7e987b869a800805da468f3669e342e68cc1451",
     "lastmod": "2026-11-11"
   },
   "/meness-kalendars/2030/aprilis/": {
@@ -2404,7 +2404,7 @@
     "lastmod": "2026-11-11"
   },
   "/pilnmeness/": {
-    "sha256": "08bc7b1e46d409fbbed4b647929d81e710987f5c4a5d52cae05d92c88c2adae6",
+    "sha256": "f0d879c2c032519c6e5e52a4dc67db225d379c7c8c9ca376c12c904af7b3b446",
     "lastmod": "2026-11-11"
   },
   "/privatuma-politika/": {
@@ -2756,7 +2756,7 @@
     "lastmod": "2026-11-11"
   },
   "/sejas-kalendars/": {
-    "sha256": "ed96894833b495be4b60e9d96e59d83eedfb70a140a1966e4edfb0f212dcf8b7",
+    "sha256": "688cbdecbba0580942b4844983474a2a25df8e134791932c7f209aa776a35afe",
     "lastmod": "2026-11-11"
   },
   "/sejas-kalendars/burkani/": {
@@ -2772,7 +2772,7 @@
     "lastmod": "2026-11-11"
   },
   "/sejas-kalendars/gurki/": {
-    "sha256": "9b8782bf6ddd6daa23f02e354ab315e19346b1f8c9990c8fe975f8059d4335de",
+    "sha256": "170c385e4f7d7246f24f91881e764c64e5d2cdf2da81a28abe6378f4b1b7a65c",
     "lastmod": "2026-11-11"
   },
   "/sejas-kalendars/kaposti/": {
@@ -2788,55 +2788,55 @@
     "lastmod": "2026-11-11"
   },
   "/sejas-kalendars/menesis/aprilis/": {
-    "sha256": "d98a67a9e5e2cd01743a675acea983173e46f8c09fc9f33c9b297e6a2cfb35b9",
+    "sha256": "f92d7bc7515a963e80acfc4d883acdf7193b38735d4e16a2bcbdb00a7b858577",
     "lastmod": "2026-11-11"
   },
   "/sejas-kalendars/menesis/augusts/": {
-    "sha256": "425284a301671ca5c6c83a6ee6e8a6b59ef3cc8bb1785e0e70b191f361faa1cb",
+    "sha256": "4573c1a250352ac7aec80247aa450040c5e756eb18d01095dc369eb61b146554",
     "lastmod": "2026-11-11"
   },
   "/sejas-kalendars/menesis/decembris/": {
-    "sha256": "b607c916f1662f112e4316269d1806b49ea1138e26c5d71c090b95de51d4d298",
+    "sha256": "ad50eec576cecd047d8f2a42751d811629d0fd611ec0742117a6ef9971db9f71",
     "lastmod": "2026-11-11"
   },
   "/sejas-kalendars/menesis/februaris/": {
-    "sha256": "0f49fabe1948af5f58e96687396145d5cbba9e205a0051218818ce098c1ad1c3",
+    "sha256": "0e5412f538411182055bd317a89d6fec5b34fd79977eb67f8c1d03a5e08f6119",
     "lastmod": "2026-11-11"
   },
   "/sejas-kalendars/menesis/janvaris/": {
-    "sha256": "71c2efcfe3f7fb2e49bd4bfe1cb050ae0b67c8534d905b8e46fc9180340f504c",
+    "sha256": "f80d934003711f8255705c1d86a357b519fdeeb953bea40c8327a37adac904a1",
     "lastmod": "2026-11-11"
   },
   "/sejas-kalendars/menesis/julijs/": {
-    "sha256": "f45424d17518862b6addc29b86187e31de1923048f0d65e1d2707ba5a09832b1",
+    "sha256": "902482c212f8ac325549e8ccae7835206bf0cbe4331ef2938035e3a42e8c4209",
     "lastmod": "2026-11-11"
   },
   "/sejas-kalendars/menesis/junijs/": {
-    "sha256": "f2e0f048f69989a255a5133a1031c24fccc5ea0020512e794db8ee3780bc0f02",
+    "sha256": "8b800af3160c122ac66afdd1de7295622bab3c43b19e558818b2dba4315c150a",
     "lastmod": "2026-11-11"
   },
   "/sejas-kalendars/menesis/maijs/": {
-    "sha256": "9e3a5d7321992a9598e1cef9a9e2c81bd70f9ebc16c66b879c8d0c780856d6ed",
+    "sha256": "2daa52e84983e38e27f775d281cd32879b49f10e50f72727ce854c3d76b6ea71",
     "lastmod": "2026-11-11"
   },
   "/sejas-kalendars/menesis/marts/": {
-    "sha256": "c3a8c370276d41ce4198d73254f9befb25929acfea97a6ca21f0c823e3c5a33b",
+    "sha256": "2bf00ee11fa6ec3c2d941b4a384b80d2bcbeac292f364d04ed32fb0bdfd321b8",
     "lastmod": "2026-11-11"
   },
   "/sejas-kalendars/menesis/novembris/": {
-    "sha256": "197ad2025253b34f7f90586be924f646825a2c970ba8a2f5c63686bad6ecaffb",
+    "sha256": "086d97fbed76109bcc9663ee4278fe0f29f80db05fdb72f80ea6877950cd840f",
     "lastmod": "2026-11-11"
   },
   "/sejas-kalendars/menesis/oktobris/": {
-    "sha256": "f137416d00f1214daea17ae072670d5cf620fca9efca4d6a92667aa977c14ac7",
+    "sha256": "68b0f97b480df6e9aeb7586a8cc23e38c222086f23de228f007f93973158d86d",
     "lastmod": "2026-11-11"
   },
   "/sejas-kalendars/menesis/septembris/": {
-    "sha256": "8f538948c920822abdc031a366bca4b8bb7b22b716fcc54cfa36f976c5ab594e",
+    "sha256": "4790667cd4d50f1f01ea81cae757985f593b7b0507a86ce140ffe9bfb2f5b23f",
     "lastmod": "2026-11-11"
   },
   "/sejas-kalendars/pupinas/": {
-    "sha256": "3cc919e7863099434f32c1269d7f5c0a418088929b0331dd292f99334d842199",
+    "sha256": "f559e48cd2dce91e114f687138cc79696ca28005a0a8023d2447e98aac32ed3b",
     "lastmod": "2026-11-11"
   },
   "/sejas-kalendars/puravi/": {
@@ -2844,19 +2844,19 @@
     "lastmod": "2026-11-11"
   },
   "/sejas-kalendars/redisi/": {
-    "sha256": "64c7be7b539de3c061909e4922d8d7e43904dbd729ad5721cbdec9062e223cdf",
+    "sha256": "98bb76ad901d3720a3f38032052c027ada0b4b59332f1a925ea5099e578daa8c",
     "lastmod": "2026-11-11"
   },
   "/sejas-kalendars/saknu-selerijas/": {
-    "sha256": "ce22deb6fcfce6e0d7f85badd97215e219611a14bd85aaf32937f9c220a8cffe",
+    "sha256": "06806fe168fda7ab2b7c0951ad0b6d7abbe30af887b918c94078aefec6e6c359",
     "lastmod": "2026-11-11"
   },
   "/sejas-kalendars/salati/": {
-    "sha256": "9a58c4d361ca3a8a337f5913dfb13e76ee95890061c4e6c9843b4234622b8582",
+    "sha256": "5e54e232b74f0ca73d2d6e7647a2f777c9351c7631a4edba9b84a6994dace55d",
     "lastmod": "2026-11-11"
   },
   "/sejas-kalendars/sipoli/": {
-    "sha256": "551eb3aed652d30bffc10486b25c9e389e0353f27dc89a33a4b7812dc6a2acdd",
+    "sha256": "6d1062ad044b68ab685347ca62efb13c688dd36e1d0a4ede2d80f1ebac5ba41a",
     "lastmod": "2026-11-11"
   },
   "/sejas-kalendars/spinati/": {
@@ -2864,11 +2864,11 @@
     "lastmod": "2026-11-11"
   },
   "/sejas-kalendars/tomati/": {
-    "sha256": "98e4209e5155e54c6c8cd6254d97de39ba802a988e7217d96fe6f25933247156",
+    "sha256": "ad39af5edc0a88d2542efc714e6bb6bd3cbc58e3402a8249da240160b168549e",
     "lastmod": "2026-11-11"
   },
   "/sejas-kalendars/zirni/": {
-    "sha256": "0b59cefbfc380e8d0d24023ecd05ebd2d34d9a954116a32fef15b0bf754c4b60",
+    "sha256": "11bebeb434bbd0e40665d834a2b357e09bdd962f37330f88870091703923e8ac",
     "lastmod": "2026-11-11"
   },
   "/sikdatnu-politika/": {
@@ -2928,107 +2928,107 @@
     "lastmod": "2026-11-11"
   },
   "/svetki-un-tradicijas/advente/": {
-    "sha256": "b653c63ebd94f6d2e37ae23cd89e1a745945ba23f71cc243f7bbe31fea390409",
+    "sha256": "c21fe9468af809406448351718bc1266969d20f01eb990bd6a87613e2987c967",
     "lastmod": "2026-11-11"
   },
   "/svetki-un-tradicijas/baltu-vienibas-diena/": {
-    "sha256": "0430da1a1b76b9572f147fa3931d702668f413529c12ff7b5f28aa876af62752",
+    "sha256": "ac7a6ba0328b459ba9c6a7cc42d17edec062439bc181884bc97ec2c8e3d17fca",
     "lastmod": "2026-11-11"
   },
   "/svetki-un-tradicijas/barikazu-aizstavju-atceres-diena/": {
-    "sha256": "ba13cc65451500f713d9e8dc4ab6d9c71f67cfdb7dc3663bba704c8c5dd3db8e",
+    "sha256": "e58d3d1eadf3acfdcea976beea9f90c71c28973ac704a90ab2be626392630148",
     "lastmod": "2026-11-11"
   },
   "/svetki-un-tradicijas/bernu-aizsardzibas-diena/": {
-    "sha256": "293fb68a5929df4069408ab9e89762265f94ced7fab15a7838722c34d919d0ac",
+    "sha256": "1c531414b87d1bf9643b81477d1f344ea3c66db05f65af6ba3475553106d5b7e",
     "lastmod": "2026-11-11"
   },
   "/svetki-un-tradicijas/darba-svetki/": {
-    "sha256": "4ff2569b9d81e8f72454e7bce9c66539dbc4a4e1b9304fd22c7213e6b0be6afc",
+    "sha256": "b2741a37cfc42f4e27b9b208b012490490b5f314fab4122e66958ce86d2fd3e0",
     "lastmod": "2026-11-11"
   },
   "/svetki-un-tradicijas/dziesmu-un-deju-svetki/": {
-    "sha256": "30662dc66507cdc9a2bca7fcfcb203bf3ee6db1635aba8518876985369600c5e",
+    "sha256": "2c7ab8f96aa1e68a962e5ae19799de79ad8d9b2367a70d762c048a3b1f0f2578",
     "lastmod": "2026-11-11"
   },
   "/svetki-un-tradicijas/ebreju-tautas-genocida-upuru-pieminas-diena/": {
-    "sha256": "29834a9eeb6977bb51acffb31c5c3be651f31afd96bee73d178da79f22e2464f",
+    "sha256": "ef196c3553e0d20fb5858fd89b2c0a3fbab102e51420bfdbb4841e62c4c719c7",
     "lastmod": "2026-11-11"
   },
   "/svetki-un-tradicijas/eiropas-diena/": {
-    "sha256": "a99280c50d3dac0ec5bb8ad11eb82aaeb8504de7205ddb401c20e8b708ed55f4",
+    "sha256": "75b21ab9fee7e22cf37ce1e15dcac61f54ebc57e2235cf651e44668fb77fa588",
     "lastmod": "2026-11-11"
   },
   "/svetki-un-tradicijas/janu-diena/": {
-    "sha256": "ac592591c1060a39e4997ca927dad5149cb29a6b1bf877a702a9a781dac27e28",
+    "sha256": "5a335eca55611d175d4f31d1f564cae4d7dda9cbd471e9aa11fb4a28cf38d82e",
     "lastmod": "2026-11-11"
   },
   "/svetki-un-tradicijas/jaunavas-marijas-debesbrauksanas-svetki/": {
-    "sha256": "7e7ff957e3677dc833ad7aa7096fd0d2b5d2161afcbfcbc93d5626eefd09a022",
+    "sha256": "e0b2ce6349e0cb1c06d705e0c3cb5fd7b0639c32e734895864d006f5f1f26c77",
     "lastmod": "2026-11-11"
   },
   "/svetki-un-tradicijas/jaungada-diena/": {
-    "sha256": "8abd0832631e8bb17774b969d0b3dbb028bbbb319b19c8c2bb2b9a428827dbcc",
+    "sha256": "d12281281f318e12dbe4c82214b3d360ee7474e4b9e6bb7fc591efc424ab160c",
     "lastmod": "2026-11-11"
   },
   "/svetki-un-tradicijas/juras-svetku-diena/": {
-    "sha256": "a6f15d90b34da9617fd6484fedc3fb4389a5a642d39c14db41b5223a4ad514c2",
+    "sha256": "dfc5dccf4389b604fad18eeb2fe0948bea8953f900eb2d430b2f792d840e5840",
     "lastmod": "2026-11-11"
   },
   "/svetki-un-tradicijas/komunistiska-genocida-upuru-pieminas-diena/": {
-    "sha256": "6d3248a8ad8f2e2268db6394469fc7da32b174690c7a01b34443dd54da368b95",
+    "sha256": "9c0592f7ef45b5ad40fea07fb81d2b7b79146a6f886836869093a44f5c98973c",
     "lastmod": "2026-11-11"
   },
   "/svetki-un-tradicijas/konstitucionala-likuma-pienemsanas-diena/": {
-    "sha256": "5f83b8ad629c3b11809494fdbb6dadca4f65fcf97ea67eed382bf865758df010",
+    "sha256": "b931c37ac449e6d8c2b5328223904b7f26059c4f1eee948586d14ff750fe70c8",
     "lastmod": "2026-11-11"
   },
   "/svetki-un-tradicijas/lacplesa-diena/": {
-    "sha256": "0575431c9bb0df88736bb09dacc0ff73e37c715de0a26e82b1060c2c7f5688fc",
+    "sha256": "f6d67cd6258c83f58df2b6977fbf1fb8f5c229c72114419bb01d4b73bc02f634",
     "lastmod": "2026-11-11"
   },
   "/svetki-un-tradicijas/latgales-kongresa-diena/": {
-    "sha256": "df445862d4a9bbe9c9d0371e54d367d51c98c781c65a643bbbb4454150c8e4de",
+    "sha256": "aa95c3f00ac2a26bd97b8cbdd5986a8f0f375f243c1ce1da8cec3812cb4d89f7",
     "lastmod": "2026-11-11"
   },
   "/svetki-un-tradicijas/latvijas-brivibas-cinitaju-pieminas-diena/": {
-    "sha256": "cef6ef8afeb32ccd3447e75cf70d4f9105a6814ec871e44d1a2de2532cd1896d",
+    "sha256": "d54fd1361f3a4405c04f42d04637caec6b17783e0307779c5b3809bf89f234f3",
     "lastmod": "2026-11-11"
   },
   "/svetki-un-tradicijas/latvijas-de-jure-atzisanas-diena/": {
-    "sha256": "57ce643c968211877b19653583772468f19c2ef07f20900cf674bb76677a8f33",
+    "sha256": "deff7bf4ffacbaaac7acb6dd12ba095c5aa023ae0af5366a60c1e3c9ce969acf",
     "lastmod": "2026-11-11"
   },
   "/svetki-un-tradicijas/latvijas-republikas-okupacijas-diena/": {
-    "sha256": "1e4b0b7ac42bcd66d0cbf9f180774b987cb9fb0f759e33c5891cbdbb51f25376",
+    "sha256": "c0dd2aa2372b0991abe3d0b22ec9f8ae1e00dee30f0fa3c1b905b799570f820c",
     "lastmod": "2026-11-11"
   },
   "/svetki-un-tradicijas/latvijas-republikas-proklamesanas-diena/": {
-    "sha256": "e612d7331096a5db0a97f25af68d52b215e1530fc170a744705d516ca3ffb775",
+    "sha256": "929635aa2b67088a8e4027a15ff430f15617c2a392f3a8a463798f106f6501ae",
     "lastmod": "2026-11-11"
   },
   "/svetki-un-tradicijas/liela-piektdiena/": {
-    "sha256": "ed3a8088eb4603bbc20b2cfbaf63dc9963838b4caa610c642f8426ef0406b24b",
+    "sha256": "068e9b07682b18d68584d82e1297df469046fefb246ca5d43c47e79ec4b921c1",
     "lastmod": "2026-11-11"
   },
   "/svetki-un-tradicijas/lieldienas/": {
-    "sha256": "88598e42401a1dabea4f216d5b572206398ceff744b2741d8cccb0d272a51edf",
+    "sha256": "bcb4eec68b636b17149d80087f91df31cc57586ebb2242ac53538c24716a9c36",
     "lastmod": "2026-11-11"
   },
   "/svetki-un-tradicijas/ligo-diena/": {
-    "sha256": "1bd5e0473cb8a19603725642616379a64a82fe967311b0d050e3b2ddd9d8bfaa",
+    "sha256": "daa98f5c92dc2c81cb3edb7d3c110ba113df3a6bed22101a0065e4dee42ed96f",
     "lastmod": "2026-11-11"
   },
   "/svetki-un-tradicijas/martindiena/": {
-    "sha256": "9bae0b70544671700a563086a446b786d95b8737d3df2a7e2de070d88b0d4ba2",
+    "sha256": "0b9e38f05b6ae2d87753dafc6e155cf827862700cac4fd9856a9181c2f36c0fe",
     "lastmod": "2026-11-11"
   },
   "/svetki-un-tradicijas/mates-diena/": {
-    "sha256": "7d89bc8d2ba320c380ba792a7fe2e3f6b297cb318c43045e3d03335d7af4dc27",
+    "sha256": "a0032714daa4369e1ce4d3e93a6c90c0dac841bcb4c19396c8939770da42f1ee",
     "lastmod": "2026-11-11"
   },
   "/svetki-un-tradicijas/medicinas-darbinieku-diena/": {
-    "sha256": "c1a074308e1a0a6b83ea94031cfeaab17c59315b5a18e202d6e02378cbf261b5",
+    "sha256": "c8eff7d45d190e9e7d422bfd208c18f8c3205e24068fa6485a47f70fb55d2113",
     "lastmod": "2026-11-11"
   },
   "/svetki-un-tradicijas/meteni/": {
@@ -3036,131 +3036,131 @@
     "lastmod": "2026-11-11"
   },
   "/svetki-un-tradicijas/mikeli/": {
-    "sha256": "d9bb75c8f220ddeb85b7757a681622f87d78788e9c22d4750e8cb0d58388e3a3",
+    "sha256": "d4b8bd72d2c7dcb7b2cc48ebb501ac131d8c6d9e93354f8f4a9d3b56234d4d4c",
     "lastmod": "2026-11-11"
   },
   "/svetki-un-tradicijas/miruso-pieminas-diena/": {
-    "sha256": "c6dbe00c636d16dd1cc574aeb25d0f1b81e13d81c39406458a0e81e6fdf14f4d",
+    "sha256": "e9f9152b9809d19ac44d411944391506882f6fee9e147c28198df2565104a63e",
     "lastmod": "2026-11-11"
   },
   "/svetki-un-tradicijas/nacionalas-pretosanas-kustibas-pieminas-diena/": {
-    "sha256": "5a9d9687ad4a9c87dbc72db0902d4c57ad613c90dcd5a661d4da7b2da5ce673d",
+    "sha256": "c46fbad3f179508b58ed0a4b36f9a5d74a65ff79708079249f99545386d1871c",
     "lastmod": "2026-11-11"
   },
   "/svetki-un-tradicijas/nacionalo-partizanu-pretosanas-atceres-diena/": {
-    "sha256": "cbe8f2e5b63e97539058847d96512f191ccf941832bc44fbaf9358a337023505",
+    "sha256": "b5e97c7d81688b1712daaac42c10e2947752efc2c1e313f61aba87e96855cdb2",
     "lastmod": "2026-11-11"
   },
   "/svetki-un-tradicijas/nacisma-sagraves-un-otra-pasaules-kara-upuru-pieminas-diena/": {
-    "sha256": "54d9208217fb4971fe6d0fcb45aaecfff5bffe57657dd22edfa06f9cee801975",
+    "sha256": "377860cb5b27e546df78ed525e952fda0edc5a54452dc1b6777be3eb0ea22638",
     "lastmod": "2026-11-11"
   },
   "/svetki-un-tradicijas/neatkaribas-atjaunosanas-diena/": {
-    "sha256": "8705570ed2d3e47b8f6cc4e00cc43ff69c14a1defb7d04c3f7800ed79246a95f",
+    "sha256": "e129a257afcb2f1a213ee00b38cd493d33209e606254802036914eace6caf87c",
     "lastmod": "2026-11-11"
   },
   "/svetki-un-tradicijas/pavasara-ekvinokcija/": {
-    "sha256": "aab7ba171f70b7e0a07fe81acc2170913033ff1d4eb5edce74836e8faf2cb8be",
+    "sha256": "8baf9862966a31345b09cbbeffd5327827149158a87ad3fad06d7e60da6f0fcd",
     "lastmod": "2026-11-11"
   },
   "/svetki-un-tradicijas/policijas-darbinieku-diena/": {
-    "sha256": "fa407940117350be5b9f1458a26a58304d693a1f05e6deac3d44b017634870eb",
+    "sha256": "d490c7b3430589a0efe116fd6b7db6e75e67e3ce02c7e68f775540666b76ef44",
     "lastmod": "2026-11-11"
   },
   "/svetki-un-tradicijas/pupolu-svetdiena/": {
-    "sha256": "627be959a773b4ac9468ae303c07baef56b374828665fe8d3a0a179f9453eb90",
+    "sha256": "3dd596c795507afae2e865c885ad41f3df2465c27194a788f9680b68607dd4af",
     "lastmod": "2026-11-11"
   },
   "/svetki-un-tradicijas/robezsargu-diena/": {
-    "sha256": "c1152cd79ed58f043129c191c2b9a033bb5357e8a98b1eda2ca8a0f46f7caff4",
+    "sha256": "33daa6fe2999bf36635c8b12352d68183bbfe29cc59488bcd08638624e522e0e",
     "lastmod": "2026-11-11"
   },
   "/svetki-un-tradicijas/rudens-ekvinokcija/": {
-    "sha256": "731a1d96ab70b8c10a8e8da4edd175c1b2e094ea2304bd325ad252452532284f",
+    "sha256": "71e2f9e8014b670420784e95ff80f328c733c9ce0114e3a6578519a9807cc724",
     "lastmod": "2026-11-11"
   },
   "/svetki-un-tradicijas/saulgriezi/": {
-    "sha256": "3d35aad4c234a37d7e7352c2204defe0e773f4acd8157d86e2c2c0cecd114198",
+    "sha256": "0f7e150f860531727be1c74f59516dbdafef2c6137bc101cb35dc37edfa718a5",
     "lastmod": "2026-11-11"
   },
   "/svetki-un-tradicijas/skolotaju-diena/": {
-    "sha256": "8d1ca68af7aac616fd34b380aff9398453d2952fb04535ea55f1194ec9e73dc9",
+    "sha256": "7c4135a8c7950f23c75bc871e5541a4f4656480f71c1b6d9ddd4858b62f134db",
     "lastmod": "2026-11-11"
   },
   "/svetki-un-tradicijas/stalinisma-un-nacisma-upuru-atceres-diena/": {
-    "sha256": "c3dd360d5ae7ef4ee0cff0c4829e3d9eb99c6951121a31775dbe1967f8df04fa",
+    "sha256": "c3bc777a0a3a0d16c77e5a5f0acc905389a378a623ca4a20f62272da75a9d53c",
     "lastmod": "2026-11-11"
   },
   "/svetki-un-tradicijas/starptautiska-gimenes-diena/": {
-    "sha256": "128a31c0ed60f9ad3a1bda608781fea1a667eefdce2d8aebbbe22010efd84a02",
+    "sha256": "7ba3778352d83c09d6706ac138ac357c1b92084032049b5c7e6c7b6929d4b0d3",
     "lastmod": "2026-11-11"
   },
   "/svetki-un-tradicijas/starptautiska-nevalstisko-organizaciju-diena/": {
-    "sha256": "7f7eed63fd0a42c18316468e59f5d1d0831077c1b6a1f0313ee5a754a1ee4c8f",
+    "sha256": "bf84d872db1ec985c16b29e40bf4a2c9cb7741140364f3e0fbe1bd031558da8e",
     "lastmod": "2026-11-11"
   },
   "/svetki-un-tradicijas/starptautiska-senioru-diena/": {
-    "sha256": "9f1e375d2eab0ba8237d583e58dee6bed6d22bbaf5a8e46fa950b728c8a9665b",
+    "sha256": "7c1983b963a0229dc00805cced6b7bf758650490c1a2f1664f36696bdb018fec",
     "lastmod": "2026-11-11"
   },
   "/svetki-un-tradicijas/starptautiska-sieviesu-diena/": {
-    "sha256": "6efb564eafa5cd02a6a3ffa4396680c63c9e13722f67d121ea870a320754a767",
+    "sha256": "61a6a609935593d767cc0e72aae97713a58a832d362f7cd232c366ea984c3184",
     "lastmod": "2026-11-11"
   },
   "/svetki-un-tradicijas/tevu-diena/": {
-    "sha256": "bbc38046ff31ae59615ab87f9679d6939878886a3ff0e238fc43e39bd9de8255",
+    "sha256": "ec01cbf9a46af2366ab568276e9ba892b6502000f2df6015da021ee74244315f",
     "lastmod": "2026-11-11"
   },
   "/svetki-un-tradicijas/totalitara-komunistiska-rezima-genocida-upuru-pieminas-diena/": {
-    "sha256": "a9ae93ea80864e473a1382403ef60942a1ff45c7121a2657e716ffb7d6ab9dee",
+    "sha256": "296edc1e440a9c067c02fd17015014464ff660fad203093f6f0678e8807ff0d4",
     "lastmod": "2026-11-11"
   },
   "/svetki-un-tradicijas/ugunsdzeseju-un-glabeju-diena/": {
-    "sha256": "2a9ff24d134c534c52a0641566d582e85f4bbc456e11b78eae89f3d0827436b2",
+    "sha256": "cc64f2ac91fd5a81a962ccc81388bf0794be9ec58e34b5c37c01836dd735e36b",
     "lastmod": "2026-11-11"
   },
   "/svetki-un-tradicijas/valentina-diena/": {
-    "sha256": "125a41d80a1eaa89973bf6640d1bae337bd939823cda81bb8c8e3dd90f184e80",
+    "sha256": "c47057b204750d4db8285b2ea020a023e818f43b11b2cb07484cf48cad66f85a",
     "lastmod": "2026-11-11"
   },
   "/svetki-un-tradicijas/valsts-valodas-diena/": {
-    "sha256": "3a6362bbc7ef23da1b952a279a8ec693eda237ff92c7b95f2fb1fe01156af105",
+    "sha256": "bf1787ebe361e57b4e708176868408e866c9c28ebe1234ea97f583f74c996c96",
     "lastmod": "2026-11-11"
   },
   "/svetki-un-tradicijas/varonu-pieminas-diena/": {
-    "sha256": "66815851f5028faaf37e0c9266aa7f29c255d08dc91171c9265db20376dcf516",
+    "sha256": "e1f94adde5d35d0b210119d3ea4cecb9f912a10f30a2a658e1a19a506e173d36",
     "lastmod": "2026-11-11"
   },
   "/svetki-un-tradicijas/vasaras-saulgriezi/": {
-    "sha256": "7764245cf67e663b1970c8a848c8af73fc88293273b546a3813df5cee790f47f",
+    "sha256": "6e3c89f42220702d5e8ed83182c742b8c5160127a7b82024b6909334d5df9d40",
     "lastmod": "2026-11-11"
   },
   "/svetki-un-tradicijas/vasarsvetki/": {
-    "sha256": "8a5c2cabac13466bdffb28958c0caf8bf6c9aa12554cd9493282a05bece16acc",
+    "sha256": "5365b38a80f7e38dc2bb2382ebb3bac71d6787f7928a059bb77d77e0c852d65e",
     "lastmod": "2026-11-11"
   },
   "/svetki-un-tradicijas/vecgada-diena/": {
-    "sha256": "368a6c80094aa80d5c073c83594bf07051985ad7cfa57f00c8ff73ec8597d6fd",
+    "sha256": "80627c2ae11af7aff5f4606a2a98d88f09326c897eddbff27987743007a333ca",
     "lastmod": "2026-11-11"
   },
   "/svetki-un-tradicijas/ziemas-saulgriezi/": {
-    "sha256": "97e901e72f0ad27adce106c60f82141df66dc42e31d0c02f1a93c549a692e195",
+    "sha256": "6243649ab83e092c713f3f0c05cc75bbdcdb14f8c66712ed082ad9f385e6e88f",
     "lastmod": "2026-11-11"
   },
   "/svetki-un-tradicijas/ziemassvetki/": {
-    "sha256": "093fcfb7f4fba7bb3a305987d1a406bbf8e9d1dc3e6995741de08a27cef619e6",
+    "sha256": "5e683d679eee93b3ac3cf4eb04227c1594cc559af5a3b444791046b57c73273b",
     "lastmod": "2026-11-11"
   },
   "/svetki-un-tradicijas/zinibu-diena/": {
-    "sha256": "e570c37390f1b403e7b976b09874489a59d058032e77f8b8a66fdcea3b47776b",
+    "sha256": "6d30978b742b818ef8272555eaeb7eef020cf4058b6881082a10cc0c2fb0381d",
     "lastmod": "2026-11-11"
   },
   "/svetki-un-tradicijas/zolitudes-tragedijas-atceres-diena/": {
-    "sha256": "28ff24fe8cdcd60ddce678fe4c5705c8961dec9a5c6ab6eba3eb764be7b67981",
+    "sha256": "afe68af6731f1b2d435efd6a1a06a8239c933d92c10eb2df8e7d2f12511b48d6",
     "lastmod": "2026-11-11"
   },
   "/svetki-un-tradicijas/zvaigznes-diena/": {
-    "sha256": "cb9fccdf2f2f9fc16cd12b615b85f33da3ca20d19a68199a3b5236c37df6c2b6",
+    "sha256": "c8129157f1af18f27b9c3684ce1f4a930d1f8e0c989adbe35d983bc5f7c36501",
     "lastmod": "2026-11-11"
   },
   "/svetku-dienas/": {
@@ -3384,7 +3384,7 @@
     "lastmod": "2026-11-11"
   },
   "/varda-dienas/": {
-    "sha256": "e45b71b560c27dfdbcad16647b1e6a79fb44ed1ff6a761cb6ef1b14f94ed5ed0",
+    "sha256": "a024b4dc7e4f3271110cbd2cfe07317ecfde049325650481b40f22b028829ee9",
     "lastmod": "2026-11-11"
   },
   "/varda-dienas/aprilis/": {
@@ -3444,43 +3444,43 @@
     "lastmod": "2026-11-11"
   },
   "/svetki-un-tradicijas/holokausta-upuru-pieminas-diena/": {
-    "sha256": "bfd813aafb21341a7c3784d0cd497fbdcb03605eadfbf1d371ea483a086b47b7",
+    "sha256": "babefb74e17e2790f886aa09c1c0954074270f8325bc7ed3283f8ce46bd685bd",
     "lastmod": "2026-11-11"
   },
   "/svetki-un-tradicijas/eiropas-valodu-diena/": {
-    "sha256": "c1fad8261cc957c4ab8f23c83d163a8858d58b24aea5048c1d83b1b351ce786f",
+    "sha256": "8366668affc69b693f0d8f6a591c7563a02ce96486d616573008f4f6fa5897e9",
     "lastmod": "2026-11-11"
   },
   "/svetki-un-tradicijas/totalitaro-rezimu-upuru-pieminas-diena/": {
-    "sha256": "1f4a64d11c4d039c79432722635feed296fd92a69d4c27e943702faa58511978",
+    "sha256": "907f568f581f629e58681e13342cd23e89b98f37a861beafa1f3ea8beb87c5e3",
     "lastmod": "2026-11-11"
   },
   "/svetki-un-tradicijas/dzimtas-valodas-diena/": {
-    "sha256": "1aa32bc1b5a235d1f34988f75302c256731100c5a8c63ff80d878c4d84d88669",
+    "sha256": "2f0aa4ca74f8225fc732676be9507dc0dca21b08f36101bf1908f554bb2d113d",
     "lastmod": "2026-11-11"
   },
   "/svetki-un-tradicijas/helovins/": {
-    "sha256": "f20050951d16c158ca01ac041d36960393c33e71cd9f812cf4a4d2f0781ad2ca",
+    "sha256": "ffbd35a55e73baa3512552156d6a5874aa6a0278e3872d553845f1cc51634617",
     "lastmod": "2026-11-11"
   },
   "/svetki-un-tradicijas/pasaules-gramatu-diena/": {
-    "sha256": "7ef6646fce7212441ed8b441157b71d0d940578487cf643dc44afbe3b5b912f5",
+    "sha256": "9d615290afd19f38e880bdf42951b1f6295efa898329e70b8c2e0f2518e282a6",
     "lastmod": "2026-11-11"
   },
   "/svetki-un-tradicijas/pasaules-vides-diena/": {
-    "sha256": "ab0f413cd994f3743aa632a0ca4a48c5fc5e380b7ae01ce9328b30590ab00e38",
+    "sha256": "ea878bd347d2b017cfa09772d9e6fb3bcc31968841c1d9f3a4e7674bcd2c6073",
     "lastmod": "2026-11-11"
   },
   "/svetki-un-tradicijas/pasaules-bernu-diena/": {
-    "sha256": "fffbd48a90c414aa3f51addbd3451e8fa51b189e6a1d9b188e3862b5d1ff8daf",
+    "sha256": "36a6c4efef9c001e5c9254465c277c4834eb636aff4b83551889c6dfd94d2b92",
     "lastmod": "2026-11-11"
   },
   "/svetki-un-tradicijas/pasaules-udens-diena/": {
-    "sha256": "e3f825f6646c5b235dba3847beb9cedff99644bdfff51002d155d0d4330b2561",
+    "sha256": "228f4dedeb6167f56b90d970ccf55132547c9c22cc453c96d0de88fdcac09ff3",
     "lastmod": "2026-11-11"
   },
   "/svetki-un-tradicijas/pasaules-dzivnieku-diena/": {
-    "sha256": "4e2330abed1c27d05035dde4d0b47bed94738d6b4649e9e4c991356284cc5b82",
+    "sha256": "6c536e3620aea6b59ed10b215969b7342db608c05d7d5a75a5f0e72742c2384a",
     "lastmod": "2026-11-11"
   },
   "/svetki-un-tradicijas/pavasara-tradicijas/": {
@@ -3488,15 +3488,15 @@
     "lastmod": "2026-11-11"
   },
   "/svetki-un-tradicijas/sveta-nikolaja-diena/": {
-    "sha256": "b4b4a38e28b5fe7f3393aa008d52fa2922d6e92fdaa7a021104a59274e78ad2d",
+    "sha256": "bf3ab54e284eca077cb17ad3e55785afbe3ab87bd7838c8d12e3a6a1aa728d12",
     "lastmod": "2026-11-11"
   },
   "/svetki-un-tradicijas/pasaules-bisu-diena/": {
-    "sha256": "d7467e87148bb4453c6fb8453a14dce570d34637ccef58993ace188fee154bdb",
+    "sha256": "dea48d766acc1a12845e6ff117114f574397e12c5f0d3c73263a34229bb0933c",
     "lastmod": "2026-11-11"
   },
   "/svetki-un-tradicijas/zemes-diena/": {
-    "sha256": "0d8352eb02debc4df846896e3a0730fd595f21be1f2fb4d2f3fb8d993a5b5915",
+    "sha256": "ea66e9cc18dd3d18c46346dd3ec34c185c94611cd84833793225aa967ee78a1a",
     "lastmod": "2026-11-11"
   }
 }

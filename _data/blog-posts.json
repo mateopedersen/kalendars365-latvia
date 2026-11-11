@@ -121,7 +121,7 @@
       "title": "Vārda dienas: kā atšķirt tradicionālo un paplašināto sarakstu",
       "category": "Svētki",
       "photoKey": "flowers",
-      "description": "Precīza vārda meklēšana, sarakstu versijas un personisks apsveikumu kalendārs bez datumu minēšanas.",
+      "description": "Precīza vārda meklēšana, sarakstu versijas un personisks apsveikumu kalendārs bez minējumiem par datumiem.",
       "related": [
         "/varda-dienas/",
         "/kalendars-ar-vardu/"
@@ -212,7 +212,7 @@
       "title": "Darba dienas un stundas: kā saprast kalendāra aprēķinu",
       "category": "Plānošana",
       "photoKey": "calculator",
-      "description": "Darba nedēļas modelis, svētku datumi, saīsinājumi un robežas, kurās kalendārs palīdz darba plānam.",
+      "description": "Darba nedēļas modelis, svētku datumi, saīsinātās darba dienas un kalendāra aprēķinu izmantošana darba plānošanā.",
       "related": [
         "/darba-dienu-kalendars/",
         "/darba-laika-kalendars/",

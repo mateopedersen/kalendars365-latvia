@@ -38,6 +38,7 @@
 {% if page.calendar_collection %}<style>{{ "calendar-collection.css" | inline_styles }}</style><script defer src="/assets/calendar-collection.js?v={{ site.data.build.asset_version }}"></script>{% endif %}
 <style>{{ "footer.css" | inline_styles }}</style>
 <style>{{ "page-reading.css" | inline_styles }}</style>
+<style>{{ "control-consistency.css" | inline_styles }}</style>
 {% if page.family == 'blog_index' or page.family == 'blog_article' or page.url == '/par-projektu/' or page.url == '/pilsetas-un-fotografijas/' %}<style>{{ "blog.css" | inline_styles }}</style>{% endif %}
 {% if page.family == 'blog_index' %}<script defer src="/assets/blog.js?v={{ site.data.build.asset_version }}"></script>{% endif %}
 {% if page.family == 'blog_article' or page.family == 'blog_index' %}<link rel="alternate" type="application/rss+xml" title="Kalendārs365 blogs" href="/blogs/feed.xml">{% endif %}
