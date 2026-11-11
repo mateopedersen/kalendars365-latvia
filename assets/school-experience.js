@@ -13,6 +13,19 @@ if(root){
   let selected=D.todayRiga();if(selected<school.start||selected>school.end)selected=school.start;
   const active=()=>year.value==='2026-27',currentGrade=()=>Number(grade.value);
   const selectedPeriods=()=>C.periods(school,currentGrade());
+  const csvButton=$(root,'[data-v2-school-csv]'),csvStatus=$(root,'[data-v2-school-status]');
+  csvButton?.addEventListener('click',()=>{
+    try{
+      if(!active())throw Error('Šim mācību gadam datumi vēl nav publicēti.');
+      const ids=new Set($$(root,'[data-school-break]').filter(card=>!card.hidden).map(card=>card.dataset.schoolBreak));
+      const periods=selectedPeriods().filter(item=>ids.has(item.id));if(!periods.length)throw Error('Atlasē nav brīvlaiku.');
+      const rows=[['Brīvlaiks','Sākums','Beigas','Kalendārās dienas','Klase','Avots'],...periods.map(item=>[item.label,item.start,item.end,D.diffDays(item.start,item.end)+1,currentGrade(),data.source.url])];
+      const cell=value=>'"'+String(value??'').replace(/^[\s]*[=+@-]/,match=>"'"+match).replaceAll('"','""')+'"';
+      const text='\ufeff'+rows.map(row=>row.map(cell).join(',')).join('\r\n'),url=URL.createObjectURL(new Blob([text],{type:'text/csv;charset=utf-8'})),link=document.createElement('a');
+      link.href=url;link.download=`skolas-brivlaiki-${currentGrade()}-klase-2026-2027.csv`;document.body.append(link);link.click();link.remove();setTimeout(()=>URL.revokeObjectURL(url),30000);
+      csvStatus.textContent=`Sagatavoto brīvlaiku periodu skaits: ${periods.length}.`;
+    }catch(error){csvStatus.textContent=error.message;}
+  });
   function calendarHTML(){
     const [y,m]=month.value.split('-').map(Number),first=`${y}-${String(m).padStart(2,'0')}-01`,offset=D.weekday(first)-1,last=new Date(Date.UTC(y,m,0)).getUTCDate();
     const cells=Array.from({length:offset},()=>'<span aria-hidden="true"></span>');

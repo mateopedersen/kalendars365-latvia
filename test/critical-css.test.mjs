@@ -1,0 +1,31 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import fs from 'node:fs';
+import vm from 'node:vm';
+import {applyCriticalCss,createCriticalProcessor} from '../tooling/critical-css/inline.mjs';
+const href='/static/css/'+'a'.repeat(24)+'.css';
+test('critical extraction preserves source order, privacy choices and all print rules',()=>{
+ const css=':root{--ink:#123}p{color:var(--ink)}.unused{color:blue}html[data-consent-saved] .consent-banner{display:none}.calendar-hidden{color:green}@media print{.not-in-dom{display:block!important}}@media(max-width:600px){p{color:purple}}';
+ const html=`<html><head><meta name="asset-version" content="test"><link rel="stylesheet" href="${href}"></head><body><p>Hello</p></body></html>`;
+ const result=applyCriticalCss(html,css,href),critical=result.html.match(/<style[^>]*>([\s\S]*?)<\/style>/)[1];
+ assert(critical.includes('--ink'));assert(!critical.includes('.unused'));assert(critical.includes('data-consent-saved'));assert(critical.includes('.calendar-hidden'));assert(critical.includes('.not-in-dom'));assert(critical.indexOf('color:var(--ink)')<critical.indexOf('color:purple'));
+ assert(result.html.includes(`href="${href}" media="print" data-critical-deferred`));assert(result.html.includes(`<noscript><link rel="stylesheet" href="${href}"></noscript>`));assert(result.html.includes('src="/assets/critical-css-loader.js?v=test"'));assert(!/\sonload=/.test(result.html));
+ assert.equal(css.includes('.unused'),true,'Original source is preserved');
+});
+test('one compiled stylesheet can safely extract different pages',()=>{
+ const css='.a{color:red}.b{color:blue}',processor=createCriticalProcessor(css,href);
+ const html=body=>`<head><meta name="asset-version" content="test"><link rel="stylesheet" href="${href}"></head><body>${body}</body>`;
+ const a=applyCriticalCss(html('<div class="a"></div>'),css,href,processor).html;
+ const b=applyCriticalCss(html('<div class="b"></div>'),css,href,processor).html;
+ assert(a.includes('.a{'));assert(!a.includes('.b{'));assert(b.includes('.b{'));assert(!b.includes('.a{'));
+});
+test('the CSP-safe loader activates cached and newly loaded CSS without a timer',async()=>{
+ const code=fs.readFileSync('assets/critical-css-loader.js','utf8');
+ for(const cached of [true,false]){
+  const listeners={},link={sheet:cached?{}:null,media:'print',dataset:{},getAttribute:()=> 'all',removeAttribute(){this.removed=true},addEventListener(k,f){listeners[k]=f}};
+  const context={window:{},document:{querySelectorAll:()=>[link]},Promise};vm.runInNewContext(code,context);
+  if(!cached){assert.equal(link.media,'print');listeners.load();}
+  await context.window.K365StylesReady;assert.equal(link.media,'all');assert(link.removed);
+ }
+ assert(!/setTimeout|requestIdleCallback/.test(code));
+});

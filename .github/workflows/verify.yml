@@ -57,7 +57,7 @@ jobs:
       - run: node test/a3-gallery.test.cjs
       - run: node test/a3-month-gallery.test.cjs
       - run: node --test test/calendar-collection.test.cjs
-      - run: node --test test/responsive-previews.test.cjs test/seo-performance.test.cjs test/style-bundles.test.cjs test/mobile-performance.test.cjs
+      - run: node --test test/responsive-previews.test.cjs test/seo-performance.test.cjs test/style-bundles.test.cjs test/mobile-performance.test.cjs test/critical-css.test.mjs
       - run: node --test test/page-reading.test.mjs
       - run: node --test test/blog.test.mjs
       - name: Verify Ruby calculations and built pages

@@ -1,16 +1,16 @@
 import {spacingPlan,reminderEvent,safeJournal,sourceMatches,isoWeekDates} from './useful-core.mjs';
 import {dateRange,csv} from './category-advanced-core.mjs';
-import {citySky,formatTime,dateKey,addDays} from './sky-core.mjs';
 const node=document.querySelector('[data-useful-config]');
 if(node){
  const config=JSON.parse(node.textContent),main=document.querySelector('main'),panel=main.querySelector('[data-useful-panel]'),$=s=>main.querySelector(s),E=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c])),C=window.CalendarCore,K=window.CategoryCore;
+ const {citySky,formatTime,dateKey,addDays}=config.kind==='city'||config.kind==='occasion'?await import('./sky-core.mjs'):{};
  const status=text=>{if($('[data-useful-status]'))$('[data-useful-status]').textContent=text;};
  const download=(text,name,type='text/plain;charset=utf-8')=>{const url=URL.createObjectURL(new Blob([text],{type})),a=document.createElement('a');a.href=url;a.download=name;a.click();setTimeout(()=>URL.revokeObjectURL(url),30000);};
  const copy=async text=>{try{await navigator.clipboard.writeText(text);status('Saite nokopēta.');return true;}catch{status(text);return false;}};
  // The navigator links actual sections, without hiding or restructuring tools.
  const outline=$('[data-useful-outline-links]'),compact=!!main.querySelector('.v2-section-nav');if(compact){outline.closest('nav').classList.add('useful-outline--compact');outline.hidden=true;outline.previousElementSibling.querySelector('strong').hidden=true;}
  let outlineId=0;const refreshOutline=()=>{if(compact)return;const seen=new Set(),headings=[...main.querySelectorAll('h2')].filter(h=>!h.closest('dialog,[hidden],.useful-outline')&&h.textContent.trim());const markup=headings.map((h,i)=>{if(!h.id){while(document.getElementById('lasa-'+outlineId))outlineId++;h.id='lasa-'+outlineId++;}const text=h.textContent.trim();if(seen.has(text))return '';seen.add(text);return `<a href="#${E(h.id)}">${E(text)}</a>`;}).join('');if(outline.innerHTML!==markup)outline.innerHTML=markup;outline.previousElementSibling.querySelector('strong').textContent=markup?'Šajā lapā':'Ātrās darbības';};refreshOutline();
- let frame=0;new MutationObserver(records=>{if(records.every(r=>r.target.closest?.('.useful-outline')))return;cancelAnimationFrame(frame);frame=requestAnimationFrame(refreshOutline);}).observe(main,{childList:true,subtree:true});
+ let frame=0;if(!compact)new MutationObserver(records=>{if(records.every(r=>r.target.closest?.('.useful-outline')))return;cancelAnimationFrame(frame);frame=requestAnimationFrame(refreshOutline);}).observe(main,{childList:true,subtree:true});
  $('[data-useful-copy-link]').addEventListener('click',async e=>{const b=e.currentTarget;if(await copy(new URL(config.url,'https://kalendars365.lv').href))b.textContent='Saite nokopēta';});
  const savedKey='k365-reading-list';let saved=[];try{const raw=JSON.parse(localStorage.getItem(savedKey)||'[]');saved=Array.isArray(raw)?raw.filter(i=>i&&typeof i.url==='string'&&i.url.startsWith('/')&&!i.url.startsWith('//')&&typeof i.title==='string').slice(-500):[];}catch{}
  const saveButton=$('[data-useful-save]');const saveState=()=>{const has=saved.some(i=>i.url===config.url);saveButton.setAttribute('aria-pressed',String(has));saveButton.textContent=has?'Saglabāts lasīšanai ✓':'Saglabāt lasīšanai';};

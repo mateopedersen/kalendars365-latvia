@@ -36,14 +36,17 @@ test('all social image dimensions match their actual bytes and blog alt text fol
   assert.equal(meta(html,'twitter:image'),image,p.url);
  }
 });
-test('every HTML page reuses a content-addressed stylesheet without garden or city overhead on articles',()=>{
+test('every page has source-bound critical CSS and reuses its full stylesheet without unrelated scripts',()=>{
  const bundles=new Map();
  for(const p of manifest){
   const html=read(physical(p.url)),head=html.split('</head>')[0];
-  assert.doesNotMatch(head,/<style(?:\s|>)/,p.url);
-  const styles=[...head.matchAll(/<link rel="stylesheet" href="([^\"]+)"/g)].map(m=>m[1]);
+  const critical=head.match(/<style data-critical-source="([^"]+)" data-critical-sha="([^"]+)">([\s\S]*?)<\/style>/);assert.ok(critical,p.url);
+  assert.equal(crypto.createHash('sha256').update(critical[3]).digest('hex'),critical[2],p.url);
+  const activeHead=head.replace(/<noscript>[\s\S]*?<\/noscript>/g,'');
+  const styles=[...activeHead.matchAll(/<link rel="stylesheet" href="([^\"]+)"/g)].map(m=>m[1]);
   assert.equal(styles.length,1,p.url);
-  const name=styles[0];assert.match(name,/^\/static\/css\/[a-f0-9]{24}\.css$/);
+  assert.ok(activeHead.includes('data-critical-deferred'),p.url);assert.ok(activeHead.includes('/assets/critical-css-loader.js?v='),p.url);
+  const name=styles[0];assert.equal(name,critical[1],p.url);assert.match(name,/^\/static\/css\/[a-f0-9]{24}\.css$/);
   if(!bundles.has(name))bundles.set(name,read('_site'+name));
   assert.ok(name.includes(crypto.createHash('sha256').update(bundles.get(name)).digest('hex').slice(0,24)),p.url);
   const city=html.includes('id="city-select"');

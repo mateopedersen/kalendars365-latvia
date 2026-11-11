@@ -4,6 +4,7 @@ export LANG=C.UTF-8
 export LC_ALL=C.UTF-8
 export RUBYOPT=-EUTF-8:UTF-8
 cd "$(dirname "${BASH_SOURCE[0]}")/.."
+npm ci --prefix tooling/critical-css --ignore-scripts --no-audit --no-fund
 source scripts/bootstrap-ruby.sh
 
 # The platform's initial Ruby only starts the build; the site uses 4.0.9.

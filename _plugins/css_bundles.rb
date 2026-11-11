@@ -3,6 +3,7 @@ require 'digest'
 require 'fileutils'
 require 'cgi'
 require 'uri'
+require 'open3'
 
 # Keep the original cascade, but let matching pages reuse one immutable stylesheet.
 module CalendarStyleBundles
@@ -70,5 +71,9 @@ if defined?(Jekyll::Hooks)
       FileUtils.mkdir_p(File.dirname(output))
       File.write(output, css, encoding: 'UTF-8')
     end
+    script = File.join(site.source, 'tooling/critical-css/inline.mjs')
+    output, error, status = Open3.capture3(ENV.fetch('NODE', 'node'), script, site.dest)
+    abort "Critical CSS build failed: #{error}" unless status.success?
+    puts output
   end
 end
