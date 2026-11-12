@@ -1,0 +1,23 @@
+[
+  {
+    "format": "pdf",
+    "bytes": 258878,
+    "sha256": "da7767fd6fae2784b8dc87e6e6cac4c97f4ab7f4e144e6c6dd7753fc3e2c63b0",
+    "expectedSha256": "da7767fd6fae2784b8dc87e6e6cac4c97f4ab7f4e144e6c6dd7753fc3e2c63b0",
+    "match": true
+  },
+  {
+    "format": "image",
+    "bytes": 242760,
+    "sha256": "2fb784775b469cd52637b38a553043f685268a5acd03f5641940316d83fa434e",
+    "expectedSha256": "2fb784775b469cd52637b38a553043f685268a5acd03f5641940316d83fa434e",
+    "match": true
+  },
+  {
+    "format": "ics",
+    "bytes": 526,
+    "sha256": "405c24479ddf3c7a1e2cca35cf315cf1721dbd402d5c345de6ebcc6c4c4da33a",
+    "expectedSha256": "405c24479ddf3c7a1e2cca35cf315cf1721dbd402d5c345de6ebcc6c4c4da33a",
+    "match": true
+  }
+]

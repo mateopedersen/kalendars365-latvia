@@ -1,0 +1,114 @@
+[
+  {
+    "profile": "desktop",
+    "url": "/",
+    "runs": 3,
+    "medianLcpMs": 184,
+    "minLcpMs": 172,
+    "maxLcpMs": 196,
+    "maxCls": 0.0009960537129468875,
+    "longTaskCounts": [
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "profile": "desktop",
+    "url": "/kalendars/2027/",
+    "runs": 3,
+    "medianLcpMs": 168,
+    "minLcpMs": 168,
+    "maxLcpMs": 236,
+    "maxCls": 0.011757651748971197,
+    "longTaskCounts": [
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "profile": "desktop",
+    "url": "/kalendars/2028/februaris/",
+    "runs": 3,
+    "medianLcpMs": 124,
+    "minLcpMs": 116,
+    "maxLcpMs": 156,
+    "maxCls": 0.011800893775720163,
+    "longTaskCounts": [
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "profile": "desktop",
+    "url": "/skolas-brivlaiki/",
+    "runs": 3,
+    "medianLcpMs": 108,
+    "minLcpMs": 100,
+    "maxLcpMs": 136,
+    "maxCls": 0.006395080398957263,
+    "longTaskCounts": [
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "profile": "mobile-lab",
+    "url": "/",
+    "runs": 3,
+    "medianLcpMs": 1932,
+    "minLcpMs": 1908,
+    "maxLcpMs": 1968,
+    "maxCls": 0,
+    "longTaskCounts": [
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "profile": "mobile-lab",
+    "url": "/kalendars/2027/",
+    "runs": 3,
+    "medianLcpMs": 1428,
+    "minLcpMs": 1424,
+    "maxLcpMs": 1488,
+    "maxCls": 0,
+    "longTaskCounts": [
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "profile": "mobile-lab",
+    "url": "/kalendars/2028/februaris/",
+    "runs": 3,
+    "medianLcpMs": 1300,
+    "minLcpMs": 1284,
+    "maxLcpMs": 1312,
+    "maxCls": 0,
+    "longTaskCounts": [
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "profile": "mobile-lab",
+    "url": "/skolas-brivlaiki/",
+    "runs": 3,
+    "medianLcpMs": 1476,
+    "minLcpMs": 1464,
+    "maxLcpMs": 1480,
+    "maxCls": 0,
+    "longTaskCounts": [
+      1,
+      0,
+      0
+    ]
+  }
+]

@@ -8,8 +8,8 @@ const indexed = new Set(manifest.filter(row=>row.indexable).map(row=>row.url));
 const months=['janvaris','februaris','marts','aprilis','maijs','junijs','julijs','augusts','septembris','oktobris','novembris','decembris'];
 const htmlFor = url => fs.readFileSync((process.env.K365_SITE || '_site') + (url.endsWith('/') ? url+'index.html' : url), 'utf8');
 
-test('all 900 routes have acyclic, canonical breadcrumb identities and valid contextual destinations', () => {
-  assert.equal(Object.keys(catalog).length, 900);
+test('all content and error routes have acyclic, canonical breadcrumbs and valid contextual destinations', () => {
+  assert.equal(Object.keys(catalog).length, manifest.length+2);
   for (const [url, page] of Object.entries(catalog)) {
     assert.equal(page.breadcrumbs[0].url, '/');
     assert.equal(page.breadcrumbs.at(-1).url, url);
@@ -88,7 +88,7 @@ test('rendered breadcrumbs and BreadcrumbList schema describe the same full hier
   for(const [url,page] of Object.entries(catalog)){
     if(url==='/')continue;
     const html=htmlFor(url);
-    const json=[...html.matchAll(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/g)].map(m=>JSON.parse(m[1]));
+    const json=[...html.matchAll(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/g)].flatMap(m=>{const value=JSON.parse(m[1]);return value['@graph']||[value];});
     const crumbs=json.find(item=>item['@type']==='BreadcrumbList');
     assert(crumbs,url);
     assert.deepEqual(crumbs.itemListElement.map(item=>item.name),page.breadcrumbs.map(item=>item.title),url);
@@ -104,7 +104,10 @@ test('rendered breadcrumbs and BreadcrumbList schema describe the same full hier
 test('all generated pages keep the intended indexability and have crawlable contextual links', () => {
   for(const [url,page] of Object.entries(catalog)){
     const html=htmlFor(url);
-    assert.equal(/name="robots" content="index,follow"/.test(html),indexed.has(url),url);
+    const robots=html.match(/name="robots" content="([^"]+)"/)?.[1].split(',').map(value=>value.trim());
+    assert.equal(robots.includes('index'),indexed.has(url),url);
+    assert.equal(robots.includes('noindex'),!indexed.has(url),url);
+    assert(robots.includes('follow'),url);
     assert(!/<nav class="related-links"/.test(html),url);
     if(page.show){
       assert.equal((html.match(/data-internal-navigation/g)||[]).length,1,url);
@@ -118,4 +121,12 @@ test('known fragment targets exist in the initial HTML, including the four seaso
   for(const key of ['spring','summer','autumn','winter'])assert(seasons.includes(`id="season-${key}"`));
   assert(htmlFor('/studiju-kalendars/').includes('id="augstskolas"'));
   assert(!htmlFor('/pilsetas-un-fotografijas/').includes('/studiju-kalendars/#university-directory'));
+});
+
+test('information pages recommend their policies and help without unrelated blog promotions',()=>{
+ for(const url of ['/privatuma-politika/','/sikdatnu-politika/','/par-projektu/','/biezak-uzdotie-jautajumi/','/pieklustamiba/','/kontakti/']){
+  assert.equal(catalog[url].heading,'Saistītā informācija');
+  assert.deepEqual(catalog[url].reading,[]);
+  assert(catalog[url].related.length>0);
+ }
 });

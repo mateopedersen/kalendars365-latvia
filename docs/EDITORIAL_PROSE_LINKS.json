@@ -2,28 +2,8 @@
   "schemaVersion": 1,
   "scope": "Inline links within explanatory paragraphs, excluding navigation and recommendations",
   "linkedPages": 826,
-  "linkOccurrences": 2018,
+  "linkOccurrences": 2016,
   "pages": {
-    "/": {
-      "family": "hub",
-      "links": [
-        {
-          "paragraph": 1,
-          "text": "Latvijas svētku dienas",
-          "url": "/svetku-dienas/"
-        },
-        {
-          "paragraph": 1,
-          "text": "vārda dienas",
-          "url": "/varda-dienas/"
-        },
-        {
-          "paragraph": 2,
-          "text": "izveido savu",
-          "url": "/izveidot-kalendaru/"
-        }
-      ]
-    },
     "/astronomiskais-kalendars/": {
       "family": "hub",
       "links": [
@@ -12304,6 +12284,21 @@
         }
       ]
     },
+    "/svetki-un-tradicijas/dzimtas-valodas-diena/": {
+      "family": "latvia_cultural",
+      "links": [
+        {
+          "paragraph": 1,
+          "text": "darba brīvdienu Latvijā",
+          "url": "/svetku-dienas/"
+        },
+        {
+          "paragraph": 2,
+          "text": "Kalendāra piezīmē",
+          "url": "/dienas-kalendars/"
+        }
+      ]
+    },
     "/svetki-un-tradicijas/ebreju-tautas-genocida-upuru-pieminas-diena/": {
       "family": "occasion",
       "links": [
@@ -12320,6 +12315,51 @@
         {
           "paragraph": 2,
           "text": "sākuma laiku",
+          "url": "/dienas-kalendars/"
+        }
+      ]
+    },
+    "/svetki-un-tradicijas/eiropas-valodu-diena/": {
+      "family": "latvia_cultural",
+      "links": [
+        {
+          "paragraph": 1,
+          "text": "darba brīvdienu Latvijā",
+          "url": "/svetku-dienas/"
+        },
+        {
+          "paragraph": 2,
+          "text": "Kalendāra piezīmē",
+          "url": "/dienas-kalendars/"
+        }
+      ]
+    },
+    "/svetki-un-tradicijas/helovins/": {
+      "family": "latvia_cultural",
+      "links": [
+        {
+          "paragraph": 1,
+          "text": "darba brīvdienu Latvijā",
+          "url": "/svetku-dienas/"
+        },
+        {
+          "paragraph": 2,
+          "text": "Kalendāra piezīmē",
+          "url": "/dienas-kalendars/"
+        }
+      ]
+    },
+    "/svetki-un-tradicijas/holokausta-upuru-pieminas-diena/": {
+      "family": "latvia_cultural",
+      "links": [
+        {
+          "paragraph": 1,
+          "text": "darba brīvdienu Latvijā",
+          "url": "/svetku-dienas/"
+        },
+        {
+          "paragraph": 2,
+          "text": "Kalendāra piezīmē",
           "url": "/dienas-kalendars/"
         }
       ]
@@ -12674,6 +12714,96 @@
         }
       ]
     },
+    "/svetki-un-tradicijas/pasaules-bernu-diena/": {
+      "family": "latvia_cultural",
+      "links": [
+        {
+          "paragraph": 1,
+          "text": "darba brīvdienu Latvijā",
+          "url": "/svetku-dienas/"
+        },
+        {
+          "paragraph": 2,
+          "text": "Kalendāra piezīmē",
+          "url": "/dienas-kalendars/"
+        }
+      ]
+    },
+    "/svetki-un-tradicijas/pasaules-bisu-diena/": {
+      "family": "latvia_cultural",
+      "links": [
+        {
+          "paragraph": 1,
+          "text": "darba brīvdienu Latvijā",
+          "url": "/svetku-dienas/"
+        },
+        {
+          "paragraph": 2,
+          "text": "Kalendāra piezīmē",
+          "url": "/dienas-kalendars/"
+        }
+      ]
+    },
+    "/svetki-un-tradicijas/pasaules-dzivnieku-diena/": {
+      "family": "latvia_cultural",
+      "links": [
+        {
+          "paragraph": 1,
+          "text": "darba brīvdienu Latvijā",
+          "url": "/svetku-dienas/"
+        },
+        {
+          "paragraph": 2,
+          "text": "Kalendāra piezīmē",
+          "url": "/dienas-kalendars/"
+        }
+      ]
+    },
+    "/svetki-un-tradicijas/pasaules-gramatu-diena/": {
+      "family": "latvia_cultural",
+      "links": [
+        {
+          "paragraph": 1,
+          "text": "darba brīvdienu Latvijā",
+          "url": "/svetku-dienas/"
+        },
+        {
+          "paragraph": 2,
+          "text": "Kalendāra piezīmē",
+          "url": "/dienas-kalendars/"
+        }
+      ]
+    },
+    "/svetki-un-tradicijas/pasaules-udens-diena/": {
+      "family": "latvia_cultural",
+      "links": [
+        {
+          "paragraph": 1,
+          "text": "darba brīvdienu Latvijā",
+          "url": "/svetku-dienas/"
+        },
+        {
+          "paragraph": 2,
+          "text": "Kalendāra piezīmē",
+          "url": "/dienas-kalendars/"
+        }
+      ]
+    },
+    "/svetki-un-tradicijas/pasaules-vides-diena/": {
+      "family": "latvia_cultural",
+      "links": [
+        {
+          "paragraph": 1,
+          "text": "darba brīvdienu Latvijā",
+          "url": "/svetku-dienas/"
+        },
+        {
+          "paragraph": 2,
+          "text": "Kalendāra piezīmē",
+          "url": "/dienas-kalendars/"
+        }
+      ]
+    },
     "/svetki-un-tradicijas/pavasara-ekvinokcija/": {
       "family": "latvia_cultural",
       "links": [
@@ -12682,6 +12812,16 @@
           "text": "darba brīvdienu Latvijā",
           "url": "/svetku-dienas/"
         },
+        {
+          "paragraph": 2,
+          "text": "Kalendāra piezīmē",
+          "url": "/dienas-kalendars/"
+        }
+      ]
+    },
+    "/svetki-un-tradicijas/pavasara-tradicijas/": {
+      "family": "latvia_cultural",
+      "links": [
         {
           "paragraph": 2,
           "text": "Kalendāra piezīmē",
@@ -12809,6 +12949,21 @@
         }
       ]
     },
+    "/svetki-un-tradicijas/sveta-nikolaja-diena/": {
+      "family": "latvia_cultural",
+      "links": [
+        {
+          "paragraph": 1,
+          "text": "darba brīvdienu Latvijā",
+          "url": "/svetku-dienas/"
+        },
+        {
+          "paragraph": 2,
+          "text": "Kalendāra piezīmē",
+          "url": "/dienas-kalendars/"
+        }
+      ]
+    },
     "/svetki-un-tradicijas/tevu-diena/": {
       "family": "occasion",
       "links": [
@@ -12825,6 +12980,21 @@
         {
           "paragraph": 2,
           "text": "sākuma laiku",
+          "url": "/dienas-kalendars/"
+        }
+      ]
+    },
+    "/svetki-un-tradicijas/totalitaro-rezimu-upuru-pieminas-diena/": {
+      "family": "latvia_cultural",
+      "links": [
+        {
+          "paragraph": 1,
+          "text": "darba brīvdienu Latvijā",
+          "url": "/svetku-dienas/"
+        },
+        {
+          "paragraph": 2,
+          "text": "Kalendāra piezīmē",
           "url": "/dienas-kalendars/"
         }
       ]
@@ -12910,6 +13080,21 @@
         {
           "paragraph": 2,
           "text": "sākuma laiku",
+          "url": "/dienas-kalendars/"
+        }
+      ]
+    },
+    "/svetki-un-tradicijas/zemes-diena/": {
+      "family": "latvia_cultural",
+      "links": [
+        {
+          "paragraph": 1,
+          "text": "darba brīvdienu Latvijā",
+          "url": "/svetku-dienas/"
+        },
+        {
+          "paragraph": 2,
+          "text": "Kalendāra piezīmē",
           "url": "/dienas-kalendars/"
         }
       ]
@@ -14019,208 +14204,13 @@
         }
       ]
     },
-    "/svetki-un-tradicijas/holokausta-upuru-pieminas-diena/": {
-      "family": "latvia_cultural",
+    "/nedelas-kalendars/2031/01/": {
+      "family": "iso_week",
       "links": [
         {
           "paragraph": 1,
-          "text": "darba brīvdienu Latvijā",
-          "url": "/svetku-dienas/"
-        },
-        {
-          "paragraph": 2,
-          "text": "Kalendāra piezīmē",
-          "url": "/dienas-kalendars/"
-        }
-      ]
-    },
-    "/svetki-un-tradicijas/eiropas-valodu-diena/": {
-      "family": "latvia_cultural",
-      "links": [
-        {
-          "paragraph": 1,
-          "text": "darba brīvdienu Latvijā",
-          "url": "/svetku-dienas/"
-        },
-        {
-          "paragraph": 2,
-          "text": "Kalendāra piezīmē",
-          "url": "/dienas-kalendars/"
-        }
-      ]
-    },
-    "/svetki-un-tradicijas/totalitaro-rezimu-upuru-pieminas-diena/": {
-      "family": "latvia_cultural",
-      "links": [
-        {
-          "paragraph": 1,
-          "text": "darba brīvdienu Latvijā",
-          "url": "/svetku-dienas/"
-        },
-        {
-          "paragraph": 2,
-          "text": "Kalendāra piezīmē",
-          "url": "/dienas-kalendars/"
-        }
-      ]
-    },
-    "/svetki-un-tradicijas/dzimtas-valodas-diena/": {
-      "family": "latvia_cultural",
-      "links": [
-        {
-          "paragraph": 1,
-          "text": "darba brīvdienu Latvijā",
-          "url": "/svetku-dienas/"
-        },
-        {
-          "paragraph": 2,
-          "text": "Kalendāra piezīmē",
-          "url": "/dienas-kalendars/"
-        }
-      ]
-    },
-    "/svetki-un-tradicijas/helovins/": {
-      "family": "latvia_cultural",
-      "links": [
-        {
-          "paragraph": 1,
-          "text": "darba brīvdienu Latvijā",
-          "url": "/svetku-dienas/"
-        },
-        {
-          "paragraph": 2,
-          "text": "Kalendāra piezīmē",
-          "url": "/dienas-kalendars/"
-        }
-      ]
-    },
-    "/svetki-un-tradicijas/pasaules-gramatu-diena/": {
-      "family": "latvia_cultural",
-      "links": [
-        {
-          "paragraph": 1,
-          "text": "darba brīvdienu Latvijā",
-          "url": "/svetku-dienas/"
-        },
-        {
-          "paragraph": 2,
-          "text": "Kalendāra piezīmē",
-          "url": "/dienas-kalendars/"
-        }
-      ]
-    },
-    "/svetki-un-tradicijas/pasaules-vides-diena/": {
-      "family": "latvia_cultural",
-      "links": [
-        {
-          "paragraph": 1,
-          "text": "darba brīvdienu Latvijā",
-          "url": "/svetku-dienas/"
-        },
-        {
-          "paragraph": 2,
-          "text": "Kalendāra piezīmē",
-          "url": "/dienas-kalendars/"
-        }
-      ]
-    },
-    "/svetki-un-tradicijas/pasaules-bernu-diena/": {
-      "family": "latvia_cultural",
-      "links": [
-        {
-          "paragraph": 1,
-          "text": "darba brīvdienu Latvijā",
-          "url": "/svetku-dienas/"
-        },
-        {
-          "paragraph": 2,
-          "text": "Kalendāra piezīmē",
-          "url": "/dienas-kalendars/"
-        }
-      ]
-    },
-    "/svetki-un-tradicijas/pasaules-udens-diena/": {
-      "family": "latvia_cultural",
-      "links": [
-        {
-          "paragraph": 1,
-          "text": "darba brīvdienu Latvijā",
-          "url": "/svetku-dienas/"
-        },
-        {
-          "paragraph": 2,
-          "text": "Kalendāra piezīmē",
-          "url": "/dienas-kalendars/"
-        }
-      ]
-    },
-    "/svetki-un-tradicijas/pasaules-dzivnieku-diena/": {
-      "family": "latvia_cultural",
-      "links": [
-        {
-          "paragraph": 1,
-          "text": "darba brīvdienu Latvijā",
-          "url": "/svetku-dienas/"
-        },
-        {
-          "paragraph": 2,
-          "text": "Kalendāra piezīmē",
-          "url": "/dienas-kalendars/"
-        }
-      ]
-    },
-    "/svetki-un-tradicijas/pavasara-tradicijas/": {
-      "family": "latvia_cultural",
-      "links": [
-        {
-          "paragraph": 2,
-          "text": "Kalendāra piezīmē",
-          "url": "/dienas-kalendars/"
-        }
-      ]
-    },
-    "/svetki-un-tradicijas/sveta-nikolaja-diena/": {
-      "family": "latvia_cultural",
-      "links": [
-        {
-          "paragraph": 1,
-          "text": "darba brīvdienu Latvijā",
-          "url": "/svetku-dienas/"
-        },
-        {
-          "paragraph": 2,
-          "text": "Kalendāra piezīmē",
-          "url": "/dienas-kalendars/"
-        }
-      ]
-    },
-    "/svetki-un-tradicijas/pasaules-bisu-diena/": {
-      "family": "latvia_cultural",
-      "links": [
-        {
-          "paragraph": 1,
-          "text": "darba brīvdienu Latvijā",
-          "url": "/svetku-dienas/"
-        },
-        {
-          "paragraph": 2,
-          "text": "Kalendāra piezīmē",
-          "url": "/dienas-kalendars/"
-        }
-      ]
-    },
-    "/svetki-un-tradicijas/zemes-diena/": {
-      "family": "latvia_cultural",
-      "links": [
-        {
-          "paragraph": 1,
-          "text": "darba brīvdienu Latvijā",
-          "url": "/svetku-dienas/"
-        },
-        {
-          "paragraph": 2,
-          "text": "Kalendāra piezīmē",
-          "url": "/dienas-kalendars/"
+          "text": "nedēļu numerācijas kārtību",
+          "url": "/blogs/iso-nedelu-numuri-kalendara/"
         }
       ]
     }

@@ -1,109 +1,627 @@
 {
   "principle": "Link by task, topic, period and place. Keep one canonical URL per page; never add links solely to increase counts.",
   "parents": {
-    "/kalendars/": "/", "/visi-riki/": "/", "/svetku-dienas/": "/", "/svetki-un-tradicijas/": "/", "/varda-dienas/": "/", "/skolas-brivlaiki/": "/", "/saullekts-saulriets/": "/", "/meness-kalendars/": "/", "/astronomiskais-kalendars/": "/", "/sejas-kalendars/": "/", "/horoskops/": "/", "/blogs/": "/", "/par-projektu/": "/",
-    "/menesa-kalendars/": "/kalendars/", "/nedelas-kalendars/": "/kalendars/", "/nedelu-numuri/": "/kalendars/", "/pdf-kalendari/": "/kalendars/", "/tukss-kalendars/": "/kalendars/", "/izveidot-kalendaru/": "/kalendars/", "/kalendars-ar-vardu/": "/kalendars/", "/gada-diena/": "/kalendars/", "/garais-gads/": "/kalendars/",
-    "/darba-dienu-kalendars/": "/visi-riki/", "/darba-laika-kalendars/": "/darba-dienu-kalendars/", "/datumu-kalkulators/": "/visi-riki/", "/dienu-skaititajs/": "/datumu-kalkulators/", "/dienas-kalendars/": "/kalendars/", "/dienas-planotajs/": "/visi-riki/", "/gimenes-kalendars/": "/visi-riki/", "/atvalinajuma-planotajs/": "/visi-riki/", "/mainu-grafiks/": "/darba-dienu-kalendars/", "/dzimsanas-dienu-kalendars/": "/izveidot-kalendaru/", "/pabalstu-izmaksas/": "/visi-riki/", "/pensiju-izmaksas/": "/visi-riki/",
-    "/atceres-dienas/": "/svetku-dienas/", "/nozimigas-dienas/": "/svetki-un-tradicijas/", "/garas-brivdienas/": "/svetku-dienas/",
-    "/skolas-kalendars/": "/skolas-brivlaiki/", "/studiju-kalendars/": "/skolas-brivlaiki/", "/stundu-saraksts/": "/skolas-brivlaiki/", "/valsts-parbaudes-darbi/": "/skolas-brivlaiki/",
-    "/meness-fazes/": "/meness-kalendars/", "/meness-lekts-un-riets/": "/meness-kalendars/", "/jaunmeness/": "/meness-fazes/", "/pilnmeness/": "/meness-fazes/", "/meness-aptumsums/": "/astronomiskais-kalendars/", "/saules-aptumsums/": "/astronomiskais-kalendars/", "/perseidas/": "/astronomiskais-kalendars/", "/gadalaiki/": "/astronomiskais-kalendars/", "/pulkstena-pargriesana/": "/astronomiskais-kalendars/", "/dienas-garums/": "/saullekts-saulriets/",
-    "/zodiaka-zimes/": "/horoskops/", "/horoskopa-zimes-kalkulators/": "/horoskops/",
-    "/kontakti/": "/par-projektu/", "/labojumi/": "/par-projektu/", "/avoti-un-metodika/": "/par-projektu/", "/redakcijas-politika/": "/par-projektu/", "/privatuma-politika/": "/par-projektu/", "/sikdatnu-politika/": "/privatuma-politika/", "/pieklustamiba/": "/par-projektu/", "/lietošanas-noteikumi/": "/par-projektu/", "/pilsetas-un-fotografijas/": "/par-projektu/", "/meklesana/": "/visi-riki/"
+    "/kalendars/": "/",
+    "/visi-riki/": "/",
+    "/svetku-dienas/": "/",
+    "/svetki-un-tradicijas/": "/",
+    "/varda-dienas/": "/",
+    "/skolas-brivlaiki/": "/",
+    "/saullekts-saulriets/": "/",
+    "/meness-kalendars/": "/",
+    "/astronomiskais-kalendars/": "/",
+    "/sejas-kalendars/": "/",
+    "/horoskops/": "/",
+    "/blogs/": "/",
+    "/par-projektu/": "/",
+    "/menesa-kalendars/": "/kalendars/",
+    "/nedelas-kalendars/": "/kalendars/",
+    "/nedelu-numuri/": "/kalendars/",
+    "/pdf-kalendari/": "/kalendars/",
+    "/tukss-kalendars/": "/kalendars/",
+    "/izveidot-kalendaru/": "/kalendars/",
+    "/kalendars-ar-vardu/": "/kalendars/",
+    "/gada-diena/": "/kalendars/",
+    "/garais-gads/": "/kalendars/",
+    "/darba-dienu-kalendars/": "/visi-riki/",
+    "/darba-laika-kalendars/": "/darba-dienu-kalendars/",
+    "/datumu-kalkulators/": "/visi-riki/",
+    "/dienu-skaititajs/": "/datumu-kalkulators/",
+    "/dienas-kalendars/": "/kalendars/",
+    "/dienas-planotajs/": "/visi-riki/",
+    "/gimenes-kalendars/": "/visi-riki/",
+    "/atvalinajuma-planotajs/": "/visi-riki/",
+    "/mainu-grafiks/": "/darba-dienu-kalendars/",
+    "/dzimsanas-dienu-kalendars/": "/izveidot-kalendaru/",
+    "/pabalstu-izmaksas/": "/visi-riki/",
+    "/pensiju-izmaksas/": "/visi-riki/",
+    "/atceres-dienas/": "/svetku-dienas/",
+    "/nozimigas-dienas/": "/svetki-un-tradicijas/",
+    "/garas-brivdienas/": "/svetku-dienas/",
+    "/skolas-kalendars/": "/skolas-brivlaiki/",
+    "/studiju-kalendars/": "/skolas-brivlaiki/",
+    "/stundu-saraksts/": "/skolas-brivlaiki/",
+    "/valsts-parbaudes-darbi/": "/skolas-brivlaiki/",
+    "/meness-fazes/": "/meness-kalendars/",
+    "/meness-lekts-un-riets/": "/meness-kalendars/",
+    "/jaunmeness/": "/meness-fazes/",
+    "/pilnmeness/": "/meness-fazes/",
+    "/meness-aptumsums/": "/astronomiskais-kalendars/",
+    "/saules-aptumsums/": "/astronomiskais-kalendars/",
+    "/perseidas/": "/astronomiskais-kalendars/",
+    "/gadalaiki/": "/astronomiskais-kalendars/",
+    "/pulkstena-pargriesana/": "/astronomiskais-kalendars/",
+    "/dienas-garums/": "/saullekts-saulriets/",
+    "/zodiaka-zimes/": "/horoskops/",
+    "/horoskopa-zimes-kalkulators/": "/horoskops/",
+    "/kontakti/": "/par-projektu/",
+    "/labojumi/": "/par-projektu/",
+    "/avoti-un-metodika/": "/par-projektu/",
+    "/redakcijas-politika/": "/par-projektu/",
+    "/privatuma-politika/": "/par-projektu/",
+    "/sikdatnu-politika/": "/privatuma-politika/",
+    "/pieklustamiba/": "/par-projektu/",
+    "/lietošanas-noteikumi/": "/par-projektu/",
+    "/pilsetas-un-fotografijas/": "/par-projektu/",
+    "/meklesana/": "/visi-riki/",
+    "/biezak-uzdotie-jautajumi/": "/"
   },
   "labels": {
-    "/": "Sākums", "/kalendars/": "Gada kalendāri", "/menesa-kalendars/": "Mēneša kalendāri", "/nedelas-kalendars/": "Nedēļas kalendāri", "/nedelu-numuri/": "ISO nedēļu numuri", "/pdf-kalendari/": "PDF kalendāri drukāšanai", "/izveidot-kalendaru/": "Kalendāra veidotājs", "/tukss-kalendars/": "Tukšs kalendārs", "/kalendars-ar-vardu/": "Kalendārs ar vārdu", "/dienas-kalendars/": "Dienas kalendārs", "/dienas-planotajs/": "Dienas plānotājs", "/dzimsanas-dienu-kalendars/": "Dzimšanas dienu kalendārs", "/gimenes-kalendars/": "Ģimenes kalendārs", "/atvalinajuma-planotajs/": "Atvaļinājuma plānotājs", "/mainu-grafiks/": "Maiņu grafiks", "/datumu-kalkulators/": "Datumu kalkulators", "/dienu-skaititajs/": "Dienu skaitītājs", "/gada-diena/": "Gada dienas numurs", "/garais-gads/": "Garais gads un 29. februāris", "/darba-dienu-kalendars/": "Darba dienu kalendārs", "/darba-laika-kalendars/": "Darba laika aprēķins", "/svetku-dienas/": "Latvijas svētku dienas", "/atceres-dienas/": "Atceres un atzīmējamās dienas", "/nozimigas-dienas/": "Nozīmīgas dienas", "/svetki-un-tradicijas/": "Svētki un tradīcijas", "/garas-brivdienas/": "Garās brīvdienas", "/varda-dienas/": "Vārda dienas", "/skolas-brivlaiki/": "Skolas brīvlaiki", "/skolas-kalendars/": "Skolas kalendārs", "/studiju-kalendars/": "Studiju kalendāri", "/stundu-saraksts/": "Stundu saraksts", "/valsts-parbaudes-darbi/": "Valsts pārbaudes darbi", "/saullekts-saulriets/": "Saullēkts un saulriets", "/dienas-garums/": "Dienas garums", "/meness-kalendars/": "Mēness kalendārs", "/meness-fazes/": "Mēness fāzes", "/meness-lekts-un-riets/": "Mēness lēkts un riets", "/jaunmeness/": "Jaunmēness datumi", "/pilnmeness/": "Pilnmēness datumi", "/astronomiskais-kalendars/": "Astronomiskais kalendārs", "/saules-aptumsums/": "Saules aptumsumi", "/meness-aptumsums/": "Mēness aptumsumi", "/perseidas/": "Perseīdu novērošana", "/gadalaiki/": "Gadalaiku sākums", "/pulkstena-pargriesana/": "Pulksteņa pagriešana", "/sejas-kalendars/": "Sējas un stādīšanas kalendārs", "/horoskops/": "Dienas horoskops", "/zodiaka-zimes/": "Zodiaka zīmes", "/horoskopa-zimes-kalkulators/": "Ascendenta un zodiaka kalkulators", "/pabalstu-izmaksas/": "Pabalstu izmaksu datumi", "/pensiju-izmaksas/": "Pensiju izmaksu datumi", "/visi-riki/": "Visi plānošanas rīki", "/blogs/": "Kalendāra blogs", "/par-projektu/": "Par projektu", "/avoti-un-metodika/": "Avoti un metodika", "/redakcijas-politika/": "Redakcijas politika", "/kontakti/": "Sazinies ar mums", "/labojumi/": "Ziņot par kļūdu", "/privatuma-politika/": "Privātuma politika", "/sikdatnu-politika/": "Sīkdatnes un vietējā krātuve", "/pieklustamiba/": "Piekļūstamība", "/lietošanas-noteikumi/": "Lietošanas noteikumi", "/pilsetas-un-fotografijas/": "Fotogrāfijas un licences", "/meklesana/": "Meklēšana"
+    "/": "Sākums",
+    "/kalendars/": "Gada kalendāri",
+    "/menesa-kalendars/": "Mēneša kalendāri",
+    "/nedelas-kalendars/": "Nedēļas kalendāri",
+    "/nedelu-numuri/": "ISO nedēļu numuri",
+    "/pdf-kalendari/": "PDF kalendāri drukāšanai",
+    "/izveidot-kalendaru/": "Kalendāra veidotājs",
+    "/tukss-kalendars/": "Tukšs kalendārs",
+    "/kalendars-ar-vardu/": "Kalendārs ar vārdu",
+    "/dienas-kalendars/": "Dienas kalendārs",
+    "/dienas-planotajs/": "Dienas plānotājs",
+    "/dzimsanas-dienu-kalendars/": "Dzimšanas dienu kalendārs",
+    "/gimenes-kalendars/": "Ģimenes kalendārs",
+    "/atvalinajuma-planotajs/": "Atvaļinājuma plānotājs",
+    "/mainu-grafiks/": "Maiņu grafiks",
+    "/datumu-kalkulators/": "Datumu kalkulators",
+    "/dienu-skaititajs/": "Dienu skaitītājs",
+    "/gada-diena/": "Gada dienas numurs",
+    "/garais-gads/": "Garais gads un 29. februāris",
+    "/darba-dienu-kalendars/": "Darba dienu kalendārs",
+    "/darba-laika-kalendars/": "Darba laika aprēķins",
+    "/svetku-dienas/": "Latvijas svētku dienas",
+    "/atceres-dienas/": "Atceres un atzīmējamās dienas",
+    "/nozimigas-dienas/": "Nozīmīgas dienas",
+    "/svetki-un-tradicijas/": "Svētki un tradīcijas",
+    "/garas-brivdienas/": "Garās brīvdienas",
+    "/varda-dienas/": "Vārda dienas",
+    "/skolas-brivlaiki/": "Skolas brīvlaiki",
+    "/skolas-kalendars/": "Skolas kalendārs",
+    "/studiju-kalendars/": "Studiju kalendāri",
+    "/stundu-saraksts/": "Stundu saraksts",
+    "/valsts-parbaudes-darbi/": "Valsts pārbaudes darbi",
+    "/saullekts-saulriets/": "Saullēkts un saulriets",
+    "/dienas-garums/": "Dienas garums",
+    "/meness-kalendars/": "Mēness kalendārs",
+    "/meness-fazes/": "Mēness fāzes",
+    "/meness-lekts-un-riets/": "Mēness lēkts un riets",
+    "/jaunmeness/": "Jaunmēness datumi",
+    "/pilnmeness/": "Pilnmēness datumi",
+    "/astronomiskais-kalendars/": "Astronomiskais kalendārs",
+    "/saules-aptumsums/": "Saules aptumsumi",
+    "/meness-aptumsums/": "Mēness aptumsumi",
+    "/perseidas/": "Perseīdu novērošana",
+    "/gadalaiki/": "Gadalaiku sākums",
+    "/pulkstena-pargriesana/": "Pulksteņa pagriešana",
+    "/sejas-kalendars/": "Sējas un stādīšanas kalendārs",
+    "/horoskops/": "Dienas horoskops",
+    "/zodiaka-zimes/": "Zodiaka zīmes",
+    "/horoskopa-zimes-kalkulators/": "Ascendenta un zodiaka kalkulators",
+    "/pabalstu-izmaksas/": "Pabalstu izmaksu datumi",
+    "/pensiju-izmaksas/": "Pensiju izmaksu datumi",
+    "/visi-riki/": "Visi plānošanas rīki",
+    "/blogs/": "Kalendāra blogs",
+    "/par-projektu/": "Par projektu",
+    "/avoti-un-metodika/": "Avoti un metodika",
+    "/redakcijas-politika/": "Redakcijas politika",
+    "/kontakti/": "Sazinies ar mums",
+    "/labojumi/": "Ziņot par kļūdu",
+    "/privatuma-politika/": "Privātuma politika",
+    "/sikdatnu-politika/": "Sīkdatnes un vietējā krātuve",
+    "/pieklustamiba/": "Piekļūstamība",
+    "/lietošanas-noteikumi/": "Lietošanas noteikumi",
+    "/pilsetas-un-fotografijas/": "Fotogrāfijas un licences",
+    "/meklesana/": "Meklēšana",
+    "/biezak-uzdotie-jautajumi/": "Biežāk uzdotie jautājumi"
   },
   "related": {
-    "/": ["/kalendars/", "/svetku-dienas/", "/varda-dienas/", "/visi-riki/"],
-    "/kalendars/": ["/menesa-kalendars/", "/nedelas-kalendars/", "/pdf-kalendari/", "/izveidot-kalendaru/"],
-    "/menesa-kalendars/": ["/kalendars/", "/nedelas-kalendars/", "/pdf-kalendari/", "/svetku-dienas/"],
-    "/nedelas-kalendars/": ["/nedelu-numuri/", "/gimenes-kalendars/", "/stundu-saraksts/", "/dienas-planotajs/"],
-    "/nedelu-numuri/": ["/nedelas-kalendars/", "/kalendars/", "/datumu-kalkulators/"],
-    "/pdf-kalendari/": ["/izveidot-kalendaru/", "/tukss-kalendars/", "/gimenes-kalendars/", "/stundu-saraksts/"],
-    "/izveidot-kalendaru/": ["/pdf-kalendari/", "/kalendars-ar-vardu/", "/dzimsanas-dienu-kalendars/", "/gimenes-kalendars/"],
-    "/tukss-kalendars/": ["/izveidot-kalendaru/", "/nedelas-kalendars/", "/pdf-kalendari/"],
-    "/kalendars-ar-vardu/": ["/varda-dienas/", "/izveidot-kalendaru/", "/dzimsanas-dienu-kalendars/"],
-    "/dzimsanas-dienu-kalendars/": ["/gimenes-kalendars/", "/kalendars-ar-vardu/", "/varda-dienas/"],
-    "/dienas-kalendars/": ["/dienas-planotajs/", "/menesa-kalendars/", "/varda-dienas/"],
-    "/dienas-planotajs/": ["/dienas-kalendars/", "/nedelas-kalendars/", "/gimenes-kalendars/"],
-    "/gimenes-kalendars/": ["/skolas-brivlaiki/", "/atvalinajuma-planotajs/", "/dzimsanas-dienu-kalendars/", "/nedelas-kalendars/"],
-    "/atvalinajuma-planotajs/": ["/garas-brivdienas/", "/darba-dienu-kalendars/", "/svetku-dienas/", "/gimenes-kalendars/"],
-    "/mainu-grafiks/": ["/darba-dienu-kalendars/", "/darba-laika-kalendars/", "/nedelas-kalendars/"],
-    "/darba-dienu-kalendars/": ["/darba-laika-kalendars/", "/datumu-kalkulators/", "/mainu-grafiks/", "/atvalinajuma-planotajs/"],
-    "/darba-laika-kalendars/": ["/darba-dienu-kalendars/", "/mainu-grafiks/", "/svetku-dienas/"],
-    "/datumu-kalkulators/": ["/darba-dienu-kalendars/", "/dienu-skaititajs/", "/nedelu-numuri/", "/garais-gads/"],
-    "/dienu-skaititajs/": ["/datumu-kalkulators/", "/dienas-planotajs/", "/gada-diena/"],
-    "/gada-diena/": ["/kalendars/", "/dienu-skaititajs/", "/garais-gads/"],
-    "/garais-gads/": ["/kalendars/2028/", "/kalendars/2028/februaris/", "/datumu-kalkulators/"],
-    "/svetku-dienas/": ["/atceres-dienas/", "/svetki-un-tradicijas/", "/garas-brivdienas/", "/varda-dienas/"],
-    "/atceres-dienas/": ["/svetku-dienas/", "/nozimigas-dienas/", "/svetki-un-tradicijas/"],
-    "/nozimigas-dienas/": ["/svetki-un-tradicijas/", "/atceres-dienas/", "/varda-dienas/"],
-    "/svetki-un-tradicijas/": ["/svetku-dienas/", "/atceres-dienas/", "/nozimigas-dienas/", "/garas-brivdienas/"],
-    "/garas-brivdienas/": ["/atvalinajuma-planotajs/", "/svetku-dienas/", "/darba-dienu-kalendars/"],
-    "/varda-dienas/": ["/kalendars-ar-vardu/", "/dzimsanas-dienu-kalendars/", "/gimenes-kalendars/"],
-    "/skolas-brivlaiki/": ["/skolas-kalendars/", "/studiju-kalendars/", "/stundu-saraksts/", "/valsts-parbaudes-darbi/"],
-    "/skolas-kalendars/": ["/skolas-brivlaiki/", "/valsts-parbaudes-darbi/", "/stundu-saraksts/", "/gimenes-kalendars/"],
-    "/studiju-kalendars/": ["/skolas-brivlaiki/", "/stundu-saraksts/", "/dienas-planotajs/"],
-    "/stundu-saraksts/": ["/skolas-kalendars/", "/skolas-brivlaiki/", "/nedelas-kalendars/"],
-    "/valsts-parbaudes-darbi/": ["/skolas-kalendars/", "/skolas-brivlaiki/", "/dienu-skaititajs/"],
-    "/saullekts-saulriets/": ["/dienas-garums/", "/gadalaiki/", "/meness-lekts-un-riets/", "/astronomiskais-kalendars/"],
-    "/dienas-garums/": ["/saullekts-saulriets/", "/gadalaiki/", "/pulkstena-pargriesana/"],
-    "/meness-kalendars/": ["/meness-fazes/", "/meness-lekts-un-riets/", "/pilnmeness/", "/jaunmeness/"],
-    "/meness-fazes/": ["/meness-kalendars/", "/pilnmeness/", "/jaunmeness/", "/meness-lekts-un-riets/"],
-    "/meness-lekts-un-riets/": ["/meness-kalendars/", "/meness-fazes/", "/saullekts-saulriets/"],
-    "/pilnmeness/": ["/meness-fazes/", "/meness-kalendars/", "/meness-aptumsums/"],
-    "/jaunmeness/": ["/meness-fazes/", "/meness-kalendars/", "/saules-aptumsums/"],
-    "/astronomiskais-kalendars/": ["/meness-kalendars/", "/gadalaiki/", "/saullekts-saulriets/", "/perseidas/"],
-    "/saules-aptumsums/": ["/astronomiskais-kalendars/", "/jaunmeness/", "/meness-aptumsums/"],
-    "/meness-aptumsums/": ["/astronomiskais-kalendars/", "/pilnmeness/", "/saules-aptumsums/"],
-    "/perseidas/": ["/astronomiskais-kalendars/", "/meness-kalendars/", "/saullekts-saulriets/"],
-    "/gadalaiki/": ["/dienas-garums/", "/saullekts-saulriets/", "/sejas-kalendars/"],
-    "/pulkstena-pargriesana/": ["/saullekts-saulriets/", "/dienas-garums/", "/datumu-kalkulators/"],
-    "/sejas-kalendars/": ["/gadalaiki/", "/saullekts-saulriets/", "/dienas-planotajs/"],
-    "/horoskops/": ["/horoskopa-zimes-kalkulators/", "/zodiaka-zimes/", "/meness-kalendars/"],
-    "/zodiaka-zimes/": ["/horoskopa-zimes-kalkulators/", "/horoskops/"],
-    "/horoskopa-zimes-kalkulators/": ["/zodiaka-zimes/", "/horoskops/", "/pulkstena-pargriesana/"],
-    "/pensiju-izmaksas/": ["/pabalstu-izmaksas/", "/dienas-planotajs/", "/kalendars/"],
-    "/pabalstu-izmaksas/": ["/pensiju-izmaksas/", "/dienas-planotajs/", "/kalendars/"],
-    "/visi-riki/": ["/datumu-kalkulators/", "/darba-dienu-kalendars/", "/dienas-planotajs/", "/izveidot-kalendaru/"],
-    "/blogs/": ["/kalendars/", "/svetku-dienas/", "/sejas-kalendars/", "/astronomiskais-kalendars/"],
-    "/par-projektu/": ["/avoti-un-metodika/", "/redakcijas-politika/", "/kontakti/", "/pieklustamiba/"],
-    "/avoti-un-metodika/": ["/redakcijas-politika/", "/labojumi/", "/par-projektu/"],
-    "/redakcijas-politika/": ["/avoti-un-metodika/", "/labojumi/", "/par-projektu/"],
-    "/kontakti/": ["/labojumi/", "/par-projektu/", "/privatuma-politika/"],
-    "/labojumi/": ["/avoti-un-metodika/", "/redakcijas-politika/", "/kontakti/"],
-    "/privatuma-politika/": ["/sikdatnu-politika/", "/lietošanas-noteikumi/", "/kontakti/"],
-    "/sikdatnu-politika/": ["/privatuma-politika/", "/lietošanas-noteikumi/"],
-    "/lietošanas-noteikumi/": ["/privatuma-politika/", "/kontakti/", "/par-projektu/"],
-    "/pieklustamiba/": ["/labojumi/", "/kontakti/", "/par-projektu/"],
-    "/pilsetas-un-fotografijas/": ["/avoti-un-metodika/", "/redakcijas-politika/", "/par-projektu/"],
-    "/meklesana/": ["/visi-riki/", "/kalendars/", "/svetku-dienas/"]
+    "/": [
+      "/kalendars/",
+      "/svetku-dienas/",
+      "/varda-dienas/",
+      "/visi-riki/"
+    ],
+    "/kalendars/": [
+      "/menesa-kalendars/",
+      "/nedelas-kalendars/",
+      "/pdf-kalendari/",
+      "/izveidot-kalendaru/"
+    ],
+    "/menesa-kalendars/": [
+      "/kalendars/",
+      "/nedelas-kalendars/",
+      "/pdf-kalendari/",
+      "/svetku-dienas/"
+    ],
+    "/nedelas-kalendars/": [
+      "/nedelu-numuri/",
+      "/gimenes-kalendars/",
+      "/stundu-saraksts/",
+      "/dienas-planotajs/"
+    ],
+    "/nedelu-numuri/": [
+      "/nedelas-kalendars/",
+      "/kalendars/",
+      "/datumu-kalkulators/"
+    ],
+    "/pdf-kalendari/": [
+      "/izveidot-kalendaru/",
+      "/tukss-kalendars/",
+      "/gimenes-kalendars/",
+      "/stundu-saraksts/"
+    ],
+    "/izveidot-kalendaru/": [
+      "/pdf-kalendari/",
+      "/kalendars-ar-vardu/",
+      "/dzimsanas-dienu-kalendars/",
+      "/gimenes-kalendars/"
+    ],
+    "/tukss-kalendars/": [
+      "/izveidot-kalendaru/",
+      "/nedelas-kalendars/",
+      "/pdf-kalendari/"
+    ],
+    "/kalendars-ar-vardu/": [
+      "/varda-dienas/",
+      "/izveidot-kalendaru/",
+      "/dzimsanas-dienu-kalendars/"
+    ],
+    "/dzimsanas-dienu-kalendars/": [
+      "/gimenes-kalendars/",
+      "/kalendars-ar-vardu/",
+      "/varda-dienas/"
+    ],
+    "/dienas-kalendars/": [
+      "/dienas-planotajs/",
+      "/menesa-kalendars/",
+      "/varda-dienas/"
+    ],
+    "/dienas-planotajs/": [
+      "/dienas-kalendars/",
+      "/nedelas-kalendars/",
+      "/gimenes-kalendars/"
+    ],
+    "/gimenes-kalendars/": [
+      "/skolas-brivlaiki/",
+      "/atvalinajuma-planotajs/",
+      "/dzimsanas-dienu-kalendars/",
+      "/nedelas-kalendars/"
+    ],
+    "/atvalinajuma-planotajs/": [
+      "/garas-brivdienas/",
+      "/darba-dienu-kalendars/",
+      "/svetku-dienas/",
+      "/gimenes-kalendars/"
+    ],
+    "/mainu-grafiks/": [
+      "/darba-dienu-kalendars/",
+      "/darba-laika-kalendars/",
+      "/nedelas-kalendars/"
+    ],
+    "/darba-dienu-kalendars/": [
+      "/darba-laika-kalendars/",
+      "/datumu-kalkulators/",
+      "/mainu-grafiks/",
+      "/atvalinajuma-planotajs/"
+    ],
+    "/darba-laika-kalendars/": [
+      "/darba-dienu-kalendars/",
+      "/mainu-grafiks/",
+      "/svetku-dienas/"
+    ],
+    "/datumu-kalkulators/": [
+      "/darba-dienu-kalendars/",
+      "/dienu-skaititajs/",
+      "/nedelu-numuri/",
+      "/garais-gads/"
+    ],
+    "/dienu-skaititajs/": [
+      "/datumu-kalkulators/",
+      "/dienas-planotajs/",
+      "/gada-diena/"
+    ],
+    "/gada-diena/": [
+      "/kalendars/",
+      "/dienu-skaititajs/",
+      "/garais-gads/"
+    ],
+    "/garais-gads/": [
+      "/kalendars/2028/",
+      "/kalendars/2028/februaris/",
+      "/datumu-kalkulators/"
+    ],
+    "/svetku-dienas/": [
+      "/atceres-dienas/",
+      "/svetki-un-tradicijas/",
+      "/garas-brivdienas/",
+      "/varda-dienas/"
+    ],
+    "/atceres-dienas/": [
+      "/svetku-dienas/",
+      "/nozimigas-dienas/",
+      "/svetki-un-tradicijas/"
+    ],
+    "/nozimigas-dienas/": [
+      "/svetki-un-tradicijas/",
+      "/atceres-dienas/",
+      "/varda-dienas/"
+    ],
+    "/svetki-un-tradicijas/": [
+      "/svetku-dienas/",
+      "/atceres-dienas/",
+      "/nozimigas-dienas/",
+      "/garas-brivdienas/"
+    ],
+    "/garas-brivdienas/": [
+      "/atvalinajuma-planotajs/",
+      "/svetku-dienas/",
+      "/darba-dienu-kalendars/"
+    ],
+    "/varda-dienas/": [
+      "/kalendars-ar-vardu/",
+      "/dzimsanas-dienu-kalendars/",
+      "/gimenes-kalendars/"
+    ],
+    "/skolas-brivlaiki/": [
+      "/skolas-kalendars/",
+      "/studiju-kalendars/",
+      "/stundu-saraksts/",
+      "/valsts-parbaudes-darbi/"
+    ],
+    "/skolas-kalendars/": [
+      "/skolas-brivlaiki/",
+      "/valsts-parbaudes-darbi/",
+      "/stundu-saraksts/",
+      "/gimenes-kalendars/"
+    ],
+    "/studiju-kalendars/": [
+      "/skolas-brivlaiki/",
+      "/stundu-saraksts/",
+      "/dienas-planotajs/"
+    ],
+    "/stundu-saraksts/": [
+      "/skolas-kalendars/",
+      "/skolas-brivlaiki/",
+      "/nedelas-kalendars/"
+    ],
+    "/valsts-parbaudes-darbi/": [
+      "/skolas-kalendars/",
+      "/skolas-brivlaiki/",
+      "/dienu-skaititajs/"
+    ],
+    "/saullekts-saulriets/": [
+      "/dienas-garums/",
+      "/gadalaiki/",
+      "/meness-lekts-un-riets/",
+      "/astronomiskais-kalendars/"
+    ],
+    "/dienas-garums/": [
+      "/saullekts-saulriets/",
+      "/gadalaiki/",
+      "/pulkstena-pargriesana/"
+    ],
+    "/meness-kalendars/": [
+      "/meness-fazes/",
+      "/meness-lekts-un-riets/",
+      "/pilnmeness/",
+      "/jaunmeness/"
+    ],
+    "/meness-fazes/": [
+      "/meness-kalendars/",
+      "/pilnmeness/",
+      "/jaunmeness/",
+      "/meness-lekts-un-riets/"
+    ],
+    "/meness-lekts-un-riets/": [
+      "/meness-kalendars/",
+      "/meness-fazes/",
+      "/saullekts-saulriets/"
+    ],
+    "/pilnmeness/": [
+      "/meness-fazes/",
+      "/meness-kalendars/",
+      "/meness-aptumsums/"
+    ],
+    "/jaunmeness/": [
+      "/meness-fazes/",
+      "/meness-kalendars/",
+      "/saules-aptumsums/"
+    ],
+    "/astronomiskais-kalendars/": [
+      "/meness-kalendars/",
+      "/gadalaiki/",
+      "/saullekts-saulriets/",
+      "/perseidas/"
+    ],
+    "/saules-aptumsums/": [
+      "/astronomiskais-kalendars/",
+      "/jaunmeness/",
+      "/meness-aptumsums/"
+    ],
+    "/meness-aptumsums/": [
+      "/astronomiskais-kalendars/",
+      "/pilnmeness/",
+      "/saules-aptumsums/"
+    ],
+    "/perseidas/": [
+      "/astronomiskais-kalendars/",
+      "/meness-kalendars/",
+      "/saullekts-saulriets/"
+    ],
+    "/gadalaiki/": [
+      "/dienas-garums/",
+      "/saullekts-saulriets/",
+      "/sejas-kalendars/"
+    ],
+    "/pulkstena-pargriesana/": [
+      "/saullekts-saulriets/",
+      "/dienas-garums/",
+      "/datumu-kalkulators/"
+    ],
+    "/sejas-kalendars/": [
+      "/gadalaiki/",
+      "/saullekts-saulriets/",
+      "/dienas-planotajs/"
+    ],
+    "/horoskops/": [
+      "/horoskopa-zimes-kalkulators/",
+      "/zodiaka-zimes/",
+      "/meness-kalendars/"
+    ],
+    "/zodiaka-zimes/": [
+      "/horoskopa-zimes-kalkulators/",
+      "/horoskops/"
+    ],
+    "/horoskopa-zimes-kalkulators/": [
+      "/zodiaka-zimes/",
+      "/horoskops/",
+      "/pulkstena-pargriesana/"
+    ],
+    "/pensiju-izmaksas/": [
+      "/pabalstu-izmaksas/",
+      "/dienas-planotajs/",
+      "/kalendars/"
+    ],
+    "/pabalstu-izmaksas/": [
+      "/pensiju-izmaksas/",
+      "/dienas-planotajs/",
+      "/kalendars/"
+    ],
+    "/visi-riki/": [
+      "/datumu-kalkulators/",
+      "/darba-dienu-kalendars/",
+      "/dienas-planotajs/",
+      "/izveidot-kalendaru/"
+    ],
+    "/blogs/": [
+      "/kalendars/",
+      "/svetku-dienas/",
+      "/sejas-kalendars/",
+      "/astronomiskais-kalendars/"
+    ],
+    "/par-projektu/": [
+      "/biezak-uzdotie-jautajumi/",
+      "/avoti-un-metodika/",
+      "/redakcijas-politika/",
+      "/kontakti/",
+      "/pieklustamiba/"
+    ],
+    "/avoti-un-metodika/": [
+      "/redakcijas-politika/",
+      "/labojumi/",
+      "/par-projektu/"
+    ],
+    "/redakcijas-politika/": [
+      "/avoti-un-metodika/",
+      "/labojumi/",
+      "/par-projektu/"
+    ],
+    "/kontakti/": [
+      "/biezak-uzdotie-jautajumi/",
+      "/labojumi/",
+      "/par-projektu/",
+      "/privatuma-politika/"
+    ],
+    "/labojumi/": [
+      "/avoti-un-metodika/",
+      "/redakcijas-politika/",
+      "/kontakti/"
+    ],
+    "/privatuma-politika/": [
+      "/biezak-uzdotie-jautajumi/",
+      "/sikdatnu-politika/",
+      "/lietošanas-noteikumi/",
+      "/kontakti/"
+    ],
+    "/sikdatnu-politika/": [
+      "/biezak-uzdotie-jautajumi/",
+      "/privatuma-politika/",
+      "/lietošanas-noteikumi/"
+    ],
+    "/lietošanas-noteikumi/": [
+      "/privatuma-politika/",
+      "/kontakti/",
+      "/par-projektu/"
+    ],
+    "/pieklustamiba/": [
+      "/biezak-uzdotie-jautajumi/",
+      "/labojumi/",
+      "/kontakti/",
+      "/par-projektu/"
+    ],
+    "/pilsetas-un-fotografijas/": [
+      "/avoti-un-metodika/",
+      "/redakcijas-politika/",
+      "/par-projektu/"
+    ],
+    "/meklesana/": [
+      "/visi-riki/",
+      "/kalendars/",
+      "/svetku-dienas/"
+    ],
+    "/biezak-uzdotie-jautajumi/": [
+      "/kontakti/",
+      "/sikdatnu-politika/",
+      "/privatuma-politika/",
+      "/pieklustamiba/",
+      "/pdf-kalendari/",
+      "/kalendars/"
+    ]
   },
   "discover": {
-    "/kalendars/": {"title": "Kalendāra datumi un aprēķini", "urls": ["/menesa-kalendars/", "/nedelas-kalendars/", "/nedelu-numuri/", "/gada-diena/", "/garais-gads/"]},
-    "/astronomiskais-kalendars/": {"title": "Debesu parādības un laika skaidrojumi", "urls": ["/saules-aptumsums/", "/meness-aptumsums/", "/perseidas/", "/jaunmeness/", "/pilnmeness/", "/pulkstena-pargriesana/"]},
-    "/visi-riki/": {"title": "Vēl noderīgi ikdienai", "urls": ["/dienas-kalendars/", "/darba-laika-kalendars/", "/dzimsanas-dienu-kalendars/", "/gada-diena/", "/garais-gads/", "/pabalstu-izmaksas/", "/pensiju-izmaksas/"]}
+    "/kalendars/": {
+      "title": "Kalendāra datumi un aprēķini",
+      "urls": [
+        "/menesa-kalendars/",
+        "/nedelas-kalendars/",
+        "/nedelu-numuri/",
+        "/gada-diena/",
+        "/garais-gads/"
+      ]
+    },
+    "/astronomiskais-kalendars/": {
+      "title": "Debesu parādības un laika skaidrojumi",
+      "urls": [
+        "/saules-aptumsums/",
+        "/meness-aptumsums/",
+        "/perseidas/",
+        "/jaunmeness/",
+        "/pilnmeness/",
+        "/pulkstena-pargriesana/"
+      ]
+    },
+    "/visi-riki/": {
+      "title": "Vēl noderīgi ikdienai",
+      "urls": [
+        "/dienas-kalendars/",
+        "/darba-laika-kalendars/",
+        "/dzimsanas-dienu-kalendars/",
+        "/gada-diena/",
+        "/garais-gads/",
+        "/pabalstu-izmaksas/",
+        "/pensiju-izmaksas/"
+      ]
+    }
   },
   "blog_related": {
-    "latvijas-svetku-dienas-2027-planosana": ["atvalinajums-2027-garas-brivdienas", "ligo-un-jani-planosana-latvija", "lieldienas-2027-datumi-un-plani"],
-    "iso-nedelu-numuri-kalendara": ["darba-dienas-un-stundas-ka-skaitit", "gimenes-kalendars-nedelas-planosana", "garais-gads-2028-februaris"],
-    "garais-gads-2028-februaris": ["iso-nedelu-numuri-kalendara", "darba-dienas-un-stundas-ka-skaitit", "personigs-kalendars-fotografijas-druka"],
-    "ligo-un-jani-planosana-latvija": ["latvijas-svetku-dienas-2027-planosana", "zelta-stunda-latvija-fotoplanosana", "atvalinajums-2027-garas-brivdienas"],
-    "lieldienas-2027-datumi-un-plani": ["latvijas-svetku-dienas-2027-planosana", "gimenes-kalendars-nedelas-planosana", "pavasara-seja-latvija-darza-plans"],
-    "varda-dienas-tradicionalais-paplasinatais-saraksts": ["gimenes-kalendars-nedelas-planosana", "personigs-kalendars-fotografijas-druka", "latvijas-svetku-dienas-2027-planosana"],
-    "skolas-brivlaiki-2027-gimenes-plans": ["gimenes-kalendars-nedelas-planosana", "studiju-kalendars-sesija-un-brivlaiks", "atvalinajums-2027-garas-brivdienas"],
-    "studiju-kalendars-sesija-un-brivlaiks": ["iso-nedelu-numuri-kalendara", "skolas-brivlaiki-2027-gimenes-plans", "darba-dienas-un-stundas-ka-skaitit"],
-    "gimenes-kalendars-nedelas-planosana": ["skolas-brivlaiki-2027-gimenes-plans", "varda-dienas-tradicionalais-paplasinatais-saraksts", "atvalinajums-2027-garas-brivdienas"],
-    "darba-dienas-un-stundas-ka-skaitit": ["iso-nedelu-numuri-kalendara", "atvalinajums-2027-garas-brivdienas", "latvijas-svetku-dienas-2027-planosana"],
-    "atvalinajums-2027-garas-brivdienas": ["darba-dienas-un-stundas-ka-skaitit", "skolas-brivlaiki-2027-gimenes-plans", "latvijas-svetku-dienas-2027-planosana"],
-    "personigs-kalendars-fotografijas-druka": ["gimenes-kalendars-nedelas-planosana", "varda-dienas-tradicionalais-paplasinatais-saraksts", "iso-nedelu-numuri-kalendara"],
-    "saullekts-saulriets-latvijas-pilsetas": ["zelta-stunda-latvija-fotoplanosana", "ziemas-dienas-garums-latvija", "meness-fazes-un-vietejais-laiks"],
-    "meness-fazes-un-vietejais-laiks": ["perseidas-latvija-noverojumu-plans", "saullekts-saulriets-latvijas-pilsetas", "zelta-stunda-latvija-fotoplanosana"],
-    "zelta-stunda-latvija-fotoplanosana": ["saullekts-saulriets-latvijas-pilsetas", "rudens-latvija-gadalaiki-un-izbraucieni", "ziemas-dienas-garums-latvija"],
-    "perseidas-latvija-noverojumu-plans": ["meness-fazes-un-vietejais-laiks", "saullekts-saulriets-latvijas-pilsetas", "zelta-stunda-latvija-fotoplanosana"],
-    "pavasara-seja-latvija-darza-plans": ["tomatu-seja-un-izstadisana-latvija", "rudens-latvija-gadalaiki-un-izbraucieni", "saullekts-saulriets-latvijas-pilsetas"],
-    "tomatu-seja-un-izstadisana-latvija": ["pavasara-seja-latvija-darza-plans", "saullekts-saulriets-latvijas-pilsetas", "gimenes-kalendars-nedelas-planosana"],
-    "rudens-latvija-gadalaiki-un-izbraucieni": ["zelta-stunda-latvija-fotoplanosana", "ziemas-dienas-garums-latvija", "pavasara-seja-latvija-darza-plans"],
-    "ziemas-dienas-garums-latvija": ["saullekts-saulriets-latvijas-pilsetas", "rudens-latvija-gadalaiki-un-izbraucieni", "zelta-stunda-latvija-fotoplanosana"]
+    "latvijas-svetku-dienas-2027-planosana": [
+      "atvalinajums-2027-garas-brivdienas",
+      "ligo-un-jani-planosana-latvija",
+      "lieldienas-2027-datumi-un-plani"
+    ],
+    "iso-nedelu-numuri-kalendara": [
+      "darba-dienas-un-stundas-ka-skaitit",
+      "gimenes-kalendars-nedelas-planosana",
+      "garais-gads-2028-februaris"
+    ],
+    "garais-gads-2028-februaris": [
+      "iso-nedelu-numuri-kalendara",
+      "darba-dienas-un-stundas-ka-skaitit",
+      "personigs-kalendars-fotografijas-druka"
+    ],
+    "ligo-un-jani-planosana-latvija": [
+      "latvijas-svetku-dienas-2027-planosana",
+      "zelta-stunda-latvija-fotoplanosana",
+      "atvalinajums-2027-garas-brivdienas"
+    ],
+    "lieldienas-2027-datumi-un-plani": [
+      "latvijas-svetku-dienas-2027-planosana",
+      "gimenes-kalendars-nedelas-planosana",
+      "pavasara-seja-latvija-darza-plans"
+    ],
+    "varda-dienas-tradicionalais-paplasinatais-saraksts": [
+      "gimenes-kalendars-nedelas-planosana",
+      "personigs-kalendars-fotografijas-druka",
+      "latvijas-svetku-dienas-2027-planosana"
+    ],
+    "skolas-brivlaiki-2027-gimenes-plans": [
+      "gimenes-kalendars-nedelas-planosana",
+      "studiju-kalendars-sesija-un-brivlaiks",
+      "atvalinajums-2027-garas-brivdienas"
+    ],
+    "studiju-kalendars-sesija-un-brivlaiks": [
+      "iso-nedelu-numuri-kalendara",
+      "skolas-brivlaiki-2027-gimenes-plans",
+      "darba-dienas-un-stundas-ka-skaitit"
+    ],
+    "gimenes-kalendars-nedelas-planosana": [
+      "skolas-brivlaiki-2027-gimenes-plans",
+      "varda-dienas-tradicionalais-paplasinatais-saraksts",
+      "atvalinajums-2027-garas-brivdienas"
+    ],
+    "darba-dienas-un-stundas-ka-skaitit": [
+      "iso-nedelu-numuri-kalendara",
+      "atvalinajums-2027-garas-brivdienas",
+      "latvijas-svetku-dienas-2027-planosana"
+    ],
+    "atvalinajums-2027-garas-brivdienas": [
+      "darba-dienas-un-stundas-ka-skaitit",
+      "skolas-brivlaiki-2027-gimenes-plans",
+      "latvijas-svetku-dienas-2027-planosana"
+    ],
+    "personigs-kalendars-fotografijas-druka": [
+      "gimenes-kalendars-nedelas-planosana",
+      "varda-dienas-tradicionalais-paplasinatais-saraksts",
+      "iso-nedelu-numuri-kalendara"
+    ],
+    "saullekts-saulriets-latvijas-pilsetas": [
+      "zelta-stunda-latvija-fotoplanosana",
+      "ziemas-dienas-garums-latvija",
+      "meness-fazes-un-vietejais-laiks"
+    ],
+    "meness-fazes-un-vietejais-laiks": [
+      "perseidas-latvija-noverojumu-plans",
+      "saullekts-saulriets-latvijas-pilsetas",
+      "zelta-stunda-latvija-fotoplanosana"
+    ],
+    "zelta-stunda-latvija-fotoplanosana": [
+      "saullekts-saulriets-latvijas-pilsetas",
+      "rudens-latvija-gadalaiki-un-izbraucieni",
+      "ziemas-dienas-garums-latvija"
+    ],
+    "perseidas-latvija-noverojumu-plans": [
+      "meness-fazes-un-vietejais-laiks",
+      "saullekts-saulriets-latvijas-pilsetas",
+      "zelta-stunda-latvija-fotoplanosana"
+    ],
+    "pavasara-seja-latvija-darza-plans": [
+      "tomatu-seja-un-izstadisana-latvija",
+      "rudens-latvija-gadalaiki-un-izbraucieni",
+      "saullekts-saulriets-latvijas-pilsetas"
+    ],
+    "tomatu-seja-un-izstadisana-latvija": [
+      "pavasara-seja-latvija-darza-plans",
+      "saullekts-saulriets-latvijas-pilsetas",
+      "gimenes-kalendars-nedelas-planosana"
+    ],
+    "rudens-latvija-gadalaiki-un-izbraucieni": [
+      "zelta-stunda-latvija-fotoplanosana",
+      "ziemas-dienas-garums-latvija",
+      "pavasara-seja-latvija-darza-plans"
+    ],
+    "ziemas-dienas-garums-latvija": [
+      "saullekts-saulriets-latvijas-pilsetas",
+      "rudens-latvija-gadalaiki-un-izbraucieni",
+      "zelta-stunda-latvija-fotoplanosana"
+    ]
   }
 }

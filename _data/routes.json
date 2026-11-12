@@ -231,6 +231,17 @@
     "Required behavior": "standard"
   },
   {
+    "URL path": "/biezak-uzdotie-jautajumi/",
+    "Page family": "hub",
+    "Latvian title/topic": "Biežāk uzdotie jautājumi",
+    "Template": "trust/faq",
+    "Year": "",
+    "Month": "",
+    "Index rule": "YES if fully checked",
+    "Source reference": "Site implementation and linked official sources",
+    "Required behavior": "searchable questions with native disclosures and contextual links"
+  },
+  {
     "URL path": "/darba-dienu-kalendars/",
     "Page family": "hub",
     "Latvian title/topic": "Darba dienu kalendārs",
@@ -8118,6 +8129,17 @@
     "Required behavior": "standard"
   },
   {
+    "URL path": "/svetki-un-tradicijas/dzimtas-valodas-diena/",
+    "Page family": "latvia_cultural",
+    "Latvian title/topic": "Starptautiskā dzimtās valodas diena",
+    "Template": "latvia/cultural",
+    "Year": "",
+    "Month": "",
+    "Index rule": "YES if source-checked",
+    "Source reference": "unesco-mother-language",
+    "Required behavior": "source-backed content"
+  },
+  {
     "URL path": "/svetki-un-tradicijas/ebreju-tautas-genocida-upuru-pieminas-diena/",
     "Page family": "occasion",
     "Latvian title/topic": "Ebreju tautas genocīda upuru piemiņas diena",
@@ -8138,6 +8160,39 @@
     "Index rule": "YES only after human-level source/quality review",
     "Source reference": "S08",
     "Required behavior": "standard"
+  },
+  {
+    "URL path": "/svetki-un-tradicijas/eiropas-valodu-diena/",
+    "Page family": "latvia_cultural",
+    "Latvian title/topic": "Eiropas Valodu diena",
+    "Template": "latvia/cultural",
+    "Year": "",
+    "Month": "",
+    "Index rule": "YES if source-checked",
+    "Source reference": "coe-languages",
+    "Required behavior": "source-backed content"
+  },
+  {
+    "URL path": "/svetki-un-tradicijas/helovins/",
+    "Page family": "latvia_cultural",
+    "Latvian title/topic": "Helovīns Latvijā",
+    "Template": "latvia/cultural",
+    "Year": "",
+    "Month": "",
+    "Index rule": "YES if source-checked",
+    "Source reference": "halloween-reference, latvian-halloween-example, holiday-law, martini",
+    "Required behavior": "source-backed content"
+  },
+  {
+    "URL path": "/svetki-un-tradicijas/holokausta-upuru-pieminas-diena/",
+    "Page family": "latvia_cultural",
+    "Latvian title/topic": "Holokausta upuru piemiņas diena Latvijā un pasaulē",
+    "Template": "latvia/cultural",
+    "Year": "",
+    "Month": "",
+    "Index rule": "YES if source-checked",
+    "Source reference": "un-holocaust, holiday-law",
+    "Required behavior": "source-backed content"
   },
   {
     "URL path": "/svetki-un-tradicijas/janu-diena/",
@@ -8415,6 +8470,72 @@
     "Required behavior": "standard"
   },
   {
+    "URL path": "/svetki-un-tradicijas/pasaules-bernu-diena/",
+    "Page family": "latvia_cultural",
+    "Latvian title/topic": "Pasaules bērnu diena",
+    "Template": "latvia/cultural",
+    "Year": "",
+    "Month": "",
+    "Index rule": "YES if source-checked",
+    "Source reference": "un-world-children, holiday-law",
+    "Required behavior": "source-backed content"
+  },
+  {
+    "URL path": "/svetki-un-tradicijas/pasaules-bisu-diena/",
+    "Page family": "latvia_cultural",
+    "Latvian title/topic": "Pasaules bišu diena",
+    "Template": "latvia/cultural",
+    "Year": "",
+    "Month": "",
+    "Index rule": "YES if source-checked",
+    "Source reference": "un-bee-day, garden-di-guide",
+    "Required behavior": "source-backed content"
+  },
+  {
+    "URL path": "/svetki-un-tradicijas/pasaules-dzivnieku-diena/",
+    "Page family": "latvia_cultural",
+    "Latvian title/topic": "Pasaules dzīvnieku diena",
+    "Template": "latvia/cultural",
+    "Year": "",
+    "Month": "",
+    "Index rule": "YES if source-checked",
+    "Source reference": "world-animal-day, holiday-law",
+    "Required behavior": "source-backed content"
+  },
+  {
+    "URL path": "/svetki-un-tradicijas/pasaules-gramatu-diena/",
+    "Page family": "latvia_cultural",
+    "Latvian title/topic": "Pasaules grāmatu un autortiesību diena",
+    "Template": "latvia/cultural",
+    "Year": "",
+    "Month": "",
+    "Index rule": "YES if source-checked",
+    "Source reference": "unesco-world-book",
+    "Required behavior": "source-backed content"
+  },
+  {
+    "URL path": "/svetki-un-tradicijas/pasaules-udens-diena/",
+    "Page family": "latvia_cultural",
+    "Latvian title/topic": "Pasaules ūdens diena",
+    "Template": "latvia/cultural",
+    "Year": "",
+    "Month": "",
+    "Index rule": "YES if source-checked",
+    "Source reference": "un-water-day",
+    "Required behavior": "source-backed content"
+  },
+  {
+    "URL path": "/svetki-un-tradicijas/pasaules-vides-diena/",
+    "Page family": "latvia_cultural",
+    "Latvian title/topic": "Pasaules vides diena",
+    "Template": "latvia/cultural",
+    "Year": "",
+    "Month": "",
+    "Index rule": "YES if source-checked",
+    "Source reference": "un-world-environment",
+    "Required behavior": "source-backed content"
+  },
+  {
     "URL path": "/svetki-un-tradicijas/pavasara-ekvinokcija/",
     "Page family": "latvia_cultural",
     "Latvian title/topic": "Pavasara ekvinokcija: astronomiskais brīdis Latvijā",
@@ -8423,6 +8544,17 @@
     "Month": "",
     "Index rule": "YES if source-checked",
     "Source reference": "usno-services, usno-api",
+    "Required behavior": "source-backed content"
+  },
+  {
+    "URL path": "/svetki-un-tradicijas/pavasara-tradicijas/",
+    "Page family": "latvia_cultural",
+    "Latvian title/topic": "Pavasara tradīcijas Latvijā",
+    "Template": "latvia/cultural",
+    "Year": "",
+    "Month": "",
+    "Index rule": "YES if source-checked",
+    "Source reference": "meteni-dictionary, meteni-museum, palm-sunday, usno-api, holiday-law",
     "Required behavior": "source-backed content"
   },
   {
@@ -8547,6 +8679,17 @@
     "Required behavior": "standard"
   },
   {
+    "URL path": "/svetki-un-tradicijas/sveta-nikolaja-diena/",
+    "Page family": "latvia_cultural",
+    "Latvian title/topic": "Svētā Nikolaja diena Latvijā",
+    "Template": "latvia/cultural",
+    "Year": "",
+    "Month": "",
+    "Index rule": "YES if source-checked",
+    "Source reference": "catholic-st-nicholas, catholic-calendar",
+    "Required behavior": "source-backed content"
+  },
+  {
     "URL path": "/svetki-un-tradicijas/tevu-diena/",
     "Page family": "occasion",
     "Latvian title/topic": "Tēva diena",
@@ -8567,6 +8710,17 @@
     "Index rule": "YES only after human-level source/quality review",
     "Source reference": "S08",
     "Required behavior": "standard"
+  },
+  {
+    "URL path": "/svetki-un-tradicijas/totalitaro-rezimu-upuru-pieminas-diena/",
+    "Page family": "latvia_cultural",
+    "Latvian title/topic": "Staļinisma un nacisma upuru atceres diena",
+    "Template": "latvia/cultural",
+    "Year": "",
+    "Month": "",
+    "Index rule": "YES if source-checked",
+    "Source reference": "holiday-law, eu-totalitarian-remembrance",
+    "Required behavior": "source-backed content"
   },
   {
     "URL path": "/svetki-un-tradicijas/ugunsdzeseju-un-glabeju-diena/",
@@ -8644,6 +8798,17 @@
     "Index rule": "YES only after human-level source/quality review",
     "Source reference": "S08",
     "Required behavior": "standard"
+  },
+  {
+    "URL path": "/svetki-un-tradicijas/zemes-diena/",
+    "Page family": "latvia_cultural",
+    "Latvian title/topic": "Zemes diena Latvijā",
+    "Template": "latvia/cultural",
+    "Year": "",
+    "Month": "",
+    "Index rule": "YES if source-checked",
+    "Source reference": "un-mother-earth, un-world-environment",
+    "Required behavior": "source-backed content"
   },
   {
     "URL path": "/svetki-un-tradicijas/ziemas-saulgriezi/",
@@ -9469,159 +9634,5 @@
     "Index rule": "YES if fully checked",
     "Source reference": "S08/S18/S19 as applicable",
     "Required behavior": "standard"
-  },
-  {
-    "URL path": "/svetki-un-tradicijas/holokausta-upuru-pieminas-diena/",
-    "Page family": "latvia_cultural",
-    "Latvian title/topic": "Holokausta upuru piemiņas diena Latvijā un pasaulē",
-    "Template": "latvia/cultural",
-    "Year": "",
-    "Month": "",
-    "Index rule": "YES if source-checked",
-    "Source reference": "un-holocaust, holiday-law",
-    "Required behavior": "source-backed content"
-  },
-  {
-    "URL path": "/svetki-un-tradicijas/eiropas-valodu-diena/",
-    "Page family": "latvia_cultural",
-    "Latvian title/topic": "Eiropas Valodu diena",
-    "Template": "latvia/cultural",
-    "Year": "",
-    "Month": "",
-    "Index rule": "YES if source-checked",
-    "Source reference": "coe-languages",
-    "Required behavior": "source-backed content"
-  },
-  {
-    "URL path": "/svetki-un-tradicijas/totalitaro-rezimu-upuru-pieminas-diena/",
-    "Page family": "latvia_cultural",
-    "Latvian title/topic": "Staļinisma un nacisma upuru atceres diena",
-    "Template": "latvia/cultural",
-    "Year": "",
-    "Month": "",
-    "Index rule": "YES if source-checked",
-    "Source reference": "holiday-law, eu-totalitarian-remembrance",
-    "Required behavior": "source-backed content"
-  },
-  {
-    "URL path": "/svetki-un-tradicijas/dzimtas-valodas-diena/",
-    "Page family": "latvia_cultural",
-    "Latvian title/topic": "Starptautiskā dzimtās valodas diena",
-    "Template": "latvia/cultural",
-    "Year": "",
-    "Month": "",
-    "Index rule": "YES if source-checked",
-    "Source reference": "unesco-mother-language",
-    "Required behavior": "source-backed content"
-  },
-  {
-    "URL path": "/svetki-un-tradicijas/helovins/",
-    "Page family": "latvia_cultural",
-    "Latvian title/topic": "Helovīns Latvijā",
-    "Template": "latvia/cultural",
-    "Year": "",
-    "Month": "",
-    "Index rule": "YES if source-checked",
-    "Source reference": "halloween-reference, latvian-halloween-example, holiday-law, martini",
-    "Required behavior": "source-backed content"
-  },
-  {
-    "URL path": "/svetki-un-tradicijas/pasaules-gramatu-diena/",
-    "Page family": "latvia_cultural",
-    "Latvian title/topic": "Pasaules grāmatu un autortiesību diena",
-    "Template": "latvia/cultural",
-    "Year": "",
-    "Month": "",
-    "Index rule": "YES if source-checked",
-    "Source reference": "unesco-world-book",
-    "Required behavior": "source-backed content"
-  },
-  {
-    "URL path": "/svetki-un-tradicijas/pasaules-vides-diena/",
-    "Page family": "latvia_cultural",
-    "Latvian title/topic": "Pasaules vides diena",
-    "Template": "latvia/cultural",
-    "Year": "",
-    "Month": "",
-    "Index rule": "YES if source-checked",
-    "Source reference": "un-world-environment",
-    "Required behavior": "source-backed content"
-  },
-  {
-    "URL path": "/svetki-un-tradicijas/pasaules-bernu-diena/",
-    "Page family": "latvia_cultural",
-    "Latvian title/topic": "Pasaules bērnu diena",
-    "Template": "latvia/cultural",
-    "Year": "",
-    "Month": "",
-    "Index rule": "YES if source-checked",
-    "Source reference": "un-world-children, holiday-law",
-    "Required behavior": "source-backed content"
-  },
-  {
-    "URL path": "/svetki-un-tradicijas/pasaules-udens-diena/",
-    "Page family": "latvia_cultural",
-    "Latvian title/topic": "Pasaules ūdens diena",
-    "Template": "latvia/cultural",
-    "Year": "",
-    "Month": "",
-    "Index rule": "YES if source-checked",
-    "Source reference": "un-water-day",
-    "Required behavior": "source-backed content"
-  },
-  {
-    "URL path": "/svetki-un-tradicijas/pasaules-dzivnieku-diena/",
-    "Page family": "latvia_cultural",
-    "Latvian title/topic": "Pasaules dzīvnieku diena",
-    "Template": "latvia/cultural",
-    "Year": "",
-    "Month": "",
-    "Index rule": "YES if source-checked",
-    "Source reference": "world-animal-day, holiday-law",
-    "Required behavior": "source-backed content"
-  },
-  {
-    "URL path": "/svetki-un-tradicijas/pavasara-tradicijas/",
-    "Page family": "latvia_cultural",
-    "Latvian title/topic": "Pavasara tradīcijas Latvijā",
-    "Template": "latvia/cultural",
-    "Year": "",
-    "Month": "",
-    "Index rule": "YES if source-checked",
-    "Source reference": "meteni-dictionary, meteni-museum, palm-sunday, usno-api, holiday-law",
-    "Required behavior": "source-backed content"
-  },
-  {
-    "URL path": "/svetki-un-tradicijas/sveta-nikolaja-diena/",
-    "Page family": "latvia_cultural",
-    "Latvian title/topic": "Svētā Nikolaja diena Latvijā",
-    "Template": "latvia/cultural",
-    "Year": "",
-    "Month": "",
-    "Index rule": "YES if source-checked",
-    "Source reference": "catholic-st-nicholas, catholic-calendar",
-    "Required behavior": "source-backed content"
-  },
-  {
-    "URL path": "/svetki-un-tradicijas/pasaules-bisu-diena/",
-    "Page family": "latvia_cultural",
-    "Latvian title/topic": "Pasaules bišu diena",
-    "Template": "latvia/cultural",
-    "Year": "",
-    "Month": "",
-    "Index rule": "YES if source-checked",
-    "Source reference": "un-bee-day, garden-di-guide",
-    "Required behavior": "source-backed content"
-  },
-  {
-    "URL path": "/svetki-un-tradicijas/zemes-diena/",
-    "Page family": "latvia_cultural",
-    "Latvian title/topic": "Zemes diena Latvijā",
-    "Template": "latvia/cultural",
-    "Year": "",
-    "Month": "",
-    "Index rule": "YES if source-checked",
-    "Source reference": "un-mother-earth, un-world-environment",
-    "Required behavior": "source-backed content"
   }
 ]

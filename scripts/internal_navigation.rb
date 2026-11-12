@@ -3,6 +3,7 @@ require 'json'
 require 'date'
 require 'set'
 require_relative 'editorial_links'
+require_relative 'related_cards'
 
 # One editorial graph feeds HTML breadcrumbs, schema, contextual routes and
 # related reading. It changes discovery, never route identities or calendar data.
@@ -11,6 +12,7 @@ class InternalNavigation
   MONTHS = %w[Janvāris Februāris Marts Aprīlis Maijs Jūnijs Jūlijs Augusts Septembris Oktobris Novembris Decembris].freeze
   PERIODS = %w[year calendar_month month_index print_index print_month work_year work_month holiday_year holiday_month memorial_year long_weekends lunar_year lunar_month week_index iso_week].freeze
   ROOTS = %w[/kalendars/ /svetku-dienas/ /skolas-brivlaiki/ /varda-dienas/ /saullekts-saulriets/ /meness-kalendars/ /astronomiskais-kalendars/ /sejas-kalendars/ /horoskops/ /visi-riki/ /blogs/ /par-projektu/].freeze
+  INFORMATION_PAGES = %w[/privatuma-politika/ /sikdatnu-politika/ /par-projektu/ /biezak-uzdotie-jautajumi/ /pieklustamiba/ /kontakti/].freeze
   attr_reader :pages, :records
 
   def initialize(records:, notes:, blogs:, crops:, garden_actions:)
@@ -168,6 +170,7 @@ class InternalNavigation
   end
   def heading(row)
     f = row['family']
+    return 'Saistītā informācija' if INFORMATION_PAGES.include?(row['url'])
     return 'Šī perioda kalendāri un plāni' if PERIODS.include?(f)
     return 'Vietējie Saules un Mēness laiki' if %w[sun_city moon_city].include?(f)
     return 'Turpini dārza plānu' if f.start_with?('garden') || row['url']=='/sejas-kalendars/'
@@ -190,9 +193,10 @@ class InternalNavigation
     breadcrumbs = ancestors(url).map { |part| {'url'=>part,'title'=>label(part)} }
     {'parent'=>parent(url), 'breadcrumbs'=>breadcrumbs, 'heading'=>heading(row),
      'related'=>links(related_urls(row),url).first(6), 'pagination'=>pagination(row),
-     'reading'=>reading_for(url), 'discover'=>discover(row),
+     'reading'=>INFORMATION_PAGES.include?(url) ? [] : reading_for(url), 'discover'=>discover(row),
      'blogRelated'=>row['family']=='blog_article' ? @rules['blog_related'].fetch(url.split('/').last) : [],
-     'show'=>!%w[not_found temporary_error].include?(row['family'])}
+     # The home page already has curated, unique discovery cards.
+     'show'=>url!='/' && !%w[not_found temporary_error].include?(row['family'])}
   end
 
   def enrich_notes!
@@ -209,6 +213,7 @@ class InternalNavigation
     end
   end
   def write
+    CalendarRelatedCards.new(records:@records,plans:@pages).write
     File.write('_data/internal-navigation.json',JSON.pretty_generate({'version'=>1,'pages'=>@pages})+"\n")
     File.write('docs/INTERNAL_LINK_PLAN.json',JSON.pretty_generate({'rootHierarchy'=>@rules['parents'],'pages'=>@pages.transform_values { |v| v.reject { |k,_| k=='show' } }})+"\n")
   end

@@ -44,7 +44,7 @@
     const rows=annual.months[month-1].rows,offset=C.weekday(rows[0].date)-1;
     return Array.from({length:offset},()=>'<span aria-hidden="true"></span>').join('')+rows.map(row=>{
       const tag=print?'div':'button';
-      return `<${tag}${print?'':' type="button"'} class="work-day is-${row.kind}"${print?'':` data-work-day="${row.date}" aria-pressed="${row.date===selected}" aria-label="${esc(C.dateLabel(row.date)+' · '+labels[row.kind]+(row.work?' · '+number(row.hours)+' h':''))}"`}><span>${Number(row.date.slice(-2))}</span><small>${row.work?number(row.hours)+' h':'—'}</small></${tag}>`;
+      return `<${tag}${print?'':' type="button"'} class="work-day is-${row.kind}"${print?'':` data-work-day="${row.date}" aria-pressed="${row.date===selected}" aria-label="${esc(Number(row.date.slice(-2))+' '+(row.work?number(row.hours)+' h':'—')+'. '+C.dateLabel(row.date)+' · '+labels[row.kind])}"`}><span>${Number(row.date.slice(-2))}</span> <small>${row.work?number(row.hours)+' h':'—'}</small></${tag}>`;
     }).join('');
   }
   function renderMonth(){

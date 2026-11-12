@@ -108,22 +108,32 @@
   "about": [
     {
       "title": "Par projektu",
+      "icon": "about",
       "url": "/par-projektu/"
     },
     {
       "title": "Blogs",
+      "icon": "blog",
       "url": "/blogs/"
     },
     {
       "title": "Avoti un metodika",
+      "icon": "sources",
       "url": "/avoti-un-metodika/"
     },
     {
       "title": "Fotogrāfijas un licences",
+      "icon": "photos",
       "url": "/pilsetas-un-fotografijas/"
     },
     {
+      "title": "Jautājumi un atbildes",
+      "icon": "faq",
+      "url": "/biezak-uzdotie-jautajumi/"
+    },
+    {
       "title": "Sazinies ar mums",
+      "icon": "contact",
       "url": "/kontakti/"
     }
   ]

@@ -13,4 +13,11 @@ const crypto=require('node:crypto'),digest=value=>crypto.createHash('sha256').up
 const dataPath='assets/studio/latvia-data.mjs',enginePath='assets/studio/engine.mjs',uiPath='assets/studio/studio.mjs';
 let engine=fs.readFileSync(enginePath,'utf8').replace(/from '\.\/latvia-data\.mjs(?:\?v=[^']*)?'/,"from './latvia-data.mjs?v="+digest(fs.readFileSync(dataPath))+"'");
 fs.writeFileSync(enginePath,engine);
+// Fingerprint the lazy export graph in dependency order, keeping cached versions coherent.
+for(const name of ['office-exports.mjs','export-pipeline.mjs']){
+ const path='assets/studio/'+name;
+ if(!fs.existsSync(path))continue;
+ const source=fs.readFileSync(path,'utf8').replace(/from '\.\/(engine|binary-exports|office-exports)\.mjs(?:\?v=[^']*)?'/g,(_,dependency)=>"from './"+dependency+".mjs?v="+digest(fs.readFileSync('assets/studio/'+dependency+'.mjs'))+"'");
+ fs.writeFileSync(path,source);
+}
 fs.writeFileSync(uiPath,fs.readFileSync(uiPath,'utf8').replace(/from '\.\/engine\.mjs(?:\?v=[^']*)?'/,"from './engine.mjs?v="+digest(engine)+"'"));

@@ -64,3 +64,10 @@
 @media print {
  .home-page .home-useful,.home-page .home-more,.home-page .page-reading,.home-page .site-footer { content-visibility:visible;contain:none; }
 }
+
+/* Each discovery card has one job and its own illustration. */
+.home-page .feature-garden .feature-orbit{background:#edf3e7}
+.home-page .feature-astronomy .feature-orbit{background:#eef0f8}
+.home-page .home-tool-countdown{background:linear-gradient(120deg,#fff,#f5eee7)}
+.home-page .home-tool-countdown:hover{border-color:#b995a0;background:#fffaf7}
+.home-page .home-tool-countdown:focus-visible{outline:3px solid #9a6d3c;outline-offset:3px}

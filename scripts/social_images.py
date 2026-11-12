@@ -12,10 +12,13 @@ ROOT=Path(__file__).resolve().parents[1]; S=2; W,H=1200,630
 OUT=ROOT/'assets/social-cards/v2'; OUT.mkdir(parents=True,exist_ok=True)
 CACHE=ROOT/'tooling/social-cards/cache'
 def read(p):return json.loads((ROOT/p).read_text())
-ROUTES=read('docs/route-manifest.json')+[
+ROUTES=read('docs/route-manifest.json')
+assert len({r['url'] for r in ROUTES})==len(ROUTES),'Duplicate page route in manifest'
+for support in [
  {'url':'/404.html','family':'not_found','title':'Lapa nav atrasta','description':'Atrodi vajadzīgo kalendāru, datumu vai plānošanas rīku.'},
  {'url':'/500.html','family':'temporary_error','title':'Īslaicīga kļūda','description':'Kalendāri un plānošanas rīki Latvijas ikdienai.'},
- {'url':'/nedelas-kalendars/2031/01/','family':'iso_week','title':'2031. gada 1. nedēļa','description':'ISO nedēļa gadumijā.'}]
+ {'url':'/nedelas-kalendars/2031/01/','family':'iso_week','title':'2031. gada 1. nedēļa','description':'ISO nedēļa gadumijā.'}]:
+ if not any(r['url']==support['url'] for r in ROUTES):ROUTES.append(support)
 RAW={r['URL path']:r for r in read('_data/routes.json')}
 DATA=read('assets/calendar-data.json'); HOLIDAYS=DATA['holidays']; NAMES=read('_data/name-days-current.json')['records']
 CITIES={c['id']:c for c in read('_data/cities.json')['cities']}; BLOGS={p['url']:p for p in read('_data/blog.json')['posts']}
@@ -326,8 +329,10 @@ def semantic_override(r,im,kind,assets,photos):
   return im,'names'
  if p=='/zodiaka-zimes/':
   assets.extend('/assets/zodiac/'+pr['slug']+'.svg' for pr in PROFILES.values());return zodiac_board(),'zodiac'
+ if p=='/horoskops/':
+  im=topic_panel('/assets/zodiac/atlas.svg','horoscope',r,'Tavas zīmes dienas lasījums');assets.append('/assets/zodiac/atlas.svg');rr(im,(28,405,478,479),14,'#f4e9d3');text(im,(51,424),'12 zīmes · Jauna dienas tēma',23,WINE,True);return im,'zodiac'
  if p=='/horoskopa-zimes-kalkulators/':
-  im=topic_panel('/assets/category-vector/zodiac.svg','horoscope',r,'Atrodi savu zīmi');assets.append('/assets/category-vector/zodiac.svg');rr(im,(28,298,478,366),14,'#f4e9d3');text(im,(49,319),'Dzimšanas datums',20,WINE,True);text(im,(454,316),'→',26,WINE,True,anchor='rt');return im,'zodiac'
+  im=topic_panel('/assets/zodiac/atlas.svg','horoscope',r,'Iepazīsti savu zīmi');assets.append('/assets/zodiac/atlas.svg');rr(im,(28,298,478,366),14,'#f4e9d3');text(im,(49,319),'Dzimšanas datums',20,WINE,True);text(im,(454,316),'→',26,WINE,True,anchor='rt');return im,'zodiac'
  if p=='/meness-lekts-un-riets/':
   photo=source_photo(CITIES['riga']['photo']);photos.append(photo);im=photo_panel(photo,'82 LATVIJAS PILSĒTAS','Mēness lēkts un riets','Rīga · Europe/Riga',True);paste_fit(im,moon_img(140,.72),(310,79,465,234));return im,'moon-city'
  if p=='/meness-kalendars/':
@@ -386,6 +391,9 @@ def render_panel(r):
   for i,sea in enumerate(['spring','summer','autumn','winter']):
    a=f'/assets/season-scenes/{sea}.svg';assets.append(a);x=12+(i%2)*245;yy=35+(i//2)*243;paste_fit(im,art(a),(x,yy,x+239,yy+206));text(im,(x+120,yy+209),['Pavasaris','Vasara','Rudens','Ziema'][i],18,WINE,True,anchor='mt')
   kicker='ČETRI GADALAIKI';subtitle='Latvijas dabas ritms gada garumā'
+ elif p in {'/privatuma-politika/','/sikdatnu-politika/','/pieklustamiba/','/kontakti/','/par-projektu/','/biezak-uzdotie-jautajumi/'}:
+  trust={'/privatuma-politika/':('privacy','Tavi dati','Personīgie plāni un ārējie pakalpojumi'),'/sikdatnu-politika/':('cookies','Tava pārlūka krātuve','Saprotami par saglabāšanu un izvēlēm'),'/pieklustamiba/':('accessibility','Pieejams ceļš uz datumu','Tastatūra, alternatīvi skati un palīdzība'),'/kontakti/':('contact','Skaidrs jautājums','Sazinies ar vietnes uzturētāju'),'/par-projektu/':('about','Kalendārs Latvijas ikdienai','Silvis Balodis un Kalendārs365'),'/biezak-uzdotie-jautajumi/':('faq','Atrodi savu atbildi','Kalendāri, druka, dati un vietnes rīki')}
+  name,label,subtitle=trust[p];asset=f'/assets/trust/{name}.svg';assets.append(asset);kind='trust';im=panel(color='#fbf4e9');paste_fit(im,art(asset),(60,25,446,344));fitted(im,(32,349),label,444,111,35,25,2,WINE,True);rr(im,(32,485,474,541),12,'#f0e1e6');text(im,(253,505),'SKAIDRI PAR KALENDĀRU365',11,WINE,True,anchor='mt');kicker='SAPROTAMI PAR VIETNI'
  elif f in ['not_found','temporary_error']:
   kind='recovery';im=panel(color='#eee8dc');paper=Image.new('RGBA',(394*S,326*S));rr(paper,(0,0,394,326),20,CREAM,'#d5c6ba');text(paper,(27,28),'KALENDĀRS365',13,WINE,True);line(paper,[(27,66),(367,66)],'#e5dace');text(paper,(197,101),'404' if f=='not_found' else '500',115,WINE,True,anchor='mt');text(paper,(197,250),'Atrodi savu ceļu' if f=='not_found' else 'Atgriezies pie plāniem',22,INK,True,anchor='mt');paper=paper.rotate(7,Image.Resampling.BICUBIC,expand=True);shadow_paste(im,paper,(27,86),10,(0,9),54);paste_fit(im,art('/assets/category-vector/location.svg'),(335,335,490,504));assets.append('/assets/category-vector/location.svg');kicker='ATRODI SAVU CEĻU';subtitle='Kalendāri un plānošanas rīki tepat blakus'
  else:
@@ -438,9 +446,9 @@ def main():
   with receipt.open('a') as log:log.write(json.dumps(record,ensure_ascii=False)+'\n')
   if (i+1)%100==0:print(f'{i+1}/{len(selected)} covers rendered',flush=True)
  if not args.only:
-  assert len(results)==900
-  assert len({r['src'] for r in results})==900 and len({r['pixelSha256'] for r in results})==900
-  assert len({r['panelSha256'] for r in results})==900,'Repeated subject panel; give the page its own subject composition'
+  assert len(results)==len(ROUTES)
+  assert len({r['src'] for r in results})==len(ROUTES) and len({r['pixelSha256'] for r in results})==len(ROUTES)
+  assert len({r['panelSha256'] for r in results})==len(ROUTES),'Repeated subject panel; give the page its own subject composition'
   catalog={'version':2,'dimensions':[W,H],'method':'Original code-native editorial composition using source-bound Latvian typography, verified calendar data and accepted licensed artworks. No inference API used.','pages':{r['url']:r for r in results}}
   catalog['rendererSha256']=hashlib.sha256(Path(__file__).read_bytes()).hexdigest();catalog['prepareSha256']=hashlib.sha256((ROOT/'tooling/social-cards/prepare.mjs').read_bytes()).hexdigest()
   credit_rows={}
@@ -450,7 +458,7 @@ def main():
   (ROOT/'assets/social-cards/credits.json').write_text(json.dumps({'version':2,'photos':list(credit_rows.values())},ensure_ascii=False,indent=2)+'\n')
   (ROOT/'_data/social-cover-credits.json').write_text(json.dumps({'photos':list(credit_rows.values())},ensure_ascii=False,indent=2)+'\n')
   (ROOT/'_data/social-images.json').write_text(json.dumps(catalog,ensure_ascii=False,indent=2)+'\n')
-  (ROOT/'docs/OG_RESULTS.json').write_text(json.dumps({'version':2,'routeCards':len(results),'dimensions':[W,H],'distinctPixelImages':len({r['pixelSha256'] for r in results}),'distinctSubjectPanels':len({r['panelSha256'] for r in results}),'totalBytes':sum(r['bytes'] for r in results),'checks':['900 unique page URLs','900 unique pixel images','complete Latvian title bounds','actual JPEG decode and dimensions','source-bound photography credits','calendar dates and local lunar noon'],'files':results},ensure_ascii=False,indent=2)+'\n')
+  (ROOT/'docs/OG_RESULTS.json').write_text(json.dumps({'version':2,'routeCards':len(results),'dimensions':[W,H],'distinctPixelImages':len({r['pixelSha256'] for r in results}),'distinctSubjectPanels':len({r['panelSha256'] for r in results}),'totalBytes':sum(r['bytes'] for r in results),'checks':[f'{len(results)} unique page URLs',f'{len(results)} unique pixel images','complete Latvian title bounds','actual JPEG decode and dimensions','source-bound photography credits','calendar dates and local lunar noon'],'files':results},ensure_ascii=False,indent=2)+'\n')
  else:(ROOT/'../reports/social-cards-2026-11-11/preview.json').resolve().write_text(json.dumps(results,ensure_ascii=False,indent=2))
  print(json.dumps({'rendered':len(results),'bytes':sum(r['bytes'] for r in results),'uniquePanels':len({r['panelSha256'] for r in results})}))
 if __name__=='__main__':main()

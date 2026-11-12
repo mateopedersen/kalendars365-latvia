@@ -1,4 +1,5 @@
 # frozen_string_literal: true
+require 'digest'
 # Original long-form content is held separately from the route matrix and generated deterministically.
 module BlogComponents
   def self.word_count(text)
@@ -6,6 +7,7 @@ module BlogComponents
   end
   def self.generate(root)
     briefs=JSON.parse(File.read(File.join(root,'_data/blog-posts.json'))).fetch('posts')
+    guides=JSON.parse(File.read(File.join(root,'_data/article-guides.json'))).fetch('articles')
     photos=JSON.parse(File.read(File.join(root,'_data/blog-photos.json'))).fetch('photos').to_h{|p|[p.fetch('id'),p]}
     sources=JSON.parse(File.read(File.join(root,'_data/blog-sources.json')))
     covers_path=File.join(root,'_data/social-images.json')
@@ -26,6 +28,8 @@ module BlogComponents
       end
       photo=photos.fetch(brief.fetch('photoKey'))
       post=brief.merge('url'=>"/blogs/#{brief.fetch('slug')}/",'wordCount'=>count,'readingMinutes'=>(count/180.0).ceil,'photo'=>photo,'toc'=>toc,'sources'=>brief.fetch('sourceIds').map{|key|sources.fetch(key)})
+      post['guide']=guides.fetch(brief.fetch('slug'))
+      post['contentSha256']=Digest::SHA256.hexdigest(JSON.generate([brief,raw,photo,post['sources'],post['guide']]))
       front={'layout'=>'blog-post','family'=>'blog_article','permalink'=>post['url'],'title'=>post['title'],'description'=>post['description'],'author'=>owner.fetch('name'),'date'=>post['date'],'reading_notes'=>false,'blog_slug'=>post['slug'],'og_image'=>photo['src'],'og_image_width'=>photo['width'],'og_image_height'=>photo['height'],'og_image_alt'=>photo['alt']}
       if (cover=covers[post['url']])
         front.merge!('og_image'=>cover.fetch('src'),'og_image_width'=>cover.fetch('width'),'og_image_height'=>cover.fetch('height'),'og_image_alt'=>cover.fetch('alt'))
@@ -35,7 +39,7 @@ module BlogComponents
       post
     end
     File.write(File.join(root,'_data/blog.json'),JSON.pretty_generate({'posts'=>posts,'count'=>posts.length,'wordCount'=>posts.sum{|p|p['wordCount']},'publishedAt'=>posts.map{|p|p['date']}.max})+"\n")
-    index={url:'/blogs/',title:'Blogs: Latvijas kalendārs un ikdienas plāni',family:'blog_index',indexable:true,status:'ready',description:'Praktiski raksti par Latvijas svētkiem, skolas un studiju kalendāriem, laika plānošanu, debesīm un dārzu. Autors Silvis Balodis.',lastmod:posts.map{|p|p['date']}.max}
-    [index]+posts.map{|p|{url:p['url'],title:p['title'],family:'blog_article',indexable:true,status:'ready',description:p['description'],lastmod:p['date']}}
+    index={url:'/blogs/',title:'Blogs: Latvijas kalendārs un ikdienas plāni',family:'blog_index',indexable:true,status:'ready',description:'Praktiski raksti par Latvijas svētkiem, skolas un studiju kalendāriem, laika plānošanu, debesīm un dārzu. Autors Silvis Balodis.',lastmod:posts.map{|p|p['date']}.max,contentSha256:Digest::SHA256.hexdigest(JSON.generate(posts.map{|p|[p['url'],p['contentSha256']]}))}
+    [index]+posts.map{|p|{url:p['url'],title:p['title'],family:'blog_article',indexable:true,status:'ready',description:p['description'],lastmod:p['date'],contentSha256:p['contentSha256']}}
   end
 end

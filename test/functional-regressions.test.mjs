@@ -15,9 +15,10 @@ function collection({year,month=null,state},source=collectionSource){
  const assigned=[],observers=[],buttons=new Map();let current=state;
  const button=name=>{if(!buttons.has(name))buttons.set(name,{disabled:false,addEventListener(){}});return buttons.get(name);};
  const calendar={querySelector:s=>s==='#calendar-title'?{}:button(s),querySelectorAll:s=>s==='#calendar-year option'?[]:[button('prev'),button('next')]};
- const root={dataset:{collectionPrefix:'kalendars',collectionYear:String(year),collectionMonth:month==null?'':String(month)},querySelector:s=>s==='[data-calendar-explorer]'?{open:false}:s==='.collection-calendar-app'?calendar:null};
- const context={document:{querySelector:s=>s==='[data-calendar-collection]'?root:null},URL,URLSearchParams,location:{origin:'https://kalendars365.lv',assign:url=>assigned.push(url)},K365:{getState:()=>current},MutationObserver:class{constructor(fn){observers.push(fn);}observe(){}},matchMedia:()=>({matches:false,addEventListener(){}})};
- context.window=context;vm.runInNewContext(source,context,{timeout:1000});
+ const explorer={open:false,addEventListener(){}},sidebar={dataset:{},getBoundingClientRect:()=>({height:608})},frames=[];
+ const root={dataset:{collectionPrefix:'kalendars',collectionYear:String(year),collectionMonth:month==null?'':String(month)},querySelector:s=>s==='[data-calendar-explorer]'?explorer:s==='.calendar-collection-sidebar'?sidebar:s==='.collection-calendar-app'?calendar:null};
+ const context={document:{querySelector:s=>s==='[data-calendar-collection]'?root:null},URL,URLSearchParams,location:{origin:'https://kalendars365.lv',assign:url=>assigned.push(url)},K365:{getState:()=>current},MutationObserver:class{constructor(fn){observers.push(fn);}observe(){}},ResizeObserver:class{observe(){}},requestAnimationFrame:fn=>frames.push(fn),innerHeight:768,addEventListener(){},matchMedia:()=>({matches:false,addEventListener(){}})};
+ context.window=context;vm.runInNewContext(source,context,{timeout:1000});for(const fn of frames)fn();
  return{assigned,update:state=>{current=state;for(const fn of observers)fn();}};
 }
 

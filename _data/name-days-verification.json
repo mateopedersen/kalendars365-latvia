@@ -1,0 +1,36 @@
+{
+  "scope": "Published VVC name spellings, dates and list membership; not ethnic origin.",
+  "sources": [
+    {
+      "id": "vvc-traditional-current",
+      "sourceUrl": "https://www.vvc.gov.lv/lv/media/20847/download?attachment=",
+      "responseUrl": "https://www.vvc.gov.lv/lv/media/20847/download?attachment=",
+      "sha256": "50311fb3b95746e00c8394dbf65dbc569728f54893369b398b7a1061d8eaa318",
+      "bytes": 21171,
+      "checkedAt": "2026-11-11T21:05:05.769261+00:00",
+      "lastModified": "Wed, 20 May 2026 10:48:43 GMT",
+      "file": "vvc-traditional-current.xlsx"
+    },
+    {
+      "id": "vvc-extended-current",
+      "sourceUrl": "https://www.vvc.gov.lv/lv/media/20850/download?attachment=",
+      "responseUrl": "https://www.vvc.gov.lv/lv/media/20850/download?attachment=",
+      "sha256": "17d23b718f08e6ea2b4a6a870bf1f455eff0adf6c0d13410ee2c386746d9c4b4",
+      "bytes": 46715,
+      "checkedAt": "2026-11-11T21:05:05.857130+00:00",
+      "lastModified": "Wed, 20 May 2026 10:48:38 GMT",
+      "file": "vvc-extended-current.csv"
+    },
+    {
+      "id": "ckan-traditional-current",
+      "sourceUrl": "https://data.gov.lv/dati/dataset/2a880497-a25b-4e59-990b-382ca155fb0c/resource/39d01c5b-6964-4e91-b05c-45e6fbf1b77a/download/latvieu-tradicionlo-vrdadienu-saraksts.csv",
+      "responseUrl": "https://data.gov.lv/dati/dataset/2a880497-a25b-4e59-990b-382ca155fb0c/resource/39d01c5b-6964-4e91-b05c-45e6fbf1b77a/download/latvieu-tradicionlo-vrdadienu-saraksts.csv",
+      "sha256": "3ff7f67ca6ff59b568f5cd94f37082e683cd3dbb52061a7e6d262c57e7d66069",
+      "bytes": 11648,
+      "checkedAt": "2026-11-11T21:05:05.120747+00:00",
+      "lastModified": "Fri, 16 May 2025 12:58:37 GMT",
+      "file": "ckan-traditional-current.csv"
+    }
+  ],
+  "checkedAt": "2026-11-11"
+}

@@ -1,0 +1,162 @@
+{
+  "metadata": {
+    "pages": 901,
+    "entityGraphs": 901,
+    "indexable": 898,
+    "cssBundles": 41,
+    "errors": []
+  },
+  "http": {
+    "scope": "loopback simulation; no deployment or CDN assertions",
+    "requests": 18,
+    "results": [
+      {
+        "mode": "preview",
+        "path": "/",
+        "status": 200,
+        "robots": "noindex, nofollow",
+        "location": null,
+        "csp": "default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; font-src 'self'; connect-src 'self' https://tiles.openfreemap.org; worker-src 'self'; object-src 'none'; base-uri 'self'; frame-ancestors 'none'; form-action 'self' mailto:"
+      },
+      {
+        "mode": "preview",
+        "path": "/kalendars/2028/februaris/",
+        "status": 200,
+        "robots": "noindex, nofollow",
+        "location": null,
+        "csp": "default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; font-src 'self'; connect-src 'self' https://tiles.openfreemap.org; worker-src 'self'; object-src 'none'; base-uri 'self'; frame-ancestors 'none'; form-action 'self' mailto:"
+      },
+      {
+        "mode": "preview",
+        "path": "/pilsetas-un-fotografijas/",
+        "status": 200,
+        "robots": "noindex, nofollow",
+        "location": null,
+        "csp": "default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; font-src 'self'; connect-src 'self' https://tiles.openfreemap.org; worker-src 'self'; object-src 'none'; base-uri 'self'; frame-ancestors 'none'; form-action 'self' mailto:"
+      },
+      {
+        "mode": "preview",
+        "path": "/seo-test-does-not-exist/",
+        "status": 404,
+        "robots": "noindex, nofollow",
+        "location": null,
+        "csp": "default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; font-src 'self'; connect-src 'self' https://tiles.openfreemap.org; worker-src 'self'; object-src 'none'; base-uri 'self'; frame-ancestors 'none'; form-action 'self' mailto:"
+      },
+      {
+        "mode": "preview",
+        "path": "/avoti/",
+        "status": 301,
+        "robots": null,
+        "location": "/avoti-un-metodika/",
+        "csp": null
+      },
+      {
+        "mode": "preview",
+        "path": "/sikdatnes/",
+        "status": 301,
+        "robots": null,
+        "location": "/sikdatnu-politika/",
+        "csp": null
+      },
+      {
+        "mode": "preview",
+        "path": "/kalendars/2027/index.html",
+        "status": 308,
+        "robots": null,
+        "location": "/kalendars/2027/",
+        "csp": null
+      },
+      {
+        "mode": "preview",
+        "path": "/kalendars/2027",
+        "status": 308,
+        "robots": null,
+        "location": "/kalendars/2027/",
+        "csp": null
+      },
+      {
+        "mode": "preview",
+        "path": "/api/laikapstakli?city=riga",
+        "status": 503,
+        "robots": "noindex",
+        "location": null,
+        "csp": null
+      },
+      {
+        "mode": "production-simulation",
+        "path": "/",
+        "status": 200,
+        "robots": null,
+        "location": null,
+        "csp": "default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; font-src 'self'; connect-src 'self' https://tiles.openfreemap.org; worker-src 'self'; object-src 'none'; base-uri 'self'; frame-ancestors 'none'; form-action 'self' mailto:"
+      },
+      {
+        "mode": "production-simulation",
+        "path": "/kalendars/2028/februaris/",
+        "status": 200,
+        "robots": null,
+        "location": null,
+        "csp": "default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; font-src 'self'; connect-src 'self' https://tiles.openfreemap.org; worker-src 'self'; object-src 'none'; base-uri 'self'; frame-ancestors 'none'; form-action 'self' mailto:"
+      },
+      {
+        "mode": "production-simulation",
+        "path": "/pilsetas-un-fotografijas/",
+        "status": 200,
+        "robots": null,
+        "location": null,
+        "csp": "default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; font-src 'self'; connect-src 'self' https://tiles.openfreemap.org; worker-src 'self'; object-src 'none'; base-uri 'self'; frame-ancestors 'none'; form-action 'self' mailto:"
+      },
+      {
+        "mode": "production-simulation",
+        "path": "/seo-test-does-not-exist/",
+        "status": 404,
+        "robots": "noindex, follow",
+        "location": null,
+        "csp": "default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; font-src 'self'; connect-src 'self' https://tiles.openfreemap.org; worker-src 'self'; object-src 'none'; base-uri 'self'; frame-ancestors 'none'; form-action 'self' mailto:"
+      },
+      {
+        "mode": "production-simulation",
+        "path": "/avoti/",
+        "status": 301,
+        "robots": null,
+        "location": "/avoti-un-metodika/",
+        "csp": null
+      },
+      {
+        "mode": "production-simulation",
+        "path": "/sikdatnes/",
+        "status": 301,
+        "robots": null,
+        "location": "/sikdatnu-politika/",
+        "csp": null
+      },
+      {
+        "mode": "production-simulation",
+        "path": "/kalendars/2027/index.html",
+        "status": 308,
+        "robots": null,
+        "location": "/kalendars/2027/",
+        "csp": null
+      },
+      {
+        "mode": "production-simulation",
+        "path": "/kalendars/2027",
+        "status": 308,
+        "robots": null,
+        "location": "/kalendars/2027/",
+        "csp": null
+      },
+      {
+        "mode": "production-simulation",
+        "path": "/api/laikapstakli?city=riga",
+        "status": 503,
+        "robots": "noindex",
+        "location": null,
+        "csp": null
+      }
+    ],
+    "errors": []
+  },
+  "externalValidator": "not run; localhost is not public",
+  "publicationPerformed": false
+}

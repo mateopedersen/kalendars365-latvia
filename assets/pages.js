@@ -23,6 +23,7 @@ document.addEventListener('DOMContentLoaded',()=>{
       const query=new URLSearchParams({date});if(sign)query.set('sign',sign);
       const response=await fetch(`/api/horoskops/dienas?${query}`,{headers:{Accept:'application/json'},cache:'no-store',signal:AbortSignal.timeout(15000)});
       const data=await response.json();if(!response.ok)throw new Error(data.error||'Dienas izdevumu nevar ielādēt.');
+      if(data.date!==date||data.timeZone!=='Europe/Riga'||(sign&&data.entries?.[sign]?.date!==date)||(!sign&&Object.keys(data.entries||{}).length!==12))throw new Error('Saņemts neatbilstošs dienas izdevums.');
       if(token!==request)return;
       if(views.length&&data.markup){views.forEach(view=>{view.innerHTML=data.markup;view.dataset.editionDate=data.date;view.removeAttribute('aria-busy');});}
       if(collection&&data.collectionMarkup){collection.innerHTML=data.collectionMarkup;collection.dataset.editionDate=data.date;collection.removeAttribute('aria-busy');}

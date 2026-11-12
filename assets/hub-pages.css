@@ -90,7 +90,7 @@
 .hub-school-break-copy h3{margin:0;font-size:17px;line-height:1.2}
 .hub-school-break-copy time{min-height:2.8em;color:#7b233a;font-size:12px;font-weight:800;line-height:1.4}
 .hub-school-break-copy small{color:#6e6269;font-size:11px;line-height:1.35}
-.hub-school-break-copy p{margin:auto 0 0;padding-top:9px;border-top:1px solid #eee1de;color:#81777b;font-size:9px;line-height:1.4}
+.hub-school-break-copy p{margin:auto 0 0;padding-top:9px;border-top:1px solid #eee1de;color:#776e72;font-size:9px;line-height:1.4}
 .hub-school-detail{display:grid;grid-template-columns:minmax(0,1.3fr) minmax(230px,.7fr);gap:25px}
 .hub-school-detail label{max-width:300px;margin:18px 0 12px}
 .hub-school-detail>div>p:not(.hub-grade-result){max-width:65ch;color:#6d626a;font-size:12px;line-height:1.55}

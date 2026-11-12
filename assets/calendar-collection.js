@@ -17,8 +17,11 @@ if(typeof window==='object'&&typeof document==='object')(()=>{'use strict';
  const root=document.querySelector('[data-calendar-collection]');if(!root)return;
  const explorer=root.querySelector('[data-calendar-explorer]'),wide=window.matchMedia('(min-width:1101px)'),api=window.K365Collection;
  const prefix=root.dataset.collectionPrefix,year=Number(root.dataset.collectionYear),month=Number(root.dataset.collectionMonth)||null;
- function explorerLayout(){explorer.open=wide.matches;if(wide.matches){const list=root.querySelector('.collection-month-list'),current=list.querySelector('.is-current');if(current)list.scrollTop=Math.max(0,current.offsetTop-list.offsetTop-10);}}
- explorerLayout();wide.addEventListener('change',explorerLayout);
+ const sidebar=root.querySelector('.calendar-collection-sidebar');let fitFrame=0;
+ function fitExplorer(){fitFrame=0;const height=window.visualViewport?.height||innerHeight;sidebar.dataset.sidebarSticky=String(wide.matches&&sidebar.getBoundingClientRect().height+36<=height);}
+ function scheduleFit(){if(!fitFrame)fitFrame=requestAnimationFrame(fitExplorer);}
+ function explorerLayout(){explorer.open=wide.matches;scheduleFit();}
+ explorerLayout();wide.addEventListener('change',explorerLayout);window.addEventListener('resize',scheduleFit);window.visualViewport?.addEventListener('resize',scheduleFit);new ResizeObserver(scheduleFit).observe(sidebar);explorer.addEventListener('toggle',scheduleFit);
  function carryLunarCity(){
   if(prefix!=='meness-kalendars')return;
   const selected=root.querySelector('[data-lunar-city]')?.value||new URLSearchParams(location.search).get('city');

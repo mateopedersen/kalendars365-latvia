@@ -1,7 +1,7 @@
 {% assign ascendant_catalog = site.data['ascendant-places'] %}
-<section class="ascendant-calculator" id="ascendenta-kalkulators" data-ascendant-calculator aria-labelledby="ascendant-title">
+<section class="ascendant-calculator{% if include.compact %} ascendant-calculator--compact{% endif %}" id="ascendenta-kalkulators" data-ascendant-calculator aria-labelledby="ascendant-title">
   <header class="ascendant-heading">
-    <div><span class="ascendant-eyebrow">DZIMŠANAS BRĪDIS · TROPISKAIS ZODIAKS</span><h2 id="ascendant-title">Kāda ir tava uzlecošā zīme?</h2><p>Aprēķini ascendentu pēc dzimšanas datuma, precīza pulksteņa laika un vietas.</p></div>
+    <div>{% if include.compact %}<img class="ascendant-sidebar-mark" src="/assets/nav-ice/horoscope.svg?v={{ site.data.build.asset_version }}" width="60" height="60" alt=""><span class="ascendant-eyebrow">VAIRĀK PAR TAVU DZIMŠANAS BRĪDI</span><h2 id="ascendant-title">Vai zini savu ascendentu?</h2><p>Norādi dzimšanas datumu, precīzu laiku un pilsētu. Uzzini savu uzlecošo zīmi.</p>{% else %}<span class="ascendant-eyebrow">DZIMŠANAS BRĪDIS · TROPISKAIS ZODIAKS</span><h2 id="ascendant-title">Kāda ir tava uzlecošā zīme?</h2><p>Aprēķini ascendentu pēc dzimšanas datuma, precīza pulksteņa laika un vietas.</p>{% endif %}</div>
     <span class="ascendant-private"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 10V7a5 5 0 0 1 10 0v3M6 10h12v11H6zM12 14v3"/></svg>Dati paliek tavā pārlūkā</span>
   </header>
   <div class="ascendant-layout">
@@ -34,7 +34,7 @@
       <noscript><p class="ascendant-error">Lai aprēķinātu ascendentu tavā ierīcē, ieslēdz JavaScript.</p></noscript>
     </form>
     <div class="ascendant-summary">
-      <div class="ascendant-wheel" data-ascendant-wheel aria-hidden="true">{% include ascendant-wheel.svg %}</div>
+      <div class="ascendant-wheel" data-ascendant-wheel><div class="zodiac-wheel-stage" data-wheel-stage tabindex="0" role="group" aria-label="Zodiaka aplis. Velc, lai pagrieztu; izmanto arī bulttaustiņus.">{% include ascendant-wheel.svg %}</div><div class="zodiac-wheel-controls"><button type="button" data-wheel-turn="-30" aria-label="Pagriezt zodiaka apli pa kreisi"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 10a8 8 0 1 1 1 7M4 4v6h6"/></svg></button><span>Velc un iepazīsti zīmes</span><button type="button" data-wheel-turn="30" aria-label="Pagriezt zodiaka apli pa labi"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 10a8 8 0 1 1 1 7M4 4v6h6"/></svg></button><button type="button" data-wheel-reset aria-label="Atiestatīt zodiaka apli">Atiestatīt</button></div></div>
       <div class="ascendant-intro" data-ascendant-intro><span class="ascendant-eyebrow">ASCENDENTS · ASC</span><h3>Tavs dzimšanas brīdis zodiaka aplī.</h3><p>Ascendents ir ekliptikas punkts, kas dzimšanas brīdī atrodas pie austrumu horizonta. Tā zīme var atšķirties no tavas Saules zīmes.</p><p class="ascendant-hint">Ja dzimšanas laiks nav zināms, droši noteikt ascendentu nevar.</p></div>
       <section class="ascendant-result" data-ascendant-result aria-labelledby="ascendant-result-title" hidden tabindex="-1">
         <span class="ascendant-eyebrow">TAVS ASCENDENTS</span>

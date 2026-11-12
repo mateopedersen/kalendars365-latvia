@@ -1,0 +1,210 @@
+[
+  {
+    "profile": "desktop",
+    "url": "/",
+    "beforeMedianMs": 184,
+    "beforeRangeMs": [
+      172,
+      196
+    ],
+    "afterMedianMs": 240,
+    "afterRangeMs": [
+      228,
+      272
+    ],
+    "changePercent": 30.43,
+    "afterMaxCls": 0.002842616855951003,
+    "beforeLongTaskCounts": [
+      0,
+      0,
+      0
+    ],
+    "afterLongTaskCounts": [
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "profile": "desktop",
+    "url": "/kalendars/2027/",
+    "beforeMedianMs": 168,
+    "beforeRangeMs": [
+      168,
+      236
+    ],
+    "afterMedianMs": 216,
+    "afterRangeMs": [
+      212,
+      216
+    ],
+    "changePercent": 28.57,
+    "afterMaxCls": 0,
+    "beforeLongTaskCounts": [
+      0,
+      0,
+      0
+    ],
+    "afterLongTaskCounts": [
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "profile": "desktop",
+    "url": "/kalendars/2028/februaris/",
+    "beforeMedianMs": 124,
+    "beforeRangeMs": [
+      116,
+      156
+    ],
+    "afterMedianMs": 136,
+    "afterRangeMs": [
+      128,
+      136
+    ],
+    "changePercent": 9.68,
+    "afterMaxCls": 0.011800893775720163,
+    "beforeLongTaskCounts": [
+      0,
+      0,
+      0
+    ],
+    "afterLongTaskCounts": [
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "profile": "desktop",
+    "url": "/skolas-brivlaiki/",
+    "beforeMedianMs": 108,
+    "beforeRangeMs": [
+      100,
+      136
+    ],
+    "afterMedianMs": 120,
+    "afterRangeMs": [
+      108,
+      148
+    ],
+    "changePercent": 11.11,
+    "afterMaxCls": 0.006395080398957263,
+    "beforeLongTaskCounts": [
+      0,
+      0,
+      0
+    ],
+    "afterLongTaskCounts": [
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "profile": "mobile-lab",
+    "url": "/",
+    "beforeMedianMs": 1932,
+    "beforeRangeMs": [
+      1908,
+      1968
+    ],
+    "afterMedianMs": 1584,
+    "afterRangeMs": [
+      1572,
+      1592
+    ],
+    "changePercent": -18.01,
+    "afterMaxCls": 0,
+    "beforeLongTaskCounts": [
+      0,
+      0,
+      0
+    ],
+    "afterLongTaskCounts": [
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "profile": "mobile-lab",
+    "url": "/kalendars/2027/",
+    "beforeMedianMs": 1428,
+    "beforeRangeMs": [
+      1424,
+      1488
+    ],
+    "afterMedianMs": 1180,
+    "afterRangeMs": [
+      1172,
+      1216
+    ],
+    "changePercent": -17.37,
+    "afterMaxCls": 0,
+    "beforeLongTaskCounts": [
+      0,
+      0,
+      0
+    ],
+    "afterLongTaskCounts": [
+      2,
+      1,
+      2
+    ]
+  },
+  {
+    "profile": "mobile-lab",
+    "url": "/kalendars/2028/februaris/",
+    "beforeMedianMs": 1300,
+    "beforeRangeMs": [
+      1284,
+      1312
+    ],
+    "afterMedianMs": 1076,
+    "afterRangeMs": [
+      1016,
+      1088
+    ],
+    "changePercent": -17.23,
+    "afterMaxCls": 0,
+    "beforeLongTaskCounts": [
+      0,
+      0,
+      0
+    ],
+    "afterLongTaskCounts": [
+      0,
+      1,
+      0
+    ]
+  },
+  {
+    "profile": "mobile-lab",
+    "url": "/skolas-brivlaiki/",
+    "beforeMedianMs": 1476,
+    "beforeRangeMs": [
+      1464,
+      1480
+    ],
+    "afterMedianMs": 1320,
+    "afterRangeMs": [
+      1284,
+      1364
+    ],
+    "changePercent": -10.57,
+    "afterMaxCls": 0,
+    "beforeLongTaskCounts": [
+      1,
+      0,
+      0
+    ],
+    "afterLongTaskCounts": [
+      1,
+      1,
+      1
+    ]
+  }
+]

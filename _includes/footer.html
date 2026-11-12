@@ -2,7 +2,7 @@
   <div class="footer-shell">
     <div class="footer-welcome">
       <div class="footer-story">
-        <p class="footer-source-line"><span aria-hidden="true">#</span><span>Tavs kalendāru, horoskopu un ikdienas rīku avots.</span></p>
+        <p class="footer-source-line"><span role="img" aria-label="Numur viens">#1</span><span>Tavs galvenais kalendāru, horoskopu un ikdienas rīku avots.</span></p>
         <a class="brand" href="/" aria-label="Kalendārs365 sākumlapa"><span class="brand-mark">{% include brand-mark.html id="footer-brand" %}</span><span>Kalendārs<span class="brand-number">365</span></span></a>
         <p class="footer-tagline">Laiks tam, kas tev svarīgs.</p>
         <p class="footer-description">Latvijas kalendāri, svētki un rīki pārdomātai ikdienai. Atrodi savu datumu, ieplāno atpūtu vai izveido ko personīgu.</p>
@@ -30,13 +30,16 @@
         <ul>{% for link in group.links %}<li><a href="{{ link.url }}"{% if page.url == link.url %} aria-current="page"{% endif %}>{{ link.title }}<svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"/></svg></a></li>{% endfor %}</ul>
       </nav>{% endfor %}
     </div>
-    <div class="footer-about-row">
-      <div class="footer-local-note"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><rect x="5" y="10" width="14" height="11" rx="3"/><path d="M8 10V7a4 4 0 0 1 8 0v3m-4 5v2"/></svg><span>Tavi personīgie plāni paliek šajā ierīcē.</span></div>
-      <nav class="footer-about-links" aria-label="Par vietni">{% for link in site.data.footer.about %}<a href="{{ link.url }}">{{ link.title }}</a>{% endfor %}</nav>
-    </div>
+    <section id="footer-connect" class="footer-about-row" aria-labelledby="footer-connect-title">
+      <div class="footer-connect-intro">
+        <img class="footer-connect-art" src="/assets/footer-links/planning.svg?v={{ site.data.build.asset_version }}" width="128" height="128" alt="" loading="lazy" decoding="async">
+        <div class="footer-connect-copy"><p class="footer-connect-eyebrow">KALENDĀRS365 · TAVAI IKDIENAI</p><h2 id="footer-connect-title">Ieplāno dienu.<br><strong>Atrodi laiku sev.</strong></h2></div>
+      </div>
+      <nav class="footer-about-links" aria-label="Par vietni">{% for link in site.data.footer.about %}<a href="{{ link.url }}"{% if page.url == link.url %} aria-current="page"{% endif %}><span class="footer-route-art" aria-hidden="true"><img src="/assets/footer-links/{{ link.icon }}.svg?v={{ site.data.build.asset_version }}" width="48" height="48" alt="" loading="lazy" decoding="async"></span><span class="footer-route-label">{{ link.title }}</span><svg class="footer-route-arrow" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></a>{% endfor %}</nav>
+    </section>
     <div class="footer-legal-row">
       <p class="footer-copyright"><span class="footer-copyright-year">© <span data-current-year>{{ site.time | date: '%Y' }}</span></span><a href="/" aria-label="Kalendārs365 sākumlapa">Kalendārs<span>365</span></a></p>
-      <nav class="footer-legal-links" aria-label="Privātums un piekļūstamība"><a href="/privatuma-politika/">Privātums</a><a href="/pieklustamiba/">Piekļūstamība</a><button type="button" class="text-button" data-action="consent"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M4 7h16M4 17h16"/><circle cx="9" cy="7" r="3"/><circle cx="15" cy="17" r="3"/></svg>Sīkdatņu izvēle</button></nav>
+      <nav class="footer-legal-links" aria-label="Privātums un piekļūstamība"><a href="/privatuma-politika/">Privātums</a><a href="/sikdatnu-politika/">Sīkdatnes</a><a href="/lietošanas-noteikumi/">Lietošanas noteikumi</a><a href="/pieklustamiba/">Piekļūstamība</a><button type="button" class="text-button" data-action="consent"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M4 7h16M4 17h16"/><circle cx="9" cy="7" r="3"/><circle cx="15" cy="17" r="3"/></svg>Privātuma izvēles</button></nav>
       <a class="footer-back-top" href="#main">Uz augšu <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 19V5m-6 6 6-6 6 6"/></svg></a>
     </div>
     <div class="footer-origin"><span class="footer-origin-signature"><svg class="footer-origin-heart" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 21C8.4 17.8 3 13.8 3 8.7A5.2 5.2 0 0 1 12 5a5.2 5.2 0 0 1 9 3.7C21 13.8 15.6 17.8 12 21Z"/></svg><span>Radīts ar mīlestību <strong>Rīgā</strong></span><svg class="footer-origin-flag" viewBox="0 0 40 20" role="img" aria-label="Latvijas karogs"><rect width="40" height="20" rx="2" fill="#9e1b34"/><path d="M0 8h40v4H0Z" fill="#fff"/></svg></span></div>

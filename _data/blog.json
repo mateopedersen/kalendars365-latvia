@@ -107,7 +107,19 @@
           "title": "Darba likums",
           "url": "https://likumi.lv/ta/id/26019-darba-likums"
         }
-      ]
+      ],
+      "guide": {
+        "points": [
+          "Svētku brīvdiena, atceres diena un saskaņots atvaļinājums ir dažādi ieraksti.",
+          "Vispirms salīdzini gada datumus, tad precizē konkrēto mēnesi un darba grafiku.",
+          "Saglabā atsevišķi ģimenes ieceri un vēl nesaskaņotu atvaļinājuma laiku."
+        ],
+        "action": {
+          "label": "Atvērt 2027. gada svētku kalendāru",
+          "href": "/svetku-dienas/2027/"
+        }
+      },
+      "contentSha256": "4539276c445e7679553f2a4b36761719670d5dd96307556fda701445fef7e823"
     },
     {
       "order": 2,
@@ -215,7 +227,19 @@
           "title": "USNO: kalendāri un to principi",
           "url": "https://aa.usno.navy.mil/faq/calendars"
         }
-      ]
+      ],
+      "guide": {
+        "points": [
+          "ISO nedēļa sākas pirmdienā; pirmajā nedēļā ir gada pirmais ceturtdienas datums.",
+          "Gadu mijā nedēļas gads var atšķirties no kalendārā gada.",
+          "Sūtot termiņu, pievieno arī sākuma un beigu datumu."
+        ],
+        "action": {
+          "label": "Apskatīt 2027. gada nedēļas",
+          "href": "/nedelas-kalendars/2027/"
+        }
+      },
+      "contentSha256": "335992cdfe97ed031f1d0550a3121f7ebade28f14c15ebb838b8366104b02ab1"
     },
     {
       "order": 3,
@@ -324,7 +348,19 @@
           "title": "USNO: kalendāri un to principi",
           "url": "https://aa.usno.navy.mil/faq/calendars"
         }
-      ]
+      ],
+      "guide": {
+        "points": [
+          "2028. gada februārī ir 29 dienas, bet gadā kopā ir 366 dienas.",
+          "Atkārtotam 29. februāra notikumam citos gados nepieciešama apzināta izvēle.",
+          "Pirms drukāšanas pārbaudi, vai veidnē ir visas februāra dienas."
+        ],
+        "action": {
+          "label": "Atvērt 2028. gada februāri",
+          "href": "/kalendars/2028/februaris/"
+        }
+      },
+      "contentSha256": "21c19c72d5d524777dd7fd7cbc662ff1d7cd4bd2431c68457b059def44a33712"
     },
     {
       "order": 4,
@@ -438,7 +474,19 @@
           "title": "Latvia Travel: Latvijas garšas",
           "url": "https://www.latvia.travel/en/flavours-latvia"
         }
-      ]
+      ],
+      "guide": {
+        "points": [
+          "Līgo diena ir 23. jūnijā, Jāņu diena ir 24. jūnijā.",
+          "Šie datumi nav tas pats, kas astronomiskais vasaras saulgriežu brīdis.",
+          "Kopīgā plānā iekļauj ceļu, viesus un variantu lietainam laikam."
+        ],
+        "action": {
+          "label": "Apskatīt Līgo dienas datumus",
+          "href": "/svetki-un-tradicijas/ligo-diena/"
+        }
+      },
+      "contentSha256": "b76b4ca4653def5e61edcfbfee10c3fb7b07cc99337b7bf63e3d2d407d01224f"
     },
     {
       "order": 5,
@@ -551,7 +599,19 @@
           "title": "IZM: apstiprināts 2026./2027. mācību gada kalendārs",
           "url": "https://www.izm.gov.lv/lv/jaunums/apstiprinati-20262027-macibu-gada-sakuma-beigu-un-brivdienu-laiki"
         }
-      ]
+      ],
+      "guide": {
+        "points": [
+          "2027. gadā Lielā piektdiena ir 26. martā; Lieldienas ir 28. un 29. martā.",
+          "Skolas brīvlaiks jāpārbauda atsevišķi no svētku brīvdienām.",
+          "Marta nogales āra pasākumam sagatavo arī telpu variantu."
+        ],
+        "action": {
+          "label": "Atvērt 2027. gada marta svētkus",
+          "href": "/svetku-dienas/2027/marts/"
+        }
+      },
+      "contentSha256": "73ce5f2a57a2b9d5dbbd7939c7ac7b0481e2d66bd8d75d888bc7405f793c7c48"
     },
     {
       "order": 6,
@@ -659,7 +719,19 @@
           "title": "VVC: tradicionālais un paplašinātais saraksts atvērtajos datos",
           "url": "https://www.vvc.gov.lv/lv/jaunums/latviesu-tradicionalais-un-paplasinatais-kalendarvardu-saraksts-pieejams-csv-atverto-datu-formata"
         }
-      ]
+      ],
+      "guide": {
+        "points": [
+          "Atšķir tradicionālo sarakstu no paplašinātā kalendārvārdu saraksta.",
+          "Meklē vārda precīzo rakstību, saglabājot garumzīmes un mīkstinājuma zīmes.",
+          "Nesakritību gadījumā salīdzini saraksta veidu un VVC avotu."
+        ],
+        "action": {
+          "label": "Meklēt vārda dienu",
+          "href": "/varda-dienas/"
+        }
+      },
+      "contentSha256": "7fdbe7807ca25be890d6fd711067f86c7cfeb26ef33f7083e5c7bb44136acbec"
     },
     {
       "order": 7,
@@ -773,7 +845,19 @@
           "title": "IZM: precizēts valsts pārbaudes darbu grafiks",
           "url": "https://www.izm.gov.lv/lv/jaunums/precizets-20262027-macibu-gada-valsts-parbaudes-darbu-grafiks"
         }
-      ]
+      ],
+      "guide": {
+        "points": [
+          "2027. kalendārais gads aptver divus dažādus mācību gadus.",
+          "Pārbaudi skolēna klasi, publicētos termiņus un savas skolas paziņojumus.",
+          "Eksāmenu un nodarbību datumus glabā atsevišķi no brīvlaika."
+        ],
+        "action": {
+          "label": "Atvērt skolas brīvlaiku pārskatu",
+          "href": "/skolas-brivlaiki/"
+        }
+      },
+      "contentSha256": "5dacbdad534dc6d6a0c275fb4f43c3fa50e2ec1411b2f2df83ca98e84dda9b98"
     },
     {
       "order": 8,
@@ -886,7 +970,19 @@
           "title": "AIKA: augstākās izglītības iestāžu reģistrs",
           "url": "https://eplatforma.aika.lv/index.php?r=site/hei/list"
         }
-      ]
+      ],
+      "guide": {
+        "points": [
+          "Izvēlies savas augstskolas un programmas akadēmisko kalendāru.",
+          "Lekciju pārtraukums pats par sevi nenozīmē brīvu laiku bez studiju uzdevumiem.",
+          "Vienā plānā atzīmē sesiju, praksi un personīgos darba termiņus."
+        ],
+        "action": {
+          "label": "Atrast augstskolas kalendāru",
+          "href": "/studiju-kalendars/"
+        }
+      },
+      "contentSha256": "4cb6414f8d59352b6b2848bed8e18bd08cbe6d96619d5c33e3e7d8d7cfe6176f"
     },
     {
       "order": 9,
@@ -990,7 +1086,19 @@
           "title": "IZM: apstiprināts 2026./2027. mācību gada kalendārs",
           "url": "https://www.izm.gov.lv/lv/jaunums/apstiprinati-20262027-macibu-gada-sakuma-beigu-un-brivdienu-laiki"
         }
-      ]
+      ],
+      "guide": {
+        "points": [
+          "Vienojieties par vienu galveno, aktuālo nedēļas plānu.",
+          "Pie ieraksta norādi laiku, vietu un cilvēku, kurš par to atbild.",
+          "Pirms kopīgošanas pārbaudi, vai izdrukā nav privātu piezīmju."
+        ],
+        "action": {
+          "label": "Izveidot ģimenes nedēļas plānu",
+          "href": "/gimenes-kalendars/"
+        }
+      },
+      "contentSha256": "f79ab08e92892d42a59f1a489e9383d41409b6d51b0b8235be3fbeb6ae19523f"
     },
     {
       "order": 10,
@@ -1099,7 +1207,19 @@
           "title": "Latvijas svētku, atceres un atzīmējamo dienu likums",
           "url": "https://likumi.lv/ta/id/72608-par-svetku-atceres-un-atzimejamam-dienam"
         }
-      ]
+      ],
+      "guide": {
+        "points": [
+          "Pirms aprēķina izvēlies darba nedēļu, perioda robežas un svētku atskaitīšanu.",
+          "Dienu skaits un faktiskās darba stundas var prasīt atšķirīgus pieņēmumus.",
+          "Saglabā ievades kopā ar rezultātu, lai aprēķinu var atkārtot."
+        ],
+        "action": {
+          "label": "Pārbaudīt darba dienu aprēķinu",
+          "href": "/darba-dienu-kalendars/"
+        }
+      },
+      "contentSha256": "7d1a1491a6ffe8fd26a38b7d37b94c3f1d3588365514ef5dcdaa487df6fc7773"
     },
     {
       "order": 11,
@@ -1208,7 +1328,19 @@
           "title": "Darba likums",
           "url": "https://likumi.lv/ta/id/26019-darba-likums"
         }
-      ]
+      ],
+      "guide": {
+        "points": [
+          "Salīdzini konkrētus datumu intervālus, nevis tikai kopējo brīvo dienu skaitu.",
+          "Nošķir svētkus un nedēļas nogales no atvaļinājuma, kas vēl jāsaskaņo.",
+          "Brauciena plānā atstāj laiku ceļam un atgriešanās dienai."
+        ],
+        "action": {
+          "label": "Salīdzināt 2027. gada garās brīvdienas",
+          "href": "/garas-brivdienas/2027/"
+        }
+      },
+      "contentSha256": "71c078813d653f356e88fe153fb54622d984b549f0d0226c823d47efb3fc86e9"
     },
     {
       "order": 12,
@@ -1312,7 +1444,19 @@
           "title": "Wikimedia Commons: failu izmantošana un licences",
           "url": "https://commons.wikimedia.org/wiki/Commons:Reusing_content_outside_Wikimedia"
         }
-      ]
+      ],
+      "guide": {
+        "points": [
+          "Sāc ar vienu mēnesi un pārbaudi datumu salasāmību faktiskajā papīra izmērā.",
+          "Izvēlies fotoattēlu, kuru drīksti izmantot, un pārbaudi tā izšķirtspēju.",
+          "Pirms visa komplekta drukāšanas izdrukā vienu izmēģinājuma lapu."
+        ],
+        "action": {
+          "label": "Atvērt kalendāra veidotāju",
+          "href": "/izveidot-kalendaru/"
+        }
+      },
+      "contentSha256": "cc88ee87021c06011207b7814084b80639edc3cb0c4b6339c0a1e5d9fff17b58"
     },
     {
       "order": 13,
@@ -1420,7 +1564,19 @@
           "title": "USNO: lēkta, rieta un krēslas definīcijas",
           "url": "https://aa.usno.navy.mil/faq/RST_defs"
         }
-      ]
+      ],
+      "guide": {
+        "points": [
+          "Pulksteņa laika josla visā Latvijā ir viena, bet Saules laiki atšķiras pēc koordinātām.",
+          "Izvēlies pilsētu un datumu, kurā plāno atrasties konkrētajā vietā.",
+          "Aprēķinātais laiks neņem vērā katru ēku, koku vai mākoņu segu."
+        ],
+        "action": {
+          "label": "Salīdzināt Saules laikus pilsētās",
+          "href": "/saullekts-saulriets/"
+        }
+      },
+      "contentSha256": "4b61d539861bd489782481d1a3eb39f8dcaba5188328398381aa27b3b933a69d"
     },
     {
       "order": 14,
@@ -1527,7 +1683,19 @@
           "title": "USNO: Saules un Mēness dati vienai dienai",
           "url": "https://aa.usno.navy.mil/data/RS_OneDay"
         }
-      ]
+      ],
+      "guide": {
+        "points": [
+          "Galvenā Mēness fāze ir noteikts brīdis; dienas attēls rāda izvēlētās stundas apgaismojumu.",
+          "UTC un Latvijas laiks var norādīt atšķirīgus kalendāra datumus vienam notikumam.",
+          "Mēness apgaismojums nepasaka, vai tas tavā vietā ir virs horizonta."
+        ],
+        "action": {
+          "label": "Izvēlēties Mēness kalendāra mēnesi",
+          "href": "/meness-kalendars/"
+        }
+      },
+      "contentSha256": "7e17767e4620d69c2962e26ec96f7f8479bc1f66ce5bedb522650aed6f7a744e"
     },
     {
       "order": 15,
@@ -1635,7 +1803,19 @@
           "title": "USNO: Saules un Mēness dati vienai dienai",
           "url": "https://aa.usno.navy.mil/data/RS_OneDay"
         }
-      ]
+      ],
+      "guide": {
+        "points": [
+          "Zeltainā stunda nav visās vietās vienāds, tieši stundu ilgs intervāls.",
+          "Pārbaudi objekta virzienu, pilsētu un izvēlētā datuma Saules laikus.",
+          "Ierodies ar laika rezervi un pielāgo ieceri faktiskajiem laikapstākļiem."
+        ],
+        "action": {
+          "label": "Izpētīt izvēlētās dienas gaismu",
+          "href": "/saullekts-saulriets/"
+        }
+      },
+      "contentSha256": "d6d2246a7819581f09af406c6fef6cf0975bfa040f2699b5ebdf42bdbc58111b"
     },
     {
       "order": 16,
@@ -1749,7 +1929,19 @@
           "title": "NASA: komēta 109P/Swift–Tuttle",
           "url": "https://science.nasa.gov/solar-system/comets/109p-swift-tuttle/"
         }
-      ]
+      ],
+      "guide": {
+        "points": [
+          "Izmanto konkrētā gada informāciju, nevis automātiski pārkopētu iepriekšējā gada maksimumu.",
+          "Pirms novērojuma salīdzini Mēness gaismu, mākoņu prognozi un redzamību.",
+          "Meteoru skaits nav garantēts; pieraksti arī novērojuma laiku un apstākļus."
+        ],
+        "action": {
+          "label": "Atvērt Perseīdu novērojumu pārskatu",
+          "href": "/perseidas/"
+        }
+      },
+      "contentSha256": "a6de545bbaf68f10567943df569fb00e0a17abae36e487e9c01a5e056483f077"
     },
     {
       "order": 17,
@@ -1857,7 +2049,19 @@
           "title": "Dārzkopības institūts: rokasgrāmata dārziem",
           "url": "https://www.darzkopibasinstituts.lv/sites/dobele/files/files/articles/RokasgramataDarzi2018_lv.pdf"
         }
-      ]
+      ],
+      "guide": {
+        "points": [
+          "Sējas logs ir orientieris, kas jāsalīdzina ar augsnes un laikapstākļu stāvokli.",
+          "Atsevišķi plāno sēju telpās, neapkurinātā siltumnīcā un dobē.",
+          "Pieraksti šķirni un faktisko sējas datumu, lai nākamgad būtu salīdzināms pamats."
+        ],
+        "action": {
+          "label": "Izvēlēties sējas mēnesi un kultūru",
+          "href": "/sejas-kalendars/"
+        }
+      },
+      "contentSha256": "549c158b4d47e17b02e4e89d438e509396ed6d15ca7be27e4f658c354ff40d89"
     },
     {
       "order": 18,
@@ -1965,7 +2169,19 @@
           "title": "Dārzkopības institūts: aprīļa darbi un dārzeņu sēja",
           "url": "https://www.darzkopibasinstituts.lv/lv/raksts/2020-04-06/stastam-par-aprili-daramajiem-darbiem-un-darzenu-sesanu"
         }
-      ]
+      ],
+      "guide": {
+        "points": [
+          "Vispirms nosaki, kur tomāti augs, un tikai tad plāno sēju.",
+          "Ņem vērā šķirnes norādes, gaismu, vietu un plānoto izstādīšanu.",
+          "Mēness attēls neaizstāj augsnes, temperatūras un auga stāvokļa novērtēšanu."
+        ],
+        "action": {
+          "label": "Atvērt tomātu audzēšanas kalendāru",
+          "href": "/sejas-kalendars/tomati/"
+        }
+      },
+      "contentSha256": "e0ce4bcb2ad6d2dfcc5c2d62e97a54ecc2e5d958189e59e7d60e5e6922b28f6b"
     },
     {
       "order": 19,
@@ -2069,7 +2285,19 @@
           "title": "USNO: ekvinokcijas un saulgrieži",
           "url": "https://aa.usno.navy.mil/data/Earth_Seasons"
         }
-      ]
+      ],
+      "guide": {
+        "points": [
+          "Kalendārie rudens mēneši, astronomiskais rudens un laikapstākļi apraksta atšķirīgas lietas.",
+          "Izbraucienam aprēķini konkrētās vietas dienasgaismu un pārbaudi pieejamību.",
+          "Lapu krāsu un sausu taku nevar garantēt tikai pēc kalendāra datuma."
+        ],
+        "action": {
+          "label": "Salīdzināt gadalaiku sākumu",
+          "href": "/gadalaiki/"
+        }
+      },
+      "contentSha256": "ed010b72b8ac7c086376b030ffe6d1e96742eae9be954fcd1838130daeacc39c"
     },
     {
       "order": 20,
@@ -2183,7 +2411,19 @@
           "title": "USNO: saullēkts un saulriets saulgriežu tuvumā",
           "url": "https://aa.usno.navy.mil/faq/rs_solstices"
         }
-      ]
+      ],
+      "guide": {
+        "points": [
+          "Dienas garums ir intervāls starp aprēķināto saullēktu un saulrietu.",
+          "Tas nav tas pats, kas faktiskais saulainā laika ilgums.",
+          "Salīdzini galamērķa datumus un rezervē dienasgaismu svarīgākajai āra nodarbei."
+        ],
+        "action": {
+          "label": "Salīdzināt dienas garumu",
+          "href": "/dienas-garums/"
+        }
+      },
+      "contentSha256": "b4063631dcd53766dd1bb01d79eb81dcd46fa62092c75d0f1b60e65d52610fab"
     }
   ],
   "count": 20,

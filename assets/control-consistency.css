@@ -195,3 +195,248 @@
     background-image: none;
   }
 }
+/* Four primary destinations share the burgundy header without squeezing labels. */
+.topbar .primary-nav--expanded{gap:clamp(12px,1.15vw,22px);min-width:0}
+.topbar .primary-nav--expanded a{gap:8px;white-space:nowrap;font-size:14px;min-width:0}
+@media(max-width:1380px){.topbar .primary-nav--expanded a{font-size:13px}.topbar .primary-nav--expanded .nav-ice-icon{width:34px;height:34px}}
+@media(max-width:1050px){.topbar:has(.primary-nav--expanded){grid-template-columns:minmax(0,1fr) auto;gap:10px 18px}.topbar:has(.primary-nav--expanded)>.brand{grid-column:1;grid-row:1}.topbar:has(.primary-nav--expanded)>.country{grid-column:2;grid-row:1}.topbar .primary-nav--expanded{display:grid;grid-column:1/-1;grid-row:2;grid-template-columns:repeat(4,minmax(0,1fr));gap:8px}.topbar .primary-nav--expanded a{justify-content:center;min-height:46px}.topbar:has(.primary-nav--expanded)>.header-search-wrap{grid-column:1/-1;grid-row:3}}
+@media(max-width:700px){.topbar .primary-nav--expanded{grid-template-columns:repeat(2,minmax(0,1fr));gap:3px 10px}.topbar .primary-nav--expanded a:nth-child(n){font-size:13px;justify-content:flex-start;padding:5px 8px;min-height:44px}.topbar .primary-nav--expanded .nav-ice-icon{width:30px;height:30px;flex-shrink:0}}
+@media(max-width:360px){.topbar .primary-nav--expanded a:nth-child(n){padding:4px;font-size:12px;gap:6px}.topbar .primary-nav--expanded .nav-ice-icon{width:27px;height:27px}}
+
+/* Keep explanatory copy clear of actions. Empty statuses reserve no space,
+   and the rules stay out of calendar print layouts. */
+@media screen {
+  main :is(.tool-panel, .extra-tool) > :is(form, .actions, .planning-result, button, a.primary-button) + p:not(:empty),
+  main .planning-form > button + p.planning-status:not(:empty),
+  main .useful-panel > .useful-actions + p:not(:empty),
+  main .category-control-panel > button + .category-hint,
+  main .organizer-card > form + .organizer-hint,
+  main .garden-variety-tool > form + .garden-source-limit,
+  main #sun-year > button + p,
+  main #sun-year > p + button,
+  main .zodiac-index > p.lead + a.primary-button {
+    margin-block-start: 16px;
+  }
+  main details > summary + p:not(:empty) { margin-block-start: 12px; }
+  main #city-card .city-time-note { margin-block-start: 12px; }
+  main .week-day p.empty-state,
+  main .category-calendar-app .week-day p.empty-state { padding-block: 12px; }
+  main #family-events form + div > p.organizer-empty:first-child { padding-block-start: 12px; }
+  main .names-calendar-day p { margin-block-end: 12px; }
+  main .useful-panel > :is([data-useful-source-results], [data-useful-saved-list]):not(:empty) { margin-block-start: 12px; }
+  main details.weekend-method > summary,
+  main .weekend-card-details > summary { min-height: 44px; }
+  main :is(.v2-answers, .weekend-card-details, .weekend-method) summary > span {
+    flex-shrink: 0;
+    margin-inline-end: 10px;
+  }
+  main .trust-faq-item summary > span {
+    margin-block: 6px;
+    margin-inline-end: 6px;
+  }
+}
+@media screen and (max-width: 700px) {
+  main .school-section-heading { row-gap: 16px; }
+}
+
+/* Action links, upload labels and buttons share the same text/icon geometry.
+   Calendar cells and illustrated preview tiles keep their own layout. */
+@media screen {
+  :root main :is(
+    .actions, .calendar-heading-actions, .category-data-actions,
+    .category-export-buttons, .school-opening-actions, .school-uni-actions,
+    .g-plan-actions, .weekend-card-actions, .work-result-actions,
+    .vacation-actions, .trust-actions, .horoscope-sign-card-actions,
+    .ascendant-actions, .zodiac-wheel-controls, .recovery-actions,
+    .v2-preview-downloads, .useful-actions
+  ) {
+    align-items: stretch;
+    gap: 10px;
+  }
+  :root main :is(
+    .actions, .calendar-heading-actions, .category-data-actions,
+    .category-export-buttons, .school-opening-actions, .school-uni-actions,
+    .g-plan-actions, .weekend-card-actions, .work-result-actions,
+    .vacation-actions, .trust-actions, .horoscope-sign-card-actions,
+    .ascendant-actions, .zodiac-wheel-controls, .recovery-actions,
+    .v2-preview-downloads, .useful-actions
+  ) > :is(a, button, .button, .organizer-file-button, .category-file-button, .g-import-button) {
+    box-sizing: border-box;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    align-self: stretch;
+    gap: 8px;
+    min-width: 0;
+    max-width: 100%;
+    min-height: var(--k365-action-size, 44px);
+    height: auto;
+    margin-block: 0;
+    padding: 10px 14px;
+    font-family: inherit;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.3;
+    text-align: center;
+    white-space: normal;
+    overflow-wrap: anywhere;
+  }
+  :root main :is(
+    .actions, .calendar-heading-actions, .category-data-actions,
+    .category-export-buttons, .school-opening-actions, .school-uni-actions,
+    .g-plan-actions, .weekend-card-actions, .work-result-actions,
+    .vacation-actions, .trust-actions, .horoscope-sign-card-actions,
+    .ascendant-actions, .zodiac-wheel-controls, .recovery-actions,
+    .v2-preview-downloads, .useful-actions
+  ) > :is(a, button, .button, .organizer-file-button, .category-file-button, .g-import-button) > :is(svg, img.icon, img.studio-icon, .icon) {
+    width: 20px;
+    height: 20px;
+    flex: 0 0 20px;
+    object-fit: contain;
+  }
+  :root main :is(.school-opening-actions, .category-export-buttons, .ascendant-actions, .recovery-actions) {
+    --k365-action-size: 48px;
+  }
+  :root main :is(.school-opening-actions, .category-export-buttons, .g-plan-actions) {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    grid-auto-rows: 1fr;
+  }
+  :root main .g-plan-actions { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+  :root main .category-export-buttons > :last-child { grid-column: auto; }
+  :root main .vacation-export-actions {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 170px), 1fr));
+    grid-auto-rows: 1fr;
+  }
+  :root main .category-filters > button { font-weight: 700; }
+  :root main .horoscope-sign-card-actions > a { flex: 1 1 130px; }
+  :root main .horoscope-sign-card-actions > button { flex: 0 0 auto; }
+  :root main .zodiac-wheel-controls > button[data-wheel-turn] {
+    width: 44px;
+    flex: 0 0 44px;
+    padding-inline: 10px;
+  }
+}
+@media screen and (max-width: 1050px) {
+  :root main .school-opening-actions { grid-template-columns: minmax(0, 1fr); }
+}
+@media screen and (max-width: 700px) {
+  :root main :is(.category-export-buttons, .g-plan-actions, .vacation-export-actions) {
+    grid-template-columns: minmax(0, 1fr);
+  }
+  :root main .useful-outline--compact .useful-actions {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    grid-auto-rows: 1fr;
+    width: 100%;
+    gap: 8px;
+  }
+  :root main .useful-outline--compact .useful-actions > button {
+    padding: 6px;
+    font-size: 12px;
+  }
+}
+
+/* The secondary navigation uses larger, optically centered vector objects. */
+@media screen {
+  .site-header .secondary-nav {
+    --nav-tool-size: 40px;
+    --nav-tool-font: 16px;
+    --nav-tool-height: 60px;
+    grid-template-columns: auto repeat(3, minmax(0, 1fr)) minmax(180px, auto);
+    align-items: stretch;
+    gap: 10px;
+  }
+  .site-header .secondary-nav > .nav-shortcut,
+  .site-header .secondary-nav > .nav-more > summary {
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    min-width: 0;
+    min-height: var(--nav-tool-height);
+    height: 100%;
+    margin: 0;
+    padding: 8px 14px;
+    border-radius: 10px;
+    font-family: inherit;
+    font-size: var(--nav-tool-font);
+    font-weight: 750;
+    line-height: 1.25;
+    text-align: center;
+    white-space: normal;
+  }
+  .site-header .secondary-nav .nav-tool-icon {
+    display: block;
+    width: var(--nav-tool-size);
+    height: var(--nav-tool-size);
+    min-width: var(--nav-tool-size);
+    flex: 0 0 var(--nav-tool-size);
+    margin: 0;
+    object-fit: contain;
+    filter: drop-shadow(0 2px 2px #39253412);
+  }
+  .site-header .secondary-nav .nav-tool-label {
+    display: block;
+    min-width: 0;
+    margin: 0;
+    font: inherit;
+    color: inherit;
+    line-height: inherit;
+    text-align: center;
+    opacity: 1;
+    overflow-wrap: anywhere;
+  }
+  .site-header .secondary-nav > .nav-more > summary {
+    position: relative;
+    padding-inline: 34px;
+  }
+  .site-header .secondary-nav .nav-tool-chevron {
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    right: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  .site-header .secondary-nav .nav-more[open] > summary .nav-tool-chevron {
+    transform: translateY(-50%) rotate(180deg);
+  }
+}
+@media screen and (max-width: 1280px) {
+  .site-header .secondary-nav { --nav-tool-size: 38px; --nav-tool-font: 15.5px; --nav-tool-height: 58px; }
+}
+@media screen and (max-width: 1040px) {
+  .site-header .secondary-nav { grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 8px; }
+  .site-header .secondary-nav > .nav-years { grid-column: 1 / -1; border-right: 0; padding-right: 0; }
+}
+@media screen and (max-width: 800px) {
+  .site-header .secondary-nav { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+@media screen and (max-width: 600px) {
+  .site-header .secondary-nav { --nav-tool-size: 34px; --nav-tool-font: 14.5px; }
+  .site-header .secondary-nav > .nav-shortcut,
+  .site-header .secondary-nav > .nav-more > summary { gap: 8px; padding-inline: 10px; }
+  .site-header .secondary-nav > .nav-more > summary { padding-inline: 30px; }
+}
+@media screen and (max-width: 360px) {
+  .site-header .secondary-nav { --nav-tool-size: 30px; --nav-tool-font: 14px; }
+  .site-header .secondary-nav > .nav-shortcut { padding-inline: 8px; gap: 7px; }
+  .site-header .secondary-nav > .nav-more > summary { padding-inline: 26px; gap: 7px; }
+  .site-header .secondary-nav .nav-tool-chevron { width: 12px; height: 12px; right: 9px; }
+}
+.file-action-icon{display:inline-block;width:24px!important;height:24px!important;flex:0 0 24px;vertical-align:middle;pointer-events:none}
+:is(button,a).has-file-action-icon{display:inline-flex;align-items:center;justify-content:center;gap:9px;min-height:44px;max-width:100%;white-space:normal}
+label.has-file-action-icon:not(.studio-upload){display:inline-flex;align-items:center;gap:9px;min-height:44px}
+:is(button,a,label).has-file-action-icon .file-action-icon{margin:0}
+.notes-card .note-to-event{display:flex;align-items:center;justify-content:center;gap:8px;width:100%;margin-top:12px;padding:10px 12px;min-height:44px;font-size:12px;font-weight:700;line-height:1.45;white-space:normal}
+.note-to-event .icon{flex:0 0 24px;width:24px;height:24px}
+.note-to-event:disabled{opacity:.5;cursor:default}
+.day-button{position:relative}.day-note-indicator{position:absolute;top:6px;left:6px;display:block;width:17px;height:17px;pointer-events:none}.day-note-indicator .icon{width:17px;height:17px}
+@media screen{:root main :is(.category-data-actions,.category-export-buttons,.g-plan-actions,.vacation-export-actions,.work-result-actions,.useful-actions,.v2-preview-downloads,.school-uni-actions,.calendar-footer .actions,.collection-local-tools .actions)>:is(a,button,label){min-height:48px}}
+
+/* Make text links distinguishable without relying on their colour. */
+main p a:not([class*="button"]):not(.primary){text-decoration:underline;text-underline-offset:3px}
+.category-source-details a{display:inline-block;min-height:24px;padding-block:3px}

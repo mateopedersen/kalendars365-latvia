@@ -1,8 +1,8 @@
 # frozen_string_literal: true
 # Calendar grids and their generated year/month/week/download variants are outside
 # this enrichment pass. Informational articles and purpose-built tools are included.
-CALENDAR_PAGE_FAMILIES = %w[year calendar_month month_index lunar_year lunar_month week_index iso_week print_index print_month name_calendar name_day_month work_year work_month holiday_year holiday_month memorial_year garden_month school_academic school_year_calendar].freeze
-CALENDAR_PAGE_ROOTS = %w[/ /kalendars/ /menesa-kalendars/ /nedelas-kalendars/ /meness-kalendars/ /pdf-kalendari/ /kalendars-ar-vardu/ /tukss-kalendars/ /dzimsanas-dienu-kalendars/ /dienas-kalendars/ /dienas-planotajs/ /skolas-kalendars/ /izveidot-kalendaru/].freeze
+CALENDAR_PAGE_FAMILIES = %w[year calendar_month month_index lunar_year lunar_month week_index iso_week long_weekends print_index print_month name_calendar name_day_month work_year work_month holiday_year holiday_month memorial_year garden_month school_academic school_year_calendar].freeze
+CALENDAR_PAGE_ROOTS = %w[/ /kalendars/ /menesa-kalendars/ /nedelas-kalendars/ /meness-kalendars/ /pdf-kalendari/ /kalendars-ar-vardu/ /tukss-kalendars/ /dzimsanas-dienu-kalendars/ /dienas-kalendars/ /dienas-planotajs/ /skolas-kalendars/ /izveidot-kalendaru/ /garas-brivdienas/].freeze
 def useful_page?(url,family)
  !CALENDAR_PAGE_FAMILIES.include?(family) && !CALENDAR_PAGE_ROOTS.include?(url)
 end
@@ -20,6 +20,15 @@ def useful_kind(url,family)
  return 'directory' if url=='/visi-riki/'
  'reading'
 end
+def useful_action_dock_markup(share: true)
+  icon = ->(path) { %(<svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">#{path}</svg>) }
+  bookmark = icon.call('<path d="M7 3.5h10a1 1 0 0 1 1 1V21l-6-4-6 4V4.5a1 1 0 0 1 1-1Z"/><path class="page-action-bookmark-check" d="m9 9 2 2 4-4"/>')
+  link = icon.call('<path d="m10 13 4-4m-6 1L5.5 12.5a3.9 3.9 0 0 0 5.5 5.5l2.5-2.5m-3-7L13 6a3.9 3.9 0 0 1 5.5 5.5L16 14"/>')
+  share_icon = icon.call('<path d="M12 16V3.5m-4.5 4.5L12 3.5 16.5 8M5 13.5V20h14v-6.5"/>')
+  share_button = share ? %(<button type="button" class="page-action-button page-action-button--share" data-share-open data-share-kind="topic" aria-label="Kopīgot šo lapu" title="Kopīgot šo lapu">#{share_icon}<span>Kopīgot</span></button>) : ''
+  %(<div class="page-action-cluster"><div class="page-action-dock" data-page-action-dock role="group" aria-label="Saglabāšana un kopīgošana">#{share_button}<button type="button" class="page-action-button" data-useful-save aria-pressed="false" aria-label="Saglabāt lasīšanai" title="Saglabāt lasīšanai šajā ierīcē" disabled>#{bookmark}<span class="page-action-label">Saglabāt</span></button><button type="button" class="page-action-button" data-useful-copy-link aria-label="Kopēt saiti šai lapai" title="Kopēt lapas saiti" disabled>#{link}<span class="page-action-label">Kopēt saiti</span></button></div><p class="page-action-status" data-page-action-status role="status" aria-live="polite"></p><div class="page-action-copy-fallback" data-page-action-copy-fallback hidden><label>Saite kopēšanai<input type="text" readonly aria-label="Lapas saite kopēšanai" aria-describedby="page-copy-note"></label><button type="button" data-page-action-copy-close aria-label="Aizvērt saiti kopēšanai">×</button><p id="page-copy-note">Pārlūks neļāva kopēt automātiski. Nokopē iezīmēto saiti.</p></div></div>)
+end
+
 def useful_pages_markup(url,family,title,body)
  return body unless useful_page?(url,family)
  kind=useful_kind(url,family);slug=url.split('/').last
@@ -29,7 +38,6 @@ def useful_pages_markup(url,family,title,body)
   config[:dates]=DATA.fetch('moon',[]).select{|r|r['phaseKey']==phase && r['date']>='2027-01-01' && r['date']<='2030-12-31'}
   body=''
  end
- body=planning_panel('leave',2027)+body if url=='/garas-brivdienas/'
  if kind=='observances'
   month=SLUGS.index(slug)
   config[:dates]=HOLIDAYS.select{|r|r['date']>='2027-01-01' && r['date']<='2030-12-31' && (month.nil? || r['date'][5,2].to_i==month+1) && (url.start_with?('/atceres-dienas/') ? !r['dayOff'] : url=='/svetku-dienas/' ? r['dayOff'] : true)}
@@ -66,8 +74,10 @@ def useful_pages_markup(url,family,title,body)
  else
   ''
  end
- # Every included page gets an actionable, section-specific reading navigator.
- nav='<nav class="useful-outline" data-useful-outline aria-label="Šajā lapā"><div><strong>Šajā lapā</strong><div class="useful-actions"><button type="button" data-useful-save aria-pressed="false">Saglabāt lasīšanai</button><button type="button" data-useful-copy-link>Kopēt lapas saiti</button></div></div><div data-useful-outline-links></div></nav>'
+ # Topic actions live in a compact rail; do not recreate the long generated outline.
+ dock=useful_action_dock_markup(share: !%w[licenses sources contact directory].include?(kind))
+ nav=%(<aside class="page-action-rail" data-page-action-rail aria-label="Lapas darbības"><span class="page-action-rail-label">ŠĪ LAPA</span>#{dock}</aside>)
+ nav='' if kind=='reflection'
  section=panel.empty? ? '' : '<section class="useful-panel" id="praktiski-tev" data-useful-panel>'+panel+'<p class="useful-status" role="status" data-useful-status></p></section>'
  data='<script type="application/json" data-useful-config>'+JSON.generate(config).gsub('<','\\u003c')+'</script>'
  nav+body+section+data

@@ -2,14 +2,15 @@
 'use strict';
 const key='kalendars365.v1';let record=null;
 try{record=JSON.parse(localStorage.getItem(key)||'null');}catch{}
+if(record&&typeof record==='object'&&!Array.isArray(record))record={...record,consent:window.K365PrivacyChoice?.normalize(record.consent)||null};
 window.K365BootstrapStore=record;
 document.documentElement.toggleAttribute('data-consent-saved',Boolean(record&&record.consent));
-// The two choices work even while the larger calendar application is loading.
+// This acknowledges an information notice, without authorizing future trackers.
 document.addEventListener('click',event=>{
  const button=event.target.closest?.('[data-consent]');
- if(!button||window.K365||!['necessary','all'].includes(button.dataset.consent))return;
+ if(!button||window.K365||button.dataset.consent!=='necessary'||!window.K365PrivacyChoice)return;
  event.preventDefault();event.stopImmediatePropagation();
- record={...(record&&typeof record==='object'?record:{}),consent:{choice:button.dataset.consent,date:new Date().toISOString(),version:1,analytics:false,advertising:false}};
+ record={...(record&&typeof record==='object'&&!Array.isArray(record)?record:{}),consent:window.K365PrivacyChoice.acknowledge()};
  window.K365BootstrapStore=record;
  try{localStorage.setItem(key,JSON.stringify(record));}catch{}
  document.documentElement.setAttribute('data-consent-saved','');

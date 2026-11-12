@@ -1,0 +1,115 @@
+{
+  "version": 1,
+  "stride": 9,
+  "format": "float32-le: position XYZ, normal XYZ, linear base RGB",
+  "models": {
+    "auns": {
+      "name": "Auns",
+      "element": "Uguns",
+      "vertices": 31476,
+      "bytes": 1133136,
+      "sha256": "bd7a00982b7e1718b603dca82d194db7f5a82d84b6a37a2c2fc03a0a7fee2a1c",
+      "source": "Original Kalendārs365 solid geometry",
+      "materials": "Ivory, brass and enamel"
+    },
+    "versis": {
+      "name": "Vērsis",
+      "element": "Zeme",
+      "vertices": 10440,
+      "bytes": 375840,
+      "sha256": "d4d5517d6be2170e147bccdd9e639fed44ac2a7f0ac2d803ed1891d59b4a1234",
+      "source": "Original Kalendārs365 solid geometry",
+      "materials": "Ivory, brass and enamel"
+    },
+    "dvini": {
+      "name": "Dvīņi",
+      "element": "Gaiss",
+      "vertices": 14436,
+      "bytes": 519696,
+      "sha256": "1537ee4d239e5d3a255735d546df3eb049c49ae29141184c81751ed2b8c786b8",
+      "source": "Original Kalendārs365 solid geometry",
+      "materials": "Ivory, brass and enamel"
+    },
+    "vezis": {
+      "name": "Vēzis",
+      "element": "Ūdens",
+      "vertices": 11748,
+      "bytes": 422928,
+      "sha256": "e06c30a5d6368c7919e8379c0bb60f48b885ea217d5602b978f1d63854b9d6b8",
+      "source": "Original Kalendārs365 solid geometry",
+      "materials": "Ivory, brass and enamel"
+    },
+    "lauva": {
+      "name": "Lauva",
+      "element": "Uguns",
+      "vertices": 17184,
+      "bytes": 618624,
+      "sha256": "aa6919e8ec9ee3a10eb2c054cd7622b1590bc518dc9709afbb9b8b6bda508794",
+      "source": "Original Kalendārs365 solid geometry",
+      "materials": "Ivory, brass and enamel"
+    },
+    "jaunava": {
+      "name": "Jaunava",
+      "element": "Zeme",
+      "vertices": 15300,
+      "bytes": 550800,
+      "sha256": "7dfa68b4819754950209e3d298bd2c6318cfa00216ba1d99e110bb37bf8ed0dc",
+      "source": "Original Kalendārs365 solid geometry",
+      "materials": "Ivory, brass and enamel"
+    },
+    "svari": {
+      "name": "Svari",
+      "element": "Gaiss",
+      "vertices": 12072,
+      "bytes": 434592,
+      "sha256": "faeec97cb86af8b3254e9a7f892231d99e54c2c37cf5ce9ba1b2c5258d1d8c13",
+      "source": "Original Kalendārs365 solid geometry",
+      "materials": "Ivory, brass and enamel"
+    },
+    "skorpions": {
+      "name": "Skorpions",
+      "element": "Ūdens",
+      "vertices": 9516,
+      "bytes": 342576,
+      "sha256": "a1e4ca320f669cb62e4e2998fc853f91f771f7fad08feeb7deeedb58e2aaecc1",
+      "source": "Original Kalendārs365 solid geometry",
+      "materials": "Ivory, brass and enamel"
+    },
+    "strelnieks": {
+      "name": "Strēlnieks",
+      "element": "Uguns",
+      "vertices": 10668,
+      "bytes": 384048,
+      "sha256": "a53402e848f7f7ed2e9d0e7b7edb782df66612aefdaae306035e100c27f92abf",
+      "source": "Original Kalendārs365 solid geometry",
+      "materials": "Ivory, brass and enamel"
+    },
+    "mezazis": {
+      "name": "Mežāzis",
+      "element": "Zeme",
+      "vertices": 23376,
+      "bytes": 841536,
+      "sha256": "c62726beb689d5fff320f1404f3694ca7a2cb60eb29dc3dcb50e509e9e1149de",
+      "source": "Original Kalendārs365 solid geometry",
+      "materials": "Ivory, brass and enamel"
+    },
+    "udensvirs": {
+      "name": "Ūdensvīrs",
+      "element": "Gaiss",
+      "vertices": 10596,
+      "bytes": 381456,
+      "sha256": "642fc2428d3c3487e53e5215fbf5663f9ef159be7f6fdd47c22771d2ce603ef6",
+      "source": "Original Kalendārs365 solid geometry",
+      "materials": "Ivory, brass and enamel"
+    },
+    "zivis": {
+      "name": "Zivis",
+      "element": "Ūdens",
+      "vertices": 38100,
+      "bytes": 1371600,
+      "sha256": "9dbbcf9631553fb28c89ae441c90b9102afe2a860bee58e51f07fcd1998b7989",
+      "source": "Original Kalendārs365 solid geometry",
+      "materials": "Ivory, brass and enamel"
+    }
+  }
+}

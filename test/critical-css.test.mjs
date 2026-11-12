@@ -2,8 +2,15 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import vm from 'node:vm';
-import {applyCriticalCss,createCriticalProcessor} from '../tooling/critical-css/inline.mjs';
+import {applyCriticalCss,createCriticalProcessor,applyBlockingStylesheet} from '../tooling/critical-css/inline.mjs';
+import crypto from 'node:crypto';
 const href='/static/css/'+'a'.repeat(24)+'.css';
+test('the production policy preserves blocking CSS, validates its hash and avoids redundant inline bytes',()=>{
+ const css='.runtime{display:grid}@media print{.calendar{display:block}}',digest=crypto.createHash('sha256').update(css).digest('hex'),source=`/static/css/${digest.slice(0,24)}.css`;
+ const html=`<head><link rel="stylesheet" href="${source}"><script defer src="/app.js"></script></head><body>Calendar</body>`;
+ const out=applyBlockingStylesheet(html,css,source);
+ assert.equal(out.criticalBytes,0);assert(out.html.includes('name="style-bundle-sha256" content="'+digest+'"'));assert(out.html.includes(`<link rel="stylesheet" href="${source}">`));assert(!out.html.includes('<style'));assert(!out.html.includes('media="print"'));assert.throws(()=>applyBlockingStylesheet(html,css,href));assert.throws(()=>applyBlockingStylesheet(out.html,css,source));
+});
 test('critical extraction preserves source order, privacy choices and all print rules',()=>{
  const css=':root{--ink:#123}p{color:var(--ink)}.unused{color:blue}html[data-consent-saved] .consent-banner{display:none}.calendar-hidden{color:green}@media print{.not-in-dom{display:block!important}}@media(max-width:600px){p{color:purple}}';
  const html=`<html><head><meta name="asset-version" content="test"><link rel="stylesheet" href="${href}"></head><body><p>Hello</p></body></html>`;

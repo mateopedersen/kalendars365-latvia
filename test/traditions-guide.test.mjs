@@ -54,7 +54,7 @@ test('all 25 new photographs have reviewed, checksum-bound source copies and val
     assert(credits.includes('id="occasion-photo-'+p.id+'"'),p.slug);
     const page=fs.readFileSync('_site/svetki-un-tradicijas/'+p.slug+'/index.html','utf8');
     assert(page.includes('class="tradition-topic-photo"'),p.slug);
-    assert(page.includes('#occasion-photo-'+p.id),p.slug);
+    assert(!page.includes('Foto avots un pielāgojumi'),p.slug);
   }
 });
 

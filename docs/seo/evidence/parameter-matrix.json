@@ -1,0 +1,278 @@
+[
+  {
+    "canonical": "https://kalendars365.lv/kalendars/2028/februaris/",
+    "description": "2028. gada februāra kalendārs: 29 dienas, Latvijas svētku dienas un ISO nedēļu numuri. Atver datumu vai sagatavo mēneša kalendāru drukāšanai.",
+    "inputs": [
+      {
+        "name": "calendar-month",
+        "value": "2"
+      },
+      {
+        "name": "calendar-year",
+        "value": "2028"
+      }
+    ],
+    "robots": "index,follow,max-image-preview:large",
+    "title": "2028. gada februāra kalendārs | Kalendārs365",
+    "url": "/kalendars/2028/februaris/?date=2028-02-29&view=day"
+  },
+  {
+    "canonical": "https://kalendars365.lv/kalendars/2028/februaris/",
+    "description": "2028. gada februāra kalendārs: 29 dienas, Latvijas svētku dienas un ISO nedēļu numuri. Atver datumu vai sagatavo mēneša kalendāru drukāšanai.",
+    "inputs": [
+      {
+        "name": "calendar-month",
+        "value": "2"
+      },
+      {
+        "name": "calendar-year",
+        "value": "2028"
+      }
+    ],
+    "robots": "index,follow,max-image-preview:large",
+    "selected": "2028-02-29",
+    "title": "2028. gada februāra kalendārs | Kalendārs365",
+    "url": "/kalendars/2028/februaris/?date=2028-02-29&view=month"
+  },
+  {
+    "canonical": "https://kalendars365.lv/saullekts-saulriets/",
+    "description": "Izvēlies Latvijas pilsētu un datumu un aprēķini aptuvenu saullēkta, saulrieta un dienas garumu. Laiki parādīti Europe/Riga laika joslā.",
+    "inputs": [
+      {
+        "name": "",
+        "value": "liepaja"
+      },
+      {
+        "name": "",
+        "value": "2028-06-21"
+      },
+      {
+        "name": "",
+        "value": "water"
+      },
+      {
+        "name": "",
+        "value": "720"
+      },
+      {
+        "name": "year",
+        "value": "2028"
+      },
+      {
+        "name": "",
+        "value": "5"
+      },
+      {
+        "name": "date",
+        "value": "2026-11-12"
+      },
+      {
+        "name": "first",
+        "value": "riga"
+      },
+      {
+        "name": "second",
+        "value": "liepaja"
+      }
+    ],
+    "robots": "index,follow,max-image-preview:large",
+    "title": "Saullēkts un saulriets Latvijas pilsētās | Kalendārs365",
+    "url": "/saullekts-saulriets/?city=liepaja&date=2028-06-21"
+  },
+  {
+    "canonical": "https://kalendars365.lv/varda-dienas/",
+    "description": "Meklē vārda dienu pēc vārda vai mēneša. Iepazīsties ar norādīto Valsts valodas centra saraksta versiju un informācijas pārbaudes statusu.",
+    "inputs": [
+      {
+        "name": "q",
+        "value": "Jānis"
+      },
+      {
+        "name": "kind",
+        "value": "traditional"
+      },
+      {
+        "name": "month",
+        "value": "0"
+      },
+      {
+        "name": "year",
+        "value": "2027"
+      },
+      {
+        "name": "",
+        "value": "2026-11-12"
+      }
+    ],
+    "robots": "index,follow,max-image-preview:large",
+    "title": "Vārda dienas Latvijā un vārdu kalendārs | Kalendārs365",
+    "url": "/varda-dienas/?q=J%C4%81nis&kind=traditional"
+  },
+  {
+    "canonical": "https://kalendars365.lv/pdf-kalendari/",
+    "description": "Atrodi 2027.–2030. gada un mēneša kalendārus PDF un attēla formātā. Atlasi dizainu, lapas virzienu un svētku atzīmes. A3 drukai, 600 dpi.",
+    "inputs": [
+      {
+        "name": "gads",
+        "value": "2027"
+      },
+      {
+        "name": "periods",
+        "value": "year"
+      },
+      {
+        "name": "menesis",
+        "value": "1"
+      },
+      {
+        "name": "virziens",
+        "value": "all"
+      },
+      {
+        "name": "svetki",
+        "value": "all"
+      }
+    ],
+    "robots": "index,follow,max-image-preview:large",
+    "title": "Kalendāri drukāšanai: PDF un attēli | Kalendārs365",
+    "url": "/pdf-kalendari/?year=2028&period=month&month=2"
+  },
+  {
+    "canonical": "https://kalendars365.lv/datumu-kalkulators/",
+    "description": "Aprēķini dienu vai darba dienu skaitu starp datumiem. Pieskaiti vai atņem dienas un pārbaudi, vai aprēķinā iekļauts sākuma un beigu datums.",
+    "inputs": [
+      {
+        "name": "from",
+        "value": "2026-11-12"
+      },
+      {
+        "name": "to",
+        "value": "2026-12-31"
+      },
+      {
+        "name": "date",
+        "value": "2026-11-12"
+      },
+      {
+        "name": "days",
+        "value": "30"
+      }
+    ],
+    "robots": "index,follow,max-image-preview:large",
+    "title": "Datumu kalkulators: dienas starp datumiem | Kalendārs365",
+    "url": "/datumu-kalkulators/?from=2028-02-28&to=2028-03-01"
+  },
+  {
+    "canonical": "https://kalendars365.lv/izveidot-kalendaru/",
+    "description": "Izveido personīgu kalendāru ar savām fotogrāfijām un notikumiem. Lejupielādē PDF, Word, Excel, JPG vai PNG, attēliem izvēlies līdz 600 dpi.",
+    "inputs": [
+      {
+        "name": "",
+        "value": "#8a2946"
+      },
+      {
+        "name": "",
+        "value": "#352c35"
+      },
+      {
+        "name": "",
+        "value": "#fffdf8"
+      },
+      {
+        "name": "",
+        "value": "#a53753"
+      },
+      {
+        "name": "",
+        "value": "#e3d4cb"
+      },
+      {
+        "name": "",
+        "value": "year"
+      },
+      {
+        "name": "",
+        "value": "2027"
+      },
+      {
+        "name": "studio-month-select",
+        "value": "1"
+      },
+      {
+        "name": "",
+        "value": "1"
+      },
+      {
+        "name": "",
+        "value": "a4"
+      },
+      {
+        "name": "",
+        "value": "landscape"
+      },
+      {
+        "name": "",
+        "value": "12"
+      },
+      {
+        "name": "",
+        "value": "Mans gads"
+      },
+      {
+        "name": "",
+        "value": "SEO-QA"
+      },
+      {
+        "name": "",
+        "value": "sans"
+      },
+      {
+        "name": "",
+        "value": "40"
+      },
+      {
+        "name": "",
+        "value": "1"
+      },
+      {
+        "name": "",
+        "value": "left"
+      },
+      {
+        "name": "",
+        "value": "Mans laiks. Mani plāni."
+      },
+      {
+        "name": "",
+        "value": "banner"
+      }
+    ],
+    "robots": "index,follow,max-image-preview:large",
+    "title": "Kalendāra veidotājs: PDF, Word un Excel | Kalendārs365",
+    "url": "/izveidot-kalendaru/?name=SEO-QA"
+  },
+  {
+    "canonical": "https://kalendars365.lv/blogs/",
+    "description": "Praktiski raksti par Latvijas svētkiem, skolas un studiju kalendāriem, laika plānošanu, debesīm un dārzu. Autors Silvis Balodis.",
+    "inputs": [],
+    "robots": "index,follow,max-image-preview:large",
+    "title": "Blogs: Latvijas kalendārs un ikdienas plāni | Kalendārs365",
+    "url": "/blogs/?tema=svetki"
+  },
+  {
+    "canonical": "https://kalendars365.lv/kalendars/2027/",
+    "description": "2027. gada kalendārs ar Latvijas svētku dienām un ISO nedēļu numuriem. Atver mēnešu pārskatus un izvēlies PDF vai attēlu kalendāru drukāšanai.",
+    "inputs": [],
+    "robots": "index,follow,max-image-preview:large",
+    "title": "Kalendārs 2027 | Kalendārs365",
+    "url": "/kalendars/2027/?page=2"
+  },
+  {
+    "canonical": "https://kalendars365.lv/kalendars/2027/",
+    "description": "2027. gada kalendārs ar Latvijas svētku dienām un ISO nedēļu numuriem. Atver mēnešu pārskatus un izvēlies PDF vai attēlu kalendāru drukāšanai.",
+    "inputs": [],
+    "robots": "index,follow,max-image-preview:large",
+    "title": "Kalendārs 2027 | Kalendārs365",
+    "url": "/kalendars/2027/?utm_source=local-test&gclid=synthetic"
+  }
+]

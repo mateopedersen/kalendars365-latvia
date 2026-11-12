@@ -1,16 +1,16 @@
 {
   "version": 2,
-  "routeCards": 900,
+  "routeCards": 901,
   "dimensions": [
     1200,
     630
   ],
-  "distinctPixelImages": 900,
-  "distinctSubjectPanels": 900,
-  "totalBytes": 99855670,
+  "distinctPixelImages": 901,
+  "distinctSubjectPanels": 901,
+  "totalBytes": 99874538,
   "checks": [
-    "900 unique page URLs",
-    "900 unique pixel images",
+    "901 unique page URLs",
+    "901 unique pixel images",
     "complete Latvian title bounds",
     "actual JPEG decode and dimensions",
     "source-bound photography credits",
@@ -1730,6 +1730,85 @@
       "pixelSha256": "6f850695112aa3937513b04102a57b1ad9afe707aca396826cd21389fd6a7760",
       "sha256": "ec6af9ca60159530044ac63a99c9897533e9192b302a710daed41da69abdf463",
       "bytes": 93439,
+      "semanticFacts": {}
+    },
+    {
+      "url": "/biezak-uzdotie-jautajumi/",
+      "title": "Biežāk uzdotie jautājumi",
+      "family": "hub",
+      "src": "/assets/social-cards/v2/80ffaac49204aec7-064403407c3d.jpg",
+      "width": 1200,
+      "height": 630,
+      "type": "image/jpeg",
+      "alt": "Biežāk uzdotie jautājumi | Kalendārs365 Latvijai",
+      "design": "trust",
+      "kicker": "SAPROTAMI PAR VIETNI",
+      "subtitle": "Kalendāri, druka, dati un vietnes rīki",
+      "year": 2027,
+      "month": null,
+      "titleLayout": {
+        "text": "Biežāk uzdotie jautājumi",
+        "size": 55,
+        "lines": [
+          "Biežāk uzdotie",
+          "jautājumi"
+        ],
+        "bounds": [
+          [
+            60.0,
+            184.0,
+            450.0,
+            225.5
+          ],
+          [
+            58.0,
+            248.0,
+            313.0,
+            300.5
+          ]
+        ],
+        "region": [
+          60,
+          184,
+          574,
+          444
+        ]
+      },
+      "subtitleLayout": {
+        "text": "Kalendāri, druka, dati un vietnes rīki",
+        "size": 20,
+        "lines": [
+          "Kalendāri, druka, dati un vietnes rīki"
+        ],
+        "bounds": [
+          [
+            62.0,
+            466.0,
+            388.0,
+            483.0
+          ]
+        ],
+        "region": [
+          62,
+          466,
+          574,
+          512
+        ]
+      },
+      "sources": [],
+      "artwork": [
+        "/assets/trust/faq.svg"
+      ],
+      "inputs": {
+        "/assets/calendar-data.json": "f0a7090ccc87587d8da0f5428887d8d38d2b71653bdbd9ac25ab5519f63147b3",
+        "/assets/fonts/DM-Sans-Bold.ttf": "6193c6c4a9aeb329610cd1991a7c93c1d0d93100fc9901cd43b83ccbdda9cca7",
+        "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93",
+        "/assets/trust/faq.svg": "ddc6b291ecaee8428921a41a4fd184465ad460cb77187de6b7fda0db0d1189ee"
+      },
+      "panelSha256": "bd06dc8c6882c117c1f41d9dd27da314d5d599fe5ac298c6b1f6b7e33c6dedb3",
+      "pixelSha256": "064403407c3d5687ba1ed6958ac25a68eda6bf3e0bf0b120fa0f5aba996f1df4",
+      "sha256": "a12403b6dd8748f6de4809aeddee185585a0bc4fe5e2640c45def95fafa1553b",
+      "bytes": 79818,
       "semanticFacts": {}
     },
     {
@@ -7404,7 +7483,7 @@
       "url": "/horoskopa-zimes-kalkulators/",
       "title": "Ascendenta un zodiaka zīmes kalkulators",
       "family": "hub",
-      "src": "/assets/social-cards/v2/72fc65a7d2541d9a-1aec7147e111.jpg",
+      "src": "/assets/social-cards/v2/72fc65a7d2541d9a-6ac2fc9d5923.jpg",
       "width": 1200,
       "height": 630,
       "type": "image/jpeg",
@@ -7472,32 +7551,32 @@
       },
       "sources": [],
       "artwork": [
-        "/assets/category-vector/zodiac.svg",
-        "/assets/tools-art/horoscope.svg"
+        "/assets/tools-art/horoscope.svg",
+        "/assets/zodiac/atlas.svg"
       ],
       "inputs": {
         "/assets/calendar-data.json": "f0a7090ccc87587d8da0f5428887d8d38d2b71653bdbd9ac25ab5519f63147b3",
-        "/assets/category-vector/zodiac.svg": "489bbe313f076065bef99af972b2f93f2da23dabf998b9338daeeda8bfabfa5d",
         "/assets/fonts/DM-Sans-Bold.ttf": "6193c6c4a9aeb329610cd1991a7c93c1d0d93100fc9901cd43b83ccbdda9cca7",
         "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93",
-        "/assets/tools-art/horoscope.svg": "0b0322aa24edf25a8d5f454a74fd3e7146c7f1ffa970893261d4bae73aed2bb5"
+        "/assets/tools-art/horoscope.svg": "0b0322aa24edf25a8d5f454a74fd3e7146c7f1ffa970893261d4bae73aed2bb5",
+        "/assets/zodiac/atlas.svg": "ced4d30254da2d6172a6c4a620b2e6546b48ffc64b9a0607b723a53646ad67e1"
       },
-      "panelSha256": "25d31b64550fdebc78a3a42c5f50180299856fd7116217f532f706c9e815c8a4",
-      "pixelSha256": "1aec7147e111eb1facc1055f542ea4e32bb55410e6c7ba73bb988cab8c71192e",
-      "sha256": "699795c52fdb3357f1694269145013038d6e699891f8eec0f4b336ed083f3890",
-      "bytes": 104807,
+      "panelSha256": "166a95f18df11bb633f041bbd4e079f178690be7a00248806e46e658a89a07d1",
+      "pixelSha256": "6ac2fc9d5923c99b76f2377e138a64c1a1ea88e3e62419e610597d53884ffa11",
+      "sha256": "09a14d6f8bce3f505dd767ad0594e40fbdee5ceb4012c28b873c096b8987fd61",
+      "bytes": 117289,
       "semanticFacts": {}
     },
     {
       "url": "/horoskops/",
       "title": "Horoskops: 12 zodiaka zīmes un dienas tēmas",
       "family": "hub",
-      "src": "/assets/social-cards/v2/c6c9528d2bec7fd3-b0cda22b863a.jpg",
+      "src": "/assets/social-cards/v2/c6c9528d2bec7fd3-69b61664a1f3.jpg",
       "width": 1200,
       "height": 630,
       "type": "image/jpeg",
       "alt": "Horoskops: 12 zodiaka zīmes un dienas tēmas | Kalendārs365 Latvijai",
-      "design": "studio",
+      "design": "zodiac",
       "kicker": "ZODIAKA SIMBOLIKA",
       "subtitle": "Iedvesma katrai dienai",
       "year": 2027,
@@ -7560,25 +7639,27 @@
       },
       "sources": [],
       "artwork": [
-        "/assets/tools-art/horoscope.svg"
+        "/assets/tools-art/horoscope.svg",
+        "/assets/zodiac/atlas.svg"
       ],
       "inputs": {
         "/assets/calendar-data.json": "f0a7090ccc87587d8da0f5428887d8d38d2b71653bdbd9ac25ab5519f63147b3",
         "/assets/fonts/DM-Sans-Bold.ttf": "6193c6c4a9aeb329610cd1991a7c93c1d0d93100fc9901cd43b83ccbdda9cca7",
         "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93",
-        "/assets/tools-art/horoscope.svg": "0b0322aa24edf25a8d5f454a74fd3e7146c7f1ffa970893261d4bae73aed2bb5"
+        "/assets/tools-art/horoscope.svg": "0b0322aa24edf25a8d5f454a74fd3e7146c7f1ffa970893261d4bae73aed2bb5",
+        "/assets/zodiac/atlas.svg": "ced4d30254da2d6172a6c4a620b2e6546b48ffc64b9a0607b723a53646ad67e1"
       },
-      "panelSha256": "255b673fcee3cdf78a77826a76a3f8118e14596999eab937473481184da87f6b",
-      "pixelSha256": "b0cda22b863a8fea5ded575514b554743c9846e7d6501313b4e74dad8ae5b25e",
-      "sha256": "60bf27f23f92a97d40ce2c2566be528a3d1216f12185193f10776911d5239c0c",
-      "bytes": 108515,
+      "panelSha256": "34fbe0cdc0d6bf2f18cc6b84062efa7bf42f3561727d0f0168cb15f1d790e303",
+      "pixelSha256": "69b61664a1f3ef512b6faf41903661284b46b76bd60f63e2d225610c9639ff69",
+      "sha256": "a22fc833fce06caea3ff40d55d90e2e5d93921f26b1604fd35eb7e55cca13b00",
+      "bytes": 122465,
       "semanticFacts": {}
     },
     {
       "url": "/horoskops/auns/",
       "title": "Auna horoskops: dienas tēmas un zīmes simbolika",
       "family": "horoscope",
-      "src": "/assets/social-cards/v2/5e74ddb25bee99ed-cd4cf28653e6.jpg",
+      "src": "/assets/social-cards/v2/5e74ddb25bee99ed-a883d2437dac.jpg",
       "width": 1200,
       "height": 630,
       "type": "image/jpeg",
@@ -7652,19 +7733,19 @@
         "/assets/calendar-data.json": "f0a7090ccc87587d8da0f5428887d8d38d2b71653bdbd9ac25ab5519f63147b3",
         "/assets/fonts/DM-Sans-Bold.ttf": "6193c6c4a9aeb329610cd1991a7c93c1d0d93100fc9901cd43b83ccbdda9cca7",
         "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93",
-        "/assets/zodiac/auns.svg": "0d10fbe642f9751d1cbf9f1bd88c5e8b3b38406d5e3063b53ca2b49648bf4cbd"
+        "/assets/zodiac/auns.svg": "e2fbd56d80dca9e9021a86ae6fca864eb8c39c416fb64e5e3620706925d3dca4"
       },
-      "panelSha256": "3d645384f0b4b85b7e055a37f8ad7c0c7f37f9ab9cfe0d831d1eec87c528e0e8",
-      "pixelSha256": "cd4cf28653e691fb2b79e08f8c651f7614fcfdc44613a0ab9e5ea08e7f08c3ae",
-      "sha256": "3f9c4901f22530ff497888b2d6a0d22d3c26f03d1ac0eb6792f35e9eafbd9633",
-      "bytes": 116229,
+      "panelSha256": "38b53043799d4dc64267c02f08819c394dddb476918cb9e267c80ba35f3ed17f",
+      "pixelSha256": "a883d2437dac9526212d5d2e589e8108725daa2dcd81192519c0a149420fa39e",
+      "sha256": "a697797aea2fa5381bccd3a611ee86069b0c0d56b5008b5920128bba0e1666e3",
+      "bytes": 110113,
       "semanticFacts": {}
     },
     {
       "url": "/horoskops/dvini/",
       "title": "Dvīņu horoskops: dienas tēmas un zīmes simbolika",
       "family": "horoscope",
-      "src": "/assets/social-cards/v2/33f44c002fa76346-cc29bc18ee6e.jpg",
+      "src": "/assets/social-cards/v2/33f44c002fa76346-b9e839bde144.jpg",
       "width": 1200,
       "height": 630,
       "type": "image/jpeg",
@@ -7738,19 +7819,19 @@
         "/assets/calendar-data.json": "f0a7090ccc87587d8da0f5428887d8d38d2b71653bdbd9ac25ab5519f63147b3",
         "/assets/fonts/DM-Sans-Bold.ttf": "6193c6c4a9aeb329610cd1991a7c93c1d0d93100fc9901cd43b83ccbdda9cca7",
         "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93",
-        "/assets/zodiac/dvini.svg": "7cd00fde90ff5a2219aa6200a04f853b2138645837b25f605c52aa45a6c6b40b"
+        "/assets/zodiac/dvini.svg": "12ebe2e3f74952b139353a839f7853a116c3c302f2f71107805b82658ec0b3ff"
       },
-      "panelSha256": "5440ab498a39c87345607c2b5de2187a40b819f245fc82cbc00e960e55937e24",
-      "pixelSha256": "cc29bc18ee6e445c084d54a74772b356c5ded1ffaa1d51ee104659f7fc4119b2",
-      "sha256": "51e78e88bada1ec46e8a9172a20182c3d4b167cd3d03ca34e05dd12129f88b67",
-      "bytes": 116811,
+      "panelSha256": "bc9b23e7124e5f3e0e54f4191a9f345c99de8dd18c9e988519e37c11712c5441",
+      "pixelSha256": "b9e839bde144b5ad09fe9a074df12a9541bd1bcd6babcea1b61955caf5aa4016",
+      "sha256": "7acadf6f3c980545bca36211b95c4470d0f1722c2c4895737ce7c53e5952f809",
+      "bytes": 110740,
       "semanticFacts": {}
     },
     {
       "url": "/horoskops/jaunava/",
       "title": "Jaunavas horoskops: dienas tēmas un zīmes simbolika",
       "family": "horoscope",
-      "src": "/assets/social-cards/v2/a493a40350825c5f-700243de78fd.jpg",
+      "src": "/assets/social-cards/v2/a493a40350825c5f-1f7bb23a0db5.jpg",
       "width": 1200,
       "height": 630,
       "type": "image/jpeg",
@@ -7831,19 +7912,19 @@
         "/assets/calendar-data.json": "f0a7090ccc87587d8da0f5428887d8d38d2b71653bdbd9ac25ab5519f63147b3",
         "/assets/fonts/DM-Sans-Bold.ttf": "6193c6c4a9aeb329610cd1991a7c93c1d0d93100fc9901cd43b83ccbdda9cca7",
         "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93",
-        "/assets/zodiac/jaunava.svg": "5edbdcb5a662f3d9ab76a2bd4e9d3c68fbd5c45faf07b2e8b4a12ebe0431c47f"
+        "/assets/zodiac/jaunava.svg": "707d2d8104f28d47f9547979aeff8d26eed50fe6309deba281f9d7fcc68f96ae"
       },
-      "panelSha256": "840acad0595e4d535b713beb422667ecc406fc20fc04b0635bf5969a4984a772",
-      "pixelSha256": "700243de78fd705de5aef216b2b5dc021497cc498e6efc793dc6df07adec059b",
-      "sha256": "dc162b5153b69b9a9501f484b8f4f7bed1615c6e0c7a9d02c51f176d213c7120",
-      "bytes": 119014,
+      "panelSha256": "b2f967c47401374e61a9ee4fe3e9f1c54e56a4e7dda6085a32f0960ae902ac1b",
+      "pixelSha256": "1f7bb23a0db5a204fcc875a96b80a310e63ed7718f76f188c72194cb5799a3b9",
+      "sha256": "e61e7d28a1a9a56971d0409fef0078981ba64ffd7e26dce3768bc9bc47d08a8c",
+      "bytes": 113293,
       "semanticFacts": {}
     },
     {
       "url": "/horoskops/lauva/",
       "title": "Lauvas horoskops: dienas tēmas un zīmes simbolika",
       "family": "horoscope",
-      "src": "/assets/social-cards/v2/c9b6d2750a2f4f05-e4ff92bc238e.jpg",
+      "src": "/assets/social-cards/v2/c9b6d2750a2f4f05-02adfd2238d5.jpg",
       "width": 1200,
       "height": 630,
       "type": "image/jpeg",
@@ -7917,19 +7998,19 @@
         "/assets/calendar-data.json": "f0a7090ccc87587d8da0f5428887d8d38d2b71653bdbd9ac25ab5519f63147b3",
         "/assets/fonts/DM-Sans-Bold.ttf": "6193c6c4a9aeb329610cd1991a7c93c1d0d93100fc9901cd43b83ccbdda9cca7",
         "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93",
-        "/assets/zodiac/lauva.svg": "0ead8fcae5a54ed0fd701171c76cf64a0f31f0b0d46ef254dae0c4b308ba2ccf"
+        "/assets/zodiac/lauva.svg": "9c3a519bf8e42d6f6f5b692dfa06482f1bb8af0816348376890658d561ad3d13"
       },
-      "panelSha256": "553d12a1f51880a36047cb748328ae4dda72afeb3f6883de16e763df888ea73e",
-      "pixelSha256": "e4ff92bc238e0b01d94125e0087c27b7884978fb59f02e1ed09080eff9157ae4",
-      "sha256": "36bba8a8cc7a23401beefe22860f2458c4e0397e909f0f9953834bb564429cf0",
-      "bytes": 118345,
+      "panelSha256": "f052e4e87dabb22ab3f4bae7637817f6b75bf9d53855e51306b2ed771d7a911a",
+      "pixelSha256": "02adfd2238d5c9c5e5a43df7617326f1ddca1f393f6dfce8b3d086fbacb04548",
+      "sha256": "f052bf219f5a1f0e924678bf4a222c2e8d4ed2e82bb7f9e97e68a96b4b4f316b",
+      "bytes": 108937,
       "semanticFacts": {}
     },
     {
       "url": "/horoskops/mezazis/",
       "title": "Mežāža horoskops: dienas tēmas un zīmes simbolika",
       "family": "horoscope",
-      "src": "/assets/social-cards/v2/68dc5848a0f19292-6c1360ec0eaa.jpg",
+      "src": "/assets/social-cards/v2/68dc5848a0f19292-997c5713a1cf.jpg",
       "width": 1200,
       "height": 630,
       "type": "image/jpeg",
@@ -8003,19 +8084,19 @@
         "/assets/calendar-data.json": "f0a7090ccc87587d8da0f5428887d8d38d2b71653bdbd9ac25ab5519f63147b3",
         "/assets/fonts/DM-Sans-Bold.ttf": "6193c6c4a9aeb329610cd1991a7c93c1d0d93100fc9901cd43b83ccbdda9cca7",
         "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93",
-        "/assets/zodiac/mezazis.svg": "1a6c77792d1342c8d6b0b878fc20f79946148a692d085142da316e20b896ce77"
+        "/assets/zodiac/mezazis.svg": "47177c321c11a655006f2c5d44c7c19ea48ae5ad5283a5335fa35f5fed8edd01"
       },
-      "panelSha256": "22970f9814dcdc2369ad8706ae87f1b27ba34f26b2543da367edfce59d66a727",
-      "pixelSha256": "6c1360ec0eaa739170a1133784b14dc4e8e3f60a8f9d0d10d93051689c0a4e57",
-      "sha256": "0f54b88907bc5c060d08ff6e5c77f008a1c5ce99670b31b581c17f3d4020c0ec",
-      "bytes": 119599,
+      "panelSha256": "727006e9e503eba6ffc222eb9bba27b19aa17658132dc754ee5703aa43cca51e",
+      "pixelSha256": "997c5713a1cfdcc0f9d9294f36d53d54eb211ba39f37b43ff628ac572c8d67d0",
+      "sha256": "35b184e0eb456a0a8fae6449edaafcb1b51b91ae7b8fd7a5fe4568f98981c0ed",
+      "bytes": 114653,
       "semanticFacts": {}
     },
     {
       "url": "/horoskops/skorpions/",
       "title": "Skorpiona horoskops: dienas tēmas un zīmes simbolika",
       "family": "horoscope",
-      "src": "/assets/social-cards/v2/b6917ff3632f34d0-33649243faac.jpg",
+      "src": "/assets/social-cards/v2/b6917ff3632f34d0-8deb3edf78dc.jpg",
       "width": 1200,
       "height": 630,
       "type": "image/jpeg",
@@ -8096,19 +8177,19 @@
         "/assets/calendar-data.json": "f0a7090ccc87587d8da0f5428887d8d38d2b71653bdbd9ac25ab5519f63147b3",
         "/assets/fonts/DM-Sans-Bold.ttf": "6193c6c4a9aeb329610cd1991a7c93c1d0d93100fc9901cd43b83ccbdda9cca7",
         "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93",
-        "/assets/zodiac/skorpions.svg": "5478285f9fb40515a5ea204ef2b02ca16f80070d1e07d7272d5df528ed5da444"
+        "/assets/zodiac/skorpions.svg": "ba8a39f68ec918162581d92900be65bde30ac9f8cae441c8e3e6ac1c9c87e7a1"
       },
-      "panelSha256": "9c51f5df25f0c20f18f0b6a39cac0bae3380a30e60bc8d50936962324da17565",
-      "pixelSha256": "33649243faac923d3e206c77293bd1673ea3e8ba9282d419f8dcac6836874ec8",
-      "sha256": "b86a8160590f1bd7a9fbda932de405d645644b5a90d7c96f16e74c1cad7df32e",
-      "bytes": 123928,
+      "panelSha256": "47daf6698e477684e2a27e31a1203b366e3fa23d69adb22c25ed077757545133",
+      "pixelSha256": "8deb3edf78dcfe851f1d148a6e99c552861ecd4d678520ebd6375b2ccd7a65f6",
+      "sha256": "89b584890356198a6a41526c0a1924f480367128885f43234c16d8d2f380fef3",
+      "bytes": 120122,
       "semanticFacts": {}
     },
     {
       "url": "/horoskops/strelnieks/",
       "title": "Strēlnieka horoskops: dienas tēmas un zīmes simbolika",
       "family": "horoscope",
-      "src": "/assets/social-cards/v2/165573d083c9165e-ca36d69f0d84.jpg",
+      "src": "/assets/social-cards/v2/165573d083c9165e-a45a9a94a757.jpg",
       "width": 1200,
       "height": 630,
       "type": "image/jpeg",
@@ -8189,19 +8270,19 @@
         "/assets/calendar-data.json": "f0a7090ccc87587d8da0f5428887d8d38d2b71653bdbd9ac25ab5519f63147b3",
         "/assets/fonts/DM-Sans-Bold.ttf": "6193c6c4a9aeb329610cd1991a7c93c1d0d93100fc9901cd43b83ccbdda9cca7",
         "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93",
-        "/assets/zodiac/strelnieks.svg": "28fa12b824cdf908cdf2fbf7b256eb24b476797a7b1b0f4ef325901112b5ef78"
+        "/assets/zodiac/strelnieks.svg": "86ac29abae453a9c2014615871c825cd09b84dc05725f74f6a4c5ad712e7d698"
       },
-      "panelSha256": "a6bf81b9250f703eba81759108f06f20a469ec82af6ffcef8bcb17824455f991",
-      "pixelSha256": "ca36d69f0d8438fd1e5392f1f1ce8ad4b291480899a72f9dd1cea9faf3901d3a",
-      "sha256": "728b983cc114859e39a3ccf7c28b2fb263647d1042c074b90eab643345edbff3",
-      "bytes": 123385,
+      "panelSha256": "1d91a546d777a84ed771ccaf620341ba25f8c911a7c6d3b36075aa445bba4c82",
+      "pixelSha256": "a45a9a94a7576875676dc96a42f7582863a0d4ddead9d113d9d76e821ebad339",
+      "sha256": "653d14322772436046f71a8aa71142110e683fec495a3aa0536b8dae85db18ce",
+      "bytes": 114332,
       "semanticFacts": {}
     },
     {
       "url": "/horoskops/svari/",
       "title": "Svaru horoskops: dienas tēmas un zīmes simbolika",
       "family": "horoscope",
-      "src": "/assets/social-cards/v2/d88133f11f565bf3-f08398fd1df9.jpg",
+      "src": "/assets/social-cards/v2/d88133f11f565bf3-1840843b10f3.jpg",
       "width": 1200,
       "height": 630,
       "type": "image/jpeg",
@@ -8275,19 +8356,19 @@
         "/assets/calendar-data.json": "f0a7090ccc87587d8da0f5428887d8d38d2b71653bdbd9ac25ab5519f63147b3",
         "/assets/fonts/DM-Sans-Bold.ttf": "6193c6c4a9aeb329610cd1991a7c93c1d0d93100fc9901cd43b83ccbdda9cca7",
         "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93",
-        "/assets/zodiac/svari.svg": "5986fbfbf59541214b737a056b0908a36ae47242e7f099ea8286b2fe9c70e37d"
+        "/assets/zodiac/svari.svg": "59cb7013230fbe7a5f190cf5a3654a4f331ea0f1a42372a57895c686dc83a4e3"
       },
-      "panelSha256": "08e26732127e23ea6cd28fc97ffd805bae51e7d1004baf2303c60100b90b4f32",
-      "pixelSha256": "f08398fd1df937c417675adae747d948efc34e82012ecf5658daf62e7d8496e5",
-      "sha256": "e1d72d1b85ca2fc56396be5e3706d9e462c4c4b5a8f671979de1771e3dcc0de6",
-      "bytes": 119072,
+      "panelSha256": "3f2ecb4340056f6ac6430f6be50330caefd3702da3e16e83a379ab9cba7f0cab",
+      "pixelSha256": "1840843b10f36b2b82e81c6dbb3331ef755ad2142fc8e3f96d5b070c28bec389",
+      "sha256": "94b5fac18646cbb247e81764f246cb444d63bc3a5f8300554d29a81ca9441040",
+      "bytes": 111979,
       "semanticFacts": {}
     },
     {
       "url": "/horoskops/udensvirs/",
       "title": "Ūdensvīra horoskops: dienas tēmas un zīmes simbolika",
       "family": "horoscope",
-      "src": "/assets/social-cards/v2/b6246eb88221d0e5-7626c63bd30a.jpg",
+      "src": "/assets/social-cards/v2/b6246eb88221d0e5-28e8774059cf.jpg",
       "width": 1200,
       "height": 630,
       "type": "image/jpeg",
@@ -8368,19 +8449,19 @@
         "/assets/calendar-data.json": "f0a7090ccc87587d8da0f5428887d8d38d2b71653bdbd9ac25ab5519f63147b3",
         "/assets/fonts/DM-Sans-Bold.ttf": "6193c6c4a9aeb329610cd1991a7c93c1d0d93100fc9901cd43b83ccbdda9cca7",
         "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93",
-        "/assets/zodiac/udensvirs.svg": "8b3dcb01451e0573ae7d20dc317ef6425a7fbf8c04e593f1e5206efb7c58cedf"
+        "/assets/zodiac/udensvirs.svg": "2893a455d0dd92f1f3432a285e1e024e26b7f4a000a734742dc095ab9db980d7"
       },
-      "panelSha256": "8015be75343e7abbde1d4e0b095f380606df6a03352749bd9ccd1b6474e0d079",
-      "pixelSha256": "7626c63bd30af11e4d558860cd17fdc480c4a388d6a076a604526cc940b9b7cc",
-      "sha256": "7a792704c46dfc8cc045be5302dcb787f0976e2acfce400f4de02d67ee54c767",
-      "bytes": 122211,
+      "panelSha256": "c30472090dd38d319d78a5e4d0813b719cf9fa1c7ea7021c42728e68a48e4c63",
+      "pixelSha256": "28e8774059cfb6e745f11d4cdc35a817ac32c81ea140432070b66f0f47757ebb",
+      "sha256": "6cd1c2fbaeb138fb935d1937552e9cdd5ab1447a3662ed676b00fd9c5aba44e3",
+      "bytes": 114743,
       "semanticFacts": {}
     },
     {
       "url": "/horoskops/versis/",
       "title": "Vērša horoskops: dienas tēmas un zīmes simbolika",
       "family": "horoscope",
-      "src": "/assets/social-cards/v2/f9e8f66764b4a22a-688fb6b8611e.jpg",
+      "src": "/assets/social-cards/v2/f9e8f66764b4a22a-0a57e6b95710.jpg",
       "width": 1200,
       "height": 630,
       "type": "image/jpeg",
@@ -8454,19 +8535,19 @@
         "/assets/calendar-data.json": "f0a7090ccc87587d8da0f5428887d8d38d2b71653bdbd9ac25ab5519f63147b3",
         "/assets/fonts/DM-Sans-Bold.ttf": "6193c6c4a9aeb329610cd1991a7c93c1d0d93100fc9901cd43b83ccbdda9cca7",
         "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93",
-        "/assets/zodiac/versis.svg": "59b32ed5c657bdddbaf26c60824972e92921a195f40c103fa8a1db43eed9da14"
+        "/assets/zodiac/versis.svg": "e4bf4e5411df7edfd400415373469ddb0dfbf02d2bf07760e52911f3b388dbb8"
       },
-      "panelSha256": "bc513a5637ec640c885465afb011350ba8b8f0be4788ca03dcd9221d148f7f2e",
-      "pixelSha256": "688fb6b8611e97ae8eddec78fe264d3070075113253045bdb1b84f4a61a3f7cf",
-      "sha256": "d892c4015e3fde6b3504105f24db49646a7b978aca1fbbc9008feb340dc43fd2",
-      "bytes": 118633,
+      "panelSha256": "1daeeadd0dbe0e6acb5fd5ca3e655016b34840a24836e302a4a63038c26672b2",
+      "pixelSha256": "0a57e6b95710784e70cc34f74a39cf8c8f940096f93331e71fb41e3145c34b51",
+      "sha256": "a27f2baadd4fb6c0b2e4d6f3c5c4f437918d93cfa2985bedeb1bcf5690a21372",
+      "bytes": 110868,
       "semanticFacts": {}
     },
     {
       "url": "/horoskops/vezis/",
       "title": "Vēža horoskops: dienas tēmas un zīmes simbolika",
       "family": "horoscope",
-      "src": "/assets/social-cards/v2/c0263afa484505cd-0e523bed375d.jpg",
+      "src": "/assets/social-cards/v2/c0263afa484505cd-cedcf020346e.jpg",
       "width": 1200,
       "height": 630,
       "type": "image/jpeg",
@@ -8540,19 +8621,19 @@
         "/assets/calendar-data.json": "f0a7090ccc87587d8da0f5428887d8d38d2b71653bdbd9ac25ab5519f63147b3",
         "/assets/fonts/DM-Sans-Bold.ttf": "6193c6c4a9aeb329610cd1991a7c93c1d0d93100fc9901cd43b83ccbdda9cca7",
         "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93",
-        "/assets/zodiac/vezis.svg": "2375d49b03fbb73e251561f61982dbc370e343ae87123123892d5c8737724955"
+        "/assets/zodiac/vezis.svg": "d826d924df23092001025ddd0e89d35cce189353bed1714996dbb84717477a14"
       },
-      "panelSha256": "3f8cd4e40f9859c7685e6acc77448e47909762bc486e000c7eb28d1f9f1d081d",
-      "pixelSha256": "0e523bed375d6a60f472771f778d6dd3bd7996867f51e919a20e61ba18f37095",
-      "sha256": "f4d8781ee7b040acf23385c4e2680b86873fd1ebab7de7c049311aa645ce3fd5",
-      "bytes": 123684,
+      "panelSha256": "ccadebdc30686e52de520af7e1da2c314bdcc3bd50e401bcfe70ef73516afa22",
+      "pixelSha256": "cedcf020346eee60deb7879b0d657ebf92d791cd521ff26b4be5598ea8994862",
+      "sha256": "75913cbacb19881414142892b72323c44ad1c8f60de897740c02a074f7b02d83",
+      "bytes": 116770,
       "semanticFacts": {}
     },
     {
       "url": "/horoskops/zivis/",
       "title": "Zivju horoskops: dienas tēmas un zīmes simbolika",
       "family": "horoscope",
-      "src": "/assets/social-cards/v2/4d9d5bb748a20dfc-91e98dbaeba4.jpg",
+      "src": "/assets/social-cards/v2/4d9d5bb748a20dfc-c33bceae35d3.jpg",
       "width": 1200,
       "height": 630,
       "type": "image/jpeg",
@@ -8626,54 +8707,54 @@
         "/assets/calendar-data.json": "f0a7090ccc87587d8da0f5428887d8d38d2b71653bdbd9ac25ab5519f63147b3",
         "/assets/fonts/DM-Sans-Bold.ttf": "6193c6c4a9aeb329610cd1991a7c93c1d0d93100fc9901cd43b83ccbdda9cca7",
         "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93",
-        "/assets/zodiac/zivis.svg": "8b94af2b23da100e0b0a85433ecfce3a0d8974293d46b19d47ecec3869788c37"
+        "/assets/zodiac/zivis.svg": "d6c93491a43d592ff3ab02a756f04efbedadc5afb091cd052d1669f07c34c86d"
       },
-      "panelSha256": "d18447ddfda9ee50a2caa3cab56636c0d22d46c69fe42459f71c5294bfe87af1",
-      "pixelSha256": "91e98dbaeba428156d6fc81950925ea19c5020d5d1e283adb7a888da2d08d33b",
-      "sha256": "37c2f798c26336d67de9121f061b9d2a27346debd7ea855b01afad7f82e278b5",
-      "bytes": 119378,
+      "panelSha256": "8699f6760a58cec7bf3c564393afae7fd853d63843501f6a257ceec2c2ba1f01",
+      "pixelSha256": "c33bceae35d3d7d8e8d168f9882f6e928d06bfa695771ad5cc62ee70eecfac14",
+      "sha256": "82c4c054ef5fa25645b6ec8253f1ea47c4e52f6117217807546fe6a54d5c7448",
+      "bytes": 115983,
       "semanticFacts": {}
     },
     {
       "url": "/izveidot-kalendaru/",
-      "title": "Izveido savu kalendāru: PDF un attēli",
+      "title": "Kalendāra veidotājs: PDF, Word un Excel",
       "family": "hub",
-      "src": "/assets/social-cards/v2/438ea5da1349daa6-8e2a2f7352d4.jpg",
+      "src": "/assets/social-cards/v2/438ea5da1349daa6-f3fd80d3740c.jpg",
       "width": 1200,
       "height": 630,
       "type": "image/jpeg",
-      "alt": "Izveido savu kalendāru: PDF un attēli | Kalendārs365 Latvijai",
+      "alt": "Kalendāra veidotājs: PDF, Word un Excel | Kalendārs365 Latvijai",
       "design": "studio",
       "kicker": "NODERĪGI IKDIENAI",
       "subtitle": "Personīgs kalendārs drukai",
       "year": 2027,
       "month": null,
       "titleLayout": {
-        "text": "Izveido savu kalendāru: PDF un attēli",
+        "text": "Kalendāra veidotājs: PDF, Word un Excel",
         "size": 55,
         "lines": [
-          "Izveido savu",
-          "kalendāru: PDF un",
-          "attēli"
+          "Kalendāra",
+          "veidotājs: PDF,",
+          "Word un Excel"
         ],
         "bounds": [
           [
             60.0,
             184.0,
-            390.5,
-            225.0
+            333.5,
+            224.5
           ],
           [
             60.0,
             248.0,
-            541.5,
-            288.5
+            452.0,
+            300.5
           ],
           [
             60.0,
             311.5,
-            202.0,
-            352.5
+            445.5,
+            352.0
           ]
         ],
         "region": [
@@ -8715,9 +8796,9 @@
         "/assets/tools-art/maker.svg": "fd5a2c50a9ef6d279b0598aeb53c40867c60926bd42414e0388fc19290932a00"
       },
       "panelSha256": "18c6ec617ff7584c59316b26a2f1ed84823727d677f1e5d3c46e5a3a7c903e11",
-      "pixelSha256": "8e2a2f7352d49caec05de88aac3c0a4455bda1e9171a4730698b341da452f16e",
-      "sha256": "3cba6f6ec243fee3eb30c42991c20ccaf808c6750a3842d9cb2b9127c5596410",
-      "bytes": 90434,
+      "pixelSha256": "f3fd80d3740c4e1b04c645726600c928a863f028a5f0b7338f5182bd5dd9ade7",
+      "sha256": "a699ddc38add5b88d56e4c40c2445e93244e0eee55c653d7b42df5c3d8fccb18",
+      "bytes": 93715,
       "semanticFacts": {}
     },
     {
@@ -14805,14 +14886,14 @@
       "url": "/kontakti/",
       "title": "Kontakti un ierosinājumi",
       "family": "hub",
-      "src": "/assets/social-cards/v2/f8e4124ec0a75ba6-be12e9c259cf.jpg",
+      "src": "/assets/social-cards/v2/f8e4124ec0a75ba6-6cd070ce40d5.jpg",
       "width": 1200,
       "height": 630,
       "type": "image/jpeg",
       "alt": "Kontakti un ierosinājumi | Kalendārs365 Latvijai",
-      "design": "studio",
-      "kicker": "NODERĪGI IKDIENAI",
-      "subtitle": "Skaidrs ceļš cauri gadam",
+      "design": "trust",
+      "kicker": "SAPROTAMI PAR VIETNI",
+      "subtitle": "Sazinies ar vietnes uzturētāju",
       "year": 2027,
       "month": null,
       "titleLayout": {
@@ -14844,17 +14925,17 @@
         ]
       },
       "subtitleLayout": {
-        "text": "Skaidrs ceļš cauri gadam",
+        "text": "Sazinies ar vietnes uzturētāju",
         "size": 20,
         "lines": [
-          "Skaidrs ceļš cauri gadam"
+          "Sazinies ar vietnes uzturētāju"
         ],
         "bounds": [
           [
             62.0,
             466.0,
-            293.5,
-            485.5
+            332.5,
+            485.0
           ]
         ],
         "region": [
@@ -14866,18 +14947,18 @@
       },
       "sources": [],
       "artwork": [
-        "/assets/tools-art/study.svg"
+        "/assets/trust/contact.svg"
       ],
       "inputs": {
         "/assets/calendar-data.json": "f0a7090ccc87587d8da0f5428887d8d38d2b71653bdbd9ac25ab5519f63147b3",
         "/assets/fonts/DM-Sans-Bold.ttf": "6193c6c4a9aeb329610cd1991a7c93c1d0d93100fc9901cd43b83ccbdda9cca7",
         "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93",
-        "/assets/tools-art/study.svg": "039aa9fcf6c1139f0d275ffe724988d2811754d322021f29177ba21f05f75a0d"
+        "/assets/trust/contact.svg": "71faadc0abc1d45fc24264ee202f8752c8e5658fb2441adabede7aa737de67b0"
       },
-      "panelSha256": "c8ecb0be779354dcef153561d7e1dfee541b1072c1eca8ac815a4cff613aac64",
-      "pixelSha256": "be12e9c259cf520f91dac82a811b472d0b4d28f7cf2a6253c9711cdfb46f6502",
-      "sha256": "75fc79f794a412482f3687aa067e9804b0ca16fcc2513fdc19c75da585ac1d31",
-      "bytes": 87627,
+      "panelSha256": "cd7e50a500614d6aa9415b819bd0150e02e00875bf3cc4452634fe0c84b9419b",
+      "pixelSha256": "6cd070ce40d5266dc02d1d88cd6847b8dce1bc03c336b0a5a8d2f71d462d016f",
+      "sha256": "e81dbfa5266d57fa385b2742f360575460ef86f6e3b3e7315888d029a20e8165",
+      "bytes": 80108,
       "semanticFacts": {}
     },
     {
@@ -53952,14 +54033,14 @@
       "url": "/par-projektu/",
       "title": "Par Silvi Balodi un Kalendāru365",
       "family": "hub",
-      "src": "/assets/social-cards/v2/7f5f5beaf8acc1f7-3d205422f32e.jpg",
+      "src": "/assets/social-cards/v2/7f5f5beaf8acc1f7-0176f5961eb6.jpg",
       "width": 1200,
       "height": 630,
       "type": "image/jpeg",
       "alt": "Par Silvi Balodi un Kalendāru365 | Kalendārs365 Latvijai",
-      "design": "studio",
-      "kicker": "NODERĪGI IKDIENAI",
-      "subtitle": "Skaidrs ceļš cauri gadam",
+      "design": "trust",
+      "kicker": "SAPROTAMI PAR VIETNI",
+      "subtitle": "Silvis Balodis un Kalendārs365",
       "year": 2027,
       "month": null,
       "titleLayout": {
@@ -53991,17 +54072,17 @@
         ]
       },
       "subtitleLayout": {
-        "text": "Skaidrs ceļš cauri gadam",
+        "text": "Silvis Balodis un Kalendārs365",
         "size": 20,
         "lines": [
-          "Skaidrs ceļš cauri gadam"
+          "Silvis Balodis un Kalendārs365"
         ],
         "bounds": [
           [
             62.0,
             466.0,
-            293.5,
-            485.5
+            341.5,
+            480.5
           ]
         ],
         "region": [
@@ -54013,18 +54094,18 @@
       },
       "sources": [],
       "artwork": [
-        "/assets/tools-art/study.svg"
+        "/assets/trust/about.svg"
       ],
       "inputs": {
         "/assets/calendar-data.json": "f0a7090ccc87587d8da0f5428887d8d38d2b71653bdbd9ac25ab5519f63147b3",
         "/assets/fonts/DM-Sans-Bold.ttf": "6193c6c4a9aeb329610cd1991a7c93c1d0d93100fc9901cd43b83ccbdda9cca7",
         "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93",
-        "/assets/tools-art/study.svg": "039aa9fcf6c1139f0d275ffe724988d2811754d322021f29177ba21f05f75a0d"
+        "/assets/trust/about.svg": "43c5a780c8800b6122b8b773b1985f01f9b4ecad35959a6cff4796686c84b71f"
       },
-      "panelSha256": "98c3ca859236ecd4173217eb162c269dc3ffa0232468ec2b99a3b1ec1c2a8491",
-      "pixelSha256": "3d205422f32e43dfc9fef4b118891c1a05c47e8e3c2d480622f6863e1a158755",
-      "sha256": "32b240b750d992a8cd05f31cf2067a29cb85b6158689bd3d97ae0dd363244568",
-      "bytes": 91495,
+      "panelSha256": "97086e6abdee48e8244e390c925e7861dcc59da297e330ba77432ca6666264c7",
+      "pixelSha256": "0176f5961eb650ac0f7ba13b9b28949c84f6cfc67a20ae7af2e52addc1de0242",
+      "sha256": "7ec93a34f638ade342f5c695e67846096bbf656b6d33b13564f5fc0262a84087",
+      "bytes": 87147,
       "semanticFacts": {}
     },
     {
@@ -59014,14 +59095,14 @@
       "url": "/pieklustamiba/",
       "title": "Piekļūstamība un lietošana ar tastatūru",
       "family": "hub",
-      "src": "/assets/social-cards/v2/5849ed33f2a36d2e-99276d7291e2.jpg",
+      "src": "/assets/social-cards/v2/5849ed33f2a36d2e-246faa8cc759.jpg",
       "width": 1200,
       "height": 630,
       "type": "image/jpeg",
       "alt": "Piekļūstamība un lietošana ar tastatūru | Kalendārs365 Latvijai",
-      "design": "studio",
-      "kicker": "NODERĪGI IKDIENAI",
-      "subtitle": "Skaidrs ceļš cauri gadam",
+      "design": "trust",
+      "kicker": "SAPROTAMI PAR VIETNI",
+      "subtitle": "Tastatūra, alternatīvi skati un palīdzība",
       "year": 2027,
       "month": null,
       "titleLayout": {
@@ -59060,17 +59141,17 @@
         ]
       },
       "subtitleLayout": {
-        "text": "Skaidrs ceļš cauri gadam",
+        "text": "Tastatūra, alternatīvi skati un palīdzība",
         "size": 20,
         "lines": [
-          "Skaidrs ceļš cauri gadam"
+          "Tastatūra, alternatīvi skati un palīdzība"
         ],
         "bounds": [
           [
             62.0,
             466.0,
-            293.5,
-            485.5
+            419.0,
+            485.0
           ]
         ],
         "region": [
@@ -59082,18 +59163,18 @@
       },
       "sources": [],
       "artwork": [
-        "/assets/tools-art/study.svg"
+        "/assets/trust/accessibility.svg"
       ],
       "inputs": {
         "/assets/calendar-data.json": "f0a7090ccc87587d8da0f5428887d8d38d2b71653bdbd9ac25ab5519f63147b3",
         "/assets/fonts/DM-Sans-Bold.ttf": "6193c6c4a9aeb329610cd1991a7c93c1d0d93100fc9901cd43b83ccbdda9cca7",
         "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93",
-        "/assets/tools-art/study.svg": "039aa9fcf6c1139f0d275ffe724988d2811754d322021f29177ba21f05f75a0d"
+        "/assets/trust/accessibility.svg": "8578983fea4350568c56f80285cccde1f166848c4e358ffc888fe494c268ed20"
       },
-      "panelSha256": "e9da5eccd05d1c4269f171b515740e60bdf2c5dcd42a392fbc7884d48b8eb92b",
-      "pixelSha256": "99276d7291e27c6721edc5621263668394438848b1c7577efd156e547569158f",
-      "sha256": "5299dfe7819d9976c2f22b0b3f97a247b937b33b26524aa93d68a9189cf0f7e5",
-      "bytes": 95939,
+      "panelSha256": "fbac554d9c310f76bd559f17dca833e1f00f3423502a80533cada5c1503e4982",
+      "pixelSha256": "246faa8cc759f3879ec34cd321537583526c00ad8e4700f3749b8f57a453ea87",
+      "sha256": "aa67341dbd3bfa0356823c4fc1ee5f3b46ab03b5de405a0b74a61e75f0c9204a",
+      "bytes": 97190,
       "semanticFacts": {}
     },
     {
@@ -59181,14 +59262,14 @@
       "url": "/privatuma-politika/",
       "title": "Privātuma politika un personīgie plāni",
       "family": "hub",
-      "src": "/assets/social-cards/v2/19aba088f4a9d3a5-b84d575b8f50.jpg",
+      "src": "/assets/social-cards/v2/19aba088f4a9d3a5-188db2e257de.jpg",
       "width": 1200,
       "height": 630,
       "type": "image/jpeg",
       "alt": "Privātuma politika un personīgie plāni | Kalendārs365 Latvijai",
-      "design": "studio",
-      "kicker": "NODERĪGI IKDIENAI",
-      "subtitle": "Skaidrs ceļš cauri gadam",
+      "design": "trust",
+      "kicker": "SAPROTAMI PAR VIETNI",
+      "subtitle": "Personīgie plāni un ārējie pakalpojumi",
       "year": 2027,
       "month": null,
       "titleLayout": {
@@ -59220,17 +59301,17 @@
         ]
       },
       "subtitleLayout": {
-        "text": "Skaidrs ceļš cauri gadam",
+        "text": "Personīgie plāni un ārējie pakalpojumi",
         "size": 20,
         "lines": [
-          "Skaidrs ceļš cauri gadam"
+          "Personīgie plāni un ārējie pakalpojumi"
         ],
         "bounds": [
           [
             62.0,
             466.0,
-            293.5,
-            485.5
+            411.0,
+            485.0
           ]
         ],
         "region": [
@@ -59242,20 +59323,18 @@
       },
       "sources": [],
       "artwork": [
-        "/assets/category-vector/privacy.svg",
-        "/assets/tools-art/study.svg"
+        "/assets/trust/privacy.svg"
       ],
       "inputs": {
         "/assets/calendar-data.json": "f0a7090ccc87587d8da0f5428887d8d38d2b71653bdbd9ac25ab5519f63147b3",
-        "/assets/category-vector/privacy.svg": "6d687be6cb1b0377ea16971e092333b9a020fe58b5f70a90ee39f973bb4530fd",
         "/assets/fonts/DM-Sans-Bold.ttf": "6193c6c4a9aeb329610cd1991a7c93c1d0d93100fc9901cd43b83ccbdda9cca7",
         "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93",
-        "/assets/tools-art/study.svg": "039aa9fcf6c1139f0d275ffe724988d2811754d322021f29177ba21f05f75a0d"
+        "/assets/trust/privacy.svg": "9a8e9fe851e518456ffeb45c17550c83ae8db3c0c3944660ebf91ad19c238960"
       },
-      "panelSha256": "9ad038e9a44adcf9f8e6da168dc279d4bb9196f5cc9d9f7414f84a1b295918ae",
-      "pixelSha256": "b84d575b8f5037d4c19f3ac2656894c252d316fc2f09b6170b953fc6193a7acc",
-      "sha256": "d8db5db99dbd02997bd35acb3f0ae843369899f81e74052b9d6a045d109e4082",
-      "bytes": 93039,
+      "panelSha256": "f93ee22e4045976319f7c2d383aa9a44fc4d4c070eb899aefa794a15c9e94fa4",
+      "pixelSha256": "188db2e257ded30a016a5e88a636bc67052950091fbca05908cede47d17c1583",
+      "sha256": "de943fe21d168f409bfefd80b330f91d61b40a276303b2678f652c172253c3cb",
+      "bytes": 85654,
       "semanticFacts": {}
     },
     {
@@ -69159,14 +69238,14 @@
       "url": "/sikdatnu-politika/",
       "title": "Sīkdatnes un vietējā krātuve",
       "family": "hub",
-      "src": "/assets/social-cards/v2/80d46a8beda81f44-3ac565d35128.jpg",
+      "src": "/assets/social-cards/v2/80d46a8beda81f44-2486bb8c8759.jpg",
       "width": 1200,
       "height": 630,
       "type": "image/jpeg",
       "alt": "Sīkdatnes un vietējā krātuve | Kalendārs365 Latvijai",
-      "design": "studio",
-      "kicker": "NODERĪGI IKDIENAI",
-      "subtitle": "Skaidrs ceļš cauri gadam",
+      "design": "trust",
+      "kicker": "SAPROTAMI PAR VIETNI",
+      "subtitle": "Saprotami par saglabāšanu un izvēlēm",
       "year": 2027,
       "month": null,
       "titleLayout": {
@@ -69198,17 +69277,17 @@
         ]
       },
       "subtitleLayout": {
-        "text": "Skaidrs ceļš cauri gadam",
+        "text": "Saprotami par saglabāšanu un izvēlēm",
         "size": 20,
         "lines": [
-          "Skaidrs ceļš cauri gadam"
+          "Saprotami par saglabāšanu un izvēlēm"
         ],
         "bounds": [
           [
             62.0,
             466.0,
-            293.5,
-            485.5
+            419.0,
+            485.0
           ]
         ],
         "region": [
@@ -69220,20 +69299,18 @@
       },
       "sources": [],
       "artwork": [
-        "/assets/category-vector/privacy.svg",
-        "/assets/tools-art/study.svg"
+        "/assets/trust/cookies.svg"
       ],
       "inputs": {
         "/assets/calendar-data.json": "f0a7090ccc87587d8da0f5428887d8d38d2b71653bdbd9ac25ab5519f63147b3",
-        "/assets/category-vector/privacy.svg": "6d687be6cb1b0377ea16971e092333b9a020fe58b5f70a90ee39f973bb4530fd",
         "/assets/fonts/DM-Sans-Bold.ttf": "6193c6c4a9aeb329610cd1991a7c93c1d0d93100fc9901cd43b83ccbdda9cca7",
         "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93",
-        "/assets/tools-art/study.svg": "039aa9fcf6c1139f0d275ffe724988d2811754d322021f29177ba21f05f75a0d"
+        "/assets/trust/cookies.svg": "de48253031fac8b53c98958179b80997d7be2f088147fdb2aed0bf5480bde538"
       },
-      "panelSha256": "eca3cc3ab8b51b13478ba94b5e6e706976b8820d7e3b0a729b04904827aa581a",
-      "pixelSha256": "3ac565d35128048e4b9b0beca5e7be8f66a3c57f018ee51dcf2f61245c8df988",
-      "sha256": "15ebc7deaf4e33b9f8c084372b0b493015cf0c00f2cf9d85c99a5ee6a0120de7",
-      "bytes": 84572,
+      "panelSha256": "f4190d02e50687438a67c5662529606fe635063ac2af688b501d3ad3c8bf10f5",
+      "pixelSha256": "2486bb8c87596c86793488d71a2d9c50823a82781600e42fa07840936e13560e",
+      "sha256": "6d3399595656f7abcd8d08938bf33927038ab9980f02e47f88146fbe2a34c684",
+      "bytes": 83582,
       "semanticFacts": {}
     },
     {
@@ -70815,6 +70892,99 @@
       "semanticFacts": {}
     },
     {
+      "url": "/svetki-un-tradicijas/dzimtas-valodas-diena/",
+      "title": "Starptautiskā dzimtās valodas diena",
+      "family": "latvia_cultural",
+      "src": "/assets/social-cards/v2/2a8bd7df36a94a7e-667278ca6c77.jpg",
+      "width": 1200,
+      "height": 630,
+      "type": "image/jpeg",
+      "alt": "Starptautiskā dzimtās valodas diena | Kalendārs365 Latvijai",
+      "design": "occasion",
+      "kicker": "SVĒTKI UN TRADĪCIJAS",
+      "subtitle": "Svētku stāsts un svarīgākie datumi",
+      "year": 2027,
+      "month": null,
+      "titleLayout": {
+        "text": "Starptautiskā dzimtās valodas diena",
+        "size": 55,
+        "lines": [
+          "Starptautiskā",
+          "dzimtās valodas",
+          "diena"
+        ],
+        "bounds": [
+          [
+            60.0,
+            184.0,
+            429.0,
+            236.5
+          ],
+          [
+            60.0,
+            248.0,
+            496.0,
+            289.0
+          ],
+          [
+            60.0,
+            311.5,
+            210.0,
+            352.5
+          ]
+        ],
+        "region": [
+          60,
+          184,
+          574,
+          444
+        ]
+      },
+      "subtitleLayout": {
+        "text": "Svētku stāsts un svarīgākie datumi",
+        "size": 20,
+        "lines": [
+          "Svētku stāsts un svarīgākie datumi"
+        ],
+        "bounds": [
+          [
+            62.0,
+            466.0,
+            385.0,
+            485.0
+          ]
+        ],
+        "region": [
+          62,
+          466,
+          574,
+          512
+        ]
+      },
+      "sources": [
+        {
+          "src": "/assets/tradition-covers/language-e7b598ed97f6-1280.webp",
+          "author": "Savannah Rivka",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dainu_skapja_ori%C4%A3in%C4%81ls_LNB.jpg",
+          "sourceSha256": "909232439f714fec566c3bdc41db842dc3c8e7163799af20633c783d0e090fd7"
+        }
+      ],
+      "artwork": [],
+      "inputs": {
+        "/assets/calendar-data.json": "f0a7090ccc87587d8da0f5428887d8d38d2b71653bdbd9ac25ab5519f63147b3",
+        "/assets/fonts/DM-Sans-Bold.ttf": "6193c6c4a9aeb329610cd1991a7c93c1d0d93100fc9901cd43b83ccbdda9cca7",
+        "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93",
+        "/assets/tradition-covers/language-e7b598ed97f6-1280.webp": "e7b598ed97f6719a86bf18936b766f3856242f67ace8f1c1c1a180b8bdd6de4d"
+      },
+      "panelSha256": "300d1aa3ac18da9cbb21b230cb05e0d44108875baa3ec1025472e0f0a874cf0c",
+      "pixelSha256": "667278ca6c778689e93564baa83dfffaae8a79a9d0112be8ed22efd92637c365",
+      "sha256": "28bc8acc3e92da7fbe840874651207dbe4e9da740950b494d905e25b2993b05c",
+      "bytes": 142658,
+      "semanticFacts": {}
+    },
+    {
       "url": "/svetki-un-tradicijas/ebreju-tautas-genocida-upuru-pieminas-diena/",
       "title": "Ebreju tautas genocīda upuru piemiņas diena Latvijā",
       "family": "occasion",
@@ -70991,6 +71161,264 @@
       "pixelSha256": "84d80ccc1c3ef5a4beb4801c6787446dfb74c1d67c8292aa992ce76d400fdd78",
       "sha256": "23d464507e043444030d2ee7ff051810702382fa33bca2c594bd38b933a02df5",
       "bytes": 140351,
+      "semanticFacts": {}
+    },
+    {
+      "url": "/svetki-un-tradicijas/eiropas-valodu-diena/",
+      "title": "Eiropas Valodu diena",
+      "family": "latvia_cultural",
+      "src": "/assets/social-cards/v2/ed980a381a4f542d-9ef4714d87f7.jpg",
+      "width": 1200,
+      "height": 630,
+      "type": "image/jpeg",
+      "alt": "Eiropas Valodu diena | Kalendārs365 Latvijai",
+      "design": "occasion",
+      "kicker": "SVĒTKI UN TRADĪCIJAS",
+      "subtitle": "Svētku stāsts un svarīgākie datumi",
+      "year": 2027,
+      "month": null,
+      "titleLayout": {
+        "text": "Eiropas Valodu diena",
+        "size": 55,
+        "lines": [
+          "Eiropas Valodu",
+          "diena"
+        ],
+        "bounds": [
+          [
+            60.0,
+            184.0,
+            462.5,
+            236.5
+          ],
+          [
+            60.0,
+            248.0,
+            210.0,
+            289.0
+          ]
+        ],
+        "region": [
+          60,
+          184,
+          574,
+          444
+        ]
+      },
+      "subtitleLayout": {
+        "text": "Svētku stāsts un svarīgākie datumi",
+        "size": 20,
+        "lines": [
+          "Svētku stāsts un svarīgākie datumi"
+        ],
+        "bounds": [
+          [
+            62.0,
+            466.0,
+            385.0,
+            485.0
+          ]
+        ],
+        "region": [
+          62,
+          466,
+          574,
+          512
+        ]
+      },
+      "sources": [
+        {
+          "src": "/assets/tradition-covers/tradition-eiropas-valodu-diena-9e966da8c506-1280.webp",
+          "author": "Obaid Raza",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dictionaries_in_different_languages.JPG",
+          "sourceSha256": "a82c64381cf9d04f5960ee1930ed4d75665f721aa441e170faa3d0b927aa87ca"
+        }
+      ],
+      "artwork": [],
+      "inputs": {
+        "/assets/calendar-data.json": "f0a7090ccc87587d8da0f5428887d8d38d2b71653bdbd9ac25ab5519f63147b3",
+        "/assets/fonts/DM-Sans-Bold.ttf": "6193c6c4a9aeb329610cd1991a7c93c1d0d93100fc9901cd43b83ccbdda9cca7",
+        "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93",
+        "/assets/tradition-covers/tradition-eiropas-valodu-diena-9e966da8c506-1280.webp": "9e966da8c50632d15d2de32583e9878f53057f7eb1fbc4eb39023162edd92163"
+      },
+      "panelSha256": "6b1d6f13bd1aced237b0c5b977302404212714b978f7ef28e28ad1e0c100b143",
+      "pixelSha256": "9ef4714d87f7a12e9a0c25a835bd44f5bab85cf25e838f9891f66eb8f0d5c87c",
+      "sha256": "cee6ceeae53ea79242ba77c4427f467561e6aef849c6e81d6244c57811a5f372",
+      "bytes": 134782,
+      "semanticFacts": {}
+    },
+    {
+      "url": "/svetki-un-tradicijas/helovins/",
+      "title": "Helovīns Latvijā",
+      "family": "latvia_cultural",
+      "src": "/assets/social-cards/v2/39730ba23e05ee7e-54f6a2d6c78d.jpg",
+      "width": 1200,
+      "height": 630,
+      "type": "image/jpeg",
+      "alt": "Helovīns Latvijā | Kalendārs365 Latvijai",
+      "design": "occasion",
+      "kicker": "SVĒTKI UN TRADĪCIJAS",
+      "subtitle": "Svētku stāsts un svarīgākie datumi",
+      "year": 2027,
+      "month": null,
+      "titleLayout": {
+        "text": "Helovīns Latvijā",
+        "size": 55,
+        "lines": [
+          "Helovīns Latvijā"
+        ],
+        "bounds": [
+          [
+            60.0,
+            184.0,
+            483.0,
+            236.5
+          ]
+        ],
+        "region": [
+          60,
+          184,
+          574,
+          444
+        ]
+      },
+      "subtitleLayout": {
+        "text": "Svētku stāsts un svarīgākie datumi",
+        "size": 20,
+        "lines": [
+          "Svētku stāsts un svarīgākie datumi"
+        ],
+        "bounds": [
+          [
+            62.0,
+            466.0,
+            385.0,
+            485.0
+          ]
+        ],
+        "region": [
+          62,
+          466,
+          574,
+          512
+        ]
+      },
+      "sources": [
+        {
+          "src": "/assets/tradition-covers/tradition-helovins-ab5c0c05841a-1024.webp",
+          "author": "huk_flickr",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lit_Jack-o%27-lantern_glowing_menacingly.jpg",
+          "sourceSha256": "78b100c3ac0f5bb70a5d94dae26e072604bc5d068f330eafb37dac7019e37554"
+        }
+      ],
+      "artwork": [],
+      "inputs": {
+        "/assets/calendar-data.json": "f0a7090ccc87587d8da0f5428887d8d38d2b71653bdbd9ac25ab5519f63147b3",
+        "/assets/fonts/DM-Sans-Bold.ttf": "6193c6c4a9aeb329610cd1991a7c93c1d0d93100fc9901cd43b83ccbdda9cca7",
+        "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93",
+        "/assets/tradition-covers/tradition-helovins-ab5c0c05841a-1024.webp": "ab5c0c05841a3516d096136324992e1678a72888b07b41ad23e534542461625e"
+      },
+      "panelSha256": "19cb381ee98da2d5b14eca1c6a7c341c82a3541162dfd651b1c47dfc6089f761",
+      "pixelSha256": "54f6a2d6c78dc225ed9e00b01eb43229986a44670a14781292e531095b93dc51",
+      "sha256": "fc462101885888295d1f09b348a8ab4e0b40dfee6326c42dd2720d2b37f74c82",
+      "bytes": 88136,
+      "semanticFacts": {}
+    },
+    {
+      "url": "/svetki-un-tradicijas/holokausta-upuru-pieminas-diena/",
+      "title": "Holokausta upuru piemiņas diena Latvijā un pasaulē",
+      "family": "latvia_cultural",
+      "src": "/assets/social-cards/v2/bacd58284cf77471-bc95cacc01a2.jpg",
+      "width": 1200,
+      "height": 630,
+      "type": "image/jpeg",
+      "alt": "Holokausta upuru piemiņas diena Latvijā un pasaulē | Kalendārs365 Latvijai",
+      "design": "occasion",
+      "kicker": "SVĒTKI UN TRADĪCIJAS",
+      "subtitle": "Svētku stāsts un svarīgākie datumi",
+      "year": 2027,
+      "month": null,
+      "titleLayout": {
+        "text": "Holokausta upuru piemiņas diena Latvijā un pasaulē",
+        "size": 55,
+        "lines": [
+          "Holokausta upuru",
+          "piemiņas diena",
+          "Latvijā un pasaulē"
+        ],
+        "bounds": [
+          [
+            60.0,
+            184.0,
+            537.5,
+            236.0
+          ],
+          [
+            60.0,
+            248.0,
+            469.0,
+            304.0
+          ],
+          [
+            60.0,
+            311.5,
+            546.0,
+            364.0
+          ]
+        ],
+        "region": [
+          60,
+          184,
+          574,
+          444
+        ]
+      },
+      "subtitleLayout": {
+        "text": "Svētku stāsts un svarīgākie datumi",
+        "size": 20,
+        "lines": [
+          "Svētku stāsts un svarīgākie datumi"
+        ],
+        "bounds": [
+          [
+            62.0,
+            466.0,
+            385.0,
+            485.0
+          ]
+        ],
+        "region": [
+          62,
+          466,
+          574,
+          512
+        ]
+      },
+      "sources": [
+        {
+          "src": "/assets/tradition-covers/tradition-holokausta-upuru-pieminas-diena-037fd94e0a0d-1280.webp",
+          "author": "Avi1111 dr. avishai teicher",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rumbula_forest_memorial.JPG",
+          "sourceSha256": "0876c52816faa9d3bf20589abea322c2352d58d25bb15bd0a1cc974291ff4fe6"
+        }
+      ],
+      "artwork": [],
+      "inputs": {
+        "/assets/calendar-data.json": "f0a7090ccc87587d8da0f5428887d8d38d2b71653bdbd9ac25ab5519f63147b3",
+        "/assets/fonts/DM-Sans-Bold.ttf": "6193c6c4a9aeb329610cd1991a7c93c1d0d93100fc9901cd43b83ccbdda9cca7",
+        "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93",
+        "/assets/tradition-covers/tradition-holokausta-upuru-pieminas-diena-037fd94e0a0d-1280.webp": "037fd94e0a0d52fcf7193ee485024fe329bbc1359de6424a1d9e19c044ea72b7"
+      },
+      "panelSha256": "81c42237881c044b27e56e81adb5384ecd6ddf1812619f6f730cd8307e9fecc4",
+      "pixelSha256": "bc95cacc01a2795020cc166b6e5fedfa29ac9524d55977ffb7fb297545b830b1",
+      "sha256": "b561474043b3250b625dfe41ea56e32446b85202ac1d29b2e07a7e27d8ac6dd9",
+      "bytes": 199634,
       "semanticFacts": {}
     },
     {
@@ -73263,6 +73691,529 @@
       "semanticFacts": {}
     },
     {
+      "url": "/svetki-un-tradicijas/pasaules-bernu-diena/",
+      "title": "Pasaules bērnu diena",
+      "family": "latvia_cultural",
+      "src": "/assets/social-cards/v2/fab779646b9fb430-1c704f66884a.jpg",
+      "width": 1200,
+      "height": 630,
+      "type": "image/jpeg",
+      "alt": "Pasaules bērnu diena | Kalendārs365 Latvijai",
+      "design": "occasion",
+      "kicker": "SVĒTKI UN TRADĪCIJAS",
+      "subtitle": "Svētku stāsts un svarīgākie datumi",
+      "year": 2027,
+      "month": null,
+      "titleLayout": {
+        "text": "Pasaules bērnu diena",
+        "size": 55,
+        "lines": [
+          "Pasaules bērnu",
+          "diena"
+        ],
+        "bounds": [
+          [
+            60.0,
+            184.0,
+            471.0,
+            224.5
+          ],
+          [
+            60.0,
+            248.0,
+            210.0,
+            289.0
+          ]
+        ],
+        "region": [
+          60,
+          184,
+          574,
+          444
+        ]
+      },
+      "subtitleLayout": {
+        "text": "Svētku stāsts un svarīgākie datumi",
+        "size": 20,
+        "lines": [
+          "Svētku stāsts un svarīgākie datumi"
+        ],
+        "bounds": [
+          [
+            62.0,
+            466.0,
+            385.0,
+            485.0
+          ]
+        ],
+        "region": [
+          62,
+          466,
+          574,
+          512
+        ]
+      },
+      "sources": [
+        {
+          "src": "/assets/tradition-covers/tradition-pasaules-bernu-diena-378aa9ebf44e-1280.webp",
+          "author": "Андрей Романенко",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Children_playground_in_%C4%92be%C4%BCmui%C5%BEa_Park_01.jpg",
+          "sourceSha256": "e8c1e24f2b21e190ca6bc448762f143aa85f344cfe81d11af101a3c5e04f1855"
+        }
+      ],
+      "artwork": [],
+      "inputs": {
+        "/assets/calendar-data.json": "f0a7090ccc87587d8da0f5428887d8d38d2b71653bdbd9ac25ab5519f63147b3",
+        "/assets/fonts/DM-Sans-Bold.ttf": "6193c6c4a9aeb329610cd1991a7c93c1d0d93100fc9901cd43b83ccbdda9cca7",
+        "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93",
+        "/assets/tradition-covers/tradition-pasaules-bernu-diena-378aa9ebf44e-1280.webp": "378aa9ebf44e9df2c2737af4a23858da74f6c26fd0ae0b49d7cb74d4e0352eee"
+      },
+      "panelSha256": "047c10e97d951fe1c2d31e5d1c61dd45a922e3935ad826412ed4df2606cb9b56",
+      "pixelSha256": "1c704f66884a967d749fbcad0caaf6738ce008b8aa684c48a30a07257c49e2a6",
+      "sha256": "f35c68170791551cea5e5340d2478941de4f0d801117525f2ddcdfb61c6a9cef",
+      "bytes": 149759,
+      "semanticFacts": {}
+    },
+    {
+      "url": "/svetki-un-tradicijas/pasaules-bisu-diena/",
+      "title": "Pasaules bišu diena",
+      "family": "latvia_cultural",
+      "src": "/assets/social-cards/v2/2dff9b79cbd3e524-68d0a085347d.jpg",
+      "width": 1200,
+      "height": 630,
+      "type": "image/jpeg",
+      "alt": "Pasaules bišu diena | Kalendārs365 Latvijai",
+      "design": "occasion",
+      "kicker": "SVĒTKI UN TRADĪCIJAS",
+      "subtitle": "Svētku stāsts un svarīgākie datumi",
+      "year": 2027,
+      "month": null,
+      "titleLayout": {
+        "text": "Pasaules bišu diena",
+        "size": 55,
+        "lines": [
+          "Pasaules bišu",
+          "diena"
+        ],
+        "bounds": [
+          [
+            60.0,
+            184.0,
+            425.5,
+            226.0
+          ],
+          [
+            60.0,
+            248.0,
+            210.0,
+            289.0
+          ]
+        ],
+        "region": [
+          60,
+          184,
+          574,
+          444
+        ]
+      },
+      "subtitleLayout": {
+        "text": "Svētku stāsts un svarīgākie datumi",
+        "size": 20,
+        "lines": [
+          "Svētku stāsts un svarīgākie datumi"
+        ],
+        "bounds": [
+          [
+            62.0,
+            466.0,
+            385.0,
+            485.0
+          ]
+        ],
+        "region": [
+          62,
+          466,
+          574,
+          512
+        ]
+      },
+      "sources": [
+        {
+          "src": "/assets/tradition-covers/tradition-pasaules-bisu-diena-d69d64266226-1280.webp",
+          "author": "Luc Viatour",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Apis_mellifera_2_Luc_Viatour.JPG",
+          "sourceSha256": "eac11f5dbd9805e0e674cb409afd929c48d03c000d83655d3f6558dc6e1d8246"
+        }
+      ],
+      "artwork": [],
+      "inputs": {
+        "/assets/calendar-data.json": "f0a7090ccc87587d8da0f5428887d8d38d2b71653bdbd9ac25ab5519f63147b3",
+        "/assets/fonts/DM-Sans-Bold.ttf": "6193c6c4a9aeb329610cd1991a7c93c1d0d93100fc9901cd43b83ccbdda9cca7",
+        "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93",
+        "/assets/tradition-covers/tradition-pasaules-bisu-diena-d69d64266226-1280.webp": "d69d64266226a422696bac78ac09c0700e32f57d4c2d40578b20f7afa326f324"
+      },
+      "panelSha256": "bbbc855e730672b99de0c1c0abe9af4474690a03ad42926de0cfcd1092582f87",
+      "pixelSha256": "68d0a085347dc0154df0b51953019417cbb4d207487701c071c5c8502cafd7d6",
+      "sha256": "cf1916396d57bcae27c7760a3d6ea9016e56956dd1e19af07ceac3099927c63d",
+      "bytes": 138421,
+      "semanticFacts": {}
+    },
+    {
+      "url": "/svetki-un-tradicijas/pasaules-dzivnieku-diena/",
+      "title": "Pasaules dzīvnieku diena",
+      "family": "latvia_cultural",
+      "src": "/assets/social-cards/v2/f85b1ce6ff066b1d-7fa6f1290685.jpg",
+      "width": 1200,
+      "height": 630,
+      "type": "image/jpeg",
+      "alt": "Pasaules dzīvnieku diena | Kalendārs365 Latvijai",
+      "design": "occasion",
+      "kicker": "SVĒTKI UN TRADĪCIJAS",
+      "subtitle": "Svētku stāsts un svarīgākie datumi",
+      "year": 2027,
+      "month": null,
+      "titleLayout": {
+        "text": "Pasaules dzīvnieku diena",
+        "size": 55,
+        "lines": [
+          "Pasaules dzīvnieku",
+          "diena"
+        ],
+        "bounds": [
+          [
+            60.0,
+            184.0,
+            568.0,
+            225.0
+          ],
+          [
+            60.0,
+            248.0,
+            210.0,
+            289.0
+          ]
+        ],
+        "region": [
+          60,
+          184,
+          574,
+          444
+        ]
+      },
+      "subtitleLayout": {
+        "text": "Svētku stāsts un svarīgākie datumi",
+        "size": 20,
+        "lines": [
+          "Svētku stāsts un svarīgākie datumi"
+        ],
+        "bounds": [
+          [
+            62.0,
+            466.0,
+            385.0,
+            485.0
+          ]
+        ],
+        "region": [
+          62,
+          466,
+          574,
+          512
+        ]
+      },
+      "sources": [
+        {
+          "src": "/assets/tradition-covers/tradition-pasaules-dzivnieku-diena-037f1209d857-653.webp",
+          "author": "Martin Mecnarowski (http://www.photomecan.eu/)",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lynx_lynx_2_(Martin_Mecnarowski).jpg",
+          "sourceSha256": "41fe479438348d3a50328db26727fed6d8969aa2aa5e6ed1a73abd7cb35b2c00"
+        }
+      ],
+      "artwork": [],
+      "inputs": {
+        "/assets/calendar-data.json": "f0a7090ccc87587d8da0f5428887d8d38d2b71653bdbd9ac25ab5519f63147b3",
+        "/assets/fonts/DM-Sans-Bold.ttf": "6193c6c4a9aeb329610cd1991a7c93c1d0d93100fc9901cd43b83ccbdda9cca7",
+        "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93",
+        "/assets/tradition-covers/tradition-pasaules-dzivnieku-diena-037f1209d857-653.webp": "037f1209d8579f85edf5c230cd45e69626b13f74ffcbe72fbf499866696ac0de"
+      },
+      "panelSha256": "15c3fe175122d852d0102a04e13b8dab0411cd9687250418dc8059619ce883c8",
+      "pixelSha256": "7fa6f1290685c267bcbd13dc3e8b87816b3422e890040d36eb158d83ff7c071d",
+      "sha256": "49ab7fcc6613bb077388f261d032ca9212f9d5d82512bd020f905296d66eeeac",
+      "bytes": 105951,
+      "semanticFacts": {}
+    },
+    {
+      "url": "/svetki-un-tradicijas/pasaules-gramatu-diena/",
+      "title": "Pasaules grāmatu un autortiesību diena",
+      "family": "latvia_cultural",
+      "src": "/assets/social-cards/v2/3aa7206dfc7b035b-756d5d59a996.jpg",
+      "width": 1200,
+      "height": 630,
+      "type": "image/jpeg",
+      "alt": "Pasaules grāmatu un autortiesību diena | Kalendārs365 Latvijai",
+      "design": "occasion",
+      "kicker": "SVĒTKI UN TRADĪCIJAS",
+      "subtitle": "Svētku stāsts un svarīgākie datumi",
+      "year": 2027,
+      "month": null,
+      "titleLayout": {
+        "text": "Pasaules grāmatu un autortiesību diena",
+        "size": 55,
+        "lines": [
+          "Pasaules grāmatu",
+          "un autortiesību",
+          "diena"
+        ],
+        "bounds": [
+          [
+            60.0,
+            184.0,
+            541.0,
+            237.0
+          ],
+          [
+            60.0,
+            248.0,
+            472.5,
+            289.0
+          ],
+          [
+            60.0,
+            311.5,
+            210.0,
+            352.5
+          ]
+        ],
+        "region": [
+          60,
+          184,
+          574,
+          444
+        ]
+      },
+      "subtitleLayout": {
+        "text": "Svētku stāsts un svarīgākie datumi",
+        "size": 20,
+        "lines": [
+          "Svētku stāsts un svarīgākie datumi"
+        ],
+        "bounds": [
+          [
+            62.0,
+            466.0,
+            385.0,
+            485.0
+          ]
+        ],
+        "region": [
+          62,
+          466,
+          574,
+          512
+        ]
+      },
+      "sources": [
+        {
+          "src": "/assets/tradition-covers/tradition-pasaules-gramatu-diena-c9848d5e317e-1280.webp",
+          "author": "Rīgas pašvaldības aģentūra “Rīgas investīciju un tūrisma aģentūra”",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gaismas-pils.jpg",
+          "sourceSha256": "9070b17cbc1ea13d3e3948301df4dc84533e33b7b46867f25ed42ea57a6a70a3"
+        }
+      ],
+      "artwork": [],
+      "inputs": {
+        "/assets/calendar-data.json": "f0a7090ccc87587d8da0f5428887d8d38d2b71653bdbd9ac25ab5519f63147b3",
+        "/assets/fonts/DM-Sans-Bold.ttf": "6193c6c4a9aeb329610cd1991a7c93c1d0d93100fc9901cd43b83ccbdda9cca7",
+        "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93",
+        "/assets/tradition-covers/tradition-pasaules-gramatu-diena-c9848d5e317e-1280.webp": "c9848d5e317ed34e8f669a8943fd4e1080e5d2e61b43256d7fd0514de8bf403e"
+      },
+      "panelSha256": "da9a4924a2be2ab6fdd0bf2a87e37600ba9f403a04be320ae6f922deeca3f9e1",
+      "pixelSha256": "756d5d59a996698fbccce1b1107c0a0110ac0f9162c772f47f654b065fbe054f",
+      "sha256": "38863398c7f5a014eb992b1ae6d96a86788ff78001b561d3c665b14487c18d3f",
+      "bytes": 220904,
+      "semanticFacts": {}
+    },
+    {
+      "url": "/svetki-un-tradicijas/pasaules-udens-diena/",
+      "title": "Pasaules ūdens diena",
+      "family": "latvia_cultural",
+      "src": "/assets/social-cards/v2/3c012a46b4721043-b454c7b14ab2.jpg",
+      "width": 1200,
+      "height": 630,
+      "type": "image/jpeg",
+      "alt": "Pasaules ūdens diena | Kalendārs365 Latvijai",
+      "design": "occasion",
+      "kicker": "SVĒTKI UN TRADĪCIJAS",
+      "subtitle": "Svētku stāsts un svarīgākie datumi",
+      "year": 2027,
+      "month": null,
+      "titleLayout": {
+        "text": "Pasaules ūdens diena",
+        "size": 55,
+        "lines": [
+          "Pasaules ūdens",
+          "diena"
+        ],
+        "bounds": [
+          [
+            60.0,
+            184.0,
+            477.0,
+            224.5
+          ],
+          [
+            60.0,
+            248.0,
+            210.0,
+            289.0
+          ]
+        ],
+        "region": [
+          60,
+          184,
+          574,
+          444
+        ]
+      },
+      "subtitleLayout": {
+        "text": "Svētku stāsts un svarīgākie datumi",
+        "size": 20,
+        "lines": [
+          "Svētku stāsts un svarīgākie datumi"
+        ],
+        "bounds": [
+          [
+            62.0,
+            466.0,
+            385.0,
+            485.0
+          ]
+        ],
+        "region": [
+          62,
+          466,
+          574,
+          512
+        ]
+      },
+      "sources": [
+        {
+          "src": "/assets/tradition-covers/tradition-pasaules-udens-diena-383175b5e373-1280.webp",
+          "author": "Ymblanter",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Venta_Rapid_from_the_left_bank.jpg",
+          "sourceSha256": "a5d305e23b8d580916af18ae6c2e8117c36e4b0793cc295b8cb38a5f4d59ba1a"
+        }
+      ],
+      "artwork": [],
+      "inputs": {
+        "/assets/calendar-data.json": "f0a7090ccc87587d8da0f5428887d8d38d2b71653bdbd9ac25ab5519f63147b3",
+        "/assets/fonts/DM-Sans-Bold.ttf": "6193c6c4a9aeb329610cd1991a7c93c1d0d93100fc9901cd43b83ccbdda9cca7",
+        "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93",
+        "/assets/tradition-covers/tradition-pasaules-udens-diena-383175b5e373-1280.webp": "383175b5e373eabc8d743c948ecbc69cb69f79ee931111c7bd22f3ed8b02cf9f"
+      },
+      "panelSha256": "2479439b016c92583e61f9fb0da508dae9f9ea19f21cc2c06fd1757cb4c3a4b0",
+      "pixelSha256": "b454c7b14ab2d04297b06f12fad07a3eb27dc231e622cef1cbcf28bae585cf90",
+      "sha256": "22f4cdb2020a8cb739558252ee3804a47260911df1c89fd8a6a295733acca6e5",
+      "bytes": 120205,
+      "semanticFacts": {}
+    },
+    {
+      "url": "/svetki-un-tradicijas/pasaules-vides-diena/",
+      "title": "Pasaules vides diena",
+      "family": "latvia_cultural",
+      "src": "/assets/social-cards/v2/f1e16af55d001a1e-dbd5a5ba2d26.jpg",
+      "width": 1200,
+      "height": 630,
+      "type": "image/jpeg",
+      "alt": "Pasaules vides diena | Kalendārs365 Latvijai",
+      "design": "occasion",
+      "kicker": "SVĒTKI UN TRADĪCIJAS",
+      "subtitle": "Svētku stāsts un svarīgākie datumi",
+      "year": 2027,
+      "month": null,
+      "titleLayout": {
+        "text": "Pasaules vides diena",
+        "size": 55,
+        "lines": [
+          "Pasaules vides",
+          "diena"
+        ],
+        "bounds": [
+          [
+            60.0,
+            184.0,
+            455.0,
+            225.0
+          ],
+          [
+            60.0,
+            248.0,
+            210.0,
+            289.0
+          ]
+        ],
+        "region": [
+          60,
+          184,
+          574,
+          444
+        ]
+      },
+      "subtitleLayout": {
+        "text": "Svētku stāsts un svarīgākie datumi",
+        "size": 20,
+        "lines": [
+          "Svētku stāsts un svarīgākie datumi"
+        ],
+        "bounds": [
+          [
+            62.0,
+            466.0,
+            385.0,
+            485.0
+          ]
+        ],
+        "region": [
+          62,
+          466,
+          574,
+          512
+        ]
+      },
+      "sources": [
+        {
+          "src": "/assets/tradition-covers/tradition-pasaules-vides-diena-762e7e7ea8cd-1280.webp",
+          "author": "AgrisR",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Forest_near_Sieti%C5%86iezis.jpg",
+          "sourceSha256": "e0845289ec53a38d480f66cface67ba5859f003b267a7f567c8435b5852e88c0"
+        }
+      ],
+      "artwork": [],
+      "inputs": {
+        "/assets/calendar-data.json": "f0a7090ccc87587d8da0f5428887d8d38d2b71653bdbd9ac25ab5519f63147b3",
+        "/assets/fonts/DM-Sans-Bold.ttf": "6193c6c4a9aeb329610cd1991a7c93c1d0d93100fc9901cd43b83ccbdda9cca7",
+        "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93",
+        "/assets/tradition-covers/tradition-pasaules-vides-diena-762e7e7ea8cd-1280.webp": "762e7e7ea8cdce184bbeb44bc02ee37495d5ef540d5a6294af4aad15e09d3e16"
+      },
+      "panelSha256": "57e514e339efeade7eaa132652330985ff39e156cab399a01151b960d958376f",
+      "pixelSha256": "dbd5a5ba2d267714eff4396962a8cbb854d32bd6869e7b72c214224729a3a9ba",
+      "sha256": "79080392cf107090f7aac0037278408e004763a3b6ba2716bc61395191ce1fb4",
+      "bytes": 187860,
+      "semanticFacts": {}
+    },
+    {
       "url": "/svetki-un-tradicijas/pavasara-ekvinokcija/",
       "title": "Pavasara ekvinokcija: astronomiskais brīdis Latvijā",
       "family": "latvia_cultural",
@@ -73360,6 +74311,92 @@
       "pixelSha256": "349f67d4deda3f82ad84e1998fb9380becd69636724ef9ef46ab8f768bb0f506",
       "sha256": "69a302464fb87378c760c7719135669e94e1501eefc517b3eb7609749c2f9781",
       "bytes": 216027,
+      "semanticFacts": {}
+    },
+    {
+      "url": "/svetki-un-tradicijas/pavasara-tradicijas/",
+      "title": "Pavasara tradīcijas Latvijā",
+      "family": "latvia_cultural",
+      "src": "/assets/social-cards/v2/189d209d4252954b-7296f9e76d31.jpg",
+      "width": 1200,
+      "height": 630,
+      "type": "image/jpeg",
+      "alt": "Pavasara tradīcijas Latvijā | Kalendārs365 Latvijai",
+      "design": "occasion",
+      "kicker": "SVĒTKI UN TRADĪCIJAS",
+      "subtitle": "Svētku stāsts un svarīgākie datumi",
+      "year": 2027,
+      "month": null,
+      "titleLayout": {
+        "text": "Pavasara tradīcijas Latvijā",
+        "size": 55,
+        "lines": [
+          "Pavasara tradīcijas",
+          "Latvijā"
+        ],
+        "bounds": [
+          [
+            60.0,
+            184.0,
+            573.0,
+            236.5
+          ],
+          [
+            60.0,
+            248.0,
+            240.5,
+            300.5
+          ]
+        ],
+        "region": [
+          60,
+          184,
+          574,
+          444
+        ]
+      },
+      "subtitleLayout": {
+        "text": "Svētku stāsts un svarīgākie datumi",
+        "size": 20,
+        "lines": [
+          "Svētku stāsts un svarīgākie datumi"
+        ],
+        "bounds": [
+          [
+            62.0,
+            466.0,
+            385.0,
+            485.0
+          ]
+        ],
+        "region": [
+          62,
+          466,
+          574,
+          512
+        ]
+      },
+      "sources": [
+        {
+          "src": "/assets/tradition-covers/tradition-pavasara-tradicijas-bd282009cff3-1024.webp",
+          "author": "Nicolas G. Mertens",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Easter_Eggs_in_Latvia_2.jpg",
+          "sourceSha256": "f37f72806918c91fdcf0e84b45284f03c02efdb060633c36c8fa39567c84f1b8"
+        }
+      ],
+      "artwork": [],
+      "inputs": {
+        "/assets/calendar-data.json": "f0a7090ccc87587d8da0f5428887d8d38d2b71653bdbd9ac25ab5519f63147b3",
+        "/assets/fonts/DM-Sans-Bold.ttf": "6193c6c4a9aeb329610cd1991a7c93c1d0d93100fc9901cd43b83ccbdda9cca7",
+        "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93",
+        "/assets/tradition-covers/tradition-pavasara-tradicijas-bd282009cff3-1024.webp": "bd282009cff33fd587ca6e77a9e44d4479c23c844df7ab0a5b1aa064368d7216"
+      },
+      "panelSha256": "e72b1a573ba16954a5686fe38072255ad8e16d838e7480fb9af880d83fbc1e44",
+      "pixelSha256": "7296f9e76d31de676647600eab4f61b7b7569a70e35f11cf49406c47136dc14a",
+      "sha256": "682b47ee35f6acf8af35d7101df4ceca46ca499efd8908e7b4bc29f57c96f709",
+      "bytes": 167506,
       "semanticFacts": {}
     },
     {
@@ -74365,6 +75402,92 @@
       "semanticFacts": {}
     },
     {
+      "url": "/svetki-un-tradicijas/sveta-nikolaja-diena/",
+      "title": "Svētā Nikolaja diena Latvijā",
+      "family": "latvia_cultural",
+      "src": "/assets/social-cards/v2/e6c1d221729f6d76-d460221456e9.jpg",
+      "width": 1200,
+      "height": 630,
+      "type": "image/jpeg",
+      "alt": "Svētā Nikolaja diena Latvijā | Kalendārs365 Latvijai",
+      "design": "occasion",
+      "kicker": "SVĒTKI UN TRADĪCIJAS",
+      "subtitle": "Svētku stāsts un svarīgākie datumi",
+      "year": 2027,
+      "month": null,
+      "titleLayout": {
+        "text": "Svētā Nikolaja diena Latvijā",
+        "size": 55,
+        "lines": [
+          "Svētā Nikolaja",
+          "diena Latvijā"
+        ],
+        "bounds": [
+          [
+            60.0,
+            184.0,
+            441.0,
+            236.5
+          ],
+          [
+            60.0,
+            248.0,
+            403.5,
+            300.5
+          ]
+        ],
+        "region": [
+          60,
+          184,
+          574,
+          444
+        ]
+      },
+      "subtitleLayout": {
+        "text": "Svētku stāsts un svarīgākie datumi",
+        "size": 20,
+        "lines": [
+          "Svētku stāsts un svarīgākie datumi"
+        ],
+        "bounds": [
+          [
+            62.0,
+            466.0,
+            385.0,
+            485.0
+          ]
+        ],
+        "region": [
+          62,
+          466,
+          574,
+          512
+        ]
+      },
+      "sources": [
+        {
+          "src": "/assets/tradition-covers/tradition-sveta-nikolaja-diena-78180df5ac7f-1280.webp",
+          "author": "HerzenSterneBrezeln",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nikolausstiefel.jpg",
+          "sourceSha256": "7563cb423dba47c85119389270b4675a8ac0841e5ada69f347bc7a9a99cb7e06"
+        }
+      ],
+      "artwork": [],
+      "inputs": {
+        "/assets/calendar-data.json": "f0a7090ccc87587d8da0f5428887d8d38d2b71653bdbd9ac25ab5519f63147b3",
+        "/assets/fonts/DM-Sans-Bold.ttf": "6193c6c4a9aeb329610cd1991a7c93c1d0d93100fc9901cd43b83ccbdda9cca7",
+        "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93",
+        "/assets/tradition-covers/tradition-sveta-nikolaja-diena-78180df5ac7f-1280.webp": "78180df5ac7f37c882dda3286b0a1c570c75930ee03857c8ae0328c0265f5b09"
+      },
+      "panelSha256": "b7782c5d22b42cc1935c655b9a7f821c3c6e2b60115899719450e62a4f587ae3",
+      "pixelSha256": "d460221456e93c0722dc85589486f8b093b9c745fbcf30325c627dfcffd7b1b0",
+      "sha256": "923083fcf27bbdb53db8a2e0aa3e9f2173f42ac6798690b5396f940e440c4956",
+      "bytes": 127427,
+      "semanticFacts": {}
+    },
+    {
       "url": "/svetki-un-tradicijas/tevu-diena/",
       "title": "Tēva diena",
       "family": "occasion",
@@ -74541,6 +75664,99 @@
       "pixelSha256": "9bf4f0524371fdcc7771a8b1a9b229fec8fb81d6ee0010b6f4eb9db36b1750c0",
       "sha256": "b360528362cda10b87826c693062bc28128ad1a7189a2c74c4bb7f6381a238e4",
       "bytes": 155538,
+      "semanticFacts": {}
+    },
+    {
+      "url": "/svetki-un-tradicijas/totalitaro-rezimu-upuru-pieminas-diena/",
+      "title": "Staļinisma un nacisma upuru atceres diena",
+      "family": "latvia_cultural",
+      "src": "/assets/social-cards/v2/1977a423f3c02218-9c18364cbfc3.jpg",
+      "width": 1200,
+      "height": 630,
+      "type": "image/jpeg",
+      "alt": "Staļinisma un nacisma upuru atceres diena | Kalendārs365 Latvijai",
+      "design": "occasion",
+      "kicker": "SVĒTKI UN TRADĪCIJAS",
+      "subtitle": "Svētku stāsts un svarīgākie datumi",
+      "year": 2027,
+      "month": null,
+      "titleLayout": {
+        "text": "Staļinisma un nacisma upuru atceres diena",
+        "size": 55,
+        "lines": [
+          "Staļinisma un",
+          "nacisma upuru",
+          "atceres diena"
+        ],
+        "bounds": [
+          [
+            60.0,
+            184.0,
+            421.5,
+            240.0
+          ],
+          [
+            60.0,
+            248.0,
+            461.0,
+            300.5
+          ],
+          [
+            60.0,
+            311.5,
+            429.5,
+            352.5
+          ]
+        ],
+        "region": [
+          60,
+          184,
+          574,
+          444
+        ]
+      },
+      "subtitleLayout": {
+        "text": "Svētku stāsts un svarīgākie datumi",
+        "size": 20,
+        "lines": [
+          "Svētku stāsts un svarīgākie datumi"
+        ],
+        "bounds": [
+          [
+            62.0,
+            466.0,
+            385.0,
+            485.0
+          ]
+        ],
+        "region": [
+          62,
+          466,
+          574,
+          512
+        ]
+      },
+      "sources": [
+        {
+          "src": "/assets/tradition-covers/tradition-totalitaro-rezimu-upuru-pieminas-diena-296d95ca0e5c-1280.webp",
+          "author": "ScAvenger (Jānis Vilniņš)",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tor%C5%86akalna_stacija_13.JPG",
+          "sourceSha256": "a1e51eefd8fdc8085dce537ba3e86c6d7903c3ce5ef4abbb2b0a04cce12818e1"
+        }
+      ],
+      "artwork": [],
+      "inputs": {
+        "/assets/calendar-data.json": "f0a7090ccc87587d8da0f5428887d8d38d2b71653bdbd9ac25ab5519f63147b3",
+        "/assets/fonts/DM-Sans-Bold.ttf": "6193c6c4a9aeb329610cd1991a7c93c1d0d93100fc9901cd43b83ccbdda9cca7",
+        "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93",
+        "/assets/tradition-covers/tradition-totalitaro-rezimu-upuru-pieminas-diena-296d95ca0e5c-1280.webp": "296d95ca0e5cf3cc01e8c963a90cb6473d7e3c1a2a86ce81c3f3acd025d5bc41"
+      },
+      "panelSha256": "1b2e28e69ef2f27028b4f94bc3c003b92e5970428947400e6e225931026e7540",
+      "pixelSha256": "9c18364cbfc3947781430c7b17c994914e3e3e58d469eca0dcc6710fc3ff7c4a",
+      "sha256": "5fd2b2af62092a969dee123bdf5bcc3e18c4d54d8a2799703ca7f8f794cec082",
+      "bytes": 178493,
       "semanticFacts": {}
     },
     {
@@ -75157,6 +76373,92 @@
       "pixelSha256": "87e510970196bf9c356f3f617b4a992ca7dee16bcb8a77c7603fd838eac60ece",
       "sha256": "6bf52f2305994b6c023f8b061041aabeecf75caf173708875bb76ce9421be1ba",
       "bytes": 118554,
+      "semanticFacts": {}
+    },
+    {
+      "url": "/svetki-un-tradicijas/zemes-diena/",
+      "title": "Zemes diena Latvijā",
+      "family": "latvia_cultural",
+      "src": "/assets/social-cards/v2/d36a1c021179d250-771dd4f974b4.jpg",
+      "width": 1200,
+      "height": 630,
+      "type": "image/jpeg",
+      "alt": "Zemes diena Latvijā | Kalendārs365 Latvijai",
+      "design": "occasion",
+      "kicker": "SVĒTKI UN TRADĪCIJAS",
+      "subtitle": "Svētku stāsts un svarīgākie datumi",
+      "year": 2027,
+      "month": null,
+      "titleLayout": {
+        "text": "Zemes diena Latvijā",
+        "size": 55,
+        "lines": [
+          "Zemes diena",
+          "Latvijā"
+        ],
+        "bounds": [
+          [
+            60.0,
+            184.0,
+            401.0,
+            225.0
+          ],
+          [
+            60.0,
+            248.0,
+            240.5,
+            300.5
+          ]
+        ],
+        "region": [
+          60,
+          184,
+          574,
+          444
+        ]
+      },
+      "subtitleLayout": {
+        "text": "Svētku stāsts un svarīgākie datumi",
+        "size": 20,
+        "lines": [
+          "Svētku stāsts un svarīgākie datumi"
+        ],
+        "bounds": [
+          [
+            62.0,
+            466.0,
+            385.0,
+            485.0
+          ]
+        ],
+        "region": [
+          62,
+          466,
+          574,
+          512
+        ]
+      },
+      "sources": [
+        {
+          "src": "/assets/tradition-covers/tradition-zemes-diena-d8ed24c10007-1280.webp",
+          "author": "NASA/Apollo 17 crew; taken by either Harrison Schmitt or Ron Evans",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_Earth_seen_from_Apollo_17.jpg",
+          "sourceSha256": "3f55578a3c58509029c6a1ec88c683199f585ea9ffe974efd4265aec314156fb"
+        }
+      ],
+      "artwork": [],
+      "inputs": {
+        "/assets/calendar-data.json": "f0a7090ccc87587d8da0f5428887d8d38d2b71653bdbd9ac25ab5519f63147b3",
+        "/assets/fonts/DM-Sans-Bold.ttf": "6193c6c4a9aeb329610cd1991a7c93c1d0d93100fc9901cd43b83ccbdda9cca7",
+        "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93",
+        "/assets/tradition-covers/tradition-zemes-diena-d8ed24c10007-1280.webp": "d8ed24c10007e36799e8698d02407ea41c08c5d1ccdc8e302fb209e2620f870e"
+      },
+      "panelSha256": "7b6c5b27bb038c2437d8dd82b9a32ad0ddde5eebc26bced4dbd2ce15a3c0d580",
+      "pixelSha256": "771dd4f974b445e8b47d074f40a1ae228e590b7529ad8b784d779260989f1f8b",
+      "sha256": "0c9c68c16207b3f8ddaa5367ce4398145193fd4529908b329cc16b8f5db05722",
+      "bytes": 146723,
       "semanticFacts": {}
     },
     {
@@ -81111,7 +82413,7 @@
       "url": "/zodiaka-zimes/",
       "title": "Zodiaka zīmes: nosaukumi un simbolika",
       "family": "hub",
-      "src": "/assets/social-cards/v2/985f018e73f2f65d-9231e1066c87.jpg",
+      "src": "/assets/social-cards/v2/985f018e73f2f65d-325679ef5fa9.jpg",
       "width": 1200,
       "height": 630,
       "type": "image/jpeg",
@@ -81198,509 +82500,58 @@
         "/assets/fonts/DM-Sans-Bold.ttf": "6193c6c4a9aeb329610cd1991a7c93c1d0d93100fc9901cd43b83ccbdda9cca7",
         "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93",
         "/assets/tools-art/horoscope.svg": "0b0322aa24edf25a8d5f454a74fd3e7146c7f1ffa970893261d4bae73aed2bb5",
-        "/assets/zodiac/auns.svg": "0d10fbe642f9751d1cbf9f1bd88c5e8b3b38406d5e3063b53ca2b49648bf4cbd",
-        "/assets/zodiac/dvini.svg": "7cd00fde90ff5a2219aa6200a04f853b2138645837b25f605c52aa45a6c6b40b",
-        "/assets/zodiac/jaunava.svg": "5edbdcb5a662f3d9ab76a2bd4e9d3c68fbd5c45faf07b2e8b4a12ebe0431c47f",
-        "/assets/zodiac/lauva.svg": "0ead8fcae5a54ed0fd701171c76cf64a0f31f0b0d46ef254dae0c4b308ba2ccf",
-        "/assets/zodiac/mezazis.svg": "1a6c77792d1342c8d6b0b878fc20f79946148a692d085142da316e20b896ce77",
-        "/assets/zodiac/skorpions.svg": "5478285f9fb40515a5ea204ef2b02ca16f80070d1e07d7272d5df528ed5da444",
-        "/assets/zodiac/strelnieks.svg": "28fa12b824cdf908cdf2fbf7b256eb24b476797a7b1b0f4ef325901112b5ef78",
-        "/assets/zodiac/svari.svg": "5986fbfbf59541214b737a056b0908a36ae47242e7f099ea8286b2fe9c70e37d",
-        "/assets/zodiac/udensvirs.svg": "8b3dcb01451e0573ae7d20dc317ef6425a7fbf8c04e593f1e5206efb7c58cedf",
-        "/assets/zodiac/versis.svg": "59b32ed5c657bdddbaf26c60824972e92921a195f40c103fa8a1db43eed9da14",
-        "/assets/zodiac/vezis.svg": "2375d49b03fbb73e251561f61982dbc370e343ae87123123892d5c8737724955",
-        "/assets/zodiac/zivis.svg": "8b94af2b23da100e0b0a85433ecfce3a0d8974293d46b19d47ecec3869788c37"
+        "/assets/zodiac/auns.svg": "e2fbd56d80dca9e9021a86ae6fca864eb8c39c416fb64e5e3620706925d3dca4",
+        "/assets/zodiac/dvini.svg": "12ebe2e3f74952b139353a839f7853a116c3c302f2f71107805b82658ec0b3ff",
+        "/assets/zodiac/jaunava.svg": "707d2d8104f28d47f9547979aeff8d26eed50fe6309deba281f9d7fcc68f96ae",
+        "/assets/zodiac/lauva.svg": "9c3a519bf8e42d6f6f5b692dfa06482f1bb8af0816348376890658d561ad3d13",
+        "/assets/zodiac/mezazis.svg": "47177c321c11a655006f2c5d44c7c19ea48ae5ad5283a5335fa35f5fed8edd01",
+        "/assets/zodiac/skorpions.svg": "ba8a39f68ec918162581d92900be65bde30ac9f8cae441c8e3e6ac1c9c87e7a1",
+        "/assets/zodiac/strelnieks.svg": "86ac29abae453a9c2014615871c825cd09b84dc05725f74f6a4c5ad712e7d698",
+        "/assets/zodiac/svari.svg": "59cb7013230fbe7a5f190cf5a3654a4f331ea0f1a42372a57895c686dc83a4e3",
+        "/assets/zodiac/udensvirs.svg": "2893a455d0dd92f1f3432a285e1e024e26b7f4a000a734742dc095ab9db980d7",
+        "/assets/zodiac/versis.svg": "e4bf4e5411df7edfd400415373469ddb0dfbf02d2bf07760e52911f3b388dbb8",
+        "/assets/zodiac/vezis.svg": "d826d924df23092001025ddd0e89d35cce189353bed1714996dbb84717477a14",
+        "/assets/zodiac/zivis.svg": "d6c93491a43d592ff3ab02a756f04efbedadc5afb091cd052d1669f07c34c86d"
       },
-      "panelSha256": "a6ffa41860a62b0d0906e573de702a3e950dd0b2d0873d6bb6a3695d4c305bd1",
-      "pixelSha256": "9231e1066c8744fcb9e817d6ccf9ddc99152be7cf6eb9784d04b3a3a3665302d",
-      "sha256": "1ec2cf6fefb102d074dd646041402b6c2a09089420c557d91c4af263ce417021",
-      "bytes": 120282,
+      "panelSha256": "8cecd0fefb1a98c254491060445a7b38d37a4ffb497eddfcf43d536daf98e2c2",
+      "pixelSha256": "325679ef5fa9b08f0d91d7bce4d9ad68c43cefbfc53ef9344e196ff2a9f25ec5",
+      "sha256": "3d5254c07f355a9beaa8d097f236411f5533a84869e4dd8bcd3782df21da416e",
+      "bytes": 117258,
       "semanticFacts": {}
     },
     {
-      "url": "/svetki-un-tradicijas/holokausta-upuru-pieminas-diena/",
-      "title": "Holokausta upuru piemiņas diena Latvijā un pasaulē",
-      "family": "latvia_cultural",
-      "src": "/assets/social-cards/v2/bacd58284cf77471-bc95cacc01a2.jpg",
+      "url": "/nedelas-kalendars/2031/01/",
+      "title": "2031. gada 1. nedēļa",
+      "family": "iso_week",
+      "src": "/assets/social-cards/v2/3ab42e05c1a50ac0-c81418937601.jpg",
       "width": 1200,
       "height": 630,
       "type": "image/jpeg",
-      "alt": "Holokausta upuru piemiņas diena Latvijā un pasaulē | Kalendārs365 Latvijai",
-      "design": "occasion",
-      "kicker": "SVĒTKI UN TRADĪCIJAS",
-      "subtitle": "Svētku stāsts un svarīgākie datumi",
-      "year": 2027,
+      "alt": "2031. gada 1. nedēļa | Kalendārs365 Latvijai",
+      "design": "calendar",
+      "kicker": "NEDĒĻAS KALENDĀRS",
+      "subtitle": "30.12.2030 — 05.01.2031",
+      "year": 2031,
       "month": null,
       "titleLayout": {
-        "text": "Holokausta upuru piemiņas diena Latvijā un pasaulē",
+        "text": "2031. gada 1. nedēļa",
         "size": 55,
         "lines": [
-          "Holokausta upuru",
-          "piemiņas diena",
-          "Latvijā un pasaulē"
+          "2031. gada 1.",
+          "nedēļa"
         ],
         "bounds": [
           [
             60.0,
             184.0,
-            537.5,
-            236.0
-          ],
-          [
-            60.0,
-            248.0,
-            469.0,
-            304.0
-          ],
-          [
-            60.0,
-            311.5,
-            546.0,
-            364.0
-          ]
-        ],
-        "region": [
-          60,
-          184,
-          574,
-          444
-        ]
-      },
-      "subtitleLayout": {
-        "text": "Svētku stāsts un svarīgākie datumi",
-        "size": 20,
-        "lines": [
-          "Svētku stāsts un svarīgākie datumi"
-        ],
-        "bounds": [
-          [
-            62.0,
-            466.0,
-            385.0,
-            485.0
-          ]
-        ],
-        "region": [
-          62,
-          466,
-          574,
-          512
-        ]
-      },
-      "sources": [
-        {
-          "src": "/assets/tradition-covers/tradition-holokausta-upuru-pieminas-diena-037fd94e0a0d-1280.webp",
-          "author": "Avi1111 dr. avishai teicher",
-          "license": "CC BY-SA 3.0",
-          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rumbula_forest_memorial.JPG",
-          "sourceSha256": "0876c52816faa9d3bf20589abea322c2352d58d25bb15bd0a1cc974291ff4fe6"
-        }
-      ],
-      "artwork": [],
-      "inputs": {
-        "/assets/calendar-data.json": "f0a7090ccc87587d8da0f5428887d8d38d2b71653bdbd9ac25ab5519f63147b3",
-        "/assets/fonts/DM-Sans-Bold.ttf": "6193c6c4a9aeb329610cd1991a7c93c1d0d93100fc9901cd43b83ccbdda9cca7",
-        "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93",
-        "/assets/tradition-covers/tradition-holokausta-upuru-pieminas-diena-037fd94e0a0d-1280.webp": "037fd94e0a0d52fcf7193ee485024fe329bbc1359de6424a1d9e19c044ea72b7"
-      },
-      "panelSha256": "81c42237881c044b27e56e81adb5384ecd6ddf1812619f6f730cd8307e9fecc4",
-      "pixelSha256": "bc95cacc01a2795020cc166b6e5fedfa29ac9524d55977ffb7fb297545b830b1",
-      "sha256": "b561474043b3250b625dfe41ea56e32446b85202ac1d29b2e07a7e27d8ac6dd9",
-      "bytes": 199634,
-      "semanticFacts": {}
-    },
-    {
-      "url": "/svetki-un-tradicijas/eiropas-valodu-diena/",
-      "title": "Eiropas Valodu diena",
-      "family": "latvia_cultural",
-      "src": "/assets/social-cards/v2/ed980a381a4f542d-9ef4714d87f7.jpg",
-      "width": 1200,
-      "height": 630,
-      "type": "image/jpeg",
-      "alt": "Eiropas Valodu diena | Kalendārs365 Latvijai",
-      "design": "occasion",
-      "kicker": "SVĒTKI UN TRADĪCIJAS",
-      "subtitle": "Svētku stāsts un svarīgākie datumi",
-      "year": 2027,
-      "month": null,
-      "titleLayout": {
-        "text": "Eiropas Valodu diena",
-        "size": 55,
-        "lines": [
-          "Eiropas Valodu",
-          "diena"
-        ],
-        "bounds": [
-          [
-            60.0,
-            184.0,
-            462.5,
-            236.5
-          ],
-          [
-            60.0,
-            248.0,
-            210.0,
-            289.0
-          ]
-        ],
-        "region": [
-          60,
-          184,
-          574,
-          444
-        ]
-      },
-      "subtitleLayout": {
-        "text": "Svētku stāsts un svarīgākie datumi",
-        "size": 20,
-        "lines": [
-          "Svētku stāsts un svarīgākie datumi"
-        ],
-        "bounds": [
-          [
-            62.0,
-            466.0,
-            385.0,
-            485.0
-          ]
-        ],
-        "region": [
-          62,
-          466,
-          574,
-          512
-        ]
-      },
-      "sources": [
-        {
-          "src": "/assets/tradition-covers/tradition-eiropas-valodu-diena-9e966da8c506-1280.webp",
-          "author": "Obaid Raza",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dictionaries_in_different_languages.JPG",
-          "sourceSha256": "a82c64381cf9d04f5960ee1930ed4d75665f721aa441e170faa3d0b927aa87ca"
-        }
-      ],
-      "artwork": [],
-      "inputs": {
-        "/assets/calendar-data.json": "f0a7090ccc87587d8da0f5428887d8d38d2b71653bdbd9ac25ab5519f63147b3",
-        "/assets/fonts/DM-Sans-Bold.ttf": "6193c6c4a9aeb329610cd1991a7c93c1d0d93100fc9901cd43b83ccbdda9cca7",
-        "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93",
-        "/assets/tradition-covers/tradition-eiropas-valodu-diena-9e966da8c506-1280.webp": "9e966da8c50632d15d2de32583e9878f53057f7eb1fbc4eb39023162edd92163"
-      },
-      "panelSha256": "6b1d6f13bd1aced237b0c5b977302404212714b978f7ef28e28ad1e0c100b143",
-      "pixelSha256": "9ef4714d87f7a12e9a0c25a835bd44f5bab85cf25e838f9891f66eb8f0d5c87c",
-      "sha256": "cee6ceeae53ea79242ba77c4427f467561e6aef849c6e81d6244c57811a5f372",
-      "bytes": 134782,
-      "semanticFacts": {}
-    },
-    {
-      "url": "/svetki-un-tradicijas/totalitaro-rezimu-upuru-pieminas-diena/",
-      "title": "Staļinisma un nacisma upuru atceres diena",
-      "family": "latvia_cultural",
-      "src": "/assets/social-cards/v2/1977a423f3c02218-9c18364cbfc3.jpg",
-      "width": 1200,
-      "height": 630,
-      "type": "image/jpeg",
-      "alt": "Staļinisma un nacisma upuru atceres diena | Kalendārs365 Latvijai",
-      "design": "occasion",
-      "kicker": "SVĒTKI UN TRADĪCIJAS",
-      "subtitle": "Svētku stāsts un svarīgākie datumi",
-      "year": 2027,
-      "month": null,
-      "titleLayout": {
-        "text": "Staļinisma un nacisma upuru atceres diena",
-        "size": 55,
-        "lines": [
-          "Staļinisma un",
-          "nacisma upuru",
-          "atceres diena"
-        ],
-        "bounds": [
-          [
-            60.0,
-            184.0,
-            421.5,
-            240.0
-          ],
-          [
-            60.0,
-            248.0,
-            461.0,
-            300.5
-          ],
-          [
-            60.0,
-            311.5,
-            429.5,
-            352.5
-          ]
-        ],
-        "region": [
-          60,
-          184,
-          574,
-          444
-        ]
-      },
-      "subtitleLayout": {
-        "text": "Svētku stāsts un svarīgākie datumi",
-        "size": 20,
-        "lines": [
-          "Svētku stāsts un svarīgākie datumi"
-        ],
-        "bounds": [
-          [
-            62.0,
-            466.0,
-            385.0,
-            485.0
-          ]
-        ],
-        "region": [
-          62,
-          466,
-          574,
-          512
-        ]
-      },
-      "sources": [
-        {
-          "src": "/assets/tradition-covers/tradition-totalitaro-rezimu-upuru-pieminas-diena-296d95ca0e5c-1280.webp",
-          "author": "ScAvenger (Jānis Vilniņš)",
-          "license": "CC BY-SA 3.0",
-          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tor%C5%86akalna_stacija_13.JPG",
-          "sourceSha256": "a1e51eefd8fdc8085dce537ba3e86c6d7903c3ce5ef4abbb2b0a04cce12818e1"
-        }
-      ],
-      "artwork": [],
-      "inputs": {
-        "/assets/calendar-data.json": "f0a7090ccc87587d8da0f5428887d8d38d2b71653bdbd9ac25ab5519f63147b3",
-        "/assets/fonts/DM-Sans-Bold.ttf": "6193c6c4a9aeb329610cd1991a7c93c1d0d93100fc9901cd43b83ccbdda9cca7",
-        "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93",
-        "/assets/tradition-covers/tradition-totalitaro-rezimu-upuru-pieminas-diena-296d95ca0e5c-1280.webp": "296d95ca0e5cf3cc01e8c963a90cb6473d7e3c1a2a86ce81c3f3acd025d5bc41"
-      },
-      "panelSha256": "1b2e28e69ef2f27028b4f94bc3c003b92e5970428947400e6e225931026e7540",
-      "pixelSha256": "9c18364cbfc3947781430c7b17c994914e3e3e58d469eca0dcc6710fc3ff7c4a",
-      "sha256": "5fd2b2af62092a969dee123bdf5bcc3e18c4d54d8a2799703ca7f8f794cec082",
-      "bytes": 178493,
-      "semanticFacts": {}
-    },
-    {
-      "url": "/svetki-un-tradicijas/dzimtas-valodas-diena/",
-      "title": "Starptautiskā dzimtās valodas diena",
-      "family": "latvia_cultural",
-      "src": "/assets/social-cards/v2/2a8bd7df36a94a7e-667278ca6c77.jpg",
-      "width": 1200,
-      "height": 630,
-      "type": "image/jpeg",
-      "alt": "Starptautiskā dzimtās valodas diena | Kalendārs365 Latvijai",
-      "design": "occasion",
-      "kicker": "SVĒTKI UN TRADĪCIJAS",
-      "subtitle": "Svētku stāsts un svarīgākie datumi",
-      "year": 2027,
-      "month": null,
-      "titleLayout": {
-        "text": "Starptautiskā dzimtās valodas diena",
-        "size": 55,
-        "lines": [
-          "Starptautiskā",
-          "dzimtās valodas",
-          "diena"
-        ],
-        "bounds": [
-          [
-            60.0,
-            184.0,
-            429.0,
-            236.5
-          ],
-          [
-            60.0,
-            248.0,
-            496.0,
-            289.0
-          ],
-          [
-            60.0,
-            311.5,
-            210.0,
-            352.5
-          ]
-        ],
-        "region": [
-          60,
-          184,
-          574,
-          444
-        ]
-      },
-      "subtitleLayout": {
-        "text": "Svētku stāsts un svarīgākie datumi",
-        "size": 20,
-        "lines": [
-          "Svētku stāsts un svarīgākie datumi"
-        ],
-        "bounds": [
-          [
-            62.0,
-            466.0,
-            385.0,
-            485.0
-          ]
-        ],
-        "region": [
-          62,
-          466,
-          574,
-          512
-        ]
-      },
-      "sources": [
-        {
-          "src": "/assets/tradition-covers/language-e7b598ed97f6-1280.webp",
-          "author": "Savannah Rivka",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dainu_skapja_ori%C4%A3in%C4%81ls_LNB.jpg",
-          "sourceSha256": "909232439f714fec566c3bdc41db842dc3c8e7163799af20633c783d0e090fd7"
-        }
-      ],
-      "artwork": [],
-      "inputs": {
-        "/assets/calendar-data.json": "f0a7090ccc87587d8da0f5428887d8d38d2b71653bdbd9ac25ab5519f63147b3",
-        "/assets/fonts/DM-Sans-Bold.ttf": "6193c6c4a9aeb329610cd1991a7c93c1d0d93100fc9901cd43b83ccbdda9cca7",
-        "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93",
-        "/assets/tradition-covers/language-e7b598ed97f6-1280.webp": "e7b598ed97f6719a86bf18936b766f3856242f67ace8f1c1c1a180b8bdd6de4d"
-      },
-      "panelSha256": "300d1aa3ac18da9cbb21b230cb05e0d44108875baa3ec1025472e0f0a874cf0c",
-      "pixelSha256": "667278ca6c778689e93564baa83dfffaae8a79a9d0112be8ed22efd92637c365",
-      "sha256": "28bc8acc3e92da7fbe840874651207dbe4e9da740950b494d905e25b2993b05c",
-      "bytes": 142658,
-      "semanticFacts": {}
-    },
-    {
-      "url": "/svetki-un-tradicijas/helovins/",
-      "title": "Helovīns Latvijā",
-      "family": "latvia_cultural",
-      "src": "/assets/social-cards/v2/39730ba23e05ee7e-54f6a2d6c78d.jpg",
-      "width": 1200,
-      "height": 630,
-      "type": "image/jpeg",
-      "alt": "Helovīns Latvijā | Kalendārs365 Latvijai",
-      "design": "occasion",
-      "kicker": "SVĒTKI UN TRADĪCIJAS",
-      "subtitle": "Svētku stāsts un svarīgākie datumi",
-      "year": 2027,
-      "month": null,
-      "titleLayout": {
-        "text": "Helovīns Latvijā",
-        "size": 55,
-        "lines": [
-          "Helovīns Latvijā"
-        ],
-        "bounds": [
-          [
-            60.0,
-            184.0,
-            483.0,
-            236.5
-          ]
-        ],
-        "region": [
-          60,
-          184,
-          574,
-          444
-        ]
-      },
-      "subtitleLayout": {
-        "text": "Svētku stāsts un svarīgākie datumi",
-        "size": 20,
-        "lines": [
-          "Svētku stāsts un svarīgākie datumi"
-        ],
-        "bounds": [
-          [
-            62.0,
-            466.0,
-            385.0,
-            485.0
-          ]
-        ],
-        "region": [
-          62,
-          466,
-          574,
-          512
-        ]
-      },
-      "sources": [
-        {
-          "src": "/assets/tradition-covers/tradition-helovins-ab5c0c05841a-1024.webp",
-          "author": "huk_flickr",
-          "license": "CC BY 2.0",
-          "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lit_Jack-o%27-lantern_glowing_menacingly.jpg",
-          "sourceSha256": "78b100c3ac0f5bb70a5d94dae26e072604bc5d068f330eafb37dac7019e37554"
-        }
-      ],
-      "artwork": [],
-      "inputs": {
-        "/assets/calendar-data.json": "f0a7090ccc87587d8da0f5428887d8d38d2b71653bdbd9ac25ab5519f63147b3",
-        "/assets/fonts/DM-Sans-Bold.ttf": "6193c6c4a9aeb329610cd1991a7c93c1d0d93100fc9901cd43b83ccbdda9cca7",
-        "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93",
-        "/assets/tradition-covers/tradition-helovins-ab5c0c05841a-1024.webp": "ab5c0c05841a3516d096136324992e1678a72888b07b41ad23e534542461625e"
-      },
-      "panelSha256": "19cb381ee98da2d5b14eca1c6a7c341c82a3541162dfd651b1c47dfc6089f761",
-      "pixelSha256": "54f6a2d6c78dc225ed9e00b01eb43229986a44670a14781292e531095b93dc51",
-      "sha256": "fc462101885888295d1f09b348a8ab4e0b40dfee6326c42dd2720d2b37f74c82",
-      "bytes": 88136,
-      "semanticFacts": {}
-    },
-    {
-      "url": "/svetki-un-tradicijas/pasaules-gramatu-diena/",
-      "title": "Pasaules grāmatu un autortiesību diena",
-      "family": "latvia_cultural",
-      "src": "/assets/social-cards/v2/3aa7206dfc7b035b-756d5d59a996.jpg",
-      "width": 1200,
-      "height": 630,
-      "type": "image/jpeg",
-      "alt": "Pasaules grāmatu un autortiesību diena | Kalendārs365 Latvijai",
-      "design": "occasion",
-      "kicker": "SVĒTKI UN TRADĪCIJAS",
-      "subtitle": "Svētku stāsts un svarīgākie datumi",
-      "year": 2027,
-      "month": null,
-      "titleLayout": {
-        "text": "Pasaules grāmatu un autortiesību diena",
-        "size": 55,
-        "lines": [
-          "Pasaules grāmatu",
-          "un autortiesību",
-          "diena"
-        ],
-        "bounds": [
-          [
-            60.0,
-            184.0,
-            541.0,
+            390.5,
             237.0
           ],
           [
             60.0,
             248.0,
-            472.5,
-            289.0
-          ],
-          [
-            60.0,
-            311.5,
-            210.0,
-            352.5
+            242.5,
+            303.5
           ]
         ],
         "region": [
@@ -81711,17 +82562,17 @@
         ]
       },
       "subtitleLayout": {
-        "text": "Svētku stāsts un svarīgākie datumi",
+        "text": "30.12.2030 — 05.01.2031",
         "size": 20,
         "lines": [
-          "Svētku stāsts un svarīgākie datumi"
+          "30.12.2030 — 05.01.2031"
         ],
         "bounds": [
           [
             62.0,
             466.0,
-            385.0,
-            485.0
+            292.0,
+            480.0
           ]
         ],
         "region": [
@@ -81731,716 +82582,30 @@
           512
         ]
       },
-      "sources": [
-        {
-          "src": "/assets/tradition-covers/tradition-pasaules-gramatu-diena-c9848d5e317e-1280.webp",
-          "author": "Rīgas pašvaldības aģentūra “Rīgas investīciju un tūrisma aģentūra”",
-          "license": "CC BY 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gaismas-pils.jpg",
-          "sourceSha256": "9070b17cbc1ea13d3e3948301df4dc84533e33b7b46867f25ed42ea57a6a70a3"
-        }
-      ],
+      "sources": [],
       "artwork": [],
       "inputs": {
         "/assets/calendar-data.json": "f0a7090ccc87587d8da0f5428887d8d38d2b71653bdbd9ac25ab5519f63147b3",
         "/assets/fonts/DM-Sans-Bold.ttf": "6193c6c4a9aeb329610cd1991a7c93c1d0d93100fc9901cd43b83ccbdda9cca7",
-        "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93",
-        "/assets/tradition-covers/tradition-pasaules-gramatu-diena-c9848d5e317e-1280.webp": "c9848d5e317ed34e8f669a8943fd4e1080e5d2e61b43256d7fd0514de8bf403e"
+        "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93"
       },
-      "panelSha256": "da9a4924a2be2ab6fdd0bf2a87e37600ba9f403a04be320ae6f922deeca3f9e1",
-      "pixelSha256": "756d5d59a996698fbccce1b1107c0a0110ac0f9162c772f47f654b065fbe054f",
-      "sha256": "38863398c7f5a014eb992b1ae6d96a86788ff78001b561d3c665b14487c18d3f",
-      "bytes": 220904,
-      "semanticFacts": {}
-    },
-    {
-      "url": "/svetki-un-tradicijas/pasaules-vides-diena/",
-      "title": "Pasaules vides diena",
-      "family": "latvia_cultural",
-      "src": "/assets/social-cards/v2/f1e16af55d001a1e-dbd5a5ba2d26.jpg",
-      "width": 1200,
-      "height": 630,
-      "type": "image/jpeg",
-      "alt": "Pasaules vides diena | Kalendārs365 Latvijai",
-      "design": "occasion",
-      "kicker": "SVĒTKI UN TRADĪCIJAS",
-      "subtitle": "Svētku stāsts un svarīgākie datumi",
-      "year": 2027,
-      "month": null,
-      "titleLayout": {
-        "text": "Pasaules vides diena",
-        "size": 55,
-        "lines": [
-          "Pasaules vides",
-          "diena"
-        ],
-        "bounds": [
-          [
-            60.0,
-            184.0,
-            455.0,
-            225.0
-          ],
-          [
-            60.0,
-            248.0,
-            210.0,
-            289.0
-          ]
-        ],
-        "region": [
-          60,
-          184,
-          574,
-          444
+      "panelSha256": "54f86a9412495daf7a01f5665e2f10eb15eef2ba4162c8b40c1b393fe636cca4",
+      "pixelSha256": "c81418937601b0845b39774719f0e701be071b4d1b7367e91a4bcf90ee220aca",
+      "sha256": "910e12e5643fda39c8ad330e43503d346b03014f11f307aee795cc34426dcffe",
+      "bytes": 88648,
+      "semanticFacts": {
+        "isoYear": 2031,
+        "week": 1,
+        "dates": [
+          "2030-12-30",
+          "2030-12-31",
+          "2031-01-01",
+          "2031-01-02",
+          "2031-01-03",
+          "2031-01-04",
+          "2031-01-05"
         ]
-      },
-      "subtitleLayout": {
-        "text": "Svētku stāsts un svarīgākie datumi",
-        "size": 20,
-        "lines": [
-          "Svētku stāsts un svarīgākie datumi"
-        ],
-        "bounds": [
-          [
-            62.0,
-            466.0,
-            385.0,
-            485.0
-          ]
-        ],
-        "region": [
-          62,
-          466,
-          574,
-          512
-        ]
-      },
-      "sources": [
-        {
-          "src": "/assets/tradition-covers/tradition-pasaules-vides-diena-762e7e7ea8cd-1280.webp",
-          "author": "AgrisR",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Forest_near_Sieti%C5%86iezis.jpg",
-          "sourceSha256": "e0845289ec53a38d480f66cface67ba5859f003b267a7f567c8435b5852e88c0"
-        }
-      ],
-      "artwork": [],
-      "inputs": {
-        "/assets/calendar-data.json": "f0a7090ccc87587d8da0f5428887d8d38d2b71653bdbd9ac25ab5519f63147b3",
-        "/assets/fonts/DM-Sans-Bold.ttf": "6193c6c4a9aeb329610cd1991a7c93c1d0d93100fc9901cd43b83ccbdda9cca7",
-        "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93",
-        "/assets/tradition-covers/tradition-pasaules-vides-diena-762e7e7ea8cd-1280.webp": "762e7e7ea8cdce184bbeb44bc02ee37495d5ef540d5a6294af4aad15e09d3e16"
-      },
-      "panelSha256": "57e514e339efeade7eaa132652330985ff39e156cab399a01151b960d958376f",
-      "pixelSha256": "dbd5a5ba2d267714eff4396962a8cbb854d32bd6869e7b72c214224729a3a9ba",
-      "sha256": "79080392cf107090f7aac0037278408e004763a3b6ba2716bc61395191ce1fb4",
-      "bytes": 187860,
-      "semanticFacts": {}
-    },
-    {
-      "url": "/svetki-un-tradicijas/pasaules-bernu-diena/",
-      "title": "Pasaules bērnu diena",
-      "family": "latvia_cultural",
-      "src": "/assets/social-cards/v2/fab779646b9fb430-1c704f66884a.jpg",
-      "width": 1200,
-      "height": 630,
-      "type": "image/jpeg",
-      "alt": "Pasaules bērnu diena | Kalendārs365 Latvijai",
-      "design": "occasion",
-      "kicker": "SVĒTKI UN TRADĪCIJAS",
-      "subtitle": "Svētku stāsts un svarīgākie datumi",
-      "year": 2027,
-      "month": null,
-      "titleLayout": {
-        "text": "Pasaules bērnu diena",
-        "size": 55,
-        "lines": [
-          "Pasaules bērnu",
-          "diena"
-        ],
-        "bounds": [
-          [
-            60.0,
-            184.0,
-            471.0,
-            224.5
-          ],
-          [
-            60.0,
-            248.0,
-            210.0,
-            289.0
-          ]
-        ],
-        "region": [
-          60,
-          184,
-          574,
-          444
-        ]
-      },
-      "subtitleLayout": {
-        "text": "Svētku stāsts un svarīgākie datumi",
-        "size": 20,
-        "lines": [
-          "Svētku stāsts un svarīgākie datumi"
-        ],
-        "bounds": [
-          [
-            62.0,
-            466.0,
-            385.0,
-            485.0
-          ]
-        ],
-        "region": [
-          62,
-          466,
-          574,
-          512
-        ]
-      },
-      "sources": [
-        {
-          "src": "/assets/tradition-covers/tradition-pasaules-bernu-diena-378aa9ebf44e-1280.webp",
-          "author": "Андрей Романенко",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Children_playground_in_%C4%92be%C4%BCmui%C5%BEa_Park_01.jpg",
-          "sourceSha256": "e8c1e24f2b21e190ca6bc448762f143aa85f344cfe81d11af101a3c5e04f1855"
-        }
-      ],
-      "artwork": [],
-      "inputs": {
-        "/assets/calendar-data.json": "f0a7090ccc87587d8da0f5428887d8d38d2b71653bdbd9ac25ab5519f63147b3",
-        "/assets/fonts/DM-Sans-Bold.ttf": "6193c6c4a9aeb329610cd1991a7c93c1d0d93100fc9901cd43b83ccbdda9cca7",
-        "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93",
-        "/assets/tradition-covers/tradition-pasaules-bernu-diena-378aa9ebf44e-1280.webp": "378aa9ebf44e9df2c2737af4a23858da74f6c26fd0ae0b49d7cb74d4e0352eee"
-      },
-      "panelSha256": "047c10e97d951fe1c2d31e5d1c61dd45a922e3935ad826412ed4df2606cb9b56",
-      "pixelSha256": "1c704f66884a967d749fbcad0caaf6738ce008b8aa684c48a30a07257c49e2a6",
-      "sha256": "f35c68170791551cea5e5340d2478941de4f0d801117525f2ddcdfb61c6a9cef",
-      "bytes": 149759,
-      "semanticFacts": {}
-    },
-    {
-      "url": "/svetki-un-tradicijas/pasaules-udens-diena/",
-      "title": "Pasaules ūdens diena",
-      "family": "latvia_cultural",
-      "src": "/assets/social-cards/v2/3c012a46b4721043-b454c7b14ab2.jpg",
-      "width": 1200,
-      "height": 630,
-      "type": "image/jpeg",
-      "alt": "Pasaules ūdens diena | Kalendārs365 Latvijai",
-      "design": "occasion",
-      "kicker": "SVĒTKI UN TRADĪCIJAS",
-      "subtitle": "Svētku stāsts un svarīgākie datumi",
-      "year": 2027,
-      "month": null,
-      "titleLayout": {
-        "text": "Pasaules ūdens diena",
-        "size": 55,
-        "lines": [
-          "Pasaules ūdens",
-          "diena"
-        ],
-        "bounds": [
-          [
-            60.0,
-            184.0,
-            477.0,
-            224.5
-          ],
-          [
-            60.0,
-            248.0,
-            210.0,
-            289.0
-          ]
-        ],
-        "region": [
-          60,
-          184,
-          574,
-          444
-        ]
-      },
-      "subtitleLayout": {
-        "text": "Svētku stāsts un svarīgākie datumi",
-        "size": 20,
-        "lines": [
-          "Svētku stāsts un svarīgākie datumi"
-        ],
-        "bounds": [
-          [
-            62.0,
-            466.0,
-            385.0,
-            485.0
-          ]
-        ],
-        "region": [
-          62,
-          466,
-          574,
-          512
-        ]
-      },
-      "sources": [
-        {
-          "src": "/assets/tradition-covers/tradition-pasaules-udens-diena-383175b5e373-1280.webp",
-          "author": "Ymblanter",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Venta_Rapid_from_the_left_bank.jpg",
-          "sourceSha256": "a5d305e23b8d580916af18ae6c2e8117c36e4b0793cc295b8cb38a5f4d59ba1a"
-        }
-      ],
-      "artwork": [],
-      "inputs": {
-        "/assets/calendar-data.json": "f0a7090ccc87587d8da0f5428887d8d38d2b71653bdbd9ac25ab5519f63147b3",
-        "/assets/fonts/DM-Sans-Bold.ttf": "6193c6c4a9aeb329610cd1991a7c93c1d0d93100fc9901cd43b83ccbdda9cca7",
-        "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93",
-        "/assets/tradition-covers/tradition-pasaules-udens-diena-383175b5e373-1280.webp": "383175b5e373eabc8d743c948ecbc69cb69f79ee931111c7bd22f3ed8b02cf9f"
-      },
-      "panelSha256": "2479439b016c92583e61f9fb0da508dae9f9ea19f21cc2c06fd1757cb4c3a4b0",
-      "pixelSha256": "b454c7b14ab2d04297b06f12fad07a3eb27dc231e622cef1cbcf28bae585cf90",
-      "sha256": "22f4cdb2020a8cb739558252ee3804a47260911df1c89fd8a6a295733acca6e5",
-      "bytes": 120205,
-      "semanticFacts": {}
-    },
-    {
-      "url": "/svetki-un-tradicijas/pasaules-dzivnieku-diena/",
-      "title": "Pasaules dzīvnieku diena",
-      "family": "latvia_cultural",
-      "src": "/assets/social-cards/v2/f85b1ce6ff066b1d-7fa6f1290685.jpg",
-      "width": 1200,
-      "height": 630,
-      "type": "image/jpeg",
-      "alt": "Pasaules dzīvnieku diena | Kalendārs365 Latvijai",
-      "design": "occasion",
-      "kicker": "SVĒTKI UN TRADĪCIJAS",
-      "subtitle": "Svētku stāsts un svarīgākie datumi",
-      "year": 2027,
-      "month": null,
-      "titleLayout": {
-        "text": "Pasaules dzīvnieku diena",
-        "size": 55,
-        "lines": [
-          "Pasaules dzīvnieku",
-          "diena"
-        ],
-        "bounds": [
-          [
-            60.0,
-            184.0,
-            568.0,
-            225.0
-          ],
-          [
-            60.0,
-            248.0,
-            210.0,
-            289.0
-          ]
-        ],
-        "region": [
-          60,
-          184,
-          574,
-          444
-        ]
-      },
-      "subtitleLayout": {
-        "text": "Svētku stāsts un svarīgākie datumi",
-        "size": 20,
-        "lines": [
-          "Svētku stāsts un svarīgākie datumi"
-        ],
-        "bounds": [
-          [
-            62.0,
-            466.0,
-            385.0,
-            485.0
-          ]
-        ],
-        "region": [
-          62,
-          466,
-          574,
-          512
-        ]
-      },
-      "sources": [
-        {
-          "src": "/assets/tradition-covers/tradition-pasaules-dzivnieku-diena-037f1209d857-653.webp",
-          "author": "Martin Mecnarowski (http://www.photomecan.eu/)",
-          "license": "CC BY-SA 3.0",
-          "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lynx_lynx_2_(Martin_Mecnarowski).jpg",
-          "sourceSha256": "41fe479438348d3a50328db26727fed6d8969aa2aa5e6ed1a73abd7cb35b2c00"
-        }
-      ],
-      "artwork": [],
-      "inputs": {
-        "/assets/calendar-data.json": "f0a7090ccc87587d8da0f5428887d8d38d2b71653bdbd9ac25ab5519f63147b3",
-        "/assets/fonts/DM-Sans-Bold.ttf": "6193c6c4a9aeb329610cd1991a7c93c1d0d93100fc9901cd43b83ccbdda9cca7",
-        "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93",
-        "/assets/tradition-covers/tradition-pasaules-dzivnieku-diena-037f1209d857-653.webp": "037f1209d8579f85edf5c230cd45e69626b13f74ffcbe72fbf499866696ac0de"
-      },
-      "panelSha256": "15c3fe175122d852d0102a04e13b8dab0411cd9687250418dc8059619ce883c8",
-      "pixelSha256": "7fa6f1290685c267bcbd13dc3e8b87816b3422e890040d36eb158d83ff7c071d",
-      "sha256": "49ab7fcc6613bb077388f261d032ca9212f9d5d82512bd020f905296d66eeeac",
-      "bytes": 105951,
-      "semanticFacts": {}
-    },
-    {
-      "url": "/svetki-un-tradicijas/pavasara-tradicijas/",
-      "title": "Pavasara tradīcijas Latvijā",
-      "family": "latvia_cultural",
-      "src": "/assets/social-cards/v2/189d209d4252954b-7296f9e76d31.jpg",
-      "width": 1200,
-      "height": 630,
-      "type": "image/jpeg",
-      "alt": "Pavasara tradīcijas Latvijā | Kalendārs365 Latvijai",
-      "design": "occasion",
-      "kicker": "SVĒTKI UN TRADĪCIJAS",
-      "subtitle": "Svētku stāsts un svarīgākie datumi",
-      "year": 2027,
-      "month": null,
-      "titleLayout": {
-        "text": "Pavasara tradīcijas Latvijā",
-        "size": 55,
-        "lines": [
-          "Pavasara tradīcijas",
-          "Latvijā"
-        ],
-        "bounds": [
-          [
-            60.0,
-            184.0,
-            573.0,
-            236.5
-          ],
-          [
-            60.0,
-            248.0,
-            240.5,
-            300.5
-          ]
-        ],
-        "region": [
-          60,
-          184,
-          574,
-          444
-        ]
-      },
-      "subtitleLayout": {
-        "text": "Svētku stāsts un svarīgākie datumi",
-        "size": 20,
-        "lines": [
-          "Svētku stāsts un svarīgākie datumi"
-        ],
-        "bounds": [
-          [
-            62.0,
-            466.0,
-            385.0,
-            485.0
-          ]
-        ],
-        "region": [
-          62,
-          466,
-          574,
-          512
-        ]
-      },
-      "sources": [
-        {
-          "src": "/assets/tradition-covers/tradition-pavasara-tradicijas-bd282009cff3-1024.webp",
-          "author": "Nicolas G. Mertens",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Easter_Eggs_in_Latvia_2.jpg",
-          "sourceSha256": "f37f72806918c91fdcf0e84b45284f03c02efdb060633c36c8fa39567c84f1b8"
-        }
-      ],
-      "artwork": [],
-      "inputs": {
-        "/assets/calendar-data.json": "f0a7090ccc87587d8da0f5428887d8d38d2b71653bdbd9ac25ab5519f63147b3",
-        "/assets/fonts/DM-Sans-Bold.ttf": "6193c6c4a9aeb329610cd1991a7c93c1d0d93100fc9901cd43b83ccbdda9cca7",
-        "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93",
-        "/assets/tradition-covers/tradition-pavasara-tradicijas-bd282009cff3-1024.webp": "bd282009cff33fd587ca6e77a9e44d4479c23c844df7ab0a5b1aa064368d7216"
-      },
-      "panelSha256": "e72b1a573ba16954a5686fe38072255ad8e16d838e7480fb9af880d83fbc1e44",
-      "pixelSha256": "7296f9e76d31de676647600eab4f61b7b7569a70e35f11cf49406c47136dc14a",
-      "sha256": "682b47ee35f6acf8af35d7101df4ceca46ca499efd8908e7b4bc29f57c96f709",
-      "bytes": 167506,
-      "semanticFacts": {}
-    },
-    {
-      "url": "/svetki-un-tradicijas/sveta-nikolaja-diena/",
-      "title": "Svētā Nikolaja diena Latvijā",
-      "family": "latvia_cultural",
-      "src": "/assets/social-cards/v2/e6c1d221729f6d76-d460221456e9.jpg",
-      "width": 1200,
-      "height": 630,
-      "type": "image/jpeg",
-      "alt": "Svētā Nikolaja diena Latvijā | Kalendārs365 Latvijai",
-      "design": "occasion",
-      "kicker": "SVĒTKI UN TRADĪCIJAS",
-      "subtitle": "Svētku stāsts un svarīgākie datumi",
-      "year": 2027,
-      "month": null,
-      "titleLayout": {
-        "text": "Svētā Nikolaja diena Latvijā",
-        "size": 55,
-        "lines": [
-          "Svētā Nikolaja",
-          "diena Latvijā"
-        ],
-        "bounds": [
-          [
-            60.0,
-            184.0,
-            441.0,
-            236.5
-          ],
-          [
-            60.0,
-            248.0,
-            403.5,
-            300.5
-          ]
-        ],
-        "region": [
-          60,
-          184,
-          574,
-          444
-        ]
-      },
-      "subtitleLayout": {
-        "text": "Svētku stāsts un svarīgākie datumi",
-        "size": 20,
-        "lines": [
-          "Svētku stāsts un svarīgākie datumi"
-        ],
-        "bounds": [
-          [
-            62.0,
-            466.0,
-            385.0,
-            485.0
-          ]
-        ],
-        "region": [
-          62,
-          466,
-          574,
-          512
-        ]
-      },
-      "sources": [
-        {
-          "src": "/assets/tradition-covers/tradition-sveta-nikolaja-diena-78180df5ac7f-1280.webp",
-          "author": "HerzenSterneBrezeln",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nikolausstiefel.jpg",
-          "sourceSha256": "7563cb423dba47c85119389270b4675a8ac0841e5ada69f347bc7a9a99cb7e06"
-        }
-      ],
-      "artwork": [],
-      "inputs": {
-        "/assets/calendar-data.json": "f0a7090ccc87587d8da0f5428887d8d38d2b71653bdbd9ac25ab5519f63147b3",
-        "/assets/fonts/DM-Sans-Bold.ttf": "6193c6c4a9aeb329610cd1991a7c93c1d0d93100fc9901cd43b83ccbdda9cca7",
-        "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93",
-        "/assets/tradition-covers/tradition-sveta-nikolaja-diena-78180df5ac7f-1280.webp": "78180df5ac7f37c882dda3286b0a1c570c75930ee03857c8ae0328c0265f5b09"
-      },
-      "panelSha256": "b7782c5d22b42cc1935c655b9a7f821c3c6e2b60115899719450e62a4f587ae3",
-      "pixelSha256": "d460221456e93c0722dc85589486f8b093b9c745fbcf30325c627dfcffd7b1b0",
-      "sha256": "923083fcf27bbdb53db8a2e0aa3e9f2173f42ac6798690b5396f940e440c4956",
-      "bytes": 127427,
-      "semanticFacts": {}
-    },
-    {
-      "url": "/svetki-un-tradicijas/pasaules-bisu-diena/",
-      "title": "Pasaules bišu diena",
-      "family": "latvia_cultural",
-      "src": "/assets/social-cards/v2/2dff9b79cbd3e524-68d0a085347d.jpg",
-      "width": 1200,
-      "height": 630,
-      "type": "image/jpeg",
-      "alt": "Pasaules bišu diena | Kalendārs365 Latvijai",
-      "design": "occasion",
-      "kicker": "SVĒTKI UN TRADĪCIJAS",
-      "subtitle": "Svētku stāsts un svarīgākie datumi",
-      "year": 2027,
-      "month": null,
-      "titleLayout": {
-        "text": "Pasaules bišu diena",
-        "size": 55,
-        "lines": [
-          "Pasaules bišu",
-          "diena"
-        ],
-        "bounds": [
-          [
-            60.0,
-            184.0,
-            425.5,
-            226.0
-          ],
-          [
-            60.0,
-            248.0,
-            210.0,
-            289.0
-          ]
-        ],
-        "region": [
-          60,
-          184,
-          574,
-          444
-        ]
-      },
-      "subtitleLayout": {
-        "text": "Svētku stāsts un svarīgākie datumi",
-        "size": 20,
-        "lines": [
-          "Svētku stāsts un svarīgākie datumi"
-        ],
-        "bounds": [
-          [
-            62.0,
-            466.0,
-            385.0,
-            485.0
-          ]
-        ],
-        "region": [
-          62,
-          466,
-          574,
-          512
-        ]
-      },
-      "sources": [
-        {
-          "src": "/assets/tradition-covers/tradition-pasaules-bisu-diena-d69d64266226-1280.webp",
-          "author": "Luc Viatour",
-          "license": "CC BY-SA 3.0",
-          "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Apis_mellifera_2_Luc_Viatour.JPG",
-          "sourceSha256": "eac11f5dbd9805e0e674cb409afd929c48d03c000d83655d3f6558dc6e1d8246"
-        }
-      ],
-      "artwork": [],
-      "inputs": {
-        "/assets/calendar-data.json": "f0a7090ccc87587d8da0f5428887d8d38d2b71653bdbd9ac25ab5519f63147b3",
-        "/assets/fonts/DM-Sans-Bold.ttf": "6193c6c4a9aeb329610cd1991a7c93c1d0d93100fc9901cd43b83ccbdda9cca7",
-        "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93",
-        "/assets/tradition-covers/tradition-pasaules-bisu-diena-d69d64266226-1280.webp": "d69d64266226a422696bac78ac09c0700e32f57d4c2d40578b20f7afa326f324"
-      },
-      "panelSha256": "bbbc855e730672b99de0c1c0abe9af4474690a03ad42926de0cfcd1092582f87",
-      "pixelSha256": "68d0a085347dc0154df0b51953019417cbb4d207487701c071c5c8502cafd7d6",
-      "sha256": "cf1916396d57bcae27c7760a3d6ea9016e56956dd1e19af07ceac3099927c63d",
-      "bytes": 138421,
-      "semanticFacts": {}
-    },
-    {
-      "url": "/svetki-un-tradicijas/zemes-diena/",
-      "title": "Zemes diena Latvijā",
-      "family": "latvia_cultural",
-      "src": "/assets/social-cards/v2/d36a1c021179d250-771dd4f974b4.jpg",
-      "width": 1200,
-      "height": 630,
-      "type": "image/jpeg",
-      "alt": "Zemes diena Latvijā | Kalendārs365 Latvijai",
-      "design": "occasion",
-      "kicker": "SVĒTKI UN TRADĪCIJAS",
-      "subtitle": "Svētku stāsts un svarīgākie datumi",
-      "year": 2027,
-      "month": null,
-      "titleLayout": {
-        "text": "Zemes diena Latvijā",
-        "size": 55,
-        "lines": [
-          "Zemes diena",
-          "Latvijā"
-        ],
-        "bounds": [
-          [
-            60.0,
-            184.0,
-            401.0,
-            225.0
-          ],
-          [
-            60.0,
-            248.0,
-            240.5,
-            300.5
-          ]
-        ],
-        "region": [
-          60,
-          184,
-          574,
-          444
-        ]
-      },
-      "subtitleLayout": {
-        "text": "Svētku stāsts un svarīgākie datumi",
-        "size": 20,
-        "lines": [
-          "Svētku stāsts un svarīgākie datumi"
-        ],
-        "bounds": [
-          [
-            62.0,
-            466.0,
-            385.0,
-            485.0
-          ]
-        ],
-        "region": [
-          62,
-          466,
-          574,
-          512
-        ]
-      },
-      "sources": [
-        {
-          "src": "/assets/tradition-covers/tradition-zemes-diena-d8ed24c10007-1280.webp",
-          "author": "NASA/Apollo 17 crew; taken by either Harrison Schmitt or Ron Evans",
-          "license": "Public domain",
-          "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_Earth_seen_from_Apollo_17.jpg",
-          "sourceSha256": "3f55578a3c58509029c6a1ec88c683199f585ea9ffe974efd4265aec314156fb"
-        }
-      ],
-      "artwork": [],
-      "inputs": {
-        "/assets/calendar-data.json": "f0a7090ccc87587d8da0f5428887d8d38d2b71653bdbd9ac25ab5519f63147b3",
-        "/assets/fonts/DM-Sans-Bold.ttf": "6193c6c4a9aeb329610cd1991a7c93c1d0d93100fc9901cd43b83ccbdda9cca7",
-        "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93",
-        "/assets/tradition-covers/tradition-zemes-diena-d8ed24c10007-1280.webp": "d8ed24c10007e36799e8698d02407ea41c08c5d1ccdc8e302fb209e2620f870e"
-      },
-      "panelSha256": "7b6c5b27bb038c2437d8dd82b9a32ad0ddde5eebc26bced4dbd2ce15a3c0d580",
-      "pixelSha256": "771dd4f974b445e8b47d074f40a1ae228e590b7529ad8b784d779260989f1f8b",
-      "sha256": "0c9c68c16207b3f8ddaa5367ce4398145193fd4529908b329cc16b8f5db05722",
-      "bytes": 146723,
-      "semanticFacts": {}
+      }
     },
     {
       "url": "/pilsetas-un-fotografijas/",
@@ -84701,95 +84866,6 @@
       "sha256": "9661e58e80af361d9dc61fc28df7fd9038a98f5d0c947d91a01b626e59e6b89a",
       "bytes": 73571,
       "semanticFacts": {}
-    },
-    {
-      "url": "/nedelas-kalendars/2031/01/",
-      "title": "2031. gada 1. nedēļa",
-      "family": "iso_week",
-      "src": "/assets/social-cards/v2/3ab42e05c1a50ac0-c81418937601.jpg",
-      "width": 1200,
-      "height": 630,
-      "type": "image/jpeg",
-      "alt": "2031. gada 1. nedēļa | Kalendārs365 Latvijai",
-      "design": "calendar",
-      "kicker": "NEDĒĻAS KALENDĀRS",
-      "subtitle": "30.12.2030 — 05.01.2031",
-      "year": 2031,
-      "month": null,
-      "titleLayout": {
-        "text": "2031. gada 1. nedēļa",
-        "size": 55,
-        "lines": [
-          "2031. gada 1.",
-          "nedēļa"
-        ],
-        "bounds": [
-          [
-            60.0,
-            184.0,
-            390.5,
-            237.0
-          ],
-          [
-            60.0,
-            248.0,
-            242.5,
-            303.5
-          ]
-        ],
-        "region": [
-          60,
-          184,
-          574,
-          444
-        ]
-      },
-      "subtitleLayout": {
-        "text": "30.12.2030 — 05.01.2031",
-        "size": 20,
-        "lines": [
-          "30.12.2030 — 05.01.2031"
-        ],
-        "bounds": [
-          [
-            62.0,
-            466.0,
-            292.0,
-            480.0
-          ]
-        ],
-        "region": [
-          62,
-          466,
-          574,
-          512
-        ]
-      },
-      "sources": [],
-      "artwork": [],
-      "inputs": {
-        "/assets/calendar-data.json": "f0a7090ccc87587d8da0f5428887d8d38d2b71653bdbd9ac25ab5519f63147b3",
-        "/assets/fonts/DM-Sans-Bold.ttf": "6193c6c4a9aeb329610cd1991a7c93c1d0d93100fc9901cd43b83ccbdda9cca7",
-        "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93"
-      },
-      "panelSha256": "54f86a9412495daf7a01f5665e2f10eb15eef2ba4162c8b40c1b393fe636cca4",
-      "pixelSha256": "c81418937601b0845b39774719f0e701be071b4d1b7367e91a4bcf90ee220aca",
-      "sha256": "910e12e5643fda39c8ad330e43503d346b03014f11f307aee795cc34426dcffe",
-      "bytes": 88648,
-      "semanticFacts": {
-        "isoYear": 2031,
-        "week": 1,
-        "dates": [
-          "2030-12-30",
-          "2030-12-31",
-          "2031-01-01",
-          "2031-01-02",
-          "2031-01-03",
-          "2031-01-04",
-          "2031-01-05"
-        ]
-      }
     }
-  ],
-  "bytes": 99864778
+  ]
 }

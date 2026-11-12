@@ -8,41 +8,35 @@
 .page-shell--calendar-collection>.page-heading .page-heading-mark{width:44px;height:44px;flex:0 0 44px;border-radius:12px}
 .page-shell--calendar-collection>.page-heading .page-heading-deck{font-size:14px;line-height:1.65;max-width:90ch;margin:0}
 .calendar-collection-layout{display:grid;grid-template-columns:284px minmax(0,1fr);gap:26px;align-items:start}
-.calendar-collection-sidebar{position:sticky;top:18px;min-width:0}
-.collection-explorer{border:1px solid #e0ccc6;border-radius:17px;background:#fffdf9;overflow:hidden;box-shadow:0 8px 25px #4d273b08}
-.collection-explorer>summary{display:none;align-items:center;gap:12px;padding:14px 17px;list-style:none;cursor:pointer;color:#782a43}
+.calendar-collection-sidebar{position:static;min-width:0}
+.calendar-collection-sidebar[data-sidebar-sticky=true]{position:sticky;top:18px}
+.collection-explorer{border:1px solid #dfc8c2;border-radius:18px;background:#fffdf9;box-shadow:0 8px 25px #4d273b08}
+.collection-explorer>summary{display:flex;align-items:center;gap:10px;min-height:62px;padding:13px 16px;list-style:none;cursor:pointer;color:#782a43;border-radius:17px;background:linear-gradient(130deg,#fffaf4,#f6eae4)}
+.collection-explorer[open]>summary{border-radius:17px 17px 0 0;border-bottom:1px solid #e9dbd3}
 .collection-explorer>summary::-webkit-details-marker{display:none}
-.collection-explorer>summary>.icon{width:34px;height:34px;flex:none}
+.collection-explorer>summary>.icon{width:30px;height:30px;flex:none}
 .collection-explorer>summary>span:nth-child(2){flex:1;min-width:0}
-.collection-explorer>summary small{display:block;font-size:9px;letter-spacing:.1em;color:#966d7b;font-weight:750}
-.collection-explorer>summary strong{display:block;font-size:17px;line-height:1.35}
-.collection-explorer-header{padding:18px 17px 13px;border-bottom:1px solid #e9dbd3;background:linear-gradient(130deg,#fffaf4,#f6eae4)}
-.collection-explorer-header>.eyebrow{font-size:9px;letter-spacing:.13em;color:#936275}
-.collection-year-links{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:6px;margin:9px 0 11px}
-.collection-year-links a{display:grid;place-items:center;min-height:38px;border:1px solid #e4d0cd;border-radius:8px;text-decoration:none;color:#7d2b43;background:#fffdf8;font-size:12px;font-weight:800}
-.collection-year-links a[aria-current]{color:#fff;background:#812e48;border-color:#812e48;box-shadow:0 3px 8px #762a4319}
-.collection-year-overview{display:flex;align-items:center;gap:9px;padding:8px 2px;color:#714353;font-size:13px;font-weight:750;text-decoration:none}
-.collection-year-overview .icon{width:25px;height:25px;flex:none}.collection-year-overview>span:last-child{margin-left:auto}
+.collection-explorer>summary>span:last-child{font-size:17px;line-height:1;transition:transform .15s}
+.collection-explorer[open]>summary>span:last-child{transform:rotate(180deg)}
+.collection-explorer>summary small{display:block;margin-bottom:3px;font-size:9px;letter-spacing:.12em;color:#966d7b;font-weight:750}
+.collection-explorer>summary strong{display:block;font-size:15px;line-height:1.35;overflow-wrap:anywhere}
+.collection-explorer-header{padding:14px 14px 7px;background:transparent}
+.collection-explorer-header>.eyebrow{font-size:9px;letter-spacing:.12em;color:#936275}
+.collection-year-links{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:6px;margin:9px 0 8px}
+.collection-year-links a{display:grid;place-items:center;min-height:44px;border:1px solid #e4d0cd;border-radius:9px;text-decoration:none;color:#7d2b43;background:#fffdf8;font-size:13px;font-weight:800}
+.collection-year-links a[aria-current]{color:#fff;background:linear-gradient(135deg,#a1445c,#7c2944);border-color:#812e48;box-shadow:0 2px 0 #ffffff24 inset,0 3px 8px #762a4319}
+.collection-year-overview{display:flex;align-items:center;gap:8px;min-height:40px;padding:7px 2px;color:#714353;font-size:12px;font-weight:750;text-decoration:none}
+.collection-year-overview .icon{width:23px;height:23px;flex:none}.collection-year-overview>span:last-child{margin-left:auto}
 .collection-year-overview.is-current{color:#8b2645}
-.collection-gallery-jump{display:flex;align-items:center;justify-content:space-between;gap:8px;padding:7px 10px;border:1px solid #dfc8c8;border-radius:7px;color:#7a2945;background:#fffaf6;font-size:11px;font-weight:800;text-decoration:none;margin-top:4px}
-.collection-month-list{display:block;max-height:calc(100dvh - 230px);overflow-y:auto;overscroll-behavior:contain;padding:9px 12px 12px;scrollbar-width:thin;scrollbar-color:#ceb0b8 transparent;scroll-padding:10px}
-.collection-mini-month{padding:11px 8px 10px;margin-bottom:7px;border:1px solid transparent;border-bottom-color:#eaded8;border-radius:11px;min-width:0;background:transparent}
-.collection-mini-month:last-child{margin-bottom:0;border-bottom-color:transparent}
-.collection-mini-month.is-current{border-color:#bd8495;background:#f9edf0;box-shadow:0 4px 12px #76324a0a}
-.collection-mini-month h3{margin:0 0 8px;font-size:14px;line-height:1.3}
-.collection-mini-month h3>a{display:flex;align-items:center;gap:8px;min-height:32px;color:#6d2b42;text-decoration:none;font-weight:800}
-.collection-mini-month h3 .icon{width:29px;height:29px;flex:none}
-.collection-mini-month h3 .collection-mini-arrow{margin-left:auto;font-size:15px;color:#a16a7b}
-.collection-mini-month table{width:100%;table-layout:fixed;border-collapse:separate;border-spacing:1px;margin:0;font-variant-numeric:tabular-nums}
-.collection-mini-month :is(th,td){padding:0;border:0;text-align:center;font-size:11px;line-height:1.2;vertical-align:middle;background:transparent}
-.collection-mini-month thead th{font-size:9px;min-height:24px;height:24px;font-weight:750;color:#75626e}
-.collection-mini-month abbr{text-decoration:none}.collection-mini-month th:first-child{width:23px}
-.collection-mini-month tbody a{display:grid;place-items:center;height:27px;min-width:0;line-height:1;border:1px solid transparent;border-radius:5px;color:#39343d;text-decoration:none}
-.collection-mini-month tbody th a{font-size:9px;color:#966274;font-weight:650}
-.collection-mini-month .is-weekend a{background:#f5eaed;color:#884156}
-.collection-mini-month .is-holiday a{color:#8b1e3c;background:#f4dce3;font-weight:850}
-.collection-mini-month .is-outside a{color:#a2999c;background:#f0eeeb;font-weight:400}
-.collection-mini-month a:hover{background:#eee0d9;color:#752a43;border-color:#caa6ad}
+.collection-month-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:6px;padding:8px 14px 14px;max-height:none;overflow:visible}
+.collection-month-link{display:flex;align-items:center;gap:6px;min-width:0;min-height:48px;padding:7px 8px;border:1px solid #eadbd6;border-radius:10px;background:#fffdf9;text-decoration:none;color:#59424f;font-size:12px;font-weight:650;line-height:1.3}
+.collection-month-link>span:last-child{min-width:0;overflow-wrap:anywhere}
+.collection-month-art{display:grid;place-items:center;flex:0 0 23px;height:27px}
+.collection-month-art .icon{display:block;width:23px;height:27px;object-fit:contain}
+.collection-month-link:hover{background:#fbf0ed;border-color:#cda5ad;color:#782b45}
+.collection-month-link[aria-current]{border-color:#9c4a64;background:#f8e9ee;color:#7f2141;box-shadow:0 1px 0 #fff inset}
+.collection-gallery-jump{display:flex;align-items:center;justify-content:space-between;gap:8px;min-height:44px;margin:0 14px 14px;padding:9px 11px;border:1px solid #d9b8bc;border-radius:10px;color:#7a2945;background:linear-gradient(130deg,#fbf2e9,#f6e8e9);font-size:12px;font-weight:750;text-decoration:none}
+.collection-gallery-jump .icon{flex:none;width:23px;height:23px}.collection-gallery-jump>span:nth-child(2){margin-right:auto}
 .calendar-collection-layout :is(a,summary,button,select):focus-visible{outline:3px solid #b5835d;outline-offset:2px}
 .calendar-collection-main{min-width:0}
 .calendar-collection-main>.a3-year-gallery,.calendar-collection-main>.moon-print-section{margin:0}
@@ -70,7 +64,7 @@
 .collection-calendar-card .calendar-heading{flex-wrap:wrap}.collection-calendar-card .calendar-heading h2{font-size:27px}
 .collection-calendar-card .calendar-controls{gap:8px}.collection-calendar-card .view-tabs{flex:1 0 100%;width:100%;max-width:100%;margin-bottom:3px}
 .collection-calendar-card .view-tabs button{flex:1;min-width:0}
-.collection-calendar-metrics{display:flex;flex-wrap:wrap;gap:10px 25px;padding:12px 0;border-block:1px solid #eee2dc;margin:13px 0;color:#88717c;font-size:11px}
+.collection-calendar-metrics{display:flex;flex-wrap:wrap;gap:10px 25px;padding:12px 0;border-block:1px solid #eee2dc;margin:13px 0;color:#826c77;font-size:11px}
 .collection-calendar-metrics b{color:#7d2944;font-size:17px;margin-right:4px}
 .collection-event-search{display:flex;gap:7px;flex-direction:column;margin:0 0 14px;font-size:12px;color:#755364;font-weight:700}
 .collection-event-search input{width:100%;max-width:none;font-size:14px}
@@ -91,9 +85,9 @@
 .calendar-collection-main .lunar-moon-scene{grid-column:1;grid-row:3/span 5;min-height:290px;margin:0}
 .calendar-collection-main :is(.lunar-phase-reading,.lunar-phase-description,.lunar-city-picker,.lunar-event-details,.lunar-visual-credit){grid-column:2}
 @media(max-width:1370px){.calendar-collection-layout{grid-template-columns:262px minmax(0,1fr);gap:22px}.calendar-collection-main .a3-design-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.calendar-collection-main .a3-design-preview{height:300px}.collection-personal-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.collection-personal-grid>.day-plan{grid-column:1/-1}}
-@media(max-width:1100px){.calendar-collection-layout{grid-template-columns:minmax(0,1fr);gap:20px}.calendar-collection-sidebar{position:static}.collection-explorer>summary{display:flex}.collection-explorer-header{padding:15px 20px}.collection-year-links{max-width:420px}.collection-month-list{max-height:60dvh;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px;padding:10px 15px}.collection-mini-month{margin:0}.calendar-collection-main .a3-design-grid{grid-template-columns:repeat(3,minmax(0,1fr))}.calendar-collection-main .a3-design-preview{height:260px}}
-@media(max-width:820px){.calendar-collection-main .a3-design-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.collection-month-list{grid-template-columns:repeat(2,minmax(0,1fr))}.collection-personal-grid{grid-template-columns:1fr}.collection-personal-grid>.day-plan{grid-column:auto}}
-@media(max-width:600px){.page-shell--calendar-collection{padding:20px 14px 35px}.page-shell--calendar-collection>.page-heading{padding:21px 20px;margin-bottom:18px}.page-shell--calendar-collection>.page-heading h1{font-size:28px}.page-shell--calendar-collection>.page-heading .page-heading-deck{font-size:12px}.page-shell--calendar-collection>.page-heading .page-heading-mark{display:none}.calendar-collection-layout{gap:20px}.collection-explorer>summary{padding:13px 16px}.collection-month-list{grid-template-columns:1fr;padding:8px 15px}.collection-mini-month{padding:12px}.collection-mini-month tbody a{height:32px;font-size:12px}.collection-mini-month h3{font-size:16px}.collection-mini-month thead th{font-size:11px}.calendar-collection-main :is(.a3-gallery-heading,.moon-print-heading){align-items:flex-start;gap:12px}.calendar-collection-main :is(.a3-gallery-heading,.moon-print-heading) h2{font-size:26px}.calendar-collection-main :is(.a3-gallery-badge,.moon-print-quality){font-size:10px;padding:7px 9px}.calendar-collection-main .a3-design-grid,.calendar-collection-main .moon-print-grid{grid-template-columns:minmax(0,1fr);gap:18px}.calendar-collection-main .a3-design-preview{height:310px;padding:20px}.calendar-collection-main .a3-design-copy{padding:20px}.calendar-collection-main .a3-design-copy h3{font-size:20px}.calendar-collection-main .a3-design-actions a{font-size:14px;gap:7px;min-height:48px}.collection-period-nav{grid-template-columns:repeat(2,minmax(0,1fr));gap:8px;margin:20px 0}.collection-period-nav>:nth-child(2){grid-column:1/-1;grid-row:1}.collection-period-nav>a,.collection-period-nav>span{font-size:11px;padding:10px}.collection-calendar-card{padding:12px}.collection-calendar-card .calendar-heading h2{font-size:22px}.collection-calendar-card .calendar-heading-actions{margin-left:auto}.collection-calendar-card .calendar-heading-actions>button:first-child{display:none}.collection-calendar-metrics{gap:8px 14px;font-size:10px}.collection-calendar-metrics b{font-size:15px}.collection-local-tools .layer-grid{grid-template-columns:1fr}.calendar-collection-main .lunar-detail-card{display:block;padding:18px}.calendar-collection-main .lunar-moon-scene{min-height:250px}.calendar-collection-main .moon-print-preview{height:320px}}
+@media(max-width:1100px){.calendar-collection-layout{grid-template-columns:minmax(0,1fr);gap:20px}.calendar-collection-sidebar{position:static}.collection-explorer>summary{display:flex}.collection-explorer-header{padding:15px 20px}.collection-year-links{max-width:420px}.collection-month-list{grid-template-columns:repeat(4,minmax(0,1fr));gap:7px;padding:8px 20px 16px}.collection-gallery-jump{margin-inline:20px}.calendar-collection-main .a3-design-grid{grid-template-columns:repeat(3,minmax(0,1fr))}.calendar-collection-main .a3-design-preview{height:260px}}
+@media(max-width:820px){.calendar-collection-main .a3-design-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.collection-month-list{grid-template-columns:repeat(3,minmax(0,1fr))}.collection-personal-grid{grid-template-columns:1fr}.collection-personal-grid>.day-plan{grid-column:auto}}
+@media(max-width:600px){.page-shell--calendar-collection{padding:20px 14px 35px}.page-shell--calendar-collection>.page-heading{padding:21px 20px;margin-bottom:18px}.page-shell--calendar-collection>.page-heading h1{font-size:28px}.page-shell--calendar-collection>.page-heading .page-heading-deck{font-size:12px}.page-shell--calendar-collection>.page-heading .page-heading-mark{display:none}.calendar-collection-layout{gap:20px}.collection-explorer>summary{padding:13px 16px}.collection-explorer-header{padding:12px 14px 6px}.collection-month-list{grid-template-columns:repeat(2,minmax(0,1fr));padding:6px 14px 12px}.collection-gallery-jump{margin-inline:14px}.collection-month-link{font-size:12px}.calendar-collection-main :is(.a3-gallery-heading,.moon-print-heading){align-items:flex-start;gap:12px}.calendar-collection-main :is(.a3-gallery-heading,.moon-print-heading) h2{font-size:26px}.calendar-collection-main :is(.a3-gallery-badge,.moon-print-quality){font-size:10px;padding:7px 9px}.calendar-collection-main .a3-design-grid,.calendar-collection-main .moon-print-grid{grid-template-columns:minmax(0,1fr);gap:18px}.calendar-collection-main .a3-design-preview{height:310px;padding:20px}.calendar-collection-main .a3-design-copy{padding:20px}.calendar-collection-main .a3-design-copy h3{font-size:20px}.calendar-collection-main .a3-design-actions a{font-size:14px;gap:7px;min-height:48px}.collection-period-nav{grid-template-columns:repeat(2,minmax(0,1fr));gap:8px;margin:20px 0}.collection-period-nav>:nth-child(2){grid-column:1/-1;grid-row:1}.collection-period-nav>a,.collection-period-nav>span{font-size:11px;padding:10px}.collection-calendar-card{padding:12px}.collection-calendar-card .calendar-heading h2{font-size:22px}.collection-calendar-card .calendar-heading-actions{margin-left:auto}.collection-calendar-card .calendar-heading-actions>button:first-child{display:none}.collection-calendar-metrics{gap:8px 14px;font-size:10px}.collection-calendar-metrics b{font-size:15px}.collection-local-tools .layer-grid{grid-template-columns:1fr}.calendar-collection-main .lunar-detail-card{display:block;padding:18px}.calendar-collection-main .lunar-moon-scene{min-height:250px}.calendar-collection-main .moon-print-preview{height:320px}}
 @media(prefers-reduced-motion:reduce){.calendar-collection-main .a3-design-preview img{transition:none}}
 @page collection-year{size:A4 portrait;margin:8mm}
 @media print{

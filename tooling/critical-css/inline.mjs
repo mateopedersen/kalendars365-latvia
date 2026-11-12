@@ -28,19 +28,27 @@ export function applyCriticalCss(html,css,href,processor=createCriticalProcessor
   original;
  return {html:html.replace(original,replacement),criticalBytes:Buffer.byteLength(critical)};
 }
+export function applyBlockingStylesheet(html,css,href){
+ const original=`<link rel="stylesheet" href="${href}">`,digest=crypto.createHash('sha256').update(css).digest('hex');
+ if(html.split(original).length!==2||href!==`/static/css/${digest.slice(0,24)}.css`)throw Error('Expected one matching, content-addressed complete stylesheet.');
+ if(html.includes('name="style-bundle-sha256"'))throw Error('Stylesheet policy already applied.');
+ // The complete sheet already blocks first paint. Repeating a 140 KB subset
+ // inline adds transfer and parsing without removing that dependency.
+ return {html:html.replace(original,`<meta name="style-bundle-sha256" content="${digest}">${original}`),criticalBytes:0};
+}
 async function htmlFiles(dir){const result=[];for(const entry of await fs.readdir(dir,{withFileTypes:true})){if(entry.name==='downloads')continue;const file=path.join(dir,entry.name);if(entry.isDirectory())result.push(...await htmlFiles(file));else if(entry.name.endsWith('.html'))result.push(file);}return result;}
 export async function buildCriticalCss(destination){
- const processors=new Map();let pages=0,total=0;
+ const sheets=new Map();let pages=0,total=0;
  for(const file of await htmlFiles(destination)){
   const html=await fs.readFile(file,'utf8');
   const styles=[...html.split('</head>')[0].matchAll(/<link rel="stylesheet" href="(\/static\/css\/[a-f0-9]{24}\.css)">/g)];
   if(styles.length!==1)throw Error('Expected one bundled stylesheet: '+file);
   const href=styles[0][1];
-  if(!processors.has(href)){const css=await fs.readFile(path.join(destination,href),'utf8');processors.set(href,{css,processor:createCriticalProcessor(css,href)});}
-  const {css,processor}=processors.get(href),result=applyCriticalCss(html,css,href,processor);
+  if(!sheets.has(href))sheets.set(href,await fs.readFile(path.join(destination,href),'utf8'));
+  const result=applyBlockingStylesheet(html,sheets.get(href),href);
   await fs.writeFile(file,result.html);pages++;total+=result.criticalBytes;
  }
- console.log(JSON.stringify({criticalCssPages:pages,sharedStylesheets:processors.size,averageInlineBytes:Math.round(total/pages)}));
- return {pages,bundles:processors.size};
+ console.log(JSON.stringify({stylesheetPolicyPages:pages,sharedStylesheets:sheets.size,averageInlineBytes:Math.round(total/pages),policy:'complete-blocking-cascade'}));
+ return {pages,bundles:sheets.size};
 }
 if(process.argv[1]&&path.resolve(process.argv[1])===fileURLToPath(import.meta.url))await buildCriticalCss(path.resolve(process.argv[2]||'_site'));

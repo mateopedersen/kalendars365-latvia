@@ -1,0 +1,1249 @@
+[
+  {
+    "calendarCells": 42,
+    "calendarTables": 1,
+    "calendarTitle": "Novembris 2026",
+    "canonical": "https://kalendars365.lv/",
+    "description": "Latvijas kalendāri, svētku un vārda dienas, personīgie notikumi un rīki ikdienai. Izvēlies pilsētu, plāno dienu un veido kalendāru drukāšanai.",
+    "documentWidth": 1440,
+    "fonts": "loaded",
+    "h1": [
+      "Latvijas kalendārs taviem plāniem."
+    ],
+    "height": 1000,
+    "jsonld": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@id": "https://kalendars365.lv/#publisher",
+            "@type": "Person",
+            "name": "Silvis Balodis",
+            "url": "https://kalendars365.lv/par-projektu/#silvis-balodis"
+          },
+          {
+            "@id": "https://kalendars365.lv/#website",
+            "@type": "WebSite",
+            "alternateName": "Kalendars365",
+            "inLanguage": "lv-LV",
+            "name": "Kalendārs365",
+            "publisher": {
+              "@id": "https://kalendars365.lv/#publisher"
+            },
+            "url": "https://kalendars365.lv/"
+          },
+          {
+            "@id": "https://kalendars365.lv/#primaryimage",
+            "@type": "ImageObject",
+            "caption": "Latvijas kalendārs, svētki un plānotājs | Kalendārs365 Latvijai",
+            "contentUrl": "https://kalendars365.lv/assets/social-cards/v2/42099b4af021e53f-a8036a3df94a.jpg",
+            "height": 630,
+            "inLanguage": "lv-LV",
+            "url": "https://kalendars365.lv/assets/social-cards/v2/42099b4af021e53f-a8036a3df94a.jpg",
+            "width": 1200
+          },
+          {
+            "@id": "https://kalendars365.lv/#webpage",
+            "@type": "WebPage",
+            "dateModified": "2026-11-12",
+            "description": "Latvijas kalendāri, svētku un vārda dienas, personīgie notikumi un rīki ikdienai. Izvēlies pilsētu, plāno dienu un veido kalendāru drukāšanai.",
+            "inLanguage": "lv-LV",
+            "isPartOf": {
+              "@id": "https://kalendars365.lv/#website"
+            },
+            "name": "Latvijas kalendārs, svētki un plānotājs",
+            "primaryImageOfPage": {
+              "@id": "https://kalendars365.lv/#primaryimage"
+            },
+            "publisher": {
+              "@id": "https://kalendars365.lv/#publisher"
+            },
+            "url": "https://kalendars365.lv/"
+          }
+        ]
+      }
+    ],
+    "lang": "lv",
+    "path": "/",
+    "query": "",
+    "robots": "index,follow,max-image-preview:large",
+    "tables": 1,
+    "title": "Latvijas kalendārs, svētki un plānotājs | Kalendārs365",
+    "visibleImages": [
+      {
+        "alt": "",
+        "height": 38,
+        "loaded": true,
+        "src": "/assets/nav-ice/calendar.svg?v=d6730ff4fdd3abdf",
+        "width": 38
+      },
+      {
+        "alt": "",
+        "height": 38,
+        "loaded": true,
+        "src": "/assets/nav-ice/holiday.svg?v=d6730ff4fdd3abdf",
+        "width": 38
+      },
+      {
+        "alt": "",
+        "height": 38,
+        "loaded": true,
+        "src": "/assets/nav-ice/school.svg?v=d6730ff4fdd3abdf",
+        "width": 38
+      },
+      {
+        "alt": "",
+        "height": 38,
+        "loaded": true,
+        "src": "/assets/nav-ice/horoscope.svg?v=d6730ff4fdd3abdf",
+        "width": 38
+      },
+      {
+        "alt": "",
+        "height": 40,
+        "loaded": true,
+        "src": "/assets/nav-tools/print.svg?v=d6730ff4fdd3abdf",
+        "width": 40
+      },
+      {
+        "alt": "",
+        "height": 40,
+        "loaded": true,
+        "src": "/assets/nav-tools/work.svg?v=d6730ff4fdd3abdf",
+        "width": 40
+      },
+      {
+        "alt": "",
+        "height": 40,
+        "loaded": true,
+        "src": "/assets/nav-tools/calculator.svg?v=d6730ff4fdd3abdf",
+        "width": 40
+      },
+      {
+        "alt": "",
+        "height": 40,
+        "loaded": true,
+        "src": "/assets/nav-tools/tools.svg?v=d6730ff4fdd3abdf",
+        "width": 40
+      },
+      {
+        "alt": "",
+        "height": 32,
+        "loaded": true,
+        "src": "/assets/category-vector/planner.svg?v=d6730ff4fdd3abdf",
+        "width": 36
+      },
+      {
+        "alt": "",
+        "height": 52,
+        "loaded": true,
+        "src": "/assets/category-vector/calendar.svg?v=d6730ff4fdd3abdf",
+        "width": 60
+      },
+      {
+        "alt": "",
+        "height": 52,
+        "loaded": true,
+        "src": "/assets/category-vector/week.svg?v=d6730ff4fdd3abdf",
+        "width": 60
+      },
+      {
+        "alt": "",
+        "height": 52,
+        "loaded": true,
+        "src": "/assets/category-vector/family.svg?v=d6730ff4fdd3abdf",
+        "width": 60
+      },
+      {
+        "alt": "",
+        "height": 52,
+        "loaded": true,
+        "src": "/assets/category-vector/vacation.svg?v=d6730ff4fdd3abdf",
+        "width": 60
+      },
+      {
+        "alt": "",
+        "height": 52,
+        "loaded": true,
+        "src": "/assets/category-vector/shift.svg?v=d6730ff4fdd3abdf",
+        "width": 60
+      },
+      {
+        "alt": "",
+        "height": 32,
+        "loaded": true,
+        "src": "/assets/category-vector/latvia-days.svg?v=d6730ff4fdd3abdf",
+        "width": 36
+      },
+      {
+        "alt": "",
+        "height": 52,
+        "loaded": true,
+        "src": "/assets/category-vector/names.svg?v=d6730ff4fdd3abdf",
+        "width": 60
+      },
+      {
+        "alt": "",
+        "height": 52,
+        "loaded": true,
+        "src": "/assets/category-vector/holiday.svg?v=d6730ff4fdd3abdf",
+        "width": 60
+      },
+      {
+        "alt": "",
+        "height": 52,
+        "loaded": true,
+        "src": "/assets/category-vector/school.svg?v=d6730ff4fdd3abdf",
+        "width": 60
+      },
+      {
+        "alt": "",
+        "height": 52,
+        "loaded": true,
+        "src": "/assets/category-vector/timetable.svg?v=d6730ff4fdd3abdf",
+        "width": 60
+      },
+      {
+        "alt": "",
+        "height": 52,
+        "loaded": true,
+        "src": "/assets/nav-long-weekend.svg?v=d6730ff4fdd3abdf",
+        "width": 60
+      },
+      {
+        "alt": "",
+        "height": 32,
+        "loaded": true,
+        "src": "/assets/category-vector/sun.svg?v=d6730ff4fdd3abdf",
+        "width": 36
+      },
+      {
+        "alt": "",
+        "height": 52,
+        "loaded": true,
+        "src": "/assets/category-vector/sunrise.svg?v=d6730ff4fdd3abdf",
+        "width": 60
+      },
+      {
+        "alt": "",
+        "height": 52,
+        "loaded": true,
+        "src": "/assets/category-vector/moon.svg?v=d6730ff4fdd3abdf",
+        "width": 60
+      },
+      {
+        "alt": "",
+        "height": 52,
+        "loaded": true,
+        "src": "/assets/category-vector/phases.svg?v=d6730ff4fdd3abdf",
+        "width": 60
+      },
+      {
+        "alt": "",
+        "height": 52,
+        "loaded": true,
+        "src": "/assets/category-vector/seasons.svg?v=d6730ff4fdd3abdf",
+        "width": 60
+      },
+      {
+        "alt": "",
+        "height": 52,
+        "loaded": true,
+        "src": "/assets/category-vector/astronomy.svg?v=d6730ff4fdd3abdf",
+        "width": 60
+      },
+      {
+        "alt": "Zemes ilustrācija",
+        "height": 111,
+        "loaded": true,
+        "src": "/assets/category-vector/earth.svg",
+        "width": 258
+      },
+      {
+        "alt": "",
+        "height": 96,
+        "loaded": true,
+        "src": "/assets/consent-cookie.svg?v=d6730ff4fdd3abdf",
+        "width": 96
+      }
+    ],
+    "width": 1440,
+    "names": 0
+  },
+  {
+    "calendarCells": 42,
+    "calendarTables": 1,
+    "calendarTitle": "Februāris 2028",
+    "canonical": "https://kalendars365.lv/kalendars/2028/februaris/",
+    "description": "2028. gada februāra kalendārs: 29 dienas, Latvijas svētku dienas un ISO nedēļu numuri. Atver datumu vai sagatavo mēneša kalendāru drukāšanai.",
+    "documentWidth": 1440,
+    "fonts": "loaded",
+    "h1": [
+      "2028. gada februāra kalendārs"
+    ],
+    "height": 1000,
+    "jsonld": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@id": "https://kalendars365.lv/#publisher",
+            "@type": "Person",
+            "name": "Silvis Balodis",
+            "url": "https://kalendars365.lv/par-projektu/#silvis-balodis"
+          },
+          {
+            "@id": "https://kalendars365.lv/#website",
+            "@type": "WebSite",
+            "alternateName": "Kalendars365",
+            "inLanguage": "lv-LV",
+            "name": "Kalendārs365",
+            "publisher": {
+              "@id": "https://kalendars365.lv/#publisher"
+            },
+            "url": "https://kalendars365.lv/"
+          },
+          {
+            "@id": "https://kalendars365.lv/kalendars/2028/februaris/#primaryimage",
+            "@type": "ImageObject",
+            "caption": "2028. gada februāra kalendārs | Kalendārs365 Latvijai",
+            "contentUrl": "https://kalendars365.lv/assets/social-cards/v2/b36e5562f52bb35f-a36f5f955fad.jpg",
+            "height": 630,
+            "inLanguage": "lv-LV",
+            "url": "https://kalendars365.lv/assets/social-cards/v2/b36e5562f52bb35f-a36f5f955fad.jpg",
+            "width": 1200
+          },
+          {
+            "@id": "https://kalendars365.lv/kalendars/2028/februaris/#webpage",
+            "@type": "WebPage",
+            "breadcrumb": {
+              "@id": "https://kalendars365.lv/kalendars/2028/februaris/#breadcrumb"
+            },
+            "dateModified": "2026-11-12",
+            "description": "2028. gada februāra kalendārs: 29 dienas, Latvijas svētku dienas un ISO nedēļu numuri. Atver datumu vai sagatavo mēneša kalendāru drukāšanai.",
+            "inLanguage": "lv-LV",
+            "isPartOf": {
+              "@id": "https://kalendars365.lv/#website"
+            },
+            "name": "2028. gada februāra kalendārs",
+            "primaryImageOfPage": {
+              "@id": "https://kalendars365.lv/kalendars/2028/februaris/#primaryimage"
+            },
+            "publisher": {
+              "@id": "https://kalendars365.lv/#publisher"
+            },
+            "url": "https://kalendars365.lv/kalendars/2028/februaris/"
+          },
+          {
+            "@id": "https://kalendars365.lv/kalendars/2028/februaris/#breadcrumb",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "item": "https://kalendars365.lv/",
+                "name": "Sākums",
+                "position": 1
+              },
+              {
+                "@type": "ListItem",
+                "item": "https://kalendars365.lv/kalendars/",
+                "name": "Gada kalendāri",
+                "position": 2
+              },
+              {
+                "@type": "ListItem",
+                "item": "https://kalendars365.lv/kalendars/2028/",
+                "name": "Kalendārs 2028",
+                "position": 3
+              },
+              {
+                "@type": "ListItem",
+                "item": "https://kalendars365.lv/kalendars/2028/februaris/",
+                "name": "2028. gada februāra kalendārs",
+                "position": 4
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "lang": "lv",
+    "path": "/kalendars/2028/februaris/",
+    "query": "",
+    "robots": "index,follow,max-image-preview:large",
+    "tables": 13,
+    "title": "2028. gada februāra kalendārs | Kalendārs365",
+    "visibleImages": [
+      {
+        "alt": "",
+        "height": 38,
+        "loaded": true,
+        "src": "/assets/nav-ice/calendar.svg?v=d6730ff4fdd3abdf",
+        "width": 38
+      },
+      {
+        "alt": "",
+        "height": 38,
+        "loaded": true,
+        "src": "/assets/nav-ice/holiday.svg?v=d6730ff4fdd3abdf",
+        "width": 38
+      },
+      {
+        "alt": "",
+        "height": 38,
+        "loaded": true,
+        "src": "/assets/nav-ice/school.svg?v=d6730ff4fdd3abdf",
+        "width": 38
+      },
+      {
+        "alt": "",
+        "height": 38,
+        "loaded": true,
+        "src": "/assets/nav-ice/horoscope.svg?v=d6730ff4fdd3abdf",
+        "width": 38
+      },
+      {
+        "alt": "",
+        "height": 40,
+        "loaded": true,
+        "src": "/assets/nav-tools/print.svg?v=d6730ff4fdd3abdf",
+        "width": 40
+      },
+      {
+        "alt": "",
+        "height": 40,
+        "loaded": true,
+        "src": "/assets/nav-tools/work.svg?v=d6730ff4fdd3abdf",
+        "width": 40
+      },
+      {
+        "alt": "",
+        "height": 40,
+        "loaded": true,
+        "src": "/assets/nav-tools/calculator.svg?v=d6730ff4fdd3abdf",
+        "width": 40
+      },
+      {
+        "alt": "",
+        "height": 40,
+        "loaded": true,
+        "src": "/assets/nav-tools/tools.svg?v=d6730ff4fdd3abdf",
+        "width": 40
+      },
+      {
+        "alt": "",
+        "height": 32,
+        "loaded": true,
+        "src": "/assets/category-vector/planner.svg?v=d6730ff4fdd3abdf",
+        "width": 36
+      },
+      {
+        "alt": "",
+        "height": 52,
+        "loaded": true,
+        "src": "/assets/category-vector/calendar.svg?v=d6730ff4fdd3abdf",
+        "width": 60
+      },
+      {
+        "alt": "",
+        "height": 52,
+        "loaded": true,
+        "src": "/assets/category-vector/week.svg?v=d6730ff4fdd3abdf",
+        "width": 60
+      },
+      {
+        "alt": "",
+        "height": 52,
+        "loaded": true,
+        "src": "/assets/category-vector/family.svg?v=d6730ff4fdd3abdf",
+        "width": 60
+      },
+      {
+        "alt": "",
+        "height": 52,
+        "loaded": true,
+        "src": "/assets/category-vector/vacation.svg?v=d6730ff4fdd3abdf",
+        "width": 60
+      },
+      {
+        "alt": "",
+        "height": 52,
+        "loaded": true,
+        "src": "/assets/category-vector/shift.svg?v=d6730ff4fdd3abdf",
+        "width": 60
+      },
+      {
+        "alt": "",
+        "height": 32,
+        "loaded": true,
+        "src": "/assets/category-vector/latvia-days.svg?v=d6730ff4fdd3abdf",
+        "width": 36
+      },
+      {
+        "alt": "",
+        "height": 52,
+        "loaded": true,
+        "src": "/assets/category-vector/names.svg?v=d6730ff4fdd3abdf",
+        "width": 60
+      },
+      {
+        "alt": "",
+        "height": 52,
+        "loaded": true,
+        "src": "/assets/category-vector/holiday.svg?v=d6730ff4fdd3abdf",
+        "width": 60
+      },
+      {
+        "alt": "",
+        "height": 52,
+        "loaded": true,
+        "src": "/assets/category-vector/school.svg?v=d6730ff4fdd3abdf",
+        "width": 60
+      },
+      {
+        "alt": "",
+        "height": 52,
+        "loaded": true,
+        "src": "/assets/category-vector/timetable.svg?v=d6730ff4fdd3abdf",
+        "width": 60
+      },
+      {
+        "alt": "",
+        "height": 52,
+        "loaded": true,
+        "src": "/assets/nav-long-weekend.svg?v=d6730ff4fdd3abdf",
+        "width": 60
+      },
+      {
+        "alt": "",
+        "height": 32,
+        "loaded": true,
+        "src": "/assets/category-vector/sun.svg?v=d6730ff4fdd3abdf",
+        "width": 36
+      },
+      {
+        "alt": "",
+        "height": 52,
+        "loaded": true,
+        "src": "/assets/category-vector/sunrise.svg?v=d6730ff4fdd3abdf",
+        "width": 60
+      },
+      {
+        "alt": "",
+        "height": 52,
+        "loaded": true,
+        "src": "/assets/category-vector/moon.svg?v=d6730ff4fdd3abdf",
+        "width": 60
+      },
+      {
+        "alt": "",
+        "height": 52,
+        "loaded": true,
+        "src": "/assets/category-vector/phases.svg?v=d6730ff4fdd3abdf",
+        "width": 60
+      },
+      {
+        "alt": "",
+        "height": 52,
+        "loaded": true,
+        "src": "/assets/category-vector/seasons.svg?v=d6730ff4fdd3abdf",
+        "width": 60
+      },
+      {
+        "alt": "",
+        "height": 52,
+        "loaded": true,
+        "src": "/assets/category-vector/astronomy.svg?v=d6730ff4fdd3abdf",
+        "width": 60
+      },
+      {
+        "alt": "",
+        "height": 43,
+        "loaded": true,
+        "src": "/assets/category-vector/month-2028-2.svg?v=d6730ff4fdd3abdf",
+        "width": 43
+      },
+      {
+        "alt": "",
+        "height": 29,
+        "loaded": true,
+        "src": "/assets/category-vector/month-2028-1.svg?v=d6730ff4fdd3abdf",
+        "width": 29
+      },
+      {
+        "alt": "",
+        "height": 29,
+        "loaded": true,
+        "src": "/assets/category-vector/month-2028-2.svg?v=d6730ff4fdd3abdf",
+        "width": 29
+      },
+      {
+        "alt": "2028. gada februāra kalendārs: Karmīna klasika",
+        "height": 212,
+        "loaded": true,
+        "src": "/assets/calendar-previews/menesa-a3-2028-02-01-preview-720-c6d0678ffdb2d6621bbdee40.webp",
+        "width": 300
+      },
+      {
+        "alt": "",
+        "height": 21,
+        "loaded": true,
+        "src": "/assets/file-pdf.svg",
+        "width": 21
+      },
+      {
+        "alt": "",
+        "height": 21,
+        "loaded": true,
+        "src": "/assets/file-image.svg",
+        "width": 21
+      },
+      {
+        "alt": "2028. gada februāra kalendārs: Rīgas siluets",
+        "height": 234,
+        "loaded": true,
+        "src": "/assets/calendar-previews/menesa-a3-2028-02-02-preview-396-2135e693e69c50a66397a87e.webp",
+        "width": 165
+      },
+      {
+        "alt": "",
+        "height": 21,
+        "loaded": true,
+        "src": "/assets/file-pdf.svg",
+        "width": 21
+      },
+      {
+        "alt": "",
+        "height": 21,
+        "loaded": true,
+        "src": "/assets/file-image.svg",
+        "width": 21
+      },
+      {
+        "alt": "2028. gada februāra kalendārs: Meža gadalaiki",
+        "height": 212,
+        "loaded": true,
+        "src": "/assets/calendar-previews/menesa-a3-2028-02-03-preview-720-f7ff5cdf45c768048f1c0108.webp",
+        "width": 300
+      },
+      {
+        "alt": "",
+        "height": 21,
+        "loaded": true,
+        "src": "/assets/file-pdf.svg",
+        "width": 21
+      },
+      {
+        "alt": "",
+        "height": 21,
+        "loaded": true,
+        "src": "/assets/file-image.svg",
+        "width": 21
+      },
+      {
+        "alt": "",
+        "height": 96,
+        "loaded": true,
+        "src": "/assets/consent-cookie.svg?v=d6730ff4fdd3abdf",
+        "width": 96
+      }
+    ],
+    "width": 1440,
+    "names": 0
+  },
+  {
+    "calendarCells": 7,
+    "calendarTables": 0,
+    "calendarTitle": "1. nedēļa · 2031",
+    "canonical": "https://kalendars365.lv/nedelas-kalendars/2031/01/",
+    "description": "Apskati 2031. gada ISO 1. nedēļas datumus, kas sākas 2030. gada decembra pēdējās dienās.",
+    "documentWidth": 1440,
+    "fonts": "loaded",
+    "h1": [
+      "2031. gada 1. nedēļa"
+    ],
+    "height": 1000,
+    "jsonld": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@id": "https://kalendars365.lv/#publisher",
+            "@type": "Person",
+            "name": "Silvis Balodis",
+            "url": "https://kalendars365.lv/par-projektu/#silvis-balodis"
+          },
+          {
+            "@id": "https://kalendars365.lv/#website",
+            "@type": "WebSite",
+            "alternateName": "Kalendars365",
+            "inLanguage": "lv-LV",
+            "name": "Kalendārs365",
+            "publisher": {
+              "@id": "https://kalendars365.lv/#publisher"
+            },
+            "url": "https://kalendars365.lv/"
+          },
+          {
+            "@id": "https://kalendars365.lv/nedelas-kalendars/2031/01/#primaryimage",
+            "@type": "ImageObject",
+            "caption": "2031. gada 1. nedēļa | Kalendārs365 Latvijai",
+            "contentUrl": "https://kalendars365.lv/assets/social-cards/v2/3ab42e05c1a50ac0-c81418937601.jpg",
+            "height": 630,
+            "inLanguage": "lv-LV",
+            "url": "https://kalendars365.lv/assets/social-cards/v2/3ab42e05c1a50ac0-c81418937601.jpg",
+            "width": 1200
+          },
+          {
+            "@id": "https://kalendars365.lv/nedelas-kalendars/2031/01/#webpage",
+            "@type": "WebPage",
+            "breadcrumb": {
+              "@id": "https://kalendars365.lv/nedelas-kalendars/2031/01/#breadcrumb"
+            },
+            "dateModified": "2026-11-12",
+            "description": "Apskati 2031. gada ISO 1. nedēļas datumus, kas sākas 2030. gada decembra pēdējās dienās.",
+            "inLanguage": "lv-LV",
+            "isPartOf": {
+              "@id": "https://kalendars365.lv/#website"
+            },
+            "name": "2031. gada 1. nedēļa",
+            "primaryImageOfPage": {
+              "@id": "https://kalendars365.lv/nedelas-kalendars/2031/01/#primaryimage"
+            },
+            "publisher": {
+              "@id": "https://kalendars365.lv/#publisher"
+            },
+            "url": "https://kalendars365.lv/nedelas-kalendars/2031/01/"
+          },
+          {
+            "@id": "https://kalendars365.lv/nedelas-kalendars/2031/01/#breadcrumb",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "item": "https://kalendars365.lv/",
+                "name": "Sākums",
+                "position": 1
+              },
+              {
+                "@type": "ListItem",
+                "item": "https://kalendars365.lv/kalendars/",
+                "name": "Gada kalendāri",
+                "position": 2
+              },
+              {
+                "@type": "ListItem",
+                "item": "https://kalendars365.lv/nedelas-kalendars/",
+                "name": "Nedēļas kalendāri",
+                "position": 3
+              },
+              {
+                "@type": "ListItem",
+                "item": "https://kalendars365.lv/nedelas-kalendars/2031/01/",
+                "name": "2031. gada 1. nedēļa",
+                "position": 4
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "lang": "lv",
+    "path": "/nedelas-kalendars/2031/01/",
+    "query": "",
+    "robots": "index,follow,max-image-preview:large",
+    "tables": 0,
+    "title": "2031. gada 1. nedēļa | Kalendārs365",
+    "visibleImages": [
+      {
+        "alt": "",
+        "height": 38,
+        "loaded": true,
+        "src": "/assets/nav-ice/calendar.svg?v=d6730ff4fdd3abdf",
+        "width": 38
+      },
+      {
+        "alt": "",
+        "height": 38,
+        "loaded": true,
+        "src": "/assets/nav-ice/holiday.svg?v=d6730ff4fdd3abdf",
+        "width": 38
+      },
+      {
+        "alt": "",
+        "height": 38,
+        "loaded": true,
+        "src": "/assets/nav-ice/school.svg?v=d6730ff4fdd3abdf",
+        "width": 38
+      },
+      {
+        "alt": "",
+        "height": 38,
+        "loaded": true,
+        "src": "/assets/nav-ice/horoscope.svg?v=d6730ff4fdd3abdf",
+        "width": 38
+      },
+      {
+        "alt": "",
+        "height": 40,
+        "loaded": true,
+        "src": "/assets/nav-tools/print.svg?v=d6730ff4fdd3abdf",
+        "width": 40
+      },
+      {
+        "alt": "",
+        "height": 40,
+        "loaded": true,
+        "src": "/assets/nav-tools/work.svg?v=d6730ff4fdd3abdf",
+        "width": 40
+      },
+      {
+        "alt": "",
+        "height": 40,
+        "loaded": true,
+        "src": "/assets/nav-tools/calculator.svg?v=d6730ff4fdd3abdf",
+        "width": 40
+      },
+      {
+        "alt": "",
+        "height": 40,
+        "loaded": true,
+        "src": "/assets/nav-tools/tools.svg?v=d6730ff4fdd3abdf",
+        "width": 40
+      },
+      {
+        "alt": "",
+        "height": 32,
+        "loaded": true,
+        "src": "/assets/category-vector/planner.svg?v=d6730ff4fdd3abdf",
+        "width": 36
+      },
+      {
+        "alt": "",
+        "height": 52,
+        "loaded": true,
+        "src": "/assets/category-vector/calendar.svg?v=d6730ff4fdd3abdf",
+        "width": 60
+      },
+      {
+        "alt": "",
+        "height": 52,
+        "loaded": true,
+        "src": "/assets/category-vector/week.svg?v=d6730ff4fdd3abdf",
+        "width": 60
+      },
+      {
+        "alt": "",
+        "height": 52,
+        "loaded": true,
+        "src": "/assets/category-vector/family.svg?v=d6730ff4fdd3abdf",
+        "width": 60
+      },
+      {
+        "alt": "",
+        "height": 52,
+        "loaded": true,
+        "src": "/assets/category-vector/vacation.svg?v=d6730ff4fdd3abdf",
+        "width": 60
+      },
+      {
+        "alt": "",
+        "height": 52,
+        "loaded": true,
+        "src": "/assets/category-vector/shift.svg?v=d6730ff4fdd3abdf",
+        "width": 60
+      },
+      {
+        "alt": "",
+        "height": 32,
+        "loaded": true,
+        "src": "/assets/category-vector/latvia-days.svg?v=d6730ff4fdd3abdf",
+        "width": 36
+      },
+      {
+        "alt": "",
+        "height": 52,
+        "loaded": true,
+        "src": "/assets/category-vector/names.svg?v=d6730ff4fdd3abdf",
+        "width": 60
+      },
+      {
+        "alt": "",
+        "height": 52,
+        "loaded": true,
+        "src": "/assets/category-vector/holiday.svg?v=d6730ff4fdd3abdf",
+        "width": 60
+      },
+      {
+        "alt": "",
+        "height": 52,
+        "loaded": true,
+        "src": "/assets/category-vector/school.svg?v=d6730ff4fdd3abdf",
+        "width": 60
+      },
+      {
+        "alt": "",
+        "height": 52,
+        "loaded": true,
+        "src": "/assets/category-vector/timetable.svg?v=d6730ff4fdd3abdf",
+        "width": 60
+      },
+      {
+        "alt": "",
+        "height": 52,
+        "loaded": true,
+        "src": "/assets/nav-long-weekend.svg?v=d6730ff4fdd3abdf",
+        "width": 60
+      },
+      {
+        "alt": "",
+        "height": 32,
+        "loaded": true,
+        "src": "/assets/category-vector/sun.svg?v=d6730ff4fdd3abdf",
+        "width": 36
+      },
+      {
+        "alt": "",
+        "height": 52,
+        "loaded": true,
+        "src": "/assets/category-vector/sunrise.svg?v=d6730ff4fdd3abdf",
+        "width": 60
+      },
+      {
+        "alt": "",
+        "height": 52,
+        "loaded": true,
+        "src": "/assets/category-vector/moon.svg?v=d6730ff4fdd3abdf",
+        "width": 60
+      },
+      {
+        "alt": "",
+        "height": 52,
+        "loaded": true,
+        "src": "/assets/category-vector/phases.svg?v=d6730ff4fdd3abdf",
+        "width": 60
+      },
+      {
+        "alt": "",
+        "height": 52,
+        "loaded": true,
+        "src": "/assets/category-vector/seasons.svg?v=d6730ff4fdd3abdf",
+        "width": 60
+      },
+      {
+        "alt": "",
+        "height": 52,
+        "loaded": true,
+        "src": "/assets/category-vector/astronomy.svg?v=d6730ff4fdd3abdf",
+        "width": 60
+      },
+      {
+        "alt": "Zemes ilustrācija",
+        "height": 111,
+        "loaded": true,
+        "src": "/assets/category-vector/earth.svg",
+        "width": 258
+      },
+      {
+        "alt": "",
+        "height": 96,
+        "loaded": true,
+        "src": "/assets/consent-cookie.svg?v=d6730ff4fdd3abdf",
+        "width": 96
+      }
+    ],
+    "width": 1440,
+    "names": 0
+  },
+  {
+    "calendarCells": 0,
+    "calendarTables": 0,
+    "canonical": "https://kalendars365.lv/varda-dienas/",
+    "description": "Meklē vārda dienu pēc vārda vai mēneša. Iepazīsties ar norādīto Valsts valodas centra saraksta versiju un informācijas pārbaudes statusu.",
+    "documentWidth": 1440,
+    "fonts": "loaded",
+    "h1": [
+      "Vārda dienas"
+    ],
+    "height": 1000,
+    "jsonld": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@id": "https://kalendars365.lv/#publisher",
+            "@type": "Person",
+            "name": "Silvis Balodis",
+            "url": "https://kalendars365.lv/par-projektu/#silvis-balodis"
+          },
+          {
+            "@id": "https://kalendars365.lv/#website",
+            "@type": "WebSite",
+            "alternateName": "Kalendars365",
+            "inLanguage": "lv-LV",
+            "name": "Kalendārs365",
+            "publisher": {
+              "@id": "https://kalendars365.lv/#publisher"
+            },
+            "url": "https://kalendars365.lv/"
+          },
+          {
+            "@id": "https://kalendars365.lv/varda-dienas/#primaryimage",
+            "@type": "ImageObject",
+            "caption": "Vārda dienas Latvijā un vārdu kalendārs | Kalendārs365 Latvijai",
+            "contentUrl": "https://kalendars365.lv/assets/social-cards/v2/7b5c2c3b273a172d-1e95b382e633.jpg",
+            "height": 630,
+            "inLanguage": "lv-LV",
+            "url": "https://kalendars365.lv/assets/social-cards/v2/7b5c2c3b273a172d-1e95b382e633.jpg",
+            "width": 1200
+          },
+          {
+            "@id": "https://kalendars365.lv/varda-dienas/#webpage",
+            "@type": "WebPage",
+            "breadcrumb": {
+              "@id": "https://kalendars365.lv/varda-dienas/#breadcrumb"
+            },
+            "dateModified": "2026-11-12",
+            "description": "Meklē vārda dienu pēc vārda vai mēneša. Iepazīsties ar norādīto Valsts valodas centra saraksta versiju un informācijas pārbaudes statusu.",
+            "inLanguage": "lv-LV",
+            "isPartOf": {
+              "@id": "https://kalendars365.lv/#website"
+            },
+            "name": "Vārda dienas Latvijā un vārdu kalendārs",
+            "primaryImageOfPage": {
+              "@id": "https://kalendars365.lv/varda-dienas/#primaryimage"
+            },
+            "publisher": {
+              "@id": "https://kalendars365.lv/#publisher"
+            },
+            "url": "https://kalendars365.lv/varda-dienas/"
+          },
+          {
+            "@id": "https://kalendars365.lv/varda-dienas/#breadcrumb",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "item": "https://kalendars365.lv/",
+                "name": "Sākums",
+                "position": 1
+              },
+              {
+                "@type": "ListItem",
+                "item": "https://kalendars365.lv/varda-dienas/",
+                "name": "Vārda dienas",
+                "position": 2
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "lang": "lv",
+    "path": "/varda-dienas/",
+    "query": "",
+    "robots": "index,follow,max-image-preview:large",
+    "tables": 0,
+    "title": "Vārda dienas Latvijā un vārdu kalendārs | Kalendārs365",
+    "visibleImages": [
+      {
+        "alt": "",
+        "height": 38,
+        "loaded": true,
+        "src": "/assets/nav-ice/calendar.svg?v=d6730ff4fdd3abdf",
+        "width": 38
+      },
+      {
+        "alt": "",
+        "height": 38,
+        "loaded": true,
+        "src": "/assets/nav-ice/holiday.svg?v=d6730ff4fdd3abdf",
+        "width": 38
+      },
+      {
+        "alt": "",
+        "height": 38,
+        "loaded": true,
+        "src": "/assets/nav-ice/school.svg?v=d6730ff4fdd3abdf",
+        "width": 38
+      },
+      {
+        "alt": "",
+        "height": 38,
+        "loaded": true,
+        "src": "/assets/nav-ice/horoscope.svg?v=d6730ff4fdd3abdf",
+        "width": 38
+      },
+      {
+        "alt": "",
+        "height": 40,
+        "loaded": true,
+        "src": "/assets/nav-tools/print.svg?v=d6730ff4fdd3abdf",
+        "width": 40
+      },
+      {
+        "alt": "",
+        "height": 40,
+        "loaded": true,
+        "src": "/assets/nav-tools/work.svg?v=d6730ff4fdd3abdf",
+        "width": 40
+      },
+      {
+        "alt": "",
+        "height": 40,
+        "loaded": true,
+        "src": "/assets/nav-tools/calculator.svg?v=d6730ff4fdd3abdf",
+        "width": 40
+      },
+      {
+        "alt": "",
+        "height": 40,
+        "loaded": true,
+        "src": "/assets/nav-tools/tools.svg?v=d6730ff4fdd3abdf",
+        "width": 40
+      },
+      {
+        "alt": "",
+        "height": 32,
+        "loaded": true,
+        "src": "/assets/category-vector/planner.svg?v=d6730ff4fdd3abdf",
+        "width": 36
+      },
+      {
+        "alt": "",
+        "height": 52,
+        "loaded": true,
+        "src": "/assets/category-vector/calendar.svg?v=d6730ff4fdd3abdf",
+        "width": 60
+      },
+      {
+        "alt": "",
+        "height": 52,
+        "loaded": true,
+        "src": "/assets/category-vector/week.svg?v=d6730ff4fdd3abdf",
+        "width": 60
+      },
+      {
+        "alt": "",
+        "height": 52,
+        "loaded": true,
+        "src": "/assets/category-vector/family.svg?v=d6730ff4fdd3abdf",
+        "width": 60
+      },
+      {
+        "alt": "",
+        "height": 52,
+        "loaded": true,
+        "src": "/assets/category-vector/vacation.svg?v=d6730ff4fdd3abdf",
+        "width": 60
+      },
+      {
+        "alt": "",
+        "height": 52,
+        "loaded": true,
+        "src": "/assets/category-vector/shift.svg?v=d6730ff4fdd3abdf",
+        "width": 60
+      },
+      {
+        "alt": "",
+        "height": 32,
+        "loaded": true,
+        "src": "/assets/category-vector/latvia-days.svg?v=d6730ff4fdd3abdf",
+        "width": 36
+      },
+      {
+        "alt": "",
+        "height": 52,
+        "loaded": true,
+        "src": "/assets/category-vector/names.svg?v=d6730ff4fdd3abdf",
+        "width": 60
+      },
+      {
+        "alt": "",
+        "height": 52,
+        "loaded": true,
+        "src": "/assets/category-vector/holiday.svg?v=d6730ff4fdd3abdf",
+        "width": 60
+      },
+      {
+        "alt": "",
+        "height": 52,
+        "loaded": true,
+        "src": "/assets/category-vector/school.svg?v=d6730ff4fdd3abdf",
+        "width": 60
+      },
+      {
+        "alt": "",
+        "height": 52,
+        "loaded": true,
+        "src": "/assets/category-vector/timetable.svg?v=d6730ff4fdd3abdf",
+        "width": 60
+      },
+      {
+        "alt": "",
+        "height": 52,
+        "loaded": true,
+        "src": "/assets/nav-long-weekend.svg?v=d6730ff4fdd3abdf",
+        "width": 60
+      },
+      {
+        "alt": "",
+        "height": 32,
+        "loaded": true,
+        "src": "/assets/category-vector/sun.svg?v=d6730ff4fdd3abdf",
+        "width": 36
+      },
+      {
+        "alt": "",
+        "height": 52,
+        "loaded": true,
+        "src": "/assets/category-vector/sunrise.svg?v=d6730ff4fdd3abdf",
+        "width": 60
+      },
+      {
+        "alt": "",
+        "height": 52,
+        "loaded": true,
+        "src": "/assets/category-vector/moon.svg?v=d6730ff4fdd3abdf",
+        "width": 60
+      },
+      {
+        "alt": "",
+        "height": 52,
+        "loaded": true,
+        "src": "/assets/category-vector/phases.svg?v=d6730ff4fdd3abdf",
+        "width": 60
+      },
+      {
+        "alt": "",
+        "height": 52,
+        "loaded": true,
+        "src": "/assets/category-vector/seasons.svg?v=d6730ff4fdd3abdf",
+        "width": 60
+      },
+      {
+        "alt": "",
+        "height": 52,
+        "loaded": true,
+        "src": "/assets/category-vector/astronomy.svg?v=d6730ff4fdd3abdf",
+        "width": 60
+      },
+      {
+        "alt": "",
+        "height": 412,
+        "loaded": true,
+        "src": "/assets/category-vector/names.svg?v=d6730ff4fdd3abdf",
+        "width": 474
+      },
+      {
+        "alt": "",
+        "height": 96,
+        "loaded": true,
+        "src": "/assets/consent-cookie.svg?v=d6730ff4fdd3abdf",
+        "width": 96
+      }
+    ],
+    "width": 1440,
+    "names": 60
+  }
+]

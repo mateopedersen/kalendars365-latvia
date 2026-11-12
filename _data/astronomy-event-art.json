@@ -205,12 +205,12 @@
     {
       "key": "observatory",
       "title": "Astronomisko notikumu ceļvedis",
-      "description": "Teleskops un nakts debesis.",
+      "description": "Lēcu teleskops ar meklētāju, okulāru un regulējamu trijkāji zem zvaigžņotām debesīm.",
       "kind": "tool",
       "variant": "observatory",
       "file": "/assets/astronomy-events/observatory.svg",
-      "bytes": 5852,
-      "sha256": "a866e0cf54cee64a954eb9f2f6952a0b4f4453d15882a228741e5063f01e3c8d"
+      "bytes": 13609,
+      "sha256": "bd448de7e8f245221cac9688cb7bebc37891f28052d260b7f34c9377067fcf88"
     }
   ]
 }

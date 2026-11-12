@@ -1,0 +1,18 @@
+[
+  {
+    "file": "sitemap.xsd",
+    "url": "https://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd",
+    "retrievedAt": "2026-11-12",
+    "bytes": 4451,
+    "sha256": "fbec77e84467050d5667394a57cc5cdfe1239d80aca1d61e9e0827173c3d9df9",
+    "httpStatus": 200
+  },
+  {
+    "file": "sitemap-image.xsd",
+    "url": "https://www.google.com/schemas/sitemap-image/1.1/sitemap-image.xsd",
+    "retrievedAt": "2026-11-12",
+    "bytes": 2304,
+    "sha256": "ad08899ba146cd61bf4c8d860653d9176d626123dc3e5c1155ec2522c5b5326f",
+    "httpStatus": 200
+  }
+]

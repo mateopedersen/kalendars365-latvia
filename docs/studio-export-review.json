@@ -1,0 +1,156 @@
+{
+  "date": "2026-11-12",
+  "scope": "/izveidot-kalendaru/",
+  "publication": "local only; no commit, push or deployment",
+  "formats": {
+    "PDF": "JPEG pages at selected dpi and exact physical paper dimensions; complete personal appendix when selected",
+    "Word": "Genuine DOCX with high-resolution design images and optional editable personal appendix",
+    "Excel": "Genuine XLSX with editable date cells, events, notes and full-resolution design images",
+    "JPG": "JPEG with JFIF inch density; multiple pages in ZIP",
+    "PNG": "Lossless PNG with one verified pHYs density chunk; multiple pages in ZIP",
+    "SVG": "Current calendar page, physical millimetre size, vector text and geometry; supplied photos remain raster"
+  },
+  "defaults": {
+    "dpi": 600,
+    "alternatives": [
+      300,
+      150
+    ],
+    "papers": [
+      "A4",
+      "A3",
+      "Letter"
+    ],
+    "years": [
+      2027,
+      2028,
+      2029,
+      2030
+    ]
+  },
+  "checks": {
+    "nodeTests": 294,
+    "nodeTestFiles": 69,
+    "studioTests": 20,
+    "localBuild": "passed with installed local Jekyll runtime",
+    "siteAuditHtmlFiles": 901,
+    "siteAuditErrors": 0,
+    "responsiveWidths": [
+      320,
+      390,
+      768,
+      1024,
+      1440
+    ],
+    "responsiveOverflow": 0,
+    "equalCardHeights": true,
+    "word600RenderPages": 2,
+    "wordMonthlyBatchRenderPages": 12,
+    "excelMonthlySheets": 15,
+    "excelYear2028EditableDates": 366,
+    "pngBatchImages": 12,
+    "cancelledDownloadOccurred": false,
+    "browserPrintA3Pages": 1,
+    "acceptedDownloadCollectionsChanged": false
+  },
+  "knownLimits": [
+    "Word calendar design is an image; native personal appendix text is editable. The JSON project remains the editable Studio source.",
+    "Excel data is editable; design fidelity is preserved separately in the Drukas dizains sheet.",
+    "A 600 dpi page cannot add detail absent from the original supplied photograph. Large 600 dpi batches require browser memory; 300 and 150 dpi and cancellation remain available.",
+    "LibreOffice rendering and package/data validation were completed locally; no claim of every Microsoft Office version having been tested."
+  ],
+  "sources": [
+    "https://learn.microsoft.com/en-us/office/open-xml/word/how-to-insert-a-picture-into-a-word-processing-document",
+    "https://learn.microsoft.com/en-us/dotnet/api/documentformat.openxml.spreadsheet.pagesetup.horizontaldpi?view=openxml-3.0.1",
+    "https://www.w3.org/TR/png-3/",
+    "https://www.itu.int/rec/T-REC-T.871-201105-I/en"
+  ],
+  "artifacts": [
+    {
+      "file": "calendar-600.pdf",
+      "bytes": 3853981,
+      "sha256": "81328d5573c4a1c6e64ac740e6945fa7dce102cd9c1ba95b6c0d717068ec1a71",
+      "pages": 2
+    },
+    {
+      "file": "calendar-600.docx",
+      "bytes": 11728689,
+      "sha256": "42f06d6ada8233836d4bba466053a5e6ad7939dc87a3e6ba066c59e920410b67",
+      "archiveEntries": 9
+    },
+    {
+      "file": "calendar-600.xlsx",
+      "bytes": 11750990,
+      "sha256": "6db642cce392986534277177dff839d772272394e392f3c5cc0836bbd4343545",
+      "archiveEntries": 15
+    },
+    {
+      "file": "calendar-600.jpg",
+      "bytes": 3300607,
+      "sha256": "1b5f6ac0cdfbaa58f225dcebd6e25d72070020f85cda36f90c1eedcd1ff4910a",
+      "width": 7016,
+      "height": 4961,
+      "dpi": [
+        600,
+        600
+      ]
+    },
+    {
+      "file": "calendar-600.png",
+      "bytes": 11719255,
+      "sha256": "c73338f1072b086df2cf62c7d8a35a4e07a37577ed78990488da9c87d5e37c09",
+      "width": 7016,
+      "height": 4961,
+      "dpi": [
+        599.9988,
+        599.9988
+      ]
+    },
+    {
+      "file": "calendar.svg",
+      "bytes": 509083,
+      "sha256": "e28afad369abd8410a10de2b40118e47d6c0e859a47d96774a53055e944a8b0d"
+    },
+    {
+      "file": "calendar-A3-600.png",
+      "bytes": 20534807,
+      "sha256": "d61465b710373232470111c923e6516925d821087c8e0088041099d8cfaa1d70",
+      "width": 7016,
+      "height": 9921,
+      "dpi": [
+        599.9988,
+        599.9988
+      ]
+    },
+    {
+      "file": "twelve-months-150.zip",
+      "bytes": 15169968,
+      "sha256": "ef24821c1df74592fe3f3b269a2d33018d74c68c08c22952bc01696447d7444b",
+      "archiveEntries": 12
+    },
+    {
+      "file": "twelve-months-150.docx",
+      "bytes": 15192487,
+      "sha256": "afe2d530798856b8d42493988575a888514e9d8aaa92d0ac26e0152d2af038a1",
+      "archiveEntries": 20
+    },
+    {
+      "file": "twelve-months-150.xlsx",
+      "bytes": 15356856,
+      "sha256": "38c577d9d2268d25d3997fb730f35db55659e63f016be585cf9bf80deeb4312d",
+      "archiveEntries": 37
+    },
+    {
+      "file": "year-2028-600.xlsx",
+      "bytes": 4017164,
+      "sha256": "0745d4ff1bc677e3249445425b222a49b70743823b0c55d80931360bf0142ffb",
+      "archiveEntries": 15
+    },
+    {
+      "file": "browser-print-A3.pdf",
+      "bytes": 509342,
+      "sha256": "e5539fe6b2800d4c1ebc2e3be202a2decb47fbcc773f507a25ca7061c4b3fbe0",
+      "pages": 1
+    }
+  ]
+}

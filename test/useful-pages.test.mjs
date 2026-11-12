@@ -2,7 +2,7 @@ import {test} from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import {spacingPlan,reminderEvent,safeJournal,sourceMatches,isoWeekDates} from '../assets/useful-core.mjs';
-import {citySky,dayBounds} from '../assets/sky-core.mjs';
+import {citySky,dayBounds,formatEventTimes} from '../assets/sky-core.mjs';
 test('bed planning respects edge margins and packet germination without inventing crop spacing',()=>{
  const plan=spacingPlan({length:3,width:1.2,rows:30,plants:10,germination:80});assert(Math.abs(plan.area-3.6)<1e-9);assert.deepEqual({...plan,area:3.6},{area:3.6,rowCount:4,perRow:30,total:120,seeds:150});
  assert.equal(spacingPlan({length:.1,width:.1,rows:30,plants:30,germination:100}).total,0);
@@ -30,3 +30,17 @@ test('city comparisons use real coordinates and stay inside Latvia civil days on
 });
 
 test('ISO reverse lookup supports boundary weeks without inventing week 53',()=>{assert.equal(isoWeekDates(2026,53).days[4],'2027-01-01');assert.equal(isoWeekDates(2027,1).days[0],'2027-01-04');assert.throws(()=>isoWeekDates(2027,53));assert.equal(isoWeekDates(2028,9).days[1],'2028-02-29');});
+
+test('event lists format each instant in Riga without interpreting array indices as time zones',()=>{
+ const spring=['2027-03-28T00:30:00Z','2027-03-28T01:30:00Z'].map(t=>new Date(t));
+ assert.equal(formatEventTimes(spring),'02:30, 04:30');
+ assert.equal(formatEventTimes(spring,'; ','UTC'),'00:30; 01:30');
+ assert.equal(formatEventTimes([]),'');
+ assert.equal(formatEventTimes([spring[0]]),'02:30');
+ assert.equal(formatEventTimes(['2027-10-31T00:30:00Z','2027-10-31T01:30:00Z'],' · '),'03:30 · 03:30');
+ const cities=JSON.parse(fs.readFileSync('_data/cities.json')).cities;
+ for(const date of ['2027-03-28','2027-10-31','2028-02-29','2030-12-31'])for(const city of cities){
+  const moon=citySky(date,city).moon;
+  for(const events of [moon.rises,moon.sets]){const value=formatEventTimes(events,'; ');assert.equal(value.split('; ').filter(Boolean).length,events.length);assert(!/NaN|undefined/.test(value));}
+ }
+});

@@ -1,0 +1,227 @@
+{
+  "schemaVersion": 1,
+  "reviewedAt": "2026-11-12",
+  "scope": "Concise summaries of the existing article body, not independent expert review.",
+  "articles": {
+    "latvijas-svetku-dienas-2027-planosana": {
+      "points": [
+        "Svētku brīvdiena, atceres diena un saskaņots atvaļinājums ir dažādi ieraksti.",
+        "Vispirms salīdzini gada datumus, tad precizē konkrēto mēnesi un darba grafiku.",
+        "Saglabā atsevišķi ģimenes ieceri un vēl nesaskaņotu atvaļinājuma laiku."
+      ],
+      "action": {
+        "label": "Atvērt 2027. gada svētku kalendāru",
+        "href": "/svetku-dienas/2027/"
+      }
+    },
+    "iso-nedelu-numuri-kalendara": {
+      "points": [
+        "ISO nedēļa sākas pirmdienā; pirmajā nedēļā ir gada pirmais ceturtdienas datums.",
+        "Gadu mijā nedēļas gads var atšķirties no kalendārā gada.",
+        "Sūtot termiņu, pievieno arī sākuma un beigu datumu."
+      ],
+      "action": {
+        "label": "Apskatīt 2027. gada nedēļas",
+        "href": "/nedelas-kalendars/2027/"
+      }
+    },
+    "garais-gads-2028-februaris": {
+      "points": [
+        "2028. gada februārī ir 29 dienas, bet gadā kopā ir 366 dienas.",
+        "Atkārtotam 29. februāra notikumam citos gados nepieciešama apzināta izvēle.",
+        "Pirms drukāšanas pārbaudi, vai veidnē ir visas februāra dienas."
+      ],
+      "action": {
+        "label": "Atvērt 2028. gada februāri",
+        "href": "/kalendars/2028/februaris/"
+      }
+    },
+    "ligo-un-jani-planosana-latvija": {
+      "points": [
+        "Līgo diena ir 23. jūnijā, Jāņu diena ir 24. jūnijā.",
+        "Šie datumi nav tas pats, kas astronomiskais vasaras saulgriežu brīdis.",
+        "Kopīgā plānā iekļauj ceļu, viesus un variantu lietainam laikam."
+      ],
+      "action": {
+        "label": "Apskatīt Līgo dienas datumus",
+        "href": "/svetki-un-tradicijas/ligo-diena/"
+      }
+    },
+    "lieldienas-2027-datumi-un-plani": {
+      "points": [
+        "2027. gadā Lielā piektdiena ir 26. martā; Lieldienas ir 28. un 29. martā.",
+        "Skolas brīvlaiks jāpārbauda atsevišķi no svētku brīvdienām.",
+        "Marta nogales āra pasākumam sagatavo arī telpu variantu."
+      ],
+      "action": {
+        "label": "Atvērt 2027. gada marta svētkus",
+        "href": "/svetku-dienas/2027/marts/"
+      }
+    },
+    "varda-dienas-tradicionalais-paplasinatais-saraksts": {
+      "points": [
+        "Atšķir tradicionālo sarakstu no paplašinātā kalendārvārdu saraksta.",
+        "Meklē vārda precīzo rakstību, saglabājot garumzīmes un mīkstinājuma zīmes.",
+        "Nesakritību gadījumā salīdzini saraksta veidu un VVC avotu."
+      ],
+      "action": {
+        "label": "Meklēt vārda dienu",
+        "href": "/varda-dienas/"
+      }
+    },
+    "skolas-brivlaiki-2027-gimenes-plans": {
+      "points": [
+        "2027. kalendārais gads aptver divus dažādus mācību gadus.",
+        "Pārbaudi skolēna klasi, publicētos termiņus un savas skolas paziņojumus.",
+        "Eksāmenu un nodarbību datumus glabā atsevišķi no brīvlaika."
+      ],
+      "action": {
+        "label": "Atvērt skolas brīvlaiku pārskatu",
+        "href": "/skolas-brivlaiki/"
+      }
+    },
+    "studiju-kalendars-sesija-un-brivlaiks": {
+      "points": [
+        "Izvēlies savas augstskolas un programmas akadēmisko kalendāru.",
+        "Lekciju pārtraukums pats par sevi nenozīmē brīvu laiku bez studiju uzdevumiem.",
+        "Vienā plānā atzīmē sesiju, praksi un personīgos darba termiņus."
+      ],
+      "action": {
+        "label": "Atrast augstskolas kalendāru",
+        "href": "/studiju-kalendars/"
+      }
+    },
+    "gimenes-kalendars-nedelas-planosana": {
+      "points": [
+        "Vienojieties par vienu galveno, aktuālo nedēļas plānu.",
+        "Pie ieraksta norādi laiku, vietu un cilvēku, kurš par to atbild.",
+        "Pirms kopīgošanas pārbaudi, vai izdrukā nav privātu piezīmju."
+      ],
+      "action": {
+        "label": "Izveidot ģimenes nedēļas plānu",
+        "href": "/gimenes-kalendars/"
+      }
+    },
+    "darba-dienas-un-stundas-ka-skaitit": {
+      "points": [
+        "Pirms aprēķina izvēlies darba nedēļu, perioda robežas un svētku atskaitīšanu.",
+        "Dienu skaits un faktiskās darba stundas var prasīt atšķirīgus pieņēmumus.",
+        "Saglabā ievades kopā ar rezultātu, lai aprēķinu var atkārtot."
+      ],
+      "action": {
+        "label": "Pārbaudīt darba dienu aprēķinu",
+        "href": "/darba-dienu-kalendars/"
+      }
+    },
+    "atvalinajums-2027-garas-brivdienas": {
+      "points": [
+        "Salīdzini konkrētus datumu intervālus, nevis tikai kopējo brīvo dienu skaitu.",
+        "Nošķir svētkus un nedēļas nogales no atvaļinājuma, kas vēl jāsaskaņo.",
+        "Brauciena plānā atstāj laiku ceļam un atgriešanās dienai."
+      ],
+      "action": {
+        "label": "Salīdzināt 2027. gada garās brīvdienas",
+        "href": "/garas-brivdienas/2027/"
+      }
+    },
+    "personigs-kalendars-fotografijas-druka": {
+      "points": [
+        "Sāc ar vienu mēnesi un pārbaudi datumu salasāmību faktiskajā papīra izmērā.",
+        "Izvēlies fotoattēlu, kuru drīksti izmantot, un pārbaudi tā izšķirtspēju.",
+        "Pirms visa komplekta drukāšanas izdrukā vienu izmēģinājuma lapu."
+      ],
+      "action": {
+        "label": "Atvērt kalendāra veidotāju",
+        "href": "/izveidot-kalendaru/"
+      }
+    },
+    "saullekts-saulriets-latvijas-pilsetas": {
+      "points": [
+        "Pulksteņa laika josla visā Latvijā ir viena, bet Saules laiki atšķiras pēc koordinātām.",
+        "Izvēlies pilsētu un datumu, kurā plāno atrasties konkrētajā vietā.",
+        "Aprēķinātais laiks neņem vērā katru ēku, koku vai mākoņu segu."
+      ],
+      "action": {
+        "label": "Salīdzināt Saules laikus pilsētās",
+        "href": "/saullekts-saulriets/"
+      }
+    },
+    "meness-fazes-un-vietejais-laiks": {
+      "points": [
+        "Galvenā Mēness fāze ir noteikts brīdis; dienas attēls rāda izvēlētās stundas apgaismojumu.",
+        "UTC un Latvijas laiks var norādīt atšķirīgus kalendāra datumus vienam notikumam.",
+        "Mēness apgaismojums nepasaka, vai tas tavā vietā ir virs horizonta."
+      ],
+      "action": {
+        "label": "Izvēlēties Mēness kalendāra mēnesi",
+        "href": "/meness-kalendars/"
+      }
+    },
+    "zelta-stunda-latvija-fotoplanosana": {
+      "points": [
+        "Zeltainā stunda nav visās vietās vienāds, tieši stundu ilgs intervāls.",
+        "Pārbaudi objekta virzienu, pilsētu un izvēlētā datuma Saules laikus.",
+        "Ierodies ar laika rezervi un pielāgo ieceri faktiskajiem laikapstākļiem."
+      ],
+      "action": {
+        "label": "Izpētīt izvēlētās dienas gaismu",
+        "href": "/saullekts-saulriets/"
+      }
+    },
+    "perseidas-latvija-noverojumu-plans": {
+      "points": [
+        "Izmanto konkrētā gada informāciju, nevis automātiski pārkopētu iepriekšējā gada maksimumu.",
+        "Pirms novērojuma salīdzini Mēness gaismu, mākoņu prognozi un redzamību.",
+        "Meteoru skaits nav garantēts; pieraksti arī novērojuma laiku un apstākļus."
+      ],
+      "action": {
+        "label": "Atvērt Perseīdu novērojumu pārskatu",
+        "href": "/perseidas/"
+      }
+    },
+    "pavasara-seja-latvija-darza-plans": {
+      "points": [
+        "Sējas logs ir orientieris, kas jāsalīdzina ar augsnes un laikapstākļu stāvokli.",
+        "Atsevišķi plāno sēju telpās, neapkurinātā siltumnīcā un dobē.",
+        "Pieraksti šķirni un faktisko sējas datumu, lai nākamgad būtu salīdzināms pamats."
+      ],
+      "action": {
+        "label": "Izvēlēties sējas mēnesi un kultūru",
+        "href": "/sejas-kalendars/"
+      }
+    },
+    "tomatu-seja-un-izstadisana-latvija": {
+      "points": [
+        "Vispirms nosaki, kur tomāti augs, un tikai tad plāno sēju.",
+        "Ņem vērā šķirnes norādes, gaismu, vietu un plānoto izstādīšanu.",
+        "Mēness attēls neaizstāj augsnes, temperatūras un auga stāvokļa novērtēšanu."
+      ],
+      "action": {
+        "label": "Atvērt tomātu audzēšanas kalendāru",
+        "href": "/sejas-kalendars/tomati/"
+      }
+    },
+    "rudens-latvija-gadalaiki-un-izbraucieni": {
+      "points": [
+        "Kalendārie rudens mēneši, astronomiskais rudens un laikapstākļi apraksta atšķirīgas lietas.",
+        "Izbraucienam aprēķini konkrētās vietas dienasgaismu un pārbaudi pieejamību.",
+        "Lapu krāsu un sausu taku nevar garantēt tikai pēc kalendāra datuma."
+      ],
+      "action": {
+        "label": "Salīdzināt gadalaiku sākumu",
+        "href": "/gadalaiki/"
+      }
+    },
+    "ziemas-dienas-garums-latvija": {
+      "points": [
+        "Dienas garums ir intervāls starp aprēķināto saullēktu un saulrietu.",
+        "Tas nav tas pats, kas faktiskais saulainā laika ilgums.",
+        "Salīdzini galamērķa datumus un rezervē dienasgaismu svarīgākajai āra nodarbei."
+      ],
+      "action": {
+        "label": "Salīdzināt dienas garumu",
+        "href": "/dienas-garums/"
+      }
+    }
+  }
+}

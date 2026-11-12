@@ -73,12 +73,12 @@ test('date links open their actual Latvia calendar day across all four years',()
  for(const id of Object.keys(registry)){
   const html=htmlFor(id);
   for(const m of html.matchAll(/class="tradition-date-link" href="([^"]+)"/g)){
-   const dest=new URL(m[1],'https://kalendars365.lv'),date=dest.searchParams.get('date');assert.match(date,/^20(?:27|28|29|30)-\d{2}-\d{2}$/);
+   const dest=new URL(m[1].replaceAll('&amp;','&'),'https://kalendars365.lv'),date=dest.searchParams.get('date');assert.match(date,/^20(?:27|28|29|30)-\d{2}-\d{2}$/);assert.equal(dest.searchParams.get('view'),'day');assert.equal(dest.hash,'#calendar-app');
    const [year,month]=date.split('-').map(Number);assert.equal(dest.pathname,`/kalendars/${year}/${slugs[month-1]}/`);assert(routeSet.has(dest.pathname));total++;
   }
  }
  assert(total>250,'Actual dates should be linked across the whole catalog');
- for(const item of occasions)for(const date of item.dates)assert(htmlFor(item.slug).includes(`?date=${date.date}"`),item.slug+' '+date.date);
+ for(const item of occasions)for(const date of item.dates)assert(htmlFor(item.slug).includes(`?date=${date.date}&amp;view=day#calendar-app"`),item.slug+' '+date.date);
 });
 
 test('existing article wording is linked without nested anchors or altered dates and status',()=>{

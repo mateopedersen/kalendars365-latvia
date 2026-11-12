@@ -21,7 +21,7 @@ test('each of the 73 day pages has its own topic-bound photographic header, one 
   assert(hero.includes(`src="${a.photo.src}"`),slug);
   assert(hero.includes(`alt="${esc(a.photo.alt)}"`),slug);
   assert(hero.includes('loading="eager" fetchpriority="high"'));
-  assert(hero.includes('#occasion-photo-'+a.photo.id));
+  assert(!hero.includes('/pilsetas-un-fotografijas/'));
   assert(hero.includes('href="#datumi"'));assert(html.includes('id="datumi"'),slug);
   assert.equal((html.match(/href="#datumi"/g)||[]).length,1,slug+' repeated date button');
   assert(!hero.includes('.svg'),slug+' decorative vector left in header');

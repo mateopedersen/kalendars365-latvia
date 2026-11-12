@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" fill="none">
+  <defs>
+    <linearGradient id="paper" x1="13" y1="16" x2="48" y2="56" gradientUnits="userSpaceOnUse"><stop stop-color="#fffef8"/><stop offset="1" stop-color="#ede3d2"/></linearGradient>
+    <linearGradient id="binding" x1="15" y1="11" x2="45" y2="26" gradientUnits="userSpaceOnUse"><stop stop-color="#ba6079"/><stop offset=".46" stop-color="#8d2f4c"/><stop offset="1" stop-color="#682038"/></linearGradient>
+    <linearGradient id="ring" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#8f958f"/><stop offset=".5" stop-color="#fffef1"/><stop offset="1" stop-color="#8c938c"/></linearGradient>
+    <linearGradient id="seal" x1="42" y1="41" x2="58" y2="58" gradientUnits="userSpaceOnUse"><stop stop-color="#b85b75"/><stop offset=".5" stop-color="#8c2d4a"/><stop offset="1" stop-color="#672138"/></linearGradient>
+    <linearGradient id="gold" x1="42" y1="40" x2="57" y2="59" gradientUnits="userSpaceOnUse"><stop stop-color="#f0dca6"/><stop offset="1" stop-color="#c49b59"/></linearGradient>
+    <radialGradient id="shadow"><stop stop-color="#582437" stop-opacity=".18"/><stop offset="1" stop-color="#582437" stop-opacity="0"/></radialGradient>
+  </defs>
+  <ellipse cx="33" cy="57" rx="28" ry="5" fill="url(#shadow)"/>
+  <g transform="rotate(-8 31 31)">
+    <rect x="13" y="13" width="37" height="42" rx="4" fill="#b9ac9a"/>
+    <path d="M12 18h36v34a3 3 0 0 1-3 3H15a3 3 0 0 1-3-3Z" fill="#e0d5c2"/>
+    <rect x="10" y="12" width="37" height="41" rx="4" fill="url(#paper)" stroke="#d3c4b1" stroke-width=".8"/>
+    <path d="M14 12h29a4 4 0 0 1 4 4v9H10v-9a4 4 0 0 1 4-4Z" fill="url(#binding)"/>
+    <path d="M14 13h28" stroke="#e7adbb" stroke-opacity=".6" stroke-linecap="round"/>
+    <path d="M10.5 25.5h36" stroke="#fff" stroke-opacity=".7"/>
+    <g fill="#581e31"><ellipse cx="18" cy="18" rx="2.5" ry="1.7"/><ellipse cx="39" cy="18" rx="2.5" ry="1.7"/></g>
+    <g stroke="url(#ring)" stroke-width="2.5" stroke-linecap="round"><path d="M17 17v-6c0-3 3-3 3 0v3"/><path d="M38 17v-6c0-3 3-3 3 0v3"/></g>
+    <g fill="#c7beae"><rect x="16" y="30" width="5" height="4" rx="1"/><rect x="25" y="30" width="5" height="4" rx="1"/><rect x="34" y="30" width="5" height="4" rx="1"/><rect x="16" y="38" width="5" height="4" rx="1"/><rect x="34" y="38" width="5" height="4" rx="1"/><rect x="16" y="46" width="5" height="3" rx="1"/><rect x="25" y="46" width="5" height="3" rx="1"/></g>
+    <rect x="24" y="37" width="7" height="6" rx="1.4" fill="#973b57"/>
+    <path d="m26 40 1 1 2-2" stroke="#fff9eb" stroke-width=".9" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M13 51h29" stroke="#fffef7" stroke-linecap="round"/>
+  </g>
+  <circle cx="49" cy="49.5" r="11" fill="#642338" fill-opacity=".13"/>
+  <circle cx="49" cy="48" r="10.5" fill="url(#gold)"/>
+  <circle cx="49" cy="48" r="9.2" fill="url(#seal)"/>
+  <path d="M42.5 44a7.7 7.7 0 0 1 10-2.7" stroke="#ecabbc" stroke-opacity=".65" stroke-width=".7" stroke-linecap="round"/>
+  <path d="m44.8 48.2 2.8 2.8 5.6-6" stroke="#fff8e9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

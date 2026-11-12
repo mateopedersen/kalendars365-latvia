@@ -8,7 +8,7 @@ require 'date'
 # to an unrelated, alphabetically selected article.
 class TraditionLinks
   PREFIX = '/svetki-un-tradicijas/'
-  attr_reader :topics, :entries
+  attr_reader :topics, :entries, :calendar_topics
 
   def initialize(entries:, occasions:, cultural:, routes:)
     @entries = entries.fetch('topics')
@@ -19,6 +19,19 @@ class TraditionLinks
     @routes = routes.map { |route| route.fetch('URL path') }
     @topics = occasions.to_h do |item|
       [item.fetch('slug'), item.merge('url'=>PREFIX+item.fetch('slug')+'/', 'label'=>item.fetch('title'), 'photo'=>@photo_overrides.fetch(item.fetch('slug'),item.fetch('photo')))]
+    end
+    # Exact names and dates keep coincident observances and substitute days
+    # attached to their own reviewed article. Never infer a topic from a date.
+    @calendar_topics = {}
+    occasions.select { |item| item['verified'] && %w[holiday commemoration observance].include?(item['type']) }.each do |item|
+      dates = item.fetch('dates',[])
+      (item.fetch('matchTerms',[]) + dates.map { |row| row.fetch('title') }).uniq.each do |title|
+        raise "Ambiguous calendar topic: #{title}" if @calendar_topics.key?(title)
+        @calendar_topics[title] = {
+          'url'=>PREFIX+item.fetch('slug')+'/',
+          'dates'=>dates.select { |row| row['title']==title }.map { |row| row.fetch('date') }.uniq.sort
+        }
+      end
     end
     cultural.each do |item|
       slug = item.fetch('url').split('/').last
@@ -44,8 +57,18 @@ class TraditionLinks
   def sources(slug); entry(slug).fetch('sources'); end
   def tools(slug); entry(slug).fetch('tools'); end
 
+  def holiday_url(record)
+    target = @calendar_topics[record['title'] || record['name']]
+    return nil unless target
+    date = record.fetch('date')
+    target.fetch('url') + (target.fetch('dates').include?(date) ? "#datums-#{date}" : '#datumi')
+  end
+
   def validate!
     raise 'Tradition link coverage differs from the topic catalog' unless @entries.keys.sort == @topics.keys.sort
+    @calendar_topics.each do |title, target|
+      raise "Unpublished calendar topic: #{title}" unless @routes.include?(target.fetch('url'))
+    end
     @entries.each do |slug, item|
       related = item.fetch('related')
       raise "Invalid related topics: #{slug}" if related.empty? || related.uniq != related || related.include?(slug)
@@ -140,6 +163,6 @@ end
 
 def tradition_date_link(date, label=nil)
   value = Date.parse(date.to_s)
-  url = "/kalendars/#{value.year}/#{SLUGS[value.month-1]}/?date=#{value.iso8601}"
+  url = "/kalendars/#{value.year}/#{SLUGS[value.month-1]}/?date=#{value.iso8601}&view=day#calendar-app"
   %(<a class="tradition-date-link" href="#{h(url)}" aria-label="Atvērt datumu kalendārā: #{h(value.year.to_s+'. gada '+value.day.to_s+'. '+MONTHS[value.month-1])}">#{label || %(<time datetime="#{value.iso8601}">#{h(value.day.to_s+'. '+MONTHS[value.month-1])}</time>)}</a>)
 end

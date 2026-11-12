@@ -20,7 +20,7 @@ function daylightSvg(rows,months,id,formatTime){
   [0,6,12,18,24].map(hour=>{const y=268-hour/24*216;return '<line x1="60" x2="1072" y1="'+y+'" y2="'+y+'" stroke="#ffffff" stroke-opacity="'+(hour===0?'.24':'.10')+'"/><text x="41" y="'+(y+5)+'" text-anchor="end" fill="#d5bfcd" font-size="14">'+hour+' h</text>';}).join('')+
   geometry.map((p,index)=>{
     const row=rows[index],x=p.x-23,y=p.y,h=p.height;
-    const label=months[index]+': '+daylightDuration(row.daylightMinutes)+'. Saullēkts '+formatTime(row.sun.sunrise)+', saulriets '+formatTime(row.sun.sunset)+'.';
+    const label=months[index].slice(0,3)+'. '+months[index]+': '+daylightDuration(row.daylightMinutes)+'. Saullēkts '+formatTime(row.sun.sunrise)+', saulriets '+formatTime(row.sun.sunset)+'.';
     return '<g class="daylight-column" data-daylight-pick="'+index+'" tabindex="0" role="button" aria-pressed="false" aria-label="'+escape(label)+'"><title>'+escape(label)+'</title>'+
       '<rect x="'+(p.x-35)+'" y="32" width="70" height="285" fill="transparent"/>'+
       '<ellipse cx="'+(p.x+6)+'" cy="273" rx="30" ry="5" fill="#100c1a" fill-opacity=".28"/>'+

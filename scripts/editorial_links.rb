@@ -49,7 +49,8 @@ class EditorialLinks
       row = @records.fetch(url)
       paragraphs = note.fetch('paragraphs')
       selected = Array.new(paragraphs.length) { [] }; used = Set.new
-      if row['indexable']
+      # Home tool links already appear once in their dedicated cards.
+      if row['indexable'] && url != '/'
         candidates(row,note).each do |rule|
           pattern = Regexp.new("(?<![[:alpha:]])#{Regexp.escape(rule.fetch('text'))}(?![[:alpha:]])",Regexp::IGNORECASE)
           found = paragraphs.each_with_index.map do |text,index|

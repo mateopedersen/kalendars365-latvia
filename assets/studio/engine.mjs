@@ -40,7 +40,7 @@ export function initialState(year=2027){
     schema:'kalendars365-studio.v1',title:'Mans gads',subtitle:'Vieta tam, kas tev svarīgs.',name:'',footer:'Mans laiks. Mani plāni.',
     font:'sans',titleSize:40,textScale:1,titleAlign:'left',colors:{...PRESETS[0].colors},showHolidays:true,showHolidayNames:true,
     showWeekends:true,showWeekNumbers:false,showAdjacent:false,showGrid:true,showNotes:false,notes:'',includeAgenda:true,
-    photo:'',photoCredit:'',photoRatio:1.5,photoPlacement:'banner',photoPosition:50,photoHeight:25,photoOpacity:18,photoFit:'cover',events:[],layers:[],quality:300};
+    photo:'',photoCredit:'',photoRatio:1.5,photoPlacement:'banner',photoPosition:50,photoHeight:25,photoOpacity:18,photoFit:'cover',events:[],layers:[],quality:600};
 }
 export function validDate(value){
   if(!/^\d{4}-\d{2}-\d{2}$/.test(String(value)))return false;

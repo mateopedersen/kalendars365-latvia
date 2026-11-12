@@ -9,3 +9,56 @@
 @media(max-width:480px){.horoscope-collection-grid{grid-template-columns:1fr}.horoscope-issue-top{align-items:flex-start}.horoscope-issue-title{align-items:flex-start}.horoscope-issue-title .sign-orb{width:70px}.sign-profile-lead{align-items:flex-start;padding:1rem}.sign-profile-lead .sign-orb{width:66px}.horoscope-sign-card{padding:1rem}}
 @media(prefers-reduced-motion:reduce){.horoscope-day-controls button,.horoscope-sign-card,.horoscope-daily-feature [aria-busy=true]{transition:none}.horoscope-sign-card:hover,.horoscope-day-controls button:hover:not(:disabled){transform:none}}
 .zodiac-index-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,280px),1fr));gap:16px;margin:24px 0}.zodiac-index-card{display:grid;grid-template-columns:62px 1fr;align-items:center;gap:12px;padding:20px;border:1px solid var(--line,#e5dadd);border-radius:16px;background:linear-gradient(145deg,#fffdf9,#f7f0e9);box-shadow:0 10px 26px #38263a0d}.zodiac-index-card p,.zodiac-index-card>a{grid-column:1/-1}.zodiac-index-card h2{margin:.2rem 0;font:700 22px/1.2 var(--font-ui)}.zodiac-index-card p{margin:0;line-height:1.6;color:var(--muted,#667085)}.zodiac-index-card>a{font-weight:750;color:var(--brand,#751d2d)}.zodiac-index-symbol{display:grid;place-items:center;width:56px;height:56px;border:1px solid #f6e4b4;border-radius:50%;background:radial-gradient(circle at 30% 25%,#fff9dc 0 5%,#d7a64e 30%,#8c3c58 70%,#3e213b 100%);color:#fffaf0;font:800 30px/1 system-ui,sans-serif;box-shadow:inset -5px -7px 10px #2f1b463d,0 5px 13px #51304c2b}.zodiac-index-symbol--earth{background:radial-gradient(circle at 30% 25%,#fbf7d8 0 5%,#a5b66b 30%,#557253 70%,#273c37 100%)}.zodiac-index-symbol--air{background:radial-gradient(circle at 30% 25%,#f4f8ee 0 5%,#a8c6d1 30%,#637e9c 70%,#334962 100%)}.zodiac-index-symbol--water{background:radial-gradient(circle at 30% 25%,#f2fbf7 0 5%,#83c7c9 30%,#397f8d 70%,#264a62 100%)}
+/* A real calculator accompanies every sign, using the shared astronomical engine. */
+.horoscope-article-layout{display:grid;grid-template-columns:minmax(0,1fr) 350px;gap:24px;align-items:start;max-width:1400px;margin:24px auto 48px}
+.horoscope-article-layout>.horoscope-page{min-width:0;max-width:none;margin:0}
+.horoscope-article-layout .horoscope-daily-feature{margin-top:0}
+.horoscope-ascendant-sidebar{min-width:0;align-self:start}
+.horoscope-ascendant-sidebar .ascendant-calculator--compact{margin:0;border-radius:21px;box-shadow:0 10px 32px #592b3d0b}
+.ascendant-calculator--compact .ascendant-heading{display:block;padding:22px 20px 18px;background:radial-gradient(ellipse at 95% 0,#fff1d9,transparent 70%),#fbf5ed}
+.ascendant-calculator--compact .ascendant-sidebar-mark{display:block;width:58px;height:58px;margin-bottom:14px;filter:drop-shadow(0 3px 4px #6d38441c)}
+.ascendant-calculator--compact .ascendant-eyebrow{font-size:9px;letter-spacing:.1em}
+.ascendant-calculator--compact .ascendant-heading h2{font-size:25px;line-height:1.15;margin:8px 0 10px;letter-spacing:-.65px}
+.ascendant-calculator--compact .ascendant-heading p{font-size:14px;line-height:1.65}
+.ascendant-calculator--compact .ascendant-private{margin-top:15px;white-space:normal;font-size:10px;padding:7px 9px}
+.ascendant-calculator--compact .ascendant-layout{display:flex;flex-direction:column}
+.ascendant-calculator--compact .ascendant-form{padding:20px;border:0;min-width:0;width:100%;box-sizing:border-box}
+.ascendant-calculator--compact .ascendant-fields{grid-template-columns:minmax(0,1fr);gap:12px}
+.ascendant-calculator--compact .ascendant-step{gap:8px;margin:19px 0 13px}
+.ascendant-calculator--compact .ascendant-step:first-child{margin-top:0}
+.ascendant-calculator--compact .ascendant-step h3{font-size:14px;line-height:1.4}
+.ascendant-calculator--compact .ascendant-step>span{width:25px;height:25px;min-width:25px;font-size:10px}
+.ascendant-calculator--compact .ascendant-form label{font-size:12px;gap:7px}
+.ascendant-calculator--compact .ascendant-form .ascendant-check{font-size:11px;line-height:1.5;gap:8px}
+.ascendant-calculator--compact .ascendant-form input:not([type=checkbox]):not([type=radio]),.ascendant-calculator--compact .ascendant-form select{font-size:15px;min-width:0}
+.ascendant-calculator--compact .ascendant-actions{display:grid;grid-template-columns:minmax(0,1fr);gap:8px}
+.ascendant-calculator--compact .ascendant-submit,.ascendant-calculator--compact .ascendant-reset{width:100%;min-height:44px;white-space:normal;justify-content:center;font-size:14px}
+.ascendant-calculator--compact .ascendant-summary{display:none;min-width:0;width:100%;box-sizing:border-box;border-top:1px solid var(--asc-border);border-radius:0;padding:20px}
+.ascendant-calculator--compact[data-has-result] .ascendant-summary{display:flex;gap:17px}
+.ascendant-calculator--compact .ascendant-wheel{width:180px;max-width:100%;margin:0 auto}
+.ascendant-calculator--compact .ascendant-result{min-width:0;width:100%}
+.ascendant-calculator--compact .ascendant-result-heading{gap:10px}
+.ascendant-calculator--compact .ascendant-result-heading img{width:58px;height:58px}
+.ascendant-calculator--compact .ascendant-result h3{font-size:27px}
+.ascendant-calculator--compact .ascendant-facts{grid-template-columns:minmax(0,1fr);gap:3px;margin-top:15px}
+.ascendant-calculator--compact .ascendant-facts dt{font-size:10px;margin-top:9px}.ascendant-calculator--compact .ascendant-facts dd{font-size:12px;overflow-wrap:anywhere}
+.ascendant-calculator--compact .ascendant-method{padding:16px 20px;border-top:1px solid var(--asc-border);font-size:12px}
+.ascendant-calculator--compact .ascendant-method summary{font-size:12px;line-height:1.6}
+.ascendant-calculator--compact .ascendant-method-grid{grid-template-columns:minmax(0,1fr)}
+.horoscope-full-calculator{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-top:12px;padding:12px 16px;border:1px solid #ddc5c7;border-radius:10px;color:#823d56;font-size:13px;font-weight:700;text-decoration:none;background:#fffbf6}
+.horoscope-full-calculator:hover{border-color:#a3687c;background:#faf0eb}
+@media(max-width:1100px){.horoscope-article-layout{grid-template-columns:minmax(0,1fr) 320px;gap:18px}}
+@media(max-width:900px){.horoscope-article-layout{grid-template-columns:minmax(0,1fr)}.horoscope-ascendant-sidebar{width:100%;max-width:640px;margin-inline:auto}.ascendant-calculator--compact .ascendant-fields{grid-template-columns:repeat(2,minmax(0,1fr))}.ascendant-calculator--compact .ascendant-heading h2{font-size:28px}}
+@media(max-width:540px){.ascendant-calculator--compact .ascendant-fields{grid-template-columns:minmax(0,1fr)}.ascendant-calculator--compact .ascendant-form input:not([type=checkbox]):not([type=radio]),.ascendant-calculator--compact .ascendant-form select{font-size:16px}.horoscope-article-layout{margin-top:17px;gap:20px}}
+@media print{.horoscope-article-layout{display:block}.horoscope-ascendant-sidebar{display:none}}
+.horoscope-sign-card>a.horoscope-sign-card-head{color:inherit;text-decoration:none;width:100%;min-width:0;border-radius:12px;transition:color .15s,background .15s}
+.horoscope-sign-card>a.horoscope-sign-card-head:hover{color:#872f4a;background:#f7ede7}
+.horoscope-sign-card>a.horoscope-sign-card-head:focus-visible{outline:3px solid #b47b55;outline-offset:5px}
+.horoscope-updated{display:flex;align-items:center;flex-wrap:wrap;gap:7px 12px;margin:20px 0 18px;padding:14px 17px;background:#f7efe7;border:1px solid #e3cfc4;border-radius:12px;color:#7a4355;font-size:14px;line-height:1.6}
+.horoscope-updated>span{width:8px;height:8px;border-radius:50%;background:#678c79;box-shadow:0 0 0 4px #678c7914}
+.horoscope-updated strong{font-weight:750}.horoscope-updated time{font-weight:550;color:#6f5b63}
+.horoscope-updated-label{display:block;margin:6px 0 2px;color:#895269;font-size:12px;line-height:1.5;font-weight:700}
+.horoscope-issue-top time,.horoscope-updated time{text-transform:none}
+.horoscope-day-controls .horoscope-day-arrow{width:21px;height:21px;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+
+.horoscope-day-controls button svg.horoscope-day-arrow{transform:none}

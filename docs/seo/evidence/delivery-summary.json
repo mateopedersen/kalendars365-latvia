@@ -1,0 +1,18 @@
+{
+  "htmlPages": 901,
+  "registeredRoutes": 899,
+  "indexable": 898,
+  "schemaGraphs": 901,
+  "imagesInSitemap": 4601,
+  "sourceHtmlBytesBefore": 232950374,
+  "sourceHtmlBytesAfter": 104783428,
+  "htmlBytesSaved": 128166946,
+  "htmlReductionPercent": 55.02,
+  "calendarSnapshots": 262,
+  "tests": 300,
+  "independentDateAssertions": 3307,
+  "verifiedArtifactFiles": 3459,
+  "publicationPerformed": false,
+  "pinnedRuntimeVerified": true,
+  "classification": "Local evidence; no ranking or field-CWV guarantee"
+}

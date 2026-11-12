@@ -3,7 +3,7 @@
   "private": true,
   "version": "1.0.0",
   "description": "Optional offline print artifact generation; website has no Node runtime dependency",
-  "scripts": {"generate": "node generate_print.cjs", "test": "node ../test/print.test.cjs"},
+  "scripts": {"generate": "node generate_print.cjs", "test": "node ../test/print.test.cjs", "seo:verify": "node ../tooling/seo/verify.mjs"},
   "dependencies": {"@napi-rs/canvas": "0.1.100", "sharp": "0.35.5"},
   "engines": {"node": ">=24.22.1 <25"}
 }

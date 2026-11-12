@@ -1,0 +1,30 @@
+[
+  {
+    "url": "http://kalendars365.lv/",
+    "method": "HEAD",
+    "status": 301,
+    "location": "https://kalendars365.lv/",
+    "server": "cloudflare"
+  },
+  {
+    "url": "https://www.kalendars365.lv/",
+    "method": "HEAD",
+    "status": 301,
+    "location": "https://kalendars365.lv/",
+    "server": "cloudflare"
+  },
+  {
+    "url": "http://www.kalendars365.lv/",
+    "method": "HEAD",
+    "status": 301,
+    "location": "https://kalendars365.lv/",
+    "server": "cloudflare"
+  },
+  {
+    "url": "https://kalendars365.lv/kalendars/2027/index.html",
+    "method": "HEAD",
+    "status": 308,
+    "location": "/kalendars/2027/",
+    "server": "cloudflare"
+  }
+]

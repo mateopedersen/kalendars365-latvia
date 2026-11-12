@@ -1,0 +1,13 @@
+{
+  "pages": 899,
+  "repeatChangedRevisions": [],
+  "lastmodStable": true,
+  "internalNavigationByteIdentical": false,
+  "internalNavigationSemanticallyIdentical": true,
+  "internalNavigationCanonicalSha256": "2912cd01ee9cee42262da17bbef355ea4d02a00204802f85a0b07c4c54a15ff2",
+  "formatDifference": "Ruby 4 JSON pretty-print collapses empty arrays; navigation data, targets and order are identical.",
+  "sourceCssFilesUnchanged": 47,
+  "changedSourceCss": [],
+  "publicPrivateToolingAbsent": true,
+  "lastmodStableIncludingLicense": true
+}

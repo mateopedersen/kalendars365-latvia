@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "site": "_site",
+  "totals": {
+    "pages": 901,
+    "imageElements": 50596,
+    "decorativeImages": 46630,
+    "lazyImages": 37154,
+    "descriptiveImages": 3966,
+    "responsiveImages": 6731,
+    "highPriorityImages": 493,
+    "hiddenPrivateUploadSlots": 1
+  },
+  "uniqueImageFiles": 3872,
+  "errors": []
+}

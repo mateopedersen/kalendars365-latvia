@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "rules": [
+    {"pattern": "Drukāt", "icon": "print"},
+    {"pattern": "\\bPDF\\b|\\.pdf(?:[?#]|$)", "icon": "file-pdf"},
+    {"pattern": "\\bExcel\\b|\\bXLSX?\\b|\\.xlsx?(?:[?#]|$)", "icon": "file-excel"},
+    {"pattern": "\\bWord\\b|\\bDOCX?\\b|\\.docx?(?:[?#]|$)", "icon": "file-word"},
+    {"pattern": "\\bICS\\b|\\.ics(?:[?#]|$)", "icon": "file-ics"},
+    {"pattern": "\\bCSV\\b|\\.csv(?:[?#]|$)", "icon": "file-csv"},
+    {"pattern": "\\bJSON\\b|Dublējums|Datu dublējums|\\.json(?:[?#]|$)", "icon": "file-json"},
+    {"pattern": "\\bSVG\\b|\\.svg(?:[?#]|$)", "icon": "file-svg"},
+    {"pattern": "Attēls|\\bPNG\\b|\\bJPE?G\\b|\\bWebP\\b|\\.(?:png|jpe?g|webp)(?:[?#]|$)", "icon": "file-image"},
+    {"pattern": "Importēt|Atvērt failu|Izvēlēties failu", "icon": "upload"},
+    {"pattern": "Lejupielādēt|Eksportēt|Saglabāt failu", "icon": "download"}
+  ]
+}

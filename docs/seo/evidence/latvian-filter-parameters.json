@@ -1,0 +1,32 @@
+{
+  "canonical": "https://kalendars365.lv/pdf-kalendari/",
+  "inputs": [
+    {
+      "name": "gads",
+      "value": "2028"
+    },
+    {
+      "name": "periods",
+      "value": "month"
+    },
+    {
+      "name": "menesis",
+      "value": "2"
+    },
+    {
+      "name": "virziens",
+      "value": "all"
+    },
+    {
+      "name": "svetki",
+      "value": "all"
+    },
+    {
+      "name": "",
+      "value": ""
+    }
+  ],
+  "label": "Atvērt perioda kolekciju",
+  "status": "2028. gada februāra kalendāri · 15 dizaini",
+  "url": "/pdf-kalendari/?gads=2028&periods=month&menesis=2"
+}

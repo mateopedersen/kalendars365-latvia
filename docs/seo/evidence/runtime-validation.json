@@ -1,0 +1,24 @@
+{
+  "pinnedVerified": true,
+  "actualInitial": "Ruby 2.6.10 / Jekyll 4.2.2",
+  "actualPinned": "Ruby 4.0.9 / Jekyll 4.4.1 / Bundler 4.0.20",
+  "versions": {
+    "ruby": "4.0.9",
+    "jekyll": "4.4.1",
+    "bundler": "4.0.20",
+    "openssl": "OpenSSL 3.5.9 29 Sep 2026",
+    "psych": "5.3.1"
+  },
+  "productionEnvironment": "JEKYLL_ENV=production; local macOS, not Cloudflare Linux",
+  "localDependenciesOnly": true,
+  "gemfileLockUnchanged": true,
+  "pinnedHtmlPages": 901,
+  "htmlByteIdenticalToMeasuredCandidate": true,
+  "changedHtmlAfterRuntimeSwitch": [],
+  "nodeTests": 300,
+  "nodeFailures": 0,
+  "rubyTestLog": "pinned-ruby-tests.log",
+  "buildLog": "pinned-build.log",
+  "gateLog": "pinned-seo-gate.log",
+  "publicationPerformed": false
+}

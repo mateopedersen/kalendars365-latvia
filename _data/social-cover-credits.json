@@ -1,5 +1,4 @@
 {
-  "version": 2,
   "photos": [
     {
       "src": "/assets/cities/riga-960.webp",
@@ -2658,6 +2657,21 @@
       ]
     },
     {
+      "src": "/assets/tradition-covers/language-e7b598ed97f6-1280.webp",
+      "author": "Savannah Rivka",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dainu_skapja_ori%C4%A3in%C4%81ls_LNB.jpg",
+      "sourceSha256": "909232439f714fec566c3bdc41db842dc3c8e7163799af20633c783d0e090fd7",
+      "covers": [
+        {
+          "url": "/svetki-un-tradicijas/dzimtas-valodas-diena/",
+          "image": "/assets/social-cards/v2/2a8bd7df36a94a7e-667278ca6c77.jpg",
+          "title": "Starptautiskā dzimtās valodas diena"
+        }
+      ]
+    },
+    {
       "src": "/assets/tradition-covers/holocaust-c1f37503e394-960.webp",
       "author": "M.Strīķis",
       "license": "CC BY-SA 3.0",
@@ -2684,6 +2698,51 @@
           "url": "/svetki-un-tradicijas/eiropas-diena/",
           "image": "/assets/social-cards/v2/9094dacd61b2759b-84d80ccc1c3e.jpg",
           "title": "Eiropas diena"
+        }
+      ]
+    },
+    {
+      "src": "/assets/tradition-covers/tradition-eiropas-valodu-diena-9e966da8c506-1280.webp",
+      "author": "Obaid Raza",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dictionaries_in_different_languages.JPG",
+      "sourceSha256": "a82c64381cf9d04f5960ee1930ed4d75665f721aa441e170faa3d0b927aa87ca",
+      "covers": [
+        {
+          "url": "/svetki-un-tradicijas/eiropas-valodu-diena/",
+          "image": "/assets/social-cards/v2/ed980a381a4f542d-9ef4714d87f7.jpg",
+          "title": "Eiropas Valodu diena"
+        }
+      ]
+    },
+    {
+      "src": "/assets/tradition-covers/tradition-helovins-ab5c0c05841a-1024.webp",
+      "author": "huk_flickr",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lit_Jack-o%27-lantern_glowing_menacingly.jpg",
+      "sourceSha256": "78b100c3ac0f5bb70a5d94dae26e072604bc5d068f330eafb37dac7019e37554",
+      "covers": [
+        {
+          "url": "/svetki-un-tradicijas/helovins/",
+          "image": "/assets/social-cards/v2/39730ba23e05ee7e-54f6a2d6c78d.jpg",
+          "title": "Helovīns Latvijā"
+        }
+      ]
+    },
+    {
+      "src": "/assets/tradition-covers/tradition-holokausta-upuru-pieminas-diena-037fd94e0a0d-1280.webp",
+      "author": "Avi1111 dr. avishai teicher",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rumbula_forest_memorial.JPG",
+      "sourceSha256": "0876c52816faa9d3bf20589abea322c2352d58d25bb15bd0a1cc974291ff4fe6",
+      "covers": [
+        {
+          "url": "/svetki-un-tradicijas/holokausta-upuru-pieminas-diena/",
+          "image": "/assets/social-cards/v2/bacd58284cf77471-bc95cacc01a2.jpg",
+          "title": "Holokausta upuru piemiņas diena Latvijā un pasaulē"
         }
       ]
     },
@@ -3073,6 +3132,96 @@
       ]
     },
     {
+      "src": "/assets/tradition-covers/tradition-pasaules-bernu-diena-378aa9ebf44e-1280.webp",
+      "author": "Андрей Романенко",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Children_playground_in_%C4%92be%C4%BCmui%C5%BEa_Park_01.jpg",
+      "sourceSha256": "e8c1e24f2b21e190ca6bc448762f143aa85f344cfe81d11af101a3c5e04f1855",
+      "covers": [
+        {
+          "url": "/svetki-un-tradicijas/pasaules-bernu-diena/",
+          "image": "/assets/social-cards/v2/fab779646b9fb430-1c704f66884a.jpg",
+          "title": "Pasaules bērnu diena"
+        }
+      ]
+    },
+    {
+      "src": "/assets/tradition-covers/tradition-pasaules-bisu-diena-d69d64266226-1280.webp",
+      "author": "Luc Viatour",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Apis_mellifera_2_Luc_Viatour.JPG",
+      "sourceSha256": "eac11f5dbd9805e0e674cb409afd929c48d03c000d83655d3f6558dc6e1d8246",
+      "covers": [
+        {
+          "url": "/svetki-un-tradicijas/pasaules-bisu-diena/",
+          "image": "/assets/social-cards/v2/2dff9b79cbd3e524-68d0a085347d.jpg",
+          "title": "Pasaules bišu diena"
+        }
+      ]
+    },
+    {
+      "src": "/assets/tradition-covers/tradition-pasaules-dzivnieku-diena-037f1209d857-653.webp",
+      "author": "Martin Mecnarowski (http://www.photomecan.eu/)",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lynx_lynx_2_(Martin_Mecnarowski).jpg",
+      "sourceSha256": "41fe479438348d3a50328db26727fed6d8969aa2aa5e6ed1a73abd7cb35b2c00",
+      "covers": [
+        {
+          "url": "/svetki-un-tradicijas/pasaules-dzivnieku-diena/",
+          "image": "/assets/social-cards/v2/f85b1ce6ff066b1d-7fa6f1290685.jpg",
+          "title": "Pasaules dzīvnieku diena"
+        }
+      ]
+    },
+    {
+      "src": "/assets/tradition-covers/tradition-pasaules-gramatu-diena-c9848d5e317e-1280.webp",
+      "author": "Rīgas pašvaldības aģentūra “Rīgas investīciju un tūrisma aģentūra”",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gaismas-pils.jpg",
+      "sourceSha256": "9070b17cbc1ea13d3e3948301df4dc84533e33b7b46867f25ed42ea57a6a70a3",
+      "covers": [
+        {
+          "url": "/svetki-un-tradicijas/pasaules-gramatu-diena/",
+          "image": "/assets/social-cards/v2/3aa7206dfc7b035b-756d5d59a996.jpg",
+          "title": "Pasaules grāmatu un autortiesību diena"
+        }
+      ]
+    },
+    {
+      "src": "/assets/tradition-covers/tradition-pasaules-udens-diena-383175b5e373-1280.webp",
+      "author": "Ymblanter",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Venta_Rapid_from_the_left_bank.jpg",
+      "sourceSha256": "a5d305e23b8d580916af18ae6c2e8117c36e4b0793cc295b8cb38a5f4d59ba1a",
+      "covers": [
+        {
+          "url": "/svetki-un-tradicijas/pasaules-udens-diena/",
+          "image": "/assets/social-cards/v2/3c012a46b4721043-b454c7b14ab2.jpg",
+          "title": "Pasaules ūdens diena"
+        }
+      ]
+    },
+    {
+      "src": "/assets/tradition-covers/tradition-pasaules-vides-diena-762e7e7ea8cd-1280.webp",
+      "author": "AgrisR",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Forest_near_Sieti%C5%86iezis.jpg",
+      "sourceSha256": "e0845289ec53a38d480f66cface67ba5859f003b267a7f567c8435b5852e88c0",
+      "covers": [
+        {
+          "url": "/svetki-un-tradicijas/pasaules-vides-diena/",
+          "image": "/assets/social-cards/v2/f1e16af55d001a1e-dbd5a5ba2d26.jpg",
+          "title": "Pasaules vides diena"
+        }
+      ]
+    },
+    {
       "src": "/assets/tradition-covers/tradition-pavasara-ekvinokcija-69c63901cfeb-1280.webp",
       "author": "Dmitrijs Purgalvis",
       "license": "CC BY 3.0",
@@ -3084,6 +3233,21 @@
           "url": "/svetki-un-tradicijas/pavasara-ekvinokcija/",
           "image": "/assets/social-cards/v2/e100ddda69b05b9a-349f67d4deda.jpg",
           "title": "Pavasara ekvinokcija: astronomiskais brīdis Latvijā"
+        }
+      ]
+    },
+    {
+      "src": "/assets/tradition-covers/tradition-pavasara-tradicijas-bd282009cff3-1024.webp",
+      "author": "Nicolas G. Mertens",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Easter_Eggs_in_Latvia_2.jpg",
+      "sourceSha256": "f37f72806918c91fdcf0e84b45284f03c02efdb060633c36c8fa39567c84f1b8",
+      "covers": [
+        {
+          "url": "/svetki-un-tradicijas/pavasara-tradicijas/",
+          "image": "/assets/social-cards/v2/189d209d4252954b-7296f9e76d31.jpg",
+          "title": "Pavasara tradīcijas Latvijā"
         }
       ]
     },
@@ -3263,6 +3427,21 @@
       ]
     },
     {
+      "src": "/assets/tradition-covers/tradition-sveta-nikolaja-diena-78180df5ac7f-1280.webp",
+      "author": "HerzenSterneBrezeln",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nikolausstiefel.jpg",
+      "sourceSha256": "7563cb423dba47c85119389270b4675a8ac0841e5ada69f347bc7a9a99cb7e06",
+      "covers": [
+        {
+          "url": "/svetki-un-tradicijas/sveta-nikolaja-diena/",
+          "image": "/assets/social-cards/v2/e6c1d221729f6d76-d460221456e9.jpg",
+          "title": "Svētā Nikolaja diena Latvijā"
+        }
+      ]
+    },
+    {
       "src": "/assets/tradition-covers/day-tevu-diena-14ee69e5266c-1280.webp",
       "author": "Marie-Sophie Mejan",
       "license": "CC BY 4.0",
@@ -3289,6 +3468,21 @@
           "url": "/svetki-un-tradicijas/totalitara-komunistiska-rezima-genocida-upuru-pieminas-diena/",
           "image": "/assets/social-cards/v2/2fc07ac2a00d9d58-9bf4f0524371.jpg",
           "title": "Pret latviešu tautu vērstā totalitārā komunistiskā režīma genocīda upuru piemiņas diena Latvijā"
+        }
+      ]
+    },
+    {
+      "src": "/assets/tradition-covers/tradition-totalitaro-rezimu-upuru-pieminas-diena-296d95ca0e5c-1280.webp",
+      "author": "ScAvenger (Jānis Vilniņš)",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tor%C5%86akalna_stacija_13.JPG",
+      "sourceSha256": "a1e51eefd8fdc8085dce537ba3e86c6d7903c3ce5ef4abbb2b0a04cce12818e1",
+      "covers": [
+        {
+          "url": "/svetki-un-tradicijas/totalitaro-rezimu-upuru-pieminas-diena/",
+          "image": "/assets/social-cards/v2/1977a423f3c02218-9c18364cbfc3.jpg",
+          "title": "Staļinisma un nacisma upuru atceres diena"
         }
       ]
     },
@@ -3398,6 +3592,21 @@
       ]
     },
     {
+      "src": "/assets/tradition-covers/tradition-zemes-diena-d8ed24c10007-1280.webp",
+      "author": "NASA/Apollo 17 crew; taken by either Harrison Schmitt or Ron Evans",
+      "license": "Public domain",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_Earth_seen_from_Apollo_17.jpg",
+      "sourceSha256": "3f55578a3c58509029c6a1ec88c683199f585ea9ffe974efd4265aec314156fb",
+      "covers": [
+        {
+          "url": "/svetki-un-tradicijas/zemes-diena/",
+          "image": "/assets/social-cards/v2/d36a1c021179d250-771dd4f974b4.jpg",
+          "title": "Zemes diena Latvijā"
+        }
+      ]
+    },
+    {
       "src": "/assets/tradition-covers/winter-cd4e023f87fc-960.webp",
       "author": "Lee Vilenski",
       "license": "CC BY-SA 4.0",
@@ -3459,216 +3668,6 @@
           "url": "/svetki-un-tradicijas/zvaigznes-diena/",
           "image": "/assets/social-cards/v2/57c610bf9bfd09d6-750326c1459c.jpg",
           "title": "Zvaigznes diena: 6. janvāris un tradīcija"
-        }
-      ]
-    },
-    {
-      "src": "/assets/tradition-covers/tradition-holokausta-upuru-pieminas-diena-037fd94e0a0d-1280.webp",
-      "author": "Avi1111 dr. avishai teicher",
-      "license": "CC BY-SA 3.0",
-      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rumbula_forest_memorial.JPG",
-      "sourceSha256": "0876c52816faa9d3bf20589abea322c2352d58d25bb15bd0a1cc974291ff4fe6",
-      "covers": [
-        {
-          "url": "/svetki-un-tradicijas/holokausta-upuru-pieminas-diena/",
-          "image": "/assets/social-cards/v2/bacd58284cf77471-bc95cacc01a2.jpg",
-          "title": "Holokausta upuru piemiņas diena Latvijā un pasaulē"
-        }
-      ]
-    },
-    {
-      "src": "/assets/tradition-covers/tradition-eiropas-valodu-diena-9e966da8c506-1280.webp",
-      "author": "Obaid Raza",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dictionaries_in_different_languages.JPG",
-      "sourceSha256": "a82c64381cf9d04f5960ee1930ed4d75665f721aa441e170faa3d0b927aa87ca",
-      "covers": [
-        {
-          "url": "/svetki-un-tradicijas/eiropas-valodu-diena/",
-          "image": "/assets/social-cards/v2/ed980a381a4f542d-9ef4714d87f7.jpg",
-          "title": "Eiropas Valodu diena"
-        }
-      ]
-    },
-    {
-      "src": "/assets/tradition-covers/tradition-totalitaro-rezimu-upuru-pieminas-diena-296d95ca0e5c-1280.webp",
-      "author": "ScAvenger (Jānis Vilniņš)",
-      "license": "CC BY-SA 3.0",
-      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tor%C5%86akalna_stacija_13.JPG",
-      "sourceSha256": "a1e51eefd8fdc8085dce537ba3e86c6d7903c3ce5ef4abbb2b0a04cce12818e1",
-      "covers": [
-        {
-          "url": "/svetki-un-tradicijas/totalitaro-rezimu-upuru-pieminas-diena/",
-          "image": "/assets/social-cards/v2/1977a423f3c02218-9c18364cbfc3.jpg",
-          "title": "Staļinisma un nacisma upuru atceres diena"
-        }
-      ]
-    },
-    {
-      "src": "/assets/tradition-covers/language-e7b598ed97f6-1280.webp",
-      "author": "Savannah Rivka",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dainu_skapja_ori%C4%A3in%C4%81ls_LNB.jpg",
-      "sourceSha256": "909232439f714fec566c3bdc41db842dc3c8e7163799af20633c783d0e090fd7",
-      "covers": [
-        {
-          "url": "/svetki-un-tradicijas/dzimtas-valodas-diena/",
-          "image": "/assets/social-cards/v2/2a8bd7df36a94a7e-667278ca6c77.jpg",
-          "title": "Starptautiskā dzimtās valodas diena"
-        }
-      ]
-    },
-    {
-      "src": "/assets/tradition-covers/tradition-helovins-ab5c0c05841a-1024.webp",
-      "author": "huk_flickr",
-      "license": "CC BY 2.0",
-      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lit_Jack-o%27-lantern_glowing_menacingly.jpg",
-      "sourceSha256": "78b100c3ac0f5bb70a5d94dae26e072604bc5d068f330eafb37dac7019e37554",
-      "covers": [
-        {
-          "url": "/svetki-un-tradicijas/helovins/",
-          "image": "/assets/social-cards/v2/39730ba23e05ee7e-54f6a2d6c78d.jpg",
-          "title": "Helovīns Latvijā"
-        }
-      ]
-    },
-    {
-      "src": "/assets/tradition-covers/tradition-pasaules-gramatu-diena-c9848d5e317e-1280.webp",
-      "author": "Rīgas pašvaldības aģentūra “Rīgas investīciju un tūrisma aģentūra”",
-      "license": "CC BY 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gaismas-pils.jpg",
-      "sourceSha256": "9070b17cbc1ea13d3e3948301df4dc84533e33b7b46867f25ed42ea57a6a70a3",
-      "covers": [
-        {
-          "url": "/svetki-un-tradicijas/pasaules-gramatu-diena/",
-          "image": "/assets/social-cards/v2/3aa7206dfc7b035b-756d5d59a996.jpg",
-          "title": "Pasaules grāmatu un autortiesību diena"
-        }
-      ]
-    },
-    {
-      "src": "/assets/tradition-covers/tradition-pasaules-vides-diena-762e7e7ea8cd-1280.webp",
-      "author": "AgrisR",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Forest_near_Sieti%C5%86iezis.jpg",
-      "sourceSha256": "e0845289ec53a38d480f66cface67ba5859f003b267a7f567c8435b5852e88c0",
-      "covers": [
-        {
-          "url": "/svetki-un-tradicijas/pasaules-vides-diena/",
-          "image": "/assets/social-cards/v2/f1e16af55d001a1e-dbd5a5ba2d26.jpg",
-          "title": "Pasaules vides diena"
-        }
-      ]
-    },
-    {
-      "src": "/assets/tradition-covers/tradition-pasaules-bernu-diena-378aa9ebf44e-1280.webp",
-      "author": "Андрей Романенко",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Children_playground_in_%C4%92be%C4%BCmui%C5%BEa_Park_01.jpg",
-      "sourceSha256": "e8c1e24f2b21e190ca6bc448762f143aa85f344cfe81d11af101a3c5e04f1855",
-      "covers": [
-        {
-          "url": "/svetki-un-tradicijas/pasaules-bernu-diena/",
-          "image": "/assets/social-cards/v2/fab779646b9fb430-1c704f66884a.jpg",
-          "title": "Pasaules bērnu diena"
-        }
-      ]
-    },
-    {
-      "src": "/assets/tradition-covers/tradition-pasaules-udens-diena-383175b5e373-1280.webp",
-      "author": "Ymblanter",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Venta_Rapid_from_the_left_bank.jpg",
-      "sourceSha256": "a5d305e23b8d580916af18ae6c2e8117c36e4b0793cc295b8cb38a5f4d59ba1a",
-      "covers": [
-        {
-          "url": "/svetki-un-tradicijas/pasaules-udens-diena/",
-          "image": "/assets/social-cards/v2/3c012a46b4721043-b454c7b14ab2.jpg",
-          "title": "Pasaules ūdens diena"
-        }
-      ]
-    },
-    {
-      "src": "/assets/tradition-covers/tradition-pasaules-dzivnieku-diena-037f1209d857-653.webp",
-      "author": "Martin Mecnarowski (http://www.photomecan.eu/)",
-      "license": "CC BY-SA 3.0",
-      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lynx_lynx_2_(Martin_Mecnarowski).jpg",
-      "sourceSha256": "41fe479438348d3a50328db26727fed6d8969aa2aa5e6ed1a73abd7cb35b2c00",
-      "covers": [
-        {
-          "url": "/svetki-un-tradicijas/pasaules-dzivnieku-diena/",
-          "image": "/assets/social-cards/v2/f85b1ce6ff066b1d-7fa6f1290685.jpg",
-          "title": "Pasaules dzīvnieku diena"
-        }
-      ]
-    },
-    {
-      "src": "/assets/tradition-covers/tradition-pavasara-tradicijas-bd282009cff3-1024.webp",
-      "author": "Nicolas G. Mertens",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Easter_Eggs_in_Latvia_2.jpg",
-      "sourceSha256": "f37f72806918c91fdcf0e84b45284f03c02efdb060633c36c8fa39567c84f1b8",
-      "covers": [
-        {
-          "url": "/svetki-un-tradicijas/pavasara-tradicijas/",
-          "image": "/assets/social-cards/v2/189d209d4252954b-7296f9e76d31.jpg",
-          "title": "Pavasara tradīcijas Latvijā"
-        }
-      ]
-    },
-    {
-      "src": "/assets/tradition-covers/tradition-sveta-nikolaja-diena-78180df5ac7f-1280.webp",
-      "author": "HerzenSterneBrezeln",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nikolausstiefel.jpg",
-      "sourceSha256": "7563cb423dba47c85119389270b4675a8ac0841e5ada69f347bc7a9a99cb7e06",
-      "covers": [
-        {
-          "url": "/svetki-un-tradicijas/sveta-nikolaja-diena/",
-          "image": "/assets/social-cards/v2/e6c1d221729f6d76-d460221456e9.jpg",
-          "title": "Svētā Nikolaja diena Latvijā"
-        }
-      ]
-    },
-    {
-      "src": "/assets/tradition-covers/tradition-pasaules-bisu-diena-d69d64266226-1280.webp",
-      "author": "Luc Viatour",
-      "license": "CC BY-SA 3.0",
-      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Apis_mellifera_2_Luc_Viatour.JPG",
-      "sourceSha256": "eac11f5dbd9805e0e674cb409afd929c48d03c000d83655d3f6558dc6e1d8246",
-      "covers": [
-        {
-          "url": "/svetki-un-tradicijas/pasaules-bisu-diena/",
-          "image": "/assets/social-cards/v2/2dff9b79cbd3e524-68d0a085347d.jpg",
-          "title": "Pasaules bišu diena"
-        }
-      ]
-    },
-    {
-      "src": "/assets/tradition-covers/tradition-zemes-diena-d8ed24c10007-1280.webp",
-      "author": "NASA/Apollo 17 crew; taken by either Harrison Schmitt or Ron Evans",
-      "license": "Public domain",
-      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_Earth_seen_from_Apollo_17.jpg",
-      "sourceSha256": "3f55578a3c58509029c6a1ec88c683199f585ea9ffe974efd4265aec314156fb",
-      "covers": [
-        {
-          "url": "/svetki-un-tradicijas/zemes-diena/",
-          "image": "/assets/social-cards/v2/d36a1c021179d250-771dd4f974b4.jpg",
-          "title": "Zemes diena Latvijā"
         }
       ]
     },

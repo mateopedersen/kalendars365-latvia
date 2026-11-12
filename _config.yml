@@ -8,7 +8,7 @@ owner: Silvis Balodis
 email: kalendars365@gmail.com
 permalink: pretty
 markdown: kramdown
-exclude: [AGENTS.md, tooling, vendor, scripts, test, lib, docs, Gemfile, Gemfile.lock, README.md, STATUS.md, node_modules, package.json, package-lock.json, downloads/qa, assets/blog/sources]
+exclude: [AGENTS.md, functions, tooling, vendor, scripts, test, lib, docs, Gemfile, Gemfile.lock, README.md, STATUS.md, node_modules, package.json, package-lock.json, downloads/qa, assets/blog/sources]
 keep_files: []
 
 include: [_headers, _redirects]

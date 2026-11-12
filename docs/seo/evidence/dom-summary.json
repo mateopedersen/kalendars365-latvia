@@ -1,0 +1,9 @@
+{
+  "beforeChecks": 90,
+  "afterChecks": 90,
+  "narrowChecks": 16,
+  "representativeUrls": 45,
+  "horizontalOverflow": 0,
+  "metadataMismatches": [],
+  "method": "Rendered DOM samples; not all 901 pages visually inspected in a browser."
+}

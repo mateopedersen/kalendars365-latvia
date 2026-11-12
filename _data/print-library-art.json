@@ -1,0 +1,35 @@
+{
+  "source": "scripts/build_print_collection_art.mjs",
+  "artworks": [
+    {
+      "name": 2027,
+      "src": "/assets/print-collections/2027.svg",
+      "bytes": 9109,
+      "sha256": "a972f518b4720ee58a8ece84d44854943d9b911ca3d60157ec8fc314e9acff25"
+    },
+    {
+      "name": 2028,
+      "src": "/assets/print-collections/2028.svg",
+      "bytes": 8898,
+      "sha256": "761cc8739e3761714cc98c2dc3fc6653db7023931739954b14b13edaaa5e1edd"
+    },
+    {
+      "name": 2029,
+      "src": "/assets/print-collections/2029.svg",
+      "bytes": 9353,
+      "sha256": "0425c4291e872dde75d90177aa63e84deceb2cf6feeb231d7666e7ee5cdf98be"
+    },
+    {
+      "name": 2030,
+      "src": "/assets/print-collections/2030.svg",
+      "bytes": 9105,
+      "sha256": "e683c7de52237ac05abfd4043e347ea60a8c663b5b0f6a95f3995dd47d86211a"
+    },
+    {
+      "name": "studio",
+      "src": "/assets/print-collections/studio.svg",
+      "bytes": 27108,
+      "sha256": "bf64ee7e3c26974ec3b3a1e119d65c5174eb8f8e2354cd6ed7fd1f6e009a907f"
+    }
+  ]
+}

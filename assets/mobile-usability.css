@@ -1,0 +1,23 @@
+/* Readable fields and comfortable touch targets; calendar/export data is unchanged. */
+/* The open directory must also cover the independently layered header search. */
+.site-header .secondary-nav:has(.nav-more[open]){z-index:70}
+@media screen and (max-width:1100px){
+  :root body :is(input:not([type="hidden"]):not([type="checkbox"]):not([type="radio"]):not([type="range"]):not([type="color"]):not([type="file"]):not([type="button"]):not([type="submit"]):not([type="reset"]),select:not(#city-select),textarea){font-size:16px!important}
+  .site-header .search-field input,.site-header .search-field button{min-height:44px;height:44px}
+  :root :is(#event-filter,#calendar-month,#calendar-year,#task-form>input,#task-form>button){min-height:44px}
+  main details>summary{min-height:44px;padding-block:10px;box-sizing:border-box}
+  .day-timeline .timeline-hour{min-height:48px}
+  .day-timeline .timeline-hour>div{min-width:0}
+  .day-timeline .timeline-hour .text-button{display:inline-flex;align-items:center;justify-content:center;min-width:44px;min-height:44px;padding:8px 10px;font-size:16px}
+  #calendar-studio .studio-preview-actions{gap:8px;align-items:center}
+  #calendar-studio .studio-preview-actions :is(button,select){height:44px;min-height:44px}
+  #calendar-studio .studio-preview-actions .studio-icon-button{width:44px;min-width:44px;flex-basis:44px}
+  #calendar-studio #studio-fit{min-width:96px;font-size:16px}
+  #calendar-studio .studio-preview-actions #studio-zoom{width:140px;min-width:0;max-width:100%}
+}
+/* Let the legal links use their own row before the brand becomes compressed. */
+@media screen and (min-width:821px) and (max-width:1100px){
+  .footer-redesign .footer-legal-row{grid-template-columns:minmax(0,1fr) auto}
+  .footer-redesign .footer-legal-links{grid-column:1/-1;grid-row:2;justify-content:center}
+  .footer-redesign .footer-back-top{grid-column:2;grid-row:1}
+}

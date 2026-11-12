@@ -1,0 +1,68 @@
+[
+  {
+    "path": "/",
+    "status": 200,
+    "finalUrl": "https://kalendars365.lv/",
+    "headers": {
+      "Content-Type": "text/html; charset=utf-8",
+      "Location": null,
+      "X-Robots-Tag": null,
+      "Cache-Control": "public, max-age=0, must-revalidate",
+      "Link": null,
+      "Server": "cloudflare"
+    },
+    "htmlPrefixBytes": 247506
+  },
+  {
+    "path": "/robots.txt",
+    "status": 200,
+    "finalUrl": "https://kalendars365.lv/robots.txt",
+    "headers": {
+      "Content-Type": "text/plain; charset=utf-8",
+      "Location": null,
+      "X-Robots-Tag": null,
+      "Cache-Control": "public, max-age=14400, must-revalidate",
+      "Link": null,
+      "Server": "cloudflare"
+    },
+    "htmlPrefixBytes": 68
+  },
+  {
+    "path": "/sitemap.xml",
+    "status": 200,
+    "finalUrl": "https://kalendars365.lv/sitemap.xml",
+    "headers": {
+      "Content-Type": "application/xml",
+      "Location": null,
+      "X-Robots-Tag": null,
+      "Cache-Control": "public, max-age=0, must-revalidate",
+      "Link": null,
+      "Server": "cloudflare"
+    },
+    "htmlPrefixBytes": 91606
+  },
+  {
+    "path": "/kalendars/2027/",
+    "status": 200,
+    "finalUrl": "https://kalendars365.lv/kalendars/2027/",
+    "headers": {
+      "Content-Type": "text/html; charset=utf-8",
+      "Location": null,
+      "X-Robots-Tag": null,
+      "Cache-Control": "public, max-age=0, must-revalidate",
+      "Link": null,
+      "Server": "cloudflare"
+    },
+    "htmlPrefixBytes": 429373
+  },
+  {
+    "path": "/seo-read-only-missing-20261112/",
+    "status": 404,
+    "headers": {
+      "Content-Type": "text/html; charset=utf-8",
+      "X-Robots-Tag": null,
+      "Cache-Control": "no-store",
+      "Location": null
+    }
+  }
+]

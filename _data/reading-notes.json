@@ -1,9 +1,9 @@
 {
   "/": {
-    "heading": "Vairāk laika tam, kas tev svarīgs",
+    "heading": "Tava diena vienā pārskatā",
     "paragraphs": [
-      "Atrodi svarīgākos datumus un ieplāno laiku sev. Pārskati Latvijas svētku dienas, brīvdienas un vārda dienas, salīdzini mēnešus un pievieno savus notikumus.",
-      "Plāno darbu, mācības un atpūtu vienuviet. Izvēlies 2027.–2030. gada kalendāru drukāšanai vai izveido savu — ar fotogrāfijām, sev tīkamām krāsām un īpašiem datumiem. PDF ir piemērots drukāšanai, bet attēlu vari ērti saglabāt vai nosūtīt citiem."
+      "Noklikšķini uz datuma kalendārā, lai atvērtu izvēlēto dienu. Pievieno notikumu, pieraksti piezīmi vai atzīmē paveikto uzdevumu. Mēneša, nedēļas un dienas skatu vari mainīt, nezaudējot savus ierakstus.",
+      "Notikumu failu vari eksportēt ICS formātā, bet pilnu kalendāra dublējumu saglabāt atsevišķi. Pirms pārlūka datu dzēšanas vai ierīces maiņas lejupielādē dublējumu. Drukāšanas poga sagatavo tikai izvēlēto kalendāru."
     ]
   },
   "/kalendars/": {
@@ -45,7 +45,7 @@
     "heading": "No savas fotogrāfijas līdz gatavam kalendāram",
     "paragraphs": [
       "Vispirms izvēlies gadu un veidni, pēc tam pievieno fotogrāfiju un personīgos datumus. Attēla apgriezumu pārbaudi pašā priekšskatījumā: horizontālā un vertikālā lapā viens foto var izskatīties atšķirīgi. Virsrakstam izmanto īsu formulējumu, lai tas nekonkurētu ar datumu režģi; garāku atgādinājumu ievieto pie attiecīgā datuma.",
-      "Pirms eksporta pārliecinies, ka izvēlēts īstais mēnesis vai viss gads un vajadzīgās Latvijas svētku atzīmes. PDF atver drukas priekšskatījumā ar tādu pašu papīra formātu un orientāciju, kāda norādīta veidotājā. Personīgie attēli tiek apstrādāti ierīcē; projektam saglabāts dublējums palīdz turpināt darbu vēlāk, nepaļaujoties tikai uz pārlūka krātuvi."
+      "Pirms lejupielādes pārbaudi periodu un Latvijas svētku atzīmes. Drukai izvēlies PDF, bet ievietošanai citos materiālos der JPG vai PNG ar izšķirtspēju līdz 600 dpi. Word failā kalendāra dizains saglabājas kā kvalitatīvs attēls, un personīgos notikumus un piezīmes vari pievienot rediģējamā pielikumā. Excel failā vari mainīt kalendāra šūnas un notikumu sarakstu; sākotnējais izskats saglabāts atsevišķā lapā “Drukas dizains”. Darbu veidotājā turpini no saglabāta projekta dublējuma."
     ]
   },
   "/tukss-kalendars/": {
@@ -452,6 +452,13 @@
     "paragraphs": [
       "Īslaicīga pieejamības kļūda nav tas pats, kas nepareizs kalendāra datums. Mēģini lapu atvērt vēlreiz un, ja problēma saglabājas, pārej uz kalendāru vai rīku pārskatu. Pirms pārlūka datu dzēšanas atceries, ka tajos var glabāties tavs personīgais plāns.",
       "Ziņojumā par atkārtotu problēmu norādi lapas adresi, aptuveno laiku un darbību, kas kļūdu izraisīja. Nesūti paroles, bankas datus vai visu privāto kalendāru. Konkrēts, neliels piemērs palīdz atjaunot darbību un pārbaudīt rezultātu."
+    ]
+  },
+  "/biezak-uzdotie-jautajumi/": {
+    "heading": "Atbilde ar skaidru nākamo soli",
+    "paragraphs": [
+      "Jautājumu pārskats apvieno kalendāru lietošanu, drukāšanas izvēles, personīgo ierakstu glabāšanu un publisko datu avotus. Atbildē nosauktā rīka saite ved uz konkrētu darbību, nevis aizstāj attiecīgās iestādes paziņojumu. Ja meklēšana nedod rezultātu, izmēģini vienu precīzu vārdu vai atver tēmu bez atlases.",
+      "Palīdzības ziņai pievieno lapas adresi un darbību, kuru vēlējies pabeigt. Savu ierakstu kopiju vai pilnu kalendāra dublējumu sūtīt nav nepieciešams. Jautājums par nepareizu datumu ir pārbaudāms kopā ar avotu; piekļūstamības šķērsli palīdz saprast pārlūka un izmantotās palīgtehnoloģijas apraksts."
     ]
   }
 }

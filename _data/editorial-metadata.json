@@ -59,7 +59,7 @@
       "family": "hub",
       "title": "Kalendāri drukāšanai: PDF un attēli",
       "h1": "PDF kalendāri",
-      "description": "Izvēlies 2027.–2030. gada kalendāru drukāšanai. Pieejami 15 dizaini PDF un attēlu formātā, gada un mēneša izkārtojumi un personalizēšana.",
+      "description": "Atrodi 2027.–2030. gada un mēneša kalendārus PDF un attēla formātā. Atlasi dizainu, lapas virzienu un svētku atzīmes. A3 drukai, 600 dpi.",
       "indexable": true,
       "status": "ready",
       "note": null
@@ -327,9 +327,9 @@
     {
       "url": "/izveidot-kalendaru/",
       "family": "hub",
-      "title": "Izveido savu kalendāru: PDF un attēli",
+      "title": "Kalendāra veidotājs: PDF, Word un Excel",
       "h1": "Izveido savu kalendāru",
-      "description": "Izvēlies kalendāra veidu un dizainu, pievieno vārdu vai savu fotoattēlu. Sagatavo personalizētu PDF vai attēlu failu tieši savā ierīcē.",
+      "description": "Izveido personīgu kalendāru ar savām fotogrāfijām un notikumiem. Lejupielādē PDF, Word, Excel, JPG vai PNG, attēliem izvēlies līdz 600 dpi.",
       "indexable": true,
       "status": "ready",
       "note": null
@@ -7654,6 +7654,12 @@
       "title": "Varoņu piemiņas diena (Cēsu kaujas atceres diena) Latvijā",
       "h1": "Varoņu piemiņas diena (Cēsu kaujas atceres diena)",
       "description": "22. jūnijā Latvijā ir Varoņu piemiņas diena jeb Cēsu kaujas atceres diena. Tā godina cilvēkus, kuri piedalījās Latvijas neatkarības izcīnīšanā."
+    },
+    {
+      "url": "/biezak-uzdotie-jautajumi/",
+      "title": "Biežāk uzdotie jautājumi",
+      "h1": "Biežāk uzdotie jautājumi",
+      "description": "Atbildes par Kalendāra365 kalendāriem, drukāšanu, datu saglabāšanu, pilsētas izvēli un avotiem. Meklē jautājumu un atver vajadzīgo rīku."
     }
   ]
 }

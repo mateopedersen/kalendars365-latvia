@@ -17,3 +17,17 @@ export function planWithinBudget(candidates,budget){
 }
 export function csv(rows){const cell=v=>'"'+String(v??'').replace(/^[\s]*[=+@-]/,m=>"'"+m).replaceAll('"','""')+'"';return '\ufeff'+rows.map(r=>r.map(cell).join(',')).join('\r\n');}
 export function namedDays(records,start,days=7){return dateRange(start,new Date(new Date(start+'T12:00:00Z').getTime()+(days-1)*86400000).toISOString().slice(0,10),31).map(date=>{const m=Number(date.slice(5,7)),d=Number(date.slice(8));return {date,names:records.filter(r=>r.kind==='traditional'&&r.month===m&&r.day===d).map(r=>r.name)};});}
+
+// The same note can become an event. Keep distinct entries and full text, but
+// do not print an exact copy as title, description and day note again.
+export function calendarEntryText(events, note=''){
+ const covered=new Set(),lines=[];
+ for(const event of events){
+  const title=String(event.title||''),description=String(event.description||'');
+  covered.add(title.trim());if(description.trim())covered.add(description.trim());
+  lines.push((event.time?event.time+' ':'')+title+(description.trim()&&description.trim()!==title.trim()?'\n'+description:''));
+ }
+ const dayNote=String(note||'');
+ if(dayNote.trim()&&!covered.has(dayNote.trim()))lines.push(dayNote);
+ return lines.filter(Boolean).join('\n');
+}

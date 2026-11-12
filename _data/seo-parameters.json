@@ -1,0 +1,136 @@
+{
+  "schemaVersion": 1,
+  "canonicalOrigin": "https://kalendars365.lv",
+  "rules": [
+    {
+      "parameters": [
+        "date",
+        "view"
+      ],
+      "class": "calendar-ui-state",
+      "canonical": "existing-landing-page",
+      "sitemap": false,
+      "reason": "Selected day and display mode do not replace the landing page's year, month, download collection or public context."
+    },
+    {
+      "parameters": [
+        "city",
+        "time",
+        "compare1",
+        "compare2",
+        "compareDate",
+        "visible",
+        "phase",
+        "type"
+      ],
+      "class": "astronomy-ui-state",
+      "canonical": "existing-landing-page",
+      "sitemap": false,
+      "reason": "Selectable calculations remain interactive states. Existing dedicated city paths retain their own canonical identity."
+    },
+    {
+      "parameters": [
+        "macibu-gads",
+        "klase",
+        "augstskola",
+        "grafiks"
+      ],
+      "class": "public-school-calendar-state",
+      "canonical": "existing-landing-page",
+      "sitemap": false,
+      "reason": "Shared school breaks restore the published academic year and grade; university links restore the chosen institution and published schedule. These public selections do not create new editorial pages."
+    },
+    {
+      "parameters": [
+        "q",
+        "kind",
+        "month"
+      ],
+      "class": "name-search-or-filter",
+      "canonical": "existing-landing-page",
+      "sitemap": false,
+      "reason": "Name search is a local filter over published VVC data; the general name directory and existing month pages remain separate landing pages."
+    },
+    {
+      "parameters": [
+        "period",
+        "year",
+        "design",
+        "orientation",
+        "holidays",
+        "sort",
+        "filter",
+        "tema",
+        "gads",
+        "periods",
+        "menesis",
+        "virziens",
+        "svetki",
+        "dizains"
+      ],
+      "class": "catalog-filter",
+      "canonical": "existing-landing-page",
+      "sitemap": false,
+      "reason": "Filtered subsets and ordering do not create separately maintained landing pages. The public PDF library uses the Latvian keys gads, periods, menesis, virziens, svetki and dizains; English example keys do not enable those filters."
+    },
+    {
+      "parameters": [
+        "tool",
+        "from",
+        "to",
+        "both",
+        "start",
+        "end",
+        "days"
+      ],
+      "class": "calculator-state",
+      "canonical": "existing-landing-page",
+      "sitemap": false,
+      "reason": "User-selected inputs are functional calculator states, not new editorial documents."
+    },
+    {
+      "parameters": [
+        "name"
+      ],
+      "class": "personalization-input",
+      "canonical": "existing-landing-page",
+      "sitemap": false,
+      "reason": "The generic maker remains public. Names and personal draft content must not enter metadata, structured data, analytics or sitemaps; generated files stay in the browser."
+    },
+    {
+      "parameters": [
+        "page"
+      ],
+      "class": "unsupported-pagination",
+      "canonical": "existing-landing-page",
+      "sitemap": false,
+      "reason": "No server pagination currently exists. Re-evaluate this rule before adding real page-numbered content; never canonicalize real page 2 to page 1 by default."
+    },
+    {
+      "parameters": [
+        "print",
+        "download"
+      ],
+      "class": "presentation-or-download-action",
+      "canonical": "existing-landing-page",
+      "sitemap": false,
+      "reason": "Existing print controls and actual static file URLs retain their own behaviors. A query key alone is not a separate document."
+    },
+    {
+      "parameters": [
+        "utm_source",
+        "utm_medium",
+        "utm_campaign",
+        "utm_term",
+        "utm_content",
+        "gclid",
+        "fbclid"
+      ],
+      "class": "tracking-decoration",
+      "canonical": "existing-landing-page",
+      "sitemap": false,
+      "reason": "Tracking keys do not change primary content. No analytics service is enabled by this policy."
+    }
+  ],
+  "unsupportedParameters": "Ignored state keys retain the landing canonical. This policy does not promise UI support for parameters that the existing tool does not read."
+}

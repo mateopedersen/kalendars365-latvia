@@ -6,8 +6,8 @@ export function panoramaView(snapshot, {bearing, follow = true, landscape = 'wat
   const heading = follow || !Number.isFinite(bearing) ? snapshot.position.azimuth : bearing;
   return {
     bearing: wrap(heading),
-    elevation: follow ? clamp(altitude * .48, 6, 27) : 8,
-    fov: 72,
+    elevation: follow ? clamp(altitude * .40 + 3, 5, 29) : 8,
+    fov: follow ? clamp(58 + Math.max(0, altitude - 15) * .65, 58, 88) : 64,
     sun: direction(altitude, snapshot.position.azimuth),
     altitude,
     landscape: landscape === 'meadow' ? 1 : landscape === 'forest' ? 2 : 0,

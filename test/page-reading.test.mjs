@@ -7,7 +7,7 @@ import {fileURLToPath} from 'node:url';
 const root=fileURLToPath(new URL('../',import.meta.url));
 const read=name=>JSON.parse(fs.readFileSync(path.join(root,name),'utf8'));
 const catalog=read('_data/page-guides.json'),notes=catalog.pages,manifest=read('docs/route-manifest.json');
-const data=read('assets/calendar-data.json');
+const data=read('assets/calendar-data.json'),trustPages=read('_data/trust-pages.json').pages;
 const dates=(first,last)=>{let days=[];for(let d=new Date(first+'T12:00:00Z'),end=new Date(last+'T12:00:00Z');d<=end;d.setUTCDate(d.getUTCDate()+1))days.push(d.toISOString().slice(0,10));return days;};
 const isWeekday=date=>![0,6].includes(new Date(date+'T12:00:00Z').getUTCDay());
 const offDates=new Set(data.holidays.filter(x=>x.dayOff).map(x=>x.date));
@@ -16,7 +16,7 @@ const isoWeek=value=>{let d=new Date(value+'T12:00:00Z');d.setUTCDate(d.getUTCDa
 test('every published page has two or three substantive notes with no duplicated paragraph',()=>{
   const expected=new Set([...manifest.filter(x=>!x.family.startsWith('blog_')).map(x=>x.url),'/nedelas-kalendars/2031/01/','/404.html','/500.html']);
   assert.deepEqual(new Set(Object.keys(notes)),expected);
-  assert.equal(Object.keys(notes).length,879);
+  assert.equal(Object.keys(notes).length,expected.size);
   const paragraphs=new Set();
   for(const [url,note] of Object.entries(notes)){
     assert.ok([2,3].includes(note.paragraphs.length),url);
@@ -105,24 +105,43 @@ test('garden month notes follow resolved source windows, including protected win
   assert.match(notes['/sejas-kalendars/menesis/decembris/'].paragraphs[1],/nevis lauka ražas/);
 });
 
-test('unpublished school periods and the 2031 boundary never fabricate confirmed future schedules',()=>{
+test('unpublished school pages and the 2031 boundary stay indexable without fabricating confirmed schedules',()=>{
   const pending=Object.entries(notes).filter(([,n])=>n.basis?.status==='not-published');
   assert.equal(pending.length,8);
   for(const [url,note] of pending){
-    assert.equal(manifest.find(x=>x.url===url).indexable,false,url);
+    const page=manifest.find(x=>x.url===url);
+    assert.equal(page.indexable,true,url);
+    assert.equal(page.status,'school_dates_pending',url);
     assert.match(note.paragraphs[0],/vēl nav publicēts/,url);
   }
   assert.equal(notes['/nedelas-kalendars/2031/01/'].basis.workdays,null);
+  assert(manifest.find(x=>x.url==='/nedelas-kalendars/2031/01/').indexable);
 });
 
 test('built HTML contains the notes as visible, escaped main content without disturbing template order',()=>{
   for(const [url,note] of Object.entries(notes)){
     const file=url==='/'?'index.html':url.endsWith('.html')?url:url.slice(1)+'index.html';
     const html=fs.readFileSync(path.join(root,'_site',file.replace(/^\//,'')),'utf8');
+    if(trustPages[url]){
+      assert(html.includes('data-trust-page='),url+' has a purpose-built information page');
+      assert(!html.includes('data-page-reading'),url+' must not append the superseded generic notes');
+      assert.equal(html.includes('class="trust-directory"'),trustPages[url].kind!=='contact',url);
+      continue;
+    }
+    if(url==='/pdf-kalendari/') {
+      const guide=html.match(/<section class="print-library-guide"[\s\S]*?<\/section>/)?.[0];
+      assert(guide&&guide.includes('id="print-guide-title"'),'PDF discovery has its own visible print guide');
+      assert((guide.match(/<p>/g)||[]).length>=2);assert(guide.includes('/izveidot-kalendaru/'));assert(guide.includes('/svetku-dienas/'));
+      assert.equal((html.match(/data-page-reading/g)||[]).length,0,'Avoid a second, duplicated guide below the custom print guide');
+      continue;
+    }
     assert.equal((html.match(/data-page-reading/g)||[]).length,1,url);
     const start=html.indexOf('data-page-reading'),end=html.indexOf('</main>',start);
     assert.ok(start>html.indexOf('<main id="main">')&&end>start,url);
-    const part=html.slice(start,end);
+    // Recommendations follow the guide inside main and may have their own copy.
+    // Count only the visible paragraphs in the guide being tested.
+    const part=html.match(/<section class="page-reading"[\s\S]*?<\/section>/)?.[0];
+    assert(part,url+' must render its own guide section');
     assert.equal((part.match(/<p>/g)||[]).length,note.paragraphs.length,url);
     assert.ok(!/\shidden(?:\s|>)/.test(part),url);
     if(url.startsWith('/kalendars/202')||url.startsWith('/pdf-kalendari/202'))assert.ok(html.indexOf('a3-year-gallery')<start,url);

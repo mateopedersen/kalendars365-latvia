@@ -11,8 +11,19 @@ export function safePublicUrl(input,{date,view,year,month}={}){
  if(['month','week','day','year','list'].includes(params.get('view')))url.searchParams.set('view',params.get('view'));
  const city=params.get('city');if(city&&/^[a-z][a-z-]{0,45}$/.test(city))url.searchParams.set('city',city);
  const q=params.get('q');if(url.pathname==='/varda-dienas/'&&q&&/^[\p{L} '-]{1,50}$/u.test(q))url.searchParams.set('q',q);
+ if(['/skolas-brivlaiki/','/studiju-kalendars/'].includes(url.pathname)){
+  const schoolYear=params.get('macibu-gads'),grade=params.get('klase'),institution=params.get('augstskola'),calendar=params.get('grafiks');
+  if(['2026-27','2027-28','2028-29','2029-30','2030-31'].includes(schoolYear))url.searchParams.set('macibu-gads',schoolYear);
+  if(/^(?:[1-9]|1[0-2])$/.test(grade||''))url.searchParams.set('klase',grade);
+  if(/^[a-z][a-z0-9-]{0,35}$/.test(institution||'')){
+   url.searchParams.set('augstskola',institution);
+   if(calendar===institution||calendar?.startsWith(institution+'-')&&/^[a-z][a-z0-9-]{0,60}$/.test(calendar))url.searchParams.set('grafiks',calendar);
+   if(source.hash==='#study-'+institution)url.hash=source.hash;
+  }
+  if(url.pathname==='/skolas-brivlaiki/'&&/^#brivlaiks-(autumn|winter|spring|summer)$/.test(source.hash))url.hash=source.hash;
+ }
  if(date&&validDate(date)){url.searchParams.set('date',date);if(['month','week','day','year','list'].includes(view))url.searchParams.set('view',view);}
- if(url.pathname==='/'||url.pathname==='/menesa-kalendars/'||url.pathname==='/nedelas-kalendars/'){
+ if(url.pathname==='/'||url.pathname==='/menesa-kalendars/'||url.pathname==='/nedelas-kalendars/'||/^\/kalendars\/(?:202[7-9]|2030)\/(?:[a-z]+\/)?$/.test(url.pathname)&&(date||year||month)){
   const d=url.searchParams.get('date'),y=Number(year||d?.slice(0,4)),m=Number(month||d?.slice(5,7));
   if(y>=2027&&y<=2030){
    if((view||url.searchParams.get('view'))==='year')url.pathname=`/kalendars/${y}/`;

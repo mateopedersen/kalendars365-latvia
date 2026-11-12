@@ -1,6 +1,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import crypto from 'node:crypto';
+import {observatoryIllustration} from './artwork/observatory.mjs';
 const out=path.resolve('assets/astronomy-events');fs.mkdirSync(out,{recursive:true});
 const escape=s=>s.replaceAll('&','&amp;').replaceAll('<','&lt;');
 const p=(d,fill='none',stroke='none',width=1,extra='')=>`<path d="${d}" fill="${fill}" stroke="${stroke}" stroke-width="${width}" ${extra}/>`;
@@ -50,7 +51,7 @@ function orbit(near){return c(160,157,135,'#f3eee6')+ellipse(160,157,124,73,'non
 function meteor(){return c(160,157,139,url('night'))+stars()+p('M42 183L211 77Q196 113 136 145Z',url('tail'))+p('M75 241L260 118Q243 156 162 194Z',url('tail'))+p('M104 118L205 47Q198 73 158 91Z',url('tail'))+l(82,225,245,131,'#e9f5ea',1.7,'opacity=".75"')+c(246,130,4,'#fff5c8')+c(201,83,3,'#fff7df')+p('M31 249L73 229L114 243L171 224L219 249L275 230L298 255V295H31Z','#243f50')+p('M30 270Q143 251 291 270V300H30Z','#173143');}
 function sunrise(){return c(160,155,134,'#f5eadb')+sun(160,156,60)+p('M40 173Q96 154 154 177T280 173V247H40Z','#6e9fa3')+p('M40 196Q96 177 154 200T280 196M45 214Q111 194 171 218T278 212','none','#c8e0d7',3)+p('M57 171H263','none','#4e7781',2);}
 function overview(){let s=c(160,155,135,url('night'))+stars()+p('M45 194Q160 240 275 194','none','#8499a6',1);const phases=['new','first','full','last'];for(let i=0;i<4;i++){const x=65+i*64;s+=c(x,150,24,i===0?url('night'):url('moon'),'stroke="#95a9b4" stroke-width=".8"');if(i===1)s+=p(`M${x} 126A24 24 0 0 0 ${x} 174Z`,url('night'));if(i===3)s+=p(`M${x} 126A24 24 0 0 1 ${x} 174Z`,url('night'));}return s;}
-function observatory(){let s=c(160,151,139,url('night'))+stars()+c(233,67,29,url('moon'))+c(246,56,27,url('night'));s+=ellipse(153,282,93,9,'#1b2c40','opacity=".15"')+p('M146 167L103 279M161 172L206 279M154 177L152 280','none','#c2ccd0',7,'stroke-linecap="round"')+p('M81 106L115 78L225 181L190 211Z',url('metal'),'#203c50',2)+p('M75 104L109 71L125 86L91 120Z','#7d2e47','#c99182',2)+p('M187 205L219 176L230 188L199 216Z','#365868')+ellipse(99,94,18,11,'#142b42','transform="rotate(-43 99 94)" stroke="#e0c69b" stroke-width="2"')+c(155,173,12,'#c1a06d','stroke="#f7e4be" stroke-width="2"');return s;}
+function observatory(){return observatoryIllustration(id);}
 const defs=[
  ['moon-new','Jaunmēness','Tumšs Mēness disks jaunmēnesī.','phase','new','none',()=>moon('new')],
  ['moon-first','Pirmais ceturksnis','Mēness labā puse apgaismota ziemeļu puslodes standarta skatā.','phase','first','right',()=>moon('first')],
@@ -64,7 +65,7 @@ const defs=[
  ['perseids','Perseīdu novērošanas nakts','Meteoru pēdu ilustrācija virs nakts ainavas.','meteor','perseids','',meteor],
  ['sunrise','Saules ceļš','Saules un horizonta ilustrācija.','tool','sunrise','',sunrise],
  ['moon-overview','Mēness cikls','Četri atšķirīgi galvenie Mēness fāžu veidi.','tool','moon-overview','',overview],
- ['observatory','Astronomisko notikumu ceļvedis','Teleskops un nakts debesis.','tool','observatory','',observatory]
+ ['observatory','Astronomisko notikumu ceļvedis','Lēcu teleskops ar meklētāju, okulāru un regulējamu trijkāji zem zvaigžņotām debesīm.','tool','observatory','',observatory]
 ];
 const artworks=defs.map(([key,title,description,kind,variant,litSide,body])=>{id='ae-'+key;const svg=`<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 320" role="img" aria-labelledby="${id}-title ${id}-desc" data-event-art="${key}"${litSide?` data-lit-side="${litSide}"`:''}><title id="${id}-title">${title}</title><desc id="${id}-desc">${escape(description)} Kalendārs365 oriģināla vektoru ilustrācija.</desc>${definitions()}${body()}</svg>\n`;const file=path.join(out,key+'.svg');fs.writeFileSync(file,svg);return{key,title,description,kind,variant,litSide:litSide||undefined,file:'/assets/astronomy-events/'+key+'.svg',bytes:Buffer.byteLength(svg),sha256:crypto.createHash('sha256').update(svg).digest('hex')};});
 fs.writeFileSync('_data/astronomy-event-art.json',JSON.stringify({version:1,source:'scripts/build_astronomy_event_art.mjs',orientation:'Northern hemisphere standard phase diagrams; illustrations are not topocentric sky simulations.',references:['https://science.nasa.gov/moon/moon-phases/','https://starchild.gsfc.nasa.gov/docs/StarChild/solar_system_level2/moonlight.html','https://aa.usno.navy.mil/faq/moon_phases'],artworks},null,2)+'\n');console.log('Created '+artworks.length+' event-specific vector illustrations');

@@ -46,6 +46,9 @@ export function formatTime(date,zone=TIME_ZONE) {
   const formatter=zone===TIME_ZONE?timeFormatter:new Intl.DateTimeFormat('lv-LV',{timeZone:zone,hour:'2-digit',minute:'2-digit',hourCycle:'h23'});
   return date && Number.isFinite(new Date(date).getTime()) ? formatter.format(new Date(Math.round(new Date(date).getTime()/60000)*60000)) : '—';
 }
+export function formatEventTimes(events, separator=', ', zone=TIME_ZONE) {
+  return events.map(event => formatTime(event, zone)).join(separator);
+}
 export function formatDate(value) { return dateFormatter.format(rigaInstant(value,12)); }
 export function phaseName(phase) {
   const names=['Jaunmēness','Augošs sirpis','Pirmais ceturksnis','Augošs Mēness','Pilnmēness','Dilstošs Mēness','Pēdējais ceturksnis','Dilstošs sirpis'];

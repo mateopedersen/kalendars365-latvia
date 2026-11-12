@@ -1,11 +1,36 @@
+function createCityPhotoLoader({image,figure,status,makeImage=()=>new Image(),limit=16}){
+ const cache=new Map();let version=0;
+ function display(photo,stage){image.alt=photo.alt;image.hidden=false;image.srcset=stage==='ready'?(photo.fastSrcset||photo.srcset||''):'';image.src=stage==='ready'?(photo.fastSrc||photo.src):(photo.preview||photo.fastSrc||photo.src);figure.dataset.photoStage=stage;figure.setAttribute('aria-busy',String(stage!=='ready'));figure.classList.toggle('is-loading',stage!=='ready');status.hidden=true;}
+ function update(city){
+  const current=++version,photo=city.photo||{src:'/assets/category-vector/earth.svg',srcset:'',alt:'Zemes ilustrācija — aptuveni noteiktā pilsēta'};
+  figure.classList.toggle('is-location-illustration',!!city.external);figure.dataset.photoCity=city.id;
+  const key=[photo.fastSrc||photo.src,photo.fastSrcset||photo.srcset||'',image.sizes].join('|');let entry=cache.get(key);
+  if(entry){cache.delete(key);cache.set(key,entry);}
+  if(entry?.ready){display(photo,'ready');return;}
+  // This data URI is already in the city catalogue: first paint needs no request.
+  display(photo,photo.preview?'preview':'loading');
+  if(!entry){
+   const pending=makeImage();entry={ready:false,image:pending};
+   entry.promise=new Promise((resolve,reject)=>{
+    pending.onload=async()=>{try{await pending.decode?.();}catch{}entry.ready=true;resolve();};pending.onerror=reject;
+    pending.decoding='async';pending.fetchPriority='high';pending.sizes=image.sizes;pending.srcset=photo.fastSrcset||photo.srcset||'';pending.src=photo.fastSrc||photo.src;
+   });cache.set(key,entry);while(cache.size>limit)cache.delete(cache.keys().next().value);
+  }
+  entry.promise.then(()=>{if(current===version)display(photo,'ready');},()=>{if(cache.get(key)===entry)cache.delete(key);if(current!==version)return;figure.classList.remove('is-loading');figure.setAttribute('aria-busy','false');figure.dataset.photoStage='preview';status.textContent=photo.preview?'Pilno attēlu nevarēja ielādēt. Redzams pilsētas priekšskatījums.':'Attēlu nevar ielādēt. Mēģini vēlreiz.';status.hidden=false;});
+ }
+ return{update};
+}
+if(typeof module==='object'&&module.exports)module.exports={createCityPhotoLoader};
 (()=>{'use strict';
+ if(typeof window!=='object'||typeof document!=='object')return;
  const cities=Array.isArray(window.K365Cities)?window.K365Cities:[];
  function init(){
   const get=id=>document.getElementById(id),select=get('city-select'),location=window.K365Location;
   if(!select||!cities.length||!location)return;
-  let city=null,solarKey='',photoVersion=0,solarTimes=null,zone='Europe/Riga',clockFormatter,solarFormatter,dateFormatter,fullDateFormatter;
+  let city=null,solarKey='',solarRun=0,solarTimes=null,zone='Europe/Riga',clockFormatter,solarFormatter,dateFormatter,fullDateFormatter;
   const card=get('city-card'),image=get('city-photo'),figure=image.closest('figure');
   const status=document.createElement('span');status.className='city-photo-status';status.setAttribute('role','status');status.hidden=true;figure.append(status);
+  const photos=createCityPhotoLoader({image,figure,status});
   function formatters(nextZone){
    zone=nextZone;clockFormatter=new Intl.DateTimeFormat('en-GB',{timeZone:zone,hour:'2-digit',minute:'2-digit',second:'2-digit',hourCycle:'h23',timeZoneName:'short'});
    solarFormatter=new Intl.DateTimeFormat('lv-LV',{timeZone:zone,hour:'2-digit',minute:'2-digit',hourCycle:'h23'});
@@ -13,13 +38,7 @@
    fullDateFormatter=new Intl.DateTimeFormat('lv-LV',{timeZone:zone,weekday:'long',year:'numeric',month:'long',day:'numeric'});
   }
   function updatePhoto(){
-   const current=++photoVersion,photo=city.photo||{src:'/assets/category-vector/earth.svg',srcset:'',alt:'Zemes ilustrācija — aptuveni noteiktā pilsēta'};
-   figure.classList.toggle('is-location-illustration',!!city.external);
-   if(image.getAttribute('src')===photo.src&&(image.getAttribute('srcset')||'')===(photo.srcset||'')&&image.complete&&image.naturalWidth){image.alt=photo.alt;return;}
-   figure.classList.add('is-loading');status.textContent='Ielādē attēlu…';status.hidden=false;
-   const pending=new Image();pending.sizes=image.sizes;pending.srcset=photo.srcset||'';pending.src=photo.src;
-   pending.onload=()=>{if(current!==photoVersion)return;image.alt=photo.alt;image.srcset=photo.srcset||'';image.src=photo.src;image.hidden=false;figure.classList.remove('is-loading');status.hidden=true;};
-   pending.onerror=()=>{if(current!==photoVersion)return;image.hidden=true;figure.classList.remove('is-loading');status.textContent='Attēlu nevar ielādēt. Mēģini vēlreiz.';status.hidden=false;};
+   photos.update(city);
   }
   function updateSun(today){
    const id=city.id+today+zone;if(solarKey===id)return;solarKey=id;
@@ -37,13 +56,13 @@
    const x=18*(1-t)*(1-t)+300*(1-t)*t+302*t*t,y=68-168*t*(1-t);visual.dataset.phase=day?'day':'night';
    for(const node of [orb,glow]){node.setAttribute('cx',x.toFixed(1));node.setAttribute('cy',y.toFixed(1));}
   }
-  function tick(){
+  function tick(skipSun=false){
    if(!city)return;const now=new Date(),p=Object.fromEntries(clockFormatter.formatToParts(now).map(p=>[p.type,p.value]));
    get('riga-time').textContent=p.hour+':'+p.minute;get('riga-time').dateTime=now.toISOString();get('city-clock-seconds').textContent=p.second;get('city-clock-zone').textContent=p.timeZoneName;
    get('today-date').textContent=fullDateFormatter.format(now);
    get('clock-hour').setAttribute('transform',`rotate(${Number(p.hour)%12*30+Number(p.minute)/2} 40 39)`);
    get('clock-minute').setAttribute('transform',`rotate(${Number(p.minute)*6+Number(p.second)/10} 40 39)`);get('clock-second').setAttribute('transform',`rotate(${Number(p.second)*6} 40 39)`);
-   const d=Object.fromEntries(dateFormatter.formatToParts(now).map(p=>[p.type,p.value]));updateSun(`${d.year}-${d.month}-${d.day}`);updateSunVisual(now);
+   if(!skipSun){const d=Object.fromEntries(dateFormatter.formatToParts(now).map(p=>[p.type,p.value]));updateSun(`${d.year}-${d.month}-${d.day}`);updateSunVisual(now);}
   }
   function apply({city:next,source}){
    card.dataset.locationState=source;get('city-location-auto').disabled=source==='detecting';
@@ -54,13 +73,13 @@
    for(const option of [...select.options])if(option.dataset.detectedCity&&option.value!==city.id)option.remove();
    if(city.external&&![...select.options].some(option=>option.value===city.id)){const option=document.createElement('option');option.value=city.id;option.textContent=city.name;option.dataset.detectedCity='true';select.prepend(option);}
    select.querySelector('[data-location-pending]')?.remove();select.value=city.id;select.setAttribute('aria-label',city.external?'Izvēlies pilsētu':'Izvēlies pilsētu Latvijā');get('city-photo-caption').textContent=city.name+', '+city.countryName;get('city-card-title').textContent=city.external?'Šodien tavā pilsētā':'Šodien Latvijā';
-   get('city-credit').href=city.external?'/pilsetas-un-fotografijas/#category-vectors':'/pilsetas-un-fotografijas/#'+city.id;
-   get('city-credit').setAttribute('aria-label',city.external?'Ilustrācijas avots':city.name+' — fotogrāfijas autors un licence');
    get('riga-time').setAttribute('aria-label','Vietējais laiks: '+city.name);get('city-sun-zone').textContent=zone;
    get('city-time-note').textContent=city.external?`Vietējais laiks — ${zone}. Latvijas kalendārs izmanto Europe/Riga.`:'Visā Latvijā ir vienāda laika josla — Europe/Riga.';
    const sunLink=get('city-sun-link');sunLink.href=city.external?'/saullekts-saulriets/':'/saullekts-saulriets/'+city.id+'/';
    sunLink.firstChild.textContent=city.external?'Saules laiki Latvijas pilsētās':'Saules laiki un datuma izvēle';
-   if(changed)updatePhoto();solarKey='';tick();
+   if(changed)updatePhoto();solarKey='';tick(true);const run=++solarRun;
+   // Let the new city preview paint before the more expensive sky calculations.
+   requestAnimationFrame(()=>requestAnimationFrame(()=>{if(run===solarRun)tick();}));
   }
   select.addEventListener('change',()=>location.manual(select.value));get('city-location-auto').addEventListener('click',()=>location.auto());
   document.addEventListener('k365:citychange',event=>apply(event.detail));

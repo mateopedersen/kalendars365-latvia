@@ -1,4 +1,4 @@
-import {FONTS,STUDIO_PHOTOS,PRESETS,applyPreset,LOCALES,uid,esc,clamp,clone,initialState,normalize,validDate,moveMonth,dimensions,eventsFor,renderCalendar,exportPages,parseEvents,eventsICS,createPDF} from './engine.mjs?v=f86c486019d8';
+import {FONTS,STUDIO_PHOTOS,PRESETS,applyPreset,LOCALES,uid,esc,clamp,clone,initialState,normalize,validDate,moveMonth,dimensions,eventsFor,renderCalendar,exportPages,parseEvents,eventsICS} from './engine.mjs?v=541569fccac8';
 
 const root=document.getElementById('calendar-studio');
 if(root){
@@ -6,7 +6,7 @@ const $=(s,el=root)=>el.querySelector(s),$$=(s,el=root)=>[...el.querySelectorAll
 const icons={calendar:'M5 4v4m14-4v4M3 10h18M5 6h14a2 2 0 0 1 2 2v12H3V8a2 2 0 0 1 2-2m2 8h2m4 0h2m-8 4h2m4 0h2',sparkles:'m12 2 2.7 7.3L22 12l-7.3 2.7L12 22l-2.7-7.3L2 12l7.3-2.7Z',undo:'M9 5 4 10l5 5M4 10h10a6 6 0 0 1 0 12',redo:'m15 5 5 5-5 5m5-5H10a6 6 0 0 0 0 12',folder:'M3 6h7l2 3h9v11H3Zm0 0V4h7l2 2h7v3',download:'M12 3v12m-5-5 5 5 5-5M4 16v5h16v-5',templates:'M3 3h8v8H3Zm11 0h7v12h-7ZM3 14h8v7H3Zm11 4h7v3h-7Z',layout:'M3 3h18v18H3Zm0 6h18M9 9v12',type:'M4 4h16M12 4v17M8 21h8M4 4v4m16-4v4',image:'M3 3h18v18H3Zm0 14 6-6 5 5 3-3 4 4M16 7h.01',event:'M5 3v4m14-4v4M3 10h18M3 6h18v15H3Zm5 9 3 3 5-5',layers:'m12 3 10 5-10 5L2 8Zm-9 9 9 5 9-5M3 17l9 5 9-5',info:'M12 8h.01M12 11v6m0-15a10 10 0 1 0 0 20 10 10 0 0 0 0-20',plus:'M12 5v14M5 12h14',shield:'M12 2 3 6v6c0 5 9 10 9 10s9-5 9-10V6Zm-5 10 3 3 7-7',copy:'M9 9h12v12H9ZM4 15H3V3h12v1',trash:'M3 6h18M9 6V3h6v3M6 6l1 15h10l1-15M10 10v7m4-7v7',back:'M4 10h10v11H4Zm5-5h10v11h-2M14 3v5m-3-3 3 3 3-3',front:'M10 4h10v10H10ZM4 10h3v10h10v-3M14 3v5m-3-3 3-3 3 3',move:'M12 2v20M2 12h20M8 6l4-4 4 4m-8 12 4 4 4-4M6 8l-4 4 4 4m12-8 4 4-4 4',expand:'M3 9V3h6m6 0h6v6M3 15v6h6m6 0h6v-6',file:'M5 2h9l5 5v15H5Zm9 0v6h5M8 13h8m-8 4h8',vector:'M4 4h16v16H4Zm-2-2h4v4H2Zm16 0h4v4h-4ZM2 18h4v4H2Zm16 0h4v4h-4Z',print:'M6 8V2h12v6M6 17H3V8h18v9h-3M6 14h12v8H6Zm11-3h1',edit:'m4 17 11-11 4 4L8 21H4Zm11-11 3-3 4 4-3 3'};
 function icon(name){return `<svg class="studio-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="${icons[name]||icons.calendar}"/></svg>`;}
 $$('[data-icon]').forEach(node=>{if(node.className){node.innerHTML=icon(node.dataset.icon);node.removeAttribute('data-icon');}else node.outerHTML=icon(node.dataset.icon);});
-let state=initialState(),selected=null,history=[],future=[],activeTab='design',lastKey='',lastAt=0,saveTimer,renderFrame,zoom='fit',busy=false,drag=null;
+let state=initialState(),selected=null,history=[],future=[],activeTab='design',lastKey='',lastAt=0,saveTimer,renderFrame,zoom='fit',busy=false,drag=null,exportController=null,exportModule=null;
 const fonts=Object.entries(FONTS).map(([key,font])=>`<option value="${key}">${font.label}</option>`).join('');$$('[data-font-select]').forEach(el=>el.innerHTML=fonts);
 $('#studio-month-select').innerHTML=LOCALES.lv.months.map((m,i)=>`<option value="${i+1}">${m[0].toUpperCase()+m.slice(1)}</option>`).join('');
 $('#studio-presets').innerHTML=PRESETS.map(p=>{
@@ -32,13 +32,15 @@ function sync(){
   const monthly=state.view==='month';$('#studio-month-select').disabled=!monthly;$('#studio-prev').disabled=!monthly||(state.year===2027&&state.month===1);$('#studio-next').disabled=!monthly||(state.year===2030&&state.month===12);
   $('#studio-preview-label').textContent=monthly?`${LOCALES[state.locale].months[state.month-1]} ${state.year}`:`Gada kalendārs · ${state.year}`;
   const d=dimensions(state);$('#studio-paper-size').textContent=`${state.paper==='letter'?'Letter':state.paper.toUpperCase()} · ${Math.round(d.mmWidth*10)/10} × ${Math.round(d.mmHeight*10)/10} mm`;
-  $('#studio-photo-credit').textContent=state.photo&&state.photoCredit?state.photoCredit:'';$('#studio-photo-current').hidden=!state.photo;$('#studio-drop').hidden=!!state.photo;
+  $('#studio-photo-current').hidden=!state.photo;$('#studio-drop').hidden=!!state.photo;
   if(state.photo&&$('#studio-photo-thumb').src!==state.photo)$('#studio-photo-thumb').src=state.photo;
   if(!state.photo)$('#studio-photo-thumb').removeAttribute('src');
   $('#studio-event-count').textContent=state.events.length;$('#studio-events-ics').disabled=!state.events.length;
   if(!$('#studio-event-form').elements.date.value)$('#studio-event-form').elements.date.value=`${state.year}-${String(state.month).padStart(2,'0')}-01`;
   const scope=$('#studio-export-scope');scope.options[1].disabled=!monthly;if(!monthly)scope.value='current';
-  const count=exportPages(state,scope.value).length;$('#studio-export-summary').textContent=`${$('#studio-paper-size').textContent} · ${state.quality} dpi · PDF: ${count} ${count===1?'lapa':'lapas'}`;
+  const count=exportPages(state,scope.value).length;$('#studio-export-summary').textContent=`${$('#studio-paper-size').textContent} · ${state.quality} dpi`;
+  const pxWidth=Math.round(d.mmWidth/25.4*state.quality),pxHeight=Math.round(d.mmHeight/25.4*state.quality);$('#studio-export-resolution').textContent=`${pxWidth} × ${pxHeight} px`;
+  $('#studio-export-image-note').textContent=count>1?`JPG un PNG: ${count} lapas vienā ZIP arhīvā. SVG ietver pašreizējo lapu.`:'JPG un PNG saglabā pašreizējo kalendāra lapu. SVG ir mērogojams vektorfails.';
 }
 function render(){
   sync();$('#studio-paper').innerHTML=renderCalendar(state,{editing:true,selected,idPrefix:'studio-preview'});fit();
@@ -84,7 +86,7 @@ function addText(){if(state.layers.length>=16)return tell('Projektam vari pievie
 async function photoData(file,transparent=false){
   if(!file||!['image/jpeg','image/png','image/webp'].includes(file.type))throw Error('Izvēlies JPG, PNG vai WebP attēlu.');
   if(file.size>20*1024*1024)throw Error('Attēls ir par lielu. Atļauti faili līdz 20 MB.');
-  const url=URL.createObjectURL(file),img=new Image();try{await new Promise((resolve,reject)=>{img.onload=resolve;img.onerror=()=>reject(Error('Attēlu nevar nolasīt.'));img.src=url;});if(img.naturalWidth<32||img.naturalHeight<32||img.naturalWidth>20000||img.naturalHeight>20000)throw Error('Izvēlies attēlu ar malu izmēru no 32 līdz 20 000 pikseļiem.');const max=transparent?1600:2800,ratio=img.naturalWidth/img.naturalHeight,factor=Math.min(1,max/Math.max(img.naturalWidth,img.naturalHeight)),canvas=document.createElement('canvas');canvas.width=Math.round(img.naturalWidth*factor);canvas.height=Math.round(img.naturalHeight*factor);const ctx=canvas.getContext('2d');if(!transparent){ctx.fillStyle='#fff';ctx.fillRect(0,0,canvas.width,canvas.height);}ctx.drawImage(img,0,0,canvas.width,canvas.height);const src=canvas.toDataURL(transparent?'image/webp':'image/jpeg',.92);canvas.width=canvas.height=1;if(src.length>8000000)throw Error('Attēlu nevar pietiekami samazināt. Izvēlies mazāku failu.');return {src,ratio,width:img.naturalWidth};}finally{URL.revokeObjectURL(url);}
+  const url=URL.createObjectURL(file),img=new Image();try{await new Promise((resolve,reject)=>{img.onload=resolve;img.onerror=()=>reject(Error('Attēlu nevar nolasīt.'));img.src=url;});if(img.naturalWidth<32||img.naturalHeight<32||img.naturalWidth>20000||img.naturalHeight>20000)throw Error('Izvēlies attēlu ar malu izmēru no 32 līdz 20 000 pikseļiem.');const max=transparent?4096:8192,ratio=img.naturalWidth/img.naturalHeight,factor=Math.min(1,max/Math.max(img.naturalWidth,img.naturalHeight)),canvas=document.createElement('canvas');canvas.width=Math.round(img.naturalWidth*factor);canvas.height=Math.round(img.naturalHeight*factor);const ctx=canvas.getContext('2d');if(!transparent){ctx.fillStyle='#fff';ctx.fillRect(0,0,canvas.width,canvas.height);}ctx.drawImage(img,0,0,canvas.width,canvas.height);const src=canvas.toDataURL(transparent?'image/png':'image/jpeg',.97);canvas.width=canvas.height=1;if(src.length>8000000)throw Error('Attēls pārsniedz projekta 8 MB glabāšanas robežu. Izvēlies mazāku oriģinālu.');return {src,ratio,width:img.naturalWidth};}finally{URL.revokeObjectURL(url);}
 }
 async function addPhoto(file,layer=false,credit=''){try{tell('Sagatavojam tavu attēlu…');if(layer&&state.layers.length>=16)throw Error('Vienā projektā atļauti līdz 16 atsevišķiem elementiem.');const im=await photoData(file,layer);change(()=>{if(layer){const d=dimensions(state),item={id:uid(),type:'image',text:'',src:im.src,x:70,y:8,width:20,height:Math.min(70,20/im.ratio*d.width/d.height),size:24,color:state.colors.ink,font:state.font,align:'start',rotation:0,opacity:100};state.layers.push(item);selected=item.id;switchTab('layers');}else{state.photo=im.src;state.photoCredit=credit;state.photoRatio=im.ratio;}});tell(im.width<1200?'Attēls pievienots. Asai izdrukai ieteicams oriģināls vismaz 1200 pikseļu platumā.':'Attēls pievienots un paliek tavā ierīcē.');}catch(error){tell(error.message,true);}}
 $$('[data-studio-sample]').forEach(button=>button.addEventListener('click',async()=>{button.disabled=true;try{const response=await fetch(button.dataset.studioSample);if(!response.ok)throw Error('Fotogrāfiju nevar ielādēt.');const blob=await response.blob();await addPhoto(new File([blob],button.dataset.sampleName+'.webp',{type:blob.type||'image/webp'}),false,STUDIO_PHOTOS[button.dataset.studioSample]?.credit||'');}catch(error){tell(error.message,true);}finally{button.disabled=false;}}));
@@ -116,13 +118,12 @@ $('#studio-save-project').onclick=()=>{download(new Blob([JSON.stringify(state,n
 $('#studio-open-project').onchange=async e=>{const file=e.target.files[0];e.target.value='';if(!file)return;try{if(file.size>150*1024*1024)throw Error('Projekts ir par lielu. Atļauti faili līdz 150 MB.');const next=normalize(JSON.parse(await file.text()));change(()=>{state=next;selected=null;});$('.studio-menu').open=false;resetEventForm();tell('Projekts ir atvērts. Vari turpināt rediģēt.');}catch(error){tell(error instanceof SyntaxError?'JSON fails nav derīgs.':error.message,true);}};
 $('#studio-reset').onclick=()=>{if(!confirm('Sākt jaunu kalendāru? Vispirms saglabā pašreizējo projektu, ja vēlies to paturēt.'))return;change(()=>{state=initialState();selected=null;});resetEventForm();switchTab('design');$('.studio-menu').open=false;tell('Jauna lapa tavām idejām.');};
 $('#studio-clear-draft').onclick=async()=>{if(!confirm('Dzēst šajā pārlūkā saglabāto melnrakstu? Pašreizējais kalendārs paliks atvērts. Nākamā izmaiņa atkal ieslēgs automātisko saglabāšanu.'))return;clearTimeout(saveTimer);try{await stored('readwrite',s=>s.delete('draft'));$('#studio-save-state').textContent='Saglabātais melnraksts ir dzēsts';tell('Melnraksts šajā ierīcē ir dzēsts. Atvērto projektu joprojām vari lejupielādēt.');}catch{tell('Melnrakstu nevarēja dzēst.',true);}$('.studio-menu').open=false;};
-$('#studio-download').onclick=()=>{sync();$('#studio-export').showModal();};$('#studio-export-close').onclick=()=>{if(!busy)$('#studio-export').close();};$('#studio-export').addEventListener('cancel',e=>{if(busy)e.preventDefault();});$('#studio-export-scope').onchange=sync;
-function physicalSVG(svg,s){const d=dimensions(s);return svg.replace(/width="1000" height="[^"]+"/,`width="${d.mmWidth}mm" height="${d.mmHeight}mm"`);}
-async function rasterize(svg,s,format='image/jpeg'){
-  const d=dimensions(s),canvas=document.createElement('canvas'),url=URL.createObjectURL(new Blob([svg],{type:'image/svg+xml'})),img=new Image();canvas.width=Math.round(d.mmWidth/25.4*s.quality);canvas.height=Math.round(d.mmHeight/25.4*s.quality);
-  try{await new Promise((resolve,reject)=>{const timer=setTimeout(()=>reject(Error('Lejupielādes priekšskatījumu nevar sagatavot. Mēģini vēlreiz.')),20000);img.onload=()=>{clearTimeout(timer);resolve();};img.onerror=()=>{clearTimeout(timer);reject(Error('Attēla eksportu nevar sagatavot.'));};img.src=url;});const ctx=canvas.getContext('2d');ctx.fillStyle=s.colors.paper;ctx.fillRect(0,0,canvas.width,canvas.height);ctx.drawImage(img,0,0,canvas.width,canvas.height);const blob=await new Promise(resolve=>canvas.toBlob(resolve,format,.96));if(!blob)throw Error('Pārlūkam nepietiek atmiņas. Mēģini zemāku izšķirtspēju.');return {blob,width:canvas.width,height:canvas.height};}finally{URL.revokeObjectURL(url);canvas.width=canvas.height=1;}
-}
-async function pngDPI(blob,dpi){const bytes=new Uint8Array(await blob.arrayBuffer()),ppm=Math.round(dpi/0.0254),data=new Uint8Array(21),view=new DataView(data.buffer);view.setUint32(0,9);data.set([112,72,89,115],4);view.setUint32(8,ppm);view.setUint32(12,ppm);data[16]=1;let crc=0xffffffff;for(const b of data.slice(4,17)){crc^=b;for(let i=0;i<8;i++)crc=(crc>>>1)^((crc&1)?0xedb88320:0);}view.setUint32(17,(crc^0xffffffff)>>>0);const chunks=[bytes.slice(0,8)];let at=8,added=false;while(at<bytes.length){const n=new DataView(bytes.buffer,bytes.byteOffset+at,4).getUint32(0),type=String.fromCharCode(...bytes.slice(at+4,at+8));if(type!=='pHYs')chunks.push(bytes.slice(at,at+n+12));if(type==='IHDR'&&!added){chunks.push(data);added=true;}at+=n+12;}return new Blob(chunks,{type:'image/png'});}
+$('#studio-download').onclick=()=>{sync();$('#studio-export').showModal();};
+$('#studio-export-close').onclick=()=>{exportController?.abort();$('#studio-export').close();};
+$('#studio-export').addEventListener('cancel',()=>exportController?.abort());
+$('#studio-export-cancel').onclick=()=>exportController?.abort();
+$('#studio-export-scope').onchange=sync;
+function loadExporter(){return exportModule??=import(new URL('./export-pipeline.mjs'+new URL(import.meta.url).search,import.meta.url)).catch(error=>{exportModule=null;throw error;});}
 function preparePrint(s,pages){
   let documentRoot=document.getElementById('studio-print-document');
   if(!documentRoot){documentRoot=document.createElement('div');documentRoot.id='studio-print-document';documentRoot.setAttribute('aria-hidden','true');document.body.append(documentRoot);}
@@ -132,13 +133,22 @@ function preparePrint(s,pages){
 }
 window.addEventListener('beforeprint',()=>preparePrint(clone(state),exportPages(state,$('#studio-export-scope').value)));
 async function printPages(s,pages){preparePrint(s,pages);await document.fonts.ready;await new Promise(resolve=>requestAnimationFrame(()=>requestAnimationFrame(resolve)));window.print();}
-async function exportFile(format){if(busy)return;const s=clone(state),scope=$('#studio-export-scope').value,name=`${(s.title||'kalendars').normalize('NFKD').replace(/[\u0300-\u036f]/g,'').replace(/[^a-z0-9]+/gi,'-').replace(/^-|-$/g,'').slice(0,50)||'kalendars'}-${s.year}${s.view==='month'&&(scope!=='all'||format==='png'||format==='svg')?'-'+String(s.month).padStart(2,'0'):''}`;
-  busy=true;$$('[data-export]').forEach(b=>b.disabled=true);$('#studio-export-close').disabled=true;const progress=$('#studio-export-progress');progress.hidden=false;const meter=$('progress',progress),label=$('p',progress);meter.value=5;label.textContent='Sagatavojam tavu kalendāru…';
-  try{if(format==='svg'){download(new Blob([physicalSVG(renderCalendar(s),s)],{type:'image/svg+xml;charset=utf-8'}),name+'.svg');}
-    else if(format==='png'){await new Promise(resolve=>requestAnimationFrame(resolve));const {blob}=await rasterize(renderCalendar(s),s,'image/png');download(await pngDPI(blob,s.quality),name+'.png');}
-    else{const pages=exportPages(s,scope);if(format==='print')await printPages(s,pages);else{const images=[];for(let i=0;i<pages.length;i++){label.textContent=`Sagatavojam lapu ${i+1} no ${pages.length} …`;meter.value=10+(i/pages.length)*80;await new Promise(resolve=>setTimeout(resolve,10));const page=await rasterize(pages[i],s);images.push({width:page.width,height:page.height,bytes:new Uint8Array(await page.blob.arrayBuffer())});}const d=dimensions(s);download(new Blob([createPDF(images,d.mmWidth,d.mmHeight)],{type:'application/pdf'}),name+'.pdf');}}
-    meter.value=100;label.textContent=format==='print'?'Drukas logs ir atvērts.':'Fails ir sagatavots un lejupielādēts.';tell(format==='print'?'Drukājot izvēlies 100 % mērogu un atbilstošo papīru.':'Kalendārs lejupielādēts. Projektu vari saglabāt, lai turpinātu vēlāk.');
-  }catch(error){label.textContent=error.message;tell(error.message,true);}finally{busy=false;$$('[data-export]').forEach(b=>b.disabled=false);$('#studio-export-close').disabled=false;}
+async function exportFile(format){
+ if(busy)return;
+ const s=normalize(clone(state)),scope=$('#studio-export-scope').value,dialog=$('#studio-export');
+ busy=true;exportController=new AbortController();dialog.setAttribute('aria-busy','true');
+ $$('[data-export],#studio-export-scope,#studio-export [data-setting]').forEach(button=>button.disabled=true);
+ const progress=$('#studio-export-progress');progress.hidden=false;const meter=$('progress',progress),label=$('p',progress),cancel=$('#studio-export-cancel');cancel.hidden=false;meter.value=2;label.textContent='Sagatavojam tavu kalendāru…';
+ try{
+  if(format==='print'){await printPages(s,exportPages(s,scope));meter.value=100;label.textContent='Drukas logs ir atvērts.';tell('Drukājot izvēlies 100 % mērogu un atbilstošo papīru.');}
+  else{
+   const exporter=await loadExporter();
+   const result=await exporter.makeExport(s,format,{scope,signal:exportController.signal,onProgress:({percent,message})=>{meter.value=percent;label.textContent=message;}});
+   if(exportController.signal.aborted)throw new DOMException('Darbība atcelta.','AbortError');
+   download(result.blob,result.name);meter.value=100;label.textContent='Lejupielāde sagatavota: '+result.name;tell('Kalendārs ir sagatavots lejupielādei. Saglabā arī projektu, lai turpinātu vēlāk.');
+  }
+ }catch(error){const message=error.name==='AbortError'?'Sagatavošana atcelta. Tavs projekts nav mainīts.':error.message||'Failu nevar sagatavot. Mēģini vēlreiz.';label.textContent=message;tell(message,error.name!=='AbortError');}
+ finally{busy=false;exportController=null;dialog.removeAttribute('aria-busy');$$('[data-export],#studio-export-scope,#studio-export [data-setting]').forEach(button=>button.disabled=false);cancel.hidden=true;sync();}
 }
 $$('[data-export]').forEach(button=>button.onclick=()=>exportFile(button.dataset.export));
 initialize();

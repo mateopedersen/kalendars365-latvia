@@ -9,3 +9,17 @@
 /* Dates remain legible and tappable, including days outside the current month. */
 .mini-calendar tbody a,.static-calendar tbody a{display:block;min-height:28px;line-height:28px}.mini-calendar tbody th,.mini-calendar tbody td{padding:3px 0}
 @media(max-width:600px){.year-calendar-grid{grid-template-columns:1fr}.mini-calendar{padding:12px}.mini-calendar tbody a{min-height:32px;line-height:32px}.mini-calendar tbody th,.mini-calendar tbody td{padding:1px 0}}
+.holiday-topic-table td:first-child,.holiday-topic-table td:nth-child(2){padding:0}
+.holiday-topic-table .holiday-topic-link{display:flex;align-items:center;gap:8px;min-height:44px;max-width:100%;padding:12px;color:var(--brand);font-weight:650;text-decoration:underline;text-decoration-color:#c89eab;text-underline-offset:4px;text-decoration-thickness:1px}
+.holiday-topic-table .holiday-topic-link>span{min-width:0;overflow-wrap:break-word}
+.holiday-topic-table .holiday-topic-link>.icon{width:15px;height:15px;flex:none;opacity:.75}
+.holiday-topic-table .holiday-date-link{display:flex;align-items:center;min-height:44px;padding:12px;color:#61515d;text-decoration:underline;text-decoration-color:#d3c1c6;text-underline-offset:4px}
+.holiday-topic-table :is(.holiday-topic-link,.holiday-date-link):hover{color:var(--brand-dark);text-decoration-color:currentColor}
+.holiday-topic-table a:focus-visible{outline:2px solid var(--brand);outline-offset:4px;border-radius:3px}
+@media(max-width:600px){.holiday-topic-table :is(.holiday-topic-link,.holiday-date-link){padding:10px 6px}}
+
+.source-evidence-list{padding-left:22px;margin:20px 0 0}
+.source-evidence-list li{padding:0 0 16px;overflow-wrap:anywhere}
+.source-evidence-list li+li{padding-top:16px;border-top:1px solid var(--line)}
+.source-evidence-list li>p{margin:6px 0 0;line-height:1.65}
+.source-evidence-list li>a{font-weight:700}

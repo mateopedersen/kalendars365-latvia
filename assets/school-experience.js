@@ -8,6 +8,8 @@ const root=document.querySelector('[data-school-experience]');
 if(root){
   const data=JSON.parse($(root,'[data-school-data]').textContent),school=data.school;
   const year=$(root,'[data-school-year]'),grade=$(root,'[data-school-class]'),month=$(root,'[data-school-month]'),grid=$(root,'[data-school-month-grid]'),detail=$(root,'[data-school-day-detail]'),feedback=$(root,'[data-school-feedback]'),onlySaved=$(root,'[data-school-saved-only]');
+  const incoming=new URL(location.href),setOption=(select,value)=>{if([...select.options].some(option=>option.value===value))select.value=value;};
+  setOption(year,incoming.searchParams.get('macibu-gads'));setOption(grade,incoming.searchParams.get('klase'));
   const storageKey='k365-school-breaks-saved-v1',allowed=new Set(school.breaks.map(item=>item.id));let saved=new Set();
   try{const value=JSON.parse(localStorage.getItem(storageKey)||'[]');if(Array.isArray(value))saved=new Set(value.filter(id=>allowed.has(id)));}catch{}
   let selected=D.todayRiga();if(selected<school.start||selected>school.end)selected=school.start;
@@ -71,10 +73,20 @@ if(root){
     }
   });
   $(root,'[data-school-counter]').addEventListener('submit',event=>{event.preventDefault();counter()});render();
+  const breakMatch=/^#brivlaiks-(autumn|winter|spring|summer)$/.exec(incoming.hash);
+  if(breakMatch){const target=$$(root,'[data-school-break]').find(card=>card.dataset.schoolBreak===breakMatch[1]);if(target&&!target.hidden){onlySaved.checked=false;render();requestAnimationFrame(()=>target.scrollIntoView({block:'center'}));}}
+
 }
 
 document.querySelectorAll('[data-university-explorer]').forEach(explorer=>{
   const data=JSON.parse($(explorer,'[data-university-data]').textContent),choice=$(explorer,'[data-uni-choice]'),search=$(explorer,'[data-uni-search-input]'),kind=$(explorer,'[data-uni-kind]'),verified=$(explorer,'[data-uni-verified-only]'),cards=$$(explorer,'[data-university]');
+  const incoming=new URL(location.href),institution=incoming.searchParams.get('augstskola'),calendar=incoming.searchParams.get('grafiks');
+  const incomingCard=cards.find(card=>card.dataset.university===institution),knownCalendar=data.calendars.find(item=>item.id===calendar);
+  if(incomingCard&&[...choice.options].some(option=>option.value===institution)){
+    choice.value=institution;
+    const picker=$(incomingCard,'[data-uni-variant-picker]');
+    if(picker&&knownCalendar&&[...picker.options].some(option=>option.value===calendar))picker.value=calendar;
+  }
   const render=()=>{
     const query=C.normalize(search.value.trim());let count=0;
     cards.forEach(card=>{
@@ -100,5 +112,6 @@ document.querySelectorAll('[data-university-explorer]').forEach(explorer=>{
     download(events,`${calendar.institution} · 2026/27`,`kalendars365-${calendar.id}-2026-2027.ics`);
     $(explorer,'[data-uni-result]').textContent=`Sagatavots ${calendar.institution} kalendārs: ${events.length} periodi.`;
   });render();
+  if(incomingCard&&incoming.hash==='#study-'+institution&&!incomingCard.hidden)requestAnimationFrame(()=>incomingCard.scrollIntoView({block:'start'}));
 });
 })();

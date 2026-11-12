@@ -48,7 +48,7 @@ def category_v2_scene(slug,cfg)
   v2_photo('flowers','v2-scene-photo')+'<div class="v2-name-letter"><span class="v2-paper-kicker">VĀRDA DIENAS LATVIJĀ</span><strong>Atceries<br>savējos.</strong><a href="#category-workspace">Atrast vārdu <span>↗</span></a></div>'
  when 'meness-kalendars'
   photo = lunar_cover(2027)
-  %(<figure class="v2-lunar-photograph"><img src="#{h(photo.fetch('src'))}?v={{ site.data.build.asset_version }}" alt="#{h(photo.fetch('alt'))}" width="#{photo.fetch('width')}" height="#{photo.fetch('height')}" fetchpriority="high" decoding="async"><figcaption>#{h(photo.fetch('credit'))} · 19.12.1972. <span>#{a(photo.fetch('source'),'Foto avots')} · #{a('/pilsetas-un-fotografijas/#astronomijas-fotografijas','Izmantošanas noteikumi')}</span></figcaption></figure>)
+  %(<figure class="v2-lunar-photograph"><img src="#{h(photo.fetch('src'))}?v={{ site.data.build.asset_version }}" alt="#{h(photo.fetch('alt'))}" width="#{photo.fetch('width')}" height="#{photo.fetch('height')}" fetchpriority="high" decoding="async"><figcaption>#{h(photo.fetch('credit'))} · 19.12.1972. </figcaption></figure>)
  when 'meness-fazes'
   '<div class="v2-phase-arc">'+%w[new first full last].each_with_index.map{|phase,i|%(<div><img src="/assets/category-vector/phase-#{phase}.svg" alt="" width="160" height="160"><small>#{['Jaunmēness','Pirmais ceturksnis','Pilnmēness','Pēdējais ceturksnis'][i]}</small></div>)}.join+'</div><span class="v2-mission-label">Mēness cikls · ilustratīvs zīmējums</span>'
  when 'astronomiskais-kalendars'
@@ -56,7 +56,7 @@ def category_v2_scene(slug,cfg)
  when 'gadalaiki'
   names=%w[Pavasaris Vasara Rudens Ziema]
   cases=%w[pavasara vasaras rudens ziemas]
-  '<div class="season-hero-gallery">'+%w[spring summer autumn winter].each_with_index.map{|season,i|%(<a class="season-hero-tile season-hero-tile--#{season}" href="#season-#{season}" aria-label="Apskatīt #{cases[i]} sākumu"><img src="/assets/season-scenes/#{season}.svg?v={{ site.data.build.asset_version }}" alt="" width="600" height="500" decoding="async"><span>#{names[i]}<b aria-hidden="true">↗</b></span></a>)}.join+'</div>'
+  '<div class="season-hero-gallery">'+%w[spring summer autumn winter].each_with_index.map{|season,i|%(<a class="season-hero-tile season-hero-tile--#{season}" href="#season-#{season}"><img src="/assets/season-scenes/#{season}.svg?v={{ site.data.build.asset_version }}" alt="" width="600" height="500" decoding="async"><span>#{names[i]}<b aria-hidden="true">↗</b></span></a>)}.join+'</div>'
  when 'saullekts-saulriets'
   v2_photo('summer','v2-scene-photo')+'<div class="v2-solar-arc" aria-hidden="true"><svg viewBox="0 0 500 260"><defs><linearGradient id="v2-sun-g"><stop stop-color="#ffe9ae"/><stop offset="1" stop-color="#d69b4f"/></linearGradient></defs><path d="M40 210Q250 -130 460 210" fill="none" stroke="#fff4d7" stroke-width="2" stroke-dasharray="4 7"/><path d="M35 211H465" stroke="#fff4d7" stroke-width="1"/><circle cx="250" cy="40" r="20" fill="url(#v2-sun-g)"/></svg></div><span class="v2-mission-label">Saules ceļš · ilustratīvs zīmējums</span>'
  when 'skolas-brivlaiki'
@@ -65,7 +65,7 @@ def category_v2_scene(slug,cfg)
   tools_directory_scene
  when 'svetki-un-tradicijas'
   photo=tradition_cover(OCCASIONS.find{|item|item['slug']=='ligo-diena'}.fetch('photo'))
-  %(<figure class="v2-tradition-hero-photo"><img src="#{h(photo.fetch('src'))}" srcset="#{h(photo.fetch('srcset'))}" sizes="(max-width: 900px) 90vw, 46vw" width="#{photo.fetch('width')}" height="#{photo.fetch('height')}" alt="#{h(photo.fetch('alt'))}" decoding="async" fetchpriority="high"><figcaption><strong>No Jāņiem līdz Ziemassvētkiem.</strong>#{h(photo.fetch('caption'))} · #{a('/pilsetas-un-fotografijas/#occasion-photo-'+photo.fetch('id'),'Foto avots un licence')}</figcaption></figure>)
+  %(<figure class="v2-tradition-hero-photo"><img src="#{h(photo.fetch('src'))}" srcset="#{h(photo.fetch('srcset'))}" sizes="(max-width: 900px) 90vw, 46vw" width="#{photo.fetch('width')}" height="#{photo.fetch('height')}" alt="#{h(photo.fetch('alt'))}" decoding="async" fetchpriority="high"><figcaption><strong>No Jāņiem līdz Ziemassvētkiem.</strong>#{h(photo.fetch('caption'))}</figcaption></figure>)
  else
   v2_photo(cfg[:photo],'v2-scene-photo')+'<div class="v2-story-tag"><span>LAIKS SEV</span><strong>Vairāk brīvu dienu.</strong></div>'
  end
@@ -102,7 +102,7 @@ def category_v2_finish(slug,body)
    body=body.sub('A4 · 600 ppi','PDF · Attēls · A4')
    if File.file?('downloads/nedelas/manifest.json')
     tiles=JSON.parse(File.read('downloads/nedelas/manifest.json')).fetch('items').map do |item|
-     %(<button class="v2-design-tile" type="button" data-v2-design="#{item['design']}" aria-label="Priekšskatīt: #{h(item['title'])}"><span aria-hidden="true"><img src="#{item['preview']}" width="900" height="636" loading="lazy" decoding="async" alt=""></span><strong>#{format('%02d',item['design'])} · #{h(item['title'])}</strong><small>#{h(item['description'])}</small><span class="v2-tile-action">Atvērt priekšskatījumu <b aria-hidden="true">↗</b></span></button>)
+     %(<button class="v2-design-tile" type="button" data-v2-design="#{item['design']}"><span aria-hidden="true"><img src="#{item['preview']}" width="900" height="636" loading="lazy" decoding="async" alt=""></span><strong>#{format('%02d',item['design'])} · #{h(item['title'])}</strong><small>#{h(item['description'])}</small><span class="v2-tile-action">Atvērt priekšskatījumu <b aria-hidden="true">↗</b></span></button>)
     end.join
     body=body.sub('<div class="v2-design-grid" data-v2-design-grid></div>',%(<div class="v2-design-grid" data-v2-design-grid>#{tiles}</div>))
    end
@@ -114,7 +114,7 @@ def category_v2_finish(slug,body)
    body=body.sub('A4 · 600 ppi','PDF · Attēls · A4')
    if File.file?('downloads/gimenes/manifest.json')
     tiles=JSON.parse(File.read('downloads/gimenes/manifest.json')).fetch('items').map do |item|
-     %(<button class="v2-design-tile" type="button" data-v2-design="#{item['design']}" aria-label="Priekšskatīt: #{h(item['title'])}"><span aria-hidden="true"><img src="#{item['preview']}" width="900" height="636" loading="lazy" decoding="async" alt=""></span><strong>#{format('%02d',item['design'])} · #{h(item['title'])}</strong><small>#{h(item['description'])}</small><span class="v2-tile-action">Atvērt priekšskatījumu <b aria-hidden="true">↗</b></span></button>)
+     %(<button class="v2-design-tile" type="button" data-v2-design="#{item['design']}"><span aria-hidden="true"><img src="#{item['preview']}" width="900" height="636" loading="lazy" decoding="async" alt=""></span><strong>#{format('%02d',item['design'])} · #{h(item['title'])}</strong><small>#{h(item['description'])}</small><span class="v2-tile-action">Atvērt priekšskatījumu <b aria-hidden="true">↗</b></span></button>)
     end.join
     body=body.sub('<div class="v2-design-grid" data-v2-design-grid></div>',%(<div class="v2-design-grid" data-v2-design-grid>#{tiles}</div>))
    end
@@ -126,7 +126,7 @@ def category_v2_finish(slug,body)
    body=body.sub('A4 · 600 ppi','PDF · Attēls · A4')
    if File.file?('downloads/stundas/manifest.json')
     tiles=JSON.parse(File.read('downloads/stundas/manifest.json')).fetch('items').map do |item|
-     %(<button class="v2-design-tile" type="button" data-v2-design="#{item['design']}" aria-label="Priekšskatīt: #{h(item['title'])}"><span aria-hidden="true"><img src="#{item['preview']}" width="900" height="636" loading="lazy" decoding="async" alt=""></span><strong>#{format('%02d',item['design'])} · #{h(item['title'])}</strong><small>#{h(item['description'])}</small><span class="v2-tile-action">Atvērt priekšskatījumu <b aria-hidden="true">↗</b></span></button>)
+     %(<button class="v2-design-tile" type="button" data-v2-design="#{item['design']}"><span aria-hidden="true"><img src="#{item['preview']}" width="900" height="636" loading="lazy" decoding="async" alt=""></span><strong>#{format('%02d',item['design'])} · #{h(item['title'])}</strong><small>#{h(item['description'])}</small><span class="v2-tile-action">Atvērt priekšskatījumu <b aria-hidden="true">↗</b></span></button>)
     end.join
     body=body.sub('<div class="v2-design-grid" data-v2-design-grid></div>',%(<div class="v2-design-grid" data-v2-design-grid>#{tiles}</div>))
    end
@@ -138,7 +138,7 @@ def category_v2_finish(slug,body)
    body=body.sub('A4 · 600 ppi','PDF · Attēls · A4')
    if File.file?('downloads/mainas/manifest.json')
     tiles=JSON.parse(File.read('downloads/mainas/manifest.json')).fetch('items').map do |item|
-     %(<button class="v2-design-tile" type="button" data-v2-design="#{item['design']}" aria-label="Priekšskatīt: #{h(item['title'])}"><span aria-hidden="true"><img src="#{item['preview']}" width="900" height="636" loading="lazy" decoding="async" alt=""></span><strong>#{format('%02d',item['design'])} · #{h(item['title'])}</strong><small>#{h(item['description'])}</small><span class="v2-tile-action">Atvērt priekšskatījumu <b aria-hidden="true">↗</b></span></button>)
+     %(<button class="v2-design-tile" type="button" data-v2-design="#{item['design']}"><span aria-hidden="true"><img src="#{item['preview']}" width="900" height="636" loading="lazy" decoding="async" alt=""></span><strong>#{format('%02d',item['design'])} · #{h(item['title'])}</strong><small>#{h(item['description'])}</small><span class="v2-tile-action">Atvērt priekšskatījumu <b aria-hidden="true">↗</b></span></button>)
     end.join
     body=body.sub('<div class="v2-design-grid" data-v2-design-grid></div>',%(<div class="v2-design-grid" data-v2-design-grid>#{tiles}</div>))
    end
@@ -147,8 +147,7 @@ def category_v2_finish(slug,body)
  end
  body+=guide if guide
  faq=CATEGORY_V2.fetch(slug).fetch(:faq)
- credit_anchor=slug=='visi-riki' ? 'tools-directory-art' : 'category-vectors'
  faq_heading=slug=='visi-riki' ? 'Kā izmantot rīku ceļvedi' : 'Atbildes pirms nākamā plāna.'
  faq_description=slug=='visi-riki' ? 'Īsas atbildes par aprēķiniem, grāmatzīmēm un personīgajiem plāniem.' : 'Latvijas datumi, skaidri pieņēmumi un tavas izvēles.'
- body+%(<section class="v2-answers" id="v2-answers"><div><span class="eyebrow">NODER ZINĀT</span><h2>#{h(faq_heading)}</h2><p>#{h(faq_description)}</p><a href="/avoti-un-metodika/">Avoti un aprēķinu metodika ↗</a></div><div>#{faq.map{|q,answer|"<details><summary>#{h(q)}<span aria-hidden=\"true\">+</span></summary><p>#{h(answer)}</p></details>"}.join}</div></section><p class="v2-photo-source"><a href="/pilsetas-un-fotografijas/##{credit_anchor}">Ilustrāciju autortiesības un fotogrāfiju avoti ↗</a></p>)
+ body+%(<section class="v2-answers" id="v2-answers"><div><span class="eyebrow">NODER ZINĀT</span><h2>#{h(faq_heading)}</h2><p>#{h(faq_description)}</p></div><div>#{faq.map{|q,answer|"<details><summary>#{h(q)}<span aria-hidden=\"true\">+</span></summary><p>#{h(answer)}</p></details>"}.join}</div></section>)
 end

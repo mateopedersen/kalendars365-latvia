@@ -85,6 +85,7 @@ jobs:
       - run: node --test test/responsive-previews.test.cjs test/seo-performance.test.cjs test/style-bundles.test.cjs test/mobile-performance.test.cjs test/critical-css.test.mjs
       - run: node --test test/page-reading.test.mjs
       - run: node --test test/blog.test.mjs
+      - run: node --test test/sitemaps.test.mjs
       - run: node --test test/astronomy-event-art.test.mjs
       - run: node --test test/tools-directory.test.mjs
       - run: node --test test/weekly-planner.test.mjs

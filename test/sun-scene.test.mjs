@@ -62,3 +62,21 @@ test('Atmosphere changes continuously through dawn/noon/night without permanent 
   assert.equal(atmosphere(-20).label, 'Nakts');
   for (let h = -90; h <= 90; h++) for (const key of ['sky','horizon','land','building','water','green','sun']) assert.match(atmosphere(h)[key], /^#[0-9a-f]{6}$/);
 });
+
+test('fitted player leaves room for every control on portrait and short landscape screens',async()=>{
+ const {fitSunViewport}=await import('../assets/sun-player-core.mjs');
+ for(const viewportHeight of [320,390,568,667,844,900])for(const chromeHeight of [160,205,255]){
+  const stage=fitSunViewport({viewportHeight,chromeHeight});
+  assert(stage>0);assert(stage<=540);assert(stage+chromeHeight+24<=viewportHeight+.01,`${viewportHeight}/${chromeHeight}`);
+ }
+ assert.throws(()=>fitSunViewport({viewportHeight:NaN,chromeHeight:200}));
+});
+test('day playback stops at the real final minute and never jumps after a stalled frame',async()=>{
+ const {advanceSunPlayback}=await import('../assets/sun-player-core.mjs');
+ for(const end of [1379,1439,1499]){
+  assert.deepEqual(advanceSunPlayback(end-1,100,30,end),{minute:end,ended:true});
+  assert.equal(advanceSunPlayback(60,100,30,end).minute,63);
+  assert(advanceSunPlayback(60,60000,30,end).minute<70);
+ }
+ assert.throws(()=>advanceSunPlayback(0,16,0,1439));
+});

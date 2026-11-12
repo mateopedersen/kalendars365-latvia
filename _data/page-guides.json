@@ -7,15 +7,13 @@
   },
   "pages": {
     "/": {
-      "heading": "Vairāk laika tam, kas tev svarīgs",
+      "heading": "Tava diena vienā pārskatā",
       "paragraphs": [
-        "Atrodi svarīgākos datumus un ieplāno laiku sev. Pārskati Latvijas svētku dienas, brīvdienas un vārda dienas, salīdzini mēnešus un pievieno savus notikumus.",
-        "Plāno darbu, mācības un atpūtu vienuviet. Izvēlies 2027.–2030. gada kalendāru drukāšanai vai izveido savu — ar fotogrāfijām, sev tīkamām krāsām un īpašiem datumiem. PDF ir piemērots drukāšanai, bet attēlu vari ērti saglabāt vai nosūtīt citiem."
+        "Noklikšķini uz datuma kalendārā, lai atvērtu izvēlēto dienu. Pievieno notikumu, pieraksti piezīmi vai atzīmē paveikto uzdevumu. Mēneša, nedēļas un dienas skatu vari mainīt, nezaudējot savus ierakstus.",
+        "Notikumu failu vari eksportēt ICS formātā, bet pilnu kalendāra dublējumu saglabāt atsevišķi. Pirms pārlūka datu dzēšanas vai ierīces maiņas lejupielādē dublējumu. Drukāšanas poga sagatavo tikai izvēlēto kalendāru."
       ],
       "icon": "calendar",
-      "sources": [
-
-      ],
+      "sources": [],
       "related": [
         {
           "url": "/kalendars/",
@@ -29,33 +27,12 @@
       "linkedParagraphs": [
         [
           {
-            "text": "Atrodi svarīgākos datumus un ieplāno laiku sev. Pārskati "
-          },
-          {
-            "text": "Latvijas svētku dienas",
-            "url": "/svetku-dienas/"
-          },
-          {
-            "text": ", brīvdienas un "
-          },
-          {
-            "text": "vārda dienas",
-            "url": "/varda-dienas/"
-          },
-          {
-            "text": ", salīdzini mēnešus un pievieno savus notikumus."
+            "text": "Noklikšķini uz datuma kalendārā, lai atvērtu izvēlēto dienu. Pievieno notikumu, pieraksti piezīmi vai atzīmē paveikto uzdevumu. Mēneša, nedēļas un dienas skatu vari mainīt, nezaudējot savus ierakstus."
           }
         ],
         [
           {
-            "text": "Plāno darbu, mācības un atpūtu vienuviet. Izvēlies 2027.–2030. gada kalendāru drukāšanai vai "
-          },
-          {
-            "text": "izveido savu",
-            "url": "/izveidot-kalendaru/"
-          },
-          {
-            "text": " — ar fotogrāfijām, sev tīkamām krāsām un īpašiem datumiem. PDF ir piemērots drukāšanai, bet attēlu vari ērti saglabāt vai nosūtīt citiem."
+            "text": "Notikumu failu vari eksportēt ICS formātā, bet pilnu kalendāra dublējumu saglabāt atsevišķi. Pirms pārlūka datu dzēšanas vai ierīces maiņas lejupielādē dublējumu. Drukāšanas poga sagatavo tikai izvēlēto kalendāru."
           }
         ]
       ]
@@ -940,9 +917,7 @@
         "Aprēķiniem nozīmīga ir arī metode: nedēļas sākums, dienu ieskaitīšana, laika josla un novērotāja koordinātas. Ja salīdzinājums ar citu kalendāru atšķiras, vispirms salīdzini šos pieņēmumus un avota redakciju. Kļūdas ziņojumā norādi tieši salīdzinātos datumus un izmantoto avotu, lai varētu atšķirt datu kļūdu no atšķirīga aprēķina modeļa."
       ],
       "icon": "about",
-      "sources": [
-
-      ],
+      "sources": [],
       "related": [
         {
           "url": "/kontakti/",
@@ -958,6 +933,37 @@
         [
           {
             "text": "Aprēķiniem nozīmīga ir arī metode: nedēļas sākums, dienu ieskaitīšana, laika josla un novērotāja koordinātas. Ja salīdzinājums ar citu kalendāru atšķiras, vispirms salīdzini šos pieņēmumus un avota redakciju. Kļūdas ziņojumā norādi tieši salīdzinātos datumus un izmantoto avotu, lai varētu atšķirt datu kļūdu no atšķirīga aprēķina modeļa."
+          }
+        ]
+      ]
+    },
+    "/biezak-uzdotie-jautajumi/": {
+      "heading": "Atbilde ar skaidru nākamo soli",
+      "paragraphs": [
+        "Jautājumu pārskats apvieno kalendāru lietošanu, drukāšanas izvēles, personīgo ierakstu glabāšanu un publisko datu avotus. Atbildē nosauktā rīka saite ved uz konkrētu darbību, nevis aizstāj attiecīgās iestādes paziņojumu. Ja meklēšana nedod rezultātu, izmēģini vienu precīzu vārdu vai atver tēmu bez atlases.",
+        "Palīdzības ziņai pievieno lapas adresi un darbību, kuru vēlējies pabeigt. Savu ierakstu kopiju vai pilnu kalendāra dublējumu sūtīt nav nepieciešams. Jautājums par nepareizu datumu ir pārbaudāms kopā ar avotu; piekļūstamības šķērsli palīdz saprast pārlūka un izmantotās palīgtehnoloģijas apraksts."
+      ],
+      "icon": "calendar",
+      "sources": [],
+      "related": [
+        {
+          "url": "/kalendars/",
+          "title": "Gada kalendāri"
+        },
+        {
+          "url": "/visi-riki/",
+          "title": "Visi plānošanas rīki"
+        }
+      ],
+      "linkedParagraphs": [
+        [
+          {
+            "text": "Jautājumu pārskats apvieno kalendāru lietošanu, drukāšanas izvēles, personīgo ierakstu glabāšanu un publisko datu avotus. Atbildē nosauktā rīka saite ved uz konkrētu darbību, nevis aizstāj attiecīgās iestādes paziņojumu. Ja meklēšana nedod rezultātu, izmēģini vienu precīzu vārdu vai atver tēmu bez atlases."
+          }
+        ],
+        [
+          {
+            "text": "Palīdzības ziņai pievieno lapas adresi un darbību, kuru vēlējies pabeigt. Savu ierakstu kopiju vai pilnu kalendāra dublējumu sūtīt nav nepieciešams. Jautājums par nepareizu datumu ir pārbaudāms kopā ar avotu; piekļūstamības šķērsli palīdz saprast pārlūka un izmantotās palīgtehnoloģijas apraksts."
           }
         ]
       ]
@@ -4575,9 +4581,7 @@
         "Dienu, nedēļu un kalendāra mēnešu aprēķini atbild uz atšķirīgiem jautājumiem. Viens kalendāra mēnesis nav vienmēr 30 dienas, un kalendāra dienu skaits automātiski neizslēdz svētkus. Ja vēlies saskaitīt tikai darba dienas vai atvaļinājumam nepieciešamās dienas, izmanto attiecīgo darba dienu vai atvaļinājuma rīku."
       ],
       "icon": "calendar",
-      "sources": [
-
-      ],
+      "sources": [],
       "related": [
         {
           "url": "/kalendars/",
@@ -4687,9 +4691,7 @@
         "Dienas piezīme noder īsam kontekstam, savukārt uzdevumu saraksts darbībām, kuras vēlies atzīmēt kā pabeigtas. Tādā veidā viens ieraksts neatkārtojas vairākās vietās un plānu ir vieglāk pārskatīt. Kalendāra dublējums saglabā personīgos ierakstus, bet ICS eksports ir paredzēts notikumu pārnešanai uz citu kalendāra lietotni."
       ],
       "icon": "calendar",
-      "sources": [
-
-      ],
+      "sources": [],
       "related": [
         {
           "url": "/kalendars/",
@@ -4731,9 +4733,7 @@
         "Pārskatot dienas beigas, nepabeigtajam darbam piešķir jaunu datumu vai precizē tā apjomu. Dienas piezīmē vari saglabāt lēmumu un iemeslu, kāpēc plāns mainījās. Šie ieraksti paliek konkrētajā pārlūkā, tādēļ kopīgai plānošanai vai ierīces maiņai vispirms sagatavo atbilstošu eksportu vai datu dublējumu."
       ],
       "icon": "planner",
-      "sources": [
-
-      ],
+      "sources": [],
       "related": [
         {
           "url": "/kalendars/",
@@ -4778,9 +4778,7 @@
         "Visas dienas notikumam pietiek ar datumu, bet pasākumam noteiktā stundā jāņem vērā arī laika josla. Atsevišķi izveidots ICS atgādinājums ļauj notikumu pievienot savai kalendāra lietotnei; paziņojumu laiku pēc importēšanas pārbaudi šīs lietotnes iestatījumos. Atvērta tīmekļa lapa pati par sevi neaizstāj ierīces kalendāra paziņojumu."
       ],
       "icon": "calendar",
-      "sources": [
-
-      ],
+      "sources": [],
       "related": [
         {
           "url": "/kalendars/",
@@ -4811,9 +4809,7 @@
         "29. februāra dzimšanas dienai pārbaudi atkārtošanas noteikumu: šāds datums nav katrā gadā. 2028. gada kalendārā tas ir pieejams, bet pārējos piedāvātajos gados aizstājēju nevajadzētu izvēlēties bez paša cilvēka vēlmes. Personiskam apsveikumu kalendāram izmanto tikai tādus vārdus un attēlus, kurus drīksti glabāt un kopīgot."
       ],
       "icon": "family",
-      "sources": [
-
-      ],
+      "sources": [],
       "related": [
         {
           "url": "/kalendars/",
@@ -5408,9 +5404,7 @@
         "Atstājiet arī neplānotu laiku. Nedēļas beigās izrunājiet, kurš plāns izdevās un ko vajadzētu pārcelt vai vienkāršot. Paveikta darba atzīme palīdz pārskatīt izdarīto; regulāru ierakstu turpiniet tikai tik ilgi, cik tas atbilst jūsu ikdienai. Ja mainās nodarbības laiks vai pienākumu sadalījums, labojiet sākotnējo ierakstu."
       ],
       "icon": "family",
-      "sources": [
-
-      ],
+      "sources": [],
       "related": [
         {
           "url": "/kalendars/",
@@ -5455,9 +5449,7 @@
         "Ascendenta nozīmi aplūko kopā ar zodiaka zīmju simboliku, nevis kā pierādītu personības vai nākotnes vērtējumu. Ja vietējais laiks nav viennozīmīgs pulksteņa pārejas dēļ, pārbaudi kalkulatora piedāvāto precizējumu. Rezultāts šeit kalpo izklaidei un pašrefleksijai; veselības, darba vai naudas lēmumiem tas nav profesionāls pamatojums."
       ],
       "icon": "zodiac",
-      "sources": [
-
-      ],
+      "sources": [],
       "related": [
         {
           "url": "/kalendars/",
@@ -5502,9 +5494,7 @@
         "Lasot dienas tēmu, izvēlies vienu īstenojamu domu, kuru vari pārbaudīt savā rīcībā: sarunas jautājumu, nelielu uzdevumu vai laiku atelpai. Saglabāta piezīme ļauj vēlāk salīdzināt savu pieredzi ar ieceri. Veselības, naudas vai citiem nozīmīgiem lēmumiem horoskopa tekstu neizmanto kā profesionālu pamatojumu."
       ],
       "icon": "zodiac",
-      "sources": [
-
-      ],
+      "sources": [],
       "related": [
         {
           "url": "/kalendars/",
@@ -5549,9 +5539,7 @@
         "Saglabājot piezīmi pie Auna lasījuma, ieraksti vienu darbību un datumu, kad vēlies to pārskatīt. Dienas tēma un pastāvīgais zīmes apraksts ir atšķirīgs saturs; vispirms nolasi rādīto izdevuma datumu. Šī pašrefleksijas izvēle neaizstāj veselības, finanšu vai juridisku jautājumu profesionālu izvērtējumu."
       ],
       "icon": "zodiac",
-      "sources": [
-
-      ],
+      "sources": [],
       "related": [
         {
           "url": "/zodiaka-zimes/",
@@ -5600,9 +5588,7 @@
         "Saglabājot piezīmi pie Dvīņu lasījuma, ieraksti vienu darbību un datumu, kad vēlies to pārskatīt. Dienas tēma un pastāvīgais zīmes apraksts ir atšķirīgs saturs; vispirms nolasi rādīto izdevuma datumu. Šī pašrefleksijas izvēle neaizstāj veselības, finanšu vai juridisku jautājumu profesionālu izvērtējumu."
       ],
       "icon": "zodiac",
-      "sources": [
-
-      ],
+      "sources": [],
       "related": [
         {
           "url": "/zodiaka-zimes/",
@@ -5651,9 +5637,7 @@
         "Saglabājot piezīmi pie Jaunavas lasījuma, ieraksti vienu darbību un datumu, kad vēlies to pārskatīt. Dienas tēma un pastāvīgais zīmes apraksts ir atšķirīgs saturs; vispirms nolasi rādīto izdevuma datumu. Šī pašrefleksijas izvēle neaizstāj veselības, finanšu vai juridisku jautājumu profesionālu izvērtējumu."
       ],
       "icon": "zodiac",
-      "sources": [
-
-      ],
+      "sources": [],
       "related": [
         {
           "url": "/zodiaka-zimes/",
@@ -5702,9 +5686,7 @@
         "Saglabājot piezīmi pie Lauvas lasījuma, ieraksti vienu darbību un datumu, kad vēlies to pārskatīt. Dienas tēma un pastāvīgais zīmes apraksts ir atšķirīgs saturs; vispirms nolasi rādīto izdevuma datumu. Šī pašrefleksijas izvēle neaizstāj veselības, finanšu vai juridisku jautājumu profesionālu izvērtējumu."
       ],
       "icon": "zodiac",
-      "sources": [
-
-      ],
+      "sources": [],
       "related": [
         {
           "url": "/zodiaka-zimes/",
@@ -5753,9 +5735,7 @@
         "Saglabājot piezīmi pie Mežāža lasījuma, ieraksti vienu darbību un datumu, kad vēlies to pārskatīt. Dienas tēma un pastāvīgais zīmes apraksts ir atšķirīgs saturs; vispirms nolasi rādīto izdevuma datumu. Šī pašrefleksijas izvēle neaizstāj veselības, finanšu vai juridisku jautājumu profesionālu izvērtējumu."
       ],
       "icon": "zodiac",
-      "sources": [
-
-      ],
+      "sources": [],
       "related": [
         {
           "url": "/zodiaka-zimes/",
@@ -5804,9 +5784,7 @@
         "Saglabājot piezīmi pie Skorpiona lasījuma, ieraksti vienu darbību un datumu, kad vēlies to pārskatīt. Dienas tēma un pastāvīgais zīmes apraksts ir atšķirīgs saturs; vispirms nolasi rādīto izdevuma datumu. Šī pašrefleksijas izvēle neaizstāj veselības, finanšu vai juridisku jautājumu profesionālu izvērtējumu."
       ],
       "icon": "zodiac",
-      "sources": [
-
-      ],
+      "sources": [],
       "related": [
         {
           "url": "/zodiaka-zimes/",
@@ -5855,9 +5833,7 @@
         "Saglabājot piezīmi pie Strēlnieka lasījuma, ieraksti vienu darbību un datumu, kad vēlies to pārskatīt. Dienas tēma un pastāvīgais zīmes apraksts ir atšķirīgs saturs; vispirms nolasi rādīto izdevuma datumu. Šī pašrefleksijas izvēle neaizstāj veselības, finanšu vai juridisku jautājumu profesionālu izvērtējumu."
       ],
       "icon": "zodiac",
-      "sources": [
-
-      ],
+      "sources": [],
       "related": [
         {
           "url": "/zodiaka-zimes/",
@@ -5906,9 +5882,7 @@
         "Saglabājot piezīmi pie Svaru lasījuma, ieraksti vienu darbību un datumu, kad vēlies to pārskatīt. Dienas tēma un pastāvīgais zīmes apraksts ir atšķirīgs saturs; vispirms nolasi rādīto izdevuma datumu. Šī pašrefleksijas izvēle neaizstāj veselības, finanšu vai juridisku jautājumu profesionālu izvērtējumu."
       ],
       "icon": "zodiac",
-      "sources": [
-
-      ],
+      "sources": [],
       "related": [
         {
           "url": "/zodiaka-zimes/",
@@ -5957,9 +5931,7 @@
         "Saglabājot piezīmi pie Ūdensvīra lasījuma, ieraksti vienu darbību un datumu, kad vēlies to pārskatīt. Dienas tēma un pastāvīgais zīmes apraksts ir atšķirīgs saturs; vispirms nolasi rādīto izdevuma datumu. Šī pašrefleksijas izvēle neaizstāj veselības, finanšu vai juridisku jautājumu profesionālu izvērtējumu."
       ],
       "icon": "zodiac",
-      "sources": [
-
-      ],
+      "sources": [],
       "related": [
         {
           "url": "/zodiaka-zimes/",
@@ -6008,9 +5980,7 @@
         "Saglabājot piezīmi pie Vērša lasījuma, ieraksti vienu darbību un datumu, kad vēlies to pārskatīt. Dienas tēma un pastāvīgais zīmes apraksts ir atšķirīgs saturs; vispirms nolasi rādīto izdevuma datumu. Šī pašrefleksijas izvēle neaizstāj veselības, finanšu vai juridisku jautājumu profesionālu izvērtējumu."
       ],
       "icon": "zodiac",
-      "sources": [
-
-      ],
+      "sources": [],
       "related": [
         {
           "url": "/zodiaka-zimes/",
@@ -6059,9 +6029,7 @@
         "Saglabājot piezīmi pie Vēža lasījuma, ieraksti vienu darbību un datumu, kad vēlies to pārskatīt. Dienas tēma un pastāvīgais zīmes apraksts ir atšķirīgs saturs; vispirms nolasi rādīto izdevuma datumu. Šī pašrefleksijas izvēle neaizstāj veselības, finanšu vai juridisku jautājumu profesionālu izvērtējumu."
       ],
       "icon": "zodiac",
-      "sources": [
-
-      ],
+      "sources": [],
       "related": [
         {
           "url": "/zodiaka-zimes/",
@@ -6110,9 +6078,7 @@
         "Saglabājot piezīmi pie Zivju lasījuma, ieraksti vienu darbību un datumu, kad vēlies to pārskatīt. Dienas tēma un pastāvīgais zīmes apraksts ir atšķirīgs saturs; vispirms nolasi rādīto izdevuma datumu. Šī pašrefleksijas izvēle neaizstāj veselības, finanšu vai juridisku jautājumu profesionālu izvērtējumu."
       ],
       "icon": "zodiac",
-      "sources": [
-
-      ],
+      "sources": [],
       "related": [
         {
           "url": "/zodiaka-zimes/",
@@ -6158,12 +6124,10 @@
       "heading": "No savas fotogrāfijas līdz gatavam kalendāram",
       "paragraphs": [
         "Vispirms izvēlies gadu un veidni, pēc tam pievieno fotogrāfiju un personīgos datumus. Attēla apgriezumu pārbaudi pašā priekšskatījumā: horizontālā un vertikālā lapā viens foto var izskatīties atšķirīgi. Virsrakstam izmanto īsu formulējumu, lai tas nekonkurētu ar datumu režģi; garāku atgādinājumu ievieto pie attiecīgā datuma.",
-        "Pirms eksporta pārliecinies, ka izvēlēts īstais mēnesis vai viss gads un vajadzīgās Latvijas svētku atzīmes. PDF atver drukas priekšskatījumā ar tādu pašu papīra formātu un orientāciju, kāda norādīta veidotājā. Personīgie attēli tiek apstrādāti ierīcē; projektam saglabāts dublējums palīdz turpināt darbu vēlāk, nepaļaujoties tikai uz pārlūka krātuvi."
+        "Pirms lejupielādes pārbaudi periodu un Latvijas svētku atzīmes. Drukai izvēlies PDF, bet ievietošanai citos materiālos der JPG vai PNG ar izšķirtspēju līdz 600 dpi. Word failā kalendāra dizains saglabājas kā kvalitatīvs attēls, un personīgos notikumus un piezīmes vari pievienot rediģējamā pielikumā. Excel failā vari mainīt kalendāra šūnas un notikumu sarakstu; sākotnējais izskats saglabāts atsevišķā lapā “Drukas dizains”. Darbu veidotājā turpini no saglabāta projekta dublējuma."
       ],
       "icon": "planner",
-      "sources": [
-
-      ],
+      "sources": [],
       "related": [
         {
           "url": "/kalendars/",
@@ -6189,14 +6153,14 @@
         ],
         [
           {
-            "text": "Pirms eksporta pārliecinies, ka izvēlēts īstais mēnesis vai viss gads un vajadzīgās "
+            "text": "Pirms lejupielādes pārbaudi periodu un "
           },
           {
             "text": "Latvijas svētku atzīmes",
             "url": "/svetku-dienas/"
           },
           {
-            "text": ". PDF atver drukas priekšskatījumā ar tādu pašu papīra formātu un orientāciju, kāda norādīta veidotājā. Personīgie attēli tiek apstrādāti ierīcē; projektam saglabāts dublējums palīdz turpināt darbu vēlāk, nepaļaujoties tikai uz pārlūka krātuvi."
+            "text": ". Drukai izvēlies PDF, bet ievietošanai citos materiālos der JPG vai PNG ar izšķirtspēju līdz 600 dpi. Word failā kalendāra dizains saglabājas kā kvalitatīvs attēls, un personīgos notikumus un piezīmes vari pievienot rediģējamā pielikumā. Excel failā vari mainīt kalendāra šūnas un notikumu sarakstu; sākotnējais izskats saglabāts atsevišķā lapā “Drukas dizains”. Darbu veidotājā turpini no saglabāta projekta dublējuma."
           }
         ]
       ]
@@ -7519,9 +7483,7 @@
         "Atverot gadu vai mēnesi, vispirms redzēsi drukas veidnes. Kreisajā mēnešu izvēlnē katra diena ved uz atbilstošo datumu, bet nedēļas numurs atver nedēļas pārskatu. PDF izvēlies drukāšanai, savukārt Attēls ir piemērots saglabāšanai kā attēla fails. Svētku norādes vērtē kopā ar datuma veidu un avotu, ne tikai pēc iekrāsotas rūtiņas."
       ],
       "icon": "calendar",
-      "sources": [
-
-      ],
+      "sources": [],
       "related": [
         {
           "url": "/visi-riki/",
@@ -11398,9 +11360,7 @@
         "Ziņas sagatavošanas forma palīdz sakārtot jautājumu, bet automātiski to nenosūta. Pārskati sagatavoto tekstu pirms nosūtīšanas savā e-pasta lietotnē. Par fotogrāfiju vai licenci norādi arī attēla sadaļu un avota saiti; tas palīdz atrast konkrēto darbu, nejaucot to ar citas pilsētas vai veidnes ilustrāciju."
       ],
       "icon": "about",
-      "sources": [
-
-      ],
+      "sources": [],
       "related": [
         {
           "url": "/avoti-un-metodika/",
@@ -11427,9 +11387,7 @@
         "Teksta vai saskarnes kļūdai pietiek ar lapas adresi un precīzu vietas aprakstu; ierīces un pārlūka nosaukums palīdz atkārtot darbību. Nepārbaudītu nākotnes termiņu neatzīmējam kā apstiprinātu tikai pēc analoģijas. Labojuma mērķis ir sakārtot sākotnējo datu pamatu, lai viena un tā pati kļūda neatkārtotos saistītajos kalendāros."
       ],
       "icon": "about",
-      "sources": [
-
-      ],
+      "sources": [],
       "related": [
         {
           "url": "/avoti-un-metodika/",
@@ -11460,9 +11418,7 @@
         "Personīgajās veidnēs pievieno tikai tādus attēlus un datus, kurus drīksti izmantot attiecīgajam mērķim. Vietnes fotogrāfiju un ārēju astronomijas attēlu licences ir atsevišķas no tavu paša failu tiesībām. Pirms faila drukāšanas vai tālākas izplatīšanas pārbaudi konkrētā satura norādījumus un avotu."
       ],
       "icon": "privacy",
-      "sources": [
-
-      ],
+      "sources": [],
       "related": [
         {
           "url": "/avoti-un-metodika/",
@@ -11493,9 +11449,7 @@
         "Pirms grafika saglabāšanas salīdzini pirmo ciklu ar zināmiem darba datumiem un pārbaudi mēneša robežu. Svētku diena pati nepārraksta maiņu ciklu. Drukai vari izvēlēties mēneša režģi, maiņu tabulu, laika līniju vai dienu kartītes. PDF un attēlā saglabājas atlasītais mēnesis, laiki, pauzes un personīgie labojumi; pilnas piezīmes turpinās pielikumā. Darba laika uzskaitei un atvaļinājuma saskaņošanai izmanto darba devēja apstiprināto grafiku."
       ],
       "icon": "work",
-      "sources": [
-
-      ],
+      "sources": [],
       "related": [
         {
           "url": "/kalendars/",
@@ -11540,9 +11494,7 @@
         "Ja rezultāts ir pārāk plašs, pievieno gadu vai tēmu; ja nekas nav atrasts, izmēģini īsāku nosaukuma daļu un pārbaudi rakstību. Vārda dienu rezultātā nolasi arī saraksta veidu un datumu. Ja esi nonācis nepareizā saitē, meklēšana un kategoriju pārskati palīdz atrast aktuālo lapu, neminot jaunas adreses."
       ],
       "icon": "calendar",
-      "sources": [
-
-      ],
+      "sources": [],
       "related": [
         {
           "url": "/kalendars/",
@@ -11573,9 +11525,7 @@
         "Mēneša sākuma un beigu rindās var būt arī blakus mēnešu datumi. Tie palīdz nepazaudēt pilnu nedēļu un ir atverami atsevišķi; gaišāks tonis norāda uz citu mēnesi. Plānojot vairāku dienu notikumu, pārbaudi abas mēneša robežas, bet pilnam gada kontekstam izmanto saiti uz gada pārskatu."
       ],
       "icon": "calendar",
-      "sources": [
-
-      ],
+      "sources": [],
       "related": [
         {
           "url": "/kalendars/",
@@ -11637,9 +11587,7 @@
           "title": "Gada drukas veidnes"
         }
       ],
-      "sources": [
-
-      ],
+      "sources": [],
       "basis": {
         "year": 2027,
         "februaryDays": 28,
@@ -11692,9 +11640,7 @@
           "title": "Gada drukas veidnes"
         }
       ],
-      "sources": [
-
-      ],
+      "sources": [],
       "basis": {
         "year": 2028,
         "februaryDays": 29,
@@ -11756,9 +11702,7 @@
           "title": "Gada drukas veidnes"
         }
       ],
-      "sources": [
-
-      ],
+      "sources": [],
       "basis": {
         "year": 2029,
         "februaryDays": 28,
@@ -11813,9 +11757,7 @@
           "title": "Gada drukas veidnes"
         }
       ],
-      "sources": [
-
-      ],
+      "sources": [],
       "basis": {
         "year": 2030,
         "februaryDays": 28,
@@ -20827,9 +20769,7 @@
         "Pirms kopīga darba vai mācību plāna nosūtīšanas salīdzini nedēļas numuru ar tās pirmdienas un svētdienas datumu. Tas novērš pārpratumus gadu mijā un ļauj vienādi lasīt grafiku cilvēkiem, kuri ikdienā izmanto atšķirīgus kalendārus. Mēneša skatu izmanto termiņu apkārtnei, bet nedēļas skatu konkrētu dienu un uzdevumu secībai."
       ],
       "icon": "calendar",
-      "sources": [
-
-      ],
+      "sources": [],
       "related": [
         {
           "url": "/kalendars/",
@@ -20881,9 +20821,7 @@
           "title": "Gada kalendārs"
         }
       ],
-      "sources": [
-
-      ],
+      "sources": [],
       "basis": {
         "year": 2027,
         "weekCount": 52
@@ -24260,9 +24198,7 @@
           "title": "Gada kalendārs"
         }
       ],
-      "sources": [
-
-      ],
+      "sources": [],
       "basis": {
         "year": 2028,
         "weekCount": 52
@@ -27639,9 +27575,7 @@
           "title": "Gada kalendārs"
         }
       ],
-      "sources": [
-
-      ],
+      "sources": [],
       "basis": {
         "year": 2029,
         "weekCount": 52
@@ -31018,9 +30952,7 @@
           "title": "Gada kalendārs"
         }
       ],
-      "sources": [
-
-      ],
+      "sources": [],
       "basis": {
         "year": 2030,
         "weekCount": 52
@@ -34387,9 +34319,7 @@
         "Gada pēdējās ISO nedēļas numuru var pārbaudīt pēc 28. decembra, kas vienmēr pieder sava nedēļu gada pēdējai nedēļai. 2027.–2030. gada nedēļu pārskatos iespējams pāriet uz pilnu datumu sarakstu. Ja nedēļa šķērso mēneša vai gada robežu, abi tās gali joprojām ir vienas un tās pašas ISO nedēļas daļa."
       ],
       "icon": "calendar",
-      "sources": [
-
-      ],
+      "sources": [],
       "related": [
         {
           "url": "/kalendars/",
@@ -34528,9 +34458,7 @@
         "Vietnes uzturētājs ir Silvis Balodis. Kalendārs nav valsts iestādes pakalpojums vai individuāla juridiska konsultācija, un nepublicēti datumi netiek aizvietoti ar izdomātiem termiņiem. Pamanītu kļūdu iespējams iesniegt kopā ar konkrētās lapas adresi un pirmavotu, lai labojums skartu arī ar kopīgo datu kopu saistītos pārskatus."
       ],
       "icon": "about",
-      "sources": [
-
-      ],
+      "sources": [],
       "related": [
         {
           "url": "/avoti-un-metodika/",
@@ -34561,9 +34489,7 @@
         "Gada un parasto mēnešu kolekcijās piedāvātas A3 veidnes, bet Mēness kalendāriem ir atsevišķi drukas izkārtojumi. Drukājot izvēlies failam atbilstošu papīru un vajadzības gadījumā iekļaušanu drukājamajā laukumā. Pārlūka galvenes, kājenes un lapas adrese nav kalendāra daļa; to parādīšanu nosaka drukas dialoga iestatījumi."
       ],
       "icon": "print",
-      "sources": [
-
-      ],
+      "sources": [],
       "related": [
         {
           "url": "/kalendars/",
@@ -38084,9 +38010,7 @@
         "Ja kādu darbību nevari pabeigt, apraksti konkrēto soli un lapu, nevis tikai vispārīgi norādi uz problēmu. Piemini izmantoto ierīci, pārlūku un, ja vajadzīgs, palīgtehnoloģiju; privāti notikumu dati nav jāsūta. Konkrēts piemērs palīdz atrast kļūdu un pārbaudīt, vai labojums atrisina problēmu."
       ],
       "icon": "about",
-      "sources": [
-
-      ],
+      "sources": [],
       "related": [
         {
           "url": "/avoti-un-metodika/",
@@ -38171,9 +38095,7 @@
         "Pilsētas automātiska izvēle izmanto aptuvenu IP atrašanās vietas novērtējumu, nevis ierīces GPS atļauju. Manuāli izvēlēta pilsēta ir labāks risinājums, ja novērtējumu ietekmē VPN vai tīkla maršrutēšana. Laikapstākļu, saziņas un vietnes piegādes pakalpojumu datu apstrāde ir aprakstīta šajā politikā; priekšroka dodama konkrētajam pakalpojumam norādītajam tvērumam."
       ],
       "icon": "privacy",
-      "sources": [
-
-      ],
+      "sources": [],
       "related": [
         {
           "url": "/avoti-un-metodika/",
@@ -38254,9 +38176,7 @@
         "Satura un programmatūras sagatavošanā izmantota automatizācija un mākslīgā intelekta palīdzība. Tas pats par sevi nav neatkarīga speciālista vai dzimtās valodas redaktora pārbaudes apliecinājums. Labojot kļūdu, būtiska ir pārbaudāma atsauce un atjaunināts saturs; nepamatotu kompetenci, sertifikāciju vai apstiprinājumu nepiedēvējam ne autoram, ne vietnei."
       ],
       "icon": "about",
-      "sources": [
-
-      ],
+      "sources": [],
       "related": [
         {
           "url": "/avoti-un-metodika/",
@@ -43819,9 +43739,7 @@
           "kaposti",
           "tomati"
         ],
-        "harvestCropIds": [
-
-        ]
+        "harvestCropIds": []
       },
       "linkedParagraphs": [
         [
@@ -43975,9 +43893,7 @@
       ],
       "basis": {
         "month": 12,
-        "sowingCropIds": [
-
-        ],
+        "sowingCropIds": [],
         "harvestCropIds": [
           "salati"
         ]
@@ -44038,12 +43954,8 @@
       ],
       "basis": {
         "month": 2,
-        "sowingCropIds": [
-
-        ],
-        "harvestCropIds": [
-
-        ]
+        "sowingCropIds": [],
+        "harvestCropIds": []
       },
       "linkedParagraphs": [
         [
@@ -44093,9 +44005,7 @@
         "sowingCropIds": [
           "salati"
         ],
-        "harvestCropIds": [
-
-        ]
+        "harvestCropIds": []
       },
       "linkedParagraphs": [
         [
@@ -44164,9 +44074,7 @@
       ],
       "basis": {
         "month": 7,
-        "sowingCropIds": [
-
-        ],
+        "sowingCropIds": [],
         "harvestCropIds": [
           "burkani",
           "kiploki"
@@ -44464,9 +44372,7 @@
           "kiploki",
           "salati"
         ],
-        "harvestCropIds": [
-
-        ]
+        "harvestCropIds": []
       },
       "linkedParagraphs": [
         [
@@ -44531,9 +44437,7 @@
       ],
       "basis": {
         "month": 11,
-        "sowingCropIds": [
-
-        ],
+        "sowingCropIds": [],
         "harvestCropIds": [
           "puravi",
           "salati"
@@ -45120,9 +45024,7 @@
         "Pārlūka lokālās krātuves iztīrīšana var noņemt gan plānus, gan saglabātās izvēles. Ja vēlies pāriet uz citu ierīci, vispirms pārbaudi eksporta failu un pēc pārnešanas pārliecinies, ka vajadzīgie ieraksti tiešām ir atjaunoti. Pašlaik aktivizētās tehnoloģijas un to mērķi jālasa šajā politikā, nevis jāsecina tikai no pogas “Piekrītu”."
       ],
       "icon": "privacy",
-      "sources": [
-
-      ],
+      "sources": [],
       "related": [
         {
           "url": "/avoti-un-metodika/",
@@ -45624,9 +45526,7 @@
         "Ja mainās nodarbības laiks vai telpa, atver tās labošanu. Iepriekšējo periodu noslēdz ar atbilstošu beigu datumu un jaunajam grafikam pievieno atsevišķu ierakstu. Skolas brīvlaiki un stundu aizvietošana netiek piemēroti automātiski. Pirms svarīgas nodarbības salīdzini savu plānu ar skolas vai augstskolas jaunāko paziņojumu."
       ],
       "icon": "school",
-      "sources": [
-
-      ],
+      "sources": [],
       "related": [
         {
           "url": "/skolas-brivlaiki/",
@@ -45728,9 +45628,7 @@
         "Plānojot «Advente: četras svētdienas pirms Ziemassvētkiem», ievēro šo atšķirību: Pirmā adventes svētdiena ir no 27. novembra līdz 3. decembrim. Kalendāra piezīmē atsevišķi pieraksti izvēlēto norisi un tās avotu, lai gadskārtējais nosaukums netiktu sajaukts ar vienas vietas vai konfesijas programmu. Salīdzini arī šajā lapā norādītās saistītās tēmas un pirmavotus."
       ],
       "icon": "culture",
-      "sources": [
-
-      ],
+      "sources": [],
       "related": [
         {
           "url": "/menesa-kalendars/",
@@ -45796,9 +45694,7 @@
         "Personiska plāna piemērs tēmai «Baltu vienības diena»: atskaites datums ir 2027. gada 22. septembris, bet vienas nedēļas sagatavošanās atgādinājums — 2027. gada 15. septembris. Tas nav rīkotāja izziņots pasākuma grafiks. Dalībai pievieno norises vietu, sākuma laiku un programmas saiti atsevišķi no kalendārā norādītā nosaukuma."
       ],
       "icon": "culture",
-      "sources": [
-
-      ],
+      "sources": [],
       "related": [
         {
           "url": "/dienas-kalendars/",
@@ -45841,9 +45737,7 @@
         "Personiska plāna piemērs tēmai «Barikāžu aizstāvju atceres diena»: atskaites datums ir 2027. gada 20. janvāris, bet vienas nedēļas sagatavošanās atgādinājums — 2027. gada 13. janvāris. Tas nav rīkotāja izziņots pasākuma grafiks. Dalībai pievieno norises vietu, sākuma laiku un programmas saiti atsevišķi no kalendārā norādītā nosaukuma."
       ],
       "icon": "memorial",
-      "sources": [
-
-      ],
+      "sources": [],
       "related": [
         {
           "url": "/atceres-dienas/",
@@ -45890,9 +45784,7 @@
         "Personiska plāna piemērs tēmai «Bērnu aizsardzības diena»: atskaites datums ir 2027. gada 1. jūnijs, bet vienas nedēļas sagatavošanās atgādinājums — 2027. gada 25. maijs. Tas nav rīkotāja izziņots pasākuma grafiks. Dalībai pievieno norises vietu, sākuma laiku un programmas saiti atsevišķi no kalendārā norādītā nosaukuma."
       ],
       "icon": "culture",
-      "sources": [
-
-      ],
+      "sources": [],
       "related": [
         {
           "url": "/skolas-kalendars/",
@@ -45939,9 +45831,7 @@
         "Personiska plāna piemērs tēmai «Darba svētki»: atskaites datums ir 2027. gada 1. maijs, bet vienas nedēļas sagatavošanās atgādinājums — 2027. gada 24. aprīlis. Tas nav rīkotāja izziņots pasākuma grafiks. Dalībai pievieno norises vietu, sākuma laiku un programmas saiti atsevišķi no kalendārā norādītā nosaukuma."
       ],
       "icon": "culture",
-      "sources": [
-
-      ],
+      "sources": [],
       "related": [
         {
           "url": "/darba-dienu-kalendars/",
@@ -45995,9 +45885,7 @@
         "Personiska plāna piemērs tēmai «Dziesmu un deju svētki»: atskaites datums ir 2028. gada 9. jūlijs, bet vienas nedēļas sagatavošanās atgādinājums — 2028. gada 2. jūlijs. Tas nav rīkotāja izziņots pasākuma grafiks. Dalībai pievieno norises vietu, sākuma laiku un programmas saiti atsevišķi no kalendārā norādītā nosaukuma."
       ],
       "icon": "culture",
-      "sources": [
-
-      ],
+      "sources": [],
       "related": [
         {
           "url": "/menesa-kalendars/",
@@ -46042,6 +45930,60 @@
         ]
       ]
     },
+    "/svetki-un-tradicijas/dzimtas-valodas-diena/": {
+      "heading": "Datuma pamats un personīgā plāna izvēle",
+      "paragraphs": [
+        "Tēmas «Starptautiskā dzimtās valodas diena: 21. februāris» aprēķināto vai fiksēto datumu piemēri 2027.–2030. gada tvērumā: 2027. gada 21. februāris (svētdiena); 2030. gada 21. februāris (ceturtdiena). Tie ir kalendāra atskaites datumi, nevis automātiski apstiprināta pasākumu programma. No šī temata nosaukuma nevar secināt vispārēju darba brīvdienu Latvijā.",
+        "Plānojot «Starptautiskā dzimtās valodas diena: 21. februāris», ievēro šo atšķirību: Dzimtās valodas diena ir starptautiska atzīmējamā diena. Latvijā tā nav vispārēja darba brīvdiena. Kalendāra piezīmē atsevišķi pieraksti izvēlēto norisi un tās avotu, lai gadskārtējais nosaukums netiktu sajaukts ar vienas vietas vai konfesijas programmu. Salīdzini arī šajā lapā norādītās saistītās tēmas un pirmavotus."
+      ],
+      "icon": "culture",
+      "sources": [],
+      "related": [
+        {
+          "url": "/dienas-kalendars/",
+          "title": "Dienas kalendārs"
+        },
+        {
+          "url": "/stundu-saraksts/",
+          "title": "Stundu saraksts"
+        }
+      ],
+      "basis": {
+        "dateModel": "fixed",
+        "dates": [
+          "2027-02-21",
+          "2028-02-21",
+          "2029-02-21",
+          "2030-02-21"
+        ]
+      },
+      "linkedParagraphs": [
+        [
+          {
+            "text": "Tēmas «Starptautiskā dzimtās valodas diena: 21. februāris» aprēķināto vai fiksēto datumu piemēri 2027.–2030. gada tvērumā: 2027. gada 21. februāris (svētdiena); 2030. gada 21. februāris (ceturtdiena). Tie ir kalendāra atskaites datumi, nevis automātiski apstiprināta pasākumu programma. No šī temata nosaukuma nevar secināt vispārēju "
+          },
+          {
+            "text": "darba brīvdienu Latvijā",
+            "url": "/svetku-dienas/"
+          },
+          {
+            "text": "."
+          }
+        ],
+        [
+          {
+            "text": "Plānojot «Starptautiskā dzimtās valodas diena: 21. februāris», ievēro šo atšķirību: Dzimtās valodas diena ir starptautiska atzīmējamā diena. Latvijā tā nav vispārēja darba brīvdiena. "
+          },
+          {
+            "text": "Kalendāra piezīmē",
+            "url": "/dienas-kalendars/"
+          },
+          {
+            "text": " atsevišķi pieraksti izvēlēto norisi un tās avotu, lai gadskārtējais nosaukums netiktu sajaukts ar vienas vietas vai konfesijas programmu. Salīdzini arī šajā lapā norādītās saistītās tēmas un pirmavotus."
+          }
+        ]
+      ]
+    },
     "/svetki-un-tradicijas/ebreju-tautas-genocida-upuru-pieminas-diena/": {
       "heading": "Ebreju tautas genocīda upuru piemiņas diena: kalendāra ieraksts savā plānā",
       "paragraphs": [
@@ -46049,9 +45991,7 @@
         "Personiska plāna piemērs tēmai «Ebreju tautas genocīda upuru piemiņas diena»: atskaites datums ir 2027. gada 4. jūlijs, bet vienas nedēļas sagatavošanās atgādinājums — 2027. gada 27. jūnijs. Tas nav rīkotāja izziņots pasākuma grafiks. Dalībai pievieno norises vietu, sākuma laiku un programmas saiti atsevišķi no kalendārā norādītā nosaukuma."
       ],
       "icon": "memorial",
-      "sources": [
-
-      ],
+      "sources": [],
       "related": [
         {
           "url": "/atceres-dienas/",
@@ -46098,9 +46038,7 @@
         "Personiska plāna piemērs tēmai «Eiropas diena»: atskaites datums ir 2027. gada 9. maijs, bet vienas nedēļas sagatavošanās atgādinājums — 2027. gada 2. maijs. Tas nav rīkotāja izziņots pasākuma grafiks. Dalībai pievieno norises vietu, sākuma laiku un programmas saiti atsevišķi no kalendārā norādītā nosaukuma."
       ],
       "icon": "culture",
-      "sources": [
-
-      ],
+      "sources": [],
       "related": [
         {
           "url": "/dienas-kalendars/",
@@ -46136,6 +46074,164 @@
         ]
       ]
     },
+    "/svetki-un-tradicijas/eiropas-valodu-diena/": {
+      "heading": "Datuma pamats un personīgā plāna izvēle",
+      "paragraphs": [
+        "Tēmas «Eiropas Valodu diena: 26. septembris un valodu daudzveidība» aprēķināto vai fiksēto datumu piemēri 2027.–2030. gada tvērumā: 2027. gada 26. septembris (svētdiena); 2030. gada 26. septembris (ceturtdiena). Tie ir kalendāra atskaites datumi, nevis automātiski apstiprināta pasākumu programma. No šī temata nosaukuma nevar secināt vispārēju darba brīvdienu Latvijā.",
+        "Plānojot «Eiropas Valodu diena: 26. septembris un valodu daudzveidība», ievēro šo atšķirību: Eiropas Padome noteica 26. septembri par ikgadēju Eiropas Valodu dienu. Kalendāra piezīmē atsevišķi pieraksti izvēlēto norisi un tās avotu, lai gadskārtējais nosaukums netiktu sajaukts ar vienas vietas vai konfesijas programmu. Salīdzini arī šajā lapā norādītās saistītās tēmas un pirmavotus."
+      ],
+      "icon": "culture",
+      "sources": [],
+      "related": [
+        {
+          "url": "/dienas-kalendars/",
+          "title": "Dienas kalendārs"
+        },
+        {
+          "url": "/stundu-saraksts/",
+          "title": "Stundu saraksts"
+        }
+      ],
+      "basis": {
+        "dateModel": "fixed",
+        "dates": [
+          "2027-09-26",
+          "2028-09-26",
+          "2029-09-26",
+          "2030-09-26"
+        ]
+      },
+      "linkedParagraphs": [
+        [
+          {
+            "text": "Tēmas «Eiropas Valodu diena: 26. septembris un valodu daudzveidība» aprēķināto vai fiksēto datumu piemēri 2027.–2030. gada tvērumā: 2027. gada 26. septembris (svētdiena); 2030. gada 26. septembris (ceturtdiena). Tie ir kalendāra atskaites datumi, nevis automātiski apstiprināta pasākumu programma. No šī temata nosaukuma nevar secināt vispārēju "
+          },
+          {
+            "text": "darba brīvdienu Latvijā",
+            "url": "/svetku-dienas/"
+          },
+          {
+            "text": "."
+          }
+        ],
+        [
+          {
+            "text": "Plānojot «Eiropas Valodu diena: 26. septembris un valodu daudzveidība», ievēro šo atšķirību: Eiropas Padome noteica 26. septembri par ikgadēju Eiropas Valodu dienu. "
+          },
+          {
+            "text": "Kalendāra piezīmē",
+            "url": "/dienas-kalendars/"
+          },
+          {
+            "text": " atsevišķi pieraksti izvēlēto norisi un tās avotu, lai gadskārtējais nosaukums netiktu sajaukts ar vienas vietas vai konfesijas programmu. Salīdzini arī šajā lapā norādītās saistītās tēmas un pirmavotus."
+          }
+        ]
+      ]
+    },
+    "/svetki-un-tradicijas/helovins/": {
+      "heading": "Datuma pamats un personīgā plāna izvēle",
+      "paragraphs": [
+        "Tēmas «Helovīns Latvijā: 31. oktobra datums un vietējie pasākumi» aprēķināto vai fiksēto datumu piemēri 2027.–2030. gada tvērumā: 2027. gada 31. oktobris (svētdiena); 2030. gada 31. oktobris (ceturtdiena). Tie ir kalendāra atskaites datumi, nevis automātiski apstiprināta pasākumu programma. No šī temata nosaukuma nevar secināt vispārēju darba brīvdienu Latvijā.",
+        "Plānojot «Helovīns Latvijā: 31. oktobra datums un vietējie pasākumi», ievēro šo atšķirību: Helovīna pasākumu programmas katru gadu jāpārbauda pie rīkotājiem. Kalendāra piezīmē atsevišķi pieraksti izvēlēto norisi un tās avotu, lai gadskārtējais nosaukums netiktu sajaukts ar vienas vietas vai konfesijas programmu. Salīdzini arī šajā lapā norādītās saistītās tēmas un pirmavotus."
+      ],
+      "icon": "culture",
+      "sources": [],
+      "related": [
+        {
+          "url": "/dienas-kalendars/",
+          "title": "Dienas kalendārs"
+        },
+        {
+          "url": "/menesa-kalendars/",
+          "title": "Mēneša kalendārs"
+        }
+      ],
+      "basis": {
+        "dateModel": "fixed",
+        "dates": [
+          "2027-10-31",
+          "2028-10-31",
+          "2029-10-31",
+          "2030-10-31"
+        ]
+      },
+      "linkedParagraphs": [
+        [
+          {
+            "text": "Tēmas «Helovīns Latvijā: 31. oktobra datums un vietējie pasākumi» aprēķināto vai fiksēto datumu piemēri 2027.–2030. gada tvērumā: 2027. gada 31. oktobris (svētdiena); 2030. gada 31. oktobris (ceturtdiena). Tie ir kalendāra atskaites datumi, nevis automātiski apstiprināta pasākumu programma. No šī temata nosaukuma nevar secināt vispārēju "
+          },
+          {
+            "text": "darba brīvdienu Latvijā",
+            "url": "/svetku-dienas/"
+          },
+          {
+            "text": "."
+          }
+        ],
+        [
+          {
+            "text": "Plānojot «Helovīns Latvijā: 31. oktobra datums un vietējie pasākumi», ievēro šo atšķirību: Helovīna pasākumu programmas katru gadu jāpārbauda pie rīkotājiem. "
+          },
+          {
+            "text": "Kalendāra piezīmē",
+            "url": "/dienas-kalendars/"
+          },
+          {
+            "text": " atsevišķi pieraksti izvēlēto norisi un tās avotu, lai gadskārtējais nosaukums netiktu sajaukts ar vienas vietas vai konfesijas programmu. Salīdzini arī šajā lapā norādītās saistītās tēmas un pirmavotus."
+          }
+        ]
+      ]
+    },
+    "/svetki-un-tradicijas/holokausta-upuru-pieminas-diena/": {
+      "heading": "Datuma pamats un personīgā plāna izvēle",
+      "paragraphs": [
+        "Tēmas «Holokausta upuru piemiņas diena: 27. janvāris un Latvijas 4. jūlijs» aprēķināto vai fiksēto datumu piemēri 2027.–2030. gada tvērumā: 2027. gada 27. janvāris (trešdiena); 2030. gada 27. janvāris (svētdiena). Tie ir kalendāra atskaites datumi, nevis automātiski apstiprināta pasākumu programma. No šī temata nosaukuma nevar secināt vispārēju darba brīvdienu Latvijā.",
+        "Plānojot «Holokausta upuru piemiņas diena: 27. janvāris un Latvijas 4. jūlijs», ievēro šo atšķirību: Starptautiskās un Latvijas piemiņas dienas datumi un nosaukumi atšķiras. Kalendāra piezīmē atsevišķi pieraksti izvēlēto norisi un tās avotu, lai gadskārtējais nosaukums netiktu sajaukts ar vienas vietas vai konfesijas programmu. Salīdzini arī šajā lapā norādītās saistītās tēmas un pirmavotus."
+      ],
+      "icon": "culture",
+      "sources": [],
+      "related": [
+        {
+          "url": "/dienas-kalendars/",
+          "title": "Dienas kalendārs"
+        }
+      ],
+      "basis": {
+        "dateModel": "fixed",
+        "dates": [
+          "2027-01-27",
+          "2028-01-27",
+          "2029-01-27",
+          "2030-01-27"
+        ]
+      },
+      "linkedParagraphs": [
+        [
+          {
+            "text": "Tēmas «Holokausta upuru piemiņas diena: 27. janvāris un Latvijas 4. jūlijs» aprēķināto vai fiksēto datumu piemēri 2027.–2030. gada tvērumā: 2027. gada 27. janvāris (trešdiena); 2030. gada 27. janvāris (svētdiena). Tie ir kalendāra atskaites datumi, nevis automātiski apstiprināta pasākumu programma. No šī temata nosaukuma nevar secināt vispārēju "
+          },
+          {
+            "text": "darba brīvdienu Latvijā",
+            "url": "/svetku-dienas/"
+          },
+          {
+            "text": "."
+          }
+        ],
+        [
+          {
+            "text": "Plānojot «Holokausta upuru piemiņas diena: 27. janvāris un Latvijas 4. jūlijs», ievēro šo atšķirību: Starptautiskās un Latvijas piemiņas dienas datumi un nosaukumi atšķiras. "
+          },
+          {
+            "text": "Kalendāra piezīmē",
+            "url": "/dienas-kalendars/"
+          },
+          {
+            "text": " atsevišķi pieraksti izvēlēto norisi un tās avotu, lai gadskārtējais nosaukums netiktu sajaukts ar vienas vietas vai konfesijas programmu. Salīdzini arī šajā lapā norādītās saistītās tēmas un pirmavotus."
+          }
+        ]
+      ]
+    },
     "/svetki-un-tradicijas/janu-diena/": {
       "heading": "Jāņu diena: kalendāra ieraksts savā plānā",
       "paragraphs": [
@@ -46143,9 +46239,7 @@
         "Personiska plāna piemērs tēmai «Jāņu diena»: atskaites datums ir 2027. gada 24. jūnijs, bet vienas nedēļas sagatavošanās atgādinājums — 2027. gada 17. jūnijs. Tas nav rīkotāja izziņots pasākuma grafiks. Dalībai pievieno norises vietu, sākuma laiku un programmas saiti atsevišķi no kalendārā norādītā nosaukuma."
       ],
       "icon": "culture",
-      "sources": [
-
-      ],
+      "sources": [],
       "related": [
         {
           "url": "/gimenes-kalendars/",
@@ -46213,9 +46307,7 @@
         "Plānojot «Jaunavas Marijas debesīs uzņemšanas svētki», ievēro šo atšķirību: Jaunavas Marijas debesīs uzņemšanas svētki atšķiras no Jēzus Debeskāpšanas dienas, ko svin 40. dienā pēc Lieldienām. Kalendāra piezīmē atsevišķi pieraksti izvēlēto norisi un tās avotu, lai gadskārtējais nosaukums netiktu sajaukts ar vienas vietas vai konfesijas programmu. Salīdzini arī šajā lapā norādītās saistītās tēmas un pirmavotus."
       ],
       "icon": "culture",
-      "sources": [
-
-      ],
+      "sources": [],
       "related": [
         {
           "url": "/dienas-kalendars/",
@@ -46265,9 +46357,7 @@
         "Personiska plāna piemērs tēmai «Jaungada diena»: atskaites datums ir 2027. gada 1. janvāris, bet vienas nedēļas sagatavošanās atgādinājums — 2026. gada 25. decembris. Tas nav rīkotāja izziņots pasākuma grafiks. Dalībai pievieno norises vietu, sākuma laiku un programmas saiti atsevišķi no kalendārā norādītā nosaukuma."
       ],
       "icon": "culture",
-      "sources": [
-
-      ],
+      "sources": [],
       "related": [
         {
           "url": "/nedelu-numuri/",
@@ -46321,9 +46411,7 @@
         "Personiska plāna piemērs tēmai «Jūras svētku diena»: atskaites datums ir 2027. gada 10. jūlijs, bet vienas nedēļas sagatavošanās atgādinājums — 2027. gada 3. jūlijs. Tas nav rīkotāja izziņots pasākuma grafiks. Dalībai pievieno norises vietu, sākuma laiku un programmas saiti atsevišķi no kalendārā norādītā nosaukuma."
       ],
       "icon": "culture",
-      "sources": [
-
-      ],
+      "sources": [],
       "related": [
         {
           "url": "/saullekts-saulriets/",
@@ -46370,9 +46458,7 @@
         "Personiska plāna piemērs tēmai «Komunistiskā genocīda upuru piemiņas diena»: atskaites datums ir 2027. gada 25. marts, bet vienas nedēļas sagatavošanās atgādinājums — 2027. gada 18. marts. Tas nav rīkotāja izziņots pasākuma grafiks. Dalībai pievieno norises vietu, sākuma laiku un programmas saiti atsevišķi no kalendārā norādītā nosaukuma."
       ],
       "icon": "memorial",
-      "sources": [
-
-      ],
+      "sources": [],
       "related": [
         {
           "url": "/atceres-dienas/",
@@ -46423,9 +46509,7 @@
         "Personiska plāna piemērs tēmai «Konstitucionālā likuma “Par Latvijas Republikas valstisko statusu” pieņemšanas diena»: atskaites datums ir 2027. gada 21. augusts, bet vienas nedēļas sagatavošanās atgādinājums — 2027. gada 14. augusts. Tas nav rīkotāja izziņots pasākuma grafiks. Dalībai pievieno norises vietu, sākuma laiku un programmas saiti atsevišķi no kalendārā norādītā nosaukuma."
       ],
       "icon": "culture",
-      "sources": [
-
-      ],
+      "sources": [],
       "related": [
         {
           "url": "/dienas-kalendars/",
@@ -46468,9 +46552,7 @@
         "Personiska plāna piemērs tēmai «Lāčplēša diena»: atskaites datums ir 2027. gada 11. novembris, bet vienas nedēļas sagatavošanās atgādinājums — 2027. gada 4. novembris. Tas nav rīkotāja izziņots pasākuma grafiks. Dalībai pievieno norises vietu, sākuma laiku un programmas saiti atsevišķi no kalendārā norādītā nosaukuma."
       ],
       "icon": "memorial",
-      "sources": [
-
-      ],
+      "sources": [],
       "related": [
         {
           "url": "/atceres-dienas/",
@@ -46517,9 +46599,7 @@
         "Personiska plāna piemērs tēmai «Latgales kongresa diena»: atskaites datums ir 2027. gada 27. aprīlis, bet vienas nedēļas sagatavošanās atgādinājums — 2027. gada 20. aprīlis. Tas nav rīkotāja izziņots pasākuma grafiks. Dalībai pievieno norises vietu, sākuma laiku un programmas saiti atsevišķi no kalendārā norādītā nosaukuma."
       ],
       "icon": "culture",
-      "sources": [
-
-      ],
+      "sources": [],
       "related": [
         {
           "url": "/dienas-kalendars/",
@@ -46562,9 +46642,7 @@
         "Personiska plāna piemērs tēmai «Latvijas brīvības cīnītāju piemiņas diena»: atskaites datums ir 2027. gada 11. augusts, bet vienas nedēļas sagatavošanās atgādinājums — 2027. gada 4. augusts. Tas nav rīkotāja izziņots pasākuma grafiks. Dalībai pievieno norises vietu, sākuma laiku un programmas saiti atsevišķi no kalendārā norādītā nosaukuma."
       ],
       "icon": "memorial",
-      "sources": [
-
-      ],
+      "sources": [],
       "related": [
         {
           "url": "/atceres-dienas/",
@@ -46611,9 +46689,7 @@
         "Personiska plāna piemērs tēmai «Latvijas Republikas starptautiskās (de jure) atzīšanas diena»: atskaites datums ir 2027. gada 26. janvāris, bet vienas nedēļas sagatavošanās atgādinājums — 2027. gada 19. janvāris. Tas nav rīkotāja izziņots pasākuma grafiks. Dalībai pievieno norises vietu, sākuma laiku un programmas saiti atsevišķi no kalendārā norādītā nosaukuma."
       ],
       "icon": "culture",
-      "sources": [
-
-      ],
+      "sources": [],
       "related": [
         {
           "url": "/dienas-kalendars/",
@@ -46656,9 +46732,7 @@
         "Personiska plāna piemērs tēmai «Latvijas Republikas okupācijas diena»: atskaites datums ir 2027. gada 17. jūnijs, bet vienas nedēļas sagatavošanās atgādinājums — 2027. gada 10. jūnijs. Tas nav rīkotāja izziņots pasākuma grafiks. Dalībai pievieno norises vietu, sākuma laiku un programmas saiti atsevišķi no kalendārā norādītā nosaukuma."
       ],
       "icon": "memorial",
-      "sources": [
-
-      ],
+      "sources": [],
       "related": [
         {
           "url": "/atceres-dienas/",
@@ -46705,9 +46779,7 @@
         "Personiska plāna piemērs tēmai «Latvijas Republikas Proklamēšanas diena»: atskaites datums ir 2027. gada 18. novembris, bet vienas nedēļas sagatavošanās atgādinājums — 2027. gada 11. novembris. Tas nav rīkotāja izziņots pasākuma grafiks. Dalībai pievieno norises vietu, sākuma laiku un programmas saiti atsevišķi no kalendārā norādītā nosaukuma."
       ],
       "icon": "culture",
-      "sources": [
-
-      ],
+      "sources": [],
       "related": [
         {
           "url": "/darba-dienu-kalendars/",
@@ -46770,9 +46842,7 @@
         "Personiska plāna piemērs tēmai «Lielā Piektdiena»: atskaites datums ir 2027. gada 26. marts, bet vienas nedēļas sagatavošanās atgādinājums — 2027. gada 19. marts. Tas nav rīkotāja izziņots pasākuma grafiks. Dalībai pievieno norises vietu, sākuma laiku un programmas saiti atsevišķi no kalendārā norādītā nosaukuma."
       ],
       "icon": "culture",
-      "sources": [
-
-      ],
+      "sources": [],
       "related": [
         {
           "url": "/datumu-kalkulators/",
@@ -46826,9 +46896,7 @@
         "Personiska plāna piemērs tēmai «Lieldienas»: atskaites datums ir 2027. gada 28. marts, bet vienas nedēļas sagatavošanās atgādinājums — 2027. gada 21. marts. Tas nav rīkotāja izziņots pasākuma grafiks. Dalībai pievieno norises vietu, sākuma laiku un programmas saiti atsevišķi no kalendārā norādītā nosaukuma."
       ],
       "icon": "culture",
-      "sources": [
-
-      ],
+      "sources": [],
       "related": [
         {
           "url": "/darba-dienu-kalendars/",
@@ -46900,9 +46968,7 @@
         "Personiska plāna piemērs tēmai «Līgo diena»: atskaites datums ir 2027. gada 23. jūnijs, bet vienas nedēļas sagatavošanās atgādinājums — 2027. gada 16. jūnijs. Tas nav rīkotāja izziņots pasākuma grafiks. Dalībai pievieno norises vietu, sākuma laiku un programmas saiti atsevišķi no kalendārā norādītā nosaukuma."
       ],
       "icon": "culture",
-      "sources": [
-
-      ],
+      "sources": [],
       "related": [
         {
           "url": "/saullekts-saulriets/",
@@ -46970,9 +47036,7 @@
         "Plānojot «Mārtiņi: 10. novembris un latviešu tradīcijas», ievēro šo atšķirību: Mārtiņi iezīmē tradicionālo ziemas sākumu; faktiskie laikapstākļi katru gadu atšķiras. Kalendāra piezīmē atsevišķi pieraksti izvēlēto norisi un tās avotu, lai gadskārtējais nosaukums netiktu sajaukts ar vienas vietas vai konfesijas programmu. Salīdzini arī šajā lapā norādītās saistītās tēmas un pirmavotus."
       ],
       "icon": "culture",
-      "sources": [
-
-      ],
+      "sources": [],
       "related": [
         {
           "url": "/gadalaiki/",
@@ -47026,9 +47090,7 @@
         "Personiska plāna piemērs tēmai «Mātes diena»: atskaites datums ir 2027. gada 9. maijs, bet vienas nedēļas sagatavošanās atgādinājums — 2027. gada 2. maijs. Tas nav rīkotāja izziņots pasākuma grafiks. Dalībai pievieno norises vietu, sākuma laiku un programmas saiti atsevišķi no kalendārā norādītā nosaukuma."
       ],
       "icon": "culture",
-      "sources": [
-
-      ],
+      "sources": [],
       "related": [
         {
           "url": "/gimenes-kalendars/",
@@ -47082,9 +47144,7 @@
         "Personiska plāna piemērs tēmai «Medicīnas darbinieku diena»: atskaites datums ir 2027. gada 20. jūnijs, bet vienas nedēļas sagatavošanās atgādinājums — 2027. gada 13. jūnijs. Tas nav rīkotāja izziņots pasākuma grafiks. Dalībai pievieno norises vietu, sākuma laiku un programmas saiti atsevišķi no kalendārā norādītā nosaukuma."
       ],
       "icon": "culture",
-      "sources": [
-
-      ],
+      "sources": [],
       "related": [
         {
           "url": "/dienas-kalendars/",
@@ -47127,9 +47187,7 @@
         "Plānojot «Meteņi: pavasara gaidīšana un svinēšanas laiki», ievēro šo atšķirību: Meteņu svinēšanas laiki dažādos novados un tradīcijās atšķiras. Kalendāra piezīmē atsevišķi pieraksti izvēlēto norisi un tās avotu, lai gadskārtējais nosaukums netiktu sajaukts ar vienas vietas vai konfesijas programmu. Salīdzini arī šajā lapā norādītās saistītās tēmas un pirmavotus."
       ],
       "icon": "culture",
-      "sources": [
-
-      ],
+      "sources": [],
       "related": [
         {
           "url": "/menesa-kalendars/",
@@ -47142,9 +47200,7 @@
       ],
       "basis": {
         "dateModel": "multiple-traditions",
-        "dates": [
-
-        ]
+        "dates": []
       },
       "linkedParagraphs": [
         [
@@ -47173,9 +47229,7 @@
         "Plānojot «Miķeļi: 29. septembris un ražas laika tradīcijas», ievēro šo atšķirību: Miķeļu tradicionālais datums ir 29. septembris; astronomiskās rudens ekvinokcijas brīdis tiek norādīts atsevišķi. Kalendāra piezīmē atsevišķi pieraksti izvēlēto norisi un tās avotu, lai gadskārtējais nosaukums netiktu sajaukts ar vienas vietas vai konfesijas programmu. Salīdzini arī šajā lapā norādītās saistītās tēmas un pirmavotus."
       ],
       "icon": "culture",
-      "sources": [
-
-      ],
+      "sources": [],
       "related": [
         {
           "url": "/gadalaiki/",
@@ -47236,9 +47290,7 @@
         "Plānojot «Mirušo piemiņas dienas: katoļu un luterāņu kalendārs», ievēro šo atšķirību: Katoļu un luterāņu kalendāros mirušo piemiņas datumi atšķiras. Kalendāra piezīmē atsevišķi pieraksti izvēlēto norisi un tās avotu, lai gadskārtējais nosaukums netiktu sajaukts ar vienas vietas vai konfesijas programmu. Salīdzini arī šajā lapā norādītās saistītās tēmas un pirmavotus."
       ],
       "icon": "culture",
-      "sources": [
-
-      ],
+      "sources": [],
       "related": [
         {
           "url": "/dienas-kalendars/",
@@ -47292,9 +47344,7 @@
         "Personiska plāna piemērs tēmai «Nacionālās pretošanās kustības piemiņas diena»: atskaites datums ir 2027. gada 17. marts, bet vienas nedēļas sagatavošanās atgādinājums — 2027. gada 10. marts. Tas nav rīkotāja izziņots pasākuma grafiks. Dalībai pievieno norises vietu, sākuma laiku un programmas saiti atsevišķi no kalendārā norādītā nosaukuma."
       ],
       "icon": "memorial",
-      "sources": [
-
-      ],
+      "sources": [],
       "related": [
         {
           "url": "/atceres-dienas/",
@@ -47341,9 +47391,7 @@
         "Personiska plāna piemērs tēmai «Nacionālo partizānu bruņotās pretošanās atceres diena»: atskaites datums ir 2027. gada 2. marts, bet vienas nedēļas sagatavošanās atgādinājums — 2027. gada 23. februāris. Tas nav rīkotāja izziņots pasākuma grafiks. Dalībai pievieno norises vietu, sākuma laiku un programmas saiti atsevišķi no kalendārā norādītā nosaukuma."
       ],
       "icon": "memorial",
-      "sources": [
-
-      ],
+      "sources": [],
       "related": [
         {
           "url": "/atceres-dienas/",
@@ -47390,9 +47438,7 @@
         "Personiska plāna piemērs tēmai «Nacisma sagrāves diena un Otrā pasaules kara upuru piemiņas diena»: atskaites datums ir 2027. gada 8. maijs, bet vienas nedēļas sagatavošanās atgādinājums — 2027. gada 1. maijs. Tas nav rīkotāja izziņots pasākuma grafiks. Dalībai pievieno norises vietu, sākuma laiku un programmas saiti atsevišķi no kalendārā norādītā nosaukuma."
       ],
       "icon": "memorial",
-      "sources": [
-
-      ],
+      "sources": [],
       "related": [
         {
           "url": "/atceres-dienas/",
@@ -47439,9 +47485,7 @@
         "Personiska plāna piemērs tēmai «Neatkarības atjaunošanas diena»: atskaites datums ir 2027. gada 4. maijs, bet vienas nedēļas sagatavošanās atgādinājums — 2027. gada 27. aprīlis. Tas nav rīkotāja izziņots pasākuma grafiks. Dalībai pievieno norises vietu, sākuma laiku un programmas saiti atsevišķi no kalendārā norādītā nosaukuma."
       ],
       "icon": "culture",
-      "sources": [
-
-      ],
+      "sources": [],
       "related": [
         {
           "url": "/darba-dienu-kalendars/",
@@ -47489,6 +47533,322 @@
         ]
       ]
     },
+    "/svetki-un-tradicijas/pasaules-bernu-diena/": {
+      "heading": "Datuma pamats un personīgā plāna izvēle",
+      "paragraphs": [
+        "Tēmas «Pasaules bērnu diena: 20. novembris» aprēķināto vai fiksēto datumu piemēri 2027.–2030. gada tvērumā: 2027. gada 20. novembris (sestdiena); 2030. gada 20. novembris (trešdiena). Tie ir kalendāra atskaites datumi, nevis automātiski apstiprināta pasākumu programma. No šī temata nosaukuma nevar secināt vispārēju darba brīvdienu Latvijā.",
+        "Plānojot «Pasaules bērnu diena: 20. novembris», ievēro šo atšķirību: 20. novembra Pasaules bērnu diena un 1. jūnija Starptautiskā bērnu aizsardzības diena ir divi atšķirīgi kalendāra ieraksti. Kalendāra piezīmē atsevišķi pieraksti izvēlēto norisi un tās avotu, lai gadskārtējais nosaukums netiktu sajaukts ar vienas vietas vai konfesijas programmu. Salīdzini arī šajā lapā norādītās saistītās tēmas un pirmavotus."
+      ],
+      "icon": "culture",
+      "sources": [],
+      "related": [
+        {
+          "url": "/gimenes-kalendars/",
+          "title": "Ģimenes kalendārs"
+        },
+        {
+          "url": "/dienas-kalendars/",
+          "title": "Dienas kalendārs"
+        }
+      ],
+      "basis": {
+        "dateModel": "fixed",
+        "dates": [
+          "2027-11-20",
+          "2028-11-20",
+          "2029-11-20",
+          "2030-11-20"
+        ]
+      },
+      "linkedParagraphs": [
+        [
+          {
+            "text": "Tēmas «Pasaules bērnu diena: 20. novembris» aprēķināto vai fiksēto datumu piemēri 2027.–2030. gada tvērumā: 2027. gada 20. novembris (sestdiena); 2030. gada 20. novembris (trešdiena). Tie ir kalendāra atskaites datumi, nevis automātiski apstiprināta pasākumu programma. No šī temata nosaukuma nevar secināt vispārēju "
+          },
+          {
+            "text": "darba brīvdienu Latvijā",
+            "url": "/svetku-dienas/"
+          },
+          {
+            "text": "."
+          }
+        ],
+        [
+          {
+            "text": "Plānojot «Pasaules bērnu diena: 20. novembris», ievēro šo atšķirību: 20. novembra Pasaules bērnu diena un 1. jūnija Starptautiskā bērnu aizsardzības diena ir divi atšķirīgi kalendāra ieraksti. "
+          },
+          {
+            "text": "Kalendāra piezīmē",
+            "url": "/dienas-kalendars/"
+          },
+          {
+            "text": " atsevišķi pieraksti izvēlēto norisi un tās avotu, lai gadskārtējais nosaukums netiktu sajaukts ar vienas vietas vai konfesijas programmu. Salīdzini arī šajā lapā norādītās saistītās tēmas un pirmavotus."
+          }
+        ]
+      ]
+    },
+    "/svetki-un-tradicijas/pasaules-bisu-diena/": {
+      "heading": "Datuma pamats un personīgā plāna izvēle",
+      "paragraphs": [
+        "Tēmas «Pasaules bišu diena: 20. maijs» aprēķināto vai fiksēto datumu piemēri 2027.–2030. gada tvērumā: 2027. gada 20. maijs (ceturtdiena); 2030. gada 20. maijs (pirmdiena). Tie ir kalendāra atskaites datumi, nevis automātiski apstiprināta pasākumu programma. No šī temata nosaukuma nevar secināt vispārēju darba brīvdienu Latvijā.",
+        "Plānojot «Pasaules bišu diena: 20. maijs», ievēro šo atšķirību: Apputeksnētāju aktivitāte ir atkarīga no sugas, laikapstākļiem un vietējās sezonas. Kalendāra piezīmē atsevišķi pieraksti izvēlēto norisi un tās avotu, lai gadskārtējais nosaukums netiktu sajaukts ar vienas vietas vai konfesijas programmu. Salīdzini arī šajā lapā norādītās saistītās tēmas un pirmavotus."
+      ],
+      "icon": "culture",
+      "sources": [],
+      "related": [
+        {
+          "url": "/sejas-kalendars/",
+          "title": "Sējas un stādīšanas kalendārs"
+        },
+        {
+          "url": "/dienas-kalendars/",
+          "title": "Dienas kalendārs"
+        }
+      ],
+      "basis": {
+        "dateModel": "fixed",
+        "dates": [
+          "2027-05-20",
+          "2028-05-20",
+          "2029-05-20",
+          "2030-05-20"
+        ]
+      },
+      "linkedParagraphs": [
+        [
+          {
+            "text": "Tēmas «Pasaules bišu diena: 20. maijs» aprēķināto vai fiksēto datumu piemēri 2027.–2030. gada tvērumā: 2027. gada 20. maijs (ceturtdiena); 2030. gada 20. maijs (pirmdiena). Tie ir kalendāra atskaites datumi, nevis automātiski apstiprināta pasākumu programma. No šī temata nosaukuma nevar secināt vispārēju "
+          },
+          {
+            "text": "darba brīvdienu Latvijā",
+            "url": "/svetku-dienas/"
+          },
+          {
+            "text": "."
+          }
+        ],
+        [
+          {
+            "text": "Plānojot «Pasaules bišu diena: 20. maijs», ievēro šo atšķirību: Apputeksnētāju aktivitāte ir atkarīga no sugas, laikapstākļiem un vietējās sezonas. "
+          },
+          {
+            "text": "Kalendāra piezīmē",
+            "url": "/dienas-kalendars/"
+          },
+          {
+            "text": " atsevišķi pieraksti izvēlēto norisi un tās avotu, lai gadskārtējais nosaukums netiktu sajaukts ar vienas vietas vai konfesijas programmu. Salīdzini arī šajā lapā norādītās saistītās tēmas un pirmavotus."
+          }
+        ]
+      ]
+    },
+    "/svetki-un-tradicijas/pasaules-dzivnieku-diena/": {
+      "heading": "Datuma pamats un personīgā plāna izvēle",
+      "paragraphs": [
+        "Tēmas «Pasaules dzīvnieku diena: 4. oktobris» aprēķināto vai fiksēto datumu piemēri 2027.–2030. gada tvērumā: 2027. gada 4. oktobris (pirmdiena); 2030. gada 4. oktobris (piektdiena). Tie ir kalendāra atskaites datumi, nevis automātiski apstiprināta pasākumu programma. No šī temata nosaukuma nevar secināt vispārēju darba brīvdienu Latvijā.",
+        "Plānojot «Pasaules dzīvnieku diena: 4. oktobris», ievēro šo atšķirību: Organizāciju un vietējo pasākumu programmas var mainīties katru gadu. Kalendāra piezīmē atsevišķi pieraksti izvēlēto norisi un tās avotu, lai gadskārtējais nosaukums netiktu sajaukts ar vienas vietas vai konfesijas programmu. Salīdzini arī šajā lapā norādītās saistītās tēmas un pirmavotus."
+      ],
+      "icon": "culture",
+      "sources": [],
+      "related": [
+        {
+          "url": "/dienas-kalendars/",
+          "title": "Dienas kalendārs"
+        }
+      ],
+      "basis": {
+        "dateModel": "fixed",
+        "dates": [
+          "2027-10-04",
+          "2028-10-04",
+          "2029-10-04",
+          "2030-10-04"
+        ]
+      },
+      "linkedParagraphs": [
+        [
+          {
+            "text": "Tēmas «Pasaules dzīvnieku diena: 4. oktobris» aprēķināto vai fiksēto datumu piemēri 2027.–2030. gada tvērumā: 2027. gada 4. oktobris (pirmdiena); 2030. gada 4. oktobris (piektdiena). Tie ir kalendāra atskaites datumi, nevis automātiski apstiprināta pasākumu programma. No šī temata nosaukuma nevar secināt vispārēju "
+          },
+          {
+            "text": "darba brīvdienu Latvijā",
+            "url": "/svetku-dienas/"
+          },
+          {
+            "text": "."
+          }
+        ],
+        [
+          {
+            "text": "Plānojot «Pasaules dzīvnieku diena: 4. oktobris», ievēro šo atšķirību: Organizāciju un vietējo pasākumu programmas var mainīties katru gadu. "
+          },
+          {
+            "text": "Kalendāra piezīmē",
+            "url": "/dienas-kalendars/"
+          },
+          {
+            "text": " atsevišķi pieraksti izvēlēto norisi un tās avotu, lai gadskārtējais nosaukums netiktu sajaukts ar vienas vietas vai konfesijas programmu. Salīdzini arī šajā lapā norādītās saistītās tēmas un pirmavotus."
+          }
+        ]
+      ]
+    },
+    "/svetki-un-tradicijas/pasaules-gramatu-diena/": {
+      "heading": "Datuma pamats un personīgā plāna izvēle",
+      "paragraphs": [
+        "Tēmas «Pasaules grāmatu un autortiesību diena: 23. aprīlis» aprēķināto vai fiksēto datumu piemēri 2027.–2030. gada tvērumā: 2027. gada 23. aprīlis (piektdiena); 2030. gada 23. aprīlis (otrdiena). Tie ir kalendāra atskaites datumi, nevis automātiski apstiprināta pasākumu programma. No šī temata nosaukuma nevar secināt vispārēju darba brīvdienu Latvijā.",
+        "Plānojot «Pasaules grāmatu un autortiesību diena: 23. aprīlis», ievēro šo atšķirību: Pasaules grāmatu dienu atzīmē 23. aprīlī. UNESCO Pasaules grāmatu galvaspilsēta ir atsevišķa ikgadēja programma. Kalendāra piezīmē atsevišķi pieraksti izvēlēto norisi un tās avotu, lai gadskārtējais nosaukums netiktu sajaukts ar vienas vietas vai konfesijas programmu. Salīdzini arī šajā lapā norādītās saistītās tēmas un pirmavotus."
+      ],
+      "icon": "culture",
+      "sources": [],
+      "related": [
+        {
+          "url": "/stundu-saraksts/",
+          "title": "Stundu saraksts"
+        },
+        {
+          "url": "/dienas-kalendars/",
+          "title": "Dienas kalendārs"
+        }
+      ],
+      "basis": {
+        "dateModel": "fixed",
+        "dates": [
+          "2027-04-23",
+          "2028-04-23",
+          "2029-04-23",
+          "2030-04-23"
+        ]
+      },
+      "linkedParagraphs": [
+        [
+          {
+            "text": "Tēmas «Pasaules grāmatu un autortiesību diena: 23. aprīlis» aprēķināto vai fiksēto datumu piemēri 2027.–2030. gada tvērumā: 2027. gada 23. aprīlis (piektdiena); 2030. gada 23. aprīlis (otrdiena). Tie ir kalendāra atskaites datumi, nevis automātiski apstiprināta pasākumu programma. No šī temata nosaukuma nevar secināt vispārēju "
+          },
+          {
+            "text": "darba brīvdienu Latvijā",
+            "url": "/svetku-dienas/"
+          },
+          {
+            "text": "."
+          }
+        ],
+        [
+          {
+            "text": "Plānojot «Pasaules grāmatu un autortiesību diena: 23. aprīlis», ievēro šo atšķirību: Pasaules grāmatu dienu atzīmē 23. aprīlī. UNESCO Pasaules grāmatu galvaspilsēta ir atsevišķa ikgadēja programma. "
+          },
+          {
+            "text": "Kalendāra piezīmē",
+            "url": "/dienas-kalendars/"
+          },
+          {
+            "text": " atsevišķi pieraksti izvēlēto norisi un tās avotu, lai gadskārtējais nosaukums netiktu sajaukts ar vienas vietas vai konfesijas programmu. Salīdzini arī šajā lapā norādītās saistītās tēmas un pirmavotus."
+          }
+        ]
+      ]
+    },
+    "/svetki-un-tradicijas/pasaules-udens-diena/": {
+      "heading": "Datuma pamats un personīgā plāna izvēle",
+      "paragraphs": [
+        "Tēmas «Pasaules ūdens diena: 22. marts» aprēķināto vai fiksēto datumu piemēri 2027.–2030. gada tvērumā: 2027. gada 22. marts (pirmdiena); 2030. gada 22. marts (piektdiena). Tie ir kalendāra atskaites datumi, nevis automātiski apstiprināta pasākumu programma. No šī temata nosaukuma nevar secināt vispārēju darba brīvdienu Latvijā.",
+        "Plānojot «Pasaules ūdens diena: 22. marts», ievēro šo atšķirību: Pasaules ūdens dienas datums ir 22. marts; ikgadējās kampaņas tēma var mainīties. Kalendāra piezīmē atsevišķi pieraksti izvēlēto norisi un tās avotu, lai gadskārtējais nosaukums netiktu sajaukts ar vienas vietas vai konfesijas programmu. Salīdzini arī šajā lapā norādītās saistītās tēmas un pirmavotus."
+      ],
+      "icon": "culture",
+      "sources": [],
+      "related": [
+        {
+          "url": "/dienas-kalendars/",
+          "title": "Dienas kalendārs"
+        }
+      ],
+      "basis": {
+        "dateModel": "fixed",
+        "dates": [
+          "2027-03-22",
+          "2028-03-22",
+          "2029-03-22",
+          "2030-03-22"
+        ]
+      },
+      "linkedParagraphs": [
+        [
+          {
+            "text": "Tēmas «Pasaules ūdens diena: 22. marts» aprēķināto vai fiksēto datumu piemēri 2027.–2030. gada tvērumā: 2027. gada 22. marts (pirmdiena); 2030. gada 22. marts (piektdiena). Tie ir kalendāra atskaites datumi, nevis automātiski apstiprināta pasākumu programma. No šī temata nosaukuma nevar secināt vispārēju "
+          },
+          {
+            "text": "darba brīvdienu Latvijā",
+            "url": "/svetku-dienas/"
+          },
+          {
+            "text": "."
+          }
+        ],
+        [
+          {
+            "text": "Plānojot «Pasaules ūdens diena: 22. marts», ievēro šo atšķirību: Pasaules ūdens dienas datums ir 22. marts; ikgadējās kampaņas tēma var mainīties. "
+          },
+          {
+            "text": "Kalendāra piezīmē",
+            "url": "/dienas-kalendars/"
+          },
+          {
+            "text": " atsevišķi pieraksti izvēlēto norisi un tās avotu, lai gadskārtējais nosaukums netiktu sajaukts ar vienas vietas vai konfesijas programmu. Salīdzini arī šajā lapā norādītās saistītās tēmas un pirmavotus."
+          }
+        ]
+      ]
+    },
+    "/svetki-un-tradicijas/pasaules-vides-diena/": {
+      "heading": "Datuma pamats un personīgā plāna izvēle",
+      "paragraphs": [
+        "Tēmas «Pasaules vides diena: 5. jūnijs» aprēķināto vai fiksēto datumu piemēri 2027.–2030. gada tvērumā: 2027. gada 5. jūnijs (sestdiena); 2030. gada 5. jūnijs (trešdiena). Tie ir kalendāra atskaites datumi, nevis automātiski apstiprināta pasākumu programma. No šī temata nosaukuma nevar secināt vispārēju darba brīvdienu Latvijā.",
+        "Plānojot «Pasaules vides diena: 5. jūnijs», ievēro šo atšķirību: Šī ir starptautiska atzīmējamā diena; Latvijā tā nav vispārēja darba brīvdiena. Kalendāra piezīmē atsevišķi pieraksti izvēlēto norisi un tās avotu, lai gadskārtējais nosaukums netiktu sajaukts ar vienas vietas vai konfesijas programmu. Salīdzini arī šajā lapā norādītās saistītās tēmas un pirmavotus."
+      ],
+      "icon": "culture",
+      "sources": [],
+      "related": [
+        {
+          "url": "/dienas-kalendars/",
+          "title": "Dienas kalendārs"
+        },
+        {
+          "url": "/saullekts-saulriets/",
+          "title": "Saullēkts un saulriets"
+        }
+      ],
+      "basis": {
+        "dateModel": "fixed",
+        "dates": [
+          "2027-06-05",
+          "2028-06-05",
+          "2029-06-05",
+          "2030-06-05"
+        ]
+      },
+      "linkedParagraphs": [
+        [
+          {
+            "text": "Tēmas «Pasaules vides diena: 5. jūnijs» aprēķināto vai fiksēto datumu piemēri 2027.–2030. gada tvērumā: 2027. gada 5. jūnijs (sestdiena); 2030. gada 5. jūnijs (trešdiena). Tie ir kalendāra atskaites datumi, nevis automātiski apstiprināta pasākumu programma. No šī temata nosaukuma nevar secināt vispārēju "
+          },
+          {
+            "text": "darba brīvdienu Latvijā",
+            "url": "/svetku-dienas/"
+          },
+          {
+            "text": "."
+          }
+        ],
+        [
+          {
+            "text": "Plānojot «Pasaules vides diena: 5. jūnijs», ievēro šo atšķirību: Šī ir starptautiska atzīmējamā diena; Latvijā tā nav vispārēja darba brīvdiena. "
+          },
+          {
+            "text": "Kalendāra piezīmē",
+            "url": "/dienas-kalendars/"
+          },
+          {
+            "text": " atsevišķi pieraksti izvēlēto norisi un tās avotu, lai gadskārtējais nosaukums netiktu sajaukts ar vienas vietas vai konfesijas programmu. Salīdzini arī šajā lapā norādītās saistītās tēmas un pirmavotus."
+          }
+        ]
+      ]
+    },
     "/svetki-un-tradicijas/pavasara-ekvinokcija/": {
       "heading": "Datuma pamats un personīgā plāna izvēle",
       "paragraphs": [
@@ -47496,9 +47856,7 @@
         "Plānojot «Pavasara ekvinokcija: astronomiskais brīdis Latvijā», ievēro šo atšķirību: Ekvinokcijas brīdis katru gadu tiek noteikts atsevišķi un parādīts pēc Latvijas laika. Kalendāra piezīmē atsevišķi pieraksti izvēlēto norisi un tās avotu, lai gadskārtējais nosaukums netiktu sajaukts ar vienas vietas vai konfesijas programmu. Salīdzini arī šajā lapā norādītās saistītās tēmas un pirmavotus."
       ],
       "icon": "culture",
-      "sources": [
-
-      ],
+      "sources": [],
       "related": [
         {
           "url": "/gadalaiki/",
@@ -47545,6 +47903,48 @@
         ]
       ]
     },
+    "/svetki-un-tradicijas/pavasara-tradicijas/": {
+      "heading": "Datuma pamats un personīgā plāna izvēle",
+      "paragraphs": [
+        "«Pavasara tradīcijas Latvijā: Meteņi, Lieldienas un ekvinokcija» nav attēlots kā viens visiem Latvijas notikumiem obligāts datums. Pavasara tradīcijām nav viena kopīga Latvijas datuma. Atver katru kalendāru atsevišķi un ievēro tajā norādīto tradīciju vai aprēķina principu. Pirms saglabā personīgu plānu, izvēlies, uz kuru tradīciju vai konkrēto pasākumu tas attiecas.",
+        "Plānojot «Pavasara tradīcijas Latvijā: Meteņi, Lieldienas un ekvinokcija», ievēro šo atšķirību: Pavasara tradīcijas un pasākumu norises laiki dažādos Latvijas novados var atšķirties. Kalendāra piezīmē atsevišķi pieraksti izvēlēto norisi un tās avotu, lai gadskārtējais nosaukums netiktu sajaukts ar vienas vietas vai konfesijas programmu. Salīdzini arī šajā lapā norādītās saistītās tēmas un pirmavotus."
+      ],
+      "icon": "culture",
+      "sources": [],
+      "related": [
+        {
+          "url": "/gadalaiki/",
+          "title": "Astronomisko gadalaiku sākumi"
+        },
+        {
+          "url": "/menesa-kalendars/",
+          "title": "Mēneša kalendārs"
+        }
+      ],
+      "basis": {
+        "dateModel": "latvian-spring",
+        "dates": []
+      },
+      "linkedParagraphs": [
+        [
+          {
+            "text": "«Pavasara tradīcijas Latvijā: Meteņi, Lieldienas un ekvinokcija» nav attēlots kā viens visiem Latvijas notikumiem obligāts datums. Pavasara tradīcijām nav viena kopīga Latvijas datuma. Atver katru kalendāru atsevišķi un ievēro tajā norādīto tradīciju vai aprēķina principu. Pirms saglabā personīgu plānu, izvēlies, uz kuru tradīciju vai konkrēto pasākumu tas attiecas."
+          }
+        ],
+        [
+          {
+            "text": "Plānojot «Pavasara tradīcijas Latvijā: Meteņi, Lieldienas un ekvinokcija», ievēro šo atšķirību: Pavasara tradīcijas un pasākumu norises laiki dažādos Latvijas novados var atšķirties. "
+          },
+          {
+            "text": "Kalendāra piezīmē",
+            "url": "/dienas-kalendars/"
+          },
+          {
+            "text": " atsevišķi pieraksti izvēlēto norisi un tās avotu, lai gadskārtējais nosaukums netiktu sajaukts ar vienas vietas vai konfesijas programmu. Salīdzini arī šajā lapā norādītās saistītās tēmas un pirmavotus."
+          }
+        ]
+      ]
+    },
     "/svetki-un-tradicijas/policijas-darbinieku-diena/": {
       "heading": "Policijas darbinieku diena: kalendāra ieraksts savā plānā",
       "paragraphs": [
@@ -47552,9 +47952,7 @@
         "Personiska plāna piemērs tēmai «Policijas darbinieku diena»: atskaites datums ir 2027. gada 5. decembris, bet vienas nedēļas sagatavošanās atgādinājums — 2027. gada 28. novembris. Tas nav rīkotāja izziņots pasākuma grafiks. Dalībai pievieno norises vietu, sākuma laiku un programmas saiti atsevišķi no kalendārā norādītā nosaukuma."
       ],
       "icon": "culture",
-      "sources": [
-
-      ],
+      "sources": [],
       "related": [
         {
           "url": "/dienas-kalendars/",
@@ -47597,9 +47995,7 @@
         "Plānojot «Pūpolu svētdiena: datums un Lielās nedēļas sākums», ievēro šo atšķirību: Pūpolu svētdiena ir vienu nedēļu pirms Lieldienām; tā atšķiras no Pelnu trešdienas un Meteņiem. Kalendāra piezīmē atsevišķi pieraksti izvēlēto norisi un tās avotu, lai gadskārtējais nosaukums netiktu sajaukts ar vienas vietas vai konfesijas programmu. Salīdzini arī šajā lapā norādītās saistītās tēmas un pirmavotus."
       ],
       "icon": "culture",
-      "sources": [
-
-      ],
+      "sources": [],
       "related": [
         {
           "url": "/datumu-kalkulators/",
@@ -47653,9 +48049,7 @@
         "Personiska plāna piemērs tēmai «Robežsargu diena»: atskaites datums ir 2027. gada 7. novembris, bet vienas nedēļas sagatavošanās atgādinājums — 2027. gada 31. oktobris. Tas nav rīkotāja izziņots pasākuma grafiks. Dalībai pievieno norises vietu, sākuma laiku un programmas saiti atsevišķi no kalendārā norādītā nosaukuma."
       ],
       "icon": "culture",
-      "sources": [
-
-      ],
+      "sources": [],
       "related": [
         {
           "url": "/dienas-kalendars/",
@@ -47698,9 +48092,7 @@
         "Plānojot «Rudens ekvinokcija: astronomiskais brīdis Latvijā», ievēro šo atšķirību: Ekvinokcijas brīdis katru gadu tiek noteikts atsevišķi un parādīts pēc Latvijas laika. Kalendāra piezīmē atsevišķi pieraksti izvēlēto norisi un tās avotu, lai gadskārtējais nosaukums netiktu sajaukts ar vienas vietas vai konfesijas programmu. Salīdzini arī šajā lapā norādītās saistītās tēmas un pirmavotus."
       ],
       "icon": "culture",
-      "sources": [
-
-      ],
+      "sources": [],
       "related": [
         {
           "url": "/gadalaiki/",
@@ -47754,9 +48146,7 @@
         "Personiska plāna piemērs tēmai «Saulgrieži»: atskaites datums ir 2027. gada 21. jūnijs, bet vienas nedēļas sagatavošanās atgādinājums — 2027. gada 14. jūnijs. Tas nav rīkotāja izziņots pasākuma grafiks. Dalībai pievieno norises vietu, sākuma laiku un programmas saiti atsevišķi no kalendārā norādītā nosaukuma."
       ],
       "icon": "culture",
-      "sources": [
-
-      ],
+      "sources": [],
       "related": [
         {
           "url": "/gadalaiki/",
@@ -47807,9 +48197,7 @@
         "Personiska plāna piemērs tēmai «Skolotāju diena»: atskaites datums ir 2027. gada 5. oktobris, bet vienas nedēļas sagatavošanās atgādinājums — 2027. gada 28. septembris. Tas nav rīkotāja izziņots pasākuma grafiks. Dalībai pievieno norises vietu, sākuma laiku un programmas saiti atsevišķi no kalendārā norādītā nosaukuma."
       ],
       "icon": "culture",
-      "sources": [
-
-      ],
+      "sources": [],
       "related": [
         {
           "url": "/skolas-kalendars/",
@@ -47856,9 +48244,7 @@
         "Personiska plāna piemērs tēmai «Staļinisma un nacisma upuru atceres diena»: atskaites datums ir 2027. gada 23. augusts, bet vienas nedēļas sagatavošanās atgādinājums — 2027. gada 16. augusts. Tas nav rīkotāja izziņots pasākuma grafiks. Dalībai pievieno norises vietu, sākuma laiku un programmas saiti atsevišķi no kalendārā norādītā nosaukuma."
       ],
       "icon": "memorial",
-      "sources": [
-
-      ],
+      "sources": [],
       "related": [
         {
           "url": "/atceres-dienas/",
@@ -47905,9 +48291,7 @@
         "Personiska plāna piemērs tēmai «Starptautiskā ģimenes diena»: atskaites datums ir 2027. gada 15. maijs, bet vienas nedēļas sagatavošanās atgādinājums — 2027. gada 8. maijs. Tas nav rīkotāja izziņots pasākuma grafiks. Dalībai pievieno norises vietu, sākuma laiku un programmas saiti atsevišķi no kalendārā norādītā nosaukuma."
       ],
       "icon": "culture",
-      "sources": [
-
-      ],
+      "sources": [],
       "related": [
         {
           "url": "/gimenes-kalendars/",
@@ -47950,9 +48334,7 @@
         "Personiska plāna piemērs tēmai «Starptautiskā nevalstisko organizāciju diena»: atskaites datums ir 2027. gada 27. februāris, bet vienas nedēļas sagatavošanās atgādinājums — 2027. gada 20. februāris. Tas nav rīkotāja izziņots pasākuma grafiks. Dalībai pievieno norises vietu, sākuma laiku un programmas saiti atsevišķi no kalendārā norādītā nosaukuma."
       ],
       "icon": "culture",
-      "sources": [
-
-      ],
+      "sources": [],
       "related": [
         {
           "url": "/dienas-kalendars/",
@@ -47995,9 +48377,7 @@
         "Personiska plāna piemērs tēmai «Starptautiskā senioru diena»: atskaites datums ir 2027. gada 1. oktobris, bet vienas nedēļas sagatavošanās atgādinājums — 2027. gada 24. septembris. Tas nav rīkotāja izziņots pasākuma grafiks. Dalībai pievieno norises vietu, sākuma laiku un programmas saiti atsevišķi no kalendārā norādītā nosaukuma."
       ],
       "icon": "culture",
-      "sources": [
-
-      ],
+      "sources": [],
       "related": [
         {
           "url": "/gimenes-kalendars/",
@@ -48044,9 +48424,7 @@
         "Personiska plāna piemērs tēmai «Starptautiskā sieviešu diena»: atskaites datums ir 2027. gada 8. marts, bet vienas nedēļas sagatavošanās atgādinājums — 2027. gada 1. marts. Tas nav rīkotāja izziņots pasākuma grafiks. Dalībai pievieno norises vietu, sākuma laiku un programmas saiti atsevišķi no kalendārā norādītā nosaukuma."
       ],
       "icon": "culture",
-      "sources": [
-
-      ],
+      "sources": [],
       "related": [
         {
           "url": "/dienas-kalendars/",
@@ -48082,6 +48460,56 @@
         ]
       ]
     },
+    "/svetki-un-tradicijas/sveta-nikolaja-diena/": {
+      "heading": "Datuma pamats un personīgā plāna izvēle",
+      "paragraphs": [
+        "Tēmas «Svētā Nikolaja diena: 6. decembris katoļu kalendārā» aprēķināto vai fiksēto datumu piemēri 2027.–2030. gada tvērumā: 2027. gada 6. decembris (pirmdiena); 2030. gada 6. decembris (piektdiena). Tie ir kalendāra atskaites datumi, nevis automātiski apstiprināta pasākumu programma. No šī temata nosaukuma nevar secināt vispārēju darba brīvdienu Latvijā.",
+        "Plānojot «Svētā Nikolaja diena: 6. decembris katoļu kalendārā», ievēro šo atšķirību: Reliģisks piemiņas datums; tas nav Latvijas valsts svētku vai vispārēja darba brīvdiena. Kalendāra piezīmē atsevišķi pieraksti izvēlēto norisi un tās avotu, lai gadskārtējais nosaukums netiktu sajaukts ar vienas vietas vai konfesijas programmu. Salīdzini arī šajā lapā norādītās saistītās tēmas un pirmavotus."
+      ],
+      "icon": "culture",
+      "sources": [],
+      "related": [
+        {
+          "url": "/dienas-kalendars/",
+          "title": "Dienas kalendārs"
+        }
+      ],
+      "basis": {
+        "dateModel": "fixed",
+        "dates": [
+          "2027-12-06",
+          "2028-12-06",
+          "2029-12-06",
+          "2030-12-06"
+        ]
+      },
+      "linkedParagraphs": [
+        [
+          {
+            "text": "Tēmas «Svētā Nikolaja diena: 6. decembris katoļu kalendārā» aprēķināto vai fiksēto datumu piemēri 2027.–2030. gada tvērumā: 2027. gada 6. decembris (pirmdiena); 2030. gada 6. decembris (piektdiena). Tie ir kalendāra atskaites datumi, nevis automātiski apstiprināta pasākumu programma. No šī temata nosaukuma nevar secināt vispārēju "
+          },
+          {
+            "text": "darba brīvdienu Latvijā",
+            "url": "/svetku-dienas/"
+          },
+          {
+            "text": "."
+          }
+        ],
+        [
+          {
+            "text": "Plānojot «Svētā Nikolaja diena: 6. decembris katoļu kalendārā», ievēro šo atšķirību: Reliģisks piemiņas datums; tas nav Latvijas valsts svētku vai vispārēja darba brīvdiena. "
+          },
+          {
+            "text": "Kalendāra piezīmē",
+            "url": "/dienas-kalendars/"
+          },
+          {
+            "text": " atsevišķi pieraksti izvēlēto norisi un tās avotu, lai gadskārtējais nosaukums netiktu sajaukts ar vienas vietas vai konfesijas programmu. Salīdzini arī šajā lapā norādītās saistītās tēmas un pirmavotus."
+          }
+        ]
+      ]
+    },
     "/svetki-un-tradicijas/tevu-diena/": {
       "heading": "Tēva diena: kalendāra ieraksts savā plānā",
       "paragraphs": [
@@ -48089,9 +48517,7 @@
         "Personiska plāna piemērs tēmai «Tēva diena»: atskaites datums ir 2027. gada 12. septembris, bet vienas nedēļas sagatavošanās atgādinājums — 2027. gada 5. septembris. Tas nav rīkotāja izziņots pasākuma grafiks. Dalībai pievieno norises vietu, sākuma laiku un programmas saiti atsevišķi no kalendārā norādītā nosaukuma."
       ],
       "icon": "culture",
-      "sources": [
-
-      ],
+      "sources": [],
       "related": [
         {
           "url": "/gimenes-kalendars/",
@@ -48138,9 +48564,7 @@
         "Personiska plāna piemērs tēmai «Pret latviešu tautu vērstā totalitārā komunistiskā režīma genocīda upuru piemiņas diena»: atskaites datums ir 2027. gada 5. decembris, bet vienas nedēļas sagatavošanās atgādinājums — 2027. gada 28. novembris. Tas nav rīkotāja izziņots pasākuma grafiks. Dalībai pievieno norises vietu, sākuma laiku un programmas saiti atsevišķi no kalendārā norādītā nosaukuma."
       ],
       "icon": "memorial",
-      "sources": [
-
-      ],
+      "sources": [],
       "related": [
         {
           "url": "/atceres-dienas/",
@@ -48180,6 +48604,56 @@
         ]
       ]
     },
+    "/svetki-un-tradicijas/totalitaro-rezimu-upuru-pieminas-diena/": {
+      "heading": "Datuma pamats un personīgā plāna izvēle",
+      "paragraphs": [
+        "Tēmas «Staļinisma un nacisma upuru atceres diena: 23. augusts» aprēķināto vai fiksēto datumu piemēri 2027.–2030. gada tvērumā: 2027. gada 23. augusts (pirmdiena); 2030. gada 23. augusts (piektdiena). Tie ir kalendāra atskaites datumi, nevis automātiski apstiprināta pasākumu programma. No šī temata nosaukuma nevar secināt vispārēju darba brīvdienu Latvijā.",
+        "Plānojot «Staļinisma un nacisma upuru atceres diena: 23. augusts», ievēro šo atšķirību: Latvijas atceres dienas nosaukums ir norādīts pēc spēkā esošā likuma. Kalendāra piezīmē atsevišķi pieraksti izvēlēto norisi un tās avotu, lai gadskārtējais nosaukums netiktu sajaukts ar vienas vietas vai konfesijas programmu. Salīdzini arī šajā lapā norādītās saistītās tēmas un pirmavotus."
+      ],
+      "icon": "culture",
+      "sources": [],
+      "related": [
+        {
+          "url": "/dienas-kalendars/",
+          "title": "Dienas kalendārs"
+        }
+      ],
+      "basis": {
+        "dateModel": "fixed",
+        "dates": [
+          "2027-08-23",
+          "2028-08-23",
+          "2029-08-23",
+          "2030-08-23"
+        ]
+      },
+      "linkedParagraphs": [
+        [
+          {
+            "text": "Tēmas «Staļinisma un nacisma upuru atceres diena: 23. augusts» aprēķināto vai fiksēto datumu piemēri 2027.–2030. gada tvērumā: 2027. gada 23. augusts (pirmdiena); 2030. gada 23. augusts (piektdiena). Tie ir kalendāra atskaites datumi, nevis automātiski apstiprināta pasākumu programma. No šī temata nosaukuma nevar secināt vispārēju "
+          },
+          {
+            "text": "darba brīvdienu Latvijā",
+            "url": "/svetku-dienas/"
+          },
+          {
+            "text": "."
+          }
+        ],
+        [
+          {
+            "text": "Plānojot «Staļinisma un nacisma upuru atceres diena: 23. augusts», ievēro šo atšķirību: Latvijas atceres dienas nosaukums ir norādīts pēc spēkā esošā likuma. "
+          },
+          {
+            "text": "Kalendāra piezīmē",
+            "url": "/dienas-kalendars/"
+          },
+          {
+            "text": " atsevišķi pieraksti izvēlēto norisi un tās avotu, lai gadskārtējais nosaukums netiktu sajaukts ar vienas vietas vai konfesijas programmu. Salīdzini arī šajā lapā norādītās saistītās tēmas un pirmavotus."
+          }
+        ]
+      ]
+    },
     "/svetki-un-tradicijas/ugunsdzeseju-un-glabeju-diena/": {
       "heading": "Ugunsdzēsēju un glābēju diena: kalendāra ieraksts savā plānā",
       "paragraphs": [
@@ -48187,9 +48661,7 @@
         "Personiska plāna piemērs tēmai «Ugunsdzēsēju un glābēju diena»: atskaites datums ir 2027. gada 17. maijs, bet vienas nedēļas sagatavošanās atgādinājums — 2027. gada 10. maijs. Tas nav rīkotāja izziņots pasākuma grafiks. Dalībai pievieno norises vietu, sākuma laiku un programmas saiti atsevišķi no kalendārā norādītā nosaukuma."
       ],
       "icon": "culture",
-      "sources": [
-
-      ],
+      "sources": [],
       "related": [
         {
           "url": "/dienas-kalendars/",
@@ -48232,9 +48704,7 @@
         "Plānojot «Valentīndiena: datums un Mīlestības diena Latvijā», ievēro šo atšķirību: Valentīndiena Latvijā ir mūsdienu kultūras tradīcija. Kalendāra piezīmē atsevišķi pieraksti izvēlēto norisi un tās avotu, lai gadskārtējais nosaukums netiktu sajaukts ar vienas vietas vai konfesijas programmu. Salīdzini arī šajā lapā norādītās saistītās tēmas un pirmavotus."
       ],
       "icon": "culture",
-      "sources": [
-
-      ],
+      "sources": [],
       "related": [
         {
           "url": "/gimenes-kalendars/",
@@ -48288,9 +48758,7 @@
         "Personiska plāna piemērs tēmai «Valsts valodas diena»: atskaites datums ir 2027. gada 15. oktobris, bet vienas nedēļas sagatavošanās atgādinājums — 2027. gada 8. oktobris. Tas nav rīkotāja izziņots pasākuma grafiks. Dalībai pievieno norises vietu, sākuma laiku un programmas saiti atsevišķi no kalendārā norādītā nosaukuma."
       ],
       "icon": "culture",
-      "sources": [
-
-      ],
+      "sources": [],
       "related": [
         {
           "url": "/dienas-kalendars/",
@@ -48337,9 +48805,7 @@
         "Personiska plāna piemērs tēmai «Varoņu piemiņas diena (Cēsu kaujas atceres diena)»: atskaites datums ir 2027. gada 22. jūnijs, bet vienas nedēļas sagatavošanās atgādinājums — 2027. gada 15. jūnijs. Tas nav rīkotāja izziņots pasākuma grafiks. Dalībai pievieno norises vietu, sākuma laiku un programmas saiti atsevišķi no kalendārā norādītā nosaukuma."
       ],
       "icon": "memorial",
-      "sources": [
-
-      ],
+      "sources": [],
       "related": [
         {
           "url": "/atceres-dienas/",
@@ -48386,9 +48852,7 @@
         "Personiska plāna piemērs tēmai «Vasaras saulgrieži»: atskaites datums ir 2027. gada 21. jūnijs, bet vienas nedēļas sagatavošanās atgādinājums — 2027. gada 14. jūnijs. Tas nav rīkotāja izziņots pasākuma grafiks. Dalībai pievieno norises vietu, sākuma laiku un programmas saiti atsevišķi no kalendārā norādītā nosaukuma."
       ],
       "icon": "culture",
-      "sources": [
-
-      ],
+      "sources": [],
       "related": [
         {
           "url": "/saullekts-saulriets/",
@@ -48435,9 +48899,7 @@
         "Personiska plāna piemērs tēmai «Vasarsvētki»: atskaites datums ir 2027. gada 16. maijs, bet vienas nedēļas sagatavošanās atgādinājums — 2027. gada 9. maijs. Tas nav rīkotāja izziņots pasākuma grafiks. Dalībai pievieno norises vietu, sākuma laiku un programmas saiti atsevišķi no kalendārā norādītā nosaukuma."
       ],
       "icon": "culture",
-      "sources": [
-
-      ],
+      "sources": [],
       "related": [
         {
           "url": "/datumu-kalkulators/",
@@ -48491,9 +48953,7 @@
         "Personiska plāna piemērs tēmai «Vecgada diena»: atskaites datums ir 2027. gada 31. decembris, bet vienas nedēļas sagatavošanās atgādinājums — 2027. gada 24. decembris. Tas nav rīkotāja izziņots pasākuma grafiks. Dalībai pievieno norises vietu, sākuma laiku un programmas saiti atsevišķi no kalendārā norādītā nosaukuma."
       ],
       "icon": "culture",
-      "sources": [
-
-      ],
+      "sources": [],
       "related": [
         {
           "url": "/nedelu-numuri/",
@@ -48540,6 +49000,60 @@
         ]
       ]
     },
+    "/svetki-un-tradicijas/zemes-diena/": {
+      "heading": "Datuma pamats un personīgā plāna izvēle",
+      "paragraphs": [
+        "Tēmas «Zemes diena: 22. aprīlis un Starptautiskā Mātes Zemes diena» aprēķināto vai fiksēto datumu piemēri 2027.–2030. gada tvērumā: 2027. gada 22. aprīlis (ceturtdiena); 2030. gada 22. aprīlis (pirmdiena). Tie ir kalendāra atskaites datumi, nevis automātiski apstiprināta pasākumu programma. No šī temata nosaukuma nevar secināt vispārēju darba brīvdienu Latvijā.",
+        "Plānojot «Zemes diena: 22. aprīlis un Starptautiskā Mātes Zemes diena», ievēro šo atšķirību: Zemes dienu atzīmē 22. aprīlī, bet Pasaules vides dienu — 5. jūnijā. Kalendāra piezīmē atsevišķi pieraksti izvēlēto norisi un tās avotu, lai gadskārtējais nosaukums netiktu sajaukts ar vienas vietas vai konfesijas programmu. Salīdzini arī šajā lapā norādītās saistītās tēmas un pirmavotus."
+      ],
+      "icon": "culture",
+      "sources": [],
+      "related": [
+        {
+          "url": "/dienas-kalendars/",
+          "title": "Dienas kalendārs"
+        },
+        {
+          "url": "/saullekts-saulriets/",
+          "title": "Saullēkts un saulriets"
+        }
+      ],
+      "basis": {
+        "dateModel": "fixed",
+        "dates": [
+          "2027-04-22",
+          "2028-04-22",
+          "2029-04-22",
+          "2030-04-22"
+        ]
+      },
+      "linkedParagraphs": [
+        [
+          {
+            "text": "Tēmas «Zemes diena: 22. aprīlis un Starptautiskā Mātes Zemes diena» aprēķināto vai fiksēto datumu piemēri 2027.–2030. gada tvērumā: 2027. gada 22. aprīlis (ceturtdiena); 2030. gada 22. aprīlis (pirmdiena). Tie ir kalendāra atskaites datumi, nevis automātiski apstiprināta pasākumu programma. No šī temata nosaukuma nevar secināt vispārēju "
+          },
+          {
+            "text": "darba brīvdienu Latvijā",
+            "url": "/svetku-dienas/"
+          },
+          {
+            "text": "."
+          }
+        ],
+        [
+          {
+            "text": "Plānojot «Zemes diena: 22. aprīlis un Starptautiskā Mātes Zemes diena», ievēro šo atšķirību: Zemes dienu atzīmē 22. aprīlī, bet Pasaules vides dienu — 5. jūnijā. "
+          },
+          {
+            "text": "Kalendāra piezīmē",
+            "url": "/dienas-kalendars/"
+          },
+          {
+            "text": " atsevišķi pieraksti izvēlēto norisi un tās avotu, lai gadskārtējais nosaukums netiktu sajaukts ar vienas vietas vai konfesijas programmu. Salīdzini arī šajā lapā norādītās saistītās tēmas un pirmavotus."
+          }
+        ]
+      ]
+    },
     "/svetki-un-tradicijas/ziemas-saulgriezi/": {
       "heading": "Ziemas saulgrieži: kalendāra ieraksts savā plānā",
       "paragraphs": [
@@ -48547,9 +49061,7 @@
         "Personiska plāna piemērs tēmai «Ziemas saulgrieži»: atskaites datums ir 2027. gada 22. decembris, bet vienas nedēļas sagatavošanās atgādinājums — 2027. gada 15. decembris. Tas nav rīkotāja izziņots pasākuma grafiks. Dalībai pievieno norises vietu, sākuma laiku un programmas saiti atsevišķi no kalendārā norādītā nosaukuma."
       ],
       "icon": "culture",
-      "sources": [
-
-      ],
+      "sources": [],
       "related": [
         {
           "url": "/saullekts-saulriets/",
@@ -48603,9 +49115,7 @@
         "Personiska plāna piemērs tēmai «Ziemassvētki»: atskaites datums ir 2027. gada 24. decembris, bet vienas nedēļas sagatavošanās atgādinājums — 2027. gada 17. decembris. Tas nav rīkotāja izziņots pasākuma grafiks. Dalībai pievieno norises vietu, sākuma laiku un programmas saiti atsevišķi no kalendārā norādītā nosaukuma."
       ],
       "icon": "culture",
-      "sources": [
-
-      ],
+      "sources": [],
       "related": [
         {
           "url": "/gimenes-kalendars/",
@@ -48667,9 +49177,7 @@
         "Personiska plāna piemērs tēmai «Zinību diena»: atskaites datums ir 2027. gada 1. septembris, bet vienas nedēļas sagatavošanās atgādinājums — 2027. gada 25. augusts. Tas nav rīkotāja izziņots pasākuma grafiks. Dalībai pievieno norises vietu, sākuma laiku un programmas saiti atsevišķi no kalendārā norādītā nosaukuma."
       ],
       "icon": "culture",
-      "sources": [
-
-      ],
+      "sources": [],
       "related": [
         {
           "url": "/skolas-kalendars/",
@@ -48716,9 +49224,7 @@
         "Personiska plāna piemērs tēmai «2013. gada 21. novembra traģēdijas atceres diena»: atskaites datums ir 2027. gada 21. novembris, bet vienas nedēļas sagatavošanās atgādinājums — 2027. gada 14. novembris. Tas nav rīkotāja izziņots pasākuma grafiks. Dalībai pievieno norises vietu, sākuma laiku un programmas saiti atsevišķi no kalendārā norādītā nosaukuma."
       ],
       "icon": "memorial",
-      "sources": [
-
-      ],
+      "sources": [],
       "related": [
         {
           "url": "/atceres-dienas/",
@@ -48765,9 +49271,7 @@
         "Plānojot «Zvaigznes diena: 6. janvāris un tradīcija», ievēro šo atšķirību: Zvaigznes diena ir reliģisku svētku diena; Latvijā tā nav vispārēja darba brīvdiena. Kalendāra piezīmē atsevišķi pieraksti izvēlēto norisi un tās avotu, lai gadskārtējais nosaukums netiktu sajaukts ar vienas vietas vai konfesijas programmu. Salīdzini arī šajā lapā norādītās saistītās tēmas un pirmavotus."
       ],
       "icon": "culture",
-      "sources": [
-
-      ],
+      "sources": [],
       "related": [
         {
           "url": "/dienas-kalendars/",
@@ -51734,9 +52238,7 @@
         "Izmanto vienu skaidru atzīmju sistēmu: piemēram, termiņus ieraksti pie datuma, bet papildu skaidrojumu atstāj piezīmju laukumā. Ja uz vienas lapas plāno vairāku cilvēku darbus, pie ieraksta pievieno iniciāļus. Pēc drukāšanas salīdzini pirmās un pēdējās nedēļas datumus, lai samazināts vai apgriezts izdrukas laukums nebūtu paslēpis kādu dienu."
       ],
       "icon": "planner",
-      "sources": [
-
-      ],
+      "sources": [],
       "related": [
         {
           "url": "/kalendars/",
@@ -52606,9 +53108,7 @@
         "Ikdienas plāniem izvēlies ģimenes kalendāru, stundu sarakstu vai maiņu grafiku. Pirms kopīgas atpūtas salīdzini atvaļinājuma plānu ar skolu brīvlaikiem. Ja interesē daba, atrodi savas pilsētas Saules laikus, Mēness fāzes vai sējas ieteikumus. Saglabātie rīki palīdzēs nākamreiz atgriezties pie biežāk izmantotajām iespējām."
       ],
       "icon": "calendar",
-      "sources": [
-
-      ],
+      "sources": [],
       "related": [
         {
           "url": "/kalendars/",
@@ -52635,9 +53135,7 @@
         "Salīdzinot zīmju aprakstus, pievērs uzmanību tematam, nevis uztver tekstu kā pierādītu personības vērtējumu. Dzimšanas datuma kalkulators sniedz tradicionālā iedalījuma rezultātu, bet individuālais apraksts ir izklaides lasāmviela. Praktiskai dienas plānošanai blakus simboliskajai tēmai vari saglabāt savu, konkrēti izpildāmu ieceri."
       ],
       "icon": "zodiac",
-      "sources": [
-
-      ],
+      "sources": [],
       "related": [
         {
           "url": "/kalendars/",
@@ -52675,760 +53173,6 @@
         ]
       ]
     },
-    "/svetki-un-tradicijas/holokausta-upuru-pieminas-diena/": {
-      "heading": "Datuma pamats un personīgā plāna izvēle",
-      "paragraphs": [
-        "Tēmas «Holokausta upuru piemiņas diena: 27. janvāris un Latvijas 4. jūlijs» aprēķināto vai fiksēto datumu piemēri 2027.–2030. gada tvērumā: 2027. gada 27. janvāris (trešdiena); 2030. gada 27. janvāris (svētdiena). Tie ir kalendāra atskaites datumi, nevis automātiski apstiprināta pasākumu programma. No šī temata nosaukuma nevar secināt vispārēju darba brīvdienu Latvijā.",
-        "Plānojot «Holokausta upuru piemiņas diena: 27. janvāris un Latvijas 4. jūlijs», ievēro šo atšķirību: Starptautiskās un Latvijas piemiņas dienas datumi un nosaukumi atšķiras. Kalendāra piezīmē atsevišķi pieraksti izvēlēto norisi un tās avotu, lai gadskārtējais nosaukums netiktu sajaukts ar vienas vietas vai konfesijas programmu. Salīdzini arī šajā lapā norādītās saistītās tēmas un pirmavotus."
-      ],
-      "icon": "culture",
-      "sources": [
-
-      ],
-      "related": [
-        {
-          "url": "/dienas-kalendars/",
-          "title": "Dienas kalendārs"
-        }
-      ],
-      "basis": {
-        "dateModel": "fixed",
-        "dates": [
-          "2027-01-27",
-          "2028-01-27",
-          "2029-01-27",
-          "2030-01-27"
-        ]
-      },
-      "linkedParagraphs": [
-        [
-          {
-            "text": "Tēmas «Holokausta upuru piemiņas diena: 27. janvāris un Latvijas 4. jūlijs» aprēķināto vai fiksēto datumu piemēri 2027.–2030. gada tvērumā: 2027. gada 27. janvāris (trešdiena); 2030. gada 27. janvāris (svētdiena). Tie ir kalendāra atskaites datumi, nevis automātiski apstiprināta pasākumu programma. No šī temata nosaukuma nevar secināt vispārēju "
-          },
-          {
-            "text": "darba brīvdienu Latvijā",
-            "url": "/svetku-dienas/"
-          },
-          {
-            "text": "."
-          }
-        ],
-        [
-          {
-            "text": "Plānojot «Holokausta upuru piemiņas diena: 27. janvāris un Latvijas 4. jūlijs», ievēro šo atšķirību: Starptautiskās un Latvijas piemiņas dienas datumi un nosaukumi atšķiras. "
-          },
-          {
-            "text": "Kalendāra piezīmē",
-            "url": "/dienas-kalendars/"
-          },
-          {
-            "text": " atsevišķi pieraksti izvēlēto norisi un tās avotu, lai gadskārtējais nosaukums netiktu sajaukts ar vienas vietas vai konfesijas programmu. Salīdzini arī šajā lapā norādītās saistītās tēmas un pirmavotus."
-          }
-        ]
-      ]
-    },
-    "/svetki-un-tradicijas/eiropas-valodu-diena/": {
-      "heading": "Datuma pamats un personīgā plāna izvēle",
-      "paragraphs": [
-        "Tēmas «Eiropas Valodu diena: 26. septembris un valodu daudzveidība» aprēķināto vai fiksēto datumu piemēri 2027.–2030. gada tvērumā: 2027. gada 26. septembris (svētdiena); 2030. gada 26. septembris (ceturtdiena). Tie ir kalendāra atskaites datumi, nevis automātiski apstiprināta pasākumu programma. No šī temata nosaukuma nevar secināt vispārēju darba brīvdienu Latvijā.",
-        "Plānojot «Eiropas Valodu diena: 26. septembris un valodu daudzveidība», ievēro šo atšķirību: Eiropas Padome noteica 26. septembri par ikgadēju Eiropas Valodu dienu. Kalendāra piezīmē atsevišķi pieraksti izvēlēto norisi un tās avotu, lai gadskārtējais nosaukums netiktu sajaukts ar vienas vietas vai konfesijas programmu. Salīdzini arī šajā lapā norādītās saistītās tēmas un pirmavotus."
-      ],
-      "icon": "culture",
-      "sources": [
-
-      ],
-      "related": [
-        {
-          "url": "/dienas-kalendars/",
-          "title": "Dienas kalendārs"
-        },
-        {
-          "url": "/stundu-saraksts/",
-          "title": "Stundu saraksts"
-        }
-      ],
-      "basis": {
-        "dateModel": "fixed",
-        "dates": [
-          "2027-09-26",
-          "2028-09-26",
-          "2029-09-26",
-          "2030-09-26"
-        ]
-      },
-      "linkedParagraphs": [
-        [
-          {
-            "text": "Tēmas «Eiropas Valodu diena: 26. septembris un valodu daudzveidība» aprēķināto vai fiksēto datumu piemēri 2027.–2030. gada tvērumā: 2027. gada 26. septembris (svētdiena); 2030. gada 26. septembris (ceturtdiena). Tie ir kalendāra atskaites datumi, nevis automātiski apstiprināta pasākumu programma. No šī temata nosaukuma nevar secināt vispārēju "
-          },
-          {
-            "text": "darba brīvdienu Latvijā",
-            "url": "/svetku-dienas/"
-          },
-          {
-            "text": "."
-          }
-        ],
-        [
-          {
-            "text": "Plānojot «Eiropas Valodu diena: 26. septembris un valodu daudzveidība», ievēro šo atšķirību: Eiropas Padome noteica 26. septembri par ikgadēju Eiropas Valodu dienu. "
-          },
-          {
-            "text": "Kalendāra piezīmē",
-            "url": "/dienas-kalendars/"
-          },
-          {
-            "text": " atsevišķi pieraksti izvēlēto norisi un tās avotu, lai gadskārtējais nosaukums netiktu sajaukts ar vienas vietas vai konfesijas programmu. Salīdzini arī šajā lapā norādītās saistītās tēmas un pirmavotus."
-          }
-        ]
-      ]
-    },
-    "/svetki-un-tradicijas/totalitaro-rezimu-upuru-pieminas-diena/": {
-      "heading": "Datuma pamats un personīgā plāna izvēle",
-      "paragraphs": [
-        "Tēmas «Staļinisma un nacisma upuru atceres diena: 23. augusts» aprēķināto vai fiksēto datumu piemēri 2027.–2030. gada tvērumā: 2027. gada 23. augusts (pirmdiena); 2030. gada 23. augusts (piektdiena). Tie ir kalendāra atskaites datumi, nevis automātiski apstiprināta pasākumu programma. No šī temata nosaukuma nevar secināt vispārēju darba brīvdienu Latvijā.",
-        "Plānojot «Staļinisma un nacisma upuru atceres diena: 23. augusts», ievēro šo atšķirību: Latvijas atceres dienas nosaukums ir norādīts pēc spēkā esošā likuma. Kalendāra piezīmē atsevišķi pieraksti izvēlēto norisi un tās avotu, lai gadskārtējais nosaukums netiktu sajaukts ar vienas vietas vai konfesijas programmu. Salīdzini arī šajā lapā norādītās saistītās tēmas un pirmavotus."
-      ],
-      "icon": "culture",
-      "sources": [
-
-      ],
-      "related": [
-        {
-          "url": "/dienas-kalendars/",
-          "title": "Dienas kalendārs"
-        }
-      ],
-      "basis": {
-        "dateModel": "fixed",
-        "dates": [
-          "2027-08-23",
-          "2028-08-23",
-          "2029-08-23",
-          "2030-08-23"
-        ]
-      },
-      "linkedParagraphs": [
-        [
-          {
-            "text": "Tēmas «Staļinisma un nacisma upuru atceres diena: 23. augusts» aprēķināto vai fiksēto datumu piemēri 2027.–2030. gada tvērumā: 2027. gada 23. augusts (pirmdiena); 2030. gada 23. augusts (piektdiena). Tie ir kalendāra atskaites datumi, nevis automātiski apstiprināta pasākumu programma. No šī temata nosaukuma nevar secināt vispārēju "
-          },
-          {
-            "text": "darba brīvdienu Latvijā",
-            "url": "/svetku-dienas/"
-          },
-          {
-            "text": "."
-          }
-        ],
-        [
-          {
-            "text": "Plānojot «Staļinisma un nacisma upuru atceres diena: 23. augusts», ievēro šo atšķirību: Latvijas atceres dienas nosaukums ir norādīts pēc spēkā esošā likuma. "
-          },
-          {
-            "text": "Kalendāra piezīmē",
-            "url": "/dienas-kalendars/"
-          },
-          {
-            "text": " atsevišķi pieraksti izvēlēto norisi un tās avotu, lai gadskārtējais nosaukums netiktu sajaukts ar vienas vietas vai konfesijas programmu. Salīdzini arī šajā lapā norādītās saistītās tēmas un pirmavotus."
-          }
-        ]
-      ]
-    },
-    "/svetki-un-tradicijas/dzimtas-valodas-diena/": {
-      "heading": "Datuma pamats un personīgā plāna izvēle",
-      "paragraphs": [
-        "Tēmas «Starptautiskā dzimtās valodas diena: 21. februāris» aprēķināto vai fiksēto datumu piemēri 2027.–2030. gada tvērumā: 2027. gada 21. februāris (svētdiena); 2030. gada 21. februāris (ceturtdiena). Tie ir kalendāra atskaites datumi, nevis automātiski apstiprināta pasākumu programma. No šī temata nosaukuma nevar secināt vispārēju darba brīvdienu Latvijā.",
-        "Plānojot «Starptautiskā dzimtās valodas diena: 21. februāris», ievēro šo atšķirību: Dzimtās valodas diena ir starptautiska atzīmējamā diena. Latvijā tā nav vispārēja darba brīvdiena. Kalendāra piezīmē atsevišķi pieraksti izvēlēto norisi un tās avotu, lai gadskārtējais nosaukums netiktu sajaukts ar vienas vietas vai konfesijas programmu. Salīdzini arī šajā lapā norādītās saistītās tēmas un pirmavotus."
-      ],
-      "icon": "culture",
-      "sources": [
-
-      ],
-      "related": [
-        {
-          "url": "/dienas-kalendars/",
-          "title": "Dienas kalendārs"
-        },
-        {
-          "url": "/stundu-saraksts/",
-          "title": "Stundu saraksts"
-        }
-      ],
-      "basis": {
-        "dateModel": "fixed",
-        "dates": [
-          "2027-02-21",
-          "2028-02-21",
-          "2029-02-21",
-          "2030-02-21"
-        ]
-      },
-      "linkedParagraphs": [
-        [
-          {
-            "text": "Tēmas «Starptautiskā dzimtās valodas diena: 21. februāris» aprēķināto vai fiksēto datumu piemēri 2027.–2030. gada tvērumā: 2027. gada 21. februāris (svētdiena); 2030. gada 21. februāris (ceturtdiena). Tie ir kalendāra atskaites datumi, nevis automātiski apstiprināta pasākumu programma. No šī temata nosaukuma nevar secināt vispārēju "
-          },
-          {
-            "text": "darba brīvdienu Latvijā",
-            "url": "/svetku-dienas/"
-          },
-          {
-            "text": "."
-          }
-        ],
-        [
-          {
-            "text": "Plānojot «Starptautiskā dzimtās valodas diena: 21. februāris», ievēro šo atšķirību: Dzimtās valodas diena ir starptautiska atzīmējamā diena. Latvijā tā nav vispārēja darba brīvdiena. "
-          },
-          {
-            "text": "Kalendāra piezīmē",
-            "url": "/dienas-kalendars/"
-          },
-          {
-            "text": " atsevišķi pieraksti izvēlēto norisi un tās avotu, lai gadskārtējais nosaukums netiktu sajaukts ar vienas vietas vai konfesijas programmu. Salīdzini arī šajā lapā norādītās saistītās tēmas un pirmavotus."
-          }
-        ]
-      ]
-    },
-    "/svetki-un-tradicijas/helovins/": {
-      "heading": "Datuma pamats un personīgā plāna izvēle",
-      "paragraphs": [
-        "Tēmas «Helovīns Latvijā: 31. oktobra datums un vietējie pasākumi» aprēķināto vai fiksēto datumu piemēri 2027.–2030. gada tvērumā: 2027. gada 31. oktobris (svētdiena); 2030. gada 31. oktobris (ceturtdiena). Tie ir kalendāra atskaites datumi, nevis automātiski apstiprināta pasākumu programma. No šī temata nosaukuma nevar secināt vispārēju darba brīvdienu Latvijā.",
-        "Plānojot «Helovīns Latvijā: 31. oktobra datums un vietējie pasākumi», ievēro šo atšķirību: Helovīna pasākumu programmas katru gadu jāpārbauda pie rīkotājiem. Kalendāra piezīmē atsevišķi pieraksti izvēlēto norisi un tās avotu, lai gadskārtējais nosaukums netiktu sajaukts ar vienas vietas vai konfesijas programmu. Salīdzini arī šajā lapā norādītās saistītās tēmas un pirmavotus."
-      ],
-      "icon": "culture",
-      "sources": [
-
-      ],
-      "related": [
-        {
-          "url": "/dienas-kalendars/",
-          "title": "Dienas kalendārs"
-        },
-        {
-          "url": "/menesa-kalendars/",
-          "title": "Mēneša kalendārs"
-        }
-      ],
-      "basis": {
-        "dateModel": "fixed",
-        "dates": [
-          "2027-10-31",
-          "2028-10-31",
-          "2029-10-31",
-          "2030-10-31"
-        ]
-      },
-      "linkedParagraphs": [
-        [
-          {
-            "text": "Tēmas «Helovīns Latvijā: 31. oktobra datums un vietējie pasākumi» aprēķināto vai fiksēto datumu piemēri 2027.–2030. gada tvērumā: 2027. gada 31. oktobris (svētdiena); 2030. gada 31. oktobris (ceturtdiena). Tie ir kalendāra atskaites datumi, nevis automātiski apstiprināta pasākumu programma. No šī temata nosaukuma nevar secināt vispārēju "
-          },
-          {
-            "text": "darba brīvdienu Latvijā",
-            "url": "/svetku-dienas/"
-          },
-          {
-            "text": "."
-          }
-        ],
-        [
-          {
-            "text": "Plānojot «Helovīns Latvijā: 31. oktobra datums un vietējie pasākumi», ievēro šo atšķirību: Helovīna pasākumu programmas katru gadu jāpārbauda pie rīkotājiem. "
-          },
-          {
-            "text": "Kalendāra piezīmē",
-            "url": "/dienas-kalendars/"
-          },
-          {
-            "text": " atsevišķi pieraksti izvēlēto norisi un tās avotu, lai gadskārtējais nosaukums netiktu sajaukts ar vienas vietas vai konfesijas programmu. Salīdzini arī šajā lapā norādītās saistītās tēmas un pirmavotus."
-          }
-        ]
-      ]
-    },
-    "/svetki-un-tradicijas/pasaules-gramatu-diena/": {
-      "heading": "Datuma pamats un personīgā plāna izvēle",
-      "paragraphs": [
-        "Tēmas «Pasaules grāmatu un autortiesību diena: 23. aprīlis» aprēķināto vai fiksēto datumu piemēri 2027.–2030. gada tvērumā: 2027. gada 23. aprīlis (piektdiena); 2030. gada 23. aprīlis (otrdiena). Tie ir kalendāra atskaites datumi, nevis automātiski apstiprināta pasākumu programma. No šī temata nosaukuma nevar secināt vispārēju darba brīvdienu Latvijā.",
-        "Plānojot «Pasaules grāmatu un autortiesību diena: 23. aprīlis», ievēro šo atšķirību: Pasaules grāmatu dienu atzīmē 23. aprīlī. UNESCO Pasaules grāmatu galvaspilsēta ir atsevišķa ikgadēja programma. Kalendāra piezīmē atsevišķi pieraksti izvēlēto norisi un tās avotu, lai gadskārtējais nosaukums netiktu sajaukts ar vienas vietas vai konfesijas programmu. Salīdzini arī šajā lapā norādītās saistītās tēmas un pirmavotus."
-      ],
-      "icon": "culture",
-      "sources": [
-
-      ],
-      "related": [
-        {
-          "url": "/stundu-saraksts/",
-          "title": "Stundu saraksts"
-        },
-        {
-          "url": "/dienas-kalendars/",
-          "title": "Dienas kalendārs"
-        }
-      ],
-      "basis": {
-        "dateModel": "fixed",
-        "dates": [
-          "2027-04-23",
-          "2028-04-23",
-          "2029-04-23",
-          "2030-04-23"
-        ]
-      },
-      "linkedParagraphs": [
-        [
-          {
-            "text": "Tēmas «Pasaules grāmatu un autortiesību diena: 23. aprīlis» aprēķināto vai fiksēto datumu piemēri 2027.–2030. gada tvērumā: 2027. gada 23. aprīlis (piektdiena); 2030. gada 23. aprīlis (otrdiena). Tie ir kalendāra atskaites datumi, nevis automātiski apstiprināta pasākumu programma. No šī temata nosaukuma nevar secināt vispārēju "
-          },
-          {
-            "text": "darba brīvdienu Latvijā",
-            "url": "/svetku-dienas/"
-          },
-          {
-            "text": "."
-          }
-        ],
-        [
-          {
-            "text": "Plānojot «Pasaules grāmatu un autortiesību diena: 23. aprīlis», ievēro šo atšķirību: Pasaules grāmatu dienu atzīmē 23. aprīlī. UNESCO Pasaules grāmatu galvaspilsēta ir atsevišķa ikgadēja programma. "
-          },
-          {
-            "text": "Kalendāra piezīmē",
-            "url": "/dienas-kalendars/"
-          },
-          {
-            "text": " atsevišķi pieraksti izvēlēto norisi un tās avotu, lai gadskārtējais nosaukums netiktu sajaukts ar vienas vietas vai konfesijas programmu. Salīdzini arī šajā lapā norādītās saistītās tēmas un pirmavotus."
-          }
-        ]
-      ]
-    },
-    "/svetki-un-tradicijas/pasaules-vides-diena/": {
-      "heading": "Datuma pamats un personīgā plāna izvēle",
-      "paragraphs": [
-        "Tēmas «Pasaules vides diena: 5. jūnijs» aprēķināto vai fiksēto datumu piemēri 2027.–2030. gada tvērumā: 2027. gada 5. jūnijs (sestdiena); 2030. gada 5. jūnijs (trešdiena). Tie ir kalendāra atskaites datumi, nevis automātiski apstiprināta pasākumu programma. No šī temata nosaukuma nevar secināt vispārēju darba brīvdienu Latvijā.",
-        "Plānojot «Pasaules vides diena: 5. jūnijs», ievēro šo atšķirību: Šī ir starptautiska atzīmējamā diena; Latvijā tā nav vispārēja darba brīvdiena. Kalendāra piezīmē atsevišķi pieraksti izvēlēto norisi un tās avotu, lai gadskārtējais nosaukums netiktu sajaukts ar vienas vietas vai konfesijas programmu. Salīdzini arī šajā lapā norādītās saistītās tēmas un pirmavotus."
-      ],
-      "icon": "culture",
-      "sources": [
-
-      ],
-      "related": [
-        {
-          "url": "/dienas-kalendars/",
-          "title": "Dienas kalendārs"
-        },
-        {
-          "url": "/saullekts-saulriets/",
-          "title": "Saullēkts un saulriets"
-        }
-      ],
-      "basis": {
-        "dateModel": "fixed",
-        "dates": [
-          "2027-06-05",
-          "2028-06-05",
-          "2029-06-05",
-          "2030-06-05"
-        ]
-      },
-      "linkedParagraphs": [
-        [
-          {
-            "text": "Tēmas «Pasaules vides diena: 5. jūnijs» aprēķināto vai fiksēto datumu piemēri 2027.–2030. gada tvērumā: 2027. gada 5. jūnijs (sestdiena); 2030. gada 5. jūnijs (trešdiena). Tie ir kalendāra atskaites datumi, nevis automātiski apstiprināta pasākumu programma. No šī temata nosaukuma nevar secināt vispārēju "
-          },
-          {
-            "text": "darba brīvdienu Latvijā",
-            "url": "/svetku-dienas/"
-          },
-          {
-            "text": "."
-          }
-        ],
-        [
-          {
-            "text": "Plānojot «Pasaules vides diena: 5. jūnijs», ievēro šo atšķirību: Šī ir starptautiska atzīmējamā diena; Latvijā tā nav vispārēja darba brīvdiena. "
-          },
-          {
-            "text": "Kalendāra piezīmē",
-            "url": "/dienas-kalendars/"
-          },
-          {
-            "text": " atsevišķi pieraksti izvēlēto norisi un tās avotu, lai gadskārtējais nosaukums netiktu sajaukts ar vienas vietas vai konfesijas programmu. Salīdzini arī šajā lapā norādītās saistītās tēmas un pirmavotus."
-          }
-        ]
-      ]
-    },
-    "/svetki-un-tradicijas/pasaules-bernu-diena/": {
-      "heading": "Datuma pamats un personīgā plāna izvēle",
-      "paragraphs": [
-        "Tēmas «Pasaules bērnu diena: 20. novembris» aprēķināto vai fiksēto datumu piemēri 2027.–2030. gada tvērumā: 2027. gada 20. novembris (sestdiena); 2030. gada 20. novembris (trešdiena). Tie ir kalendāra atskaites datumi, nevis automātiski apstiprināta pasākumu programma. No šī temata nosaukuma nevar secināt vispārēju darba brīvdienu Latvijā.",
-        "Plānojot «Pasaules bērnu diena: 20. novembris», ievēro šo atšķirību: 20. novembra Pasaules bērnu diena un 1. jūnija Starptautiskā bērnu aizsardzības diena ir divi atšķirīgi kalendāra ieraksti. Kalendāra piezīmē atsevišķi pieraksti izvēlēto norisi un tās avotu, lai gadskārtējais nosaukums netiktu sajaukts ar vienas vietas vai konfesijas programmu. Salīdzini arī šajā lapā norādītās saistītās tēmas un pirmavotus."
-      ],
-      "icon": "culture",
-      "sources": [
-
-      ],
-      "related": [
-        {
-          "url": "/gimenes-kalendars/",
-          "title": "Ģimenes kalendārs"
-        },
-        {
-          "url": "/dienas-kalendars/",
-          "title": "Dienas kalendārs"
-        }
-      ],
-      "basis": {
-        "dateModel": "fixed",
-        "dates": [
-          "2027-11-20",
-          "2028-11-20",
-          "2029-11-20",
-          "2030-11-20"
-        ]
-      },
-      "linkedParagraphs": [
-        [
-          {
-            "text": "Tēmas «Pasaules bērnu diena: 20. novembris» aprēķināto vai fiksēto datumu piemēri 2027.–2030. gada tvērumā: 2027. gada 20. novembris (sestdiena); 2030. gada 20. novembris (trešdiena). Tie ir kalendāra atskaites datumi, nevis automātiski apstiprināta pasākumu programma. No šī temata nosaukuma nevar secināt vispārēju "
-          },
-          {
-            "text": "darba brīvdienu Latvijā",
-            "url": "/svetku-dienas/"
-          },
-          {
-            "text": "."
-          }
-        ],
-        [
-          {
-            "text": "Plānojot «Pasaules bērnu diena: 20. novembris», ievēro šo atšķirību: 20. novembra Pasaules bērnu diena un 1. jūnija Starptautiskā bērnu aizsardzības diena ir divi atšķirīgi kalendāra ieraksti. "
-          },
-          {
-            "text": "Kalendāra piezīmē",
-            "url": "/dienas-kalendars/"
-          },
-          {
-            "text": " atsevišķi pieraksti izvēlēto norisi un tās avotu, lai gadskārtējais nosaukums netiktu sajaukts ar vienas vietas vai konfesijas programmu. Salīdzini arī šajā lapā norādītās saistītās tēmas un pirmavotus."
-          }
-        ]
-      ]
-    },
-    "/svetki-un-tradicijas/pasaules-udens-diena/": {
-      "heading": "Datuma pamats un personīgā plāna izvēle",
-      "paragraphs": [
-        "Tēmas «Pasaules ūdens diena: 22. marts» aprēķināto vai fiksēto datumu piemēri 2027.–2030. gada tvērumā: 2027. gada 22. marts (pirmdiena); 2030. gada 22. marts (piektdiena). Tie ir kalendāra atskaites datumi, nevis automātiski apstiprināta pasākumu programma. No šī temata nosaukuma nevar secināt vispārēju darba brīvdienu Latvijā.",
-        "Plānojot «Pasaules ūdens diena: 22. marts», ievēro šo atšķirību: Pasaules ūdens dienas datums ir 22. marts; ikgadējās kampaņas tēma var mainīties. Kalendāra piezīmē atsevišķi pieraksti izvēlēto norisi un tās avotu, lai gadskārtējais nosaukums netiktu sajaukts ar vienas vietas vai konfesijas programmu. Salīdzini arī šajā lapā norādītās saistītās tēmas un pirmavotus."
-      ],
-      "icon": "culture",
-      "sources": [
-
-      ],
-      "related": [
-        {
-          "url": "/dienas-kalendars/",
-          "title": "Dienas kalendārs"
-        }
-      ],
-      "basis": {
-        "dateModel": "fixed",
-        "dates": [
-          "2027-03-22",
-          "2028-03-22",
-          "2029-03-22",
-          "2030-03-22"
-        ]
-      },
-      "linkedParagraphs": [
-        [
-          {
-            "text": "Tēmas «Pasaules ūdens diena: 22. marts» aprēķināto vai fiksēto datumu piemēri 2027.–2030. gada tvērumā: 2027. gada 22. marts (pirmdiena); 2030. gada 22. marts (piektdiena). Tie ir kalendāra atskaites datumi, nevis automātiski apstiprināta pasākumu programma. No šī temata nosaukuma nevar secināt vispārēju "
-          },
-          {
-            "text": "darba brīvdienu Latvijā",
-            "url": "/svetku-dienas/"
-          },
-          {
-            "text": "."
-          }
-        ],
-        [
-          {
-            "text": "Plānojot «Pasaules ūdens diena: 22. marts», ievēro šo atšķirību: Pasaules ūdens dienas datums ir 22. marts; ikgadējās kampaņas tēma var mainīties. "
-          },
-          {
-            "text": "Kalendāra piezīmē",
-            "url": "/dienas-kalendars/"
-          },
-          {
-            "text": " atsevišķi pieraksti izvēlēto norisi un tās avotu, lai gadskārtējais nosaukums netiktu sajaukts ar vienas vietas vai konfesijas programmu. Salīdzini arī šajā lapā norādītās saistītās tēmas un pirmavotus."
-          }
-        ]
-      ]
-    },
-    "/svetki-un-tradicijas/pasaules-dzivnieku-diena/": {
-      "heading": "Datuma pamats un personīgā plāna izvēle",
-      "paragraphs": [
-        "Tēmas «Pasaules dzīvnieku diena: 4. oktobris» aprēķināto vai fiksēto datumu piemēri 2027.–2030. gada tvērumā: 2027. gada 4. oktobris (pirmdiena); 2030. gada 4. oktobris (piektdiena). Tie ir kalendāra atskaites datumi, nevis automātiski apstiprināta pasākumu programma. No šī temata nosaukuma nevar secināt vispārēju darba brīvdienu Latvijā.",
-        "Plānojot «Pasaules dzīvnieku diena: 4. oktobris», ievēro šo atšķirību: Organizāciju un vietējo pasākumu programmas var mainīties katru gadu. Kalendāra piezīmē atsevišķi pieraksti izvēlēto norisi un tās avotu, lai gadskārtējais nosaukums netiktu sajaukts ar vienas vietas vai konfesijas programmu. Salīdzini arī šajā lapā norādītās saistītās tēmas un pirmavotus."
-      ],
-      "icon": "culture",
-      "sources": [
-
-      ],
-      "related": [
-        {
-          "url": "/dienas-kalendars/",
-          "title": "Dienas kalendārs"
-        }
-      ],
-      "basis": {
-        "dateModel": "fixed",
-        "dates": [
-          "2027-10-04",
-          "2028-10-04",
-          "2029-10-04",
-          "2030-10-04"
-        ]
-      },
-      "linkedParagraphs": [
-        [
-          {
-            "text": "Tēmas «Pasaules dzīvnieku diena: 4. oktobris» aprēķināto vai fiksēto datumu piemēri 2027.–2030. gada tvērumā: 2027. gada 4. oktobris (pirmdiena); 2030. gada 4. oktobris (piektdiena). Tie ir kalendāra atskaites datumi, nevis automātiski apstiprināta pasākumu programma. No šī temata nosaukuma nevar secināt vispārēju "
-          },
-          {
-            "text": "darba brīvdienu Latvijā",
-            "url": "/svetku-dienas/"
-          },
-          {
-            "text": "."
-          }
-        ],
-        [
-          {
-            "text": "Plānojot «Pasaules dzīvnieku diena: 4. oktobris», ievēro šo atšķirību: Organizāciju un vietējo pasākumu programmas var mainīties katru gadu. "
-          },
-          {
-            "text": "Kalendāra piezīmē",
-            "url": "/dienas-kalendars/"
-          },
-          {
-            "text": " atsevišķi pieraksti izvēlēto norisi un tās avotu, lai gadskārtējais nosaukums netiktu sajaukts ar vienas vietas vai konfesijas programmu. Salīdzini arī šajā lapā norādītās saistītās tēmas un pirmavotus."
-          }
-        ]
-      ]
-    },
-    "/svetki-un-tradicijas/pavasara-tradicijas/": {
-      "heading": "Datuma pamats un personīgā plāna izvēle",
-      "paragraphs": [
-        "«Pavasara tradīcijas Latvijā: Meteņi, Lieldienas un ekvinokcija» nav attēlots kā viens visiem Latvijas notikumiem obligāts datums. Pavasara tradīcijām nav viena kopīga Latvijas datuma. Atver katru kalendāru atsevišķi un ievēro tajā norādīto tradīciju vai aprēķina principu. Pirms saglabā personīgu plānu, izvēlies, uz kuru tradīciju vai konkrēto pasākumu tas attiecas.",
-        "Plānojot «Pavasara tradīcijas Latvijā: Meteņi, Lieldienas un ekvinokcija», ievēro šo atšķirību: Pavasara tradīcijas un pasākumu norises laiki dažādos Latvijas novados var atšķirties. Kalendāra piezīmē atsevišķi pieraksti izvēlēto norisi un tās avotu, lai gadskārtējais nosaukums netiktu sajaukts ar vienas vietas vai konfesijas programmu. Salīdzini arī šajā lapā norādītās saistītās tēmas un pirmavotus."
-      ],
-      "icon": "culture",
-      "sources": [
-
-      ],
-      "related": [
-        {
-          "url": "/gadalaiki/",
-          "title": "Astronomisko gadalaiku sākumi"
-        },
-        {
-          "url": "/menesa-kalendars/",
-          "title": "Mēneša kalendārs"
-        }
-      ],
-      "basis": {
-        "dateModel": "latvian-spring",
-        "dates": [
-
-        ]
-      },
-      "linkedParagraphs": [
-        [
-          {
-            "text": "«Pavasara tradīcijas Latvijā: Meteņi, Lieldienas un ekvinokcija» nav attēlots kā viens visiem Latvijas notikumiem obligāts datums. Pavasara tradīcijām nav viena kopīga Latvijas datuma. Atver katru kalendāru atsevišķi un ievēro tajā norādīto tradīciju vai aprēķina principu. Pirms saglabā personīgu plānu, izvēlies, uz kuru tradīciju vai konkrēto pasākumu tas attiecas."
-          }
-        ],
-        [
-          {
-            "text": "Plānojot «Pavasara tradīcijas Latvijā: Meteņi, Lieldienas un ekvinokcija», ievēro šo atšķirību: Pavasara tradīcijas un pasākumu norises laiki dažādos Latvijas novados var atšķirties. "
-          },
-          {
-            "text": "Kalendāra piezīmē",
-            "url": "/dienas-kalendars/"
-          },
-          {
-            "text": " atsevišķi pieraksti izvēlēto norisi un tās avotu, lai gadskārtējais nosaukums netiktu sajaukts ar vienas vietas vai konfesijas programmu. Salīdzini arī šajā lapā norādītās saistītās tēmas un pirmavotus."
-          }
-        ]
-      ]
-    },
-    "/svetki-un-tradicijas/sveta-nikolaja-diena/": {
-      "heading": "Datuma pamats un personīgā plāna izvēle",
-      "paragraphs": [
-        "Tēmas «Svētā Nikolaja diena: 6. decembris katoļu kalendārā» aprēķināto vai fiksēto datumu piemēri 2027.–2030. gada tvērumā: 2027. gada 6. decembris (pirmdiena); 2030. gada 6. decembris (piektdiena). Tie ir kalendāra atskaites datumi, nevis automātiski apstiprināta pasākumu programma. No šī temata nosaukuma nevar secināt vispārēju darba brīvdienu Latvijā.",
-        "Plānojot «Svētā Nikolaja diena: 6. decembris katoļu kalendārā», ievēro šo atšķirību: Reliģisks piemiņas datums; tas nav Latvijas valsts svētku vai vispārēja darba brīvdiena. Kalendāra piezīmē atsevišķi pieraksti izvēlēto norisi un tās avotu, lai gadskārtējais nosaukums netiktu sajaukts ar vienas vietas vai konfesijas programmu. Salīdzini arī šajā lapā norādītās saistītās tēmas un pirmavotus."
-      ],
-      "icon": "culture",
-      "sources": [
-
-      ],
-      "related": [
-        {
-          "url": "/dienas-kalendars/",
-          "title": "Dienas kalendārs"
-        }
-      ],
-      "basis": {
-        "dateModel": "fixed",
-        "dates": [
-          "2027-12-06",
-          "2028-12-06",
-          "2029-12-06",
-          "2030-12-06"
-        ]
-      },
-      "linkedParagraphs": [
-        [
-          {
-            "text": "Tēmas «Svētā Nikolaja diena: 6. decembris katoļu kalendārā» aprēķināto vai fiksēto datumu piemēri 2027.–2030. gada tvērumā: 2027. gada 6. decembris (pirmdiena); 2030. gada 6. decembris (piektdiena). Tie ir kalendāra atskaites datumi, nevis automātiski apstiprināta pasākumu programma. No šī temata nosaukuma nevar secināt vispārēju "
-          },
-          {
-            "text": "darba brīvdienu Latvijā",
-            "url": "/svetku-dienas/"
-          },
-          {
-            "text": "."
-          }
-        ],
-        [
-          {
-            "text": "Plānojot «Svētā Nikolaja diena: 6. decembris katoļu kalendārā», ievēro šo atšķirību: Reliģisks piemiņas datums; tas nav Latvijas valsts svētku vai vispārēja darba brīvdiena. "
-          },
-          {
-            "text": "Kalendāra piezīmē",
-            "url": "/dienas-kalendars/"
-          },
-          {
-            "text": " atsevišķi pieraksti izvēlēto norisi un tās avotu, lai gadskārtējais nosaukums netiktu sajaukts ar vienas vietas vai konfesijas programmu. Salīdzini arī šajā lapā norādītās saistītās tēmas un pirmavotus."
-          }
-        ]
-      ]
-    },
-    "/svetki-un-tradicijas/pasaules-bisu-diena/": {
-      "heading": "Datuma pamats un personīgā plāna izvēle",
-      "paragraphs": [
-        "Tēmas «Pasaules bišu diena: 20. maijs» aprēķināto vai fiksēto datumu piemēri 2027.–2030. gada tvērumā: 2027. gada 20. maijs (ceturtdiena); 2030. gada 20. maijs (pirmdiena). Tie ir kalendāra atskaites datumi, nevis automātiski apstiprināta pasākumu programma. No šī temata nosaukuma nevar secināt vispārēju darba brīvdienu Latvijā.",
-        "Plānojot «Pasaules bišu diena: 20. maijs», ievēro šo atšķirību: Apputeksnētāju aktivitāte ir atkarīga no sugas, laikapstākļiem un vietējās sezonas. Kalendāra piezīmē atsevišķi pieraksti izvēlēto norisi un tās avotu, lai gadskārtējais nosaukums netiktu sajaukts ar vienas vietas vai konfesijas programmu. Salīdzini arī šajā lapā norādītās saistītās tēmas un pirmavotus."
-      ],
-      "icon": "culture",
-      "sources": [
-
-      ],
-      "related": [
-        {
-          "url": "/sejas-kalendars/",
-          "title": "Sējas un stādīšanas kalendārs"
-        },
-        {
-          "url": "/dienas-kalendars/",
-          "title": "Dienas kalendārs"
-        }
-      ],
-      "basis": {
-        "dateModel": "fixed",
-        "dates": [
-          "2027-05-20",
-          "2028-05-20",
-          "2029-05-20",
-          "2030-05-20"
-        ]
-      },
-      "linkedParagraphs": [
-        [
-          {
-            "text": "Tēmas «Pasaules bišu diena: 20. maijs» aprēķināto vai fiksēto datumu piemēri 2027.–2030. gada tvērumā: 2027. gada 20. maijs (ceturtdiena); 2030. gada 20. maijs (pirmdiena). Tie ir kalendāra atskaites datumi, nevis automātiski apstiprināta pasākumu programma. No šī temata nosaukuma nevar secināt vispārēju "
-          },
-          {
-            "text": "darba brīvdienu Latvijā",
-            "url": "/svetku-dienas/"
-          },
-          {
-            "text": "."
-          }
-        ],
-        [
-          {
-            "text": "Plānojot «Pasaules bišu diena: 20. maijs», ievēro šo atšķirību: Apputeksnētāju aktivitāte ir atkarīga no sugas, laikapstākļiem un vietējās sezonas. "
-          },
-          {
-            "text": "Kalendāra piezīmē",
-            "url": "/dienas-kalendars/"
-          },
-          {
-            "text": " atsevišķi pieraksti izvēlēto norisi un tās avotu, lai gadskārtējais nosaukums netiktu sajaukts ar vienas vietas vai konfesijas programmu. Salīdzini arī šajā lapā norādītās saistītās tēmas un pirmavotus."
-          }
-        ]
-      ]
-    },
-    "/svetki-un-tradicijas/zemes-diena/": {
-      "heading": "Datuma pamats un personīgā plāna izvēle",
-      "paragraphs": [
-        "Tēmas «Zemes diena: 22. aprīlis un Starptautiskā Mātes Zemes diena» aprēķināto vai fiksēto datumu piemēri 2027.–2030. gada tvērumā: 2027. gada 22. aprīlis (ceturtdiena); 2030. gada 22. aprīlis (pirmdiena). Tie ir kalendāra atskaites datumi, nevis automātiski apstiprināta pasākumu programma. No šī temata nosaukuma nevar secināt vispārēju darba brīvdienu Latvijā.",
-        "Plānojot «Zemes diena: 22. aprīlis un Starptautiskā Mātes Zemes diena», ievēro šo atšķirību: Zemes dienu atzīmē 22. aprīlī, bet Pasaules vides dienu — 5. jūnijā. Kalendāra piezīmē atsevišķi pieraksti izvēlēto norisi un tās avotu, lai gadskārtējais nosaukums netiktu sajaukts ar vienas vietas vai konfesijas programmu. Salīdzini arī šajā lapā norādītās saistītās tēmas un pirmavotus."
-      ],
-      "icon": "culture",
-      "sources": [
-
-      ],
-      "related": [
-        {
-          "url": "/dienas-kalendars/",
-          "title": "Dienas kalendārs"
-        },
-        {
-          "url": "/saullekts-saulriets/",
-          "title": "Saullēkts un saulriets"
-        }
-      ],
-      "basis": {
-        "dateModel": "fixed",
-        "dates": [
-          "2027-04-22",
-          "2028-04-22",
-          "2029-04-22",
-          "2030-04-22"
-        ]
-      },
-      "linkedParagraphs": [
-        [
-          {
-            "text": "Tēmas «Zemes diena: 22. aprīlis un Starptautiskā Mātes Zemes diena» aprēķināto vai fiksēto datumu piemēri 2027.–2030. gada tvērumā: 2027. gada 22. aprīlis (ceturtdiena); 2030. gada 22. aprīlis (pirmdiena). Tie ir kalendāra atskaites datumi, nevis automātiski apstiprināta pasākumu programma. No šī temata nosaukuma nevar secināt vispārēju "
-          },
-          {
-            "text": "darba brīvdienu Latvijā",
-            "url": "/svetku-dienas/"
-          },
-          {
-            "text": "."
-          }
-        ],
-        [
-          {
-            "text": "Plānojot «Zemes diena: 22. aprīlis un Starptautiskā Mātes Zemes diena», ievēro šo atšķirību: Zemes dienu atzīmē 22. aprīlī, bet Pasaules vides dienu — 5. jūnijā. "
-          },
-          {
-            "text": "Kalendāra piezīmē",
-            "url": "/dienas-kalendars/"
-          },
-          {
-            "text": " atsevišķi pieraksti izvēlēto norisi un tās avotu, lai gadskārtējais nosaukums netiktu sajaukts ar vienas vietas vai konfesijas programmu. Salīdzini arī šajā lapā norādītās saistītās tēmas un pirmavotus."
-          }
-        ]
-      ]
-    },
     "/nedelas-kalendars/2031/01/": {
       "heading": "1. nedēļas datumi un praktiskais pārskats",
       "paragraphs": [
@@ -53462,7 +53206,14 @@
       "linkedParagraphs": [
         [
           {
-            "text": "ISO 2031. gada 1. nedēļa sākas pirmdien, 2030. gada 30. decembrī, un beidzas svētdien, 2031. gada 5. janvārī. Nedēļa šķērso mēneša robežu: 2030. gada 30. decembris–2031. gada 5. janvāris. Viena mēneša pārskats bez blakus datumiem to neaptver pilnībā. Notikuma nosaukumā izmantots nedēļas numurs neaizstāj datumu, ja plānu sūti cilvēkam, kurš lieto citu nedēļu numerācijas kārtību."
+            "text": "ISO 2031. gada 1. nedēļa sākas pirmdien, 2030. gada 30. decembrī, un beidzas svētdien, 2031. gada 5. janvārī. Nedēļa šķērso mēneša robežu: 2030. gada 30. decembris–2031. gada 5. janvāris. Viena mēneša pārskats bez blakus datumiem to neaptver pilnībā. Notikuma nosaukumā izmantots nedēļas numurs neaizstāj datumu, ja plānu sūti cilvēkam, kurš lieto citu "
+          },
+          {
+            "text": "nedēļu numerācijas kārtību",
+            "url": "/blogs/iso-nedelu-numuri-kalendara/"
+          },
+          {
+            "text": "."
           }
         ],
         [
@@ -53479,9 +53230,7 @@
         "Pilsētu un augstskolu fotogrāfijas ir vietu ilustrācijas, nevis tiešraides skats vai laikapstākļu mērījums. Astronomijas virsmas materiāliem un vietnei veidotajām vektoru ilustrācijām izcelsme ir norādīta atsevišķi. Licences jautājuma vai kļūdas gadījumā ziņojumā pievieno konkrētā attēla nosaukumu, sadaļu un avota saiti."
       ],
       "icon": "about",
-      "sources": [
-
-      ],
+      "sources": [],
       "related": [
         {
           "url": "/avoti-un-metodika/",
@@ -53512,9 +53261,7 @@
         "Ja šurp nonāci, nospiežot pašas vietnes saiti, ziņo par sākotnējo lapu un saites nosaukumu. Personīgais lokāli saglabātais plāns netiek dzēsts tikai tāpēc, ka atvērta nepareiza adrese. Lai to turpinātu, pārej uz sākumlapu vai attiecīgā perioda kalendāru."
       ],
       "icon": "calendar",
-      "sources": [
-
-      ],
+      "sources": [],
       "related": [
         {
           "url": "/kalendars/",
@@ -53545,9 +53292,7 @@
         "Ziņojumā par atkārtotu problēmu norādi lapas adresi, aptuveno laiku un darbību, kas kļūdu izraisīja. Nesūti paroles, bankas datus vai visu privāto kalendāru. Konkrēts, neliels piemērs palīdz atjaunot darbību un pārbaudīt rezultātu."
       ],
       "icon": "calendar",
-      "sources": [
-
-      ],
+      "sources": [],
       "related": [
         {
           "url": "/kalendars/",

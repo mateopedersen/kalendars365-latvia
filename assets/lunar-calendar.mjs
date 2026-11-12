@@ -1,4 +1,4 @@
-import { citySky, phaseName, rigaInstant, formatTime } from './sky-core.mjs';
+import { citySky, phaseName, rigaInstant, formatTime, formatEventTimes } from './sky-core.mjs';
 import * as Astronomy from './vendor/astronomy-engine.mjs';
 
 const root = document.querySelector('[data-lunar-calendar]');
@@ -128,7 +128,7 @@ if (root) {
       if (percentNode) percentNode.textContent = percent;
       if (button) {
         const label = phaseName(data.phase);
-        button.setAttribute('aria-label', displayDate(value) + ' · ' + label + ' · ' + percent + ' apgaismots');
+        button.setAttribute('aria-label', [...button.querySelectorAll('.lunar-day-number,.lunar-day-percent,.lunar-phase-mark,.lunar-holiday-mark')].map(node => node.textContent.trim()).join(' ') + '. ' + displayDate(value) + ' · ' + label);
         button.dataset.phase = String(data.phase);
       }
       paintMoon(canvas, value, data);
@@ -189,8 +189,8 @@ if (root) {
           const sky = citySky(value, city);
           const rise = root.querySelector('[data-lunar-rise]');
           const set = root.querySelector('[data-lunar-set]');
-          if (rise) rise.textContent = sky.moon.rises.length ? sky.moon.rises.map(formatTime).join(' · ') : 'Šajā datumā neuzlec';
-          if (set) set.textContent = sky.moon.sets.length ? sky.moon.sets.map(formatTime).join(' · ') : 'Šajā datumā nenoriet';
+          if (rise) rise.textContent = sky.moon.rises.length ? formatEventTimes(sky.moon.rises, ' · ') : 'Šajā datumā neuzlec';
+          if (set) set.textContent = sky.moon.sets.length ? formatEventTimes(sky.moon.sets, ' · ') : 'Šajā datumā nenoriet';
         } catch {
           const rise = root.querySelector('[data-lunar-rise]');
           const set = root.querySelector('[data-lunar-set]');

@@ -1,21 +1,36 @@
 <div class="sun-experience" data-sun-experience>
-  <div class="sun-view-switch" role="group" aria-label="Saules skata veids">
-    <button type="button" data-sun-renderer="panorama" aria-pressed="true"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 17h18M5 21h14M7 17a5 5 0 0 1 10 0M12 3v3M3 9l2 2m16-2-2 2"/></svg>Saules panorāma</button>
-    <button type="button" data-sun-renderer="map" aria-pressed="false"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m3 8 6-3 6 3 6-3v14l-6 3-6-3-6 3V8Zm6-3v14m6-11v14"/></svg>Pilsētas 3D karte</button>
-  </div>
+ <div class="sun-player" data-sun-player tabindex="-1" aria-label="Saules simulācijas skats un vadība">
+  <header class="sun-player-header"><div class="sun-view-switch" role="group" aria-label="Saules skata veids">
+    <button type="button" data-sun-renderer="panorama" aria-pressed="true"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 17h18M5 21h14M7 17a5 5 0 0 1 10 0M12 3v3M3 9l2 2m16-2-2 2"/></svg>Saules ainava</button>
+    <button type="button" data-sun-renderer="map" aria-pressed="false"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m3 8 6-3 6 3 6-3v14l-6 3-6-3-6 3V8Zm6-3v14m6-11v14"/></svg>3D pilsēta</button>
+  </div><div class="sun-player-actions"><button type="button" data-sun-fit aria-label="Ietilpināt simulāciju ekrānā" title="Ietilpināt skatu"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 3H3v5m13-5h5v5M3 16v5h5m13-5v5h-5"/></svg><span>Ietilpināt</span></button><button type="button" data-sun-fullscreen aria-label="Atvērt simulāciju pilnekrānā" title="Pilnekrāns"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 3H3v5m0-5 6 6m7-6h5v5m0-5-6 6M3 16v5h5m-5 0 6-6m12 1v5h-5m5 0-6-6"/></svg></button></div></header>
   <figure class="sun-stage" data-sun-stage aria-label="Saules gaismas panorāma izvēlētajai pilsētai un laikam">
     <img class="sun-stage-fallback" data-sun-photo src="{{ sky_city.photo.src }}" alt="{{ sky_city.photo.alt | escape }}" width="960" height="600" loading="lazy">
     <canvas class="sun-panorama" data-sun-panorama width="1200" height="700" role="img" aria-label="Aprēķinātā Saules gaisma ilustratīvā Latvijas ainavā"></canvas>
-    <div class="sun-map" data-sun-map aria-label="Interaktīva 3D pilsētas karte"></div>
+    <div class="sun-map" data-sun-map role="region" aria-label="Interaktīva 3D pilsētas karte"></div>
     <div class="sun-stage-top">
       <span class="sun-stage-badge"><i></i><span data-sun-mode>Saules panorāma</span></span>
-      <span class="sun-stage-clock"><time data-sun-scene-clock></time><small>Latvijas laiks</small></span>
+      <span class="sun-stage-phase" data-sun-light>Dienasgaisma</span>
     </div>
-    <div class="sun-stage-caption"><span class="sun-stage-kicker" data-sun-light>Dienasgaisma</span><strong data-sun-city>{{ sky_city.name }}</strong><span data-sun-coordinates></span></div>
+    <div class="sun-stage-caption"><span class="sun-stage-kicker">LATVIJA · SAULES SIMULĀCIJA</span><strong data-sun-city>{{ sky_city.name }}</strong><span data-sun-coordinates></span></div>
     <div class="sun-view-status" data-sun-view-status></div>
     <div class="sun-compass" data-sun-compass aria-hidden="true"></div>
     <figcaption class="sun-panorama-caption">Ilustratīva ainava · aprēķināts Saules virziens</figcaption>
   </figure>
+  <div class="sun-moments" role="group" aria-label="Izvēlies dienas brīdi">
+    <button type="button" data-sun-moment="dawn"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 17h18M6 21h12M8 17a4 4 0 0 1 8 0M12 4v3M4 10l2 2m14-2-2 2"/></svg><span>Rītausma<small data-sun-moment-time="dawn">—</small></span></button>
+    <button type="button" data-sun-moment="sunrise"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 17h18M5 21h14M7 17a5 5 0 0 1 10 0M12 3v5m-3-2 3-3 3 3M3 11l2 2m16-2-2 2"/></svg><span>Saullēkts<small data-sun-moment-time="sunrise">—</small></span></button>
+    <button type="button" data-sun-moment="solarNoon"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M2 12h2m16 0h2M5 5l1.5 1.5m11 11L19 19M5 19l1.5-1.5m11-11L19 5"/></svg><span>Pusdienlaiks<small data-sun-moment-time="solarNoon">—</small></span></button>
+    <button type="button" data-sun-moment="goldenHour"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="10" r="4"/><path d="M12 1v2M3 4l2 2m16-2-2 2M2 11h2m16 0h2M3 18h18M5 22h14"/></svg><span>Zelta stunda<small data-sun-moment-time="goldenHour">—</small></span></button>
+    <button type="button" data-sun-moment="sunset"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 17h18M5 21h14M7 17a5 5 0 0 1 10 0M12 3v5m-3-2 3 3 3-3M3 11l2 2m16-2-2 2"/></svg><span>Saulriets<small data-sun-moment-time="sunset">—</small></span></button>
+    <button type="button" data-sun-moment="dusk"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 15a8 8 0 0 1-11-11A8.5 8.5 0 1 0 20 15Z"/><path d="m18 3 .5 2 2 .5-2 .5-.5 2-.5-2-2-.5 2-.5Z"/></svg><span>Vakara krēsla<small data-sun-moment-time="dusk">—</small></span></button>
+  </div>
+  <div class="sun-transport">
+    <div class="sun-transport-top"><div class="sun-time-readout"><span>Izvēlētais laiks</span><div><output data-sky-clock data-sun-scene-clock>—:—</output><small data-sky-clock-zone></small></div></div><div class="sun-transport-buttons"><label class="sun-speed-label"><span>Ātrums</span><select data-sun-speed aria-label="Simulācijas ātrums"><option value="15">15 min/s</option><option value="30" selected>30 min/s</option><option value="60">1 h/s</option></select></label><button type="button" class="sun-play-button" data-sky-play aria-pressed="false"><svg viewBox="0 0 24 24" aria-hidden="true"><path data-sky-play-icon d="m9 5 11 7-11 7Z"/></svg><span data-sky-play-label>Atskaņot</span></button></div></div>
+    <label class="sky-slider-label"><span class="sr-only">Izvēlies simulācijas laiku</span><input data-sky-slider type="range" min="0" max="1439" step="1" value="720"></label><div class="sky-slider-ends"><span>00.00</span><span>Latvijas laiks</span><span>23.59</span></div>
+  </div>
+  </div>
+  <details class="sun-view-options"><summary>Skata iestatījumi un avoti</summary>
   <div class="sun-scene-toolbar">
     <div class="sun-map-tools" role="group" aria-label="Skata virziena vadība">
       <button type="button" data-sun-rotate="-30" aria-label="Pagriezt skatu pa kreisi par 30 grādiem"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 10a8 8 0 1 1 2 9M4 4v6h6"/></svg></button>
@@ -25,13 +40,6 @@
     <label class="sun-landscape-label">Ainava<select data-sun-landscape aria-label="Ilustratīvās ainavas veids"><option value="water">Ūdensmala</option><option value="meadow">Pļava</option><option value="forest">Mežmala</option></select></label>
   </div>
   <div class="sun-scene-meta"><span data-sun-bearing>Skata virziens</span><span data-sun-render-status role="status">Gatavo gaismas panorāmu…</span><button type="button" data-sun-retry hidden>Atkārtoti ielādēt karti</button></div>
-  <div class="sun-moments" role="group" aria-label="Izvēlies dienas brīdi">
-    <button type="button" data-sun-moment="dawn"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 17h18M6 21h12M8 17a4 4 0 0 1 8 0M12 4v3M4 10l2 2m14-2-2 2"/></svg><span>Rītausma<small data-sun-moment-time="dawn">—</small></span></button>
-    <button type="button" data-sun-moment="sunrise"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 17h18M5 21h14M7 17a5 5 0 0 1 10 0M12 3v5m-3-2 3-3 3 3M3 11l2 2m16-2-2 2"/></svg><span>Saullēkts<small data-sun-moment-time="sunrise">—</small></span></button>
-    <button type="button" data-sun-moment="solarNoon"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M2 12h2m16 0h2M5 5l1.5 1.5m11 11L19 19M5 19l1.5-1.5m11-11L19 5"/></svg><span>Pusdienlaiks<small data-sun-moment-time="solarNoon">—</small></span></button>
-    <button type="button" data-sun-moment="goldenHour"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="10" r="4"/><path d="M12 1v2M3 4l2 2m16-2-2 2M2 11h2m16 0h2M3 18h18M5 22h14"/></svg><span>Zelta stunda<small data-sun-moment-time="goldenHour">—</small></span></button>
-    <button type="button" data-sun-moment="sunset"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 17h18M5 21h14M7 17a5 5 0 0 1 10 0M12 3v5m-3-2 3 3 3-3M3 11l2 2m16-2-2 2"/></svg><span>Saulriets<small data-sun-moment-time="sunset">—</small></span></button>
-    <button type="button" data-sun-moment="dusk"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 15a8 8 0 0 1-11-11A8.5 8.5 0 1 0 20 15Z"/><path d="m18 3 .5 2 2 .5-2 .5-.5 2-.5-2-2-.5 2-.5Z"/></svg><span>Vakara krēsla<small data-sun-moment-time="dusk">—</small></span></button>
-  </div>
   <p class="sun-scene-note">Saules stāvoklis atbilst izvēlētajai pilsētai, datumam un laikam. Panorāmas ainava un atmosfēra ir ilustratīva. Reālas ielas un ēku kontūras apskati 3D kartē. <a href="#sky-model">Par vizualizāciju</a></p>
+  </details>
 </div>

@@ -1,0 +1,28 @@
+[
+  {
+    "file": "print-february-2028.pdf",
+    "pages": 1,
+    "pageSizePoints": [
+      0.0,
+      0.0,
+      594.95996,
+      841.91998
+    ],
+    "containsLeapDay": true,
+    "localInstrumentationAbsent": true,
+    "textCharacters": 291
+  },
+  {
+    "file": "print-home.pdf",
+    "pages": 1,
+    "pageSizePoints": [
+      0.0,
+      0.0,
+      594.95996,
+      841.91998
+    ],
+    "containsLeapDay": null,
+    "localInstrumentationAbsent": true,
+    "textCharacters": 407
+  }
+]

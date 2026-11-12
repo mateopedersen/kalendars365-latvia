@@ -17,17 +17,17 @@ function dimensions(file){
  if(kind==='VP8L'){const n=b.readUInt32LE(21);return[1+(n&0x3fff),1+((n>>>14)&0x3fff)];}
  assert.equal(kind,'VP8 ',file);return[b.readUInt16LE(26)&0x3fff,b.readUInt16LE(28)&0x3fff];
 }
-test('ready pages are indexable, listed in the sitemap and discoverable through search',()=>{
+test('every content page except photo licensing is indexable, in the sitemap and searchable',()=>{
  const sitemap=read('_site/sitemap.xml'),search=json('assets/search-index.json');
  const rows=Array.isArray(search)?search:search.pages||search.entries||search.items;
  for(const p of manifest){
   const html=read(physical(p.url));
-  if(p.status==='ready'){
+  if(p.url!=='/pilsetas-un-fotografijas/'){
    assert.equal(p.indexable,true,p.url);
-   assert.equal(meta(html,'robots'),'index,follow',p.url);
-   assert.ok(sitemap.includes('https://kalendars365.lv'+p.url),p.url);
+   assert.equal(meta(html,'robots'),'index,follow,max-image-preview:large',p.url);
+   assert.ok(sitemap.includes(new URL('https://kalendars365.lv'+p.url).href),p.url);
    assert.ok(rows.some(r=>r.url===p.url),p.url);
-  }else assert.equal(meta(html,'robots'),'noindex,follow',p.url);
+  }else {assert.equal(p.indexable,false,p.url);assert.equal(meta(html,'robots'),'noindex,follow',p.url);}
  }
 });
 test('all social covers are unique page-bound JPEGs and match their actual dimensions',()=>{
@@ -50,20 +50,21 @@ test('photo licensing page stays accessible and searchable while excluded from s
  assert.ok(json('assets/search-index.json').some(p=>p.url===url));
  assert.ok(!/Disallow:\s*\/(?:\s|pilsetas-un-fotografijas(?:\/|\s))/.test(read('_site/robots.txt')));
 });
-test('every page has source-bound critical CSS and reuses its full stylesheet without unrelated scripts',()=>{
+test('every page uses one source-bound complete stylesheet without duplicate inline CSS or unrelated scripts',()=>{
  const bundles=new Map();
  for(const p of manifest){
   const html=read(physical(p.url)),head=html.split('</head>')[0];
-  const critical=head.match(/<style data-critical-source="([^"]+)" data-critical-sha="([^"]+)">([\s\S]*?)<\/style>/);assert.ok(critical,p.url);
-  assert.equal(crypto.createHash('sha256').update(critical[3]).digest('hex'),critical[2],p.url);
+  const digest=meta(html,'style-bundle-sha256');assert.match(digest,/^[a-f0-9]{64}$/,p.url);
+  assert.ok(!head.includes('data-critical-source'),p.url+' must not duplicate the blocking stylesheet inline');
   const activeHead=head.replace(/<noscript>[\s\S]*?<\/noscript>/g,'');
   const styles=[...activeHead.matchAll(/<link rel="stylesheet" href="([^\"]+)"/g)].map(m=>m[1]);
   assert.equal(styles.length,1,p.url);
   assert.ok(!activeHead.includes('data-critical-deferred'),p.url);assert.ok(!activeHead.includes('/assets/critical-css-loader.js?v='),p.url);
   assert.ok(activeHead.includes(`<link rel="stylesheet" href="${styles[0]}">`),p.url+' must apply the complete stylesheet on first render');
-  const name=styles[0];assert.equal(name,critical[1],p.url);assert.match(name,/^\/static\/css\/[a-f0-9]{24}\.css$/);
+  const name=styles[0];assert.match(name,/^\/static\/css\/[a-f0-9]{24}\.css$/);
   if(!bundles.has(name))bundles.set(name,read('_site'+name));
   assert.ok(name.includes(crypto.createHash('sha256').update(bundles.get(name)).digest('hex').slice(0,24)),p.url);
+  assert.equal(digest,crypto.createHash('sha256').update(bundles.get(name)).digest('hex'),p.url);
   const city=html.includes('id="city-select"');
   for(const script of ['location.js','location-core.js','city-card.js','weather.js','observations.js'])
    assert.equal(html.includes('/assets/'+script+'?'),city,p.url+' '+script);

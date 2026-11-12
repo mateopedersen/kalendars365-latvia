@@ -8,3 +8,41 @@
 .archived-photo-credits{margin:30px auto;max-width:1400px}.archived-photo-credits>summary{font-weight:650;color:#87415a;cursor:pointer;padding:20px}
 
 .useful-outline--compact{background:transparent;border:0;padding:0;margin:8px 0 20px}.useful-outline--compact>div:first-child{justify-content:flex-end}.useful-outline--compact [data-useful-outline-links]{display:none}.useful-outline--compact .useful-actions{display:flex;gap:16px}.useful-outline--compact button{font-size:11px}.useful-outline--compact button[aria-pressed=true]{color:#226c60}
+
+/* A single compact action group follows the page's content edge. */
+/* Topic action rail: no generated table-of-contents box, no global home widget. */
+.page-action-rail{--rail-wine:#81243e;position:fixed;inset-inline-end:max(16px,calc((100vw - 1600px)/2));top:42vh;transform:translateY(-40%);z-index:40;box-sizing:border-box;width:72px;padding:9px 7px 7px;border:1px solid #dcc7bc;border-radius:23px;background:linear-gradient(145deg,#fffefb,#f6ece3);box-shadow:0 2px 0 #fff inset,0 2px 0 #ddc5b666,0 12px 26px #50334416;color:var(--rail-wine)}
+.page-action-rail-label{display:block;margin:2px 0 9px;text-align:center;font:750 8px/1.4 var(--font-ui,'DM Sans',sans-serif);letter-spacing:1.3px;color:#956778}
+.page-action-cluster{position:relative;min-width:0}
+.page-action-rail .page-action-dock{display:flex;flex-direction:column;align-items:stretch;gap:6px}
+.page-action-rail .page-action-dock>.page-action-button{box-sizing:border-box;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:5px;width:56px;min-width:56px;min-height:58px;padding:7px 3px;margin:0;border:1px solid #e7d7cc;border-radius:16px;background:linear-gradient(140deg,#fffdf9,#f7f0e9);box-shadow:0 1px 0 #fff inset;color:#774457;font:700 9px/1.3 var(--font-ui,'DM Sans',sans-serif);text-decoration:none;white-space:normal}
+.page-action-rail .page-action-dock>.page-action-button:hover{background:#f4e5e7;border-color:#cda5b1;color:#70223d}
+.page-action-rail .page-action-dock>.page-action-button:disabled{opacity:.5;cursor:default}
+.page-action-dock .page-action-button svg{display:block;flex:none;width:24px;height:24px;fill:none;stroke:currentColor;stroke-width:1.65;stroke-linecap:round;stroke-linejoin:round;filter:drop-shadow(0 1px 0 #ffffff40)}
+.page-action-rail .page-action-dock>.page-action-button--share{background:linear-gradient(145deg,#ae465e,#7b203c);border-color:#8e2c48;color:#fffaf0;box-shadow:0 1px 0 #ffffff50 inset,0 3px 6px #6b23332b}
+.page-action-rail .page-action-dock>.page-action-button--share:hover{background:linear-gradient(145deg,#a23a55,#66162f);color:#fff}
+.page-action-dock .page-action-bookmark-check{opacity:0}
+.page-action-dock [aria-pressed=true] .page-action-bookmark-check{opacity:1}
+.page-action-dock [aria-pressed=true] svg path:first-child{fill:#e8cbd4}
+.page-action-rail .page-action-dock>[aria-pressed=true]{background:#f2dfe6;border-color:#c794a6;color:#7b2342}
+.page-action-rail .page-action-dock>[data-copied=true]{background:#e5f2eb;border-color:#a9c7b8;color:#286a54}
+.page-action-rail :is(button,input):focus-visible{outline:3px solid #b9904d;outline-offset:3px}
+html[data-share-ready] .page-action-dock>button[data-share-open]{display:flex!important}
+.page-action-status{box-sizing:border-box;position:absolute;inset-inline-end:calc(100% + 16px);top:0;width:230px;max-width:calc(100vw - 110px);margin:0;padding:12px 14px;border:1px solid #dfc8c9;border-radius:13px;background:#fffdf9;box-shadow:0 8px 24px #56344217;color:#74344a;font:650 12px/1.5 var(--font-ui,'DM Sans',sans-serif);text-align:start;overflow-wrap:anywhere}
+.page-action-status:empty,.page-action-copy-fallback[hidden]{display:none}
+.page-action-copy-fallback{box-sizing:border-box;position:absolute;inset-inline-end:calc(100% + 16px);top:0;display:grid;grid-template-columns:minmax(0,1fr) 32px;gap:10px;width:300px;max-width:calc(100vw - 110px);padding:15px;border:1px solid #dfc6cb;border-radius:14px;background:#fffdf9;box-shadow:0 10px 30px #56344224;color:#6d4b57}
+.page-action-copy-fallback label{display:grid;gap:8px;min-width:0;font:700 13px/1.4 var(--font-ui,'DM Sans',sans-serif)}
+.page-action-copy-fallback input{box-sizing:border-box;width:100%;min-width:0;padding:10px;border:1px solid #d9bfc6;border-radius:8px;background:#fff;color:#562e40;font:500 13px/1.4 var(--font-ui,'DM Sans',sans-serif)}
+.page-action-copy-fallback p{grid-column:1/-1;margin:0;font-size:12px;line-height:1.5}
+.page-action-rail .page-action-copy-fallback button{align-self:start;display:grid;place-items:center;width:32px;height:32px;padding:0;border:1px solid #e7d5d4;border-radius:8px;color:#7e2943;font-size:22px}
+@media(min-width:1100px) and (max-width:1640px){body:has([data-page-action-rail]) main{padding-inline-end:88px}}
+@media(max-width:1099px){
+ .page-action-rail{position:relative;inset:auto;top:auto;transform:none;width:max-content;max-width:100%;margin:0 0 20px auto;padding:6px;border-radius:19px;z-index:2}
+ .page-action-rail-label{display:none}
+ .page-action-rail .page-action-dock{flex-direction:row;gap:5px}
+ .page-action-rail .page-action-dock>.page-action-button{min-height:52px;border-radius:13px}
+ .page-action-status,.page-action-copy-fallback{inset-inline-end:0;top:calc(100% + 9px);max-width:min(300px,calc(100vw - 40px));z-index:20}
+}
+@media print{.page-action-rail{display:none!important}body:has([data-page-action-rail]) main{padding-inline-end:0}}
+/* Shared form controls keep a common baseline with file action icons. */
+.useful-panel form>button,.useful-panel form>label>:is(input:not([type=checkbox]):not([type=radio]),select){min-height:50px}

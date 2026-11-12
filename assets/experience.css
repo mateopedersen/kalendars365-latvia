@@ -85,3 +85,8 @@ h1,h2,h3,h4{font-family:inherit;letter-spacing:-.45px}h2{font-weight:750}a{text-
 @media(max-width:500px){.tradition-context{padding:18px;margin:20px 0}.tradition-context p{font-size:14px}.occasion-related a>.tradition-related-art{height:105px;padding:12px}.tradition-related-art .icon{width:78px;height:78px}}
 
 .occasion-related a>img.tradition-related-illustration{object-fit:contain;background:#f3ebe0}
+.holiday-story-link{color:inherit;text-decoration:underline;text-decoration-color:#bf939f;text-underline-offset:4px;text-decoration-thickness:1px}
+.holiday-story-link:hover{color:var(--brand);text-decoration-color:currentColor}
+.holiday-story-link:focus-visible{outline:2px solid var(--brand);outline-offset:4px;border-radius:3px}
+.occasion-date-entry{scroll-margin-top:110px;border-radius:5px}
+.occasion-date-entry:target{outline:2px solid #9b3f5b;outline-offset:7px;background:#faecef;box-shadow:0 0 0 7px #faecef}

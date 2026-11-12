@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-labelledby="nav-tools-title nav-tools-desc"><title id="nav-tools-title">Vairāk rīku</title><desc id="nav-tools-desc">Kalendārs365 oriģināla telpiska vektoru ilustrācija ar slāņotām virsmām, materiālu atspīdumiem un ēnu.</desc><defs>
+<linearGradient id="nav-tools-ivory" x1="0" y1="0" x2=".85" y2="1"><stop stop-color="#fffef7"/><stop offset=".48" stop-color="#f2eee1"/><stop offset="1" stop-color="#c7beaa"/></linearGradient>
+<linearGradient id="nav-tools-paper" x1="0" y1="0" x2=".7" y2="1"><stop stop-color="#fffef9"/><stop offset=".7" stop-color="#f8f5e9"/><stop offset="1" stop-color="#dfd8c5"/></linearGradient>
+<linearGradient id="nav-tools-jade" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#a9d6c7"/><stop offset=".2" stop-color="#6bb5a4"/><stop offset=".65" stop-color="#398377"/><stop offset="1" stop-color="#1e504b"/></linearGradient>
+<linearGradient id="nav-tools-dark" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#365b5b"/><stop offset="1" stop-color="#142f34"/></linearGradient>
+<linearGradient id="nav-tools-wine" x1="0" y1="0" x2="1" y2=".85"><stop stop-color="#b7607b"/><stop offset=".35" stop-color="#923b57"/><stop offset="1" stop-color="#561b33"/></linearGradient>
+<linearGradient id="nav-tools-brass" x1="0" y1="0" x2="1" y2=".7"><stop stop-color="#fff2bf"/><stop offset=".24" stop-color="#c9a65b"/><stop offset=".42" stop-color="#f8e0a1"/><stop offset=".7" stop-color="#b28a47"/><stop offset="1" stop-color="#7a6036"/></linearGradient>
+<linearGradient id="nav-tools-metal" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fcffff"/><stop offset=".22" stop-color="#c0d1cc"/><stop offset=".45" stop-color="#f4fbf4"/><stop offset=".72" stop-color="#9eb4b1"/><stop offset="1" stop-color="#567675"/></linearGradient>
+<linearGradient id="nav-tools-glass" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#e4f3d9"/><stop offset=".45" stop-color="#a9c9b7"/><stop offset="1" stop-color="#739a88"/></linearGradient>
+<radialGradient id="nav-tools-dial" cx="32%" cy="24%" r="80%"><stop stop-color="#fffef6"/><stop offset=".7" stop-color="#eaf0e6"/><stop offset="1" stop-color="#baccc2"/></radialGradient>
+<filter id="nav-tools-shadow" x="-30%" y="-30%" width="170%" height="180%"><feDropShadow dx="0" dy="3" stdDeviation="2" flood-color="#392d35" flood-opacity=".19"/></filter>
+<filter id="nav-tools-blur" x="-30%" y="-100%" width="160%" height="300%"><feGaussianBlur stdDeviation="2.2"/></filter>
+</defs><ellipse cx="65" cy="119" rx="47" ry="4" fill="#493340" opacity=".18" filter="url(#nav-tools-blur)"/><g filter="url(#nav-tools-shadow)">
+  <path d="M57 24L106 17L111 85L62 94Z" fill="#8a774e"/><path d="M55 20L104 13L109 81L60 89Z" fill="url(#nav-tools-brass)"/><path d="M59 24L101 18L105 78L63 84Z" fill="url(#nav-tools-paper)"/>
+  <path d="M70 17L87 14L87 24L71 27Z" fill="url(#nav-tools-metal)" stroke="#769084" stroke-width=".5"/>
+  <path d="M68 39L95 35M69 48L96 44M70 57L97 53M71 66L92 63" stroke="#c4bcaa" stroke-width="1.4" stroke-linecap="round"/>
+  <path d="M24 17L31 15L48 74L41 77Z" fill="url(#nav-tools-brass)"/><path d="M24 17L25 7L31 15Z" fill="#d7bd93"/><path d="M25 7L24.7 11L27 10Z" fill="#4a3e3f"/>
+  <path d="M44 10L51 11L48 78L40 77Z" fill="url(#nav-tools-jade)"/><path d="M44 10L51 11L51 19L44 18Z" fill="url(#nav-tools-metal)"/>
+  <path d="M21 64Q21 58 40 58Q59 58 59 64L55 108Q54 115 39 115Q24 114 24 107Z" fill="url(#nav-tools-wine)"/>
+  <ellipse cx="40" cy="64" rx="19" ry="6" fill="#ba7890"/><ellipse cx="40" cy="64" rx="15" ry="3.5" fill="#572f40"/>
+  <path d="M27 69L30 105Q30 109 35 110" fill="none" stroke="#d59aaf" stroke-width="2.8" opacity=".6"/>
+  <path d="M54 69L50 108" stroke="#4c1931" stroke-width="2" opacity=".5"/>
+  <path d="M65 111L72 108L78 116L69 119Z" fill="url(#nav-tools-brass)"/>
+  <path d="M102 110L108 113L107 118L98 117Z" fill="url(#nav-tools-brass)"/>
+  <circle cx="92" cy="93" r="25" fill="#345556"/><circle cx="90" cy="90" r="25" fill="url(#nav-tools-brass)"/><circle cx="90" cy="90" r="21.6" fill="url(#nav-tools-dial)" stroke="#f8f8e8" stroke-width=".8"/>
+  <path d="M90 76L90 73" stroke="#788f82" stroke-width="1.5"/><path d="M98.25 76.71L99 75.41" stroke="#788f82" stroke-width="0.85"/><path d="M104.29 82.75L105.59 82" stroke="#788f82" stroke-width="0.85"/><path d="M105 91L108 91" stroke="#788f82" stroke-width="1.5"/><path d="M104.29 99.25L105.59 100" stroke="#788f82" stroke-width="0.85"/><path d="M98.25 105.29L99 106.59" stroke="#788f82" stroke-width="0.85"/><path d="M90 106L90 109" stroke="#788f82" stroke-width="1.5"/><path d="M81.75 105.29L81 106.59" stroke="#788f82" stroke-width="0.85"/><path d="M75.71 99.25L74.41 100" stroke="#788f82" stroke-width="0.85"/><path d="M75 91L72 91" stroke="#788f82" stroke-width="1.5"/><path d="M75.71 82.75L74.41 82" stroke="#788f82" stroke-width="0.85"/><path d="M81.75 76.71L81 75.41" stroke="#788f82" stroke-width="0.85"/><path d="M90 91L80 84M90 91L98 78" fill="none" stroke="#344e4e" stroke-width="2.4" stroke-linecap="round"/><path d="M85 82L98 103" stroke="#9c3e5a" stroke-width=".8"/><circle cx="90" cy="91" r="2.2" fill="url(#nav-tools-wine)"/>
+  <path d="M73 79Q82 69 96 74" fill="none" stroke="#fff" stroke-width="2.3" opacity=".55" stroke-linecap="round"/>
+  </g></svg>

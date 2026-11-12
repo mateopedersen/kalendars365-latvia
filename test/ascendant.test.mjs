@@ -127,5 +127,10 @@ test('built horoscope pages include the calculator and lazy modules without affe
   }
   const home = fs.readFileSync('_site/index.html', 'utf8');
   assert.doesNotMatch(home, /ascendant-ui\.mjs|ascendant-core\.mjs|ascendant-timezones\.mjs/);
-  for (const sign of SIGNS) assert.match(fs.readFileSync(`_site/horoskops/${sign.slug}/index.html`, 'utf8'), /href="\/horoskops\/#ascendenta-kalkulators"/);
+  for (const sign of SIGNS) {
+    const html=fs.readFileSync(`_site/horoskops/${sign.slug}/index.html`, 'utf8');
+    assert.match(html,/horoscope-ascendant-sidebar/);assert.match(html,/ascendant-calculator--compact/);
+    assert.equal((html.match(/id="ascendenta-kalkulators"/g)||[]).length,1);
+    assert.match(html,/ascendant-ui\.mjs/);assert.match(html,/href="\/horoskopa-zimes-kalkulators\/"/);
+  }
 });

@@ -1,5 +1,6 @@
 import {shareServices,shareGroups,findShareServices} from './share-services.mjs';
 import {escapeShare as esc,safePublicUrl,safeShareImage,safeTemplateUrl,shareComposer,shareText,copyPayload} from './share-core.mjs';
+import {horoscopeShare,schoolBreakShare,universityShare} from './share-context.mjs';
 
 let dialog,context,returnFocus,assetVersion,catalogPromise,openRevision=0;
 const localUrl=url=>{const u=new URL(url,location.origin);return u.pathname+u.search;};
@@ -10,7 +11,7 @@ const notice=message=>{dialog.querySelector('[data-share-status]').textContent=m
 function createDialog(){
  dialog=document.createElement('dialog');dialog.id='share-dialog';dialog.className='share-dialog';dialog.setAttribute('aria-labelledby','share-heading');
  dialog.innerHTML=`<header class="share-header"><div><span class="share-eyebrow">KALENDĀRS365 · LABĀK KOPĀ</span><h2 id="share-heading">Dalies ar noderīgo.</h2></div><button type="button" class="share-close" data-share-close aria-label="Aizvērt kopīgošanu">×</button></header>
- <div class="share-layout"><aside class="share-preview"><div class="share-cover"><img alt="" width="1200" height="630" data-share-cover></div><div class="share-preview-copy"><span class="share-pill" data-share-kind>Lapas saite</span><h3 data-share-title></h3><p data-share-context-note></p><div class="share-url-row"><input readonly aria-label="Publiskā kopīgošanas saite" data-share-url><button type="button" data-share-action="copy-link" aria-label="Kopēt saiti">${icon('copy-link',19)}</button></div><div class="share-quick"><button type="button" data-share-action="native">${icon('native',19)} Kopīgot ierīcē</button><button type="button" data-share-action="download">${icon('download',19)} Attēls</button></div><p class="share-private">${icon('copy-text',15)} Personīgie notikumi un piezīmes paliek tavā ierīcē.</p></div></aside>
+ <div class="share-layout"><aside class="share-preview"><div class="share-cover"><img alt="" width="1200" height="630" data-share-cover></div><div class="share-preview-copy"><span class="share-pill" data-share-kind>Lapas saite</span><h3 data-share-title></h3><p data-share-context-note></p><div class="share-url-row"><input readonly aria-label="Publiskā kopīgošanas saite" data-share-url><button type="button" data-share-action="copy-link" aria-label="Kopēt saiti">${icon('copy-link',19)}</button></div><div class="share-quick"><button type="button" data-share-action="native">${icon('native',19)} Kopīgot ierīcē</button><button type="button" data-share-action="download">${icon('download',19)} Attēls</button></div><p class="share-private">${icon('copy-text',15)} <span data-share-privacy></span></p></div></aside>
  <section class="share-options" aria-label="Kopīgošanas iespējas"><div class="share-options-top"><label class="share-search"><svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 5 5"/></svg><input type="search" placeholder="Meklē, piemēram, WhatsApp" aria-label="Meklēt kopīgošanas iespēju" autocomplete="off" data-share-search></label><div class="share-groups" role="group" aria-label="Filtrēt iespējas">${Object.entries(shareGroups).map(([id,name])=>`<button type="button" data-share-group="${id}" aria-pressed="${id==='all'}">${name}</button>`).join('')}</div><div class="share-count"><strong data-share-count>55 iespējas</strong><span>Izvēlies, kur vēlies dalīties</span></div></div><div class="share-grid" data-share-grid></div><section class="share-action-panel" data-share-panel hidden aria-label="Izvēlētās iespējas norādes"></section></section></div>
  <footer class="share-footer"><p role="status" aria-live="polite" data-share-status>Izvēlies saiti, attēlu vai sev ērtāko lietotni.</p><span>55 iespējas · bez izsekošanas logrīkiem</span></footer>`;
  document.body.append(dialog);
@@ -64,7 +65,7 @@ async function runAction(action,button){
    else{showPanel(`<h3 tabindex="-1">Dalies ar saiti</h3><p>Šajā pārlūkā ierīces kopīgošanas izvēlne nav pieejama. Izvēlies lietotni vai nokopē saiti.</p><button type="button" data-share-action="copy-link">${icon('copy-link',18)} Kopēt saiti</button>`);}return;
   }
   if(action==='download'){
-   showPanel(`<h3 tabindex="-1">Attēls tavam ierakstam</h3><p>Izvēlies izmēru. Kalendāra veidnes attēlā vienmēr saglabājas viss kalendārs.</p><div class="share-image-formats"><a href="${esc(localUrl(activeContext.image))}" download="${esc(activeContext.filename)}">${icon('download',20)} Oriģināls</a><button type="button" data-share-action="poster-square">${icon('download',20)} Kvadrāts <small>1080 × 1080</small></button><button type="button" data-share-action="poster-story">${icon('download',20)} Stāsts <small>1080 × 1920</small></button></div><p class="share-credit">${esc(activeContext.credits||'Kalendārs365 oriģinālais dizains.')} <a href="/pilsetas-un-fotografijas/#kopigosanas-vaki" target="_blank" rel="noopener">Attēlu avoti ↗</a></p>`);return;
+   showPanel(`<h3 tabindex="-1">Attēls tavam ierakstam</h3><p>Izvēlies izmēru. Kalendāra veidnes attēlā vienmēr saglabājas viss kalendārs.</p><div class="share-image-formats"><a href="${esc(localUrl(activeContext.image))}" download="${esc(activeContext.filename)}">${icon('download',20)} Oriģināls</a><button type="button" data-share-action="poster-square">${icon('download',20)} Kvadrāts <small>1080 × 1080</small></button><button type="button" data-share-action="poster-story">${icon('download',20)} Stāsts <small>1080 × 1920</small></button></div>`);return;
   }
   if(action.startsWith('poster-')){
    button?.setAttribute('aria-busy','true');notice('Attēls tiek sagatavots…');const {createSharePoster}=await import('./share-poster.mjs?v='+assetVersion);
@@ -85,17 +86,36 @@ async function runAction(action,button){
 }
 function downloadBlob(blob,filename){const url=URL.createObjectURL(blob),link=document.createElement('a');link.href=url;link.download=filename;link.click();setTimeout(()=>URL.revokeObjectURL(url),30000);}
 async function resolveContext(opener,page){
- const calendar=document.getElementById('calendar-app'),url=new URL(page.url,location.origin);url.search=location.search;
- const shared={date:calendar?.dataset.shareDate,view:calendar?.dataset.shareView,year:document.getElementById('calendar-year')?.value,month:document.getElementById('calendar-month')?.value};
- const result={url:safePublicUrl(url.href,shared),title:page.title||'Kalendārs365',image:safeShareImage(page.image),credits:page.credits||'',template:false};
- const card=opener.closest('.a3-design-card,.moon-print-card');
- if(card){
+ const kind=opener.dataset.shareKind,url=new URL(page.url,location.origin);url.search=location.search;url.hash=location.hash;
+ const result={url:safePublicUrl(url.href),title:page.title||'Kalendārs365',image:safeShareImage(page.image),credits:page.credits||'',template:false,kind:'Publiskā satura saite',description:'Saite atver šo saturu Kalendārs365 vietnē.',privacy:'Tiek kopīgota tikai publiski pieejama informācija.'};
+ if(kind==='calendar'){
+  const calendar=document.getElementById('calendar-app');
+  if(calendar){
+   result.url=safePublicUrl(url.href,{date:calendar.dataset.shareDate,view:calendar.dataset.shareView,year:document.getElementById('calendar-year')?.value,month:document.getElementById('calendar-month')?.value});
+   result.title=(document.getElementById('calendar-title')?.textContent.trim()||page.title)+' · Latvijas kalendārs';
+  }
+  result.kind='Kalendārs';result.description='Saite atver izvēlēto kalendāra periodu. Personīgie notikumi un piezīmes netiek iekļauti.';
+ }else if(kind==='horoscope'){
+  Object.assign(result,horoscopeShare({slug:opener.dataset.shareSign,genitive:opener.dataset.shareGenitive,date:opener.dataset.shareDate}));
+ }else if(kind==='school-break'){
+  const card=opener.closest('[data-school-break]'),root=card.closest('[data-school-experience]');
+  Object.assign(result,schoolBreakShare({schoolYear:root.querySelector('[data-school-year]').value,grade:root.querySelector('[data-school-class]').value,id:card.dataset.schoolBreak,label:card.querySelector('h3').textContent.trim(),start:card.dataset.start,end:card.dataset.end}));
+  const photo=card.querySelector('.hub-school-photo img');if(photo){result.image=safeShareImage(photo.getAttribute('src'));result.credits=card.querySelector('.hub-school-break-copy>p')?.textContent.trim()||'';}
+ }else if(kind==='university'){
+  const card=opener.closest('[data-university]'),panel=opener.closest('[data-uni-variant]'),picker=card.querySelector('[data-uni-variant-picker]');
+  Object.assign(result,universityShare({path:page.url,id:card.dataset.university,calendar:panel.dataset.uniVariant,institution:card.querySelector('h3').textContent.trim(),variant:picker?.selectedOptions[0]?.textContent.trim()}));
+  const photo=card.querySelector('.school-campus img');if(photo){result.image=safeShareImage(photo.getAttribute('src'));result.credits=card.querySelector('figcaption')?.textContent.trim()||'';}
+ }
+ const card=opener.closest('.a3-design-card,.moon-print-card,.print-library-card');
+ if(kind==='template'&&card){
   const pdf=[...card.querySelectorAll('a[download]')].find(a=>new URL(a.href).pathname.endsWith('.pdf'));
-  const full=card.querySelector('.a3-design-preview,.moon-print-preview');
-  if(pdf&&full){result.url=safeTemplateUrl(pdf.getAttribute('href'));result.image=safeShareImage(safeTemplateUrl(full.getAttribute('href')));result.title=(card.querySelector('h3')?.textContent.trim()||'Kalendārs')+' | '+(document.querySelector('h1')?.textContent.trim()||page.title);result.template=true;result.credits='Kalendārs365 oriģinālais kalendāra dizains.';const img=card.querySelector('img'),candidates=(img?.getAttribute('srcset')||'').split(',').map(x=>x.trim().split(/\s+/)).filter(x=>/^\d+w$/.test(x[1])).sort((a,b)=>parseInt(b[1])-parseInt(a[1]));result.posterSource=candidates[0]?.[0]||img?.getAttribute('src');}
+  const full=card.querySelector('.a3-design-preview,.moon-print-preview,.print-library-preview');
+  if(!pdf||!full)throw new TypeError('Calendar file unavailable');
+  result.url=safeTemplateUrl(pdf.getAttribute('href'));result.image=safeShareImage(safeTemplateUrl(full.getAttribute('href')));result.title=(card.querySelector('h3')?.textContent.trim()||'Kalendārs')+' | '+(card.querySelector('.print-library-card-copy>small')?.textContent.trim()||document.querySelector('h1')?.textContent.trim()||page.title);result.template=true;result.credits='Kalendārs365 oriģinālais kalendāra dizains.';result.kind='Izvēlētā veidne · PDF';result.description='Dalies tieši ar šo kalendāra failu.';
+  const img=card.querySelector('img'),candidates=(img?.getAttribute('srcset')||'').split(',').map(x=>x.trim().split(/\s+/)).filter(x=>/^\d+w$/.test(x[1])).sort((a,b)=>parseInt(b[1])-parseInt(a[1]));result.posterSource=candidates[0]?.[0]||img?.getAttribute('src');
  }else if(new URL(result.url).pathname!==page.url){
-  try{catalogPromise||=fetch('/assets/share-pages.json?v='+assetVersion,{credentials:'same-origin'}).then(r=>{if(!r.ok)throw Error();return r.json();}).catch(error=>{catalogPromise=null;throw error;});const catalog=await catalogPromise,row=catalog[new URL(result.url).pathname];if(row){result.title=row.title;result.image=safeShareImage(row.image);result.credits=row.credits;}}
-  catch{/* The original reviewed page cover remains available if the optional catalog fails. */}
+  try{catalogPromise||=fetch('/assets/share-pages.json?v='+assetVersion,{credentials:'same-origin'}).then(r=>{if(!r.ok)throw Error();return r.json();}).catch(error=>{catalogPromise=null;throw error;});const catalog=await catalogPromise,row=catalog[new URL(result.url).pathname];if(row){result.image=safeShareImage(row.image);result.credits=row.credits;}}
+  catch{/* Keep the reviewed landing cover when the optional cover catalog is unavailable. */}
  }
  result.filename='kalendars365-'+new URL(result.image).pathname.split('/').pop();return result;
 }
@@ -107,8 +127,9 @@ export async function openShare(opener,page,version){
  dialog.querySelector('[data-share-cover]').src=localUrl(context.posterSource||context.image);
  dialog.querySelector('[data-share-cover]').alt=context.template?'Izvēlētā kalendāra priekšskatījums':'Kopīgojamās lapas vāks';
  dialog.querySelector('[data-share-cover]').classList.toggle('is-template',context.template);
- dialog.querySelector('[data-share-kind]').textContent=context.template?'Izvēlētā veidne · PDF':'Publiskā lapas saite';
- dialog.querySelector('[data-share-context-note]').textContent=context.template?'Dalies tieši ar šo kalendāra failu.':'Kalendāri, horoskopi un idejas, ko vērts paturēt un nosūtīt tālāk.';
+ dialog.querySelector('[data-share-kind]').textContent=context.kind;
+ dialog.querySelector('[data-share-context-note]').textContent=context.description;
+ dialog.querySelector('[data-share-privacy]').textContent=context.privacy;
  dialog.querySelector('[data-share-url]').value=context.url;
  dialog.querySelector('[data-share-search]').value='';dialog.querySelectorAll('[data-share-group]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.shareGroup==='all')));
  const panel=dialog.querySelector('[data-share-panel]');panel.hidden=true;panel.innerHTML='';delete panel.dataset.qr;

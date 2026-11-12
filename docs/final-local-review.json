@@ -1,0 +1,30 @@
+{
+  "reviewedAt": "2026-11-12",
+  "publicationPerformed": false,
+  "htmlPages": 901,
+  "indexablePages": 898,
+  "responsiveChecks": 1802,
+  "responsiveWidths": [
+    390,
+    1440
+  ],
+  "responsiveFailures": 0,
+  "accessibilitySampleChecks": 46,
+  "accessibilitySampleViolations": 0,
+  "nodeTests": 336,
+  "nodeFailures": 0,
+  "verifiedDownloadFiles": 3459,
+  "brokenInternalLinks": 0,
+  "missingFragments": 0,
+  "orphanIndexablePages": 0,
+  "maxClickDepth": 3,
+  "publicLiveImageSitemapStatus": 404,
+  "contactFormPublished": true,
+  "contactEmailNotificationReceived": true,
+  "websiteChangesLocalOnly": true,
+  "notes": [
+    "Official provider address intentionally left blank at owner direction.",
+    "Google Forms interface chrome follows Google/browser language; authored form content is Latvian.",
+    "No new universal Lighthouse score or independent legal/accessibility certification is claimed."
+  ]
+}

@@ -5,7 +5,7 @@ import crypto from 'node:crypto';
 import * as Astronomy from '../../assets/vendor/astronomy-engine.mjs';
 import {rigaInstant} from '../../assets/sky-core.mjs';
 const root=process.cwd(),cache=path.join(root,'tooling/social-cards/cache');fs.mkdirSync(cache,{recursive:true});
-const dirs=['assets/category-vector','assets/tools-art','assets/zodiac','assets/astronomy-events','assets/season-scenes'];let count=0;
+const dirs=['assets/category-vector','assets/tools-art','assets/zodiac','assets/astronomy-events','assets/season-scenes','assets/trust'];let count=0;
 for(const dir of dirs)for(const name of fs.readdirSync(dir).filter(n=>n.endsWith('.svg'))){
  const source=path.join(dir,name),bytes=fs.readFileSync(source),hash=crypto.createHash('sha256').update(bytes).digest('hex'),output=path.join(cache,source.replaceAll('/','__').replace('.svg','.png')),stamp=output+'.sha256';
  if(!fs.existsSync(output)||!fs.existsSync(stamp)||fs.readFileSync(stamp,'utf8')!==hash){const render=new Resvg(bytes,{fitTo:{mode:'width',value:900}});fs.writeFileSync(output,render.render().asPng());fs.writeFileSync(stamp,hash);count++;}

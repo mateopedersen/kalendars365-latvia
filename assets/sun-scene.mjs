@@ -138,6 +138,7 @@ export function createSunScene(root) {
     if(state.mode==='map'){showPanorama('Ielādē pilsētas 3D karti…');startMap();}
     else showPanorama();
   }));
+  root.addEventListener('k365:sun-fit',()=>{state.follow=true;controls();update();state.map?.resize();});
   q('[data-sun-landscape]').addEventListener('change',event=>{state.landscape=event.target.value;draw();});
   q('[data-sun-follow]').addEventListener('click',()=>{
     state.follow=!state.follow;

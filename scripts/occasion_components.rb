@@ -10,7 +10,7 @@ def occasion_page(article, _all=nil)
     else
       rows.map do |row|
         date=Date.parse(row['date'])
-        %(<div>#{tradition_date_link(date)}<span>#{h(%w[pirmdiena otrdiena trešdiena ceturtdiena piektdiena sestdiena svētdiena][date.cwday-1])}</span><small>#{h(row['title'])}</small></div>)
+        %(<div class="occasion-date-entry" id="datums-#{date.iso8601}" tabindex="-1">#{tradition_date_link(date)}<span>#{h(%w[pirmdiena otrdiena trešdiena ceturtdiena piektdiena sestdiena svētdiena][date.cwday-1])}</span><small>#{h(row['title'])}</small></div>)
       end.join
     end
     %(<article><strong>#{year}</strong>#{text}</article>)

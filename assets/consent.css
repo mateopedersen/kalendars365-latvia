@@ -1,31 +1,28 @@
-/* Shared privacy card: the same choices and local consent record on every page. */
-body.consent-open{padding-bottom:var(--consent-space,190px)}
-.consent-banner{position:fixed;isolation:isolate;z-index:95;inset:auto 20px max(18px,env(safe-area-inset-bottom));width:auto;max-width:1240px;margin-inline:auto;padding:22px 24px;display:grid;grid-template-columns:88px minmax(0,1fr) 352px;align-items:center;gap:22px;background:radial-gradient(ellipse at 0 100%,#f7e9db80,transparent 42%),linear-gradient(115deg,#fffefa,#fffaf6);border:1px solid #dac1bd;border-radius:24px;color:#352d34;box-shadow:0 18px 60px #42253326,0 3px 12px #4225330a,inset 0 1px 0 #fff;font-family:var(--font-ui);max-height:calc(100vh - 24px);max-height:calc(100dvh - 24px);overflow:auto;overscroll-behavior:contain;scrollbar-width:thin;animation:consent-arrive .35s cubic-bezier(.22,.7,.3,1) both}
+/* A compact information notice. Acknowledging it never enables tracking. */
+body.consent-open{padding-bottom:var(--consent-space,160px)}
+.consent-banner{
+ position:fixed;isolation:isolate;z-index:95;inset:auto 20px max(16px,env(safe-area-inset-bottom));
+ width:auto;max-width:1180px;margin-inline:auto;padding:22px 24px;
+ display:grid;grid-template-columns:40px minmax(0,1fr) auto;align-items:center;gap:20px;
+ background:#fffdfa;border:1px solid #d9c8c3;border-top:3px solid #85263f;border-radius:10px;
+ color:#322b30;box-shadow:0 8px 32px #32212b1a;font-family:var(--font-ui);
+ max-height:calc(100vh - 24px);max-height:calc(100dvh - 24px);overflow:auto;overscroll-behavior:contain;
+}
 .consent-banner[hidden],html[data-consent-saved] .consent-banner{display:none!important}
-.consent-banner:before{content:"";position:absolute;top:0;left:32px;width:94px;height:2px;border-radius:0 0 3px 3px;background:linear-gradient(90deg,#9b5267,#cba383,transparent)}
-.consent-art{display:grid;place-items:center;position:relative;width:88px;height:100px;align-self:center}
-.consent-art:before{content:"";position:absolute;width:86px;height:86px;border-radius:50%;background:radial-gradient(circle at 35% 25%,#fffaf1,#f0e0d5);border:1px solid #fff;box-shadow:0 0 0 6px #eadacf30,inset 0 0 20px #fff8;z-index:-1}
-.consent-art img{width:96px;height:96px;object-fit:contain;display:block}
+.consent-mark{display:grid;place-items:center;width:40px;height:40px;color:#85263f;align-self:start;margin-top:3px}
+.consent-mark svg{display:block;stroke:currentColor;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round}
 .consent-copy{min-width:0}
-.consent-eyebrow{display:flex;align-items:center;gap:6px;text-transform:uppercase;letter-spacing:1.5px;font-size:9px;font-weight:800;line-height:1.4;color:#8b4a60;margin-bottom:7px}
-.consent-eyebrow svg{fill:none;stroke:currentColor;stroke-width:1.25;stroke-linecap:round;stroke-linejoin:round;flex:none}
-.consent-banner h2{font-family:var(--font-ui);font-size:26px;line-height:1.2;letter-spacing:-.65px;font-weight:800;margin:0 0 7px;color:#4e283a;text-wrap:balance}
-.consent-banner p{font-size:13px;line-height:1.65;margin:0;max-width:66ch;color:#75616b}
-.consent-banner p a{display:inline-flex;align-items:center;gap:3px;font-weight:700;color:#80334c;text-decoration-thickness:1px;text-underline-offset:3px;white-space:nowrap}
-.consent-banner p a svg{fill:none;stroke:currentColor;stroke-width:1.4;stroke-linecap:round;stroke-linejoin:round;flex:none}
-.consent-controls{display:flex;flex-direction:column;align-items:stretch;gap:7px;min-width:0;border-left:1px solid #e8dcd5;padding-left:24px}
-.consent-decisions{display:flex;gap:9px;width:100%}
-.consent-banner button{font:750 12px var(--font-ui);line-height:1.3;min-height:48px;min-width:0;padding:12px 14px;cursor:pointer;border-radius:12px;display:inline-flex;align-items:center;justify-content:center;gap:7px;white-space:normal;transition:background .18s,box-shadow .18s,transform .18s}
+.consent-banner h2{font-family:var(--font-ui);font-size:20px;font-weight:750;line-height:1.3;letter-spacing:-.3px;margin:0 0 7px;color:#322b30}
+.consent-banner p{font-size:14px;font-weight:450;line-height:1.6;margin:0;max-width:70ch;color:#61545d}
+.consent-banner p a{color:#85263f;font-weight:650;text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:3px}
+.consent-controls{display:flex;align-items:stretch;gap:10px;min-width:0}
+.consent-banner button{font:700 14px var(--font-ui);line-height:1.35;min-height:48px;min-width:0;padding:12px 17px;border:1px solid #bda4ac;border-radius:7px;display:inline-flex;align-items:center;justify-content:center;gap:8px;white-space:normal;cursor:pointer;transition:background .15s,border-color .15s}
 .consent-banner button svg{flex:none}
-.consent-banner .consent-necessary{color:#703a50;background:#fffdf9;border:1px solid #ccb0b8;flex:1.3;box-shadow:0 2px 3px #42253305}
-.consent-banner .consent-accept{color:#fffaf3;border:1px solid #77263f;background:linear-gradient(135deg,#a04a65,#76243f);box-shadow:0 5px 12px #76243f20,inset 0 1px 0 #ffffff26;flex:1}
-.consent-banner .consent-manage{align-self:center;background:transparent;border:0;color:#805666;min-height:36px;font-size:11px;padding:7px 10px;font-weight:650;gap:7px}
-.consent-banner button:hover{transform:translateY(-1px)}
-.consent-banner button:active{transform:translateY(0)}
-.consent-banner .consent-necessary:hover{background:#f9f0ed;border-color:#a86b80}
-.consent-banner .consent-accept:hover{background:linear-gradient(135deg,#a74e6b,#671c37);box-shadow:0 7px 18px #76243f30}
-.consent-banner .consent-manage:hover{color:#74233f;background:#f3e8e3}
-.consent-banner :is(button,a):focus-visible,.consent-dialog :is(button,a):focus-visible{outline:3px solid #b58348;outline-offset:3px}
+.consent-banner .consent-necessary{background:#fffdfa;color:#75243a}
+.consent-banner .consent-accept{background:#85263f;border-color:#85263f;color:#fff;min-width:116px;box-shadow:none}
+.consent-banner .consent-necessary:hover{background:#f7f0ef;border-color:#85263f}
+.consent-banner .consent-accept:hover{background:#6b1c31;border-color:#6b1c31}
+.consent-banner :is(button,a):focus-visible,.consent-dialog :is(button,a):focus-visible{outline:3px solid #ad7a3d;outline-offset:3px}
 dialog.consent-dialog{max-width:590px;width:calc(100% - 32px);padding:28px;border-radius:24px;border:1px solid #e4d1c7;background:#fffcf7;color:#352d34;box-shadow:0 25px 90px #30192545}
 .consent-dialog::backdrop{background:#2e1f2b60;backdrop-filter:blur(4px)}
 .consent-dialog .dialog-heading{align-items:start;gap:15px;margin-bottom:16px}
@@ -44,8 +41,23 @@ dialog.consent-dialog{max-width:590px;width:calc(100% - 32px);padding:28px;borde
 .consent-dialog-actions .consent-accept{background:linear-gradient(135deg,#a14863,#76243f);color:#fff8ee;border-color:#78243d}
 .consent-policy-links{display:flex;gap:18px;font-size:11px;margin:17px 0 0;color:#805265}
 .consent-policy-links a{color:inherit;text-underline-offset:3px}
-@keyframes consent-arrive{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:translateY(0)}}
-@media(max-width:1050px){.consent-banner{grid-template-columns:72px minmax(0,1fr);gap:14px 20px;padding:20px 24px}.consent-art{width:72px;height:84px}.consent-art img{width:84px;height:84px}.consent-art:before{width:72px;height:72px}.consent-controls{grid-column:1/-1;flex-direction:row;align-items:center;gap:20px;border-left:0;border-top:1px solid #e8dcd5;padding:14px 0 0}.consent-decisions{max-width:400px;flex:1}.consent-banner .consent-manage{margin-left:auto;align-self:center}.consent-banner h2{font-size:25px}.consent-banner p{max-width:80ch}}
-@media(max-width:620px){body.consent-open{padding-bottom:var(--consent-space,280px)}.consent-banner{inset:auto 10px max(10px,env(safe-area-inset-bottom));padding:19px 18px 12px;border-radius:21px;grid-template-columns:54px minmax(0,1fr);gap:13px 14px}.consent-art{width:54px;height:64px;align-self:start;margin-top:9px}.consent-art img{width:64px;height:64px}.consent-art:before{width:54px;height:54px;box-shadow:0 0 0 4px #eadacf30}.consent-eyebrow{font-size:8px;letter-spacing:1px;gap:4px;margin-bottom:6px}.consent-eyebrow svg{width:11px;height:11px}.consent-banner h2{font-size:22px;line-height:1.15;letter-spacing:-.6px;margin-bottom:7px}.consent-banner p{font-size:12px;line-height:1.6}.consent-controls{flex-direction:column;align-items:stretch;gap:3px;border:0;padding:0}.consent-decisions{max-width:none;flex:none;gap:8px}.consent-banner button{font-size:12px;min-height:46px;padding:11px 10px;border-radius:11px}.consent-banner .consent-manage{min-height:36px;margin-inline:auto;font-size:11px;padding:7px 12px}.consent-banner:before{left:25px;width:65px}.consent-banner p a{white-space:normal}.consent-option{padding:14px}.consent-option-head{flex-wrap:wrap;gap:7px}.consent-dialog .dialog-heading h2{font-size:23px}.consent-dialog{padding:22px!important}.consent-policy-links{gap:11px;flex-wrap:wrap}}
-@media(prefers-reduced-motion:reduce){.consent-banner{animation:none}.consent-banner button{transition:none}.consent-banner button:hover{transform:none}}
+@media(max-width:1000px){
+ .consent-banner{grid-template-columns:36px minmax(0,1fr);gap:14px 16px;padding:20px}
+ .consent-mark{width:36px;height:36px}
+ .consent-controls{grid-column:2;justify-content:flex-start}
+}
+@media(max-width:620px){
+ body.consent-open{padding-bottom:var(--consent-space,260px)}
+ .consent-banner{inset:auto 10px max(10px,env(safe-area-inset-bottom));grid-template-columns:28px minmax(0,1fr);padding:18px 16px 16px;gap:12px;border-radius:9px}
+ .consent-mark{width:28px;height:28px;margin-top:1px}.consent-mark svg{width:28px;height:28px}
+ .consent-banner h2{font-size:19px;line-height:1.3;margin-bottom:7px}
+ .consent-banner p{font-size:14px;line-height:1.55}
+ .consent-controls{grid-column:1/-1;display:grid;grid-template-columns:minmax(0,1.4fr) minmax(0,1fr);gap:10px;margin-top:3px}
+ .consent-banner button{font-size:14px;min-height:48px;padding:11px 10px}
+ .consent-banner .consent-accept{min-width:0}
+ .consent-option{padding:14px}.consent-option-head{flex-wrap:wrap;gap:7px}
+ .consent-dialog .dialog-heading h2{font-size:23px}.consent-dialog{padding:22px!important}
+ .consent-policy-links{gap:11px;flex-wrap:wrap}
+}
+@media(prefers-reduced-motion:reduce){.consent-banner button{transition:none}}
 @media print{.consent-banner{display:none!important}body.consent-open{padding-bottom:0!important}}

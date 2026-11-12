@@ -1,0 +1,43 @@
+{
+  "version": 1,
+  "viewBox": [
+    0,
+    0,
+    128,
+    128
+  ],
+  "artworks": [
+    {
+      "id": "print",
+      "label": "PDF kalendāri",
+      "file": "/assets/nav-tools/print.svg",
+      "bytes": 5290,
+      "sha256": "66695ff50d11794558980c470f42c7993b6861e4ee20d55f0808143a2b019bc2",
+      "kind": "original-layered-vector"
+    },
+    {
+      "id": "work",
+      "label": "Darba dienas",
+      "file": "/assets/nav-tools/work.svg",
+      "bytes": 4857,
+      "sha256": "3f70184f329c88a869f044ea434949262d0dea3fdefd6f8e8389f771e2c782c4",
+      "kind": "original-layered-vector"
+    },
+    {
+      "id": "calculator",
+      "label": "Datumu kalkulators",
+      "file": "/assets/nav-tools/calculator.svg",
+      "bytes": 8764,
+      "sha256": "360b036e7075912f0be139585bed8f252dbd71ea7650889b88ee8a0be3b6f221",
+      "kind": "original-layered-vector"
+    },
+    {
+      "id": "tools",
+      "label": "Vairāk rīku",
+      "file": "/assets/nav-tools/tools.svg",
+      "bytes": 5288,
+      "sha256": "6d8f4b7a26ad46d90c7a43edec3b6721e1da2caaf2eea3ea77fa15753c45c643",
+      "kind": "original-layered-vector"
+    }
+  ]
+}

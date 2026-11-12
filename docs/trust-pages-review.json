@@ -1,0 +1,106 @@
+{
+  "reviewedAt": "2026-11-12",
+  "localOnly": true,
+  "pages": [
+    "/privatuma-politika/",
+    "/sikdatnu-politika/",
+    "/pieklustamiba/",
+    "/kontakti/",
+    "/par-projektu/",
+    "/biezak-uzdotie-jautajumi/"
+  ],
+  "faqQuestions": 25,
+  "storageGroups": 9,
+  "primaryAndProviderSources": 13,
+  "nodeTests": 286,
+  "responsiveChecks": 30,
+  "http": {
+    "localOnly": true,
+    "htmlPages": 901,
+    "imageFiles": 7198,
+    "sitemapsAndRobots": [
+      {
+        "url": "/sitemap.xml",
+        "status": 200,
+        "type": "application/xml; charset=utf-8",
+        "robots": null
+      },
+      {
+        "url": "/image-sitemap.xml",
+        "status": 200,
+        "type": "application/xml; charset=utf-8",
+        "robots": null
+      },
+      {
+        "url": "/robots.txt",
+        "status": 200,
+        "type": "text/plain; charset=utf-8",
+        "robots": null
+      }
+    ],
+    "issues": [],
+    "allHttp200": true
+  },
+  "print": [
+    {
+      "path": "/privatuma-politika/",
+      "pages": 4,
+      "expectedParagraphs": 13,
+      "missingParagraphs": [],
+      "nearBlankPages": [],
+      "bytes": 190165
+    },
+    {
+      "path": "/sikdatnu-politika/",
+      "pages": 5,
+      "expectedParagraphs": 8,
+      "missingParagraphs": [],
+      "nearBlankPages": [],
+      "bytes": 198438
+    },
+    {
+      "path": "/par-projektu/",
+      "pages": 3,
+      "expectedParagraphs": 5,
+      "missingParagraphs": [],
+      "nearBlankPages": [],
+      "bytes": 177885
+    },
+    {
+      "path": "/biezak-uzdotie-jautajumi/",
+      "pages": 5,
+      "expectedParagraphs": 25,
+      "missingParagraphs": [],
+      "nearBlankPages": [],
+      "bytes": 133550
+    },
+    {
+      "path": "/pieklustamiba/",
+      "pages": 3,
+      "expectedParagraphs": 8,
+      "missingParagraphs": [],
+      "nearBlankPages": [],
+      "bytes": 159877
+    },
+    {
+      "path": "/kontakti/",
+      "pages": 2,
+      "expectedParagraphs": 5,
+      "missingParagraphs": [],
+      "nearBlankPages": [],
+      "bytes": 130301
+    }
+  ],
+  "pending": [
+    {
+      "field": "ownerAddress",
+      "reason": "Information society services law, Section 4 provider address; not present in repository and not invented."
+    }
+  ],
+  "limits": [
+    "No independent legal opinion or native-Latvian editorial certification.",
+    "No full website screen-reader/WCAG or PDF/UA certification.",
+    "Cloudflare/Google account-specific DPA, log retention and ordinary-email deletion routines were not independently configured or verified.",
+    "Browser and HTTP checks concern local port 4007; no production deployment performed."
+  ]
+}

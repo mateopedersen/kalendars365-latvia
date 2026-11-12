@@ -1,0 +1,12 @@
+import fs from 'node:fs';
+const base='../reports/smoke-2026-11-12',manifest=JSON.parse(fs.readFileSync('docs/route-manifest.json'));
+const routes=[...manifest,{url:'/404.html',family:'not_found'},{url:'/500.html',family:'temporary_error'}];
+const readLines=name=>fs.existsSync(base+'/after/'+name)?fs.readFileSync(base+'/after/'+name,'utf8').trim().split('\n').filter(Boolean).map(s=>JSON.parse(s)):[];
+const collect=prefix=>{const map=new Map();for(const name of fs.readdirSync(base+'/after').filter(n=>n.startsWith(prefix)&&n.endsWith('.jsonl')))for(const row of readLines(name))if(row.geometry)map.set(row.url,row);return map;};
+const mobile=collect('mobile-'),desktop=collect('desktop-');
+const issues=row=>{const g=row.geometry||{},r=row.runtime||{};return !!(row.error||!g.stylesReady||g.documentOverflow||g.horizontal?.length||g.textClipping?.length||g.overlaps?.length||r.errors?.length||r.brokenImages?.length||row.exceptions?.length);};
+const matrix=readLines('matrix.jsonl'),interactions=readLines('interactions.jsonl'),http=JSON.parse(fs.readFileSync(base+'/after/http.json')),links=JSON.parse(fs.readFileSync(base+'/after/links-final.json')),files=JSON.parse(fs.readFileSync(base+'/after/file-integrity.json'));
+const report={date:'2026-11-12',environment:'LOCAL ONLY · http://127.0.0.1:4025 · geolocation fixture Jūrmala; production CSP',pages:routes.length,families:new Set(routes.map(r=>r.family)).size,mobile:{pages:mobile.size,widths:[...new Set([...mobile.values()].map(r=>r.geometry.width))],issues:[...mobile.values()].filter(issues).map(r=>r.url)},desktop:{pages:desktop.size,widths:[...new Set([...desktop.values()].map(r=>r.geometry.width))],issues:[...desktop.values()].filter(issues).map(r=>r.url)},matrix:{checks:matrix.length,widths:[...new Set(matrix.map(r=>r.geometry?.width))],issues:matrix.filter(issues).map(r=>r.url)},http:{pages:http.pages,resources:http.resources,resourceErrors:http.resourceErrors,routeErrors:http.routeErrors,notFoundStatus:http.notFoundStatus},links:links.summary,interactions,files,coverage:routes.map(r=>({url:r.url,family:r.family,mobile:mobile.has(r.url)&&!issues(mobile.get(r.url)),desktop:desktop.has(r.url)&&!issues(desktop.get(r.url))}))};
+fs.writeFileSync(base+'/summary.json',JSON.stringify(report,null,2));
+console.log(JSON.stringify({...report,coverage:undefined,interactions:interactions.length,files:files.length}));
+if(matrix.length<58||mobile.size!==901||desktop.size!==901||report.mobile.issues.length||report.desktop.issues.length||report.matrix.issues.length)process.exitCode=1;

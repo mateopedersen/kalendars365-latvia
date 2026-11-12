@@ -48,7 +48,7 @@ end
 def tradition_topic_photo_markup(slug,hero=false)
   photo=tradition_cover(tradition_photo_for(slug))
   priority=hero ? 'loading="eager" fetchpriority="high"' : 'loading="lazy"'
-  %(<figure class="tradition-topic-photo" data-tradition-photo="#{h(slug)}"><img src="#{h(photo.fetch('src'))}" srcset="#{h(photo.fetch('srcset'))}" sizes="(max-width: 900px) calc(100vw - 48px), 680px" width="#{photo.fetch('width')}" height="#{photo.fetch('height')}" alt="#{h(photo.fetch('alt'))}" #{priority} decoding="async"><figcaption>#{h(photo.fetch('caption'))}<span>#{h(photo.fetch('author'))} · #{a(photo.fetch('licenseUrl'),photo.fetch('license'))} · #{a('/pilsetas-un-fotografijas/#occasion-photo-'+photo.fetch('id'),'Foto avots un pielāgojumi')}</span></figcaption></figure>)
+  %(<figure class="tradition-topic-photo" data-tradition-photo="#{h(slug)}"><img src="#{h(photo.fetch('src'))}" srcset="#{h(photo.fetch('srcset'))}" sizes="(max-width: 900px) calc(100vw - 48px), 680px" width="#{photo.fetch('width')}" height="#{photo.fetch('height')}" alt="#{h(photo.fetch('alt'))}" #{priority} decoding="async"><figcaption>#{h(photo.fetch('caption'))}</figcaption></figure>)
 end
 
 def tradition_photo_heading_markup(heading,description,slug)

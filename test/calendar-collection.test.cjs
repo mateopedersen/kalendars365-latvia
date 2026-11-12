@@ -14,18 +14,16 @@ test('all 156 year/month pages put the correct downloads first and expose every 
   const gallery=kind==='meness-kalendars'?'moon-print-section':'a3-year-gallery';
   assert.match(main,new RegExp('^<div class="calendar-collection-main"><section class="'+gallery));
   assert(main.indexOf('calendar-period-content')>main.indexOf(kind==='meness-kalendars'?'moon-print-card':'a3-design-card'));
-  assert.equal((html.match(/class="collection-mini-month/g)||[]).length,12,url);
+  assert.equal((html.match(/class="collection-month-link/g)||[]).length,12,url);
   assert.equal((html.match(/<article class="(?:a3-design-card|moon-print-card)"/g)||[]).length,kind==='meness-kalendars'?4:15,url);
   assert.equal((html.match(/class="calendar-collection-layout"/g)||[]).length,1,url);
   assert(html.includes('data-collection-year="'+year+'"'));
   for(let number=1;number<=12;number++){
-   const mini=html.match(new RegExp('<section class="collection-mini-month[^>]*data-month="'+number+'">([\\s\\S]*?)</section>'))[1];
-   assert(mini.includes('href="'+core.path(kind,year,number)+'"'));
-   const dates=[...mini.matchAll(/<time datetime="(\d{4}-\d{2}-\d{2})">/g)].map(x=>x[1]).filter(x=>x.startsWith(year+'-'+String(number).padStart(2,'0')));
-   assert.equal(dates.length,new Date(Date.UTC(year,number,0)).getUTCDate(),url+' month '+number);
-   assert.equal(new Set(dates).size,dates.length);
+   const link=html.match(new RegExp('<a class="collection-month-link[^>]*data-month="'+number+'"[^>]*>'))?.[0];
+   assert(link,url+' month '+number);
+   assert(link.includes('href="'+core.path(kind,year,number)+'"'));
+   assert.equal(link.includes('aria-current="page"'),month===number,url+' current month '+number);
   }
-  if(month)assert(html.includes('data-month="'+month+'"><h3><a href="'+core.path(kind,year,month)+'" aria-current="page"'));
   assert(html.includes('/assets/calendar-collection.js?v='));count++;
  }
  assert.equal(count,156);

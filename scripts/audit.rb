@@ -4,6 +4,7 @@ require 'csv'
 require 'uri'
 require 'cgi'
 require 'set'
+require_relative 'indexing_policy'
 root=File.expand_path('..',__dir__);Dir.chdir(root)
 manifest=JSON.parse(File.read('docs/route-manifest.json'))
 errors=[];rows=[];titles={};descs={};allfiles=Dir.glob('_site/**/*').select{|p|File.file?(p)}
@@ -19,7 +20,11 @@ manifest.each do |r|
  faults << 'missing description' if description.nil?||description.empty?
  faults << 'duplicate description' if descs.key?(description);descs[description]=r['url']
  canonical=html[/<link rel="canonical" href="([^"]+)"/,1]; faults << 'missing canonical' unless canonical && URI::DEFAULT_PARSER.unescape(CGI.unescapeHTML(canonical))=="https://kalendars365.lv#{r['url']}"
- noindex=html.include?('content="noindex,follow"');faults << 'index mismatch' if noindex==r['indexable']
+ robots=html[/<meta name="robots" content="([^"]+)"/,1].to_s.split(',').map(&:strip)
+ faults << 'index mismatch' unless robots.include?('noindex')==!r['indexable']
+ faults << 'unexpected content exclusion' unless r['indexable']==!CalendarIndexingPolicy.noindex?(r['url'])
+ faults << 'image indexing blocked' if robots.include?('noimageindex')
+ faults << 'large image previews missing' if r['indexable'] && !robots.include?('max-image-preview:large')
  html.scan(/<script type="application\/ld\+json">(.*?)<\/script>/m).flatten.each{|j|begin;JSON.parse(j);rescue;faults << 'invalid JSONLD';end}
  html.scan(/<img\b[^>]*>/mi).each do |image|
   src=image[/\bsrc\s*=\s*(["'])(.*?)\1/m,2]
@@ -32,7 +37,6 @@ manifest.each do |r|
   next if target.empty? || !target.start_with?('/') || target.start_with?('//')
   target=URI::DEFAULT_PARSER.unescape(target)
   candidates=["_site#{target}","_site#{target}index.html","_site#{target}/index.html"]
-  next if target.start_with?('/nedelas-kalendars/2031/')
   faults << "missing internal #{target}" unless candidates.any?{|c|File.file?(c)}
  end
  rows<<[r['url'],r['family'],r['indexable'],faults.empty? ? 'pass' : 'fail',faults.uniq.join('; ')]
@@ -45,9 +49,13 @@ if File.file?('_site/_headers')
  headers=File.read('_site/_headers')
  errors << 'missing CSP policy' unless headers.include?("Content-Security-Policy: default-src 'self'")
 end
-xml=File.read('_site/sitemap.xml');locs=xml.scan(/<loc>(.*?)<\/loc>/).flatten
+xml=File.read('_site/sitemap.xml');locs=xml.scan(/<loc>(.*?)<\/loc>/).flatten.map { |url| URI::DEFAULT_PARSER.unescape(CGI.unescapeHTML(url)) }
 expected=manifest.select{|r|r['indexable']}.map{|r|'https://kalendars365.lv'+r['url']}
 errors << 'sitemap differs' unless locs.sort==expected.sort
+robots=File.read('_site/robots.txt')
+errors << 'robots blocks public crawling' if robots.match?(/^Disallow:\s*\S+/i)
+errors << 'image sitemap not advertised' unless robots.include?('Sitemap: https://kalendars365.lv/image-sitemap.xml')
+errors << 'missing image sitemap' unless File.file?('_site/image-sitemap.xml')
 search_rows=JSON.parse(File.read('assets/search-index.json'))
 search_rows.each do |entry|
   target=URI::DEFAULT_PARSER.unescape(entry.fetch('url').split(/[?#]/).first)

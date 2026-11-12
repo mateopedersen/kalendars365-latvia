@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "scope": "local built files; no external requests",
+  "origin": "https://kalendars365.lv",
+  "pageUrls": 898,
+  "indexablePages": 898,
+  "htmlDocuments": 901,
+  "imagePages": 898,
+  "uniqueImages": 4369,
+  "imageReferences": 8976,
+  "excluded": [
+    "/404.html",
+    "/500.html",
+    "/pilsetas-un-fotografijas/"
+  ],
+  "files": {
+    "sitemap.xml": {
+      "bytes": 95381,
+      "sha256": "59d8e1c0c3e8d61bfca35abfa6145b77931ff47d310a1d25bd5f82a0dd73dc53"
+    },
+    "image-sitemap.xml": {
+      "bytes": 1267235,
+      "sha256": "bb8e7c066144e93b460439a01f0fbc0401a4c465cf872892d1dd7a4a0b83924f"
+    }
+  },
+  "families": {
+    "blog_article": 20,
+    "blog_index": 1,
+    "calendar_month": 48,
+    "garden": 17,
+    "garden_month": 12,
+    "holiday_month": 48,
+    "holiday_year": 4,
+    "horoscope": 12,
+    "hub": 47,
+    "iso_week": 209,
+    "latvia_cultural": 25,
+    "latvia_special": 26,
+    "long_weekends": 4,
+    "lunar_month": 48,
+    "lunar_year": 4,
+    "memorial_year": 4,
+    "month_index": 4,
+    "moon_city": 82,
+    "name_calendar": 20,
+    "name_day_month": 12,
+    "occasion": 48,
+    "print_index": 4,
+    "print_month": 48,
+    "school_academic": 4,
+    "school_year_calendar": 4,
+    "sky_hub": 1,
+    "sun_city": 82,
+    "week_index": 4,
+    "work_month": 48,
+    "work_year": 4,
+    "year": 4
+  },
+  "errors": []
+}

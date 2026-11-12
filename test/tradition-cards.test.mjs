@@ -25,7 +25,7 @@ test('archived vector artwork for the 25 cultural topics stays intact', () => {
   assert.equal(hashes.size, 25);
 });
 
-test('the full guide preserves its topic, date and credit destinations in every filtered card', () => {
+test('the full guide preserves topics and dates without repeated photo-license calls to action', () => {
   const articles = read('assets/category-data.json').articles;
   assert.equal(articles.length, 73);
   for (const year of [2027, 2028, 2029, 2030]) {
@@ -39,7 +39,7 @@ test('the full guide preserves its topic, date and credit destinations in every 
       assert(card.includes(image.src + '?v=checked-version'), article.url);
       assert(!card.includes('/category-vector/holiday.svg'));
       for (const date of article.dates) assert(card.includes(`datetime="${date.date}"`), article.url);
-      if (article.photo) assert(card.includes('#occasion-photo-' + article.photo.id), article.url);
+      assert(!card.includes('/pilsetas-un-fotografijas/'), article.url);
     }
   }
 });
