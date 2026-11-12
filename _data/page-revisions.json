@@ -3258,13 +3258,13 @@
     "proseLinksSha256": "1c29ad6bae3d13fd4a2bae4fd828f495532389ac229691a03e5a96c942d65842"
   },
   "/nozimigas-dienas/": {
-    "sha256": "fd2f8e5912d2d2a0282f3aee8702234c1369872af295afbef4e39bcab53ad9b1",
+    "sha256": "f4bf4ba801f7dad43be8666a5b4ba2256254f461e2ef271466947178e3fad000",
     "lastmod": "2026-11-12",
     "navigationSha256": "8fb7527fe4ce055f0413b6c6b3bae0e7feb5757d1c02ab0465ae3108c10a9180",
     "proseLinksSha256": "12e2d514667752f3704a4fed243d6fe0db4283a7a5a02f8e40db1bab2da8d7c8"
   },
   "/pabalstu-izmaksas/": {
-    "sha256": "6165389a6277e7f5da093958ac88493f3b4f0e4767afc18caa640bb17f0d52d6",
+    "sha256": "8d7fb365f351ec3386845432a9dd2675dcb62801acd7b01130be5c0b2f6d3df5",
     "lastmod": "2026-11-12",
     "navigationSha256": "1f15256743557c33bd046b0a3324803f32254cffa2fdc0bad0943839de244456",
     "proseLinksSha256": "a18d0b03ccaeb67aaaa2b8a8544484264d8f91f8cf8515d7bd3d0e67a0c8f09b"
@@ -3594,7 +3594,7 @@
     "proseLinksSha256": "6020a8163493899757d6f1a80088a479f646b49c2ad8464d1f1365a92c3197a4"
   },
   "/pensiju-izmaksas/": {
-    "sha256": "137e762a69f7dc104a4d1b5cabc22c82f4573d1adcc6714e1d952a5d0b93ef57",
+    "sha256": "84ff6618695abf1041bc56d715fe9e9faebc73739543e9deb35f2ad01de8bc51",
     "lastmod": "2026-11-12",
     "navigationSha256": "3166e54dca316a878bfd5bc42ede8f8d9549a9b1c6fe2640675248653bf0b8b5",
     "proseLinksSha256": "2e8d618e4f6d3c6efc10c4584add5aba2ddb1721d1e15d87a3c89036dadc57fe"
@@ -4140,7 +4140,7 @@
     "proseLinksSha256": "9685cdf5483662a8287ba3cf7cc428b896c430336a4b53580cd82d256d3d4804"
   },
   "/sejas-kalendars/": {
-    "sha256": "b5666406fb863838a137e9ed2386366bff49aa21f7a3b305207b07fe6cc49668",
+    "sha256": "33fb20cafc5be789c6a283256b415b84006d7cc3f7eb8fce5bfd70172cb0d512",
     "lastmod": "2026-11-12",
     "navigationSha256": "34e0f0ca6e8dcfd12db305bf2024b7222965c10eede8e0a52a7968d2b097f960",
     "proseLinksSha256": "f8b9c84ce21f1384bcc9d767152f68dfa5c67cd8015e453ed04c8776b3aa5259"
@@ -4188,73 +4188,73 @@
     "proseLinksSha256": "d7bcda1578b7ab085fea08a647ef4e7ad620d64316e7e805a4ab8d6b31e9c56e"
   },
   "/sejas-kalendars/menesis/aprilis/": {
-    "sha256": "69e0a6be746ad3c28439d4f0d65766c5ff912db32c358566b68997557695f1ca",
+    "sha256": "bfb1d684e92f1b8e1380c0ffd32a26b2ea31b6a1aa803c0cb7dcc1cfe58c2131",
     "lastmod": "2026-11-12",
     "navigationSha256": "77c73d4e5daf45984fd2c81e7e645e011d1aff55cf3406de57aa47c293a23bdc",
     "proseLinksSha256": "f483a989d05dc2c7707894f0fa0459ae2439f7341ddc5daed0a39006dc46d99a"
   },
   "/sejas-kalendars/menesis/augusts/": {
-    "sha256": "46c796d44a2970c28ccdd83a21e967efd5173d1d641a23bba6453042ef7af08a",
+    "sha256": "aedd8c722493ec19c1e4ad337ef44b03990572a0804ee0cd2ba8503984b25378",
     "lastmod": "2026-11-12",
     "navigationSha256": "dbb7553132aaf692da94aa3bd013544f4f0ae43bf43aa39666396e397b404c3c",
     "proseLinksSha256": "483de6c864db06b983e74bc40f3e03bdd4e0b3dc627bbf17332e38456edd28f1"
   },
   "/sejas-kalendars/menesis/decembris/": {
-    "sha256": "2b8523bfcbac26370a4c51e743f3cc7550171cdd6f04beff7effc2847f1306dc",
+    "sha256": "78b645b975d08a993f24f7c4fb13a345f8cd7688842094df7fa55e8b4574f624",
     "lastmod": "2026-11-12",
     "navigationSha256": "0f8f29f09cb325544c4249cf261a408ee08a277c1edde625fb77296cebe6ecf8",
     "proseLinksSha256": "ce360ecf500e6c8cc1c1910954335b46146e767da0c73baa7050b52be7685e78"
   },
   "/sejas-kalendars/menesis/februaris/": {
-    "sha256": "7a139e538a39bc6bbe54c855c26ccd52bb2b4c1a7e3097d0d3abe834f14d32c1",
+    "sha256": "7870f7a71869522102da52418e6fed55586da41e470f8482373653de12dbef10",
     "lastmod": "2026-11-12",
     "navigationSha256": "b6e279607cbd2f3dd15fe55e560aa170f71f45592a9404e4e4d411fc22df7fd7",
     "proseLinksSha256": "27ed588b9e55d1a4a82c82a71851819dc457f5b9190061255ab7474a9a15a8fb"
   },
   "/sejas-kalendars/menesis/janvaris/": {
-    "sha256": "92aa6d33d5a4428bd083efc7395b0d243090eeec5a464e1f5d45435d66123149",
+    "sha256": "a171ea3c8455b3fbee911af7b740e0c5937da73d8b7a888c249d30f1dd008e81",
     "lastmod": "2026-11-12",
     "navigationSha256": "efeb54c481c15b8062a18ed00c5ddf3f6a44db7e3e2bf7e8b70fedd3a884d68e",
     "proseLinksSha256": "d00f315a0172cc712dc9b7e46778fcddbdddae02d35ae289c073ec05d23dd404"
   },
   "/sejas-kalendars/menesis/julijs/": {
-    "sha256": "a6fdff9f45d6fa9d1478f1094481c48629aeb8917b21e1979542c507e9880a30",
+    "sha256": "75961017eac0f9b51ae0702d7cb93288043bc4c42f6da8ae2a992d7df29171d6",
     "lastmod": "2026-11-12",
     "navigationSha256": "69f17fc8f2d9177486e0b20ad627b9e187078cd40998168df78a7520ab4fed94",
     "proseLinksSha256": "99fd161278de002ba9ac20aaa7f662e392f97a63c6e930403db39909432fc4e2"
   },
   "/sejas-kalendars/menesis/junijs/": {
-    "sha256": "733ac7a05aea92d7ff7603eb011d919e39fb9de8e610ac515ff26c214880aa79",
+    "sha256": "489f62b7e41740ede21b521f50b22cb4f44150da90544f0117e88dd935dacba5",
     "lastmod": "2026-11-12",
     "navigationSha256": "392d4f4b0db4afcc6c9e1c4b935a3e90cee9e35a9c9be817f967b593dbf0783a",
     "proseLinksSha256": "4779f75d6d21423bb51870d38a11e5d0bb1101a5d3b37176054a48a3de681b11"
   },
   "/sejas-kalendars/menesis/maijs/": {
-    "sha256": "19819d91152ab7b47e478b8e8823a4f7534d0bd33d4064f19532b332e6629025",
+    "sha256": "4c88645d9b2b408fd9b70a313b70e96fe6c5707ccfb37dddf53a7647e44c03d8",
     "lastmod": "2026-11-12",
     "navigationSha256": "47394a5fb2c689c535ec30a35a1a27160511892e2d2d002e8c3196de0e6c0c33",
     "proseLinksSha256": "1f31c91bc39e3c3b6af6d66eb72cbe305b300e9953a769202b8a89aff03d935e"
   },
   "/sejas-kalendars/menesis/marts/": {
-    "sha256": "ffe8e9b53397a74d171d61deefcc479c4940ad82604186f3d1844dbe9055e1a0",
+    "sha256": "8ba33e772ddf3de5408cd0847b991692dd30f952317242ba50a07ee521621a05",
     "lastmod": "2026-11-12",
     "navigationSha256": "ffe4819c8227275df130a53c22b8df292e24fb8c84046b938e218817f9791114",
     "proseLinksSha256": "4b8f654c40044188544ceeaacdb4810b4d97388eeaf3994602cd008b58fe214a"
   },
   "/sejas-kalendars/menesis/novembris/": {
-    "sha256": "472b14d6c09790eac49600109d9efb4c23c1f26ca4848d47ebe51828baf0b485",
+    "sha256": "3f3fe40d6cb689402fde71c173209fb6fde4405ef68797fd6021102016c86e87",
     "lastmod": "2026-11-12",
     "navigationSha256": "9718607e0d7fab8f67b65fa4a09c7775c4787408e8f6cf2b75880d10581e600d",
     "proseLinksSha256": "ad4f85f0a6355883961cb66c223a48df8a6fe54a446036703f0fc9da49b55bc5"
   },
   "/sejas-kalendars/menesis/oktobris/": {
-    "sha256": "b501c4110ed5bba17f33f9df9ca29ad2b2f46d0c8b282385e36ed584f3faf4c7",
+    "sha256": "85c30fbc84f571f41b5db0ece8c2eca75d3fb112f74219829c31d585e819c904",
     "lastmod": "2026-11-12",
     "navigationSha256": "aa14254fdc92afee539c121ca902ddc4fd66b06b8833cef3049136682f537e86",
     "proseLinksSha256": "f8353fd789c3556b935be5ee0f3128349579c3f0db1eaf0773865991da7715b2"
   },
   "/sejas-kalendars/menesis/septembris/": {
-    "sha256": "a71060781b28668829cc5f7626f6e54198b9c13f7059bfde89f963654a4c664c",
+    "sha256": "773c464a106ccfa441a145c885c9ebc7cb6e166d30e52d2f21860ab9280f32b9",
     "lastmod": "2026-11-12",
     "navigationSha256": "1e9f9658207cee04373e0eef1b654dcf95ff855c886544f5b3ffe4ac2cbe6bea",
     "proseLinksSha256": "55f53dc79afa10ffe35328c790433c1a16a869fd18e60e418e01084188b602d6"
@@ -4392,7 +4392,7 @@
     "proseLinksSha256": "e29a906f8dff4e6ddbcf7e58a7f00512b1fb0d3f01af36842b014dd16aa97c98"
   },
   "/svetki-un-tradicijas/": {
-    "sha256": "e3b5266583232660db4d06491b574ca9a84230af865ab8547612a489b1a5b622",
+    "sha256": "344aab21ce12c3e744e7be2449c7a7f5d2526474de64f8a5316a2d78d9509ccf",
     "lastmod": "2026-11-12",
     "navigationSha256": "339308ce4929838fab93fd6e9e7d79bb0d12653153d9ea53fc4d4cc76f090682",
     "proseLinksSha256": "735aba33b067dbf8acc397d13aec124df6f5182f2cb379290b471582a6b1f52c"
@@ -4464,7 +4464,7 @@
     "proseLinksSha256": "6fbfe37993548c9704e8d5e7fcf65b5e56a0bc0adddc260a280bea9d2b23ac6a"
   },
   "/svetki-un-tradicijas/holokausta-upuru-pieminas-diena/": {
-    "sha256": "8e1ccc6d664d1df92a0dcf5302a35a6549c305391120d46fa1c5bd47d83644bb",
+    "sha256": "f73f45b903adcc1fc687359f1d52e755ccf1111bcec730df0b80f60a83188284",
     "lastmod": "2026-11-12",
     "navigationSha256": "f1952b366180e63ad42103383195ce092e5cf0c8c8452a1b917dbaf27def728d",
     "proseLinksSha256": "277f210f05eb19be612222bd89039cbbad256aff31831e83c57ccec4d5ccdc68"
@@ -4704,7 +4704,7 @@
     "proseLinksSha256": "6838a773ee33a8574a08a1187ad9395aead62ffdde2643c164480d9a5ac3255d"
   },
   "/svetki-un-tradicijas/stalinisma-un-nacisma-upuru-atceres-diena/": {
-    "sha256": "f641a502ce52dc7179c1bc6c235568f17e52f983d53e6b35028b284a94bef477",
+    "sha256": "d8455fcb56baf02b2d09f8eeef03a7c0ea3986e92022a2643bd6deb2b3688d8c",
     "lastmod": "2026-11-12",
     "navigationSha256": "808c2c49c3e7771b8071ed7ccf0743e238c2b78f27a7cf3633870f16af408b5e",
     "proseLinksSha256": "03f181cd9bd3b50130f2523fb3c9d0596fba03535a0397adff82e58bf48f9be1"
@@ -4752,10 +4752,10 @@
     "proseLinksSha256": "01bcec097d2e66c292d44e7cdd14c3a30f0e6ad7e15e2e2d4202940441aaa418"
   },
   "/svetki-un-tradicijas/totalitaro-rezimu-upuru-pieminas-diena/": {
-    "sha256": "e0710bdb13379698e80169bdc7ff368d0a2802cc0c077a77d8294829234d25f1",
+    "sha256": "adfaa0c65da7f92d2a650722cf0fe4f5ca7371d1b59c50208229e57650ba9ee4",
     "lastmod": "2026-11-12",
     "navigationSha256": "ac3ed0372a08390a85278988b137d19aec3ae2b2cefbb9ff17ac7c385bef7fe6",
-    "proseLinksSha256": "897f93884732e91698d2576f2b8e492bac6275c3a9e85e0617bf57efbaa12398"
+    "proseLinksSha256": "768d8c710942e7b517abee20c0398265b73fb12a32a1db6e6b0cd589c39d7fac"
   },
   "/svetki-un-tradicijas/ugunsdzeseju-un-glabeju-diena/": {
     "sha256": "d9422e007e0f0659b9594377dc2ac90dd14e28b2392211f2ac62f72182e6551a",

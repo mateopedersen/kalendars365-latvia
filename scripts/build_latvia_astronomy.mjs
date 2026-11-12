@@ -125,11 +125,12 @@ function lunarEclipses() {
   return rows;
 }
 
-function darkWindows(place, start, end) {
+function darkWindows(place, start) {
   const afternoon = new Date(`${start}T12:00:00Z`);
   const dusk = A.SearchAltitude(A.Body.Sun, place, -1, afternoon, 1, -18);
-  const dawn = dusk && A.SearchAltitude(A.Body.Sun, place, 1, dusk, 1, -18);
-  return dusk && dawn ? { start: iso(dusk), end: iso(dawn) } : null;
+  // Search both crossings from daylight so the numerical solver cannot rediscover dusk as dawn.
+  const dawn = dusk && A.SearchAltitude(A.Body.Sun, place, 1, new Date(afternoon.getTime() + dayMs), -1, -18);
+  return dusk && dawn && dusk.ut < dawn.ut ? { start: iso(dusk), end: iso(dawn) } : null;
 }
 
 function perseidPlanningNights() {

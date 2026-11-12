@@ -603,7 +603,7 @@ ROUTES.each do |r|
  if p=='/nozimigas-dienas/'
   title='Nozīmīgas dienas Latvijā';heading='Nozīmīgas dienas Latvijā';desc='Latvijas svētku dienas, gadskārtu notikumi un citas avotos pārbaudītas kultūras tēmas. Pārbaudi datumu un atšķir to no likumā noteiktas brīvdienas.'
  end
- heading=editorial.fetch('h1',title)
+ heading=editorial.fetch('h1') { f == 'latvia_cultural' ? LATVIA_EXTRA_PAGES.dig(p, 'h1') || title : title }
  title=editorial.fetch('title',title)
  title="Kalendārs #{y}" if f=='year'
  desc=editorial.fetch('description',desc)

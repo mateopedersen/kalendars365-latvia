@@ -44,7 +44,7 @@ end
 
 def payment_reminder_markup(kind)
   title = kind == 'pension' ? 'Pensijas atgādinājums' : 'Pabalsta atgādinājums'
-  %(<section class="tool-panel extra-tool" data-payment-reminder="#{kind}"><h2>Izveido savu privāto atgādinājumu</h2><p>Norādi datumu no sava VSAA lēmuma vai cita personīga paziņojuma. Kalendārs nepiedāvā visiem saņēmējiem kopīgu izmaksas dienu.</p><form class="extra-tool-form"><label>Atgādinājuma nosaukums<input name="title" maxlength="90" value="#{h(title)}" required></label><label>Personīgais datums<input type="date" name="date" required></label><button class="primary">Saglabāt šajā pārlūkā</button></form><div class="extra-result" aria-live="polite"></div><div class="payment-reminder-list"></div><button type="button" data-reminder-export>Lejupielādēt atgādinājumus (.ics)</button><p class="print-hint">Datums un nosaukums tiek glabāts tikai šajā ierīcē. Tie netiek nosūtīti Kalendārs365 vai VSAA. Sākotnējā izmaksas diena un vēlākā regulārā diena var atšķirties; pārlasi individuālo lēmumu.</p></section>)
+  %(<section class="tool-panel extra-tool" data-payment-reminder="#{kind}"><h2>Izveido savu privāto atgādinājumu</h2><p>Norādi datumu no sava VSAA lēmuma vai cita personīga paziņojuma. Kalendārs nepiedāvā visiem saņēmējiem kopīgu izmaksas dienu.</p><form class="extra-tool-form"><label>Atgādinājuma nosaukums<input name="title" maxlength="90" value="#{h(title)}" required></label><label>Personīgais datums<input type="date" name="date" required></label><button class="primary">Saglabāt šajā pārlūkā</button></form><div class="extra-result" aria-live="polite"></div><div class="payment-reminder-list"></div><button type="button" data-reminder-export>Lejupielādēt atgādinājumus (.ics)</button><p class="print-hint">Datumu un nosaukumu saglabā tavā pārlūkā. Tie netiek nosūtīti Kalendārs365 vai VSAA. Sākotnējā izmaksas diena un vēlākā regulārā diena var atšķirties; pārlasi individuālo lēmumu.</p></section>)
 end
 
 def clock_change_markup
@@ -279,7 +279,7 @@ def cultural_page_markup(article)
     note=model['type']=='astronomical' ? 'Ekvinokcija ir precīzs astronomisks brīdis, nevis nemainīgs kalendāra datums.' : 'Datumi attiecas uz katrā ierakstā norādīto tradīciju vai konfesiju; tie nav automātiski vispārējas svētku brīvdienas.'
     %(<section class="content-card"><h2>Datumi 2027.–2030. gadā</h2><div class="holiday-card-grid">#{rows}</div><p>#{h(note)}</p></section>)
   else
-    note = model['rule'] || model['easterRelativeConventionStatus'] || model['confessionScope'] || 'Datums ir atkarīgs no kalendāra noteikuma vai tradīcijas; vienu vispārēju Latvijas datumu neizdomājam.'
+    note = model['rule'] || model['easterRelativeConventionStatus'] || model['confessionScope'] || 'Datums var atšķirties atkarībā no vietējās tradīcijas un tās kalendāra.'
     %(<section class="content-card"><h2>Datuma noteikums un tā tvērums</h2><p>#{h(note)}</p><p>Pasākuma rīkotāja publicētais datums var atšķirties no tradīcijas kalendārā lietotā datuma.</p></section>)
   end
   notes = (article['factNotes'] || []).each_with_index.map { |note,index| "<li>#{tradition_text_markup(slug,note,"factNotes[#{index}]")}</li>" }.join

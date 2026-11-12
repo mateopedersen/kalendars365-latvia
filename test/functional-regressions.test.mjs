@@ -94,3 +94,111 @@ test('daily updates follow Riga midnight across the 23-hour and 25-hour DST days
  }
  assert.equal(horoscope.midnightDelay(new Date('2026-11-11T21:59:59.500Z')),1000);
 });
+
+const extraToolsSource = fs.readFileSync('assets/extra-tools.js', 'utf8');
+function extraToolElement() {
+  const children = new Map();
+  const listeners = new Map();
+  return {
+    dataset: {}, textContent: '', innerHTML: '', value: '',
+    querySelector(selector) {
+      if (!children.has(selector)) children.set(selector, extraToolElement());
+      return children.get(selector);
+    },
+    addEventListener(type, fn) { listeners.set(type, fn); },
+    fire(type, target = this) { return listeners.get(type)?.({target, preventDefault() {}}); }
+  };
+}
+function loadExtraTool(selector, root, globals = {}) {
+  const document = {querySelectorAll: key => key === selector ? [root] : []};
+  vm.runInNewContext(extraToolsSource, {document, window: extraToolElement(), navigator: {}, crypto: globalThis.crypto, Intl, Date, ...globals});
+}
+
+test('day of year uses the entered Gregorian century for early leap and ordinary years', () => {
+  const root = extraToolElement(), date = root.querySelector('input[name="date"]');
+  loadExtraTool('[data-day-of-year]', root);
+  for (const [value, expected] of [['0096-02-29', '60. / 366'], ['0001-12-31', '365. / 365'], ['1900-03-01', '60. / 365'], ['2000-02-29', '60. / 366']]) {
+    date.value = value;
+    date.fire('change');
+    assert.ok(root.querySelector('.extra-result').innerHTML.includes(expected), value);
+  }
+  date.value = '2027-99-99';
+  date.fire('change');
+  assert.match(root.querySelector('.extra-result').textContent, /derīgu datumu/);
+});
+
+test('payment reminders merge independent tabs and preserve other categories and legacy data', async () => {
+  const stale = {kind:'pension', date:'2027-99-99', title:'Nederīgs datums', id:'legacy'};
+  let stored = JSON.stringify([stale]), fail = false;
+  const localStorage = {getItem: () => stored, setItem(key, value) { if (fail) throw Error('Quota exceeded'); stored = value; }};
+  function reminder(kind) {
+    const root = extraToolElement(), form = root.querySelector('form');
+    root.dataset.paymentReminder = kind;
+    form.elements = {title:{value:kind}, date:{value:'2028-02-29'}};
+    loadExtraTool('[data-payment-reminder]', root, {localStorage});
+    return root;
+  }
+  const pension = reminder('pension'), benefit = reminder('benefit');
+  await pension.querySelector('form').fire('submit');
+  await benefit.querySelector('form').fire('submit');
+  let records = JSON.parse(stored);
+  assert.deepEqual(records.map(item => item.kind), ['pension','pension','benefit']);
+  assert.deepEqual(records[0], stale);
+  benefit.querySelector('.payment-reminder-list').fire('click', {closest: () => ({dataset:{reminderDelete:records[2].id}})});
+  records = JSON.parse(stored);
+  assert.equal(records.length, 2); assert.equal(records[1].kind, 'pension');
+  fail = true;
+  const form = benefit.querySelector('form');
+  form.elements.date.value = '2027-06-01';
+  await form.fire('submit');
+  assert.equal(form.elements.date.value, '2027-06-01');
+  assert.match(benefit.querySelector('.extra-result').textContent, /Neizdevās/);
+  assert.equal(JSON.parse(stored).length, 2);
+});
+
+test('visible astronomical events render for each supported city and year', async () => {
+  const catalog = JSON.parse(fs.readFileSync('assets/latvia-astronomy.json', 'utf8'));
+  for (const kind of ['solar','lunar','perseids']) {
+    const root = extraToolElement();
+    const city = root.querySelector('[data-astro-city]'), year = root.querySelector('[data-astro-year]');
+    root.dataset.astronomyTool = kind;
+    city.value = 'riga'; city.selectedOptions = [{textContent:'Rīga'}]; year.value = '2027';
+    loadExtraTool('[data-astronomy-tool]', root, {fetch: async () => ({ok:true, json:async () => catalog})});
+    await new Promise(resolve => setImmediate(resolve));
+    for (const place of Object.keys(catalog.solar[0].cities)) {
+      city.value = place;
+      for (const y of [2027,2028,2029,2030]) {
+        year.value = String(y);
+        year.fire('change');
+        const expected = kind === 'perseids' ? 3 : catalog[kind].filter(item => item.date.startsWith(year.value) && (kind === 'lunar' || item.cities[place].visible)).length;
+        const cards = root.querySelector('[data-astro-results]').innerHTML.match(/class="astronomy-event-card"/g) || [];
+        assert.equal(cards.length, expected, [kind, place, y].join(' '));
+      }
+    }
+  }
+});
+
+test('the two ends of a Perseid darkness interval are distinct descending and ascending crossings', async () => {
+  const A = await import('../lib/vendor/astronomy.mjs');
+  const catalog = JSON.parse(fs.readFileSync('assets/latvia-astronomy.json', 'utf8'));
+  const cities = JSON.parse(fs.readFileSync('_data/cities.json', 'utf8')).cities;
+  const places = new Map(cities.map(city => [city.id, new A.Observer(city.lat, city.lon, 0)]));
+  function solarAltitude(instant, place) {
+    const equator = A.Equator(A.Body.Sun, instant, place, true, true);
+    return A.Horizon(instant, place, equator.ra, equator.dec).altitude;
+  }
+  for (const {nights} of catalog.perseids) {
+    for (const night of nights) {
+      for (const [city, sky] of Object.entries(night.cities)) {
+        if (!sky.dark) continue;
+        const start = Date.parse(sky.darkStart), end = Date.parse(sky.darkEnd);
+        assert.ok(end > start, city + ' ' + night.date);
+        for (const [edge, direction] of [[start, -1], [end, 1]]) {
+          const before = solarAltitude(new Date(edge - 1000), places.get(city));
+          const after = solarAltitude(new Date(edge + 1000), places.get(city));
+          assert.ok(direction * (after - before) > 0, city + ' ' + night.date);
+        }
+      }
+    }
+  }
+});
