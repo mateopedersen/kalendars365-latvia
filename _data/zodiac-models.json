@@ -1,5 +1,5 @@
 {
-  "version": 1,
+  "version": 2,
   "stride": 9,
   "format": "float32-le: position XYZ, normal XYZ, linear base RGB",
   "models": {
@@ -111,5 +111,40 @@
       "source": "Original Kalendārs365 solid geometry",
       "materials": "Ivory, brass and enamel"
     }
+  },
+  "sources": {
+    "scripts/build_zodiac_art.mjs": "013a69c013e7e43735b93ee634f583cb1a646ccdaeacb60e618496f30a7670b7",
+    "scripts/artwork/zodiac-sculptures.mjs": "1c35d2e8a678f7078f6e89a287c35c1d5d7485eb9078971032673123cd0dcbd2",
+    "_data/horoscope/profiles.json": "ba07cf43efa12675e9609ff3cb6ff381fc620da3eba239062357ac64f3bc65ea"
+  },
+  "artifacts": {
+    "assets/zodiac/auns.svg": "e2fbd56d80dca9e9021a86ae6fca864eb8c39c416fb64e5e3620706925d3dca4",
+    "assets/zodiac/models/auns.bin": "bd7a00982b7e1718b603dca82d194db7f5a82d84b6a37a2c2fc03a0a7fee2a1c",
+    "assets/zodiac/versis.svg": "e4bf4e5411df7edfd400415373469ddb0dfbf02d2bf07760e52911f3b388dbb8",
+    "assets/zodiac/models/versis.bin": "d4d5517d6be2170e147bccdd9e639fed44ac2a7f0ac2d803ed1891d59b4a1234",
+    "assets/zodiac/dvini.svg": "12ebe2e3f74952b139353a839f7853a116c3c302f2f71107805b82658ec0b3ff",
+    "assets/zodiac/models/dvini.bin": "1537ee4d239e5d3a255735d546df3eb049c49ae29141184c81751ed2b8c786b8",
+    "assets/zodiac/vezis.svg": "d826d924df23092001025ddd0e89d35cce189353bed1714996dbb84717477a14",
+    "assets/zodiac/models/vezis.bin": "e06c30a5d6368c7919e8379c0bb60f48b885ea217d5602b978f1d63854b9d6b8",
+    "assets/zodiac/lauva.svg": "9c3a519bf8e42d6f6f5b692dfa06482f1bb8af0816348376890658d561ad3d13",
+    "assets/zodiac/models/lauva.bin": "aa6919e8ec9ee3a10eb2c054cd7622b1590bc518dc9709afbb9b8b6bda508794",
+    "assets/zodiac/jaunava.svg": "707d2d8104f28d47f9547979aeff8d26eed50fe6309deba281f9d7fcc68f96ae",
+    "assets/zodiac/models/jaunava.bin": "7dfa68b4819754950209e3d298bd2c6318cfa00216ba1d99e110bb37bf8ed0dc",
+    "assets/zodiac/svari.svg": "59cb7013230fbe7a5f190cf5a3654a4f331ea0f1a42372a57895c686dc83a4e3",
+    "assets/zodiac/models/svari.bin": "faeec97cb86af8b3254e9a7f892231d99e54c2c37cf5ce9ba1b2c5258d1d8c13",
+    "assets/zodiac/skorpions.svg": "ba8a39f68ec918162581d92900be65bde30ac9f8cae441c8e3e6ac1c9c87e7a1",
+    "assets/zodiac/models/skorpions.bin": "a1e4ca320f669cb62e4e2998fc853f91f771f7fad08feeb7deeedb58e2aaecc1",
+    "assets/zodiac/strelnieks.svg": "86ac29abae453a9c2014615871c825cd09b84dc05725f74f6a4c5ad712e7d698",
+    "assets/zodiac/models/strelnieks.bin": "a53402e848f7f7ed2e9d0e7b7edb782df66612aefdaae306035e100c27f92abf",
+    "assets/zodiac/mezazis.svg": "47177c321c11a655006f2c5d44c7c19ea48ae5ad5283a5335fa35f5fed8edd01",
+    "assets/zodiac/models/mezazis.bin": "c62726beb689d5fff320f1404f3694ca7a2cb60eb29dc3dcb50e509e9e1149de",
+    "assets/zodiac/udensvirs.svg": "2893a455d0dd92f1f3432a285e1e024e26b7f4a000a734742dc095ab9db980d7",
+    "assets/zodiac/models/udensvirs.bin": "642fc2428d3c3487e53e5215fbf5663f9ef159be7f6fdd47c22771d2ce603ef6",
+    "assets/zodiac/zivis.svg": "d6c93491a43d592ff3ab02a756f04efbedadc5afb091cd052d1669f07c34c86d",
+    "assets/zodiac/models/zivis.bin": "9dbbcf9631553fb28c89ae441c90b9102afe2a860bee58e51f07fcd1998b7989",
+    "assets/zodiac/atlas.svg": "ced4d30254da2d6172a6c4a620b2e6546b48ffc64b9a0607b723a53646ad67e1",
+    "_includes/ascendant-wheel.svg": "7949a31ba108bcd632d46df4dd2997a803bfdcb6503074294a2e935ffee71d49",
+    "lib/zodiac-versions.mjs": "fb5c2ed2b7b8992500350f1e23c5829b9e2d3b51c723a6ddd87d5257125ee7a4",
+    "assets/zodiac-models.mjs": "47df93c540b90bbd1459394d45949917878c28e9ac860b7b7740736e3016a038"
   }
 }

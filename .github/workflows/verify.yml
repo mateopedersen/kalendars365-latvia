@@ -68,6 +68,7 @@ jobs:
       - run: node test/city-switch.test.cjs
       - run: node test/horoscope-edge.test.mjs
       - run: node --test test/ascendant.test.mjs
+      - run: node --test test/zodiac-sculptures.test.mjs test/zodiac-build-contract.test.mjs
       - run: node --test test/internal-navigation.test.mjs
       - run: node --test test/functional-regressions.test.mjs
       - run: node --test test/editorial-links.test.mjs

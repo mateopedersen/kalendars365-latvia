@@ -44,7 +44,7 @@ All public content pages are indexable, including the search landing page and th
 
 Every HTML page has its own 1200 × 630 JPEG sharing cover. `_data/social-images.json` is the shared Open Graph, Twitter and structured-image source. Production builds verify every output and source checksum, title binding and unique subject panel. See `tooling/social-cards/README.md` for regeneration; committed verified covers do not require Python or an image generation service during publication.
 
-Zodiaka oriģinālās SVG skulptūras un to 360° modeļus vienādi atjauno ar `node scripts/build_zodiac_art.mjs`. Avota ģeometrija ir `scripts/artwork/zodiac-sculptures.mjs`; failu kontrolsummas un virsotņu skaits ir `_data/zodiac-models.json`. Telpisko modeli ielādē tikai pēc lietotāja izvēles. Pārbaude: `node --test test/zodiac-sculptures.test.mjs`.
+Zodiaka oriģinālās SVG skulptūras un to 360° modeļus vienādi atjauno ar `node scripts/build_zodiac_art.mjs`. Avota ģeometrija ir `scripts/artwork/zodiac-sculptures.mjs`; failu kontrolsummas un virsotņu skaits ir `_data/zodiac-models.json`. Telpisko modeli ielādē tikai pēc lietotāja izvēles. Publicēšanas būve pārbauda avotu un pieņemto SVG/modeļu SHA-256 ar `scripts/verify_zodiac_art.mjs`; tā nepārzīmē ilustrācijas citā procesora arhitektūrā. Pēc avota izmaiņām vispirms atjauno mākslas failus un skarto sociālo vāku reģistru. Pārbaude: `node --test test/zodiac-sculptures.test.mjs`.
 
 ## Latvian information and help pages
 

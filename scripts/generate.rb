@@ -82,8 +82,8 @@ abort "City preview build failed: #{city_previews_error}" unless city_previews_s
 CITY_PHOTO_PREVIEWS = JSON.parse(File.read('_data/city-photo-previews.json')).fetch('cities')
 EDITORIAL = JSON.parse(File.read('_data/editorial-metadata.json')).fetch('routes').to_h{|r|[r.fetch('url'),r]}
 HOROSCOPE_PROFILES = JSON.parse(File.read('_data/horoscope/profiles.json')).fetch('profiles')
-zodiac_art_build, zodiac_art_error, zodiac_art_status = Open3.capture3(ENV.fetch('NODE', 'node'), 'scripts/build_zodiac_art.mjs')
-abort "Zodiac artwork build failed: #{zodiac_art_error}" unless zodiac_art_status.success?
+zodiac_art_build, zodiac_art_error, zodiac_art_status = Open3.capture3(ENV.fetch('NODE', 'node'), 'scripts/verify_zodiac_art.mjs')
+abort "Zodiac artwork verification failed: #{zodiac_art_error}" unless zodiac_art_status.success?
 category_art_build, category_art_error, category_art_status = Open3.capture3('ruby', 'scripts/build_category_art.rb')
 abort "Category artwork build failed: #{category_art_error}" unless category_art_status.success?
 celestial_art, celestial_error, celestial_status = Open3.capture3(ENV.fetch('NODE', 'node'), 'scripts/build_celestial_art.mjs')
