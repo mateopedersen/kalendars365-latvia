@@ -290,6 +290,7 @@ end
 
 def astronomy_event_markup(slug)
   kind = { 'saules-aptumsums' => 'solar', 'meness-aptumsums' => 'lunar', 'perseidas' => 'perseids' }.fetch(slug)
+  catalog_revision = Digest::SHA256.file('assets/latvia-astronomy.json').hexdigest[0, 16]
   heading, description, source_ids = case kind
   when 'solar' then ['Saules aptumsumi', 'Aprēķinātie vietējie kontakti tiek rādīti tikai tad, ja Saules disks attiecīgajā pilsētā ir virs modelētā horizonta.', %w[nasa-solar usno-solar-local]]
   when 'lunar' then ['Mēness aptumsumi', 'Globāla aptumsuma fāze nav automātiski redzama Latvijā. Pilsētas skatā redzami tikai virs horizonta esošie intervāli.', %w[nasa-lunar usno-lunar-local]]
@@ -297,7 +298,7 @@ def astronomy_event_markup(slug)
   end
   year_options = (2027..2030).map { |year| %(<option value="#{year}"#{year == [Date.today.year, 2027].max ? ' selected' : ''}>#{year}</option>) }.join
   city_options = CITIES.map { |city| %(<option value="#{h(city['id'])}"#{city['id'] == 'riga' ? ' selected' : ''}>#{h(city['name'])}</option>) }.join
-  %(<section class="tool-panel extra-tool astronomy-event-tool" data-astronomy-tool="#{kind}" data-source="/assets/latvia-astronomy.json"><div class="astronomy-controls"><label>Pilsēta Latvijā<select data-astro-city>#{city_options}</select></label><label>Gads<select data-astro-year>#{year_options}</select></label><button type="button" data-astro-export>Lejupielādēt pilsētas notikumus (.ics)</button></div><p data-astro-status class="muted" role="status">Ielādē aprēķinātos datus…</p><div data-astro-results class="astronomy-event-list"></div><p class="print-hint">#{h(description)} Novērojamību var mainīt reljefs, ēkas, augstums, atmosfēra un mākoņi. Aprēķins izmanto pilsētas centra koordinātas, 0 m augstumu, standarta refrakciju un plakanu, neaizsegtu horizontu.</p></section>)+verified_sources_panel(source_ids,'Aprēķinu dzinējs un laika joslas modelis norādīts pie atvērtiem datiem; globāls kataloga tips nav pielīdzināts lokālai novērojamībai.')
+  %(<section class="tool-panel extra-tool astronomy-event-tool" data-astronomy-tool="#{kind}" data-source="/assets/latvia-astronomy.json?v=#{catalog_revision}"><div class="astronomy-controls"><label>Pilsēta Latvijā<select data-astro-city>#{city_options}</select></label><label>Gads<select data-astro-year>#{year_options}</select></label><button type="button" data-astro-export>Lejupielādēt pilsētas notikumus (.ics)</button></div><p data-astro-status class="muted" role="status">Ielādē aprēķinātos datus…</p><div data-astro-results class="astronomy-event-list"></div><p class="print-hint">#{h(description)} Novērojamību var mainīt reljefs, ēkas, augstums, atmosfēra un mākoņi. Aprēķins izmanto pilsētas centra koordinātas, 0 m augstumu, standarta refrakciju un plakanu, neaizsegtu horizontu.</p></section>)+verified_sources_panel(source_ids,'Aprēķinu dzinējs un laika joslas modelis norādīts pie atvērtiem datiem; globāls kataloga tips nav pielīdzināts lokālai novērojamībai.')
 end
 
 def latvia_special_markup(path, metadata)
