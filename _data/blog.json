@@ -1461,7 +1461,7 @@
     {
       "order": 13,
       "slug": "saullekts-saulriets-latvijas-pilsetas",
-      "title": "Kāpēc saullēkta un saulrieta laiki Latvijas pilsētās atšķiras",
+      "title": "Kāpēc saullēkts Rīgā un Liepājā nav vienā laikā?",
       "category": "Debesis",
       "photoKey": "riga",
       "description": "Rīgā un Liepājā pulksteņi rāda vienādu laiku, taču Saule lec dažādos brīžos. Uzzini, kā laiku ietekmē pilsētas atrašanās vieta un vietējais horizonts.",
@@ -1576,7 +1576,7 @@
           "href": "/saullekts-saulriets/"
         }
       },
-      "contentSha256": "9be3e3f3a473ecf6823758e72fb029d8f3e8c0cca74d3b626a69a853252f0e83"
+      "contentSha256": "df4f022deff4a07756289e0050467b0747b9ec7a98df2577abd2e56e4beb67f6"
     },
     {
       "order": 14,

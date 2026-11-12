@@ -2,18 +2,17 @@
 layout: blog-post
 family: blog_article
 permalink: "/blogs/saullekts-saulriets-latvijas-pilsetas/"
-title: Kāpēc saullēkta un saulrieta laiki Latvijas pilsētās atšķiras
+title: Kāpēc saullēkts Rīgā un Liepājā nav vienā laikā?
 description: Rīgā un Liepājā pulksteņi rāda vienādu laiku, taču Saule lec dažādos
   brīžos. Uzzini, kā laiku ietekmē pilsētas atrašanās vieta un vietējais horizonts.
 author: Silvis Balodis
 date: '2026-11-11'
 reading_notes: false
 blog_slug: saullekts-saulriets-latvijas-pilsetas
-og_image: "/assets/social-cards/v2/3a74caefebb96732-f4c387a9cb9f.jpg"
+og_image: "/assets/social-cards/v2/3a74caefebb96732-479b17003998.jpg"
 og_image_width: 1200
 og_image_height: 630
-og_image_alt: Kāpēc saullēkta un saulrieta laiki Latvijas pilsētās atšķiras | Kalendārs365
-  Latvijai
+og_image_alt: Kāpēc saullēkts Rīgā un Liepājā nav vienā laikā? | Kalendārs365 Latvijai
 ---
 Visā Latvijā pulkstenis rāda vienas laika joslas laiku, tomēr Saule dažādās pilsētās nelec un neriet vienā minūtē. [Rīga](/saullekts-saulriets/riga/), Liepāja un Daugavpils atrodas dažādās koordinātās, tāpēc vienam datumam aprēķinātie notikumu laiki atšķiras. Tā ir normāla ģeogrāfiska atšķirība, nevis kļūda pulkstenī vai laika joslas izvēlē.
 

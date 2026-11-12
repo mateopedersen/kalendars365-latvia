@@ -7,7 +7,7 @@
   ],
   "distinctPixelImages": 901,
   "distinctSubjectPanels": 901,
-  "totalBytes": 99235154,
+  "totalBytes": 99227641,
   "checks": [
     "901 unique page URLs",
     "901 unique pixel images",
@@ -83582,51 +83582,44 @@
     },
     {
       "url": "/blogs/saullekts-saulriets-latvijas-pilsetas/",
-      "title": "Kāpēc saullēkta un saulrieta laiki Latvijas pilsētās atšķiras",
+      "title": "Kāpēc saullēkts Rīgā un Liepājā nav vienā laikā?",
       "family": "blog_article",
-      "src": "/assets/social-cards/v2/3a74caefebb96732-f4c387a9cb9f.jpg",
+      "src": "/assets/social-cards/v2/3a74caefebb96732-479b17003998.jpg",
       "width": 1200,
       "height": 630,
       "type": "image/jpeg",
-      "alt": "Kāpēc saullēkta un saulrieta laiki Latvijas pilsētās atšķiras | Kalendārs365 Latvijai",
+      "alt": "Kāpēc saullēkts Rīgā un Liepājā nav vienā laikā? | Kalendārs365 Latvijai",
       "design": "article",
       "kicker": "KALENDĀRS365 BLOGS",
       "subtitle": "Debesis · Idejas ikdienai",
       "year": 2027,
       "month": null,
       "titleLayout": {
-        "text": "Kāpēc saullēkta un saulrieta laiki Latvijas pilsētās atšķiras",
+        "text": "Kāpēc saullēkts Rīgā un Liepājā nav vienā laikā?",
         "size": 55,
         "lines": [
-          "Kāpēc saullēkta un",
-          "saulrieta laiki",
-          "Latvijas pilsētās",
-          "atšķiras"
+          "Kāpēc saullēkts",
+          "Rīgā un Liepājā",
+          "nav vienā laikā?"
         ],
         "bounds": [
           [
             60.0,
             184.0,
-            570.0,
+            485.5,
             236.0
           ],
           [
             60.0,
             248.0,
-            418.0,
-            289.0
+            464.5,
+            301.5
           ],
           [
             60.0,
             311.5,
-            495.0,
-            364.0
-          ],
-          [
-            60.0,
-            375.5,
-            276.0,
-            432.0
+            484.5,
+            352.5
           ]
         ],
         "region": [
@@ -83675,9 +83668,9 @@
         "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93"
       },
       "panelSha256": "5d3b0c1e7a593f6e1bd38c2d12778b37f933fe06beb87a202910fad4033774ad",
-      "pixelSha256": "f4c387a9cb9f6cb1c1e85c7aa3ece78e2c7e74f1b58355820dd43bfafaf798d8",
-      "sha256": "d8bae660e78a72962b1e822d9c2cbbb27488930751ac84c74dfba98db0588ee2",
-      "bytes": 182311,
+      "pixelSha256": "479b17003998ac8c4df2252b0c6f9b7b0af40721b8e0662ef158f7f302c64897",
+      "sha256": "64165538d68816cfe839b71177b9fd7da20efa20edfd1558fbdc5a774b444c0b",
+      "bytes": 174798,
       "semanticFacts": {}
     },
     {

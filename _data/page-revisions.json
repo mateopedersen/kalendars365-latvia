@@ -464,7 +464,7 @@
   "/dienas-garums/": {
     "sha256": "09514d3c909597f60c72d791c17b376e2467f7b2c23c331dc89f5fc68ac9217c",
     "lastmod": "2026-11-12",
-    "navigationSha256": "b47f61eee5b2e8f5cebced5c5cfbcdf213a43ca6ba14486aa900aca55f03a4ae",
+    "navigationSha256": "23be20a9c220336f5fc7f9c6dfb974e10ca725e4b71994549e2b976cc88fd0f5",
     "proseLinksSha256": "dfe6e15d8cb69aa31f8faa77dc395d8547a1ea1557c592e7387a6f6ad8ede05c"
   },
   "/dienas-kalendars/": {
@@ -3644,7 +3644,7 @@
   "/saullekts-saulriets/": {
     "sha256": "8ea194f783067e995996d4f15d845776263036de6fbedfd6689032ba1b4902fa",
     "lastmod": "2026-11-12",
-    "navigationSha256": "4743410e879800e7067e0b557b06f9fee45830feb8f2c09356b1dc41cb49ee8f",
+    "navigationSha256": "a847bfd90607984315631044fac389cc1c5a7cc90e96211f58265f22c89dfda1",
     "proseLinksSha256": "735598857a99dd5e232709fbec969b29d4f44d324ff44d71350dcf89f8eb956e"
   },
   "/saullekts-saulriets/adazi/": {
@@ -5269,11 +5269,11 @@
     "proseLinksSha256": "d774aeb83c736b3b76bf0906eac1ce0f80476027d09bbb8b8e1963e03dd71f42"
   },
   "/blogs/": {
-    "sha256": "285c4dbe5dcc79093ccf857a0bdb79ef07cc41098e4e950de0a93609006e1df3",
+    "sha256": "537d65b7719a4338ed269b6684b4ce6dcef0fb44fc6b10c919999df6d219a2ad",
     "lastmod": "2026-11-12",
     "navigationSha256": "7138e2479f46f5bbe50abe84ec5862d678831031bc5aee64d1cc81878385b630",
     "proseLinksSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-    "contentSha256": "3a8a595d7c8a9c014eaaff5f3955051087bec04ada32f1da9f255dcc5d872ef8"
+    "contentSha256": "bca496476d741e89914e59b20763600c00d2e5f655ab802c9762589f1b1e36a8"
   },
   "/blogs/latvijas-svetku-dienas-2027-planosana/": {
     "sha256": "08f0d6927b190ebf04acdd9fb040f5a5112cf4c43ebcce08fb6bfc285ca528d8",
@@ -5360,11 +5360,11 @@
     "contentSha256": "aaf88548946bd9dfd3f2a4972b9797f0e2d6fe3eae92601bac0ebd4553f60139"
   },
   "/blogs/saullekts-saulriets-latvijas-pilsetas/": {
-    "sha256": "11e718c714526fe0c503e46d23efeddbb6d3c9e81136da5f42fa86f7c5b085e6",
+    "sha256": "0a61f1b41c0d99d26dda629c5ed9aa6b78010834d37642fa5a3b6a2afebcc7ea",
     "lastmod": "2026-11-12",
-    "navigationSha256": "33a70492cd9f4e50640990d7b4f5f1ee34c7a032a7fb69505ced6ac1a1bd99ba",
+    "navigationSha256": "a638614992ba573fdeb8753aad5bf1b85c2d64b6e218c6be0598422a803385fa",
     "proseLinksSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
-    "contentSha256": "9be3e3f3a473ecf6823758e72fb029d8f3e8c0cca74d3b626a69a853252f0e83"
+    "contentSha256": "df4f022deff4a07756289e0050467b0747b9ec7a98df2577abd2e56e4beb67f6"
   },
   "/blogs/meness-fazes-un-vietejais-laiks/": {
     "sha256": "5051d9b3505a1749516b32c44c07177576574f6c7f35f15427e69206c7d65f32",

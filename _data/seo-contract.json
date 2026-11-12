@@ -467,7 +467,7 @@
       "title": "Raksti par Latvijas kalendāru un laika plānošanu | Kalendārs365",
       "description": "Praktiski raksti par Latvijas svētkiem, skolas un studiju kalendāriem, laika plānošanu, debesīm un dārzu. Autors Silvis Balodis.",
       "robots": "index,follow,max-image-preview:large",
-      "sourceVersion": "3a8a595d7c8a9c014eaaff5f3955051087bec04ada32f1da9f255dcc5d872ef8",
+      "sourceVersion": "bca496476d741e89914e59b20763600c00d2e5f655ab802c9762589f1b1e36a8",
       "significantModifiedAt": "2026-11-12",
       "assets": {
         "image": "/assets/social-cards/v2/10de99cb16218cf8-10b4dc06af7f.jpg",
@@ -730,16 +730,16 @@
       "locale": "lv-LV",
       "pageType": "WebPage",
       "primaryIntent": "read-guide",
-      "title": "Kāpēc saullēkta un saulrieta laiki Latvijas pilsētās atšķiras | Kalendārs365",
+      "title": "Kāpēc saullēkts Rīgā un Liepājā nav vienā laikā? | Kalendārs365",
       "description": "Rīgā un Liepājā pulksteņi rāda vienādu laiku, taču Saule lec dažādos brīžos. Uzzini, kā laiku ietekmē pilsētas atrašanās vieta un vietējais horizonts.",
       "robots": "index,follow,max-image-preview:large",
-      "sourceVersion": "9be3e3f3a473ecf6823758e72fb029d8f3e8c0cca74d3b626a69a853252f0e83",
+      "sourceVersion": "df4f022deff4a07756289e0050467b0747b9ec7a98df2577abd2e56e4beb67f6",
       "significantModifiedAt": "2026-11-12",
       "assets": {
-        "image": "/assets/social-cards/v2/3a74caefebb96732-f4c387a9cb9f.jpg",
+        "image": "/assets/social-cards/v2/3a74caefebb96732-479b17003998.jpg",
         "width": 1200,
         "height": 630,
-        "alt": "Kāpēc saullēkta un saulrieta laiki Latvijas pilsētās atšķiras | Kalendārs365 Latvijai"
+        "alt": "Kāpēc saullēkts Rīgā un Liepājā nav vienā laikā? | Kalendārs365 Latvijai"
       },
       "articlePublished": "2026-11-11"
     },
