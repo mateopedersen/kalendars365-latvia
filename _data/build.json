@@ -1,6 +1,6 @@
 {
-  "asset_version": "eb6f1e32bc30bd02",
-  "sha256": "eb6f1e32bc30bd0246938343bffaa0aa0fa519cdec9e3979ce1bc7a8564b1994",
+  "asset_version": "bffebe47d4d95d44",
+  "sha256": "bffebe47d4d95d44c22b9fc9daed4cb4e182bccb7051856f524c23ab73457e3a",
   "files": {
     "assets/a3-gallery.css": "1889edd3db55a0a1473cc6711268699d2b19129115f3ab0f59d11f1aa9374c37",
     "assets/app.js": "053660a0cdfaffabea80e87723e5e9ecbb8627a60b89a1f0d73dda1fc00a4ba6",
@@ -2648,7 +2648,7 @@
     "assets/home-density.css": "b15577998a56b0c70b8fa523e4f4f3355af0ca2d63bfddebd2af458cbcfee4ca",
     "assets/horoscope-data.mjs": "25bc58f5342668458b3051324e86730473de888134170f2df6995a04a0d3e72b",
     "assets/horoscope.css": "5082f27285de002f5b8800c87cffc00e21179dd8ed429e39c4188fef71298cd7",
-    "assets/horoscopes.json": "e3fd97b4bfcbabfe4a3090ea7c67cddb117aa29605fd0f0dc46e76fec2e522a1",
+    "assets/horoscopes.json": "31b0182d9eba5f853f3e32b05adbee8f0acf9ed3a1f6023441429fa59168b604",
     "assets/hub-pages.css": "54d8cb28f2ab7f8073a725a31bc376e4b12ebc9db261dfdda7172972ffa16a3f",
     "assets/hub-pages.js": "46f29e7ef2a5cad339dee2f2be3fa2834a640917b90d3da6ac5cd3379200f9ea",
     "assets/internal-navigation.css": "23e9fc28a29ea18cf2510312bb10324d2676044367e6788164c7c104c9c6d404",
@@ -3704,7 +3704,7 @@
     "assets/school-planner.mjs": "330b1fb5b36dce44b5dcf74f5c78a3e2358fb1d1c387ad44bc259e0468a69b38",
     "assets/school.css": "7f9d7ae206242699e04b714735706f88eccc442269093cfe3dc063f39694a5c9",
     "assets/search-core.js": "04490732cf39e76289a69c20c9bff47f0ae08c4bddbe6ed88ac552509190a42e",
-    "assets/search-index.json": "8a779d1562acbdfc5b8c21753d3814eb76986133c0b6957edabefc21d6a1e87e",
+    "assets/search-index.json": "a342befa66bdee81e3023338eca59ceac718e55e89dff647cedb500867b9bec6",
     "assets/search.css": "a81fe7613f3b44f80fe294f06ba6978f13d8dc1bbaec27af2712b2bf430e6885",
     "assets/season-cards.mjs": "eff47ae2d0eec9d98963236ec3dd61a6dbe703eae42b5d6bda442ef9e4227224",
     "assets/season-scenes.css": "b75c5639ead1ecd587624fa1b4171efcfbf83935ab90f74ac4dee3fc174b50f9",
