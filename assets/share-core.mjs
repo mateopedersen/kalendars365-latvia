@@ -40,7 +40,13 @@ export function shareComposer(service,context,instance=''){
  switch(service.id){
  case 'facebook':return make('https://www.facebook.com/sharer/sharer.php',{u});
  case 'x':return make('https://x.com/intent/tweet',{url:u,text:title});
- case 'whatsapp':return make('https://wa.me/',{text});
+ case 'whatsapp':{
+  const version=/^(?:https:\/\/kalendars365\.lv)?\/assets\/social-cards\/v2\/[a-f0-9]{16}-([a-f0-9]{12})\.jpg$/.exec(context.image)?.[1];
+  if(!version)return make('https://wa.me/',{text});
+  const link=new URL(u);
+  link.searchParams.set('og',version);
+  return make('https://wa.me/',{text:shareText({...context,url:link.href})});
+ }
  case 'telegram':return make('https://t.me/share/url',{url:u,text:title});
  case 'draugiem':return make('https://www.draugiem.lv/say/ext/add.php',{title,link:u});
  case 'linkedin':return make('https://www.linkedin.com/sharing/share-offsite/',{url:u});

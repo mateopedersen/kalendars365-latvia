@@ -9,6 +9,23 @@ test('all routes have distinct finished covers and distinct subject panels',()=>
  for(const r of rows){const b=read('.'+r.src);assert.equal(sha(b),r.sha256,r.url);assert.equal(b.length,r.bytes,r.url);assert.deepEqual(jpegSize(b),[1200,630],r.url);assert.ok(b.length<400000,r.url);assert.ok(r.alt.includes(r.title),r.url);assert.equal(r.type,'image/jpeg');}
  assert.equal(catalog.rendererSha256,sha(read('scripts/social_images.py')));assert.equal(catalog.prepareSha256,sha(read('tooling/social-cards/prepare.mjs')));
 });
+test('legacy preview addresses resolve directly to the corresponding reviewed JPEG', () => {
+ const expected = new Map([['/assets/og/home.png', catalog.pages['/'].src]]);
+ for (const cover of rows) {
+  const routeHash = crypto.createHash('sha1').update(cover.url).digest('hex').slice(0, 16);
+  const oldPath = '/assets/og/' + routeHash + '.webp';
+  if (fs.existsSync('.' + oldPath)) expected.set(oldPath, cover.src);
+ }
+ const rules = read('_site/_redirects').toString().trim().split('\n')
+  .map(line => line.trim().split(/\s+/)).filter(([from]) => from.startsWith('/assets/og/'));
+ assert.equal(rules.length, expected.size);
+ assert.equal(new Set(rules.map(([from]) => from)).size, expected.size);
+ for (const [from, to, status] of rules) {
+  assert.equal(to, expected.get(from), from);
+  assert.equal(status, '302', from);
+  assert.ok(fs.existsSync('_site' + to), to);
+ }
+});
 test('all 901 pages expose coherent complete Open Graph and large-image Twitter metadata',()=>{
  const contracts=json('_data/seo-contract.json').pages;
  const decode=s=>s.replaceAll('&amp;','&').replaceAll('&quot;','"').replaceAll('&#39;',"'").replaceAll('&lt;','<').replaceAll('&gt;','>');

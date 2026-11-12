@@ -88,6 +88,28 @@ test('all direct composers carry the exact public link with Unicode correctly en
  assert([...new Intl.Segmenter('lv',{granularity:'grapheme'}).segment(text)].length<=300);assert(text.endsWith(context.url));
  assert.equal(new URL(shareComposer(service('draugiem'),context)).searchParams.get('link'),context.url);
 });
+test('only WhatsApp versions first-party reviewed covers while preserving public calendar selections',()=>{
+ const pages=JSON.parse(fs.readFileSync('_data/social-images.json')).pages;
+ const selections=[
+  ['/', 'https://kalendars365.lv/'],
+  ['/kalendars/2028/februaris/', 'https://kalendars365.lv/kalendars/2028/februaris/?date=2028-02-29&view=day'],
+  ['/skolas-brivlaiki/', 'https://kalendars365.lv/skolas-brivlaiki/?macibu-gads=2027-28&klase=7#brivlaiks-spring']
+ ];
+ const body=c=>new URL(shareComposer(service('whatsapp'),c)).searchParams.get('text');
+ for(const [path,url] of selections){
+  const image=pages[path].src,expected=new URL(url);
+  expected.searchParams.set('og',pages[path].pixelSha256.slice(0,12));
+  for(const src of [image,'https://kalendars365.lv'+image]){
+   const c={...context,url,image:src};
+   assert.equal(body(c),shareText({...c,url:expected.href}));
+   assert.equal(new URL(shareComposer(service('telegram'),c)).searchParams.get('url'),url);
+  }
+  for(const src of [undefined,'/assets/og/home.png','https://example.org'+image]){
+   const c={...context,url,image:src};
+   assert.equal(body(c),shareText(c));
+  }
+ }
+});
 test('Mastodon accepts a domain and rejects script, credentials, ports, paths and IP hosts',()=>{
  assert.equal(new URL(shareComposer(service('mastodon'),context,'https://mastodon.social/')).hostname,'mastodon.social');
  for(const instance of ['javascript:alert(1)','https://user:pass@server.example','https://a.example/path','127.0.0.1','localhost','a..example','-a.example','server.example:443','foo.example?x=1'])assert.throws(()=>shareComposer(service('mastodon'),context,instance));

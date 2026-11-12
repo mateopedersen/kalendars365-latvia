@@ -53,7 +53,17 @@ SLUGS = %w[janvaris februaris marts aprilis maijs junijs julijs augusts septembr
 DAYS = %w[P. O. T. C. Pk. S. Sv.].freeze
 LAW = 'https://likumi.lv/ta/id/72608-par-svetku-atceres-un-atzimejamam-dienam'
 ROUTES = JSON.parse(File.read('_data/routes.json'))
-SOCIAL_COVERS = File.exist?('_data/social-images.json') ? JSON.parse(File.read('_data/social-images.json')).fetch('pages') : {}
+PREPARING_SOCIAL_COVERS = ARGV.delete('--prepare-social-covers')
+SOCIAL_COVERS = JSON.parse(File.read('_data/social-images.json')).fetch('pages')
+
+def social_cover_frontmatter(url)
+  cover = SOCIAL_COVERS.fetch(url) do
+    return {} if PREPARING_SOCIAL_COVERS
+    raise "Missing reviewed social cover for #{url}; prepare the social cards before building."
+  end
+  {'og_image'=>cover.fetch('src'), 'og_image_width'=>cover.fetch('width'),
+   'og_image_height'=>cover.fetch('height'), 'og_image_alt'=>cover.fetch('alt')}
+end
 DATA = File.exist?('assets/calendar-data.json') ? JSON.parse(File.read('assets/calendar-data.json')) : {}
 CURRENT_NAMES = JSON.parse(File.read('_data/name-days-current.json'))
 NameDaySources.validate!(ROOT, CURRENT_NAMES)
@@ -633,16 +643,10 @@ ROUTES.each do |r|
  desc="#{title}. #{m ? "#{Date.new(y,m,-1).day} #{Date.new(y,m,-1).day == 31 ? 'diena' : 'dienas'}, ISO nedēļas un izvēlētā mēneša plānošana." : 'Pārskatāmi datumi, plānošanas rīki un saites uz avotiem.'} Kalendārs365 Latvijai." if desc.empty?
  desc=SEARCH_SNIPPETS.description(f, year:y, month:m, slug:slug, fallback:desc)
  CalendarIndexingPolicy.validate!(p,noindex)
- front={'layout'=>'default','title'=>title,'description'=>desc,'permalink'=>p,'family'=>f,'city_id'=>(%w[sun_city moon_city].include?(f) ? slug : nil),'year'=>(r['Year'].empty? ? nil : y),'month'=>m,'week'=>week,'calendar_name'=>(f=='name_calendar' ? r['Latvian title/topic'] : nil),'view'=>(f=='iso_week' ? 'week' : f=='year' ? 'year' : nil),'noindex'=>noindex,'og_image'=>(File.file?("assets/og/#{Digest::SHA1.hexdigest(p)[0,16]}.webp") ? "/assets/og/#{Digest::SHA1.hexdigest(p)[0,16]}.webp" : '/assets/og/home.png')}
+ front={'layout'=>'default','title'=>title,'description'=>desc,'permalink'=>p,'family'=>f,'city_id'=>(%w[sun_city moon_city].include?(f) ? slug : nil),'year'=>(r['Year'].empty? ? nil : y),'month'=>m,'week'=>week,'calendar_name'=>(f=='name_calendar' ? r['Latvian title/topic'] : nil),'view'=>(f=='iso_week' ? 'week' : f=='year' ? 'year' : nil),'noindex'=>noindex}
  front.delete_if{|_,value|value.nil?}
- if %w[occasion latvia_cultural].include?(f)
-  day_photo=tradition_cover(tradition_photo_for(p.split('/').last))
-  social_photo=day_photo.fetch('files').max_by{|image|image.fetch('width')}
-  front['og_image']=social_photo.fetch('src');front['og_image_width']=social_photo.fetch('width');front['og_image_height']=social_photo.fetch('height');front['og_image_alt']=day_photo.fetch('alt')
- end
- if (cover=SOCIAL_COVERS[p])
-  front.merge!('og_image'=>cover.fetch('src'),'og_image_width'=>cover.fetch('width'),'og_image_height'=>cover.fetch('height'),'og_image_alt'=>cover.fetch('alt'))
- end
+ front.merge!(social_cover_frontmatter(p))
+ day_photo=tradition_cover(tradition_photo_for(p.split('/').last)) if %w[occasion latvia_cultural].include?(f)
  front['calendar_collection']=true if CALENDAR_COLLECTION_FAMILIES.include?(f)
  front['reading_notes']=false if p=='/pdf-kalendari/'
  if trust_page?(p)
@@ -717,7 +721,7 @@ manifest << {url:'/pilsetas-un-fotografijas/',title:'Fotogrāfijas un licences',
  READING_NOTES.for_route({'URL path'=>url,'Page family'=>'informational','Year'=>''})
 end
 File.write('_data/page-guides.json',JSON.pretty_generate({schemaVersion:1,locale:'lv-LV',editorial:{aiAssisted:true,nativeEditorReviewed:false},pages:READING_NOTES.pages})+"\n")
-manifest.concat(BlogComponents.generate(ROOT))
+manifest.concat(BlogComponents.generate(ROOT) { |url| social_cover_frontmatter(url) })
 manifest.map!{|record|CalendarSeoContract.enrich(record).transform_keys(&:to_sym)}
 navigation_records=manifest+[
  {url:'/404.html',title:'Lapa nav atrasta',family:'not_found',indexable:false},
@@ -766,9 +770,23 @@ DATA.fetch('holidays',[]).each do |holiday|
 end
 File.write('assets/search-index.json',JSON.generate(search_pages))
 File.write('docs/route-manifest.json',JSON.pretty_generate(manifest))
+exit if PREPARING_SOCIAL_COVERS
 File.write('_data/page-revisions.json',JSON.pretty_generate(page_revisions)+"\n")
 CalendarSitemap.write_source!(manifest)
-File.write('_redirects',"/avoti/ /avoti-un-metodika/ 301\n/sikdatnes/ /sikdatnu-politika/ 301\n/lietošanas-noteikumi /lietošanas-noteikumi/ 301\n/lietosanas-noteikumi/ /lietošanas-noteikumi/ 301\n/darba-dienu-kalkulators/ /darba-laika-kalendars/ 301\n")
+redirects = [
+  '/avoti/ /avoti-un-metodika/ 301',
+  '/sikdatnes/ /sikdatnu-politika/ 301',
+  '/lietošanas-noteikumi /lietošanas-noteikumi/ 301',
+  '/lietosanas-noteikumi/ /lietošanas-noteikumi/ 301',
+  '/darba-dienu-kalkulators/ /darba-laika-kalendars/ 301'
+]
+# Legacy clients may keep the old image URL after the artwork itself changes.
+SOCIAL_COVERS.sort.each do |url, cover|
+  legacy_path = "/assets/og/#{Digest::SHA1.hexdigest(url)[0,16]}.webp"
+  redirects << "#{legacy_path} #{cover.fetch('src')} 302" if File.file?('.' + legacy_path)
+end
+redirects << "/assets/og/home.png #{SOCIAL_COVERS.fetch('/').fetch('src')} 302"
+File.write('_redirects', redirects.join("\n") + "\n")
 # Serialize the shared city catalog as JavaScript before hashing assets.
 public_cities = CITIES.map do |c|
  photo=c.fetch('photo').slice('src','srcset','alt','author','license')

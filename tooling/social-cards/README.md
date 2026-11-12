@@ -21,13 +21,17 @@ that executable directly in the command below. The owner machine has a bundled
 Codex Python runtime with these packages. Nothing is installed into system Python.
 
 ```sh
-ruby scripts/generate.rb
+ruby scripts/generate.rb --prepare-social-covers
 npm ci --prefix tooling/social-cards --ignore-scripts --no-audit --no-fund
 node tooling/social-cards/prepare.mjs
 "${SOCIAL_CARDS_PYTHON:-python3}" scripts/social_images.py
 ruby scripts/generate.rb
 JEKYLL_ENV=production JEKYLL_NO_BUNDLER_REQUIRE=1 jekyll build
 ```
+
+The preparation flag refreshes the route inventory for new covers. Run the renderer
+and then the regular generator before building. A normal build requires a reviewed
+cover for every page.
 
 Preparation rasterizes the original repo-native SVGs with pinned resvg 2.6.2 and
 computes daily moon values using the site's vendored Astronomy Engine and
