@@ -552,7 +552,7 @@
     "proseLinksSha256": "86915c1a33ce8703380d909f6a56c8289e917a9b9c730839aed40c08d5a27ed2"
   },
   "/horoskops/": {
-    "sha256": "055c65a554fa03ea63b997b1c442141fb584d005d44a5bbbc5de5bdc1d080282",
+    "sha256": "880153df10f3afba79290d1ccb8913e40dcb333a7c5373e4764b7867f84e4fa4",
     "lastmod": "2026-11-12",
     "navigationSha256": "a31df3f5addff7ba66444635c997175c4226d2fb6531fb507d91d0a806759370",
     "proseLinksSha256": "f73ac710e7089a60aea4e603c80f952d68d011ed2df11082443b17d3c5a83bb9"
@@ -624,7 +624,7 @@
     "proseLinksSha256": "ca1752dfb66539e494e965b552b3ee0921ee5c192795bbf872b769b0f6902ec9"
   },
   "/horoskops/zivis/": {
-    "sha256": "c95f91d91bdfa2793d74c328dd49dc26dc9409789a2b6063220e4d8cc79d932d",
+    "sha256": "34688c85b8ced2d68b3a051e2ac145dc2e5f0925306b63ecefd5fbc1e167d965",
     "lastmod": "2026-11-12",
     "navigationSha256": "870d977ec2b93ecdcedb565e5d860964f0bd7b585a235e7c7ccd3f1a48931bd6",
     "proseLinksSha256": "6ca14a1c43194ee7f339f36597cf7f4c48e375c2bbad25be731094f9fe465cae"
@@ -5160,7 +5160,7 @@
     "proseLinksSha256": "aff999cb6bfaa16ebff8759a4a53ca14d1bdd6a859c57d4b2af3525ff9b241f3"
   },
   "/valsts-parbaudes-darbi/": {
-    "sha256": "04a4c9c9a6b8967b56bca78ffe9ec3e8cef6ddf7821daa24d9837e414e5c6296",
+    "sha256": "a5a0d7c77d2dcea46c91dd04fade714287daf3a6c979218fb5fcb85ebb60aa0f",
     "lastmod": "2026-11-12",
     "navigationSha256": "f91891e66fb869f6f9e01a8a90491b12b03a01895cb48209a6df642b420689ab",
     "proseLinksSha256": "4ddc803c7a7b3e2ffe47df4324209539d110f8677d04636d9593a33f67e0eac0"
