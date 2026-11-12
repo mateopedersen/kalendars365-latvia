@@ -15,7 +15,28 @@ module CalendarSeoContract
     'horoscope'=>'read-entertainment', 'garden'=>'plan-gardening', 'garden_month'=>'plan-gardening', 'occasion'=>'learn-tradition', 'latvia_cultural'=>'learn-tradition', 'long_weekends'=>'plan-leave'
   }.freeze
   ROUTE_INTENTS = {'/'=>'plan-day','/pdf-kalendari/'=>'download-calendar','/kalendars/'=>'choose-year','/varda-dienas/'=>'find-name-day','/skolas-brivlaiki/'=>'find-school-holidays','/studiju-kalendars/'=>'find-university-calendar','/datumu-kalkulators/'=>'calculate-date','/darba-dienu-kalendars/'=>'calculate-workdays','/izveidot-kalendaru/'=>'create-personal-calendar','/meklesana/'=>'search-site','/par-projektu/'=>'learn-project','/avoti-un-metodika/'=>'check-methodology','/kontakti/'=>'contact-project'}.freeze
+  IMAGE_RIGHTS_PAGE = ORIGIN + '/pilsetas-un-fotografijas/#kopigosanas-vaki'
+  # Reviewed identities from the source catalog and its original attribution
+  # pages. A credit can contain an uploader, transfer history or an uncertain
+  # photographer; do not turn arbitrary credit text into a Person.
+  SOURCE_CREATORS = {
+    'Diego Delso'=>['Person', 'Diego Delso'],
+    'NASA · Apollo 17'=>['Organization', 'NASA'],
+    'NASA/Apollo 17 crew; taken by either Harrison Schmitt or Ron Evans'=>['Organization', 'NASA'],
+    'NASA/Bill Ingalls'=>['Person', 'Bill Ingalls'],
+    'Saeima'=>['Organization', 'Saeima'],
+    'Rīgas pašvaldības aģentūra “Rīgas investīciju un tūrisma aģentūra”'=>['Organization', 'Rīgas pašvaldības aģentūra “Rīgas investīciju un tūrisma aģentūra”']
+  }.transform_values(&:freeze).freeze
   module_function
+  def source_image_creator(source)
+    identity=SOURCE_CREATORS[source.fetch('author')]
+    {'@type'=>identity[0], 'name'=>identity[1]} if identity
+  end
+  def source_image_rights_notice(source)
+    # Quote the documented credit and rights status, without adding a copyright
+    # owner or a copyright symbol to public-domain, CC0 or NASA material.
+    "Avota kredīts: #{source.fetch('author')}. Licences vai tiesību norāde: #{source.fetch('license')}."
+  end
   def canonical_path(value)
     path=value.to_s
     raise "Invalid canonical path: #{path}" unless path.start_with?('/') && !path.start_with?('//') && !path.match?(/[?#\s\0]/) && !URI::DEFAULT_PARSER.unescape(path).split('/').include?('..')
@@ -73,15 +94,19 @@ module CalendarSeoContract
     canonical=absolute(path);publisher=ORIGIN+'/#publisher';website=ORIGIN+'/#website';page_id=canonical+'#webpage';image_id=canonical+'#primaryimage'
     person={'@type'=>'Person','@id'=>publisher,'name'=>site.config.fetch('owner'),'url'=>ORIGIN+'/par-projektu/#silvis-balodis'}
     web={'@type'=>'WebSite','@id'=>website,'url'=>ORIGIN+'/','name'=>'Kalendārs365','alternateName'=>'Kalendars365','inLanguage'=>'lv-LV','publisher'=>{'@id'=>publisher}}
-    image={'@type'=>'ImageObject','@id'=>image_id,'url'=>ORIGIN+image_path,'contentUrl'=>ORIGIN+image_path,'width'=>width,'height'=>height,'caption'=>alt,'inLanguage'=>'lv-LV'}
+    image={'@type'=>'ImageObject','@id'=>image_id,'url'=>ORIGIN+image_path,'contentUrl'=>ORIGIN+image_path,'width'=>width,'height'=>height,'caption'=>alt,'inLanguage'=>'lv-LV',
+      'creator'=>{'@type'=>'Organization','name'=>'Kalendārs365','url'=>ORIGIN+'/'},
+      'creditText'=>'Kalendārs365 (kopīgošanas vāka makets)', 'copyrightNotice'=>'Kalendārs365 — kopīgošanas vāka makets.',
+      'license'=>IMAGE_RIGHTS_PAGE, 'acquireLicensePage'=>IMAGE_RIGHTS_PAGE}
     page={'@type'=>record.fetch('pageType','WebPage'),'@id'=>page_id,'url'=>canonical,'name'=>data.fetch('title'),'description'=>description,'inLanguage'=>'lv-LV','isPartOf'=>{'@id'=>website},'primaryImageOfPage'=>{'@id'=>image_id},'publisher'=>{'@id'=>publisher}}
     page['dateModified']=modified if modified
     graph=[person,web,image,page]
-    # Credit the actual source photographs without attributing third-party
-    # photography to the site owner or licensing the whole composite as one work.
+    # The project creates the composition; the linked terms and separate source
+    # objects retain the photographs' own authorship and individual rights.
     sources = cover.fetch('sources', [])
     unless sources.empty?
       image['creditText'] = 'Fotogrāfiju avoti: ' + sources.map { |source| source.fetch('author') }.uniq.join('; ')
+      image['copyrightNotice'] += ' ' + sources.map { |source| source_image_rights_notice(source) }.uniq.join(' ')
       image['isBasedOn'] = sources.map do |source|
         src = source.fetch('src')
         raise "Invalid source image: #{src}" unless src.start_with?('/assets/') && !src.include?('..') && File.file?(File.join(site.source, src.delete_prefix('/')))
@@ -94,8 +119,12 @@ module CalendarSeoContract
         raise "Missing photo attribution: #{src}" if source.fetch('author').to_s.strip.empty? || !license.to_s.start_with?('https://') || !original.start_with?('https://')
         id = ORIGIN + src + '#image'
         unless graph.any? { |node| node['@id'] == id }
-          graph << {'@type'=>'ImageObject', '@id'=>id, 'url'=>ORIGIN+src, 'contentUrl'=>ORIGIN+src,
-            'creditText'=>source.fetch('author'), 'license'=>license, 'isBasedOn'=>original}
+          source_image={'@type'=>'ImageObject', '@id'=>id, 'url'=>ORIGIN+src, 'contentUrl'=>ORIGIN+src,
+            'creditText'=>source.fetch('author'), 'license'=>license, 'isBasedOn'=>original,
+            'acquireLicensePage'=>original, 'copyrightNotice'=>source_image_rights_notice(source)}
+          creator=source_image_creator(source)
+          source_image['creator']=creator if creator
+          graph << source_image
         end
         {'@id'=>id}
       end.uniq

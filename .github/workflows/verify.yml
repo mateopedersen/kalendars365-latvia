@@ -96,6 +96,8 @@ jobs:
       - run: node --test test/school-planner.test.mjs
       - run: node --test test/solar-directory-chart.test.mjs test/sun-scene.test.mjs
       - run: node --test test/social-covers.test.cjs
+      - run: node --test test/image-seo.test.mjs
+      - run: python3 -m unittest discover -s test -p indexnow_test.py -v
       - run: npm ci --prefix tooling/sharing --ignore-scripts --no-audit --no-fund
       - run: node --test test/sharing.test.mjs
       - run: node --test test/tradition-photo-headers.test.mjs test/traditions-guide.test.mjs
