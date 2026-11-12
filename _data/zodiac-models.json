@@ -115,7 +115,7 @@
   "sources": {
     "scripts/build_zodiac_art.mjs": "013a69c013e7e43735b93ee634f583cb1a646ccdaeacb60e618496f30a7670b7",
     "scripts/artwork/zodiac-sculptures.mjs": "1c35d2e8a678f7078f6e89a287c35c1d5d7485eb9078971032673123cd0dcbd2",
-    "_data/horoscope/profiles.json": "ba07cf43efa12675e9609ff3cb6ff381fc620da3eba239062357ac64f3bc65ea"
+    "_data/horoscope/profiles.json": "9f1f8f1f2d625cfe70fff4117e584c4c311031ff4e924e5c43d823054d25c3e7"
   },
   "artifacts": {
     "assets/zodiac/auns.svg": "e2fbd56d80dca9e9021a86ae6fca864eb8c39c416fb64e5e3620706925d3dca4",

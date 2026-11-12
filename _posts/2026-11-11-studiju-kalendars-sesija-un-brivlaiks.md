@@ -2,18 +2,17 @@
 layout: blog-post
 family: blog_article
 permalink: "/blogs/studiju-kalendars-sesija-un-brivlaiks/"
-title: 'Studiju kalendārs: lekcijas, sesija un īsts brīvlaiks'
-description: Kā lasīt Latvijas augstskolas akadēmisko kalendāru un salīdzināt to ar
-  savas programmas pienākumiem.
+title: Kā augstskolas kalendārā atrast sesiju un brīvlaiku
+description: Kur savas augstskolas kalendārā meklēt semestra sākumu, sesiju un brīvlaiku?
+  Salīdzini publicētos datumus ar savas programmas lekcijām un pārbaudījumiem.
 author: Silvis Balodis
 date: '2026-11-11'
 reading_notes: false
 blog_slug: studiju-kalendars-sesija-un-brivlaiks
-og_image: "/assets/social-cards/v2/7f1aa46c8e98da90-468bb5edb506.jpg"
+og_image: "/assets/social-cards/v2/7f1aa46c8e98da90-edc361ef096d.jpg"
 og_image_width: 1200
 og_image_height: 630
-og_image_alt: 'Studiju kalendārs: lekcijas, sesija un īsts brīvlaiks | Kalendārs365
-  Latvijai'
+og_image_alt: Kā augstskolas kalendārā atrast sesiju un brīvlaiku | Kalendārs365 Latvijai
 ---
 Studentam vārds “brīvlaiks” var nozīmēt pavisam ko citu nekā skolēnam. Lekciju pārtraukumā var turpināties patstāvīgie darbi, prakse, pārbaudījumi vai gatavošanās sesijai. Lai plānotu darbu, braucienu un atpūtu, jāskatās [konkrētās augstskolas akadēmiskais kalendārs](/studiju-kalendars/) un savas programmas norādījumi, nevis tikai vispārējā svētku tabula.
 

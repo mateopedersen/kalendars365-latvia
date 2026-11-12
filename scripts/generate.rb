@@ -8,6 +8,7 @@ require 'digest'
 require 'open3'
 require 'uri'
 require_relative 'tradition_links'
+require_relative 'calendar_search_snippets'
 require_relative 'preview_components'
 include PreviewComponents
 require_relative 'occasion_components'
@@ -411,14 +412,17 @@ def title_for(r)
  when 'memorial_year' then "#{y}. gada atceres dienas"
  when 'long_weekends' then "#{y}. gada garās brīvdienas"
  when 'school_year_calendar' then "Skolas brīvlaiki #{y}. gadā"
- when 'latvia_cultural', 'latvia_special' then t
+ when 'latvia_cultural' then LATVIA_EXTRA_PAGES.dig(p, 'title') || t
+ when 'latvia_special' then t
  else t
  end
 end
 
 reading_sky_json, reading_sky_error, reading_sky_status = Open3.capture3(ENV.fetch('NODE', 'node'), 'scripts/render_reading_sky.mjs')
 abort "Reading-note astronomy examples failed: #{reading_sky_error}" unless reading_sky_status.success?
-READING_NOTES = PageReadingNotes.new(data:DATA,cities:CITIES,sky:JSON.parse(reading_sky_json),cultural_dates:method(:cultural_calendar_dates),garden_actions:method(:garden_calendar_actions))
+sky_examples = JSON.parse(reading_sky_json)
+READING_NOTES = PageReadingNotes.new(data:DATA,cities:CITIES,sky:sky_examples,cultural_dates:method(:cultural_calendar_dates),garden_actions:method(:garden_calendar_actions))
+SEARCH_SNIPPETS = CalendarSearchSnippets.new(data:DATA, cities:CITIES, sky:sky_examples, notes:READING_NOTES)
 manifest=[]
 ROUTES.each do |r|
  p=r['URL path'];f=r['Page family'];y=r['Year'].to_i;y=2027 if y==0;m=(SLUGS.index(r['URL path'].split('/').last)||-1)+1;m=nil if m==0;slug=p.split('/').last;title=title_for(r);title='Tava diena. Tavi plāni.' if p=='/'
@@ -614,22 +618,20 @@ ROUTES.each do |r|
   desc="Darba dienas, plānotās stundas un Latvijas svētku brīvdienas #{m ? "#{y}. gada #{month_locative[m-1]}" : f=='work_year' ? "#{y}. gadā" : '2027.–2030. gadā'}. Pielāgo nedēļas grafiku, pirmssvētku saīsinājumu un aprēķini savu periodu."
   desc='Aprēķini darba dienas un stundas, salīdzini datumus vai pieskaiti laiku. Latvijas svētki un tavs darba grafiks vienā vietā.' unless m || f=='work_year'
  end
- if f=='print_month' && (2027..2030).cover?(y)
-  desc="15 #{y}. gada #{GEN[m-1]} kalendāru dizaini A3 formātā. Lejupielādē PDF vai attēlu 600 dpi izšķirtspējā."
- end
  if f=='horoscope' && (profile=HOROSCOPE_PROFILES.find{|item|item['slug']==slug})
   title=profile.fetch('seo').fetch('title');heading="#{profile.fetch('genitive')} horoskops";desc=profile.fetch('seo').fetch('description')
  elsif slug=='horoskops'
   collection_seo=JSON.parse(File.read('_data/horoscope/method.json')).fetch('collectionSeo')
   title=collection_seo.fetch('title');heading='Dienas horoskops latviešu valodā';desc=collection_seo.fetch('description')
  elsif slug=='zodiaka-zimes'
-  title='Zodiaka zīmes: nosaukumi un simbolika';heading='12 zodiaka zīmes un to elementi';desc='Iepazīsti Aunu, Vērsi, Dvīņus un pārējās zodiaka zīmes, to elementus un simbolisko nozīmi. Dienas horoskopi katrai zīmei.'
+  title='Zodiaka zīmju nosaukumi un simbolika';heading='12 zodiaka zīmes un to elementi';desc='Iepazīsti Aunu, Vērsi, Dvīņus un pārējās zodiaka zīmes, to elementus un simbolisko nozīmi. Dienas horoskopi katrai zīmei.'
  end
  if slug=='horoskopa-zimes-kalkulators'
   title='Ascendenta un zodiaka zīmes kalkulators';heading='Ascendenta un zodiaka zīmes kalkulators'
   desc='Aprēķini ascendentu pēc dzimšanas datuma, precīza laika un vietas. Vēsturiskās laika joslas, vasaras laiks un zodiaka zīmes latviski.'
  end
  desc="#{title}. #{m ? "#{Date.new(y,m,-1).day} #{Date.new(y,m,-1).day == 31 ? 'diena' : 'dienas'}, ISO nedēļas un izvēlētā mēneša plānošana." : 'Pārskatāmi datumi, plānošanas rīki un saites uz avotiem.'} Kalendārs365 Latvijai." if desc.empty?
+ desc=SEARCH_SNIPPETS.description(f, year:y, month:m, slug:slug, fallback:desc)
  CalendarIndexingPolicy.validate!(p,noindex)
  front={'layout'=>'default','title'=>title,'description'=>desc,'permalink'=>p,'family'=>f,'city_id'=>(%w[sun_city moon_city].include?(f) ? slug : nil),'year'=>(r['Year'].empty? ? nil : y),'month'=>m,'week'=>week,'calendar_name'=>(f=='name_calendar' ? r['Latvian title/topic'] : nil),'view'=>(f=='iso_week' ? 'week' : f=='year' ? 'year' : nil),'noindex'=>noindex,'og_image'=>(File.file?("assets/og/#{Digest::SHA1.hexdigest(p)[0,16]}.webp") ? "/assets/og/#{Digest::SHA1.hexdigest(p)[0,16]}.webp" : '/assets/og/home.png')}
  front.delete_if{|_,value|value.nil?}
@@ -694,7 +696,7 @@ category_export_data
 [[2031,1]].each do |y,w|
  READING_NOTES.for_route({'URL path'=>format('/nedelas-kalendars/%d/%02d/',y,w),'Page family'=>'iso_week','Year'=>y.to_s})
  url=format('/nedelas-kalendars/%d/%02d/',y,w)
- description='Apskati 2031. gada ISO 1. nedēļas datumus, kas sākas 2030. gada decembra pēdējās dienās.'
+ description=SEARCH_SNIPPETS.week_summary(y,w)
  path="generated/nedelas-kalendars/#{y}/#{format('%02d',w)}/index.html";FileUtils.mkdir_p(File.dirname(path));File.write(path,{'layout'=>'default','title'=>"#{y}. gada #{w}. nedēļa",'description'=>description,'permalink'=>url,'family'=>'iso_week','year'=>y,'week'=>w,'noindex'=>false}.to_yaml+"---\n<div class=\"page-shell\"><h1>#{y}. gada #{w}. nedēļa</h1>{% include app.html %}</div>")
  manifest << {url:url,title:"#{y}. gada #{w}. nedēļa",family:'iso_week',indexable:true,status:'ready',description:description,lastmod:previous_revisions.dig(url,'lastmod') || revision_date}
 end

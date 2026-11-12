@@ -1275,12 +1275,12 @@
       "reading": [
         {
           "url": "/blogs/latvijas-svetku-dienas-2027-planosana/",
-          "title": "Latvijas svētku dienas 2027. gadā: kā plānot gadu",
+          "title": "Kā plānot 2027. gada svētku brīvdienas Latvijā",
           "kind": "guide"
         },
         {
           "url": "/blogs/atvalinajums-2027-garas-brivdienas/",
-          "title": "Atvaļinājums 2027. gadā: kā salīdzināt garās brīvdienas",
+          "title": "Kā izmantot garās brīvdienas atvaļinājumam 2027. gadā",
           "kind": "guide"
         }
       ],
@@ -1425,7 +1425,7 @@
       "reading": [
         {
           "url": "/blogs/darba-dienas-un-stundas-ka-skaitit/",
-          "title": "Darba dienas un stundas: kā saprast kalendāra aprēķinu",
+          "title": "Kā aprēķināt darba dienas un stundas Latvijā",
           "kind": "guide"
         }
       ],
@@ -4820,7 +4820,7 @@
       "reading": [
         {
           "url": "/blogs/darba-dienas-un-stundas-ka-skaitit/",
-          "title": "Darba dienas un stundas: kā saprast kalendāra aprēķinu",
+          "title": "Kā aprēķināt darba dienas un stundas Latvijā",
           "kind": "guide"
         }
       ],
@@ -4872,7 +4872,7 @@
       "reading": [
         {
           "url": "/blogs/garais-gads-2028-februaris/",
-          "title": "2028. gada 29. februāris: ko maina garais gads",
+          "title": "Ko 2028. gada 29. februāris maina kalendārā",
           "kind": "guide"
         }
       ],
@@ -4919,12 +4919,12 @@
       "reading": [
         {
           "url": "/blogs/saullekts-saulriets-latvijas-pilsetas/",
-          "title": "Kāpēc saullēkts Rīgā un Liepājā nav vienā laikā",
+          "title": "Kāpēc saullēkta un saulrieta laiki Latvijas pilsētās atšķiras",
           "kind": "guide"
         },
         {
           "url": "/blogs/rudens-latvija-gadalaiki-un-izbraucieni/",
-          "title": "Rudens Latvijā: gadalaiku robežas un pārdomāts izbrauciens",
+          "title": "Rudens sākums Latvijā un izbraucienu plānošana",
           "kind": "guide"
         }
       ],
@@ -5012,7 +5012,7 @@
       "reading": [
         {
           "url": "/blogs/gimenes-kalendars-nedelas-planosana/",
-          "title": "Ģimenes nedēļas kalendārs: mazāk pārpratumu, skaidrāki plāni",
+          "title": "Kā izveidot ģimenes nedēļas kalendāru",
           "kind": "guide"
         }
       ],
@@ -5190,12 +5190,12 @@
       "reading": [
         {
           "url": "/blogs/zelta-stunda-latvija-fotoplanosana/",
-          "title": "Zeltainā stunda Latvijā: kā ieplānot fotografēšanas vakaru",
+          "title": "Kā ieplānot zeltaino stundu fotografēšanai Latvijā",
           "kind": "guide"
         },
         {
           "url": "/blogs/rudens-latvija-gadalaiki-un-izbraucieni/",
-          "title": "Rudens Latvijā: gadalaiku robežas un pārdomāts izbrauciens",
+          "title": "Rudens sākums Latvijā un izbraucienu plānošana",
           "kind": "guide"
         }
       ],
@@ -5242,7 +5242,7 @@
       "reading": [
         {
           "url": "/blogs/garais-gads-2028-februaris/",
-          "title": "2028. gada 29. februāris: ko maina garais gads",
+          "title": "Ko 2028. gada 29. februāris maina kalendārā",
           "kind": "guide"
         }
       ],
@@ -5345,7 +5345,7 @@
       "reading": [
         {
           "url": "/blogs/atvalinajums-2027-garas-brivdienas/",
-          "title": "Atvaļinājums 2027. gadā: kā salīdzināt garās brīvdienas",
+          "title": "Kā izmantot garās brīvdienas atvaļinājumam 2027. gadā",
           "kind": "guide"
         }
       ],
@@ -5575,12 +5575,12 @@
       "reading": [
         {
           "url": "/blogs/skolas-brivlaiki-2027-gimenes-plans/",
-          "title": "Skolas brīvlaiki 2027. gadā: ko pārbaudīt ģimenes kalendārā",
+          "title": "Kā ģimenei plānot skolas brīvlaikus 2027. gadā",
           "kind": "guide"
         },
         {
           "url": "/blogs/gimenes-kalendars-nedelas-planosana/",
-          "title": "Ģimenes nedēļas kalendārs: mazāk pārpratumu, skaidrāki plāni",
+          "title": "Kā izveidot ģimenes nedēļas kalendāru",
           "kind": "guide"
         }
       ],
@@ -5680,7 +5680,7 @@
         },
         {
           "url": "/horoskops/auns/",
-          "title": "Auna horoskops: dienas tēmas un zīmes simbolika"
+          "title": "Auna dienas horoskops"
         }
       ],
       "heading": "Zodiaka zīmes un to aprēķini",
@@ -5721,7 +5721,7 @@
         },
         {
           "url": "/horoskops/dvini/",
-          "title": "Dvīņu horoskops: dienas tēmas un zīmes simbolika"
+          "title": "Dvīņu dienas horoskops"
         }
       ],
       "heading": "Zodiaka zīmes un to aprēķini",
@@ -5762,7 +5762,7 @@
         },
         {
           "url": "/horoskops/jaunava/",
-          "title": "Jaunavas horoskops: dienas tēmas un zīmes simbolika"
+          "title": "Jaunavas dienas horoskops"
         }
       ],
       "heading": "Zodiaka zīmes un to aprēķini",
@@ -5803,7 +5803,7 @@
         },
         {
           "url": "/horoskops/lauva/",
-          "title": "Lauvas horoskops: dienas tēmas un zīmes simbolika"
+          "title": "Lauvas dienas horoskops"
         }
       ],
       "heading": "Zodiaka zīmes un to aprēķini",
@@ -5844,7 +5844,7 @@
         },
         {
           "url": "/horoskops/mezazis/",
-          "title": "Mežāža horoskops: dienas tēmas un zīmes simbolika"
+          "title": "Mežāža dienas horoskops"
         }
       ],
       "heading": "Zodiaka zīmes un to aprēķini",
@@ -5885,7 +5885,7 @@
         },
         {
           "url": "/horoskops/skorpions/",
-          "title": "Skorpiona horoskops: dienas tēmas un zīmes simbolika"
+          "title": "Skorpiona dienas horoskops"
         }
       ],
       "heading": "Zodiaka zīmes un to aprēķini",
@@ -5926,7 +5926,7 @@
         },
         {
           "url": "/horoskops/strelnieks/",
-          "title": "Strēlnieka horoskops: dienas tēmas un zīmes simbolika"
+          "title": "Strēlnieka dienas horoskops"
         }
       ],
       "heading": "Zodiaka zīmes un to aprēķini",
@@ -5967,7 +5967,7 @@
         },
         {
           "url": "/horoskops/svari/",
-          "title": "Svaru horoskops: dienas tēmas un zīmes simbolika"
+          "title": "Svaru dienas horoskops"
         }
       ],
       "heading": "Zodiaka zīmes un to aprēķini",
@@ -6008,7 +6008,7 @@
         },
         {
           "url": "/horoskops/udensvirs/",
-          "title": "Ūdensvīra horoskops: dienas tēmas un zīmes simbolika"
+          "title": "Ūdensvīra dienas horoskops"
         }
       ],
       "heading": "Zodiaka zīmes un to aprēķini",
@@ -6049,7 +6049,7 @@
         },
         {
           "url": "/horoskops/versis/",
-          "title": "Vērša horoskops: dienas tēmas un zīmes simbolika"
+          "title": "Vērša dienas horoskops"
         }
       ],
       "heading": "Zodiaka zīmes un to aprēķini",
@@ -6090,7 +6090,7 @@
         },
         {
           "url": "/horoskops/vezis/",
-          "title": "Vēža horoskops: dienas tēmas un zīmes simbolika"
+          "title": "Vēža dienas horoskops"
         }
       ],
       "heading": "Zodiaka zīmes un to aprēķini",
@@ -6131,7 +6131,7 @@
         },
         {
           "url": "/horoskops/zivis/",
-          "title": "Zivju horoskops: dienas tēmas un zīmes simbolika"
+          "title": "Zivju dienas horoskops"
         }
       ],
       "heading": "Zodiaka zīmes un to aprēķini",
@@ -6202,7 +6202,7 @@
       "reading": [
         {
           "url": "/blogs/personigs-kalendars-fotografijas-druka/",
-          "title": "Personīgs kalendārs ar fotogrāfijām: no ieceres līdz izdrukai",
+          "title": "Kā sagatavot drukai kalendāru ar savām fotogrāfijām",
           "kind": "guide"
         }
       ],
@@ -6294,7 +6294,7 @@
       "reading": [
         {
           "url": "/blogs/varda-dienas-tradicionalais-paplasinatais-saraksts/",
-          "title": "Vārda dienas: kā atšķirt tradicionālo un paplašināto sarakstu",
+          "title": "Ar ko atšķiras tradicionālais un paplašinātais vārdadienu saraksts",
           "kind": "guide"
         }
       ],
@@ -7428,7 +7428,7 @@
       "reading": [
         {
           "url": "/blogs/latvijas-svetku-dienas-2027-planosana/",
-          "title": "Latvijas svētku dienas 2027. gadā: kā plānot gadu",
+          "title": "Kā plānot 2027. gada svētku brīvdienas Latvijā",
           "kind": "guide"
         }
       ],
@@ -8467,7 +8467,7 @@
       "reading": [
         {
           "url": "/blogs/garais-gads-2028-februaris/",
-          "title": "2028. gada 29. februāris: ko maina garais gads",
+          "title": "Ko 2028. gada 29. februāris maina kalendārā",
           "kind": "guide"
         }
       ],
@@ -10712,7 +10712,7 @@
       "reading": [
         {
           "url": "/blogs/darba-dienas-un-stundas-ka-skaitit/",
-          "title": "Darba dienas un stundas: kā saprast kalendāra aprēķinu",
+          "title": "Kā aprēķināt darba dienas un stundas Latvijā",
           "kind": "guide"
         }
       ],
@@ -11126,7 +11126,7 @@
       "reading": [
         {
           "url": "/blogs/meness-fazes-un-vietejais-laiks/",
-          "title": "Mēness fāzes Latvijas laikā: brīdis, attēls un redzamība",
+          "title": "Kā lasīt Mēness fāžu kalendāru Latvijas laikā",
           "kind": "guide"
         }
       ],
@@ -11174,12 +11174,12 @@
       "reading": [
         {
           "url": "/blogs/meness-fazes-un-vietejais-laiks/",
-          "title": "Mēness fāzes Latvijas laikā: brīdis, attēls un redzamība",
+          "title": "Kā lasīt Mēness fāžu kalendāru Latvijas laikā",
           "kind": "guide"
         },
         {
           "url": "/blogs/perseidas-latvija-noverojumu-plans/",
-          "title": "Perseīdas Latvijā: kā izvēlēties novērojumu nakti",
+          "title": "Kā izvēlēties nakti Perseīdu vērošanai Latvijā",
           "kind": "guide"
         }
       ],
@@ -14362,7 +14362,7 @@
       "reading": [
         {
           "url": "/blogs/meness-fazes-un-vietejais-laiks/",
-          "title": "Mēness fāzes Latvijas laikā: brīdis, attēls un redzamība",
+          "title": "Kā lasīt Mēness fāžu kalendāru Latvijas laikā",
           "kind": "guide"
         }
       ],
@@ -18570,7 +18570,7 @@
       "reading": [
         {
           "url": "/blogs/iso-nedelu-numuri-kalendara/",
-          "title": "ISO nedēļu numuri: kā nepazaudēt datumu gadu mijā",
+          "title": "Kā noteikt ISO nedēļas numuru gadu mijā",
           "kind": "guide"
         }
       ],
@@ -32505,7 +32505,7 @@
       "reading": [
         {
           "url": "/blogs/iso-nedelu-numuri-kalendara/",
-          "title": "ISO nedēļu numuri: kā nepazaudēt datumu gadu mijā",
+          "title": "Kā noteikt ISO nedēļas numuru gadu mijā",
           "kind": "guide"
         }
       ],
@@ -32686,7 +32686,7 @@
       "reading": [
         {
           "url": "/blogs/personigs-kalendars-fotografijas-druka/",
-          "title": "Personīgs kalendārs ar fotogrāfijām: no ieceres līdz izdrukai",
+          "title": "Kā sagatavot drukai kalendāru ar savām fotogrāfijām",
           "kind": "guide"
         }
       ],
@@ -36118,7 +36118,7 @@
       "reading": [
         {
           "url": "/blogs/perseidas-latvija-noverojumu-plans/",
-          "title": "Perseīdas Latvijā: kā izvēlēties novērojumu nakti",
+          "title": "Kā izvēlēties nakti Perseīdu vērošanai Latvijā",
           "kind": "guide"
         }
       ],
@@ -36426,12 +36426,12 @@
       "reading": [
         {
           "url": "/blogs/ligo-un-jani-planosana-latvija/",
-          "title": "Līgo un Jāņi: svētku datumi un pārdomāts vasaras plāns",
+          "title": "Līgo vakara un Jāņu dienas plānošana",
           "kind": "guide"
         },
         {
           "url": "/blogs/saullekts-saulriets-latvijas-pilsetas/",
-          "title": "Kāpēc saullēkts Rīgā un Liepājā nav vienā laikā",
+          "title": "Kāpēc saullēkta un saulrieta laiki Latvijas pilsētās atšķiras",
           "kind": "guide"
         }
       ],
@@ -40246,12 +40246,12 @@
       "reading": [
         {
           "url": "/blogs/pavasara-seja-latvija-darza-plans/",
-          "title": "Pavasara sēja Latvijā: plāns pēc augsnes, ne tikai datuma",
+          "title": "Kā plānot pavasara sēju Latvijas dārzā",
           "kind": "guide"
         },
         {
           "url": "/blogs/tomatu-seja-un-izstadisana-latvija/",
-          "title": "Tomātu sēja un izstādīšana Latvijā: kā veidot savu grafiku",
+          "title": "Kad sēt tomātus un izstādīt dēstus Latvijā",
           "kind": "guide"
         }
       ],
@@ -40273,7 +40273,7 @@
         },
         {
           "url": "/sejas-kalendars/burkani/",
-          "title": "Burkānu audzēšana: sēja, kopšana un raža"
+          "title": "Burkānu audzēšana Latvijā"
         }
       ],
       "heading": "Turpini dārza plānu",
@@ -40324,7 +40324,7 @@
         },
         {
           "url": "/sejas-kalendars/dilles/",
-          "title": "Diļļu audzēšana: sēja, kopšana un raža"
+          "title": "Diļļu audzēšana Latvijā"
         }
       ],
       "heading": "Turpini dārza plānu",
@@ -40365,7 +40365,7 @@
         },
         {
           "url": "/sejas-kalendars/galda-bietes/",
-          "title": "Galda biešu audzēšana: sēja, kopšana un raža"
+          "title": "Galda biešu audzēšana Latvijā"
         }
       ],
       "heading": "Turpini dārza plānu",
@@ -40416,7 +40416,7 @@
         },
         {
           "url": "/sejas-kalendars/gurki/",
-          "title": "Gurķu audzēšana: sēja, kopšana un raža"
+          "title": "Gurķu audzēšana Latvijā"
         }
       ],
       "heading": "Turpini dārza plānu",
@@ -40462,7 +40462,7 @@
         },
         {
           "url": "/sejas-kalendars/kaposti/",
-          "title": "Galviņkāpostu audzēšana: sēja, kopšana un raža"
+          "title": "Galviņkāpostu audzēšana Latvijā"
         }
       ],
       "heading": "Turpini dārza plānu",
@@ -40503,7 +40503,7 @@
         },
         {
           "url": "/sejas-kalendars/kartupeli/",
-          "title": "Kartupeļu audzēšana: sēja, kopšana un raža"
+          "title": "Kartupeļu audzēšana Latvijā"
         }
       ],
       "heading": "Turpini dārza plānu",
@@ -40549,7 +40549,7 @@
         },
         {
           "url": "/sejas-kalendars/kiploki/",
-          "title": "Ķiploku audzēšana: sēja, kopšana un raža"
+          "title": "Ķiploku audzēšana Latvijā"
         }
       ],
       "heading": "Turpini dārza plānu",
@@ -40607,17 +40607,17 @@
       "related": [
         {
           "url": "/sejas-kalendars/burkani/",
-          "title": "Burkānu audzēšana: sēja, kopšana un raža",
+          "title": "Burkānu audzēšana Latvijā",
           "kind": "related"
         },
         {
           "url": "/sejas-kalendars/galda-bietes/",
-          "title": "Galda biešu audzēšana: sēja, kopšana un raža",
+          "title": "Galda biešu audzēšana Latvijā",
           "kind": "related"
         },
         {
           "url": "/sejas-kalendars/redisi/",
-          "title": "Redīsu audzēšana: sēja, kopšana un raža",
+          "title": "Redīsu audzēšana Latvijā",
           "kind": "related"
         },
         {
@@ -40651,7 +40651,7 @@
       "reading": [
         {
           "url": "/blogs/pavasara-seja-latvija-darza-plans/",
-          "title": "Pavasara sēja Latvijā: plāns pēc augsnes, ne tikai datuma",
+          "title": "Kā plānot pavasara sēju Latvijas dārzā",
           "kind": "guide"
         }
       ],
@@ -40680,17 +40680,17 @@
       "related": [
         {
           "url": "/sejas-kalendars/redisi/",
-          "title": "Redīsu audzēšana: sēja, kopšana un raža",
+          "title": "Redīsu audzēšana Latvijā",
           "kind": "related"
         },
         {
           "url": "/sejas-kalendars/salati/",
-          "title": "Salātu audzēšana: sēja, kopšana un raža",
+          "title": "Salātu audzēšana Latvijā",
           "kind": "related"
         },
         {
           "url": "/sejas-kalendars/spinati/",
-          "title": "Spinātu audzēšana: sēja, kopšana un raža",
+          "title": "Spinātu audzēšana Latvijā",
           "kind": "related"
         },
         {
@@ -40846,7 +40846,7 @@
       "related": [
         {
           "url": "/sejas-kalendars/salati/",
-          "title": "Salātu audzēšana: sēja, kopšana un raža",
+          "title": "Salātu audzēšana Latvijā",
           "kind": "related"
         },
         {
@@ -40950,17 +40950,17 @@
       "related": [
         {
           "url": "/sejas-kalendars/burkani/",
-          "title": "Burkānu audzēšana: sēja, kopšana un raža",
+          "title": "Burkānu audzēšana Latvijā",
           "kind": "related"
         },
         {
           "url": "/sejas-kalendars/galda-bietes/",
-          "title": "Galda biešu audzēšana: sēja, kopšana un raža",
+          "title": "Galda biešu audzēšana Latvijā",
           "kind": "related"
         },
         {
           "url": "/sejas-kalendars/gurki/",
-          "title": "Gurķu audzēšana: sēja, kopšana un raža",
+          "title": "Gurķu audzēšana Latvijā",
           "kind": "related"
         },
         {
@@ -41017,17 +41017,17 @@
       "related": [
         {
           "url": "/sejas-kalendars/burkani/",
-          "title": "Burkānu audzēšana: sēja, kopšana un raža",
+          "title": "Burkānu audzēšana Latvijā",
           "kind": "related"
         },
         {
           "url": "/sejas-kalendars/galda-bietes/",
-          "title": "Galda biešu audzēšana: sēja, kopšana un raža",
+          "title": "Galda biešu audzēšana Latvijā",
           "kind": "related"
         },
         {
           "url": "/sejas-kalendars/saknu-selerijas/",
-          "title": "Sakņu seleriju audzēšana: sēja, kopšana un raža",
+          "title": "Sakņu seleriju audzēšana Latvijā",
           "kind": "related"
         },
         {
@@ -41084,17 +41084,17 @@
       "related": [
         {
           "url": "/sejas-kalendars/saknu-selerijas/",
-          "title": "Sakņu seleriju audzēšana: sēja, kopšana un raža",
+          "title": "Sakņu seleriju audzēšana Latvijā",
           "kind": "related"
         },
         {
           "url": "/sejas-kalendars/kiploki/",
-          "title": "Ķiploku audzēšana: sēja, kopšana un raža",
+          "title": "Ķiploku audzēšana Latvijā",
           "kind": "related"
         },
         {
           "url": "/sejas-kalendars/salati/",
-          "title": "Salātu audzēšana: sēja, kopšana un raža",
+          "title": "Salātu audzēšana Latvijā",
           "kind": "related"
         },
         {
@@ -41203,7 +41203,7 @@
       "related": [
         {
           "url": "/sejas-kalendars/kiploki/",
-          "title": "Ķiploku audzēšana: sēja, kopšana un raža",
+          "title": "Ķiploku audzēšana Latvijā",
           "kind": "related"
         },
         {
@@ -41260,12 +41260,12 @@
       "related": [
         {
           "url": "/sejas-kalendars/salati/",
-          "title": "Salātu audzēšana: sēja, kopšana un raža",
+          "title": "Salātu audzēšana Latvijā",
           "kind": "related"
         },
         {
           "url": "/sejas-kalendars/spinati/",
-          "title": "Spinātu audzēšana: sēja, kopšana un raža",
+          "title": "Spinātu audzēšana Latvijā",
           "kind": "related"
         },
         {
@@ -41315,7 +41315,7 @@
         },
         {
           "url": "/sejas-kalendars/pupinas/",
-          "title": "Dārza pupiņu audzēšana: sēja, kopšana un raža"
+          "title": "Dārza pupiņu audzēšana Latvijā"
         }
       ],
       "heading": "Turpini dārza plānu",
@@ -41356,7 +41356,7 @@
         },
         {
           "url": "/sejas-kalendars/puravi/",
-          "title": "Puravu audzēšana: sēja, kopšana un raža"
+          "title": "Puravu audzēšana Latvijā"
         }
       ],
       "heading": "Turpini dārza plānu",
@@ -41397,7 +41397,7 @@
         },
         {
           "url": "/sejas-kalendars/redisi/",
-          "title": "Redīsu audzēšana: sēja, kopšana un raža"
+          "title": "Redīsu audzēšana Latvijā"
         }
       ],
       "heading": "Turpini dārza plānu",
@@ -41443,7 +41443,7 @@
         },
         {
           "url": "/sejas-kalendars/saknu-selerijas/",
-          "title": "Sakņu seleriju audzēšana: sēja, kopšana un raža"
+          "title": "Sakņu seleriju audzēšana Latvijā"
         }
       ],
       "heading": "Turpini dārza plānu",
@@ -41489,7 +41489,7 @@
         },
         {
           "url": "/sejas-kalendars/salati/",
-          "title": "Salātu audzēšana: sēja, kopšana un raža"
+          "title": "Salātu audzēšana Latvijā"
         }
       ],
       "heading": "Turpini dārza plānu",
@@ -41540,7 +41540,7 @@
         },
         {
           "url": "/sejas-kalendars/sipoli/",
-          "title": "Sīpolu audzēšana: sēja, kopšana un raža"
+          "title": "Sīpolu audzēšana Latvijā"
         }
       ],
       "heading": "Turpini dārza plānu",
@@ -41586,7 +41586,7 @@
         },
         {
           "url": "/sejas-kalendars/spinati/",
-          "title": "Spinātu audzēšana: sēja, kopšana un raža"
+          "title": "Spinātu audzēšana Latvijā"
         }
       ],
       "heading": "Turpini dārza plānu",
@@ -41637,7 +41637,7 @@
         },
         {
           "url": "/sejas-kalendars/tomati/",
-          "title": "Tomātu audzēšana: sēja, kopšana un raža"
+          "title": "Tomātu audzēšana Latvijā"
         }
       ],
       "heading": "Turpini dārza plānu",
@@ -41672,7 +41672,7 @@
       "reading": [
         {
           "url": "/blogs/tomatu-seja-un-izstadisana-latvija/",
-          "title": "Tomātu sēja un izstādīšana Latvijā: kā veidot savu grafiku",
+          "title": "Kad sēt tomātus un izstādīt dēstus Latvijā",
           "kind": "guide"
         }
       ],
@@ -41694,7 +41694,7 @@
         },
         {
           "url": "/sejas-kalendars/zirni/",
-          "title": "Zirņu audzēšana: sēja, kopšana un raža"
+          "title": "Zirņu audzēšana Latvijā"
         }
       ],
       "heading": "Turpini dārza plānu",
@@ -41806,7 +41806,7 @@
       "reading": [
         {
           "url": "/blogs/skolas-brivlaiki-2027-gimenes-plans/",
-          "title": "Skolas brīvlaiki 2027. gadā: ko pārbaudīt ģimenes kalendārā",
+          "title": "Kā ģimenei plānot skolas brīvlaikus 2027. gadā",
           "kind": "guide"
         }
       ],
@@ -42267,7 +42267,7 @@
       "reading": [
         {
           "url": "/blogs/studiju-kalendars-sesija-un-brivlaiks/",
-          "title": "Studiju kalendārs: lekcijas, sesija un īsts brīvlaiks",
+          "title": "Kā augstskolas kalendārā atrast sesiju un brīvlaiku",
           "kind": "guide"
         }
       ],
@@ -42314,7 +42314,7 @@
       "reading": [
         {
           "url": "/blogs/studiju-kalendars-sesija-un-brivlaiks/",
-          "title": "Studiju kalendārs: lekcijas, sesija un īsts brīvlaiks",
+          "title": "Kā augstskolas kalendārā atrast sesiju un brīvlaiku",
           "kind": "guide"
         }
       ],
@@ -42378,7 +42378,7 @@
         },
         {
           "url": "/svetki-un-tradicijas/advente/",
-          "title": "Advente: četras svētdienas pirms Ziemassvētkiem"
+          "title": "Adventes svētdienas pirms Ziemassvētkiem"
         }
       ],
       "heading": "Datumi un saistītie plāni",
@@ -42945,7 +42945,7 @@
       "reading": [
         {
           "url": "/blogs/ligo-un-jani-planosana-latvija/",
-          "title": "Līgo un Jāņi: svētku datumi un pārdomāts vasaras plāns",
+          "title": "Līgo vakara un Jāņu dienas plānošana",
           "kind": "guide"
         }
       ],
@@ -43529,7 +43529,7 @@
       "reading": [
         {
           "url": "/blogs/lieldienas-2027-datumi-un-plani/",
-          "title": "Lieldienas 2027. gadā: datumi, brīvdienas un ģimenes plāns",
+          "title": "Kad ir Lieldienas 2027. gadā un kā plānot brīvdienas",
           "kind": "guide"
         }
       ],
@@ -43581,7 +43581,7 @@
       "reading": [
         {
           "url": "/blogs/ligo-un-jani-planosana-latvija/",
-          "title": "Līgo un Jāņi: svētku datumi un pārdomāts vasaras plāns",
+          "title": "Līgo vakara un Jāņu dienas plānošana",
           "kind": "guide"
         }
       ],
@@ -43603,7 +43603,7 @@
         },
         {
           "url": "/svetki-un-tradicijas/martindiena/",
-          "title": "Mārtiņi: 10. novembris un latviešu tradīcijas"
+          "title": "Mārtiņi un 10. novembra tradīcijas Latvijā"
         }
       ],
       "heading": "Datumi un saistītie plāni",
@@ -43736,7 +43736,7 @@
         },
         {
           "url": "/svetki-un-tradicijas/meteni/",
-          "title": "Meteņi: pavasara gaidīšana un svinēšanas laiki"
+          "title": "Meteņi un pavasara gaidīšanas tradīcijas"
         }
       ],
       "heading": "Datumi un saistītie plāni",
@@ -43782,7 +43782,7 @@
         },
         {
           "url": "/svetki-un-tradicijas/mikeli/",
-          "title": "Miķeļi: 29. septembris un ražas laika tradīcijas"
+          "title": "Miķeļi un ražas svētku tradīcijas Latvijā"
         }
       ],
       "heading": "Datumi un saistītie plāni",
@@ -43812,7 +43812,7 @@
       "reading": [
         {
           "url": "/blogs/rudens-latvija-gadalaiki-un-izbraucieni/",
-          "title": "Rudens Latvijā: gadalaiku robežas un pārdomāts izbrauciens",
+          "title": "Rudens sākums Latvijā un izbraucienu plānošana",
           "kind": "guide"
         }
       ],
@@ -43834,7 +43834,7 @@
         },
         {
           "url": "/svetki-un-tradicijas/miruso-pieminas-diena/",
-          "title": "Mirušo piemiņas dienas: katoļu un luterāņu kalendārs"
+          "title": "Mirušo piemiņas dienas katoļu un luterāņu tradīcijā"
         }
       ],
       "heading": "Datumi un saistītie plāni",
@@ -44325,7 +44325,7 @@
         },
         {
           "url": "/svetki-un-tradicijas/pavasara-ekvinokcija/",
-          "title": "Pavasara ekvinokcija: astronomiskais brīdis Latvijā"
+          "title": "Pavasara ekvinokcija Latvijā"
         }
       ],
       "heading": "Datumi un saistītie plāni",
@@ -44458,7 +44458,7 @@
         },
         {
           "url": "/svetki-un-tradicijas/pupolu-svetdiena/",
-          "title": "Pūpolu svētdiena: datums un Lielās nedēļas sākums"
+          "title": "Pūpolu svētdiena un Lielās nedēļas sākums"
         }
       ],
       "heading": "Datumi un saistītie plāni",
@@ -44545,7 +44545,7 @@
         },
         {
           "url": "/svetki-un-tradicijas/rudens-ekvinokcija/",
-          "title": "Rudens ekvinokcija: astronomiskais brīdis Latvijā"
+          "title": "Rudens ekvinokcija Latvijā"
         }
       ],
       "heading": "Datumi un saistītie plāni",
@@ -45031,7 +45031,7 @@
         },
         {
           "url": "/svetki-un-tradicijas/totalitaro-rezimu-upuru-pieminas-diena/",
-          "title": "Staļinisma un nacisma upuru atceres diena"
+          "title": "Totalitāro režīmu upuru piemiņa Eiropā 23. augustā"
         }
       ],
       "heading": "Datumi un saistītie plāni",
@@ -45113,7 +45113,7 @@
         },
         {
           "url": "/svetki-un-tradicijas/valentina-diena/",
-          "title": "Valentīndiena: datums un Mīlestības diena Latvijā"
+          "title": "Valentīndiena Latvijā 14. februārī"
         }
       ],
       "heading": "Datumi un saistītie plāni",
@@ -45619,7 +45619,7 @@
         },
         {
           "url": "/svetki-un-tradicijas/zvaigznes-diena/",
-          "title": "Zvaigznes diena: 6. janvāris un tradīcija"
+          "title": "Zvaigznes diena 6. janvārī"
         }
       ],
       "heading": "Datumi un saistītie plāni",
@@ -45738,12 +45738,12 @@
       "reading": [
         {
           "url": "/blogs/latvijas-svetku-dienas-2027-planosana/",
-          "title": "Latvijas svētku dienas 2027. gadā: kā plānot gadu",
+          "title": "Kā plānot 2027. gada svētku brīvdienas Latvijā",
           "kind": "guide"
         },
         {
           "url": "/blogs/atvalinajums-2027-garas-brivdienas/",
-          "title": "Atvaļinājums 2027. gadā: kā salīdzināt garās brīvdienas",
+          "title": "Kā izmantot garās brīvdienas atvaļinājumam 2027. gadā",
           "kind": "guide"
         }
       ],
@@ -46293,7 +46293,7 @@
       "reading": [
         {
           "url": "/blogs/lieldienas-2027-datumi-un-plani/",
-          "title": "Lieldienas 2027. gadā: datumi, brīvdienas un ģimenes plāns",
+          "title": "Kad ir Lieldienas 2027. gadā un kā plānot brīvdienas",
           "kind": "guide"
         }
       ],
@@ -48921,7 +48921,7 @@
       "reading": [
         {
           "url": "/blogs/skolas-brivlaiki-2027-gimenes-plans/",
-          "title": "Skolas brīvlaiki 2027. gadā: ko pārbaudīt ģimenes kalendārā",
+          "title": "Kā ģimenei plānot skolas brīvlaikus 2027. gadā",
           "kind": "guide"
         }
       ],
@@ -48964,7 +48964,7 @@
       "reading": [
         {
           "url": "/blogs/varda-dienas-tradicionalais-paplasinatais-saraksts/",
-          "title": "Vārda dienas: kā atšķirt tradicionālo un paplašināto sarakstu",
+          "title": "Ar ko atšķiras tradicionālais un paplašinātais vārdadienu saraksts",
           "kind": "guide"
         }
       ],
@@ -49050,7 +49050,7 @@
         },
         {
           "url": "/varda-dienas/aprilis/",
-          "title": "Vārda dienas aprīlī: vārdu kalendārs"
+          "title": "Vārda dienas aprīlī"
         }
       ],
       "heading": "Saistītie kalendāri un skaidrojumi",
@@ -49089,12 +49089,12 @@
       "pagination": [
         {
           "url": "/varda-dienas/marts/",
-          "title": "Vārda dienas martā: vārdu kalendārs",
+          "title": "Vārda dienas martā",
           "kind": "previous"
         },
         {
           "url": "/varda-dienas/maijs/",
-          "title": "Vārda dienas maijā: vārdu kalendārs",
+          "title": "Vārda dienas maijā",
           "kind": "next"
         }
       ],
@@ -49117,7 +49117,7 @@
         },
         {
           "url": "/varda-dienas/augusts/",
-          "title": "Vārda dienas augustā: vārdu kalendārs"
+          "title": "Vārda dienas augustā"
         }
       ],
       "heading": "Saistītie kalendāri un skaidrojumi",
@@ -49156,12 +49156,12 @@
       "pagination": [
         {
           "url": "/varda-dienas/julijs/",
-          "title": "Vārda dienas jūlijā: vārdu kalendārs",
+          "title": "Vārda dienas jūlijā",
           "kind": "previous"
         },
         {
           "url": "/varda-dienas/septembris/",
-          "title": "Vārda dienas septembrī: vārdu kalendārs",
+          "title": "Vārda dienas septembrī",
           "kind": "next"
         }
       ],
@@ -49184,7 +49184,7 @@
         },
         {
           "url": "/varda-dienas/decembris/",
-          "title": "Vārda dienas decembrī: vārdu kalendārs"
+          "title": "Vārda dienas decembrī"
         }
       ],
       "heading": "Saistītie kalendāri un skaidrojumi",
@@ -49223,7 +49223,7 @@
       "pagination": [
         {
           "url": "/varda-dienas/novembris/",
-          "title": "Vārda dienas novembrī: vārdu kalendārs",
+          "title": "Vārda dienas novembrī",
           "kind": "previous"
         }
       ],
@@ -49246,7 +49246,7 @@
         },
         {
           "url": "/varda-dienas/februaris/",
-          "title": "Vārda dienas februārī: vārdu kalendārs"
+          "title": "Vārda dienas februārī"
         }
       ],
       "heading": "Saistītie kalendāri un skaidrojumi",
@@ -49285,12 +49285,12 @@
       "pagination": [
         {
           "url": "/varda-dienas/janvaris/",
-          "title": "Vārda dienas janvārī: vārdu kalendārs",
+          "title": "Vārda dienas janvārī",
           "kind": "previous"
         },
         {
           "url": "/varda-dienas/marts/",
-          "title": "Vārda dienas martā: vārdu kalendārs",
+          "title": "Vārda dienas martā",
           "kind": "next"
         }
       ],
@@ -49313,7 +49313,7 @@
         },
         {
           "url": "/varda-dienas/janvaris/",
-          "title": "Vārda dienas janvārī: vārdu kalendārs"
+          "title": "Vārda dienas janvārī"
         }
       ],
       "heading": "Saistītie kalendāri un skaidrojumi",
@@ -49352,7 +49352,7 @@
       "pagination": [
         {
           "url": "/varda-dienas/februaris/",
-          "title": "Vārda dienas februārī: vārdu kalendārs",
+          "title": "Vārda dienas februārī",
           "kind": "next"
         }
       ],
@@ -49375,7 +49375,7 @@
         },
         {
           "url": "/varda-dienas/julijs/",
-          "title": "Vārda dienas jūlijā: vārdu kalendārs"
+          "title": "Vārda dienas jūlijā"
         }
       ],
       "heading": "Saistītie kalendāri un skaidrojumi",
@@ -49414,12 +49414,12 @@
       "pagination": [
         {
           "url": "/varda-dienas/junijs/",
-          "title": "Vārda dienas jūnijā: vārdu kalendārs",
+          "title": "Vārda dienas jūnijā",
           "kind": "previous"
         },
         {
           "url": "/varda-dienas/augusts/",
-          "title": "Vārda dienas augustā: vārdu kalendārs",
+          "title": "Vārda dienas augustā",
           "kind": "next"
         }
       ],
@@ -49442,7 +49442,7 @@
         },
         {
           "url": "/varda-dienas/junijs/",
-          "title": "Vārda dienas jūnijā: vārdu kalendārs"
+          "title": "Vārda dienas jūnijā"
         }
       ],
       "heading": "Saistītie kalendāri un skaidrojumi",
@@ -49481,12 +49481,12 @@
       "pagination": [
         {
           "url": "/varda-dienas/maijs/",
-          "title": "Vārda dienas maijā: vārdu kalendārs",
+          "title": "Vārda dienas maijā",
           "kind": "previous"
         },
         {
           "url": "/varda-dienas/julijs/",
-          "title": "Vārda dienas jūlijā: vārdu kalendārs",
+          "title": "Vārda dienas jūlijā",
           "kind": "next"
         }
       ],
@@ -49509,7 +49509,7 @@
         },
         {
           "url": "/varda-dienas/maijs/",
-          "title": "Vārda dienas maijā: vārdu kalendārs"
+          "title": "Vārda dienas maijā"
         }
       ],
       "heading": "Saistītie kalendāri un skaidrojumi",
@@ -49548,12 +49548,12 @@
       "pagination": [
         {
           "url": "/varda-dienas/aprilis/",
-          "title": "Vārda dienas aprīlī: vārdu kalendārs",
+          "title": "Vārda dienas aprīlī",
           "kind": "previous"
         },
         {
           "url": "/varda-dienas/junijs/",
-          "title": "Vārda dienas jūnijā: vārdu kalendārs",
+          "title": "Vārda dienas jūnijā",
           "kind": "next"
         }
       ],
@@ -49576,7 +49576,7 @@
         },
         {
           "url": "/varda-dienas/marts/",
-          "title": "Vārda dienas martā: vārdu kalendārs"
+          "title": "Vārda dienas martā"
         }
       ],
       "heading": "Saistītie kalendāri un skaidrojumi",
@@ -49615,12 +49615,12 @@
       "pagination": [
         {
           "url": "/varda-dienas/februaris/",
-          "title": "Vārda dienas februārī: vārdu kalendārs",
+          "title": "Vārda dienas februārī",
           "kind": "previous"
         },
         {
           "url": "/varda-dienas/aprilis/",
-          "title": "Vārda dienas aprīlī: vārdu kalendārs",
+          "title": "Vārda dienas aprīlī",
           "kind": "next"
         }
       ],
@@ -49643,7 +49643,7 @@
         },
         {
           "url": "/varda-dienas/novembris/",
-          "title": "Vārda dienas novembrī: vārdu kalendārs"
+          "title": "Vārda dienas novembrī"
         }
       ],
       "heading": "Saistītie kalendāri un skaidrojumi",
@@ -49682,12 +49682,12 @@
       "pagination": [
         {
           "url": "/varda-dienas/oktobris/",
-          "title": "Vārda dienas oktobrī: vārdu kalendārs",
+          "title": "Vārda dienas oktobrī",
           "kind": "previous"
         },
         {
           "url": "/varda-dienas/decembris/",
-          "title": "Vārda dienas decembrī: vārdu kalendārs",
+          "title": "Vārda dienas decembrī",
           "kind": "next"
         }
       ],
@@ -49710,7 +49710,7 @@
         },
         {
           "url": "/varda-dienas/oktobris/",
-          "title": "Vārda dienas oktobrī: vārdu kalendārs"
+          "title": "Vārda dienas oktobrī"
         }
       ],
       "heading": "Saistītie kalendāri un skaidrojumi",
@@ -49749,12 +49749,12 @@
       "pagination": [
         {
           "url": "/varda-dienas/septembris/",
-          "title": "Vārda dienas septembrī: vārdu kalendārs",
+          "title": "Vārda dienas septembrī",
           "kind": "previous"
         },
         {
           "url": "/varda-dienas/novembris/",
-          "title": "Vārda dienas novembrī: vārdu kalendārs",
+          "title": "Vārda dienas novembrī",
           "kind": "next"
         }
       ],
@@ -49777,7 +49777,7 @@
         },
         {
           "url": "/varda-dienas/septembris/",
-          "title": "Vārda dienas septembrī: vārdu kalendārs"
+          "title": "Vārda dienas septembrī"
         }
       ],
       "heading": "Saistītie kalendāri un skaidrojumi",
@@ -49816,12 +49816,12 @@
       "pagination": [
         {
           "url": "/varda-dienas/augusts/",
-          "title": "Vārda dienas augustā: vārdu kalendārs",
+          "title": "Vārda dienas augustā",
           "kind": "previous"
         },
         {
           "url": "/varda-dienas/oktobris/",
-          "title": "Vārda dienas oktobrī: vārdu kalendārs",
+          "title": "Vārda dienas oktobrī",
           "kind": "next"
         }
       ],
@@ -50042,7 +50042,7 @@
       "reading": [
         {
           "url": "/blogs/personigs-kalendars-fotografijas-druka/",
-          "title": "Personīgs kalendārs ar fotogrāfijām: no ieceres līdz izdrukai",
+          "title": "Kā sagatavot drukai kalendāru ar savām fotogrāfijām",
           "kind": "guide"
         }
       ],
@@ -50106,7 +50106,7 @@
         },
         {
           "url": "/blogs/latvijas-svetku-dienas-2027-planosana/",
-          "title": "Latvijas svētku dienas 2027. gadā: kā plānot gadu"
+          "title": "Kā plānot 2027. gada svētku brīvdienas Latvijā"
         }
       ],
       "heading": "Rakstā minētie rīki",
@@ -50151,7 +50151,7 @@
         },
         {
           "url": "/blogs/iso-nedelu-numuri-kalendara/",
-          "title": "ISO nedēļu numuri: kā nepazaudēt datumu gadu mijā"
+          "title": "Kā noteikt ISO nedēļas numuru gadu mijā"
         }
       ],
       "heading": "Rakstā minētie rīki",
@@ -50191,7 +50191,7 @@
         },
         {
           "url": "/blogs/garais-gads-2028-februaris/",
-          "title": "2028. gada 29. februāris: ko maina garais gads"
+          "title": "Ko 2028. gada 29. februāris maina kalendārā"
         }
       ],
       "heading": "Rakstā minētie rīki",
@@ -50236,7 +50236,7 @@
         },
         {
           "url": "/blogs/ligo-un-jani-planosana-latvija/",
-          "title": "Līgo un Jāņi: svētku datumi un pārdomāts vasaras plāns"
+          "title": "Līgo vakara un Jāņu dienas plānošana"
         }
       ],
       "heading": "Rakstā minētie rīki",
@@ -50281,7 +50281,7 @@
         },
         {
           "url": "/blogs/lieldienas-2027-datumi-un-plani/",
-          "title": "Lieldienas 2027. gadā: datumi, brīvdienas un ģimenes plāns"
+          "title": "Kad ir Lieldienas 2027. gadā un kā plānot brīvdienas"
         }
       ],
       "heading": "Rakstā minētie rīki",
@@ -50321,7 +50321,7 @@
         },
         {
           "url": "/blogs/varda-dienas-tradicionalais-paplasinatais-saraksts/",
-          "title": "Vārda dienas: kā atšķirt tradicionālo un paplašināto sarakstu"
+          "title": "Ar ko atšķiras tradicionālais un paplašinātais vārdadienu saraksts"
         }
       ],
       "heading": "Rakstā minētie rīki",
@@ -50361,7 +50361,7 @@
         },
         {
           "url": "/blogs/skolas-brivlaiki-2027-gimenes-plans/",
-          "title": "Skolas brīvlaiki 2027. gadā: ko pārbaudīt ģimenes kalendārā"
+          "title": "Kā ģimenei plānot skolas brīvlaikus 2027. gadā"
         }
       ],
       "heading": "Rakstā minētie rīki",
@@ -50406,7 +50406,7 @@
         },
         {
           "url": "/blogs/studiju-kalendars-sesija-un-brivlaiks/",
-          "title": "Studiju kalendārs: lekcijas, sesija un īsts brīvlaiks"
+          "title": "Kā augstskolas kalendārā atrast sesiju un brīvlaiku"
         }
       ],
       "heading": "Rakstā minētie rīki",
@@ -50446,7 +50446,7 @@
         },
         {
           "url": "/blogs/gimenes-kalendars-nedelas-planosana/",
-          "title": "Ģimenes nedēļas kalendārs: mazāk pārpratumu, skaidrāki plāni"
+          "title": "Kā izveidot ģimenes nedēļas kalendāru"
         }
       ],
       "heading": "Rakstā minētie rīki",
@@ -50491,7 +50491,7 @@
         },
         {
           "url": "/blogs/darba-dienas-un-stundas-ka-skaitit/",
-          "title": "Darba dienas un stundas: kā saprast kalendāra aprēķinu"
+          "title": "Kā aprēķināt darba dienas un stundas Latvijā"
         }
       ],
       "heading": "Rakstā minētie rīki",
@@ -50536,7 +50536,7 @@
         },
         {
           "url": "/blogs/atvalinajums-2027-garas-brivdienas/",
-          "title": "Atvaļinājums 2027. gadā: kā salīdzināt garās brīvdienas"
+          "title": "Kā izmantot garās brīvdienas atvaļinājumam 2027. gadā"
         }
       ],
       "heading": "Rakstā minētie rīki",
@@ -50581,7 +50581,7 @@
         },
         {
           "url": "/blogs/personigs-kalendars-fotografijas-druka/",
-          "title": "Personīgs kalendārs ar fotogrāfijām: no ieceres līdz izdrukai"
+          "title": "Kā sagatavot drukai kalendāru ar savām fotogrāfijām"
         }
       ],
       "heading": "Rakstā minētie rīki",
@@ -50621,7 +50621,7 @@
         },
         {
           "url": "/blogs/saullekts-saulriets-latvijas-pilsetas/",
-          "title": "Kāpēc saullēkts Rīgā un Liepājā nav vienā laikā"
+          "title": "Kāpēc saullēkta un saulrieta laiki Latvijas pilsētās atšķiras"
         }
       ],
       "heading": "Rakstā minētie rīki",
@@ -50661,7 +50661,7 @@
         },
         {
           "url": "/blogs/meness-fazes-un-vietejais-laiks/",
-          "title": "Mēness fāzes Latvijas laikā: brīdis, attēls un redzamība"
+          "title": "Kā lasīt Mēness fāžu kalendāru Latvijas laikā"
         }
       ],
       "heading": "Rakstā minētie rīki",
@@ -50706,7 +50706,7 @@
         },
         {
           "url": "/blogs/zelta-stunda-latvija-fotoplanosana/",
-          "title": "Zeltainā stunda Latvijā: kā ieplānot fotografēšanas vakaru"
+          "title": "Kā ieplānot zeltaino stundu fotografēšanai Latvijā"
         }
       ],
       "heading": "Rakstā minētie rīki",
@@ -50746,7 +50746,7 @@
         },
         {
           "url": "/blogs/perseidas-latvija-noverojumu-plans/",
-          "title": "Perseīdas Latvijā: kā izvēlēties novērojumu nakti"
+          "title": "Kā izvēlēties nakti Perseīdu vērošanai Latvijā"
         }
       ],
       "heading": "Rakstā minētie rīki",
@@ -50791,7 +50791,7 @@
         },
         {
           "url": "/blogs/pavasara-seja-latvija-darza-plans/",
-          "title": "Pavasara sēja Latvijā: plāns pēc augsnes, ne tikai datuma"
+          "title": "Kā plānot pavasara sēju Latvijas dārzā"
         }
       ],
       "heading": "Rakstā minētie rīki",
@@ -50831,14 +50831,14 @@
         },
         {
           "url": "/blogs/tomatu-seja-un-izstadisana-latvija/",
-          "title": "Tomātu sēja un izstādīšana Latvijā: kā veidot savu grafiku"
+          "title": "Kad sēt tomātus un izstādīt dēstus Latvijā"
         }
       ],
       "heading": "Rakstā minētie rīki",
       "related": [
         {
           "url": "/sejas-kalendars/tomati/",
-          "title": "Tomātu audzēšana: sēja, kopšana un raža",
+          "title": "Tomātu audzēšana Latvijā",
           "kind": "related"
         },
         {
@@ -50871,7 +50871,7 @@
         },
         {
           "url": "/blogs/rudens-latvija-gadalaiki-un-izbraucieni/",
-          "title": "Rudens Latvijā: gadalaiku robežas un pārdomāts izbrauciens"
+          "title": "Rudens sākums Latvijā un izbraucienu plānošana"
         }
       ],
       "heading": "Rakstā minētie rīki",
@@ -50883,7 +50883,7 @@
         },
         {
           "url": "/svetki-un-tradicijas/mikeli/",
-          "title": "Miķeļi: 29. septembris un ražas laika tradīcijas",
+          "title": "Miķeļi un ražas svētku tradīcijas Latvijā",
           "kind": "related"
         },
         {
@@ -50916,7 +50916,7 @@
         },
         {
           "url": "/blogs/ziemas-dienas-garums-latvija/",
-          "title": "Īsās ziemas dienas Latvijā: kā ieplānot gaišo laiku"
+          "title": "Kā ieplānot ziemas gaišās stundas Latvijā"
         }
       ],
       "heading": "Rakstā minētie rīki",

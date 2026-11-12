@@ -2,17 +2,17 @@
 layout: blog-post
 family: blog_article
 permalink: "/blogs/iso-nedelu-numuri-kalendara/"
-title: 'ISO nedēļu numuri: kā nepazaudēt datumu gadu mijā'
-description: Nedēļu numerācijas skaidrojums ar 2027.–2030. gada robežu piemēriem un
-  praktisku lietojumu darbā un mācībās.
+title: Kā noteikt ISO nedēļas numuru gadu mijā
+description: Piemēri no 2027. līdz 2030. gadam rāda, kāpēc janvāra sākums dažreiz
+  pieder iepriekšējā gada ISO nedēļai un kā pierakstīt darba nedēļas datumu.
 author: Silvis Balodis
 date: '2026-11-11'
 reading_notes: false
 blog_slug: iso-nedelu-numuri-kalendara
-og_image: "/assets/social-cards/v2/6dd118fabc642fc2-449fc0340f70.jpg"
+og_image: "/assets/social-cards/v2/6dd118fabc642fc2-cbf9740073bc.jpg"
 og_image_width: 1200
 og_image_height: 630
-og_image_alt: 'ISO nedēļu numuri: kā nepazaudēt datumu gadu mijā | Kalendārs365 Latvijai'
+og_image_alt: Kā noteikt ISO nedēļas numuru gadu mijā | Kalendārs365 Latvijai
 ---
 Nedēļas numurs ir īss veids, kā vienoties par termiņu, piegādi vai nodarbību plānu. Tomēr pieraksts “pirmā nedēļa” var kļūt neskaidrs tieši tad, kad tas šķiet visvienkāršākais: gadu mijā. Janvāra sākuma diena reizēm pieder iepriekšējā gada pēdējai [ISO nedēļai](https://www.iso.org/iso-8601-date-and-time-format.html), bet decembra beigas jau nākamā gada pirmajai nedēļai.
 

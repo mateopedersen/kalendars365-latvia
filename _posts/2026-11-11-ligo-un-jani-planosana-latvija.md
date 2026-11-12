@@ -2,18 +2,17 @@
 layout: blog-post
 family: blog_article
 permalink: "/blogs/ligo-un-jani-planosana-latvija/"
-title: 'Līgo un Jāņi: svētku datumi un pārdomāts vasaras plāns'
-description: 23. un 24. jūnija nozīme Latvijas kalendārā, atšķirība no astronomiskajiem
-  saulgriežiem un gatavošanās svētkiem.
+title: Līgo vakara un Jāņu dienas plānošana
+description: Ko Latvijas kalendārā nozīmē 23. un 24. jūnijs? Uzzini, kā Līgo un Jāņu
+  datumi atšķiras no astronomiskajiem saulgriežiem, un ieplāno svētku vakaru.
 author: Silvis Balodis
 date: '2026-11-11'
 reading_notes: false
 blog_slug: ligo-un-jani-planosana-latvija
-og_image: "/assets/social-cards/v2/81379d999dd6c8bd-e582000c7de5.jpg"
+og_image: "/assets/social-cards/v2/81379d999dd6c8bd-8dca72adf2ac.jpg"
 og_image_width: 1200
 og_image_height: 630
-og_image_alt: 'Līgo un Jāņi: svētku datumi un pārdomāts vasaras plāns | Kalendārs365
-  Latvijai'
+og_image_alt: Līgo vakara un Jāņu dienas plānošana | Kalendārs365 Latvijai
 ---
 [Līgo vakars](/svetki-un-tradicijas/ligo-diena/) un [Jāņu diena](/svetki-un-tradicijas/janu-diena/) Latvijas kalendārā ir divi blakus esoši, taču atšķirīgi datumi: 23. un 24. jūnijs. Ap tiem veidojas braucieni uz laukiem, satikšanās ar draugiem, ēdienu gatavošana un vasaras vakara ieceres. Labs plāns palīdz vairāk laika atstāt kopā būšanai, nevis pēdējā brīža sarakstiem.
 

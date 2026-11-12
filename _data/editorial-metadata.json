@@ -7,9 +7,9 @@
     {
       "url": "/",
       "family": "hub",
-      "title": "Latvijas kalendārs, svētki un plānotājs",
+      "title": "Latvijas kalendārs, svētki un vārda dienas",
       "h1": "Latvijas kalendārs taviem plāniem.",
-      "description": "Latvijas kalendāri, svētku un vārda dienas, personīgie notikumi un rīki ikdienai. Izvēlies pilsētu, plāno dienu un veido kalendāru drukāšanai.",
+      "description": "Apskati Latvijas kalendāru, šodienas vārda dienas un tuvākos svētkus. Atver vajadzīgo mēnesi, pievieno savus notikumus vai lejupielādē kalendāru drukai.",
       "indexable": true,
       "status": "ready",
       "note": null
@@ -17,7 +17,7 @@
     {
       "url": "/kalendars/",
       "family": "hub",
-      "title": "Latvijas kalendāri 2027–2030",
+      "title": "Latvijas kalendāri no 2027. līdz 2030. gadam",
       "h1": "Kalendāri Latvijai",
       "description": "Atver 2027.–2030. gada kalendārus ar Latvijas svētku dienām un ISO nedēļu numuriem. Izvēlies gada, mēneša vai nedēļas pārskatu.",
       "indexable": true,
@@ -57,7 +57,7 @@
     {
       "url": "/pdf-kalendari/",
       "family": "hub",
-      "title": "Kalendāri drukāšanai: PDF un attēli",
+      "title": "PDF kalendāri un attēli drukāšanai",
       "h1": "PDF kalendāri",
       "description": "Atrodi 2027.–2030. gada un mēneša kalendārus PDF un attēla formātā. Atlasi dizainu, lapas virzienu un svētku atzīmes. A3 drukai, 600 dpi.",
       "indexable": true,
@@ -109,7 +109,7 @@
       "family": "hub",
       "title": "Vārda dienas Latvijā un vārdu kalendārs",
       "h1": "Vārda dienas",
-      "description": "Meklē vārda dienu pēc vārda vai mēneša. Iepazīsties ar norādīto Valsts valodas centra saraksta versiju un informācijas pārbaudes statusu.",
+      "description": "Atrodi vārda dienas datumu pēc vārda vai apskati, kam šodien ir vārda diena. Meklē tradicionālajā un paplašinātajā Valsts valodas centra kalendārvārdu sarakstā.",
       "indexable": true,
       "status": "ready",
       "note": null
@@ -167,7 +167,7 @@
     {
       "url": "/garas-brivdienas/",
       "family": "hub",
-      "title": "Garās brīvdienas Latvijā 2027–2030",
+      "title": "Garās brīvdienas Latvijā no 2027. līdz 2030. gadam",
       "h1": "Garās brīvdienas",
       "description": "Atrodi garās brīvdienas un atvaļinājuma iespējas 2027.–2030. gadā. Salīdzini svētku dienu un nedēļas nogaļu kombinācijas Latvijā.",
       "indexable": true,
@@ -177,7 +177,7 @@
     {
       "url": "/datumu-kalkulators/",
       "family": "hub",
-      "title": "Datumu kalkulators: dienas starp datumiem",
+      "title": "Datumu kalkulators dienu skaita aprēķināšanai",
       "h1": "Datumu kalkulators",
       "description": "Aprēķini dienu vai darba dienu skaitu starp datumiem. Pieskaiti vai atņem dienas un pārbaudi, vai aprēķinā iekļauts sākuma un beigu datums.",
       "indexable": true,
@@ -299,7 +299,7 @@
       "family": "hub",
       "title": "Saullēkts un saulriets Latvijas pilsētās",
       "h1": "Saullēkts un saulriets",
-      "description": "Izvēlies Latvijas pilsētu un datumu un aprēķini aptuvenu saullēkta, saulrieta un dienas garumu. Laiki parādīti Europe/Riga laika joslā.",
+      "description": "Izvēlies Latvijas pilsētu un datumu, lai uzzinātu saullēkta, saulrieta un krēslas laiku. Apskati Saules ceļu pāri horizontam un salīdzini dienas garumu pa mēnešiem.",
       "indexable": true,
       "status": "ready",
       "note": null
@@ -307,9 +307,9 @@
     {
       "url": "/gadalaiki/",
       "family": "hub",
-      "title": "Gadalaiki: ekvinokcijas un saulgrieži",
+      "title": "Gadalaiki, ekvinokcijas un saulgrieži Latvijā",
       "h1": "Gadalaiki",
-      "description": "Salīdzini meteoroloģisko un astronomisko gadalaiku sākumu. Pārskati ekvinokciju un saulgriežu precīzos brīžus Latvijas laikā.",
+      "description": "Kad Latvijā sākas pavasaris, vasara, rudens un ziema? Apskati ekvinokciju un saulgriežu brīžus Latvijas laikā un salīdzini ar kalendāro sezonu sākumu.",
       "indexable": true,
       "status": "ready",
       "note": null
@@ -327,7 +327,7 @@
     {
       "url": "/izveidot-kalendaru/",
       "family": "hub",
-      "title": "Kalendāra veidotājs: PDF, Word un Excel",
+      "title": "Kalendāra veidotājs ar fotogrāfijām un notikumiem",
       "h1": "Izveido savu kalendāru",
       "description": "Izveido personīgu kalendāru ar savām fotogrāfijām un notikumiem. Lejupielādē PDF, Word, Excel, JPG vai PNG, attēliem izvēlies līdz 600 dpi.",
       "indexable": true,
@@ -399,7 +399,7 @@
       "family": "hub",
       "title": "Kontakti un ierosinājumi",
       "h1": "Sazinies ar Kalendāru365",
-      "description": "Nosūti jautājumu, ierosinājumu vai paziņojumu par kļūdu Kalendāra365 uzturētājam. Apraksti problēmu un pievieno konkrētās lapas adresi.",
+      "description": "Nosūti jautājumu, ierosinājumu vai paziņojumu par kļūdu vietnes Kalendārs365 uzturētājam. Apraksti problēmu un pievieno konkrētās lapas adresi.",
       "indexable": true,
       "status": "ready",
       "note": null
@@ -419,7 +419,7 @@
       "family": "hub",
       "title": "Sīkdatnes un vietējā krātuve",
       "h1": "Sīkdatnes un vietējā krātuve",
-      "description": "Skaidrojums par Kalendāra365 pārlūkā saglabātajām izvēlēm un personīgajiem plāniem. Pārvaldi izvēles un uzzini, kā izveidot datu dublējumu.",
+      "description": "Skaidrojums par vietnes Kalendārs365 pārlūkā saglabātajām izvēlēm un personīgajiem plāniem. Pārvaldi izvēles un uzzini, kā izveidot datu dublējumu.",
       "indexable": true,
       "status": "ready",
       "note": null
@@ -429,7 +429,7 @@
       "family": "hub",
       "title": "Lietošanas noteikumi",
       "h1": "Lietošanas noteikumi",
-      "description": "Iepazīsties ar Kalendāra365 lietošanas noteikumiem, aprēķinu ierobežojumiem, personīgo datu glabāšanu un attēlu licencēm.",
+      "description": "Iepazīsties ar vietnes Kalendārs365 lietošanas noteikumiem, aprēķinu ierobežojumiem, personīgo datu glabāšanu un attēlu licencēm.",
       "indexable": true,
       "status": "ready",
       "note": null
@@ -439,7 +439,7 @@
       "family": "hub",
       "title": "Kalendāra datu avoti un metodika",
       "h1": "Avoti un metodika",
-      "description": "Kalendāra365 oficiālie datu avoti un aprēķinu skaidrojumi: Latvijas svētki, vārda dienas, Mēness fāzes, Saules laiki un drukājamie faili.",
+      "description": "Uzzini, no kurienes iegūti svētku un vārda dienu datumi un kā aprēķināti Saules un Mēness laiki. Katram datu veidam norādīts avots un tā izmantojums.",
       "indexable": true,
       "status": "ready",
       "note": null
@@ -459,7 +459,7 @@
       "family": "hub",
       "title": "Piekļūstamība un lietošana ar tastatūru",
       "h1": "Piekļūstamība",
-      "description": "Uzzini par Kalendāra365 lietošanu ar tastatūru, datumu un vadīklu nosaukumiem un iespējām ziņot par piekļūstamības problēmu.",
+      "description": "Uzzini par vietnes Kalendārs365 lietošanu ar tastatūru, datumu un vadīklu nosaukumiem un iespējām ziņot par piekļūstamības problēmu.",
       "indexable": true,
       "status": "ready",
       "note": null
@@ -5387,7 +5387,7 @@
     {
       "url": "/varda-dienas/janvaris/",
       "family": "name_day_month",
-      "title": "Vārda dienas janvārī — vārdu kalendārs",
+      "title": "Vārda dienas janvārī",
       "h1": "Vārda dienas janvārī",
       "description": "Vārda dienas janvārī: meklē vārdu un tā datumu. Pie saraksta norādīta Valsts valodas centra avota versija un pārbaudes statuss.",
       "indexable": false,
@@ -5397,7 +5397,7 @@
     {
       "url": "/varda-dienas/februaris/",
       "family": "name_day_month",
-      "title": "Vārda dienas februārī — vārdu kalendārs",
+      "title": "Vārda dienas februārī",
       "h1": "Vārda dienas februārī",
       "description": "Vārda dienas februārī: meklē vārdu un tā datumu. Pie saraksta norādīta Valsts valodas centra avota versija un pārbaudes statuss.",
       "indexable": false,
@@ -5407,7 +5407,7 @@
     {
       "url": "/varda-dienas/marts/",
       "family": "name_day_month",
-      "title": "Vārda dienas martā — vārdu kalendārs",
+      "title": "Vārda dienas martā",
       "h1": "Vārda dienas martā",
       "description": "Vārda dienas martā: meklē vārdu un tā datumu. Pie saraksta norādīta Valsts valodas centra avota versija un pārbaudes statuss.",
       "indexable": false,
@@ -5417,7 +5417,7 @@
     {
       "url": "/varda-dienas/aprilis/",
       "family": "name_day_month",
-      "title": "Vārda dienas aprīlī — vārdu kalendārs",
+      "title": "Vārda dienas aprīlī",
       "h1": "Vārda dienas aprīlī",
       "description": "Vārda dienas aprīlī: meklē vārdu un tā datumu. Pie saraksta norādīta Valsts valodas centra avota versija un pārbaudes statuss.",
       "indexable": false,
@@ -5427,7 +5427,7 @@
     {
       "url": "/varda-dienas/maijs/",
       "family": "name_day_month",
-      "title": "Vārda dienas maijā — vārdu kalendārs",
+      "title": "Vārda dienas maijā",
       "h1": "Vārda dienas maijā",
       "description": "Vārda dienas maijā: meklē vārdu un tā datumu. Pie saraksta norādīta Valsts valodas centra avota versija un pārbaudes statuss.",
       "indexable": false,
@@ -5437,7 +5437,7 @@
     {
       "url": "/varda-dienas/junijs/",
       "family": "name_day_month",
-      "title": "Vārda dienas jūnijā — vārdu kalendārs",
+      "title": "Vārda dienas jūnijā",
       "h1": "Vārda dienas jūnijā",
       "description": "Vārda dienas jūnijā: meklē vārdu un tā datumu. Pie saraksta norādīta Valsts valodas centra avota versija un pārbaudes statuss.",
       "indexable": false,
@@ -5447,7 +5447,7 @@
     {
       "url": "/varda-dienas/julijs/",
       "family": "name_day_month",
-      "title": "Vārda dienas jūlijā — vārdu kalendārs",
+      "title": "Vārda dienas jūlijā",
       "h1": "Vārda dienas jūlijā",
       "description": "Vārda dienas jūlijā: meklē vārdu un tā datumu. Pie saraksta norādīta Valsts valodas centra avota versija un pārbaudes statuss.",
       "indexable": false,
@@ -5457,7 +5457,7 @@
     {
       "url": "/varda-dienas/augusts/",
       "family": "name_day_month",
-      "title": "Vārda dienas augustā — vārdu kalendārs",
+      "title": "Vārda dienas augustā",
       "h1": "Vārda dienas augustā",
       "description": "Vārda dienas augustā: meklē vārdu un tā datumu. Pie saraksta norādīta Valsts valodas centra avota versija un pārbaudes statuss.",
       "indexable": false,
@@ -5467,7 +5467,7 @@
     {
       "url": "/varda-dienas/septembris/",
       "family": "name_day_month",
-      "title": "Vārda dienas septembrī — vārdu kalendārs",
+      "title": "Vārda dienas septembrī",
       "h1": "Vārda dienas septembrī",
       "description": "Vārda dienas septembrī: meklē vārdu un tā datumu. Pie saraksta norādīta Valsts valodas centra avota versija un pārbaudes statuss.",
       "indexable": false,
@@ -5477,7 +5477,7 @@
     {
       "url": "/varda-dienas/oktobris/",
       "family": "name_day_month",
-      "title": "Vārda dienas oktobrī — vārdu kalendārs",
+      "title": "Vārda dienas oktobrī",
       "h1": "Vārda dienas oktobrī",
       "description": "Vārda dienas oktobrī: meklē vārdu un tā datumu. Pie saraksta norādīta Valsts valodas centra avota versija un pārbaudes statuss.",
       "indexable": false,
@@ -5487,7 +5487,7 @@
     {
       "url": "/varda-dienas/novembris/",
       "family": "name_day_month",
-      "title": "Vārda dienas novembrī — vārdu kalendārs",
+      "title": "Vārda dienas novembrī",
       "h1": "Vārda dienas novembrī",
       "description": "Vārda dienas novembrī: meklē vārdu un tā datumu. Pie saraksta norādīta Valsts valodas centra avota versija un pārbaudes statuss.",
       "indexable": false,
@@ -5497,7 +5497,7 @@
     {
       "url": "/varda-dienas/decembris/",
       "family": "name_day_month",
-      "title": "Vārda dienas decembrī — vārdu kalendārs",
+      "title": "Vārda dienas decembrī",
       "h1": "Vārda dienas decembrī",
       "description": "Vārda dienas decembrī: meklē vārdu un tā datumu. Pie saraksta norādīta Valsts valodas centra avota versija un pārbaudes statuss.",
       "indexable": false,
@@ -7513,7 +7513,7 @@
       "family": "sky_hub",
       "title": "Mēness lēkts un riets Latvijas pilsētās",
       "h1": "Mēness laiki tavā pilsētā.",
-      "description": "Izvēlies vienu no 82 Latvijas pilsētām un pārskati Mēness lēktu, rietu, fāzi un apgaismojumu. Laiki Europe/Riga joslā."
+      "description": "Kad tavā pilsētā lec un riet Mēness? Izvēlies datumu un vienu no 82 Latvijas pilsētām, lai apskatītu vietējos laikus, Mēness fāzi un diska apgaismojumu."
     },
     {
       "url": "/svetki-un-tradicijas/zolitudes-tragedijas-atceres-diena/",
@@ -7659,7 +7659,7 @@
       "url": "/biezak-uzdotie-jautajumi/",
       "title": "Biežāk uzdotie jautājumi",
       "h1": "Biežāk uzdotie jautājumi",
-      "description": "Atbildes par Kalendāra365 kalendāriem, drukāšanu, datu saglabāšanu, pilsētas izvēli un avotiem. Meklē jautājumu un atver vajadzīgo rīku."
+      "description": "Atbildes uz jautājumiem par kalendāra drukāšanu, pilsētas izvēli, datu avotiem un personīgo plānu saglabāšanu pārlūkā."
     }
   ]
 }

@@ -2,17 +2,17 @@
 layout: blog-post
 family: blog_article
 permalink: "/blogs/garais-gads-2028-februaris/"
-title: '2028. gada 29. februāris: ko maina garais gads'
-description: Papildu februāra diena, datumu starpības un atkārtojošos notikumu pārbaude
-  2028. gada plānā.
+title: Ko 2028. gada 29. februāris maina kalendārā
+description: Kāpēc 2028. gada februārī ir 29 dienas? Apskati, kā papildu diena ietekmē
+  datumu starpību un kā ieplānot notikumus, kas atkārtojas katru gadu.
 author: Silvis Balodis
 date: '2026-11-11'
 reading_notes: false
 blog_slug: garais-gads-2028-februaris
-og_image: "/assets/social-cards/v2/0f909dc52ff66173-ef5dd17ae2ce.jpg"
+og_image: "/assets/social-cards/v2/0f909dc52ff66173-163d9facfbe5.jpg"
 og_image_width: 1200
 og_image_height: 630
-og_image_alt: '2028. gada 29. februāris: ko maina garais gads | Kalendārs365 Latvijai'
+og_image_alt: Ko 2028. gada 29. februāris maina kalendārā | Kalendārs365 Latvijai
 ---
 [2028. gada februārī](/kalendars/2028/februaris/) ir 29 dienas. Papildu datums ir neliels, bet pamanāms atgādinājums, ka mūsu kalendārs ir vienošanās par laika uzskaiti, kas jāsaskaņo ar Zemes kustību ap Sauli. Ikdienā šo sarežģīto attiecību gandrīz nejūtam, līdz jāplāno februāra termiņš, dzimšanas diena vai gada salīdzinājums.
 

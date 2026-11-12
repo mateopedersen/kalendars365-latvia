@@ -2,17 +2,17 @@
 layout: blog-post
 family: blog_article
 permalink: "/blogs/perseidas-latvija-noverojumu-plans/"
-title: 'Perseīdas Latvijā: kā izvēlēties novērojumu nakti'
-description: Meteoru plūsmas sezona, Mēness gaisma, vietas izvēle un godīgs novērojuma
-  plāns bez garantēta meteoru skaita.
+title: Kā izvēlēties nakti Perseīdu vērošanai Latvijā
+description: Uzzini, kā Perseīdu vērošanu ietekmē tumšās stundas, Mēness gaisma un
+  apkārtnes apgaismojums, un izvēlies novērojumu vietu.
 author: Silvis Balodis
 date: '2026-11-11'
 reading_notes: false
 blog_slug: perseidas-latvija-noverojumu-plans
-og_image: "/assets/social-cards/v2/2c8dcd584b28c210-847e95454ff0.jpg"
+og_image: "/assets/social-cards/v2/2c8dcd584b28c210-126873214672.jpg"
 og_image_width: 1200
 og_image_height: 630
-og_image_alt: 'Perseīdas Latvijā: kā izvēlēties novērojumu nakti | Kalendārs365 Latvijai'
+og_image_alt: Kā izvēlēties nakti Perseīdu vērošanai Latvijā | Kalendārs365 Latvijai
 ---
 [Perseīdas](/perseidas/) ir viens no pazīstamākajiem ikgadējiem meteoru plūsmas nosaukumiem. Augustā tas rosina ieplānot vakaru zem zvaigznēm, taču ar datumu kalendārā vien nepietiek. Lai novērojums Latvijā būtu pārdomāts, jāņem vērā konkrētā gada plūsmas prognoze, [Mēness gaisma](/blogs/meness-fazes-un-vietejais-laiks/), laikapstākļi un izvēlētās vietas redzamība.
 

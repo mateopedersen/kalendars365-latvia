@@ -39,7 +39,7 @@ module BlogComponents
       post
     end
     File.write(File.join(root,'_data/blog.json'),JSON.pretty_generate({'posts'=>posts,'count'=>posts.length,'wordCount'=>posts.sum{|p|p['wordCount']},'publishedAt'=>posts.map{|p|p['date']}.max})+"\n")
-    index={url:'/blogs/',title:'Blogs: Latvijas kalendārs un ikdienas plāni',family:'blog_index',indexable:true,status:'ready',description:'Praktiski raksti par Latvijas svētkiem, skolas un studiju kalendāriem, laika plānošanu, debesīm un dārzu. Autors Silvis Balodis.',lastmod:posts.map{|p|p['date']}.max,contentSha256:Digest::SHA256.hexdigest(JSON.generate(posts.map{|p|[p['url'],p['contentSha256']]}))}
+    index={url:'/blogs/',title:'Raksti par Latvijas kalendāru un laika plānošanu',family:'blog_index',indexable:true,status:'ready',description:'Praktiski raksti par Latvijas svētkiem, skolas un studiju kalendāriem, laika plānošanu, debesīm un dārzu. Autors Silvis Balodis.',lastmod:posts.map{|p|p['date']}.max,contentSha256:Digest::SHA256.hexdigest(JSON.generate(posts.map{|p|[p['url'],p['contentSha256']]}))}
     [index]+posts.map{|p|{url:p['url'],title:p['title'],family:'blog_article',indexable:true,status:'ready',description:p['description'],lastmod:p['date'],contentSha256:p['contentSha256']}}
   end
 end

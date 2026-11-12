@@ -2,18 +2,17 @@
 layout: blog-post
 family: blog_article
 permalink: "/blogs/ziemas-dienas-garums-latvija/"
-title: 'Īsās ziemas dienas Latvijā: kā ieplānot gaišo laiku'
-description: Saullēkts, saulriets, krēsla un astronomiskie saulgrieži praktiskā Latvijas
-  ziemas dienas plānā.
+title: Kā ieplānot ziemas gaišās stundas Latvijā
+description: Uzzini, kā ziemas saulgrieži, saullēkts, saulriets un krēsla nosaka dienas
+  gaišo daļu. Izmanto savas pilsētas laikus pastaigai vai braucienam.
 author: Silvis Balodis
 date: '2026-11-11'
 reading_notes: false
 blog_slug: ziemas-dienas-garums-latvija
-og_image: "/assets/social-cards/v2/307951e36ebc8e80-f2664e3aaf9b.jpg"
+og_image: "/assets/social-cards/v2/307951e36ebc8e80-977f104b42d9.jpg"
 og_image_width: 1200
 og_image_height: 630
-og_image_alt: 'Īsās ziemas dienas Latvijā: kā ieplānot gaišo laiku | Kalendārs365
-  Latvijai'
+og_image_alt: Kā ieplānot ziemas gaišās stundas Latvijā | Kalendārs365 Latvijai
 ---
 Latvijas ziemā dienasgaisma kļūst par īpaši pamanāmu plānošanas resursu. Pastaigu, braucienu vai darbu ārā bieži gribas pārcelt uz to dienas daļu, kurā ir gaišāks. Lai tas izdotos, noder nevis aptuvens priekšstats par “ziemas pēcpusdienu”, bet konkrētas pilsētas saullēkta un saulrieta laiki izvēlētajā datumā.
 

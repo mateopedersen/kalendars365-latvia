@@ -8,13 +8,13 @@
   "pages": {
     "/": {
       "url": "/",
-      "title": "Latvijas kalendārs, svētki un plānotājs",
+      "title": "Latvijas kalendārs, svētki un vārda dienas",
       "family": "hub",
       "src": "/assets/social-cards/v2/42099b4af021e53f-a8036a3df94a.jpg",
       "width": 1200,
       "height": 630,
       "type": "image/jpeg",
-      "alt": "Latvijas kalendārs, svētki un plānotājs | Kalendārs365 Latvijai",
+      "alt": "Latvijas kalendārs, svētki un vārda dienas | Kalendārs365 Latvijai",
       "design": "home",
       "kicker": "LATVIJAI. KATRAI DIENAI.",
       "subtitle": "Kalendāri, svētki un laiks svarīgajam.",
@@ -94,8 +94,8 @@
       },
       "panelSha256": "a57ecb3241cf3274f076d06202324fc56c480596c105f55eb36392987b394a1b",
       "pixelSha256": "a8036a3df94a60255a0a9daf874715e1ebeee375da9e053a9aed9066cab22b76",
-      "sha256": "9181e744fddb1c10f53af6920e71e4f53ebfce51a3b58e83e2e40572aeb5cbc8",
-      "bytes": 173099,
+      "sha256": "15c98c871907e867e758ca171c2c5fcec11e9ed7613d1ff5bc2fb37f21aa88a9",
+      "bytes": 173107,
       "semanticFacts": {}
     },
     "/astronomiskais-kalendars/": {
@@ -6266,25 +6266,26 @@
     },
     "/datumu-kalkulators/": {
       "url": "/datumu-kalkulators/",
-      "title": "Datumu kalkulators: dienas starp datumiem",
+      "title": "Datumu kalkulators dienu skaita aprēķināšanai",
       "family": "hub",
-      "src": "/assets/social-cards/v2/47ebb0085fd4c482-d8bec59a5c86.jpg",
+      "src": "/assets/social-cards/v2/47ebb0085fd4c482-d24ca6aac8b2.jpg",
       "width": 1200,
       "height": 630,
       "type": "image/jpeg",
-      "alt": "Datumu kalkulators: dienas starp datumiem | Kalendārs365 Latvijai",
+      "alt": "Datumu kalkulators dienu skaita aprēķināšanai | Kalendārs365 Latvijai",
       "design": "studio",
       "kicker": "NODERĪGI IKDIENAI",
       "subtitle": "Atrodi vajadzīgo datumu",
       "year": 2027,
       "month": null,
       "titleLayout": {
-        "text": "Datumu kalkulators: dienas starp datumiem",
+        "text": "Datumu kalkulators dienu skaita aprēķināšanai",
         "size": 55,
         "lines": [
           "Datumu",
-          "kalkulators: dienas",
-          "starp datumiem"
+          "kalkulators dienu",
+          "skaita",
+          "aprēķināšanai"
         ],
         "bounds": [
           [
@@ -6296,14 +6297,20 @@
           [
             60.0,
             248.0,
-            565.5,
+            524.0,
             289.0
           ],
           [
             60.0,
             311.5,
-            493.0,
-            364.0
+            224.0,
+            352.5
+          ],
+          [
+            60.0,
+            375.5,
+            440.5,
+            432.0
           ]
         ],
         "region": [
@@ -6345,9 +6352,9 @@
         "/assets/tools-art/calculator.svg": "627b4d4768cf550ace736c9a428c83e84ac780278c08cd0cf255ef2ebd23e0fe"
       },
       "panelSha256": "e134c2856f3d86ebd9c611039922544b05e0b84221ba2e0d1bdce21c579cc209",
-      "pixelSha256": "d8bec59a5c867124e163fdd692434a48e5197af8ae1e556da523036c44f1397e",
-      "sha256": "8600dffd0fe34093d810d177d199c1830520ca345acc9f2e150a0500439b3753",
-      "bytes": 103488,
+      "pixelSha256": "d24ca6aac8b2cd7d10f40fdc3b7c476a1600fe8067c1fd72cd85cde1ad13c5fe",
+      "sha256": "1027480060c1f5fc710e082190fdc54316a2b7063a34091432dd12d82fdee528",
+      "bytes": 107067,
       "semanticFacts": {}
     },
     "/dienas-garums/": {
@@ -6837,32 +6844,32 @@
     },
     "/gadalaiki/": {
       "url": "/gadalaiki/",
-      "title": "Gadalaiki: ekvinokcijas un saulgrieži",
+      "title": "Gadalaiki, ekvinokcijas un saulgrieži Latvijā",
       "family": "hub",
-      "src": "/assets/social-cards/v2/aa7e1dafc9a960d7-235c1ba489a0.jpg",
+      "src": "/assets/social-cards/v2/aa7e1dafc9a960d7-95658d37a135.jpg",
       "width": 1200,
       "height": 630,
       "type": "image/jpeg",
-      "alt": "Gadalaiki: ekvinokcijas un saulgrieži | Kalendārs365 Latvijai",
+      "alt": "Gadalaiki, ekvinokcijas un saulgrieži Latvijā | Kalendārs365 Latvijai",
       "design": "seasons",
       "kicker": "ČETRI GADALAIKI",
       "subtitle": "Latvijas dabas ritms gada garumā",
       "year": 2027,
       "month": null,
       "titleLayout": {
-        "text": "Gadalaiki: ekvinokcijas un saulgrieži",
+        "text": "Gadalaiki, ekvinokcijas un saulgrieži Latvijā",
         "size": 55,
         "lines": [
-          "Gadalaiki:",
+          "Gadalaiki,",
           "ekvinokcijas un",
-          "saulgrieži"
+          "saulgrieži Latvijā"
         ],
         "bounds": [
           [
             60.0,
             184.0,
-            325.5,
-            225.0
+            325.0,
+            231.5
           ],
           [
             60.0,
@@ -6873,7 +6880,7 @@
           [
             60.0,
             311.5,
-            316.0,
+            509.5,
             365.5
           ]
         ],
@@ -6922,9 +6929,9 @@
         "/assets/season-scenes/winter.svg": "cf2bdcfcea82ff4b3ec9aa0a2d19b6fd5347f4608c3e4b1e57bba3a6af7ed8b6"
       },
       "panelSha256": "a97f2b87d32dc3139c1ff3fd48073f3e13788e476d5d8086b0d8f47ec81fe3ea",
-      "pixelSha256": "235c1ba489a0925973baf905db7671c24302ff79acb96566c4c5c8a0e00b162c",
-      "sha256": "cd758cb9fcdc39fbf165c63354440c62161c7d808ff92fa7dac00e2e977576e6",
-      "bytes": 121429,
+      "pixelSha256": "95658d37a1359c2f13a0ca2e603d29fc51518e0e5833bb5f5e563505dcab8ac0",
+      "sha256": "6c9b456165ecbeaec4b5cafbb1ad70382e21844b6eec052eb47d83a8affc0a13",
+      "bytes": 126171,
       "semanticFacts": {}
     },
     "/garais-gads/": {
@@ -7001,24 +7008,25 @@
     },
     "/garas-brivdienas/": {
       "url": "/garas-brivdienas/",
-      "title": "Garās brīvdienas Latvijā 2027–2030",
+      "title": "Garās brīvdienas Latvijā no 2027. līdz 2030. gadam",
       "family": "hub",
-      "src": "/assets/social-cards/v2/4bbc5e6c642f2a33-117492e04acb.jpg",
+      "src": "/assets/social-cards/v2/4bbc5e6c642f2a33-9b120fe00d3e.jpg",
       "width": 1200,
       "height": 630,
       "type": "image/jpeg",
-      "alt": "Garās brīvdienas Latvijā 2027–2030 | Kalendārs365 Latvijai",
+      "alt": "Garās brīvdienas Latvijā no 2027. līdz 2030. gadam | Kalendārs365 Latvijai",
       "design": "holiday",
       "kicker": "NODERĪGI IKDIENAI",
       "subtitle": "Salīdzini brīvos datumus",
       "year": 2027,
       "month": null,
       "titleLayout": {
-        "text": "Garās brīvdienas Latvijā 2027–2030",
+        "text": "Garās brīvdienas Latvijā no 2027. līdz 2030. gadam",
         "size": 55,
         "lines": [
           "Garās brīvdienas",
-          "Latvijā 2027–2030"
+          "Latvijā no 2027.",
+          "līdz 2030. gadam"
         ],
         "bounds": [
           [
@@ -7030,8 +7038,14 @@
           [
             60.0,
             248.0,
-            563.5,
+            478.5,
             300.5
+          ],
+          [
+            60.0,
+            311.5,
+            519.0,
+            364.5
           ]
         ],
         "region": [
@@ -7073,9 +7087,9 @@
         "/assets/tools-art/vacation.svg": "90a772348433e2c1a1e51c5c6ebc97aaf1bd463a024484b92681fe8f8e715862"
       },
       "panelSha256": "b8d681811cfff1d50174a47fa8040db5e1d0750dc4b1ebddd23797b1f732751b",
-      "pixelSha256": "117492e04acbf18c5895ce483272eabe640af97e406e6498522a86c03f3953ad",
-      "sha256": "bf76d201af656fd63eadb4f70829063e35ff438c6399c99ceb5d5b16a9933832",
-      "bytes": 107455,
+      "pixelSha256": "9b120fe00d3e5679fd14b6f4faa5aa0cb992eb34516666a16b7ef883e32130d8",
+      "sha256": "009b9e2e4b7e7e34b4c5beac6fdb2d99e0e725c812ea5e78a7a2eaa1b4770a27",
+      "bytes": 116114,
       "semanticFacts": {}
     },
     "/garas-brivdienas/2027/": {
@@ -7558,44 +7572,44 @@
     },
     "/horoskops/": {
       "url": "/horoskops/",
-      "title": "Horoskops: 12 zodiaka zīmes un dienas tēmas",
+      "title": "Dienas horoskops visām 12 zodiaka zīmēm",
       "family": "hub",
-      "src": "/assets/social-cards/v2/c6c9528d2bec7fd3-69b61664a1f3.jpg",
+      "src": "/assets/social-cards/v2/c6c9528d2bec7fd3-ec8ce252d42b.jpg",
       "width": 1200,
       "height": 630,
       "type": "image/jpeg",
-      "alt": "Horoskops: 12 zodiaka zīmes un dienas tēmas | Kalendārs365 Latvijai",
+      "alt": "Dienas horoskops visām 12 zodiaka zīmēm | Kalendārs365 Latvijai",
       "design": "zodiac",
       "kicker": "ZODIAKA SIMBOLIKA",
       "subtitle": "Iedvesma katrai dienai",
       "year": 2027,
       "month": null,
       "titleLayout": {
-        "text": "Horoskops: 12 zodiaka zīmes un dienas tēmas",
+        "text": "Dienas horoskops visām 12 zodiaka zīmēm",
         "size": 55,
         "lines": [
-          "Horoskops: 12",
-          "zodiaka zīmes un",
-          "dienas tēmas"
+          "Dienas horoskops",
+          "visām 12 zodiaka",
+          "zīmēm"
         ],
         "bounds": [
           [
             60.0,
             184.0,
-            426.5,
-            236.0
+            538.0,
+            236.5
           ],
           [
             60.0,
             248.0,
-            518.0,
+            504.5,
             289.0
           ],
           [
             60.0,
             311.5,
-            421.5,
-            352.5
+            238.5,
+            350.5
           ]
         ],
         "region": [
@@ -7639,51 +7653,44 @@
         "/assets/zodiac/atlas.svg": "ced4d30254da2d6172a6c4a620b2e6546b48ffc64b9a0607b723a53646ad67e1"
       },
       "panelSha256": "34fbe0cdc0d6bf2f18cc6b84062efa7bf42f3561727d0f0168cb15f1d790e303",
-      "pixelSha256": "69b61664a1f3ef512b6faf41903661284b46b76bd60f63e2d225610c9639ff69",
-      "sha256": "a22fc833fce06caea3ff40d55d90e2e5d93921f26b1604fd35eb7e55cca13b00",
-      "bytes": 122465,
+      "pixelSha256": "ec8ce252d42bee2179d0c7ff61fba2ef5cce17e0b108639ed00138e0d82b49ca",
+      "sha256": "0c9cb560f9f1c29c86aee2d90f50269b58bd207e1ce4f912d52074dc22e66410",
+      "bytes": 121564,
       "semanticFacts": {}
     },
     "/horoskops/auns/": {
       "url": "/horoskops/auns/",
-      "title": "Auna horoskops: dienas tēmas un zīmes simbolika",
+      "title": "Auna dienas horoskops",
       "family": "horoscope",
-      "src": "/assets/social-cards/v2/5e74ddb25bee99ed-a883d2437dac.jpg",
+      "src": "/assets/social-cards/v2/5e74ddb25bee99ed-b1c952b845fd.jpg",
       "width": 1200,
       "height": 630,
       "type": "image/jpeg",
-      "alt": "Auna horoskops: dienas tēmas un zīmes simbolika | Kalendārs365 Latvijai",
+      "alt": "Auna dienas horoskops | Kalendārs365 Latvijai",
       "design": "zodiac",
       "kicker": "ZODIAKA ZĪMES",
       "subtitle": "Uguns · Kardināla zīme",
       "year": 2027,
       "month": null,
       "titleLayout": {
-        "text": "Auna horoskops: dienas tēmas un zīmes simbolika",
+        "text": "Auna dienas horoskops",
         "size": 55,
         "lines": [
-          "Auna horoskops:",
-          "dienas tēmas un",
-          "zīmes simbolika"
+          "Auna dienas",
+          "horoskops"
         ],
         "bounds": [
           [
             60.0,
             184.0,
-            509.0,
-            236.0
+            391.5,
+            225.0
           ],
           [
             60.0,
             248.0,
-            502.5,
-            289.0
-          ],
-          [
-            60.0,
-            311.5,
-            487.5,
-            352.5
+            342.5,
+            300.0
           ]
         ],
         "region": [
@@ -7725,51 +7732,44 @@
         "/assets/zodiac/auns.svg": "e2fbd56d80dca9e9021a86ae6fca864eb8c39c416fb64e5e3620706925d3dca4"
       },
       "panelSha256": "38b53043799d4dc64267c02f08819c394dddb476918cb9e267c80ba35f3ed17f",
-      "pixelSha256": "a883d2437dac9526212d5d2e589e8108725daa2dcd81192519c0a149420fa39e",
-      "sha256": "a697797aea2fa5381bccd3a611ee86069b0c0d56b5008b5920128bba0e1666e3",
-      "bytes": 110113,
+      "pixelSha256": "b1c952b845fd8d7cc472cf50266db8986d614f0d09bb47edd33e7c97ebdceb13",
+      "sha256": "2771fc484c5bea2faa8982fe72fc2af4a5c4c36926edf409de09586099c08f10",
+      "bytes": 94580,
       "semanticFacts": {}
     },
     "/horoskops/dvini/": {
       "url": "/horoskops/dvini/",
-      "title": "Dvīņu horoskops: dienas tēmas un zīmes simbolika",
+      "title": "Dvīņu dienas horoskops",
       "family": "horoscope",
-      "src": "/assets/social-cards/v2/33f44c002fa76346-b9e839bde144.jpg",
+      "src": "/assets/social-cards/v2/33f44c002fa76346-9bd2d7c9aa88.jpg",
       "width": 1200,
       "height": 630,
       "type": "image/jpeg",
-      "alt": "Dvīņu horoskops: dienas tēmas un zīmes simbolika | Kalendārs365 Latvijai",
+      "alt": "Dvīņu dienas horoskops | Kalendārs365 Latvijai",
       "design": "zodiac",
       "kicker": "ZODIAKA ZĪMES",
       "subtitle": "Gaiss · Mainīga zīme",
       "year": 2027,
       "month": null,
       "titleLayout": {
-        "text": "Dvīņu horoskops: dienas tēmas un zīmes simbolika",
+        "text": "Dvīņu dienas horoskops",
         "size": 55,
         "lines": [
-          "Dvīņu horoskops:",
-          "dienas tēmas un",
-          "zīmes simbolika"
+          "Dvīņu dienas",
+          "horoskops"
         ],
         "bounds": [
           [
             60.0,
             184.0,
-            522.5,
-            239.5
+            405.0,
+            240.0
           ],
           [
             60.0,
             248.0,
-            502.5,
-            289.0
-          ],
-          [
-            60.0,
-            311.5,
-            487.5,
-            352.5
+            342.5,
+            300.0
           ]
         ],
         "region": [
@@ -7811,58 +7811,44 @@
         "/assets/zodiac/dvini.svg": "12ebe2e3f74952b139353a839f7853a116c3c302f2f71107805b82658ec0b3ff"
       },
       "panelSha256": "bc9b23e7124e5f3e0e54f4191a9f345c99de8dd18c9e988519e37c11712c5441",
-      "pixelSha256": "b9e839bde144b5ad09fe9a074df12a9541bd1bcd6babcea1b61955caf5aa4016",
-      "sha256": "7acadf6f3c980545bca36211b95c4470d0f1722c2c4895737ce7c53e5952f809",
-      "bytes": 110740,
+      "pixelSha256": "9bd2d7c9aa88df94cbf7c2d3ce9710f9f9f3b3b04315d8ae554b50f8b7bc5243",
+      "sha256": "0ad7c362f1814241618e946e59814e9f596685c9edbce522fab30b6d66560237",
+      "bytes": 95371,
       "semanticFacts": {}
     },
     "/horoskops/jaunava/": {
       "url": "/horoskops/jaunava/",
-      "title": "Jaunavas horoskops: dienas tēmas un zīmes simbolika",
+      "title": "Jaunavas dienas horoskops",
       "family": "horoscope",
-      "src": "/assets/social-cards/v2/a493a40350825c5f-1f7bb23a0db5.jpg",
+      "src": "/assets/social-cards/v2/a493a40350825c5f-c6fde6d62345.jpg",
       "width": 1200,
       "height": 630,
       "type": "image/jpeg",
-      "alt": "Jaunavas horoskops: dienas tēmas un zīmes simbolika | Kalendārs365 Latvijai",
+      "alt": "Jaunavas dienas horoskops | Kalendārs365 Latvijai",
       "design": "zodiac",
       "kicker": "ZODIAKA ZĪMES",
       "subtitle": "Zeme · Mainīga zīme",
       "year": 2027,
       "month": null,
       "titleLayout": {
-        "text": "Jaunavas horoskops: dienas tēmas un zīmes simbolika",
+        "text": "Jaunavas dienas horoskops",
         "size": 55,
         "lines": [
-          "Jaunavas",
-          "horoskops: dienas",
-          "tēmas un zīmes",
-          "simbolika"
+          "Jaunavas dienas",
+          "horoskops"
         ],
         "bounds": [
           [
             60.0,
             184.0,
-            315.5,
-            223.5
+            507.5,
+            225.0
           ],
           [
             60.0,
             248.0,
-            548.5,
-            300.5
-          ],
-          [
-            60.0,
-            311.5,
-            479.5,
-            350.5
-          ],
-          [
-            60.0,
-            375.5,
-            318.5,
-            416.5
+            342.5,
+            300.0
           ]
         ],
         "region": [
@@ -7904,51 +7890,44 @@
         "/assets/zodiac/jaunava.svg": "707d2d8104f28d47f9547979aeff8d26eed50fe6309deba281f9d7fcc68f96ae"
       },
       "panelSha256": "b2f967c47401374e61a9ee4fe3e9f1c54e56a4e7dda6085a32f0960ae902ac1b",
-      "pixelSha256": "1f7bb23a0db5a204fcc875a96b80a310e63ed7718f76f188c72194cb5799a3b9",
-      "sha256": "e61e7d28a1a9a56971d0409fef0078981ba64ffd7e26dce3768bc9bc47d08a8c",
-      "bytes": 113293,
+      "pixelSha256": "c6fde6d6234511ad9dee80bb124d9e9e5903788214565b0a44267b547de90dd1",
+      "sha256": "42b387ebe153b3d9d5201b6ed11ca1eb56ec155586f3fa6297103731376e5e43",
+      "bytes": 97601,
       "semanticFacts": {}
     },
     "/horoskops/lauva/": {
       "url": "/horoskops/lauva/",
-      "title": "Lauvas horoskops: dienas tēmas un zīmes simbolika",
+      "title": "Lauvas dienas horoskops",
       "family": "horoscope",
-      "src": "/assets/social-cards/v2/c9b6d2750a2f4f05-02adfd2238d5.jpg",
+      "src": "/assets/social-cards/v2/c9b6d2750a2f4f05-89bcb3a6a8cd.jpg",
       "width": 1200,
       "height": 630,
       "type": "image/jpeg",
-      "alt": "Lauvas horoskops: dienas tēmas un zīmes simbolika | Kalendārs365 Latvijai",
+      "alt": "Lauvas dienas horoskops | Kalendārs365 Latvijai",
       "design": "zodiac",
       "kicker": "ZODIAKA ZĪMES",
       "subtitle": "Uguns · Fiksēta zīme",
       "year": 2027,
       "month": null,
       "titleLayout": {
-        "text": "Lauvas horoskops: dienas tēmas un zīmes simbolika",
+        "text": "Lauvas dienas horoskops",
         "size": 55,
         "lines": [
-          "Lauvas horoskops:",
-          "dienas tēmas un",
-          "zīmes simbolika"
+          "Lauvas dienas",
+          "horoskops"
         ],
         "bounds": [
           [
             60.0,
             184.0,
-            559.5,
-            236.0
+            442.0,
+            225.0
           ],
           [
             60.0,
             248.0,
-            502.5,
-            289.0
-          ],
-          [
-            60.0,
-            311.5,
-            487.5,
-            352.5
+            342.5,
+            300.0
           ]
         ],
         "region": [
@@ -7990,51 +7969,44 @@
         "/assets/zodiac/lauva.svg": "9c3a519bf8e42d6f6f5b692dfa06482f1bb8af0816348376890658d561ad3d13"
       },
       "panelSha256": "f052e4e87dabb22ab3f4bae7637817f6b75bf9d53855e51306b2ed771d7a911a",
-      "pixelSha256": "02adfd2238d5c9c5e5a43df7617326f1ddca1f393f6dfce8b3d086fbacb04548",
-      "sha256": "f052bf219f5a1f0e924678bf4a222c2e8d4ed2e82bb7f9e97e68a96b4b4f316b",
-      "bytes": 108937,
+      "pixelSha256": "89bcb3a6a8cdf896c037371f10b141a0bc6c8a7e35d3b201777010a1a0e18688",
+      "sha256": "b431f9ca0022244402b652652e20f2fb883386159f7b7ceb9ae06af6786a5bbb",
+      "bytes": 93397,
       "semanticFacts": {}
     },
     "/horoskops/mezazis/": {
       "url": "/horoskops/mezazis/",
-      "title": "Mežāža horoskops: dienas tēmas un zīmes simbolika",
+      "title": "Mežāža dienas horoskops",
       "family": "horoscope",
-      "src": "/assets/social-cards/v2/68dc5848a0f19292-997c5713a1cf.jpg",
+      "src": "/assets/social-cards/v2/68dc5848a0f19292-8d735d1a67dd.jpg",
       "width": 1200,
       "height": 630,
       "type": "image/jpeg",
-      "alt": "Mežāža horoskops: dienas tēmas un zīmes simbolika | Kalendārs365 Latvijai",
+      "alt": "Mežāža dienas horoskops | Kalendārs365 Latvijai",
       "design": "zodiac",
       "kicker": "ZODIAKA ZĪMES",
       "subtitle": "Zeme · Kardināla zīme",
       "year": 2027,
       "month": null,
       "titleLayout": {
-        "text": "Mežāža horoskops: dienas tēmas un zīmes simbolika",
+        "text": "Mežāža dienas horoskops",
         "size": 55,
         "lines": [
-          "Mežāža horoskops:",
-          "dienas tēmas un",
-          "zīmes simbolika"
+          "Mežāža dienas",
+          "horoskops"
         ],
         "bounds": [
           [
             60.0,
             184.0,
-            571.5,
-            237.0
+            454.0,
+            225.5
           ],
           [
             60.0,
             248.0,
-            502.5,
-            289.0
-          ],
-          [
-            60.0,
-            311.5,
-            487.5,
-            352.5
+            342.5,
+            300.0
           ]
         ],
         "region": [
@@ -8076,58 +8048,44 @@
         "/assets/zodiac/mezazis.svg": "47177c321c11a655006f2c5d44c7c19ea48ae5ad5283a5335fa35f5fed8edd01"
       },
       "panelSha256": "727006e9e503eba6ffc222eb9bba27b19aa17658132dc754ee5703aa43cca51e",
-      "pixelSha256": "997c5713a1cfdcc0f9d9294f36d53d54eb211ba39f37b43ff628ac572c8d67d0",
-      "sha256": "35b184e0eb456a0a8fae6449edaafcb1b51b91ae7b8fd7a5fe4568f98981c0ed",
-      "bytes": 114653,
+      "pixelSha256": "8d735d1a67dddce1aaa17c6f0f6b77d13fe3f701c15ce7ab72ab7203fd6c8358",
+      "sha256": "0e117f2eb8eab6f689b74ebfb3e65756aa5b1c548bb2d0f0a6aaa6437e442c0a",
+      "bytes": 98683,
       "semanticFacts": {}
     },
     "/horoskops/skorpions/": {
       "url": "/horoskops/skorpions/",
-      "title": "Skorpiona horoskops: dienas tēmas un zīmes simbolika",
+      "title": "Skorpiona dienas horoskops",
       "family": "horoscope",
-      "src": "/assets/social-cards/v2/b6917ff3632f34d0-8deb3edf78dc.jpg",
+      "src": "/assets/social-cards/v2/b6917ff3632f34d0-cd014ab07de5.jpg",
       "width": 1200,
       "height": 630,
       "type": "image/jpeg",
-      "alt": "Skorpiona horoskops: dienas tēmas un zīmes simbolika | Kalendārs365 Latvijai",
+      "alt": "Skorpiona dienas horoskops | Kalendārs365 Latvijai",
       "design": "zodiac",
       "kicker": "ZODIAKA ZĪMES",
       "subtitle": "Ūdens · Fiksēta zīme",
       "year": 2027,
       "month": null,
       "titleLayout": {
-        "text": "Skorpiona horoskops: dienas tēmas un zīmes simbolika",
+        "text": "Skorpiona dienas horoskops",
         "size": 55,
         "lines": [
-          "Skorpiona",
-          "horoskops: dienas",
-          "tēmas un zīmes",
-          "simbolika"
+          "Skorpiona dienas",
+          "horoskops"
         ],
         "bounds": [
           [
             60.0,
             184.0,
-            331.5,
+            523.5,
             236.5
           ],
           [
             60.0,
             248.0,
-            548.5,
-            300.5
-          ],
-          [
-            60.0,
-            311.5,
-            479.5,
-            350.5
-          ],
-          [
-            60.0,
-            375.5,
-            318.5,
-            416.5
+            342.5,
+            300.0
           ]
         ],
         "region": [
@@ -8169,58 +8127,44 @@
         "/assets/zodiac/skorpions.svg": "ba8a39f68ec918162581d92900be65bde30ac9f8cae441c8e3e6ac1c9c87e7a1"
       },
       "panelSha256": "47daf6698e477684e2a27e31a1203b366e3fa23d69adb22c25ed077757545133",
-      "pixelSha256": "8deb3edf78dcfe851f1d148a6e99c552861ecd4d678520ebd6375b2ccd7a65f6",
-      "sha256": "89b584890356198a6a41526c0a1924f480367128885f43234c16d8d2f380fef3",
-      "bytes": 120122,
+      "pixelSha256": "cd014ab07de53f4ee96e4d029591d55ebfb1bbabd1f430f7d78c54420af9b755",
+      "sha256": "6885012ca5353757cec22306bc63824acf067a55ba9bc182a18d935e64780717",
+      "bytes": 103991,
       "semanticFacts": {}
     },
     "/horoskops/strelnieks/": {
       "url": "/horoskops/strelnieks/",
-      "title": "Strēlnieka horoskops: dienas tēmas un zīmes simbolika",
+      "title": "Strēlnieka dienas horoskops",
       "family": "horoscope",
-      "src": "/assets/social-cards/v2/165573d083c9165e-a45a9a94a757.jpg",
+      "src": "/assets/social-cards/v2/165573d083c9165e-2888345ae16e.jpg",
       "width": 1200,
       "height": 630,
       "type": "image/jpeg",
-      "alt": "Strēlnieka horoskops: dienas tēmas un zīmes simbolika | Kalendārs365 Latvijai",
+      "alt": "Strēlnieka dienas horoskops | Kalendārs365 Latvijai",
       "design": "zodiac",
       "kicker": "ZODIAKA ZĪMES",
       "subtitle": "Uguns · Mainīga zīme",
       "year": 2027,
       "month": null,
       "titleLayout": {
-        "text": "Strēlnieka horoskops: dienas tēmas un zīmes simbolika",
+        "text": "Strēlnieka dienas horoskops",
         "size": 55,
         "lines": [
-          "Strēlnieka",
-          "horoskops: dienas",
-          "tēmas un zīmes",
-          "simbolika"
+          "Strēlnieka dienas",
+          "horoskops"
         ],
         "bounds": [
           [
             60.0,
             184.0,
-            332.5,
+            524.5,
             225.0
           ],
           [
             60.0,
             248.0,
-            548.5,
-            300.5
-          ],
-          [
-            60.0,
-            311.5,
-            479.5,
-            350.5
-          ],
-          [
-            60.0,
-            375.5,
-            318.5,
-            416.5
+            342.5,
+            300.0
           ]
         ],
         "region": [
@@ -8262,51 +8206,44 @@
         "/assets/zodiac/strelnieks.svg": "86ac29abae453a9c2014615871c825cd09b84dc05725f74f6a4c5ad712e7d698"
       },
       "panelSha256": "1d91a546d777a84ed771ccaf620341ba25f8c911a7c6d3b36075aa445bba4c82",
-      "pixelSha256": "a45a9a94a7576875676dc96a42f7582863a0d4ddead9d113d9d76e821ebad339",
-      "sha256": "653d14322772436046f71a8aa71142110e683fec495a3aa0536b8dae85db18ce",
-      "bytes": 114332,
+      "pixelSha256": "2888345ae16e12d2697a3213424be8b3edaa664c8972f87bc15da9cd035de8e3",
+      "sha256": "6ea05d3ede43ab0c696a79205b708eeab3b0bf803e081251a92d84ef99ba7620",
+      "bytes": 98285,
       "semanticFacts": {}
     },
     "/horoskops/svari/": {
       "url": "/horoskops/svari/",
-      "title": "Svaru horoskops: dienas tēmas un zīmes simbolika",
+      "title": "Svaru dienas horoskops",
       "family": "horoscope",
-      "src": "/assets/social-cards/v2/d88133f11f565bf3-1840843b10f3.jpg",
+      "src": "/assets/social-cards/v2/d88133f11f565bf3-d0413298efc7.jpg",
       "width": 1200,
       "height": 630,
       "type": "image/jpeg",
-      "alt": "Svaru horoskops: dienas tēmas un zīmes simbolika | Kalendārs365 Latvijai",
+      "alt": "Svaru dienas horoskops | Kalendārs365 Latvijai",
       "design": "zodiac",
       "kicker": "ZODIAKA ZĪMES",
       "subtitle": "Gaiss · Kardināla zīme",
       "year": 2027,
       "month": null,
       "titleLayout": {
-        "text": "Svaru horoskops: dienas tēmas un zīmes simbolika",
+        "text": "Svaru dienas horoskops",
         "size": 55,
         "lines": [
-          "Svaru horoskops:",
-          "dienas tēmas un",
-          "zīmes simbolika"
+          "Svaru dienas",
+          "horoskops"
         ],
         "bounds": [
           [
             60.0,
             184.0,
-            522.5,
-            236.0
+            405.0,
+            225.0
           ],
           [
             60.0,
             248.0,
-            502.5,
-            289.0
-          ],
-          [
-            60.0,
-            311.5,
-            487.5,
-            352.5
+            342.5,
+            300.0
           ]
         ],
         "region": [
@@ -8348,58 +8285,44 @@
         "/assets/zodiac/svari.svg": "59cb7013230fbe7a5f190cf5a3654a4f331ea0f1a42372a57895c686dc83a4e3"
       },
       "panelSha256": "3f2ecb4340056f6ac6430f6be50330caefd3702da3e16e83a379ab9cba7f0cab",
-      "pixelSha256": "1840843b10f36b2b82e81c6dbb3331ef755ad2142fc8e3f96d5b070c28bec389",
-      "sha256": "94b5fac18646cbb247e81764f246cb444d63bc3a5f8300554d29a81ca9441040",
-      "bytes": 111979,
+      "pixelSha256": "d0413298efc7c28d17e34238ed49144655516cb30c01c81fe1fb30908164d93b",
+      "sha256": "cb6f9120fc3fdc8f4c4513b70d03e2b6c96c1ece2a4fb7f66044c8d53c690666",
+      "bytes": 96633,
       "semanticFacts": {}
     },
     "/horoskops/udensvirs/": {
       "url": "/horoskops/udensvirs/",
-      "title": "Ūdensvīra horoskops: dienas tēmas un zīmes simbolika",
+      "title": "Ūdensvīra dienas horoskops",
       "family": "horoscope",
-      "src": "/assets/social-cards/v2/b6246eb88221d0e5-28e8774059cf.jpg",
+      "src": "/assets/social-cards/v2/b6246eb88221d0e5-10492f07c033.jpg",
       "width": 1200,
       "height": 630,
       "type": "image/jpeg",
-      "alt": "Ūdensvīra horoskops: dienas tēmas un zīmes simbolika | Kalendārs365 Latvijai",
+      "alt": "Ūdensvīra dienas horoskops | Kalendārs365 Latvijai",
       "design": "zodiac",
       "kicker": "ZODIAKA ZĪMES",
       "subtitle": "Gaiss · Fiksēta zīme",
       "year": 2027,
       "month": null,
       "titleLayout": {
-        "text": "Ūdensvīra horoskops: dienas tēmas un zīmes simbolika",
+        "text": "Ūdensvīra dienas horoskops",
         "size": 55,
         "lines": [
-          "Ūdensvīra",
-          "horoskops: dienas",
-          "tēmas un zīmes",
-          "simbolika"
+          "Ūdensvīra dienas",
+          "horoskops"
         ],
         "bounds": [
           [
             60.0,
             184.0,
-            330.5,
+            522.5,
             233.0
           ],
           [
             60.0,
             248.0,
-            548.5,
-            300.5
-          ],
-          [
-            60.0,
-            311.5,
-            479.5,
-            350.5
-          ],
-          [
-            60.0,
-            375.5,
-            318.5,
-            416.5
+            342.5,
+            300.0
           ]
         ],
         "region": [
@@ -8441,51 +8364,44 @@
         "/assets/zodiac/udensvirs.svg": "2893a455d0dd92f1f3432a285e1e024e26b7f4a000a734742dc095ab9db980d7"
       },
       "panelSha256": "c30472090dd38d319d78a5e4d0813b719cf9fa1c7ea7021c42728e68a48e4c63",
-      "pixelSha256": "28e8774059cfb6e745f11d4cdc35a817ac32c81ea140432070b66f0f47757ebb",
-      "sha256": "6cd1c2fbaeb138fb935d1937552e9cdd5ab1447a3662ed676b00fd9c5aba44e3",
-      "bytes": 114743,
+      "pixelSha256": "10492f07c0336b1c2d28defa80f588d982e3ea8f637979cb257fd422bd4108c5",
+      "sha256": "90e7a3b3025dac3b39a9a413b19e1559aa1c8f8aec561c3e330554cff638b24b",
+      "bytes": 98549,
       "semanticFacts": {}
     },
     "/horoskops/versis/": {
       "url": "/horoskops/versis/",
-      "title": "Vērša horoskops: dienas tēmas un zīmes simbolika",
+      "title": "Vērša dienas horoskops",
       "family": "horoscope",
-      "src": "/assets/social-cards/v2/f9e8f66764b4a22a-0a57e6b95710.jpg",
+      "src": "/assets/social-cards/v2/f9e8f66764b4a22a-2630b0ea1a05.jpg",
       "width": 1200,
       "height": 630,
       "type": "image/jpeg",
-      "alt": "Vērša horoskops: dienas tēmas un zīmes simbolika | Kalendārs365 Latvijai",
+      "alt": "Vērša dienas horoskops | Kalendārs365 Latvijai",
       "design": "zodiac",
       "kicker": "ZODIAKA ZĪMES",
       "subtitle": "Zeme · Fiksēta zīme",
       "year": 2027,
       "month": null,
       "titleLayout": {
-        "text": "Vērša horoskops: dienas tēmas un zīmes simbolika",
+        "text": "Vērša dienas horoskops",
         "size": 55,
         "lines": [
-          "Vērša horoskops:",
-          "dienas tēmas un",
-          "zīmes simbolika"
+          "Vērša dienas",
+          "horoskops"
         ],
         "bounds": [
           [
             60.0,
             184.0,
-            525.5,
-            237.5
+            408.0,
+            226.0
           ],
           [
             60.0,
             248.0,
-            502.5,
-            289.0
-          ],
-          [
-            60.0,
-            311.5,
-            487.5,
-            352.5
+            342.5,
+            300.0
           ]
         ],
         "region": [
@@ -8527,51 +8443,44 @@
         "/assets/zodiac/versis.svg": "e4bf4e5411df7edfd400415373469ddb0dfbf02d2bf07760e52911f3b388dbb8"
       },
       "panelSha256": "1daeeadd0dbe0e6acb5fd5ca3e655016b34840a24836e302a4a63038c26672b2",
-      "pixelSha256": "0a57e6b95710784e70cc34f74a39cf8c8f940096f93331e71fb41e3145c34b51",
-      "sha256": "a27f2baadd4fb6c0b2e4d6f3c5c4f437918d93cfa2985bedeb1bcf5690a21372",
-      "bytes": 110868,
+      "pixelSha256": "2630b0ea1a0537e772b69260689dc70b6c085251a0465cf4f4ce6064f0bf4be6",
+      "sha256": "1768511204f534f05e10c7b76cbd45596145e1814785f1c32971e26d7b9e20f6",
+      "bytes": 94773,
       "semanticFacts": {}
     },
     "/horoskops/vezis/": {
       "url": "/horoskops/vezis/",
-      "title": "Vēža horoskops: dienas tēmas un zīmes simbolika",
+      "title": "Vēža dienas horoskops",
       "family": "horoscope",
-      "src": "/assets/social-cards/v2/c0263afa484505cd-cedcf020346e.jpg",
+      "src": "/assets/social-cards/v2/c0263afa484505cd-d5876126bf59.jpg",
       "width": 1200,
       "height": 630,
       "type": "image/jpeg",
-      "alt": "Vēža horoskops: dienas tēmas un zīmes simbolika | Kalendārs365 Latvijai",
+      "alt": "Vēža dienas horoskops | Kalendārs365 Latvijai",
       "design": "zodiac",
       "kicker": "ZODIAKA ZĪMES",
       "subtitle": "Ūdens · Kardināla zīme",
       "year": 2027,
       "month": null,
       "titleLayout": {
-        "text": "Vēža horoskops: dienas tēmas un zīmes simbolika",
+        "text": "Vēža dienas horoskops",
         "size": 55,
         "lines": [
-          "Vēža horoskops:",
-          "dienas tēmas un",
-          "zīmes simbolika"
+          "Vēža dienas",
+          "horoskops"
         ],
         "bounds": [
           [
             60.0,
             184.0,
-            501.5,
-            237.0
+            384.0,
+            225.5
           ],
           [
             60.0,
             248.0,
-            502.5,
-            289.0
-          ],
-          [
-            60.0,
-            311.5,
-            487.5,
-            352.5
+            342.5,
+            300.0
           ]
         ],
         "region": [
@@ -8613,51 +8522,44 @@
         "/assets/zodiac/vezis.svg": "d826d924df23092001025ddd0e89d35cce189353bed1714996dbb84717477a14"
       },
       "panelSha256": "ccadebdc30686e52de520af7e1da2c314bdcc3bd50e401bcfe70ef73516afa22",
-      "pixelSha256": "cedcf020346eee60deb7879b0d657ebf92d791cd521ff26b4be5598ea8994862",
-      "sha256": "75913cbacb19881414142892b72323c44ad1c8f60de897740c02a074f7b02d83",
-      "bytes": 116770,
+      "pixelSha256": "d5876126bf595441a1742f9cfebdd377596e5936655b095c112199f12d02092f",
+      "sha256": "842e339a4b3410283c15ab15191d1b805c3be346647c574e49d1198d4d84b09b",
+      "bytes": 100597,
       "semanticFacts": {}
     },
     "/horoskops/zivis/": {
       "url": "/horoskops/zivis/",
-      "title": "Zivju horoskops: dienas tēmas un zīmes simbolika",
+      "title": "Zivju dienas horoskops",
       "family": "horoscope",
-      "src": "/assets/social-cards/v2/4d9d5bb748a20dfc-c33bceae35d3.jpg",
+      "src": "/assets/social-cards/v2/4d9d5bb748a20dfc-74d7571ae8ba.jpg",
       "width": 1200,
       "height": 630,
       "type": "image/jpeg",
-      "alt": "Zivju horoskops: dienas tēmas un zīmes simbolika | Kalendārs365 Latvijai",
+      "alt": "Zivju dienas horoskops | Kalendārs365 Latvijai",
       "design": "zodiac",
       "kicker": "ZODIAKA ZĪMES",
       "subtitle": "Ūdens · Mainīga zīme",
       "year": 2027,
       "month": null,
       "titleLayout": {
-        "text": "Zivju horoskops: dienas tēmas un zīmes simbolika",
+        "text": "Zivju dienas horoskops",
         "size": 55,
         "lines": [
-          "Zivju horoskops:",
-          "dienas tēmas un",
-          "zīmes simbolika"
+          "Zivju dienas",
+          "horoskops"
         ],
         "bounds": [
           [
             60.0,
             184.0,
-            496.0,
+            378.5,
             236.5
           ],
           [
             60.0,
             248.0,
-            502.5,
-            289.0
-          ],
-          [
-            60.0,
-            311.5,
-            487.5,
-            352.5
+            342.5,
+            300.0
           ]
         ],
         "region": [
@@ -8699,32 +8601,33 @@
         "/assets/zodiac/zivis.svg": "d6c93491a43d592ff3ab02a756f04efbedadc5afb091cd052d1669f07c34c86d"
       },
       "panelSha256": "8699f6760a58cec7bf3c564393afae7fd853d63843501f6a257ceec2c2ba1f01",
-      "pixelSha256": "c33bceae35d3d7d8e8d168f9882f6e928d06bfa695771ad5cc62ee70eecfac14",
-      "sha256": "82c4c054ef5fa25645b6ec8253f1ea47c4e52f6117217807546fe6a54d5c7448",
-      "bytes": 115983,
+      "pixelSha256": "74d7571ae8ba383504dc5622dfd010a4a93f16dabf628b25753dd3f5be79eddb",
+      "sha256": "0cda53bcd29ae2826dcc3fea8d9c74bb95a8b30016529841a0041cf941d4c7f4",
+      "bytes": 99645,
       "semanticFacts": {}
     },
     "/izveidot-kalendaru/": {
       "url": "/izveidot-kalendaru/",
-      "title": "Kalendāra veidotājs: PDF, Word un Excel",
+      "title": "Kalendāra veidotājs ar fotogrāfijām un notikumiem",
       "family": "hub",
-      "src": "/assets/social-cards/v2/438ea5da1349daa6-f3fd80d3740c.jpg",
+      "src": "/assets/social-cards/v2/438ea5da1349daa6-35aaa978dccc.jpg",
       "width": 1200,
       "height": 630,
       "type": "image/jpeg",
-      "alt": "Kalendāra veidotājs: PDF, Word un Excel | Kalendārs365 Latvijai",
+      "alt": "Kalendāra veidotājs ar fotogrāfijām un notikumiem | Kalendārs365 Latvijai",
       "design": "studio",
       "kicker": "NODERĪGI IKDIENAI",
       "subtitle": "Personīgs kalendārs drukai",
       "year": 2027,
       "month": null,
       "titleLayout": {
-        "text": "Kalendāra veidotājs: PDF, Word un Excel",
+        "text": "Kalendāra veidotājs ar fotogrāfijām un notikumiem",
         "size": 55,
         "lines": [
           "Kalendāra",
-          "veidotājs: PDF,",
-          "Word un Excel"
+          "veidotājs ar",
+          "fotogrāfijām un",
+          "notikumiem"
         ],
         "bounds": [
           [
@@ -8736,14 +8639,20 @@
           [
             60.0,
             248.0,
-            452.0,
+            376.0,
             300.5
           ],
           [
             60.0,
             311.5,
-            445.5,
-            352.0
+            474.5,
+            365.0
+          ],
+          [
+            60.0,
+            375.5,
+            382.5,
+            416.5
           ]
         ],
         "region": [
@@ -8785,9 +8694,9 @@
         "/assets/tools-art/maker.svg": "fd5a2c50a9ef6d279b0598aeb53c40867c60926bd42414e0388fc19290932a00"
       },
       "panelSha256": "18c6ec617ff7584c59316b26a2f1ed84823727d677f1e5d3c46e5a3a7c903e11",
-      "pixelSha256": "f3fd80d3740c4e1b04c645726600c928a863f028a5f0b7338f5182bd5dd9ade7",
-      "sha256": "a699ddc38add5b88d56e4c40c2445e93244e0eee55c653d7b42df5c3d8fccb18",
-      "bytes": 93715,
+      "pixelSha256": "35aaa978dcccfabc3a6dd500d09473b3e0ccd829d41699c0a82f889513b1fb11",
+      "sha256": "0db4fd02e3113ba6a1a6f9094d7118f374b5fa0c7dbf9cbecbc803caa1255390",
+      "bytes": 100680,
       "semanticFacts": {}
     },
     "/jaunmeness/": {
@@ -10546,24 +10455,25 @@
     },
     "/kalendars/": {
       "url": "/kalendars/",
-      "title": "Latvijas kalendāri 2027–2030",
+      "title": "Latvijas kalendāri no 2027. līdz 2030. gadam",
       "family": "hub",
-      "src": "/assets/social-cards/v2/26852c9210beaae6-44027721c3c1.jpg",
+      "src": "/assets/social-cards/v2/26852c9210beaae6-2c5ab997e010.jpg",
       "width": 1200,
       "height": 630,
       "type": "image/jpeg",
-      "alt": "Latvijas kalendāri 2027–2030 | Kalendārs365 Latvijai",
+      "alt": "Latvijas kalendāri no 2027. līdz 2030. gadam | Kalendārs365 Latvijai",
       "design": "studio",
       "kicker": "NODERĪGI IKDIENAI",
       "subtitle": "Gads vienā pārskatā",
       "year": 2027,
       "month": null,
       "titleLayout": {
-        "text": "Latvijas kalendāri 2027–2030",
+        "text": "Latvijas kalendāri no 2027. līdz 2030. gadam",
         "size": 55,
         "lines": [
           "Latvijas kalendāri",
-          "2027–2030"
+          "no 2027. līdz 2030.",
+          "gadam"
         ],
         "bounds": [
           [
@@ -10575,8 +10485,14 @@
           [
             60.0,
             248.0,
-            370.0,
-            288.0
+            559.0,
+            288.5
+          ],
+          [
+            60.0,
+            311.5,
+            245.0,
+            364.5
           ]
         ],
         "region": [
@@ -10618,9 +10534,9 @@
         "/assets/tools-art/year.svg": "1b30a7395539138487d2ae0524132a45c18aec36ae1041c2e93c199005ccb941"
       },
       "panelSha256": "9ba2ddae4470e0a92bd88232931d142a60a3f2c528b3346beb45341b64e2d1a4",
-      "pixelSha256": "44027721c3c143c49cc83229ace6e04e47f115060b5a559c23eeae42c95510fc",
-      "sha256": "333b94660dd95b162fe54b8b4a0339394da3f4626f67338eeb9cf81f8896b237",
-      "bytes": 93467,
+      "pixelSha256": "2c5ab997e0107ca2feccfb314f64f00e69f2aeebe49c0790f9716ee983a645e5",
+      "sha256": "006346596b68a8870d87914aeacc7288cbbe36c3daafe62711c2dd4630452863",
+      "bytes": 102240,
       "semanticFacts": {}
     },
     "/kalendars/2027/": {
@@ -54099,44 +54015,37 @@
     },
     "/pdf-kalendari/": {
       "url": "/pdf-kalendari/",
-      "title": "Kalendāri drukāšanai: PDF un attēli",
+      "title": "PDF kalendāri un attēli drukāšanai",
       "family": "hub",
-      "src": "/assets/social-cards/v2/20b68b66a5d6f020-f1f3966c0e24.jpg",
+      "src": "/assets/social-cards/v2/20b68b66a5d6f020-73f498924df2.jpg",
       "width": 1200,
       "height": 630,
       "type": "image/jpeg",
-      "alt": "Kalendāri drukāšanai: PDF un attēli | Kalendārs365 Latvijai",
+      "alt": "PDF kalendāri un attēli drukāšanai | Kalendārs365 Latvijai",
       "design": "studio",
       "kicker": "TAVS PLĀNS UZ PAPĪRA",
       "subtitle": "2027 · 2028 · 2029 · 2030",
       "year": 2027,
       "month": null,
       "titleLayout": {
-        "text": "Kalendāri drukāšanai: PDF un attēli",
+        "text": "PDF kalendāri un attēli drukāšanai",
         "size": 55,
         "lines": [
-          "Kalendāri",
-          "drukāšanai: PDF un",
-          "attēli"
+          "PDF kalendāri un",
+          "attēli drukāšanai"
         ],
         "bounds": [
           [
             60.0,
             184.0,
-            316.0,
+            508.5,
             225.0
           ],
           [
             60.0,
             248.0,
-            570.5,
+            514.0,
             290.0
-          ],
-          [
-            60.0,
-            311.5,
-            202.0,
-            352.5
           ]
         ],
         "region": [
@@ -54178,9 +54087,9 @@
         "/assets/tools-art/print.svg": "5b121541c82ce482a7b1295ce1197ce27e8f6b7a1ed2bed95c254092088a50e7"
       },
       "panelSha256": "55224ce5a2b8a7f5c623ecf3ce32ee4a814b1b1c2e739da9907bf29e48146c30",
-      "pixelSha256": "f1f3966c0e24a93c8a0786fb9f5e848b2d76f9166c1f403e542fa4d66b637a32",
-      "sha256": "9413e680cfeabeaee54bbc404a794c38ba4af03915fee7bc7a7dae888ea7a0b8",
-      "bytes": 89375,
+      "pixelSha256": "73f498924df2e5907343e7fda5450e38a3770e67d4b55664647724ab94ab40e1",
+      "sha256": "3e6b96a0b4571bc5cb37b4ecdabf90fcb5ec5ed6153b91c70809833fad02cf66",
+      "bytes": 88708,
       "semanticFacts": {}
     },
     "/pdf-kalendari/2027/": {
@@ -66773,25 +66682,24 @@
     },
     "/sejas-kalendars/burkani/": {
       "url": "/sejas-kalendars/burkani/",
-      "title": "Burkānu audzēšana: sēja, kopšana un raža",
+      "title": "Burkānu audzēšana Latvijā",
       "family": "garden",
-      "src": "/assets/social-cards/v2/82af6ab4099221e4-4617c1b60adf.jpg",
+      "src": "/assets/social-cards/v2/82af6ab4099221e4-bb973bf59ffb.jpg",
       "width": 1200,
       "height": 630,
       "type": "image/jpeg",
-      "alt": "Burkānu audzēšana: sēja, kopšana un raža | Kalendārs365 Latvijai",
+      "alt": "Burkānu audzēšana Latvijā | Kalendārs365 Latvijai",
       "design": "garden",
       "kicker": "SĒJAS UN STĀDĪŠANAS CEĻVEDIS",
       "subtitle": "Ievērojot augsni, šķirni un laikapstākļus",
       "year": 2027,
       "month": null,
       "titleLayout": {
-        "text": "Burkānu audzēšana: sēja, kopšana un raža",
+        "text": "Burkānu audzēšana Latvijā",
         "size": 55,
         "lines": [
           "Burkānu",
-          "audzēšana: sēja,",
-          "kopšana un raža"
+          "audzēšana Latvijā"
         ],
         "bounds": [
           [
@@ -66803,14 +66711,8 @@
           [
             60.0,
             248.0,
-            500.5,
+            544.0,
             301.5
-          ],
-          [
-            60.0,
-            311.5,
-            498.0,
-            365.0
           ]
         ],
         "region": [
@@ -66860,51 +66762,44 @@
         "/assets/garden/photos/burkani-960.webp": "f9b6cef2deb72e33bb2afa1a5459d7de201b8b7c4356f130d3d7e239863d4b4e"
       },
       "panelSha256": "144ad59ea5b871126d9499b621e28cf0d259fa62fda490bc48b6494acbd4b59a",
-      "pixelSha256": "4617c1b60adff2e0ed4ebf81d4369aac3aa6b2293b641aa184ed677780bd02b3",
-      "sha256": "64998ec20f0d4e5747e3c604b6dabc7d32e87dcef500aacfb1eb4e87d0ef22db",
-      "bytes": 139030,
+      "pixelSha256": "bb973bf59ffb1c0038d8efb25a21cd542f192c40b0d1e955a8e91c735ee21771",
+      "sha256": "9ccf4ecd4475f4d84482156e3bc4127cf7750e7402b6e5c24731032a1953c700",
+      "bytes": 128412,
       "semanticFacts": {}
     },
     "/sejas-kalendars/dilles/": {
       "url": "/sejas-kalendars/dilles/",
-      "title": "Diļļu audzēšana: sēja, kopšana un raža",
+      "title": "Diļļu audzēšana Latvijā",
       "family": "garden",
-      "src": "/assets/social-cards/v2/af98d1c713a2e09a-44414e52423b.jpg",
+      "src": "/assets/social-cards/v2/af98d1c713a2e09a-98f217e47776.jpg",
       "width": 1200,
       "height": 630,
       "type": "image/jpeg",
-      "alt": "Diļļu audzēšana: sēja, kopšana un raža | Kalendārs365 Latvijai",
+      "alt": "Diļļu audzēšana Latvijā | Kalendārs365 Latvijai",
       "design": "garden",
       "kicker": "SĒJAS UN STĀDĪŠANAS CEĻVEDIS",
       "subtitle": "Ievērojot augsni, šķirni un laikapstākļus",
       "year": 2027,
       "month": null,
       "titleLayout": {
-        "text": "Diļļu audzēšana: sēja, kopšana un raža",
+        "text": "Diļļu audzēšana Latvijā",
         "size": 55,
         "lines": [
-          "Diļļu audzēšana:",
-          "sēja, kopšana un",
-          "raža"
+          "Diļļu audzēšana",
+          "Latvijā"
         ],
         "bounds": [
           [
             60.0,
             184.0,
-            494.5,
+            480.5,
             241.0
           ],
           [
             60.0,
             248.0,
-            506.0,
-            301.5
-          ],
-          [
-            60.0,
-            311.5,
-            175.0,
-            353.0
+            240.5,
+            300.5
           ]
         ],
         "region": [
@@ -66954,32 +66849,31 @@
         "/assets/garden/photos/dilles-960.webp": "f30a8f01246c63591d955c6324180e90790036b4cbcd02351974ee839869a8bb"
       },
       "panelSha256": "d1611b3a71f6d8e74d76166c960e157cc87eccd8d9db4913913e3b90fb11297a",
-      "pixelSha256": "44414e52423b7621ec0ebaf01a8999ed379593e9e19a1b80cb837ca9504de66a",
-      "sha256": "6025c1f40e8fee2bdf4798a646e98decd4f8a68569a68e00bdbc8ef2f20bd74d",
-      "bytes": 172835,
+      "pixelSha256": "98f217e47776264a7fdca5b118bbabf4f65606d90989aa6d8f96040fde105c48",
+      "sha256": "179239846187c25f98e60d42a71a6b03652254384723b0eac17db80496d92b4a",
+      "bytes": 162026,
       "semanticFacts": {}
     },
     "/sejas-kalendars/galda-bietes/": {
       "url": "/sejas-kalendars/galda-bietes/",
-      "title": "Galda biešu audzēšana: sēja, kopšana un raža",
+      "title": "Galda biešu audzēšana Latvijā",
       "family": "garden",
-      "src": "/assets/social-cards/v2/0e5b65747190d3c2-3420c58f7da5.jpg",
+      "src": "/assets/social-cards/v2/0e5b65747190d3c2-b5ac9c6dbb30.jpg",
       "width": 1200,
       "height": 630,
       "type": "image/jpeg",
-      "alt": "Galda biešu audzēšana: sēja, kopšana un raža | Kalendārs365 Latvijai",
+      "alt": "Galda biešu audzēšana Latvijā | Kalendārs365 Latvijai",
       "design": "garden",
       "kicker": "SĒJAS UN STĀDĪŠANAS CEĻVEDIS",
       "subtitle": "Ievērojot augsni, šķirni un laikapstākļus",
       "year": 2027,
       "month": null,
       "titleLayout": {
-        "text": "Galda biešu audzēšana: sēja, kopšana un raža",
+        "text": "Galda biešu audzēšana Latvijā",
         "size": 55,
         "lines": [
           "Galda biešu",
-          "audzēšana: sēja,",
-          "kopšana un raža"
+          "audzēšana Latvijā"
         ],
         "bounds": [
           [
@@ -66991,14 +66885,8 @@
           [
             60.0,
             248.0,
-            500.5,
+            544.0,
             301.5
-          ],
-          [
-            60.0,
-            311.5,
-            498.0,
-            365.0
           ]
         ],
         "region": [
@@ -67048,51 +66936,44 @@
         "/assets/garden/photos/galda-bietes-960.webp": "cb81dfdf4085c5384a605475a79959a39d8293fb94ce9c48623672f5209609b9"
       },
       "panelSha256": "4f93b466b21f65fac52104e1468afd583e75e24972390b3a48a2d46f74e2b6f2",
-      "pixelSha256": "3420c58f7da5fb4a5968f2dfac44c2dbab49f4831c4ba5b789ce9c7cdaa0b9f3",
-      "sha256": "00d94b9ca889412de0a242fd87091cc4d535aa3e64f050af018e791e1053fbf3",
-      "bytes": 147937,
+      "pixelSha256": "b5ac9c6dbb3091d9912e39625be6d2d59f1474950681de3bf88116f6bfee4ce7",
+      "sha256": "93823284dddc7ae32d98ad16b80cfba91d88adb37edf1077c81dee7c43fda117",
+      "bytes": 137410,
       "semanticFacts": {}
     },
     "/sejas-kalendars/gurki/": {
       "url": "/sejas-kalendars/gurki/",
-      "title": "Gurķu audzēšana: sēja, kopšana un raža",
+      "title": "Gurķu audzēšana Latvijā",
       "family": "garden",
-      "src": "/assets/social-cards/v2/1d859baea85ab681-4bc65c1f148f.jpg",
+      "src": "/assets/social-cards/v2/1d859baea85ab681-817267eb4b5b.jpg",
       "width": 1200,
       "height": 630,
       "type": "image/jpeg",
-      "alt": "Gurķu audzēšana: sēja, kopšana un raža | Kalendārs365 Latvijai",
+      "alt": "Gurķu audzēšana Latvijā | Kalendārs365 Latvijai",
       "design": "garden",
       "kicker": "SĒJAS UN STĀDĪŠANAS CEĻVEDIS",
       "subtitle": "Ievērojot augsni, šķirni un laikapstākļus",
       "year": 2027,
       "month": null,
       "titleLayout": {
-        "text": "Gurķu audzēšana: sēja, kopšana un raža",
+        "text": "Gurķu audzēšana Latvijā",
         "size": 55,
         "lines": [
-          "Gurķu audzēšana:",
-          "sēja, kopšana un",
-          "raža"
+          "Gurķu audzēšana",
+          "Latvijā"
         ],
         "bounds": [
           [
             60.0,
             184.0,
-            542.5,
+            528.5,
             240.5
           ],
           [
             60.0,
             248.0,
-            506.0,
-            301.5
-          ],
-          [
-            60.0,
-            311.5,
-            175.0,
-            353.0
+            240.5,
+            300.5
           ]
         ],
         "region": [
@@ -67142,32 +67023,31 @@
         "/assets/garden/photos/gurki-960.webp": "31fb77da1abf97a8c3d91d6eedc20f1df3b149f51b188cb240bbdb488cc45524"
       },
       "panelSha256": "44b9a191646e6dcc9b01a48b58dcd6537cc72469830031afd844ebbe61cc1669",
-      "pixelSha256": "4bc65c1f148f26ea06baecb3723a9c36aed95860a81beecd76780458fec75d9b",
-      "sha256": "3ec8f39e71d6976b29b892063e27d887493548bceae305e28b90a76e0834e2cc",
-      "bytes": 163401,
+      "pixelSha256": "817267eb4b5bfb8a038785a870280aababc68dafff4d176500a3e786f3b176a2",
+      "sha256": "eeda6fa13f024321c800fcd62f521ec01e424d1a10c37cc42deb32d4f468eb25",
+      "bytes": 152632,
       "semanticFacts": {}
     },
     "/sejas-kalendars/kaposti/": {
       "url": "/sejas-kalendars/kaposti/",
-      "title": "Galviņkāpostu audzēšana: sēja, kopšana un raža",
+      "title": "Galviņkāpostu audzēšana Latvijā",
       "family": "garden",
-      "src": "/assets/social-cards/v2/23c8d7f901574e94-8002e6e58f62.jpg",
+      "src": "/assets/social-cards/v2/23c8d7f901574e94-d65ddf6ae58a.jpg",
       "width": 1200,
       "height": 630,
       "type": "image/jpeg",
-      "alt": "Galviņkāpostu audzēšana: sēja, kopšana un raža | Kalendārs365 Latvijai",
+      "alt": "Galviņkāpostu audzēšana Latvijā | Kalendārs365 Latvijai",
       "design": "garden",
       "kicker": "SĒJAS UN STĀDĪŠANAS CEĻVEDIS",
       "subtitle": "Ievērojot augsni, šķirni un laikapstākļus",
       "year": 2027,
       "month": null,
       "titleLayout": {
-        "text": "Galviņkāpostu audzēšana: sēja, kopšana un raža",
+        "text": "Galviņkāpostu audzēšana Latvijā",
         "size": 55,
         "lines": [
           "Galviņkāpostu",
-          "audzēšana: sēja,",
-          "kopšana un raža"
+          "audzēšana Latvijā"
         ],
         "bounds": [
           [
@@ -67179,14 +67059,8 @@
           [
             60.0,
             248.0,
-            500.5,
+            544.0,
             301.5
-          ],
-          [
-            60.0,
-            311.5,
-            498.0,
-            365.0
           ]
         ],
         "region": [
@@ -67236,32 +67110,31 @@
         "/assets/garden/photos/kaposti-960.webp": "44fc6b585ea4e094f3353828cac85089738720079d05f87f779ecf7f9231177d"
       },
       "panelSha256": "7ddacf557820658bad77a4bd89255df304df39cda10090bbe927fdb1021b4548",
-      "pixelSha256": "8002e6e58f62f1538aa155f683dca8d1da0b25424f438857c7af8fafc3732936",
-      "sha256": "302c92cd1a532b1f755695404a6042e9c66d36a35f44dc5822678656b1b43d37",
-      "bytes": 142698,
+      "pixelSha256": "d65ddf6ae58a51957aeff69f45d613be7d5e1f39c0feeb0375cc53c15d0cd752",
+      "sha256": "85bf250d27b5020af95fb62bc2729be86181a87909a4c83957261de4e61d34b6",
+      "bytes": 132094,
       "semanticFacts": {}
     },
     "/sejas-kalendars/kartupeli/": {
       "url": "/sejas-kalendars/kartupeli/",
-      "title": "Kartupeļu audzēšana: sēja, kopšana un raža",
+      "title": "Kartupeļu audzēšana Latvijā",
       "family": "garden",
-      "src": "/assets/social-cards/v2/c5266fba21fb0b43-9991f84c0688.jpg",
+      "src": "/assets/social-cards/v2/c5266fba21fb0b43-edc1ce573ec8.jpg",
       "width": 1200,
       "height": 630,
       "type": "image/jpeg",
-      "alt": "Kartupeļu audzēšana: sēja, kopšana un raža | Kalendārs365 Latvijai",
+      "alt": "Kartupeļu audzēšana Latvijā | Kalendārs365 Latvijai",
       "design": "garden",
       "kicker": "SĒJAS UN STĀDĪŠANAS CEĻVEDIS",
       "subtitle": "Ievērojot augsni, šķirni un laikapstākļus",
       "year": 2027,
       "month": null,
       "titleLayout": {
-        "text": "Kartupeļu audzēšana: sēja, kopšana un raža",
+        "text": "Kartupeļu audzēšana Latvijā",
         "size": 55,
         "lines": [
           "Kartupeļu",
-          "audzēšana: sēja,",
-          "kopšana un raža"
+          "audzēšana Latvijā"
         ],
         "bounds": [
           [
@@ -67273,14 +67146,8 @@
           [
             60.0,
             248.0,
-            500.5,
+            544.0,
             301.5
-          ],
-          [
-            60.0,
-            311.5,
-            498.0,
-            365.0
           ]
         ],
         "region": [
@@ -67330,51 +67197,44 @@
         "/assets/garden/photos/kartupeli-960.webp": "fb84789064f4a9670c7c41d59125e37405e4f8b65fde052a71cbb6874ef17531"
       },
       "panelSha256": "c7172782808257785a9f306b6337050db6c2ab528dc6901d4c5fd63ff86bc583",
-      "pixelSha256": "9991f84c06883f3c57fc097472d4e13d8a07982f12c85ed1580580005646c7e5",
-      "sha256": "f705626c6f2e4c44f622125a74be3bbbcc1e0273d2bdeb17292ebffee78c7441",
-      "bytes": 168376,
+      "pixelSha256": "edc1ce573ec8c1e0b245ed4a026562442899387e90a17245f8089786366a812a",
+      "sha256": "640b2c3295a05a56371f03452269cbc3a7ad9470bcc18f1d8eaebb01a94db8ee",
+      "bytes": 157603,
       "semanticFacts": {}
     },
     "/sejas-kalendars/kiploki/": {
       "url": "/sejas-kalendars/kiploki/",
-      "title": "Ķiploku audzēšana: sēja, kopšana un raža",
+      "title": "Ķiploku audzēšana Latvijā",
       "family": "garden",
-      "src": "/assets/social-cards/v2/78fd865bc43bdc11-1237c446e3ce.jpg",
+      "src": "/assets/social-cards/v2/78fd865bc43bdc11-c4021f7a7c88.jpg",
       "width": 1200,
       "height": 630,
       "type": "image/jpeg",
-      "alt": "Ķiploku audzēšana: sēja, kopšana un raža | Kalendārs365 Latvijai",
+      "alt": "Ķiploku audzēšana Latvijā | Kalendārs365 Latvijai",
       "design": "garden",
       "kicker": "SĒJAS UN STĀDĪŠANAS CEĻVEDIS",
       "subtitle": "Ievērojot augsni, šķirni un laikapstākļus",
       "year": 2027,
       "month": null,
       "titleLayout": {
-        "text": "Ķiploku audzēšana: sēja, kopšana un raža",
+        "text": "Ķiploku audzēšana Latvijā",
         "size": 55,
         "lines": [
-          "Ķiploku",
-          "audzēšana: sēja,",
-          "kopšana un raža"
+          "Ķiploku audzēšana",
+          "Latvijā"
         ],
         "bounds": [
           [
             60.0,
             184.0,
-            260.5,
-            240.0
+            564.0,
+            241.0
           ],
           [
             60.0,
             248.0,
-            500.5,
-            301.5
-          ],
-          [
-            60.0,
-            311.5,
-            498.0,
-            365.0
+            240.5,
+            300.5
           ]
         ],
         "region": [
@@ -67424,9 +67284,9 @@
         "/assets/garden/photos/kiploki-960.webp": "cd6d9afaac4881ca7651e71d1f1d479b629edf4aab0a0dfdecac22a47cf150cb"
       },
       "panelSha256": "87b5781baee8cb78101a493d770cfca74f527c339394d1ebcdf941feaf261e3c",
-      "pixelSha256": "1237c446e3cec086568431c3424e8f5bfcfe5ae4dcd5355dd126bb1ff3690a7f",
-      "sha256": "c43888eb481dd66d51028bdc9c294423968bba42f2f52e98e34ac27e8056630c",
-      "bytes": 133231,
+      "pixelSha256": "c4021f7a7c882174afd1fe61103f6d60e56ec0cb09993451e08d9030033cc8e0",
+      "sha256": "2fe2cc1eb6b584a7abda7584d474143778a9e0536eb4a7f9e498047a2aa1ba6d",
+      "bytes": 122479,
       "semanticFacts": {}
     },
     "/sejas-kalendars/menesis/aprilis/": {
@@ -68379,25 +68239,24 @@
     },
     "/sejas-kalendars/pupinas/": {
       "url": "/sejas-kalendars/pupinas/",
-      "title": "Dārza pupiņu audzēšana: sēja, kopšana un raža",
+      "title": "Dārza pupiņu audzēšana Latvijā",
       "family": "garden",
-      "src": "/assets/social-cards/v2/c280c9f29b0de39c-5a4e58669f78.jpg",
+      "src": "/assets/social-cards/v2/c280c9f29b0de39c-3e6b1f9d191c.jpg",
       "width": 1200,
       "height": 630,
       "type": "image/jpeg",
-      "alt": "Dārza pupiņu audzēšana: sēja, kopšana un raža | Kalendārs365 Latvijai",
+      "alt": "Dārza pupiņu audzēšana Latvijā | Kalendārs365 Latvijai",
       "design": "garden",
       "kicker": "SĒJAS UN STĀDĪŠANAS CEĻVEDIS",
       "subtitle": "Ievērojot augsni, šķirni un laikapstākļus",
       "year": 2027,
       "month": null,
       "titleLayout": {
-        "text": "Dārza pupiņu audzēšana: sēja, kopšana un raža",
+        "text": "Dārza pupiņu audzēšana Latvijā",
         "size": 55,
         "lines": [
           "Dārza pupiņu",
-          "audzēšana: sēja,",
-          "kopšana un raža"
+          "audzēšana Latvijā"
         ],
         "bounds": [
           [
@@ -68409,14 +68268,8 @@
           [
             60.0,
             248.0,
-            500.5,
+            544.0,
             301.5
-          ],
-          [
-            60.0,
-            311.5,
-            498.0,
-            365.0
           ]
         ],
         "region": [
@@ -68466,51 +68319,44 @@
         "/assets/garden/photos/pupinas-960.webp": "fd3b191a6834204a227e351543b20769ab554b8683dc9735d1323bd5fbcc181b"
       },
       "panelSha256": "b7ad24b2f45c3d9f1e9d222335b9107b2fb922da424037fba9267a1e84dd0a37",
-      "pixelSha256": "5a4e58669f78c059aa0eb6fa32db8304a9e8d1edb710f1de764756d6c7ad972d",
-      "sha256": "4bbb308c17d272fe97b11b982eb7c93ef45bbb5f94103466e16fe827b2d1d974",
-      "bytes": 194442,
+      "pixelSha256": "3e6b1f9d191c049825f3acdfee8b95c8b3d7d9644aad411c96856f88a2275ec1",
+      "sha256": "55112f3f362b237f2c307321a754761b5d2ad4481d2734fd99123d150af0559a",
+      "bytes": 183772,
       "semanticFacts": {}
     },
     "/sejas-kalendars/puravi/": {
       "url": "/sejas-kalendars/puravi/",
-      "title": "Puravu audzēšana: sēja, kopšana un raža",
+      "title": "Puravu audzēšana Latvijā",
       "family": "garden",
-      "src": "/assets/social-cards/v2/5e3d00387a934556-eca1c31a0755.jpg",
+      "src": "/assets/social-cards/v2/5e3d00387a934556-4713a7b1a9cc.jpg",
       "width": 1200,
       "height": 630,
       "type": "image/jpeg",
-      "alt": "Puravu audzēšana: sēja, kopšana un raža | Kalendārs365 Latvijai",
+      "alt": "Puravu audzēšana Latvijā | Kalendārs365 Latvijai",
       "design": "garden",
       "kicker": "SĒJAS UN STĀDĪŠANAS CEĻVEDIS",
       "subtitle": "Ievērojot augsni, šķirni un laikapstākļus",
       "year": 2027,
       "month": null,
       "titleLayout": {
-        "text": "Puravu audzēšana: sēja, kopšana un raža",
+        "text": "Puravu audzēšana Latvijā",
         "size": 55,
         "lines": [
-          "Puravu audzēšana:",
-          "sēja, kopšana un",
-          "raža"
+          "Puravu audzēšana",
+          "Latvijā"
         ],
         "bounds": [
           [
             60.0,
             184.0,
-            565.5,
+            551.5,
             226.0
           ],
           [
             60.0,
             248.0,
-            506.0,
-            301.5
-          ],
-          [
-            60.0,
-            311.5,
-            175.0,
-            353.0
+            240.5,
+            300.5
           ]
         ],
         "region": [
@@ -68560,51 +68406,44 @@
         "/assets/garden/photos/puravi-960.webp": "840aecc9a08de2e28757903b84818bb9d4cd1c7e41abcbfdca8fef126adde380"
       },
       "panelSha256": "04feddbc07f3dc0d69b0c0d08b516811eebe01b4f1e8cf9f0955351cd3d182bb",
-      "pixelSha256": "eca1c31a07557477dd9afdd6c1f38ff9bee0823929aafd38bb89ef8d0180495e",
-      "sha256": "503b0334b84a1b588dcaee76c2930d724df205596628d11f8b7f1b40dc6d8944",
-      "bytes": 98684,
+      "pixelSha256": "4713a7b1a9cc8343f6b14fe8220cef0f8193bc525ece25bee684fb831f0daab8",
+      "sha256": "6a5f7bb30381101786ea0887c2977134d1fb7484072f096ec08e1bc35051f647",
+      "bytes": 87871,
       "semanticFacts": {}
     },
     "/sejas-kalendars/redisi/": {
       "url": "/sejas-kalendars/redisi/",
-      "title": "Redīsu audzēšana: sēja, kopšana un raža",
+      "title": "Redīsu audzēšana Latvijā",
       "family": "garden",
-      "src": "/assets/social-cards/v2/d253f16ec2a7d261-862a66c7a87e.jpg",
+      "src": "/assets/social-cards/v2/d253f16ec2a7d261-70154e7ea8f4.jpg",
       "width": 1200,
       "height": 630,
       "type": "image/jpeg",
-      "alt": "Redīsu audzēšana: sēja, kopšana un raža | Kalendārs365 Latvijai",
+      "alt": "Redīsu audzēšana Latvijā | Kalendārs365 Latvijai",
       "design": "garden",
       "kicker": "SĒJAS UN STĀDĪŠANAS CEĻVEDIS",
       "subtitle": "Ievērojot augsni, šķirni un laikapstākļus",
       "year": 2027,
       "month": null,
       "titleLayout": {
-        "text": "Redīsu audzēšana: sēja, kopšana un raža",
+        "text": "Redīsu audzēšana Latvijā",
         "size": 55,
         "lines": [
-          "Redīsu audzēšana:",
-          "sēja, kopšana un",
-          "raža"
+          "Redīsu audzēšana",
+          "Latvijā"
         ],
         "bounds": [
           [
             60.0,
             184.0,
-            559.0,
+            545.0,
             226.0
           ],
           [
             60.0,
             248.0,
-            506.0,
-            301.5
-          ],
-          [
-            60.0,
-            311.5,
-            175.0,
-            353.0
+            240.5,
+            300.5
           ]
         ],
         "region": [
@@ -68654,32 +68493,31 @@
         "/assets/garden/photos/redisi-960.webp": "11e31c5764542d6c253db6d0d1ae2b75b4fb8a0137e092c633707cf1a2e76b92"
       },
       "panelSha256": "d8bc975bce72e4ac6c81b3a84e041a5e0a71d7ae0fcf6780d95a19a9db1fb81a",
-      "pixelSha256": "862a66c7a87e9ccb5975caebbff74a8e85d9eba7393c040e33b9fdf873c46a42",
-      "sha256": "a6fb597475670121bfd1b9aa52fe10cddd72e8bb3b3ca356802bdd0ac9841304",
-      "bytes": 156944,
+      "pixelSha256": "70154e7ea8f4f4342fe76a7b5e040461bbd764a1c0657ad071bfa239d5a82aba",
+      "sha256": "8300d1340b749e9aa91e3b70d869488c34129983b3444242aa00ff9d31fa32a5",
+      "bytes": 146067,
       "semanticFacts": {}
     },
     "/sejas-kalendars/saknu-selerijas/": {
       "url": "/sejas-kalendars/saknu-selerijas/",
-      "title": "Sakņu seleriju audzēšana: sēja, kopšana un raža",
+      "title": "Sakņu seleriju audzēšana Latvijā",
       "family": "garden",
-      "src": "/assets/social-cards/v2/479f6c980d28a79d-7341f13c2997.jpg",
+      "src": "/assets/social-cards/v2/479f6c980d28a79d-2f110f35a54f.jpg",
       "width": 1200,
       "height": 630,
       "type": "image/jpeg",
-      "alt": "Sakņu seleriju audzēšana: sēja, kopšana un raža | Kalendārs365 Latvijai",
+      "alt": "Sakņu seleriju audzēšana Latvijā | Kalendārs365 Latvijai",
       "design": "garden",
       "kicker": "SĒJAS UN STĀDĪŠANAS CEĻVEDIS",
       "subtitle": "Ievērojot augsni, šķirni un laikapstākļus",
       "year": 2027,
       "month": null,
       "titleLayout": {
-        "text": "Sakņu seleriju audzēšana: sēja, kopšana un raža",
+        "text": "Sakņu seleriju audzēšana Latvijā",
         "size": 55,
         "lines": [
           "Sakņu seleriju",
-          "audzēšana: sēja,",
-          "kopšana un raža"
+          "audzēšana Latvijā"
         ],
         "bounds": [
           [
@@ -68691,14 +68529,8 @@
           [
             60.0,
             248.0,
-            500.5,
+            544.0,
             301.5
-          ],
-          [
-            60.0,
-            311.5,
-            498.0,
-            365.0
           ]
         ],
         "region": [
@@ -68748,51 +68580,44 @@
         "/assets/garden/photos/saknu-selerijas-960.webp": "1d9079f4283b70d66b0223be77c1a7279911debb1992d72f7bbdf4cd551dabd0"
       },
       "panelSha256": "87d5de0992cacb04211daa85c992b4863ab80c076dd088d309af201da043917e",
-      "pixelSha256": "7341f13c29977f79b1ff54fbfaf8e8ae7be836b54c959ad45d608cd123ea1331",
-      "sha256": "9e2c3655a8e1880e33f47e0b648076c3b0a2d751b0c6fe8db2ac355f38146d86",
-      "bytes": 149444,
+      "pixelSha256": "2f110f35a54f55a2cd29c79040d7165d84aa4f04f70baffeb0a6337b85b0a7d0",
+      "sha256": "9a845ffda9b43627c26781d067a9f584e77b96161a8c07bb73c17686b18a6a3b",
+      "bytes": 138764,
       "semanticFacts": {}
     },
     "/sejas-kalendars/salati/": {
       "url": "/sejas-kalendars/salati/",
-      "title": "Salātu audzēšana: sēja, kopšana un raža",
+      "title": "Salātu audzēšana Latvijā",
       "family": "garden",
-      "src": "/assets/social-cards/v2/8ce5cfa18d9adec7-459fc9730723.jpg",
+      "src": "/assets/social-cards/v2/8ce5cfa18d9adec7-a5577965ca6f.jpg",
       "width": 1200,
       "height": 630,
       "type": "image/jpeg",
-      "alt": "Salātu audzēšana: sēja, kopšana un raža | Kalendārs365 Latvijai",
+      "alt": "Salātu audzēšana Latvijā | Kalendārs365 Latvijai",
       "design": "garden",
       "kicker": "SĒJAS UN STĀDĪŠANAS CEĻVEDIS",
       "subtitle": "Ievērojot augsni, šķirni un laikapstākļus",
       "year": 2027,
       "month": null,
       "titleLayout": {
-        "text": "Salātu audzēšana: sēja, kopšana un raža",
+        "text": "Salātu audzēšana Latvijā",
         "size": 55,
         "lines": [
-          "Salātu audzēšana:",
-          "sēja, kopšana un",
-          "raža"
+          "Salātu audzēšana",
+          "Latvijā"
         ],
         "bounds": [
           [
             60.0,
             184.0,
-            547.5,
+            533.5,
             226.0
           ],
           [
             60.0,
             248.0,
-            506.0,
-            301.5
-          ],
-          [
-            60.0,
-            311.5,
-            175.0,
-            353.0
+            240.5,
+            300.5
           ]
         ],
         "region": [
@@ -68842,51 +68667,44 @@
         "/assets/garden/photos/salati-960.webp": "7529a23aa4467bf74022b1e1663a012d25bee4ce2c6e2c55d7e58677837fb50c"
       },
       "panelSha256": "bfc1b7687dff03a9fabe42fd4127a3298b33f3dd60f8ca469406440998cc0b9e",
-      "pixelSha256": "459fc9730723983867d799f37c00e2b57cfd4e3e6f382849091e4fe595504676",
-      "sha256": "65cbb8292d133036ca2bd085bae4a83464cfae2a06fc5f90b08cb61a5cbf5178",
-      "bytes": 221010,
+      "pixelSha256": "a5577965ca6fd06a893eeb573fba2110363f1488cf381ecd509a1bcb47086eb1",
+      "sha256": "268e381671fc50e63ff4a5fd53a18b7f758b2817db16e0cabd63b350e7088998",
+      "bytes": 210278,
       "semanticFacts": {}
     },
     "/sejas-kalendars/sipoli/": {
       "url": "/sejas-kalendars/sipoli/",
-      "title": "Sīpolu audzēšana: sēja, kopšana un raža",
+      "title": "Sīpolu audzēšana Latvijā",
       "family": "garden",
-      "src": "/assets/social-cards/v2/66bfdbbafe3d29a5-28aeff0b95d7.jpg",
+      "src": "/assets/social-cards/v2/66bfdbbafe3d29a5-aee9853389c2.jpg",
       "width": 1200,
       "height": 630,
       "type": "image/jpeg",
-      "alt": "Sīpolu audzēšana: sēja, kopšana un raža | Kalendārs365 Latvijai",
+      "alt": "Sīpolu audzēšana Latvijā | Kalendārs365 Latvijai",
       "design": "garden",
       "kicker": "SĒJAS UN STĀDĪŠANAS CEĻVEDIS",
       "subtitle": "Ievērojot augsni, šķirni un laikapstākļus",
       "year": 2027,
       "month": null,
       "titleLayout": {
-        "text": "Sīpolu audzēšana: sēja, kopšana un raža",
+        "text": "Sīpolu audzēšana Latvijā",
         "size": 55,
         "lines": [
-          "Sīpolu audzēšana:",
-          "sēja, kopšana un",
-          "raža"
+          "Sīpolu audzēšana",
+          "Latvijā"
         ],
         "bounds": [
           [
             60.0,
             184.0,
-            543.5,
+            529.5,
             237.5
           ],
           [
             60.0,
             248.0,
-            506.0,
-            301.5
-          ],
-          [
-            60.0,
-            311.5,
-            175.0,
-            353.0
+            240.5,
+            300.5
           ]
         ],
         "region": [
@@ -68936,51 +68754,44 @@
         "/assets/garden/photos/sipoli-960.webp": "9ec8e83ab87efeeffd355ba3d73ce35738cd44d7d8dec7afda0d9a3186d7918f"
       },
       "panelSha256": "a91ed4c547546f7e08e896c7bf57c2c719d3273e59610651702ef44b586bb7fe",
-      "pixelSha256": "28aeff0b95d7ab5b115b5919d58075388125bd4a7c44c113923148dc9ea73ad9",
-      "sha256": "461a39af0cb90e1772524516da6e2710a624553beced6f15169da51c1a596e30",
-      "bytes": 125105,
+      "pixelSha256": "aee9853389c21f48f6c111a0b2516d5d94b3e2f1d635cf276fa9515738bccd26",
+      "sha256": "8a217e538143cf9ce40d71e4d487958bfa76e4b69279935831290108542cea65",
+      "bytes": 114321,
       "semanticFacts": {}
     },
     "/sejas-kalendars/spinati/": {
       "url": "/sejas-kalendars/spinati/",
-      "title": "Spinātu audzēšana: sēja, kopšana un raža",
+      "title": "Spinātu audzēšana Latvijā",
       "family": "garden",
-      "src": "/assets/social-cards/v2/1060bf9aebe37ff7-e9240e633974.jpg",
+      "src": "/assets/social-cards/v2/1060bf9aebe37ff7-e9cdc349beb4.jpg",
       "width": 1200,
       "height": 630,
       "type": "image/jpeg",
-      "alt": "Spinātu audzēšana: sēja, kopšana un raža | Kalendārs365 Latvijai",
+      "alt": "Spinātu audzēšana Latvijā | Kalendārs365 Latvijai",
       "design": "garden",
       "kicker": "SĒJAS UN STĀDĪŠANAS CEĻVEDIS",
       "subtitle": "Ievērojot augsni, šķirni un laikapstākļus",
       "year": 2027,
       "month": null,
       "titleLayout": {
-        "text": "Spinātu audzēšana: sēja, kopšana un raža",
+        "text": "Spinātu audzēšana Latvijā",
         "size": 55,
         "lines": [
-          "Spinātu",
-          "audzēšana: sēja,",
-          "kopšana un raža"
+          "Spinātu audzēšana",
+          "Latvijā"
         ],
         "bounds": [
           [
             60.0,
             184.0,
-            268.0,
-            236.5
+            571.5,
+            237.5
           ],
           [
             60.0,
             248.0,
-            500.5,
-            301.5
-          ],
-          [
-            60.0,
-            311.5,
-            498.0,
-            365.0
+            240.5,
+            300.5
           ]
         ],
         "region": [
@@ -69030,51 +68841,44 @@
         "/assets/garden/photos/spinati-960.webp": "1f174176c5f8b7186b6fa712c723e08290e87e7bd0fad2edc927b86b43d69d7b"
       },
       "panelSha256": "6567912f38b1517a1c0053c0fe42a3a64bf6fd908ebc537507f49b5200bf2686",
-      "pixelSha256": "e9240e633974df32f4912b4fc34a19967a9b36769526d7976a8406a1cd2319ce",
-      "sha256": "093dfceaaacb64f81aad6454caeccc490f149cc1c2c6a0998360b2165dcecc48",
-      "bytes": 154159,
+      "pixelSha256": "e9cdc349beb49545907bb0f73d55a114f9ba6c79bb9d75f24029747621e57099",
+      "sha256": "ec06005baa776213eda845d91a692a691a22836c2525dbf611deb9957b39e34a",
+      "bytes": 143222,
       "semanticFacts": {}
     },
     "/sejas-kalendars/tomati/": {
       "url": "/sejas-kalendars/tomati/",
-      "title": "Tomātu audzēšana: sēja, kopšana un raža",
+      "title": "Tomātu audzēšana Latvijā",
       "family": "garden",
-      "src": "/assets/social-cards/v2/a4f6d23eb16d417a-2a19f9a896ca.jpg",
+      "src": "/assets/social-cards/v2/a4f6d23eb16d417a-016676a256c4.jpg",
       "width": 1200,
       "height": 630,
       "type": "image/jpeg",
-      "alt": "Tomātu audzēšana: sēja, kopšana un raža | Kalendārs365 Latvijai",
+      "alt": "Tomātu audzēšana Latvijā | Kalendārs365 Latvijai",
       "design": "garden",
       "kicker": "SĒJAS UN STĀDĪŠANAS CEĻVEDIS",
       "subtitle": "Ievērojot augsni, šķirni un laikapstākļus",
       "year": 2027,
       "month": null,
       "titleLayout": {
-        "text": "Tomātu audzēšana: sēja, kopšana un raža",
+        "text": "Tomātu audzēšana Latvijā",
         "size": 55,
         "lines": [
-          "Tomātu",
-          "audzēšana: sēja,",
-          "kopšana un raža"
+          "Tomātu audzēšana",
+          "Latvijā"
         ],
         "bounds": [
           [
             60.0,
             184.0,
-            268.0,
-            223.0
+            571.5,
+            226.0
           ],
           [
             60.0,
             248.0,
-            500.5,
-            301.5
-          ],
-          [
-            60.0,
-            311.5,
-            498.0,
-            365.0
+            240.5,
+            300.5
           ]
         ],
         "region": [
@@ -69124,51 +68928,44 @@
         "/assets/garden/photos/tomati-960.webp": "8c1c6c88c99f3d70cfdefbd0856e8b3dbf4b92fc23c668f9969f46a52c805ea3"
       },
       "panelSha256": "80a5a26636cdd0f7b59623e9aa139546fba553553188f2159a4e312a1c011b26",
-      "pixelSha256": "2a19f9a896ca0a51761be307f906a8827fbbc7c6ebc49ae2c703fc708c1008ef",
-      "sha256": "106d712e81f253f2b899d621be5d2748d392741eca0552956dfa85bd7d3308c6",
-      "bytes": 119994,
+      "pixelSha256": "016676a256c4839b77ed19b94bd6c01e13c8f166637b8f9ad4782656ed6d0866",
+      "sha256": "9647ee0757f96f4475772fc28ced237fef3309a3d0f51e4a3f943b73608cde74",
+      "bytes": 109481,
       "semanticFacts": {}
     },
     "/sejas-kalendars/zirni/": {
       "url": "/sejas-kalendars/zirni/",
-      "title": "Zirņu audzēšana: sēja, kopšana un raža",
+      "title": "Zirņu audzēšana Latvijā",
       "family": "garden",
-      "src": "/assets/social-cards/v2/3279a7772262d6fd-7f6229c56561.jpg",
+      "src": "/assets/social-cards/v2/3279a7772262d6fd-e84b6aca3b88.jpg",
       "width": 1200,
       "height": 630,
       "type": "image/jpeg",
-      "alt": "Zirņu audzēšana: sēja, kopšana un raža | Kalendārs365 Latvijai",
+      "alt": "Zirņu audzēšana Latvijā | Kalendārs365 Latvijai",
       "design": "garden",
       "kicker": "SĒJAS UN STĀDĪŠANAS CEĻVEDIS",
       "subtitle": "Ievērojot augsni, šķirni un laikapstākļus",
       "year": 2027,
       "month": null,
       "titleLayout": {
-        "text": "Zirņu audzēšana: sēja, kopšana un raža",
+        "text": "Zirņu audzēšana Latvijā",
         "size": 55,
         "lines": [
-          "Zirņu audzēšana:",
-          "sēja, kopšana un",
-          "raža"
+          "Zirņu audzēšana",
+          "Latvijā"
         ],
         "bounds": [
           [
             60.0,
             184.0,
-            514.5,
+            500.5,
             241.0
           ],
           [
             60.0,
             248.0,
-            506.0,
-            301.5
-          ],
-          [
-            60.0,
-            311.5,
-            175.0,
-            353.0
+            240.5,
+            300.5
           ]
         ],
         "region": [
@@ -69218,9 +69015,9 @@
         "/assets/garden/photos/zirni-960.webp": "6443d77bff6a3797d1aaca001ef7f2c022a02d4d2027c7d879dc098ee60f255d"
       },
       "panelSha256": "dbf3904e28e49b514d6ada135d2e95415955a7f241905f6a68d69fdc73b58f2e",
-      "pixelSha256": "7f6229c56561ad4ebe0c9e9c0c037dc441423e6f0dfce865997e8619cc893975",
-      "sha256": "b261a02165ca1722e3f0e9c1a83fbad53eb107064a4409e664e6cc633f74c048",
-      "bytes": 144736,
+      "pixelSha256": "e84b6aca3b8869d5396434a15358f6e5eb367b5ba93f8f84a9b2873accf875ab",
+      "sha256": "14d03d961b135ce5de71e75843b5561900080cf0ccf8c3200ca0dfdbb0f7b53c",
+      "bytes": 134007,
       "semanticFacts": {}
     },
     "/sikdatnu-politika/": {
@@ -70366,23 +70163,23 @@
     },
     "/svetki-un-tradicijas/advente/": {
       "url": "/svetki-un-tradicijas/advente/",
-      "title": "Advente: četras svētdienas pirms Ziemassvētkiem",
+      "title": "Adventes svētdienas pirms Ziemassvētkiem",
       "family": "latvia_cultural",
-      "src": "/assets/social-cards/v2/3e0b3ac306de7e59-fa37a97c4c65.jpg",
+      "src": "/assets/social-cards/v2/3e0b3ac306de7e59-8d5dae8610fe.jpg",
       "width": 1200,
       "height": 630,
       "type": "image/jpeg",
-      "alt": "Advente: četras svētdienas pirms Ziemassvētkiem | Kalendārs365 Latvijai",
+      "alt": "Adventes svētdienas pirms Ziemassvētkiem | Kalendārs365 Latvijai",
       "design": "occasion",
       "kicker": "SVĒTKI UN TRADĪCIJAS",
       "subtitle": "Svētku stāsts un svarīgākie datumi",
       "year": 2027,
       "month": null,
       "titleLayout": {
-        "text": "Advente: četras svētdienas pirms Ziemassvētkiem",
+        "text": "Adventes svētdienas pirms Ziemassvētkiem",
         "size": 55,
         "lines": [
-          "Advente: četras",
+          "Adventes",
           "svētdienas pirms",
           "Ziemassvētkiem"
         ],
@@ -70390,8 +70187,8 @@
           [
             60.0,
             184.0,
-            489.5,
-            225.5
+            318.0,
+            224.5
           ],
           [
             60.0,
@@ -70451,10 +70248,10 @@
         "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93",
         "/assets/tradition-covers/tradition-advente-734de418845b-1280.webp": "734de418845b0f386e242f1325e019c84e6073a256344df843bfd50dcd59eeba"
       },
-      "panelSha256": "56aa4660ca1d94f13093253b065fa8f18f4d073d87cea1a0cac967ba4f95676a",
-      "pixelSha256": "fa37a97c4c657b7b6c39f98e6ed009c19702e78525a89f4470ac9b7546d7c94d",
-      "sha256": "c29d185f61dee389bab133d44da376fdf81678d116bcf994bb701d159d57291f",
-      "bytes": 173814,
+      "panelSha256": "7af78ed47d44680e708e132b31a03c40a5aa9e8b4eb148dfc6691c3d27469ead",
+      "pixelSha256": "8d5dae8610feed66f72bbf0fb361d597ebe54871eb057d47171b9eab3cdfb36e",
+      "sha256": "86f41829bdeea96e884b1db458c1a877e6a75d4f7b3454431bf12f90011404d8",
+      "bytes": 168874,
       "semanticFacts": {}
     },
     "/svetki-un-tradicijas/baltu-vienibas-diena/": {
@@ -72737,44 +72534,44 @@
     },
     "/svetki-un-tradicijas/martindiena/": {
       "url": "/svetki-un-tradicijas/martindiena/",
-      "title": "Mārtiņi: 10. novembris un latviešu tradīcijas",
+      "title": "Mārtiņi un 10. novembra tradīcijas Latvijā",
       "family": "latvia_cultural",
-      "src": "/assets/social-cards/v2/3cf90e668b567c17-78ce71603563.jpg",
+      "src": "/assets/social-cards/v2/3cf90e668b567c17-9712c5a66507.jpg",
       "width": 1200,
       "height": 630,
       "type": "image/jpeg",
-      "alt": "Mārtiņi: 10. novembris un latviešu tradīcijas | Kalendārs365 Latvijai",
+      "alt": "Mārtiņi un 10. novembra tradīcijas Latvijā | Kalendārs365 Latvijai",
       "design": "occasion",
       "kicker": "SVĒTKI UN TRADĪCIJAS",
       "subtitle": "Svētku stāsts un svarīgākie datumi",
       "year": 2027,
       "month": null,
       "titleLayout": {
-        "text": "Mārtiņi: 10. novembris un latviešu tradīcijas",
+        "text": "Mārtiņi un 10. novembra tradīcijas Latvijā",
         "size": 55,
         "lines": [
-          "Mārtiņi: 10.",
-          "novembris un",
-          "latviešu tradīcijas"
+          "Mārtiņi un 10.",
+          "novembra",
+          "tradīcijas Latvijā"
         ],
         "bounds": [
           [
             60.0,
             184.0,
-            351.0,
+            418.0,
             240.0
           ],
           [
             60.0,
             248.0,
-            426.5,
-            289.0
+            334.0,
+            288.5
           ],
           [
             60.0,
             311.5,
-            539.0,
-            365.0
+            507.0,
+            364.0
           ]
         ],
         "region": [
@@ -72822,10 +72619,10 @@
         "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93",
         "/assets/tradition-covers/tradition-martindiena-0adf4a85cf4d-1007.webp": "0adf4a85cf4d551db0e8cd05ef93fe02b8c6584855d001410484ad612150a7e0"
       },
-      "panelSha256": "45ea944774fb791a98c2b4131b7683220ee09bfafc59e3082e2174dc0baea596",
-      "pixelSha256": "78ce716035635d88100d829b1e633fd3b0aee2adb9358d0066558fd1ee3aec0d",
-      "sha256": "635d3bdf07beb5ccee9c5df02cba0eeed042ed75fbead6dd9ad3a8fcb7d2d7df",
-      "bytes": 148666,
+      "panelSha256": "6cc71cc9cf8b90ab9cee8db4984e783db09d4c1988be9c8e7af52d9bc4d81604",
+      "pixelSha256": "9712c5a66507a7cd875ed49a5807f72d433040bbfce38659b4a1f66be8c3b3eb",
+      "sha256": "881ebf9289cf3d6c11aaeecc1bbae74a3a9386e560731acf9937cd968717f686",
+      "bytes": 145420,
       "semanticFacts": {}
     },
     "/svetki-un-tradicijas/mates-diena/": {
@@ -73002,44 +72799,51 @@
     },
     "/svetki-un-tradicijas/meteni/": {
       "url": "/svetki-un-tradicijas/meteni/",
-      "title": "Meteņi: pavasara gaidīšana un svinēšanas laiki",
+      "title": "Meteņi un pavasara gaidīšanas tradīcijas",
       "family": "latvia_cultural",
-      "src": "/assets/social-cards/v2/eedd4140082ebd33-12388f0cca06.jpg",
+      "src": "/assets/social-cards/v2/eedd4140082ebd33-950c16d17c7e.jpg",
       "width": 1200,
       "height": 630,
       "type": "image/jpeg",
-      "alt": "Meteņi: pavasara gaidīšana un svinēšanas laiki | Kalendārs365 Latvijai",
+      "alt": "Meteņi un pavasara gaidīšanas tradīcijas | Kalendārs365 Latvijai",
       "design": "occasion",
       "kicker": "SVĒTKI UN TRADĪCIJAS",
       "subtitle": "Svētku stāsts un svarīgākie datumi",
       "year": 2027,
       "month": null,
       "titleLayout": {
-        "text": "Meteņi: pavasara gaidīšana un svinēšanas laiki",
+        "text": "Meteņi un pavasara gaidīšanas tradīcijas",
         "size": 55,
         "lines": [
-          "Meteņi: pavasara",
-          "gaidīšana un",
-          "svinēšanas laiki"
+          "Meteņi un",
+          "pavasara",
+          "gaidīšanas",
+          "tradīcijas"
         ],
         "bounds": [
           [
             60.0,
             184.0,
-            523.0,
+            328.5,
             240.0
           ],
           [
             60.0,
             248.0,
-            400.0,
-            302.5
+            308.5,
+            289.0
           ],
           [
             60.0,
             311.5,
-            480.5,
-            353.5
+            348.0,
+            366.0
+          ],
+          [
+            60.0,
+            375.5,
+            313.5,
+            428.0
           ]
         ],
         "region": [
@@ -73087,59 +72891,52 @@
         "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93",
         "/assets/tradition-covers/tradition-meteni-dd988af5ac7f-1280.webp": "dd988af5ac7f10a99d691e1e086ec586b16556194e0fea296383759d2caa82fa"
       },
-      "panelSha256": "4997f365b194f763d2d07f61a8b4a899f8fab81b38d706ee358e61c19ab0ec43",
-      "pixelSha256": "12388f0cca06d269fe15766d740162b1b1e0b125ec504eafcaedba217e8d925a",
-      "sha256": "4ed73ff0e37ffeda83574a3cacfc8be6b4e5989235a68ccaa7c987cd601a2530",
-      "bytes": 187633,
+      "panelSha256": "9f9c99d5ab7194098ee18a6242c3c6194b4fe94f70b3b7ab48a878f813ebe3c0",
+      "pixelSha256": "950c16d17c7eed11b788d5536bc55da6390ed8e3644de9553851ab88557c60ad",
+      "sha256": "4cc4d29817cc1919e11c820267a43fc35a7b8f3b6a2c3fadf93a71a9b298c77f",
+      "bytes": 182585,
       "semanticFacts": {}
     },
     "/svetki-un-tradicijas/mikeli/": {
       "url": "/svetki-un-tradicijas/mikeli/",
-      "title": "Miķeļi: 29. septembris un ražas laika tradīcijas",
+      "title": "Miķeļi un ražas svētku tradīcijas Latvijā",
       "family": "latvia_cultural",
-      "src": "/assets/social-cards/v2/42f099794d262a48-d22adde8aa29.jpg",
+      "src": "/assets/social-cards/v2/42f099794d262a48-200ceb7a3d26.jpg",
       "width": 1200,
       "height": 630,
       "type": "image/jpeg",
-      "alt": "Miķeļi: 29. septembris un ražas laika tradīcijas | Kalendārs365 Latvijai",
+      "alt": "Miķeļi un ražas svētku tradīcijas Latvijā | Kalendārs365 Latvijai",
       "design": "occasion",
       "kicker": "SVĒTKI UN TRADĪCIJAS",
       "subtitle": "Svētku stāsts un svarīgākie datumi",
       "year": 2027,
       "month": null,
       "titleLayout": {
-        "text": "Miķeļi: 29. septembris un ražas laika tradīcijas",
+        "text": "Miķeļi un ražas svētku tradīcijas Latvijā",
         "size": 55,
         "lines": [
-          "Miķeļi: 29.",
-          "septembris un",
-          "ražas laika",
-          "tradīcijas"
+          "Miķeļi un ražas",
+          "svētku tradīcijas",
+          "Latvijā"
         ],
         "bounds": [
           [
             60.0,
             184.0,
-            326.0,
-            240.0
+            456.5,
+            240.5
           ],
           [
             60.0,
             248.0,
-            449.5,
+            508.5,
             300.5
           ],
           [
             60.0,
             311.5,
-            343.0,
-            353.0
-          ],
-          [
-            60.0,
-            375.5,
-            313.5,
-            428.0
+            240.5,
+            364.0
           ]
         ],
         "region": [
@@ -73187,33 +72984,33 @@
         "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93",
         "/assets/tradition-covers/tradition-mikeli-e441fdcbdd01-1280.webp": "e441fdcbdd01efccf94609d55a5d061dad683255f980ca9b49719388d55911f7"
       },
-      "panelSha256": "1416f6a7e8f65e49f51351a919628c01f72f92ddb5e452da25d96752ff2bb2ab",
-      "pixelSha256": "d22adde8aa2947362343e9e9c8e80afb9c907cf18af64fb042aff012f34b2614",
-      "sha256": "ac3e5673a2e7174ad5c33e48c5f2ad942053eeea59f583cd39dbb400aef279ad",
-      "bytes": 190705,
+      "panelSha256": "b0910b50b79cff7e23888f0e877bf627990efd51161a5a84a4580c21029edbb1",
+      "pixelSha256": "200ceb7a3d26d8d4b37c511eb766f075c2fa9e4dbbbccca77a59b4b5b4e7e6c8",
+      "sha256": "e5678b75ac1ee3e4a51aa30f659e71c92acf725f6dd4cdc0dd182fa83298ddb3",
+      "bytes": 184330,
       "semanticFacts": {}
     },
     "/svetki-un-tradicijas/miruso-pieminas-diena/": {
       "url": "/svetki-un-tradicijas/miruso-pieminas-diena/",
-      "title": "Mirušo piemiņas dienas: katoļu un luterāņu kalendārs",
+      "title": "Mirušo piemiņas dienas katoļu un luterāņu tradīcijā",
       "family": "latvia_cultural",
-      "src": "/assets/social-cards/v2/35e6148b59fe63ab-0537a0461f4e.jpg",
+      "src": "/assets/social-cards/v2/35e6148b59fe63ab-4fbeacd97a00.jpg",
       "width": 1200,
       "height": 630,
       "type": "image/jpeg",
-      "alt": "Mirušo piemiņas dienas: katoļu un luterāņu kalendārs | Kalendārs365 Latvijai",
+      "alt": "Mirušo piemiņas dienas katoļu un luterāņu tradīcijā | Kalendārs365 Latvijai",
       "design": "occasion",
       "kicker": "SVĒTKI UN TRADĪCIJAS",
       "subtitle": "Svētku stāsts un svarīgākie datumi",
       "year": 2027,
       "month": null,
       "titleLayout": {
-        "text": "Mirušo piemiņas dienas: katoļu un luterāņu kalendārs",
+        "text": "Mirušo piemiņas dienas katoļu un luterāņu tradīcijā",
         "size": 55,
         "lines": [
           "Mirušo piemiņas",
-          "dienas: katoļu un",
-          "luterāņu kalendārs"
+          "dienas katoļu un",
+          "luterāņu tradīcijā"
         ],
         "bounds": [
           [
@@ -73225,14 +73022,14 @@
           [
             60.0,
             248.0,
-            516.5,
+            502.5,
             304.0
           ],
           [
             60.0,
             311.5,
-            566.0,
-            367.0
+            525.5,
+            367.5
           ]
         ],
         "region": [
@@ -73280,10 +73077,10 @@
         "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93",
         "/assets/tradition-covers/tradition-miruso-pieminas-diena-3a0332d24fea-1280.webp": "3a0332d24fea063a1ced2897be62755f5a5d8b60f1bd1601f4cc221a5a2efcaa"
       },
-      "panelSha256": "b16a66c1343128d661e77f07908557d9fbd44e95298119f3d78e5fdde7310a52",
-      "pixelSha256": "0537a0461f4e81070dd8263a082918fdaedb537b8531f33b5d1b09aa401ac71a",
-      "sha256": "bb025efeb40db5ea71437ce3b80c2c48718eaf7ca02dbd1142ebc914669365df",
-      "bytes": 170609,
+      "panelSha256": "b47f81a85ca384f021c4d74c23e1af0938f2fdb1a113c4ff79cf106a3e0bd25c",
+      "pixelSha256": "4fbeacd97a00d735e612730fc4bbbbe6b94264af6b4597ccbac160292077c0f3",
+      "sha256": "d4ccafa5db71be4886d4ad9eae8415e0f5c05757b0fd185edb006d8fb8c2df62",
+      "bytes": 169189,
       "semanticFacts": {}
     },
     "/svetki-un-tradicijas/nacionalas-pretosanas-kustibas-pieminas-diena/": {
@@ -74204,26 +74001,24 @@
     },
     "/svetki-un-tradicijas/pavasara-ekvinokcija/": {
       "url": "/svetki-un-tradicijas/pavasara-ekvinokcija/",
-      "title": "Pavasara ekvinokcija: astronomiskais brīdis Latvijā",
+      "title": "Pavasara ekvinokcija Latvijā",
       "family": "latvia_cultural",
-      "src": "/assets/social-cards/v2/e100ddda69b05b9a-349f67d4deda.jpg",
+      "src": "/assets/social-cards/v2/e100ddda69b05b9a-a8f7588b0592.jpg",
       "width": 1200,
       "height": 630,
       "type": "image/jpeg",
-      "alt": "Pavasara ekvinokcija: astronomiskais brīdis Latvijā | Kalendārs365 Latvijai",
+      "alt": "Pavasara ekvinokcija Latvijā | Kalendārs365 Latvijai",
       "design": "occasion",
       "kicker": "SVĒTKI UN TRADĪCIJAS",
       "subtitle": "Svētku stāsts un svarīgākie datumi",
       "year": 2027,
       "month": null,
       "titleLayout": {
-        "text": "Pavasara ekvinokcija: astronomiskais brīdis Latvijā",
+        "text": "Pavasara ekvinokcija Latvijā",
         "size": 55,
         "lines": [
           "Pavasara",
-          "ekvinokcija:",
-          "astronomiskais",
-          "brīdis Latvijā"
+          "ekvinokcija Latvijā"
         ],
         "bounds": [
           [
@@ -74235,20 +74030,8 @@
           [
             60.0,
             248.0,
-            379.0,
+            558.5,
             300.5
-          ],
-          [
-            60.0,
-            311.5,
-            472.0,
-            352.5
-          ],
-          [
-            60.0,
-            375.5,
-            406.5,
-            428.0
           ]
         ],
         "region": [
@@ -74296,10 +74079,10 @@
         "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93",
         "/assets/tradition-covers/tradition-pavasara-ekvinokcija-69c63901cfeb-1280.webp": "69c63901cfeb85da7cbbe70f9a764a4ea88175b05e0c0754d84828d9dccb6d71"
       },
-      "panelSha256": "4b432817e5cf76416a0cf2d1b9c3262d7d70435d73e407df78ab14cf82d99087",
-      "pixelSha256": "349f67d4deda3f82ad84e1998fb9380becd69636724ef9ef46ab8f768bb0f506",
-      "sha256": "69a302464fb87378c760c7719135669e94e1501eefc517b3eb7609749c2f9781",
-      "bytes": 216027,
+      "panelSha256": "75edc13129e928a8b36014fa9027917cbed014773c46a63941e0320ffecfe79e",
+      "pixelSha256": "a8f7588b05922e12fd60fa3ab6db2bf2487e0f1b22d3d7013012a07088a26327",
+      "sha256": "f8c927ba6d36c3fbb7900ae31e3616bfc1936f5c7ca38e5311e32ba5aaa1169b",
+      "bytes": 199740,
       "semanticFacts": {}
     },
     "/svetki-un-tradicijas/pavasara-tradicijas/": {
@@ -74483,44 +74266,44 @@
     },
     "/svetki-un-tradicijas/pupolu-svetdiena/": {
       "url": "/svetki-un-tradicijas/pupolu-svetdiena/",
-      "title": "Pūpolu svētdiena: datums un Lielās nedēļas sākums",
+      "title": "Pūpolu svētdiena un Lielās nedēļas sākums",
       "family": "latvia_cultural",
-      "src": "/assets/social-cards/v2/5fb442f1471aa124-9969a258ca94.jpg",
+      "src": "/assets/social-cards/v2/5fb442f1471aa124-a94e4a3bdc80.jpg",
       "width": 1200,
       "height": 630,
       "type": "image/jpeg",
-      "alt": "Pūpolu svētdiena: datums un Lielās nedēļas sākums | Kalendārs365 Latvijai",
+      "alt": "Pūpolu svētdiena un Lielās nedēļas sākums | Kalendārs365 Latvijai",
       "design": "occasion",
       "kicker": "SVĒTKI UN TRADĪCIJAS",
       "subtitle": "Svētku stāsts un svarīgākie datumi",
       "year": 2027,
       "month": null,
       "titleLayout": {
-        "text": "Pūpolu svētdiena: datums un Lielās nedēļas sākums",
+        "text": "Pūpolu svētdiena un Lielās nedēļas sākums",
         "size": 55,
         "lines": [
-          "Pūpolu svētdiena:",
-          "datums un Lielās",
-          "nedēļas sākums"
+          "Pūpolu svētdiena",
+          "un Lielās nedēļas",
+          "sākums"
         ],
         "bounds": [
           [
             60.0,
             184.0,
-            539.5,
+            525.5,
             236.5
           ],
           [
             60.0,
             248.0,
-            515.0,
-            289.0
+            520.5,
+            304.0
           ],
           [
             60.0,
             311.5,
-            492.0,
-            367.0
+            267.5,
+            352.0
           ]
         ],
         "region": [
@@ -74568,10 +74351,10 @@
         "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93",
         "/assets/tradition-covers/tradition-pupolu-svetdiena-66f097b08663-1280.webp": "66f097b086634dff47261271cf27cb633614a942e26497ea2bd00b8d48eec540"
       },
-      "panelSha256": "a3cc76d57d0bb524cc62472c451fe58dca8af6bf3b6b3333c9969133fcf5b2f3",
-      "pixelSha256": "9969a258ca941cb5166b0a9d59f43fd3609547307c9a60128c74f906295f5362",
-      "sha256": "c26f7d05fc5942082ab463edaad621be7e3949ddcb5ee1f4097314a01c9a5a14",
-      "bytes": 149069,
+      "panelSha256": "b33df50eef96e8aec18faaac567c1af688dc7676348f054822edafe7ea9411bf",
+      "pixelSha256": "a94e4a3bdc806335e8406e3a8deae58164883baa534700b0d4c64e8a9baa54e1",
+      "sha256": "0726d9d5f00b82eceab3cb31364111707041e40db116f854ba54fe1593f6283d",
+      "bytes": 140823,
       "semanticFacts": {}
     },
     "/svetki-un-tradicijas/robezsargu-diena/": {
@@ -74662,26 +74445,24 @@
     },
     "/svetki-un-tradicijas/rudens-ekvinokcija/": {
       "url": "/svetki-un-tradicijas/rudens-ekvinokcija/",
-      "title": "Rudens ekvinokcija: astronomiskais brīdis Latvijā",
+      "title": "Rudens ekvinokcija Latvijā",
       "family": "latvia_cultural",
-      "src": "/assets/social-cards/v2/0aea6f5a5b86efc5-80c9d1e66874.jpg",
+      "src": "/assets/social-cards/v2/0aea6f5a5b86efc5-6ba5706742d1.jpg",
       "width": 1200,
       "height": 630,
       "type": "image/jpeg",
-      "alt": "Rudens ekvinokcija: astronomiskais brīdis Latvijā | Kalendārs365 Latvijai",
+      "alt": "Rudens ekvinokcija Latvijā | Kalendārs365 Latvijai",
       "design": "occasion",
       "kicker": "SVĒTKI UN TRADĪCIJAS",
       "subtitle": "Svētku stāsts un svarīgākie datumi",
       "year": 2027,
       "month": null,
       "titleLayout": {
-        "text": "Rudens ekvinokcija: astronomiskais brīdis Latvijā",
+        "text": "Rudens ekvinokcija Latvijā",
         "size": 55,
         "lines": [
           "Rudens",
-          "ekvinokcija:",
-          "astronomiskais",
-          "brīdis Latvijā"
+          "ekvinokcija Latvijā"
         ],
         "bounds": [
           [
@@ -74693,20 +74474,8 @@
           [
             60.0,
             248.0,
-            379.0,
+            558.5,
             300.5
-          ],
-          [
-            60.0,
-            311.5,
-            472.0,
-            352.5
-          ],
-          [
-            60.0,
-            375.5,
-            406.5,
-            428.0
           ]
         ],
         "region": [
@@ -74754,10 +74523,10 @@
         "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93",
         "/assets/tradition-covers/tradition-rudens-ekvinokcija-e8fcbccbb1a0-1280.webp": "e8fcbccbb1a0dee2e65a3c4f887da42fbbed44f43c8d9a523a6a415bed48797b"
       },
-      "panelSha256": "bc185b5392661262af9d33d4f41024e97cd40269762cb924e49e34aff68a573b",
-      "pixelSha256": "80c9d1e668749953b1ec01112ef166b6216c7a32df4bebb874d26a7edb388fcf",
-      "sha256": "c4e7d643c927bdc754cfb8d2e8b1428d93ff140157e17d8200ab4badf0d43644",
-      "bytes": 200768,
+      "panelSha256": "94e3c926eb0fe9beca8f749ab129ac15b034a9c624a97fd58536820228be81cf",
+      "pixelSha256": "6ba5706742d1a77adb46149b56d1a01068367afcb78ce4249766fd059110bc5d",
+      "sha256": "0c346e2691c55cc7ee482706070bff7865f43c2e6513bfdaa99ebdcf8d2dffdb",
+      "bytes": 182120,
       "semanticFacts": {}
     },
     "/svetki-un-tradicijas/saulgriezi/": {
@@ -75657,44 +75426,44 @@
     },
     "/svetki-un-tradicijas/totalitaro-rezimu-upuru-pieminas-diena/": {
       "url": "/svetki-un-tradicijas/totalitaro-rezimu-upuru-pieminas-diena/",
-      "title": "Staļinisma un nacisma upuru atceres diena",
+      "title": "Totalitāro režīmu upuru piemiņa Eiropā 23. augustā",
       "family": "latvia_cultural",
-      "src": "/assets/social-cards/v2/1977a423f3c02218-9c18364cbfc3.jpg",
+      "src": "/assets/social-cards/v2/1977a423f3c02218-cace032a134e.jpg",
       "width": 1200,
       "height": 630,
       "type": "image/jpeg",
-      "alt": "Staļinisma un nacisma upuru atceres diena | Kalendārs365 Latvijai",
+      "alt": "Totalitāro režīmu upuru piemiņa Eiropā 23. augustā | Kalendārs365 Latvijai",
       "design": "occasion",
       "kicker": "SVĒTKI UN TRADĪCIJAS",
       "subtitle": "Svētku stāsts un svarīgākie datumi",
       "year": 2027,
       "month": null,
       "titleLayout": {
-        "text": "Staļinisma un nacisma upuru atceres diena",
+        "text": "Totalitāro režīmu upuru piemiņa Eiropā 23. augustā",
         "size": 55,
         "lines": [
-          "Staļinisma un",
-          "nacisma upuru",
-          "atceres diena"
+          "Totalitāro režīmu",
+          "upuru piemiņa",
+          "Eiropā 23. augustā"
         ],
         "bounds": [
           [
             60.0,
             184.0,
-            421.5,
-            240.0
+            520.5,
+            225.5
           ],
           [
             60.0,
             248.0,
-            461.0,
-            300.5
+            450.5,
+            304.0
           ],
           [
             60.0,
             311.5,
-            429.5,
-            352.5
+            554.5,
+            365.0
           ]
         ],
         "region": [
@@ -75742,10 +75511,10 @@
         "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93",
         "/assets/tradition-covers/tradition-totalitaro-rezimu-upuru-pieminas-diena-296d95ca0e5c-1280.webp": "296d95ca0e5cf3cc01e8c963a90cb6473d7e3c1a2a86ce81c3f3acd025d5bc41"
       },
-      "panelSha256": "1b2e28e69ef2f27028b4f94bc3c003b92e5970428947400e6e225931026e7540",
-      "pixelSha256": "9c18364cbfc3947781430c7b17c994914e3e3e58d469eca0dcc6710fc3ff7c4a",
-      "sha256": "5fd2b2af62092a969dee123bdf5bcc3e18c4d54d8a2799703ca7f8f794cec082",
-      "bytes": 178493,
+      "panelSha256": "f44dd6b6e6b85799a62775d908d90da9ed468538f2b929dcb65313a2c9470d1a",
+      "pixelSha256": "cace032a134e0a6f38ea31b895775ca622da9d87f69691710d382de713e52133",
+      "sha256": "fb4b6ab34f7eab97426f51360f3f293b494b2884a8901d95c3266ac951d3bd0d",
+      "bytes": 185464,
       "semanticFacts": {}
     },
     "/svetki-un-tradicijas/ugunsdzeseju-un-glabeju-diena/": {
@@ -75843,51 +75612,37 @@
     },
     "/svetki-un-tradicijas/valentina-diena/": {
       "url": "/svetki-un-tradicijas/valentina-diena/",
-      "title": "Valentīndiena: datums un Mīlestības diena Latvijā",
+      "title": "Valentīndiena Latvijā 14. februārī",
       "family": "latvia_cultural",
-      "src": "/assets/social-cards/v2/62c02553e297f58b-ddd25f2e3286.jpg",
+      "src": "/assets/social-cards/v2/62c02553e297f58b-882499227730.jpg",
       "width": 1200,
       "height": 630,
       "type": "image/jpeg",
-      "alt": "Valentīndiena: datums un Mīlestības diena Latvijā | Kalendārs365 Latvijai",
+      "alt": "Valentīndiena Latvijā 14. februārī | Kalendārs365 Latvijai",
       "design": "occasion",
       "kicker": "SVĒTKI UN TRADĪCIJAS",
       "subtitle": "Svētku stāsts un svarīgākie datumi",
       "year": 2027,
       "month": null,
       "titleLayout": {
-        "text": "Valentīndiena: datums un Mīlestības diena Latvijā",
+        "text": "Valentīndiena Latvijā 14. februārī",
         "size": 55,
         "lines": [
-          "Valentīndiena:",
-          "datums un",
-          "Mīlestības diena",
-          "Latvijā"
+          "Valentīndiena",
+          "Latvijā 14. februārī"
         ],
         "bounds": [
           [
             60.0,
             184.0,
-            449.5,
+            435.5,
             225.0
           ],
           [
             60.0,
             248.0,
-            347.0,
-            288.5
-          ],
-          [
-            60.0,
-            311.5,
-            499.5,
-            352.5
-          ],
-          [
-            60.0,
-            375.5,
-            240.5,
-            428.0
+            555.5,
+            300.5
           ]
         ],
         "region": [
@@ -75935,10 +75690,10 @@
         "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93",
         "/assets/tradition-covers/tradition-valentina-diena-36c7cbb4c58a-1280.webp": "36c7cbb4c58a83a06fa7dea474d174985e28e6ba0cdd06ec7f550094136cdfef"
       },
-      "panelSha256": "63df9511dd9dc6fdad74635f2d54370a9cfb6d9907a460257690f723608c957d",
-      "pixelSha256": "ddd25f2e3286628f0dac1350bc5d2907bb286e1b0c9d08109887d4a0b5979166",
-      "sha256": "3c83338c562647323fabe62845844873ea5cd0c768dc89c9de85b811cefa2ce1",
-      "bytes": 155516,
+      "panelSha256": "ae490b1ed3be9253960e96590476354ac759d3c6caca869a41e3573aa7e15532",
+      "pixelSha256": "88249922773060db4afe6da4881b1d75ea7d321ed602f9ca02ca525ec67cdbd3",
+      "sha256": "d9d3d5659c57be6e5174eead0b8ddb3d388017653cda1a9a01cfa097ebeb4d0f",
+      "bytes": 143542,
       "semanticFacts": {}
     },
     "/svetki-un-tradicijas/valsts-valodas-diena/": {
@@ -76789,44 +76544,37 @@
     },
     "/svetki-un-tradicijas/zvaigznes-diena/": {
       "url": "/svetki-un-tradicijas/zvaigznes-diena/",
-      "title": "Zvaigznes diena: 6. janvāris un tradīcija",
+      "title": "Zvaigznes diena 6. janvārī",
       "family": "latvia_cultural",
-      "src": "/assets/social-cards/v2/57c610bf9bfd09d6-750326c1459c.jpg",
+      "src": "/assets/social-cards/v2/57c610bf9bfd09d6-10b429a6c989.jpg",
       "width": 1200,
       "height": 630,
       "type": "image/jpeg",
-      "alt": "Zvaigznes diena: 6. janvāris un tradīcija | Kalendārs365 Latvijai",
+      "alt": "Zvaigznes diena 6. janvārī | Kalendārs365 Latvijai",
       "design": "occasion",
       "kicker": "SVĒTKI UN TRADĪCIJAS",
       "subtitle": "Svētku stāsts un svarīgākie datumi",
       "year": 2027,
       "month": null,
       "titleLayout": {
-        "text": "Zvaigznes diena: 6. janvāris un tradīcija",
+        "text": "Zvaigznes diena 6. janvārī",
         "size": 55,
         "lines": [
-          "Zvaigznes diena: 6.",
-          "janvāris un",
-          "tradīcija"
+          "Zvaigznes diena 6.",
+          "janvārī"
         ],
         "bounds": [
           [
             60.0,
             184.0,
-            565.0,
+            551.0,
             237.5
           ],
           [
             58.0,
             248.0,
-            352.5,
+            245.5,
             300.5
-          ],
-          [
-            60.0,
-            311.5,
-            284.5,
-            364.0
           ]
         ],
         "region": [
@@ -76874,10 +76622,10 @@
         "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93",
         "/assets/tradition-covers/tradition-zvaigznes-diena-cf6fefc48497-1280.webp": "cf6fefc48497c688b9a759c8a087d23d590ed895d466a52e63f200aacb197741"
       },
-      "panelSha256": "ef9647d3fe7d0df2cd8d14c44f49294c3409dd83405868ba4f0d2a77f738ff80",
-      "pixelSha256": "750326c1459cd03b71ac40705b1b188d3b053d9500a82e17f2b4188859f86e14",
-      "sha256": "96abba5a1c9bf502e943e1d66d6fe1dedb6b2177c5ab191eb82064711faab76e",
-      "bytes": 146464,
+      "panelSha256": "f603dec6c498e380e881c490c8763deefc5c6bf3fc9bdd57642a2f572b86a13c",
+      "pixelSha256": "10b429a6c9899da751b25f399b668f6f4ce46dc23588f5366461fa2c7eda684d",
+      "sha256": "f614b5a540eff6f1debdd78aa299ff047083d4d7cb284ae29696249a3db20139",
+      "bytes": 135613,
       "semanticFacts": {}
     },
     "/svetku-dienas/": {
@@ -81311,24 +81059,23 @@
     },
     "/varda-dienas/aprilis/": {
       "url": "/varda-dienas/aprilis/",
-      "title": "Vārda dienas aprīlī — vārdu kalendārs",
+      "title": "Vārda dienas aprīlī",
       "family": "name_day_month",
-      "src": "/assets/social-cards/v2/4ae3d154e1ade102-7cf3ffb6287c.jpg",
+      "src": "/assets/social-cards/v2/4ae3d154e1ade102-8639d7da2750.jpg",
       "width": 1200,
       "height": 630,
       "type": "image/jpeg",
-      "alt": "Vārda dienas aprīlī — vārdu kalendārs | Kalendārs365 Latvijai",
+      "alt": "Vārda dienas aprīlī | Kalendārs365 Latvijai",
       "design": "names",
       "kicker": "VĀRDI LATVIJAS KALENDĀRĀ",
       "subtitle": "Vārda diena un personīgs kalendārs",
       "year": 2027,
       "month": 4,
       "titleLayout": {
-        "text": "Vārda dienas aprīlī · vārdu kalendārs",
+        "text": "Vārda dienas aprīlī",
         "size": 55,
         "lines": [
-          "Vārda dienas aprīlī",
-          "· vārdu kalendārs"
+          "Vārda dienas aprīlī"
         ],
         "bounds": [
           [
@@ -81336,12 +81083,6 @@
             184.0,
             565.5,
             236.5
-          ],
-          [
-            60.0,
-            248.0,
-            520.5,
-            288.5
           ]
         ],
         "region": [
@@ -81383,32 +81124,31 @@
         "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93"
       },
       "panelSha256": "b34e54fb957029682038156993e14a8e5f769f5ef1fdfb0da8ed9233ce7102cd",
-      "pixelSha256": "7cf3ffb6287c281b969550ec4458a469c560a9d50307730b1d020574950e1b60",
-      "sha256": "ad25f00570916b27fa54e77389d078c180477dcaf46af75eb8147534d52b8a38",
-      "bytes": 91363,
+      "pixelSha256": "8639d7da27505b7633771ba07fcbd7e17f454b449d84fc4b6eacee4cef138a95",
+      "sha256": "5a03e9cd4bc5cada30624aa483b5e55061c745af9cde650296c9d5e2b0d2dee1",
+      "bytes": 80677,
       "semanticFacts": {}
     },
     "/varda-dienas/augusts/": {
       "url": "/varda-dienas/augusts/",
-      "title": "Vārda dienas augustā — vārdu kalendārs",
+      "title": "Vārda dienas augustā",
       "family": "name_day_month",
-      "src": "/assets/social-cards/v2/ed79b265f46f74c0-2d6b0d711e98.jpg",
+      "src": "/assets/social-cards/v2/ed79b265f46f74c0-c8c1c014582b.jpg",
       "width": 1200,
       "height": 630,
       "type": "image/jpeg",
-      "alt": "Vārda dienas augustā — vārdu kalendārs | Kalendārs365 Latvijai",
+      "alt": "Vārda dienas augustā | Kalendārs365 Latvijai",
       "design": "names",
       "kicker": "VĀRDI LATVIJAS KALENDĀRĀ",
       "subtitle": "Vārda diena un personīgs kalendārs",
       "year": 2027,
       "month": 8,
       "titleLayout": {
-        "text": "Vārda dienas augustā · vārdu kalendārs",
+        "text": "Vārda dienas augustā",
         "size": 55,
         "lines": [
           "Vārda dienas",
-          "augustā · vārdu",
-          "kalendārs"
+          "augustā"
         ],
         "bounds": [
           [
@@ -81420,14 +81160,8 @@
           [
             60.0,
             248.0,
-            474.0,
-            301.0
-          ],
-          [
-            60.0,
-            311.5,
-            325.0,
-            352.0
+            278.5,
+            299.5
           ]
         ],
         "region": [
@@ -81469,32 +81203,31 @@
         "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93"
       },
       "panelSha256": "25c3b6d70c99fcf5fea7eb2975734b1ec3ac39ad8e2abf3174e0c8f44bbd3525",
-      "pixelSha256": "2d6b0d711e9884f5a8f263b87b0c2418ef0d0019fe8e020f38f967d58ad9c169",
-      "sha256": "f6caf035625b06a64c756c9a0995353d1c0d8d80028e678130132f7b6d11510c",
-      "bytes": 89909,
+      "pixelSha256": "c8c1c014582b2a4378164939bafa14a47f74d81231ab4fad41304df6a3104338",
+      "sha256": "83ef4816e18e75e9f658803c331fa6c88d8296c8bc2acd802f8c5d915beb27c7",
+      "bytes": 78926,
       "semanticFacts": {}
     },
     "/varda-dienas/decembris/": {
       "url": "/varda-dienas/decembris/",
-      "title": "Vārda dienas decembrī — vārdu kalendārs",
+      "title": "Vārda dienas decembrī",
       "family": "name_day_month",
-      "src": "/assets/social-cards/v2/e495b288a1d5d6cb-ab5f32634442.jpg",
+      "src": "/assets/social-cards/v2/e495b288a1d5d6cb-677d542db491.jpg",
       "width": 1200,
       "height": 630,
       "type": "image/jpeg",
-      "alt": "Vārda dienas decembrī — vārdu kalendārs | Kalendārs365 Latvijai",
+      "alt": "Vārda dienas decembrī | Kalendārs365 Latvijai",
       "design": "names",
       "kicker": "VĀRDI LATVIJAS KALENDĀRĀ",
       "subtitle": "Vārda diena un personīgs kalendārs",
       "year": 2027,
       "month": 12,
       "titleLayout": {
-        "text": "Vārda dienas decembrī · vārdu kalendārs",
+        "text": "Vārda dienas decembrī",
         "size": 55,
         "lines": [
           "Vārda dienas",
-          "decembrī · vārdu",
-          "kalendārs"
+          "decembrī"
         ],
         "bounds": [
           [
@@ -81506,14 +81239,8 @@
           [
             60.0,
             248.0,
-            515.0,
+            322.5,
             288.5
-          ],
-          [
-            60.0,
-            311.5,
-            325.0,
-            352.0
           ]
         ],
         "region": [
@@ -81555,32 +81282,31 @@
         "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93"
       },
       "panelSha256": "1f5d1b02e9890c5961c9ef88af743667321397584c7053139a3bc3b4a177d462",
-      "pixelSha256": "ab5f3263444236d17067e0029dde04fb01da155de244f57c8cb157c4a45eafd9",
-      "sha256": "28171f1d532c3032f56f5290b0e7c32d7acdffeb68d73948db6860d12f314fb5",
-      "bytes": 94297,
+      "pixelSha256": "677d542db49111ade5f9f47f3c10d15dd34b508474f117771e1e80d60faaace1",
+      "sha256": "dd9c7c54bf951166dd664d1aa81f92a48acaadda0f6a87239b2a2f44ce24c9f1",
+      "bytes": 83522,
       "semanticFacts": {}
     },
     "/varda-dienas/februaris/": {
       "url": "/varda-dienas/februaris/",
-      "title": "Vārda dienas februārī — vārdu kalendārs",
+      "title": "Vārda dienas februārī",
       "family": "name_day_month",
-      "src": "/assets/social-cards/v2/24249d256a1a7c2a-96b9ac28f7a6.jpg",
+      "src": "/assets/social-cards/v2/24249d256a1a7c2a-5b6e3b84bd87.jpg",
       "width": 1200,
       "height": 630,
       "type": "image/jpeg",
-      "alt": "Vārda dienas februārī — vārdu kalendārs | Kalendārs365 Latvijai",
+      "alt": "Vārda dienas februārī | Kalendārs365 Latvijai",
       "design": "names",
       "kicker": "VĀRDI LATVIJAS KALENDĀRĀ",
       "subtitle": "Vārda diena un personīgs kalendārs",
       "year": 2027,
       "month": 2,
       "titleLayout": {
-        "text": "Vārda dienas februārī · vārdu kalendārs",
+        "text": "Vārda dienas februārī",
         "size": 55,
         "lines": [
           "Vārda dienas",
-          "februārī · vārdu",
-          "kalendārs"
+          "februārī"
         ],
         "bounds": [
           [
@@ -81592,14 +81318,8 @@
           [
             60.0,
             248.0,
-            471.5,
+            279.0,
             288.5
-          ],
-          [
-            60.0,
-            311.5,
-            325.0,
-            352.0
           ]
         ],
         "region": [
@@ -81641,32 +81361,31 @@
         "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93"
       },
       "panelSha256": "2f5de07acba291bed3902975c377dd5cbb03fcda0a0a0da8ee49bba1e2fad65b",
-      "pixelSha256": "96b9ac28f7a6432d0f6cb115eab816fd7c80a7caed6329231e120ba09cbb87f0",
-      "sha256": "687ca9e073d890a1f1fe964a61c60527db21f6232516fe540f8aa4348be5f929",
-      "bytes": 94884,
+      "pixelSha256": "5b6e3b84bd87ab10ac59565608749d6db1e55ff722eb53262bcd5414d1187b27",
+      "sha256": "99f0b00c59f5aa924ff97bc16c3aaf0eec2aa8660826698ee7ffe56b95400530",
+      "bytes": 84115,
       "semanticFacts": {}
     },
     "/varda-dienas/janvaris/": {
       "url": "/varda-dienas/janvaris/",
-      "title": "Vārda dienas janvārī — vārdu kalendārs",
+      "title": "Vārda dienas janvārī",
       "family": "name_day_month",
-      "src": "/assets/social-cards/v2/32b13d38f8b98f91-661307fdabdf.jpg",
+      "src": "/assets/social-cards/v2/32b13d38f8b98f91-55d26db6fcbd.jpg",
       "width": 1200,
       "height": 630,
       "type": "image/jpeg",
-      "alt": "Vārda dienas janvārī — vārdu kalendārs | Kalendārs365 Latvijai",
+      "alt": "Vārda dienas janvārī | Kalendārs365 Latvijai",
       "design": "names",
       "kicker": "VĀRDI LATVIJAS KALENDĀRĀ",
       "subtitle": "Vārda diena un personīgs kalendārs",
       "year": 2027,
       "month": 1,
       "titleLayout": {
-        "text": "Vārda dienas janvārī · vārdu kalendārs",
+        "text": "Vārda dienas janvārī",
         "size": 55,
         "lines": [
           "Vārda dienas",
-          "janvārī · vārdu",
-          "kalendārs"
+          "janvārī"
         ],
         "bounds": [
           [
@@ -81678,14 +81397,8 @@
           [
             58.0,
             248.0,
-            438.0,
+            245.5,
             300.5
-          ],
-          [
-            60.0,
-            311.5,
-            325.0,
-            352.0
           ]
         ],
         "region": [
@@ -81727,31 +81440,30 @@
         "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93"
       },
       "panelSha256": "ac42908b4d735e3f08718c33fb09957a16bd857f55463c2254e4e7911ff09d19",
-      "pixelSha256": "661307fdabdf888e6a93980c86b54056e6312f71c0521a98613581adbb44a9f7",
-      "sha256": "4e40b91b4790719b0f9d141135fabde0ead54c0cc396933db370acba001abc30",
-      "bytes": 91752,
+      "pixelSha256": "55d26db6fcbdb436b84e2c5c2736b6307078b8d533b335d8cb8989895e8949ae",
+      "sha256": "8a7dda8f0ff8cd2f8a75ce4860b5f38d3c01457248b2d5cdd9ad6f75cb139df4",
+      "bytes": 80609,
       "semanticFacts": {}
     },
     "/varda-dienas/julijs/": {
       "url": "/varda-dienas/julijs/",
-      "title": "Vārda dienas jūlijā — vārdu kalendārs",
+      "title": "Vārda dienas jūlijā",
       "family": "name_day_month",
-      "src": "/assets/social-cards/v2/aefe893d3d093651-e4912a52f087.jpg",
+      "src": "/assets/social-cards/v2/aefe893d3d093651-1bb164c7f1f8.jpg",
       "width": 1200,
       "height": 630,
       "type": "image/jpeg",
-      "alt": "Vārda dienas jūlijā — vārdu kalendārs | Kalendārs365 Latvijai",
+      "alt": "Vārda dienas jūlijā | Kalendārs365 Latvijai",
       "design": "names",
       "kicker": "VĀRDI LATVIJAS KALENDĀRĀ",
       "subtitle": "Vārda diena un personīgs kalendārs",
       "year": 2027,
       "month": 7,
       "titleLayout": {
-        "text": "Vārda dienas jūlijā · vārdu kalendārs",
+        "text": "Vārda dienas jūlijā",
         "size": 55,
         "lines": [
-          "Vārda dienas jūlijā",
-          "· vārdu kalendārs"
+          "Vārda dienas jūlijā"
         ],
         "bounds": [
           [
@@ -81759,12 +81471,6 @@
             184.0,
             553.0,
             236.5
-          ],
-          [
-            60.0,
-            248.0,
-            520.5,
-            288.5
           ]
         ],
         "region": [
@@ -81806,31 +81512,30 @@
         "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93"
       },
       "panelSha256": "85f023943136058c0723a71899a5f94ce6b29ce11b02bc561441e099c3dcba3c",
-      "pixelSha256": "e4912a52f087b8c88ba299d15a60f1e94e6160eab5f26262d2145ba75696be10",
-      "sha256": "60fb8ced303c766ba11c21bfe2e6f343ecc33a17b97eba35e975defeeef436c2",
-      "bytes": 94007,
+      "pixelSha256": "1bb164c7f1f8d1d9b7643f530f22f00d4808bbf7cb076b7d9f7bdfe3cdd18a3b",
+      "sha256": "dc193687a443ebf7ad14df7e826d3e0f9cccc47830aee6578f03bf101d615787",
+      "bytes": 83334,
       "semanticFacts": {}
     },
     "/varda-dienas/junijs/": {
       "url": "/varda-dienas/junijs/",
-      "title": "Vārda dienas jūnijā — vārdu kalendārs",
+      "title": "Vārda dienas jūnijā",
       "family": "name_day_month",
-      "src": "/assets/social-cards/v2/c8bee6c34b8221c0-e0f298b81136.jpg",
+      "src": "/assets/social-cards/v2/c8bee6c34b8221c0-cab9b70e267f.jpg",
       "width": 1200,
       "height": 630,
       "type": "image/jpeg",
-      "alt": "Vārda dienas jūnijā — vārdu kalendārs | Kalendārs365 Latvijai",
+      "alt": "Vārda dienas jūnijā | Kalendārs365 Latvijai",
       "design": "names",
       "kicker": "VĀRDI LATVIJAS KALENDĀRĀ",
       "subtitle": "Vārda diena un personīgs kalendārs",
       "year": 2027,
       "month": 6,
       "titleLayout": {
-        "text": "Vārda dienas jūnijā · vārdu kalendārs",
+        "text": "Vārda dienas jūnijā",
         "size": 55,
         "lines": [
-          "Vārda dienas jūnijā",
-          "· vārdu kalendārs"
+          "Vārda dienas jūnijā"
         ],
         "bounds": [
           [
@@ -81838,12 +81543,6 @@
             184.0,
             572.5,
             236.5
-          ],
-          [
-            60.0,
-            248.0,
-            520.5,
-            288.5
           ]
         ],
         "region": [
@@ -81885,31 +81584,30 @@
         "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93"
       },
       "panelSha256": "3d895768b6ec1fe3b7887f527ae54f8f15cd2133718275bac13f4449f1f7fc54",
-      "pixelSha256": "e0f298b81136aa4715bc11ef96dd2c3e5c127748d512521462d2e6fb76aaf834",
-      "sha256": "711067c1920ce3811b7bd5053df959f865539936f02521ec39828ccec4b15315",
-      "bytes": 88202,
+      "pixelSha256": "cab9b70e267f6dbf558e70f26d83c703d028a7ec34242bafeb78acbc49efac0a",
+      "sha256": "4c803c96e279a33785187ce480b62ffe4e936941588a9ae1d151aba4af0f44a3",
+      "bytes": 77564,
       "semanticFacts": {}
     },
     "/varda-dienas/maijs/": {
       "url": "/varda-dienas/maijs/",
-      "title": "Vārda dienas maijā — vārdu kalendārs",
+      "title": "Vārda dienas maijā",
       "family": "name_day_month",
-      "src": "/assets/social-cards/v2/c291b26e4686427d-8c589b6ee748.jpg",
+      "src": "/assets/social-cards/v2/c291b26e4686427d-54c67904f866.jpg",
       "width": 1200,
       "height": 630,
       "type": "image/jpeg",
-      "alt": "Vārda dienas maijā — vārdu kalendārs | Kalendārs365 Latvijai",
+      "alt": "Vārda dienas maijā | Kalendārs365 Latvijai",
       "design": "names",
       "kicker": "VĀRDI LATVIJAS KALENDĀRĀ",
       "subtitle": "Vārda diena un personīgs kalendārs",
       "year": 2027,
       "month": 5,
       "titleLayout": {
-        "text": "Vārda dienas maijā · vārdu kalendārs",
+        "text": "Vārda dienas maijā",
         "size": 55,
         "lines": [
-          "Vārda dienas maijā",
-          "· vārdu kalendārs"
+          "Vārda dienas maijā"
         ],
         "bounds": [
           [
@@ -81917,12 +81615,6 @@
             184.0,
             573.5,
             236.5
-          ],
-          [
-            60.0,
-            248.0,
-            520.5,
-            288.5
           ]
         ],
         "region": [
@@ -81964,32 +81656,31 @@
         "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93"
       },
       "panelSha256": "36aa41895b24ef3b31c1f34a5a7ebc356545726a50cefa625a79b8c6ca9da755",
-      "pixelSha256": "8c589b6ee74843a1442880dbc9c3d5ad47f9df35d6f16d146227b49e8d018b77",
-      "sha256": "6df661f0bd08146ff008335e9fbf163515dff8466b48e652966958cf7a1db94f",
-      "bytes": 87223,
+      "pixelSha256": "54c67904f8667085101545cd1351e6d8d66f80f2507910544552216aba7ab98f",
+      "sha256": "1b652f0c37a62727923d8b42f57606a9fa995f4a42f749a1b4d0356a438b7e13",
+      "bytes": 76573,
       "semanticFacts": {}
     },
     "/varda-dienas/marts/": {
       "url": "/varda-dienas/marts/",
-      "title": "Vārda dienas martā — vārdu kalendārs",
+      "title": "Vārda dienas martā",
       "family": "name_day_month",
-      "src": "/assets/social-cards/v2/8bb7388f23cd2906-ea565b3e0757.jpg",
+      "src": "/assets/social-cards/v2/8bb7388f23cd2906-56977a964e7c.jpg",
       "width": 1200,
       "height": 630,
       "type": "image/jpeg",
-      "alt": "Vārda dienas martā — vārdu kalendārs | Kalendārs365 Latvijai",
+      "alt": "Vārda dienas martā | Kalendārs365 Latvijai",
       "design": "names",
       "kicker": "VĀRDI LATVIJAS KALENDĀRĀ",
       "subtitle": "Vārda diena un personīgs kalendārs",
       "year": 2027,
       "month": 3,
       "titleLayout": {
-        "text": "Vārda dienas martā · vārdu kalendārs",
+        "text": "Vārda dienas martā",
         "size": 55,
         "lines": [
           "Vārda dienas",
-          "martā · vārdu",
-          "kalendārs"
+          "martā"
         ],
         "bounds": [
           [
@@ -82001,14 +81692,8 @@
           [
             60.0,
             248.0,
-            418.0,
-            288.5
-          ],
-          [
-            60.0,
-            311.5,
-            325.0,
-            352.0
+            222.5,
+            287.0
           ]
         ],
         "region": [
@@ -82050,32 +81735,31 @@
         "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93"
       },
       "panelSha256": "50a4252965845ac751703287443510e4a1763766e5fd071b4c48b41d24055d8a",
-      "pixelSha256": "ea565b3e0757aad24596ffeaa982d7cc89f25c26ecb0d0b9f9b32fc7cd30bad6",
-      "sha256": "9b197f15c500007fc6d999595d3d787965f479ed81bb15be4f02b0a90b057de7",
-      "bytes": 87838,
+      "pixelSha256": "56977a964e7c557ea109571d06f6f3b3fc4e27ace34aac339bf4fbc7a6d39600",
+      "sha256": "7228dcb4a2ed92debf96698ceb101fa24f530032d046c7e89be45ac2d95f8e98",
+      "bytes": 77167,
       "semanticFacts": {}
     },
     "/varda-dienas/novembris/": {
       "url": "/varda-dienas/novembris/",
-      "title": "Vārda dienas novembrī — vārdu kalendārs",
+      "title": "Vārda dienas novembrī",
       "family": "name_day_month",
-      "src": "/assets/social-cards/v2/39709e740424887f-6d602140e3fe.jpg",
+      "src": "/assets/social-cards/v2/39709e740424887f-4d7d60ee9da2.jpg",
       "width": 1200,
       "height": 630,
       "type": "image/jpeg",
-      "alt": "Vārda dienas novembrī — vārdu kalendārs | Kalendārs365 Latvijai",
+      "alt": "Vārda dienas novembrī | Kalendārs365 Latvijai",
       "design": "names",
       "kicker": "VĀRDI LATVIJAS KALENDĀRĀ",
       "subtitle": "Vārda diena un personīgs kalendārs",
       "year": 2027,
       "month": 11,
       "titleLayout": {
-        "text": "Vārda dienas novembrī · vārdu kalendārs",
+        "text": "Vārda dienas novembrī",
         "size": 55,
         "lines": [
           "Vārda dienas",
-          "novembrī · vārdu",
-          "kalendārs"
+          "novembrī"
         ],
         "bounds": [
           [
@@ -82087,14 +81771,8 @@
           [
             60.0,
             248.0,
-            512.0,
+            319.5,
             288.5
-          ],
-          [
-            60.0,
-            311.5,
-            325.0,
-            352.0
           ]
         ],
         "region": [
@@ -82136,32 +81814,31 @@
         "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93"
       },
       "panelSha256": "1943347c132f8ef8caeddca912f93baff596c7965181c27c11e200c22c7387ee",
-      "pixelSha256": "6d602140e3feff189fb8287af1449be785ae644bedbe37d36b7a35d1d6ac76ed",
-      "sha256": "83709cfc366e1e06e35ca26508014e5d6e1c58884eea95aee42557a5905218de",
-      "bytes": 90183,
+      "pixelSha256": "4d7d60ee9da29b532ac52a80cc2c325df3dd90e88d881f2824f67562f3ef9fc3",
+      "sha256": "00c2a295673d5d209fe7cac88010157f95575bfcff11d67e35e6e60c9660d678",
+      "bytes": 79383,
       "semanticFacts": {}
     },
     "/varda-dienas/oktobris/": {
       "url": "/varda-dienas/oktobris/",
-      "title": "Vārda dienas oktobrī — vārdu kalendārs",
+      "title": "Vārda dienas oktobrī",
       "family": "name_day_month",
-      "src": "/assets/social-cards/v2/bceeb45c2cc63496-c13f7e31abb1.jpg",
+      "src": "/assets/social-cards/v2/bceeb45c2cc63496-5eabadf43471.jpg",
       "width": 1200,
       "height": 630,
       "type": "image/jpeg",
-      "alt": "Vārda dienas oktobrī — vārdu kalendārs | Kalendārs365 Latvijai",
+      "alt": "Vārda dienas oktobrī | Kalendārs365 Latvijai",
       "design": "names",
       "kicker": "VĀRDI LATVIJAS KALENDĀRĀ",
       "subtitle": "Vārda diena un personīgs kalendārs",
       "year": 2027,
       "month": 10,
       "titleLayout": {
-        "text": "Vārda dienas oktobrī · vārdu kalendārs",
+        "text": "Vārda dienas oktobrī",
         "size": 55,
         "lines": [
           "Vārda dienas",
-          "oktobrī · vārdu",
-          "kalendārs"
+          "oktobrī"
         ],
         "bounds": [
           [
@@ -82173,14 +81850,8 @@
           [
             60.0,
             248.0,
-            451.0,
+            258.5,
             288.5
-          ],
-          [
-            60.0,
-            311.5,
-            325.0,
-            352.0
           ]
         ],
         "region": [
@@ -82222,32 +81893,31 @@
         "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93"
       },
       "panelSha256": "e7642c42d265cf28eccf7b560f90374ea4cf5ea0653517d984a37473d99c9c9c",
-      "pixelSha256": "c13f7e31abb1b50fa9621231281c7c092c5f186f6ceb28ed5385d1c4c865bcf6",
-      "sha256": "e044d5a529c7b0496615e952181d10741b7f14294c2dd9862644acbfe3f678c2",
-      "bytes": 89661,
+      "pixelSha256": "5eabadf4347168a9a21e230d8a17e3b3a06619b6c2db1a1ad1bfd66efbd33210",
+      "sha256": "4267c47b7532911ad1dbbb2cdacf6a63e0b526859bd6894c337230b05fdf87fb",
+      "bytes": 78867,
       "semanticFacts": {}
     },
     "/varda-dienas/septembris/": {
       "url": "/varda-dienas/septembris/",
-      "title": "Vārda dienas septembrī — vārdu kalendārs",
+      "title": "Vārda dienas septembrī",
       "family": "name_day_month",
-      "src": "/assets/social-cards/v2/abc54b5db0d95e34-504bc6da4bab.jpg",
+      "src": "/assets/social-cards/v2/abc54b5db0d95e34-9b429e7986e6.jpg",
       "width": 1200,
       "height": 630,
       "type": "image/jpeg",
-      "alt": "Vārda dienas septembrī — vārdu kalendārs | Kalendārs365 Latvijai",
+      "alt": "Vārda dienas septembrī | Kalendārs365 Latvijai",
       "design": "names",
       "kicker": "VĀRDI LATVIJAS KALENDĀRĀ",
       "subtitle": "Vārda diena un personīgs kalendārs",
       "year": 2027,
       "month": 9,
       "titleLayout": {
-        "text": "Vārda dienas septembrī · vārdu kalendārs",
+        "text": "Vārda dienas septembrī",
         "size": 55,
         "lines": [
           "Vārda dienas",
-          "septembrī · vārdu",
-          "kalendārs"
+          "septembrī"
         ],
         "bounds": [
           [
@@ -82259,14 +81929,8 @@
           [
             60.0,
             248.0,
-            535.0,
+            342.5,
             300.0
-          ],
-          [
-            60.0,
-            311.5,
-            325.0,
-            352.0
           ]
         ],
         "region": [
@@ -82308,9 +81972,9 @@
         "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93"
       },
       "panelSha256": "3e927536fd5115ba0f7222a0ac54e2c4dd3dd3574a971b46401b296fcc90572d",
-      "pixelSha256": "504bc6da4bab71f9d6d280ecef5254b4f55e1990f28578384abc7fe1eedfdc1b",
-      "sha256": "56b9c2fbcd4694f6411e31420e3664cf6b1b1dde7b8e0edb269a7b32a6d07833",
-      "bytes": 94775,
+      "pixelSha256": "9b429e7986e6917ae17aa4fe9246520bccb33ed3afbba9a73b94e1e9f4da99ab",
+      "sha256": "ae06a3b9ed9803757733f9d5628c9ba2c0a5c34fadd9124df0a380d2136b2f08",
+      "bytes": 83987,
       "semanticFacts": {}
     },
     "/visi-riki/": {
@@ -82400,23 +82064,23 @@
     },
     "/zodiaka-zimes/": {
       "url": "/zodiaka-zimes/",
-      "title": "Zodiaka zīmes: nosaukumi un simbolika",
+      "title": "Zodiaka zīmju nosaukumi un simbolika",
       "family": "hub",
-      "src": "/assets/social-cards/v2/985f018e73f2f65d-325679ef5fa9.jpg",
+      "src": "/assets/social-cards/v2/985f018e73f2f65d-c79365288884.jpg",
       "width": 1200,
       "height": 630,
       "type": "image/jpeg",
-      "alt": "Zodiaka zīmes: nosaukumi un simbolika | Kalendārs365 Latvijai",
+      "alt": "Zodiaka zīmju nosaukumi un simbolika | Kalendārs365 Latvijai",
       "design": "zodiac",
       "kicker": "ZODIAKA SIMBOLIKA",
       "subtitle": "Iedvesma katrai dienai",
       "year": 2027,
       "month": null,
       "titleLayout": {
-        "text": "Zodiaka zīmes: nosaukumi un simbolika",
+        "text": "Zodiaka zīmju nosaukumi un simbolika",
         "size": 55,
         "lines": [
-          "Zodiaka zīmes:",
+          "Zodiaka zīmju",
           "nosaukumi un",
           "simbolika"
         ],
@@ -82424,8 +82088,8 @@
           [
             60.0,
             184.0,
-            455.0,
-            225.0
+            428.0,
+            236.5
           ],
           [
             60.0,
@@ -82503,9 +82167,9 @@
         "/assets/zodiac/zivis.svg": "d6c93491a43d592ff3ab02a756f04efbedadc5afb091cd052d1669f07c34c86d"
       },
       "panelSha256": "8cecd0fefb1a98c254491060445a7b38d37a4ffb497eddfcf43d536daf98e2c2",
-      "pixelSha256": "325679ef5fa9b08f0d91d7bce4d9ad68c43cefbfc53ef9344e196ff2a9f25ec5",
-      "sha256": "3d5254c07f355a9beaa8d097f236411f5533a84869e4dd8bcd3782df21da416e",
-      "bytes": 117258,
+      "pixelSha256": "c793652888843a931cfaf6eb49bff7fe65a73ea18c0b151d8791f51676807811",
+      "sha256": "2e4a4d88c04200d0d7886163746a6e4e86d19511e21b406b4d8488e28d9784bc",
+      "bytes": 116562,
       "semanticFacts": {}
     },
     "/nedelas-kalendars/2031/01/": {
@@ -82677,44 +82341,44 @@
     },
     "/blogs/": {
       "url": "/blogs/",
-      "title": "Blogs: Latvijas kalendārs un ikdienas plāni",
+      "title": "Raksti par Latvijas kalendāru un laika plānošanu",
       "family": "blog_index",
-      "src": "/assets/social-cards/v2/10de99cb16218cf8-93189cd35fd5.jpg",
+      "src": "/assets/social-cards/v2/10de99cb16218cf8-10b4dc06af7f.jpg",
       "width": 1200,
       "height": 630,
       "type": "image/jpeg",
-      "alt": "Blogs: Latvijas kalendārs un ikdienas plāni | Kalendārs365 Latvijai",
+      "alt": "Raksti par Latvijas kalendāru un laika plānošanu | Kalendārs365 Latvijai",
       "design": "article",
       "kicker": "LATVIJAS STĀSTI",
       "subtitle": "Raksti pārdomātai ikdienai",
       "year": 2027,
       "month": null,
       "titleLayout": {
-        "text": "Blogs: Latvijas kalendārs un ikdienas plāni",
+        "text": "Raksti par Latvijas kalendāru un laika plānošanu",
         "size": 55,
         "lines": [
-          "Blogs: Latvijas",
-          "kalendārs un",
-          "ikdienas plāni"
+          "Raksti par Latvijas",
+          "kalendāru un laika",
+          "plānošanu"
         ],
         "bounds": [
           [
             60.0,
             184.0,
-            442.0,
-            237.5
+            553.0,
+            236.5
           ],
           [
             60.0,
             248.0,
-            406.0,
-            288.5
+            550.0,
+            289.0
           ],
           [
             60.0,
             311.5,
-            430.5,
-            364.0
+            340.0,
+            365.0
           ]
         ],
         "region": [
@@ -82763,51 +82427,51 @@
         "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93"
       },
       "panelSha256": "8b6e8052b210166c01318c4b2185b3c60bb347686525ed7b1b759e7c08c9012f",
-      "pixelSha256": "93189cd35fd5e7b04a3dc33224798709be23658f3819f4e141f3133241e606be",
-      "sha256": "1b108ee082664a34b1a6483dda828bb0d68ae0d2dd43067508539dfc95745f14",
-      "bytes": 136678,
+      "pixelSha256": "10b4dc06af7f48c740137355dcc263c3d8b6c22183b6606a619185607e4b4f89",
+      "sha256": "665110d6a01ac96711deabc190fe68e181fa5e637f1f54ea6db88329f8d81dd7",
+      "bytes": 141548,
       "semanticFacts": {}
     },
     "/blogs/latvijas-svetku-dienas-2027-planosana/": {
       "url": "/blogs/latvijas-svetku-dienas-2027-planosana/",
-      "title": "Latvijas svētku dienas 2027. gadā: kā plānot gadu",
+      "title": "Kā plānot 2027. gada svētku brīvdienas Latvijā",
       "family": "blog_article",
-      "src": "/assets/social-cards/v2/0905485a43e5455c-7f3d5dcc0886.jpg",
+      "src": "/assets/social-cards/v2/0905485a43e5455c-b2e773477dfc.jpg",
       "width": 1200,
       "height": 630,
       "type": "image/jpeg",
-      "alt": "Latvijas svētku dienas 2027. gadā: kā plānot gadu | Kalendārs365 Latvijai",
+      "alt": "Kā plānot 2027. gada svētku brīvdienas Latvijā | Kalendārs365 Latvijai",
       "design": "article",
       "kicker": "KALENDĀRS365 BLOGS",
       "subtitle": "Svētki · Idejas ikdienai",
       "year": 2027,
       "month": null,
       "titleLayout": {
-        "text": "Latvijas svētku dienas 2027. gadā: kā plānot gadu",
+        "text": "Kā plānot 2027. gada svētku brīvdienas Latvijā",
         "size": 55,
         "lines": [
-          "Latvijas svētku",
-          "dienas 2027. gadā:",
-          "kā plānot gadu"
+          "Kā plānot 2027.",
+          "gada svētku",
+          "brīvdienas Latvijā"
         ],
         "bounds": [
           [
             60.0,
             184.0,
-            464.5,
-            236.5
+            473.5,
+            236.0
           ],
           [
             60.0,
             248.0,
-            557.0,
-            301.5
+            388.5,
+            301.0
           ],
           [
             60.0,
             311.5,
-            459.0,
-            364.5
+            537.0,
+            364.0
           ]
         ],
         "region": [
@@ -82856,50 +82520,50 @@
         "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93"
       },
       "panelSha256": "d1861356e8686bdfcc595df2af5403914b00624ed1fc27ea8a88f5228cb4a6ae",
-      "pixelSha256": "7f3d5dcc08864b95ca1856633e56f1b5cd61a5fe4fe31512d48942628fa7198b",
-      "sha256": "8687c5ef77845fdc87e9b956cb7f4b1469f4886e2a91cab90d01582c2d14cb3a",
-      "bytes": 137945,
+      "pixelSha256": "b2e773477dfc8963ed42e499d2492f57d204c7e74960ac7ed833b077349ca85c",
+      "sha256": "42302f69751026877df734040b881b72eb00894997e805249f6a6190795bc292",
+      "bytes": 134273,
       "semanticFacts": {}
     },
     "/blogs/iso-nedelu-numuri-kalendara/": {
       "url": "/blogs/iso-nedelu-numuri-kalendara/",
-      "title": "ISO nedēļu numuri: kā nepazaudēt datumu gadu mijā",
+      "title": "Kā noteikt ISO nedēļas numuru gadu mijā",
       "family": "blog_article",
-      "src": "/assets/social-cards/v2/6dd118fabc642fc2-449fc0340f70.jpg",
+      "src": "/assets/social-cards/v2/6dd118fabc642fc2-cbf9740073bc.jpg",
       "width": 1200,
       "height": 630,
       "type": "image/jpeg",
-      "alt": "ISO nedēļu numuri: kā nepazaudēt datumu gadu mijā | Kalendārs365 Latvijai",
+      "alt": "Kā noteikt ISO nedēļas numuru gadu mijā | Kalendārs365 Latvijai",
       "design": "article",
       "kicker": "KALENDĀRS365 BLOGS",
       "subtitle": "Plānošana · Idejas ikdienai",
       "year": 2027,
       "month": null,
       "titleLayout": {
-        "text": "ISO nedēļu numuri: kā nepazaudēt datumu gadu mijā",
+        "text": "Kā noteikt ISO nedēļas numuru gadu mijā",
         "size": 55,
         "lines": [
-          "ISO nedēļu numuri:",
-          "kā nepazaudēt",
-          "datumu gadu mijā"
+          "Kā noteikt ISO",
+          "nedēļas numuru",
+          "gadu mijā"
         ],
         "bounds": [
           [
             60.0,
             184.0,
-            566.5,
-            240.0
+            440.5,
+            225.0
           ],
           [
             60.0,
             248.0,
-            458.5,
-            300.0
+            494.5,
+            303.5
           ],
           [
             60.0,
             311.5,
-            546.0,
+            322.0,
             365.0
           ]
         ],
@@ -82949,51 +82613,51 @@
         "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93"
       },
       "panelSha256": "ec2fc929f9280033023aba4e17351088cfa031fdb2c8acb5918c541eb57d7512",
-      "pixelSha256": "449fc0340f708474c64dc87acf6c55e22bc44d39a121170929f0f39ac0c471f1",
-      "sha256": "ab5db920c0258413cb22d2c6cb9704fd337f8935ccf22af4cd93518c377e2e9c",
-      "bytes": 112317,
+      "pixelSha256": "cbf9740073bcdcc85bb09549f00d31b0a5fd3f977fdfdea8b245efb812a42b06",
+      "sha256": "ccd49e39e9dfab03ab6fa25a55777fb687f10c755014ab185027890fce5f6a93",
+      "bytes": 105288,
       "semanticFacts": {}
     },
     "/blogs/garais-gads-2028-februaris/": {
       "url": "/blogs/garais-gads-2028-februaris/",
-      "title": "2028. gada 29. februāris: ko maina garais gads",
+      "title": "Ko 2028. gada 29. februāris maina kalendārā",
       "family": "blog_article",
-      "src": "/assets/social-cards/v2/0f909dc52ff66173-ef5dd17ae2ce.jpg",
+      "src": "/assets/social-cards/v2/0f909dc52ff66173-163d9facfbe5.jpg",
       "width": 1200,
       "height": 630,
       "type": "image/jpeg",
-      "alt": "2028. gada 29. februāris: ko maina garais gads | Kalendārs365 Latvijai",
+      "alt": "Ko 2028. gada 29. februāris maina kalendārā | Kalendārs365 Latvijai",
       "design": "article",
       "kicker": "KALENDĀRS365 BLOGS",
       "subtitle": "Plānošana · Idejas ikdienai",
       "year": 2027,
       "month": null,
       "titleLayout": {
-        "text": "2028. gada 29. februāris: ko maina garais gads",
+        "text": "Ko 2028. gada 29. februāris maina kalendārā",
         "size": 55,
         "lines": [
-          "2028. gada 29.",
-          "februāris: ko",
-          "maina garais gads"
+          "Ko 2028. gada 29.",
+          "februāris maina",
+          "kalendārā"
         ],
         "bounds": [
           [
             60.0,
             184.0,
-            451.0,
+            534.0,
             237.0
           ],
           [
             60.0,
             248.0,
-            397.0,
+            483.5,
             289.0
           ],
           [
             60.0,
             311.5,
-            546.0,
-            365.0
+            328.5,
+            352.0
           ]
         ],
         "region": [
@@ -83042,58 +82706,51 @@
         "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93"
       },
       "panelSha256": "e4a5253260d9f57e6248e2a066226bf7d1f890f459aa7d6b6e2b4321f2281da6",
-      "pixelSha256": "ef5dd17ae2cea9c66ca1a908df3bc863ee45658de6036cd5f92d234fafdc1130",
-      "sha256": "9bd5ae02b525a005c2059ca5ebfe2714580fbfba6ea971d16147854258fc5a13",
-      "bytes": 118323,
+      "pixelSha256": "163d9facfbe5f195235ff2192228aa2a8d35511c682c7245bedb7a428eeed730",
+      "sha256": "dae4b2c9027ca5e6b7d0f79a690f7036ecafe735bb9d91697b42ee9d1f0f410d",
+      "bytes": 116885,
       "semanticFacts": {}
     },
     "/blogs/ligo-un-jani-planosana-latvija/": {
       "url": "/blogs/ligo-un-jani-planosana-latvija/",
-      "title": "Līgo un Jāņi: svētku datumi un pārdomāts vasaras plāns",
+      "title": "Līgo vakara un Jāņu dienas plānošana",
       "family": "blog_article",
-      "src": "/assets/social-cards/v2/81379d999dd6c8bd-e582000c7de5.jpg",
+      "src": "/assets/social-cards/v2/81379d999dd6c8bd-8dca72adf2ac.jpg",
       "width": 1200,
       "height": 630,
       "type": "image/jpeg",
-      "alt": "Līgo un Jāņi: svētku datumi un pārdomāts vasaras plāns | Kalendārs365 Latvijai",
+      "alt": "Līgo vakara un Jāņu dienas plānošana | Kalendārs365 Latvijai",
       "design": "article",
       "kicker": "KALENDĀRS365 BLOGS",
       "subtitle": "Svētki · Idejas ikdienai",
       "year": 2027,
       "month": null,
       "titleLayout": {
-        "text": "Līgo un Jāņi: svētku datumi un pārdomāts vasaras plāns",
+        "text": "Līgo vakara un Jāņu dienas plānošana",
         "size": 55,
         "lines": [
-          "Līgo un Jāņi:",
-          "svētku datumi un",
-          "pārdomāts",
-          "vasaras plāns"
+          "Līgo vakara un",
+          "Jāņu dienas",
+          "plānošana"
         ],
         "bounds": [
           [
             60.0,
             184.0,
-            392.0,
-            240.0
+            449.0,
+            237.0
           ],
           [
             60.0,
             248.0,
-            528.0,
-            289.0
+            382.5,
+            304.0
           ],
           [
             60.0,
             311.5,
-            356.5,
-            363.5
-          ],
-          [
-            60.0,
-            375.5,
-            428.0,
-            427.5
+            338.5,
+            365.0
           ]
         ],
         "region": [
@@ -83142,58 +82799,51 @@
         "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93"
       },
       "panelSha256": "a39c9b2bbd7f9accc6f082910020b6110153f4298c95374122023f72ed84da6f",
-      "pixelSha256": "e582000c7de52a40393babc5bd58ca25a4b029049f0b4511f6090eee444c6943",
-      "sha256": "1dbc2b0073b2c76ffe513d5642366ca6d8937d1dcb1cf6dc9a12ac9acda15cc0",
-      "bytes": 148209,
+      "pixelSha256": "8dca72adf2ac1034fbda769163e35ba84c70a44bba34807781f4d9682b0ba0fb",
+      "sha256": "b48db24415f718ab21c9e433820943b91ec0f9dccf65635335adebb36392e4c6",
+      "bytes": 136603,
       "semanticFacts": {}
     },
     "/blogs/lieldienas-2027-datumi-un-plani/": {
       "url": "/blogs/lieldienas-2027-datumi-un-plani/",
-      "title": "Lieldienas 2027. gadā: datumi, brīvdienas un ģimenes plāns",
+      "title": "Kad ir Lieldienas 2027. gadā un kā plānot brīvdienas",
       "family": "blog_article",
-      "src": "/assets/social-cards/v2/21da5662a7bfeda8-99dd790e73c6.jpg",
+      "src": "/assets/social-cards/v2/21da5662a7bfeda8-24802cb86f99.jpg",
       "width": 1200,
       "height": 630,
       "type": "image/jpeg",
-      "alt": "Lieldienas 2027. gadā: datumi, brīvdienas un ģimenes plāns | Kalendārs365 Latvijai",
+      "alt": "Kad ir Lieldienas 2027. gadā un kā plānot brīvdienas | Kalendārs365 Latvijai",
       "design": "article",
       "kicker": "KALENDĀRS365 BLOGS",
       "subtitle": "Svētki · Idejas ikdienai",
       "year": 2027,
       "month": null,
       "titleLayout": {
-        "text": "Lieldienas 2027. gadā: datumi, brīvdienas un ģimenes plāns",
+        "text": "Kad ir Lieldienas 2027. gadā un kā plānot brīvdienas",
         "size": 55,
         "lines": [
-          "Lieldienas 2027.",
-          "gadā: datumi,",
-          "brīvdienas un",
-          "ģimenes plāns"
+          "Kad ir Lieldienas",
+          "2027. gadā un kā",
+          "plānot brīvdienas"
         ],
         "bounds": [
           [
             60.0,
             184.0,
-            490.0,
+            500.5,
             225.0
           ],
           [
             60.0,
             248.0,
-            426.0,
-            301.5
+            509.0,
+            301.0
           ],
           [
             60.0,
             311.5,
-            424.5,
-            352.5
-          ],
-          [
-            60.0,
-            375.5,
-            447.5,
-            431.5
+            530.5,
+            364.0
           ]
         ],
         "region": [
@@ -83242,58 +82892,58 @@
         "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93"
       },
       "panelSha256": "e4e26ed54d73bcd18e39561c716e210952a6d552480fa7382ddf3072cde2291e",
-      "pixelSha256": "99dd790e73c67e625f71323c04937fdd62e42ac1590771fe6f2a25b462e2ceb4",
-      "sha256": "f8510b7d7212550cc69c1342eb9db05eff9a8fc6ca82d757e456737a3129ad24",
-      "bytes": 201693,
+      "pixelSha256": "24802cb86f99a39055c8130cf0fa867cc77af9eeedaccfc2238c8feba726e86f",
+      "sha256": "3c65e8c007a012e3eb97e1a75410fc363f7b07359bcd0352310489301c918ca9",
+      "bytes": 195553,
       "semanticFacts": {}
     },
     "/blogs/varda-dienas-tradicionalais-paplasinatais-saraksts/": {
       "url": "/blogs/varda-dienas-tradicionalais-paplasinatais-saraksts/",
-      "title": "Vārda dienas: kā atšķirt tradicionālo un paplašināto sarakstu",
+      "title": "Ar ko atšķiras tradicionālais un paplašinātais vārdadienu saraksts",
       "family": "blog_article",
-      "src": "/assets/social-cards/v2/bf7cc3ef6014ffac-2bdf3b227037.jpg",
+      "src": "/assets/social-cards/v2/bf7cc3ef6014ffac-56563bb3b3c3.jpg",
       "width": 1200,
       "height": 630,
       "type": "image/jpeg",
-      "alt": "Vārda dienas: kā atšķirt tradicionālo un paplašināto sarakstu | Kalendārs365 Latvijai",
+      "alt": "Ar ko atšķiras tradicionālais un paplašinātais vārdadienu saraksts | Kalendārs365 Latvijai",
       "design": "article",
       "kicker": "KALENDĀRS365 BLOGS",
       "subtitle": "Svētki · Idejas ikdienai",
       "year": 2027,
       "month": null,
       "titleLayout": {
-        "text": "Vārda dienas: kā atšķirt tradicionālo un paplašināto sarakstu",
-        "size": 54,
+        "text": "Ar ko atšķiras tradicionālais un paplašinātais vārdadienu saraksts",
+        "size": 51,
         "lines": [
-          "Vārda dienas: kā",
-          "atšķirt tradicionālo",
-          "un paplašināto",
-          "sarakstu"
+          "Ar ko atšķiras",
+          "tradicionālais un",
+          "paplašinātais",
+          "vārdadienu saraksts"
         ],
         "bounds": [
           [
             60.0,
             184.0,
-            496.0,
-            224.0
+            402.0,
+            236.5
           ],
           [
             60.0,
-            246.5,
-            565.5,
-            302.5
+            243.0,
+            477.0,
+            281.5
           ],
           [
             60.0,
-            309.5,
-            451.0,
-            362.0
+            302.5,
+            395.5,
+            352.0
           ],
           [
             60.0,
-            372.0,
-            290.0,
-            411.5
+            361.5,
+            570.0,
+            400.0
           ]
         ],
         "region": [
@@ -83342,58 +82992,51 @@
         "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93"
       },
       "panelSha256": "e202890b4d2afbbfe4cf5a298c3b55b7bef0314890da3e067531e54845a59dc3",
-      "pixelSha256": "2bdf3b227037b3d0262dfdcae50b7309fbf59f1072de8968c03c53a71aba1b41",
-      "sha256": "efff11c5ebf26713c60d3f644a80cb237d92deab482a8d1527af1a863af1508b",
-      "bytes": 135965,
+      "pixelSha256": "56563bb3b3c3572b50c807100f0e57c20ce2d7f9eeb7086ab26c791e2b18e7c4",
+      "sha256": "8d4dc0da1d42cf41c23c89c31cd5a3437e06504cac0a4680a49398ba9b635938",
+      "bytes": 136825,
       "semanticFacts": {}
     },
     "/blogs/skolas-brivlaiki-2027-gimenes-plans/": {
       "url": "/blogs/skolas-brivlaiki-2027-gimenes-plans/",
-      "title": "Skolas brīvlaiki 2027. gadā: ko pārbaudīt ģimenes kalendārā",
+      "title": "Kā ģimenei plānot skolas brīvlaikus 2027. gadā",
       "family": "blog_article",
-      "src": "/assets/social-cards/v2/2a78eac6a01cd757-097462563426.jpg",
+      "src": "/assets/social-cards/v2/2a78eac6a01cd757-5e4dbfa6a5cb.jpg",
       "width": 1200,
       "height": 630,
       "type": "image/jpeg",
-      "alt": "Skolas brīvlaiki 2027. gadā: ko pārbaudīt ģimenes kalendārā | Kalendārs365 Latvijai",
+      "alt": "Kā ģimenei plānot skolas brīvlaikus 2027. gadā | Kalendārs365 Latvijai",
       "design": "article",
       "kicker": "KALENDĀRS365 BLOGS",
       "subtitle": "Plānošana · Idejas ikdienai",
       "year": 2027,
       "month": null,
       "titleLayout": {
-        "text": "Skolas brīvlaiki 2027. gadā: ko pārbaudīt ģimenes kalendārā",
+        "text": "Kā ģimenei plānot skolas brīvlaikus 2027. gadā",
         "size": 55,
         "lines": [
-          "Skolas brīvlaiki",
-          "2027. gadā: ko",
-          "pārbaudīt ģimenes",
-          "kalendārā"
+          "Kā ģimenei plānot",
+          "skolas brīvlaikus",
+          "2027. gadā"
         ],
         "bounds": [
           [
             60.0,
             184.0,
-            460.0,
-            225.0
+            543.5,
+            240.0
           ],
           [
             60.0,
             248.0,
-            443.0,
-            301.0
+            504.0,
+            289.0
           ],
           [
             60.0,
             311.5,
-            569.0,
-            367.5
-          ],
-          [
-            60.0,
-            375.5,
-            328.5,
-            416.0
+            351.0,
+            364.5
           ]
         ],
         "region": [
@@ -83442,51 +83085,51 @@
         "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93"
       },
       "panelSha256": "69f0750a89ce115649dcaab7f2f310ea8996e5cebf1f152b9d14bc35135ebb58",
-      "pixelSha256": "097462563426ad68c2b28f056cd3b7e52a1a334cd3721839cbbf375261a56753",
-      "sha256": "70c23ea7d950638267c4ab03a48be983ecfa9be8f93f038b9c008973692cddba",
-      "bytes": 149453,
+      "pixelSha256": "5e4dbfa6a5cbc2ee7449c7a320b23c8110de15f04fb118d3c27617d2cb837a5a",
+      "sha256": "41129a7c36ee6751c32f2c9f63c9b6d04c73af3d4b7d2c0e8549af5bd4975926",
+      "bytes": 140784,
       "semanticFacts": {}
     },
     "/blogs/studiju-kalendars-sesija-un-brivlaiks/": {
       "url": "/blogs/studiju-kalendars-sesija-un-brivlaiks/",
-      "title": "Studiju kalendārs: lekcijas, sesija un īsts brīvlaiks",
+      "title": "Kā augstskolas kalendārā atrast sesiju un brīvlaiku",
       "family": "blog_article",
-      "src": "/assets/social-cards/v2/7f1aa46c8e98da90-468bb5edb506.jpg",
+      "src": "/assets/social-cards/v2/7f1aa46c8e98da90-edc361ef096d.jpg",
       "width": 1200,
       "height": 630,
       "type": "image/jpeg",
-      "alt": "Studiju kalendārs: lekcijas, sesija un īsts brīvlaiks | Kalendārs365 Latvijai",
+      "alt": "Kā augstskolas kalendārā atrast sesiju un brīvlaiku | Kalendārs365 Latvijai",
       "design": "article",
       "kicker": "KALENDĀRS365 BLOGS",
       "subtitle": "Plānošana · Idejas ikdienai",
       "year": 2027,
       "month": null,
       "titleLayout": {
-        "text": "Studiju kalendārs: lekcijas, sesija un īsts brīvlaiks",
+        "text": "Kā augstskolas kalendārā atrast sesiju un brīvlaiku",
         "size": 55,
         "lines": [
-          "Studiju kalendārs:",
-          "lekcijas, sesija un",
-          "īsts brīvlaiks"
+          "Kā augstskolas",
+          "kalendārā atrast",
+          "sesiju un brīvlaiku"
         ],
         "bounds": [
           [
             60.0,
             184.0,
-            542.0,
-            236.5
+            464.0,
+            237.0
           ],
           [
             60.0,
             248.0,
-            524.5,
-            300.5
+            505.0,
+            288.5
           ],
           [
-            57.0,
+            60.0,
             311.5,
-            396.5,
-            352.5
+            541.0,
+            364.0
           ]
         ],
         "region": [
@@ -83535,58 +83178,51 @@
         "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93"
       },
       "panelSha256": "327a9cd3daec2b669f117c9db2eef9f655e97ab83b9308eeaac92d7be46cd366",
-      "pixelSha256": "468bb5edb5065d0b06b40ba669f944a0fe5aa2bad6d3917f1f481c559d4336da",
-      "sha256": "8a6f3cbb087a53817f9b7847953e7fdeebee7f070a5da37c55d9608cf5fe8f4d",
-      "bytes": 193558,
+      "pixelSha256": "edc361ef096de21320c3b969588bd7f541f89eb4b4a18447087da26745f72d64",
+      "sha256": "8edc8815bd1c99b266d8067676e5df512023b6e175c19e55fd49c9d21394545b",
+      "bytes": 193095,
       "semanticFacts": {}
     },
     "/blogs/gimenes-kalendars-nedelas-planosana/": {
       "url": "/blogs/gimenes-kalendars-nedelas-planosana/",
-      "title": "Ģimenes nedēļas kalendārs: mazāk pārpratumu, skaidrāki plāni",
+      "title": "Kā izveidot ģimenes nedēļas kalendāru",
       "family": "blog_article",
-      "src": "/assets/social-cards/v2/5516442194e15912-10999d5babfb.jpg",
+      "src": "/assets/social-cards/v2/5516442194e15912-79c5c30a58a9.jpg",
       "width": 1200,
       "height": 630,
       "type": "image/jpeg",
-      "alt": "Ģimenes nedēļas kalendārs: mazāk pārpratumu, skaidrāki plāni | Kalendārs365 Latvijai",
+      "alt": "Kā izveidot ģimenes nedēļas kalendāru | Kalendārs365 Latvijai",
       "design": "article",
       "kicker": "KALENDĀRS365 BLOGS",
       "subtitle": "Plānošana · Idejas ikdienai",
       "year": 2027,
       "month": null,
       "titleLayout": {
-        "text": "Ģimenes nedēļas kalendārs: mazāk pārpratumu, skaidrāki plāni",
+        "text": "Kā izveidot ģimenes nedēļas kalendāru",
         "size": 55,
         "lines": [
-          "Ģimenes nedēļas",
-          "kalendārs: mazāk",
-          "pārpratumu,",
-          "skaidrāki plāni"
+          "Kā izveidot",
+          "ģimenes nedēļas",
+          "kalendāru"
         ],
         "bounds": [
           [
             60.0,
             184.0,
-            522.5,
-            240.0
+            356.0,
+            225.0
           ],
           [
             60.0,
             248.0,
-            527.5,
-            288.5
+            513.0,
+            306.5
           ],
           [
             60.0,
             311.5,
-            398.5,
-            362.0
-          ],
-          [
-            60.0,
-            375.5,
-            450.0,
-            428.0
+            330.0,
+            352.0
           ]
         ],
         "region": [
@@ -83635,58 +83271,51 @@
         "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93"
       },
       "panelSha256": "f5c3b02e7ab5a3f2fbb104bc7313d521e5e2162184b4cf5c4723c8210365d8dc",
-      "pixelSha256": "10999d5babfb274e43e6f74a87367612655997744153476def43bf3ea83b7593",
-      "sha256": "af311917ce71ea71da673076f2962d5c1f2c0e2fbffd952ac4feff726ee40c6c",
-      "bytes": 178747,
+      "pixelSha256": "79c5c30a58a93e51dbe649e0794306681e864f8a13ad1a4657f735ac82bf831b",
+      "sha256": "1d6542e28ceacc541c90adcd7cda4c0eb83cf37b2671a720c0b8135939ae7bb3",
+      "bytes": 164355,
       "semanticFacts": {}
     },
     "/blogs/darba-dienas-un-stundas-ka-skaitit/": {
       "url": "/blogs/darba-dienas-un-stundas-ka-skaitit/",
-      "title": "Darba dienas un stundas: kā saprast kalendāra aprēķinu",
+      "title": "Kā aprēķināt darba dienas un stundas Latvijā",
       "family": "blog_article",
-      "src": "/assets/social-cards/v2/f87b64435443c966-c312185f6959.jpg",
+      "src": "/assets/social-cards/v2/f87b64435443c966-6f7bc4adf888.jpg",
       "width": 1200,
       "height": 630,
       "type": "image/jpeg",
-      "alt": "Darba dienas un stundas: kā saprast kalendāra aprēķinu | Kalendārs365 Latvijai",
+      "alt": "Kā aprēķināt darba dienas un stundas Latvijā | Kalendārs365 Latvijai",
       "design": "article",
       "kicker": "KALENDĀRS365 BLOGS",
       "subtitle": "Plānošana · Idejas ikdienai",
       "year": 2027,
       "month": null,
       "titleLayout": {
-        "text": "Darba dienas un stundas: kā saprast kalendāra aprēķinu",
+        "text": "Kā aprēķināt darba dienas un stundas Latvijā",
         "size": 55,
         "lines": [
-          "Darba dienas un",
-          "stundas: kā",
-          "saprast kalendāra",
-          "aprēķinu"
+          "Kā aprēķināt",
+          "darba dienas un",
+          "stundas Latvijā"
         ],
         "bounds": [
           [
             60.0,
             184.0,
-            495.5,
-            225.0
+            403.0,
+            239.5
           ],
           [
             60.0,
             248.0,
-            368.5,
-            288.5
+            492.0,
+            289.0
           ],
           [
             60.0,
             311.5,
-            546.5,
-            363.5
-          ],
-          [
-            60.0,
-            375.5,
-            299.0,
-            431.0
+            471.0,
+            364.0
           ]
         ],
         "region": [
@@ -83735,51 +83364,58 @@
         "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93"
       },
       "panelSha256": "b079a4ec6a458dc3a3bf631dfb923a538a8e75a49ed99d0d0ca7a66b2bf86c2e",
-      "pixelSha256": "c312185f6959d4a253f86b6b71e9c8386e789ba9844d077a1ab6c5ef165fc96c",
-      "sha256": "934f9111c975648d52440e0658a6ecb894931dac3662b05d51b155f383c73610",
-      "bytes": 141374,
+      "pixelSha256": "6f7bc4adf888ceac74765e8605c0e628e0000e6688ad05e2980518d16faa0c4c",
+      "sha256": "bc1636277516ec8d2908feb05db4db54534596ba8835195ce7c0767b9dc844b6",
+      "bytes": 135230,
       "semanticFacts": {}
     },
     "/blogs/atvalinajums-2027-garas-brivdienas/": {
       "url": "/blogs/atvalinajums-2027-garas-brivdienas/",
-      "title": "Atvaļinājums 2027. gadā: kā salīdzināt garās brīvdienas",
+      "title": "Kā izmantot garās brīvdienas atvaļinājumam 2027. gadā",
       "family": "blog_article",
-      "src": "/assets/social-cards/v2/940da198556f629c-a89eea332463.jpg",
+      "src": "/assets/social-cards/v2/940da198556f629c-37bd7b953f30.jpg",
       "width": 1200,
       "height": 630,
       "type": "image/jpeg",
-      "alt": "Atvaļinājums 2027. gadā: kā salīdzināt garās brīvdienas | Kalendārs365 Latvijai",
+      "alt": "Kā izmantot garās brīvdienas atvaļinājumam 2027. gadā | Kalendārs365 Latvijai",
       "design": "article",
       "kicker": "KALENDĀRS365 BLOGS",
       "subtitle": "Plānošana · Idejas ikdienai",
       "year": 2027,
       "month": null,
       "titleLayout": {
-        "text": "Atvaļinājums 2027. gadā: kā salīdzināt garās brīvdienas",
+        "text": "Kā izmantot garās brīvdienas atvaļinājumam 2027. gadā",
         "size": 55,
         "lines": [
-          "Atvaļinājums 2027.",
-          "gadā: kā salīdzināt",
-          "garās brīvdienas"
+          "Kā izmantot garās",
+          "brīvdienas",
+          "atvaļinājumam",
+          "2027. gadā"
         ],
         "bounds": [
           [
             60.0,
             184.0,
-            569.0,
-            240.0
+            545.5,
+            237.5
           ],
           [
             60.0,
             248.0,
-            556.5,
-            301.5
+            343.5,
+            289.0
           ],
           [
             60.0,
             311.5,
-            506.0,
-            365.0
+            460.0,
+            367.5
+          ],
+          [
+            60.0,
+            375.5,
+            351.0,
+            428.5
           ]
         ],
         "region": [
@@ -83828,58 +83464,58 @@
         "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93"
       },
       "panelSha256": "4fa5dee9998e98cd066b912499c22038acf67891d95af43b6d4923e21eea1da4",
-      "pixelSha256": "a89eea332463d82cc346925b6e7716b87eb40312dae1b682d07a283b17ac94c4",
-      "sha256": "608bab51cd2eccf1c26de1820f7f90ca9ac21acdae58d6c64471c403a22ff004",
-      "bytes": 187042,
+      "pixelSha256": "37bd7b953f3072a75e4c494b7f74023b6d8cb271c434ba98a7a2a1ce91e84a6b",
+      "sha256": "f7ab247566690b968149d0daa832056f2f53cc1fc2042e6884602725ce3cfa9c",
+      "bytes": 186461,
       "semanticFacts": {}
     },
     "/blogs/personigs-kalendars-fotografijas-druka/": {
       "url": "/blogs/personigs-kalendars-fotografijas-druka/",
-      "title": "Personīgs kalendārs ar fotogrāfijām: no ieceres līdz izdrukai",
+      "title": "Kā sagatavot drukai kalendāru ar savām fotogrāfijām",
       "family": "blog_article",
-      "src": "/assets/social-cards/v2/fb2fa958352e76d0-760690932d26.jpg",
+      "src": "/assets/social-cards/v2/fb2fa958352e76d0-b8f48f2dae4d.jpg",
       "width": 1200,
       "height": 630,
       "type": "image/jpeg",
-      "alt": "Personīgs kalendārs ar fotogrāfijām: no ieceres līdz izdrukai | Kalendārs365 Latvijai",
+      "alt": "Kā sagatavot drukai kalendāru ar savām fotogrāfijām | Kalendārs365 Latvijai",
       "design": "article",
       "kicker": "KALENDĀRS365 BLOGS",
       "subtitle": "Plānošana · Idejas ikdienai",
       "year": 2027,
       "month": null,
       "titleLayout": {
-        "text": "Personīgs kalendārs ar fotogrāfijām: no ieceres līdz izdrukai",
-        "size": 53,
+        "text": "Kā sagatavot drukai kalendāru ar savām fotogrāfijām",
+        "size": 55,
         "lines": [
-          "Personīgs",
-          "kalendārs ar",
-          "fotogrāfijām: no",
-          "ieceres līdz izdrukai"
+          "Kā sagatavot",
+          "drukai kalendāru",
+          "ar savām",
+          "fotogrāfijām"
         ],
         "bounds": [
           [
             60.0,
             184.0,
-            313.0,
-            234.0
+            413.0,
+            235.5
           ],
           [
             60.0,
-            245.5,
-            382.0,
-            285.0
+            248.0,
+            514.0,
+            289.0
           ],
           [
             60.0,
-            307.0,
-            474.5,
-            358.5
+            311.5,
+            304.5,
+            350.5
           ],
           [
             60.0,
-            368.5,
-            572.0,
-            408.5
+            375.5,
+            393.5,
+            429.0
           ]
         ],
         "region": [
@@ -83928,51 +83564,58 @@
         "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93"
       },
       "panelSha256": "e2b66b15997b74b7704b57e273273982fa5baead37f34987e6dfce3484117c93",
-      "pixelSha256": "760690932d26563b66694f753ed68979141d06d2f14bf44a71afc8f4258b1b56",
-      "sha256": "73fba8e2671960e6dac3e9c2b947b472701226f9d87d50ff30e130f29cd09360",
-      "bytes": 106407,
+      "pixelSha256": "b8f48f2dae4d4ba47e7fbc48ecd1ac439f895fccedfcee538ead745783cfdce9",
+      "sha256": "7e0991d15fc11f4f52acad6d59210f6693fdecaa99520b0c06a8d7c21e1d3ae9",
+      "bytes": 103833,
       "semanticFacts": {}
     },
     "/blogs/saullekts-saulriets-latvijas-pilsetas/": {
       "url": "/blogs/saullekts-saulriets-latvijas-pilsetas/",
-      "title": "Kāpēc saullēkts Rīgā un Liepājā nav vienā laikā",
+      "title": "Kāpēc saullēkta un saulrieta laiki Latvijas pilsētās atšķiras",
       "family": "blog_article",
-      "src": "/assets/social-cards/v2/3a74caefebb96732-a9bab30bb74f.jpg",
+      "src": "/assets/social-cards/v2/3a74caefebb96732-f4c387a9cb9f.jpg",
       "width": 1200,
       "height": 630,
       "type": "image/jpeg",
-      "alt": "Kāpēc saullēkts Rīgā un Liepājā nav vienā laikā | Kalendārs365 Latvijai",
+      "alt": "Kāpēc saullēkta un saulrieta laiki Latvijas pilsētās atšķiras | Kalendārs365 Latvijai",
       "design": "article",
       "kicker": "KALENDĀRS365 BLOGS",
       "subtitle": "Debesis · Idejas ikdienai",
       "year": 2027,
       "month": null,
       "titleLayout": {
-        "text": "Kāpēc saullēkts Rīgā un Liepājā nav vienā laikā",
+        "text": "Kāpēc saullēkta un saulrieta laiki Latvijas pilsētās atšķiras",
         "size": 55,
         "lines": [
-          "Kāpēc saullēkts",
-          "Rīgā un Liepājā",
-          "nav vienā laikā"
+          "Kāpēc saullēkta un",
+          "saulrieta laiki",
+          "Latvijas pilsētās",
+          "atšķiras"
         ],
         "bounds": [
           [
             60.0,
             184.0,
-            485.5,
+            570.0,
             236.0
           ],
           [
             60.0,
             248.0,
-            464.5,
-            301.5
+            418.0,
+            289.0
           ],
           [
             60.0,
             311.5,
-            455.0,
-            352.5
+            495.0,
+            364.0
+          ],
+          [
+            60.0,
+            375.5,
+            276.0,
+            432.0
           ]
         ],
         "region": [
@@ -84021,58 +83664,51 @@
         "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93"
       },
       "panelSha256": "5d3b0c1e7a593f6e1bd38c2d12778b37f933fe06beb87a202910fad4033774ad",
-      "pixelSha256": "a9bab30bb74f336226c616e2535293ca5f14166d2459fd57295c05a3dfbdd573",
-      "sha256": "882d04b303946a56731cd824a221623af4ea1a11d65891ad7ba325583d9b7b3d",
-      "bytes": 173986,
+      "pixelSha256": "f4c387a9cb9f6cb1c1e85c7aa3ece78e2c7e74f1b58355820dd43bfafaf798d8",
+      "sha256": "d8bae660e78a72962b1e822d9c2cbbb27488930751ac84c74dfba98db0588ee2",
+      "bytes": 182311,
       "semanticFacts": {}
     },
     "/blogs/meness-fazes-un-vietejais-laiks/": {
       "url": "/blogs/meness-fazes-un-vietejais-laiks/",
-      "title": "Mēness fāzes Latvijas laikā: brīdis, attēls un redzamība",
+      "title": "Kā lasīt Mēness fāžu kalendāru Latvijas laikā",
       "family": "blog_article",
-      "src": "/assets/social-cards/v2/559be67046052d3f-548f90cfb42e.jpg",
+      "src": "/assets/social-cards/v2/559be67046052d3f-f571fd973b96.jpg",
       "width": 1200,
       "height": 630,
       "type": "image/jpeg",
-      "alt": "Mēness fāzes Latvijas laikā: brīdis, attēls un redzamība | Kalendārs365 Latvijai",
+      "alt": "Kā lasīt Mēness fāžu kalendāru Latvijas laikā | Kalendārs365 Latvijai",
       "design": "article",
       "kicker": "KALENDĀRS365 BLOGS",
       "subtitle": "Debesis · Idejas ikdienai",
       "year": 2027,
       "month": null,
       "titleLayout": {
-        "text": "Mēness fāzes Latvijas laikā: brīdis, attēls un redzamība",
+        "text": "Kā lasīt Mēness fāžu kalendāru Latvijas laikā",
         "size": 55,
         "lines": [
-          "Mēness fāzes",
-          "Latvijas laikā:",
-          "brīdis, attēls un",
-          "redzamība"
+          "Kā lasīt Mēness",
+          "fāžu kalendāru",
+          "Latvijas laikā"
         ],
         "bounds": [
           [
             60.0,
             184.0,
-            422.5,
+            476.5,
             224.5
           ],
           [
             60.0,
             248.0,
-            422.5,
-            300.5
+            457.5,
+            289.5
           ],
           [
             60.0,
             311.5,
-            476.5,
-            359.0
-          ],
-          [
-            60.0,
-            375.5,
-            346.0,
-            416.0
+            408.5,
+            364.0
           ]
         ],
         "region": [
@@ -84121,58 +83757,58 @@
         "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93"
       },
       "panelSha256": "a2e8ac7998f826644f8b5bc1462d04f4df9b1572ed61a03572d9ea9a13e3c4bf",
-      "pixelSha256": "548f90cfb42e046fa1d312625320e595c28f86ad0a2486f717878ee9d6761c77",
-      "sha256": "2a5cc801deb73be88d34776e536426786fd0f9044ccc634f3d25067516a31849",
-      "bytes": 128404,
+      "pixelSha256": "f571fd973b96d47b25b7b71ebd40c20f6d19398ceaf4a1dc98838b539bbb62aa",
+      "sha256": "f6d69fa7341e62ef82c5f4051ee9afd733056cb4389f9093180ef652feb3a38e",
+      "bytes": 122180,
       "semanticFacts": {}
     },
     "/blogs/zelta-stunda-latvija-fotoplanosana/": {
       "url": "/blogs/zelta-stunda-latvija-fotoplanosana/",
-      "title": "Zeltainā stunda Latvijā: kā ieplānot fotografēšanas vakaru",
+      "title": "Kā ieplānot zeltaino stundu fotografēšanai Latvijā",
       "family": "blog_article",
-      "src": "/assets/social-cards/v2/8c4f91e5b1b37076-449783a4fff4.jpg",
+      "src": "/assets/social-cards/v2/8c4f91e5b1b37076-3dd13b1cc12a.jpg",
       "width": 1200,
       "height": 630,
       "type": "image/jpeg",
-      "alt": "Zeltainā stunda Latvijā: kā ieplānot fotografēšanas vakaru | Kalendārs365 Latvijai",
+      "alt": "Kā ieplānot zeltaino stundu fotografēšanai Latvijā | Kalendārs365 Latvijai",
       "design": "article",
       "kicker": "KALENDĀRS365 BLOGS",
       "subtitle": "Debesis · Idejas ikdienai",
       "year": 2027,
       "month": null,
       "titleLayout": {
-        "text": "Zeltainā stunda Latvijā: kā ieplānot fotografēšanas vakaru",
+        "text": "Kā ieplānot zeltaino stundu fotografēšanai Latvijā",
         "size": 55,
         "lines": [
-          "Zeltainā stunda",
-          "Latvijā: kā ieplānot",
-          "fotografēšanas",
-          "vakaru"
+          "Kā ieplānot",
+          "zeltaino stundu",
+          "fotografēšanai",
+          "Latvijā"
         ],
         "bounds": [
           [
             60.0,
             184.0,
-            478.0,
-            225.0
+            364.0,
+            236.5
           ],
           [
             60.0,
             248.0,
-            566.5,
-            300.5
+            476.5,
+            289.0
           ],
           [
             60.0,
             311.5,
-            469.5,
+            455.5,
             366.0
           ],
           [
             60.0,
             375.5,
-            244.0,
-            416.0
+            240.5,
+            428.0
           ]
         ],
         "region": [
@@ -84221,50 +83857,50 @@
         "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93"
       },
       "panelSha256": "217178cca477b42115b9e7785e7d682f188db36b5797a35735c89ef8b54f410e",
-      "pixelSha256": "449783a4fff42c5c6e743fa5bda83f05a5646d138c80dc82068b67fbc86fafba",
-      "sha256": "d3070f18a89471eefa0ec2474ee4b71ea655cb98c913500bbaaf098e73a1bc95",
-      "bytes": 126133,
+      "pixelSha256": "3dd13b1cc12a57a9ecee9f20ef44db4e1daf301e12edb4355ba703a0b1545769",
+      "sha256": "8be18da364fd39f68c2e84f30b77388f900a7c8fdd297653e5af0aa15f45ce11",
+      "bytes": 120614,
       "semanticFacts": {}
     },
     "/blogs/perseidas-latvija-noverojumu-plans/": {
       "url": "/blogs/perseidas-latvija-noverojumu-plans/",
-      "title": "Perseīdas Latvijā: kā izvēlēties novērojumu nakti",
+      "title": "Kā izvēlēties nakti Perseīdu vērošanai Latvijā",
       "family": "blog_article",
-      "src": "/assets/social-cards/v2/2c8dcd584b28c210-847e95454ff0.jpg",
+      "src": "/assets/social-cards/v2/2c8dcd584b28c210-126873214672.jpg",
       "width": 1200,
       "height": 630,
       "type": "image/jpeg",
-      "alt": "Perseīdas Latvijā: kā izvēlēties novērojumu nakti | Kalendārs365 Latvijai",
+      "alt": "Kā izvēlēties nakti Perseīdu vērošanai Latvijā | Kalendārs365 Latvijai",
       "design": "article",
       "kicker": "KALENDĀRS365 BLOGS",
       "subtitle": "Debesis · Idejas ikdienai",
       "year": 2027,
       "month": null,
       "titleLayout": {
-        "text": "Perseīdas Latvijā: kā izvēlēties novērojumu nakti",
+        "text": "Kā izvēlēties nakti Perseīdu vērošanai Latvijā",
         "size": 55,
         "lines": [
-          "Perseīdas Latvijā:",
-          "kā izvēlēties",
-          "novērojumu nakti"
+          "Kā izvēlēties nakti",
+          "Perseīdu vērošanai",
+          "Latvijā"
         ],
         "bounds": [
           [
             60.0,
             184.0,
-            531.0,
-            236.5
+            546.0,
+            225.0
           ],
           [
             60.0,
             248.0,
-            391.5,
-            289.0
+            572.0,
+            290.0
           ],
           [
             60.0,
             311.5,
-            531.5,
+            240.5,
             364.0
           ]
         ],
@@ -84314,58 +83950,51 @@
         "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93"
       },
       "panelSha256": "0c4a589933d6f362f0e4ae25f8edcaabfd49b25bad36e3b2884b445398afe613",
-      "pixelSha256": "847e95454ff01f24ffd9d86b200dfb82cbba492fd3f1273a182525939b5b66bd",
-      "sha256": "e68663251ef86d0ad8558381794377b27b3be7b6b5478fc21ef34df9381ded07",
-      "bytes": 138407,
+      "pixelSha256": "126873214672d75f48c4a33acc5c43670f420b4415efaded9115902265fab8ad",
+      "sha256": "5b07a1eb0a4f3cd9fb90ccce3b1c77cdb56fc001b140bf49935dce8b10304184",
+      "bytes": 136968,
       "semanticFacts": {}
     },
     "/blogs/pavasara-seja-latvija-darza-plans/": {
       "url": "/blogs/pavasara-seja-latvija-darza-plans/",
-      "title": "Pavasara sēja Latvijā: plāns pēc augsnes, ne tikai datuma",
+      "title": "Kā plānot pavasara sēju Latvijas dārzā",
       "family": "blog_article",
-      "src": "/assets/social-cards/v2/87e0e40d6166f207-716d1edb4611.jpg",
+      "src": "/assets/social-cards/v2/87e0e40d6166f207-5bdb2b2377f0.jpg",
       "width": 1200,
       "height": 630,
       "type": "image/jpeg",
-      "alt": "Pavasara sēja Latvijā: plāns pēc augsnes, ne tikai datuma | Kalendārs365 Latvijai",
+      "alt": "Kā plānot pavasara sēju Latvijas dārzā | Kalendārs365 Latvijai",
       "design": "article",
       "kicker": "KALENDĀRS365 BLOGS",
       "subtitle": "Dārzs · Idejas ikdienai",
       "year": 2027,
       "month": null,
       "titleLayout": {
-        "text": "Pavasara sēja Latvijā: plāns pēc augsnes, ne tikai datuma",
+        "text": "Kā plānot pavasara sēju Latvijas dārzā",
         "size": 55,
         "lines": [
-          "Pavasara sēja",
-          "Latvijā: plāns pēc",
-          "augsnes, ne tikai",
-          "datuma"
+          "Kā plānot",
+          "pavasara sēju",
+          "Latvijas dārzā"
         ],
         "bounds": [
           [
             60.0,
             184.0,
-            429.0,
-            236.5
+            316.0,
+            236.0
           ],
           [
             60.0,
             248.0,
-            528.5,
+            432.5,
             300.5
           ],
           [
             60.0,
             311.5,
-            508.5,
-            365.0
-          ],
-          [
-            60.0,
-            375.5,
-            269.5,
-            416.0
+            433.0,
+            364.0
           ]
         ],
         "region": [
@@ -84414,58 +84043,51 @@
         "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93"
       },
       "panelSha256": "22ee4a071c7f91121df6f52c9390b95c40a8ea9d94c34f96ceec063c7dc54b1e",
-      "pixelSha256": "716d1edb461190c39f3d006cbbc10787c3e6df0117f68e865ce62add4d74557e",
-      "sha256": "c516c2fcf68acda6ffa15ce29c4b7c523a2c22dcdc0d47661164b04e72064614",
-      "bytes": 156376,
+      "pixelSha256": "5bdb2b2377f0c90eef5e1bc5c7f6d0782958cfdd792c4054ce64ce894478fb79",
+      "sha256": "6c91b7593b20fe8de5a6bcde483b9b2067f7e6eb3c4acdd7824ebb52525d827b",
+      "bytes": 144314,
       "semanticFacts": {}
     },
     "/blogs/tomatu-seja-un-izstadisana-latvija/": {
       "url": "/blogs/tomatu-seja-un-izstadisana-latvija/",
-      "title": "Tomātu sēja un izstādīšana Latvijā: kā veidot savu grafiku",
+      "title": "Kad sēt tomātus un izstādīt dēstus Latvijā",
       "family": "blog_article",
-      "src": "/assets/social-cards/v2/7abe96d7a29a1b5d-51af34d65420.jpg",
+      "src": "/assets/social-cards/v2/7abe96d7a29a1b5d-f465b8bf680a.jpg",
       "width": 1200,
       "height": 630,
       "type": "image/jpeg",
-      "alt": "Tomātu sēja un izstādīšana Latvijā: kā veidot savu grafiku | Kalendārs365 Latvijai",
+      "alt": "Kad sēt tomātus un izstādīt dēstus Latvijā | Kalendārs365 Latvijai",
       "design": "article",
       "kicker": "KALENDĀRS365 BLOGS",
       "subtitle": "Dārzs · Idejas ikdienai",
       "year": 2027,
       "month": null,
       "titleLayout": {
-        "text": "Tomātu sēja un izstādīšana Latvijā: kā veidot savu grafiku",
+        "text": "Kad sēt tomātus un izstādīt dēstus Latvijā",
         "size": 55,
         "lines": [
-          "Tomātu sēja un",
-          "izstādīšana Latvijā:",
-          "kā veidot savu",
-          "grafiku"
+          "Kad sēt tomātus",
+          "un izstādīt dēstus",
+          "Latvijā"
         ],
         "bounds": [
           [
             60.0,
             184.0,
-            471.5,
-            236.5
+            503.5,
+            224.5
           ],
           [
             60.0,
             248.0,
-            573.5,
-            301.5
+            539.5,
+            289.0
           ],
           [
             60.0,
             311.5,
-            448.0,
-            352.5
-          ],
-          [
-            60.0,
-            375.5,
-            249.0,
-            429.0
+            240.5,
+            364.0
           ]
         ],
         "region": [
@@ -84514,58 +84136,58 @@
         "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93"
       },
       "panelSha256": "a5c41c890775732a1d66279af8b8921bcd58c4287d301189eeee3b3bef109b5b",
-      "pixelSha256": "51af34d65420050ea83f059febf82cc149b53dd5185e9d9bc57aedb03edbc38a",
-      "sha256": "bfc1b970bca39e8c56b27b8d712c46d604ec208e5d78a28e260a494dd0cc723d",
-      "bytes": 128194,
+      "pixelSha256": "f465b8bf680a34aabb514b1c87476523dc61bf9118c176967a25010a4ce35a71",
+      "sha256": "8125954ef0d971289e6c53e3edf8467b5c713ce8dcf821ce80f001ce4a47528e",
+      "bytes": 117960,
       "semanticFacts": {}
     },
     "/blogs/rudens-latvija-gadalaiki-un-izbraucieni/": {
       "url": "/blogs/rudens-latvija-gadalaiki-un-izbraucieni/",
-      "title": "Rudens Latvijā: gadalaiku robežas un pārdomāts izbrauciens",
+      "title": "Rudens sākums Latvijā un izbraucienu plānošana",
       "family": "blog_article",
-      "src": "/assets/social-cards/v2/2c3329080d2f393a-3fd1b2593073.jpg",
+      "src": "/assets/social-cards/v2/2c3329080d2f393a-8c8a9375a5bb.jpg",
       "width": 1200,
       "height": 630,
       "type": "image/jpeg",
-      "alt": "Rudens Latvijā: gadalaiku robežas un pārdomāts izbrauciens | Kalendārs365 Latvijai",
+      "alt": "Rudens sākums Latvijā un izbraucienu plānošana | Kalendārs365 Latvijai",
       "design": "article",
       "kicker": "KALENDĀRS365 BLOGS",
       "subtitle": "Latvija · Idejas ikdienai",
       "year": 2027,
       "month": null,
       "titleLayout": {
-        "text": "Rudens Latvijā: gadalaiku robežas un pārdomāts izbrauciens",
+        "text": "Rudens sākums Latvijā un izbraucienu plānošana",
         "size": 55,
         "lines": [
-          "Rudens Latvijā:",
-          "gadalaiku robežas",
-          "un pārdomāts",
-          "izbrauciens"
+          "Rudens sākums",
+          "Latvijā un",
+          "izbraucienu",
+          "plānošana"
         ],
         "bounds": [
           [
             60.0,
             184.0,
-            468.0,
-            236.5
+            481.0,
+            224.5
           ],
           [
             60.0,
             248.0,
-            548.0,
-            302.0
+            321.5,
+            300.5
           ],
           [
             60.0,
             311.5,
-            437.5,
-            363.5
+            376.5,
+            352.5
           ],
           [
             60.0,
             375.5,
-            371.5,
-            416.5
+            338.5,
+            429.0
           ]
         ],
         "region": [
@@ -84614,51 +84236,51 @@
         "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93"
       },
       "panelSha256": "4cd3cec7110118974c71aab9c64bfab34ee73a503dc0bbe38a4d6dae5a9560f6",
-      "pixelSha256": "3fd1b25930730a327af7d88b193d93b9eafcf0bb36a72cbf55335597d2ffa826",
-      "sha256": "4ac620df561e3495c3056c727fdd082a836349362a957de483c1fe25f2378b2c",
-      "bytes": 205150,
+      "pixelSha256": "8c8a9375a5bb222dc54b8cf6c897b9091b891f6af03aff28e33f69bb47052d15",
+      "sha256": "79b0511041142a545ee6d0b1356ce14e75f4bb5684cd19447885b12f71d9ad4c",
+      "bytes": 196077,
       "semanticFacts": {}
     },
     "/blogs/ziemas-dienas-garums-latvija/": {
       "url": "/blogs/ziemas-dienas-garums-latvija/",
-      "title": "Īsās ziemas dienas Latvijā: kā ieplānot gaišo laiku",
+      "title": "Kā ieplānot ziemas gaišās stundas Latvijā",
       "family": "blog_article",
-      "src": "/assets/social-cards/v2/307951e36ebc8e80-f2664e3aaf9b.jpg",
+      "src": "/assets/social-cards/v2/307951e36ebc8e80-977f104b42d9.jpg",
       "width": 1200,
       "height": 630,
       "type": "image/jpeg",
-      "alt": "Īsās ziemas dienas Latvijā: kā ieplānot gaišo laiku | Kalendārs365 Latvijai",
+      "alt": "Kā ieplānot ziemas gaišās stundas Latvijā | Kalendārs365 Latvijai",
       "design": "article",
       "kicker": "KALENDĀRS365 BLOGS",
       "subtitle": "Latvija · Idejas ikdienai",
       "year": 2027,
       "month": null,
       "titleLayout": {
-        "text": "Īsās ziemas dienas Latvijā: kā ieplānot gaišo laiku",
+        "text": "Kā ieplānot ziemas gaišās stundas Latvijā",
         "size": 55,
         "lines": [
-          "Īsās ziemas dienas",
-          "Latvijā: kā ieplānot",
-          "gaišo laiku"
+          "Kā ieplānot ziemas",
+          "gaišās stundas",
+          "Latvijā"
         ],
         "bounds": [
           [
-            57.0,
+            60.0,
             184.0,
-            559.0,
-            233.0
+            565.5,
+            236.5
           ],
           [
             60.0,
             248.0,
-            566.5,
-            300.5
+            461.5,
+            302.5
           ],
           [
             60.0,
             311.5,
-            343.5,
-            366.0
+            240.5,
+            364.0
           ]
         ],
         "region": [
@@ -84707,9 +84329,9 @@
         "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93"
       },
       "panelSha256": "19d39abb0458c1cb5a1b11306a9403931f7215c6c969db9087a09d23e042bd5c",
-      "pixelSha256": "f2664e3aaf9bf2d88d4f9112d33ca497a6560a2f870990f624a6305d9346a3ba",
-      "sha256": "ee956ad3ff53d902d0e1d50f15de556553712e1045b1d674dc7e50f1b096c09b",
-      "bytes": 149667,
+      "pixelSha256": "977f104b42d9c7a1d60ac77d103112e65afd6032cea5a7c894249c22fce7d69a",
+      "sha256": "575b3c5512aeb6f7aea10b72cf6c19787f63d2baaf9c6be51aca6750fffb340c",
+      "bytes": 144474,
       "semanticFacts": {}
     },
     "/404.html": {

@@ -408,7 +408,7 @@
       "id": "burkani",
       "name": "Burkāni",
       "canonical": "/sejas-kalendars/burkani/",
-      "title": "Burkānu audzēšana: sēja, kopšana un raža",
+      "title": "Burkānu audzēšana Latvijā",
       "h1": "Burkānu audzēšana Latvijā",
       "description": "Burkānu sēja un kopšana Latvijā: augsnes apstākļi, agrā un glabāšanai paredzētā raža, kā arī pazīmes, pēc kurām vērtēt gatavību.",
       "intro": {
@@ -591,7 +591,7 @@
       "id": "galda-bietes",
       "name": "Galda bietes",
       "canonical": "/sejas-kalendars/galda-bietes/",
-      "title": "Galda biešu audzēšana: sēja, kopšana un raža",
+      "title": "Galda biešu audzēšana Latvijā",
       "h1": "Galda biešu audzēšana Latvijā",
       "description": "Kad sēt galda bietes Latvijā, kā sargāt dīgstus no salnām un kad novākt ražu svaigam patēriņam vai glabāšanai.",
       "intro": {
@@ -767,7 +767,7 @@
       "id": "redisi",
       "name": "Redīsi",
       "canonical": "/sejas-kalendars/redisi/",
-      "title": "Redīsu audzēšana: sēja, kopšana un raža",
+      "title": "Redīsu audzēšana Latvijā",
       "h1": "Redīsu audzēšana Latvijā",
       "description": "Redīsu sēja pavasarī un vasaras otrajā pusē, kopšanas nosacījumi un gatavības pazīmes Latvijas dārzam.",
       "intro": {
@@ -935,7 +935,7 @@
       "id": "saknu-selerijas",
       "name": "Sakņu selerijas",
       "canonical": "/sejas-kalendars/saknu-selerijas/",
-      "title": "Sakņu seleriju audzēšana: sēja, kopšana un raža",
+      "title": "Sakņu seleriju audzēšana Latvijā",
       "h1": "Sakņu seleriju audzēšana Latvijā",
       "description": "Sakņu seleriju dēsti, izstādīšana un rudens raža Latvijā. Nošķir sakņu selerijas no kātu un lapu šķirnēm.",
       "intro": {
@@ -1108,7 +1108,7 @@
       "id": "sipoli",
       "name": "Sīpoli",
       "canonical": "/sejas-kalendars/sipoli/",
-      "title": "Sīpolu audzēšana: sēja, kopšana un raža",
+      "title": "Sīpolu audzēšana Latvijā",
       "h1": "Sīpolu audzēšana Latvijā",
       "description": "Sīpolu sēja, dēsti un stādāmie sīpoli Latvijā. Uzzini, kā atšķiras audzēšanas sākums un pēc kā vērtēt glabājamās ražas gatavību.",
       "intro": {
@@ -1284,7 +1284,7 @@
       "id": "kiploki",
       "name": "Ķiploki",
       "canonical": "/sejas-kalendars/kiploki/",
-      "title": "Ķiploku audzēšana: sēja, kopšana un raža",
+      "title": "Ķiploku audzēšana Latvijā",
       "h1": "Ķiploku audzēšana Latvijā",
       "description": "Ziemas un vasaras ķiploku stādīšana un ražas gatavība Latvijā. Katram veidam saglabā atsevišķu sezonas plānu.",
       "intro": {
@@ -1474,7 +1474,7 @@
       "id": "puravi",
       "name": "Puravi",
       "canonical": "/sejas-kalendars/puravi/",
-      "title": "Puravu audzēšana: sēja, kopšana un raža",
+      "title": "Puravu audzēšana Latvijā",
       "h1": "Puravu audzēšana Latvijā",
       "description": "Puravu dēsti, izstādīšana un vēlā raža Latvijā. Pārbaudi šķirnes sezonu un atšķir dēstu vecumu no laika līdz novākšanai.",
       "intro": {
@@ -1635,7 +1635,7 @@
       "id": "zirni",
       "name": "Zirņi",
       "canonical": "/sejas-kalendars/zirni/",
-      "title": "Zirņu audzēšana: sēja, kopšana un raža",
+      "title": "Zirņu audzēšana Latvijā",
       "h1": "Zirņu audzēšana Latvijā",
       "description": "Zirņu sēja un zaļās ražas plānošana Latvijā: agra pavasara augsne, mitrums, balsti un atšķirība starp svaigu un nobriedušu ražu.",
       "intro": {
@@ -1791,7 +1791,7 @@
       "id": "pupinas",
       "name": "Dārza pupiņas",
       "canonical": "/sejas-kalendars/pupinas/",
-      "title": "Dārza pupiņu audzēšana: sēja, kopšana un raža",
+      "title": "Dārza pupiņu audzēšana Latvijā",
       "h1": "Dārza pupiņu audzēšana Latvijā",
       "description": "Dārza pupiņu sēja Latvijā: silta augsne, salnu risks, krūmu un kāršu formas, kā arī pākšu un sauso sēklu ražas atšķirība.",
       "intro": {
@@ -1949,7 +1949,7 @@
       "id": "gurki",
       "name": "Gurķi",
       "canonical": "/sejas-kalendars/gurki/",
-      "title": "Gurķu audzēšana: sēja, kopšana un raža",
+      "title": "Gurķu audzēšana Latvijā",
       "h1": "Gurķu audzēšana Latvijā",
       "description": "Gurķu sēja un stādīšana Latvijā: silta augsne, pret salu jutīgi dēsti, atsevišķs siltumnīcas plāns un regulāra pakāpeniska augļu novākšana.",
       "intro": {
@@ -2142,7 +2142,7 @@
       "id": "salati",
       "name": "Salāti",
       "canonical": "/sejas-kalendars/salati/",
-      "title": "Salātu audzēšana: sēja, kopšana un raža",
+      "title": "Salātu audzēšana Latvijā",
       "h1": "Salātu audzēšana Latvijā",
       "description": "Salātu sēja un dēsti Latvijas dārzā. Pielāgo šķirni sezonai, nepārkarsē siltumnīcu un novāc atbilstoši lapu vai galviņu tipam.",
       "intro": {
@@ -2409,7 +2409,7 @@
       "id": "dilles",
       "name": "Dilles",
       "canonical": "/sejas-kalendars/dilles/",
-      "title": "Diļļu audzēšana: sēja, kopšana un raža",
+      "title": "Diļļu audzēšana Latvijā",
       "h1": "Diļļu audzēšana Latvijā",
       "description": "Diļļu sēja un zaļumu raža Latvijā: atkārtotas sējas, mitrums un avotā norādītais orientieris no sējas līdz ražai atklātā laukā.",
       "intro": {
@@ -2564,7 +2564,7 @@
       "id": "spinati",
       "name": "Spināti",
       "canonical": "/sejas-kalendars/spinati/",
-      "title": "Spinātu audzēšana: sēja, kopšana un raža",
+      "title": "Spinātu audzēšana Latvijā",
       "h1": "Spinātu audzēšana Latvijā",
       "description": "Spinātu sēja un lapu raža Latvijā: pavasara dobe, sezonai piemērota šķirne, siltumnīcas karstums un gatavības pazīmes.",
       "intro": {
@@ -2728,7 +2728,7 @@
       "id": "kartupeli",
       "name": "Kartupeļi",
       "canonical": "/sejas-kalendars/kartupeli/",
-      "title": "Kartupeļu audzēšana: sēja, kopšana un raža",
+      "title": "Kartupeļu audzēšana Latvijā",
       "h1": "Kartupeļu audzēšana Latvijā",
       "description": "Kartupeļu stādīšana un ražas novākšana Latvijā: sēklas bumbuļi, augsnes gatavība un atšķirība starp agriem un glabājamiem kartupeļiem.",
       "intro": {
@@ -2888,7 +2888,7 @@
       "id": "kaposti",
       "name": "Kāposti",
       "canonical": "/sejas-kalendars/kaposti/",
-      "title": "Galviņkāpostu audzēšana: sēja, kopšana un raža",
+      "title": "Galviņkāpostu audzēšana Latvijā",
       "h1": "Galviņkāpostu audzēšana Latvijā",
       "description": "Galviņkāpostu dēsti, stādīšana un ražas gatavība Latvijā. Atšķir agrīnas un glabājamas šķirnes un vērtē galviņas blīvumu.",
       "intro": {
@@ -3043,7 +3043,7 @@
       "id": "tomati",
       "name": "Tomāti",
       "canonical": "/sejas-kalendars/tomati/",
-      "title": "Tomātu audzēšana: sēja, kopšana un raža",
+      "title": "Tomātu audzēšana Latvijā",
       "h1": "Tomātu audzēšana Latvijā",
       "description": "Tomātu dēsti un izstādīšana Latvijas apstākļos. Atšķir lauku no siltumnīcas, pārbaudi augsnes siltumu un augļu gatavību.",
       "intro": {

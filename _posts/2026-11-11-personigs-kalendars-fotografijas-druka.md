@@ -2,18 +2,17 @@
 layout: blog-post
 family: blog_article
 permalink: "/blogs/personigs-kalendars-fotografijas-druka/"
-title: 'Personīgs kalendārs ar fotogrāfijām: no ieceres līdz izdrukai'
-description: Fotogrāfiju atlase, lasāms noformējums, PDF un attēla izvēle un drukas
-  priekšskatījuma pārbaude.
+title: Kā sagatavot drukai kalendāru ar savām fotogrāfijām
+description: Kā izvēlēties fotoattēlus, atstāt vietu datumiem un pirms drukāšanas
+  pārbaudīt malas un teksta izmēru? Apskati arī PDF un attēla formāta atšķirības.
 author: Silvis Balodis
 date: '2026-11-11'
 reading_notes: false
 blog_slug: personigs-kalendars-fotografijas-druka
-og_image: "/assets/social-cards/v2/fb2fa958352e76d0-760690932d26.jpg"
+og_image: "/assets/social-cards/v2/fb2fa958352e76d0-b8f48f2dae4d.jpg"
 og_image_width: 1200
 og_image_height: 630
-og_image_alt: 'Personīgs kalendārs ar fotogrāfijām: no ieceres līdz izdrukai | Kalendārs365
-  Latvijai'
+og_image_alt: Kā sagatavot drukai kalendāru ar savām fotogrāfijām | Kalendārs365 Latvijai
 ---
 [Personīgs fotokalendārs](/izveidot-kalendaru/) ir vienlaikus attēls un ikdienas instruments. Skaista fotogrāfija var piesaistīt skatienu, taču kalendāram joprojām jāļauj ātri atrast datumu un ierakstīt vajadzīgo. Veidojot savu lapu, svarīgi līdzsvarot attēla vietu, burtu lielumu, krāsas un reālo papīra izmēru.
 

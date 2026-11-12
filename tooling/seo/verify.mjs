@@ -23,7 +23,7 @@ export function verifyMetadata(){
   const title=decode(s.match(/<title>([^<]+)<\/title>/)?.[1]),description=meta(s,'description');
   if(title!==c.title||description!==c.description||!title||!description)fail('metadata','contract mismatch');
   if(titles.has(title)||descriptions.has(description))fail('metadata-duplicate',title);titles.add(title);descriptions.add(description);
-  if(!title.endsWith(' | Kalendārs365')||/\s[-—–]\s/.test(title))fail('title-separator',title);
+  if(!/^[^|:·]+ \| Kalendārs365$/.test(title)||/\s[-—–]\s/.test(title))fail('title-separator',title);
   if((s.match(/<h1(?:\s|>)/g)||[]).length!==1||!s.includes('<html lang="lv">'))fail('heading-language','expected one Latvian H1');
   const robots=meta(s,'robots');if(robots.includes('noindex')===r.indexable||c.robots!==robots)fail('robots',robots);
   if(locs.includes(expected)!==r.indexable)fail('sitemap-membership',expected);
@@ -37,6 +37,7 @@ export function verifyMetadata(){
   const page=byId.get(expected+'#webpage'),image=byId.get(expected+'#primaryimage'),publisher=byId.get('https://kalendars365.lv/#publisher');
   if(!page||page.url!==canonical||page.inLanguage!=='lv-LV'||page.description!==description||page.name!==r.title&&r.title)fail('page-entity','not bound to visible document');
   if(page?.primaryImageOfPage?.['@id']!==image?.['@id']||image?.url!==meta(s,'og:image')||image?.caption!==meta(s,'og:image:alt'))fail('image-entity','sharing/image disagreement');
+  if(meta(s,'og:site_name')!=='Kalendārs365'||meta(s,'og:description')!==description||meta(s,'twitter:description')!==description)fail('brand-and-descriptions','inconsistent social preview');
   if(meta(s,'og:url')!==canonical||meta(s,'og:title')!==title||meta(s,'twitter:title')!==title||meta(s,'twitter:image')!==image?.url)fail('social-metadata','mismatch');
   if(!publisher||publisher['@type']!=='Person'||publisher.name!=='Silvis Balodis')fail('publisher','inconsistent owner identity');
   if(graph.some(n=>['Product','Event','AggregateRating','Review','Dataset'].includes(n['@type'])))fail('unjustified-schema','unsupported content claim');

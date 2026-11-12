@@ -2,18 +2,17 @@
 layout: blog-post
 family: blog_article
 permalink: "/blogs/zelta-stunda-latvija-fotoplanosana/"
-title: 'Zeltainā stunda Latvijā: kā ieplānot fotografēšanas vakaru'
-description: Saules augstums, vietējais horizonts, krēsla un vienkāršs fotografēšanas
-  plāns ar pārbaudāmiem laikiem.
+title: Kā ieplānot zeltaino stundu fotografēšanai Latvijā
+description: Izvēlies vietu un datumu, pārbaudi Saules augstumu, saulrietu un krēslu.
+  Uzzini, kā ēkas, koki un vietējais horizonts ietekmē gaismu fotografēšanai.
 author: Silvis Balodis
 date: '2026-11-11'
 reading_notes: false
 blog_slug: zelta-stunda-latvija-fotoplanosana
-og_image: "/assets/social-cards/v2/8c4f91e5b1b37076-449783a4fff4.jpg"
+og_image: "/assets/social-cards/v2/8c4f91e5b1b37076-3dd13b1cc12a.jpg"
 og_image_width: 1200
 og_image_height: 630
-og_image_alt: 'Zeltainā stunda Latvijā: kā ieplānot fotografēšanas vakaru | Kalendārs365
-  Latvijai'
+og_image_alt: Kā ieplānot zeltaino stundu fotografēšanai Latvijā | Kalendārs365 Latvijai
 ---
 Zeltainā stunda ir ērts nosaukums gaismas apstākļiem ap laiku, kad Saule atrodas zemu virs horizonta. Tomēr tā nav garantēta tieši sešdesmit minūšu gara josla, kas visās Latvijas vietās sākas vienā laikā. Gadalaiks, mākoņi, apkārtne un izvēlētais skata virziens var būtiski mainīt rezultātu.
 

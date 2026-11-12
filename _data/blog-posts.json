@@ -3,10 +3,10 @@
     {
       "order": 1,
       "slug": "latvijas-svetku-dienas-2027-planosana",
-      "title": "Latvijas svētku dienas 2027. gadā: kā plānot gadu",
+      "title": "Kā plānot 2027. gada svētku brīvdienas Latvijā",
       "category": "Svētki",
       "photoKey": "flag",
-      "description": "2027. gada svētku datumi, atceres dienu atšķirības un pārskatāms gada plāns Latvijas ikdienai.",
+      "description": "Kuras svētku dienas 2027. gadā iekrīt nedēļas nogalē? Uzzini, kā tās atzīmēt gada plānā un atšķirt no atceres dienām.",
       "related": [
         "/svetku-dienas/2027/",
         "/kalendars/2027/",
@@ -26,10 +26,10 @@
     {
       "order": 2,
       "slug": "iso-nedelu-numuri-kalendara",
-      "title": "ISO nedēļu numuri: kā nepazaudēt datumu gadu mijā",
+      "title": "Kā noteikt ISO nedēļas numuru gadu mijā",
       "category": "Plānošana",
       "photoKey": "monthly",
-      "description": "Nedēļu numerācijas skaidrojums ar 2027.–2030. gada robežu piemēriem un praktisku lietojumu darbā un mācībās.",
+      "description": "Piemēri no 2027. līdz 2030. gadam rāda, kāpēc janvāra sākums dažreiz pieder iepriekšējā gada ISO nedēļai un kā pierakstīt darba nedēļas datumu.",
       "related": [
         "/nedelu-numuri/",
         "/nedelas-kalendars/2027/"
@@ -48,10 +48,10 @@
     {
       "order": 3,
       "slug": "garais-gads-2028-februaris",
-      "title": "2028. gada 29. februāris: ko maina garais gads",
+      "title": "Ko 2028. gada 29. februāris maina kalendārā",
       "category": "Plānošana",
       "photoKey": "clock",
-      "description": "Papildu februāra diena, datumu starpības un atkārtojošos notikumu pārbaude 2028. gada plānā.",
+      "description": "Kāpēc 2028. gada februārī ir 29 dienas? Apskati, kā papildu diena ietekmē datumu starpību un kā ieplānot notikumus, kas atkārtojas katru gadu.",
       "related": [
         "/garais-gads/",
         "/kalendars/2028/februaris/",
@@ -71,10 +71,10 @@
     {
       "order": 4,
       "slug": "ligo-un-jani-planosana-latvija",
-      "title": "Līgo un Jāņi: svētku datumi un pārdomāts vasaras plāns",
+      "title": "Līgo vakara un Jāņu dienas plānošana",
       "category": "Svētki",
       "photoKey": "ligo",
-      "description": "23. un 24. jūnija nozīme Latvijas kalendārā, atšķirība no astronomiskajiem saulgriežiem un gatavošanās svētkiem.",
+      "description": "Ko Latvijas kalendārā nozīmē 23. un 24. jūnijs? Uzzini, kā Līgo un Jāņu datumi atšķiras no astronomiskajiem saulgriežiem, un ieplāno svētku vakaru.",
       "related": [
         "/svetki-un-tradicijas/ligo-diena/",
         "/svetki-un-tradicijas/janu-diena/",
@@ -95,10 +95,10 @@
     {
       "order": 5,
       "slug": "lieldienas-2027-datumi-un-plani",
-      "title": "Lieldienas 2027. gadā: datumi, brīvdienas un ģimenes plāns",
+      "title": "Kad ir Lieldienas 2027. gadā un kā plānot brīvdienas",
       "category": "Svētki",
       "photoKey": "easter",
-      "description": "Lieldienu datumu noteikšana, 2027. gada marta brīvdienas un konkrēts sagatavošanās pārskats.",
+      "description": "2027. gadā Lielā piektdiena ir 26. martā, Pirmās Lieldienas 28. martā un Otrās Lieldienas 29. martā. Kā svētku datumus izmantot ģimenes plānā?",
       "related": [
         "/svetki-un-tradicijas/lieldienas/",
         "/svetku-dienas/2027/marts/"
@@ -118,10 +118,10 @@
     {
       "order": 6,
       "slug": "varda-dienas-tradicionalais-paplasinatais-saraksts",
-      "title": "Vārda dienas: kā atšķirt tradicionālo un paplašināto sarakstu",
+      "title": "Ar ko atšķiras tradicionālais un paplašinātais vārdadienu saraksts",
       "category": "Svētki",
       "photoKey": "flowers",
-      "description": "Precīza vārda meklēšana, sarakstu versijas un personisks apsveikumu kalendārs bez minējumiem par datumiem.",
+      "description": "Kā meklēt vārdu ar garumzīmēm un mīkstinājuma zīmēm, pārbaudīt datumu Valsts valodas centra sarakstos un atzīmēt apsveikumu savā kalendārā.",
       "related": [
         "/varda-dienas/",
         "/kalendars-ar-vardu/"
@@ -140,10 +140,10 @@
     {
       "order": 7,
       "slug": "skolas-brivlaiki-2027-gimenes-plans",
-      "title": "Skolas brīvlaiki 2027. gadā: ko pārbaudīt ģimenes kalendārā",
+      "title": "Kā ģimenei plānot skolas brīvlaikus 2027. gadā",
       "category": "Plānošana",
       "photoKey": "school",
-      "description": "Publicētie 2026./2027. mācību gada termiņi, klašu atšķirības un ģimenes prombūtnes plānošana.",
+      "description": "Apskati 2026./2027. mācību gada brīvlaikus un atšķirīgos mācību beigu datumus pa klasēm. Uzzini, ko pirms brauciena precizēt savā skolā.",
       "related": [
         "/skolas-brivlaiki/",
         "/valsts-parbaudes-darbi/",
@@ -164,10 +164,10 @@
     {
       "order": 8,
       "slug": "studiju-kalendars-sesija-un-brivlaiks",
-      "title": "Studiju kalendārs: lekcijas, sesija un īsts brīvlaiks",
+      "title": "Kā augstskolas kalendārā atrast sesiju un brīvlaiku",
       "category": "Plānošana",
       "photoKey": "university",
-      "description": "Kā lasīt Latvijas augstskolas akadēmisko kalendāru un salīdzināt to ar savas programmas pienākumiem.",
+      "description": "Kur savas augstskolas kalendārā meklēt semestra sākumu, sesiju un brīvlaiku? Salīdzini publicētos datumus ar savas programmas lekcijām un pārbaudījumiem.",
       "related": [
         "/studiju-kalendars/",
         "/stundu-saraksts/"
@@ -187,10 +187,10 @@
     {
       "order": 9,
       "slug": "gimenes-kalendars-nedelas-planosana",
-      "title": "Ģimenes nedēļas kalendārs: mazāk pārpratumu, skaidrāki plāni",
+      "title": "Kā izveidot ģimenes nedēļas kalendāru",
       "category": "Plānošana",
       "photoKey": "family",
-      "description": "Praktiska vienas nedēļas plānošana ar atbildīgajiem, pārvietošanās laiku un privātu ierakstu pārvaldību.",
+      "description": "Saliec vienā nedēļas plānā skolu, darbu, nodarbības un braucienus. Piemēri palīdz sadalīt pienākumus un atstāt laiku nokļūšanai no vienas vietas citā.",
       "related": [
         "/gimenes-kalendars/",
         "/dienas-planotajs/",
@@ -209,10 +209,10 @@
     {
       "order": 10,
       "slug": "darba-dienas-un-stundas-ka-skaitit",
-      "title": "Darba dienas un stundas: kā saprast kalendāra aprēķinu",
+      "title": "Kā aprēķināt darba dienas un stundas Latvijā",
       "category": "Plānošana",
       "photoKey": "calculator",
-      "description": "Darba nedēļas modelis, svētku datumi, saīsinātās darba dienas un kalendāra aprēķinu izmantošana darba plānošanā.",
+      "description": "Ar ko darba dienu skaits atšķiras no stundu skaita? Apskati, kā aprēķinā iekļauj nedēļas grafiku, svētku dienas un saīsinātu pirmssvētku darba dienu.",
       "related": [
         "/darba-dienu-kalendars/",
         "/darba-laika-kalendars/",
@@ -232,10 +232,10 @@
     {
       "order": 11,
       "slug": "atvalinajums-2027-garas-brivdienas",
-      "title": "Atvaļinājums 2027. gadā: kā salīdzināt garās brīvdienas",
+      "title": "Kā izmantot garās brīvdienas atvaļinājumam 2027. gadā",
       "category": "Plānošana",
       "photoKey": "jurmala",
-      "description": "Konkrēti 2027. gada intervālu piemēri un atšķirība starp atpūtas ilgumu un vajadzīgajām darba dienām.",
+      "description": "Salīdzini 2027. gada svētku un nedēļas nogaļu datumus. Piemēri parāda, cik darba dienu jāņem atvaļinājumā un cik dienu pēc kārtas var atpūsties.",
       "related": [
         "/atvalinajuma-planotajs/",
         "/garas-brivdienas/2027/",
@@ -255,10 +255,10 @@
     {
       "order": 12,
       "slug": "personigs-kalendars-fotografijas-druka",
-      "title": "Personīgs kalendārs ar fotogrāfijām: no ieceres līdz izdrukai",
+      "title": "Kā sagatavot drukai kalendāru ar savām fotogrāfijām",
       "category": "Plānošana",
       "photoKey": "burgundy-planner",
-      "description": "Fotogrāfiju atlase, lasāms noformējums, PDF un attēla izvēle un drukas priekšskatījuma pārbaude.",
+      "description": "Kā izvēlēties fotoattēlus, atstāt vietu datumiem un pirms drukāšanas pārbaudīt malas un teksta izmēru? Apskati arī PDF un attēla formāta atšķirības.",
       "related": [
         "/izveidot-kalendaru/",
         "/pdf-kalendari/",
@@ -277,10 +277,10 @@
     {
       "order": 13,
       "slug": "saullekts-saulriets-latvijas-pilsetas",
-      "title": "Kāpēc saullēkts Rīgā un Liepājā nav vienā laikā",
+      "title": "Kāpēc saullēkta un saulrieta laiki Latvijas pilsētās atšķiras",
       "category": "Debesis",
       "photoKey": "riga",
-      "description": "Viena Latvijas laika josla, atšķirīgas koordinātas un skaidrojums, kā izmantot Saules laikus ikdienā.",
+      "description": "Rīgā un Liepājā pulksteņi rāda vienādu laiku, taču Saule lec dažādos brīžos. Uzzini, kā laiku ietekmē pilsētas atrašanās vieta un vietējais horizonts.",
       "related": [
         "/saullekts-saulriets/",
         "/dienas-garums/"
@@ -299,10 +299,10 @@
     {
       "order": 14,
       "slug": "meness-fazes-un-vietejais-laiks",
-      "title": "Mēness fāzes Latvijas laikā: brīdis, attēls un redzamība",
+      "title": "Kā lasīt Mēness fāžu kalendāru Latvijas laikā",
       "category": "Debesis",
       "photoKey": "moon",
-      "description": "Jaunmēness, pilnmēness un ceturkšņi, vietējā datuma nozīme un dienas attēlu atskaites laiks.",
+      "description": "Kāpēc pilnmēness brīdis un Mēness attēls dienas vidū var atšķirties? Uzzini, kā pārrēķina fāzes laiku un kur meklēt lēktu un rietu savā pilsētā.",
       "related": [
         "/meness-kalendars/",
         "/meness-fazes/",
@@ -323,10 +323,10 @@
     {
       "order": 15,
       "slug": "zelta-stunda-latvija-fotoplanosana",
-      "title": "Zeltainā stunda Latvijā: kā ieplānot fotografēšanas vakaru",
+      "title": "Kā ieplānot zeltaino stundu fotografēšanai Latvijā",
       "category": "Debesis",
       "photoKey": "summer",
-      "description": "Saules augstums, vietējais horizonts, krēsla un vienkāršs fotografēšanas plāns ar pārbaudāmiem laikiem.",
+      "description": "Izvēlies vietu un datumu, pārbaudi Saules augstumu, saulrietu un krēslu. Uzzini, kā ēkas, koki un vietējais horizonts ietekmē gaismu fotografēšanai.",
       "related": [
         "/saullekts-saulriets/",
         "/gadalaiki/"
@@ -345,10 +345,10 @@
     {
       "order": 16,
       "slug": "perseidas-latvija-noverojumu-plans",
-      "title": "Perseīdas Latvijā: kā izvēlēties novērojumu nakti",
+      "title": "Kā izvēlēties nakti Perseīdu vērošanai Latvijā",
       "category": "Debesis",
       "photoKey": "perseids",
-      "description": "Meteoru plūsmas sezona, Mēness gaisma, vietas izvēle un godīgs novērojuma plāns bez garantēta meteoru skaita.",
+      "description": "Uzzini, kā Perseīdu vērošanu ietekmē tumšās stundas, Mēness gaisma un apkārtnes apgaismojums, un izvēlies novērojumu vietu.",
       "related": [
         "/perseidas/",
         "/meness-kalendars/",
@@ -369,10 +369,10 @@
     {
       "order": 17,
       "slug": "pavasara-seja-latvija-darza-plans",
-      "title": "Pavasara sēja Latvijā: plāns pēc augsnes, ne tikai datuma",
+      "title": "Kā plānot pavasara sēju Latvijas dārzā",
       "category": "Dārzs",
       "photoKey": "carrots",
-      "description": "Atklāta lauka un siltumnīcas atšķirības, sējas orientieri un lietderīgs personīgais dārza pieraksts.",
+      "description": "Salīdzini sēju atklātā laukā un siltumnīcā. Pirms sēšanas pārbaudi augsnes siltumu un salnu risku, bet dārza kalendārā pieraksti šķirni un sējas datumu.",
       "related": [
         "/sejas-kalendars/",
         "/sejas-kalendars/menesis/aprilis/"
@@ -391,10 +391,10 @@
     {
       "order": 18,
       "slug": "tomatu-seja-un-izstadisana-latvija",
-      "title": "Tomātu sēja un izstādīšana Latvijā: kā veidot savu grafiku",
+      "title": "Kad sēt tomātus un izstādīt dēstus Latvijā",
       "category": "Dārzs",
       "photoKey": "tomatoes",
-      "description": "Šķirne, dēsti, audzēšanas vieta un salnu pārbaude vienā tomātu sezonas plānā.",
+      "description": "Kā saskaņot tomātu sējas laiku ar šķirni, dēstu attīstību un vietu siltumnīcā vai dobē? Iekļauj plānā rūdīšanu un pārbaudi salnu risku.",
       "related": [
         "/sejas-kalendars/tomati/",
         "/sejas-kalendars/"
@@ -413,10 +413,10 @@
     {
       "order": 19,
       "slug": "rudens-latvija-gadalaiki-un-izbraucieni",
-      "title": "Rudens Latvijā: gadalaiku robežas un pārdomāts izbrauciens",
+      "title": "Rudens sākums Latvijā un izbraucienu plānošana",
       "category": "Latvija",
       "photoKey": "autumn",
-      "description": "Ekvinokcija, mainīgi dabas apstākļi un īsāka diena kā atšķirīgi atskaites punkti rudens nedēļas nogales plānam.",
+      "description": "Salīdzini kalendāro rudeni ar ekvinokciju un pārmaiņām dabā. Izbraucienam pārbaudi vietējo saulrietu un paredzi atceļu pirms tumsas.",
       "related": [
         "/gadalaiki/",
         "/svetki-un-tradicijas/mikeli/",
@@ -435,10 +435,10 @@
     {
       "order": 20,
       "slug": "ziemas-dienas-garums-latvija",
-      "title": "Īsās ziemas dienas Latvijā: kā ieplānot gaišo laiku",
+      "title": "Kā ieplānot ziemas gaišās stundas Latvijā",
       "category": "Latvija",
       "photoKey": "winter",
-      "description": "Saullēkts, saulriets, krēsla un astronomiskie saulgrieži praktiskā Latvijas ziemas dienas plānā.",
+      "description": "Uzzini, kā ziemas saulgrieži, saullēkts, saulriets un krēsla nosaka dienas gaišo daļu. Izmanto savas pilsētas laikus pastaigai vai braucienam.",
       "related": [
         "/dienas-garums/",
         "/saullekts-saulriets/",

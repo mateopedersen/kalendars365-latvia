@@ -2,18 +2,17 @@
 layout: blog-post
 family: blog_article
 permalink: "/blogs/pavasara-seja-latvija-darza-plans/"
-title: 'Pavasara sēja Latvijā: plāns pēc augsnes, ne tikai datuma'
-description: Atklāta lauka un siltumnīcas atšķirības, sējas orientieri un lietderīgs
-  personīgais dārza pieraksts.
+title: Kā plānot pavasara sēju Latvijas dārzā
+description: Salīdzini sēju atklātā laukā un siltumnīcā. Pirms sēšanas pārbaudi augsnes
+  siltumu un salnu risku, bet dārza kalendārā pieraksti šķirni un sējas datumu.
 author: Silvis Balodis
 date: '2026-11-11'
 reading_notes: false
 blog_slug: pavasara-seja-latvija-darza-plans
-og_image: "/assets/social-cards/v2/87e0e40d6166f207-716d1edb4611.jpg"
+og_image: "/assets/social-cards/v2/87e0e40d6166f207-5bdb2b2377f0.jpg"
 og_image_width: 1200
 og_image_height: 630
-og_image_alt: 'Pavasara sēja Latvijā: plāns pēc augsnes, ne tikai datuma | Kalendārs365
-  Latvijai'
+og_image_alt: Kā plānot pavasara sēju Latvijas dārzā | Kalendārs365 Latvijai
 ---
 [Pavasara sējas kalendārs](/sejas-kalendars/) ir noderīgs orientieris, taču Latvijas dārzā to nevajag uztvert kā pavēli konkrētā datumā ielikt zemē visas sēklas. Augsnes stāvoklis, vieta, kultūra un audzēšanas paņēmiens var būt svarīgāki par mēneša skaitli. Vienā gadā dārzs kļūst gatavs agrāk, citā pēc slapja vai vēsa laika jāpagaida.
 

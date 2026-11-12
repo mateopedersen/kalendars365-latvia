@@ -2,18 +2,18 @@
 layout: blog-post
 family: blog_article
 permalink: "/blogs/varda-dienas-tradicionalais-paplasinatais-saraksts/"
-title: 'Vārda dienas: kā atšķirt tradicionālo un paplašināto sarakstu'
-description: Precīza vārda meklēšana, sarakstu versijas un personisks apsveikumu kalendārs
-  bez minējumiem par datumiem.
+title: Ar ko atšķiras tradicionālais un paplašinātais vārdadienu saraksts
+description: Kā meklēt vārdu ar garumzīmēm un mīkstinājuma zīmēm, pārbaudīt datumu
+  Valsts valodas centra sarakstos un atzīmēt apsveikumu savā kalendārā.
 author: Silvis Balodis
 date: '2026-11-11'
 reading_notes: false
 blog_slug: varda-dienas-tradicionalais-paplasinatais-saraksts
-og_image: "/assets/social-cards/v2/bf7cc3ef6014ffac-2bdf3b227037.jpg"
+og_image: "/assets/social-cards/v2/bf7cc3ef6014ffac-56563bb3b3c3.jpg"
 og_image_width: 1200
 og_image_height: 630
-og_image_alt: 'Vārda dienas: kā atšķirt tradicionālo un paplašināto sarakstu | Kalendārs365
-  Latvijai'
+og_image_alt: Ar ko atšķiras tradicionālais un paplašinātais vārdadienu saraksts |
+  Kalendārs365 Latvijai
 ---
 Vārda diena Latvijas ikdienā ir neliels, bet personisks kalendāra notikums. To pamana darbavietā, atceras ģimenē vai izmanto kā iemeslu īsai apsveikuma ziņai. Meklējot savu vai tuvinieka vārdu, tomēr var rasties jautājums: kāpēc vienā sarakstā tas ir redzams, bet citā nav?
 

@@ -9,6 +9,22 @@ test('all 901 HTML documents have coherent route, sitemap, metadata, image and e
  execFileSync('python3',['-c','from tooling.seo.inventory import Document; d=Document(); d.feed(\'<html><head><title>Kalendārs | Kalendārs365</title></head><body><svg><title>Accessible illustration title</title></svg></body></html>\'); assert d.title == "Kalendārs | Kalendārs365"'],{stdio:'pipe'});
  const result=verifyMetadata();assert.equal(result.pages,901);assert.equal(result.entityGraphs,901);assert.deepEqual(result.errors,[]);
 });
+test('calendar snippets identify actual dates and the homepage declares the crawlable brand icon', () => {
+ const pages = json('_data/seo-contract.json').pages;
+ assert.equal(pages['/varda-dienas/aprilis/'].title, 'Vārda dienas aprīlī | Kalendārs365');
+ assert.match(pages['/meness-kalendars/2028/janvaris/'].description, /12\. janvārī plkst\. 06:03/);
+ assert.match(pages['/nedelas-kalendars/2031/01/'].description, /2030\. gada 30\. decembrī un beidzas 5\. janvārī/);
+ assert.match(pages['/darba-dienu-kalendars/2028/februaris/'].description, /21/);
+ assert.equal(new Set(Object.values(pages).map(page => page.description)).size, Object.keys(pages).length);
+ const home = read('_site/index.html');
+ assert.match(home, /<link rel="icon" type="image\/png" sizes="96x96" href="\/assets\/favicon-96\.png">/);
+ const icon = fs.readFileSync('_site/assets/favicon-96.png');
+ assert.deepEqual([icon.readUInt32BE(16), icon.readUInt32BE(20)], [96, 96]);
+ const entities = Array.from(home.matchAll(/<script type="application\/ld\+json"[^>]*>([\s\S]*?)<\/script>/g), match => JSON.parse(match[1])).flatMap(entry => entry['@graph'] ?? [entry]);
+ const site = entities.find(entry => entry['@type'] === 'WebSite');
+ assert.equal(site.name, 'Kalendārs365');
+ assert.deepEqual(site.alternateName, ['Kalendars365', 'kalendars365.lv']);
+});
 test('the route factory rejects foreign, parameterized, noncanonical and impossible date inputs',()=>{
  execFileSync('ruby',['-e',String.raw`
   require File.expand_path('lib/seo_contract',Dir.pwd)

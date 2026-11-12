@@ -11,7 +11,7 @@
         {
           "url": "/",
           "image": "/assets/social-cards/v2/42099b4af021e53f-a8036a3df94a.jpg",
-          "title": "Latvijas kalendārs, svētki un plānotājs"
+          "title": "Latvijas kalendārs, svētki un vārda dienas"
         },
         {
           "url": "/meness-lekts-un-riets/",
@@ -30,8 +30,8 @@
         },
         {
           "url": "/blogs/saullekts-saulriets-latvijas-pilsetas/",
-          "image": "/assets/social-cards/v2/3a74caefebb96732-a9bab30bb74f.jpg",
-          "title": "Kāpēc saullēkts Rīgā un Liepājā nav vienā laikā"
+          "image": "/assets/social-cards/v2/3a74caefebb96732-f4c387a9cb9f.jpg",
+          "title": "Kāpēc saullēkta un saulrieta laiki Latvijas pilsētās atšķiras"
         }
       ]
     },
@@ -742,8 +742,8 @@
         },
         {
           "url": "/blogs/meness-fazes-un-vietejais-laiks/",
-          "image": "/assets/social-cards/v2/559be67046052d3f-548f90cfb42e.jpg",
-          "title": "Mēness fāzes Latvijas laikā: brīdis, attēls un redzamība"
+          "image": "/assets/social-cards/v2/559be67046052d3f-f571fd973b96.jpg",
+          "title": "Kā lasīt Mēness fāžu kalendāru Latvijas laikā"
         }
       ]
     },
@@ -1317,8 +1317,8 @@
         },
         {
           "url": "/blogs/atvalinajums-2027-garas-brivdienas/",
-          "image": "/assets/social-cards/v2/940da198556f629c-a89eea332463.jpg",
-          "title": "Atvaļinājums 2027. gadā: kā salīdzināt garās brīvdienas"
+          "image": "/assets/social-cards/v2/940da198556f629c-37bd7b953f30.jpg",
+          "title": "Kā izmantot garās brīvdienas atvaļinājumam 2027. gadā"
         }
       ]
     },
@@ -1688,8 +1688,8 @@
         },
         {
           "url": "/blogs/skolas-brivlaiki-2027-gimenes-plans/",
-          "image": "/assets/social-cards/v2/2a78eac6a01cd757-097462563426.jpg",
-          "title": "Skolas brīvlaiki 2027. gadā: ko pārbaudīt ģimenes kalendārā"
+          "image": "/assets/social-cards/v2/2a78eac6a01cd757-5e4dbfa6a5cb.jpg",
+          "title": "Kā ģimenei plānot skolas brīvlaikus 2027. gadā"
         }
       ]
     },
@@ -2312,13 +2312,13 @@
       "covers": [
         {
           "url": "/sejas-kalendars/burkani/",
-          "image": "/assets/social-cards/v2/82af6ab4099221e4-4617c1b60adf.jpg",
-          "title": "Burkānu audzēšana: sēja, kopšana un raža"
+          "image": "/assets/social-cards/v2/82af6ab4099221e4-bb973bf59ffb.jpg",
+          "title": "Burkānu audzēšana Latvijā"
         },
         {
           "url": "/blogs/pavasara-seja-latvija-darza-plans/",
-          "image": "/assets/social-cards/v2/87e0e40d6166f207-716d1edb4611.jpg",
-          "title": "Pavasara sēja Latvijā: plāns pēc augsnes, ne tikai datuma"
+          "image": "/assets/social-cards/v2/87e0e40d6166f207-5bdb2b2377f0.jpg",
+          "title": "Kā plānot pavasara sēju Latvijas dārzā"
         }
       ]
     },
@@ -2333,8 +2333,8 @@
       "covers": [
         {
           "url": "/sejas-kalendars/dilles/",
-          "image": "/assets/social-cards/v2/af98d1c713a2e09a-44414e52423b.jpg",
-          "title": "Diļļu audzēšana: sēja, kopšana un raža"
+          "image": "/assets/social-cards/v2/af98d1c713a2e09a-98f217e47776.jpg",
+          "title": "Diļļu audzēšana Latvijā"
         }
       ]
     },
@@ -2349,8 +2349,8 @@
       "covers": [
         {
           "url": "/sejas-kalendars/galda-bietes/",
-          "image": "/assets/social-cards/v2/0e5b65747190d3c2-3420c58f7da5.jpg",
-          "title": "Galda biešu audzēšana: sēja, kopšana un raža"
+          "image": "/assets/social-cards/v2/0e5b65747190d3c2-b5ac9c6dbb30.jpg",
+          "title": "Galda biešu audzēšana Latvijā"
         }
       ]
     },
@@ -2365,8 +2365,8 @@
       "covers": [
         {
           "url": "/sejas-kalendars/gurki/",
-          "image": "/assets/social-cards/v2/1d859baea85ab681-4bc65c1f148f.jpg",
-          "title": "Gurķu audzēšana: sēja, kopšana un raža"
+          "image": "/assets/social-cards/v2/1d859baea85ab681-817267eb4b5b.jpg",
+          "title": "Gurķu audzēšana Latvijā"
         }
       ]
     },
@@ -2381,8 +2381,8 @@
       "covers": [
         {
           "url": "/sejas-kalendars/kaposti/",
-          "image": "/assets/social-cards/v2/23c8d7f901574e94-8002e6e58f62.jpg",
-          "title": "Galviņkāpostu audzēšana: sēja, kopšana un raža"
+          "image": "/assets/social-cards/v2/23c8d7f901574e94-d65ddf6ae58a.jpg",
+          "title": "Galviņkāpostu audzēšana Latvijā"
         }
       ]
     },
@@ -2397,8 +2397,8 @@
       "covers": [
         {
           "url": "/sejas-kalendars/kartupeli/",
-          "image": "/assets/social-cards/v2/c5266fba21fb0b43-9991f84c0688.jpg",
-          "title": "Kartupeļu audzēšana: sēja, kopšana un raža"
+          "image": "/assets/social-cards/v2/c5266fba21fb0b43-edc1ce573ec8.jpg",
+          "title": "Kartupeļu audzēšana Latvijā"
         }
       ]
     },
@@ -2413,8 +2413,8 @@
       "covers": [
         {
           "url": "/sejas-kalendars/kiploki/",
-          "image": "/assets/social-cards/v2/78fd865bc43bdc11-1237c446e3ce.jpg",
-          "title": "Ķiploku audzēšana: sēja, kopšana un raža"
+          "image": "/assets/social-cards/v2/78fd865bc43bdc11-c4021f7a7c88.jpg",
+          "title": "Ķiploku audzēšana Latvijā"
         }
       ]
     },
@@ -2429,8 +2429,8 @@
       "covers": [
         {
           "url": "/sejas-kalendars/pupinas/",
-          "image": "/assets/social-cards/v2/c280c9f29b0de39c-5a4e58669f78.jpg",
-          "title": "Dārza pupiņu audzēšana: sēja, kopšana un raža"
+          "image": "/assets/social-cards/v2/c280c9f29b0de39c-3e6b1f9d191c.jpg",
+          "title": "Dārza pupiņu audzēšana Latvijā"
         }
       ]
     },
@@ -2445,8 +2445,8 @@
       "covers": [
         {
           "url": "/sejas-kalendars/puravi/",
-          "image": "/assets/social-cards/v2/5e3d00387a934556-eca1c31a0755.jpg",
-          "title": "Puravu audzēšana: sēja, kopšana un raža"
+          "image": "/assets/social-cards/v2/5e3d00387a934556-4713a7b1a9cc.jpg",
+          "title": "Puravu audzēšana Latvijā"
         }
       ]
     },
@@ -2461,8 +2461,8 @@
       "covers": [
         {
           "url": "/sejas-kalendars/redisi/",
-          "image": "/assets/social-cards/v2/d253f16ec2a7d261-862a66c7a87e.jpg",
-          "title": "Redīsu audzēšana: sēja, kopšana un raža"
+          "image": "/assets/social-cards/v2/d253f16ec2a7d261-70154e7ea8f4.jpg",
+          "title": "Redīsu audzēšana Latvijā"
         }
       ]
     },
@@ -2477,8 +2477,8 @@
       "covers": [
         {
           "url": "/sejas-kalendars/saknu-selerijas/",
-          "image": "/assets/social-cards/v2/479f6c980d28a79d-7341f13c2997.jpg",
-          "title": "Sakņu seleriju audzēšana: sēja, kopšana un raža"
+          "image": "/assets/social-cards/v2/479f6c980d28a79d-2f110f35a54f.jpg",
+          "title": "Sakņu seleriju audzēšana Latvijā"
         }
       ]
     },
@@ -2493,8 +2493,8 @@
       "covers": [
         {
           "url": "/sejas-kalendars/salati/",
-          "image": "/assets/social-cards/v2/8ce5cfa18d9adec7-459fc9730723.jpg",
-          "title": "Salātu audzēšana: sēja, kopšana un raža"
+          "image": "/assets/social-cards/v2/8ce5cfa18d9adec7-a5577965ca6f.jpg",
+          "title": "Salātu audzēšana Latvijā"
         }
       ]
     },
@@ -2509,8 +2509,8 @@
       "covers": [
         {
           "url": "/sejas-kalendars/sipoli/",
-          "image": "/assets/social-cards/v2/66bfdbbafe3d29a5-28aeff0b95d7.jpg",
-          "title": "Sīpolu audzēšana: sēja, kopšana un raža"
+          "image": "/assets/social-cards/v2/66bfdbbafe3d29a5-aee9853389c2.jpg",
+          "title": "Sīpolu audzēšana Latvijā"
         }
       ]
     },
@@ -2525,8 +2525,8 @@
       "covers": [
         {
           "url": "/sejas-kalendars/spinati/",
-          "image": "/assets/social-cards/v2/1060bf9aebe37ff7-e9240e633974.jpg",
-          "title": "Spinātu audzēšana: sēja, kopšana un raža"
+          "image": "/assets/social-cards/v2/1060bf9aebe37ff7-e9cdc349beb4.jpg",
+          "title": "Spinātu audzēšana Latvijā"
         }
       ]
     },
@@ -2541,13 +2541,13 @@
       "covers": [
         {
           "url": "/sejas-kalendars/tomati/",
-          "image": "/assets/social-cards/v2/a4f6d23eb16d417a-2a19f9a896ca.jpg",
-          "title": "Tomātu audzēšana: sēja, kopšana un raža"
+          "image": "/assets/social-cards/v2/a4f6d23eb16d417a-016676a256c4.jpg",
+          "title": "Tomātu audzēšana Latvijā"
         },
         {
           "url": "/blogs/tomatu-seja-un-izstadisana-latvija/",
-          "image": "/assets/social-cards/v2/7abe96d7a29a1b5d-51af34d65420.jpg",
-          "title": "Tomātu sēja un izstādīšana Latvijā: kā veidot savu grafiku"
+          "image": "/assets/social-cards/v2/7abe96d7a29a1b5d-f465b8bf680a.jpg",
+          "title": "Kad sēt tomātus un izstādīt dēstus Latvijā"
         }
       ]
     },
@@ -2562,8 +2562,8 @@
       "covers": [
         {
           "url": "/sejas-kalendars/zirni/",
-          "image": "/assets/social-cards/v2/3279a7772262d6fd-7f6229c56561.jpg",
-          "title": "Zirņu audzēšana: sēja, kopšana un raža"
+          "image": "/assets/social-cards/v2/3279a7772262d6fd-e84b6aca3b88.jpg",
+          "title": "Zirņu audzēšana Latvijā"
         }
       ]
     },
@@ -2577,8 +2577,8 @@
       "covers": [
         {
           "url": "/svetki-un-tradicijas/advente/",
-          "image": "/assets/social-cards/v2/3e0b3ac306de7e59-fa37a97c4c65.jpg",
-          "title": "Advente: četras svētdienas pirms Ziemassvētkiem"
+          "image": "/assets/social-cards/v2/3e0b3ac306de7e59-8d5dae8610fe.jpg",
+          "title": "Adventes svētdienas pirms Ziemassvētkiem"
         }
       ]
     },
@@ -2957,8 +2957,8 @@
         },
         {
           "url": "/blogs/lieldienas-2027-datumi-un-plani/",
-          "image": "/assets/social-cards/v2/21da5662a7bfeda8-99dd790e73c6.jpg",
-          "title": "Lieldienas 2027. gadā: datumi, brīvdienas un ģimenes plāns"
+          "image": "/assets/social-cards/v2/21da5662a7bfeda8-24802cb86f99.jpg",
+          "title": "Kad ir Lieldienas 2027. gadā un kā plānot brīvdienas"
         }
       ]
     },
@@ -2977,8 +2977,8 @@
         },
         {
           "url": "/blogs/ligo-un-jani-planosana-latvija/",
-          "image": "/assets/social-cards/v2/81379d999dd6c8bd-e582000c7de5.jpg",
-          "title": "Līgo un Jāņi: svētku datumi un pārdomāts vasaras plāns"
+          "image": "/assets/social-cards/v2/81379d999dd6c8bd-8dca72adf2ac.jpg",
+          "title": "Līgo vakara un Jāņu dienas plānošana"
         }
       ]
     },
@@ -2992,8 +2992,8 @@
       "covers": [
         {
           "url": "/svetki-un-tradicijas/martindiena/",
-          "image": "/assets/social-cards/v2/3cf90e668b567c17-78ce71603563.jpg",
-          "title": "Mārtiņi: 10. novembris un latviešu tradīcijas"
+          "image": "/assets/social-cards/v2/3cf90e668b567c17-9712c5a66507.jpg",
+          "title": "Mārtiņi un 10. novembra tradīcijas Latvijā"
         }
       ]
     },
@@ -3037,8 +3037,8 @@
       "covers": [
         {
           "url": "/svetki-un-tradicijas/meteni/",
-          "image": "/assets/social-cards/v2/eedd4140082ebd33-12388f0cca06.jpg",
-          "title": "Meteņi: pavasara gaidīšana un svinēšanas laiki"
+          "image": "/assets/social-cards/v2/eedd4140082ebd33-950c16d17c7e.jpg",
+          "title": "Meteņi un pavasara gaidīšanas tradīcijas"
         }
       ]
     },
@@ -3052,8 +3052,8 @@
       "covers": [
         {
           "url": "/svetki-un-tradicijas/mikeli/",
-          "image": "/assets/social-cards/v2/42f099794d262a48-d22adde8aa29.jpg",
-          "title": "Miķeļi: 29. septembris un ražas laika tradīcijas"
+          "image": "/assets/social-cards/v2/42f099794d262a48-200ceb7a3d26.jpg",
+          "title": "Miķeļi un ražas svētku tradīcijas Latvijā"
         }
       ]
     },
@@ -3067,8 +3067,8 @@
       "covers": [
         {
           "url": "/svetki-un-tradicijas/miruso-pieminas-diena/",
-          "image": "/assets/social-cards/v2/35e6148b59fe63ab-0537a0461f4e.jpg",
-          "title": "Mirušo piemiņas dienas: katoļu un luterāņu kalendārs"
+          "image": "/assets/social-cards/v2/35e6148b59fe63ab-4fbeacd97a00.jpg",
+          "title": "Mirušo piemiņas dienas katoļu un luterāņu tradīcijā"
         }
       ]
     },
@@ -3232,8 +3232,8 @@
       "covers": [
         {
           "url": "/svetki-un-tradicijas/pavasara-ekvinokcija/",
-          "image": "/assets/social-cards/v2/e100ddda69b05b9a-349f67d4deda.jpg",
-          "title": "Pavasara ekvinokcija: astronomiskais brīdis Latvijā"
+          "image": "/assets/social-cards/v2/e100ddda69b05b9a-a8f7588b0592.jpg",
+          "title": "Pavasara ekvinokcija Latvijā"
         }
       ]
     },
@@ -3277,8 +3277,8 @@
       "covers": [
         {
           "url": "/svetki-un-tradicijas/pupolu-svetdiena/",
-          "image": "/assets/social-cards/v2/5fb442f1471aa124-9969a258ca94.jpg",
-          "title": "Pūpolu svētdiena: datums un Lielās nedēļas sākums"
+          "image": "/assets/social-cards/v2/5fb442f1471aa124-a94e4a3bdc80.jpg",
+          "title": "Pūpolu svētdiena un Lielās nedēļas sākums"
         }
       ]
     },
@@ -3307,8 +3307,8 @@
       "covers": [
         {
           "url": "/svetki-un-tradicijas/rudens-ekvinokcija/",
-          "image": "/assets/social-cards/v2/0aea6f5a5b86efc5-80c9d1e66874.jpg",
-          "title": "Rudens ekvinokcija: astronomiskais brīdis Latvijā"
+          "image": "/assets/social-cards/v2/0aea6f5a5b86efc5-6ba5706742d1.jpg",
+          "title": "Rudens ekvinokcija Latvijā"
         }
       ]
     },
@@ -3327,8 +3327,8 @@
         },
         {
           "url": "/blogs/zelta-stunda-latvija-fotoplanosana/",
-          "image": "/assets/social-cards/v2/8c4f91e5b1b37076-449783a4fff4.jpg",
-          "title": "Zeltainā stunda Latvijā: kā ieplānot fotografēšanas vakaru"
+          "image": "/assets/social-cards/v2/8c4f91e5b1b37076-3dd13b1cc12a.jpg",
+          "title": "Kā ieplānot zeltaino stundu fotografēšanai Latvijā"
         }
       ]
     },
@@ -3377,8 +3377,8 @@
         },
         {
           "url": "/blogs/gimenes-kalendars-nedelas-planosana/",
-          "image": "/assets/social-cards/v2/5516442194e15912-10999d5babfb.jpg",
-          "title": "Ģimenes nedēļas kalendārs: mazāk pārpratumu, skaidrāki plāni"
+          "image": "/assets/social-cards/v2/5516442194e15912-79c5c30a58a9.jpg",
+          "title": "Kā izveidot ģimenes nedēļas kalendāru"
         }
       ]
     },
@@ -3482,8 +3482,8 @@
       "covers": [
         {
           "url": "/svetki-un-tradicijas/totalitaro-rezimu-upuru-pieminas-diena/",
-          "image": "/assets/social-cards/v2/1977a423f3c02218-9c18364cbfc3.jpg",
-          "title": "Staļinisma un nacisma upuru atceres diena"
+          "image": "/assets/social-cards/v2/1977a423f3c02218-cace032a134e.jpg",
+          "title": "Totalitāro režīmu upuru piemiņa Eiropā 23. augustā"
         }
       ]
     },
@@ -3512,8 +3512,8 @@
       "covers": [
         {
           "url": "/svetki-un-tradicijas/valentina-diena/",
-          "image": "/assets/social-cards/v2/62c02553e297f58b-ddd25f2e3286.jpg",
-          "title": "Valentīndiena: datums un Mīlestības diena Latvijā"
+          "image": "/assets/social-cards/v2/62c02553e297f58b-882499227730.jpg",
+          "title": "Valentīndiena Latvijā 14. februārī"
         }
       ]
     },
@@ -3622,8 +3622,8 @@
         },
         {
           "url": "/blogs/ziemas-dienas-garums-latvija/",
-          "image": "/assets/social-cards/v2/307951e36ebc8e80-f2664e3aaf9b.jpg",
-          "title": "Īsās ziemas dienas Latvijā: kā ieplānot gaišo laiku"
+          "image": "/assets/social-cards/v2/307951e36ebc8e80-977f104b42d9.jpg",
+          "title": "Kā ieplānot ziemas gaišās stundas Latvijā"
         }
       ]
     },
@@ -3667,8 +3667,8 @@
       "covers": [
         {
           "url": "/svetki-un-tradicijas/zvaigznes-diena/",
-          "image": "/assets/social-cards/v2/57c610bf9bfd09d6-750326c1459c.jpg",
-          "title": "Zvaigznes diena: 6. janvāris un tradīcija"
+          "image": "/assets/social-cards/v2/57c610bf9bfd09d6-10b429a6c989.jpg",
+          "title": "Zvaigznes diena 6. janvārī"
         }
       ]
     },
@@ -3682,13 +3682,13 @@
       "covers": [
         {
           "url": "/blogs/",
-          "image": "/assets/social-cards/v2/10de99cb16218cf8-93189cd35fd5.jpg",
-          "title": "Blogs: Latvijas kalendārs un ikdienas plāni"
+          "image": "/assets/social-cards/v2/10de99cb16218cf8-10b4dc06af7f.jpg",
+          "title": "Raksti par Latvijas kalendāru un laika plānošanu"
         },
         {
           "url": "/blogs/latvijas-svetku-dienas-2027-planosana/",
-          "image": "/assets/social-cards/v2/0905485a43e5455c-7f3d5dcc0886.jpg",
-          "title": "Latvijas svētku dienas 2027. gadā: kā plānot gadu"
+          "image": "/assets/social-cards/v2/0905485a43e5455c-b2e773477dfc.jpg",
+          "title": "Kā plānot 2027. gada svētku brīvdienas Latvijā"
         }
       ]
     },
@@ -3702,8 +3702,8 @@
       "covers": [
         {
           "url": "/blogs/iso-nedelu-numuri-kalendara/",
-          "image": "/assets/social-cards/v2/6dd118fabc642fc2-449fc0340f70.jpg",
-          "title": "ISO nedēļu numuri: kā nepazaudēt datumu gadu mijā"
+          "image": "/assets/social-cards/v2/6dd118fabc642fc2-cbf9740073bc.jpg",
+          "title": "Kā noteikt ISO nedēļas numuru gadu mijā"
         }
       ]
     },
@@ -3717,8 +3717,8 @@
       "covers": [
         {
           "url": "/blogs/garais-gads-2028-februaris/",
-          "image": "/assets/social-cards/v2/0f909dc52ff66173-ef5dd17ae2ce.jpg",
-          "title": "2028. gada 29. februāris: ko maina garais gads"
+          "image": "/assets/social-cards/v2/0f909dc52ff66173-163d9facfbe5.jpg",
+          "title": "Ko 2028. gada 29. februāris maina kalendārā"
         }
       ]
     },
@@ -3732,8 +3732,8 @@
       "covers": [
         {
           "url": "/blogs/varda-dienas-tradicionalais-paplasinatais-saraksts/",
-          "image": "/assets/social-cards/v2/bf7cc3ef6014ffac-2bdf3b227037.jpg",
-          "title": "Vārda dienas: kā atšķirt tradicionālo un paplašināto sarakstu"
+          "image": "/assets/social-cards/v2/bf7cc3ef6014ffac-56563bb3b3c3.jpg",
+          "title": "Ar ko atšķiras tradicionālais un paplašinātais vārdadienu saraksts"
         }
       ]
     },
@@ -3747,8 +3747,8 @@
       "covers": [
         {
           "url": "/blogs/studiju-kalendars-sesija-un-brivlaiks/",
-          "image": "/assets/social-cards/v2/7f1aa46c8e98da90-468bb5edb506.jpg",
-          "title": "Studiju kalendārs: lekcijas, sesija un īsts brīvlaiks"
+          "image": "/assets/social-cards/v2/7f1aa46c8e98da90-edc361ef096d.jpg",
+          "title": "Kā augstskolas kalendārā atrast sesiju un brīvlaiku"
         }
       ]
     },
@@ -3762,8 +3762,8 @@
       "covers": [
         {
           "url": "/blogs/darba-dienas-un-stundas-ka-skaitit/",
-          "image": "/assets/social-cards/v2/f87b64435443c966-c312185f6959.jpg",
-          "title": "Darba dienas un stundas: kā saprast kalendāra aprēķinu"
+          "image": "/assets/social-cards/v2/f87b64435443c966-6f7bc4adf888.jpg",
+          "title": "Kā aprēķināt darba dienas un stundas Latvijā"
         }
       ]
     },
@@ -3777,8 +3777,8 @@
       "covers": [
         {
           "url": "/blogs/personigs-kalendars-fotografijas-druka/",
-          "image": "/assets/social-cards/v2/fb2fa958352e76d0-760690932d26.jpg",
-          "title": "Personīgs kalendārs ar fotogrāfijām: no ieceres līdz izdrukai"
+          "image": "/assets/social-cards/v2/fb2fa958352e76d0-b8f48f2dae4d.jpg",
+          "title": "Kā sagatavot drukai kalendāru ar savām fotogrāfijām"
         }
       ]
     },
@@ -3792,8 +3792,8 @@
       "covers": [
         {
           "url": "/blogs/perseidas-latvija-noverojumu-plans/",
-          "image": "/assets/social-cards/v2/2c8dcd584b28c210-847e95454ff0.jpg",
-          "title": "Perseīdas Latvijā: kā izvēlēties novērojumu nakti"
+          "image": "/assets/social-cards/v2/2c8dcd584b28c210-126873214672.jpg",
+          "title": "Kā izvēlēties nakti Perseīdu vērošanai Latvijā"
         }
       ]
     },
@@ -3807,8 +3807,8 @@
       "covers": [
         {
           "url": "/blogs/rudens-latvija-gadalaiki-un-izbraucieni/",
-          "image": "/assets/social-cards/v2/2c3329080d2f393a-3fd1b2593073.jpg",
-          "title": "Rudens Latvijā: gadalaiku robežas un pārdomāts izbrauciens"
+          "image": "/assets/social-cards/v2/2c3329080d2f393a-8c8a9375a5bb.jpg",
+          "title": "Rudens sākums Latvijā un izbraucienu plānošana"
         }
       ]
     }

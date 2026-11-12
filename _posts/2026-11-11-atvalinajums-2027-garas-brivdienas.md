@@ -2,18 +2,18 @@
 layout: blog-post
 family: blog_article
 permalink: "/blogs/atvalinajums-2027-garas-brivdienas/"
-title: 'Atvaļinājums 2027. gadā: kā salīdzināt garās brīvdienas'
-description: Konkrēti 2027. gada intervālu piemēri un atšķirība starp atpūtas ilgumu
-  un vajadzīgajām darba dienām.
+title: Kā izmantot garās brīvdienas atvaļinājumam 2027. gadā
+description: Salīdzini 2027. gada svētku un nedēļas nogaļu datumus. Piemēri parāda,
+  cik darba dienu jāņem atvaļinājumā un cik dienu pēc kārtas var atpūsties.
 author: Silvis Balodis
 date: '2026-11-11'
 reading_notes: false
 blog_slug: atvalinajums-2027-garas-brivdienas
-og_image: "/assets/social-cards/v2/940da198556f629c-a89eea332463.jpg"
+og_image: "/assets/social-cards/v2/940da198556f629c-37bd7b953f30.jpg"
 og_image_width: 1200
 og_image_height: 630
-og_image_alt: 'Atvaļinājums 2027. gadā: kā salīdzināt garās brīvdienas | Kalendārs365
-  Latvijai'
+og_image_alt: Kā izmantot garās brīvdienas atvaļinājumam 2027. gadā | Kalendārs365
+  Latvijai
 ---
 [Garās brīvdienas](/garas-brivdienas/2027/) ir iespēja apvienot nedēļas nogali, svētkus un saskaņotu atvaļinājumu. Taču lielākais brīvo dienu skaits ne vienmēr nozīmē labāko atpūtu. Jāņem vērā darba grafiks, ģimenes iespējas, ceļš un tas, cik daudz no izvēlētā perioda patiešām paliek sev vēlamajām nodarbēm.
 

@@ -2,18 +2,17 @@
 layout: blog-post
 family: blog_article
 permalink: "/blogs/meness-fazes-un-vietejais-laiks/"
-title: 'Mēness fāzes Latvijas laikā: brīdis, attēls un redzamība'
-description: Jaunmēness, pilnmēness un ceturkšņi, vietējā datuma nozīme un dienas
-  attēlu atskaites laiks.
+title: Kā lasīt Mēness fāžu kalendāru Latvijas laikā
+description: Kāpēc pilnmēness brīdis un Mēness attēls dienas vidū var atšķirties?
+  Uzzini, kā pārrēķina fāzes laiku un kur meklēt lēktu un rietu savā pilsētā.
 author: Silvis Balodis
 date: '2026-11-11'
 reading_notes: false
 blog_slug: meness-fazes-un-vietejais-laiks
-og_image: "/assets/social-cards/v2/559be67046052d3f-548f90cfb42e.jpg"
+og_image: "/assets/social-cards/v2/559be67046052d3f-f571fd973b96.jpg"
 og_image_width: 1200
 og_image_height: 630
-og_image_alt: 'Mēness fāzes Latvijas laikā: brīdis, attēls un redzamība | Kalendārs365
-  Latvijai'
+og_image_alt: Kā lasīt Mēness fāžu kalendāru Latvijas laikā | Kalendārs365 Latvijai
 ---
 [Mēness kalendārā](/meness-kalendars/) bieži vienā lapā redzams datums, fāzes nosaukums, apgaismojuma procents un pievilcīgs Mēness attēls. Šie elementi ir saistīti, bet neapraksta pilnīgi vienu lietu. Lai saprastu, ko gaidīt debesīs Latvijā, jāatšķir galvenās fāzes precīzais brīdis no dienas attēla un no tā, vai Mēness konkrētajā vietā ir virs horizonta.
 

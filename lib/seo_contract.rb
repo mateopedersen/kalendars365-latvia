@@ -48,9 +48,10 @@ module CalendarSeoContract
     ORIGIN+canonical_path(path)
   end
   def full_title(value)
-    text=value.to_s.strip.gsub(/\s+(?:-|—|–|·)\s+/,' | ')
+    text=value.to_s.strip
     raise 'SEO title is empty' if text.empty?
-    text.end_with?(' | Kalendārs365') ? text : text+' | Kalendārs365'
+    raise "Rewrite the source page title without decorative separators: #{text}" if text.match?(/[|:·]|\s[-—–]\s/)
+    text+' | Kalendārs365'
   end
   def date(value)
     raw=value.to_s
@@ -93,7 +94,7 @@ module CalendarSeoContract
     modified=date(modified) if modified
     canonical=absolute(path);publisher=ORIGIN+'/#publisher';website=ORIGIN+'/#website';page_id=canonical+'#webpage';image_id=canonical+'#primaryimage'
     person={'@type'=>'Person','@id'=>publisher,'name'=>site.config.fetch('owner'),'url'=>ORIGIN+'/par-projektu/#silvis-balodis'}
-    web={'@type'=>'WebSite','@id'=>website,'url'=>ORIGIN+'/','name'=>'Kalendārs365','alternateName'=>'Kalendars365','inLanguage'=>'lv-LV','publisher'=>{'@id'=>publisher}}
+    web={'@type'=>'WebSite','@id'=>website,'url'=>ORIGIN+'/','name'=>'Kalendārs365','alternateName'=>['Kalendars365', 'kalendars365.lv'],'inLanguage'=>'lv-LV','publisher'=>{'@id'=>publisher}}
     image={'@type'=>'ImageObject','@id'=>image_id,'url'=>ORIGIN+image_path,'contentUrl'=>ORIGIN+image_path,'width'=>width,'height'=>height,'caption'=>alt,'inLanguage'=>'lv-LV',
       'creator'=>{'@type'=>'Organization','name'=>'Kalendārs365','url'=>ORIGIN+'/'},
       'creditText'=>'Kalendārs365 (kopīgošanas vāka makets)', 'copyrightNotice'=>'Kalendārs365 — kopīgošanas vāka makets.',

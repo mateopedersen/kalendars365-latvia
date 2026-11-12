@@ -2,18 +2,17 @@
 layout: blog-post
 family: blog_article
 permalink: "/blogs/skolas-brivlaiki-2027-gimenes-plans/"
-title: 'Skolas brīvlaiki 2027. gadā: ko pārbaudīt ģimenes kalendārā'
-description: Publicētie 2026./2027. mācību gada termiņi, klašu atšķirības un ģimenes
-  prombūtnes plānošana.
+title: Kā ģimenei plānot skolas brīvlaikus 2027. gadā
+description: Apskati 2026./2027. mācību gada brīvlaikus un atšķirīgos mācību beigu
+  datumus pa klasēm. Uzzini, ko pirms brauciena precizēt savā skolā.
 author: Silvis Balodis
 date: '2026-11-11'
 reading_notes: false
 blog_slug: skolas-brivlaiki-2027-gimenes-plans
-og_image: "/assets/social-cards/v2/2a78eac6a01cd757-097462563426.jpg"
+og_image: "/assets/social-cards/v2/2a78eac6a01cd757-5e4dbfa6a5cb.jpg"
 og_image_width: 1200
 og_image_height: 630
-og_image_alt: 'Skolas brīvlaiki 2027. gadā: ko pārbaudīt ģimenes kalendārā | Kalendārs365
-  Latvijai'
+og_image_alt: Kā ģimenei plānot skolas brīvlaikus 2027. gadā | Kalendārs365 Latvijai
 ---
 [Skolas brīvlaiks](/skolas-brivlaiki/) ir vairāk nekā datumi, kuros nav parasto mācību stundu. Ģimenei tas var nozīmēt citu dienas ritmu, nepieciešamu pieskatīšanu, braucienu vai laiku bez ierastajām nodarbībām. Lai plāns būtu uzticams, jāņem vērā ne tikai kalendārais gads, bet arī mācību gads un skolēna klase.
 

@@ -325,8 +325,8 @@
   "culturalPages": [
     {
       "url": "/svetki-un-tradicijas/valentina-diena/",
-      "title": "Valentīndiena: datums un Mīlestības diena Latvijā",
-      "h1": "Valentīndiena: datums un Mīlestības diena Latvijā",
+      "title": "Valentīndiena Latvijā 14. februārī",
+      "h1": "Valentīndiena Latvijā 14. februārī",
       "description": "Valentīndienu atzīmē 14. februārī. Uzzini par Mīlestības dienu Latvijas kultūras norisēs un atšķir pastāvīgo datumu no pasākumu grafika.",
       "intro": "Valentīndiena ir 14. februārī atzīmēta Mīlestības diena. Latvijas muzeji tai velta arī literatūras, vēstuļu un attiecību stāstus; konkrētu pasākumu norisi ik gadu izziņo to rīkotāji.",
       "dateModel": {
@@ -346,8 +346,8 @@
     },
     {
       "url": "/svetki-un-tradicijas/martindiena/",
-      "title": "Mārtiņi: 10. novembris un latviešu tradīcijas",
-      "h1": "Mārtiņi: 10. novembris un latviešu tradīcijas",
+      "title": "Mārtiņi un 10. novembra tradīcijas Latvijā",
+      "h1": "Mārtiņi un 10. novembra tradīcijas Latvijā",
       "description": "Mārtiņus atzīmē 10. novembrī. Iepazīsti rudens darbu noslēguma un maskošanās tradīcijas, nodalot svētku dienu no tirgu norises.",
       "intro": "Mārtiņus latviešu gadskārtā saista ar rudens darbu noslēgumu un ziemas tuvošanos. To datums ir 10. novembris, bet Mārtiņu tirgi un muzeju programmas var notikt citā tuvējā dienā.",
       "dateModel": {
@@ -367,8 +367,8 @@
     },
     {
       "url": "/svetki-un-tradicijas/mikeli/",
-      "title": "Miķeļi: 29. septembris un ražas laika tradīcijas",
-      "h1": "Miķeļi: 29. septembris un ražas laika tradīcijas",
+      "title": "Miķeļi un ražas svētku tradīcijas Latvijā",
+      "h1": "Miķeļi un ražas svētku tradīcijas Latvijā",
       "description": "Miķeļi ir 29. septembrī atzīmēti ražas laika svētki. Uzzini par Miķeļu nozīmi un to atšķirību no astronomiskās rudens ekvinokcijas.",
       "intro": "Miķeļi 29. septembrī iezīmē tradicionālo ražas laika noslēgumu. Miķeļu tirgus var notikt tuvākajā nedēļas nogalē; astronomiskā rudens ekvinokcija ir atsevišķs aprēķināms brīdis.",
       "dateModel": {
@@ -389,8 +389,8 @@
     },
     {
       "url": "/svetki-un-tradicijas/meteni/",
-      "title": "Meteņi: pavasara gaidīšana un svinēšanas laiki",
-      "h1": "Meteņi: pavasara gaidīšana un svinēšanas laiki",
+      "title": "Meteņi un pavasara gaidīšanas tradīcijas",
+      "h1": "Meteņi un pavasara gaidīšanas tradīcijas",
       "description": "Iepazīsti Meteņu tradīcijas un atšķirīgos svinēšanas laikus. Gadskārtas, kristīgā kalendāra un konkrēta pasākuma datums var nesakrist.",
       "intro": "Meteņi ir pavasara gaidīšanas laiks ar ciemošanos, maskošanos un kopīgām izdarībām. Avotos un dažādu novadu tradīcijās to svinēšanas laiki atšķiras, tāpēc pasākuma datums jāskatās rīkotāja paziņojumā.",
       "dateModel": {
@@ -418,8 +418,8 @@
     },
     {
       "url": "/svetki-un-tradicijas/advente/",
-      "title": "Advente: četras svētdienas pirms Ziemassvētkiem",
-      "h1": "Advente: četras svētdienas pirms Ziemassvētkiem",
+      "title": "Adventes svētdienas pirms Ziemassvētkiem",
+      "h1": "Adventes svētdienas pirms Ziemassvētkiem",
       "description": "Apskati Adventes svētdienu datumus un uzzini, kā nosaka pirmo Adventi. Tās datums katru gadu mainās.",
       "intro": "Advente ir Kristus dzimšanas svētku gaidīšanas laiks, ko iezīmē četras svētdienas. Pirmās Adventes datums mainās; ceturtā Adventes svētdiena var sakrist ar 24. decembri.",
       "dateModel": {
@@ -441,8 +441,8 @@
     },
     {
       "url": "/svetki-un-tradicijas/pupolu-svetdiena/",
-      "title": "Pūpolu svētdiena: datums un Lielās nedēļas sākums",
-      "h1": "Pūpolu svētdiena: datums un Lielās nedēļas sākums",
+      "title": "Pūpolu svētdiena un Lielās nedēļas sākums",
+      "h1": "Pūpolu svētdiena un Lielās nedēļas sākums",
       "description": "Pūpolu svētdiena ir nedēļu pirms Lieldienām. Uzzini, kā tās datums mainās un kāpēc jānorāda izmantotais baznīcas kalendārs.",
       "intro": "Pūpolu jeb Palmu svētdiena ievada Lielo nedēļu un ir vienu nedēļu pirms Lieldienām. Datuma aprēķinam jāizmanto norādītās kristīgās tradīcijas Lieldienu kalendārs.",
       "dateModel": {
@@ -463,8 +463,8 @@
     },
     {
       "url": "/svetki-un-tradicijas/zvaigznes-diena/",
-      "title": "Zvaigznes diena: 6. janvāris un tradīcija",
-      "h1": "Zvaigznes diena: 6. janvāris un tradīcija",
+      "title": "Zvaigznes diena 6. janvārī",
+      "h1": "Zvaigznes diena 6. janvārī",
       "description": "Zvaigznes dienu jeb Triju Ķēniņu dienu Rietumu kristīgajā tradīcijā atzīmē 6. janvārī. Apskati datumu un tā reliģisko kontekstu.",
       "intro": "Zvaigznes diena jeb Triju Ķēniņu diena Rietumu kristīgajā kalendārā ir 6. janvārī. Katoļu liturģijā tā ir Kunga parādīšanās svētku diena.",
       "dateModel": {
@@ -507,8 +507,8 @@
     },
     {
       "url": "/svetki-un-tradicijas/miruso-pieminas-diena/",
-      "title": "Mirušo piemiņas dienas: katoļu un luterāņu kalendārs",
-      "h1": "Mirušo piemiņas dienas: katoļu un luterāņu kalendārs",
+      "title": "Mirušo piemiņas dienas katoļu un luterāņu tradīcijā",
+      "h1": "Mirušo piemiņas dienas katoļu un luterāņu tradīcijā",
       "description": "Katoļu Visu ticīgo mirušo piemiņas diena ir 2. novembrī; luterāņu Mūžības svētdiena ir pirms pirmās Adventes. Apskati atšķirību.",
       "intro": "Mirušo piemiņas dienu datumi atšķiras pēc baznīcas tradīcijas. Katoļu kalendārā Visu ticīgo mirušo piemiņas diena ir 2. novembrī, bet luterāņu Mūžības svētdiena — svētdienā pirms pirmās Adventes.",
       "dateModel": {
@@ -540,8 +540,8 @@
     },
     {
       "url": "/svetki-un-tradicijas/pavasara-ekvinokcija/",
-      "title": "Pavasara ekvinokcija: astronomiskais brīdis Latvijā",
-      "h1": "Pavasara ekvinokcija: astronomiskais brīdis Latvijā",
+      "title": "Pavasara ekvinokcija Latvijā",
+      "h1": "Pavasara ekvinokcija Latvijā",
       "description": "Uzzini, kas ir pavasara ekvinokcija un kā tās brīdi rāda pēc Latvijas laika. Astronomisko notikumu nošķir no gadskārtu svētkiem.",
       "intro": "Ekvinokcija ir astronomisks brīdis, kuru nosaka Zemes un Saules savstarpējais stāvoklis. Tā datumu un laiku Latvijā rāda, pārrēķinot pārbaudīto notikuma brīdi laika joslā Europe/Riga.",
       "dateModel": {
@@ -564,8 +564,8 @@
     },
     {
       "url": "/svetki-un-tradicijas/rudens-ekvinokcija/",
-      "title": "Rudens ekvinokcija: astronomiskais brīdis Latvijā",
-      "h1": "Rudens ekvinokcija: astronomiskais brīdis Latvijā",
+      "title": "Rudens ekvinokcija Latvijā",
+      "h1": "Rudens ekvinokcija Latvijā",
       "description": "Uzzini, kas ir rudens ekvinokcija un kā tās brīdi rāda pēc Latvijas laika. Astronomisko notikumu nošķir no gadskārtu svētkiem.",
       "intro": "Ekvinokcija ir astronomisks brīdis, kuru nosaka Zemes un Saules savstarpējais stāvoklis. Tā datumu un laiku Latvijā rāda, pārrēķinot pārbaudīto notikuma brīdi laika joslā Europe/Riga.",
       "dateModel": {
@@ -588,7 +588,7 @@
     },
     {
       "url": "/svetki-un-tradicijas/holokausta-upuru-pieminas-diena/",
-      "title": "Holokausta upuru piemiņas diena: 27. janvāris un Latvijas 4. jūlijs",
+      "title": "Holokausta upuru piemiņas diena Latvijā un pasaulē",
       "h1": "Holokausta upuru piemiņas diena Latvijā un pasaulē",
       "description": "Salīdzini ANO 27. janvāra Holokausta upuru piemiņas dienu ar Latvijas likumā noteikto Ebreju tautas genocīda upuru piemiņas dienu 4. jūlijā.",
       "intro": "ANO 27. janvārī piemin Holokausta upurus starptautiskā līmenī. Latvijā likumā noteikta atsevišķa Ebreju tautas genocīda upuru piemiņas diena — 4. jūlijā. Šīs dienas nav savstarpēji aizstājamas; neviena no tām nav automātiski jāuztver kā darba brīvdiena.",
@@ -614,7 +614,7 @@
     },
     {
       "url": "/svetki-un-tradicijas/eiropas-valodu-diena/",
-      "title": "Eiropas Valodu diena: 26. septembris un valodu daudzveidība",
+      "title": "Eiropas Valodu diena",
       "h1": "Eiropas Valodu diena",
       "description": "Eiropas Valodu diena ir 26. septembrī. Uzzini par Eiropas Padomes iniciatīvu, valodu daudzveidību un pasākumiem Latvijā.",
       "intro": "Eiropas Valodu dienu atzīmē 26. septembrī. Eiropas Padomes ierosinātā ikgadējā norise pievērš uzmanību valodu un kultūru daudzveidībai; Latvijas pasākumu programmu publicē to rīkotāji.",
@@ -655,7 +655,7 @@
     },
     {
       "url": "/svetki-un-tradicijas/dzimtas-valodas-diena/",
-      "title": "Starptautiskā dzimtās valodas diena: 21. februāris",
+      "title": "Starptautiskā dzimtās valodas diena",
       "h1": "Starptautiskā dzimtās valodas diena",
       "description": "Starptautisko dzimtās valodas dienu atzīmē 21. februārī. Uzzini par UNESCO dienas ieceri un valodu daudzveidības nozīmi Latvijā.",
       "intro": "UNESCO izveidoto Starptautisko dzimtās valodas dienu atzīmē 21. februārī. Tās tēma ir valodu daudzveidība un mācīšanās dzimtajā valodā; ikgadējās kampaņas saturs mainās.",
@@ -675,7 +675,7 @@
     },
     {
       "url": "/svetki-un-tradicijas/helovins/",
-      "title": "Helovīns Latvijā: 31. oktobra datums un vietējie pasākumi",
+      "title": "Helovīns Latvijā",
       "h1": "Helovīns Latvijā",
       "description": "Helovīna datums ir 31. oktobris. Uzzini, kā to atšķirt no Latvijas Veļu laika un Mārtiņu tradīcijām un kur pārbaudīt vietējos pasākumus.",
       "intro": "Helovīnu atzīmē 31. oktobrī. Latvijā muzeji un rīkotāji šajā datumā var piedāvāt atsevišķas tematiskas norises, taču Helovīns nav likumā noteikta brīvdiena un nav tas pats, kas latviešu Veļu laiks vai Mārtiņi.",
@@ -705,7 +705,7 @@
     },
     {
       "url": "/svetki-un-tradicijas/pasaules-gramatu-diena/",
-      "title": "Pasaules grāmatu un autortiesību diena: 23. aprīlis",
+      "title": "Pasaules grāmatu un autortiesību diena",
       "h1": "Pasaules grāmatu un autortiesību diena",
       "description": "UNESCO Pasaules grāmatu un autortiesību diena ir 23. aprīlī. Apskati datumu un ikgadējo lasīšanas veicināšanas iniciatīvu.",
       "intro": "UNESCO Pasaules grāmatu un autortiesību dienu atzīmē 23. aprīlī. Tā pievērš uzmanību grāmatām, lasīšanai un autortiesībām; UNESCO ikgadējie projekti un Pasaules grāmatu galvaspilsēta mainās.",
@@ -724,7 +724,7 @@
     },
     {
       "url": "/svetki-un-tradicijas/pasaules-vides-diena/",
-      "title": "Pasaules vides diena: 5. jūnijs",
+      "title": "Pasaules vides diena",
       "h1": "Pasaules vides diena",
       "description": "Pasaules vides dienu atzīmē 5. jūnijā. Apskati ANO Vides programmas ikgadējo vides kampaņu un pārbaudi katra gada tēmu atsevišķi.",
       "intro": "ANO Vides programmas Pasaules vides diena ir 5. jūnijā. Tās ikgadējā tēma un rīkotājvalsts mainās, tāpēc nākamā gada kampaņas saturu nedrīkst uzminēt pēc iepriekšējā gada.",
@@ -744,7 +744,7 @@
     },
     {
       "url": "/svetki-un-tradicijas/pasaules-bernu-diena/",
-      "title": "Pasaules bērnu diena: 20. novembris",
+      "title": "Pasaules bērnu diena",
       "h1": "Pasaules bērnu diena",
       "description": "Pasaules bērnu dienu atzīmē 20. novembrī, pieminot ANO Bērnu tiesību konvencijas pieņemšanu un bērnu līdzdalību.",
       "intro": "Pasaules bērnu diena ir UNICEF globāla rīcības diena 20. novembrī. Datums saistīts ar ANO Bērnu tiesību konvencijas pieņemšanu; Latvijas likumā atsevišķi noteikta Starptautiskā bērnu aizsardzības diena 1. jūnijā.",
@@ -771,7 +771,7 @@
     },
     {
       "url": "/svetki-un-tradicijas/pasaules-udens-diena/",
-      "title": "Pasaules ūdens diena: 22. marts",
+      "title": "Pasaules ūdens diena",
       "h1": "Pasaules ūdens diena",
       "description": "Pasaules ūdens diena ir 22. martā. Uzzini par ANO–Ūdens ikgadējo dienu un atjauno mainīgo kampaņas tēmu tikai no oficiāla avota.",
       "intro": "ANO–Ūdens Pasaules ūdens dienu rīko 22. martā. Tās mērķis ir pievērst uzmanību saldūdens nozīmei un ūdens pieejamībai; kampaņas tēma katru gadu mainās.",
@@ -790,7 +790,7 @@
     },
     {
       "url": "/svetki-un-tradicijas/pasaules-dzivnieku-diena/",
-      "title": "Pasaules dzīvnieku diena: 4. oktobris",
+      "title": "Pasaules dzīvnieku diena",
       "h1": "Pasaules dzīvnieku diena",
       "description": "Pasaules dzīvnieku dienu rīko 4. oktobrī. Pārbaudi oficiālā rīkotāja ikgadējo tēmu un nošķir to no Latvijas brīvdienu kalendāra.",
       "intro": "Pasaules dzīvnieku dienu ik gadu atzīmē 4. oktobrī. Tās rīkotājs aicina pievērst uzmanību dzīvnieku labturībai un aizsardzībai. Datums nav iekļauts Latvijas likumā noteikto svētku dienu sarakstā.",
@@ -811,7 +811,7 @@
     },
     {
       "url": "/svetki-un-tradicijas/pavasara-tradicijas/",
-      "title": "Pavasara tradīcijas Latvijā: Meteņi, Lieldienas un ekvinokcija",
+      "title": "Pavasara tradīcijas Latvijā",
       "h1": "Pavasara tradīcijas Latvijā",
       "description": "Iepazīsti Meteņu tradīcijas, Latvijas Lieldienu datumus un pavasara ekvinokciju. Gadskārtu, baznīcas un astronomiskos kalendārus turi atsevišķi.",
       "intro": "Latvijas pavasara kalendārā līdzās pastāv Meteņu gadskārta, kristīgo tradīciju Lieldienas un astronomiskais pavasara ekvinokcijas brīdis. Tiem nav viena kopīga datuma: Meteņu laiki atšķiras pēc tradīcijas, Lieldienas aprēķina pēc konfesijas kalendāra, bet ekvinokcija ir astronomisks notikums.",
@@ -834,7 +834,7 @@
     },
     {
       "url": "/svetki-un-tradicijas/sveta-nikolaja-diena/",
-      "title": "Svētā Nikolaja diena: 6. decembris katoļu kalendārā",
+      "title": "Svētā Nikolaja diena Latvijā",
       "h1": "Svētā Nikolaja diena Latvijā",
       "description": "Latvijas katoļu avotā Svētā Nikolaja diena norādīta 6. decembrī. Uzzini par datumu un reliģiskās tradīcijas tvērumu.",
       "intro": "Svētā Nikolaja dienu atzīmē 6. decembrī Rietumu kristīgajā tradīcijā. Latvijas katoļu avots skaidro svētā piemiņu; dāvanu paražas ir atšķirīgas dažādās valstīs un nav automātiski piedēvējamas visām Latvijas ģimenēm.",
@@ -854,7 +854,7 @@
     },
     {
       "url": "/svetki-un-tradicijas/pasaules-bisu-diena/",
-      "title": "Pasaules bišu diena: 20. maijs",
+      "title": "Pasaules bišu diena",
       "h1": "Pasaules bišu diena",
       "description": "Pasaules bišu diena ir 20. maijā. Apskati ANO noteikto datumu un apputeksnētāju nozīmi Latvijas dārziem un dabai.",
       "intro": "ANO noteica 20. maiju par Pasaules bišu dienu. Tā atgādina par bitēm un citiem apputeksnētājiem; datums pats par sevi nav apgalvojums par vietējiem ziedēšanas vai dravas darbu termiņiem.",
@@ -875,7 +875,7 @@
     },
     {
       "url": "/svetki-un-tradicijas/zemes-diena/",
-      "title": "Zemes diena: 22. aprīlis un Starptautiskā Mātes Zemes diena",
+      "title": "Zemes diena Latvijā",
       "h1": "Zemes diena Latvijā",
       "description": "ANO Starptautiskā Mātes Zemes diena ir 22. aprīlī. Apskati datumu un atšķir to no Pasaules vides dienas 5. jūnijā.",
       "intro": "ANO 22. aprīli noteikusi par Starptautisko Mātes Zemes dienu. Tā ir atsevišķa atzīmējamā diena no Pasaules vides dienas 5. jūnijā; vietējās dabas aktivitātes publicē to rīkotāji.",

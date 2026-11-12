@@ -2,17 +2,17 @@
 layout: blog-post
 family: blog_article
 permalink: "/blogs/latvijas-svetku-dienas-2027-planosana/"
-title: 'Latvijas svētku dienas 2027. gadā: kā plānot gadu'
-description: 2027. gada svētku datumi, atceres dienu atšķirības un pārskatāms gada
-  plāns Latvijas ikdienai.
+title: Kā plānot 2027. gada svētku brīvdienas Latvijā
+description: Kuras svētku dienas 2027. gadā iekrīt nedēļas nogalē? Uzzini, kā tās
+  atzīmēt gada plānā un atšķirt no atceres dienām.
 author: Silvis Balodis
 date: '2026-11-11'
 reading_notes: false
 blog_slug: latvijas-svetku-dienas-2027-planosana
-og_image: "/assets/social-cards/v2/0905485a43e5455c-7f3d5dcc0886.jpg"
+og_image: "/assets/social-cards/v2/0905485a43e5455c-b2e773477dfc.jpg"
 og_image_width: 1200
 og_image_height: 630
-og_image_alt: 'Latvijas svētku dienas 2027. gadā: kā plānot gadu | Kalendārs365 Latvijai'
+og_image_alt: Kā plānot 2027. gada svētku brīvdienas Latvijā | Kalendārs365 Latvijai
 ---
 [Latvijas svētku kalendārs](/svetku-dienas/2027/) ir labs [gada plānošanas](/blogs/atvalinajums-2027-garas-brivdienas/) sākumpunkts, tomēr ar sarkani iekrāsotu datumu vien nepietiek. Ir jāatšķir svētku diena, atceres diena, parasta nedēļas nogale un darbavietā saskaņots atvaļinājums. Šīs atšķirības palīdz saprast, cik ilgs atpūtas posms patiesībā būs pieejams un kuros datumos vēl vajadzīga vienošanās ar darba devēju.
 

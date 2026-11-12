@@ -2,18 +2,18 @@
 layout: blog-post
 family: blog_article
 permalink: "/blogs/lieldienas-2027-datumi-un-plani/"
-title: 'Lieldienas 2027. gadā: datumi, brīvdienas un ģimenes plāns'
-description: Lieldienu datumu noteikšana, 2027. gada marta brīvdienas un konkrēts
-  sagatavošanās pārskats.
+title: Kad ir Lieldienas 2027. gadā un kā plānot brīvdienas
+description: 2027. gadā Lielā piektdiena ir 26. martā, Pirmās Lieldienas 28. martā
+  un Otrās Lieldienas 29. martā. Kā svētku datumus izmantot ģimenes plānā?
 author: Silvis Balodis
 date: '2026-11-11'
 reading_notes: false
 blog_slug: lieldienas-2027-datumi-un-plani
-og_image: "/assets/social-cards/v2/21da5662a7bfeda8-99dd790e73c6.jpg"
+og_image: "/assets/social-cards/v2/21da5662a7bfeda8-24802cb86f99.jpg"
 og_image_width: 1200
 og_image_height: 630
-og_image_alt: 'Lieldienas 2027. gadā: datumi, brīvdienas un ģimenes plāns | Kalendārs365
-  Latvijai'
+og_image_alt: Kad ir Lieldienas 2027. gadā un kā plānot brīvdienas | Kalendārs365
+  Latvijai
 ---
 [Lieldienas kalendārā](/svetki-un-tradicijas/lieldienas/) katru gadu jāmeklē no jauna. Atšķirībā no svētkiem ar nemainīgu mēneša datumu tās pārvietojas starp martu un aprīli. Tādēļ ģimenes tikšanās, īsu ceļojumu vai bērnu nodarbību plānu nevajag vienkārši pārkopēt no iepriekšējā pavasara. Vispirms pārbaudi konkrēto gadu un tikai pēc tam izvēlies pārējās detaļas.
 
