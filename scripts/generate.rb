@@ -745,12 +745,14 @@ manifest.each do |record|
  page_revisions[url][:lastmod]=record[:lastmod]
  record[:significantModifiedAt]=record[:lastmod]
 end
+require_relative 'search_content'
 # Owner-excluded information pages remain useful in the site's own search.
 search_pages=manifest.select{|r|r[:indexable] || r[:status]=='owner_noindex'}.map do |page|
  city=CITIES.find{|c|page[:url].end_with?("/#{c['id']}/")}
  keywords=city ? city['name'] : ''
  keywords+=' ascendents ascendenta uzlecošā zīme ascendant rising sign dzimšanas laiks' if page[:url]=='/horoskopa-zimes-kalkulators/'
- page.merge(keywords: keywords)
+ keywords+=' bezmaksas lejupielādēt PDF attēls' if page[:family].to_s.start_with?('print_') || %w[/nedelas-kalendars/ /gimenes-kalendars/ /stundu-saraksts/ /mainu-grafiks/ /izveidot-kalendaru/].include?(page[:url])
+ page.merge(keywords:keywords).merge(CalendarSearchContent.fields(ROOT,page,READING_NOTES.pages[page[:url]]))
 end
 DATA.fetch('names',[]).each do |name|
  search_pages << {url:'/varda-dienas/?q='+URI.encode_www_form_component(name['name']),title:name['name'],kind:'Vārda diena',nameKind:name['kind'],description:"#{name['day']}. #{MONTHS[name['month'].to_i-1]} · Vārda diena (VVC #{name['edition']})",keywords:"vārda diena vārdi #{MONTHS[name['month'].to_i-1]}"}
@@ -767,10 +769,7 @@ CalendarSitemap.write_source!(manifest)
 File.write('_redirects',"/avoti/ /avoti-un-metodika/ 301\n/sikdatnes/ /sikdatnu-politika/ 301\n/lietošanas-noteikumi /lietošanas-noteikumi/ 301\n/lietosanas-noteikumi/ /lietošanas-noteikumi/ 301\n/darba-dienu-kalkulators/ /darba-laika-kalendars/ 301\n")
 # Serialize the shared city catalog as JavaScript before hashing assets.
 public_cities = CITIES.map do |c|
- preview=CITY_PHOTO_PREVIEWS.fetch(c.fetch('id'))
- fast=preview.fetch('files')
- version=preview.fetch('sourceSha256')[0,12]
- photo=c.fetch('photo').slice('src','srcset','alt','author','license').merge('preview'=>preview.fetch('preview'),'fastSrc'=>fast.first.fetch('src')+"?v=#{version}",'fastSrcset'=>(fast.map{|file|"#{file.fetch('src')}?v=#{version} #{file.fetch('width')}w"}+["#{c.fetch('photo').fetch('src')}?v=#{version} #{c.fetch('photo').fetch('width')}w"]).join(', '))
+ photo=c.fetch('photo').slice('src','srcset','alt','author','license')
  c.slice('id','name','locative','lat','lon','timeZone').merge('photo'=>photo)
 end
 File.write('assets/cities.js', 'window.K365Cities = '+JSON.generate(public_cities)+";\n")

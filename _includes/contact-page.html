@@ -17,9 +17,9 @@
   </nav>
   <div class="contact-layout">
     <section class="contact-message" id="zina" aria-labelledby="contact-message-title">
-      <header><p class="contact-eyebrow">TAVA ZIŅA</p><h2 id="contact-message-title">Ar ko varam palīdzēt?</h2><p>Aizpildi veidlapu un norādi e-pasta adresi, uz kuru vēlies saņemt atbildi.</p></header>
-      <div class="contact-form-frame"><iframe title="Saziņas veidlapa ar Kalendārs365" src="{{ contact.embedUrl | escape }}" width="760" height="1480" loading="lazy" referrerpolicy="strict-origin-when-cross-origin">Ielādē saziņas veidlapu.</iframe></div>
-      <p class="contact-form-fallback">Veidlapu vari arī <a href="{{ contact.formUrl | escape }}" target="_blank" rel="noopener noreferrer">atvērt atsevišķā logā</a> vai rakstīt uz <a href="mailto:{{ contact.email }}">{{ contact.email }}</a>.</p>
+      <header><p class="contact-eyebrow">TAVA ZIŅA</p><h2 id="contact-message-title">Ar ko varam palīdzēt?</h2><p>Aizpildi veidlapu un norādi e-pasta adresi, uz kuru vēlies saņemt atbildi.</p><a class="contact-form-direct" data-contact-form-link href="{{ contact.formUrl | escape }}" target="_blank" rel="noopener noreferrer">Atvērt veidlapu atsevišķi <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 3h7v7m0-7L10 14M10 3H4a1 1 0 0 0-1 1v16a1 1 0 0 0 1 1h16a1 1 0 0 0 1-1v-6"/></svg></a></header>
+      <div class="contact-form-frame"><p class="contact-form-notice" role="status" hidden>Veidlapu šajā pārlūkā nevar parādīt. Izmanto saiti “Atvērt veidlapu atsevišķi” vai raksti uz {{ contact.email }}.</p><iframe title="Saziņas veidlapa ar Kalendārs365" src="{{ contact.embedUrl | escape }}" width="760" height="1480" loading="lazy" referrerpolicy="strict-origin-when-cross-origin">Ielādē saziņas veidlapu.</iframe></div>
+      <p class="contact-form-fallback">Veidlapu vari arī <a data-contact-form-link href="{{ contact.formUrl | escape }}" target="_blank" rel="noopener noreferrer">atvērt atsevišķā logā</a> vai rakstīt uz <a href="mailto:{{ contact.email }}">{{ contact.email }}</a>.</p>
     </section>
     <aside class="contact-sidebar" aria-label="Saziņas informācija">
       <section class="contact-owner" id="sazina"><div class="contact-avatar" aria-hidden="true">SB</div><p class="contact-eyebrow">VIETNES UZTURĒTĀJS</p><h2>{{ contact.owner }}</h2><p>Par kalendāriem, rīkiem un idejām vietnes attīstībai.</p><a href="mailto:{{ contact.email }}">{{ contact.email }} <span aria-hidden="true">↗</span></a><a class="contact-owner-story" href="/par-projektu/">Iepazīsti projektu <span aria-hidden="true">→</span></a></section>

@@ -92,3 +92,8 @@
 #city-card .city-sun-title>span:last-child{max-width:55%;overflow-wrap:anywhere;text-align:right}
 #city-card .city-sun-visual[data-phase=unavailable]{opacity:.35}
 #city-card #station-observation[hidden]{display:none!important}
+
+/* A decoded photograph is replaced once, without preview enlargement or fades. */
+#city-card .city-photo>img{opacity:1!important;transition:none!important;filter:none!important}
+#city-card .city-photo-status{inset:12px 12px auto;display:block;padding:10px 12px;border-radius:9px;background:#fffdf4ed;color:#572839;font-size:12px;line-height:1.5}
+#city-card .city-photo-status[hidden]{display:none}

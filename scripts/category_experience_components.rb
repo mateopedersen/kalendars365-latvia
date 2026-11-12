@@ -75,8 +75,48 @@ def initial_season_markup
  end
 end
 
+def season_method_markup
+ <<~HTML
+ <section class="category-guide season-method-guide" id="season-method" aria-labelledby="season-method-title">
+   <header class="season-method-heading">
+     <span class="eyebrow">TRĪS SKATĪJUMI UZ GADU</span>
+     <h2 id="season-method-title">Kalendārs, astronomija un laikapstākļi.</h2>
+   </header>
+   <ol class="season-method-cards" role="list">
+     <li class="season-method-card">
+       <div class="season-method-card-heading"><span class="season-method-number" aria-hidden="true">01</span><h3>Astronomiskais gadalaiks</h3></div>
+       <p>Ekvinokcijas un saulgrieži nosaka precīzu sākuma brīdi. To var aprēķināt nākotnei; laiki norādīti Latvijas laika joslā un UTC.</p>
+     </li>
+     <li class="season-method-card">
+       <div class="season-method-card-heading"><span class="season-method-number" aria-hidden="true">02</span><h3>Kalendārais gadalaiks</h3></div>
+       <p>Pavasaris: marts–maijs. Vasara: jūnijs–augusts. Rudens: septembris–novembris. Ziema: decembris–februāris. Fiksēti mēneši ļauj salīdzināt klimata statistiku.</p>
+     </li>
+     <li class="season-method-card">
+       <div class="season-method-card-heading"><span class="season-method-number" aria-hidden="true">03</span><h3>Meteoroloģiskais gadalaiks Latvijā</h3></div>
+       <p>To nosaka noturīgas vidējās gaisa temperatūras pārejas pāri 0 °C vai 15 °C, nevis viens nemainīgs datums. Sākumu nosaka pēc novērojumiem, tāpēc nākamo gadu datumus iepriekš nenorādām.</p>
+     </li>
+   </ol>
+   <footer class="season-method-footer">
+     <p class="season-method-sources-label">Iepazīsti avotus</p>
+     <nav class="season-method-sources" aria-label="Gadalaiku iedalījuma avoti">
+       <a href="https://www.meteo.lv/fs/CKFinderJava/userfiles/files/Meteorolo%C4%A3isko%20sezonu%20zi%C5%86ojums.pdf">
+         <svg class="icon season-method-source-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 16a4 4 0 1 1 .9-7.9A5 5 0 0 1 17.7 9a3.5 3.5 0 0 1-.2 7H7Z"/><path d="m8 19-1 2m6-2-1 2m6-2-1 2"/></svg>
+         <span><strong>LVĢMC</strong><small>Meteoroloģiskās sezonas</small></span>
+         <svg class="icon season-method-link-arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M7 7h10v10"/></svg>
+       </a>
+       <a href="https://aa.usno.navy.mil/data/Earth_Seasons">
+         <svg class="icon season-method-source-icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><ellipse cx="12" cy="12" rx="10" ry="6" transform="rotate(-30 12 12)"/><circle cx="20" cy="7" r="1.5"/></svg>
+         <span><strong>USNO</strong><small>Ekvinokcijas un saulgrieži</small></span>
+         <svg class="icon season-method-link-arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M7 7h10v10"/></svg>
+       </a>
+     </nav>
+   </footer>
+ </section>
+ HTML
+end
+
 def category_seasons_markup
- %(<section id="category-workspace" data-seasons-explorer><div class="category-section-title"><div><span class="eyebrow">ZIEMEĻU PUSLODE · LATVIJA</span><h2>Katram gadalaikam savs raksturs.</h2><p class="season-intro">Izvēlies gadu un salīdzini astronomiskos sākuma brīžus vai kalendāros mēnešus.</p></div><label>Gads<select name="year">#{(2027..2030).map{|y|"<option>#{y}</option>"}.join}</select></label></div><div class="category-segmented" role="group" aria-label="Gadalaiku iedalījums"><button type="button" data-season-mode="astro" aria-pressed="true">Astronomiskie</button><button type="button" data-season-mode="calendar" aria-pressed="false">Kalendārie</button></div><div class="season-photographic-grid" data-season-results>#{initial_season_markup}</div><div class="season-year-line" data-season-line></div><div class="category-data-actions"><button type="button" data-season-ics>Saglabāt sākuma datumus (ICS) ↓</button><button type="button" data-category-print>Drukāt pārskatu</button></div></section><section class="category-guide" id="season-method"><div><span class="eyebrow">TRĪS SKATĪJUMI UZ GADU</span><h2>Kalendārs, astronomija un laikapstākļi.</h2></div><div class="category-guide-steps"><article><b>01</b><div><h3>Astronomiskais gadalaiks</h3><p>Ekvinokcijas un saulgrieži nosaka precīzu sākuma brīdi. To var aprēķināt nākotnei; laiks zemāk dots Latvijas laika joslā un UTC.</p></div></article><article><b>02</b><div><h3>Kalendārais gadalaiks</h3><p>Pavasaris: marts–maijs. Vasara: jūnijs–augusts. Rudens: septembris–novembris. Ziema: decembris–februāris. Fiksēti mēneši ļauj salīdzināt klimata statistiku.</p></div></article><article><b>03</b><div><h3>Meteoroloģiskais gadalaiks Latvijā</h3><p>To nosaka noturīgas vidējās gaisa temperatūras pārejas pāri 0 °C vai 15 °C, nevis viens nemainīgs datums. Tāpēc šeit neizdomājam tā nākamo gadu sākumu.</p></div></article></div><p><a href="https://www.meteo.lv/fs/CKFinderJava/userfiles/files/Meteorolo%C4%A3isko%20sezonu%20zi%C5%86ojums.pdf">LVĢMC: meteoroloģiskās sezonas</a> · <a href="https://aa.usno.navy.mil/data/Earth_Seasons">USNO: ekvinokcijas un saulgrieži</a></p></section>)
+ %(<section id="category-workspace" data-seasons-explorer><div class="category-section-title"><div><span class="eyebrow">ZIEMEĻU PUSLODE · LATVIJA</span><h2>Katram gadalaikam savs raksturs.</h2><p class="season-intro">Izvēlies gadu un salīdzini astronomiskos sākuma brīžus vai kalendāros mēnešus.</p></div><label>Gads<select name="year">#{(2027..2030).map{|y|"<option>#{y}</option>"}.join}</select></label></div><div class="category-segmented" role="group" aria-label="Gadalaiku iedalījums"><button type="button" data-season-mode="astro" aria-pressed="true">Astronomiskie</button><button type="button" data-season-mode="calendar" aria-pressed="false">Kalendārie</button></div><div class="season-photographic-grid" data-season-results>#{initial_season_markup}</div><div class="season-year-line" data-season-line></div><div class="category-data-actions"><button type="button" data-season-ics>Saglabāt sākuma datumus (ICS) ↓</button><button type="button" data-category-print>Drukāt pārskatu</button></div></section>)+season_method_markup
 end
 
 def category_astronomy_markup

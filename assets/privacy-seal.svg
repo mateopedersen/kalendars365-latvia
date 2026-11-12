@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="160" height="160" viewBox="0 0 160 160" fill="none">
+  <defs>
+    <linearGradient id="paper" x1="45" y1="32" x2="115" y2="132" gradientUnits="userSpaceOnUse"><stop stop-color="#fffefa"/><stop offset=".55" stop-color="#f4f3ec"/><stop offset="1" stop-color="#cedbd8"/></linearGradient>
+    <linearGradient id="edge" x1="28" y1="55" x2="116" y2="143" gradientUnits="userSpaceOnUse"><stop stop-color="#e3cead"/><stop offset="1" stop-color="#a68770"/></linearGradient>
+    <linearGradient id="wine" x1="43" y1="26" x2="125" y2="70" gradientUnits="userSpaceOnUse"><stop stop-color="#c56883"/><stop offset=".46" stop-color="#943450"/><stop offset="1" stop-color="#5a1d34"/></linearGradient>
+    <linearGradient id="metal" x1="88" y1="72" x2="134" y2="141" gradientUnits="userSpaceOnUse"><stop stop-color="#fffdf1"/><stop offset=".27" stop-color="#dcc7a8"/><stop offset=".49" stop-color="#fff6df"/><stop offset=".75" stop-color="#aa8b64"/><stop offset="1" stop-color="#eadbc0"/></linearGradient>
+    <linearGradient id="seal" x1="87" y1="85" x2="139" y2="130" gradientUnits="userSpaceOnUse"><stop stop-color="#b85b78"/><stop offset=".45" stop-color="#8a2b4b"/><stop offset="1" stop-color="#59172f"/></linearGradient>
+    <linearGradient id="ring" x1="0" y1="0" x2="8" y2="0" gradientUnits="userSpaceOnUse"><stop stop-color="#7f8c8a"/><stop offset=".4" stop-color="#f9fffc"/><stop offset="1" stop-color="#9caeaa"/></linearGradient>
+    <filter id="lift" x="-40%" y="-35%" width="185%" height="195%"><feDropShadow dx="0" dy="7" stdDeviation="5" flood-color="#40232e" flood-opacity=".2"/></filter>
+    <filter id="soft"><feGaussianBlur stdDeviation="3"/></filter>
+  </defs>
+  <ellipse cx="81" cy="143" rx="50" ry="5" fill="#553f3b" opacity=".13" filter="url(#soft)"/>
+  <g transform="rotate(-9 77 79)" filter="url(#lift)">
+    <rect x="29" y="32" width="94" height="101" rx="13" fill="url(#edge)"/>
+    <rect x="30" y="29" width="94" height="100" rx="12" fill="#e6e6db" stroke="#fffdf4"/>
+    <rect x="31" y="25" width="94" height="100" rx="12" fill="url(#paper)" stroke="#fdfef9" stroke-width="1.4"/>
+    <path d="M43 25h70a12 12 0 0 1 12 12v15H31V37a12 12 0 0 1 12-12Z" fill="url(#wine)"/>
+    <path d="M44 27h68c6 0 10 4 10 10" stroke="#f8c1cd" stroke-opacity=".55" stroke-width="1.5" stroke-linecap="round"/>
+    <path d="M32 53h92" stroke="#fff" stroke-opacity=".85"/>
+    <g fill="#5c243a" opacity=".65"><ellipse cx="53" cy="35" rx="6" ry="3"/><ellipse cx="103" cy="35" rx="6" ry="3"/></g>
+    <g stroke-width="5" stroke-linecap="round"><path d="M52 34V22c0-4 5-5 7-2" stroke="#83958f"/><path d="M102 34V22c0-4 5-5 7-2" stroke="#83958f"/><path d="M52 32V22c0-3 3-4 5-3M102 32V22c0-3 3-4 5-3" stroke="#f5fcf7" stroke-width="2"/></g>
+    <g fill="#c1cac4"><rect x="43" y="63" width="13" height="10" rx="2"/><rect x="64" y="63" width="13" height="10" rx="2"/><rect x="85" y="63" width="13" height="10" rx="2"/><rect x="43" y="82" width="13" height="10" rx="2"/><rect x="64" y="82" width="13" height="10" rx="2"/><rect x="43" y="101" width="13" height="10" rx="2"/><rect x="64" y="101" width="13" height="10" rx="2"/></g>
+    <rect x="85" y="82" width="13" height="10" rx="2" fill="#a84867"/>
+    <path d="M34 117h40" stroke="#fffdf7" stroke-width="2" stroke-linecap="round"/>
+  </g>
+  <g filter="url(#lift)">
+    <path d="m112 71 31 11v25c0 18-12 31-31 40-19-9-31-22-31-40V82l31-11Z" fill="url(#metal)" stroke="#fff8e7" stroke-width="1.2"/>
+    <path d="m112 77 25 9v21c0 15-10 26-25 34-15-8-25-19-25-34V86l25-9Z" fill="url(#seal)" stroke="#d48ca2"/>
+    <path d="m112 80 21 8v14" stroke="#f1b9c8" stroke-opacity=".55" stroke-width="1.5" stroke-linecap="round"/>
+    <path d="m98 107 10 10 18-23" stroke="#57162e" stroke-opacity=".35" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" transform="translate(0 2)"/>
+    <path d="m98 107 10 10 18-23" stroke="#fffdf3" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M90 114c3 10 11 18 22 24" stroke="#d990a6" stroke-opacity=".45" stroke-linecap="round"/>
+  </g>
+</svg>

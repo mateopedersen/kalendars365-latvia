@@ -33,7 +33,7 @@ export function measureResponsive() {
     }return false;
   };
   const candidates=[...document.querySelectorAll('main,header,footer,section,article,aside,nav,form,fieldset,details,summary,figure,table,th,td,button,a.button,a.primary-button,[role="button"],input,select,textarea,h1,h2,h3,h4,p,img,canvas')].filter(visible);
-  const horizontal=[],textClipping=[],smallActions=[],smallFields=[],overlaps=[],scrollContainers=[],clamped=[],selectPadding=[];
+  const horizontal=[],textClipping=[],smallActions=[],smallFields=[],overlaps=[],scrollContainers=[],clamped=[],selectPadding=[],fieldContainment=[],badgeDistortion=[];
   for(const el of candidates){
     const r=box(el),s=style(el),action=el.matches('button,[role="button"],a.button,a.primary-button,summary');
     if((r.right>width+2||r.left< -2)&&!clippedArtwork(el)){
@@ -59,8 +59,18 @@ export function measureResponsive() {
       if(Math.min(ra.right,rb.right)-Math.max(ra.left,rb.left)>2&&Math.min(ra.bottom,rb.bottom)-Math.max(ra.top,rb.top)>2)overlaps.push({parent:selector(parent),first:short(a),second:short(b)});
     }
   }
+  // A field can escape its label without overlapping a direct sibling. Native
+  // date/time fields and nested form grids need their own containment check.
+  for(const el of candidates.filter(el=>el.matches('input:not([type="hidden"]),select,textarea'))){
+    const parent=el.closest('label');if(!parent||!visible(parent))continue;
+    const r=box(el),p=box(parent);
+    if((r.left<p.left-2||r.right>p.right+2)&&!scrollerFor(el))fieldContainment.push({...short(el),parent:selector(parent),parentWidth:Math.round(p.width)});
+  }
+  for(const el of [...document.querySelectorAll('.category-guide-steps article>b,.season-method-number')].filter(visible)){
+    const r=box(el);if(Math.abs(r.width-r.height)>1)badgeDistortion.push(short(el));
+  }
   const viewport=document.querySelector('meta[name="viewport"]')?.getAttribute('content')||'';
   const fixed=[...document.querySelectorAll('body *')].filter(el=>el.matches('aside,nav,header,dialog,[role="dialog"]')&&visible(el)&&style(el).position==='fixed').map(short);
-  return{measurementVersion:3,stylesReady:style(document.documentElement).getPropertyValue('--brand').trim().length>0&&style(document.body).margin==='0px',stylesheetHrefs:[...document.querySelectorAll('link[rel="stylesheet"]')].map(el=>el.getAttribute('href')),path:location.pathname,width,height,assetVersion:document.querySelector('meta[name="asset-version"]')?.getAttribute('content')||'',documentWidth:document.documentElement.scrollWidth,documentOverflow:document.documentElement.scrollWidth>width+2,viewport,zoomRestricted:/user-scalable\s*=\s*no|maximum-scale\s*=\s*1(?:\D|$)/i.test(viewport),fonts:document.fonts.status,
-    horizontal,textClipping,overlaps,smallActions,smallFields,selectPadding,scrollContainers,clamped,fixed,inspected:candidates.length};
+  return{measurementVersion:4,stylesReady:style(document.documentElement).getPropertyValue('--brand').trim().length>0&&style(document.body).margin==='0px',stylesheetHrefs:[...document.querySelectorAll('link[rel="stylesheet"]')].map(el=>el.getAttribute('href')),path:location.pathname,width,height,assetVersion:document.querySelector('meta[name="asset-version"]')?.getAttribute('content')||'',documentWidth:document.documentElement.scrollWidth,documentOverflow:document.documentElement.scrollWidth>width+2,viewport,zoomRestricted:/user-scalable\s*=\s*no|maximum-scale\s*=\s*1(?:\D|$)/i.test(viewport),fonts:document.fonts.status,
+    horizontal,textClipping,overlaps,fieldContainment,badgeDistortion,smallActions,smallFields,selectPadding,scrollContainers,clamped,fixed,inspected:candidates.length};
 }

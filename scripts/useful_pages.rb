@@ -74,11 +74,11 @@ def useful_pages_markup(url,family,title,body)
  else
   ''
  end
- # Topic actions live in a compact rail; do not recreate the long generated outline.
+ # The same actions follow the content on mobile and remain a fixed rail on desktop.
  dock=useful_action_dock_markup(share: !%w[licenses sources contact directory].include?(kind))
  nav=%(<aside class="page-action-rail" data-page-action-rail aria-label="Lapas darbības"><span class="page-action-rail-label">ŠĪ LAPA</span>#{dock}</aside>)
  nav='' if kind=='reflection'
  section=panel.empty? ? '' : '<section class="useful-panel" id="praktiski-tev" data-useful-panel>'+panel+'<p class="useful-status" role="status" data-useful-status></p></section>'
  data='<script type="application/json" data-useful-config>'+JSON.generate(config).gsub('<','\\u003c')+'</script>'
- nav+body+section+data
+ body+section+nav+data
 end

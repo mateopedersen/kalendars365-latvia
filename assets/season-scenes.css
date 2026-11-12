@@ -3,7 +3,7 @@
 .season-hero-gallery{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));width:100%;gap:12px;align-self:stretch}
 .season-hero-tile{display:flex;flex-direction:column;min-width:0;justify-content:center;padding:4px 8px 12px;border:1px solid #fff9;border-radius:17px;background:linear-gradient(145deg,#ffffffe0,#f6efe5b8);box-shadow:0 5px 15px #59302d0b;color:#643346;text-decoration:none;transition:transform .18s,border-color .18s,box-shadow .18s}
 .season-hero-tile:hover{transform:translateY(-2px);border-color:#cda3a7;box-shadow:0 10px 18px #59302d14;text-decoration:none}
-.season-hero-tile>img{display:block;width:100%;height:auto;aspect-ratio:6/5;object-fit:contain}
+.season-hero-tile>img{display:block;width:100%;height:clamp(110px,11vw,165px);object-fit:contain}
 .season-hero-tile>span{display:flex;align-items:center;justify-content:space-between;gap:10px;padding:0 9px;font-size:15px;font-weight:700;line-height:1.35}
 .season-hero-tile b{font-size:17px;font-weight:500;color:#a57777}
 .category-v2 [data-seasons-explorer] .category-section-title{align-items:flex-start;gap:24px;margin-bottom:16px}
@@ -48,6 +48,34 @@
 .category-v2 .season-year-line span:nth-child(4){background:#c9e0ee;color:#41647e}
 .season-art-note{font-size:12px;line-height:1.6;color:#8c7b80;margin:13px 0 22px}
 .season-art-note a{color:#81616d;text-underline-offset:3px}
+
+/* The three definitions use equal cards; their number markers never shrink. */
+.category-v2 .category-guide.season-method-guide{display:block;padding:32px;border:1px solid #e1d0c8;border-radius:22px;background:linear-gradient(135deg,#fbf5ee,#f4e9e5);scroll-margin-top:24px}
+.season-method-heading{margin-bottom:24px;max-width:680px}
+.category-v2 .season-method-heading h2{margin:0;font-size:clamp(25px,2.6vw,32px);line-height:1.25;letter-spacing:-.8px;color:#342d35}
+.category-v2 .season-method-heading .eyebrow{margin:0 0 12px;color:#835064;font-size:11px;line-height:1.5}
+.season-method-cards{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;margin:0;padding:0;list-style:none}
+.season-method-card{min-width:0;padding:22px;background:#fffdfa;border:1px solid #e4d8d2;border-radius:16px;box-shadow:0 3px 10px #714a4810}
+.season-method-card-heading{display:grid;grid-template-columns:44px minmax(0,1fr);align-items:center;gap:13px;min-height:54px;margin-bottom:16px}
+.season-method-number{display:grid;place-items:center;width:44px;height:44px;min-width:44px;aspect-ratio:1;border:1px solid #d5a9b7;border-radius:50%;background:linear-gradient(145deg,#fffefa,#f4e6e9);box-shadow:inset 0 1px #fff;color:#872d49;font-size:14px;font-weight:750;line-height:1;font-variant-numeric:tabular-nums}
+.category-v2 .season-method-card h3{margin:0;font-size:19px;line-height:1.4;font-weight:750;color:#3e303a;overflow-wrap:break-word}
+.category-v2 .season-method-card p{margin:0;font-size:15px;font-weight:500;line-height:1.7;color:#61565f;overflow-wrap:break-word}
+.season-method-footer{margin-top:24px;padding-top:22px;border-top:1px solid #e1cfc8}
+.category-v2 .season-method-sources-label{margin:0 0 12px;color:#7c4c5e;font-size:12px;font-weight:750;line-height:1.5;letter-spacing:.04em}
+.season-method-sources{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));grid-auto-rows:1fr;gap:14px}
+.season-method-sources>a{display:flex;align-items:center;gap:14px;min-width:0;min-height:76px;padding:14px 18px;border:1px solid #d8bec5;border-radius:12px;background:#fffdf9;color:#783148;text-decoration:none;box-shadow:0 2px 5px #73474e06;transition:border-color .15s,background .15s}
+.season-method-sources>a:hover{border-color:#a36177;background:#fff7f7;text-decoration:none}
+.season-method-sources>a:focus-visible{outline:3px solid #a04b69;outline-offset:3px}
+.season-method-sources>a>span{display:flex;flex-direction:column;gap:3px;min-width:0}
+.season-method-sources strong{font-size:15px;font-weight:750;line-height:1.4}
+.season-method-sources small{font-size:13px;font-weight:550;line-height:1.5;color:#6b5b64;overflow-wrap:break-word}
+.season-method-sources .icon{fill:none;stroke:currentColor;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round}
+.season-method-sources .season-method-source-icon{width:28px;height:28px;flex:0 0 28px;stroke-width:1.6;color:#9c526a}
+.season-method-sources .season-method-link-arrow{width:20px;height:20px;flex:0 0 20px;margin-left:auto;color:#8b3b55}
+@media(max-width:1000px){.season-method-cards{grid-template-columns:1fr;gap:13px}.season-method-card{display:grid;grid-template-columns:minmax(210px,.8fr) minmax(0,1.5fr);gap:22px;padding:21px}.season-method-card-heading{margin:0;min-height:44px;align-self:start}.category-v2 .season-method-card h3{font-size:18px}}
+@media(max-width:650px){.category-v2 .category-guide.season-method-guide{padding:22px 18px;border-radius:18px}.season-method-heading{margin-bottom:21px}.season-method-card{display:block;padding:20px 18px}.season-method-card-heading{min-height:44px;margin-bottom:14px;gap:12px}.category-v2 .season-method-card h3{font-size:19px}.season-method-sources{grid-template-columns:1fr;gap:10px}.season-method-sources>a{min-height:76px;padding:14px}.season-method-footer{margin-top:21px;padding-top:20px}}
+@media print{.category-v2 .category-guide.season-method-guide{display:block;padding:5mm;background:#fff}.season-method-cards{display:block}.season-method-card{break-inside:avoid;box-shadow:none;margin-bottom:4mm}.season-method-card-heading{min-height:0}.season-method-footer{break-inside:avoid}.season-method-sources>a{box-shadow:none}}
+@media(prefers-reduced-motion:reduce){.season-method-sources>a{transition:none}}
 @media(hover:hover){.category-v2 .season-card:hover{transform:translateY(-3px);box-shadow:0 14px 30px #573b3916}}
 @media(max-width:1100px) and (min-width:701px){.category-v2 .season-photographic-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:900px){.category-v2 .v2-hero--seasons .v2-hero-scene{min-height:0;padding:15px}.season-hero-gallery{gap:10px}.season-hero-tile{padding-bottom:11px}.season-hero-tile>span{font-size:14px}}
