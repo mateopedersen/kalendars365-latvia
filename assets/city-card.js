@@ -25,7 +25,7 @@ function createCityPhotoLoader({image,figure,status,makeImage=()=>new Image(),on
    next.alt=photo.alt;next.hidden=false;displayed.replaceWith(next);displayed=next;
   }
   displayed.alt=photo.alt;displayed.hidden=false;
-  figure.dataset.photoCity=city.id;figure.dataset.photoStage='ready';
+  figure.dataset.photoCity=city.id;figure.dataset.photoPeriod=city.photoPeriod||'day';figure.dataset.photoStage='ready';
   figure.classList.toggle('is-location-illustration',!!city.external);
   figure.classList.remove('is-loading');figure.setAttribute('aria-busy','false');status.hidden=true;onDisplay(city);
  }
@@ -49,11 +49,11 @@ if(typeof module==='object'&&module.exports)module.exports={createCityPhotoLoade
  function init(){
   const get=id=>document.getElementById(id),select=get('city-select'),location=window.K365Location;
   if(!select||!cities.length||!location)return;
-  let city=null,solarKey='',solarRun=0,solarTimes=null,zone='Europe/Riga',clockFormatter,solarFormatter,dateFormatter,fullDateFormatter;
+  let city=null,solarKey='',solarRun=0,solarTimes=null,photoKey='',photoTimer,photoRetryAt=0,zone='Europe/Riga',clockFormatter,solarFormatter,dateFormatter,fullDateFormatter;
   const card=get('city-card'),image=get('city-photo'),figure=image.closest('figure');
   const status=document.createElement('span');status.className='city-photo-status';status.setAttribute('role','status');status.hidden=true;figure.append(status);
   const photos=createCityPhotoLoader({image,figure,status,onDisplay:shown=>{get('city-photo-caption').textContent=shown.name+', '+shown.countryName;}});
-  function warmNearby(){const at=cities.findIndex(record=>record.id===select.value);const nearby=at<0?cities.slice(0,3):cities.slice(Math.max(0,at-2),at+3);for(const record of nearby)photos.preload(record);}
+  function warmNearby(){const at=cities.findIndex(record=>record.id===select.value);const nearby=at<0?cities.slice(0,3):cities.slice(Math.max(0,at-2),at+3);for(const record of nearby){photos.preload(record);if(record.nightPhoto)photos.preload({...record,photo:record.nightPhoto});}}
   select.addEventListener('focus',warmNearby);select.addEventListener('pointerdown',warmNearby,{passive:true});
   select.addEventListener('keydown',event=>{if(['ArrowDown','ArrowUp','Home','End'].includes(event.key))warmNearby();});
   function formatters(nextZone){
@@ -62,8 +62,18 @@ if(typeof module==='object'&&module.exports)module.exports={createCityPhotoLoade
    dateFormatter=new Intl.DateTimeFormat('en-CA',{timeZone:zone,year:'numeric',month:'2-digit',day:'2-digit'});
    fullDateFormatter=new Intl.DateTimeFormat('lv-LV',{timeZone:zone,weekday:'long',year:'numeric',month:'long',day:'numeric'});
   }
-  function updatePhoto(){
-   photos.update(city);
+  function updatePhoto(now=new Date()){
+   if(!city||!solarTimes||Date.now()<photoRetryAt)return;
+   const {rise,set}=solarTimes;
+   const daytime=rise&&set?(rise<set?now>=rise&&now<set:now<set||now>=rise):true;
+   const photo=!daytime&&city.nightPhoto?city.nightPhoto:city.photo;
+   const period=daytime?'day':city.nightPhoto?'night':'archive';
+   const key=[city.id,period,photo?.src].join('|');
+   if(key===photoKey)return;
+   photoKey=key;clearTimeout(photoTimer);
+   const next=[rise,set].filter(time=>time&&time>now).sort((a,b)=>a-b)[0];
+   if(next)photoTimer=setTimeout(()=>updatePhoto(),Math.max(25,+next-Date.now()+25));
+   photos.update({...city,photo,photoPeriod:period}).then(ok=>{if(!ok&&photoKey===key){photoKey='';photoRetryAt=Date.now()+60000;}});
   }
   function updateSun(today){
    const id=city.id+today+zone;if(solarKey===id)return;solarKey=id;
@@ -87,7 +97,7 @@ if(typeof module==='object'&&module.exports)module.exports={createCityPhotoLoade
    get('today-date').textContent=fullDateFormatter.format(now);
    get('clock-hour').setAttribute('transform',`rotate(${Number(p.hour)%12*30+Number(p.minute)/2} 40 39)`);
    get('clock-minute').setAttribute('transform',`rotate(${Number(p.minute)*6+Number(p.second)/10} 40 39)`);get('clock-second').setAttribute('transform',`rotate(${Number(p.second)*6} 40 39)`);
-   if(!skipSun){const d=Object.fromEntries(dateFormatter.formatToParts(now).map(p=>[p.type,p.value]));updateSun(`${d.year}-${d.month}-${d.day}`);updateSunVisual(now);}
+   if(!skipSun){const d=Object.fromEntries(dateFormatter.formatToParts(now).map(p=>[p.type,p.value]));updateSun(`${d.year}-${d.month}-${d.day}`);updateSunVisual(now);updatePhoto(now);}
   }
   function apply({city:next,source}){
    card.dataset.locationState=source;get('city-location-auto').disabled=source==='detecting';
@@ -102,14 +112,14 @@ if(typeof module==='object'&&module.exports)module.exports={createCityPhotoLoade
    get('city-time-note').textContent=city.external?`Vietējais laiks — ${zone}. Latvijas kalendārs izmanto Europe/Riga.`:'Visā Latvijā ir vienāda laika josla — Europe/Riga.';
    const sunLink=get('city-sun-link');sunLink.href=city.external?'/saullekts-saulriets/':'/saullekts-saulriets/'+city.id+'/';
    sunLink.firstChild.textContent=city.external?'Saules laiki Latvijas pilsētās':'Saules laiki un datuma izvēle';
-   if(changed)updatePhoto();solarKey='';tick(true);const run=++solarRun;
+   if(changed){photoKey='';photoRetryAt=0;clearTimeout(photoTimer);}solarKey='';solarTimes=null;tick(true);const run=++solarRun;
    // Keep photo loading and selection responsive before the more expensive sky calculations.
    requestAnimationFrame(()=>requestAnimationFrame(()=>{if(run===solarRun)tick();}));
   }
   select.addEventListener('change',()=>location.manual(select.value));get('city-location-auto').addEventListener('click',()=>location.auto());
   document.addEventListener('k365:citychange',event=>apply(event.detail));
   document.addEventListener('visibilitychange',()=>{if(!document.hidden)tick();});
-  document.addEventListener('k365:skyready',()=>{solarKey='';tick();});
+  document.addEventListener('k365:skyready',()=>{solarKey='';photoKey='';clearTimeout(photoTimer);tick();});
   apply({city:location.current,source:location.source});setInterval(()=>{if(!document.hidden)tick();},1000);
  }
  if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',init,{once:true});else init();

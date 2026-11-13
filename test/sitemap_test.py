@@ -20,6 +20,7 @@ class SitemapAuditTests(unittest.TestCase):
         (self.root / 'docs').mkdir()
         (self.root / 'assets').mkdir()
         (self.root / 'assets/cover.webp').write_bytes(b'image-fixture')
+        self.write('_data/cities.json', json.dumps({'cities': []}))
         self.paths = ['/', '/lietošanas-noteikumi/']
         self.records = [{'url': p, 'canonicalPath': p, 'family': 'fixture', 'indexable': True,
                          'lastmod': '2026-11-10', 'significantModifiedAt': '2026-11-10'} for p in self.paths]
@@ -113,6 +114,18 @@ class SitemapAuditTests(unittest.TestCase):
         self.assertTrue({'missing-image-file', 'image-content-coverage'} <= self.codes())
         self.write('image-sitemap.xml', self.image_xml.replace('/assets/cover.webp', '/private/cover.webp'))
         self.assertIn('image-url', self.codes())
+
+    def test_dynamic_city_night_images_require_complete_sitemap_and_real_files(self):
+        self.write('_data/cities.json', json.dumps({'cities': [{'photo': {'src': '/assets/cover.webp'},
+                                                              'nightPhoto': {'src': '/assets/night.webp'}}]}))
+        self.write('assets/night.webp', 'night-image-fixture')
+        self.assertIn('image-content-coverage', self.codes())
+        first = f'<url><loc>{O}/</loc>'
+        night = f'<image:image><image:loc>{O}/assets/night.webp</image:loc></image:image>'
+        self.write('image-sitemap.xml', self.image_xml.replace(first, first + night, 1))
+        self.assertEqual(self.result()['errors'], [])
+        (self.root / 'assets/night.webp').unlink()
+        self.assertIn('missing-image-file', self.codes())
 
     def test_unregistered_html_duplicate_registry_and_excluded_urls_fail(self):
         self.write_html('/unknown/')

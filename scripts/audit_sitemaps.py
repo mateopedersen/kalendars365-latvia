@@ -245,6 +245,12 @@ def audit(site, source, today=None):
             fail('html-indexing-blocked', path)
         actual_images = set(image_pages.get(path, {}).get('images', []))
         wanted_images = content_images(doc.image_candidates)
+        if path == '/':
+            # This independent source catalog also covers images selected by
+            # the homepage's city control after initial rendering.
+            cities = json.loads((source / '_data/cities.json').read_text())['cities']
+            dynamic = [city[key]['src'] for city in cities for key in ('photo', 'nightPhoto') if city.get(key)]
+            wanted_images.update(content_images(dynamic))
         if actual_images != wanted_images:
             fail('image-content-coverage', path, {'missing': sorted(wanted_images - actual_images), 'extra': sorted(actual_images - wanted_images)})
         crawlable(path)

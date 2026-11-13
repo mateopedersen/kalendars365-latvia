@@ -88,6 +88,14 @@ module CalendarImageSitemap
       raise "Incorrect canonical: #{document.url}" unless URI::DEFAULT_PARSER.unescape(canonical) == origin + document.url
 
       images = document_images(html, origin: origin, destination: site.dest, css_cache: css_cache)
+      if document.url == '/'
+        # The city picker presents these reviewed photographs dynamically.
+        # Associate them with the actual homepage rather than the noindex credits page.
+        city_photos=site.data.fetch('cities').fetch('cities').flat_map do |city|
+          [city.dig('photo','src'),city.dig('nightPhoto','src')].compact
+        end
+        images=(images+city_photos.map { |path|local_image(path,origin:origin,destination:site.dest) }).compact.uniq.sort
+      end
       raise "Too many images for a sitemap URL: #{document.url}" if images.length > 1000
       records << {url: document.url, images: images}
     end

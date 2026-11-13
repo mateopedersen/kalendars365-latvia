@@ -52,7 +52,19 @@
         "reviewedDerivativeSha256": "26228d2eeaf99c5e5c40b975a2d263a55f940c3f4771141c8c59469c94ca9630"
       },
       "photoSelectionSource": "https://www.wikidata.org/wiki/Q1773#P18",
-      "locative": "Rīgā"
+      "locative": "Rīgā",
+      "nightPhoto": {
+        "src": "/assets/cities-night/riga-night-b42caec573cd.webp",
+        "alt": "Rīga pēc saulrieta",
+        "author": "Ainars Brūvelis",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Riga_at_the_night_-_panoramio_(2).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Riga_at_the_night_-_panoramio_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 1200,
+        "height": 675,
+        "sha256": "b42caec573cdc2394e81117fe103d5bc59583794acc8cfb75c4b12998785cafe"
+      }
     },
     {
       "id": "daugavpils",
@@ -99,7 +111,19 @@
         "reviewedDerivativeSha256": "5ce34eff567dcbee98492543c2077f6de1d6b5eadeee34bcb950057bda6b0e39"
       },
       "photoSelectionSource": "https://www.wikidata.org/wiki/Q80021#P18",
-      "locative": "Daugavpilī"
+      "locative": "Daugavpilī",
+      "nightPhoto": {
+        "src": "/assets/cities-night/daugavpils-night-9d25a4ca9e69.webp",
+        "alt": "Daugavpils pēc saulrieta",
+        "author": "Aidas U.",
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Maizes_iela_-_panoramio.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Maizes_iela_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 1200,
+        "height": 675,
+        "sha256": "9d25a4ca9e692fb648c2da2ddd7632dfe2c7fac782d6a012b4a98556fd991009"
+      }
     },
     {
       "id": "liepaja",
@@ -146,7 +170,19 @@
         "reviewedDerivativeSha256": "271dd89b9f655b6e0e7f1b24a8e9e82277e3710c61fe3acc9a11f9f455131f9c"
       },
       "photoSelectionSource": "https://www.wikidata.org/wiki/Q167668#P18",
-      "locative": "Liepājā"
+      "locative": "Liepājā",
+      "nightPhoto": {
+        "src": "/assets/cities-night/liepaja-night-755e4fdf9ac3.webp",
+        "alt": "Liepāja pēc saulrieta",
+        "author": "---=XEON=---",
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Night_Light_Building_-_panoramio.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Night_Light_Building_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 1200,
+        "height": 675,
+        "sha256": "755e4fdf9ac392afd184497d64ad2cc6f3f26cfb6000f5edd31a6cca4fe88512"
+      }
     },
     {
       "id": "jelgava",
@@ -193,7 +229,19 @@
         "reviewedDerivativeSha256": "1aaf6bf51cbfdc07aefbfc4701989bcf73a50fbd5f7cf078a278f57437b2c90a"
       },
       "photoSelectionSource": "https://www.wikidata.org/wiki/Q179830#P18",
-      "locative": "Jelgavā"
+      "locative": "Jelgavā",
+      "nightPhoto": {
+        "src": "/assets/cities-night/jelgava-night-6aea34924873.webp",
+        "alt": "Jelgava pēc saulrieta",
+        "author": "Андрей Романенко",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lielupe_in_Jelgava_by_night_01.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/26/Lielupe_in_Jelgava_by_night_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 1200,
+        "height": 675,
+        "sha256": "6aea34924873b34db539515e1ff95d10de53aeac7a811ec3f7b658d22c6f8671"
+      }
     },
     {
       "id": "jurmala",
@@ -240,7 +288,19 @@
         "reviewedDerivativeSha256": "d3a4976e84dbc21aaa4c48cc601ec496ae377787565f96e94d2b9038c0e1fbfb"
       },
       "photoSelectionSource": "https://www.wikidata.org/wiki/Q178382#P18",
-      "locative": "Jūrmalā"
+      "locative": "Jūrmalā",
+      "nightPhoto": {
+        "src": "/assets/cities-night/jurmala-night-c6ae861ce88e.webp",
+        "alt": "Jūrmala pēc saulrieta",
+        "author": "Егор Журавлёв from Smarde, Latvia",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dubulti_Church.Winter_Night_(45994028424).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Dubulti_Church.Winter_Night_%2845994028424%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 1200,
+        "height": 675,
+        "sha256": "c6ae861ce88ea6d6c1d021b3060e492deeee270e82a1de3b2507a51b7964f9bf"
+      }
     },
     {
       "id": "ventspils",
@@ -287,7 +347,19 @@
         "reviewedDerivativeSha256": "640bfd25d952ff42072665969f47e869d984f2617fc6f3e58dbaa549b5028293"
       },
       "photoSelectionSource": "https://www.wikidata.org/wiki/Q104036#P18",
-      "locative": "Ventspilī"
+      "locative": "Ventspilī",
+      "nightPhoto": {
+        "src": "/assets/cities-night/ventspils-night-04da37e66c61.webp",
+        "alt": "Ventspils pēc saulrieta",
+        "author": "Modris Putns",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ventspils,_winter,_night..._-_panoramio.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/16/Ventspils%2C_winter%2C_night..._-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 1200,
+        "height": 675,
+        "sha256": "04da37e66c619a4eba27e22cbaca6c5a43cf13493eda851653ba240e08f367af"
+      }
     },
     {
       "id": "rezekne",
@@ -381,7 +453,19 @@
         "reviewedDerivativeSha256": "c300c05ba220b37c912bef449029e772022ef60e42dce4ed5bd74b325af08395"
       },
       "photoSelectionSource": "https://www.wikidata.org/wiki/Q108037#P18",
-      "locative": "Valmierā"
+      "locative": "Valmierā",
+      "nightPhoto": {
+        "src": "/assets/cities-night/valmiera-night-7e2263e4ccb0.webp",
+        "alt": "Valmiera pēc saulrieta",
+        "author": "Dace Kiršpile",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Night._Valmiera.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Night._Valmiera.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 1200,
+        "height": 675,
+        "sha256": "7e2263e4ccb0ae5c01727068394fd6545467d3c17bb5904fb4bc00fde0d07d4f"
+      }
     },
     {
       "id": "ogre",
@@ -428,7 +512,19 @@
         "reviewedDerivativeSha256": "314105fba9676793aaccad8102411cd682314110a132e0cefd10ace7fdee30f0"
       },
       "photoSelectionSource": "https://www.wikidata.org/wiki/Q731915#P18",
-      "locative": "Ogrē"
+      "locative": "Ogrē",
+      "nightPhoto": {
+        "src": "/assets/cities-night/ogre-night-5dc481761f06.webp",
+        "alt": "Ogre pēc saulrieta",
+        "author": "ogre11",
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ogres_centrs_nakt%C4%AB_-_ogre11_-_Panoramio.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Ogres_centrs_nakt%C4%AB_-_ogre11_-_Panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 1200,
+        "height": 675,
+        "sha256": "5dc481761f06e08fb900bec414cb83a1b1216b20becbc8e69e4f99f5e4acbbf1"
+      }
     },
     {
       "id": "jekabpils",
@@ -569,7 +665,19 @@
         "reviewedDerivativeSha256": "bcbd03d4a39ceb74f9d3605788121b5f29f808cfa5bbe034a9bdbe7e6992bb6c"
       },
       "photoSelectionSource": "https://www.wikidata.org/wiki/Q405931#P18",
-      "locative": "Ainažos"
+      "locative": "Ainažos",
+      "nightPhoto": {
+        "src": "/assets/cities-night/ainazi-night-794bf56fd019.webp",
+        "alt": "Ainaži pēc saulrieta",
+        "author": "demonzak",
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ainazi_-_panoramio.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Ainazi_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 1200,
+        "height": 675,
+        "sha256": "794bf56fd01933a374aeb45ae2dc559f7edce9c53ac142ade7d53f3eb8dfa050"
+      }
     },
     {
       "id": "aizkraukle",
@@ -616,7 +724,19 @@
         "reviewedDerivativeSha256": "1fe8f9712a8dc33dfab1932a215ef5a2287f04a2e118d4c60879a060a7caa4f6"
       },
       "photoSelectionSource": "https://www.wikidata.org/wiki/Q411715#P18",
-      "locative": "Aizkrauklē"
+      "locative": "Aizkrauklē",
+      "nightPhoto": {
+        "src": "/assets/cities-night/aizkraukle-night-eccfc07d9055.webp",
+        "alt": "Aizkraukle pēc saulrieta",
+        "author": "Aleksandrs Timofejev…",
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%D0%9F%D0%BB%D1%8F%D0%B2%D0%B8%D0%BD%D1%8C%D1%81%D0%BA%D0%B0%D1%8F_%D0%93%D0%AD%D0%A1_%D0%BD%D0%BE%D1%87%D1%8C%D1%8E_-_P%C4%BCavi%C5%86u_HES_nakt%C4%AB_(1)_-_panoramio.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5f/%D0%9F%D0%BB%D1%8F%D0%B2%D0%B8%D0%BD%D1%8C%D1%81%D0%BA%D0%B0%D1%8F_%D0%93%D0%AD%D0%A1_%D0%BD%D0%BE%D1%87%D1%8C%D1%8E_-_P%C4%BCavi%C5%86u_HES_nakt%C4%AB_%281%29_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 1200,
+        "height": 675,
+        "sha256": "eccfc07d9055e8222426e589282987d699972e3e3c636d2494a33bd53da37875"
+      }
     },
     {
       "id": "aizpute",
@@ -805,7 +925,19 @@
         "reviewedDerivativeSha256": "d848a7f5f219895678f77d6e9381440bcad9961ecebaeb99c56112eb873407f7"
       },
       "photoSelectionSource": "https://www.wikidata.org/wiki/Q291333#P18",
-      "locative": "Alūksnē"
+      "locative": "Alūksnē",
+      "nightPhoto": {
+        "src": "/assets/cities-night/aluksne-night-f22253f31ac9.webp",
+        "alt": "Alūksne pēc saulrieta",
+        "author": "SintijaKola",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Al%C5%ABksnes_str%C5%ABklakas.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Al%C5%ABksnes_str%C5%ABklakas.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 1200,
+        "height": 675,
+        "sha256": "f22253f31ac9b2faf46eaf271a429691c5dc931ab601e077e590aad6ce95ce1d"
+      }
     },
     {
       "id": "ape",
@@ -946,7 +1078,19 @@
         "reviewedDerivativeSha256": "06ce3f46f96ea1404418740d6035b2656c1db080d4c2defcbb4bceeddf273e4d"
       },
       "photoSelectionSource": "https://www.wikidata.org/wiki/Q789351#P18",
-      "locative": "Baldonē"
+      "locative": "Baldonē",
+      "nightPhoto": {
+        "src": "/assets/cities-night/baldone-night-020ba7b4f5b8.webp",
+        "alt": "Baldone pēc saulrieta",
+        "author": "Janemanis",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nakts_2.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/57/Nakts_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 1200,
+        "height": 675,
+        "sha256": "020ba7b4f5b88f4cfaf69f94dc00bba620b4d2ea05e0297791350029c00334a0"
+      }
     },
     {
       "id": "balozi",
@@ -1228,7 +1372,19 @@
         "reviewedDerivativeSha256": "fa5b4f75dfd608df73441b0040cf5a38d054f9d79d96fe09ab1e4732505b1830"
       },
       "photoSelectionSource": "https://www.wikidata.org/wiki/Q107582#P18",
-      "locative": "Cēsīs"
+      "locative": "Cēsīs",
+      "nightPhoto": {
+        "src": "/assets/cities-night/cesis-night-dc41ac02207e.webp",
+        "alt": "Cēsis pēc saulrieta",
+        "author": "AgrisR",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:C%C4%93sis_Castle_in_night_(1).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3e/C%C4%93sis_Castle_in_night_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 1200,
+        "height": 675,
+        "sha256": "dc41ac02207e92d60dff2ef52777079a40c26e75a17591f67bb230f74b22d9e1"
+      }
     },
     {
       "id": "cesvaine",
@@ -1369,7 +1525,19 @@
         "reviewedDerivativeSha256": "382bee03714312f0c8c4532b99a8c44530284e61d02da0eae9c4dfc6ed3fdc97"
       },
       "photoSelectionSource": "https://www.wikidata.org/wiki/Q729447#P18",
-      "locative": "Dobelē"
+      "locative": "Dobelē",
+      "nightPhoto": {
+        "src": "/assets/cities-night/dobele-night-f76551029c8a.webp",
+        "alt": "Dobele pēc saulrieta",
+        "author": "Андрей Романенко",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Evening_in_Dobele.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Evening_in_Dobele.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 1200,
+        "height": 675,
+        "sha256": "f76551029c8a7a07f333d9768ffc44cd5849931ae890a3dd3bd2c135f533bd1c"
+      }
     },
     {
       "id": "durbe",
@@ -1933,7 +2101,19 @@
         "reviewedDerivativeSha256": "bf1d09d9b3d7298995cb36f1c2f1361713fe6a671d11e6728b75f20a0411e320"
       },
       "photoSelectionSource": "https://www.wikidata.org/wiki/Q155281#P18",
-      "locative": "Kuldīgā"
+      "locative": "Kuldīgā",
+      "nightPhoto": {
+        "src": "/assets/cities-night/kuldiga-night-8438d026143d.webp",
+        "alt": "Kuldīga pēc saulrieta",
+        "author": "Ainars Brūvelis",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bridge_in_the_night_-_panoramio.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Bridge_in_the_night_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 1200,
+        "height": 675,
+        "sha256": "8438d026143df34a2716b41c2f01e5cefb17ed3a1a7db08a48fa56e5d4a4913c"
+      }
     },
     {
       "id": "kegums",
@@ -2875,7 +3055,19 @@
         "reviewedDerivativeSha256": "fbc2e2e3158dad13bee5948e285d28381215f02b9d745fa71d3dc09e80126384"
       },
       "photoSelectionSource": "https://www.wikidata.org/wiki/Q659665#P18",
-      "locative": "Salacgrīvā"
+      "locative": "Salacgrīvā",
+      "nightPhoto": {
+        "src": "/assets/cities-night/salacgriva-night-f0a48d1d4183.webp",
+        "alt": "Salacgrīva pēc saulrieta",
+        "author": "Saba2000",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Salacgr%C4%ABvas_j%C5%ABra.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Salacgr%C4%ABvas_j%C5%ABra.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 1200,
+        "height": 675,
+        "sha256": "f0a48d1d4183256c99991f4923d3fcc6fbbc6a354cf48118ec0cc4c1d8f79980"
+      }
     },
     {
       "id": "salaspils",
@@ -3486,7 +3678,19 @@
         "reviewedDerivativeSha256": "3c71e6e9fdcd75f57d15ef1a0b38cd889408941350e23cb11cff525c463c1801"
       },
       "photoSelectionSource": "https://www.wikidata.org/wiki/Q636935#P18",
-      "locative": "Tukumā"
+      "locative": "Tukumā",
+      "nightPhoto": {
+        "src": "/assets/cities-night/tukums-night-2bcb381f65af.webp",
+        "alt": "Tukums pēc saulrieta",
+        "author": "Ingvarslerkis",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:G%C4%81j%C4%93ju_p%C4%81rejas_apgaismojums.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d5/G%C4%81j%C4%93ju_p%C4%81rejas_apgaismojums.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 1200,
+        "height": 675,
+        "sha256": "2bcb381f65afb17b6098fbce7cca07dc85a331a14dac78486b781bae8bff0327"
+      }
     },
     {
       "id": "valdemarpils",

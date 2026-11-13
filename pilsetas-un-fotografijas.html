@@ -42,6 +42,20 @@ noindex: true
     {% endfor %}
   </div>
 
+  <section class="content-card" id="pilsetas-nakti">
+    <span class="eyebrow">PĒC SAULRIETA</span><h2>Pilsētu vakara un nakts fotogrāfijas</h2>
+    <p>Sākumlapas pilsētas attēls mainās pēc izvēlētās vietas aprēķinātā saullēkta un saulrieta. Vakara attēli ir atsevišķas arhīva fotogrāfijas, nevis aptumšotas dienas fotogrāfijas vai tiešraide. Gadalaiks un laikapstākļi tajās var atšķirties no pašreizējiem. Pilsētām, kurām atsevišķs licencēts vakara attēls vēl nav pieejams, saglabājas esošā arhīva fotogrāfija.</p>
+    <p>Vietnes kopijas ir samazinātas, kadrētas līdz 1200 × 675 pikseļiem un saspiestas WebP formātā. Saglabājas katra autora norādītā licence.</p>
+  </section>
+  <div class="photo-catalog">
+    {% for city in site.data.cities.cities %}{% if city.nightPhoto %}{% assign photo = city.nightPhoto %}
+    <article id="{{ city.id }}-nakts" data-night-photo="{{ city.id }}">
+      <img src="{{ photo.src }}" alt="{{ photo.alt | escape }}" width="1200" height="675" loading="lazy" decoding="async">
+      <div><h2>{{ city.name }} pēc saulrieta</h2><p>{{ photo.author | escape }} · <a href="{{ photo.licenseUrl | escape }}" rel="license">{{ photo.license | escape }}</a></p><p><a href="{{ photo.sourceUrl | escape }}">Avota fotogrāfija Wikimedia Commons</a></p></div>
+    </article>
+    {% endif %}{% endfor %}
+  </div>
+
   <section class="content-card university-photo-credits occasion-photo-credits" id="svetku-fotografijas">
     <div class="university-photo-heading"><div><span class="eyebrow">LATVIJAS SVĒTKI UN ATCERES DIENAS</span><h2>Īstas svētku fotogrāfijas, norādīti autori</h2><p>Svētku un atceres dienu lapās izmantotas 42 atšķirīgas dokumentālas fotogrāfijas. Katrā kartītē ir attēla autors, licences noteikumi un saite uz oriģinālo avota failu. Vietnes attēli ir lokāli WebP atvasinājumi, nevis ārēja attēlu plūsma.</p></div></div>
     <div class="photo-catalog university-photo-catalog occasion-photo-catalog">

@@ -790,7 +790,9 @@ File.write('_redirects', redirects.join("\n") + "\n")
 # Serialize the shared city catalog as JavaScript before hashing assets.
 public_cities = CITIES.map do |c|
  photo=c.fetch('photo').slice('src','srcset','alt','author','license')
- c.slice('id','name','locative','lat','lon','timeZone').merge('photo'=>photo)
+ record=c.slice('id','name','locative','lat','lon','timeZone').merge('photo'=>photo)
+ record['nightPhoto']=c['nightPhoto'].slice('src','alt','author','license') if c['nightPhoto']
+ record
 end
 File.write('assets/cities.js', 'window.K365Cities = '+JSON.generate(public_cities)+";\n")
 # Public sharing catalog uses the same reviewed covers and their photo credits.
