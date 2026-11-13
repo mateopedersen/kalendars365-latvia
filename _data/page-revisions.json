@@ -462,8 +462,8 @@
     "proseLinksSha256": "ed2364bb20300f471b517e9c88d2a44f9fd55acb27d0d054d5796e25f264ad1c"
   },
   "/dienas-garums/": {
-    "sha256": "09514d3c909597f60c72d791c17b376e2467f7b2c23c331dc89f5fc68ac9217c",
-    "lastmod": "2026-11-12",
+    "sha256": "d4df3e85e53c5b5cd3f67c351a2f2895bb2c33028465ee100b5872cb44670c26",
+    "lastmod": "2026-11-13",
     "navigationSha256": "23be20a9c220336f5fc7f9c6dfb974e10ca725e4b71994549e2b976cc88fd0f5",
     "proseLinksSha256": "dfe6e15d8cb69aa31f8faa77dc395d8547a1ea1557c592e7387a6f6ad8ede05c"
   },
@@ -546,86 +546,86 @@
     "proseLinksSha256": "39dc9375dd61deb94abaffaac4354a60ca3c312a55a1611224ef883bef147104"
   },
   "/horoskopa-zimes-kalkulators/": {
-    "sha256": "f2e000ce9481826e678338428fda5440a8faba55b63f816189ed702f00f3d43a",
-    "lastmod": "2026-11-12",
+    "sha256": "b23357939d67283fd1b643d5dbf2a71ddd53a1e121fd9c7b2c588033a3e738f4",
+    "lastmod": "2026-11-13",
     "navigationSha256": "34e3ec30866174836d512d50c5255906ed30f4543a19627874e2ad984393b355",
     "proseLinksSha256": "86915c1a33ce8703380d909f6a56c8289e917a9b9c730839aed40c08d5a27ed2"
   },
   "/horoskops/": {
-    "sha256": "18f9a85dfde22fd602b0c5856a0c2a8fde1b9418bd131dedfb8688d6ba30c2fa",
-    "lastmod": "2026-11-12",
+    "sha256": "9befb9e8186bca368bba22ef74265d08d5a8137e3b69ec3c7b15ca827d6b0888",
+    "lastmod": "2026-11-13",
     "navigationSha256": "a31df3f5addff7ba66444635c997175c4226d2fb6531fb507d91d0a806759370",
     "proseLinksSha256": "f73ac710e7089a60aea4e603c80f952d68d011ed2df11082443b17d3c5a83bb9"
   },
   "/horoskops/auns/": {
-    "sha256": "c93859330f140fdf827f8c4c0eec0747fdb975d6ab1f716654bf8790adece870",
-    "lastmod": "2026-11-12",
+    "sha256": "5844dca708950468bd867cfeda0935f9fc591712536b9fe2763e694fe36e4f29",
+    "lastmod": "2026-11-13",
     "navigationSha256": "19dc8031c893511f50cab9507089252eaec16635f8d7fc2aaf762786da505c97",
     "proseLinksSha256": "98d55ccdf53dcde13c4dce2229b832f7617bd024686e4b1365545fe15d468936"
   },
   "/horoskops/dvini/": {
-    "sha256": "07371510d814c85e67386718dc7645aa2f2c7649c2bd05a38401f998429ef3bf",
-    "lastmod": "2026-11-12",
+    "sha256": "332a9e84fff742a6a1a02a8fed5ddd9637a8f40dbcd4ee6297c14d82181a1677",
+    "lastmod": "2026-11-13",
     "navigationSha256": "a749920a0303fceb56115c6f8655d866e476f28a15c9dd165d6b28f59b6a0202",
     "proseLinksSha256": "ed3909328aefec039fdf7069dc92710e55aa0a0f415dc8ee0dd758fb1330c4d8"
   },
   "/horoskops/jaunava/": {
-    "sha256": "81467824ad71e50a994cbe77ca8f3a8800735bdff69ee7cc828ef8fd4811966a",
-    "lastmod": "2026-11-12",
+    "sha256": "965f3a83a5bfe06d3a3c21910c5fdaee40ca6a366f70be2021c6878b0f042312",
+    "lastmod": "2026-11-13",
     "navigationSha256": "0004d63497a91c12c54effd2167b9370b89224e3843e51e906b0954f0f32820a",
     "proseLinksSha256": "b9ab8983e9673b11f149592fcb27d0b17e69ded630fb979148b835224ac63fe8"
   },
   "/horoskops/lauva/": {
-    "sha256": "abd9733ae70b3cd98d450ef9743e677b6d8e61d272b5bcb1967f2f41fa9b7710",
-    "lastmod": "2026-11-12",
+    "sha256": "96470b772ef89c7dc0e2f95bf5a1d0907ffb157e1d54c840c930e2e9c8727d62",
+    "lastmod": "2026-11-13",
     "navigationSha256": "2a4cebffc9938da3f7f1f0790aa9c55cb3bd75be182b162bb32a346a29efd238",
     "proseLinksSha256": "8066a7195fdd67482fcd8599785d8d4a4aef28b785aa09f96ff5357a3a1b2add"
   },
   "/horoskops/mezazis/": {
-    "sha256": "23d8d5dfc512b1e0d1d4d2a152c2098bccebb77c490d42850834682ba7d6be0e",
-    "lastmod": "2026-11-12",
+    "sha256": "25dc313cafac73f10e5a679bb6142f9db5667e91c8e0eb9a6f592f6ea292ca33",
+    "lastmod": "2026-11-13",
     "navigationSha256": "c9599ed44dcb25314fac8fd6d5db3f45c8f44287967d56248076c9616e0d37d9",
     "proseLinksSha256": "3adf993c150a99d4e85793e6f4dd8a600b5789b1a709ceba4ab010caff445ff0"
   },
   "/horoskops/skorpions/": {
-    "sha256": "67d6299036e39e64b49880d5147a6ef094bf528a65674c5f3c4dcaaeee66f7c2",
-    "lastmod": "2026-11-12",
+    "sha256": "3d4964e6c22d03ebb601495de400c2958edbd415c071f2a8e27a9d8ead217b09",
+    "lastmod": "2026-11-13",
     "navigationSha256": "3d12115080bb67e2517e7e2c9a729eba64f7e0a555cbed4cb78062b7dee43a5c",
     "proseLinksSha256": "5d22ea30d3d4206c70112bd56f06b3ba1caec3c03bc188c904a14cc7d4a201a9"
   },
   "/horoskops/strelnieks/": {
-    "sha256": "7144f481b11aba30f7122c52540ba5db24a53bf68e59e605c20364c58e7ee03d",
-    "lastmod": "2026-11-12",
+    "sha256": "d07bfa6d2127bef01afd769f39f1e9e88ed26dcd67e1afcf180830fe1bbb83e0",
+    "lastmod": "2026-11-13",
     "navigationSha256": "3c4dac9e43fbb14a96819beba213e57b79c846edbbb4e6e7d3d7e6e07da200b0",
     "proseLinksSha256": "453379919f2316d2cfc7a4d36fd8ee0d3320b70c8068e4cc12af0f3ffd8aa2d6"
   },
   "/horoskops/svari/": {
-    "sha256": "79c5723d3c0c8f6f3d7acb0a5e335fac7c8396b04890d8d0aac8166a6936ee4a",
-    "lastmod": "2026-11-12",
+    "sha256": "06f31603a7890456963a0d528522d3b247a75831045a8a4907a4928e90c22ae6",
+    "lastmod": "2026-11-13",
     "navigationSha256": "bd628c3af6eeda0e5d4cc0edcd8a00afa208f46cf145f75976434ca90e6f2009",
     "proseLinksSha256": "062b189f82b401763c3fda96cee3d17f41947f8acc128bcdfd5f96899f51d7ec"
   },
   "/horoskops/udensvirs/": {
-    "sha256": "f7f05f9ac8bd473ef7f43660c97adca0e66b675516236a68d1dbdb36f56dcc13",
-    "lastmod": "2026-11-12",
+    "sha256": "c401139034541cad026c793bd61fb0ee529189c5bf88d74525b894d2db9f9344",
+    "lastmod": "2026-11-13",
     "navigationSha256": "dc183c8b5eac47a5cd1540eab69dbc7d7a8938408e9303e3da2f33c0c07fcf15",
     "proseLinksSha256": "2313779fe0076d4474c60ff695524fc1f407a73e8a1bcc57eba5802439dc5844"
   },
   "/horoskops/versis/": {
-    "sha256": "48ea772ce32e5074d860a081b81ad0ab5dff5fbe8dadd62b8c8e64c44340bdc6",
-    "lastmod": "2026-11-12",
+    "sha256": "a3bc4acee3d40341c18f0af3da3424d7f45b2dd5dad6c060a255ed21e5f43528",
+    "lastmod": "2026-11-13",
     "navigationSha256": "3b466aeaa82c2884832bdcdc6ff89815bdca17a212bc521090400dfa116bc8c3",
     "proseLinksSha256": "40e886bf4584cebba9c4cdb7dc2a6dde24401d86d0d294c6589fa730e2f2c227"
   },
   "/horoskops/vezis/": {
-    "sha256": "f4ad313b3e3fb8242860df6b84b7a75d080464225b5caf762f67397e6753d95b",
-    "lastmod": "2026-11-12",
+    "sha256": "3e1f2d866827361b7d3cf0bb67e6e31efd1a5bb711e80f57fe8b2800778e60fb",
+    "lastmod": "2026-11-13",
     "navigationSha256": "ff197fed50369a119163cdb8ed4836f3747f2363ac70d5a732ffaabeefa8e689",
     "proseLinksSha256": "ca1752dfb66539e494e965b552b3ee0921ee5c192795bbf872b769b0f6902ec9"
   },
   "/horoskops/zivis/": {
-    "sha256": "a2289e597a25b4a3ad6cad71287dd1387f5370430dc1bd196402aeb5190e4ede",
-    "lastmod": "2026-11-12",
+    "sha256": "62b01ef74d7b1f9094cb72ec105a4202ed3178263aa8f66bc15b13e83ad96cb6",
+    "lastmod": "2026-11-13",
     "navigationSha256": "c3f8f70a419a498b55064eed55f349bad367a295050f7ef63de69a80d3d1fb49",
     "proseLinksSha256": "6ca14a1c43194ee7f339f36597cf7f4c48e375c2bbad25be731094f9fe465cae"
   },
@@ -1476,500 +1476,500 @@
     "proseLinksSha256": "82b7104183bd7816e4e22f730de42af676b3fbaffa21d9b1161c036314cbe044"
   },
   "/meness-lekts-un-riets/": {
-    "sha256": "259a15016a7afefd23856f367f9012ebdade912effba2d44abedc5ac80be8df5",
-    "lastmod": "2026-11-12",
+    "sha256": "4158e419d0b665a740e815288a2a4fd315455afadf83e91c96f84f48ec2daffb",
+    "lastmod": "2026-11-13",
     "navigationSha256": "8092ed717d3aa8dbd8b4062e3b0c69d56982875819a0edf96183d7e95a3c8c9b",
     "proseLinksSha256": "7835ab2efde2b22b6405ad340d00cb7ca79c1783471248c5ea0add996279bbb3"
   },
   "/meness-lekts-un-riets/adazi/": {
-    "sha256": "d087972da3377c91fc18b803a254338fb20f25f3b4e6f7e8832316b1d98d3f4f",
-    "lastmod": "2026-11-12",
+    "sha256": "0fb79ca077601dc364ab2607ee2e3c1b9e2a33f64e37fcf683471c953c5273c5",
+    "lastmod": "2026-11-13",
     "navigationSha256": "c981312382196b19db5b26161e598f5d5b8ed6f285b15f5b5c9611e0615d9902",
     "proseLinksSha256": "18d6b34a0789fffa0b6285e021634c97d824a4b69117d406f1385c56a9465eca"
   },
   "/meness-lekts-un-riets/ainazi/": {
-    "sha256": "1dd361452303defcf0c7e4efd5bc7337d6cff67932070335db2165c1d355a1f1",
-    "lastmod": "2026-11-12",
+    "sha256": "2eb1dbc26f9f437a0b984d42e6fea05a4f15d7ce23726c1b8561b582630ca7e7",
+    "lastmod": "2026-11-13",
     "navigationSha256": "c3304e009a07acc1a5a2aa6243184ebcc941c1f9d128846c98a8cb2729ebd355",
     "proseLinksSha256": "274ad66ca3c7a9cefdabf84021a264b02a7a376505f54c5a3fcb440227d8bab9"
   },
   "/meness-lekts-un-riets/aizkraukle/": {
-    "sha256": "52e608a360fddcfacf42959533598f5267dc7662152349af0110bd4f4aa5f592",
-    "lastmod": "2026-11-12",
+    "sha256": "1ccbc6a494bb0c0b1559c1a38a340f59fa53a3b9b9e972f9477e3e01369a5c24",
+    "lastmod": "2026-11-13",
     "navigationSha256": "91a7749c67257ca67f19a24addb0c3b0012c9be0ed16199cfee664791ee93462",
     "proseLinksSha256": "1a38bcd1a43c8db0025386555566a49158e3026cc088795f8b4f92ab76c44e08"
   },
   "/meness-lekts-un-riets/aizpute/": {
-    "sha256": "bf5020a40ca175a758f98beea9df0cd2f7e459dc142c3b4bb612a11d611ab9d6",
-    "lastmod": "2026-11-12",
+    "sha256": "bc23f3be052f29912ed806f398272b4c505b4b86388d937defb4574d1f9479a9",
+    "lastmod": "2026-11-13",
     "navigationSha256": "163cc0b20836e7964ebdcaa60b2dfa7f05949e10aa75c4e8cfa21c828ae92e3e",
     "proseLinksSha256": "a9584798b53e316ac841053efdd1211f6fb422c11f5188a96e1b282216e32fc3"
   },
   "/meness-lekts-un-riets/akniste/": {
-    "sha256": "e7e73fac7f2735e4d10363b80e0600cc603dc64d3b0089b1f7c179864d1f5dc2",
-    "lastmod": "2026-11-12",
+    "sha256": "002473cf617a36019e4900197eb66d5417b02edba57fa87d70b293839ed4513c",
+    "lastmod": "2026-11-13",
     "navigationSha256": "0a81ff69be8e2df7627a12ab4d9a999684a5507b9347de2d4d40719fa9564896",
     "proseLinksSha256": "67801bce182fbd1883a6d72bfde6ee1ab95aeec48da9e44edd4790fcc22b6f1e"
   },
   "/meness-lekts-un-riets/aloja/": {
-    "sha256": "727804b9d9f04e7b1f5efabf38ae27906db6684c18a1fb927fc8fc3cb4dd8bac",
-    "lastmod": "2026-11-12",
+    "sha256": "e211e388e470435dc533b50319ac70d626c0767b448a7f483bcfeee062512324",
+    "lastmod": "2026-11-13",
     "navigationSha256": "3f9b307660bb5db9f962c077b18b655531c4daf58763b12ad8a34dcb1efa9bd5",
     "proseLinksSha256": "12a50933bd9810cb41442b499f49a5e9d1a966af41fa2e3f47f6b59265714733"
   },
   "/meness-lekts-un-riets/aluksne/": {
-    "sha256": "4ebe0ffdca710046e1125ef0557935363c7a7feaa26e1f4e0914f3e2e0e84548",
-    "lastmod": "2026-11-12",
+    "sha256": "6623c73eb2ffeee5711d01264a54a848a6feb83d2b43ab6962b055e428b915da",
+    "lastmod": "2026-11-13",
     "navigationSha256": "f67a660b41a8f2e256dd7c8d1b72bfb66fe016c5632e3188b679ac210a76ab41",
     "proseLinksSha256": "f475f4f884d0a55a516e7eb0ef16c12e6854f13da0032d33fc8de657b33ff5aa"
   },
   "/meness-lekts-un-riets/ape/": {
-    "sha256": "8c8a09966cf354549e2d753c1e04296b756371f759faf7af5c5e0911aee2ec1b",
-    "lastmod": "2026-11-12",
+    "sha256": "31e89a40cc6e621a7acd69ae247bf407a07a740696abfe8972df7ce6621b736c",
+    "lastmod": "2026-11-13",
     "navigationSha256": "2de6e1f8ff265b1501624f55e5e5e486bfd59feb41169eff417ade172f7f64c9",
     "proseLinksSha256": "76072b53c5d7eaf3babd2ef314fcd71ee40d3184da549d5bd2618da2a45bff32"
   },
   "/meness-lekts-un-riets/auce/": {
-    "sha256": "992956528be1bbc93f9149bf5d5c0689887aa441d5a516beb21d0a90ed257e7c",
-    "lastmod": "2026-11-12",
+    "sha256": "73c48281ada3a68bbdde60570b60e4c21ca6c030480637d3f171413ca15e4aa2",
+    "lastmod": "2026-11-13",
     "navigationSha256": "fba83bb0d963f51279c5a328fbbbc137fb94eb467847596345257f8ef4c3971f",
     "proseLinksSha256": "2b68f6250b33d484a3ecd384d3fac2a7be469cbcbbbb5858bd04d1384cd64d09"
   },
   "/meness-lekts-un-riets/baldone/": {
-    "sha256": "c708765833b24e9856ddb0a36db4d560172e197d8f4d51a578bc3e59bb84aee4",
-    "lastmod": "2026-11-12",
+    "sha256": "5f304237e316725886d3ce77b8175d234abc4a3b6b88fcb55a1db0bb63eb73c0",
+    "lastmod": "2026-11-13",
     "navigationSha256": "efa5e5974fd4774e42224c1ef6c8759ce6c23efcb68619463c65f3aaa06e2adc",
     "proseLinksSha256": "da77eb00f936de045a12b101bce24d225f327712ba03cb83a930cae69bec0bc8"
   },
   "/meness-lekts-un-riets/balozi/": {
-    "sha256": "9807d95f2a1bc43eb0d53f3e10ed5b96404509445afc3925328527de232ebdf4",
-    "lastmod": "2026-11-12",
+    "sha256": "0728274e72f58099c8b3d18aa31cc06d89d9911ccde801093b7adef945a83eb0",
+    "lastmod": "2026-11-13",
     "navigationSha256": "35e0d14b8592dd76baa88c3e99a711958f47c28a8594893ba2d2f7dfce3f9553",
     "proseLinksSha256": "49fb55c250b7e6c78a634f879a7e464b037d85410fab873ffc72020419415569"
   },
   "/meness-lekts-un-riets/balvi/": {
-    "sha256": "1fb0e18873cacf157a44df537afda34c8d16370c6edfccc5aa121385570682f4",
-    "lastmod": "2026-11-12",
+    "sha256": "4228d2d651db2e4b6268b8231a91b97422a1441c0451e1a00d8d04f0212bcd26",
+    "lastmod": "2026-11-13",
     "navigationSha256": "00be97306faab012cdf7e80b946f4029a2fa29bb2ba19009798b42d467212fbc",
     "proseLinksSha256": "10f495da2b2d392a9fa8fccf475b0ef4f807a1b249dbdd0e05645b3ee6edb199"
   },
   "/meness-lekts-un-riets/bauska/": {
-    "sha256": "0030a25f3e75905760118189b3cb60831493d47a833d2b96ea079ea6bc1052dc",
-    "lastmod": "2026-11-12",
+    "sha256": "c09a8e65842fcb19cbd12774850db600d54fedd85ef48feecce43cdf26b15b69",
+    "lastmod": "2026-11-13",
     "navigationSha256": "2b597d435d18a8a9386d50b00ba849addf0c827310477bd0ab83a49c7f9e6eeb",
     "proseLinksSha256": "41daaea5618db4765ea23bf0fe863cb4bbf4b87f1e03313e7c6dde4802138c7e"
   },
   "/meness-lekts-un-riets/broceni/": {
-    "sha256": "57f888b82f9b27baf5bb95ee8608ce768489b08d06b7c4cb1b768374ed02ff3f",
-    "lastmod": "2026-11-12",
+    "sha256": "af3ac19bdc0fcdc081083e7f1eff33218746ad325502e3eec4c68243cee9f557",
+    "lastmod": "2026-11-13",
     "navigationSha256": "dcd22254d916850c4f6f43e7a03c062ba45f1fb92ad7ab1371718fdddb6d21c8",
     "proseLinksSha256": "1ad7f05873d81fe9a2b2069ae7f872b68822c8ea569b3929428301bd6afe6660"
   },
   "/meness-lekts-un-riets/carnikava/": {
-    "sha256": "855b4c79bbf64f7d6f79486b51acc2f787398b4fbccf200a6bbf835a702a4fef",
-    "lastmod": "2026-11-12",
+    "sha256": "1a412e8675141592901415890827c4dbc7840514f828c829edab7baaae058a26",
+    "lastmod": "2026-11-13",
     "navigationSha256": "72f303f9d205a51ab480648ff5ab321101da17eb2b82d20e80e69dd377ebad63",
     "proseLinksSha256": "ceca79b933e98bc7ff54972104d9bf249de5b6ca28d74fb58dc168f18b5978b2"
   },
   "/meness-lekts-un-riets/cesis/": {
-    "sha256": "a8fa5d84d831d95ab9254b6c46037fcfdd661d18328baeb1d2c7c1f7b9da4356",
-    "lastmod": "2026-11-12",
+    "sha256": "ce0817f8df0d4b65f4e5f5391a9a9b6fbc884feca2ff7ddc0bafddb9fd83cf06",
+    "lastmod": "2026-11-13",
     "navigationSha256": "02ab0808fd34f4390703e19880d2f4ce607f7fe956794d3ea793a02e720b4c4f",
     "proseLinksSha256": "6913247eb4d5fad9d46539b32fb8f1cbbdf09428effbc40c14bed5b746e156ef"
   },
   "/meness-lekts-un-riets/cesvaine/": {
-    "sha256": "6305ca63079935571a4ac6913981f4a7bae88d2ad9cf9c6f515ce3ee880996e1",
-    "lastmod": "2026-11-12",
+    "sha256": "92601ff3307365094189f6f871abc0bf6417cff4459855450426a1f53093aae7",
+    "lastmod": "2026-11-13",
     "navigationSha256": "7a7435dc198b149b98622fd5130af2e5cfde78b71f90d7c94ac10f4d548d6cb3",
     "proseLinksSha256": "8550ef2b14739319873abe0851d300578f1aa400ff0ec4534c51bd5485657aa4"
   },
   "/meness-lekts-un-riets/dagda/": {
-    "sha256": "01f95c3863596a80468d384cfa4c1f22655ea40dd92a0e9ab832eff6a61909c4",
-    "lastmod": "2026-11-12",
+    "sha256": "6e4e28e3db662565911e6b6aab6e95e7dc80acb26acf9f5bd820929a41850ebd",
+    "lastmod": "2026-11-13",
     "navigationSha256": "5461df6344db55985f6905ee5b65c5e6df89152eab3f8757f6c0422eb22a7e50",
     "proseLinksSha256": "b6be1d99b9e6d620a21e6641ee22ad69fa81fde69cdcdac1dd6b676167e60a5c"
   },
   "/meness-lekts-un-riets/daugavpils/": {
-    "sha256": "79b4e86da5f7fb972a3acaa8f87e4dab7bd2ce3bdff63861d2d3c2b13a48555a",
-    "lastmod": "2026-11-12",
+    "sha256": "73886632beb60f953739c5f650f7d7464f99b92bd977bf1d2b0b49f2d522a973",
+    "lastmod": "2026-11-13",
     "navigationSha256": "1640c5b461c211f1c07dbd4ea6e8b99c3c8508efaf44d4992732d4063f9daeb5",
     "proseLinksSha256": "058fc9f8f0396c4bfcb2c62cf488206b51fe16b9ad804ae9ae8400dc8e403758"
   },
   "/meness-lekts-un-riets/dobele/": {
-    "sha256": "d47ef75ff2e24b742a6d5627b7bf08bc298806a2ed9ccfe08232122a3b7af66b",
-    "lastmod": "2026-11-12",
+    "sha256": "02d1ac252324d55d62bf24d8a8b71165175035ac12de7986fa7fd65ea8ec9b38",
+    "lastmod": "2026-11-13",
     "navigationSha256": "1980a31f2a86d7af55e0e9be62c57275a78806300e6f4d7dcbaed4bca44e1381",
     "proseLinksSha256": "5d70a85b006382f10fb08dc1fa229edbdac3f7de57af566a2588d863b5844bea"
   },
   "/meness-lekts-un-riets/durbe/": {
-    "sha256": "ba38108d78779ce84999e4c9246584131de80e30f6016cb3387fb18168aaec8a",
-    "lastmod": "2026-11-12",
+    "sha256": "109859c819c1371aaffe1f287b7420193bdf438cd176267c6e1ff7c976ef40e7",
+    "lastmod": "2026-11-13",
     "navigationSha256": "6cd481a95705eb41c5218355dd97a60d20eb70d9847d253e2120ad4017488e58",
     "proseLinksSha256": "bd306df3df76d2b4d6ccfde89bb4d8aa31da3936dea2ed745254662606386342"
   },
   "/meness-lekts-un-riets/grobina/": {
-    "sha256": "fefb7d39d87e070be14d97e5f5b7a9e9ae2cf2d1d5339a0104f20f5e19139ba7",
-    "lastmod": "2026-11-12",
+    "sha256": "778a32034f99ec6191f6a2bb01cb8fceec69aab3ac39d36df804103c185e1d34",
+    "lastmod": "2026-11-13",
     "navigationSha256": "7c24de7f0087e4e3b03404fa362b9a94890ad2dbe755525738f684d68baedfb9",
     "proseLinksSha256": "d9f7499222e4c557b97aece83d6e4d7880e40673761ffba42f0ef65a86a9f0d9"
   },
   "/meness-lekts-un-riets/gulbene/": {
-    "sha256": "86b34e56c28ed82239e2278e95a5621793d63fe570f85e2c24b9eabd507d5e6f",
-    "lastmod": "2026-11-12",
+    "sha256": "3d966f47f06761338f91fae2ce219f46ed836c44c41266ace8822596700811e5",
+    "lastmod": "2026-11-13",
     "navigationSha256": "4dc2c7084150d21ca88b72335d03c37e892a472f308da16ff1e01b9f43205005",
     "proseLinksSha256": "f756e18afc8e10d7a4435eac8fb60514fe314f235a92da9bf8452be6acd6399c"
   },
   "/meness-lekts-un-riets/iecava/": {
-    "sha256": "84c862cba51e9228cf779de76ace688fc4473e2aa8d3d73a291117ad4c52b9e9",
-    "lastmod": "2026-11-12",
+    "sha256": "d17f660ac7372c30c33161805336cfa6bb524f1fd4e4bc4486ded0c4992fe37e",
+    "lastmod": "2026-11-13",
     "navigationSha256": "04acc22104cf82d8245c83d112fc72a7c6caa0e9f08dbd18a06b3d0527a6cbcd",
     "proseLinksSha256": "ac8e9deac3000fcd8c9f0256cd55d0349593c6d0bac5957273326517125f3dac"
   },
   "/meness-lekts-un-riets/ikskile/": {
-    "sha256": "48bdb504992ba75e392acb364b4b92b97d4263959d0ef70a39365db461285fa5",
-    "lastmod": "2026-11-12",
+    "sha256": "9835db9be08a9a7c0013ba9077a50c3138be71ca1fd2184616c5ed17565523fb",
+    "lastmod": "2026-11-13",
     "navigationSha256": "32f7de69149c098ef652dd4497bebe0ec73a6afe11bfec27575c45eddd0b056f",
     "proseLinksSha256": "fb3c3f334d76d72d397cddd0aaa63bdc6db7e1289fbb698f32abaa0ba42a81c1"
   },
   "/meness-lekts-un-riets/ilukste/": {
-    "sha256": "ce30018d0fb736ad3005bbfc50d537a7781cef480cae1bc4f03542dbc053194f",
-    "lastmod": "2026-11-12",
+    "sha256": "2f439567609db1f5231ce4dc69fef1816d53f57806605bc22409a74d1f801a0e",
+    "lastmod": "2026-11-13",
     "navigationSha256": "5e46aa0be36a24811152ab5171d65299a64b4e73b25182acfc87f4e070198efc",
     "proseLinksSha256": "11074da3d176a627e8c30f7115ea2541e8d07a81ff91b8ee1c0fd0dd9fc8ef90"
   },
   "/meness-lekts-un-riets/jaunjelgava/": {
-    "sha256": "8da00bad7f1b68dbaaf842d0cd447794c48938302175d99b685b9b0f1fca6070",
-    "lastmod": "2026-11-12",
+    "sha256": "bee1e4ea07603079955a02b14259e6764ddafdf9c523e20ffd3ca3826aaa5ac1",
+    "lastmod": "2026-11-13",
     "navigationSha256": "d19896d73a27d757f0e985533ef0efcf30410d926aa22c396781652a374675d6",
     "proseLinksSha256": "2131961cf05f4ad4e6ade11b1dedbb99eb094b31d81ba697ef868b530a358a9b"
   },
   "/meness-lekts-un-riets/jekabpils/": {
-    "sha256": "863646e8efab6a8f72f14d4eabb9158849b73d62a5d101db80e17536c3df03e6",
-    "lastmod": "2026-11-12",
+    "sha256": "dc7ec9bca495e9d918dc995ccc7a808beb273003565f9dab609000f403b0d081",
+    "lastmod": "2026-11-13",
     "navigationSha256": "d19978cac0ccef048185d9087dbaf936d4674c6b4e363f8c77709585f873524d",
     "proseLinksSha256": "067d881a877436e007a8625183df0411d5e86375b135d3b529639252754228f3"
   },
   "/meness-lekts-un-riets/jelgava/": {
-    "sha256": "499ca1fb237154630099c514723fb6bcfe305fa289d0ec82b172a772b8796603",
-    "lastmod": "2026-11-12",
+    "sha256": "8e1bcd991d68396f8c7fa1d1de4f0b5a754837f4267d43aa10c3c769227198cd",
+    "lastmod": "2026-11-13",
     "navigationSha256": "710aeffb689b719a1b2e9646d8e794614645033917965ced969a03549c577cd9",
     "proseLinksSha256": "e0568177a0fb5ca2ab10e7faab7b0a593b737afd94eb711cbc68db411aa6a531"
   },
   "/meness-lekts-un-riets/jurmala/": {
-    "sha256": "ffb272f8fb019adb0b6122f43b5cd08ade41f7e7462d00fd20affbb929903664",
-    "lastmod": "2026-11-12",
+    "sha256": "ff8678e982926f602ab76b442f43eb57aea903200b1739dc8b1ca0f7fc00e58d",
+    "lastmod": "2026-11-13",
     "navigationSha256": "4d5ad3d37b0aed19d887188a160f6c89044c2455f925612d2082762a9dcb4f94",
     "proseLinksSha256": "a8376cba58fca51e407cf641fbd4df1d0a4e61e3234153646ee3185ed634daec"
   },
   "/meness-lekts-un-riets/kandava/": {
-    "sha256": "f53d10add1e691e57e84440a64b76c5a9240a19417d153026a1813fe22ff3f5b",
-    "lastmod": "2026-11-12",
+    "sha256": "37aa22b6b6ef90672c5872590c57c31840368eed88f467d46cd5facbdff0599f",
+    "lastmod": "2026-11-13",
     "navigationSha256": "fc0807be2b10fc64cc50d6b2539c3f4b66b3c139c87bbfb20accf9ed2f1a3c28",
     "proseLinksSha256": "d9505b52b4a5d4cbd4eb7a26255ef9825f4bdaba4fa335aa0491e2b7e0a4b048"
   },
   "/meness-lekts-un-riets/karsava/": {
-    "sha256": "a559d28b230ecca66c335f2fab2e43bab920fb60fa0594adb1e5cce14a6f86ae",
-    "lastmod": "2026-11-12",
+    "sha256": "0f409decd701580538c02c7fd8b12c9b5b4e7bf0123efc4bf775741415f01d48",
+    "lastmod": "2026-11-13",
     "navigationSha256": "ed29332db0fdf5cf2afad641e3854f8a241b914009c6de2bdd4c8ad25909bdfb",
     "proseLinksSha256": "84763b3317bc465962ba009c07810afa641af7eba805d56c52b6195a5245f691"
   },
   "/meness-lekts-un-riets/kegums/": {
-    "sha256": "43af8c27cd9003351c118ba5af0ee4700fadae49b5d10bf0d46f0436233f32c2",
-    "lastmod": "2026-11-12",
+    "sha256": "707d465ea8c3fed9023df55d86468dd2823bd4044e96a311108a5441edba14ea",
+    "lastmod": "2026-11-13",
     "navigationSha256": "c123c67285838aa7dd6ef6bb668c05d65e87b709bf54a2feb9a62a7b4be255ce",
     "proseLinksSha256": "3ba8c380ae1c881acbf201d737ae060e426cac11e57dbb073ea88db131141ded"
   },
   "/meness-lekts-un-riets/kekava/": {
-    "sha256": "ecf2012a9ea75afbf5664d61ac3f4010bd131448422dbc6b11d6232d179c522d",
-    "lastmod": "2026-11-12",
+    "sha256": "85e2b835349033357ddcf0f9023bb7783a79785c4676d696a31303caf48931af",
+    "lastmod": "2026-11-13",
     "navigationSha256": "4a3a6ad9b7e85503cb7ef033398e598d66116cffa7de5d7041a0b2a44fb16617",
     "proseLinksSha256": "c5b627a2269321a2291ff47df4f2063bb686712114eade675f2c6da2a7a2ade5"
   },
   "/meness-lekts-un-riets/koknese/": {
-    "sha256": "a6d72c3dfdba7dfd58c600a2aadc1930cc40950cfb27e9ec5cbc4dcc186091d5",
-    "lastmod": "2026-11-12",
+    "sha256": "4d82de91cf242a7dafd66125ad55e63124df3ded4caf850a595c1ce5b1a0be63",
+    "lastmod": "2026-11-13",
     "navigationSha256": "54f0123f9044bf91f35297d5785f85e4732bf0dcf09f322c02b85804d3a218da",
     "proseLinksSha256": "2ce355d713cf5751f34bbb2b23dd22acfa81872638dbdefd389d5f4bf0de7552"
   },
   "/meness-lekts-un-riets/kraslava/": {
-    "sha256": "25e742e6ad4d4f760004fbfadfb1f5627eeee5c6ef2a84ee00c8e2c71190e667",
-    "lastmod": "2026-11-12",
+    "sha256": "80651b8c6e44fc80d3b9bc80109c1ccdef47f65e3ed25fb894bc3fc0944d63eb",
+    "lastmod": "2026-11-13",
     "navigationSha256": "f1f8a910fe43dc80591ebeb748cdd818dc0c515aa62589fea3e25edee40edb04",
     "proseLinksSha256": "c1e751b313557a65629dce99cdb80e1b58ef00e8934b65f35e3392ff3b65d284"
   },
   "/meness-lekts-un-riets/kuldiga/": {
-    "sha256": "0e8af2d81b979c88bc0c84024e254d79175c940d3fc602f19aa5bbc4fcc98d03",
-    "lastmod": "2026-11-12",
+    "sha256": "8f506008d7b51c56c70b402432e49b091b0c71743f32ada1986fca630506ff1d",
+    "lastmod": "2026-11-13",
     "navigationSha256": "76ff84b356ed86c1c5b03da3d374fa5a4f05492a299c224c62bd05b9ad57e557",
     "proseLinksSha256": "8e991b3777b1ae22dc30e4a3e6f96e4620f20b9701d738b4ed3828d70c6c7555"
   },
   "/meness-lekts-un-riets/lielvarde/": {
-    "sha256": "02f3b363226ee68c507b0ea8f174c6068694c34f7479f6e90c2c2304d9b81a4f",
-    "lastmod": "2026-11-12",
+    "sha256": "42eff10e948b05d06d7aa3ee7a736908a903d99bb31f447dacab7ceef8069bbd",
+    "lastmod": "2026-11-13",
     "navigationSha256": "820f676b6cba4eadbc6f6862b98021f702adb45f51b234979b72a2c40837945f",
     "proseLinksSha256": "b2264e54437fe3b42c5b28d68166b9fb418650ece3f280a2a7243a453367592c"
   },
   "/meness-lekts-un-riets/liepaja/": {
-    "sha256": "b7fd776b755da3ef1e3fecbf216f838c59af55ec1a5c90258c7a81f2061bba18",
-    "lastmod": "2026-11-12",
+    "sha256": "3ac3bd33a8712c5db688b44452acbe251d308d56207543fa91202b92edd3bea3",
+    "lastmod": "2026-11-13",
     "navigationSha256": "8876375c52a7698ed15d20e541d1ab3f2314fd931c9f8cb436c5c1ed8dba62d6",
     "proseLinksSha256": "494050e0780e7fa6bee1e9c42d6e8ed89a67fba5ead75c910bd9d52e29563cd5"
   },
   "/meness-lekts-un-riets/ligatne/": {
-    "sha256": "d00007ffa8b34516c7eb72cb74ae3dff4eac239babe6b1d2617423182c5b8644",
-    "lastmod": "2026-11-12",
+    "sha256": "7327437b12d7a36eba2e93fd5e980cb553714581af6963e8e55e5fa4a4ab50b9",
+    "lastmod": "2026-11-13",
     "navigationSha256": "b4a745c2f00ca16398eae8c58059689a608b363e68d521d96870a5b00da6389c",
     "proseLinksSha256": "3ee6de7ed388d35e6a4cc5c570dab4bb5b6c5d7b101717ea8d13e7546a0805f6"
   },
   "/meness-lekts-un-riets/limbazi/": {
-    "sha256": "54ede3b0e23d0eec3f9318bdee0b241acbdd72acc59596564416656ad1e953aa",
-    "lastmod": "2026-11-12",
+    "sha256": "737f28fdb6a27530542723364ac7293a932764dd5508099f65e0b12325311dfc",
+    "lastmod": "2026-11-13",
     "navigationSha256": "42d0c3faed74cc2df5e1d3f3f5ecd0c4e80508383fa1f952774cd9e2719a9ace",
     "proseLinksSha256": "0df3af45ebcb475df2a7a8d84b34bc7bb45b444abac55f2b5457452440748675"
   },
   "/meness-lekts-un-riets/livani/": {
-    "sha256": "7750d2bc932e7365b8592d18d14d2d5ac2cd04ad62322b47af8c94189ab48cf9",
-    "lastmod": "2026-11-12",
+    "sha256": "b82e59c1d1acb96d57ad0bf70ec2c022a4f213cf8d8749938342334ea2334381",
+    "lastmod": "2026-11-13",
     "navigationSha256": "72ffb129faab0e2f90687c30d8841e8a2bc326717d4065b550a23409b509ccd1",
     "proseLinksSha256": "f8abe01ca5285de297a8b3fc5bb26d7754453650455706be260db2679532daeb"
   },
   "/meness-lekts-un-riets/lubana/": {
-    "sha256": "f44111784986570084eff0e8f32e135fcf10ef34691d986452bdc2d29cbba378",
-    "lastmod": "2026-11-12",
+    "sha256": "ad0f111ffa930563809bada8994e8353684f846cd62c2ab8710c82dce982fe2c",
+    "lastmod": "2026-11-13",
     "navigationSha256": "7a89f75c6cf929812e6d4c6c47791c39d2c178c1da5c932d293d75d016b430a2",
     "proseLinksSha256": "a842581f997fa78602187523a3bc2c57d8b3f74bb979a6dec156e53d1c688c66"
   },
   "/meness-lekts-un-riets/ludza/": {
-    "sha256": "8ad68e1f5663b0e34a7d3431afbc2c2c645ce5a2d39397b7cfdef052597a92d7",
-    "lastmod": "2026-11-12",
+    "sha256": "9233aada86faa6e78a9a2069d96180bc67340209365e67c5fce2b7a8357998d7",
+    "lastmod": "2026-11-13",
     "navigationSha256": "ad583fc79c6bb7cefe0b4caf86593327d97bc10e5ece1b91bb8c57ea551fd64e",
     "proseLinksSha256": "e86686d8939a68ba6060b8116db731c1267b3676070e8f93f2245a57aefd00d1"
   },
   "/meness-lekts-un-riets/madona/": {
-    "sha256": "ee4b8e86e8dfcaf4f80fdd0a2a959362254a14fcf497a8ab3514d1d342e7fbaf",
-    "lastmod": "2026-11-12",
+    "sha256": "43dc4b5340baec3d62265087ea04e996c83ee27504e9c0439d90240f0b1eda43",
+    "lastmod": "2026-11-13",
     "navigationSha256": "c7f58a8089e99574650b2b00effa805f21d744574e83f8d0f0bcc4d86742a17e",
     "proseLinksSha256": "1f984115ba0f6a193b7b5b33d12ebba80568ff4c36dc163678e6686b1e44fbde"
   },
   "/meness-lekts-un-riets/marupe/": {
-    "sha256": "d012833597cb8f77bbd2fa78feae88b7821f99a0a366ae6f8826ec6f2c052ea6",
-    "lastmod": "2026-11-12",
+    "sha256": "d961f9d2a199f9eaf9ee0ce708db4a6556a01d32df9820181d9bf3257a991214",
+    "lastmod": "2026-11-13",
     "navigationSha256": "86e2fcee5b49c65254ee79dfc38b67ec6e40fde31b27738b5cacf8f7b7cbd45a",
     "proseLinksSha256": "856638f24dddd34ef923e1043c8da57228bbb47a392cdca365a7a67847882591"
   },
   "/meness-lekts-un-riets/mazsalaca/": {
-    "sha256": "19f64965fe96d422ed4471e1ce397791bdc92eb6061bdeb969096f260e7e49c3",
-    "lastmod": "2026-11-12",
+    "sha256": "5486d4f6bf49c0fa9331cb281c200118404925cec16a33400ea1bccaab028d4f",
+    "lastmod": "2026-11-13",
     "navigationSha256": "9fb78c5d1c40b6e609ead884d34fba3a165ebefd452d374749b507e49e40553d",
     "proseLinksSha256": "05b88da9163daa6e246e4ad874d908010ca748cc0a59b7f8d2fcbe7bfa5a8c03"
   },
   "/meness-lekts-un-riets/ogre/": {
-    "sha256": "7225cbdbdba4e03eff3f89373d917e3af7a83bc98c366c3e350076021de52c09",
-    "lastmod": "2026-11-12",
+    "sha256": "c8626659cf93049abe7f1676513955728f1c1b297f5b2fb849415ef4ba85311f",
+    "lastmod": "2026-11-13",
     "navigationSha256": "8fe9f01bc822a19abe768548b6394d4a8461ea42fb43e686cfe71417c542eda6",
     "proseLinksSha256": "f633cc1b5858280284b8238f03de9addcefd392a6eea7fd2d66f88752bd86065"
   },
   "/meness-lekts-un-riets/olaine/": {
-    "sha256": "430a4ee4579a29dc6fa9767791fa3d26b3f760ef37daef5e2b87a8ebb7729f0d",
-    "lastmod": "2026-11-12",
+    "sha256": "62397318e10a2cfb9bdf4e28df59b47900c8fef7b1273f68faacb2aa8fe16e3f",
+    "lastmod": "2026-11-13",
     "navigationSha256": "0ee93a14108a04e2d655a164d27b236fd4f3276c542c44ab220133d573a9dc62",
     "proseLinksSha256": "5e6f72842d22f148d28be0446c2b138cdaca3b54d68518f37a009b05d0a57b1a"
   },
   "/meness-lekts-un-riets/pavilosta/": {
-    "sha256": "60f5c08c3a9116895a7d472aaf238b6398b419e9d1e04f501778ab7f6da11512",
-    "lastmod": "2026-11-12",
+    "sha256": "280b6be222dd46c7599f61b0c0cc3724aaf03fc64a272cf88bf89a5e448402a6",
+    "lastmod": "2026-11-13",
     "navigationSha256": "6ae4ab47deeb8528e0f312343aee3a81dee4602ddcb416d821bd747b813c1fae",
     "proseLinksSha256": "287875c6427e9da246109e8f26dd5c03ae35fc73aaa87f2a3b093826836ab8a1"
   },
   "/meness-lekts-un-riets/piltene/": {
-    "sha256": "fa9d1eaf63aac243636fae269a286b4306260925d889aac6c70fa1297699ed08",
-    "lastmod": "2026-11-12",
+    "sha256": "678afcd1163cff9af59429c5b05a54860f59c2d063e7347a2304a1c40de9bb26",
+    "lastmod": "2026-11-13",
     "navigationSha256": "7f16ec53c1f1b0068ffd24c6b43d652cf8989584830b6894076a87b57a00759d",
     "proseLinksSha256": "f9eaf56c9c353d759fd8b12516979d5c450015893e0267e11fec0026cfcecef3"
   },
   "/meness-lekts-un-riets/plavinas/": {
-    "sha256": "34e47c29750d85aa3f716dd28439355690a97a75ddf1a4528b84c28d55322372",
-    "lastmod": "2026-11-12",
+    "sha256": "f32490372a8fe380ab7f04b6a777acee55b61bf05d0c4d196a6555282520487f",
+    "lastmod": "2026-11-13",
     "navigationSha256": "df2b85686fe82af6db39f39a012bc0033d399112ecf9b6ccd032c55c55812f20",
     "proseLinksSha256": "dd8b4b7d8af9925c22b4c204de6eb4969c97bf33499780093f5ea3ae955b7f73"
   },
   "/meness-lekts-un-riets/preili/": {
-    "sha256": "fa781e235d18e433bb47407f718ea22333c895b9ae7b128c7f90466c5bc8258a",
-    "lastmod": "2026-11-12",
+    "sha256": "0027fc302e6cf0273c0d1a70da649c1b03cf0160d6efab20ddacc00e925c7462",
+    "lastmod": "2026-11-13",
     "navigationSha256": "f7aedcd3827a5feabb86f0be7054da18777fe212100294fd9e6d08f4100f7897",
     "proseLinksSha256": "022fc92b840c6c5e08210a2daa022076cde2bc2c384fc5392eb3e7fd966f48d3"
   },
   "/meness-lekts-un-riets/priekule/": {
-    "sha256": "61d77327550c9a7efd15ecbbd55e5f67a4739439a6bfeba798bf61b0b2c3a68c",
-    "lastmod": "2026-11-12",
+    "sha256": "9f82200d1bb1d4ae6f97a879b6621ad428ea6e935bc128e379c58a6aa456828d",
+    "lastmod": "2026-11-13",
     "navigationSha256": "da1dedeefdf7fcadd3f6fc7c034730cca180b9b48675f6e0c5a9e718c2ae7034",
     "proseLinksSha256": "66bfa50e8d4a7679886f1506fd613d44bd5ae2c36c1bbb266ff18b8cfc023a65"
   },
   "/meness-lekts-un-riets/rezekne/": {
-    "sha256": "ffe59d73cb5965475ce91b232fc94a40a0f895c0ba6af08fb243da48c0d7987f",
-    "lastmod": "2026-11-12",
+    "sha256": "7a702a4329d21ee8288f9bf196aa64cf9d12f943ab6da1e8009e5015311df295",
+    "lastmod": "2026-11-13",
     "navigationSha256": "cb7df23c3a705783dd5e49e8c8a135fba3fee83f3ac3749bfc8c6df8f38002e7",
     "proseLinksSha256": "5e59b644426763661dc023132bc8dd137cd3a3efbb3c3af3c389160951dbd0eb"
   },
   "/meness-lekts-un-riets/riga/": {
-    "sha256": "e8453db919ca63c2f71a57eaba30a7f8c19d8c4d5c2823f706b50a1dc7533252",
-    "lastmod": "2026-11-12",
+    "sha256": "3a01f67b7265735f852c83f0790adbbf3039c0adb1bdeb5d48d54c6104d10c5b",
+    "lastmod": "2026-11-13",
     "navigationSha256": "98592d7b24f816500a70e9ea4ea9019b19b9f6b1e09346829e1c7e6515f77c39",
     "proseLinksSha256": "ce2cc85ef44acbb1e59cc8f0c2fec28b50cfda5b5b3ab926973b7098fe099473"
   },
   "/meness-lekts-un-riets/rujiena/": {
-    "sha256": "371be026c771442351a8b1ef8ca0e1d799ef113db3b140c6b8ab80044276427d",
-    "lastmod": "2026-11-12",
+    "sha256": "1673c5e4a3780487884a0dfa2bfe661a586908ff1b59fceb4839141b920105d1",
+    "lastmod": "2026-11-13",
     "navigationSha256": "d46f7cdef1e6f1a77e55aede312d14b69fa0fbdb29de1163ed012c2a1e3acb3c",
     "proseLinksSha256": "b737e1101c162fb51fd84ce3cdc814ba839865a1ca432c14e5bd2a2f8e495a96"
   },
   "/meness-lekts-un-riets/sabile/": {
-    "sha256": "d2cdfafdcb9665c5e2c98ae04cdcef8ffbb8587980f0acace544618dfddd2ce2",
-    "lastmod": "2026-11-12",
+    "sha256": "891d83d1b2d25f3e04c9d673ce38eac4b9214198ba04ee6c0207e8174e7f8dc7",
+    "lastmod": "2026-11-13",
     "navigationSha256": "fadd4aa811a95757ece176459a6795fe8a42f1c03bbfdcc3d6eb4e90b0a50fd7",
     "proseLinksSha256": "08c0cc3b7b4d3b24b5fe0937fc55d508a11970c8dbcf1249aab2f99b83157c4d"
   },
   "/meness-lekts-un-riets/salacgriva/": {
-    "sha256": "c94d6f2d60de68f9b238e4d51f41a16f0684c8d3cd6ad63d486fad679ca0607c",
-    "lastmod": "2026-11-12",
+    "sha256": "4facf1cca71ca7f1eacb3b46511fd5a69fe5316d0083363ca747654732d7653c",
+    "lastmod": "2026-11-13",
     "navigationSha256": "bb28d250e1c874486819ae7ebbbadc01c812a8ba112abfbd331fcc7f98d31029",
     "proseLinksSha256": "932d482338bf9307d6be9630ccdf821ea8824010b8361e143dcfb01d87592838"
   },
   "/meness-lekts-un-riets/salaspils/": {
-    "sha256": "19ce6eec8aa041a1303516953e864dd0193dda87c05bf0d59e63e68e464de720",
-    "lastmod": "2026-11-12",
+    "sha256": "ef5f844cbea64a8a3e8e04734e762362abc2909fbac9251c7f4eaaacc1411b77",
+    "lastmod": "2026-11-13",
     "navigationSha256": "f9a7de224a111591e83ed8e8faac9c352ed32df8c2499a736d14f9e13e0e3e37",
     "proseLinksSha256": "74b6a4a1783784f33c3597cdc055c2ea19eededd8d960492bd28fe805c150bf1"
   },
   "/meness-lekts-un-riets/saldus/": {
-    "sha256": "488705e76c2e7f4c89c4d27d0acf5fb7d5c00770620755017274d07eba66e195",
-    "lastmod": "2026-11-12",
+    "sha256": "6715505d5f524244dcddfcf69d5836ad352ccb8d90c6410a58c0890782190cc9",
+    "lastmod": "2026-11-13",
     "navigationSha256": "1573ee995f1b9971914913d86655cbe2f338d5c3d2462de0b0857cee6c559320",
     "proseLinksSha256": "4661025441f93b1d7daa4c521b9f4d31ac087c68fd222cd8a0b9938981d728dd"
   },
   "/meness-lekts-un-riets/saulkrasti/": {
-    "sha256": "f63472e85a624f0c0b5dcce276a66410698b0545d22f4d88947ec5b23bd704a3",
-    "lastmod": "2026-11-12",
+    "sha256": "740bc12d659b67d0518e959bcb0170ceb067e196f45158e97b391c689e652416",
+    "lastmod": "2026-11-13",
     "navigationSha256": "73be230eb8c97942c9fd0f89049bedb5ba3d55ff74cc5801ca294b810ef03050",
     "proseLinksSha256": "71615c8a864b4aca77afe9743259fde8b628e1a34b74785a1efdf6283c5440c1"
   },
   "/meness-lekts-un-riets/seda/": {
-    "sha256": "aa9fe1f28ba104df3bb0767f7c23ed4288fc3280abbbcbd0603114e04a5ab1b9",
-    "lastmod": "2026-11-12",
+    "sha256": "65d23d66b230e39d26374f21bad6e18803e5a52fa5b62a88402328236d566c32",
+    "lastmod": "2026-11-13",
     "navigationSha256": "86d4ebebb9ff85ea6a0358e8570efc503e029458fb6a63d5455f200873efcf83",
     "proseLinksSha256": "e81cf411c6a0d7f584a142c2488188d79994749c4caacc0dab7126eb7024d743"
   },
   "/meness-lekts-un-riets/sigulda/": {
-    "sha256": "f648239862fd7920d4bf21ebb982403f6599ea6ddbd7ab4590d31b0d82df36fc",
-    "lastmod": "2026-11-12",
+    "sha256": "71f73e446510ed2cd984928427cb8c2011a3a523d09b1427e2578ec5305e87ee",
+    "lastmod": "2026-11-13",
     "navigationSha256": "1e934e360c2abde041b90f19e39ae9fdda92f5192edff6fff75ce7397f8a9b09",
     "proseLinksSha256": "1b1045c11cfa53b6be7224684f1d228150b082b9949abde5bf66a252431026d7"
   },
   "/meness-lekts-un-riets/skrunda/": {
-    "sha256": "9b97f2181f8056b61259bf11de1c15ac81d2981111e3d6b31f54238b2f5dfd38",
-    "lastmod": "2026-11-12",
+    "sha256": "558594343018f67ca3728c1cad5a9531c84030eee0ca4d33868de5094e3adbcf",
+    "lastmod": "2026-11-13",
     "navigationSha256": "7685d91d1480749e9361b6a17f6f154503593fbe99d57a0e77e630cdab0b6e87",
     "proseLinksSha256": "b20d72bf61577a8eb2ebff7f93cdabaeed27f37a4fce284f6777679d597f08a8"
   },
   "/meness-lekts-un-riets/smiltene/": {
-    "sha256": "ad991af040e19eb8582dc8477748e4f7c4bf5850b1d63e654a88eeb0bbf689e6",
-    "lastmod": "2026-11-12",
+    "sha256": "ef3999a3200f9fec16663287393c7eeb965d2d2a6adc5ae1773f512ab32058f1",
+    "lastmod": "2026-11-13",
     "navigationSha256": "41202994e3c9946acda9742101afba2357ef905538c5efcaacb32f1b4f91426e",
     "proseLinksSha256": "454b61c2f113875a0669b31e430bca6f50a57b81f97fb9e60667b65fc06ff84c"
   },
   "/meness-lekts-un-riets/staicele/": {
-    "sha256": "2fce83a457325a58cc9f35a691e1c8a93b512d1d779c72e53100937ec461e7bb",
-    "lastmod": "2026-11-12",
+    "sha256": "845cf53514c3ce93c9092ee59379b6ea5dd9e589eca6e6294f47417651e785e5",
+    "lastmod": "2026-11-13",
     "navigationSha256": "4272b90c5c02c6830c0952b466cedaa9371f66531509b01688f40e0f7c44f426",
     "proseLinksSha256": "0da17bd2e906b9d2089e28fd3966136a5bf1e4afcedc45f5bffff4700877fba2"
   },
   "/meness-lekts-un-riets/stende/": {
-    "sha256": "096a5a2ba602dd1045937999b6081f42720ec203f9beee7c284ac05c64a8ddc6",
-    "lastmod": "2026-11-12",
+    "sha256": "98066220aa09d2a91ba68e54ad57da9c738299968aa39844d4751ddb56f296d2",
+    "lastmod": "2026-11-13",
     "navigationSha256": "7e6543d22ac6a996b62f568fedd7cef43c8a622aae27169efe1b46b8b8969476",
     "proseLinksSha256": "e54d1c676e15a1743e3fa844df36172e9514e64e8273343bc1f71449a531c301"
   },
   "/meness-lekts-un-riets/strenci/": {
-    "sha256": "ed2488dad2df5766f4250196c6913d38e59df95078c51e73158753e8e63a6b20",
-    "lastmod": "2026-11-12",
+    "sha256": "d469cfcb4b5e8e7bf8c6dbc8b97aa386cabd820bbc948f81322481edb2644990",
+    "lastmod": "2026-11-13",
     "navigationSha256": "7600d9dac796e91ae97321404d60a13cf7d74f851dc6c05ec4cc741e2d68e075",
     "proseLinksSha256": "33fafdfb49b6cdec7cce833645a7b88da85dbaf11b014ee9e2b8421fbec33a96"
   },
   "/meness-lekts-un-riets/subate/": {
-    "sha256": "3b14d7231e3064b767804bd460ce15522076d76bf0f44e751e667cc70ee35553",
-    "lastmod": "2026-11-12",
+    "sha256": "fe063fbdd883a81cf88e90e8e2f1ecff73820a471d26d0f8e1c1cabd2641fefd",
+    "lastmod": "2026-11-13",
     "navigationSha256": "99d548a97d7a321252773f828c0ff93e3a001b1dda96b8ed7a7521f7da43d8a5",
     "proseLinksSha256": "2915d6d48c1fb6c05cfcaaa86010f315a5291b31aca9c9ae7b12dd00c3cca3ac"
   },
   "/meness-lekts-un-riets/talsi/": {
-    "sha256": "9817223e56752fb6c343db4c691b55470b346787b06fef563829fb5eb8de2f49",
-    "lastmod": "2026-11-12",
+    "sha256": "d8dad18a8ac0f53207e9c6b8e6259960a28188bccfe52e6e0b8180455ed1daae",
+    "lastmod": "2026-11-13",
     "navigationSha256": "91eda5fa8f65a518597e6f9dc3601480687af36245c56e1e5aea6b935568b62f",
     "proseLinksSha256": "d10d42676178d5e5402ae4be5d6ddcfa0a7fa79bf7de24ebfed9e681c638c761"
   },
   "/meness-lekts-un-riets/tukums/": {
-    "sha256": "e54e80c8b6674e69216f82d8ee7e08598b6431cc7da05356f713c4939d7c4165",
-    "lastmod": "2026-11-12",
+    "sha256": "7dd0b302c45265ea63832e9abf92d69f0645acaa899a9421053e2b04696c3a95",
+    "lastmod": "2026-11-13",
     "navigationSha256": "e67df256e6bd512893305b29236ec515f985fea75b007a4dff6a668d6a3d2377",
     "proseLinksSha256": "f34496f5b48f5063e1247a4b266210d93f03b78ba78a806bfede1fa603e0ca15"
   },
   "/meness-lekts-un-riets/valdemarpils/": {
-    "sha256": "0c16d20ee041e0dc8447a96f91446d6ab3e10b0147b012b15d6343fbeaf2d0f2",
-    "lastmod": "2026-11-12",
+    "sha256": "1a0b6ac072d83354d3137bb66e7de63e1907ac6631234b8adec97c905da62592",
+    "lastmod": "2026-11-13",
     "navigationSha256": "6107c08da7c6a7cee1a9ed6703efeb3c7c78f232cb3263b759a590c2bfdedd6a",
     "proseLinksSha256": "c48cb25c74ba1035c7e73a0efaf93e04862efe19e4417a00c1a23a887b4b3078"
   },
   "/meness-lekts-un-riets/valka/": {
-    "sha256": "1d5e6a3824205d09cf2a577da43323e1df6b5d929a7d0b094f574978919e5cb4",
-    "lastmod": "2026-11-12",
+    "sha256": "cd794fa7387bac802088b657e2fa5d3a0915c9c6f97db5ee31d8260834831b5c",
+    "lastmod": "2026-11-13",
     "navigationSha256": "39e0e2a5ae5521c2a3d068cd136e1b634b99a21b2bb2947d6ed20bb66102c94c",
     "proseLinksSha256": "758c1bc3103c030c5e92551b42c1235ea7057433d26211e7f334f4ce8eddb16b"
   },
   "/meness-lekts-un-riets/valmiera/": {
-    "sha256": "6f31e92812ce4fcea144403ce5bccf5bf2c6c8da96cbe66b2c56fc7f0de68e62",
-    "lastmod": "2026-11-12",
+    "sha256": "509197b949181b58f6d7a5bb481fc6c51c026f453bd7235f1412626d37c42ec6",
+    "lastmod": "2026-11-13",
     "navigationSha256": "cac60a07cd5ae8906f443ea9d2e57aad4138d25e75283aef63ef5f3e309601e5",
     "proseLinksSha256": "b658a9cb31e733fce3a13620e61e3d7e293c5983e8ccde45414fc70cd82ec7ee"
   },
   "/meness-lekts-un-riets/vangazi/": {
-    "sha256": "8e88303fc74a433bba3d0dc4dea172bd015588425044a791b61cbffa89ddcb73",
-    "lastmod": "2026-11-12",
+    "sha256": "eca1f8399098cab330d2a1176bb06aea53d7234dc61f29142db261ed721a5a58",
+    "lastmod": "2026-11-13",
     "navigationSha256": "3e9cd47ff7985eba2063181f54c0d4d2e697e73ca207c7f0ed348c77f594d82f",
     "proseLinksSha256": "7d932e7397033f9018f9434801315e8bbc110f1aac6649ef5627f19550dff0bc"
   },
   "/meness-lekts-un-riets/varaklani/": {
-    "sha256": "5ebcd105c035efe8aace6ce9d068b692b5453fbe980aa25af187a98d4f7d6397",
-    "lastmod": "2026-11-12",
+    "sha256": "c20b6e0dc4548f974feec53b888d565b76f1fead894b429786074f2628f110b0",
+    "lastmod": "2026-11-13",
     "navigationSha256": "0c5cb7ed252c928b2094d9b4ad9a07ffefa878068393e57033e74a3367b73317",
     "proseLinksSha256": "f48f50736eda7000821d034608954c926f81b4146d43cd6dce4af4643d64b914"
   },
   "/meness-lekts-un-riets/ventspils/": {
-    "sha256": "713270e539f11ecd7f502c0fe614c277b57594e10cf3df28848d55df11103cae",
-    "lastmod": "2026-11-12",
+    "sha256": "edd9bc7230174b1ae6095b2dc2b49bf90709491d44e5dd803a761c93cf018d9c",
+    "lastmod": "2026-11-13",
     "navigationSha256": "426fd0bade5f2b1d122fc6058469ce6e3fca87b6e765b14467c01b799aa0715e",
     "proseLinksSha256": "648c17cf4aa08f333b4742b4dcb32b3098aa800ca0ddfdba4d2bb009f3702b61"
   },
   "/meness-lekts-un-riets/viesite/": {
-    "sha256": "d2565f3b72b6945d18521651e452632bb2ff868e798fa615a735ccb9c38ea607",
-    "lastmod": "2026-11-12",
+    "sha256": "fe5b5656ca893b5a02817b4ecbb60f595ce1e1c4d1ebd8adbcdec30dea9be381",
+    "lastmod": "2026-11-13",
     "navigationSha256": "fda584776f0848cc6259eab7465e9c0418b3d2f24401b1af69d9881ade1fe670",
     "proseLinksSha256": "7d79ca3ecd3c98fea95569cd00d0d0f49a1222f2bf88907f4f18be9ee0776f9b"
   },
   "/meness-lekts-un-riets/vilaka/": {
-    "sha256": "d24cd971ad5d1a455c651007fc72774286f3a3712a4a4d8d0ea5d287f91f063d",
-    "lastmod": "2026-11-12",
+    "sha256": "86a95f32b13399cfd26760361cd4e6385e4de4a5598b881eb422cc739f58fe03",
+    "lastmod": "2026-11-13",
     "navigationSha256": "1229e3ca9c50f5c38175ea7782c1d6abf191ea22eacb678011771c75eafe8a03",
     "proseLinksSha256": "e4d75247951f5ce0294a47312c3ee7a919a6f5beb953a2644153cdbac77abb73"
   },
   "/meness-lekts-un-riets/vilani/": {
-    "sha256": "14d89fbedd5c33b36904e42abf922f2b2c351725d8da5a19cb429ab1027091aa",
-    "lastmod": "2026-11-12",
+    "sha256": "9bc7ac94e838c6cb318fb77b48d81532b0922bd4dd2f54f7a04d18ec295c4d35",
+    "lastmod": "2026-11-13",
     "navigationSha256": "e1e834916998f977a9a005a958d5eacf21b123e484a80d4a9d684274ab395d8d",
     "proseLinksSha256": "8e6f2746ef62cbad56d79bbf313228a035e19aca6370010680c25b2efd2b8d28"
   },
   "/meness-lekts-un-riets/zilupe/": {
-    "sha256": "a36448969526e821808c01893033553311cc06510bd91fe4ce93b05c1ad9de83",
-    "lastmod": "2026-11-12",
+    "sha256": "b002ddfe09aa15f0012b5098982027ffc322c601768a3e486da2472b82b41005",
+    "lastmod": "2026-11-13",
     "navigationSha256": "5d9ff5f292cda4d99e4dc7fe02daeea427d4d78d497c1b4317a0f4b526b6cdf4",
     "proseLinksSha256": "724cd47ee2023008f006a93454adca39bf0393a3ac6b78c7bffe42c4953b5b2b"
   },
@@ -3642,500 +3642,500 @@
     "proseLinksSha256": "a2c3421d174f085e54d4b00b63273f40b82b2bea87ffecdd952cb7fdd8939b9a"
   },
   "/saullekts-saulriets/": {
-    "sha256": "8ea194f783067e995996d4f15d845776263036de6fbedfd6689032ba1b4902fa",
-    "lastmod": "2026-11-12",
+    "sha256": "75788eabed933cb2595cad9d212b4caa23d30489164b5c8c599772eefc11f56c",
+    "lastmod": "2026-11-13",
     "navigationSha256": "a847bfd90607984315631044fac389cc1c5a7cc90e96211f58265f22c89dfda1",
     "proseLinksSha256": "735598857a99dd5e232709fbec969b29d4f44d324ff44d71350dcf89f8eb956e"
   },
   "/saullekts-saulriets/adazi/": {
-    "sha256": "3edb79f19c5ec7b0c214f7cba4741513828e8c7358604ae1a7f3800f3dad3e01",
-    "lastmod": "2026-11-12",
+    "sha256": "3f4e984166a196f5ae54b1b49745db48da4e8bd60612c74c115b878abc03b5a5",
+    "lastmod": "2026-11-13",
     "navigationSha256": "625d2c0f81eec555ef89836230bab3f14e5d048180efa8916ebcf8e351e8ee91",
     "proseLinksSha256": "3fc39e873240ab754eecb67d9b7758b7184199a9ff0aa537c05271d17a92cf0a"
   },
   "/saullekts-saulriets/ainazi/": {
-    "sha256": "4f3d46496458e57729d35c542c45e7620a83f0f2cd79b7189dc6e1caec5f6abb",
-    "lastmod": "2026-11-12",
+    "sha256": "705ef41d470b1081ce5782098d04c4c39323f09c0d3eb28e9f4326b80d46d205",
+    "lastmod": "2026-11-13",
     "navigationSha256": "96c68095915da2705da39d5170b21e80e1934d99bec77fd14f222a23b0d4d2bb",
     "proseLinksSha256": "e8dc6666d511ff11fe0c4e0005c5b15b54e93bdc913098d8e708801138dd14a7"
   },
   "/saullekts-saulriets/aizkraukle/": {
-    "sha256": "da44d0b6f88fa5f64bf5545e758b7e65ab9adec1ce33267b7d1e9c66bccd3546",
-    "lastmod": "2026-11-12",
+    "sha256": "fc1c6e7d03ae82b69efc4af7908c105f9b7d06603039c1aac27e1e26a919863e",
+    "lastmod": "2026-11-13",
     "navigationSha256": "26036bdf027648dd9b6d461af64afdbf5cc92cc69cdc815ce178825be4d9aa1a",
     "proseLinksSha256": "8435ddedd0c9153cd6ffadc97b5a1d07f20a6dabb3a5b9eacb9ad42aeea3c9a0"
   },
   "/saullekts-saulriets/aizpute/": {
-    "sha256": "9bc4cec554e3dac3f557ad19682598527c2b8209e98aa23d30bae6d7f58b103e",
-    "lastmod": "2026-11-12",
+    "sha256": "97a6b7906a1a42c0ce5cd9b790d88b21d9298279ed3906c2c4bb2b4d0e8b285b",
+    "lastmod": "2026-11-13",
     "navigationSha256": "5fe8a7cf9d3d73052891c3f7d09c7b705d092094fb4f556db6b1a957be48a6c0",
     "proseLinksSha256": "d08da25149b200322acf930b5cf349fcc56a299379b571b3e3e71b823e497eab"
   },
   "/saullekts-saulriets/akniste/": {
-    "sha256": "826db1cae78a046892564295eb5f40c8022863ac5dfeda68262a263b2f63010f",
-    "lastmod": "2026-11-12",
+    "sha256": "bbf28c07421d610ceaac5b7fc35ce3a8cc5f12707ce670d3095a2d8ff0f05801",
+    "lastmod": "2026-11-13",
     "navigationSha256": "f93ef65f147832fba95d30d3859b8fc81d238a15b05db1fb696a0d2ba6f9845b",
     "proseLinksSha256": "ebbaf3257777cf6e8a6721ed43fac48962b504dddf5a084d5401b302920e3784"
   },
   "/saullekts-saulriets/aloja/": {
-    "sha256": "ca26549b1e4aa55d00ada1321a7fa675f34bd36e09b4701d2c9417e8d3c09d80",
-    "lastmod": "2026-11-12",
+    "sha256": "8b49d122b14c9be0783dc39b0b54f2a35e9f8fc4a4f545631d6eb8800c893885",
+    "lastmod": "2026-11-13",
     "navigationSha256": "a6b51ffb49cd42254a69ffd6c0cf266efc0646005363033177de1de6389c096c",
     "proseLinksSha256": "6d27f3528771498dfe486a13cf4c3ee3710778a8759071b1fb12e8eb8b18e5a0"
   },
   "/saullekts-saulriets/aluksne/": {
-    "sha256": "962a11c31053cccc556b1743460d6bd3f37aa1a9be9f1782ae53b030bc9aab29",
-    "lastmod": "2026-11-12",
+    "sha256": "222cabaac1991b74e976ffb452fb7f7e0073c545348c2f734767edad5ebfb868",
+    "lastmod": "2026-11-13",
     "navigationSha256": "bf7f2591b979b911cda95f79cc75fd159379c70ef1e45c286bb95ef5bc0e3161",
     "proseLinksSha256": "757742b0b7118ef2fbc691e8d7365df42cc7dc98fcccb6e5652013719b7324c6"
   },
   "/saullekts-saulriets/ape/": {
-    "sha256": "03975def20c3c131f98463024c75589cef5859b3d518fbb4f2f767c7269613b8",
-    "lastmod": "2026-11-12",
+    "sha256": "912454ab984b8b1f5bd8d8277a28f0c09c27fe23c4f14d83c8b06162282b7b19",
+    "lastmod": "2026-11-13",
     "navigationSha256": "5b3c45ee5bb23d2079c25d5bfaabd88737b49aebd1963c9e2b71a999fd0a2461",
     "proseLinksSha256": "286cd497d712434122fd093173ddd2692aa5e203a1370720cecb4d36d9ef0386"
   },
   "/saullekts-saulriets/auce/": {
-    "sha256": "1367c418dd40ab5b0981f4b78854f3c3bbfaab593065575d0aef75b55d255dca",
-    "lastmod": "2026-11-12",
+    "sha256": "46101d839570fb2e2fff968f85ba8a208f506c3ff7dac0ca51c1de5b4fc65ee0",
+    "lastmod": "2026-11-13",
     "navigationSha256": "51de074678501df70d28fc0d0dcebd01dc17d6a922bf9f1bf4a17c79a6785853",
     "proseLinksSha256": "4481e4a7e33b3b6c927d655e1deb0e0307632445fd4a7e547fd20f892b1c8db0"
   },
   "/saullekts-saulriets/baldone/": {
-    "sha256": "2afc07fde51e4e593afa28779ff10c66cdfbff5caf4c932d8fc140061b672db3",
-    "lastmod": "2026-11-12",
+    "sha256": "25bc47c67c3e8550d51d8e6cda90179783faf594371f5d4c20be7c6e004eea6d",
+    "lastmod": "2026-11-13",
     "navigationSha256": "e105129efe64ebcf86f2fd3f328cf54058731bdc51f685551f9e45ce14cba685",
     "proseLinksSha256": "e84878917580a2b1301bf51248ece4a1a31eb38963f3ece76a6aa7ff9062c6f0"
   },
   "/saullekts-saulriets/balozi/": {
-    "sha256": "430888019216af6e90a5cc1905d1aa104467304ca2878176f78b89c7cd8d30c7",
-    "lastmod": "2026-11-12",
+    "sha256": "d90bc5ac05038f6a7eb65144f18ae7430cac07790766ed9f0d04f95664baa048",
+    "lastmod": "2026-11-13",
     "navigationSha256": "f6313572e15bb196fecf2de85dce5a413638db2606c0d4293f69054e39e8d2df",
     "proseLinksSha256": "191e9f5954c0ed6cd26361cabb16935e243791354b936799907b7c52185277d1"
   },
   "/saullekts-saulriets/balvi/": {
-    "sha256": "4a32fda8574d248e3fd7fa7b60e2730a5dd5906b151b0fc4c7df64b095cfc450",
-    "lastmod": "2026-11-12",
+    "sha256": "cdc2438d641114eacb47d602ca6ccad796073e59905afa2b47e9b8494f6a5da5",
+    "lastmod": "2026-11-13",
     "navigationSha256": "8aff3549ac36627c81678756ecf1745139bc539a39260cb10c6739c39f9a09eb",
     "proseLinksSha256": "f031442ea9a0130d43780f65ee556900638fdc90c2b676d6da36fbc932aa8bf6"
   },
   "/saullekts-saulriets/bauska/": {
-    "sha256": "d25d76bb35e9f49078518b33f99f1cd987b0561cdd7164d14436c704fb4e4389",
-    "lastmod": "2026-11-12",
+    "sha256": "1b959d1569010acb2efa8a91bd4cb77d79085c3178c21e8f651e5fc6aa0bd003",
+    "lastmod": "2026-11-13",
     "navigationSha256": "2a2f1b74a57d324256b7b2f80c2bdab8135d376b2405912ec76f100fa6b9e1ec",
     "proseLinksSha256": "ad2a7e8bae64b85cbc764e0cfb559780403cf4f41d4105fe0b30c37309872313"
   },
   "/saullekts-saulriets/broceni/": {
-    "sha256": "f70e1c0b89c916893744b23d70f4f85ebdffbfacf7b6888affe3203daa545e6b",
-    "lastmod": "2026-11-12",
+    "sha256": "289be10401a3da7a423f8dad475a6d915b0cd33254f750073cb40ce7faef31e1",
+    "lastmod": "2026-11-13",
     "navigationSha256": "9bdace9a1f8a8477574fc414f50a47542b2a1908f5e7eab2ec1c98d591a9c735",
     "proseLinksSha256": "e19af46a1ea456cfc1f316410fe6c185be1967cb2377720be8387b47d4263a40"
   },
   "/saullekts-saulriets/carnikava/": {
-    "sha256": "494c1738103b76d6370e54ad1c72e5b1f32db3bc531f90a3f768314fefbb8b59",
-    "lastmod": "2026-11-12",
+    "sha256": "b265e088d072e1ff390129cf3d02e3fc0f42ab31221e4e721f2688708b25fc8a",
+    "lastmod": "2026-11-13",
     "navigationSha256": "9ead8051af57a75f8e533b7f1b6df3575651eb01baaa862f81421513386944c9",
     "proseLinksSha256": "c5df61cbbf31cd72950d215020e352d6aeeb54dca24765f3708f4334025f9210"
   },
   "/saullekts-saulriets/cesis/": {
-    "sha256": "b633558ce03c7d8d48c425e2b1c7f85de3c037c41e1135716267934fc5256dd4",
-    "lastmod": "2026-11-12",
+    "sha256": "6ac8e4670d1e55c35c3c4bb4b613203c5b4ca794bc2e02d28810f28191a51dad",
+    "lastmod": "2026-11-13",
     "navigationSha256": "7de86e43a7c4557d7123656adbc899214d40e2338108dd8a352445573cb297a0",
     "proseLinksSha256": "d9e9057061dbb81abd5ccff08080cccecdff56e584ba0d80d8ba3e5b077cda62"
   },
   "/saullekts-saulriets/cesvaine/": {
-    "sha256": "49df307242f73c1a77cebc0ffb1693a61a93d449da648d271bc11eda4542dc98",
-    "lastmod": "2026-11-12",
+    "sha256": "cb00fab9efe4a857319beed6d7c84aaa4e2e2e42079e1ae39f255225c2a5745e",
+    "lastmod": "2026-11-13",
     "navigationSha256": "a2ce9390f6dd0f4be2326d9f51642b02a2adc903d211956cdd167adb47f0921b",
     "proseLinksSha256": "3c4ac8ab6a0b0935be792ab374fca21e62a10e6ade69d6b5b0f4c60965a9a085"
   },
   "/saullekts-saulriets/dagda/": {
-    "sha256": "7f78a8b0a705e35aab91da6e10252469c4d34da63973ceb33c7b78accf126643",
-    "lastmod": "2026-11-12",
+    "sha256": "77848c6413f3914580fdb3a6977d66137c470301e0fbbb3160a3f8e1a260fda2",
+    "lastmod": "2026-11-13",
     "navigationSha256": "5a2944723a86c8cd4afed2511a8083c4a08b6fc275a790ccb644a203a47bf40d",
     "proseLinksSha256": "b0a388766d96ff0f27cc6806ab5e8761bb1cf9eee4a73ac8328b8fd7484f6fbc"
   },
   "/saullekts-saulriets/daugavpils/": {
-    "sha256": "889031fe3296cc16992471a36834814033eb0713b39f76003a7083d6d2b4b3f9",
-    "lastmod": "2026-11-12",
+    "sha256": "c4cc82407fd28e51e30ad772701dcd24af535504dc799021c8241552edcca2c2",
+    "lastmod": "2026-11-13",
     "navigationSha256": "7878bcd6a5904075ce984b92dfdd719056c9ef01c7a62f9db7ce1ae83473011a",
     "proseLinksSha256": "1237711af318d348e15ac6623c76f7e67060e643419c0ac2af14cc89e6fc04f1"
   },
   "/saullekts-saulriets/dobele/": {
-    "sha256": "bc14950facffc40df81a51634a9423b13f2c0ad961eaaf88de6d98d9b222e99b",
-    "lastmod": "2026-11-12",
+    "sha256": "421686b00fcdfa0ea106b52caf13371e196b39c87ebde66a7a7c6cd720c40b81",
+    "lastmod": "2026-11-13",
     "navigationSha256": "8496a6748df8461f0a163e2ea436d6b03f7fe53493695c84e004bd64cd932f22",
     "proseLinksSha256": "f4647e3aa68bface41bfed218b6f408d90d8277584e9a27c78cd8db8bfff0355"
   },
   "/saullekts-saulriets/durbe/": {
-    "sha256": "7d5e92b052cb43ce40640b1198ebd99dd88a25041d4070aa6c7a4d067942c9b1",
-    "lastmod": "2026-11-12",
+    "sha256": "b7aeb2147c0f36f3c5e26912942c5830f4700246a488c4c24c0a61533e3eb720",
+    "lastmod": "2026-11-13",
     "navigationSha256": "56536c7201f0f96650b2804b1de03049bb27db61c6469177b02d769ecc0a1641",
     "proseLinksSha256": "7b6cc7ca1467f5d666e0f742e937a93b9c0d41f923e8a816d23cd41282995fea"
   },
   "/saullekts-saulriets/grobina/": {
-    "sha256": "0453e3324c3ac243a400bcdb97b1ddf8eb47637403919adbdfbfec3fc39be20a",
-    "lastmod": "2026-11-12",
+    "sha256": "a1e678833e319767f637b5df0ee07df21c53f38a77e44960536528ba6c8d1000",
+    "lastmod": "2026-11-13",
     "navigationSha256": "f0a655f91fbf85a356a504e7b87ae3ea81623754f5172cacce237738315ae5ba",
     "proseLinksSha256": "e6a82160e0e27309fc3140760930711e784bf0de55a75856e6c43a95a624f886"
   },
   "/saullekts-saulriets/gulbene/": {
-    "sha256": "ee1ec75a05749ba1e718dcbc81104f9e9bb94dcbe7522ec2c62052238f016384",
-    "lastmod": "2026-11-12",
+    "sha256": "68589d7afc6e3faf35bf13d5f2075e0db466b1c1ac421e4f02d560f35bf72d75",
+    "lastmod": "2026-11-13",
     "navigationSha256": "c1cffb23565854f9aee87dd25128182f3a66f5d215b2b2b48fd17d22d5b15637",
     "proseLinksSha256": "f275f2c09b302328729388afca4a7226897929e4f1fe67a4959e8f8a6d7df2f7"
   },
   "/saullekts-saulriets/iecava/": {
-    "sha256": "8ecf8a09c0f77c5faee345eb2a2493e90de58991b37101f554182dd21c3f5c60",
-    "lastmod": "2026-11-12",
+    "sha256": "a84d730d1f15f2886bdd87ae7c39b93d1d8d51ae4966803fa3f1ba35a91bf6a2",
+    "lastmod": "2026-11-13",
     "navigationSha256": "155418f7cca7ca7103f21e6ab7730e157d6c8b32726fd917e45fa1cba051b5ca",
     "proseLinksSha256": "a4dc34bb9a8c85953c928fcd63f95e5c681e1f05cd181a9aea38b8ab56ea3fef"
   },
   "/saullekts-saulriets/ikskile/": {
-    "sha256": "a421e03d6f949e70f13f8812aaaccaa6c1eefdd872171b9293df373d7b1235dc",
-    "lastmod": "2026-11-12",
+    "sha256": "ef4a56218d0dcde3911b0e60861b6e524a03224a78e4cb28fc5948cbac61e9ef",
+    "lastmod": "2026-11-13",
     "navigationSha256": "af40df030b45066c4433849f7809522e704013b92630f4f5c3488fa251dbbcec",
     "proseLinksSha256": "46f86a8f092c9c919d00927f0f5c12d49819df6b8e86fc63f2e9986cc971d2e6"
   },
   "/saullekts-saulriets/ilukste/": {
-    "sha256": "9f0fda475b90f0e3da52a8182fe7be899b9600951518fb7e4e973afb1f78d064",
-    "lastmod": "2026-11-12",
+    "sha256": "9aaf8e7969ff2c10740e868e4c4ac645f17c5fbb69d394f3f1285e133e9eae21",
+    "lastmod": "2026-11-13",
     "navigationSha256": "de3c8f399535979d0cc9eef6413cc98dc40a728487c86580b7ddf2b8e7316a92",
     "proseLinksSha256": "8a5889677e5b5fa25db792fdf6aa0042c3983ac683a8918a345760a70cd8204a"
   },
   "/saullekts-saulriets/jaunjelgava/": {
-    "sha256": "12f1b57556a9c3d692f05a6599705a73073599e30d09ee8ace859745786d4458",
-    "lastmod": "2026-11-12",
+    "sha256": "cf19b4b8cbb9c7bae1fd9a070ee9bafca6d90b4a1e0783a1dbdb40a38dea2b5f",
+    "lastmod": "2026-11-13",
     "navigationSha256": "6058b13b3430afe02008cffd9f16147337c5e8b3cb3192dda60a049dbd181dd0",
     "proseLinksSha256": "dbdc35eb59079c3f6d547fa92e7390c249df8649c120b9ae743b6ba578804386"
   },
   "/saullekts-saulriets/jekabpils/": {
-    "sha256": "7fb9788e9f1fd2d5647d8f8789f67377be6ce69b696416f7e75fae0d3a33e318",
-    "lastmod": "2026-11-12",
+    "sha256": "e3c1789639bb2bdc479790ea7862c1a814fa0c394831c2138543894daafcb2b7",
+    "lastmod": "2026-11-13",
     "navigationSha256": "9deb794d34f34c63b0b3179abd95c77e4da96e0e1e9a2f9c8583bfa28f1fb44c",
     "proseLinksSha256": "2f84cccb37a5b92906a6a1c5a38bf3c9c200a24b47d111ae3c944b06f392790a"
   },
   "/saullekts-saulriets/jelgava/": {
-    "sha256": "4be9d8863265e33e433cc8b154389d37c09113334b700605b6aae00006eb52bd",
-    "lastmod": "2026-11-12",
+    "sha256": "f58f19b5e543871d36e7e9ef768def03fecd8917cca9ac9534d9bd8c82ad1c91",
+    "lastmod": "2026-11-13",
     "navigationSha256": "30b5bd0424d9c101289f819403471e4bf08f6e7d0c4566b18d0f70fb958c1cdb",
     "proseLinksSha256": "65e4c7240c8783795b612af111e7166206f0f94cfe7b45ed60b03947c98c7214"
   },
   "/saullekts-saulriets/jurmala/": {
-    "sha256": "75373475e3795b1c6cb32ae181292e72413d18b0c46f919a0a61935c84b62bc8",
-    "lastmod": "2026-11-12",
+    "sha256": "a7e24813ba9fba4e2c352304087e78b75a2b079a647a2964ac47b3d65660327d",
+    "lastmod": "2026-11-13",
     "navigationSha256": "0273f95ee7151beb5ca71d6e91e73c11f5f02c8f8d4690c547315fa7604c8100",
     "proseLinksSha256": "89ed4794c94f751f5be7b22e8abfbbc8e519d52c2fd2e0211f5f137bce19457d"
   },
   "/saullekts-saulriets/kandava/": {
-    "sha256": "ff57b36c1549b091cffe89cc92f54121a20d78d8ef8228d2cc13b6b1269eada9",
-    "lastmod": "2026-11-12",
+    "sha256": "d4dec8643e107c07ea523cdb9fe0e55c46c74d917944956bbc9b5cff64ffc6c4",
+    "lastmod": "2026-11-13",
     "navigationSha256": "204c4fc9d4af655f61ea03f79d2417d839ee7bf6b48fc30ffaca39f3e49dc5c9",
     "proseLinksSha256": "70bcbfb3a051d441409283081309b827c57f2b5737a6f9d78aeafcc66d6cdcd2"
   },
   "/saullekts-saulriets/karsava/": {
-    "sha256": "208a4516f4478c2449ffbb13907326d8057715078adbf7c96677d0f126ee534d",
-    "lastmod": "2026-11-12",
+    "sha256": "e1f958b51f47d716d908b5234ca9254faa4e5af63d7e559c9d06d5d11d3ec6aa",
+    "lastmod": "2026-11-13",
     "navigationSha256": "50896f28c0a34484dea3006bc4b3117da300df59b58fe6ee6d785dd3c9439186",
     "proseLinksSha256": "62007f770985afdc12c7a5740b6a17e655f4773ecc162aa1143a8e1359220fc1"
   },
   "/saullekts-saulriets/kegums/": {
-    "sha256": "49f832a5f76489f1569fa8dfd912cd7e77aea97aeb394ccc804496e1b87af16d",
-    "lastmod": "2026-11-12",
+    "sha256": "2ac2ebb4a08017f146546ce96c7ecda4b47a1106d618331524361dbe1dd98499",
+    "lastmod": "2026-11-13",
     "navigationSha256": "360f226fd61f236628cb668e254f9a6703ff456f8b11a74c90a3212a9910c507",
     "proseLinksSha256": "856d272ff2996bd27ddb7eb30e74d0ea4d3718cc494611ba0d37577e15fa8a04"
   },
   "/saullekts-saulriets/kekava/": {
-    "sha256": "728e971a9b889e5a987fed19f291dac04d95f2384c63a084c083d23dbb9dcdf2",
-    "lastmod": "2026-11-12",
+    "sha256": "dca7243912838e741824c952ae961514cc5a4a4766f69dda29ac57a918913255",
+    "lastmod": "2026-11-13",
     "navigationSha256": "a595ffacb0c4ec11d299105bce86947a86a0b1a9ef5b8f83722ecca531fc4bbb",
     "proseLinksSha256": "ee8a755fc9bce65c1ae3b66db07f6f5296fea15a8fa2a9e760f008edd578c90c"
   },
   "/saullekts-saulriets/koknese/": {
-    "sha256": "f0e23e7648a52c11b94671184652b803ca544165221d86733410429ee597ac04",
-    "lastmod": "2026-11-12",
+    "sha256": "9cd1a712c8afe2986864705c19bb6abff2a6a2a74ab089f3fee7a8c8af0847ab",
+    "lastmod": "2026-11-13",
     "navigationSha256": "762433a9d321b7366a90bed283a9179a124ed8a136f5c67bace69bafb4db24ad",
     "proseLinksSha256": "a3c5b96bee26d27459760c54badd468bacdca0350e5e560a5e54292054d5be16"
   },
   "/saullekts-saulriets/kraslava/": {
-    "sha256": "ee6770de25d6b2ae8b412e84947072ae8fe01826abb7b584b1c6c70aaa2c205f",
-    "lastmod": "2026-11-12",
+    "sha256": "c6a50edaf4efdf766cc8622483d47924a9b49fc448c141f03b908b90a93b4970",
+    "lastmod": "2026-11-13",
     "navigationSha256": "39bca46149b75d2d207af4884123bf0ea3a7e95e364823305396281dc2ad7479",
     "proseLinksSha256": "d0fe73519ea311acbe593312951b5ecced8c18869a2eb1e4aefbda51999ba226"
   },
   "/saullekts-saulriets/kuldiga/": {
-    "sha256": "4d93b197f1b1ff2dd12b1a84bcb79fde04852be845ebf70a3df5c50a6974341e",
-    "lastmod": "2026-11-12",
+    "sha256": "35180c5bbc4442a45627393cbae8fc091d1876da55d51161c07ebf2cb4f4f231",
+    "lastmod": "2026-11-13",
     "navigationSha256": "f8d73922b0adba3172f80104dd81576a2ae57bc97318d3595227027dc875481b",
     "proseLinksSha256": "ca950ad62970a793bc87fc96382e0ffdd5f1f7f8e268e7b782fe466a6b5598fa"
   },
   "/saullekts-saulriets/lielvarde/": {
-    "sha256": "29b810a07295721a4fb075aeab31937aba44e365d54a76024050240eb2bdf012",
-    "lastmod": "2026-11-12",
+    "sha256": "b34d4ae0b8a0befbc6e83c32da9861de2609fd1cc3c6bae0386277391ba0f601",
+    "lastmod": "2026-11-13",
     "navigationSha256": "9a749040a532564df4af4634c7fe844c14445c9f5d4b73f1bd5082ca1894c360",
     "proseLinksSha256": "8c227104bae139065f0b12dd31907074d9134fb85ebee1171da124660c4c8286"
   },
   "/saullekts-saulriets/liepaja/": {
-    "sha256": "8a83c88c7c35db9fc05a51a0a5290145a1a4a9ea24ff1bed3b9a0546d6d4fcbd",
-    "lastmod": "2026-11-12",
+    "sha256": "47421b7c5efa33184b88fd07add6343f38e51ca223fbacfe57b1fa2301695e99",
+    "lastmod": "2026-11-13",
     "navigationSha256": "2b113fffb98ebcae293f64b961a7ea9308da70bd73b92389c8de5ca43054b077",
     "proseLinksSha256": "39103cfcc8ebaa5e533f423fae51b5c8275540866f04983f7beb4c008e2b23fa"
   },
   "/saullekts-saulriets/ligatne/": {
-    "sha256": "c18187ca6d03e4774c50a941ca7f12cd54053be2602a365b53a76532689ba126",
-    "lastmod": "2026-11-12",
+    "sha256": "b76925076967be30adb156588d864073271572dd0943f6fe7456a03659a15ad4",
+    "lastmod": "2026-11-13",
     "navigationSha256": "aa79e9ceaa7e64c3105026effee1a07acd5a2babedf7c5ba30abfc3a9b1652d6",
     "proseLinksSha256": "dbec4d08e942621d5672fd1186aa76b4f52d552bf0612efca27232e67018b2ed"
   },
   "/saullekts-saulriets/limbazi/": {
-    "sha256": "d8abeadbe2ced2fb5f465823ad05fcec9192bcdfe9e66396533b3d3dd6edcbc4",
-    "lastmod": "2026-11-12",
+    "sha256": "c25ef840340c1ccd6dd15a14c019962104724cc6be7ffb3ab7ae5920e162d1f7",
+    "lastmod": "2026-11-13",
     "navigationSha256": "4222befd784aafc5966e37b207e0bf0bd7ebc74f749591fc473949fdd66d564d",
     "proseLinksSha256": "638fc916ef29650d1e5b62453408d78f200206083334af7b51d05ed2839cdc62"
   },
   "/saullekts-saulriets/livani/": {
-    "sha256": "5941fe1924d99de3978a83903cd75eb38f815374aeabf6e310e2edc7c8992efc",
-    "lastmod": "2026-11-12",
+    "sha256": "62c80cc5ce0c890991cf5a4094cbe0afd10c0512279b61043c35c17bc0dcce6e",
+    "lastmod": "2026-11-13",
     "navigationSha256": "ba9e491131a5dfbd4ef443c2ea8d1622972579ff6ba102065707248a4766f9e2",
     "proseLinksSha256": "40ba143b0a1c65837f345c25b47ac9a00519067508040158b771c953026336c3"
   },
   "/saullekts-saulriets/lubana/": {
-    "sha256": "fddbbf26d7ea1ea3cbcd94d9e951f4c9e964825bbbcc66713982df2bad78df82",
-    "lastmod": "2026-11-12",
+    "sha256": "4f8ceb2a20935d5a15f31bac314e08dac3371fc172a94c5d88ddbf94a866fb4a",
+    "lastmod": "2026-11-13",
     "navigationSha256": "d8f8b0f3873aef765a74eec86df4ab78b5f76b55005a01203e878d3697d8b93a",
     "proseLinksSha256": "3f75c1db57e6a65d90d0cb0c06a1c7fe2f46cfdd631716655701ea7e7c4f3f95"
   },
   "/saullekts-saulriets/ludza/": {
-    "sha256": "37e1d7a3ae33a862cf72c2c0aaae1c91c40da2bd5c0cbef87f7b8393626e81dc",
-    "lastmod": "2026-11-12",
+    "sha256": "895804b467809e8b8b514164530d32cc90160ab6a8a1579b39487dec9ee9789a",
+    "lastmod": "2026-11-13",
     "navigationSha256": "1458867b45eeabdd35717ee018cf50a7cef77c9e3e082c9044b25c024fe77dd6",
     "proseLinksSha256": "2861f8538b3b03dc71c21556894cb433a6084e7c17952990c383617ab03f162d"
   },
   "/saullekts-saulriets/madona/": {
-    "sha256": "3e4bf01a9e934079953df534470cce41643bb9414a78a5d9b9267895138326c3",
-    "lastmod": "2026-11-12",
+    "sha256": "d0b742620c97a270cb3797cd10ffd75fbeca033b361a38565c6fcd96442e965b",
+    "lastmod": "2026-11-13",
     "navigationSha256": "ae9c765b93d01dfb0241fee73c0c1a91c96d4ed239399f21df5f00d4b51c17e6",
     "proseLinksSha256": "1f94be7e4544f89ffb808dba6aad9465e6bf8bc8592252cab72bdd83abb968cf"
   },
   "/saullekts-saulriets/marupe/": {
-    "sha256": "4a29e4edf33605a7e020b8a0a505319113901d361cad3f8424a009635c8ccfd2",
-    "lastmod": "2026-11-12",
+    "sha256": "f619416ef1740091fda57dcf4547f6eeabaf9dc3802427f314267f465927cd4d",
+    "lastmod": "2026-11-13",
     "navigationSha256": "b739d28171a27ff6a0d8e08ae05153ab46b1354d1fe68af32d41c8d574df76e9",
     "proseLinksSha256": "79016ff1198f0b77bc200c4085e47459377a429f5783035945e036dbecc9525a"
   },
   "/saullekts-saulriets/mazsalaca/": {
-    "sha256": "9a1a7269f864833a5bea1441735985fa7c1815e57393a9abb76596c9c7f3cd4c",
-    "lastmod": "2026-11-12",
+    "sha256": "d518e45064c564a22b70988e43764090fea1de6c773f799f619bc3eca07bb19b",
+    "lastmod": "2026-11-13",
     "navigationSha256": "d5f8e838e1efa12f48342000b261655899850f2dc042ce80dcd8217b6e16bfc4",
     "proseLinksSha256": "5b465a1cc1c629e52645910e58a6178007e96542ccd1deeb114f200b07ad0b6c"
   },
   "/saullekts-saulriets/ogre/": {
-    "sha256": "654d1ae18fbd6b907a4aafdf34edf16086f794f8b42134e60d363e7f336f2ab8",
-    "lastmod": "2026-11-12",
+    "sha256": "3fc88f02af8fc3162d460c9fc0d6d0c58b732b2003e226d719fa65ede943b6e2",
+    "lastmod": "2026-11-13",
     "navigationSha256": "10217cdc6a71988a2a8fa1ea905ac9acb16c8537a52038bbf449e7c9d2395980",
     "proseLinksSha256": "58f8d197a544fa1e7fdde2b8eb5a2b9aa049ea5bfceacc79f25b621c22f77789"
   },
   "/saullekts-saulriets/olaine/": {
-    "sha256": "4b56da65f9616af3f6639fa51a9bf91a757e37b0e8748a1831d432f266f52224",
-    "lastmod": "2026-11-12",
+    "sha256": "765ba3528f5318a072b10d8635dcec057a2687270f51ecf621802960cd118ebd",
+    "lastmod": "2026-11-13",
     "navigationSha256": "6d93b54e2ea7f921502750ce4774525eb4010c9e247b89bca82f08813a79eb8a",
     "proseLinksSha256": "62b2c828d94e951237fe3318541eb06ea096376a554caef01fdf61dfc2676185"
   },
   "/saullekts-saulriets/pavilosta/": {
-    "sha256": "5df1aee82c34ff9dd03d80d7f4dc2f44497153b96d498e78f52b6e04f887b6ca",
-    "lastmod": "2026-11-12",
+    "sha256": "e1ae63fc35bdcb2d287e3cf787e611804172e4fbfa66f7b8183325f021831f27",
+    "lastmod": "2026-11-13",
     "navigationSha256": "c5f112f7f6d4c1611ef767b5456329f1abebc98ec8e5bff68fe1b48871270c99",
     "proseLinksSha256": "a4079ebeef8ae6622f3444c23b44474d5222b03418cabb6a3d62a6601b8b1d15"
   },
   "/saullekts-saulriets/piltene/": {
-    "sha256": "da07c8cbb49fa94371d7bc85e5ccc4f41c99dfd51f52687e90749745cbc8963d",
-    "lastmod": "2026-11-12",
+    "sha256": "49254f7fc96647a80df401987e003499b76aa686b89e2247131947af57f92135",
+    "lastmod": "2026-11-13",
     "navigationSha256": "99ccf165b13ae27d96f587b8eb5a7adfb081e517f9b59ee08f1d2d662575a52b",
     "proseLinksSha256": "a3b5f9ec8a1a2e235937881d203abcfd1b828acb8168e87f55a398907686e93c"
   },
   "/saullekts-saulriets/plavinas/": {
-    "sha256": "40452d4cb34268ef21f190fe5e50b9bde5f09628d74e34728072c0b60d8db90e",
-    "lastmod": "2026-11-12",
+    "sha256": "830dcb226f1f1dd81de4f6e8585ff1d9dcd30a158408bbeb30e3bedc1420ce38",
+    "lastmod": "2026-11-13",
     "navigationSha256": "8a3c8500014f2d71b7449f8c4575b8d78d4ccfa06c7c0cfb3c22d0fc35e20337",
     "proseLinksSha256": "37ec08d13f5003b179c4163c7ac4b61661afdc33586c9af2a4ac2115a030bb08"
   },
   "/saullekts-saulriets/preili/": {
-    "sha256": "3d25623319d90c0af08a25d9e5b1fc2766e74d088a631a66c6b224c6583cb950",
-    "lastmod": "2026-11-12",
+    "sha256": "b7e82cbd43e7b3c95931bcf2713afe3a1c8427e4a7106c0a44630dd01281cbd2",
+    "lastmod": "2026-11-13",
     "navigationSha256": "c925c6f6b54c0daa0de15fd4a579628695d682e43863dc17ef7516a58f8607fd",
     "proseLinksSha256": "7f8a8e2e218d04914925bb7d4419ab69f2836d443a5a140899a26c320ca6c8b4"
   },
   "/saullekts-saulriets/priekule/": {
-    "sha256": "56a08ca73664dd55094d1ce43ffa04e9ce6bf6f97b3b6a603837d45fcc3e7af4",
-    "lastmod": "2026-11-12",
+    "sha256": "b3ee4c1a1ae948f09599580e6547437cd3efef5105a92a98b97c82e66b53db9f",
+    "lastmod": "2026-11-13",
     "navigationSha256": "9d212530fd139b8bb3efd69ea131f1c8612fde74a5dc2fec30ada5777ac6003d",
     "proseLinksSha256": "fc1d8edfe051d1923def5b6a4138fe05ff71e6d428aa327507a0814447323e8d"
   },
   "/saullekts-saulriets/rezekne/": {
-    "sha256": "0a63352d7b44b44018b9c0a4b40aadd1ba88aac81b7472bba7c0e57bd0adc2c0",
-    "lastmod": "2026-11-12",
+    "sha256": "abf9c9f7726f51b20e5291c84482429a609a26ca542c52279148b71d03c0110e",
+    "lastmod": "2026-11-13",
     "navigationSha256": "a94aac7436134150a81befbdf4619f50bc570630c31512998b7e6c721fa9ac24",
     "proseLinksSha256": "4e7cafad96d5c52fb342a65eca864c72c82af8d26fe718f4196478a338d32b8f"
   },
   "/saullekts-saulriets/riga/": {
-    "sha256": "caa4e0da686ae6718555e82d75083427fc045fd08dd355344983c320c75ed005",
-    "lastmod": "2026-11-12",
+    "sha256": "2f1b5127a71e9f121dd02940caf79a722fae36f20d0fbb5fd575e2cbd579a618",
+    "lastmod": "2026-11-13",
     "navigationSha256": "fc2809d4488a2d53dd171033bfc410254a902d76f69d143979da16ec573fbf02",
     "proseLinksSha256": "7539afdbe47feb3ae85c6d55c38eb35f9c7443785e458db6d937ec02eb49811e"
   },
   "/saullekts-saulriets/rujiena/": {
-    "sha256": "29c7930293df2d3028fda07b5c7adc5bdc7a73989d6618a6f47d4e704d3fc2e2",
-    "lastmod": "2026-11-12",
+    "sha256": "5c11e2178142cc70a78be9491fecaff28d56ea35c0039a7fcc98baf3893dc347",
+    "lastmod": "2026-11-13",
     "navigationSha256": "8a04248e0b8bfb4c07076b587ddd903c7158658bce3b9af7e7da54ad32975683",
     "proseLinksSha256": "b3f91f54ebbfed10c813716947392709c99777cf477130d4a5fa27847ef875c5"
   },
   "/saullekts-saulriets/sabile/": {
-    "sha256": "356d4dcae54be452c73680796799ed025e69a14d653d515603c5a407259eb7f2",
-    "lastmod": "2026-11-12",
+    "sha256": "e20afab406c9c8b75a91d217dd47a75ae02fafa9c1a73f285d1c2a0beb232333",
+    "lastmod": "2026-11-13",
     "navigationSha256": "b4a13798890d6dcce752544e4e56d3e7241b787dddd137312337c9856170a579",
     "proseLinksSha256": "47c94e7b9f98ebdba239b7d5c67789ecf2b509698172c324599b9c4f3910718c"
   },
   "/saullekts-saulriets/salacgriva/": {
-    "sha256": "89df41910f1051e2a28d682316d1629311b3e8895ea75bac442ba40bb6901ada",
-    "lastmod": "2026-11-12",
+    "sha256": "97d82d4333b3cdc4c779445cce0925904df6006dba493d5213ed9b6ecbdb6af5",
+    "lastmod": "2026-11-13",
     "navigationSha256": "a7ee7728a1992ae0a1c1f483d4f117dc37528b292e9a2e76239eaa897eda0dfe",
     "proseLinksSha256": "13416e849b4f21996379d54db681f8f6f8df3b12ca707f4863fef9888d8215d0"
   },
   "/saullekts-saulriets/salaspils/": {
-    "sha256": "d221fe75a8920cd2a2814d75901a7ee576b4a48a4898625475626e65f4b7b40b",
-    "lastmod": "2026-11-12",
+    "sha256": "8524d0b181f8d898c31100ee37958b8b27e83d7d59fa39f0f5a81068799007e3",
+    "lastmod": "2026-11-13",
     "navigationSha256": "0b733f573e21d40ced59f169c1fe6c44469aa2e51b8a67e5e93f1c1b87782940",
     "proseLinksSha256": "73153e4fc5e390d3ad2c84d5d58f29f611ed982d18e63879647578849230eff0"
   },
   "/saullekts-saulriets/saldus/": {
-    "sha256": "3ff96cdf05d497eaf1590821dfb804a5b8b017f823a4dc55a8eeac210eae3529",
-    "lastmod": "2026-11-12",
+    "sha256": "032c635ce9916d634524b6b214f2890048131249349f432dbfacdc775fa2c991",
+    "lastmod": "2026-11-13",
     "navigationSha256": "53a8db40e5b2703af36baf5e8176e7fa862c2b37e0e6c0395c1d50011cd785c5",
     "proseLinksSha256": "b7148628b6bb0bc9bca35a83ef01b0079425bf68262b81b6401976b34d35cda7"
   },
   "/saullekts-saulriets/saulkrasti/": {
-    "sha256": "ba97a211ee0a45d07118331ab5ccc4338c3a5e008998c90906b5fc2b4b130fe9",
-    "lastmod": "2026-11-12",
+    "sha256": "9f09bd09cda940572447f15317fd191a133626bbc793d1557dd759834a144ddc",
+    "lastmod": "2026-11-13",
     "navigationSha256": "00df58443808ea9f83fe5e40357de7e4a8fc29c1008c925ef8fc66ee58dfc057",
     "proseLinksSha256": "c9544e0c167cea6309fcd2a29c8958c736d97474e68810e812b2c2bc6d1f04bb"
   },
   "/saullekts-saulriets/seda/": {
-    "sha256": "3a588bf08d1333522d95769c8206328aa3d8af428ea21111a09b56b1489da7b4",
-    "lastmod": "2026-11-12",
+    "sha256": "28978111cbaf701af567d1c809e43d6caac372ee17ecd069b49e9ebd29022211",
+    "lastmod": "2026-11-13",
     "navigationSha256": "b759d24115231fb4c3f27f3e0253bde9ac179164bedf6c8ed4a67737100856a8",
     "proseLinksSha256": "88b8e1554dd71a0b96ca78a8808e25a688bd8dc9c9ce015dd7d816107a5d74a0"
   },
   "/saullekts-saulriets/sigulda/": {
-    "sha256": "2cfb730e111905f1a30bef6adc6b944ff660ab511aeaf75e6e829eb862f53704",
-    "lastmod": "2026-11-12",
+    "sha256": "825b0b6f6e7a341eaf2512c8855f8faaf93426171e7937639358cde7ffe695e6",
+    "lastmod": "2026-11-13",
     "navigationSha256": "cb978b7bdb4c99ddf0a10b4cfa63f1420620069fc1f61cf882f2563dfb9bf2e5",
     "proseLinksSha256": "575c04420afda008bc9a8b258716c2536af3b4bf771ce66f62dead4934eb81ae"
   },
   "/saullekts-saulriets/skrunda/": {
-    "sha256": "c2f79483d3c960795d29271c705fef2e93dbfe58245cc2395db0c1c14274ebaf",
-    "lastmod": "2026-11-12",
+    "sha256": "b933be008672e3005eb451535ebf9fdae105bea2f999f0490b2d8678d3993939",
+    "lastmod": "2026-11-13",
     "navigationSha256": "a06bf10368cba5d05832c0ed24636b34c22a330ea4fa44c9a908d59e8ae08a6b",
     "proseLinksSha256": "4c8660ecf97d947a18a50cf0133b77ad7d5567abe356b4feb885dd148238fb35"
   },
   "/saullekts-saulriets/smiltene/": {
-    "sha256": "db89c1c434b539f9389c5b76ca332311bc4ce36d33122376d93b5b5738c0961a",
-    "lastmod": "2026-11-12",
+    "sha256": "33bb45367387fe88042157be822c27b448710ecc2d7b4a0ee54749b973595e22",
+    "lastmod": "2026-11-13",
     "navigationSha256": "7f3686967e67a49eb0e8c3a89edb27aa4c315b202532cff7a6903470ec8a0bc3",
     "proseLinksSha256": "969cce539c342e4088e1db61e60891d302841d3f866565762e071ce980bafd40"
   },
   "/saullekts-saulriets/staicele/": {
-    "sha256": "2f90fe228ac9994f8f82bdef41af8ee18d602c7ca1f27aff1b8c5aa1eb4c2d66",
-    "lastmod": "2026-11-12",
+    "sha256": "a19d0ce7d710684f441535c0365b743ca4f42b7a62ed4d62f1b3ce642eba62b7",
+    "lastmod": "2026-11-13",
     "navigationSha256": "a71a73c3cd252af2dd29969418171df31a7d6cfe0066fcbe1050710da447d8b5",
     "proseLinksSha256": "1aeea6fd57661df640a08574c073d82d710ac22b960e983d74aa6f7422b8ed06"
   },
   "/saullekts-saulriets/stende/": {
-    "sha256": "329a27c5c33a1308982d90c49d371341f23a3de4393e6a7834b65e05d45fef8b",
-    "lastmod": "2026-11-12",
+    "sha256": "64ac75b97844fa6f816b10655a37f068772b1146d6d05516013216610ec28005",
+    "lastmod": "2026-11-13",
     "navigationSha256": "a6d5367b1bcab99afc01b3906bd640e54b1764a98e7e24649babdcadb570953f",
     "proseLinksSha256": "8a7b6c6746a24d931fee80696c66674141ba1371b3ef8dc5e4b245ac255d59bb"
   },
   "/saullekts-saulriets/strenci/": {
-    "sha256": "8cf7558faf9d4fcce0a531ad2ed2370708cfa0627ba81929002f6f21a0534f63",
-    "lastmod": "2026-11-12",
+    "sha256": "1a55a1899c7e93d28bc822e927127f8279d45d501a161c173d86d3b856e68eaf",
+    "lastmod": "2026-11-13",
     "navigationSha256": "176860ccafc55e0593fe7664bdcbc83f0b81615ddbf0dd15b7cbc87a1d2a59f6",
     "proseLinksSha256": "944e2363b62a6643a5ae2fa33569d4320867a7e449f05cc746ee3fa734510bf0"
   },
   "/saullekts-saulriets/subate/": {
-    "sha256": "ef82677783c50fa736a08aeffbcc9fbdfe01a65bbdca6214f221cd93a714cf14",
-    "lastmod": "2026-11-12",
+    "sha256": "fcee1c74f49abc9e581aeccb6b6799782762658809fe2552b14eea61f599cc29",
+    "lastmod": "2026-11-13",
     "navigationSha256": "521649068c19125cd5221955aba143820f8c4b88d14bc996029705b83b8e02d5",
     "proseLinksSha256": "412870aa65078d3acaaf966142bc257304955d37685d88adcfbce509a63405a4"
   },
   "/saullekts-saulriets/talsi/": {
-    "sha256": "1e887ba849ca2eea4eec90bba23b71def3b2f2431e8fb6fd8204950ad5fa3ed9",
-    "lastmod": "2026-11-12",
+    "sha256": "13bd48f7b1321787694f9c0ffe1fa6036c702ddacd83e6563f7df4eccd5ff453",
+    "lastmod": "2026-11-13",
     "navigationSha256": "ec7ec4b8df940ff807827a3cc3cfbe2b5c1949d3ec840b4496f66486d3af2a39",
     "proseLinksSha256": "216e84c75d9fbcaff9412f906622419521fe4962d600c18e9dc1583d58cb9cc9"
   },
   "/saullekts-saulriets/tukums/": {
-    "sha256": "5b9cbd8c998c8bfa26fa8ba4e3f3e94ffdfe715e948c51fc814c323ddce15269",
-    "lastmod": "2026-11-12",
+    "sha256": "5b687ab1e76b110ff3e3c15fa3a11f5a9dfb5ed271ad9a5f53b8f43c5a35f46e",
+    "lastmod": "2026-11-13",
     "navigationSha256": "43c3a56b4094fa60a5f5baf1961a1d02cb84fb0c6ee0b44f1231a90a02ddcf49",
     "proseLinksSha256": "61b4143ccfd1d654673b24677549ce489b1116831417e8d4930f173cf2d9c28e"
   },
   "/saullekts-saulriets/valdemarpils/": {
-    "sha256": "212708675ed0da8f8eff5973f93292a399ff60c34d0d691a91c4aa73bdb60529",
-    "lastmod": "2026-11-12",
+    "sha256": "6384c9994ae8dfc8b763ba1a3330f6074458e96af9f9dc4fdf67d8facb5e6c5b",
+    "lastmod": "2026-11-13",
     "navigationSha256": "ace677abd383b2965b17f8c82962f7b245b77c3d564e9af26bf48683a9dbf5a0",
     "proseLinksSha256": "0ab68e75cda0f22fcebe1015c54a493e09ae63f775ecde011c1eb8c54edc7131"
   },
   "/saullekts-saulriets/valka/": {
-    "sha256": "e289b1e2dbe94fe4723296f5b5123b510eea34761b991cca17a3d6aadaa82368",
-    "lastmod": "2026-11-12",
+    "sha256": "c2fd48a7f696614617021febbfcb8f59b3ce05160c4e216581db9bad21334ccd",
+    "lastmod": "2026-11-13",
     "navigationSha256": "037a3456281625c8d21e86d795f524b1f1fa7d9c964e8307110ff9e1ddf2b4e6",
     "proseLinksSha256": "d3b27e265f0d223bde6e8a2d75f6480f827b456a8bb7261c680d6b2726302d38"
   },
   "/saullekts-saulriets/valmiera/": {
-    "sha256": "c5df75d18454a5eafa815a283141a12b0c70b49588fef22856a007e4a5962f63",
-    "lastmod": "2026-11-12",
+    "sha256": "28d537555602d0227fd3c6c55ddc1367cc229a8d248ab98997b9cce13496e719",
+    "lastmod": "2026-11-13",
     "navigationSha256": "4dd60f5056bb94772a90159b6e545cc50a86e47106c02fa9aae227cd6a42127b",
     "proseLinksSha256": "f0cd2d97002a6644422e208cbbaf30e6dc29d414fb3a4a11fa659d5d322931bc"
   },
   "/saullekts-saulriets/vangazi/": {
-    "sha256": "bc946cbfdeb394df2c8cb66d2fb1c15236a6b5dfac831ecc64561ab5d81efdc9",
-    "lastmod": "2026-11-12",
+    "sha256": "54f583e19a0df92fa8841b66fdb1491127ef9ab43f081fda5f1c8acd635e9677",
+    "lastmod": "2026-11-13",
     "navigationSha256": "e4e41794db36a88f1a038c723c549b1cd3f03dd9fdefbdd7442776ef0f00c703",
     "proseLinksSha256": "b71404318a7249c074f47d51876dc0cbb3f1f0c97c31b54bb84cf63a7266f9e1"
   },
   "/saullekts-saulriets/varaklani/": {
-    "sha256": "422e5a4951b6f528175653cd293cc6fbfdee351a6fb37e2845f50fc941e27e7e",
-    "lastmod": "2026-11-12",
+    "sha256": "f997a1ee054f20f037700d64f3e2c56002abbe0f693d0341bb757d69c4a29e70",
+    "lastmod": "2026-11-13",
     "navigationSha256": "81c2cc152a8900db8f61123964b97320221327d5bae0a74dc8789b9c16306cf8",
     "proseLinksSha256": "c8455123a93500a60e21851b2a7e378446c5f27f105ba000f01962b78ae140ad"
   },
   "/saullekts-saulriets/ventspils/": {
-    "sha256": "d2597a5cbfab56c8f0ba1d885088cc81fe96f9d8d2e1a8927520509ce3c64b00",
-    "lastmod": "2026-11-12",
+    "sha256": "650daff9cfaaec6a3d3ac122b1e276bddcdb957a08c3a52e14bfba00b81dc9b2",
+    "lastmod": "2026-11-13",
     "navigationSha256": "a64562a837de4ca9557b1fd782fa57d69170a598ef77ac62c9c74754409a59f5",
     "proseLinksSha256": "133cfa03447c33fe6c01a3045f281a85ff7da5596ae3c20fa14c50828a885d2f"
   },
   "/saullekts-saulriets/viesite/": {
-    "sha256": "fa0824f6d18903768cb5b35626929180d045a3c06a0e48f16153e16ea2834f77",
-    "lastmod": "2026-11-12",
+    "sha256": "dda55f4d932822d1c8ce554248b65100cd14944c06a8a0040403944d6f1cf76c",
+    "lastmod": "2026-11-13",
     "navigationSha256": "f318207b5908e63754c6b33763a989f66790ea08e6343de4de9eedd45ba5a920",
     "proseLinksSha256": "4dd09336fdae35b75f10919ee8f8358f93960293777b9a02e1b91009266195e1"
   },
   "/saullekts-saulriets/vilaka/": {
-    "sha256": "dbb19f80c2b73058d3d0634c3fffc9b9c85501bcd146c18d37b8f96f602ad0ca",
-    "lastmod": "2026-11-12",
+    "sha256": "efbc441a534aa726979eaa37ff780a8c00db37a51cba87be178962de0f0ba883",
+    "lastmod": "2026-11-13",
     "navigationSha256": "49925003e42fad3cee2006d42dbb530d04f72bb889cfefaab5af812b159c92c8",
     "proseLinksSha256": "430d3ce0c74d72e62c68f0b3b72597f9177ac6a09278a02db3542440cf1603e6"
   },
   "/saullekts-saulriets/vilani/": {
-    "sha256": "328ed7eb063986788c83ab25fc59bf927d0cfbe0184f715fcfd0f7f374659a37",
-    "lastmod": "2026-11-12",
+    "sha256": "0a9867e0fc8d9e80d1d814084799c756c3d503a5e771e650565bb05879536731",
+    "lastmod": "2026-11-13",
     "navigationSha256": "4ee19769e7e19f7a357ae6a50bc9b5b31573f2f0a392d6f71fe342568b58b424",
     "proseLinksSha256": "bb9907aa8af3632df122e826c4553c146a7afa3576369db3f7aec9ca3e17c00e"
   },
   "/saullekts-saulriets/zilupe/": {
-    "sha256": "4a22b2cbc29aa6ba78d11cad43e1e4a2552c4363a496eddf67384b72172ed0db",
-    "lastmod": "2026-11-12",
+    "sha256": "7a4b6b796b62a9078e9eac544b8c748444e0aaefe44f23f3ce8799486aea5ceb",
+    "lastmod": "2026-11-13",
     "navigationSha256": "e8ebc63e7cdfc0e05216c6ea6a415cea33c2b44f34d7200e97d19ef1d56a40d7",
     "proseLinksSha256": "9685cdf5483662a8287ba3cf7cc428b896c430336a4b53580cd82d256d3d4804"
   },
@@ -4146,44 +4146,44 @@
     "proseLinksSha256": "f8b9c84ce21f1384bcc9d767152f68dfa5c67cd8015e453ed04c8776b3aa5259"
   },
   "/sejas-kalendars/burkani/": {
-    "sha256": "b8ec146d0b7dde4fe769863245300965e23f0b167128e1be1ff0fb0fcd3fc3b1",
-    "lastmod": "2026-11-12",
+    "sha256": "2cc9ca097a4dd26ef352a475f4249ebe80900d1f489e7d322e9ca9a1642bbc2d",
+    "lastmod": "2026-11-13",
     "navigationSha256": "a6f5ea795ffc6e2a757cc131829288a682ed240e67b1812b0d98b1e82d726179",
     "proseLinksSha256": "844e914d9936d8de16a4a34e90b73c6dc63de878f58aff02c75f667e6b5de3c2"
   },
   "/sejas-kalendars/dilles/": {
-    "sha256": "243ea245880c7948aca7785652981fd18a7c3ed467f9ad5ad558f87ce1f285c6",
-    "lastmod": "2026-11-12",
+    "sha256": "90647cc383ede23db0c284f8e3aeffb22a46332e86eb7cc4db1925c4ccb31c66",
+    "lastmod": "2026-11-13",
     "navigationSha256": "ebd380165865b3127f0dd4f54c705d9a486f7e4cd27f219ee6a1878d213c2bfa",
     "proseLinksSha256": "8f044d8d0aad4292715eabf7e6c15b9b65247c7f082f32b4bea57a67e5b5b583"
   },
   "/sejas-kalendars/galda-bietes/": {
-    "sha256": "0655221c62f780893e6c3a3943734701b71dee9e7139c1f009a15b3515c55fed",
-    "lastmod": "2026-11-12",
+    "sha256": "fa9aaa94d6b9a300b8c31cd1f4a8ca1d8629d5efd0c2844c5c55dc7bf41f0f5b",
+    "lastmod": "2026-11-13",
     "navigationSha256": "5fc5a07a5f0c6bdc14aa64b4fead984d149ead65de2a530f53b727686ee43e38",
     "proseLinksSha256": "508041b5b48f3df7ab7e83c48ff79e678fbffb490b86bad9fe1bc84bf40eeecb"
   },
   "/sejas-kalendars/gurki/": {
-    "sha256": "753dd60633b7abb8ac2d4ef6c3321def9c4d9beb71318bd4635c0ad691d54334",
-    "lastmod": "2026-11-12",
+    "sha256": "2d00bc6bf64aeb87ed51f2e179b5ab00b772f56cd551b11abce9170574a86e32",
+    "lastmod": "2026-11-13",
     "navigationSha256": "dab10c0a6aef8720484e897778e674a5386b893ff918fe147dfc2575ee5b13c5",
     "proseLinksSha256": "431ac02cb1529bd2b57c35d98f4d518fcab38635db85c8a8f88165bcc07aadab"
   },
   "/sejas-kalendars/kaposti/": {
-    "sha256": "f24c46210e2f72adb94ac4f94f293d1e93087c1d8456199a539c1026d285f038",
-    "lastmod": "2026-11-12",
+    "sha256": "0d320cc0416e07829240ab35d3b3dd06ace27640fefbcfff15dec348114f9280",
+    "lastmod": "2026-11-13",
     "navigationSha256": "5dc049bde3be0b22589909e563366eaf2ce15f1340f1c149b4bf1d9452bbb3c0",
     "proseLinksSha256": "da02f9272b611ffa70336dd4e362ef017a3a7e15d84d144074b28d7959703a8d"
   },
   "/sejas-kalendars/kartupeli/": {
-    "sha256": "f3486f6157894f16dc623234ea49fe61c2eec3692524038cdb5d88b7430949a4",
-    "lastmod": "2026-11-12",
+    "sha256": "5698883c9615ac17ca7b22e8737a8711405dde80c85523caa4b140e387272036",
+    "lastmod": "2026-11-13",
     "navigationSha256": "d72ecd94e67f595540945b45a9fe67d8dbf2aa4998dad4b4afdc58627e213bf0",
     "proseLinksSha256": "663e70d5342f0395d66fb3fdc9072aa494a5840686ade56cb528c56903e4856b"
   },
   "/sejas-kalendars/kiploki/": {
-    "sha256": "338c9ecd8952ac5f3ec3d9b6f0dd75120848f500ac22d94cd8f97babd5ae776b",
-    "lastmod": "2026-11-12",
+    "sha256": "80f76b3e509f3a6a7ce7f37884f037380ef9c66c431de17a546ca1a6ff615ac4",
+    "lastmod": "2026-11-13",
     "navigationSha256": "887167c52c992fb41cc33951e41f4e630050c7809936a756add8406902fee2d6",
     "proseLinksSha256": "d7bcda1578b7ab085fea08a647ef4e7ad620d64316e7e805a4ab8d6b31e9c56e"
   },
@@ -4260,56 +4260,56 @@
     "proseLinksSha256": "55f53dc79afa10ffe35328c790433c1a16a869fd18e60e418e01084188b602d6"
   },
   "/sejas-kalendars/pupinas/": {
-    "sha256": "9bd739e5974571f9139b25f21c60d2f976987c1ea46c3907b8910e79acbd898b",
-    "lastmod": "2026-11-12",
+    "sha256": "3bb0976e6df60d4d938039d3ad292a05c59cc0567ea507142aaf175fbb885668",
+    "lastmod": "2026-11-13",
     "navigationSha256": "d5673feb96103d8a8dfb0ebfe9166112c2d662c3bb341bec9343c153be4d9132",
     "proseLinksSha256": "d6dcae2669e1b53a72cc1c0b5fa1e6e6947d6ea001a5fe11e260f29df804bb0f"
   },
   "/sejas-kalendars/puravi/": {
-    "sha256": "aa813faa1e18ac08fe9bf22ef493b2bb6e89b454be20235bb8d6fdafa7324410",
-    "lastmod": "2026-11-12",
+    "sha256": "e7be89b0b995c0260d81934591623a5445483a888c6b2f251d8dfbe8f87ab5ee",
+    "lastmod": "2026-11-13",
     "navigationSha256": "7d6a0f96d955702e76ed325d2e499c2eeb6d2361c84059b98883596f88150838",
     "proseLinksSha256": "c67232be771245a02b4c404682bcb22bc1b6c58204a576f826e3283ca9c2c7c2"
   },
   "/sejas-kalendars/redisi/": {
-    "sha256": "c615ab7b57a6ee171177d56fc2ba2da7d86f868a082fda7a549b0d553a1235a3",
-    "lastmod": "2026-11-12",
+    "sha256": "885486b2d3c7dc85aeee2353b324c0d411d7f6732a11cf1ac125c1e9a207bba4",
+    "lastmod": "2026-11-13",
     "navigationSha256": "d8f51ab5e2ca44cc334855fbb3435c8f86921d5f196618aea730c3531d721af2",
     "proseLinksSha256": "8de4378a73ffd712d112265faedf2dbdd081ca77f08855a929b62732895c1568"
   },
   "/sejas-kalendars/saknu-selerijas/": {
-    "sha256": "28e296093d76a75d74b0822f8b2b0c38f4f14408ca12c29ef543bad49e2143b3",
-    "lastmod": "2026-11-12",
+    "sha256": "ccf1498dac72e30a1eb4a828a3fbec438fabaa9ac7cc9ffa49bfe1c60b6f02b3",
+    "lastmod": "2026-11-13",
     "navigationSha256": "a33b77a8649768447cc134f468d5e5448c10b0cfbf0a305ac0b09269eb6814c8",
     "proseLinksSha256": "fe9abab8547c05421f73142219701848f718b02c2eaaedd994f9cf3bd7c28c77"
   },
   "/sejas-kalendars/salati/": {
-    "sha256": "8bd1ddb07a6e9184dfdc8d7c292364f0c7198d92a7ff78388cd372645e544225",
-    "lastmod": "2026-11-12",
+    "sha256": "31e163c4887b6f88a1238912e9f26f9692250cf663f8b0dce22a1109f1fc49d4",
+    "lastmod": "2026-11-13",
     "navigationSha256": "7df78e9607ecd093be4cc016d2062cb4c4431844183293aa01c700da86637989",
     "proseLinksSha256": "35e16415d66c0e6d16371a7c392f6860d85902180f9a783c848e3f583a165dca"
   },
   "/sejas-kalendars/sipoli/": {
-    "sha256": "0a4de330e67ff55e8733337334f8f1ac793c6aa35ae644c24e03be9668d02b3c",
-    "lastmod": "2026-11-12",
+    "sha256": "91c94f5c1309f502f32feb28744c94d7b697d86b0c5625cc4e7c7ac3cdb58186",
+    "lastmod": "2026-11-13",
     "navigationSha256": "d4d4f0c425a51d6475af6c8fe9944000b3f9ba14d6ccfce21c56c8c2c6507bbd",
     "proseLinksSha256": "82549048aeae90a7ad7b4411903c8260b465f93534bb7a93f5244eb9a7190080"
   },
   "/sejas-kalendars/spinati/": {
-    "sha256": "9bfdde2f7abad95a58d2403745dc7e2fc1d3bcf8f299d62336811d77002e2c16",
-    "lastmod": "2026-11-12",
+    "sha256": "6a1781a833ff55e1369a4bda269393615efd93ecee73af1620083b7d75483d10",
+    "lastmod": "2026-11-13",
     "navigationSha256": "edcf77aa588d9405cdec9e415d187628c16bbb81dffee092366556b995bd83c2",
     "proseLinksSha256": "47f7593eb0ea19115baebc67e0ba937ad13cd7ead475a8cc5c435c21793c56f0"
   },
   "/sejas-kalendars/tomati/": {
-    "sha256": "087ca133f2823fec912e3f7a62d9e31d4e102c5b76420d44c01c345e8ca531f6",
-    "lastmod": "2026-11-12",
+    "sha256": "111a6bdbc15314f009f70e2d58eeedfc31fde0499ee603ff74514d52afea5f75",
+    "lastmod": "2026-11-13",
     "navigationSha256": "90c886eca98aacd27ba9adc3e6aec1c822f86cc21c37f1b8e76f95cdf13b8018",
     "proseLinksSha256": "01754de023201340a0ff648793609a593ee1fb634a5791612ccf8d6f9782bc43"
   },
   "/sejas-kalendars/zirni/": {
-    "sha256": "ddd8c9129dcdd3f7e522a8ceed825d479bc3dacec5ddb6f602aa472fe8dad632",
-    "lastmod": "2026-11-12",
+    "sha256": "a5f16756f9628b85f0a6adee15dc6e5fe0774473de3f819a37c10b6713067f14",
+    "lastmod": "2026-11-13",
     "navigationSha256": "f1f7a14d27a08922003ec0b0f9a6adb1c3d22cfea3588120b895fad5c712527d",
     "proseLinksSha256": "3f42e4f3c560be5db32b4f8b32de0b3695c57e478260d0d9895582a85aa53f08"
   },
@@ -4386,8 +4386,8 @@
     "proseLinksSha256": "cc3d0453a98785c999bcee6c6394e17cd744a2390475d3e4b5ec0db4ef19dc5b"
   },
   "/stundu-saraksts/": {
-    "sha256": "3af6ef2360e10688a290c7da90ec02e43141ba2833c9bd3d8b9c3e52e0aabee5",
-    "lastmod": "2026-11-12",
+    "sha256": "9a21c56e5fd3d86a1f2b0fda95e063bf5a618110648a61e7f06dfecb8f763326",
+    "lastmod": "2026-11-13",
     "navigationSha256": "21e71148d26d2114b51e2a02271c4e7f633d22f1f62423611eb42cf3f17ed030",
     "proseLinksSha256": "e29a906f8dff4e6ddbcf7e58a7f00512b1fb0d3f01af36842b014dd16aa97c98"
   },
@@ -5166,8 +5166,8 @@
     "proseLinksSha256": "4ddc803c7a7b3e2ffe47df4324209539d110f8677d04636d9593a33f67e0eac0"
   },
   "/varda-dienas/": {
-    "sha256": "770035a29255ae5760053779879f9ea32a36a94dc6c25ae84f77655ba8bbf363",
-    "lastmod": "2026-11-12",
+    "sha256": "dc9e3a5934d83af657e686f04aef2c5afc41fd8a41e51b81fc1520156197ab63",
+    "lastmod": "2026-11-13",
     "navigationSha256": "ca91452e8991738e96b543ad73018829823b8df8cc65438078ee0e86f941e693",
     "proseLinksSha256": "377f877bbdf10a0d8977c0d08958a5aa45f5860e6c7b48f96869d950dc1b4f7c"
   },
@@ -5250,8 +5250,8 @@
     "proseLinksSha256": "8e1ef0ce185005112eaddc9b67efedb141c2ab7fb0cebab49000728f6c12fb4a"
   },
   "/zodiaka-zimes/": {
-    "sha256": "d25f926d564c0834e9dc9badd6a3833bbc8c235eaa667c2cc68419706b0c0cb1",
-    "lastmod": "2026-11-12",
+    "sha256": "3333ec07e78afcbd2c4274dca5cf22a45b5e71faa5f25c23f59ffa7f88d5fcfa",
+    "lastmod": "2026-11-13",
     "navigationSha256": "31807fac97e5558a7c4f20175c0be36850758d572b1b4c65142d25afad346f67",
     "proseLinksSha256": "223368abead297bf7f6329a0bc37214ca1c2a2c0329f320fe7ca968f5661e453"
   },
