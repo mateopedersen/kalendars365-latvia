@@ -406,7 +406,19 @@
         "reviewedDerivativeSha256": "ae3c4d026a57867b9ce5cba4d9b0569de67275ea182c83d7385917e7a01694c8"
       },
       "photoSelectionSource": "https://commons.wikimedia.org/wiki/Category:Views_of_Rēzekne",
-      "locative": "Rēzeknē"
+      "locative": "Rēzeknē",
+      "nightPhoto": {
+        "src": "/assets/cities-night/rezekne-night-d61dec5f6d22.webp",
+        "alt": "Rēzeknes 5. vidusskolas izgaismotie logi un ieeja naktī",
+        "author": "epxpics",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "sourceUrl": "https://www.flickr.com/photos/186895915@N04/49518368757/",
+        "originalUrl": "https://live.staticflickr.com/65535/49518368757_4297ce0f39_o.jpg",
+        "width": 1200,
+        "height": 675,
+        "sha256": "d61dec5f6d22e94b471b14773d15fa1774b830874b1b442af89d75c82dbe0725"
+      }
     },
     {
       "id": "valmiera",
@@ -571,7 +583,19 @@
         "reviewedDerivativeSha256": "673eeff8dd0eeb305bbcbc245eeba0008c829a0afafd207ada1056533c9ae731"
       },
       "photoSelectionSource": "https://www.wikidata.org/wiki/Q191120#P18",
-      "locative": "Jēkabpilī"
+      "locative": "Jēkabpilī",
+      "nightPhoto": {
+        "src": "/assets/cities-night/jekabpils-night-a09a7020dcb1.webp",
+        "alt": "Jēkabpils iela sniegotā naktī ar laternām, apsnigušām automašīnām un gājējiem",
+        "author": "Aigars Mahinovs",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "sourceUrl": "https://www.flickr.com/photos/aigarius/5449265712/",
+        "originalUrl": "https://live.staticflickr.com/5094/5449265712_b6ea48427d_o.jpg",
+        "width": 1200,
+        "height": 675,
+        "sha256": "a09a7020dcb12286a4bd6116bd9771e034911023eb627d4890d0fb4804d1c277"
+      }
     },
     {
       "id": "adazi",
@@ -784,7 +808,19 @@
         "creditLv": "Jānis Sedols; sākotnējais augšupielādētājs — Kikos"
       },
       "photoSelectionSource": "https://www.wikidata.org/wiki/Q411723#P18",
-      "locative": "Aizputē"
+      "locative": "Aizputē",
+      "nightPhoto": {
+        "src": "/assets/cities-night/aizpute-night-c3d0f761080b.webp",
+        "alt": "Aizputes dzirnavdīķis vakara krēslā ar izgaismotām ēkām un atspulgiem ūdenī",
+        "author": "Aivars Gulbis",
+        "license": "REDZĒT licence",
+        "licenseUrl": "https://www.redzet.lv/licence",
+        "sourceUrl": "https://www.redzet.lv/photo/aizputes-dzirnavdikis-ar-koku-un-eku-atspulgu-kresla-V-208-26",
+        "originalUrl": "https://www.redzet.lv/images/large/7/44/V-208-26.jpg",
+        "width": 1000,
+        "height": 562,
+        "sha256": "c3d0f761080bfda1f1af8f3149cb6e74074041971bf1729fa3b267dddf8c2785"
+      }
     },
     {
       "id": "akniste",
@@ -1231,7 +1267,19 @@
         "reviewedDerivativeSha256": "747a24c9e7457303fadcfbd13e32961d0508fdcb112506c90553e84b963f7a3b"
       },
       "photoSelectionSource": "https://www.wikidata.org/wiki/Q498256#P18",
-      "locative": "Bauskā"
+      "locative": "Bauskā",
+      "nightPhoto": {
+        "src": "/assets/cities-night/bauska-night-c89c60fad029.webp",
+        "alt": "Bauskas pils naktī, apsnigusi pieeja un izgaismotie torņi",
+        "author": "Janispalulis",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bauskas_pils_miglas_nakt%C4%AB.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/77/Bauskas_pils_miglas_nakt%C4%AB.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 1200,
+        "height": 675,
+        "sha256": "c89c60fad029b59cac440b2d3aa6e48179cdbd63796864050a76c5537f5dabf2"
+      }
     },
     {
       "id": "broceni",
@@ -1631,7 +1679,19 @@
         "reviewedDerivativeSha256": "204bb3453c25766d163886da4a9ade18f220a6d94fec2de74fc980ac620b21bd"
       },
       "photoSelectionSource": "https://www.wikidata.org/wiki/Q757049#P18",
-      "locative": "Grobiņā"
+      "locative": "Grobiņā",
+      "nightPhoto": {
+        "src": "/assets/cities-night/grobina-night-60767a434fef.webp",
+        "alt": "Grobiņas pilsdrupas ziemas naktī ar izgaismotu arku un sniegu priekšplānā",
+        "author": "---=XEON=---",
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Grobina_Castle_Ruin.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/46/Grobina_Castle_Ruin.jpg",
+        "width": 1200,
+        "height": 675,
+        "sha256": "60767a434fef778786d698aa55f75d85e7f7bec9d86589b5a302c69c046a4821"
+      }
     },
     {
       "id": "gulbene",
@@ -1678,7 +1738,19 @@
         "reviewedDerivativeSha256": "c3f5e0d68b24bd7d128fd990cfc5a83934f73fdff0913403281983851f9b6763"
       },
       "photoSelectionSource": "https://www.wikidata.org/wiki/Q753010#P18",
-      "locative": "Gulbenē"
+      "locative": "Gulbenē",
+      "nightPhoto": {
+        "src": "/assets/cities-night/gulbene-night-894ccb047cd1.webp",
+        "alt": "Gulbenes pils parka dīķis un izgaismotie celiņi naktī",
+        "author": "Aija Pastare",
+        "license": "REDZĒT licence",
+        "licenseUrl": "https://www.redzet.lv/licence",
+        "sourceUrl": "https://www.redzet.lv/photo/gulbenes-pils-parks-nakti-V-493-18-AP",
+        "originalUrl": "https://www.redzet.lv/images/large/7/44/V-493-18-AP.jpg",
+        "width": 1000,
+        "height": 562,
+        "sha256": "894ccb047cd184df5348d1b58481502fbf5ca5c9b9342d323bcdeab2e3bcdb64"
+      }
     },
     {
       "id": "iecava",
@@ -2007,7 +2079,19 @@
         "reviewedDerivativeSha256": "58d0f72b45445cb2e82069a6bacbbcfbcd6a90eeb960bb264f50428bc99c94b2"
       },
       "photoSelectionSource": "https://www.wikidata.org/wiki/Q504681#P18",
-      "locative": "Koknesē"
+      "locative": "Koknesē",
+      "nightPhoto": {
+        "src": "/assets/cities-night/koknese-night-92ff4a337f83.webp",
+        "alt": "Kokneses pilsdrupas naktī ar izgaismotiem mūriem un akmens arkām",
+        "author": "Ainars Briedis",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kokneses_pilsdrupas_nakt%C4%AB_(Zenit_E)_02.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Kokneses_pilsdrupas_nakt%C4%AB_%28Zenit_E%29_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 1200,
+        "height": 675,
+        "sha256": "92ff4a337f83b78396288fa439527a1ef42028996287600ece0f830064db2e93"
+      }
     },
     {
       "id": "kraslava",
@@ -2254,7 +2338,19 @@
         "reviewedDerivativeSha256": "201e7ecf03a186c55d4371898c5a2c551be8a472ead347275b2841be857a3768"
       },
       "photoSelectionSource": "https://www.wikidata.org/wiki/Q597346#P18",
-      "locative": "Lielvārdē"
+      "locative": "Lielvārdē",
+      "nightPhoto": {
+        "src": "/assets/cities-night/lielvarde-night-a45fa2d52cfc.webp",
+        "alt": "Lielvārdes Avotu ielas daudzdzīvokļu mājas naktī ar izgaismotiem logiem un ielu apgaismojumu",
+        "author": "Vever2",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Avotu_Street_Microdistrict_in_Lielv%C4%81rde_During_Spring_Night.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/82/Avotu_Street_Microdistrict_in_Lielv%C4%81rde_During_Spring_Night.jpg",
+        "width": 1200,
+        "height": 675,
+        "sha256": "a45fa2d52cfcf6b8b544ccccb8cfe201dcd56fe5a759c0616e92b830d7d845f9"
+      }
     },
     {
       "id": "ligatne",
@@ -2537,7 +2633,19 @@
         "creditLv": "Apogs88 — sākotnējais augšupielādētājs latviešu Vikipēdijā"
       },
       "photoSelectionSource": "https://www.wikidata.org/wiki/Q586048#P18",
-      "locative": "Madonā"
+      "locative": "Madonā",
+      "nightPhoto": {
+        "src": "/assets/cities-night/madona-night-e7d3ee592d62.webp",
+        "alt": "Madonas Ziemas pasaku parks naktī ar izgaismotu pilsētas nosaukumu un eglītēm",
+        "author": "MADONARPTV",
+        "license": "Creative Commons Attribution (YouTube)",
+        "licenseUrl": "https://www.youtube.com/t/creative_commons",
+        "sourceUrl": "https://www.youtube.com/watch?v=BgiWpx47cTY",
+        "originalUrl": "https://www.youtube.com/watch?v=BgiWpx47cTY&t=4s",
+        "width": 1200,
+        "height": 675,
+        "sha256": "e7d3ee592d620bb2772a1beffc0b784977bb78984024f19315fb68e4bd55b597"
+      }
     },
     {
       "id": "mazsalaca",
@@ -2725,7 +2833,19 @@
         "reviewedDerivativeSha256": "e683916250eed71c8281c7b20825448d362d27a99c1fcf3a8e73f37bba216b43"
       },
       "photoSelectionSource": "https://www.wikidata.org/wiki/Q840717#P18",
-      "locative": "Pāvilostā"
+      "locative": "Pāvilostā",
+      "nightPhoto": {
+        "src": "/assets/cities-night/pavilosta-night-109f7bba96ca.webp",
+        "alt": "Pāvilostas jahtu osta naktī ar apgaismotām piestātnēm un atspulgiem ūdenī",
+        "author": "Aivars Gulbis",
+        "license": "REDZĒT licence",
+        "licenseUrl": "https://www.redzet.lv/licence",
+        "sourceUrl": "https://www.redzet.lv/photo/pavilostas-osta-nakti-V-530-22",
+        "originalUrl": "https://www.redzet.lv/images/large/7/44/V-530-22.jpg?v=1761725376",
+        "width": 1000,
+        "height": 562,
+        "sha256": "109f7bba96ca35ffe7383c695dedcf29ac985f899e85c4162bb00f4c9caf829b"
+      }
     },
     {
       "id": "piltene",
@@ -2820,7 +2940,19 @@
         "reviewedDerivativeSha256": "2abca54db697336974984090c1235cc19ad986852b84720422d5585a5b9cd833"
       },
       "photoSelectionSource": "https://www.wikidata.org/wiki/Q567747#P18",
-      "locative": "Pļaviņās"
+      "locative": "Pļaviņās",
+      "nightPhoto": {
+        "src": "/assets/cities-night/plavinas-night-83788e885833.webp",
+        "alt": "Pļaviņu Daugavas krastmala vakarā ar pilsētas gaismām un atspulgiem ūdenī",
+        "author": "Aivars Gulbis",
+        "license": "REDZĒT licence",
+        "licenseUrl": "https://www.redzet.lv/licence",
+        "sourceUrl": "https://www.redzet.lv/photo/daugava-pie-plavinam-nakti-U-340-24",
+        "originalUrl": "https://www.redzet.lv/images/large/2/17/U-340-24.jpg?v=1767689251",
+        "width": 1000,
+        "height": 562,
+        "sha256": "83788e8858335bbb6323beee6ef930a61506d3f3d5cc3ff795d5bd8633af4d41"
+      }
     },
     {
       "id": "preili",
@@ -3114,7 +3246,19 @@
         "reviewedDerivativeSha256": "4489111bc77bcecc83907ffa787d2f2a968e77461ef9a1cca1d6eae0314f9028"
       },
       "photoSelectionSource": "https://www.wikidata.org/wiki/Q732986#P18",
-      "locative": "Salaspilī"
+      "locative": "Salaspilī",
+      "nightPhoto": {
+        "src": "/assets/cities-night/salaspils-night-2dafdf5d38ca.webp",
+        "alt": "Salaspils Mārtiņa Lutera baznīca ziemas naktī ar apgaismotu torni un svētku gaismām",
+        "author": "Matthew (@mharris97)",
+        "license": "Unsplash License",
+        "licenseUrl": "https://unsplash.com/license",
+        "sourceUrl": "https://unsplash.com/photos/a-white-church-illuminated-at-night-with-festive-lights-RWRp2i-L3Ok",
+        "originalUrl": "https://images.unsplash.com/photo-1767887421857-8bd80bd0228f?auto=format&fit=crop&fm=jpg&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&ixlib=rb-4.1.0&q=60&w=3000",
+        "width": 1200,
+        "height": 675,
+        "sha256": "2dafdf5d38cadcb5a5e7d40e4364cb8fda0eef284583b971a2189053f3b5f956"
+      }
     },
     {
       "id": "saldus",
@@ -3161,7 +3305,19 @@
         "reviewedDerivativeSha256": "f63ecab7c3a4c400996b9f7fdc8831bd8f9e1478f4c08e5be0c78bce168fc445"
       },
       "photoSelectionSource": "https://www.wikidata.org/wiki/Q744247#P18",
-      "locative": "Saldū"
+      "locative": "Saldū",
+      "nightPhoto": {
+        "src": "/assets/cities-night/saldus-night-1d1c6f0df86d.webp",
+        "alt": "Izgaismota Saldus Svētā Jāņa baznīca starp kokiem naktī",
+        "author": "Aivars Gulbis",
+        "license": "REDZĒT licence",
+        "licenseUrl": "https://www.redzet.lv/licence",
+        "sourceUrl": "https://www.redzet.lv/photo/saldus-sv-jana-luteranu-baznica-nakti-V-350-24",
+        "originalUrl": "https://www.redzet.lv/images/large/7/14/V-350-24.jpg",
+        "width": 1000,
+        "height": 562,
+        "sha256": "1d1c6f0df86d3e4a1159dabf79fc3e15f705be52b7d5846093177172248af06a"
+      }
     },
     {
       "id": "saulkrasti",
@@ -3208,7 +3364,19 @@
         "reviewedDerivativeSha256": "72b8b6bfc74b6d58e84a65ba7aba6db9ef4d79666f76f3ba9d82042546082b8e"
       },
       "photoSelectionSource": "https://www.wikidata.org/wiki/Q840823#P18",
-      "locative": "Saulkrastos"
+      "locative": "Saulkrastos",
+      "nightPhoto": {
+        "src": "/assets/cities-night/saulkrasti-night-88831646df8f.webp",
+        "alt": "Skultes ostas ziemeļu mola zīme zem zvaigžņotām nakts debesīm Saulkrastos",
+        "author": "Alex Petunov",
+        "license": "Creative Commons Attribution (YouTube)",
+        "licenseUrl": "https://www.youtube.com/t/creative_commons",
+        "sourceUrl": "https://www.youtube.com/watch?v=zu012VtHY5c",
+        "originalUrl": "https://www.youtube.com/watch?v=zu012VtHY5c&t=3s",
+        "width": 1200,
+        "height": 675,
+        "sha256": "88831646df8f081bbf98f0ebe963f9eda013cad4f72369f84a7f03906a16d0b0"
+      }
     },
     {
       "id": "seda",
@@ -3302,7 +3470,19 @@
         "reviewedDerivativeSha256": "909cbada153463de7f9b130eac44a993d8512ac15ed9ef419961dc91f105b221"
       },
       "photoSelectionSource": "https://www.wikidata.org/wiki/Q465698#P18",
-      "locative": "Siguldā"
+      "locative": "Siguldā",
+      "nightPhoto": {
+        "src": "/assets/cities-night/sigulda-night-95c5f8f951d3.webp",
+        "alt": "Siguldas autoosta un Laimas pulkstenis naktī ar izgaismoto laukumu",
+        "author": "karel291",
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sigulda,_Siguldas_pils%C4%93ta,_LV-2150,_Latvia_-_panoramio_(47).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Sigulda%2C_Siguldas_pils%C4%93ta%2C_LV-2150%2C_Latvia_-_panoramio_%2847%29.jpg",
+        "width": 1200,
+        "height": 675,
+        "sha256": "95c5f8f951d3d6d4264a08d79aac01bfd4d8fad9f33758d89e9c023a6875dc7f"
+      }
     },
     {
       "id": "skrunda",
@@ -3349,7 +3529,19 @@
         "reviewedDerivativeSha256": "51cbdd10a6a8f79270f946be086fa9769c44143bd90a924dc22615280666decb"
       },
       "photoSelectionSource": "https://www.wikidata.org/wiki/Q267871#P18",
-      "locative": "Skrundā"
+      "locative": "Skrundā",
+      "nightPhoto": {
+        "src": "/assets/cities-night/skrunda-night-3f0a3cedc91e.webp",
+        "alt": "Skrundas muižas pils un izgaismots priekšdārzs naktī",
+        "author": "Aivars Gulbis",
+        "license": "REDZĒT licence",
+        "licenseUrl": "https://www.redzet.lv/licence",
+        "sourceUrl": "https://www.redzet.lv/photo/skrundas-muizas-pils-nakti-V-332-20",
+        "originalUrl": "https://www.redzet.lv/images/large/7/14/V-332-20.jpg",
+        "width": 995,
+        "height": 560,
+        "sha256": "3f0a3cedc91e5b5f203e867831855ddc8e077d2de930c8789dbcf3e9ca02d7c0"
+      }
     },
     {
       "id": "smiltene",
@@ -3396,7 +3588,19 @@
         "reviewedDerivativeSha256": "9da1b97dee959b5494756f66828bb101470d4f3dd06988a87d1e7389a4f798a9"
       },
       "photoSelectionSource": "https://www.wikidata.org/wiki/Q840806#P18",
-      "locative": "Smiltenē"
+      "locative": "Smiltenē",
+      "nightPhoto": {
+        "src": "/assets/cities-night/smiltene-night-706e9ba2a31b.webp",
+        "alt": "Smiltenes jumti, baznīcas tornis un izgaismotās ielas ziemas naktī",
+        "author": "Guntars Mednis",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Smiltene_nakt%C4%AB_-_panoramio.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Smiltene_nakt%C4%AB_-_panoramio.jpg",
+        "width": 1200,
+        "height": 675,
+        "sha256": "706e9ba2a31b23acba20f3a28d84f4f3a97d50acc65ab080bf9e3ffd58b52059"
+      }
     },
     {
       "id": "staicele",
@@ -3631,7 +3835,19 @@
         "reviewedDerivativeSha256": "378b431cc83d72bf3e77a00505f062cf62c1b16a59355ba243d9d67224d78de4"
       },
       "photoSelectionSource": "https://www.wikidata.org/wiki/Q520405#P18",
-      "locative": "Talsos"
+      "locative": "Talsos",
+      "nightPhoto": {
+        "src": "/assets/cities-night/talsi-night-6c38e5ef19fb.webp",
+        "alt": "Talsu ezera promenāde un izgaismotais baznīcas tornis naktī",
+        "author": "EdgarsLacis",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Talsu_pilskalns_un_senpils%C4%93tas_promen%C4%81de_nakt%C4%AB.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Talsu_pilskalns_un_senpils%C4%93tas_promen%C4%81de_nakt%C4%AB.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "width": 1200,
+        "height": 675,
+        "sha256": "6c38e5ef19fb5d583306098629d4d641a4eb49b64f2258a86f81d832e15474e9"
+      }
     },
     {
       "id": "tukums",
@@ -4019,7 +4235,19 @@
         "reviewedDerivativeSha256": "0dd2544bc871f04927fa3ff5399c0bfeb517c1b2a49b7acaab9fad2879f08fdb"
       },
       "photoSelectionSource": "https://www.wikidata.org/wiki/Q836513#P18",
-      "locative": "Viļānos"
+      "locative": "Viļānos",
+      "nightPhoto": {
+        "src": "/assets/cities-night/vilani-night-cfac17812796.webp",
+        "alt": "Izgaismota Viļānu katoļu baznīca un tās ieejas vārti naktī",
+        "author": "Aivars Gulbis",
+        "license": "REDZĒT licence",
+        "licenseUrl": "https://www.redzet.lv/licence",
+        "sourceUrl": "https://www.redzet.lv/photo/vilanu-katolu-baznica-nakti-V-1475-23",
+        "originalUrl": "https://www.redzet.lv/images/large/7/14/V-1475-23.jpg",
+        "width": 1000,
+        "height": 562,
+        "sha256": "cfac178127967dcf56cd76ce6fbf0396d533ddd8887a5f1cebb8e70d32bceeb9"
+      }
     },
     {
       "id": "zilupe",

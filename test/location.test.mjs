@@ -72,3 +72,11 @@ test('foreign local date, DST and sun/moon events use the same civil day',()=>{
  }
  assert.notEqual(formatTime(new Date('2027-01-01T12:00Z'),'America/New_York'),formatTime(new Date('2027-01-01T12:00Z'),'Europe/Riga'));
 });
+
+
+test('foreign homepage visitors see Riga photographs while Latvian manual preferences remain authoritative',async()=>{
+ const foreign=core.fromEdge(edge('Istanbul',{country:'TR',latitude:'41.00823',longitude:'28.97836',timezone:'Europe/Istanbul'}),cities);
+ const a=setup(async()=>available(foreign));await a.controller.start();assert.equal(a.controller.current.id,'riga');assert.equal(a.controller.current.timeZone,'Europe/Riga');assert.equal(a.controller.source,'country-fallback');assert.equal(a.store.size,0);
+ a.controller.manual('ventspils');assert.equal(a.controller.current.id,'ventspils');assert.equal(a.store.get(core.key),'ventspils');
+ const b=setup(async()=>available(foreign),'kuldiga');await b.controller.start();assert.equal(b.controller.current.id,'kuldiga');assert.equal(b.controller.source,'manual');
+});

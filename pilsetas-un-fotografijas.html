@@ -51,7 +51,7 @@ noindex: true
     {% for city in site.data.cities.cities %}{% if city.nightPhoto %}{% assign photo = city.nightPhoto %}
     <article id="{{ city.id }}-nakts" data-night-photo="{{ city.id }}">
       <img src="{{ photo.src }}" alt="{{ photo.alt | escape }}" width="1200" height="675" loading="lazy" decoding="async">
-      <div><h2>{{ city.name }} pēc saulrieta</h2><p>{{ photo.author | escape }} · <a href="{{ photo.licenseUrl | escape }}" rel="license">{{ photo.license | escape }}</a></p><p><a href="{{ photo.sourceUrl | escape }}">Avota fotogrāfija Wikimedia Commons</a></p></div>
+      <div><h2>{{ city.name }} pēc saulrieta</h2><p>{{ photo.author | escape }} · <a href="{{ photo.licenseUrl | escape }}" rel="license">{{ photo.license | escape }}</a></p><p><a href="{{ photo.sourceUrl | escape }}">Fotogrāfijas oriģinālais avots</a></p></div>
     </article>
     {% endif %}{% endfor %}
   </div>

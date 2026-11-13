@@ -1,3 +1,11 @@
+// Photo periods use absolute solar instants for the selected city's local day.
+function selectCityPhoto(city,solarTimes,now=new Date()){
+ const stamp=Number(now),rise=Number(solarTimes?.rise),set=Number(solarTimes?.set);
+ const valid=solarTimes?.rise!=null&&solarTimes?.set!=null&&Number.isFinite(stamp)&&Number.isFinite(rise)&&Number.isFinite(set)&&rise!==set;
+ const daytime=valid&&(rise<set?stamp>=rise&&stamp<set:stamp>=rise||stamp<set);
+ const photo=valid&&!daytime&&city.nightPhoto?city.nightPhoto:city.photo;
+ return{photo,photoPeriod:!valid?'archive':daytime?'day':city.nightPhoto?'night':'archive'};
+}
 // Keep the last decoded photograph visible until the next accepted image is ready.
 // Cached DOM image nodes make repeat selections a synchronous, single-node swap.
 function createCityPhotoLoader({image,figure,status,makeImage=()=>new Image(),onDisplay=()=>{},limit=16}){
@@ -42,7 +50,7 @@ function createCityPhotoLoader({image,figure,status,makeImage=()=>new Image(),on
  }
  return{update,preload:city=>load(city,'low').promise,hide:()=>{version++;displayed.hidden=true;}};
 }
-if(typeof module==='object'&&module.exports)module.exports={createCityPhotoLoader};
+if(typeof module==='object'&&module.exports)module.exports={createCityPhotoLoader,selectCityPhoto};
 (()=>{'use strict';
  if(typeof window!=='object'||typeof document!=='object')return;
  const cities=Array.isArray(window.K365Cities)?window.K365Cities:[];
@@ -65,9 +73,7 @@ if(typeof module==='object'&&module.exports)module.exports={createCityPhotoLoade
   function updatePhoto(now=new Date()){
    if(!city||!solarTimes||Date.now()<photoRetryAt)return;
    const {rise,set}=solarTimes;
-   const daytime=rise&&set?(rise<set?now>=rise&&now<set:now<set||now>=rise):true;
-   const photo=!daytime&&city.nightPhoto?city.nightPhoto:city.photo;
-   const period=daytime?'day':city.nightPhoto?'night':'archive';
+   const {photo,photoPeriod:period}=selectCityPhoto(city,solarTimes,now);
    const key=[city.id,period,photo?.src].join('|');
    if(key===photoKey)return;
    photoKey=key;clearTimeout(photoTimer);
@@ -101,7 +107,7 @@ if(typeof module==='object'&&module.exports)module.exports={createCityPhotoLoade
   }
   function apply({city:next,source}){
    card.dataset.locationState=source;get('city-location-auto').disabled=source==='detecting';
-   get('city-location-status').textContent=source==='detecting'?'Nosaka pilsētu pēc IP…':source==='manual'?'Tava izvēlētā pilsēta.':source==='ip'?'Aptuvenā pilsēta pēc IP.':'Pilsētu pēc IP neizdevās noteikt. Izvēlies to sarakstā.';
+   get('city-location-status').textContent=source==='detecting'?'Nosaka pilsētu pēc IP…':source==='manual'?'Tava izvēlētā pilsēta.':source==='ip'?'Aptuvenā pilsēta pēc IP.':source==='country-fallback'?'Ārpus Latvijas parādām Rīgu. Izvēlies pilsētu sarakstā.':'Pilsētu pēc IP neizdevās noteikt. Izvēlies to sarakstā.';
    if(!next){if(!select.querySelector('[data-location-pending]')){const option=document.createElement('option');option.value='';option.textContent='Nosaka pilsētu…';option.disabled=true;option.hidden=true;option.dataset.locationPending='true';select.prepend(option);}select.value='';get('city-photo-caption').textContent='Nosaka tavu pilsētu…';photos.hide();return;}
    if(source==='detecting')return;
    const changed=city?.id!==next.id;city=next;formatters(city.timeZone||'Europe/Riga');

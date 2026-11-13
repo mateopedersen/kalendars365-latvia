@@ -34,7 +34,7 @@
   const fallback=()=>publish(prepare(known('riga')||cities[0]),'fallback');
   async function detect(){
    const token=++revision;source='detecting';onChange({city:current,source});
-   try{const data=await fetchLocation();if(token!==revision)return current;const match=data?.status==='available'&&(known(data.city?.id)||externalCity(data.city));if(!match)return fallback();return publish(match.external?match:prepare(match),'ip');}
+   try{const data=await fetchLocation();if(token!==revision)return current;const match=data?.status==='available'&&(known(data.city?.id)||externalCity(data.city));if(!match)return fallback();if(match.external)return publish(prepare(known('riga')||cities[0]),'country-fallback');return publish(prepare(match),'ip');}
    catch{if(token===revision)return fallback();return current;}
   }
   function manual(id){const match=known(id)||(current?.external&&current.id===id?current:null);if(!match)return false;++revision;try{if(!match.external)storage?.setItem(key,match.id);}catch{}publish(match.external?match:prepare(match),'manual');return true;}
