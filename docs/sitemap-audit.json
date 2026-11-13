@@ -6,8 +6,8 @@
   "indexablePages": 898,
   "htmlDocuments": 901,
   "imagePages": 898,
-  "uniqueImages": 4405,
-  "imageReferences": 9094,
+  "uniqueImages": 4406,
+  "imageReferences": 9095,
   "excluded": [
     "/404.html",
     "/500.html",
@@ -19,8 +19,8 @@
       "sha256": "85d5640dc6a3c561bdc4cbd413da191d71d05c1d4c82f62dd68c4d63847622e1"
     },
     "image-sitemap.xml": {
-      "bytes": 1280260,
-      "sha256": "e2026e63a9a32a487346768513f93bf73cdc608205021169f0aaec2bacd66376"
+      "bytes": 1280383,
+      "sha256": "c53cba01ecd1ecfe84730c21e48155f0b5a20df3a050b4826f5eaf831b7967c2"
     }
   },
   "families": {

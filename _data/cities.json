@@ -4000,7 +4000,19 @@
         "reviewedDerivativeSha256": "e6c24cde0105d86d6b3c73732c9ea526292134bbe30e2747f4b940225a9a5892"
       },
       "photoSelectionSource": "https://www.wikidata.org/wiki/Q323774#P18",
-      "locative": "Valkā"
+      "locative": "Valkā",
+      "nightPhoto": {
+        "src": "/assets/cities-night/valka-night-159351538c76.webp",
+        "alt": "Valkas kultūras nams un apgaismots laukums ar strūklaku naktī",
+        "author": "Uģis Raibacis",
+        "license": "Creative Commons Attribution (YouTube)",
+        "licenseUrl": "https://www.youtube.com/t/creative_commons",
+        "sourceUrl": "https://www.youtube.com/watch?v=TRuZAvbM7Hw",
+        "originalUrl": "https://www.youtube.com/watch?v=TRuZAvbM7Hw&t=10s",
+        "width": 1200,
+        "height": 675,
+        "sha256": "159351538c76b9f895255dfcefbc42cdac85c4706c535ab70833b2a10cb8c944"
+      }
     },
     {
       "id": "vangazi",

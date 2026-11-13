@@ -577,5 +577,25 @@
     "changes": "Cropped original to remove excess foreground and sky, resized without upscaling to 1200×675 and compressed as WebP. No change to scene, lighting or time of day.",
     "licenseConditions": "Unsplash licence permits free commercial and noncommercial use, copying, modification and distribution. Cannot sell the image without significant modification or compile a competing image service. Photographer and source attribution retained voluntarily.",
     "reviewedAt": "2026-11-13"
+  },
+  {
+    "cityId": "valka",
+    "sourceTitle": "🇱🇻 Valka🇱🇻Lāpu gājiens🇱🇻 11. novembris / 2025🇱🇻 — frame at 00:10",
+    "sourceUrl": "https://www.youtube.com/watch?v=TRuZAvbM7Hw",
+    "originalUrl": "https://www.youtube.com/watch?v=TRuZAvbM7Hw&t=10s",
+    "downloadUrl": "https://www.youtube.com/watch?v=TRuZAvbM7Hw&t=10s",
+    "downloadSha256": "6157cf83e8de9ad2b1aab4560281bee837cbefff1b17bc15fb63c0cc696b629b",
+    "author": "Uģis Raibacis",
+    "license": "Creative Commons Attribution (YouTube)",
+    "licenseUrl": "https://www.youtube.com/t/creative_commons",
+    "identityEvidence": "Uploader explicitly identifies Valka and the 11 November 2025 torch procession. Native pixels matched to the official Visit Valga Valka photograph of Valkas pilsētas kultūras nams, Emīla Dārziņa iela 8, coordinates 57.7739105,26.0179478: https://visitvalgavalka.com/lv/turisma-objekti/valkas-pilsetas-kulturas-nams/ . Matching features include broad yellow two-storey facade, central pediment with arched upper window, two white Ionic columns, arched upper side windows and circular foreground fountain. Independent municipality event announcement confirms torch procession in Valka at 18:00 on 11 November 2025: https://www.valka.lv/lv/notikums/lacplesa-dienas-lapu-gajiens-valka . Official tourism reference used for identity only, not republished.",
+    "pixelReview": "The actual 1920×1080 native source frame at 00:10 and final 1200×675 WebP were inspected individually. Black night sky; clearly visible illuminated Valka culture house, central columns, square, benches, lamps and fountain water. A few small distant visitors are incidental. No windshield, road-only/headlight view, wrong-city substitution, exposure darkening, illustration or generation. Water movement is natural; stationary architecture remains identifiable and clear at displayed size.",
+    "asset": "/assets/cities-night/valka-night-159351538c76.webp",
+    "assetSha256": "159351538c76b9f895255dfcefbc42cdac85c4706c535ab70833b2a10cb8c944",
+    "contentBounds": null,
+    "changes": "Extracted one still at 00:10 from the source video; resized without upscaling from 1920×1080 to 1200×675 and compressed as WebP. Full 16:9 scene retained. No day-to-night alteration or scene edits.",
+    "frameTimestampSeconds": 10,
+    "licenseConditions": "Individual watch metadata explicitly states Creative Commons Attribution licence (reuse allowed). Credit Uģis Raibacis and source video, link the licence, and state still extraction and resizing. Source does not state a CC version; none invented.",
+    "reviewedAt": "2026-11-13"
   }
 ]
