@@ -48,6 +48,8 @@ previous_revisions = File.exist?('_data/page-revisions.json') ? JSON.parse(File.
 previous_prose = File.exist?('_data/page-guides.json') ? JSON.parse(File.read('_data/page-guides.json')).fetch('pages',{}) : {}
 page_revisions = {}
 MONTHS = %w[janvāris februāris marts aprīlis maijs jūnijs jūlijs augusts septembris oktobris novembris decembris].freeze
+MONTHS_LOCATIVE = %w[janvārī februārī martā aprīlī maijā jūnijā jūlijā augustā septembrī oktobrī novembrī decembrī].freeze
+WEEKDAYS_LOCATIVE = %w[pirmdienā otrdienā trešdienā ceturtdienā piektdienā sestdienā svētdienā].freeze
 GEN = %w[janvāra februāra marta aprīļa maija jūnija jūlija augusta septembra oktobra novembra decembra].freeze
 SLUGS = %w[janvaris februaris marts aprilis maijs junijs julijs augusts septembris oktobris novembris decembris].freeze
 DAYS = %w[P. O. T. C. Pk. S. Sv.].freeze
@@ -622,9 +624,13 @@ ROUTES.each do |r|
  title="Kalendārs #{y}" if f=='year'
  desc=editorial.fetch('description',desc)
  if f=='occasion' && (article=OCCASIONS.find{|item|item['slug']==slug})
-  if (row=article.fetch('dates',[]).find{|item|item['date'].start_with?('2027-')})
-   date=Date.parse(row['date']);weekday=%w[pirmdiena otrdiena trešdiena ceturtdiena piektdiena sestdiena svētdiena][date.cwday-1]
-   desc="#{article['title']} 2027. gadā: kad? #{date.day}. #{MONTHS[date.month-1]} (#{weekday}). Apskati visus datumus 2027.–2030. gadā, dienas nozīmi un statusu Latvijā."
+  dates_2027=article.fetch('dates',[]).select{|item|item['date'].start_with?('2027-')}.uniq{|item|item['date']}
+  if dates_2027.any?
+   answer=dates_2027.map do |row|
+    date=Date.parse(row['date']);weekday=WEEKDAYS_LOCATIVE[date.cwday-1]
+    "#{date.day}. #{MONTHS_LOCATIVE[date.month-1]} (#{weekday})"
+   end.join('; ')
+   desc="#{article['title']} 2027. gadā: kad? #{answer}. Apskati visus datumus 2027.–2030. gadā, dienas nozīmi un statusu Latvijā."
   else
    desc="#{article['title']} 2027.–2030. gadā: kad? Skati publicētos datumus un svētku statusu Latvijā. Vēl neapstiprināti norises datumi ir norādīti atsevišķi."
   end
@@ -639,8 +645,11 @@ ROUTES.each do |r|
  if f=='latvia_cultural' && (article=LATVIA_EXTRA_PAGES[p])
   dates=cultural_calendar_dates(article,2027)
   if dates.any?
-   date=Date.parse(dates.first.fetch('date'));weekday=%w[pirmdiena otrdiena trešdiena ceturtdiena piektdiena sestdiena svētdiena][date.cwday-1]
-   desc="#{article['h1']} 2027. gadā: kad? #{date.day}. #{MONTHS[date.month-1]} (#{weekday}). Salīdzini 2027.–2030. gada datumus, kalendāra noteikumus un dienas nozīmi."
+   answer=dates.uniq{|item|item['date']}.map do |row|
+    date=Date.parse(row.fetch('date'));weekday=WEEKDAYS_LOCATIVE[date.cwday-1]
+    "#{date.day}. #{MONTHS_LOCATIVE[date.month-1]} (#{weekday})"
+   end.join('; ')
+   desc="#{article['h1']} 2027. gadā: kad? #{answer}. Salīdzini 2027.–2030. gada datumus, kalendāra noteikumus un dienas nozīmi."
   end
  end
  if f=='horoscope' && (profile=HOROSCOPE_PROFILES.find{|item|item['slug']==slug})

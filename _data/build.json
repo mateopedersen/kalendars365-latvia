@@ -1,6 +1,6 @@
 {
-  "asset_version": "edd0744f2899092a",
-  "sha256": "edd0744f2899092a873794f5841c3fb0e37e3dfb7e96ecdfefcdaab5cfb2af77",
+  "asset_version": "377be15d45eafecf",
+  "sha256": "377be15d45eafecf2a2728da37cd1acdae174542c00802f84e2bb4f82bb9bb18",
   "files": {
     "assets/a3-gallery.css": "1889edd3db55a0a1473cc6711268699d2b19129115f3ab0f59d11f1aa9374c37",
     "assets/action-icons.js": "4527242b10cdfe3992943ef06d2d62288024237a3c29c0221f00f8277f11ad97",
@@ -5930,7 +5930,7 @@
     "assets/school-planner.mjs": "330b1fb5b36dce44b5dcf74f5c78a3e2358fb1d1c387ad44bc259e0468a69b38",
     "assets/school.css": "094d512d1caa38609cd0b6b066a5162de3147c34e7168e99deb21e71dc5f45e4",
     "assets/search-core.js": "57f6430d0173f67560e2c3099fcbee020f8541b735539babdeec03b0307e8e91",
-    "assets/search-index.json": "6099583f2346e1142b37dfd680a118f44ced921aaea6ba32e8f2c132bf3a6470",
+    "assets/search-index.json": "bbeff52f13fcaec16a1f044f982fc2086b8c181d98ec4f2b2e6f9557cdd1dc25",
     "assets/search-worker.js": "abdefc855b0900760b8d878b3b06028f59aa55808430825fc2f188200d91294a",
     "assets/search.css": "c4dd1c8a5728b47bf4d609a01ea34c42f7c5aaa203b2cd4251713134d8b31749",
     "assets/season-cards.mjs": "eff47ae2d0eec9d98963236ec3dd61a6dbe703eae42b5d6bda442ef9e4227224",
