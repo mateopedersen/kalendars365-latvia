@@ -621,6 +621,14 @@ ROUTES.each do |r|
  title=editorial.fetch('title',title)
  title="Kalendārs #{y}" if f=='year'
  desc=editorial.fetch('description',desc)
+ if f=='occasion' && (article=OCCASIONS.find{|item|item['slug']==slug})
+  if (row=article.fetch('dates',[]).find{|item|item['date'].start_with?('2027-')})
+   date=Date.parse(row['date']);weekday=%w[pirmdiena otrdiena trešdiena ceturtdiena piektdiena sestdiena svētdiena][date.cwday-1]
+   desc="#{article['title']} 2027. gadā: kad? #{date.day}. #{MONTHS[date.month-1]} (#{weekday}). Apskati visus datumus 2027.–2030. gadā, dienas nozīmi un statusu Latvijā."
+  else
+   desc="#{article['title']} 2027.–2030. gadā: kad? Skati publicētos datumus un svētku statusu Latvijā. Vēl neapstiprināti norises datumi ir norādīti atsevišķi."
+  end
+ end
  if p.start_with?('/darba-dienu-kalendars/')
   month_locative=%w[janvārī februārī martā aprīlī maijā jūnijā jūlijā augustā septembrī oktobrī novembrī decembrī]
   title=m ? "Darba dienas #{y}. gada #{month_locative[m-1]}" : f=='work_year' ? "Darba dienas un stundas #{y}" : 'Darba dienu kalendārs Latvijā'
@@ -628,8 +636,15 @@ ROUTES.each do |r|
   desc="Darba dienas, plānotās stundas un Latvijas svētku brīvdienas #{m ? "#{y}. gada #{month_locative[m-1]}" : f=='work_year' ? "#{y}. gadā" : '2027.–2030. gadā'}. Pielāgo nedēļas grafiku, pirmssvētku saīsinājumu un aprēķini savu periodu."
   desc='Aprēķini darba dienas un stundas, salīdzini datumus vai pieskaiti laiku. Latvijas svētki un tavs darba grafiks vienā vietā.' unless m || f=='work_year'
  end
+ if f=='latvia_cultural' && (article=LATVIA_EXTRA_PAGES[p])
+  dates=cultural_calendar_dates(article,2027)
+  if dates.any?
+   date=Date.parse(dates.first.fetch('date'));weekday=%w[pirmdiena otrdiena trešdiena ceturtdiena piektdiena sestdiena svētdiena][date.cwday-1]
+   desc="#{article['h1']} 2027. gadā: kad? #{date.day}. #{MONTHS[date.month-1]} (#{weekday}). Salīdzini 2027.–2030. gada datumus, kalendāra noteikumus un dienas nozīmi."
+  end
+ end
  if f=='horoscope' && (profile=HOROSCOPE_PROFILES.find{|item|item['slug']==slug})
-  title=profile.fetch('seo').fetch('title');heading="#{profile.fetch('genitive')} horoskops";desc=profile.fetch('seo').fetch('description')
+  title=profile.fetch('seo').fetch('title');heading="#{profile.fetch('genitive')} dienas horoskops";desc=profile.fetch('seo').fetch('description')
  elsif slug=='horoskops'
   collection_seo=JSON.parse(File.read('_data/horoscope/method.json')).fetch('collectionSeo')
   title=collection_seo.fetch('title');heading='Dienas horoskops latviešu valodā';desc=collection_seo.fetch('description')

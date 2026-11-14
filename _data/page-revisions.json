@@ -552,81 +552,81 @@
     "proseLinksSha256": "86915c1a33ce8703380d909f6a56c8289e917a9b9c730839aed40c08d5a27ed2"
   },
   "/horoskops/": {
-    "sha256": "76e7e0b1320565718ae9ff35b680314639c82bd5776f05ef3e73b8636366dadf",
+    "sha256": "640f8c262f3b66d9994454c8b9535cc3d79c0c3269ee41fe4ee09a3c6d793b38",
     "lastmod": "2026-11-14",
     "navigationSha256": "a31df3f5addff7ba66444635c997175c4226d2fb6531fb507d91d0a806759370",
     "proseLinksSha256": "f73ac710e7089a60aea4e603c80f952d68d011ed2df11082443b17d3c5a83bb9"
   },
   "/horoskops/auns/": {
-    "sha256": "21ab83e99596f9597b629253705b18a0788aee55b1d3688b4e4ef0d8ff48d364",
+    "sha256": "ccc25e1f80e78450d534e8663d96fbde382d962c5ec1b1fafc53c20d1c762529",
     "lastmod": "2026-11-14",
-    "navigationSha256": "19dc8031c893511f50cab9507089252eaec16635f8d7fc2aaf762786da505c97",
+    "navigationSha256": "fec7c6dc221bce92ee4624b4455fb142bfaf5bf6bc484bbc635c6ef7f1e5d552",
     "proseLinksSha256": "98d55ccdf53dcde13c4dce2229b832f7617bd024686e4b1365545fe15d468936"
   },
   "/horoskops/dvini/": {
-    "sha256": "748ee26fa0b719d10af5b35b3d78bcb10467ad1476b2b49bae0cc0e9b002f63d",
+    "sha256": "5c03a5ceb0097b595d707de72a48e525d0feb2dc3b2ff5721a0a933359262d9f",
     "lastmod": "2026-11-14",
-    "navigationSha256": "a749920a0303fceb56115c6f8655d866e476f28a15c9dd165d6b28f59b6a0202",
+    "navigationSha256": "99a9e28cc4575aecb81a36560cdf88b96c1405bc3e05cacb96de8355cb20b5cd",
     "proseLinksSha256": "ed3909328aefec039fdf7069dc92710e55aa0a0f415dc8ee0dd758fb1330c4d8"
   },
   "/horoskops/jaunava/": {
-    "sha256": "cfa431da0ce1cf5c0062fd138b3037f43cc65eaddc09ee06f4e66242950c422a",
+    "sha256": "686eb660ac90233966d9cdc1bacd2cb3057b8845edab33bbdc0544952ddc8679",
     "lastmod": "2026-11-14",
-    "navigationSha256": "0004d63497a91c12c54effd2167b9370b89224e3843e51e906b0954f0f32820a",
+    "navigationSha256": "2041030f4a76bc64276c6fd8314a261b640e90ceca001d8ee4a201e316f1dc28",
     "proseLinksSha256": "b9ab8983e9673b11f149592fcb27d0b17e69ded630fb979148b835224ac63fe8"
   },
   "/horoskops/lauva/": {
-    "sha256": "d0573a4e4b3c445f86a0383ada16b910b8883d986aed267f5af77e606bf9f915",
+    "sha256": "6ed77600e0344d29a1b90a3038b155d628ec275780ad1edc2f52cb08c00ec8f5",
     "lastmod": "2026-11-14",
-    "navigationSha256": "2a4cebffc9938da3f7f1f0790aa9c55cb3bd75be182b162bb32a346a29efd238",
+    "navigationSha256": "002cdca693ce4f60275bb1179ad5b1f4de351870d3261ef9f9b6d32c4bb58487",
     "proseLinksSha256": "8066a7195fdd67482fcd8599785d8d4a4aef28b785aa09f96ff5357a3a1b2add"
   },
   "/horoskops/mezazis/": {
-    "sha256": "62bb4bc42a2f7cfa6086cb1372d1cedca5aace342a327e807adf71c37dc0af19",
+    "sha256": "c488824b345fba241fddc0912ff9dda41ab2dc429b9939115ae2e5a35ed4ecbe",
     "lastmod": "2026-11-14",
-    "navigationSha256": "c9599ed44dcb25314fac8fd6d5db3f45c8f44287967d56248076c9616e0d37d9",
+    "navigationSha256": "c675aaa710aa5147610255197b803a226ceccf71f0092528a18e9d0d330bfe44",
     "proseLinksSha256": "3adf993c150a99d4e85793e6f4dd8a600b5789b1a709ceba4ab010caff445ff0"
   },
   "/horoskops/skorpions/": {
-    "sha256": "93e4a0d37ae7db567986bd88587b3ada0aeb2e25e3949aaabed2e2901443f6c9",
+    "sha256": "d11742a8cd41994a4727f77a5073b35a2bad08baa520e48479121b2a601e91e5",
     "lastmod": "2026-11-14",
-    "navigationSha256": "3d12115080bb67e2517e7e2c9a729eba64f7e0a555cbed4cb78062b7dee43a5c",
+    "navigationSha256": "187b9b00b95d6cfde93e14deebb7a80e90cafa50469061de8183f176c0ada9c7",
     "proseLinksSha256": "5d22ea30d3d4206c70112bd56f06b3ba1caec3c03bc188c904a14cc7d4a201a9"
   },
   "/horoskops/strelnieks/": {
-    "sha256": "22b63ea95a5aba4668369d28b51967fb521c9209fa9e838106519285c6a0f9e1",
+    "sha256": "847121c00060c2d4584811b83977afee711134b8e89ddf40876ddb6c4b8c7303",
     "lastmod": "2026-11-14",
-    "navigationSha256": "3c4dac9e43fbb14a96819beba213e57b79c846edbbb4e6e7d3d7e6e07da200b0",
+    "navigationSha256": "801a8c194f39a61fcef6410601955d831e203a2702dae927967cc7fddeaf4ac9",
     "proseLinksSha256": "453379919f2316d2cfc7a4d36fd8ee0d3320b70c8068e4cc12af0f3ffd8aa2d6"
   },
   "/horoskops/svari/": {
-    "sha256": "48406857f7d21cd5a5610b484adc0be5827bb26de27a0e9b19093a68ff7172de",
+    "sha256": "2ba82fbce61f5a6b852ad31ebe047498de8e3409e1ae4d0879c240a0aad196b9",
     "lastmod": "2026-11-14",
-    "navigationSha256": "bd628c3af6eeda0e5d4cc0edcd8a00afa208f46cf145f75976434ca90e6f2009",
+    "navigationSha256": "d4b74f4e2a89ba7706bbc6abd5ea2c0b8d43bf9909fca9d53b38f5771d498b6b",
     "proseLinksSha256": "062b189f82b401763c3fda96cee3d17f41947f8acc128bcdfd5f96899f51d7ec"
   },
   "/horoskops/udensvirs/": {
-    "sha256": "703bf390cc0c024335345d42992be2842313b11752d4c160ed82a1101e17521b",
+    "sha256": "e4a33de81d1ac49f45843f090bdd8134706b041113cfff086a0fec11914612bf",
     "lastmod": "2026-11-14",
-    "navigationSha256": "dc183c8b5eac47a5cd1540eab69dbc7d7a8938408e9303e3da2f33c0c07fcf15",
+    "navigationSha256": "1371edc370d848407f31d460425fe32601c9c879bdba8e1fe286ffd8b19044f2",
     "proseLinksSha256": "2313779fe0076d4474c60ff695524fc1f407a73e8a1bcc57eba5802439dc5844"
   },
   "/horoskops/versis/": {
-    "sha256": "859e80973dbe41af8eb4813abab35f42106a06d4506e6ea00a82d537747d47bd",
+    "sha256": "40de0cd4afe513da3934183be7ab57930fc72c4a4c82ae6d57598a4c53804d94",
     "lastmod": "2026-11-14",
-    "navigationSha256": "3b466aeaa82c2884832bdcdc6ff89815bdca17a212bc521090400dfa116bc8c3",
+    "navigationSha256": "5b12845258c88c1b8951d27afc4e570b838c0aabe5d73e5dc90a22992b74f706",
     "proseLinksSha256": "40e886bf4584cebba9c4cdb7dc2a6dde24401d86d0d294c6589fa730e2f2c227"
   },
   "/horoskops/vezis/": {
-    "sha256": "e63fb407261bd0bd26646e4c20dc2854d05388749baa5cbd8454cac521bbff07",
+    "sha256": "b0ebbb5edc033ede4ccd78d5ab99b0a6eac3548ac4b50606f4e3f859f2630b0f",
     "lastmod": "2026-11-14",
-    "navigationSha256": "ff197fed50369a119163cdb8ed4836f3747f2363ac70d5a732ffaabeefa8e689",
+    "navigationSha256": "e8350c7d2d6e135e4a021a3d5c7d050ee643ce5870bb5626823be53a176e39cb",
     "proseLinksSha256": "ca1752dfb66539e494e965b552b3ee0921ee5c192795bbf872b769b0f6902ec9"
   },
   "/horoskops/zivis/": {
-    "sha256": "b4e3bcdc9c1edb04344ce003d241a6edf3ebbf08eb433182e9a99e255a5bfaa4",
+    "sha256": "d4ea7b56ecbbb3a2e74d06b30a8da17f4f5e7bee427aee58ee901b4485eb9c54",
     "lastmod": "2026-11-14",
-    "navigationSha256": "c3f8f70a419a498b55064eed55f349bad367a295050f7ef63de69a80d3d1fb49",
+    "navigationSha256": "2a6246dd346f88b312e6b33d2c3e7f77bfb6a9f4cbbb93b2d714439f81e3c3d0",
     "proseLinksSha256": "6ca14a1c43194ee7f339f36597cf7f4c48e375c2bbad25be731094f9fe465cae"
   },
   "/izveidot-kalendaru/": {
@@ -4320,8 +4320,8 @@
     "proseLinksSha256": "da65ca32415618e61bbcb2b0e430726d4a819689cea5292efdf941da881e9cd2"
   },
   "/skolas-brivlaiki/": {
-    "sha256": "6ac849f21a78c50d143f559608d449c039d912f0c7fbfd38e57e7cdbc2405bce",
-    "lastmod": "2026-11-12",
+    "sha256": "d01995b0e531a7e0cfbad1ac0a4db3659ee527f3e9e00c3759e1475417a67405",
+    "lastmod": "2026-11-14",
     "navigationSha256": "f5685b64fcb82509529a7004096cd4334dd285c1169f0f8c61f10ef7fbdcef0e",
     "proseLinksSha256": "60c2fe1412c84d4ab45625fab4c56027b46aff30bfc56365005b9f42583be32f"
   },
@@ -4398,182 +4398,182 @@
     "proseLinksSha256": "735aba33b067dbf8acc397d13aec124df6f5182f2cb379290b471582a6b1f52c"
   },
   "/svetki-un-tradicijas/advente/": {
-    "sha256": "0cf029ae4ebce78d6eeda1f5f6ea6f87d5110c1c6f766047194428d3501bc56e",
-    "lastmod": "2026-11-12",
+    "sha256": "b0173852e977b4cda0bfa76d02c8e9fde75efe7c431b720e64c3605d6bde99f0",
+    "lastmod": "2026-11-14",
     "navigationSha256": "e41bd4db99757aee7d893b580faa3f0e161d23d653ce8092667d0979ff3a71cf",
     "proseLinksSha256": "e7b887d3ccfe5a3aca32fa0b81e12b597fb424bf07bac6929651454b32be9343"
   },
   "/svetki-un-tradicijas/baltu-vienibas-diena/": {
-    "sha256": "c5d4eec710cc720b347a551095f89fd7db21a772add91c5024f15c98e3f973bc",
-    "lastmod": "2026-11-12",
+    "sha256": "efeaa406a770b7edb76a466292deebc9996cbe1deb9ebfafab7805f07583a203",
+    "lastmod": "2026-11-14",
     "navigationSha256": "5eb5e68904e90f46791151790f15b8bf91f6d1f7121ae613a5e4c9b920f60186",
     "proseLinksSha256": "71c174e38be04c856b8b3752e32e70c3bbf471749f6cc37c1202a6e9e18ad57c"
   },
   "/svetki-un-tradicijas/barikazu-aizstavju-atceres-diena/": {
-    "sha256": "57f253ded06a4cb0c5652ece34d34fca249f2c5e6ae01505b7a5e3f340342d9e",
-    "lastmod": "2026-11-12",
+    "sha256": "16b46d4ff93511cb8a309e55e024026435c2b55548842f05fa9ee5feb3a1e6e9",
+    "lastmod": "2026-11-14",
     "navigationSha256": "397880532f87db163423b628074167595822a38dcaadbdad06c9c4c4c88b1183",
     "proseLinksSha256": "e8b56b5c223985322c921258ebde5fbb0696f1447eb1b4a28f5c18ac38a135c0"
   },
   "/svetki-un-tradicijas/bernu-aizsardzibas-diena/": {
-    "sha256": "ab58a47b91fec2455f164fe6176ec2f63d59cca17db55d8e2fb4d129cb27b794",
-    "lastmod": "2026-11-12",
+    "sha256": "de968e2bb77331e11213e58c2d91aa78e53167252b7c43dfa0313a1820b1d450",
+    "lastmod": "2026-11-14",
     "navigationSha256": "6da29cc5d2a5a4ce9cd77729038e1e505bf92cc205658783340a17574913994c",
     "proseLinksSha256": "934e56101bfc1a8cbc639f6ae1bbc67da57d2dd8a77d0b20442ed65d41a67a04"
   },
   "/svetki-un-tradicijas/darba-svetki/": {
-    "sha256": "fad3e06da337a86d5deefd00446cdfcf3b43e2629db128aaf4862ed142785486",
-    "lastmod": "2026-11-12",
+    "sha256": "f2c44cf31d54c6193c8a7849ad52400d31b620012808606401fd587b151567f9",
+    "lastmod": "2026-11-14",
     "navigationSha256": "1c213d15d74cdbb874551a92bc923b8b9cabb628e9128724a3c91c79675f893c",
     "proseLinksSha256": "3b79aae72f66af12388ef9a63801dba4325e8f71092098b440a94be524d32bea"
   },
   "/svetki-un-tradicijas/dziesmu-un-deju-svetki/": {
-    "sha256": "9f60f017402bb93dd4e7005a5fa9146103624952b458cf4f6bd820a78af5c3c1",
-    "lastmod": "2026-11-12",
+    "sha256": "e5f35da4614475e143c3d02917770ec07002b88f406360a13be9253c587bd613",
+    "lastmod": "2026-11-14",
     "navigationSha256": "c99a0298d9a0e8caf07a6781207058522257f615c708931158fd771acc2df24f",
     "proseLinksSha256": "7329eaf723f97e582cf8fde35ae533ccdaecd0bfc666388ed84366fc8d6a6be4"
   },
   "/svetki-un-tradicijas/dzimtas-valodas-diena/": {
-    "sha256": "c6ce21b6c4d1cf5d7e0b1038a619e75835d4544492077850f99ae7d942b25c6f",
-    "lastmod": "2026-11-12",
+    "sha256": "e8d2644043469241c82b1b199c54c3eb80f49c920625edf0f3376781c1893501",
+    "lastmod": "2026-11-14",
     "navigationSha256": "84e23b0b42bc94b44767948fcb7177bd6d936d8a4bd8781989ae02dcaad64b49",
     "proseLinksSha256": "ffe2d3020a52caec0d58b7a1661e6b3db87e6ee8c55e0dc39c9a6e2413bacb4e"
   },
   "/svetki-un-tradicijas/ebreju-tautas-genocida-upuru-pieminas-diena/": {
-    "sha256": "6e4836df860da5aedd977fefe062756ea5b9672842a1406d69131f000eece899",
-    "lastmod": "2026-11-12",
+    "sha256": "7c72c15c5fa002b8be319d8fa248606d59b400ffcf03be7274d9f8cc1aa5816b",
+    "lastmod": "2026-11-14",
     "navigationSha256": "e2d80d6ee00417ba30b03b8f001d8f48a21dee0ead39bfb3c7579c0299642c3c",
     "proseLinksSha256": "ba6f71a010a85ab3758a16cb15ba20b44549cc2dac8ce687de81cda565d4b785"
   },
   "/svetki-un-tradicijas/eiropas-diena/": {
-    "sha256": "23de6cb53b3763270711c5b330e9230222bb5c1be00613d82b34321160f1d236",
-    "lastmod": "2026-11-12",
+    "sha256": "542abed8c137f774a6b863fd2ffe22be61998e0886747a457e9ec3c246a8abb2",
+    "lastmod": "2026-11-14",
     "navigationSha256": "e7db4df9251729208ecfea0875aa0cd527c3a2e17000cdcaffc8b4e6f789fd8f",
     "proseLinksSha256": "bac21948f04de1c9e6e82aa8e288a246549edeb96000e59bf2b512ec8efb3a18"
   },
   "/svetki-un-tradicijas/eiropas-valodu-diena/": {
-    "sha256": "9d7330b499c1309353d4f7dbd6470efe34039c714f333a90ffad613b12bc9909",
-    "lastmod": "2026-11-12",
+    "sha256": "9dbaa6b1c02d4394a917f21aa883529478f674e503bb212771366157ff6f989e",
+    "lastmod": "2026-11-14",
     "navigationSha256": "b0fb6ddc963ee4a7b5c6396de6b7ed9f901d3a723362f79fb2fa996c3fdb7888",
     "proseLinksSha256": "539b1bca1e03111d41c46093af581a55b28c31547424f0ef6bdbec9efe8f57a3"
   },
   "/svetki-un-tradicijas/helovins/": {
-    "sha256": "e2d9fedc2f6dc4b728f6d4dc5546d794bc17b719e191d4d2526e81370e32785a",
-    "lastmod": "2026-11-12",
+    "sha256": "1f1812829adbecc2a991a74739be15884c41e09fd7d14e01134fae70430e35a5",
+    "lastmod": "2026-11-14",
     "navigationSha256": "c7b0e0cfbaaf4afab2a00c4c57dbee72ff2255216459dfb2753c25a577b6c76c",
     "proseLinksSha256": "e66cfcdbe09e847825944df438b70e9f115c99fec025c5a18c6a01c0cc951b6f"
   },
   "/svetki-un-tradicijas/holokausta-upuru-pieminas-diena/": {
-    "sha256": "b3a9ed4d22870403f0b3169cb05804434534b6215d1aac9fb3c9ddf8b695ea95",
-    "lastmod": "2026-11-12",
+    "sha256": "f1d0553f095c0fc9290443db3d74d52157121d473682d42e4376ec18a22e4989",
+    "lastmod": "2026-11-14",
     "navigationSha256": "f1952b366180e63ad42103383195ce092e5cf0c8c8452a1b917dbaf27def728d",
     "proseLinksSha256": "d077f7922fb9080ef605d9a879a1507343f42d0d0ebf0d54f301e115ed14a6f7"
   },
   "/svetki-un-tradicijas/janu-diena/": {
-    "sha256": "3746009735b66f5d7fcba2e084635d4f6c103734dd011130dddf30ce55df211b",
-    "lastmod": "2026-11-12",
+    "sha256": "95ce59ab043d4fe080574f6c34d65ceaa60137f1babcc0881a5f3be3326f9927",
+    "lastmod": "2026-11-14",
     "navigationSha256": "8bc341e1db046ffafe8ea230f3ac83845c30070d7452acc9851d184b3dc586d9",
     "proseLinksSha256": "f72c89ab8b9ceddc3f58d7e6e016712266734efe5b9134d9a7ed9ecbcc3757ac"
   },
   "/svetki-un-tradicijas/jaunavas-marijas-debesbrauksanas-svetki/": {
-    "sha256": "3356ef246cf709ab0fdf195f30943873ff2335ae1c716c779eb893abf0db7a0f",
-    "lastmod": "2026-11-12",
+    "sha256": "a25cfbb67f980c41dfa182f62c44806e2c30dcbd2f6958aa351937e8d85917d6",
+    "lastmod": "2026-11-14",
     "navigationSha256": "d89973077c1de66b31f410125bbe30a3f3bfbf0f72c53dd2d70208ba6d515a23",
     "proseLinksSha256": "5ac6158cff73723f8aed788fa4adb360f3449b80317544c2d080951220b94a9c"
   },
   "/svetki-un-tradicijas/jaungada-diena/": {
-    "sha256": "9610d1eed208a2deda2016fadc48c07f2af332ef525b3333bb1e3678366e1205",
-    "lastmod": "2026-11-12",
+    "sha256": "971294706253a1a2f4e5b1964cadd51f055637d47f3b1b5e4fca46f09d81fc55",
+    "lastmod": "2026-11-14",
     "navigationSha256": "1f7f5fc65a3d1bd7ed145878a9eb9cd43bfa3e00de3282d9612f57103c7403af",
     "proseLinksSha256": "f2fc44a890a61385244889e9a59987a554dc34f6580a2523cf36a5717374cd91"
   },
   "/svetki-un-tradicijas/juras-svetku-diena/": {
-    "sha256": "073399225a12e300e46bf97dc3c15ab38cb9888187bc9442573549ad0097316a",
-    "lastmod": "2026-11-12",
+    "sha256": "c1ac85a769fa0c1faf33070c9a8ffec61f207169ac81a4fcd6bb5326c49d5883",
+    "lastmod": "2026-11-14",
     "navigationSha256": "8a41bc6426fb6c750806788981406a446e814dcc06c42a9152ea193a6d8bee71",
     "proseLinksSha256": "2de450218a1a9ac83ac9bd0e7ca6396de0c88979d27445389fed5f29986674fe"
   },
   "/svetki-un-tradicijas/komunistiska-genocida-upuru-pieminas-diena/": {
-    "sha256": "e3487f8a98443130a7503f031119028c3f5e792be8973af1a01c844e13328edc",
-    "lastmod": "2026-11-12",
+    "sha256": "7ba99e66c35d4e4aca1d0620aad5ddb9c75f412dbbb4ca4d5c498436623fb058",
+    "lastmod": "2026-11-14",
     "navigationSha256": "0f82b6ab959f7510ef250118fb2f50ac6b34841c8f8773230984c262b07fd0da",
     "proseLinksSha256": "16d74fc92e89d6247ff23688e357fa74e1c5dba2b9bd7864532a4476ee4d1e95"
   },
   "/svetki-un-tradicijas/konstitucionala-likuma-pienemsanas-diena/": {
-    "sha256": "ba8710d502213971f3817771defbc586e6d4721b25505d692e8a491e9e69d9b9",
-    "lastmod": "2026-11-12",
+    "sha256": "97b2fb7d4fb11aa84355bc97b23127337a22a9ccca0560afc68f5cdb4b90118e",
+    "lastmod": "2026-11-14",
     "navigationSha256": "7c7695bcf2aef7bc8e966882776d5716c3a2ab8c36b47d2cfabb3ea52dfcac92",
     "proseLinksSha256": "ad3f04c687a06d01eaf201bd7ce2449f86ffdd875c336eb57d837d82b54cb6f8"
   },
   "/svetki-un-tradicijas/lacplesa-diena/": {
-    "sha256": "4953e0c19320bb73f8ca2df9027758a953eb424fec54c3757b49c08ca441c89c",
-    "lastmod": "2026-11-12",
+    "sha256": "a0a69e9d21addb84733743471f6d570b1be8c898a98848d10edca7f5395483f0",
+    "lastmod": "2026-11-14",
     "navigationSha256": "3f6c72317c3eba3a039d281edad4da94fe59e211e2da5938aa6ed7ffd75d21a4",
     "proseLinksSha256": "f701539563de8dfbe9920e911b0f09040e28f1932e982f26a19e88c37ee9004a"
   },
   "/svetki-un-tradicijas/latgales-kongresa-diena/": {
-    "sha256": "5e0db732bfa39307e332c64d9ef734d48f53172b6de719105ea78b23245b977d",
-    "lastmod": "2026-11-12",
+    "sha256": "c9ba36c352c131da12632e397482592e94dd12e1088fd6e1ecaa4b47636aa6a8",
+    "lastmod": "2026-11-14",
     "navigationSha256": "bcb29033a3a85f4eb0a1881d0b6f60104b91d32bf879458b62719816777b9883",
     "proseLinksSha256": "684df5b003f1f6115081a9f599ee947f9d96093dfbdf30cd28311e361e66d03b"
   },
   "/svetki-un-tradicijas/latvijas-brivibas-cinitaju-pieminas-diena/": {
-    "sha256": "3c26a3a185e0a0ac604be348d13ea98f76df144c8f7193791c31a83423ba896f",
-    "lastmod": "2026-11-12",
+    "sha256": "347331984a6b5b7e42b6008b2de75208e376069ed99619b35c9dcf52b457f23d",
+    "lastmod": "2026-11-14",
     "navigationSha256": "f930c5e59cf257868f9bc052778f8aa2cd4cd76dc28d466d9ae8e1fa81a34fe6",
     "proseLinksSha256": "9a620b0af300ac608efe8a3e0efca9efed046a1d3bc675eb4019909502125111"
   },
   "/svetki-un-tradicijas/latvijas-de-jure-atzisanas-diena/": {
-    "sha256": "9a643868c3ac01983d6a64611711e21551a13e26a9bfa6e0cb21141018863955",
-    "lastmod": "2026-11-12",
+    "sha256": "6cb7886e9f23cc02371552c55431030155a26bc8a3b19c500ed53cff5dfe789d",
+    "lastmod": "2026-11-14",
     "navigationSha256": "47530b5a4d3968443d03f42c2ad5cacdee45a5ca90a7011487577235f9e3b02f",
     "proseLinksSha256": "8dc859385eac06f1bfcc0ed858b5fc648197acb57bb7849ed1bf6a22d3efebc2"
   },
   "/svetki-un-tradicijas/latvijas-republikas-okupacijas-diena/": {
-    "sha256": "8da01d92ede0d66cd9699641e08c6a393ac56f0b6efe2d7db447fe5a1e2c047c",
-    "lastmod": "2026-11-12",
+    "sha256": "b4ba6f3083b4e3649a0c75ca4ae62e4daca093e10ba4d801fd1b355e08ea5567",
+    "lastmod": "2026-11-14",
     "navigationSha256": "54bcaf7ef8af9a6327f4026df71ed1dbe8308d9b3048668e61d4692ea28f8477",
     "proseLinksSha256": "480b5133705c7c0e40097bc16b4fd9b38f7aa380777b0160606ccb19522b95b9"
   },
   "/svetki-un-tradicijas/latvijas-republikas-proklamesanas-diena/": {
-    "sha256": "7e1a0166a773293bfa0c671fd5742ca101c1d2aaf84cead1b9f483b1c46ab479",
-    "lastmod": "2026-11-12",
+    "sha256": "8d5bbca0e98dbf81ee25d76f519b39c1fb6a399c8e020ab11a8b73169ba87b78",
+    "lastmod": "2026-11-14",
     "navigationSha256": "924f53e8a3bb77c3a681b28d124a1b1ec8be09bf29ae98b8f762b2cac289bfd4",
     "proseLinksSha256": "eb7eefae881c92eb016446249ef134a9cb96c5ad5a26597bef17bb5a117fcc0e"
   },
   "/svetki-un-tradicijas/liela-piektdiena/": {
-    "sha256": "3805d7a6c1f5788aeb2ddf6923b24f2a0506ed939a3b9895abb9840a47525019",
-    "lastmod": "2026-11-12",
+    "sha256": "c3125db362577794e9478a4cfa6bf159ac36facb291fb7d54e1cccbf9c68bd26",
+    "lastmod": "2026-11-14",
     "navigationSha256": "12f5a46e76cc67a4afa51467914f1b20678e0e5345426b8caeeb40f803dacb95",
     "proseLinksSha256": "0cb97c017a8d416819fe8788fc06ae21af558340fb6a70ce893f249c646d87e7"
   },
   "/svetki-un-tradicijas/lieldienas/": {
-    "sha256": "86459ac5f02626735990fb47544dac76c4554e84d6cb3c0491cd1bb0bb107c98",
-    "lastmod": "2026-11-12",
+    "sha256": "b0ca9280686d8af790a39b6d0993e2336812882ee63d129a258bdaf2892e2a9d",
+    "lastmod": "2026-11-14",
     "navigationSha256": "84714066aa6f68f40ed49c90b6e2e7057c55863760c84d7b9b77f2050f5ca6b2",
     "proseLinksSha256": "c55ff8c78bd64861a1945a7230373ec935aaf524f1ddeaefbc63de3a3d311608"
   },
   "/svetki-un-tradicijas/ligo-diena/": {
-    "sha256": "373c6fd6a14a7fed6004a1fe4d5a558af8897fc6bc8ee9a80803ceb2c8e5b29c",
-    "lastmod": "2026-11-12",
+    "sha256": "dec40728bd873a164039fdb5c029cf2acb68253b9690323fb07dd652634dc325",
+    "lastmod": "2026-11-14",
     "navigationSha256": "54c7d4f525dbdb621f193eb67bed0d544bf5bbf9c0c4bb1a03f4586e15636f9d",
     "proseLinksSha256": "8f77589b9a7b2392e567c955b8839efef60889d8ce4e6734d5216f292c1b06df"
   },
   "/svetki-un-tradicijas/martindiena/": {
-    "sha256": "b98ff60d4728a13337dbe16702149fb490a39152f4a263d9868b151aebfc471a",
-    "lastmod": "2026-11-12",
+    "sha256": "b716eeafa1bc1c22c7d9638e2bf401a979fd37ed778ce9ab3b8130e68b62c76c",
+    "lastmod": "2026-11-14",
     "navigationSha256": "a9d126080d66cb68eb1e461466900b973806e0c719b6a8b408725acd3908365f",
     "proseLinksSha256": "56bbf0d397a71e2b418a37d0f8e5c16ca507b7427b406eaa63f7798aa8006e47"
   },
   "/svetki-un-tradicijas/mates-diena/": {
-    "sha256": "cd2d0ddc974a4dd08724487c596ecd42dd4f83917bf61ca196a9df5a7120b1d6",
-    "lastmod": "2026-11-12",
+    "sha256": "e39af832efd9c8a64329ca121b853b7dd9edc820e21274ad637cb54c04d612a0",
+    "lastmod": "2026-11-14",
     "navigationSha256": "7660c60e71da9c68f952bcd5258dff76806e1f5af40b3a9ff6001ea09cfaa289",
     "proseLinksSha256": "489f1478759f3d142fceeb85382923ba4b1b321e7b7fdb87c09e1c5aa15969a3"
   },
   "/svetki-un-tradicijas/medicinas-darbinieku-diena/": {
-    "sha256": "e931f9a6a01fac4689537471c433ef5850a378cd7d463c6c20049d1b7bf15cf4",
-    "lastmod": "2026-11-12",
+    "sha256": "59499aca9b18924b78b45df06ec3db7a17e72568baba210b29c4c997591a3bf5",
+    "lastmod": "2026-11-14",
     "navigationSha256": "3f3d1723158f77fd9a8cf26a4ec9e27ffba9203a71d5c3f6626ab853f5a7c9f6",
     "proseLinksSha256": "9b826e9bb3bdd34bc8746de918fda65bd0aca6f4a58987ed4e71d44bf0572003"
   },
@@ -4584,80 +4584,80 @@
     "proseLinksSha256": "d829a1caa96aeadaf6b64c43ddb0c4babf93b963bab128e1425d47dd9acaf21d"
   },
   "/svetki-un-tradicijas/mikeli/": {
-    "sha256": "ca5c7d0f3ef992911826fd75ab1df8e5b8399dad33fa0da80271c6595ee77c83",
-    "lastmod": "2026-11-12",
+    "sha256": "8a276ef4727b898dccd123f6352323465c8036928d62df5c37027270bc765b33",
+    "lastmod": "2026-11-14",
     "navigationSha256": "97ecea3c6903d79a870e5b61bfcd192b03d4f65fd0f29544ece7a42323ab7a14",
     "proseLinksSha256": "8393bccaf9599422daf97e1bdd47d004705e5d2889a1016288ce3f97a3f94deb"
   },
   "/svetki-un-tradicijas/miruso-pieminas-diena/": {
-    "sha256": "97109404270bf10f407ddfa1e58280210a836316be77dd64e1242a892c51852f",
-    "lastmod": "2026-11-12",
+    "sha256": "ef8d5e9693d8606d2593e2acf3abbb07bbbb3667f7548fb95eab1a4d0d5cc9dd",
+    "lastmod": "2026-11-14",
     "navigationSha256": "46f7ed606987352f27f4b72ed379a13df44b120c5d969b8ffda595360be9f3ec",
     "proseLinksSha256": "35212590c2a2b4613bad278c60ecd1e8f7e3e76b6819388a39eee1bc81ef02ea"
   },
   "/svetki-un-tradicijas/nacionalas-pretosanas-kustibas-pieminas-diena/": {
-    "sha256": "fa27453edf57aaaa345faab8567edfd1c6da7be06e70acc8bcce242ffc895d25",
-    "lastmod": "2026-11-12",
+    "sha256": "ff6713ae140dc66cfdf962c6a3aa3da1b3d6229d9c31982668ec3de75fbd280b",
+    "lastmod": "2026-11-14",
     "navigationSha256": "22d1c6eef8c05a4328a2c5a7c860a74ec87b50684b7eda1a521366bf4965f0cb",
     "proseLinksSha256": "c77a1334dec77c2dcc06e33519018664286686d3f4e13abcb09fa169bd218b4b"
   },
   "/svetki-un-tradicijas/nacionalo-partizanu-pretosanas-atceres-diena/": {
-    "sha256": "012960998db2ec3d3e922f33a2c6c4950bbab9135988a43b92f501c433356814",
-    "lastmod": "2026-11-12",
+    "sha256": "6448173750fd71b641a3dffc7c1f124b3bc48ef6fe612245d123212786620c10",
+    "lastmod": "2026-11-14",
     "navigationSha256": "0d7b40155156025e4a643780f76da32204adaa67d6ac0d3df6c70a9ba92cf1d1",
     "proseLinksSha256": "03ccf4b7575f26ef98146fdd158757138f79b1059613e327297d7ace2dfb3bed"
   },
   "/svetki-un-tradicijas/nacisma-sagraves-un-otra-pasaules-kara-upuru-pieminas-diena/": {
-    "sha256": "935656d00a250ac3858ab5466fc31ab2f17ac703a4f9005309813760bfeba74c",
-    "lastmod": "2026-11-12",
+    "sha256": "6ef01ec5f4f924a9125270e85fdde248aeccf41d80208a6c468db0d11c3c5f43",
+    "lastmod": "2026-11-14",
     "navigationSha256": "1ebfc9b8416e82dfb5e2398708e7455fbf805d641a2e24f1d2f5fc5aa65fa932",
     "proseLinksSha256": "3f185a62ef398b2169f589977b812e97c67bd6c97fabbe835d098d378d785245"
   },
   "/svetki-un-tradicijas/neatkaribas-atjaunosanas-diena/": {
-    "sha256": "29a605ff0d2883c9ff6e3a0eec5c7ceebf41b4cfd69dfcaeafa17464f6b38f13",
-    "lastmod": "2026-11-12",
+    "sha256": "91840d4cdbb707cf0351a08b17f09999c7fcd7e7fc67da0f96ee601fe50474c4",
+    "lastmod": "2026-11-14",
     "navigationSha256": "7179b1b94fe771877d7867c0686aac7f5abc7d96ed5a8e12a8e5a9acc5a02bea",
     "proseLinksSha256": "e2c952844978a5012b5e3e425cbbc9a35eac45d4692d4f7bc6751e68c8704cb2"
   },
   "/svetki-un-tradicijas/pasaules-bernu-diena/": {
-    "sha256": "fb7218b5efa52601f4e9c53e677bc87ef0a8838be2d2bde171ce858ec4848eae",
-    "lastmod": "2026-11-12",
+    "sha256": "79b1d95a552307582689d40ac54ee1ef18305f6fec89d58109105c90ab486f00",
+    "lastmod": "2026-11-14",
     "navigationSha256": "4bfee71217aff984f9c481419d8481a79d73fbbf891d452f71c6c74e94149908",
     "proseLinksSha256": "7cb2145fa48e31bcf6d23495e79fff02154a6b5dcb14f272573e0731b6ca82a7"
   },
   "/svetki-un-tradicijas/pasaules-bisu-diena/": {
-    "sha256": "a19c9aca55849b0774242fa090de0b5af85497178b0e5f1a62b50c5d421b9694",
-    "lastmod": "2026-11-12",
+    "sha256": "493a195b1371d4e5cac08ba17110fd637b338ea95f52ded021cd3977c79f0548",
+    "lastmod": "2026-11-14",
     "navigationSha256": "5d33cabca6f019dc569a37c8f62ac66d40ee327e9ba0a2d74dafc871f0b5fc54",
     "proseLinksSha256": "97223516512c80de74495c59e06a263d5b2a3ba0021dd179e80a8eddd698a521"
   },
   "/svetki-un-tradicijas/pasaules-dzivnieku-diena/": {
-    "sha256": "73a7ff1d006e90d127422237c88f66336f484f418277ffb59debd2d844613a49",
-    "lastmod": "2026-11-12",
+    "sha256": "5c94f96ab67e6e55f06a054c5ecf21889efdb5b7aa26377c3cd2805628aefeae",
+    "lastmod": "2026-11-14",
     "navigationSha256": "7e30378d364911925bd585b4a3f4590545578f2fe0f26479e615d11dc8d3a012",
     "proseLinksSha256": "4a842ba9afc6309869c45ece27c9da6f98d1adbe7440b85f519460177505555d"
   },
   "/svetki-un-tradicijas/pasaules-gramatu-diena/": {
-    "sha256": "fd75de0d0e68be0d486e0034df8d3f39841c1eb9f0f979557667cad221354bf4",
-    "lastmod": "2026-11-12",
+    "sha256": "a7edd7dad40f30c93578f9441101826e547f2b60994593166715281cc52df18f",
+    "lastmod": "2026-11-14",
     "navigationSha256": "f05c80daa5cd36412922cafafcc35a4d85dca109da2d02c930f37714f2b86d81",
     "proseLinksSha256": "7d61d29b7eb705bd7cd7383e5ef7cafc9997d6106b06859eaea877d1f5f84cd6"
   },
   "/svetki-un-tradicijas/pasaules-udens-diena/": {
-    "sha256": "3dd6ccfbe5d35cfc84ceb098f072e27a93b0f21a01a86e720088678a6a862c4e",
-    "lastmod": "2026-11-12",
+    "sha256": "f40cdd145dc4d726f22cafefc6e606907af4ea67e87a5b200984986948cf949b",
+    "lastmod": "2026-11-14",
     "navigationSha256": "5e4c711087e42356666ffe3ed1a6d9070f8fd4b8549c8386bbed330402123df6",
     "proseLinksSha256": "593a25646c53ad34f24afe5f7967042541987d40121de7168aac591da54968e7"
   },
   "/svetki-un-tradicijas/pasaules-vides-diena/": {
-    "sha256": "bf8aba40c93da72590097fd7f13fbf92d91e79a81eb3db8704358d7dfba06970",
-    "lastmod": "2026-11-12",
+    "sha256": "83b653193b70a24dc962968403c927588ac61439257ea25c653885f31ce9ab91",
+    "lastmod": "2026-11-14",
     "navigationSha256": "91260d4e2e5b163ca06e3eea740d6c12e106e476e73d4fb4195b3eb81cdceb73",
     "proseLinksSha256": "cd3485e458d1ac977b2442b95e85207610e65966513aff411c76c761b9661c91"
   },
   "/svetki-un-tradicijas/pavasara-ekvinokcija/": {
-    "sha256": "51d2b0e8bd424d7661c15eada8603e6a52f85e502686ffefb580cc67ae62cef8",
-    "lastmod": "2026-11-12",
+    "sha256": "61568d3eae9c27d6c3953dbc7ac211e2a410b2deb0b07d3d8574868adce4b619",
+    "lastmod": "2026-11-14",
     "navigationSha256": "a94eee643f4911e88fc6381c18fc8b2ece484df6919f4eb0318feb93bfd6f220",
     "proseLinksSha256": "92b389b717da0f74c3f9d1a2d75059cd21f602c4177172adef33082355ffb911"
   },
@@ -4668,170 +4668,170 @@
     "proseLinksSha256": "69e1387879c4f661c1531314a2c102b536eea832ad73a99327b809ed9451643a"
   },
   "/svetki-un-tradicijas/policijas-darbinieku-diena/": {
-    "sha256": "e980a33cf2f5783c4ee6f5ab9e85425af90414d12efeb307efc97698646337f5",
-    "lastmod": "2026-11-12",
+    "sha256": "2063f7e5029da35faf52108a6e5ad59764e1d9049bf921cd4618aa24986940b5",
+    "lastmod": "2026-11-14",
     "navigationSha256": "6aa84ae94e6100794d6a88b0fac2dff25eae41552cbfb598f2d1ebddc3fc0d8a",
     "proseLinksSha256": "37ca9ac13bbb450a38446f4702e06493f4f284f662dddb74c3465a770b533c5b"
   },
   "/svetki-un-tradicijas/pupolu-svetdiena/": {
-    "sha256": "a599f742b29fc1798d80c89aaf498c470221749aab8990ef72f223d5c7958d90",
-    "lastmod": "2026-11-12",
+    "sha256": "c57e287a91955f3b83f51de7c26cf7d72faa0dc69d8df23fcb0becff845c0585",
+    "lastmod": "2026-11-14",
     "navigationSha256": "16f2455e0e1caa59896147a7661f6db7752eeff2f4783f4850aa557f6a7ffb28",
     "proseLinksSha256": "d14b5481e986fa26d01b812ab72015bad9efb6f0c6df08379acd46bc318c96b9"
   },
   "/svetki-un-tradicijas/robezsargu-diena/": {
-    "sha256": "b502da40e0e15468d3d79705425ad37951aa53d24b688370584ecfd6d5ff7a18",
-    "lastmod": "2026-11-12",
+    "sha256": "50b736ac2f02b28bbdd0469c20500b38033fe86d52dbcd0d5d58616717ef0236",
+    "lastmod": "2026-11-14",
     "navigationSha256": "74baf1b3781e7277d661fc3f5987d4318c32b8061c4889d88914207fac4bf026",
     "proseLinksSha256": "477f9632aa3bebda73273a6f7a67cfb723e2f895bdf4a4f941031f68521f7d22"
   },
   "/svetki-un-tradicijas/rudens-ekvinokcija/": {
-    "sha256": "65f094b0ed463d1c05b6a9ef7226dbe27d0e1ae6467f05ab08239eb5c948f5e9",
-    "lastmod": "2026-11-12",
+    "sha256": "56bc4a6fe9e35676f2c79ad05757dce99aef57948bb1d6c8dc0315c9fa9771ca",
+    "lastmod": "2026-11-14",
     "navigationSha256": "805c712cbef0a6a96aa9aea60d951418e738a7cb21e009cdb59f50df6e26bce6",
     "proseLinksSha256": "c37dac9c7c31ff7afdba60871382a59b942bf37df89dde097bde262bb3ba76c4"
   },
   "/svetki-un-tradicijas/saulgriezi/": {
-    "sha256": "95b74cd59013bab936987c78f221619977f8badb61f3ec680424cdc0226cb5e4",
-    "lastmod": "2026-11-12",
+    "sha256": "b569e343c065c1e5f0971bf46e669cc98e6f93a60f69454180e18606df5a57a1",
+    "lastmod": "2026-11-14",
     "navigationSha256": "a05741de25a15d78ed5d4cabde427667440ae6b7e15a135e6dde608e6e4635bf",
     "proseLinksSha256": "cc366e9a44bc70795322120b46985efc83361878e7bfb6cb0c20e5f52ba47630"
   },
   "/svetki-un-tradicijas/skolotaju-diena/": {
-    "sha256": "f8ca323d6f0fa7e97b1e7b4c042674e4e7753f8f30b4dc001439f0a1f67ce6f1",
-    "lastmod": "2026-11-12",
+    "sha256": "b59112491898a9f36ebfd250d4b7beee963f44cbc8c427e0806cb1d76b7bf5a7",
+    "lastmod": "2026-11-14",
     "navigationSha256": "9e255dc1ffd00ed2016cdc3204771f0f34b02c6130b81a7d769235c45b8df919",
     "proseLinksSha256": "6838a773ee33a8574a08a1187ad9395aead62ffdde2643c164480d9a5ac3255d"
   },
   "/svetki-un-tradicijas/stalinisma-un-nacisma-upuru-atceres-diena/": {
-    "sha256": "d8455fcb56baf02b2d09f8eeef03a7c0ea3986e92022a2643bd6deb2b3688d8c",
-    "lastmod": "2026-11-12",
+    "sha256": "63e3d35a7166c223273381dd9f987a2ae4486c6041e9b5215447babbf69ed6b3",
+    "lastmod": "2026-11-14",
     "navigationSha256": "808c2c49c3e7771b8071ed7ccf0743e238c2b78f27a7cf3633870f16af408b5e",
     "proseLinksSha256": "03f181cd9bd3b50130f2523fb3c9d0596fba03535a0397adff82e58bf48f9be1"
   },
   "/svetki-un-tradicijas/starptautiska-gimenes-diena/": {
-    "sha256": "7c7e00b99138bffbc886eef817ceaedf46e30160a9ad544658ca728a080e0264",
-    "lastmod": "2026-11-12",
+    "sha256": "0220fafa397f124651e2351f6438d38d5d6de39653c326327ce0d4cdd0811aff",
+    "lastmod": "2026-11-14",
     "navigationSha256": "568065841468136366c941667365b6e7ae7c65b58643fd4ffb164b756c0e9d27",
     "proseLinksSha256": "7e09b95611445bbb3f902c7f4cb7f7459259fe2868eac608b12d87c93b92aefe"
   },
   "/svetki-un-tradicijas/starptautiska-nevalstisko-organizaciju-diena/": {
-    "sha256": "cebf9b80a6efa5bde9684d430c26d44445b2b08248e256695f7fbc2ac564fe52",
-    "lastmod": "2026-11-12",
+    "sha256": "47af60af1f4b86e9e0ae61b773d737c173658898d3dd2f80b736b0926e717145",
+    "lastmod": "2026-11-14",
     "navigationSha256": "e3fb869a705096061fbf7255d1c918312aa0db926e0412421f580b949b535690",
     "proseLinksSha256": "8bfc7b7ec4983132612f320ddded3f59683259c458cbc66f59b91d579366f551"
   },
   "/svetki-un-tradicijas/starptautiska-senioru-diena/": {
-    "sha256": "c89fa511a14e0833e6f801a560e4eed3dee13f97d01af8128a71b599e5ed1ad3",
-    "lastmod": "2026-11-12",
+    "sha256": "b866b84499a1fac8023ff6ec6e7a55161f8ae5470ee1c2d54f66b2a428456479",
+    "lastmod": "2026-11-14",
     "navigationSha256": "aa11915f9d0ad2bcf4dc206b3169e92b58117ce57aeb41bf7894d40f4edc54ee",
     "proseLinksSha256": "5430f79e40233aaf0ccd3d86e116473e6340b1da58b7a1d4bda978ec4fd7911f"
   },
   "/svetki-un-tradicijas/starptautiska-sieviesu-diena/": {
-    "sha256": "9df777fb0d4dfba142a94b16afc5b5ef51f118973b8ea140331d4f19a987c6d4",
-    "lastmod": "2026-11-12",
+    "sha256": "e3b96f66b5d1aecea2ae344bc832cafdaefc671fd983f315063e815e3d91cd87",
+    "lastmod": "2026-11-14",
     "navigationSha256": "7c96e978782f2b2deaa4b488ecb89aebb44deed01c1732e5b6dd1038bdaedb60",
     "proseLinksSha256": "f44f4db77adcfc730c4d36b0acdb4b144b75e540a5b7c9b6d896fdd69d86eed7"
   },
   "/svetki-un-tradicijas/sveta-nikolaja-diena/": {
-    "sha256": "6837e71ee7496f3278f4f55347accfe2d2b9d57f2eb3ba499eaf3cf87f383642",
-    "lastmod": "2026-11-12",
+    "sha256": "8cadfdf8c67ad2d78c7f4086a01ed84c4aac26147b6fb757cf2a3a388073b55f",
+    "lastmod": "2026-11-14",
     "navigationSha256": "4df76156ea044c6b1e8fcb485543198f92798f497680faa16474a47cea546582",
     "proseLinksSha256": "1a7c0446d95d6d4ccf5f7dccc5e8f926c3f1399b096f34b281be82807c8ea25b"
   },
   "/svetki-un-tradicijas/tevu-diena/": {
-    "sha256": "b573ece60589f204a13ec760b16f695d9059bc9826ec781a0d1805d58b76fffe",
-    "lastmod": "2026-11-12",
+    "sha256": "4d8aa49b0fa5923267a0ffbd6ebe1f8d0379cc65d0647e74b4726035c6da1451",
+    "lastmod": "2026-11-14",
     "navigationSha256": "cddf28dee9f486f2b98ff7c94603e7e2fe316c43026adb8b7d36f66375a9fd01",
     "proseLinksSha256": "8b20021c9e6e7b2568e02720f73f39b832a4586b3e063377dd91035ecd8bb937"
   },
   "/svetki-un-tradicijas/totalitara-komunistiska-rezima-genocida-upuru-pieminas-diena/": {
-    "sha256": "d99c181a364b9ed3b509846f4f63ee88123b3e01e4041847dc26da51874d5766",
-    "lastmod": "2026-11-12",
+    "sha256": "737dd09cc1c820d973f1bb77d4e2f6dae6442499ddf94e388d72ecd76e290504",
+    "lastmod": "2026-11-14",
     "navigationSha256": "8dec8e5427bbbb261efbb941391571409e45669017d35f56616955ecec747d92",
     "proseLinksSha256": "01bcec097d2e66c292d44e7cdd14c3a30f0e6ad7e15e2e2d4202940441aaa418"
   },
   "/svetki-un-tradicijas/totalitaro-rezimu-upuru-pieminas-diena/": {
-    "sha256": "5c7b5a29472106771bbba2a7ed56d15da986e8a6e9f8424790c0f93a57891a60",
-    "lastmod": "2026-11-12",
+    "sha256": "b41ec70ef6763ad5ada370f08ecdc7b0e87ac19001afbdaccb8fb55339b418ae",
+    "lastmod": "2026-11-14",
     "navigationSha256": "231efeaa0978344b1b1a2cc2c117c318aec1c7d05d3d4184e181b7a8380dca3d",
     "proseLinksSha256": "768d8c710942e7b517abee20c0398265b73fb12a32a1db6e6b0cd589c39d7fac"
   },
   "/svetki-un-tradicijas/ugunsdzeseju-un-glabeju-diena/": {
-    "sha256": "d9422e007e0f0659b9594377dc2ac90dd14e28b2392211f2ac62f72182e6551a",
-    "lastmod": "2026-11-12",
+    "sha256": "7c406ab005fa2d105195f3ad03cfc38305f811d5cee4f1b43a9062903689e575",
+    "lastmod": "2026-11-14",
     "navigationSha256": "a4db9dc98e91d99f25fdc8fe0199017520861331897f407f8d9e7ca7f594ac62",
     "proseLinksSha256": "f04936e12226b427015596ae7086d112901e1d2554302e9810dd9593fcb9a31a"
   },
   "/svetki-un-tradicijas/valentina-diena/": {
-    "sha256": "205de0310936096146c1a7b5fecce2ca7562c3433a20258aa5f93dab4e1286d5",
-    "lastmod": "2026-11-12",
+    "sha256": "26bdef029ea98d08809614a56dcce3ae6b4cffed40c3ccaab8bd95fc55eee414",
+    "lastmod": "2026-11-14",
     "navigationSha256": "5b2c25da050d0fa89b474ff4174cd8e95e768ea2105853f62f43ff927eef2c04",
     "proseLinksSha256": "4fb65be8914a2ce25b555c24c5e8acb3c5730da1f282db008c0355339ab084bf"
   },
   "/svetki-un-tradicijas/valsts-valodas-diena/": {
-    "sha256": "7f5c466a6f3e5404199cc5c09eff67d08f48f011231bc2f2b9534097989f1d1b",
-    "lastmod": "2026-11-12",
+    "sha256": "84bc3b900dfa754c0158e6301af52978e1761601168127b66051a83e7c6ffd20",
+    "lastmod": "2026-11-14",
     "navigationSha256": "f95f755663257ea0c8649611fc19e5b307b8e447451e98da402e1ed8cac5e0bc",
     "proseLinksSha256": "f77abc60d7ba7e93ba0b7ca321910df6cbbdc7effe0b567ddd5f8fde781011f4"
   },
   "/svetki-un-tradicijas/varonu-pieminas-diena/": {
-    "sha256": "a4f0e459632bde0df276708f1dc9a71a2bcbf1eca95a2e8892b87a5ebfae3f95",
-    "lastmod": "2026-11-12",
+    "sha256": "d282040fa5eec772e2d17c296d4fafeb86f2cb6198c722ab0df1ff627271813c",
+    "lastmod": "2026-11-14",
     "navigationSha256": "51e1fa67bea30b5b4d226ef7606ee9c023b06c761322bbcf833838422cfab099",
     "proseLinksSha256": "604f634669a26c0dd8c428e0f1ea1cb3af55c253baadbb2aa624474140fb954d"
   },
   "/svetki-un-tradicijas/vasaras-saulgriezi/": {
-    "sha256": "bb7a51062ea44bf08d3b628e48546c2a5ba4432c9994416b4fcf30c950703db1",
-    "lastmod": "2026-11-12",
+    "sha256": "a630c095958c5d37697656a6b9bcfef35906274b8937b415f3f1c0bb8045418f",
+    "lastmod": "2026-11-14",
     "navigationSha256": "5589f945c1e5a8ae5ba65f3be15573a437c531896e2f6ef42c25208fa71ea2be",
     "proseLinksSha256": "35c122bd403026163440bc3d46f4a327f558475cdf65f0749e308b5b94772143"
   },
   "/svetki-un-tradicijas/vasarsvetki/": {
-    "sha256": "b4bfaa2dc6020d8fa218d6d45f7be170dbcf071adc23ae29c183e4f284e578f4",
-    "lastmod": "2026-11-12",
+    "sha256": "25aa1693a23fcf4265f691185e2ae1c75b2b05d4e302e14a4e101122e97a88d2",
+    "lastmod": "2026-11-14",
     "navigationSha256": "1e9172d8869e2e716fd92e4b6ef2b95f08515408c206c2d34318354478b24c34",
     "proseLinksSha256": "4eade1252b38ab5a6b1e70292c27b8aa5afadc64c6c733b7e173ac1edd34c0c3"
   },
   "/svetki-un-tradicijas/vecgada-diena/": {
-    "sha256": "f623fb4308df1e42a57fdeda726eaddaf9a2da54cad2b9d351bb333d14bece4d",
-    "lastmod": "2026-11-12",
+    "sha256": "140f7a40d5fb7f2a0bdb0d2c1f198bc807af83ff3e6d32c30c2c1a78734d3d09",
+    "lastmod": "2026-11-14",
     "navigationSha256": "c1e140a43de86ae7401b507b5f15c933a1cf6cc26c3548f9efa28956c4d413b7",
     "proseLinksSha256": "e3b6d1a0f6d05651fe3d54e0979fab4c2051a0e7b3fbe2a1d09a4897a916e51c"
   },
   "/svetki-un-tradicijas/zemes-diena/": {
-    "sha256": "ff45845159f97495d3b1a7dafa87d5124d51d7d0176b79ea7da7e74b8aca99f5",
-    "lastmod": "2026-11-12",
+    "sha256": "7193c4c967e1f4c3201b0492eaa8c5d25ebf0d2f50af510412637d62fa1d70e0",
+    "lastmod": "2026-11-14",
     "navigationSha256": "8e434e059983c5e63fd2111cfaad3d088733a0049e5c2703df9b6298e779fdf9",
     "proseLinksSha256": "bc8c4b5120c1b83a49527bfc608706dc262d8c8469aa75c1510fe047d501432d"
   },
   "/svetki-un-tradicijas/ziemas-saulgriezi/": {
-    "sha256": "24f023e1e17b344b25825cb2bd426ebaeb3d53689095205a19685247ce5ab609",
-    "lastmod": "2026-11-12",
+    "sha256": "35828ecfd1a9e05147c9e3937d68712ac97b9eea8f6378e6d138912ea68b25e1",
+    "lastmod": "2026-11-14",
     "navigationSha256": "b8f36dc4b63d4573bd24564bb35bf2404e164558053a3c014c5edbfd025a2d93",
     "proseLinksSha256": "af13832f740b365eda8f094672d9ca34da37071db1f49473c542ac56fed08487"
   },
   "/svetki-un-tradicijas/ziemassvetki/": {
-    "sha256": "06fb4a613435a8ec93eea976f59fb90d887c05757a4b715a99f1fb42222c10eb",
-    "lastmod": "2026-11-12",
+    "sha256": "685f31a3f426c2764643440447992bf49212fb39533cee5422f2df0038e0554a",
+    "lastmod": "2026-11-14",
     "navigationSha256": "193a144f61c8c399fc84278943881a1c9f6a8626dce474890d487876630bd79a",
     "proseLinksSha256": "72ed3e8369e76004222bbc0add5570064076d126fefbb61808fdfd907f7bcb6a"
   },
   "/svetki-un-tradicijas/zinibu-diena/": {
-    "sha256": "6eb1f5a34693f485b7c50da1f7242db3363e9e3ad6c74b14bb60ff2b8b4de953",
-    "lastmod": "2026-11-12",
+    "sha256": "576dd4b5d05478877abd5e436a8caab334df3c77bbb79daa7e749e5dd742be7e",
+    "lastmod": "2026-11-14",
     "navigationSha256": "305a1f246cd447cc1e0c88ca58626672b72d5843ae8060deebd1256e02106802",
     "proseLinksSha256": "7eb496b4c296b0c5dfd1765387ce626752ccdd33d9fc2a4e642f630b0a51bc74"
   },
   "/svetki-un-tradicijas/zolitudes-tragedijas-atceres-diena/": {
-    "sha256": "d5b5434b918b1a7e91768b674ea84584cb39b8bc978e6af46d85cdb16ed3edf4",
-    "lastmod": "2026-11-12",
+    "sha256": "fb7f92d42e9669d3ea9af191e1f7ea8ad14871f46a6f2dbc61e3b782056876e2",
+    "lastmod": "2026-11-14",
     "navigationSha256": "ac5b81d050c02759e75a73ac5a340c426a41f1456c382f0b6ceadfedf9937334",
     "proseLinksSha256": "e9630b5def822e3d5adde44b87eb89bfc2413619dbc29b82abaabde20b9f8087"
   },
   "/svetki-un-tradicijas/zvaigznes-diena/": {
-    "sha256": "45551570278624b17434bacd09b53a6c6bb7af40c5831d5d3da82ece5fae08bc",
-    "lastmod": "2026-11-12",
+    "sha256": "608861516af30d8317c56f8daf6ad0192a0c203c20c15fc6025b11da570439d5",
+    "lastmod": "2026-11-14",
     "navigationSha256": "26a86eb43d3c90bed69de5f791d4425d81cc7a287e0be821b9f009d05a85cc23",
     "proseLinksSha256": "a4f75edf8d1993040b6d7aee98594f220f11247a9061ad764c42b5c0d8c8420f"
   },

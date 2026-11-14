@@ -9,6 +9,9 @@ FORMATS=re.compile(r'\.(?:pdf|webp|xlsx?|docx?|ics|csv|json|png|jpe?g|svg)(?:[?#
 
 def classify(c):
     tag,a,text=c['tag'],c['attrs'],c['text']
+    # Wikimedia File pages describe a photograph; their .jpg/.svg suffix is
+    # part of an HTML page title, not a download action.
+    if tag=='a' and ('data-photo-credit' in a or re.search(r'^https?://(?:commons\.wikimedia\.org|[^/]+\.wikipedia\.org)/wiki/(?:File|Image):',a.get('href',''),re.I)):return None
     if any(key in a for key in ['data-edit-event','data-delete-event','data-delete-task','data-date','data-add-date','data-month','data-view','data-category']):return None
     if tag=='label' and not c['fileInput']: return None
     if tag=='a' and 'download' not in a and not re.search(r'button|action|download|export|format',a.get('class',''),re.I) and not FORMATS.search(a.get('href','')): return None

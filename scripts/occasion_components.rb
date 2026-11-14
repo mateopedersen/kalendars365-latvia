@@ -24,7 +24,7 @@ def occasion_page(article, _all=nil)
         <div class="occasion-opening-copy"><span class="occasion-status">#{ui_icon(type=='astronomy' ? 'sun':'gift')}#{h(status)}</span><h2>#{h(article.fetch('dateRule',{}).fetch('label',article['title']))}</h2><p>#{tradition_text_markup(slug,article['intro']||article['description'],'intro')}</p><div class="occasion-actions">#{a(tool.fetch('url'),tool.fetch('label'),'button')}</div></div>
       </section>
       #{tradition_context_markup(slug)}
-      <section class="occasion-dates" id="datumi"><div class="section-heading"><div><span class="eyebrow">PLĀNO LAIKUS</span><h2>Datumi 2027.–2030. gadā</h2></div><span>#{h(status)}</span></div><div class="occasion-year-cards">#{cards}</div></section>
+      <section class="occasion-dates" id="datumi"><div class="section-heading"><div><span class="eyebrow">PLĀNO LAIKUS</span><h2>#{h(article['title'])}: kad? Datumi 2027.–2030. gadā</h2></div><span>#{h(status)}</span></div><div class="occasion-year-cards">#{cards}</div></section>
       <div class="occasion-reading"><div>#{notes}</div><aside><span class="eyebrow">DATUMS UN NOZĪME</span><h2>Kas jāņem vērā?</h2><p>#{article['dayOff'] ? 'Svētku dienas statuss ir noteikts Latvijas likumā. Darba dienu pārcelšana un aizstājoša brīvdiena jāvērtē pēc konkrētā noteikuma.' : 'Atzīmējama vai atceres diena pati par sevi nav vispārēja svētku brīvdiena.'}</p>#{tradition_sources_markup(slug)}#{a('/avoti-un-metodika/','Kā pārbaudām kalendāru →')}</aside></div>
       #{tradition_related_markup(slug)}
     </article>

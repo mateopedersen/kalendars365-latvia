@@ -3,6 +3,7 @@
  const rules=/* ACTION_RULES */[];
  const formats=/\.(?:pdf|webp|xlsx?|docx?|ics|csv|json|png|jpe?g|svg)(?:[?#]|$)/i;
  function classify({tag,attrs={},text='',fileInput=false}){
+  if(tag==='a'&&('data-photo-credit' in attrs||/^https?:\/\/(?:commons\.wikimedia\.org|[^/]+\.wikipedia\.org)\/wiki\/(?:File|Image):/i.test(attrs.href||'')))return null;
   if(['data-edit-event','data-delete-event','data-delete-task','data-date','data-add-date','data-month','data-view','data-category'].some(key=>key in attrs))return null;
   if(tag==='label'&&!fileInput)return null;
   if(tag==='a'&&!('download' in attrs)&&!/(?:button|action|download|export|format)/i.test(attrs.class||'')&&!formats.test(attrs.href||''))return null;

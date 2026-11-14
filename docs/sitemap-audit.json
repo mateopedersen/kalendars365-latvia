@@ -16,11 +16,11 @@
   "files": {
     "sitemap.xml": {
       "bytes": 95381,
-      "sha256": "7cb3157761ac8b31d137437a8a02fc22573a684a9120ee43258b4d2c3107ea7d"
+      "sha256": "7d6c62ebdd59cb0ec0fd7a38daa1cce9121f13eee3b27ef202b7138423f505ba"
     },
     "image-sitemap.xml": {
       "bytes": 1280509,
-      "sha256": "968b373c00d1edea27eded818b085c8c61e45d07daadd288dbec66e82900cff6"
+      "sha256": "ff8ab012d7ac906e10ca4c68e8537d17f68fd26af66921dfdb904df71dea23fb"
     }
   },
   "families": {

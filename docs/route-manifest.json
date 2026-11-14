@@ -1303,7 +1303,7 @@
   },
   {
     "url": "/horoskops/auns/",
-    "title": "Auna dienas horoskops",
+    "title": "Auna dienas horoskops šodien",
     "family": "horoscope",
     "indexable": true,
     "status": "ready",
@@ -1317,7 +1317,7 @@
   },
   {
     "url": "/horoskops/dvini/",
-    "title": "Dvīņu dienas horoskops",
+    "title": "Dvīņu dienas horoskops šodien",
     "family": "horoscope",
     "indexable": true,
     "status": "ready",
@@ -1331,7 +1331,7 @@
   },
   {
     "url": "/horoskops/jaunava/",
-    "title": "Jaunavas dienas horoskops",
+    "title": "Jaunavas dienas horoskops šodien",
     "family": "horoscope",
     "indexable": true,
     "status": "ready",
@@ -1345,7 +1345,7 @@
   },
   {
     "url": "/horoskops/lauva/",
-    "title": "Lauvas dienas horoskops",
+    "title": "Lauvas dienas horoskops šodien",
     "family": "horoscope",
     "indexable": true,
     "status": "ready",
@@ -1359,7 +1359,7 @@
   },
   {
     "url": "/horoskops/mezazis/",
-    "title": "Mežāža dienas horoskops",
+    "title": "Mežāža dienas horoskops šodien",
     "family": "horoscope",
     "indexable": true,
     "status": "ready",
@@ -1373,7 +1373,7 @@
   },
   {
     "url": "/horoskops/skorpions/",
-    "title": "Skorpiona dienas horoskops",
+    "title": "Skorpiona dienas horoskops šodien",
     "family": "horoscope",
     "indexable": true,
     "status": "ready",
@@ -1387,7 +1387,7 @@
   },
   {
     "url": "/horoskops/strelnieks/",
-    "title": "Strēlnieka dienas horoskops",
+    "title": "Strēlnieka dienas horoskops šodien",
     "family": "horoscope",
     "indexable": true,
     "status": "ready",
@@ -1401,7 +1401,7 @@
   },
   {
     "url": "/horoskops/svari/",
-    "title": "Svaru dienas horoskops",
+    "title": "Svaru dienas horoskops šodien",
     "family": "horoscope",
     "indexable": true,
     "status": "ready",
@@ -1415,7 +1415,7 @@
   },
   {
     "url": "/horoskops/udensvirs/",
-    "title": "Ūdensvīra dienas horoskops",
+    "title": "Ūdensvīra dienas horoskops šodien",
     "family": "horoscope",
     "indexable": true,
     "status": "ready",
@@ -1429,7 +1429,7 @@
   },
   {
     "url": "/horoskops/versis/",
-    "title": "Vērša dienas horoskops",
+    "title": "Vērša dienas horoskops šodien",
     "family": "horoscope",
     "indexable": true,
     "status": "ready",
@@ -1443,7 +1443,7 @@
   },
   {
     "url": "/horoskops/vezis/",
-    "title": "Vēža dienas horoskops",
+    "title": "Vēža dienas horoskops šodien",
     "family": "horoscope",
     "indexable": true,
     "status": "ready",
@@ -1457,7 +1457,7 @@
   },
   {
     "url": "/horoskops/zivis/",
-    "title": "Zivju dienas horoskops",
+    "title": "Zivju dienas horoskops šodien",
     "family": "horoscope",
     "indexable": true,
     "status": "ready",
@@ -10086,12 +10086,12 @@
     "indexable": true,
     "status": "ready",
     "description": "Pārskati Latvijas skolēnu brīvlaiku un mācību gada datumus. Pie katra perioda norādīts avots vai tas, ka oficiālie datumi vēl nav publicēti.",
-    "lastmod": "2026-11-12",
+    "lastmod": "2026-11-14",
     "canonicalPath": "/skolas-brivlaiki/",
     "locale": "lv-LV",
     "pageType": "WebPage",
     "primaryIntent": "find-school-holidays",
-    "significantModifiedAt": "2026-11-12"
+    "significantModifiedAt": "2026-11-14"
   },
   {
     "url": "/skolas-brivlaiki/2027-28/",
@@ -10267,13 +10267,13 @@
     "family": "latvia_cultural",
     "indexable": true,
     "status": "ready",
-    "description": "Apskati Adventes svētdienu datumus un uzzini, kā nosaka pirmo Adventi. Tās datums katru gadu mainās.",
-    "lastmod": "2026-11-12",
+    "description": "Adventes svētdienas pirms Ziemassvētkiem 2027. gadā: kad? 28. novembris (svētdiena). Salīdzini 2027.–2030. gada datumus, kalendāra noteikumus un dienas nozīmi.",
+    "lastmod": "2026-11-14",
     "canonicalPath": "/svetki-un-tradicijas/advente/",
     "locale": "lv-LV",
     "pageType": "WebPage",
     "primaryIntent": "learn-tradition",
-    "significantModifiedAt": "2026-11-12"
+    "significantModifiedAt": "2026-11-14"
   },
   {
     "url": "/svetki-un-tradicijas/baltu-vienibas-diena/",
@@ -10281,13 +10281,13 @@
     "family": "occasion",
     "indexable": true,
     "status": "ready",
-    "description": "22. septembris: Saules kaujas piemiņa un Latvijas un Lietuvas saikne.",
-    "lastmod": "2026-11-12",
+    "description": "Baltu vienības diena 2027. gadā: kad? 22. septembris (trešdiena). Apskati visus datumus 2027.–2030. gadā, dienas nozīmi un statusu Latvijā.",
+    "lastmod": "2026-11-14",
     "canonicalPath": "/svetki-un-tradicijas/baltu-vienibas-diena/",
     "locale": "lv-LV",
     "pageType": "WebPage",
     "primaryIntent": "learn-tradition",
-    "significantModifiedAt": "2026-11-12"
+    "significantModifiedAt": "2026-11-14"
   },
   {
     "url": "/svetki-un-tradicijas/barikazu-aizstavju-atceres-diena/",
@@ -10295,13 +10295,13 @@
     "family": "occasion",
     "indexable": true,
     "status": "ready",
-    "description": "20. janvāris: 1991. gada barikāžu aizstāvju piemiņa un datumi četriem gadiem.",
-    "lastmod": "2026-11-12",
+    "description": "Barikāžu aizstāvju atceres diena 2027. gadā: kad? 20. janvāris (trešdiena). Apskati visus datumus 2027.–2030. gadā, dienas nozīmi un statusu Latvijā.",
+    "lastmod": "2026-11-14",
     "canonicalPath": "/svetki-un-tradicijas/barikazu-aizstavju-atceres-diena/",
     "locale": "lv-LV",
     "pageType": "WebPage",
     "primaryIntent": "learn-tradition",
-    "significantModifiedAt": "2026-11-12"
+    "significantModifiedAt": "2026-11-14"
   },
   {
     "url": "/svetki-un-tradicijas/bernu-aizsardzibas-diena/",
@@ -10309,13 +10309,13 @@
     "family": "occasion",
     "indexable": true,
     "status": "ready",
-    "description": "1. jūnijs Latvijas kalendārā un atšķirība no skolēnu vasaras brīvlaika.",
-    "lastmod": "2026-11-12",
+    "description": "Bērnu aizsardzības diena 2027. gadā: kad? 1. jūnijs (otrdiena). Apskati visus datumus 2027.–2030. gadā, dienas nozīmi un statusu Latvijā.",
+    "lastmod": "2026-11-14",
     "canonicalPath": "/svetki-un-tradicijas/bernu-aizsardzibas-diena/",
     "locale": "lv-LV",
     "pageType": "WebPage",
     "primaryIntent": "learn-tradition",
-    "significantModifiedAt": "2026-11-12"
+    "significantModifiedAt": "2026-11-14"
   },
   {
     "url": "/svetki-un-tradicijas/darba-svetki/",
@@ -10323,13 +10323,13 @@
     "family": "occasion",
     "indexable": true,
     "status": "ready",
-    "description": "1. maijs ir Darba svētki un Satversmes sapulces sasaukšanas diena.",
-    "lastmod": "2026-11-12",
+    "description": "Darba svētki 2027. gadā: kad? 1. maijs (sestdiena). Apskati visus datumus 2027.–2030. gadā, dienas nozīmi un statusu Latvijā.",
+    "lastmod": "2026-11-14",
     "canonicalPath": "/svetki-un-tradicijas/darba-svetki/",
     "locale": "lv-LV",
     "pageType": "WebPage",
     "primaryIntent": "learn-tradition",
-    "significantModifiedAt": "2026-11-12"
+    "significantModifiedAt": "2026-11-14"
   },
   {
     "url": "/svetki-un-tradicijas/dziesmu-un-deju-svetki/",
@@ -10337,13 +10337,13 @@
     "family": "occasion",
     "indexable": true,
     "status": "ready",
-    "description": "Apstiprinātais 2028. gada svētku periods un brīvdiena pēc noslēguma dienas.",
-    "lastmod": "2026-11-12",
+    "description": "Dziesmu un deju svētki 2027.–2030. gadā: kad? Skati publicētos datumus un svētku statusu Latvijā. Vēl neapstiprināti norises datumi ir norādīti atsevišķi.",
+    "lastmod": "2026-11-14",
     "canonicalPath": "/svetki-un-tradicijas/dziesmu-un-deju-svetki/",
     "locale": "lv-LV",
     "pageType": "WebPage",
     "primaryIntent": "learn-tradition",
-    "significantModifiedAt": "2026-11-12"
+    "significantModifiedAt": "2026-11-14"
   },
   {
     "url": "/svetki-un-tradicijas/dzimtas-valodas-diena/",
@@ -10351,13 +10351,13 @@
     "family": "latvia_cultural",
     "indexable": true,
     "status": "ready",
-    "description": "Starptautisko dzimtās valodas dienu atzīmē 21. februārī. Uzzini par UNESCO dienas ieceri un valodu daudzveidības nozīmi Latvijā.",
-    "lastmod": "2026-11-12",
+    "description": "Starptautiskā dzimtās valodas diena 2027. gadā: kad? 21. februāris (svētdiena). Salīdzini 2027.–2030. gada datumus, kalendāra noteikumus un dienas nozīmi.",
+    "lastmod": "2026-11-14",
     "canonicalPath": "/svetki-un-tradicijas/dzimtas-valodas-diena/",
     "locale": "lv-LV",
     "pageType": "WebPage",
     "primaryIntent": "learn-tradition",
-    "significantModifiedAt": "2026-11-12"
+    "significantModifiedAt": "2026-11-14"
   },
   {
     "url": "/svetki-un-tradicijas/ebreju-tautas-genocida-upuru-pieminas-diena/",
@@ -10365,13 +10365,13 @@
     "family": "occasion",
     "indexable": true,
     "status": "ready",
-    "description": "4. jūlijs Latvijā ir Ebreju tautas genocīda upuru piemiņas diena. Tā pievērš uzmanību holokausta upuru dzīvesstāstiem un nacistu okupācijas laikā izdarītajiem noziegumiem.",
-    "lastmod": "2026-11-12",
+    "description": "Ebreju tautas genocīda upuru piemiņas diena 2027. gadā: kad? 4. jūlijs (svētdiena). Apskati visus datumus 2027.–2030. gadā, dienas nozīmi un statusu Latvijā.",
+    "lastmod": "2026-11-14",
     "canonicalPath": "/svetki-un-tradicijas/ebreju-tautas-genocida-upuru-pieminas-diena/",
     "locale": "lv-LV",
     "pageType": "WebPage",
     "primaryIntent": "learn-tradition",
-    "significantModifiedAt": "2026-11-12"
+    "significantModifiedAt": "2026-11-14"
   },
   {
     "url": "/svetki-un-tradicijas/eiropas-diena/",
@@ -10379,13 +10379,13 @@
     "family": "occasion",
     "indexable": true,
     "status": "ready",
-    "description": "9. maijs, Šūmana deklarācija un Eiropas dienas vieta Latvijas kalendārā.",
-    "lastmod": "2026-11-12",
+    "description": "Eiropas diena 2027. gadā: kad? 9. maijs (svētdiena). Apskati visus datumus 2027.–2030. gadā, dienas nozīmi un statusu Latvijā.",
+    "lastmod": "2026-11-14",
     "canonicalPath": "/svetki-un-tradicijas/eiropas-diena/",
     "locale": "lv-LV",
     "pageType": "WebPage",
     "primaryIntent": "learn-tradition",
-    "significantModifiedAt": "2026-11-12"
+    "significantModifiedAt": "2026-11-14"
   },
   {
     "url": "/svetki-un-tradicijas/eiropas-valodu-diena/",
@@ -10393,13 +10393,13 @@
     "family": "latvia_cultural",
     "indexable": true,
     "status": "ready",
-    "description": "Eiropas Valodu diena ir 26. septembrī. Uzzini par Eiropas Padomes iniciatīvu, valodu daudzveidību un pasākumiem Latvijā.",
-    "lastmod": "2026-11-12",
+    "description": "Eiropas Valodu diena 2027. gadā: kad? 26. septembris (svētdiena). Salīdzini 2027.–2030. gada datumus, kalendāra noteikumus un dienas nozīmi.",
+    "lastmod": "2026-11-14",
     "canonicalPath": "/svetki-un-tradicijas/eiropas-valodu-diena/",
     "locale": "lv-LV",
     "pageType": "WebPage",
     "primaryIntent": "learn-tradition",
-    "significantModifiedAt": "2026-11-12"
+    "significantModifiedAt": "2026-11-14"
   },
   {
     "url": "/svetki-un-tradicijas/helovins/",
@@ -10407,13 +10407,13 @@
     "family": "latvia_cultural",
     "indexable": true,
     "status": "ready",
-    "description": "Helovīna datums ir 31. oktobris. Uzzini, kā to atšķirt no Latvijas Veļu laika un Mārtiņu tradīcijām un kur pārbaudīt vietējos pasākumus.",
-    "lastmod": "2026-11-12",
+    "description": "Helovīns Latvijā 2027. gadā: kad? 31. oktobris (svētdiena). Salīdzini 2027.–2030. gada datumus, kalendāra noteikumus un dienas nozīmi.",
+    "lastmod": "2026-11-14",
     "canonicalPath": "/svetki-un-tradicijas/helovins/",
     "locale": "lv-LV",
     "pageType": "WebPage",
     "primaryIntent": "learn-tradition",
-    "significantModifiedAt": "2026-11-12"
+    "significantModifiedAt": "2026-11-14"
   },
   {
     "url": "/svetki-un-tradicijas/holokausta-upuru-pieminas-diena/",
@@ -10421,13 +10421,13 @@
     "family": "latvia_cultural",
     "indexable": true,
     "status": "ready",
-    "description": "Salīdzini ANO 27. janvāra Holokausta upuru piemiņas dienu ar Latvijas likumā noteikto Ebreju tautas genocīda upuru piemiņas dienu 4. jūlijā.",
-    "lastmod": "2026-11-12",
+    "description": "Holokausta upuru piemiņas diena Latvijā un pasaulē 2027. gadā: kad? 27. janvāris (trešdiena). Salīdzini 2027.–2030. gada datumus, kalendāra noteikumus un dienas nozīmi.",
+    "lastmod": "2026-11-14",
     "canonicalPath": "/svetki-un-tradicijas/holokausta-upuru-pieminas-diena/",
     "locale": "lv-LV",
     "pageType": "WebPage",
     "primaryIntent": "learn-tradition",
-    "significantModifiedAt": "2026-11-12"
+    "significantModifiedAt": "2026-11-14"
   },
   {
     "url": "/svetki-un-tradicijas/janu-diena/",
@@ -10435,13 +10435,13 @@
     "family": "occasion",
     "indexable": true,
     "status": "ready",
-    "description": "24. jūnijs Latvijā: Jāņu dienas datums, svētku statuss un vasaras plānošana.",
-    "lastmod": "2026-11-12",
+    "description": "Jāņu diena 2027. gadā: kad? 24. jūnijs (ceturtdiena). Apskati visus datumus 2027.–2030. gadā, dienas nozīmi un statusu Latvijā.",
+    "lastmod": "2026-11-14",
     "canonicalPath": "/svetki-un-tradicijas/janu-diena/",
     "locale": "lv-LV",
     "pageType": "WebPage",
     "primaryIntent": "learn-tradition",
-    "significantModifiedAt": "2026-11-12"
+    "significantModifiedAt": "2026-11-14"
   },
   {
     "url": "/svetki-un-tradicijas/jaunavas-marijas-debesbrauksanas-svetki/",
@@ -10449,13 +10449,13 @@
     "family": "latvia_cultural",
     "indexable": true,
     "status": "ready",
-    "description": "Jaunavas Marijas debesīs uzņemšanas svētkus katoļu kalendārā svin 15. augustā. Pārbaudi datumu un atšķir to no Jēzus Debeskāpšanas dienas.",
-    "lastmod": "2026-11-12",
+    "description": "Jaunavas Marijas debesīs uzņemšanas svētki 2027. gadā: kad? 15. augusts (svētdiena). Salīdzini 2027.–2030. gada datumus, kalendāra noteikumus un dienas nozīmi.",
+    "lastmod": "2026-11-14",
     "canonicalPath": "/svetki-un-tradicijas/jaunavas-marijas-debesbrauksanas-svetki/",
     "locale": "lv-LV",
     "pageType": "WebPage",
     "primaryIntent": "learn-tradition",
-    "significantModifiedAt": "2026-11-12"
+    "significantModifiedAt": "2026-11-14"
   },
   {
     "url": "/svetki-un-tradicijas/jaungada-diena/",
@@ -10463,13 +10463,13 @@
     "family": "occasion",
     "indexable": true,
     "status": "ready",
-    "description": "1. janvāris Latvijā: svētku dienas statuss un nedēļas dienas 2027.–2030. gadā.",
-    "lastmod": "2026-11-12",
+    "description": "Jaungada diena 2027. gadā: kad? 1. janvāris (piektdiena). Apskati visus datumus 2027.–2030. gadā, dienas nozīmi un statusu Latvijā.",
+    "lastmod": "2026-11-14",
     "canonicalPath": "/svetki-un-tradicijas/jaungada-diena/",
     "locale": "lv-LV",
     "pageType": "WebPage",
     "primaryIntent": "learn-tradition",
-    "significantModifiedAt": "2026-11-12"
+    "significantModifiedAt": "2026-11-14"
   },
   {
     "url": "/svetki-un-tradicijas/juras-svetku-diena/",
@@ -10477,13 +10477,13 @@
     "family": "occasion",
     "indexable": true,
     "status": "ready",
-    "description": "Jūras svētku dienu Latvijā atzīmē jūlija otrajā sestdienā. Piekrastē tā ir saistīta ar jūru, zvejnieku arodu un piejūras kopienu dzīvi.",
-    "lastmod": "2026-11-12",
+    "description": "Jūras svētku diena 2027. gadā: kad? 10. jūlijs (sestdiena). Apskati visus datumus 2027.–2030. gadā, dienas nozīmi un statusu Latvijā.",
+    "lastmod": "2026-11-14",
     "canonicalPath": "/svetki-un-tradicijas/juras-svetku-diena/",
     "locale": "lv-LV",
     "pageType": "WebPage",
     "primaryIntent": "learn-tradition",
-    "significantModifiedAt": "2026-11-12"
+    "significantModifiedAt": "2026-11-14"
   },
   {
     "url": "/svetki-un-tradicijas/komunistiska-genocida-upuru-pieminas-diena/",
@@ -10491,13 +10491,13 @@
     "family": "occasion",
     "indexable": true,
     "status": "ready",
-    "description": "25. marta un 14. jūnija piemiņas dienas: divi datumi ar vienu oficiālo nosaukumu.",
-    "lastmod": "2026-11-12",
+    "description": "Komunistiskā genocīda upuru piemiņas diena 2027. gadā: kad? 25. marts (ceturtdiena). Apskati visus datumus 2027.–2030. gadā, dienas nozīmi un statusu Latvijā.",
+    "lastmod": "2026-11-14",
     "canonicalPath": "/svetki-un-tradicijas/komunistiska-genocida-upuru-pieminas-diena/",
     "locale": "lv-LV",
     "pageType": "WebPage",
     "primaryIntent": "learn-tradition",
-    "significantModifiedAt": "2026-11-12"
+    "significantModifiedAt": "2026-11-14"
   },
   {
     "url": "/svetki-un-tradicijas/konstitucionala-likuma-pienemsanas-diena/",
@@ -10505,13 +10505,13 @@
     "family": "occasion",
     "indexable": true,
     "status": "ready",
-    "description": "21. augustā Latvijā atzīmē 1991. gada konstitucionālā likuma pieņemšanu. Tas ir nozīmīgs datums Latvijas valstiskās neatkarības pilnīgā atjaunošanā.",
-    "lastmod": "2026-11-12",
+    "description": "Konstitucionālā likuma “Par Latvijas Republikas valstisko statusu” pieņemšanas diena 2027. gadā: kad? 21. augusts (sestdiena). Apskati visus datumus 2027.–2030. gadā, dienas nozīmi un statusu Latvijā.",
+    "lastmod": "2026-11-14",
     "canonicalPath": "/svetki-un-tradicijas/konstitucionala-likuma-pienemsanas-diena/",
     "locale": "lv-LV",
     "pageType": "WebPage",
     "primaryIntent": "learn-tradition",
-    "significantModifiedAt": "2026-11-12"
+    "significantModifiedAt": "2026-11-14"
   },
   {
     "url": "/svetki-un-tradicijas/lacplesa-diena/",
@@ -10519,13 +10519,13 @@
     "family": "occasion",
     "indexable": true,
     "status": "ready",
-    "description": "11. novembra nozīme un atceres dienas statuss Latvijas kalendārā.",
-    "lastmod": "2026-11-12",
+    "description": "Lāčplēša diena 2027. gadā: kad? 11. novembris (ceturtdiena). Apskati visus datumus 2027.–2030. gadā, dienas nozīmi un statusu Latvijā.",
+    "lastmod": "2026-11-14",
     "canonicalPath": "/svetki-un-tradicijas/lacplesa-diena/",
     "locale": "lv-LV",
     "pageType": "WebPage",
     "primaryIntent": "learn-tradition",
-    "significantModifiedAt": "2026-11-12"
+    "significantModifiedAt": "2026-11-14"
   },
   {
     "url": "/svetki-un-tradicijas/latgales-kongresa-diena/",
@@ -10533,13 +10533,13 @@
     "family": "occasion",
     "indexable": true,
     "status": "ready",
-    "description": "27. aprīļa vēsturiskais pamats un atzīmējamās dienas statuss.",
-    "lastmod": "2026-11-12",
+    "description": "Latgales kongresa diena 2027. gadā: kad? 27. aprīlis (otrdiena). Apskati visus datumus 2027.–2030. gadā, dienas nozīmi un statusu Latvijā.",
+    "lastmod": "2026-11-14",
     "canonicalPath": "/svetki-un-tradicijas/latgales-kongresa-diena/",
     "locale": "lv-LV",
     "pageType": "WebPage",
     "primaryIntent": "learn-tradition",
-    "significantModifiedAt": "2026-11-12"
+    "significantModifiedAt": "2026-11-14"
   },
   {
     "url": "/svetki-un-tradicijas/latvijas-brivibas-cinitaju-pieminas-diena/",
@@ -10547,13 +10547,13 @@
     "family": "occasion",
     "indexable": true,
     "status": "ready",
-    "description": "11. augustā Latvija godina brīvības cīnītāju piemiņu. Datums ir saistīts ar Latvijas Neatkarības kara noslēgumu un 1920. gada miera līgumu.",
-    "lastmod": "2026-11-12",
+    "description": "Latvijas brīvības cīnītāju piemiņas diena 2027. gadā: kad? 11. augusts (trešdiena). Apskati visus datumus 2027.–2030. gadā, dienas nozīmi un statusu Latvijā.",
+    "lastmod": "2026-11-14",
     "canonicalPath": "/svetki-un-tradicijas/latvijas-brivibas-cinitaju-pieminas-diena/",
     "locale": "lv-LV",
     "pageType": "WebPage",
     "primaryIntent": "learn-tradition",
-    "significantModifiedAt": "2026-11-12"
+    "significantModifiedAt": "2026-11-14"
   },
   {
     "url": "/svetki-un-tradicijas/latvijas-de-jure-atzisanas-diena/",
@@ -10561,13 +10561,13 @@
     "family": "occasion",
     "indexable": true,
     "status": "ready",
-    "description": "26. janvārī Latvijā atzīmē valsts starptautisko atzīšanu de jure. Diena ir veltīta Latvijas diplomātijas darbam un valsts vietai starptautisko tiesību sistēmā.",
-    "lastmod": "2026-11-12",
+    "description": "Latvijas Republikas starptautiskās (de jure) atzīšanas diena 2027. gadā: kad? 26. janvāris (otrdiena). Apskati visus datumus 2027.–2030. gadā, dienas nozīmi un statusu Latvijā.",
+    "lastmod": "2026-11-14",
     "canonicalPath": "/svetki-un-tradicijas/latvijas-de-jure-atzisanas-diena/",
     "locale": "lv-LV",
     "pageType": "WebPage",
     "primaryIntent": "learn-tradition",
-    "significantModifiedAt": "2026-11-12"
+    "significantModifiedAt": "2026-11-14"
   },
   {
     "url": "/svetki-un-tradicijas/latvijas-republikas-okupacijas-diena/",
@@ -10575,13 +10575,13 @@
     "family": "occasion",
     "indexable": true,
     "status": "ready",
-    "description": "17. jūnijs ir Latvijas Republikas okupācijas diena. Šajā datumā piemin 1940. gadā sākto Latvijas okupāciju un tās sekas Latvijas valstij un iedzīvotājiem.",
-    "lastmod": "2026-11-12",
+    "description": "Latvijas Republikas okupācijas diena 2027. gadā: kad? 17. jūnijs (ceturtdiena). Apskati visus datumus 2027.–2030. gadā, dienas nozīmi un statusu Latvijā.",
+    "lastmod": "2026-11-14",
     "canonicalPath": "/svetki-un-tradicijas/latvijas-republikas-okupacijas-diena/",
     "locale": "lv-LV",
     "pageType": "WebPage",
     "primaryIntent": "learn-tradition",
-    "significantModifiedAt": "2026-11-12"
+    "significantModifiedAt": "2026-11-14"
   },
   {
     "url": "/svetki-un-tradicijas/latvijas-republikas-proklamesanas-diena/",
@@ -10589,13 +10589,13 @@
     "family": "occasion",
     "indexable": true,
     "status": "ready",
-    "description": "18. novembra svētku un aizstājošo brīvdienu datumi 2027.–2030. gadā.",
-    "lastmod": "2026-11-12",
+    "description": "Latvijas Republikas Proklamēšanas diena 2027. gadā: kad? 18. novembris (ceturtdiena). Apskati visus datumus 2027.–2030. gadā, dienas nozīmi un statusu Latvijā.",
+    "lastmod": "2026-11-14",
     "canonicalPath": "/svetki-un-tradicijas/latvijas-republikas-proklamesanas-diena/",
     "locale": "lv-LV",
     "pageType": "WebPage",
     "primaryIntent": "learn-tradition",
-    "significantModifiedAt": "2026-11-12"
+    "significantModifiedAt": "2026-11-14"
   },
   {
     "url": "/svetki-un-tradicijas/liela-piektdiena/",
@@ -10603,13 +10603,13 @@
     "family": "occasion",
     "indexable": true,
     "status": "ready",
-    "description": "Lielās Piektdienas datumi, saistība ar Lieldienām un brīvdienu plānošana.",
-    "lastmod": "2026-11-12",
+    "description": "Lielā Piektdiena 2027. gadā: kad? 26. marts (piektdiena). Apskati visus datumus 2027.–2030. gadā, dienas nozīmi un statusu Latvijā.",
+    "lastmod": "2026-11-14",
     "canonicalPath": "/svetki-un-tradicijas/liela-piektdiena/",
     "locale": "lv-LV",
     "pageType": "WebPage",
     "primaryIntent": "learn-tradition",
-    "significantModifiedAt": "2026-11-12"
+    "significantModifiedAt": "2026-11-14"
   },
   {
     "url": "/svetki-un-tradicijas/lieldienas/",
@@ -10617,13 +10617,13 @@
     "family": "occasion",
     "indexable": true,
     "status": "ready",
-    "description": "Pirmās un Otrās Lieldienas 2027.–2030. gadā: mainīgie datumi un brīvdienu posms.",
-    "lastmod": "2026-11-12",
+    "description": "Lieldienas 2027. gadā: kad? 28. marts (svētdiena). Apskati visus datumus 2027.–2030. gadā, dienas nozīmi un statusu Latvijā.",
+    "lastmod": "2026-11-14",
     "canonicalPath": "/svetki-un-tradicijas/lieldienas/",
     "locale": "lv-LV",
     "pageType": "WebPage",
     "primaryIntent": "learn-tradition",
-    "significantModifiedAt": "2026-11-12"
+    "significantModifiedAt": "2026-11-14"
   },
   {
     "url": "/svetki-un-tradicijas/ligo-diena/",
@@ -10631,13 +10631,13 @@
     "family": "occasion",
     "indexable": true,
     "status": "ready",
-    "description": "23. jūnija svētku statuss, Līgo vakara tradīcijas un atšķirība no astronomiskajiem saulgriežiem.",
-    "lastmod": "2026-11-12",
+    "description": "Līgo diena 2027. gadā: kad? 23. jūnijs (trešdiena). Apskati visus datumus 2027.–2030. gadā, dienas nozīmi un statusu Latvijā.",
+    "lastmod": "2026-11-14",
     "canonicalPath": "/svetki-un-tradicijas/ligo-diena/",
     "locale": "lv-LV",
     "pageType": "WebPage",
     "primaryIntent": "learn-tradition",
-    "significantModifiedAt": "2026-11-12"
+    "significantModifiedAt": "2026-11-14"
   },
   {
     "url": "/svetki-un-tradicijas/martindiena/",
@@ -10645,13 +10645,13 @@
     "family": "latvia_cultural",
     "indexable": true,
     "status": "ready",
-    "description": "Mārtiņus atzīmē 10. novembrī. Iepazīsti rudens darbu noslēguma un maskošanās tradīcijas, nodalot svētku dienu no tirgu norises.",
-    "lastmod": "2026-11-12",
+    "description": "Mārtiņi un 10. novembra tradīcijas Latvijā 2027. gadā: kad? 10. novembris (trešdiena). Salīdzini 2027.–2030. gada datumus, kalendāra noteikumus un dienas nozīmi.",
+    "lastmod": "2026-11-14",
     "canonicalPath": "/svetki-un-tradicijas/martindiena/",
     "locale": "lv-LV",
     "pageType": "WebPage",
     "primaryIntent": "learn-tradition",
-    "significantModifiedAt": "2026-11-12"
+    "significantModifiedAt": "2026-11-14"
   },
   {
     "url": "/svetki-un-tradicijas/mates-diena/",
@@ -10659,13 +10659,13 @@
     "family": "occasion",
     "indexable": true,
     "status": "ready",
-    "description": "Mātes diena Latvijā ir maija otrajā svētdienā. Datumi 2027.–2030. gadam.",
-    "lastmod": "2026-11-12",
+    "description": "Mātes diena 2027. gadā: kad? 9. maijs (svētdiena). Apskati visus datumus 2027.–2030. gadā, dienas nozīmi un statusu Latvijā.",
+    "lastmod": "2026-11-14",
     "canonicalPath": "/svetki-un-tradicijas/mates-diena/",
     "locale": "lv-LV",
     "pageType": "WebPage",
     "primaryIntent": "learn-tradition",
-    "significantModifiedAt": "2026-11-12"
+    "significantModifiedAt": "2026-11-14"
   },
   {
     "url": "/svetki-un-tradicijas/medicinas-darbinieku-diena/",
@@ -10673,13 +10673,13 @@
     "family": "occasion",
     "indexable": true,
     "status": "ready",
-    "description": "Medicīnas darbinieku diena Latvijā ir jūnija trešajā svētdienā. Tā ir iespēja pateikties cilvēkiem, kuri rūpējas par pacientu ārstēšanu, aprūpi un veselības atjaunošanu.",
-    "lastmod": "2026-11-12",
+    "description": "Medicīnas darbinieku diena 2027. gadā: kad? 20. jūnijs (svētdiena). Apskati visus datumus 2027.–2030. gadā, dienas nozīmi un statusu Latvijā.",
+    "lastmod": "2026-11-14",
     "canonicalPath": "/svetki-un-tradicijas/medicinas-darbinieku-diena/",
     "locale": "lv-LV",
     "pageType": "WebPage",
     "primaryIntent": "learn-tradition",
-    "significantModifiedAt": "2026-11-12"
+    "significantModifiedAt": "2026-11-14"
   },
   {
     "url": "/svetki-un-tradicijas/meteni/",
@@ -10701,13 +10701,13 @@
     "family": "latvia_cultural",
     "indexable": true,
     "status": "ready",
-    "description": "Miķeļi ir 29. septembrī atzīmēti ražas laika svētki. Uzzini par Miķeļu nozīmi un to atšķirību no astronomiskās rudens ekvinokcijas.",
-    "lastmod": "2026-11-12",
+    "description": "Miķeļi un ražas svētku tradīcijas Latvijā 2027. gadā: kad? 29. septembris (trešdiena). Salīdzini 2027.–2030. gada datumus, kalendāra noteikumus un dienas nozīmi.",
+    "lastmod": "2026-11-14",
     "canonicalPath": "/svetki-un-tradicijas/mikeli/",
     "locale": "lv-LV",
     "pageType": "WebPage",
     "primaryIntent": "learn-tradition",
-    "significantModifiedAt": "2026-11-12"
+    "significantModifiedAt": "2026-11-14"
   },
   {
     "url": "/svetki-un-tradicijas/miruso-pieminas-diena/",
@@ -10715,13 +10715,13 @@
     "family": "latvia_cultural",
     "indexable": true,
     "status": "ready",
-    "description": "Katoļu Visu ticīgo mirušo piemiņas diena ir 2. novembrī; luterāņu Mūžības svētdiena ir pirms pirmās Adventes. Apskati atšķirību.",
-    "lastmod": "2026-11-12",
+    "description": "Mirušo piemiņas dienas katoļu un luterāņu tradīcijā 2027. gadā: kad? 2. novembris (otrdiena). Salīdzini 2027.–2030. gada datumus, kalendāra noteikumus un dienas nozīmi.",
+    "lastmod": "2026-11-14",
     "canonicalPath": "/svetki-un-tradicijas/miruso-pieminas-diena/",
     "locale": "lv-LV",
     "pageType": "WebPage",
     "primaryIntent": "learn-tradition",
-    "significantModifiedAt": "2026-11-12"
+    "significantModifiedAt": "2026-11-14"
   },
   {
     "url": "/svetki-un-tradicijas/nacionalas-pretosanas-kustibas-pieminas-diena/",
@@ -10729,13 +10729,13 @@
     "family": "occasion",
     "indexable": true,
     "status": "ready",
-    "description": "17. martā Latvija piemin nacionālās pretošanās kustības dalībniekus. Diena aptver pretošanos okupācijas varām un centienus atjaunot neatkarīgu, demokrātisku Latviju.",
-    "lastmod": "2026-11-12",
+    "description": "Nacionālās pretošanās kustības piemiņas diena 2027. gadā: kad? 17. marts (trešdiena). Apskati visus datumus 2027.–2030. gadā, dienas nozīmi un statusu Latvijā.",
+    "lastmod": "2026-11-14",
     "canonicalPath": "/svetki-un-tradicijas/nacionalas-pretosanas-kustibas-pieminas-diena/",
     "locale": "lv-LV",
     "pageType": "WebPage",
     "primaryIntent": "learn-tradition",
-    "significantModifiedAt": "2026-11-12"
+    "significantModifiedAt": "2026-11-14"
   },
   {
     "url": "/svetki-un-tradicijas/nacionalo-partizanu-pretosanas-atceres-diena/",
@@ -10743,13 +10743,13 @@
     "family": "occasion",
     "indexable": true,
     "status": "ready",
-    "description": "2. marts Latvijā ir Nacionālo partizānu bruņotās pretošanās atceres diena. Tā godina pretošanos padomju okupācijas varai un cilvēkus, kuri piedalījās nacionālo partizānu kustībā.",
-    "lastmod": "2026-11-12",
+    "description": "Nacionālo partizānu bruņotās pretošanās atceres diena 2027. gadā: kad? 2. marts (otrdiena). Apskati visus datumus 2027.–2030. gadā, dienas nozīmi un statusu Latvijā.",
+    "lastmod": "2026-11-14",
     "canonicalPath": "/svetki-un-tradicijas/nacionalo-partizanu-pretosanas-atceres-diena/",
     "locale": "lv-LV",
     "pageType": "WebPage",
     "primaryIntent": "learn-tradition",
-    "significantModifiedAt": "2026-11-12"
+    "significantModifiedAt": "2026-11-14"
   },
   {
     "url": "/svetki-un-tradicijas/nacisma-sagraves-un-otra-pasaules-kara-upuru-pieminas-diena/",
@@ -10757,13 +10757,13 @@
     "family": "occasion",
     "indexable": true,
     "status": "ready",
-    "description": "8. maijā Latvijā atzīmē Nacisma sagrāves dienu un piemin Otrā pasaules kara upurus. Kalendāra ieraksts aicina pievērsties kara upuru piemiņai un vēstures izziņai.",
-    "lastmod": "2026-11-12",
+    "description": "Nacisma sagrāves diena un Otrā pasaules kara upuru piemiņas diena 2027. gadā: kad? 8. maijs (sestdiena). Apskati visus datumus 2027.–2030. gadā, dienas nozīmi un statusu Latvijā.",
+    "lastmod": "2026-11-14",
     "canonicalPath": "/svetki-un-tradicijas/nacisma-sagraves-un-otra-pasaules-kara-upuru-pieminas-diena/",
     "locale": "lv-LV",
     "pageType": "WebPage",
     "primaryIntent": "learn-tradition",
-    "significantModifiedAt": "2026-11-12"
+    "significantModifiedAt": "2026-11-14"
   },
   {
     "url": "/svetki-un-tradicijas/neatkaribas-atjaunosanas-diena/",
@@ -10771,13 +10771,13 @@
     "family": "occasion",
     "indexable": true,
     "status": "ready",
-    "description": "4. maijs: neatkarības atjaunošanas atcere, brīvdienas un 2030. gada aizstājošais datums.",
-    "lastmod": "2026-11-12",
+    "description": "Neatkarības atjaunošanas diena 2027. gadā: kad? 4. maijs (otrdiena). Apskati visus datumus 2027.–2030. gadā, dienas nozīmi un statusu Latvijā.",
+    "lastmod": "2026-11-14",
     "canonicalPath": "/svetki-un-tradicijas/neatkaribas-atjaunosanas-diena/",
     "locale": "lv-LV",
     "pageType": "WebPage",
     "primaryIntent": "learn-tradition",
-    "significantModifiedAt": "2026-11-12"
+    "significantModifiedAt": "2026-11-14"
   },
   {
     "url": "/svetki-un-tradicijas/pasaules-bernu-diena/",
@@ -10785,13 +10785,13 @@
     "family": "latvia_cultural",
     "indexable": true,
     "status": "ready",
-    "description": "Pasaules bērnu dienu atzīmē 20. novembrī, pieminot ANO Bērnu tiesību konvencijas pieņemšanu un bērnu līdzdalību.",
-    "lastmod": "2026-11-12",
+    "description": "Pasaules bērnu diena 2027. gadā: kad? 20. novembris (sestdiena). Salīdzini 2027.–2030. gada datumus, kalendāra noteikumus un dienas nozīmi.",
+    "lastmod": "2026-11-14",
     "canonicalPath": "/svetki-un-tradicijas/pasaules-bernu-diena/",
     "locale": "lv-LV",
     "pageType": "WebPage",
     "primaryIntent": "learn-tradition",
-    "significantModifiedAt": "2026-11-12"
+    "significantModifiedAt": "2026-11-14"
   },
   {
     "url": "/svetki-un-tradicijas/pasaules-bisu-diena/",
@@ -10799,13 +10799,13 @@
     "family": "latvia_cultural",
     "indexable": true,
     "status": "ready",
-    "description": "Pasaules bišu diena ir 20. maijā. Apskati ANO noteikto datumu un apputeksnētāju nozīmi Latvijas dārziem un dabai.",
-    "lastmod": "2026-11-12",
+    "description": "Pasaules bišu diena 2027. gadā: kad? 20. maijs (ceturtdiena). Salīdzini 2027.–2030. gada datumus, kalendāra noteikumus un dienas nozīmi.",
+    "lastmod": "2026-11-14",
     "canonicalPath": "/svetki-un-tradicijas/pasaules-bisu-diena/",
     "locale": "lv-LV",
     "pageType": "WebPage",
     "primaryIntent": "learn-tradition",
-    "significantModifiedAt": "2026-11-12"
+    "significantModifiedAt": "2026-11-14"
   },
   {
     "url": "/svetki-un-tradicijas/pasaules-dzivnieku-diena/",
@@ -10813,13 +10813,13 @@
     "family": "latvia_cultural",
     "indexable": true,
     "status": "ready",
-    "description": "Pasaules dzīvnieku dienu rīko 4. oktobrī. Pārbaudi oficiālā rīkotāja ikgadējo tēmu un nošķir to no Latvijas brīvdienu kalendāra.",
-    "lastmod": "2026-11-12",
+    "description": "Pasaules dzīvnieku diena 2027. gadā: kad? 4. oktobris (pirmdiena). Salīdzini 2027.–2030. gada datumus, kalendāra noteikumus un dienas nozīmi.",
+    "lastmod": "2026-11-14",
     "canonicalPath": "/svetki-un-tradicijas/pasaules-dzivnieku-diena/",
     "locale": "lv-LV",
     "pageType": "WebPage",
     "primaryIntent": "learn-tradition",
-    "significantModifiedAt": "2026-11-12"
+    "significantModifiedAt": "2026-11-14"
   },
   {
     "url": "/svetki-un-tradicijas/pasaules-gramatu-diena/",
@@ -10827,13 +10827,13 @@
     "family": "latvia_cultural",
     "indexable": true,
     "status": "ready",
-    "description": "UNESCO Pasaules grāmatu un autortiesību diena ir 23. aprīlī. Apskati datumu un ikgadējo lasīšanas veicināšanas iniciatīvu.",
-    "lastmod": "2026-11-12",
+    "description": "Pasaules grāmatu un autortiesību diena 2027. gadā: kad? 23. aprīlis (piektdiena). Salīdzini 2027.–2030. gada datumus, kalendāra noteikumus un dienas nozīmi.",
+    "lastmod": "2026-11-14",
     "canonicalPath": "/svetki-un-tradicijas/pasaules-gramatu-diena/",
     "locale": "lv-LV",
     "pageType": "WebPage",
     "primaryIntent": "learn-tradition",
-    "significantModifiedAt": "2026-11-12"
+    "significantModifiedAt": "2026-11-14"
   },
   {
     "url": "/svetki-un-tradicijas/pasaules-udens-diena/",
@@ -10841,13 +10841,13 @@
     "family": "latvia_cultural",
     "indexable": true,
     "status": "ready",
-    "description": "Pasaules ūdens diena ir 22. martā. Uzzini par ANO–Ūdens ikgadējo dienu un atjauno mainīgo kampaņas tēmu tikai no oficiāla avota.",
-    "lastmod": "2026-11-12",
+    "description": "Pasaules ūdens diena 2027. gadā: kad? 22. marts (pirmdiena). Salīdzini 2027.–2030. gada datumus, kalendāra noteikumus un dienas nozīmi.",
+    "lastmod": "2026-11-14",
     "canonicalPath": "/svetki-un-tradicijas/pasaules-udens-diena/",
     "locale": "lv-LV",
     "pageType": "WebPage",
     "primaryIntent": "learn-tradition",
-    "significantModifiedAt": "2026-11-12"
+    "significantModifiedAt": "2026-11-14"
   },
   {
     "url": "/svetki-un-tradicijas/pasaules-vides-diena/",
@@ -10855,13 +10855,13 @@
     "family": "latvia_cultural",
     "indexable": true,
     "status": "ready",
-    "description": "Pasaules vides dienu atzīmē 5. jūnijā. Apskati ANO Vides programmas ikgadējo vides kampaņu un pārbaudi katra gada tēmu atsevišķi.",
-    "lastmod": "2026-11-12",
+    "description": "Pasaules vides diena 2027. gadā: kad? 5. jūnijs (sestdiena). Salīdzini 2027.–2030. gada datumus, kalendāra noteikumus un dienas nozīmi.",
+    "lastmod": "2026-11-14",
     "canonicalPath": "/svetki-un-tradicijas/pasaules-vides-diena/",
     "locale": "lv-LV",
     "pageType": "WebPage",
     "primaryIntent": "learn-tradition",
-    "significantModifiedAt": "2026-11-12"
+    "significantModifiedAt": "2026-11-14"
   },
   {
     "url": "/svetki-un-tradicijas/pavasara-ekvinokcija/",
@@ -10869,13 +10869,13 @@
     "family": "latvia_cultural",
     "indexable": true,
     "status": "ready",
-    "description": "Uzzini, kas ir pavasara ekvinokcija un kā tās brīdi rāda pēc Latvijas laika. Astronomisko notikumu nošķir no gadskārtu svētkiem.",
-    "lastmod": "2026-11-12",
+    "description": "Pavasara ekvinokcija Latvijā 2027. gadā: kad? 20. marts (sestdiena). Salīdzini 2027.–2030. gada datumus, kalendāra noteikumus un dienas nozīmi.",
+    "lastmod": "2026-11-14",
     "canonicalPath": "/svetki-un-tradicijas/pavasara-ekvinokcija/",
     "locale": "lv-LV",
     "pageType": "WebPage",
     "primaryIntent": "learn-tradition",
-    "significantModifiedAt": "2026-11-12"
+    "significantModifiedAt": "2026-11-14"
   },
   {
     "url": "/svetki-un-tradicijas/pavasara-tradicijas/",
@@ -10897,13 +10897,13 @@
     "family": "occasion",
     "indexable": true,
     "status": "ready",
-    "description": "Policijas darbinieku dienu Latvijā atzīmē 5. decembrī. Tā ir profesionālās atzinības diena cilvēkiem, kuru darbs saistīts ar sabiedrisko kārtību, cilvēku drošību un tiesību aizsardzību.",
-    "lastmod": "2026-11-12",
+    "description": "Policijas darbinieku diena 2027. gadā: kad? 5. decembris (svētdiena). Apskati visus datumus 2027.–2030. gadā, dienas nozīmi un statusu Latvijā.",
+    "lastmod": "2026-11-14",
     "canonicalPath": "/svetki-un-tradicijas/policijas-darbinieku-diena/",
     "locale": "lv-LV",
     "pageType": "WebPage",
     "primaryIntent": "learn-tradition",
-    "significantModifiedAt": "2026-11-12"
+    "significantModifiedAt": "2026-11-14"
   },
   {
     "url": "/svetki-un-tradicijas/pupolu-svetdiena/",
@@ -10911,13 +10911,13 @@
     "family": "latvia_cultural",
     "indexable": true,
     "status": "ready",
-    "description": "Pūpolu svētdiena ir nedēļu pirms Lieldienām. Uzzini, kā tās datums mainās un kāpēc jānorāda izmantotais baznīcas kalendārs.",
-    "lastmod": "2026-11-12",
+    "description": "Pūpolu svētdiena un Lielās nedēļas sākums 2027. gadā: kad? 21. marts (svētdiena). Salīdzini 2027.–2030. gada datumus, kalendāra noteikumus un dienas nozīmi.",
+    "lastmod": "2026-11-14",
     "canonicalPath": "/svetki-un-tradicijas/pupolu-svetdiena/",
     "locale": "lv-LV",
     "pageType": "WebPage",
     "primaryIntent": "learn-tradition",
-    "significantModifiedAt": "2026-11-12"
+    "significantModifiedAt": "2026-11-14"
   },
   {
     "url": "/svetki-un-tradicijas/robezsargu-diena/",
@@ -10925,13 +10925,13 @@
     "family": "occasion",
     "indexable": true,
     "status": "ready",
-    "description": "7. novembrī Latvijā atzīmē Robežsargu dienu. Tā ir veltīta valsts robežas apsardzes vēsturei un cilvēkiem, kuri šo darbu veic.",
-    "lastmod": "2026-11-12",
+    "description": "Robežsargu diena 2027. gadā: kad? 7. novembris (svētdiena). Apskati visus datumus 2027.–2030. gadā, dienas nozīmi un statusu Latvijā.",
+    "lastmod": "2026-11-14",
     "canonicalPath": "/svetki-un-tradicijas/robezsargu-diena/",
     "locale": "lv-LV",
     "pageType": "WebPage",
     "primaryIntent": "learn-tradition",
-    "significantModifiedAt": "2026-11-12"
+    "significantModifiedAt": "2026-11-14"
   },
   {
     "url": "/svetki-un-tradicijas/rudens-ekvinokcija/",
@@ -10939,13 +10939,13 @@
     "family": "latvia_cultural",
     "indexable": true,
     "status": "ready",
-    "description": "Uzzini, kas ir rudens ekvinokcija un kā tās brīdi rāda pēc Latvijas laika. Astronomisko notikumu nošķir no gadskārtu svētkiem.",
-    "lastmod": "2026-11-12",
+    "description": "Rudens ekvinokcija Latvijā 2027. gadā: kad? 23. septembris (ceturtdiena). Salīdzini 2027.–2030. gada datumus, kalendāra noteikumus un dienas nozīmi.",
+    "lastmod": "2026-11-14",
     "canonicalPath": "/svetki-un-tradicijas/rudens-ekvinokcija/",
     "locale": "lv-LV",
     "pageType": "WebPage",
     "primaryIntent": "learn-tradition",
-    "significantModifiedAt": "2026-11-12"
+    "significantModifiedAt": "2026-11-14"
   },
   {
     "url": "/svetki-un-tradicijas/saulgriezi/",
@@ -10953,13 +10953,13 @@
     "family": "occasion",
     "indexable": true,
     "status": "ready",
-    "description": "Vasaras un ziemas saulgriežu precīzie brīži Latvijā 2027.–2030. gadā.",
-    "lastmod": "2026-11-12",
+    "description": "Saulgrieži 2027. gadā: kad? 21. jūnijs (pirmdiena). Apskati visus datumus 2027.–2030. gadā, dienas nozīmi un statusu Latvijā.",
+    "lastmod": "2026-11-14",
     "canonicalPath": "/svetki-un-tradicijas/saulgriezi/",
     "locale": "lv-LV",
     "pageType": "WebPage",
     "primaryIntent": "learn-tradition",
-    "significantModifiedAt": "2026-11-12"
+    "significantModifiedAt": "2026-11-14"
   },
   {
     "url": "/svetki-un-tradicijas/skolotaju-diena/",
@@ -10967,13 +10967,13 @@
     "family": "occasion",
     "indexable": true,
     "status": "ready",
-    "description": "Latvijā Skolotāju diena ir 5. oktobrī. Pašreizējais datums un agrākā principa atšķirība.",
-    "lastmod": "2026-11-12",
+    "description": "Skolotāju diena 2027. gadā: kad? 5. oktobris (otrdiena). Apskati visus datumus 2027.–2030. gadā, dienas nozīmi un statusu Latvijā.",
+    "lastmod": "2026-11-14",
     "canonicalPath": "/svetki-un-tradicijas/skolotaju-diena/",
     "locale": "lv-LV",
     "pageType": "WebPage",
     "primaryIntent": "learn-tradition",
-    "significantModifiedAt": "2026-11-12"
+    "significantModifiedAt": "2026-11-14"
   },
   {
     "url": "/svetki-un-tradicijas/stalinisma-un-nacisma-upuru-atceres-diena/",
@@ -10981,13 +10981,13 @@
     "family": "occasion",
     "indexable": true,
     "status": "ready",
-    "description": "23. augusts Latvijā ir Staļinisma un nacisma upuru atceres diena. Tas ir piemiņas un vēstures izziņas datums par divu totalitāro režīmu nodarījumiem.",
-    "lastmod": "2026-11-12",
+    "description": "Staļinisma un nacisma upuru atceres diena 2027. gadā: kad? 23. augusts (pirmdiena). Apskati visus datumus 2027.–2030. gadā, dienas nozīmi un statusu Latvijā.",
+    "lastmod": "2026-11-14",
     "canonicalPath": "/svetki-un-tradicijas/stalinisma-un-nacisma-upuru-atceres-diena/",
     "locale": "lv-LV",
     "pageType": "WebPage",
     "primaryIntent": "learn-tradition",
-    "significantModifiedAt": "2026-11-12"
+    "significantModifiedAt": "2026-11-14"
   },
   {
     "url": "/svetki-un-tradicijas/starptautiska-gimenes-diena/",
@@ -10995,13 +10995,13 @@
     "family": "occasion",
     "indexable": true,
     "status": "ready",
-    "description": "15. maijs Latvijā ir Starptautiskā ģimenes diena. Tā dod iespēju pievērst uzmanību ģimenes attiecībām, savstarpējam atbalstam un kopīgi pavadītam laikam.",
-    "lastmod": "2026-11-12",
+    "description": "Starptautiskā ģimenes diena 2027. gadā: kad? 15. maijs (sestdiena). Apskati visus datumus 2027.–2030. gadā, dienas nozīmi un statusu Latvijā.",
+    "lastmod": "2026-11-14",
     "canonicalPath": "/svetki-un-tradicijas/starptautiska-gimenes-diena/",
     "locale": "lv-LV",
     "pageType": "WebPage",
     "primaryIntent": "learn-tradition",
-    "significantModifiedAt": "2026-11-12"
+    "significantModifiedAt": "2026-11-14"
   },
   {
     "url": "/svetki-un-tradicijas/starptautiska-nevalstisko-organizaciju-diena/",
@@ -11009,13 +11009,13 @@
     "family": "occasion",
     "indexable": true,
     "status": "ready",
-    "description": "27. februārī Latvijā atzīmē Starptautisko nevalstisko organizāciju dienu. Tā pievērš uzmanību biedrību, nodibinājumu un pilsoniskās līdzdalības nozīmei.",
-    "lastmod": "2026-11-12",
+    "description": "Starptautiskā nevalstisko organizāciju diena 2027. gadā: kad? 27. februāris (sestdiena). Apskati visus datumus 2027.–2030. gadā, dienas nozīmi un statusu Latvijā.",
+    "lastmod": "2026-11-14",
     "canonicalPath": "/svetki-un-tradicijas/starptautiska-nevalstisko-organizaciju-diena/",
     "locale": "lv-LV",
     "pageType": "WebPage",
     "primaryIntent": "learn-tradition",
-    "significantModifiedAt": "2026-11-12"
+    "significantModifiedAt": "2026-11-14"
   },
   {
     "url": "/svetki-un-tradicijas/starptautiska-senioru-diena/",
@@ -11023,13 +11023,13 @@
     "family": "occasion",
     "indexable": true,
     "status": "ready",
-    "description": "1. oktobrī Latvijā atzīmē Starptautisko senioru dienu. Tā aicina novērtēt vecāka gadagājuma cilvēku pieredzi, līdzdalību un tiesības.",
-    "lastmod": "2026-11-12",
+    "description": "Starptautiskā senioru diena 2027. gadā: kad? 1. oktobris (piektdiena). Apskati visus datumus 2027.–2030. gadā, dienas nozīmi un statusu Latvijā.",
+    "lastmod": "2026-11-14",
     "canonicalPath": "/svetki-un-tradicijas/starptautiska-senioru-diena/",
     "locale": "lv-LV",
     "pageType": "WebPage",
     "primaryIntent": "learn-tradition",
-    "significantModifiedAt": "2026-11-12"
+    "significantModifiedAt": "2026-11-14"
   },
   {
     "url": "/svetki-un-tradicijas/starptautiska-sieviesu-diena/",
@@ -11037,13 +11037,13 @@
     "family": "occasion",
     "indexable": true,
     "status": "ready",
-    "description": "8. marts Latvijas kalendārā: atzīmējama diena un sieviešu sasniegumu novērtējums.",
-    "lastmod": "2026-11-12",
+    "description": "Starptautiskā sieviešu diena 2027. gadā: kad? 8. marts (pirmdiena). Apskati visus datumus 2027.–2030. gadā, dienas nozīmi un statusu Latvijā.",
+    "lastmod": "2026-11-14",
     "canonicalPath": "/svetki-un-tradicijas/starptautiska-sieviesu-diena/",
     "locale": "lv-LV",
     "pageType": "WebPage",
     "primaryIntent": "learn-tradition",
-    "significantModifiedAt": "2026-11-12"
+    "significantModifiedAt": "2026-11-14"
   },
   {
     "url": "/svetki-un-tradicijas/sveta-nikolaja-diena/",
@@ -11051,13 +11051,13 @@
     "family": "latvia_cultural",
     "indexable": true,
     "status": "ready",
-    "description": "Latvijas katoļu avotā Svētā Nikolaja diena norādīta 6. decembrī. Uzzini par datumu un reliģiskās tradīcijas tvērumu.",
-    "lastmod": "2026-11-12",
+    "description": "Svētā Nikolaja diena Latvijā 2027. gadā: kad? 6. decembris (pirmdiena). Salīdzini 2027.–2030. gada datumus, kalendāra noteikumus un dienas nozīmi.",
+    "lastmod": "2026-11-14",
     "canonicalPath": "/svetki-un-tradicijas/sveta-nikolaja-diena/",
     "locale": "lv-LV",
     "pageType": "WebPage",
     "primaryIntent": "learn-tradition",
-    "significantModifiedAt": "2026-11-12"
+    "significantModifiedAt": "2026-11-14"
   },
   {
     "url": "/svetki-un-tradicijas/tevu-diena/",
@@ -11065,13 +11065,13 @@
     "family": "occasion",
     "indexable": true,
     "status": "ready",
-    "description": "Tēva diena Latvijā: septembra otrā svētdiena un datumi 2027.–2030. gadā.",
-    "lastmod": "2026-11-12",
+    "description": "Tēva diena 2027. gadā: kad? 12. septembris (svētdiena). Apskati visus datumus 2027.–2030. gadā, dienas nozīmi un statusu Latvijā.",
+    "lastmod": "2026-11-14",
     "canonicalPath": "/svetki-un-tradicijas/tevu-diena/",
     "locale": "lv-LV",
     "pageType": "WebPage",
     "primaryIntent": "learn-tradition",
-    "significantModifiedAt": "2026-11-12"
+    "significantModifiedAt": "2026-11-14"
   },
   {
     "url": "/svetki-un-tradicijas/totalitara-komunistiska-rezima-genocida-upuru-pieminas-diena/",
@@ -11079,13 +11079,13 @@
     "family": "occasion",
     "indexable": true,
     "status": "ready",
-    "description": "Decembra pirmajā svētdienā Latvijā piemin pret latviešu tautu vērstā totalitārā komunistiskā režīma genocīda upurus. Šis ir atsevišķs piemiņas datums līdzās 25. martam un 14. jūnijam.",
-    "lastmod": "2026-11-12",
+    "description": "Pret latviešu tautu vērstā totalitārā komunistiskā režīma genocīda upuru piemiņas diena 2027. gadā: kad? 5. decembris (svētdiena). Apskati visus datumus 2027.–2030. gadā, dienas nozīmi un statusu Latvijā.",
+    "lastmod": "2026-11-14",
     "canonicalPath": "/svetki-un-tradicijas/totalitara-komunistiska-rezima-genocida-upuru-pieminas-diena/",
     "locale": "lv-LV",
     "pageType": "WebPage",
     "primaryIntent": "learn-tradition",
-    "significantModifiedAt": "2026-11-12"
+    "significantModifiedAt": "2026-11-14"
   },
   {
     "url": "/svetki-un-tradicijas/totalitaro-rezimu-upuru-pieminas-diena/",
@@ -11093,13 +11093,13 @@
     "family": "latvia_cultural",
     "indexable": true,
     "status": "ready",
-    "description": "23. augustā Latvijā piemin staļinisma un nacisma upurus. Apskati Latvijas likuma datumu un Eiropas atceres dienas kontekstu.",
-    "lastmod": "2026-11-12",
+    "description": "23. augusts Eiropā: totalitāro režīmu upuru piemiņa 2027. gadā: kad? 23. augusts (pirmdiena). Salīdzini 2027.–2030. gada datumus, kalendāra noteikumus un dienas nozīmi.",
+    "lastmod": "2026-11-14",
     "canonicalPath": "/svetki-un-tradicijas/totalitaro-rezimu-upuru-pieminas-diena/",
     "locale": "lv-LV",
     "pageType": "WebPage",
     "primaryIntent": "learn-tradition",
-    "significantModifiedAt": "2026-11-12"
+    "significantModifiedAt": "2026-11-14"
   },
   {
     "url": "/svetki-un-tradicijas/ugunsdzeseju-un-glabeju-diena/",
@@ -11107,13 +11107,13 @@
     "family": "occasion",
     "indexable": true,
     "status": "ready",
-    "description": "17. maijā Latvijā atzīmē Ugunsdzēsēju un glābēju dienu. Tā ir pateicība par darbu cilvēku glābšanā un iespēja labāk iepazīt ugunsdrošības nozīmi.",
-    "lastmod": "2026-11-12",
+    "description": "Ugunsdzēsēju un glābēju diena 2027. gadā: kad? 17. maijs (pirmdiena). Apskati visus datumus 2027.–2030. gadā, dienas nozīmi un statusu Latvijā.",
+    "lastmod": "2026-11-14",
     "canonicalPath": "/svetki-un-tradicijas/ugunsdzeseju-un-glabeju-diena/",
     "locale": "lv-LV",
     "pageType": "WebPage",
     "primaryIntent": "learn-tradition",
-    "significantModifiedAt": "2026-11-12"
+    "significantModifiedAt": "2026-11-14"
   },
   {
     "url": "/svetki-un-tradicijas/valentina-diena/",
@@ -11121,13 +11121,13 @@
     "family": "latvia_cultural",
     "indexable": true,
     "status": "ready",
-    "description": "Valentīndienu atzīmē 14. februārī. Uzzini par Mīlestības dienu Latvijas kultūras norisēs un atšķir pastāvīgo datumu no pasākumu grafika.",
-    "lastmod": "2026-11-12",
+    "description": "Valentīndiena Latvijā 14. februārī 2027. gadā: kad? 14. februāris (svētdiena). Salīdzini 2027.–2030. gada datumus, kalendāra noteikumus un dienas nozīmi.",
+    "lastmod": "2026-11-14",
     "canonicalPath": "/svetki-un-tradicijas/valentina-diena/",
     "locale": "lv-LV",
     "pageType": "WebPage",
     "primaryIntent": "learn-tradition",
-    "significantModifiedAt": "2026-11-12"
+    "significantModifiedAt": "2026-11-14"
   },
   {
     "url": "/svetki-un-tradicijas/valsts-valodas-diena/",
@@ -11135,13 +11135,13 @@
     "family": "occasion",
     "indexable": true,
     "status": "ready",
-    "description": "15. oktobris: latviešu valoda, konstitucionālais pamats un atzīmējamās dienas statuss.",
-    "lastmod": "2026-11-12",
+    "description": "Valsts valodas diena 2027. gadā: kad? 15. oktobris (piektdiena). Apskati visus datumus 2027.–2030. gadā, dienas nozīmi un statusu Latvijā.",
+    "lastmod": "2026-11-14",
     "canonicalPath": "/svetki-un-tradicijas/valsts-valodas-diena/",
     "locale": "lv-LV",
     "pageType": "WebPage",
     "primaryIntent": "learn-tradition",
-    "significantModifiedAt": "2026-11-12"
+    "significantModifiedAt": "2026-11-14"
   },
   {
     "url": "/svetki-un-tradicijas/varonu-pieminas-diena/",
@@ -11149,13 +11149,13 @@
     "family": "occasion",
     "indexable": true,
     "status": "ready",
-    "description": "22. jūnijā Latvijā ir Varoņu piemiņas diena jeb Cēsu kaujas atceres diena. Tā godina cilvēkus, kuri piedalījās Latvijas neatkarības izcīnīšanā.",
-    "lastmod": "2026-11-12",
+    "description": "Varoņu piemiņas diena (Cēsu kaujas atceres diena) 2027. gadā: kad? 22. jūnijs (otrdiena). Apskati visus datumus 2027.–2030. gadā, dienas nozīmi un statusu Latvijā.",
+    "lastmod": "2026-11-14",
     "canonicalPath": "/svetki-un-tradicijas/varonu-pieminas-diena/",
     "locale": "lv-LV",
     "pageType": "WebPage",
     "primaryIntent": "learn-tradition",
-    "significantModifiedAt": "2026-11-12"
+    "significantModifiedAt": "2026-11-14"
   },
   {
     "url": "/svetki-un-tradicijas/vasaras-saulgriezi/",
@@ -11163,13 +11163,13 @@
     "family": "occasion",
     "indexable": true,
     "status": "ready",
-    "description": "Astronomiskās vasaras sākums un Europe/Riga laiks 2027.–2030. gadā.",
-    "lastmod": "2026-11-12",
+    "description": "Vasaras saulgrieži 2027. gadā: kad? 21. jūnijs (pirmdiena). Apskati visus datumus 2027.–2030. gadā, dienas nozīmi un statusu Latvijā.",
+    "lastmod": "2026-11-14",
     "canonicalPath": "/svetki-un-tradicijas/vasaras-saulgriezi/",
     "locale": "lv-LV",
     "pageType": "WebPage",
     "primaryIntent": "learn-tradition",
-    "significantModifiedAt": "2026-11-12"
+    "significantModifiedAt": "2026-11-14"
   },
   {
     "url": "/svetki-un-tradicijas/vasarsvetki/",
@@ -11177,13 +11177,13 @@
     "family": "occasion",
     "indexable": true,
     "status": "ready",
-    "description": "Vasarsvētku svētdienas 2027.–2030. gadā un saistība ar Lieldienu datumu.",
-    "lastmod": "2026-11-12",
+    "description": "Vasarsvētki 2027. gadā: kad? 16. maijs (svētdiena). Apskati visus datumus 2027.–2030. gadā, dienas nozīmi un statusu Latvijā.",
+    "lastmod": "2026-11-14",
     "canonicalPath": "/svetki-un-tradicijas/vasarsvetki/",
     "locale": "lv-LV",
     "pageType": "WebPage",
     "primaryIntent": "learn-tradition",
-    "significantModifiedAt": "2026-11-12"
+    "significantModifiedAt": "2026-11-14"
   },
   {
     "url": "/svetki-un-tradicijas/vecgada-diena/",
@@ -11191,13 +11191,13 @@
     "family": "occasion",
     "indexable": true,
     "status": "ready",
-    "description": "31. decembris ir svētku diena. Gadu robežas darba laiks un nedēļu numerācija.",
-    "lastmod": "2026-11-12",
+    "description": "Vecgada diena 2027. gadā: kad? 31. decembris (piektdiena). Apskati visus datumus 2027.–2030. gadā, dienas nozīmi un statusu Latvijā.",
+    "lastmod": "2026-11-14",
     "canonicalPath": "/svetki-un-tradicijas/vecgada-diena/",
     "locale": "lv-LV",
     "pageType": "WebPage",
     "primaryIntent": "learn-tradition",
-    "significantModifiedAt": "2026-11-12"
+    "significantModifiedAt": "2026-11-14"
   },
   {
     "url": "/svetki-un-tradicijas/zemes-diena/",
@@ -11205,13 +11205,13 @@
     "family": "latvia_cultural",
     "indexable": true,
     "status": "ready",
-    "description": "ANO Starptautiskā Mātes Zemes diena ir 22. aprīlī. Apskati datumu un atšķir to no Pasaules vides dienas 5. jūnijā.",
-    "lastmod": "2026-11-12",
+    "description": "Zemes diena Latvijā 2027. gadā: kad? 22. aprīlis (ceturtdiena). Salīdzini 2027.–2030. gada datumus, kalendāra noteikumus un dienas nozīmi.",
+    "lastmod": "2026-11-14",
     "canonicalPath": "/svetki-un-tradicijas/zemes-diena/",
     "locale": "lv-LV",
     "pageType": "WebPage",
     "primaryIntent": "learn-tradition",
-    "significantModifiedAt": "2026-11-12"
+    "significantModifiedAt": "2026-11-14"
   },
   {
     "url": "/svetki-un-tradicijas/ziemas-saulgriezi/",
@@ -11219,13 +11219,13 @@
     "family": "occasion",
     "indexable": true,
     "status": "ready",
-    "description": "Astronomiskās ziemas sākuma brīži Latvijas laikā un atšķirība no Ziemassvētkiem.",
-    "lastmod": "2026-11-12",
+    "description": "Ziemas saulgrieži 2027. gadā: kad? 22. decembris (trešdiena). Apskati visus datumus 2027.–2030. gadā, dienas nozīmi un statusu Latvijā.",
+    "lastmod": "2026-11-14",
     "canonicalPath": "/svetki-un-tradicijas/ziemas-saulgriezi/",
     "locale": "lv-LV",
     "pageType": "WebPage",
     "primaryIntent": "learn-tradition",
-    "significantModifiedAt": "2026-11-12"
+    "significantModifiedAt": "2026-11-14"
   },
   {
     "url": "/svetki-un-tradicijas/ziemassvetki/",
@@ -11233,13 +11233,13 @@
     "family": "occasion",
     "indexable": true,
     "status": "ready",
-    "description": "Ziemassvētku vakars un abas Ziemassvētku dienas Latvijas 2027.–2030. gada kalendārā.",
-    "lastmod": "2026-11-12",
+    "description": "Ziemassvētki 2027. gadā: kad? 24. decembris (piektdiena). Apskati visus datumus 2027.–2030. gadā, dienas nozīmi un statusu Latvijā.",
+    "lastmod": "2026-11-14",
     "canonicalPath": "/svetki-un-tradicijas/ziemassvetki/",
     "locale": "lv-LV",
     "pageType": "WebPage",
     "primaryIntent": "learn-tradition",
-    "significantModifiedAt": "2026-11-12"
+    "significantModifiedAt": "2026-11-14"
   },
   {
     "url": "/svetki-un-tradicijas/zinibu-diena/",
@@ -11247,13 +11247,13 @@
     "family": "occasion",
     "indexable": true,
     "status": "ready",
-    "description": "1. septembra atzīmējamā diena un konkrētā mācību gada sākuma pārbaude.",
-    "lastmod": "2026-11-12",
+    "description": "Zinību diena 2027. gadā: kad? 1. septembris (trešdiena). Apskati visus datumus 2027.–2030. gadā, dienas nozīmi un statusu Latvijā.",
+    "lastmod": "2026-11-14",
     "canonicalPath": "/svetki-un-tradicijas/zinibu-diena/",
     "locale": "lv-LV",
     "pageType": "WebPage",
     "primaryIntent": "learn-tradition",
-    "significantModifiedAt": "2026-11-12"
+    "significantModifiedAt": "2026-11-14"
   },
   {
     "url": "/svetki-un-tradicijas/zolitudes-tragedijas-atceres-diena/",
@@ -11261,13 +11261,13 @@
     "family": "occasion",
     "indexable": true,
     "status": "ready",
-    "description": "21. novembrī Latvija piemin 2013. gada Zolitūdes traģēdijas upurus. Kalendārā saglabāts gan notikuma datums, gan tā pilnais oficiālais nosaukums.",
-    "lastmod": "2026-11-12",
+    "description": "2013. gada 21. novembra traģēdijas atceres diena 2027. gadā: kad? 21. novembris (svētdiena). Apskati visus datumus 2027.–2030. gadā, dienas nozīmi un statusu Latvijā.",
+    "lastmod": "2026-11-14",
     "canonicalPath": "/svetki-un-tradicijas/zolitudes-tragedijas-atceres-diena/",
     "locale": "lv-LV",
     "pageType": "WebPage",
     "primaryIntent": "learn-tradition",
-    "significantModifiedAt": "2026-11-12"
+    "significantModifiedAt": "2026-11-14"
   },
   {
     "url": "/svetki-un-tradicijas/zvaigznes-diena/",
@@ -11275,13 +11275,13 @@
     "family": "latvia_cultural",
     "indexable": true,
     "status": "ready",
-    "description": "Zvaigznes dienu jeb Triju Ķēniņu dienu Rietumu kristīgajā tradīcijā atzīmē 6. janvārī. Apskati datumu un tā reliģisko kontekstu.",
-    "lastmod": "2026-11-12",
+    "description": "Zvaigznes diena 6. janvārī 2027. gadā: kad? 6. janvāris (trešdiena). Salīdzini 2027.–2030. gada datumus, kalendāra noteikumus un dienas nozīmi.",
+    "lastmod": "2026-11-14",
     "canonicalPath": "/svetki-un-tradicijas/zvaigznes-diena/",
     "locale": "lv-LV",
     "pageType": "WebPage",
     "primaryIntent": "learn-tradition",
-    "significantModifiedAt": "2026-11-12"
+    "significantModifiedAt": "2026-11-14"
   },
   {
     "url": "/svetku-dienas/",

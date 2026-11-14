@@ -3,6 +3,7 @@
  const rules=[{"pattern":"Drukāt","icon":"print"},{"pattern":"\\bPDF\\b|\\.pdf(?:[?#]|$)","icon":"file-pdf"},{"pattern":"\\bExcel\\b|\\bXLSX?\\b|\\.xlsx?(?:[?#]|$)","icon":"file-excel"},{"pattern":"\\bWord\\b|\\bDOCX?\\b|\\.docx?(?:[?#]|$)","icon":"file-word"},{"pattern":"\\bICS\\b|\\.ics(?:[?#]|$)","icon":"file-ics"},{"pattern":"\\bCSV\\b|\\.csv(?:[?#]|$)","icon":"file-csv"},{"pattern":"\\bJSON\\b|Dublējums|Datu dublējums|\\.json(?:[?#]|$)","icon":"file-json"},{"pattern":"\\bSVG\\b|\\.svg(?:[?#]|$)","icon":"file-svg"},{"pattern":"Attēls|\\bPNG\\b|\\bJPE?G\\b|\\bWebP\\b|\\.(?:png|jpe?g|webp)(?:[?#]|$)","icon":"file-image"},{"pattern":"Importēt|Atvērt failu|Izvēlēties failu","icon":"upload"},{"pattern":"Lejupielādēt|Eksportēt|Saglabāt failu","icon":"download"}];
  const formats=/\.(?:pdf|webp|xlsx?|docx?|ics|csv|json|png|jpe?g|svg)(?:[?#]|$)/i;
  function classify({tag,attrs={},text='',fileInput=false}){
+  if(tag==='a'&&('data-photo-credit' in attrs||/^https?:\/\/(?:commons\.wikimedia\.org|[^/]+\.wikipedia\.org)\/wiki\/(?:File|Image):/i.test(attrs.href||'')))return null;
   if(['data-edit-event','data-delete-event','data-delete-task','data-date','data-add-date','data-month','data-view','data-category'].some(key=>key in attrs))return null;
   if(tag==='label'&&!fileInput)return null;
   if(tag==='a'&&!('download' in attrs)&&!/(?:button|action|download|export|format)/i.test(attrs.class||'')&&!formats.test(attrs.href||''))return null;

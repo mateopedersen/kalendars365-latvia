@@ -11,6 +11,18 @@ test('build decoration preserves handlers and markup, skips script text and is i
  const result=JSON.parse(execFileSync('python3',['-c','import json,sys;sys.path.insert(0,"scripts");from render_action_icons import decorate;original=sys.stdin.read();first,n=decorate(original);second,m=decorate(first);print(json.dumps([first,n,second,m]))'],{input:html,encoding:'utf8'}));
  assert.equal(result[1],1);assert.equal(result[3],0);assert.equal(result[0],result[2]);assert(result[0].includes('data-period-export="xlsx"'));assert(result[0].includes('<span>Excel</span> ↓'));assert(result[0].includes('<button id="keep"><svg><path/></svg>PDF</button>'));assert(result[0].includes('<a href="/photo.webp"><img src="/preview.webp" alt="Kalendārs"></a>'));assert(result[0].includes('<script>const x="<button>PDF</button>"</script>'));
 });
+test('photo attribution pages remain text links while actual image downloads keep their icons',()=>{
+ const cases=[
+  {tag:'a',attrs:{href:'https://commons.wikimedia.org/wiki/File:Snowed_areas_of_Riga,_Latvia_(18092).jpg'},text:'Lee Vilenski · CC BY-SA 4.0'},
+  {tag:'a',attrs:{href:'https://en.wikipedia.org/wiki/File:Latvia.svg'},text:'Image source'},
+  {tag:'a',attrs:{href:'https://example.org/image.jpg','data-photo-credit':''},text:'Photo credit'},
+  {tag:'a',attrs:{href:'/downloads/calendar.webp',download:''},text:'Attēls'}
+ ];
+ const {classify}=require('../assets/action-icons.js');
+ const python=JSON.parse(execFileSync('python3',['-c','import json,sys;sys.path.insert(0,"scripts");from render_action_icons import classify;print(json.dumps([classify({"fileInput":False,**c}) for c in json.load(sys.stdin)]))'],{input:JSON.stringify(cases),encoding:'utf8'}));
+ assert.deepEqual(cases.map(classify),[null,null,null,'file-image']);
+ assert.deepEqual(python,[null,null,null,'file-image']);
+});
 test('all 901 built pages have complete file action artwork, including print, Excel and ICS',()=>{
  const audit=JSON.parse(fs.readFileSync('docs/action-icons-audit.json'));assert.equal(audit.pages,901);assert.equal(audit.missing.length,0);assert(audit.controls>3000);
  const weekly=fs.readFileSync('_site/nedelas-kalendars/index.html','utf8');

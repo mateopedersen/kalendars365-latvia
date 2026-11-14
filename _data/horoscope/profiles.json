@@ -26,13 +26,14 @@
       "locale": "lv-LV",
       "tradition": "Populārās Rietumu astroloģijas simbolika",
       "seo": {
-        "title": "Auna dienas horoskops",
+        "title": "Auna dienas horoskops šodien",
         "description": "Lasi Auna dienas horoskopu un pārdomā, kur šodien veltīt savu enerģiju. Iepazīsti Aunu kā uguns zīmi un aprēķini ascendentu pēc dzimšanas laika un vietas.",
         "keywords": [
           "auns",
           "auna horoskops",
           "dienas horoskops",
-          "zodiaka zīme"
+          "zodiaka zīme",
+          "horoskops šodien"
         ],
         "canonicalPath": "/horoskops/auns/",
         "language": "lv-LV"
@@ -68,13 +69,14 @@
       "locale": "lv-LV",
       "tradition": "Populārās Rietumu astroloģijas simbolika",
       "seo": {
-        "title": "Vērša dienas horoskops",
+        "title": "Vērša dienas horoskops šodien",
         "description": "Ko šodien vēlies paveikt bez steigas? Vērša dienas horoskops piedāvā tēmas pārdomām par darbu un attiecībām, kā arī ieskatu šīs zemes zīmes simbolikā.",
         "keywords": [
           "vērsis",
           "vērša horoskops",
           "dienas horoskops",
-          "zodiaka zīme"
+          "zodiaka zīme",
+          "horoskops šodien"
         ],
         "canonicalPath": "/horoskops/versis/",
         "language": "lv-LV"
@@ -110,13 +112,14 @@
       "locale": "lv-LV",
       "tradition": "Populārās Rietumu astroloģijas simbolika",
       "seo": {
-        "title": "Dvīņu dienas horoskops",
+        "title": "Dvīņu dienas horoskops šodien",
         "description": "Dvīņu dienas horoskops rosina pārdomāt sarunas, izvēles un jaunus iespaidus. Iepazīsti šīs gaisa zīmes simboliku vai noskaidro savu ascendentu.",
         "keywords": [
           "dvīņi",
           "dvīņu horoskops",
           "dienas horoskops",
-          "zodiaka zīme"
+          "zodiaka zīme",
+          "horoskops šodien"
         ],
         "canonicalPath": "/horoskops/dvini/",
         "language": "lv-LV"
@@ -152,13 +155,14 @@
       "locale": "lv-LV",
       "tradition": "Populārās Rietumu astroloģijas simbolika",
       "seo": {
-        "title": "Vēža dienas horoskops",
+        "title": "Vēža dienas horoskops šodien",
         "description": "Lasi Vēža dienas horoskopu par attiecībām un ikdienas rūpēm. Apskati, kā astroloģijā raksturo šo ūdens zīmi, un aprēķini savu ascendentu.",
         "keywords": [
           "vēzis",
           "vēža horoskops",
           "dienas horoskops",
-          "zodiaka zīme"
+          "zodiaka zīme",
+          "horoskops šodien"
         ],
         "canonicalPath": "/horoskops/vezis/",
         "language": "lv-LV"
@@ -194,13 +198,14 @@
       "locale": "lv-LV",
       "tradition": "Populārās Rietumu astroloģijas simbolika",
       "seo": {
-        "title": "Lauvas dienas horoskops",
+        "title": "Lauvas dienas horoskops šodien",
         "description": "Lauvas dienas horoskops piedāvā pārdomas par radošumu, darbu un attiecībām. Uzzini, ko Lauvas simbolikā nozīmē uguns elements.",
         "keywords": [
           "lauva",
           "lauvas horoskops",
           "dienas horoskops",
-          "zodiaka zīme"
+          "zodiaka zīme",
+          "horoskops šodien"
         ],
         "canonicalPath": "/horoskops/lauva/",
         "language": "lv-LV"
@@ -236,13 +241,14 @@
       "locale": "lv-LV",
       "tradition": "Populārās Rietumu astroloģijas simbolika",
       "seo": {
-        "title": "Jaunavas dienas horoskops",
+        "title": "Jaunavas dienas horoskops šodien",
         "description": "Lasi Jaunavas dienas horoskopu un izvēlies vienu praktisku soli šai dienai. Iepazīsti Jaunavas simboliku un pēc dzimšanas datiem aprēķini ascendentu.",
         "keywords": [
           "jaunava",
           "jaunavas horoskops",
           "dienas horoskops",
-          "zodiaka zīme"
+          "zodiaka zīme",
+          "horoskops šodien"
         ],
         "canonicalPath": "/horoskops/jaunava/",
         "language": "lv-LV"
@@ -278,13 +284,14 @@
       "locale": "lv-LV",
       "tradition": "Populārās Rietumu astroloģijas simbolika",
       "seo": {
-        "title": "Svaru dienas horoskops",
+        "title": "Svaru dienas horoskops šodien",
         "description": "Svaru dienas horoskops rosina pārdomāt lēmumus un attiecības ar apkārtējiem. Apskati šīs gaisa zīmes aprakstu vai ieraksti savu dienas piezīmi.",
         "keywords": [
           "svari",
           "svaru horoskops",
           "dienas horoskops",
-          "zodiaka zīme"
+          "zodiaka zīme",
+          "horoskops šodien"
         ],
         "canonicalPath": "/horoskops/svari/",
         "language": "lv-LV"
@@ -320,13 +327,14 @@
       "locale": "lv-LV",
       "tradition": "Populārās Rietumu astroloģijas simbolika",
       "seo": {
-        "title": "Skorpiona dienas horoskops",
+        "title": "Skorpiona dienas horoskops šodien",
         "description": "Skorpiona dienas horoskops piedāvā pārdomas par uzticēšanos, attiecībām un darbu. Iepazīsti šīs ūdens zīmes simboliku un noskaidro savu ascendentu.",
         "keywords": [
           "skorpions",
           "skorpiona horoskops",
           "dienas horoskops",
-          "zodiaka zīme"
+          "zodiaka zīme",
+          "horoskops šodien"
         ],
         "canonicalPath": "/horoskops/skorpions/",
         "language": "lv-LV"
@@ -362,13 +370,14 @@
       "locale": "lv-LV",
       "tradition": "Populārās Rietumu astroloģijas simbolika",
       "seo": {
-        "title": "Strēlnieka dienas horoskops",
+        "title": "Strēlnieka dienas horoskops šodien",
         "description": "Lasi Strēlnieka dienas horoskopu par iecerēm, sarunām un jaunām iespējām. Apskati, kā astroloģijā raksturo Strēlnieku kā uguns zīmi.",
         "keywords": [
           "strēlnieks",
           "strēlnieka horoskops",
           "dienas horoskops",
-          "zodiaka zīme"
+          "zodiaka zīme",
+          "horoskops šodien"
         ],
         "canonicalPath": "/horoskops/strelnieks/",
         "language": "lv-LV"
@@ -404,13 +413,14 @@
       "locale": "lv-LV",
       "tradition": "Populārās Rietumu astroloģijas simbolika",
       "seo": {
-        "title": "Mežāža dienas horoskops",
+        "title": "Mežāža dienas horoskops šodien",
         "description": "Mežāža dienas horoskops rosina izvērtēt darāmo un laiku atpūtai. Iepazīsti šīs zemes zīmes simboliku vai aprēķini savu ascendentu.",
         "keywords": [
           "mežāzis",
           "mežāža horoskops",
           "dienas horoskops",
-          "zodiaka zīme"
+          "zodiaka zīme",
+          "horoskops šodien"
         ],
         "canonicalPath": "/horoskops/mezazis/",
         "language": "lv-LV"
@@ -446,13 +456,14 @@
       "locale": "lv-LV",
       "tradition": "Populārās Rietumu astroloģijas simbolika",
       "seo": {
-        "title": "Ūdensvīra dienas horoskops",
+        "title": "Ūdensvīra dienas horoskops šodien",
         "description": "Lasi Ūdensvīra dienas horoskopu par idejām, draudzību un ikdienas izvēlēm. Apskati, kā Ūdensvīra simboliku saista ar gaisa elementu.",
         "keywords": [
           "ūdensvīrs",
           "ūdensvīra horoskops",
           "dienas horoskops",
-          "zodiaka zīme"
+          "zodiaka zīme",
+          "horoskops šodien"
         ],
         "canonicalPath": "/horoskops/udensvirs/",
         "language": "lv-LV"
@@ -488,13 +499,14 @@
       "locale": "lv-LV",
       "tradition": "Populārās Rietumu astroloģijas simbolika",
       "seo": {
-        "title": "Zivju dienas horoskops",
+        "title": "Zivju dienas horoskops šodien",
         "description": "Zivju dienas horoskops piedāvā tēmas pārdomām par izjūtām un saikni ar citiem. Iepazīsti Zivju simboliku un pēc dzimšanas laika noskaidro savu ascendentu.",
         "keywords": [
           "zivis",
           "zivju horoskops",
           "dienas horoskops",
-          "zodiaka zīme"
+          "zodiaka zīme",
+          "horoskops šodien"
         ],
         "canonicalPath": "/horoskops/zivis/",
         "language": "lv-LV"

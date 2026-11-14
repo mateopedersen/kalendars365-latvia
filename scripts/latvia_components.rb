@@ -261,7 +261,7 @@ def cultural_page_markup(article)
     else
       ''
     end
-    %(<section class="content-card"><h2>Datums kalendārā</h2><div class="holiday-card-grid">#{years}</div><p>#{h(article['dateNote'] || 'Šis ir tradīcijas vai atzīmēšanas datums. Likumā noteiktas brīvdienas ir norādītas atsevišķi.')}</p>#{local_markup}</section>)
+    %(<section class="content-card"><h2>#{h(article['h1'])}: kad? Datumi kalendārā</h2><div class="holiday-card-grid">#{years}</div><p>#{h(article['dateNote'] || 'Šis ir tradīcijas vai atzīmēšanas datums. Likumā noteiktas brīvdienas ir norādītas atsevišķi.')}</p>#{local_markup}</section>)
   when 'latvian-spring'
     cards = [
       ['/svetki-un-tradicijas/meteni/', 'Meteņi: pavasara gaidīšanas tradīcijas'],
