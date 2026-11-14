@@ -1,0 +1,167 @@
+{
+  "scope": "GSC missing creator report and all existing uses of the same four documented source credits",
+  "reviews": [
+    {
+      "image": "/assets/tradition-covers/balticunity-87d323a32c06-960.webp",
+      "sourceSha256": "2571dd70bfe0b9f038910d4de57a3958a857a9b1dd323f00ddb57347994cf870",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Baltu_vien%C4%ABbas_dienas_svin%C4%ABbas_Sald%C5%AB.jpg",
+      "documentedCredit": "Reinis Inkēns / Saeima",
+      "creator": {
+        "@type": "Person",
+        "name": "Reinis Inkēns"
+      },
+      "sourcePageSha256": "3fc3d431c9921ce582216db54b8a24bd6dda5581089ca199acc7f0e1ae2781f1",
+      "sourceExcerpt": "Foto: Reinis Inkēns, Saeima. Izmantošanas noteikumi: saeima.lv/lv/autortiesibas Date Taken on 23 September 2023, 11:26:36 Source https://www.flickr.com/photos/saeima/53206468382/ Author Saeima Other versions This image has an extracted file : Baltu vienības dienas svinības Saldū ",
+      "verifiedAt": "2026-11-14",
+      "affectedPages": [
+        "/svetki-un-tradicijas/baltu-vienibas-diena/"
+      ]
+    },
+    {
+      "image": "/assets/tradition-covers/labour-5faff78ad031-960.webp",
+      "sourceSha256": "d603d927454cfe17e359e30eb37e652fab735c89fed7f129bd7b4b8d97acde71",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Satversmes_sapulces_95.gadadienai_velt%C4%ABt%C4%81_ziedu_nolik%C5%A1ana_(16710330323).jpg",
+      "documentedCredit": "Reinis Inkēns / Saeima",
+      "creator": {
+        "@type": "Person",
+        "name": "Reinis Inkēns"
+      },
+      "sourcePageSha256": "4b7c8bd78423c5f7c2ed445c8b88b621f3fef80f7b23ceacd951cb0aa850a5eb",
+      "sourceExcerpt": "Foto: Reinis Inkēns, Saeimas Kanceleja Izmantošanas noteikumi: saeima.lv/lv/autortiesibas Date 1 May 2015, 12:08 Source Satversmes sapulces 95.gadadienai veltītā ziedu nolikšana Author Saeima ",
+      "verifiedAt": "2026-11-14",
+      "affectedPages": [
+        "/svetki-un-tradicijas/darba-svetki/"
+      ]
+    },
+    {
+      "image": "/assets/tradition-covers/latgale-5cc88095d9d6-960.webp",
+      "sourceSha256": "f995e3536b75004cb6447a49d44502f90df94aa28dba9d79ed142d00d64616d0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sv%C4%93tku_g%C4%81jiens_par_godu_Latgales_kongresa_simtgadei_(34422195186).jpg",
+      "documentedCredit": "Ernests Dinka / Saeima",
+      "creator": {
+        "@type": "Person",
+        "name": "Ernests Dinka"
+      },
+      "sourcePageSha256": "b76f7d36a82b69f0f2b52cad9f8304182b4f47cad25ae7f9e94dbb2a9f5c16e5",
+      "sourceExcerpt": "Foto: Ernests Dinka, Saeimas Administrācija Izmantošanas noteikumi: saeima.lv/lv/autortiesibas Date 5 May 2017, 11:26 Source Svētku gājiens par godu Latgales kongresa simtgadei Author Saeima ",
+      "verifiedAt": "2026-11-14",
+      "affectedPages": [
+        "/svetki-un-tradicijas/latgales-kongresa-diena/"
+      ]
+    },
+    {
+      "image": "/assets/tradition-covers/november18-cb7a425db689-960.webp",
+      "sourceSha256": "2eafffbc3d7ae0ff4671d8c32c050d4e7adc63108e8e9a4136d3774c9f64c6af",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:18.novembra_svin%C4%ABgie_pas%C4%81kumi_(45215002574).jpg",
+      "documentedCredit": "Ernests Dinka / Saeima",
+      "creator": {
+        "@type": "Person",
+        "name": "Ernests Dinka"
+      },
+      "sourcePageSha256": "3eed21817c19d77257af629fe1b9b48b89be726a7b8dfd44c046052bb71d679f",
+      "sourceExcerpt": "Foto: Ernests Dinka, Saeima Izmantošanas noteikumi: saeima.lv/lv/autortiesibas Date 18 November 2018, 12:57 Source 18.novembra svinīgie pasākumi Author Saeima ",
+      "verifiedAt": "2026-11-14",
+      "affectedPages": [
+        "/svetki-un-tradicijas/latvijas-republikas-proklamesanas-diena/"
+      ]
+    },
+    {
+      "image": "/assets/tradition-covers/doctors-a4e393c9a41f-960.webp",
+      "sourceSha256": "d6321f7a504ef91d812547f4afc153b28f1758500238f1ea1dd33bf3df01aea4",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Poliklinika_%C5%A0arlotes.jpg",
+      "documentedCredit": "Olgerts V",
+      "creator": {
+        "@type": "Person",
+        "name": "Olgerts V"
+      },
+      "sourcePageSha256": "955d5e16635732da86603454057d103f65acecf1ad80c8c3e9996d4970d76280",
+      "sourceExcerpt": "Author Olgerts V ",
+      "verifiedAt": "2026-11-14",
+      "affectedPages": [
+        "/svetki-un-tradicijas/medicinas-darbinieku-diena/"
+      ]
+    },
+    {
+      "image": "/assets/tradition-covers/wwii-4db1ad9fcadd-960.webp",
+      "sourceSha256": "59b4623cd8886a1cd12181eb1a547e5f7166a42bd9ff03643450b13382adf197",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nacisma_sagr%C4%81ves_un_Otr%C4%81_pasaules_kara_upuru_piemi%C5%86as_dienai_velt%C4%ABtie_pas%C4%81kumi_(46886662735).jpg",
+      "documentedCredit": "Ernests Dinka / Saeima",
+      "creator": {
+        "@type": "Person",
+        "name": "Ernests Dinka"
+      },
+      "sourcePageSha256": "fe95177ea442efde7f5c0e5cf793ae1de8d74247155027b416fe1bc1eb324b99",
+      "sourceExcerpt": "Foto: Ernests Dinka, Saeima Izmantošanas noteikumi: saeima.lv/lv/autortiesibas Date 8 May 2019, 09:24 Source Nacisma sagrāves un Otrā pasaules kara upuru piemiņas dienai veltītie pasākumi Author Saeima ",
+      "verifiedAt": "2026-11-14",
+      "affectedPages": [
+        "/svetki-un-tradicijas/nacisma-sagraves-un-otra-pasaules-kara-upuru-pieminas-diena/"
+      ]
+    },
+    {
+      "image": "/assets/tradition-covers/police-ac9de63c462a-960.webp",
+      "sourceSha256": "17860cd1c0b1f9b42884fd6abedaae852609f0f5d7d127cca0b919a19a5b1fe4",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:In%C4%81ra_M%C5%ABrniece_piedal%C4%81s_Valsts_policijas_dibin%C4%81%C5%A1anas_97.gadadienai_velt%C4%ABtaj%C4%81_svin%C4%ABgaj%C4%81_san%C4%81ksm%C4%93_(23217092170).jpg",
+      "documentedCredit": "Reinis Inkēns / Saeima",
+      "creator": {
+        "@type": "Person",
+        "name": "Reinis Inkēns"
+      },
+      "sourcePageSha256": "96be494c296ecb200e75bc72d41b1ef1a15ac74642a2bc33da174482c640fa82",
+      "sourceExcerpt": "Foto: Reinis Inkēns, Saeimas Administrācija Izmantošanas noteikumi: saeima.lv/lv/autortiesibas Date 4 December 2015, 11:29 Source Ināra Mūrniece piedalās Valsts policijas dibināšanas 97.gadadienai veltītajā svinīgajā sanāksmē Author Saeima ",
+      "verifiedAt": "2026-11-14",
+      "affectedPages": [
+        "/svetki-un-tradicijas/policijas-darbinieku-diena/"
+      ]
+    },
+    {
+      "image": "/assets/tradition-covers/firefighters-72282540b954-960.webp",
+      "sourceSha256": "326b8aaaa9f1a782473b3cc6929566f02606b0087c0925e3a6fcbd1b863cedca",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ugunsdz%C4%93s%C4%93ju_depo_Hanzas_iel%C4%81,_R%C4%ABg%C4%81_(1).jpg",
+      "documentedCredit": "Olgerts V",
+      "creator": {
+        "@type": "Person",
+        "name": "Olgerts V"
+      },
+      "sourcePageSha256": "450a5612aefbeb3c910dd1148098a0eab84e8c76d5cb208083ff9afddca2841a",
+      "sourceExcerpt": "Author Olgerts V ",
+      "verifiedAt": "2026-11-14",
+      "affectedPages": [
+        "/svetki-un-tradicijas/ugunsdzeseju-un-glabeju-diena/"
+      ]
+    },
+    {
+      "image": "/assets/tradition-covers/november21-39fca328832d-960.webp",
+      "sourceSha256": "46771483afc5d8d0e8ed336f1621632300ca1f6be9c838b0ed57b25a1eafcc53",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Zolit%C5%ABdes_memori%C4%81ls_2023_(5).jpg",
+      "documentedCredit": "Olgerts V",
+      "creator": {
+        "@type": "Person",
+        "name": "Olgerts V"
+      },
+      "sourcePageSha256": "22c396502068e3bcfa4c4e73218a0dced4b10cc865898c90ae1324d15ddd621a",
+      "sourceExcerpt": "Author Olgerts V ",
+      "verifiedAt": "2026-11-14",
+      "affectedPages": [
+        "/svetki-un-tradicijas/zolitudes-tragedijas-atceres-diena/"
+      ]
+    },
+    {
+      "image": "/assets/blog/flag-780.webp",
+      "sourceSha256": "2ddead242a432164aec3a4a72b5f1eb0030b15ded7ee9ec6b05b5c83d8fc869a",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Latvia_photo_01.jpg",
+      "documentedCredit": "Xil",
+      "creator": {
+        "@type": "Person",
+        "name": "Xil"
+      },
+      "sourcePageSha256": "1ffeed63e8685ab5ff2b11c69575c8e75ba69e224f013dfcf103e1909527e1e3",
+      "sourceExcerpt": "Author Xil ",
+      "verifiedAt": "2026-11-14",
+      "affectedPages": [
+        "/blogs/",
+        "/blogs/latvijas-svetku-dienas-2027-planosana/"
+      ]
+    }
+  ],
+  "preserved": "Source files, credits, licenses, URLs and original checksums are unchanged. Uncertain uploader-only credits remain unassigned."
+}

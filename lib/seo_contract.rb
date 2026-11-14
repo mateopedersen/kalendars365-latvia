@@ -25,6 +25,10 @@ module CalendarSeoContract
     'NASA/Apollo 17 crew; taken by either Harrison Schmitt or Ron Evans'=>['Organization', 'NASA'],
     'NASA/Bill Ingalls'=>['Person', 'Bill Ingalls'],
     'Saeima'=>['Organization', 'Saeima'],
+    'Ernests Dinka / Saeima'=>['Person', 'Ernests Dinka'],
+    'Reinis Inkēns / Saeima'=>['Person', 'Reinis Inkēns'],
+    'Olgerts V'=>['Person', 'Olgerts V'],
+    'Xil'=>['Person', 'Xil'],
     'Rīgas pašvaldības aģentūra “Rīgas investīciju un tūrisma aģentūra”'=>['Organization', 'Rīgas pašvaldības aģentūra “Rīgas investīciju un tūrisma aģentūra”']
   }.transform_values(&:freeze).freeze
   module_function
