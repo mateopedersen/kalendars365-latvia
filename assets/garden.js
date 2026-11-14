@@ -36,7 +36,7 @@
  }
  function regionNote(){const note=$('[data-garden-region-note]');if(note)note.textContent=`${state.region}. Piekrastē un iekšzemē sezonas atšķiras; datumus nepārbīdām ar vienādu dienu skaitu. Pirms darba pārbaudi vietējos apstākļus.`;}
  function resetPlanForm(){if(!planForm)return;planForm.reset();planForm.elements.editId.value='';planForm.elements.place.value=state.place;planForm.elements.region.value=state.region;$('[data-garden-cancel-edit]').hidden=true;$('[data-garden-save-plan]').textContent='Pievienot manam plānam +';}
- function download(content,type,name){const url=URL.createObjectURL(new Blob([content],{type})),a=document.createElement('a');a.href=url;a.download=name;document.body.append(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(url),30000);}
+ function download(content,type,name){return globalThis.Calendar365Downloads.save(content,name,type);}
  function planCrop(id){if(!planForm)return;planForm.elements.cropId.value=id;const f=filters();if(f.task!=='all')planForm.elements.task.value=f.task;$('#garden-my-plan').scrollIntoView({behavior:matchMedia('(prefers-reduced-motion:reduce)').matches?'instant':'smooth'});planForm.elements.date.focus({preventScroll:true});announce('Izvēlies savu datumu un šķirnes vai dobes piezīmi.');}
  function clearPrint(){document.body.classList.remove('garden-printing');document.getElementById('garden-print-sheet')?.remove();}
  function preparePrint(){

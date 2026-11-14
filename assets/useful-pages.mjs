@@ -4,7 +4,7 @@ const node=document.querySelector('[data-useful-config]');
 if(node){
  const config=JSON.parse(node.textContent),main=document.querySelector('main'),panel=main.querySelector('[data-useful-panel]'),$=s=>main.querySelector(s),E=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c])),C=window.CalendarCore,K=window.CategoryCore;
  const status=text=>{if($('[data-useful-status]'))$('[data-useful-status]').textContent=text;};
- const download=(text,name,type='text/plain;charset=utf-8')=>{const url=URL.createObjectURL(new Blob([text],{type})),a=document.createElement('a');a.href=url;a.download=name;a.click();setTimeout(()=>URL.revokeObjectURL(url),30000);};
+ const download=(text,name,type='text/plain;charset=utf-8')=>globalThis.Calendar365Downloads.save(text,name,type);
  const copy=async text=>{try{await navigator.clipboard.writeText(text);status('Saite nokopēta.');return true;}catch{status(text);return false;}};
  const actionStatus=$('[data-page-action-status]'),copyFallback=$('[data-page-action-copy-fallback]');let actionTimer,copyTimer;
  const actionNotice=message=>{if(!actionStatus){status(message);return;}clearTimeout(actionTimer);actionStatus.textContent=message;actionTimer=setTimeout(()=>{actionStatus.textContent='';},4500);};

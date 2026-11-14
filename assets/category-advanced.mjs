@@ -3,7 +3,7 @@ import {citySky,formatTime,SunCalc,rigaInstant,dayBounds} from './sky-core.mjs';
 const root=document.querySelector('.category-v2');
 if(root){
  const C=window.CalendarCore,K=window.CategoryCore,$=(s,r=root)=>r.querySelector(s),$$=(s,r=root)=>[...r.querySelectorAll(s)],E=K.safe;
- const download=(content,name,type='text/csv;charset=utf-8')=>{const url=URL.createObjectURL(new Blob([content],{type})),a=document.createElement('a');a.href=url;a.download=name;a.click();setTimeout(()=>URL.revokeObjectURL(url),30000);};
+ const download=(content,name,type='text/csv;charset=utf-8')=>globalThis.Calendar365Downloads.save(content,name,type);
  let ready=false;
  async function init(){if(ready)return;ready=true;const slug=document.body.dataset.category;
   const jump=$('[data-v2-calendar-jump]');if(jump){jump.elements.date.value=window.K365.getState().shown;jump.addEventListener('submit',e=>{e.preventDefault();try{window.K365.jumpToDate(jump.elements.date.value);$('[data-v2-jump-status]').textContent=C.dateLabel(jump.elements.date.value);}catch(err){$('[data-v2-jump-status]').textContent=err.message;}});}

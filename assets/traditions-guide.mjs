@@ -53,10 +53,7 @@ if (root) {
       id:a.url.replace(/\W/g,'')+'-'+d.date, date:d.date, title:d.title || a.title,
       description:a.url+' · '+(d.scope ? d.scope+' · ' : '')+(a.dayOff ? 'Svētku brīvdiena' : 'Nav vispārēja svētku brīvdiena')
     })));
-    const link = document.createElement('a');
-    link.href = URL.createObjectURL(new Blob([K.ics(events,'Latvijas svētki un tradīcijas')], {type:'text/calendar;charset=utf-8'}));
-    link.download = `latvijas-tradicijas-${year}.ics`; link.click();
-    setTimeout(() => URL.revokeObjectURL(link.href), 1000);
+    globalThis.Calendar365Downloads.save(K.ics(events,'Latvijas svētki un tradīcijas'),`latvijas-tradicijas-${year}.ics`,'text/calendar;charset=utf-8');
   });
   const cleanup = () => {document.body.classList.remove('traditions-printing'); document.getElementById('traditions-print-sheet')?.remove();};
   window.addEventListener('beforeprint', () => {

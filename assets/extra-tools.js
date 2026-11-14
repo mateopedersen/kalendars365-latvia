@@ -14,7 +14,7 @@ const addDays=(value,amount)=>{const d=new Date(value+'T00:00:00Z');d.setUTCDate
 const icsEscape=value=>String(value??'').replace(/\\/g,'\\\\').replace(/\r?\n/g,'\\n').replace(/,/g,'\\,').replace(/;/g,'\\;');
 const fold=line=>{let text='',length=0;for(const character of line){const bytes=new TextEncoder().encode(character).length;if(length+bytes>73){text+='\r\n ';length=1;}text+=character;length+=bytes;}return text;};
 const calendar=(events,title)=>['BEGIN:VCALENDAR','VERSION:2.0','PRODID:-//Kalendars365//Latvia//LV','CALSCALE:GREGORIAN',`X-WR-CALNAME:${icsEscape(title)}`,...events.flatMap(event=>['BEGIN:VEVENT',`UID:${icsEscape(event.id)}@kalendars365.lv`,`DTSTAMP:${new Date().toISOString().replace(/[-:]/g,'').replace(/\.\d{3}/,'')}`,`DTSTART;VALUE=DATE:${dateOnly(event.start)}`,event.end ? `DTEND;VALUE=DATE:${dateOnly(addDays(event.end,1))}` : 'DURATION:P1D',`SUMMARY:${icsEscape(event.title)}`,event.description?`DESCRIPTION:${icsEscape(event.description)}`:'','END:VEVENT'].filter(Boolean)),'END:VCALENDAR'].map(fold).join('\r\n')+'\r\n';
-const download=(text,name,type)=>{const url=URL.createObjectURL(new Blob([text],{type})),a=document.createElement('a');a.href=url;a.download=name;document.body.append(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(url),30000);};
+const download=(text,name,type)=>globalThis.Calendar365Downloads.save(text,name,type);
 
 document.querySelectorAll('[data-riga-today]').forEach(input=>{input.value=today();});
 

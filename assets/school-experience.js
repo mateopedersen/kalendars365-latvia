@@ -2,7 +2,7 @@
 const D=window.CalendarCore,C=window.SchoolCalendarCore;if(!D||!C)return;
 const $=(root,selector)=>root.querySelector(selector),$$=(root,selector)=>[...root.querySelectorAll(selector)];
 const esc=value=>String(value??'').replace(/[&<>"']/g,char=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[char]));
-function download(events,title,file){const text=C.makeICS(events,title);const url=URL.createObjectURL(new Blob([text],{type:'text/calendar;charset=utf-8'}));const a=document.createElement('a');a.href=url;a.download=file;document.body.append(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(url),30000);}
+function download(events,title,file){return globalThis.Calendar365Downloads.save(C.makeICS(events,title),file,'text/calendar;charset=utf-8');}
 
 const root=document.querySelector('[data-school-experience]');
 if(root){

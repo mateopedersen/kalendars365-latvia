@@ -16,7 +16,7 @@ function applyQuery(form,fields){const params=new URLSearchParams(location.searc
 const years=[2027,2028,2029,2030],monthTitle=m=>C.months[m-1][0].toUpperCase()+C.months[m-1].slice(1),dateLabel=d=>C.dateLabel(d);
 const localTime=utc=>new Intl.DateTimeFormat('lv-LV',{timeZone:'Europe/Riga',dateStyle:'long',timeStyle:'short'}).format(new Date(utc));
 const utcTime=utc=>new Intl.DateTimeFormat('lv-LV',{timeZone:'UTC',hour:'2-digit',minute:'2-digit',hourCycle:'h23'}).format(new Date(utc))+' UTC';
-const download=(content,name,type)=>{const u=URL.createObjectURL(content instanceof Blob?content:new Blob([content],{type})),a=document.createElement('a');a.href=u;a.download=name;a.click();setTimeout(()=>URL.revokeObjectURL(u),30000);};
+const download=(content,name,type)=>globalThis.Calendar365Downloads.save(content,name,type);
 const read=(key,fallback)=>{try{return JSON.parse(localStorage.getItem(key))||fallback;}catch{return fallback;}};
 const save=(key,value,status)=>{try{localStorage.setItem(key,JSON.stringify(value));if(status)status.textContent='Izmaiņas saglabātas tavā ierīcē.';}catch{if(status)status.textContent='Pārlūka krātuve nav pieejama. Saglabā dublējumu failā.';}};
 const getData=(()=>{let promise;return()=>promise??=fetch(asset('/assets/category-data.json')).then(r=>{if(!r.ok)throw Error('Datus nevar ielādēt.');return r.json();});})();

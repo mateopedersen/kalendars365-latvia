@@ -5,7 +5,7 @@ if(root){
  const form=$('[data-vacation-settings]'),custom=$('[data-vacation-custom]'),status=$('[data-vacation-status]'),planStatus=$('[data-vacation-plan-status]'),key='k365-leave-selection-v1',prefsKey='k365-vacation-settings-v2';
  const load=(key,fallback)=>{try{return JSON.parse(localStorage.getItem(key))??fallback;}catch{return fallback;}},saved=load(key,[]);let selected=Array.isArray(saved)?saved:[],current,totals,pool=[],shown=[],compare=[],limit=9,picking=null,manual;
  const label=d=>C.dateLabel(d),dateRange=r=>label(r.start)+' — '+label(r.end),overlap=r=>totals.rows.some(s=>V.overlaps(s,r));
- const download=(content,name,mime)=>{const u=URL.createObjectURL(content instanceof Blob?content:new Blob([content],{type:mime})),a=document.createElement('a');a.href=u;a.download=name;a.click();setTimeout(()=>URL.revokeObjectURL(u),30000);};
+ const download=(content,name,mime)=>globalThis.Calendar365Downloads.save(content,name,mime);
  let storageWarning='';
  function persist(){try{localStorage.setItem(key,JSON.stringify(selected));storageWarning='';return true;}catch{storageWarning='Pārlūka krātuve nav pieejama. Saglabā plānu ar eksportu; šajā reizē vari turpināt.';planStatus.textContent=storageWarning;return false;}}
  function read(){return V.settings(Object.fromEntries(new FormData(form)));}
