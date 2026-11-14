@@ -5160,7 +5160,7 @@
     "proseLinksSha256": "aff999cb6bfaa16ebff8759a4a53ca14d1bdd6a859c57d4b2af3525ff9b241f3"
   },
   "/valsts-parbaudes-darbi/": {
-    "sha256": "cd20227efc893ab9b846bb4e517dc2e0fd265a37eb4720c3eace59bcb8a99d8a",
+    "sha256": "410fae5c82f35809ff4f4d193508b7ebf33c3c368188347401d761bebb51ec60",
     "lastmod": "2026-11-14",
     "navigationSha256": "831f6be54842ab0dc74a3e7a6e222f938861e22a1a2210660ce41e6d4be66c0f",
     "proseLinksSha256": "4ddc803c7a7b3e2ffe47df4324209539d110f8677d04636d9593a33f67e0eac0"
@@ -5256,9 +5256,9 @@
     "proseLinksSha256": "223368abead297bf7f6329a0bc37214ca1c2a2c0329f320fe7ca968f5661e453"
   },
   "/pilsetas-un-fotografijas/": {
-    "sha256": "5c03733d7b6b56998ccc5093b28b931ed48a68902a742febbdc95ef78b785b71",
-    "contentSha256": "5c03733d7b6b56998ccc5093b28b931ed48a68902a742febbdc95ef78b785b71",
-    "lastmod": "2026-11-13",
+    "sha256": "288aa4dde9adb2a58ec0b6a4b28730c040f49d8c59830de3e1a738250abff9dc",
+    "contentSha256": "288aa4dde9adb2a58ec0b6a4b28730c040f49d8c59830de3e1a738250abff9dc",
+    "lastmod": "2026-11-14",
     "navigationSha256": "0f969128a2453de12473c537482fa3caab3d097206cba04b15527bcffb87d364",
     "proseLinksSha256": "e8247796388faac49cbedd721030c5d6d5c33da4cd3b4d37043f1a48cd3b4e75"
   },

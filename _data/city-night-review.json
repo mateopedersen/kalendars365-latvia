@@ -597,5 +597,29 @@
     "frameTimestampSeconds": 10,
     "licenseConditions": "Individual watch metadata explicitly states Creative Commons Attribution licence (reuse allowed). Credit Uģis Raibacis and source video, link the licence, and state still extraction and resizing. Source does not state a CC version; none invented.",
     "reviewedAt": "2026-11-13"
+  },
+  {
+    "cityId": "kraslava",
+    "sourceTitle": "Vakars un diena. Krāslavas Grāfu Plāteru pils.",
+    "sourceUrl": "https://sirdspilseta.blogspot.com/2013/01/vakars-un-diena-kraslavas-grafu-plateru.html",
+    "originalUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhmSBFUE2IEx0N4sgGDOc3s58mKZoRwoMBEpv2eS2zluFLJSq0WLcdvo-ZZUuuLmNdBlHIzC2o4iPCMr3_jhAJtFVpiIyJTM5kVmqrOTJbINQ_XaUiKxDx_JEiRqWChnOG_wMOGc1zSA8Fy/s1600/IMG_3057.JPG",
+    "downloadUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhmSBFUE2IEx0N4sgGDOc3s58mKZoRwoMBEpv2eS2zluFLJSq0WLcdvo-ZZUuuLmNdBlHIzC2o4iPCMr3_jhAJtFVpiIyJTM5kVmqrOTJbINQ_XaUiKxDx_JEiRqWChnOG_wMOGc1zSA8Fy/s1600/IMG_3057.JPG",
+    "downloadSha256": "44d6bfd7cba6fe69de462bbafb187d1d90f87bc9ea8c9865e08b0187cd7d9cc6",
+    "author": "Inga Pizāne-Dilba",
+    "license": "Atļauts pārpublicēt ar atsauci uz autori",
+    "licenseUrl": "https://sirdspilseta.blogspot.com/2013/01/vakars-un-diena-kraslavas-grafu-plateru.html",
+    "identityEvidence": "Photographer explicitly identifies her hometown Krāslava and the Plāteru palace in this paired day/night post. Actual original day and night pixels inspected: same broad pale-yellow facade, mansard roof, central triangular pediment, three front projections and courtyard lamps. Official municipality tourism reference confirms palace identity and address: https://www.visitkraslava.com/lv/strukturvieniba/kraslavas-grafu-plateru-pils-komplekss . Official reference used for identity only.",
+    "pixelReview": "Actual 1600×1066 original night and day photographs inspected individually on 2026-11-14. Night photograph has dark sky, illuminated festive roof edges, glowing courtyard lamps and clearly identifiable palace facade with snow. Retained complete palace, courtyard and lamps. No windshield, road-only scene, wrong city or day-to-night alteration.",
+    "asset": "/assets/cities-night/kraslava-night-e77007804003.webp",
+    "assetSha256": "e7700780400390fd9bbb324281bca431da1dc048f11511c028f4f391a0a2c5ec",
+    "contentBounds": [
+      0,
+      100,
+      1600,
+      1000
+    ],
+    "changes": "Cropped 1600×1066 original to 1600×900, resized to 1200×675 and compressed as WebP. No exposure, lighting or scene changes.",
+    "licenseConditions": "Photographer’s own site states: “Visu foto autore: Inga Pizāne-Dilba. Pārpublicējot lūgums lietot atsauci.” Attribution and link to the original post are shown in the photo licence catalogue. This is author-stated republication permission with attribution, not a Creative Commons licence; no CC version inferred.",
+    "reviewedAt": "2026-11-14"
   }
 ]

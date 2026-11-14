@@ -3,14 +3,14 @@
   "site": "_site",
   "totals": {
     "pages": 901,
-    "imageElements": 51497,
+    "imageElements": 51535,
     "decorativeImages": 47531,
-    "lazyImages": 37154,
-    "descriptiveImages": 3966,
+    "lazyImages": 37192,
+    "descriptiveImages": 4004,
     "responsiveImages": 6731,
     "highPriorityImages": 493,
     "hiddenPrivateUploadSlots": 1
   },
-  "uniqueImageFiles": 3873,
+  "uniqueImageFiles": 3911,
   "errors": []
 }

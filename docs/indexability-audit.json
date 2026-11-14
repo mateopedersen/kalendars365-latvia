@@ -6,14 +6,14 @@
     "/404.html",
     "/500.html"
   ],
-  "publicImageFiles": 9464,
-  "sitemapImages": 4406,
-  "imageReferences": 9095,
-  "imageSitemapBytes": 1280383,
+  "publicImageFiles": 9465,
+  "sitemapImages": 4407,
+  "imageReferences": 9096,
+  "imageSitemapBytes": 1280509,
   "pages": [
     {
       "url": "/",
-      "images": 121
+      "images": 122
     },
     {
       "url": "/astronomiskais-kalendars/",

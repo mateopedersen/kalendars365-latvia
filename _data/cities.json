@@ -2138,7 +2138,19 @@
         "reviewedDerivativeSha256": "34947d24cff2101b397aa788cb62ccad14e5f763cf8b36bbf7efa1729dbc0298"
       },
       "photoSelectionSource": "https://www.wikidata.org/wiki/Q638592#P18",
-      "locative": "Krāslavā"
+      "locative": "Krāslavā",
+      "nightPhoto": {
+        "src": "/assets/cities-night/kraslava-night-e77007804003.webp",
+        "alt": "Krāslavas grāfu Plāteru pils ar apgaismotām jumta līnijām ziemas naktī",
+        "author": "Inga Pizāne-Dilba",
+        "license": "Atļauts pārpublicēt ar atsauci uz autori",
+        "licenseUrl": "https://sirdspilseta.blogspot.com/2013/01/vakars-un-diena-kraslavas-grafu-plateru.html",
+        "sourceUrl": "https://sirdspilseta.blogspot.com/2013/01/vakars-un-diena-kraslavas-grafu-plateru.html",
+        "originalUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhmSBFUE2IEx0N4sgGDOc3s58mKZoRwoMBEpv2eS2zluFLJSq0WLcdvo-ZZUuuLmNdBlHIzC2o4iPCMr3_jhAJtFVpiIyJTM5kVmqrOTJbINQ_XaUiKxDx_JEiRqWChnOG_wMOGc1zSA8Fy/s1600/IMG_3057.JPG",
+        "width": 1200,
+        "height": 675,
+        "sha256": "e7700780400390fd9bbb324281bca431da1dc048f11511c028f4f391a0a2c5ec"
+      }
     },
     {
       "id": "kuldiga",
