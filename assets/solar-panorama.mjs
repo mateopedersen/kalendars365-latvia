@@ -74,7 +74,10 @@ vec3 forest(vec3 rd,vec3 col){
   if(u_landscape==2)top=base+ridge+(top-base-ridge)*2.;
   float aa=max(.0004,fwidth(rd.y));
   float mask=(1.-smoothstep(top-aa,top+aa,rd.y))*smoothstep(base-.004,base,rd.y);
-  vec3 trees=mix(vec3(.004,.009,.015),vec3(.042,.105,.075),day);
+  float side=.5+.5*sin(local*PI);
+  float rim=max(0.,sin(az-u_bearing))*max(0.,1.-u_sun.y*3.);
+  vec3 trees=mix(vec3(.004,.009,.015),vec3(.025,.085,.057)*( .65+side*.50),day);
+  trees+=sunColor()*rim*day*.016*(1.-z*.15);
   trees=mix(trees,skyBase(vec3(rd.x,.035,rd.z)),.65-z*.15);
   col=mix(col,trees,mask);
  }
@@ -102,6 +105,12 @@ vec3 ground(vec3 rd){
   float shore=smoothstep(-.10,.20,bank);
   vec3 sand=mix(vec3(.013,.016,.023),vec3(.22,.19,.13),day);
   sand*=.70+.30*noise(p*23.);sand=mix(sand,sand*.55,1.-smoothstep(0.,.8,bank));
+  // Small shaded shore stones give the near bank a readable foreground.
+  vec2 cell=floor(p*2.5),stoneUV=fract(p*2.5)-.5;
+  float stoneMask=(1.-smoothstep(.14,.23,length(stoneUV)))*step(.79,hash(cell));
+  vec3 stoneNormal=normalize(vec3(stoneUV.x*2.,.5,stoneUV.y*2.));
+  float stoneLight=.25+.75*max(0.,dot(stoneNormal,u_sun));
+  sand=mix(sand,mix(vec3(.008,.012,.019),vec3(.26,.25,.23)*stoneLight,day),stoneMask*smoothstep(.35,1.2,bank));
   col=mix(col,sand,shore);
   float foam=(1.-smoothstep(.025,.14,abs(bank+.08+sin(a)*.035)))*lod;
   col=mix(col,vec3(.48,.54,.53)*(.18+.82*day),foam*.48);
@@ -134,7 +143,7 @@ void main(){
 function webglRenderer(canvas) {
   const gl = canvas.getContext('webgl2', {alpha:false,antialias:false,powerPreference:'low-power',preserveDrawingBuffer:true});
   if (!gl) return null;
-  let program, buffer, uniforms, attribute, lost=false;
+  let program, buffer, uniforms, attribute, lost=false, checked=false;
   function setup() {
     const compile = (type, source) => {
       const shader=gl.createShader(type);gl.shaderSource(shader,source);gl.compileShader(shader);
@@ -166,6 +175,13 @@ function webglRenderer(canvas) {
     gl.uniform1f(uniforms.time,time);gl.uniform1f(uniforms.seed,view.seed);gl.uniform1f(uniforms.season,view.season);
     gl.uniform1i(uniforms.landscape,view.landscape);
     gl.drawArrays(gl.TRIANGLE_STRIP,0,4);
+    // Some drivers accept the program but return only black. Check once, then
+    // preserve working controls and scenery with the Canvas fallback.
+    if(!checked){
+      checked=true;const pixel=new Uint8Array(4);let light=0;
+      for(const y of [.45,.7,.9]){gl.readPixels(Math.floor(canvas.width/2),Math.floor(canvas.height*y),1,1,gl.RGBA,gl.UNSIGNED_BYTE,pixel);light+=pixel[0]+pixel[1]+pixel[2];}
+      if(gl.getError()!==gl.NO_ERROR||light===0)throw Error('Solar renderer did not produce a visible frame');
+    }
   },destroy(){
     canvas.removeEventListener('webglcontextlost',onLost);canvas.removeEventListener('webglcontextrestored',onRestore);
     gl.deleteBuffer(buffer);gl.deleteProgram(program);
@@ -218,19 +234,38 @@ function canvasRenderer(canvas) {
   },destroy(){}};
 }
 
+// Keep the backing buffer bounded. CSS still fills the viewport at every size.
+// Resize measurements are cached; playback does not force a layout per frame.
 export function createSolarPanorama(element) {
-  let canvas=element,renderer;
-  try {renderer=webglRenderer(canvas);} catch(error) {console.warn('Solar panorama fallback:',error.message);renderer=null;}
-  if(!renderer){
-    // A canvas cannot change context type after a failed shader compilation.
-    const replacement=canvas.cloneNode(false);canvas.replaceWith(replacement);canvas=replacement;
-    renderer=canvasRenderer(canvas);
-  }
-  canvas.dataset.engine=renderer.kind;
-  return {kind:renderer.kind,canvas,draw(view,time=0){
-    const rect=canvas.getBoundingClientRect(),ratio=Math.min(devicePixelRatio||1,1.5,Math.sqrt(850000/Math.max(1,rect.width*rect.height)));
-    const width=Math.max(1,Math.round(rect.width*ratio)),height=Math.max(1,Math.round(rect.height*ratio));
+  let canvas=element,renderer,width=1,height=1,scale=1,lastView,lastTime=0;
+  let drawCount=0,slowFrames=0,lastDrawAt=0,disposed=false;
+  const resize=()=>{
+    const rect=canvas.getBoundingClientRect();
+    const budget=(innerWidth<700?280000:520000)*scale;
+    const ratio=Math.min(devicePixelRatio||1,1.5,Math.sqrt(budget/Math.max(1,rect.width*rect.height)));
+    width=Math.max(1,Math.round(rect.width*ratio));height=Math.max(1,Math.round(rect.height*ratio));
     if(canvas.width!==width||canvas.height!==height){canvas.width=width;canvas.height=height;}
-    renderer.draw(view,time);
-  },destroy:()=>renderer.destroy()};
+  };
+  const useFallback=()=>{
+    renderer?.destroy();
+    const replacement=canvas.cloneNode(false);canvas.replaceWith(replacement);canvas=replacement;
+    renderer=canvasRenderer(canvas);canvas.dataset.engine=renderer.kind;resize();
+    if(lastView)renderer.draw(lastView,lastTime);
+  };
+  try {renderer=webglRenderer(canvas);} catch(error) {console.warn('Solar panorama fallback:',error.message);}
+  if(!renderer)useFallback();
+  canvas.dataset.engine=renderer.kind;resize();
+  const observer=new ResizeObserver(resize);observer.observe(element.parentElement);
+  const contextLost=event=>{event.preventDefault();if(!disposed)useFallback();};
+  canvas.addEventListener('webglcontextlost',contextLost,{once:true});
+  return {kind:renderer.kind,get canvas(){return canvas;},draw(view,time=0){
+    if(disposed)return;
+    const now=performance.now();lastView=view;lastTime=time;
+    // A congested GPU gets a smaller render target rather than an ever-growing queue.
+    if(lastDrawAt&&now-lastDrawAt>85&&now-lastDrawAt<400)slowFrames++;else slowFrames=Math.max(0,slowFrames-1);
+    if(slowFrames>=8&&scale>.40){scale=Math.max(.40,scale*.75);slowFrames=0;resize();}
+    lastDrawAt=now;
+    try{renderer.draw(view,time);}catch(error){useFallback();}
+    canvas.dataset.frames=String(++drawCount);
+  },destroy(){disposed=true;observer.disconnect();canvas.removeEventListener('webglcontextlost',contextLost);renderer.destroy();}};
 }

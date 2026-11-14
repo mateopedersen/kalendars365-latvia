@@ -10,22 +10,27 @@
       <section class="footer-discover" aria-labelledby="footer-compass-title">
         <div class="footer-discover-intro">
           <span class="footer-discover-art" aria-hidden="true"><img src="/assets/footer-compass.svg?v={{ site.data.build.asset_version }}" width="360" height="300" alt="" loading="lazy" decoding="async"></span>
-          <div class="footer-discover-copy"><small>BRĪVDIENU KOMPASS</small><h2 id="footer-compass-title">Kur aizvedīs brīvdiena?</h2><p>Atpūtai, saulrietam vai svētku tradīcijām. Izvēlies, ar ko sākt.</p></div>
+          <div class="footer-discover-copy">{% if page.url == "/" %}<small>VIETA SVARĪGAJAM</small><h2 id="footer-compass-title">Kas vēl tavā kalendārā?</h2><p>Ieplāno ikdienu, atceries dzimšanas dienas un iepazīsti nozīmīgus datumus.</p>{% else %}<small>BRĪVDIENU KOMPASS</small><h2 id="footer-compass-title">Kur aizvedīs brīvdiena?</h2><p>Atpūtai, saulrietam vai svētku tradīcijām. Izvēlies, ar ko sākt.</p>{% endif %}</div>
         </div>
-        <nav class="footer-discover-routes" aria-label="Idejas tavai brīvdienai">
+        <nav class="footer-discover-routes" aria-label="{% if page.url == "/" %}Papildu plānošanas rīki{% else %}Idejas tavai brīvdienai{% endif %}">{% if page.url == "/" %}
+          <a href="/dienas-planotajs/"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 3h14v18H5ZM8 7h8m-8 5h8m-8 5h5"/></svg><span>Dienas plānotājs</span><b aria-hidden="true">↗</b></a>
+          <a href="/dzimsanas-dienu-kalendars/"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 10h16v11H4ZM2 6h20v4H2Zm10 0v15"/></svg><span>Dzimšanas dienas</span><b aria-hidden="true">↗</b></a>
+          <a href="/nozimigas-dienas/"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 5h18v16H3ZM7 2v6m10-6v6M3 10h18m-14 5 3 3 6-6"/></svg><span>Nozīmīgas dienas</span><b aria-hidden="true">↗</b></a>
+          {% else %}
           <a href="/garas-brivdienas/"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="16" rx="3"/><path d="M7 3v4m10-4v4M3 10h18m-13 5 3 3 5-5"/></svg><span>Garās brīvdienas</span><b aria-hidden="true">↗</b></a>
           <a href="/saullekts-saulriets/"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 18h18M6 15a6 6 0 0 1 12 0M12 2v3M3 7l2 2m14-2-2 2M5 21h14"/></svg><span>Saules laiki</span><b aria-hidden="true">↗</b></a>
           <a href="/svetki-un-tradicijas/"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 10h16v11H4ZM2 6h20v4H2Zm10 0v15M12 6C5 7 4 2 8 2c3 0 4 4 4 4Zm0 0c7 1 8-4 4-4-3 0-4 4-4 4Z"/></svg><span>Svētku tradīcijas</span><b aria-hidden="true">↗</b></a>
-        </nav>
+        {% endif %}</nav>
       </section>
     </div>
-    <nav class="footer-years" aria-label="Gada kalendāri no 2027. līdz 2030. gadam">
+    {% unless page.url == "/" %}<nav class="footer-years" aria-label="Gada kalendāri no 2027. līdz 2030. gadam">
       <div class="footer-years-heading"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><rect x="3" y="5" width="18" height="16" rx="3"/><path d="M7 3v4m10-4v4M3 10h18m-13 4h.01M12 14h.01M16 14h.01M8 17h.01M12 17h.01"/></svg><span>Atrodi savu gadu</span></div>
       <div class="footer-year-links">{% assign footer_years = '2027,2028,2029,2030' | split: ',' %}{% for footer_year in footer_years %}<a href="/kalendars/{{ footer_year }}/">{{ footer_year }}<svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"/></svg></a>{% endfor %}</div>
       <a class="footer-all-tools" href="/visi-riki/">Visi rīki <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></a>
     </nav>
+    {% endunless %}{% assign footer_groups = site.data.footer.groups %}{% if page.url == "/" %}{% assign footer_groups = site.data.footer.home_groups %}{% endif %}
     <div class="footer-directory">
-      {% for group in site.data.footer.groups %}<nav class="footer-link-group" aria-labelledby="footer-group-{{ forloop.index }}">
+      {% for group in footer_groups %}<nav class="footer-link-group" aria-labelledby="footer-group-{{ forloop.index }}">
         <h2 id="footer-group-{{ forloop.index }}"><span class="footer-category-art" aria-hidden="true"><img src="/assets/category-vector/{{ group.icon }}.svg?v={{ site.data.build.asset_version }}" alt="" width="320" height="260" loading="lazy"></span>{{ group.title }}</h2>
         <ul>{% for link in group.links %}<li><a href="{{ link.url }}"{% if page.url == link.url %} aria-current="page"{% endif %}>{{ link.title }}<svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="m9 6 6 6-6 6"/></svg></a></li>{% endfor %}</ul>
       </nav>{% endfor %}
@@ -33,12 +38,12 @@
     <section id="footer-connect" class="footer-about-row" aria-labelledby="footer-connect-title">
       <div class="footer-connect-intro">
         <img class="footer-connect-art" src="/assets/footer-links/planning.svg?v={{ site.data.build.asset_version }}" width="128" height="128" alt="" loading="lazy" decoding="async">
-        <div class="footer-connect-copy"><p class="footer-connect-eyebrow">KALENDĀRS365 · TAVAI IKDIENAI</p><h2 id="footer-connect-title">Ieplāno dienu.<br><strong>Atrodi laiku sev.</strong></h2></div>
+        <div class="footer-connect-copy"><p class="footer-connect-eyebrow">TAVAI IKDIENAI</p><h2 id="footer-connect-title">Ieplāno dienu.<br><strong>Atrodi laiku sev.</strong></h2></div>
       </div>
-      <nav class="footer-about-links" aria-label="Par vietni">{% for link in site.data.footer.about %}<a href="{{ link.url }}"{% if page.url == link.url %} aria-current="page"{% endif %}><span class="footer-route-art" aria-hidden="true"><img src="/assets/footer-links/{{ link.icon }}.svg?v={{ site.data.build.asset_version }}" width="48" height="48" alt="" loading="lazy" decoding="async"></span><span class="footer-route-label">{{ link.title }}</span><svg class="footer-route-arrow" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></a>{% endfor %}</nav>
+      <nav class="footer-about-links" aria-label="Par vietni">{% for link in site.data.footer.about %}{% unless page.url == "/" and link.url == "/avoti-un-metodika/" %}<a href="{{ link.url }}"{% if page.url == link.url %} aria-current="page"{% endif %}><span class="footer-route-art" aria-hidden="true"><img src="/assets/footer-links/{{ link.icon }}.svg?v={{ site.data.build.asset_version }}" width="48" height="48" alt="" loading="lazy" decoding="async"></span><span class="footer-route-label">{{ link.title }}</span><svg class="footer-route-arrow" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></a>{% endunless %}{% endfor %}</nav>
     </section>
     <div class="footer-legal-row">
-      <p class="footer-copyright"><a href="/" aria-label="Kalendārs365 sākumlapa">Kalendārs<span>365</span></a><span class="footer-copyright-year">© <span data-current-year>{{ site.time | date: '%Y' }}</span></span></p>
+      <p class="footer-copyright"><span class="footer-copyright-year">© <span data-current-year>{{ site.time | date: '%Y' }}</span></span></p>
       <nav class="footer-legal-links" aria-label="Privātums un piekļūstamība"><a href="/privatuma-politika/">Privātums</a><a href="/sikdatnu-politika/">Sīkdatnes</a><a href="/lietošanas-noteikumi/">Lietošanas noteikumi</a><a href="/pieklustamiba/">Piekļūstamība</a><button type="button" class="text-button" data-action="consent"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M4 7h16M4 17h16"/><circle cx="9" cy="7" r="3"/><circle cx="15" cy="17" r="3"/></svg>Privātuma izvēles</button></nav>
       <a class="footer-back-top" href="#main">Uz augšu <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 19V5m-6 6 6-6 6 6"/></svg></a>
     </div>
