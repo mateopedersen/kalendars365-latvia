@@ -11,6 +11,10 @@ const reviewedCreators=new Map([
  ['NASA/Apollo 17 crew; taken by either Harrison Schmitt or Ron Evans',{'@type':'Organization',name:'NASA'}],
  ['NASA/Bill Ingalls',{'@type':'Person',name:'Bill Ingalls'}],
  ['Saeima',{'@type':'Organization',name:'Saeima'}],
+ ['Ernests Dinka / Saeima',{'@type':'Person',name:'Ernests Dinka'}],
+ ['Reinis Inkēns / Saeima',{'@type':'Person',name:'Reinis Inkēns'}],
+ ['Olgerts V',{'@type':'Person',name:'Olgerts V'}],
+ ['Xil',{'@type':'Person',name:'Xil'}],
  ['Rīgas pašvaldības aģentūra “Rīgas investīciju un tūrisma aģentūra”',{'@type':'Organization',name:'Rīgas pašvaldības aģentūra “Rīgas investīciju un tūrisma aģentūra”'}]
 ]);
 
@@ -54,6 +58,19 @@ test('image metadata resolver distinguishes original compositions, known creator
   }
  }
  assert.equal(Object.keys(result).length,901);assert.equal(photos,415);
+ // GSC's four reported source photographs also appear on related pages.
+ // Check their actual rendered source nodes, not only the composed social cover.
+ const reportedSources=new Map([
+  ['/assets/tradition-covers/police-ac9de63c462a-960.webp','Reinis Inkēns'],
+  ['/assets/tradition-covers/november21-39fca328832d-960.webp','Olgerts V'],
+  ['/assets/blog/flag-780.webp','Xil'],
+  ['/assets/tradition-covers/november18-cb7a425db689-960.webp','Ernests Dinka']
+ ]);
+ for(const [src,name] of reportedSources){
+  const matching=Object.values(result).flat().filter(row=>row.contentUrl===origin+src);
+  assert(matching.length>0,src);
+  for(const image of matching)assert.deepEqual(image.creator,{'@type':'Person',name},src);
+ }
  const homepage=result['/'];
  for(const image of homepage)for(const field of ['creator','creditText','copyrightNotice','license','acquireLicensePage'])assert(image[field],field);
  const unknown=Object.values(covers).flatMap(row=>row.sources||[]).find(row=>row.author.startsWith('original download by'));
