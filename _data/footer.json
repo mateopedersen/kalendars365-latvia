@@ -136,5 +136,79 @@
       "icon": "contact",
       "url": "/kontakti/"
     }
+  ],
+  "home_groups": [
+    {
+      "title": "Datumu palīgi",
+      "icon": "calendar",
+      "links": [
+        {
+          "title": "Nedēļu numuri",
+          "url": "/nedelu-numuri/"
+        },
+        {
+          "title": "Gada diena",
+          "url": "/gada-diena/"
+        },
+        {
+          "title": "Garais gads",
+          "url": "/garais-gads/"
+        }
+      ]
+    },
+    {
+      "title": "Mācības un darbs",
+      "icon": "planner",
+      "links": [
+        {
+          "title": "Skolas kalendārs",
+          "url": "/skolas-kalendars/"
+        },
+        {
+          "title": "Valsts pārbaudes darbi",
+          "url": "/valsts-parbaudes-darbi/"
+        },
+        {
+          "title": "Darba laika kalendārs",
+          "url": "/darba-laika-kalendars/"
+        }
+      ]
+    },
+    {
+      "title": "Saule un Mēness",
+      "icon": "astronomy",
+      "links": [
+        {
+          "title": "Dienas garums",
+          "url": "/dienas-garums/"
+        },
+        {
+          "title": "Mēness lēkts un riets",
+          "url": "/meness-lekts-un-riets/"
+        },
+        {
+          "title": "Mēness aptumsums",
+          "url": "/meness-aptumsums/"
+        }
+      ]
+    },
+    {
+      "title": "Ikdienai",
+      "icon": "latvia-days",
+      "links": [
+        {
+          "title": "Pensiju izmaksas",
+          "url": "/pensiju-izmaksas/"
+        },
+        {
+          "title": "Pabalstu izmaksas",
+          "url": "/pabalstu-izmaksas/"
+        },
+        {
+          "title": "Pulksteņa pagriešana",
+          "url": "/pulkstena-pargriesana/"
+        }
+      ]
+    }
   ]
 }

@@ -1,18 +1,19 @@
 const revision=new URL(import.meta.url).searchParams.get('v')||'';
-const [math,panorama]=await Promise.all([
+const [math,panorama,{panoramaView,projectPanorama,compassTicks}]=await Promise.all([
   import(new URL('./sun-scene-core.mjs?v='+encodeURIComponent(revision),import.meta.url)),
-  import(new URL('./solar-panorama.mjs?v='+encodeURIComponent(revision),import.meta.url))
+  import(new URL('./solar-panorama.mjs?v='+encodeURIComponent(revision),import.meta.url)),
+  import(new URL('./solar-panorama-core.mjs?v='+encodeURIComponent(revision),import.meta.url))
 ]);
-const {panoramaView,projectPanorama,compassTicks}=await import(new URL('./solar-panorama-core.mjs?v='+encodeURIComponent(revision),import.meta.url));
 const {atmosphere,compass,discAltitude,projectSun,wrap}=math;
 const timeLabel=new Intl.DateTimeFormat('lv-LV',{timeZone:'Europe/Riga',hour:'2-digit',minute:'2-digit',hourCycle:'h23'});
 
 export function createSunScene(root) {
-  const q=s=>root.querySelector(s),stage=q('[data-sun-stage]'),host=q('[data-sun-map]');
+  const nodes=new Map(),q=s=>{if(!nodes.has(s))nodes.set(s,root.querySelector(s));return nodes.get(s);},stage=q('[data-sun-stage]'),host=q('[data-sun-map]');
+  const viewport={width:stage.clientWidth,height:stage.clientHeight};
   const painter=panorama.createSolarPanorama(q('[data-sun-panorama]'));
   const state={map:null,current:null,follow:true,bearing:180,mode:'panorama',cityId:null,ready:false,landscape:'water'};
   const reduced=matchMedia('(prefers-reduced-motion: reduce)');
-  let visible=false,frame=0,lastFrame=0,started=false,timeout,lastMapPaint=0,disposed=false;
+  let visible=false,frame=0,lastFrame=0,started=false,timeout,lastMapPaint=0,disposed=false,dirty=true,lastLabels='';
   const origin=performance.now();
   stage.dataset.renderer='panorama';stage.dataset.ready='true';
 
@@ -24,6 +25,8 @@ export function createSunScene(root) {
   }
   function labels() {
     if(!state.current)return;
+    const key=[state.current.city.id,state.current.instant.getTime(),state.mode,state.follow,state.bearing,state.map?.getBearing(),viewport.width,viewport.height].join('|');
+    if(key===lastLabels)return;lastLabels=key;
     const {position,instant,city}=state.current;
     const angle=state.mode==='map'&&state.map?wrap(state.map.getBearing()):state.follow?position.azimuth:state.bearing;
     q('[data-sun-bearing]').textContent=compass(angle)+' · '+Math.round(wrap(angle))+'°';
@@ -33,7 +36,7 @@ export function createSunScene(root) {
     q('[data-sun-city]').textContent=city.name;
     q('[data-sun-coordinates]').textContent=city.lat.toFixed(3)+'° Z · '+city.lon.toFixed(3)+'° A';
     let inView=true;
-    const rect=host.getBoundingClientRect();
+    const rect=viewport;
     if(state.mode==='map'&&state.map)inView=projectSun(discAltitude(position.altitude),position.azimuth,angle,state.map.getPitch(),rect.width,rect.height).visible;
     else{
       const view=panoramaView(state.current,state);
@@ -46,19 +49,25 @@ export function createSunScene(root) {
     if(!state.current||disposed)return;
     if(state.mode==='panorama'||!state.ready)painter.draw(panoramaView(state.current,state),reduced.matches?0:(now-origin)/1000);
   }
+  // One render loop owns the canvas: time updates only request a frame.
+  // Never queue two GPU draws for the same animation frame.
   function tick(now) {
     frame=0;
-    if(disposed||!visible||document.hidden||state.mode!=='panorama'||reduced.matches)return;
-    if(now-lastFrame>=66){lastFrame=now;draw(now);}
-    frame=requestAnimationFrame(tick);
+    if(disposed||!visible||document.hidden)return;
+    if(state.mode!=='panorama'&&state.ready)return;
+    if(dirty||(!reduced.matches&&now-lastFrame>=33)){
+      lastFrame=now;dirty=false;draw(now);
+    }
+    if(!reduced.matches)frame=requestAnimationFrame(tick);
   }
   function animate() {
-    if(!frame&&visible&&!document.hidden&&state.mode==='panorama'&&!reduced.matches)frame=requestAnimationFrame(tick);
+    dirty=true;
+    if(!frame&&visible&&!document.hidden&&(state.mode==='panorama'||!state.ready))frame=requestAnimationFrame(tick);
   }
   function showPanorama(message) {
     stage.dataset.renderer='panorama';stage.dataset.ready='true';
     q('[data-sun-render-status]').textContent=message||'Saules stāvoklis pēc pilsētas koordinātām';
-    controls();draw();animate();
+    controls();animate();
   }
   function showMap() {
     if(!state.map||!state.ready||state.mode!=='map')return;
@@ -74,11 +83,11 @@ export function createSunScene(root) {
   function paintMap(force=false) {
     const map=state.map;
     if(!map||!state.ready||!state.current||state.mode!=='map')return;
-    const now=performance.now();if(!force&&now-lastMapPaint<90)return;lastMapPaint=now;
+    const now=performance.now();if(!force&&now-lastMapPaint<160)return;lastMapPaint=now;
     const {city,position}=state.current,colors=atmosphere(position.altitude);
     if(state.mapCity!==city.id){
       state.mapCity=city.id;
-      map.jumpTo({center:[city.lon,city.lat],zoom:15.5,pitch:80,bearing:state.follow?position.azimuth:state.bearing});
+      map.jumpTo({center:[city.lon,city.lat],zoom:15.5,pitch:65,bearing:state.follow?position.azimuth:state.bearing});
       map.once('idle',showMap);
     }else if(state.follow)map.jumpTo({bearing:position.azimuth});
     map.setSky({'sky-color':colors.sky,'horizon-color':colors.horizon,'sky-horizon-blend':.65});
@@ -94,15 +103,15 @@ export function createSunScene(root) {
     if(started){paintMap(true);showMap();return;}
     started=true;state.ready=false;
     q('[data-sun-render-status]').textContent='Ielādē pilsētas 3D karti…';
-    timeout=setTimeout(()=>fallback('Karte nav ielādēta. Saules panorāma un aprēķini darbojas.'),20000);
+    timeout=setTimeout(()=>fallback('Karte nav ielādēta. Saules panorāma un aprēķini darbojas.'),8000);
     try {
       const helper=await import(new URL('./sun-city-map.mjs?v='+encodeURIComponent(revision),import.meta.url));
       const lib=await helper.loadLibrary();
-      if(disposed)return;
+      if(disposed||state.mode!=='map'){started=false;return;}
       const {city,position}=state.current;
       state.map=new lib.Map({
         container:host,style:helper.mapStyle(atmosphere(position.altitude)),center:[city.lon,city.lat],
-        zoom:15.5,minZoom:13,maxZoom:18,pitch:80,maxPitch:85,bearing:position.azimuth,
+        zoom:15.5,minZoom:13,maxZoom:18,pitch:65,maxPitch:75,bearing:position.azimuth,
         attributionControl:{compact:false},keyboard:false,scrollZoom:false,touchPitch:false,
         locale:{'NavigationControl.ZoomIn':'Tuvināt','NavigationControl.ZoomOut':'Attālināt','AttributionControl.ToggleAttribution':'Kartes avoti'},
         fadeDuration:0,pixelRatio:Math.min(devicePixelRatio||1,1.5),canvasContextAttributes:{antialias:true},refreshExpiredTiles:true
@@ -130,7 +139,7 @@ export function createSunScene(root) {
       const photo=q('[data-sun-photo]');photo.src=city.photo.src;photo.alt=city.photo.alt;
       // Different coordinates seed the illustrative horizon, not an invented city survey.
     }
-    labels();draw();paintMap();animate();
+    labels();paintMap();animate();
   }
   root.querySelectorAll('[data-sun-renderer]').forEach(button=>button.addEventListener('click',()=>{
     state.mode=button.dataset.sunRenderer;
@@ -139,11 +148,11 @@ export function createSunScene(root) {
     else showPanorama();
   }));
   root.addEventListener('k365:sun-fit',()=>{state.follow=true;controls();update();state.map?.resize();});
-  q('[data-sun-landscape]').addEventListener('change',event=>{state.landscape=event.target.value;draw();});
+  q('[data-sun-landscape]').addEventListener('change',event=>{state.landscape=event.target.value;animate();});
   q('[data-sun-follow]').addEventListener('click',()=>{
     state.follow=!state.follow;
     if(!state.follow)state.bearing=state.current.position.azimuth;
-    else if(state.map&&state.mode==='map')state.map.jumpTo({center:[state.current.city.lon,state.current.city.lat],zoom:15.5,pitch:80});
+    else if(state.map&&state.mode==='map')state.map.jumpTo({center:[state.current.city.lon,state.current.city.lat],zoom:15.5,pitch:65});
     controls();update();
   });
   root.querySelectorAll('[data-sun-rotate]').forEach(button=>button.addEventListener('click',()=>{
@@ -156,19 +165,21 @@ export function createSunScene(root) {
     clearTimeout(timeout);state.map?.remove();state.map=null;state.ready=false;started=false;state.mode='map';
     q('[data-sun-retry]').hidden=true;controls();startMap();
   });
-  const resize=new ResizeObserver(()=>{state.map?.resize();draw();labels();});resize.observe(stage);
+  const resize=new ResizeObserver(entries=>{const rect=entries[0].contentRect;viewport.width=rect.width;viewport.height=rect.height;state.map?.resize();labels();animate();});resize.observe(stage);
   const observer=new IntersectionObserver(entries=>{
     visible=entries[0].isIntersecting;
-    if(visible){draw();animate();}else{cancelAnimationFrame(frame);frame=0;}
+    if(visible){animate();}else{cancelAnimationFrame(frame);frame=0;}
   },{rootMargin:'80px'});observer.observe(stage);
-  const visibility=()=>{if(document.hidden){cancelAnimationFrame(frame);frame=0;}else{draw();animate();}};
-  const motion=()=>{cancelAnimationFrame(frame);frame=0;draw();animate();};
+  const visibility=()=>{if(document.hidden){cancelAnimationFrame(frame);frame=0;}else{animate();}};
+  const motion=()=>{cancelAnimationFrame(frame);frame=0;animate();};
   document.addEventListener('visibilitychange',visibility);reduced.addEventListener('change',motion);
+  window.addEventListener('pageshow',visibility);
   window.addEventListener('pagehide',event=>{
+    cancelAnimationFrame(frame);frame=0;
     if(event.persisted)return;
     disposed=true;clearTimeout(timeout);cancelAnimationFrame(frame);observer.disconnect();resize.disconnect();
-    painter.destroy();state.map?.remove();document.removeEventListener('visibilitychange',visibility);reduced.removeEventListener('change',motion);
-  },{once:true});
+    painter.destroy();state.map?.remove();document.removeEventListener('visibilitychange',visibility);reduced.removeEventListener('change',motion);window.removeEventListener('pageshow',visibility);
+  });
   controls();showPanorama();
   return {update(snapshot){state.current=snapshot;update();}};
 }

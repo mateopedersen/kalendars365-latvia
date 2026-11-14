@@ -61,6 +61,7 @@
 {% if page.family == 'blog_article' or page.family == 'blog_index' %}<link rel="alternate" type="application/rss+xml" title="Kalendārs365 blogs" href="/blogs/feed.xml">{% endif %}
 {% if page.family == 'blog_article' %}<meta name="author" content="{{ site.owner | escape }}"><meta property="article:published_time" content="{{ seo.articlePublished }}">{% endif %}
 <style>{{ "mobile-usability.css" | inline_styles }}</style>
+{% if page.url == "/" %}<style>{{ "home-calendar.css" | inline_styles }}</style>{% endif %}
 </head>
 <body class="{% if page.url == '/' %}home-page{% else %}site-page{% endif %}" data-family="{{ page.family }}" data-category="{{ page.category }}" data-year="{{ page.year }}" data-month="{{ page.month }}" data-week="{{ page.week }}" data-name="{{ page.calendar_name | escape }}" data-view="{{ page.view }}">
 {% include header.html %}

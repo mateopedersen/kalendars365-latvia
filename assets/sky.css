@@ -267,3 +267,6 @@
 .sun-player[data-compact=true] .sun-stage-caption strong{font-size:18px}
 .sun-player[data-compact=true] .sun-player-actions [data-sun-fit] span{display:none}
 @media print{.sun-player-header,.sun-player .sun-moments,.sun-transport,.sun-view-options{display:none!important}.sun-player{padding:0;border:0}.sun-player .sun-stage{height:300px!important}}
+
+/* Give the six solar moments two balanced rows before their labels become narrow. */
+@media screen and (min-width:1101px) and (max-width:1500px){.sun-player .sun-moments{grid-template-columns:repeat(3,minmax(0,1fr))}.sun-player .sun-moments button>span{overflow-wrap:normal}}
