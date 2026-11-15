@@ -53173,6 +53173,63 @@
         ]
       ]
     },
+    "/svetki-un-tradicijas/staro-riga/": {
+      "heading": "Staro Rīga: pārbaudīts pasākuma laiks",
+      "paragraphs": [
+        "Staro Rīga ir kultūras pasākums ar rīkotāja izziņotiem norises datumiem. Šajā ceļvedī apstiprinātais periods ir 2026. gada 15. novembris–2026. gada 18. novembris; turpmāko gadu datumus no tā neizsecinām.",
+        "Pastaigai izvēlies tuvumā esošus objektus un pārbaudi norises laiku oficiālajā programmā. Festivāla kalendāra kopija pati neatjaunojas; pirms došanās pārskati rīkotāja paziņojumus. Kalendāra faila vakari ir piesaistīti Latvijas laikam; ceļojot citā laika joslā, lietotne tos var parādīt atbilstoši tavas ierīces iestatījumiem."
+      ],
+      "icon": "culture",
+      "sources": [
+        {
+          "url": "https://www.riga.lv/lv/notikums/staro-riga-2026",
+          "title": "Festivāla informācijas avots"
+        },
+        {
+          "url": "https://staroriga.lv/lv/news/5638/",
+          "title": "Festivāla informācijas avots"
+        },
+        {
+          "url": "https://staroriga.lv/lv/news/staro-riga-2026-tema-un-gaismas-loki/",
+          "title": "Festivāla informācijas avots"
+        },
+        {
+          "url": "https://www.liveriga.com/lv/4884-gaismas-festivals-staro-riga-1",
+          "title": "Festivāla informācijas avots"
+        }
+      ],
+      "related": [
+        {
+          "url": "/",
+          "title": "Atvērt savu kalendāru"
+        },
+        {
+          "url": "/saullekts-saulriets/riga/",
+          "title": "Saullēkts un saulriets Rīgā"
+        }
+      ],
+      "basis": {
+        "slug": "staro-riga",
+        "dates": [
+          "2026-11-15",
+          "2026-11-16",
+          "2026-11-17",
+          "2026-11-18"
+        ]
+      },
+      "linkedParagraphs": [
+        [
+          {
+            "text": "Staro Rīga ir kultūras pasākums ar rīkotāja izziņotiem norises datumiem. Šajā ceļvedī apstiprinātais periods ir 2026. gada 15. novembris–2026. gada 18. novembris; turpmāko gadu datumus no tā neizsecinām."
+          }
+        ],
+        [
+          {
+            "text": "Pastaigai izvēlies tuvumā esošus objektus un pārbaudi norises laiku oficiālajā programmā. Festivāla kalendāra kopija pati neatjaunojas; pirms došanās pārskati rīkotāja paziņojumus. Kalendāra faila vakari ir piesaistīti Latvijas laikam; ceļojot citā laika joslā, lietotne tos var parādīt atbilstoši tavas ierīces iestatījumiem."
+          }
+        ]
+      ]
+    },
     "/nedelas-kalendars/2031/01/": {
       "heading": "1. nedēļas datumi un praktiskais pārskats",
       "paragraphs": [

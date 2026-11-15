@@ -5,6 +5,8 @@ const read=p=>JSON.parse(fs.readFileSync(p,'utf8'));
 const registry=read('_data/tradition-links.json').topics;
 const occasions=read('_data/occasions.json');
 const cultural=read('_data/latvia-extra-pages.json').culturalPages;
+const topicCount=occasions.length+cultural.length;
+const confirmedStaroDates=new Set(['2026-11-15','2026-11-16','2026-11-17','2026-11-18']);
 const slugs=['janvaris','februaris','marts','aprilis','maijs','junijs','julijs','augusts','septembris','oktobris','novembris','decembris'];
 const url=slug=>`/svetki-un-tradicijas/${slug}/`;
 const htmlFor=slug=>fs.readFileSync('_site'+url(slug)+'index.html','utf8');
@@ -12,9 +14,9 @@ const block=(html,name)=>html.match(new RegExp(`<section\\b[^>]*\\bdata-traditio
 const routeSet=new Set(read('_data/routes.json').map(r=>r['URL path']));
 const esc=s=>s.replaceAll('&','&amp;').replaceAll('"','&quot;');
 
-test('all 73 directory topics have curated, published links without self-links or orphan topics',()=>{
+test('all directory topics have curated, published links without self-links or orphan topics',()=>{
  const expected=[...occasions.map(x=>x.slug),...cultural.map(x=>x.url.split('/').filter(Boolean).at(-1))].sort();
- assert.equal(expected.length,73);assert.deepEqual(Object.keys(registry).sort(),expected);
+ assert.equal(expected.length,topicCount);assert.deepEqual(Object.keys(registry).sort(),expected);
  const incoming=Object.fromEntries(expected.map(id=>[id,0]));
  for(const [id,e] of Object.entries(registry)){
   assert(e.related.length>0,id);assert.equal(e.related.length,new Set(e.related).size,id);
@@ -53,7 +55,7 @@ test('related topic photos resolve to existing responsive derivatives for every 
 });
 
 test('reader-facing primary sources are named, unique and synchronized with the topic directory data',()=>{
- const directory=read('assets/category-data.json').articles;assert.equal(directory.length,73);
+ const directory=read('assets/category-data.json').articles;assert.equal(directory.length,topicCount);
  for(const [id,e] of Object.entries(registry)){
   const html=htmlFor(id),sources=block(html,'sources');assert(sources,id);
   assert.equal(e.sources.length,new Set(e.sources.map(s=>s.url)).size,id);
@@ -68,17 +70,28 @@ test('reader-facing primary sources are named, unique and synchronized with the 
  assert(!Object.values(registry).flatMap(e=>e.sources).some(s=>s.url.includes('prefLang=uk')));
 });
 
-test('date links open their actual Latvia calendar day across all four years',()=>{
+test('date links open their actual Latvia calendar day, including confirmed current-year festival dates',()=>{
  let total=0;
  for(const id of Object.keys(registry)){
   const html=htmlFor(id);
   for(const m of html.matchAll(/class="tradition-date-link" href="([^"]+)"/g)){
-   const dest=new URL(m[1].replaceAll('&amp;','&'),'https://kalendars365.lv'),date=dest.searchParams.get('date');assert.match(date,/^20(?:27|28|29|30)-\d{2}-\d{2}$/);assert.equal(dest.searchParams.get('view'),'day');assert.equal(dest.hash,'#calendar-app');
-   const [year,month]=date.split('-').map(Number);assert.equal(dest.pathname,`/kalendars/${year}/${slugs[month-1]}/`);assert(routeSet.has(dest.pathname));total++;
+   const dest=new URL(m[1].replaceAll('&amp;','&'),'https://kalendars365.lv'),date=dest.searchParams.get('date');assert.equal(dest.searchParams.get('view'),'day');
+   if(id==='staro-riga' && confirmedStaroDates.has(date)){
+    assert.equal(dest.pathname,'/','Current-year festival dates use the existing homepage calendar');assert.equal(dest.hash,'');
+   }else{
+    assert.match(date,/^20(?:27|28|29|30)-\d{2}-\d{2}$/);assert.equal(dest.hash,'#calendar-app');
+    const [year,month]=date.split('-').map(Number);assert.equal(dest.pathname,`/kalendars/${year}/${slugs[month-1]}/`);
+   }
+   assert(routeSet.has(dest.pathname));total++;
   }
  }
  assert(total>250,'Actual dates should be linked across the whole catalog');
- for(const item of occasions)for(const date of item.dates)assert(htmlFor(item.slug).includes(`?date=${date.date}&amp;view=day#calendar-app"`),item.slug+' '+date.date);
+ for(const item of occasions)for(const date of item.dates){
+  if(date.date.startsWith('2026-')){assert.equal(item.slug,'staro-riga');assert(confirmedStaroDates.has(date.date),'Only the confirmed Staro Rīga event dates may use 2026');}
+  const currentFestival=item.slug==='staro-riga' && confirmedStaroDates.has(date.date);
+  const target=currentFestival ? `href="/?date=${date.date}&amp;view=day"` : `?date=${date.date}&amp;view=day#calendar-app"`;
+  assert(htmlFor(item.slug).includes(target),item.slug+' '+date.date);
+ }
 });
 
 test('existing article wording is linked without nested anchors or altered dates and status',()=>{

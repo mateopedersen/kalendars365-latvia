@@ -57,7 +57,7 @@ noindex: true
   </div>
 
   <section class="content-card university-photo-credits occasion-photo-credits" id="svetku-fotografijas">
-    <div class="university-photo-heading"><div><span class="eyebrow">LATVIJAS SVĒTKI UN ATCERES DIENAS</span><h2>Īstas svētku fotogrāfijas, norādīti autori</h2><p>Svētku un atceres dienu lapās izmantotas 42 atšķirīgas dokumentālas fotogrāfijas. Katrā kartītē ir attēla autors, licences noteikumi un saite uz oriģinālo avota failu. Vietnes attēli ir lokāli WebP atvasinājumi, nevis ārēja attēlu plūsma.</p></div></div>
+    <div class="university-photo-heading"><div><span class="eyebrow">LATVIJAS SVĒTKI UN ATCERES DIENAS</span><h2>Īstas svētku fotogrāfijas, norādīti autori</h2><p>Svētku, atceres dienu un festivālu lapās izmantotas dokumentālas un tematiskas fotogrāfijas. Katrā kartītē ir attēla autors, licences noteikumi un saite uz oriģinālo avota failu. Vietnes attēli ir lokāli WebP atvasinājumi, nevis ārēja attēlu plūsma.</p></div></div>
     <div class="photo-catalog university-photo-catalog occasion-photo-catalog">
       {% assign occasion_photo_groups = site.data.occasions | group_by_exp: "occasion", "occasion.photo.id" %}
       {% for group in occasion_photo_groups %}
@@ -75,6 +75,7 @@ noindex: true
 
   {% include tradition-photo-credits.html %}
   {% include day-photo-credits.html %}
+  {% include staro-riga-photo-credits.html %}
 
   <section class="content-card university-photo-credits" id="augstskolu-fotografijas">
     <div class="university-photo-heading"><div><span class="eyebrow">VALSTS AUGSTSKOLU KALENDĀRI</span><h2>Augstskolu fotogrāfijas, emblēmas un licences</h2><p>Pieejamajiem attēliem šeit norādīts fotogrāfs, oriģinālais avota fails un lietošanas nosacījumi. Atvērtie attēli ir arī katras augstskolas 2026./2027. gada studiju kalendāra kartītē.</p></div><a class="link-card" href="/studiju-kalendars/#augstskolas">Atvērt augstskolu kalendārus <span aria-hidden="true">→</span></a></div>

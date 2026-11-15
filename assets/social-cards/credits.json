@@ -3673,6 +3673,21 @@
       ]
     },
     {
+      "src": "/assets/tradition-covers/occasion-staro-riga-a8c45df226cc-1280.webp",
+      "author": "Juris Vīgulis / Saeimas Kanceleja (Saeima)",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Saeima_piedal%C4%81s_gaismas_festiv%C4%81l%C4%81_%22Staro_R%C4%ABga%22_(6357214209).jpg",
+      "sourceSha256": "be3b782e5264894053ea005cac48f600277ca8e613f77832fc67266b17bd8c8e",
+      "covers": [
+        {
+          "url": "/svetki-un-tradicijas/staro-riga/",
+          "image": "/assets/social-cards/v2/8fc39a6b8baadc45-6b7dd74cb982.jpg",
+          "title": "Staro Rīga 2026 programma un gaismas karte"
+        }
+      ]
+    },
+    {
       "src": "/assets/blog/flag-780.webp",
       "author": "Xil",
       "license": "CC BY-SA 3.0",

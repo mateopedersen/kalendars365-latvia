@@ -1,5 +1,6 @@
 # Original photo-led Latvian observance pages. Source metadata stays attached.
 def occasion_page(article, _all=nil)
+  return staro_riga_page(article) if article['slug']=='staro-riga'
   slug=article.fetch('slug');type=article['type']
   status=article['dayOff'] ? 'Svētku brīvdiena' : type=='commemoration' ? 'Atceres diena' : type=='astronomy' ? 'Astronomisks notikums' : 'Atzīmējamā diena'
   dates=article.fetch('dates',[])

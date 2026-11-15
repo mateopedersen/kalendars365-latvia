@@ -135,6 +135,19 @@ test('built HTML contains the notes as visible, escaped main content without dis
       assert.equal((html.match(/data-page-reading/g)||[]).length,0,'Avoid a second, duplicated guide below the custom print guide');
       continue;
     }
+    if(url==='/svetki-un-tradicijas/staro-riga/') {
+      assert.match(html,/<article\b[^>]*class="[^"]*\bstaro-riga\b[^"]*"/,url+' has its purpose-built festival article');
+      const overview=html.match(/<section class="staro-riga-overview"[\s\S]*?<\/section>/)?.[0];
+      const evenings=html.match(/<section id="datumi"[\s\S]*?<\/section>/)?.[0];
+      const questions=html.match(/<section class="staro-faq"[\s\S]*?<\/section>/)?.[0];
+      assert(overview&&overview.includes('Kas ir Staro Rīga?'),'The festival has an explicit introduction');
+      assert((overview.match(/<p\b/g)||[]).length>=2,'The festival introduction explains its context and verification');
+      for(const date of notes[url].basis.dates)assert(evenings?.includes('datetime="'+date+'"'),'Every confirmed festival evening is explained');
+      assert(evenings?.includes('/kalendari/staro-riga-2026.ics'),'The dedicated festival guide explains how to save its dates');
+      assert(questions&&(questions.match(/<summary>/g)||[]).length>=3,'The festival answers practical visitor questions');
+      assert(!html.includes('data-page-reading'),'Avoid a second generic guide below the complete festival article');
+      continue;
+    }
     assert.equal((html.match(/data-page-reading/g)||[]).length,1,url);
     const start=html.indexOf('data-page-reading'),end=html.indexOf('</main>',start);
     assert.ok(start>html.indexOf('<main id="main">')&&end>start,url);

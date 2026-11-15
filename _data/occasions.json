@@ -6577,5 +6577,78 @@
       "objectPosition": "50% 50%",
       "locationCountry": "LV"
     }
+  },
+  {
+    "slug": "staro-riga",
+    "title": "Staro Rīga",
+    "description": "Staro Rīga 2026: 15.–18. novembrī no plkst. 17.00 līdz 23.00. Oficiālā programma un karte, bezmaksas gaismas objekti un vakara pastaigas plānošana.",
+    "bodyHtml": "",
+    "verified": true,
+    "sourceUrls": [
+      "https://www.riga.lv/lv/notikums/staro-riga-2026",
+      "https://staroriga.lv/lv/news/5638/",
+      "https://staroriga.lv/lv/news/staro-riga-2026-tema-un-gaismas-loki/",
+      "https://www.liveriga.com/lv/4884-gaismas-festivals-staro-riga-1"
+    ],
+    "matchTerms": [
+      "Staro Rīga",
+      "Staro Riga"
+    ],
+    "checked": "2026-11-15",
+    "reviewStatus": "Primary sources checked; original Latvian editorial copy",
+    "nativeEditorReviewed": false,
+    "dates": [
+      {
+        "date": "2026-11-15",
+        "title": "Staro Rīga"
+      },
+      {
+        "date": "2026-11-16",
+        "title": "Staro Rīga"
+      },
+      {
+        "date": "2026-11-17",
+        "title": "Staro Rīga"
+      },
+      {
+        "date": "2026-11-18",
+        "title": "Staro Rīga"
+      }
+    ],
+    "intro": "Staro Rīga ir gaismas mākslas festivāls, kuru iepazīst pastaigā pa pilsētu. Vakara tumsā ēku fasādes, laukumi un parki kļūst par vietu instalācijām un projekcijām. 2026. gadā festivāls notiek četrus vakarus — no 15. līdz 18. novembrim. Tas sakrīt ar Latvijas Republikas proklamēšanas dienas laiku, taču katram notikumam ir sava programma.",
+    "factNotes": [],
+    "type": "festival",
+    "dayOff": false,
+    "dateRule": {
+      "type": "announced",
+      "label": "Gaismas festivāls Rīgā · 15.–18. novembris 2026"
+    },
+    "country": "LV",
+    "locale": "lv-LV",
+    "photo": {
+      "id": "occasion-staro-riga",
+      "title": "Saeima piedalās gaismas festivālā Staro Rīga 2011",
+      "alt": "Saeimas nams sarkanbaltsarkanā apgaismojumā festivālā Staro Rīga 2011. gadā",
+      "caption": "Vēsturisks skats: Saeimas nams festivālā Staro Rīga 2011. gada 17. novembrī.",
+      "author": "Juris Vīgulis / Saeimas Kanceleja (Saeima)",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Saeima_piedal%C4%81s_gaismas_festiv%C4%81l%C4%81_%22Staro_R%C4%ABga%22_(6357214209).jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/78/Saeima_piedal%C4%81s_gaismas_festiv%C4%81l%C4%81_%22Staro_R%C4%ABga%22_%286357214209%29.jpg",
+      "sourceCopy": "docs/sources/staro-riga-2026-11-15/saeima-staro-riga-2011.jpg",
+      "sourceSha256": "be3b782e5264894053ea005cac48f600277ca8e613f77832fc67266b17bd8c8e",
+      "sourceWidth": 3872,
+      "sourceHeight": 2592,
+      "retrievedAt": "2026-11-15",
+      "visualReview": {
+        "date": "2026-11-15",
+        "sourceSha256": "be3b782e5264894053ea005cac48f600277ca8e613f77832fc67266b17bd8c8e",
+        "evidence": "Night photograph of Saeima facade lit red and white with projected light; people and trees visible. Archival2011 source, not2026 programme."
+      },
+      "src": "/assets/tradition-covers/occasion-staro-riga-829de1af07fa-640.webp",
+      "srcset": "/assets/tradition-covers/occasion-staro-riga-721c9d708d30-320.webp 320w, /assets/tradition-covers/occasion-staro-riga-829de1af07fa-640.webp 640w, /assets/tradition-covers/occasion-staro-riga-5e46e881fb62-960.webp 960w, /assets/tradition-covers/occasion-staro-riga-a8c45df226cc-1280.webp 1280w",
+      "width": 640,
+      "height": 360
+    }
   }
 ]

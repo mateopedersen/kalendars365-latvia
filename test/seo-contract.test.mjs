@@ -5,9 +5,15 @@ import {execFileSync} from 'node:child_process';
 import {verifyMetadata,verifyHttp} from '../tooling/seo/verify.mjs';
 import {interactionEvent} from '../tooling/seo/event-contract.mjs';
 const read=f=>fs.readFileSync(f,'utf8'),json=f=>JSON.parse(read(f));
-test('all 901 HTML documents have coherent route, sitemap, metadata, image and entity identities',()=>{
+test('all published and support HTML documents have coherent route, sitemap, metadata, image and entity identities',()=>{
  execFileSync('python3',['-c','from tooling.seo.inventory import Document; d=Document(); d.feed(\'<html><head><title>Kalendārs | Kalendārs365</title></head><body><svg><title>Accessible illustration title</title></svg></body></html>\'); assert d.title == "Kalendārs | Kalendārs365"'],{stdio:'pipe'});
- const result=verifyMetadata();assert.equal(result.pages,901);assert.equal(result.entityGraphs,901);assert.deepEqual(result.errors,[]);
+ const manifest=json('docs/route-manifest.json'),supportDocuments=['/404.html','/500.html'];
+ const expectedUrls=new Set([...manifest.map(row=>row.url),...supportDocuments]);
+ assert.equal(expectedUrls.size,manifest.length+supportDocuments.length,'Manifest and support document routes are unique');
+ const actualUrls=new Set(fs.readdirSync('_site',{recursive:true}).filter(file=>file.endsWith('.html')).map(file=>file==='index.html'?'/':file.endsWith('/index.html')?'/'+file.slice(0,-10):'/'+file));
+ assert.deepEqual(actualUrls,expectedUrls,'Every built HTML document belongs to the complete route inventory');
+ assert.deepEqual(new Set(Object.keys(json('_data/seo-contract.json').pages)),expectedUrls,'Metadata covers every published and support document');
+ const result=verifyMetadata();assert.equal(result.pages,expectedUrls.size);assert.equal(result.entityGraphs,expectedUrls.size);assert.deepEqual(result.errors,[]);
 });
 test('calendar snippets identify actual dates and the homepage declares the crawlable brand icon', () => {
  const pages = json('_data/seo-contract.json').pages;

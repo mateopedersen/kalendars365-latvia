@@ -6,11 +6,12 @@ const read=path=>JSON.parse(fs.readFileSync(path,'utf8'));
 const articles=read('assets/category-data.json').articles;
 const covers=read('_data/tradition-covers.json');
 const social=read('_data/social-images.json').pages;
+const topicCount=read('_data/occasions.json').length+read('_data/latvia-extra-pages.json').culturalPages.length;
 const photoSources=new Map(read('_data/occasions.json').map(a=>[a.photo.id,a.photo]));
 for(const photo of [...read('_data/tradition-photos.json').photos,...read('_data/occasion-photo-overrides.json').photos])photoSources.set(photo.id,photo);
 const esc=value=>String(value).replaceAll('&','&amp;').replaceAll('"','&quot;').replaceAll('<','&lt;').replaceAll('>','&gt;').replaceAll("'",'&#39;');
 
-test('each of the 73 day pages has its own topic-bound photographic header, one photo, one h1 and a date destination',()=>{
+test('each catalog day page has its own topic-bound photographic header, one photo, one h1 and a date destination',()=>{
  const ids=[];
  for(const a of articles){
   const slug=a.url.split('/').filter(Boolean).at(-1),html=fs.readFileSync('_site'+a.url+'index.html','utf8');
@@ -29,7 +30,7 @@ test('each of the 73 day pages has its own topic-bound photographic header, one 
   assert(!html.includes('id="i-month-'),slug+' unused month illustrations');
   ids.push(a.photo.id);
  }
- assert.equal(new Set(ids).size,73,'Different days must not silently share a generic photo');
+ assert.equal(new Set(ids).size,topicCount,'Different days must not silently share a generic photo');
 });
 
 test('all day photos, social previews and credits use the same reviewed identity',()=>{
@@ -63,5 +64,5 @@ test('seven replacements have unique licensed sources and checksum-bound visual 
  const all=new Map(read('_data/occasions.json').map(a=>[a.slug,a.photo]));
  for(const p of [...read('_data/tradition-photos.json').photos,...photos])all.set(p.slug,p);
  const sourceFiles=articles.map(a=>decodeURIComponent(new URL(all.get(a.url.split('/').filter(Boolean).at(-1)).sourceUrl).pathname).replaceAll('_',' '));
- assert.equal(new Set(sourceFiles).size,73,'Distinct IDs must not conceal repeated source photographs');
+ assert.equal(new Set(sourceFiles).size,topicCount,'Distinct IDs must not conceal repeated source photographs');
 });

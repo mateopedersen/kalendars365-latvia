@@ -3,6 +3,7 @@ const labels = {
   commemoration: 'Atceres diena',
   observance: 'Atzīmējama diena',
   culture: 'Kultūras tradīcija',
+  festival: 'Gaismas festivāls',
   astronomy: 'Astronomisks notikums'
 };
 const escape = value => String(value ?? '').replace(/[&<>"']/g, character => ({'&':'&amp;', '<':'&lt;', '>':'&gt;', '"':'&quot;', "'":'&#39;'}[character]));

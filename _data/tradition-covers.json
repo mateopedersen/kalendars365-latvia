@@ -2947,5 +2947,50 @@
     ],
     "sourceSha256": "872926234bedb2ab14ef9d475cc45a38acbe4690d5c0a7c816bcdeacdeab1440",
     "transform": "16:9 kadrējums; samazināts WebP attēls"
+  },
+  "occasion-staro-riga": {
+    "src": "/assets/tradition-covers/occasion-staro-riga-829de1af07fa-640.webp",
+    "width": 640,
+    "height": 360,
+    "bytes": 37794,
+    "sha256": "829de1af07fa2c820ac20cdbbb8e96beeb7d49ae6140e089ab63fd1f4196eb6f",
+    "quality": 80,
+    "srcset": "/assets/tradition-covers/occasion-staro-riga-721c9d708d30-320.webp 320w, /assets/tradition-covers/occasion-staro-riga-829de1af07fa-640.webp 640w, /assets/tradition-covers/occasion-staro-riga-5e46e881fb62-960.webp 960w, /assets/tradition-covers/occasion-staro-riga-a8c45df226cc-1280.webp 1280w",
+    "files": [
+      {
+        "src": "/assets/tradition-covers/occasion-staro-riga-721c9d708d30-320.webp",
+        "width": 320,
+        "height": 180,
+        "bytes": 10572,
+        "sha256": "721c9d708d303efe67b46697e70a198abed0b0a06ccfa6e587ab0846ad51605d",
+        "quality": 80
+      },
+      {
+        "src": "/assets/tradition-covers/occasion-staro-riga-829de1af07fa-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 37794,
+        "sha256": "829de1af07fa2c820ac20cdbbb8e96beeb7d49ae6140e089ab63fd1f4196eb6f",
+        "quality": 80
+      },
+      {
+        "src": "/assets/tradition-covers/occasion-staro-riga-5e46e881fb62-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 78372,
+        "sha256": "5e46e881fb6263781af37c35052f7b06009c83c9bf372b9249f4e7262168394a",
+        "quality": 80
+      },
+      {
+        "src": "/assets/tradition-covers/occasion-staro-riga-a8c45df226cc-1280.webp",
+        "width": 1280,
+        "height": 720,
+        "bytes": 129132,
+        "sha256": "a8c45df226cc17077e9b2cf18e57e3877cbd9fec62b25526837acb9fa98a32d7",
+        "quality": 80
+      }
+    ],
+    "sourceSha256": "be3b782e5264894053ea005cac48f600277ca8e613f77832fc67266b17bd8c8e",
+    "transform": "16:9 kadrējums; samazināts WebP attēls"
   }
 }

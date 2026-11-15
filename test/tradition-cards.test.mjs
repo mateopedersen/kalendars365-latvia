@@ -5,6 +5,7 @@ import crypto from 'node:crypto';
 import {traditionCard} from '../assets/tradition-cards.mjs';
 import K from '../assets/category-core.js';
 const read = file => JSON.parse(fs.readFileSync(file, 'utf8'));
+const topicCount = read('_data/occasions.json').length + read('_data/latvia-extra-pages.json').culturalPages.length;
 
 test('archived vector artwork for the 25 cultural topics stays intact', () => {
   const topics = read('_data/latvia-extra-pages.json').culturalPages;
@@ -27,10 +28,10 @@ test('archived vector artwork for the 25 cultural topics stays intact', () => {
 
 test('the full guide preserves topics and dates without repeated photo-license calls to action', () => {
   const articles = read('assets/category-data.json').articles;
-  assert.equal(articles.length, 73);
+  assert.equal(articles.length, topicCount);
   for (const year of [2027, 2028, 2029, 2030]) {
     const selected = K.traditions(articles, {year});
-    assert.equal(selected.length, 73);
+    assert.equal(selected.length, topicCount);
     for (const article of selected) {
       const card = traditionCard(article, date => date, 'checked-version');
       assert(card.includes('href="' + article.url + '"'), article.url);

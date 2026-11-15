@@ -5,18 +5,19 @@ import crypto from 'node:crypto';
 import K from '../assets/category-core.js';
 const json = path => JSON.parse(fs.readFileSync(path, 'utf8'));
 const sha = path => crypto.createHash('sha256').update(fs.readFileSync(path)).digest('hex');
+const topicCount = json('_data/occasions.json').length + json('_data/latvia-extra-pages.json').culturalPages.length;
 const html = fs.readFileSync('_site/svetki-un-tradicijas/index.html', 'utf8');
 const model = JSON.parse(html.match(/<script type="application\/json" data-traditions-guide-data>(.*?)<\/script>/s)[1]);
 
-test('all 73 topics are readable and linked before JavaScript; the directory has no heavy category/catalog/sky dependency', () => {
-  assert.equal((html.match(/data-tradition-url=/g)||[]).length,73);
-  assert.equal((html.match(/<a class="tradition-story-media tradition-story-media--photo"/g)||[]).length,73);
+test('all catalog topics are readable and linked before JavaScript; the directory has no heavy category/catalog/sky dependency', () => {
+  assert.equal((html.match(/data-tradition-url=/g)||[]).length,topicCount);
+  assert.equal((html.match(/<a class="tradition-story-media tradition-story-media--photo"/g)||[]).length,topicCount);
   assert(!html.includes('tradition-story-media--illustration'));
   for (const name of ['category-tools.mjs','category-redesign.mjs','category-advanced.mjs','cities.js','sky-ui.mjs','category-data.json']) assert(!html.includes(name),name);
   assert(html.includes('traditions-guide.mjs'));
   assert(!html.includes('id="i-month-'), 'unused month SVG images must not be requested by this guide');
   assert(!html.includes('href="#i-month-'));
-  assert.equal(model.length,73);
+  assert.equal(model.length,topicCount);
   assert(Buffer.byteLength(JSON.stringify(model)) < 75000);
   for (const a of model) {
     assert(html.includes('href="'+a.url+'"'));
@@ -58,9 +59,9 @@ test('all 25 new photographs have reviewed, checksum-bound source copies and val
   }
 });
 
-test('all 73 distinct real photographs have small, immutable responsive cover files with exact hashes', () => {
+test('all catalog photographs have small, immutable responsive cover files with exact hashes', () => {
   const covers=json('_data/tradition-covers.json');
-  assert.equal(Object.keys(covers).length,73);
+  assert.equal(Object.keys(covers).length,topicCount);
   for(const [id,p] of Object.entries(covers)){
     assert(p.files.length>=3,id);
     for(const f of p.files){

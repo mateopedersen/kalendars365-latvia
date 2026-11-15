@@ -2,12 +2,12 @@
   "schemaVersion": 1,
   "scope": "local built files; no external requests",
   "origin": "https://kalendars365.lv",
-  "pageUrls": 898,
-  "indexablePages": 898,
-  "htmlDocuments": 901,
-  "imagePages": 898,
-  "uniqueImages": 4407,
-  "imageReferences": 9096,
+  "pageUrls": 899,
+  "indexablePages": 899,
+  "htmlDocuments": 902,
+  "imagePages": 899,
+  "uniqueImages": 4415,
+  "imageReferences": 9122,
   "excluded": [
     "/404.html",
     "/500.html",
@@ -15,12 +15,12 @@
   ],
   "files": {
     "sitemap.xml": {
-      "bytes": 95381,
-      "sha256": "7d6c62ebdd59cb0ec0fd7a38daa1cce9121f13eee3b27ef202b7138423f505ba"
+      "bytes": 95491,
+      "sha256": "733d9aaec3257b8ad61ed735e669819861c689e978652c4b2c801cb8187fbf90"
     },
     "image-sitemap.xml": {
-      "bytes": 1280509,
-      "sha256": "ff8ab012d7ac906e10ca4c68e8537d17f68fd26af66921dfdb904df71dea23fb"
+      "bytes": 1284104,
+      "sha256": "fd0746fb1358c7a20ec1bd79382a2f5352115da4f396b35af3550bf83a7d4af8"
     }
   },
   "families": {
@@ -44,7 +44,7 @@
     "moon_city": 82,
     "name_calendar": 20,
     "name_day_month": 12,
-    "occasion": 48,
+    "occasion": 49,
     "print_index": 4,
     "print_month": 48,
     "school_academic": 4,

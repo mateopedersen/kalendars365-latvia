@@ -7608,12 +7608,12 @@
     "indexable": true,
     "status": "ready",
     "description": "Latvijas svētku dienas, gadskārtu notikumi un citas avotos pārbaudītas kultūras tēmas. Pārbaudi datumu un atšķir to no likumā noteiktas brīvdienas.",
-    "lastmod": "2026-11-12",
+    "lastmod": "2026-11-15",
     "canonicalPath": "/nozimigas-dienas/",
     "locale": "lv-LV",
     "pageType": "WebPage",
     "primaryIntent": "use-calendar-tool",
-    "significantModifiedAt": "2026-11-12"
+    "significantModifiedAt": "2026-11-15"
   },
   {
     "url": "/pabalstu-izmaksas/",
@@ -10254,12 +10254,12 @@
     "indexable": true,
     "status": "ready",
     "description": "Iepazīsti Latvijas valsts svētkus, gadskārtu tradīcijas un atceres dienas. Atrodi datumus, skaidrojumus un katras tēmas avotus.",
-    "lastmod": "2026-11-12",
+    "lastmod": "2026-11-15",
     "canonicalPath": "/svetki-un-tradicijas/",
     "locale": "lv-LV",
     "pageType": "WebPage",
     "primaryIntent": "use-calendar-tool",
-    "significantModifiedAt": "2026-11-12"
+    "significantModifiedAt": "2026-11-15"
   },
   {
     "url": "/svetki-un-tradicijas/advente/",
@@ -10590,12 +10590,12 @@
     "indexable": true,
     "status": "ready",
     "description": "Latvijas Republikas Proklamēšanas diena 2027. gadā: kad? 18. novembrī (ceturtdienā). Apskati visus datumus 2027.–2030. gadā, dienas nozīmi un statusu Latvijā.",
-    "lastmod": "2026-11-14",
+    "lastmod": "2026-11-15",
     "canonicalPath": "/svetki-un-tradicijas/latvijas-republikas-proklamesanas-diena/",
     "locale": "lv-LV",
     "pageType": "WebPage",
     "primaryIntent": "learn-tradition",
-    "significantModifiedAt": "2026-11-14"
+    "significantModifiedAt": "2026-11-15"
   },
   {
     "url": "/svetki-un-tradicijas/liela-piektdiena/",
@@ -12046,12 +12046,12 @@
     "indexable": true,
     "status": "ready",
     "description": "2027. gada centralizēto eksāmenu un monitoringa darbu datumi Latvijā. Filtrē pēc klases, priekšmeta, līmeņa un norises laika.",
-    "lastmod": "2026-11-14",
+    "lastmod": "2026-11-15",
     "canonicalPath": "/valsts-parbaudes-darbi/",
     "locale": "lv-LV",
     "pageType": "WebPage",
     "primaryIntent": "use-calendar-tool",
-    "significantModifiedAt": "2026-11-14"
+    "significantModifiedAt": "2026-11-15"
   },
   {
     "url": "/varda-dienas/",
@@ -12264,6 +12264,20 @@
     "significantModifiedAt": "2026-11-15"
   },
   {
+    "url": "/svetki-un-tradicijas/staro-riga/",
+    "title": "Staro Rīga 2026 programma un gaismas karte",
+    "family": "occasion",
+    "indexable": true,
+    "status": "ready",
+    "description": "Staro Rīga 2026 notiek 15.–18. novembrī no plkst. 17.00 līdz 23.00. Oficiālā programma, gaismas objektu karte un vakara pastaigas plānošana Rīgā.",
+    "lastmod": "2026-11-15",
+    "canonicalPath": "/svetki-un-tradicijas/staro-riga/",
+    "locale": "lv-LV",
+    "pageType": "WebPage",
+    "primaryIntent": "learn-tradition",
+    "significantModifiedAt": "2026-11-15"
+  },
+  {
     "url": "/nedelas-kalendars/2031/01/",
     "title": "2031. gada 1. nedēļa",
     "family": "iso_week",
@@ -12283,13 +12297,13 @@
     "family": "city_photos",
     "indexable": false,
     "status": "owner_noindex",
-    "description": "82 Latvijas pilsētu, 42 svētku, 9 valsts augstskolu un 16 kultūraugu fotogrāfijas ar autoriem, avota failiem un licencēm.",
-    "lastmod": "2026-11-14",
+    "description": "Latvijas pilsētu, svētku, festivālu, augstskolu un kultūraugu fotogrāfijas ar autoriem, avota failiem un licencēm.",
+    "lastmod": "2026-11-15",
     "canonicalPath": "/pilsetas-un-fotografijas/",
     "locale": "lv-LV",
     "pageType": "WebPage",
     "primaryIntent": "use-calendar-tool",
-    "significantModifiedAt": "2026-11-14"
+    "significantModifiedAt": "2026-11-15"
   },
   {
     "url": "/blogs/",

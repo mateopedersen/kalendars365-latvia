@@ -12,6 +12,7 @@ require_relative 'calendar_search_snippets'
 require_relative 'preview_components'
 include PreviewComponents
 require_relative 'occasion_components'
+require_relative 'staro_riga_components'
 require_relative 'garden_components'
 require_relative 'garden_experience_components'
 require_relative 'organizer_components'
@@ -666,9 +667,18 @@ ROUTES.each do |r|
  end
  desc="#{title}. #{m ? "#{Date.new(y,m,-1).day} #{Date.new(y,m,-1).day == 31 ? 'diena' : 'dienas'}, ISO nedēļas un izvēlētā mēneša plānošana." : 'Pārskatāmi datumi, plānošanas rīki un saites uz avotiem.'} Kalendārs365 Latvijai." if desc.empty?
  desc=SEARCH_SNIPPETS.description(f, year:y, month:m, slug:slug, fallback:desc)
+ if f=='occasion' && slug=='staro-riga'
+  title='Staro Rīga 2026 programma un gaismas karte'
+  heading='Staro Rīga 2026'
+  desc='Staro Rīga 2026 notiek 15.–18. novembrī no plkst. 17.00 līdz 23.00. Oficiālā programma, gaismas objektu karte un vakara pastaigas plānošana Rīgā.'
+ end
  CalendarIndexingPolicy.validate!(p,noindex)
  front={'layout'=>'default','title'=>title,'description'=>desc,'permalink'=>p,'family'=>f,'city_id'=>(%w[sun_city moon_city].include?(f) ? slug : nil),'year'=>(r['Year'].empty? ? nil : y),'month'=>m,'week'=>week,'calendar_name'=>(f=='name_calendar' ? r['Latvian title/topic'] : nil),'view'=>(f=='iso_week' ? 'week' : f=='year' ? 'year' : nil),'noindex'=>noindex}
  front.delete_if{|_,value|value.nil?}
+ if f=='occasion' && slug=='staro-riga'
+  front['staro_riga']=true
+  front['reading_notes']=false
+ end
  front.merge!(social_cover_frontmatter(p))
  day_photo=tradition_cover(tradition_photo_for(p.split('/').last)) if %w[occasion latvia_cultural].include?(f)
  front['calendar_collection']=true if CALENDAR_COLLECTION_FAMILIES.include?(f)
@@ -687,7 +697,7 @@ ROUTES.each do |r|
    front['year']=2027;front['view']=slug=='nedelas-kalendars' ? 'week' : 'month'
   end
  end
- if useful_page?(p,f) && !trust_page?(p)
+ if useful_page?(p,f) && !trust_page?(p) && slug!='staro-riga'
   body=useful_pages_markup(p,f,title,body)
   front['useful']=true
  end
@@ -720,6 +730,7 @@ ROUTES.each do |r|
  manifest << {url:p,title:title,family:f,indexable:!noindex,status:reason,description:desc,lastmod:lastmod}
 end
 category_export_data
+staro_riga_calendar
 # ISO boundary weeks are valid support routes; absent from the four-year matrix.
 [[2031,1]].each do |y,w|
  READING_NOTES.for_route({'URL path'=>format('/nedelas-kalendars/%d/%02d/',y,w),'Page family'=>'iso_week','Year'=>y.to_s})
@@ -735,12 +746,12 @@ photo_page_frontmatter = YAML.safe_load(File.read('pilsetas-un-fotografijas.html
 photo_page_indexable = !photo_page_frontmatter.fetch('noindex',false)
 CalendarIndexingPolicy.validate!('/pilsetas-un-fotografijas/',!photo_page_indexable)
 license_sources=['pilsetas-un-fotografijas.html']+Dir.glob('_includes/*credits.html').sort
-license_data=%w[cities occasions university-calendars astronomy-photos].map { |key| JSON.parse(File.read("_data/#{key}.json")) }
+license_data=%w[cities occasions university-calendars astronomy-photos staro-riga].map { |key| JSON.parse(File.read("_data/#{key}.json")) }
 license_hash=Digest::SHA256.hexdigest(JSON.generate([license_sources.map { |path| File.read(path) },license_data]))
 license_prior=previous_revisions.fetch('/pilsetas-un-fotografijas/',{})
 license_modified=CalendarSeoContract.revision_date(license_prior,license_hash,license_prior['lastmod'] || revision_date,revision_date)
 page_revisions['/pilsetas-un-fotografijas/']={sha256:license_hash,contentSha256:license_hash,lastmod:license_modified}
-manifest << {url:'/pilsetas-un-fotografijas/',title:'Fotogrāfijas un licences',family:'city_photos',indexable:photo_page_indexable,status:(photo_page_indexable ? 'ready' : 'owner_noindex'),description:'82 Latvijas pilsētu, 42 svētku, 9 valsts augstskolu un 16 kultūraugu fotogrāfijas ar autoriem, avota failiem un licencēm.',lastmod:license_modified}
+manifest << {url:'/pilsetas-un-fotografijas/',title:'Fotogrāfijas un licences',family:'city_photos',indexable:photo_page_indexable,status:(photo_page_indexable ? 'ready' : 'owner_noindex'),description:'Latvijas pilsētu, svētku, festivālu, augstskolu un kultūraugu fotogrāfijas ar autoriem, avota failiem un licencēm.',lastmod:license_modified}
 %w[/pilsetas-un-fotografijas/ /404.html /500.html].each do |url|
  READING_NOTES.for_route({'URL path'=>url,'Page family'=>'informational','Year'=>''})
 end
@@ -754,8 +765,10 @@ navigation_records=manifest+[
 internal_navigation=InternalNavigation.new(records:navigation_records,notes:READING_NOTES.pages,
  blogs:JSON.parse(File.read('_data/blog.json')).fetch('posts'),
  crops:JSON.parse(File.read('_data/garden-crops.json')).fetch('crops'),garden_actions:method(:garden_calendar_actions))
-raise 'Related page previews failed' unless system(ENV.fetch('K365_IMAGE_PYTHON','python3'),'scripts/build_related_previews.py')
-internal_navigation.write
+unless PREPARING_SOCIAL_COVERS
+ raise 'Related page previews failed' unless system(ENV.fetch('K365_IMAGE_PYTHON','python3'),'scripts/build_related_previews.py')
+ internal_navigation.write
+end
 File.write('_data/page-guides.json',JSON.pretty_generate({schemaVersion:1,locale:'lv-LV',editorial:{aiAssisted:true,nativeEditorReviewed:false},pages:READING_NOTES.pages})+"\n")
 manifest.each do |record|
  url=record[:url];plan=internal_navigation.pages.fetch(url)

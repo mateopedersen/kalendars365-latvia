@@ -1,15 +1,15 @@
 {
   "schemaVersion": 1,
-  "contentPages": 898,
+  "contentPages": 899,
   "excludedPage": "/pilsetas-un-fotografijas/",
   "errorDocuments": [
     "/404.html",
     "/500.html"
   ],
-  "publicImageFiles": 9501,
-  "sitemapImages": 4407,
-  "imageReferences": 9096,
-  "imageSitemapBytes": 1280509,
+  "publicImageFiles": 9511,
+  "sitemapImages": 4415,
+  "imageReferences": 9122,
+  "imageSitemapBytes": 1284104,
   "pages": [
     {
       "url": "/",
@@ -2273,7 +2273,7 @@
     },
     {
       "url": "/nozimigas-dienas/",
-      "images": 43
+      "images": 44
     },
     {
       "url": "/pabalstu-izmaksas/",
@@ -3029,7 +3029,7 @@
     },
     {
       "url": "/svetki-un-tradicijas/",
-      "images": 251
+      "images": 255
     },
     {
       "url": "/svetki-un-tradicijas/advente/",
@@ -3125,7 +3125,7 @@
     },
     {
       "url": "/svetki-un-tradicijas/latvijas-republikas-proklamesanas-diena/",
-      "images": 16
+      "images": 20
     },
     {
       "url": "/svetki-un-tradicijas/liela-piektdiena/",
@@ -3237,6 +3237,10 @@
     },
     {
       "url": "/svetki-un-tradicijas/stalinisma-un-nacisma-upuru-atceres-diena/",
+      "images": 17
+    },
+    {
+      "url": "/svetki-un-tradicijas/staro-riga/",
       "images": 17
     },
     {

@@ -13141,6 +13141,21 @@
         "srcset": "/assets/related-previews/2364916f78b5a4118ec53ba5-240.webp 240w, /assets/related-previews/349ff699ecabc3c8087f6ff5-480.webp 480w"
       }
     },
+    "/svetki-un-tradicijas/staro-riga/": {
+      "title": "Staro Rīga 2026 programma un gaismas karte",
+      "description": "Staro Rīga 2026 notiek 15.–18. novembrī no plkst. 17.00 līdz 23.00. Oficiālā programma, gaismas objektu karte un vakara pastaigas plānošana Rīgā.",
+      "type": "dates",
+      "kicker": "Svarīgi datumi",
+      "cta": "Apskatīt datumus",
+      "scope": null,
+      "minutes": null,
+      "image": {
+        "src": "/assets/related-previews/27115ee05c2dcf87f03db4ce-240.webp",
+        "width": 240,
+        "height": 126,
+        "srcset": "/assets/related-previews/27115ee05c2dcf87f03db4ce-240.webp 240w, /assets/related-previews/66ce53699725789d24553893-480.webp 480w"
+      }
+    },
     "/nedelas-kalendars/2031/01/": {
       "title": "2031. gada 1. nedēļa",
       "description": "2031. gada 1. ISO nedēļa sākas 2030. gada 30. decembrī un beidzas 5. janvārī. Atver dienu, pievieno savus notikumus vai izdrukā nedēļas plānu.",
@@ -13158,7 +13173,7 @@
     },
     "/pilsetas-un-fotografijas/": {
       "title": "Fotogrāfijas un licences",
-      "description": "82 Latvijas pilsētu, 42 svētku, 9 valsts augstskolu un 16 kultūraugu fotogrāfijas ar autoriem, avota failiem un licencēm.",
+      "description": "Latvijas pilsētu, svētku, festivālu, augstskolu un kultūraugu fotogrāfijas ar autoriem, avota failiem un licencēm.",
       "type": "information",
       "kicker": "Par vietni",
       "cta": "Lasīt vairāk",

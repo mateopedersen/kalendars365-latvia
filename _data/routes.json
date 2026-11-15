@@ -9634,5 +9634,16 @@
     "Index rule": "YES if fully checked",
     "Source reference": "S08/S18/S19 as applicable",
     "Required behavior": "standard"
+  },
+  {
+    "URL path": "/svetki-un-tradicijas/staro-riga/",
+    "Page family": "occasion",
+    "Latvian title/topic": "Staro Rīga 2026",
+    "Template": "hub/tool/detail",
+    "Year": "",
+    "Month": "",
+    "Index rule": "YES if fully checked",
+    "Source reference": "https://www.riga.lv/lv/notikums/staro-riga-2026",
+    "Required behavior": "Confirmed festival dates, official map, licensed archive photos and calendar download"
   }
 ]

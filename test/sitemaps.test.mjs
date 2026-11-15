@@ -33,11 +33,13 @@ test('sitemap generation is deterministic and preserves meaningful revision date
 test('both built XML sitemaps cover every canonical page and its actual images',()=>{
  const report=JSON.parse(execFileSync('python3',['scripts/audit_sitemaps.py'],{encoding:'utf8',maxBuffer:2*1024*1024}));
  assert.deepEqual(report.errors,[]);
- assert.equal(report.pageUrls,898);
- assert.equal(report.imagePages,898);
- assert.equal(report.htmlDocuments,901);
  const manifest=JSON.parse(fs.readFileSync('docs/route-manifest.json','utf8'));
- assert.equal(report.pageUrls,manifest.filter(r=>r.indexable).length);
+ const supportDocuments=['/404.html','/500.html'],indexable=manifest.filter(r=>r.indexable);
+ assert.equal(new Set(manifest.map(r=>r.url)).size,manifest.length,'Canonical route inventory has no duplicate pages');
+ assert.deepEqual(manifest.filter(r=>!r.indexable).map(r=>r.url),['/pilsetas-un-fotografijas/'],'Only the intended photo-credit page is excluded from the content sitemap');
+ assert.equal(report.pageUrls,indexable.length);
+ assert.equal(report.imagePages,indexable.length,'Every indexable page retains a corresponding image-sitemap entry');
+ assert.equal(report.htmlDocuments,manifest.length+supportDocuments.length,'Audit covers all content pages and both error documents');
  for(const family of ['calendar_month','lunar_month','print_month'])assert.equal(report.families[family],48);
  assert.equal(report.families.year,4);
 });

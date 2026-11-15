@@ -3258,8 +3258,8 @@
     "proseLinksSha256": "1c29ad6bae3d13fd4a2bae4fd828f495532389ac229691a03e5a96c942d65842"
   },
   "/nozimigas-dienas/": {
-    "sha256": "209d6d1acace049fb51edb64df585f66388bd84f509c9d1a042a6d27356038e2",
-    "lastmod": "2026-11-12",
+    "sha256": "8ed93a7866c3dc606d8d68da04824242feb20a2cac0c2b60ea6fa4685878d9b2",
+    "lastmod": "2026-11-15",
     "navigationSha256": "8fb7527fe4ce055f0413b6c6b3bae0e7feb5757d1c02ab0465ae3108c10a9180",
     "proseLinksSha256": "12e2d514667752f3704a4fed243d6fe0db4283a7a5a02f8e40db1bab2da8d7c8"
   },
@@ -4392,8 +4392,8 @@
     "proseLinksSha256": "e29a906f8dff4e6ddbcf7e58a7f00512b1fb0d3f01af36842b014dd16aa97c98"
   },
   "/svetki-un-tradicijas/": {
-    "sha256": "5d3070123535b9c6b4780ad4852293d506f14afa139fec85b941d674b0b01b95",
-    "lastmod": "2026-11-12",
+    "sha256": "714637bdf39c2bbb334f45ad641a003d399153cb82c6a39baa98bcfbdc724b85",
+    "lastmod": "2026-11-15",
     "navigationSha256": "339308ce4929838fab93fd6e9e7d79bb0d12653153d9ea53fc4d4cc76f090682",
     "proseLinksSha256": "735aba33b067dbf8acc397d13aec124df6f5182f2cb379290b471582a6b1f52c"
   },
@@ -4536,8 +4536,8 @@
     "proseLinksSha256": "480b5133705c7c0e40097bc16b4fd9b38f7aa380777b0160606ccb19522b95b9"
   },
   "/svetki-un-tradicijas/latvijas-republikas-proklamesanas-diena/": {
-    "sha256": "5d894d18c965402610f1a509f8912b7d5c32b4dcad5cdf9906ece1bacda3ac86",
-    "lastmod": "2026-11-14",
+    "sha256": "94c734f3c6042ff168f36abbce0409118401582a48aabb0d04e917df4050c055",
+    "lastmod": "2026-11-15",
     "navigationSha256": "924f53e8a3bb77c3a681b28d124a1b1ec8be09bf29ae98b8f762b2cac289bfd4",
     "proseLinksSha256": "eb7eefae881c92eb016446249ef134a9cb96c5ad5a26597bef17bb5a117fcc0e"
   },
@@ -5160,8 +5160,8 @@
     "proseLinksSha256": "aff999cb6bfaa16ebff8759a4a53ca14d1bdd6a859c57d4b2af3525ff9b241f3"
   },
   "/valsts-parbaudes-darbi/": {
-    "sha256": "cd20227efc893ab9b846bb4e517dc2e0fd265a37eb4720c3eace59bcb8a99d8a",
-    "lastmod": "2026-11-14",
+    "sha256": "410fae5c82f35809ff4f4d193508b7ebf33c3c368188347401d761bebb51ec60",
+    "lastmod": "2026-11-15",
     "navigationSha256": "831f6be54842ab0dc74a3e7a6e222f938861e22a1a2210660ce41e6d4be66c0f",
     "proseLinksSha256": "4ddc803c7a7b3e2ffe47df4324209539d110f8677d04636d9593a33f67e0eac0"
   },
@@ -5255,10 +5255,16 @@
     "navigationSha256": "31807fac97e5558a7c4f20175c0be36850758d572b1b4c65142d25afad346f67",
     "proseLinksSha256": "223368abead297bf7f6329a0bc37214ca1c2a2c0329f320fe7ca968f5661e453"
   },
+  "/svetki-un-tradicijas/staro-riga/": {
+    "sha256": "093c4d462cc9e3f72c1378ef75d2fa407d1782a9f244801a7a4716a9e13cbffc",
+    "lastmod": "2026-11-15",
+    "navigationSha256": "6a6e36ee10092f78d80e882ee66b00438816d6dda7c9f4f2605f91dd5dc3271e",
+    "proseLinksSha256": "79945d036bce0c0552c0bfae4f24eb58b74c66bf8ce66b6bbb6dc933eb1cc62f"
+  },
   "/pilsetas-un-fotografijas/": {
-    "sha256": "288aa4dde9adb2a58ec0b6a4b28730c040f49d8c59830de3e1a738250abff9dc",
-    "contentSha256": "288aa4dde9adb2a58ec0b6a4b28730c040f49d8c59830de3e1a738250abff9dc",
-    "lastmod": "2026-11-14",
+    "sha256": "c2a8a9e86c30f95ac86081f19c25fdfc1ec67fa7795dea1baa0d4e2a49d18575",
+    "contentSha256": "c2a8a9e86c30f95ac86081f19c25fdfc1ec67fa7795dea1baa0d4e2a49d18575",
+    "lastmod": "2026-11-15",
     "navigationSha256": "0f969128a2453de12473c537482fa3caab3d097206cba04b15527bcffb87d364",
     "proseLinksSha256": "e8247796388faac49cbedd721030c5d6d5c33da4cd3b4d37043f1a48cd3b4e75"
   },

@@ -1,0 +1,60 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Kalendars365.lv//Staro Riga//LV
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Staro Rīga 2026
+X-WR-TIMEZONE:Europe/Riga
+BEGIN:VEVENT
+UID:staro-riga-2026-11-15@kalendars365.lv
+DTSTAMP:20261115T081315Z
+DTSTART:20261115T150000Z
+DTEND:20261115T210000Z
+SUMMARY:Staro Rīga 2026
+LOCATION:Rīga
+DESCRIPTION:Gaismas festivāls Rīgā. Plkst. 17.00–23.00 pēc Latvijas l
+ aika. Bezmaksas ieeja. Pirms došanās pārbaudi oficiālo programmu: http
+ s://staroriga.lv/lv/news/5638/
+URL:https://kalendars365.lv/svetki-un-tradicijas/staro-riga/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:staro-riga-2026-11-16@kalendars365.lv
+DTSTAMP:20261115T081315Z
+DTSTART:20261116T150000Z
+DTEND:20261116T210000Z
+SUMMARY:Staro Rīga 2026
+LOCATION:Rīga
+DESCRIPTION:Gaismas festivāls Rīgā. Plkst. 17.00–23.00 pēc Latvijas l
+ aika. Bezmaksas ieeja. Pirms došanās pārbaudi oficiālo programmu: http
+ s://staroriga.lv/lv/news/5638/
+URL:https://kalendars365.lv/svetki-un-tradicijas/staro-riga/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:staro-riga-2026-11-17@kalendars365.lv
+DTSTAMP:20261115T081315Z
+DTSTART:20261117T150000Z
+DTEND:20261117T210000Z
+SUMMARY:Staro Rīga 2026
+LOCATION:Rīga
+DESCRIPTION:Gaismas festivāls Rīgā. Plkst. 17.00–23.00 pēc Latvijas l
+ aika. Bezmaksas ieeja. Pirms došanās pārbaudi oficiālo programmu: http
+ s://staroriga.lv/lv/news/5638/
+URL:https://kalendars365.lv/svetki-un-tradicijas/staro-riga/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:staro-riga-2026-11-18@kalendars365.lv
+DTSTAMP:20261115T081315Z
+DTSTART:20261118T150000Z
+DTEND:20261118T210000Z
+SUMMARY:Staro Rīga 2026
+LOCATION:Rīga
+DESCRIPTION:Gaismas festivāls Rīgā. Plkst. 17.00–23.00 pēc Latvijas l
+ aika. Bezmaksas ieeja. Pirms došanās pārbaudi oficiālo programmu: http
+ s://staroriga.lv/lv/news/5638/
+URL:https://kalendars365.lv/svetki-un-tradicijas/staro-riga/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

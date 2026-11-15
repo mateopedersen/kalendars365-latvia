@@ -49948,6 +49948,52 @@
       "show": true,
       "context": null
     },
+    "/svetki-un-tradicijas/staro-riga/": {
+      "parent": "/svetki-un-tradicijas/",
+      "breadcrumbs": [
+        {
+          "url": "/",
+          "title": "Sākums"
+        },
+        {
+          "url": "/svetki-un-tradicijas/",
+          "title": "Svētki un tradīcijas"
+        },
+        {
+          "url": "/svetki-un-tradicijas/staro-riga/",
+          "title": "Staro Rīga 2026 programma un gaismas karte"
+        }
+      ],
+      "heading": "Datumi un saistītie plāni",
+      "related": [
+        {
+          "url": "/",
+          "title": "Sākums",
+          "kind": "related"
+        },
+        {
+          "url": "/saullekts-saulriets/riga/",
+          "title": "Saullēkts un saulriets Rīgā",
+          "kind": "related"
+        },
+        {
+          "url": "/svetki-un-tradicijas/",
+          "title": "Svētki un tradīcijas",
+          "kind": "related"
+        },
+        {
+          "url": "/svetku-dienas/",
+          "title": "Latvijas svētku dienas",
+          "kind": "related"
+        }
+      ],
+      "pagination": [],
+      "reading": [],
+      "discover": null,
+      "blogRelated": [],
+      "show": true,
+      "context": null
+    },
     "/nedelas-kalendars/2031/01/": {
       "parent": "/nedelas-kalendars/",
       "breadcrumbs": [

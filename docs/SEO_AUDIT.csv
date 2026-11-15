@@ -875,6 +875,7 @@ url,family,indexable,result,errors
 /varda-dienas/septembris/,name_day_month,true,pass,""
 /visi-riki/,hub,true,pass,""
 /zodiaka-zimes/,hub,true,pass,""
+/svetki-un-tradicijas/staro-riga/,occasion,true,pass,""
 /nedelas-kalendars/2031/01/,iso_week,true,pass,""
 /pilsetas-un-fotografijas/,city_photos,false,pass,""
 /blogs/,blog_index,true,pass,""

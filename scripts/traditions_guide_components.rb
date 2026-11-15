@@ -40,7 +40,7 @@ def traditions_guide_markup(body)
   model=articles.map{|item|item.slice('url','title','description','type','dayOff','dates')}
   json=JSON.generate(model).gsub('<','\\u003c')
   body.sub('data-traditions-explorer','data-traditions-explorer data-traditions-guide')
-      .sub('<p role="status" data-discovery-count></p>','<p role="status" data-discovery-count>Tēmu skaits: 73 · 2027. gads.</p>')
+      .sub('<p role="status" data-discovery-count></p>',"<p role=\"status\" data-discovery-count>Tēmu skaits: #{articles.length} · 2027. gads.</p>")
       .sub('<div class="tradition-story-grid" data-traditions-results></div>',
            %(<div class="tradition-story-grid" data-traditions-results>#{cards}</div><p class="traditions-empty" data-traditions-empty hidden>Neatradām nevienu tēmu. Izmēģini citu nosaukumu vai noņem kādu filtru.</p><script type="application/json" data-traditions-guide-data>#{json}</script>))
 end
@@ -59,6 +59,7 @@ def tradition_photo_heading_markup(heading,description,slug)
          elsif topic['type']=='commemoration';'Atceres diena'
          elsif topic['type']=='astronomy' || topic.dig('dateModel','type')=='astronomical';'Astronomisks notikums'
          elsif topic['type']=='culture';'Kultūra un tradīcijas'
+         elsif topic['type']=='festival';'Gaismas festivāls'
          else 'Atzīmējamā diena';end
   %(<header class="page-heading tradition-photo-hero" data-tradition-hero="#{h(slug)}" data-long-title="#{heading.length>80}"><div class="tradition-hero-copy"><span class="eyebrow">LATVIJA · KALENDĀRS365</span><span class="tradition-hero-status">#{h(status)}</span><h1>#{h(heading)}</h1><p class="tradition-hero-description">#{h(description)}</p><div class="tradition-hero-actions">#{a('#datumi',date_action,'button primary')}#{a('/svetki-un-tradicijas/','Visi svētki un tradīcijas →')}</div></div>#{tradition_topic_photo_markup(slug,true)}</header>)
 end

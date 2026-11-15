@@ -1,0 +1,62 @@
+{
+  "year": 2026,
+  "startDate": "2026-11-15",
+  "endDate": "2026-11-18",
+  "startTime": "17:00",
+  "endTime": "23:00",
+  "timeZone": "Europe/Riga",
+  "checkedAt": "2026-11-15",
+  "publishedAt": "2026-11-15T08:13:15Z",
+  "installationCount": 52,
+  "theme": "unum momentum – tas viens mirklis",
+  "mapUrl": "https://experience.arcgis.com/experience/4399186759804acd9ad725fbcb49ea34?locale=lv",
+  "programmeUrl": "https://staroriga.lv/lv/news/5638/",
+  "galleryPhoto": {
+    "id": "staro-riga-ratsnams",
+    "alt": "Rīgas Rātsnama pulksteņa tornis un gaismas stari naksnīgajās debesīs festivālā Staro Rīga 2011. gadā",
+    "caption": "Rātslaukums festivālā Staro Rīga 2011. gada 18. novembrī. Arhīva foto, nevis 2026. gada programmas attēls.",
+    "author": "Driver24",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:R%C4%81tsnams_Staro_R%C4%ABga_2011.JPG",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/57/R%C4%81tsnams_Staro_R%C4%ABga_2011.JPG",
+    "sourceCopy": "docs/sources/staro-riga-2026-11-15/ratsnams-staro-riga-2011.jpg",
+    "sourceSha256": "5f75b656210eccff1325f650fde1ce6f6107533abda1f2af991c96dc53c9d229",
+    "visualReview": {
+      "date": "2026-11-15",
+      "sourceSha256": "5f75b656210eccff1325f650fde1ce6f6107533abda1f2af991c96dc53c9d229",
+      "evidence": "Actual pixels reviewed: clock tower of Riga Town Hall at night, white and blue beams into the dark sky, crowd on cobbled square. Archival2011 image."
+    },
+    "src": "/assets/photos/staro-riga/ratsnams-2011-ef739992fbc1-800.webp",
+    "width": 800,
+    "height": 600,
+    "bytes": 26616,
+    "sha256": "ef739992fbc199afa9fd628571b36321510d20341cd55fc90100752703a80087",
+    "files": [
+      {
+        "src": "/assets/photos/staro-riga/ratsnams-2011-a2393de2876f-480.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 12100,
+        "sha256": "a2393de2876f02219ac427ebc9d2ab452c7f454875ec7be3c9c586879867a8ef"
+      },
+      {
+        "src": "/assets/photos/staro-riga/ratsnams-2011-ef739992fbc1-800.webp",
+        "width": 800,
+        "height": 600,
+        "bytes": 26616,
+        "sha256": "ef739992fbc199afa9fd628571b36321510d20341cd55fc90100752703a80087"
+      },
+      {
+        "src": "/assets/photos/staro-riga/ratsnams-2011-6a56eaee5f0d-1200.webp",
+        "width": 1200,
+        "height": 900,
+        "bytes": 58108,
+        "sha256": "6a56eaee5f0d104c1df8654290ade059dcbd468691ee652124610c8870ce346e"
+      }
+    ],
+    "srcset": "/assets/photos/staro-riga/ratsnams-2011-a2393de2876f-480.webp 480w, /assets/photos/staro-riga/ratsnams-2011-ef739992fbc1-800.webp 800w, /assets/photos/staro-riga/ratsnams-2011-6a56eaee5f0d-1200.webp 1200w",
+    "transform": "Samazināts WebP attēls; proporcijas saglabātas"
+  },
+  "futureDatesStatus": "Nav apstiprinātu 2027.–2030. gada norises datumu pārbaudītajos oficiālajos avotos."
+}

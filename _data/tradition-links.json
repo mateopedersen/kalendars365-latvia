@@ -594,6 +594,16 @@
         },
         {
           "text": " ir cits notikums: vēsturiskā saikne nesapludina datumus vai to statusu."
+        },
+        {
+          "text": " Novembra vakara pastaigai vari ieplānot arī "
+        },
+        {
+          "topic": "staro-riga",
+          "label": "Staro Rīga gaismas festivālu"
+        },
+        {
+          "text": "; norises dienas un programmu pārbaudi atsevišķi."
         }
       ],
       "inline": [
@@ -604,6 +614,7 @@
         }
       ],
       "related": [
+        "staro-riga",
         "neatkaribas-atjaunosanas-diena",
         "lacplesa-diena",
         "latvijas-de-jure-atzisanas-diena",
@@ -3796,6 +3807,69 @@
         {
           "url": "https://www.un.org/en/observances/environment-day/background",
           "title": "Pasaules vides diena 5. jūnijā"
+        }
+      ]
+    },
+    "staro-riga": {
+      "context": [
+        {
+          "text": "Festivāla pēdējais vakars ir "
+        },
+        {
+          "topic": "latvijas-republikas-proklamesanas-diena",
+          "label": "18. novembrī — Latvijas Republikas proklamēšanas dienā"
+        },
+        {
+          "text": ". Ja plāno novembra pasākumus, nejauc festivāla vakarus ar "
+        },
+        {
+          "topic": "lacplesa-diena",
+          "label": "Lāčplēša dienu 11. novembrī"
+        },
+        {
+          "text": "; tā ir atsevišķa atceres diena."
+        }
+      ],
+      "inline": [
+        {
+          "field": "intro",
+          "exactText": "Latvijas Republikas proklamēšanas dienas",
+          "topic": "latvijas-republikas-proklamesanas-diena"
+        }
+      ],
+      "related": [
+        "latvijas-republikas-proklamesanas-diena",
+        "lacplesa-diena",
+        "neatkaribas-atjaunosanas-diena"
+      ],
+      "tools": [
+        {
+          "url": "/",
+          "label": "Atvērt savu kalendāru",
+          "reason": "Izvēlies festivāla vakaru un ieplāno pastaigu."
+        },
+        {
+          "url": "/saullekts-saulriets/riga/",
+          "label": "Saullēkts un saulriets Rīgā",
+          "reason": "Pārbaudi dienasgaismas laiku pirms vakara pastaigas."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.riga.lv/lv/notikums/staro-riga-2026",
+          "title": "Rīgas pašvaldība — Staro Rīga 2026: datumi un laiks"
+        },
+        {
+          "url": "https://staroriga.lv/lv/news/5638/",
+          "title": "Festivāla rīkotāji — 52 gaismas objekti 2026. gadā"
+        },
+        {
+          "url": "https://staroriga.lv/lv/news/staro-riga-2026-tema-un-gaismas-loki/",
+          "title": "Staro Rīga — 2026. gada tēma un gaismas loki"
+        },
+        {
+          "url": "https://www.liveriga.com/lv/4884-gaismas-festivals-staro-riga-1",
+          "title": "LiveRiga — gaismas festivāls un bezmaksas ieeja"
         }
       ]
     }
