@@ -5,14 +5,24 @@ import {auditRelated} from '../tooling/related/audit.mjs';
 const read=p=>JSON.parse(fs.readFileSync(p,'utf8'));
 
 test('every public content page has relevant visual discovery, all links and image bytes verified',()=>{
+ const manifest=read('docs/route-manifest.json'),supportPages=['/404.html','/500.html'];
+ const expected=new Set([...manifest.map(row=>row.url),...supportPages]);
+ assert.equal(expected.size,manifest.length+supportPages.length,'Content and recovery routes must be unique');
+ for(const catalog of ['internal-navigation','related-cards','related-previews','social-images'])assert.deepEqual(new Set(Object.keys(read('_data/'+catalog+'.json').pages)),expected,catalog+' must cover the complete route inventory');
  const audit=auditRelated();
  assert.deepEqual(audit.errors,[]);
- assert.equal(audit.totals.htmlPages,901);
- assert.equal(audit.totals.contentPages,899);
- assert.equal(audit.totals.contextualPages,898);
+ assert.deepEqual(new Set(audit.pages.map(page=>page.route)),expected,'Every expected page must be audited');
+ assert.equal(audit.totals.htmlPages,expected.size);
+ assert.equal(audit.totals.contentPages,manifest.length);
+ const contextual=new Set(manifest.filter(row=>row.url!=='/').map(row=>row.url));
+ assert.deepEqual(new Set(audit.pages.filter(page=>page.mode==='contextual').map(page=>page.route)),contextual,'All content pages except the custom home discovery need contextual cards');
+ assert.equal(audit.totals.contextualPages,contextual.size);
+ assert.deepEqual(audit.pages.filter(page=>page.mode==='home').map(page=>page.route),['/']);
+ assert.deepEqual(new Set(audit.pages.filter(page=>page.mode==='recovery').map(page=>page.route)),new Set(supportPages));
  assert.equal(audit.totals.homeDiscoveryPages,1);
- assert.equal(audit.totals.recoveryPages,2);
- assert.equal(audit.totals.imageFiles,1802);
+ assert.equal(audit.totals.recoveryPages,supportPages.length);
+ assert.equal(audit.totals.sourceCoverPages,expected.size);
+ assert.equal(audit.totals.imageFiles,expected.size*2,'Every route retains its 240px and 480px preview variants');
  assert(audit.totals.renderedCards>3000);
 });
 

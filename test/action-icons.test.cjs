@@ -23,8 +23,13 @@ test('photo attribution pages remain text links while actual image downloads kee
  assert.deepEqual(cases.map(classify),[null,null,null,'file-image']);
  assert.deepEqual(python,[null,null,null,'file-image']);
 });
-test('all 901 built pages have complete file action artwork, including print, Excel and ICS',()=>{
- const audit=JSON.parse(fs.readFileSync('docs/action-icons-audit.json'));assert.equal(audit.pages,901);assert.equal(audit.missing.length,0);assert(audit.controls>3000);
+test('every published and support page has complete file action artwork, including print, Excel and ICS',()=>{
+ const manifest=JSON.parse(fs.readFileSync('docs/route-manifest.json','utf8')),supportPages=['/404.html','/500.html'];
+ const expected=new Set([...manifest.map(row=>row.url),...supportPages]);
+ assert.equal(expected.size,manifest.length+supportPages.length,'Content and recovery routes must be unique');
+ const built=new Set(fs.readdirSync('_site',{recursive:true}).filter(file=>file.endsWith('.html')).map(file=>file==='index.html'?'/':file.endsWith('/index.html')?'/'+file.slice(0,-10):'/'+file));
+ assert.deepEqual(built,expected,'The icon audit must cover the complete built HTML inventory');
+ const audit=JSON.parse(fs.readFileSync('docs/action-icons-audit.json'));assert.equal(audit.pages,expected.size);assert.equal(audit.missing.length,0);assert(audit.controls>3000);
  const weekly=fs.readFileSync('_site/nedelas-kalendars/index.html','utf8');
  for(const [attribute,id] of [['data-period-export="xlsx"','file-excel'],['data-action="export-ics"','file-ics'],['data-action="print"','print']]){const controls=[...weekly.matchAll(/<button\b[^>]*>[\s\S]*?<\/button>/g)].filter(m=>m[0].includes(attribute));assert(controls.some(m=>m[0].includes('href="#i-'+id+'"')),attribute);}
  for(const id of ['excel','ics','csv','json','word','svg'])assert(weekly.includes('id="i-file-'+id+'"'));

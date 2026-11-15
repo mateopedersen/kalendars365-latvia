@@ -5,6 +5,11 @@ import {execFileSync} from 'node:child_process';
 const read=p=>fs.readFileSync(p,'utf8');
 const origin='https://kalendars365.lv';
 const imageRightsPage=origin+'/pilsetas-un-fotografijas/#kopigosanas-vaki';
+const manifest=JSON.parse(read('docs/route-manifest.json'));
+const expectedRoutes=new Set([...manifest.map(row=>row.url),'/404.html','/500.html']);
+const coverCatalog=JSON.parse(read('_data/social-images.json')).pages;
+const expectedPhotoPages=Object.values(coverCatalog).filter(row=>row.sources?.length).length;
+const expectedPhotoSources=Object.values(coverCatalog).reduce((count,row)=>count+(row.sources?.length||0),0);
 const reviewedCreators=new Map([
  ['Diego Delso',{'@type':'Person',name:'Diego Delso'}],
  ['NASA · Apollo 17',{'@type':'Organization',name:'NASA'}],
@@ -57,7 +62,9 @@ test('image metadata resolver distinguishes original compositions, known creator
    }
   }
  }
- assert.equal(Object.keys(result).length,901);assert.equal(photos,415);
+ assert.deepEqual(new Set(Object.keys(coverCatalog)),expectedRoutes,'Every content and support route retains an individual social cover');
+ assert.deepEqual(new Set(Object.keys(result)),expectedRoutes,'Image metadata covers the complete published route inventory');
+ assert.equal(photos,expectedPhotoSources,'Every registered source photograph retains its own rights metadata');
  // GSC's four reported source photographs also appear on related pages.
  // Check their actual rendered source nodes, not only the composed social cover.
  const reportedSources=new Map([
@@ -83,7 +90,7 @@ test('image metadata resolver distinguishes original compositions, known creator
 
 test('all built images have accessible markup, layout dimensions, valid formats and real responsive files',()=>{
  const result=JSON.parse(execFileSync('python3',['scripts/audit_image_seo.py'],{encoding:'utf8',timeout:120000,maxBuffer:1024*1024}));
- assert.equal(result.totals.pages,901);
+ assert.equal(result.totals.pages,expectedRoutes.size);
  assert.equal(result.totals.hiddenPrivateUploadSlots,1);
  assert(result.totals.descriptiveImages>3000);
  assert(result.totals.responsiveImages>1500);
@@ -118,7 +125,7 @@ test('photo-based social covers preserve exact third-party credit, source identi
    assert.deepEqual(image.creator,reviewedCreators.get(source.author),'Use reviewed source identities without assigning third-party photographs to the publisher');
   }
  }
- assert.equal(pages,332);assert.equal(sources,415);
+ assert.equal(pages,expectedPhotoPages);assert.equal(sources,expectedPhotoSources);
 });
 
 test('image sitemap associates content and download artwork without navigation icons or CSS decoration',()=>{
