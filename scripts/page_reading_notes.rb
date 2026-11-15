@@ -1,6 +1,10 @@
 # frozen_string_literal: true
 require 'json'
 require 'date'
+require_relative 'event_guides'
+require_relative 'benefit_guides'
+require_relative 'pension_guide'
+require_relative 'tax_guide'
 
 # Two or three useful paragraphs per route. Repeated calendar families use their
 # actual dates and source records; there is deliberately no generic fallback.
@@ -63,13 +67,13 @@ class PageReadingNotes
     first,last=period(year,month);s=stats(first,last);name=period_name(year,month)
     if month
       weeks=(first..last).map { |d| "#{d.cwyear}/#{format('%02d',d.cweek)}" }.uniq
-      anatomy="#{name.capitalize}: kalendāra dienu skaits ir #{s['days']}. Pirmā diena ir #{weekday(first)}, pēdējā — #{weekday(last)}; mēnesis skar #{weeks.length} ISO nedēļas (#{weeks.first}–#{weeks.last}). Pilnās nedēļu rindās redzami arī blakus mēnešu datumi, tāpēc gaišāka rūtiņa nav pazudusi šā mēneša diena."
+      anatomy="#{name.capitalize}: kalendāra dienu skaits ir #{s['days']}. Pirmā diena ir #{weekday(first)}, pēdējā #{weekday(last)}; mēnesis skar #{weeks.length} ISO nedēļas (#{weeks.first}–#{weeks.last}). Pilnās nedēļu rindās redzami arī blakus mēnešu datumi, tāpēc gaišāka rūtiņa nav pazudusi šā mēneša diena."
       tail="#{year}. gada #{LOC[month-1]} sestdienu un svētdienu skaits ir #{s['weekends']}, bet pirmdienu–piektdienu pamatdarbadienu skaits pēc svētku brīvdienu atņemšanas ir #{s['workdays']}. Šis skaitlis neiekļauj darba devēja maiņu grafiku un atsevišķi apstiprinātu darba dienu pārcelšanu. #{Date.new(year,month,-1).day==29 && month==2 ? '2028. gada 29. februāris ir derīgs datums; pārnesot notikumu uz citu gadu, to pārbaudi atsevišķi.' : 'Nospied datumu, lai pievienotu personīgu notikumu, vai izvēlies attiecīgā mēneša drukas veidni.'}"
     else
-      anatomy="#{year}. gada 1. janvāris ir #{weekday(first)}, bet 31. decembris — #{weekday(last)}. Gads ietver #{s['days']} dienas; februārī ir #{Date.new(year,2,-1).day} dienas. Gada sākuma datums pieder ISO #{first.cwyear}. gada #{first.cweek}. nedēļai, savukārt pēdējais datums ISO #{last.cwyear}. gada #{last.cweek}. nedēļai. Kalendāra gads un ISO nedēļu gads pie robežas var atšķirties."
+      anatomy="#{year}. gada 1. janvāris ir #{weekday(first)}, bet 31. decembris #{weekday(last)}. Gads ietver #{s['days']} dienas; februārī ir #{Date.new(year,2,-1).day} dienas. Gada sākuma datums pieder ISO #{first.cwyear}. gada #{first.cweek}. nedēļai, savukārt pēdējais datums ISO #{last.cwyear}. gada #{last.cweek}. nedēļai. Kalendāra gads un ISO nedēļu gads pie robežas var atšķirties."
       months=(1..12).map { |m| a,b=period(year,m);[m,stats(a,b)['workdays']] }
       fewest=months.min_by { |m,n| n };most=months.max_by { |m,n| n }
-      tail="Piecu dienu pamatnedēļā #{year}. gada darbadienu skaits pēc svētku brīvdienu atņemšanas ir #{s['workdays']}. Mēnešu salīdzinājumā #{MONTHS[fewest[0]-1]} dod #{fewest[1]}, bet #{MONTHS[most[0]-1]} — #{most[1]} šādas dienas. Vienādu rezultātu gadījumā šeit minēts pirmais mēnesis gada secībā. Individuālu slodzi un pārceltās darba dienas pārbaudi atsevišķi."
+      tail="Piecu dienu pamatnedēļā #{year}. gada darbadienu skaits pēc svētku brīvdienu atņemšanas ir #{s['workdays']}. Mēnešu salīdzinājumā #{MONTHS[fewest[0]-1]} dod #{fewest[1]}, bet #{MONTHS[most[0]-1]} #{most[1]} šādas dienas. Vienādu rezultātu gadījumā šeit minēts pirmais mēnesis gada secībā. Individuālu slodzi un pārceltās darba dienas pārbaudi atsevišķi."
     end
     {'heading'=>month ? "#{year}. gada #{GEN[month-1]} kalendāra skaidrojums" : "#{year}. gada izkārtojums un plānošana",'paragraphs'=>[anatomy,holiday_summary(first,last),tail],'icon'=>month ? "month-#{year}-#{month}" : 'calendar','sources'=>source(['holidays']),'related'=>[link("/darba-dienu-kalendars/#{year}/",'Darba dienu pārskats'),link('/atvalinajuma-planotajs/','Atvaļinājuma plānotājs')],'basis'=>{'first'=>first.iso8601,'last'=>last.iso8601,'workdays'=>s['workdays'],'days'=>s['days'],'family'=>family}}
   end
@@ -81,7 +85,7 @@ class PageReadingNotes
     title=month ? "#{year}. gada #{GEN[month-1]} izdrukas izvēle" : "#{year}. gada izdrukas izvēle"
     first_p="#{month ? "#{year}. gada #{GEN[month-1]} kolekcijā" : "#{year}. gada kolekcijā"} ir #{art.length} A3 dizaini, tostarp #{labels}. Tie attēlo #{month ? "tikai izvēlēto mēnesi (dienu skaits: #{s['days']})" : "visus 12 mēnešus un #{s['days']} gada dienas"}. Viena dizaina PDF un Attēls pogas ved uz viena perioda failiem, taču priekšskatījums ir samazināts un nav paredzēts augstas kvalitātes drukai."
     second="#{month ? "#{year}. gada #{GEN[month-1]}" : "#{year}. gada visu mēnešu"} kolekcijas attēlu pilnie izmēri ir #{dims} pikseļi pie 600 dpi. Vertikālu dizainu drukā portreta, horizontālu ainavas orientācijā. Daļā veidņu svētki nav īpaši atzīmēti; tas ir noformējuma variants, nevis cits datumu izkārtojums. Pirms drukāšanas pārbaudi pie kartītes norādīto formātu un svētku atzīmju izvēli."
-    third="Šīs izdrukas pirmā datuma (#{date_label(first)}) nedēļas diena ir #{weekday(first)}, pēdējā (#{date_label(last)}) — #{weekday(last)}. #{holiday_summary(first,last)} Atver PDF vai pilno attēlu, lai pārbaudītu saturu pirms papīra tērēšanas."
+    third="Šīs izdrukas pirmā datuma (#{date_label(first)}) nedēļas diena ir #{weekday(first)}, pēdējā (#{date_label(last)}) #{weekday(last)}. #{holiday_summary(first,last)} Atver PDF vai pilno attēlu, lai pārbaudītu saturu pirms papīra tērēšanas."
     {'heading'=>title,'paragraphs'=>[first_p,second,third],'icon'=>'print','sources'=>source(['holidays']),'related'=>[link(month ? "/kalendars/#{year}/#{SLUGS[month-1]}/" : "/kalendars/#{year}/",'Interaktīvais kalendārs'),link('/izveidot-kalendaru/','Personīgs kalendārs')],'basis'=>{'designs'=>art.length,'year'=>year,'month'=>month}}
   end
   def week_note(year,week)
@@ -101,7 +105,7 @@ class PageReadingNotes
     full=phases.select { |r| r['phaseKey']=='Full Moon' }
     new_moon=phases.select { |r| r['phaseKey']=='New Moon' }
     scope=month ? "#{year}. gada #{LOC[month-1]}" : "#{year}. gadā"
-    phase_text=phases.first(month ? 5 : 2).map { |r| "#{r['phase']} — #{date_label(r['date'],:locative)} plkst. #{r['time']}" }.join('; ')
+    phase_text=phases.first(month ? 5 : 2).map { |r| "#{r['phase']} #{date_label(r['date'],:locative)} plkst. #{r['time']}" }.join('; ')
     p1="USNO datu kopā #{scope} galveno Mēness fāžu brīžu skaits ir #{phases.length}; pilnmēness ierakstu skaits #{full.length}, jaunmēness ierakstu skaits #{new_moon.length}. #{month ? 'Šā mēneša notikumi' : 'Gada pirmie notikumi'}: #{phase_text}. Norādīts Latvijas vietējais laiks, nevis UTC."
     p2=if month
       "Mēness attēlu skaits #{year}. gada #{GEN[month-1]} kalendārā ir #{last.day}. Katrs raksturo attiecīgās dienas plkst. 12.00 pēc Latvijas laika, tāpēc diska apgaismojums nav obligāti maksimāls tieši pilnmēness datuma attēlā. Nospied dienu, lai nolasītu tās apgaismojumu un vietējos lēkta un rieta aprēķinus; pilsētas maiņa nemaina pašu globālo galvenās fāzes brīdi."
@@ -135,7 +139,7 @@ class PageReadingNotes
       ps=["Vārdam «#{name}» izmantotajā VVC datu kopā norādīts: #{entries.join('; ')}. Saraksta veidu saglabā kopā ar datumu, jo tradicionālais un paplašinātais kalendārs nav viens ierakstu kopums. Šeit izmantota avotā norādītā vārda rakstība; līdzīgi skanošs vārds ar citu rakstību var būt atsevišķs meklēšanas rezultāts.","Veidojot kalendāru vārdam «#{name}», pārbaudi izvēlēto gadu un to, kuru no norādītajiem datumiem vēlies atzīmēt. Virsraksts ar saņēmēja vārdu ir personīgs noformējums, nevis jauns oficiāls vārda dienas ieraksts. Dzimšanas dienu vai jubileju pievieno atsevišķi un pirms izdrukas salīdzini, vai nosaukums un atzīme joprojām ir skaidri salasāmi."]
       heading="«#{name}»: datuma izvēle personīgam kalendāram"
     else
-      examples=traditional.first(4).map { |r| "#{r['name']} — #{r['day']}. #{MONTHS[month-1]}" }.join('; ')
+      examples=traditional.first(4).map { |r| "#{r['name']} #{r['day']}. #{MONTHS[month-1]}" }.join('; ')
       ps=["#{MONTHS[month-1].capitalize} vārda dienu datu kopā tradicionālā saraksta ierakstu skaits ir #{traditional.length}, bet paplašinātā saraksta papildu ierakstu skaits ir #{extra.length}. Skaitļi attiecas uz ierakstiem, nevis Latvijas iedzīvotāju skaitu. Izvēlētais mēnesis ierobežo meklējumu līdz #{LOC[month-1]} norādītajām dienām, bet neapvieno abu sarakstu statusus.","Tradicionālā saraksta piemēri šajā mēnesī: #{examples}. Apsveikumu plānam vispirms izvēlies konkrēto vārdu un datumu, pēc tam pievieno personīgu atgādinājumu. #{month==2 ? 'Februāra ierakstiem atšķir arī 29. februāra datumu: tas ir derīgs tikai garajā gadā, tostarp 2028. gadā.' : 'Vārda dienas atzīme nepadara šo datumu par vispārēju darba brīvdienu un nav saistīta ar cilvēka dzimšanas datumu.'}"]
       heading="#{MONTHS[month-1].capitalize}: kā lasīt vārdu sarakstu"
     end
@@ -172,7 +176,19 @@ class PageReadingNotes
 
   def for_route(route)
     url=route.fetch('URL path');family=route.fetch('Page family');slug=url.split('/').last;year=route['Year'].to_i;month=SLUGS.index(slug);month+=1 if month
-    note=if @authored.key?(url)
+    note=if url.start_with?('/adventes-kalendars/')
+      AdventCalendar.notes(url.split('/')[2]&.to_i)
+    elsif url=='/copes-kalendars/'
+      FishingGuide.notes
+    elsif url=='/nodoklu-kalkulators/'
+      TaxGuide.notes
+    elsif url=='/pensiju-izmaksas/'
+      PensionGuide.notes
+    elsif family=='benefit_guide'
+      BenefitGuides.notes(url)
+    elsif %w[event_guide event_index].include?(family)
+      EventGuides.notes(url)
+    elsif @authored.key?(url)
       @authored.fetch(url).merge('icon'=>icon(url,family),'sources'=>authored_sources(url),'related'=>authored_related(url))
     elsif %w[year calendar_month].include?(family)
       calendar_note(year,month,family)
@@ -277,9 +293,9 @@ class PageReadingNotes
     end
     dates=article.fetch('dates').select { |r| Date.parse(r['date']).year.between?(2027,2030) }.sort_by { |r| r['date'] }
     first=dates.first;last=dates.last
-    examples=[first,last].compact.uniq { |r| r['date'] }.map { |r| "#{date_label(r['date'])} — #{weekday(r['date'])}" }.join('; ')
+    examples=[first,last].compact.uniq { |r| r['date'] }.map { |r| "#{date_label(r['date'])} #{weekday(r['date'])}" }.join('; ')
     status=article['dayOff'] ? 'Svētku brīvdienas statusu pārbaudi attiecīgā datuma ierakstā un tiesību aktā.' : 'Šī tēma pati par sevi nenozīmē vispārēju Latvijas darba brīvdienu.'
-    reminder=first ? "Personiska plāna piemērs tēmai «#{article['title']}»: atskaites datums ir #{date_label(first['date'])}, bet vienas nedēļas sagatavošanās atgādinājums — #{date_label(Date.parse(first['date'])-7)}. Tas nav rīkotāja izziņots pasākuma grafiks." : 'Pasākuma sagatavošanās atgādinājumu piesaisti pārbaudītam rīkotāja datumam.'
+    reminder=first ? "Personiska plāna piemērs tēmai «#{article['title']}»: atskaites datums ir #{date_label(first['date'])}, bet vienas nedēļas sagatavošanās atgādinājums #{date_label(Date.parse(first['date'])-7)}. Tas nav rīkotāja izziņots pasākuma grafiks." : 'Pasākuma sagatavošanās atgādinājumu piesaisti pārbaudītam rīkotāja datumam.'
     {'heading'=>article['title']+': kalendāra ieraksts savā plānā','paragraphs'=>["«#{article['title']}» pārskatā atrodamas šādas datumu robežas: #{examples}. Viena temata nedēļas diena gadu gaitā var mainīties, tāpēc ierakstu nesaglabā kā nemainīgu nedēļas dienu. #{status}",reminder+' Dalībai pievieno norises vietu, sākuma laiku un programmas saiti atsevišķi no kalendārā norādītā nosaukuma.'],'icon'=>article['type']=='commemoration' ? 'memorial' : 'culture','sources'=>[],'related'=>TRADITION_LINKING.tools(article['slug']).map { |tool| link(tool['url'],tool['label']) },'basis'=>{'slug'=>article['slug'],'dates'=>dates.map { |r| r['date'] }}}
   end
   def cultural_note(article)
@@ -301,8 +317,8 @@ class PageReadingNotes
     harvest=@garden.fetch('crops').select { |c| @garden_actions.call(c).any? { |a| a['task']=='harvest' && Array(a['months']).include?(month) } }
     active_names=active.first(6).map { |c| c['name'] }.join(', ')
     harvest_names=harvest.first(5).map { |c| c['name'] }.join(', ')
-    a=active.empty? ? "#{LOC[month-1].capitalize} šajā datu kopā nav kultūraugu sējas vai stādīšanas pamatloga. Tas nav apgalvojums, ka dārzā nav nekā darāma: šķirņu izvēli, pierakstus un audzēšanas vietas sagatavošanu vari plānot atsevišķi." : "#{LOC[month-1].capitalize} kultūraugu skaits ar sējas vai stādīšanas orientieri ir #{active.length}; piemēri — #{active_names}. Šie logi nav viens kopīgs izstādīšanas datums: pie katra auga jālasa audzēšanas vieta, šķirne un augsnes vai salnu nosacījumi."
-    b=harvest.empty? ? "#{MONTHS[month-1].capitalize} pārskatā nav atsevišķi norādītu ražas periodu. Šī atzīme attiecas tikai uz šeit iekļautajiem kultūraugiem un avotu orientieriem; tā neapraksta katru Latvijas saimniecību, siltumnīcu vai glabāto ražu." : "#{MONTHS[month-1].capitalize}: kultūraugu skaits ar ražas orientieri ir #{harvest.length}; piemēri — #{harvest_names}. Gatavību pārbaudi pēc augam un šķirnei atbilstošām pazīmēm, nevis novāc visu tikai mēneša maiņas dēļ."
+    a=active.empty? ? "#{LOC[month-1].capitalize} šajā datu kopā nav kultūraugu sējas vai stādīšanas pamatloga. Tas nav apgalvojums, ka dārzā nav nekā darāma: šķirņu izvēli, pierakstus un audzēšanas vietas sagatavošanu vari plānot atsevišķi." : "#{LOC[month-1].capitalize} kultūraugu skaits ar sējas vai stādīšanas orientieri ir #{active.length}; piemēri #{active_names}. Šie logi nav viens kopīgs izstādīšanas datums: pie katra auga jālasa audzēšanas vieta, šķirne un augsnes vai salnu nosacījumi."
+    b=harvest.empty? ? "#{MONTHS[month-1].capitalize} pārskatā nav atsevišķi norādītu ražas periodu. Šī atzīme attiecas tikai uz šeit iekļautajiem kultūraugiem un avotu orientieriem; tā neapraksta katru Latvijas saimniecību, siltumnīcu vai glabāto ražu." : "#{MONTHS[month-1].capitalize}: kultūraugu skaits ar ražas orientieri ir #{harvest.length}; piemēri #{harvest_names}. Gatavību pārbaudi pēc augam un šķirnei atbilstošām pazīmēm, nevis novāc visu tikai mēneša maiņas dēļ."
     b+=' Personīgajā pierakstā saglabā novērojumu un faktiskā darba dienu; nākamajā sezonā tas būs precīzāks tava dārza salīdzinājums par vispārīgu mēneša nosaukumu.'
     protected_examples=harvest.flat_map { |c| @garden_actions.call(c).select { |r| r['task']=='harvest' && Array(r['months']).include?(month) && r['places']==['greenhouse'] }.map { |r| "#{c['name']}: #{r['window']}. #{r['condition']}" } }.first(2)
     b+=' Segtās platības piemērs: '+protected_examples.join(' ') unless protected_examples.empty?

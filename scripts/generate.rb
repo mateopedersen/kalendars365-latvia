@@ -13,6 +13,13 @@ require_relative 'preview_components'
 include PreviewComponents
 require_relative 'occasion_components'
 require_relative 'staro_riga_components'
+require_relative 'event_guides'
+require_relative 'upcoming_events'
+require_relative 'benefit_guides'
+require_relative 'pension_guide'
+require_relative 'tax_guide'
+require_relative 'fishing_guide'
+require_relative 'advent_calendar'
 require_relative 'garden_components'
 require_relative 'garden_experience_components'
 require_relative 'organizer_components'
@@ -56,6 +63,14 @@ SLUGS = %w[janvaris februaris marts aprilis maijs junijs julijs augusts septembr
 DAYS = %w[P. O. T. C. Pk. S. Sv.].freeze
 LAW = 'https://likumi.lv/ta/id/72608-par-svetku-atceres-un-atzimejamam-dienam'
 ROUTES = JSON.parse(File.read('_data/routes.json'))
+# Guide copy is the single source for page, navigation, search and social titles.
+# Keep the registry in sync when the editor corrects Latvian wording.
+(EventGuides::GUIDES + BenefitGuides::GUIDES).each do |guide|
+  route = ROUTES.find { |row| row['URL path'] == guide.fetch('url') }
+  raise "Guide is missing from the route registry: #{guide.fetch('url')}" unless route
+  route['Latvian title/topic'] = guide.fetch('title')
+end
+File.write('_data/routes.json', JSON.pretty_generate(ROUTES)+"\n")
 PREPARING_SOCIAL_COVERS = ARGV.delete('--prepare-social-covers')
 SOCIAL_COVERS = JSON.parse(File.read('_data/social-images.json')).fetch('pages')
 
@@ -121,7 +136,8 @@ HOLIDAYS.select { |row| (2027..2030).cover?(row.fetch('date')[0,4].to_i) }.each 
 end
 # The small topic map is shared by browser lists and prerendered calendar details.
 # The original legal date records and accepted downloadable calendars stay intact.
-runtime = DATA.merge('holidayTopics'=>TRADITION_LINKING.calendar_topics,'names'=>DATA.fetch('names').map { |n| n.select { |k,_v| %w[name month day kind].include?(k) } })
+UpcomingEvents.write
+runtime = DATA.merge('publicEvents'=>EventGuides.calendar_records,'holidayTopics'=>TRADITION_LINKING.calendar_topics,'names'=>DATA.fetch('names').map { |n| n.select { |k,_v| %w[name month day kind].include?(k) } })
 File.write('assets/calendar-runtime.json', JSON.generate(runtime))
 summary = runtime.merge('names'=>runtime.fetch('names').select { |n| n['kind']=='traditional' })
 File.write('assets/calendar-summary.json', JSON.generate(summary))
@@ -413,8 +429,8 @@ def title_for(r)
  when 'work_month' then "Darba dienas #{y}. gada #{GEN[m-1]} mēnesī"
  when 'holiday_month' then "Svētku dienas #{y}. gada #{GEN[m-1]} mēnesī"
  when 'print_month' then "#{y}. gada #{GEN[m-1]} kalendāri A3 drukai"
- when 'moon_city' then "Mēness lēkts un riets — #{t}"
- when 'sun_city' then "Saullēkts un saulriets — #{t}"
+ when 'moon_city' then "Mēness lēkts un riets #{t}"
+ when 'sun_city' then "Saullēkts un saulriets #{t}"
  when 'name_calendar' then "Kalendārs ar vārdu #{t}"
  when 'month_index' then "#{y}. gada mēnešu kalendāri"
  when 'week_index' then "#{y}. gada nedēļu kalendāri"
@@ -444,6 +460,10 @@ ROUTES.each do |r|
  if p=='/'
   body='{% include app.html %}'
   desc='Latvijas kalendārs, svētku dienas un ikdienas plānošana. 2027.–2030. gada kalendāri, personīgie notikumi un lejupielādējami PDF.'
+ elsif f=='benefit_guide'
+  guide=BenefitGuides.find(p);title=guide.fetch('title');desc=guide.fetch('description');body=BenefitGuides.page(guide)
+ elsif f=='event_guide'
+  guide=EventGuides.find(p);title=guide.fetch('title');desc=guide.fetch('description');body=EventGuides.page(guide)
  elsif f=='garden'
   if slug=='sejas-kalendars'
    title='Sējas un stādīšanas kalendārs Latvijā'
@@ -568,7 +588,7 @@ ROUTES.each do |r|
    dates << "Avota redakcija: #{h(source['edition'])}" if source['edition']
    %(<li id="avots-#{h(source.fetch('id'))}">#{a(source['url']||source['URL']||'#',source['title']||source['name']||source['id'])}<p><strong>#{h(status)}</strong>#{dates.empty? ? '' : ' · '+dates.join(' · ')}</p>#{source['note'] ? '<p>'+h(source['note'])+'</p>' : ''}</li>)
   end.join
-  body=card('Kalendāra aprēķini','<p>Gregora kalendārs, ISO 8601 nedēļas, pirmdiena kā nedēļas pirmā diena. Europe/Riga laika josla. Viena datu kopa baro kalendārus un drukājamos failus.</p>')+card('Oficiālie avoti','<p>Norādīts vietnē izmantotais avots un tā fiksētās pārbaudes datums. Vēlāki grozījumi var mainīt nākotnes kalendārus; pirms būtiska lēmuma atver avota aktuālo redakciju.</p><ul class="source-evidence-list">'+source_rows+'</ul>')+card('Attēli un licences','<p id="atteli">Rīgas pilsētas kartītes fotogrāfija: '+h(CITIES.find{|c|c['id']=='riga'}.fetch('photo').fetch('author'))+'. '+a(CITIES.find{|c|c['id']=='riga'}.fetch('photo').fetch('sourceUrl'),'Oriģinālais attēls')+' · '+a(CITIES.find{|c|c['id']=='riga'}.fetch('photo').fetch('licenseUrl'),CITIES.find{|c|c['id']=='riga'}.fetch('photo').fetch('license'))+'. Vietnei izveidotas samazinātas WebP kopijas; tās pieejamas ar to pašu licenci. Interfeisā attēls var tikt apgriezts. Pilsētu kartē izmantotas 82 atsevišķas īstu pilsētu fotogrāfijas. '+a('/pilsetas-un-fotografijas/','Visu fotogrāfiju autori un licences')+'. Saskarnes ilustrācijas izstrādātas Kalendāram365.</p>')+card('Burtveidols un licence','<p>Vietnes interfeiss izmanto Avenir vai Avenir Next, ja tas ir instalēts apmeklētāja ierīcē; citādi tiek izmantots sistēmas sans-serif fonts. Licencēti Avenir failu dati netiek izplatīti. Sociālajās kartītēs un drukājamajos kalendāros izmantots DM Sans Regular un DM Sans Bold. Dizains: Colophon Foundry; autortiesības: The DM Sans Project Authors. '+a('https://github.com/google/fonts/tree/main/ofl/dmsans','DM Sans — oficiālais Google Fonts avots')+' · '+a('/assets/fonts/DM-Sans-OFL.txt','SIL Open Font License 1.1')+'. Fonti tiek ielādēti no šīs vietnes servera; fontu pieprasījumi netiek sūtīti Google serveriem.</p>')+card('Prognoze un stacijas mērījums','<p>MET Norway prognoze ir aprēķināta pilsētas centram. Atsevišķā kartītē rāda tuvākās LVĢMC stacijas stundas vidējo temperatūru: norādīts attālums, stacijas nosaukums un stundas sākums Latvijas laikā. Der tikai pēdējo 3 stundu mērījumi līdz 50 km attālumā. LVĢMC portāla dati ir operatīvi, ar pamata kvalitātes pārbaudi; tie nav galīgi verificēti. '+a('https://data.gov.lv/dati/dataset/hidrometeorologiskie-noverojumi','LVĢMC avots un CC0 licence')+'. Kartīte nerāda radaru, un stacijas mērījums nav katras pilsētas ielas novērojums.</p>')+card('Pārbaudes robežas','<p>Automatizēti datumu, izvades un valodas paraugu testi neaizstāj neatkarīgu jurista vai dzimtās valodas redaktora pārbaudi. Jauna avota publikācija var mainīt nākotnes datus. '+a('/redakcijas-politika/','Kā sagatavojam saturu')+' · '+a('/labojumi/','Paziņot par neprecizitāti')+'</p>')
+  body=card('Kalendāra aprēķini','<p>Gregora kalendārs, ISO 8601 nedēļas, pirmdiena kā nedēļas pirmā diena. Europe/Riga laika josla. Viena datu kopa baro kalendārus un drukājamos failus.</p>')+card('Oficiālie avoti','<p>Norādīts vietnē izmantotais avots un tā fiksētās pārbaudes datums. Vēlāki grozījumi var mainīt nākotnes kalendārus; pirms būtiska lēmuma atver avota aktuālo redakciju.</p><ul class="source-evidence-list">'+source_rows+'</ul>')+card('Attēli un licences','<p id="atteli">Rīgas pilsētas kartītes fotogrāfija: '+h(CITIES.find{|c|c['id']=='riga'}.fetch('photo').fetch('author'))+'. '+a(CITIES.find{|c|c['id']=='riga'}.fetch('photo').fetch('sourceUrl'),'Oriģinālais attēls')+' · '+a(CITIES.find{|c|c['id']=='riga'}.fetch('photo').fetch('licenseUrl'),CITIES.find{|c|c['id']=='riga'}.fetch('photo').fetch('license'))+'. Vietnei izveidotas samazinātas WebP kopijas; tās pieejamas ar to pašu licenci. Interfeisā attēls var tikt apgriezts. Pilsētu kartē izmantotas 82 atsevišķas īstu pilsētu fotogrāfijas. '+a('/pilsetas-un-fotografijas/','Visu fotogrāfiju autori un licences')+'. Saskarnes ilustrācijas izstrādātas Kalendāram365.</p>')+card('Burtveidols un licence','<p>Vietnes interfeiss izmanto Avenir vai Avenir Next, ja tas ir instalēts apmeklētāja ierīcē; citādi tiek izmantots sistēmas sans-serif fonts. Licencēti Avenir failu dati netiek izplatīti. Sociālajās kartītēs un drukājamajos kalendāros izmantots DM Sans Regular un DM Sans Bold. Dizains: Colophon Foundry; autortiesības: The DM Sans Project Authors. '+a('https://github.com/google/fonts/tree/main/ofl/dmsans','DM Sans oficiālais Google Fonts avots')+' · '+a('/assets/fonts/DM-Sans-OFL.txt','SIL Open Font License 1.1')+'. Fonti tiek ielādēti no šīs vietnes servera; fontu pieprasījumi netiek sūtīti Google serveriem.</p>')+card('Prognoze un stacijas mērījums','<p>MET Norway prognoze ir aprēķināta pilsētas centram. Atsevišķā kartītē rāda tuvākās LVĢMC stacijas stundas vidējo temperatūru: norādīts attālums, stacijas nosaukums un stundas sākums Latvijas laikā. Der tikai pēdējo 3 stundu mērījumi līdz 50 km attālumā. LVĢMC portāla dati ir operatīvi, ar pamata kvalitātes pārbaudi; tie nav galīgi verificēti. '+a('https://data.gov.lv/dati/dataset/hidrometeorologiskie-noverojumi','LVĢMC avots un CC0 licence')+'. Kartīte nerāda radaru, un stacijas mērījums nav katras pilsētas ielas novērojums.</p>')+card('Pārbaudes robežas','<p>Automatizēti datumu, izvades un valodas paraugu testi neaizstāj neatkarīgu jurista vai dzimtās valodas redaktora pārbaudi. Jauna avota publikācija var mainīt nākotnes datus. '+a('/redakcijas-politika/','Kā sagatavojam saturu')+' · '+a('/labojumi/','Paziņot par neprecizitāti')+'</p>')
  elsif TOOL_INFO.key?(slug)
   t=TOOL_INFO[slug];body="<p class=\"lead\">#{h(t[1])}</p>"+(slug=='darba-laika-kalendars' ? planning_panel('work',y) : '')+widget(t[0],y)
  elsif slug=='gimenes-kalendars'
@@ -595,7 +615,7 @@ ROUTES.each do |r|
  elsif slug=='meklesana'
   body=widget('search')
  elsif %w[gadalaiki astronomiskais-kalendars].include?(slug)
-  noindex=DATA.fetch('seasons',[]).empty?;reason='season_ephemeris_pending' if noindex;body=card('Meteoroloģiskie un astronomiskie gadalaiki','<p>Meteoroloģiskais pavasaris sākas 1. martā, vasara — 1. jūnijā, rudens — 1. septembrī, ziema — 1. decembrī. Astronomiskās robežas nosaka ekvinokcijas un saulgrieži; to precīzos brīžus pievienojam tikai no pārbaudīta efemerīdu avota.</p>')+card('Astronomiskie gadalaiki Rīgas laikā','<div class="phase-list">'+DATA.fetch('seasons',[]).map{|z|"<article><b>#{h(z['event']||z['title'])}</b><time>#{h(z['date'])} #{h(z['time'])}</time></article>"}.join+'</div>')+widget('sun')+widget('moon')
+  noindex=DATA.fetch('seasons',[]).empty?;reason='season_ephemeris_pending' if noindex;body=card('Meteoroloģiskie un astronomiskie gadalaiki','<p>Meteoroloģiskais pavasaris sākas 1. martā, vasara 1. jūnijā, rudens 1. septembrī, ziema 1. decembrī. Astronomiskās robežas nosaka ekvinokcijas un saulgrieži; to precīzos brīžus pievienojam tikai no pārbaudīta efemerīdu avota.</p>')+card('Astronomiskie gadalaiki Rīgas laikā','<div class="phase-list">'+DATA.fetch('seasons',[]).map{|z|"<article><b>#{h(z['event']||z['title'])}</b><time>#{h(z['date'])} #{h(z['time'])}</time></article>"}.join+'</div>')+widget('sun')+widget('moon')
  elsif slug=='kalendars'
   body=calendar_hub_markup
  elsif slug=='pdf-kalendari'
@@ -618,7 +638,17 @@ ROUTES.each do |r|
  end
  editorial=EDITORIAL[p] || {}
  if p=='/nozimigas-dienas/'
-  title='Nozīmīgas dienas Latvijā';heading='Nozīmīgas dienas Latvijā';desc='Latvijas svētku dienas, gadskārtu notikumi un citas avotos pārbaudītas kultūras tēmas. Pārbaudi datumu un atšķir to no likumā noteiktas brīvdienas.'
+  body=EventGuides.hub+'<section id="atzimejamas-dienas"><h2>Svētki un atzīmējamās dienas</h2>'+body+'</section>'
+  title='Nozīmīgas dienas un pasākumi Latvijā';heading='Nozīmīgas dienas Latvijā';desc='Pasākumi Latvijā 2026–2027: Rīgas svētki, festivāli, muzeju vakari un dabas iniciatīvas. Atrodi datumu, norises vietu un ceļvedi pēc pilsētas vai intereses.'
+ end
+ if p=='/copes-kalendars/'
+  title=FishingGuide::DATA.fetch('title');desc=FishingGuide::DATA.fetch('description')
+ end
+ if p=='/nodoklu-kalkulators/'
+  title=TaxGuide::DATA.fetch('title');desc=TaxGuide::DATA.fetch('description')
+ end
+ if p=='/pensiju-izmaksas/'
+  title=PensionGuide::DATA.fetch('title');desc=PensionGuide::DATA.fetch('description')
  end
  heading=editorial.fetch('h1') { f == 'latvia_cultural' ? LATVIA_EXTRA_PAGES.dig(p, 'h1') || title : title }
  title=editorial.fetch('title',title)
@@ -680,9 +710,11 @@ ROUTES.each do |r|
   front['reading_notes']=false
  end
  front.merge!(social_cover_frontmatter(p))
+ front['reading_notes']=false if %w[occasion latvia_cultural].include?(f) || p.start_with?('/adventes-kalendars/')
+ front['benefit_guide']=true if f=='benefit_guide' || %w[/pabalstu-izmaksas/ /pensiju-izmaksas/ /nodoklu-kalkulators/ /copes-kalendars/].include?(p)
  day_photo=tradition_cover(tradition_photo_for(p.split('/').last)) if %w[occasion latvia_cultural].include?(f)
  front['calendar_collection']=true if CALENDAR_COLLECTION_FAMILIES.include?(f)
- front['reading_notes']=false if p=='/pdf-kalendari/'
+ front['reading_notes']=false if %w[/pensiju-izmaksas/ /nodoklu-kalkulators/ /copes-kalendars/ /adventes-kalendars/].include?(p) || %w[/pdf-kalendari/ /nozimigas-dienas/ /pabalstu-izmaksas/].include?(p) || %w[event_guide event_index benefit_guide].include?(f)
  if trust_page?(p)
   front['trust_page']=true
   front['reading_notes']=false
@@ -697,13 +729,15 @@ ROUTES.each do |r|
    front['year']=2027;front['view']=slug=='nedelas-kalendars' ? 'week' : 'month'
   end
  end
- if useful_page?(p,f) && !trust_page?(p) && slug!='staro-riga'
+ if !p.start_with?('/adventes-kalendars/') && !%w[/nozimigas-dienas/ /pabalstu-izmaksas/ /pensiju-izmaksas/ /nodoklu-kalkulators/ /copes-kalendars/ /adventes-kalendars/].include?(p) && !%w[event_guide event_index benefit_guide].include?(f) && useful_page?(p,f) && !trust_page?(p) && slug!='staro-riga'
   body=useful_pages_markup(p,f,title,body)
   front['useful']=true
  end
  visual=visual_family(f,p)
  if trust_page?(p)
   content=body
+ elsif p.start_with?('/adventes-kalendars/') || %w[/nozimigas-dienas/ /pabalstu-izmaksas/ /pensiju-izmaksas/ /nodoklu-kalkulators/ /copes-kalendars/ /adventes-kalendars/].include?(p) || %w[event_guide event_index benefit_guide].include?(f)
+  content="<div class=\"page-shell page-shell--#{h(f)}\"><nav class=\"breadcrumbs\" aria-label=\"Atrašanās vieta\">#{breadcrumb_markup(p,title)}</nav>#{body}</div>"
  elsif front['category']
   content="<div class=\"category-page category-page--#{h(slug)} category-v2\"><nav class=\"breadcrumbs\" aria-label=\"Atrašanās vieta\">#{breadcrumb_markup(p,title)}</nav>#{category_hero_markup(slug,heading)}#{body}</div>"
  elsif slug=='izveidot-kalendaru'
@@ -731,6 +765,7 @@ ROUTES.each do |r|
 end
 category_export_data
 staro_riga_calendar
+EventGuides.calendars
 # ISO boundary weeks are valid support routes; absent from the four-year matrix.
 [[2031,1]].each do |y,w|
  READING_NOTES.for_route({'URL path'=>format('/nedelas-kalendars/%d/%02d/',y,w),'Page family'=>'iso_week','Year'=>y.to_s})
@@ -746,7 +781,7 @@ photo_page_frontmatter = YAML.safe_load(File.read('pilsetas-un-fotografijas.html
 photo_page_indexable = !photo_page_frontmatter.fetch('noindex',false)
 CalendarIndexingPolicy.validate!('/pilsetas-un-fotografijas/',!photo_page_indexable)
 license_sources=['pilsetas-un-fotografijas.html']+Dir.glob('_includes/*credits.html').sort
-license_data=%w[cities occasions university-calendars astronomy-photos staro-riga].map { |key| JSON.parse(File.read("_data/#{key}.json")) }
+license_data=%w[cities occasions university-calendars astronomy-photos staro-riga event-guide-photos pension-guide fishing-guide].map { |key| JSON.parse(File.read("_data/#{key}.json")) }
 license_hash=Digest::SHA256.hexdigest(JSON.generate([license_sources.map { |path| File.read(path) },license_data]))
 license_prior=previous_revisions.fetch('/pilsetas-un-fotografijas/',{})
 license_modified=CalendarSeoContract.revision_date(license_prior,license_hash,license_prior['lastmod'] || revision_date,revision_date)

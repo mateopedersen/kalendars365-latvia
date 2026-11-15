@@ -1,0 +1,48 @@
+{
+  "asaris": {
+    "page": "https://commons.wikimedia.org/wiki/File:Perch_fish_underwater_perca_fluviatilis.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Perch_fish_underwater_perca_fluviatilis.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+    "bytes": 200139
+  },
+  "zandarts": {
+    "page": "https://commons.wikimedia.org/wiki/File:Sander_lucioperca,_Acquario_del_Po.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Sander_lucioperca%2C_Acquario_del_Po.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+    "bytes": 653341
+  },
+  "vedzele": {
+    "page": "https://commons.wikimedia.org/wiki/File:Lota_lota_GLERL_1.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/5/55/Lota_lota_GLERL_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+    "bytes": 61975
+  },
+  "lidaka": {
+    "page": "https://www.fws.gov/media/esox-lucius",
+    "original": "https://www.fws.gov/sites/default/files/images/2016-01/21119.jpg"
+  },
+  "forele": {
+    "original": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Salmo_trutta_03_by-dpc.jpg"
+  },
+  "linis": {
+    "original": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Tinca_tinca_Prague_Vltava_1.jpg",
+    "download": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Tinca_tinca_Prague_Vltava_1.jpg/960px-Tinca_tinca_Prague_Vltava_1.jpg"
+  },
+  "plaudis": {
+    "original": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Abramis_brama_Prague_Vltava_1.jpg",
+    "download": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Abramis_brama_Prague_Vltava_1.jpg/960px-Abramis_brama_Prague_Vltava_1.jpg"
+  },
+  "usma": {
+    "original": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Usmas_ezers%2C_2015.jpg",
+    "download": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Usmas_ezers%2C_2015.jpg/1280px-Usmas_ezers%2C_2015.jpg"
+  },
+  "aluksne": {
+    "original": "https://upload.wikimedia.org/wikipedia/commons/8/89/Fisherman_on_Lake_Al%C5%ABksne.jpg",
+    "download": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Fisherman_on_Lake_Al%C5%ABksne.jpg/1280px-Fisherman_on_Lake_Al%C5%ABksne.jpg"
+  },
+  "burtnieks": {
+    "original": "https://upload.wikimedia.org/wikipedia/commons/5/54/Burtnieks_Lake.jpg",
+    "download": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Burtnieks_Lake.jpg/1280px-Burtnieks_Lake.jpg"
+  },
+  "rauda": {
+    "original": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Rutilus_rutilus_Prague_Vltava_2.jpg",
+    "download": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Rutilus_rutilus_Prague_Vltava_2.jpg/1280px-Rutilus_rutilus_Prague_Vltava_2.jpg"
+  }
+}

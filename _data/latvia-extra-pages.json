@@ -27,10 +27,10 @@
     {
       "url": "/pensiju-izmaksas/",
       "family": "pensiju-izmaksas",
-      "title": "Pensiju izmaksas Latvijā: kā pārbaudīt datumu",
-      "h1": "Pensiju izmaksas Latvijā",
-      "description": "Uzzini, kur atrast savu pensijas izmaksas datumu un kā pārbaudīt VSAA ziņas par izmaksām pirms svētkiem. Viena datuma visiem nav.",
-      "intro": "Regulārās pensijas izmaksas datums jāskatās savā VSAA lēmumā. Pirmais maksājums var pienākt citā dienā, bet pirms svētkiem izmaiņas jāpārbauda aktuālajā VSAA paziņojumā.",
+      "title": "Pensija Latvijā un pensionēšanās vecuma kalkulators",
+      "h1": "Pensija Latvijā",
+      "description": "Kad var pensionēties Latvijā? Vecuma datuma rīks, stāžs, priekšlaicīgā pensija, nodokļi, pieteikšanās un individuālie izmaksas datumi.",
+      "intro": "Pārbaudi savu pensionēšanās vecuma datumu un sagatavo pieteikumu. Izmaksas dienu un piešķirto summu meklē VSAA lēmumā.",
       "sourceIds": [
         "vsaa-faq",
         "vsaa-holidays-2025"
@@ -39,10 +39,10 @@
     {
       "url": "/pabalstu-izmaksas/",
       "family": "pabalstu-izmaksas",
-      "title": "Pabalstu izmaksas Latvijā: datumi un VSAA lēmums",
-      "h1": "Pabalstu izmaksas Latvijā",
-      "description": "Pārbaudi, kā VSAA nosaka pabalsta izmaksas datumu un par kuru mēnesi veic maksājumu. Datums atkarīgs no pabalsta un lēmuma.",
-      "intro": "Pabalstu izmaksas kārtība atšķiras pēc pabalsta veida. Regulāro datumu meklē VSAA lēmumā, savukārt ziņas par pirmssvētku izmaiņām — jaunākajos aģentūras paziņojumos.",
+      "title": "Pabalsti un sociālās izmaksas Latvijā",
+      "h1": "Pabalsti un sociālās izmaksas Latvijā",
+      "description": "Bērnu, vecāku, bezdarbnieka un slimības pabalsti Latvijā. Mājokļa atbalsts, GMI sliekšņi, pieteikšanās un personīgais izmaksas datums.",
+      "intro": "Pabalstu izmaksas kārtība atšķiras pēc pabalsta veida. Regulāro datumu meklē VSAA lēmumā, savukārt ziņas par pirmssvētku izmaiņām jaunākajos aģentūras paziņojumos.",
       "sourceIds": [
         "vsaa-faq",
         "vsaa-parent-payments",
@@ -223,7 +223,7 @@
       "title": "Pulksteņa pagriešana Latvijā: vasaras un ziemas laiks",
       "h1": "Pulksteņa pagriešana Latvijā",
       "description": "Kad Latvijā maina laiku un kurā virzienā pagriezt pulksteni? Apskati pāreju datumus un Latvijas laika joslu Europe/Riga.",
-      "intro": "Pavasarī pulksteni pagriež vienu stundu uz priekšu, bet rudenī — vienu stundu atpakaļ. Spēkā esošā kārtība paredz pāreju marta un oktobra pēdējā svētdienā.",
+      "intro": "Pavasarī pulksteni pagriež vienu stundu uz priekšu, bet rudenī vienu stundu atpakaļ. Spēkā esošā kārtība paredz pāreju marta un oktobra pēdējā svētdienā.",
       "sourceIds": [
         "dst-latvia"
       ]
@@ -234,7 +234,7 @@
       "title": "Garais gads: noteikums un gadu pārbaude",
       "h1": "Garais gads",
       "description": "Pārbaudi, vai izvēlētais gads ir garais gads, un uzzini, kā Gregora kalendārā nosaka gadus ar 29. februāri un 366 dienām.",
-      "intro": "Garajā gadā februārim ir 29 dienas, bet visam gadam — 366. Pārbaude ievēro arī gadsimtu izņēmumu: ar dalāmību ar četri vien nepietiek.",
+      "intro": "Garajā gadā februārim ir 29 dienas, bet visam gadam 366. Pārbaude ievēro arī gadsimtu izņēmumu: ar dalāmību ar četri vien nepietiek.",
       "sourceIds": [
         "leap-usno"
       ]
@@ -299,6 +299,78 @@
       "h1": "Redakcijas politika",
       "description": "Kā Kalendārs365 izvēlas avotus, nošķir oficiālus datumus no aprēķiniem un labo pamanītas kļūdas Latvijas kalendāra datos.",
       "intro": "Kalendārs365 datumus sasaista ar to avotu un piemērošanas jomu. Oficiāls lēmums, astronomisks aprēķins un tradīcijas apraksts ir dažādi informācijas veidi, tāpēc tos apzīmē atsevišķi.",
+      "sourceIds": []
+    },
+    {
+      "url": "/nodoklu-kalkulators/",
+      "family": "nodoklu-kalkulators",
+      "title": "Nodokļu un algas kalkulators 2026 Latvijā",
+      "h1": "Nodokļu kalkulators",
+      "description": "Aprēķini bruto un neto algu 2026. gadā, IIN, VSAOI un darba devēja izmaksas. Salīdzini grāmatiņu, apgādājamos un aprēķini PVN.",
+      "intro": "No bruto summas līdz algai uz rokas pārskatāms 2026. gada aprēķins.",
+      "sourceIds": []
+    },
+    {
+      "url": "/copes-kalendars/",
+      "family": "copes-kalendars",
+      "title": "Copes kalendārs un makšķerēšanas liegumi Latvijā",
+      "h1": "Copes kalendārs Latvijā",
+      "description": "Kad drīkst makšķerēt līdakas un zandartus? Copes kalendārs 2026–2030, sugu foto, liegumu datumi, loma limiti, licences un seši Latvijas ezeri.",
+      "intro": "Pārbaudi zivju liegumus, laivu sezonu, licences un piekļuvi Latvijas ūdenstilpēm.",
+      "sourceIds": []
+    },
+    {
+      "url": "/adventes-kalendars/",
+      "family": "adventes-kalendars",
+      "title": "Adventes kalendārs Latvijai ar 24 decembra pārsteigumiem",
+      "h1": "Adventes kalendārs Latvijai ar 24 decembra pārsteigumiem",
+      "description": "Atver 24 Adventes kalendāra lodziņus no 1. līdz 24. decembrim pēc Latvijas laika. Latviskas svētku idejas, rokdarbi un kopā būšanas mirkļi.",
+      "intro": "24 decembra lodziņi ar latviskām svētku idejām.",
+      "sourceIds": []
+    },
+    {
+      "url": "/adventes-kalendars/2026/",
+      "family": "adventes-kalendars",
+      "title": "Adventes kalendārs 2026 ar 24 atveramiem lodziņiem",
+      "h1": "Adventes kalendārs 2026 ar 24 atveramiem lodziņiem",
+      "description": "Adventes kalendārs 2026. gadam Latvijā: 24 lodziņi no 1. līdz 24. decembrim, latviskas dāvanu idejas un svētdienu datumi. Atver pēc Rīgas laika.",
+      "intro": "24 decembra lodziņi 2026. gadam ar latviskām svētku idejām.",
+      "sourceIds": []
+    },
+    {
+      "url": "/adventes-kalendars/2027/",
+      "family": "adventes-kalendars",
+      "title": "Adventes kalendārs 2027 ar 24 atveramiem lodziņiem",
+      "h1": "Adventes kalendārs 2027 ar 24 atveramiem lodziņiem",
+      "description": "Adventes kalendārs 2027. gadam Latvijā: 24 lodziņi no 1. līdz 24. decembrim, latviskas dāvanu idejas un svētdienu datumi. Atver pēc Rīgas laika.",
+      "intro": "24 decembra lodziņi 2027. gadam ar latviskām svētku idejām.",
+      "sourceIds": []
+    },
+    {
+      "url": "/adventes-kalendars/2028/",
+      "family": "adventes-kalendars",
+      "title": "Adventes kalendārs 2028 ar 24 atveramiem lodziņiem",
+      "h1": "Adventes kalendārs 2028 ar 24 atveramiem lodziņiem",
+      "description": "Adventes kalendārs 2028. gadam Latvijā: 24 lodziņi no 1. līdz 24. decembrim, latviskas dāvanu idejas un svētdienu datumi. Atver pēc Rīgas laika.",
+      "intro": "24 decembra lodziņi 2028. gadam ar latviskām svētku idejām.",
+      "sourceIds": []
+    },
+    {
+      "url": "/adventes-kalendars/2029/",
+      "family": "adventes-kalendars",
+      "title": "Adventes kalendārs 2029 ar 24 atveramiem lodziņiem",
+      "h1": "Adventes kalendārs 2029 ar 24 atveramiem lodziņiem",
+      "description": "Adventes kalendārs 2029. gadam Latvijā: 24 lodziņi no 1. līdz 24. decembrim, latviskas dāvanu idejas un svētdienu datumi. Atver pēc Rīgas laika.",
+      "intro": "24 decembra lodziņi 2029. gadam ar latviskām svētku idejām.",
+      "sourceIds": []
+    },
+    {
+      "url": "/adventes-kalendars/2030/",
+      "family": "adventes-kalendars",
+      "title": "Adventes kalendārs 2030 ar 24 atveramiem lodziņiem",
+      "h1": "Adventes kalendārs 2030 ar 24 atveramiem lodziņiem",
+      "description": "Adventes kalendārs 2030. gadam Latvijā: 24 lodziņi no 1. līdz 24. decembrim, latviskas dāvanu idejas un svētdienu datumi. Atver pēc Rīgas laika.",
+      "intro": "24 decembra lodziņi 2030. gadam ar latviskām svētku idejām.",
       "sourceIds": []
     }
   ],
@@ -510,7 +582,7 @@
       "title": "Mirušo piemiņas dienas katoļu un luterāņu tradīcijā",
       "h1": "Mirušo piemiņas dienas katoļu un luterāņu tradīcijā",
       "description": "Katoļu Visu ticīgo mirušo piemiņas diena ir 2. novembrī; luterāņu Mūžības svētdiena ir pirms pirmās Adventes. Apskati atšķirību.",
-      "intro": "Mirušo piemiņas dienu datumi atšķiras pēc baznīcas tradīcijas. Katoļu kalendārā Visu ticīgo mirušo piemiņas diena ir 2. novembrī, bet luterāņu Mūžības svētdiena — svētdienā pirms pirmās Adventes.",
+      "intro": "Mirušo piemiņas dienu datumi atšķiras pēc baznīcas tradīcijas. Katoļu kalendārā Visu ticīgo mirušo piemiņas diena ir 2. novembrī, bet luterāņu Mūžības svētdiena svētdienā pirms pirmās Adventes.",
       "dateModel": {
         "type": "confession-specific",
         "variants": [
@@ -591,7 +663,7 @@
       "title": "Holokausta upuru piemiņas diena Latvijā un pasaulē",
       "h1": "Holokausta upuru piemiņas diena Latvijā un pasaulē",
       "description": "Salīdzini ANO 27. janvāra Holokausta upuru piemiņas dienu ar Latvijas likumā noteikto Ebreju tautas genocīda upuru piemiņas dienu 4. jūlijā.",
-      "intro": "ANO 27. janvārī piemin Holokausta upurus starptautiskā līmenī. Latvijā likumā noteikta atsevišķa Ebreju tautas genocīda upuru piemiņas diena — 4. jūlijā. Šīs dienas nav savstarpēji aizstājamas; neviena no tām nav automātiski jāuztver kā darba brīvdiena.",
+      "intro": "ANO 27. janvārī piemin Holokausta upurus starptautiskā līmenī. Latvijā likumā noteikta atsevišķa Ebreju tautas genocīda upuru piemiņas diena 4. jūlijā. Šīs dienas nav savstarpēji aizstājamas; neviena no tām nav automātiski jāuztver kā darba brīvdiena.",
       "dateModel": {
         "type": "fixed",
         "month": 1,
@@ -889,7 +961,7 @@
         "un-world-environment"
       ],
       "factNotes": [
-        "Zemes dienu atzīmē 22. aprīlī, bet Pasaules vides dienu — 5. jūnijā.",
+        "Zemes dienu atzīmē 22. aprīlī, bet Pasaules vides dienu 5. jūnijā.",
         "Ikgadējās kampaņas tēmu un programmu izziņo to rīkotāji."
       ],
       "isStatutoryWorkFreeHoliday": false

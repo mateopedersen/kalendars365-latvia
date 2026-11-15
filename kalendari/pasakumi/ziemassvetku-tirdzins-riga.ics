@@ -1,0 +1,18 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Kalendars365.lv//Events//LV
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:ziemassvetku-tirdzins-riga-2026-11-27@kalendars365.lv
+DTSTAMP:20261115T180000Z
+DTSTART;VALUE=DATE:20261127
+DTEND;VALUE=DATE:20270104
+SUMMARY:Rīgas Ziemassvētku tirdziņš 2026–2027
+LOCATION:Doma laukums\, Vecrīga
+DESCRIPTION:Atkarīgs no nedēļas dienas. https://vzt.lv/atverta-registrac
+ ija-dalibai-ziemassvetku-tirdzina-2026-2027-gada-sezona/
+URL:https://kalendars365.lv/pasakumi/ziemassvetku-tirdzins-riga/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

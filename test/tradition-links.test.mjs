@@ -76,8 +76,8 @@ test('date links open their actual Latvia calendar day, including confirmed curr
   const html=htmlFor(id);
   for(const m of html.matchAll(/class="tradition-date-link" href="([^"]+)"/g)){
    const dest=new URL(m[1].replaceAll('&amp;','&'),'https://kalendars365.lv'),date=dest.searchParams.get('date');assert.equal(dest.searchParams.get('view'),'day');
-   if(id==='staro-riga' && confirmedStaroDates.has(date)){
-    assert.equal(dest.pathname,'/','Current-year festival dates use the existing homepage calendar');assert.equal(dest.hash,'');
+   if(date?.startsWith('2026-')){
+    assert.equal(dest.pathname,'/','Current-year dates use the existing homepage calendar');assert.equal(dest.hash,'');
    }else{
     assert.match(date,/^20(?:27|28|29|30)-\d{2}-\d{2}$/);assert.equal(dest.hash,'#calendar-app');
     const [year,month]=date.split('-').map(Number);assert.equal(dest.pathname,`/kalendars/${year}/${slugs[month-1]}/`);

@@ -1,0 +1,170 @@
+{
+  "checkedAt": "2026-11-15",
+  "title": "Pensija Latvijā un pensionēšanās vecuma kalkulators",
+  "description": "Kad var pensionēties Latvijā? Aprēķini 65 gadu datumu, salīdzini priekšlaicīgo pensiju, stāžu, izmaksas, nodokļus un VSAA pieteikšanos.",
+  "sources": [
+    {
+      "id": "age",
+      "title": "VSAA: vecuma pensijas piešķiršana un izmaksa",
+      "url": "https://www.vsaa.gov.lv/lv/pakalpojumi/vecuma-pensijas-pieskirsana-un-izmaksasana",
+      "purpose": "Vispārējais vecums, stāžs, pieteikums un priekšlaicīgās pensijas ierobežojumi.",
+      "kind": "Oficiālais avots"
+    },
+    {
+      "id": "law",
+      "title": "Likums “Par valsts pensijām”",
+      "url": "https://likumi.lv/ta/id/38048-par-valsts-pensijam",
+      "purpose": "Spēkā esošais tiesiskais regulējums un īpašie gadījumi.",
+      "kind": "Oficiālais avots"
+    },
+    {
+      "id": "forecast",
+      "title": "VSAA: prognozējamais vecuma pensijas apmērs",
+      "url": "https://www.vsaa.gov.lv/lv/pakalpojumi/informacija-par-prognozejamo-vecuma-pensijas-apmeru",
+      "purpose": "Individuālās prognozes pieejamība un tas, ko aprēķins neietver.",
+      "kind": "Oficiālais avots"
+    },
+    {
+      "id": "service",
+      "title": "VSAA: stāža reģistrēšana līdz 1996. gadam",
+      "url": "https://www.vsaa.gov.lv/lv/pakalpojumi/darba-staza-lidz-1996gadam-registresana",
+      "purpose": "Darba un tam pielīdzināto periodu apliecinošie dokumenti.",
+      "kind": "Oficiālais avots"
+    },
+    {
+      "id": "payment",
+      "title": "MK noteikumi par pensiju piešķiršanu un izmaksu",
+      "url": "https://likumi.lv/ta/id/283339-noteikumi-par-valsts-pensijas-pieskirsanu-parrekinasanu-un-izmaksu-ka-ari-videjas-apdrosinasanas-iemaksu-algas-aprekinasanas-kartibu-invaliditates-pensijas-noteiksanai",
+      "purpose": "Individuālā izmaksas datuma un saņemšanas kārtība.",
+      "kind": "Oficiālais avots"
+    },
+    {
+      "id": "index",
+      "title": "VSAA: pensiju indeksācija 2026. gada 1. oktobrī",
+      "url": "https://www.vsaa.gov.lv/lv/jaunums/pensiju-un-atlidzibu-indeksacija-no-1-oktobra-1",
+      "purpose": "2026. gada indeksācija un piemērojamā pensijas daļa.",
+      "kind": "Oficiālais avots"
+    },
+    {
+      "id": "tax",
+      "title": "VID: neapliekamais minimums",
+      "url": "https://www.vid.gov.lv/lv/neapliekamais-minimums",
+      "purpose": "Pensionāra 2026. gada neapliekamais minimums un sadalījums strādājot.",
+      "kind": "Oficiālais avots"
+    },
+    {
+      "id": "second",
+      "title": "VSAA: pensiju 2. līmeņa kapitāla izmantošana",
+      "url": "https://www.vsaa.gov.lv/lv/pensiju-2-limeni-uzkrata-kapitala-izmantosana",
+      "purpose": "Iespējas, izmantojot 2. līmeņa kapitālu pensionējoties.",
+      "kind": "Oficiālais avots"
+    },
+    {
+      "id": "third",
+      "title": "Latvijas Banka: privātie pensiju fondi",
+      "url": "https://www.bank.lv/darbibas-jomas/klientu-aizsardziba/jautajumi-un-atbildes/privatie-pensiju-fondi-pensiju-3-limenis",
+      "purpose": "3. līmeņa uzkrājums, izmaksas vecums un plānu nosacījumi.",
+      "kind": "Oficiālais avots"
+    },
+    {
+      "id": "abroad",
+      "title": "VSAA: pensijas Eiropas Savienībā",
+      "url": "https://www.vsaa.gov.lv/lv/pensijas-es",
+      "purpose": "Apdrošināšanas periodi vairākās valstīs un pensijas saņemšana ārvalstīs.",
+      "kind": "Oficiālais avots"
+    },
+    {
+      "id": "minimum",
+      "title": "VSAA: minimālais vecuma pensijas apmērs 2026",
+      "url": "https://www.vsaa.gov.lv/lv/media/7490/download?attachment=",
+      "purpose": "Oficiālā tabula pēc apdrošināšanas stāža; atsevišķi nosacījumi cilvēkiem ar invaliditāti kopš bērnības.",
+      "kind": "Oficiālais avots"
+    },
+    {
+      "id": "overview",
+      "title": "Labklājības ministrija: vecuma pensija",
+      "url": "https://www.lm.gov.lv/lv/vecuma-pensija",
+      "purpose": "Pārrēķins, piemaksas un īpašie pensionēšanās nosacījumi.",
+      "kind": "Oficiālais avots"
+    },
+    {
+      "id": "contact",
+      "title": "VSAA konsultāciju centrs",
+      "url": "https://www.vsaa.gov.lv/lv/filiale/vsaa-konsultaciju-centrs",
+      "purpose": "Individuālu jautājumu precizēšana oficiālajā saziņas kanālā.",
+      "kind": "Oficiālais avots"
+    }
+  ],
+  "faq": [
+    [
+      "Kad varu pensionēties Latvijā?",
+      "Vispārējais vecums kopš 2025. gada ir 65 gadi, un vajadzīgs vismaz 20 gadu apdrošināšanas stāžs. Priekšlaicīgai pensijai un īpašām grupām ir citi nosacījumi. Augstāk esošais rīks parāda vecuma robežas datumu, nevis VSAA lēmumu par tiesībām."
+    ],
+    [
+      "Vai 63 gados var saņemt pilnu vecuma pensiju?",
+      "Parastās priekšlaicīgās pensionēšanās gadījumā vajadzīgs vismaz 30 gadu stāžs. Līdz vispārējā vecuma sasniegšanai nestrādājošam saņēmējam izmaksā 50% no piešķirtās pensijas; darba ņēmējam vai obligāti apdrošinātam pašnodarbinātajam to šajā periodā neizmaksā."
+    ],
+    [
+      "Kurā datumā man izmaksās pensiju?",
+      "Individuālo izmaksas datumu nosaka VSAA, ņemot vērā saņemšanas veidu. Pārbaudi savu lēmumu un, ja vajadzīgs, sazinies ar VSAA. Citas personas saņemtais maksājums nav tavs izmaksas grafiks."
+    ],
+    [
+      "Vai 65. dzimšanas dienā pensiju piešķir automātiski?",
+      "Vecuma sasniegšana neaizstāj pieteikumu un stāža izvērtēšanu. VSAA norāda, ka pensiju var pieprasīt ne agrāk kā mēnesi pirms noteiktā vecuma sasniegšanas."
+    ],
+    [
+      "Vai pensijas prognozē ir iekļauts 2. līmenis?",
+      "VSAA pakalpojuma “Informācija par prognozējamo vecuma pensijas apmēru” prognozē 2. līmeņa kapitālu neiekļauj. To pārbaudi atsevišķi, lai nesajauktu atšķirīgus aprēķinus."
+    ],
+    [
+      "Vai varu saņemt Latvijas pensiju, dzīvojot ārvalstīs?",
+      "Tas atkarīgs no dzīvesvietas un piemērojamās sociālās drošības kārtības. VSAA izvērtē Latvijas un citu valstu periodus. Katra valsts piemēro savu vecumu un izmaksas noteikumus; pienākumi saņemšanas turpināšanai arī jāprecizē."
+    ],
+    [
+      "Vai 2027.–2030. gadam var garantēt šodienas noteikumus?",
+      "Nē. Vecuma datumu tabula izmanto 15.11.2026. pārbaudīto vispārējo 65 gadu noteikumu. Likumu grozījumi, īpašie nosacījumi un individuālais stāžs var mainīt rezultātu. Pirms pieteikuma atver aktuālo VSAA informāciju."
+    ]
+  ],
+  "photo": {
+    "id": "jelgava-senior-couple",
+    "src": "/assets/pension-guide/jelgava-couple-800.webp",
+    "width": 800,
+    "height": 1200,
+    "srcset": "/assets/pension-guide/jelgava-couple-480.webp 480w, /assets/pension-guide/jelgava-couple-800.webp 800w, /assets/pension-guide/jelgava-couple-1200.webp 1200w",
+    "author": "Vilnis Husko",
+    "license": "Pexels licence",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "sourceUrl": "https://www.pexels.com/photo/senior-couple-sitting-on-a-bench-by-a-hedge-and-laughing-16409183/",
+    "originalUrl": "https://images.pexels.com/photos/16409183/pexels-photo-16409183.jpeg?cs=srgb&dl=pexels-vhusko-16409183.jpg&fm=jpg",
+    "sourceCopy": "docs/sources/pension-guide-20261115/vilnis-husko-senior-couple.jpg",
+    "sourceSha256": "fa6418c70d3913b1a08869deb3063df9240be8dd04c41ac43d6f8e4bb4d5ff61",
+    "files": [
+      {
+        "src": "/assets/pension-guide/jelgava-couple-480.webp",
+        "width": 480,
+        "height": 720,
+        "sha256": "797630428320c58a91139d9e37efb65bf6af2999f6a6a834beaf310d195c373a"
+      },
+      {
+        "src": "/assets/pension-guide/jelgava-couple-800.webp",
+        "width": 800,
+        "height": 1200,
+        "sha256": "03f0b3a392ab611eaf7b11b9a5d38b478801b136ac2bc968e938a99d152f4304"
+      },
+      {
+        "src": "/assets/pension-guide/jelgava-couple-1200.webp",
+        "width": 1200,
+        "height": 1800,
+        "sha256": "934ab0c5c6579b802eff2992850fabebeec2d95f4a41b1c7223f9cd173e5b882"
+      }
+    ],
+    "alt": "Sieviete violetā vestē un vīrietis zilā kreklā smejas, sēžot uz soliņa pie dzīvžoga",
+    "caption": "Jelgava. Ilustratīvs foto: Vilnis Husko / Pexels.",
+    "visualReview": {
+      "checkedAt": "2026-11-15",
+      "sourceSha256": "fa6418c70d3913b1a08869deb3063df9240be8dd04c41ac43d6f8e4bb4d5ff61",
+      "observation": "Divi vecāka gadagājuma cilvēki smejas uz soliņa pie zaļa dzīvžoga. Sievietei violeta veste; vīrietim zils krekls.",
+      "locationEvidence": "Fotogrāfa Pexels ierakstā norādīts: Jelgava, Latvia."
+    }
+  }
+}

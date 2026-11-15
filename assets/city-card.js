@@ -10,7 +10,7 @@ function selectCityPhoto(city,solarTimes,now=new Date()){
 // Cached DOM image nodes make repeat selections a synchronous, single-node swap.
 function createCityPhotoLoader({image,figure,status,makeImage=()=>new Image(),onDisplay=()=>{},limit=16}){
  const cache=new Map();let version=0,displayed=image;
- const photoFor=city=>city.photo||{src:'/assets/category-vector/earth.svg',alt:'Zemes ilustrācija — aptuveni noteiktā pilsēta'};
+ const photoFor=city=>city.photo||{src:'/assets/category-vector/earth.svg',alt:'Zemes ilustrācija aptuveni noteiktā pilsēta'};
  function load(city,priority='high'){
   const photo=photoFor(city),key=photo.src;let entry=cache.get(key);
   if(entry){cache.delete(key);cache.set(key,entry);if(priority==='high')entry.image.fetchPriority='high';return entry;}
@@ -115,7 +115,7 @@ if(typeof module==='object'&&module.exports)module.exports={createCityPhotoLoade
    if(city.external&&![...select.options].some(option=>option.value===city.id)){const option=document.createElement('option');option.value=city.id;option.textContent=city.name;option.dataset.detectedCity='true';select.prepend(option);}
    select.querySelector('[data-location-pending]')?.remove();select.value=city.id;select.setAttribute('aria-label',city.external?'Izvēlies pilsētu':'Izvēlies pilsētu Latvijā');get('city-card-title').textContent=city.external?'Šodien tavā pilsētā':'Šodien Latvijā';
    get('riga-time').setAttribute('aria-label','Vietējais laiks: '+city.name);get('city-sun-zone').textContent=zone;
-   get('city-time-note').textContent=city.external?`Vietējais laiks — ${zone}. Latvijas kalendārs izmanto Europe/Riga.`:'Visā Latvijā ir vienāda laika josla — Europe/Riga.';
+   get('city-time-note').textContent=city.external?`Vietējais laiks ${zone}. Latvijas kalendārs izmanto Europe/Riga.`:'Visā Latvijā ir vienāda laika josla Europe/Riga.';
    const sunLink=get('city-sun-link');sunLink.href=city.external?'/saullekts-saulriets/':'/saullekts-saulriets/'+city.id+'/';
    sunLink.firstChild.textContent=city.external?'Saules laiki Latvijas pilsētās':'Saules laiki un datuma izvēle';
    if(changed){photoKey='';photoRetryAt=0;clearTimeout(photoTimer);}solarKey='';solarTimes=null;tick(true);const run=++solarRun;

@@ -23,7 +23,7 @@
 .print-library-year-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:16px}
 .print-year-card{display:flex;flex-direction:column;min-width:0;overflow:hidden;background:#fffdf8;border:1px solid #e0cdc5;border-radius:17px;color:#6d2a41;text-decoration:none;box-shadow:0 6px 18px #51283505;transition:border-color .16s,box-shadow .16s}
 .print-year-card figure{aspect-ratio:1.3;background:#f4eee5;display:grid;place-items:center;overflow:hidden}
-.print-year-card--2028 figure{background:#edf1eb}.print-year-card--2029 figure{background:#e8f0ef}.print-year-card--2030 figure{background:#f3e9e8}
+.print-year-card--2028 figure{background:#f1ebec}.print-year-card--2029 figure{background:#f0e8ea}.print-year-card--2030 figure{background:#f3e9e8}
 .print-year-card figure img{display:block;width:100%;height:100%;object-fit:contain}
 .print-year-card>div{padding:16px 19px 19px}
 .print-year-card h3{display:flex;align-items:center;justify-content:space-between;gap:10px;font-size:31px;line-height:1.15;font-weight:800;letter-spacing:-1px}

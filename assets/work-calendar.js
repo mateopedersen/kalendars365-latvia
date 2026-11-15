@@ -93,7 +93,7 @@
         const r=W.shiftDate(rangeForm.elements.base.value,rangeForm.elements.amount.value,rangeForm.elements.unit.value);toolResult=r;
         title='Tavs aprēķinātais datums';dates=C.dateLabel(r.from);value=C.dateLabel(r.date);unit=capitalize(C.weekdays[r.weekday-1]);
         stats=stat('Izmaiņa dienās',(r.days>0?'+':'')+number(r.days))+stat('Nedēļas numurs',C.isoWeek(r.date).week)+stat('Ievadītais skaits',number(r.amount))+stat('Laika vienība',{days:'Dienas',weeks:'Nedēļas',months:'Mēneši'}[r.unit]);
-        note=r.clamped?'Izvēlētās dienas šajā mēnesī nav — izmantota mēneša pēdējā diena.':'Pieskaitītas vai atņemtas kalendāra dienas. Svētki un nedēļas nogales datumu nepārbīda.';
+        note=r.clamped?'Izvēlētās dienas šajā mēnesī nav izmantota mēneša pēdējā diena.':'Pieskaitītas vai atņemtas kalendāra dienas. Svētki un nedēļas nogales datumu nepārbīda.';
       }
       output.classList.toggle('is-date-result',toolMode==='add');
       output.innerHTML=`<h3 id="work-result-title">${title}</h3><p class="work-result-dates">${esc(dates)}</p><div class="work-result-value"><strong>${esc(value)}</strong><span>${esc(unit)}</span></div><div class="work-result-grid">${stats}</div>${extra}<p class="work-result-note">${esc(note)}</p>`;

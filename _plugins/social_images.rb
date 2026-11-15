@@ -20,7 +20,7 @@ module CalendarSocialImages
       local = File.join(site.source, path.delete_prefix('/'))
       raise "Missing or replaced social cover #{url}" unless File.file?(local) && Digest::SHA256.file(local).hexdigest == row.fetch('sha256')
       row.fetch('inputs').each do |input, expected|
-        raise 'Unsafe social input path' unless input.start_with?('/assets/') && !input.split('/').include?('..')
+        raise 'Unsafe social input path' unless (input.start_with?('/assets/') || %w[/_data/benefit-guides.json /_data/tax-guide.json /scripts/render_tax_social.py /_data/fishing-guide.json /scripts/render_fishing_social.py /_data/advent-calendar.json /scripts/render_advent_social.py].include?(input)) && !input.split('/').include?('..')
         input_hashes[input] ||= Digest::SHA256.file(File.join(site.source, input.delete_prefix('/'))).hexdigest
         raise "Social source changed: #{input}; rebuild social covers" unless input_hashes[input] == expected
       end

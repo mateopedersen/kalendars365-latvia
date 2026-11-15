@@ -1,0 +1,18 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Kalendars365.lv//Events//LV
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:liepaja-2027-atklasana-2027-01-22@kalendars365.lv
+DTSTAMP:20261115T180000Z
+DTSTART;VALUE=DATE:20270122
+DTEND;VALUE=DATE:20270125
+SUMMARY:Liepāja 2027 atklāšanas nedēļas nogale
+LOCATION:Liepāja\, Dienvidkurzemes un Kuldīgas novads
+DESCRIPTION:Katras norises laiks programmā. https://liepaja2027.lv/pasakum
+ i/liepaja-2027-atklasana/
+URL:https://kalendars365.lv/pasakumi/liepaja-2027-atklasana/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

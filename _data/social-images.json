@@ -169,7 +169,7 @@
         "/assets/calendar-data.json": "f0a7090ccc87587d8da0f5428887d8d38d2b71653bdbd9ac25ab5519f63147b3",
         "/assets/fonts/DM-Sans-Bold.ttf": "6193c6c4a9aeb329610cd1991a7c93c1d0d93100fc9901cd43b83ccbdda9cca7",
         "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93",
-        "/assets/tools-art/astronomy.svg": "13688e78f87a59664a6735d568b7c2a3e676038da517fd39e673ff8809f89a6f"
+        "/assets/tools-art/astronomy.svg": "ce9681bdc63c34dadc540d0dfbd17d8aff782b993600fe5918e2cf958266eb23"
       },
       "panelSha256": "ededf383d5f8720b3439427106ae259b75531e49d5241593c5a3168079813436",
       "pixelSha256": "a7157aae0a2aef5733334f8ac3091d32e8bcd91e59e6a8c7e791ba870644ee25",
@@ -253,7 +253,7 @@
       ],
       "inputs": {
         "/assets/calendar-data.json": "f0a7090ccc87587d8da0f5428887d8d38d2b71653bdbd9ac25ab5519f63147b3",
-        "/assets/category-vector/memorial.svg": "320d96196d3cea1f56393e3bd2af58c300efe219d38511d3c033434ac7900318",
+        "/assets/category-vector/memorial.svg": "1b0b2aaa6039caed5e4eded903986acd1860fea08c6fa704bbbac333c4afa10a",
         "/assets/fonts/DM-Sans-Bold.ttf": "6193c6c4a9aeb329610cd1991a7c93c1d0d93100fc9901cd43b83ccbdda9cca7",
         "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93"
       },
@@ -1634,7 +1634,7 @@
         "/assets/calendar-data.json": "f0a7090ccc87587d8da0f5428887d8d38d2b71653bdbd9ac25ab5519f63147b3",
         "/assets/fonts/DM-Sans-Bold.ttf": "6193c6c4a9aeb329610cd1991a7c93c1d0d93100fc9901cd43b83ccbdda9cca7",
         "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93",
-        "/assets/tools-art/vacation.svg": "90a772348433e2c1a1e51c5c6ebc97aaf1bd463a024484b92681fe8f8e715862"
+        "/assets/tools-art/vacation.svg": "cfee02fe6bc0ac279997c72fbce07904b9b9aaa95e1612baca0ff84a3ae2af12"
       },
       "panelSha256": "f4c262f66169e512fc25386dfa08fa560dd76b27725c1496a45e413569b2d05e",
       "pixelSha256": "05698be8da6a9fb1e55c3248f9c0d7baa251f4da259c0cf647e7300b69e24d4e",
@@ -1713,7 +1713,7 @@
         "/assets/calendar-data.json": "f0a7090ccc87587d8da0f5428887d8d38d2b71653bdbd9ac25ab5519f63147b3",
         "/assets/fonts/DM-Sans-Bold.ttf": "6193c6c4a9aeb329610cd1991a7c93c1d0d93100fc9901cd43b83ccbdda9cca7",
         "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93",
-        "/assets/tools-art/study.svg": "039aa9fcf6c1139f0d275ffe724988d2811754d322021f29177ba21f05f75a0d"
+        "/assets/tools-art/study.svg": "29e83ae4a50d5712d192294c475ce0588e3b1d19b2d47bb77e1ebdc34560e59e"
       },
       "panelSha256": "b59e01b53272426f7091079f867af4170479a1dee0ed5fa986a12d8d87fab468",
       "pixelSha256": "6f850695112aa3937513b04102a57b1ad9afe707aca396826cd21389fd6a7760",
@@ -1871,7 +1871,7 @@
         "/assets/calendar-data.json": "f0a7090ccc87587d8da0f5428887d8d38d2b71653bdbd9ac25ab5519f63147b3",
         "/assets/fonts/DM-Sans-Bold.ttf": "6193c6c4a9aeb329610cd1991a7c93c1d0d93100fc9901cd43b83ccbdda9cca7",
         "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93",
-        "/assets/tools-art/work.svg": "19f0b39e7cadb6b4bc3a99a77574141a91cb9c004a99f16bd8bec485737d01e6"
+        "/assets/tools-art/work.svg": "ff6e5330b0c4a2c202fb9caa14fd28bab80ea4f2162c2cd697515ff6fb6003f5"
       },
       "panelSha256": "736e77d0c7ac3ee4f2a62b89f618006993c5fbf42f7b848df777563c9060b85a",
       "pixelSha256": "c83cdfc3943ccfbf4c6104cab2422948ab868dbd2395376ee70a78244097c3a6",
@@ -6253,10 +6253,10 @@
       ],
       "inputs": {
         "/assets/calendar-data.json": "f0a7090ccc87587d8da0f5428887d8d38d2b71653bdbd9ac25ab5519f63147b3",
-        "/assets/category-vector/clock.svg": "e5dfb9b591d210b4620646f08b211c8c9bfd5285916f00e07e075a76f0042922",
+        "/assets/category-vector/clock.svg": "64430baf86771edba78d2e903407040fce739aad5510bd66bd105f1fb3e203e0",
         "/assets/fonts/DM-Sans-Bold.ttf": "6193c6c4a9aeb329610cd1991a7c93c1d0d93100fc9901cd43b83ccbdda9cca7",
         "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93",
-        "/assets/tools-art/work.svg": "19f0b39e7cadb6b4bc3a99a77574141a91cb9c004a99f16bd8bec485737d01e6"
+        "/assets/tools-art/work.svg": "ff6e5330b0c4a2c202fb9caa14fd28bab80ea4f2162c2cd697515ff6fb6003f5"
       },
       "panelSha256": "52540a539c205d169571d2d6c083b399aa69da13d401566e65fbb0552d9e7737",
       "pixelSha256": "07250b22feb46c62044b6b47f5acfa5315bd7a3889bbf701bec665de9203acdb",
@@ -6268,7 +6268,7 @@
       "url": "/datumu-kalkulators/",
       "title": "Datumu kalkulators dienu skaita aprēķināšanai",
       "family": "hub",
-      "src": "/assets/social-cards/v2/47ebb0085fd4c482-d24ca6aac8b2.jpg",
+      "src": "/assets/social-cards/v2/47ebb0085fd4c482-c4f3a907ac62.jpg",
       "width": 1200,
       "height": 630,
       "type": "image/jpeg",
@@ -6349,12 +6349,12 @@
         "/assets/calendar-data.json": "f0a7090ccc87587d8da0f5428887d8d38d2b71653bdbd9ac25ab5519f63147b3",
         "/assets/fonts/DM-Sans-Bold.ttf": "6193c6c4a9aeb329610cd1991a7c93c1d0d93100fc9901cd43b83ccbdda9cca7",
         "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93",
-        "/assets/tools-art/calculator.svg": "627b4d4768cf550ace736c9a428c83e84ac780278c08cd0cf255ef2ebd23e0fe"
+        "/assets/tools-art/calculator.svg": "9e34b713c14b2aafb8bd39b391299297df91516c1c709306430c82d775409dfe"
       },
-      "panelSha256": "e134c2856f3d86ebd9c611039922544b05e0b84221ba2e0d1bdce21c579cc209",
-      "pixelSha256": "d24ca6aac8b2cd7d10f40fdc3b7c476a1600fe8067c1fd72cd85cde1ad13c5fe",
-      "sha256": "1027480060c1f5fc710e082190fdc54316a2b7063a34091432dd12d82fdee528",
-      "bytes": 107067,
+      "panelSha256": "3b15487b42ec31d9202588cedcd71bc4edb9aa3439eca5034b172fb604af84f0",
+      "pixelSha256": "c4f3a907ac622a6c3cf0f802d9474c7766b88e57c1cdc6798f917c910ac191d3",
+      "sha256": "89eaa7e6d4c4580f575e0e0dbdae5a09480b09c66da0532fcd2cfac7898d25e4",
+      "bytes": 109699,
       "semanticFacts": {}
     },
     "/dienas-garums/": {
@@ -6428,7 +6428,7 @@
         "/assets/calendar-data.json": "f0a7090ccc87587d8da0f5428887d8d38d2b71653bdbd9ac25ab5519f63147b3",
         "/assets/fonts/DM-Sans-Bold.ttf": "6193c6c4a9aeb329610cd1991a7c93c1d0d93100fc9901cd43b83ccbdda9cca7",
         "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93",
-        "/assets/tools-art/study.svg": "039aa9fcf6c1139f0d275ffe724988d2811754d322021f29177ba21f05f75a0d"
+        "/assets/tools-art/study.svg": "29e83ae4a50d5712d192294c475ce0588e3b1d19b2d47bb77e1ebdc34560e59e"
       },
       "panelSha256": "d3b91b65ae241a29d7aea8660a6a8d8c58cd4da049c221f0e3e7bdaa1df99785",
       "pixelSha256": "9a22de6507acb5db6d12ba0856ea5f524bd156c25c2307e891fffbbff2fd37a9",
@@ -6507,7 +6507,7 @@
         "/assets/calendar-data.json": "f0a7090ccc87587d8da0f5428887d8d38d2b71653bdbd9ac25ab5519f63147b3",
         "/assets/fonts/DM-Sans-Bold.ttf": "6193c6c4a9aeb329610cd1991a7c93c1d0d93100fc9901cd43b83ccbdda9cca7",
         "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93",
-        "/assets/tools-art/month.svg": "fed0f79293438cbf776cc6e21bfda03f2b1301bf2258f5b5b577828d3c90bf4f"
+        "/assets/tools-art/month.svg": "b39d01babfb691e888f0843d30289a99752ba47d5c2dbfd06defb45bd94ec612"
       },
       "panelSha256": "9edf060353c9f01b5c6c1d2dec227f9a553652c0ab629b162fb9b4341e177110",
       "pixelSha256": "223629e00568d6fe1aacf6697de83a206feefa7a450b8adaa52487ab86f7f982",
@@ -6592,10 +6592,10 @@
       ],
       "inputs": {
         "/assets/calendar-data.json": "f0a7090ccc87587d8da0f5428887d8d38d2b71653bdbd9ac25ab5519f63147b3",
-        "/assets/category-vector/clock.svg": "e5dfb9b591d210b4620646f08b211c8c9bfd5285916f00e07e075a76f0042922",
+        "/assets/category-vector/clock.svg": "64430baf86771edba78d2e903407040fce739aad5510bd66bd105f1fb3e203e0",
         "/assets/fonts/DM-Sans-Bold.ttf": "6193c6c4a9aeb329610cd1991a7c93c1d0d93100fc9901cd43b83ccbdda9cca7",
         "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93",
-        "/assets/tools-art/week.svg": "a7430cb88b38997115e6c314dfbffa307e27ebd478329af718c2f8a6b5865a93"
+        "/assets/tools-art/week.svg": "ca94343b443eedae2e1bef6909223e9898127c35c40f7c8bf8a67b1d413aefa3"
       },
       "panelSha256": "fa7d5d80ce43c9c39b7541fd7397ac6fc6e68fd4933b99483db05869337075d3",
       "pixelSha256": "10ebce4ecd001e5cbcc80af3ff500152b52257c21c652e84dcf2f9b1d46dd7cc",
@@ -6681,7 +6681,7 @@
         "/assets/calendar-data.json": "f0a7090ccc87587d8da0f5428887d8d38d2b71653bdbd9ac25ab5519f63147b3",
         "/assets/fonts/DM-Sans-Bold.ttf": "6193c6c4a9aeb329610cd1991a7c93c1d0d93100fc9901cd43b83ccbdda9cca7",
         "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93",
-        "/assets/tools-art/countdown.svg": "588a320e194c7455e363a9662b72faaaa9bd31cc935a9d9853be6e4485aa25fc"
+        "/assets/tools-art/countdown.svg": "60782775d26b9ece35cc6b9ef4700b2d36f3e45373d76a92fc7bedb15ef51401"
       },
       "panelSha256": "f2c76c56a525625160f103b6c8e6af0cba47a13a77475eb933b490a6f1a6e8a2",
       "pixelSha256": "01bbd6c05bef9b8a22c46a5428ae6a5f379adfcaf2af0da6549eebe84fb939e8",
@@ -6759,10 +6759,10 @@
       ],
       "inputs": {
         "/assets/calendar-data.json": "f0a7090ccc87587d8da0f5428887d8d38d2b71653bdbd9ac25ab5519f63147b3",
-        "/assets/category-vector/gift.svg": "eebfb505593883d04d6a35901f83f4e6f6f49b6bc24874d37b67e141c476b556",
+        "/assets/category-vector/gift.svg": "4255562e8cb3fb9443a2becafdfc951786267f25b77bc87d128401dfb4029678",
         "/assets/fonts/DM-Sans-Bold.ttf": "6193c6c4a9aeb329610cd1991a7c93c1d0d93100fc9901cd43b83ccbdda9cca7",
         "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93",
-        "/assets/tools-art/family.svg": "015d498e5fa5b87b29d2cad350a0b3da539fd1913eab1bd420c7c968fe8ad52d"
+        "/assets/tools-art/family.svg": "cc910e7794693bf7ad377d5df81c63285e3ac020834e7bf134850727824403c1"
       },
       "panelSha256": "a9d3a2ba06dd746e1ea8563a384b0f174bbb0adbcf0f08fc12deda26b02af8a3",
       "pixelSha256": "7049ec9ee429dc813288a5a638b8e5b15479236c81645f7336237fdcafb46700",
@@ -6834,7 +6834,7 @@
         "/assets/calendar-data.json": "f0a7090ccc87587d8da0f5428887d8d38d2b71653bdbd9ac25ab5519f63147b3",
         "/assets/fonts/DM-Sans-Bold.ttf": "6193c6c4a9aeb329610cd1991a7c93c1d0d93100fc9901cd43b83ccbdda9cca7",
         "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93",
-        "/assets/tools-art/study.svg": "039aa9fcf6c1139f0d275ffe724988d2811754d322021f29177ba21f05f75a0d"
+        "/assets/tools-art/study.svg": "29e83ae4a50d5712d192294c475ce0588e3b1d19b2d47bb77e1ebdc34560e59e"
       },
       "panelSha256": "a7edaeaca698900fa862b0458f366ad12c83a14a0859c916142bf7ac39fded1e",
       "pixelSha256": "9f33d9deb536138cbeb350700550fd85a8ab7efbc3da2af64099ba20a4f932a5",
@@ -6998,7 +6998,7 @@
         "/assets/calendar-data.json": "f0a7090ccc87587d8da0f5428887d8d38d2b71653bdbd9ac25ab5519f63147b3",
         "/assets/fonts/DM-Sans-Bold.ttf": "6193c6c4a9aeb329610cd1991a7c93c1d0d93100fc9901cd43b83ccbdda9cca7",
         "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93",
-        "/assets/tools-art/study.svg": "039aa9fcf6c1139f0d275ffe724988d2811754d322021f29177ba21f05f75a0d"
+        "/assets/tools-art/study.svg": "29e83ae4a50d5712d192294c475ce0588e3b1d19b2d47bb77e1ebdc34560e59e"
       },
       "panelSha256": "e6d2759bc0d3d55aa5ba805aad0e82e51813a35b6f4d5ff0a5e2254c3c126db2",
       "pixelSha256": "0a734ee6dae3e4cbd5b6b7abd65972fd4cf50a26027685865208e83456727d30",
@@ -7084,7 +7084,7 @@
         "/assets/calendar-data.json": "f0a7090ccc87587d8da0f5428887d8d38d2b71653bdbd9ac25ab5519f63147b3",
         "/assets/fonts/DM-Sans-Bold.ttf": "6193c6c4a9aeb329610cd1991a7c93c1d0d93100fc9901cd43b83ccbdda9cca7",
         "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93",
-        "/assets/tools-art/vacation.svg": "90a772348433e2c1a1e51c5c6ebc97aaf1bd463a024484b92681fe8f8e715862"
+        "/assets/tools-art/vacation.svg": "cfee02fe6bc0ac279997c72fbce07904b9b9aaa95e1612baca0ff84a3ae2af12"
       },
       "panelSha256": "b8d681811cfff1d50174a47fa8040db5e1d0750dc4b1ebddd23797b1f732751b",
       "pixelSha256": "9b120fe00d3e5679fd14b6f4faa5aa0cb992eb34516666a16b7ef883e32130d8",
@@ -7474,7 +7474,7 @@
         "/assets/calendar-data.json": "f0a7090ccc87587d8da0f5428887d8d38d2b71653bdbd9ac25ab5519f63147b3",
         "/assets/fonts/DM-Sans-Bold.ttf": "6193c6c4a9aeb329610cd1991a7c93c1d0d93100fc9901cd43b83ccbdda9cca7",
         "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93",
-        "/assets/tools-art/family.svg": "015d498e5fa5b87b29d2cad350a0b3da539fd1913eab1bd420c7c968fe8ad52d"
+        "/assets/tools-art/family.svg": "cc910e7794693bf7ad377d5df81c63285e3ac020834e7bf134850727824403c1"
       },
       "panelSha256": "511220ae9af4cbb22f955f8281398ad03af59b83a0012b4d4ab54f2e169aec49",
       "pixelSha256": "83db5f40391464daef2b8242aefa1c407b65ff5671c2282424ff9f4d15759dd1",
@@ -7561,7 +7561,7 @@
         "/assets/calendar-data.json": "f0a7090ccc87587d8da0f5428887d8d38d2b71653bdbd9ac25ab5519f63147b3",
         "/assets/fonts/DM-Sans-Bold.ttf": "6193c6c4a9aeb329610cd1991a7c93c1d0d93100fc9901cd43b83ccbdda9cca7",
         "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93",
-        "/assets/tools-art/horoscope.svg": "0b0322aa24edf25a8d5f454a74fd3e7146c7f1ffa970893261d4bae73aed2bb5",
+        "/assets/tools-art/horoscope.svg": "855bb93ec16b9eb873e8c1154576807a25a197834ba8d31899cce1ad5a8f3a20",
         "/assets/zodiac/atlas.svg": "ced4d30254da2d6172a6c4a620b2e6546b48ffc64b9a0607b723a53646ad67e1"
       },
       "panelSha256": "166a95f18df11bb633f041bbd4e079f178690be7a00248806e46e658a89a07d1",
@@ -7649,7 +7649,7 @@
         "/assets/calendar-data.json": "f0a7090ccc87587d8da0f5428887d8d38d2b71653bdbd9ac25ab5519f63147b3",
         "/assets/fonts/DM-Sans-Bold.ttf": "6193c6c4a9aeb329610cd1991a7c93c1d0d93100fc9901cd43b83ccbdda9cca7",
         "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93",
-        "/assets/tools-art/horoscope.svg": "0b0322aa24edf25a8d5f454a74fd3e7146c7f1ffa970893261d4bae73aed2bb5",
+        "/assets/tools-art/horoscope.svg": "855bb93ec16b9eb873e8c1154576807a25a197834ba8d31899cce1ad5a8f3a20",
         "/assets/zodiac/atlas.svg": "ced4d30254da2d6172a6c4a620b2e6546b48ffc64b9a0607b723a53646ad67e1"
       },
       "panelSha256": "34fbe0cdc0d6bf2f18cc6b84062efa7bf42f3561727d0f0168cb15f1d790e303",
@@ -8691,7 +8691,7 @@
         "/assets/calendar-data.json": "f0a7090ccc87587d8da0f5428887d8d38d2b71653bdbd9ac25ab5519f63147b3",
         "/assets/fonts/DM-Sans-Bold.ttf": "6193c6c4a9aeb329610cd1991a7c93c1d0d93100fc9901cd43b83ccbdda9cca7",
         "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93",
-        "/assets/tools-art/maker.svg": "fd5a2c50a9ef6d279b0598aeb53c40867c60926bd42414e0388fc19290932a00"
+        "/assets/tools-art/maker.svg": "78fc5b746e3fca0c3a7e22b6570f169bf232452868f7c17c394a7bacc7d9f128"
       },
       "panelSha256": "18c6ec617ff7584c59316b26a2f1ed84823727d677f1e5d3c46e5a3a7c903e11",
       "pixelSha256": "35aaa978dcccfabc3a6dd500d09473b3e0ccd829d41699c0a82f889513b1fb11",
@@ -8779,7 +8779,7 @@
         "/assets/calendar-data.json": "f0a7090ccc87587d8da0f5428887d8d38d2b71653bdbd9ac25ab5519f63147b3",
         "/assets/fonts/DM-Sans-Bold.ttf": "6193c6c4a9aeb329610cd1991a7c93c1d0d93100fc9901cd43b83ccbdda9cca7",
         "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93",
-        "/assets/tools-art/phases.svg": "4f5151ee64c3ab2248dea11ee561e7cba02a73173512c1800013c8bcd3541172"
+        "/assets/tools-art/phases.svg": "9bf9ff21c0e0cba9030b6f73b96f5c5095973b100e70b32177f6e34e01c0e9a7"
       },
       "panelSha256": "ac0d6894baae71cd36e29f55d6b6ea8c3aa487159cf3e674ccd9f85046c76db5",
       "pixelSha256": "42c27e1e29fa4cfaa4804cfa9ac6bb70bc04c521e97861620fa4b9356a1cc111",
@@ -8865,7 +8865,7 @@
         "/assets/calendar-data.json": "f0a7090ccc87587d8da0f5428887d8d38d2b71653bdbd9ac25ab5519f63147b3",
         "/assets/fonts/DM-Sans-Bold.ttf": "6193c6c4a9aeb329610cd1991a7c93c1d0d93100fc9901cd43b83ccbdda9cca7",
         "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93",
-        "/assets/tools-art/names.svg": "71dc7d3fc470a417b57e9d7499db8dc8eb85aa85302dbd621b7497963f83a8a9"
+        "/assets/tools-art/names.svg": "a26b321a8e3795457262db92db60e1f7d116b8d3a727f2487d9c3499cbd8a737"
       },
       "panelSha256": "5b36a5d96ece927cebdd33ead4e3a701dc8c39146919a561072423e44ae26afb",
       "pixelSha256": "f005b12e1d163afa26d8e5f3ab0a8ace8b13ac469a61253c3801b952d685c094",
@@ -8942,7 +8942,7 @@
       ],
       "inputs": {
         "/assets/calendar-data.json": "f0a7090ccc87587d8da0f5428887d8d38d2b71653bdbd9ac25ab5519f63147b3",
-        "/assets/category-vector/names.svg": "285161cc6b9ac442ca063293011d10b48f88a78a800092cde026303f94fd7321",
+        "/assets/category-vector/names.svg": "0ead9b44f67aa564f6d22be9ce85179821a68f822f01701657e7843d5d6ba80b",
         "/assets/fonts/DM-Sans-Bold.ttf": "6193c6c4a9aeb329610cd1991a7c93c1d0d93100fc9901cd43b83ccbdda9cca7",
         "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93"
       },
@@ -9021,7 +9021,7 @@
       ],
       "inputs": {
         "/assets/calendar-data.json": "f0a7090ccc87587d8da0f5428887d8d38d2b71653bdbd9ac25ab5519f63147b3",
-        "/assets/category-vector/names.svg": "285161cc6b9ac442ca063293011d10b48f88a78a800092cde026303f94fd7321",
+        "/assets/category-vector/names.svg": "0ead9b44f67aa564f6d22be9ce85179821a68f822f01701657e7843d5d6ba80b",
         "/assets/fonts/DM-Sans-Bold.ttf": "6193c6c4a9aeb329610cd1991a7c93c1d0d93100fc9901cd43b83ccbdda9cca7",
         "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93"
       },
@@ -9100,7 +9100,7 @@
       ],
       "inputs": {
         "/assets/calendar-data.json": "f0a7090ccc87587d8da0f5428887d8d38d2b71653bdbd9ac25ab5519f63147b3",
-        "/assets/category-vector/names.svg": "285161cc6b9ac442ca063293011d10b48f88a78a800092cde026303f94fd7321",
+        "/assets/category-vector/names.svg": "0ead9b44f67aa564f6d22be9ce85179821a68f822f01701657e7843d5d6ba80b",
         "/assets/fonts/DM-Sans-Bold.ttf": "6193c6c4a9aeb329610cd1991a7c93c1d0d93100fc9901cd43b83ccbdda9cca7",
         "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93"
       },
@@ -9179,7 +9179,7 @@
       ],
       "inputs": {
         "/assets/calendar-data.json": "f0a7090ccc87587d8da0f5428887d8d38d2b71653bdbd9ac25ab5519f63147b3",
-        "/assets/category-vector/names.svg": "285161cc6b9ac442ca063293011d10b48f88a78a800092cde026303f94fd7321",
+        "/assets/category-vector/names.svg": "0ead9b44f67aa564f6d22be9ce85179821a68f822f01701657e7843d5d6ba80b",
         "/assets/fonts/DM-Sans-Bold.ttf": "6193c6c4a9aeb329610cd1991a7c93c1d0d93100fc9901cd43b83ccbdda9cca7",
         "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93"
       },
@@ -9258,7 +9258,7 @@
       ],
       "inputs": {
         "/assets/calendar-data.json": "f0a7090ccc87587d8da0f5428887d8d38d2b71653bdbd9ac25ab5519f63147b3",
-        "/assets/category-vector/names.svg": "285161cc6b9ac442ca063293011d10b48f88a78a800092cde026303f94fd7321",
+        "/assets/category-vector/names.svg": "0ead9b44f67aa564f6d22be9ce85179821a68f822f01701657e7843d5d6ba80b",
         "/assets/fonts/DM-Sans-Bold.ttf": "6193c6c4a9aeb329610cd1991a7c93c1d0d93100fc9901cd43b83ccbdda9cca7",
         "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93"
       },
@@ -9337,7 +9337,7 @@
       ],
       "inputs": {
         "/assets/calendar-data.json": "f0a7090ccc87587d8da0f5428887d8d38d2b71653bdbd9ac25ab5519f63147b3",
-        "/assets/category-vector/names.svg": "285161cc6b9ac442ca063293011d10b48f88a78a800092cde026303f94fd7321",
+        "/assets/category-vector/names.svg": "0ead9b44f67aa564f6d22be9ce85179821a68f822f01701657e7843d5d6ba80b",
         "/assets/fonts/DM-Sans-Bold.ttf": "6193c6c4a9aeb329610cd1991a7c93c1d0d93100fc9901cd43b83ccbdda9cca7",
         "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93"
       },
@@ -9416,7 +9416,7 @@
       ],
       "inputs": {
         "/assets/calendar-data.json": "f0a7090ccc87587d8da0f5428887d8d38d2b71653bdbd9ac25ab5519f63147b3",
-        "/assets/category-vector/names.svg": "285161cc6b9ac442ca063293011d10b48f88a78a800092cde026303f94fd7321",
+        "/assets/category-vector/names.svg": "0ead9b44f67aa564f6d22be9ce85179821a68f822f01701657e7843d5d6ba80b",
         "/assets/fonts/DM-Sans-Bold.ttf": "6193c6c4a9aeb329610cd1991a7c93c1d0d93100fc9901cd43b83ccbdda9cca7",
         "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93"
       },
@@ -9495,7 +9495,7 @@
       ],
       "inputs": {
         "/assets/calendar-data.json": "f0a7090ccc87587d8da0f5428887d8d38d2b71653bdbd9ac25ab5519f63147b3",
-        "/assets/category-vector/names.svg": "285161cc6b9ac442ca063293011d10b48f88a78a800092cde026303f94fd7321",
+        "/assets/category-vector/names.svg": "0ead9b44f67aa564f6d22be9ce85179821a68f822f01701657e7843d5d6ba80b",
         "/assets/fonts/DM-Sans-Bold.ttf": "6193c6c4a9aeb329610cd1991a7c93c1d0d93100fc9901cd43b83ccbdda9cca7",
         "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93"
       },
@@ -9574,7 +9574,7 @@
       ],
       "inputs": {
         "/assets/calendar-data.json": "f0a7090ccc87587d8da0f5428887d8d38d2b71653bdbd9ac25ab5519f63147b3",
-        "/assets/category-vector/names.svg": "285161cc6b9ac442ca063293011d10b48f88a78a800092cde026303f94fd7321",
+        "/assets/category-vector/names.svg": "0ead9b44f67aa564f6d22be9ce85179821a68f822f01701657e7843d5d6ba80b",
         "/assets/fonts/DM-Sans-Bold.ttf": "6193c6c4a9aeb329610cd1991a7c93c1d0d93100fc9901cd43b83ccbdda9cca7",
         "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93"
       },
@@ -9653,7 +9653,7 @@
       ],
       "inputs": {
         "/assets/calendar-data.json": "f0a7090ccc87587d8da0f5428887d8d38d2b71653bdbd9ac25ab5519f63147b3",
-        "/assets/category-vector/names.svg": "285161cc6b9ac442ca063293011d10b48f88a78a800092cde026303f94fd7321",
+        "/assets/category-vector/names.svg": "0ead9b44f67aa564f6d22be9ce85179821a68f822f01701657e7843d5d6ba80b",
         "/assets/fonts/DM-Sans-Bold.ttf": "6193c6c4a9aeb329610cd1991a7c93c1d0d93100fc9901cd43b83ccbdda9cca7",
         "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93"
       },
@@ -9732,7 +9732,7 @@
       ],
       "inputs": {
         "/assets/calendar-data.json": "f0a7090ccc87587d8da0f5428887d8d38d2b71653bdbd9ac25ab5519f63147b3",
-        "/assets/category-vector/names.svg": "285161cc6b9ac442ca063293011d10b48f88a78a800092cde026303f94fd7321",
+        "/assets/category-vector/names.svg": "0ead9b44f67aa564f6d22be9ce85179821a68f822f01701657e7843d5d6ba80b",
         "/assets/fonts/DM-Sans-Bold.ttf": "6193c6c4a9aeb329610cd1991a7c93c1d0d93100fc9901cd43b83ccbdda9cca7",
         "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93"
       },
@@ -9811,7 +9811,7 @@
       ],
       "inputs": {
         "/assets/calendar-data.json": "f0a7090ccc87587d8da0f5428887d8d38d2b71653bdbd9ac25ab5519f63147b3",
-        "/assets/category-vector/names.svg": "285161cc6b9ac442ca063293011d10b48f88a78a800092cde026303f94fd7321",
+        "/assets/category-vector/names.svg": "0ead9b44f67aa564f6d22be9ce85179821a68f822f01701657e7843d5d6ba80b",
         "/assets/fonts/DM-Sans-Bold.ttf": "6193c6c4a9aeb329610cd1991a7c93c1d0d93100fc9901cd43b83ccbdda9cca7",
         "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93"
       },
@@ -9890,7 +9890,7 @@
       ],
       "inputs": {
         "/assets/calendar-data.json": "f0a7090ccc87587d8da0f5428887d8d38d2b71653bdbd9ac25ab5519f63147b3",
-        "/assets/category-vector/names.svg": "285161cc6b9ac442ca063293011d10b48f88a78a800092cde026303f94fd7321",
+        "/assets/category-vector/names.svg": "0ead9b44f67aa564f6d22be9ce85179821a68f822f01701657e7843d5d6ba80b",
         "/assets/fonts/DM-Sans-Bold.ttf": "6193c6c4a9aeb329610cd1991a7c93c1d0d93100fc9901cd43b83ccbdda9cca7",
         "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93"
       },
@@ -9969,7 +9969,7 @@
       ],
       "inputs": {
         "/assets/calendar-data.json": "f0a7090ccc87587d8da0f5428887d8d38d2b71653bdbd9ac25ab5519f63147b3",
-        "/assets/category-vector/names.svg": "285161cc6b9ac442ca063293011d10b48f88a78a800092cde026303f94fd7321",
+        "/assets/category-vector/names.svg": "0ead9b44f67aa564f6d22be9ce85179821a68f822f01701657e7843d5d6ba80b",
         "/assets/fonts/DM-Sans-Bold.ttf": "6193c6c4a9aeb329610cd1991a7c93c1d0d93100fc9901cd43b83ccbdda9cca7",
         "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93"
       },
@@ -10048,7 +10048,7 @@
       ],
       "inputs": {
         "/assets/calendar-data.json": "f0a7090ccc87587d8da0f5428887d8d38d2b71653bdbd9ac25ab5519f63147b3",
-        "/assets/category-vector/names.svg": "285161cc6b9ac442ca063293011d10b48f88a78a800092cde026303f94fd7321",
+        "/assets/category-vector/names.svg": "0ead9b44f67aa564f6d22be9ce85179821a68f822f01701657e7843d5d6ba80b",
         "/assets/fonts/DM-Sans-Bold.ttf": "6193c6c4a9aeb329610cd1991a7c93c1d0d93100fc9901cd43b83ccbdda9cca7",
         "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93"
       },
@@ -10127,7 +10127,7 @@
       ],
       "inputs": {
         "/assets/calendar-data.json": "f0a7090ccc87587d8da0f5428887d8d38d2b71653bdbd9ac25ab5519f63147b3",
-        "/assets/category-vector/names.svg": "285161cc6b9ac442ca063293011d10b48f88a78a800092cde026303f94fd7321",
+        "/assets/category-vector/names.svg": "0ead9b44f67aa564f6d22be9ce85179821a68f822f01701657e7843d5d6ba80b",
         "/assets/fonts/DM-Sans-Bold.ttf": "6193c6c4a9aeb329610cd1991a7c93c1d0d93100fc9901cd43b83ccbdda9cca7",
         "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93"
       },
@@ -10206,7 +10206,7 @@
       ],
       "inputs": {
         "/assets/calendar-data.json": "f0a7090ccc87587d8da0f5428887d8d38d2b71653bdbd9ac25ab5519f63147b3",
-        "/assets/category-vector/names.svg": "285161cc6b9ac442ca063293011d10b48f88a78a800092cde026303f94fd7321",
+        "/assets/category-vector/names.svg": "0ead9b44f67aa564f6d22be9ce85179821a68f822f01701657e7843d5d6ba80b",
         "/assets/fonts/DM-Sans-Bold.ttf": "6193c6c4a9aeb329610cd1991a7c93c1d0d93100fc9901cd43b83ccbdda9cca7",
         "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93"
       },
@@ -10285,7 +10285,7 @@
       ],
       "inputs": {
         "/assets/calendar-data.json": "f0a7090ccc87587d8da0f5428887d8d38d2b71653bdbd9ac25ab5519f63147b3",
-        "/assets/category-vector/names.svg": "285161cc6b9ac442ca063293011d10b48f88a78a800092cde026303f94fd7321",
+        "/assets/category-vector/names.svg": "0ead9b44f67aa564f6d22be9ce85179821a68f822f01701657e7843d5d6ba80b",
         "/assets/fonts/DM-Sans-Bold.ttf": "6193c6c4a9aeb329610cd1991a7c93c1d0d93100fc9901cd43b83ccbdda9cca7",
         "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93"
       },
@@ -10364,7 +10364,7 @@
       ],
       "inputs": {
         "/assets/calendar-data.json": "f0a7090ccc87587d8da0f5428887d8d38d2b71653bdbd9ac25ab5519f63147b3",
-        "/assets/category-vector/names.svg": "285161cc6b9ac442ca063293011d10b48f88a78a800092cde026303f94fd7321",
+        "/assets/category-vector/names.svg": "0ead9b44f67aa564f6d22be9ce85179821a68f822f01701657e7843d5d6ba80b",
         "/assets/fonts/DM-Sans-Bold.ttf": "6193c6c4a9aeb329610cd1991a7c93c1d0d93100fc9901cd43b83ccbdda9cca7",
         "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93"
       },
@@ -10443,7 +10443,7 @@
       ],
       "inputs": {
         "/assets/calendar-data.json": "f0a7090ccc87587d8da0f5428887d8d38d2b71653bdbd9ac25ab5519f63147b3",
-        "/assets/category-vector/names.svg": "285161cc6b9ac442ca063293011d10b48f88a78a800092cde026303f94fd7321",
+        "/assets/category-vector/names.svg": "0ead9b44f67aa564f6d22be9ce85179821a68f822f01701657e7843d5d6ba80b",
         "/assets/fonts/DM-Sans-Bold.ttf": "6193c6c4a9aeb329610cd1991a7c93c1d0d93100fc9901cd43b83ccbdda9cca7",
         "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93"
       },
@@ -10531,7 +10531,7 @@
         "/assets/calendar-data.json": "f0a7090ccc87587d8da0f5428887d8d38d2b71653bdbd9ac25ab5519f63147b3",
         "/assets/fonts/DM-Sans-Bold.ttf": "6193c6c4a9aeb329610cd1991a7c93c1d0d93100fc9901cd43b83ccbdda9cca7",
         "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93",
-        "/assets/tools-art/year.svg": "1b30a7395539138487d2ae0524132a45c18aec36ae1041c2e93c199005ccb941"
+        "/assets/tools-art/year.svg": "dcd1f24bbeafec40ee045c6ce43aa6d05310b08d95c267f76ea75d78bbca2ad2"
       },
       "panelSha256": "9ba2ddae4470e0a92bd88232931d142a60a3f2c528b3346beb45341b64e2d1a4",
       "pixelSha256": "2c5ab997e0107ca2feccfb314f64f00e69f2aeebe49c0790f9716ee983a645e5",
@@ -14937,7 +14937,7 @@
         "/assets/calendar-data.json": "f0a7090ccc87587d8da0f5428887d8d38d2b71653bdbd9ac25ab5519f63147b3",
         "/assets/fonts/DM-Sans-Bold.ttf": "6193c6c4a9aeb329610cd1991a7c93c1d0d93100fc9901cd43b83ccbdda9cca7",
         "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93",
-        "/assets/tools-art/study.svg": "039aa9fcf6c1139f0d275ffe724988d2811754d322021f29177ba21f05f75a0d"
+        "/assets/tools-art/study.svg": "29e83ae4a50d5712d192294c475ce0588e3b1d19b2d47bb77e1ebdc34560e59e"
       },
       "panelSha256": "90214a33b5ce0f46e6efad06ba992ea89f2aa0cf8e0003044e945dd4315f336f",
       "pixelSha256": "7c2d78c18a6e4be4e1dada2a4ba77602e5e49cd604416961af47dc7c0932cbdf",
@@ -15015,10 +15015,10 @@
       ],
       "inputs": {
         "/assets/calendar-data.json": "f0a7090ccc87587d8da0f5428887d8d38d2b71653bdbd9ac25ab5519f63147b3",
-        "/assets/category-vector/privacy.svg": "6d687be6cb1b0377ea16971e092333b9a020fe58b5f70a90ee39f973bb4530fd",
+        "/assets/category-vector/privacy.svg": "03894ee92db4e2310bb0e0dd5f642e1819120a3c2079d7f726c7efdeccc67eb9",
         "/assets/fonts/DM-Sans-Bold.ttf": "6193c6c4a9aeb329610cd1991a7c93c1d0d93100fc9901cd43b83ccbdda9cca7",
         "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93",
-        "/assets/tools-art/study.svg": "039aa9fcf6c1139f0d275ffe724988d2811754d322021f29177ba21f05f75a0d"
+        "/assets/tools-art/study.svg": "29e83ae4a50d5712d192294c475ce0588e3b1d19b2d47bb77e1ebdc34560e59e"
       },
       "panelSha256": "14d7927d4b984dc53f7f59d5046c340cc02f6b51614860de55fc481f0163a91b",
       "pixelSha256": "156646ffb9a11886065b299b9930f088a44b4d0c3867bec5067b3b7113d15f77",
@@ -15097,7 +15097,7 @@
         "/assets/calendar-data.json": "f0a7090ccc87587d8da0f5428887d8d38d2b71653bdbd9ac25ab5519f63147b3",
         "/assets/fonts/DM-Sans-Bold.ttf": "6193c6c4a9aeb329610cd1991a7c93c1d0d93100fc9901cd43b83ccbdda9cca7",
         "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93",
-        "/assets/tools-art/shift.svg": "43dd1f7faa1f1a06ab32068d59d2bd865aced4e08ed5c28a388a6183fbbdd12b"
+        "/assets/tools-art/shift.svg": "43a8f284bb6cebf8bb50a4b6120c8b5c242e6c50000c36f7033f9ada2d669a67"
       },
       "panelSha256": "7cce4e204f4f921fa2e5f71152a7d978d42e1df1462fe8d857bc38cdd0e6611d",
       "pixelSha256": "1ada73b713c2a3b0d4f159352be98a469d2b2b756a12677d9fad9dcfaa331afb",
@@ -15169,7 +15169,7 @@
         "/assets/calendar-data.json": "f0a7090ccc87587d8da0f5428887d8d38d2b71653bdbd9ac25ab5519f63147b3",
         "/assets/fonts/DM-Sans-Bold.ttf": "6193c6c4a9aeb329610cd1991a7c93c1d0d93100fc9901cd43b83ccbdda9cca7",
         "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93",
-        "/assets/tools-art/study.svg": "039aa9fcf6c1139f0d275ffe724988d2811754d322021f29177ba21f05f75a0d"
+        "/assets/tools-art/study.svg": "29e83ae4a50d5712d192294c475ce0588e3b1d19b2d47bb77e1ebdc34560e59e"
       },
       "panelSha256": "92ede3cc62d21e3e2b8960fbc0b684324d8f241ea187e5c2db6b65d483b09303",
       "pixelSha256": "374119d7592343b26ba53bf63796330fd2025ac6ceb6bae77b0b2bcdc3d74294",
@@ -15248,7 +15248,7 @@
         "/assets/calendar-data.json": "f0a7090ccc87587d8da0f5428887d8d38d2b71653bdbd9ac25ab5519f63147b3",
         "/assets/fonts/DM-Sans-Bold.ttf": "6193c6c4a9aeb329610cd1991a7c93c1d0d93100fc9901cd43b83ccbdda9cca7",
         "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93",
-        "/assets/tools-art/month.svg": "fed0f79293438cbf776cc6e21bfda03f2b1301bf2258f5b5b577828d3c90bf4f"
+        "/assets/tools-art/month.svg": "b39d01babfb691e888f0843d30289a99752ba47d5c2dbfd06defb45bd94ec612"
       },
       "panelSha256": "565020f6649ed720c81b3fafc4bb622ccf05d9b0bd701aff6995077d8724eae4",
       "pixelSha256": "d0bc6994d2227d2eded61322c73f9b369ebf50d3400e8482ac44d4dea30ac167",
@@ -15646,7 +15646,7 @@
         "/assets/calendar-data.json": "f0a7090ccc87587d8da0f5428887d8d38d2b71653bdbd9ac25ab5519f63147b3",
         "/assets/fonts/DM-Sans-Bold.ttf": "6193c6c4a9aeb329610cd1991a7c93c1d0d93100fc9901cd43b83ccbdda9cca7",
         "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93",
-        "/assets/tools-art/astronomy.svg": "13688e78f87a59664a6735d568b7c2a3e676038da517fd39e673ff8809f89a6f"
+        "/assets/tools-art/astronomy.svg": "ce9681bdc63c34dadc540d0dfbd17d8aff782b993600fe5918e2cf958266eb23"
       },
       "panelSha256": "7f111a4fabb08cd9d6b4add97382d661205373558a68f7df6bac8479952fe227",
       "pixelSha256": "37df209da6d80696da5c498833e47413b4a601704713d29ce0fc4b0a55588ef2",
@@ -15725,7 +15725,7 @@
         "/assets/calendar-data.json": "f0a7090ccc87587d8da0f5428887d8d38d2b71653bdbd9ac25ab5519f63147b3",
         "/assets/fonts/DM-Sans-Bold.ttf": "6193c6c4a9aeb329610cd1991a7c93c1d0d93100fc9901cd43b83ccbdda9cca7",
         "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93",
-        "/assets/tools-art/phases.svg": "4f5151ee64c3ab2248dea11ee561e7cba02a73173512c1800013c8bcd3541172"
+        "/assets/tools-art/phases.svg": "9bf9ff21c0e0cba9030b6f73b96f5c5095973b100e70b32177f6e34e01c0e9a7"
       },
       "panelSha256": "aeb7676b91726e585f84c87e9b6c037b10936cf116bc7c381e9ff29776971cfb",
       "pixelSha256": "2fee6fe1b88e515cbd963161bbb6ad9c4d411f65291f5589ea5bc2cbee1f6c69",
@@ -15817,7 +15817,7 @@
         "/assets/calendar-data.json": "f0a7090ccc87587d8da0f5428887d8d38d2b71653bdbd9ac25ab5519f63147b3",
         "/assets/fonts/DM-Sans-Bold.ttf": "6193c6c4a9aeb329610cd1991a7c93c1d0d93100fc9901cd43b83ccbdda9cca7",
         "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93",
-        "/assets/tools-art/moon.svg": "d159661bf94a6ab92dd815a22d383d69b705796c7de7cc8ec5f6f390d8cd1a28"
+        "/assets/tools-art/moon.svg": "d66e8fb8f60d9d51e9c7354368d07dbe970c2214f8541a8f8a5db4ebf36256ac"
       },
       "panelSha256": "ccf51e72d5c622ab191c7a9c85e9555b5783425cc6e15a2a4af3c331f7b3085d",
       "pixelSha256": "3036d8b1127e59f92c65bcb7b7b2b775a8d2369dd1311a189dfc25c7bff72961",
@@ -26959,7 +26959,7 @@
         "/assets/cities/riga-960.webp": "26228d2eeaf99c5e5c40b975a2d263a55f940c3f4771141c8c59469c94ca9630",
         "/assets/fonts/DM-Sans-Bold.ttf": "6193c6c4a9aeb329610cd1991a7c93c1d0d93100fc9901cd43b83ccbdda9cca7",
         "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93",
-        "/assets/tools-art/moon.svg": "d159661bf94a6ab92dd815a22d383d69b705796c7de7cc8ec5f6f390d8cd1a28"
+        "/assets/tools-art/moon.svg": "d66e8fb8f60d9d51e9c7354368d07dbe970c2214f8541a8f8a5db4ebf36256ac"
       },
       "panelSha256": "e5ca480b6bac3773f26d2e19ebd85fa5d531bf0ee83991d813aecf18e19a5463",
       "pixelSha256": "e19eaf9451939b25dd63d832bcf27633ca03be1e749a37d489a8ec8700b74488",
@@ -35081,7 +35081,7 @@
         "/assets/calendar-data.json": "f0a7090ccc87587d8da0f5428887d8d38d2b71653bdbd9ac25ab5519f63147b3",
         "/assets/fonts/DM-Sans-Bold.ttf": "6193c6c4a9aeb329610cd1991a7c93c1d0d93100fc9901cd43b83ccbdda9cca7",
         "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93",
-        "/assets/tools-art/week.svg": "a7430cb88b38997115e6c314dfbffa307e27ebd478329af718c2f8a6b5865a93"
+        "/assets/tools-art/week.svg": "ca94343b443eedae2e1bef6909223e9898127c35c40f7c8bf8a67b1d413aefa3"
       },
       "panelSha256": "27bed5adb2ce2635e4a6cde809d39a0463ca96a9d8d7cd408e451411eeaa465b",
       "pixelSha256": "b17931136a25e18bf023af2f36637cf7db54c53a1b6f2052da52e90d9f149ec1",
@@ -53768,7 +53768,7 @@
         "/assets/calendar-data.json": "f0a7090ccc87587d8da0f5428887d8d38d2b71653bdbd9ac25ab5519f63147b3",
         "/assets/fonts/DM-Sans-Bold.ttf": "6193c6c4a9aeb329610cd1991a7c93c1d0d93100fc9901cd43b83ccbdda9cca7",
         "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93",
-        "/assets/tools-art/week.svg": "a7430cb88b38997115e6c314dfbffa307e27ebd478329af718c2f8a6b5865a93"
+        "/assets/tools-art/week.svg": "ca94343b443eedae2e1bef6909223e9898127c35c40f7c8bf8a67b1d413aefa3"
       },
       "panelSha256": "c0838f4d8ce7e43da622c9394cac5f14825f0b6f7a0d9b6b0745fd9588281e77",
       "pixelSha256": "f9d55c9f0caf87a8207ec646bd2428f2ce328a9c6bc7bf1051045b8af6da8913",
@@ -53778,23 +53778,24 @@
     },
     "/nozimigas-dienas/": {
       "url": "/nozimigas-dienas/",
-      "title": "Nozīmīgas dienas Latvijā",
+      "title": "Nozīmīgas dienas un pasākumi Latvijā",
       "family": "latvia_special",
-      "src": "/assets/social-cards/v2/b9cf02663c89da30-e7e39524ce58.jpg",
+      "src": "/assets/social-cards/v2/b9cf02663c89da30-62675f79f8cd.jpg",
       "width": 1200,
       "height": 630,
       "type": "image/jpeg",
-      "alt": "Nozīmīgas dienas Latvijā | Kalendārs365 Latvijai",
-      "design": "studio",
-      "kicker": "NODERĪGI IKDIENAI",
-      "subtitle": "Skaidrs ceļš cauri gadam",
+      "alt": "Nozīmīgas dienas un pasākumi Latvijā | Kalendārs365 Latvijai",
+      "design": "occasion",
+      "kicker": "NOTIKUMI LATVIJĀ",
+      "subtitle": "Datumi · Vietas · Apmeklējuma plāns",
       "year": 2027,
       "month": null,
       "titleLayout": {
-        "text": "Nozīmīgas dienas Latvijā",
+        "text": "Nozīmīgas dienas un pasākumi Latvijā",
         "size": 55,
         "lines": [
           "Nozīmīgas dienas",
+          "un pasākumi",
           "Latvijā"
         ],
         "bounds": [
@@ -53807,8 +53808,14 @@
           [
             60.0,
             248.0,
-            240.5,
+            403.0,
             300.5
+          ],
+          [
+            60.0,
+            311.5,
+            240.5,
+            364.0
           ]
         ],
         "region": [
@@ -53819,17 +53826,17 @@
         ]
       },
       "subtitleLayout": {
-        "text": "Skaidrs ceļš cauri gadam",
+        "text": "Datumi · Vietas · Apmeklējuma plāns",
         "size": 20,
         "lines": [
-          "Skaidrs ceļš cauri gadam"
+          "Datumi · Vietas · Apmeklējuma plāns"
         ],
         "bounds": [
           [
             62.0,
             466.0,
-            293.5,
-            485.5
+            400.0,
+            485.0
           ]
         ],
         "region": [
@@ -53839,34 +53846,40 @@
           512
         ]
       },
-      "sources": [],
-      "artwork": [
-        "/assets/tools-art/study.svg"
+      "sources": [
+        {
+          "src": "/assets/occasions/christmas-960.webp",
+          "author": "AleWi",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Christmas_market,_Riga_20241209_-_06.jpg"
+        }
       ],
+      "artwork": [],
       "inputs": {
         "/assets/calendar-data.json": "f0a7090ccc87587d8da0f5428887d8d38d2b71653bdbd9ac25ab5519f63147b3",
         "/assets/fonts/DM-Sans-Bold.ttf": "6193c6c4a9aeb329610cd1991a7c93c1d0d93100fc9901cd43b83ccbdda9cca7",
         "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93",
-        "/assets/tools-art/study.svg": "039aa9fcf6c1139f0d275ffe724988d2811754d322021f29177ba21f05f75a0d"
+        "/assets/occasions/christmas-960.webp": "2faa9204e0b1834acb340aaf866d97348cb858a45d4fb8572caead6f811ebc12"
       },
-      "panelSha256": "dbf19823763ce3b20ffa8c5c64eeffdcdca1f04c08b8fc9944beac582dccd54e",
-      "pixelSha256": "e7e39524ce58c11b2507ad1e683d4a99c873f850da10cc072219e4cd8a15a86a",
-      "sha256": "1149166a6462995b6cb8545dfa10818230f47e75ccd19dde0434293a0c43c6c1",
-      "bytes": 89993,
+      "panelSha256": "a89cd1b2e02acc00ec406de53fc76913f0e131864dedeb1ba7ebe65c876a18f8",
+      "pixelSha256": "62675f79f8cd0ad3acf6d57d77e9e47ab5fe6e648f6061aa82c9743ab13ed919",
+      "sha256": "e61498f8967b797bd734e9f7c4dd6028609a453fad44fd1efb40d6c2f7a08029",
+      "bytes": 146794,
       "semanticFacts": {}
     },
     "/pabalstu-izmaksas/": {
       "url": "/pabalstu-izmaksas/",
       "title": "Pabalstu izmaksas Latvijā",
       "family": "latvia_special",
-      "src": "/assets/social-cards/v2/0a9a465f1153590a-b6f0458dae9b.jpg",
+      "src": "/assets/social-cards/v2/0a9a465f1153590a-da43f5041d92.jpg",
       "width": 1200,
       "height": 630,
       "type": "image/jpeg",
       "alt": "Pabalstu izmaksas Latvijā | Kalendārs365 Latvijai",
-      "design": "studio",
-      "kicker": "NODERĪGI IKDIENAI",
-      "subtitle": "Skaidrs ceļš cauri gadam",
+      "design": "benefit",
+      "kicker": "SOCIĀLAIS ATBALSTS LATVIJĀ",
+      "subtitle": "Pieteikums · Lēmums · Maksājums",
       "year": 2027,
       "month": null,
       "titleLayout": {
@@ -53898,17 +53911,17 @@
         ]
       },
       "subtitleLayout": {
-        "text": "Skaidrs ceļš cauri gadam",
+        "text": "Pieteikums · Lēmums · Maksājums",
         "size": 20,
         "lines": [
-          "Skaidrs ceļš cauri gadam"
+          "Pieteikums · Lēmums · Maksājums"
         ],
         "bounds": [
           [
             62.0,
             466.0,
-            293.5,
-            485.5
+            377.0,
+            485.0
           ]
         ],
         "region": [
@@ -53920,18 +53933,20 @@
       },
       "sources": [],
       "artwork": [
-        "/assets/tools-art/study.svg"
+        "/_data/benefit-guides.json",
+        "/assets/category-vector/planner.svg"
       ],
       "inputs": {
+        "/_data/benefit-guides.json": "73476e89d44e07586589d33756ed4a507831b55657c22c587c89fa5b80e7a891",
         "/assets/calendar-data.json": "f0a7090ccc87587d8da0f5428887d8d38d2b71653bdbd9ac25ab5519f63147b3",
+        "/assets/category-vector/planner.svg": "877867c3b9e8212ebd2041bc88cc647bcfc7f22e5d282301ecd4771cb416148f",
         "/assets/fonts/DM-Sans-Bold.ttf": "6193c6c4a9aeb329610cd1991a7c93c1d0d93100fc9901cd43b83ccbdda9cca7",
-        "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93",
-        "/assets/tools-art/study.svg": "039aa9fcf6c1139f0d275ffe724988d2811754d322021f29177ba21f05f75a0d"
+        "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93"
       },
-      "panelSha256": "b12c95663ef05e803378b6304b8d5dd01946a1144d75a7a48ed532e339ef3f4f",
-      "pixelSha256": "b6f0458dae9b790a57198e0dd27e8870c2becdd17da8d723052a7cd38817088d",
-      "sha256": "7e357e6165d8a4832ee9c7baac8ae50606d48e3211d8f9775c0807b5ce5ac171",
-      "bytes": 90832,
+      "panelSha256": "591e52f30516ff1325438362010dcd71238eec77e8a5187caf7c6b3f34645696",
+      "pixelSha256": "da43f5041d92de44511e0bbce8bc67abf0cca3b7ca516083600aaeebd4cc92f1",
+      "sha256": "478b351afba19770dd6b4787951be462c938efd0b12e70f7bd2943af2bb14001",
+      "bytes": 79442,
       "semanticFacts": {}
     },
     "/par-projektu/": {
@@ -54084,7 +54099,7 @@
         "/assets/calendar-data.json": "f0a7090ccc87587d8da0f5428887d8d38d2b71653bdbd9ac25ab5519f63147b3",
         "/assets/fonts/DM-Sans-Bold.ttf": "6193c6c4a9aeb329610cd1991a7c93c1d0d93100fc9901cd43b83ccbdda9cca7",
         "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93",
-        "/assets/tools-art/print.svg": "5b121541c82ce482a7b1295ce1197ce27e8f6b7a1ed2bed95c254092088a50e7"
+        "/assets/tools-art/print.svg": "4df914c0a9ce43021be935e10ad65dcd92dd14ab2e2cc4238f92446c67852292"
       },
       "panelSha256": "55224ce5a2b8a7f5c623ecf3ce32ee4a814b1b1c2e739da9907bf29e48146c30",
       "pixelSha256": "73f498924df2e5907343e7fda5450e38a3770e67d4b55664647724ab94ab40e1",
@@ -58825,37 +58840,51 @@
     },
     "/pensiju-izmaksas/": {
       "url": "/pensiju-izmaksas/",
-      "title": "Pensiju izmaksas Latvijā",
+      "title": "Pensija Latvijā un pensionēšanās vecuma kalkulators",
       "family": "latvia_special",
-      "src": "/assets/social-cards/v2/2a5dd4ea27a44667-3a6de75b54d6.jpg",
+      "src": "/assets/social-cards/v2/2a5dd4ea27a44667-a1452e49638f.jpg",
       "width": 1200,
       "height": 630,
       "type": "image/jpeg",
-      "alt": "Pensiju izmaksas Latvijā | Kalendārs365 Latvijai",
+      "alt": "Pensija Latvijā un pensionēšanās vecuma kalkulators | Kalendārs365 Latvijai",
       "design": "studio",
       "kicker": "NODERĪGI IKDIENAI",
       "subtitle": "Skaidrs ceļš cauri gadam",
       "year": 2027,
       "month": null,
       "titleLayout": {
-        "text": "Pensiju izmaksas Latvijā",
+        "text": "Pensija Latvijā un pensionēšanās vecuma kalkulators",
         "size": 55,
         "lines": [
-          "Pensiju izmaksas",
-          "Latvijā"
+          "Pensija Latvijā un",
+          "pensionēšanās",
+          "vecuma",
+          "kalkulators"
         ],
         "bounds": [
           [
             60.0,
             184.0,
-            515.5,
+            527.0,
             236.5
           ],
           [
             60.0,
             248.0,
-            240.5,
-            300.5
+            464.5,
+            301.5
+          ],
+          [
+            60.0,
+            311.5,
+            275.0,
+            340.5
+          ],
+          [
+            60.0,
+            375.5,
+            359.5,
+            416.0
           ]
         ],
         "region": [
@@ -58894,12 +58923,12 @@
         "/assets/calendar-data.json": "f0a7090ccc87587d8da0f5428887d8d38d2b71653bdbd9ac25ab5519f63147b3",
         "/assets/fonts/DM-Sans-Bold.ttf": "6193c6c4a9aeb329610cd1991a7c93c1d0d93100fc9901cd43b83ccbdda9cca7",
         "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93",
-        "/assets/tools-art/study.svg": "039aa9fcf6c1139f0d275ffe724988d2811754d322021f29177ba21f05f75a0d"
+        "/assets/tools-art/study.svg": "29e83ae4a50d5712d192294c475ce0588e3b1d19b2d47bb77e1ebdc34560e59e"
       },
-      "panelSha256": "bc19e57e3f1b9099de1c7912e68cc610d6523c44437f14344dbcd0a382737b21",
-      "pixelSha256": "3a6de75b54d66dab487c4e73131e08a63a14e1ee5feaf8a3726d2d07422c3016",
-      "sha256": "c666aa5efdbc2ff1a171b2ab1a2c2edc37d3a88d02f02fbddfb76e370df4c7f3",
-      "bytes": 89606,
+      "panelSha256": "3ab3031185155073e24bd4cdf535fd54dffe0bcc15835a343b6df9ca73017a09",
+      "pixelSha256": "a1452e49638f395c45ee27bc8c39e27d5210c799dc4a35542c882038c1019bf9",
+      "sha256": "b4a95242ebd0c4f5ffdf1d3104e1a12d2d0fa3f8286408259be7a3fc82dc57bf",
+      "bytes": 114820,
       "semanticFacts": {}
     },
     "/perseidas/": {
@@ -58981,7 +59010,7 @@
         "/assets/calendar-data.json": "f0a7090ccc87587d8da0f5428887d8d38d2b71653bdbd9ac25ab5519f63147b3",
         "/assets/fonts/DM-Sans-Bold.ttf": "6193c6c4a9aeb329610cd1991a7c93c1d0d93100fc9901cd43b83ccbdda9cca7",
         "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93",
-        "/assets/tools-art/astronomy.svg": "13688e78f87a59664a6735d568b7c2a3e676038da517fd39e673ff8809f89a6f"
+        "/assets/tools-art/astronomy.svg": "ce9681bdc63c34dadc540d0dfbd17d8aff782b993600fe5918e2cf958266eb23"
       },
       "panelSha256": "f9286f5defbdde890e1e55eadbc083734a9d7e3ba3cc189e69b9267c13fe5252",
       "pixelSha256": "8d3a1b12f84f0970b722d82c5382b813ef8c8d5987b2a6385b8ad2e1e926b982",
@@ -59148,7 +59177,7 @@
         "/assets/calendar-data.json": "f0a7090ccc87587d8da0f5428887d8d38d2b71653bdbd9ac25ab5519f63147b3",
         "/assets/fonts/DM-Sans-Bold.ttf": "6193c6c4a9aeb329610cd1991a7c93c1d0d93100fc9901cd43b83ccbdda9cca7",
         "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93",
-        "/assets/tools-art/moon.svg": "d159661bf94a6ab92dd815a22d383d69b705796c7de7cc8ec5f6f390d8cd1a28"
+        "/assets/tools-art/moon.svg": "d66e8fb8f60d9d51e9c7354368d07dbe970c2214f8541a8f8a5db4ebf36256ac"
       },
       "panelSha256": "14169461058bf687f8cde743f856cfc2a6776dfed67247acf9fc478eb7eb9559",
       "pixelSha256": "f9124d6129f3725ba791c00ef46479e023ed74f264986d56b525ea9666f3caad",
@@ -59239,7 +59268,7 @@
       "url": "/pulkstena-pargriesana/",
       "title": "Pulksteņa pagriešana Latvijā",
       "family": "latvia_special",
-      "src": "/assets/social-cards/v2/7823946f3a4062c9-1d1fd8df4aca.jpg",
+      "src": "/assets/social-cards/v2/7823946f3a4062c9-84158e3685cf.jpg",
       "width": 1200,
       "height": 630,
       "type": "image/jpeg",
@@ -59305,15 +59334,15 @@
       ],
       "inputs": {
         "/assets/calendar-data.json": "f0a7090ccc87587d8da0f5428887d8d38d2b71653bdbd9ac25ab5519f63147b3",
-        "/assets/category-vector/shift.svg": "11e7951e1c76bfe96f4c43da7c0dccd9f8559ed64f5452d4e1961ba4e588fc2e",
+        "/assets/category-vector/shift.svg": "ca4934f66269140eb0385d827db15c6ca13ab1421bdcc409c530bdb82b92e1c5",
         "/assets/fonts/DM-Sans-Bold.ttf": "6193c6c4a9aeb329610cd1991a7c93c1d0d93100fc9901cd43b83ccbdda9cca7",
         "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93",
-        "/assets/tools-art/calculator.svg": "627b4d4768cf550ace736c9a428c83e84ac780278c08cd0cf255ef2ebd23e0fe"
+        "/assets/tools-art/calculator.svg": "9e34b713c14b2aafb8bd39b391299297df91516c1c709306430c82d775409dfe"
       },
-      "panelSha256": "60d9fdfd2beacb06fab791d8c1121a9f5a60f2eb854fa7389ac4f4bcc33b5db8",
-      "pixelSha256": "1d1fd8df4aca70fa8096522e43e036a7efb67dfd87ab46464ad3de8550a4939a",
-      "sha256": "e91a30fb352c6d837b15876290a43bac41d87463d3ebcbf95eab95ebc4762c51",
-      "bytes": 97861,
+      "panelSha256": "f849f10395df7e5d9e2fddd8bdf330eef3d0daeae487fe990369942f58b91f8c",
+      "pixelSha256": "84158e3685cf0d1e5d30dea39e92802c77e250897455e53dece0b9bcafb2c73f",
+      "sha256": "cf79f3a1d32177fb57719ad9ac34384018d884ab31bf36f44cdc7d80a581d45d",
+      "bytes": 98663,
       "semanticFacts": {}
     },
     "/redakcijas-politika/": {
@@ -59380,7 +59409,7 @@
         "/assets/calendar-data.json": "f0a7090ccc87587d8da0f5428887d8d38d2b71653bdbd9ac25ab5519f63147b3",
         "/assets/fonts/DM-Sans-Bold.ttf": "6193c6c4a9aeb329610cd1991a7c93c1d0d93100fc9901cd43b83ccbdda9cca7",
         "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93",
-        "/assets/tools-art/study.svg": "039aa9fcf6c1139f0d275ffe724988d2811754d322021f29177ba21f05f75a0d"
+        "/assets/tools-art/study.svg": "29e83ae4a50d5712d192294c475ce0588e3b1d19b2d47bb77e1ebdc34560e59e"
       },
       "panelSha256": "53ba234cc947fa067c704e4f5660a642ee99db946465e017bdfaa9615f40258f",
       "pixelSha256": "08d2d808933f68dfe0e7689bb97b8ffccf5c4c90ed2dbf4d083625c644687b6b",
@@ -59467,7 +59496,7 @@
         "/assets/calendar-data.json": "f0a7090ccc87587d8da0f5428887d8d38d2b71653bdbd9ac25ab5519f63147b3",
         "/assets/fonts/DM-Sans-Bold.ttf": "6193c6c4a9aeb329610cd1991a7c93c1d0d93100fc9901cd43b83ccbdda9cca7",
         "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93",
-        "/assets/tools-art/astronomy.svg": "13688e78f87a59664a6735d568b7c2a3e676038da517fd39e673ff8809f89a6f"
+        "/assets/tools-art/astronomy.svg": "ce9681bdc63c34dadc540d0dfbd17d8aff782b993600fe5918e2cf958266eb23"
       },
       "panelSha256": "317d411fb0ffa4f1c720829a265a837d821aa0ad8dd0836c21743801d55dcbe4",
       "pixelSha256": "fc5edf2b2eab8f7a8135e34734fd9bb1d1c8f4b68af0295dc7e5410f81779715",
@@ -59553,7 +59582,7 @@
         "/assets/calendar-data.json": "f0a7090ccc87587d8da0f5428887d8d38d2b71653bdbd9ac25ab5519f63147b3",
         "/assets/fonts/DM-Sans-Bold.ttf": "6193c6c4a9aeb329610cd1991a7c93c1d0d93100fc9901cd43b83ccbdda9cca7",
         "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93",
-        "/assets/tools-art/sunrise.svg": "a03b1a34c5c6f2adc7a9802d4bad11739dff2bdf768d9c5b9514ecaefba45d88"
+        "/assets/tools-art/sunrise.svg": "e25bf955514b1c46e4dd3e64894c2057f413634311d183b91c0c027f908edef5"
       },
       "panelSha256": "eb3ba0f611906f695f90fab8258b6f487799b1c946690cb78f516867535aea93",
       "pixelSha256": "c50a785495bfbeb27076d8f9258ad7a2815c07312f1ca71b3e00d7080cb8fe96",
@@ -66672,7 +66701,7 @@
         "/assets/calendar-data.json": "f0a7090ccc87587d8da0f5428887d8d38d2b71653bdbd9ac25ab5519f63147b3",
         "/assets/fonts/DM-Sans-Bold.ttf": "6193c6c4a9aeb329610cd1991a7c93c1d0d93100fc9901cd43b83ccbdda9cca7",
         "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93",
-        "/assets/tools-art/garden.svg": "3eb20e7759dfe69dc87270fcb2a97679320cc973acc3da9581522db110b850c4"
+        "/assets/tools-art/garden.svg": "cc8c5741f06a4c831796040c527234fbaa5760798460d9db0daa384945e7072b"
       },
       "panelSha256": "a9da3a3dc68e7d60dbc0cf72661f209938d964f85f13b75ad20a4ab915ba7d9f",
       "pixelSha256": "d382d6d423814a7bc8d63a444095c3d8e2cdb9aa07953557756af6f0e786b439",
@@ -69170,7 +69199,7 @@
         "/assets/calendar-data.json": "f0a7090ccc87587d8da0f5428887d8d38d2b71653bdbd9ac25ab5519f63147b3",
         "/assets/fonts/DM-Sans-Bold.ttf": "6193c6c4a9aeb329610cd1991a7c93c1d0d93100fc9901cd43b83ccbdda9cca7",
         "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93",
-        "/assets/tools-art/school.svg": "211c36093da50c1bc97505928c47732e29889c121591c7043dd8c08db0eaf0a8"
+        "/assets/tools-art/school.svg": "42faae10f031af2e8dfc481bed06d9689535e3d35571ef3bb89725f4a1545f6a"
       },
       "panelSha256": "cd1fc3a28c23f56c8be2ac761bbcefb4ce4def4c2429a41df94e19dfd19a3fd1",
       "pixelSha256": "4b57f2ece3a435f607347eadbb82471bf54af6c573d28055c7905fa2002d5896",
@@ -69256,7 +69285,7 @@
         "/assets/calendar-data.json": "f0a7090ccc87587d8da0f5428887d8d38d2b71653bdbd9ac25ab5519f63147b3",
         "/assets/fonts/DM-Sans-Bold.ttf": "6193c6c4a9aeb329610cd1991a7c93c1d0d93100fc9901cd43b83ccbdda9cca7",
         "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93",
-        "/assets/tools-art/school.svg": "211c36093da50c1bc97505928c47732e29889c121591c7043dd8c08db0eaf0a8"
+        "/assets/tools-art/school.svg": "42faae10f031af2e8dfc481bed06d9689535e3d35571ef3bb89725f4a1545f6a"
       },
       "panelSha256": "a8c565bc9613b889449388ea2bc0652d4f77a866bb0aff8a8b41824d3b99390b",
       "pixelSha256": "ff4bf086f72e3c1d73ba48d3ff326020697a8a8d4f6a649083d39db25e4d0d16",
@@ -69335,7 +69364,7 @@
         "/assets/calendar-data.json": "f0a7090ccc87587d8da0f5428887d8d38d2b71653bdbd9ac25ab5519f63147b3",
         "/assets/fonts/DM-Sans-Bold.ttf": "6193c6c4a9aeb329610cd1991a7c93c1d0d93100fc9901cd43b83ccbdda9cca7",
         "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93",
-        "/assets/tools-art/school.svg": "211c36093da50c1bc97505928c47732e29889c121591c7043dd8c08db0eaf0a8"
+        "/assets/tools-art/school.svg": "42faae10f031af2e8dfc481bed06d9689535e3d35571ef3bb89725f4a1545f6a"
       },
       "panelSha256": "8f203659c122b51f5d4fb1eabac303af3b221abc7eba3709b19bd23cd824a172",
       "pixelSha256": "40fdbbfec1b4b660335e2f69bd3f86ad0924a3d27c416596cb60b64fd9b6d125",
@@ -69421,7 +69450,7 @@
         "/assets/calendar-data.json": "f0a7090ccc87587d8da0f5428887d8d38d2b71653bdbd9ac25ab5519f63147b3",
         "/assets/fonts/DM-Sans-Bold.ttf": "6193c6c4a9aeb329610cd1991a7c93c1d0d93100fc9901cd43b83ccbdda9cca7",
         "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93",
-        "/assets/tools-art/school.svg": "211c36093da50c1bc97505928c47732e29889c121591c7043dd8c08db0eaf0a8"
+        "/assets/tools-art/school.svg": "42faae10f031af2e8dfc481bed06d9689535e3d35571ef3bb89725f4a1545f6a"
       },
       "panelSha256": "7e3b97e201ce9c36f79270bae28e317687883050ec7fdb0460aa51499521a33c",
       "pixelSha256": "28126c944abb3d2dac889df05d69288e473c4a5966c8d8befbc1d0b26932b9c4",
@@ -69500,7 +69529,7 @@
         "/assets/calendar-data.json": "f0a7090ccc87587d8da0f5428887d8d38d2b71653bdbd9ac25ab5519f63147b3",
         "/assets/fonts/DM-Sans-Bold.ttf": "6193c6c4a9aeb329610cd1991a7c93c1d0d93100fc9901cd43b83ccbdda9cca7",
         "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93",
-        "/assets/tools-art/school.svg": "211c36093da50c1bc97505928c47732e29889c121591c7043dd8c08db0eaf0a8"
+        "/assets/tools-art/school.svg": "42faae10f031af2e8dfc481bed06d9689535e3d35571ef3bb89725f4a1545f6a"
       },
       "panelSha256": "8ffd6988c3844aae2588defb2e81f006d7989f6f04f060e6d584a117e305d24f",
       "pixelSha256": "ab59d07653ef74354b6e3efa4188f9c3a857529dc243a70178b076296b7da782",
@@ -69586,7 +69615,7 @@
         "/assets/calendar-data.json": "f0a7090ccc87587d8da0f5428887d8d38d2b71653bdbd9ac25ab5519f63147b3",
         "/assets/fonts/DM-Sans-Bold.ttf": "6193c6c4a9aeb329610cd1991a7c93c1d0d93100fc9901cd43b83ccbdda9cca7",
         "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93",
-        "/assets/tools-art/school.svg": "211c36093da50c1bc97505928c47732e29889c121591c7043dd8c08db0eaf0a8"
+        "/assets/tools-art/school.svg": "42faae10f031af2e8dfc481bed06d9689535e3d35571ef3bb89725f4a1545f6a"
       },
       "panelSha256": "e6db5585788274f9768b7a6d439958e2bbc51a87677420925d3c07e130c1b9ad",
       "pixelSha256": "5460d757042369c4ba9bb7d068655641cb68cd9f8ab97d60f63422ca743ada22",
@@ -69665,7 +69694,7 @@
         "/assets/calendar-data.json": "f0a7090ccc87587d8da0f5428887d8d38d2b71653bdbd9ac25ab5519f63147b3",
         "/assets/fonts/DM-Sans-Bold.ttf": "6193c6c4a9aeb329610cd1991a7c93c1d0d93100fc9901cd43b83ccbdda9cca7",
         "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93",
-        "/assets/tools-art/school.svg": "211c36093da50c1bc97505928c47732e29889c121591c7043dd8c08db0eaf0a8"
+        "/assets/tools-art/school.svg": "42faae10f031af2e8dfc481bed06d9689535e3d35571ef3bb89725f4a1545f6a"
       },
       "panelSha256": "60094e0f35215f4c709c432525c5e8293a39ff52fa401b7d43dbe0b0fde8ff32",
       "pixelSha256": "54d12c4e3519fbde6a59969173decd578a25016c2ae2964d71fa767566004336",
@@ -69751,7 +69780,7 @@
         "/assets/calendar-data.json": "f0a7090ccc87587d8da0f5428887d8d38d2b71653bdbd9ac25ab5519f63147b3",
         "/assets/fonts/DM-Sans-Bold.ttf": "6193c6c4a9aeb329610cd1991a7c93c1d0d93100fc9901cd43b83ccbdda9cca7",
         "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93",
-        "/assets/tools-art/school.svg": "211c36093da50c1bc97505928c47732e29889c121591c7043dd8c08db0eaf0a8"
+        "/assets/tools-art/school.svg": "42faae10f031af2e8dfc481bed06d9689535e3d35571ef3bb89725f4a1545f6a"
       },
       "panelSha256": "158fdb0f5007973b1cff277ae69c42586468494be80fbf01ea88996b56976109",
       "pixelSha256": "7d7fc05c872b9d69a581f75036f09b9bc3f622ab5da70d01daaef1e4cafecf1d",
@@ -69830,7 +69859,7 @@
         "/assets/calendar-data.json": "f0a7090ccc87587d8da0f5428887d8d38d2b71653bdbd9ac25ab5519f63147b3",
         "/assets/fonts/DM-Sans-Bold.ttf": "6193c6c4a9aeb329610cd1991a7c93c1d0d93100fc9901cd43b83ccbdda9cca7",
         "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93",
-        "/assets/tools-art/school.svg": "211c36093da50c1bc97505928c47732e29889c121591c7043dd8c08db0eaf0a8"
+        "/assets/tools-art/school.svg": "42faae10f031af2e8dfc481bed06d9689535e3d35571ef3bb89725f4a1545f6a"
       },
       "panelSha256": "9172138944ab7b7d59a9503c51d79448c3fb13d0381ea1368dfe3396301ad443",
       "pixelSha256": "2e8f4310cfede6319bc4ccbf7d53205f3039e9700d65f4cef3cb9d6f8ec392e6",
@@ -69916,7 +69945,7 @@
         "/assets/calendar-data.json": "f0a7090ccc87587d8da0f5428887d8d38d2b71653bdbd9ac25ab5519f63147b3",
         "/assets/fonts/DM-Sans-Bold.ttf": "6193c6c4a9aeb329610cd1991a7c93c1d0d93100fc9901cd43b83ccbdda9cca7",
         "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93",
-        "/assets/tools-art/study.svg": "039aa9fcf6c1139f0d275ffe724988d2811754d322021f29177ba21f05f75a0d"
+        "/assets/tools-art/study.svg": "29e83ae4a50d5712d192294c475ce0588e3b1d19b2d47bb77e1ebdc34560e59e"
       },
       "panelSha256": "27b1d6fb0afaef8934560a6bbc1d46bd3ee15ff521114c0ed426af4bb55382b8",
       "pixelSha256": "9dfd3ea48ef57ac5873f38a721dfe2fc0b706c607ab21cb9b9a0a3e52e8c7322",
@@ -69995,7 +70024,7 @@
         "/assets/calendar-data.json": "f0a7090ccc87587d8da0f5428887d8d38d2b71653bdbd9ac25ab5519f63147b3",
         "/assets/fonts/DM-Sans-Bold.ttf": "6193c6c4a9aeb329610cd1991a7c93c1d0d93100fc9901cd43b83ccbdda9cca7",
         "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93",
-        "/assets/tools-art/study.svg": "039aa9fcf6c1139f0d275ffe724988d2811754d322021f29177ba21f05f75a0d"
+        "/assets/tools-art/study.svg": "29e83ae4a50d5712d192294c475ce0588e3b1d19b2d47bb77e1ebdc34560e59e"
       },
       "panelSha256": "82b198d59b2f425a38722c5956c1eb946d72cad585b89d4327be002a930bed53",
       "pixelSha256": "e59c929c7ae9646dc7474ab54c381c7c45823ace1cf7f988aca3092858c07f6b",
@@ -70074,7 +70103,7 @@
         "/assets/calendar-data.json": "f0a7090ccc87587d8da0f5428887d8d38d2b71653bdbd9ac25ab5519f63147b3",
         "/assets/fonts/DM-Sans-Bold.ttf": "6193c6c4a9aeb329610cd1991a7c93c1d0d93100fc9901cd43b83ccbdda9cca7",
         "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93",
-        "/assets/tools-art/timetable.svg": "288929a6913c5f49b2b96644d669bd24c09ccdd20bd64e435fcb981fa54b2a73"
+        "/assets/tools-art/timetable.svg": "bf7f723befc7c66e70047a4bf2acbc60df86366d40779ea714f3b256b2932ac6"
       },
       "panelSha256": "4b1b98c14982f8f8200915a6fe2a7e190e2705dc3d484a5d51f57bb85655b092",
       "pixelSha256": "2d40f079720a20ab777ed5c95158a2cff089f6e9aec053e1d9acb9a2d5a02eed",
@@ -70153,7 +70182,7 @@
         "/assets/calendar-data.json": "f0a7090ccc87587d8da0f5428887d8d38d2b71653bdbd9ac25ab5519f63147b3",
         "/assets/fonts/DM-Sans-Bold.ttf": "6193c6c4a9aeb329610cd1991a7c93c1d0d93100fc9901cd43b83ccbdda9cca7",
         "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93",
-        "/assets/tools-art/traditions.svg": "1a4074b26b03b74f0a084da55e78df0bd270f4a69e1fed825ff18d8542dfcba5"
+        "/assets/tools-art/traditions.svg": "21953a0907d9da3d04c227d98fa9c327e4646692e491fba0233cdffdd1993bd7"
       },
       "panelSha256": "5420a7620ddfcf929c88471617130757c93eabfbbfbf94cd12b21ed8638abe72",
       "pixelSha256": "37a0bef81ab150e821134b1c3d65bb6807a95585600e471eadece0123a89c1e0",
@@ -76706,7 +76735,7 @@
         "/assets/calendar-data.json": "f0a7090ccc87587d8da0f5428887d8d38d2b71653bdbd9ac25ab5519f63147b3",
         "/assets/fonts/DM-Sans-Bold.ttf": "6193c6c4a9aeb329610cd1991a7c93c1d0d93100fc9901cd43b83ccbdda9cca7",
         "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93",
-        "/assets/tools-art/holidays.svg": "8884a95f97629b0adadff68e13aa579ce4aebce852215633fc541b1c67b7eef5"
+        "/assets/tools-art/holidays.svg": "a195d884d023c7c9c5987df99024d61c1e926e1b06299e9a3f0862d5135acfc8"
       },
       "panelSha256": "7a4af2711ce5394eeedffc72f8fc897a3cd3aa0bde9dc97a3ef9bd7ffaf6ebad",
       "pixelSha256": "a5fc98fba68a58c229efdf06f6d6b6d9e071934ef367a4eaa2c76ae0f2647177",
@@ -80877,7 +80906,7 @@
         "/assets/calendar-data.json": "f0a7090ccc87587d8da0f5428887d8d38d2b71653bdbd9ac25ab5519f63147b3",
         "/assets/fonts/DM-Sans-Bold.ttf": "6193c6c4a9aeb329610cd1991a7c93c1d0d93100fc9901cd43b83ccbdda9cca7",
         "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93",
-        "/assets/tools-art/maker.svg": "fd5a2c50a9ef6d279b0598aeb53c40867c60926bd42414e0388fc19290932a00"
+        "/assets/tools-art/maker.svg": "78fc5b746e3fca0c3a7e22b6570f169bf232452868f7c17c394a7bacc7d9f128"
       },
       "panelSha256": "144bde20e8566e004ef9f42aed9baba62f03f3b1fc146c56e8d7faddea4267fc",
       "pixelSha256": "c949ccf0ff437b5e02e5563006ce79b9c16ecf8dd972ea08b7ebebfd56d54731",
@@ -80963,7 +80992,7 @@
         "/assets/calendar-data.json": "f0a7090ccc87587d8da0f5428887d8d38d2b71653bdbd9ac25ab5519f63147b3",
         "/assets/fonts/DM-Sans-Bold.ttf": "6193c6c4a9aeb329610cd1991a7c93c1d0d93100fc9901cd43b83ccbdda9cca7",
         "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93",
-        "/assets/tools-art/study.svg": "039aa9fcf6c1139f0d275ffe724988d2811754d322021f29177ba21f05f75a0d"
+        "/assets/tools-art/study.svg": "29e83ae4a50d5712d192294c475ce0588e3b1d19b2d47bb77e1ebdc34560e59e"
       },
       "panelSha256": "f7f3053f9762d2eb0cd5f8f1611a511992b521e467b6ba0bf976f01fcc457b00",
       "pixelSha256": "f6fda1e79e00459fc3080f752db7a063cc49ac6f9c9ee60a5619224f7b676dd8",
@@ -81049,7 +81078,7 @@
         "/assets/calendar-data.json": "f0a7090ccc87587d8da0f5428887d8d38d2b71653bdbd9ac25ab5519f63147b3",
         "/assets/fonts/DM-Sans-Bold.ttf": "6193c6c4a9aeb329610cd1991a7c93c1d0d93100fc9901cd43b83ccbdda9cca7",
         "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93",
-        "/assets/tools-art/names.svg": "71dc7d3fc470a417b57e9d7499db8dc8eb85aa85302dbd621b7497963f83a8a9"
+        "/assets/tools-art/names.svg": "a26b321a8e3795457262db92db60e1f7d116b8d3a727f2487d9c3499cbd8a737"
       },
       "panelSha256": "d1fa98cb393b28d83fa1e5acae37c11e022b19de8507e0276779dea646bb0a2d",
       "pixelSha256": "1e95b382e633db933bdd18bf740a0b16f270e4d9396602cb343d198678ea2a6e",
@@ -81119,7 +81148,7 @@
       ],
       "inputs": {
         "/assets/calendar-data.json": "f0a7090ccc87587d8da0f5428887d8d38d2b71653bdbd9ac25ab5519f63147b3",
-        "/assets/category-vector/names.svg": "285161cc6b9ac442ca063293011d10b48f88a78a800092cde026303f94fd7321",
+        "/assets/category-vector/names.svg": "0ead9b44f67aa564f6d22be9ce85179821a68f822f01701657e7843d5d6ba80b",
         "/assets/fonts/DM-Sans-Bold.ttf": "6193c6c4a9aeb329610cd1991a7c93c1d0d93100fc9901cd43b83ccbdda9cca7",
         "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93"
       },
@@ -81198,7 +81227,7 @@
       ],
       "inputs": {
         "/assets/calendar-data.json": "f0a7090ccc87587d8da0f5428887d8d38d2b71653bdbd9ac25ab5519f63147b3",
-        "/assets/category-vector/names.svg": "285161cc6b9ac442ca063293011d10b48f88a78a800092cde026303f94fd7321",
+        "/assets/category-vector/names.svg": "0ead9b44f67aa564f6d22be9ce85179821a68f822f01701657e7843d5d6ba80b",
         "/assets/fonts/DM-Sans-Bold.ttf": "6193c6c4a9aeb329610cd1991a7c93c1d0d93100fc9901cd43b83ccbdda9cca7",
         "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93"
       },
@@ -81277,7 +81306,7 @@
       ],
       "inputs": {
         "/assets/calendar-data.json": "f0a7090ccc87587d8da0f5428887d8d38d2b71653bdbd9ac25ab5519f63147b3",
-        "/assets/category-vector/names.svg": "285161cc6b9ac442ca063293011d10b48f88a78a800092cde026303f94fd7321",
+        "/assets/category-vector/names.svg": "0ead9b44f67aa564f6d22be9ce85179821a68f822f01701657e7843d5d6ba80b",
         "/assets/fonts/DM-Sans-Bold.ttf": "6193c6c4a9aeb329610cd1991a7c93c1d0d93100fc9901cd43b83ccbdda9cca7",
         "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93"
       },
@@ -81356,7 +81385,7 @@
       ],
       "inputs": {
         "/assets/calendar-data.json": "f0a7090ccc87587d8da0f5428887d8d38d2b71653bdbd9ac25ab5519f63147b3",
-        "/assets/category-vector/names.svg": "285161cc6b9ac442ca063293011d10b48f88a78a800092cde026303f94fd7321",
+        "/assets/category-vector/names.svg": "0ead9b44f67aa564f6d22be9ce85179821a68f822f01701657e7843d5d6ba80b",
         "/assets/fonts/DM-Sans-Bold.ttf": "6193c6c4a9aeb329610cd1991a7c93c1d0d93100fc9901cd43b83ccbdda9cca7",
         "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93"
       },
@@ -81435,7 +81464,7 @@
       ],
       "inputs": {
         "/assets/calendar-data.json": "f0a7090ccc87587d8da0f5428887d8d38d2b71653bdbd9ac25ab5519f63147b3",
-        "/assets/category-vector/names.svg": "285161cc6b9ac442ca063293011d10b48f88a78a800092cde026303f94fd7321",
+        "/assets/category-vector/names.svg": "0ead9b44f67aa564f6d22be9ce85179821a68f822f01701657e7843d5d6ba80b",
         "/assets/fonts/DM-Sans-Bold.ttf": "6193c6c4a9aeb329610cd1991a7c93c1d0d93100fc9901cd43b83ccbdda9cca7",
         "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93"
       },
@@ -81507,7 +81536,7 @@
       ],
       "inputs": {
         "/assets/calendar-data.json": "f0a7090ccc87587d8da0f5428887d8d38d2b71653bdbd9ac25ab5519f63147b3",
-        "/assets/category-vector/names.svg": "285161cc6b9ac442ca063293011d10b48f88a78a800092cde026303f94fd7321",
+        "/assets/category-vector/names.svg": "0ead9b44f67aa564f6d22be9ce85179821a68f822f01701657e7843d5d6ba80b",
         "/assets/fonts/DM-Sans-Bold.ttf": "6193c6c4a9aeb329610cd1991a7c93c1d0d93100fc9901cd43b83ccbdda9cca7",
         "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93"
       },
@@ -81579,7 +81608,7 @@
       ],
       "inputs": {
         "/assets/calendar-data.json": "f0a7090ccc87587d8da0f5428887d8d38d2b71653bdbd9ac25ab5519f63147b3",
-        "/assets/category-vector/names.svg": "285161cc6b9ac442ca063293011d10b48f88a78a800092cde026303f94fd7321",
+        "/assets/category-vector/names.svg": "0ead9b44f67aa564f6d22be9ce85179821a68f822f01701657e7843d5d6ba80b",
         "/assets/fonts/DM-Sans-Bold.ttf": "6193c6c4a9aeb329610cd1991a7c93c1d0d93100fc9901cd43b83ccbdda9cca7",
         "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93"
       },
@@ -81651,7 +81680,7 @@
       ],
       "inputs": {
         "/assets/calendar-data.json": "f0a7090ccc87587d8da0f5428887d8d38d2b71653bdbd9ac25ab5519f63147b3",
-        "/assets/category-vector/names.svg": "285161cc6b9ac442ca063293011d10b48f88a78a800092cde026303f94fd7321",
+        "/assets/category-vector/names.svg": "0ead9b44f67aa564f6d22be9ce85179821a68f822f01701657e7843d5d6ba80b",
         "/assets/fonts/DM-Sans-Bold.ttf": "6193c6c4a9aeb329610cd1991a7c93c1d0d93100fc9901cd43b83ccbdda9cca7",
         "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93"
       },
@@ -81730,7 +81759,7 @@
       ],
       "inputs": {
         "/assets/calendar-data.json": "f0a7090ccc87587d8da0f5428887d8d38d2b71653bdbd9ac25ab5519f63147b3",
-        "/assets/category-vector/names.svg": "285161cc6b9ac442ca063293011d10b48f88a78a800092cde026303f94fd7321",
+        "/assets/category-vector/names.svg": "0ead9b44f67aa564f6d22be9ce85179821a68f822f01701657e7843d5d6ba80b",
         "/assets/fonts/DM-Sans-Bold.ttf": "6193c6c4a9aeb329610cd1991a7c93c1d0d93100fc9901cd43b83ccbdda9cca7",
         "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93"
       },
@@ -81809,7 +81838,7 @@
       ],
       "inputs": {
         "/assets/calendar-data.json": "f0a7090ccc87587d8da0f5428887d8d38d2b71653bdbd9ac25ab5519f63147b3",
-        "/assets/category-vector/names.svg": "285161cc6b9ac442ca063293011d10b48f88a78a800092cde026303f94fd7321",
+        "/assets/category-vector/names.svg": "0ead9b44f67aa564f6d22be9ce85179821a68f822f01701657e7843d5d6ba80b",
         "/assets/fonts/DM-Sans-Bold.ttf": "6193c6c4a9aeb329610cd1991a7c93c1d0d93100fc9901cd43b83ccbdda9cca7",
         "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93"
       },
@@ -81888,7 +81917,7 @@
       ],
       "inputs": {
         "/assets/calendar-data.json": "f0a7090ccc87587d8da0f5428887d8d38d2b71653bdbd9ac25ab5519f63147b3",
-        "/assets/category-vector/names.svg": "285161cc6b9ac442ca063293011d10b48f88a78a800092cde026303f94fd7321",
+        "/assets/category-vector/names.svg": "0ead9b44f67aa564f6d22be9ce85179821a68f822f01701657e7843d5d6ba80b",
         "/assets/fonts/DM-Sans-Bold.ttf": "6193c6c4a9aeb329610cd1991a7c93c1d0d93100fc9901cd43b83ccbdda9cca7",
         "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93"
       },
@@ -81967,7 +81996,7 @@
       ],
       "inputs": {
         "/assets/calendar-data.json": "f0a7090ccc87587d8da0f5428887d8d38d2b71653bdbd9ac25ab5519f63147b3",
-        "/assets/category-vector/names.svg": "285161cc6b9ac442ca063293011d10b48f88a78a800092cde026303f94fd7321",
+        "/assets/category-vector/names.svg": "0ead9b44f67aa564f6d22be9ce85179821a68f822f01701657e7843d5d6ba80b",
         "/assets/fonts/DM-Sans-Bold.ttf": "6193c6c4a9aeb329610cd1991a7c93c1d0d93100fc9901cd43b83ccbdda9cca7",
         "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93"
       },
@@ -81981,7 +82010,7 @@
       "url": "/visi-riki/",
       "title": "Kalendāri un plānošanas rīki",
       "family": "hub",
-      "src": "/assets/social-cards/v2/b285e0b37af82316-56de6850597d.jpg",
+      "src": "/assets/social-cards/v2/b285e0b37af82316-7f2c3cc835a2.jpg",
       "width": 1200,
       "height": 630,
       "type": "image/jpeg",
@@ -82051,15 +82080,15 @@
         "/assets/calendar-data.json": "f0a7090ccc87587d8da0f5428887d8d38d2b71653bdbd9ac25ab5519f63147b3",
         "/assets/fonts/DM-Sans-Bold.ttf": "6193c6c4a9aeb329610cd1991a7c93c1d0d93100fc9901cd43b83ccbdda9cca7",
         "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93",
-        "/assets/tools-art/calculator.svg": "627b4d4768cf550ace736c9a428c83e84ac780278c08cd0cf255ef2ebd23e0fe",
-        "/assets/tools-art/garden.svg": "3eb20e7759dfe69dc87270fcb2a97679320cc973acc3da9581522db110b850c4",
-        "/assets/tools-art/school.svg": "211c36093da50c1bc97505928c47732e29889c121591c7043dd8c08db0eaf0a8",
-        "/assets/tools-art/year.svg": "1b30a7395539138487d2ae0524132a45c18aec36ae1041c2e93c199005ccb941"
+        "/assets/tools-art/calculator.svg": "9e34b713c14b2aafb8bd39b391299297df91516c1c709306430c82d775409dfe",
+        "/assets/tools-art/garden.svg": "cc8c5741f06a4c831796040c527234fbaa5760798460d9db0daa384945e7072b",
+        "/assets/tools-art/school.svg": "42faae10f031af2e8dfc481bed06d9689535e3d35571ef3bb89725f4a1545f6a",
+        "/assets/tools-art/year.svg": "dcd1f24bbeafec40ee045c6ce43aa6d05310b08d95c267f76ea75d78bbca2ad2"
       },
-      "panelSha256": "143e421e29fc97caea037c4312667b36ed0854908986951036e2e67b12d145ab",
-      "pixelSha256": "56de6850597d13b89b9a0d97f177325d0418953aac30e18447f5929a9c8af815",
-      "sha256": "2e2066d243021c6c38a696f0214d1e2bbaf884daf888161f6c911de4bfc3e1c7",
-      "bytes": 88910,
+      "panelSha256": "432c3c7c821266ecbd1f442c201e6fbb827ad84b27207a79f5e84fd058610eb2",
+      "pixelSha256": "7f2c3cc835a28c83a38554198ef22e38e04e1ef93456dc0bac63542b489a0079",
+      "sha256": "9665b7e1d2a8d856a18a3843ce9b403477b3283d1f6da0144dac03bd70ae6ab8",
+      "bytes": 90592,
       "semanticFacts": {}
     },
     "/zodiaka-zimes/": {
@@ -82152,7 +82181,7 @@
         "/assets/calendar-data.json": "f0a7090ccc87587d8da0f5428887d8d38d2b71653bdbd9ac25ab5519f63147b3",
         "/assets/fonts/DM-Sans-Bold.ttf": "6193c6c4a9aeb329610cd1991a7c93c1d0d93100fc9901cd43b83ccbdda9cca7",
         "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93",
-        "/assets/tools-art/horoscope.svg": "0b0322aa24edf25a8d5f454a74fd3e7146c7f1ffa970893261d4bae73aed2bb5",
+        "/assets/tools-art/horoscope.svg": "855bb93ec16b9eb873e8c1154576807a25a197834ba8d31899cce1ad5a8f3a20",
         "/assets/zodiac/auns.svg": "e2fbd56d80dca9e9021a86ae6fca864eb8c39c416fb64e5e3620706925d3dca4",
         "/assets/zodiac/dvini.svg": "12ebe2e3f74952b139353a839f7853a116c3c302f2f71107805b82658ec0b3ff",
         "/assets/zodiac/jaunava.svg": "707d2d8104f28d47f9547979aeff8d26eed50fe6309deba281f9d7fcc68f96ae",
@@ -82263,6 +82292,2448 @@
       "pixelSha256": "6b7dd74cb98212bfa776120b3d64f7abbe36c2b6f77e829cd506603a7589b6a6",
       "sha256": "a1106793d0480531822207c540409bb43e6bcf54d3e86c2e6acee691b188c6f3",
       "bytes": 169039,
+      "semanticFacts": {}
+    },
+    "/pasakumi/ziemassvetku-tirdzins-riga/": {
+      "url": "/pasakumi/ziemassvetku-tirdzins-riga/",
+      "title": "Rīgas Ziemassvētku tirdziņš 2026–2027",
+      "family": "event_guide",
+      "src": "/assets/social-cards/v2/9cbf495d6c557903-b848816269b7.jpg",
+      "width": 1200,
+      "height": 630,
+      "type": "image/jpeg",
+      "alt": "Rīgas Ziemassvētku tirdziņš 2026–2027 | Kalendārs365 Latvijai",
+      "design": "occasion",
+      "kicker": "PASĀKUMU CEĻVEDIS",
+      "subtitle": "27.11.2026.–03.01.2027.",
+      "year": 2027,
+      "month": null,
+      "titleLayout": {
+        "text": "Rīgas Ziemassvētku tirdziņš 2026–2027",
+        "size": 55,
+        "lines": [
+          "Rīgas",
+          "Ziemassvētku",
+          "tirdziņš",
+          "2026–2027"
+        ],
+        "bounds": [
+          [
+            60.0,
+            184.0,
+            204.5,
+            235.5
+          ],
+          [
+            60.0,
+            248.0,
+            434.5,
+            289.0
+          ],
+          [
+            60.0,
+            311.5,
+            262.0,
+            368.5
+          ],
+          [
+            60.0,
+            375.5,
+            364.5,
+            415.5
+          ]
+        ],
+        "region": [
+          60,
+          184,
+          574,
+          444
+        ]
+      },
+      "subtitleLayout": {
+        "text": "27.11.2026.–03.01.2027.",
+        "size": 20,
+        "lines": [
+          "27.11.2026.–03.01.2027."
+        ],
+        "bounds": [
+          [
+            62.0,
+            466.0,
+            280.0,
+            480.0
+          ]
+        ],
+        "region": [
+          62,
+          466,
+          574,
+          512
+        ]
+      },
+      "sources": [
+        {
+          "src": "/assets/occasions/christmas-960.webp",
+          "author": "AleWi",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Christmas_market,_Riga_20241209_-_06.jpg"
+        }
+      ],
+      "artwork": [],
+      "inputs": {
+        "/assets/calendar-data.json": "f0a7090ccc87587d8da0f5428887d8d38d2b71653bdbd9ac25ab5519f63147b3",
+        "/assets/fonts/DM-Sans-Bold.ttf": "6193c6c4a9aeb329610cd1991a7c93c1d0d93100fc9901cd43b83ccbdda9cca7",
+        "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93",
+        "/assets/occasions/christmas-960.webp": "2faa9204e0b1834acb340aaf866d97348cb858a45d4fb8572caead6f811ebc12"
+      },
+      "panelSha256": "2e30a73921aa204c8445aaa5087084d9f1e3d137e32f25d20f92b3a2c6404bd0",
+      "pixelSha256": "b848816269b785e3810d328d46d4590768b347a590debc682ec8ed12d4506ffc",
+      "sha256": "7f0cb3f61d800db6447efa64d94e1531dbf593b2a42440a18e36e31223a45306",
+      "bytes": 150980,
+      "semanticFacts": {}
+    },
+    "/pasakumi/18-novembris-riga/": {
+      "url": "/pasakumi/18-novembris-riga/",
+      "title": "18. novembra pasākumi Rīgā 2026",
+      "family": "event_guide",
+      "src": "/assets/social-cards/v2/a23c566624a66437-3e0baabd6627.jpg",
+      "width": 1200,
+      "height": 630,
+      "type": "image/jpeg",
+      "alt": "18. novembra pasākumi Rīgā 2026 | Kalendārs365 Latvijai",
+      "design": "occasion",
+      "kicker": "PASĀKUMU CEĻVEDIS",
+      "subtitle": "18.11.2026.",
+      "year": 2027,
+      "month": null,
+      "titleLayout": {
+        "text": "18. novembra pasākumi Rīgā 2026",
+        "size": 55,
+        "lines": [
+          "18. novembra",
+          "pasākumi Rīgā",
+          "2026"
+        ],
+        "bounds": [
+          [
+            60.0,
+            184.0,
+            416.5,
+            224.5
+          ],
+          [
+            60.0,
+            248.0,
+            450.5,
+            301.5
+          ],
+          [
+            60.0,
+            311.5,
+            196.0,
+            351.5
+          ]
+        ],
+        "region": [
+          60,
+          184,
+          574,
+          444
+        ]
+      },
+      "subtitleLayout": {
+        "text": "18.11.2026.",
+        "size": 20,
+        "lines": [
+          "18.11.2026."
+        ],
+        "bounds": [
+          [
+            62.0,
+            466.0,
+            156.0,
+            480.0
+          ]
+        ],
+        "region": [
+          62,
+          466,
+          574,
+          512
+        ]
+      },
+      "sources": [
+        {
+          "src": "/assets/occasions/independence-960.webp",
+          "author": "Ieva Ābele / Saeima",
+          "license": "CC BY-SA 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Latvijas_Republikas_neatkar%C4%ABbas_atjauno%C5%A1anas_diena_(51157235998).jpg"
+        }
+      ],
+      "artwork": [],
+      "inputs": {
+        "/assets/calendar-data.json": "f0a7090ccc87587d8da0f5428887d8d38d2b71653bdbd9ac25ab5519f63147b3",
+        "/assets/fonts/DM-Sans-Bold.ttf": "6193c6c4a9aeb329610cd1991a7c93c1d0d93100fc9901cd43b83ccbdda9cca7",
+        "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93",
+        "/assets/occasions/independence-960.webp": "90ce1ff9f127f0028bace2788b489a2d394d3b3e6e5704c795f17f14df3a190b"
+      },
+      "panelSha256": "b2709fa3e0251c1bf48da33b0bcefaed106d86c3aeaf16c51e3d6e18d2b97fe3",
+      "pixelSha256": "3e0baabd6627c5bb8a9efa40ed360bccf8a2b9eb37b0f3fe401db5d678d18fc2",
+      "sha256": "5b76d84625708cd6fb52e7ab02c1345d0c50feff594f394d1fc79dffe391a555",
+      "bytes": 136097,
+      "semanticFacts": {}
+    },
+    "/pasakumi/liepaja-2027-atklasana/": {
+      "url": "/pasakumi/liepaja-2027-atklasana/",
+      "title": "Liepāja 2027 atklāšanas nedēļas nogale",
+      "family": "event_guide",
+      "src": "/assets/social-cards/v2/d9c00c527e465c27-726f2d507379.jpg",
+      "width": 1200,
+      "height": 630,
+      "type": "image/jpeg",
+      "alt": "Liepāja 2027 atklāšanas nedēļas nogale | Kalendārs365 Latvijai",
+      "design": "occasion",
+      "kicker": "PASĀKUMU CEĻVEDIS",
+      "subtitle": "22.–24.01.2027.",
+      "year": 2027,
+      "month": null,
+      "titleLayout": {
+        "text": "Liepāja 2027 atklāšanas nedēļas nogale",
+        "size": 55,
+        "lines": [
+          "Liepāja 2027",
+          "atklāšanas",
+          "nedēļas nogale"
+        ],
+        "bounds": [
+          [
+            60.0,
+            184.0,
+            398.5,
+            236.5
+          ],
+          [
+            60.0,
+            248.0,
+            351.5,
+            290.0
+          ],
+          [
+            60.0,
+            311.5,
+            465.0,
+            367.0
+          ]
+        ],
+        "region": [
+          60,
+          184,
+          574,
+          444
+        ]
+      },
+      "subtitleLayout": {
+        "text": "22.–24.01.2027.",
+        "size": 20,
+        "lines": [
+          "22.–24.01.2027."
+        ],
+        "bounds": [
+          [
+            62.0,
+            466.0,
+            209.0,
+            480.0
+          ]
+        ],
+        "region": [
+          62,
+          466,
+          574,
+          512
+        ]
+      },
+      "sources": [
+        {
+          "src": "/assets/cities/liepaja-960.webp",
+          "author": "Edgars Šulcs",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Liepajas_Sveta_Jazepa_Romas_katolu_katedrale_2.jpg"
+        }
+      ],
+      "artwork": [],
+      "inputs": {
+        "/assets/calendar-data.json": "f0a7090ccc87587d8da0f5428887d8d38d2b71653bdbd9ac25ab5519f63147b3",
+        "/assets/cities/liepaja-960.webp": "271dd89b9f655b6e0e7f1b24a8e9e82277e3710c61fe3acc9a11f9f455131f9c",
+        "/assets/fonts/DM-Sans-Bold.ttf": "6193c6c4a9aeb329610cd1991a7c93c1d0d93100fc9901cd43b83ccbdda9cca7",
+        "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93"
+      },
+      "panelSha256": "01bfe0941b8d1005f43812e6f2a67e2d6ff997c7a7403d3c2802751dfa7d0881",
+      "pixelSha256": "726f2d507379a5b8ddc9a9d0686875c610eed44dcc7cb7d5d0604383debc42a5",
+      "sha256": "8214e6740e3db5070414dfa8e8068eaf3ebd394addde3dfecdf81818933b949f",
+      "bytes": 166164,
+      "semanticFacts": {}
+    },
+    "/pasakumi/ledus-skulpturu-festivals-jelgava/": {
+      "url": "/pasakumi/ledus-skulpturu-festivals-jelgava/",
+      "title": "Ledus skulptūru festivāls Jelgavā 2027",
+      "family": "event_guide",
+      "src": "/assets/social-cards/v2/ee42a447b5ffd31c-bf39e4cf1786.jpg",
+      "width": 1200,
+      "height": 630,
+      "type": "image/jpeg",
+      "alt": "Ledus skulptūru festivāls Jelgavā 2027 | Kalendārs365 Latvijai",
+      "design": "occasion",
+      "kicker": "PASĀKUMU CEĻVEDIS",
+      "subtitle": "06.–07.02.2027.",
+      "year": 2027,
+      "month": null,
+      "titleLayout": {
+        "text": "Ledus skulptūru festivāls Jelgavā 2027",
+        "size": 55,
+        "lines": [
+          "Ledus skulptūru",
+          "festivāls Jelgavā",
+          "2027"
+        ],
+        "bounds": [
+          [
+            60.0,
+            184.0,
+            494.5,
+            236.0
+          ],
+          [
+            60.0,
+            248.0,
+            507.5,
+            301.5
+          ],
+          [
+            60.0,
+            311.5,
+            190.5,
+            351.5
+          ]
+        ],
+        "region": [
+          60,
+          184,
+          574,
+          444
+        ]
+      },
+      "subtitleLayout": {
+        "text": "06.–07.02.2027.",
+        "size": 20,
+        "lines": [
+          "06.–07.02.2027."
+        ],
+        "bounds": [
+          [
+            62.0,
+            466.0,
+            217.0,
+            480.0
+          ]
+        ],
+        "region": [
+          62,
+          466,
+          574,
+          512
+        ]
+      },
+      "sources": [
+        {
+          "src": "/assets/event-guides/jelgava-ice-960.webp",
+          "author": "Igors Jefimovs",
+          "license": "CC BY 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ice_Sculpture_Festival_2008_-_panoramio.jpg",
+          "sourceSha256": "b651de2de62c5d69c64a78df790ed228f15e579e98578740655d05d260f43c7b"
+        }
+      ],
+      "artwork": [],
+      "inputs": {
+        "/assets/calendar-data.json": "f0a7090ccc87587d8da0f5428887d8d38d2b71653bdbd9ac25ab5519f63147b3",
+        "/assets/event-guides/jelgava-ice-960.webp": "402be16c08818187c3482e572bd07479848cf65a2a642c91f59dc2d4ef213af8",
+        "/assets/fonts/DM-Sans-Bold.ttf": "6193c6c4a9aeb329610cd1991a7c93c1d0d93100fc9901cd43b83ccbdda9cca7",
+        "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93"
+      },
+      "panelSha256": "be611dd6549242b9260949017eb6183f7fed6eaa71d0cbd44a7d6199d70db2f1",
+      "pixelSha256": "bf39e4cf17865639cb5808c3e8c9d6a7240a8d438c0bb385bf5abcede0786056",
+      "sha256": "04c875b3f5a98af42797c0a0495ac17262640588f1dabdd20f5508f41b733451",
+      "bytes": 157991,
+      "semanticFacts": {}
+    },
+    "/pasakumi/zemes-stunda/": {
+      "url": "/pasakumi/zemes-stunda/",
+      "title": "Zemes stunda 2027 Latvijā",
+      "family": "event_guide",
+      "src": "/assets/social-cards/v2/0900e56cf06866e8-81285cf3951b.jpg",
+      "width": 1200,
+      "height": 630,
+      "type": "image/jpeg",
+      "alt": "Zemes stunda 2027 Latvijā | Kalendārs365 Latvijai",
+      "design": "occasion",
+      "kicker": "PASĀKUMU CEĻVEDIS",
+      "subtitle": "20.03.2027.",
+      "year": 2027,
+      "month": null,
+      "titleLayout": {
+        "text": "Zemes stunda 2027 Latvijā",
+        "size": 55,
+        "lines": [
+          "Zemes stunda",
+          "2027 Latvijā"
+        ],
+        "bounds": [
+          [
+            60.0,
+            184.0,
+            439.5,
+            224.5
+          ],
+          [
+            60.0,
+            248.0,
+            384.0,
+            300.5
+          ]
+        ],
+        "region": [
+          60,
+          184,
+          574,
+          444
+        ]
+      },
+      "subtitleLayout": {
+        "text": "20.03.2027.",
+        "size": 20,
+        "lines": [
+          "20.03.2027."
+        ],
+        "bounds": [
+          [
+            62.0,
+            466.0,
+            174.5,
+            480.0
+          ]
+        ],
+        "region": [
+          62,
+          466,
+          574,
+          512
+        ]
+      },
+      "sources": [
+        {
+          "src": "/assets/cities-night/riga-night-b42caec573cd.webp",
+          "author": "Ainars Brūvelis",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Riga_at_the_night_-_panoramio_(2).jpg"
+        }
+      ],
+      "artwork": [],
+      "inputs": {
+        "/assets/calendar-data.json": "f0a7090ccc87587d8da0f5428887d8d38d2b71653bdbd9ac25ab5519f63147b3",
+        "/assets/cities-night/riga-night-b42caec573cd.webp": "b42caec573cdc2394e81117fe103d5bc59583794acc8cfb75c4b12998785cafe",
+        "/assets/fonts/DM-Sans-Bold.ttf": "6193c6c4a9aeb329610cd1991a7c93c1d0d93100fc9901cd43b83ccbdda9cca7",
+        "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93"
+      },
+      "panelSha256": "360091a177a2bd8069932d587bf210db76107010a56fe0faa5d0e3b865cb163e",
+      "pixelSha256": "81285cf3951b09d3b4c22c59bef07c63c0a7c79f3836d066727071b27d37c361",
+      "sha256": "c9b09169a7fe5287d78d0de20c98d857c0d42f55245c451bd4bbeadb50fe5238",
+      "bytes": 120592,
+      "semanticFacts": {}
+    },
+    "/pasakumi/enu-diena/": {
+      "url": "/pasakumi/enu-diena/",
+      "title": "Ēnu diena 2027",
+      "family": "event_guide",
+      "src": "/assets/social-cards/v2/efa81bcb1e81b66c-19e891011d21.jpg",
+      "width": 1200,
+      "height": 630,
+      "type": "image/jpeg",
+      "alt": "Ēnu diena 2027 | Kalendārs365 Latvijai",
+      "design": "occasion",
+      "kicker": "PASĀKUMU CEĻVEDIS",
+      "subtitle": "07.04.2027.",
+      "year": 2027,
+      "month": null,
+      "titleLayout": {
+        "text": "Ēnu diena 2027",
+        "size": 55,
+        "lines": [
+          "Ēnu diena 2027"
+        ],
+        "bounds": [
+          [
+            60.0,
+            184.0,
+            466.5,
+            233.0
+          ]
+        ],
+        "region": [
+          60,
+          184,
+          574,
+          444
+        ]
+      },
+      "subtitleLayout": {
+        "text": "07.04.2027.",
+        "size": 20,
+        "lines": [
+          "07.04.2027."
+        ],
+        "bounds": [
+          [
+            62.0,
+            466.0,
+            173.0,
+            480.0
+          ]
+        ],
+        "region": [
+          62,
+          466,
+          574,
+          512
+        ]
+      },
+      "sources": [
+        {
+          "src": "/assets/cities/riga-960.webp",
+          "author": "Diego Delso",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Vistas_desde_la_iglesia_de_San_Pedro,_Riga,_Letonia,_2012-08-07,_DD_12.JPG"
+        }
+      ],
+      "artwork": [],
+      "inputs": {
+        "/assets/calendar-data.json": "f0a7090ccc87587d8da0f5428887d8d38d2b71653bdbd9ac25ab5519f63147b3",
+        "/assets/cities/riga-960.webp": "26228d2eeaf99c5e5c40b975a2d263a55f940c3f4771141c8c59469c94ca9630",
+        "/assets/fonts/DM-Sans-Bold.ttf": "6193c6c4a9aeb329610cd1991a7c93c1d0d93100fc9901cd43b83ccbdda9cca7",
+        "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93"
+      },
+      "panelSha256": "135c6fad6ff2137b39ae3c04253bd0a497cd8b96585d6e065d0aa1f4be96770c",
+      "pixelSha256": "19e891011d21cc5efc3064fed85d1e8302d1753d29d4e0604a2cd0ad6d9e6313",
+      "sha256": "01f592575b79aff0e039d9c10f813c9615a24f4801a4a87e6ea993abb448deee",
+      "bytes": 151530,
+      "semanticFacts": {}
+    },
+    "/pasakumi/liela-talka/": {
+      "url": "/pasakumi/liela-talka/",
+      "title": "Lielā talka 2027",
+      "family": "event_guide",
+      "src": "/assets/social-cards/v2/537fb225a61ced46-17ea39b6f83e.jpg",
+      "width": 1200,
+      "height": 630,
+      "type": "image/jpeg",
+      "alt": "Lielā talka 2027 | Kalendārs365 Latvijai",
+      "design": "occasion",
+      "kicker": "PASĀKUMU CEĻVEDIS",
+      "subtitle": "24.04.2027.",
+      "year": 2027,
+      "month": null,
+      "titleLayout": {
+        "text": "Lielā talka 2027",
+        "size": 55,
+        "lines": [
+          "Lielā talka 2027"
+        ],
+        "bounds": [
+          [
+            60.0,
+            184.0,
+            477.0,
+            225.0
+          ]
+        ],
+        "region": [
+          60,
+          184,
+          574,
+          444
+        ]
+      },
+      "subtitleLayout": {
+        "text": "24.04.2027.",
+        "size": 20,
+        "lines": [
+          "24.04.2027."
+        ],
+        "bounds": [
+          [
+            62.0,
+            466.0,
+            173.0,
+            480.0
+          ]
+        ],
+        "region": [
+          62,
+          466,
+          574,
+          512
+        ]
+      },
+      "sources": [
+        {
+          "src": "/assets/tradition-covers/tradition-pasaules-vides-diena-823843211c84-640.webp",
+          "author": "AgrisR",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Forest_near_Sieti%C5%86iezis.jpg",
+          "sourceSha256": "e0845289ec53a38d480f66cface67ba5859f003b267a7f567c8435b5852e88c0"
+        }
+      ],
+      "artwork": [],
+      "inputs": {
+        "/assets/calendar-data.json": "f0a7090ccc87587d8da0f5428887d8d38d2b71653bdbd9ac25ab5519f63147b3",
+        "/assets/fonts/DM-Sans-Bold.ttf": "6193c6c4a9aeb329610cd1991a7c93c1d0d93100fc9901cd43b83ccbdda9cca7",
+        "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93",
+        "/assets/tradition-covers/tradition-pasaules-vides-diena-823843211c84-640.webp": "823843211c842a1c64935d73b4d94fc7b0334d565a2bcdadfb0094b8c5b25af7"
+      },
+      "panelSha256": "153e9bf49b4743c05add92457b5c06575a417d8f093bc9e272cc9d375565fc59",
+      "pixelSha256": "17ea39b6f83eb5d9f3d8d84c7cb355b1a093ad3af1b2899c6ca47af7b30719f4",
+      "sha256": "bf1e7fab9527a3b58e409fa0ef66bf069bddf1843215646ceb1326fb92c12f7d",
+      "bytes": 146933,
+      "semanticFacts": {}
+    },
+    "/pasakumi/rigas-maratons/": {
+      "url": "/pasakumi/rigas-maratons/",
+      "title": "Rimi Rīgas maratons 2027",
+      "family": "event_guide",
+      "src": "/assets/social-cards/v2/e73ac8165951b424-88baaa36eaa5.jpg",
+      "width": 1200,
+      "height": 630,
+      "type": "image/jpeg",
+      "alt": "Rimi Rīgas maratons 2027 | Kalendārs365 Latvijai",
+      "design": "occasion",
+      "kicker": "PASĀKUMU CEĻVEDIS",
+      "subtitle": "15.–16.05.2027.",
+      "year": 2027,
+      "month": null,
+      "titleLayout": {
+        "text": "Rimi Rīgas maratons 2027",
+        "size": 55,
+        "lines": [
+          "Rimi Rīgas",
+          "maratons 2027"
+        ],
+        "bounds": [
+          [
+            60.0,
+            184.0,
+            334.0,
+            237.5
+          ],
+          [
+            60.0,
+            248.0,
+            462.5,
+            288.0
+          ]
+        ],
+        "region": [
+          60,
+          184,
+          574,
+          444
+        ]
+      },
+      "subtitleLayout": {
+        "text": "15.–16.05.2027.",
+        "size": 20,
+        "lines": [
+          "15.–16.05.2027."
+        ],
+        "bounds": [
+          [
+            62.0,
+            466.0,
+            204.5,
+            480.0
+          ]
+        ],
+        "region": [
+          62,
+          466,
+          574,
+          512
+        ]
+      },
+      "sources": [
+        {
+          "src": "/assets/event-guides/riga-marathon-960.webp",
+          "author": "Riga Marathon",
+          "license": "CC BY-SA 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Riga_marathon_2019_start_photo.jpg",
+          "sourceSha256": "b4870b45f9903441542c34794a823e814a273ebbe09eca642aacba0e07d07b2a"
+        }
+      ],
+      "artwork": [],
+      "inputs": {
+        "/assets/calendar-data.json": "f0a7090ccc87587d8da0f5428887d8d38d2b71653bdbd9ac25ab5519f63147b3",
+        "/assets/event-guides/riga-marathon-960.webp": "c18ab67ad63fc98e27c17e886fe2b3ee20b5556292a57bd516447eba031f8b23",
+        "/assets/fonts/DM-Sans-Bold.ttf": "6193c6c4a9aeb329610cd1991a7c93c1d0d93100fc9901cd43b83ccbdda9cca7",
+        "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93"
+      },
+      "panelSha256": "7dae157eb89182b9f89604d15feeef8a43c5209e6686764aea0c86ef016e058c",
+      "pixelSha256": "88baaa36eaa549394715f63b678738780f439298c813b6d65507ae0d7ebc0478",
+      "sha256": "e456fce4e161fbbe757b04dfd0170271d03541d477805f713eadbe47a18a2e96",
+      "bytes": 149953,
+      "semanticFacts": {}
+    },
+    "/pasakumi/muzeju-nakts/": {
+      "url": "/pasakumi/muzeju-nakts/",
+      "title": "Muzeju nakts Latvijā",
+      "family": "event_guide",
+      "src": "/assets/social-cards/v2/b8c20008637b17a0-ff064cee1ba4.jpg",
+      "width": 1200,
+      "height": 630,
+      "type": "image/jpeg",
+      "alt": "Muzeju nakts Latvijā | Kalendārs365 Latvijai",
+      "design": "occasion",
+      "kicker": "PASĀKUMU CEĻVEDIS",
+      "subtitle": "2027. gada datums vēl jāizziņo",
+      "year": 2027,
+      "month": null,
+      "titleLayout": {
+        "text": "Muzeju nakts Latvijā",
+        "size": 55,
+        "lines": [
+          "Muzeju nakts",
+          "Latvijā"
+        ],
+        "bounds": [
+          [
+            60.0,
+            184.0,
+            416.0,
+            236.5
+          ],
+          [
+            60.0,
+            248.0,
+            240.5,
+            300.5
+          ]
+        ],
+        "region": [
+          60,
+          184,
+          574,
+          444
+        ]
+      },
+      "subtitleLayout": {
+        "text": "2027. gada datums vēl jāizziņo",
+        "size": 20,
+        "lines": [
+          "2027. gada datums vēl jāizziņo"
+        ],
+        "bounds": [
+          [
+            62.0,
+            466.0,
+            346.5,
+            485.5
+          ]
+        ],
+        "region": [
+          62,
+          466,
+          574,
+          512
+        ]
+      },
+      "sources": [
+        {
+          "src": "/assets/occasions/language-960.webp",
+          "author": "Savannah Rivka",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dainu_skapja_ori%C4%A3in%C4%81ls_LNB.jpg"
+        }
+      ],
+      "artwork": [],
+      "inputs": {
+        "/assets/calendar-data.json": "f0a7090ccc87587d8da0f5428887d8d38d2b71653bdbd9ac25ab5519f63147b3",
+        "/assets/fonts/DM-Sans-Bold.ttf": "6193c6c4a9aeb329610cd1991a7c93c1d0d93100fc9901cd43b83ccbdda9cca7",
+        "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93",
+        "/assets/occasions/language-960.webp": "d3cb620ed472cc5e7cba8e8e76a9c3607fc01c86e03c97ae38dafa3a8e51af56"
+      },
+      "panelSha256": "f65d3c1c01b7b1848f7b8cc6049a1eb44c751a6d59e93f7e6d1a59c3d102cb20",
+      "pixelSha256": "ff064cee1ba4504794f7e7d31c40313136399752e077dbc0dcad32b22f7561b6",
+      "sha256": "5d1a8154e155c13831ee7455f5f430cdcb9d484410e95daa3342457bbd4eaabd",
+      "bytes": 133230,
+      "semanticFacts": {}
+    },
+    "/pasakumi/rigas-operas-festivals/": {
+      "url": "/pasakumi/rigas-operas-festivals/",
+      "title": "Rīgas operas festivāls 2027",
+      "family": "event_guide",
+      "src": "/assets/social-cards/v2/a05806c6b2ea2342-0356d05eb5a6.jpg",
+      "width": 1200,
+      "height": 630,
+      "type": "image/jpeg",
+      "alt": "Rīgas operas festivāls 2027 | Kalendārs365 Latvijai",
+      "design": "occasion",
+      "kicker": "PASĀKUMU CEĻVEDIS",
+      "subtitle": "02.–19.06.2027.",
+      "year": 2027,
+      "month": null,
+      "titleLayout": {
+        "text": "Rīgas operas festivāls 2027",
+        "size": 55,
+        "lines": [
+          "Rīgas operas",
+          "festivāls 2027"
+        ],
+        "bounds": [
+          [
+            60.0,
+            184.0,
+            404.0,
+            235.5
+          ],
+          [
+            60.0,
+            248.0,
+            431.5,
+            289.0
+          ]
+        ],
+        "region": [
+          60,
+          184,
+          574,
+          444
+        ]
+      },
+      "subtitleLayout": {
+        "text": "02.–19.06.2027.",
+        "size": 20,
+        "lines": [
+          "02.–19.06.2027."
+        ],
+        "bounds": [
+          [
+            62.0,
+            466.0,
+            212.0,
+            480.0
+          ]
+        ],
+        "region": [
+          62,
+          466,
+          574,
+          512
+        ]
+      },
+      "sources": [
+        {
+          "src": "/assets/cities/riga-960.webp",
+          "author": "Diego Delso",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Vistas_desde_la_iglesia_de_San_Pedro,_Riga,_Letonia,_2012-08-07,_DD_12.JPG"
+        }
+      ],
+      "artwork": [],
+      "inputs": {
+        "/assets/calendar-data.json": "f0a7090ccc87587d8da0f5428887d8d38d2b71653bdbd9ac25ab5519f63147b3",
+        "/assets/cities/riga-960.webp": "26228d2eeaf99c5e5c40b975a2d263a55f940c3f4771141c8c59469c94ca9630",
+        "/assets/fonts/DM-Sans-Bold.ttf": "6193c6c4a9aeb329610cd1991a7c93c1d0d93100fc9901cd43b83ccbdda9cca7",
+        "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93"
+      },
+      "panelSha256": "6e513dcba81b47c8ef17bb72bf16a9290f2b903299f245a6dc12e1764dcf4bb3",
+      "pixelSha256": "0356d05eb5a6f5f09fb89ff8c1cba17e089686800890f8094dd0804a99776583",
+      "sha256": "bf096c7939da0e7f5ca3b7810e5aacc98dc008c1c01ae3d92d1506780f77ede5",
+      "bytes": 162178,
+      "semanticFacts": {}
+    },
+    "/pasakumi/sarunu-festivals-lampa/": {
+      "url": "/pasakumi/sarunu-festivals-lampa/",
+      "title": "Sarunu festivāls LAMPA 2027",
+      "family": "event_guide",
+      "src": "/assets/social-cards/v2/5a39f2dae774f46a-d5de21f23bb9.jpg",
+      "width": 1200,
+      "height": 630,
+      "type": "image/jpeg",
+      "alt": "Sarunu festivāls LAMPA 2027 | Kalendārs365 Latvijai",
+      "design": "occasion",
+      "kicker": "PASĀKUMU CEĻVEDIS",
+      "subtitle": "02.–03.07.2027.",
+      "year": 2027,
+      "month": null,
+      "titleLayout": {
+        "text": "Sarunu festivāls LAMPA 2027",
+        "size": 55,
+        "lines": [
+          "Sarunu festivāls",
+          "LAMPA 2027"
+        ],
+        "bounds": [
+          [
+            60.0,
+            184.0,
+            491.0,
+            225.0
+          ],
+          [
+            60.0,
+            248.0,
+            395.5,
+            288.0
+          ]
+        ],
+        "region": [
+          60,
+          184,
+          574,
+          444
+        ]
+      },
+      "subtitleLayout": {
+        "text": "02.–03.07.2027.",
+        "size": 20,
+        "lines": [
+          "02.–03.07.2027."
+        ],
+        "bounds": [
+          [
+            62.0,
+            466.0,
+            216.5,
+            480.0
+          ]
+        ],
+        "region": [
+          62,
+          466,
+          574,
+          512
+        ]
+      },
+      "sources": [
+        {
+          "src": "/assets/cities/cesis-960.webp",
+          "author": "Guntars Mednis",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Skats_no_Vidzemes_koncertz%C4%81le_C%C4%93sis_jumta_-_panoramio_(2).jpg"
+        }
+      ],
+      "artwork": [],
+      "inputs": {
+        "/assets/calendar-data.json": "f0a7090ccc87587d8da0f5428887d8d38d2b71653bdbd9ac25ab5519f63147b3",
+        "/assets/cities/cesis-960.webp": "fa5b4f75dfd608df73441b0040cf5a38d054f9d79d96fe09ab1e4732505b1830",
+        "/assets/fonts/DM-Sans-Bold.ttf": "6193c6c4a9aeb329610cd1991a7c93c1d0d93100fc9901cd43b83ccbdda9cca7",
+        "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93"
+      },
+      "panelSha256": "a40c02a7d18b9d2a0bc78e69230a161522a2b5b2a84501aad1287b9d1ee40cac",
+      "pixelSha256": "d5de21f23bb9078c40cb6ab9c6cc3ba58190cd41919bb5ff18e99ee4c318f227",
+      "sha256": "2487e93ddcf757e8ba4c1a2a86b16cd2190c6fd74c5e189447f92b9ac9897569",
+      "bytes": 130625,
+      "semanticFacts": {}
+    },
+    "/pasakumi/summer-sound/": {
+      "url": "/pasakumi/summer-sound/",
+      "title": "Summer Sound 2027 Liepājā",
+      "family": "event_guide",
+      "src": "/assets/social-cards/v2/b38347725c024c43-b629dba43aea.jpg",
+      "width": 1200,
+      "height": 630,
+      "type": "image/jpeg",
+      "alt": "Summer Sound 2027 Liepājā | Kalendārs365 Latvijai",
+      "design": "occasion",
+      "kicker": "PASĀKUMU CEĻVEDIS",
+      "subtitle": "30.–31.07.2027.",
+      "year": 2027,
+      "month": null,
+      "titleLayout": {
+        "text": "Summer Sound 2027 Liepājā",
+        "size": 55,
+        "lines": [
+          "Summer Sound",
+          "2027 Liepājā"
+        ],
+        "bounds": [
+          [
+            60.0,
+            184.0,
+            468.5,
+            224.5
+          ],
+          [
+            60.0,
+            248.0,
+            398.5,
+            300.5
+          ]
+        ],
+        "region": [
+          60,
+          184,
+          574,
+          444
+        ]
+      },
+      "subtitleLayout": {
+        "text": "30.–31.07.2027.",
+        "size": 20,
+        "lines": [
+          "30.–31.07.2027."
+        ],
+        "bounds": [
+          [
+            62.0,
+            466.0,
+            209.0,
+            480.0
+          ]
+        ],
+        "region": [
+          62,
+          466,
+          574,
+          512
+        ]
+      },
+      "sources": [
+        {
+          "src": "/assets/cities/liepaja-960.webp",
+          "author": "Edgars Šulcs",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Liepajas_Sveta_Jazepa_Romas_katolu_katedrale_2.jpg"
+        }
+      ],
+      "artwork": [],
+      "inputs": {
+        "/assets/calendar-data.json": "f0a7090ccc87587d8da0f5428887d8d38d2b71653bdbd9ac25ab5519f63147b3",
+        "/assets/cities/liepaja-960.webp": "271dd89b9f655b6e0e7f1b24a8e9e82277e3710c61fe3acc9a11f9f455131f9c",
+        "/assets/fonts/DM-Sans-Bold.ttf": "6193c6c4a9aeb329610cd1991a7c93c1d0d93100fc9901cd43b83ccbdda9cca7",
+        "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93"
+      },
+      "panelSha256": "c9a67ac45ba5fecccde7a305a4a1d5b03b93470ed55f2fb2f743e7080047074a",
+      "pixelSha256": "b629dba43aea153edd454e5dfefb85f08dcc069b0d47e7bb4445cb040c4e60f7",
+      "sha256": "133fae9ee9d39197f7bf66abf803b239429666905bf40128b610ebde12b6045b",
+      "bytes": 155578,
+      "semanticFacts": {}
+    },
+    "/pasakumi/rigas-dzimsanas-diena/": {
+      "url": "/pasakumi/rigas-dzimsanas-diena/",
+      "title": "Rīgas dzimšanas diena 2027",
+      "family": "event_guide",
+      "src": "/assets/social-cards/v2/e674d7fc0aeae2aa-145c2e5bed1a.jpg",
+      "width": 1200,
+      "height": 630,
+      "type": "image/jpeg",
+      "alt": "Rīgas dzimšanas diena 2027 | Kalendārs365 Latvijai",
+      "design": "occasion",
+      "kicker": "PASĀKUMU CEĻVEDIS",
+      "subtitle": "14.08.2027.",
+      "year": 2027,
+      "month": null,
+      "titleLayout": {
+        "text": "Rīgas dzimšanas diena 2027",
+        "size": 55,
+        "lines": [
+          "Rīgas dzimšanas",
+          "diena 2027"
+        ],
+        "bounds": [
+          [
+            60.0,
+            184.0,
+            504.0,
+            238.5
+          ],
+          [
+            60.0,
+            248.0,
+            353.5,
+            289.0
+          ]
+        ],
+        "region": [
+          60,
+          184,
+          574,
+          444
+        ]
+      },
+      "subtitleLayout": {
+        "text": "14.08.2027.",
+        "size": 20,
+        "lines": [
+          "14.08.2027."
+        ],
+        "bounds": [
+          [
+            62.0,
+            466.0,
+            167.5,
+            480.0
+          ]
+        ],
+        "region": [
+          62,
+          466,
+          574,
+          512
+        ]
+      },
+      "sources": [
+        {
+          "src": "/assets/cities/riga-960.webp",
+          "author": "Diego Delso",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Vistas_desde_la_iglesia_de_San_Pedro,_Riga,_Letonia,_2012-08-07,_DD_12.JPG"
+        }
+      ],
+      "artwork": [],
+      "inputs": {
+        "/assets/calendar-data.json": "f0a7090ccc87587d8da0f5428887d8d38d2b71653bdbd9ac25ab5519f63147b3",
+        "/assets/cities/riga-960.webp": "26228d2eeaf99c5e5c40b975a2d263a55f940c3f4771141c8c59469c94ca9630",
+        "/assets/fonts/DM-Sans-Bold.ttf": "6193c6c4a9aeb329610cd1991a7c93c1d0d93100fc9901cd43b83ccbdda9cca7",
+        "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93"
+      },
+      "panelSha256": "ac5d9b6a49e7c5bb9d9abd68ce3a2de88862611ba39831dff88f26f3d220b432",
+      "pixelSha256": "145c2e5bed1a75f09761472d09c4473e6ae140af012cb1cfa09d3bbc41206a9b",
+      "sha256": "aa9e14021a48957c21aa6e235d2f7216d4c3887b3ffd8c465951af60e0400bbb",
+      "bytes": 162920,
+      "semanticFacts": {}
+    },
+    "/pasakumi/senas-uguns-nakts/": {
+      "url": "/pasakumi/senas-uguns-nakts/",
+      "title": "Senās uguns nakts Latvijas piekrastē",
+      "family": "event_guide",
+      "src": "/assets/social-cards/v2/ea26b1025447532f-ce0a5c4258e2.jpg",
+      "width": 1200,
+      "height": 630,
+      "type": "image/jpeg",
+      "alt": "Senās uguns nakts Latvijas piekrastē | Kalendārs365 Latvijai",
+      "design": "occasion",
+      "kicker": "PASĀKUMU CEĻVEDIS",
+      "subtitle": "2027. gada vietējās norises vēl jāizziņo",
+      "year": 2027,
+      "month": null,
+      "titleLayout": {
+        "text": "Senās uguns nakts Latvijas piekrastē",
+        "size": 55,
+        "lines": [
+          "Senās uguns nakts",
+          "Latvijas piekrastē"
+        ],
+        "bounds": [
+          [
+            60.0,
+            184.0,
+            562.0,
+            237.0
+          ],
+          [
+            60.0,
+            248.0,
+            538.5,
+            300.5
+          ]
+        ],
+        "region": [
+          60,
+          184,
+          574,
+          444
+        ]
+      },
+      "subtitleLayout": {
+        "text": "2027. gada vietējās norises vēl jāizziņo",
+        "size": 20,
+        "lines": [
+          "2027. gada vietējās norises vēl jāizziņo"
+        ],
+        "bounds": [
+          [
+            62.0,
+            466.0,
+            420.0,
+            485.5
+          ]
+        ],
+        "region": [
+          62,
+          466,
+          574,
+          512
+        ]
+      },
+      "sources": [
+        {
+          "src": "/assets/cities/ventspils-960.webp",
+          "author": "Edgars Šulcs",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ventspils_viduslaiku_pils_5.jpg"
+        }
+      ],
+      "artwork": [],
+      "inputs": {
+        "/assets/calendar-data.json": "f0a7090ccc87587d8da0f5428887d8d38d2b71653bdbd9ac25ab5519f63147b3",
+        "/assets/cities/ventspils-960.webp": "640bfd25d952ff42072665969f47e869d984f2617fc6f3e58dbaa549b5028293",
+        "/assets/fonts/DM-Sans-Bold.ttf": "6193c6c4a9aeb329610cd1991a7c93c1d0d93100fc9901cd43b83ccbdda9cca7",
+        "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93"
+      },
+      "panelSha256": "607c969e6f8488c28a5db84b4e157efe3d20a0c667d2ad116e2f99b9d8ae6e51",
+      "pixelSha256": "ce0a5c4258e20983a23d8da8031816bbd56125f84bbbab797b89a6a03fa41201",
+      "sha256": "1ee09bdd8b2640de9405babf13ac0c5f9cf97f8e05009d8ef800bb09daff7764",
+      "bytes": 184516,
+      "semanticFacts": {}
+    },
+    "/pasakumi/balta-nakts/": {
+      "url": "/pasakumi/balta-nakts/",
+      "title": "Baltā nakts Rīgā 2027",
+      "family": "event_guide",
+      "src": "/assets/social-cards/v2/ffea6d4ccb08922f-6ec51fe52347.jpg",
+      "width": 1200,
+      "height": 630,
+      "type": "image/jpeg",
+      "alt": "Baltā nakts Rīgā 2027 | Kalendārs365 Latvijai",
+      "design": "occasion",
+      "kicker": "PASĀKUMU CEĻVEDIS",
+      "subtitle": "04.09.2027.",
+      "year": 2027,
+      "month": null,
+      "titleLayout": {
+        "text": "Baltā nakts Rīgā 2027",
+        "size": 55,
+        "lines": [
+          "Baltā nakts Rīgā",
+          "2027"
+        ],
+        "bounds": [
+          [
+            60.0,
+            184.0,
+            490.5,
+            237.0
+          ],
+          [
+            60.0,
+            248.0,
+            190.5,
+            288.0
+          ]
+        ],
+        "region": [
+          60,
+          184,
+          574,
+          444
+        ]
+      },
+      "subtitleLayout": {
+        "text": "04.09.2027.",
+        "size": 20,
+        "lines": [
+          "04.09.2027."
+        ],
+        "bounds": [
+          [
+            62.0,
+            466.0,
+            175.5,
+            480.0
+          ]
+        ],
+        "region": [
+          62,
+          466,
+          574,
+          512
+        ]
+      },
+      "sources": [
+        {
+          "src": "/assets/cities-night/riga-night-b42caec573cd.webp",
+          "author": "Ainars Brūvelis",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Riga_at_the_night_-_panoramio_(2).jpg"
+        }
+      ],
+      "artwork": [],
+      "inputs": {
+        "/assets/calendar-data.json": "f0a7090ccc87587d8da0f5428887d8d38d2b71653bdbd9ac25ab5519f63147b3",
+        "/assets/cities-night/riga-night-b42caec573cd.webp": "b42caec573cdc2394e81117fe103d5bc59583794acc8cfb75c4b12998785cafe",
+        "/assets/fonts/DM-Sans-Bold.ttf": "6193c6c4a9aeb329610cd1991a7c93c1d0d93100fc9901cd43b83ccbdda9cca7",
+        "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93"
+      },
+      "panelSha256": "9fd22ea8b95b2b25fb753d229357ecc3357f677e91b73519e31604cfcd8339ac",
+      "pixelSha256": "6ec51fe523476f287f75c72ab125bf8c9ab70a3108c3815a994cd70de574fb82",
+      "sha256": "7947dcd1ae98f3c5e340782aaf076a780a650caa2ad9cf81213e2a3645bad837",
+      "bytes": 116119,
+      "semanticFacts": {}
+    },
+    "/pasakumi/zinatnieku-nakts/": {
+      "url": "/pasakumi/zinatnieku-nakts/",
+      "title": "Zinātnieku nakts Latvijā",
+      "family": "event_guide",
+      "src": "/assets/social-cards/v2/ddaf57bb709f1a53-e392beab2798.jpg",
+      "width": 1200,
+      "height": 630,
+      "type": "image/jpeg",
+      "alt": "Zinātnieku nakts Latvijā | Kalendārs365 Latvijai",
+      "design": "occasion",
+      "kicker": "PASĀKUMU CEĻVEDIS",
+      "subtitle": "2027. gada programma vēl jāizziņo",
+      "year": 2027,
+      "month": null,
+      "titleLayout": {
+        "text": "Zinātnieku nakts Latvijā",
+        "size": 55,
+        "lines": [
+          "Zinātnieku nakts",
+          "Latvijā"
+        ],
+        "bounds": [
+          [
+            60.0,
+            184.0,
+            507.5,
+            225.0
+          ],
+          [
+            60.0,
+            248.0,
+            240.5,
+            300.5
+          ]
+        ],
+        "region": [
+          60,
+          184,
+          574,
+          444
+        ]
+      },
+      "subtitleLayout": {
+        "text": "2027. gada programma vēl jāizziņo",
+        "size": 20,
+        "lines": [
+          "2027. gada programma vēl jāizziņo"
+        ],
+        "bounds": [
+          [
+            62.0,
+            466.0,
+            384.5,
+            485.5
+          ]
+        ],
+        "region": [
+          62,
+          466,
+          574,
+          512
+        ]
+      },
+      "sources": [
+        {
+          "src": "/assets/universities/rtu.jpg",
+          "author": "Rīgas pašvaldības aģentūra Rīgas investīciju un tūrisma aģentūra",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Riga_Technical_University.jpg"
+        }
+      ],
+      "artwork": [],
+      "inputs": {
+        "/assets/calendar-data.json": "f0a7090ccc87587d8da0f5428887d8d38d2b71653bdbd9ac25ab5519f63147b3",
+        "/assets/fonts/DM-Sans-Bold.ttf": "6193c6c4a9aeb329610cd1991a7c93c1d0d93100fc9901cd43b83ccbdda9cca7",
+        "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93",
+        "/assets/universities/rtu.jpg": "a05585e3fd8d171c2d35e5fc298218479c320d365294f30541a1ec49c98eda11"
+      },
+      "panelSha256": "1598d103fe6e14d652b8f10a5a2441a509ceb04ab8be48e607beac5d28f38e28",
+      "pixelSha256": "e392beab2798847b46b68421b7224ed48e00f35e5462b70eeea31632f01c71ae",
+      "sha256": "a10d91ef651a100bfb256e23d8b51ddaeabc226237de22c841f12004ecff6ed1",
+      "bytes": 142968,
+      "semanticFacts": {}
+    },
+    "/pasakumi/legendu-nakts/": {
+      "url": "/pasakumi/legendu-nakts/",
+      "title": "Leģendu nakts Latvijas pilīs un muižās",
+      "family": "event_guide",
+      "src": "/assets/social-cards/v2/6180b3610fb5414e-4bd254bdf0e0.jpg",
+      "width": 1200,
+      "height": 630,
+      "type": "image/jpeg",
+      "alt": "Leģendu nakts Latvijas pilīs un muižās | Kalendārs365 Latvijai",
+      "design": "occasion",
+      "kicker": "PASĀKUMU CEĻVEDIS",
+      "subtitle": "2027. gada programma vēl jāizziņo",
+      "year": 2027,
+      "month": null,
+      "titleLayout": {
+        "text": "Leģendu nakts Latvijas pilīs un muižās",
+        "size": 55,
+        "lines": [
+          "Leģendu nakts",
+          "Latvijas pilīs un",
+          "muižās"
+        ],
+        "bounds": [
+          [
+            60.0,
+            184.0,
+            457.0,
+            240.0
+          ],
+          [
+            60.0,
+            248.0,
+            473.0,
+            300.5
+          ],
+          [
+            60.0,
+            311.5,
+            249.5,
+            353.0
+          ]
+        ],
+        "region": [
+          60,
+          184,
+          574,
+          444
+        ]
+      },
+      "subtitleLayout": {
+        "text": "2027. gada programma vēl jāizziņo",
+        "size": 20,
+        "lines": [
+          "2027. gada programma vēl jāizziņo"
+        ],
+        "bounds": [
+          [
+            62.0,
+            466.0,
+            384.5,
+            485.5
+          ]
+        ],
+        "region": [
+          62,
+          466,
+          574,
+          512
+        ]
+      },
+      "sources": [
+        {
+          "src": "/assets/cities/cesis-960.webp",
+          "author": "Guntars Mednis",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Skats_no_Vidzemes_koncertz%C4%81le_C%C4%93sis_jumta_-_panoramio_(2).jpg"
+        }
+      ],
+      "artwork": [],
+      "inputs": {
+        "/assets/calendar-data.json": "f0a7090ccc87587d8da0f5428887d8d38d2b71653bdbd9ac25ab5519f63147b3",
+        "/assets/cities/cesis-960.webp": "fa5b4f75dfd608df73441b0040cf5a38d054f9d79d96fe09ab1e4732505b1830",
+        "/assets/fonts/DM-Sans-Bold.ttf": "6193c6c4a9aeb329610cd1991a7c93c1d0d93100fc9901cd43b83ccbdda9cca7",
+        "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93"
+      },
+      "panelSha256": "72073b3ce91d8ee0eabd20e88e221b657df5fceef8f45b9d0e207818715a7ce3",
+      "pixelSha256": "4bd254bdf0e045834e4ec385b598fb5e74f0a1a44c2ded6781f97543dc3f2ec3",
+      "sha256": "5dba36a53c2079368e285f127ab1b73e1c0a4d4209778dfaa631468b9ae84e35",
+      "bytes": 140660,
+      "semanticFacts": {}
+    },
+    "/pasakumi/bluka-vakars/": {
+      "url": "/pasakumi/bluka-vakars/",
+      "title": "Bluķa vakars Brīvdabas muzejā 2026",
+      "family": "event_guide",
+      "src": "/assets/social-cards/v2/1fb633df015b7ca3-91d7c3e71c95.jpg",
+      "width": 1200,
+      "height": 630,
+      "type": "image/jpeg",
+      "alt": "Bluķa vakars Brīvdabas muzejā 2026 | Kalendārs365 Latvijai",
+      "design": "occasion",
+      "kicker": "PASĀKUMU CEĻVEDIS",
+      "subtitle": "19.12.2026.",
+      "year": 2027,
+      "month": null,
+      "titleLayout": {
+        "text": "Bluķa vakars Brīvdabas muzejā 2026",
+        "size": 55,
+        "lines": [
+          "Bluķa vakars",
+          "Brīvdabas muzejā",
+          "2026"
+        ],
+        "bounds": [
+          [
+            60.0,
+            184.0,
+            400.5,
+            239.0
+          ],
+          [
+            60.0,
+            248.0,
+            536.0,
+            300.5
+          ],
+          [
+            60.0,
+            311.5,
+            196.0,
+            351.5
+          ]
+        ],
+        "region": [
+          60,
+          184,
+          574,
+          444
+        ]
+      },
+      "subtitleLayout": {
+        "text": "19.12.2026.",
+        "size": 20,
+        "lines": [
+          "19.12.2026."
+        ],
+        "bounds": [
+          [
+            62.0,
+            466.0,
+            162.5,
+            480.0
+          ]
+        ],
+        "region": [
+          62,
+          466,
+          574,
+          512
+        ]
+      },
+      "sources": [
+        {
+          "src": "/assets/occasions/winter-960.webp",
+          "author": "Lee Vilenski",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Snowed_areas_of_Riga,_Latvia_(18092).jpg"
+        }
+      ],
+      "artwork": [],
+      "inputs": {
+        "/assets/calendar-data.json": "f0a7090ccc87587d8da0f5428887d8d38d2b71653bdbd9ac25ab5519f63147b3",
+        "/assets/fonts/DM-Sans-Bold.ttf": "6193c6c4a9aeb329610cd1991a7c93c1d0d93100fc9901cd43b83ccbdda9cca7",
+        "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93",
+        "/assets/occasions/winter-960.webp": "8d66f0daa79503eb23a388e1b3655c1221213cc095a2b64bcf6aba4fcf3c8691"
+      },
+      "panelSha256": "e11bb7a849386ebe67c1e388f3ae561b280b60095fe66fb968823c80c6f6883b",
+      "pixelSha256": "91d7c3e71c95194a963a7d88d4eb056beed03fa2fef7662b409fb509dc08ab08",
+      "sha256": "f05b68e48adcc49bf010884eee4d20a30a529539049db8406ce478d6849352bf",
+      "bytes": 141116,
+      "semanticFacts": {}
+    },
+    "/pasakumi/melna-piektdiena/": {
+      "url": "/pasakumi/melna-piektdiena/",
+      "title": "Melnā piektdiena 2026 Latvijā",
+      "family": "event_guide",
+      "src": "/assets/social-cards/v2/3d311317c741b873-4c6ee32539c5.jpg",
+      "width": 1200,
+      "height": 630,
+      "type": "image/jpeg",
+      "alt": "Melnā piektdiena 2026 Latvijā | Kalendārs365 Latvijai",
+      "design": "occasion",
+      "kicker": "PASĀKUMU CEĻVEDIS",
+      "subtitle": "27.11.2026.",
+      "year": 2027,
+      "month": null,
+      "titleLayout": {
+        "text": "Melnā piektdiena 2026 Latvijā",
+        "size": 55,
+        "lines": [
+          "Melnā piektdiena",
+          "2026 Latvijā"
+        ],
+        "bounds": [
+          [
+            60.0,
+            184.0,
+            525.0,
+            236.5
+          ],
+          [
+            60.0,
+            248.0,
+            389.5,
+            300.5
+          ]
+        ],
+        "region": [
+          60,
+          184,
+          574,
+          444
+        ]
+      },
+      "subtitleLayout": {
+        "text": "27.11.2026.",
+        "size": 20,
+        "lines": [
+          "27.11.2026."
+        ],
+        "bounds": [
+          [
+            62.0,
+            466.0,
+            160.0,
+            480.0
+          ]
+        ],
+        "region": [
+          62,
+          466,
+          574,
+          512
+        ]
+      },
+      "sources": [
+        {
+          "src": "/assets/cities/riga-960.webp",
+          "author": "Diego Delso",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Vistas_desde_la_iglesia_de_San_Pedro,_Riga,_Letonia,_2012-08-07,_DD_12.JPG"
+        }
+      ],
+      "artwork": [],
+      "inputs": {
+        "/assets/calendar-data.json": "f0a7090ccc87587d8da0f5428887d8d38d2b71653bdbd9ac25ab5519f63147b3",
+        "/assets/cities/riga-960.webp": "26228d2eeaf99c5e5c40b975a2d263a55f940c3f4771141c8c59469c94ca9630",
+        "/assets/fonts/DM-Sans-Bold.ttf": "6193c6c4a9aeb329610cd1991a7c93c1d0d93100fc9901cd43b83ccbdda9cca7",
+        "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93"
+      },
+      "panelSha256": "433ec357833941e74c565960372d7a005fae5eaf13ea8334c4f582ed771cd959",
+      "pixelSha256": "4c6ee32539c50ba52eb94e7de281b15b070d95ee6ba95843607913af958eaccf",
+      "sha256": "a7ff73fc378eab3c809fc925bc77b6bcd7a9be2be1f7d7699725cbe19d26df0c",
+      "bytes": 164226,
+      "semanticFacts": {}
+    },
+    "/pasakumi/kiberpirmdiena/": {
+      "url": "/pasakumi/kiberpirmdiena/",
+      "title": "Kiberpirmdiena 2026 Latvijā",
+      "family": "event_guide",
+      "src": "/assets/social-cards/v2/8bb31e18dda5359f-6dce2c599282.jpg",
+      "width": 1200,
+      "height": 630,
+      "type": "image/jpeg",
+      "alt": "Kiberpirmdiena 2026 Latvijā | Kalendārs365 Latvijai",
+      "design": "occasion",
+      "kicker": "PASĀKUMU CEĻVEDIS",
+      "subtitle": "30.11.2026.",
+      "year": 2027,
+      "month": null,
+      "titleLayout": {
+        "text": "Kiberpirmdiena 2026 Latvijā",
+        "size": 55,
+        "lines": [
+          "Kiberpirmdiena",
+          "2026 Latvijā"
+        ],
+        "bounds": [
+          [
+            60.0,
+            184.0,
+            478.0,
+            236.5
+          ],
+          [
+            60.0,
+            248.0,
+            389.5,
+            300.5
+          ]
+        ],
+        "region": [
+          60,
+          184,
+          574,
+          444
+        ]
+      },
+      "subtitleLayout": {
+        "text": "30.11.2026.",
+        "size": 20,
+        "lines": [
+          "30.11.2026."
+        ],
+        "bounds": [
+          [
+            62.0,
+            466.0,
+            163.0,
+            480.0
+          ]
+        ],
+        "region": [
+          62,
+          466,
+          574,
+          512
+        ]
+      },
+      "sources": [
+        {
+          "src": "/assets/cities/riga-960.webp",
+          "author": "Diego Delso",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Vistas_desde_la_iglesia_de_San_Pedro,_Riga,_Letonia,_2012-08-07,_DD_12.JPG"
+        }
+      ],
+      "artwork": [],
+      "inputs": {
+        "/assets/calendar-data.json": "f0a7090ccc87587d8da0f5428887d8d38d2b71653bdbd9ac25ab5519f63147b3",
+        "/assets/cities/riga-960.webp": "26228d2eeaf99c5e5c40b975a2d263a55f940c3f4771141c8c59469c94ca9630",
+        "/assets/fonts/DM-Sans-Bold.ttf": "6193c6c4a9aeb329610cd1991a7c93c1d0d93100fc9901cd43b83ccbdda9cca7",
+        "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93"
+      },
+      "panelSha256": "31583dc49db53c257bd8db835523d6a1c0adb28fe679b651597fc0135eaa045e",
+      "pixelSha256": "6dce2c599282ef96bd7dcaa24da0223c95ba677b8caa1204dc82226356559378",
+      "sha256": "18b29dbbb2a651a2d5f82da15d184547c8416f4d09d8e77b43bdf8a66f5dc4de",
+      "bytes": 162557,
+      "semanticFacts": {}
+    },
+    "/pabalstu-izmaksas/gimenes-valsts-pabalsts/": {
+      "url": "/pabalstu-izmaksas/gimenes-valsts-pabalsts/",
+      "title": "Ģimenes valsts pabalsts 2026 un izmaksas kārtība",
+      "family": "benefit_guide",
+      "src": "/assets/social-cards/v2/262cb961b1d981e3-8ecbbd5118bb.jpg",
+      "width": 1200,
+      "height": 630,
+      "type": "image/jpeg",
+      "alt": "Ģimenes valsts pabalsts 2026 un izmaksas kārtība | Kalendārs365 Latvijai",
+      "design": "benefit",
+      "kicker": "SOCIĀLAIS ATBALSTS LATVIJĀ",
+      "subtitle": "Par kārtējo mēnesi",
+      "year": 2027,
+      "month": null,
+      "titleLayout": {
+        "text": "Ģimenes valsts pabalsts 2026 un izmaksas kārtība",
+        "size": 55,
+        "lines": [
+          "Ģimenes valsts",
+          "pabalsts 2026 un",
+          "izmaksas kārtība"
+        ],
+        "bounds": [
+          [
+            60.0,
+            184.0,
+            470.5,
+            240.0
+          ],
+          [
+            60.0,
+            248.0,
+            523.0,
+            300.0
+          ],
+          [
+            60.0,
+            311.5,
+            515.0,
+            352.5
+          ]
+        ],
+        "region": [
+          60,
+          184,
+          574,
+          444
+        ]
+      },
+      "subtitleLayout": {
+        "text": "Par kārtējo mēnesi",
+        "size": 20,
+        "lines": [
+          "Par kārtējo mēnesi"
+        ],
+        "bounds": [
+          [
+            62.0,
+            466.0,
+            235.0,
+            485.0
+          ]
+        ],
+        "region": [
+          62,
+          466,
+          574,
+          512
+        ]
+      },
+      "sources": [],
+      "artwork": [
+        "/_data/benefit-guides.json",
+        "/assets/category-vector/family.svg"
+      ],
+      "inputs": {
+        "/_data/benefit-guides.json": "73476e89d44e07586589d33756ed4a507831b55657c22c587c89fa5b80e7a891",
+        "/assets/calendar-data.json": "f0a7090ccc87587d8da0f5428887d8d38d2b71653bdbd9ac25ab5519f63147b3",
+        "/assets/category-vector/family.svg": "437dc764badb4796f63dbbd8fa66f80bface7b0aac403f0f7ac8fceae60b36c5",
+        "/assets/fonts/DM-Sans-Bold.ttf": "6193c6c4a9aeb329610cd1991a7c93c1d0d93100fc9901cd43b83ccbdda9cca7",
+        "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93"
+      },
+      "panelSha256": "d5610cef2b94c2cfac0b7d45e6a61f7000a02ca2f562c66d20acee3e2fb753c5",
+      "pixelSha256": "8ecbbd5118bbb1a8b8290118e3eea6669f770d5bcc59480ac7fb037a394ea966",
+      "sha256": "fb7da177b703f19276078376a71a99ee79cf8c196255c4f22f6e66ebfef56474",
+      "bytes": 93891,
+      "semanticFacts": {}
+    },
+    "/pabalstu-izmaksas/berna-kopsanas-pabalsts/": {
+      "url": "/pabalstu-izmaksas/berna-kopsanas-pabalsts/",
+      "title": "Bērna kopšanas pabalsts 2026 un maksājumu secība",
+      "family": "benefit_guide",
+      "src": "/assets/social-cards/v2/6848704c350158b4-6a37ffcf1640.jpg",
+      "width": 1200,
+      "height": 630,
+      "type": "image/jpeg",
+      "alt": "Bērna kopšanas pabalsts 2026 un maksājumu secība | Kalendārs365 Latvijai",
+      "design": "benefit",
+      "kicker": "SOCIĀLAIS ATBALSTS LATVIJĀ",
+      "subtitle": "Par iepriekšējo mēnesi",
+      "year": 2027,
+      "month": null,
+      "titleLayout": {
+        "text": "Bērna kopšanas pabalsts 2026 un maksājumu secība",
+        "size": 55,
+        "lines": [
+          "Bērna kopšanas",
+          "pabalsts 2026 un",
+          "maksājumu secība"
+        ],
+        "bounds": [
+          [
+            60.0,
+            184.0,
+            488.5,
+            237.5
+          ],
+          [
+            60.0,
+            248.0,
+            523.0,
+            300.0
+          ],
+          [
+            60.0,
+            311.5,
+            563.0,
+            364.0
+          ]
+        ],
+        "region": [
+          60,
+          184,
+          574,
+          444
+        ]
+      },
+      "subtitleLayout": {
+        "text": "Par iepriekšējo mēnesi",
+        "size": 20,
+        "lines": [
+          "Par iepriekšējo mēnesi"
+        ],
+        "bounds": [
+          [
+            62.0,
+            466.0,
+            270.5,
+            485.0
+          ]
+        ],
+        "region": [
+          62,
+          466,
+          574,
+          512
+        ]
+      },
+      "sources": [],
+      "artwork": [
+        "/_data/benefit-guides.json",
+        "/assets/category-vector/planner.svg"
+      ],
+      "inputs": {
+        "/_data/benefit-guides.json": "73476e89d44e07586589d33756ed4a507831b55657c22c587c89fa5b80e7a891",
+        "/assets/calendar-data.json": "f0a7090ccc87587d8da0f5428887d8d38d2b71653bdbd9ac25ab5519f63147b3",
+        "/assets/category-vector/planner.svg": "877867c3b9e8212ebd2041bc88cc647bcfc7f22e5d282301ecd4771cb416148f",
+        "/assets/fonts/DM-Sans-Bold.ttf": "6193c6c4a9aeb329610cd1991a7c93c1d0d93100fc9901cd43b83ccbdda9cca7",
+        "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93"
+      },
+      "panelSha256": "12f3ec458867a797bf7136d2d854609903c65e88bfb2213866d46468bb99b45f",
+      "pixelSha256": "6a37ffcf1640ffd14f039bf6be43dde546d5e5d613429438b905f54de6ee070d",
+      "sha256": "7638771944a792c8d0dcd7ebceb7720d012da9b9364e74d8b0ee4133eedd91cb",
+      "bytes": 95767,
+      "semanticFacts": {}
+    },
+    "/pabalstu-izmaksas/berna-piedzimsanas-pabalsts/": {
+      "url": "/pabalstu-izmaksas/berna-piedzimsanas-pabalsts/",
+      "title": "Bērna piedzimšanas pabalsts 2026 Latvijā",
+      "family": "benefit_guide",
+      "src": "/assets/social-cards/v2/8e315894e9a06f98-3919097e3622.jpg",
+      "width": 1200,
+      "height": 630,
+      "type": "image/jpeg",
+      "alt": "Bērna piedzimšanas pabalsts 2026 Latvijā | Kalendārs365 Latvijai",
+      "design": "benefit",
+      "kicker": "SOCIĀLAIS ATBALSTS LATVIJĀ",
+      "subtitle": "Vienreiz pēc piešķiršanas",
+      "year": 2027,
+      "month": null,
+      "titleLayout": {
+        "text": "Bērna piedzimšanas pabalsts 2026 Latvijā",
+        "size": 55,
+        "lines": [
+          "Bērna",
+          "piedzimšanas",
+          "pabalsts 2026",
+          "Latvijā"
+        ],
+        "bounds": [
+          [
+            60.0,
+            184.0,
+            217.5,
+            223.0
+          ],
+          [
+            60.0,
+            248.0,
+            430.5,
+            301.5
+          ],
+          [
+            60.0,
+            311.5,
+            442.0,
+            363.5
+          ],
+          [
+            60.0,
+            375.5,
+            240.5,
+            428.0
+          ]
+        ],
+        "region": [
+          60,
+          184,
+          574,
+          444
+        ]
+      },
+      "subtitleLayout": {
+        "text": "Vienreiz pēc piešķiršanas",
+        "size": 20,
+        "lines": [
+          "Vienreiz pēc piešķiršanas"
+        ],
+        "bounds": [
+          [
+            62.0,
+            466.0,
+            296.0,
+            485.5
+          ]
+        ],
+        "region": [
+          62,
+          466,
+          574,
+          512
+        ]
+      },
+      "sources": [],
+      "artwork": [
+        "/_data/benefit-guides.json",
+        "/assets/category-vector/gift.svg"
+      ],
+      "inputs": {
+        "/_data/benefit-guides.json": "73476e89d44e07586589d33756ed4a507831b55657c22c587c89fa5b80e7a891",
+        "/assets/calendar-data.json": "f0a7090ccc87587d8da0f5428887d8d38d2b71653bdbd9ac25ab5519f63147b3",
+        "/assets/category-vector/gift.svg": "4255562e8cb3fb9443a2becafdfc951786267f25b77bc87d128401dfb4029678",
+        "/assets/fonts/DM-Sans-Bold.ttf": "6193c6c4a9aeb329610cd1991a7c93c1d0d93100fc9901cd43b83ccbdda9cca7",
+        "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93"
+      },
+      "panelSha256": "1383edc26b0a6454ad9128102dbe7cbdfd82b80f624bab3cafdcda675d11b7b4",
+      "pixelSha256": "3919097e3622565a7516bc45a9b2a5b4eb27adfcabfef8c3637a1eeb7507f142",
+      "sha256": "4b9b12334e4de9d4d0224716efaf7298c6b603e83048411b284c129f51d3a558",
+      "bytes": 93197,
+      "semanticFacts": {}
+    },
+    "/pabalstu-izmaksas/vecaku-pabalsts/": {
+      "url": "/pabalstu-izmaksas/vecaku-pabalsts/",
+      "title": "Vecāku pabalsts 2026 un nenododamā daļa",
+      "family": "benefit_guide",
+      "src": "/assets/social-cards/v2/6383970a45e2a8fe-b59448e21653.jpg",
+      "width": 1200,
+      "height": 630,
+      "type": "image/jpeg",
+      "alt": "Vecāku pabalsts 2026 un nenododamā daļa | Kalendārs365 Latvijai",
+      "design": "benefit",
+      "kicker": "SOCIĀLAIS ATBALSTS LATVIJĀ",
+      "subtitle": "Par iepriekšējo mēnesi",
+      "year": 2027,
+      "month": null,
+      "titleLayout": {
+        "text": "Vecāku pabalsts 2026 un nenododamā daļa",
+        "size": 55,
+        "lines": [
+          "Vecāku pabalsts",
+          "2026 un",
+          "nenododamā daļa"
+        ],
+        "bounds": [
+          [
+            60.0,
+            184.0,
+            509.0,
+            236.0
+          ],
+          [
+            60.0,
+            248.0,
+            277.0,
+            288.0
+          ],
+          [
+            60.0,
+            311.5,
+            543.5,
+            367.0
+          ]
+        ],
+        "region": [
+          60,
+          184,
+          574,
+          444
+        ]
+      },
+      "subtitleLayout": {
+        "text": "Par iepriekšējo mēnesi",
+        "size": 20,
+        "lines": [
+          "Par iepriekšējo mēnesi"
+        ],
+        "bounds": [
+          [
+            62.0,
+            466.0,
+            270.5,
+            485.0
+          ]
+        ],
+        "region": [
+          62,
+          466,
+          574,
+          512
+        ]
+      },
+      "sources": [],
+      "artwork": [
+        "/_data/benefit-guides.json",
+        "/assets/category-vector/family.svg"
+      ],
+      "inputs": {
+        "/_data/benefit-guides.json": "73476e89d44e07586589d33756ed4a507831b55657c22c587c89fa5b80e7a891",
+        "/assets/calendar-data.json": "f0a7090ccc87587d8da0f5428887d8d38d2b71653bdbd9ac25ab5519f63147b3",
+        "/assets/category-vector/family.svg": "437dc764badb4796f63dbbd8fa66f80bface7b0aac403f0f7ac8fceae60b36c5",
+        "/assets/fonts/DM-Sans-Bold.ttf": "6193c6c4a9aeb329610cd1991a7c93c1d0d93100fc9901cd43b83ccbdda9cca7",
+        "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93"
+      },
+      "panelSha256": "1e38262062dc3ae35589d627e196956e7b8933e09316f87004b3fa2dc33fa0dd",
+      "pixelSha256": "b59448e21653a8bab15a8e1dd6858ec43f8d65a22be3a2a2a3fde4baf125e058",
+      "sha256": "8b28939eeecb9275ebb2639e190cf952376a4f96b3f8be46b89042247ceba7cb",
+      "bytes": 88724,
+      "semanticFacts": {}
+    },
+    "/pabalstu-izmaksas/bezdarbnieka-pabalsts/": {
+      "url": "/pabalstu-izmaksas/bezdarbnieka-pabalsts/",
+      "title": "Bezdarbnieka pabalsts un pirmās izmaksas datums",
+      "family": "benefit_guide",
+      "src": "/assets/social-cards/v2/ee500441bccb9810-e0f81df62995.jpg",
+      "width": 1200,
+      "height": 630,
+      "type": "image/jpeg",
+      "alt": "Bezdarbnieka pabalsts un pirmās izmaksas datums | Kalendārs365 Latvijai",
+      "design": "benefit",
+      "kicker": "SOCIĀLAIS ATBALSTS LATVIJĀ",
+      "subtitle": "Par iepriekšējo mēnesi",
+      "year": 2027,
+      "month": null,
+      "titleLayout": {
+        "text": "Bezdarbnieka pabalsts un pirmās izmaksas datums",
+        "size": 55,
+        "lines": [
+          "Bezdarbnieka",
+          "pabalsts un pirmās",
+          "izmaksas datums"
+        ],
+        "bounds": [
+          [
+            60.0,
+            184.0,
+            428.5,
+            225.0
+          ],
+          [
+            60.0,
+            248.0,
+            573.5,
+            300.5
+          ],
+          [
+            60.0,
+            311.5,
+            527.5,
+            352.5
+          ]
+        ],
+        "region": [
+          60,
+          184,
+          574,
+          444
+        ]
+      },
+      "subtitleLayout": {
+        "text": "Par iepriekšējo mēnesi",
+        "size": 20,
+        "lines": [
+          "Par iepriekšējo mēnesi"
+        ],
+        "bounds": [
+          [
+            62.0,
+            466.0,
+            270.5,
+            485.0
+          ]
+        ],
+        "region": [
+          62,
+          466,
+          574,
+          512
+        ]
+      },
+      "sources": [],
+      "artwork": [
+        "/_data/benefit-guides.json",
+        "/assets/category-vector/work.svg"
+      ],
+      "inputs": {
+        "/_data/benefit-guides.json": "73476e89d44e07586589d33756ed4a507831b55657c22c587c89fa5b80e7a891",
+        "/assets/calendar-data.json": "f0a7090ccc87587d8da0f5428887d8d38d2b71653bdbd9ac25ab5519f63147b3",
+        "/assets/category-vector/work.svg": "49972c14b58677d59f1889c4b867ca6062964cece42c8c5ed9a5fb957de3dbf5",
+        "/assets/fonts/DM-Sans-Bold.ttf": "6193c6c4a9aeb329610cd1991a7c93c1d0d93100fc9901cd43b83ccbdda9cca7",
+        "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93"
+      },
+      "panelSha256": "af12036b853a4010acc70f8c6a20f43ac558a8de3ee3f3d497656e77b355d60e",
+      "pixelSha256": "e0f81df62995eb8e57f870ed5c6c2356661293c103b1847d3717cefe2f3c9a3e",
+      "sha256": "8ed68e67a3eaaa2fb034e8a981c56b3fc0c30e887b9bbd421a638a360761102f",
+      "bytes": 92667,
+      "semanticFacts": {}
+    },
+    "/pabalstu-izmaksas/slimibas-pabalsts/": {
+      "url": "/pabalstu-izmaksas/slimibas-pabalsts/",
+      "title": "Slimības pabalsts un B lapas apmaksa",
+      "family": "benefit_guide",
+      "src": "/assets/social-cards/v2/88719e3fea4e62c1-192e60d42a1e.jpg",
+      "width": 1200,
+      "height": 630,
+      "type": "image/jpeg",
+      "alt": "Slimības pabalsts un B lapas apmaksa | Kalendārs365 Latvijai",
+      "design": "benefit",
+      "kicker": "SOCIĀLAIS ATBALSTS LATVIJĀ",
+      "subtitle": "Par apstiprināto darbnespējas periodu",
+      "year": 2027,
+      "month": null,
+      "titleLayout": {
+        "text": "Slimības pabalsts un B lapas apmaksa",
+        "size": 55,
+        "lines": [
+          "Slimības pabalsts",
+          "un B lapas",
+          "apmaksa"
+        ],
+        "bounds": [
+          [
+            60.0,
+            184.0,
+            532.5,
+            236.5
+          ],
+          [
+            60.0,
+            248.0,
+            334.0,
+            300.0
+          ],
+          [
+            60.0,
+            311.5,
+            305.5,
+            363.5
+          ]
+        ],
+        "region": [
+          60,
+          184,
+          574,
+          444
+        ]
+      },
+      "subtitleLayout": {
+        "text": "Par apstiprināto darbnespējas periodu",
+        "size": 20,
+        "lines": [
+          "Par apstiprināto darbnespējas periodu"
+        ],
+        "bounds": [
+          [
+            62.0,
+            466.0,
+            420.0,
+            485.0
+          ]
+        ],
+        "region": [
+          62,
+          466,
+          574,
+          512
+        ]
+      },
+      "sources": [],
+      "artwork": [
+        "/_data/benefit-guides.json",
+        "/assets/category-vector/clock.svg"
+      ],
+      "inputs": {
+        "/_data/benefit-guides.json": "73476e89d44e07586589d33756ed4a507831b55657c22c587c89fa5b80e7a891",
+        "/assets/calendar-data.json": "f0a7090ccc87587d8da0f5428887d8d38d2b71653bdbd9ac25ab5519f63147b3",
+        "/assets/category-vector/clock.svg": "64430baf86771edba78d2e903407040fce739aad5510bd66bd105f1fb3e203e0",
+        "/assets/fonts/DM-Sans-Bold.ttf": "6193c6c4a9aeb329610cd1991a7c93c1d0d93100fc9901cd43b83ccbdda9cca7",
+        "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93"
+      },
+      "panelSha256": "a944e17821741c60cb5d98a753ed4359c59535fb2c7902fce63e8e6561cbc1ba",
+      "pixelSha256": "192e60d42a1ea731210ea57bd83671a837cf45222d6233d65374c8c2c9ce4f54",
+      "sha256": "5eff9721303079444a94851dd0391184f041d3a7da82ded785e890e5dcd06371",
+      "bytes": 84977,
+      "semanticFacts": {}
+    },
+    "/pabalstu-izmaksas/majokla-pabalsts/": {
+      "url": "/pabalstu-izmaksas/majokla-pabalsts/",
+      "title": "Mājokļa pabalsts Latvijā un pieteikšanās Rīgā",
+      "family": "benefit_guide",
+      "src": "/assets/social-cards/v2/54b0de9f704c75bc-4b7fa4b672e6.jpg",
+      "width": 1200,
+      "height": 630,
+      "type": "image/jpeg",
+      "alt": "Mājokļa pabalsts Latvijā un pieteikšanās Rīgā | Kalendārs365 Latvijai",
+      "design": "benefit",
+      "kicker": "SOCIĀLAIS ATBALSTS LATVIJĀ",
+      "subtitle": "Pēc ienākumu un izdevumu izvērtēšanas",
+      "year": 2027,
+      "month": null,
+      "titleLayout": {
+        "text": "Mājokļa pabalsts Latvijā un pieteikšanās Rīgā",
+        "size": 55,
+        "lines": [
+          "Mājokļa pabalsts",
+          "Latvijā un",
+          "pieteikšanās Rīgā"
+        ],
+        "bounds": [
+          [
+            60.0,
+            184.0,
+            514.5,
+            240.0
+          ],
+          [
+            60.0,
+            248.0,
+            321.5,
+            300.5
+          ],
+          [
+            60.0,
+            311.5,
+            532.5,
+            366.0
+          ]
+        ],
+        "region": [
+          60,
+          184,
+          574,
+          444
+        ]
+      },
+      "subtitleLayout": {
+        "text": "Pēc ienākumu un izdevumu izvērtēšanas",
+        "size": 20,
+        "lines": [
+          "Pēc ienākumu un izdevumu izvērtēšanas"
+        ],
+        "bounds": [
+          [
+            62.0,
+            466.0,
+            436.0,
+            480.5
+          ]
+        ],
+        "region": [
+          62,
+          466,
+          574,
+          512
+        ]
+      },
+      "sources": [],
+      "artwork": [
+        "/_data/benefit-guides.json",
+        "/assets/category-vector/city.svg"
+      ],
+      "inputs": {
+        "/_data/benefit-guides.json": "73476e89d44e07586589d33756ed4a507831b55657c22c587c89fa5b80e7a891",
+        "/assets/calendar-data.json": "f0a7090ccc87587d8da0f5428887d8d38d2b71653bdbd9ac25ab5519f63147b3",
+        "/assets/category-vector/city.svg": "4ca94901baeda48bcbdfe84c79253bd26f8473861ea334b9ee6e35bc394b1dea",
+        "/assets/fonts/DM-Sans-Bold.ttf": "6193c6c4a9aeb329610cd1991a7c93c1d0d93100fc9901cd43b83ccbdda9cca7",
+        "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93"
+      },
+      "panelSha256": "fa5df55f8791001bc20cb9a44f209f17f8dca696745f5f89907b41d12da9e25d",
+      "pixelSha256": "4b7fa4b672e602c5c04c6ccfa6456c0a97ce09abe9f45c17a069e7d3d42a754c",
+      "sha256": "74836605369b9627b7445166a582a46fa8b1b4b54edd5ccb5df71f325bf5f06f",
+      "bytes": 97233,
+      "semanticFacts": {}
+    },
+    "/pabalstu-izmaksas/gmi-pabalsts/": {
+      "url": "/pabalstu-izmaksas/gmi-pabalsts/",
+      "title": "GMI pabalsts 2026 un 2027 Latvijā",
+      "family": "benefit_guide",
+      "src": "/assets/social-cards/v2/8bff02e2ba38265b-afb73a7f8cbb.jpg",
+      "width": 1200,
+      "height": 630,
+      "type": "image/jpeg",
+      "alt": "GMI pabalsts 2026 un 2027 Latvijā | Kalendārs365 Latvijai",
+      "design": "benefit",
+      "kicker": "SOCIĀLAIS ATBALSTS LATVIJĀ",
+      "subtitle": "Pašvaldības izvērtēts atbalsts",
+      "year": 2027,
+      "month": null,
+      "titleLayout": {
+        "text": "GMI pabalsts 2026 un 2027 Latvijā",
+        "size": 55,
+        "lines": [
+          "GMI pabalsts 2026",
+          "un 2027 Latvijā"
+        ],
+        "bounds": [
+          [
+            60.0,
+            184.0,
+            562.0,
+            236.0
+          ],
+          [
+            60.0,
+            248.0,
+            465.0,
+            300.5
+          ]
+        ],
+        "region": [
+          60,
+          184,
+          574,
+          444
+        ]
+      },
+      "subtitleLayout": {
+        "text": "Pašvaldības izvērtēts atbalsts",
+        "size": 20,
+        "lines": [
+          "Pašvaldības izvērtēts atbalsts"
+        ],
+        "bounds": [
+          [
+            62.0,
+            466.0,
+            338.0,
+            480.5
+          ]
+        ],
+        "region": [
+          62,
+          466,
+          574,
+          512
+        ]
+      },
+      "sources": [],
+      "artwork": [
+        "/_data/benefit-guides.json",
+        "/assets/category-vector/calculator.svg"
+      ],
+      "inputs": {
+        "/_data/benefit-guides.json": "73476e89d44e07586589d33756ed4a507831b55657c22c587c89fa5b80e7a891",
+        "/assets/calendar-data.json": "f0a7090ccc87587d8da0f5428887d8d38d2b71653bdbd9ac25ab5519f63147b3",
+        "/assets/category-vector/calculator.svg": "efde1149e973c33f2922b857d4f821328bfbcab1a22fc162d9f3a43f03792b36",
+        "/assets/fonts/DM-Sans-Bold.ttf": "6193c6c4a9aeb329610cd1991a7c93c1d0d93100fc9901cd43b83ccbdda9cca7",
+        "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93"
+      },
+      "panelSha256": "33729edbf5d0517d05e32ee9f6dc8e9c4dae940bef4254983fa31f26ccb5f6e6",
+      "pixelSha256": "afb73a7f8cbb8934b45941ebe916b49dadf66df155b31f92a7c2e459664bb8e5",
+      "sha256": "bab119d9305313c385aa711f0e51c54b8b76271f4e7713d17391ad30c305dbd6",
+      "bytes": 85016,
       "semanticFacts": {}
     },
     "/nedelas-kalendars/2031/01/": {
@@ -82424,7 +84895,7 @@
         "/assets/calendar-data.json": "f0a7090ccc87587d8da0f5428887d8d38d2b71653bdbd9ac25ab5519f63147b3",
         "/assets/fonts/DM-Sans-Bold.ttf": "6193c6c4a9aeb329610cd1991a7c93c1d0d93100fc9901cd43b83ccbdda9cca7",
         "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93",
-        "/assets/tools-art/study.svg": "039aa9fcf6c1139f0d275ffe724988d2811754d322021f29177ba21f05f75a0d"
+        "/assets/tools-art/study.svg": "29e83ae4a50d5712d192294c475ce0588e3b1d19b2d47bb77e1ebdc34560e59e"
       },
       "panelSha256": "ae07d07f6278b2b8f7859d36497a75b02f93421d1d15403767bc7e1681f1981b",
       "pixelSha256": "fb4eb01fa03b6817fc5bbc538bda2616ae9beedf3740a2ad882fec877e9b8239",
@@ -84482,7 +86953,7 @@
       ],
       "inputs": {
         "/assets/calendar-data.json": "f0a7090ccc87587d8da0f5428887d8d38d2b71653bdbd9ac25ab5519f63147b3",
-        "/assets/category-vector/location.svg": "7f18f9dff44a79ee2332c2dce3b205cbc3fd0953e8241d5a3afd93e14c404f9e",
+        "/assets/category-vector/location.svg": "49c20b9d0b27271ae384e541ebc2d2a886f65090b882c2115422f9b210315aa6",
         "/assets/fonts/DM-Sans-Bold.ttf": "6193c6c4a9aeb329610cd1991a7c93c1d0d93100fc9901cd43b83ccbdda9cca7",
         "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93"
       },
@@ -84554,7 +87025,7 @@
       ],
       "inputs": {
         "/assets/calendar-data.json": "f0a7090ccc87587d8da0f5428887d8d38d2b71653bdbd9ac25ab5519f63147b3",
-        "/assets/category-vector/location.svg": "7f18f9dff44a79ee2332c2dce3b205cbc3fd0953e8241d5a3afd93e14c404f9e",
+        "/assets/category-vector/location.svg": "49c20b9d0b27271ae384e541ebc2d2a886f65090b882c2115422f9b210315aa6",
         "/assets/fonts/DM-Sans-Bold.ttf": "6193c6c4a9aeb329610cd1991a7c93c1d0d93100fc9901cd43b83ccbdda9cca7",
         "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93"
       },
@@ -84563,8 +87034,776 @@
       "sha256": "9661e58e80af361d9dc61fc28df7fd9038a98f5d0c947d91a01b626e59e6b89a",
       "bytes": 73571,
       "semanticFacts": {}
+    },
+    "/nodoklu-kalkulators/": {
+      "url": "/nodoklu-kalkulators/",
+      "title": "Nodokļu un algas kalkulators 2026 Latvijā",
+      "family": "latvia_special",
+      "src": "/assets/social-cards/v2/aab448c540d03fc3-6303247cead5.jpg",
+      "width": 1200,
+      "height": 630,
+      "type": "image/jpeg",
+      "alt": "Nodokļu un algas kalkulators 2026 Latvijā | Kalendārs365 Latvijai",
+      "design": "work",
+      "kicker": "NODOKĻI LATVIJĀ",
+      "subtitle": "Bruto un neto alga · PVN · Termiņi",
+      "year": 2026,
+      "month": null,
+      "titleLayout": {
+        "text": "Nodokļu un algas kalkulators 2026 Latvijā",
+        "size": 55,
+        "lines": [
+          "Nodokļu un algas",
+          "kalkulators 2026",
+          "Latvijā"
+        ],
+        "bounds": [
+          [
+            60.0,
+            184.0,
+            518.5,
+            239.5
+          ],
+          [
+            60.0,
+            248.0,
+            508.5,
+            288.5
+          ],
+          [
+            60.0,
+            311.5,
+            240.5,
+            364.0
+          ]
+        ],
+        "region": [
+          60,
+          184,
+          574,
+          444
+        ]
+      },
+      "subtitleLayout": {
+        "text": "Bruto un neto alga · PVN · Termiņi",
+        "size": 20,
+        "lines": [
+          "Bruto un neto alga · PVN · Termiņi"
+        ],
+        "bounds": [
+          [
+            62.0,
+            466.0,
+            371.5,
+            485.5
+          ]
+        ],
+        "region": [
+          62,
+          466,
+          574,
+          512
+        ]
+      },
+      "sources": [],
+      "artwork": [
+        "/_data/tax-guide.json",
+        "/scripts/render_tax_social.py"
+      ],
+      "inputs": {
+        "/_data/tax-guide.json": "926d83c02220242565fb5a57eca1fa3d25f42cd3adbdf138e44d00471551651f",
+        "/assets/calendar-data.json": "f0a7090ccc87587d8da0f5428887d8d38d2b71653bdbd9ac25ab5519f63147b3",
+        "/assets/fonts/DM-Sans-Bold.ttf": "6193c6c4a9aeb329610cd1991a7c93c1d0d93100fc9901cd43b83ccbdda9cca7",
+        "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93",
+        "/scripts/render_tax_social.py": "0358f4f11847fc3459b7e2ec6ff283a27794e0595dbb2eb88603f7716d529011"
+      },
+      "panelSha256": "eaaf63e1e9f82adbec425eac4a144b25bff7458cf9fc6b029c26c659241d9e89",
+      "pixelSha256": "6303247cead5c1a39fc1e34cf8ea3fdb61bad5f9b08d37908774eb05c98aad94",
+      "sha256": "0cbd93afb7dfd0812e9f701e33a94b2fe1722ebfd8cd53035a5ec62ac51d0890",
+      "bytes": 91807,
+      "semanticFacts": {}
+    },
+    "/copes-kalendars/": {
+      "url": "/copes-kalendars/",
+      "title": "Copes kalendārs un makšķerēšanas liegumi Latvijā",
+      "family": "latvia_special",
+      "src": "/assets/social-cards/v2/17749f968c1062a8-d4e07f9c7ae9.jpg",
+      "width": 1200,
+      "height": 630,
+      "type": "image/jpeg",
+      "alt": "Copes kalendārs un makšķerēšanas liegumi Latvijā | Kalendārs365 Latvijai",
+      "design": "work",
+      "kicker": "COPES KALENDĀRS LATVIJĀ",
+      "subtitle": "Liegumi · Zivju sugas · Licences un ezeri",
+      "year": null,
+      "month": null,
+      "titleLayout": {
+        "text": "Copes kalendārs un makšķerēšanas liegumi Latvijā",
+        "size": 55,
+        "lines": [
+          "Copes kalendārs",
+          "un makšķerēšanas",
+          "liegumi Latvijā"
+        ],
+        "bounds": [
+          [
+            60.0,
+            184.0,
+            510.0,
+            236.0
+          ],
+          [
+            60.0,
+            248.0,
+            563.0,
+            304.5
+          ],
+          [
+            60.0,
+            311.5,
+            449.5,
+            365.0
+          ]
+        ],
+        "region": [
+          60,
+          184,
+          574,
+          444
+        ]
+      },
+      "subtitleLayout": {
+        "text": "Liegumi · Zivju sugas · Licences un ezeri",
+        "size": 20,
+        "lines": [
+          "Liegumi · Zivju sugas · Licences un ezeri"
+        ],
+        "bounds": [
+          [
+            62.0,
+            466.0,
+            427.5,
+            485.0
+          ]
+        ],
+        "region": [
+          62,
+          466,
+          574,
+          512
+        ]
+      },
+      "sources": [
+        {
+          "src": "/assets/fishing-guide/usma-960.webp",
+          "author": "WikedKentaur",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Usmas_ezers,_2015.jpg",
+          "sourceSha256": "3fb3befee8ce065bffc9a8a0bd7a3a9f903154ba616eb25a00623b213ff1640e"
+        }
+      ],
+      "artwork": [
+        "/_data/fishing-guide.json",
+        "/scripts/render_fishing_social.py"
+      ],
+      "inputs": {
+        "/_data/fishing-guide.json": "4d985cc3b6396ddab9a735dc69f0dcc67c24c19deee9800a5def70041971986e",
+        "/assets/calendar-data.json": "f0a7090ccc87587d8da0f5428887d8d38d2b71653bdbd9ac25ab5519f63147b3",
+        "/assets/fishing-guide/usma-960.webp": "b7809cfc11d1eef149ec863bc56278ffdccae4bb17e1cc6abe4d153cc4951795",
+        "/assets/fonts/DM-Sans-Bold.ttf": "6193c6c4a9aeb329610cd1991a7c93c1d0d93100fc9901cd43b83ccbdda9cca7",
+        "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93",
+        "/scripts/render_fishing_social.py": "bc038673aeba27068ae9e0dc34f83ca2bbc62f854a9d8a03fffaaf12e910146b"
+      },
+      "panelSha256": "b8945582d44c44dde79b9ed120677dde9a778984b272c973c743facdb7dc552d",
+      "pixelSha256": "d4e07f9c7ae93a37e578ea02613c3ea10cf18e396278c162ad104d1960cc20a8",
+      "sha256": "17b8a2d9f165028b437bd13d0ae81d9bd13d4e51c48e8aa2a4a6227bbe5d2508",
+      "bytes": 124450,
+      "semanticFacts": {}
+    },
+    "/adventes-kalendars/": {
+      "url": "/adventes-kalendars/",
+      "title": "Adventes kalendārs Latvijai ar 24 decembra pārsteigumiem",
+      "family": "latvia_special",
+      "src": "/assets/social-cards/v2/2e7c99f1d6e6e347-ffcb786845f6.jpg",
+      "width": 1200,
+      "height": 630,
+      "type": "image/jpeg",
+      "alt": "Adventes kalendārs Latvijai ar 24 decembra pārsteigumiem | Kalendārs365 Latvijai",
+      "design": "culture",
+      "kicker": "LATVIJAS ZIEMAS MAZIE PRIEKI",
+      "subtitle": "24 lodziņi · Latviskas idejas · Tavs decembris",
+      "year": null,
+      "month": null,
+      "titleLayout": {
+        "text": "Adventes kalendārs Latvijai ar 24 decembra pārsteigumiem",
+        "size": 55,
+        "lines": [
+          "Adventes",
+          "kalendārs Latvijai",
+          "ar 24 decembra",
+          "pārsteigumiem"
+        ],
+        "bounds": [
+          [
+            60.0,
+            184.0,
+            318.0,
+            224.5
+          ],
+          [
+            60.0,
+            248.0,
+            533.5,
+            300.5
+          ],
+          [
+            60.0,
+            311.5,
+            485.5,
+            352.0
+          ],
+          [
+            60.0,
+            375.5,
+            469.5,
+            429.0
+          ]
+        ],
+        "region": [
+          60,
+          184,
+          574,
+          444
+        ]
+      },
+      "subtitleLayout": {
+        "text": "24 lodziņi · Latviskas idejas · Tavs decembris",
+        "size": 20,
+        "lines": [
+          "24 lodziņi · Latviskas idejas · Tavs decembris"
+        ],
+        "bounds": [
+          [
+            62.0,
+            466.0,
+            474.0,
+            485.5
+          ]
+        ],
+        "region": [
+          62,
+          466,
+          574,
+          512
+        ]
+      },
+      "sources": [],
+      "artwork": [
+        "/_data/advent-calendar.json",
+        "/scripts/render_advent_social.py",
+        "/assets/tools-art/advent.svg"
+      ],
+      "inputs": {
+        "/_data/advent-calendar.json": "705dcb157015cc7ee243de7bf8a5bbac7810ef1baaaa05c9eda81f42c0cd7518",
+        "/assets/calendar-data.json": "f0a7090ccc87587d8da0f5428887d8d38d2b71653bdbd9ac25ab5519f63147b3",
+        "/assets/fonts/DM-Sans-Bold.ttf": "6193c6c4a9aeb329610cd1991a7c93c1d0d93100fc9901cd43b83ccbdda9cca7",
+        "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93",
+        "/assets/tools-art/advent.svg": "24bee6663222731ec46747b3562f6fa3f0053e190de78ea3b24026bf3d170b3d",
+        "/scripts/render_advent_social.py": "33a1e8c666a2db6494c9f879c747674b1695b272d30b8bd06496c45dca3e378d"
+      },
+      "panelSha256": "a97b8cabf18127049e962f9f84f472036db76f39ea290021448540aab28cf4dd",
+      "pixelSha256": "ffcb786845f6eb021323706777503115ecea1857d583e5edcea94a65e6ed3ceb",
+      "sha256": "0829cc167fbc4cfe116d044766ff1f929f3209c87b73205dbe939da57ad1f655",
+      "bytes": 130016,
+      "semanticFacts": {}
+    },
+    "/adventes-kalendars/2026/": {
+      "url": "/adventes-kalendars/2026/",
+      "title": "Adventes kalendārs 2026 ar 24 atveramiem lodziņiem",
+      "family": "latvia_special",
+      "src": "/assets/social-cards/v2/75666bef3e0ccbcb-7b5578cfe6b4.jpg",
+      "width": 1200,
+      "height": 630,
+      "type": "image/jpeg",
+      "alt": "Adventes kalendārs 2026 ar 24 atveramiem lodziņiem | Kalendārs365 Latvijai",
+      "design": "culture",
+      "kicker": "LATVIJAS ZIEMAS MAZIE PRIEKI",
+      "subtitle": "24 lodziņi · Latviskas idejas · Tavs decembris",
+      "year": 2026,
+      "month": null,
+      "titleLayout": {
+        "text": "Adventes kalendārs 2026 ar 24 atveramiem lodziņiem",
+        "size": 55,
+        "lines": [
+          "Adventes",
+          "kalendārs 2026 ar",
+          "24 atveramiem",
+          "lodziņiem"
+        ],
+        "bounds": [
+          [
+            60.0,
+            184.0,
+            318.0,
+            224.5
+          ],
+          [
+            60.0,
+            248.0,
+            542.0,
+            288.5
+          ],
+          [
+            60.0,
+            311.5,
+            466.5,
+            352.5
+          ],
+          [
+            60.0,
+            375.5,
+            319.5,
+            431.5
+          ]
+        ],
+        "region": [
+          60,
+          184,
+          574,
+          444
+        ]
+      },
+      "subtitleLayout": {
+        "text": "24 lodziņi · Latviskas idejas · Tavs decembris",
+        "size": 20,
+        "lines": [
+          "24 lodziņi · Latviskas idejas · Tavs decembris"
+        ],
+        "bounds": [
+          [
+            62.0,
+            466.0,
+            474.0,
+            485.5
+          ]
+        ],
+        "region": [
+          62,
+          466,
+          574,
+          512
+        ]
+      },
+      "sources": [],
+      "artwork": [
+        "/_data/advent-calendar.json",
+        "/scripts/render_advent_social.py",
+        "/assets/tools-art/advent.svg"
+      ],
+      "inputs": {
+        "/_data/advent-calendar.json": "705dcb157015cc7ee243de7bf8a5bbac7810ef1baaaa05c9eda81f42c0cd7518",
+        "/assets/calendar-data.json": "f0a7090ccc87587d8da0f5428887d8d38d2b71653bdbd9ac25ab5519f63147b3",
+        "/assets/fonts/DM-Sans-Bold.ttf": "6193c6c4a9aeb329610cd1991a7c93c1d0d93100fc9901cd43b83ccbdda9cca7",
+        "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93",
+        "/assets/tools-art/advent.svg": "24bee6663222731ec46747b3562f6fa3f0053e190de78ea3b24026bf3d170b3d",
+        "/scripts/render_advent_social.py": "33a1e8c666a2db6494c9f879c747674b1695b272d30b8bd06496c45dca3e378d"
+      },
+      "panelSha256": "beef61918b9bc1534d6c3ffabcc4f61a8789bf193fc665be6a85ac75b19c0cb7",
+      "pixelSha256": "7b5578cfe6b4e08a8e2dd74c512ba62b66c31b70ae6fc45956542d645739ac92",
+      "sha256": "a05a0a61fda7dc7ec99d2528df7953bac0998c6207b8bd15a0de36f4a1576358",
+      "bytes": 125045,
+      "semanticFacts": {}
+    },
+    "/adventes-kalendars/2027/": {
+      "url": "/adventes-kalendars/2027/",
+      "title": "Adventes kalendārs 2027 ar 24 atveramiem lodziņiem",
+      "family": "latvia_special",
+      "src": "/assets/social-cards/v2/379e0580983cfe3b-9770a6a49c53.jpg",
+      "width": 1200,
+      "height": 630,
+      "type": "image/jpeg",
+      "alt": "Adventes kalendārs 2027 ar 24 atveramiem lodziņiem | Kalendārs365 Latvijai",
+      "design": "culture",
+      "kicker": "LATVIJAS ZIEMAS MAZIE PRIEKI",
+      "subtitle": "24 lodziņi · Latviskas idejas · Tavs decembris",
+      "year": 2027,
+      "month": null,
+      "titleLayout": {
+        "text": "Adventes kalendārs 2027 ar 24 atveramiem lodziņiem",
+        "size": 55,
+        "lines": [
+          "Adventes",
+          "kalendārs 2027 ar",
+          "24 atveramiem",
+          "lodziņiem"
+        ],
+        "bounds": [
+          [
+            60.0,
+            184.0,
+            318.0,
+            224.5
+          ],
+          [
+            60.0,
+            248.0,
+            536.5,
+            288.5
+          ],
+          [
+            60.0,
+            311.5,
+            466.5,
+            352.5
+          ],
+          [
+            60.0,
+            375.5,
+            319.5,
+            431.5
+          ]
+        ],
+        "region": [
+          60,
+          184,
+          574,
+          444
+        ]
+      },
+      "subtitleLayout": {
+        "text": "24 lodziņi · Latviskas idejas · Tavs decembris",
+        "size": 20,
+        "lines": [
+          "24 lodziņi · Latviskas idejas · Tavs decembris"
+        ],
+        "bounds": [
+          [
+            62.0,
+            466.0,
+            474.0,
+            485.5
+          ]
+        ],
+        "region": [
+          62,
+          466,
+          574,
+          512
+        ]
+      },
+      "sources": [],
+      "artwork": [
+        "/_data/advent-calendar.json",
+        "/scripts/render_advent_social.py",
+        "/assets/tools-art/advent.svg"
+      ],
+      "inputs": {
+        "/_data/advent-calendar.json": "705dcb157015cc7ee243de7bf8a5bbac7810ef1baaaa05c9eda81f42c0cd7518",
+        "/assets/calendar-data.json": "f0a7090ccc87587d8da0f5428887d8d38d2b71653bdbd9ac25ab5519f63147b3",
+        "/assets/fonts/DM-Sans-Bold.ttf": "6193c6c4a9aeb329610cd1991a7c93c1d0d93100fc9901cd43b83ccbdda9cca7",
+        "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93",
+        "/assets/tools-art/advent.svg": "24bee6663222731ec46747b3562f6fa3f0053e190de78ea3b24026bf3d170b3d",
+        "/scripts/render_advent_social.py": "33a1e8c666a2db6494c9f879c747674b1695b272d30b8bd06496c45dca3e378d"
+      },
+      "panelSha256": "898aa198e14958fb1bea6a8a9d1a4bb6324c2fa6c540218fb974d508501074a4",
+      "pixelSha256": "9770a6a49c539a8d0cb20b2c0e6ddbb1e38945ea10f554ae031fe6719e14cd45",
+      "sha256": "2e408178ccb3ec5805033a3c0b95c70f00f331f33b47d38121e745bec84b6e80",
+      "bytes": 124532,
+      "semanticFacts": {}
+    },
+    "/adventes-kalendars/2028/": {
+      "url": "/adventes-kalendars/2028/",
+      "title": "Adventes kalendārs 2028 ar 24 atveramiem lodziņiem",
+      "family": "latvia_special",
+      "src": "/assets/social-cards/v2/9ffb55e6cad54c1e-12200e97afb9.jpg",
+      "width": 1200,
+      "height": 630,
+      "type": "image/jpeg",
+      "alt": "Adventes kalendārs 2028 ar 24 atveramiem lodziņiem | Kalendārs365 Latvijai",
+      "design": "culture",
+      "kicker": "LATVIJAS ZIEMAS MAZIE PRIEKI",
+      "subtitle": "24 lodziņi · Latviskas idejas · Tavs decembris",
+      "year": 2028,
+      "month": null,
+      "titleLayout": {
+        "text": "Adventes kalendārs 2028 ar 24 atveramiem lodziņiem",
+        "size": 55,
+        "lines": [
+          "Adventes",
+          "kalendārs 2028 ar",
+          "24 atveramiem",
+          "lodziņiem"
+        ],
+        "bounds": [
+          [
+            60.0,
+            184.0,
+            318.0,
+            224.5
+          ],
+          [
+            60.0,
+            248.0,
+            543.0,
+            288.5
+          ],
+          [
+            60.0,
+            311.5,
+            466.5,
+            352.5
+          ],
+          [
+            60.0,
+            375.5,
+            319.5,
+            431.5
+          ]
+        ],
+        "region": [
+          60,
+          184,
+          574,
+          444
+        ]
+      },
+      "subtitleLayout": {
+        "text": "24 lodziņi · Latviskas idejas · Tavs decembris",
+        "size": 20,
+        "lines": [
+          "24 lodziņi · Latviskas idejas · Tavs decembris"
+        ],
+        "bounds": [
+          [
+            62.0,
+            466.0,
+            474.0,
+            485.5
+          ]
+        ],
+        "region": [
+          62,
+          466,
+          574,
+          512
+        ]
+      },
+      "sources": [],
+      "artwork": [
+        "/_data/advent-calendar.json",
+        "/scripts/render_advent_social.py",
+        "/assets/tools-art/advent.svg"
+      ],
+      "inputs": {
+        "/_data/advent-calendar.json": "705dcb157015cc7ee243de7bf8a5bbac7810ef1baaaa05c9eda81f42c0cd7518",
+        "/assets/calendar-data.json": "f0a7090ccc87587d8da0f5428887d8d38d2b71653bdbd9ac25ab5519f63147b3",
+        "/assets/fonts/DM-Sans-Bold.ttf": "6193c6c4a9aeb329610cd1991a7c93c1d0d93100fc9901cd43b83ccbdda9cca7",
+        "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93",
+        "/assets/tools-art/advent.svg": "24bee6663222731ec46747b3562f6fa3f0053e190de78ea3b24026bf3d170b3d",
+        "/scripts/render_advent_social.py": "33a1e8c666a2db6494c9f879c747674b1695b272d30b8bd06496c45dca3e378d"
+      },
+      "panelSha256": "3cb17a4eb55049f4420df61709000fc5d8adfebe52f5a1a14057b7ec5f1b4c8d",
+      "pixelSha256": "12200e97afb93f777f836107306f99157ab51246e63ac408ca4237d060c4f8d6",
+      "sha256": "9efda5db4fba2419905480e14a46112fe67fb017509a9d0c307b28a2abccf8cd",
+      "bytes": 125029,
+      "semanticFacts": {}
+    },
+    "/adventes-kalendars/2029/": {
+      "url": "/adventes-kalendars/2029/",
+      "title": "Adventes kalendārs 2029 ar 24 atveramiem lodziņiem",
+      "family": "latvia_special",
+      "src": "/assets/social-cards/v2/8d1bf835e98b90de-644f3c08dc17.jpg",
+      "width": 1200,
+      "height": 630,
+      "type": "image/jpeg",
+      "alt": "Adventes kalendārs 2029 ar 24 atveramiem lodziņiem | Kalendārs365 Latvijai",
+      "design": "culture",
+      "kicker": "LATVIJAS ZIEMAS MAZIE PRIEKI",
+      "subtitle": "24 lodziņi · Latviskas idejas · Tavs decembris",
+      "year": 2029,
+      "month": null,
+      "titleLayout": {
+        "text": "Adventes kalendārs 2029 ar 24 atveramiem lodziņiem",
+        "size": 55,
+        "lines": [
+          "Adventes",
+          "kalendārs 2029 ar",
+          "24 atveramiem",
+          "lodziņiem"
+        ],
+        "bounds": [
+          [
+            60.0,
+            184.0,
+            318.0,
+            224.5
+          ],
+          [
+            60.0,
+            248.0,
+            542.5,
+            288.5
+          ],
+          [
+            60.0,
+            311.5,
+            466.5,
+            352.5
+          ],
+          [
+            60.0,
+            375.5,
+            319.5,
+            431.5
+          ]
+        ],
+        "region": [
+          60,
+          184,
+          574,
+          444
+        ]
+      },
+      "subtitleLayout": {
+        "text": "24 lodziņi · Latviskas idejas · Tavs decembris",
+        "size": 20,
+        "lines": [
+          "24 lodziņi · Latviskas idejas · Tavs decembris"
+        ],
+        "bounds": [
+          [
+            62.0,
+            466.0,
+            474.0,
+            485.5
+          ]
+        ],
+        "region": [
+          62,
+          466,
+          574,
+          512
+        ]
+      },
+      "sources": [],
+      "artwork": [
+        "/_data/advent-calendar.json",
+        "/scripts/render_advent_social.py",
+        "/assets/tools-art/advent.svg"
+      ],
+      "inputs": {
+        "/_data/advent-calendar.json": "705dcb157015cc7ee243de7bf8a5bbac7810ef1baaaa05c9eda81f42c0cd7518",
+        "/assets/calendar-data.json": "f0a7090ccc87587d8da0f5428887d8d38d2b71653bdbd9ac25ab5519f63147b3",
+        "/assets/fonts/DM-Sans-Bold.ttf": "6193c6c4a9aeb329610cd1991a7c93c1d0d93100fc9901cd43b83ccbdda9cca7",
+        "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93",
+        "/assets/tools-art/advent.svg": "24bee6663222731ec46747b3562f6fa3f0053e190de78ea3b24026bf3d170b3d",
+        "/scripts/render_advent_social.py": "33a1e8c666a2db6494c9f879c747674b1695b272d30b8bd06496c45dca3e378d"
+      },
+      "panelSha256": "b865aebb3e7228b4613b989b0ee8fd8f475354e80d33356951bcc58bb81206a6",
+      "pixelSha256": "644f3c08dc1746cf2fb66588df88ff6232b1b81c10f6342b8231dadc166e79e9",
+      "sha256": "5ee279d23577829a4213574d5010283f42ae86341ac35df4046742e2f1165c5e",
+      "bytes": 125084,
+      "semanticFacts": {}
+    },
+    "/adventes-kalendars/2030/": {
+      "url": "/adventes-kalendars/2030/",
+      "title": "Adventes kalendārs 2030 ar 24 atveramiem lodziņiem",
+      "family": "latvia_special",
+      "src": "/assets/social-cards/v2/8fb6cb3cecfd0cc7-5a907f7a4661.jpg",
+      "width": 1200,
+      "height": 630,
+      "type": "image/jpeg",
+      "alt": "Adventes kalendārs 2030 ar 24 atveramiem lodziņiem | Kalendārs365 Latvijai",
+      "design": "culture",
+      "kicker": "LATVIJAS ZIEMAS MAZIE PRIEKI",
+      "subtitle": "24 lodziņi · Latviskas idejas · Tavs decembris",
+      "year": 2030,
+      "month": null,
+      "titleLayout": {
+        "text": "Adventes kalendārs 2030 ar 24 atveramiem lodziņiem",
+        "size": 55,
+        "lines": [
+          "Adventes",
+          "kalendārs 2030 ar",
+          "24 atveramiem",
+          "lodziņiem"
+        ],
+        "bounds": [
+          [
+            60.0,
+            184.0,
+            318.0,
+            224.5
+          ],
+          [
+            60.0,
+            248.0,
+            547.5,
+            288.5
+          ],
+          [
+            60.0,
+            311.5,
+            466.5,
+            352.5
+          ],
+          [
+            60.0,
+            375.5,
+            319.5,
+            431.5
+          ]
+        ],
+        "region": [
+          60,
+          184,
+          574,
+          444
+        ]
+      },
+      "subtitleLayout": {
+        "text": "24 lodziņi · Latviskas idejas · Tavs decembris",
+        "size": 20,
+        "lines": [
+          "24 lodziņi · Latviskas idejas · Tavs decembris"
+        ],
+        "bounds": [
+          [
+            62.0,
+            466.0,
+            474.0,
+            485.5
+          ]
+        ],
+        "region": [
+          62,
+          466,
+          574,
+          512
+        ]
+      },
+      "sources": [],
+      "artwork": [
+        "/_data/advent-calendar.json",
+        "/scripts/render_advent_social.py",
+        "/assets/tools-art/advent.svg"
+      ],
+      "inputs": {
+        "/_data/advent-calendar.json": "705dcb157015cc7ee243de7bf8a5bbac7810ef1baaaa05c9eda81f42c0cd7518",
+        "/assets/calendar-data.json": "f0a7090ccc87587d8da0f5428887d8d38d2b71653bdbd9ac25ab5519f63147b3",
+        "/assets/fonts/DM-Sans-Bold.ttf": "6193c6c4a9aeb329610cd1991a7c93c1d0d93100fc9901cd43b83ccbdda9cca7",
+        "/assets/fonts/DM-Sans-Regular.ttf": "2b54817aa66ccbb25aad65c70d1462ff3ddf7f93ecd93cf3a61c819ef33aff93",
+        "/assets/tools-art/advent.svg": "24bee6663222731ec46747b3562f6fa3f0053e190de78ea3b24026bf3d170b3d",
+        "/scripts/render_advent_social.py": "33a1e8c666a2db6494c9f879c747674b1695b272d30b8bd06496c45dca3e378d"
+      },
+      "panelSha256": "2c4ffea253518c1f42062156a7e71b6e00d24c8ac1b7a4567ee56ce2e6b810bb",
+      "pixelSha256": "5a907f7a466141f3c7b1533b09fbb85955b2208a97acc79dca1bb292a5c16f6d",
+      "sha256": "4333e4272f45918573087dcad343e53ef5a0a044db20f686750ced31d1ada93d",
+      "bytes": 125226,
+      "semanticFacts": {}
     }
   },
-  "rendererSha256": "f318dd9bc9e0177ecff772a2c3a1496d11781205b04021755d2e24212a0cc2ac",
+  "rendererSha256": "a3c1a11773fb9d7d16d65d0633906ee8750109f2275db69fa766f177fe72ead2",
   "prepareSha256": "b71def2a41d974954d125f05e9cd486b83aa52c379adc6dcb7facfee0768d3cd"
 }

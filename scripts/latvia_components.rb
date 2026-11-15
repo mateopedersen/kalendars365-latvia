@@ -212,80 +212,26 @@ def advent_sundays(year)
 end
 
 def cultural_calendar_dates(article,year)
-  model=article.fetch('dateModel',{})
-  make=->(date,title,scope=nil) { {'date'=>date.iso8601,'title'=>title,'scope'=>scope}.compact }
-  case model['type']
-  when 'fixed'
-    [make.call(Date.new(year,model.fetch('month'),model.fetch('day')),article['h1'],model['confessionScope'])]
-  when 'gregorian-relative'
-    return [] unless article['url'].include?('/advente/')
-    advent_sundays(year).each_with_index.map { |date,i| make.call(date,"#{i+1}. adventes svētdiena",model['confessionScope']) }
-  when 'easter-relative'
-    easter=DATA.fetch('holidays').find { |r| r['date'].start_with?(year.to_s) && r['title']=='Pirmās Lieldienas' }
-    easter ? [make.call(Date.parse(easter['date'])+model.fetch('offsetDays'),article['h1'],model['confessionScope'])] : []
-  when 'confession-specific'
-    model.fetch('variants',[]).flat_map do |variant|
-      date=if variant['month'] && variant['day']
-        Date.new(year,variant['month'],variant['day'])
-      elsif variant['ruleId']=='advent-minus-seven-days'
-        advent_sundays(year).first-7
-      end
-      date ? [make.call(date,variant['name'],variant['scope'])] : []
-    end
-  when 'astronomical'
-    DATA.fetch('seasons',[]).select { |r| r['date'].start_with?(year.to_s) && model.fetch('typicalMonths',[]).include?(Date.parse(r['date']).month) && r['phenomenon']=='Equinox' }
-  else
-    []
-  end
+  OccasionGuide.dates(article,year,seasons:DATA.fetch('seasons',[]))
 end
 
 def cultural_page_markup(article)
   slug = article.fetch('url').split('/').last
-  model = article['dateModel'] || {}
-  intro = %(<p class="lead">#{tradition_text_markup(slug,article['intro'],'intro')}</p>)+tradition_context_markup(slug)
-  date_markup = case model['type']
-  when 'fixed'
-    years = (2027..2030).map do |year|
-      date = Date.new(year, model['month'], model['day'])
-      label=%(<time datetime="#{date.iso8601}">#{year}. gada #{date.day}. #{h(MONTHS[date.month - 1])}</time>)
-      %(<article class="holiday-card">#{tradition_date_link(date,label)}<small>#{%w[Svētdiena Pirmdiena Otrdiena Trešdiena Ceturtdiena Piektdiena Sestdiena][date.wday]}</small></article>)
-    end.join
-    local_date = article['localDate']
-    local_markup = if local_date
-      local_years = (2027..2030).map do |year|
-        date = Date.new(year, local_date['month'], local_date['day'])
-        label=%(<time datetime="#{date.iso8601}">#{year}. gada #{date.day}. #{h(MONTHS[date.month - 1])}</time>)
-        %(<article class="holiday-card">#{tradition_date_link(date,label)}<small>#{%w[Svētdiena Pirmdiena Otrdiena Trešdiena Ceturtdiena Piektdiena Sestdiena][date.wday]}</small></article>)
-      end.join
-      %(<h3>Atsevišķi: Latvijas piemiņas diena</h3><div class="holiday-card-grid">#{local_years}</div><p>#{h(article['localDateNote'])}</p>)
-    else
-      ''
-    end
-    %(<section class="content-card"><h2>#{h(article['h1'])}: kad? Datumi kalendārā</h2><div class="holiday-card-grid">#{years}</div><p>#{h(article['dateNote'] || 'Šis ir tradīcijas vai atzīmēšanas datums. Likumā noteiktas brīvdienas ir norādītas atsevišķi.')}</p>#{local_markup}</section>)
-  when 'latvian-spring'
-    cards = [
-      ['/svetki-un-tradicijas/meteni/', 'Meteņi: pavasara gaidīšanas tradīcijas'],
-      ['/svetki-un-tradicijas/lieldienas/', 'Lieldienu datumi Latvijā'],
-      ['/svetki-un-tradicijas/pavasara-ekvinokcija/', 'Astronomiskā pavasara ekvinokcija'],
-      ['/gadalaiki/', 'Latvijas gadalaiku sākuma brīži']
-    ].map { |url, title| %(<a class="link-card" href="#{url}"><strong>#{h(title)}</strong><span>Atvērt Latvijas kalendāra lapu</span></a>) }.join
-    %(<section class="content-card"><h2>Pavasara notikumi Latvijā</h2><p>#{h(model['rule'])}</p><div class="link-grid">#{cards}</div><p>Gadskārtu paražas, kristīgo svētku datumi un astronomiskais ekvinokcijas brīdis pieder atšķirīgiem kalendāriem.</p></section>)
-  when 'astronomical','gregorian-relative','easter-relative','confession-specific'
-    rows=(2027..2030).flat_map { |year| cultural_calendar_dates(article,year) }.map do |event|
-      date=Date.parse(event['date'])
-      label=%(<time datetime="#{h(event['utc']||event['date'])}">#{date.year}. gada #{date.day}. #{h(MONTHS[date.month-1])}#{event['time'] ? " · #{h(event['time'])} · Latvijas laiks" : ''}</time>)
-      %(<article class="holiday-card">#{tradition_date_link(date,label)}<strong>#{h(event['title'])}</strong>#{event['scope'] ? "<small>#{h(event['scope'])}</small>" : ''}</article>)
-    end.join
-    note=model['type']=='astronomical' ? 'Ekvinokcija ir precīzs astronomisks brīdis, nevis nemainīgs kalendāra datums.' : 'Datumi attiecas uz katrā ierakstā norādīto tradīciju vai konfesiju; tie nav automātiski vispārējas svētku brīvdienas.'
-    %(<section class="content-card"><h2>Datumi 2027.–2030. gadā</h2><div class="holiday-card-grid">#{rows}</div><p>#{h(note)}</p></section>)
-  else
-    note = model['rule'] || model['easterRelativeConventionStatus'] || model['confessionScope'] || 'Datums var atšķirties atkarībā no vietējās tradīcijas un tās kalendāra.'
-    %(<section class="content-card"><h2>Datuma noteikums un tā tvērums</h2><p>#{h(note)}</p><p>Pasākuma rīkotāja publicētais datums var atšķirties no tradīcijas kalendārā lietotā datuma.</p></section>)
-  end
-  notes = (article['factNotes'] || []).each_with_index.map { |note,index| "<li>#{tradition_text_markup(slug,note,"factNotes[#{index}]")}</li>" }.join
-  extra = notes.empty? ? '' : %(<section class="content-card"><h2>Precizējumi</h2><ul>#{notes}</ul></section>)
-  sources=%(<aside class="source-panel tradition-source-panel">#{tradition_sources_markup(slug)}<p>Pasākumu norises grafiks nav tas pats, kas pastāvīgais svētku vai tradīcijas datums.</p>#{a('/avoti-un-metodika/','Avoti un metodika →')}</aside>)
-  intro + date_markup.sub('<section ', '<section id="datumi" ') + extra + sources + tradition_related_markup(slug)
+  notes = article.fetch('factNotes',[]).each_with_index.map do |note,index|
+    %(<p>#{tradition_text_markup(slug,note,"factNotes[#{index}]")}</p>)
+  end.join
+  tools = TRADITION_LINKING.tools(slug).map { |tool| a(tool.fetch('url'),tool.fetch('label'),'button') }.join
+  <<~HTML
+    <article class="occasion-story occasion-guide" data-occasion-guide="#{h(slug)}">
+      <section class="occasion-introduction"><span class="eyebrow">TRADĪCIJA UN TĀS DATUMS</span><h2>#{h(article['h1'])}</h2><p>#{tradition_text_markup(slug,article['intro'],'intro')}</p><div class="occasion-actions">#{tools}</div></section>
+      #{occasion_dates_markup(article)}
+      #{occasion_practical_markup(article)}
+      <div class="occasion-reading"><section><h2>Kas jāzina par šo tradīciju?</h2>#{notes}</section><aside><span class="eyebrow">PRECĪZS KONTEKSTS</span><h2>Ko svarīgi nejaukt?</h2><p>#{h(OccasionGuide.copy(article).fetch('distinction'))}</p>#{tradition_sources_markup(slug)}</aside></div>
+      #{occasion_faq_markup(article)}
+      #{tradition_context_markup(slug)}
+      #{tradition_related_markup(slug)}
+    </article>
+  HTML
 end
 
 def astronomy_event_markup(slug)
@@ -302,6 +248,7 @@ def astronomy_event_markup(slug)
 end
 
 def latvia_special_markup(path, metadata)
+  return AdventCalendar.page(path.split('/')[2]&.to_i) if path.start_with?('/adventes-kalendars/')
   slug = path.split('/').reject(&:empty?).last
   case slug
   when 'gada-diena'
@@ -312,10 +259,16 @@ def latvia_special_markup(path, metadata)
     clock_change_markup + verified_sources_panel(['dst-latvia'])
   when 'dienas-garums'
     '{% include sky-tool.html %}' + city_photo_directory('sun','Dienas garums un Saules laiki Latvijas pilsētās') + verified_sources_panel(['usno-services','usno-api'])
+  when 'adventes-kalendars'
+    AdventCalendar.page
+  when 'copes-kalendars'
+    FishingGuide.page
+  when 'nodoklu-kalkulators'
+    TaxGuide.page
   when 'pensiju-izmaksas'
-    %(<p class="lead">Latvijā nav vienas ikmēneša pensijas izmaksas dienas, ko varētu droši attiecināt uz visiem saņēmējiem. Pārbaudi savu VSAA lēmumu un izmanto privātu atgādinājumu.</p>#{payment_reminder_markup('pension')}#{verified_sources_panel(['vsaa-faq','vsaa-holidays-2025'],'Agrāks svētku izmaksas paziņojums ir tikai tā gada piemērs, nevis nākamā gada maksājumu kalendārs.')})
+    PensionGuide.page(payment_reminder_markup('pension'))
   when 'pabalstu-izmaksas'
-    %(<p class="lead">Pabalstu veidiem un saņēmēju lēmumiem var būt atšķirīgs izmaksas ritms. Kalendārs nepiedēvē visiem pabalstiem vienu datumu.</p>#{payment_reminder_markup('benefit')}#{verified_sources_panel(['vsaa-faq','vsaa-parent-payments','vsaa-holidays-2025'],'Pirmā izmaksa var atšķirties no regulārās; dažus pabalstus izmaksā par iepriekšējo, citus par pašreizējo mēnesi.')})
+    BenefitGuides.hub + %(<div id="mans-atgadinajums"></div>#{payment_reminder_markup('benefit')}#{verified_sources_panel(['vsaa-faq','vsaa-parent-payments','vsaa-holidays-2025'],'Pirmā izmaksa var atšķirties no regulārās; dažus pabalstus izmaksā par iepriekšējo, citus par pašreizējo mēnesi.')})
   when 'skolas-kalendars'
     school_calendar_markup
   when 'valsts-parbaudes-darbi'

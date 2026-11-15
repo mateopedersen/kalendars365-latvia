@@ -23,7 +23,7 @@ def category_advanced_controls(slug,body)
  when 'gadalaiki'
   body=body.sub('<div class="category-segmented"', '<div class="v2-compare-toggle"><label><input type="checkbox" data-v2-season-compare> Salīdzināt 2027.–2030. gadu</label></div><div data-v2-season-comparison hidden></div><div class="category-segmented"')
  when 'astronomiskais-kalendars'
-  body=body.sub('<div class="astronomy-feature"', '<div class="v2-astronomy-actions"><label><input type="checkbox" data-v2-local-eclipses> Aptumsumi — tikai izvēlētajā pilsētā redzamie</label><button type="button" data-v2-astronomy-link>Kopēt šīs atlases saiti ↗</button><span role="status" data-v2-astronomy-status></span></div><div class="astronomy-feature"')
+  body=body.sub('<div class="astronomy-feature"', '<div class="v2-astronomy-actions"><label><input type="checkbox" data-v2-local-eclipses> Aptumsumi tikai izvēlētajā pilsētā redzamie</label><button type="button" data-v2-astronomy-link>Kopēt šīs atlases saiti ↗</button><span role="status" data-v2-astronomy-status></span></div><div class="astronomy-feature"')
  end
  body
 end

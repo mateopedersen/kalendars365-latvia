@@ -1,0 +1,9 @@
+<section class="content-card" id="pasakumu-foto">
+<h2>Pasākumu ceļvežu fotogrāfijas</h2>
+<p>Arhīva un pilsētvides fotogrāfijas ilustrē vietu vai tēmu. Tās nav nākamās sezonas programmas dokumentācija. Oriģinālie autori un licences norādīti pie katra attēla.</p>
+{% for entry in site.data.event-guide-photos.photos %}{% assign photo = entry[1] %}
+<article style="margin-top:2rem;padding-top:2rem;border-top:1px solid #e6dcd6">
+<img src="{{ photo.src }}" width="{{ photo.width }}" height="{{ photo.height }}" alt="{{ photo.alt | escape }}" loading="lazy" decoding="async" style="width:100%;max-width:560px;max-height:340px;object-fit:contain;border-radius:12px">
+<p>{{ photo.caption | escape }}</p><p>Foto: {{ photo.author | escape }} · <a href="{{ photo.sourceUrl | escape }}">Oriģinālais avots</a> · <a href="{{ photo.licenseUrl | escape }}">{{ photo.license | escape }}</a>.</p><p>Izmantota samazināta WebP kopija; saskarnē attēls var būt apgriezts. Pielāgojumiem saglabāta norādītā licence.</p>
+</article>{% endfor %}
+</section>

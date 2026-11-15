@@ -1,0 +1,18 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Kalendars365.lv//Events//LV
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:kiberpirmdiena-2026-11-30@kalendars365.lv
+DTSTAMP:20261115T180000Z
+DTSTART;VALUE=DATE:20261130
+DTEND;VALUE=DATE:20261201
+SUMMARY:Kiberpirmdiena 2026 Latvijā
+LOCATION:Latvijas interneta veikali un pārdevēji\, kas piegādā Latvijā
+DESCRIPTION:Pirmdiena\; piedāvājuma beigas pārbaudi pie tirgotāja. http
+ s://220.lv/lv/super/black-friday
+URL:https://kalendars365.lv/pasakumi/kiberpirmdiena/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

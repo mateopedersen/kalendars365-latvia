@@ -1,0 +1,140 @@
+{
+  "title": "Nodokļu un algas kalkulators 2026 Latvijā",
+  "description": "Aprēķini bruto un neto algu 2026. gadā, IIN, VSAOI un darba devēja izmaksas. Salīdzini grāmatiņu, apgādājamos un aprēķini PVN.",
+  "checkedAt": "2026-11-16",
+  "sources": [
+    {
+      "id": "salary",
+      "title": "VID algas nodokļa metodiskais materiāls",
+      "url": "https://www.vid.gov.lv/lv/media/27996/download?attachment=",
+      "purpose": "Mēneša IIN formula, grāmatiņa, atvieglojumi un aprēķinu piemēri.",
+      "kind": "Oficiālais avots"
+    },
+    {
+      "id": "rates",
+      "title": "VID iedzīvotāju ienākuma nodokļa likmes",
+      "url": "https://www.vid.gov.lv/lv/iedzivotaju-ienakuma-nodokla-likmes",
+      "purpose": "Mēneša un gada likmju atšķirība, progresija un papildu likme.",
+      "kind": "Oficiālais avots"
+    },
+    {
+      "id": "social",
+      "title": "VID sociālās apdrošināšanas iemaksu likmes",
+      "url": "https://www.vid.gov.lv/lv/valsts-socialas-apdrosinasanas-obligato-iemaksu-likmes",
+      "purpose": "Darba ņēmēja un darba devēja daļas atbilstoši apdrošināšanas statusam.",
+      "kind": "Oficiālais avots"
+    },
+    {
+      "id": "minimum",
+      "title": "VID neapliekamais minimums",
+      "url": "https://www.vid.gov.lv/lv/neapliekamais-minimums",
+      "purpose": "2026. gada minimums un tā piemērošana pensijas saņēmējiem.",
+      "kind": "Oficiālais avots"
+    },
+    {
+      "id": "book",
+      "title": "VID algas nodokļa grāmatiņa",
+      "url": "https://www.vid.gov.lv/lv/algas-nodokla-gramatina",
+      "purpose": "Galvenās ienākumu gūšanas vietas norādīšana EDS.",
+      "kind": "Oficiālais avots"
+    },
+    {
+      "id": "extra",
+      "title": "VID papildu nodokļa atvieglojums",
+      "url": "https://www.vid.gov.lv/lv/papildu-nodokla-atvieglojums",
+      "purpose": "154 vai 120 eiro atvieglojuma nosacījumi un pieteikšana.",
+      "kind": "Oficiālais avots"
+    },
+    {
+      "id": "dependents",
+      "title": "VID par apgādībā esošām personām",
+      "url": "https://www.vid.gov.lv/lv/par-apgadiba-esosam-personam",
+      "purpose": "Kas var būt apgādībā un kad tiesības uz atvieglojumu beidzas.",
+      "kind": "Oficiālais avots"
+    },
+    {
+      "id": "vat",
+      "title": "VID pievienotās vērtības nodokļa likmes",
+      "url": "https://www.vid.gov.lv/lv/pievienotas-vertibas-nodokla-likmes",
+      "purpose": "21%, 12%, 5% un 0% likmju piemērošanas nosacījumi.",
+      "kind": "Oficiālais avots"
+    },
+    {
+      "id": "risk",
+      "title": "MK noteikumi par riska nodevu 2026. gadā",
+      "url": "https://likumi.lv/ta/id/364203-noteikumi-par-uznemejdarbibas-riska-valsts-nodevu-2026-gada",
+      "purpose": "Darba devēja riska nodeva 0,36 eiro mēnesī un maksāšanas kārtība.",
+      "kind": "Oficiālais avots"
+    },
+    {
+      "id": "changes",
+      "title": "Finanšu ministrijas 2026. gada izmaiņas",
+      "url": "https://www.fm.gov.lv/lv/izmainas-nodoklu-un-finansu-joma-sakot-ar-2026-gadu",
+      "purpose": "2026. gada minimālā alga, neapliekamais minimums un gada sliekšņi.",
+      "kind": "Oficiālais avots"
+    },
+    {
+      "id": "return",
+      "title": "VID gada ienākumu deklarācija",
+      "url": "https://www.vid.gov.lv/lv/brivpratigi-iesniedzama-gada-ienakumu-deklaracija",
+      "purpose": "Gada pārrēķins un neizmantoto atvieglojumu atgūšana.",
+      "kind": "Oficiālais avots"
+    },
+    {
+      "id": "account",
+      "title": "VID vienotais nodokļu konts",
+      "url": "https://www.vid.gov.lv/lv/vienotais-nodoklu-konts",
+      "purpose": "Maksājumi EDS, rekvizīti un naudas attiecināšana uz saistībām.",
+      "kind": "Oficiālais avots"
+    },
+    {
+      "id": "annual",
+      "title": "VID obligātā gada ienākumu deklarācija",
+      "url": "https://www.vid.gov.lv/lv/obligati-iesniedzama-gada-ienakumu-deklaracija",
+      "purpose": "Iesniegšanas termiņš, maksājums, dalīšana un deklarācijas pielikumi.",
+      "kind": "Oficiālais avots"
+    },
+    {
+      "id": "business",
+      "title": "VID saimnieciskās darbības ceļvedis",
+      "url": "https://www.vid.gov.lv/lv/ka-registret-un-veikt-saimniecisko-darbibu",
+      "purpose": "Pašnodarbinātā un MUN ceturkšņa ziņojumi, maksājumi un režīma izvēle.",
+      "kind": "Oficiālais avots"
+    },
+    {
+      "id": "forms",
+      "title": "VID veidlapas",
+      "url": "https://www.vid.gov.lv/lv/veidlapas-0",
+      "purpose": "Aktuālās IIN deklarācijas veidlapas un elektroniskā iesniegšana.",
+      "kind": "Oficiālais avots"
+    },
+    {
+      "id": "pvnterms",
+      "title": "VID PVN deklarēšanas un samaksas termiņi",
+      "url": "https://www.vid.gov.lv/lv/deklaraciju-iesniegsanas-un-nodoklu-nomaksas-termini-4",
+      "purpose": "PVN taksācijas periods, deklarācija un maksājums.",
+      "kind": "Oficiālais avots"
+    },
+    {
+      "id": "paymentlaw",
+      "title": "Likums par nodokļiem un nodevām",
+      "url": "https://likumi.lv/ta/id/33946-par-nodokliem-un-nodevam",
+      "purpose": "29. panta 3.¹ daļa par maksāšanas termiņu brīvdienā.",
+      "kind": "Tiesību akts"
+    },
+    {
+      "id": "pvnlaw",
+      "title": "Pievienotās vērtības nodokļa likums",
+      "url": "https://likumi.lv/ta/id/253451-pievienotas-vertibas-nodokla-likums",
+      "purpose": "118. un 119. pants par deklarācijas iesniegšanu un samaksu.",
+      "kind": "Tiesību akts"
+    },
+    {
+      "id": "transfers",
+      "title": "2026. gada darba dienu pārcelšanas rīkojums",
+      "url": "https://likumi.lv/ta/id/361161",
+      "purpose": "2. janvāra un 22. jūnija pārcelšana, kā arī attiecīgās darba sestdienas.",
+      "kind": "Tiesību akts"
+    }
+  ]
+}

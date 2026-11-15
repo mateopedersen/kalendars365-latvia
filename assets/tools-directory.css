@@ -25,7 +25,7 @@
 .directory-heading .eyebrow{font-size:11px;letter-spacing:1.5px}
 .directory-heading h2{font-size:31px;line-height:1.25;margin:8px 0 9px}
 .directory-heading p{color:var(--directory-muted);font-size:16px;line-height:1.6;margin:0}
-.directory-account-note{display:flex;align-items:center;gap:7px;font-size:13px;font-weight:650;color:#4f6d5e;white-space:nowrap}
+.directory-account-note{display:flex;align-items:center;gap:7px;font-size:13px;font-weight:650;color:#6d4f56;white-space:nowrap}
 .directory-account-note svg{width:20px;height:20px;fill:none;stroke:currentColor;stroke-width:1.6;flex:none}
 .directory-filter{display:grid;grid-template-columns:minmax(0,1.5fr) minmax(0,1fr) auto;gap:16px;align-items:end;border:1px solid #e2d6cd;border-radius:16px;background:#f4eee7;padding:20px}
 .directory-filter>label{display:flex;flex-direction:column;gap:8px;min-width:0;color:#514a50;font-size:13px;font-weight:700}

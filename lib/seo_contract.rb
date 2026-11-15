@@ -11,16 +11,18 @@ module CalendarSeoContract
     'year'=>'view-year', 'calendar_month'=>'view-month', 'month_index'=>'choose-month', 'print_index'=>'download-year', 'print_month'=>'download-month',
     'holiday_year'=>'find-holidays', 'holiday_month'=>'find-holidays', 'memorial_year'=>'find-commemorations', 'work_year'=>'calculate-workdays', 'work_month'=>'calculate-workdays',
     'name_calendar'=>'find-name-day', 'name_day_month'=>'find-name-day', 'lunar_month'=>'inspect-moon', 'lunar_year'=>'inspect-moon', 'sun_city'=>'calculate-sun-times', 'moon_city'=>'calculate-moon-times',
-    'school_academic'=>'find-school-holidays', 'school_year_calendar'=>'find-school-holidays', 'iso_week'=>'plan-week', 'week_index'=>'choose-week', 'blog_article'=>'read-guide', 'blog_index'=>'choose-guide',
+    'school_academic'=>'find-school-holidays', 'school_year_calendar'=>'find-school-holidays', 'iso_week'=>'plan-week', 'week_index'=>'choose-week', 'blog_article'=>'read-guide', 'blog_index'=>'choose-guide', 'benefit_guide'=>'understand-benefit', 'event_guide'=>'plan-event', 'event_index'=>'choose-event',
     'horoscope'=>'read-entertainment', 'garden'=>'plan-gardening', 'garden_month'=>'plan-gardening', 'occasion'=>'learn-tradition', 'latvia_cultural'=>'learn-tradition', 'long_weekends'=>'plan-leave'
   }.freeze
-  ROUTE_INTENTS = {'/'=>'plan-day','/pdf-kalendari/'=>'download-calendar','/kalendars/'=>'choose-year','/varda-dienas/'=>'find-name-day','/skolas-brivlaiki/'=>'find-school-holidays','/studiju-kalendars/'=>'find-university-calendar','/datumu-kalkulators/'=>'calculate-date','/darba-dienu-kalendars/'=>'calculate-workdays','/izveidot-kalendaru/'=>'create-personal-calendar','/meklesana/'=>'search-site','/par-projektu/'=>'learn-project','/avoti-un-metodika/'=>'check-methodology','/kontakti/'=>'contact-project'}.freeze
+  ROUTE_INTENTS = {'/nodoklu-kalkulators/'=>'calculate-tax','/'=>'plan-day','/pdf-kalendari/'=>'download-calendar','/kalendars/'=>'choose-year','/varda-dienas/'=>'find-name-day','/skolas-brivlaiki/'=>'find-school-holidays','/studiju-kalendars/'=>'find-university-calendar','/datumu-kalkulators/'=>'calculate-date','/darba-dienu-kalendars/'=>'calculate-workdays','/izveidot-kalendaru/'=>'create-personal-calendar','/meklesana/'=>'search-site','/par-projektu/'=>'learn-project','/avoti-un-metodika/'=>'check-methodology','/kontakti/'=>'contact-project','/nozimigas-dienas/'=>'choose-event'}.freeze
   IMAGE_RIGHTS_PAGE = ORIGIN + '/pilsetas-un-fotografijas/#kopigosanas-vaki'
   # Reviewed identities from the source catalog and its original attribution
   # pages. A credit can contain an uploader, transfer history or an uncertain
   # photographer; do not turn arbitrary credit text into a Person.
   SOURCE_CREATORS = {
     'Diego Delso'=>['Person', 'Diego Delso'],
+    'Igors Jefimovs'=>['Person', 'Igors Jefimovs'],
+    'Riga Marathon'=>['Organization', 'Riga Marathon'],
     'NASA · Apollo 17'=>['Organization', 'NASA'],
     'NASA/Apollo 17 crew; taken by either Harrison Schmitt or Ron Evans'=>['Organization', 'NASA'],
     'NASA/Bill Ingalls'=>['Person', 'Bill Ingalls'],

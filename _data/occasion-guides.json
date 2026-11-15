@@ -1,0 +1,396 @@
+{
+  "version": 1,
+  "scope": "Topic-specific location guidance and planning advice; no unannounced event programmes",
+  "topics": {
+    "jaungada-diena": {
+      "where": "Jauno gadu var sagaidīt mājās vai pašvaldības rīkotā pasākumā. Publiska koncerta un salūta vietu meklē attiecīgās pilsētas programmā.",
+      "plan": "Ja svinības turpinās pēc pusnakts, atgriešanās braucienu ieplāno jau 1. janvārī. Pārbaudi svētku transporta un veikalu darba laiku.",
+      "distinction": "31. decembris ir Vecgada diena, bet 1. janvāris Jaungada diena. Abas ir atsevišķas svētku dienas; gadu mijas nakts tās neapvieno vienā datumā."
+    },
+    "liela-piektdiena": {
+      "where": "Dievkalpojumu var apmeklēt izvēlētajā draudzē. Norises laiku un konfesijas kalendāru pārbaudi draudzes paziņojumā.",
+      "plan": "Brīvdienu plānā apskati arī sestdienu un abas Lieldienu dienas. Ja strādā maiņās, izšķirošs ir tavs darba grafiks.",
+      "distinction": "Lielā Piektdiena ir divas dienas pirms Lieldienu svētdienas; tā nav Pūpolu svētdiena vai Otrās Lieldienas."
+    },
+    "lieldienas": {
+      "where": "Lieldienu norises var būt gan ģimenē, gan draudzē, muzejā vai pašvaldības pasākumā. Izvēlies sev piemēroto tradīciju un pārbaudi tās programmu.",
+      "plan": "Olu krāsošanu un kopīgo maltīti vari ieplānot atsevišķi no dievkalpojuma vai izbrauciena. Skolas brīvlaiku pārbaudi sava mācību gada kalendārā.",
+      "distinction": "Šeit lietots Gregora kalendāra Lieldienu aprēķins. Citu konfesiju Lieldienas var būt citos datumos; astronomiskais pilnmēness nav baznīcas datuma aizstājējs."
+    },
+    "darba-svetki": {
+      "where": "1. maiju var izmantot atpūtai vai piedalīties publiskā norisē, ja tā ir izziņota. Vienas valsts mēroga pasākuma adreses šai svētku dienai nav.",
+      "plan": "Apskati arī 4. maiju, bet starpā esošās darba dienas neuzskati par brīvām bez darba devēja vai piemērojama oficiāla lēmuma.",
+      "distinction": "1. maijs ir gan Darba svētki, gan Satversmes sapulces sasaukšanas diena. Tie ir divi nosaukumi vienam svētku datumam."
+    },
+    "neatkaribas-atjaunosanas-diena": {
+      "where": "Valsts svētkus atzīmē visā Latvijā. Koncerta, ceremonijas vai vietējās svinību vietas adresi pārbaudi pašvaldības programmā.",
+      "plan": "Ja plāno garāku atpūtu, pārbaudi 1. maija un 4. maija novietojumu nedēļā, kā arī atsevišķi noteiktas pārceltās darba dienas.",
+      "distinction": "4. maijs piemin neatkarības atjaunošanu 1990. gadā; 18. novembris valsts dibināšanu 1918. gadā. Tie nav savstarpēji aizstājami svētki."
+    },
+    "mates-diena": {
+      "where": "Mātes dienu var atzīmēt ģimenē ar tikšanos, zvanu vai kopīgu nodarbi. Publiska pasākuma vieta nav noteikta visai valstij.",
+      "plan": "Ja paredzēta maltīte ārpus mājas vai brauciens pie tuviniekiem, rezervāciju un ceļa laiku ieplāno pirms svētdienas.",
+      "distinction": "Latvijā Mātes diena ir maija otrajā svētdienā. Citās valstīs izmantots datums nav automātiski piemērojams Latvijas kalendāram."
+    },
+    "vasarsvetki": {
+      "where": "Vasarsvētku dievkalpojumu un draudzes norisi meklē attiecīgās konfesijas kalendārā. Ģimenes atpūtai nav vienas noteiktas norises vietas.",
+      "plan": "Vispirms atzīmē svētdienu, tad pārbaudi savu pirmdienas darba grafiku. Pirmdienu nedrīkst pieņemt par brīvu tikai šo svētku dēļ.",
+      "distinction": "Vasarsvētki ir 49 dienas pēc Lieldienu svētdienas. Latvijas likumā nav atsevišķas vispārējas Vasarsvētku pirmdienas brīvdienas."
+    },
+    "ligo-diena": {
+      "where": "Līgo vakaru var pavadīt ģimenē, laukos vai izziņotā pašvaldības pasākumā. Ugunskura vietu izvēlas atbilstoši vietējiem noteikumiem.",
+      "plan": "Ja pasākums turpinās naktī, plānā iekļauj arī 24. jūnija rītu, naktsmītni un drošu nokļūšanu mājās.",
+      "distinction": "Līgo diena ir 23. jūnijā, Jāņu diena 24. jūnijā. Astronomiskie saulgrieži ir cits notikums un var iestāties agrāk."
+    },
+    "janu-diena": {
+      "where": "Jāņu dienas plāns var būt saistīts ar iepriekšējā vakara svinību vietu vai mierīgu atpūtu ģimenē. Publisko norišu programma katrā novadā ir atšķirīga.",
+      "plan": "Pēc Līgo nakts paredzi laiku atpūtai un pārbaudi atgriešanās transportu. Neplāno garu braucienu noguris.",
+      "distinction": "Jāņu diena sākas 24. jūnijā. Sarunvalodas apzīmējums “Jāņi” var ietvert visu svinību posmu, bet darba kalendārā abi datumi ir atsevišķi."
+    },
+    "dziesmu-un-deju-svetki": {
+      "where": "2028. gada Vispārējie latviešu dziesmu un deju svētki paredzēti Rīgā. Katra koncerta adresi, mēģinājumus un ieejas kārtību nosaka konkrētā programma.",
+      "plan": "Braucienu un naktsmītni saskaņo ar apstiprināto svētku periodu, bet biļešu iegādi ar rīkotāja paziņoto tirdzniecību.",
+      "distinction": "Apstiprinātais periods ir 2028. gada 30. jūnijs–9. jūlijs. Visas desmit dienas nav valsts brīvdienas: atsevišķi jāvērtē noslēguma diena un tai sekojošā brīvdiena."
+    },
+    "latvijas-republikas-proklamesanas-diena": {
+      "where": "18. novembra norises notiek Rīgā un citās Latvijas pašvaldībās. Parādes, koncertu un ceremoniju vietas pārbaudi attiecīgā gada programmā.",
+      "plan": "Pārbaudi nokļūšanu pasākumā un satiksmes izmaiņas. Ja svētki iekrīt nedēļas nogalē, tabulā atsevišķi meklē nākamo brīvdienu.",
+      "distinction": "18. novembris ir valsts dibināšanas gadadiena. Lāčplēša diena 11. novembrī un 4. maija neatkarības atjaunošanas diena atzīmē citus vēsturiskus notikumus."
+    },
+    "ziemassvetki": {
+      "where": "Ziemassvētkus var pavadīt ģimenē, draudzē vai publiskā svētku norisē. Tirdziņa darbības periods var sākties agrāk un beigties vēlāk par trim svētku dienām.",
+      "plan": "Dāvanu sagādi, pārtikas iepirkumus un braucienus saskaņo ar 24., 25. un 26. decembri un konkrēto pakalpojumu svētku darba laiku.",
+      "distinction": "Latvijas svētku kalendārā ir trīs Ziemassvētku dienas. Advente, ziemas saulgrieži un citu konfesiju Ziemassvētki ir atsevišķi datumi."
+    },
+    "vecgada-diena": {
+      "where": "Gadu miju var sagaidīt mājās vai publiskā pasākumā. Pašvaldības paziņojums nosaka, vai konkrētajā gadā paredzēts koncerts, salūts vai cita norise.",
+      "plan": "Pusnakts, nakts transports un turpmākais brauciens jau attiecas uz 1. janvāri. Rezervācijās pārbaudi gan sākuma, gan beigu datumu.",
+      "distinction": "31. decembris ir Vecgada diena un 1. janvāris Jaungada diena. ISO nedēļas gads šajā robežā var atšķirties no kalendāra gada."
+    },
+    "lacplesa-diena": {
+      "where": "Piemiņas norises meklē pašvaldību, muzeju un valsts institūciju programmās. Sveces novieto tikai vietās, kur tas atļauts.",
+      "plan": "Lāpu gājiena vai piemiņas brīža laiku pārbaudi konkrētajam gadam; silts apģērbs un atstarojoši elementi noderēs vakara norisēm.",
+      "distinction": "11. novembris saistīts ar 1919. gada uzvaru pār bermontiešiem. Tas ir atceres datums, nevis 18. novembra valsts dibināšanas svētki."
+    },
+    "barikazu-aizstavju-atceres-diena": {
+      "where": "Barikāžu laiku var iepazīt 1991. gada barikāžu muzejā un izziņotos piemiņas pasākumos. Apmeklējuma laiku pārbaudi pie rīkotāja.",
+      "plan": "Ja dodies uz piemiņas ugunskuru vai tikšanos ar dalībniekiem, precizē norises vietu un pieejamību; vēsturiskā pasākuma programma nav jaunā gada grafiks.",
+      "distinction": "20. janvāris piemin 1991. gada barikāžu aizstāvjus. Tas nav vispārēja darba brīvdiena un nav viens un tas pats notikums ar 4. maija svētkiem."
+    },
+    "komunistiska-genocida-upuru-pieminas-diena": {
+      "where": "Piemiņas vietas, muzeji un vietējās ceremonijas dod iespēju izzināt deportāciju upuru stāstus. Izvēlies konkrētās vietas publicēto programmu.",
+      "plan": "Tabulā katram gadam ir gan 25. marts, gan 14. jūnijs. Atgādinājumā norādi, kura vēsturiskā notikuma piemiņu paredzēts apmeklēt.",
+      "distinction": "25. marts saistīts ar 1949. gada deportācijām, bet 14. jūnijs ar 1941. gada deportācijām. Abi ieraksti ir vajadzīgi; tie nav dublikāti."
+    },
+    "latgales-kongresa-diena": {
+      "where": "Latgales vēsturi var iepazīt muzejos, bibliotēkās un kultūras pasākumos. Konkrētu tikšanos vai izstādi meklē tās rīkotāja kalendārā.",
+      "plan": "Pirms brauciena precizē pasākuma vietu un valodu. Kongresa gadadiena ir nemainīga, bet publiska saruna var būt citā tuvējā dienā.",
+      "distinction": "27. aprīlis ir 1917. gada Latgales kongresa piemiņas datums. Tas ir atzīmējams, nevis vispārēja brīvdiena."
+    },
+    "eiropas-diena": {
+      "where": "Eiropas dienas diskusijas, izglītojošas aktivitātes un atvērto durvju norises pārbaudi pie Eiropas institūciju un vietējo pasākumu rīkotājiem.",
+      "plan": "Atzīmē izvēlētās aktivitātes laiku un reģistrācijas prasības. Ja datums sakrīt ar Mātes dienu, abus plānus kalendārā saglabā atsevišķi.",
+      "distinction": "9. maija Eiropas diena saistīta ar Šūmana deklarāciju. Tā nav Latvijas 8. maija kara upuru piemiņas diena."
+    },
+    "bernu-aizsardzibas-diena": {
+      "where": "Bērniem paredzētās norises meklē pašvaldības, bibliotēkas vai kultūras iestādes programmā. Vecuma ierobežojumus un pieteikšanos pārbaudi atsevišķi.",
+      "plan": "Pārbaudi bērna klases mācību gada beigas, nevis pieņem, ka visiem vasaras brīvlaiks sākas tieši 1. jūnijā.",
+      "distinction": "Latvijas atzīmējamā diena ir 1. jūnijā. UNICEF Pasaules bērnu diena 20. novembrī ir cits kalendāra ieraksts."
+    },
+    "zinibu-diena": {
+      "where": "Svinīgā pasākuma adresi un ierašanās laiku nosaka konkrētā skola. Tie var atšķirties starp skolām un klašu grupām.",
+      "plan": "Saglabā klases tikšanās laiku, ceļu uz skolu un vajadzīgo lietu sarakstu. Ja 1. septembris ir nedēļas nogalē, pārbaudi oficiālo mācību gada sākumu.",
+      "distinction": "Zinību diena ir 1. septembrī. Šis datums pats par sevi nenosaka katras skolas pirmās stundas vai svinīgā pasākuma laiku."
+    },
+    "tevu-diena": {
+      "where": "Tēva dienu var atzīmēt ģimenē ar tikšanos vai kopīgu nodarbi. Publiskie pasākumi nav obligāta un vienota valsts programma.",
+      "plan": "Ja plāno izbraucienu, izvēlies ilgumu, kas der visiem dalībniekiem, un iepriekš pārbaudi vietas darba laiku.",
+      "distinction": "Latvijā Tēva diena ir septembra otrajā svētdienā. Citu valstu jūnija datumi Latvijas kalendāram neder."
+    },
+    "baltu-vienibas-diena": {
+      "where": "Ar baltu vēsturi saistītas norises meklē Latvijas un Lietuvas kultūras iestāžu un pašvaldību programmās.",
+      "plan": "Ja pasākums paredzēts citā pilsētā vai Lietuvā, pārbaudi adresi, valodu un transportu. Kalendāra datums nav biļete vai dalības apstiprinājums.",
+      "distinction": "22. septembris saistīts ar 1236. gada Saules kaujas piemiņu. Tā ir atzīmējama diena, nevis papildu valsts brīvdiena."
+    },
+    "valsts-valodas-diena": {
+      "where": "Valodai veltītas sarunas, nodarbības un lasījumus var meklēt bibliotēku un izglītības iestāžu programmās.",
+      "plan": "Izvēlies konkrētu nodarbi: lasījumu, diskusiju vai latviešu valodas prasmes pilnveidi. Norises laiku nosaka rīkotājs.",
+      "distinction": "Latvijas Valsts valodas diena ir 15. oktobrī. Dzimtās valodas diena 21. februārī un Eiropas Valodu diena 26. septembrī ir atsevišķas tēmas."
+    },
+    "skolotaju-diena": {
+      "where": "Skolotāju dienu atzīmē skolās un izglītības iestādēs. Svinīgās tikšanās vietu, klases apsveikumu un stundu izmaiņas nosaka konkrētā skola.",
+      "plan": "Par kopīgu apsveikumu vienojieties laikus ar klasi un skolu. Ja 5. oktobris iekrīt sestdienā vai svētdienā, skolas sarīkojums var būt citā dienā.",
+      "distinction": "Latvijas pašreizējais datums ir 5. oktobris. Oktobra pirmā svētdiena ir agrākais princips, ko jaunam kalendāra ierakstam vairs neizmanto."
+    },
+    "starptautiska-sieviesu-diena": {
+      "where": "Diskusijas, izstādes un citas norises meklē organizāciju un kultūras iestāžu programmās. Individuālam apsveikumam nav noteiktas publiskas vietas.",
+      "plan": "Ja izvēlies pasākumu, pārbaudi tā tēmu, dalības kārtību un sākuma laiku. Darba dienu neuzskati par atceltu tikai kalendāra atzīmes dēļ.",
+      "distinction": "8. marts ir atzīmējama diena Latvijā. Ikgadēja starptautiska kampaņa un konkrētas vietējās norises programma var atšķirties."
+    },
+    "saulgriezi": {
+      "where": "Saulgriežu astronomiskais brīdis ir kopīgs visai Zemei, bet Saules augstums un dienas garums atšķiras pēc vietas. Latvijas vietējos Saules laikus skati pilsētu rīkā.",
+      "plan": "Atšķir precīzo astronomisko brīdi no brīvdabas pasākuma. Izbraucienam pārbaudi laikapstākļus un saullēkta vai saulrieta laiku izvēlētajā vietā.",
+      "distinction": "Gadā ir vasaras un ziemas saulgrieži. Tie nav sinonīmi Līgo dienai, Jāņu dienai vai Ziemassvētku vakaram."
+    },
+    "vasaras-saulgriezi": {
+      "where": "Vasaras saulgriežus var novērot izvēlētā vietā ar atklātu horizontu. Šeit minētais laiks nav konkrētas vietas saullēkts.",
+      "plan": "Saullēkta vērošanai izvēlies pilsētu Saules laiku rīkā un paredzi laiku nokļūšanai. Ugunskura vai svinību programmu pārbaudi pie rīkotāja.",
+      "distinction": "Astronomiskie vasaras saulgrieži var būt 20. vai 21. jūnijā pēc Latvijas laika. Līgo diena vienmēr paliek 23. jūnijā."
+    },
+    "ziemas-saulgriezi": {
+      "where": "Astronomisko brīdi var attiecināt uz jebkuru vietu Latvijā; konkrētās pilsētas dienas garumu un saulrietu skati atsevišķi.",
+      "plan": "Īsās dienas izbraucienam pārbaudi gaismas laiku un ceļa apstākļus. Saulgriežu pasākuma sākums nav obligāti vienāds ar astronomisko brīdi.",
+      "distinction": "Ziemas saulgrieži iezīmē astronomiskās ziemas sākumu, bet Latvijas Ziemassvētku brīvdienas ir 24.–26. decembrī."
+    },
+    "zolitudes-tragedijas-atceres-diena": {
+      "where": "Traģēdijas upuru piemiņas vieta atrodas Zolitūdē, Rīgā. Konkrētas ceremonijas norisi pārbaudi Rīgas pašvaldības paziņojumā.",
+      "plan": "Plāno klusu un cieņpilnu apmeklējumu. Iepriekšējā gadadienā publicēto sākuma laiku nepārnes automātiski uz citu gadu.",
+      "distinction": "21. novembris piemin 2013. gada traģēdiju un tās upurus. Tas nav svinams pasākums vai vispārēja darba brīvdiena."
+    },
+    "ebreju-tautas-genocida-upuru-pieminas-diena": {
+      "where": "Piemiņas vieta bijušās Rīgas Lielās horālās sinagogas teritorijā un muzeju materiāli palīdz iepazīt notikuma vēsturi. Ceremonijas laiku pārbaudi atsevišķi.",
+      "plan": "Piemiņas vietas apmeklējumu var papildināt ar muzeja ekspozīciju vai liecību lasījumu, ievērojot norises cieņpilno raksturu.",
+      "distinction": "Latvijas piemiņas datums ir 4. jūlijs. Starptautiskā Holokausta upuru piemiņas diena 27. janvārī ir cits, papildinošs datums."
+    },
+    "juras-svetku-diena": {
+      "where": "Jūras svētkus rīko Latvijas piekrastes pilsētās un ciemos. Katram rīkotājam ir savas koncertu, ostas un krastmalas norises vietas.",
+      "plan": "Pārbaudi konkrētā ciema vai pilsētas programmu, autostāvvietas un izbraucienu pieejamību. Norises pie ūdens plāno atbilstoši laikapstākļiem.",
+      "distinction": "Oficiālais datums ir jūlija otrā sestdiena. Nosaukums “Zvejnieksvētki” var būt vietējās programmas daļa, bet neapstiprina identisku grafiku visā piekrastē."
+    },
+    "konstitucionala-likuma-pienemsanas-diena": {
+      "where": "Datuma vēsturi var iepazīt valsts institūciju un muzeju materiālos. Publisku diskusiju vai piemiņas norisi meklē konkrētā rīkotāja programmā.",
+      "plan": "Lasot par notikumu, atšķir 1990. gada deklarāciju no 1991. gada konstitucionālā likuma. Apmeklējuma plānā saglabā attiecīgās izstādes vai sarunas adresi.",
+      "distinction": "21. augustā piemin 1991. gada konstitucionālo likumu par valstisko statusu un pārejas perioda beigām. Tas nav 4. maija svētku datums."
+    },
+    "latvijas-republikas-okupacijas-diena": {
+      "where": "Latvijas Okupācijas muzeja materiāli un izstādes palīdz izzināt 1940. gada jūnija notikumus. Apmeklējuma laiku pārbaudi muzejā.",
+      "plan": "Piemiņas brīdim vai izstādei izvēlies attiecīgā gada programmu. Vēstures avotu iepazīšana ir piemērota arī tad, ja tuvumā nav publiska pasākuma.",
+      "distinction": "17. jūnijs piemin 1940. gada okupācijas sākumu. To nošķir no 14. jūnija deportāciju upuru piemiņas dienas."
+    },
+    "latvijas-de-jure-atzisanas-diena": {
+      "where": "Diplomātijas vēsturi var iepazīt Ārlietu ministrijas materiālos un izziņotās izstādēs vai konferencēs.",
+      "plan": "Ja paredzēta lekcija vai ekskursija, pārbaudi reģistrāciju un apmeklētāju piekļuvi. Ne katra valsts institūcijas norise ir brīvi apmeklējama.",
+      "distinction": "26. janvāris saistīts ar Latvijas starptautisko atzīšanu de iure 1921. gadā. Valsts proklamēšanas gadadiena ir 18. novembrī."
+    },
+    "latvijas-brivibas-cinitaju-pieminas-diena": {
+      "where": "Brīvības cīnītājus var pieminēt karavīru piemiņas vietās un ar Neatkarības kara vēsturi saistītās izstādēs.",
+      "plan": "Izvēlies konkrētu piemiņas vietu un pārbaudi, vai paredzēta publiska ceremonija. Ievēro kapsētas vai memoriāla kārtību.",
+      "distinction": "11. augusts saistīts ar 1920. gada Latvijas un Padomju Krievijas miera līgumu. Lāčplēša diena 11. novembrī piemin citu notikumu."
+    },
+    "medicinas-darbinieku-diena": {
+      "where": "Profesionālo dienu atzīmē ārstniecības iestādēs un veselības aprūpes kolektīvos. Publiskās godināšanas vietu nosaka rīkotājs.",
+      "plan": "Pateicības nodošanu saskaņo ar iestādes kārtību un pacientu privātumu. Kalendāra ieraksts nemaina pieņemšanas vai neatliekamās palīdzības grafiku.",
+      "distinction": "Latvijā datumu nosaka jūnija trešā svētdiena. Vienu iepriekšējā gada datumu nevajag pārkopēt kā fiksētu datumu."
+    },
+    "nacionalo-partizanu-pretosanas-atceres-diena": {
+      "where": "Stompaku nometnes piemiņas vieta un muzeju materiāli palīdz iepazīt nacionālo partizānu vēsturi. Pirms dabas takas apmeklējuma pārbaudi piekļuvi.",
+      "plan": "Pavasara sākumā takas apstākļi var mainīties. Izvēlies piemērotu apģērbu un noskaidro, vai ceremonijai paredzēta reģistrācija vai kopīgs transports.",
+      "distinction": "2. marts saistīts ar 1945. gada Stompaku kauju. 17. marta Nacionālās pretošanās kustības piemiņas dienai ir cits vēsturiskais pamats."
+    },
+    "nacionalas-pretosanas-kustibas-pieminas-diena": {
+      "where": "Piemiņas plāksnes, muzeju liecības un Latvijas Centrālās padomes dokumenti palīdz iepazīt pretošanās kustības vēsturi.",
+      "plan": "Izvēlies dokumentu lasījumu, izstādi vai izziņotu piemiņas pasākumu. Konkrētās vietas darba laiku pārbaudi iepriekš.",
+      "distinction": "17. marts saistīts ar Latvijas Centrālās padomes 1944. gada memorandu. To nošķir no 2. marta Stompaku kaujas piemiņas."
+    },
+    "nacisma-sagraves-un-otra-pasaules-kara-upuru-pieminas-diena": {
+      "where": "Kara upurus var pieminēt memoriālos, muzejos un izziņotās klusuma brīžu norisēs. Apmeklējumam izvēlies cieņpilnu formu.",
+      "plan": "Pirms ceremonijas pārbaudi rīkotāja norādīto vietu un laiku; vēsturisko notikumu iepazīšanai izmanto uzticamus muzeju avotus.",
+      "distinction": "8. maijs ir kara upuru piemiņas un nacisma sagrāves diena. Eiropas diena 9. maijā ir cits atzīmējams notikums."
+    },
+    "policijas-darbinieku-diena": {
+      "where": "Dienesta darbinieku godināšana var notikt policijas struktūrvienībās. Publiski apmeklējamas norises izziņo pats dienests.",
+      "plan": "Pakalpojuma saņemšanai pārbaudi iestādes darba laiku; profesionālā diena nenozīmē visu policijas funkciju pārtraukšanu.",
+      "distinction": "5. decembris ir Policijas darbinieku diena. Tā nav valsts brīvdiena un nav vienots publisks pasākums ar vienu adresi."
+    },
+    "totalitara-komunistiska-rezima-genocida-upuru-pieminas-diena": {
+      "where": "Piemiņu var saistīt ar ģimeņu liecībām, arhīviem un muzeju materiāliem par represijām pret latviešiem PSRS.",
+      "plan": "Ja paredzēta publiska ceremonija, pārbaudi konkrētā gada decembra pirmās svētdienas programmu, nevis iepriekšējā gada datumu.",
+      "distinction": "Šo dienu nosaka decembra pirmā svētdiena. Tā atšķiras no 25. marta un 14. jūnija deportāciju piemiņas datumiem."
+    },
+    "robezsargu-diena": {
+      "where": "Robežsardzes vēstures un profesionālās dienas norises meklē dienesta vai Valsts robežsardzes koledžas paziņojumos.",
+      "plan": "Pārbaudi, vai pasākums ir publisks un vai vajadzīga iepriekšēja pieteikšanās. Dienesta vietas nevar uzskatīt par brīvi apmeklējamiem objektiem.",
+      "distinction": "7. novembris ir robežsargu profesionālā atzīmējamā diena. Tas pats par sevi nav valsts brīvdiena."
+    },
+    "starptautiska-nevalstisko-organizaciju-diena": {
+      "where": "Vietējās biedrības un nodibinājumi var rīkot sarunas, iepazīšanās vai līdzdalības pasākumus. Izvēlies organizāciju, kuras darbs tevi interesē.",
+      "plan": "Pirms brīvprātīgā darba piesakies pie organizācijas un precizē uzdevumu, laiku un prasības. Kalendāra atzīme nav dalības reģistrācija.",
+      "distinction": "27. februāris ir oficiāli atzīmējams datums Latvijā. Katra organizācija savu atvērto durvju norisi var plānot citā laikā."
+    },
+    "starptautiska-senioru-diena": {
+      "where": "Bibliotēkas, kultūras un kopienu centri var piedāvāt paaudžu tikšanās. Konkrēto programmu un pieejamību pārbaudi pie rīkotāja.",
+      "plan": "Izvēlies pasākumu, kura norises vieta un ilgums ir ērts dalībniekiem. Pārbaudi transportu, sēdvietas un nepieciešamo pieteikšanos.",
+      "distinction": "1. oktobris ir Starptautiskā senioru diena. Tas nenosaka pensijas izmaksas datumu vai papildu brīvdienu."
+    },
+    "starptautiska-gimenes-diena": {
+      "where": "Dienu var atzīmēt ģimenē vai izvēlēties kopienas pasākumu. Nav vienas obligātas norises vietas vai aktivitātes.",
+      "plan": "Saskaņo kopīgo nodarbi ar ģimenes darba un skolas grafikiem. Atsevišķi pārbaudi publiskas norises vecuma un pieteikšanās nosacījumus.",
+      "distinction": "15. maija Ģimenes diena ir atzīmējama diena, nevis automātiska brīvdiena. Mātes un Tēva dienai ir atsevišķi datumi."
+    },
+    "stalinisma-un-nacisma-upuru-atceres-diena": {
+      "where": "Piemiņas vietas un muzeju ekspozīcijas palīdz iepazīt totalitāro režīmu upuru stāstus. Ceremonijas vietu nosaka tās rīkotājs.",
+      "plan": "Atceres plānā nošķir 1939. gada pakta vēsturi no 1989. gada Baltijas ceļa un mūsdienu ceremonijas.",
+      "distinction": "23. augusts ir kopīgs vairākiem vēsturiskiem kontekstiem. Tie nav viens notikums, lai gan piemiņas un vēstures skaidrojumi savstarpēji saistās."
+    },
+    "ugunsdzeseju-un-glabeju-diena": {
+      "where": "Ugunsdzēsības vēsturi var iepazīt Latvijas Ugunsdzēsības muzejā. Atvērto durvju vai tehnikas demonstrējumus apmeklē tikai tad, ja dienests tos izziņojis.",
+      "plan": "Ar bērniem iepriekš pārbaudi pasākuma vecuma prasības, pieteikšanos un drošības norādījumus. Operatīvo dienestu darbu nedrīkst traucēt.",
+      "distinction": "17. maijs saistīts ar pirmo Rīgas brīvprātīgo ugunsdzēsēju izbraukumu 1865. gadā. Profesionālā diena nav vispārēja brīvdiena."
+    },
+    "varonu-pieminas-diena": {
+      "where": "Cēsu kauju piemiņas vietas Cēsīs un apkārtnē ļauj iepazīt Latvijas un Igaunijas kopīgo vēsturi. Konkrētas ceremonijas laiku meklē pašvaldības programmā.",
+      "plan": "Ja plāno piemiņas vietu maršrutu, paredzi nokļūšanu starp objektiem. 23. un 24. jūnija brīvdienas pārbaudi atsevišķi.",
+      "distinction": "22. jūnijs ir Cēsu kauju atceres datums. Tam seko Līgo un Jāņu dienas, bet tas pats nekļūst par svētku brīvdienu."
+    },
+    "valentina-diena": {
+      "where": "Dienu var atzīmēt privāti vai izvēlēties muzeja, kultūras vietas vai restorāna piedāvājumu. Programma un rezervācijas nosacījumi ir katras vietas ziņā.",
+      "plan": "Ja vēlies rezervēt vakariņas vai pasākumu, pārbaudi konkrētā gada datumu un atcelšanas noteikumus.",
+      "distinction": "14. februāris Latvijā ir kultūras tradīcija, nevis valsts brīvdiena vai obligāti ievērojami svētki.",
+      "shortTitle": "Valentīndiena"
+    },
+    "martindiena": {
+      "where": "Mārtiņu tirgus un gadskārtu programmas meklē muzeju un pašvaldību kalendāros. Tās var notikt tuvākajā nedēļas nogalē.",
+      "plan": "Pārbaudi, vai izvēlētā programma paredz maskošanos, iepriekšēju pieteikšanos vai norisi ārā.",
+      "distinction": "Tradicionālais datums ir 10. novembris. Tas nav Lāčplēša dienas 11. novembra piemiņas datums.",
+      "shortTitle": "Mārtiņi"
+    },
+    "mikeli": {
+      "where": "Ražas svētku un Miķeļu tirgus norises meklē vietējās pašvaldības, muzeja vai tirgus programmā.",
+      "plan": "Iepirkumiem pārbaudi tirgus darba laiku un norises dienu; tā var būt citā datumā nekā 29. septembris.",
+      "distinction": "Miķeļi ir tradicionāls gadskārtu datums. Rudens ekvinokcija ir atsevišķs astronomisks brīdis.",
+      "shortTitle": "Miķeļi"
+    },
+    "meteni": {
+      "where": "Meteņu norises meklē muzeju un vietējo kopienu programmās. Atšķirīgas tradīcijas var izvēlēties atšķirīgas dienas.",
+      "plan": "Pirms brauciena noskaidro tieši izvēlētā pasākuma datumu, maskošanās un dalības prasības.",
+      "distinction": "Meteņiem nav viena visai Latvijai obligāta datuma. Fiksētā un ar Lieldienām saistītā tradīcija jānorāda atsevišķi.",
+      "shortTitle": "Meteņi"
+    },
+    "advente": {
+      "where": "Adventes dievkalpojumu vai koncertu var izvēlēties draudzē un kultūras vietā. Katrai norisei ir sava programma.",
+      "plan": "Četras svētdienas atzīmē atsevišķi; koncerts piektdienā vai sestdienā nav pats Adventes svētdienas datums.",
+      "distinction": "Advente ir gaidīšanas laiks pirms Ziemassvētkiem. Pirmā Advente nav katru gadu vienā datumā, un tās sākums nav valsts brīvdiena.",
+      "shortTitle": "Advente"
+    },
+    "pupolu-svetdiena": {
+      "where": "Dievkalpojuma norisi pārbaudi savā draudzē. Šīs lapas datumi attiecas uz Rietumu kristīgo tradīciju.",
+      "plan": "Atzīmē arī nākamās nedēļas Lielo Piektdienu un Lieldienas, ja tās ir daļa no tava plāna.",
+      "distinction": "Pūpolu svētdiena ir nedēļu pirms Lieldienām. Tā nav Pelnu trešdiena vai Meteņi.",
+      "shortTitle": "Pūpolu svētdiena"
+    },
+    "zvaigznes-diena": {
+      "where": "Zvaigznes dienas dievkalpojumu un koncertu meklē izvēlētās draudzes vai kultūras iestādes programmā.",
+      "plan": "Ja apmeklē norisi, pārbaudi tās konfesiju un kalendāru. Citu tradīciju svētku laiki var atšķirties.",
+      "distinction": "Šeit Zvaigznes diena norādīta 6. janvārī pēc Rietumu kristīgās tradīcijas. Latvijā tā nav vispārēja brīvdiena.",
+      "shortTitle": "Zvaigznes diena"
+    },
+    "jaunavas-marijas-debesbrauksanas-svetki": {
+      "where": "Latvijā īpaši pazīstamas ir norises Aglonā. Dievkalpojumu, svētceļojumu un piekļuves programmu pārbaudi attiecīgajam gadam.",
+      "plan": "Braucienam uz Aglonu plāno transportu, naktsmītni un konkrētā dievkalpojuma laiku; svētku programma var aptvert vairākas dienas.",
+      "distinction": "15. augusta Marijas debesīs uzņemšanas svētki nav Jēzus Debeskāpšanas diena. Datums nav vispārēja valsts brīvdiena.",
+      "shortTitle": "Jaunavas Marijas debesīs uzņemšanas svētki"
+    },
+    "miruso-pieminas-diena": {
+      "where": "Piemiņas dievkalpojumus, kapusvētkus un svecīšu vakarus meklē draudzes vai kapsētas paziņojumos.",
+      "plan": "Pārbaudi, kura konfesija un konkrētais piemiņas veids attiecas uz tavu apmeklējumu. Kapusvētkiem var būt vietējs, atsevišķs datums.",
+      "distinction": "Katoļu 2. novembris un luterāņu Mūžības svētdiena ir divi dažādi datumi. Tos nedrīkst apvienot vienā vispārīgā datumā.",
+      "shortTitle": "Mirušo piemiņas dienas"
+    },
+    "pavasara-ekvinokcija": {
+      "where": "Ekvinokcijas brīdis ir kopīgs, bet vietējais saullēkts un saulriets atkarīgs no novērošanas vietas. Latvijas pilsētu laikus skati Saules rīkā.",
+      "plan": "Izbraucienu plāno pēc konkrētās vietas gaismas un laikapstākļiem, nevis pieņem, ka ekvinokcija nozīmē precīzi 12 stundas starp saullēktu un saulrietu.",
+      "distinction": "Pavasara ekvinokcija ir astronomiskā pavasara sākums. Meteoroloģiskā un kalendārā pavasara robežas ir citas.",
+      "shortTitle": "Pavasara ekvinokcija"
+    },
+    "rudens-ekvinokcija": {
+      "where": "Astronomiskais brīdis attiecas uz visu Latviju. Gaismas ilgumu un saulrietu konkrētai vietai pārbaudi pilsētu Saules laiku rīkā.",
+      "plan": "Fotografēšanai vai pastaigai izvēlies vietējo saulrietu, jo tas nav pats ekvinokcijas brīdis.",
+      "distinction": "Rudens ekvinokcija ir atsevišķa no Miķeļu 29. septembra tradīcijas un meteoroloģiskā rudens sākuma.",
+      "shortTitle": "Rudens ekvinokcija"
+    },
+    "holokausta-upuru-pieminas-diena": {
+      "where": "Muzeju ekspozīcijas, izglītojoši materiāli un izziņotas piemiņas norises palīdz iepazīt Holokausta upuru likteņus.",
+      "plan": "Izvēlies vecumam un apmeklējuma mērķim piemērotu izstādi vai liecību lasījumu; ceremonijas laikā ievēro rīkotāja kārtību.",
+      "distinction": "Starptautiskais datums ir 27. janvāris. Latvijas 4. jūlija Ebreju tautas genocīda upuru piemiņas diena saglabājas atsevišķi.",
+      "shortTitle": "Holokausta upuru piemiņas diena"
+    },
+    "eiropas-valodu-diena": {
+      "where": "Valodu aktivitātes var piedāvāt skolas, bibliotēkas un valodu organizācijas. Konkrētās norises publicē rīkotāji.",
+      "plan": "Pārbaudi nodarbības valodu, līmeni un reģistrāciju. Kalendāra atzīme nenozīmē automātisku pieteikšanos.",
+      "distinction": "26. septembra Eiropas Valodu diena atšķiras no Dzimtās valodas dienas 21. februārī un Latvijas Valsts valodas dienas 15. oktobrī.",
+      "shortTitle": "Eiropas Valodu diena"
+    },
+    "totalitaro-rezimu-upuru-pieminas-diena": {
+      "where": "Piemiņas norises un izstādes meklē muzeju, valsts institūciju un pašvaldību programmās.",
+      "plan": "Atšķir Eiropas līmeņa piemiņas formulējumu no Latvijas oficiālā atceres dienas nosaukuma, lai saglabātu precīzu vēsturisko kontekstu.",
+      "distinction": "23. augustā Latvijā ir Staļinisma un nacisma upuru atceres diena. Eiropas piemiņas tvērums to papildina, nevis atceļ.",
+      "shortTitle": "Totalitāro režīmu upuru piemiņas diena"
+    },
+    "dzimtas-valodas-diena": {
+      "where": "Valodām veltītas nodarbības, lasījumus un sarunas var meklēt skolās, bibliotēkās un kultūras organizācijās.",
+      "plan": "Izvēlies savai valodai vai interesēm atbilstošu norisi. Ikgadējās starptautiskās tēmas un vietējās programmas var mainīties.",
+      "distinction": "21. februāris ir starptautiskais dzimtās valodas datums. Latvijas Valsts valodas diena ir 15. oktobrī.",
+      "shortTitle": "Starptautiskā dzimtās valodas diena"
+    },
+    "helovins": {
+      "where": "Tematiskas norises piedāvā atsevišķi muzeji un pasākumu rīkotāji. Pārbaudi vecuma ierobežojumus un to, vai programma paredzēta bērniem vai pieaugušajiem.",
+      "plan": "Biļeti pērc tikai uz konkrēto norisi; tās datums var būt tuvākā nedēļas nogale, nevis pats 31. oktobris.",
+      "distinction": "Helovīns ir 31. oktobrī, bet latviešu Veļu laiks un Mārtiņi ir citas tradīcijas. Tas nav Latvijas valsts svētku datums.",
+      "shortTitle": "Helovīns"
+    },
+    "pasaules-gramatu-diena": {
+      "where": "Grāmatu lasījumus, bibliotēku aktivitātes un tikšanās ar autoriem meklē attiecīgās iestādes kalendārā.",
+      "plan": "Pārbaudi pasākuma valodu, auditoriju un pieteikšanos; bibliotēkas ikdienas darba laiks ne vienmēr sakrīt ar pasākuma laiku.",
+      "distinction": "23. aprīlis ir Pasaules grāmatu un autortiesību diena. Pasaules grāmatu galvaspilsēta ir cita, katru gadu mainīga programma.",
+      "shortTitle": "Pasaules grāmatu un autortiesību diena"
+    },
+    "pasaules-vides-diena": {
+      "where": "Vides aktivitātes var notikt skolās, dabas izziņas vietās un vietējās organizācijās. Izvēlies konkrētās norises programmu.",
+      "plan": "Ja ieplānota nodarbe dabā, ievēro teritorijas piekļuves noteikumus un rīkotāja drošības norādījumus.",
+      "distinction": "Pasaules vides diena ir 5. jūnijā. Tās tēmu un rīkotājvalsti izziņo katram gadam; tās nevar pārņemt no iepriekšējās kampaņas.",
+      "shortTitle": "Pasaules vides diena"
+    },
+    "pasaules-bernu-diena": {
+      "where": "Bērnu tiesībām veltītas aktivitātes meklē izglītības iestāžu un bērnu tiesību organizāciju programmās.",
+      "plan": "Ja piedalās bērni, pārbaudi atbildīgās personas, vecuma grupu un nepieciešamo vecāku piekrišanu.",
+      "distinction": "20. novembris ir UNICEF Pasaules bērnu diena. Latvijas 1. jūnija Bērnu aizsardzības diena ir atsevišķs datums.",
+      "shortTitle": "Pasaules bērnu diena"
+    },
+    "pasaules-udens-diena": {
+      "where": "Ūdens izziņai piemērotas muzeju, skolu un vides organizāciju norises. Publiskas aktivitātes precīzo vietu nosaka rīkotājs.",
+      "plan": "Izvēloties ekskursiju pie ūdens, pārbaudi piekļuvi un drošību. Kampaņas tēma pati par sevi nav norise konkrētā ezerā vai upē.",
+      "distinction": "22. marts ir Pasaules ūdens diena. Tā neapliecina makšķerēšanas sezonas sākumu, ledus drošību vai peldēšanas apstākļus.",
+      "shortTitle": "Pasaules ūdens diena"
+    },
+    "pasaules-dzivnieku-diena": {
+      "where": "Dzīvnieku labturības norises meklē organizāciju un patversmju paziņojumos. Apmeklējumu vai palīdzību vispirms saskaņo ar pašu organizāciju.",
+      "plan": "Pirms mantu vai barības ziedošanas noskaidro, kas patversmei patiešām vajadzīgs. Dzīvnieku apmeklējumam ievēro vietas noteikumus.",
+      "distinction": "4. oktobris ir starptautiska atzīmējama diena. Tas nav visām patversmēm kopīgs atvērto durvju grafiks.",
+      "shortTitle": "Pasaules dzīvnieku diena"
+    },
+    "pavasara-tradicijas": {
+      "where": "Muzeju un vietējo kopienu programmās meklē atsevišķi Meteņus, Lieldienas un citus gadskārtu pasākumus.",
+      "plan": "Vispirms izvēlies konkrēto tradīciju, tad pārbaudi tās datuma noteikumu un pasākuma programmu.",
+      "distinction": "Pavasara tradīcijām nav vienas kopīgas dienas. Meteņi, Lieldienas un pavasara ekvinokcija izmanto atšķirīgus kalendāra principus.",
+      "shortTitle": "Pavasara tradīcijas"
+    },
+    "sveta-nikolaja-diena": {
+      "where": "Svētā Nikolaja piemiņas norisi meklē izvēlētās draudzes kalendārā. Dāvanu paražas nav vienādas visās valstīs vai ģimenēs.",
+      "plan": "Pārbaudi, ka programma attiecas uz Rietumu kristīgās tradīcijas 6. decembri. Citai tradīcijai var būt cits datums.",
+      "distinction": "Svētā Nikolaja diena nav Ziemassvētku vakars un nav vispārēja Latvijas darba brīvdiena.",
+      "shortTitle": "Svētā Nikolaja diena"
+    },
+    "pasaules-bisu-diena": {
+      "where": "Bišu un apputeksnētāju izziņas aktivitātes var piedāvāt izglītības iestādes un dravu saimnieki. Dravas apmeklējumu saskaņo iepriekš.",
+      "plan": "Pirms dravas apmeklējuma noskaidro aizsargapģērba un dalības noteikumus. Kalendāra datums nesniedz solījumu par bišu aktivitāti vai laikapstākļiem.",
+      "distinction": "20. maijs ir Pasaules bišu diena. Tas nav universāls dravas darbu vai vietējās ziedēšanas sākuma termiņš.",
+      "shortTitle": "Pasaules bišu diena"
+    },
+    "zemes-diena": {
+      "where": "Vietējās dabas aktivitātes un izglītojošus pasākumus meklē organizāciju, skolu un pašvaldību programmās.",
+      "plan": "Izvēlies konkrētu darbību un rīkotāju. Ja piedalies talkā, pārbaudi reģistrāciju, pulcēšanās vietu un inventāru.",
+      "distinction": "22. aprīļa Zemes diena un 5. jūnija Pasaules vides diena ir divi dažādi datumi. Arī Lielās talkas norises datumu nosaka atsevišķi.",
+      "shortTitle": "Zemes diena"
+    }
+  }
+}

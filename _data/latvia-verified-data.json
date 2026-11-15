@@ -408,7 +408,7 @@
     },
     {
       "id": "coe-languages",
-      "title": "26. septembris — Eiropas Valodu diena",
+      "title": "26. septembris Eiropas Valodu diena",
       "url": "https://www.coe.int/en/web/portal/26-september-european-day-languages",
       "publisherScope": "Council of Europe",
       "checkedAt": "2026-11-10",
@@ -2426,7 +2426,7 @@
         "sourceId": "dst-latvia"
       }
     ],
-    "copy": "Pavasarī pulksteni pagriež vienu stundu uz priekšu, rudenī — vienu stundu atpakaļ. Latvijā pāreja notiek marta un oktobra pēdējā svētdienā.",
+    "copy": "Pavasarī pulksteni pagriež vienu stundu uz priekšu, rudenī vienu stundu atpakaļ. Latvijā pāreja notiek marta un oktobra pēdējā svētdienā.",
     "state": "Current rule still applies; future abolition is not adopted.",
     "cityClockFact": {
       "sourceId": "dst-rule",

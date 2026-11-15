@@ -36,6 +36,7 @@
 {% if page.url == "/izveidot-kalendaru/" %}<link rel="stylesheet" href="/assets/studio/studio.css?v={{ site.data.build.asset_version }}"><link rel="stylesheet" href="/assets/studio/skin.css?v={{ site.data.build.asset_version }}"><script type="module" src="/assets/studio/studio.mjs?v={{ site.data.build.asset_version }}"></script>{% endif %}
 {% if page.category %}<style>{{ "category-experience.css,category-redesign.css" | inline_styles }}</style>{% endif %}{% if page.url == '/nedelas-kalendars/' or page.url == '/gimenes-kalendars/' or page.url == '/mainu-grafiks/' or page.url == '/stundu-saraksts/' %}<style>{{ "weekly-planner.css" | inline_styles }}</style>{% endif %}{% if has_generic_category %}<script defer src="/assets/category-core.js?v={{ site.data.build.asset_version }}"></script><script type="module" src="/assets/category-tools.mjs?v={{ site.data.build.asset_version }}"></script><script type="module" src="/assets/category-redesign.mjs?v={{ site.data.build.asset_version }}"></script><script type="module" src="/assets/category-advanced.mjs?v={{ site.data.build.asset_version }}"></script>{% endif %}
 {% if page.url == '/svetki-un-tradicijas/' or page.family == 'latvia_cultural' or page.family == 'occasion' %}<style>{{ "traditions-guide.css" | inline_styles }}</style>{% endif %}
+{% if page.family == 'occasion' or page.family == 'latvia_cultural' %}<style>{{ "occasion-guide.css" | inline_styles }}</style>{% endif %}
 {% if page.staro_riga %}<style>{{ "staro-riga.css" | inline_styles }}</style>{% endif %}
 {% if page.url == '/svetki-un-tradicijas/' %}<script defer src="/assets/category-core.js?v={{ site.data.build.asset_version }}"></script><script type="module" src="/assets/traditions-guide.mjs?v={{ site.data.build.asset_version }}"></script>{% endif %}
 {% if page.useful %}<link rel="stylesheet" href="/assets/useful-pages.css?v={{ site.data.build.asset_version }}">{% unless page.category %}<script defer src="/assets/category-core.js?v={{ site.data.build.asset_version }}"></script>{% endunless %}<script type="module" src="/assets/useful-pages.mjs?v={{ site.data.build.asset_version }}"></script>{% endif %}
@@ -62,7 +63,15 @@
 {% if page.family == 'blog_article' or page.family == 'blog_index' %}<link rel="alternate" type="application/rss+xml" title="Kalendārs365 blogs" href="/blogs/feed.xml">{% endif %}
 {% if page.family == 'blog_article' %}<meta name="author" content="{{ site.owner | escape }}"><meta property="article:published_time" content="{{ seo.articlePublished }}">{% endif %}
 <style>{{ "mobile-usability.css" | inline_styles }}</style>
-{% if page.url == "/" %}<style>{{ "home-calendar.css" | inline_styles }}</style>{% endif %}
+{% if page.family == "event_guide" or page.family == "event_index" or page.url == "/nozimigas-dienas/" %}<style>{{ "event-guides.css" | inline_styles }}</style>{% endif %}
+{% if page.url == "/nozimigas-dienas/" or page.url == "/pasakumi/melna-piektdiena/" or page.url == "/pasakumi/kiberpirmdiena/" %}<script defer src="/assets/event-guides.js?v={{ site.data.build.asset_version }}"></script>{% endif %}
+{% if page.benefit_guide %}<style>{{ "benefit-guides.css" | inline_styles }}</style>{% endif %}
+{% if page.url contains "/adventes-kalendars/" %}<style>{{ "advent-calendar.css" | inline_styles }}</style><script type="module" src="/assets/advent-calendar.mjs?v={{ site.data.build.asset_version }}"></script>{% endif %}
+{% if page.url == "/copes-kalendars/" %}<style>{{ "fishing-guide.css" | inline_styles }}</style><script defer src="/assets/fishing-guide.js?v={{ site.data.build.asset_version }}"></script>{% endif %}
+{% if page.url == "/nodoklu-kalkulators/" %}<style>{{ "tax-guide.css" | inline_styles }}</style><script defer src="/assets/tax-guide.js?v={{ site.data.build.asset_version }}"></script>{% endif %}
+{% if page.url == "/pensiju-izmaksas/" %}<style>{{ "pension-guide.css" | inline_styles }}</style><script defer src="/assets/pension-guide.js?v={{ site.data.build.asset_version }}"></script>{% endif %}
+{% if page.url == "/" %}<style>{{ "home-calendar.css" | inline_styles }}</style><style>{{ "upcoming-events.css" | inline_styles }}</style><script defer src="/assets/upcoming-events.js?v={{ site.data.build.asset_version }}"></script>{% endif %}
+<style>{{ "brand-consistency.css" | inline_styles }}</style>
 </head>
 <body class="{% if page.url == '/' %}home-page{% else %}site-page{% endif %}" data-family="{{ page.family }}" data-category="{{ page.category }}" data-year="{{ page.year }}" data-month="{{ page.month }}" data-week="{{ page.week }}" data-name="{{ page.calendar_name | escape }}" data-view="{{ page.view }}">
 {% include header.html %}

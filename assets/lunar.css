@@ -29,9 +29,9 @@ button.lunar-day.is-weekend:not(.is-selected){background:linear-gradient(155deg,
 .lunar-day-moon{display:block;width:56px;height:56px;max-width:72%;flex:none;object-fit:contain;filter:drop-shadow(0 4px 4px #17203330)}
 .lunar-day-percent{color:#314153;font-size:11px;font-weight:850;font-variant-numeric:tabular-nums;line-height:1.25}
 .lunar-phase-mark,.lunar-holiday-mark{display:block;max-width:100%;overflow:hidden;color:#8b1d39;font-size:8px;font-weight:800;line-height:1.2;text-overflow:ellipsis;white-space:nowrap}
-.lunar-holiday-mark{color:#386b55}
+.lunar-holiday-mark{color:#6b3843}
 .lunar-day.has-exact-phase:after{position:absolute;top:7px;right:7px;width:6px;height:6px;border-radius:50%;background:#c52443;content:"";box-shadow:0 0 0 2px #fff}
-.lunar-legend{display:flex;flex-wrap:wrap;gap:10px 22px;margin-top:17px;color:#697386;font-size:11px}.lunar-legend span{display:inline-flex;align-items:center;gap:7px}.lunar-legend i{display:inline-block;width:8px;height:8px;border-radius:50%;background:#c52443}.lunar-legend .lunar-legend-holiday{background:#57946e}
+.lunar-legend{display:flex;flex-wrap:wrap;gap:10px 22px;margin-top:17px;color:#697386;font-size:11px}.lunar-legend span{display:inline-flex;align-items:center;gap:7px}.lunar-legend i{display:inline-block;width:8px;height:8px;border-radius:50%;background:#c52443}.lunar-legend .lunar-legend-holiday{background:#945764}
 .lunar-detail-card{position:sticky;top:16px;padding:clamp(19px,2vw,27px);overflow:hidden;background:radial-gradient(ellipse at 72% 39%,#40405a 0,transparent 40%),linear-gradient(150deg,#20263a 0,#121a2e 70%,#272339 100%);border-color:#30384d;color:#f8f6f1}
 .lunar-detail-card>.eyebrow{color:#d1b3bd}.lunar-detail-card h2{margin:8px 0 19px;color:#fff;font-size:clamp(22px,2vw,29px);line-height:1.2;letter-spacing:-.035em}
 .lunar-moon-scene{position:relative;display:grid;place-items:center;min-height:290px;margin:0 -5px 12px;overflow:hidden;border:1px solid #ffffff15;border-radius:18px;background:radial-gradient(ellipse at 50% 53%,#3d4058 0,#242b40 45%,#12192b 100%);isolation:isolate}

@@ -2,12 +2,12 @@
   "schemaVersion": 1,
   "scope": "local built files; no external requests",
   "origin": "https://kalendars365.lv",
-  "pageUrls": 899,
-  "indexablePages": 899,
-  "htmlDocuments": 902,
-  "imagePages": 899,
-  "uniqueImages": 4415,
-  "imageReferences": 9122,
+  "pageUrls": 935,
+  "indexablePages": 935,
+  "htmlDocuments": 938,
+  "imagePages": 935,
+  "uniqueImages": 4492,
+  "imageReferences": 9259,
   "excluded": [
     "/404.html",
     "/500.html",
@@ -15,18 +15,20 @@
   ],
   "files": {
     "sitemap.xml": {
-      "bytes": 95491,
-      "sha256": "733d9aaec3257b8ad61ed735e669819861c689e978652c4b2c801cb8187fbf90"
+      "bytes": 99312,
+      "sha256": "4de8fe8e2938ad06040e3b02bf9e4734a9d43b9a321153bffb61e2616ea26428"
     },
     "image-sitemap.xml": {
-      "bytes": 1284104,
-      "sha256": "fd0746fb1358c7a20ec1bd79382a2f5352115da4f396b35af3550bf83a7d4af8"
+      "bytes": 1302870,
+      "sha256": "18288c9afd5cbd30b63136c68228fc8f4f2e6c41274d0bbaecb0e88ca738cd5f"
     }
   },
   "families": {
+    "benefit_guide": 8,
     "blog_article": 20,
     "blog_index": 1,
     "calendar_month": 48,
+    "event_guide": 20,
     "garden": 17,
     "garden_month": 12,
     "holiday_month": 48,
@@ -35,7 +37,7 @@
     "hub": 47,
     "iso_week": 209,
     "latvia_cultural": 25,
-    "latvia_special": 26,
+    "latvia_special": 34,
     "long_weekends": 4,
     "lunar_month": 48,
     "lunar_year": 4,

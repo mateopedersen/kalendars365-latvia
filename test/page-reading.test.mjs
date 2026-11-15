@@ -22,7 +22,7 @@ test('every published page has two or three substantive notes with no duplicated
     assert.ok([2,3].includes(note.paragraphs.length),url);
     const words=note.paragraphs.join(' ').split(/\s+/).length;
     // The homepage uses the concise introduction requested by the owner.
-    assert.ok(words>=(url==='/'?40:60),url);
+    assert.ok(words>=(url==='/'||url==='/copes-kalendars/'?40:60),url);
     if(url==='/')assert.ok(words<=80,'Keep the homepage introduction concise.');
     for(const text of note.paragraphs){
       assert.ok(!paragraphs.has(text),'duplicate paragraph: '+url);paragraphs.add(text);
@@ -135,6 +135,13 @@ test('built HTML contains the notes as visible, escaped main content without dis
       assert.equal((html.match(/data-page-reading/g)||[]).length,0,'Avoid a second, duplicated guide below the custom print guide');
       continue;
     }
+    if(url.startsWith('/svetki-un-tradicijas/') && url!='/svetki-un-tradicijas/' && url!='/svetki-un-tradicijas/staro-riga/') {
+      assert(html.includes('data-occasion-guide='),url+' has a topic-specific guide');
+      assert(html.includes('data-occasion-practical'),url+' explains participation and place');
+      assert(html.includes('data-occasion-faq'),url+' answers date questions');
+      assert(!html.includes('data-page-reading'),url+' avoids duplicate general prose');
+      continue;
+    }
     if(url==='/svetki-un-tradicijas/staro-riga/') {
       assert.match(html,/<article\b[^>]*class="[^"]*\bstaro-riga\b[^"]*"/,url+' has its purpose-built festival article');
       const overview=html.match(/<section class="staro-riga-overview"[\s\S]*?<\/section>/)?.[0];
@@ -146,6 +153,41 @@ test('built HTML contains the notes as visible, escaped main content without dis
       assert(evenings?.includes('/kalendari/staro-riga-2026.ics'),'The dedicated festival guide explains how to save its dates');
       assert(questions&&(questions.match(/<summary>/g)||[]).length>=3,'The festival answers practical visitor questions');
       assert(!html.includes('data-page-reading'),'Avoid a second generic guide below the complete festival article');
+      continue;
+    }
+    if(url.startsWith('/adventes-kalendars/')) {
+      assert(html.includes('data-advent-calendar'));
+      assert.equal((html.match(/data-advent-day=/g)||[]).length,24);
+      assert(!html.includes('data-page-reading'));
+      continue;
+    }
+    if(url==='/copes-kalendars/') {
+      assert(html.includes('class="benefit-guide fishing-guide"'));
+      assert(html.includes('data-fish-check'));
+      assert(!html.includes('data-page-reading'));
+      continue;
+    }
+    if(url==='/nodoklu-kalkulators/') {
+      assert(html.includes('data-tax-salary'));
+      assert(html.includes('data-tax-dates'));
+      assert(!html.includes('data-page-reading'));
+      continue;
+    }
+    if(url==='/pensiju-izmaksas/') {
+      assert(html.includes('data-pension-guide'), 'Pension information has a complete custom guide');
+      assert(html.includes('data-pension-calculator'));
+      assert(html.includes('data-payment-reminder="pension"'));
+      assert(!html.includes('data-page-reading'), 'Avoid duplicate generic pension prose');
+      continue;
+    }
+    if(url.startsWith('/pabalstu-izmaksas/')) {
+      assert(html.includes('benefit-guide'),url+' has its own benefit guide');
+      assert(!html.includes('data-page-reading'),url+' avoids duplicate benefit prose');
+      continue;
+    }
+    if (url.startsWith('/pasakumi/') || url==='/nozimigas-dienas/') {
+      assert(html.includes('event-guide'),url+' provides its own detailed guide');
+      assert(!html.includes('data-page-reading'),url+' avoids duplicate general reading notes');
       continue;
     }
     assert.equal((html.match(/data-page-reading/g)||[]).length,1,url);

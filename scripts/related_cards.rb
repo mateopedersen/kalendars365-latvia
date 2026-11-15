@@ -27,7 +27,7 @@ class CalendarRelatedCards
   def type(row)
     url,f=row.values_at('url','family')
     return 'information' if INFORMATION.include?(url)
-    return 'guide' if f.start_with?('blog_')
+    return 'guide' if f.start_with?('blog_') || %w[event_guide event_index benefit_guide].include?(f)
     return 'city' if %w[sun_city moon_city sky_hub].include?(f)
     return 'print' if f.start_with?('print_') || url=='/pdf-kalendari/'
     return 'calendar' if %w[year calendar_month month_index week_index iso_week name_calendar].include?(f) || %w[/kalendars/ /menesa-kalendars/ /nedelas-kalendars/ /tukss-kalendars/ /kalendars-ar-vardu/].include?(url)

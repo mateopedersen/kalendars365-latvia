@@ -1,0 +1,19 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Kalendars365.lv//Events//LV
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:rigas-dzimsanas-diena-2027-08-14@kalendars365.lv
+DTSTAMP:20261115T180000Z
+DTSTART;VALUE=DATE:20270814
+DTEND;VALUE=DATE:20270815
+SUMMARY:Rīgas dzimšanas diena 2027
+LOCATION:Vecrīga\, 11. novembra krastmala un Rīgas parki
+DESCRIPTION:Atsevišķu norišu laiki vēl jāizziņo. https://www.liveriga
+ .com/lv/apmekle/pasakumi/festivali-un-svetki/rigas-dzimsanas-dienas-svinib
+ as
+URL:https://kalendars365.lv/pasakumi/rigas-dzimsanas-diena/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

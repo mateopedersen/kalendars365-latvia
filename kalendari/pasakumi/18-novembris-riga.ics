@@ -1,0 +1,18 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Kalendars365.lv//Events//LV
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:18-novembris-riga-2026-11-18@kalendars365.lv
+DTSTAMP:20261115T180000Z
+DTSTART;VALUE=DATE:20261118
+DTEND;VALUE=DATE:20261119
+SUMMARY:18. novembra pasākumi Rīgā 2026
+LOCATION:Brīvības laukums\, 11. novembra krastmala un citas Rīgas vietas
+DESCRIPTION:Atsevišķas norises 10.00–23.00. https://www.riga.lv/lv/noti
+ kums/svetku-pasakumi-18-novembri?date=0
+URL:https://kalendars365.lv/pasakumi/18-novembris-riga/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

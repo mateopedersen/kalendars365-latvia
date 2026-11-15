@@ -1,0 +1,17 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Kalendars365.lv//Events//LV
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:enu-diena-2027-04-07@kalendars365.lv
+DTSTAMP:20261115T180000Z
+DTSTART;VALUE=DATE:20270407
+DTEND;VALUE=DATE:20270408
+SUMMARY:Ēnu diena 2027
+LOCATION:Uzņēmumi un iestādes Latvijā\; adrese katrā vakancē
+DESCRIPTION:Laiks norādīts izvēlētajā vakancē. https://enudiena.lv/ed
+URL:https://kalendars365.lv/pasakumi/enu-diena/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

@@ -6,7 +6,7 @@
       "id": "month",
       "title": "Mēneša kalendārs",
       "file": "/assets/tools-art/month.svg",
-      "sha256": "fed0f79293438cbf776cc6e21bfda03f2b1301bf2258f5b5b577828d3c90bf4f",
+      "sha256": "b39d01babfb691e888f0843d30289a99752ba47d5c2dbfd06defb45bd94ec612",
       "bytes": 9762,
       "description": "Galda kalendārs ar metāla spirālēm un dienu režģi"
     },
@@ -14,7 +14,7 @@
       "id": "week",
       "title": "Nedēļas kalendārs",
       "file": "/assets/tools-art/week.svg",
-      "sha256": "a7430cb88b38997115e6c314dfbffa307e27ebd478329af718c2f8a6b5865a93",
+      "sha256": "ca94343b443eedae2e1bef6909223e9898127c35c40f7c8bf8a67b1d413aefa3",
       "bytes": 9124,
       "description": "Septiņu dienu plāns ar atsevišķām pierakstu slejām"
     },
@@ -22,15 +22,23 @@
       "id": "year",
       "title": "Gada kalendāri",
       "file": "/assets/tools-art/year.svg",
-      "sha256": "1b30a7395539138487d2ae0524132a45c18aec36ae1041c2e93c199005ccb941",
+      "sha256": "dcd1f24bbeafec40ee045c6ce43aa6d05310b08d95c267f76ea75d78bbca2ad2",
       "bytes": 14208,
       "description": "Gada kalendārs ar vairāku mēnešu pārskatu"
+    },
+    {
+      "id": "advent",
+      "title": "Adventes kalendārs",
+      "file": "/assets/tools-art/advent.svg",
+      "sha256": "24bee6663222731ec46747b3562f6fa3f0053e190de78ea3b24026bf3d170b3d",
+      "bytes": 4228,
+      "description": "Bordo un balta Adventes dāvanu kastīte ar lenti un atvērtu vāciņu"
     },
     {
       "id": "maker",
       "title": "Izveido savu kalendāru",
       "file": "/assets/tools-art/maker.svg",
-      "sha256": "fd5a2c50a9ef6d279b0598aeb53c40867c60926bd42414e0388fc19290932a00",
+      "sha256": "78fc5b746e3fca0c3a7e22b6570f169bf232452868f7c17c394a7bacc7d9f128",
       "bytes": 4924,
       "description": "Kalendāra lapa ar ainavas zīmējumu un zīmuli"
     },
@@ -38,7 +46,7 @@
       "id": "family",
       "title": "Ģimenes kalendārs",
       "file": "/assets/tools-art/family.svg",
-      "sha256": "015d498e5fa5b87b29d2cad350a0b3da539fd1913eab1bd420c7c968fe8ad52d",
+      "sha256": "cc910e7794693bf7ad377d5df81c63285e3ac020834e7bf134850727824403c1",
       "bytes": 6497,
       "description": "Kopīgs ģimenes plāns ar trim krāsu slejām"
     },
@@ -46,7 +54,7 @@
       "id": "vacation",
       "title": "Atvaļinājuma plānotājs",
       "file": "/assets/tools-art/vacation.svg",
-      "sha256": "90a772348433e2c1a1e51c5c6ebc97aaf1bd463a024484b92681fe8f8e715862",
+      "sha256": "cfee02fe6bc0ac279997c72fbce07904b9b9aaa95e1612baca0ff84a3ae2af12",
       "bytes": 5421,
       "description": "Ceļojumu koferis ar reljefu virsmu un bagāžas birku"
     },
@@ -54,7 +62,7 @@
       "id": "shift",
       "title": "Maiņu grafiks",
       "file": "/assets/tools-art/shift.svg",
-      "sha256": "43dd1f7faa1f1a06ab32068d59d2bd865aced4e08ed5c28a388a6183fbbdd12b",
+      "sha256": "43a8f284bb6cebf8bb50a4b6120c8b5c242e6c50000c36f7033f9ada2d669a67",
       "bytes": 13570,
       "description": "Metāla pulkstenis ar nakts maiņas simbolu"
     },
@@ -62,7 +70,7 @@
       "id": "work",
       "title": "Darba dienu kalendārs",
       "file": "/assets/tools-art/work.svg",
-      "sha256": "19f0b39e7cadb6b4bc3a99a77574141a91cb9c004a99f16bd8bec485737d01e6",
+      "sha256": "ff6e5330b0c4a2c202fb9caa14fd28bab80ea4f2162c2cd697515ff6fb6003f5",
       "bytes": 14153,
       "description": "Darba stundu kalkulators kopā ar nedēļas plānu"
     },
@@ -70,7 +78,7 @@
       "id": "calculator",
       "title": "Datumu kalkulators",
       "file": "/assets/tools-art/calculator.svg",
-      "sha256": "627b4d4768cf550ace736c9a428c83e84ac780278c08cd0cf255ef2ebd23e0fe",
+      "sha256": "9e34b713c14b2aafb8bd39b391299297df91516c1c709306430c82d775409dfe",
       "bytes": 8524,
       "description": "Kalkulators ar taustiņiem un datumu saskaitīšanas piemēru"
     },
@@ -78,7 +86,7 @@
       "id": "countdown",
       "title": "Dienu skaitītājs",
       "file": "/assets/tools-art/countdown.svg",
-      "sha256": "588a320e194c7455e363a9662b72faaaa9bd31cc935a9d9853be6e4485aa25fc",
+      "sha256": "60782775d26b9ece35cc6b9ef4700b2d36f3e45373d76a92fc7bedb15ef51401",
       "bytes": 4372,
       "description": "Smilšu pulkstenis stikla un metāla ietvarā"
     },
@@ -86,7 +94,7 @@
       "id": "names",
       "title": "Vārda dienas",
       "file": "/assets/tools-art/names.svg",
-      "sha256": "71dc7d3fc470a417b57e9d7499db8dc8eb85aa85302dbd621b7497963f83a8a9",
+      "sha256": "a26b321a8e3795457262db92db60e1f7d116b8d3a727f2487d9c3499cbd8a737",
       "bytes": 6971,
       "description": "Ziedu pušķis apsveikuma aploksnē"
     },
@@ -94,7 +102,7 @@
       "id": "traditions",
       "title": "Svētki un tradīcijas",
       "file": "/assets/tools-art/traditions.svg",
-      "sha256": "1a4074b26b03b74f0a084da55e78df0bd270f4a69e1fed825ff18d8542dfcba5",
+      "sha256": "21953a0907d9da3d04c227d98fa9c327e4646692e491fba0233cdffdd1993bd7",
       "bytes": 11492,
       "description": "Lapu vainags ar karmīna un zelta lentēm"
     },
@@ -102,7 +110,7 @@
       "id": "holidays",
       "title": "Svētku brīvdienas",
       "file": "/assets/tools-art/holidays.svg",
-      "sha256": "8884a95f97629b0adadff68e13aa579ce4aebce852215633fc541b1c67b7eef5",
+      "sha256": "a195d884d023c7c9c5987df99024d61c1e926e1b06299e9a3f0862d5135acfc8",
       "bytes": 4126,
       "description": "Latvijas karogs ar auduma kroku zīmējumu"
     },
@@ -110,7 +118,7 @@
       "id": "school",
       "title": "Skolas brīvlaiki",
       "file": "/assets/tools-art/school.svg",
-      "sha256": "211c36093da50c1bc97505928c47732e29889c121591c7043dd8c08db0eaf0a8",
+      "sha256": "42faae10f031af2e8dfc481bed06d9689535e3d35571ef3bb89725f4a1545f6a",
       "bytes": 4624,
       "description": "Mugursoma ar grāmatu un metāla rāvējslēdzēju"
     },
@@ -118,7 +126,7 @@
       "id": "timetable",
       "title": "Stundu saraksts",
       "file": "/assets/tools-art/timetable.svg",
-      "sha256": "288929a6913c5f49b2b96644d669bd24c09ccdd20bd64e435fcb981fa54b2a73",
+      "sha256": "bf7f723befc7c66e70047a4bf2acbc60df86366d40779ea714f3b256b2932ac6",
       "bytes": 6275,
       "description": "Stundu saraksts ar krāsainām priekšmetu rindām"
     },
@@ -126,7 +134,7 @@
       "id": "study",
       "title": "Studiju kalendārs",
       "file": "/assets/tools-art/study.svg",
-      "sha256": "039aa9fcf6c1139f0d275ffe724988d2811754d322021f29177ba21f05f75a0d",
+      "sha256": "29e83ae4a50d5712d192294c475ce0588e3b1d19b2d47bb77e1ebdc34560e59e",
       "bytes": 5784,
       "description": "Atvērta grāmata un absolventa cepure"
     },
@@ -134,7 +142,7 @@
       "id": "sunrise",
       "title": "Saullēkts un saulriets",
       "file": "/assets/tools-art/sunrise.svg",
-      "sha256": "a03b1a34c5c6f2adc7a9802d4bad11739dff2bdf768d9c5b9514ecaefba45d88",
+      "sha256": "e25bf955514b1c46e4dd3e64894c2057f413634311d183b91c0c027f908edef5",
       "bytes": 4502,
       "description": "Saule virs ūdens ar gaismas atspīdumu"
     },
@@ -142,7 +150,7 @@
       "id": "moon",
       "title": "Mēness kalendārs",
       "file": "/assets/tools-art/moon.svg",
-      "sha256": "d159661bf94a6ab92dd815a22d383d69b705796c7de7cc8ec5f6f390d8cd1a28",
+      "sha256": "d66e8fb8f60d9d51e9c7354368d07dbe970c2214f8541a8f8a5db4ebf36256ac",
       "bytes": 36148,
       "description": "Mēness disks ar krāteriem un apgaismojuma gradientu"
     },
@@ -150,7 +158,7 @@
       "id": "phases",
       "title": "Mēness fāzes",
       "file": "/assets/tools-art/phases.svg",
-      "sha256": "4f5151ee64c3ab2248dea11ee561e7cba02a73173512c1800013c8bcd3541172",
+      "sha256": "9bf9ff21c0e0cba9030b6f73b96f5c5095973b100e70b32177f6e34e01c0e9a7",
       "bytes": 68599,
       "description": "Trīs atšķirīgi apgaismoti Mēness diski"
     },
@@ -158,7 +166,7 @@
       "id": "seasons",
       "title": "Gadalaiki",
       "file": "/assets/tools-art/seasons.svg",
-      "sha256": "e0478e00ddd59f365190ecc2f67790690a5b32632d558252c2edd34ec3a657e5",
+      "sha256": "8bd94555b5ca18c72744f454c7c1e059ba50e91d19f0b515d82aa677ce81d9bb",
       "bytes": 14739,
       "description": "Koks ar četru gadalaiku lapotnes toņiem"
     },
@@ -166,7 +174,7 @@
       "id": "astronomy",
       "title": "Astronomiskais kalendārs",
       "file": "/assets/tools-art/astronomy.svg",
-      "sha256": "13688e78f87a59664a6735d568b7c2a3e676038da517fd39e673ff8809f89a6f",
+      "sha256": "ce9681bdc63c34dadc540d0dfbd17d8aff782b993600fe5918e2cf958266eb23",
       "bytes": 43745,
       "description": "Zeme ar kontinentu un mākoņu zīmējumu, līdzās Mēness"
     },
@@ -174,7 +182,7 @@
       "id": "garden",
       "title": "Sējas un stādīšanas kalendārs",
       "file": "/assets/tools-art/garden.svg",
-      "sha256": "3eb20e7759dfe69dc87270fcb2a97679320cc973acc3da9581522db110b850c4",
+      "sha256": "cc8c5741f06a4c831796040c527234fbaa5760798460d9db0daa384945e7072b",
       "bytes": 4317,
       "description": "Stāds podā ar lapu dzīslām un auga birku"
     },
@@ -182,7 +190,7 @@
       "id": "print",
       "title": "Kalendāri drukai",
       "file": "/assets/tools-art/print.svg",
-      "sha256": "5b121541c82ce482a7b1295ce1197ce27e8f6b7a1ed2bed95c254092088a50e7",
+      "sha256": "4df914c0a9ce43021be935e10ad65dcd92dd14ab2e2cc4238f92446c67852292",
       "bytes": 4556,
       "description": "Printeris ar kalendāra lapu"
     },
@@ -190,9 +198,25 @@
       "id": "horoscope",
       "title": "Dienas horoskops",
       "file": "/assets/tools-art/horoscope.svg",
-      "sha256": "0b0322aa24edf25a8d5f454a74fd3e7146c7f1ffa970893261d4bae73aed2bb5",
+      "sha256": "855bb93ec16b9eb873e8c1154576807a25a197834ba8d31899cce1ad5a8f3a20",
       "bytes": 6360,
       "description": "Zvaigžņu kompasa disks metāliskā ietvarā"
+    },
+    {
+      "id": "tax",
+      "title": "Nodokļu un algas kalkulators",
+      "file": "/assets/tools-art/tax.svg",
+      "sha256": "d16604d47172caff77c7565c5e7bc046c262df8dff428cc7ed671c3b2705f37c",
+      "bytes": 9215,
+      "description": "Nodokļu aprēķinu kalkulators un deklarācijas lapa"
+    },
+    {
+      "id": "fishing",
+      "title": "Copes kalendārs",
+      "file": "/assets/tools-art/fishing.svg",
+      "sha256": "d0b4443efa875fed12dae9650e96693106431430ae7907f84765187c9dac432c",
+      "bytes": 3997,
+      "description": "Zivs un makšķerēšanas kalendārs"
     }
   ]
 }

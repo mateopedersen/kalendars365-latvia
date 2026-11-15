@@ -1,0 +1,18 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Kalendars365.lv//Events//LV
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:sarunu-festivals-lampa-2027-07-02@kalendars365.lv
+DTSTAMP:20261115T180000Z
+DTSTART;VALUE=DATE:20270702
+DTEND;VALUE=DATE:20270704
+SUMMARY:Sarunu festivāls LAMPA 2027
+LOCATION:Cēsu pils parks\, Maija parks un Pils laukums
+DESCRIPTION:Diskusiju laiki pēc programmas izziņošanas. https://festival
+ slampa.lv/index.php/lv/jaunumi
+URL:https://kalendars365.lv/pasakumi/sarunu-festivals-lampa/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

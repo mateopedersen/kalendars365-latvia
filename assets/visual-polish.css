@@ -21,12 +21,12 @@
 .page-heading-art-chip{position:absolute;right:-2%;bottom:14%;max-width:70%;padding:8px 11px;border:1px solid #ffffffb8;border-radius:12px;background:#fffdf4e8;box-shadow:0 5px 13px #3925341c;color:#65525b;font-size:10px;font-weight:800;line-height:1.25;text-align:center}
 .page-shell--visual-sun .page-heading{--hero-a:#fff7e9;--hero-b:#f2ded3;--hero-ink:#a04c28}
 .page-shell--visual-moon .page-heading{--hero-a:#f5f4fa;--hero-b:#e8e5f0;--hero-ink:#4b5476}
-.page-shell--visual-garden .page-heading{--hero-a:#f8f7e9;--hero-b:#e9eddb;--hero-ink:#496744}
+.page-shell--visual-garden .page-heading{--hero-a:#f8f7e9;--hero-b:#ebdde0;--hero-ink:#67444c}
 .page-shell--visual-zodiac .page-heading{--hero-a:#faf5ec;--hero-b:#ede4ee;--hero-ink:#6d476e}
 .page-shell--visual-school .page-heading{--hero-a:#f5f7f8;--hero-b:#e4eaee;--hero-ink:#405b72}
 .page-shell--visual-work .page-heading{--hero-a:#faf4ec;--hero-b:#ebe4df;--hero-ink:#6f4e43}
 .page-shell--visual-culture .page-heading{--hero-a:#fff7eb;--hero-b:#f1e1d5;--hero-ink:#8a4933}
-.page-shell--visual-city .page-heading{--hero-a:#eff8f6;--hero-b:#dbece8;--hero-ink:#326a67}
+.page-shell--visual-city .page-heading{--hero-a:#f6f1f2;--hero-b:#eadde0;--hero-ink:#6a323e}
 .page-shell--visual-names .page-heading{--hero-a:#fff7f2;--hero-b:#f2e5e3;--hero-ink:#8a4055}
 .page-shell--visual-print .page-heading{--hero-a:#fff8f0;--hero-b:#f0e0dc;--hero-ink:#80263c}
 .page-shell--visual-week .page-heading{--hero-a:#f6f5fb;--hero-b:#e8e5f1;--hero-ink:#544b75}
@@ -232,3 +232,6 @@
 .site-header .nav-directory-cta small{font-size:11px;line-height:1.4}
 @media(max-height:650px) and (min-width:901px){.site-header .nav-directory .directory-link-copy strong{font-size:13px}.site-header .nav-directory .directory-link-copy small{font-size:10px}.site-header .nav-directory-group{grid-template-rows:35px repeat(5,var(--nav-row))}.site-header .nav-directory-group h2{height:35px;font-size:14px}.site-header .nav-directory{gap:9px 17px;padding:12px 15px}}
 @media(max-width:900px){.site-header .nav-directory{width:calc(100vw - 20px);grid-template-columns:1fr;padding:13px 14px;gap:16px;--nav-row:64px}.site-header .nav-directory-heading{position:sticky;top:-13px;background:#fffdfa;z-index:2;padding:9px 2px;margin:-5px 0 -5px;border-bottom:1px solid #eddfe0}.site-header .nav-directory-group{display:block}.site-header .nav-directory-group h2{height:auto;min-height:38px;margin-bottom:7px}.site-header .nav-directory a.nav-directory-link{height:auto;min-height:66px;grid-template-columns:53px minmax(0,1fr);padding:8px;gap:12px}.site-header .nav-directory .directory-icon-shell,.site-header .nav-directory .directory-photo{width:53px;height:47px}.site-header .nav-directory .directory-link-copy strong{font-size:14px}.site-header .nav-directory .directory-link-copy small{font-size:11px}.site-header .nav-directory-cta{gap:12px!important}}
+
+/* New tools retain the existing menu and get their own compact, equal rows. */
+.site-header .nav-new-tools{grid-column:1/-1;border-top:1px solid #e7d4da;padding-top:12px}.site-header .nav-new-tools h2{border:0;margin:0 0 8px;height:auto;min-height:0;font-size:13px}.nav-new-tools-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px}.site-header .nav-new-tools a.nav-directory-link{height:auto;min-height:76px;background:#fff9f6;border:1px solid #e4ccd5;padding:8px;border-radius:10px;grid-template-columns:50px minmax(0,1fr);gap:9px}.site-header .nav-new-tools .directory-icon-shell,.site-header .nav-new-tools .directory-photo{width:50px;height:48px}.site-header .nav-new-tools a.nav-directory-link:hover{background:#f0dfe5;border-color:#9e536d}.site-header .nav-new-tools .directory-link-copy strong{font-size:12px;color:#642039}.site-header .nav-new-tools .directory-link-copy small{font-size:10px;color:#6e4e5e}@media(max-width:900px){.nav-new-tools-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}@media(max-width:480px){.nav-new-tools-grid{grid-template-columns:1fr}.site-header .nav-new-tools a.nav-directory-link{min-height:68px}}

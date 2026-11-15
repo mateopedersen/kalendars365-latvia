@@ -1,0 +1,18 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Kalendars365.lv//Events//LV
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:rigas-maratons-2027-05-15@kalendars365.lv
+DTSTAMP:20261115T180000Z
+DTSTART;VALUE=DATE:20270515
+DTEND;VALUE=DATE:20270517
+SUMMARY:Rimi Rīgas maratons 2027
+LOCATION:Rīga\; precīza starta un finiša vieta distances kartē
+DESCRIPTION:Starta laiks atkarīgs no distances. https://rimirigamarathon.c
+ om/lv/registracija/
+URL:https://kalendars365.lv/pasakumi/rigas-maratons/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

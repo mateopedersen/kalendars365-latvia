@@ -1,0 +1,18 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Kalendars365.lv//Events//LV
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:summer-sound-2027-07-30@kalendars365.lv
+DTSTAMP:20261115T180000Z
+DTSTART;VALUE=DATE:20270730
+DTEND;VALUE=DATE:20270801
+SUMMARY:Summer Sound 2027 Liepājā
+LOCATION:Liepājas pludmale un Jūrmalas parka apkārtne
+DESCRIPTION:Teritorija no 30.07. 16.00 līdz 01.08. 06.00. https://summerso
+ und.lv/
+URL:https://kalendars365.lv/pasakumi/summer-sound/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

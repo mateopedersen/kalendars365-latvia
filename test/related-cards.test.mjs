@@ -14,9 +14,10 @@ test('every public content page has relevant visual discovery, all links and ima
  assert.deepEqual(new Set(audit.pages.map(page=>page.route)),expected,'Every expected page must be audited');
  assert.equal(audit.totals.htmlPages,expected.size);
  assert.equal(audit.totals.contentPages,manifest.length);
- const contextual=new Set(manifest.filter(row=>row.url!=='/').map(row=>row.url));
- assert.deepEqual(new Set(audit.pages.filter(page=>page.mode==='contextual').map(page=>page.route)),contextual,'All content pages except the custom home discovery need contextual cards');
+ const contextual=new Set(manifest.filter(row=>!['/','/nozimigas-dienas/','/pabalstu-izmaksas/'].includes(row.url)).map(row=>row.url));
+ assert.deepEqual(new Set(audit.pages.filter(page=>page.mode==='contextual').map(page=>page.route)),contextual,'Content pages use contextual cards except the complete custom home and event directories');
  assert.equal(audit.totals.contextualPages,contextual.size);
+ assert.deepEqual(audit.pages.filter(page=>page.mode==='directory').map(page=>page.route).sort(),['/nozimigas-dienas/','/pabalstu-izmaksas/']);
  assert.deepEqual(audit.pages.filter(page=>page.mode==='home').map(page=>page.route),['/']);
  assert.deepEqual(new Set(audit.pages.filter(page=>page.mode==='recovery').map(page=>page.route)),new Set(supportPages));
  assert.equal(audit.totals.homeDiscoveryPages,1);

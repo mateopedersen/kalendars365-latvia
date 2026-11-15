@@ -1,4 +1,4 @@
-.vacation-experience{--vacation-wine:#852843;--vacation-teal:#316d69;--vacation-line:#e3d4cf;color:#30333c;margin:26px 0}
+.vacation-experience{--vacation-wine:#852843;--vacation-teal:#6d313e;--vacation-line:#e3d4cf;color:#30333c;margin:26px 0}
 .vacation-panel{padding:clamp(20px,3vw,36px);margin:24px 0;border:1px solid var(--vacation-line);border-radius:22px;background:#fffdfb;box-shadow:0 8px 28px #50333a07;scroll-margin-top:24px}
 .vacation-controls{background:linear-gradient(120deg,#fffdf9,#f8f0ed)}
 .vacation-section-heading{display:flex;justify-content:space-between;align-items:flex-start;gap:24px;margin-bottom:26px}
@@ -29,11 +29,11 @@
 .vacation-experience [role=status]:empty{margin:0}
 .vacation-summary{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:16px;margin:25px 0}
 .vacation-summary>div{border:1px solid #e1d3cb;background:#fffdf9;border-radius:17px;padding:22px;display:flex;flex-direction:column;gap:8px;min-width:0}
-.vacation-summary>div:nth-child(2){background:#eaf3ee;border-color:#cdded5}
+.vacation-summary>div:nth-child(2){background:#f3eaec;border-color:#decdd1}
 .vacation-summary span{font-size:13px;font-weight:650;color:#695b66}
 .vacation-summary strong{font-size:45px;line-height:1;color:var(--vacation-wine);font-variant-numeric:tabular-nums}
 .vacation-summary>div:nth-child(2) strong{color:var(--vacation-teal)}
-.vacation-summary small{font-size:12px;color:#766773;line-height:1.5}
+.vacation-summary small{font-size:12px;color:#6c4d58;line-height:1.5}
 .vacation-summary>div.is-over-budget{background:#fff0f0;border-color:#d78895}
 .vacation-summary>div.is-over-budget strong{color:#a8243f}
 .vacation-check{display:inline-flex;align-items:center;gap:8px;font-size:13px;line-height:1.5;cursor:pointer}
@@ -44,12 +44,12 @@
 .vacation-card-heading strong{font-size:53px;line-height:1.05;font-weight:750;color:var(--vacation-wine);display:flex;align-items:center;gap:15px;margin:11px 0 19px}
 .vacation-card-heading strong small{font-size:12px;font-weight:600;line-height:1.4;color:#796974;max-width:7ch}
 .vacation-card h3{font-size:18px;line-height:1.45;margin:0 0 18px;color:#34343e}
-.vacation-card h3 span{display:block;font-size:15px;font-weight:500;color:#766773;margin-top:4px}
+.vacation-card h3 span{display:block;font-size:15px;font-weight:500;color:#6c4d58;margin-top:4px}
 .vacation-card-metrics{font-size:13px;line-height:1.6;display:flex;flex-direction:column;gap:4px;color:#6b636e}
 .vacation-card-metrics b{font-size:17px;color:#39313a;margin-right:5px}
 .vacation-day-strip{display:flex;gap:4px;flex-wrap:wrap;margin:18px 0 22px}
 .vacation-day-strip>span{display:grid;place-items:center;min-width:22px;height:25px;border-radius:4px;background:#e8eef2;color:#566678;font-size:10px;font-weight:700}
-.vacation-day-strip>span.is-leave{background:#852843;color:white}.vacation-day-strip>span.is-holiday{background:#f5e2ba;color:#7e5b21}.vacation-day-strip>span.is-extra{background:#dae9de;color:#326847}
+.vacation-day-strip>span.is-leave{background:#852843;color:white}.vacation-day-strip>span.is-holiday{background:#f5e2ba;color:#7e5b21}.vacation-day-strip>span.is-extra{background:#e9dadd;color:#68323e}
 .vacation-day-strip>small{font-size:10px;padding:5px;color:#78616b}
 .vacation-card-actions{margin-top:auto;display:flex;flex-direction:column;gap:14px;align-items:flex-start}
 .vacation-card-actions>button{width:100%}

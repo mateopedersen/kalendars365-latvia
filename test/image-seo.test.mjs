@@ -11,6 +11,8 @@ const coverCatalog=JSON.parse(read('_data/social-images.json')).pages;
 const expectedPhotoPages=Object.values(coverCatalog).filter(row=>row.sources?.length).length;
 const expectedPhotoSources=Object.values(coverCatalog).reduce((count,row)=>count+(row.sources?.length||0),0);
 const reviewedCreators=new Map([
+ ['Igors Jefimovs',{'@type':'Person',name:'Igors Jefimovs'}],
+ ['Riga Marathon',{'@type':'Organization',name:'Riga Marathon'}],
  ['Diego Delso',{'@type':'Person',name:'Diego Delso'}],
  ['NASA · Apollo 17',{'@type':'Organization',name:'NASA'}],
  ['NASA/Apollo 17 crew; taken by either Harrison Schmitt or Ron Evans',{'@type':'Organization',name:'NASA'}],

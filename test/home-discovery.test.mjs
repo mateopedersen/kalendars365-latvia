@@ -9,10 +9,13 @@ const {findOne,findAll,textContent}=require('domutils');
 const html=fs.readFileSync('_site/index.html','utf8'),doc=parseDocument(html);
 const main=findOne(n=>n.attribs?.id==='main',doc.children,true);
 const hasClass=(n,name)=>(n.attribs?.class||'').split(/\s+/).includes(name);
+// Upcoming events repeat relevant destinations by date. Keep the static
+// discovery catalogue unique and validate rotating/date-selected events independently.
+const inUpcoming=n=>{for(let p=n.parent;p;p=p.parent)if('data-upcoming-events' in (p.attribs||{})||(p.attribs?.class||'').split(/\s+/).includes('plan-event--public'))return true;return false;};
 const routes=new Set(JSON.parse(fs.readFileSync('docs/route-manifest.json')).map(r=>r.url));
 
 test('home content offers each canonical destination once without changing global navigation',()=>{
- const links=findAll(n=>n.name==='a'&&n.attribs.href?.startsWith('/')&&!n.attribs.href?.startsWith('//')&&!('data-week-link' in n.attribs),[main],true);
+ const links=findAll(n=>n.name==='a'&&n.attribs.href?.startsWith('/')&&!n.attribs.href?.startsWith('//')&&!('data-week-link' in n.attribs)&&!inUpcoming(n),[main],true);
  const destinations=links.map(n=>n.attribs.href.split(/[?#]/)[0]);
  assert(destinations.length>=25);
  assert.equal(new Set(destinations).size,destinations.length,JSON.stringify(destinations.filter((p,i)=>destinations.indexOf(p)!==i)));
@@ -45,9 +48,18 @@ test('home footer keeps one brand and offers different destinations from the mai
  const footer=findOne(n=>n.attribs?.id==='site-footer',doc.children,true);
  assert.equal(findAll(n=>hasClass(n,'brand'),[footer],true).length,1);
  assert.equal(findAll(n=>hasClass(n,'footer-copyright')&&textContent(n).includes('Kalendārs365'),[footer],true).length,0);
- const links=findAll(n=>n.name==='a'&&n.attribs.href?.startsWith('/')&&n.attribs.href!=='/'&&!('data-week-link' in n.attribs),[main,footer],true);
+ const links=findAll(n=>n.name==='a'&&n.attribs.href?.startsWith('/')&&n.attribs.href!=='/'&&!('data-week-link' in n.attribs)&&!inUpcoming(n),[main,footer],true);
  const paths=links.map(n=>n.attribs.href.split(/[?#]/)[0]);
  assert.equal(new Set(paths).size,paths.length,'Discovery destinations should not repeat');
  for(const url of paths)assert(routes.has(url),url);
  assert.equal(findAll(n=>hasClass(n,'footer-link-group'),[footer],true).length,4);
+});
+
+test('rotating upcoming events have one linked card per event and valid destinations',()=>{
+ const upcoming=findOne(n=>'data-upcoming-events' in (n.attribs||{}),[main],true);
+ assert(upcoming);
+ const cards=findAll(n=>hasClass(n,'home-event-main'),[upcoming],true);
+ const paths=cards.map(n=>n.attribs.href);
+ assert.equal(paths.length,new Set(paths).size);
+ for(const url of paths)assert(routes.has(url),url);
 });

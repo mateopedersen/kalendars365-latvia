@@ -1,0 +1,222 @@
+{
+  "title": "Adventes kalendārs Latvijai ar 24 decembra pārsteigumiem",
+  "description": "Atver 24 Adventes kalendāra lodziņus no 1. līdz 24. decembrim pēc Latvijas laika. Latviskas svētku idejas, rokdarbi un kopā būšanas mirkļi.",
+  "days": [
+    {
+      "day": 1,
+      "art": "paperstar",
+      "title": "Maza papīra zvaigzne",
+      "text": "Sāc decembri ar paša darinātu rotājumu. Saloki baltu papīru, izgriez vienkāršu zvaigzni un iekar to logā ar tumši sarkanu auklu. Šī ir mūsdienu rokdarba ideja Latvijas ziemas noskaņai, nevis sena rituāla rekonstrukcija.",
+      "time": "15 minūtes",
+      "href": "/svetki-un-tradicijas/advente/",
+      "link": "Adventes svētdienas"
+    },
+    {
+      "day": 2,
+      "art": "cookie",
+      "title": "Piparkūku pēcpusdiena",
+      "text": "Izvēlies piparkūku mīklu un pagatavo dažas sirsniņas vai zvaigznes. Izrotā tās tikai pēc atdzišanas. Vienu porciju vari atstāt kopīgam tējas vakaram. Ja cep kopā ar bērniem, karsto cepeškrāsni un pannu uztic pieaugušajam.",
+      "time": "30–45 minūtes",
+      "href": "/svetki-un-tradicijas/ziemassvetki/",
+      "link": "Ziemassvētku dienas"
+    },
+    {
+      "day": 3,
+      "art": "market",
+      "title": "Vakars Doma laukumā",
+      "text": "Apskati Rīgas Ziemassvētku tirdziņa ceļvedi un izvēlies piemērotu apmeklējuma laiku. Vietējo amatnieku stendos var meklēt sveces, adījumus un nelielas dāvanas. Šeit nav iekļauta biļete vai pirkums; programmu un darba laiku pārbaudi pirms brauciena.",
+      "time": "Izbrauciena ideja",
+      "href": "/pasakumi/ziemassvetku-tirdzins-riga/",
+      "link": "Rīgas tirdziņa ceļvedis"
+    },
+    {
+      "day": 4,
+      "art": "card",
+      "title": "Pastkarte latviski",
+      "text": "Uzraksti īsu personisku apsveikumu kādam, kuru šogad neesi saticis. Pietiek ar atmiņu, pateicību un vienu laba vēlējumu. Ja sūti pa pastu, adresi un pasta indeksu pārbaudi pirms aploksnes aizlīmēšanas.",
+      "time": "10 minūtes",
+      "href": "/dienas-planotajs/",
+      "link": "Ieplānot pastkartes nosūtīšanu"
+    },
+    {
+      "day": 5,
+      "art": "candle",
+      "title": "Bišu vaska gaisma",
+      "text": "Apskati Latvijā darinātu bišu vaska sveci vai izveido savu mierīgu vakara stūrīti ar LED sveci. Īstu liesmu turi uz nedegoša paliktņa, prom no rotājumiem un neatstāj bez uzraudzības. Mazā dāvana var būt arī kopīgi pavadīts laiks.",
+      "time": "Mierīgs vakars",
+      "href": "/svetki-un-tradicijas/pasaules-bisu-diena/",
+      "link": "Par bitēm un apputeksnētājiem"
+    },
+    {
+      "day": 6,
+      "art": "book",
+      "title": "Latviešu autora grāmata",
+      "text": "Izvēlies latviešu autora grāmatu savā plauktā vai bibliotēkā un atvēli vienai nodaļai mierīgu vakaru. Bērnam vari izlasīt priekšā īsu stāstu. Grāmatu nav obligāti jāpērk aizņemšanās arī ir laba decembra ideja.",
+      "time": "20 minūtes",
+      "href": "/svetki-un-tradicijas/pasaules-gramatu-diena/",
+      "link": "Grāmatu dienas ceļvedis"
+    },
+    {
+      "day": 7,
+      "art": "gloves",
+      "title": "Rakstaini cimdi",
+      "text": "Apskati adītu cimdu rakstu savā ģimenē vai vietējā amatnieka darbos. Ja plāno dāvanu, noskaidro saņēmēja izmēru un materiāla piemērotību. Rakstainie cimdi var rosināt arī sarunu par to, kurš ģimenē prot adīt.",
+      "time": "Dāvanas ideja",
+      "href": "/pasakumi/ziemassvetku-tirdzins-riga/",
+      "link": "Kur meklēt amatnieku darbus"
+    },
+    {
+      "day": 8,
+      "art": "tea",
+      "title": "Zāļu tējas pauze",
+      "text": "Pagatavo sev pazīstamu zāļu tēju un uzaicini kādu uz nesteidzīgu sarunu. Izvēlies droši marķētu tēju; nezināmus savvaļas augus dzērienam nelieto. Šodienas pārsteigums ir atvēlēts laiks, nevis vēl viens pirkums.",
+      "time": "15 minūtes",
+      "href": "/gimenes-kalendars/",
+      "link": "Saskaņot kopīgu laiku"
+    },
+    {
+      "day": 9,
+      "art": "bowl",
+      "title": "Keramikas krūze",
+      "text": "Apskati Latvijā darinātu keramikas krūzi vai bļodu. Ja izvēlies to lietošanai, jautā darinātājam par piemērotību pārtikai, mazgāšanai un karstiem dzērieniem. Dāvanai noder ne tikai izskats, bet arī tas, kā saņēmējs trauku lietos.",
+      "time": "Vietējā darinājuma ideja",
+      "href": "/pasakumi/ziemassvetku-tirdzins-riga/",
+      "link": "Amatnieki Rīgas tirdziņā"
+    },
+    {
+      "day": 10,
+      "art": "tree",
+      "title": "Pastaiga ziemas gaismā",
+      "text": "Izvēlies īsu pastaigu savā Latvijas pilsētā vai tuvējā parkā. Pārbaudi saulrieta laiku, laikapstākļus un celiņu stāvokli. Tumsā paņem atstarotāju. Sniegs nav garantēts, un uz ūdenstilpju ledus šīs idejas dēļ doties nevajag.",
+      "time": "20–40 minūtes",
+      "href": "/saullekts-saulriets/",
+      "link": "Pārbaudīt gaismas laiku"
+    },
+    {
+      "day": 11,
+      "art": "card",
+      "title": "Paldies kādam līdzās",
+      "text": "Uzraksti vienu konkrētu pateicību skolotājam, kolēģim, kaimiņam vai ģimenes loceklim. Pasaki, ko viņa rīcība tev nozīmēja. To vari nodot personiski; nav vajadzīgs publisks ieraksts vai dārga dāvana.",
+      "time": "5 minūtes",
+      "href": "/svetki-un-tradicijas/skolotaju-diena/",
+      "link": "Skolotāju dienas datums"
+    },
+    {
+      "day": 12,
+      "art": "bread",
+      "title": "Rupjmaizes garša",
+      "text": "Pie vakara maltītes izvēlies rupjmaizi no vietējās maiznīcas vai savas ierastās maizes krājumiem. Ja gatavo cienastu citiem, noskaidro uztura vajadzības un alergēnus. Vienkārša kopīga maltīte var būt šīs dienas dāvana.",
+      "time": "Maltītes ideja",
+      "href": "/svetki-un-tradicijas/ziemassvetki/",
+      "link": "Svētku plānošana"
+    },
+    {
+      "day": 13,
+      "art": "puzuris",
+      "title": "Iepazīsti puzuri",
+      "text": "Puzuri ir telpiski salmu vai niedru rotājumi, kas sastopami latviešu ziemas tradīciju aprakstos. Apskati to uzbūvi uzticamā muzeja vai izglītības avotā. Pirmajam mēģinājumam vari veidot vienkāršu papīra salmiņu modeli un droši nostiprināt auklu.",
+      "time": "Rokdarbu vakars",
+      "href": "/svetki-un-tradicijas/ziemas-saulgriezi/",
+      "link": "Ziemas saulgriežu ceļvedis"
+    },
+    {
+      "day": 14,
+      "art": "book",
+      "title": "Viena tautasdziesma",
+      "text": "Atrodi tautasdziesmu savā grāmatā vai Dainu skapja krājumā un izlasi to kopā ar tuvinieku. Parunājiet par vārdiem, ko ikdienā vairs nelietojat. Šajā kalendārā nav jāmācās no galvas vai jāizpilda pārbaudījums.",
+      "time": "10 minūtes",
+      "href": "https://dainuskapis.lv/",
+      "link": "Atvērt Dainu skapi"
+    },
+    {
+      "day": 15,
+      "art": "gift",
+      "title": "Dāvana bez iepirkuma",
+      "text": "Sagatavo paša rakstītu solījuma kartīti: kopīga pastaiga, palīdzība dārzā vai vakariņu pagatavošana. Izvēlies to, ko patiešām vari izdarīt, un vienojies par piemērotu dienu. Vērtīgākā daļa ir izpildāms nodoms.",
+      "time": "15 minūtes",
+      "href": "/gimenes-kalendars/",
+      "link": "Ieplānot solīto laiku"
+    },
+    {
+      "day": 16,
+      "art": "cookie",
+      "title": "Pīrāgu vakars",
+      "text": "Ja ģimenē cep pīrāgus, piedāvā palīdzēt ar sagatavošanu vai galda klāšanu. Ja necep, vari izvēlēties citu kopīgu maltīti. Latviska svētku noskaņa nav atkarīga no tā, vai katrā mājā ir viena un tā pati recepte.",
+      "time": "Kopīga darbošanās",
+      "href": "/svetki-un-tradicijas/ziemassvetki/",
+      "link": "Trīs Ziemassvētku dienas"
+    },
+    {
+      "day": 17,
+      "art": "star",
+      "title": "Gaismu pastaiga",
+      "text": "Izvēlies savā pilsētā publiski pieejamu, apgaismotu maršrutu. Pirms došanās pārbaudi vietējo pašvaldības programmu un atgriešanās transportu. Rīgas tirdziņa ceļvedis var būt sākumpunkts, bet citu pilsētu norises tajā nav apsolītas.",
+      "time": "Vakara izbrauciens",
+      "href": "/pasakumi/ziemassvetku-tirdzins-riga/",
+      "link": "Ieplānot Rīgas apmeklējumu"
+    },
+    {
+      "day": 18,
+      "art": "card",
+      "title": "Zvans tuviniekam",
+      "text": "Atvēli laiku zvanam kādam, kurš dzīvo citā Latvijas pilsētā vai tālāk prom. Pajautā par vienu viņa decembra notikumu un pastāsti par savējo. Sarunai nevajag īpašu scenāriju.",
+      "time": "10–20 minūtes",
+      "href": "/dienas-planotajs/",
+      "link": "Atvēlēt laiku sarunai"
+    },
+    {
+      "day": 19,
+      "art": "gift",
+      "title": "Dāvanu iesaiņojums",
+      "text": "Izmanto atkārtoti lietojamu maisiņu, saglabātu papīru vai auduma gabalu. Pievieno baltu kartīti ar tumši sarkanu auklu. Ja dāvana ir vietējā amatnieka darbs, saglabā kopšanas norādes un nodod tās saņēmējam.",
+      "time": "20 minūtes",
+      "href": "/pasakumi/melna-piektdiena/",
+      "link": "Pārdomāta pirkuma ceļvedis"
+    },
+    {
+      "day": 20,
+      "art": "tree",
+      "title": "Eglītes rotāšana",
+      "text": "Izvēlies jau mājās esošus rotājumus un pievieno vienu paša darinātu zvaigzni. Ja lieto lampiņas, pārbaudi vadu un ražotāja norādes. Eglītes zariem nepiestiprini atklātu liesmu.",
+      "time": "Kopīgs vakars",
+      "href": "/svetki-un-tradicijas/ziemassvetki/",
+      "link": "Svētku datumi"
+    },
+    {
+      "day": 21,
+      "art": "sun",
+      "title": "Gada īsāko dienu laiks",
+      "text": "Apskati ziemas saulgriežu precīzo brīdi izvēlētajam gadam. Tas var būt 21. vai 22. decembrī pēc Latvijas laika, tāpēc šī lodziņa numurs nav astronomiskā datuma apgalvojums. Pastaigai noderēs vietējais saulrieta laiks.",
+      "time": "Dabas vērojums",
+      "href": "/svetki-un-tradicijas/ziemas-saulgriezi/",
+      "link": "Precīzie saulgriežu laiki"
+    },
+    {
+      "day": 22,
+      "art": "puzuris",
+      "title": "Bluķa vakara stāsts",
+      "text": "Iepazīsti bluķa vilkšanas tradīciju muzeja vai kultūras centra aprakstā. Ja gribi piedalīties, izvēlies izziņotu pasākumu un ievēro rīkotāju norādes. Šī ideja neaicina mājās kurināt ugunskuru vai dedzināt rotājumus.",
+      "time": "Tradīcijas izziņa",
+      "href": "/pasakumi/bluka-vakars/",
+      "link": "Bluķa vakara ceļvedis"
+    },
+    {
+      "day": 23,
+      "art": "bowl",
+      "title": "Galda vieta ikvienam",
+      "text": "Pirms svētku maltītes saskaņo, cik cilvēku būs kopā un vai kādam vajadzīgs īpašs ēdiens. Iesaisti galda klāšanā tos, kuri vēlas palīdzēt. Vienkāršs, pārdomāts galds var būt patīkamāks par steidzīgu pārpilnību.",
+      "time": "20 minūtes",
+      "href": "/gimenes-kalendars/",
+      "link": "Saskaņot svētku plānu"
+    },
+    {
+      "day": 24,
+      "art": "gift",
+      "title": "Priecīgus Ziemassvētkus!",
+      "text": "Šodien atvēli brīdi tam, kas tev svarīgs: cilvēkam, mieram, pastaigai vai svētku maltītei. Nav jāizpilda visi 24 ieteikumi. Ja svin kopā ar citiem, novēli viņiem priecīgus Ziemassvētkus un izbaudi savu vakaru.",
+      "time": "Tavs svētku brīdis",
+      "href": "/svetki-un-tradicijas/ziemassvetki/",
+      "link": "24., 25. un 26. decembra datumi"
+    }
+  ]
+}

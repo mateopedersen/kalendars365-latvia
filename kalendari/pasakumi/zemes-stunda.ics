@@ -1,0 +1,17 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Kalendars365.lv//Events//LV
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:zemes-stunda-2027-03-20@kalendars365.lv
+DTSTAMP:20261115T180000Z
+DTSTART:20270320T183000Z
+DTEND:20270320T193000Z
+SUMMARY:Zemes stunda 2027 Latvijā
+LOCATION:Mājās\, kopienā vai vietējā rīkotāja pasākumā
+DESCRIPTION:20.30–21.30 pēc Latvijas laika. https://www.earthhour.org/
+URL:https://kalendars365.lv/pasakumi/zemes-stunda/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

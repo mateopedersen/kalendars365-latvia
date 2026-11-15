@@ -1,0 +1,18 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Kalendars365.lv//Events//LV
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:bluka-vakars-2026-12-19@kalendars365.lv
+DTSTAMP:20261115T180000Z
+DTSTART:20261219T090000Z
+DTEND:20261219T130000Z
+SUMMARY:Bluķa vakars Brīvdabas muzejā 2026
+LOCATION:Brīvdabas muzejs\, Brīvības gatve 440\, Rīga
+DESCRIPTION:11.00–15.00. https://www.liveriga.com/lv/apmekle/pasakumi/bri
+ vdabas-pasakumi/ziemas-saulgriezi-bluka-vakars
+URL:https://kalendars365.lv/pasakumi/bluka-vakars/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

@@ -63,7 +63,43 @@
     "/lietošanas-noteikumi/": "/par-projektu/",
     "/pilsetas-un-fotografijas/": "/par-projektu/",
     "/meklesana/": "/visi-riki/",
-    "/biezak-uzdotie-jautajumi/": "/"
+    "/biezak-uzdotie-jautajumi/": "/",
+    "/pasakumi/ziemassvetku-tirdzins-riga/": "/nozimigas-dienas/",
+    "/pasakumi/18-novembris-riga/": "/nozimigas-dienas/",
+    "/pasakumi/liepaja-2027-atklasana/": "/nozimigas-dienas/",
+    "/pasakumi/ledus-skulpturu-festivals-jelgava/": "/nozimigas-dienas/",
+    "/pasakumi/zemes-stunda/": "/nozimigas-dienas/",
+    "/pasakumi/enu-diena/": "/nozimigas-dienas/",
+    "/pasakumi/liela-talka/": "/nozimigas-dienas/",
+    "/pasakumi/rigas-maratons/": "/nozimigas-dienas/",
+    "/pasakumi/muzeju-nakts/": "/nozimigas-dienas/",
+    "/pasakumi/rigas-operas-festivals/": "/nozimigas-dienas/",
+    "/pasakumi/sarunu-festivals-lampa/": "/nozimigas-dienas/",
+    "/pasakumi/summer-sound/": "/nozimigas-dienas/",
+    "/pasakumi/rigas-dzimsanas-diena/": "/nozimigas-dienas/",
+    "/pasakumi/senas-uguns-nakts/": "/nozimigas-dienas/",
+    "/pasakumi/balta-nakts/": "/nozimigas-dienas/",
+    "/pasakumi/zinatnieku-nakts/": "/nozimigas-dienas/",
+    "/pasakumi/legendu-nakts/": "/nozimigas-dienas/",
+    "/pasakumi/bluka-vakars/": "/nozimigas-dienas/",
+    "/pasakumi/melna-piektdiena/": "/nozimigas-dienas/",
+    "/pasakumi/kiberpirmdiena/": "/nozimigas-dienas/",
+    "/pabalstu-izmaksas/gimenes-valsts-pabalsts/": "/pabalstu-izmaksas/",
+    "/pabalstu-izmaksas/berna-kopsanas-pabalsts/": "/pabalstu-izmaksas/",
+    "/pabalstu-izmaksas/berna-piedzimsanas-pabalsts/": "/pabalstu-izmaksas/",
+    "/pabalstu-izmaksas/vecaku-pabalsts/": "/pabalstu-izmaksas/",
+    "/pabalstu-izmaksas/bezdarbnieka-pabalsts/": "/pabalstu-izmaksas/",
+    "/pabalstu-izmaksas/slimibas-pabalsts/": "/pabalstu-izmaksas/",
+    "/pabalstu-izmaksas/majokla-pabalsts/": "/pabalstu-izmaksas/",
+    "/pabalstu-izmaksas/gmi-pabalsts/": "/pabalstu-izmaksas/",
+    "/nodoklu-kalkulators/": "/visi-riki/",
+    "/copes-kalendars/": "/visi-riki/",
+    "/adventes-kalendars/": "/visi-riki/",
+    "/adventes-kalendars/2026/": "/adventes-kalendars/",
+    "/adventes-kalendars/2027/": "/adventes-kalendars/",
+    "/adventes-kalendars/2028/": "/adventes-kalendars/",
+    "/adventes-kalendars/2029/": "/adventes-kalendars/",
+    "/adventes-kalendars/2030/": "/adventes-kalendars/"
   },
   "pages": {
     "/": {
@@ -11039,6 +11075,11 @@
         {
           "url": "/jaunmeness/",
           "title": "Jaunmēness datumi",
+          "kind": "related"
+        },
+        {
+          "url": "/copes-kalendars/",
+          "title": "Copes kalendārs",
           "kind": "related"
         }
       ],
@@ -32055,18 +32096,33 @@
       "heading": "Saistītie kalendāri un skaidrojumi",
       "related": [
         {
-          "url": "/svetki-un-tradicijas/",
-          "title": "Svētki un tradīcijas",
+          "url": "/pasakumi/kiberpirmdiena/",
+          "title": "Kiberpirmdiena 2026 Latvijā",
           "kind": "related"
         },
         {
-          "url": "/atceres-dienas/",
-          "title": "Atceres un atzīmējamās dienas",
+          "url": "/pasakumi/melna-piektdiena/",
+          "title": "Melnā piektdiena 2026 Latvijā",
           "kind": "related"
         },
         {
-          "url": "/varda-dienas/",
-          "title": "Vārda dienas",
+          "url": "/pasakumi/ziemassvetku-tirdzins-riga/",
+          "title": "Rīgas Ziemassvētku tirdziņš 2026–2027",
+          "kind": "related"
+        },
+        {
+          "url": "/pasakumi/18-novembris-riga/",
+          "title": "18. novembra pasākumi Rīgā 2026",
+          "kind": "related"
+        },
+        {
+          "url": "/pasakumi/liepaja-2027-atklasana/",
+          "title": "Liepāja 2027 atklāšanas nedēļas nogale",
+          "kind": "related"
+        },
+        {
+          "url": "/pasakumi/ledus-skulpturu-festivals-jelgava/",
+          "title": "Ledus skulptūru festivāls Jelgavā 2027",
           "kind": "related"
         }
       ],
@@ -32089,24 +32145,39 @@
         },
         {
           "url": "/pabalstu-izmaksas/",
-          "title": "Pabalstu izmaksu datumi"
+          "title": "Pabalsti un sociālais atbalsts"
         }
       ],
       "heading": "Saistītie kalendāri un skaidrojumi",
       "related": [
         {
+          "url": "/pabalstu-izmaksas/gimenes-valsts-pabalsts/",
+          "title": "Ģimenes valsts pabalsts",
+          "kind": "related"
+        },
+        {
+          "url": "/pabalstu-izmaksas/berna-kopsanas-pabalsts/",
+          "title": "Bērna kopšanas pabalsts",
+          "kind": "related"
+        },
+        {
+          "url": "/pabalstu-izmaksas/berna-piedzimsanas-pabalsts/",
+          "title": "Bērna piedzimšanas pabalsts",
+          "kind": "related"
+        },
+        {
+          "url": "/pabalstu-izmaksas/vecaku-pabalsts/",
+          "title": "Vecāku pabalsts",
+          "kind": "related"
+        },
+        {
+          "url": "/pabalstu-izmaksas/bezdarbnieka-pabalsts/",
+          "title": "Bezdarbnieka pabalsts",
+          "kind": "related"
+        },
+        {
           "url": "/pensiju-izmaksas/",
-          "title": "Pensiju izmaksu datumi",
-          "kind": "related"
-        },
-        {
-          "url": "/dienas-planotajs/",
-          "title": "Dienas plānotājs",
-          "kind": "related"
-        },
-        {
-          "url": "/kalendars/",
-          "title": "Gada kalendāri",
+          "title": "Pensija: vecums un izmaksas",
           "kind": "related"
         }
       ],
@@ -35518,24 +35589,29 @@
         },
         {
           "url": "/pensiju-izmaksas/",
-          "title": "Pensiju izmaksu datumi"
+          "title": "Pensija: vecums un izmaksas"
         }
       ],
       "heading": "Saistītie kalendāri un skaidrojumi",
       "related": [
         {
+          "url": "/nodoklu-kalkulators/",
+          "title": "Nodokļu un algas kalkulators",
+          "kind": "related"
+        },
+        {
           "url": "/pabalstu-izmaksas/",
-          "title": "Pabalstu izmaksu datumi",
+          "title": "Pabalsti un sociālais atbalsts",
           "kind": "related"
         },
         {
-          "url": "/dienas-planotajs/",
-          "title": "Dienas plānotājs",
+          "url": "/pabalstu-izmaksas/majokla-pabalsts/",
+          "title": "Mājokļa pabalsts",
           "kind": "related"
         },
         {
-          "url": "/kalendars/",
-          "title": "Gada kalendāri",
+          "url": "/pabalstu-izmaksas/gmi-pabalsts/",
+          "title": "GMI pabalsts",
           "kind": "related"
         }
       ],
@@ -35877,6 +35953,11 @@
         {
           "url": "/astronomiskais-kalendars/",
           "title": "Astronomiskais kalendārs",
+          "kind": "related"
+        },
+        {
+          "url": "/copes-kalendars/",
+          "title": "Copes kalendārs",
           "kind": "related"
         }
       ],
@@ -41145,6 +41226,11 @@
           "url": "/valsts-parbaudes-darbi/",
           "title": "Valsts pārbaudes darbi",
           "kind": "related"
+        },
+        {
+          "url": "/pasakumi/enu-diena/",
+          "title": "Ēnu diena 2027",
+          "kind": "related"
         }
       ],
       "pagination": [],
@@ -41671,6 +41757,11 @@
       "heading": "Saistītie kalendāri un skaidrojumi",
       "related": [
         {
+          "url": "/nozimigas-dienas/",
+          "title": "Nozīmīgas dienas",
+          "kind": "related"
+        },
+        {
           "url": "/svetku-dienas/",
           "title": "Latvijas svētku dienas",
           "kind": "related"
@@ -41678,11 +41769,6 @@
         {
           "url": "/atceres-dienas/",
           "title": "Atceres un atzīmējamās dienas",
-          "kind": "related"
-        },
-        {
-          "url": "/nozimigas-dienas/",
-          "title": "Nozīmīgas dienas",
           "kind": "related"
         },
         {
@@ -41716,23 +41802,28 @@
       "heading": "Datumi un saistītie plāni",
       "related": [
         {
-          "url": "/menesa-kalendars/",
-          "title": "Mēneša kalendāri",
+          "url": "/pasakumi/kiberpirmdiena/",
+          "title": "Kiberpirmdiena 2026 Latvijā",
           "kind": "related"
         },
         {
-          "url": "/datumu-kalkulators/",
-          "title": "Datumu kalkulators",
+          "url": "/pasakumi/melna-piektdiena/",
+          "title": "Melnā piektdiena 2026 Latvijā",
           "kind": "related"
         },
         {
-          "url": "/svetki-un-tradicijas/",
-          "title": "Svētki un tradīcijas",
+          "url": "/pasakumi/ziemassvetku-tirdzins-riga/",
+          "title": "Rīgas Ziemassvētku tirdziņš 2026–2027",
           "kind": "related"
         },
         {
-          "url": "/svetku-dienas/",
-          "title": "Latvijas svētku dienas",
+          "url": "/pasakumi/bluka-vakars/",
+          "title": "Bluķa vakars Brīvdabas muzejā 2026",
+          "kind": "related"
+        },
+        {
+          "url": "/adventes-kalendars/",
+          "title": "Adventes kalendārs Latvijai ar 24 decembra pārsteigumiem",
           "kind": "related"
         }
       ],
@@ -42377,23 +42468,8 @@
       "heading": "Datumi un saistītie plāni",
       "related": [
         {
-          "url": "/saullekts-saulriets/",
-          "title": "Saullēkts un saulriets",
-          "kind": "related"
-        },
-        {
-          "url": "/menesa-kalendars/",
-          "title": "Mēneša kalendāri",
-          "kind": "related"
-        },
-        {
-          "url": "/svetki-un-tradicijas/",
-          "title": "Svētki un tradīcijas",
-          "kind": "related"
-        },
-        {
-          "url": "/svetku-dienas/",
-          "title": "Latvijas svētku dienas",
+          "url": "/pasakumi/senas-uguns-nakts/",
+          "title": "Senās uguns nakts Latvijas piekrastē",
           "kind": "related"
         }
       ],
@@ -42722,23 +42798,8 @@
       "heading": "Datumi un saistītie plāni",
       "related": [
         {
-          "url": "/darba-dienu-kalendars/",
-          "title": "Darba dienu kalendārs",
-          "kind": "related"
-        },
-        {
-          "url": "/dienas-kalendars/",
-          "title": "Dienas kalendārs",
-          "kind": "related"
-        },
-        {
-          "url": "/svetki-un-tradicijas/",
-          "title": "Svētki un tradīcijas",
-          "kind": "related"
-        },
-        {
-          "url": "/svetku-dienas/",
-          "title": "Latvijas svētku dienas",
+          "url": "/pasakumi/18-novembris-riga/",
+          "title": "18. novembra pasākumi Rīgā 2026",
           "kind": "related"
         }
       ],
@@ -43880,23 +43941,8 @@
       "heading": "Datumi un saistītie plāni",
       "related": [
         {
-          "url": "/gadalaiki/",
-          "title": "Gadalaiku sākums",
-          "kind": "related"
-        },
-        {
-          "url": "/saullekts-saulriets/",
-          "title": "Saullēkts un saulriets",
-          "kind": "related"
-        },
-        {
-          "url": "/svetki-un-tradicijas/",
-          "title": "Svētki un tradīcijas",
-          "kind": "related"
-        },
-        {
-          "url": "/svetku-dienas/",
-          "title": "Latvijas svētku dienas",
+          "url": "/pasakumi/zemes-stunda/",
+          "title": "Zemes stunda 2027 Latvijā",
           "kind": "related"
         }
       ],
@@ -44660,23 +44706,13 @@
       "heading": "Datumi un saistītie plāni",
       "related": [
         {
-          "url": "/dienas-kalendars/",
-          "title": "Dienas kalendārs",
+          "url": "/pasakumi/zemes-stunda/",
+          "title": "Zemes stunda 2027 Latvijā",
           "kind": "related"
         },
         {
-          "url": "/saullekts-saulriets/",
-          "title": "Saullēkts un saulriets",
-          "kind": "related"
-        },
-        {
-          "url": "/svetki-un-tradicijas/",
-          "title": "Svētki un tradīcijas",
-          "kind": "related"
-        },
-        {
-          "url": "/svetku-dienas/",
-          "title": "Latvijas svētku dienas",
+          "url": "/pasakumi/liela-talka/",
+          "title": "Lielā talka 2027",
           "kind": "related"
         }
       ],
@@ -44705,23 +44741,8 @@
       "heading": "Datumi un saistītie plāni",
       "related": [
         {
-          "url": "/saullekts-saulriets/",
-          "title": "Saullēkts un saulriets",
-          "kind": "related"
-        },
-        {
-          "url": "/gadalaiki/",
-          "title": "Gadalaiku sākums",
-          "kind": "related"
-        },
-        {
-          "url": "/svetki-un-tradicijas/",
-          "title": "Svētki un tradīcijas",
-          "kind": "related"
-        },
-        {
-          "url": "/svetku-dienas/",
-          "title": "Latvijas svētku dienas",
+          "url": "/pasakumi/bluka-vakars/",
+          "title": "Bluķa vakars Brīvdabas muzejā 2026",
           "kind": "related"
         }
       ],
@@ -44750,23 +44771,8 @@
       "heading": "Datumi un saistītie plāni",
       "related": [
         {
-          "url": "/gimenes-kalendars/",
-          "title": "Ģimenes kalendārs",
-          "kind": "related"
-        },
-        {
-          "url": "/darba-dienu-kalendars/",
-          "title": "Darba dienu kalendārs",
-          "kind": "related"
-        },
-        {
-          "url": "/svetki-un-tradicijas/",
-          "title": "Svētki un tradīcijas",
-          "kind": "related"
-        },
-        {
-          "url": "/svetku-dienas/",
-          "title": "Latvijas svētku dienas",
+          "url": "/adventes-kalendars/",
+          "title": "Adventes kalendārs Latvijai ar 24 decembra pārsteigumiem",
           "kind": "related"
         }
       ],
@@ -49089,12 +49095,12 @@
           },
           {
             "url": "/pabalstu-izmaksas/",
-            "title": "Pabalstu izmaksu datumi",
+            "title": "Pabalsti un sociālais atbalsts",
             "kind": "topic"
           },
           {
             "url": "/pensiju-izmaksas/",
-            "title": "Pensiju izmaksu datumi",
+            "title": "Pensija: vecums un izmaksas",
             "kind": "topic"
           }
         ]
@@ -49156,23 +49162,33 @@
       "heading": "Datumi un saistītie plāni",
       "related": [
         {
-          "url": "/",
-          "title": "Sākums",
+          "url": "/pasakumi/ziemassvetku-tirdzins-riga/",
+          "title": "Rīgas Ziemassvētku tirdziņš 2026–2027",
           "kind": "related"
         },
         {
-          "url": "/saullekts-saulriets/riga/",
-          "title": "Saullēkts un saulriets Rīgā",
+          "url": "/pasakumi/18-novembris-riga/",
+          "title": "18. novembra pasākumi Rīgā 2026",
           "kind": "related"
         },
         {
-          "url": "/svetki-un-tradicijas/",
-          "title": "Svētki un tradīcijas",
+          "url": "/pasakumi/ledus-skulpturu-festivals-jelgava/",
+          "title": "Ledus skulptūru festivāls Jelgavā 2027",
           "kind": "related"
         },
         {
-          "url": "/svetku-dienas/",
-          "title": "Latvijas svētku dienas",
+          "url": "/pasakumi/rigas-dzimsanas-diena/",
+          "title": "Rīgas dzimšanas diena 2027",
+          "kind": "related"
+        },
+        {
+          "url": "/pasakumi/balta-nakts/",
+          "title": "Baltā nakts Rīgā 2027",
+          "kind": "related"
+        },
+        {
+          "url": "/pasakumi/legendu-nakts/",
+          "title": "Leģendu nakts Latvijas pilīs un muižās",
           "kind": "related"
         }
       ],
@@ -49181,6 +49197,1768 @@
       "discover": null,
       "blogRelated": [],
       "context": null
+    },
+    "/pasakumi/ziemassvetku-tirdzins-riga/": {
+      "parent": "/nozimigas-dienas/",
+      "breadcrumbs": [
+        {
+          "url": "/",
+          "title": "Sākums"
+        },
+        {
+          "url": "/svetki-un-tradicijas/",
+          "title": "Svētki un tradīcijas"
+        },
+        {
+          "url": "/nozimigas-dienas/",
+          "title": "Nozīmīgas dienas"
+        },
+        {
+          "url": "/pasakumi/ziemassvetku-tirdzins-riga/",
+          "title": "Rīgas Ziemassvētku tirdziņš 2026–2027"
+        }
+      ],
+      "heading": "Saistītie kalendāri un skaidrojumi",
+      "related": [
+        {
+          "url": "/svetki-un-tradicijas/staro-riga/",
+          "title": "Staro Rīga 2026 programma un gaismas karte",
+          "kind": "related"
+        },
+        {
+          "url": "/svetki-un-tradicijas/advente/",
+          "title": "Adventes svētdienas pirms Ziemassvētkiem",
+          "kind": "related"
+        },
+        {
+          "url": "/pasakumi/bluka-vakars/",
+          "title": "Bluķa vakars Brīvdabas muzejā 2026",
+          "kind": "related"
+        },
+        {
+          "url": "/nozimigas-dienas/",
+          "title": "Nozīmīgas dienas",
+          "kind": "related"
+        },
+        {
+          "url": "/adventes-kalendars/",
+          "title": "Adventes kalendārs Latvijai ar 24 decembra pārsteigumiem",
+          "kind": "related"
+        }
+      ],
+      "pagination": [],
+      "reading": [],
+      "discover": null,
+      "blogRelated": [],
+      "context": null
+    },
+    "/pasakumi/18-novembris-riga/": {
+      "parent": "/nozimigas-dienas/",
+      "breadcrumbs": [
+        {
+          "url": "/",
+          "title": "Sākums"
+        },
+        {
+          "url": "/svetki-un-tradicijas/",
+          "title": "Svētki un tradīcijas"
+        },
+        {
+          "url": "/nozimigas-dienas/",
+          "title": "Nozīmīgas dienas"
+        },
+        {
+          "url": "/pasakumi/18-novembris-riga/",
+          "title": "18. novembra pasākumi Rīgā 2026"
+        }
+      ],
+      "heading": "Saistītie kalendāri un skaidrojumi",
+      "related": [
+        {
+          "url": "/svetki-un-tradicijas/latvijas-republikas-proklamesanas-diena/",
+          "title": "Latvijas Republikas Proklamēšanas diena",
+          "kind": "related"
+        },
+        {
+          "url": "/svetki-un-tradicijas/staro-riga/",
+          "title": "Staro Rīga 2026 programma un gaismas karte",
+          "kind": "related"
+        },
+        {
+          "url": "/pasakumi/ziemassvetku-tirdzins-riga/",
+          "title": "Rīgas Ziemassvētku tirdziņš 2026–2027",
+          "kind": "related"
+        },
+        {
+          "url": "/nozimigas-dienas/",
+          "title": "Nozīmīgas dienas",
+          "kind": "related"
+        }
+      ],
+      "pagination": [],
+      "reading": [],
+      "discover": null,
+      "blogRelated": [],
+      "context": null
+    },
+    "/pasakumi/liepaja-2027-atklasana/": {
+      "parent": "/nozimigas-dienas/",
+      "breadcrumbs": [
+        {
+          "url": "/",
+          "title": "Sākums"
+        },
+        {
+          "url": "/svetki-un-tradicijas/",
+          "title": "Svētki un tradīcijas"
+        },
+        {
+          "url": "/nozimigas-dienas/",
+          "title": "Nozīmīgas dienas"
+        },
+        {
+          "url": "/pasakumi/liepaja-2027-atklasana/",
+          "title": "Liepāja 2027 atklāšanas nedēļas nogale"
+        }
+      ],
+      "heading": "Saistītie kalendāri un skaidrojumi",
+      "related": [
+        {
+          "url": "/pasakumi/summer-sound/",
+          "title": "Summer Sound 2027 Liepājā",
+          "kind": "related"
+        },
+        {
+          "url": "/pasakumi/rigas-dzimsanas-diena/",
+          "title": "Rīgas dzimšanas diena 2027",
+          "kind": "related"
+        },
+        {
+          "url": "/pasakumi/balta-nakts/",
+          "title": "Baltā nakts Rīgā 2027",
+          "kind": "related"
+        },
+        {
+          "url": "/nozimigas-dienas/",
+          "title": "Nozīmīgas dienas",
+          "kind": "related"
+        }
+      ],
+      "pagination": [],
+      "reading": [],
+      "discover": null,
+      "blogRelated": [],
+      "context": null
+    },
+    "/pasakumi/ledus-skulpturu-festivals-jelgava/": {
+      "parent": "/nozimigas-dienas/",
+      "breadcrumbs": [
+        {
+          "url": "/",
+          "title": "Sākums"
+        },
+        {
+          "url": "/svetki-un-tradicijas/",
+          "title": "Svētki un tradīcijas"
+        },
+        {
+          "url": "/nozimigas-dienas/",
+          "title": "Nozīmīgas dienas"
+        },
+        {
+          "url": "/pasakumi/ledus-skulpturu-festivals-jelgava/",
+          "title": "Ledus skulptūru festivāls Jelgavā 2027"
+        }
+      ],
+      "heading": "Saistītie kalendāri un skaidrojumi",
+      "related": [
+        {
+          "url": "/pasakumi/balta-nakts/",
+          "title": "Baltā nakts Rīgā 2027",
+          "kind": "related"
+        },
+        {
+          "url": "/svetki-un-tradicijas/staro-riga/",
+          "title": "Staro Rīga 2026 programma un gaismas karte",
+          "kind": "related"
+        },
+        {
+          "url": "/pasakumi/rigas-dzimsanas-diena/",
+          "title": "Rīgas dzimšanas diena 2027",
+          "kind": "related"
+        },
+        {
+          "url": "/nozimigas-dienas/",
+          "title": "Nozīmīgas dienas",
+          "kind": "related"
+        }
+      ],
+      "pagination": [],
+      "reading": [],
+      "discover": null,
+      "blogRelated": [],
+      "context": null
+    },
+    "/pasakumi/zemes-stunda/": {
+      "parent": "/nozimigas-dienas/",
+      "breadcrumbs": [
+        {
+          "url": "/",
+          "title": "Sākums"
+        },
+        {
+          "url": "/svetki-un-tradicijas/",
+          "title": "Svētki un tradīcijas"
+        },
+        {
+          "url": "/nozimigas-dienas/",
+          "title": "Nozīmīgas dienas"
+        },
+        {
+          "url": "/pasakumi/zemes-stunda/",
+          "title": "Zemes stunda 2027 Latvijā"
+        }
+      ],
+      "heading": "Saistītie kalendāri un skaidrojumi",
+      "related": [
+        {
+          "url": "/svetki-un-tradicijas/zemes-diena/",
+          "title": "Zemes diena Latvijā",
+          "kind": "related"
+        },
+        {
+          "url": "/pasakumi/liela-talka/",
+          "title": "Lielā talka 2027",
+          "kind": "related"
+        },
+        {
+          "url": "/svetki-un-tradicijas/saulgriezi/",
+          "title": "Saulgrieži",
+          "kind": "related"
+        },
+        {
+          "url": "/nozimigas-dienas/",
+          "title": "Nozīmīgas dienas",
+          "kind": "related"
+        }
+      ],
+      "pagination": [],
+      "reading": [],
+      "discover": null,
+      "blogRelated": [],
+      "context": null
+    },
+    "/pasakumi/enu-diena/": {
+      "parent": "/nozimigas-dienas/",
+      "breadcrumbs": [
+        {
+          "url": "/",
+          "title": "Sākums"
+        },
+        {
+          "url": "/svetki-un-tradicijas/",
+          "title": "Svētki un tradīcijas"
+        },
+        {
+          "url": "/nozimigas-dienas/",
+          "title": "Nozīmīgas dienas"
+        },
+        {
+          "url": "/pasakumi/enu-diena/",
+          "title": "Ēnu diena 2027"
+        }
+      ],
+      "heading": "Saistītie kalendāri un skaidrojumi",
+      "related": [
+        {
+          "url": "/pasakumi/liela-talka/",
+          "title": "Lielā talka 2027",
+          "kind": "related"
+        },
+        {
+          "url": "/pasakumi/zinatnieku-nakts/",
+          "title": "Zinātnieku nakts Latvijā",
+          "kind": "related"
+        },
+        {
+          "url": "/skolas-brivlaiki/",
+          "title": "Skolas brīvlaiki",
+          "kind": "related"
+        },
+        {
+          "url": "/nozimigas-dienas/",
+          "title": "Nozīmīgas dienas",
+          "kind": "related"
+        }
+      ],
+      "pagination": [],
+      "reading": [],
+      "discover": null,
+      "blogRelated": [],
+      "context": null
+    },
+    "/pasakumi/liela-talka/": {
+      "parent": "/nozimigas-dienas/",
+      "breadcrumbs": [
+        {
+          "url": "/",
+          "title": "Sākums"
+        },
+        {
+          "url": "/svetki-un-tradicijas/",
+          "title": "Svētki un tradīcijas"
+        },
+        {
+          "url": "/nozimigas-dienas/",
+          "title": "Nozīmīgas dienas"
+        },
+        {
+          "url": "/pasakumi/liela-talka/",
+          "title": "Lielā talka 2027"
+        }
+      ],
+      "heading": "Saistītie kalendāri un skaidrojumi",
+      "related": [
+        {
+          "url": "/pasakumi/zemes-stunda/",
+          "title": "Zemes stunda 2027 Latvijā",
+          "kind": "related"
+        },
+        {
+          "url": "/svetki-un-tradicijas/zemes-diena/",
+          "title": "Zemes diena Latvijā",
+          "kind": "related"
+        },
+        {
+          "url": "/pasakumi/zinatnieku-nakts/",
+          "title": "Zinātnieku nakts Latvijā",
+          "kind": "related"
+        },
+        {
+          "url": "/nozimigas-dienas/",
+          "title": "Nozīmīgas dienas",
+          "kind": "related"
+        }
+      ],
+      "pagination": [],
+      "reading": [],
+      "discover": null,
+      "blogRelated": [],
+      "context": null
+    },
+    "/pasakumi/rigas-maratons/": {
+      "parent": "/nozimigas-dienas/",
+      "breadcrumbs": [
+        {
+          "url": "/",
+          "title": "Sākums"
+        },
+        {
+          "url": "/svetki-un-tradicijas/",
+          "title": "Svētki un tradīcijas"
+        },
+        {
+          "url": "/nozimigas-dienas/",
+          "title": "Nozīmīgas dienas"
+        },
+        {
+          "url": "/pasakumi/rigas-maratons/",
+          "title": "Rimi Rīgas maratons 2027"
+        }
+      ],
+      "heading": "Saistītie kalendāri un skaidrojumi",
+      "related": [
+        {
+          "url": "/pasakumi/rigas-dzimsanas-diena/",
+          "title": "Rīgas dzimšanas diena 2027",
+          "kind": "related"
+        },
+        {
+          "url": "/pasakumi/muzeju-nakts/",
+          "title": "Muzeju nakts Latvijā",
+          "kind": "related"
+        },
+        {
+          "url": "/pasakumi/liela-talka/",
+          "title": "Lielā talka 2027",
+          "kind": "related"
+        },
+        {
+          "url": "/nozimigas-dienas/",
+          "title": "Nozīmīgas dienas",
+          "kind": "related"
+        }
+      ],
+      "pagination": [],
+      "reading": [],
+      "discover": null,
+      "blogRelated": [],
+      "context": null
+    },
+    "/pasakumi/muzeju-nakts/": {
+      "parent": "/nozimigas-dienas/",
+      "breadcrumbs": [
+        {
+          "url": "/",
+          "title": "Sākums"
+        },
+        {
+          "url": "/svetki-un-tradicijas/",
+          "title": "Svētki un tradīcijas"
+        },
+        {
+          "url": "/nozimigas-dienas/",
+          "title": "Nozīmīgas dienas"
+        },
+        {
+          "url": "/pasakumi/muzeju-nakts/",
+          "title": "Muzeju nakts Latvijā"
+        }
+      ],
+      "heading": "Saistītie kalendāri un skaidrojumi",
+      "related": [
+        {
+          "url": "/pasakumi/balta-nakts/",
+          "title": "Baltā nakts Rīgā 2027",
+          "kind": "related"
+        },
+        {
+          "url": "/pasakumi/legendu-nakts/",
+          "title": "Leģendu nakts Latvijas pilīs un muižās",
+          "kind": "related"
+        },
+        {
+          "url": "/pasakumi/zinatnieku-nakts/",
+          "title": "Zinātnieku nakts Latvijā",
+          "kind": "related"
+        },
+        {
+          "url": "/nozimigas-dienas/",
+          "title": "Nozīmīgas dienas",
+          "kind": "related"
+        }
+      ],
+      "pagination": [],
+      "reading": [],
+      "discover": null,
+      "blogRelated": [],
+      "context": null
+    },
+    "/pasakumi/rigas-operas-festivals/": {
+      "parent": "/nozimigas-dienas/",
+      "breadcrumbs": [
+        {
+          "url": "/",
+          "title": "Sākums"
+        },
+        {
+          "url": "/svetki-un-tradicijas/",
+          "title": "Svētki un tradīcijas"
+        },
+        {
+          "url": "/nozimigas-dienas/",
+          "title": "Nozīmīgas dienas"
+        },
+        {
+          "url": "/pasakumi/rigas-operas-festivals/",
+          "title": "Rīgas operas festivāls 2027"
+        }
+      ],
+      "heading": "Saistītie kalendāri un skaidrojumi",
+      "related": [
+        {
+          "url": "/pasakumi/rigas-dzimsanas-diena/",
+          "title": "Rīgas dzimšanas diena 2027",
+          "kind": "related"
+        },
+        {
+          "url": "/pasakumi/balta-nakts/",
+          "title": "Baltā nakts Rīgā 2027",
+          "kind": "related"
+        },
+        {
+          "url": "/pasakumi/muzeju-nakts/",
+          "title": "Muzeju nakts Latvijā",
+          "kind": "related"
+        },
+        {
+          "url": "/nozimigas-dienas/",
+          "title": "Nozīmīgas dienas",
+          "kind": "related"
+        }
+      ],
+      "pagination": [],
+      "reading": [],
+      "discover": null,
+      "blogRelated": [],
+      "context": null
+    },
+    "/pasakumi/sarunu-festivals-lampa/": {
+      "parent": "/nozimigas-dienas/",
+      "breadcrumbs": [
+        {
+          "url": "/",
+          "title": "Sākums"
+        },
+        {
+          "url": "/svetki-un-tradicijas/",
+          "title": "Svētki un tradīcijas"
+        },
+        {
+          "url": "/nozimigas-dienas/",
+          "title": "Nozīmīgas dienas"
+        },
+        {
+          "url": "/pasakumi/sarunu-festivals-lampa/",
+          "title": "Sarunu festivāls LAMPA 2027"
+        }
+      ],
+      "heading": "Saistītie kalendāri un skaidrojumi",
+      "related": [
+        {
+          "url": "/pasakumi/summer-sound/",
+          "title": "Summer Sound 2027 Liepājā",
+          "kind": "related"
+        },
+        {
+          "url": "/pasakumi/rigas-dzimsanas-diena/",
+          "title": "Rīgas dzimšanas diena 2027",
+          "kind": "related"
+        },
+        {
+          "url": "/pasakumi/zinatnieku-nakts/",
+          "title": "Zinātnieku nakts Latvijā",
+          "kind": "related"
+        },
+        {
+          "url": "/nozimigas-dienas/",
+          "title": "Nozīmīgas dienas",
+          "kind": "related"
+        }
+      ],
+      "pagination": [],
+      "reading": [],
+      "discover": null,
+      "blogRelated": [],
+      "context": null
+    },
+    "/pasakumi/summer-sound/": {
+      "parent": "/nozimigas-dienas/",
+      "breadcrumbs": [
+        {
+          "url": "/",
+          "title": "Sākums"
+        },
+        {
+          "url": "/svetki-un-tradicijas/",
+          "title": "Svētki un tradīcijas"
+        },
+        {
+          "url": "/nozimigas-dienas/",
+          "title": "Nozīmīgas dienas"
+        },
+        {
+          "url": "/pasakumi/summer-sound/",
+          "title": "Summer Sound 2027 Liepājā"
+        }
+      ],
+      "heading": "Saistītie kalendāri un skaidrojumi",
+      "related": [
+        {
+          "url": "/pasakumi/liepaja-2027-atklasana/",
+          "title": "Liepāja 2027 atklāšanas nedēļas nogale",
+          "kind": "related"
+        },
+        {
+          "url": "/pasakumi/sarunu-festivals-lampa/",
+          "title": "Sarunu festivāls LAMPA 2027",
+          "kind": "related"
+        },
+        {
+          "url": "/pasakumi/rigas-dzimsanas-diena/",
+          "title": "Rīgas dzimšanas diena 2027",
+          "kind": "related"
+        },
+        {
+          "url": "/nozimigas-dienas/",
+          "title": "Nozīmīgas dienas",
+          "kind": "related"
+        }
+      ],
+      "pagination": [],
+      "reading": [],
+      "discover": null,
+      "blogRelated": [],
+      "context": null
+    },
+    "/pasakumi/rigas-dzimsanas-diena/": {
+      "parent": "/nozimigas-dienas/",
+      "breadcrumbs": [
+        {
+          "url": "/",
+          "title": "Sākums"
+        },
+        {
+          "url": "/svetki-un-tradicijas/",
+          "title": "Svētki un tradīcijas"
+        },
+        {
+          "url": "/nozimigas-dienas/",
+          "title": "Nozīmīgas dienas"
+        },
+        {
+          "url": "/pasakumi/rigas-dzimsanas-diena/",
+          "title": "Rīgas dzimšanas diena 2027"
+        }
+      ],
+      "heading": "Saistītie kalendāri un skaidrojumi",
+      "related": [
+        {
+          "url": "/pasakumi/balta-nakts/",
+          "title": "Baltā nakts Rīgā 2027",
+          "kind": "related"
+        },
+        {
+          "url": "/pasakumi/rigas-operas-festivals/",
+          "title": "Rīgas operas festivāls 2027",
+          "kind": "related"
+        },
+        {
+          "url": "/svetki-un-tradicijas/staro-riga/",
+          "title": "Staro Rīga 2026 programma un gaismas karte",
+          "kind": "related"
+        },
+        {
+          "url": "/nozimigas-dienas/",
+          "title": "Nozīmīgas dienas",
+          "kind": "related"
+        }
+      ],
+      "pagination": [],
+      "reading": [],
+      "discover": null,
+      "blogRelated": [],
+      "context": null
+    },
+    "/pasakumi/senas-uguns-nakts/": {
+      "parent": "/nozimigas-dienas/",
+      "breadcrumbs": [
+        {
+          "url": "/",
+          "title": "Sākums"
+        },
+        {
+          "url": "/svetki-un-tradicijas/",
+          "title": "Svētki un tradīcijas"
+        },
+        {
+          "url": "/nozimigas-dienas/",
+          "title": "Nozīmīgas dienas"
+        },
+        {
+          "url": "/pasakumi/senas-uguns-nakts/",
+          "title": "Senās uguns nakts Latvijas piekrastē"
+        }
+      ],
+      "heading": "Saistītie kalendāri un skaidrojumi",
+      "related": [
+        {
+          "url": "/svetki-un-tradicijas/juras-svetku-diena/",
+          "title": "Jūras svētku diena Latvijā",
+          "kind": "related"
+        },
+        {
+          "url": "/pasakumi/summer-sound/",
+          "title": "Summer Sound 2027 Liepājā",
+          "kind": "related"
+        },
+        {
+          "url": "/pasakumi/balta-nakts/",
+          "title": "Baltā nakts Rīgā 2027",
+          "kind": "related"
+        },
+        {
+          "url": "/nozimigas-dienas/",
+          "title": "Nozīmīgas dienas",
+          "kind": "related"
+        }
+      ],
+      "pagination": [],
+      "reading": [],
+      "discover": null,
+      "blogRelated": [],
+      "context": null
+    },
+    "/pasakumi/balta-nakts/": {
+      "parent": "/nozimigas-dienas/",
+      "breadcrumbs": [
+        {
+          "url": "/",
+          "title": "Sākums"
+        },
+        {
+          "url": "/svetki-un-tradicijas/",
+          "title": "Svētki un tradīcijas"
+        },
+        {
+          "url": "/nozimigas-dienas/",
+          "title": "Nozīmīgas dienas"
+        },
+        {
+          "url": "/pasakumi/balta-nakts/",
+          "title": "Baltā nakts Rīgā 2027"
+        }
+      ],
+      "heading": "Saistītie kalendāri un skaidrojumi",
+      "related": [
+        {
+          "url": "/svetki-un-tradicijas/staro-riga/",
+          "title": "Staro Rīga 2026 programma un gaismas karte",
+          "kind": "related"
+        },
+        {
+          "url": "/pasakumi/muzeju-nakts/",
+          "title": "Muzeju nakts Latvijā",
+          "kind": "related"
+        },
+        {
+          "url": "/pasakumi/legendu-nakts/",
+          "title": "Leģendu nakts Latvijas pilīs un muižās",
+          "kind": "related"
+        },
+        {
+          "url": "/nozimigas-dienas/",
+          "title": "Nozīmīgas dienas",
+          "kind": "related"
+        }
+      ],
+      "pagination": [],
+      "reading": [],
+      "discover": null,
+      "blogRelated": [],
+      "context": null
+    },
+    "/pasakumi/zinatnieku-nakts/": {
+      "parent": "/nozimigas-dienas/",
+      "breadcrumbs": [
+        {
+          "url": "/",
+          "title": "Sākums"
+        },
+        {
+          "url": "/svetki-un-tradicijas/",
+          "title": "Svētki un tradīcijas"
+        },
+        {
+          "url": "/nozimigas-dienas/",
+          "title": "Nozīmīgas dienas"
+        },
+        {
+          "url": "/pasakumi/zinatnieku-nakts/",
+          "title": "Zinātnieku nakts Latvijā"
+        }
+      ],
+      "heading": "Saistītie kalendāri un skaidrojumi",
+      "related": [
+        {
+          "url": "/pasakumi/enu-diena/",
+          "title": "Ēnu diena 2027",
+          "kind": "related"
+        },
+        {
+          "url": "/pasakumi/muzeju-nakts/",
+          "title": "Muzeju nakts Latvijā",
+          "kind": "related"
+        },
+        {
+          "url": "/pasakumi/sarunu-festivals-lampa/",
+          "title": "Sarunu festivāls LAMPA 2027",
+          "kind": "related"
+        },
+        {
+          "url": "/nozimigas-dienas/",
+          "title": "Nozīmīgas dienas",
+          "kind": "related"
+        }
+      ],
+      "pagination": [],
+      "reading": [],
+      "discover": null,
+      "blogRelated": [],
+      "context": null
+    },
+    "/pasakumi/legendu-nakts/": {
+      "parent": "/nozimigas-dienas/",
+      "breadcrumbs": [
+        {
+          "url": "/",
+          "title": "Sākums"
+        },
+        {
+          "url": "/svetki-un-tradicijas/",
+          "title": "Svētki un tradīcijas"
+        },
+        {
+          "url": "/nozimigas-dienas/",
+          "title": "Nozīmīgas dienas"
+        },
+        {
+          "url": "/pasakumi/legendu-nakts/",
+          "title": "Leģendu nakts Latvijas pilīs un muižās"
+        }
+      ],
+      "heading": "Saistītie kalendāri un skaidrojumi",
+      "related": [
+        {
+          "url": "/pasakumi/muzeju-nakts/",
+          "title": "Muzeju nakts Latvijā",
+          "kind": "related"
+        },
+        {
+          "url": "/pasakumi/balta-nakts/",
+          "title": "Baltā nakts Rīgā 2027",
+          "kind": "related"
+        },
+        {
+          "url": "/svetki-un-tradicijas/staro-riga/",
+          "title": "Staro Rīga 2026 programma un gaismas karte",
+          "kind": "related"
+        },
+        {
+          "url": "/nozimigas-dienas/",
+          "title": "Nozīmīgas dienas",
+          "kind": "related"
+        }
+      ],
+      "pagination": [],
+      "reading": [],
+      "discover": null,
+      "blogRelated": [],
+      "context": null
+    },
+    "/pasakumi/bluka-vakars/": {
+      "parent": "/nozimigas-dienas/",
+      "breadcrumbs": [
+        {
+          "url": "/",
+          "title": "Sākums"
+        },
+        {
+          "url": "/svetki-un-tradicijas/",
+          "title": "Svētki un tradīcijas"
+        },
+        {
+          "url": "/nozimigas-dienas/",
+          "title": "Nozīmīgas dienas"
+        },
+        {
+          "url": "/pasakumi/bluka-vakars/",
+          "title": "Bluķa vakars Brīvdabas muzejā 2026"
+        }
+      ],
+      "heading": "Saistītie kalendāri un skaidrojumi",
+      "related": [
+        {
+          "url": "/svetki-un-tradicijas/ziemas-saulgriezi/",
+          "title": "Ziemas saulgrieži",
+          "kind": "related"
+        },
+        {
+          "url": "/pasakumi/ziemassvetku-tirdzins-riga/",
+          "title": "Rīgas Ziemassvētku tirdziņš 2026–2027",
+          "kind": "related"
+        },
+        {
+          "url": "/svetki-un-tradicijas/advente/",
+          "title": "Adventes svētdienas pirms Ziemassvētkiem",
+          "kind": "related"
+        },
+        {
+          "url": "/nozimigas-dienas/",
+          "title": "Nozīmīgas dienas",
+          "kind": "related"
+        }
+      ],
+      "pagination": [],
+      "reading": [],
+      "discover": null,
+      "blogRelated": [],
+      "context": null
+    },
+    "/pasakumi/melna-piektdiena/": {
+      "parent": "/nozimigas-dienas/",
+      "breadcrumbs": [
+        {
+          "url": "/",
+          "title": "Sākums"
+        },
+        {
+          "url": "/svetki-un-tradicijas/",
+          "title": "Svētki un tradīcijas"
+        },
+        {
+          "url": "/nozimigas-dienas/",
+          "title": "Nozīmīgas dienas"
+        },
+        {
+          "url": "/pasakumi/melna-piektdiena/",
+          "title": "Melnā piektdiena 2026 Latvijā"
+        }
+      ],
+      "heading": "Saistītie kalendāri un skaidrojumi",
+      "related": [
+        {
+          "url": "/pasakumi/kiberpirmdiena/",
+          "title": "Kiberpirmdiena 2026 Latvijā",
+          "kind": "related"
+        },
+        {
+          "url": "/pasakumi/ziemassvetku-tirdzins-riga/",
+          "title": "Rīgas Ziemassvētku tirdziņš 2026–2027",
+          "kind": "related"
+        },
+        {
+          "url": "/svetki-un-tradicijas/advente/",
+          "title": "Adventes svētdienas pirms Ziemassvētkiem",
+          "kind": "related"
+        },
+        {
+          "url": "/nozimigas-dienas/",
+          "title": "Nozīmīgas dienas",
+          "kind": "related"
+        }
+      ],
+      "pagination": [],
+      "reading": [],
+      "discover": null,
+      "blogRelated": [],
+      "context": null
+    },
+    "/pasakumi/kiberpirmdiena/": {
+      "parent": "/nozimigas-dienas/",
+      "breadcrumbs": [
+        {
+          "url": "/",
+          "title": "Sākums"
+        },
+        {
+          "url": "/svetki-un-tradicijas/",
+          "title": "Svētki un tradīcijas"
+        },
+        {
+          "url": "/nozimigas-dienas/",
+          "title": "Nozīmīgas dienas"
+        },
+        {
+          "url": "/pasakumi/kiberpirmdiena/",
+          "title": "Kiberpirmdiena 2026 Latvijā"
+        }
+      ],
+      "heading": "Saistītie kalendāri un skaidrojumi",
+      "related": [
+        {
+          "url": "/pasakumi/melna-piektdiena/",
+          "title": "Melnā piektdiena 2026 Latvijā",
+          "kind": "related"
+        },
+        {
+          "url": "/pasakumi/ziemassvetku-tirdzins-riga/",
+          "title": "Rīgas Ziemassvētku tirdziņš 2026–2027",
+          "kind": "related"
+        },
+        {
+          "url": "/pasakumi/bluka-vakars/",
+          "title": "Bluķa vakars Brīvdabas muzejā 2026",
+          "kind": "related"
+        },
+        {
+          "url": "/nozimigas-dienas/",
+          "title": "Nozīmīgas dienas",
+          "kind": "related"
+        }
+      ],
+      "pagination": [],
+      "reading": [],
+      "discover": null,
+      "blogRelated": [],
+      "context": null
+    },
+    "/pabalstu-izmaksas/gimenes-valsts-pabalsts/": {
+      "parent": "/pabalstu-izmaksas/",
+      "breadcrumbs": [
+        {
+          "url": "/",
+          "title": "Sākums"
+        },
+        {
+          "url": "/visi-riki/",
+          "title": "Visi plānošanas rīki"
+        },
+        {
+          "url": "/pabalstu-izmaksas/",
+          "title": "Pabalsti un sociālais atbalsts"
+        },
+        {
+          "url": "/pabalstu-izmaksas/gimenes-valsts-pabalsts/",
+          "title": "Ģimenes valsts pabalsts"
+        }
+      ],
+      "heading": "Saistītie kalendāri un skaidrojumi",
+      "related": [
+        {
+          "url": "/pabalstu-izmaksas/berna-kopsanas-pabalsts/",
+          "title": "Bērna kopšanas pabalsts",
+          "kind": "related"
+        },
+        {
+          "url": "/pabalstu-izmaksas/berna-piedzimsanas-pabalsts/",
+          "title": "Bērna piedzimšanas pabalsts",
+          "kind": "related"
+        },
+        {
+          "url": "/pabalstu-izmaksas/vecaku-pabalsts/",
+          "title": "Vecāku pabalsts",
+          "kind": "related"
+        },
+        {
+          "url": "/pabalstu-izmaksas/",
+          "title": "Pabalsti un sociālais atbalsts",
+          "kind": "related"
+        },
+        {
+          "url": "/pensiju-izmaksas/",
+          "title": "Pensija: vecums un izmaksas",
+          "kind": "related"
+        }
+      ],
+      "pagination": [],
+      "reading": [],
+      "discover": null,
+      "blogRelated": [],
+      "context": null
+    },
+    "/pabalstu-izmaksas/berna-kopsanas-pabalsts/": {
+      "parent": "/pabalstu-izmaksas/",
+      "breadcrumbs": [
+        {
+          "url": "/",
+          "title": "Sākums"
+        },
+        {
+          "url": "/visi-riki/",
+          "title": "Visi plānošanas rīki"
+        },
+        {
+          "url": "/pabalstu-izmaksas/",
+          "title": "Pabalsti un sociālais atbalsts"
+        },
+        {
+          "url": "/pabalstu-izmaksas/berna-kopsanas-pabalsts/",
+          "title": "Bērna kopšanas pabalsts"
+        }
+      ],
+      "heading": "Saistītie kalendāri un skaidrojumi",
+      "related": [
+        {
+          "url": "/pabalstu-izmaksas/vecaku-pabalsts/",
+          "title": "Vecāku pabalsts",
+          "kind": "related"
+        },
+        {
+          "url": "/pabalstu-izmaksas/berna-piedzimsanas-pabalsts/",
+          "title": "Bērna piedzimšanas pabalsts",
+          "kind": "related"
+        },
+        {
+          "url": "/pabalstu-izmaksas/gimenes-valsts-pabalsts/",
+          "title": "Ģimenes valsts pabalsts",
+          "kind": "related"
+        },
+        {
+          "url": "/pabalstu-izmaksas/",
+          "title": "Pabalsti un sociālais atbalsts",
+          "kind": "related"
+        },
+        {
+          "url": "/pensiju-izmaksas/",
+          "title": "Pensija: vecums un izmaksas",
+          "kind": "related"
+        }
+      ],
+      "pagination": [],
+      "reading": [],
+      "discover": null,
+      "blogRelated": [],
+      "context": null
+    },
+    "/pabalstu-izmaksas/berna-piedzimsanas-pabalsts/": {
+      "parent": "/pabalstu-izmaksas/",
+      "breadcrumbs": [
+        {
+          "url": "/",
+          "title": "Sākums"
+        },
+        {
+          "url": "/visi-riki/",
+          "title": "Visi plānošanas rīki"
+        },
+        {
+          "url": "/pabalstu-izmaksas/",
+          "title": "Pabalsti un sociālais atbalsts"
+        },
+        {
+          "url": "/pabalstu-izmaksas/berna-piedzimsanas-pabalsts/",
+          "title": "Bērna piedzimšanas pabalsts"
+        }
+      ],
+      "heading": "Saistītie kalendāri un skaidrojumi",
+      "related": [
+        {
+          "url": "/pabalstu-izmaksas/berna-kopsanas-pabalsts/",
+          "title": "Bērna kopšanas pabalsts",
+          "kind": "related"
+        },
+        {
+          "url": "/pabalstu-izmaksas/vecaku-pabalsts/",
+          "title": "Vecāku pabalsts",
+          "kind": "related"
+        },
+        {
+          "url": "/pabalstu-izmaksas/gimenes-valsts-pabalsts/",
+          "title": "Ģimenes valsts pabalsts",
+          "kind": "related"
+        },
+        {
+          "url": "/pabalstu-izmaksas/",
+          "title": "Pabalsti un sociālais atbalsts",
+          "kind": "related"
+        },
+        {
+          "url": "/pensiju-izmaksas/",
+          "title": "Pensija: vecums un izmaksas",
+          "kind": "related"
+        }
+      ],
+      "pagination": [],
+      "reading": [],
+      "discover": null,
+      "blogRelated": [],
+      "context": null
+    },
+    "/pabalstu-izmaksas/vecaku-pabalsts/": {
+      "parent": "/pabalstu-izmaksas/",
+      "breadcrumbs": [
+        {
+          "url": "/",
+          "title": "Sākums"
+        },
+        {
+          "url": "/visi-riki/",
+          "title": "Visi plānošanas rīki"
+        },
+        {
+          "url": "/pabalstu-izmaksas/",
+          "title": "Pabalsti un sociālais atbalsts"
+        },
+        {
+          "url": "/pabalstu-izmaksas/vecaku-pabalsts/",
+          "title": "Vecāku pabalsts"
+        }
+      ],
+      "heading": "Saistītie kalendāri un skaidrojumi",
+      "related": [
+        {
+          "url": "/pabalstu-izmaksas/berna-kopsanas-pabalsts/",
+          "title": "Bērna kopšanas pabalsts",
+          "kind": "related"
+        },
+        {
+          "url": "/pabalstu-izmaksas/gimenes-valsts-pabalsts/",
+          "title": "Ģimenes valsts pabalsts",
+          "kind": "related"
+        },
+        {
+          "url": "/pabalstu-izmaksas/bezdarbnieka-pabalsts/",
+          "title": "Bezdarbnieka pabalsts",
+          "kind": "related"
+        },
+        {
+          "url": "/pabalstu-izmaksas/",
+          "title": "Pabalsti un sociālais atbalsts",
+          "kind": "related"
+        },
+        {
+          "url": "/pensiju-izmaksas/",
+          "title": "Pensija: vecums un izmaksas",
+          "kind": "related"
+        }
+      ],
+      "pagination": [],
+      "reading": [],
+      "discover": null,
+      "blogRelated": [],
+      "context": null
+    },
+    "/pabalstu-izmaksas/bezdarbnieka-pabalsts/": {
+      "parent": "/pabalstu-izmaksas/",
+      "breadcrumbs": [
+        {
+          "url": "/",
+          "title": "Sākums"
+        },
+        {
+          "url": "/visi-riki/",
+          "title": "Visi plānošanas rīki"
+        },
+        {
+          "url": "/pabalstu-izmaksas/",
+          "title": "Pabalsti un sociālais atbalsts"
+        },
+        {
+          "url": "/pabalstu-izmaksas/bezdarbnieka-pabalsts/",
+          "title": "Bezdarbnieka pabalsts"
+        }
+      ],
+      "heading": "Saistītie kalendāri un skaidrojumi",
+      "related": [
+        {
+          "url": "/pabalstu-izmaksas/slimibas-pabalsts/",
+          "title": "Slimības pabalsts",
+          "kind": "related"
+        },
+        {
+          "url": "/pabalstu-izmaksas/vecaku-pabalsts/",
+          "title": "Vecāku pabalsts",
+          "kind": "related"
+        },
+        {
+          "url": "/pabalstu-izmaksas/gmi-pabalsts/",
+          "title": "GMI pabalsts",
+          "kind": "related"
+        },
+        {
+          "url": "/pabalstu-izmaksas/",
+          "title": "Pabalsti un sociālais atbalsts",
+          "kind": "related"
+        },
+        {
+          "url": "/pensiju-izmaksas/",
+          "title": "Pensija: vecums un izmaksas",
+          "kind": "related"
+        }
+      ],
+      "pagination": [],
+      "reading": [],
+      "discover": null,
+      "blogRelated": [],
+      "context": null
+    },
+    "/pabalstu-izmaksas/slimibas-pabalsts/": {
+      "parent": "/pabalstu-izmaksas/",
+      "breadcrumbs": [
+        {
+          "url": "/",
+          "title": "Sākums"
+        },
+        {
+          "url": "/visi-riki/",
+          "title": "Visi plānošanas rīki"
+        },
+        {
+          "url": "/pabalstu-izmaksas/",
+          "title": "Pabalsti un sociālais atbalsts"
+        },
+        {
+          "url": "/pabalstu-izmaksas/slimibas-pabalsts/",
+          "title": "Slimības pabalsts"
+        }
+      ],
+      "heading": "Saistītie kalendāri un skaidrojumi",
+      "related": [
+        {
+          "url": "/pabalstu-izmaksas/bezdarbnieka-pabalsts/",
+          "title": "Bezdarbnieka pabalsts",
+          "kind": "related"
+        },
+        {
+          "url": "/pabalstu-izmaksas/vecaku-pabalsts/",
+          "title": "Vecāku pabalsts",
+          "kind": "related"
+        },
+        {
+          "url": "/pabalstu-izmaksas/majokla-pabalsts/",
+          "title": "Mājokļa pabalsts",
+          "kind": "related"
+        },
+        {
+          "url": "/pabalstu-izmaksas/",
+          "title": "Pabalsti un sociālais atbalsts",
+          "kind": "related"
+        },
+        {
+          "url": "/pensiju-izmaksas/",
+          "title": "Pensija: vecums un izmaksas",
+          "kind": "related"
+        }
+      ],
+      "pagination": [],
+      "reading": [],
+      "discover": null,
+      "blogRelated": [],
+      "context": null
+    },
+    "/pabalstu-izmaksas/majokla-pabalsts/": {
+      "parent": "/pabalstu-izmaksas/",
+      "breadcrumbs": [
+        {
+          "url": "/",
+          "title": "Sākums"
+        },
+        {
+          "url": "/visi-riki/",
+          "title": "Visi plānošanas rīki"
+        },
+        {
+          "url": "/pabalstu-izmaksas/",
+          "title": "Pabalsti un sociālais atbalsts"
+        },
+        {
+          "url": "/pabalstu-izmaksas/majokla-pabalsts/",
+          "title": "Mājokļa pabalsts"
+        }
+      ],
+      "heading": "Saistītie kalendāri un skaidrojumi",
+      "related": [
+        {
+          "url": "/pabalstu-izmaksas/gmi-pabalsts/",
+          "title": "GMI pabalsts",
+          "kind": "related"
+        },
+        {
+          "url": "/pabalstu-izmaksas/bezdarbnieka-pabalsts/",
+          "title": "Bezdarbnieka pabalsts",
+          "kind": "related"
+        },
+        {
+          "url": "/pabalstu-izmaksas/gimenes-valsts-pabalsts/",
+          "title": "Ģimenes valsts pabalsts",
+          "kind": "related"
+        },
+        {
+          "url": "/pabalstu-izmaksas/",
+          "title": "Pabalsti un sociālais atbalsts",
+          "kind": "related"
+        },
+        {
+          "url": "/pensiju-izmaksas/",
+          "title": "Pensija: vecums un izmaksas",
+          "kind": "related"
+        }
+      ],
+      "pagination": [],
+      "reading": [],
+      "discover": null,
+      "blogRelated": [],
+      "context": null
+    },
+    "/pabalstu-izmaksas/gmi-pabalsts/": {
+      "parent": "/pabalstu-izmaksas/",
+      "breadcrumbs": [
+        {
+          "url": "/",
+          "title": "Sākums"
+        },
+        {
+          "url": "/visi-riki/",
+          "title": "Visi plānošanas rīki"
+        },
+        {
+          "url": "/pabalstu-izmaksas/",
+          "title": "Pabalsti un sociālais atbalsts"
+        },
+        {
+          "url": "/pabalstu-izmaksas/gmi-pabalsts/",
+          "title": "GMI pabalsts"
+        }
+      ],
+      "heading": "Saistītie kalendāri un skaidrojumi",
+      "related": [
+        {
+          "url": "/pabalstu-izmaksas/majokla-pabalsts/",
+          "title": "Mājokļa pabalsts",
+          "kind": "related"
+        },
+        {
+          "url": "/pabalstu-izmaksas/bezdarbnieka-pabalsts/",
+          "title": "Bezdarbnieka pabalsts",
+          "kind": "related"
+        },
+        {
+          "url": "/pabalstu-izmaksas/gimenes-valsts-pabalsts/",
+          "title": "Ģimenes valsts pabalsts",
+          "kind": "related"
+        },
+        {
+          "url": "/pabalstu-izmaksas/",
+          "title": "Pabalsti un sociālais atbalsts",
+          "kind": "related"
+        },
+        {
+          "url": "/pensiju-izmaksas/",
+          "title": "Pensija: vecums un izmaksas",
+          "kind": "related"
+        }
+      ],
+      "pagination": [],
+      "reading": [],
+      "discover": null,
+      "blogRelated": [],
+      "context": null
+    },
+    "/nodoklu-kalkulators/": {
+      "parent": "/visi-riki/",
+      "breadcrumbs": [
+        {
+          "url": "/",
+          "title": "Sākums"
+        },
+        {
+          "url": "/visi-riki/",
+          "title": "Visi plānošanas rīki"
+        },
+        {
+          "url": "/nodoklu-kalkulators/",
+          "title": "Nodokļu un algas kalkulators"
+        }
+      ],
+      "heading": "Saistītie kalendāri un skaidrojumi",
+      "related": [
+        {
+          "url": "/pensiju-izmaksas/",
+          "title": "Pensija: vecums un izmaksas",
+          "kind": "related"
+        },
+        {
+          "url": "/darba-dienu-kalendars/",
+          "title": "Darba dienu kalendārs",
+          "kind": "related"
+        },
+        {
+          "url": "/pabalstu-izmaksas/",
+          "title": "Pabalsti un sociālais atbalsts",
+          "kind": "related"
+        },
+        {
+          "url": "/mainu-grafiks/",
+          "title": "Maiņu grafiks",
+          "kind": "related"
+        }
+      ],
+      "pagination": [],
+      "reading": [],
+      "discover": null,
+      "blogRelated": [],
+      "context": null
+    },
+    "/copes-kalendars/": {
+      "parent": "/visi-riki/",
+      "breadcrumbs": [
+        {
+          "url": "/",
+          "title": "Sākums"
+        },
+        {
+          "url": "/visi-riki/",
+          "title": "Visi plānošanas rīki"
+        },
+        {
+          "url": "/copes-kalendars/",
+          "title": "Copes kalendārs"
+        }
+      ],
+      "heading": "Saistītie kalendāri un skaidrojumi",
+      "related": [
+        {
+          "url": "/saullekts-saulriets/",
+          "title": "Saullēkts un saulriets",
+          "kind": "related"
+        },
+        {
+          "url": "/meness-kalendars/",
+          "title": "Mēness kalendārs",
+          "kind": "related"
+        },
+        {
+          "url": "/dienu-skaititajs/",
+          "title": "Dienu skaitītājs",
+          "kind": "related"
+        }
+      ],
+      "pagination": [],
+      "reading": [],
+      "discover": null,
+      "blogRelated": [],
+      "context": null
+    },
+    "/adventes-kalendars/": {
+      "parent": "/visi-riki/",
+      "breadcrumbs": [
+        {
+          "url": "/",
+          "title": "Sākums"
+        },
+        {
+          "url": "/visi-riki/",
+          "title": "Visi plānošanas rīki"
+        },
+        {
+          "url": "/adventes-kalendars/",
+          "title": "Adventes kalendārs Latvijai ar 24 decembra pārsteigumiem"
+        }
+      ],
+      "heading": "Saistītie kalendāri un skaidrojumi",
+      "related": [
+        {
+          "url": "/svetki-un-tradicijas/advente/",
+          "title": "Adventes svētdienas pirms Ziemassvētkiem",
+          "kind": "related"
+        },
+        {
+          "url": "/svetki-un-tradicijas/ziemassvetki/",
+          "title": "Ziemassvētki",
+          "kind": "related"
+        },
+        {
+          "url": "/pasakumi/ziemassvetku-tirdzins-riga/",
+          "title": "Rīgas Ziemassvētku tirdziņš 2026–2027",
+          "kind": "related"
+        }
+      ],
+      "pagination": [],
+      "reading": [],
+      "discover": null,
+      "blogRelated": [],
+      "context": null
+    },
+    "/adventes-kalendars/2026/": {
+      "parent": "/adventes-kalendars/",
+      "breadcrumbs": [
+        {
+          "url": "/",
+          "title": "Sākums"
+        },
+        {
+          "url": "/visi-riki/",
+          "title": "Visi plānošanas rīki"
+        },
+        {
+          "url": "/adventes-kalendars/",
+          "title": "Adventes kalendārs Latvijai ar 24 decembra pārsteigumiem"
+        },
+        {
+          "url": "/adventes-kalendars/2026/",
+          "title": "Adventes kalendārs 2026 ar 24 atveramiem lodziņiem"
+        }
+      ],
+      "heading": "Saistītie kalendāri un skaidrojumi",
+      "related": [
+        {
+          "url": "/svetki-un-tradicijas/advente/",
+          "title": "Adventes svētdienas pirms Ziemassvētkiem",
+          "kind": "related"
+        },
+        {
+          "url": "/svetki-un-tradicijas/ziemassvetki/",
+          "title": "Ziemassvētki",
+          "kind": "related"
+        },
+        {
+          "url": "/pasakumi/ziemassvetku-tirdzins-riga/",
+          "title": "Rīgas Ziemassvētku tirdziņš 2026–2027",
+          "kind": "related"
+        }
+      ],
+      "pagination": [],
+      "reading": [],
+      "discover": null,
+      "blogRelated": [],
+      "context": "2026"
+    },
+    "/adventes-kalendars/2027/": {
+      "parent": "/adventes-kalendars/",
+      "breadcrumbs": [
+        {
+          "url": "/",
+          "title": "Sākums"
+        },
+        {
+          "url": "/visi-riki/",
+          "title": "Visi plānošanas rīki"
+        },
+        {
+          "url": "/adventes-kalendars/",
+          "title": "Adventes kalendārs Latvijai ar 24 decembra pārsteigumiem"
+        },
+        {
+          "url": "/adventes-kalendars/2027/",
+          "title": "Adventes kalendārs 2027 ar 24 atveramiem lodziņiem"
+        }
+      ],
+      "heading": "Saistītie kalendāri un skaidrojumi",
+      "related": [
+        {
+          "url": "/svetki-un-tradicijas/advente/",
+          "title": "Adventes svētdienas pirms Ziemassvētkiem",
+          "kind": "related"
+        },
+        {
+          "url": "/svetki-un-tradicijas/ziemassvetki/",
+          "title": "Ziemassvētki",
+          "kind": "related"
+        },
+        {
+          "url": "/pasakumi/ziemassvetku-tirdzins-riga/",
+          "title": "Rīgas Ziemassvētku tirdziņš 2026–2027",
+          "kind": "related"
+        }
+      ],
+      "pagination": [],
+      "reading": [],
+      "discover": null,
+      "blogRelated": [],
+      "context": "2027"
+    },
+    "/adventes-kalendars/2028/": {
+      "parent": "/adventes-kalendars/",
+      "breadcrumbs": [
+        {
+          "url": "/",
+          "title": "Sākums"
+        },
+        {
+          "url": "/visi-riki/",
+          "title": "Visi plānošanas rīki"
+        },
+        {
+          "url": "/adventes-kalendars/",
+          "title": "Adventes kalendārs Latvijai ar 24 decembra pārsteigumiem"
+        },
+        {
+          "url": "/adventes-kalendars/2028/",
+          "title": "Adventes kalendārs 2028 ar 24 atveramiem lodziņiem"
+        }
+      ],
+      "heading": "Saistītie kalendāri un skaidrojumi",
+      "related": [
+        {
+          "url": "/svetki-un-tradicijas/advente/",
+          "title": "Adventes svētdienas pirms Ziemassvētkiem",
+          "kind": "related"
+        },
+        {
+          "url": "/svetki-un-tradicijas/ziemassvetki/",
+          "title": "Ziemassvētki",
+          "kind": "related"
+        },
+        {
+          "url": "/pasakumi/ziemassvetku-tirdzins-riga/",
+          "title": "Rīgas Ziemassvētku tirdziņš 2026–2027",
+          "kind": "related"
+        }
+      ],
+      "pagination": [],
+      "reading": [],
+      "discover": null,
+      "blogRelated": [],
+      "context": "2028"
+    },
+    "/adventes-kalendars/2029/": {
+      "parent": "/adventes-kalendars/",
+      "breadcrumbs": [
+        {
+          "url": "/",
+          "title": "Sākums"
+        },
+        {
+          "url": "/visi-riki/",
+          "title": "Visi plānošanas rīki"
+        },
+        {
+          "url": "/adventes-kalendars/",
+          "title": "Adventes kalendārs Latvijai ar 24 decembra pārsteigumiem"
+        },
+        {
+          "url": "/adventes-kalendars/2029/",
+          "title": "Adventes kalendārs 2029 ar 24 atveramiem lodziņiem"
+        }
+      ],
+      "heading": "Saistītie kalendāri un skaidrojumi",
+      "related": [
+        {
+          "url": "/svetki-un-tradicijas/advente/",
+          "title": "Adventes svētdienas pirms Ziemassvētkiem",
+          "kind": "related"
+        },
+        {
+          "url": "/svetki-un-tradicijas/ziemassvetki/",
+          "title": "Ziemassvētki",
+          "kind": "related"
+        },
+        {
+          "url": "/pasakumi/ziemassvetku-tirdzins-riga/",
+          "title": "Rīgas Ziemassvētku tirdziņš 2026–2027",
+          "kind": "related"
+        }
+      ],
+      "pagination": [],
+      "reading": [],
+      "discover": null,
+      "blogRelated": [],
+      "context": "2029"
+    },
+    "/adventes-kalendars/2030/": {
+      "parent": "/adventes-kalendars/",
+      "breadcrumbs": [
+        {
+          "url": "/",
+          "title": "Sākums"
+        },
+        {
+          "url": "/visi-riki/",
+          "title": "Visi plānošanas rīki"
+        },
+        {
+          "url": "/adventes-kalendars/",
+          "title": "Adventes kalendārs Latvijai ar 24 decembra pārsteigumiem"
+        },
+        {
+          "url": "/adventes-kalendars/2030/",
+          "title": "Adventes kalendārs 2030 ar 24 atveramiem lodziņiem"
+        }
+      ],
+      "heading": "Saistītie kalendāri un skaidrojumi",
+      "related": [
+        {
+          "url": "/svetki-un-tradicijas/advente/",
+          "title": "Adventes svētdienas pirms Ziemassvētkiem",
+          "kind": "related"
+        },
+        {
+          "url": "/svetki-un-tradicijas/ziemassvetki/",
+          "title": "Ziemassvētki",
+          "kind": "related"
+        },
+        {
+          "url": "/pasakumi/ziemassvetku-tirdzins-riga/",
+          "title": "Rīgas Ziemassvētku tirdziņš 2026–2027",
+          "kind": "related"
+        }
+      ],
+      "pagination": [],
+      "reading": [],
+      "discover": null,
+      "blogRelated": [],
+      "context": "2030"
     },
     "/nedelas-kalendars/2031/01/": {
       "parent": "/nedelas-kalendars/",

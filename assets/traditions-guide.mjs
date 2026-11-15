@@ -16,7 +16,7 @@ if (root) {
   }
   const dateLabel = row => row.dates.length
     ? row.dates.map(d => `<time datetime="${E(d.date)}">${E(C.dateLabel(d.date))}</time>`).join(' · ')
-    : 'Datums un tradīcijas — tēmas aprakstā';
+    : 'Datums un tradīcijas tēmas aprakstā';
   function renderDates() {
     const groups = new Map();
     for (const article of list) for (const d of article.dates) {

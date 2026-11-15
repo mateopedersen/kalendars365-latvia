@@ -196,7 +196,7 @@ class InternalNavigation
      'reading'=>INFORMATION_PAGES.include?(url) ? [] : reading_for(url), 'discover'=>discover(row),
      'blogRelated'=>row['family']=='blog_article' ? @rules['blog_related'].fetch(url.split('/').last) : [],
      # The home page already has curated, unique discovery cards.
-     'show'=>url!='/' && !%w[not_found temporary_error].include?(row['family'])}
+     'show'=>!%w[/ /nozimigas-dienas/ /pabalstu-izmaksas/].include?(url) && !%w[not_found temporary_error].include?(row['family'])}
   end
 
   def enrich_notes!

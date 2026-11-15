@@ -45,14 +45,14 @@ def useful_pages_markup(url,family,title,body)
  if kind=='occasion'
   original=JSON.parse(File.read('_data/occasions.json')).find{|r|r['slug']==slug}
   cultural=LATVIA_EXTRA_PAGES[url]
-  config[:dates]=original ? original.fetch('dates',[]) : cultural ? (2027..2030).flat_map{|year|cultural_calendar_dates(cultural,year)} : []
+  config[:dates]=(original || cultural) ? (2026..2030).flat_map{|year|OccasionGuide.dates(original || cultural,year,seasons:DATA.fetch('seasons',[]))} : []
   config[:sources]=original ? original.fetch('sourceUrls',[]) : Array(cultural && cultural['sourceIds']).map{|id|LATVIA_VERIFIED['sources'].find{|r|r['id']==id}&.fetch('url',nil)}.compact
   config[:dayOff]=original ? original['dayOff']==true : false
  end
  head='<div class="useful-heading"><div><span class="eyebrow">PRAKTISKI TEV</span>'
  panel=case kind
  when 'weeks'
-  head+'<h2>No datuma uz ISO nedēļu — un atpakaļ</h2><p>ISO nedēļa sākas pirmdienā. Gada pirmā nedēļa satur 4. janvāri; gada mijā ISO gads var atšķirties no datuma gada.</p></div></div><form data-useful-iso-date><label>Datums<input name="date" type="date" value="2027-01-01" min="1901-01-01" max="2099-12-31" required></label><button type="submit">Noteikt nedēļu</button></form><form data-useful-iso-week><label>ISO gads<input name="year" type="number" min="1901" max="2099" value="2027" required></label><label>Nedēļa<input name="week" type="number" min="1" max="53" value="1" required></label><button type="submit">Atrast septiņus datumus</button></form><div data-useful-iso-result></div>'
+  head+'<h2>No datuma uz ISO nedēļu un atpakaļ</h2><p>ISO nedēļa sākas pirmdienā. Gada pirmā nedēļa satur 4. janvāri; gada mijā ISO gads var atšķirties no datuma gada.</p></div></div><form data-useful-iso-date><label>Datums<input name="date" type="date" value="2027-01-01" min="1901-01-01" max="2099-12-31" required></label><button type="submit">Noteikt nedēļu</button></form><form data-useful-iso-week><label>ISO gads<input name="year" type="number" min="1901" max="2099" value="2027" required></label><label>Nedēļa<input name="week" type="number" min="1" max="53" value="1" required></label><button type="submit">Atrast septiņus datumus</button></form><div data-useful-iso-result></div>'
  when 'phase'
   head+'<h2>'+h(url=='/pilnmeness/' ? 'Pilnmēness brīži Latvijas laikā' : 'Jaunmēness brīži Latvijas laikā')+'</h2><p>USNO precīzie fāžu brīži, pārrēķināti Europe/Riga laika joslā. Fāzes brīdis ir kopīgs visai Latvijai.</p></div></div><form data-useful-phase><label>Gads<select name="year">'+(2027..2030).map{|year|"<option>#{year}</option>"}.join+'</select></label><label>Mēnesis<select name="month"><option value="0">Viss gads</option>'+MONTHS.each_with_index.map{|month,i|"<option value=\"#{i+1}\">#{h(month.capitalize)}</option>"}.join+'</select></label><button type="submit">Atlasīt</button><button type="button" data-useful-phase-ics>Atlasītie brīži (ICS) ↓</button><button type="button" data-useful-phase-csv>Tabula (CSV) ↓</button></form><div data-useful-phase-list></div>'
  when 'city'

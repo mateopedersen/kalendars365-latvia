@@ -22,12 +22,13 @@ for url,r in catalog['pages'].items():
  for name,want in [('og:image',expected),('og:image:secure_url',expected),('twitter:image',expected),('og:image:type','image/jpeg'),('og:image:width','1200'),('og:image:height','630'),('og:image:alt',r['alt']),('twitter:image:alt',r['alt']),('twitter:card','summary_large_image')]:assert p.meta.get(name)==[want],(url,name,p.meta.get(name),want)
  assert unquote(p.canonical)=='https://kalendars365.lv'+url,(url,p.canonical)
  assert expected not in seen;seen.add(expected)
- pages=[x for x in p.ld if x.get('@type')=='WebPage'];assert len(pages)==1;assert pages[0]['primaryImageOfPage']['url']==expected,url
- for node in p.ld:
-  if node.get('@type')=='BlogPosting':assert node['image']==expected,url
+ nodes=[x for block in p.ld for x in block.get('@graph',[block])];pages=[x for x in nodes if x.get('@type') in ('WebPage','CollectionPage','ContactPage','AboutPage','SearchResultsPage','FAQPage')];assert len(pages)==1,(url,[x.get('@type') for x in nodes]);by_id={x.get('@id'):x for x in nodes if x.get('@id')};primary=pages[0]['primaryImageOfPage'];primary=by_id.get(primary.get('@id'),primary) if isinstance(primary,dict) else by_id.get(primary,{'url':primary});assert primary.get('url')==expected,url
+ for node in nodes:
+  if node.get('@type')=='BlogPosting':
+   image=node['image'];image=image[0] if isinstance(image,list) else image;image=by_id.get(image.get('@id'),image) if isinstance(image,dict) else by_id.get(image,{'url':image});assert image.get('url')==expected,url
  f=ROOT/'_site'/r['src'].lstrip('/');b=f.read_bytes();assert hashlib.sha256(b).hexdigest()==r['sha256'],url
  with Image.open(f) as im:im.load();assert im.format=='JPEG' and im.size==(1200,630),url
  rows.append({'url':url,'image':expected,'bytes':len(b),'width':1200,'height':630,'social':'pass','structuredImage':'pass','decode':'pass','sha256':r['sha256']})
-assert len(rows)==900
-summary={'pages':len(rows),'uniqueImages':len(seen),'uniqueSubjectPanels':len({r['panelSha256'] for r in catalog['pages'].values()}),'checks':['900 HTML head assignments','absolute HTTPS JPEG paths','single Open Graph and Twitter assignment','1200×630 real dimensions','Latvian alt text','structured primary image','complete built JPEG decode','built image SHA256'],'errors':[],'pagesChecked':rows}
+assert len(rows)==len(catalog['pages'])
+summary={'pages':len(rows),'uniqueImages':len(seen),'uniqueSubjectPanels':len({r['panelSha256'] for r in catalog['pages'].values()}),'checks':[str(len(rows))+' HTML head assignments','absolute HTTPS JPEG paths','single Open Graph and Twitter assignment','1200×630 real dimensions','Latvian alt text','structured primary image','complete built JPEG decode','built image SHA256'],'errors':[],'pagesChecked':rows}
 (ROOT/'docs/SOCIAL_COVER_AUDIT.json').write_text(json.dumps(summary,ensure_ascii=False,indent=2)+'\n');print(json.dumps({k:v for k,v in summary.items() if k!='pagesChecked'},ensure_ascii=False))

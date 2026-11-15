@@ -1,0 +1,18 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Kalendars365.lv//Events//LV
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:liela-talka-2027-04-24@kalendars365.lv
+DTSTAMP:20261115T180000Z
+DTSTART;VALUE=DATE:20270424
+DTEND;VALUE=DATE:20270425
+SUMMARY:Lielā talka 2027
+LOCATION:Visā Latvijā un diasporā\; vietas talkas kartē
+DESCRIPTION:Sākums jāsaskaņo ar vietējo koordinatoru. https://talkas.lv
+ /2026/10/19/liela-talka-nakamgad-notiks-jau-20-reizi/
+URL:https://kalendars365.lv/pasakumi/liela-talka/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

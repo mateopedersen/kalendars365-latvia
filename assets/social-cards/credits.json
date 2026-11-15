@@ -29,6 +29,31 @@
           "title": "Saullēkts un saulriets Rīgā"
         },
         {
+          "url": "/pasakumi/enu-diena/",
+          "image": "/assets/social-cards/v2/efa81bcb1e81b66c-19e891011d21.jpg",
+          "title": "Ēnu diena 2027"
+        },
+        {
+          "url": "/pasakumi/rigas-operas-festivals/",
+          "image": "/assets/social-cards/v2/a05806c6b2ea2342-0356d05eb5a6.jpg",
+          "title": "Rīgas operas festivāls 2027"
+        },
+        {
+          "url": "/pasakumi/rigas-dzimsanas-diena/",
+          "image": "/assets/social-cards/v2/e674d7fc0aeae2aa-145c2e5bed1a.jpg",
+          "title": "Rīgas dzimšanas diena 2027"
+        },
+        {
+          "url": "/pasakumi/melna-piektdiena/",
+          "image": "/assets/social-cards/v2/3d311317c741b873-4c6ee32539c5.jpg",
+          "title": "Melnā piektdiena 2026 Latvijā"
+        },
+        {
+          "url": "/pasakumi/kiberpirmdiena/",
+          "image": "/assets/social-cards/v2/8bb31e18dda5359f-6dce2c599282.jpg",
+          "title": "Kiberpirmdiena 2026 Latvijā"
+        },
+        {
           "url": "/blogs/saullekts-saulriets-latvijas-pilsetas/",
           "image": "/assets/social-cards/v2/3a74caefebb96732-479b17003998.jpg",
           "title": "Kāpēc saullēkts Rīgā un Liepājā nav vienā laikā?"
@@ -1048,6 +1073,16 @@
           "url": "/saullekts-saulriets/cesis/",
           "image": "/assets/social-cards/v2/e62fbe299a058ca9-e9a11bcbecf3.jpg",
           "title": "Saullēkts un saulriets Cēsīs"
+        },
+        {
+          "url": "/pasakumi/sarunu-festivals-lampa/",
+          "image": "/assets/social-cards/v2/5a39f2dae774f46a-d5de21f23bb9.jpg",
+          "title": "Sarunu festivāls LAMPA 2027"
+        },
+        {
+          "url": "/pasakumi/legendu-nakts/",
+          "image": "/assets/social-cards/v2/6180b3610fb5414e-4bd254bdf0e0.jpg",
+          "title": "Leģendu nakts Latvijas pilīs un muižās"
         }
       ]
     },
@@ -1490,6 +1525,16 @@
           "url": "/saullekts-saulriets/liepaja/",
           "image": "/assets/social-cards/v2/5b2b5f5547e41f0a-909bd0deb909.jpg",
           "title": "Saullēkts un saulriets Liepājā"
+        },
+        {
+          "url": "/pasakumi/liepaja-2027-atklasana/",
+          "image": "/assets/social-cards/v2/d9c00c527e465c27-726f2d507379.jpg",
+          "title": "Liepāja 2027 atklāšanas nedēļas nogale"
+        },
+        {
+          "url": "/pasakumi/summer-sound/",
+          "image": "/assets/social-cards/v2/b38347725c024c43-b629dba43aea.jpg",
+          "title": "Summer Sound 2027 Liepājā"
         }
       ]
     },
@@ -2222,6 +2267,11 @@
           "url": "/saullekts-saulriets/ventspils/",
           "image": "/assets/social-cards/v2/9ade3c1714111c37-1ed87ba60fd3.jpg",
           "title": "Saullēkts un saulriets Ventspilī"
+        },
+        {
+          "url": "/pasakumi/senas-uguns-nakts/",
+          "image": "/assets/social-cards/v2/ea26b1025447532f-ce0a5c4258e2.jpg",
+          "title": "Senās uguns nakts Latvijas piekrastē"
         }
       ]
     },
@@ -2298,6 +2348,30 @@
           "url": "/saullekts-saulriets/zilupe/",
           "image": "/assets/social-cards/v2/acd29a9ecd49f5cf-b56b045e4182.jpg",
           "title": "Saullēkts un saulriets Zilupē"
+        }
+      ]
+    },
+    {
+      "src": "/assets/occasions/christmas-960.webp",
+      "author": "AleWi",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Christmas_market,_Riga_20241209_-_06.jpg",
+      "covers": [
+        {
+          "url": "/nozimigas-dienas/",
+          "image": "/assets/social-cards/v2/b9cf02663c89da30-62675f79f8cd.jpg",
+          "title": "Nozīmīgas dienas un pasākumi Latvijā"
+        },
+        {
+          "url": "/svetki-un-tradicijas/ziemassvetki/",
+          "image": "/assets/social-cards/v2/d39839ee42395e22-11608f6885c1.jpg",
+          "title": "Ziemassvētki"
+        },
+        {
+          "url": "/pasakumi/ziemassvetku-tirdzins-riga/",
+          "image": "/assets/social-cards/v2/9cbf495d6c557903-b848816269b7.jpg",
+          "title": "Rīgas Ziemassvētku tirdziņš 2026–2027"
         }
       ]
     },
@@ -2669,6 +2743,11 @@
           "url": "/svetki-un-tradicijas/dzimtas-valodas-diena/",
           "image": "/assets/social-cards/v2/2a8bd7df36a94a7e-667278ca6c77.jpg",
           "title": "Starptautiskā dzimtās valodas diena"
+        },
+        {
+          "url": "/pasakumi/muzeju-nakts/",
+          "image": "/assets/social-cards/v2/b8c20008637b17a0-ff064cee1ba4.jpg",
+          "title": "Muzeju nakts Latvijā"
         }
       ]
     },
@@ -3129,6 +3208,11 @@
           "url": "/svetki-un-tradicijas/neatkaribas-atjaunosanas-diena/",
           "image": "/assets/social-cards/v2/9b8f65800532a432-1522047f4306.jpg",
           "title": "Neatkarības atjaunošanas diena"
+        },
+        {
+          "url": "/pasakumi/18-novembris-riga/",
+          "image": "/assets/social-cards/v2/a23c566624a66437-3e0baabd6627.jpg",
+          "title": "18. novembra pasākumi Rīgā 2026"
         }
       ]
     },
@@ -3219,6 +3303,11 @@
           "url": "/svetki-un-tradicijas/pasaules-vides-diena/",
           "image": "/assets/social-cards/v2/f1e16af55d001a1e-dbd5a5ba2d26.jpg",
           "title": "Pasaules vides diena"
+        },
+        {
+          "url": "/pasakumi/liela-talka/",
+          "image": "/assets/social-cards/v2/537fb225a61ced46-17ea39b6f83e.jpg",
+          "title": "Lielā talka 2027"
         }
       ]
     },
@@ -3621,24 +3710,14 @@
           "title": "Ziemas saulgrieži"
         },
         {
+          "url": "/pasakumi/bluka-vakars/",
+          "image": "/assets/social-cards/v2/1fb633df015b7ca3-91d7c3e71c95.jpg",
+          "title": "Bluķa vakars Brīvdabas muzejā 2026"
+        },
+        {
           "url": "/blogs/ziemas-dienas-garums-latvija/",
           "image": "/assets/social-cards/v2/307951e36ebc8e80-977f104b42d9.jpg",
           "title": "Kā ieplānot ziemas gaišās stundas Latvijā"
-        }
-      ]
-    },
-    {
-      "src": "/assets/tradition-covers/christmas-d694b1f89c4e-960.webp",
-      "author": "AleWi",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Christmas_market,_Riga_20241209_-_06.jpg",
-      "sourceSha256": "2faa9204e0b1834acb340aaf866d97348cb858a45d4fb8572caead6f811ebc12",
-      "covers": [
-        {
-          "url": "/svetki-un-tradicijas/ziemassvetki/",
-          "image": "/assets/social-cards/v2/d39839ee42395e22-11608f6885c1.jpg",
-          "title": "Ziemassvētki"
         }
       ]
     },
@@ -3684,6 +3763,69 @@
           "url": "/svetki-un-tradicijas/staro-riga/",
           "image": "/assets/social-cards/v2/8fc39a6b8baadc45-6b7dd74cb982.jpg",
           "title": "Staro Rīga 2026 programma un gaismas karte"
+        }
+      ]
+    },
+    {
+      "src": "/assets/event-guides/jelgava-ice-960.webp",
+      "author": "Igors Jefimovs",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ice_Sculpture_Festival_2008_-_panoramio.jpg",
+      "sourceSha256": "b651de2de62c5d69c64a78df790ed228f15e579e98578740655d05d260f43c7b",
+      "covers": [
+        {
+          "url": "/pasakumi/ledus-skulpturu-festivals-jelgava/",
+          "image": "/assets/social-cards/v2/ee42a447b5ffd31c-bf39e4cf1786.jpg",
+          "title": "Ledus skulptūru festivāls Jelgavā 2027"
+        }
+      ]
+    },
+    {
+      "src": "/assets/cities-night/riga-night-b42caec573cd.webp",
+      "author": "Ainars Brūvelis",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Riga_at_the_night_-_panoramio_(2).jpg",
+      "covers": [
+        {
+          "url": "/pasakumi/zemes-stunda/",
+          "image": "/assets/social-cards/v2/0900e56cf06866e8-81285cf3951b.jpg",
+          "title": "Zemes stunda 2027 Latvijā"
+        },
+        {
+          "url": "/pasakumi/balta-nakts/",
+          "image": "/assets/social-cards/v2/ffea6d4ccb08922f-6ec51fe52347.jpg",
+          "title": "Baltā nakts Rīgā 2027"
+        }
+      ]
+    },
+    {
+      "src": "/assets/event-guides/riga-marathon-960.webp",
+      "author": "Riga Marathon",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Riga_marathon_2019_start_photo.jpg",
+      "sourceSha256": "b4870b45f9903441542c34794a823e814a273ebbe09eca642aacba0e07d07b2a",
+      "covers": [
+        {
+          "url": "/pasakumi/rigas-maratons/",
+          "image": "/assets/social-cards/v2/e73ac8165951b424-88baaa36eaa5.jpg",
+          "title": "Rimi Rīgas maratons 2027"
+        }
+      ]
+    },
+    {
+      "src": "/assets/universities/rtu.jpg",
+      "author": "Rīgas pašvaldības aģentūra Rīgas investīciju un tūrisma aģentūra",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Riga_Technical_University.jpg",
+      "covers": [
+        {
+          "url": "/pasakumi/zinatnieku-nakts/",
+          "image": "/assets/social-cards/v2/ddaf57bb709f1a53-e392beab2798.jpg",
+          "title": "Zinātnieku nakts Latvijā"
         }
       ]
     },
@@ -3824,6 +3966,21 @@
           "url": "/blogs/rudens-latvija-gadalaiki-un-izbraucieni/",
           "image": "/assets/social-cards/v2/2c3329080d2f393a-8c8a9375a5bb.jpg",
           "title": "Rudens sākums Latvijā un izbraucienu plānošana"
+        }
+      ]
+    },
+    {
+      "src": "/assets/fishing-guide/usma-960.webp",
+      "author": "WikedKentaur",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Usmas_ezers,_2015.jpg",
+      "sourceSha256": "3fb3befee8ce065bffc9a8a0bd7a3a9f903154ba616eb25a00623b213ff1640e",
+      "covers": [
+        {
+          "url": "/copes-kalendars/",
+          "image": "/assets/social-cards/v2/17749f968c1062a8-d4e07f9c7ae9.jpg",
+          "title": "Copes kalendārs un makšķerēšanas liegumi Latvijā"
         }
       ]
     }

@@ -1,0 +1,488 @@
+{
+  "photos": {
+    "new:jelgava-ice": {
+      "id": "jelgava-ice",
+      "src": "/assets/event-guides/jelgava-ice-960.webp",
+      "width": 500,
+      "height": 781,
+      "sha256": "402be16c08818187c3482e572bd07479848cf65a2a642c91f59dc2d4ef213af8",
+      "srcset": "/assets/event-guides/jelgava-ice-480.webp 480w, /assets/event-guides/jelgava-ice-1280.webp 500w",
+      "author": "Igors Jefimovs",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ice_Sculpture_Festival_2008_-_panoramio.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Ice_Sculpture_Festival_2008_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "sourceCopy": "docs/sources/event-guides-20261115/jelgava-ice.jpg",
+      "sourceSha256": "b651de2de62c5d69c64a78df790ed228f15e579e98578740655d05d260f43c7b",
+      "files": [
+        {
+          "src": "/assets/event-guides/jelgava-ice-480.webp",
+          "width": 480,
+          "height": 750,
+          "sha256": "0a29596a4321d198f7650e5881db6e917d2e5ac8f6a5ea42eb80a6398b1edc4d"
+        },
+        {
+          "src": "/assets/event-guides/jelgava-ice-960.webp",
+          "width": 500,
+          "height": 781,
+          "sha256": "402be16c08818187c3482e572bd07479848cf65a2a642c91f59dc2d4ef213af8"
+        },
+        {
+          "src": "/assets/event-guides/jelgava-ice-1280.webp",
+          "width": 500,
+          "height": 781,
+          "sha256": "402be16c08818187c3482e572bd07479848cf65a2a642c91f59dc2d4ef213af8"
+        }
+      ],
+      "alt": "Caurspīdīga ledus skulptūra ar izgrebtām līnijām un kokiem fonā",
+      "caption": "Ledus skulptūru festivāla arhīva foto no 2008. gada; tas nerāda 2027. gada darbus.",
+      "visualReview": {
+        "checkedAt": "2026-11-15",
+        "sourceSha256": "b651de2de62c5d69c64a78df790ed228f15e579e98578740655d05d260f43c7b",
+        "observation": "Caurspīdīga ledus skulptūra ar izgrebtām līnijām un kokiem fonā"
+      }
+    },
+    "new:riga-marathon": {
+      "id": "riga-marathon",
+      "src": "/assets/event-guides/riga-marathon-960.webp",
+      "width": 960,
+      "height": 516,
+      "sha256": "c18ab67ad63fc98e27c17e886fe2b3ee20b5556292a57bd516447eba031f8b23",
+      "srcset": "/assets/event-guides/riga-marathon-480.webp 480w, /assets/event-guides/riga-marathon-960.webp 960w, /assets/event-guides/riga-marathon-1280.webp 1280w",
+      "author": "Riga Marathon",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Riga_marathon_2019_start_photo.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/75/Riga_marathon_2019_start_photo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "sourceCopy": "docs/sources/event-guides-20261115/riga-marathon.jpg",
+      "sourceSha256": "b4870b45f9903441542c34794a823e814a273ebbe09eca642aacba0e07d07b2a",
+      "files": [
+        {
+          "src": "/assets/event-guides/riga-marathon-480.webp",
+          "width": 480,
+          "height": 258,
+          "sha256": "61064f456f496f82ccebd4c47d57dc00fd87c1dd8673ecb01b9cc597e10f38b9"
+        },
+        {
+          "src": "/assets/event-guides/riga-marathon-960.webp",
+          "width": 960,
+          "height": 516,
+          "sha256": "c18ab67ad63fc98e27c17e886fe2b3ee20b5556292a57bd516447eba031f8b23"
+        },
+        {
+          "src": "/assets/event-guides/riga-marathon-1280.webp",
+          "width": 1280,
+          "height": 688,
+          "sha256": "ba7b9e6bf2bf940351374c71ff9488b38f022d21745715a55c35c3cdeb605f5a"
+        }
+      ],
+      "alt": "Skrējēju pūlis Rīgas maratona starta zonā Daugavas krastmalā",
+      "caption": "Rīgas maratona starts 2019. gadā; arhīva foto, nevis 2027. gada trases karte.",
+      "visualReview": {
+        "checkedAt": "2026-11-15",
+        "sourceSha256": "b4870b45f9903441542c34794a823e814a273ebbe09eca642aacba0e07d07b2a",
+        "observation": "Skrējēju pūlis Rīgas maratona starta zonā Daugavas krastmalā"
+      }
+    },
+    "city:riga": {
+      "src": "/assets/cities/riga-960.webp",
+      "srcset": "/assets/cities/riga-480.webp 480w, /assets/cities/riga-960.webp 960w",
+      "alt": "Rīgas vecpilsētas jumti un Daugava, skats no Svētā Pētera baznīcas",
+      "author": "Diego Delso",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Vistas_desde_la_iglesia_de_San_Pedro,_Riga,_Letonia,_2012-08-07,_DD_12.JPG",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Vistas_desde_la_iglesia_de_San_Pedro%2C_Riga%2C_Letonia%2C_2012-08-07%2C_DD_12.JPG",
+      "commonsFile": "Vistas desde la iglesia de San Pedro, Riga, Letonia, 2012-08-07, DD 12.JPG",
+      "description": "View of Riga from St. Peter's church, Latvia",
+      "derivative": "Resized and converted to WebP; display crop may apply.",
+      "files": {
+        "960": {
+          "width": 960,
+          "height": 623,
+          "bytes": 184148,
+          "sha256": "26228d2eeaf99c5e5c40b975a2d263a55f940c3f4771141c8c59469c94ca9630"
+        },
+        "480": {
+          "width": 480,
+          "height": 312,
+          "bytes": 48808,
+          "sha256": "82242b92bd2e8dd60fce994ce6f619ca9a782a167de811e9f3f64855fc50a4ef"
+        }
+      },
+      "width": 960,
+      "height": 623,
+      "reviewedAt": "2026-11-09",
+      "visualObservation": "Rīgas vecpilsētas jumti un Daugava, skats no Svētā Pētera baznīcas",
+      "reviewEvidence": "contact-sheets/01.jpg",
+      "downloadedFrom": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/Vistas_desde_la_iglesia_de_San_Pedro%2C_Riga%2C_Letonia%2C_2012-08-07%2C_DD_12.JPG/960px-Vistas_desde_la_iglesia_de_San_Pedro%2C_Riga%2C_Letonia%2C_2012-08-07%2C_DD_12.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "downloadedSourceSha256": "6c8282dfcf148bc8b3dcc81f1f7ab21a69c44e8a5793c58befa613725476fbfb",
+      "reviewedDerivativeSha256": "26228d2eeaf99c5e5c40b975a2d263a55f940c3f4771141c8c59469c94ca9630",
+      "id": "event-city-riga",
+      "caption": "Rīgas vecpilsētas jumti un Daugava, skats no Svētā Pētera baznīcas. Vietas ilustrācija; tā nerāda aprakstītā pasākuma programmu."
+    },
+    "city:riga-night": {
+      "src": "/assets/cities-night/riga-night-b42caec573cd.webp",
+      "alt": "Rīga pēc saulrieta",
+      "author": "Ainars Brūvelis",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Riga_at_the_night_-_panoramio_(2).jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Riga_at_the_night_-_panoramio_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "width": 1200,
+      "height": 675,
+      "sha256": "b42caec573cdc2394e81117fe103d5bc59583794acc8cfb75c4b12998785cafe",
+      "id": "event-riga-night",
+      "srcset": "/assets/cities-night/riga-night-b42caec573cd.webp 1200w",
+      "caption": "Melngalvju nams Rīgā naktī. Vietas ilustrācija, nevis Baltās nakts vai Zemes stundas norises foto."
+    },
+    "city:liepaja": {
+      "src": "/assets/cities/liepaja-960.webp",
+      "srcset": "/assets/cities/liepaja-480.webp 480w, /assets/cities/liepaja-960.webp 960w",
+      "alt": "Liepājas centrs un Svētā Jāzepa katedrāle skatā no augšas",
+      "author": "Edgars Šulcs",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Liepajas_Sveta_Jazepa_Romas_katolu_katedrale_2.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Liepajas_Sveta_Jazepa_Romas_katolu_katedrale_2.jpg",
+      "commonsFile": "Liepajas Sveta Jazepa Romas katolu katedrale 2.jpg",
+      "description": "This is a photo of cultural heritage monument of Latvia number",
+      "derivative": "Resized and converted to WebP; display crop may apply.",
+      "files": {
+        "960": {
+          "width": 960,
+          "height": 719,
+          "bytes": 212464,
+          "sha256": "271dd89b9f655b6e0e7f1b24a8e9e82277e3710c61fe3acc9a11f9f455131f9c"
+        },
+        "480": {
+          "width": 480,
+          "height": 360,
+          "bytes": 51494,
+          "sha256": "2f38ad210ff28acc1290b42bb821f321c394d1b63909d24ac070940adaece636"
+        }
+      },
+      "width": 960,
+      "height": 719,
+      "reviewedAt": "2026-11-09",
+      "visualObservation": "Liepājas centrs un Svētā Jāzepa katedrāle skatā no augšas",
+      "reviewEvidence": "contact-sheets/01.jpg",
+      "downloadedFrom": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Liepajas_Sveta_Jazepa_Romas_katolu_katedrale_2.jpg/960px-Liepajas_Sveta_Jazepa_Romas_katolu_katedrale_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "downloadedSourceSha256": "cbab7aecd4132187d9f22588a1d7f0d4d61b58d16cff2fe572f2fc6c6243b13f",
+      "reviewedDerivativeSha256": "271dd89b9f655b6e0e7f1b24a8e9e82277e3710c61fe3acc9a11f9f455131f9c",
+      "id": "event-city-liepaja",
+      "caption": "Liepājas centrs un Svētā Jāzepa katedrāle skatā no augšas. Vietas ilustrācija; tā nerāda aprakstītā pasākuma programmu."
+    },
+    "city:cesis": {
+      "src": "/assets/cities/cesis-960.webp",
+      "srcset": "/assets/cities/cesis-480.webp 480w, /assets/cities/cesis-960.webp 960w",
+      "alt": "Cēsu vecpilsētas jumti un baznīcas tornis skatā no augšas",
+      "author": "Guntars Mednis",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Skats_no_Vidzemes_koncertz%C4%81le_C%C4%93sis_jumta_-_panoramio_(2).jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/27/Skats_no_Vidzemes_koncertz%C4%81le_C%C4%93sis_jumta_-_panoramio_%282%29.jpg",
+      "commonsFile": "Skats no Vidzemes koncertzāle Cēsis jumta - panoramio (2).jpg",
+      "description": "Skats no Vidzemes koncertzāle Cēsis jumta",
+      "derivative": "Resized and converted to WebP; display crop may apply.",
+      "files": {
+        "960": {
+          "width": 960,
+          "height": 640,
+          "bytes": 124966,
+          "sha256": "fa5b4f75dfd608df73441b0040cf5a38d054f9d79d96fe09ab1e4732505b1830"
+        },
+        "480": {
+          "width": 480,
+          "height": 320,
+          "bytes": 32456,
+          "sha256": "99263759e4ff68d6da6c74e207cbddb57d0324bb1a140c14dccf254de05529a1"
+        }
+      },
+      "width": 960,
+      "height": 640,
+      "reviewedAt": "2026-11-09",
+      "visualObservation": "Cēsu vecpilsētas jumti un baznīcas tornis skatā no augšas",
+      "reviewEvidence": "contact-sheets/02.jpg",
+      "downloadedFrom": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/Skats_no_Vidzemes_koncertz%C4%81le_C%C4%93sis_jumta_-_panoramio_%282%29.jpg/960px-Skats_no_Vidzemes_koncertz%C4%81le_C%C4%93sis_jumta_-_panoramio_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "downloadedSourceSha256": "4c5cfc2b505825be4fec017af7543310aaebdc66f3b7ab705b57092996928dd0",
+      "reviewedDerivativeSha256": "fa5b4f75dfd608df73441b0040cf5a38d054f9d79d96fe09ab1e4732505b1830",
+      "id": "event-city-cesis",
+      "caption": "Cēsu vecpilsētas jumti un baznīcas tornis skatā no augšas. Vietas ilustrācija; tā nerāda aprakstītā pasākuma programmu."
+    },
+    "occasion:neatkaribas-atjaunosanas-diena": {
+      "id": "independence",
+      "src": "/assets/occasions/independence-960.webp",
+      "srcset": "/assets/occasions/independence-480.webp 480w, /assets/occasions/independence-960.webp 960w",
+      "width": 960,
+      "height": 640,
+      "alt": "Saeimas Prezidija pārstāves noliek ziedus pie Brīvības pieminekļa",
+      "caption": "Neatkarības atjaunošanas dienas ziedu nolikšana Rīgā, 2021. gada 4. maijs. Arhīva ilustrācija, nevis jaunās programmas fotogrāfija.",
+      "author": "Ieva Ābele / Saeima",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Latvijas_Republikas_neatkar%C4%ABbas_atjauno%C5%A1anas_diena_(51157235998).jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Latvijas_Republikas_neatkar%C4%ABbas_atjauno%C5%A1anas_diena_%2851157235998%29.jpg",
+      "commonsFile": "Latvijas Republikas neatkarības atjaunošanas diena (51157235998).jpg",
+      "sourceDescription": "2021.gada 4.maijs. Saeimas Prezidijs noliek ziedus pie Brīvības pieminekļa. Foto: Ieva Ābele, Saeima Izmantošanas noteikumi: saeima.lv/lv/autortiesibas",
+      "dateCreated": "2021-05-04 10:35",
+      "downloadedFrom": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/Latvijas_Republikas_neatkar%C4%ABbas_atjauno%C5%A1anas_diena_%2851157235998%29.jpg/960px-Latvijas_Republikas_neatkar%C4%ABbas_atjauno%C5%A1anas_diena_%2851157235998%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "downloadedSourceSha256": "28d8c678a49485a6ee170f96b1778abdd8c9dd110b4344fde4f1b4320f300822",
+      "files": {
+        "480": {
+          "width": 480,
+          "height": 320,
+          "bytes": 28212,
+          "sha256": "4e2888372c04e4030ca82373a1fb2c72d97aebae824c01cc1354e278976497c8"
+        },
+        "960": {
+          "width": 960,
+          "height": 640,
+          "bytes": 75134,
+          "sha256": "90ce1ff9f127f0028bace2788b489a2d394d3b3e6e5704c795f17f14df3a190b"
+        }
+      },
+      "derivative": "Resized and converted to WebP; display crop may apply.",
+      "isIllustrative": false,
+      "reviewedAt": "2026-11-10",
+      "reviewedDerivativeSha256": "90ce1ff9f127f0028bace2788b489a2d394d3b3e6e5704c795f17f14df3a190b",
+      "reviewEvidence": "contact-sheets/01.jpg",
+      "objectPosition": "50% 50%",
+      "locationCountry": "LV"
+    },
+    "occasion:ziemassvetki": {
+      "id": "christmas",
+      "src": "/assets/occasions/christmas-960.webp",
+      "srcset": "/assets/occasions/christmas-480.webp 480w, /assets/occasions/christmas-960.webp 960w",
+      "width": 960,
+      "height": 723,
+      "alt": "Ziemassvētku tirdziņa namiņi un egle Rīgas vecpilsētas laukumā",
+      "caption": "Ziemassvētku tirdziņš Rīgā, 2024. gada 9. decembris. Svētku laika arhīva attēls. Arhīva ilustrācija, nevis jaunās programmas fotogrāfija.",
+      "author": "AleWi",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Christmas_market,_Riga_20241209_-_06.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/89/Christmas_market%2C_Riga_20241209_-_06.jpg",
+      "commonsFile": "Christmas market, Riga 20241209 - 06.jpg",
+      "sourceDescription": "Julmarknad i Riga den 9 december 2024.",
+      "dateCreated": "2024-12-09 12:43:02",
+      "downloadedFrom": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Christmas_market%2C_Riga_20241209_-_06.jpg/960px-Christmas_market%2C_Riga_20241209_-_06.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "downloadedSourceSha256": "2aca0d4efa494699c0e32dc7ffb9be9465aebf31f79dfee1e0bb5559d51d2ec1",
+      "files": {
+        "480": {
+          "width": 480,
+          "height": 362,
+          "bytes": 43832,
+          "sha256": "0ad3717b7fd6c11e3a2d7c5fb359c3715a47a0a4f0477b75a1faba5765b1f005"
+        },
+        "960": {
+          "width": 960,
+          "height": 723,
+          "bytes": 183940,
+          "sha256": "2faa9204e0b1834acb340aaf866d97348cb858a45d4fb8572caead6f811ebc12"
+        }
+      },
+      "derivative": "Resized and converted to WebP; display crop may apply.",
+      "isIllustrative": true,
+      "reviewedAt": "2026-11-10",
+      "reviewedDerivativeSha256": "2faa9204e0b1834acb340aaf866d97348cb858a45d4fb8572caead6f811ebc12",
+      "reviewEvidence": "contact-sheets/01.jpg",
+      "objectPosition": "50% 50%",
+      "locationCountry": "LV"
+    },
+    "nature:forest": {
+      "slug": "pasaules-vides-diena",
+      "id": "tradition-pasaules-vides-diena",
+      "title": "File:Forest near Sietiņiezis.jpg",
+      "alt": "Augstas priedes un zaļa meža zemsedze pie Sietiņieža",
+      "caption": "Augstas priedes un zaļa meža zemsedze pie Sietiņieža. Dabas ilustrācija, nevis konkrētas talkas vietas attēls.",
+      "author": "AgrisR",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Forest_near_Sieti%C5%86iezis.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/57/Forest_near_Sieti%C5%86iezis.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "downloadedFrom": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Forest_near_Sieti%C5%86iezis.jpg/1280px-Forest_near_Sieti%C5%86iezis.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "sourceWidth": 4128,
+      "sourceHeight": 3096,
+      "sourceCopy": "docs/sources/tradition-photos-2026-11-11/pasaules-vides-diena.jpg",
+      "sourceSha256": "e0845289ec53a38d480f66cface67ba5859f003b267a7f567c8435b5852e88c0",
+      "retrievedAt": "2026-11-11",
+      "visualReview": {
+        "checkedAt": "2026-11-15",
+        "sourceSha256": "e0845289ec53a38d480f66cface67ba5859f003b267a7f567c8435b5852e88c0",
+        "observation": "Augstas priedes ar taisniem stumbriem un zaļa meža zemsedze; konkrēta talka nav attēlota."
+      },
+      "src": "/assets/tradition-covers/tradition-pasaules-vides-diena-823843211c84-640.webp",
+      "width": 640,
+      "height": 360,
+      "bytes": 83348,
+      "sha256": "823843211c842a1c64935d73b4d94fc7b0334d565a2bcdadfb0094b8c5b25af7",
+      "quality": 80,
+      "srcset": "/assets/tradition-covers/tradition-pasaules-vides-diena-42197e016383-320.webp 320w, /assets/tradition-covers/tradition-pasaules-vides-diena-823843211c84-640.webp 640w, /assets/tradition-covers/tradition-pasaules-vides-diena-84b887abc899-960.webp 960w, /assets/tradition-covers/tradition-pasaules-vides-diena-762e7e7ea8cd-1280.webp 1280w",
+      "files": [
+        {
+          "src": "/assets/tradition-covers/tradition-pasaules-vides-diena-42197e016383-320.webp",
+          "width": 320,
+          "height": 180,
+          "bytes": 18678,
+          "sha256": "42197e0163838b4d677cd3dff448de42662554dfc65386d986e48201f4a0b6a7",
+          "quality": 80
+        },
+        {
+          "src": "/assets/tradition-covers/tradition-pasaules-vides-diena-823843211c84-640.webp",
+          "width": 640,
+          "height": 360,
+          "bytes": 83348,
+          "sha256": "823843211c842a1c64935d73b4d94fc7b0334d565a2bcdadfb0094b8c5b25af7",
+          "quality": 80
+        },
+        {
+          "src": "/assets/tradition-covers/tradition-pasaules-vides-diena-84b887abc899-960.webp",
+          "width": 960,
+          "height": 540,
+          "bytes": 168484,
+          "sha256": "84b887abc89963bdbade2b87c2be10e823f78a301dface1472a5d4db17b3a771",
+          "quality": 72
+        },
+        {
+          "src": "/assets/tradition-covers/tradition-pasaules-vides-diena-762e7e7ea8cd-1280.webp",
+          "width": 1280,
+          "height": 720,
+          "bytes": 258454,
+          "sha256": "762e7e7ea8cdce184bbeb44bc02ee37495d5ef540d5a6294af4aad15e09d3e16",
+          "quality": 50
+        }
+      ],
+      "transform": "16:9 kadrējums; samazināts WebP attēls"
+    },
+    "occasion:ziemas-saulgriezi": {
+      "id": "winter",
+      "src": "/assets/occasions/winter-960.webp",
+      "srcset": "/assets/occasions/winter-480.webp 480w, /assets/occasions/winter-960.webp 960w",
+      "width": 960,
+      "height": 720,
+      "alt": "Apsniguši koki un Rīgas Kristus Piedzimšanas katedrāle ziemā",
+      "caption": "Rīga ziemā. Vietas noskaņas ilustrācija, nevis Bluķa vakara norises foto.",
+      "author": "Lee Vilenski",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Snowed_areas_of_Riga,_Latvia_(18092).jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Snowed_areas_of_Riga%2C_Latvia_%2818092%29.jpg",
+      "commonsFile": "Snowed areas of Riga, Latvia (18092).jpg",
+      "sourceDescription": "streets in Riga, Latvia, covered in snow, February 2024",
+      "dateCreated": "8 February 2024 (according to Exif data)",
+      "downloadedFrom": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Snowed_areas_of_Riga%2C_Latvia_%2818092%29.jpg/960px-Snowed_areas_of_Riga%2C_Latvia_%2818092%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "downloadedSourceSha256": "e6037ec4b805b6c50d5fd6b76ca58595c3bf9918c781de8191cc3f00a9601c41",
+      "files": {
+        "480": {
+          "width": 480,
+          "height": 360,
+          "bytes": 36684,
+          "sha256": "a5c95551f7fe9b55565fc8d533e6c2302ee3464c233e26b366a1d317f8f9f99b"
+        },
+        "960": {
+          "width": 960,
+          "height": 720,
+          "bytes": 164354,
+          "sha256": "8d66f0daa79503eb23a388e1b3655c1221213cc095a2b64bcf6aba4fcf3c8691"
+        }
+      },
+      "derivative": "Resized and converted to WebP; display crop may apply.",
+      "isIllustrative": true,
+      "reviewedAt": "2026-11-10",
+      "reviewedDerivativeSha256": "8d66f0daa79503eb23a388e1b3655c1221213cc095a2b64bcf6aba4fcf3c8691",
+      "reviewEvidence": "contact-sheets/02.jpg",
+      "objectPosition": "50% 50%",
+      "locationCountry": "LV"
+    },
+    "university:rtu": {
+      "src": "/assets/universities/rtu.jpg",
+      "caption": "Rīgas Tehniskās universitātes pilsētiņa Ķīpsalā. Vietas ilustrācija, nevis apstiprināta Zinātnieku nakts programma.",
+      "alt": "Rīgas Tehniskās universitātes galvenās pilsētiņas fasāde Ķīpsalā",
+      "author": "Rīgas pašvaldības aģentūra Rīgas investīciju un tūrisma aģentūra",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Riga_Technical_University.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Riga_Technical_University.jpg",
+      "width": 1280,
+      "height": 853
+    },
+    "city:ventspils": {
+      "src": "/assets/cities/ventspils-960.webp",
+      "srcset": "/assets/cities/ventspils-480.webp 480w, /assets/cities/ventspils-960.webp 960w",
+      "alt": "Ventspils Livonijas ordeņa pils un ostas krastmala skatā no augšas",
+      "author": "Edgars Šulcs",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ventspils_viduslaiku_pils_5.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Ventspils_viduslaiku_pils_5.jpg",
+      "commonsFile": "Ventspils viduslaiku pils 5.jpg",
+      "description": "This is a photo of cultural heritage monument of Latvia number",
+      "derivative": "Resized and converted to WebP; display crop may apply.",
+      "files": {
+        "960": {
+          "width": 960,
+          "height": 720,
+          "bytes": 227024,
+          "sha256": "640bfd25d952ff42072665969f47e869d984f2617fc6f3e58dbaa549b5028293"
+        },
+        "480": {
+          "width": 480,
+          "height": 360,
+          "bytes": 54552,
+          "sha256": "e3cd81af92a886e78a3d0c31d409cc012ffbee392e4a7fc109080ba60a242692"
+        }
+      },
+      "width": 960,
+      "height": 720,
+      "reviewedAt": "2026-11-09",
+      "visualObservation": "Ventspils Livonijas ordeņa pils un ostas krastmala skatā no augšas",
+      "reviewEvidence": "contact-sheets/01.jpg",
+      "downloadedFrom": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/Ventspils_viduslaiku_pils_5.jpg/960px-Ventspils_viduslaiku_pils_5.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "downloadedSourceSha256": "015ed14a2b3ad53cb2f13d2fdf1dc16dc2ca35762ba3cafcfc9a89e58c786a15",
+      "reviewedDerivativeSha256": "640bfd25d952ff42072665969f47e869d984f2617fc6f3e58dbaa549b5028293",
+      "id": "event-city-ventspils",
+      "caption": "Ventspils Livonijas ordeņa pils un ostas krastmala skatā no augšas. Vietas ilustrācija; tā nerāda aprakstītā pasākuma programmu."
+    },
+    "occasion:valsts-valodas-diena": {
+      "id": "language",
+      "src": "/assets/occasions/language-960.webp",
+      "srcset": "/assets/occasions/language-480.webp 480w, /assets/occasions/language-960.webp 960w",
+      "width": 960,
+      "height": 1280,
+      "alt": "Atvērts oriģinālais Dainu skapis Latvijas Nacionālajā bibliotēkā",
+      "caption": "Dainu skapja oriģināls Latvijas Nacionālajā bibliotēkā, 2018. Tematisks latviešu valodas un kultūras mantojuma attēls. Arhīva ilustrācija, nevis jaunās programmas fotogrāfija.",
+      "author": "Savannah Rivka",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dainu_skapja_ori%C4%A3in%C4%81ls_LNB.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/18/Dainu_skapja_ori%C4%A3in%C4%81ls_LNB.jpg",
+      "commonsFile": "Dainu skapja oriģināls LNB.jpg",
+      "sourceDescription": "Original Cabinet of Folksongs at the National Library of Latvia",
+      "dateCreated": "2018-04-12 17:20:16",
+      "downloadedFrom": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Dainu_skapja_ori%C4%A3in%C4%81ls_LNB.jpg/960px-Dainu_skapja_ori%C4%A3in%C4%81ls_LNB.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "downloadedSourceSha256": "d805c6623e207837ce61d98b63f3f56694d1f9e6e6aedfa39303a3c255183e2c",
+      "files": {
+        "480": {
+          "width": 480,
+          "height": 640,
+          "bytes": 44100,
+          "sha256": "30b49b3e02c01a88337498b55ed0d31a91f57dff372b61365d970a494de123fa"
+        },
+        "960": {
+          "width": 960,
+          "height": 1280,
+          "bytes": 165962,
+          "sha256": "d3cb620ed472cc5e7cba8e8e76a9c3607fc01c86e03c97ae38dafa3a8e51af56"
+        }
+      },
+      "derivative": "Resized and converted to WebP; display crop may apply.",
+      "isIllustrative": true,
+      "reviewedAt": "2026-11-10",
+      "reviewedDerivativeSha256": "d3cb620ed472cc5e7cba8e8e76a9c3607fc01c86e03c97ae38dafa3a8e51af56",
+      "reviewEvidence": "contact-sheets/02.jpg",
+      "objectPosition": "50% 50%",
+      "locationCountry": "LV"
+    }
+  }
+}

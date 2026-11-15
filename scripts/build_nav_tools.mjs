@@ -1,3 +1,4 @@
+import {latviaArtwork} from './latvia-art-palette.mjs';
 import fs from 'node:fs';
 import crypto from 'node:crypto';
 
@@ -118,7 +119,7 @@ fs.mkdirSync(out,{recursive:true});
 const manifest=[];
 for(const [key,draw] of Object.entries({print:printer,work,calculator,tools})) {
   const id='nav-'+key;
-  const svg=`<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-labelledby="${id}-title ${id}-desc"><title id="${id}-title">${labels[key]}</title><desc id="${id}-desc">Kalendārs365 oriģināla telpiska vektoru ilustrācija ar slāņotām virsmām, materiālu atspīdumiem un ēnu.</desc>${surface(id)}${draw(id)}</svg>\n`;
+  const svg=latviaArtwork(`<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-labelledby="${id}-title ${id}-desc"><title id="${id}-title">${labels[key]}</title><desc id="${id}-desc">Kalendārs365 oriģināla telpiska vektoru ilustrācija ar slāņotām virsmām, materiālu atspīdumiem un ēnu.</desc>${surface(id)}${draw(id)}</svg>\n`);
   if(/<(?:image|foreignObject|script)\b|\b(?:NaN|Infinity|undefined)\b/.test(svg))throw Error('Invalid vector '+key);
   const file=`${out}/${key}.svg`;fs.writeFileSync(file,svg);
   manifest.push({id:key,label:labels[key],file:'/'+file,bytes:Buffer.byteLength(svg),sha256:crypto.createHash('sha256').update(svg).digest('hex'),kind:'original-layered-vector'});

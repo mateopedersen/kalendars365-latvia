@@ -1,3 +1,4 @@
+import {latviaArtwork} from './latvia-art-palette.mjs';
 import fs from 'node:fs';
 import crypto from 'node:crypto';
 import {planningArt} from './vector-planning.mjs';
@@ -18,7 +19,7 @@ function defs(id,ice=false){const colors=ice?['#fbfeff','#c4dce5','#7fa4b6']:['#
 <filter id="${id}-soft" x="-50%" y="-100%" width="200%" height="300%"><feGaussianBlur stdDeviation="3.5"/></filter>
 </defs>`;}
 function body(name,id){return planningArt(name,id)||lifeArt(name,id)||natureArt(name,id);}
-function wrap(name,content,id,ice=false,title=names[name]||name){return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 260" role="img" aria-labelledby="${id}-title ${id}-description"><title id="${id}-title">${E(title)}</title><desc id="${id}-description">Kalendāram365 radīta oriģināla vektoru ilustrācija ar apjoma, gaismas un materiālu zīmējumu. Fotogrāfijas un pikseļu attēli nav izmantoti.</desc>${defs(id,ice)}${content}</svg>\n`;}
+function wrap(name,content,id,ice=false,title=names[name]||name){return latviaArtwork(`<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 260" role="img" aria-labelledby="${id}-title ${id}-description"><title id="${id}-title">${E(title)}</title><desc id="${id}-description">Kalendāram365 radīta oriģināla vektoru ilustrācija ar apjoma, gaismas un materiālu zīmējumu. Fotogrāfijas un pikseļu attēli nav izmantoti.</desc>${defs(id,ice)}${content}</svg>\n`);}
 const dir='assets/category-vector';fs.mkdirSync(dir,{recursive:true});const manifest=[];
 for(const [name,label] of Object.entries(names)){
  const id='kv-'+name,content=body(name,id);if(!content){if(['clock','pdf','webp','print'].includes(name))continue;throw Error('Missing vector subject '+name);}

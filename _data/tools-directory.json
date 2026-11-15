@@ -27,6 +27,16 @@
     "artDescription": "Gada kalendārs ar vairāku mēnešu pārskatu"
   },
   {
+    "url": "/adventes-kalendars/",
+    "title": "Adventes kalendārs",
+    "description": "Atver 24 telpiskus decembra lodziņus ar latviskām svētku idejām. Saglabā savu atvērto dienu progresu.",
+    "image": "calendar",
+    "kind": "calendar",
+    "art": "advent",
+    "artDescription": "Bordo un balta Adventes dāvanu kastīte ar lenti un atvērtu vāciņu",
+    "keywords": "advente Ziemassvētki decembris 24 lodziņi"
+  },
+  {
     "url": "/izveidot-kalendaru/",
     "title": "Izveido savu kalendāru",
     "description": "Izveido kalendāru ar savām fotogrāfijām, krāsām un svarīgiem datumiem. Pārbaudi izkārtojumu priekšskatījumā un saglabā drukai.",
@@ -214,5 +224,25 @@
     "kind": "personal",
     "art": "horoscope",
     "artDescription": "Zvaigžņu kompasa disks metāliskā ietvarā"
+  },
+  {
+    "url": "/nodoklu-kalkulators/",
+    "title": "Nodokļu un algas kalkulators",
+    "description": "Bruto un neto alga, IIN, VSAOI, darba devēja izmaksas un PVN 2026. gadā.",
+    "image": "calculator",
+    "kind": "work",
+    "art": "tax",
+    "artDescription": "Nodokļu aprēķinu kalkulators un deklarācijas lapa",
+    "keywords": "nodokļi alga bruto neto PVN IIN VSAOI 2026"
+  },
+  {
+    "url": "/copes-kalendars/",
+    "title": "Copes kalendārs",
+    "description": "Zivju liegumi, sezonu datumi, loma limiti un licencētas makšķerēšanas vietas Latvijā.",
+    "image": "nature",
+    "kind": "nature",
+    "art": "fishing",
+    "artDescription": "Zivs un makšķerēšanas kalendārs",
+    "keywords": "cope makšķerēšana zivis līdakas zandarti liegums licence ezers sezona"
   }
 ]

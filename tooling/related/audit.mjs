@@ -35,9 +35,21 @@ export function auditRelated(site=process.env.K365_SITE||'_site'){
   const file=path.join(site,route,route.endsWith('/')?'index.html':'');
   const doc=parseDocument(fs.readFileSync(file,'utf8'));
   const sections=findAll(n=>'data-related-discovery' in (n.attribs||{}),doc.children,true);
-  const row={route,mode:plan.show?'contextual':route==='/'?'home':'recovery',cards:0,targets:[]};
+  const row={route,mode:plan.show?'contextual':route==='/'?'home':['/nozimigas-dienas/','/pabalstu-izmaksas/'].includes(route)?'directory':'recovery',cards:0,targets:[]};
   if(route==='/'){
    if(sections.length!==1||!('data-related-home' in (sections[0]?.attribs||{})))fail(route,'Home must reuse its unique curated discovery section');
+  }else if(route==='/nozimigas-dienas/'){
+   const entries=findAll(n=>n.name==='a'&&'data-event-card' in (n.attribs||{}),doc.children,true);
+   const expected=read('_data/event-guides.json').guides.map(g=>g.url);
+   row.targets=entries.map(n=>n.attribs.href);row.cards=entries.length;renderedCards+=entries.length;
+   if(new Set(row.targets).size!==expected.length||expected.some(url=>!row.targets.includes(url)))fail(route,'Event directory must link every guide exactly once');
+   for(const node of entries){if(!indexed.has(node.attribs.href)||!fs.existsSync(path.join(site,node.attribs.href,'index.html')))fail(route,'Event directory has a dead destination');const images=findAll(n=>n.name==='img',[node],true);if(images.length!==1||!images[0].attribs.alt)fail(route,'Event directory needs an identified image');}
+  }else if(route==='/pabalstu-izmaksas/'){
+   const entries=findAll(n=>n.name==='a'&&hasClass(n,'benefit-card'),doc.children,true);
+   const expected=read('_data/benefit-guides.json').guides.map(g=>g.url);
+   row.targets=entries.map(n=>n.attribs.href);row.cards=entries.length;renderedCards+=entries.length;
+   if(new Set(row.targets).size!==expected.length||expected.some(url=>!row.targets.includes(url)))fail(route,'Benefit directory must link every reviewed guide exactly once');
+   for(const node of entries){if(!indexed.has(node.attribs.href)||!fs.existsSync(path.join(site,node.attribs.href,'index.html')))fail(route,'Benefit directory has a dead destination');if(!findAll(n=>n.name==='h3',[node],true).length)fail(route,'Benefit directory needs descriptive card headings');}
   }else if(plan.show){
    if(sections.length!==1){fail(route,'Exactly one contextual section required');continue;}
    const section=sections[0],rendered=findAll(n=>n.name==='a'&&'data-related-target' in (n.attribs||{}),[section],true);

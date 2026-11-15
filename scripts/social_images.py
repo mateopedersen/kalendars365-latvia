@@ -31,6 +31,9 @@ for occasion in read('_data/occasions.json'):PHOTO_META.setdefault(occasion['pho
 PROFILES={p['slug']:p for p in read('_data/horoscope/profiles.json')['profiles']}
 MOONS=json.loads((CACHE/'moon-noon.json').read_text())['days']
 ART_PHOTOS=read('_data/astronomy-photos.json')['photos']
+EVENT_GUIDES={g['url']:g for g in read('_data/event-guides.json')['guides']}
+BENEFIT_GUIDES={g['url']:g for g in read('_data/benefit-guides.json')['guides']}
+EVENT_PHOTOS=read('_data/event-guide-photos.json')['photos']
 MONTHS=['Janvāris','Februāris','Marts','Aprīlis','Maijs','Jūnijs','Jūlijs','Augusts','Septembris','Oktobris','Novembris','Decembris']
 SLUGS=['janvaris','februaris','marts','aprilis','maijs','junijs','julijs','augusts','septembris','oktobris','novembris','decembris']
 DAYS=['P.','O.','T.','C.','Pk.','S.','Sv.']; DAY_NAMES=['Pirmdiena','Otrdiena','Trešdiena','Ceturtdiena','Piektdiena','Sestdiena','Svētdiena']
@@ -368,6 +371,12 @@ def render_panel(r):
   if f=='moon_city':paste_fit(im,moon_img(105,.5),(345,90,458,203))
   else:
    pts=[(45+i*13,245-95*math.sin(i/32*math.pi)) for i in range(33)];line(im,pts,'#f9dc9b',2);ellipse(im,(245,135,268,158),'#ffe1a0')
+ elif f=='benefit_guide' or p=='/pabalstu-izmaksas/':
+  g=BENEFIT_GUIDES.get(p);kind='benefit';im=panel(color='#f8f0e7');kicker='SOCIĀLAIS ATBALSTS LATVIJĀ';subtitle=g['rhythm'] if g else 'Pieteikums · Lēmums · Maksājums'
+  label=g['short'] if g else 'Pabalsti Latvijā';metric=g['metric'] if g else 'Tavs lēmums';caption=g['metricLabel'] if g else 'Nav vienas izmaksas dienas visiem'
+  asset='/assets/category-vector/'+(g['icon'] if g else 'planner')+'.svg';assets.extend([asset,'/_data/benefit-guides.json']);rr(im,(26,26,480,529),23,'#fffdf8','#dfced0');paste_fit(im,art(asset),(176,38,330,192));fitted(im,(51,212),label,400,94,31,22,3,WINE);line(im,[(50,322),(456,322)],'#dfced0');fitted(im,(50,352),metric,408,72,43,26,2,WINE);fitted(im,(50,448),caption,400,57,19,15,2,MUTED,False)
+ elif f in ['event_guide','event_index'] or p=='/nozimigas-dienas/':
+  g=EVENT_GUIDES.get(p,next(iter(EVENT_GUIDES.values())));photo=source_photo(EVENT_PHOTOS[g['photo']]);photos.append(photo);kind='occasion';im=photo_panel(photo,g['city'].upper(),g['title'] if f=='event_guide' else 'Atrodi savu nākamo notikumu');kicker='PASĀKUMU CEĻVEDIS' if f=='event_guide' else 'NOTIKUMI LATVIJĀ';subtitle=g['dateLabel'] if f=='event_guide' else 'Datumi · Vietas · Apmeklējuma plāns'
  elif f in ['occasion','latvia_cultural']:
   kind='occasion';cover={**PHOTO_META[COVER_FOR[p]],**TRADITIONS[COVER_FOR[p]]};photo=source_photo(cover,max(cover['files'],key=lambda x:x['width'])['src']);photos.append(photo);im=photo_panel(photo,'LATVIJAS DIENAS',r['title']);kicker='SVĒTKI UN TRADĪCIJAS';subtitle='Svētku stāsts un svarīgākie datumi'
  elif f=='blog_article':
@@ -413,7 +422,7 @@ def render_panel(r):
  return im,{'kind':kind,'kicker':kicker,'subtitle':subtitle,'badge':badge,'assets':sorted(set(assets)),'photos':photos,'year':y,'month':m}
 
 def main():
- parser=argparse.ArgumentParser();parser.add_argument('--only',nargs='*');args=parser.parse_args();selected=[r for r in ROUTES if not args.only or r['url'] in args.only];results=[];titles=[];receipt=(ROOT/'../reports/social-cards-2026-11-11/render-receipts.jsonl').resolve();receipt.write_text('')
+ parser=argparse.ArgumentParser();parser.add_argument('--only',nargs='*');args=parser.parse_args();selected=[r for r in ROUTES if not args.only or r['url'] in args.only];results=[];titles=[];receipt=(ROOT/'../reports/social-cards-2026-11-11/render-receipts.jsonl').resolve();receipt.parent.mkdir(parents=True,exist_ok=True);receipt.write_text('')
  for i,r in enumerate(selected):
   stage,spec=render_panel(r);edge=Image.new('L',stage.size);ImageDraw.Draw(edge).rounded_rectangle((0,0,stage.width-1,stage.height-1),28*S,fill=255);stage.putalpha(ImageChops_multiply(stage.getchannel('A'),edge));theme='moon' if spec['kind'] in ['moon','moon-city','zodiac'] else 'garden' if spec['kind']=='garden' else 'sun' if spec['kind'] in ['city','occasion','home'] else 'paper';dark=theme=='moon';fg='#fff9ed' if dark else WINE;muted='#b6becb' if dark else MUTED
   im=background(theme).copy();flag(im,61,59,28);text(im,(103,49),'Kalendārs365',37,fg,True);line(im,[(61,111),(575,111)],'#424557' if dark else '#d7c9be');text(im,(62,139),spec['kicker'],12,'#e4be78' if dark else '#915267',True)

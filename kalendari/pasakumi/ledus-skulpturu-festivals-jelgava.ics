@@ -1,0 +1,18 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Kalendars365.lv//Events//LV
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:ledus-skulpturu-festivals-jelgava-2027-02-06@kalendars365.lv
+DTSTAMP:20261115T180000Z
+DTSTART;VALUE=DATE:20270206
+DTEND;VALUE=DATE:20270208
+SUMMARY:Ledus skulptūru festivāls Jelgavā 2027
+LOCATION:Jelgava\; precīzās ieejas skati 2027. gada programmā
+DESCRIPTION:Dienas grafiks vēl jāizziņo. https://kultura.jelgava.lv/star
+ ptautiskais-ledus-skulpturu-festivals/
+URL:https://kalendars365.lv/pasakumi/ledus-skulpturu-festivals-jelgava/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

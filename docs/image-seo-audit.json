@@ -2,15 +2,15 @@
   "schemaVersion": 1,
   "site": "_site",
   "totals": {
-    "pages": 901,
-    "imageElements": 51535,
-    "decorativeImages": 47531,
-    "lazyImages": 37192,
-    "descriptiveImages": 4004,
-    "responsiveImages": 6731,
-    "highPriorityImages": 493,
+    "pages": 938,
+    "imageElements": 57904,
+    "decorativeImages": 53794,
+    "lazyImages": 43166,
+    "descriptiveImages": 4110,
+    "highPriorityImages": 521,
+    "responsiveImages": 6929,
     "hiddenPrivateUploadSlots": 1
   },
-  "uniqueImageFiles": 3911,
+  "uniqueImageFiles": 4035,
   "errors": []
 }

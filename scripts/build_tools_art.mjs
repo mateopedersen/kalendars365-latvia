@@ -1,3 +1,4 @@
+import {latviaArtwork} from './latvia-art-palette.mjs';
 import fs from 'node:fs';
 import crypto from 'node:crypto';
 import {earthDisc} from './vector-nature.mjs';
@@ -74,6 +75,12 @@ function book(study=false){let s=path('M57 77Q106 56 158 80Q211 57 261 76V211Q21
  return `<g transform="rotate(-6 160 135)" filter="url(#shadow)">${s}</g>`;
 }
 function scene(id){
+ if(id==='fishing')return `<g filter="url(#shadow)">${path('M54 141Q116 49 237 142Q124 224 54 141Z',g('paper'),'stroke="#79243c" stroke-width="4"')}${path('M232 141L287 92V190Z',g('wine'))}${path('M127 80L157 42L183 79M125 192L153 230L184 192',g('wine'))}${path('M104 106Q130 141 104 180','none','stroke="#ab6578" stroke-width="4"')}${circle(84,136,6,'#591e32')}${line(60,247,262,247,'#ae7888',3)}</g>`;
+
+ if(id==='pension')return `<g filter="url(#shadow)">${rect(55,73,207,144,10,g('wine'))}${path('M55 85V62Q55 51 67 51H128L147 73Z',g('wine'))}${rect(92,36,132,134,5,g('paper'))}${text(158,74,'PENSIJA',16,'#79243c','text-anchor="middle"')}${line(111,92,204,92,'#c09aa5',3)}${line(111,111,185,111,'#c09aa5',3)}${rect(56,135,205,89,10,g('wine'))}${circle(217,185,28,g('metal'))}${text(217,195,'€',29,'#79243c','text-anchor="middle"')}</g>`;
+ if(id==='tax')return `<g transform="translate(-24 15) scale(.84)">${calculator()}</g><g filter="url(#shadow)" transform="rotate(9 220 130)">${rect(192,85,91,128,4,g('paper'))}${text(237,112,'VID',18,'#79243c','text-anchor="middle"')}${line(205,129,270,129,'#bf9ba7',2)}${line(205,144,270,144,'#bf9ba7',2)}${line(205,159,250,159,'#bf9ba7',2)}${path('M213 184L227 197L255 172','none','stroke="#79243c" stroke-width="5"')}</g>`;
+
+ if(id==='advent')return `<g filter="url(#shadow)">${rect(69,110,182,125,8,g('wine'))}${rect(63,95,194,35,5,g('paper'))}${rect(142,96,29,139,2,g('wine'))}${path('M157 96C87 83 112 28 149 72L157 96C175 26 225 54 192 79Z','none',`stroke="${g('wine')}" stroke-width="15"`)}${rect(80,147,49,54,4,g('paper'))}${text(104,183,'24',29,'#79243c','text-anchor="middle"')}${path('M190 148L198 169L222 171L204 186L209 208L190 196L170 208L175 186L158 171L182 169Z',g('paper'))}</g>`;
  if(['month','week','year'].includes(id))return calendar(id==='month'?'month':id);
  if(id==='maker')return `<g transform="rotate(-7 150 137)" filter="url(#shadow)">${paper(61,44,179,181)}${rect(79,65,143,82,5,'#dae5dd')}${circle(186,86,14,g('sun'))}${path('M79 129L119 86L159 125L184 106L222 138V147H79Z',g('teal'))}${rect(79,163,98,7,3,'#c0c2b5')}${rect(79,178,133,5,2,'#d6d3c7')}${rect(79,190,110,5,2,'#d6d3c7')}</g>${pencil(245,169,26)}${circle(247,65,18,g('wine'))}${path('M239 65H255M247 57V73','none','stroke="#fff5e9" stroke-width="3" stroke-linecap="round"')}`;
  if(id==='family'){
@@ -124,7 +131,7 @@ function scene(id){
  throw Error('Missing artwork '+id);
 }
 const manifest=[];
-for(const item of catalog){const content=scene(item.art),svg=`<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 280" role="img" aria-labelledby="title desc"><title id="title">${esc(item.title)}</title><desc id="desc">Kalendārs365 oriģināla vektoru ilustrācija: ${esc(item.artDescription)}. Apjoms veidots ar materiālu gaismēnām, atspīdumiem un perspektīvu.</desc>${defs}${shadow()}${content}</svg>\n`;
+for(const item of catalog){const content=scene(item.art),svg=latviaArtwork(`<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 280" role="img" aria-labelledby="title desc"><title id="title">${esc(item.title)}</title><desc id="desc">Kalendārs365 oriģināla vektoru ilustrācija: ${esc(item.artDescription)}. Apjoms veidots ar materiālu gaismēnām, atspīdumiem un perspektīvu.</desc>${defs}${shadow()}${content}</svg>\n`);
  if(/<(?:image|foreignObject|script)\b|data:image|\b(?:NaN|Infinity|undefined)\b/.test(svg))throw Error('Invalid SVG '+item.art);
  const file=`/${dir}/${item.art}.svg`;fs.writeFileSync('.'+file,svg);manifest.push({id:item.art,title:item.title,file,sha256:crypto.createHash('sha256').update(svg).digest('hex'),bytes:Buffer.byteLength(svg),description:item.artDescription});}
 fs.writeFileSync('_data/tools-art.json',JSON.stringify({version:1,kind:'original-vector',artworks:manifest},null,2)+'\n');console.log(JSON.stringify({artworks:manifest.length,allPureSVG:true,bytes:manifest.reduce((a,b)=>a+b.bytes,0)}));

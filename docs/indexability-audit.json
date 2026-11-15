@@ -1,19 +1,43 @@
 {
   "schemaVersion": 1,
-  "contentPages": 899,
+  "contentPages": 935,
   "excludedPage": "/pilsetas-un-fotografijas/",
   "errorDocuments": [
     "/404.html",
     "/500.html"
   ],
-  "publicImageFiles": 9511,
-  "sitemapImages": 4415,
-  "imageReferences": 9122,
-  "imageSitemapBytes": 1284104,
+  "publicImageFiles": 9726,
+  "sitemapImages": 4492,
+  "imageReferences": 9259,
+  "imageSitemapBytes": 1302870,
   "pages": [
     {
       "url": "/",
-      "images": 122
+      "images": 125
+    },
+    {
+      "url": "/adventes-kalendars/",
+      "images": 2
+    },
+    {
+      "url": "/adventes-kalendars/2026/",
+      "images": 2
+    },
+    {
+      "url": "/adventes-kalendars/2027/",
+      "images": 2
+    },
+    {
+      "url": "/adventes-kalendars/2028/",
+      "images": 2
+    },
+    {
+      "url": "/adventes-kalendars/2029/",
+      "images": 2
+    },
+    {
+      "url": "/adventes-kalendars/2030/",
+      "images": 2
     },
     {
       "url": "/astronomiskais-kalendars/",
@@ -182,6 +206,10 @@
     {
       "url": "/blogs/ziemas-dienas-garums-latvija/",
       "images": 9
+    },
+    {
+      "url": "/copes-kalendars/",
+      "images": 29
     },
     {
       "url": "/darba-dienu-kalendars/",
@@ -2272,16 +2300,132 @@
       "images": 1
     },
     {
+      "url": "/nodoklu-kalkulators/",
+      "images": 1
+    },
+    {
       "url": "/nozimigas-dienas/",
-      "images": 44
+      "images": 68
     },
     {
       "url": "/pabalstu-izmaksas/",
       "images": 1
     },
     {
+      "url": "/pabalstu-izmaksas/berna-kopsanas-pabalsts/",
+      "images": 1
+    },
+    {
+      "url": "/pabalstu-izmaksas/berna-piedzimsanas-pabalsts/",
+      "images": 1
+    },
+    {
+      "url": "/pabalstu-izmaksas/bezdarbnieka-pabalsts/",
+      "images": 1
+    },
+    {
+      "url": "/pabalstu-izmaksas/gimenes-valsts-pabalsts/",
+      "images": 1
+    },
+    {
+      "url": "/pabalstu-izmaksas/gmi-pabalsts/",
+      "images": 1
+    },
+    {
+      "url": "/pabalstu-izmaksas/majokla-pabalsts/",
+      "images": 1
+    },
+    {
+      "url": "/pabalstu-izmaksas/slimibas-pabalsts/",
+      "images": 1
+    },
+    {
+      "url": "/pabalstu-izmaksas/vecaku-pabalsts/",
+      "images": 1
+    },
+    {
       "url": "/par-projektu/",
       "images": 3
+    },
+    {
+      "url": "/pasakumi/18-novembris-riga/",
+      "images": 3
+    },
+    {
+      "url": "/pasakumi/balta-nakts/",
+      "images": 2
+    },
+    {
+      "url": "/pasakumi/bluka-vakars/",
+      "images": 3
+    },
+    {
+      "url": "/pasakumi/enu-diena/",
+      "images": 3
+    },
+    {
+      "url": "/pasakumi/kiberpirmdiena/",
+      "images": 1
+    },
+    {
+      "url": "/pasakumi/ledus-skulpturu-festivals-jelgava/",
+      "images": 4
+    },
+    {
+      "url": "/pasakumi/legendu-nakts/",
+      "images": 3
+    },
+    {
+      "url": "/pasakumi/liela-talka/",
+      "images": 5
+    },
+    {
+      "url": "/pasakumi/liepaja-2027-atklasana/",
+      "images": 3
+    },
+    {
+      "url": "/pasakumi/melna-piektdiena/",
+      "images": 1
+    },
+    {
+      "url": "/pasakumi/muzeju-nakts/",
+      "images": 3
+    },
+    {
+      "url": "/pasakumi/rigas-dzimsanas-diena/",
+      "images": 3
+    },
+    {
+      "url": "/pasakumi/rigas-maratons/",
+      "images": 4
+    },
+    {
+      "url": "/pasakumi/rigas-operas-festivals/",
+      "images": 3
+    },
+    {
+      "url": "/pasakumi/sarunu-festivals-lampa/",
+      "images": 3
+    },
+    {
+      "url": "/pasakumi/senas-uguns-nakts/",
+      "images": 3
+    },
+    {
+      "url": "/pasakumi/summer-sound/",
+      "images": 3
+    },
+    {
+      "url": "/pasakumi/zemes-stunda/",
+      "images": 2
+    },
+    {
+      "url": "/pasakumi/ziemassvetku-tirdzins-riga/",
+      "images": 3
+    },
+    {
+      "url": "/pasakumi/zinatnieku-nakts/",
+      "images": 2
     },
     {
       "url": "/pdf-kalendari/",
@@ -2497,7 +2641,7 @@
     },
     {
       "url": "/pensiju-izmaksas/",
-      "images": 1
+      "images": 4
     },
     {
       "url": "/perseidas/",

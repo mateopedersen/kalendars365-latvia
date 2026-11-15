@@ -1,0 +1,1034 @@
+{
+  "checkedAt": "2026-11-15",
+  "guides": [
+    {
+      "slug": "gimenes-valsts-pabalsts",
+      "url": "/pabalstu-izmaksas/gimenes-valsts-pabalsts/",
+      "title": "Ģimenes valsts pabalsts 2026 un izmaksas kārtība",
+      "short": "Ģimenes valsts pabalsts",
+      "group": "Ģimenei",
+      "icon": "family",
+      "metric": "No 1 gada",
+      "metricLabel": "Bērna vecums",
+      "rhythm": "Par kārtējo mēnesi",
+      "intro": "Cik maksā par vienu, diviem vai vairākiem bērniem, kad sākas ģimenes valsts pabalsts un kur atrast savu izmaksas datumu? Īss ceļvedis vecākiem Latvijā.",
+      "description": "Cik maksā par vienu, diviem vai vairākiem bērniem, kad sākas ģimenes valsts pabalsts un kur atrast savu izmaksas datumu? Īss ceļvedis vecākiem Latvijā.",
+      "sections": [
+        {
+          "title": "Cik liels ir pabalsts?",
+          "text": "Par vienu bērnu, par kuru persona saņem pabalstu, maksā 25 eiro mēnesī; par diviem kopā 100 eiro, par trim kopā 225 eiro, bet par četriem un vairāk 100 eiro par katru. Skaitās bērni, par kuriem pabalsts piešķirts konkrētajam saņēmējam, nevis visi vienā adresē dzīvojošie bērni. Avots: VSAA ģimenes valsts pabalsts."
+        },
+        {
+          "title": "Kad nauda ienāk kontā?",
+          "text": "Šis pabalsts ir par kārtējo mēnesi. Piemēram, novembra maksājums attiecas uz novembri, nevis oktobri. Konkrēto dienu nosaka VSAA lēmums; citas personas saņemtais maksājums neapstiprina tavu izmaksas datumu. Pirmajā maksājumā var būt arī summa par iepriekšējo periodu."
+        },
+        {
+          "title": "Kas mainās pēc 16 gadu vecuma?",
+          "text": "Pabalstu sāk piešķirt no bērna viena gada vecuma. No 16 gadiem līdz 20. dzimšanas dienai nozīme ir mācībām un ģimenes stāvoklim. No 2026. gada noteikumi ietver arī pilna laika klātienes studijas augstskolā, ja bērns nav laulībā. Par bērnu ar invaliditāti ir atsevišķi nosacījumi; tos pārbaudi VSAA pakalpojuma aprakstā. Pirmā dzīves gada atbalstam atsevišķi apskati bērna kopšanas pabalstu un vienreizējo bērna piedzimšanas pabalstu."
+        },
+        {
+          "title": "Kad summa mainās ģimenes ikdienā",
+          "text": "Ja jaunākajam bērnam aprit viens gads vai vecākajam mainās mācību statuss, ģimenes ierastais maksājums var vairs nebūt piemērots salīdzinājums. Vispirms pārbaudi, par kuriem bērniem konkrētajam saņēmējam pabalsts šobrīd piešķirts. Tikai tad salīdzini summu ar bērnu skaita tabulu. Nepilna mēneša vai pārrēķina gadījumā nelieto vienu bankas pārskaitījumu kā visu nākamo mēnešu prognozi."
+        },
+        {
+          "title": "Ja gaidītā izmaksa nav redzama",
+          "text": "Atver saņemto lēmumu un salīdzini nosaukumu, periodu un maksājuma saņēmēju. Pārbaudi, vai neesi sajaucis ģimenes valsts pabalstu ar bērna kopšanas pabalstu. Saziņai ar VSAA sagatavo jautājumu par konkrēto periodu; personas kodu, bankas izrakstu un lēmumu nepublicē vietnes komentāros vai sociālajos tīklos. Iestādes oficiālajā kanālā var noskaidrot, vai vēl vajadzīga informācija."
+        }
+      ],
+      "steps": [
+        "Atver VSAA pakalpojumu un pārbaudi, kurš vecāks ir pabalsta saņēmējs.",
+        "Iesniedz pieteikumu; bērna piedzimšanas reģistrācija to neaizstāj.",
+        "Saglabā lēmumu un tajā norādīto regulāro datumu."
+      ],
+      "faq": [
+        {
+          "question": "Kad izmaksā ģimenes valsts pabalstu?",
+          "answer": "Par kārtējo mēnesi, lēmumā norādītajā datumā. Pirmā izmaksa var ietvert arī iepriekš piešķirtu periodu."
+        },
+        {
+          "question": "Kur pieteikties ģimenes valsts pabalstam?",
+          "answer": "VSAA oficiālajā pakalpojumā. Pieteikuma iesniegšanas veidus un vajadzīgos dokumentus pārbaudi pakalpojuma aprakstā."
+        },
+        {
+          "question": "Vai jāpiesakās katru mēnesi?",
+          "answer": "Regulāru piešķirtu pabalstu nepiesaka no jauna katru mēnesi. Ja mainās apstākļi, saņēmējs vai mācības, pārbaudi, vai VSAA jāiesniedz papildu ziņas."
+        },
+        {
+          "question": "Vai studiju izziņa jāiesniedz pašam?",
+          "answer": "Par mācībām Latvijā VSAA saņem datus no Izglītības un zinātnes ministrijas. Par studijām ārvalstīs vajadzīga izglītības iestādes izziņa; datu aizkavēšanās gadījumā sazinies ar VSAA."
+        }
+      ],
+      "sources": [
+        {
+          "title": "VSAA ģimenes valsts pabalsts",
+          "url": "https://www.vsaa.gov.lv/lv/pakalpojumi/gimenes-valsts-pabalsta-pieskirsana-un-izmaksasana",
+          "purpose": "Piešķiršanas nosacījumi, apmērs un pieteikšanās kārtība šim atbalstam.",
+          "kind": "Pamatavots"
+        },
+        {
+          "title": "VSAA pabalstu maksājumu secība vecākiem",
+          "url": "https://www.vsaa.gov.lv/lv/media/7703/download?attachment=",
+          "purpose": "Vecākiem paredzēto maksājumu secība un apmaksātais mēnesis.",
+          "kind": "Noteikumi un skaidrojumi"
+        }
+      ],
+      "related": [
+        "berna-kopsanas-pabalsts",
+        "berna-piedzimsanas-pabalsts",
+        "vecaku-pabalsts"
+      ],
+      "table": {
+        "title": "Bērnu skaits un kopējais mēneša apmērs",
+        "caption": "Par bērniem, par kuriem viena persona saņem ģimenes valsts pabalstu; pamata tabula bez atsevišķām piemaksām.",
+        "headers": [
+          "Bērnu skaits",
+          "Kopā mēnesī",
+          "Svarīga piezīme"
+        ],
+        "rows": [
+          [
+            "1",
+            "25 €",
+            "Pilna mēneša pamata apmērs"
+          ],
+          [
+            "2",
+            "100 €",
+            "50 € par katru"
+          ],
+          [
+            "3",
+            "225 €",
+            "75 € par katru"
+          ],
+          [
+            "4 un vairāk",
+            "100 € par katru",
+            "Piemēram, par četriem 400 €"
+          ]
+        ]
+      },
+      "example": {
+        "title": "Divi dažādi pabalsti, divi periodi",
+        "text": "Ja novembrī saņem ģimenes valsts pabalstu un bērna kopšanas pabalstu, tie var attiekties uz atšķirīgiem mēnešiem. Pirmais ir par novembri, savukārt otrs par oktobri. Budžeta pierakstā katram maksājumam izveido savu rindu, lai nepieskaitītu vienu periodu divreiz.",
+        "label": "Pieraksta piemērs",
+        "values": [
+          [
+            "Ģimenes valsts pabalsts",
+            "Novembris"
+          ],
+          [
+            "Bērna kopšanas pabalsts",
+            "Oktobris"
+          ]
+        ]
+      },
+      "documents": [
+        "Bērni, par kuriem pabalsts piešķirts tieši šim saņēmējam",
+        "Aktuālais lēmums un tajā norādītais izmaksas datums",
+        "Mācību dati, ja bērns jau sasniedzis 16 gadu vecumu"
+      ]
+    },
+    {
+      "slug": "berna-kopsanas-pabalsts",
+      "url": "/pabalstu-izmaksas/berna-kopsanas-pabalsts/",
+      "title": "Bērna kopšanas pabalsts 2026 un maksājumu secība",
+      "short": "Bērna kopšanas pabalsts",
+      "group": "Ģimenei",
+      "icon": "planner",
+      "metric": "298 €",
+      "metricLabel": "Mēnesī līdz 1,5 gadiem",
+      "rhythm": "Par iepriekšējo mēnesi",
+      "intro": "Bērna kopšanas pabalsts līdz pusotra gada vecumam, 2026. gada dzimšanas datuma robeža un atšķirība no vecāku pabalsta. Uzzini, par kuru mēnesi saņem naudu.",
+      "description": "Bērna kopšanas pabalsts līdz pusotra gada vecumam, 2026. gada dzimšanas datuma robeža un atšķirība no vecāku pabalsta. Uzzini, par kuru mēnesi saņem naudu.",
+      "sections": [
+        {
+          "title": "Kam paredzēts šis atbalsts?",
+          "text": "Bērna kopšanas pabalsts ir noteikta summa, nevis procents no algas. To var saņemt gan strādājošs, gan nestrādājošs vecāks, ja izpildīti VSAA nosacījumi. Tāpēc to nevajag sajaukt ar vecāku pabalstu, kurā nozīme ir sociālajai apdrošināšanai un izvēlētajam periodam. Avots: VSAA bērna kopšanas pabalsts."
+        },
+        {
+          "title": "Kāpēc svarīgs 2026. gada 2. novembris?",
+          "text": "No 2026. gada līdz bērna pusotra gada vecumam paredzēti 298 eiro mēnesī. Par bērnu, kurš dzimis līdz 2026. gada 2. novembrim ieskaitot, no pusotra līdz divu gadu vecumam paredzēti 42,69 eiro mēnesī. Bērnam, kurš dzimis 3. novembrī vai vēlāk, šī turpinājuma nav pabalsta periods beidzas pusotra gada vecumā. Plašāk: VSAA izmaiņas 2026. gadā."
+        },
+        {
+          "title": "Maksājums seko aprūpes mēnesim",
+          "text": "Pabalstu izmaksā par iepriekšējo mēnesi. Tātad decembra pārskaitījums var būt par novembri. Pieraksti gan pārskaitījuma dienu, gan periodu, par kuru tas veikts. Tas palīdz saprast pirmo vai pēdējo nepilna mēneša maksājumu, nesalīdzinot to ar pilna mēneša summu. Salīdzini arī vecāku pabalsta nosacījumus un ģimenes valsts pabalstu, kura sākuma vecums un apmaksātais mēnesis atšķiras."
+        },
+        {
+          "title": "Kopšana un sociālā apdrošināšana",
+          "text": "Šī pabalsta pārskatā galvenais ir bērna vecums, dzimšanas datums un piešķirtais periods. Algas lielums pats par sevi nepārvērš 298 eiro pamata summu citā procentā. Ja vienlaikus piesaki vecāku pabalstu, atver abus pakalpojumu aprakstus: nosaukumi ir līdzīgi, taču aprēķina pamati atšķiras. Tā ir arī praktiska atšķirība, plānojot atgriešanos darbā."
+        },
+        {
+          "title": "Pēdējais mēnesis un vecuma robeža",
+          "text": "Bērna dzimšanas dienu pieraksti blakus pabalsta periodam. Mēnesis, kurā sasniegta attiecīgā vecuma robeža, nav labs paraugs pilna mēneša summai. Pārbaudi, kurš datums lēmumā norādīts kā piešķīruma beigas un par kuru periodu ir pēdējais pārskaitījums. Jaunam bērnam ģimenē veco lēmumu un grafiku nepārnes automātiski."
+        }
+      ],
+      "steps": [
+        "Pārbaudi bērna dzimšanas datumu un piemērojamo atbalsta periodu.",
+        "VSAA pieteikumā pārbaudi saņēmēju un kontu; pabalstu par vienu bērnu nedala diviem vecākiem.",
+        "Lēmumā atrodi sākuma datumu un pirmās izmaksas periodu."
+      ],
+      "faq": [
+        {
+          "question": "Kad izmaksā bērna kopšanas pabalstu?",
+          "answer": "Pabalstu izmaksā par iepriekšējo mēnesi, lēmumā norādītajā datumā. Precīzo pirmās izmaksas periodu skati savā lēmumā."
+        },
+        {
+          "question": "Kur pieteikties bērna kopšanas pabalstam?",
+          "answer": "VSAA oficiālajā pakalpojumā. Pieteikuma iesniegšanas veidus un vajadzīgos dokumentus pārbaudi pakalpojuma aprakstā."
+        },
+        {
+          "question": "Vai 298 eiro ir tā pati vecāku pabalsta summa?",
+          "answer": "Nē. Vecāku pabalstu aprēķina no apdrošināšanas iemaksu algas. Bērna kopšanas pabalstam ir noteikts mēneša apmērs."
+        },
+        {
+          "question": "Vai 2026. gada 42,69 eiro turpinājums pienākas visiem?",
+          "answer": "Nē. Izšķiroša ir dzimšana līdz 2026. gada 2. novembrim ieskaitot. Neattiecini šo robežu uz bērnu, kurš dzimis vēlāk."
+        }
+      ],
+      "sources": [
+        {
+          "title": "VSAA bērna kopšanas pabalsts",
+          "url": "https://www.vsaa.gov.lv/lv/pakalpojumi/berna-kopsanas-pabalsta-pieskirsana-un-izmaksasana",
+          "purpose": "Piešķiršanas nosacījumi, apmērs un pieteikšanās kārtība šim atbalstam.",
+          "kind": "Pamatavots"
+        },
+        {
+          "title": "VSAA izmaiņas 2026. gadā",
+          "url": "https://www.vsaa.gov.lv/lv/jaunums/izmainas-vsaa-pakalpojumos-2026-gada",
+          "purpose": "2026. gadā spēkā stājušās izmaiņas; nav automātiska nākamā gada prognoze.",
+          "kind": "Noteikumi un skaidrojumi"
+        },
+        {
+          "title": "LM atbalsts vecākiem 2026. gadā",
+          "url": "https://www.lm.gov.lv/lv/media/34136/download?attachment=",
+          "purpose": "2026. gada atbalsta veidu un apmēru kopsavilkums vecākiem.",
+          "kind": "Noteikumi un skaidrojumi"
+        }
+      ],
+      "related": [
+        "vecaku-pabalsts",
+        "berna-piedzimsanas-pabalsts",
+        "gimenes-valsts-pabalsts"
+      ],
+      "table": {
+        "title": "Kuru vecuma robežu pārbaudīt?",
+        "caption": "2026. gada noteikumi; dzimšanas datumu robeža ir būtiska.",
+        "headers": [
+          "Bērna vecums",
+          "Pamata apmērs",
+          "Nosacījums"
+        ],
+        "rows": [
+          [
+            "Līdz 1,5 gadiem",
+            "298 € mēnesī",
+            "Ja izpildīti piešķiršanas nosacījumi"
+          ],
+          [
+            "1,5–2 gadi",
+            "42,69 € mēnesī",
+            "Tikai bērnam, kas dzimis līdz 02.11.2026. ieskaitot"
+          ],
+          [
+            "Pēc 1,5 gadiem",
+            "Šis turpinājums nepienākas",
+            "Ja bērns dzimis 03.11.2026. vai vēlāk"
+          ]
+        ]
+      },
+      "example": {
+        "title": "Divas blakus dzimšanas dienas",
+        "text": "Bērniem, kas dzimuši 2. un 3. novembrī 2026. gadā, līdz pusotra gada vecumam piemērojama viena pamata apmēra grupa. Taču 42,69 eiro turpinājuma noteikums šajā pārskatā attiecas tikai uz pirmo bērnu. Šis piemērs rāda robežu, nevis individuālu pabalsta piešķiršanu.",
+        "label": "Noteikumu robeža",
+        "values": [
+          [
+            "02.11.2026.",
+            "Ar vecuma nosacījumu līdz 2 gadiem"
+          ],
+          [
+            "03.11.2026.",
+            "Līdz 1,5 gadiem"
+          ]
+        ]
+      },
+      "documents": [
+        "Bērna precīzs dzimšanas datums",
+        "Piešķīruma sākuma un beigu datums",
+        "Pēdējā maksājuma apraksts un periods"
+      ]
+    },
+    {
+      "slug": "berna-piedzimsanas-pabalsts",
+      "url": "/pabalstu-izmaksas/berna-piedzimsanas-pabalsts/",
+      "title": "Bērna piedzimšanas pabalsts 2026 Latvijā",
+      "short": "Bērna piedzimšanas pabalsts",
+      "group": "Ģimenei",
+      "icon": "gift",
+      "metric": "600 €",
+      "metricLabel": "Vienreiz par bērnu, kas dzimis no 01.01.2026.",
+      "rhythm": "Vienreiz pēc piešķiršanas",
+      "intro": "600 eiro valsts bērna piedzimšanas pabalsts par bērnu, kas dzimis no 2026. gada 1. janvāra. Kā pieteikties un kā atšķirt valsts atbalstu no pašvaldības pabalsta.",
+      "description": "600 eiro valsts bērna piedzimšanas pabalsts par bērnu, kas dzimis no 2026. gada 1. janvāra. Kā pieteikties un kā atšķirt valsts atbalstu no pašvaldības pabalsta.",
+      "sections": [
+        {
+          "title": "Dzimšanas datums nosaka apmēru",
+          "text": "Par bērnu, kurš dzimis 2026. gada 1. janvārī vai vēlāk, valsts vienreizējais pabalsts ir 600 eiro. Tas nav ikmēneša maksājums. Vēlāka pieteikuma iesniegšana pati par sevi nepārceļ bērnu uz citas dzimšanas dienas noteikumiem. Avots: VSAA bērna piedzimšanas pabalsta pieteikšana. Plašāk: Ministru kabinets 2026. gada izmaiņas."
+        },
+        {
+          "title": "Vispirms reģistrācija, tad pieteikums",
+          "text": "Pēc dzimšanas reģistrācijas viens no vecākiem piesaka pabalstu VSAA. Pakalpojuma apraksts nosaka dzīvesvietas, personas koda un citus saņēmēja nosacījumus. Parasti pabalsts jāpieprasa ne vēlāk kā sešu mēnešu laikā no bērna piedzimšanas; aizbildnības gadījumā pārbaudi atsevišķo termiņa sākumu."
+        },
+        {
+          "title": "Valsts un pašvaldība ir divi atsevišķi ceļi",
+          "text": "VSAA valsts pabalsts nav pašvaldības dzimšanas pabalsts. Pašvaldībā var būt cits apmērs, deklarēšanās prasības un savs iesniegums. Pēc valsts pieteikuma atver tieši savas pašvaldības pakalpojumu Rīgas noteikumus nevar automātiski izmantot citā novadā. Turpmākam ikmēneša atbalstam apskati bērna kopšanas pabalstu un vecāku pabalstu; vienreizējais piešķīrums tos neaizstāj."
+        },
+        {
+          "title": "Vienreizējā summa ģimenes budžetā",
+          "text": "Atšķir vienreizējo 600 eiro no vēlāk gaidāmajiem regulārajiem pabalstiem. Vienreizējo piešķīrumu budžetā neiekļauj kā pastāvīgu ienākumu katram mēnesim. Ja veido pirkumu plānu, balsti to uz saņemto lēmumu un reāli pieejamiem līdzekļiem, nevis pieņēmumu par pārskaitījuma dienu. Kalendāra atgādinājums var palīdzēt pārbaudīt pieteikuma statusu, bet pats par sevi pieteikumu neiesniedz."
+        },
+        {
+          "title": "Atsevišķa pārbaude pašvaldībā",
+          "text": "Valsts atbalsta piešķiršana neapstiprina tiesības uz pašvaldības pabalstu. Vietējā pakalpojuma lapā noskaidro deklarēšanās ilgumu, bērna dzīvesvietu, pieteikuma termiņu un iesniegšanas veidu. Ja vecāku deklarētās adreses atšķiras, savu situāciju precizē oficiālajā kanālā, nevis izvēlies izdevīgāko summu no citas pašvaldības apraksta."
+        }
+      ],
+      "steps": [
+        "Reģistrē bērna dzimšanu un pārbaudi personas datus.",
+        "VSAA pakalpojumā iesniedz pieteikumu savā vārdā un pārbaudi IBAN.",
+        "Atsevišķi apskati deklarētās pašvaldības dzimšanas atbalstu."
+      ],
+      "faq": [
+        {
+          "question": "Kad izmaksā bērna piedzimšanas pabalstu?",
+          "answer": "Tas ir vienreizējs maksājums pēc pieteikuma izvērtēšanas un pabalsta piešķiršanas. Bērna reģistrācijas diena nav visiem kopīgs izmaksas datums."
+        },
+        {
+          "question": "Kur pieteikties bērna piedzimšanas pabalstam?",
+          "answer": "VSAA oficiālajā pakalpojumā. Pieteikuma iesniegšanas veidus un vajadzīgos dokumentus pārbaudi pakalpojuma aprakstā."
+        },
+        {
+          "question": "Vai tas ienāks automātiski kopā ar citu pabalstu?",
+          "answer": "Nevajag pieņemt, ka cits iesniegums automātiski piesaka arī šo atbalstu. Pārbaudi pakalpojumu un saņemtos VSAA lēmumus."
+        },
+        {
+          "question": "Vai lēmuma termiņš ir garantēta naudas saņemšanas diena?",
+          "answer": "Nē. VSAA norādītais lēmuma pieņemšanas termiņš un pārskaitījuma saņemšana nav viens un tas pats. Savu statusu skaties pieteiktajos pakalpojumos."
+        }
+      ],
+      "sources": [
+        {
+          "title": "VSAA bērna piedzimšanas pabalsta pieteikšana",
+          "url": "https://www.vsaa.gov.lv/lv/pakalpojumi/berna-piedzimsanas-pabalsta-pieskirsana-un-izmaksasana",
+          "purpose": "Piešķiršanas nosacījumi, apmērs un pieteikšanās kārtība šim atbalstam.",
+          "kind": "Pamatavots"
+        },
+        {
+          "title": "Ministru kabinets 2026. gada izmaiņas",
+          "url": "https://www.mk.gov.lv/lv/jaunums/kas-jazina-par-izmainam-likumos-un-noteikumos-2026-gada",
+          "purpose": "2026. gadā spēkā stājušās izmaiņas; nav automātiska nākamā gada prognoze.",
+          "kind": "Noteikumi un skaidrojumi"
+        }
+      ],
+      "related": [
+        "berna-kopsanas-pabalsts",
+        "vecaku-pabalsts",
+        "gimenes-valsts-pabalsts"
+      ],
+      "table": {
+        "title": "Kur iesniegt kuru pieteikumu?",
+        "caption": "Valsts un pašvaldības atbalsts ir atsevišķi pakalpojumi.",
+        "headers": [
+          "Atbalsts",
+          "Atbildīgais",
+          "Ko pārbaudīt"
+        ],
+        "rows": [
+          [
+            "Valsts piedzimšanas pabalsts",
+            "VSAA",
+            "Dzimšanas datums, tiesības un iesniegums"
+          ],
+          [
+            "Pašvaldības dzimšanas atbalsts",
+            "Savas pašvaldības iestāde",
+            "Vietējie noteikumi un deklarēšanās prasības"
+          ],
+          [
+            "Vēlākais regulārais atbalsts",
+            "Attiecīgais VSAA pakalpojums",
+            "Bērna kopšanas un ģimenes valsts pabalsta nosacījumi"
+          ]
+        ]
+      },
+      "example": {
+        "title": "Reģistrācija nenozīmē divus gatavus pieteikumus",
+        "text": "Pēc bērna dzimšanas reģistrācijas pārbaudi, vai VSAA pieteikums tiešām iesniegts. Tad atsevišķi atver pašvaldības pakalpojumu. Iesnieguma statuss vienā vietā nepierāda, ka process otrā vietā ir pabeigts.",
+        "label": "Divi pārbaudes punkti",
+        "values": [
+          [
+            "VSAA",
+            "Iesniegums un lēmums"
+          ],
+          [
+            "Pašvaldība",
+            "Savs iesniegums un noteikumi"
+          ]
+        ]
+      },
+      "documents": [
+        "Dzimšanas reģistrācijas fakts un pareizi dati",
+        "VSAA pieteikuma saņemšanas apstiprinājums",
+        "Pašvaldības pakalpojuma apraksts un termiņš"
+      ]
+    },
+    {
+      "slug": "vecaku-pabalsts",
+      "url": "/pabalstu-izmaksas/vecaku-pabalsts/",
+      "title": "Vecāku pabalsts 2026 un nenododamā daļa",
+      "short": "Vecāku pabalsts",
+      "group": "Ģimenei",
+      "icon": "family",
+      "metric": "13 vai 19",
+      "metricLabel": "Kopējā perioda izvēle mēnešos",
+      "rhythm": "Par iepriekšējo mēnesi",
+      "intro": "Kā atšķiras vecāku pabalsts, bērna kopšanas atvaļinājums un katram vecākam paredzētā nenododamā daļa? Izmaksas secība un svarīgās 2026. gada robežas.",
+      "description": "Kā atšķiras vecāku pabalsts, bērna kopšanas atvaļinājums un katram vecākam paredzētā nenododamā daļa? Izmaksas secība un svarīgās 2026. gada robežas.",
+      "sections": [
+        {
+          "title": "Izvēle ietekmē gan periodu, gan procentu",
+          "text": "Vecāku pabalsts ir saistīts ar sociālo apdrošināšanu. Izvēloties kopējo 13 mēnešu periodu, pamataprēķins ir 60% no vidējās iemaksu algas; 19 mēnešu izvēlei 43,75%. Šie skaitļi nav procents no algas, kuru pēdējoreiz saņēmi kontā. Individuālai prognozei izmanto VSAA kalkulatoru. Avots: VSAA vecāku pabalsts un kalkulators."
+        },
+        {
+          "title": "Katram vecākam savi divi mēneši",
+          "text": "Kopējā periodā ietilpst arī katram vecākam paredzētie divi nenododamie mēneši, ko var izmantot līdz bērna astoņu gadu vecumam. Otra vecāka daļu nevar vienkārši pārņemt. Atvaļinājuma vienošanās ar darba devēju un VSAA piešķirtais maksājuma periods ir saistīti, tomēr nav viens dokuments."
+        },
+        {
+          "title": "Darbs un mēneša pārskaitījums",
+          "text": "Pabalstu izmaksā par iepriekšējo mēnesi un attiecīgo kalendāro dienu skaitu. 2026. gadā strādājošam pamatdaļas saņēmējam, kurš nav bērna kopšanas atvaļinājumā, piemēro 75% no piešķirtā pabalsta apmēra. Šo 2026. gada nosacījumu neuzdodam par apstiprinātu 2027. gada likmi. Pirms atgriešanās darbā pārbaudi savu situāciju VSAA. Noteiktas summas atbalstu izskaidro bērna kopšanas pabalsta ceļvedis. Darba zaudējuma situāciju pārbaudi bezdarbnieka pabalsta lapā. Plašāk: VSAA 2026. gada izmaiņas."
+        },
+        {
+          "title": "Plānu izveido abiem vecākiem",
+          "text": "Sākumā vienojieties, kurš saņems pamatdaļu un kad katrs var izmantot savu nenododamo daļu. Pēc tam salīdziniet darba devēja atvaļinājuma iespējas ar VSAA periodiem. Ja vispirms rezervē vienu kopīgu kalendāra intervālu un tikai vēlāk pārbaudi tiesības, var rasties tukšums starp gaidīto atvaļinājumu un apmaksāto periodu."
+        },
+        {
+          "title": "Kāpēc divu mēnešu maksājumi var atšķirties",
+          "text": "Pabalstu aprēķina par attiecīgajām kalendārajām dienām. Mēneši ir dažāda garuma, un pirmais vai pēdējais periods var būt nepilns. Tāpēc vienu konta pārskaitījumu nevajag uztvert kā nemainīgu mēneša algu. Salīdzinājumam izmanto piešķirto dienas apmēru un periodu, kas norādīts lēmumā; ja mainās nodarbinātība, pārbaudi arī tās ietekmi."
+        }
+      ],
+      "steps": [
+        "Salīdzini VSAA prognozes abiem kopējā perioda variantiem.",
+        "Saskaņo abu vecāku nenododamās daļas un atvaļinājuma plānu.",
+        "Lēmumā pārbaudi, kad pamatdaļa sākas pēc maternitātes perioda."
+      ],
+      "faq": [
+        {
+          "question": "Kad izmaksā vecāku pabalstu?",
+          "answer": "Par iepriekšējo mēnesi un attiecīgajām kalendārajām dienām. Sākuma datumu un izmaksājamo periodu pārbaudi VSAA lēmumā."
+        },
+        {
+          "question": "Kur pieteikties vecāku pabalstam?",
+          "answer": "VSAA oficiālajā pakalpojumā. Pieteikuma iesniegšanas veidus un vajadzīgos dokumentus pārbaudi pakalpojuma aprakstā."
+        },
+        {
+          "question": "Vai visi 13 vai 19 mēneši ir papildu laiks pēc maternitātes?",
+          "answer": "Nē. Periodu veidošanās ir jāskatās no bērna dzimšanas, ievērojot maternitātes periodu un nenododamās daļas. Nenorādi beigu datumu, vienkārši pieskaitot mēnešus pirmajam pārskaitījumam."
+        },
+        {
+          "question": "Vai var vienlaikus saņemt bezdarbnieka pabalstu?",
+          "answer": "VSAA norāda, ka vecāku pabalsta izmaksu pārtrauc uz bezdarbnieka pabalsta saņemšanas laiku. Pirms maiņas noskaidro abu lēmumu savstarpējo ietekmi."
+        }
+      ],
+      "sources": [
+        {
+          "title": "VSAA vecāku pabalsts un kalkulators",
+          "url": "https://www.vsaa.gov.lv/lv/pakalpojumi/vecaku-pabalsta-pieskirsana-un-izmaksasana",
+          "purpose": "Piešķiršanas nosacījumi, apmērs un pieteikšanās kārtība šim atbalstam.",
+          "kind": "Pamatavots"
+        },
+        {
+          "title": "LM vecākiem ar bērniem 2026",
+          "url": "https://www.lm.gov.lv/lv/media/34136/download?attachment=",
+          "purpose": "2026. gada atbalsta veidu un apmēru kopsavilkums vecākiem.",
+          "kind": "Noteikumi un skaidrojumi"
+        },
+        {
+          "title": "VSAA 2026. gada izmaiņas",
+          "url": "https://www.vsaa.gov.lv/lv/jaunums/izmainas-vsaa-pakalpojumos-2026-gada",
+          "purpose": "2026. gadā spēkā stājušās izmaiņas; nav automātiska nākamā gada prognoze.",
+          "kind": "Noteikumi un skaidrojumi"
+        }
+      ],
+      "related": [
+        "berna-kopsanas-pabalsts",
+        "gimenes-valsts-pabalsts",
+        "bezdarbnieka-pabalsts"
+      ],
+      "table": {
+        "title": "Trīs lietas, kuras jāsaskaņo",
+        "caption": "Vienkāršots orientieris; precīzu laika sadalījumu apstiprina VSAA.",
+        "headers": [
+          "Izvēle",
+          "Pamataprēķins",
+          "Kas jāatceras"
+        ],
+        "rows": [
+          [
+            "13 mēnešu kopējais periods",
+            "60% no vidējās iemaksu algas",
+            "Ietver noteikto pamatdaļu un nenododamās daļas"
+          ],
+          [
+            "19 mēnešu kopējais periods",
+            "43,75% no vidējās iemaksu algas",
+            "Nav 19 papildu mēneši pēc maternitātes"
+          ],
+          [
+            "Katra vecāka nenododamā daļa",
+            "2 kalendārie mēneši katram",
+            "Otrs vecāks šo daļu nepārņem"
+          ]
+        ]
+      },
+      "example": {
+        "title": "Nepilns pirmais periods",
+        "text": "Ja pabalsts sākas mēneša vidū, nākamajā mēnesī saņemtais pārskaitījums var attiekties tikai uz atlikušajām pirmā mēneša dienām. Pilna nākamā mēneša maksājumu salīdzini pēc perioda, nevis secini, ka apmērs patvaļīgi mainīts.",
+        "label": "Lasot lēmumu",
+        "values": [
+          [
+            "Sākuma diena",
+            "Var būt mēneša vidū"
+          ],
+          [
+            "Izmaksātais periods",
+            "Iepriekšējā mēneša attiecīgās dienas"
+          ]
+        ]
+      },
+      "documents": [
+        "VSAA prognoze un izvēlētais 13 vai 19 mēnešu periods",
+        "Abu vecāku nenododamās daļas plāns",
+        "Maternitātes beigas un darba devēja atvaļinājuma vienošanās"
+      ]
+    },
+    {
+      "slug": "bezdarbnieka-pabalsts",
+      "url": "/pabalstu-izmaksas/bezdarbnieka-pabalsts/",
+      "title": "Bezdarbnieka pabalsts un pirmās izmaksas datums",
+      "short": "Bezdarbnieka pabalsts",
+      "group": "Darbam un ienākumiem",
+      "icon": "work",
+      "metric": "Līdz 8",
+      "metricLabel": "Izmaksas mēneši",
+      "rhythm": "Par iepriekšējo mēnesi",
+      "intro": "Kad sāk maksāt bezdarbnieka pabalstu, kāpēc svarīgs darba attiecību izbeigšanas pamats un kā mainās piešķirtā summa? NVA un VSAA pieteikumi vienā ceļvedī.",
+      "description": "Kad sāk maksāt bezdarbnieka pabalstu, kāpēc svarīgs darba attiecību izbeigšanas pamats un kā mainās piešķirtā summa? NVA un VSAA pieteikumi vienā ceļvedī.",
+      "sections": [
+        {
+          "title": "Divi atsevišķi soļi",
+          "text": "Bezdarbnieka statusu piešķir Nodarbinātības valsts aģentūra, bet pabalstu VSAA. Ar reģistrēšanos NVA vien nepietiek, lai uzskatītu pabalstu par piešķirtu. VSAA pārbauda apdrošināšanas stāžu un iemaksas. Pēc statusa iegūšanas iesniedz arī pabalsta pieteikumu un saglabā abus apstiprinājumus. Avots: VSAA bezdarbnieka pabalsts."
+        },
+        {
+          "title": "Pirmā izmaksa nav vienāda visiem",
+          "text": "Ja darba attiecības izbeigtas pēc darba devēja iniciatīvas vai savstarpējas vienošanās, pabalstu piešķir no pieteikuma saņemšanas dienas un izmaksu sāk nākamajā mēnesī. Paša uzteikuma vai pārkāpuma gadījumā ir divu mēnešu nogaidīšana pēc statusa iegūšanas; pirmā izmaksa iespējama tikai trešajā mēnesī. Precīzo periodu skaties lēmumā."
+        },
+        {
+          "title": "Summa samazinās pa posmiem",
+          "text": "Pabalstu maksā ne ilgāk kā astoņus mēnešus. Pirmajos divos mēnešos piemēro pilnu piešķirto apmēru, trešajā un ceturtajā 75%, piektajā un sestajā 50%, septītajā un astotajā 45%. Tie ir procenti no piešķirtā pabalsta, nevis pēdējās algas. Konta summa atkarīga arī no apmaksājamo dienu skaita. Darbnespējas gadījumā apskati slimības pabalstu. Ja ienākumi nesedz ikdienu vai rēķinus, noder GMI un mājokļa pabalsta ceļveži."
+        },
+        {
+          "title": "NVA statuss un VSAA pabalsta lēmums jāskata atsevišķi",
+          "text": "Saglabā dokumentus atsevišķi: viens attiecas uz bezdarbnieka statusu, otrs uz pabalsta piešķiršanu. Pieteikuma iesniegšanas datums, statusa datums un pirmā pārskaitījuma diena var nebūt vienādi. Ja vēl gaidi lēmumu, nerēķini budžetu pēc citas personas saņemtās summas. Izmaksu ietekmē tavs apdrošināšanas pamats, periods un darba attiecību izbeigšanas apstākļi."
+        },
+        {
+          "title": "Ko pārbaudīt, ja mēneša summa ir mazāka",
+          "text": "Salīdzini, kurā no četriem izmaksas posmiem esi un cik kalendāro dienu tajā apmaksāts. Pirmais nepilnais mēnesis vai posma maiņa var radīt atšķirīgu summu. Ja sākts darbs vai saņemts cits ar šo pabalstu nesavienojams maksājums, oficiālajā kanālā precizē periodu. Nepārbaudi tikai bankas ienākuma nosaukumu vajadzīgs arī lēmuma saturs."
+        }
+      ],
+      "steps": [
+        "NVA iegūsti bezdarbnieka statusu un noskaidro turpmākos pienākumus.",
+        "VSAA iesniedz atsevišķu pabalsta pieteikumu.",
+        "Pieraksti pirmās izmaksas periodu un ziņo par nodarbinātības izmaiņām."
+      ],
+      "faq": [
+        {
+          "question": "Kad sāk izmaksāt bezdarbnieka pabalstu?",
+          "answer": "Pirmās izmaksas laiks ir atkarīgs arī no darba attiecību izbeigšanas pamata. Piešķiršanas datumu un apmaksāto periodu skati VSAA lēmumā."
+        },
+        {
+          "question": "Kur pieteikties bezdarbnieka pabalstam?",
+          "answer": "VSAA oficiālajā pakalpojumā. Pieteikuma iesniegšanas veidus un vajadzīgos dokumentus pārbaudi pakalpojuma aprakstā."
+        },
+        {
+          "question": "Vai novembrī saņemtā summa ir par novembri?",
+          "answer": "Parasti maksājums ir par iepriekšējā mēneša bezdarba periodu. Pārbaudi, vai pirmajā mēnesī apmaksāts pilns mēnesis vai tikai daļa."
+        },
+        {
+          "question": "Ko darīt, sākot jaunu darbu?",
+          "answer": "Paziņo NVA atbilstoši statusa nosacījumiem. No 2026. gada 1. aprīļa ir mainīti nodarbinātības un pabalsta savienošanas noteikumi; nepaļaujies uz vecu pieredzi."
+        }
+      ],
+      "sources": [
+        {
+          "title": "VSAA bezdarbnieka pabalsts",
+          "url": "https://www.vsaa.gov.lv/lv/pakalpojumi/bezdarbnieka-pabalsta-pieskirsana-un-izmaksasana",
+          "purpose": "Piešķiršanas nosacījumi, apmērs un pieteikšanās kārtība šim atbalstam.",
+          "kind": "Pamatavots"
+        },
+        {
+          "title": "NVA oficiālā vietne",
+          "url": "https://www.nva.gov.lv/lv",
+          "purpose": "Bezdarbnieka statusa pieprasīšana un saņēmēja pienākumi.",
+          "kind": "Noteikumi un skaidrojumi"
+        },
+        {
+          "title": "VSAA izmaiņas no 2026. gada 1. aprīļa",
+          "url": "https://www.vsaa.gov.lv/lv/jaunums/no-2026-gada-1-aprila-izmainas-bezdarbnieka-statusa-un-pabalsta-sanemsana",
+          "purpose": "2026. gadā spēkā stājušās izmaiņas; nav automātiska nākamā gada prognoze.",
+          "kind": "Noteikumi un skaidrojumi"
+        }
+      ],
+      "related": [
+        "slimibas-pabalsts",
+        "vecaku-pabalsts",
+        "gmi-pabalsts"
+      ],
+      "table": {
+        "title": "Piešķirtā pabalsta izmaksas posmi",
+        "caption": "Procenti no jau piešķirtā pabalsta apmēra, nevis no pēdējās algas.",
+        "headers": [
+          "Posms",
+          "Daļa no piešķirtā apmēra",
+          "Pārbaude"
+        ],
+        "rows": [
+          [
+            "1.–2. mēnesis",
+            "100%",
+            "Pirmais mēnesis var būt nepilns"
+          ],
+          [
+            "3.–4. mēnesis",
+            "75%",
+            "Mainās izmaksājamā daļa"
+          ],
+          [
+            "5.–6. mēnesis",
+            "50%",
+            "Plāno nākamo periodu savlaicīgi"
+          ],
+          [
+            "7.–8. mēnesis",
+            "45%",
+            "Maksimālais periods ir 8 mēneši"
+          ]
+        ]
+      },
+      "example": {
+        "title": "Ko nozīmē “75% trešajā mēnesī”?",
+        "text": "Tas nenozīmē 75% no tavas pēdējās algas. VSAA vispirms nosaka piešķirto pabalsta apmēru; attiecīgajā izmaksas posmā no tā piemēro norādīto daļu. Turklāt saņemtajā pārskaitījumā jāņem vērā apmaksātā perioda dienas.",
+        "label": "Pareiza salīdzinājuma secība",
+        "values": [
+          [
+            "1. solis",
+            "Piešķirtais pabalsta apmērs"
+          ],
+          [
+            "2. solis",
+            "Posma daļa un apmaksātās dienas"
+          ]
+        ]
+      },
+      "documents": [
+        "NVA statusa lēmums un pienākumi",
+        "VSAA pabalsta pieteikuma apstiprinājums",
+        "Darba attiecību izbeigšanas pamats un piešķīruma periods"
+      ]
+    },
+    {
+      "slug": "slimibas-pabalsts",
+      "url": "/pabalstu-izmaksas/slimibas-pabalsts/",
+      "title": "Slimības pabalsts un B lapas apmaksa",
+      "short": "Slimības pabalsts",
+      "group": "Darbam un ienākumiem",
+      "icon": "clock",
+      "metric": "B lapa",
+      "metricLabel": "Noslēgta lapa un iesniegums",
+      "rhythm": "Par apstiprināto darbnespējas periodu",
+      "intro": "Kad VSAA apmaksā slimības lapu B, kas jādara pēc tās noslēgšanas un kāpēc 80% aprēķins nav tas pats, kas kontā saņemtā summa?",
+      "description": "Kad VSAA apmaksā slimības lapu B, kas jādara pēc tās noslēgšanas un kāpēc 80% aprēķins nav tas pats, kas kontā saņemtā summa?",
+      "sections": [
+        {
+          "title": "A lapu un B lapu apmaksā atšķirīgi",
+          "text": "Parastā saslimšanas gadījumā pirmās deviņas dienas ir A lapas periods, bet no desmitās dienas ārsts izsniedz B lapu, par kuru maksā VSAA. Nelaimes gadījumam darbā, arodslimībai un slima bērna kopšanai ir citi nosacījumi. Tāpēc desmito dienu neizmanto kā universālu sākumu jebkurai B lapai. Avots: VSAA slimības pabalsts, termiņi un piemēri."
+        },
+        {
+          "title": "Ko nozīmē 80%?",
+          "text": "Slimības pabalsta pamataprēķins ir 80% no vidējās apdrošināšanas iemaksu algas. Tā nav vienkārši pēdējā neto alga, dalīta ar darba dienām. No aprēķinātā pabalsta ietur iedzīvotāju ienākuma nodokli, ievērojot piemērojamos atvieglojumus. Pārskaitījumu salīdzini ar lēmumā norādīto izmaksājamo summu."
+        },
+        {
+          "title": "Atvērta darbnespējas lapa vēl nenozīmē pabalsta izmaksu",
+          "text": "VSAA vajadzīga noslēgta B lapa un iesniegums. Lēmumu pieņem desmit darba dienās pēc visu nepieciešamo dokumentu un informācijas saņemšanas; tas nav solījums, ka nauda kontā būs desmitajā dienā pēc saslimšanas. Ilgstošas darbnespējas gadījumā par noslēdzamu posmu un turpinājumu jautā ārstam. Ja vienlaikus mainījušās darba attiecības, salīdzini bezdarbnieka pabalsta nosacījumus. Par mājokļa rēķinu grūtībām lasi mājokļa pabalsta ceļvedī."
+        },
+        {
+          "title": "Pārbaudi lapas posmu, ne tikai atvēršanas dienu",
+          "text": "E-veselībā redzama atvērta lapa vēl nenozīmē, ka VSAA jau var izmaksāt attiecīgo periodu. Pirms pieteikuma pārbaudi, kura B lapa ir noslēgta un par kurām dienām tā izdota. Ilgstošas darbnespējas gadījumā periodu sadalīšanu saskaņo ar ārstējošo ārstu. Kalendārā nepievieno automātisku naudas saņemšanas dienu, pieskaitot desmit dienas slimības sākumam."
+        },
+        {
+          "title": "Summa lēmumā un summa bankā",
+          "text": "Atsevišķi apskati aprēķina pamatu, apmaksāto dienu skaitu un nodokļa ieturējumu. Darba devēja slimības naudas pārskaitījums un VSAA slimības pabalsts var ienākt no dažādiem maksātājiem. Tie nav divi maksājumi par vienu un to pašu periodu tikai tāpēc, ka saņemti vienā mēnesī. Ja periodi šķiet pārklājamies, jautā VSAA un darba devējam, norādot precīzos datumus."
+        }
+      ],
+      "steps": [
+        "Pārbaudi, vai elektroniskā B lapa ir noslēgta.",
+        "Iesniedz VSAA slimības pabalsta pieteikumu.",
+        "Pārbaudi lēmuma periodu, nodokli un izmaksājamo summu."
+      ],
+      "faq": [
+        {
+          "question": "Kad VSAA izmaksā slimības pabalstu?",
+          "answer": "Pēc noslēgtās B lapas un iesnieguma izvērtēšanas. Lēmuma pieņemšanas termiņš nav automātiski naudas saņemšanas diena."
+        },
+        {
+          "question": "Kur pieteikties slimības pabalstam?",
+          "answer": "VSAA oficiālajā pakalpojumā. Pieteikuma iesniegšanas veidus un vajadzīgos dokumentus pārbaudi pakalpojuma aprakstā."
+        },
+        {
+          "question": "Vai jāraksta iesniegums, ja lapa jau ir E-veselībā?",
+          "answer": "Jā, ar noslēgtu elektronisko lapu vien nepietiek. Pabalstam vajadzīgs arī VSAA iesniegums."
+        },
+        {
+          "question": "Vai VSAA maksājumu skaita tikai par darba dienām?",
+          "answer": "B lapas pabalstu aprēķina par atbilstošajām kalendārajām dienām, arī brīvdienām. To nejauc ar darba devēja A lapas aprēķinu."
+        }
+      ],
+      "sources": [
+        {
+          "title": "VSAA slimības pabalsts, termiņi un piemēri",
+          "url": "https://www.vsaa.gov.lv/lv/pakalpojumi/slimibas-pabalsta-pieskirsana-un-izmaksasana",
+          "purpose": "Piešķiršanas nosacījumi, apmērs un pieteikšanās kārtība šim atbalstam.",
+          "kind": "Pamatavots"
+        },
+        {
+          "title": "VSAA jautājumi par pabalstiem",
+          "url": "https://www.vsaa.gov.lv/lv/par-pabalstiem-un-atlidzibam",
+          "purpose": "Papildu skaidrojums par izvērtēšanu un saistītā atbalsta nosacījumiem.",
+          "kind": "Noteikumi un skaidrojumi"
+        }
+      ],
+      "related": [
+        "bezdarbnieka-pabalsts",
+        "vecaku-pabalsts",
+        "majokla-pabalsts"
+      ],
+      "table": {
+        "title": "No darbnespējas lapas līdz pārskaitījumam",
+        "caption": "Pamata kārtība parastas saslimšanas gadījumā; bērna kopšanai un citiem cēloņiem ir atšķirības.",
+        "headers": [
+          "Posms",
+          "Kur pārbaudīt",
+          "Ko tas nozīmē"
+        ],
+        "rows": [
+          [
+            "A lapa",
+            "Pie darba devēja",
+            "Parastā saslimšanā pirmās 9 dienas"
+          ],
+          [
+            "B lapa",
+            "E-veselībā un VSAA",
+            "Parastā saslimšanā no 10. dienas"
+          ],
+          [
+            "Pieteikums",
+            "VSAA pakalpojumā",
+            "Noslēgta B lapa kopā ar iesniegumu"
+          ],
+          [
+            "Lēmums",
+            "VSAA paziņojumā",
+            "Periods, aprēķins, nodoklis un izmaksājamā summa"
+          ]
+        ]
+      },
+      "example": {
+        "title": "Desmit darba dienas nav desmit dienas no saslimšanas",
+        "text": "Lēmuma pieņemšanas termiņu VSAA saista ar visas nepieciešamās informācijas saņemšanu. Ja B lapa vēl atvērta vai iesniegums nav iesniegts, nav pamata skaitīt šo termiņu no ārsta pirmā apmeklējuma.",
+        "label": "Svarīgā secība",
+        "values": [
+          [
+            "Vispirms",
+            "Noslēgta B lapa un iesniegums"
+          ],
+          [
+            "Pēc tam",
+            "VSAA izvērtējums un lēmums"
+          ]
+        ]
+      },
+      "documents": [
+        "Noslēgtās B lapas periods",
+        "VSAA iesnieguma saņemšanas apstiprinājums",
+        "Lēmuma aprēķins un nodokļa rinda"
+      ]
+    },
+    {
+      "slug": "majokla-pabalsts",
+      "url": "/pabalstu-izmaksas/majokla-pabalsts/",
+      "title": "Mājokļa pabalsts Latvijā un pieteikšanās Rīgā",
+      "short": "Mājokļa pabalsts",
+      "group": "Pašvaldības atbalsts",
+      "icon": "city",
+      "metric": "Sociālais dienests",
+      "metricLabel": "Piesakies savā pašvaldībā",
+      "rhythm": "Pēc ienākumu un izdevumu izvērtēšanas",
+      "intro": "Palīdzība īres, apkures un citu mājokļa rēķinu segšanai. Kā sagatavot dokumentus sociālajam dienestam un kādi noteikumi ir īpaši svarīgi Rīgas iedzīvotājiem.",
+      "description": "Palīdzība īres, apkures un citu mājokļa rēķinu segšanai. Kā sagatavot dokumentus sociālajam dienestam un kādi noteikumi ir īpaši svarīgi Rīgas iedzīvotājiem.",
+      "sections": [
+        {
+          "title": "Tas nav visiem vienāds apkures maksājums",
+          "text": "Mājokļa pabalstu izvērtē pašvaldības sociālais dienests. Nozīme ir mājsaimniecības ienākumiem, mantiskajam stāvoklim un atzīstamajiem mājokļa izdevumiem. VSAA lēmums par pensiju vai citu pabalstu pats par sevi nepiešķir šo atbalstu. Sāc ar deklarētās dzīvesvietas pašvaldību. Avots: LM mājokļa pabalsta pamatnoteikumi."
+        },
+        {
+          "title": "Rēķini palīdz vairāk nekā aptuvena prognoze",
+          "text": "Sagatavo īres vai lietošanas pamatojumu, aktuālos komunālos rēķinus un ienākumu dokumentus. Rīgas dienests prasa ziņas par pēdējiem trim pilniem kalendāra mēnešiem un kontu izrakstus. Nākotnē gaidāms apkures rēķins nav jau radies izdevums kad tas saņemts, informē dienestu par pārrēķina vajadzību. Plašāk: Rīgas pašvaldība ienākumi, rēķini un izvērtēšana."
+        },
+        {
+          "title": "Rīgas piemērs un visas Latvijas noteikumi",
+          "text": "Rīgā mājsaimniecībām, kurās ir tikai pensionāri vai personas ar invaliditāti, tiesības pārskata reizi sešos mēnešos; ja ir vismaz viena darbspējīga persona reizi trijos. Citā novadā iesniegšanas vietu un vietējo kārtību pārbaudi atsevišķi. 2026. gada sākuma pagaidu koeficientus nedrīkst automātiski piemērot rudens rēķiniem. Ikdienas ienākumu atbalstam apskati GMI pabalstu; regulārā pensijas datuma pārbaudei izmanto pensiju izmaksu pārskatu."
+        },
+        {
+          "title": "Sakārto rēķinus vienā pārskatā",
+          "text": "Pirms vēršanās dienestā atsevišķi saliec īri, apsaimniekošanu un komunālos rēķinus. Pieraksti, par kuru mēnesi ir katrs rēķins un vai tajā ir iepriekšējs parāds. Nepieņem, ka visa bankā samaksātā summa automātiski ir atzīstamie izdevumi. Dienests pārbauda faktiskos dokumentus un attiecīgās normas, tāpēc arī divām līdzīgām mājsaimniecībām iznākums var atšķirties."
+        },
+        {
+          "title": "Kad rudenī parādās jaunais apkures rēķins",
+          "text": "Ja pirmajā iesniegumā apkures izmaksu vēl nav, vēlāk saņemto rēķinu saglabā un noskaidro pārrēķina kārtību. Atbalstu nevajag paredzēt pēc paša prognozēta ziemas rēķina. Rīgas publicētais skaidrojums attiecas uz reāliem izdevumiem un regulāru situācijas izvērtēšanu. Citā pašvaldībā saziņas vietu, termiņu un pieprasītos dokumentus apstiprina tās sociālais dienests."
+        }
+      ],
+      "steps": [
+        "Sazinies ar deklarētās pašvaldības sociālo dienestu.",
+        "Sakārto ienākumu dokumentus, kontu izrakstus, līgumu un faktiskos rēķinus.",
+        "Iesniedz pieteikumu un noskaidro atkārtotās izvērtēšanas datumu."
+      ],
+      "faq": [
+        {
+          "question": "Kad izmaksā mājokļa pabalstu?",
+          "answer": "Izmaksas kārtību un piešķirto periodu nosaka pašvaldības lēmums. Vienota datuma visām Latvijas pašvaldībām nav."
+        },
+        {
+          "question": "Kur pieteikties mājokļa pabalstam?",
+          "answer": "Savas deklarētās dzīvesvietas pašvaldības sociālajā dienestā. Pašvaldības vietnē pārbaudi dokumentus un iesniegšanas veidus."
+        },
+        {
+          "question": "Vai man to piešķirs automātiski, ja saņemu pensiju?",
+          "answer": "Nē. Pensija ir viens no ienākumu avotiem, ko dienests vērtē. Vajadzīgs pieteikums un mājsaimniecības situācijas pārbaude."
+        },
+        {
+          "question": "Kur jautāt Rīgā?",
+          "answer": "Rīgas Sociālā dienesta informatīvais tālrunis ir 67105048; e-pasts soc@riga.lv. Dokumentu iesniegšanas veidu pārbaudi pašvaldības oficiālajā vietnē."
+        }
+      ],
+      "sources": [
+        {
+          "title": "LM mājokļa pabalsta pamatnoteikumi",
+          "url": "https://www.lm.gov.lv/lv/majokla-pabalsts",
+          "purpose": "Piešķiršanas nosacījumi, apmērs un pieteikšanās kārtība šim atbalstam.",
+          "kind": "Pamatavots"
+        },
+        {
+          "title": "Rīgas pašvaldība ienākumi, rēķini un izvērtēšana",
+          "url": "https://ld.riga.lv/aktualitates/majokla-pabalstu-pieskir-pec-ienakumu-un-faktisko-izdevumu-izvertesanas/",
+          "purpose": "Rīgas dokumentu, faktisko rēķinu un atkārtotas izvērtēšanas prasības.",
+          "kind": "Noteikumi un skaidrojumi"
+        },
+        {
+          "title": "LM pašvaldību sociālā palīdzība",
+          "url": "https://www.lm.gov.lv/lv/pasvaldibu-sociala-palidziba",
+          "purpose": "Papildu skaidrojums par izvērtēšanu un saistītā atbalsta nosacījumiem.",
+          "kind": "Noteikumi un skaidrojumi"
+        }
+      ],
+      "related": [
+        "gmi-pabalsts",
+        "bezdarbnieka-pabalsts",
+        "gimenes-valsts-pabalsts"
+      ],
+      "table": {
+        "title": "Ko sagatavot sarunai ar sociālo dienestu",
+        "caption": "Rīgas piemērs; dienests var pieprasīt situācijai nepieciešamu papildu informāciju.",
+        "headers": [
+          "Dokumentu grupa",
+          "Kam tā vajadzīga",
+          "Bieža neskaidrība"
+        ],
+        "rows": [
+          [
+            "Ienākumi un kontu izraksti",
+            "Mājsaimniecības resursu izvērtēšanai",
+            "Rēķins nav ienākumu apliecinājums"
+          ],
+          [
+            "Īres vai lietošanas pamats",
+            "Dzīvesvietas un izdevumu pamatošanai",
+            "Deklarēšanās viena pati neaizstāj visus dokumentus"
+          ],
+          [
+            "Aktuālie mājokļa rēķini",
+            "Faktisko izdevumu noteikšanai",
+            "Prognozētās apkures izmaksas nav saņemts rēķins"
+          ],
+          [
+            "Lēmums un termiņš",
+            "Atkārtotas izvērtēšanas plānam",
+            "Pabalsts nav beztermiņa automātisks maksājums"
+          ]
+        ]
+      },
+      "example": {
+        "title": "Rēķins atnācis pēc pirmās izvērtēšanas",
+        "text": "Mājsaimniecība iesniedz dokumentus pirms pirmā apkures rēķina saņemšanas. Kad tas pienāk, pareizais nākamais solis ir iesniegt faktiskās izmaksas un noskaidrot pārrēķinu, nevis pašai pievienot aptuvenu ziemas summu iepriekšējam lēmumam.",
+        "label": "Dokumentu secība",
+        "values": [
+          [
+            "Pirmais iesniegums",
+            "Tobrīd pieejamie faktiskie izdevumi"
+          ],
+          [
+            "Jauns rēķins",
+            "Saziņa ar dienestu par pārrēķinu"
+          ]
+        ]
+      },
+      "documents": [
+        "Ienākumu informācija un pieprasītie kontu izraksti",
+        "Līgums vai cits mājokļa lietošanas pamats",
+        "Aktuālie rēķini un iepriekšējais dienesta lēmums"
+      ]
+    },
+    {
+      "slug": "gmi-pabalsts",
+      "url": "/pabalstu-izmaksas/gmi-pabalsts/",
+      "title": "GMI pabalsts 2026 un 2027 Latvijā",
+      "short": "GMI pabalsts",
+      "group": "Pašvaldības atbalsts",
+      "icon": "calculator",
+      "metric": "187 / 131 €",
+      "metricLabel": "2026. gada ienākumu sliekšņi",
+      "rhythm": "Pašvaldības izvērtēts atbalsts",
+      "intro": "Garantētā minimālā ienākuma slieksnis nav vienāda summa katra cilvēka kontā. Salīdzini 2026. un 2027. gada sliekšņus un uzzini, kur pieteikties GMI pabalstam.",
+      "description": "Garantētā minimālā ienākuma slieksnis nav vienāda summa katra cilvēka kontā. Salīdzini 2026. un 2027. gada sliekšņus un uzzini, kur pieteikties GMI pabalstam.",
+      "sections": [
+        {
+          "title": "Slieksnis un izmaksājamā summa ir atšķirīgi",
+          "text": "2026. gadā GMI slieksnis pirmajai vai vienīgajai personai mājsaimniecībā ir 187 eiro, katrai nākamajai 131 eiro. Labklājības ministrija 2027. gadam publicējusi attiecīgi 207 un 145 eiro. Tie ir ienākumu izvērtēšanas sliekšņi. Ja mājsaimniecībai jau ir ienākumi, pabalsts nav automātiski visa šo skaitļu summa. Avots: LM minimālo ienākumu sliekšņi 2026 un 2027."
+        },
+        {
+          "title": "Kādus datus vērtē pašvaldība?",
+          "text": "Sociālais dienests nosaka mājsaimniecības sastāvu un izvērtē ienākumus un mantisko stāvokli. Norādi patieso situāciju un iesniedz pieprasītos pierādījumus. Vienā adresē dzīvojošas personas ne vienmēr nozīmē, ka patstāvīgi vari izvēlēties tās uzskatīt par vienu vai vairākām mājsaimniecībām."
+        },
+        {
+          "title": "GMI, trūcīgā statuss un mājokļa pabalsts",
+          "text": "Tie ir saistīti sociālās palīdzības jautājumi, tomēr nav viens un tas pats atbalsts. GMI palīdz sasniegt garantēto ienākumu līmeni, mājokļa pabalsts attiecas uz atzīstamajiem mājokļa izdevumiem. Vienā vizītē pajautā dienestam, kādus atbalsta veidus tas var izvērtēt tavai situācijai. Par apkures un īres rēķiniem lasi mājokļa pabalsta ceļvedi. Ja darbs zaudēts nesen, atsevišķi pārbaudi bezdarbnieka pabalstu. Plašāk: LM GMI pabalsta kārtība."
+        },
+        {
+          "title": "Divu cilvēku piemērs bez tiesību prognozes",
+          "text": "2026. gada sliekšņu kopsumma divu personu mājsaimniecībai ir 187 + 131 = 318 eiro. Ja tikai ilustrācijai pieņem 150 eiro dienesta izvērtētu mēneša ienākumu, starpība būtu 168 eiro. Šī ir aritmētika, nevis solījums piešķirt 168 eiro: mājsaimniecības sastāvu, vērtējamos ienākumus un pārējos nosacījumus nosaka sociālais dienests."
+        },
+        {
+          "title": "Gada maiņā pārbaudi periodu",
+          "text": "2027. gadam publicētais slieksnis neattiecas atpakaļ uz 2026. gada mēnesi. Saglabā lēmumu ar piešķīruma termiņu un noskaidro, vai gada maiņā vajadzīga jauna informācija. Budžeta tabulā ienākumu slieksni nesajauc ar neto algu vai pensijas minimumu: šie skaitļi pieder dažādiem pakalpojumiem un aprēķiniem."
+        }
+      ],
+      "steps": [
+        "Atrodi savas deklarētās pašvaldības sociālo dienestu.",
+        "Sagatavo ienākumu un mantiskā stāvokļa dokumentus visai mājsaimniecībai.",
+        "Lēmumā pārbaudi piešķirto summu, periodu un nākamās izvērtēšanas termiņu."
+      ],
+      "faq": [
+        {
+          "question": "Kad izmaksā GMI pabalstu?",
+          "answer": "Pēc pašvaldības izvērtējuma atbilstoši lēmumā noteiktajam periodam un izmaksas kārtībai. Publicētais ienākumu slieksnis pats par sevi nav izmaksas solījums."
+        },
+        {
+          "question": "Kur pieteikties GMI pabalstam?",
+          "answer": "Savas deklarētās dzīvesvietas pašvaldības sociālajā dienestā. Pašvaldības vietnē pārbaudi dokumentus un iesniegšanas veidus."
+        },
+        {
+          "question": "Vai 187 eiro izmaksā ikvienam?",
+          "answer": "Nē. Tas ir 2026. gada slieksnis pirmajai personai, nevis universāls maksājums. Faktisko pabalstu nosaka pēc mājsaimniecības situācijas."
+        },
+        {
+          "question": "Vai 2027. gada summas var izmantot jau tagad?",
+          "answer": "Nē. LM tabulā 207 un 145 eiro norādīti no 2027. gada 1. janvāra. Lēmumu par 2026. gada periodu nevērtē pēc nākamā gada sliekšņiem."
+        }
+      ],
+      "sources": [
+        {
+          "title": "LM minimālo ienākumu sliekšņi 2026 un 2027",
+          "url": "https://www.lm.gov.lv/lv/minimalo-ienakumu-limenis",
+          "purpose": "Piešķiršanas nosacījumi, apmērs un pieteikšanās kārtība šim atbalstam.",
+          "kind": "Pamatavots"
+        },
+        {
+          "title": "LM GMI pabalsta kārtība",
+          "url": "https://www.lm.gov.lv/lv/gmi-pabalsts",
+          "purpose": "Papildu skaidrojums par izvērtēšanu un saistītā atbalsta nosacījumiem.",
+          "kind": "Noteikumi un skaidrojumi"
+        },
+        {
+          "title": "LM pašvaldību sociālā palīdzība",
+          "url": "https://www.lm.gov.lv/lv/pasvaldibu-sociala-palidziba",
+          "purpose": "Papildu skaidrojums par izvērtēšanu un saistītā atbalsta nosacījumiem.",
+          "kind": "Noteikumi un skaidrojumi"
+        }
+      ],
+      "related": [
+        "majokla-pabalsts",
+        "bezdarbnieka-pabalsts",
+        "gimenes-valsts-pabalsts"
+      ],
+      "table": {
+        "title": "Publicētie GMI sliekšņi pa gadiem",
+        "caption": "Eiro mēnesī; slieksnis nav automātiski izmaksājamā summa.",
+        "headers": [
+          "Periods",
+          "Pirmajai vai vienīgajai personai",
+          "Katrai nākamajai personai"
+        ],
+        "rows": [
+          [
+            "01.01.–31.12.2026.",
+            "187 €",
+            "131 €"
+          ],
+          [
+            "No 01.01.2027.",
+            "207 €",
+            "145 €"
+          ]
+        ]
+      },
+      "example": {
+        "title": "Sliekšņa un pabalsta atšķirība skaitļos",
+        "text": "Divas personas 2026. gadā: 318 eiro slieksnis mīnus 150 eiro piemēra ienākumi = 168 eiro starpība. Piemērā nav izvērtēts īpašums, mājsaimniecības sastāvs vai faktiskās tiesības; to dara dienests.",
+        "label": "Tikai aprēķina ilustrācija",
+        "values": [
+          [
+            "187 + 131",
+            "318 € sliekšņu kopsumma"
+          ],
+          [
+            "318 − 150",
+            "168 € piemēra starpība"
+          ]
+        ]
+      },
+      "documents": [
+        "Mājsaimniecības sastāvs",
+        "Dienesta pieprasītie ienākumu un mantiskā stāvokļa dokumenti",
+        "Aktuālais lēmums un nākamās izvērtēšanas termiņš"
+      ]
+    }
+  ]
+}

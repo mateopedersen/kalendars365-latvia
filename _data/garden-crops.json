@@ -939,7 +939,7 @@
       "h1": "Sakņu seleriju audzēšana Latvijā",
       "description": "Sakņu seleriju dēsti, izstādīšana un rudens raža Latvijā. Nošķir sakņu selerijas no kātu un lapu šķirnēm.",
       "intro": {
-        "text": "Sakņu selerijām ir gara audzēšanas sezona. Izvēlies tieši sakņu seleriju šķirni — kātu un lapu selerijām ražas mērķis ir cits.",
+        "text": "Sakņu selerijām ir gara audzēšanas sezona. Izvēlies tieši sakņu seleriju šķirni kātu un lapu selerijām ražas mērķis ir cits.",
         "sourceIds": [
           "vaad-umbels"
         ]
@@ -951,7 +951,7 @@
           "heading": "Kas jāzina pirms sējas",
           "paragraphs": [
             {
-              "text": "Sakņu selerijām ir gara audzēšanas sezona. Izvēlies tieši sakņu seleriju šķirni — kātu un lapu selerijām ražas mērķis ir cits.",
+              "text": "Sakņu selerijām ir gara audzēšanas sezona. Izvēlies tieši sakņu seleriju šķirni kātu un lapu selerijām ražas mērķis ir cits.",
               "sourceIds": [
                 "vaad-umbels"
               ]
@@ -1161,7 +1161,7 @@
           "heading": "Kad sēt un stādīt",
           "paragraphs": [
             {
-              "text": "Esošajā plānā sēklu sēja ir aprīlī, ģimenes sīpolu stādīšana — maija sākumā. Dēstu audzēšanai vadlīnijā aprakstīta marta sēja segtās platībās.",
+              "text": "Esošajā plānā sēklu sēja ir aprīlī, ģimenes sīpolu stādīšana maija sākumā. Dēstu audzēšanai vadlīnijā aprakstīta marta sēja segtās platībās.",
               "sourceIds": [
                 "garden-di-april",
                 "garden-di-guide",
@@ -1338,7 +1338,7 @@
           "heading": "Kad sēt un stādīt",
           "paragraphs": [
             {
-              "text": "Ziemas ķiplokiem saglabā oktobra pirmās divas dekādes, vasaras ķiplokiem — piemērotu pavasara laiku. Tā nav viena precīza diena visai Latvijai.",
+              "text": "Ziemas ķiplokiem saglabā oktobra pirmās divas dekādes, vasaras ķiplokiem piemērotu pavasara laiku. Tā nav viena precīza diena visai Latvijai.",
               "sourceIds": [
                 "garden-di-guide"
               ]
@@ -2220,7 +2220,7 @@
           "heading": "Kad raža ir gatava",
           "paragraphs": [
             {
-              "text": "Gatavību vērtē pēc salātu tipa: izveidojusies lapu rozete vai šķirnei raksturīga galviņa. Vāc sausus augus, karstumā — vēsākajā dienas daļā.",
+              "text": "Gatavību vērtē pēc salātu tipa: izveidojusies lapu rozete vai šķirnei raksturīga galviņa. Vāc sausus augus, karstumā vēsākajā dienas daļā.",
               "sourceIds": [
                 "vaad-leafy"
               ]
@@ -2857,7 +2857,7 @@
       "calendarRefinements": [],
       "soilAndTemperature": [],
       "harvest": {
-        "readinessBasis": "Glabāšanas ražai — nobriedusi miziņa un lakstu atmiršana",
+        "readinessBasis": "Glabāšanas ražai nobriedusi miziņa un lakstu atmiršana",
         "periods": [
           {
             "label": "Pamatražas novākšanu plāno pabeigt septembrī",
@@ -3119,7 +3119,7 @@
           "heading": "Kad raža ir gatava",
           "paragraphs": [
             {
-              "text": "Pilngatavībā auglim ir šķirnei raksturīgā krāsa un garša — ne visām šķirnēm augļi ir sarkani. Krāsoties sākušu augļu novākšana nogatavināšanai ir atsevišķs mērķis.",
+              "text": "Pilngatavībā auglim ir šķirnei raksturīgā krāsa un garša ne visām šķirnēm augļi ir sarkani. Krāsoties sākušu augļu novākšana nogatavināšanai ir atsevišķs mērķis.",
               "sourceIds": [
                 "garden-vaad-tomato"
               ]

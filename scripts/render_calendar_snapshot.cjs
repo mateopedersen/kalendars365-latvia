@@ -1,14 +1,14 @@
 'use strict';
 const fs=require('node:fs'),crypto=require('node:crypto'),C=require('../assets/calendar-core.js');
 const rows=JSON.parse(fs.readFileSync('_data/routes.json','utf8'));
-const {holidayTitleMarkup}=require('../assets/app.js'),holidayTopics=JSON.parse(fs.readFileSync('assets/calendar-summary.json','utf8')).holidayTopics;
+const {holidayTitleMarkup,publicEventsForDate,publicEventMarkup}=require('../assets/app.js'),calendarData=JSON.parse(fs.readFileSync('assets/calendar-summary.json','utf8')),holidayTopics=calendarData.holidayTopics;
 const slugs=['janvaris','februaris','marts','aprilis','maijs','junijs','julijs','augusts','septembris','oktobris','novembris','decembris'];
 const short=['P.','O.','T.','C.','Pk.','S.','Sv.'],months=C.months.map(v=>v[0].toLocaleUpperCase('lv-LV')+v.slice(1));
 const esc=v=>String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const today=C.todayRiga(),cache=new Map(),iso=d=>C.dateISO(d),plus=(d,n)=>C.addDays(d,n);
-const events=d=>{const y=Number(d.slice(0,4));if(!cache.has(y))cache.set(y,C.holidays(y));return cache.get(y).filter(e=>e.date===d);};
+const events=d=>{const y=Number(d.slice(0,4));if(!cache.has(y))cache.set(y,C.holidays(y));return [...cache.get(y).filter(e=>e.date===d),...publicEventsForDate(calendarData.publicEvents,d)];};
 const label=d=>new Intl.DateTimeFormat('lv-LV',{timeZone:'UTC',weekday:'long',year:'numeric',month:'long',day:'numeric'}).format(C.parseISO(d));
-function dayEvents(day){return events(day).map(e=>`<div class="plan-event"><time>Visu dienu</time><i class="dot" style="background:#981c39"></i><div><strong>${holidayTitleMarkup(e,holidayTopics)}</strong><small>${e.dayOff?'Svētku diena':'Atceres vai atzīmējamā diena'}</small></div></div>`).join('');}
+function dayEvents(day){return events(day).map(e=>e.publicEvent?publicEventMarkup(e):`<div class="plan-event"><time>Visu dienu</time><i class="dot" style="background:#981c39"></i><div><strong>${holidayTitleMarkup(e,holidayTopics)}</strong><small>${e.dayOff?'Svētku diena':'Atceres vai atzīmējamā diena'}</small></div></div>`).join('');}
 function monthMarkup(y,m,selected){
  const first=C.parseISO(`${y}-${String(m).padStart(2,'0')}-01`),start=plus(first,1-C.weekday(first));
  const weeks=Array.from({length:6},(_,n)=>Array.from({length:7},(_,i)=>iso(plus(start,n*7+i))));

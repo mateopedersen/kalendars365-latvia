@@ -1,0 +1,18 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Kalendars365.lv//Events//LV
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:balta-nakts-2027-09-04@kalendars365.lv
+DTSTAMP:20261115T180000Z
+DTSTART;VALUE=DATE:20270904
+DTEND;VALUE=DATE:20270905
+SUMMARY:Baltā nakts Rīgā 2027
+LOCATION:Dažādas vietas Rīgas centrā\, Vecrīgā un citos rajonos
+DESCRIPTION:17.00–01.00\; objektiem var būt savi laiki. https://www.live
+ riga.com/lv/4881-musdienu-kulturas-forums-balta-nakts-2026
+URL:https://kalendars365.lv/pasakumi/balta-nakts/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

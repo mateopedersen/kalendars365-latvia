@@ -1,0 +1,1091 @@
+{
+  "title": "Copes kalendārs un makšķerēšanas liegumi Latvijā",
+  "description": "Kad drīkst makšķerēt līdakas un zandartus? Copes kalendārs 2026–2030, sugu foto, liegumu datumi, loma limiti, licences un seši Latvijas ezeri.",
+  "checkedAt": "2026-11-16",
+  "sources": [
+    {
+      "id": "rules",
+      "title": "MK noteikumi Nr. 800: makšķerēšanas noteikumi",
+      "url": "https://likumi.lv/ta/id/279205-makskeresanas-vezosanas-un-zemudens-medibu-noteikumi",
+      "purpose": "Sugu liegumi, loma apjoms, minimālie garumi un pavasara ierobežojumi.",
+      "kind": "Oficiālais avots"
+    },
+    {
+      "id": "zm",
+      "title": "Zemkopības ministrija: makšķerēšana",
+      "url": "https://www.zm.gov.lv/lv/makskeresana",
+      "purpose": "Aktuālie jūras ierobežojumi un saskaņoto licencēšanas nolikumu saraksts.",
+      "kind": "Oficiālais avots"
+    },
+    {
+      "id": "sea2026",
+      "title": "Papildu regulējums Baltijas jūrā 2026. gadā",
+      "url": "https://likumi.lv/ta/id/365318-par-zvejas-makskeresanas-un-zemudens-medibu-papildu-regulejumu-baltijas-jura-2026-gada",
+      "purpose": "Mencu aizliegums un lašu ieguves nosacījumi konkrētajam gadam.",
+      "kind": "Oficiālais avots"
+    },
+    {
+      "id": "card",
+      "title": "Makšķerēšanas karte: oficiālā iegāde",
+      "url": "https://www.makskeresanaskarte.lv/products",
+      "purpose": "2026. gada kartes, cenas un derīguma periodi.",
+      "kind": "Pakalpojums un norādes"
+    },
+    {
+      "id": "licences",
+      "title": "Mana Cope: licencētie ūdeņi",
+      "url": "https://www.manacope.lv/fishing_rules",
+      "purpose": "Izvēlies ūdenstilpi, nolikumu un pareizo licences veidu.",
+      "kind": "Pakalpojums un norādes"
+    },
+    {
+      "id": "framework",
+      "title": "Licencētās makšķerēšanas kārtība",
+      "url": "https://likumi.lv/ta/id/279203-licencetas-makskeresanas-vezosanas-un-zemudens-medibu-kartiba",
+      "purpose": "Vietējās licences ir atsevišķas no valsts makšķerēšanas kartes.",
+      "kind": "Oficiālais avots"
+    },
+    {
+      "id": "access",
+      "title": "Zvejniecības likums",
+      "url": "https://likumi.lv/ta/id/34871-zvejniecibas-likums",
+      "purpose": "Makšķerēšanas tiesības, privātie ūdeņi un tauvas josla.",
+      "kind": "Oficiālais avots"
+    },
+    {
+      "id": "burtnieks",
+      "title": "Valmieras novads: Burtnieka licences",
+      "url": "https://www.valmierasnovads.lv/pakalpojums/licences-makskeresanai-burtnieku-ezera/",
+      "purpose": "Licences, nārsta zonas, laivu novietošana un lomu atskaites.",
+      "kind": "Oficiālais avots"
+    },
+    {
+      "id": "burtnieks-law",
+      "title": "Burtnieka ezera licencēšanas nolikums",
+      "url": "https://likumi.lv/ta/id/338520-par-licenceto-makskeresanu-burtnieka-ezera",
+      "purpose": "Vietējie ierobežojumi, licences un ezera shēmas.",
+      "kind": "Oficiālais avots"
+    },
+    {
+      "id": "usma",
+      "title": "Usmas krasts: makšķerēšana",
+      "url": "https://www.usmasezers.lv/makskeresana/",
+      "purpose": "Pārvaldītāja norādes par licenci, sezonu un Moricsalu.",
+      "kind": "Pakalpojums un norādes"
+    },
+    {
+      "id": "usma-law",
+      "title": "Usmas ezera nolikums 2025.–2030. gadam",
+      "url": "https://likumi.lv/ta/id/359672-nolikums-par-licenceto-makskeresanu-usmas-ezera-20252030-gadam",
+      "purpose": "Vietējie loma ierobežojumi un maija nosacījumi.",
+      "kind": "Oficiālais avots"
+    },
+    {
+      "id": "usma-boats",
+      "title": "Usmas ezers: laivu nomas vietas",
+      "url": "https://www.usmasezers.lv/atputa/laivu-noma/",
+      "purpose": "Pārvaldītāja publicēti laivu nomātāju kontakti.",
+      "kind": "Pakalpojums un norādes"
+    },
+    {
+      "id": "aluksne",
+      "title": "ALJA: Alūksnes licences un nolikums",
+      "url": "https://www.aluksnesezers.lv/lv/page/37/licences-nolikums",
+      "purpose": "10. maija laivu sezonas sākums, maija licence un vietējie liegumi.",
+      "kind": "Pakalpojums un norādes"
+    },
+    {
+      "id": "aluksne-access",
+      "title": "Alūksnes tūrisms: ALJA",
+      "url": "https://visitaluksne.lv/visit/alja/",
+      "purpose": "Pilssalas iela 10: iestādes adrese un oficiālie kontakti.",
+      "kind": "Oficiālais avots"
+    },
+    {
+      "id": "liepaja",
+      "title": "Liepāja: licencēta makšķerēšana",
+      "url": "https://www.liepaja.lv/licenceta-makskeresana/",
+      "purpose": "Publiska laivu nolaišanas vieta Ezermalas ielā un licences.",
+      "kind": "Oficiālais avots"
+    },
+    {
+      "id": "liepaja-law",
+      "title": "Liepājas ezera un Tirdzniecības kanāla nolikums",
+      "url": "https://likumi.lv/ta/id/354940-par-licenceto-makskeresanu-liepajas-ezera-un-tirdzniecibas-kanala-no-dzelzcela-tilta-lidz-tramvaja-tiltam",
+      "purpose": "Laivošanas laiki, pavasara spiningošanas liegums un aizsardzības zonas.",
+      "kind": "Oficiālais avots"
+    },
+    {
+      "id": "preili",
+      "title": "Preiļu novads: licencētā makšķerēšana",
+      "url": "https://www.preili.lv/lv/licenceta-makskeresana",
+      "purpose": "Divpadsmit ezeri, licences un vietējā apsaimniekotāja kontakti.",
+      "kind": "Oficiālais avots"
+    },
+    {
+      "id": "preili-law",
+      "title": "Preiļu novada ezeru nolikums 2023.–2030. gadam",
+      "url": "https://likumi.lv/ta/id/341512",
+      "purpose": "Ciriša un Rušona vietējie loma ierobežojumi un kuģošanas nosacījumi.",
+      "kind": "Oficiālais avots"
+    },
+    {
+      "id": "nature",
+      "title": "DAP: sezonālie liegumi",
+      "url": "https://www.daba.gov.lv/lv/sezonalie-liegumi",
+      "purpose": "Aizsargājamo teritoriju piekļuves un uzturēšanās ierobežojumi.",
+      "kind": "Oficiālais avots"
+    },
+    {
+      "id": "sea-log",
+      "title": "Reģistrēt jūras lomu",
+      "url": "https://www.makskeresanaskarte.lv/sea-fishing",
+      "purpose": "Oficiālā elektroniskā lomu reģistrācija.",
+      "kind": "Pakalpojums un norādes"
+    },
+    {
+      "id": "sea-log-info",
+      "title": "LLKC: par piekrastes lomu ziņošanu",
+      "url": "https://www.makskeresanaskarte.lv/sea-fishing/news/ar_2026_gada_janvari_jasak_zinot_par_piekraste_guto_lomu",
+      "purpose": "No 10.01.2026. piemērojamā ziņošana par noteiktām sugām.",
+      "kind": "Pakalpojums un norādes"
+    },
+    {
+      "id": "safety",
+      "title": "VUGD: drošība uz ūdens",
+      "url": "https://www.vugd.gov.lv/lv/drosiba-uz-udens",
+      "purpose": "Droša atpūta pie ūdens, palīdzības sniegšana un ledus riski.",
+      "kind": "Oficiālais avots"
+    },
+    {
+      "id": "ice",
+      "title": "VUGD: drošība ziemā",
+      "url": "https://www.vugd.gov.lv/lv/drosiba-ziema",
+      "purpose": "Ledus drošība nav nosakāma pēc datuma vai pēc citu cilvēku klātbūtnes.",
+      "kind": "Oficiālais avots"
+    }
+  ],
+  "fish": [
+    {
+      "id": "lidaka",
+      "name": "Līdaka",
+      "latin": "Esox lucius",
+      "minLength": 50,
+      "limit": "5 zivis; tikai viena drīkst būt garāka par 75 cm",
+      "start": "03-01",
+      "end": "04-30",
+      "opening": "05-01",
+      "identity": "Garens ķermenis, plata saplacināta mute un tālu uz aizmuguri novietota muguras spura.",
+      "note": "Nacionālais paturēšanas liegums ir martā un aprīlī. Maijā atsevišķiem ezeriem vajadzīga īpaša licence vai jāgaida vēlāks laivu sezonas sākums."
+    },
+    {
+      "id": "zandarts",
+      "name": "Zandarts",
+      "latin": "Sander lucioperca",
+      "minLength": 45,
+      "limit": "5 zivis; tikai viena drīkst būt garāka par 75 cm",
+      "start": "04-16",
+      "end": "05-31",
+      "opening": "06-01",
+      "identity": "Garens ķermenis, divas muguras spuras un tumšas šķērssvītras.",
+      "note": "Liegums sākas 16. aprīlī, nevis 1. aprīlī. Jūnija sākums neatceļ konkrētās ūdenstilpes nārsta zonas vai mazāku atļauto lomu."
+    },
+    {
+      "id": "asaris",
+      "name": "Asaris",
+      "latin": "Perca fluviatilis",
+      "minLength": null,
+      "limit": "Iekšējos ūdeņos 5 kg; jūras ūdeņos 10 kg",
+      "start": null,
+      "end": null,
+      "opening": null,
+      "identity": "Tumšas vertikālas svītras un dzeloņaina muguras spura.",
+      "note": "Atsevišķa nacionālā sugas paturēšanas lieguma nav. Jūrā minimālais garums ir 19 cm. Ezeros var būt papildu lielo asaru ierobežojumi."
+    },
+    {
+      "id": "linis",
+      "name": "Līnis",
+      "latin": "Tinca tinca",
+      "minLength": 25,
+      "limit": "5 zivis",
+      "start": null,
+      "end": null,
+      "opening": null,
+      "identity": "Olīvkrāsas, noapaļots ķermenis un neliela mute ar īsām ūsiņām.",
+      "note": "Atsevišķa nacionālā sugas paturēšanas lieguma nav. Pavasara laivu, zivju ēsmas un teritorijas ierobežojumi tik un tā ir spēkā."
+    },
+    {
+      "id": "plaudis",
+      "name": "Plaudis (breksis)",
+      "latin": "Abramis brama",
+      "minLength": null,
+      "limit": "Nav atsevišķa nacionāla skaita vai svara limita",
+      "start": null,
+      "end": null,
+      "opening": null,
+      "identity": "Augsts, no sāniem saplacināts ķermenis un gara anālā spura.",
+      "note": "Valsts noteikumu sarakstā nav atsevišķa minimālā garuma. Alūksnē ir papildu limits lieliem brekšiem; vienmēr salīdzini vietējo nolikumu."
+    },
+    {
+      "id": "vedzele",
+      "name": "Vēdzele",
+      "latin": "Lota lota",
+      "minLength": 35,
+      "limit": "5 zivis",
+      "start": null,
+      "end": null,
+      "opening": null,
+      "identity": "Plankumains ķermenis, gara otrā muguras spura un viena ūsas veida izauguma pazīme zem zoda.",
+      "note": "Atsevišķa nacionālā sugas paturēšanas lieguma nav. Nakts makšķerēšanas atļauja un piekļuve jāvērtē pēc konkrētās vietas noteikumiem."
+    },
+    {
+      "id": "forele",
+      "name": "Strauta forele",
+      "latin": "Salmo trutta",
+      "minLength": 35,
+      "limit": "1 zivs",
+      "start": "09-01",
+      "end": "11-30",
+      "opening": "12-01",
+      "identity": "Tumši un sarkanīgi punkti uz sāniem; sugas foto uz akmeņaina fona.",
+      "note": "No 1. septembra līdz 30. novembrim strauta foreli lomā nepatur. Daudzām upēm ir arī atsevišķi posmu liegumi, tāpēc 1. decembris nav universāla atļauja jebkurā upē."
+    },
+    {
+      "id": "rauda",
+      "name": "Rauda",
+      "latin": "Rutilus rutilus",
+      "minLength": null,
+      "limit": "Nav atsevišķa nacionāla skaita vai svara limita",
+      "start": null,
+      "end": null,
+      "opening": null,
+      "identity": "Sudrabaini sāni, sarkanīgas acis un vēdera spuras. Nesajauc ar ruduli; foto vien nepietiek neskaidras sugas noteikšanai.",
+      "note": "Atsevišķa nacionālā sugas paturēšanas lieguma nav. Atļauta vieta un paņēmiens jāizvēlas arī tad, ja ķer nelielas baltās zivis."
+    }
+  ],
+  "closures": [
+    {
+      "id": "lidaka",
+      "title": "Līdaka",
+      "start": "03-01",
+      "end": "04-30",
+      "kind": "Paturēšanas liegums",
+      "scope": "Valsts pamatnoteikumi",
+      "note": "Nacionālais paturēšanas liegums ir martā un aprīlī. Maijā atsevišķiem ezeriem vajadzīga īpaša licence vai jāgaida vēlāks laivu sezonas sākums.",
+      "sourceId": "rules"
+    },
+    {
+      "id": "zandarts",
+      "title": "Zandarts",
+      "start": "04-16",
+      "end": "05-31",
+      "kind": "Paturēšanas liegums",
+      "scope": "Valsts pamatnoteikumi",
+      "note": "Liegums sākas 16. aprīlī, nevis 1. aprīlī. Jūnija sākums neatceļ konkrētās ūdenstilpes nārsta zonas vai mazāku atļauto lomu.",
+      "sourceId": "rules"
+    },
+    {
+      "id": "forele",
+      "title": "Strauta forele",
+      "start": "09-01",
+      "end": "11-30",
+      "kind": "Paturēšanas liegums",
+      "scope": "Valsts pamatnoteikumi",
+      "note": "No 1. septembra līdz 30. novembrim strauta foreli lomā nepatur. Daudzām upēm ir arī atsevišķi posmu liegumi, tāpēc 1. decembris nav universāla atļauja jebkurā upē.",
+      "sourceId": "rules"
+    },
+    {
+      "id": "salate",
+      "title": "Salate (mežavimba)",
+      "start": "03-01",
+      "end": "05-15",
+      "kind": "Paturēšanas liegums",
+      "scope": "Valsts pamatnoteikumi",
+      "note": "Paturēšana atkal iespējama no 16. maija, ja vietējie noteikumi to pieļauj.",
+      "sourceId": "rules"
+    },
+    {
+      "id": "alata",
+      "title": "Alata",
+      "start": "02-01",
+      "end": "04-30",
+      "kind": "Paturēšanas liegums",
+      "scope": "Valsts pamatnoteikumi",
+      "note": "Paturēšana atkal iespējama no 1. maija, ievērojot arī upes posma liegumus.",
+      "sourceId": "rules"
+    },
+    {
+      "id": "sigarepsis",
+      "title": "Sīga un repsis",
+      "start": "10-01",
+      "end": "11-30",
+      "kind": "Paturēšanas liegums",
+      "scope": "Valsts pamatnoteikumi",
+      "note": "Paturēšana atkal iespējama no 1. decembra, ja nav papildu vietēja lieguma.",
+      "sourceId": "rules"
+    },
+    {
+      "id": "akmenplekste",
+      "title": "Akmeņplekste",
+      "start": "06-01",
+      "end": "07-31",
+      "kind": "Paturēšanas liegums",
+      "scope": "Valsts pamatnoteikumi",
+      "note": "Paturēšana atkal iespējama no 1. augusta. Nejauc ar citām plekstveidīgajām zivīm.",
+      "sourceId": "rules"
+    },
+    {
+      "id": "boats",
+      "title": "Makšķerēšana no laivas",
+      "start": "03-01",
+      "end": "04-30",
+      "kind": "Makšķerēšanas liegums",
+      "scope": "Iekšējie ūdeņi",
+      "note": "Attiecas uz laivām un citiem peldošiem ūdenstransporta līdzekļiem. Baltijas jūrā un Rīgas līcī šis valsts pavasara liegums neattiecas; ezeru vietējās sezonas var sākties vēlāk.",
+      "sourceId": "rules"
+    },
+    {
+      "id": "bait",
+      "title": "Zivju izmantošana par ēsmu",
+      "start": "03-01",
+      "end": "04-30",
+      "kind": "Paņēmiena liegums",
+      "scope": "Iekšējie ūdeņi",
+      "note": "Neattiecas uz Baltijas jūru un Rīgas līci. Atsevišķi licencētie ezeri nosaka garāku aizliegumu.",
+      "sourceId": "rules"
+    },
+    {
+      "id": "channels",
+      "title": "Noteikti kanāli un caurteces",
+      "start": "03-01",
+      "end": "04-30",
+      "kind": "Makšķerēšanas liegums",
+      "scope": "MK noteikumu 2.¹ pielikums",
+      "note": "Šajos uzskaitītajos ūdeņos aizliegta makšķerēšana vispār. Pārbaudi pielikuma nosaukumus un robežas, nevis tikai tuvākās pilsētas nosaukumu.",
+      "sourceId": "rules"
+    }
+  ],
+  "waters": [
+    {
+      "id": "usma",
+      "name": "Usmas ezers",
+      "region": "Kurzeme",
+      "access": "Sāc ar Usmas krasta publicēto laivu nomas sarakstu: Strazdiņi, Usma SPA, Godeļi un citas bāzes. Piezvani pirms brauciena; rezervācija un laivas noma nav iekļauta licencē.",
+      "licence": "Valsts karte + Usmas licence",
+      "opening": "Laivu makšķerēšana no 1. maija",
+      "detail": "Vietējais limits: 3 līdakas (tikai viena virs 70 cm), 3 zandarti (tikai viens virs 65 cm), asari līdz 3 kg (ne vairāk kā 3 virs 35 cm). Maijā aizliegta zivju ēsma. Moricsalas rezervātam vajadzīga atsevišķa rakstiska atļauja.",
+      "sourceId": "usma",
+      "accessId": "usma-boats",
+      "lawId": "usma-law",
+      "query": "Usma SPA Usmas ezers",
+      "species": [
+        "lidaka",
+        "zandarts",
+        "asaris",
+        "plaudis"
+      ],
+      "photo": "usma"
+    },
+    {
+      "id": "burtnieks",
+      "name": "Burtnieks",
+      "region": "Vidzeme",
+      "access": "Brauc uz Burtnieku centra laivu kanālu vai Matīšu kanālu un izmanto atļauto piekļuvi. Laivu bez ilgtermiņa saskaņojuma drīkst novietot līdz vienai diennaktij, atstājot kontaktinformāciju.",
+      "licence": "Valsts karte + Burtnieka licence",
+      "opening": "Pārbaudi arī maija nārsta zonas",
+      "detail": "Valsts 5 zivju limits nav izmantojams automātiski: Burtniekā līdakām un zandartiem ir mazāki vietējie limiti. No 1. maija līdz 15. jūnijam slēgtas pašvaldības uzskaitītās nārsta vietas, tostarp Rūjas sēre un Kūkure. Atskaite vajadzīga arī tad, ja loma nav.",
+      "sourceId": "burtnieks",
+      "accessId": "burtnieks",
+      "lawId": "burtnieks-law",
+      "query": "Burtnieku laivu kanāls",
+      "species": [
+        "lidaka",
+        "zandarts",
+        "asaris",
+        "plaudis"
+      ],
+      "photo": "burtnieks"
+    },
+    {
+      "id": "aluksne",
+      "name": "Alūksnes ezers",
+      "region": "Vidzeme",
+      "access": "Informāciju un licences noskaidro ALJA, Pilssalas ielā 10, Alūksnē. Pilssala ir sākumpunkts orientācijai, nevis atļauja makšķerēt no katras laipas: iekšezera laipas Nr. 1, 2 un 3 ir aizliegtas.",
+      "licence": "Valsts karte + Alūksnes licence",
+      "opening": "Laivu makšķerēšana no 10. maija",
+      "detail": "Maijā līdakas drīkst paturēt tikai ar īpašo dienas licenci. No 10. maija līdz 30. jūnijam aizliegta velcēšana un dabīgas ēsmas zivis vai to daļas. Vietējais limits: 3 līdakas un 3 zandarti, katrai sugai tikai viena zivs virs 70 cm. Bezmaksas krasta licence joprojām ir licence.",
+      "sourceId": "aluksne",
+      "accessId": "aluksne-access",
+      "lawId": "aluksne",
+      "query": "ALJA Pilssalas iela 10 Alūksne",
+      "species": [
+        "lidaka",
+        "zandarts",
+        "asaris",
+        "plaudis"
+      ],
+      "photo": "aluksne"
+    },
+    {
+      "id": "liepaja",
+      "name": "Liepājas ezers",
+      "region": "Kurzeme",
+      "access": "Pašvaldība norāda publisku laivu nolaišanas vietu Ezermalas ielā. Pārbaudi atļauto kuģošanas koridoru un neiebrauc slēgtajā dabas lieguma daļā.",
+      "licence": "Valsts karte + Liepājas ezera licence",
+      "opening": "Laivu sezona pēc valsts un ezera noteikumiem",
+      "detail": "No 1. marta līdz 30. aprīlim aizliegta arī spiningošana no krasta un ar iebriešanu. No laivas makšķerē tikai noteiktajā gaišajā laikā: no stundas pirms saullēkta līdz stundai pēc saulrieta. Kuģu ceļam un lieguma zonām ir atsevišķi ierobežojumi.",
+      "sourceId": "liepaja",
+      "accessId": "liepaja",
+      "lawId": "liepaja-law",
+      "query": "Ezermalas iela laivu nolaišanas vieta Liepāja",
+      "species": [
+        "lidaka",
+        "asaris",
+        "linis"
+      ],
+      "photo": "liepaja"
+    },
+    {
+      "id": "ciriss",
+      "name": "Ciriša ezers",
+      "region": "Latgale",
+      "access": "Aglonas apkārtnē izvēlies legālu piebraucamo ceļu un krasta piekļuvi; privātā zemē saskaņo novietošanu. Pirms braukšanas sazinies ar Preiļu novada ezeru apsaimniekotāju par aktuālajām piestātnēm.",
+      "licence": "Valsts karte + Preiļu novada ezeru licence",
+      "opening": "Vietējais nolikums līdz 2030. gadam",
+      "detail": "Patur ne vairāk kā 3 līdakas un 3 zandartus; tikai viens zandarts drīkst būt garāks par 65 cm. Dabas parkā ievēro motoru un zonu ierobežojumus; pārvaldītājs norāda 3,7 kW robežu. No novembra līdz aprīļa beigām ir papildu nakts laivošanas ierobežojums.",
+      "sourceId": "preili",
+      "accessId": "preili",
+      "lawId": "preili-law",
+      "query": "Ciriša ezers Aglona",
+      "species": [
+        "lidaka",
+        "zandarts",
+        "asaris",
+        "plaudis"
+      ],
+      "photo": "ciriss"
+    },
+    {
+      "id": "rusons",
+      "name": "Rušons",
+      "region": "Latgale",
+      "access": "Piekļuves vietu izvēlies pēc Preiļu novada informācijas un zemes īpašnieka atļaujas. Norāde kartē ved uz ezeru, nevis uz garantētu bezmaksas stāvvietu vai makšķerēšanas vietu.",
+      "licence": "Valsts karte + Preiļu novada ezeru licence",
+      "opening": "Vietējais nolikums līdz 2030. gadam",
+      "detail": "Patur ne vairāk kā 3 līdakas un 3 zandartus; tikai viens zandarts drīkst būt garāks par 65 cm. Vietējā nolikumā ir arī velcēšanas un tumšā laika ierobežojumi. Viena novada licence nav atļauja ignorēt konkrētā ezera aizsardzības režīmu.",
+      "sourceId": "preili",
+      "accessId": "preili",
+      "lawId": "preili-law",
+      "query": "Rušona ezers Latvija",
+      "species": [
+        "lidaka",
+        "zandarts",
+        "asaris",
+        "plaudis"
+      ],
+      "photo": "rusons"
+    }
+  ],
+  "photos": [
+    {
+      "id": "lidaka",
+      "title": "Līdaka",
+      "author": "Patterson, Matthew / USFWS",
+      "license": "Public domain",
+      "licenseUrl": "https://www.fws.gov/disclaimer",
+      "sourceUrl": "https://www.fws.gov/media/esox-lucius",
+      "originalUrl": "https://www.fws.gov/sites/default/files/images/2016-01/21119.jpg",
+      "downloadedFrom": "https://www.fws.gov/sites/default/files/images/2016-01/21119.jpg",
+      "sourceCopy": "docs/sources/fishing-guide-20261116/lidaka.jpg",
+      "sourceSha256": "5a9ae6869a606b1af34eb03b7ca8373b68bacc256359531844c42e57190e5b5d",
+      "src": "/assets/fishing-guide/lidaka-960.webp",
+      "srcset": "/assets/fishing-guide/lidaka-480.webp 480w, /assets/fishing-guide/lidaka-960.webp 960w",
+      "width": 960,
+      "height": 638,
+      "alt": "Līdakas saglabāts paraugs sānskatā ar garenu galvu un svītrainu ķermeni",
+      "caption": "Fotografēts sugas paraugs; nav Latvijas loma attēls.",
+      "files": [
+        {
+          "src": "/assets/fishing-guide/lidaka-480.webp",
+          "width": 480,
+          "height": 319,
+          "sha256": "89b8322f47a788a26d1b97272f2654485d81784b6f01d3ba8edc01d741ce22f1"
+        },
+        {
+          "src": "/assets/fishing-guide/lidaka-960.webp",
+          "width": 960,
+          "height": 638,
+          "sha256": "3d7351985244728069bbe89fdd97fefab8838698a352e165e2d293f9740793c9"
+        }
+      ],
+      "derivative": "Samazināts un pārveidots WebP; kartītēs var būt apgriezts kadrējums. Atvasinājums saglabā sākotnējās licences noteikumus.",
+      "visualReview": {
+        "checkedAt": "2026-11-16",
+        "sourceSha256": "5a9ae6869a606b1af34eb03b7ca8373b68bacc256359531844c42e57190e5b5d",
+        "observation": "Līdakas saglabāts paraugs sānskatā ar garenu galvu un svītrainu ķermeni"
+      }
+    },
+    {
+      "id": "zandarts",
+      "title": "Zandarts",
+      "author": "Basilicofresco",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sander_lucioperca,_Acquario_del_Po.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Sander_lucioperca%2C_Acquario_del_Po.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+      "downloadedFrom": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Sander_lucioperca%2C_Acquario_del_Po.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+      "sourceCopy": "docs/sources/fishing-guide-20261116/zandarts.jpg",
+      "sourceSha256": "6463826b3cf00797fcfa5e710b828527570867a1aca6bc7ceb64488538e6c7bb",
+      "src": "/assets/fishing-guide/zandarts-960.webp",
+      "srcset": "/assets/fishing-guide/zandarts-480.webp 480w, /assets/fishing-guide/zandarts-960.webp 960w",
+      "width": 960,
+      "height": 720,
+      "alt": "Zandarts akvārijā virs oļiem, sānskatā redzamas tumšas svītras",
+      "caption": "Sugas foto akvārijā Itālijā; ilustratīvs attēls.",
+      "files": [
+        {
+          "src": "/assets/fishing-guide/zandarts-480.webp",
+          "width": 480,
+          "height": 360,
+          "sha256": "0c3f602d220ad47591b10ff2ff9f4baa1c2b5fefa8d830bd8cc798cf90d23ae0"
+        },
+        {
+          "src": "/assets/fishing-guide/zandarts-960.webp",
+          "width": 960,
+          "height": 720,
+          "sha256": "a8df640bf99309aee6c02c1889805c10b922e22b5594972abc33d82d835641b3"
+        }
+      ],
+      "derivative": "Samazināts un pārveidots WebP; kartītēs var būt apgriezts kadrējums. Atvasinājums saglabā sākotnējās licences noteikumus.",
+      "visualReview": {
+        "checkedAt": "2026-11-16",
+        "sourceSha256": "6463826b3cf00797fcfa5e710b828527570867a1aca6bc7ceb64488538e6c7bb",
+        "observation": "Zandarts akvārijā virs oļiem, sānskatā redzamas tumšas svītras"
+      }
+    },
+    {
+      "id": "asaris",
+      "title": "Asaris",
+      "author": "Tetzner Tom / USFWS; krāsu korekcija Togabi",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Perch_fish_underwater_perca_fluviatilis.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Perch_fish_underwater_perca_fluviatilis.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+      "downloadedFrom": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Perch_fish_underwater_perca_fluviatilis.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+      "sourceCopy": "docs/sources/fishing-guide-20261116/asaris.jpg",
+      "sourceSha256": "22a79a69c84a638303f875c9a4188ae4f202467a316f854bb6f41bb0c1a952c6",
+      "src": "/assets/fishing-guide/asaris-960.webp",
+      "srcset": "/assets/fishing-guide/asaris-480.webp 480w, /assets/fishing-guide/asaris-960.webp 960w",
+      "width": 960,
+      "height": 720,
+      "alt": "Asaris zem ūdens, pagriezies pret kameru, ar tumšām šķērssvītrām",
+      "caption": "Ilustratīvs sugas foto; nav konkrētā Latvijas ezera loms.",
+      "files": [
+        {
+          "src": "/assets/fishing-guide/asaris-480.webp",
+          "width": 480,
+          "height": 360,
+          "sha256": "42b146281477645476c0aea4b8d71d2e19d0792fdb99ff457a0bdd7241327b19"
+        },
+        {
+          "src": "/assets/fishing-guide/asaris-960.webp",
+          "width": 960,
+          "height": 720,
+          "sha256": "a5f6b2b7c0da1dabc23935fbf59bdf41c2a720d19acb6bcd81aa7c571377c1a8"
+        }
+      ],
+      "derivative": "Samazināts un pārveidots WebP; kartītēs var būt apgriezts kadrējums. Atvasinājums saglabā sākotnējās licences noteikumus.",
+      "visualReview": {
+        "checkedAt": "2026-11-16",
+        "sourceSha256": "22a79a69c84a638303f875c9a4188ae4f202467a316f854bb6f41bb0c1a952c6",
+        "observation": "Asaris zem ūdens, pagriezies pret kameru, ar tumšām šķērssvītrām"
+      }
+    },
+    {
+      "id": "linis",
+      "title": "Līnis",
+      "author": "Karelj",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tinca_tinca_Prague_Vltava_1.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Tinca_tinca_Prague_Vltava_1.jpg",
+      "downloadedFrom": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Tinca_tinca_Prague_Vltava_1.jpg/960px-Tinca_tinca_Prague_Vltava_1.jpg",
+      "sourceCopy": "docs/sources/fishing-guide-20261116/linis.jpg",
+      "sourceSha256": "00a2ffcb614fe7f5959bcddd92580e8ad12892052b2a914824f8977b43fe9c39",
+      "src": "/assets/fishing-guide/linis-960.webp",
+      "srcset": "/assets/fishing-guide/linis-480.webp 480w, /assets/fishing-guide/linis-960.webp 960w",
+      "width": 960,
+      "height": 542,
+      "alt": "Olīvkrāsas līnis akvārijā ar noapaļotu ķermeni",
+      "caption": "Sugas foto Prāgas izstādē; ilustratīvs attēls.",
+      "files": [
+        {
+          "src": "/assets/fishing-guide/linis-480.webp",
+          "width": 480,
+          "height": 271,
+          "sha256": "3d36556e57fce94ac6107d59fa03ed840e8e7208e5c288e7e9383a95f975ee9e"
+        },
+        {
+          "src": "/assets/fishing-guide/linis-960.webp",
+          "width": 960,
+          "height": 542,
+          "sha256": "86fddd5f8f2b03a691ba4d81f177d4874c4d6d4b941e8b0a08eb31523327dfba"
+        }
+      ],
+      "derivative": "Samazināts un pārveidots WebP; kartītēs var būt apgriezts kadrējums. Atvasinājums saglabā sākotnējās licences noteikumus.",
+      "visualReview": {
+        "checkedAt": "2026-11-16",
+        "sourceSha256": "00a2ffcb614fe7f5959bcddd92580e8ad12892052b2a914824f8977b43fe9c39",
+        "observation": "Olīvkrāsas līnis akvārijā ar noapaļotu ķermeni"
+      }
+    },
+    {
+      "id": "plaudis",
+      "title": "Plaudis",
+      "author": "Karelj",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Abramis_brama_Prague_Vltava_1.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Abramis_brama_Prague_Vltava_1.jpg",
+      "downloadedFrom": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Abramis_brama_Prague_Vltava_1.jpg/960px-Abramis_brama_Prague_Vltava_1.jpg",
+      "sourceCopy": "docs/sources/fishing-guide-20261116/plaudis.jpg",
+      "sourceSha256": "6361cee3ed1729753cb841c1abc802e917d392e897af1d53a7388335e36bc096",
+      "src": "/assets/fishing-guide/plaudis-960.webp",
+      "srcset": "/assets/fishing-guide/plaudis-480.webp 480w, /assets/fishing-guide/plaudis-960.webp 960w",
+      "width": 960,
+      "height": 586,
+      "alt": "Sudrabains plaudis akvārijā ar augstu, no sāniem saplacinātu ķermeni",
+      "caption": "Sugas foto Prāgas izstādē; ilustratīvs attēls.",
+      "files": [
+        {
+          "src": "/assets/fishing-guide/plaudis-480.webp",
+          "width": 480,
+          "height": 293,
+          "sha256": "4f1f76b70d04a483898800c32de4e782e451928ce6562c5ae34e385a700ffa0d"
+        },
+        {
+          "src": "/assets/fishing-guide/plaudis-960.webp",
+          "width": 960,
+          "height": 586,
+          "sha256": "71932734d4cffcac01f601e22c8ad8c9574ef62bdc8ce42b4ec3b161fc526d89"
+        }
+      ],
+      "derivative": "Samazināts un pārveidots WebP; kartītēs var būt apgriezts kadrējums. Atvasinājums saglabā sākotnējās licences noteikumus.",
+      "visualReview": {
+        "checkedAt": "2026-11-16",
+        "sourceSha256": "6361cee3ed1729753cb841c1abc802e917d392e897af1d53a7388335e36bc096",
+        "observation": "Sudrabains plaudis akvārijā ar augstu, no sāniem saplacinātu ķermeni"
+      }
+    },
+    {
+      "id": "rauda",
+      "title": "Rauda",
+      "author": "Karelj",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rutilus_rutilus_Prague_Vltava_2.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Rutilus_rutilus_Prague_Vltava_2.jpg",
+      "downloadedFrom": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Rutilus_rutilus_Prague_Vltava_2.jpg/1280px-Rutilus_rutilus_Prague_Vltava_2.jpg",
+      "sourceCopy": "docs/sources/fishing-guide-20261116/rauda.jpg",
+      "sourceSha256": "012ccc69f7d82125c21957b8af30d55c1c62669360a695c2feef86a856a26bb2",
+      "src": "/assets/fishing-guide/rauda-960.webp",
+      "srcset": "/assets/fishing-guide/rauda-480.webp 480w, /assets/fishing-guide/rauda-960.webp 960w",
+      "width": 960,
+      "height": 734,
+      "alt": "Raudas akvārijā ar sudrabainiem sāniem un sarkanīgām spurām",
+      "caption": "Sugas foto Prāgas izstādē; ilustratīvs attēls.",
+      "files": [
+        {
+          "src": "/assets/fishing-guide/rauda-480.webp",
+          "width": 480,
+          "height": 367,
+          "sha256": "9c15a6c1ad94053fa4becf49738ebcb5617ae6ce8906d62eb366ab5bca5036fd"
+        },
+        {
+          "src": "/assets/fishing-guide/rauda-960.webp",
+          "width": 960,
+          "height": 734,
+          "sha256": "f738c661222cf019d2d4740265b05a8cb006e8580aa76458333484742a1ced7c"
+        }
+      ],
+      "derivative": "Samazināts un pārveidots WebP; kartītēs var būt apgriezts kadrējums. Atvasinājums saglabā sākotnējās licences noteikumus.",
+      "visualReview": {
+        "checkedAt": "2026-11-16",
+        "sourceSha256": "012ccc69f7d82125c21957b8af30d55c1c62669360a695c2feef86a856a26bb2",
+        "observation": "Raudas akvārijā ar sudrabainiem sāniem un sarkanīgām spurām"
+      }
+    },
+    {
+      "id": "vedzele",
+      "title": "Vēdzele",
+      "author": "NOAA Great Lakes Environmental Research Laboratory",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lota_lota_GLERL_1.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/55/Lota_lota_GLERL_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+      "downloadedFrom": "https://upload.wikimedia.org/wikipedia/commons/5/55/Lota_lota_GLERL_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+      "sourceCopy": "docs/sources/fishing-guide-20261116/vedzele.jpg",
+      "sourceSha256": "3825dc6d7cf07320c73a17bea368c20252861f674567efdd981b0afcc811822d",
+      "src": "/assets/fishing-guide/vedzele-800.webp",
+      "srcset": "/assets/fishing-guide/vedzele-480.webp 480w, /assets/fishing-guide/vedzele-800.webp 800w",
+      "width": 800,
+      "height": 381,
+      "alt": "Plankumaina vēdzele sānskatā uz balta fona",
+      "caption": "NOAA/GLERL sugas foto; nav Latvijas loma attēls.",
+      "files": [
+        {
+          "src": "/assets/fishing-guide/vedzele-480.webp",
+          "width": 480,
+          "height": 229,
+          "sha256": "48f8188c56be0158ea17f597c8be6764be5fe14b677153e156bc03d465399345"
+        },
+        {
+          "src": "/assets/fishing-guide/vedzele-800.webp",
+          "width": 800,
+          "height": 381,
+          "sha256": "cccca86ab25c31eb69435a05494ae90aaf539454fd52d5573db51193b402a38b"
+        }
+      ],
+      "derivative": "Samazināts un pārveidots WebP; kartītēs var būt apgriezts kadrējums. Atvasinājums saglabā sākotnējās licences noteikumus.",
+      "visualReview": {
+        "checkedAt": "2026-11-16",
+        "sourceSha256": "3825dc6d7cf07320c73a17bea368c20252861f674567efdd981b0afcc811822d",
+        "observation": "Plankumaina vēdzele sānskatā uz balta fona"
+      }
+    },
+    {
+      "id": "forele",
+      "title": "Strauta forele",
+      "author": "David Pérez (DPC)",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Salmo_trutta_03_by-dpc.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Salmo_trutta_03_by-dpc.jpg",
+      "downloadedFrom": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Salmo_trutta_03_by-dpc.jpg",
+      "sourceCopy": "docs/sources/fishing-guide-20261116/forele.jpg",
+      "sourceSha256": "884e86419e2c6fb963a8ffd9798ab2dc6304229e7cd87010cc5837fc8200dd9d",
+      "src": "/assets/fishing-guide/forele-960.webp",
+      "srcset": "/assets/fishing-guide/forele-480.webp 480w, /assets/fishing-guide/forele-960.webp 960w",
+      "width": 960,
+      "height": 442,
+      "alt": "Plankumaina strauta forele sānskatā uz mitriem oļiem",
+      "caption": "Sugas foto Spānijā; ilustratīvs attēls.",
+      "files": [
+        {
+          "src": "/assets/fishing-guide/forele-480.webp",
+          "width": 480,
+          "height": 221,
+          "sha256": "fde5737a2435194e9aa07ad3de3b8648266b84d8bd3cf304dec9b4b472a9fdbe"
+        },
+        {
+          "src": "/assets/fishing-guide/forele-960.webp",
+          "width": 960,
+          "height": 442,
+          "sha256": "e5f55ce4c2749d1a1cf320ab7c4b418e7f21feb94630dd49bb2af4b66a9286c4"
+        }
+      ],
+      "derivative": "Samazināts un pārveidots WebP; kartītēs var būt apgriezts kadrējums. Atvasinājums saglabā sākotnējās licences noteikumus.",
+      "visualReview": {
+        "checkedAt": "2026-11-16",
+        "sourceSha256": "884e86419e2c6fb963a8ffd9798ab2dc6304229e7cd87010cc5837fc8200dd9d",
+        "observation": "Plankumaina strauta forele sānskatā uz mitriem oļiem"
+      }
+    },
+    {
+      "id": "usma",
+      "title": "Usmas ezers",
+      "author": "WikedKentaur",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Usmas_ezers,_2015.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Usmas_ezers%2C_2015.jpg",
+      "downloadedFrom": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Usmas_ezers%2C_2015.jpg/1280px-Usmas_ezers%2C_2015.jpg",
+      "sourceCopy": "docs/sources/fishing-guide-20261116/usma.jpg",
+      "sourceSha256": "3fb3befee8ce065bffc9a8a0bd7a3a9f903154ba616eb25a00623b213ff1640e",
+      "src": "/assets/fishing-guide/usma-960.webp",
+      "srcset": "/assets/fishing-guide/usma-480.webp 480w, /assets/fishing-guide/usma-960.webp 960w",
+      "width": 960,
+      "height": 636,
+      "alt": "Oranžs saulriets virs Usmas ezera, krasta siluets un atspulgs ūdenī",
+      "caption": "Usmas ezers, 2015. gads. Ainava nav šodienas laika apstākļu attēls.",
+      "files": [
+        {
+          "src": "/assets/fishing-guide/usma-480.webp",
+          "width": 480,
+          "height": 318,
+          "sha256": "ff7e4ae2aee2cc211c48c1bc11e686e3759d07cdd97a1dfb661d229d2204bbdb"
+        },
+        {
+          "src": "/assets/fishing-guide/usma-960.webp",
+          "width": 960,
+          "height": 636,
+          "sha256": "b7809cfc11d1eef149ec863bc56278ffdccae4bb17e1cc6abe4d153cc4951795"
+        }
+      ],
+      "derivative": "Samazināts un pārveidots WebP; kartītēs var būt apgriezts kadrējums. Atvasinājums saglabā sākotnējās licences noteikumus.",
+      "visualReview": {
+        "checkedAt": "2026-11-16",
+        "sourceSha256": "3fb3befee8ce065bffc9a8a0bd7a3a9f903154ba616eb25a00623b213ff1640e",
+        "observation": "Oranžs saulriets virs Usmas ezera, krasta siluets un atspulgs ūdenī"
+      }
+    },
+    {
+      "id": "aluksne",
+      "title": "Alūksnes ezers",
+      "author": "Ivo Kruusamägi",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fisherman_on_Lake_Alūksne.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/89/Fisherman_on_Lake_Al%C5%ABksne.jpg",
+      "downloadedFrom": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Fisherman_on_Lake_Al%C5%ABksne.jpg/1280px-Fisherman_on_Lake_Al%C5%ABksne.jpg",
+      "sourceCopy": "docs/sources/fishing-guide-20261116/aluksne.jpg",
+      "sourceSha256": "cdc6b82b7046e9af69aff1b79164e095b1c7aaee2598e1a24a2dbc9148299bd0",
+      "src": "/assets/fishing-guide/aluksne-960.webp",
+      "srcset": "/assets/fishing-guide/aluksne-480.webp 480w, /assets/fishing-guide/aluksne-960.webp 960w",
+      "width": 960,
+      "height": 638,
+      "alt": "Cilvēks sarkanā laivā Alūksnes ezerā pie niedraina krasta",
+      "caption": "Alūksnes ezers, 2013. gads. Foto neapliecina pašreizējos kuģošanas vai licences nosacījumus.",
+      "files": [
+        {
+          "src": "/assets/fishing-guide/aluksne-480.webp",
+          "width": 480,
+          "height": 319,
+          "sha256": "edc52e620bbc952bd50c551f4134c41b2f34a061a4e1aa04c191594153e56a77"
+        },
+        {
+          "src": "/assets/fishing-guide/aluksne-960.webp",
+          "width": 960,
+          "height": 638,
+          "sha256": "f4e2ed5bab21b60c601db8785cfa2db6a7d7cece792d70cdfc3c6cdd89e6f122"
+        }
+      ],
+      "derivative": "Samazināts un pārveidots WebP; kartītēs var būt apgriezts kadrējums. Atvasinājums saglabā sākotnējās licences noteikumus.",
+      "visualReview": {
+        "checkedAt": "2026-11-16",
+        "sourceSha256": "cdc6b82b7046e9af69aff1b79164e095b1c7aaee2598e1a24a2dbc9148299bd0",
+        "observation": "Cilvēks sarkanā laivā Alūksnes ezerā pie niedraina krasta"
+      }
+    },
+    {
+      "id": "burtnieks",
+      "title": "Burtnieks",
+      "author": "Raider1279",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Burtnieks_Lake.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/54/Burtnieks_Lake.jpg",
+      "downloadedFrom": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Burtnieks_Lake.jpg/1280px-Burtnieks_Lake.jpg",
+      "sourceCopy": "docs/sources/fishing-guide-20261116/burtnieks.jpg",
+      "sourceSha256": "5261fef6dae5d2c71be71b378dd927699ad659879f8736667682ace7fc12043a",
+      "src": "/assets/fishing-guide/burtnieks-960.webp",
+      "srcset": "/assets/fishing-guide/burtnieks-480.webp 480w, /assets/fishing-guide/burtnieks-960.webp 960w",
+      "width": 960,
+      "height": 575,
+      "alt": "Skats no augšas uz Burtnieka ezera krastu un apkārtējiem laukiem",
+      "caption": "Burtnieka ainava; attēls nenorāda precīzu makšķerēšanas vietu.",
+      "files": [
+        {
+          "src": "/assets/fishing-guide/burtnieks-480.webp",
+          "width": 480,
+          "height": 288,
+          "sha256": "f2ec52d7ce3a25766651d1619a943833b20eb149ba34e826b027d034e3a0d9e9"
+        },
+        {
+          "src": "/assets/fishing-guide/burtnieks-960.webp",
+          "width": 960,
+          "height": 575,
+          "sha256": "fa8076a597e58902f9ee95718db7a101fd63a64b4e23cb7608f7ace6098d0d92"
+        }
+      ],
+      "derivative": "Samazināts un pārveidots WebP; kartītēs var būt apgriezts kadrējums. Atvasinājums saglabā sākotnējās licences noteikumus.",
+      "visualReview": {
+        "checkedAt": "2026-11-16",
+        "sourceSha256": "5261fef6dae5d2c71be71b378dd927699ad659879f8736667682ace7fc12043a",
+        "observation": "Skats no augšas uz Burtnieka ezera krastu un apkārtējiem laukiem"
+      }
+    },
+    {
+      "id": "ciriss",
+      "title": "Ciriša ezers",
+      "author": "Kārlis Kalviškis",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ciriša_ezerā_tuvojas_lietus.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Ciri%C5%A1a_ezer%C4%81_tuvojas_lietus.jpg",
+      "downloadedFrom": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Ciri%C5%A1a_ezer%C4%81_tuvojas_lietus.jpg/1280px-Ciri%C5%A1a_ezer%C4%81_tuvojas_lietus.jpg",
+      "sourceCopy": "docs/sources/fishing-guide-20261116/ciriss.jpg",
+      "sourceSha256": "25a3fc8e3e292817ecb14b499622970dcc0a2a86a6ed063f555ee771f9044a95",
+      "src": "/assets/fishing-guide/ciriss-960.webp",
+      "srcset": "/assets/fishing-guide/ciriss-480.webp 480w, /assets/fishing-guide/ciriss-960.webp 960w",
+      "width": 960,
+      "height": 639,
+      "alt": "Viļņots Ciriša ezers zem tumšiem lietus mākoņiem",
+      "caption": "Ciriša ezers starp Upursalu un Jokstu salu, 15.07.2023. Arhīva foto; neapliecina šodienas ūdens apstākļus vai piekļuves atļauju.",
+      "files": [
+        {
+          "src": "/assets/fishing-guide/ciriss-480.webp",
+          "width": 480,
+          "height": 320,
+          "sha256": "485d289e042e5c3fc97745daaee2ecb6d22207fc949d808783075ef694c30eb2"
+        },
+        {
+          "src": "/assets/fishing-guide/ciriss-960.webp",
+          "width": 960,
+          "height": 639,
+          "sha256": "52ca96a07787892f2a2523ae1caf277aa52bbe587bd56caa19034fe264961e7e"
+        }
+      ],
+      "derivative": "Samazināts un pārveidots WebP; kartītē ir apgriezts kadrējums. Atvasinājumi ar to pašu CC BY-SA 4.0 licenci.",
+      "visualReview": {
+        "checkedAt": "2026-11-16",
+        "sourceSha256": "25a3fc8e3e292817ecb14b499622970dcc0a2a86a6ed063f555ee771f9044a95",
+        "observation": "Viļņots Ciriša ezers zem tumšiem lietus mākoņiem"
+      }
+    },
+    {
+      "id": "rusons",
+      "title": "Rušons",
+      "author": "M. Strīķis",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rušons.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Ru%C5%A1ons.jpg",
+      "downloadedFrom": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Ru%C5%A1ons.jpg/1280px-Ru%C5%A1ons.jpg",
+      "sourceCopy": "docs/sources/fishing-guide-20261116/rusons.jpg",
+      "sourceSha256": "36dda2283b0fc3c8d9a9cd0ea996938f8ccf8e3f9584868658a18f3d09f877ec",
+      "src": "/assets/fishing-guide/rusons-960.webp",
+      "srcset": "/assets/fishing-guide/rusons-480.webp 480w, /assets/fishing-guide/rusons-960.webp 960w",
+      "width": 960,
+      "height": 720,
+      "alt": "Rušona ezera seklā piekraste ar niedrēm un kokiem pie Jaunaglonas",
+      "caption": "Rušons pie Jaunaglonas, 06.08.2009. Arhīva foto; neapliecina šodienas ūdens apstākļus vai piekļuves atļauju.",
+      "files": [
+        {
+          "src": "/assets/fishing-guide/rusons-480.webp",
+          "width": 480,
+          "height": 360,
+          "sha256": "f320aab0871fc1496d96c7753fb7056f44fd6cc113f5dd1065ad08804c803281"
+        },
+        {
+          "src": "/assets/fishing-guide/rusons-960.webp",
+          "width": 960,
+          "height": 720,
+          "sha256": "3dce2ec8003afe3b9a8dfbc2e97ed6973e3f24d5e62f2da705cb9cc8f00efff5"
+        }
+      ],
+      "derivative": "Samazināts un pārveidots WebP; kartītē ir apgriezts kadrējums. Atvasinājumi ar to pašu CC BY-SA 3.0 licenci.",
+      "visualReview": {
+        "checkedAt": "2026-11-16",
+        "sourceSha256": "36dda2283b0fc3c8d9a9cd0ea996938f8ccf8e3f9584868658a18f3d09f877ec",
+        "observation": "Rušona ezera seklā piekraste ar niedrēm un kokiem pie Jaunaglonas"
+      }
+    },
+    {
+      "id": "liepaja",
+      "title": "Liepājas ezers",
+      "author": "BirdsEyeLV",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Liepājas_ezers_un_makšķernieks_-_panoramio.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Liep%C4%81jas_ezers_un_mak%C5%A1%C4%B7ernieks_-_panoramio.jpg",
+      "downloadedFrom": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Liep%C4%81jas_ezers_un_mak%C5%A1%C4%B7ernieks_-_panoramio.jpg/1280px-Liep%C4%81jas_ezers_un_mak%C5%A1%C4%B7ernieks_-_panoramio.jpg",
+      "sourceCopy": "docs/sources/fishing-guide-20261116/liepaja.jpg",
+      "sourceSha256": "e2d6d831d5ce4b397f3598496daa083fa7e8498b105c985f900d2f0244f8787e",
+      "src": "/assets/fishing-guide/liepaja-960.webp",
+      "srcset": "/assets/fishing-guide/liepaja-480.webp 480w, /assets/fishing-guide/liepaja-960.webp 960w",
+      "width": 960,
+      "height": 636,
+      "alt": "Makšķernieks Liepājas ezera piekrastē ar pilsētas ēkām fonā",
+      "caption": "Liepājas ezers un makšķernieks, 18.06.2014. Arhīva foto; neapliecina šodienas ūdens apstākļus vai piekļuves atļauju.",
+      "files": [
+        {
+          "src": "/assets/fishing-guide/liepaja-480.webp",
+          "width": 480,
+          "height": 318,
+          "sha256": "22ba790e40dd441a5ca5636b34353c26fac0f54f425f8eaa7b54482c6ca1278a"
+        },
+        {
+          "src": "/assets/fishing-guide/liepaja-960.webp",
+          "width": 960,
+          "height": 636,
+          "sha256": "a7693b803ed91b8a6665f6ed9072361e1736c66e627496cc1ea3698495016f28"
+        }
+      ],
+      "derivative": "Samazināts un pārveidots WebP; kartītē ir apgriezts kadrējums. Atvasinājumi ar to pašu CC BY-SA 3.0 licenci.",
+      "visualReview": {
+        "checkedAt": "2026-11-16",
+        "sourceSha256": "e2d6d831d5ce4b397f3598496daa083fa7e8498b105c985f900d2f0244f8787e",
+        "observation": "Makšķernieks Liepājas ezera piekrastē ar pilsētas ēkām fonā"
+      }
+    }
+  ],
+  "sourceIdentities": {
+    "zm.gov.lv": [
+      "ZM",
+      "Zemkopības ministrija",
+      "Valsts makšķerēšanas politika un ikgadējie jūras ierobežojumi",
+      "document"
+    ],
+    "makskeresanaskarte.lv": [
+      "LLKC",
+      "Makšķerēšanas karte",
+      "Valsts kartes iegāde un piekrastes loma reģistrācija",
+      "calendar"
+    ],
+    "manacope.lv": [
+      "COPE",
+      "Mana Cope",
+      "Licencētās ūdenstilpes un lomu atskaites",
+      "calendar"
+    ],
+    "valmierasnovads.lv": [
+      "VN",
+      "Valmieras novada pašvaldība",
+      "Burtnieka ezera licences un piekļuve",
+      "location"
+    ],
+    "usmasezers.lv": [
+      "USMA",
+      "Usmas krasts",
+      "Ezera pārvaldītāja informācija un laivu bāzes",
+      "location"
+    ],
+    "aluksnesezers.lv": [
+      "ALJA",
+      "Alūksnes ezeru apsaimniekotājs",
+      "Licences, vietējie limiti un laivošana",
+      "location"
+    ],
+    "visitaluksne.lv": [
+      "ALŪKSNE",
+      "Alūksnes tūrisma informācija",
+      "Oficiālie kontakti un nokļūšana",
+      "location"
+    ],
+    "liepaja.lv": [
+      "LIEPĀJA",
+      "Liepājas pašvaldība",
+      "Licence un publiskā laivu nolaišanas vieta",
+      "location"
+    ],
+    "preili.lv": [
+      "PREIĻI",
+      "Preiļu novada pašvaldība",
+      "Latgales ezeru licences un apsaimniekotājs",
+      "location"
+    ],
+    "daba.gov.lv": [
+      "DAP",
+      "Dabas aizsardzības pārvalde",
+      "Aizsargājamo teritoriju sezonālās robežas",
+      "shield"
+    ],
+    "vugd.gov.lv": [
+      "VUGD",
+      "Valsts ugunsdzēsības un glābšanas dienests",
+      "Droša atpūta uz ūdens un ledus riski",
+      "shield"
+    ]
+  }
+}

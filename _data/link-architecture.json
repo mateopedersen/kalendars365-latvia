@@ -64,7 +64,43 @@
     "/lietošanas-noteikumi/": "/par-projektu/",
     "/pilsetas-un-fotografijas/": "/par-projektu/",
     "/meklesana/": "/visi-riki/",
-    "/biezak-uzdotie-jautajumi/": "/"
+    "/biezak-uzdotie-jautajumi/": "/",
+    "/pasakumi/ziemassvetku-tirdzins-riga/": "/nozimigas-dienas/",
+    "/pasakumi/18-novembris-riga/": "/nozimigas-dienas/",
+    "/pasakumi/liepaja-2027-atklasana/": "/nozimigas-dienas/",
+    "/pasakumi/ledus-skulpturu-festivals-jelgava/": "/nozimigas-dienas/",
+    "/pasakumi/zemes-stunda/": "/nozimigas-dienas/",
+    "/pasakumi/enu-diena/": "/nozimigas-dienas/",
+    "/pasakumi/liela-talka/": "/nozimigas-dienas/",
+    "/pasakumi/rigas-maratons/": "/nozimigas-dienas/",
+    "/pasakumi/muzeju-nakts/": "/nozimigas-dienas/",
+    "/pasakumi/rigas-operas-festivals/": "/nozimigas-dienas/",
+    "/pasakumi/sarunu-festivals-lampa/": "/nozimigas-dienas/",
+    "/pasakumi/summer-sound/": "/nozimigas-dienas/",
+    "/pasakumi/rigas-dzimsanas-diena/": "/nozimigas-dienas/",
+    "/pasakumi/senas-uguns-nakts/": "/nozimigas-dienas/",
+    "/pasakumi/balta-nakts/": "/nozimigas-dienas/",
+    "/pasakumi/zinatnieku-nakts/": "/nozimigas-dienas/",
+    "/pasakumi/legendu-nakts/": "/nozimigas-dienas/",
+    "/pasakumi/bluka-vakars/": "/nozimigas-dienas/",
+    "/pasakumi/melna-piektdiena/": "/nozimigas-dienas/",
+    "/pasakumi/kiberpirmdiena/": "/nozimigas-dienas/",
+    "/pabalstu-izmaksas/gimenes-valsts-pabalsts/": "/pabalstu-izmaksas/",
+    "/pabalstu-izmaksas/berna-kopsanas-pabalsts/": "/pabalstu-izmaksas/",
+    "/pabalstu-izmaksas/berna-piedzimsanas-pabalsts/": "/pabalstu-izmaksas/",
+    "/pabalstu-izmaksas/vecaku-pabalsts/": "/pabalstu-izmaksas/",
+    "/pabalstu-izmaksas/bezdarbnieka-pabalsts/": "/pabalstu-izmaksas/",
+    "/pabalstu-izmaksas/slimibas-pabalsts/": "/pabalstu-izmaksas/",
+    "/pabalstu-izmaksas/majokla-pabalsts/": "/pabalstu-izmaksas/",
+    "/pabalstu-izmaksas/gmi-pabalsts/": "/pabalstu-izmaksas/",
+    "/nodoklu-kalkulators/": "/visi-riki/",
+    "/copes-kalendars/": "/visi-riki/",
+    "/adventes-kalendars/": "/visi-riki/",
+    "/adventes-kalendars/2026/": "/adventes-kalendars/",
+    "/adventes-kalendars/2027/": "/adventes-kalendars/",
+    "/adventes-kalendars/2028/": "/adventes-kalendars/",
+    "/adventes-kalendars/2029/": "/adventes-kalendars/",
+    "/adventes-kalendars/2030/": "/adventes-kalendars/"
   },
   "labels": {
     "/": "Sākums",
@@ -116,8 +152,8 @@
     "/horoskops/": "Dienas horoskops",
     "/zodiaka-zimes/": "Zodiaka zīmes",
     "/horoskopa-zimes-kalkulators/": "Ascendenta un zodiaka kalkulators",
-    "/pabalstu-izmaksas/": "Pabalstu izmaksu datumi",
-    "/pensiju-izmaksas/": "Pensiju izmaksu datumi",
+    "/pabalstu-izmaksas/": "Pabalsti un sociālais atbalsts",
+    "/pensiju-izmaksas/": "Pensija: vecums un izmaksas",
     "/visi-riki/": "Visi plānošanas rīki",
     "/blogs/": "Kalendāra blogs",
     "/par-projektu/": "Par projektu",
@@ -131,7 +167,17 @@
     "/lietošanas-noteikumi/": "Lietošanas noteikumi",
     "/pilsetas-un-fotografijas/": "Fotogrāfijas un licences",
     "/meklesana/": "Meklēšana",
-    "/biezak-uzdotie-jautajumi/": "Biežāk uzdotie jautājumi"
+    "/biezak-uzdotie-jautajumi/": "Biežāk uzdotie jautājumi",
+    "/pabalstu-izmaksas/gimenes-valsts-pabalsts/": "Ģimenes valsts pabalsts",
+    "/pabalstu-izmaksas/berna-kopsanas-pabalsts/": "Bērna kopšanas pabalsts",
+    "/pabalstu-izmaksas/berna-piedzimsanas-pabalsts/": "Bērna piedzimšanas pabalsts",
+    "/pabalstu-izmaksas/vecaku-pabalsts/": "Vecāku pabalsts",
+    "/pabalstu-izmaksas/bezdarbnieka-pabalsts/": "Bezdarbnieka pabalsts",
+    "/pabalstu-izmaksas/slimibas-pabalsts/": "Slimības pabalsts",
+    "/pabalstu-izmaksas/majokla-pabalsts/": "Mājokļa pabalsts",
+    "/pabalstu-izmaksas/gmi-pabalsts/": "GMI pabalsts",
+    "/nodoklu-kalkulators/": "Nodokļu un algas kalkulators",
+    "/copes-kalendars/": "Copes kalendārs"
   },
   "related": {
     "/": [
@@ -261,14 +307,20 @@
       "/svetki-un-tradicijas/"
     ],
     "/nozimigas-dienas/": [
+      "/pasakumi/kiberpirmdiena/",
+      "/pasakumi/melna-piektdiena/",
+      "/pasakumi/ziemassvetku-tirdzins-riga/",
+      "/pasakumi/18-novembris-riga/",
+      "/pasakumi/liepaja-2027-atklasana/",
+      "/pasakumi/ledus-skulpturu-festivals-jelgava/",
       "/svetki-un-tradicijas/",
       "/atceres-dienas/",
       "/varda-dienas/"
     ],
     "/svetki-un-tradicijas/": [
+      "/nozimigas-dienas/",
       "/svetku-dienas/",
       "/atceres-dienas/",
-      "/nozimigas-dienas/",
       "/garas-brivdienas/"
     ],
     "/garas-brivdienas/": [
@@ -285,7 +337,8 @@
       "/skolas-kalendars/",
       "/studiju-kalendars/",
       "/stundu-saraksts/",
-      "/valsts-parbaudes-darbi/"
+      "/valsts-parbaudes-darbi/",
+      "/pasakumi/enu-diena/"
     ],
     "/skolas-kalendars/": [
       "/skolas-brivlaiki/",
@@ -312,7 +365,8 @@
       "/dienas-garums/",
       "/gadalaiki/",
       "/meness-lekts-un-riets/",
-      "/astronomiskais-kalendars/"
+      "/astronomiskais-kalendars/",
+      "/copes-kalendars/"
     ],
     "/dienas-garums/": [
       "/saullekts-saulriets/",
@@ -323,7 +377,8 @@
       "/meness-fazes/",
       "/meness-lekts-un-riets/",
       "/pilnmeness/",
-      "/jaunmeness/"
+      "/jaunmeness/",
+      "/copes-kalendars/"
     ],
     "/meness-fazes/": [
       "/meness-kalendars/",
@@ -397,14 +452,18 @@
       "/pulkstena-pargriesana/"
     ],
     "/pensiju-izmaksas/": [
+      "/nodoklu-kalkulators/",
       "/pabalstu-izmaksas/",
-      "/dienas-planotajs/",
-      "/kalendars/"
+      "/pabalstu-izmaksas/majokla-pabalsts/",
+      "/pabalstu-izmaksas/gmi-pabalsts/"
     ],
     "/pabalstu-izmaksas/": [
-      "/pensiju-izmaksas/",
-      "/dienas-planotajs/",
-      "/kalendars/"
+      "/pabalstu-izmaksas/gimenes-valsts-pabalsts/",
+      "/pabalstu-izmaksas/berna-kopsanas-pabalsts/",
+      "/pabalstu-izmaksas/berna-piedzimsanas-pabalsts/",
+      "/pabalstu-izmaksas/vecaku-pabalsts/",
+      "/pabalstu-izmaksas/bezdarbnieka-pabalsts/",
+      "/pensiju-izmaksas/"
     ],
     "/visi-riki/": [
       "/datumu-kalkulators/",
@@ -485,6 +544,258 @@
       "/pieklustamiba/",
       "/pdf-kalendari/",
       "/kalendars/"
+    ],
+    "/pasakumi/ziemassvetku-tirdzins-riga/": [
+      "/svetki-un-tradicijas/staro-riga/",
+      "/svetki-un-tradicijas/advente/",
+      "/pasakumi/bluka-vakars/",
+      "/nozimigas-dienas/",
+      "/adventes-kalendars/"
+    ],
+    "/svetki-un-tradicijas/staro-riga/": [
+      "/pasakumi/ziemassvetku-tirdzins-riga/",
+      "/pasakumi/18-novembris-riga/",
+      "/pasakumi/ledus-skulpturu-festivals-jelgava/",
+      "/pasakumi/rigas-dzimsanas-diena/",
+      "/pasakumi/balta-nakts/",
+      "/pasakumi/legendu-nakts/"
+    ],
+    "/svetki-un-tradicijas/advente/": [
+      "/pasakumi/kiberpirmdiena/",
+      "/pasakumi/melna-piektdiena/",
+      "/pasakumi/ziemassvetku-tirdzins-riga/",
+      "/pasakumi/bluka-vakars/",
+      "/adventes-kalendars/"
+    ],
+    "/pasakumi/18-novembris-riga/": [
+      "/svetki-un-tradicijas/latvijas-republikas-proklamesanas-diena/",
+      "/svetki-un-tradicijas/staro-riga/",
+      "/pasakumi/ziemassvetku-tirdzins-riga/",
+      "/nozimigas-dienas/"
+    ],
+    "/svetki-un-tradicijas/latvijas-republikas-proklamesanas-diena/": [
+      "/pasakumi/18-novembris-riga/"
+    ],
+    "/pasakumi/liepaja-2027-atklasana/": [
+      "/pasakumi/summer-sound/",
+      "/pasakumi/rigas-dzimsanas-diena/",
+      "/pasakumi/balta-nakts/",
+      "/nozimigas-dienas/"
+    ],
+    "/pasakumi/ledus-skulpturu-festivals-jelgava/": [
+      "/pasakumi/balta-nakts/",
+      "/svetki-un-tradicijas/staro-riga/",
+      "/pasakumi/rigas-dzimsanas-diena/",
+      "/nozimigas-dienas/"
+    ],
+    "/pasakumi/zemes-stunda/": [
+      "/svetki-un-tradicijas/zemes-diena/",
+      "/pasakumi/liela-talka/",
+      "/svetki-un-tradicijas/saulgriezi/",
+      "/nozimigas-dienas/"
+    ],
+    "/svetki-un-tradicijas/zemes-diena/": [
+      "/pasakumi/zemes-stunda/",
+      "/pasakumi/liela-talka/"
+    ],
+    "/svetki-un-tradicijas/saulgriezi/": [
+      "/pasakumi/zemes-stunda/"
+    ],
+    "/pasakumi/enu-diena/": [
+      "/pasakumi/liela-talka/",
+      "/pasakumi/zinatnieku-nakts/",
+      "/skolas-brivlaiki/",
+      "/nozimigas-dienas/"
+    ],
+    "/pasakumi/liela-talka/": [
+      "/pasakumi/zemes-stunda/",
+      "/svetki-un-tradicijas/zemes-diena/",
+      "/pasakumi/zinatnieku-nakts/",
+      "/nozimigas-dienas/"
+    ],
+    "/pasakumi/rigas-maratons/": [
+      "/pasakumi/rigas-dzimsanas-diena/",
+      "/pasakumi/muzeju-nakts/",
+      "/pasakumi/liela-talka/",
+      "/nozimigas-dienas/"
+    ],
+    "/pasakumi/muzeju-nakts/": [
+      "/pasakumi/balta-nakts/",
+      "/pasakumi/legendu-nakts/",
+      "/pasakumi/zinatnieku-nakts/",
+      "/nozimigas-dienas/"
+    ],
+    "/pasakumi/rigas-operas-festivals/": [
+      "/pasakumi/rigas-dzimsanas-diena/",
+      "/pasakumi/balta-nakts/",
+      "/pasakumi/muzeju-nakts/",
+      "/nozimigas-dienas/"
+    ],
+    "/pasakumi/sarunu-festivals-lampa/": [
+      "/pasakumi/summer-sound/",
+      "/pasakumi/rigas-dzimsanas-diena/",
+      "/pasakumi/zinatnieku-nakts/",
+      "/nozimigas-dienas/"
+    ],
+    "/pasakumi/summer-sound/": [
+      "/pasakumi/liepaja-2027-atklasana/",
+      "/pasakumi/sarunu-festivals-lampa/",
+      "/pasakumi/rigas-dzimsanas-diena/",
+      "/nozimigas-dienas/"
+    ],
+    "/pasakumi/rigas-dzimsanas-diena/": [
+      "/pasakumi/balta-nakts/",
+      "/pasakumi/rigas-operas-festivals/",
+      "/svetki-un-tradicijas/staro-riga/",
+      "/nozimigas-dienas/"
+    ],
+    "/pasakumi/senas-uguns-nakts/": [
+      "/svetki-un-tradicijas/juras-svetku-diena/",
+      "/pasakumi/summer-sound/",
+      "/pasakumi/balta-nakts/",
+      "/nozimigas-dienas/"
+    ],
+    "/svetki-un-tradicijas/juras-svetku-diena/": [
+      "/pasakumi/senas-uguns-nakts/"
+    ],
+    "/pasakumi/balta-nakts/": [
+      "/svetki-un-tradicijas/staro-riga/",
+      "/pasakumi/muzeju-nakts/",
+      "/pasakumi/legendu-nakts/",
+      "/nozimigas-dienas/"
+    ],
+    "/pasakumi/zinatnieku-nakts/": [
+      "/pasakumi/enu-diena/",
+      "/pasakumi/muzeju-nakts/",
+      "/pasakumi/sarunu-festivals-lampa/",
+      "/nozimigas-dienas/"
+    ],
+    "/pasakumi/legendu-nakts/": [
+      "/pasakumi/muzeju-nakts/",
+      "/pasakumi/balta-nakts/",
+      "/svetki-un-tradicijas/staro-riga/",
+      "/nozimigas-dienas/"
+    ],
+    "/pasakumi/bluka-vakars/": [
+      "/svetki-un-tradicijas/ziemas-saulgriezi/",
+      "/pasakumi/ziemassvetku-tirdzins-riga/",
+      "/svetki-un-tradicijas/advente/",
+      "/nozimigas-dienas/"
+    ],
+    "/svetki-un-tradicijas/ziemas-saulgriezi/": [
+      "/pasakumi/bluka-vakars/"
+    ],
+    "/pasakumi/melna-piektdiena/": [
+      "/pasakumi/kiberpirmdiena/",
+      "/pasakumi/ziemassvetku-tirdzins-riga/",
+      "/svetki-un-tradicijas/advente/",
+      "/nozimigas-dienas/"
+    ],
+    "/pasakumi/kiberpirmdiena/": [
+      "/pasakumi/melna-piektdiena/",
+      "/pasakumi/ziemassvetku-tirdzins-riga/",
+      "/pasakumi/bluka-vakars/",
+      "/nozimigas-dienas/"
+    ],
+    "/pabalstu-izmaksas/gimenes-valsts-pabalsts/": [
+      "/pabalstu-izmaksas/berna-kopsanas-pabalsts/",
+      "/pabalstu-izmaksas/berna-piedzimsanas-pabalsts/",
+      "/pabalstu-izmaksas/vecaku-pabalsts/",
+      "/pabalstu-izmaksas/",
+      "/pensiju-izmaksas/"
+    ],
+    "/pabalstu-izmaksas/berna-kopsanas-pabalsts/": [
+      "/pabalstu-izmaksas/vecaku-pabalsts/",
+      "/pabalstu-izmaksas/berna-piedzimsanas-pabalsts/",
+      "/pabalstu-izmaksas/gimenes-valsts-pabalsts/",
+      "/pabalstu-izmaksas/",
+      "/pensiju-izmaksas/"
+    ],
+    "/pabalstu-izmaksas/berna-piedzimsanas-pabalsts/": [
+      "/pabalstu-izmaksas/berna-kopsanas-pabalsts/",
+      "/pabalstu-izmaksas/vecaku-pabalsts/",
+      "/pabalstu-izmaksas/gimenes-valsts-pabalsts/",
+      "/pabalstu-izmaksas/",
+      "/pensiju-izmaksas/"
+    ],
+    "/pabalstu-izmaksas/vecaku-pabalsts/": [
+      "/pabalstu-izmaksas/berna-kopsanas-pabalsts/",
+      "/pabalstu-izmaksas/gimenes-valsts-pabalsts/",
+      "/pabalstu-izmaksas/bezdarbnieka-pabalsts/",
+      "/pabalstu-izmaksas/",
+      "/pensiju-izmaksas/"
+    ],
+    "/pabalstu-izmaksas/bezdarbnieka-pabalsts/": [
+      "/pabalstu-izmaksas/slimibas-pabalsts/",
+      "/pabalstu-izmaksas/vecaku-pabalsts/",
+      "/pabalstu-izmaksas/gmi-pabalsts/",
+      "/pabalstu-izmaksas/",
+      "/pensiju-izmaksas/"
+    ],
+    "/pabalstu-izmaksas/slimibas-pabalsts/": [
+      "/pabalstu-izmaksas/bezdarbnieka-pabalsts/",
+      "/pabalstu-izmaksas/vecaku-pabalsts/",
+      "/pabalstu-izmaksas/majokla-pabalsts/",
+      "/pabalstu-izmaksas/",
+      "/pensiju-izmaksas/"
+    ],
+    "/pabalstu-izmaksas/majokla-pabalsts/": [
+      "/pabalstu-izmaksas/gmi-pabalsts/",
+      "/pabalstu-izmaksas/bezdarbnieka-pabalsts/",
+      "/pabalstu-izmaksas/gimenes-valsts-pabalsts/",
+      "/pabalstu-izmaksas/",
+      "/pensiju-izmaksas/"
+    ],
+    "/pabalstu-izmaksas/gmi-pabalsts/": [
+      "/pabalstu-izmaksas/majokla-pabalsts/",
+      "/pabalstu-izmaksas/bezdarbnieka-pabalsts/",
+      "/pabalstu-izmaksas/gimenes-valsts-pabalsts/",
+      "/pabalstu-izmaksas/",
+      "/pensiju-izmaksas/"
+    ],
+    "/nodoklu-kalkulators/": [
+      "/pensiju-izmaksas/",
+      "/darba-dienu-kalendars/",
+      "/pabalstu-izmaksas/",
+      "/mainu-grafiks/"
+    ],
+    "/copes-kalendars/": [
+      "/saullekts-saulriets/",
+      "/meness-kalendars/",
+      "/dienu-skaititajs/"
+    ],
+    "/adventes-kalendars/": [
+      "/svetki-un-tradicijas/advente/",
+      "/svetki-un-tradicijas/ziemassvetki/",
+      "/pasakumi/ziemassvetku-tirdzins-riga/"
+    ],
+    "/svetki-un-tradicijas/ziemassvetki/": [
+      "/adventes-kalendars/"
+    ],
+    "/adventes-kalendars/2026/": [
+      "/svetki-un-tradicijas/advente/",
+      "/svetki-un-tradicijas/ziemassvetki/",
+      "/pasakumi/ziemassvetku-tirdzins-riga/"
+    ],
+    "/adventes-kalendars/2027/": [
+      "/svetki-un-tradicijas/advente/",
+      "/svetki-un-tradicijas/ziemassvetki/",
+      "/pasakumi/ziemassvetku-tirdzins-riga/"
+    ],
+    "/adventes-kalendars/2028/": [
+      "/svetki-un-tradicijas/advente/",
+      "/svetki-un-tradicijas/ziemassvetki/",
+      "/pasakumi/ziemassvetku-tirdzins-riga/"
+    ],
+    "/adventes-kalendars/2029/": [
+      "/svetki-un-tradicijas/advente/",
+      "/svetki-un-tradicijas/ziemassvetki/",
+      "/pasakumi/ziemassvetku-tirdzins-riga/"
+    ],
+    "/adventes-kalendars/2030/": [
+      "/svetki-un-tradicijas/advente/",
+      "/svetki-un-tradicijas/ziemassvetki/",
+      "/pasakumi/ziemassvetku-tirdzins-riga/"
     ]
   },
   "discover": {

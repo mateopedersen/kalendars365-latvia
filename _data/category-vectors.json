@@ -7,7 +7,7 @@
       "label": "Mēneša kalendārs",
       "file": "/assets/category-vector/calendar.svg",
       "kind": "original-vector",
-      "sha256": "af7082e3f9735bda3d2d9b78ced753990558d1c247fb39ee9b5338177febbdab",
+      "sha256": "4272dd2263af111649806fed55bcfd8192db3e1195e586da88dc2141e73371bf",
       "bytes": 7146
     },
     {
@@ -15,7 +15,7 @@
       "label": "Nedēļas kalendārs",
       "file": "/assets/category-vector/week.svg",
       "kind": "original-vector",
-      "sha256": "6eb3bd242aa6e496a195d509e8f00ecb351a3e18c169c9043d71a954b2e6161e",
+      "sha256": "b39f52dee0f76197aa2f63dcd076fa9dcba8abb9709bde55f37032ae0e90e323",
       "bytes": 8859
     },
     {
@@ -23,7 +23,7 @@
       "label": "Personīgais plānotājs",
       "file": "/assets/category-vector/planner.svg",
       "kind": "original-vector",
-      "sha256": "fc6e666c0e2fb2211e7720ad6f0c6d38e1ba6f64a783ac305bb1aa7f21605908",
+      "sha256": "877867c3b9e8212ebd2041bc88cc647bcfc7f22e5d282301ecd4771cb416148f",
       "bytes": 3838
     },
     {
@@ -31,7 +31,7 @@
       "label": "Ģimenes kalendārs",
       "file": "/assets/category-vector/family.svg",
       "kind": "original-vector",
-      "sha256": "6d30c16ebc5597cd1bccdb2e58b2d2bbb0b6036e5671e91b4b8d8271bf102192",
+      "sha256": "437dc764badb4796f63dbbd8fa66f80bface7b0aac403f0f7ac8fceae60b36c5",
       "bytes": 5572
     },
     {
@@ -39,7 +39,7 @@
       "label": "Atvaļinājuma plānotājs",
       "file": "/assets/category-vector/vacation.svg",
       "kind": "original-vector",
-      "sha256": "bb12588f3e90640531a7e29d0c89b97dac990976d76a4e182927a5123b3eae2a",
+      "sha256": "602334c6652b1b1a6f83efad69bb7749180f663207e45214f93749f4ef84363c",
       "bytes": 5253
     },
     {
@@ -47,7 +47,7 @@
       "label": "Maiņu grafiks",
       "file": "/assets/category-vector/shift.svg",
       "kind": "original-vector",
-      "sha256": "11e7951e1c76bfe96f4c43da7c0dccd9f8559ed64f5452d4e1961ba4e588fc2e",
+      "sha256": "ca4934f66269140eb0385d827db15c6ca13ab1421bdcc409c530bdb82b92e1c5",
       "bytes": 7351
     },
     {
@@ -55,7 +55,7 @@
       "label": "Svētki",
       "file": "/assets/category-vector/holiday.svg",
       "kind": "original-vector",
-      "sha256": "f28b69865c09944a1d3dbfdad6e165e90519f3f319ed81df0d29caef7dcfe57c",
+      "sha256": "0c48fe0156db47680b4fbcbd9e6cd61d855d26696be050b44e846b3712a90f02",
       "bytes": 4385
     },
     {
@@ -63,7 +63,7 @@
       "label": "Skola un mācības",
       "file": "/assets/category-vector/school.svg",
       "kind": "original-vector",
-      "sha256": "1c846a60d1a2d9565470456ad08afb47c0ab4667931ff672352e50e6d013ca53",
+      "sha256": "27ef4d66d562294917755345a0fd40c4ada6ddd161756d6d4e67de5e906920ef",
       "bytes": 5137
     },
     {
@@ -71,7 +71,7 @@
       "label": "Stundu saraksts",
       "file": "/assets/category-vector/timetable.svg",
       "kind": "original-vector",
-      "sha256": "fa7c6d45518edcddb87dbeef2dc368e736458a94fa5316c7f56fb81e83626aee",
+      "sha256": "f22c23072a9350de06b3cf558edadc9d0b23fde2c18649d62784a7dc30f8b7ca",
       "bytes": 6645
     },
     {
@@ -79,7 +79,7 @@
       "label": "Visi rīki",
       "file": "/assets/category-vector/alltools.svg",
       "kind": "original-vector",
-      "sha256": "c290e0ebb7cb837f20d2ff3dbfe9f71265e875aec257e1e9c274aa758199fc6c",
+      "sha256": "c458e6923c2e448635008a5378e9d872cc8979ec4d90fad2cb39db8319d45c3e",
       "bytes": 6112
     },
     {
@@ -87,7 +87,7 @@
       "label": "Datumu kalkulators",
       "file": "/assets/category-vector/calculator.svg",
       "kind": "original-vector",
-      "sha256": "fcd053d2d54de310b6b87777b17a64dd0e237e6c9d5dda682727c19bf96d7bba",
+      "sha256": "efde1149e973c33f2922b857d4f821328bfbcab1a22fc162d9f3a43f03792b36",
       "bytes": 10878
     },
     {
@@ -95,7 +95,7 @@
       "label": "Vārda dienas",
       "file": "/assets/category-vector/names.svg",
       "kind": "original-vector",
-      "sha256": "285161cc6b9ac442ca063293011d10b48f88a78a800092cde026303f94fd7321",
+      "sha256": "0ead9b44f67aa564f6d22be9ce85179821a68f822f01701657e7843d5d6ba80b",
       "bytes": 7229
     },
     {
@@ -103,7 +103,7 @@
       "label": "Latvijas gadskārtas",
       "file": "/assets/category-vector/culture.svg",
       "kind": "original-vector",
-      "sha256": "95f5baf4da9b1e9fbdbfdb6efc34860da01f881c837cae1128b2efe3b84066b3",
+      "sha256": "409c35942ffd105f87102242a52bf9a147e7df8cb3d42ff61a21c0890c9cdb47",
       "bytes": 15147
     },
     {
@@ -111,7 +111,7 @@
       "label": "Latvijas dienas",
       "file": "/assets/category-vector/latvia-days.svg",
       "kind": "original-vector",
-      "sha256": "c77ac6d6bcd2c006a28d5abbef55f2cf256e30aef7a7577fd96cbfca45d36f10",
+      "sha256": "0f624c614a5ec211c8cc76b3377c49c8225626d85779314f539203dbac6f4636",
       "bytes": 4468
     },
     {
@@ -119,7 +119,7 @@
       "label": "Atceres diena",
       "file": "/assets/category-vector/memorial.svg",
       "kind": "original-vector",
-      "sha256": "320d96196d3cea1f56393e3bd2af58c300efe219d38511d3c033434ac7900318",
+      "sha256": "1b0b2aaa6039caed5e4eded903986acd1860fea08c6fa704bbbac333c4afa10a",
       "bytes": 4490
     },
     {
@@ -127,7 +127,7 @@
       "label": "Privātums",
       "file": "/assets/category-vector/privacy.svg",
       "kind": "original-vector",
-      "sha256": "6d687be6cb1b0377ea16971e092333b9a020fe58b5f70a90ee39f973bb4530fd",
+      "sha256": "03894ee92db4e2310bb0e0dd5f642e1819120a3c2079d7f726c7efdeccc67eb9",
       "bytes": 3646
     },
     {
@@ -135,7 +135,7 @@
       "label": "Par projektu",
       "file": "/assets/category-vector/about.svg",
       "kind": "original-vector",
-      "sha256": "c6a0c4551ab9d32f2bcb4cbf772a66a4099ae9ccebd0964ab8b835f29ddf7134",
+      "sha256": "af6935fe967b1f957c789ae995697f3e0cdc84f76455724746191b464edb95b7",
       "bytes": 3933
     },
     {
@@ -143,7 +143,7 @@
       "label": "Atrašanās vieta",
       "file": "/assets/category-vector/city.svg",
       "kind": "original-vector",
-      "sha256": "89369e740530891623d6103bfd503bcf9244babc46eacf0952e40bdc8be93a2d",
+      "sha256": "4ca94901baeda48bcbdfe84c79253bd26f8473861ea334b9ee6e35bc394b1dea",
       "bytes": 3496
     },
     {
@@ -151,7 +151,7 @@
       "label": "Mēness kalendārs",
       "file": "/assets/category-vector/moon.svg",
       "kind": "original-vector",
-      "sha256": "d135f0d3f422523dfbfcc9a48abb103ec08765fb1ded73f55e2f3ec8e25185ad",
+      "sha256": "40210bcda0e956fd57fa7c790628228eb4d074c973814c501ebf209e1b49c34c",
       "bytes": 31327
     },
     {
@@ -159,7 +159,7 @@
       "label": "Mēness fāzes",
       "file": "/assets/category-vector/phases.svg",
       "kind": "original-vector",
-      "sha256": "004ca000e771e2e0e93e5a171cd40fcb9823a84add385f573fec99fb1536ef42",
+      "sha256": "dd43384a3d9c0e6f076804b4a221b42a3a6ab429a1cc7b186e61f8730562afd7",
       "bytes": 57418
     },
     {
@@ -167,7 +167,7 @@
       "label": "Zeme",
       "file": "/assets/category-vector/earth.svg",
       "kind": "original-vector",
-      "sha256": "219eae9aef4922a6cb7ba466f65091a03149415bfeeec0508a94bbee87b6a32b",
+      "sha256": "bcc21850c311ab0666e37150b88b4a88d4228719815202498a8b3cb77cc9d76a",
       "bytes": 9932
     },
     {
@@ -175,7 +175,7 @@
       "label": "Astronomiskais kalendārs",
       "file": "/assets/category-vector/astronomy.svg",
       "kind": "original-vector",
-      "sha256": "37e70d0daeb7116b6b13d21f5a92a07393e61316b9b43a93b3f092f5b8111434",
+      "sha256": "d265c656748685088343ac33ebfa499fd46fe8279ab672e44615e6a845bc0dfe",
       "bytes": 23782
     },
     {
@@ -183,7 +183,7 @@
       "label": "Saule",
       "file": "/assets/category-vector/sun.svg",
       "kind": "original-vector",
-      "sha256": "1f49b206ba37404d2fe3c51098b7e27c8006a3e251d230ad0e5f2ea1356da764",
+      "sha256": "68e33d90a451e6fc81272003172b8fad67e30bb982ff848e8c68fe1857a9bd44",
       "bytes": 5284
     },
     {
@@ -191,7 +191,7 @@
       "label": "Saullēkts un saulriets",
       "file": "/assets/category-vector/sunrise.svg",
       "kind": "original-vector",
-      "sha256": "3aa92de7533a6f79cd1e79a7ea47cac6264d28f947d27eed469a2dfa5e4d19af",
+      "sha256": "0157ea8ebc3957b550e50c9846b8733b667dd77caab43d56056ab86c4575227d",
       "bytes": 4742
     },
     {
@@ -199,7 +199,7 @@
       "label": "Gadalaiki",
       "file": "/assets/category-vector/seasons.svg",
       "kind": "original-vector",
-      "sha256": "d1f13a30d095c633087372326e89125de632f23d7bad3c3e1b16afed9f4a7245",
+      "sha256": "0604c1aea53e13943eb0ae49b1b134b83b20ae3ef7c991ea26de4eac94aa4a35",
       "bytes": 6645
     },
     {
@@ -207,7 +207,7 @@
       "label": "Sējas un stādīšanas kalendārs",
       "file": "/assets/category-vector/garden.svg",
       "kind": "original-vector",
-      "sha256": "913e33d6bba8e7e59734aabf4d5568441861d88a51dab32b226938a34477b760",
+      "sha256": "c6cdc34b8af7ed15632d877af6aefc56684c45a37c3d9cb63cc306c3c3e922b0",
       "bytes": 6229
     },
     {
@@ -215,7 +215,7 @@
       "label": "Darba dienas",
       "file": "/assets/category-vector/work.svg",
       "kind": "original-vector",
-      "sha256": "bdb425f93fb6107f55d639b08d28fa25c9c64da65e8b2334a82ee70efc5b0076",
+      "sha256": "49972c14b58677d59f1889c4b867ca6062964cece42c8c5ed9a5fb957de3dbf5",
       "bytes": 4469
     },
     {
@@ -223,7 +223,7 @@
       "label": "Laiks",
       "file": "/assets/category-vector/clock.svg",
       "kind": "original-vector",
-      "sha256": "e5dfb9b591d210b4620646f08b211c8c9bfd5285916f00e07e075a76f0042922",
+      "sha256": "64430baf86771edba78d2e903407040fce739aad5510bd66bd105f1fb3e203e0",
       "bytes": 4680
     },
     {
@@ -231,7 +231,7 @@
       "label": "PDF lejupielāde",
       "file": "/assets/category-vector/pdf.svg",
       "kind": "original-vector",
-      "sha256": "df0dd8645c0df6eecb5f3e544e0a4dc25e7089ffab68946185eff236e18c42c5",
+      "sha256": "37594df2d4ee0c39cb87157316abd19899160cd09807e3c1b27e718aa0af121b",
       "bytes": 3930
     },
     {
@@ -239,7 +239,7 @@
       "label": "Attēla lejupielāde",
       "file": "/assets/category-vector/webp.svg",
       "kind": "original-vector",
-      "sha256": "e96ef05591e9b87035bd01430a3ad112e5f0de6a5b128a367657b70e0722898e",
+      "sha256": "28ca5602b871001afb2a908ff615c42549c3e2df9876b50a870c8016a6bf2bea",
       "bytes": 4076
     },
     {
@@ -247,7 +247,7 @@
       "label": "Kalendāru druka",
       "file": "/assets/category-vector/print.svg",
       "kind": "original-vector",
-      "sha256": "062b032fd9ed617b4282f12e801e4f85833253dc4715747f13b11df987e5d88f",
+      "sha256": "dcb21105b1caa26afba3a8a385a4fd094c72305853f274ce30e1eca243096f0a",
       "bytes": 4306
     },
     {
@@ -255,7 +255,7 @@
       "label": "Zodiaka zīmes",
       "file": "/assets/category-vector/zodiac.svg",
       "kind": "original-vector",
-      "sha256": "489bbe313f076065bef99af972b2f93f2da23dabf998b9338daeeda8bfabfa5d",
+      "sha256": "2a7b45c21dac7496184ed0e02d094dd5792921e19b3c9e47d33c6f8b0c43a2cd",
       "bytes": 20771
     },
     {
@@ -263,7 +263,7 @@
       "label": "Janvāris",
       "file": "/assets/category-vector/month-1.svg",
       "kind": "original-vector",
-      "sha256": "8a5634f153642075fe81025972865a9eb5b0b250fe4b13c29b46d8e6022c8f08",
+      "sha256": "e983e04bedb70da2781fabe3111e61b317cd9ddd43a20608cb5bc138c9cc2388",
       "bytes": 26392
     },
     {
@@ -271,7 +271,7 @@
       "label": "Februāris",
       "file": "/assets/category-vector/month-2.svg",
       "kind": "original-vector",
-      "sha256": "ab3d8b57559bfae8f3283ff802f711063ab03de4a3a350104f29e5c08a5c61c4",
+      "sha256": "9740309a6d9f8e4e17fd302a98a262ce24bf1effc29cf9b7423793528595b1bb",
       "bytes": 34273
     },
     {
@@ -279,7 +279,7 @@
       "label": "Marts",
       "file": "/assets/category-vector/month-3.svg",
       "kind": "original-vector",
-      "sha256": "c0ddb4f405536f1febb81bcaa114e97c786504cb2a85517aa5fa8f19aa0caeec",
+      "sha256": "bf8e74785fb7cea5e78d87088954f0523d9cd01007d21afd599d77da5cecb9c6",
       "bytes": 9239
     },
     {
@@ -287,7 +287,7 @@
       "label": "Aprīlis",
       "file": "/assets/category-vector/month-4.svg",
       "kind": "original-vector",
-      "sha256": "6308f5506d2ee8c11ab7e9720565458ef1a0da5e8e3618e1ae3b8a0b763fda51",
+      "sha256": "397b5f8c0a846a0a78a6c2843c1dc4e95be768c8c5320e27fdcbed055e37ac01",
       "bytes": 10033
     },
     {
@@ -295,7 +295,7 @@
       "label": "Maijs",
       "file": "/assets/category-vector/month-5.svg",
       "kind": "original-vector",
-      "sha256": "3011b2bf8c08111a0c7b114c50dd9f59e732a31f25b387d5e9bf5d79fecfefad",
+      "sha256": "3691d9420264a621f97fdf64605a0e248e5ee23038a369433a5cf6d3bc9c9b4c",
       "bytes": 18328
     },
     {
@@ -303,7 +303,7 @@
       "label": "Jūnijs",
       "file": "/assets/category-vector/month-6.svg",
       "kind": "original-vector",
-      "sha256": "4e3cb2a8b5a86f49f7d010f4235c2fdb44d6ac99354b74863c9148ce5a953157",
+      "sha256": "f030d81805c308f89b0743d95098b13fb11c94d591c8307b7e0f076c93a18135",
       "bytes": 20546
     },
     {
@@ -311,7 +311,7 @@
       "label": "Jūlijs",
       "file": "/assets/category-vector/month-7.svg",
       "kind": "original-vector",
-      "sha256": "71da0d00602e5836a807c049b093d80d315d9c7bc02f88ae24d0c7799b8f747a",
+      "sha256": "c27d50aaebc91671c58005c367901fb6fe7f6d1aaf8b80bbfaf39e729837f3d6",
       "bytes": 26284
     },
     {
@@ -319,7 +319,7 @@
       "label": "Augusts",
       "file": "/assets/category-vector/month-8.svg",
       "kind": "original-vector",
-      "sha256": "9d08d8883bed6e0eb81fa369c7cae52e25c15259dbf9696952241f1e65ad2226",
+      "sha256": "42e32dbe278e94c146906d6af1d9c5e9684038e63a49093e1ef6b34b3a83498e",
       "bytes": 28960
     },
     {
@@ -327,7 +327,7 @@
       "label": "Septembris",
       "file": "/assets/category-vector/month-9.svg",
       "kind": "original-vector",
-      "sha256": "d9b2c8a6ffb877482753dd9f1687d85ddfcbea596ccbf1d92b6ed2f48b6afca2",
+      "sha256": "404d1668788b6e810455e4825e0ce2664ce688fbaedbeea380b03eb56773694e",
       "bytes": 12323
     },
     {
@@ -335,7 +335,7 @@
       "label": "Oktobris",
       "file": "/assets/category-vector/month-10.svg",
       "kind": "original-vector",
-      "sha256": "fbb62632e4c25ade28463d45b18a278213b7568d0a4e2e7b842d7bf8d182a8ab",
+      "sha256": "c95e85e0c17ed7293f6165e3fc58bfb5fdc097de7ff8c10d425630cdd791dcda",
       "bytes": 14677
     },
     {
@@ -343,7 +343,7 @@
       "label": "Novembris",
       "file": "/assets/category-vector/month-11.svg",
       "kind": "original-vector",
-      "sha256": "14629b27c4620c6d420aa2fac2ea9a389df3795c8c054f0f431d37e76a8232f5",
+      "sha256": "5d37fa9344ff1fefb931c796260182e716924c1eb7dee3f1a5a7f6552ad69664",
       "bytes": 7783
     },
     {
@@ -351,7 +351,7 @@
       "label": "Decembris",
       "file": "/assets/category-vector/month-12.svg",
       "kind": "original-vector",
-      "sha256": "0698857f9516504ec08b2b1bda577156017a1f6b06adc49df796231e05e1457b",
+      "sha256": "94dec15d3e5fc6c902e17c125c5b1296c514d5d55117f253379527e82c52cfbe",
       "bytes": 40072
     }
   ]

@@ -1,9 +1,9 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 280" role="img" aria-labelledby="title desc"><title id="title">Datumu kalkulators</title><desc id="desc">Kalendārs365 oriģināla vektoru ilustrācija: Kalkulators ar taustiņiem un datumu saskaitīšanas piemēru. Apjoms veidots ar materiālu gaismēnām, atspīdumiem un perspektīvu.</desc><defs>
 <linearGradient id="paper" x2=".7" y2="1"><stop stop-color="#fffefa"/><stop offset=".6" stop-color="#f4f0e5"/><stop offset="1" stop-color="#d5ccbc"/></linearGradient>
 <linearGradient id="edge" x2="0" y2="1"><stop stop-color="#eee8db"/><stop offset=".5" stop-color="#a69b8b"/><stop offset="1" stop-color="#f3eee1"/></linearGradient>
-<linearGradient id="wine" x1=".1" y1="0" x2=".8" y2="1"><stop stop-color="#c5758e"/><stop offset=".3" stop-color="#a03c5a"/><stop offset=".7" stop-color="#7e203d"/><stop offset="1" stop-color="#4b1027"/></linearGradient>
-<linearGradient id="teal" x2=".7" y2="1"><stop stop-color="#a5d5cb"/><stop offset=".3" stop-color="#559d90"/><stop offset="1" stop-color="#174c47"/></linearGradient>
-<linearGradient id="navy" x2=".7" y2="1"><stop stop-color="#718692"/><stop offset=".4" stop-color="#334f5d"/><stop offset="1" stop-color="#142833"/></linearGradient>
+<linearGradient id="wine" x1=".1" y1="0" x2=".8" y2="1"><stop stop-color="#a33143"/><stop offset=".3" stop-color="#9e1b34"/><stop offset=".7" stop-color="#751226"/><stop offset="1" stop-color="#470b19"/></linearGradient>
+<linearGradient id="teal" x2=".7" y2="1"><stop stop-color="#a33143"/><stop offset=".3" stop-color="#9e1b34"/><stop offset="1" stop-color="#751226"/></linearGradient>
+<linearGradient id="navy" x2=".7" y2="1"><stop stop-color="#65424c"/><stop offset=".4" stop-color="#3e222c"/><stop offset="1" stop-color="#231419"/></linearGradient>
 <linearGradient id="metal" x2="1" y2=".7"><stop stop-color="#fbffff"/><stop offset=".2" stop-color="#c1d0d5"/><stop offset=".37" stop-color="#ffffff"/><stop offset=".58" stop-color="#8c9ea7"/><stop offset=".79" stop-color="#e5ebec"/><stop offset="1" stop-color="#627782"/></linearGradient>
 <linearGradient id="gold" x1=".1" x2=".9" y2=".8"><stop stop-color="#fff4ca"/><stop offset=".25" stop-color="#ddb865"/><stop offset=".42" stop-color="#ffedb5"/><stop offset=".7" stop-color="#b38439"/><stop offset="1" stop-color="#74512e"/></linearGradient>
 <linearGradient id="wood" x2=".8" y2="1"><stop stop-color="#dcb891"/><stop offset=".5" stop-color="#94664b"/><stop offset="1" stop-color="#593c30"/></linearGradient>

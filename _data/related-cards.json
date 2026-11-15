@@ -1150,10 +1150,10 @@
       "scope": null,
       "minutes": null,
       "image": {
-        "src": "/assets/related-previews/cfe0c67558ee5e1c3ec75928-240.webp",
+        "src": "/assets/related-previews/9d1def56d0c85179387d40fe-240.webp",
         "width": 240,
         "height": 126,
-        "srcset": "/assets/related-previews/cfe0c67558ee5e1c3ec75928-240.webp 240w, /assets/related-previews/1c1661f86d170ce6d997608a-480.webp 480w"
+        "srcset": "/assets/related-previews/9d1def56d0c85179387d40fe-240.webp 240w, /assets/related-previews/2fd2e70a684adc7cdd7ae914-480.webp 480w"
       }
     },
     "/dienas-garums/": {
@@ -8147,33 +8147,33 @@
       }
     },
     "/nozimigas-dienas/": {
-      "title": "Nozīmīgas dienas Latvijā",
-      "description": "Latvijas svētku dienas, gadskārtu notikumi un citas avotos pārbaudītas kultūras tēmas. Pārbaudi datumu un atšķir to no likumā noteiktas brīvdienas.",
+      "title": "Nozīmīgas dienas un pasākumi Latvijā",
+      "description": "Pasākumi Latvijā 2026–2027: Rīgas svētki, festivāli, muzeju vakari un dabas iniciatīvas. Atrodi datumu, norises vietu un ceļvedi pēc pilsētas vai intereses.",
       "type": "tool",
       "kicker": "Ikdienas rīks",
       "cta": "Atvērt rīku",
       "scope": null,
       "minutes": null,
       "image": {
-        "src": "/assets/related-previews/56f6fd930a98d35d3423d118-240.webp",
+        "src": "/assets/related-previews/e80276ba11d76aa9dd5e27da-240.webp",
         "width": 240,
         "height": 126,
-        "srcset": "/assets/related-previews/56f6fd930a98d35d3423d118-240.webp 240w, /assets/related-previews/ced04370acd0502a1b0affd2-480.webp 480w"
+        "srcset": "/assets/related-previews/e80276ba11d76aa9dd5e27da-240.webp 240w, /assets/related-previews/625fdf2ea7bb80391c02905d-480.webp 480w"
       }
     },
     "/pabalstu-izmaksas/": {
       "title": "Pabalstu izmaksas Latvijā",
-      "description": "Pārbaudi, kā VSAA nosaka pabalsta izmaksas datumu un par kuru mēnesi veic maksājumu. Datums atkarīgs no pabalsta un lēmuma.",
+      "description": "Bērnu, vecāku, bezdarbnieka un slimības pabalsti Latvijā. Mājokļa atbalsts, GMI sliekšņi, pieteikšanās un personīgais izmaksas datums.",
       "type": "tool",
       "kicker": "Ikdienas rīks",
       "cta": "Atvērt rīku",
       "scope": null,
       "minutes": null,
       "image": {
-        "src": "/assets/related-previews/aa7a6e7baa7941e0b18aba2a-240.webp",
+        "src": "/assets/related-previews/cf46c2b9a1b426d43c83a8d7-240.webp",
         "width": 240,
         "height": 126,
-        "srcset": "/assets/related-previews/aa7a6e7baa7941e0b18aba2a-240.webp 240w, /assets/related-previews/790b227b1a04eb2e9fdc2a6e-480.webp 480w"
+        "srcset": "/assets/related-previews/cf46c2b9a1b426d43c83a8d7-240.webp 240w, /assets/related-previews/fab3aa3567d12fd7b4957752-480.webp 480w"
       }
     },
     "/par-projektu/": {
@@ -8987,18 +8987,18 @@
       }
     },
     "/pensiju-izmaksas/": {
-      "title": "Pensiju izmaksas Latvijā",
-      "description": "Uzzini, kur atrast savu pensijas izmaksas datumu un kā pārbaudīt VSAA ziņas par izmaksām pirms svētkiem. Viena datuma visiem nav.",
+      "title": "Pensija Latvijā un pensionēšanās vecuma kalkulators",
+      "description": "Kad var pensionēties Latvijā? Aprēķini 65 gadu datumu, salīdzini priekšlaicīgo pensiju, stāžu, izmaksas, nodokļus un VSAA pieteikšanos.",
       "type": "tool",
       "kicker": "Ikdienas rīks",
       "cta": "Atvērt rīku",
       "scope": null,
       "minutes": null,
       "image": {
-        "src": "/assets/related-previews/6e72d26d1e9ac64f408e5b4c-240.webp",
+        "src": "/assets/related-previews/59c3adef73df32b9669d9764-240.webp",
         "width": 240,
         "height": 126,
-        "srcset": "/assets/related-previews/6e72d26d1e9ac64f408e5b4c-240.webp 240w, /assets/related-previews/921d088554254d110cdb71f5-480.webp 480w"
+        "srcset": "/assets/related-previews/59c3adef73df32b9669d9764-240.webp 240w, /assets/related-previews/6dded73b8f88d7c141075a77-480.webp 480w"
       }
     },
     "/perseidas/": {
@@ -9070,10 +9070,10 @@
       "scope": null,
       "minutes": null,
       "image": {
-        "src": "/assets/related-previews/927a4b663c2a3ef827335bde-240.webp",
+        "src": "/assets/related-previews/9a1a7db4cf47dfa5c55c7148-240.webp",
         "width": 240,
         "height": 126,
-        "srcset": "/assets/related-previews/927a4b663c2a3ef827335bde-240.webp 240w, /assets/related-previews/25faf74ffe6864d63c12cfa5-480.webp 480w"
+        "srcset": "/assets/related-previews/9a1a7db4cf47dfa5c55c7148-240.webp 240w, /assets/related-previews/8d95368d6a565f9116098f6a-480.webp 480w"
       }
     },
     "/redakcijas-politika/": {
@@ -13120,10 +13120,10 @@
       "scope": null,
       "minutes": null,
       "image": {
-        "src": "/assets/related-previews/cc8ebd094ee7aefb12b3df91-240.webp",
+        "src": "/assets/related-previews/5f5725570bfedfef56722aa9-240.webp",
         "width": 240,
         "height": 126,
-        "srcset": "/assets/related-previews/cc8ebd094ee7aefb12b3df91-240.webp 240w, /assets/related-previews/ac09a9bd2cc006c392e1f9d8-480.webp 480w"
+        "srcset": "/assets/related-previews/5f5725570bfedfef56722aa9-240.webp 240w, /assets/related-previews/9f4296dfba18587a2488982b-480.webp 480w"
       }
     },
     "/zodiaka-zimes/": {
@@ -13154,6 +13154,546 @@
         "width": 240,
         "height": 126,
         "srcset": "/assets/related-previews/27115ee05c2dcf87f03db4ce-240.webp 240w, /assets/related-previews/66ce53699725789d24553893-480.webp 480w"
+      }
+    },
+    "/pasakumi/ziemassvetku-tirdzins-riga/": {
+      "title": "Rīgas Ziemassvētku tirdziņš 2026–2027",
+      "description": "Kad notiek Rīgas Ziemassvētku tirdziņš? Kur notiek Rīgas Ziemassvētku tirdziņš? 27.11.2026.–03.01.2027. Vieta, programma un pārbaudītais datumu pārskats līdz 2030. gadam.",
+      "type": "guide",
+      "kicker": "Praktisks ceļvedis",
+      "cta": "Lasīt rakstu",
+      "scope": null,
+      "minutes": null,
+      "image": {
+        "src": "/assets/related-previews/67e1d5bdac89bbdf7d3aedcb-240.webp",
+        "width": 240,
+        "height": 126,
+        "srcset": "/assets/related-previews/67e1d5bdac89bbdf7d3aedcb-240.webp 240w, /assets/related-previews/60fdaa96c360a1d1370df432-480.webp 480w"
+      }
+    },
+    "/pasakumi/18-novembris-riga/": {
+      "title": "18. novembra pasākumi Rīgā 2026",
+      "description": "Kad notiek 18. novembra pasākumi Rīgā? Kur notiek 18. novembra pasākumi Rīgā? 18.11.2026. Vieta, programma un pārbaudītais datumu pārskats līdz 2030. gadam.",
+      "type": "guide",
+      "kicker": "Praktisks ceļvedis",
+      "cta": "Lasīt rakstu",
+      "scope": null,
+      "minutes": null,
+      "image": {
+        "src": "/assets/related-previews/58462bb399a70af0536c4f01-240.webp",
+        "width": 240,
+        "height": 126,
+        "srcset": "/assets/related-previews/58462bb399a70af0536c4f01-240.webp 240w, /assets/related-previews/9fe6db0f16c262c470e94661-480.webp 480w"
+      }
+    },
+    "/pasakumi/liepaja-2027-atklasana/": {
+      "title": "Liepāja 2027 atklāšanas nedēļas nogale",
+      "description": "Kad notiek Liepāja 2027 atklāšana? Kur notiek Liepāja 2027 atklāšana? 22.–24.01.2027. Vieta, programma un pārbaudītais datumu pārskats līdz 2030. gadam.",
+      "type": "guide",
+      "kicker": "Praktisks ceļvedis",
+      "cta": "Lasīt rakstu",
+      "scope": null,
+      "minutes": null,
+      "image": {
+        "src": "/assets/related-previews/13803ceb792758ed675c4e32-240.webp",
+        "width": 240,
+        "height": 126,
+        "srcset": "/assets/related-previews/13803ceb792758ed675c4e32-240.webp 240w, /assets/related-previews/0064fb3d0a995cef50e9cdc5-480.webp 480w"
+      }
+    },
+    "/pasakumi/ledus-skulpturu-festivals-jelgava/": {
+      "title": "Ledus skulptūru festivāls Jelgavā 2027",
+      "description": "Kad notiek Ledus skulptūru festivāls Jelgavā? Kur notiek Ledus skulptūru festivāls Jelgavā? 06.–07.02.2027. Vieta, programma un pārbaudītais datumu pārskats līdz 2030. gadam.",
+      "type": "guide",
+      "kicker": "Praktisks ceļvedis",
+      "cta": "Lasīt rakstu",
+      "scope": null,
+      "minutes": null,
+      "image": {
+        "src": "/assets/related-previews/77921e2d156ad4ba3081fe0e-240.webp",
+        "width": 240,
+        "height": 126,
+        "srcset": "/assets/related-previews/77921e2d156ad4ba3081fe0e-240.webp 240w, /assets/related-previews/6cee8e700a45046df1f49c27-480.webp 480w"
+      }
+    },
+    "/pasakumi/zemes-stunda/": {
+      "title": "Zemes stunda 2027 Latvijā",
+      "description": "Kad notiek Zemes stunda? Kur notiek Zemes stunda? 20.03.2027. Vieta, programma un pārbaudītais datumu pārskats līdz 2030. gadam.",
+      "type": "guide",
+      "kicker": "Praktisks ceļvedis",
+      "cta": "Lasīt rakstu",
+      "scope": null,
+      "minutes": null,
+      "image": {
+        "src": "/assets/related-previews/3d95303d42d2221d24ddc27a-240.webp",
+        "width": 240,
+        "height": 126,
+        "srcset": "/assets/related-previews/3d95303d42d2221d24ddc27a-240.webp 240w, /assets/related-previews/2469d42cac600c5171f434fa-480.webp 480w"
+      }
+    },
+    "/pasakumi/enu-diena/": {
+      "title": "Ēnu diena 2027",
+      "description": "Kad notiek Ēnu diena? Kur notiek Ēnu diena? 07.04.2027. Vieta, programma un pārbaudītais datumu pārskats līdz 2030. gadam.",
+      "type": "guide",
+      "kicker": "Praktisks ceļvedis",
+      "cta": "Lasīt rakstu",
+      "scope": null,
+      "minutes": null,
+      "image": {
+        "src": "/assets/related-previews/198396163b09663f6d3dcf48-240.webp",
+        "width": 240,
+        "height": 126,
+        "srcset": "/assets/related-previews/198396163b09663f6d3dcf48-240.webp 240w, /assets/related-previews/cce61eae4200f8675b63bbc3-480.webp 480w"
+      }
+    },
+    "/pasakumi/liela-talka/": {
+      "title": "Lielā talka 2027",
+      "description": "Kad notiek Lielā talka? Kur notiek Lielā talka? 24.04.2027. Vieta, programma un pārbaudītais datumu pārskats līdz 2030. gadam.",
+      "type": "guide",
+      "kicker": "Praktisks ceļvedis",
+      "cta": "Lasīt rakstu",
+      "scope": null,
+      "minutes": null,
+      "image": {
+        "src": "/assets/related-previews/20996e6ed61e4b5f839da9fe-240.webp",
+        "width": 240,
+        "height": 126,
+        "srcset": "/assets/related-previews/20996e6ed61e4b5f839da9fe-240.webp 240w, /assets/related-previews/b0254170b08f1d6346a7a503-480.webp 480w"
+      }
+    },
+    "/pasakumi/rigas-maratons/": {
+      "title": "Rimi Rīgas maratons 2027",
+      "description": "Kad notiek Rimi Rīgas maratons? Kur notiek Rimi Rīgas maratons? 15.–16.05.2027. Vieta, programma un pārbaudītais datumu pārskats līdz 2030. gadam.",
+      "type": "guide",
+      "kicker": "Praktisks ceļvedis",
+      "cta": "Lasīt rakstu",
+      "scope": null,
+      "minutes": null,
+      "image": {
+        "src": "/assets/related-previews/30680273929271029d67c798-240.webp",
+        "width": 240,
+        "height": 126,
+        "srcset": "/assets/related-previews/30680273929271029d67c798-240.webp 240w, /assets/related-previews/b3e16d268418bb1914f8ff24-480.webp 480w"
+      }
+    },
+    "/pasakumi/muzeju-nakts/": {
+      "title": "Muzeju nakts Latvijā",
+      "description": "Kad notiek Muzeju nakts? Kur notiek Muzeju nakts? 2027. gada datums vēl jāizziņo Vieta, programma un pārbaudītais datumu pārskats līdz 2030. gadam.",
+      "type": "guide",
+      "kicker": "Praktisks ceļvedis",
+      "cta": "Lasīt rakstu",
+      "scope": null,
+      "minutes": null,
+      "image": {
+        "src": "/assets/related-previews/b7048d633a896f5af67ddc2f-240.webp",
+        "width": 240,
+        "height": 126,
+        "srcset": "/assets/related-previews/b7048d633a896f5af67ddc2f-240.webp 240w, /assets/related-previews/b2bef9835f416cdaf1cae1f1-480.webp 480w"
+      }
+    },
+    "/pasakumi/rigas-operas-festivals/": {
+      "title": "Rīgas operas festivāls 2027",
+      "description": "Kad notiek Rīgas operas festivāls? Kur notiek Rīgas operas festivāls? 02.–19.06.2027. Vieta, programma un pārbaudītais datumu pārskats līdz 2030. gadam.",
+      "type": "guide",
+      "kicker": "Praktisks ceļvedis",
+      "cta": "Lasīt rakstu",
+      "scope": null,
+      "minutes": null,
+      "image": {
+        "src": "/assets/related-previews/98ca72da1624d9bb79644dfe-240.webp",
+        "width": 240,
+        "height": 126,
+        "srcset": "/assets/related-previews/98ca72da1624d9bb79644dfe-240.webp 240w, /assets/related-previews/f5a3400d393062145a520670-480.webp 480w"
+      }
+    },
+    "/pasakumi/sarunu-festivals-lampa/": {
+      "title": "Sarunu festivāls LAMPA 2027",
+      "description": "Kad notiek sarunu festivāls LAMPA? Kur notiek sarunu festivāls LAMPA? 02.–03.07.2027. Vieta, programma un pārbaudītais datumu pārskats līdz 2030. gadam.",
+      "type": "guide",
+      "kicker": "Praktisks ceļvedis",
+      "cta": "Lasīt rakstu",
+      "scope": null,
+      "minutes": null,
+      "image": {
+        "src": "/assets/related-previews/05c9c9180ea71cf628a1974e-240.webp",
+        "width": 240,
+        "height": 126,
+        "srcset": "/assets/related-previews/05c9c9180ea71cf628a1974e-240.webp 240w, /assets/related-previews/c336ac87aeb3182030f49e5f-480.webp 480w"
+      }
+    },
+    "/pasakumi/summer-sound/": {
+      "title": "Summer Sound 2027 Liepājā",
+      "description": "Kad notiek festivāls Summer Sound? Kur notiek festivāls Summer Sound? 30.–31.07.2027. Vieta, programma un pārbaudītais datumu pārskats līdz 2030. gadam.",
+      "type": "guide",
+      "kicker": "Praktisks ceļvedis",
+      "cta": "Lasīt rakstu",
+      "scope": null,
+      "minutes": null,
+      "image": {
+        "src": "/assets/related-previews/157a91fba4b359e062aad95e-240.webp",
+        "width": 240,
+        "height": 126,
+        "srcset": "/assets/related-previews/157a91fba4b359e062aad95e-240.webp 240w, /assets/related-previews/ddcad930849c7d1c1c8f1894-480.webp 480w"
+      }
+    },
+    "/pasakumi/rigas-dzimsanas-diena/": {
+      "title": "Rīgas dzimšanas diena 2027",
+      "description": "Kad notiek Rīgas dzimšanas dienas svinības? Kur notiek Rīgas dzimšanas dienas svinības? 14.08.2027. Vieta, programma un pārbaudītais datumu pārskats līdz 2030. gadam.",
+      "type": "guide",
+      "kicker": "Praktisks ceļvedis",
+      "cta": "Lasīt rakstu",
+      "scope": null,
+      "minutes": null,
+      "image": {
+        "src": "/assets/related-previews/a309f15cf0b3a890eaf79512-240.webp",
+        "width": 240,
+        "height": 126,
+        "srcset": "/assets/related-previews/a309f15cf0b3a890eaf79512-240.webp 240w, /assets/related-previews/45a31ca03aac2ad6b159c66c-480.webp 480w"
+      }
+    },
+    "/pasakumi/senas-uguns-nakts/": {
+      "title": "Senās uguns nakts Latvijas piekrastē",
+      "description": "Kad notiek Senās uguns nakts? Kur notiek Senās uguns nakts? 2027. gada vietējās norises vēl jāizziņo Vieta, programma un pārbaudītais datumu pārskats līdz 2030. gadam.",
+      "type": "guide",
+      "kicker": "Praktisks ceļvedis",
+      "cta": "Lasīt rakstu",
+      "scope": null,
+      "minutes": null,
+      "image": {
+        "src": "/assets/related-previews/242da0ec68c7ae46567bc0a2-240.webp",
+        "width": 240,
+        "height": 126,
+        "srcset": "/assets/related-previews/242da0ec68c7ae46567bc0a2-240.webp 240w, /assets/related-previews/9b936746fd9a886167ec87a5-480.webp 480w"
+      }
+    },
+    "/pasakumi/balta-nakts/": {
+      "title": "Baltā nakts Rīgā 2027",
+      "description": "Kad notiek Baltā nakts Rīgā? Kur notiek Baltā nakts Rīgā? 04.09.2027. Vieta, programma un pārbaudītais datumu pārskats līdz 2030. gadam.",
+      "type": "guide",
+      "kicker": "Praktisks ceļvedis",
+      "cta": "Lasīt rakstu",
+      "scope": null,
+      "minutes": null,
+      "image": {
+        "src": "/assets/related-previews/abe4d59d1d8e023ee18bf1dd-240.webp",
+        "width": 240,
+        "height": 126,
+        "srcset": "/assets/related-previews/abe4d59d1d8e023ee18bf1dd-240.webp 240w, /assets/related-previews/14ee07e7bc94adcb3fea8863-480.webp 480w"
+      }
+    },
+    "/pasakumi/zinatnieku-nakts/": {
+      "title": "Zinātnieku nakts Latvijā",
+      "description": "Kad notiek Zinātnieku nakts? Kur notiek Zinātnieku nakts? 2027. gada programma vēl jāizziņo Vieta, programma un pārbaudītais datumu pārskats līdz 2030. gadam.",
+      "type": "guide",
+      "kicker": "Praktisks ceļvedis",
+      "cta": "Lasīt rakstu",
+      "scope": null,
+      "minutes": null,
+      "image": {
+        "src": "/assets/related-previews/dc69501e55221aaa42820560-240.webp",
+        "width": 240,
+        "height": 126,
+        "srcset": "/assets/related-previews/dc69501e55221aaa42820560-240.webp 240w, /assets/related-previews/c4537a6cfe53e81aaaea7f32-480.webp 480w"
+      }
+    },
+    "/pasakumi/legendu-nakts/": {
+      "title": "Leģendu nakts Latvijas pilīs un muižās",
+      "description": "Kad notiek Leģendu nakts? Kur notiek Leģendu nakts? 2027. gada programma vēl jāizziņo Vieta, programma un pārbaudītais datumu pārskats līdz 2030. gadam.",
+      "type": "guide",
+      "kicker": "Praktisks ceļvedis",
+      "cta": "Lasīt rakstu",
+      "scope": null,
+      "minutes": null,
+      "image": {
+        "src": "/assets/related-previews/197212868432f4dcf792b878-240.webp",
+        "width": 240,
+        "height": 126,
+        "srcset": "/assets/related-previews/197212868432f4dcf792b878-240.webp 240w, /assets/related-previews/d13b5bd1923434833e5fb0bb-480.webp 480w"
+      }
+    },
+    "/pasakumi/bluka-vakars/": {
+      "title": "Bluķa vakars Brīvdabas muzejā 2026",
+      "description": "Kad notiek Bluķa vakars Brīvdabas muzejā? Kur notiek Bluķa vakars Brīvdabas muzejā? 19.12.2026. Vieta, programma un pārbaudītais datumu pārskats līdz 2030. gadam.",
+      "type": "guide",
+      "kicker": "Praktisks ceļvedis",
+      "cta": "Lasīt rakstu",
+      "scope": null,
+      "minutes": null,
+      "image": {
+        "src": "/assets/related-previews/c5ab620b112bea20a05e9da6-240.webp",
+        "width": 240,
+        "height": 126,
+        "srcset": "/assets/related-previews/c5ab620b112bea20a05e9da6-240.webp 240w, /assets/related-previews/211c294debcaaa86b3382cbf-480.webp 480w"
+      }
+    },
+    "/pasakumi/melna-piektdiena/": {
+      "title": "Melnā piektdiena 2026 Latvijā",
+      "description": "Kad ir Melnā piektdiena? Kur notiek Melnā piektdiena? Datumi 2026.–2030. gadam, veikalu piedāvājumi un cenu salīdzināšana Latvijā.",
+      "type": "guide",
+      "kicker": "Praktisks ceļvedis",
+      "cta": "Lasīt rakstu",
+      "scope": null,
+      "minutes": null,
+      "image": {
+        "src": "/assets/related-previews/8cdaa831be00c91702bdace2-240.webp",
+        "width": 240,
+        "height": 126,
+        "srcset": "/assets/related-previews/8cdaa831be00c91702bdace2-240.webp 240w, /assets/related-previews/9d7cd4af68414b86f00be737-480.webp 480w"
+      }
+    },
+    "/pasakumi/kiberpirmdiena/": {
+      "title": "Kiberpirmdiena 2026 Latvijā",
+      "description": "Kad ir Kiberpirmdiena? Kur notiek Kiberpirmdiena? Datumi 2026.–2030. gadam, veikalu piedāvājumi un cenu salīdzināšana Latvijā.",
+      "type": "guide",
+      "kicker": "Praktisks ceļvedis",
+      "cta": "Lasīt rakstu",
+      "scope": null,
+      "minutes": null,
+      "image": {
+        "src": "/assets/related-previews/f9ca249f18e9bc2b50b03b30-240.webp",
+        "width": 240,
+        "height": 126,
+        "srcset": "/assets/related-previews/f9ca249f18e9bc2b50b03b30-240.webp 240w, /assets/related-previews/b331c429ba833d1832c4f383-480.webp 480w"
+      }
+    },
+    "/pabalstu-izmaksas/gimenes-valsts-pabalsts/": {
+      "title": "Ģimenes valsts pabalsts 2026 un izmaksas kārtība",
+      "description": "Cik maksā par vienu, diviem vai vairākiem bērniem, kad sākas ģimenes valsts pabalsts un kur atrast savu izmaksas datumu? Īss ceļvedis vecākiem Latvijā.",
+      "type": "guide",
+      "kicker": "Praktisks ceļvedis",
+      "cta": "Lasīt rakstu",
+      "scope": null,
+      "minutes": null,
+      "image": {
+        "src": "/assets/related-previews/557b90943507fd149bdfe544-240.webp",
+        "width": 240,
+        "height": 126,
+        "srcset": "/assets/related-previews/557b90943507fd149bdfe544-240.webp 240w, /assets/related-previews/2c0ec2f951570c816e443d8f-480.webp 480w"
+      }
+    },
+    "/pabalstu-izmaksas/berna-kopsanas-pabalsts/": {
+      "title": "Bērna kopšanas pabalsts 2026 un maksājumu secība",
+      "description": "Bērna kopšanas pabalsts līdz pusotra gada vecumam, 2026. gada dzimšanas datuma robeža un atšķirība no vecāku pabalsta. Uzzini, par kuru mēnesi saņem naudu.",
+      "type": "guide",
+      "kicker": "Praktisks ceļvedis",
+      "cta": "Lasīt rakstu",
+      "scope": null,
+      "minutes": null,
+      "image": {
+        "src": "/assets/related-previews/a07bef6403ff4ced61d3b812-240.webp",
+        "width": 240,
+        "height": 126,
+        "srcset": "/assets/related-previews/a07bef6403ff4ced61d3b812-240.webp 240w, /assets/related-previews/b89843425452af7a0f0c8823-480.webp 480w"
+      }
+    },
+    "/pabalstu-izmaksas/berna-piedzimsanas-pabalsts/": {
+      "title": "Bērna piedzimšanas pabalsts 2026 Latvijā",
+      "description": "600 eiro valsts bērna piedzimšanas pabalsts par bērnu, kas dzimis no 2026. gada 1. janvāra. Kā pieteikties un kā atšķirt valsts atbalstu no pašvaldības pabalsta.",
+      "type": "guide",
+      "kicker": "Praktisks ceļvedis",
+      "cta": "Lasīt rakstu",
+      "scope": null,
+      "minutes": null,
+      "image": {
+        "src": "/assets/related-previews/2cfb55aa25bc0474c5d1668e-240.webp",
+        "width": 240,
+        "height": 126,
+        "srcset": "/assets/related-previews/2cfb55aa25bc0474c5d1668e-240.webp 240w, /assets/related-previews/ce9eec4a95d91b2edd9a0f05-480.webp 480w"
+      }
+    },
+    "/pabalstu-izmaksas/vecaku-pabalsts/": {
+      "title": "Vecāku pabalsts 2026 un nenododamā daļa",
+      "description": "Kā atšķiras vecāku pabalsts, bērna kopšanas atvaļinājums un katram vecākam paredzētā nenododamā daļa? Izmaksas secība un svarīgās 2026. gada robežas.",
+      "type": "guide",
+      "kicker": "Praktisks ceļvedis",
+      "cta": "Lasīt rakstu",
+      "scope": null,
+      "minutes": null,
+      "image": {
+        "src": "/assets/related-previews/ef7a8c7d2af49bc3b587e0f3-240.webp",
+        "width": 240,
+        "height": 126,
+        "srcset": "/assets/related-previews/ef7a8c7d2af49bc3b587e0f3-240.webp 240w, /assets/related-previews/8f22fe29dac52f2776f8bd80-480.webp 480w"
+      }
+    },
+    "/pabalstu-izmaksas/bezdarbnieka-pabalsts/": {
+      "title": "Bezdarbnieka pabalsts un pirmās izmaksas datums",
+      "description": "Kad sāk maksāt bezdarbnieka pabalstu, kāpēc svarīgs darba attiecību izbeigšanas pamats un kā mainās piešķirtā summa? NVA un VSAA pieteikumi vienā ceļvedī.",
+      "type": "guide",
+      "kicker": "Praktisks ceļvedis",
+      "cta": "Lasīt rakstu",
+      "scope": null,
+      "minutes": null,
+      "image": {
+        "src": "/assets/related-previews/cc9755d702a83ff47867ece5-240.webp",
+        "width": 240,
+        "height": 126,
+        "srcset": "/assets/related-previews/cc9755d702a83ff47867ece5-240.webp 240w, /assets/related-previews/5ed9dbe7bcd9e6d8eba874fb-480.webp 480w"
+      }
+    },
+    "/pabalstu-izmaksas/slimibas-pabalsts/": {
+      "title": "Slimības pabalsts un B lapas apmaksa",
+      "description": "Kad VSAA apmaksā slimības lapu B, kas jādara pēc tās noslēgšanas un kāpēc 80% aprēķins nav tas pats, kas kontā saņemtā summa?",
+      "type": "guide",
+      "kicker": "Praktisks ceļvedis",
+      "cta": "Lasīt rakstu",
+      "scope": null,
+      "minutes": null,
+      "image": {
+        "src": "/assets/related-previews/ee10f95b5223f3c1bc9126c9-240.webp",
+        "width": 240,
+        "height": 126,
+        "srcset": "/assets/related-previews/ee10f95b5223f3c1bc9126c9-240.webp 240w, /assets/related-previews/5871a7ffbe1cf96875c1bd9e-480.webp 480w"
+      }
+    },
+    "/pabalstu-izmaksas/majokla-pabalsts/": {
+      "title": "Mājokļa pabalsts Latvijā un pieteikšanās Rīgā",
+      "description": "Palīdzība īres, apkures un citu mājokļa rēķinu segšanai. Kā sagatavot dokumentus sociālajam dienestam un kādi noteikumi ir īpaši svarīgi Rīgas iedzīvotājiem.",
+      "type": "guide",
+      "kicker": "Praktisks ceļvedis",
+      "cta": "Lasīt rakstu",
+      "scope": null,
+      "minutes": null,
+      "image": {
+        "src": "/assets/related-previews/ab0cee6e7654105d1ebab004-240.webp",
+        "width": 240,
+        "height": 126,
+        "srcset": "/assets/related-previews/ab0cee6e7654105d1ebab004-240.webp 240w, /assets/related-previews/cae4cde574bdccc3567022cf-480.webp 480w"
+      }
+    },
+    "/pabalstu-izmaksas/gmi-pabalsts/": {
+      "title": "GMI pabalsts 2026 un 2027 Latvijā",
+      "description": "Garantētā minimālā ienākuma slieksnis nav vienāda summa katra cilvēka kontā. Salīdzini 2026. un 2027. gada sliekšņus un uzzini, kur pieteikties GMI pabalstam.",
+      "type": "guide",
+      "kicker": "Praktisks ceļvedis",
+      "cta": "Lasīt rakstu",
+      "scope": null,
+      "minutes": null,
+      "image": {
+        "src": "/assets/related-previews/aa5c09349e6f1db74b845218-240.webp",
+        "width": 240,
+        "height": 126,
+        "srcset": "/assets/related-previews/aa5c09349e6f1db74b845218-240.webp 240w, /assets/related-previews/61ccd80031e8a29fc127066f-480.webp 480w"
+      }
+    },
+    "/nodoklu-kalkulators/": {
+      "title": "Nodokļu un algas kalkulators 2026 Latvijā",
+      "description": "Aprēķini bruto un neto algu 2026. gadā, IIN, VSAOI un darba devēja izmaksas. Salīdzini grāmatiņu, apgādājamos un aprēķini PVN.",
+      "type": "tool",
+      "kicker": "Ikdienas rīks",
+      "cta": "Atvērt rīku",
+      "scope": null,
+      "minutes": null,
+      "image": {
+        "src": "/assets/related-previews/3920f74c90b7894cbe47bbfa-240.webp",
+        "width": 240,
+        "height": 126,
+        "srcset": "/assets/related-previews/3920f74c90b7894cbe47bbfa-240.webp 240w, /assets/related-previews/1dd3915f072a2363b5e3b1de-480.webp 480w"
+      }
+    },
+    "/copes-kalendars/": {
+      "title": "Copes kalendārs un makšķerēšanas liegumi Latvijā",
+      "description": "Kad drīkst makšķerēt līdakas un zandartus? Copes kalendārs 2026–2030, sugu foto, liegumu datumi, loma limiti, licences un seši Latvijas ezeri.",
+      "type": "tool",
+      "kicker": "Ikdienas rīks",
+      "cta": "Atvērt rīku",
+      "scope": null,
+      "minutes": null,
+      "image": {
+        "src": "/assets/related-previews/4454692d53f950352e84f353-240.webp",
+        "width": 240,
+        "height": 126,
+        "srcset": "/assets/related-previews/4454692d53f950352e84f353-240.webp 240w, /assets/related-previews/40b5d3b7a5cf423cd09daacf-480.webp 480w"
+      }
+    },
+    "/adventes-kalendars/": {
+      "title": "Adventes kalendārs Latvijai ar 24 decembra pārsteigumiem",
+      "description": "Atver 24 Adventes kalendāra lodziņus no 1. līdz 24. decembrim pēc Latvijas laika. Latviskas svētku idejas, rokdarbi un kopā būšanas mirkļi.",
+      "type": "tool",
+      "kicker": "Ikdienas rīks",
+      "cta": "Atvērt rīku",
+      "scope": null,
+      "minutes": null,
+      "image": {
+        "src": "/assets/related-previews/451a2664fa88ea758ab53289-240.webp",
+        "width": 240,
+        "height": 126,
+        "srcset": "/assets/related-previews/451a2664fa88ea758ab53289-240.webp 240w, /assets/related-previews/1d355d9b7270dd2d7e3a19b2-480.webp 480w"
+      }
+    },
+    "/adventes-kalendars/2026/": {
+      "title": "Adventes kalendārs 2026 ar 24 atveramiem lodziņiem",
+      "description": "Adventes kalendārs 2026. gadam Latvijā: 24 lodziņi no 1. līdz 24. decembrim, latviskas dāvanu idejas un svētdienu datumi. Atver pēc Rīgas laika.",
+      "type": "tool",
+      "kicker": "Ikdienas rīks",
+      "cta": "Atvērt rīku",
+      "scope": "2026",
+      "minutes": null,
+      "image": {
+        "src": "/assets/related-previews/e191583e738ce24d151d544b-240.webp",
+        "width": 240,
+        "height": 126,
+        "srcset": "/assets/related-previews/e191583e738ce24d151d544b-240.webp 240w, /assets/related-previews/88813992b3bdd103e25df69a-480.webp 480w"
+      }
+    },
+    "/adventes-kalendars/2027/": {
+      "title": "Adventes kalendārs 2027 ar 24 atveramiem lodziņiem",
+      "description": "Adventes kalendārs 2027. gadam Latvijā: 24 lodziņi no 1. līdz 24. decembrim, latviskas dāvanu idejas un svētdienu datumi. Atver pēc Rīgas laika.",
+      "type": "tool",
+      "kicker": "Ikdienas rīks",
+      "cta": "Atvērt rīku",
+      "scope": "2027",
+      "minutes": null,
+      "image": {
+        "src": "/assets/related-previews/05bbb2bc3616a023fbeb4285-240.webp",
+        "width": 240,
+        "height": 126,
+        "srcset": "/assets/related-previews/05bbb2bc3616a023fbeb4285-240.webp 240w, /assets/related-previews/c7745abe3ec733439b94989e-480.webp 480w"
+      }
+    },
+    "/adventes-kalendars/2028/": {
+      "title": "Adventes kalendārs 2028 ar 24 atveramiem lodziņiem",
+      "description": "Adventes kalendārs 2028. gadam Latvijā: 24 lodziņi no 1. līdz 24. decembrim, latviskas dāvanu idejas un svētdienu datumi. Atver pēc Rīgas laika.",
+      "type": "tool",
+      "kicker": "Ikdienas rīks",
+      "cta": "Atvērt rīku",
+      "scope": "2028",
+      "minutes": null,
+      "image": {
+        "src": "/assets/related-previews/4a20dd22f8da9658d3658543-240.webp",
+        "width": 240,
+        "height": 126,
+        "srcset": "/assets/related-previews/4a20dd22f8da9658d3658543-240.webp 240w, /assets/related-previews/24d892390c5afbb8b29da10d-480.webp 480w"
+      }
+    },
+    "/adventes-kalendars/2029/": {
+      "title": "Adventes kalendārs 2029 ar 24 atveramiem lodziņiem",
+      "description": "Adventes kalendārs 2029. gadam Latvijā: 24 lodziņi no 1. līdz 24. decembrim, latviskas dāvanu idejas un svētdienu datumi. Atver pēc Rīgas laika.",
+      "type": "tool",
+      "kicker": "Ikdienas rīks",
+      "cta": "Atvērt rīku",
+      "scope": "2029",
+      "minutes": null,
+      "image": {
+        "src": "/assets/related-previews/94629f5a2470e3b47a79970e-240.webp",
+        "width": 240,
+        "height": 126,
+        "srcset": "/assets/related-previews/94629f5a2470e3b47a79970e-240.webp 240w, /assets/related-previews/e576c01f2b1dccaa931f2b96-480.webp 480w"
+      }
+    },
+    "/adventes-kalendars/2030/": {
+      "title": "Adventes kalendārs 2030 ar 24 atveramiem lodziņiem",
+      "description": "Adventes kalendārs 2030. gadam Latvijā: 24 lodziņi no 1. līdz 24. decembrim, latviskas dāvanu idejas un svētdienu datumi. Atver pēc Rīgas laika.",
+      "type": "tool",
+      "kicker": "Ikdienas rīks",
+      "cta": "Atvērt rīku",
+      "scope": "2030",
+      "minutes": null,
+      "image": {
+        "src": "/assets/related-previews/3fac5cc5a4611132431566a0-240.webp",
+        "width": 240,
+        "height": 126,
+        "srcset": "/assets/related-previews/3fac5cc5a4611132431566a0-240.webp 240w, /assets/related-previews/d0bbed28aaaf0b9d8d4897d6-480.webp 480w"
       }
     },
     "/nedelas-kalendars/2031/01/": {

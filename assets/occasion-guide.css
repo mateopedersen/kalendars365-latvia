@@ -1,0 +1,55 @@
+/* Practical, photo-led guides for Latvian holidays and observances. */
+.occasion-guide{display:grid;gap:32px;max-width:1320px;margin:30px auto;font-family:var(--font-ui);color:#342b2f;line-height:1.75}
+.occasion-guide *{box-sizing:border-box;min-width:0}
+.occasion-guide :is(h2,h3,p){margin:0}
+.occasion-guide h2{font-size:clamp(25px,2.5vw,35px);line-height:1.25;letter-spacing:-.025em;text-wrap:balance}
+.occasion-guide h3{font-size:20px;line-height:1.35}
+.occasion-guide p{font-size:16px;max-width:80ch;color:#66565e}
+.occasion-guide p+p{margin-top:16px}
+.occasion-introduction{padding:28px 0}
+.occasion-introduction h2{margin:12px 0 18px}
+.occasion-guide .occasion-actions{display:flex;flex-wrap:wrap;align-items:stretch;gap:12px;margin-top:24px}
+.occasion-guide .occasion-actions>a{min-height:50px;display:inline-flex;align-items:center;justify-content:center;padding:12px 20px;max-width:100%;white-space:normal;line-height:1.45;text-align:center;border-radius:9px;border:1px solid #bfa4ac;color:#74263e;background:#fff;text-decoration:none;font-weight:750}
+.occasion-guide .occasion-actions>a:hover{background:#f2e9ec;color:#511526;border-color:#74263e}
+.occasion-guide .occasion-dates{padding:30px;background:#f2ecee;border:1px solid #e0cfd5;border-radius:18px;margin:0}
+.occasion-guide .section-heading{display:flex;align-items:flex-end;justify-content:space-between;gap:24px;margin-bottom:25px}
+.occasion-guide .section-heading h2{margin-top:12px}
+.occasion-guide .section-heading>span{font-size:12px;flex:0 0 auto;color:#6b4654}
+.occasion-guide .occasion-year-cards{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:14px}
+.occasion-guide .occasion-year-cards>article{display:flex;flex-direction:column;padding:20px;background:#fff;border:1px solid #dfcdd3;border-radius:12px;gap:17px}
+.occasion-guide .occasion-year-cards>article>strong{font-size:26px;line-height:1;color:#851b35}
+.occasion-guide .occasion-date-entry{display:flex;flex-direction:column;align-items:flex-start;gap:5px;padding-top:14px;border-top:1px solid #ece1e5}
+.occasion-guide .occasion-date-entry>a{font-weight:800;font-size:17px;color:#74263e;line-height:1.5;text-underline-offset:4px}
+.occasion-guide .occasion-date-entry>span{font-size:13px;color:#67575e}
+.occasion-guide .occasion-date-entry>small{font-size:12px;line-height:1.5;color:#67575e}
+.occasion-guide .occasion-date-entry .occasion-date-time{font-weight:700;font-size:12px}
+.occasion-guide .occasion-pending{font-size:13px;line-height:1.65}
+.occasion-guide .occasion-dates-note{font-size:13px;margin-top:22px}
+.occasion-practical{padding:30px;border-radius:18px;border:1px solid #ddcbd2;background:#fff}
+.occasion-practical>header h2,.occasion-faq>header h2{margin-top:10px}
+.occasion-practical-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:28px;margin-top:30px}
+.occasion-practical-grid>section{border-top:3px solid #851b35;padding-top:20px}
+.occasion-detail-number{display:inline-block;color:#851b35;font-size:13px;font-weight:800;margin-bottom:14px}
+.occasion-practical-grid h3{margin-bottom:14px}
+.occasion-practical-grid p{font-size:15px}
+.occasion-guide .occasion-reading{display:grid;grid-template-columns:minmax(0,1.55fr) minmax(260px,.75fr);gap:32px;margin:0;align-items:start}
+.occasion-reading>div>section+section{margin-top:28px}
+.occasion-reading h2{font-size:26px;margin-bottom:16px}
+.occasion-guide .occasion-reading aside{padding:26px;border-top:3px solid #851b35;background:#f7f3f4;border-radius:0 0 13px 13px}
+.occasion-guide .tradition-sources{padding-top:10px}
+.occasion-guide .tradition-sources a{color:#74263e}
+.occasion-faq{padding:30px;border:1px solid #dfcdd3;border-radius:18px;background:#fff}
+.occasion-faq>header{margin-bottom:24px}
+.occasion-faq details{border-top:1px solid #e4d6db}
+.occasion-faq summary{cursor:pointer;display:flex;align-items:center;justify-content:space-between;gap:20px;min-height:62px;padding:17px 0;font-size:17px;font-weight:750;color:#5e2538;list-style:none;line-height:1.5}
+.occasion-faq summary::-webkit-details-marker{display:none}
+.occasion-faq summary:after{content:'+';font-size:25px;font-weight:400;flex-shrink:0}
+.occasion-faq details[open] summary:after{content:'−'}
+.occasion-faq details p{padding-bottom:22px}
+.occasion-faq summary:hover{color:#911b36}
+.occasion-guide :focus-visible{outline:3px solid #a85c71;outline-offset:4px}
+.occasion-guide .tradition-context{margin:0}
+@media(max-width:1000px){.occasion-guide .occasion-year-cards{grid-template-columns:repeat(3,minmax(0,1fr))}.occasion-practical-grid{gap:20px}.occasion-guide .occasion-reading{grid-template-columns:minmax(0,1fr) minmax(230px,.7fr)}}
+@media(max-width:700px){.occasion-guide{gap:24px;margin-top:20px}.occasion-guide .occasion-year-cards{grid-template-columns:repeat(2,minmax(0,1fr))}.occasion-practical-grid,.occasion-guide .occasion-reading{grid-template-columns:minmax(0,1fr)}.occasion-guide .section-heading{align-items:flex-start;flex-direction:column;gap:14px}.occasion-guide .occasion-actions{display:grid;grid-template-columns:minmax(0,1fr);grid-auto-rows:1fr}.occasion-guide .occasion-actions>a{width:100%}.occasion-guide :is(.occasion-dates,.occasion-practical,.occasion-faq){padding:23px}.occasion-introduction{padding:10px 0}}
+@media(max-width:380px){.occasion-guide .occasion-year-cards{grid-template-columns:minmax(0,1fr)}}
+@media print{.occasion-guide{display:block}.occasion-guide>section{margin-bottom:20px;break-inside:avoid}.occasion-guide .occasion-year-cards{grid-template-columns:repeat(3,minmax(0,1fr))}.occasion-guide .occasion-actions{display:none}.occasion-guide .occasion-reading{display:block}}
