@@ -5,16 +5,16 @@ import vm from 'node:vm';
 import {consentRecord,validConsent,validUnit,unitForWidth} from '../assets/ad-policy.mjs';
 const config=JSON.parse(fs.readFileSync(new URL('../_data/advertising.json',import.meta.url),'utf8'));
 const code=fs.readFileSync(new URL('../assets/advertising.mjs',import.meta.url),'utf8').replace(/^import[^\n]+\n/,'');
-function browser({width=1000,choice=null,query='',host=config.hosts[0],blocked=false}={}){
+function browser({width=1000,choice=null,query='',host=config.hosts[0],blocked=false,hasSlot=true}={}){
  const scripts=[],events={},docEvents={},data=new Map(),dialogs=[];let observer;
  if(choice)data.set(config.storageKey,JSON.stringify(choice));
  const node=()=>({dataset:{},style:{},children:[],hidden:false,setAttribute(){},addEventListener(){},append(...children){this.children.push(...children);},showModal(){this.open=true;},close(){this.open=false;}});
  const placeholder=node(),stage={...node(),clientWidth:width,append(n){scripts.push(n);}};
  const slot={...node(),clientWidth:width,querySelector:s=>s==='[data-advertising-stage]'?stage:placeholder,getBoundingClientRect:()=>({top:300,bottom:700})};
- const document={visibilityState:'visible',getElementById:()=>({textContent:JSON.stringify(config)}),querySelector:()=>slot,createElement(tag){const n=node();if(tag==='dialog')dialogs.push(n);return n;},body:{append(){}},addEventListener:(k,f)=>docEvents[k]=f};
+ const document={visibilityState:'visible',getElementById:()=>({textContent:JSON.stringify(config)}),querySelector:()=>hasSlot?slot:null,createElement(tag){const n=node();if(tag==='dialog')dialogs.push(n);return n;},body:{append(){}},addEventListener:(k,f)=>docEvents[k]=f};
  const context={document,URL,Date,innerHeight:800,location:{hostname:host,search:query,reload(){context.reloads++;}},localStorage:{getItem(k){if(blocked)throw Error('blocked');return data.get(k)||null;},setItem(k,v){if(blocked)throw Error('blocked');data.set(k,v);}},consentRecord,validConsent,unitForWidth,addEventListener:(k,f)=>events[k]=f,reloads:0,IntersectionObserver:function(cb){observer={cb,observe(){},disconnect(){}};return observer;}};context.window=context;
  vm.createContext(context);vm.runInContext(code,context);
- return {context,scripts,data,slot,stage,placeholder,dialogs,near:()=>observer.cb([{isIntersecting:true}]),click(action){docEvents.click({target:{closest:()=>({dataset:{advertisingChoice:action},hasAttribute:()=>false})},preventDefault(){}});},resize(w){slot.clientWidth=w;events.resize();}};
+ return {context,scripts,data,slot,stage,placeholder,dialogs,near:()=>observer?.cb([{isIntersecting:true}]),storage:(key,newValue)=>events.storage({key,newValue}),click(action){docEvents.click({target:{closest:()=>({dataset:{advertisingChoice:action},hasAttribute:()=>false})},preventDefault(){}});},resize(w){slot.clientWidth=w;events.resize();}};
 }
 test('advertising records reject expired, forged, analytics-only and necessary-only choices',()=>{
  const now=Date.now();assert(validConsent(consentRecord(false,now),now));assert(validConsent(consentRecord(true,now),now));
@@ -51,4 +51,45 @@ test('the observed pixel and creative image origins are restricted to img-src',(
  for(const host of ['https://static.nresystems.com','https://cdn.storageimagedisplay.com'])assert.equal(directives.filter(value=>value.includes(host)).length,1);
  assert.match(directives.find(value=>value.startsWith('img-src ')),/^img-src 'self' data: blob: https:\/\/bauval\.org https:\/\/static\.nresystems\.com https:\/\/cdn\.storageimagedisplay\.com$/);
  assert(!directives.some(value=>value.includes('*')));
+});
+
+test('cross-tab choices preserve unloaded private, query and preview pages without starting ads',()=>{
+ for(const options of [{hasSlot:false},{query:'?name=private'},{host:'127.0.0.1'}]){
+  const b=browser(options);b.near();
+  b.storage(config.storageKey,JSON.stringify(consentRecord(true)));
+  assert.equal(b.context.K365Advertising.choice().advertising,true);
+  assert.equal(b.scripts.length,0);assert.equal(b.context.reloads,0);
+  for(const value of [JSON.stringify(consentRecord(false)),null,'invalid',JSON.stringify({version:1,analytics:true})]){
+   b.storage(config.storageKey,value);assert.equal(b.context.reloads,0);assert.equal(b.scripts.length,0);
+  }
+  b.storage(null,JSON.stringify(consentRecord(true)));
+  assert.equal(b.context.K365Advertising.choice(),null);assert.equal(b.context.reloads,0);assert.equal(b.scripts.length,0);
+ }
+});
+test('cross-tab grant keeps viewport and consent gates on unloaded public pages',()=>{
+ const b=browser();b.storage(config.storageKey,JSON.stringify(consentRecord(true)));
+ assert.equal(b.context.reloads,0);assert.equal(b.scripts.length,0);assert.equal(b.slot.dataset.advertisingConsent,'granted');
+ b.storage(config.storageKey,JSON.stringify(consentRecord(false)));b.near();
+ assert.equal(b.context.reloads,0);assert.equal(b.scripts.length,0);assert.equal(b.slot.dataset.advertisingConsent,'denied');
+ b.storage(config.storageKey,JSON.stringify(consentRecord(true)));assert.equal(b.scripts.length,1);assert.equal(b.context.reloads,0);
+ const cleared=browser();cleared.storage(config.storageKey,JSON.stringify(consentRecord(true)));cleared.storage(null,null);cleared.near();
+ assert.equal(cleared.scripts.length,0);assert.equal(cleared.context.reloads,0);assert.equal(cleared.placeholder.hidden,false);
+});
+test('loaded cross-tab revocation, deletion, clearing and invalid records reload at most once',()=>{
+ const expired={...consentRecord(true),expiresAt:Date.now()-1};
+ for(const [key,value] of [[config.storageKey,JSON.stringify(consentRecord(false))],[config.storageKey,null],[null,null],[null,JSON.stringify(consentRecord(true))],[config.storageKey,'not JSON'],[config.storageKey,JSON.stringify(expired)],[config.storageKey,JSON.stringify({version:1,analytics:true})]]){
+  const b=browser({choice:consentRecord(true)});b.near();assert.equal(b.scripts.length,1);
+  b.storage(key,value);assert.equal(b.context.reloads,1);assert.equal(b.slot.dataset.advertisingConsent,'denied');
+  b.storage(config.storageKey,null);b.storage(null,null);b.click('deny');
+  b.storage(config.storageKey,JSON.stringify(consentRecord(true)));b.near();
+  assert.equal(b.context.reloads,1);assert.equal(b.scripts.length,1);
+ }
+});
+test('unrelated storage keys do nothing and another valid grant never refreshes a loaded ad',()=>{
+ const b=browser();b.near();b.storage('analytics-consent',JSON.stringify(consentRecord(true)));
+ assert.equal(b.context.K365Advertising.choice(),null);assert.equal(b.context.reloads,0);assert.equal(b.scripts.length,0);
+ b.click('allow');const saved=b.context.K365Advertising.choice();
+ b.storage('another-key',null);assert.equal(b.context.K365Advertising.choice(),saved);
+ b.storage(config.storageKey,JSON.stringify(consentRecord(true)));b.near();b.resize(300);b.resize(1000);
+ assert.equal(b.context.reloads,0);assert.equal(b.scripts.length,1);assert.equal(b.slot.dataset.advertisingConsent,'granted');
 });

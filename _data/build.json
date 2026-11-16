@@ -1,6 +1,6 @@
 {
-  "asset_version": "b2602a4c09873d5e",
-  "sha256": "b2602a4c09873d5e2706edfa368bb57c56b4c1047a95a7c0c0d5317a95ce6eb7",
+  "asset_version": "c146a12dcc0101d5",
+  "sha256": "c146a12dcc0101d560abf17cdc3840117dc610095b62e52c549de89340dd0f49",
   "files": {
     "assets/a3-gallery.css": "1889edd3db55a0a1473cc6711268699d2b19129115f3ab0f59d11f1aa9374c37",
     "assets/action-icons.js": "4527242b10cdfe3992943ef06d2d62288024237a3c29c0221f00f8277f11ad97",
@@ -9,7 +9,7 @@
     "assets/advent-calendar.css": "e1bd840384d3ef9e20b9d4d23842d7bb5ede98edb5973905614a4deed8ce4a0f",
     "assets/advent-calendar.mjs": "5112db3dede3e3503e7dc5de9345148f46864aa7626663d53367e64a6a5cc4bd",
     "assets/advertising.css": "944b26e06e0ca6c600b8261d46c21bdda872f4e1c1ecfe241e537f15ff48079b",
-    "assets/advertising.mjs": "3aa34f0ccf0d52be7c7ba31caeefcc653806695a32e2ae4533fe6ec41476f0d4",
+    "assets/advertising.mjs": "b72ea68516c462a47f53ac803d853bedb73674bc60d1bf1edb81d4731e35c8fb",
     "assets/analytics.js": "5620a98a0236797a009f93b08eca144b9fb00a477926dda99250f8a75490f8dc",
     "assets/app.js": "612e6080fc8a6cbbdc410593edeade0748e253089f7b56dd8fb3cf6424f5a457",
     "assets/ascendant-core.mjs": "f01730bc6f1c2b42c940ab2800115962ce77489a5733776896b9b610a5fbf259",
