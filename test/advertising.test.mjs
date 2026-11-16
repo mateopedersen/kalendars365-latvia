@@ -3,15 +3,17 @@ import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import vm from 'node:vm';
 import {consentRecord,validConsent,validUnit,unitForWidth} from '../assets/ad-policy.mjs';
-const config=JSON.parse(fs.readFileSync(new URL('../_data/advertising.json',import.meta.url),'utf8'));
+const productionConfig=JSON.parse(fs.readFileSync(new URL('../_data/advertising.json',import.meta.url),'utf8'));
+// Behavior fixtures enable delivery explicitly; production stays paused until inventory is verified.
+const config={...productionConfig,enabled:true};
 const code=fs.readFileSync(new URL('../assets/advertising.mjs',import.meta.url),'utf8').replace(/^import[^\n]+\n/,'');
-function browser({width=1000,choice=null,query='',host=config.hosts[0],blocked=false,hasSlot=true}={}){
+function browser({width=1000,choice=null,query='',host=config.hosts[0],blocked=false,hasSlot=true,settings=config}={}){
  const scripts=[],events={},docEvents={},data=new Map(),dialogs=[];let observer;
  if(choice)data.set(config.storageKey,JSON.stringify(choice));
  const node=()=>({dataset:{},style:{},children:[],hidden:false,setAttribute(){},addEventListener(){},append(...children){this.children.push(...children);},showModal(){this.open=true;},close(){this.open=false;}});
  const placeholder=node(),stage={...node(),clientWidth:width,append(n){scripts.push(n);}};
  const slot={...node(),clientWidth:width,querySelector:s=>s==='[data-advertising-stage]'?stage:placeholder,getBoundingClientRect:()=>({top:300,bottom:700})};
- const document={visibilityState:'visible',getElementById:()=>({textContent:JSON.stringify(config)}),querySelector:()=>hasSlot?slot:null,createElement(tag){const n=node();if(tag==='dialog')dialogs.push(n);return n;},body:{append(){}},addEventListener:(k,f)=>docEvents[k]=f};
+ const document={visibilityState:'visible',getElementById:()=>({textContent:JSON.stringify(settings)}),querySelector:()=>hasSlot?slot:null,createElement(tag){const n=node();if(tag==='dialog')dialogs.push(n);return n;},body:{append(){}},addEventListener:(k,f)=>docEvents[k]=f};
  const context={document,URL,Date,innerHeight:800,location:{hostname:host,search:query,reload(){context.reloads++;}},localStorage:{getItem(k){if(blocked)throw Error('blocked');return data.get(k)||null;},setItem(k,v){if(blocked)throw Error('blocked');data.set(k,v);}},consentRecord,validConsent,unitForWidth,addEventListener:(k,f)=>events[k]=f,reloads:0,IntersectionObserver:function(cb){observer={cb,observe(){},disconnect(){}};return observer;}};context.window=context;
  vm.createContext(context);vm.runInContext(code,context);
  return {context,scripts,data,slot,stage,placeholder,dialogs,near:()=>observer?.cb([{isIntersecting:true}]),storage:(key,newValue)=>events.storage({key,newValue}),click(action){docEvents.click({target:{closest:()=>({dataset:{advertisingChoice:action},hasAttribute:()=>false})},preventDefault(){}});},resize(w){slot.clientWidth=w;events.resize();}};
@@ -92,4 +94,18 @@ test('unrelated storage keys do nothing and another valid grant never refreshes 
  b.storage('another-key',null);assert.equal(b.context.K365Advertising.choice(),saved);
  b.storage(config.storageKey,JSON.stringify(consentRecord(true)));b.near();b.resize(300);b.resize(1000);
  assert.equal(b.context.reloads,0);assert.equal(b.scripts.length,1);assert.equal(b.slot.dataset.advertisingConsent,'granted');
+});
+
+test('production delivery hold prevents any vendor request even with a grant and a forced visible slot',()=>{
+ assert.equal(productionConfig.enabled,false);
+ assert.equal(unitForWidth(1000,productionConfig),null);assert.equal(unitForWidth(300,productionConfig),null);
+ const b=browser({settings:productionConfig,choice:consentRecord(true)});b.near();b.click('allow');
+ b.storage(config.storageKey,JSON.stringify(consentRecord(true)));b.resize(300);b.resize(1000);
+ assert.equal(b.scripts.length,0);assert.equal(b.context.reloads,0);
+});
+
+test('production template omits banner markup unless the delivery configuration is enabled',()=>{
+ const template=fs.readFileSync(new URL('../_includes/advertising.html',import.meta.url),'utf8');
+ assert.match(template,/{% if site\.data\.advertising\.enabled and advertising_groups contains advertising_group %}<section/);
+ assert.equal(productionConfig.enabled,false);
 });
