@@ -86,10 +86,10 @@ test('privacy notice acknowledgement expires without authorizing trackers or tre
  const banner=read('_includes/consent-banner.html');assert(!banner.includes('data-consent="all"'));assert(!banner.includes('Piekrītu'));assert(banner.includes('Tikai nepieciešamās'));assert(banner.includes('data-consent="analytics"'));assert(banner.includes('Atļaut analītiku'));
 });
 
-test('storage inventory is bound to real implementation keys and explains all three storage mechanisms',()=>{
- const entries=json('_data/privacy-storage.json').entries;assert.equal(entries.length,9);
+test('storage inventory is bound to real implementation keys and explains all storage mechanisms',()=>{
+ const entries=json('_data/privacy-storage.json').entries;assert.equal(entries.length,11);
  for(const entry of entries){const code=entry.sources.map(read).join('\n');for(const key of entry.keys)assert(code.includes(key),key);assert(entry.duration);}
- const mechanisms=new Set(entries.map(entry=>entry.technology));assert.deepEqual(mechanisms,new Set(['Lokālā krātuve','Sesijas krātuve','IndexedDB']));
+ const mechanisms=new Set(entries.map(entry=>entry.technology));assert.deepEqual(mechanisms,new Set(['Lokālā krātuve','Sesijas krātuve','IndexedDB','Sīkdatnes']));
  const html=htmlFor('/sikdatnu-politika/');for(const entry of entries)for(const key of entry.keys)assert(html.includes(key),key);
  assert(read('assets/weather.js').includes('TTL=5*60*1000'));assert(read('assets/observations.js').includes('TTL=3*60*1000'));
 });
