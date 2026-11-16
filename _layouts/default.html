@@ -7,6 +7,7 @@
 {% assign has_generic_category = false %}{% if page.category and page.url != '/skolas-brivlaiki/' and page.url != '/atvalinajuma-planotajs/' and page.url != '/svetki-un-tradicijas/' and page.url != '/visi-riki/' %}{% assign has_generic_category = true %}{% endif %}
 {% assign needs_city_catalog = false %}{% if has_city_card or has_sky_tool or page.calendar_collection or page.family == 'lunar_month' or has_generic_category or page.useful.kind == 'city' %}{% assign needs_city_catalog = true %}{% endif %}
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<script defer src="/assets/analytics.js?v={{ site.data.build.asset_version }}"></script>
 <script defer src="/assets/privacy-choice.js?v={{ site.data.build.asset_version }}"></script><script defer src="/assets/consent-state.js?v={{ site.data.build.asset_version }}"></script>
 
 {% assign seo = page.seo %}

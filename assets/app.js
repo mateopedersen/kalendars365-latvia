@@ -283,7 +283,7 @@ function backupDialog(){dialog('Kalendāra dublējums',`<p>Saglabā savus notiku
 let consentResizeObserver;
 function updateConsentBanner(){
  const banner=$('#consent-banner');if(!banner)return;
- banner.hidden=Boolean(store.consent);document.documentElement.toggleAttribute('data-consent-saved',banner.hidden);document.body.classList.toggle('consent-open',!banner.hidden);
+ banner.hidden=Boolean(window.K365Analytics?window.K365Analytics.choice():store.consent);document.documentElement.toggleAttribute('data-consent-saved',banner.hidden);document.body.classList.toggle('consent-open',!banner.hidden);
  const reserve=height=>{const size=banner.hidden?'0px':Math.ceil(height+36)+'px';if(document.body.style.getPropertyValue('--consent-space')!==size)document.body.style.setProperty('--consent-space',size);};
  if(banner.hidden)reserve(0);
  if(!consentResizeObserver&&typeof ResizeObserver!=='undefined'){
@@ -292,6 +292,7 @@ function updateConsentBanner(){
  }else if(typeof ResizeObserver==='undefined'){requestAnimationFrame(()=>reserve(banner.getBoundingClientRect().height));}
 }
 function consentDialog(){
+ if(window.K365Analytics){window.K365Analytics.open();return;}
  const saved=window.K365PrivacyChoice?.normalize(store.consent);const current=saved?'Paziņojums apstiprināts līdz '+new Intl.DateTimeFormat('lv-LV',{timeZone:'Europe/Riga',year:'numeric',month:'long',day:'numeric'}).format(new Date(saved.expiresAt)):'Paziņojums vēl nav apstiprināts';
  dialog('Privātuma izvēles',`<p class="consent-intro">Šeit nav papildu izsekošanas, kuru ieslēgt. Vari iepazīties ar krātuves izmantošanu un pārvaldīt savus ierakstus.</p><section class="consent-option"><div class="consent-option-head"><h3>Tavi plāni un iestatījumi</h3><span class="consent-status">Tavā pārlūkā</span></div><p>Paša ievadītos plānus, izvēlēto pilsētu un saglabātos projektus glabā pārlūka krātuve. Pamata kalendāram un atsevišķajiem plānotājiem ir savi ieraksti. Pirms dzēšanas saglabā vajadzīgos dublējumus.</p></section><section class="consent-option"><div class="consent-option-head"><h3>Analītika un reklāma</h3><span class="consent-status muted">Netiek izmantotas</span></div><p>Poga “Sapratu” apstiprina informācijas paziņojumu uz 180 dienām. Tā nav piekrišana reklāmai, analītikai vai nākotnē ieviestām tehnoloģijām.</p></section><p class="consent-current"><strong>${esc(current)}</strong></p><div class="consent-dialog-actions"><button type="button" data-action="close-dialog">Aizvērt</button><button type="button" class="consent-accept" data-consent="necessary">Sapratu</button></div><p class="consent-policy-links"><a href="/sikdatnu-politika/#glabasana">Krātuvju pārskats ↗</a><a href="/privatuma-politika/">Privātuma politika ↗</a></p>`);
  $('#universal-dialog')?.classList.add('consent-dialog');

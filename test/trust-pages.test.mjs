@@ -83,7 +83,7 @@ test('privacy notice acknowledgement expires without authorizing trackers or tre
  assert.deepEqual(privacy.normalize(value,time),value);assert(privacy.normalize(value,time+180*86400000-1));assert.equal(privacy.normalize(value,time+180*86400000),null);
  for(const bad of [{...value,choice:'all'},{...value,advertising:true},{...value,analytics:true},{...value,version:1},{...value,date:'bad'},[],null])assert.equal(privacy.normalize(bad,time),null);
  assert.equal(privacy.normalize(value,time-1),null);
- const banner=read('_includes/consent-banner.html');assert(!banner.includes('data-consent="all"'));assert(!banner.includes('Piekrītu'));assert(banner.includes('Sapratu'));
+ const banner=read('_includes/consent-banner.html');assert(!banner.includes('data-consent="all"'));assert(!banner.includes('Piekrītu'));assert(banner.includes('Tikai nepieciešamās'));assert(banner.includes('data-consent="analytics"'));assert(banner.includes('Atļaut analītiku'));
 });
 
 test('storage inventory is bound to real implementation keys and explains all three storage mechanisms',()=>{
