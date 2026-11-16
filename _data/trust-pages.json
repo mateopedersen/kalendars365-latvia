@@ -238,7 +238,8 @@
           "id": "izmainas",
           "title": "Politikas atjauninājumi",
           "paragraphs": [
-            "Šī redakcija pārskatīta 2026. gada 12. novembrī, salīdzinot vietnes darbību ar norādītajiem avotiem. Ja mainīsies apstrādes nolūki, saņēmēji vai izmantotās tehnoloģijas, atjaunināsim politiku. Paziņojuma apstiprināšana nav iepriekšēja piekrišana nākotnē ieviestai reklāmai vai analītikai."
+            "Šī redakcija pārskatīta 2026. gada 12. novembrī, salīdzinot vietnes darbību ar norādītajiem avotiem. Ja mainīsies apstrādes nolūki, saņēmēji vai izmantotās tehnoloģijas, atjaunināsim politiku. Paziņojuma apstiprināšana nav iepriekšēja piekrišana nākotnē ieviestai reklāmai vai analītikai.",
+            "Google Analytics sadaļa un piekrišanas izvēles atjauninātas 2026. gada 16. novembrī. Iepriekšējais paziņojuma apstiprinājums analītiku neieslēdz."
           ]
         }
       ]
@@ -251,7 +252,7 @@
       "intro": "Lai atcerētos tavu plānu, vajadzīga krātuve, nevis reklāmas profils. Te vari saprast, ko vietne saglabā, kādēļ tas vajadzīgs un kā to pārvaldīt.",
       "facts": [
         "Nav reklāmas sīkdatņu",
-        "Nav analītikas izsekotāju",
+        "Analītika tikai ar piekrišanu",
         "Ierakstus pārvaldi pats"
       ],
       "sources": [
