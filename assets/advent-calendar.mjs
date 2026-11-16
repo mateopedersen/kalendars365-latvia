@@ -8,19 +8,35 @@ if(root) {
  const reduced=window.matchMedia('(prefers-reduced-motion: reduce)');
  function refresh() {
   const count=availableDays(year), today=rigaDate();
-  doors.forEach((door,i)=>{const d=i+1, ready=d<=count, done=ready&&opened.has(d);door.setAttribute('aria-disabled',String(!ready));door.setAttribute('aria-label',`${d}. decembris ${year}. ${done?'Atvērts. Atvērt vēlreiz.':ready?'Atvērt dienas pārsteigumu.':'Pieejams no '+d+'. decembra.'}`);door.classList.toggle('is-open',done);door.classList.toggle('is-today',today===`${year}-12-${String(d).padStart(2,'0')}`);door.querySelector('.advent-door-state').textContent=done?'Atvērts':ready?'Atvērt':'Vēl jāgaida';});
+  doors.forEach((door,i)=>{const d=i+1, ready=d<=count, done=ready&&opened.has(d);door.dataset.locked=String(!ready);door.setAttribute('aria-label',`${d}. decembris ${year}. ${done?'Atvērts. Atvērt vēlreiz.':ready?'Atvērt dienas pārsteigumu.':'Vēl slēgts. Uzzināt atvēršanas datumu.'}`);door.classList.toggle('is-open',done);door.classList.toggle('is-today',today===`${year}-12-${String(d).padStart(2,'0')}`);door.querySelector('.advent-door-state').textContent=done?'Atvērts':ready?'Atvērt':'Vēl jāgaida';});
   const done=[...opened].filter(d=>d<=count).length;
   progress.textContent=`Atvērti ${done} no 24`;
   root.querySelector('[data-advent-board-year]').textContent=year;
   status.textContent=count===0?`Pirmais lodziņš atvērsies 1. decembrī ${year}. gadā.`:count===24?'Visi 24 lodziņi ir pieejami. Atgriezies pie savām svētku idejām.':`Šodien pieejami ${count} lodziņi. Nākamais ${count+1}. decembrī.`;
  }
- function finishClose(){clearTimeout(timer);busy=false;if(previewDoor){previewDoor.classList.remove('is-opening');previewDoor=null;}refresh();if(origin?.isConnected)origin.focus();}
+ function finishClose(){clearTimeout(timer);busy=false;dialog.classList.remove('is-locked');if(previewDoor){previewDoor.classList.remove('is-opening');previewDoor=null;}refresh();if(origin?.isConnected)origin.focus();}
  dialog.addEventListener('close',finishClose);
  root.querySelectorAll('[data-advent-close]').forEach(b=>b.addEventListener('click',()=>dialog.close()));
  dialog.addEventListener('click',e=>{if(e.target===dialog){const b=dialog.getBoundingClientRect();if(e.clientX<b.left||e.clientX>b.right||e.clientY<b.top||e.clientY>b.bottom)dialog.close();}});
  function openDay(day, isSample, trigger) {
   if(busy||dialog.open)return;
-  if(!isSample&&day>availableDays(year)){status.textContent=`${day}. lodziņš būs pieejams ${day}. decembrī ${year}. gadā pēc Latvijas laika.`;return;}
+  if(!isSample&&day>availableDays(year)){
+   origin=trigger;
+   const date=`${day}. decembrī ${year}. gadā`, message=`Šis lodziņš atvērsies ${date} plkst. 00.00 pēc Latvijas laika.`;
+   status.textContent=message;
+   const badge=document.createElement('div');badge.className='advent-locked-date';badge.setAttribute('aria-hidden','true');
+   const number=document.createElement('strong');number.textContent=String(day).padStart(2,'0');
+   const month=document.createElement('span');month.textContent='DECEMBRIS';
+   const dateYear=document.createElement('span');dateYear.textContent=String(year);badge.append(number,month,dateYear);
+   const copy=document.createElement('div');copy.className='advent-reveal-copy';
+   const kicker=document.createElement('p');kicker.className='advent-kicker';kicker.textContent='MAZAIS PĀRSTEIGUMS VĒL GAIDA';
+   const title=document.createElement('h2');title.id='advent-dialog-title';title.textContent='Vēl mazliet pacietības';
+   const detail=document.createElement('p');detail.textContent=message;
+   const hint=document.createElement('p');hint.textContent='Katru dienu atveras jauns lodziņš ar svētku ideju. Iepriekšējo dienu lodziņus vari atvērt arī vēlāk.';
+   copy.append(kicker,title,detail,hint);reveal.replaceChildren(badge,copy);
+   root.querySelector('[data-advent-dialog-note]').textContent='Tavs progress netiek mainīts. Atgriezies, kad pienāks šī diena.';
+   dialog.classList.add('is-locked');dialog.showModal();root.querySelector('.advent-dialog-close').focus();return;
+  }
   busy=true;sample=isSample;origin=trigger;const door=doors[day-1];previewDoor=door;door.classList.add('is-opening');
   // Animate only the chosen door; no render loop or off-screen particle engine.
   const spark=document.createElement('span');spark.className='advent-sparks';spark.setAttribute('aria-hidden','true');for(let i=0;i<10;i++){const p=document.createElement('i');p.style.setProperty('--i',i);spark.append(p);}door.append(spark);
