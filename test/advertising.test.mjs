@@ -2,6 +2,7 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import vm from 'node:vm';
+import {advertisingCsp} from '../lib/advertising-csp.mjs';
 import {consentRecord,validConsent,validUnit,unitForWidth} from '../assets/ad-policy.mjs';
 const productionConfig=JSON.parse(fs.readFileSync(new URL('../_data/advertising.json',import.meta.url),'utf8'));
 // Behavior fixtures explicitly enable delivery; the disabled switch is tested independently.
@@ -48,7 +49,9 @@ test('ad placement is responsive, transparent and excluded from print',()=>{
 
 test('the observed pixel and creative image origins are restricted to img-src',()=>{
  const source=fs.readFileSync(new URL('../_headers',import.meta.url),'utf8');
- const policy=source.split('Content-Security-Policy: ')[1].split('\n')[0];
+ const base=source.split('Content-Security-Policy: ')[1].split('\n')[0];
+ assert.doesNotMatch(base,/bauval|nresystems|storageimagedisplay/);
+ const policy=advertisingCsp(base);
  const directives=policy.split(';').map(value=>value.trim()).filter(Boolean);
  for(const host of ['https://static.nresystems.com','https://cdn.storageimagedisplay.com'])assert.equal(directives.filter(value=>value.includes(host)).length,1);
  assert.match(directives.find(value=>value.startsWith('img-src ')),/^img-src 'self' data: blob: https:\/\/bauval\.org https:\/\/static\.nresystems\.com https:\/\/cdn\.storageimagedisplay\.com$/);
