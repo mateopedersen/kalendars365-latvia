@@ -562,8 +562,8 @@
       "title": "Biežāk uzdotie jautājumi | Kalendārs365",
       "description": "Atbildes uz jautājumiem par kalendāra drukāšanu, pilsētas izvēli, datu avotiem un personīgo plānu saglabāšanu pārlūkā.",
       "robots": "index,follow,max-image-preview:large",
-      "sourceVersion": "3190c84d9630d0f3b89127ccfcd86b8103e6c5180054edfec30682a2b3ad2752",
-      "significantModifiedAt": "2026-11-12",
+      "sourceVersion": "2a8d5988648108b85baf4a056ddd5fd6bd10304eff2170ae7d9c053ad18075fc",
+      "significantModifiedAt": "2026-11-16",
       "assets": {
         "image": "/assets/social-cards/v2/80ffaac49204aec7-064403407c3d.jpg",
         "width": 1200,
@@ -12570,8 +12570,8 @@
       "title": "Piekļūstamība un lietošana ar tastatūru | Kalendārs365",
       "description": "Uzzini par vietnes Kalendārs365 lietošanu ar tastatūru, datumu un vadīklu nosaukumiem un iespējām ziņot par piekļūstamības problēmu.",
       "robots": "index,follow,max-image-preview:large",
-      "sourceVersion": "9cc7bed5e6ba0cd8064629ce962f6164ac529671a22ff591419918e27750af40",
-      "significantModifiedAt": "2026-11-12",
+      "sourceVersion": "95e235a6d6a882d0e72997bce932d2d22f237850c45032fe52167ac36b6b2ccf",
+      "significantModifiedAt": "2026-11-16",
       "assets": {
         "image": "/assets/social-cards/v2/5849ed33f2a36d2e-246faa8cc759.jpg",
         "width": 1200,
@@ -12627,7 +12627,7 @@
       "title": "Privātuma politika un personīgie plāni | Kalendārs365",
       "description": "Uzzini, kā Kalendārs365 glabā personīgos notikumus, piezīmes un iestatījumus un kā tiek apstrādāti vietnes pieprasījumi un saziņas dati.",
       "robots": "index,follow,max-image-preview:large",
-      "sourceVersion": "012ac1dcc240d8f8c9aaf6f102fb09994211f6e8650814ffb4ddc7f9b3e2043a",
+      "sourceVersion": "34b335738d50a2130433d5712ee3cf357b1d12495537e5879dce4175a9d319cd",
       "significantModifiedAt": "2026-11-16",
       "assets": {
         "image": "/assets/social-cards/v2/19aba088f4a9d3a5-188db2e257de.jpg",
@@ -14831,7 +14831,7 @@
       "title": "Sīkdatnes un vietējā krātuve | Kalendārs365",
       "description": "Skaidrojums par vietnes Kalendārs365 pārlūkā saglabātajām izvēlēm un personīgajiem plāniem. Pārvaldi izvēles un uzzini, kā izveidot datu dublējumu.",
       "robots": "index,follow,max-image-preview:large",
-      "sourceVersion": "6b4170fb3a1ce73aac5cf1dc315dbc682cc10a6d7af28135d4317b38d174195c",
+      "sourceVersion": "a2dc179f1a24ed2fa1806cfbb50313c68a6ea9473f33f66f1365d13d43745db5",
       "significantModifiedAt": "2026-11-16",
       "assets": {
         "image": "/assets/social-cards/v2/80d46a8beda81f44-2486bb8c8759.jpg",

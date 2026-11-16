@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "reviewedAt": "2026-11-12",
-  "reviewedLabel": "2026. gada 12. novembris",
+  "reviewedAt": "2026-11-16",
+  "reviewedLabel": "2026. gada 16. novembris",
   "jurisdiction": "Latvija un Eiropas Savienība",
   "ownerAddress": null,
   "sources": {
@@ -69,6 +69,11 @@
       "title": "Google privātuma politika",
       "url": "https://policies.google.com/privacy?hl=lv",
       "note": "Google Forms saziņas veidlapa un Gmail e-pasta pakalpojums"
+    },
+    "adsterra": {
+      "title": "Adsterra privātuma politika",
+      "url": "https://adsterra.com/privacy-policy-managed/",
+      "note": "Reklāmas pakalpojuma publicētā datu apstrādes informācija"
     }
   },
   "pages": {
@@ -81,7 +86,7 @@
       "facts": [
         "Bez lietotāja konta",
         "Personīgie plāni tavā ierīcē",
-        "Bez reklāmas izsekotājiem"
+        "Reklāmas tikai ar atļauju"
       ],
       "sources": [
         "gdpr",
@@ -92,7 +97,8 @@
         "openfreemap",
         "met",
         "google",
-        "dvi"
+        "dvi",
+        "adsterra"
       ],
       "sections": [
         {
@@ -147,6 +153,24 @@
           ]
         },
         {
+          "id": "reklama",
+          "title": "Adsterra reklāmas ar atsevišķu atļauju",
+          "paragraphs": [
+            "Adsterra reklāmas ielādējam tikai pēc atsevišķas atļaujas un tad, kad reklāmas vieta tuvojas redzamajai lapas daļai. Pirms atļaujas savienojums ar reklāmas pakalpojumu netiek veidots. Tas var saņemt IP adresi, pārlūka un ierīces tehnisko informāciju un izmantot sīkdatnes reklāmas piegādei un krāpšanas novēršanai.",
+            "Reklāmas taga iestatījumos nepievienojam kalendāra ierakstus, piezīmes vai veidlapu saturu. Trešās puses kods darbojas pārlūkā un var apstrādāt informāciju atbilstoši saviem noteikumiem. Reklāmas neielādējam personīgajos plānotājos, saziņas un juridiskajās lapās vai adresēs ar vaicājuma parametriem.",
+            "Atteikšanās neierobežo vietnes lietošanu. Izvēle tiek glabāta 180 dienas; to vari mainīt ar kājenes pogu “Reklāmas izvēles”. Atsaucot atļauju, lapa tiek pārlādēta, lai apturētu jau ielādēto reklāmas kodu. Iepriekš izveidotie trešo pušu ieraksti ar to automātiski netiek dzēsti; sīkdatnes var pārvaldīt arī pārlūka iestatījumos. Adsterra darbojas starptautiski, un dati var tikt apstrādāti arī ārpus EEZ."
+          ],
+          "links": [
+            {
+              "url": "https://adsterra.com/privacy-policy-managed/",
+              "label": "Adsterra privātuma politika"
+            }
+          ],
+          "actions": [
+            "advertising"
+          ]
+        },
+        {
           "id": "pieprasijumi",
           "title": "Dati, ko izmanto vietnes darbībai",
           "table": {
@@ -179,7 +203,7 @@
             ]
           },
           "paragraphs": [
-            "Vietne neveido reklāmas profilus un nepieņem lēmumus ar juridiskām vai līdzvērtīgi būtiskām sekām, izmantojot automatizētu profilēšanu. Horoskops ir simbolisks izklaides saturs, nevis lēmums par cilvēka veselību, darbu, kredītu vai citām tiesībām."
+            "Vietne nepieņem lēmumus ar juridiskām vai līdzvērtīgi būtiskām sekām, izmantojot automatizētu profilēšanu. Horoskops ir simbolisks izklaides saturs, nevis lēmums par cilvēka veselību, darbu, kredītu vai citām tiesībām."
           ]
         },
         {
@@ -251,7 +275,7 @@
       "eyebrow": "TAVA IERĪCE. TAVAS IZVĒLES.",
       "intro": "Lai atcerētos tavu plānu, vajadzīga krātuve, nevis reklāmas profils. Te vari saprast, ko vietne saglabā, kādēļ tas vajadzīgs un kā to pārvaldīt.",
       "facts": [
-        "Nav reklāmas sīkdatņu",
+        "Reklāmas tikai ar atļauju",
         "Analītika tikai ar piekrišanu",
         "Ierakstus pārvaldi pats"
       ],
@@ -260,7 +284,8 @@
         "dvi-cookies",
         "gdpr",
         "cloudflare",
-        "openfreemap"
+        "openfreemap",
+        "adsterra"
       ],
       "sections": [
         {
@@ -268,7 +293,7 @@
           "title": "Ko šeit nozīmē sīkdatnes",
           "paragraphs": [
             "Sīkdatne ir neliels ieraksts, ko pārlūks var nosūtīt kopā ar pieprasījumu attiecīgajai vietnei. Lokālā krātuve, sesijas krātuve un IndexedDB ir citas pārlūka glabāšanas tehnoloģijas. Tām piemēro galiekārtas informācijas aizsardzības principus arī tad, ja tehniski tās nav sīkdatnes.",
-            "Google Analytics sīkdatnes _ga un _ga_5E1KZEJCNR izmanto tikai pēc piekrišanas. Tās palīdz atšķirt apmeklējumus un sesijas; šajā vietnē to derīgums iestatīts līdz 180 dienām. Reklāmas sīkdatnes neieslēdzam."
+            "Google Analytics sīkdatnes _ga un _ga_5E1KZEJCNR izmanto tikai pēc piekrišanas. Tās palīdz atšķirt apmeklējumus un sesijas; šajā vietnē to derīgums iestatīts līdz 180 dienām. Adsterra reklāmām ir atsevišķa izvēle; Analytics atļauja tās neieslēdz."
           ]
         },
         {
@@ -277,6 +302,23 @@
           "paragraphs": [
             "Informācijas sabiedrības pakalpojumu likuma 7.¹ pants paredz iepriekšēju informētu piekrišanu glabāšanai vai piekļuvei galiekārtas informācijai, izņemot sakaru nodrošināšanai vai lietotāja pieprasīta pakalpojuma sniegšanai nepieciešamos gadījumus. Atšķirīgs jautājums ir personas datu apstrādes pamats saskaņā ar VDAR.",
             "Izvēle “Tikai nepieciešamās” analītiku neieslēdz. “Atļaut analītiku” ļauj ielādēt Google Analytics. Izvēli glabājam 180 dienas atsevišķā lokālās krātuves ierakstā k365.analytics-consent.v1. Iepriekšējais paziņojuma apstiprinājums nav piekrišana Analytics. Izvēli vari mainīt ar kājenes pogu “Privātuma izvēles”."
+          ]
+        },
+        {
+          "id": "reklama",
+          "title": "Atsevišķa reklāmas atļauja",
+          "paragraphs": [
+            "Adsterra reklāmu atļauja vai atteikums tiek glabāts šī pārlūka lokālajā krātuvē ar atslēgu kalendars365.advertising-consent.v1 līdz 180 dienām. Vecais privātuma paziņojuma apstiprinājums un Google Analytics atļauja nav piekrišana reklāmai.",
+            "Mainīt izvēli vai atsaukt atļauju vari zemāk un kājenē. Atsaukšana pārlādē lapu; pārlūka iestatījumos vari pārvaldīt arī iepriekš izveidotās trešo pušu sīkdatnes. Reklāmu pakalpojuma tehnoloģiju un datu apstrādes noteikumi ir aprakstīti tā privātuma politikā."
+          ],
+          "links": [
+            {
+              "url": "/privatuma-politika/#reklama",
+              "label": "Reklāmas pakalpojums un dati"
+            }
+          ],
+          "actions": [
+            "advertising"
           ]
         },
         {

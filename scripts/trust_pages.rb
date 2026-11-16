@@ -43,7 +43,7 @@ module TrustPages
 
   def trust_actions(actions)
     labels={'consent'=>'Privātuma izvēles','backup'=>'Dublēt pamata kalendāru','settings'=>'Kalendāra iestatījumi'}
-    '<div class="trust-actions">'+actions.map { |name| %(<button type="button" data-action="#{name}">#{trust_h(labels.fetch(name))}<span aria-hidden="true">↗</span></button>) }.join+'</div>'
+    '<div class="trust-actions">'+actions.map { |name| name=='advertising' ? %(<button type="button" data-advertising-open>Reklāmas izvēles</button>) : %(<button type="button" data-action="#{name}">#{trust_h(labels.fetch(name))}<span aria-hidden="true">↗</span></button>) }.join+'</div>'
   end
 
   def trust_faq_markup

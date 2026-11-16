@@ -126,8 +126,8 @@
     "proseLinksSha256": "88e9297d56225a801e9187130bf253043d33d87e371060b2b43dd9d4d5469fd1"
   },
   "/biezak-uzdotie-jautajumi/": {
-    "sha256": "3190c84d9630d0f3b89127ccfcd86b8103e6c5180054edfec30682a2b3ad2752",
-    "lastmod": "2026-11-12",
+    "sha256": "2a8d5988648108b85baf4a056ddd5fd6bd10304eff2170ae7d9c053ad18075fc",
+    "lastmod": "2026-11-16",
     "navigationSha256": "96aee6a508db4088bc35458353992a74ec8a279ef01f5033382c972b83854ff0",
     "proseLinksSha256": "4f6a545900626d287466ed0be261974e161cab68ca08f2a142a42f3af12fd048"
   },
@@ -3606,8 +3606,8 @@
     "proseLinksSha256": "045e5061d9ba2fdeede46a8b9f94c33a8a1297510bd67b68e5f8ce1bb5dbda85"
   },
   "/pieklustamiba/": {
-    "sha256": "9cc7bed5e6ba0cd8064629ce962f6164ac529671a22ff591419918e27750af40",
-    "lastmod": "2026-11-12",
+    "sha256": "95e235a6d6a882d0e72997bce932d2d22f237850c45032fe52167ac36b6b2ccf",
+    "lastmod": "2026-11-16",
     "navigationSha256": "d8d0cb23c6ddc13bcb8f434ac169006e5c96a52618606e2adc979aca3f9f50d3",
     "proseLinksSha256": "f40b437e1f37eb5889ae334ca700cded2b7f28a68d2262af78bda561892615c5"
   },
@@ -3618,7 +3618,7 @@
     "proseLinksSha256": "f7bd2ee5cce3c3c9f8f3cf1e4f3eb996ab60ca4bd828f150d4d73686205559f2"
   },
   "/privatuma-politika/": {
-    "sha256": "012ac1dcc240d8f8c9aaf6f102fb09994211f6e8650814ffb4ddc7f9b3e2043a",
+    "sha256": "34b335738d50a2130433d5712ee3cf357b1d12495537e5879dce4175a9d319cd",
     "lastmod": "2026-11-16",
     "navigationSha256": "f73bfb4a53e72a480fad88d5d722a0cb420a34d015d38083b34dfbe142db2519",
     "proseLinksSha256": "d40325d718e24fb883240cb28a1ff429d2280b45360bba5f420764bd4dadc509"
@@ -4314,7 +4314,7 @@
     "proseLinksSha256": "3f42e4f3c560be5db32b4f8b32de0b3695c57e478260d0d9895582a85aa53f08"
   },
   "/sikdatnu-politika/": {
-    "sha256": "6b4170fb3a1ce73aac5cf1dc315dbc682cc10a6d7af28135d4317b38d174195c",
+    "sha256": "a2dc179f1a24ed2fa1806cfbb50313c68a6ea9473f33f66f1365d13d43745db5",
     "lastmod": "2026-11-16",
     "navigationSha256": "379237033190b7dd035af57cf783d8f7da4d8e2ebc63f51affe3f744ac24c496",
     "proseLinksSha256": "da65ca32415618e61bbcb2b0e430726d4a819689cea5292efdf941da881e9cd2"

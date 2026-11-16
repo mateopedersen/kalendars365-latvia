@@ -1,0 +1,35 @@
+{
+  "enabled": true,
+  "storageKey": "kalendars365.advertising-consent.v1",
+  "hosts": [
+    "kalendars365.lv",
+    "www.kalendars365.lv"
+  ],
+  "scriptHosts": [
+    "bauval.org"
+  ],
+  "desktop": {
+    "key": "19ab4b9545636dd27000bf358c11ae76",
+    "width": 728,
+    "height": 90,
+    "src": "https://bauval.org/22/19ab4b9545636dd27000bf358c11ae76"
+  },
+  "mobile": {
+    "key": "da1b76e9ea5ef1da1f1a2114ab96c67a",
+    "width": 300,
+    "height": 250,
+    "src": "https://bauval.org/22/da1b76e9ea5ef1da1f1a2114ab96c67a"
+  },
+  "privacy": "/privatuma-politika/#reklama",
+  "labels": {
+    "title": "Reklāmas izvēles",
+    "description": "Adsterra reklāmas ielādējam tikai ar atsevišķu atļauju. Reklāmas pakalpojums saņem savienojuma un ierīces tehnisko informāciju un var izmantot sīkdatnes.",
+    "detail": "Reklāmas taga iestatījumos nepievienojam kalendāra ierakstus vai veidlapu saturu. Trešās puses kods darbojas pārlūkā saskaņā ar sava pakalpojuma privātuma noteikumiem. Izvēle derīga 180 dienas. Vari to atsaukt jebkurā laikā; atteikšanās neierobežo kalendāra lietošanu.",
+    "deny": "Neatļaut reklāmas",
+    "allow": "Atļaut reklāmas",
+    "close": "Aizvērt",
+    "policy": "Privātuma politika un reklāma",
+    "allowed": "Reklāmas ielāde ir atļauta.",
+    "denied": "Reklāmas netiek ielādētas."
+  }
+}

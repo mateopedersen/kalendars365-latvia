@@ -300,12 +300,12 @@
     "indexable": true,
     "status": "ready",
     "description": "Atbildes uz jautājumiem par kalendāra drukāšanu, pilsētas izvēli, datu avotiem un personīgo plānu saglabāšanu pārlūkā.",
-    "lastmod": "2026-11-12",
+    "lastmod": "2026-11-16",
     "canonicalPath": "/biezak-uzdotie-jautajumi/",
     "locale": "lv-LV",
     "pageType": "WebPage",
     "primaryIntent": "use-calendar-tool",
-    "significantModifiedAt": "2026-11-12"
+    "significantModifiedAt": "2026-11-16"
   },
   {
     "url": "/darba-dienu-kalendars/",
@@ -8420,12 +8420,12 @@
     "indexable": true,
     "status": "ready",
     "description": "Uzzini par vietnes Kalendārs365 lietošanu ar tastatūru, datumu un vadīklu nosaukumiem un iespējām ziņot par piekļūstamības problēmu.",
-    "lastmod": "2026-11-12",
+    "lastmod": "2026-11-16",
     "canonicalPath": "/pieklustamiba/",
     "locale": "lv-LV",
     "pageType": "WebPage",
     "primaryIntent": "use-calendar-tool",
-    "significantModifiedAt": "2026-11-12"
+    "significantModifiedAt": "2026-11-16"
   },
   {
     "url": "/pilnmeness/",
