@@ -44,11 +44,11 @@ test('ad placement is responsive, transparent and excluded from print',()=>{
  const css=fs.readFileSync(new URL('../assets/advertising.css',import.meta.url),'utf8');assert.match(css,/@media print\{\.ad-placement/);assert.match(css,/min-height:250px/);assert.match(css,/@container\(min-width:728px\)/);assert(!css.includes('position:fixed'));assert(!code.includes('document.write'));assert(!code.includes('setInterval'));
 });
 
-test('the observed vendor pixel origin is restricted to img-src',()=>{
+test('the observed pixel and creative image origins are restricted to img-src',()=>{
  const source=fs.readFileSync(new URL('../_headers',import.meta.url),'utf8');
  const policy=source.split('Content-Security-Policy: ')[1].split('\n')[0];
  const directives=policy.split(';').map(value=>value.trim()).filter(Boolean);
- assert.equal(directives.filter(value=>value.includes('https://static.nresystems.com')).length,1);
- assert.match(directives.find(value=>value.startsWith('img-src ')),/^img-src 'self' data: blob: https:\/\/bauval\.org https:\/\/static\.nresystems\.com$/);
+ for(const host of ['https://static.nresystems.com','https://cdn.storageimagedisplay.com'])assert.equal(directives.filter(value=>value.includes(host)).length,1);
+ assert.match(directives.find(value=>value.startsWith('img-src ')),/^img-src 'self' data: blob: https:\/\/bauval\.org https:\/\/static\.nresystems\.com https:\/\/cdn\.storageimagedisplay\.com$/);
  assert(!directives.some(value=>value.includes('*')));
 });
