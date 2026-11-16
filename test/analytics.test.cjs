@@ -20,6 +20,7 @@ test('grant configures exactly one automatic page view, no manual duplicate, and
  const b=browser();b.click({consent:'analytics'});b.click({consent:'analytics'});b.again();assert.equal(b.scripts.length,1);assert.equal(b.dialogs.length,1);
  const commands=b.commands(),config=commands.filter(x=>x[0]==='config');assert.equal(config.length,1);assert.equal(config[0][1],id);assert.equal(config[0][2].send_page_view,true);assert.equal(commands.filter(x=>x[0]==='event'&&x[1]==='page_view').length,0);
  assert.equal(config[0][2].page_location,'https://kalendars365.lv/');assert.equal(config[0][2].page_referrer,'https://example.com/path');assert(!JSON.stringify(commands).includes('private'));assert(!JSON.stringify(commands).includes('secret'));
+ const defaults=commands.findIndex(x=>x[0]==='set'),start=commands.findIndex(x=>x[0]==='js');assert(defaults>=0&&defaults<start,'privacy defaults must precede tag startup');assert.deepEqual(commands[defaults][1],config[0][2]);
  assert.equal(config[0][2].allow_google_signals,false);assert.equal(config[0][2].allow_ad_personalization_signals,false);
  for(const c of commands.filter(x=>x[0]==='consent'))for(const k of ['ad_storage','ad_user_data','ad_personalization'])assert.equal(c[2][k],'denied');
 });

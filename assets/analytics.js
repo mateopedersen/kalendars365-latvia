@@ -18,8 +18,10 @@ function apply(){
  window.dataLayer=window.dataLayer||[];window.gtag=function(){window.dataLayer.push(arguments);};
  gtag('consent','default',{analytics_storage:'denied',ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied'});
  gtag('consent','update',{analytics_storage:'granted',ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied'});
+ const settings={send_page_view:true,page_location:clean(location.href),page_referrer:clean(document.referrer),allow_google_signals:false,allow_ad_personalization_signals:false,cookie_expires:15552000,cookie_update:false};
+ gtag('set',settings);
  gtag('js',new Date());
- gtag('config',id,{send_page_view:true,page_location:clean(location.href),page_referrer:clean(document.referrer),allow_google_signals:false,allow_ad_personalization_signals:false,cookie_expires:15552000,cookie_update:false});
+ gtag('config',id,settings);
  const s=document.createElement('script');s.async=true;s.src='https://www.googletagmanager.com/gtag/js?id='+id;document.head.append(s);
 }
 function forgetCookies(){for(const c of document.cookie.split(';')){const name=c.trim().split('=')[0];if(!/^_ga(?:_|$)/.test(name))continue;for(const domain of ['',location.hostname,'.kalendars365.lv'])document.cookie=name+'=;Max-Age=0;Path=/'+(domain?';Domain='+domain:'')+';SameSite=Lax;Secure';}}
