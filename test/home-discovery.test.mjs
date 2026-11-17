@@ -44,10 +44,10 @@ test('home discovery illustrations distinguish useful tasks instead of repeating
  assert.equal(findAll(n=>n.name==='use',[garden],true)[0].attribs.href,'#i-garden');
 });
 
-test('home footer keeps one brand and offers different destinations from the main content',()=>{
+test('home footer keeps one brand, the requested named copyright and distinct discovery destinations',()=>{
  const footer=findOne(n=>n.attribs?.id==='site-footer',doc.children,true);
  assert.equal(findAll(n=>hasClass(n,'brand'),[footer],true).length,1);
- assert.equal(findAll(n=>hasClass(n,'footer-copyright')&&textContent(n).includes('Kalendārs365'),[footer],true).length,0);
+ assert.equal(findAll(n=>hasClass(n,'footer-copyright')&&textContent(n).includes('Kalendārs365'),[footer],true).length,1);
  const links=findAll(n=>n.name==='a'&&n.attribs.href?.startsWith('/')&&n.attribs.href!=='/'&&!('data-week-link' in n.attribs)&&!inUpcoming(n),[main,footer],true);
  const paths=links.map(n=>n.attribs.href.split(/[?#]/)[0]);
  assert.equal(new Set(paths).size,paths.length,'Discovery destinations should not repeat');

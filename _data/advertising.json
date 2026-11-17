@@ -29,7 +29,9 @@
     "minViewport": 900,
     "minWidth": 728
   },
-  "mode": "sponsored-link",
-  "directLink": "https://asiafilm.org/4/6b6aabe64d2bbfcdadd73b76443164f4",
-  "directLinkUnit": "32322917"
+  "mode": "display-banner",
+  "displayLabels": {
+    "on": "Reklāmas ir ieslēgtas. Izmaiņas pilnībā stājas spēkā nākamajā lapas ielādē.",
+    "off": "Reklāmas ir izslēgtas. Saglabā iesākto un pārlādē lapu, lai apturētu jau ielādēto reklāmas kodu."
+  }
 }

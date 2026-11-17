@@ -154,11 +154,10 @@
         },
         {
           "id": "reklama",
-          "title": "Skaidri marķētas sponsorētās saites",
+          "title": "Reklāmas baneri",
           "paragraphs": [
-            "Publiskajās lapās redzama mūsu pašu lapā veidota reklāmas josla ar Adsterra Smartlink saiti. Joslas parādīšana neielādē ārēju reklāmas skriptu, ietvaru vai izsekošanas pikseli un neizmanto reklāmas sīkdatnes vai ierīces identifikatorus. Tā redzama arī tad, ja analītikai nepiekrīti.",
-            "Tikai tad, ja pats nospied marķēto reklāmas saiti, jaunā cilnē atveras ārējs piedāvājums. Šis pakalpojums var saņemt savienojuma tehniskos datus un izmantot savas sīkdatnes. Saitē nepievienojam tavus plānus, veidlapu saturu, pilsētu vai meklēšanas tekstu. Par novirzīšanu vai turpmāku darbību varam saņemt atlīdzību; pašas joslas parādīšana nenozīmē apmaksātu reklāmas skatījumu.",
-            "Iepriekšējais kalendars365.advertising-consent.v1 ieraksts vairs netiek lasīts vai atjaunināts. To vari dzēst pārlūka vietnes datu iestatījumos. Analītikas izvēle paliek atsevišķa."
+            "Publiskajās lapās tiek rādīti Adsterra reklāmas baneri. Reklāmas kods ielādējas automātiski, atverot lapu, ja šajā pārlūkā reklāmas nav izslēgtas. Adsterra un tā reklāmas partneri var apstrādāt IP adresi, pārlūka un ierīces tehniskos datus un vietnes adresi, kā arī izmantot sīkdatnes reklāmu piegādei un mērīšanai.",
+            "Reklāmas vari paslēpt ar zemāk esošajām pogām. Izvēli šajā pārlūkā glabājam līdz 180 dienām. Ja reklāmas kods jau ir ielādēts, saglabā iesākto un pārlādē lapu, lai to pilnībā apturētu. Izvēle nedzēš kalendāra ierakstus. Google Analytics izvēle ir atsevišķa."
           ],
           "links": [
             {
@@ -166,10 +165,9 @@
               "label": "Adsterra privātuma politika"
             }
           ],
-          "actions": [
-            "advertising"
-          ],
-          "controls": []
+          "actions": [],
+          "controls": [],
+          "bannerControls": true
         },
         {
           "id": "pieprasijumi",
@@ -307,11 +305,10 @@
         },
         {
           "id": "reklama",
-          "title": "Skaidri marķētas sponsorētās saites",
+          "title": "Reklāmas baneri",
           "paragraphs": [
-            "Publiskajās lapās redzama mūsu pašu lapā veidota reklāmas josla ar Adsterra Smartlink saiti. Joslas parādīšana neielādē ārēju reklāmas skriptu, ietvaru vai izsekošanas pikseli un neizmanto reklāmas sīkdatnes vai ierīces identifikatorus. Tā redzama arī tad, ja analītikai nepiekrīti.",
-            "Tikai tad, ja pats nospied marķēto reklāmas saiti, jaunā cilnē atveras ārējs piedāvājums. Šis pakalpojums var saņemt savienojuma tehniskos datus un izmantot savas sīkdatnes. Saitē nepievienojam tavus plānus, veidlapu saturu, pilsētu vai meklēšanas tekstu. Par novirzīšanu vai turpmāku darbību varam saņemt atlīdzību; pašas joslas parādīšana nenozīmē apmaksātu reklāmas skatījumu.",
-            "Iepriekšējais kalendars365.advertising-consent.v1 ieraksts vairs netiek lasīts vai atjaunināts. To vari dzēst pārlūka vietnes datu iestatījumos. Analītikas izvēle paliek atsevišķa."
+            "Publiskajās lapās tiek rādīti Adsterra reklāmas baneri. Reklāmas kods ielādējas automātiski, atverot lapu, ja šajā pārlūkā reklāmas nav izslēgtas. Adsterra un tā reklāmas partneri var apstrādāt IP adresi, pārlūka un ierīces tehniskos datus un vietnes adresi, kā arī izmantot sīkdatnes reklāmu piegādei un mērīšanai.",
+            "Reklāmas vari paslēpt ar zemāk esošajām pogām. Izvēli šajā pārlūkā glabājam līdz 180 dienām. Ja reklāmas kods jau ir ielādēts, saglabā iesākto un pārlādē lapu, lai to pilnībā apturētu. Izvēle nedzēš kalendāra ierakstus. Google Analytics izvēle ir atsevišķa."
           ],
           "links": [
             {
@@ -319,10 +316,9 @@
               "label": "Reklāmas pakalpojums un dati"
             }
           ],
-          "actions": [
-            "advertising"
-          ],
-          "controls": []
+          "actions": [],
+          "controls": [],
+          "bannerControls": true
         },
         {
           "id": "glabasana",

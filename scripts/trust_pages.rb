@@ -69,6 +69,7 @@ module TrustPages
     address=DATA['ownerAddress']
     body+="<p class=\"trust-owner-address\"><strong>Saziņas adrese:</strong> #{trust_h(address)}</p>" if address && %w[parzinis sazina atbildiba].include?(section['id'])
     body+=trust_actions(section['actions']) if section['actions']
+    body+='<div class="actions"><button type="button" class="btn secondary" data-banner-choice="off">Paslēpt reklāmas</button><button type="button" class="btn secondary" data-banner-choice="on">Rādīt reklāmas</button></div><p role="status" data-banner-status></p>' if section['bannerControls']
     body+=trust_links(section['links'])
     %(<section class="trust-section" id="#{trust_h(section.fetch('id'))}" aria-labelledby="trust-#{trust_h(section.fetch('id'))}"><header><span class="trust-section-index" aria-hidden="true">#{format('%02d',i+1)}</span><h2 id="trust-#{trust_h(section.fetch('id'))}">#{trust_h(section.fetch('title'))}</h2></header>#{body}</section>)
   end

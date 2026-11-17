@@ -83,20 +83,20 @@ test('privacy notice acknowledgement expires without authorizing trackers or tre
  assert.deepEqual(privacy.normalize(value,time),value);assert(privacy.normalize(value,time+180*86400000-1));assert.equal(privacy.normalize(value,time+180*86400000),null);
  for(const bad of [{...value,choice:'all'},{...value,advertising:true},{...value,analytics:true},{...value,version:1},{...value,date:'bad'},[],null])assert.equal(privacy.normalize(bad,time),null);
  assert.equal(privacy.normalize(value,time-1),null);
- const banner=read('_includes/consent-banner.html');assert(!banner.includes('data-consent="all"'));assert(!banner.includes('Piekrītu'));assert(banner.includes('Tikai nepieciešamās'));assert(banner.includes('data-consent="analytics"'));assert(banner.includes('Atļaut analītiku'));
+ const banner=read('_includes/consent-banner.html');assert(!banner.includes('data-consent="all"'));assert(!banner.includes('Piekrītu'));assert(banner.includes('Neatļaut analītiku'));assert(banner.includes('data-consent="analytics"'));assert(banner.includes('Atļaut analītiku'));
 });
 
 test('storage inventory is bound to real implementation keys and explains all storage mechanisms',()=>{
- const entries=json('_data/privacy-storage.json').entries;assert.equal(entries.length,11);
- for(const entry of entries){const code=entry.sources.map(read).join('\n');for(const key of entry.keys)assert(code.includes(key),key);assert(entry.duration);}
+ const entries=json('_data/privacy-storage.json').entries;assert.equal(entries.length,12);
+ for(const entry of entries){const code=entry.sources.map(read).join('\n');for(const key of entry.keys)assert(code.includes(key)||(key.startsWith('_ga_')&&code.includes('G-'+key.slice(4))),key);assert(entry.duration);}
  const mechanisms=new Set(entries.map(entry=>entry.technology));assert.deepEqual(mechanisms,new Set(['Lokālā krātuve','Sesijas krātuve','IndexedDB','Sīkdatnes']));
  const html=htmlFor('/sikdatnu-politika/');for(const entry of entries)for(const key of entry.keys)assert(html.includes(key),key);
  assert(read('assets/weather.js').includes('TTL=5*60*1000'));assert(read('assets/observations.js').includes('TTL=3*60*1000'));
 });
 
 test('legal content links primary sources and does not manufacture addresses, audits or future law status',()=>{
- assert.equal(data.reviewedAt,'2026-11-12');
- for(const [id,source] of Object.entries(data.sources))assert.match(new URL(source.url).hostname,/^(?:www\.)?(?:eur-lex\.europa\.eu|likumi\.lv|dvi\.gov\.lv|ptac\.gov\.lv|w3\.org|cloudflare\.com|openfreemap\.org|api\.met\.no|policies\.google\.com)$/,id);
+ assert.equal(data.reviewedAt,'2026-11-17');
+ for(const [id,source] of Object.entries(data.sources))assert.match(new URL(source.url).hostname,/^(?:www\.)?(?:eur-lex\.europa\.eu|likumi\.lv|dvi\.gov\.lv|ptac\.gov\.lv|w3\.org|cloudflare\.com|openfreemap\.org|api\.met\.no|policies\.google\.com|adsterra\.com)$/,id);
  assert(data.sources['access-law'].note.includes('2026. gada 5. jūnija'));
  const access=htmlFor('/pieklustamiba/');assert(access.includes('nav pabeigts'));assert(access.includes('neatkarīgas sertifikācijas'));assert(access.includes('PDF/UA'));
  assert(!htmlFor('/kontakti/').includes('class="trust-owner-address"')||typeof data.ownerAddress==='string');

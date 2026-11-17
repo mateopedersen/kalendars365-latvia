@@ -148,15 +148,16 @@
       ]
     },
     {
-      "title": "Iepriekšējā reklāmas izvēle",
+      "title": "Reklāmas izvēle",
       "keys": [
         "kalendars365.advertising-consent.v1"
       ],
       "technology": "Lokālā krātuve",
-      "purpose": "Iepriekšējā formāta ieraksts; pašreizējā sponsorētā saite to nelasa un neveido.",
-      "duration": "Līdz dzēšanai pārlūka vietnes datu iestatījumos.",
+      "purpose": "Saglabā manuāli izvēlēto reklāmu ieslēgšanu vai izslēgšanu. Iepriekš saglabāts atteikums tiek ievērots.",
+      "duration": "Līdz 180 dienām.",
       "sources": [
-        "assets/advertising.mjs"
+        "_data/advertising.json",
+        "assets/display-runtime.mjs"
       ]
     }
   ]
