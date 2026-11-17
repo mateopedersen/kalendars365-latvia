@@ -29,7 +29,10 @@ test('every article has useful body links before its closing section without rep
     assert(!/^## .*\]\(/m.test(body),article.slug);
     for(const m of pairs)assert(indexed.has(m[2].split(/[?#]/)[0]),`${article.slug} -> ${m[2]}`);
     const html=fs.readFileSync(`${site}${article.url}index.html`,'utf8');
-    const prose=html.match(/<div class="journal-prose">([\s\S]*?)<\/div>/)?.[1];
+    const start=html.indexOf('<div class="journal-prose">');
+    let depth=1,end=-1;
+    if(start>=0){const from=start+'<div class="journal-prose">'.length;const tags=/<\/?div\b[^>]*>/g;tags.lastIndex=from;let tag;while((tag=tags.exec(html))){depth+=tag[0].startsWith('</')?-1:1;if(depth===0){end=tag.index;break;}}}
+    const prose=start>=0&&end>=0?html.slice(start,end):null;
     assert(prose,article.slug);
     for(const m of pairs)assert(prose.includes(`href="${m[2]}"`),article.slug);
     assert(!body.includes('Saistītie ceļveži:'),'Keep related lists outside the article prose.');

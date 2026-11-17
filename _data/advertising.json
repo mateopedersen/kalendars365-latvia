@@ -31,5 +31,13 @@
     "policy": "Privātuma politika un reklāma",
     "allowed": "Reklāmas ielāde ir atļauta.",
     "denied": "Reklāmas netiek ielādētas."
+  },
+  "native": {
+    "enabled": true,
+    "key": "e2409a3f15eb164f6f723ed5ceff0fbb",
+    "src": "https://bauval.org/21/e2409a3f15eb164f6f723ed5ceff0fbb",
+    "containerId": "container-e2409a3f15eb164f6f723ed5ceff0fbb",
+    "minViewport": 900,
+    "minWidth": 728
   }
 }

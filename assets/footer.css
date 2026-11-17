@@ -105,3 +105,17 @@
 .footer-redesign .footer-origin .footer-origin-flag{width:30px;height:15px;fill:none;stroke:none;border-radius:2px;box-shadow:0 2px 4px #653b431a}
 
 @media(max-width:480px){.footer-redesign .footer-source-line{font-size:12px;margin-bottom:15px}.footer-redesign .footer-source-line>span:first-child{flex-basis:24px;width:24px;height:24px;font-size:17px}.footer-redesign .footer-legal-row{grid-template-columns:minmax(0,1fr);gap:12px;padding-top:20px}.footer-redesign .footer-copyright{align-items:center;justify-content:center;justify-self:center;gap:6px}.footer-redesign .footer-copyright a{font-size:22px}.footer-redesign .footer-copyright-year{font-size:12px}.footer-redesign .footer-legal-links{grid-column:1;grid-row:2;justify-content:center;gap:4px 16px}.footer-redesign .footer-back-top{grid-column:1;grid-row:3;justify-self:center}.footer-redesign .footer-origin{padding:3px 0 23px}.footer-redesign .footer-origin-signature{padding:9px 12px;gap:8px;font-size:11px}.footer-redesign .footer-origin .footer-origin-heart{width:16px;height:16px}.footer-redesign .footer-origin .footer-origin-flag{width:28px;height:14px}}
+
+/* Explicit rows keep legal controls out of the copyright and back-to-top track. */
+.footer-redesign .footer-legal-row{grid-template-columns:minmax(0,1fr) auto;gap:18px 28px;padding:28px 0 26px;align-items:center}
+.footer-redesign .footer-copyright{grid-column:1;grid-row:1;align-items:flex-start;justify-self:start;gap:7px;line-height:1.4}
+.footer-redesign .footer-copyright-year{color:#622039;font-size:clamp(20px,1.7vw,26px);font-weight:800;letter-spacing:-.035em}
+.footer-redesign .footer-copyright-rights{color:#66515b;font-size:16px;font-weight:500;letter-spacing:0}
+.footer-redesign .footer-back-top{grid-column:2;grid-row:1;justify-self:end;justify-content:center;gap:12px;min-height:48px;padding:11px 16px;border:1px solid #d6b9bd;border-radius:12px;background:#fffdf9;color:#78233c;font-size:14px;text-decoration:none}
+.footer-redesign .footer-back-top:hover{background:#f4e9e9;border-color:#9e1b34;color:#622039;text-decoration:none}
+.footer-redesign .footer-legal-links{grid-column:1;grid-row:2;justify-content:flex-start;flex-direction:row;gap:4px 20px;min-width:0;font-size:13px}
+.footer-redesign .footer-legal-links a,.footer-redesign .footer-legal-links .text-button{min-height:44px;font-size:13px;font-weight:600}
+.footer-redesign .footer-origin{grid-column:2;grid-row:2;justify-content:flex-end;padding:0}
+.footer-redesign .footer-origin-signature{padding:8px 12px;font-size:12px;white-space:normal}
+@media(max-width:1000px){.footer-redesign .footer-legal-links{grid-column:1/-1;justify-content:center}.footer-redesign .footer-origin{grid-column:1/-1;grid-row:3;justify-content:center}}
+@media(max-width:600px){.footer-redesign .footer-legal-row{grid-template-columns:minmax(0,1fr);gap:16px;padding:24px 0}.footer-redesign .footer-copyright{grid-column:1;grid-row:1;align-items:center;justify-self:center;text-align:center}.footer-redesign .footer-back-top{grid-column:1;grid-row:2;justify-self:center}.footer-redesign .footer-legal-links{grid-column:1;grid-row:3;justify-content:center;gap:2px 16px}.footer-redesign .footer-origin{grid-column:1;grid-row:4}.footer-redesign .footer-copyright-year{font-size:23px}}

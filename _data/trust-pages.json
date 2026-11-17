@@ -138,7 +138,7 @@
           "id": "analitika",
           "title": "Google Analytics ar tavu piekrišanu",
           "paragraphs": [
-            "Google Analytics 4 izmantojam apmeklējumu un lapu lietojuma statistikai tikai pēc izvēles “Atļaut analītiku”. Pirms piekrišanas Google Analytics netiek ielādēts un analītikas pieprasījumi netiek sūtīti. Pamats ir tava piekrišana; to vari atsaukt ar kājenes pogu “Privātuma izvēles”.",
+            "Google Analytics 4 izmantojam apmeklējumu un lapu lietojuma statistikai tikai pēc izvēles “Atļaut analītiku”. Pirms piekrišanas Google Analytics netiek ielādēts un analītikas pieprasījumi netiek sūtīti. Pamats ir tava piekrišana; to vari atsaukt ar kājenes pogu “Sīkdatņu iestatījumi”.",
             "Google saņem apmeklējuma tehnisko informāciju un pārlūka identifikatoru. Lapu adreses nosūtām bez vaicājuma parametriem un fragmentiem. Personīgos plānus, ievadītās summas, dzimšanas datus un meklēšanas frāzes Analytics nesūtām. Reklāmas personalizācija un Google Signals ir izslēgti. Google var apstrādāt datus ārpus EEZ."
           ],
           "links": [
@@ -157,8 +157,8 @@
           "title": "Adsterra reklāmas ar atsevišķu atļauju",
           "paragraphs": [
             "Adsterra reklāmas ielādējam tikai pēc atsevišķas atļaujas un tad, kad reklāmas vieta tuvojas redzamajai lapas daļai. Pirms atļaujas savienojums ar reklāmas pakalpojumu netiek veidots. Tas var saņemt IP adresi, pārlūka un ierīces tehnisko informāciju un izmantot sīkdatnes reklāmas piegādei un krāpšanas novēršanai.",
-            "Reklāmas taga iestatījumos nepievienojam kalendāra ierakstus, piezīmes vai veidlapu saturu. Trešās puses kods darbojas pārlūkā un var apstrādāt informāciju atbilstoši saviem noteikumiem. Reklāmas neielādējam personīgajos plānotājos, saziņas un juridiskajās lapās vai adresēs ar vaicājuma parametriem.",
-            "Atteikšanās neierobežo vietnes lietošanu. Izvēle tiek glabāta 180 dienas; to vari mainīt ar kājenes pogu “Reklāmas izvēles”. Atsaucot atļauju, lapa tiek pārlādēta, lai apturētu jau ielādēto reklāmas kodu. Iepriekš izveidotie trešo pušu ieraksti ar to automātiski netiek dzēsti; sīkdatnes var pārvaldīt arī pārlūka iestatījumos. Adsterra darbojas starptautiski, un dati var tikt apstrādāti arī ārpus EEZ."
+            "Reklāmas taga iestatījumos nepievienojam kalendāra ierakstus, piezīmes vai veidlapu saturu. Trešās puses kods darbojas pārlūkā un var apstrādāt informāciju atbilstoši saviem noteikumiem. Reklāmas vietas ir publiskajās lapās, arī plānotājos, saziņas un juridiskajās lapās. Adresēs ar vaicājuma parametriem reklāmas neielādējam.",
+            "Atteikšanās neierobežo vietnes lietošanu. Izvēle tiek glabāta 180 dienas; to vari mainīt ar kājenes pogu “Sīkdatņu iestatījumi”. Atsaucot atļauju, lapa tiek pārlādēta, lai apturētu jau ielādēto reklāmas kodu. Iepriekš izveidotie trešo pušu ieraksti ar to automātiski netiek dzēsti; sīkdatnes var pārvaldīt arī pārlūka iestatījumos. Adsterra darbojas starptautiski, un dati var tikt apstrādāti arī ārpus EEZ."
           ],
           "links": [
             {
@@ -301,7 +301,7 @@
           "title": "Kad piekrišana ir vajadzīga",
           "paragraphs": [
             "Informācijas sabiedrības pakalpojumu likuma 7.¹ pants paredz iepriekšēju informētu piekrišanu glabāšanai vai piekļuvei galiekārtas informācijai, izņemot sakaru nodrošināšanai vai lietotāja pieprasīta pakalpojuma sniegšanai nepieciešamos gadījumus. Atšķirīgs jautājums ir personas datu apstrādes pamats saskaņā ar VDAR.",
-            "Izvēle “Tikai nepieciešamās” analītiku neieslēdz. “Atļaut analītiku” ļauj ielādēt Google Analytics. Izvēli glabājam 180 dienas atsevišķā lokālās krātuves ierakstā k365.analytics-consent.v1. Iepriekšējais paziņojuma apstiprinājums nav piekrišana Analytics. Izvēli vari mainīt ar kājenes pogu “Privātuma izvēles”."
+            "Izvēle “Tikai nepieciešamās” analītiku neieslēdz. “Atļaut visas” ļauj ielādēt neobligātos pakalpojumus. Iestatījumos analītiku un reklāmas vari izvēlēties atsevišķi. Izvēli glabājam 180 dienas atsevišķā lokālās krātuves ierakstā k365.analytics-consent.v1. Iepriekšējais paziņojuma apstiprinājums nav piekrišana Analytics. Izvēli vari mainīt ar kājenes pogu “Sīkdatņu iestatījumi”."
           ]
         },
         {
@@ -336,7 +336,7 @@
             "Pirms dzēšanas izveido sev vajadzīgo dublējumu. Pamata kalendāra JSON dublējums satur tā notikumus, uzdevumus un piezīmes; citiem plānotājiem izmanto attiecīgā rīka eksportu. Kalendāra veidotāja projekti ir atsevišķi.",
             "Atsevišķu notikumu, plānu vai projektu vari izdzēst pašā rīkā. Pamata kalendāra atiestatīšana nedzēš visu pārējo plānotāju krātuves.",
             "Lai noņemtu visus šīs vietnes vietējos ierakstus, atver pārlūka privātuma iestatījumus un izdzēs kalendars365.lv vietnes datus, tostarp lokālo krātuvi un IndexedDB. Dzēšana var būt neatgriezeniska.",
-            "Paziņojumu vari atvērt vēlreiz ar kājenes pogu “Privātuma izvēles”. Apstiprinājums ir derīgs 180 dienas; kalendāra ierakstu glabāšanai šis termiņš netiek piemērots."
+            "Paziņojumu vari atvērt vēlreiz ar kājenes pogu “Sīkdatņu iestatījumi”. Apstiprinājums ir derīgs 180 dienas; kalendāra ierakstu glabāšanai šis termiņš netiek piemērots."
           ],
           "actions": [
             "consent",

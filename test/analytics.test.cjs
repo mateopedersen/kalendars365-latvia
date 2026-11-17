@@ -27,7 +27,7 @@ test('grant configures exactly one automatic page view, no manual duplicate, and
 test('revocation disables analytics, removes only GA cookies, and re-grant updates consent without another page view',()=>{
  const b=browser();const personal=b.data.get('kalendars365.v1');b.click({consent:'analytics'});b.click({action:'consent'});assert(b.dialogs[0].open);b.click({analyticsChoice:'no'});assert(b.context['ga-disable-'+id]);assert.deepEqual([...b.cookies.keys()],['unrelated']);assert.equal(b.commands().at(-1)[2].analytics_storage,'denied');
  b.click({analyticsChoice:'yes'});assert.equal(b.commands().at(-1)[2].analytics_storage,'granted');assert.equal(b.context['ga-disable-'+id],false);assert.equal(b.scripts.length,1);assert.equal(b.commands().filter(x=>x[0]==='config').length,1);assert.equal(b.data.get('kalendars365.v1'),personal);
- b.storage(null);assert(b.context.reloaded);
+ b.data.delete(key);b.storage(null);assert(!b.context.reloaded);assert.equal(b.context.K365Analytics.choice(),null);assert.equal(b.context['ga-disable-'+id],true);assert.equal(b.data.get('kalendars365.v1'),personal);
 });
 test('saved valid choice is honored and blocked storage retains a session-only choice',()=>{
  const b=browser({saved:{version:1,analytics:true,expiresAt:Date.now()+5000}});assert.equal(b.scripts.length,1);assert(b.banner.hidden);

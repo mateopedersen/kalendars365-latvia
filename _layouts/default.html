@@ -74,9 +74,10 @@
 {% if page.url == "/" %}<style>{{ "home-calendar.css" | inline_styles }}</style><style>{{ "upcoming-events.css" | inline_styles }}</style><script defer src="/assets/upcoming-events.js?v={{ site.data.build.asset_version }}"></script>{% endif %}
 <style>{{ "brand-consistency.css" | inline_styles }}</style>
 </head>
-<body class="{% if page.url == '/' %}home-page{% else %}site-page{% endif %}" data-family="{{ page.family }}" data-category="{{ page.category }}" data-year="{{ page.year }}" data-month="{{ page.month }}" data-week="{{ page.week }}" data-name="{{ page.calendar_name | escape }}" data-view="{{ page.view }}">
+<body id="page-top" class="{% if page.url == '/' %}home-page{% else %}site-page{% endif %}" data-family="{{ page.family }}" data-category="{{ page.category }}" data-year="{{ page.year }}" data-month="{{ page.month }}" data-week="{{ page.week }}" data-name="{{ page.calendar_name | escape }}" data-view="{{ page.view }}">
 {% include header.html %}
-<main id="main">{{ content }}{% include advertising.html %}{% if page.reading_notes != false %}{% include page-guide.html %}{% endif %}{% include internal-navigation.html %}</main>
+{% capture primary_advertising %}{% include advertising.html %}{% endcapture %}{% capture secondary_advertising %}{% include advertising_native.html %}{% endcapture %}
+<main id="main">{{ content | advertising_after_intro: primary_advertising, secondary_advertising }}{% if page.reading_notes != false %}{% include page-guide.html %}{% endif %}{% include internal-navigation.html %}</main>
 {% include footer.html %}
 {% include sharing.html %}
 <script type="application/json" id="advertising-config">{{ site.data.advertising | jsonify }}</script><script type="module" src="/assets/advertising.mjs?v={{ site.data.build.asset_version }}"></script>
