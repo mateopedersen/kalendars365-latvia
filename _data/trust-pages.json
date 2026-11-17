@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "reviewedAt": "2026-11-16",
-  "reviewedLabel": "2026. gada 16. novembris",
+  "reviewedAt": "2026-11-17",
+  "reviewedLabel": "17.11.2026.",
   "jurisdiction": "Latvija un Eiropas Savienība",
   "ownerAddress": null,
   "sources": {
@@ -86,7 +86,7 @@
       "facts": [
         "Bez lietotāja konta",
         "Personīgie plāni tavā ierīcē",
-        "Reklāmas tikai ar atļauju"
+        "Reklāmas saite bez izsekošanas lapas atvēršanas laikā"
       ],
       "sources": [
         "gdpr",
@@ -154,11 +154,11 @@
         },
         {
           "id": "reklama",
-          "title": "Adsterra reklāmas ar atsevišķu atļauju",
+          "title": "Skaidri marķētas sponsorētās saites",
           "paragraphs": [
-            "Adsterra reklāmas ielādējam tikai pēc atsevišķas atļaujas un tad, kad reklāmas vieta tuvojas redzamajai lapas daļai. Pirms atļaujas savienojums ar reklāmas pakalpojumu netiek veidots. Tas var saņemt IP adresi, pārlūka un ierīces tehnisko informāciju un izmantot sīkdatnes reklāmas piegādei un krāpšanas novēršanai.",
-            "Reklāmas taga iestatījumos nepievienojam kalendāra ierakstus, piezīmes vai veidlapu saturu. Trešās puses kods darbojas pārlūkā un var apstrādāt informāciju atbilstoši saviem noteikumiem. Reklāmas vietas ir publiskajās lapās, arī plānotājos, saziņas un juridiskajās lapās. Adresēs ar vaicājuma parametriem reklāmas neielādējam.",
-            "Atteikšanās neierobežo vietnes lietošanu. Izvēle tiek glabāta 180 dienas; to vari mainīt ar kājenes pogu “Sīkdatņu iestatījumi”. Atsaucot atļauju, lapa tiek pārlādēta, lai apturētu jau ielādēto reklāmas kodu. Iepriekš izveidotie trešo pušu ieraksti ar to automātiski netiek dzēsti; sīkdatnes var pārvaldīt arī pārlūka iestatījumos. Adsterra darbojas starptautiski, un dati var tikt apstrādāti arī ārpus EEZ."
+            "Publiskajās lapās redzama mūsu pašu lapā veidota reklāmas josla ar Adsterra Smartlink saiti. Joslas parādīšana neielādē ārēju reklāmas skriptu, ietvaru vai izsekošanas pikseli un neizmanto reklāmas sīkdatnes vai ierīces identifikatorus. Tā redzama arī tad, ja analītikai nepiekrīti.",
+            "Tikai tad, ja pats nospied marķēto reklāmas saiti, jaunā cilnē atveras ārējs piedāvājums. Šis pakalpojums var saņemt savienojuma tehniskos datus un izmantot savas sīkdatnes. Saitē nepievienojam tavus plānus, veidlapu saturu, pilsētu vai meklēšanas tekstu. Par novirzīšanu vai turpmāku darbību varam saņemt atlīdzību; pašas joslas parādīšana nenozīmē apmaksātu reklāmas skatījumu.",
+            "Iepriekšējais kalendars365.advertising-consent.v1 ieraksts vairs netiek lasīts vai atjaunināts. To vari dzēst pārlūka vietnes datu iestatījumos. Analītikas izvēle paliek atsevišķa."
           ],
           "links": [
             {
@@ -168,7 +168,8 @@
           ],
           "actions": [
             "advertising"
-          ]
+          ],
+          "controls": []
         },
         {
           "id": "pieprasijumi",
@@ -275,7 +276,7 @@
       "eyebrow": "TAVA IERĪCE. TAVAS IZVĒLES.",
       "intro": "Lai atcerētos tavu plānu, vajadzīga krātuve, nevis reklāmas profils. Te vari saprast, ko vietne saglabā, kādēļ tas vajadzīgs un kā to pārvaldīt.",
       "facts": [
-        "Reklāmas tikai ar atļauju",
+        "Reklāmas saite bez izsekošanas lapas atvēršanas laikā",
         "Analītika tikai ar piekrišanu",
         "Ierakstus pārvaldi pats"
       ],
@@ -293,7 +294,7 @@
           "title": "Ko šeit nozīmē sīkdatnes",
           "paragraphs": [
             "Sīkdatne ir neliels ieraksts, ko pārlūks var nosūtīt kopā ar pieprasījumu attiecīgajai vietnei. Lokālā krātuve, sesijas krātuve un IndexedDB ir citas pārlūka glabāšanas tehnoloģijas. Tām piemēro galiekārtas informācijas aizsardzības principus arī tad, ja tehniski tās nav sīkdatnes.",
-            "Google Analytics sīkdatnes _ga un _ga_5E1KZEJCNR izmanto tikai pēc piekrišanas. Tās palīdz atšķirt apmeklējumus un sesijas; šajā vietnē to derīgums iestatīts līdz 180 dienām. Adsterra reklāmām ir atsevišķa izvēle; Analytics atļauja tās neieslēdz."
+            "Google Analytics sīkdatnes _ga un _ga_5E1KZEJCNR izmanto tikai pēc piekrišanas. Tās palīdz atšķirt apmeklējumus un sesijas; šajā vietnē to derīgums iestatīts līdz 180 dienām. Sponsorētā saite neizmanto reklāmas sīkdatnes; tikai tās nospiešana atver ārēju pakalpojumu."
           ]
         },
         {
@@ -301,15 +302,16 @@
           "title": "Kad piekrišana ir vajadzīga",
           "paragraphs": [
             "Informācijas sabiedrības pakalpojumu likuma 7.¹ pants paredz iepriekšēju informētu piekrišanu glabāšanai vai piekļuvei galiekārtas informācijai, izņemot sakaru nodrošināšanai vai lietotāja pieprasīta pakalpojuma sniegšanai nepieciešamos gadījumus. Atšķirīgs jautājums ir personas datu apstrādes pamats saskaņā ar VDAR.",
-            "Izvēle “Tikai nepieciešamās” analītiku neieslēdz. “Atļaut visas” ļauj ielādēt neobligātos pakalpojumus. Iestatījumos analītiku un reklāmas vari izvēlēties atsevišķi. Izvēli glabājam 180 dienas atsevišķā lokālās krātuves ierakstā k365.analytics-consent.v1. Iepriekšējais paziņojuma apstiprinājums nav piekrišana Analytics. Izvēli vari mainīt ar kājenes pogu “Sīkdatņu iestatījumi”."
+            "Izvēle “Tikai nepieciešamās” analītiku neieslēdz. “Atļaut visas” ļauj ielādēt neobligātos pakalpojumus. Iestatījumos vari mainīt analītikas izvēli. Reklāmas josla no šīs izvēles nav atkarīga. Izvēli glabājam 180 dienas atsevišķā lokālās krātuves ierakstā k365.analytics-consent.v1. Iepriekšējais paziņojuma apstiprinājums nav piekrišana Analytics. Izvēli vari mainīt ar kājenes pogu “Sīkdatņu iestatījumi”."
           ]
         },
         {
           "id": "reklama",
-          "title": "Atsevišķa reklāmas atļauja",
+          "title": "Skaidri marķētas sponsorētās saites",
           "paragraphs": [
-            "Adsterra reklāmu atļauja vai atteikums tiek glabāts šī pārlūka lokālajā krātuvē ar atslēgu kalendars365.advertising-consent.v1 līdz 180 dienām. Vecais privātuma paziņojuma apstiprinājums un Google Analytics atļauja nav piekrišana reklāmai.",
-            "Mainīt izvēli vai atsaukt atļauju vari zemāk un kājenē. Atsaukšana pārlādē lapu; pārlūka iestatījumos vari pārvaldīt arī iepriekš izveidotās trešo pušu sīkdatnes. Reklāmu pakalpojuma tehnoloģiju un datu apstrādes noteikumi ir aprakstīti tā privātuma politikā."
+            "Publiskajās lapās redzama mūsu pašu lapā veidota reklāmas josla ar Adsterra Smartlink saiti. Joslas parādīšana neielādē ārēju reklāmas skriptu, ietvaru vai izsekošanas pikseli un neizmanto reklāmas sīkdatnes vai ierīces identifikatorus. Tā redzama arī tad, ja analītikai nepiekrīti.",
+            "Tikai tad, ja pats nospied marķēto reklāmas saiti, jaunā cilnē atveras ārējs piedāvājums. Šis pakalpojums var saņemt savienojuma tehniskos datus un izmantot savas sīkdatnes. Saitē nepievienojam tavus plānus, veidlapu saturu, pilsētu vai meklēšanas tekstu. Par novirzīšanu vai turpmāku darbību varam saņemt atlīdzību; pašas joslas parādīšana nenozīmē apmaksātu reklāmas skatījumu.",
+            "Iepriekšējais kalendars365.advertising-consent.v1 ieraksts vairs netiek lasīts vai atjaunināts. To vari dzēst pārlūka vietnes datu iestatījumos. Analītikas izvēle paliek atsevišķa."
           ],
           "links": [
             {
@@ -319,7 +321,8 @@
           ],
           "actions": [
             "advertising"
-          ]
+          ],
+          "controls": []
         },
         {
           "id": "glabasana",

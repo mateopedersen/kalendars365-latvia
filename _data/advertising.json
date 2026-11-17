@@ -21,23 +21,15 @@
     "src": "https://bauval.org/22/da1b76e9ea5ef1da1f1a2114ab96c67a"
   },
   "privacy": "/privatuma-politika/#reklama",
-  "labels": {
-    "title": "Reklāmas izvēles",
-    "description": "Adsterra reklāmas ielādējam tikai ar atsevišķu atļauju. Reklāmas pakalpojums saņem savienojuma un ierīces tehnisko informāciju un var izmantot sīkdatnes.",
-    "detail": "Reklāmas taga iestatījumos nepievienojam kalendāra ierakstus vai veidlapu saturu. Trešās puses kods darbojas pārlūkā saskaņā ar sava pakalpojuma privātuma noteikumiem. Izvēle derīga 180 dienas. Vari to atsaukt jebkurā laikā; atteikšanās neierobežo kalendāra lietošanu.",
-    "deny": "Neatļaut reklāmas",
-    "allow": "Atļaut reklāmas",
-    "close": "Aizvērt",
-    "policy": "Privātuma politika un reklāma",
-    "allowed": "Reklāmas ielāde ir atļauta.",
-    "denied": "Reklāmas netiek ielādētas."
-  },
   "native": {
-    "enabled": true,
+    "enabled": false,
     "key": "e2409a3f15eb164f6f723ed5ceff0fbb",
     "src": "https://bauval.org/21/e2409a3f15eb164f6f723ed5ceff0fbb",
     "containerId": "container-e2409a3f15eb164f6f723ed5ceff0fbb",
     "minViewport": 900,
     "minWidth": 728
-  }
+  },
+  "mode": "sponsored-link",
+  "directLink": "https://asiafilm.org/4/6b6aabe64d2bbfcdadd73b76443164f4",
+  "directLinkUnit": "32322917"
 }
