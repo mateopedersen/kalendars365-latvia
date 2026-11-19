@@ -1,6 +1,6 @@
 {
-  "asset_version": "d4b3664975af8c95",
-  "sha256": "d4b3664975af8c95d236f128ca2f800ba7ae0b8d4ba70f9af562daea41d0b3d9",
+  "asset_version": "9167baecafed61de",
+  "sha256": "9167baecafed61defeef08fe21e3b7f3f85d74f38e6ea4f1a0bc63e2c1d0ddc9",
   "files": {
     "assets/a3-gallery.css": "1889edd3db55a0a1473cc6711268699d2b19129115f3ab0f59d11f1aa9374c37",
     "assets/action-icons.js": "4527242b10cdfe3992943ef06d2d62288024237a3c29c0221f00f8277f11ad97",
@@ -2914,7 +2914,7 @@
     "assets/home-year-overview.svg": "6fe53434ff9a84233b388ac74a03c7d650cb12098642dfa13e0590d620f66ef1",
     "assets/horoscope-data.mjs": "e40fdb7de237472ca4e7c6a6a50dbfd78461b183bd634fa3d43df5fde3a238b4",
     "assets/horoscope.css": "53b221f449c248a6955de604c67c8b0f26ef2653b8913d1910c7a3e8effb6cfd",
-    "assets/horoscopes.json": "af1c31a585280c32227cfa7561476cec456224cb4bb81c6d682aa63a568fc5fa",
+    "assets/horoscopes.json": "c56d409aa1b2a7ffdbc8acf3fba4034cfc49c0f182282e95e7c0d7fa3737ca3e",
     "assets/hub-pages.css": "7b1925e22b5b80265caa6c3c2d6019cdd36c059119d6fc63d0a0eed9b97746e9",
     "assets/hub-pages.js": "46f29e7ef2a5cad339dee2f2be3fa2834a640917b90d3da6ac5cd3379200f9ea",
     "assets/internal-navigation.css": "a0f9e2f1790357dab5e5b18e652d5e55c120c0a2b18d868c2c4f39a2510ee698",
@@ -6076,7 +6076,7 @@
     "assets/school-planner.mjs": "330b1fb5b36dce44b5dcf74f5c78a3e2358fb1d1c387ad44bc259e0468a69b38",
     "assets/school.css": "23f2a9937a99a4f704f591c96ff59f96a75b1dab4b68f489586fa89bc972b070",
     "assets/search-core.js": "57f6430d0173f67560e2c3099fcbee020f8541b735539babdeec03b0307e8e91",
-    "assets/search-index.json": "9a2645e5e4a64098e54db819f78e7e28e4223c0c023b39a63b0aacea4aec430b",
+    "assets/search-index.json": "5cffe0e23d442e8d105dca0aa77b968e6c91cdda07337f7cbe0712c444ef3e24",
     "assets/search-worker.js": "abdefc855b0900760b8d878b3b06028f59aa55808430825fc2f188200d91294a",
     "assets/search.css": "c4dd1c8a5728b47bf4d609a01ea34c42f7c5aaa203b2cd4251713134d8b31749",
     "assets/season-cards.mjs": "eff47ae2d0eec9d98963236ec3dd61a6dbe703eae42b5d6bda442ef9e4227224",
