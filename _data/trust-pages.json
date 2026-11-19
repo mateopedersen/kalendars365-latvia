@@ -69,11 +69,6 @@
       "title": "Google privātuma politika",
       "url": "https://policies.google.com/privacy?hl=lv",
       "note": "Google Forms saziņas veidlapa un Gmail e-pasta pakalpojums"
-    },
-    "adsterra": {
-      "title": "Adsterra privātuma politika",
-      "url": "https://adsterra.com/privacy-policy-managed/",
-      "note": "Reklāmas pakalpojuma publicētā datu apstrādes informācija"
     }
   },
   "pages": {
@@ -85,8 +80,7 @@
       "intro": "Personīgos plānus glabā tavs pārlūks. Šeit skaidrojam arī to, kas notiek, kad atver vietni, izvēlies pilsētu, apskati 3D karti vai uzraksti mums.",
       "facts": [
         "Bez lietotāja konta",
-        "Personīgie plāni tavā ierīcē",
-        "Reklāmas saite bez izsekošanas lapas atvēršanas laikā"
+        "Personīgie plāni tavā ierīcē"
       ],
       "sources": [
         "gdpr",
@@ -97,8 +91,7 @@
         "openfreemap",
         "met",
         "google",
-        "dvi",
-        "adsterra"
+        "dvi"
       ],
       "sections": [
         {
@@ -151,23 +144,6 @@
               "label": "Sīkdatnes un izvēles"
             }
           ]
-        },
-        {
-          "id": "reklama",
-          "title": "Reklāmas baneri",
-          "paragraphs": [
-            "Publiskajās lapās tiek rādīti Adsterra reklāmas baneri. Reklāmas kods ielādējas automātiski, atverot lapu, ja šajā pārlūkā reklāmas nav izslēgtas. Adsterra un tā reklāmas partneri var apstrādāt IP adresi, pārlūka un ierīces tehniskos datus un vietnes adresi, kā arī izmantot sīkdatnes reklāmu piegādei un mērīšanai.",
-            "Reklāmas vari paslēpt ar zemāk esošajām pogām. Izvēli šajā pārlūkā glabājam līdz 180 dienām. Ja reklāmas kods jau ir ielādēts, saglabā iesākto un pārlādē lapu, lai to pilnībā apturētu. Izvēle nedzēš kalendāra ierakstus. Google Analytics izvēle ir atsevišķa."
-          ],
-          "links": [
-            {
-              "url": "https://adsterra.com/privacy-policy-managed/",
-              "label": "Adsterra privātuma politika"
-            }
-          ],
-          "actions": [],
-          "controls": [],
-          "bannerControls": true
         },
         {
           "id": "pieprasijumi",
@@ -272,9 +248,8 @@
       "label": "Sīkdatnes",
       "heading": "Sīkdatnes un pārlūka krātuve",
       "eyebrow": "TAVA IERĪCE. TAVAS IZVĒLES.",
-      "intro": "Lai atcerētos tavu plānu, vajadzīga krātuve, nevis reklāmas profils. Te vari saprast, ko vietne saglabā, kādēļ tas vajadzīgs un kā to pārvaldīt.",
+      "intro": "Lai atcerētos tavu plānu, vietne izmanto pārlūka krātuvi. Te vari saprast, ko vietne saglabā, kādēļ tas vajadzīgs un kā to pārvaldīt.",
       "facts": [
-        "Reklāmas saite bez izsekošanas lapas atvēršanas laikā",
         "Analītika tikai ar piekrišanu",
         "Ierakstus pārvaldi pats"
       ],
@@ -283,8 +258,7 @@
         "dvi-cookies",
         "gdpr",
         "cloudflare",
-        "openfreemap",
-        "adsterra"
+        "openfreemap"
       ],
       "sections": [
         {
@@ -292,7 +266,7 @@
           "title": "Ko šeit nozīmē sīkdatnes",
           "paragraphs": [
             "Sīkdatne ir neliels ieraksts, ko pārlūks var nosūtīt kopā ar pieprasījumu attiecīgajai vietnei. Lokālā krātuve, sesijas krātuve un IndexedDB ir citas pārlūka glabāšanas tehnoloģijas. Tām piemēro galiekārtas informācijas aizsardzības principus arī tad, ja tehniski tās nav sīkdatnes.",
-            "Google Analytics sīkdatnes _ga un _ga_5E1KZEJCNR izmanto tikai pēc piekrišanas. Tās palīdz atšķirt apmeklējumus un sesijas; šajā vietnē to derīgums iestatīts līdz 180 dienām. Sponsorētā saite neizmanto reklāmas sīkdatnes; tikai tās nospiešana atver ārēju pakalpojumu."
+            "Google Analytics sīkdatnes _ga un _ga_5E1KZEJCNR izmanto tikai pēc piekrišanas. Tās palīdz atšķirt apmeklējumus un sesijas; šajā vietnē to derīgums iestatīts līdz 180 dienām."
           ]
         },
         {
@@ -300,25 +274,8 @@
           "title": "Kad piekrišana ir vajadzīga",
           "paragraphs": [
             "Informācijas sabiedrības pakalpojumu likuma 7.¹ pants paredz iepriekšēju informētu piekrišanu glabāšanai vai piekļuvei galiekārtas informācijai, izņemot sakaru nodrošināšanai vai lietotāja pieprasīta pakalpojuma sniegšanai nepieciešamos gadījumus. Atšķirīgs jautājums ir personas datu apstrādes pamats saskaņā ar VDAR.",
-            "Izvēle “Tikai nepieciešamās” analītiku neieslēdz. “Atļaut visas” ļauj ielādēt neobligātos pakalpojumus. Iestatījumos vari mainīt analītikas izvēli. Reklāmas josla no šīs izvēles nav atkarīga. Izvēli glabājam 180 dienas atsevišķā lokālās krātuves ierakstā k365.analytics-consent.v1. Iepriekšējais paziņojuma apstiprinājums nav piekrišana Analytics. Izvēli vari mainīt ar kājenes pogu “Sīkdatņu iestatījumi”."
+            "Izvēle “Tikai nepieciešamās” analītiku neieslēdz. “Atļaut visas” ļauj ielādēt neobligātos pakalpojumus. Iestatījumos vari mainīt analītikas izvēli. Izvēli glabājam 180 dienas atsevišķā lokālās krātuves ierakstā k365.analytics-consent.v1. Iepriekšējais paziņojuma apstiprinājums nav piekrišana Analytics. Izvēli vari mainīt ar kājenes pogu “Sīkdatņu iestatījumi”."
           ]
-        },
-        {
-          "id": "reklama",
-          "title": "Reklāmas baneri",
-          "paragraphs": [
-            "Publiskajās lapās tiek rādīti Adsterra reklāmas baneri. Reklāmas kods ielādējas automātiski, atverot lapu, ja šajā pārlūkā reklāmas nav izslēgtas. Adsterra un tā reklāmas partneri var apstrādāt IP adresi, pārlūka un ierīces tehniskos datus un vietnes adresi, kā arī izmantot sīkdatnes reklāmu piegādei un mērīšanai.",
-            "Reklāmas vari paslēpt ar zemāk esošajām pogām. Izvēli šajā pārlūkā glabājam līdz 180 dienām. Ja reklāmas kods jau ir ielādēts, saglabā iesākto un pārlādē lapu, lai to pilnībā apturētu. Izvēle nedzēš kalendāra ierakstus. Google Analytics izvēle ir atsevišķa."
-          ],
-          "links": [
-            {
-              "url": "/privatuma-politika/#reklama",
-              "label": "Reklāmas pakalpojums un dati"
-            }
-          ],
-          "actions": [],
-          "controls": [],
-          "bannerControls": true
         },
         {
           "id": "glabasana",
