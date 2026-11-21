@@ -195,7 +195,7 @@ for (const root of roots) {
       setText($('[data-ascendant-degree]'), `${value.degrees}° ${String(value.minutes).padStart(2, '0')}′ · ${value.sign.element}`);
       const image = $('[data-ascendant-sign-image]'); image.src = `/assets/zodiac/${value.sign.slug}.svg${calculationRevision}`; show(image);
       const stability = $('[data-ascendant-stability]');
-      let note = `Aprēķins ievadītajam dzimšanas brīdim. Ekliptiskais garums ${value.longitude.toLocaleString('lv-LV', {minimumFractionDigits: 2, maximumFractionDigits: 2})}°.`;
+      let note = `Aprēķins ievadītajam dzimšanas brīdim. Ekliptiskais garums ${value.longitude.toLocaleString('lv-LV', {useGrouping:false,minimumFractionDigits: 2, maximumFractionDigits: 2})}°.`;
       const closeToCusp = value.cuspDistance < 1 / 60;
       if (uncertainty) note = analysis.signs.length === 1 ? `± ${uncertainty} minūšu intervālā zīme nemainās: ${value.sign.name}.` : `± ${uncertainty} minūšu intervālā iespējamas zīmes: ${analysis.signs.map(sign => sign.name).join(', ')}. Precizē dzimšanas laiku.`;
       if (closeToCusp) note += ' Ascendents atrodas mazāk nekā vienas loka minūtes attālumā no zīmes robežas. Zīmi nevar uzskatīt par droši noteiktu.';
@@ -207,7 +207,7 @@ for (const root of roots) {
       const placeName = field('manual').checked ? place.name : [place.name, place.region, countries.selectedOptions[0].textContent].filter(Boolean).join(', ');
       const pairs = [['Dzimšanas vieta', placeName], ['Vietējais datums', localDate], ['Vietējais laiks', time],
         ['Laika josla', `${place.zone} · ${core.formatOffset(candidate.offsetSeconds)}`], ['UTC brīdis', utcText(candidate.utc).replace(' UTC', '')],
-        ['Koordinātas', `${place.lat.toLocaleString('lv-LV', {maximumFractionDigits: 4})}°, ${place.lon.toLocaleString('lv-LV', {maximumFractionDigits: 4})}°`]];
+        ['Koordinātas', `${place.lat.toLocaleString('lv-LV', {useGrouping:false,maximumFractionDigits: 4})}°, ${place.lon.toLocaleString('lv-LV', {useGrouping:false,maximumFractionDigits: 4})}°`]];
       for (const [label, text] of pairs) { const dt = document.createElement('dt'), dd = document.createElement('dd'); dt.textContent = label; dd.textContent = text; facts.append(dt, dd); }
       $('[data-ascendant-sign-link]').href = `/horoskops/${value.sign.slug}/`;
       const pointer = $('[data-ascendant-pointer]'); pointer.setAttribute('transform', `rotate(${value.longitude} 220 220)`); pointer.setAttribute('visibility', 'visible');

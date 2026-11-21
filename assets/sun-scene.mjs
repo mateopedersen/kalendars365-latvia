@@ -43,7 +43,7 @@ export function createSunScene(root) {
       inView=projectPanorama(view.altitude,position.azimuth,view,rect.width,rect.height).visible;
     }
     q('[data-sun-view-status]').textContent=discAltitude(position.altitude)<-.2666?'Saule ir zem horizonta':inView?'':'Saule ir ārpus kadra';
-    painter.canvas.setAttribute('aria-label',city.name+', '+timeLabel.format(instant)+'. '+atmosphere(position.altitude).label+'. Saules augstums '+position.altitude.toLocaleString('lv-LV',{maximumFractionDigits:1})+' grādi. Ilustratīva ainava.');
+    painter.canvas.setAttribute('aria-label',city.name+', '+timeLabel.format(instant)+'. '+atmosphere(position.altitude).label+'. Saules augstums '+position.altitude.toLocaleString('lv-LV',{useGrouping:false,maximumFractionDigits:1})+' grādi. Ilustratīva ainava.');
   }
   function draw(now=performance.now()) {
     if(!state.current||disposed)return;

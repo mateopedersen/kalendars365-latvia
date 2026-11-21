@@ -8,7 +8,7 @@ export function renderSeasonCards(rows,scenes,mode,format){
   if(!scene)throw new RangeError('Missing seasonal illustration');
   const index=['spring','summer','autumn','winter'].indexOf(key)+1;
   const end=mode==='calendar'?format.dateLabel(format.dateISO(format.addDays(row.nextDate,-1))):null;
-  const duration=row.length?'Līdz nākamajam gadalaikam: '+row.length.toLocaleString('lv-LV')+' dienas.':'Precīzais nākamā gada beigu brīdis šajā datu kopā nav ietverts.';
+  const duration=row.length?'Līdz nākamajam gadalaikam: '+row.length.toLocaleString('lv-LV', {useGrouping:false})+' dienas.':'Precīzais nākamā gada beigu brīdis šajā datu kopā nav ietverts.';
   return `<article class="season-card season-card--${key}" id="season-${key}" aria-labelledby="season-title-${key}">
    <div class="season-card-art"><img src="${escape(format.asset(scene.src))}" width="600" height="500" loading="lazy" decoding="async" alt="${escape(scene.alt)}"><span class="season-card-badge">${escape(scene.tagline)}</span></div>
    <div class="season-card-body"><div class="season-card-heading"><h3 id="season-title-${key}">${escape(row.title)}</h3><span class="season-card-number" aria-hidden="true">${String(index).padStart(2,'0')}</span></div>

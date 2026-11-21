@@ -5,7 +5,7 @@ const E=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt
 const labels={day:'Dienas maiņa',night:'Nakts maiņa',off:'Brīvdiena'},codes={day:'D',night:'N',off:'B'};
 const weekdays=['P.','O.','T.','C.','Pk.','S.','Sv.'];
 const dateLabel=date=>new Intl.DateTimeFormat('lv-LV',{timeZone:'UTC',year:'numeric',month:'long',day:'numeric'}).format(new Date(date+'T12:00:00Z'));
-const num=n=>Number(n).toLocaleString('lv-LV',{maximumFractionDigits:2});
+const num=n=>Number(n).toLocaleString('lv-LV',{useGrouping:false,maximumFractionDigits:2});
 export const shiftDesigns=[
  ['Karmīna maiņas','Mēneša režģis ar darba un atpūtas kopsavilkumu.','calendar','#852843','#fffdf8','#f2e4e5','clock'],
  ['Diena un nakts','Divas laika līnijas, kas parāda arī nakts maiņas turpinājumu.','timeline','#345565','#fbfdfe','#e5edf2','orbit'],

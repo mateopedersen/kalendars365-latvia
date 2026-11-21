@@ -6,7 +6,7 @@
   form.addEventListener('submit',event=>event.preventDefault());form.addEventListener('input',filter);form.addEventListener('change',filter);form.addEventListener('reset',()=>requestAnimationFrame(filter));
 })();
 (() => {
-  const money=new Intl.NumberFormat('lv-LV',{style:'currency',currency:'EUR'});
+  const money=new Intl.NumberFormat('lv-LV',{useGrouping:false,style:'currency',currency:'EUR'});
   for(const root of document.querySelectorAll('[data-price-compare]')){
     const inputs=[...root.querySelectorAll('input')],output=root.querySelector('output');
     const update=()=>{const values=inputs.map(input=>input.value===''?null:Number(input.value));if(values.some(v=>v===null||!Number.isFinite(v)||v<0)){output.textContent='Ievadi abas cenas un nenegatīvas piegādes izmaksas.';return;}const [a,da,b,db]=values,totalA=Math.round((a+da)*100)/100,totalB=Math.round((b+db)*100)/100,diff=Math.round(Math.abs(totalA-totalB)*100)/100;output.textContent=`A: ${money.format(totalA)} · B: ${money.format(totalB)}. `+(diff===0?'Kopsummas ir vienādas.':`${totalA<totalB?'A':'B'} kopā maksā par ${money.format(diff)} mazāk.`);};

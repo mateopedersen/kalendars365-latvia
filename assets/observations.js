@@ -2,7 +2,7 @@
 const select=document.getElementById('city-select'),panel=document.getElementById('station-observation');
 if(!select||!panel)return;
 const title=document.getElementById('station-observation-title'),value=document.getElementById('station-observation-value'),detail=document.getElementById('station-observation-detail');
-const number=new Intl.NumberFormat('lv-LV',{maximumFractionDigits:1}),time=new Intl.DateTimeFormat('lv-LV',{timeZone:'Europe/Riga',day:'numeric',month:'long',hour:'2-digit',minute:'2-digit',hourCycle:'h23'});
+const number=new Intl.NumberFormat('lv-LV',{useGrouping:false,maximumFractionDigits:1}),time=new Intl.DateTimeFormat('lv-LV',{timeZone:'Europe/Riga',day:'numeric',month:'long',hour:'2-digit',minute:'2-digit',hourCycle:'h23'});
 const TTL=3*60*1000,cache=new Map(),pending=new Map(),prefix='k365:observation:';
 let generation=0,timer;
 function cached(city){let row=cache.get(city);if(!row){try{row=JSON.parse(sessionStorage.getItem(prefix+city)||'null');if(row)cache.set(city,row);}catch{}}return row&&Date.now()-row.savedAt<TTL&&valid(row.data)?row:null;}

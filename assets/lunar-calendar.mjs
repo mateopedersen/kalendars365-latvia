@@ -15,7 +15,7 @@ if (root) {
   const monthNames = ['janvaris','februaris','marts','aprilis','maijs','junijs','julijs','augusts','septembris','oktobris','novembris','decembris'];
   const monthNumber = String(month).padStart(2, '0');
   const dateLabel = new Intl.DateTimeFormat('lv-LV', { timeZone: 'Europe/Riga', day: 'numeric', month: 'long', year: 'numeric' });
-  const number = new Intl.NumberFormat('lv-LV', { maximumFractionDigits: 1 });
+  const number = new Intl.NumberFormat('lv-LV', {useGrouping:false, maximumFractionDigits: 1 });
   const phaseCache = new Map();
   const query = new URLSearchParams(location.search);
   const queryDate = query.get('date');

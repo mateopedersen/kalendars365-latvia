@@ -4,7 +4,7 @@
   if(!root||!W||!C)return;
   const $=selector=>root.querySelector(selector),$$=selector=>[...root.querySelectorAll(selector)];
   const esc=value=>String(value??'').replace(/[&<>"']/g,char=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[char]));
-  const number=value=>new Intl.NumberFormat('lv-LV',{maximumFractionDigits:1}).format(value);
+  const number=value=>new Intl.NumberFormat('lv-LV',{useGrouping:false,maximumFractionDigits:1}).format(value);
   const capitalize=value=>value.charAt(0).toLocaleUpperCase('lv-LV')+value.slice(1);
   const one=value=>value%10===1&&value%100!==11;
   const slugs=['janvaris','februaris','marts','aprilis','maijs','junijs','julijs','augusts','septembris','oktobris','novembris','decembris'];
