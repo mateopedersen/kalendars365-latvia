@@ -11,6 +11,20 @@ const coverCatalog=JSON.parse(read('_data/social-images.json')).pages;
 const expectedPhotoPages=Object.values(coverCatalog).filter(row=>row.sources?.length).length;
 const expectedPhotoSources=Object.values(coverCatalog).reduce((count,row)=>count+(row.sources?.length||0),0);
 const reviewedCreators=new Map([
+ ['AleWi',{'@type':'Person',name:'AleWi'}],
+ ['Avi1111 dr. avishai teicher',{'@type':'Person',name:'Avi1111 dr. avishai teicher'}],
+ ['Ieva Ābele / Saeima',{'@type':'Person',name:'Ieva Ābele'}],
+ ['Jonas Rogowski',{'@type':'Person',name:'Jonas Rogowski'}],
+ ['Juris Vīgulis / Saeimas Kanceleja (Saeima)',{'@type':'Person',name:'Juris Vīgulis'}],
+ ['K.Kevrelis 2013.',{'@type':'Person',name:'K. Kevrelis'}],
+ ['Kritzolina',{'@type':'Person',name:'Kritzolina'}],
+ ['L.C. Nøttaasen',{'@type':'Person',name:'L.C. Nøttaasen'}],
+ ['Raul Cortez999',{'@type':'Person',name:'Raul Cortez999'}],
+ ['Spekozols',{'@type':'Person',name:'Spekozols'}],
+ ['Susan Slater',{'@type':'Person',name:'Susan Slater'}],
+ ['Treisijs',{'@type':'Person',name:'Treisijs'}],
+ ['Uldis Osis',{'@type':'Person',name:'Uldis Osis'}],
+ ['Ymblanter',{'@type':'Person',name:'Ymblanter'}],
  ['Igors Jefimovs',{'@type':'Person',name:'Igors Jefimovs'}],
  ['Riga Marathon',{'@type':'Organization',name:'Riga Marathon'}],
  ['Diego Delso',{'@type':'Person',name:'Diego Delso'}],
