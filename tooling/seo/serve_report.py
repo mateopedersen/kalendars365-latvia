@@ -1,28 +1,35 @@
 """Read-only loopback presentation of the private report; no archives or source dumps."""
 from http.server import SimpleHTTPRequestHandler,ThreadingHTTPServer
 from os import fstat
-from pathlib import Path
+from pathlib import Path, PurePosixPath
 from shutil import copyfileobj
 from urllib.parse import unquote,urlsplit
 import argparse
 p=argparse.ArgumentParser();p.add_argument('--root',required=True);p.add_argument('--port',type=int,default=4015);a=p.parse_args();root=Path(a.root).resolve()
+def report_file(url):
+ parts = PurePosixPath(unquote(urlsplit(url).path).lstrip('/') or 'index.html').parts
+ if not parts or (len(parts) > 1 and parts[0] not in {'images', 'evidence'}):
+  return None
+ target = root
+ for name in parts:
+  if not target.is_dir():
+   return None
+  target = next((entry for entry in target.iterdir() if entry.name == name), None)
+  if target is None or target.is_symlink():
+   return None
+ if not target.is_file() or target.suffix not in {'.html', '.md', '.csv', '.json', '.png', '.jpg', '.jpeg'}:
+  return None
+ return target
+
 class Report(SimpleHTTPRequestHandler):
  def do_GET(self):
   try:
-   relative = Path(unquote(urlsplit(self.path).path).lstrip('/') or 'index.html')
-   target = (root / relative).resolve(strict=True)
-   report_path = target.relative_to(root)
-  except (OSError, ValueError, RuntimeError):
-   self.send_error(404)
-   return
-  if (not target.is_file()
-      or target.suffix not in {'.html', '.md', '.csv', '.json', '.png', '.jpg', '.jpeg'}
-      or (len(report_path.parts) != 1 and report_path.parts[0] not in {'images', 'evidence'})):
-   self.send_error(404)
-   return
-  try:
+   target = report_file(self.path)
+   if target is None:
+    self.send_error(404)
+    return
    body = target.open('rb')
-  except OSError:
+  except (OSError, ValueError):
    self.send_error(404)
    return
   with body:
