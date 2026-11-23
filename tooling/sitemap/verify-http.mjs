@@ -3,12 +3,12 @@ import fs from 'node:fs';
 import path from 'node:path';
 import {spawn} from 'node:child_process';
 import {fileURLToPath} from 'node:url';
+import {decodeMarkup as decode} from '../seo/decode-markup.mjs';
 
 const root=fileURLToPath(new URL('../../',import.meta.url));
 const output=process.argv[2];
 const sitemap=fs.readFileSync(path.join(root,'_site/sitemap.xml'),'utf8');
 const images=fs.readFileSync(path.join(root,'_site/image-sitemap.xml'),'utf8');
-const decode=s=>s.replaceAll('&amp;','&').replaceAll('&quot;','"').replaceAll('&#39;',"'").replaceAll('&lt;','<').replaceAll('&gt;','>');
 const pages=[...sitemap.matchAll(/<loc>([^<]+)<\/loc>/g)].map(m=>({url:decode(m[1]),kind:'page'}));
 const uniqueImages=[...new Set([...images.matchAll(/<image:loc>([^<]+)<\/image:loc>/g)].map(m=>decode(m[1])))].map(url=>({url,kind:'image'}));
 const child=spawn(process.execPath,[path.join(root,'tooling/seo/serve.mjs'),'--root='+path.join(root,'_site'),'--port=0','--mode=production-simulation'],{cwd:root,stdio:['ignore','pipe','pipe']});

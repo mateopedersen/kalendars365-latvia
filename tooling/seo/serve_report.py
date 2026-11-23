@@ -1,16 +1,36 @@
 """Read-only loopback presentation of the private report; no archives or source dumps."""
 from http.server import SimpleHTTPRequestHandler,ThreadingHTTPServer
+from os import fstat
 from pathlib import Path
+from shutil import copyfileobj
 from urllib.parse import unquote,urlsplit
 import argparse
 p=argparse.ArgumentParser();p.add_argument('--root',required=True);p.add_argument('--port',type=int,default=4015);a=p.parse_args();root=Path(a.root).resolve()
 class Report(SimpleHTTPRequestHandler):
- def __init__(self,*args,**kwargs):super().__init__(*args,directory=str(root),**kwargs)
  def do_GET(self):
-  path=unquote(urlsplit(self.path).path);rel=path.lstrip('/') or 'index.html';target=(root/rel).resolve()
-  valid=target.is_relative_to(root) and target.is_file() and target.suffix in ['.html','.md','.csv','.json','.png','.jpg','.jpeg'] and (len(Path(rel).parts)==1 or Path(rel).parts[0] in ['images','evidence'])
-  if not valid:self.send_error(404);return
-  super().do_GET()
+  try:
+   relative = Path(unquote(urlsplit(self.path).path).lstrip('/') or 'index.html')
+   target = (root / relative).resolve(strict=True)
+   report_path = target.relative_to(root)
+  except (OSError, ValueError, RuntimeError):
+   self.send_error(404)
+   return
+  if (not target.is_file()
+      or target.suffix not in {'.html', '.md', '.csv', '.json', '.png', '.jpg', '.jpeg'}
+      or (len(report_path.parts) != 1 and report_path.parts[0] not in {'images', 'evidence'})):
+   self.send_error(404)
+   return
+  try:
+   body = target.open('rb')
+  except OSError:
+   self.send_error(404)
+   return
+  with body:
+   self.send_response(200)
+   self.send_header('Content-Type', self.guess_type(str(target)))
+   self.send_header('Content-Length', str(fstat(body.fileno()).st_size))
+   self.end_headers()
+   copyfileobj(body, self.wfile)
  def do_HEAD(self):
   self.send_response(405);self.end_headers()
  def end_headers(self):

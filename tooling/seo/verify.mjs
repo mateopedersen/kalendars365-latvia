@@ -3,9 +3,9 @@ import path from 'node:path';
 import crypto from 'node:crypto';
 import {fileURLToPath} from 'node:url';
 import {spawn,execFileSync} from 'node:child_process';
+import {decodeMarkup as decode} from './decode-markup.mjs';
 const root=fileURLToPath(new URL('../../',import.meta.url));
 const read=f=>fs.readFileSync(path.join(root,f),'utf8'),json=f=>JSON.parse(read(f));
-const decode=s=>String(s||'').replaceAll('&amp;','&').replaceAll('&quot;','"').replaceAll('&#39;',"'").replaceAll('&lt;','<').replaceAll('&gt;','>');
 const physical=u=>'_site'+u+(u.endsWith('/')?'index.html':'');
 const meta=(s,key)=>decode(s.match(new RegExp('<meta (?:name|property)="'+key+'" content="([^\"]*)"'))?.[1]);
 export function verifyMetadata(){

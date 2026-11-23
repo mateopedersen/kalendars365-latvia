@@ -13,8 +13,8 @@ export function measureResponsive() {
   const selector=el=>{
     const parts=[];
     for(let p=el;p&&p!==document.body&&parts.length<4;p=p.parentElement){
-      const id=p.getAttribute('id');if(id){parts.unshift('[id="'+id.replace(/"/g,'\\"')+'"]');break;}
-      const names=[...p.classList].slice(0,2);let part=p.tagName.toLowerCase()+names.map(s=>'.'+s).join('');
+      const id=p.getAttribute('id');if(id){parts.unshift('#'+CSS.escape(id));break;}
+      const names=[...p.classList].slice(0,2);let part=p.tagName.toLowerCase()+names.map(s=>'.'+CSS.escape(s)).join('');
       const siblings=[...p.parentElement.children].filter(n=>n.tagName===p.tagName);
       if(siblings.length>1)part+=':nth-of-type('+(siblings.indexOf(p)+1)+')';parts.unshift(part);
     }return parts.join(' > ');
