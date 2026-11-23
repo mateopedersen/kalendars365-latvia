@@ -1,6 +1,6 @@
 {
-  "asset_version": "07cce1ef2ab56652",
-  "sha256": "07cce1ef2ab566522935f18cbbbbbafdaf8cd8d0b9f7d1a3ecacaa78ee8feade",
+  "asset_version": "802a5fb75751bb5a",
+  "sha256": "802a5fb75751bb5a823be2ffc005488aba6a96c39caa18ea1f85688365e823a7",
   "files": {
     "assets/a3-gallery.css": "1889edd3db55a0a1473cc6711268699d2b19129115f3ab0f59d11f1aa9374c37",
     "assets/action-icons.js": "4527242b10cdfe3992943ef06d2d62288024237a3c29c0221f00f8277f11ad97",
@@ -2914,7 +2914,7 @@
     "assets/home-year-overview.svg": "6fe53434ff9a84233b388ac74a03c7d650cb12098642dfa13e0590d620f66ef1",
     "assets/horoscope-data.mjs": "e40fdb7de237472ca4e7c6a6a50dbfd78461b183bd634fa3d43df5fde3a238b4",
     "assets/horoscope.css": "53b221f449c248a6955de604c67c8b0f26ef2653b8913d1910c7a3e8effb6cfd",
-    "assets/horoscopes.json": "3af0859e8dc5b008115c67f1dac4f01ca320e3787c8f97ee5acf497a33d4ceda",
+    "assets/horoscopes.json": "289f729ec9f8641efc4fe82e5bd9c3a59ab8eb6e23cd86f42b0574868fccbce2",
     "assets/hub-pages.css": "7b1925e22b5b80265caa6c3c2d6019cdd36c059119d6fc63d0a0eed9b97746e9",
     "assets/hub-pages.js": "46f29e7ef2a5cad339dee2f2be3fa2834a640917b90d3da6ac5cd3379200f9ea",
     "assets/internal-navigation.css": "a0f9e2f1790357dab5e5b18e652d5e55c120c0a2b18d868c2c4f39a2510ee698",
@@ -6076,7 +6076,7 @@
     "assets/school-planner.mjs": "330b1fb5b36dce44b5dcf74f5c78a3e2358fb1d1c387ad44bc259e0468a69b38",
     "assets/school.css": "23f2a9937a99a4f704f591c96ff59f96a75b1dab4b68f489586fa89bc972b070",
     "assets/search-core.js": "57f6430d0173f67560e2c3099fcbee020f8541b735539babdeec03b0307e8e91",
-    "assets/search-index.json": "d13abfa670dd28d75979301b812b338eccef4f5a684b5055ae0ca84102ffa566",
+    "assets/search-index.json": "58be63ecd858ea65f2bb6a74707f1a5b1f41fac446a9222a829155f7fe09f499",
     "assets/search-worker.js": "abdefc855b0900760b8d878b3b06028f59aa55808430825fc2f188200d91294a",
     "assets/search.css": "c4dd1c8a5728b47bf4d609a01ea34c42f7c5aaa203b2cd4251713134d8b31749",
     "assets/season-cards.mjs": "a5daf693a9d9aa17068c2540f6c3b14da5e922d9c919fced48fc0ced0e98dd6a",
