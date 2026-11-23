@@ -2,6 +2,8 @@ import fs from 'node:fs';
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import productionAdPaths from '../functions/advertising-routes.js';
+import {onRequest} from '../functions/_middleware.js';
+import pdfCanonicalPaths from '../lib/pdf-canonical-paths.json' with { type: 'json' };
 import {advertisingCandidate,advertisingCsp,advertisingResponse} from '../lib/advertising-csp.mjs';
 const original="default-src 'self'; script-src 'self' 'sha256-abc' 'nonce-xyz'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; frame-src https://docs.google.com; object-src 'none'; form-action 'self'; frame-ancestors 'none'";
 const host='kalendars365.lv',hosts=[host],paths=new Set(['/']);
@@ -29,12 +31,29 @@ test('published HTML contains no Adsterra placement or configuration',()=>{
 });
 
 
-test('generated Functions routing preserves existing API and horoscope handlers without routing assets',()=>{
+test('generated Functions routing preserves APIs, horoscope handlers and exact PDF routes',()=>{
  const routing=JSON.parse(fs.readFileSync(new URL('../_site/_routes.json',import.meta.url),'utf8'));
  assert.equal(routing.version,1);assert(routing.include.includes('/api/*'));assert(routing.include.includes('/horoskops/*'));
  assert(!routing.include.includes('/*'));assert(routing.include.length<=100);
- assert(!routing.include.some(path=>path.startsWith('/assets')));assert(!routing.include.some(path=>path.startsWith('/downloads')));
+ assert(!routing.include.some(path=>path.startsWith('/assets')));
+ assert.deepEqual(routing.include.filter(path=>path.startsWith('/downloads')).sort(), [...pdfCanonicalPaths].sort());
  const exact=new Set(productionAdPaths);
  const pages=fs.readdirSync(new URL('../_site/',import.meta.url),{recursive:true}).filter(file=>file.endsWith('/index.html')||file==='index.html');
  for(const file of pages){const html=fs.readFileSync(new URL('../_site/'+file,import.meta.url),'utf8');const path='/'+file.replace(/index\.html$/,'');assert.equal(exact.has(encodeURI(path)),html.includes('data-advertising-slot'),path);}
+});
+
+test('selected lunar PDFs retain their bytes and get canonical metadata after cache lookup', async () => {
+ for (const path of pdfCanonicalPaths) {
+  const canonical = `https://${host}${path}`;
+  for (const [method, status, body] of [['GET', 200, '%PDF-sample'], ['HEAD', 200, null], ['GET', 206, '%PDF'], ['GET', 304, null]]) {
+   const original = new Response(body, {status, headers: {'Content-Type': 'application/pdf', 'ETag': '"original"'}});
+   const result = await onRequest({request: new Request(`${canonical}?v=0`, {method}), next: async () => original});
+   assert.equal(result.status, status);
+   assert.equal(result.headers.get('Link'), `<${canonical}>; rel="canonical"`);
+   assert.equal(result.headers.get('ETag'), '"original"');
+   assert.equal(await result.text(), body ?? '');
+  }
+  const missing = new Response('missing', {status: 404});
+  assert.equal(await onRequest({request: new Request(canonical), next: async () => missing}), missing);
+ }
 });
