@@ -28,6 +28,7 @@ module CalendarSeoContract
     'K.Kevrelis 2013.'=>['Person', 'K. Kevrelis'],
     'Kritzolina'=>['Person', 'Kritzolina'],
     'L.C. Nøttaasen'=>['Person', 'L.C. Nøttaasen'],
+    'Nicolas G. Mertens'=>['Person', 'Nicolas G. Mertens'],
     'Raul Cortez999'=>['Person', 'Raul Cortez999'],
     'Spekozols'=>['Person', 'Spekozols'],
     'Susan Slater'=>['Person', 'Susan Slater'],

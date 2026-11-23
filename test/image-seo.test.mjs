@@ -19,6 +19,7 @@ const reviewedCreators=new Map([
  ['K.Kevrelis 2013.',{'@type':'Person',name:'K. Kevrelis'}],
  ['Kritzolina',{'@type':'Person',name:'Kritzolina'}],
  ['L.C. Nøttaasen',{'@type':'Person',name:'L.C. Nøttaasen'}],
+ ['Nicolas G. Mertens',{'@type':'Person',name:'Nicolas G. Mertens'}],
  ['Raul Cortez999',{'@type':'Person',name:'Raul Cortez999'}],
  ['Spekozols',{'@type':'Person',name:'Spekozols'}],
  ['Susan Slater',{'@type':'Person',name:'Susan Slater'}],
@@ -87,6 +88,7 @@ test('image metadata resolver distinguishes original compositions, known creator
   ['/assets/tradition-covers/police-ac9de63c462a-960.webp','Reinis Inkēns'],
   ['/assets/tradition-covers/november21-39fca328832d-960.webp','Olgerts V'],
   ['/assets/blog/flag-780.webp','Xil'],
+  ['/assets/blog/easter-960.webp','Nicolas G. Mertens'],
   ['/assets/tradition-covers/november18-cb7a425db689-960.webp','Ernests Dinka']
  ]);
  for(const [src,name] of reportedSources){
