@@ -1,19 +1,25 @@
 'use strict';
 const fs=require('node:fs'),crypto=require('node:crypto'),C=require('../assets/calendar-core.js');
 const rows=JSON.parse(fs.readFileSync('_data/routes.json','utf8'));
-const {holidayTitleMarkup,publicEventsForDate,publicEventMarkup}=require('../assets/app.js'),calendarData=JSON.parse(fs.readFileSync('assets/calendar-summary.json','utf8')),holidayTopics=calendarData.holidayTopics;
+const {holidayTitleMarkup,publicHolidaysForDate,publicEventsForDate,publicEventMarkup}=require('../assets/app.js'),calendarData=JSON.parse(fs.readFileSync('assets/calendar-summary.json','utf8')),holidayTopics=calendarData.holidayTopics;
 const slugs=['janvaris','februaris','marts','aprilis','maijs','junijs','julijs','augusts','septembris','oktobris','novembris','decembris'];
 const short=['P.','O.','T.','C.','Pk.','S.','Sv.'],months=C.months.map(v=>v[0].toLocaleUpperCase('lv-LV')+v.slice(1));
 const esc=v=>String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const today=C.todayRiga(),cache=new Map(),iso=d=>C.dateISO(d),plus=(d,n)=>C.addDays(d,n);
-const events=d=>{const y=Number(d.slice(0,4));if(!cache.has(y))cache.set(y,C.holidays(y));return [...cache.get(y).filter(e=>e.date===d),...publicEventsForDate(calendarData.publicEvents,d)];};
+function yearHolidays(date){
+ const year=Number(date.slice(0,4));
+ if(!cache.has(year))cache.set(year,C.holidays(year));
+ return cache.get(year);
+}
+const monthEvents=date=>publicHolidaysForDate(yearHolidays(date),date);
+const events=date=>[...yearHolidays(date).filter(e=>e.date===date),...publicEventsForDate(calendarData.publicEvents,date)];
 const label=d=>new Intl.DateTimeFormat('lv-LV',{timeZone:'UTC',weekday:'long',year:'numeric',month:'long',day:'numeric'}).format(C.parseISO(d));
 function dayEvents(day){return events(day).map(e=>e.publicEvent?publicEventMarkup(e):`<div class="plan-event"><time>Visu dienu</time><i class="dot" style="background:#981c39"></i><div><strong>${holidayTitleMarkup(e,holidayTopics)}</strong><small>${e.dayOff?'Svētku diena':'Atceres vai atzīmējamā diena'}</small></div></div>`).join('');}
 function monthMarkup(y,m,selected){
  const first=C.parseISO(`${y}-${String(m).padStart(2,'0')}-01`),start=plus(first,1-C.weekday(first));
  const weeks=Array.from({length:6},(_,n)=>Array.from({length:7},(_,i)=>iso(plus(start,n*7+i))));
  const head=`<thead><tr><th scope="col">Ned.</th>${short.map((s,i)=>`<th scope="col" class="${i>4?'weekend':''}"><abbr title="${esc(C.weekdays[i])}">${s}</abbr></th>`).join('')}</tr></thead>`;
- return `<table class="calendar-table" aria-label="${months[m-1]} ${y}">${head}<tbody>${weeks.map(days=>{const w=C.isoWeek(days[0]),href=w.year>=2027&&w.year<=2030?`/nedelas-kalendars/${w.year}/${String(w.week).padStart(2,'0')}/`:`/?date=${days[0]}&amp;view=week`;return `<tr><td class="week-number"><a href="${href}" data-week-link="${w.year}-${w.week}" aria-label="${w.year}. gada ${w.week}. nedēļa">${w.week}</a></td>${days.map((d,i)=>{const e=events(d),same=Number(d.slice(5,7))===m;return `<td class="${same?'':'other-month'} ${i>4?'weekend':''} ${d===today?'is-today':''} ${d===selected?'selected-day':''} ${e.some(x=>x.dayOff)?'holiday':''}"><button class="day-button" data-date="${d}" aria-label="${esc([Number(d.slice(8)),...e.slice(0,2).map(x=>x.title),...(e.length>2?['+'+(e.length-2)]:[])].join(' ')+'. '+label(d))}"${d===today?' aria-current="date"':''}><span class="date-number">${Number(d.slice(8))}</span> ${e.slice(0,2).map(x=>`<span class="day-event"><i class="dot" style="background:#981c39"></i><span class="event-label">${esc(x.title)}</span></span>`).join(' ')}${e.length>2?`<span class="more-events">+${e.length-2}</span>`:''}</button></td>`;}).join('')}</tr>`;}).join('')}</tbody></table>`;
+ return `<table class="calendar-table" aria-label="${months[m-1]} ${y}">${head}<tbody>${weeks.map(days=>{const w=C.isoWeek(days[0]),href=w.year>=2027&&w.year<=2030?`/nedelas-kalendars/${w.year}/${String(w.week).padStart(2,'0')}/`:`/?date=${days[0]}&amp;view=week`;return `<tr><td class="week-number"><a href="${href}" data-week-link="${w.year}-${w.week}" aria-label="${w.year}. gada ${w.week}. nedēļa">${w.week}</a></td>${days.map((d,i)=>{const e=monthEvents(d),same=Number(d.slice(5,7))===m;return `<td class="${same?'':'other-month'} ${i>4?'weekend':''} ${d===today?'is-today':''} ${d===selected?'selected-day':''} ${e.length?'holiday':''}"><button class="day-button" data-date="${d}" aria-label="${esc([Number(d.slice(8)),...e.slice(0,2).map(x=>x.title),...(e.length>2?['+'+(e.length-2)]:[])].join(' ')+'. '+label(d))}"${d===today?' aria-current="date"':''}><span class="date-number">${Number(d.slice(8))}</span> ${e.slice(0,2).map(x=>`<span class="day-event"><i class="dot" style="background:#981c39"></i><span class="event-label">${esc(x.title)}</span></span>`).join(' ')}${e.length>2?`<span class="more-events">+${e.length-2}</span>`:''}</button></td>`;}).join('')}</tr>`;}).join('')}</tbody></table>`;
 }
 function weekMarkup(selected){const start=plus(selected,1-C.weekday(selected));return `<div class="week-view">${C.weekdays.map((name,i)=>{const d=iso(plus(start,i));return `<section class="week-day ${d===today?'is-today':''}"><button data-date="${d}"><span>${name[0].toLocaleUpperCase('lv-LV')+name.slice(1)}</span><strong>${Number(d.slice(8))}</strong></button><div>${dayEvents(d)||'<p class="empty-state">Brīva diena plāniem</p>'}<button class="text-button" data-add-date="${d}">＋ Notikums</button></div></section>`;}).join('')}</div>`;}
 const pages={};
@@ -36,7 +42,7 @@ for(const r of [...rows,{'URL path':'/nedelas-kalendars/2031/01/','Page family':
  if(view==='day')markup=`<div class="day-timeline">${dayEvents(selected)}<p class="empty-state">Izvēlētā diena: ${esc(label(selected))}. Personīgos notikumus pievieno interaktīvajā skatā.</p></div>`;
  const monthCount=new Date(Date.UTC(sy,sm,0)).getUTCDate();
  const canonicalDays=Array.from({length:view==='week'?7:monthCount},(_,i)=>iso(plus(view==='week'?selected:`${sy}-${String(sm).padStart(2,'0')}-01`,i)));
- const contentFingerprint=crypto.createHash('sha256').update(JSON.stringify({view,days:canonicalDays.map(d=>({date:d,iso:C.isoWeek(d),holidays:events(d)}))})).digest('hex');
+ const contentFingerprint=crypto.createHash('sha256').update(JSON.stringify({view,days:canonicalDays.map(d=>({date:d,iso:C.isoWeek(d),holidays:view==='month'?monthEvents(d):events(d)}))})).digest('hex');
  pages[url]={view,selected,title,markup,week:week.week,day:C.diffDays(`${sy}-01-01`,selected)+1,monthDays:monthCount,dayLabel:label(selected),dayMarkup:dayEvents(selected)||'<p class="empty-state">Šī diena vēl ir brīva. Pievieno notikumu un atvēli laiku svarīgākajam.</p>',monthOptions:months.map((s,i)=>`<option value="${i+1}"${i===sm-1?' selected':''}>${s}</option>`).join(''),yearOptions:[...new Set([2026,2027,2028,2029,2030,sy])].sort().map(v=>`<option value="${v}"${v===sy?' selected':''}>${v}</option>`).join(''),contentFingerprint};
 }
 const K=require('../assets/category-core.js'),nameRecords=JSON.parse(fs.readFileSync('_data/name-days-current.json','utf8')).records;

@@ -1,14 +1,19 @@
 #calendar-print-sheet{display:none}
 #calendar-view [data-note-day] { cursor: pointer; }
+#calendar-view .calendar-table .day-button:focus-visible { outline-offset: -3px; }
 @media (hover: hover) {
   #calendar-view [data-note-day]:hover { outline: 1px solid #b27e8d; outline-offset: -1px; }
 }
 .calendar-day-note {
   display: block;
-  padding: .15rem .2rem;
+  align-self: stretch;
+  min-inline-size: 0;
+  max-inline-size: 100%;
+  padding: .15rem .28rem;
   border-inline-start: 2px solid #a44763;
   color: #6e2036;
   font-size: .75rem;
+  text-align: start;
   white-space: pre-wrap;
   overflow-wrap: anywhere;
 }
@@ -140,44 +145,48 @@
   color: var(--note-accent);
 }
 #calendar-note-form .calendar-note-font {
-  position: relative;
-  display: block;
-  flex: 1 1 8.1rem;
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr) auto;
+  align-items: center;
+  gap: .45rem;
+  flex: 1 1 9rem;
   min-width: 0;
   margin: 0;
-  padding: 0;
+  padding: 0 .65rem;
   border: 1px solid var(--note-line);
   border-radius: .44rem;
   background: #fff;
 }
-#calendar-note-form .calendar-note-font > .calendar-note-glyph,
-#calendar-note-form .calendar-note-font::after {
-  position: absolute;
-  top: 50%;
-  pointer-events: none;
+#calendar-note-form .calendar-note-font:focus-within {
+  outline: 2px solid var(--note-accent);
+  outline-offset: 2px;
 }
 #calendar-note-form .calendar-note-font > .calendar-note-glyph {
-  inset-inline-start: .7rem;
-  transform: translateY(-50%);
+  color: #526169;
+  pointer-events: none;
 }
 #calendar-note-form .calendar-note-font::after {
-  inset-inline-end: .65rem;
-  width: .36rem;
-  height: .36rem;
-  border-right: 1.5px solid var(--note-accent);
-  border-bottom: 1.5px solid var(--note-accent);
-  transform: translateY(-.15rem) rotate(45deg);
+  width: .4rem;
+  height: .4rem;
+  margin-block-start: -.2rem;
+  border-inline-end: 1.5px solid var(--note-accent);
+  border-block-end: 1.5px solid var(--note-accent);
+  transform: rotate(45deg);
   content: "";
+  pointer-events: none;
 }
-.calendar-note-form .calendar-note-tools .calendar-note-font select {
+#calendar-note-form .calendar-note-font select {
   display: block;
   width: 100%;
   min-width: 0;
-  min-height: 34px;
-  padding-inline: 2.25rem 1.35rem;
+  min-height: 38px;
+  padding: 0;
   border: 0;
+  outline: none;
+  box-shadow: none;
   background: transparent;
   appearance: none;
+  font-size: .84rem;
   text-overflow: ellipsis;
 }
 .calendar-note-glyph { font: 700 1rem/1 system-ui, sans-serif; }
@@ -271,7 +280,7 @@
   .calendar-note-form .calendar-note-tools :is(button,summary), .calendar-note-form .calendar-note-actions button { min-height: 44px; }
   .calendar-note-form .calendar-note-tools > :is(button,details) summary,
   .calendar-note-form .calendar-note-tools > button { min-width: 39px; }
-  .calendar-note-form .calendar-note-tools .calendar-note-font select { min-height: 42px; font-size: .78rem; }
+  #calendar-note-form .calendar-note-font select { min-height: 42px; }
   .calendar-note-menu-name { display: none; }
   .calendar-note-form .calendar-note-categories button { min-height: 37px; }
 }

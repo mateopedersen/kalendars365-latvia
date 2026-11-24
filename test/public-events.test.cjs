@@ -21,6 +21,17 @@ test('published runtime and server rendering use the same confirmed event collec
  assert(snapshots['/kalendars/2027/janvaris/'].dayMarkup.includes('/pasakumi/ziemassvetku-tirdzins-riga/'));
 });
 
+test('month grids show official holidays while the day plan keeps public events',()=>{
+ const snapshots=JSON.parse(fs.readFileSync('_data/calendar-ssr.json')).pages;
+ const january=snapshots['/kalendars/2027/janvaris/'];
+ const november=snapshots['/kalendars/2027/novembris/'];
+ assert.match(january.markup,/Jaungada diena/);
+ assert.doesNotMatch(january.markup,/Ziemassvētku tirdziņš/);
+ assert.match(january.dayMarkup,/Ziemassvētku tirdziņš/);
+ assert.match(november.markup,/Latvijas Republikas Proklamēšanas diena/);
+ assert.doesNotMatch(november.markup,/Lāčplēša diena|Robežsargu diena/);
+});
+
 test('homepage selects ongoing events first and advances automatically using Riga dates',()=>{
  const {selectUpcoming,rigaParts}=require('../assets/upcoming-events.js');
  const events=[{id:'past',start:'2026-11-11',end:'2026-11-11'},{id:'staro',start:'2026-11-15',end:'2026-11-18',endTime:'23:00'},{id:'xmas',start:'2026-11-27',end:'2027-01-03'},{id:'black',start:'2026-11-27',end:'2026-11-27'},{id:'cyber',start:'2026-11-30',end:'2026-11-30'}];
