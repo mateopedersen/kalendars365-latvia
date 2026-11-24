@@ -1,6 +1,6 @@
 import paths from './advertising-routes.js';
 import { advertisingResponse } from '../lib/advertising-csp.mjs';
-import pdfCanonicalPaths from '../lib/pdf-canonical-paths.json' with { type: 'json' };
+import pdfCanonicalPaths from '../lib/pdf-canonical-paths.mjs';
 
 const publicPaths = new Set(paths);
 const publicHosts = ['kalendars365.lv', 'www.kalendars365.lv'];
