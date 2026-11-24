@@ -239,7 +239,7 @@ function noteIndicator(){return `<span class="day-note-indicator" aria-hidden="t
 const noteTools=globalThis.CalendarDateNoteTools;
 function calendarNoteMarkup(date) {
  const text=store.notes[date]||'';
- return `<span class="calendar-day-note" data-calendar-day-note="${date}" ${noteTools.attributes(date)} ${text.trim()?'':'hidden'}>${esc(text)}</span>`;
+ return `<span class="calendar-day-note" data-calendar-day-note="${date}" ${noteTools.attributes(date)} ${noteTools.hasContent(date,text)?'':'hidden'}>${esc(text)}</span>`;
 }
 function calendarNoteTrigger(date) {
  return `data-calendar-note-edit="${date}" aria-haspopup="dialog"`;
@@ -247,22 +247,20 @@ function calendarNoteTrigger(date) {
 function paintCalendarNote(date) {
  const text=store.notes[date]||'';
  for(const note of $$('[data-calendar-day-note="'+date+'"]')){
-  note.hidden=!text.trim();
+  note.hidden=!noteTools.hasContent(date,text);
   note.textContent=text;
   noteTools.apply(note,noteTools.read(date));
  }
 }
 function calendarNoteDialog(date) {
- dialog('Dienas piezīme',`<form id="calendar-note-form"><p>${esc(fmtDate(date,true))}</p><label for="calendar-note-text">Piezīme</label><textarea id="calendar-note-text" name="note" rows="4" maxlength="20000" autofocus>${esc(store.notes[date]||'')}</textarea><div data-note-related></div><button type="button" data-note-day-plan>Atvērt dienas plānu</button><div class="actions"><button type="button" data-action="close-dialog">Atcelt</button><button type="submit" value="print">Saglabāt un drukāt</button><button class="primary" type="submit" value="save">Pievienot kalendāram</button></div></form>`);
+ dialog('Dienas piezīme',`<form id="calendar-note-form" class="calendar-note-form"><div class="calendar-note-meta"><p>${esc(fmtDate(date,true))}</p><button class="calendar-note-day-link" type="button" data-note-day-plan>Atvērt dienas plānu</button></div><div class="calendar-note-field"><label for="calendar-note-text">Piezīme</label><textarea id="calendar-note-text" name="note" rows="4" maxlength="20000" placeholder="Ko vēlies atzīmēt?" autofocus>${esc(store.notes[date]||'')}</textarea></div><div class="calendar-note-events" data-note-event-group hidden><p>Pievienot notikumu no kalendāra</p><div data-note-related></div></div><div class="calendar-note-actions"><button type="button" value="cancel" data-action="close-dialog">Atcelt</button><button type="submit" value="print">Saglabāt un drukāt</button><button type="submit" value="save">Saglabāt piezīmi</button></div></form>`);
  const form=$('#calendar-note-form');
  if(!form)return;
  const input=form.elements.note,related=$('[data-note-related]',form);
- const format=noteTools.toolbar(input,date,{
-  tools:'Piezīmes noformējums',font:'Fonts',fonts:['Parasts','Serifu','Vienplatuma'],
-  bold:'Treknraksts',underline:'Pasvītrot',important:'Svarīgi',emoji:'Emocijzīmes',
- });
+ const format=noteTools.toolbar(input,date);
  $('[data-note-day-plan]',form).onclick=()=>{closeDialog();selectDate(date)};
  const titles=new Set(eventsFor(date,true).map(item=>item.title));
+ $('[data-note-event-group]',form).hidden=!titles.size;
  for(const title of titles){
   const button=document.createElement('button');
   button.type='button';button.textContent=title;
@@ -295,7 +293,7 @@ store.consent=window.K365PrivacyChoice?.normalize(store.consent)||null;
 function persist(){try{localStorage.setItem(KEY,JSON.stringify(store));return true}catch(e){toast('Pārlūka krātuve nav pieejama vai ir pilna. Saglabā dublējumu.');return false}}
 function toast(msg){const el=$('#toast');if(!el)return;el.textContent=msg;el.hidden=false;clearTimeout(toastTimer);toastTimer=setTimeout(()=>el.hidden=true,5000)}
 function cleanupRetiredAppearance(){document.documentElement.removeAttribute('data-theme');const migration=retireAppearancePreference(store);if(migration.changed){store=migration.record;persist()}}
-function dialog(title,html){const d=$('#universal-dialog');if(!d)return;d.classList.remove('consent-dialog');$('#dialog-title').textContent=title;$('#dialog-content').innerHTML=html;if(!d.open)d.showModal();setTimeout(()=>{const f=$('input:not([type=hidden]),select,textarea,button', $('#dialog-content'));if(f)f.focus()},20)}
+function dialog(title,html){const d=$('#universal-dialog');if(!d)return;d.classList.remove('consent-dialog');$('#dialog-title').textContent=title;$('#dialog-content').innerHTML=html;if(!d.open)d.showModal();setTimeout(()=>{const content=$('#dialog-content'),f=$('[autofocus]',content)||$('input:not([type=hidden]),select,textarea,button',content);if(f)f.focus()},20)}
 function closeDialog(){$('#universal-dialog')?.close()}
 function download(content,filename,type){return globalThis.Calendar365Downloads.save(content,filename,type);}
 function holidayList(year){if(holidayCache.has(year))return holidayCache.get(year);const own=data.holidays.filter(h=>String(h.date).startsWith(year+'-'));let list=own;try{if(!list.length)list=window.CalendarCore?.holidays(year)||[]}catch(e){}holidayCache.set(year,list);return list}
@@ -308,15 +306,15 @@ function renderMonth(forPrint=false){const y=shown.getUTCFullYear(),m=shown.getU
 function eventRow(e){if(e.publicEvent)return publicEventMarkup(e);return `<div class="plan-event"><time>${esc(e.time||'Visu dienu')}</time><i class="dot" style="background:${CATS[e.category]?.color||CATS.personal.color}"></i>${e.readonly?`<div><strong>${holidayTitleMarkup(e,data.holidayTopics)}</strong><small>${e.dayOff===false?'Atceres vai atzīmējamā diena':'Svētku diena'}</small></div>`:`<button class="event-edit" data-edit-event="${esc(e.id)}"><strong>${esc(e.title)}</strong><small>${CATS[e.category]?.label||'Personīgais'}${e.repeat&&e.repeat!=='none'?' · atkārtojas':''}</small></button>`}</div>`}
 function renderWeek(){const start=plus(shown,-((shown.getUTCDay()+6)%7)),today=rigaNow();return `<div class="week-view">${Array.from({length:7},(_,i)=>{const d=plus(start,i),key=iso(d),events=eventsFor(key);return `<section class="week-day ${key===today?'is-today':''}" data-note-day="${key}"><button data-date="${key}" ${calendarNoteTrigger(key)}><span>${DAYS[i]}</span><strong>${d.getUTCDate()}</strong></button><div>${events.length?events.map(eventRow).join(''):'<p class="empty-state">Brīva diena plāniem</p>'}${calendarNoteMarkup(key)}<button class="text-button" data-add-date="${key}">Pievienot notikumu</button></div></section>`}).join('')}</div>`}
 function renderDay(){const key=iso(shown),events=eventsFor(key);return `<div class="day-timeline" data-note-day="${key}"><button class="text-button" ${calendarNoteTrigger(key)}>${esc(fmtDate(key,true))}</button>${calendarNoteMarkup(key)}${events.filter(e=>!e.time).map(eventRow).join('')}${Array.from({length:24},(_,i)=>{const hour=pad(i)+':00',items=events.filter(e=>!e.publicEvent&&e.time&&e.time.slice(0,2)===hour.slice(0,2));return `<div class="timeline-hour"><span>${hour}</span><div>${items.length?items.map(e=>`<button data-edit-event="${esc(e.id)}">${esc(e.time)} · ${esc(e.title)}</button>`).join(''):`<button class="text-button" data-add-date="${key}" data-time="${hour}" aria-label="Pievienot notikumu ${hour}">Jauns notikums</button>`}</div></div>`}).join('')}</div>`}
-function renderList(){const y=shown.getUTCFullYear(),m=shown.getUTCMonth(),last=new Date(Date.UTC(y,m+1,0)).getUTCDate();const rows=[];for(let day=1;day<=last;day++){const key=iso(new Date(Date.UTC(y,m,day))),ev=eventsFor(key);if(ev.length||store.notes[key]?.trim())rows.push(`<section data-note-day="${key}"><h3 class="list-date"><button ${calendarNoteTrigger(key)}>${esc(fmtDate(key,true))}</button></h3>${ev.map(eventRow).join('')}${calendarNoteMarkup(key)}</section>`)}return `<div class="list-view">${rows.length?rows.join(''):'<p class="empty-state">Šajā mēnesī nav notikumu, kas atbilst izvēlētajiem filtriem. Pievieno savu pirmo notikumu vai ieslēdz citas kategorijas.</p>'}</div>`}
-function renderYear(){const year=shown.getUTCFullYear(),today=rigaNow();return `<div class="year-grid">${MONTHS.map((name,mi)=>`<section class="mini-month"><button data-month="${mi+1}"><h3>${name}</h3></button><div class="mini-grid">${SHORT.map(d=>`<span class="mini-label">${d}</span>`).join('')}${monthGrid(year,mi+1).flatMap(w=>w.days).map(d=>`<button class="${d.inMonth?'':'other-month'} ${d.weekday>5?'weekend':''} ${d.date===today?'is-today':''}" data-date="${d.date}" ${d.inMonth?calendarNoteTrigger(d.date):''} aria-label="${esc(fmtDate(d.date))}">${d.day}</button>`).join('')}</div></section>`).join('')}</div>`}
+function renderList(){const y=shown.getUTCFullYear(),m=shown.getUTCMonth(),last=new Date(Date.UTC(y,m+1,0)).getUTCDate();const rows=[];for(let day=1;day<=last;day++){const key=iso(new Date(Date.UTC(y,m,day))),ev=eventsFor(key);if(ev.length||noteTools.hasContent(key,store.notes[key]))rows.push(`<section data-note-day="${key}"><h3 class="list-date"><button ${calendarNoteTrigger(key)}>${esc(fmtDate(key,true))}</button></h3>${ev.map(eventRow).join('')}${calendarNoteMarkup(key)}</section>`)}return `<div class="list-view">${rows.length?rows.join(''):'<p class="empty-state">Šajā mēnesī nav notikumu, kas atbilst izvēlētajiem filtriem. Pievieno savu pirmo notikumu vai ieslēdz citas kategorijas.</p>'}</div>`}
+function renderYear(){const year=shown.getUTCFullYear(),today=rigaNow();return `<div class="year-grid">${MONTHS.map((name,mi)=>`<section class="mini-month"><button data-month="${mi+1}"><h3>${name}</h3></button><div class="mini-grid">${SHORT.map(d=>`<span class="mini-label">${d}</span>`).join('')}${monthGrid(year,mi+1).flatMap(w=>w.days).map(d=>`<button class="${d.inMonth?'':'other-month'} ${d.weekday>5?'weekend':''} ${d.date===today?'is-today':''}" data-date="${d.date}" ${d.inMonth?calendarNoteTrigger(d.date):''} aria-label="${esc(fmtDate(d.date))}">${d.day}${d.inMonth?calendarNoteMarkup(d.date):''}</button>`).join('')}</div></section>`).join('')}</div>`}
 function prepareCalendarPrint(){
  if(!$('#calendar-app'))return;
  $('#calendar-print-sheet')?.remove();
  const sheet=document.createElement('section');sheet.id='calendar-print-sheet';sheet.dataset.view=view;
  const content=view==='month'?renderMonth(true):$('#calendar-view').innerHTML;
  const year=String(shown.getUTCFullYear());
- const notes=view==='year'?Object.keys(store.notes).filter(date=>date.startsWith(year)&&store.notes[date]?.trim()).sort():[];
+ const notes=view==='year'?[...new Set([...Object.keys(store.notes),...noteTools.markedDates()])].filter(date=>date.startsWith(year)&&noteTools.hasContent(date,store.notes[date])).sort():[];
  const yearNotes=notes.length?`<section class="calendar-year-notes"><h2>Gada piezīmes</h2><ul>${notes.map(date=>`<li><strong>${esc(fmtDate(date))}</strong>${calendarNoteMarkup(date)}</li>`).join('')}</ul></section>`:'';
  sheet.innerHTML='<h1>'+esc($('#calendar-title').textContent)+'</h1>'+content+yearNotes;
  document.body.append(sheet);document.body.classList.add('calendar-printing');
