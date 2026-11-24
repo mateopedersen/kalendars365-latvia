@@ -1,4 +1,35 @@
 #calendar-print-sheet{display:none}
+#calendar-view td:has(.calendar-note-add) { position: relative; }
+#calendar-view .calendar-note-add {
+  width: 24px;
+  min-height: 24px;
+  padding: 0;
+  border: 1px solid #b27e8d;
+  border-radius: .35rem;
+  background: #fff;
+  color: #861b3a;
+  line-height: 1;
+}
+#calendar-view td .calendar-note-add { position: absolute; top: .25rem; right: .25rem; }
+#calendar-view .calendar-note-add:hover,
+#calendar-view .calendar-note-add:focus-visible { color: #fff; background: #861b3a; }
+.calendar-day-note {
+  display: block;
+  padding: .15rem .2rem;
+  border-inline-start: 2px solid #a44763;
+  color: #6e2036;
+  font-size: .75rem;
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+}
+.calendar-day-note[hidden] { display: none !important; }
+#calendar-note-form { display: grid; gap: .7rem; }
+#calendar-note-form textarea { width: 100%; box-sizing: border-box; resize: vertical; }
+#calendar-note-form [data-note-related] { display: flex; flex-wrap: wrap; gap: .4rem; }
+@media (max-width: 650px) {
+  #calendar-view td .calendar-note-add { top: auto; bottom: .15rem; right: .15rem; width: 20px; min-height: 20px; }
+  #calendar-view td:has(.calendar-note-add) .day-button { padding-bottom: 1.4rem; }
+}
 @page calendar-sheet{size:A4 portrait;margin:0}
 @media print{
  body.calendar-printing{background:#fff!important;margin:0!important;padding:0!important;min-width:0!important}
@@ -18,6 +49,9 @@
  #calendar-print-sheet .other-month{opacity:1!important;color:#666!important}
  #calendar-print-sheet .selected-day,#calendar-print-sheet .is-today{outline:none!important;box-shadow:none!important}
  #calendar-print-sheet button{font-family:inherit}
+ #calendar-print-sheet .calendar-note-add{display:none!important}
+ #calendar-print-sheet .calendar-day-note{color:#111;font-size:7pt;line-height:1.2}
+ #calendar-print-sheet .calendar-year-notes li{break-inside:avoid;margin-block:2mm}
  #calendar-print-sheet .year-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:4mm}
  #calendar-print-sheet .mini-month{break-inside:avoid;padding:2mm;border:1px solid #ddd}
  #calendar-print-sheet .mini-month h3{font-size:11pt;margin:0 0 2mm}
