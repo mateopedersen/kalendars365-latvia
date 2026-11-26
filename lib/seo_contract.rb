@@ -20,8 +20,10 @@ module CalendarSeoContract
   # pages. A credit can contain an uploader, transfer history or an uncertain
   # photographer; do not turn arbitrary credit text into a Person.
   SOURCE_CREATORS = {
+    'Ainars Brūvelis'=>['Person', 'Ainars Brūvelis'],
     'AleWi'=>['Person', 'AleWi'],
     'Avi1111 dr. avishai teicher'=>['Person', 'Avi1111 dr. avishai teicher'],
+    'Guntars Mednis'=>['Person', 'Guntars Mednis'],
     'Ieva Ābele / Saeima'=>['Person', 'Ieva Ābele'],
     'Jonas Rogowski'=>['Person', 'Jonas Rogowski'],
     'Juris Vīgulis / Saeimas Kanceleja (Saeima)'=>['Person', 'Juris Vīgulis'],
@@ -30,6 +32,7 @@ module CalendarSeoContract
     'L.C. Nøttaasen'=>['Person', 'L.C. Nøttaasen'],
     'Nicolas G. Mertens'=>['Person', 'Nicolas G. Mertens'],
     'Raul Cortez999'=>['Person', 'Raul Cortez999'],
+    'Savannah Rivka'=>['Person', 'Savannah Rivka'],
     'Spekozols'=>['Person', 'Spekozols'],
     'Susan Slater'=>['Person', 'Susan Slater'],
     'Treisijs'=>['Person', 'Treisijs'],

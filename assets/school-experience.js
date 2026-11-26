@@ -1,7 +1,12 @@
 (()=>{'use strict';
 const D=window.CalendarCore,C=window.SchoolCalendarCore;if(!D||!C)return;
 const $=(root,selector)=>root.querySelector(selector),$$=(root,selector)=>[...root.querySelectorAll(selector)];
-const esc=value=>String(value??'').replace(/[&<>"']/g,char=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[char]));
+function element(tag,text,className){
+  const node=document.createElement(tag);
+  if(text!==undefined)node.textContent=text;
+  if(className)node.className=className;
+  return node;
+}
 function download(events,title,file){return globalThis.Calendar365Downloads.save(C.makeICS(events,title),file,'text/calendar;charset=utf-8');}
 
 const root=document.querySelector('[data-school-experience]');
@@ -28,18 +33,49 @@ if(root){
       csvStatus.textContent=`Sagatavoto brīvlaiku periodu skaits: ${periods.length}.`;
     }catch(error){csvStatus.textContent=error.message;}
   });
-  function calendarHTML(){
+  function calendarCells(){
     const [y,m]=month.value.split('-').map(Number),first=`${y}-${String(m).padStart(2,'0')}-01`,offset=D.weekday(first)-1,last=new Date(Date.UTC(y,m,0)).getUTCDate();
-    const cells=Array.from({length:offset},()=>'<span aria-hidden="true"></span>');
-    for(let day=1;day<=last;day++){
-      const date=`${month.value}-${String(day).padStart(2,'0')}`,item=C.classify(school,currentGrade(),date,data.holidays);
-      const classes=['school-day',`is-${item.kind}`,item.weekend?'is-weekend':'',item.holiday?'is-holiday':'',date===D.todayRiga()?'is-today':''].filter(Boolean).join(' ');
-      cells.push(`<button type="button" class="${classes}" data-school-day="${date}" aria-pressed="${date===selected}" aria-label="${esc(D.dateLabel(date)+' · '+item.label)}">${day}${item.holiday?'<span class="school-day-dot" aria-hidden="true"></span>':''}</button>`);
+    const cells=document.createDocumentFragment();
+    for(let i=0;i<offset;i++){
+      const spacer=element('span');
+      spacer.setAttribute('aria-hidden','true');
+      cells.append(spacer);
     }
-    return cells.join('');
+    for(let day=1;day<=last;day++){
+      const date=first.slice(0,-2)+String(day).padStart(2,'0'),item=C.classify(school,currentGrade(),date,data.holidays);
+      const classes=['school-day',`is-${item.kind}`,item.weekend?'is-weekend':'',item.holiday?'is-holiday':'',date===D.todayRiga()?'is-today':''].filter(Boolean).join(' ');
+      const button=element('button',String(day),classes);
+      button.type='button';
+      button.dataset.schoolDay=date;
+      button.setAttribute('aria-pressed',String(date===selected));
+      button.setAttribute('aria-label',D.dateLabel(date)+' · '+item.label);
+      if(item.holiday){
+        const dot=element('span',undefined,'school-day-dot');
+        dot.setAttribute('aria-hidden','true');
+        button.append(dot);
+      }
+      cells.append(button);
+    }
+    return cells;
   }
-  function renderDetail(){const item=C.classify(school,currentGrade(),selected,data.holidays);detail.innerHTML=`<span class="hub-kicker">${currentGrade()}. KLASE · IZVĒLĒTAIS DATUMS</span><h3>${esc(D.dateLabel(selected))}</h3><strong>${esc(item.label)}</strong>${item.period?`<p>${esc(D.dateLabel(item.period.start))} – ${esc(D.dateLabel(item.period.end))}</p>`:''}${item.period&&item.holiday?`<p>Arī svētku brīvdiena: ${esc(item.holiday.title)}</p>`:''}<p>${item.kind==='study'?'Mācību pamatgrafiks; pārbaudi savas skolas paziņojumus.':item.kind==='unknown'?'Nenoteikts periods netiek uzskatīts par brīvlaiku.':'Datums attiecas uz pašlaik izvēlēto klasi.'}</p><a href="${esc(data.source.url)}" target="_blank" rel="noopener">Oficiālais skolas datumu avots ↗</a>`;}
-  function renderMonth(){grid.innerHTML=calendarHTML();$$ (root,'[data-school-month-step]').forEach(button=>button.disabled=Number(button.dataset.schoolMonthStep)<0?month.selectedIndex===0:month.selectedIndex===month.options.length-1);renderDetail();}
+  function renderDetail(){
+    const item=C.classify(school,currentGrade(),selected,data.holidays);
+    detail.replaceChildren(
+      element('span',`${currentGrade()}. KLASE · IZVĒLĒTAIS DATUMS`,'hub-kicker'),
+      element('h3',D.dateLabel(selected)),element('strong',item.label),
+    );
+    if(item.period)detail.append(element('p',`${D.dateLabel(item.period.start)} – ${D.dateLabel(item.period.end)}`));
+    if(item.period&&item.holiday)detail.append(element('p',`Arī svētku brīvdiena: ${item.holiday.title}`));
+    detail.append(element('p',item.kind==='study'?'Mācību pamatgrafiks; pārbaudi savas skolas paziņojumus.':item.kind==='unknown'?'Nenoteikts periods netiek uzskatīts par brīvlaiku.':'Datums attiecas uz pašlaik izvēlēto klasi.'));
+    let source;
+    try{source=new URL(data.source.url);}catch{}
+    if(source?.protocol==='https:'){
+      const link=element('a','Oficiālais skolas datumu avots ↗');
+      link.href=source.href;link.target='_blank';link.rel='noopener';
+      detail.append(link);
+    }
+  }
+  function renderMonth(){grid.replaceChildren(calendarCells());$$ (root,'[data-school-month-step]').forEach(button=>button.disabled=Number(button.dataset.schoolMonthStep)<0?month.selectedIndex===0:month.selectedIndex===month.options.length-1);renderDetail();}
   function counter(){const form=$(root,'[data-school-counter]'),output=$(root,'[data-school-counter-result]');if(!active()){output.textContent='Šim gadam oficiālie datumi nav publicēti.';return}try{const result=C.countRange(school,currentGrade(),form.elements.from.value,form.elements.to.value,data.holidays);output.textContent=`${result.free} no ${result.total} dienām bez regulārām mācībām. Mācību pamatgrafika dienas: ${result.study}.${result.unknown?` Nenoteiktas dienas pēc klases mācību gada beigām: ${result.unknown}.`:''}`;}catch(error){output.textContent=error.message;}}
   function render(){
     const valid=active(),ids=new Set(selectedPeriods().map(item=>item.id));
@@ -53,7 +89,14 @@ if(root){
     $(root,'[data-school-empty]').hidden=!valid||visible>0;
     $(root,'[data-school-saved-count]').textContent=[...saved].filter(id=>ids.has(id)).length;
     const next=valid?C.nextBreak(school,currentGrade(),D.todayRiga()):null,nextRoot=$(root,'[data-school-next]');
-    nextRoot.innerHTML=next?`<span>${next.ongoing?'BRĪVLAIKS ŠOBRĪD':'NĀKAMAIS BRĪVLAIKS'}</span><strong>${esc(next.label)}</strong><time datetime="${next.start}">${esc(D.dateLabel(next.start))} – ${esc(D.dateLabel(next.end))}</time><b>${next.ongoing?'Oficiālais periods ir sācies':`Pēc ${next.daysUntil} dienām`}</b>`:'<span>NĀKAMAIS MĀCĪBU GADS</span><strong>Datumi vēl nav publicēti</strong><p>Pārbaudīsim pēc oficiālā grafika publicēšanas.</p>';
+    if(next){
+      const dates=element('time',`${D.dateLabel(next.start)} – ${D.dateLabel(next.end)}`);
+      dates.dateTime=next.start;
+      nextRoot.replaceChildren(element('span',next.ongoing?'BRĪVLAIKS ŠOBRĪD':'NĀKAMAIS BRĪVLAIKS'),
+        element('strong',next.label),dates,element('b',next.ongoing?'Oficiālais periods ir sācies':`Pēc ${next.daysUntil} dienām`));
+    }else{
+      nextRoot.replaceChildren(element('span','NĀKAMAIS MĀCĪBU GADS'),element('strong','Datumi vēl nav publicēti'),element('p','Pārbaudīsim pēc oficiālā grafika publicēšanas.'));
+    }
     $$ (root,'[data-school-export]').forEach(button=>button.disabled=!valid);
     if(valid){renderMonth();counter();}
   }
@@ -69,7 +112,18 @@ if(root){
     const day=event.target.closest('[data-school-day]');if(day){selected=day.dataset.schoolDay;renderMonth();return}
     if(event.target.closest('[data-school-today]')){selected=D.todayRiga();if(selected<school.start||selected>school.end)selected=school.start;month.value=selected.slice(0,7);renderMonth();return}
     if(event.target.closest('[data-school-print]')){
-      document.getElementById('school-print-sheet')?.remove();const sheet=document.createElement('section');sheet.id='school-print-sheet';sheet.className='school-print-sheet';sheet.innerHTML=`<h1>${esc(month.selectedOptions[0].textContent)}</h1><p>${currentGrade()}. klase · Latvijas mācību kalendārs 2026./2027.</p><div class="school-weekdays">${['P','O','T','C','Pk','S','Sv'].map(label=>`<b>${label}</b>`).join('')}</div><div class="school-month-grid">${calendarHTML()}</div><div class="school-calendar-legend"><span class="legend-break">Brīvlaiks</span><span class="legend-holiday">Svētku brīvdiena</span><span class="legend-weekend">Nedēļas nogale</span></div><footer>Kalendārs365 · kalendars365.lv</footer>`;document.body.append(sheet);document.body.classList.add('school-printing');window.addEventListener('afterprint',()=>{document.body.classList.remove('school-printing');sheet.remove()},{once:true});window.print();
+      document.getElementById('school-print-sheet')?.remove();
+      const sheet=element('section',undefined,'school-print-sheet');
+      sheet.id='school-print-sheet';
+      const weekdays=element('div',undefined,'school-weekdays');
+      weekdays.append(...['P','O','T','C','Pk','S','Sv'].map(label=>element('b',label)));
+      const printGrid=element('div',undefined,'school-month-grid');
+      printGrid.append(calendarCells());
+      const legend=element('div',undefined,'school-calendar-legend');
+      legend.append(element('span','Brīvlaiks','legend-break'),element('span','Svētku brīvdiena','legend-holiday'),element('span','Nedēļas nogale','legend-weekend'));
+      sheet.append(element('h1',month.selectedOptions[0].textContent),element('p',`${currentGrade()}. klase · Latvijas mācību kalendārs 2026./2027.`),weekdays,printGrid,legend,element('footer','Kalendārs365 · kalendars365.lv'));
+      document.body.append(sheet);document.body.classList.add('school-printing');
+      window.addEventListener('afterprint',()=>{document.body.classList.remove('school-printing');sheet.remove()},{once:true});window.print();
     }
   });
   $(root,'[data-school-counter]').addEventListener('submit',event=>{event.preventDefault();counter()});render();

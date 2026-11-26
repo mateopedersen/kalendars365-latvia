@@ -11,8 +11,10 @@ const coverCatalog=JSON.parse(read('_data/social-images.json')).pages;
 const expectedPhotoPages=Object.values(coverCatalog).filter(row=>row.sources?.length).length;
 const expectedPhotoSources=Object.values(coverCatalog).reduce((count,row)=>count+(row.sources?.length||0),0);
 const reviewedCreators=new Map([
+ ['Ainars Brūvelis',{'@type':'Person',name:'Ainars Brūvelis'}],
  ['AleWi',{'@type':'Person',name:'AleWi'}],
  ['Avi1111 dr. avishai teicher',{'@type':'Person',name:'Avi1111 dr. avishai teicher'}],
+ ['Guntars Mednis',{'@type':'Person',name:'Guntars Mednis'}],
  ['Ieva Ābele / Saeima',{'@type':'Person',name:'Ieva Ābele'}],
  ['Jonas Rogowski',{'@type':'Person',name:'Jonas Rogowski'}],
  ['Juris Vīgulis / Saeimas Kanceleja (Saeima)',{'@type':'Person',name:'Juris Vīgulis'}],
@@ -21,6 +23,7 @@ const reviewedCreators=new Map([
  ['L.C. Nøttaasen',{'@type':'Person',name:'L.C. Nøttaasen'}],
  ['Nicolas G. Mertens',{'@type':'Person',name:'Nicolas G. Mertens'}],
  ['Raul Cortez999',{'@type':'Person',name:'Raul Cortez999'}],
+ ['Savannah Rivka',{'@type':'Person',name:'Savannah Rivka'}],
  ['Spekozols',{'@type':'Person',name:'Spekozols'}],
  ['Susan Slater',{'@type':'Person',name:'Susan Slater'}],
  ['Treisijs',{'@type':'Person',name:'Treisijs'}],
@@ -89,6 +92,9 @@ test('image metadata resolver distinguishes original compositions, known creator
   ['/assets/tradition-covers/november21-39fca328832d-960.webp','Olgerts V'],
   ['/assets/blog/flag-780.webp','Xil'],
   ['/assets/blog/easter-960.webp','Nicolas G. Mertens'],
+  ['/assets/tradition-covers/tradition-rudens-ekvinokcija-e8fcbccbb1a0-1280.webp','Guntars Mednis'],
+  ['/assets/cities-night/riga-night-b42caec573cd.webp','Ainars Brūvelis'],
+  ['/assets/occasions/language-960.webp','Savannah Rivka'],
   ['/assets/tradition-covers/november18-cb7a425db689-960.webp','Ernests Dinka']
  ]);
  for(const [src,name] of reportedSources){
