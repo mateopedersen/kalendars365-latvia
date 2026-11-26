@@ -50,7 +50,10 @@ if(root) {
  }
  doors.forEach((door,i)=>door.addEventListener('click',()=>openDay(i+1,false,door)));
  root.querySelector('[data-advent-preview]').addEventListener('click',e=>openDay(1,true,e.currentTarget));
- yearInput.addEventListener('change',()=>{window.location.assign(`/adventes-kalendars/${yearInput.value}/#adventes-lodzini`);});
+ yearInput.addEventListener('change',()=>{
+  const selected=Number(yearInput.value);
+  if(YEARS.includes(selected))window.location.assign(`/adventes-kalendars/${selected}/#adventes-lodzini`);
+ });
  let lastDate=rigaDate();let clockTimer=setInterval(()=>{if(document.hidden)return;const now=rigaDate();if(now!==lastDate){lastDate=now;refresh();}},30000);
  document.addEventListener('visibilitychange',()=>{if(!document.hidden)refresh();});
  window.addEventListener('storage',e=>{if(e.key===`k365:advent:v1:${year}`){opened=readProgress(storage,year);refresh();}});
