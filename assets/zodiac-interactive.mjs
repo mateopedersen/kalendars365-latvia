@@ -19,15 +19,15 @@ function makeDialog(){
  renderer=async()=>{if(viewer)return viewer;const {createSculptureViewer}=await import('./zodiac-viewer.mjs'+revision);viewer=createSculptureViewer(canvas,fail);return viewer;};
 }
 async function loadModel(slug){
- const model=zodiacModels[slug];if(!model)return;const token=++revisionId;request?.abort();request=new AbortController();
+ if(!Object.hasOwn(zodiacModels,slug))return;const model=zodiacModels[slug];const token=++revisionId;request?.abort();request=new AbortController();
  dialog.querySelector('#zodiac-model-title').textContent=model.name;dialog.querySelector('[data-model-sign]').value=slug;
  const fallback=dialog.querySelector('.zodiac-model-fallback'),canvas=dialog.querySelector('canvas'),stage=dialog.querySelector('.zodiac-model-stage'),status=dialog.querySelector('[data-model-status]');
- delete stage.dataset.modelReady;fallback.src=`/assets/zodiac/${slug}.svg?v=${model.version}`;fallback.hidden=false;canvas.hidden=true;stage.setAttribute('aria-busy','true');
- dialog.querySelector('[data-model-horoscope]').href=`/horoskops/${slug}/`;dialog.querySelector('[data-model-horoscope]').firstChild.textContent=`Atvērt ${model.genitive.toLocaleLowerCase('lv-LV')} horoskopu `;
+ delete stage.dataset.modelReady;fallback.src=`/assets/zodiac/${encodeURIComponent(slug)}.svg?v=${encodeURIComponent(model.version)}`;fallback.hidden=false;canvas.hidden=true;stage.setAttribute('aria-busy','true');
+ dialog.querySelector('[data-model-horoscope]').href=`/horoskops/${encodeURIComponent(slug)}/`;dialog.querySelector('[data-model-horoscope]').firstChild.textContent=`Atvērt ${model.genitive.toLocaleLowerCase('lv-LV')} horoskopu `;
  dialog.querySelector('[data-model-play]').setAttribute('aria-pressed','false');dialog.querySelector('[data-model-play]').textContent='Griezt 360°';dialog.querySelector('[data-model-zoom]').value='1';viewer?.play(false);
  dialog.querySelector('.zodiac-model-toolbar').hidden=true;status.textContent='Ielādējam 3D modeli…';
  try{
-  let bytes=models.get(slug);if(!bytes){const response=await fetch(`/assets/zodiac/models/${slug}.bin?v=${model.hash}`,{signal:request.signal});if(!response.ok)throw Error('Model unavailable');bytes=await response.arrayBuffer();if(bytes.byteLength!==model.bytes)throw Error('Model size mismatch');if(token!==revisionId)return;models.set(slug,bytes);}
+  let bytes=models.get(slug);if(!bytes){const response=await fetch(`/assets/zodiac/models/${encodeURIComponent(slug)}.bin?v=${encodeURIComponent(model.hash)}`,{signal:request.signal});if(!response.ok)throw Error('Model unavailable');bytes=await response.arrayBuffer();if(bytes.byteLength!==model.bytes)throw Error('Model size mismatch');if(token!==revisionId)return;models.set(slug,bytes);}
   const v=await renderer();if(token!==revisionId||!dialog.open)return;
   canvas.hidden=false;fallback.hidden=true;v.setVisible(true);v.setModel(bytes);dialog.querySelector('.zodiac-model-toolbar').hidden=false;
   status.textContent='Velc skulptūru, lai apskatītu no visām pusēm. Darbojas arī bulttaustiņi.';stage.dataset.modelReady=slug;
