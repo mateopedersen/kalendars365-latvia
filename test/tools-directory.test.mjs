@@ -51,7 +51,7 @@ test('all catalogued tools are real links in the initial HTML, with independent 
 test('directory reading copy contains no dash separators or dashed year ranges',()=>{
  const html=fs.readFileSync('_site/visi-riki/index.html','utf8');
  const main=html.match(/<main\b[^>]*>([\s\S]*?)<\/main>/)?.[1];assert(main);
- const copy=main.replace(/<(script|style)\b[^>]*>[\s\S]*?<\/\1>/g,'').replace(/<[^>]+>/g,' ');
+ const copy=Array.from(main.matchAll(/<(script|style)\b[^>]*>[\s\S]*?<\/\1>|<[^>]+>|([^<]+)/gi), match => match[2] ?? '').join(' ');
  assert(!/[-\u2010-\u2015\u2212]/u.test(copy),'Visible directory copy must use sentences instead of dash separators');
  assert(!copy.includes('Tavs nākamais plāns sākas te.'));
  assert(html.includes('<h1>Kalendāri un plānošanas rīki</h1>'));

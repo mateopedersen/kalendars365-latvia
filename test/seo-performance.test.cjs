@@ -1,3 +1,4 @@
+const {decodeMarkupText}=require('./markup-text.cjs');
 'use strict';
 const test=require('node:test'),assert=require('node:assert/strict'),fs=require('node:fs'),path=require('node:path'),crypto=require('node:crypto');
 const root=path.resolve(__dirname,'..'),read=p=>fs.readFileSync(path.join(root,p),'utf8'),json=p=>JSON.parse(read(p));
@@ -38,7 +39,7 @@ test('all social covers are unique page-bound JPEGs and match their actual dimen
   assert.deepEqual([Number(meta(html,'og:image:width')),Number(meta(html,'og:image:height'))],dimensions(file),p.url);
   assert.equal(image,'https://kalendars365.lv'+covers[p.url].src,p.url);assert.ok(!seen.has(image),p.url);seen.add(image);
   assert.equal(meta(html,'og:image:type'),'image/jpeg',p.url);
-  assert.equal(meta(html,'og:image:alt').replaceAll('&amp;','&').replaceAll('&#39;',"'").replaceAll('&quot;','"'),covers[p.url].alt,p.url);
+  assert.equal(decodeMarkupText(meta(html,'og:image:alt')),covers[p.url].alt,p.url);
   assert.equal(meta(html,'twitter:image'),image,p.url);
  }
 });

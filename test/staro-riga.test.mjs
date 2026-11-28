@@ -1,3 +1,5 @@
+import markupText from './markup-text.cjs';
+const {decodeMarkupText}=markupText;
 import {test} from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
@@ -10,7 +12,7 @@ const festival=read('_data/staro-riga.json');
 const occasion=read('_data/occasions.json').find(item=>item.slug==='staro-riga');
 const html=fs.readFileSync('_site'+route+'index.html','utf8');
 const dates=['2026-11-15','2026-11-16','2026-11-17','2026-11-18'];
-const decode=value=>value.replaceAll('&amp;','&').replaceAll('&quot;','"').replaceAll('&#39;',"'").replaceAll('&lt;','<').replaceAll('&gt;','>');
+const decode=value=>decodeMarkupText(value);
 const plain=value=>decode(value.replace(/<[^>]*>/g,' ')).replace(/\s+/g,' ').trim();
 const anchors=[...html.matchAll(/<a\b[^>]*\bhref="([^"]+)"[^>]*>([\s\S]*?)<\/a>/g)].map(match=>({href:decode(match[1]),label:plain(match[2])}));
 const meta=name=>{

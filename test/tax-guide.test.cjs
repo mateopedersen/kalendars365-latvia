@@ -28,7 +28,7 @@ test('deadline calculations distinguish declaration rules, weekends and midsumme
  const ics=api.calendar(self);assert(ics.includes('DTSTART;VALUE=DATE:20270115'));assert(ics.includes('BEGIN:VALARM'));assert(!ics.includes('RRULE'));
 });
 test('tax page is discoverable, canonical, local, and connected to official payment and form sources',()=>{
- const h=fs.readFileSync('_site/nodoklu-kalkulators/index.html','utf8');assert.equal((h.match(/<h1\b/g)||[]).length,1);assert(h.includes('https://kalendars365.lv/nodoklu-kalkulators/'));assert(h.includes('https://eds.vid.gov.lv/'));assert(h.includes('data-tax-dates'));assert(h.includes('VID veidlapu katalogs'));assert(h.includes('mēneša algas modelis'));
+ const h=fs.readFileSync('_site/nodoklu-kalkulators/index.html','utf8');assert.equal((h.match(/<h1\b/g)||[]).length,1);assert(h.includes('href="https://kalendars365.lv/nodoklu-kalkulators/"'));assert(h.includes('href="https://eds.vid.gov.lv/"'));assert(h.includes('data-tax-dates'));assert(h.includes('VID veidlapu katalogs'));assert(h.includes('mēneša algas modelis'));
  const js=fs.readFileSync('assets/tax-guide.js','utf8');assert(!/fetch\(|localStorage|sendBeacon/.test(js));
  assert(fs.readFileSync('_site/sitemap.xml','utf8').includes('/nodoklu-kalkulators/'));assert(fs.readFileSync('_site/visi-riki/index.html','utf8').includes('/nodoklu-kalkulators/'));
 });

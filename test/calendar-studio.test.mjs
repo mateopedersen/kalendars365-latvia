@@ -17,7 +17,7 @@ test('studio uses the same Latvia holiday dates, including substitute days',()=>
 test('studio project normalization preserves safe content and rejects remote image injection',()=>{
   const state=normalize({...initialState(),year:2026,quality:600,locale:'sl',title:'<script>alert(1)</script>',photo:'https://example.org/private.jpg',layers:[{id:'layer-safe',type:'image',src:'https://example.org/a.jpg'},{id:'text-safe',type:'text',text:'Latvija <3',x:500,y:-5}]});
   assert.equal(state.year,2027);assert.equal(state.quality,600);assert.equal(state.locale,'lv');assert.equal(state.photo,'');assert.equal(state.layers.length,1);assert.equal(state.layers[0].id,'text-safe');assert.equal(state.layers[0].x,100);assert.equal(state.layers[0].y,0);
-  const svg=renderCalendar(state);assert(!svg.includes('<script>'));assert(svg.includes('&lt;script&gt;'));assert(!svg.includes('example.org'));
+  const svg=renderCalendar(state);assert(!svg.includes('<script>'));assert(svg.includes('&lt;script&gt;'));assert.doesNotMatch(svg, /\bhref=["']https?:\/\//i);
   assert.throws(()=>normalize({version:999}));
 });
 test('personal dates recur only on valid calendar days and export complete pages',()=>{

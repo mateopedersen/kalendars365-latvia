@@ -1,3 +1,5 @@
+import markupText from './markup-text.cjs';
+const {decodeMarkupText}=markupText;
 import {test} from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
@@ -56,7 +58,7 @@ test('real font bounds and full notes survive every planner view and design',()=
   const model={...K.periodRange('2028-02-29',type),title:'W'.repeat(70),rows:[{date:'2028-02-29',text:'W'.repeat(200)+'\nĀboli, Čiekuri, ģimene un dienas piezīme '.repeat(90)}]};
   const pages=plannerScenes(model,{design});assert(pages.length>1);
   for(const page of pages)for(const match of page.matchAll(/<text x="([\d.]+)" y="([\d.]+)"[^>]*font-size="([\d.]+)"([^>]*)>(.*?)<\/text>/g)){
-   const content=match[5].replace(/&amp;/g,'&').replace(/&apos;/g,"'").replace(/&quot;/g,'"').replace(/&lt;/g,'<').replace(/&gt;/g,'>'),f=fonts[match[4].includes('700')?1:0],width=f.layout(content).positions.reduce((n,p)=>n+p.xAdvance,0)/f.unitsPerEm*Number(match[3]);
+   const content=decodeMarkupText(match[5]),f=fonts[match[4].includes('700')?1:0],width=f.layout(content).positions.reduce((n,p)=>n+p.xAdvance,0)/f.unitsPerEm*Number(match[3]);
    const x=Number(match[1]),left=x-(match[4].includes('text-anchor="end"')?width:match[4].includes('text-anchor="middle"')?width/2:0);
    const pageHeight=Number(page.match(/viewBox="[\d.]+ [\d.]+ [\d.]+ ([\d.]+)"/)[1]),scale=Number(match[3])/f.unitsPerEm,y=Number(match[2]);
    assert(left>=0&&left+width<=961,content);assert(y-f.ascent*scale>=0&&y-f.descent*scale<=pageHeight,content);

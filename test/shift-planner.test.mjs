@@ -1,3 +1,5 @@
+import markupText from './markup-text.cjs';
+const {decodeMarkupText}=markupText;
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
@@ -26,7 +28,7 @@ test('15 original vector designs keep actual shift data, full notes, brand and s
  const model=shiftModel(state,2028,2,K);assert.equal(shiftDesigns.length,15);assert.equal(new Set(shiftDesigns.map(d=>d.name)).size,15);assert.equal(new Set(shiftDesigns.map(d=>d.motif)).size,15);assert.equal(new Set(shiftDesigns.map(d=>d.layout)).size,4);
  for(const d of shiftDesigns){const scenes=plannerScenes(model,{design:d.id}),all=scenes.join('');assert(scenes.length>1);assert(all.includes('data-shift-design'));assert(all.includes('Kalendārs365™'));assert(all.includes('kalendars365.lv'));assert(all.includes('29'));assert(all.includes('20:00-08:00'));assert(all.includes('Paņemt atslēgas'));assert(all.includes('2028-03-01'));assert(!/NaN|undefined|Infinity|<image|<script|<foreignObject/.test(all));
   for(const match of all.matchAll(/<text\b([^>]+)>(.*?)<\/text>/g)){
-   const a=Object.fromEntries([...match[1].matchAll(/([\w-]+)="([^"]*)"/g)].map(x=>[x[1],x[2]])),value=match[2].replaceAll('&amp;','&').replaceAll('&lt;','<').replaceAll('&gt;','>').replaceAll('&quot;','"').replaceAll('&apos;',"'"),w=textWidth(value,+a['font-size'],a['font-weight']==='700'),left=+a.x-(a['text-anchor']==='end'?w:a['text-anchor']==='middle'?w/2:0);
+   const a=Object.fromEntries([...match[1].matchAll(/([\w-]+)="([^"]*)"/g)].map(x=>[x[1],x[2]])),value=decodeMarkupText(match[2]),w=textWidth(value,+a['font-size'],a['font-weight']==='700'),left=+a.x-(a['text-anchor']==='end'?w:a['text-anchor']==='middle'?w/2:0);
    assert(left>=0&&left+w<=1000.1,`${d.name}: ${value}`);assert(+a.y>0&&+a.y<=700,d.name+': '+value);
   }
  }

@@ -58,7 +58,7 @@ test('seven replacements have unique licensed sources and checksum-bound visual 
   assert.equal(actual,p.sourceSha256,p.slug);assert.equal(p.visualReview.sourceSha256,actual);
   assert(p.visualReview.evidence.length>20);assert(p.author.length>2);
   assert.match(p.license,/^CC BY/);assert.match(p.licenseUrl,/^https:\/\/creativecommons.org\//);
-  assert.match(p.sourceUrl,/^https:\/\/commons.wikimedia.org\/wiki\/File:/);
+  assert.match(p.sourceUrl,/^https:\/\/commons\.wikimedia\.org\/wiki\/File:/);
   assert.equal(articles.find(a=>a.url==='/svetki-un-tradicijas/'+p.slug+'/').photo.id,p.id);
  }
  const all=new Map(read('_data/occasions.json').map(a=>[a.slug,a.photo]));

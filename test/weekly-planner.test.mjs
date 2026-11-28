@@ -1,3 +1,5 @@
+import markupText from './markup-text.cjs';
+const {decodeMarkupText}=markupText;
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {weeklyScenes,weeklyDesigns,weeklyFilename,weeklyPeriod} from '../assets/weekly-planner.mjs';
@@ -23,7 +25,7 @@ test('all fifteen weekly designs preserve Latvian text and keep it inside the pa
  for(const d of weeklyDesigns){const pages=plannerScenes(model,{design:d.id});assert(pages[0].includes('29'));assert(pages[0].includes('Kalendārs365™'));assert(pages[0].includes('kalendars365.lv'));assert.equal((pages[0].match(/Tikšanās ar ģimeni/g)||[]).length,7);assert(!pages.some(p=>/NaN|Infinity|undefined|<image|<script|<foreignObject/.test(p)));
   for(const svg of pages)for(const m of svg.matchAll(/<text\b([^>]+)>(.*?)<\/text>/g)){
    const a=Object.fromEntries([...m[1].matchAll(/([\w-]+)="([^"]*)"/g)].map(x=>[x[1],x[2]]));
-   const value=m[2].replaceAll('&amp;','&').replaceAll('&lt;','<').replaceAll('&gt;','>').replaceAll('&apos;',"'").replaceAll('&quot;','"');
+   const value=decodeMarkupText(m[2]);
    const width=textWidth(value,+a['font-size'],a['font-weight']==='700'),start=+a.x-(a['text-anchor']==='end'?width:a['text-anchor']==='middle'?width/2:0);
    assert(start>=0&&start+width<=1001,`${d.name}: ${value}`);assert(+a.y>=0&&+a.y<=700);
   }

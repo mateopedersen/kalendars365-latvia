@@ -1,3 +1,5 @@
+import markupText from './markup-text.cjs';
+const {decodeMarkupText}=markupText;
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
@@ -11,7 +13,7 @@ const site = process.env.K365_SITE || '_site';
 const photo = '/pilsetas-un-fotografijas/';
 const errors = ['/404.html', '/500.html'];
 const xml = read(path.join(site, 'image-sitemap.xml'));
-const unescape = value => value.replaceAll('&amp;', '&').replaceAll('&quot;', '"').replaceAll('&#39;', "'").replaceAll('&lt;', '<').replaceAll('&gt;', '>');
+const unescape = value => decodeMarkupText(value);
 const htmlFor = url => read(path.join(site, url, url.endsWith('/') ? 'index.html' : ''));
 const robots = html => html.match(/<meta name="robots" content="([^"]+)"/)?.[1].split(',');
 const records = [...xml.matchAll(/<url><loc>([^<]+)<\/loc>([\s\S]*?)<\/url>/g)].map(match => ({url: unescape(match[1]), images: [...match[2].matchAll(/<image:loc>([^<]+)<\/image:loc>/g)].map(image => unescape(image[1]))}));

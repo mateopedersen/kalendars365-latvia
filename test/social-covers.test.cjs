@@ -1,3 +1,4 @@
+const {decodeMarkupText}=require('./markup-text.cjs');
 'use strict';
 const test=require('node:test'),assert=require('node:assert/strict'),fs=require('node:fs'),crypto=require('node:crypto');
 const read=p=>fs.readFileSync(p),json=p=>JSON.parse(read(p)),sha=b=>crypto.createHash('sha256').update(b).digest('hex');
@@ -28,7 +29,7 @@ test('legacy preview addresses resolve directly to the corresponding reviewed JP
 });
 test('all 901 pages expose coherent complete Open Graph and large-image Twitter metadata',()=>{
  const contracts=json('_data/seo-contract.json').pages;
- const decode=s=>s.replaceAll('&amp;','&').replaceAll('&quot;','"').replaceAll('&#39;',"'").replaceAll('&lt;','<').replaceAll('&gt;','>');
+ const decode=s=>decodeMarkupText(s);
  for(const r of rows){
   const html=read('_site'+r.url+(r.url.endsWith('/')?'index.html':'')).toString().split('</head>')[0],metadata=new Map();
   for(const tag of html.matchAll(/<meta\b[^>]*>/g)){

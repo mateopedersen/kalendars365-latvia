@@ -36,7 +36,7 @@ module AdvertisingPlacement
     raise 'A canonical advertising page has no complete heading block'
   end
   def self.word_count(html)
-    html.gsub(/<(script|style)\b[^>]*>[\s\S]*?<\/\1>/i, '').gsub(/<[^>]+>/, ' ').scan(/[\p{L}\p{N}]+/u).length
+    html.scan(/<(script|style)\b[^>]*>[\s\S]*?<\/\1>|<[^>]+>|([\p{L}\p{N}]+)/iu).count { |_tag, word| word }
   end
   def self.secondary(html, markup)
     return html if markup.to_s.strip.empty?
