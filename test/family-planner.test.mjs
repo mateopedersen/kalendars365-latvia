@@ -1,3 +1,5 @@
+import markupText from './markup-text.cjs';
+const {decodeMarkupText}=markupText;
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {familyModel,familyScenes,familyDesigns,familyFilename} from '../assets/family-planner.mjs';
@@ -20,7 +22,7 @@ test('every family layout retains all actual family information and has safe vec
   for(const value of ['Līva','Jānis','16:30–17:30','Mūzikas','Sakārtot','paveikts','Dārzeņu','kartupeļi','Āboli','2 kg','Piens','Nopirkts'])assert(all.includes(value),d.name+': '+value);
   assert(!/NaN|Infinity|undefined|<image|<script|<foreignObject/.test(all));
   for(const m of all.matchAll(/<text\b([^>]+)>(.*?)<\/text>/g)){
-   const a=Object.fromEntries([...m[1].matchAll(/([\w-]+)="([^"]*)"/g)].map(x=>[x[1],x[2]]));const value=m[2].replaceAll('&amp;','&').replaceAll('&lt;','<').replaceAll('&gt;','>').replaceAll('&quot;','"').replaceAll('&apos;',"'");const width=textWidth(value,+a['font-size'],a['font-weight']==='700'),start=+a.x-(a['text-anchor']==='end'?width:a['text-anchor']==='middle'?width/2:0);assert(start>=0&&start+width<=1001,d.name+': '+value);assert(+a.y<=700);
+   const a=Object.fromEntries([...m[1].matchAll(/([\w-]+)="([^"]*)"/g)].map(x=>[x[1],x[2]]));const value=decodeMarkupText(m[2]);const width=textWidth(value,+a['font-size'],a['font-weight']==='700'),start=+a.x-(a['text-anchor']==='end'?width:a['text-anchor']==='middle'?width/2:0);assert(start>=0&&start+width<=1001,d.name+': '+value);assert(+a.y<=700);
   }
  }
 });

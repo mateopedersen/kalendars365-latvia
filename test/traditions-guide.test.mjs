@@ -48,7 +48,7 @@ test('all 25 new photographs have reviewed, checksum-bound source copies and val
     assert.equal(sha(p.sourceCopy),p.sourceSha256,p.slug);
     assert.equal(p.visualReview.sourceSha256,p.sourceSha256);
     assert(p.visualReview.evidence.length>20);
-    assert.match(p.sourceUrl,/^https:\/\/commons.wikimedia.org\/wiki\/File:/);
+    assert.match(p.sourceUrl,/^https:\/\/commons\.wikimedia\.org\/wiki\/File:/);
     assert.match(p.license,/^(CC BY|Public domain)/);
     assert.match(p.licenseUrl,/^https?:\/\/creativecommons.org\//);
     assert(p.author.length>2);

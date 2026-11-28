@@ -3,7 +3,7 @@ import fs from 'node:fs';
 import {createHash} from 'node:crypto';
 const photos=JSON.parse(fs.readFileSync('_data/astronomy-photos.json')).photos;
 const hashes=new Set();
-for(const p of photos){const file=fs.readFileSync('.'+p.src);assert.equal(createHash('sha256').update(file).digest('hex'),p.sha256);assert(p.source.startsWith('https://')&&new URL(p.source).hostname.endsWith('nasa.gov'));assert(p.rightsUrl.includes('nasa-brand-center'));assert(p.alt.length>25);hashes.add(p.sha256);}
+for(const p of photos){const file=fs.readFileSync('.'+p.src);assert.equal(createHash('sha256').update(file).digest('hex'),p.sha256);assert(p.source.startsWith('https://')&&/(?:^|\.)nasa\.gov$/.test(new URL(p.source).hostname));assert(p.rightsUrl.includes('nasa-brand-center'));assert(p.alt.length>25);hashes.add(p.sha256);}
 assert.equal(hashes.size,6);
 const covers=[];
 assert(!fs.existsSync('_site/meness-kalendars/2026/index.html'));

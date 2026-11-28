@@ -1,3 +1,5 @@
+import markupText from './markup-text.cjs';
+const {decodeMarkupText}=markupText;
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
@@ -9,7 +11,7 @@ import {schoolDisplayWidth} from '../assets/school-display-metrics.mjs';
 import {weeklyVectorPDF} from '../assets/planner-vector-pdf.mjs';
 const lesson={id:'math',subject:'Matemātika',weekday:1,start:'08:15',end:'09:00',room:'204',teacher:'Līga Ķirše',from:'2028-02-28',until:'2028-03-06',color:'#852843'};
 const data={version:1,template:4,lessons:[lesson,{...lesson,id:'sunday',subject:'Mūzika',weekday:0}],tasks:[{id:'task',title:'Izlasīt stāstu',date:'2028-02-29',type:'homework',subject:'Latviešu valoda',priority:'high',done:true},{id:'later',title:'Nākamā nedēļa',date:'2028-03-06',type:'test',priority:'normal',done:false}]};
-const values=svg=>[...svg.matchAll(/<text\b[^>]*>(.*?)<\/text>/g)].map(m=>m[1].replaceAll('&amp;','&').replaceAll('&lt;','<').replaceAll('&gt;','>').replaceAll('&quot;','"').replaceAll('&apos;',"'")).join(' ');
+const values=svg=>[...svg.matchAll(/<text\b[^>]*>(.*?)<\/text>/g)].map(m=>decodeMarkupText(m[1])).join(' ');
 test('selected week obeys recurrence bounds, leap day, Sunday and ISO year, preserving all lesson and task fields',()=>{
  const before=structuredClone(data),m=schoolModel(data,'2028-02-29');assert.deepEqual(data,before);assert.equal(m.start,'2028-02-28');assert.equal(m.rows.length,7);assert.equal(m.rows[6].date,'2028-03-05');assert.equal(m.rows[0].lessons[0].teacher,'Līga Ķirše');assert.equal(m.rows[1].tasks[0].done,true);assert.equal(m.rows[6].lessons[0].subject,'Mūzika');assert.equal(m.rows.flatMap(r=>r.tasks).length,1);assert.equal(schoolModel(data,'2028-03-13').rows.flatMap(r=>r.lessons).length,0);assert.equal(schoolModel(data,'2028-02-21').rows.flatMap(r=>r.lessons).length,0);assert(schoolFilename(schoolModel({},'2030-12-31'),15).includes('2031-01-15'));assert.throws(()=>schoolModel({},'2028-02-30'));
 });
